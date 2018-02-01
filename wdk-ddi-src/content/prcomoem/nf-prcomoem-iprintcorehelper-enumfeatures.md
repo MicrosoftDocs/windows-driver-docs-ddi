@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21eddcfe-fe86-4135-a91c-42ec6e8e428a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintCoreHelper::EnumFeatures, print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml, IPrintCoreHelper, EnumFeatures, IPrintCoreHelper interface [Print Devices], EnumFeatures method, print.iprintcorehelper_enumfeatures, EnumFeatures method [Print Devices], IPrintCoreHelper interface, EnumFeatures method [Print Devices], IPrintCoreHelper::EnumFeatures
+ms.keywords: print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml, IPrintCoreHelper, prcomoem/IPrintCoreHelper::EnumFeatures, EnumFeatures method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper::EnumFeatures, print.iprintcorehelper_enumfeatures, IPrintCoreHelper interface [Print Devices], EnumFeatures method, EnumFeatures, EnumFeatures method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ STDMETHOD EnumFeatures(
 
 
 
-#### - pdwNumFeatures [out]
+### -param pdwNumFeatures [out]
 
 A pointer to a variable that receives the number of feature keywords in the array that is pointed to by the <i>pFeatureList</i> parameter.
 

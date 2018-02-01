@@ -75,7 +75,7 @@ typedef FILTER_SET_MODULE_OPTIONS (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER);
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
@@ -145,14 +145,14 @@ If
 
 A filter driver specifies the default values for the changeable filter module options in the
     NDIS_FILTER_DRIVER_CHARACTERISTICS structure that it passes to the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function during driver initialization.
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function during driver initialization.
 
 To change options for a specific filter module at run time, the filter driver must also specify an
     entry point for 
     <i>FilterSetModuleOptions</i> in the 
-    <mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
-    NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+    NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure.
 
 To specify the options that should be changed, 
     <i>FilterSetModuleOptions</i> defines a characteristics structure and calls the 
@@ -164,33 +164,33 @@ The possible characteristics structures that can be specified from
     <i>FilterSetModuleOptions</i> are:
 
 
-<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
-       NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+       NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_generic_characteristics" tabindex="0"><b>
-       NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_generic_characteristics.md">
+       NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_tcp_characteristics" tabindex="0"><b>
-       NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_tcp_characteristics.md">
+       NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_generic_characteristics" tabindex="0"><b>
-       NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_generic_characteristics.md">
+       NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_tcp_characteristics" tabindex="0"><b>
-       NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_tcp_characteristics.md">
+       NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
 For information on the last four structures, see 
-    <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-    documentation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    documentation</a>.
 
 The options that are specified in each characteristics structure can be different for each filter
     module.
@@ -237,17 +237,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
-<mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
-   NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
 
  
 

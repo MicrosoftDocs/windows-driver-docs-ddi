@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eb4500cb-de96-4fbe-971c-d7badc6993af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilpsmediaconfiguration_2, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista], *LPRILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION, rilapitypes/RILPSMEDIACONFIGURATION
+ms.keywords: netvista.rilpsmediaconfiguration_2, RILPSMEDIACONFIGURATION, *LPRILPSMEDIACONFIGURATION, rilapitypes/RILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILPSMEDIACONFIGURATION {
 
 
 
-#### - dwMediaPreference
+### -field dwMediaPreference
 
 
 
-#### - dwServiceType
+### -field dwServiceType
 
 

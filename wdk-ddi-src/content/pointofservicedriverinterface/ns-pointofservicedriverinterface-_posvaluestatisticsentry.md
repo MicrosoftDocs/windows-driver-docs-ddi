@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry, PosValueStatisticsEntry, PosValueStatisticsEntry structure"
+ms.keywords: pointofservicedriverinterface/PosValueStatisticsEntry, _PosValueStatisticsEntry, PosValueStatisticsEntry, pos.posvaluestatisticsentry, PosValueStatisticsEntry structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PosValueStatisticsEntry {
 
 
 
-#### - EntryName
+### -field EntryName
 
 Indicates the NULL-terminated statistic name (for example, <i>GoodScanCount</i> or <i>BadScanCount</i>).
 
 
-#### - Value
+### -field Value
 
 Indicates the current statistic value.
 

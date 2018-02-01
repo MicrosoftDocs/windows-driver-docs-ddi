@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cc0da962-beeb-4035-a68e-e5b856cd5d9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportinitialize, VideoPortInitialize function [Display Devices], VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, VideoPortInitialize, video/VideoPortInitialize
+ms.keywords: VideoPortInitialize, VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, VideoPortInitialize function [Display Devices], display.videoportinitialize, video/VideoPortInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG VideoPortInitialize(
 
 
 
-#### - Argument1
+### -param Argument1
 
 A pointer with which the operating system called <a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>.
 
 
-#### - Argument2
+### -param Argument2
 
 A second pointer with which the operating system called <b>DriverEntry</b>.
 
 
-#### - HwInitializationData
+### -param HwInitializationData
 
 Pointer to the <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a> structure on the stack. The miniport driver's <b>DriverEntry</b> routine zero-initialized this structure and then filled it in with driver-specific configuration information describing a video adapter that the miniport driver can support.
 
 
-#### - HwContext
+### -param HwContext
 
 Must be <b>NULL</b>.
 
@@ -135,17 +135,17 @@ Collects and stores pertinent information in the device extension.
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
-
 <a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f17f6935-02ad-44f4-a82a-0d51802fde6f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasSetPropChanged, image.wiassetpropchanged, wiasFncs_8ad54c6e-3a20-4099-a139-1a05f6ee1e5e.xml, wiamdef/wiasSetPropChanged, wiasSetPropChanged function [Imaging Devices]
+ms.keywords: wiasFncs_8ad54c6e-3a20-4099-a139-1a05f6ee1e5e.xml, wiamdef/wiasSetPropChanged, wiasSetPropChanged function [Imaging Devices], wiasSetPropChanged, image.wiassetpropchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT _stdcall wiasSetPropChanged(
 
 
 
-#### - propid
+### -param propid
 
 Specifies the property identifier of the property being changed.
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure that contains the current property context.
 
 
-#### - bChanged
+### -param bChanged
 
 Specifies the BOOL value that is used to set a particular element in the array pointed to by the <b>pChanged</b> member of a WIA_PROPERTY_CONTEXT structure. See the <b>Remarks</b> section for more details.
 
@@ -101,9 +101,9 @@ The <b>pChanged</b> member of the <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_pr
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
 
  
 

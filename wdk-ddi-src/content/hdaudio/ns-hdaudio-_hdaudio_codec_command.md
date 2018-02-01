@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], PHDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], hdaudio/HDAUDIO_CODEC_COMMAND, audio.hdaudio_codec_command, _HDAUDIO_CODEC_COMMAND
+ms.keywords: hdaudio/HDAUDIO_CODEC_COMMAND, audio.hdaudio_codec_command, PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, HDAUDIO_CODEC_COMMAND structure [Audio Devices], *PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], _HDAUDIO_CODEC_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,31 +81,11 @@ typedef struct _HDAUDIO_CODEC_COMMAND {
 
 
 
-#### - Verb8
+### -field Verb8
 
 Specifies an 8-bit payload command format. The members in the following table are part of the Verb8 structure.
 		   
 		
-
-
-#### Data
-
-Specifies an 8-bit data payload value for the 8-bit payload command format.
-
-
-#### VerbId
-
-Specifies a 12-bit verb identifier for the 8-bit payload command format.
-
-
-#### Node
-
-Specifies an 8-bit node identifier for the 8-bit payload command format.
-
-
-#### CodecAddress
-
-Specifies a 4-bit codec address for the 8-bit payload command format.
 
 
 ### -field Verb8.Data
@@ -128,31 +108,11 @@ Specifies an 8-bit node identifier for the 8-bit payload command format.
 Specifies a 4-bit codec address for the 8-bit payload command format.
 
 
-#### - Verb16
+### -field Verb16
 
 Specifies an 16-bit payload command format. The members in the following table are part of the Verb16 structure.
 		   
 		
-
-
-#### Data
-
-Specifies an 16-bit data payload value for the 16-bit payload command format.
-
-
-#### VerbId
-
-Specifies a 4-bit verb identifier for the 16-bit payload command format.
-
-
-#### Node
-
-Specifies an 8-bit node identifier for the 16-bit payload command format.
-
-
-#### CodecAddress
-
-Specifies a 4-bit codec address for the 16-bit payload command format.
 
 
 ### -field Verb16.Data
@@ -175,7 +135,7 @@ Specifies an 8-bit node identifier for the 16-bit payload command format.
 Specifies a 4-bit codec address for the 16-bit payload command format.
 
 
-#### - Command
+### -field Command
 
 Specifies a 32-bit codec command that contains payload data, a verb identifier, a node identifier, and a codec address.
 

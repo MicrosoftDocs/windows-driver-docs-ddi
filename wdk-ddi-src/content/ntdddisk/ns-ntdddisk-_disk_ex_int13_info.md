@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82e3a1e9-275a-489a-9e6e-d76007a1abb9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PDISK_EX_INT13_INFO, structs-disk_be49445a-5e95-4b7a-b4ef-fa21f110aeca.xml, storage.disk_ex_int13_info, ntdddisk/DISK_EX_INT13_INFO, _DISK_EX_INT13_INFO, PDISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Storage Devices], DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Storage Devices]
+ms.keywords: DISK_EX_INT13_INFO structure [Storage Devices], PDISK_EX_INT13_INFO, _DISK_EX_INT13_INFO, storage.disk_ex_int13_info, structs-disk_be49445a-5e95-4b7a-b4ef-fa21f110aeca.xml, PDISK_EX_INT13_INFO structure pointer [Storage Devices], DISK_EX_INT13_INFO, ntdddisk/PDISK_EX_INT13_INFO, ntdddisk/DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _DISK_EX_INT13_INFO {
 
 
 
-#### - ExBufferSize
+### -field ExBufferSize
 
 Indicates the size of the buffer that the caller provides to the BIOS in which to return the requested drive data. <b>ExBufferSize</b> must be 26 or greater. If <b>ExBufferSize</b> is less than 26, the BIOS returns an error . If <b>ExBufferSize</b> is between 30 and 66, the BIOS sets it to exactly 30 on exit. If <b>ExBufferSize</b> is 66 or greater, the BIOS sets it to exactly 66 on exit. 
 
 
-#### - ExFlags
+### -field ExFlags
 
 Provides information about the drive. The following table describes the significance of each bit, where bit 0 is the least significant bit and bit 15 the most significant bit. A value of one in the indicated bit means that the feature described in the "Meaning" column is available. A value of zero in the indicated bit means that the feature is not available with this drive.
 <table>
@@ -170,32 +170,32 @@ Reserved, must be 0.
 </table> 
 
 
-#### - ExCylinders
+### -field ExCylinders
 
 Indicates the number of <i>physical </i>cylinders. This is one greater than the maximum cylinder number.
 
 
-#### - ExHeads
+### -field ExHeads
 
 Indicates the number of <i>physical </i>heads. This is one greater than the maximum head number. 
 
 
-#### - ExSectorsPerTrack
+### -field ExSectorsPerTrack
 
 Indicates the number of <i>physical </i>sectors per track. This number is the same as the maximum sector number. 
 
 
-#### - ExSectorsPerDrive
+### -field ExSectorsPerDrive
 
 Indicates the total count of sectors on the disk. This is one greater than the maximum logical block address. 
 
 
-#### - ExSectorSize
+### -field ExSectorSize
 
 Indicates the sector size in bytes. 
 
 
-#### - ExReserved
+### -field ExReserved
 
 Reserved. 
 

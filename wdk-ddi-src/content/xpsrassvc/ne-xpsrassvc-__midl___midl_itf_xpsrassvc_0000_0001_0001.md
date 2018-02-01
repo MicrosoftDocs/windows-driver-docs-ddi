@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8b0b2bde-6ada-4a73-9737-7150605b79c8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.xpsras_rendering_mode_enumeration, xpsrassvc/XPSRAS_RENDERING_MODE_ANTIALIASED, XPSRAS_RENDERING_MODE_ANTIALIASED, XPSRAS_RENDERING_MODE_ALIASED, xpsrassvc/XPSRAS_RENDERING_MODE_ALIASED, print_xpsrast_7ef89e32-be23-4164-8f23-33ce5db681dd.xml, __MIDL___MIDL_itf_xpsrassvc_0000_0001_0001, xpsrassvc/XPSRAS_RENDERING_MODE, XPSRAS_RENDERING_MODE enumeration [Print Devices], XPSRAS_RENDERING_MODE
+ms.keywords: xpsrassvc/XPSRAS_RENDERING_MODE, __MIDL___MIDL_itf_xpsrassvc_0000_0001_0001, XPSRAS_RENDERING_MODE_ANTIALIASED, XPSRAS_RENDERING_MODE_ALIASED, print.xpsras_rendering_mode_enumeration, print_xpsrast_7ef89e32-be23-4164-8f23-33ce5db681dd.xml, XPSRAS_RENDERING_MODE, xpsrassvc/XPSRAS_RENDERING_MODE_ANTIALIASED, xpsrassvc/XPSRAS_RENDERING_MODE_ALIASED, XPSRAS_RENDERING_MODE enumeration [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum  {
 
 
 
-#### - XPSRAS_RENDERING_MODE_ANTIALIASED
+### -field XPSRAS_RENDERING_MODE_ANTIALIASED
 
 Use antialiasing to rasterize the specified graphics elements.
 
 
-#### - XPSRAS_RENDERING_MODE_ALIASED
+### -field XPSRAS_RENDERING_MODE_ALIASED
 
 Do not use antialiasing to rasterize the specified graphics elements.
 

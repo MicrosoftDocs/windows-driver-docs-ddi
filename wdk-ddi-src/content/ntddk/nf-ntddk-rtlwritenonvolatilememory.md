@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49DDDEF8-F949-4674-A18B-9BB091D163C2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/RtlWriteNonVolatileMemory, ifsk.rtlwritenonvolatilememory, RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers]
+ms.keywords: RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers], ifsk.rtlwritenonvolatilememory, ntddk/RtlWriteNonVolatileMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,28 +71,28 @@ NTSTATUS RtlWriteNonVolatileMemory(
 
 
 
-#### - NvToken
+### -param NvToken
 
  A pointer to an opaque structure that has
         information about various properties of the non-volatile memory region which <a href="..\ntddk\nf-ntddk-rtlgetnonvolatiletoken.md">RtlGetNonVolatileToken</a> had returned.
 
 
-#### - NvDestination
+### -param NvDestination
 
 A pointer to the non-volatile destination buffer to copy to.
 
 
-#### - Source
+### -param Source
 
 A pointer to the source buffer to copy from.
 
 
-#### - Size
+### -param Size
 
 The length, in bytes, of the copy operation.
 
 
-#### - Flags
+### -param Flags
 
 Reserved for future use.
 
@@ -144,18 +144,18 @@ The request was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
+<a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
+RtlFlushNonVolatileMemory</a>
 
-<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
 
 <a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
 
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
+
 <a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
-
-<mshelp:link keywords="ifsk.RtlFlushNonVolatileMemory" tabindex="0"><b>
-RtlFlushNonVolatileMemory</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2dec9594-727e-44e6-8be8-2416ea77e447
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml, PingIPAddress_IN, _PingIPAddress_IN, iscsimgt/PPingIPAddress_IN, PPingIPAddress_IN structure pointer [Storage Devices], PingIPAddress_IN structure [Storage Devices], *PPingIPAddress_IN, PPingIPAddress_IN, storage.pingipaddress_in, iscsimgt/PingIPAddress_IN
+ms.keywords: PingIPAddress_IN, *PPingIPAddress_IN, PingIPAddress_IN structure [Storage Devices], iscsimgt/PPingIPAddress_IN, storage.pingipaddress_in, PPingIPAddress_IN structure pointer [Storage Devices], structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml, _PingIPAddress_IN, iscsimgt/PingIPAddress_IN, PPingIPAddress_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PingIPAddress_IN {
 
 
 
-#### - RequestCount
+### -field RequestCount
 
 The number of ping requests to be sent to the specified IP address.
 
 
-#### - RequestSize
+### -field RequestSize
 
 The size of each request (in bytes) to be sent.
 
 
-#### - Timeout
+### -field Timeout
 
 The timeout (in milliseconds) for each ping request.
 
 
-#### - Address
+### -field Address
 
 The IP address to which the ping request must be sent. The IP address is provided by the <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure.
 

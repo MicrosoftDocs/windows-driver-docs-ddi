@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1335d1fa-af96-4a31-a1cf-266f7a3325ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_655edb8d-6748-4d10-8cd9-51b3a696bccd.xml, _FEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER structure [Storage Devices], PFEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/FEATURE_DATA_EMBEDDED_CHANGER, storage.feature_data_embedded_changer, PFEATURE_DATA_EMBEDDED_CHANGER structure pointer [Storage Devices], *PFEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/PFEATURE_DATA_EMBEDDED_CHANGER
+ms.keywords: FEATURE_DATA_EMBEDDED_CHANGER structure [Storage Devices], structs-CD-ROM_655edb8d-6748-4d10-8cd9-51b3a696bccd.xml, PFEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/FEATURE_DATA_EMBEDDED_CHANGER, _FEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/PFEATURE_DATA_EMBEDDED_CHANGER, storage.feature_data_embedded_changer, PFEATURE_DATA_EMBEDDED_CHANGER structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _FEATURE_DATA_EMBEDDED_CHANGER {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - SupportsDiscPresent
+### -field SupportsDiscPresent
 
 Indicates, when set to 1, that the device can report the contents of the slots after a reset or magazine change. When set to zero, this bit indicates that the device can report the contents of the slots after reset or magazine change. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 
 
-#### - SideChangeCapable
+### -field SideChangeCapable
 
 Indicates, when set to 1, that the device is capable of selecting both sides of the media. When set to zero, this bit indicates that the device is not capable of selecting both sides of the media. 
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved.
 
 
-#### - Reserved4
+### -field Reserved4
 
 Reserved.
 
 
-#### - HighestSlotNumber
+### -field HighestSlotNumber
 
 Indicates the number of slots minus 1. 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 

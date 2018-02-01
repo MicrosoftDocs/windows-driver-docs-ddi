@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0C2371FE-935A-499B-8E7C-09AA6C03FC90
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "*PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE structure pointer [Windows Debugging], PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, debugger.debug_last_event_info_load_module, DEBUG_LAST_EVENT_INFO_LOAD_MODULE, _DEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure [Windows Debugging], dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE"
+ms.keywords: DEBUG_LAST_EVENT_INFO_LOAD_MODULE, debugger.debug_last_event_info_load_module, _DEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE structure pointer [Windows Debugging], DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DEBUG_LAST_EVENT_INFO_LOAD_MODULE {
 
 
 
-#### - Base
+### -field Base
 
 The base of the load module.
 

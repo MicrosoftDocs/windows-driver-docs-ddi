@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 53d7e8a9-fc89-4b11-8bbb-e9b5b0504f5e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TRANSACTIONMANAGER_LOGPATH_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_LOGPATH_INFORMATION, ktm_ref_2e3d26b5-525c-4953-a871-7eb6535d926e.xml, *PTRANSACTIONMANAGER_LOGPATH_INFORMATION, PTRANSACTIONMANAGER_LOGPATH_INFORMATION, kernel.transactionmanager_logpath_information, wdm/TRANSACTIONMANAGER_LOGPATH_INFORMATION, PTRANSACTIONMANAGER_LOGPATH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_LOGPATH_INFORMATION, wdm/PTRANSACTIONMANAGER_LOGPATH_INFORMATION
+ms.keywords: kernel.transactionmanager_logpath_information, TRANSACTIONMANAGER_LOGPATH_INFORMATION structure [Kernel-Mode Driver Architecture], PTRANSACTIONMANAGER_LOGPATH_INFORMATION, TRANSACTIONMANAGER_LOGPATH_INFORMATION, wdm/PTRANSACTIONMANAGER_LOGPATH_INFORMATION, ktm_ref_2e3d26b5-525c-4953-a871-7eb6535d926e.xml, PTRANSACTIONMANAGER_LOGPATH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/TRANSACTIONMANAGER_LOGPATH_INFORMATION, _TRANSACTIONMANAGER_LOGPATH_INFORMATION, *PTRANSACTIONMANAGER_LOGPATH_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _TRANSACTIONMANAGER_LOGPATH_INFORMATION {
 
 
 
-#### - LogPathLength
+### -field LogPathLength
 
 The number of elements in the <b>LogPath</b> member's character array.
 
 
-#### - LogPath
+### -field LogPath
 
 A caller-allocated character array that receives the path and file name of the <a href="https://msdn.microsoft.com/d7ad0e16-d1f2-4c41-b647-95b5445c2708">log file stream</a> that is associated with a transaction manager.
 
@@ -88,9 +88,9 @@ The <b>TRANSACTIONMANAGER_LOGPATH_INFORMATION</b> structure is used with the <a 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-
 <a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], tagDEVICEDIALOGDATA2, image.devicedialogdata2, *LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], wiadevd/DEVICEDIALOGDATA2"
+ms.keywords: wiadevd/PDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, image.devicedialogdata2, PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, tagDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct tagDEVICEDIALOGDATA2 {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Specifies the size, in bytes, of this structure.
 
 
-#### - pIWiaItemRoot
+### -field pIWiaItemRoot
 
 Points to an <a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a> interface that represents the valid root item in the application item tree.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Specifies the flags passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a> by the calling program. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in header file <i>Wiadef.h</i>).
 
 
-#### - hwndParent
+### -field hwndParent
 
 Specifies the handle to the parent window of the dialog.
 
 
-#### - bstrFolderName
+### -field bstrFolderName
 
 A string of type <b>BSTR</b> that contains the name of the destination folder to which the files obtained from WIA items are transferred.
 
 
-#### - bstrFilename
+### -field bstrFilename
 
 A string of type <b>BSTR</b> that contains the file name template to be used for files transferred from WIA items to the destination folder designated by <b>bstrFolderName</b>. An arbitrary number of unique file names can be created by appending additional characters to the file name template. For more information about file name templates, see <a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName Function</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName Function</a>.
 
 
-#### - lNumFiles
+### -field lNumFiles
 
 The number of strings written to the <i>pbstrFilePaths</i> array.
 
 
-#### - pbstrFilePaths
+### -field pbstrFilePaths
 
 Pointer to an array of <b>BSTR</b> pointers. Each array element points to a <b>BSTR</b> that contains the destination name of a file that was successfully transferred to the folder identified by <b>bstrFolderName</b>. The method must allocate the storage for this member. For more information, see the following <b>Remarks</b> section.
 
 
-#### - pWiaItem
+### -field pWiaItem
 
 Pointer to the <b>IWiaItem2</b> interface of the WIA item that transfers data to the file or files named in the <b>bstrFilePaths</b> array.
 
@@ -136,25 +136,25 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
 

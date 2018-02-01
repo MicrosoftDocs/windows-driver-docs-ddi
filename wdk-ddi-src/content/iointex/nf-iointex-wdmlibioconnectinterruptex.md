@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 172598B1-C486-489F-98F0-382EB8139A08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoConnectInterruptEx, iointex/IoConnectInterruptEx, IoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture], kernel.wdmlibioconnectinterruptex, iointex/WdmlibIoConnectInterruptEx
+ms.keywords: WdmlibIoConnectInterruptEx, kernel.wdmlibioconnectinterruptex, iointex/IoConnectInterruptEx, IoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/WdmlibIoConnectInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS WdmlibIoConnectInterruptEx(
 
 
 
-#### - Parameters [in, out]
+### -param Parameters [in, out]
 
 Pointer to an <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a> structure that specifies the device and interrupt-handling routine. On return,  <b>WdmlibIoConnectInterruptEx</b> updates this structure to hold information about the device's interrupts.
 
@@ -161,13 +161,13 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 ## -see-also
 
-<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
 
 <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
+<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
 
  
 

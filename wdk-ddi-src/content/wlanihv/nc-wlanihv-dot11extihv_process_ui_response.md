@@ -76,7 +76,7 @@ DWORD APIENTRY Dot11ExtIhvProcessUIResponse(
 
 
 
-#### - guidUIRequest [in]
+### -param guidUIRequest [in]
 
 The GUID that identifies the request. This GUID value was created by the IHV Extensions DLL and
      passed through the 
@@ -84,13 +84,13 @@ The GUID that identifies the request. This GUID value was created by the IHV Ext
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>.
 
 
-#### - dwByteCount [in]
+### -param dwByteCount [in]
 
 The length, in bytes, of the data referenced through the 
      <i>pvResponseBuffer</i> parameter.
 
 
-#### - pvResponseBuffer [in, optional]
+### -param pvResponseBuffer [in, optional]
 
 A pointer to the buffer that contains the user data.
 
@@ -110,8 +110,8 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 The IHV Extensions DLL can issue requests to the IHV UI Extensions DLL for interaction with the user,
     such as the display of notifications during the pre-association operation or the input of credential for
     the post-association operation. For more information about the IHV UI Extensions DLL, see 
-    <mshelp:link keywords="netvista.native_802_11_ihv_ui_extensions_dll" tabindex="0">Native 802.11 IHV UI Extensions
-    DLL</mshelp:link>.
+    <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
+    DLL</a>.
 
 The IHV Extensions DLL initiates these requests for user interaction through calls to the 
     <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a> function. For
@@ -134,9 +134,9 @@ After receiving this data from the IHV Extensions DLL, the operating system call
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
 
  
 

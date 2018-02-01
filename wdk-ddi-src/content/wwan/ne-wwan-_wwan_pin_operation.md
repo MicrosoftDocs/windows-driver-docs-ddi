@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1b21b4b4-a35d-47c4-9cd6-e31e2dfbe59f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanPinOperationChange, wwan/WwanPinOperationEnable, WWAN_PIN_OPERATION, _WWAN_PIN_OPERATION, PWWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION, WwanPinOperationMax, WwanPinOperationEnter, wwan/WwanPinOperationEnter, WwanPinOperationDisable, WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], WwanPinOperationChange, wwan/WwanPinOperationMax, netvista.wwan_pin_operation, wwan/WwanPinOperationDisable, WwanPinOperationEnable, wwan/PWWAN_PIN_OPERATION, wwan/WWAN_PIN_OPERATION, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml
+ms.keywords: netvista.wwan_pin_operation, PWWAN_PIN_OPERATION, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml, WWAN_PIN_OPERATION, wwan/PWWAN_PIN_OPERATION, WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPinOperationEnter, WwanPinOperationDisable, WwanPinOperationEnter, WwanPinOperationEnable, WwanPinOperationChange, wwan/WwanPinOperationChange, *PWWAN_PIN_OPERATION, wwan/WWAN_PIN_OPERATION, WwanPinOperationMax, wwan/WwanPinOperationEnable, wwan/WwanPinOperationMax, _WWAN_PIN_OPERATION, wwan/WwanPinOperationDisable, PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,27 +73,27 @@ typedef enum _WWAN_PIN_OPERATION {
 
 
 
-#### - WwanPinOperationEnter
+### -field WwanPinOperationEnter
 
 Enter the specified PIN into the device.
 
 
-#### - WwanPinOperationEnable
+### -field WwanPinOperationEnable
 
 Enable the specified PIN.
 
 
-#### - WwanPinOperationDisable
+### -field WwanPinOperationDisable
 
 Disable the specified PIN.
 
 
-#### - WwanPinOperationChange
+### -field WwanPinOperationChange
 
 Change the specified PIN.
 
 
-#### - WwanPinOperationMax
+### -field WwanPinOperationMax
 
 The total number of supported PIN operations.
 

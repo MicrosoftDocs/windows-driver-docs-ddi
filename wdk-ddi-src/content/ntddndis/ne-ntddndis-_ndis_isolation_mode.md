@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA4765CD-808C-438A-9CA6-5ADC27A70EC8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIsolationModeNativeVirtualSubnet, NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeNone, NdisIsolationModeVlan, ntddndis/NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, netvista.ndis_isolation_mode, NdisIsolationModeNone, NdisIsolationModeExternalVirtualSubnet
+ms.keywords: netvista.ndis_isolation_mode, NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNone, *PNDIS_ISOLATION_MODE, ntddndis/NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE, NdisIsolationModeExternalVirtualSubnet, NdisIsolationModeNone, ntddndis/NdisIsolationModeVlan, NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisIsolationModeExternalVirtualSubnet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _NDIS_ISOLATION_MODE {
 
 
 
-#### - NdisIsolationModeNone
+### -field NdisIsolationModeNone
 
 Network isolation is not supported.
 
 
-#### - NdisIsolationModeNativeVirtualSubnet
+### -field NdisIsolationModeNativeVirtualSubnet
 
 Native <b>VirtualSubnetId</b>-based isolation provided by Hyper-V Network Virtualization.
 
 
-#### - NdisIsolationModeExternalVirtualSubnet
+### -field NdisIsolationModeExternalVirtualSubnet
 
 External <b>VirtualSubnetId</b>-based isolation provided by a Hyper-V Extensible Switch extension.
 
 
-#### - NdisIsolationModeVlan
+### -field NdisIsolationModeVlan
 
 Virtual local area network (VLAN)-based isolation.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams::GetWriteParameters, IWDFIoRequestCompletionParams interface, GetWriteParameters method, umdf.iwdfiorequestcompletionparams_getwriteparameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, IWDFIoRequestCompletionParams, GetWriteParameters method, wdf.iwdfiorequestcompletionparams_getwriteparameters, GetWriteParameters, GetWriteParameters method, IWDFIoRequestCompletionParams interface
+ms.keywords: GetWriteParameters, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams::GetWriteParameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, umdf.iwdfiorequestcompletionparams_getwriteparameters, IWDFIoRequestCompletionParams interface, GetWriteParameters method, IWDFIoRequestCompletionParams, GetWriteParameters method, IWDFIoRequestCompletionParams interface, wdf.iwdfiorequestcompletionparams_getwriteparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,21 +72,21 @@ void  GetWriteParameters(
 
 
 
-#### - ppWriteMemory [out]
+### -param ppWriteMemory [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the write buffer for the completion of the write request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-#### - pBytesWritten [out]
+### -param pBytesWritten [out]
 
 A pointer to a variable that receives the size, in bytes, of the write buffer for the completion of the write request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-#### - pWriteMemoryOffset [out]
+### -param pWriteMemoryOffset [out]
 
 A pointer to a variable that receives the offset, in bytes, into the write buffer for the completion of the write request. 
 

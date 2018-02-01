@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NfcCxSetLlcpConfig method [Near-Field Proximity Drivers], nfpdrivers._nfccxsetllcpconfig, nfccx/NfcCxSetLlcpConfig, NfcCxSetLlcpConfig
+ms.keywords: NfcCxSetLlcpConfig, nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS NfcCxSetLlcpConfig(
 
 
 
-#### - Device
+### -param Device
 
 A handle to a framework device object.
 
 
-#### - Config
+### -param Config
 
 A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_llcp_config.md">NFC_CX_LLCP_CONFIG</a> structure.
 
@@ -87,9 +87,9 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

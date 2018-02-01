@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: DE11B4A5-5AE3-4369-AF6D-6CE34B9AAFAB
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], debugger.idebugplmclient_launchplmpackagefordebugwide, IDebugPlmClient, IDebugPlmClient interface [Windows Debugging], LaunchPlmPackageForDebugWide method, IDebugPlmClient::LaunchPlmPackageForDebugWide, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], IDebugPlmClient interface
+ms.keywords: LaunchPlmPackageForDebugWide, IDebugPlmClient interface [Windows Debugging], LaunchPlmPackageForDebugWide method, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, IDebugPlmClient, LaunchPlmPackageForDebugWide method [Windows Debugging], LaunchPlmPackageForDebugWide method [Windows Debugging], IDebugPlmClient interface, IDebugPlmClient::LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT LaunchPlmPackageForDebugWide(
 
 
 
-#### - Server [in]
+### -param Server [in]
 
 The server of the application.
 
 
-#### - Timeout [in]
+### -param Timeout [in]
 
 A time-out value.
 
 
-#### - PackageFullName [in]
+### -param PackageFullName [in]
 
 A pointer to the package name.
 
 
-#### - AppName [in]
+### -param AppName [in]
 
 A pointer to the application name. 
 
 
-#### - Arguments [in, optional]
+### -param Arguments [in, optional]
 
 A pointer an arguments string.
 
 
-#### - ProcessId [out]
+### -param ProcessId [out]
 
 A pointer to a process ID output.
 
 
-#### - ThreadId [out]
+### -param ThreadId [out]
 
 A pointer to a thread ID output.
 

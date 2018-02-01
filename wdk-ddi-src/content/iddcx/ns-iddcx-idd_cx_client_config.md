@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e286cb2-87f4-483b-bc55-f174e7de5989
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idd_cx_client_config, IDD_CX_CLIENT_CONFIG, iddcx/IDD_CX_CLIENT_CONFIG, IDD_CX_CLIENT_CONFIG structure [Display Devices]
+ms.keywords: iddcx/IDD_CX_CLIENT_CONFIG, display.idd_cx_client_config, IDD_CX_CLIENT_CONFIG, IDD_CX_CLIENT_CONFIG structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,121 +86,121 @@ typedef struct IDD_CX_CLIENT_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 
                      The total size of the structure.
 
 
-#### - EvtIddCxDeviceIoControl
+### -field EvtIddCxDeviceIoControl
 
 
                      A pointer to the  <b>PFN_IDD_CX_DEVICE_IO_CONTROL</b> function.
 
 
-#### - EvtIddCxParseMonitorDescription
+### -field EvtIddCxParseMonitorDescription
 
 
                      A pointer to the  <b>PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION</b> function.
 
 
-#### - EvtIddCxAdapterInitFinished
+### -field EvtIddCxAdapterInitFinished
 
 
                      A pointer to the  <b>PFN_IDD_CX_ADAPTER_INIT_FINISHED</b> function.
 
 
-#### - EvtIddCxAdapterCommitModes
+### -field EvtIddCxAdapterCommitModes
 
 
                      A pointer to the  <b>PFN_IDD_CX_ADAPTER_COMMIT_MODES</b> function.
 
 
-#### - EvtIddCxMonitorGetDefaultDescriptionModes
+### -field EvtIddCxMonitorGetDefaultDescriptionModes
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES</b> function.
 
 
-#### - EvtIddCxMonitorQueryTargetModes
+### -field EvtIddCxMonitorQueryTargetModes
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES</b> function.
 
 
-#### - EvtIddCxMonitorAssignSwapChain
+### -field EvtIddCxMonitorAssignSwapChain
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</b> function.
 
 
-#### - EvtIddCxMonitorUnassignSwapChain
+### -field EvtIddCxMonitorUnassignSwapChain
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN</b> function.
 
 
-#### - EvtIddCxMonitorI2CTransmit
+### -field EvtIddCxMonitorI2CTransmit
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_I2C_TRANSMIT</b> function.
 
 
-#### - EvtIddCxMonitorI2CReceive
+### -field EvtIddCxMonitorI2CReceive
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_I2C_RECEIVE</b> function.
 
 
-#### - EvtIddCxMonitorSetGammaRamp
+### -field EvtIddCxMonitorSetGammaRamp
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP</b> function.
 
 
-#### - EvtIddCxMonitorOPMGetCertificateSize
+### -field EvtIddCxMonitorOPMGetCertificateSize
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b> function.
 
 
-#### - EvtIddCxMonitorOPMGetCertificate
+### -field EvtIddCxMonitorOPMGetCertificate
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE</b> function.
 
 
-#### - EvtIddCxMonitorOPMCreateProtectedOutput
+### -field EvtIddCxMonitorOPMCreateProtectedOutput
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT</b> function.
 
 
-#### - EvtIddCxMonitorOPMGetRandomNumber
+### -field EvtIddCxMonitorOPMGetRandomNumber
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER</b> function.
 
 
-#### - EvtIddCxMonitorOPMSetSigningKeyAndSequenceNumbers
+### -field EvtIddCxMonitorOPMSetSigningKeyAndSequenceNumbers
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS</b> function.
 
 
-#### - EvtIddCxMonitorOPMGetInformation
+### -field EvtIddCxMonitorOPMGetInformation
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION</b> function.
 
 
-#### - EvtIddCxMonitorOPMConfigureProtectedOutput
+### -field EvtIddCxMonitorOPMConfigureProtectedOutput
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT</b> function.
 
 
-#### - EvtIddCxMonitorOPMDestroyProtectedOutput
+### -field EvtIddCxMonitorOPMDestroyProtectedOutput
 
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT</b> function.

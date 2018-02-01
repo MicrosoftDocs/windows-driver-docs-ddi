@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7405e0c7-9263-4911-9b1e-52cffa559af3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetDevicePowerState, WdfDeviceGetDevicePowerState method, PFN_WDFDEVICEGETDEVICEPOWERSTATE, wdf.wdfdevicegetdevicepowerstate, kmdf.wdfdevicegetdevicepowerstate, wdfdevice/WdfDeviceGetDevicePowerState, DFDeviceObjectGeneralRef_40013978-2c8d-4776-b218-5f0c743e57e9.xml
+ms.keywords: PFN_WDFDEVICEGETDEVICEPOWERSTATE, WdfDeviceGetDevicePowerState method, WdfDeviceGetDevicePowerState, kmdf.wdfdevicegetdevicepowerstate, wdf.wdfdevicegetdevicepowerstate, DFDeviceObjectGeneralRef_40013978-2c8d-4776-b218-5f0c743e57e9.xml, wdfdevice/WdfDeviceGetDevicePowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDF_DEVICE_POWER_STATE WdfDeviceGetDevicePowerState(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
@@ -151,11 +151,11 @@ The <b>WdfDeviceGetDevicePowerState</b> method returns a meaningful value only i
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md">WdfDeviceGetDevicePowerPolicyState</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md">WdfDevStateNormalize</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepnpstate.md">WdfDeviceGetDevicePnpState</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md">WdfDeviceGetDevicePowerPolicyState</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 389c20de-7ff2-47c6-8393-529e401e56e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PERSOCHECKSTATE_PASS, rilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, RILUICCAPPPERSOCHECKSTATUSSTATE, netvista.riluiccapppersocheckstatusstate_2, rilapitypes/RIL_PERSOCHECKSTATE_PASS, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PERSOCHECKSTATE_MAX, RIL_PERSOCHECKSTATE_MAX, rilapitypes/RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_FAIL
+ms.keywords: rilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, RIL_PERSOCHECKSTATE_MAX, netvista.riluiccapppersocheckstatusstate_2, RIL_PERSOCHECKSTATE_FAIL, rilapitypes/RIL_PERSOCHECKSTATE_PASS, RIL_PERSOCHECKSTATE_PASS, rilapitypes/RIL_PERSOCHECKSTATE_MAX, rilapitypes/RIL_PERSOCHECKSTATE_FAIL, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], RILUICCAPPPERSOCHECKSTATUSSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,14 +74,14 @@ typedef enum _RILUICCAPPPERSOCHECKSTATUSSTATE {
 
 
 
-#### - RIL_PERSOCHECKSTATE_PASS
+### -field RIL_PERSOCHECKSTATE_PASS
 
 
 
-#### - RIL_PERSOCHECKSTATE_FAIL
+### -field RIL_PERSOCHECKSTATE_FAIL
 
 
 
-#### - RIL_PERSOCHECKSTATE_MAX
+### -field RIL_PERSOCHECKSTATE_MAX
 
 

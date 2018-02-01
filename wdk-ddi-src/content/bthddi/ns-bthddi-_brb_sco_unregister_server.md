@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: a0624d6e-d3e9-45b1-b704-4a05532926f9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_SCO_UNREGISTER_SERVER, bthddi/_BRB_SCO_UNREGISTER_SERVER, _BRB_SCO_UNREGISTER_SERVER structure [Bluetooth Devices], bth_structs_36fae461-b66e-42e0-8e66-a890e45abbbb.xml, bltooth._brb_sco_unregister_server"
+ms.keywords: bltooth._brb_sco_unregister_server, _BRB_SCO_UNREGISTER_SERVER structure [Bluetooth Devices], _BRB_SCO_UNREGISTER_SERVER, bth_structs_36fae461-b66e-42e0-8e66-a890e45abbbb.xml, bthddi/_BRB_SCO_UNREGISTER_SERVER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,19 +70,19 @@ struct _BRB_SCO_UNREGISTER_SERVER {
 
 
 
-#### - Hdr
+### -field Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-#### - BtAddress
+### -field BtAddress
 
 The address of the remote device.
 
 
-#### - ServerHandle
+### -field ServerHandle
 
 The handle of the SCO server to unregister, that was obtained earlier from
      BRB_SCO_REGISTER_SERVER.
@@ -93,16 +93,16 @@ The handle of the SCO server to unregister, that was obtained earlier from
 
 To unregister itself as a SCO server, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_sco_unregister_server" tabindex="0"><b>
-    BRB_SCO_UNREGISTER_SERVER</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+    BRB_SCO_UNREGISTER_SERVER</a> request.
 
 
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

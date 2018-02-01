@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5c250438-8805-4f45-b08f-65ec87b3e61a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.listtype, wdbgexts/ListType, ListType, ListType function [Windows Debugging], WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml
+ms.keywords: WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, debugger.listtype, ListType function [Windows Debugging], ListType, wdbgexts/ListType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,14 @@ __inline ULONG ListType(
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 Specifies the name of the type of each entry in the linked list.
 
 
-#### - Address [in]
+### -param Address [in]
 
 
-
-
-#### If ListByFieldAddress is zero:
-
-Specifies the address in the target's memory of the first entry in the linked list.
 
 
 #### If ListByFieldAddress is 1:
@@ -93,22 +88,27 @@ Specifies the address in the target's memory of the first entry in the linked li
 Specifies the address in the target's memory of the member of the first entry that points to the next entry.
 
 
-#### - ListByFieldAddress [in]
+#### If ListByFieldAddress is zero:
+
+Specifies the address in the target's memory of the first entry in the linked list.
+
+
+### -param ListByFieldAddress [in]
 
 Specifies whether <i>Address</i> contains the base address of the first entry, or if it contains the address of the member of the first entry that points to the next entry.
 
 
-#### - NextPointer [in]
+### -param NextPointer [in]
 
 Specifies the name of the member in the structure of type <i>Type</i> that contains a pointer to the next entry in the linked list.  <i>NextPointer</i> can be a period-separated path, for example, if <i>Type</i> is "nt!_ETHREAD", <i>NextPointer</i> could be "Tcb.ThreadListEntry.Flink".
 
 
-#### - Context [in]
+### -param Context [in]
 
 Specifies a pointer that is passed to the callback function specified by <i>CallbackRoutine</i> each time the callback function is called.
 
 
-#### - CallbackRoutine [in]
+### -param CallbackRoutine [in]
 
 Specifies a function that is called for each entry in the linked list.  The parameters passed to the function are the <i>Context</i> pointer and a <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structure; the address of the entry is found in the <b>address</b> member of this structure.
 

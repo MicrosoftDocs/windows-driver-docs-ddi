@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecMakeSPNEx, ntifs/SecMakeSPNEx, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ifsk.secmakespnex, SecMakeSPNEx function [Installable File System Drivers]
+ms.keywords: SecMakeSPNEx, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ifsk.secmakespnex, SecMakeSPNEx function [Installable File System Drivers], ntifs/SecMakeSPNEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,12 +76,12 @@ NTSTATUS SecMakeSPNEx(
 
 
 
-#### - ServiceClass [in]
+### -param ServiceClass [in]
 
 A pointer to a Unicode string specifying the service class for the security service provider. 
 
 
-#### - ServiceName [in]
+### -param ServiceName [in]
 
 A pointer to a Unicode string specifying the service name for the security service provider. 
 
@@ -91,12 +91,12 @@ A pointer to a Unicode string specifying the service name for the security servi
 TBD
 
 
-#### - Spn [in, out]
+### -param Spn [in, out]
 
 A pointer to a Unicode string for storing the security service provider name string created by this function.
 
 
-#### - Allocate [in]
+### -param Allocate [in]
 
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
@@ -111,6 +111,11 @@ A pointer to an optional Unicode string specifying the instance name for connect
 An optional variable specifying the instance port for connecting with the security service provider. 
 
 
+#### - Length [out]
+
+A pointer to an optional variable for storing the length of the security service provider name string created by this function.
+
+
 #### - Referrer [in]
 
 A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
@@ -119,11 +124,6 @@ A pointer to an optional Unicode string specifying the referrer name for connect
 #### - TargetInfo [in]
 
 A pointer to an optional Unicode string specifying target information for connecting with the security service provider. 
-
-
-#### - Length [out]
-
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
 
 
 ## -returns
@@ -185,9 +185,9 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secmakespnex2.md">SecMakeSPNEx2</a>
-
 <a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
+
+<a href="..\ntifs\nf-ntifs-secmakespnex2.md">SecMakeSPNEx2</a>
 
  
 

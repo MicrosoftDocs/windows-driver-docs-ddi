@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.getprintoutputinfo, GetPrintOutputInfo function [Print Devices], GetPrintOutputInfo, winspool/GetPrintOutputInfo
+ms.keywords: print.getprintoutputinfo, winspool/GetPrintOutputInfo, GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ HRESULT WINAPI GetPrintOutputInfo(
 
 
 
-#### - hWnd [in]
+### -param hWnd [in]
 
 
 
-#### - pszPrinter [in]
+### -param pszPrinter [in]
 
 
 
-#### - phFile [out]
+### -param phFile [out]
 
 
 
-#### - ppszOutputFile [out]
+### -param ppszOutputFile [out]
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgSetFlags, image.wiaudbgsetflags, wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices]
+ms.keywords: wiautil/wiauDbgSetFlags, wiauDbgSetFlags, image.wiaudbgsetflags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ inline DWORD __stdcall wiauDbgSetFlags(
 
 
 
-#### - flags
+### -param flags
 
 Is a set of flags that control message logging. This parameter can be set to a combination of the following values.
 <table>

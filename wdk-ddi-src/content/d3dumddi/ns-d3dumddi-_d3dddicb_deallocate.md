@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1d92adf-6efc-4a30-bd5c-cbfe53a7c648
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_DEALLOCATE, D3D_param_Structs_4182b764-2e99-4146-a8ae-15620524f408.xml, d3dumddi/D3DDDICB_DEALLOCATE, D3DDDICB_DEALLOCATE, D3DDDICB_DEALLOCATE structure [Display Devices], display.d3dddicb_deallocate"
+ms.keywords: D3DDDICB_DEALLOCATE structure [Display Devices], d3dumddi/D3DDDICB_DEALLOCATE, display.d3dddicb_deallocate, D3DDDICB_DEALLOCATE, D3D_param_Structs_4182b764-2e99-4146-a8ae-15620524f408.xml, _D3DDDICB_DEALLOCATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDICB_DEALLOCATE {
 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to a resource whose associated allocations must be released. If the user-mode display driver uses the array that is specified by <b>HandleList</b> to specify the allocations to release, it sets <b>hResource</b> to <b>NULL</b>.
 
 
-#### - NumAllocations
+### -field NumAllocations
 
 [in] The number of allocations in the <b>HandleList</b> array. If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, <b>NumAllocations</b> is ignored by the Microsoft Direct3D runtime.
 
 
-#### - HandleList
+### -field HandleList
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to release the allocations.
 

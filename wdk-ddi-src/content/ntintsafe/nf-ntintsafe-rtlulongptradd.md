@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 26A9A0B6-07A3-4D42-A5A1-C4CDD541A3FA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulongptradd, ntintsafe/RtlULongPtrAdd, RtlULongPtrAdd, RtlULongPtrAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlULongPtrAdd, RtlULongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongptradd, ntintsafe/RtlULongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlULongPtrAdd(
 
 
 
-#### - ulAugend [in]
+### -param ulAugend [in]
 
 The first value in the equation.
 
 
-#### - ulAddend [in]
+### -param ulAddend [in]
 
 The value to add to <i>ulAugend</i>.
 
 
-#### - pulResult [out]
+### -param pulResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

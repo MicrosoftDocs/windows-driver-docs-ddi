@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19013ffa-6bb5-4a77-b85b-c32fb0bf0530
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], ndis/NDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml, NDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_802_3, netvista.ndis_offload_encapsulation, *PNDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, ndis/PNDIS_OFFLOAD_ENCAPSULATION"
+ms.keywords: netvista.ndis_offload_encapsulation, PNDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_ENCAPSULATION_IEEE_802_3, NDIS_OFFLOAD_ENCAPSULATION, ndis/PNDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], *PNDIS_OFFLOAD_ENCAPSULATION, _NDIS_OFFLOAD_ENCAPSULATION, ndis/NDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,64 +78,11 @@ typedef struct _NDIS_OFFLOAD_ENCAPSULATION {
 
 
 
-#### - IPv4
+### -field IPv4
 
 A structure within NDIS_OFFLOAD_ENCAPSULATION that specifies IPv4 encapsulation and that contains
      the following members:
      
-
-
-#### Enabled
-
-A ULONG value that enables IPv4 encapsulation. A protocol driver sets 
-       <b>Enabled</b> to NDIS_OFFLOAD_SET_ON if it is enabling IPv4 large send offload version 1 (LSOV1),
-       large send offload version 2 (LSOV2), or checksum offloads. If a protocol driver is deactivating all offloads, it sets <b>Enabled</b> to NDIS_OFFLOAD_SET_OFF. Otherwise, the protocol driver sets 
-       <b>Enabled</b> to NDIS_OFFLOAD_SET_NO_CHANGE.
-
-
-#### EncapsulationType
-
-The IPv4 encapsulation type. If the 
-       <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, this member is zero. If the 
-       <b>Enabled</b> member is set to NDIS_OFFLOAD_SET_ON, a protocol driver must set 
-       <b>EncapsulationType</b> to one of the following:
-       
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_ENCAPSULATION_IEEE_802_3"></a><a id="ndis_encapsulation_ieee_802_3"></a><dl>
-<dt><b>NDIS_ENCAPSULATION_IEEE_802_3</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies IEEE 802.3 encapsulation. When this value is specified, a miniport driver should also use NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q or NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q_IN_OOB encapsulation where applicable. See documentation for <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> for more information.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED"></a><a id="ndis_encapsulation_ieee_llc_snap_routed"></a><dl>
-<dt><b>NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies logical link control (LLC) encapsulation for routed protocols, as described in RFC
-         1483. This flag is also used to indicate Ethernet LLC/SNAP encapsulation.
-
-</td>
-</tr>
-</table> 
-
-
-#### HeaderSize
-
-The Ethernet header length that is used in IPv4 packets. If the 
-       <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, this member is zero. If the 
-       <b>Enabled</b> member is set to NDIS_OFFLOAD_SET_ON, a protocol driver must set 
-       <b>HeaderSize</b> to the size of the Ethernet header that it uses.
 
 
 ### -field IPv4.Enabled
@@ -191,65 +138,11 @@ The Ethernet header length that is used in IPv4 packets. If the
        <b>HeaderSize</b> to the size of the Ethernet header that it uses.
 
 
-#### - IPv6
+### -field IPv6
 
 A structure within NDIS_OFFLOAD_ENCAPSULATION that specifies IPv6 encapsulation and that contains
      the following members:
      
-
-
-#### Enabled
-
-A ULONG value that enables IPv6 encapsulation. A protocol driver sets 
-       <b>Enabled</b> to NDIS_OFFLOAD_SET_ON if it is enabling IPv6 LSOV1, LSOV2, or checksum offloads.
-       If a protocol driver is deactivating all offloads, it sets <b>Enabled</b> to NDIS_OFFLOAD_SET_OFF. Otherwise, the protocol driver sets 
-       <b>Enabled</b> to NDIS_OFFLOAD_SET_NO_CHANGE.
-
-
-#### EncapsulationType
-
-The IPv6 encapsulation type. If the 
-       <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, 
-       <b>EncapsulationType</b> is zero. If the 
-       <b>Enabled</b> member is set to NDIS_OFFLOAD_SET_ON, a protocol driver must set 
-       <b>EncapsulationType</b> to one of the following:
-       
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_ENCAPSULATION_IEEE_802_3"></a><a id="ndis_encapsulation_ieee_802_3"></a><dl>
-<dt><b>NDIS_ENCAPSULATION_IEEE_802_3</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies IEEE 802.3 encapsulation. When this value is specified, a miniport driver should also use NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q or NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q_IN_OOB encapsulation where applicable. See documentation for <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> for more information.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED"></a><a id="ndis_encapsulation_ieee_llc_snap_routed"></a><dl>
-<dt><b>NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies LLC encapsulation for routed protocols, as described in RFC 1483. This flag is also
-         used to indicate Ethernet LLC/SNAP encapsulation.
-
-</td>
-</tr>
-</table> 
-
-
-#### HeaderSize
-
-The Ethernet header length that is used in IPv6 packets. If the 
-       <b>Enabled</b> member is not set to NDIS_OFFLOAD_SET_ON, this member is zero. If the 
-       <b>Enabled</b> member is set to NDIS_OFFLOAD_SET_ON, a protocol driver must set 
-       <b>HeaderSize</b> to the size of the Ethernet header that it uses.
 
 
 ### -field IPv6.Enabled
@@ -306,7 +199,7 @@ The Ethernet header length that is used in IPv6 packets. If the
        <b>HeaderSize</b> to the size of the Ethernet header that it uses.
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -333,11 +226,11 @@ In a set of
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

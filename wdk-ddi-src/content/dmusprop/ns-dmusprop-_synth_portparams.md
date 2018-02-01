@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 94c953ae-519b-4659-a4c9-a97db7dc31e9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSYNTH_PORTPARAMS structure pointer [Audio Devices], *PSYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], SYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, _SYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, dmusprop/PSYNTH_PORTPARAMS, audio.synth_portparams
+ms.keywords: SYNTH_PORTPARAMS structure [Audio Devices], dmusprop/SYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, SYNTH_PORTPARAMS, PSYNTH_PORTPARAMS structure pointer [Audio Devices], _SYNTH_PORTPARAMS, *PSYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, audio.synth_portparams, dmusprop/PSYNTH_PORTPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,21 +73,11 @@ typedef struct _SYNTH_PORTPARAMS {
 
 
 
-#### - ValidParams
+### -field ValidParams
 
 Specifies which of the SYNTH_PORTPARAMS structure members contain valid data. This member is a bitfield whose value is either zero or the bitwise OR of one or more of the following flag bits:
 
 
-
-
-#### SYNTH_PORTPARAMS_VOICES
-
-The <b>Voices</b> field is valid.
-
-
-#### SYNTH_PORTPARAMS_CHANNELGROUPS
-
-The <b>ChannelGroups</b> field is valid.
 
 
 #### SYNTH_PORTPARAMS_AUDIOCHANNELS
@@ -95,9 +85,9 @@ The <b>ChannelGroups</b> field is valid.
 The <b>AudioChannels</b> field is valid.
 
 
-#### SYNTH_PORTPARAMS_SAMPLERATE
+#### SYNTH_PORTPARAMS_CHANNELGROUPS
 
-The <b>SampleRate</b> field is valid.
+The <b>ChannelGroups</b> field is valid.
 
 
 #### SYNTH_PORTPARAMS_EFFECT
@@ -105,43 +95,48 @@ The <b>SampleRate</b> field is valid.
 The <b>EffectsFlags</b> flag is valid.
 
 
+#### SYNTH_PORTPARAMS_SAMPLERATE
+
+The <b>SampleRate</b> field is valid.
+
+
 #### SYNTH_PORTPARAMS_SHARE
 
 The <b>Share</b> field is valid.
 
 
-#### - Voices
+#### SYNTH_PORTPARAMS_VOICES
+
+The <b>Voices</b> field is valid.
+
+
+### -field Voices
 
 Specifies the maximum number of simultaneous voices that the application wishes to play on this port.
 
 
-#### - ChannelGroups
+### -field ChannelGroups
 
 Specifies the number of channel groups requested for this port. Each channel group contains 16 channels.
 
 
-#### - AudioChannels
+### -field AudioChannels
 
 Specifies the number of audio channels.
 
 
-#### - SampleRate
+### -field SampleRate
 
 Specifies the number of samples per second for the audio data produced by the port.
 
 
-#### - EffectsFlags
+### -field EffectsFlags
 
 Specifies the type of effects produced for audio output from this port. This member is a bitfield whose value is either zero or the bitwise OR of one or more of the following flag bits:
 
 
 
 If no effects are enabled, this member is set to SYNTH_EFFECT_NONE, which is zero.
-
-
-#### SYNTH_EFFECT_REVERB
-
-Reverb is enabled.
 
 
 #### SYNTH_EFFECT_CHORUS
@@ -154,7 +149,12 @@ Chorus effect is enabled.
 Delay effect is enabled.
 
 
-#### - Share
+#### SYNTH_EFFECT_REVERB
+
+Reverb is enabled.
+
+
+### -field Share
 
 Specifies whether the port's channel groups are shared. When this member is <b>TRUE</b>, all ports use the channel groups assigned to this port. When this member is <b>FALSE</b>, the port is opened in exclusive mode and the use of the same channel groups by other ports is not allowed.
 

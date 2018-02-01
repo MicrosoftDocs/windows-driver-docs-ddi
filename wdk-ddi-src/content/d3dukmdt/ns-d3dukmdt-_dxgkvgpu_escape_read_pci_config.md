@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, _DXGKVGPU_ESCAPE_READ_PCI_CONFIG
+ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config, _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKVGPU_ESCAPE_READ_PCI_CONFIG {
 
 
 
-#### - Header
+### -field Header
 
 The escape header being processed.
 
 
-#### - Offset
+### -field Offset
 
 Offset in bytes in the PCI config space.
 
 
-#### - Size
+### -field Size
 
 Size in bytes to read.
 

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 3D370646-3879-4415-8D80-04D0B23839B0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spbcx/SPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB_TRANSFER_DESCRIPTOR structure [Buses], SPB_TRANSFER_DESCRIPTOR, *PSPB_TRANSFER_DESCRIPTOR, spbcx/PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, SPB.spb_transfer_descriptor
+ms.keywords: PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB_TRANSFER_DESCRIPTOR, spbcx/PSPB_TRANSFER_DESCRIPTOR, SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR structure [Buses], *PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _SPB_TRANSFER_DESCRIPTOR {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of the entire structure.  Used for versioning.
 
 
-#### - Direction
+### -field Direction
 
 The direction of the transfer.  This member is set to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a> enumeration values:
 <ul>
@@ -84,12 +84,12 @@ The direction of the transfer.  This member is set to one of the following <a hr
 <li><b>SpbTransferDirectionToDevice</b></li>
 </ul>
 
-#### - TransferLength
+### -field TransferLength
 
 The number of bytes of data to be transferred.
 
 
-#### - DelayInUs
+### -field DelayInUs
 
 An optional delay, in microseconds, before this transfer begins. For more information, see the following Remarks section.
 
@@ -105,11 +105,11 @@ The <b>DelayInUs</b> member specifies a delay before the start of the transfer. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450924">SpbRequestGetTransferParameters</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
 
  
 

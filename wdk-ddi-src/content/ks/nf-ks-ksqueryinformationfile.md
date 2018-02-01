@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db1cce43-1eae-4af0-bb61-a5c295e3d325
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryInformationFile function [Streaming Media Devices], KsQueryInformationFile, ks/KsQueryInformationFile, ksfunc_3d343664-3fda-4612-96d4-3fe36532c99e.xml, stream.ksqueryinformationfile
+ms.keywords: ks/KsQueryInformationFile, KsQueryInformationFile function [Streaming Media Devices], ksfunc_3d343664-3fda-4612-96d4-3fe36532c99e.xml, stream.ksqueryinformationfile, KsQueryInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsQueryInformationFile(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Specifies the file object from which to query the standard information.
 
 
-#### - FileInformation [out]
+### -param FileInformation [out]
 
 Indicates the place in which to put the file information. This is assumed to be a valid or probed address.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the correct length of the <i>FileInformation</i> buffer.
 
 
-#### - FileInformationClass [in]
+### -param FileInformationClass [in]
 
 Specifies the class of information being requested.
 

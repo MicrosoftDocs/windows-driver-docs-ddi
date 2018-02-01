@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 49231293-286b-486d-b8f9-b44bdb845e7b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_RGBQUAD, PKS_RGBQUAD, tagKS_RGBQUAD, vidcapstruct_c081668e-9e81-4c30-89d1-b4c26dc9a300.xml, *PKS_RGBQUAD, stream.ks_rgbquad, KS_RGBQUAD, KS_RGBQUAD structure [Streaming Media Devices], ksmedia/KS_RGBQUAD, PKS_RGBQUAD structure pointer [Streaming Media Devices]
+ms.keywords: tagKS_RGBQUAD, PKS_RGBQUAD, ksmedia/PKS_RGBQUAD, PKS_RGBQUAD structure pointer [Streaming Media Devices], vidcapstruct_c081668e-9e81-4c30-89d1-b4c26dc9a300.xml, KS_RGBQUAD, *PKS_RGBQUAD, stream.ks_rgbquad, ksmedia/KS_RGBQUAD, KS_RGBQUAD structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct tagKS_RGBQUAD {
 
 
 
-#### - rgbBlue
+### -field rgbBlue
 
 Specifies the intensity of blue in the color.
 
 
-#### - rgbGreen
+### -field rgbGreen
 
 Specifies the intensity of green in the color.
 
 
-#### - rgbRed
+### -field rgbRed
 
 Specifies the intensity of red in the color.
 
 
-#### - rgbReserved
+### -field rgbReserved
 
 Reserved. This member must be zero.
 

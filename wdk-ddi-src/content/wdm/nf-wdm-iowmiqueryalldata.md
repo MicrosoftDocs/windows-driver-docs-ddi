@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0efae7b-5a53-4f8a-b2d7-c30eefad7c90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], IoWMIQueryAllData, kernel.iowmiqueryalldata, wdm/IoWMIQueryAllData, k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml
+ms.keywords: kernel.iowmiqueryalldata, wdm/IoWMIQueryAllData, IoWMIQueryAllData, IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS IoWMIQueryAllData(
 
 
 
-#### - DataBlockObject [in]
+### -param DataBlockObject [in]
 
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_QUERY access right. 
 
 
-#### - InOutBufferSize [in, out]
+### -param InOutBufferSize [in, out]
 
 Pointer to a memory location that specifies the size of the buffer passed in the <i>OutBuffer</i> parameter. If the routine succeeds, it updates the memory location to specify the number of bytes actually stored in <i>OutBuffer</i>. If the routine fails with status code of STATUS_BUFFER_TOO_SMALL, it returns the number of bytes required to return the data.
 
 
-#### - OutBuffer [out, optional]
+### -param OutBuffer [out, optional]
 
 Pointer to the buffer where the routine returns the WMI data. The routine returns a sequence of variable-sized <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a> structures, one for each set of returned data blocks. The <b>WnodeHeader.Linkage</b> member of each <b>WNODE_ALL_DATA</b> structure contains the offset from the beginning of the current <b>WNODE_ALL_DATA</b> to the beginning of the next <b>WNODE_ALL_DATA</b>. The final block in the chain has <b>WnodeHeader.Linkage</b> set to zero. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool. 
 
@@ -142,9 +142,9 @@ To query for multiple WMI classes, use <a href="..\wdm\nf-wdm-iowmiqueryalldatam
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
 <a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
 

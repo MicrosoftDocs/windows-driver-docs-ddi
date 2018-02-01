@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], netvista.ndisgetnetbufferlistprotocolid, ndis/NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml
+ms.keywords: NdisGetNetBufferListProtocolId, netvista.ndisgetnetbufferlistprotocolid, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, ndis/NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ UCHAR NdisGetNetBufferListProtocolId(
 
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
@@ -146,18 +146,18 @@ NDIS drivers can call the
 
 Protocol drivers that create NET_BUFFER_LIST structures should set the protocol identifier by calling
     the 
-    <mshelp:link keywords="netvista.ndissetnetbufferlistprotocolid" tabindex="0"><b>
-    NdisSetNetBufferListProtocolId</b></mshelp:link> macro or by associating an identifier with a NET_BUFFER_LIST
+    <a href="https://msdn.microsoft.com/e143c914-cfb0-4c06-9da7-a2f5ef09afe2">
+    NdisSetNetBufferListProtocolId</a> macro or by associating an identifier with a NET_BUFFER_LIST
     pool.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndissetnetbufferlistprotocolid" tabindex="0"><b>
-   NdisSetNetBufferListProtocolId</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/e143c914-cfb0-4c06-9da7-a2f5ef09afe2">
+   NdisSetNetBufferListProtocolId</a>
 
  
 

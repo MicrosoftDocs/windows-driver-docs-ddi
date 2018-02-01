@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4C7884AB-C763-4FAF-8799-E0113B3F3AE0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iosetactivityidthread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], ntddk/IoSetActivityIdThread, IoSetActivityIdThread
+ms.keywords: kernel.iosetactivityidthread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], IoSetActivityIdThread, ntddk/IoSetActivityIdThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ LPGUID IoSetActivityIdThread(
 
 
 
-#### - ActivityId
+### -param ActivityId
 
 The activity ID provided by caller.
 

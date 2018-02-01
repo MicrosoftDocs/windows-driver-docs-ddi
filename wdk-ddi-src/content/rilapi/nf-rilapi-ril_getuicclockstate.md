@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a831f49b-203e-4672-aced-679f0835dabb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetUiccLockState, RIL_GetUiccLockState method [Network Drivers Starting with Windows Vista], netvista.ril_getuicclockstate, rilapi/RIL_GetUiccLockState
+ms.keywords: RIL_GetUiccLockState method [Network Drivers Starting with Windows Vista], RIL_GetUiccLockState, netvista.ril_getuicclockstate, rilapi/RIL_GetUiccLockState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetUiccLockState(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - lpRilUiccLock
+### -param lpRilUiccLock
 
 
 

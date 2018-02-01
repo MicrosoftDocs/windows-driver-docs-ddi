@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PshedFreeMemory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml, whea.pshedfreememory, ntddk/PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications]
+ms.keywords: PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications], whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml, ntddk/PshedFreeMemory, whea.pshedfreememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID PshedFreeMemory(
 
 
 
-#### - Address [in]
+### -param Address [in]
 
 A pointer to the block of memory being freed.
 

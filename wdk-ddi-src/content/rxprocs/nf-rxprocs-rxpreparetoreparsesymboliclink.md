@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxpreparetoreparsesymboliclink, RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], rxprocs/RxPrepareToReparseSymbolicLink
+ms.keywords: ifsk.rxpreparetoreparsesymboliclink, RxPrepareToReparseSymbolicLink, rxprocs/RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RxPrepareToReparseSymbolicLink(
 
 
 
-#### - RxContext
+### -param RxContext
 
 A pointer to the RX_CONTEXT structure.
 
 
-#### - SymbolicLinkEmbeddedInOldPath
+### -param SymbolicLinkEmbeddedInOldPath
 
 A Boolean value that indicates that a symbolic link was encountered. If the value is <b>TRUE</b>, a symbolic link was encountered as part of the traversal of the old path.
 
 
-#### - NewPath
+### -param NewPath
 
 A pointer to a Unicode string that contains the new path name to be traversed.
 
 
-#### - NewPathIsAbsolute
+### -param NewPathIsAbsolute
 
 A Boolean value that indicates if the new path is absolute. If this value is <b>FALSE</b>, \Device\Mup should be prepended to <i>NewPath</i>. If this value is <b>TRUE</b>, the <i>NewPath</i> parameter is the full path to reparse. In this case, the buffer that contains <i>NewPath</i> is used directly, rather than allocating a new buffer.
 
 
-#### - ReparseRequired
+### -param ReparseRequired
 
 A pointer to a Boolean value that indicates whether a reparse is required. If this value is <b>TRUE</b>, a reparse is required.
 

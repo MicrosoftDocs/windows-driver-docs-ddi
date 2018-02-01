@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E6AD21CE-C218-439F-A8F7-8E1AAF307A57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsInitializeDeviceProfile, KsInitializeDeviceProfile function [Streaming Media Devices], stream.ksinitializedeviceprofile, ks/KsInitializeDeviceProfile
+ms.keywords: KsInitializeDeviceProfile, KsInitializeDeviceProfile function [Streaming Media Devices], ks/KsInitializeDeviceProfile, stream.ksinitializedeviceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ The <b>KsInitializeDeviceProfile</b> API must be called by all miniport drivers 
 
 
 
-#### - FilterFactory [in]
+### -param FilterFactory [in]
 
 This is the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> that was created by the camera driver to uniquely identify the camera’s filter factory.
 

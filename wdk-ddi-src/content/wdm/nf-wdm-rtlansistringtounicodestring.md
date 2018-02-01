@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 926d8919-42de-4e24-a223-ffbf412edf6d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, wdm/RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString, kernel.rtlansistringtounicodestring, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString, k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, RtlAnsiStringToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlAnsiStringToUnicodeString(
 
 
 
-#### - DestinationString [in, out]
+### -param DestinationString [in, out]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to hold the converted Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently-specified buffer to hold the string.
 
 
-#### - SourceString [in]
+### -param SourceString [in]
 
 Pointer to the ANSI string to be converted to Unicode.
 
 
-#### - AllocateDestinationString [in]
+### -param AllocateDestinationString [in]
 
 Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>.
 
@@ -156,15 +156,15 @@ The second byte of a two-byte character code is a value that is valid only as th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-<a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>
+<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
 
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
+<a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>
+
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 

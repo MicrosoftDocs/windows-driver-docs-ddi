@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 80e43bd7-9ab9-46b0-a7f3-08c3577be4bc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IsFrom32BitProcess method, IWDFIoRequest interface, IsFrom32BitProcess method, IWDFIoRequest, wdf.iwdfiorequest_isfrom32bitprocess, IWDFIoRequest::IsFrom32BitProcess, wudfddi/IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess, umdf.iwdfiorequest_isfrom32bitprocess, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, IsFrom32BitProcess method, IWDFIoRequest interface
+ms.keywords: IsFrom32BitProcess method, IsFrom32BitProcess method, IWDFIoRequest interface, IsFrom32BitProcess, wudfddi/IWDFIoRequest::IsFrom32BitProcess, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, wdf.iwdfiorequest_isfrom32bitprocess, umdf.iwdfiorequest_isfrom32bitprocess, IWDFIoRequest::IsFrom32BitProcess, IWDFIoRequest interface, IsFrom32BitProcess method, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

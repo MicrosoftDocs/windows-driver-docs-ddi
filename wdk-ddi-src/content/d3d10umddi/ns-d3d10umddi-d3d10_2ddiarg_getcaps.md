@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a22464f-4e0b-4b14-bdbf-b34b3abf9780
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_2DDIARG_GETCAPS structure [Display Devices], d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps, UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml, D3D10_2DDIARG_GETCAPS
+ms.keywords: D3D10_2DDIARG_GETCAPS, d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps, UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml, D3D10_2DDIARG_GETCAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct D3D10_2DDIARG_GETCAPS {
 
 
 
-#### - Type
+### -field Type
 
 [in] The type of capabilities to retrieve. The Microsoft Direct3D runtime can supply one of the values from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a> enumeration, possibly along with information in the memory block that is pointed to by <b>pInfo</b>, to retrieve particular capability data in the memory block at <b>pData</b>.
 
 
-#### - pInfo
+### -field pInfo
 
 [in] A pointer to a memory block that contains data that specifies the specific condition on which to retrieve the capabilities of the type that is specified by the <b>Type</b> member. 
 
 
-#### - pData
+### -field pData
 
 [out] A pointer to a memory block that is filled with capabilities of the type that is specified by the <b>Type</b> member and possibly determined by the condition that is specified in the memory block at <b>pInfo</b>. 
 
 
-#### - DataSize
+### -field DataSize
 
 [in/out] The size, in bytes, of the memory block at <b>pData</b>. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
 
  
 

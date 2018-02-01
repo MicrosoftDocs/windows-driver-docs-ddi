@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8d5fea6-d0fd-4dc4-b8ec-10c72381285b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, kernel.mmallocatemappingaddress, MmAllocateMappingAddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], wdm/MmAllocateMappingAddress
+ms.keywords: MmAllocateMappingAddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], wdm/MmAllocateMappingAddress, kernel.mmallocatemappingaddress, k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PVOID MmAllocateMappingAddress(
 
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies the number of bytes to reserve. 
 
 
-#### - PoolTag [in]
+### -param PoolTag [in]
 
 Specifies a four-character tag used to identify the buffer. Use a distinct <i>PoolTag</i> tag for each allocation code path. For a description of pool tags, see <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>. 
 
@@ -95,11 +95,11 @@ Specifies a four-character tag used to identify the buffer. Use a distinct <i>Po
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
-
 <a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
+
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
 
  
 

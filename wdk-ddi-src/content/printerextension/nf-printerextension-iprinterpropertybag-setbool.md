@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B97C3FE9-0AC8-4147-A394-3344EBBA0B4C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetBool method [Print Devices], IPrinterPropertyBag::SetBool, SetBool method [Print Devices], IPrinterPropertyBag interface, SetBool, IPrinterPropertyBag interface [Print Devices], SetBool method, printerextension/IPrinterPropertyBag::SetBool, print.iprinterpropertybag_setbool, IPrinterPropertyBag
+ms.keywords: SetBool method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag::SetBool, printerextension/IPrinterPropertyBag::SetBool, print.iprinterpropertybag_setbool, IPrinterPropertyBag interface [Print Devices], SetBool method, IPrinterPropertyBag, SetBool, SetBool method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetBool(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The property to set.
 
 
-#### - bValue [in]
+### -param bValue [in]
 
 The value to set.
 

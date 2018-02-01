@@ -74,12 +74,12 @@ NTSTATUS EvtDeviceWdmIrpPreprocess(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnDirectionTx, usbfnbase/UsbfnDirectionMaximum, USBFN_DIRECTION enumeration [Buses], usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionMinimum, usbfnbase/USBFN_DIRECTION, UsbfnDirectionIn, UsbfnDirectionOut, *PUSBFN_DIRECTION, buses.usbfn_direction, USBFN_DIRECTION, UsbfnDirectionTx, UsbfnDirectionRx, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionOut, _USBFN_DIRECTION, UsbfnDirectionMaximum, UsbfnDirectionMinimum
+ms.keywords: usbfnbase/UsbfnDirectionMinimum, UsbfnDirectionRx, UsbfnDirectionMinimum, UsbfnDirectionIn, UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionIn, USBFN_DIRECTION, usbfnbase/UsbfnDirectionMaximum, *PUSBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionOut, _USBFN_DIRECTION, UsbfnDirectionTx, usbfnbase/UsbfnDirectionTx, usbfnbase/UsbfnDirectionOut, usbfnbase/USBFN_DIRECTION, buses.usbfn_direction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _USBFN_DIRECTION {
 
 
 
-#### - UsbfnDirectionMinimum
+### -field UsbfnDirectionMinimum
 
 The minimum value in this enumeration.
 
 
-#### - UsbfnDirectionIn
+### -field UsbfnDirectionIn
 
 The transfer is to the host from an endpoint.
 
 
-#### - UsbfnDirectionOut
+### -field UsbfnDirectionOut
 
 The transfer is from the host to the endpoint.
 
 
-#### - UsbfnDirectionTx
+### -field UsbfnDirectionTx
 
 The bus transfer to the host from the device. 
 
 
-#### - UsbfnDirectionRx
+### -field UsbfnDirectionRx
 
 The bus transfer is from the host to the device.
 
 
-#### - UsbfnDirectionMaximum
+### -field UsbfnDirectionMaximum
 
 The maximum value in this enumeration.
 

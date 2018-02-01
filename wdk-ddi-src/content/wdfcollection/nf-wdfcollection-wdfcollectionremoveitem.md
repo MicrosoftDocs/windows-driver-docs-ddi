@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcollectionremoveitem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, PFN_WDFCOLLECTIONREMOVEITEM, wdfcollection/WdfCollectionRemoveItem, WdfCollectionRemoveItem method, wdf.wdfcollectionremoveitem, WdfCollectionRemoveItem
+ms.keywords: WdfCollectionRemoveItem, wdf.wdfcollectionremoveitem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, kmdf.wdfcollectionremoveitem, WdfCollectionRemoveItem method, wdfcollection/WdfCollectionRemoveItem, PFN_WDFCOLLECTIONREMOVEITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfCollectionRemoveItem(
 
 
 
-#### - Collection [in]
+### -param Collection [in]
 
 A handle to a collection object.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based index that identifies the object to remove. 
 

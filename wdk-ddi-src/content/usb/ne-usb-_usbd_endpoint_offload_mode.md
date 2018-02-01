@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 577B2B5E-934E-4354-B6FF-FDFE9D1144D7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/UsbdEndpointOffloadSoftwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, usb/USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE, UsbdEndpointOffloadSoftwareAssisted, usb/UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, UsbdEndpointOffloadHardwareAssisted, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], buses.usbd_endpoint_offload_mode, usb/UsbdEndpointOffloadModeNotSupported
+ms.keywords: UsbdEndpointOffloadHardwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadModeNotSupported, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, UsbdEndpointOffloadSoftwareAssisted, usb/UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted, usb/USBD_ENDPOINT_OFFLOAD_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _USBD_ENDPOINT_OFFLOAD_MODE {
 
 
 
-#### - UsbdEndpointOffloadModeNotSupported
+### -field UsbdEndpointOffloadModeNotSupported
 
 Endpoint offloading is not supported.
 
 
-#### - UsbdEndpointOffloadSoftwareAssisted
+### -field UsbdEndpointOffloadSoftwareAssisted
 
 Endpoint offloading is handled by the software.
 
 
-#### - UsbdEndpointOffloadHardwareAssisted
+### -field UsbdEndpointOffloadHardwareAssisted
 
 Endpoint offloading is handled in the USB device or host controller hardware.
 

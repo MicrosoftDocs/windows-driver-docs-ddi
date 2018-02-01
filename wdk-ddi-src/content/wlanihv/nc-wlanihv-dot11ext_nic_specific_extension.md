@@ -74,7 +74,7 @@ DWORD WINAPI * Dot11ExtNicSpecificExtension(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -82,19 +82,19 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-#### - dwInBufferSize [in]
+### -param dwInBufferSize [in]
 
 The size, in bytes, of the caller-allocated data buffer referenced by the 
      <i>pvInBuffer</i> parameter.
 
 
-#### - pvInBuffer [in]
+### -param pvInBuffer [in]
 
 A pointer to a caller-allocated input buffer that contains the data required to perform the
      operation. The format of this data is defined by the IHV.
 
 
-#### - *pdwOutBufferSize [in, out]
+### -param *pdwOutBufferSize [in, out]
 
 A pointer to a caller-allocated DWORD variable. When the 
      <b>Dot11ExtNicSpecificExtension</b> function is called, the IHV Extensions DLL
@@ -104,21 +104,11 @@ A pointer to a caller-allocated DWORD variable. When the
      <i>pvOutBuffer</i> parameter.
 
 
-#### - pvOutBuffer [out]
+### -param pvOutBuffer [out]
 
 A pointer to a caller-allocated buffer that contains data returned from the Native 802.11 miniport
      driver for the specified request. The format of this data is defined by the IHV. This parameter can be
      <b>NULL</b> if data is not to be returned by the Native 802.11 miniport driver.
-
-
-#### - pdwOutBufferSize [in, out]
-
-A pointer to a caller-allocated DWORD variable. When the 
-     <b>Dot11ExtNicSpecificExtension</b> function is called, the IHV Extensions DLL
-     must set this variable to the size, in bytes, of the caller-allocated data buffer referenced by the 
-     <i>pvOutBuffer</i> parameter. When the function returns, the operating system sets the variable to the
-     actual number of bytes returned in the data buffer referenced by the 
-     <i>pvOutBuffer</i> parameter.
 
 
 ## -returns
@@ -138,8 +128,8 @@ The
     pass proprietary method requests to the Native 802.11 miniport driver, which is referenced by the 
     <i>hDot11SvcHandle</i> parameter. The operating system issues the method request through the Native 802.11
     
-    <mshelp:link keywords="netvista.oid_dot11_nic_specific_extension" tabindex="0">
-    OID_DOT11_NIC_SPECIFIC_EXTENSION</mshelp:link> object identifier (OID).
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
+    OID_DOT11_NIC_SPECIFIC_EXTENSION</a> object identifier (OID).
 <div class="alert"><b>Note</b>  OID_DOT11_NIC_SPECIFIC_EXTENSION is an optional OID for support by the Native
     802.11 miniport driver. If the driver does not support this OID, 
     <b>Dot11ExtNicSpecificExtension</b> will return a value of ERROR_NOT_SUPPORTED.</div><div> </div>
@@ -147,8 +137,8 @@ The
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_nic_specific_extension" tabindex="0">
-   OID_DOT11_NIC_SPECIFIC_EXTENSION</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
+   OID_DOT11_NIC_SPECIFIC_EXTENSION</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 47793815-F7AC-4E0D-809C-DBB7497BDA30
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugplmclient2_launchplmbgtaskfordebugwide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, IDebugPlmClient2, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging]
+ms.keywords: LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, IDebugPlmClient2, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], debugger.idebugplmclient2_launchplmbgtaskfordebugwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT LaunchPlmBgTaskForDebugWide(
 
 
 
-#### - Server [in]
+### -param Server [in]
 
 The server of the task.
 
 
-#### - Timeout [in]
+### -param Timeout [in]
 
 A time-out value.
 
 
-#### - PackageFullName [in]
+### -param PackageFullName [in]
 
 A pointer to the package name.
 
 
-#### - BackgroundTaskId [in]
+### -param BackgroundTaskId [in]
 
 A pointer to the task ID.
 
 
-#### - ProcessId [out]
+### -param ProcessId [out]
 
 A pointer to a process ID output.
 
 
-#### - ThreadId [out]
+### -param ThreadId [out]
 
 A pointer to a thread ID output.
 

@@ -87,6 +87,11 @@ NTSTATUS AVStrMiniPinHandshake(
 
 
 
+#### - Data [in]
+
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure.
+
+
 #### - Irp [in]
 
 Pointer to the IRP containing the handshake request.
@@ -95,11 +100,6 @@ Pointer to the IRP containing the handshake request.
 #### - Request [in]
 
 Pointer to a <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
-
-
-#### - Data [in]
-
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure.
 
 
 ## -returns
@@ -118,11 +118,11 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
 
-<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
  
 

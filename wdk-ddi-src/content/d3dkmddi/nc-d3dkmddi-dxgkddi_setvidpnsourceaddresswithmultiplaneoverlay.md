@@ -71,14 +71,14 @@ _Check_return_ NTSTATUS APIENTRY* DxgkDdiSetVidPnSourceAddressWithMultiPlaneOver
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 A handle to a context block that is associated with a display adapter.
 
 The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-#### - pSetVidPnSourceAddressWithMultiPlaneOverlay [in]
+### -param pSetVidPnSourceAddressWithMultiPlaneOverlay [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY</a> structure that defines multiplane overlays that are enabled for  display.
 
@@ -99,9 +99,9 @@ See requirements on calling this function in <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
  
 

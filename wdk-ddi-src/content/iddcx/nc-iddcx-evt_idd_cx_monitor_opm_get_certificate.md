@@ -73,14 +73,14 @@ typedef EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE PFN_IDD_CX_MONITOR_OPM_GET_CERTIF
 
 
 
-#### - AdapterObject [in]
+### -param AdapterObject [in]
 
 
                     
                 The object for the adapter that the OPM certificate will be gotten for.
 
 
-#### - pInArgs [in]
+### -param pInArgs [in]
 
 
                     

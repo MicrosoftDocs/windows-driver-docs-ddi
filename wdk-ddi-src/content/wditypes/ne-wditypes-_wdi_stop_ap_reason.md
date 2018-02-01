@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F0CACC25-2F7B-431A-8AAB-CBE495178CC1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdi_stop_ap_reason, wditypes/WDI_STOP_AP_REASON_IHV_END, wditypes/WDI_STOP_AP_REASON_IHV_START, WDI_STOP_AP_REASON_IHV_START, WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON, WDI_STOP_AP_REASON_IHV_END, WDI_STOP_AP_REASON enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_STOP_AP_REASON_AP_ACTIVE, WDI_STOP_AP_REASON, wditypes/WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, WDI_STOP_AP_REASON_AP_ACTIVE, _WDI_STOP_AP_REASON
+ms.keywords: wditypes/WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, WDI_STOP_AP_REASON_IHV_END, WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, WDI_STOP_AP_REASON enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_STOP_AP_REASON, WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, netvista.wdi_stop_ap_reason, wditypes/WDI_STOP_AP_REASON_IHV_START, wditypes/WDI_STOP_AP_REASON_IHV_END, _WDI_STOP_AP_REASON, wditypes/WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_AP_ACTIVE, WDI_STOP_AP_REASON_AP_ACTIVE, WDI_STOP_AP_REASON_IHV_START, WDI_STOP_AP_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _WDI_STOP_AP_REASON {
 
 
 
-#### - WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
+### -field WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
 
 The adapter determined that no valid operating frequency is available.
 
 
-#### - WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE
+### -field WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE
 
 The adapter determined that no operating channel is available.
 
 
-#### - WDI_STOP_AP_REASON_AP_ACTIVE
+### -field WDI_STOP_AP_REASON_AP_ACTIVE
 
 The adapter determined that an AP is already active on another 802.11 MAC entity for this physical wireless LAN adapter.
 
 
-#### - WDI_STOP_AP_REASON_IHV_START
+### -field WDI_STOP_AP_REASON_IHV_START
 
 The start value of possible IHV-specified reasons.
 
 
-#### - WDI_STOP_AP_REASON_IHV_END
+### -field WDI_STOP_AP_REASON_IHV_END
 
 The end value of possible IHV-specified reasons.
 

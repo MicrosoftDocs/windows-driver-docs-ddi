@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6d530cf2-de06-4aa3-9f4d-08619906c9ed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, WdfIoForwardProgressReservedPolicyUseExamine, WdfIoForwardProgressReservedPolicyPagingIO, DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml, wdfio/WdfIoForwardProgressInvalidPolicy, wdfio/WdfIoForwardProgressReservedPolicyUseExamine, kmdf.wdf_io_forward_progress_reserved_policy, wdf.wdf_io_forward_progress_reserved_policy, WdfIoForwardProgressInvalidPolicy, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyPagingIO, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
+ms.keywords: "_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WdfIoForwardProgressInvalidPolicy, wdfio/WdfIoForwardProgressInvalidPolicy, WdfIoForwardProgressReservedPolicyUseExamine, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyUseExamine, wdf.wdf_io_forward_progress_reserved_policy, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, kmdf.wdf_io_forward_progress_reserved_policy, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, wdfio/WdfIoForwardProgressReservedPolicyPagingIO, WdfIoForwardProgressReservedPolicyPagingIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,21 +73,21 @@ typedef enum _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY {
 
 
 
-#### - WdfIoForwardProgressInvalidPolicy
+### -field WdfIoForwardProgressInvalidPolicy
 
 
 
-#### - WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
+### -field WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
 
 In a low-memory situation, the framework always uses a reserved request object, if one is available.
 
 
-#### - WdfIoForwardProgressReservedPolicyUseExamine
+### -field WdfIoForwardProgressReservedPolicyUseExamine
 
 In a low-memory situation, the framework calls the driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a> callback function.
 
 
-#### - WdfIoForwardProgressReservedPolicyPagingIO
+### -field WdfIoForwardProgressReservedPolicyPagingIO
 
 In a low-memory situation, if the <b>Flags</b> member of the I/O request's <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure indicates a paging operation, the framework uses a reserved request object, if one is available. If the I/O request is not a paging operation, the framework completes the I/O request with an error status value.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9A315227-7305-4068-81DE-BD25F733E650
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], netvista.fwpsdereferencevswitchpacketcontext0, fwpsk/FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0
+ms.keywords: netvista.fwpsdereferencevswitchpacketcontext0, fwpsk/FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void NTAPI FwpsDereferencevSwitchPacketContext0(
 
 
 
-#### - packetContext
+### -param packetContext
 
 The <b>vSwitchPacketContext</b> value in the <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to callouts during virtual switch transport layer classifies (the FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID bit will be set in the <b>currentL2MetadataValues</b> member). 
 
@@ -89,9 +89,9 @@ The <b>FwpsDereferencevSwitchPacketContext0</b> function releases a reference  t
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreferencevswitchpacketcontext0.md">FwpsReferencevSwitchPacketContext0</a>
-
 <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsreferencevswitchpacketcontext0.md">FwpsReferencevSwitchPacketContext0</a>
 
  
 

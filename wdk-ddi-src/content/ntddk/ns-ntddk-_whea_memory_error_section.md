@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_WHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications]"
+ms.keywords: whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, PWHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, ntddk/WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, ntddk/PWHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION, _WHEA_MEMORY_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,110 +82,110 @@ typedef struct _WHEA_MEMORY_ERROR_SECTION {
 
 
 
-#### - ValidBits
+### -field ValidBits
 
 A <a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
 
-#### - ErrorStatus
+### -field ErrorStatus
 
 A <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
 
 This member contains valid data only if the <b>Validbits.ErrorStatus</b> bit is set.
 
 
-#### - PhysicalAddress
+### -field PhysicalAddress
 
 The physical address where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.PhysicalAddress</b> bit is set.
 
 
-#### - PhysicalAddressMask
+### -field PhysicalAddressMask
 
 A bit mask that specifies which of the bits in the <b>PhysicalAddress</b> member contain valid address data.
 
 This member contains valid data only if the <b>Validbits.PhysicalAddressMask</b> bit is set.
 
 
-#### - Node
+### -field Node
 
 The identifier of the node that contains the memory where the memory error occurred in a system with multiple nodes.
 
 This member contains valid data only if the <b>Validbits.Node</b> bit is set.
 
 
-#### - Card
+### -field Card
 
 The card number of the card that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Card</b> bit is set.
 
 
-#### - Module
+### -field Module
 
 The module number of the module that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Module</b> bit is set.
 
 
-#### - Bank
+### -field Bank
 
 The bank number of the memory bank that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Bank</b> bit is set.
 
 
-#### - Device
+### -field Device
 
 The device number of the memory device that contains the memory where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Device</b> bit is set.
 
 
-#### - Row
+### -field Row
 
 The row number of the location where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Row</b> bit is set.
 
 
-#### - Column
+### -field Column
 
 The column number of the location where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.Column</b> bit is set.
 
 
-#### - BitPosition
+### -field BitPosition
 
 The bit position where the memory error occurred.
 
 This member contains valid data only if the <b>Validbits.BitPosition</b> bit is set.
 
 
-#### - RequesterId
+### -field RequesterId
 
 An identifier that uniquely identifies the requester associated with the error.
 
 This member contains valid data only if the <b>Validbits.RequesterId</b> bit is set.
 
 
-#### - ResponderId
+### -field ResponderId
 
 An identifier that uniquely identifies the responder associated with the error.
 
 This member contains valid data only if the <b>Validbits.ResponderId</b> bit is set.
 
 
-#### - TargetId
+### -field TargetId
 
 The hardware address of the intended target of the transaction.
 
 This member contains valid data only if the <b>Validbits.TargetId</b> bit is set.
 
 
-#### - ErrorType
+### -field ErrorType
 
 The type of memory error that occurred. Possible values are:
 
@@ -194,34 +194,9 @@ The type of memory error that occurred. Possible values are:
 This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set.
 
 
-#### WHEA_MEMERRTYPE_UNKNOWN
+#### WHEA_MEMERRTYPE_INVALIDADDRESS
 
-An unknown error.
-
-
-#### WHEA_MEMERRTYPE_NOERROR
-
-No error occurred.
-
-
-#### WHEA_MEMERRTYPE_SINGLEBITECC
-
-A single bit <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-#### WHEA_MEMERRTYPE_MULTIBITECC
-
-A multibit ECC error.
-
-
-#### WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
-
-A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-#### WHEA_MEMERRTYPE_MULTISYMCHIPKILL
-
-A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
+An invalid memory address.
 
 
 #### WHEA_MEMERRTYPE_MASTERABORT
@@ -229,24 +204,9 @@ A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipK
 A master abort.
 
 
-#### WHEA_MEMERRTYPE_TARGETABORT
+#### WHEA_MEMERRTYPE_MEMORYSPARING
 
-A target abort.
-
-
-#### WHEA_MEMERRTYPE_PARITYERROR
-
-A parity error.
-
-
-#### WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
-
-A watchdog timeout.
-
-
-#### WHEA_MEMERRTYPE_INVALIDADDRESS
-
-An invalid memory address.
+A memory sparing error.
 
 
 #### WHEA_MEMERRTYPE_MIRRORBROKEN
@@ -254,9 +214,49 @@ An invalid memory address.
 A broken memory mirror.
 
 
-#### WHEA_MEMERRTYPE_MEMORYSPARING
+#### WHEA_MEMERRTYPE_MULTIBITECC
 
-A memory sparing error.
+A multibit ECC error.
+
+
+#### WHEA_MEMERRTYPE_MULTISYMCHIPKILL
+
+A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
+
+
+#### WHEA_MEMERRTYPE_NOERROR
+
+No error occurred.
+
+
+#### WHEA_MEMERRTYPE_PARITYERROR
+
+A parity error.
+
+
+#### WHEA_MEMERRTYPE_SINGLEBITECC
+
+A single bit <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
+
+
+#### WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
+
+A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
+
+
+#### WHEA_MEMERRTYPE_TARGETABORT
+
+A target abort.
+
+
+#### WHEA_MEMERRTYPE_UNKNOWN
+
+An unknown error.
+
+
+#### WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
+
+A watchdog timeout.
 
 
 ## -remarks
@@ -268,13 +268,13 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
  
 

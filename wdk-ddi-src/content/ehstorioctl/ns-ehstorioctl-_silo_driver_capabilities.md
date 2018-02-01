@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SILO_DRIVER_CAPABILITIES structure [Storage Devices], *PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities, CAP_BANDING_SUPPORT, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], PSILO_DRIVER_CAPABILITIES, _SILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION
+ms.keywords: storage.silo_driver_capabilities, SILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION, *PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, _SILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], SILO_DRIVER_CAPABILITIES structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _SILO_DRIVER_CAPABILITIES {
 
 
 
-#### - StructSize
+### -field StructSize
 
 The size of this structure. This is set to <b>sizeof</b>(SILO_DRIVER_CAPABILITIES).
 
 
-#### - Capabilities
+### -field Capabilities
 
 Capability flags for the silo driver. This is a bitwise OR combination of the following.
 <table>
@@ -107,17 +107,17 @@ The silo driver supports banding of LBA ranges.
 </table> 
 
 
-#### - MaxLbaFilterCount
+### -field MaxLbaFilterCount
 
 Maximum number of LBA filter entries the silo driver can provide in a <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
 
-#### - RedirectedIoctlListCount
+### -field RedirectedIoctlListCount
 
 The number of redirected IOCTLs in the list following this structure.
 
 
-#### - RedirectedIoctlListOffset
+### -field RedirectedIoctlListOffset
 
 The offset of the redirected IOCTL list from the beginning of this structure. This will typically be <b>sizeof</b>(SILO_DRIVER_CAPABILITIES).
 
@@ -133,9 +133,9 @@ To receive band management requests from the enhanced storage class driver, a si
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
-
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
+
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
 

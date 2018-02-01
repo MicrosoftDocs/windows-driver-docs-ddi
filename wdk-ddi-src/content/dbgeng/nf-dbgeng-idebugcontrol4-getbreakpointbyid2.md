@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 110eaa8a-d564-4900-8a08-d081572a5f43
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], debugger.getbreakpointbyid2, GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetBreakpointById2, IDebugControl4, IDebugControl4::GetBreakpointById2
+ms.keywords: IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2, IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, GetBreakpointById2 method [Windows Debugging], dbgeng/IDebugControl4::GetBreakpointById2, GetBreakpointById2, IDebugControl4, GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetBreakpointById2(
 
 
 
-#### - Id [in]
+### -param Id [in]
 
 Specifies the breakpoint ID of the breakpoint to return.
 
 
-#### - Bp [out]
+### -param Bp [out]
 
 Receives the breakpoint.
 

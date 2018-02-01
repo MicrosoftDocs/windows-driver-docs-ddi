@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 09a7d452-efa1-4846-8077-1f6ce60515e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml, rxprocs/RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], ifsk.rxlogeventwithbufferdirect, RxLogEventWithBufferDirect
+ms.keywords: ifsk.rxlogeventwithbufferdirect, RxLogEventWithBufferDirect, rxprocs/RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,32 +79,32 @@ VOID RxLogEventWithBufferDirect(
 TBD
 
 
-#### - OriginatorId [in]
+### -param OriginatorId [in]
 
 The string indicating the caller generating the error.
 
 
-#### - EventId [in]
+### -param EventId [in]
 
 The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
 
 
-#### - Status [in]
+### -param Status [in]
 
 The value indicating the status code of a routine indicating a failure.
 
 
-#### - DataBuffer [in]
+### -param DataBuffer [in]
 
 A pointer to a data buffer to be added to the I/O error log structure.
 
 
-#### - DataBufferLength [in]
+### -param DataBufferLength [in]
 
 The length of the data buffer to be added to the I/O error log structure.
 
 
-#### - LineNumber [in]
+### -param LineNumber [in]
 
 The line number in the source code file where this failure occurred.
 
@@ -134,9 +134,9 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
-
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 

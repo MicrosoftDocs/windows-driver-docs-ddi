@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/ProtocolTypeUnknown, ProtocolTypeNvme, ProtocolTypeProprietary, ntddstor/ProtocolTypeAta, ProtocolTypeUfs, ntddstor/ProtocolTypeProprietary, ntddstor/ProtocolTypeUfs, STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, ntddstor/ProtocolTypeScsi, *PSTORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeMaxReserved, ProtocolTypeAta, ntddstor/ProtocolTypeSd, ntddstor/STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ProtocolTypeScsi, ProtocolTypeSd, storage.storage_protocol_type
+ms.keywords: "*PSTORAGE_PROTOCOL_TYPE, storage.storage_protocol_type, ntddstor/STORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeScsi, ProtocolTypeUfs, _STORAGE_PROTOCOL_TYPE, ProtocolTypeScsi, ProtocolTypeNvme, ProtocolTypeMaxReserved, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ntddstor/ProtocolTypeMaxReserved, ProtocolTypeSd, ntddstor/ProtocolTypeProprietary, ntddstor/ProtocolTypeAta, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeUnknown, ProtocolTypeAta, ntddstor/ProtocolTypeUfs, ProtocolTypeProprietary, ProtocolTypeUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _STORAGE_PROTOCOL_TYPE {
 
 
 
-#### - ProtocolTypeUnknown
+### -field ProtocolTypeUnknown
 
 Unknown protocol type.
 
 
-#### - ProtocolTypeScsi
+### -field ProtocolTypeScsi
 
 SCSI protocol type.
 
 
-#### - ProtocolTypeAta
+### -field ProtocolTypeAta
 
 ATA protocol type.
 
 
-#### - ProtocolTypeNvme
+### -field ProtocolTypeNvme
 
 NVMe protocol type.
 
 
-#### - ProtocolTypeSd
+### -field ProtocolTypeSd
 
 SD protocol type.
 
 
-#### - ProtocolTypeUfs
+### -field ProtocolTypeUfs
 
 UFS protocol type.
 
 
-#### - ProtocolTypeProprietary
+### -field ProtocolTypeProprietary
 
  Vendor-specific protocol type.
 
 
-#### - ProtocolTypeMaxReserved
+### -field ProtocolTypeMaxReserved
 
 Reserved.
 

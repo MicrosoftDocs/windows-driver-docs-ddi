@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], ntifs/NtFlushBuffersFileEx, FLUSH_FLAGS_FILE_DATA_ONLY, ntifs/ZwFlushBuffersFileEx, FLUSH_FLAGS_NO_SYNC, ZwFlushBuffersFileEx, kernel.zwflushbuffersfileex, NtFlushBuffersFileEx
+ms.keywords: ZwFlushBuffersFileEx, FLUSH_FLAGS_FILE_DATA_ONLY, kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, NtFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], FLUSH_FLAGS_NO_SYNC, ntifs/ZwFlushBuffersFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwFlushBuffersFileEx(
 
 
 
-#### - FileHandle [in]
+### -param FileHandle [in]
 
 Handle returned by <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a> for the file whose buffers will be flushed. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flush operation flags. <i>Flags</i> can be 0 or one of the following values.
 <table>
@@ -116,7 +116,7 @@ TBD
 TBD
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
 
@@ -181,15 +181,15 @@ Callers of <b>ZwFlushBuffersFileEx</b> must be running at IRQL = PASSIVE_LEVEL a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltflushbuffers.md">FltFlushBuffers</a>
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

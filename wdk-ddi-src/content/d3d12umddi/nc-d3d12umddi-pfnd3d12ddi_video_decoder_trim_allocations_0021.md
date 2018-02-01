@@ -75,12 +75,12 @@ UINT64 APIENTRY* pfnDecoderTrimAllocations(
 
 
 
-#### - hDrvVideoDecoder
+### -param hDrvVideoDecoder
 
 The video decoder for which to submit this frame.
 
 
-#### - SubmissionID
+### -param SubmissionID
 
 The submission ID is a monotonically increasing integer value.  The value passed to this method indicates that the submission ID and all earlier values are now complete and the driver may free or re-use resources associated with this ID.
 

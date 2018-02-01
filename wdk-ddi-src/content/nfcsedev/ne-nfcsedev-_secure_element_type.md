@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 118B63D1-713A-4F8C-B97A-53BB6D0B819E
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], nfpdrivers._secure_element_type, DeviceHost, SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE, nfcsedev/DeviceHost, nfcsedev/External, nfcsedev/_SECURE_ELEMENT_TYPE, External, Integrated, _SECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/Integrated, *PSECURE_ELEMENT_TYPE, _SECURE_ELEMENT_TYPE
+ms.keywords: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE, nfcsedev/External, _SECURE_ELEMENT_TYPE, nfpdrivers._secure_element_type, nfcsedev/DeviceHost, nfcsedev/_SECURE_ELEMENT_TYPE, nfcsedev/Integrated, *PSECURE_ELEMENT_TYPE, _SECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], Integrated, DeviceHost, External, SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _SECURE_ELEMENT_TYPE {
 
 
 
-#### - Integrated
+### -field Integrated
 
 Integrated secure element.
 
 
-#### - External
+### -field External
 
 Separate UICC-based secure element.
 
 
-#### - DeviceHost
+### -field DeviceHost
 
 Separate HCE-based secure element.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wdf.wdf_interrupt_info_umdf, _WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, PWDF_INTERRUPT_INFO structure pointer, PWDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO, wudfinterrupt/PWDF_INTERRUPT_INFO
+ms.keywords: WDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO, wdf.wdf_interrupt_info_umdf, _WDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, PWDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wudfinterrupt/PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,62 +82,62 @@ typedef struct _WDF_INTERRUPT_INFO {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved for future use. 
 
 
-#### - TargetProcessorSet
+### -field TargetProcessorSet
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed value that specifies the interrupt's processor affinity.
 
 
-#### - Reserved2
+### -field Reserved2
 
 This member is reserved for future use. 
 
 
-#### - MessageNumber
+### -field MessageNumber
 
 If the <b>MessageSignaled</b> member is TRUE, this is the interrupt's message number.
 
 
-#### - Vector
+### -field Vector
 
 The interrupt vector.
 
 
-#### - Irql
+### -field Irql
 
 The DIRQL at which the device interrupts.
 
 
-#### - Mode
+### -field Mode
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered. The KINTERRUPT_MODE enumeration type is defined in Wudfwdm.h.
 
 
-#### - Polarity
+### -field Polarity
 
 A <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>-typed enumerator that identifies the interrupt signal's polarity.
 
 
-#### - MessageSignaled
+### -field MessageSignaled
 
 A Boolean value that, if TRUE, indicates that the interrupt is message-signaled. If FALSE, the interrupt is not message-signaled.
 
 
-#### - ShareDisposition
+### -field ShareDisposition
 
 A CM_SHARE_DISPOSITION-typed enumerator that indicates whether the interrupt is being shared. The value is <b>CmResourceShareShared</b> if the interrupt is being shared or <b>CmResourceShareDeviceExclusive</b> if the interrupt is not being shared. The CM_SHARE_DISPOSITION enumeration type is defined in Wudfwdm.h.
 
 
-#### - Group
+### -field Group
 
 A value that identifies the processor group that the <b>TargetProcessorSet</b> member applies to. This value is zero if the computer has only one processor group or if the operating system does not support processor groups. The <b>Group</b> member is available in version 1.9 and later versions of KMDF.
 
@@ -151,15 +151,15 @@ The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTER
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+
+<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 <a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
-
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
 
  
 

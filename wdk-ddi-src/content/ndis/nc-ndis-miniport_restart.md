@@ -74,7 +74,7 @@ NDIS_STATUS MiniportRestart(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
@@ -91,8 +91,8 @@ A handle to a context area that the miniport driver allocated in its
 #### - MiniportRestartParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_miniport_restart_parameters" tabindex="0"><b>
-     NDIS_MINIPORT_RESTART_PARAMETERS</b></mshelp:link> structure that defines the restart parameters for the miniport
+     <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+     NDIS_MINIPORT_RESTART_PARAMETERS</a> structure that defines the restart parameters for the miniport
      adapter.
 
 
@@ -166,8 +166,8 @@ None of the preceding status values applies. In this situation, the driver shoul
 
 A driver specifies the 
     <i>MiniportRestart</i> entry point when it calls the 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a> function.
 
 The miniport adapter that is specified by the 
     <i>MiniportAdapterContext</i> parameter enters the 
@@ -184,8 +184,8 @@ Must complete any tasks that are required to resume send and receive operations.
 <li>
 Optionally modifies the restart attributes that are specified in the 
       <b>RestartAttributes</b> member of the 
-      <mshelp:link keywords="netvista.ndis_miniport_restart_parameters" tabindex="0"><b>
-      NDIS_MINIPORT_RESTART_PARAMETERS</b></mshelp:link> structure. If the pointer in 
+      <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+      NDIS_MINIPORT_RESTART_PARAMETERS</a> structure. If the pointer in 
       <b>RestartAttributes</b> is <b>NULL</b>, the miniport driver should not modify or add to the restart attributes
       list. If the pointer in 
       <b>RestartAttributes</b> is non-<b>NULL</b>, it points to an 
@@ -195,8 +195,8 @@ Optionally modifies the restart attributes that are specified in the
 </li>
 <li>
 Can provide status indications with the 
-      <mshelp:link keywords="netvista.ndismindicatestatusex" tabindex="0"><b>
-      NdisMIndicateStatusEx</b></mshelp:link> function.
+      <a href="..\ndis\nf-ndis-ndismindicatestatusex.md">
+      NdisMIndicateStatusEx</a> function.
 
 </li>
 <li>
@@ -209,10 +209,10 @@ Should handle status requests in the
 <li>
 Can add new media-specific attributes to the list of restart attributes. In this situation, the
       miniport driver must allocate a new 
-      <mshelp:link keywords="netvista.ndis_restart_attributes" tabindex="0"><b>
-      NDIS_RESTART_ATTRIBUTES</b></mshelp:link> structure--for example, with the 
-      <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-      NdisAllocateMemoryWithTagPriority</b></mshelp:link> function--and provide memory space for the new attributes.
+      <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">
+      NDIS_RESTART_ATTRIBUTES</a> structure--for example, with the 
+      <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+      NdisAllocateMemoryWithTagPriority</a> function--and provide memory space for the new attributes.
       After propagating the restart attributes to overlying drivers, NDIS frees the attributes memory for the
       miniport drivers.
 
@@ -227,23 +227,23 @@ Can modify the media-specific attributes in the list of restart attributes. If t
 </li>
 <li>
 Can modify any field in the 
-      <mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
-      NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link> structure. When NDIS provides a non-<b>NULL</b> pointer in the 
+      <a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+      NDIS_RESTART_GENERAL_ATTRIBUTES</a> structure. When NDIS provides a non-<b>NULL</b> pointer in the 
       <b>RestartAttributes</b> member of the 
-      <mshelp:link keywords="netvista.ndis_miniport_restart_parameters" tabindex="0"><b>
-      NDIS_MINIPORT_RESTART_PARAMETERS</b></mshelp:link> structure, the attributes list contains one entry in which the 
+      <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+      NDIS_MINIPORT_RESTART_PARAMETERS</a> structure, the attributes list contains one entry in which the 
       <b>Oid</b> member in the 
       <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a> structure
       is 
-      <mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
-      OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link> and the 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+      OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a> and the 
       <b>Data</b> member contains an NDIS_RESTART_GENERAL_ATTRIBUTES structure.
 
 </li>
 <li>
 Should make sure that the 
-      <mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
-      NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link> structure contains the correct information. To make sure that the
+      <a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+      NDIS_RESTART_GENERAL_ATTRIBUTES</a> structure contains the correct information. To make sure that the
       NDIS_RESTART_GENERAL_ATTRIBUTES structure contains the required information, you should first determine
       the version of the structure by checking the 
       <b>Revision</b> member in the 
@@ -314,37 +314,37 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
-   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_restart_parameters" tabindex="0"><b>
-   NDIS_MINIPORT_RESTART_PARAMETERS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismrestartcomplete.md">NdisMRestartComplete</a>
+<a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
 
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
+<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+   NDIS_MINIPORT_RESTART_PARAMETERS</a>
+
 <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
-<mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
-   NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndismrestartcomplete.md">NdisMRestartComplete</a>
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
  
 

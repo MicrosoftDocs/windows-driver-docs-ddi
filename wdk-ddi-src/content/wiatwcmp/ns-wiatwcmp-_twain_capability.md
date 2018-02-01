@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 79a2155d-eb06-4095-9fe6-b95d93e46211
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.twain_capability, _TWAIN_CAPABILITY, PTWAIN_CAPABILITY structure pointer [Imaging Devices], *PTWAIN_CAPABILITY, wiatwcmp/TWAIN_CAPABILITY, wiatwcmp/PTWAIN_CAPABILITY, wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, TWAIN_CAPABILITY, PTWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices]
+ms.keywords: "*PTWAIN_CAPABILITY, image.twain_capability, PTWAIN_CAPABILITY structure pointer [Imaging Devices], TWAIN_CAPABILITY, _TWAIN_CAPABILITY, PTWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices], wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, wiatwcmp/TWAIN_CAPABILITY, wiatwcmp/PTWAIN_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,12 +75,12 @@ typedef struct _TWAIN_CAPABILITY {
 
 
 
-#### - lSize
+### -field lSize
 
 Specifies the size, in bytes, of the TWAIN_CAPABILITY structure.
 
 
-#### - lMSG
+### -field lMSG
 
 Specifies the particular TWAIN message, which can be one of the following values: 
 <table>
@@ -141,17 +141,17 @@ Set a capability.
 </table> 
 
 
-#### - lCapID
+### -field lCapID
 
 Specifies the ID of the capability to set or get.
 
 
-#### - lConType
+### -field lConType
 
 Specifies the capability's container type.
 
 
-#### - lRC
+### -field lRC
 
 Specifies the TWAIN return code. This value can be on of the following:
 <table>
@@ -192,7 +192,7 @@ See the <b>Remarks</b> section.
 </table> 
 
 
-#### - lCC
+### -field lCC
 
 Specifies the TWAIN condition code. This value can be one of the following:
 <table>
@@ -233,12 +233,12 @@ See the <b>Remarks</b> section.
 </table> 
 
 
-#### - lDataSize
+### -field lDataSize
 
 Specifies the size, in bytes of the data in the <b>Data</b> array.
 
 
-#### - Data
+### -field Data
 
 Is an array that contains the capability data. The actual size, in bytes, of the array is indicated by the <b>lDataSize</b> member.
 

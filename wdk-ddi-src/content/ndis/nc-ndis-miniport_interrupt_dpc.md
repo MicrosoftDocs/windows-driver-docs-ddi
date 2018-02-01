@@ -77,16 +77,16 @@ VOID MiniportInterruptDPC(
 
 
 
-#### - MiniportInterruptContext [in]
+### -param MiniportInterruptContext [in]
 
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
-     <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
-     NdisMRegisterInterruptEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+     NdisMRegisterInterruptEx</a> function.
 
 
-#### - MiniportDpcContext [in]
+### -param MiniportDpcContext [in]
 
 A pointer to a context area that the miniport driver supplied when it called the 
      <a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a> or 
@@ -97,16 +97,16 @@ A pointer to a context area that the miniport driver supplied when it called the
      <i>MiniportDpcContext</i> is <b>NULL</b>.
 
 
-#### - ReceiveThrottleParameters [in]
+### -param ReceiveThrottleParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_receive_throttle_parameters" tabindex="0"><b>
-     NDIS_RECEIVE_THROTTLE_PARAMETERS</b></mshelp:link> structure. This structure specifies the maximum number of 
+     <a href="..\ndis\ns-ndis-_ndis_receive_throttle_parameters.md">
+     NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure. This structure specifies the maximum number of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that a miniport
      driver should indicate in a DPC.
 
 
-#### - NdisReserved2 [in]
+### -param NdisReserved2 [in]
 
 Reserved for NDIS.
 
@@ -147,8 +147,8 @@ A miniport driver that supports <a href="https://docs.microsoft.com/en-us/window
     <i>MiniportInterruptDPC</i>.
 
 <i>MiniportInterruptDPC</i> calls the 
-    <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-    NdisMIndicateReceiveNetBufferLists</b></mshelp:link> function to indicate packets on the current processor. 
+    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    NdisMIndicateReceiveNetBufferLists</a> function to indicate packets on the current processor. 
     <i>MiniportInterruptDPC</i> can identify processing that is required for other CPUs
     and request NDIS to schedule DPCs on CPUs where a DPC is not outstanding.
 
@@ -174,8 +174,8 @@ Miniport drivers should limit the number of the receive buffers that they indica
     reenabled.
 
 A miniport driver can call the 
-    <mshelp:link keywords="netvista.ndismderegisterinterruptex" tabindex="0"><b>
-    NdisMDeregisterInterruptEx</b></mshelp:link> function from its 
+    <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">
+    NdisMDeregisterInterruptEx</a> function from its 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> or 
     <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function to release
     resources that it allocated with 
@@ -224,32 +224,32 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<mshelp:link keywords="netvista.ndis_receive_throttle_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_THROTTLE_PARAMETERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_ndis_receive_throttle_parameters.md">
+   NDIS_RECEIVE_THROTTLE_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
 
  
 

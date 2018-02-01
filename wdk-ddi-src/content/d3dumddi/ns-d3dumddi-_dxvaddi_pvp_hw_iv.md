@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ba29a38-1bf9-47a9-8da6-1f92eb8e8733
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_PVP_HW_IV structure [Display Devices], _DXVADDI_PVP_HW_IV, d3dumddi/DXVADDI_PVP_HW_IV, DXVA2_Structs_c4bb4df0-ed9d-494e-84ff-fcd8e68aac36.xml, DXVADDI_PVP_HW_IV, display.dxvaddi_pvp_hw_iv
+ms.keywords: DXVADDI_PVP_HW_IV structure [Display Devices], DXVA2_Structs_c4bb4df0-ed9d-494e-84ff-fcd8e68aac36.xml, _DXVADDI_PVP_HW_IV, DXVADDI_PVP_HW_IV, display.dxvaddi_pvp_hw_iv, d3dumddi/DXVADDI_PVP_HW_IV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVADDI_PVP_HW_IV {
 
 
 
-#### - IV
+### -field IV
 
 [in] A 64-bit initialization vector.
 
 
-#### - Count
+### -field Count
 
 [in] A 64-bit number.
 

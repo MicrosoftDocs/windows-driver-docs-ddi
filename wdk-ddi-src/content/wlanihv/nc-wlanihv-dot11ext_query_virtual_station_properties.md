@@ -73,7 +73,7 @@ DWORD WINAPI * Dot11ExtQueryVirtualStationProperties(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 A handle used by the operating system to reference the primary physical wireless LAN (WLAN)
      adapter. This handle value was received as the 
@@ -82,7 +82,7 @@ A handle used by the operating system to reference the primary physical wireless
      Handler function.
 
 
-#### - *pbIsVirtualStation [out]
+### -param *pbIsVirtualStation [out]
 
 A pointer to a Boolean value that indicates whether the primary physical WLAN adapter pointed to
      by the 
@@ -90,31 +90,16 @@ A pointer to a Boolean value that indicates whether the primary physical WLAN ad
      adapter is a virtual station, otherwise it is not a virtual station.
 
 
-#### - *pgPrimary [out]
+### -param *pgPrimary [out]
 
 A pointer to a GUID value that identifies the primary physical WLAN adapter that hosts a virtual
      station. This parameter is valid only if 
      <i>pbIsVirtualStation</i> points to a value that is <b>TRUE</b>.
 
 
-#### - pvReserved
+### -param pvReserved
 
 This parameter is reserved for use by the operating system and should be <b>NULL</b>.
-
-
-#### - pbIsVirtualStation [out]
-
-A pointer to a Boolean value that indicates whether the primary physical WLAN adapter pointed to
-     by the 
-     <i>hDot11SvcHandle</i> parameter is a virtual station adapter or not. If the value is <b>TRUE</b>, the queried
-     adapter is a virtual station, otherwise it is not a virtual station.
-
-
-#### - pgPrimary [out]
-
-A pointer to a GUID value that identifies the primary physical WLAN adapter that hosts a virtual
-     station. This parameter is valid only if 
-     <i>pbIsVirtualStation</i> points to a value that is <b>TRUE</b>.
 
 
 ## -returns

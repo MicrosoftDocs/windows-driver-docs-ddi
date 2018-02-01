@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aaf7e821-4f60-4018-b0ee-d0f3995482c4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortReadPortUchar, scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], storage.scsiportreadportuchar
+ms.keywords: ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, storage.scsiportreadportuchar, srb/ScsiPortReadPortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ UCHAR ScsiPortReadPortUchar(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 

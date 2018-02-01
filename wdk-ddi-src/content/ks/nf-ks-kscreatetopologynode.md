@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aeed8086-b413-428c-b275-d555523b5503
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateTopologyNode function [Streaming Media Devices], KsCreateTopologyNode, stream.kscreatetopologynode, ks/KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml
+ms.keywords: ks/KsCreateTopologyNode, stream.kscreatetopologynode, KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, KsCreateTopologyNode function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsCreateTopologyNode(
 
 
 
-#### - ParentHandle [in]
+### -param ParentHandle [in]
 
 Specifies the handle to the parent on which the node is created.
 
 
-#### - NodeCreate [in]
+### -param NodeCreate [in]
 
 Specifies topology node create parameters.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> indicating the desired access to the object. This is typically <b>GENERIC_READ</b> and/or <b>GENERIC_WRITE</b>.
 
 
-#### - NodeHandle [out]
+### -param NodeHandle [out]
 
 Location for the topology node handle.
 

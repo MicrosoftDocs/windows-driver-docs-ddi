@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices], d3dumddi/D3DDDIARG_SETLIGHT, UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, display.d3dddiarg_setlight"
+ms.keywords: display.d3dddiarg_setlight, D3DDDIARG_SETLIGHT structure [Display Devices], _D3DDDIARG_SETLIGHT, UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, d3dumddi/D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_SETLIGHT {
 
 
 
-#### - Index
+### -field Index
 
 [in] An index into an array of lights.
 
 
-#### - DataType
+### -field DataType
 
 [in] A valid bitwise OR of the following flags that indicate the type of light data:
 <table>
@@ -116,9 +116,9 @@ Disables the light whose index is specified in <b>Index</b>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
 
  
 

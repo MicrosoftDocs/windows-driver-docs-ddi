@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags, _D3DDDICB_SUBMITCOMMANDFLAGS
+ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, _D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _D3DDDICB_SUBMITCOMMANDFLAGS {
 
 
 
-#### - NullRendering
+### -field NullRendering
 
 Indicates  whether the associated  command buffers should be processed. When set, the command buffers should not be processed. This flag is set only during performance investigating and debugging to simulate an infinitely fast rendering engine that still must perform the overhead of DMA buffer submission and signaling. <b>NullRendering</b> is never set during typical operations.
 
@@ -83,14 +83,14 @@ Setting this member is equivalent to setting the first bit of the 32-bit Value m
 
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. 
 
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 The consolidated value of the bit-field members in this structure.
 

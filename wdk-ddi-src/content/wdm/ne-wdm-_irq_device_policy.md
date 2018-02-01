@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IrqPolicyOneCloseProcessor, IrqPolicyOneCloseProcessor, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, IRQ_DEVICE_POLICY, IrqPolicySpecifiedProcessors, IrqPolicyAllCloseProcessors, IrqPolicyMachineDefault, IrqPolicyAllProcessorsInMachine, kernel.irq_device_policy, wdm/IrqPolicySpecifiedProcessors, wdm/IrqPolicyAllProcessorsInMachine, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], wdm/IrqPolicyMachineDefault, PIRQ_DEVICE_POLICY, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IRQ_DEVICE_POLICY, _IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY, wdm/IrqPolicyAllCloseProcessors, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], IrqPolicySpreadMessagesAcrossAllProcessors, wdm/PIRQ_DEVICE_POLICY
+ms.keywords: wdm/IrqPolicyOneCloseProcessor, *PIRQ_DEVICE_POLICY, _IRQ_DEVICE_POLICY, wdm/IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, wdm/IrqPolicyAllCloseProcessors, IrqPolicySpreadMessagesAcrossAllProcessors, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPolicySpecifiedProcessors, IrqPolicyOneCloseProcessor, wdm/IrqPolicyMachineDefault, wdm/IrqPolicyAllProcessorsInMachine, wdm/PIRQ_DEVICE_POLICY, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, IrqPolicyAllCloseProcessors, IrqPolicyMachineDefault, PIRQ_DEVICE_POLICY, IrqPolicyAllProcessorsInMachine, IrqPolicySpecifiedProcessors, kernel.irq_device_policy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _IRQ_DEVICE_POLICY {
 
 
 
-#### - IrqPolicyMachineDefault
+### -field IrqPolicyMachineDefault
 
 The device does not require any particular assignment of interrupts to processors.
 
 
-#### - IrqPolicyAllCloseProcessors
+### -field IrqPolicyAllCloseProcessors
 
 The operating system should assign interrupts from the device to processors that are close to the device. On non-NUMA computers, the effect of this value is identical to that of <b>IrqPolicyAllProcessorsInMachine</b>.
 
 
-#### - IrqPolicyOneCloseProcessor
+### -field IrqPolicyOneCloseProcessor
 
 The operating system should assign a single interrupt for the device to one processor that is close to the device. On non-NUMA computers, the operating system can assign the interrupt to any processor.
 
 
-#### - IrqPolicyAllProcessorsInMachine
+### -field IrqPolicyAllProcessorsInMachine
 
 The operating system should assign interrupts from the device to all processors.
 
 
-#### - IrqPolicySpecifiedProcessors
+### -field IrqPolicySpecifiedProcessors
 
 The operating system should assign interrupts from the device to a specific set of processors.
 
 
-#### - IrqPolicySpreadMessagesAcrossAllProcessors
+### -field IrqPolicySpreadMessagesAcrossAllProcessors
 
 The operating system should assign different message-signaled interrupts to different processors, if possible. 
 

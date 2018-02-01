@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E0638C55-4160-48A5-9378-6AA9AAC8DC36
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, debugger.idebugsymbols5_setscopeframebyindexex, IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method, IDebugSymbols5
+ms.keywords: IDebugSymbols5, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, debugger.idebugsymbols5_setscopeframebyindexex, IDebugSymbols5::SetScopeFrameByIndexEx, IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SetScopeFrameByIndexEx(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bit-set that contains options that affect the behavior of this method. 
 
 
-#### - Index [in]
+### -param Index [in]
 
 An index by which to set the frame.
 

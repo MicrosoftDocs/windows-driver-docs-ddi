@@ -71,7 +71,7 @@ _checkReturn HRESULT APIENTRY CALLBACK pfnDestroyContextCb(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to a display device (that is, the graphics context).
 

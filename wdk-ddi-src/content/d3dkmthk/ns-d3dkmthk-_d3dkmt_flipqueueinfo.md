@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5bf5eb72-aa51-4ab3-ab68-13e6303f12a9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_db4a7b98-df53-4e1e-a990-0a2f45d71525.xml, D3DKMT_FLIPQUEUEINFO structure [Display Devices], D3DKMT_FLIPQUEUEINFO, _D3DKMT_FLIPQUEUEINFO, display.d3dkmt_flipqueueinfo, d3dkmthk/D3DKMT_FLIPQUEUEINFO
+ms.keywords: "_D3DKMT_FLIPQUEUEINFO, d3dkmthk/D3DKMT_FLIPQUEUEINFO, D3DKMT_FLIPQUEUEINFO, display.d3dkmt_flipqueueinfo, OpenGL_Structs_db4a7b98-df53-4e1e-a990-0a2f45d71525.xml, D3DKMT_FLIPQUEUEINFO structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,28 +69,28 @@ typedef struct _D3DKMT_FLIPQUEUEINFO {
 
 
 
-#### - MaxHardwareFlipQueueLength
+### -field MaxHardwareFlipQueueLength
 
 [out] The maximum number of flip operations that can be queued for hardware-flip queuing.
 
 
-#### - MaxSoftwareFlipQueueLength
+### -field MaxSoftwareFlipQueueLength
 
 [out] The maximum number of flip operations that can be queued for software-flip queuing  on hardware that supports memory mapped I/O (MMIO)-based flips.
 
 
-#### - FlipFlags
+### -field FlipFlags
 
 [out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipinfoflags.md">D3DKMT_FLIPINFOFLAGS</a> structure that indicates, in bit-field flags, flipping capabilities.
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipinfoflags.md">D3DKMT_FLIPINFOFLAGS</a>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipinfoflags.md">D3DKMT_FLIPINFOFLAGS</a>
 
  
 

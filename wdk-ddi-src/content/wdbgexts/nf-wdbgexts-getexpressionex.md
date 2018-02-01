@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 07525217-afa5-4fbf-8c84-847ded9556d8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, wdbgexts/GetExpressionEx, GetExpressionEx function [Windows Debugging], GetExpressionEx, debugger.getexpressionex
+ms.keywords: debugger.getexpressionex, wdbgexts/GetExpressionEx, WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, GetExpressionEx function [Windows Debugging], GetExpressionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ __inline BOOL GetExpressionEx(
 
 
 
-#### - Expression
+### -param Expression
 
 Specifies the expression to evaluate.  The expression uses the MASM syntax.  For details of this syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552157">MASM Numbers and Operators</a>.
 
 
-#### - Value
+### -param Value
 
 Receives the value of the expression.
 
 
-#### - Remainder
+### -param Remainder
 
 Receives a pointer to the first character in the expression <i>Expression</i> that was not used in the evaluation of the expression.
 

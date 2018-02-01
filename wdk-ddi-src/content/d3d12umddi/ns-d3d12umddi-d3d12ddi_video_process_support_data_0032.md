@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea2dabc5-6853-4491-8c1f-f3f5ae516952
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-video-process-support-data-0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure [Display Devices]
+ms.keywords: display.d3d12ddi-video-process-support-data-0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,77 +81,77 @@ typedef struct _D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 {
 
 
 
-#### - NodeIndex
+### -field NodeIndex
 
 Node index.
 
 
-#### - InputSample
+### -field InputSample
 
 Input sample.
 
 
-#### - InputFieldType
+### -field InputFieldType
 
 Input field type.
 
 
-#### - InputStereoFormat
+### -field InputStereoFormat
 
 Input stereo format.
 
 
-#### - InputFrameRate
+### -field InputFrameRate
 
 Input frame rate.
 
 
-#### - OutputFormat
+### -field OutputFormat
 
 Output format.
 
 
-#### - OutputStereoFormat
+### -field OutputStereoFormat
 
 Output stereo format.
 
 
-#### - OutputFrameRate
+### -field OutputFrameRate
 
 Output frame rate.
 
 
-#### - SupportFlags
+### -field SupportFlags
 
 Support flags.
 
 
-#### - ScaleSupport
+### -field ScaleSupport
 
 Scale support.
 
 
-#### - FeatureSupport
+### -field FeatureSupport
 
 Feature support.
 
 
-#### - DeinterlaceSupport
+### -field DeinterlaceSupport
 
 Deinterlace support.
 
 
-#### - AutoProcessingSupport
+### -field AutoProcessingSupport
 
 Auto processing support.
 
 
-#### - FilterSupport
+### -field FilterSupport
 
 Filter support.
 
 
-#### - FilterRangeSupport
+### -field FilterRangeSupport
 
 Filter range support.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7B23A6DF-2B78-48DF-BDD4-451A19521CAC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: knetpwrdepbroker/NpdBrokerInitialize, NpdBrokerInitialize function [Network Drivers Starting with Windows Vista], netvista.npdbrokerinitialize, NpdBrokerInitialize
+ms.keywords: NpdBrokerInitialize function [Network Drivers Starting with Windows Vista], NpdBrokerInitialize, netvista.npdbrokerinitialize, knetpwrdepbroker/NpdBrokerInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS NpdBrokerInitialize(
 
 
 
-#### - ulClientID [in]
+### -param ulClientID [in]
 
 Reserved.
 
 
-#### - phBroker [out]
+### -param phBroker [out]
 
 Reserved.
 

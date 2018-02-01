@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0ab96bc2-a89f-42cf-9ee2-020b47dff4cf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/PCONFIG_ROM, CONFIG_ROM, PCONFIG_ROM, 1394stct_83c9e36a-b3d7-46cc-9dc6-1e40095d041b.xml, CONFIG_ROM structure [Buses], *PCONFIG_ROM, 1394/CONFIG_ROM, PCONFIG_ROM structure pointer [Buses], IEEE.config_rom, _CONFIG_ROM
+ms.keywords: PCONFIG_ROM structure pointer [Buses], *PCONFIG_ROM, CONFIG_ROM, 1394/PCONFIG_ROM, PCONFIG_ROM, 1394stct_83c9e36a-b3d7-46cc-9dc6-1e40095d041b.xml, IEEE.config_rom, 1394/CONFIG_ROM, _CONFIG_ROM, CONFIG_ROM structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _CONFIG_ROM {
 
 
 
-#### - CR_Info
+### -field CR_Info
 
 Specifies the first 4 bytes of the configuration ROM. 
 
 
-#### - CR_Signiture
+### -field CR_Signiture
 
 Specifies a signature that will be the same for all 1394 devices.
 
 
-#### - CR_BusInfoBlockCaps
+### -field CR_BusInfoBlockCaps
 
 Specifies the bus capabilities of the device.
 
 
-#### - CR_Node_UniqueID
+### -field CR_Node_UniqueID
 
 Specifies the node's 64-bit vendor-assigned unique ID.
 
 
-#### - CR_Root_Info
+### -field CR_Root_Info
 
 Specifies the first 4 bytes of the root directory information.
 

@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SdBusOpenInterface, ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml, SD.sdbusopeninterface, SdBusOpenInterface function [Buses]
+ms.keywords: SD.sdbusopeninterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml, SdBusOpenInterface, ntddsd/SdBusOpenInterface, SdBusOpenInterface function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS SdBusOpenInterface(
 
 
 
-#### - Pdo [in]
+### -param Pdo [in]
 
 Pointer to the physical device object that the SD bus driver created for the SD device that the device driver manages. The system passes this pointer to the device driver when it calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 
-#### - InterfaceStandard [out]
+### -param InterfaceStandard [out]
 
 Contains, on input, a pointer to a structure of type <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a> supplied by the caller. On output, this structure holds pointers to the SD bus interface routines. This structure also contains some context information in its <b>Context</b> member that the caller should pass in every time it calls an interface routine.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Contains the size, in bytes, of the structure pointed to by <i>InterfaceStandard</i>.
 
 
-#### - Version [in]
+### -param Version [in]
 
 Must be set to SDBUS_INTERFACE_VERSION.
 

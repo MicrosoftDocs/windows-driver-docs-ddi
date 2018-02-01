@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice_assigndeviceinterfacestate, umdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, IWDFDevice, AssignDeviceInterfaceState method, IWDFDevice interface, IWDFDevice interface, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method, IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState
+ms.keywords: umdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState method, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, wdf.iwdfdevice_assigndeviceinterfacestate, AssignDeviceInterfaceState method, IWDFDevice interface, AssignDeviceInterfaceState, IWDFDevice, IWDFDevice interface, AssignDeviceInterfaceState method, IWDFDevice::AssignDeviceInterfaceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT AssignDeviceInterfaceState(
 
 
 
-#### - pDeviceInterfaceGuid [in]
+### -param pDeviceInterfaceGuid [in]
 
 A pointer to the GUID for a device interface class.
 
 
-#### - pReferenceString [in, optional]
+### -param pReferenceString [in, optional]
 
 A pointer to a <b>NULL</b>-terminated string that contains the name of the instance of the device interface. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a name. If the driver must supply a name, the string that the driver passes must not contain any path separator characters ("/" or "\"). 
 
 
-#### - Enable [in]
+### -param Enable [in]
 
 A BOOL value that specifies whether the device interface instance should be enabled or disabled. <b>TRUE</b> indicates to enable; <b>FALSE</b> indicates to disable.
 

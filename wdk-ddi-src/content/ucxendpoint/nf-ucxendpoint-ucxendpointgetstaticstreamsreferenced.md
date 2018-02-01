@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxendpoint/UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced, UcxEndpointGetStaticStreamsReferenced method [Buses]
+ms.keywords: UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], ucxendpoint/UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ UCXSSTREAMS UcxEndpointGetStaticStreamsReferenced(
 
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to the endpoint object for which the static streams object is requested. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 A driver-defined value that the framework stores as an identification tag for the object reference.
 

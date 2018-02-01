@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 87265ABB-C2B7-468F-83FC-411AD9769517
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthxddi/HciPacketCommand, bthxddi/HciPacketAclData, HciPacketCommand, bthxddi/HciPacketEvent, HciPacketAclData, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], bltooth.bthx_hci_packet_type, _BTHX_HCI_PACKET_TYPE, HciPacketEvent, bthxddi/BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE
+ms.keywords: "_BTHX_HCI_PACKET_TYPE, HciPacketAclData, HciPacketCommand, bthxddi/BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], bthxddi/HciPacketEvent, BTHX_HCI_PACKET_TYPE, HciPacketEvent, bthxddi/HciPacketAclData, bthxddi/HciPacketCommand, bltooth.bthx_hci_packet_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _BTHX_HCI_PACKET_TYPE {
 
 
 
-#### - HciPacketCommand
+### -field HciPacketCommand
 
 The packet represents a command.
 
 
-#### - HciPacketAclData
+### -field HciPacketAclData
 
 The packet represents ACL data.
 
 
-#### - HciPacketEvent
+### -field HciPacketEvent
 
 The packet represents an event.
 

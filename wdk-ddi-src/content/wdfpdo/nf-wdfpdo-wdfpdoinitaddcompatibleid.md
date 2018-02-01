@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cf79661f-afe8-4154-8302-e5018172c6ec
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfpdoinitaddcompatibleid, wdfpdo/WdfPdoInitAddCompatibleID, DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, kmdf.wdfpdoinitaddcompatibleid, WdfPdoInitAddCompatibleID, WdfPdoInitAddCompatibleID method, PFN_WDFPDOINITADDCOMPATIBLEID
+ms.keywords: WdfPdoInitAddCompatibleID, wdfpdo/WdfPdoInitAddCompatibleID, WdfPdoInitAddCompatibleID method, kmdf.wdfpdoinitaddcompatibleid, PFN_WDFPDOINITADDCOMPATIBLEID, wdf.wdfpdoinitaddcompatibleid, DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoInitAddCompatibleID(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - CompatibleID [in]
+### -param CompatibleID [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a compatible ID string. The driver can allocate the string's buffer from paged pool.
 

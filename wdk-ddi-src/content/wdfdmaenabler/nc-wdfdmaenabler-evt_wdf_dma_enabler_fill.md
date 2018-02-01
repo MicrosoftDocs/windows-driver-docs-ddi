@@ -73,7 +73,7 @@ NTSTATUS EvtDmaEnablerFill(
 
 
 
-#### - DmaEnabler [in]
+### -param DmaEnabler [in]
 
 A handle to a DMA enabler object.  
 
@@ -98,9 +98,9 @@ The <i>EvtDmaEnablerFill</i> callback function is called at IRQL = PASSIVE_LEVEL
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
-
 <a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_flush.md">EvtDmaEnablerFlush</a>
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 

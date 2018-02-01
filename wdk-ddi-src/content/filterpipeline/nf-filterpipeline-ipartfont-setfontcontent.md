@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd77d32f-97fd-4f80-945d-9fff7553fcc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetFontContent, IPartFont::SetFontContent, SetFontContent method [Print Devices], SetFontContent method [Print Devices], IPartFont interface, IPartFont interface [Print Devices], SetFontContent method, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, IPartFont, print.ipartfont_setfontcontent, filterpipeline/IPartFont::SetFontContent
+ms.keywords: SetFontContent method [Print Devices], IPartFont interface, SetFontContent, filterpipeline/IPartFont::SetFontContent, IPartFont interface [Print Devices], SetFontContent method, SetFontContent method [Print Devices], IPartFont, print.ipartfont_setfontcontent, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, IPartFont::SetFontContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

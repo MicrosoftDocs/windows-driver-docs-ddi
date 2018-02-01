@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00d083af-f2c1-4ad5-803a-5981ed70035f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILNOTIFICATIONFILTERMASK, rilapitypes/RIL_NFS_REGSTATUS_RATKIND, rilapitypes/RIL_NFS_LOCATIONUPDATE, RILNOTIFICATIONFILTERMASK, RIL_NFS_SIGNALQUALITY, rilapitypes/RIL_NFS_SIGNALQUALITY, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, netvista.rilnotificationfiltermask_2, rilapitypes/RIL_NFS_ALL
+ms.keywords: rilapitypes/RIL_NFS_LOCATIONUPDATE, netvista.rilnotificationfiltermask_2, rilapitypes/RIL_NFS_REGSTATUS_RATKIND, rilapitypes/RIL_NFS_ALL, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_SIGNALQUALITY, rilapitypes/RILNOTIFICATIONFILTERMASK, rilapitypes/RIL_NFS_SIGNALQUALITY, RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILNOTIFICATIONFILTERMASK {
 
 
 
-#### - RIL_NFS_SIGNALQUALITY
+### -field RIL_NFS_SIGNALQUALITY
 
 
 
-#### - RIL_NFS_REGSTATUS_RATKIND
+### -field RIL_NFS_REGSTATUS_RATKIND
 
 
 
-#### - RIL_NFS_LOCATIONUPDATE
+### -field RIL_NFS_LOCATIONUPDATE
 
 
 
-#### - RIL_NFS_ALL
+### -field RIL_NFS_ALL
 
 

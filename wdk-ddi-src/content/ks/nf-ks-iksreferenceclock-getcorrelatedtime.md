@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f4a47bb-460e-4ca0-9aee-4bcfdb88dd30
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock::GetCorrelatedTime, IKsReferenceClock, ks/IKsReferenceClock::GetCorrelatedTime, stream.iksreferenceclock_getcorrelatedtime, GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedTime method, GetCorrelatedTime method [Streaming Media Devices]
+ms.keywords: IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedTime method, stream.iksreferenceclock_getcorrelatedtime, ks/IKsReferenceClock::GetCorrelatedTime, IKsReferenceClock, GetCorrelatedTime, IKsReferenceClock::GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface, GetCorrelatedTime method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ LONGLONG GetCorrelatedTime(
 
 
 
-#### - SystemTime [out]
+### -param SystemTime [out]
 
 A pointer to a LONGLONG-typed variable that receives the current system time in 100 nanosecond units.
 

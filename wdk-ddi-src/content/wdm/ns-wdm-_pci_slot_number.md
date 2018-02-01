@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0e04813d-e138-435e-8357-562f79a3a4a2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], kernel.pci_slot_number, PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], wdm/PCI_SLOT_NUMBER, PPCI_SLOT_NUMBER, _PCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER, kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml, PCI_SLOT_NUMBER, *PPCI_SLOT_NUMBER
+ms.keywords: kernel.pci_slot_number, _PCI_SLOT_NUMBER, wdm/PCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER, *PPCI_SLOT_NUMBER, PCI_SLOT_NUMBER, PPCI_SLOT_NUMBER, PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,18 +75,8 @@ typedef struct _PCI_SLOT_NUMBER {
 
 
 
-#### - u
+### -field u
 
-
-
-#### bits
-
-Specifies the particular device on a multifunction adapter at the given slot that is being configured. The <b>DeviceNumber</b> indicates the logical slot number for the adapter; the <b>FunctionNumber</b> indicates the particular device on that adapter.
-
-
-#### AsULONG
-
-Specifies the logical slot number of the device being configured.
 
 
 ### -field u.bits
@@ -125,17 +115,17 @@ For example, a driver might search for devices it supports on all PCI buses in t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
  
 

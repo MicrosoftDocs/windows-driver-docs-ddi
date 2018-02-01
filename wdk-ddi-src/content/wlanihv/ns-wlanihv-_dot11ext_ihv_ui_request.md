@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 028e3445-320a-41c8-9577-219f9fbabe40
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlanihv/PDOT11EXT_IHV_UI_REQUEST, netvista.dot11ext_ihv_ui_request, _DOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST, wlanihv/DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml
+ms.keywords: "*PDOT11EXT_IHV_UI_REQUEST, Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, DOT11EXT_IHV_UI_REQUEST, netvista.dot11ext_ihv_ui_request, wlanihv/PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _DOT11EXT_IHV_UI_REQUEST {
 
 
 
-#### - dwSessionId
+### -field dwSessionId
 
 The session identifier (ID) of the current user.
 
 
-#### - guidUIRequest
+### -field guidUIRequest
 
 A globally unique ID (GUID) which identifies the UI request.
 
 
-#### - UIPageClsid
+### -field UIPageClsid
 
 The 
      <b>IWizardExtension</b> COM class ID (CLSID) of the target UI page that will handle this request. For
@@ -92,13 +92,13 @@ The
      <a href="http://go.microsoft.com/fwlink/p/?linkid=56607">IWizardExtension COM Interface</a>.
 
 
-#### - dwByteCount
+### -field dwByteCount
 
 The length, in bytes, within the buffer referenced through the 
      <b>pvUIRequest</b> member.
 
 
-#### - pvUIRequest
+### -field pvUIRequest
 
 A pointer to a buffer that contains the request data in a format defined by the independent
      hardware vendor (IHV).
@@ -122,8 +122,8 @@ The IHV Extensions DLL can issue requests to the IHV UI extensions DLL to intera
     input to network UI extensions defined by the IHV. The IHV Extensions DLL initiates these requests
     through calls to the 
     <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a> or 
-    <mshelp:link keywords="netvista.dot11extihvqueryuirequest" tabindex="0"><i>
-    Dot11ExtIhvQueryUIRequest</i></mshelp:link> functions.
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">
+    Dot11ExtIhvQueryUIRequest</a> functions.
 
 For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to define the request,
     and must set the 
@@ -133,12 +133,12 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
+   Dot11ExtIhvIsUIRequestPending</a>
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
-
-<mshelp:link keywords="netvista.dot11extihvisuirequestpending" tabindex="0"><i>
-   Dot11ExtIhvIsUIRequestPending</i></mshelp:link>
 
  
 

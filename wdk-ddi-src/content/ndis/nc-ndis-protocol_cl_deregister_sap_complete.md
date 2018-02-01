@@ -79,13 +79,21 @@ VOID ProtocolClDeregisterSapComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies the final status of the client's request to deregister its SAP, which can be one of the
      following:
      
 
 
+
+
+#### NDIS_STATUS_FAILURE
+
+NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
+       <i>NdisSapHandle</i> was already released when the client's call to 
+       <a href="..\ndis\nf-ndis-ndisclderegistersap.md">
+       NdisClDeregisterSap</a> occurred.
 
 
 #### NDIS_STATUS_SUCCESS
@@ -96,23 +104,15 @@ The SAP was closed. The
        <i>ProtocolSapContext</i> area, is now invalid.
 
 
-#### NDIS_STATUS_FAILURE
-
-NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
-       <i>NdisSapHandle</i> was already released when the client's call to 
-       <mshelp:link keywords="netvista.ndisclderegistersap" tabindex="0"><b>
-       NdisClDeregisterSap</b></mshelp:link> occurred.
-
-
 #### NDIS_STATUS_XXX
 
 The call manager failed the request to close the SAP for some CM-determined reason, and NDIS
        propagated the status returned by its 
-       <mshelp:link keywords="netvista.protocolcmderegistersap" tabindex="0"><i>
-       ProtocolCmDeregisterSap</i></mshelp:link> function to the client.
+       <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+       ProtocolCmDeregisterSap</a> function to the client.
 
 
-#### - ProtocolSapContext [in]
+### -param ProtocolSapContext [in]
 
 Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
      <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
@@ -177,20 +177,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
 <a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
  
 

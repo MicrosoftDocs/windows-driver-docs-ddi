@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1957D03D-7C85-4A58-A5CC-94D3C9913F5A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_PARK_SELECTION, kernel.pep_ppm_park_selection, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_SELECTION, pepfx/PEP_PPM_PARK_SELECTION, pepfx/PPEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PPEP_PPM_PARK_SELECTION, _PEP_PPM_PARK_SELECTION, kernel.pep_ppm_park_selection, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION, pepfx/PPEP_PPM_PARK_SELECTION, pepfx/PEP_PPM_PARK_SELECTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _PEP_PPM_PARK_SELECTION {
 
 
 
-#### - AdditionalUnparkedProcessors
+### -field AdditionalUnparkedProcessors
 
 [in] The number of additional processors that need to be parked.
 
@@ -78,12 +78,12 @@ This number includes all processors in the <b>Processors</b> array for which the
 This number does <u>not</u> include processors in the <b>Processors</b> array for which the operating system sets the <b>PoPreference</b> value to PROCESSOR_PARK_PREFERENCE_PARKED.
 
 
-#### - Count
+### -field Count
 
 [in] The number of elements in the array pointed to by the <b>Processors</b> member.
 
 
-#### - Processors
+### -field Processors
 
 [in/out] A pointer to an array of <a href="..\pepfx\ns-pepfx-_pep_processor_park_preference.md">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. The <b>Count</b> member specifies the number of elements in the array.
 
@@ -111,9 +111,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_park_preference.md">PEP_PROCESSOR_PARK_PREFERENCE</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_processor_park_preference.md">PEP_PROCESSOR_PARK_PREFERENCE</a>
 
  
 

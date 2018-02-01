@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B13D311F-FFC4-4A40-AF0C-6E7115174FD1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP, ntddstor/STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP, ntddstor/PSTORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Storage Devices], PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices], _STORAGE_DEVICE_POWER_CAP, storage.storage_device_power_cap
+ms.keywords: ntddstor/PSTORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Storage Devices], storage.storage_device_power_cap, ntddstor/STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices], _STORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _STORAGE_DEVICE_POWER_CAP {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure. This should be set to STORAGE_DEVICE_POWER_CAP_VERSION_V1.
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - Units
+### -field Units
 
 The units of the MaxPower value.
 
 
-#### - MaxPower
+### -field MaxPower
 
 Contains the value of the actual maximum power consumption level of the device. This may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
 

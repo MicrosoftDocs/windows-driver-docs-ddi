@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PCPTABLEINFO, _CPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], ntnls/PCPTABLEINFO, PCPTABLEINFO, CPTABLEINFO structure [Kernel-Mode Driver Architecture], kernel.cptableinfo, CPTABLEINFO, ntnls/CPTABLEINFO"
+ms.keywords: CPTABLEINFO structure [Kernel-Mode Driver Architecture], kernel.cptableinfo, CPTABLEINFO, _CPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], *PCPTABLEINFO, ntnls/CPTABLEINFO, PCPTABLEINFO, ntnls/PCPTABLEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,62 +78,62 @@ typedef struct _CPTABLEINFO {
 
 
 
-#### - CodePage
+### -field CodePage
 
 Specifies the code page number.
 
 
-#### - MaximumCharacterSize
+### -field MaximumCharacterSize
 
 Specifies the maximum length in bytes of a character.
 
 
-#### - DefaultChar
+### -field DefaultChar
 
 Specifies the default character (MB).
 
 
-#### - UniDefaultChar
+### -field UniDefaultChar
 
 Specifies the default character (Unicode).
 
 
-#### - TransDefaultChar
+### -field TransDefaultChar
 
 Specifies the translation of the default character (Unicode).
 
 
-#### - TransUniDefaultChar
+### -field TransUniDefaultChar
 
 Specifies the translation of the Unicode default character (MB).
 
 
-#### - DBCSCodePage
+### -field DBCSCodePage
 
 Specifies non-zero for DBCS code pages.
 
 
-#### - LeadByte
+### -field LeadByte
 
 Specifies the lead byte ranges.
 
 
-#### - MultiByteTable
+### -field MultiByteTable
 
 Specifies a pointer to a MB translation table.
 
 
-#### - WideCharTable
+### -field WideCharTable
 
 Specifies a pointer to a WC translation table.
 
 
-#### - DBCSRanges
+### -field DBCSRanges
 
 Specifies a pointer to DBCS ranges.
 
 
-#### - DBCSOffsets
+### -field DBCSOffsets
 
 Specifies a pointer to DBCS offsets.
 

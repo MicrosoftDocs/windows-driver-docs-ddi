@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bb308ee7-e8bc-49c0-b1f9-199af7dca289
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetConstantName method, dbgeng/IDebugSymbols3::GetConstantName, GetConstantName, debugger.getconstantname, IDebugSymbols3::GetConstantName, GetConstantName method [Windows Debugging], GetConstantName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantName method
+ms.keywords: IDebugSymbols2::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols2 interface, debugger.getconstantname, IDebugSymbols2 interface [Windows Debugging], GetConstantName method, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, dbgeng/IDebugSymbols3::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols3, IDebugSymbols3::GetConstantName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT GetConstantName(
 
 
 
-#### - Module [in]
+### -param Module [in]
 
 Specifies the base address of the module in which the constant was defined.
 
 
-#### - TypeId [in]
+### -param TypeId [in]
 
 Specifies the type ID of the constant.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the value of the constant.
 
 
-#### - NameBuffer [out, optional]
+### -param NameBuffer [out, optional]
 
 Receives the constant's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - NameBufferSize [in]
+### -param NameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 Receives the size in characters of the constant's name.
 

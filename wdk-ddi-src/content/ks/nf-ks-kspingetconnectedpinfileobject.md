@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1025c89f-8d63-4aeb-be7c-16b555cfa58a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, KsPinGetConnectedPinFileObject, ks/KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], stream.kspingetconnectedpinfileobject
+ms.keywords: stream.kspingetconnectedpinfileobject, avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, ks/KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], KsPinGetConnectedPinFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PFILE_OBJECT KsPinGetConnectedPinFileObject(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that is the AVStream pin object for which to acquire the file object for the connected pin.
 

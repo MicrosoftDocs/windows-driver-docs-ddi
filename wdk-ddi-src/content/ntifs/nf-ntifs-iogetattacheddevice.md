@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 18083431-37b5-49e9-9c69-8b6cd7b5f736
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], ntifs/IoGetAttachedDevice, ifsk.iogetattacheddevice
+ms.keywords: IoGetAttachedDevice, ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, IoGetAttachedDevice routine [Installable File System Drivers], ifsk.iogetattacheddevice, ntifs/IoGetAttachedDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PDEVICE_OBJECT IoGetAttachedDevice(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the device object for which the topmost attached device is to be returned.
 

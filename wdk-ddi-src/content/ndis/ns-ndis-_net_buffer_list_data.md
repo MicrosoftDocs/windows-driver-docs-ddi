@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 104b2bc0-e657-43c6-a274-ddbcef76293b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NET_BUFFER_LIST_DATA, *PNET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA, PNET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA structure [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_1ce577dd-1eec-4ba6-94cb-3e37c205630d.xml, netvista.net_buffer_list_data, ndis/PNET_BUFFER_LIST_DATA, _NET_BUFFER_LIST_DATA, PNET_BUFFER_LIST_DATA structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PNET_BUFFER_LIST_DATA, PNET_BUFFER_LIST_DATA structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_1ce577dd-1eec-4ba6-94cb-3e37c205630d.xml, netvista.net_buffer_list_data, *PNET_BUFFER_LIST_DATA, _NET_BUFFER_LIST_DATA, ndis/PNET_BUFFER_LIST_DATA, ndis/NET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA structure [Network Drivers Starting with Windows Vista], NET_BUFFER_LIST_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,13 +70,13 @@ typedef struct _NET_BUFFER_LIST_DATA {
 
 
 
-#### - Next
+### -field Next
 
 A pointer to the next NET_BUFFER_LIST structure in a linked list of NET_BUFFER_LIST structures. If
      this structure is the last NET_BUFFER_LIST structure in the list, this member is <b>NULL</b>.
 
 
-#### - FirstNetBuffer
+### -field FirstNetBuffer
 
 A pointer to the first 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure in the linked list of
@@ -94,11 +94,11 @@ The
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

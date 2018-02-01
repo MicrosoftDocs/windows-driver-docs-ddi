@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/ZwSetEaFile, kernel.zwseteafile, ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.zwseteafile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], ntifs/ZwSetEaFile, ZwSetEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS ZwSetEaFile(
 
 
 
-#### - FileHandle [in]
+### -param FileHandle [in]
 
 The handle for the file on which the operation is to be performed.
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a caller-supplied, <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set. 
 
 
-#### - Length [in]
+### -param Length [in]
 
 Length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
@@ -116,9 +116,9 @@ The EaList parameter is not formatted correctly. This is an error code.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-
 <a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
+
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
  
 

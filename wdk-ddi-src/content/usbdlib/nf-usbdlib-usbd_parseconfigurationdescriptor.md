@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a82816d8-2516-4bba-a5aa-0154cd079d5b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ParseConfigurationDescriptor routine [Buses], usbdlib/USBD_ParseConfigurationDescriptor, buses.usbd_parseconfigurationdescriptor, USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml
+ms.keywords: USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml, USBD_ParseConfigurationDescriptor routine [Buses], usbdlib/USBD_ParseConfigurationDescriptor, buses.usbd_parseconfigurationdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptor(
 
 
 
-#### - ConfigurationDescriptor [in]
+### -param ConfigurationDescriptor [in]
 
 Pointer to a USB configuration descriptor that contains the interface for which to search.
 
 
-#### - InterfaceNumber [in]
+### -param InterfaceNumber [in]
 
 Specifies the device-defined index of the interface to be retrieved. This should be set to -1 if it should not be a search criterion.
 
 
-#### - AlternateSetting [in]
+### -param AlternateSetting [in]
 
 Specifies the device-defined alternate-setting index of the interface to be retrieved. If the caller does not wish the alternate setting value to be a search criterion, this parameter should be set to -1.
 

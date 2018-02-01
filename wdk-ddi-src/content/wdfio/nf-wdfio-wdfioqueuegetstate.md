@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueGetState, PFN_WDFIOQUEUEGETSTATE, DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate
+ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, PFN_WDFIOQUEUEGETSTATE, kmdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState, WdfIoQueueGetState method, wdf.wdfioqueuegetstate, WdfIoQueueGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ WDF_IO_QUEUE_STATE WdfIoQueueGetState(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 
 
-#### - QueueRequests [out, optional]
+### -param QueueRequests [out, optional]
 
 A pointer to a location that receives the number of I/O requests that are currently in the I/O queue and have not been delivered to the driver. This pointer is optional and can be <b>NULL</b>.
 
 
-#### - DriverRequests [out, optional]
+### -param DriverRequests [out, optional]
 
 A pointer to a location that receives the number of I/O requests that have been delivered to the driver but that the driver has not completed or canceled. This pointer is optional and can be <b>NULL</b>.
 

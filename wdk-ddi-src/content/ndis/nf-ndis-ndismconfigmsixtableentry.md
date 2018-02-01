@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93f94a42-bffb-4e4d-a560-b0da5d7d0019
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMConfigMSIXTableEntry, netvista.ndismconfigmsixtableentry, NdisMConfigMSIXTableEntry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismconfigmsixtableentry, ndis/NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,18 +71,18 @@ NDIS_STATUS NdisMConfigMSIXTableEntry(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 An NDIS miniport adapter handle that NDIS supplied to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
-#### - MSIXConfigParameters [in]
+### -param MSIXConfigParameters [in]
 
 A pointer to a caller-allocated 
-     <mshelp:link keywords="netvista.ndis_msix_config_parameters" tabindex="0"><b>
-     NDIS_MSIX_CONFIG_PARAMETERS</b></mshelp:link> structure that defines the requested configuration operation and
+     <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">
+     NDIS_MSIX_CONFIG_PARAMETERS</a> structure that defines the requested configuration operation and
      specifies the parameters that are required for that particular operation.
 
 
@@ -115,8 +115,8 @@ The MSI-X table entry was reconfigured successfully.
 </td>
 <td width="60%">
 <b>NdisMConfigMSIXTableEntry</b> failed because one or more members in the 
-       <mshelp:link keywords="netvista.ndis_msix_config_parameters" tabindex="0"><b>
-       NDIS_MSIX_CONFIG_PARAMETERS</b></mshelp:link> structure were invalid.
+       <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">
+       NDIS_MSIX_CONFIG_PARAMETERS</a> structure were invalid.
 
 </td>
 </tr>
@@ -133,8 +133,8 @@ NDIS miniport drivers that support MSI-X call the
     <b>NdisMConfigMSIXTableEntry</b> to change the CPU affinity of MSI-X table entries at run time.
 
 <b>NdisMConfigMSIXTableEntry</b> is a wrapper around the 
-    <mshelp:link keywords="kernel.guid_msix_table_config_interface" tabindex="0">
-    GUID_MSIX_TABLE_CONFIG_INTERFACE</mshelp:link> query. Miniport drivers can call 
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff558787">
+    GUID_MSIX_TABLE_CONFIG_INTERFACE</a> query. Miniport drivers can call 
     <b>NdisMConfigMSIXTableEntry</b> after NDIS calls the 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function and
     before the driver returns from the 
@@ -163,11 +163,11 @@ For the
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

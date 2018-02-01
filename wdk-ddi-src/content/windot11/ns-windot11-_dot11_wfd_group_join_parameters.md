@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7E526179-97B6-4BA3-8F78-C4C04FFF9085
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, netvista.dot11_wfd_group_join_parameters, DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS
+ms.keywords: "_DOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS, netvista.dot11_wfd_group_join_parameters, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, *PDOT11_WFD_GROUP_JOIN_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _DOT11_WFD_GROUP_JOIN_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_WFD_GROUP_JOIN_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -95,22 +95,22 @@ The type, revision, and size of the <b>DOT11_WFD_GROUP_JOIN_PARAMETERS</b> struc
 </table> 
 
 
-#### - GOOperatingChannel
+### -field GOOperatingChannel
 
 This channel on which the Group Owner (GO) may operate the group. This channel information was received by the Client in a GO Negotiation or Invitation exchange. The miniport must also be able to handle the group operating on a channel different than specified. The miniport must ensure regulatory compliance when joining the group.
 
 
-#### - GOConfigTime
+### -field GOConfigTime
 
 The configuration time allowed for the GO to start. This time-out is received by the Client in a GO Negotiation or Invitation exchange.
 
 
-#### - bInGroupFormation
+### -field bInGroupFormation
 
 If set to TRUE, special handling of <a href="https://msdn.microsoft.com/67B02FD9-1CB2-424D-989C-11A307070B93">OID_DOT11_WFD_CONNECT_TO_GROUP_REQUEST</a> is required. The miniport must not attempt to connect until it receives a probe response or beacon from the GO with the Group Formation field set to 1. Otherwise, no connect delay is necessary.
 
 
-#### - bWaitForWPSReady
+### -field bWaitForWPSReady
 
 If set to TRUE, special handling of <a href="https://msdn.microsoft.com/67B02FD9-1CB2-424D-989C-11A307070B93">OID_DOT11_WFD_CONNECT_TO_GROUP_REQUEST</a> is required. The miniport must not attempt to connect until it receives a probe response or beacon from the GO with the Selected Registrar WPS attribute set to TRUE and the Group Formation field set to the  value indicated by <b>bInGroupFormation</b>. Otherwise, the Selected Registrar attribute should be ignored.
 

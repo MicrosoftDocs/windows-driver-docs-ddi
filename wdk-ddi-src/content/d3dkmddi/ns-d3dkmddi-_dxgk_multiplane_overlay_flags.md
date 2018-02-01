@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2592e308-1d34-464f-8301-9ece54b4d017
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_multiplane_overlay_flags, DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_FLAGS, DXGK_MULTIPLANE_OVERLAY_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_FLAGS, _DXGK_MULTIPLANE_OVERLAY_FLAGS, display.dxgk_multiplane_overlay_flags, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS, DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,28 +79,28 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_FLAGS {
 
 
 
-#### - VerticalFlip
+### -field VerticalFlip
 
 The overlay plane should flip the data vertically, making it appear upside-down.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-#### - HorizontalFlip
+### -field HorizontalFlip
 
 The overlay plane should flip the data horizontally, making it appear as a right-to-left mirror image.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that identifies the type of flip operation to perform.
 

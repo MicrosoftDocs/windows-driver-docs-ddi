@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 274232FF-573A-47B4-B363-2FA7F810BF84
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceCreateUrb, WdfUsbTargetDeviceCreateUrb, PFN_WDFUSBTARGETDEVICECREATEURB, kmdf.wdfusbtargetdevicecreateurb, WdfUsbTargetDeviceCreateUrb method, wdf.wdfusbtargetdevicecreateurb
+ms.keywords: wdfusb/WdfUsbTargetDeviceCreateUrb, WdfUsbTargetDeviceCreateUrb method, kmdf.wdfusbtargetdevicecreateurb, wdf.wdfusbtargetdevicecreateurb, WdfUsbTargetDeviceCreateUrb, PFN_WDFUSBTARGETDEVICECREATEURB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfUsbTargetDeviceCreateUrb(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a caller-supplied <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new memory object.   If the driver provides this parameter, the structure's <b>ParentObject</b> member must be a USB device object (WDFUSBDEVICE) or a request object (WDFREQUEST) created by the framework, or any object whose chain of parents leads to one of these types. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - UrbMemory [out]
+### -param UrbMemory [out]
 
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object.
 
 
-#### - Urb [out, optional]
+### -param Urb [out, optional]
 
 A pointer to an URB structure that receives the address of the newly allocated URB. This parameter is optional and can be NULL.
 
@@ -161,13 +161,13 @@ The memory object and its buffer are deleted when the parent object is deleted. 
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforurb.md">WdfUsbTargetDeviceFormatRequestForUrb</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateisochurb.md">WdfUsbTargetDeviceCreateIsochUrb</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md">WDF_USB_DEVICE_CREATE_CONFIG_INIT</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateisochurb.md">WdfUsbTargetDeviceCreateIsochUrb</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforurb.md">WdfUsbTargetDeviceFormatRequestForUrb</a>
 
  
 

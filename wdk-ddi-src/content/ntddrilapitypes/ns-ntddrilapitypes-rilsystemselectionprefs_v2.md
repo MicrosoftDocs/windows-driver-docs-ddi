@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0734fac3-9327-4765-a50b-57be45ce2817
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v2, RILSYSTEMSELECTIONPREFS, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2, *LPRILSYSTEMSELECTIONPREFS"
+ms.keywords: RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V2, *LPRILSYSTEMSELECTIONPREFS_V2, netvista.rilsystemselectionprefs_v2, RILSYSTEMSELECTIONPREFS, *LPRILSYSTEMSELECTIONPREFS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,38 +75,38 @@ typedef struct _RILSYSTEMSELECTIONPREFS_V2 {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwSystemTypes
+### -field dwSystemTypes
 
 
 
-#### - dwMode
+### -field dwMode
 
 
 
-#### - plmnInfo
+### -field plmnInfo
 
 
 
-#### - dwRoamingMode
+### -field dwRoamingMode
 
 
 
-#### - dwAcquisitionOrderSize
+### -field dwAcquisitionOrderSize
 
 
 
-#### - AcquisitionOrder
+### -field AcquisitionOrder
 
 

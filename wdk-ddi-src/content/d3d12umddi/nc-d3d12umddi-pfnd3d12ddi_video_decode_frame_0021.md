@@ -74,17 +74,17 @@ VOID  APIENTRY* pfnDecodeFrame(
 
 
 
-#### - hDrvCommandList
+### -param hDrvCommandList
 
 The command list used to record this process frames command.
 
 
-#### - hDrvDecoder
+### -param hDrvDecoder
 
 The video decoder that contains internal state for this decode session.  Examples include motion vectors and internal temporary allocations.
 
 
-#### - SubmissionID
+### -param SubmissionID
 
 The submission ID is a monotonically increasing integer value.  The value passed to this function must be larger than any passed decode frame submission for the decoder specified by the <i>hDrvVideoDecoder</i> parameter.  Callers should use fences to track submission completion and then provide completed submission IDs to drivers by using <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_decoder_trim_allocations_0021.md">pfnDecoderTrimAllocations</a> to allow driver to manage resources associated with that decoder.
 
@@ -100,14 +100,14 @@ The submission ID is a monotonically increasing integer value.  The value passed
 
 
 
-#### - pOutputStreamArguments
-
-The output surface and output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
-
-
 #### - pInputStreamArguments
 
 The input bitstream, parameters, reference frames, and other input parameters for the decode operation.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0020.md">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a> structure.
+
+
+#### - pOutputStreamArguments
+
+The output surface and output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
 
 
 ## -returns
@@ -119,11 +119,11 @@ This callback function does not return a value.
 
 ## -see-also
 
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0020.md">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a>
+
 <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_decoder_trim_allocations_0021.md">pfnDecoderTrimAllocations</a>
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a>
-
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0020.md">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a>
 
  
 

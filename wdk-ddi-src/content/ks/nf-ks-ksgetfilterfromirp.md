@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 00c90dbf-bb44-4cba-97b3-170765a2eba7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetFilterFromIrp function [Streaming Media Devices], ks/KsGetFilterFromIrp, stream.ksgetfilterfromirp, avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, KsGetFilterFromIrp
+ms.keywords: avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, ks/KsGetFilterFromIrp, KsGetFilterFromIrp, KsGetFilterFromIrp function [Streaming Media Devices], stream.ksgetfilterfromirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PKSFILTER KsGetFilterFromIrp(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to return the associated filter.
 

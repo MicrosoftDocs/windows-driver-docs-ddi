@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72c6e923-e7c0-4d3d-a115-33e3e11053eb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, VideoPortAcquireSpinLockAtDpcLevel, display.videoportacquirespinlockatdpclevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], video/VideoPortAcquireSpinLockAtDpcLevel
+ms.keywords: VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], video/VideoPortAcquireSpinLockAtDpcLevel, display.videoportacquirespinlockatdpclevel, VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, VideoPortAcquireSpinLockAtDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID VideoPortAcquireSpinLockAtDpcLevel(
 
 
 
-#### - HwDeviceExtension [in, out]
+### -param HwDeviceExtension [in, out]
 
 Pointer to the miniport driver's device extension.
 

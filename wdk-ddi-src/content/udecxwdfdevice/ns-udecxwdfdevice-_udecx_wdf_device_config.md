@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 54853C39-FA6C-4F9B-A202-F116C43D3A4E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_UDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, UDECX_WDF_DEVICE_CONFIG structure [Buses], PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG"
+ms.keywords: UDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG, _UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses], PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _UDECX_WDF_DEVICE_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - NumberOfUsb20Ports
+### -field NumberOfUsb20Ports
 
 The number of USB 2.0 ports on the root hub of the emulated host controller.
 
 
-#### - NumberOfUsb30Ports
+### -field NumberOfUsb30Ports
 
 The number of USB 3.0 ports on the root hub of the emulated host controller.
 
 
-#### - EvtUdecxWdfDeviceQueryUsbCapability
+### -field EvtUdecxWdfDeviceQueryUsbCapability
 
 A pointer to an <a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_query_usb_capability.md">EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY</a> callback function.
 
 
-#### - ResetAction
+### -field ResetAction
 
 A <a href="..\udecxwdfdevice\ne-udecxwdfdevice-_udecx_wdf_device_reset_action.md">UDECX_WDF_DEVICE_RESET_ACTION</a>-type value that indicates the reset action: each attached device or the host controller.
 
 
-#### - EvtUdecxWdfDeviceReset
+### -field EvtUdecxWdfDeviceReset
 
 A pointer to an <a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a> callback function.
 

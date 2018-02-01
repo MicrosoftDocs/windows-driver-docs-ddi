@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 17a1e4d8-5438-42b6-b4a5-335e7bd57b1b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_81f13df9-e0f7-4d16-9f85-e049a491e08d.xml, IsFromUserModeDriver method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, IsFromUserModeDriver method, wdf.iwdfiorequest2_isfromusermodedriver, IsFromUserModeDriver method, wudfddi/IWDFIoRequest2::IsFromUserModeDriver, IWDFIoRequest2::IsFromUserModeDriver, IsFromUserModeDriver, umdf.iwdfiorequest2_isfromusermodedriver, IWDFIoRequest2
+ms.keywords: IsFromUserModeDriver method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_isfromusermodedriver, UMDFRequestObjectRef_81f13df9-e0f7-4d16-9f85-e049a491e08d.xml, wdf.iwdfiorequest2_isfromusermodedriver, IWDFIoRequest2, IWDFIoRequest2::IsFromUserModeDriver, IWDFIoRequest2 interface, IsFromUserModeDriver method, IsFromUserModeDriver, IsFromUserModeDriver method, wudfddi/IWDFIoRequest2::IsFromUserModeDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,9 +89,9 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestisfromusermodedriver.md">WdfRequestIsFromUserModeDriver</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
  
 

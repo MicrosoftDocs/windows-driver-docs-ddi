@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c7a3854b-2405-4e20-8c6c-4e0c0d43987e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, dbgeng/IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, WriteTypedDataVirtual, debugger.writetypeddatavirtual, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method
+ms.keywords: IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, IDebugSymbols::WriteTypedDataVirtual, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, WriteTypedDataVirtual, debugger.writetypeddatavirtual, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, WriteTypedDataVirtual method [Windows Debugging], dbgeng/IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, dbgeng/IDebugSymbols::WriteTypedDataVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,32 +74,32 @@ HRESULT WriteTypedDataVirtual(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location in the target's virtual address space where the data will be written.
 
 
-#### - Module [in]
+### -param Module [in]
 
 Specifies the base address of the module containing the type.
 
 
-#### - TypeId [in]
+### -param TypeId [in]
 
 Specifies the type ID of the type.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Specifies the buffer containing the data to be written.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes to be written.
 
 
-#### - BytesWritten [out, optional]
+### -param BytesWritten [out, optional]
 
 Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 

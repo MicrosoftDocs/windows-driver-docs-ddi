@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfChildListCreate, wdfchildlist/WdfChildListCreate, PFN_WDFCHILDLISTCREATE, wdf.wdfchildlistcreate, kmdf.wdfchildlistcreate, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate method
+ms.keywords: WdfChildListCreate, wdfchildlist/WdfChildListCreate, PFN_WDFCHILDLISTCREATE, wdf.wdfchildlistcreate, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, kmdf.wdfchildlistcreate, WdfChildListCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfChildListCreate(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object that represents the parent device.
 
 
-#### - Config [in]
+### -param Config [in]
 
 A pointer to a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure that contains driver-supplied configuration information for the child list.
 
 
-#### - ChildListAttributes [in, optional]
+### -param ChildListAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the framework child-list object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) 
 
 
-#### - ChildList [out]
+### -param ChildList [out]
 
 A pointer to a caller-allocated location that receives a handle to a framework child-list object.
 

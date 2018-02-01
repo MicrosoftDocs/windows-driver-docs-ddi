@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IRP, PIRP, PIRP structure pointer [Kernel-Mode Driver Architecture], wdm/PIRP, wdm/IRP, *PIRP, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, _IRP, kernel.irp, IRP structure [Kernel-Mode Driver Architecture]
+ms.keywords: IRP, kernel.irp, *PIRP, wdm/IRP, _IRP, IRP structure [Kernel-Mode Driver Architecture], PIRP structure pointer [Kernel-Mode Driver Architecture], PIRP, wdm/PIRP, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,25 +92,7 @@ typedef struct _IRP {
 
 
 
-#### - AssociatedIrp
-
-
-
-#### MasterIrp
-
-Pointer to the master IRP in an IRP that was created by a highest-level driver's call to <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>.
-
-
-#### SystemBuffer
-
-Pointer to a system-space buffer.
-
-If the driver is using buffered I/O, the buffer's purpose is determined by the IRP major function code, as follows:
-
-
-
-If the driver is using direct I/O, the buffer's purpose is determined by the IRP major function code, as follows:
-
+### -field AssociatedIrp
 
 
 
@@ -137,20 +119,6 @@ If the driver is using direct I/O, the buffer's purpose is determined by the IRP
 
 
 
-#### SystemBuffer.IRP_MJ_READ
-
-The buffer receives data from the device or driver. The buffer's length is specified by <b>Parameters.Read.Length</b> in the driver's <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure.
-
-<b>NULL</b>.
-
-
-#### SystemBuffer.IRP_MJ_WRITE
-
-The buffer supplies data for the device or driver. The buffer's length is specified by <b>Parameters.Write.Length</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
-
-<b>NULL</b>.
-
-
 #### SystemBuffer.IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
 
 The buffer represents both the input and output buffers that are supplied to <b>DeviceIoControl</b> and <b>IoBuildDeviceIoControlRequest</b>. Output data overwrites input data.
@@ -166,6 +134,20 @@ The buffer represents the input buffer that is supplied to <b>DeviceIoControl</b
 The buffer's length is specified by <b>Parameters.DeviceIoControl.InputBufferLength</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
+
+
+#### SystemBuffer.IRP_MJ_READ
+
+The buffer receives data from the device or driver. The buffer's length is specified by <b>Parameters.Read.Length</b> in the driver's <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure.
+
+<b>NULL</b>.
+
+
+#### SystemBuffer.IRP_MJ_WRITE
+
+The buffer supplies data for the device or driver. The buffer's length is specified by <b>Parameters.Write.Length</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
+
+<b>NULL</b>.
 
 
 ### -field Overlay
@@ -198,36 +180,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
  
 
 
-#### - Tail
-
-
-
-#### Overlay
+### -field Tail
 
 
 
 ### -field Tail.Overlay
 
-
-
-#### Overlay.DeviceQueueEntry
-
-If IRPs are queued in the device queue associated with the driver's device object, this field links IRPs in the device queue. These links can be used only while the driver is processing the IRP.
-
-
-#### Overlay.DriverContext
-
-If IRPs are not queued in the device queue associated with the driver's device object, this field can be used by the driver to store up to four pointers. This field can be used only while the driver owns the IRP.
-
-
-#### Overlay.Thread
-
-A pointer to the caller's thread control block (TCB). For requests that originate in user-mode, the I/O manager always sets this field to point to the TCB of the thread that issued the request.
-
-
-#### Overlay.ListEntry
-
-If a driver manages its own internal queues of IRPs, it uses this field to link one IRP to the next. These links can be used only while the driver is holding the IRP in its queue or is processing the IRP.
 
 
 ### -field Tail.Overlay._IO_STACK_LOCATION
@@ -295,13 +253,22 @@ A pointer to the caller's thread control block (TCB). For requests that originat
  
 
 
-#### - MdlAddress
+### -field MdlAddress
 
 Pointer to an MDL describing a user buffer, if the driver is using direct I/O, and the IRP major function code is one of the following:
 
 
 
 If the driver is not using direct I/O, this pointer is <b>NULL</b>.
+
+
+#### IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
+
+If the IOCTL code specifies the METHOD_IN_DIRECT transfer type, the MDL describes a buffer that contains data for the device or driver.
+
+If the IOCTL code specifies the METHOD_OUT_DIRECT transfer type, the MDL describes an empty buffer that the device or driver fills in.
+
+For more information about the buffers that are associated with METHOD_IN_DIRECT and METHOD_OUT_DIRECT transfer types in IOCTL codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
 
 
 #### IRP_MJ_READ
@@ -314,16 +281,7 @@ The MDL describes an empty buffer that the device or driver fills in.
 The MDL describes a buffer that contains data for the device or driver.
 
 
-#### IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
-
-If the IOCTL code specifies the METHOD_IN_DIRECT transfer type, the MDL describes a buffer that contains data for the device or driver.
-
-If the IOCTL code specifies the METHOD_OUT_DIRECT transfer type, the MDL describes an empty buffer that the device or driver fills in.
-
-For more information about the buffers that are associated with METHOD_IN_DIRECT and METHOD_OUT_DIRECT transfer types in IOCTL codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
-
-
-#### - Flags
+### -field Flags
 
 File system drivers use this field, which is read-only for all drivers. Network and, possibly, highest-level device drivers also might read this field. This field is set either to zero or to the bitwise-OR of one or more of the following system-defined flag bits:
 
@@ -367,17 +325,17 @@ IRP_UM_DRIVER_INITIATED_IO
  
 
 
-#### - IoStatus
+### -field IoStatus
 
 Contains the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>.
 
 
-#### - RequestorMode
+### -field RequestorMode
 
 Indicates the execution mode of the original requester of the operation, one of <b>UserMode</b> or <b>KernelMode</b>. 
 
 
-#### - PendingReturned
+### -field PendingReturned
 
 If set to <b>TRUE</b>, a driver has marked the IRP pending. Each <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine should check the value of this flag. If the flag is <b>TRUE</b>, and if the IoCompletion routine will not return STATUS_MORE_PROCESSING_REQUIRED, the routine should call <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a> to propagate the pending status to drivers above it in the device stack.
 
@@ -392,12 +350,12 @@ If set to <b>TRUE</b>, a driver has marked the IRP pending. Each <a href="..\wdm
  
 
 
-#### - Cancel
+### -field Cancel
 
 If set to <b>TRUE</b>, the IRP either is or should be canceled.
 
 
-#### - CancelIrql
+### -field CancelIrql
 
 Contains the IRQL at which a driver is running when <a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a> is called.
 
@@ -422,12 +380,12 @@ Contains the IRQL at which a driver is running when <a href="https://msdn.micros
  
 
 
-#### - CancelRoutine
+### -field CancelRoutine
 
 Contains the entry point for a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a> routine to be called if the IRP is canceled. <b>NULL</b> indicates that the IRP is not currently cancelable.
 
 
-#### - UserBuffer
+### -field UserBuffer
 
 Contains the address of an output buffer if both of the following conditions apply:
 <ul>
@@ -457,19 +415,19 @@ An IRP is the basic I/O manager structure used to communicate with drivers and t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
 <a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
 
 <a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
 <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
  
 

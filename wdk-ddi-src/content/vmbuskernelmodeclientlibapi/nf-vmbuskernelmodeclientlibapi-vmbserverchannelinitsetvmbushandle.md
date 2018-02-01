@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ECF76C7-9475-439E-8E59-B2B7CD350D24
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetvmbushandle, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle
+ms.keywords: vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle, netvista.vmbserverchannelinitsetvmbushandle, VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetVmbusHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS VmbServerChannelInitSetVmbusHandle(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel.
 
 
-#### - VmbusHandle [in]
+### -param VmbusHandle [in]
 
 A kernel mode handle to the VMBus vdev of the partition.
 

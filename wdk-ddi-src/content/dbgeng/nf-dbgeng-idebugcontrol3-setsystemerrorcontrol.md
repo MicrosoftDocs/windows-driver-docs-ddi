@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0ff15743-29df-44dc-a18b-ba8f7e49058e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::SetSystemErrorControl, IDebugControl3, IDebugControl::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, dbgeng/IDebugControl::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl interface, IDebugControl3::SetSystemErrorControl, dbgeng/IDebugControl2::SetSystemErrorControl, debugger.setsystemerrorcontrol, IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method
+ms.keywords: dbgeng/IDebugControl::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl, IDebugControl2::SetSystemErrorControl, IDebugControl3::SetSystemErrorControl, dbgeng/IDebugControl3::SetSystemErrorControl, IDebugControl3, dbgeng/IDebugControl2::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method, debugger.setsystemerrorcontrol, IDebugControl::SetSystemErrorControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT SetSystemErrorControl(
 
 
 
-#### - OutputLevel [in]
+### -param OutputLevel [in]
 
 Specifies the level at which system errors are printed to the engine's output.  If the level of the system error is less than or equal to <i>OutputLevel</i>, the error is printed to the debugger console.
 
 
-#### - BreakLevel [in]
+### -param BreakLevel [in]
 
 Specifies the level at which system errors break into the debugger.  If the level of the system error is less than or equal to <i>BreakLevel</i>, the error breaks into the debugger.
 
@@ -115,13 +115,13 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550768">IDebugEventCallbacks::SystemError</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550768">IDebugEventCallbacks::SystemError</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

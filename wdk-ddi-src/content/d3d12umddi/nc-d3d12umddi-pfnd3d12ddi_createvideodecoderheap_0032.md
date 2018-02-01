@@ -69,7 +69,7 @@ HRESULT APIENTRY* PFND3D12DDI_CREATEVIDEODECODERHEAP_0032(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
@@ -78,7 +78,7 @@ The hardware device being processed.
 
 
 
-#### - hDrvVideoDecoderHeap
+### -param hDrvVideoDecoderHeap
 
 The video decoder heap.
 

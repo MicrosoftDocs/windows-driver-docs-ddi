@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d77b188e-45b2-47c3-bee5-557886925d3f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml, storage.scsiportwriteregisterbufferulong, ScsiPortWriteRegisterBufferUlong, srb/ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong routine [Storage Devices]
+ms.keywords: srb/ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong routine [Storage Devices], scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml, storage.scsiportwriteregisterbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortWriteRegisterBufferUlong(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer containing the data to be written.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to be transferred to the HBA.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0871EA8C-4F59-451E-89FB-8A0D44219456
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetSiloMonitorContextSlot, kernel.psgetsilomonitorcontextslot, ntddk/PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot, kernel.psgetsilomonitorcontextslot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG PsGetSiloMonitorContextSlot(
 
 
 
-#### - Monitor [in]
+### -param Monitor [in]
 
 A pointer to the silo monitor.
 

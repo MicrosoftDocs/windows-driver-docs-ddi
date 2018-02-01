@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18b0b277-97c8-4aff-9f09-34822ce84290
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdeviceinitialize_setpowerpolicyownership, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, SetPowerPolicyOwnership method, wdf.iwdfdeviceinitialize_setpowerpolicyownership, IWDFDeviceInitialize, IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership
+ms.keywords: IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, SetPowerPolicyOwnership, umdf.iwdfdeviceinitialize_setpowerpolicyownership, wdf.iwdfdeviceinitialize_setpowerpolicyownership, IWDFDeviceInitialize::SetPowerPolicyOwnership, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void SetPowerPolicyOwnership(
 
 
 
-#### - fTrue [in]
+### -param fTrue [in]
 
 A BOOL value that specifies whether to set power-policy ownership to the driver or remove ownership from the driver. <b>TRUE</b> indicates to set power-policy ownership to the driver; <b>FALSE</b> indicates to remove ownership from the driver.
 

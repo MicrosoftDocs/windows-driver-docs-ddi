@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 359b1096-f987-4884-ab67-2290bf5196b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortCompleteServiceIrp routine [Storage Devices], storage.storportcompleteserviceirp, storport/StorPortCompleteServiceIrp, StorPortCompleteServiceIrp, storprt_439990ea-8133-4114-b417-1c88e53cce14.xml
+ms.keywords: storage.storportcompleteserviceirp, StorPortCompleteServiceIrp routine [Storage Devices], StorPortCompleteServiceIrp, storprt_439990ea-8133-4114-b417-1c88e53cce14.xml, storport/StorPortCompleteServiceIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortCompleteServiceIrp(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the  mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the I/O request.
 

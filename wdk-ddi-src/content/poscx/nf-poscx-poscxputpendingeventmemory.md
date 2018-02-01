@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: DF9CA4A8-4B2A-4DED-9514-422AC5E0940D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, pos.poscxputpendingeventmemory, poscx/PosCxPutPendingEventMemory
+ms.keywords: poscx/PosCxPutPendingEventMemory, pos.poscxputpendingeventmemory, PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,24 +74,24 @@ NTSTATUS PosCxPutPendingEventMemory(
 
 
 
-#### - device [in]
+### -param device [in]
 
 A handle to a framework device object that represents the device.
 
 
-#### - deviceInterfaceTag [in]
+### -param deviceInterfaceTag [in]
 
 The device interface associated with the event.  By default, only
           file objects that have the same tag will receive this event.
 
 
-#### - eventMemory [in]
+### -param eventMemory [in]
 
 The new event data memory object that contains both the point-of-service event header 
           and the data. PosCx will take over ownership of this passed in memory object.
 
 
-#### - eventAttr [in]
+### -param eventAttr [in]
 
 The event attributes.
 

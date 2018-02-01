@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b57661c3-a18f-45ed-b7fc-f6471753566e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugOutputCallbacksWide::Output, debugger.idebugoutputcallbackswide_output, Output method [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging], Output method, IDebugOutputCallbacksWide::Output, Output, IDebugOutputCallbacksWide, Output method [Windows Debugging], IDebugOutputCallbacksWide interface
+ms.keywords: Output method [Windows Debugging], IDebugOutputCallbacksWide interface, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, dbgeng/IDebugOutputCallbacksWide::Output, Output method [Windows Debugging], IDebugOutputCallbacksWide::Output, debugger.idebugoutputcallbackswide_output, Output, IDebugOutputCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT Output(
 
 
 
-#### - Mask [in]
+### -param Mask [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> bit flags that indicate the nature of the output.
 
 
-#### - Text [in]
+### -param Text [in]
 
 Specifies the output that is being sent.
 

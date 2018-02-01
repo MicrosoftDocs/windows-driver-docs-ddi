@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03715e4e-6f8a-402d-9544-b01cc06d1809
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodestringcchcatn, safestrings_3958e107-6da7-4bf5-a592-097ddb52c1b2.xml, RtlUnicodeStringCchCatN, ntstrsafe/RtlUnicodeStringCchCatN, RtlUnicodeStringCchCatN function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlunicodestringcchcatn, safestrings_3958e107-6da7-4bf5-a592-097ddb52c1b2.xml, ntstrsafe/RtlUnicodeStringCchCatN, RtlUnicodeStringCchCatN, RtlUnicodeStringCchCatN function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlUnicodeStringCchCatN(
 
 
 
-#### - DestinationString [in, out]
+### -param DestinationString [in, out]
 
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string is added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 
-#### - SourceString [in]
+### -param SourceString [in]
 
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that contains the source string. This string will be added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 
-#### - cchToAppend [in]
+### -param cchToAppend [in]
 
 The maximum number of characters to append to the string that the <i>DestinationString</i> parameter describes.
 
@@ -155,11 +155,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatn.md">RtlUnicodeStringCbCatN</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatnex.md">RtlUnicodeStringCchCatNEx</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatn.md">RtlUnicodeStringCbCatN</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0836a969-e484-485f-9b65-202c177b4f43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbInterfaceGetConfiguredPipe, wdf.wdfusbinterfacegetconfiguredpipe, DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, kmdf.wdfusbinterfacegetconfiguredpipe, WdfUsbInterfaceGetConfiguredPipe method, PFN_WDFUSBINTERFACEGETCONFIGUREDPIPE
+ms.keywords: PFN_WDFUSBINTERFACEGETCONFIGUREDPIPE, WdfUsbInterfaceGetConfiguredPipe method, wdfusb/WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe, wdf.wdfusbinterfacegetconfiguredpipe, kmdf.wdfusbinterfacegetconfiguredpipe, DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ WDFUSBPIPE WdfUsbInterfaceGetConfiguredPipe(
 
 
 
-#### - UsbInterface [in]
+### -param UsbInterface [in]
 
 A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
 
 
-#### - PipeIndex [in]
+### -param PipeIndex [in]
 
 A zero-based index into the set of framework pipe objects that are associated with the specified interface object.
 
 
-#### - PipeInfo [out, optional]
+### -param PipeInfo [out, optional]
 
 A pointer to a caller-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in. This parameter is optional and can be <b>NULL</b>.
 
@@ -112,13 +112,13 @@ For more information about the <b>WdfUsbInterfaceGetConfiguredPipe</b> method an
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
  
 

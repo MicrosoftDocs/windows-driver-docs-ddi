@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_diagnostic_level, *PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, ntddstor/StorageDiagnosticLevelMax, StorageDiagnosticLevelMax, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelDefault, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], _STORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL
+ms.keywords: ntddstor/StorageDiagnosticLevelMax, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, StorageDiagnosticLevelMax, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL, StorageDiagnosticLevelDefault, storage.storage_diagnostic_level, _STORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _STORAGE_DIAGNOSTIC_LEVEL {
 
 
 
-#### - StorageDiagnosticLevelDefault
+### -field StorageDiagnosticLevelDefault
 
 Specifies the default diagnostic level.
 
 
-#### - StorageDiagnosticLevelMax
+### -field StorageDiagnosticLevelMax
 
 Specifies the max diagnostic level.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94BA40BD-3B56-44EF-BAD4-49556E68C550
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices], d3dkmddi/PDXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], display.dxgkarg_settargetgamma, DXGKARG_SETTARGETGAMMA"
+ms.keywords: d3dkmddi/DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], d3dkmddi/PDXGKARG_SETTARGETGAMMA, _DXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices], display.dxgkarg_settargetgamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKARG_SETTARGETGAMMA {
 
 
 
-#### - TargetId
+### -field TargetId
 
 The identifier of a display adapter's video present target.
 
 
-#### - GammaRamp
+### -field GammaRamp
 
 A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gamma_ramp.md">D3DKMDT_GAMMA_RAMP</a> struct which describes the type of gamma ramp to set and the buffer containing the ramp data.
 

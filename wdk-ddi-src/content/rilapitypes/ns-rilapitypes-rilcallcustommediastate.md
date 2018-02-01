@@ -68,6 +68,6 @@ typedef struct _RILCALLCUSTOMMEDIASTATE {
 
 
 
-#### - dwCustomStateSpecific
+### -field dwCustomStateSpecific
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2, OnReleaseHardware method, IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2 interface, OnReleaseHardware method, OnReleaseHardware method, OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, wdf.ipnpcallbackhardware2_onreleasehardware
+ms.keywords: IPnpCallbackHardware2 interface, OnReleaseHardware method, umdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware method, IPnpCallbackHardware2 interface, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2, wdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT OnReleaseHardware(
 
 
 
-#### - pWdfDevice [in]
+### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the framework device object.
 
 
-#### - pWdfResourcesTranslated [in]
+### -param pWdfResourcesTranslated [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
@@ -105,9 +105,9 @@ For information about parsing hardware resources, see <a href="https://docs.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
-
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
 
  
 

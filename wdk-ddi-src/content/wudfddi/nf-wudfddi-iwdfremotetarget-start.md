@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0f21d34-21f2-48ac-994f-e050f4447745
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, wdf.iwdfremotetarget_start, IWDFRemoteTarget::Start, Start, IWDFRemoteTarget interface, Start method, Start method, IWDFRemoteTarget interface, umdf.iwdfremotetarget_start, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget::Start, Start method
+ms.keywords: Start method, wdf.iwdfremotetarget_start, IWDFRemoteTarget::Start, umdf.iwdfremotetarget_start, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, wudfddi/IWDFRemoteTarget::Start, Start method, IWDFRemoteTarget interface, IWDFRemoteTarget, Start, IWDFRemoteTarget interface, Start method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

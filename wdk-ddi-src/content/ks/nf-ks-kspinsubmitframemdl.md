@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinsubmitframemdl, KsPinSubmitFrameMdl function [Streaming Media Devices], avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, ks/KsPinSubmitFrameMdl, KsPinSubmitFrameMdl
+ms.keywords: KsPinSubmitFrameMdl, stream.kspinsubmitframemdl, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, KsPinSubmitFrameMdl function [Streaming Media Devices], ks/KsPinSubmitFrameMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsPinSubmitFrameMdl(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin on which to submit a frame.
 
 
-#### - Mdl [in, optional]
+### -param Mdl [in, optional]
 
 A pointer to a memory descriptor list describing the frame buffer. Optional.
 
 
-#### - StreamHeader [in, optional]
+### -param StreamHeader [in, optional]
 
 A pointer to a <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure. The stream header is copied if this parameter is supplied. Optional.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to a caller-allocated buffer that is passed to the frame return callback registered through <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>. This parameter is optional and is solely for the caller's use.
 
@@ -107,9 +107,9 @@ The difference between this function and <a href="..\ks\nf-ks-kspinsubmitframe.m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
-
 <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
+<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
 
  
 

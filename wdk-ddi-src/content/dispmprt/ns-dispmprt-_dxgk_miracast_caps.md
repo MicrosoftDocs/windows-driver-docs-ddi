@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, dispmprt/DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], PDXGK_MIRACAST_CAPS structure pointer [Display Devices], display.dxgk_miracast_caps
+ms.keywords: display.dxgk_miracast_caps, DXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], dispmprt/DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], PDXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,23 +74,8 @@ typedef struct _DXGK_MIRACAST_CAPS {
 
 
 
-#### - Flags
+### -field Flags
 
-
-
-#### HdcpSupport
-
-Indicates whether the display adapter supports the Miracast High-bandwidth Digital Content Protection (HDCP) feature.
-
-
-#### Reserved
-
-Reserved for system use. The display miniport driver must set this value to zero.
-
-
-#### Value
-
-Holds a 32-bit value that identifies the capabilities of the Miracast device.
 
 
 ### -field Flags.HdcpSupport
@@ -108,7 +93,7 @@ Reserved for system use. The display miniport driver must set this value to zero
 Holds a 32-bit value that identifies the capabilities of the Miracast device.
 
 
-#### - MaxChunkPrivateDriverDataSize
+### -field MaxChunkPrivateDriverDataSize
 
 The maximum size, in bytes, of the private data that the display miniport driver will pass when it reports a <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a> interrupt type of <b>DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE</b>.
 

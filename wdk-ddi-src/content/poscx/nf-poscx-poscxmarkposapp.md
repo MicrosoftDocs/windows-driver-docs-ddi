@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 6BFFD014-E9DC-495C-9810-0D23BD93C41A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxmarkposapp, poscx/PosCxMarkPosApp, PosCxMarkPosApp function, PosCxMarkPosApp
+ms.keywords: PosCxMarkPosApp function, poscx/PosCxMarkPosApp, pos.poscxmarkposapp, PosCxMarkPosApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS PosCxMarkPosApp(
 
 
 
-#### - device [in]
+### -param device [in]
 
 A handle to a framework device object that represents the device.
 
 
-#### - fileObject [in]
+### -param fileObject [in]
 
 A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>.
 
 
-#### - isPosApp [in]
+### -param isPosApp [in]
 
 Specifies if the open instance is associated with a point-of-service application. Set to TRUE if it is associated with a point-of-service application. Otherwise, set to FALSE.
 

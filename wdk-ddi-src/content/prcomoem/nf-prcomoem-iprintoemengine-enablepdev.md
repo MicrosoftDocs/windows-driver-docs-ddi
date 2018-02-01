@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemengine_enablepdev, EnablePDEV method [Print Devices], prcomoem/IPrintOemEngine::EnablePDEV, IPrintOemEngine interface [Print Devices], EnablePDEV method, IPrintOemEngine, EnablePDEV method [Print Devices], IPrintOemEngine interface, IPrintOemEngine::EnablePDEV, EnablePDEV
+ms.keywords: EnablePDEV method [Print Devices], IPrintOemEngine interface, IPrintOemEngine interface [Print Devices], EnablePDEV method, EnablePDEV, print.iprintoemengine_enablepdev, IPrintOemEngine, prcomoem/IPrintOemEngine::EnablePDEV, IPrintOemEngine::EnablePDEV, EnablePDEV method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,43 +77,43 @@ HRESULT EnablePDEV(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 
 
-#### - pPrinterName
+### -param pPrinterName
 
 
 
-#### - cPatterns
+### -param cPatterns
 
 
 
-#### - phsurfPatterns
+### -param phsurfPatterns
 
 
 
-#### - cjGdiInfo
+### -param cjGdiInfo
 
 
 
-#### - pGdiInfo
+### -param pGdiInfo
 
 
 
-#### - cjDevInfo
+### -param cjDevInfo
 
 
 
-#### - pDevInfo
+### -param pDevInfo
 
 
 
-#### - pded
+### -param pded
 
 
 
-#### - pDevOem
+### -param pDevOem
 
 
 

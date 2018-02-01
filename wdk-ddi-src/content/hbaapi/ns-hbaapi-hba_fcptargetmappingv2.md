@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2c241a38-c6b6-4c77-a8ba-be7ba2a8a701
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FCPTARGETMAPPINGV2 structure [Storage Devices], HBA_FCPTargetMappingV2 structure [Storage Devices], HBA_FCPTargetMappingV2, PHBA_FCPTARGETMAPPINGV2, PHBA_FCPTARGETMAPPINGV2 structure pointer [Storage Devices], hbaapi/HBA_FCPTargetMappingV2, hbaapi/PHBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2, storage.hba_fcptargetmappingv2, structs-Fibre_316084b2-47c7-46e2-aa1e-1d99a97de1cb.xml, *PHBA_FCPTARGETMAPPINGV2
+ms.keywords: hbaapi/HBA_FCPTargetMappingV2, PHBA_FCPTARGETMAPPINGV2 structure pointer [Storage Devices], HBA_FCPTARGETMAPPINGV2, HBA_FCPTargetMappingV2 structure [Storage Devices], storage.hba_fcptargetmappingv2, *PHBA_FCPTARGETMAPPINGV2, structs-Fibre_316084b2-47c7-46e2-aa1e-1d99a97de1cb.xml, HBA_FCPTargetMappingV2, hbaapi/PHBA_FCPTARGETMAPPINGV2, PHBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2 structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct HBA_FCPTargetMappingV2 {
 
 
 
-#### - NumberOfEntries
+### -field NumberOfEntries
 
 Indicates the number of bindings.
 
 
-#### - entry
+### -field entry
 
 Contains a variable length array of structures of type <a href="..\hbaapi\ns-hbaapi-hba_fcpscsientryv2.md">HBA_FcpScsiEntryV2</a> each of which defines a mapping between an operating system identifier, a logical unit ID descriptor (LUID) and the corresponding fibre channel protocol (FCP) identifier for a logical unit. 
 

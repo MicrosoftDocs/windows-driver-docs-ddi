@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9d58acda-07b6-4dc2-8f6a-83c6e8bd8e44
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S, PKSPROPERTY_TUNER_CAPS_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S structure [Streaming Media Devices], vidcapstruct_28e3b0b2-5b4e-404a-8ade-d5d9c1870ae5.xml, stream.ksproperty_tuner_caps_s, PKSPROPERTY_TUNER_CAPS_S, ksmedia/KSPROPERTY_TUNER_CAPS_S"
+ms.keywords: stream.ksproperty_tuner_caps_s, KSPROPERTY_TUNER_CAPS_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_CAPS_S, vidcapstruct_28e3b0b2-5b4e-404a-8ade-d5d9c1870ae5.xml, KSPROPERTY_TUNER_CAPS_S, ksmedia/KSPROPERTY_TUNER_CAPS_S, PKSPROPERTY_TUNER_CAPS_S structure pointer [Streaming Media Devices], *PKSPROPERTY_TUNER_CAPS_S, PKSPROPERTY_TUNER_CAPS_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-#### - ModesSupported
+### -field ModesSupported
 
 Specifies a bitwise OR of the supported tuner modes. This member may be set to one or more of the following values from the KSPROPERTY_TUNER_MODES enumeration that is defined in <i>ksmedia.h</i>:
 <table>
@@ -137,17 +137,17 @@ Indicates that the tuner is capable of tuning digital television channels. This 
 </table> 
 
 
-#### - VideoMedium
+### -field VideoMedium
 
 Specifies a unique GUID representing the hardware connection of the analog video signal. This value enforces connections between filters. Possible values are <b>NULL</b>, indicating that no pin is created; GUID_NULL, indicating that Medium is not used to enforce connections; or a GUID. If a GUID value is used, only crossbar pins with a matching Medium GUID are allowed to connect. 
 
 
-#### - TVAudioMedium
+### -field TVAudioMedium
 
 Specifies a unique GUID representing the hardware connection of the TV audio signal. This value enforces connections between filters. Possible values are <b>NULL</b>, indicating that no pin is created; GUID_NULL, indicating that Medium is not used to enforce connections; or a GUID. If a GUID value is used, only crossbar pins with a matching Medium GUID are allowed to connect. 
 
 
-#### - RadioAudioMedium
+### -field RadioAudioMedium
 
 Specifies a unique GUID representing the hardware connection of the analog radio audio signal. This value enforces connections between filters. Possible values are <b>NULL</b>, indicating that no pin is created; GUID_NULL, indicating that Medium is not used to enforce connections; or a GUID. If a GUID value is used, only crossbar pins with a matching Medium GUID are allowed to connect. 
 

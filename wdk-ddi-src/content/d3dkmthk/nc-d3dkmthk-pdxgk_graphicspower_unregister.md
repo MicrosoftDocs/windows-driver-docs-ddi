@@ -68,12 +68,12 @@ NTSTATUS PDXGK_GRAPHICSPOWER_UNREGISTER(
 
 
 
-#### - DeviceHandle
+### -param DeviceHandle
 
 A handle to the graphics device.
 
 
-#### - PrivateHandle
+### -param PrivateHandle
 
 A handle to the graphics device.
 

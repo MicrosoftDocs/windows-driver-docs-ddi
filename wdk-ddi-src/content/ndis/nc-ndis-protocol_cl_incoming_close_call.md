@@ -77,7 +77,7 @@ VOID ProtocolClIncomingCloseCall(
 
 
 
-#### - CloseStatus [in]
+### -param CloseStatus [in]
 
 Specifies the status that indicates the cause of the connection teardown, which is usually
      NDIS_STATUS_SUCCESS to indicate that the remote party to the call requested that the connection be
@@ -85,7 +85,7 @@ Specifies the status that indicates the cause of the connection teardown, which 
      connection.
 
 
-#### - ProtocolVcContext [in]
+### -param ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area for the VC on which the connection is
      being closed. Whatever the value of 
@@ -93,7 +93,7 @@ Specifies the handle to the client's per-VC context area for the VC on which the
      <i>NdisVcHandle</i> that it stored in this context area.
 
 
-#### - CloseData [in]
+### -param CloseData [in]
 
 Pointer to a buffer containing a protocol-specific close message, possibly one supplied by the
      remote client that the call manager received over the network, or this parameter can be <b>NULL</b>. 
@@ -106,7 +106,7 @@ When
      problems on the network.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies the size in bytes of the buffer at 
      <i>CloseData</i>, zero if 
@@ -219,30 +219,30 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
-   NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-<mshelp:link keywords="netvista.ndiscmdispatchincomingclosecall" tabindex="0"><b>
-   NdisCmDispatchIncomingCloseCall</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
+   NdisMCmDispatchIncomingCloseCall</a>
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+   NdisCmDispatchIncomingCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
  
 

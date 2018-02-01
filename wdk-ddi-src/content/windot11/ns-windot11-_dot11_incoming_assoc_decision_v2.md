@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E2455BD2-E540-4B81-84D8-E88D740407ED
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_INCOMING_ASSOC_DECISION_V2, windot11/DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2, *PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2
+ms.keywords: PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista], windot11/DOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2, *PDOT11_INCOMING_ASSOC_DECISION_V2, _DOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _DOT11_INCOMING_ASSOC_DECISION_V2 {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_INCOMING_ASSOC_DECISION_V2</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -97,32 +97,32 @@ The type, revision, and size of the <b>DOT11_INCOMING_ASSOC_DECISION_V2</b> stru
 </table> 
 
 
-#### - PeerMacAddr
+### -field PeerMacAddr
 
 The address of the peer station for the 802.11 station connect attempt.
 
 
-#### - bAccept
+### -field bAccept
 
 The incoming association acceptance. If TRUE, the driver accepts the request. Otherwise, the request is rejected.
 
 
-#### - usReasonCode
+### -field usReasonCode
 
 If bAccept == TRUE, the reason code is included in the association response.
 
 
-#### - uAssocResponseIEsOffset
+### -field uAssocResponseIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) that the miniport driver must include in the probe response packet. The probe response is sent to the peer station seeking the association. This offset is from the start of the buffer that contains this structure.
 
 
-#### - uAssocResponseIEsLength
+### -field uAssocResponseIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uAssocResponseIEsOffset</b>.
 
 
-#### - WFDStatus
+### -field WFDStatus
 
 The status code to include in the Peer-to-Peer (P2P) IE of the association response if <b>bAccept</b> is FALSE.
 

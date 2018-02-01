@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 535857c5-dd71-4575-8475-ff6c7c934dbe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS, netvista.dot11_roaming_completion_parameters, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_roaming_completion_parameters, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_COMPLETION_PARAMETERS structure specifies the completion results of the roaming
   operation performed by the Native 802.11 miniport driver. The driver includes a
   DOT11_ROAMING_COMPLETION_PARAMETERS structure when the driver makes an 
-  <mshelp:link keywords="netvista.ndis_status_dot11_roaming_completion" tabindex="0">
-  NDIS_STATUS_DOT11_ROAMING_COMPLETION</mshelp:link> status indication.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-completion">
+  NDIS_STATUS_DOT11_ROAMING_COMPLETION</a> status indication.
 
 
 ## -syntax
@@ -73,7 +73,7 @@ typedef struct DOT11_ROAMING_COMPLETION_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_ROAMING_COMPLETION_PARAMETERS structure. This member is
      formatted as an 
@@ -89,11 +89,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_ROAMING_COMPLETION_PARAMETERS_REVISION_1.
@@ -105,7 +100,12 @@ This member must be set to
        <code>sizeof(DOT11_ROAMING_COMPLETION_PARAMETERS)</code>.
 
 
-#### - uStatus
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uStatus
 
 The completion status of the roaming operation formatted as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> value.
@@ -123,8 +123,8 @@ For more information about the roaming operation, see
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
-<mshelp:link keywords="netvista.ndis_status_dot11_roaming_completion" tabindex="0">
-   NDIS_STATUS_DOT11_ROAMING_COMPLETION</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-completion">
+   NDIS_STATUS_DOT11_ROAMING_COMPLETION</a>
 
  
 

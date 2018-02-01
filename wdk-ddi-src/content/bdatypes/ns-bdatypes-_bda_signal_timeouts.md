@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: CFEF848D-8268-4FFC-A629-D122021D8411
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_BDA_SIGNAL_TIMEOUTS, bdatypes/PBDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS structure [Streaming Media Devices], bdatypes/BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS, PBDA_SIGNAL_TIMEOUTS structure pointer [Streaming Media Devices], PBDA_SIGNAL_TIMEOUTS, stream.bda_signal_timeouts, BDA_SIGNAL_TIMEOUTS"
+ms.keywords: BDA_SIGNAL_TIMEOUTS structure [Streaming Media Devices], _BDA_SIGNAL_TIMEOUTS, bdatypes/BDA_SIGNAL_TIMEOUTS, stream.bda_signal_timeouts, BDA_SIGNAL_TIMEOUTS, PBDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS, PBDA_SIGNAL_TIMEOUTS structure pointer [Streaming Media Devices], bdatypes/PBDA_SIGNAL_TIMEOUTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _BDA_SIGNAL_TIMEOUTS {
 
 
 
-#### - ulCarrierTimeoutMs
+### -field ulCarrierTimeoutMs
 
 
 
-#### - ulScanningTimeoutMs
+### -field ulScanningTimeoutMs
 
 
 
-#### - ulTuningTimeoutMs
+### -field ulTuningTimeoutMs
 
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d824e279-50a9-46a1-a93a-9ae17928f146
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX, *PUSB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, buses.usb_node_connection_information_ex
+ms.keywords: PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml, buses.usb_node_connection_information_ex, *PUSB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _USB_NODE_CONNECTION_INFORMATION_EX {
 
 
 
-#### - ConnectionIndex
+### -field ConnectionIndex
 
 Contains a value greater than or equal to 1 that specifies the number of the port.
 
 
-#### - DeviceDescriptor
+### -field DeviceDescriptor
 
 Contains a structure of type <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> that reports the USB device descriptor returned by the attached device during enumeration.
 
 
-#### - CurrentConfigurationValue
+### -field CurrentConfigurationValue
 
 Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see the Universal Serial Bus Specification.
 
 
-#### - Speed
+### -field Speed
 
 Contains a value of type <a href="..\usbspec\ne-usbspec-_usb_device_speed.md">USB_DEVICE_SPEED</a> that indicates the speed of the device. 
 
 
-#### - DeviceIsHub
+### -field DeviceIsHub
 
 Indicates, when <b>TRUE</b>, that the device attached to the port is a hub.
 
 
-#### - DeviceAddress
+### -field DeviceAddress
 
 Contains the USB-assigned, bus-relative address of the device that is attached to the port.
 
 
-#### - NumberOfOpenPipes
+### -field NumberOfOpenPipes
 
 Indicates the number of open USB pipes associated with the port.
 
 
-#### - ConnectionStatus
+### -field ConnectionStatus
 
 Contains an enumerator of type <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a> that indicates the connection status.
 
 
-#### - PipeList
+### -field PipeList
 
 Contains an array of structures of type <a href="..\usbioctl\ns-usbioctl-_usb_pipe_info.md">USB_PIPE_INFO</a> that describes the open pipes associated with the port. Pipe descriptions include the schedule offset of the pipe and the associated endpoint descriptor. This information can be used to calculate bandwidth usage.
 

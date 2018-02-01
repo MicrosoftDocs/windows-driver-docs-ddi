@@ -74,12 +74,12 @@ typedef EVT_UCX_ROOTHUB_GET_20PORT_INFO PEVT_UCX_ROOTHUB_GET_20PORT_INFO;
 
 
 
-#### - UcxRootHub [in]
+### -param UcxRootHub [in]
 
 A handle to a UCX object that represents the root hub.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A structure of type <a href="..\ucxroothub\ns-ucxroothub-_roothub_20port_info.md">_ROOTHUB_20PORT_INFO</a>.
 

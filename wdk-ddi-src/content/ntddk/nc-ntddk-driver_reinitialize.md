@@ -72,24 +72,19 @@ VOID Reinitialize(
 
 
 
-#### - *DriverObject [in]
+### -param *DriverObject [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Caller-supplied pointer to context information, specified in a previous call to <a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a> or <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Caller-supplied value representing the number of times the <i>Reinitialize</i> routine has been called, including the current call.
-
-
-#### - DriverObject [in]
-
-Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C67FA5DF-D2E4-4F00-B22F-9218F0012708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PepAcpiInterrupt, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiIoPort, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiInterrupt, pepfx/PepAcpiExtendedIo, pepfx/PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiSpbI2c, PepAcpiExtendedMemory, pepfx/PepAcpiGpioInt, PepAcpiMemory, pepfx/PepAcpiIoPort, PepAcpiSpbSpi, PepAcpiExtendedIo, _PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbUart, PepAcpiGpioIo, pepfx/PepAcpiGpioIo, pepfx/PepAcpiExtendedMemory, pepfx/PepAcpiSpbUart, PepAcpiGpioInt, PEP_ACPI_RESOURCE_TYPE, kernel.pep_acpi_resource_type, PepAcpiSpbI2c, pepfx/PepAcpiMemory
+ms.keywords: "_PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbSpi, pepfx/PepAcpiMemory, PepAcpiExtendedIo, pepfx/PepAcpiSpbI2c, pepfx/PepAcpiInterrupt, kernel.pep_acpi_resource_type, pepfx/PepAcpiIoPort, PepAcpiExtendedMemory, pepfx/PepAcpiExtendedMemory, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiGpioIo, PepAcpiInterrupt, PepAcpiGpioIo, PepAcpiSpbUart, PEP_ACPI_RESOURCE_TYPE, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiSpbUart, PepAcpiIoPort, pepfx/PEP_ACPI_RESOURCE_TYPE, PepAcpiGpioInt, PepAcpiMemory, pepfx/PepAcpiGpioInt, pepfx/PepAcpiExtendedIo, PepAcpiSpbI2c"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,52 +76,52 @@ typedef enum _PEP_ACPI_RESOURCE_TYPE {
 
 
 
-#### - PepAcpiMemory
+### -field PepAcpiMemory
 
 Indicates that the resource is an ACPI memory resource.
 
 
-#### - PepAcpiIoPort
+### -field PepAcpiIoPort
 
 Indicates that the resource is an ACPI IO port resource.
 
 
-#### - PepAcpiInterrupt
+### -field PepAcpiInterrupt
 
 Indicates that the resource is an ACPI interrupt resource.
 
 
-#### - PepAcpiGpioIo
+### -field PepAcpiGpioIo
 
 Indicates that the resource is an ACPI GPIO resource.
 
 
-#### - PepAcpiGpioInt
+### -field PepAcpiGpioInt
 
 Indicates that the resource is an ACPI GPIO interrupt resource.
 
 
-#### - PepAcpiSpbI2c
+### -field PepAcpiSpbI2c
 
 Indicates that the resource is an ACPI I2C serial bus resource.
 
 
-#### - PepAcpiSpbSpi
+### -field PepAcpiSpbSpi
 
 Indicates that the resource is an ACPI SPI serial bus resource.
 
 
-#### - PepAcpiSpbUart
+### -field PepAcpiSpbUart
 
 Indicates that the resource is an ACPI UART serial bus resource.
 
 
-#### - PepAcpiExtendedMemory
+### -field PepAcpiExtendedMemory
 
 Indicates that the resource is an ACPI extended memory resource.
 
 
-#### - PepAcpiExtendedIo
+### -field PepAcpiExtendedIo
 
 Indicates that the resource is an ACPI extended IO resource.
 

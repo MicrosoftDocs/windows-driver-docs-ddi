@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc455bb1-3574-4dfb-9462-f2c67632132b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], netvista.ndisinterlockedinserttaillist, ndis/NdisInterlockedInsertTailList, NdisInterlockedInsertTailList
+ms.keywords: ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, netvista.ndisinterlockedinserttaillist, NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], NdisInterlockedInsertTailList, ndis/NdisInterlockedInsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -72,34 +72,17 @@ PLIST_ENTRY NdisInterlockedInsertTailList(
 
 
 
-### -param _ListHead
-
-TBD
-
-
-### -param _ListEntry
-
-TBD
-
-
-### -param _SpinLock
-
-TBD
-
-
-
-
-#### - ListHead [in]
+### -param _ListHead [in]
 
 A pointer to the head of the doubly linked list into which an entry is to be inserted.
 
 
-#### - ListEntry [in]
+### -param _ListEntry [in]
 
 A pointer to the entry to be inserted at the end of the list.
 
 
-#### - SpinLock [in]
+### -param _SpinLock [in]
 
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
@@ -137,15 +120,15 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+   NdisInterlockedInsertHeadList</a>
 
-<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
-   NdisInterlockedInsertHeadList</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisinterlockedremoveheadlist" tabindex="0"><b>
-   NdisInterlockedRemoveHeadList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+   NdisInterlockedRemoveHeadList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
 

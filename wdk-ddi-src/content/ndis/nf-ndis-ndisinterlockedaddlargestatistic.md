@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], netvista.ndisinterlockedaddlargestatistic
+ms.keywords: netvista.ndisinterlockedaddlargestatistic, ndis/NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,25 +70,13 @@ VOID NdisInterlockedAddLargeStatistic(
 
 
 
-### -param _Addend
-
-TBD
-
-
-### -param _Increment
-
-TBD
-
-
-
-
-#### - Addend [in]
+### -param _Addend [in]
 
 A pointer to a LARGE_INTEGER value that is incremented by the value of 
      <i>Increment</i> .
 
 
-#### - Increment [in]
+### -param _Increment [in]
 
 A ULONG value that is added to the value to which the 
      <i>Addend</i> parameter points.

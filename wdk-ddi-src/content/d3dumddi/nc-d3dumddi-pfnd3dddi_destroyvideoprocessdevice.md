@@ -71,12 +71,12 @@ __checkReturn HRESULT APIENTRY DestroyVideoProcessDevice(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - hVideoProcessor [in]
+### -param hVideoProcessor [in]
 
  A handle to the DirectX VA video processing device that was created by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function.
 
@@ -97,9 +97,9 @@ The <b>DestroyVideoProcessDevice</b> function notifies the driver to destroy the
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
 
  
 

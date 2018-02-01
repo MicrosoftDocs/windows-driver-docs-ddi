@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D3D8D948-400A-47A0-98E9-ECF5643DB5D2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxEndpointInitSetEventCallbacks, UfxEndpointInitSetEventCallbacks, buses.ufxendpointinitseteventcallbacks, UfxEndpointInitSetEventCallbacks method [Buses]
+ms.keywords: UfxEndpointInitSetEventCallbacks method [Buses], UfxEndpointInitSetEventCallbacks, ufxclient/UfxEndpointInitSetEventCallbacks, buses.ufxendpointinitseteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID UfxEndpointInitSetEventCallbacks(
 
 
 
-#### - EndpointInit [in, out]
+### -param EndpointInit [in, out]
 
 Opaque structure passed by UFX in the call to <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_endpoint_add.md">EVT_UFX_DEVICE_ENDPOINT_ADD</a> or <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_default_endpoint_add.md">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a>.
 
 
-#### - Callbacks [in]
+### -param Callbacks [in]
 
 Pointer to a <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure.
 

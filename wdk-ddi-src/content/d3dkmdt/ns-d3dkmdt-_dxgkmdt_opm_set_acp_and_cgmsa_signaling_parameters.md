@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4151e72-e0a6-4873-a2e8-c3321941cfd4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters, d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices], DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml
+ms.keywords: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices], display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters, d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS {
 
 
 
-#### - ulNewTVProtectionStandard
+### -field ulNewTVProtectionStandard
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_standard.md">DXGKMDT_OPM_PROTECTION_STANDARD</a>-typed value that indicates the type of television signal to set ACP and CGMS-A signaling for on the protected output. 
 
 
-#### - ulAspectRatioChangeMask1
+### -field ulAspectRatioChangeMask1
 
 A mask value that indicates the valid bits to change in the following <b>ulAspectRatioData1</b> member.
 
 
-#### - ulAspectRatioData1
+### -field ulAspectRatioData1
 
 32-bit data that indicates the aspect ratio value to set for the active protection standard.
 
 
-#### - ulAspectRatioChangeMask2
+### -field ulAspectRatioChangeMask2
 
 A mask value that indicates the valid bits to change in the following <b>ulAspectRatioData2</b> member. 
 
 
-#### - ulAspectRatioData2
+### -field ulAspectRatioData2
 
 32-bit data for additional aspect ratio-related data for specific protection standards. This data can be used to express End and Q0 values for EIA-608-B, or active format description for CEA-805-A Type B packets. 
 
 
-#### - ulAspectRatioChangeMask3
+### -field ulAspectRatioChangeMask3
 
 A mask value that indicates the valid bits to change in the following <b>ulAspectRatioData3</b> member. 
 
 
-#### - ulAspectRatioData3
+### -field ulAspectRatioData3
 
 32-bit data for additional aspect ratio-related data for specific protection standards. This data can be used to express End and Q0 values for EIA-608-B, or active format description for CEA-805-A Type B packets. 
 
 
-#### - ulReserved
+### -field ulReserved
 
 Reserved. Must be set to zero. 
 
 
-#### - ulReserved2
+### -field ulReserved2
 
 Reserved. Must be set to zero. 
 
 
-#### - ulReserved3
+### -field ulReserved3
 
 Reserved. Must be set to zero. 
 

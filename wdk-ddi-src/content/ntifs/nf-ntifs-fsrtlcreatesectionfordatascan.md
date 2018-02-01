@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlcreatesectionfordatascan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, FsRtlCreateSectionForDataScan, ntifs/FsRtlCreateSectionForDataScan
+ms.keywords: ntifs/FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan, fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,27 +76,27 @@ NTSTATUS FsRtlCreateSectionForDataScan(
 
 
 
-#### - SectionHandle [out]
+### -param SectionHandle [out]
 
 Pointer to a caller-allocated variable that receives an opaque handle to the section object. 
 
 
-#### - SectionObject [out]
+### -param SectionObject [out]
 
 Pointer to a caller-allocated variable that receives an opaque pointer to the section object.
 
 
-#### - SectionFileSize [out, optional]
+### -param SectionFileSize [out, optional]
 
 Pointer to a caller-allocated variable that receives the size, in bytes, of the file at the time the section object was created. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 File object for an open file.  The section object will be backed by the specified file. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies the desired access for the section object as one or more of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> flags. 
 <table>
@@ -147,17 +147,17 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 </table> 
 
 
-#### - ObjectAttributes [in, optional]
+### -param ObjectAttributes [in, optional]
 
 Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
-#### - MaximumSize [in, optional]
+### -param MaximumSize [in, optional]
 
 This parameter is reserved for future use.
 
 
-#### - SectionPageProtection [in]
+### -param SectionPageProtection [in]
 
 Specifies the protection to place on each page in the section. Specify one of the following values. This parameter is required and cannot be zero. 
 <table>
@@ -188,7 +188,7 @@ Enables both read and write access to the committed region of pages.
 </table> 
 
 
-#### - AllocationAttributes [in]
+### -param AllocationAttributes [in]
 
 Bitmasks of the SEC_<i>XXX</i> flags determine the allocation attributes of the section. Specify one or more of the following values. This parameter is required and cannot be zero. 
 <table>
@@ -219,7 +219,7 @@ The file specified by the <i>FileObject</i> parameter is a mapped file.
 </table> 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 This parameter is reserved for future use.
 
@@ -334,13 +334,13 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
 
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
-<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
+<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 

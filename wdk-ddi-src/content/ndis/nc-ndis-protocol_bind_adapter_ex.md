@@ -75,20 +75,20 @@ NDIS_STATUS ProtocolBindAdapterEx(
 
 
 
-#### - ProtocolDriverContext [in]
+### -param ProtocolDriverContext [in]
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The protocol driver passed this context area to the 
-     <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-     NdisRegisterProtocolDriver</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     NdisRegisterProtocolDriver</a> function.
 
 
-#### - BindContext [in]
+### -param BindContext [in]
 
 The handle that identifies the NDIS context area for this bind operation.
 
 
-#### - BindParameters [in]
+### -param BindParameters [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure that
@@ -125,8 +125,8 @@ A pointer to an
 <td width="60%">
 <i>ProtocolBindAdapterEx</i> did not complete the bind operation and the operation
        will be completed asynchronously. The protocol driver must call the 
-       <mshelp:link keywords="netvista.ndiscompletebindadapterex" tabindex="0"><b>
-       NdisCompleteBindAdapterEx</b></mshelp:link> function when the operation is complete.
+       <a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">
+       NdisCompleteBindAdapterEx</a> function when the operation is complete.
 
 </td>
 </tr>
@@ -214,8 +214,8 @@ If
 
 If 
     <b>NdisOpenAdapterEx</b> returns NDIS_STATUS_PENDING, NDIS calls the protocol driver's 
-    <mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-    ProtocolOpenAdapterCompleteEx</i></mshelp:link> function after the open operation is complete. 
+    <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+    ProtocolOpenAdapterCompleteEx</a> function after the open operation is complete. 
     <i>ProtocolOpenAdapterCompleteEx</i> can complete the binding operations. 
     <i>ProtocolBindAdapterEx</i> can store the 
     <i>BindContext</i> handle in the binding context area. NDIS passes 
@@ -243,8 +243,8 @@ After the open operation is complete,
     <i>ProtocolBindAdapterEx</i> can return NDIS_STATUS_PENDING to defer the completion of
     the binding operations to a later time. If 
     <i>ProtocolBindAdapterEx</i> returns NDIS_STATUS_PENDING, the driver must call the 
-    <mshelp:link keywords="netvista.ndiscompletebindadapterex" tabindex="0"><b>
-    NdisCompleteBindAdapterEx</b></mshelp:link> function after the binding operation is complete.
+    <a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">
+    NdisCompleteBindAdapterEx</a> function after the binding operation is complete.
 
 Protocol drivers should use the 
     <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure to
@@ -256,11 +256,11 @@ Protocol drivers should use the
     <a href="https://msdn.microsoft.com/ab664e75-d17d-4664-8c37-91fd651d23c2">Protocol Driver OID Requests</a>.
 
 NDIS can call a protocol driver's 
-    <mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
-    ProtocolReceiveNetBufferLists</i></mshelp:link> function after the driver sets up a packet filter for the binding
+    <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+    ProtocolReceiveNetBufferLists</a> function after the driver sets up a packet filter for the binding
     with the 
-    <mshelp:link keywords="netvista.oid_gen_current_packet_filter" tabindex="0">
-    OID_GEN_CURRENT_PACKET_FILTER</mshelp:link> OID. If the underlying miniport adapter does not use a packet filter
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">
+    OID_GEN_CURRENT_PACKET_FILTER</a> OID. If the underlying miniport adapter does not use a packet filter
     for incoming packets, receive indications are enabled after the open operation is complete. Protocol
     drivers can receive status indications at the 
     <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a> function after the
@@ -277,8 +277,8 @@ If
     appropriate error value.
 
 NDIS calls a protocol driver's 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> function to request the driver to unbind from an underlying miniport
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> function to request the driver to unbind from an underlying miniport
     adapter.
 
 If the protocol driver successfully opens the miniport adapter but the bind operation fails (for
@@ -335,39 +335,39 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
-
-<a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">NdisCompleteBindAdapterEx</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-<mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
-   ProtocolReceiveNetBufferLists</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
-
-<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
+<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+   ProtocolReceiveNetBufferLists</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">NdisCompleteBindAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

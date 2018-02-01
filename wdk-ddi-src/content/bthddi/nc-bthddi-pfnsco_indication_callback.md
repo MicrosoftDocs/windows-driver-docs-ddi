@@ -74,7 +74,7 @@ void SCOIndicationCallback(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
@@ -86,18 +86,18 @@ For incoming remote connection request indications, this is the context specifie
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a> BRB.
 
 
-#### - Indication [in]
+### -param Indication [in]
 
 A 
      <a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a> value that indicates
      the type of SCO event.
 
 
-#### - Parameters [in]
+### -param Parameters [in]
 
 A 
-     <mshelp:link keywords="bltooth.sco_indication_parameters" tabindex="0"><b>
-     SCO_INDICATION_PARAMETERS</b></mshelp:link> structure that contains parameter information based on the value passed
+     <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
+     SCO_INDICATION_PARAMETERS</a> structure that contains parameter information based on the value passed
      to the 
      <i>Indication</i> parameter.
 
@@ -132,8 +132,8 @@ In the second case, the profile driver acts as a client and attempts to connect 
     <b>Callback</b> member of the 
     <a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a> structure passed
     with the specified BRB when one of them is submitted through 
-    <mshelp:link keywords="bltooth.ioctl_internal_bth_submit_brb" tabindex="0"><b>
-    IOCTL_INTERNAL_BTH_SUBMIT_BRB</b></mshelp:link>.
+    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">
+    IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>.
 
 After it is registered, the callback function is only associated with the channel that the BRB opened,
     and the function notifies the profile driver of actions that occur over the open channel to the remote
@@ -150,15 +150,15 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 ## -see-also
 
+<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
+
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
 <a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
 
  
 

@@ -71,7 +71,7 @@ DWORD WINAPI * Dot11ExtSetUnicastCipherAlgorithm(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -79,7 +79,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-#### - dwUnicastCipherAlgo [in]
+### -param dwUnicastCipherAlgo [in]
 
 A 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> enumerator
@@ -115,13 +115,13 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 

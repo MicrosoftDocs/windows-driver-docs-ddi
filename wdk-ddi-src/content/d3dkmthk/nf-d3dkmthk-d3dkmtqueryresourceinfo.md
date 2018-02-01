@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTQueryResourceInfo, OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, display.d3dkmtqueryresourceinfo, D3DKMTQueryResourceInfo function [Display Devices], D3DKMTQueryResourceInfo
+ms.keywords: D3DKMTQueryResourceInfo, OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, D3DKMTQueryResourceInfo function [Display Devices], display.d3dkmtqueryresourceinfo, d3dkmthk/D3DKMTQueryResourceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

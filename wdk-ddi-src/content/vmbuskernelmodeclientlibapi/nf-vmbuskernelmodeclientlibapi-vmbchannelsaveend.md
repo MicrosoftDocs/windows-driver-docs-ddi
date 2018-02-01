@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0E61AF98-DC71-4234-B337-71B2AF65D858
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSaveEnd, vmbuskernelmodeclientlibapi/VmbChannelSaveEnd, netvista.vmbchannelsaveend, VmbChannelSaveEnd function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelSaveEnd, netvista.vmbchannelsaveend, vmbuskernelmodeclientlibapi/VmbChannelSaveEnd, VmbChannelSaveEnd function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID VmbChannelSaveEnd(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle of the channel that was saved. 
 

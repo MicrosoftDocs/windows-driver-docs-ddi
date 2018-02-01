@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b7cf8765-6f24-4b65-9171-6bfad7214013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlCurrentOplock, FsRtlCurrentOplock function [Installable File System Drivers], ifsk.fsrtlcurrentoplock, FsRtlCurrentOplock, fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml
+ms.keywords: fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml, FsRtlCurrentOplock, ntifs/FsRtlCurrentOplock, ifsk.fsrtlcurrentoplock, FsRtlCurrentOplock function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FsRtlCurrentOplock(
 
 
 
-#### - Oplock [in]
+### -param Oplock [in]
 
 An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
 
@@ -92,9 +92,9 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentoplock.md">
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcurrentoplock.md">FltCurrentOplock</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
  
 

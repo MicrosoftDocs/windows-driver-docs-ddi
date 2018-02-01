@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6226e75e-b744-46cd-b14b-e93ece1c2f61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WmiSystemControl routine [Kernel-Mode Driver Architecture], kernel.wmisystemcontrol, wmilib/WmiSystemControl, WmiSystemControl, k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml
+ms.keywords: kernel.wmisystemcontrol, WmiSystemControl routine [Kernel-Mode Driver Architecture], wmilib/WmiSystemControl, k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml, WmiSystemControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS WmiSystemControl(
 
 
 
-#### - WmiLibInfo [in]
+### -param WmiLibInfo [in]
 
 A pointer to a <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that contains registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines. 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the driver's <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. 
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>.
 
 
-#### - IrpDisposition [out]
+### -param IrpDisposition [out]
 
 
       A pointer to an enumeration value of type <b>SYSCTL_IRP_DISPOSITION</b> that indicates how the IRP was handled. <b>WmiSystemControl</b> always sets this value, even when it returns a non-success NTSTATUS code.
@@ -97,9 +97,9 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>.
 
 
 
-#### IrpProcessed
+#### IrpForward
 
-The IRP was processed and possibly completed. If the driver's <i>DpWmi</i>Xxx routine called by <b>WmiSystemControl</b> did not complete the IRP, the driver must call <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the IRP after <b>WmiSystemControl</b> returns.
+The IRP is targeted to another device object (that is, the device object pointer at <b>Parameters.WMI.ProviderId</b> in the IRP does not match the pointer passed by the driver in its call to <a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>). The driver must forward the IRP to the next lower driver. If the driver is the lowest-level driver, then it must complete the IRP.
 
 
 #### IrpNotCompleted
@@ -112,9 +112,9 @@ The IRP was processed but not completed, either because WMI detected an error an
 The IRP is not a WMI request (that is, WMI does not recognize the IRP's minor code). If the driver handles <a href="https://msdn.microsoft.com/library/windows/hardware/ff550813">IRP_MJ_SYSTEM_CONTROL</a> requests with this <b>IRP_MN_<i>XXX</i></b>, it should handle the IRP; otherwise, the driver should forward the IRP to the next lower driver. If the driver is the lowest-level driver, then it must complete the IRP.
 
 
-#### IrpForward
+#### IrpProcessed
 
-The IRP is targeted to another device object (that is, the device object pointer at <b>Parameters.WMI.ProviderId</b> in the IRP does not match the pointer passed by the driver in its call to <a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>). The driver must forward the IRP to the next lower driver. If the driver is the lowest-level driver, then it must complete the IRP.
+The IRP was processed and possibly completed. If the driver's <i>DpWmi</i>Xxx routine called by <b>WmiSystemControl</b> did not complete the IRP, the driver must call <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the IRP after <b>WmiSystemControl</b> returns.
 
 
 ## -returns
@@ -137,25 +137,25 @@ A driver must be running at IRQL PASSIVE_LEVEL when it forwards an <b>IRP_MJ_SYS
 
 ## -see-also
 
+<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
+
 <a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550813">IRP_MJ_SYSTEM_CONTROL</a>
-
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
 
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550813">IRP_MJ_SYSTEM_CONTROL</a>
+
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
-<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
-
 <a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
  
 

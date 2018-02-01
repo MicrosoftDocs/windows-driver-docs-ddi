@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: E7975BAE-4255-4D07-A747-481D210D1244
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PGPIO_MASK_INTERRUPT_PARAMETERS, GPIO_MASK_INTERRUPT_PARAMETERS structure [Parallel Ports], GPIO.gpio_mask_interrupt_parameters, GPIO_MASK_INTERRUPT_PARAMETERS, PGPIO_MASK_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/GPIO_MASK_INTERRUPT_PARAMETERS, PGPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/PGPIO_MASK_INTERRUPT_PARAMETERS"
+ms.keywords: GPIO.gpio_mask_interrupt_parameters, PGPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/PGPIO_MASK_INTERRUPT_PARAMETERS, *PGPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/GPIO_MASK_INTERRUPT_PARAMETERS, GPIO_MASK_INTERRUPT_PARAMETERS, GPIO_MASK_INTERRUPT_PARAMETERS structure [Parallel Ports], _GPIO_MASK_INTERRUPT_PARAMETERS, PGPIO_MASK_INTERRUPT_PARAMETERS structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _GPIO_MASK_INTERRUPT_PARAMETERS {
 
 
 
-#### - BankId
+### -field BankId
 
 The identifier for the bank of GPIO pins that contains the interrupts to mask. If N is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to N–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
 
 
-#### - PinMask
+### -field PinMask
 
 A 64-bit mask to indicate which interrupt pins to mask in the specified bank. This mask affects only GPIO pins that are configured as interrupt request inputs. A bit in the mask that is set to 1 identifies a pin that is to be masked. All other bits in the mask are 0. If N is the number of pins in this bank, the pins are numbered 0 to N–1. Bit 0 (the least significant bit) in the mask represents pin 0, bit 1 represents pin 1, and so on.
 
 
-#### - FailedMask
+### -field FailedMask
 
 A 64-bit mask that identifies the GPIO pins that could not be masked. If the GPIO controller driver fails to mask a bit that is indicated in the <b>PinMask</b> member, the driver sets the corresponding bit in the <b>FailedMask</b> member to mark this failure. If all pins specified in <b>PinMask</b> are successfully masked, the driver sets <b>FailedMask</b> to zero. For more information, see Remarks.
 
@@ -97,9 +97,9 @@ GPIO controllers that have memory-mapped registers are expected to always succee
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439380">CLIENT_MaskInterrupts</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
  
 

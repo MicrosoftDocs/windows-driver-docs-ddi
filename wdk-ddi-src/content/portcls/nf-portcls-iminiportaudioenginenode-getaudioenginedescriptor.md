@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B8D09AB4-1F36-44E1-8D4F-33E7E4DBBFE3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportaudioenginenode_getaudioenginedescriptor, IMiniportAudioEngineNode::GetAudioEngineDescriptor, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface
+ms.keywords: IMiniportAudioEngineNode::GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getaudioenginedescriptor, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode, GetAudioEngineDescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ NTSTATUS GetAudioEngineDescriptor(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID of the audio engine node.
 
 
-#### - pAudioEngineDescriptor [out]
+### -param pAudioEngineDescriptor [out]
 
 Audio engine descriptor object. This parameter is of type <a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_descriptor.md">KSAUDIOENGINE_DESCRIPTOR</a>.
 

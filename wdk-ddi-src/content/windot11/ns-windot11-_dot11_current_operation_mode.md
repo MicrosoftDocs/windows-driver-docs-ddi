@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 085ee8f4-7e96-416a-a59f-f35c8ad0dbf4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CURRENT_OPERATION_MODE, windot11/DOT11_CURRENT_OPERATION_MODE, Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, netvista.dot11_current_operation_mode, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista], PDOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE, _DOT11_CURRENT_OPERATION_MODE
+ms.keywords: Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, windot11/PDOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], windot11/DOT11_CURRENT_OPERATION_MODE, netvista.dot11_current_operation_mode, DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_CURRENT_OPERATION_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _DOT11_CURRENT_OPERATION_MODE {
 
 
 
-#### - uReserved
+### -field uReserved
 
 This member is reserved. The miniport driver must not modify the value of this member.
 
 
-#### - uCurrentOpMode
+### -field uCurrentOpMode
 
 A bitmask of the miniport driver's current operation modes. This bitmask is defined through the
       following:
@@ -83,8 +83,8 @@ A bitmask of the miniport driver's current operation modes. This bitmask is defi
 
 
 For more information about operation modes, see 
-      <mshelp:link keywords="netvista.native_802_11_operation_modes" tabindex="0">Native 802.11 Operation
-      Modes</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+      Modes</a>.
 
 
 #### DOT11_OPERATION_MODE_EXTENSIBLE_AP
@@ -106,6 +106,11 @@ Specifies that the miniport driver supports the Extensible Station (ExtSTA) oper
 Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
 
 
+#### DOT11_OPERATION_MODE_WFD_CLIENT
+
+Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode. This mode is available starting in Windows 8.
+
+
 #### DOT11_OPERATION_MODE_WFD_DEVICE
 
 Specifies that the miniport driver supports the Wi-Fi Direct Device operation mode. This mode is available starting in Windows 8.
@@ -116,11 +121,6 @@ Specifies that the miniport driver supports the Wi-Fi Direct Device operation mo
 Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operation mode.This mode is available starting in Windows 8.
 
 
-#### DOT11_OPERATION_MODE_WFD_CLIENT
-
-Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode. This mode is available starting in Windows 8.
-
-
 ## -remarks
 
 
@@ -128,19 +128,19 @@ The miniport driver must specify only one operation mode in the
     <b>uCurrentOpMode</b> member.
 
 For more information about Native 802.11 operation modes, see 
-    <mshelp:link keywords="netvista.native_802_11_operation_modes" tabindex="0">Native 802.11 Operation
-    Modes</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+    Modes</a>.
 
 
 
 ## -see-also
 
-<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
-<mshelp:link keywords="netvista.oid_dot11_current_operation_mode" tabindex="0">
-   OID_DOT11_CURRENT_OPERATION_MODE</mshelp:link>
+<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-operation-mode">
+   OID_DOT11_CURRENT_OPERATION_MODE</a>
 
  
 

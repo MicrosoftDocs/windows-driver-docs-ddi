@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4e407266-4789-4de7-bcc8-7e9bb54804ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPartBase, SetPartCompression, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml, filterpipeline/IPartBase::SetPartCompression, SetPartCompression method [Print Devices], print.ipartbase_setpartcompression, IPartBase::SetPartCompression, IPartBase interface [Print Devices], SetPartCompression method, SetPartCompression method [Print Devices], IPartBase interface
+ms.keywords: SetPartCompression method [Print Devices], filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml, filterpipeline/IPartBase::SetPartCompression, IPartBase, IPartBase::SetPartCompression, SetPartCompression method [Print Devices], IPartBase interface, IPartBase interface [Print Devices], SetPartCompression method, SetPartCompression, print.ipartbase_setpartcompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetPartCompression(
 
 
 
-#### - compression [in]
+### -param compression [in]
 
 A <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0001.md">ExpsCompressionOptions</a>-typed value that describes the compression option for the part.
 

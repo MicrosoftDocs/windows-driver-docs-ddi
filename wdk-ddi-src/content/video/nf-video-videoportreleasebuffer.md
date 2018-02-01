@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 627f43e7-1561-4822-b2b6-a49b54550bf5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportreleasebuffer, VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, VideoPortReleaseBuffer function [Display Devices], VideoPortReleaseBuffer, video/VideoPortReleaseBuffer
+ms.keywords: VideoPortReleaseBuffer, display.videoportreleasebuffer, VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, video/VideoPortReleaseBuffer, VideoPortReleaseBuffer function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID VideoPortReleaseBuffer(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Specifies the address of the block of pool memory being deallocated.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ca53536-e847-4c11-a28d-e046e8a392de
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VIDEO_PORT_SERVICES, VIDEO_PORT_SERVICES enumeration [Display Devices], video/VideoPortServicesI2C, VIDEO_PORT_SERVICES, VideoPortServicesInt10, VideoPortServicesWCMemoryProtection, video/VideoPortServicesHeadless, display.video_port_services, VideoPortServicesHeadless, video/VideoPortServicesAGP, video/VideoPortServicesInt10, VideoPortServicesDebugReport, Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, video/VideoPortServicesDebugReport, VideoPortServicesAGP, VideoPortServicesI2C, video/VideoPortServicesWCMemoryProtection
+ms.keywords: video/VideoPortServicesWCMemoryProtection, VIDEO_PORT_SERVICES, VideoPortServicesWCMemoryProtection, video/VideoPortServicesDebugReport, video/VIDEO_PORT_SERVICES, VIDEO_PORT_SERVICES enumeration [Display Devices], video/VideoPortServicesInt10, video/VideoPortServicesI2C, video/VideoPortServicesHeadless, display.video_port_services, VideoPortServicesDebugReport, Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, VideoPortServicesI2C, video/VideoPortServicesAGP, VideoPortServicesHeadless, VideoPortServicesInt10, VideoPortServicesAGP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,27 +73,27 @@ typedef enum  {
 
 
 
-#### - VideoPortServicesAGP
+### -field VideoPortServicesAGP
 
 Represents the AGP interface. 
 
 
-#### - VideoPortServicesI2C
+### -field VideoPortServicesI2C
 
 Represents the I2C interface. 
 
 
-#### - VideoPortServicesHeadless
+### -field VideoPortServicesHeadless
 
 Represents the Headless interface. 
 
 
-#### - VideoPortServicesInt10
+### -field VideoPortServicesInt10
 
 Represents the Int10 interface. 
 
 
-#### - VideoPortServicesDebugReport
+### -field VideoPortServicesDebugReport
 
 Represents the Debug Report interface, which is available in the following operating systems:
  
@@ -103,7 +103,7 @@ Represents the Debug Report interface, which is available in the following opera
 <li>Windows XP SP2 and subsequent service packs </li>
 </ul>
 
-#### - VideoPortServicesWCMemoryProtection
+### -field VideoPortServicesWCMemoryProtection
 
 Represents the WC Memory Protection interface. 
 
@@ -121,9 +121,9 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567384">I2C Functions Implemented by the Video Port Driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567384">I2C Functions Implemented by the Video Port Driver</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BE2E35B0-1C34-4740-ABED-4E96F8908174
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxsetcomponentwake, PoFxSetComponentWake, wdm/PoFxSetComponentWake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoFxSetComponentWake, kernel.pofxsetcomponentwake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentWake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID PoFxSetComponentWake(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-#### - Component [in]
+### -param Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-#### - WakeHint [in]
+### -param WakeHint [in]
 
 Whether the driver arms the component to wake whenever the component enters the idle condition. If TRUE, the driver arms the component to wake. If FALSE, the driver does not arm the component to wake.
 

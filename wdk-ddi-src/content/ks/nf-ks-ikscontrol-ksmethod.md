@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 75100366-ba79-4ff2-b8e0-64c5c3f5f3b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl, KsMethod method [Streaming Media Devices], stream.ikscontrol_ksmethod2, KsMethod, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl::KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, avintfc_6cf0dd96-36e2-4d0a-8bb8-f2f49ab9eb1f.xml, ks/IKsControl::KsMethod
+ms.keywords: KsMethod method [Streaming Media Devices], KsMethod, avintfc_6cf0dd96-36e2-4d0a-8bb8-f2f49ab9eb1f.xml, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl::KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl, stream.ikscontrol_ksmethod2, ks/IKsControl::KsMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ NTSTATUS KsMethod(
 
 
 
-#### - Method [in]
+### -param Method [in]
 
 Pointer to a <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a> structure that describes a method and the request type of the method request. 
 
 
-#### - MethodLength [in]
+### -param MethodLength [in]
 
 Specifies size, in bytes, of the buffer at <i>Method</i>. 
 
 
-#### - MethodData [in, out]
+### -param MethodData [in, out]
 
 Pointer to a buffer that contains data and buffer space for a KSMETHOD_TYPE_SEND operation, or buffer space that receives data for all other operations. 
 
 
-#### - DataLength [in]
+### -param DataLength [in]
 
 Specifies size, in bytes, of the buffer at <i>MethodData</i>. 
 
 
-#### - BytesReturned [out]
+### -param BytesReturned [out]
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsMethod</b> stores in the buffer at <i>MethodData</i>. 
 
@@ -112,9 +112,9 @@ To determine the buffer size that is required for a specific method request, you
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 

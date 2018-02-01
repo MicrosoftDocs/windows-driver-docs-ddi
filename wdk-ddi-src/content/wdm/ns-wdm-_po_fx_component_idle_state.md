@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4F0BF45D-F854-480C-B0AC-8134C6BF3266
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PO_FX_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], wdm/PPO_FX_COMPONENT_IDLE_STATE, wdm/PO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE, kernel.po_fx_component_idle_state, _PO_FX_COMPONENT_IDLE_STATE, PPO_FX_COMPONENT_IDLE_STATE, PPO_FX_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT_IDLE_STATE
+ms.keywords: PPO_FX_COMPONENT_IDLE_STATE, wdm/PPO_FX_COMPONENT_IDLE_STATE, *PPO_FX_COMPONENT_IDLE_STATE, PPO_FX_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE, wdm/PO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], kernel.po_fx_component_idle_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _PO_FX_COMPONENT_IDLE_STATE {
 
 
 
-#### - TransitionLatency
+### -field TransitionLatency
 
 The transition latency. This latency is the amount of time, in 100-nanosecond units, that the component requires to return from this Fx state to the F0 state. For a <b>PO_FX_COMPONENT_IDLE_STATE</b> structure that specifies the attributes of the F0 state, set this member to zero. 
 
 
-#### - ResidencyRequirement
+### -field ResidencyRequirement
 
 The residency requirement. The residency requirement is the minimum amount of time, in 100-nanosecond units, that the component must spend in this Fx state to make a transition to this Fx state worthwhile. PoFx uses this member value as a hint to avoid switching a component to an Fx state unless the component is likely to remain in this state for at least the amount of time specified by <b>ResidencyRequirement</b>. For a <b>PO_FX_COMPONENT_IDLE_STATE</b> structure that describes the attributes of the F0 state, set this member to zero.
 
 
-#### - NominalPower
+### -field NominalPower
 
 The power, in microwatts, that the component consumes in this Fx state. Set this member to <b>PO_FX_UNKNOWN_POWER</b> to indicate that PoFx should ignore (treat as negligible) the component's internal power consumption in this Fx state when PoFx evaluates which power state to switch to when the component is idle.
 

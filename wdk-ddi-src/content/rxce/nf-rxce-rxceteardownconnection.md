@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml, ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers]
+ms.keywords: ifsk.rxceteardownconnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml, RxCeTearDownConnection, rxce/RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS RxCeTearDownConnection(
 
 
 
-#### - pConnection [in]
+### -param pConnection [in]
 
 A pointer to an connection to be torn down.
 

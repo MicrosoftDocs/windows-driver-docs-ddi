@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ccd65750-b4d0-4955-9fd4-9546709c2390
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_closeallocation, d3dkmddi/DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION structure [Display Devices], DmStructs_0d76b996-7ce8-4471-894f-585cc9f3f225.xml, DXGKARG_CLOSEALLOCATION, _DXGKARG_CLOSEALLOCATION
+ms.keywords: display.dxgkarg_closeallocation, DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION structure [Display Devices], DmStructs_0d76b996-7ce8-4471-894f-585cc9f3f225.xml, d3dkmddi/DXGKARG_CLOSEALLOCATION, _DXGKARG_CLOSEALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKARG_CLOSEALLOCATION {
 
 
 
-#### - NumAllocations
+### -field NumAllocations
 
 [in] The number of elements in the array that <b>pOpenHandleList</b> specifies.
 
 
-#### - pOpenHandleList
+### -field pOpenHandleList
 
 [in] An array of handles to device-specific allocations to close.
 

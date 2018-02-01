@@ -165,14 +165,14 @@ The <b>Status</b> field is set to one of the following:
 
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_DEVICE_BUSY (ERROR_BUSY)
 
-The operation was successful.
+The command failed because of a Reservation Conflict (for more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification).
 
 
-#### -STATUS_INVALID_PARAMETER (ERROR_INVALID_PARAMETER)
+#### -STATUS_INFO_LENGTH_MISMATCH
 
-The input buffer structure is incorrectly sized or populated.
+The input buffer length for the IOCTL is less than sizeof(PERSISTENT_RESERVE_COMMAND) or the size that is specified in the <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> data structure is less than sizeof(PERSISTENT_RESERVE_COMMAND).
 
 
 #### -STATUS_INVALID_DEVICE_REQUEST (ERROR_INVALID_FUNCTION)
@@ -180,14 +180,9 @@ The input buffer structure is incorrectly sized or populated.
 The I/O control code (IOCTL_STORAGE_PERSISTENT_RESERVE_OUT) is not supported by the storage drivers.
 
 
-#### -STATUS_DEVICE_BUSY (ERROR_BUSY)
+#### -STATUS_INVALID_PARAMETER (ERROR_INVALID_PARAMETER)
 
-The command failed because of a Reservation Conflict (for more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification).
-
-
-#### -STATUS_IO_DEVICE_ERROR (ERROR_IO_DEVICE)
-
-The device does not support the Persistent Reserve Out command.
+The input buffer structure is incorrectly sized or populated.
 
 
 #### -STATUS_INVALID_USER_BUFFER (ERROR_INVALID_USER_BUFFER)
@@ -195,7 +190,12 @@ The device does not support the Persistent Reserve Out command.
 The input buffer is not aligned correctly for the device or adapter.  This status could only be returned when a driver sends an IOCTL to the storage stack.  This status will not be returned when a user-mode application sends the IOCTL through the DeviceIoControl API as the I/O Manager automatically aligns the buffers.
 
 
-#### -STATUS_INFO_LENGTH_MISMATCH
+#### -STATUS_IO_DEVICE_ERROR (ERROR_IO_DEVICE)
 
-The input buffer length for the IOCTL is less than sizeof(PERSISTENT_RESERVE_COMMAND) or the size that is specified in the <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> data structure is less than sizeof(PERSISTENT_RESERVE_COMMAND).
+The device does not support the Persistent Reserve Out command.
+
+
+#### -STATUS_SUCCESS
+
+The operation was successful.
 

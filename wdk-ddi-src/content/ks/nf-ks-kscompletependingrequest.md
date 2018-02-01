@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9bde557e-0759-4f5b-989e-a34a701d2ebd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, KsCompletePendingRequest function [Streaming Media Devices], KsCompletePendingRequest, ks/KsCompletePendingRequest, stream.kscompletependingrequest
+ms.keywords: stream.kscompletependingrequest, KsCompletePendingRequest, avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, KsCompletePendingRequest function [Streaming Media Devices], ks/KsCompletePendingRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void KsCompletePendingRequest(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that must be completed; this is passed in the dispatch function that returned a STATUS_PENDING.
 
@@ -91,11 +91,11 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], 1/SERCX_BUFFER_DESCRIPTOR_INIT, serports.sercx_buffer_descriptor_init
+ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, serports.sercx_buffer_descriptor_init, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID SERCX_BUFFER_DESCRIPTOR_INIT(
 
 
 
-#### - Descriptor [out]
+### -param Descriptor [out]
 
 A pointer to the <b>SERCX_BUFFER_DESCRIPTOR</b> structure that is to be initialized.
 

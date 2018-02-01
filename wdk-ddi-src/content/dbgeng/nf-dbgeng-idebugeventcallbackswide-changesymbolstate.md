@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, ChangeSymbolState method [Windows Debugging], debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ChangeSymbolState(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bit-set indicating the nature of the change to the symbol state.  The following bit flags might be set.
 <table>
@@ -139,7 +139,7 @@ The type options have changed.
 </table> 
 
 
-#### - Argument [in]
+### -param Argument [in]
 
 Provides additional information about the change to the symbol state.   If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 
@@ -151,17 +151,12 @@ Provides additional information about the change to the symbol state.   If more 
 The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine loaded symbols for.
 
 
-#### DEBUG_CSS_UNLOADS
-
-The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine unloaded symbols for.  If the engine unloaded symbols for more than one image, the value of <i>Argument</i> is zero.
-
-
-#### DEBUG_CSS_SCOPE
+#### DEBUG_CSS_PATHS
 
 The value of <i>Argument</i> is zero.
 
 
-#### DEBUG_CSS_PATHS
+#### DEBUG_CSS_SCOPE
 
 The value of <i>Argument</i> is zero.
 
@@ -174,6 +169,11 @@ The value of <i>Argument</i> is the symbol options.
 #### DEBUG_CSS_TYPE_OPTIONS
 
 The value of <i>Argument</i> is zero.
+
+
+#### DEBUG_CSS_UNLOADS
+
+The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine unloaded symbols for.  If the engine unloaded symbols for more than one image, the value of <i>Argument</i> is zero.
 
 
 ## -returns

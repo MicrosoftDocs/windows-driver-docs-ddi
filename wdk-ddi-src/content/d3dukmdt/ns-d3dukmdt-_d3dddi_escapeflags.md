@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40648f6a-3393-4374-beff-e097c299f9e9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_ESCAPEFLAGS, d3dukmdt/D3DDDI_ESCAPEFLAGS, D3D_other_Structs_5ff9ad07-6a44-4a53-a70c-5abdbe84065a.xml, display.d3dddi_escapeflags, D3DDDI_ESCAPEFLAGS structure [Display Devices], _D3DDDI_ESCAPEFLAGS
+ms.keywords: display.d3dddi_escapeflags, d3dukmdt/D3DDDI_ESCAPEFLAGS, _D3DDDI_ESCAPEFLAGS, D3D_other_Structs_5ff9ad07-6a44-4a53-a70c-5abdbe84065a.xml, D3DDDI_ESCAPEFLAGS structure [Display Devices], D3DDDI_ESCAPEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _D3DDDI_ESCAPEFLAGS {
 
 
 
-#### - HardwareAccess
+### -field HardwareAccess
 
 A <b>UINT</b> value that specifies whether the operating system performs the <a href="https://msdn.microsoft.com/2b7c1eae-6527-469e-a2fa-74d2a1246bd3">second level of synchronization</a> into the display miniport driver for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a> call. If the driver requires the second level of synchronization and the <b>HardwareAccess</b> flag is not set, the call to the driver's <i>DxgkDdiEscape</i> function should fail. 
 
@@ -90,7 +90,7 @@ Starting in Windows 8.1,  if this member is set, <b>DeviceStatusQuery</b> and <
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-#### - DeviceStatusQuery
+### -field DeviceStatusQuery
 
 
   
@@ -105,7 +105,7 @@ The operating system ignores this member if it is prior to Windows 8.1, or if t
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-#### - ChangeFrameLatency
+### -field ChangeFrameLatency
 
 
   
@@ -135,14 +135,14 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
  
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_ESCAPEFLAGS that can hold one 32-bit value that identifies how to share information.
 
@@ -161,17 +161,17 @@ If <b>ChangeFrameLatency</b> is set, a <a href="..\d3dumddi\nc-d3dumddi-pfnd3ddd
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_executionstateescape.md">D3DDDI_EXECUTIONSTATEESCAPE</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ESCAPE</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_framelatencyescape.md">D3DDDI_FRAMELATENCYESCAPE</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_executionstateescape.md">D3DDDI_EXECUTIONSTATEESCAPE</a>
 
  
 

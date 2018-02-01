@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, _STOR_RICH_DEVICE_DESCRIPTION, storport/PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], storport/STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices]
+ms.keywords: "_STOR_RICH_DEVICE_DESCRIPTION, storport/PSTOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], storage.stor_rich_device_description, storport/STOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,24 +74,24 @@ typedef struct _STOR_RICH_DEVICE_DESCRIPTION {
 
 
 
-#### - Version
+### -field Version
 
 The version of the structure. Must be STOR_RICH_DEVICE_DESCRIPTION_STRUCTURE_VERSION.
 
 
-#### - Size
+### -field Size
 
 The size of the structure. 
 
 
-#### - VendorId
+### -field VendorId
 
 A string representing the device’s vendor ID. May be an empty string if ModelNumber is provided.
 
 
 
 
-#### - ModelNumber
+### -field ModelNumber
 
 A string representing the device’s model.
 
@@ -100,7 +100,7 @@ A string representing the device’s model.
 
 
 
-#### - FirmwareRevision
+### -field FirmwareRevision
 
 A string representing the device’s currently active firmware revision.
 

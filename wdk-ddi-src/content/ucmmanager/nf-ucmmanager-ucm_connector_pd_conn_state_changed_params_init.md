@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 177AF27E-3EBA-4D43-BAF2-11834784F762
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function [Buses], buses.ucm_connector_pd_conn_state_changed_params_init, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
+ms.keywords: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function [Buses], buses.ucm_connector_pd_conn_state_changed_params_init, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT(
 
 
 
-#### - Params [out]
+### -param Params [out]
 
 Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params.md">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
 
 
-#### - PdConnState [in]
+### -param PdConnState [in]
 
 A <a href="..\ucmtypes\ne-ucmtypes-_ucm_pd_conn_state.md">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
 

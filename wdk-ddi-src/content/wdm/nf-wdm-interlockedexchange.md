@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c9bee5b0-eeaf-4c82-9f02-d00cf9202f78
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedExchange routine [Kernel-Mode Driver Architecture], k102_ae8d85b7-040e-4c44-9476-68d6919a50e4.xml, wdm/InterlockedExchange, kernel.interlockedexchange, InterlockedExchange
+ms.keywords: kernel.interlockedexchange, InterlockedExchange, InterlockedExchange routine [Kernel-Mode Driver Architecture], k102_ae8d85b7-040e-4c44-9476-68d6919a50e4.xml, wdm/InterlockedExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ LONG InterlockedExchange(
 
 
 
-#### - Target [in, out]
+### -param Target [in, out]
 
 A pointer to a variable to be set to the supplied <i>Value</i> as an atomic operation.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the value to which the variable will be set. 
 
@@ -106,13 +106,13 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
  
 

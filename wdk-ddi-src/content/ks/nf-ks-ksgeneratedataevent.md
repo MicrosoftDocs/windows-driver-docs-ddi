@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ba49134-e144-4212-9ef7-e16b9d5f90ea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGenerateDataEvent function [Streaming Media Devices], ks/KsGenerateDataEvent, stream.ksgeneratedataevent, KsGenerateDataEvent, ksfunc_4e7efb50-d6c2-45b5-9b44-5c3d48e91933.xml
+ms.keywords: ks/KsGenerateDataEvent, KsGenerateDataEvent, KsGenerateDataEvent function [Streaming Media Devices], stream.ksgeneratedataevent, ksfunc_4e7efb50-d6c2-45b5-9b44-5c3d48e91933.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsGenerateDataEvent(
 
 
 
-#### - EventEntry [in]
+### -param EventEntry [in]
 
 Specifies the event entry structure that references the event data. The information is used to determine what type of notification to perform. If the notification type is not one of the predefined standards, an error is returned. In the case of a single, nonrecurring event, this entry will be invalid when returned from the function. Therefore, any code that enumerates a list of events must preincrement to acquire the next event in the list before passing this event to the function.
 
 
-#### - DataSize [in]
+### -param DataSize [in]
 
 Specifies the size in bytes of the <i>Data</i> parameter passed.
 
 
-#### - Data [in]
+### -param Data [in]
 
 Points to data to be passed to the client callback. This data is copied to one of the preallocated buffer slots set up when the event was enabled. The size of the data must be less than whatever was originally allocated or the event will fail.
 

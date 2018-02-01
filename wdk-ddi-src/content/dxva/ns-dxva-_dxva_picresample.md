@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 29b26400-9b27-4bff-9c7e-d612d250da30
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml, _DXVA_PicResample, dxva/DXVA_PicResample, display.dxva_picresample, dxva/LPDXVA_PicResample, DXVA_PicResample structure [Display Devices], *LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], DXVA_PicResample
+ms.keywords: display.dxva_picresample, *LPDXVA_PicResample, _DXVA_PicResample, DXVA_PicResample structure [Display Devices], dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml, dxva/DXVA_PicResample, DXVA_PicResample, dxva/LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], LPDXVA_PicResample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _DXVA_PicResample {
 
 
 
-#### - wPicResampleSourcePicIndex
+### -field wPicResampleSourcePicIndex
 
 Specifies the reference buffer to be resampled. 
 
 
-#### - wPicResampleDestPicIndex
+### -field wPicResampleDestPicIndex
 
 Specifies the buffer to be used for the output of the reference picture resampling operation.
 
 
-#### - wPicResampleRcontrol
+### -field wPicResampleRcontrol
 
 Specifies the rounding mode for averaging in the resampling operation. In the case of H.263 Annex O Spatial Scalability, this member is 1. (This corresponds to the value of <i>RCRPR</i> in H.263 Annex P that is equivalent to the upsampling needed for H.263 Annex O spatial scalability.) In the case of H.263 Annex P Reference Picture Resampling, this value is equal to the H.263 variable <i>RCRPR</i>
 
 
-#### - bPicResampleExtrapWidth
+### -field bPicResampleExtrapWidth
 
 Indicates if horizontal resampling must include padding of the resampled picture. If nonzero and the padding method of using motion vectors over picture boundaries is used on the accelerator, any resampling must include padding of the resampled picture. This padding must cover at least the specified width around each edge of the resampled picture regardless of the resampling operation that is performed.
 
 
-#### - bPicResampleExtrapHeight
+### -field bPicResampleExtrapHeight
 
 Indicates if vertical resampling must include padding of the resampled picture. If nonzero and the padding method of using motion vectors over picture boundaries is used on the accelerator, any resampling must include padding of the resampled picture. This padding must cover at least the specified height around each edge of the resampled picture regardless of the resampling operation that is performed.
 
 
-#### - dwPicResampleSourceWidth
+### -field dwPicResampleSourceWidth
 
 Specifies the width in units of luminance samples of the area of the source picture to be resampled to the destination picture.
 
 
-#### - dwPicResampleSourceHeight
+### -field dwPicResampleSourceHeight
 
 Specifies the height of the area of the source picture, in units of luminance samples to be resampled to the destination picture.
 
 
-#### - dwPicResampleDestWidth
+### -field dwPicResampleDestWidth
 
 Specifies the width of the area of the destination picture, in units of luminance samples to contain the resampled data from the source picture. 
 
 
-#### - dwPicResampleDestHeight
+### -field dwPicResampleDestHeight
 
 Specifies the height of the area of the destination picture in units of luminance samples to contain the resampled data from the source picture. 
 
 
-#### - dwPicResampleFullDestWidth
+### -field dwPicResampleFullDestWidth
 
 Specifies the full width of the area of the destination picture in units of luminance samples to contain the resampled data from the source picture. 
 
 
-#### - dwPicResampleFullDestHeight
+### -field dwPicResampleFullDestHeight
 
 Specifies the full height of the area of the destination picture in units of luminance samples to contain the resampled data from the source picture.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3fde33d4-a9c8-4647-bd2d-3da66f13ef8a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSMPEGVID_RECT structure pointer [Streaming Media Devices], *PKSMPEGVID_RECT, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml, ksmedia/PKSMPEGVID_RECT, ksmedia/KSMPEGVID_RECT, stream.ksmpegvid_rect, PKSMPEGVID_RECT, _KSMPEGVID_RECT, KSMPEGVID_RECT, KSMPEGVID_RECT structure [Streaming Media Devices]
+ms.keywords: vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml, ksmedia/KSMPEGVID_RECT, PKSMPEGVID_RECT, ksmedia/PKSMPEGVID_RECT, KSMPEGVID_RECT structure [Streaming Media Devices], PKSMPEGVID_RECT structure pointer [Streaming Media Devices], stream.ksmpegvid_rect, *PKSMPEGVID_RECT, _KSMPEGVID_RECT, KSMPEGVID_RECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,18 +69,18 @@ typedef struct _KSMPEGVID_RECT {
 
 
 
-#### - StartX
+### -field StartX
 
 
 
-#### - StartY
+### -field StartY
 
 
 
-#### - EndX
+### -field EndX
 
 
 
-#### - EndY
+### -field EndY
 
 

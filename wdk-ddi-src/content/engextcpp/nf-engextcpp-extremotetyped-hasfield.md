@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c206d8e7-1a90-4866-868b-20275a52e2dd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, ExtRemoteTyped interface [Windows Debugging], HasField method, HasField, ExtRemoteTyped::HasField, debugger.extremotetyped_hasfield, HasField method [Windows Debugging], ExtRemoteTyped, HasField method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], HasField method, EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, HasField method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::HasField, HasField, HasField method [Windows Debugging], debugger.extremotetyped_hasfield
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ bool HasField(
 
 
 
-#### - Field [in]
+### -param Field [in]
 
 The name of the member.  The name of the member is a dot-separated path and can contain sub-members (for example, <b>mymember.mysubmember</b>).  Pointers on this dot-separated path will automatically be dereferenced. However, a dot operator (<b>.</b>) should still be used here instead of the usual C pointer dereference operator (<b>-&gt;</b>).
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterQueueEvent, OnBidiResponseReceived method [Print Devices], IPrinterQueueEvent interface, printerextension/IPrinterQueueEvent::OnBidiResponseReceived, IPrinterQueueEvent::OnBidiResponseReceived, print.iprinterqueueevent_onbidiresponsereceived, OnBidiResponseReceived method [Print Devices], IPrinterQueueEvent interface [Print Devices], OnBidiResponseReceived method, OnBidiResponseReceived
+ms.keywords: printerextension/IPrinterQueueEvent::OnBidiResponseReceived, IPrinterQueueEvent, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], IPrinterQueueEvent interface, IPrinterQueueEvent interface [Print Devices], OnBidiResponseReceived method, OnBidiResponseReceived method [Print Devices], IPrinterQueueEvent::OnBidiResponseReceived, print.iprinterqueueevent_onbidiresponsereceived
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OnBidiResponseReceived(
 
 
 
-#### - bstrResponse [in]
+### -param bstrResponse [in]
 
 The received response.
 
 
-#### - hrStatus [in]
+### -param hrStatus [in]
 
 An HRESULT value.
 
@@ -97,11 +97,11 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 <a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
+<a href="https://msdn.microsoft.com/E98A121A-514A-4437-A542-E8629697B7EA">IPrinterQueue::SendBidiQuery</a>
 
 <a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
 
-<a href="https://msdn.microsoft.com/E98A121A-514A-4437-A542-E8629697B7EA">IPrinterQueue::SendBidiQuery</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
 
  
 

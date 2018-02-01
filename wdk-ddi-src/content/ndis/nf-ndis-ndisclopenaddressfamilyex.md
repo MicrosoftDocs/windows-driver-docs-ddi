@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 54170917-60b4-4d8f-bf92-df7d7dc0faee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, netvista.ndisclopenaddressfamilyex, NdisClOpenAddressFamilyEx, ndis/NdisClOpenAddressFamilyEx
+ms.keywords: ndis/NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, netvista.ndisclopenaddressfamilyex, NdisClOpenAddressFamilyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NDIS_STATUS NdisClOpenAddressFamilyEx(
 
 
 
-#### - NdisBindingHandle [in]
+### -param NdisBindingHandle [in]
 
 The handle that 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> returns and that
@@ -81,7 +81,7 @@ The handle that
      the caller is bound to.
 
 
-#### - AddressFamily [in]
+### -param AddressFamily [in]
 
 A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a> structure that describes
@@ -89,12 +89,12 @@ A pointer to a
      
 
 This pointer is an input parameter to the client's 
-     <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-     ProtocolCoAfRegisterNotify</i></mshelp:link> function, which calls 
+     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     ProtocolCoAfRegisterNotify</a> function, which calls 
      <b>NdisClOpenAddressFamilyEx</b>.
 
 
-#### - ClientAfContext [in]
+### -param ClientAfContext [in]
 
 The handle to a caller-supplied resident context area in which the client maintains state for this
      AF after the AF has been opened. NDIS passes this handle back to the client in all subsequent calls
@@ -102,7 +102,7 @@ The handle to a caller-supplied resident context area in which the client mainta
      <b>NdisClOpenAddressFamilyEx</b> succeeds.
 
 
-#### - NdisAfHandle [out]
+### -param NdisAfHandle [out]
 
 A pointer to a caller-supplied variable in which 
      <b>NdisClOpenAddressFamilyEx</b> returns a handle that represents the newly opened address family.
@@ -114,8 +114,8 @@ A pointer to a caller-supplied variable in which
 When 
      <b>NdisClOpenAddressFamilyEx</b> returns anything other than NDIS_STATUS_PENDING, the client should make
      an internal call to its 
-     <mshelp:link keywords="netvista.protocolclopenafcompleteex" tabindex="0"><i>
-     ProtocolClOpenAfCompleteEx</i></mshelp:link> function. Otherwise, NDIS calls the client's 
+     <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+     ProtocolClOpenAfCompleteEx</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClOpenAfCompleteEx</i> function when this operation is completed.
 
 
@@ -125,8 +125,8 @@ When
 
 A CoNDIS client calls 
     <b>NdisClOpenAddressFamilyEx</b> from its 
-    <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-    ProtocolCoAfRegisterNotify</i></mshelp:link> function, after the client checks the input buffer that is pointed to by
+    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    ProtocolCoAfRegisterNotify</a> function, after the client checks the input buffer that is pointed to by
     the 
     <i>AddressFamily</i> parameter to determine whether the client recognizes the call manager and registered
     addresses. NDIS forwards the client's call of 
@@ -165,28 +165,28 @@ NDIS passes the pointer from the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 <a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
-
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
  
 

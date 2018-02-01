@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2edfcdb-28b9-4322-8bfb-4d5d2c2d1519
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsignalquality, ntddrilapitypes/RILSIGNALQUALITY, RILSIGNALQUALITY, *LPRILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILSIGNALQUALITY, *LPRILSIGNALQUALITY, netvista.rilsignalquality, ntddrilapitypes/RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,30 +73,30 @@ typedef struct _RILSIGNALQUALITY {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwSystemType
+### -field dwSystemType
 
 
 
-#### - nNumSignalBars
+### -field nNumSignalBars
 
 
 
-#### - nSignalStrength
+### -field nSignalStrength
 
 
 
-#### - nSNRStrength
+### -field nSNRStrength
 
 

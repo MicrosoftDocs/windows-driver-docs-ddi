@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFUnifiedPropertyStore::SetPropertyData, umdf.iwdfunifiedpropertystore_setpropertydata, SetPropertyData method, IWDFUnifiedPropertyStore interface, wdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, SetPropertyData method, SetPropertyData method, SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData
+ms.keywords: SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, umdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore, SetPropertyData method, wdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore interface, SetPropertyData method, SetPropertyData method, IWDFUnifiedPropertyStore interface, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,32 +75,32 @@ HRESULT SetPropertyData(
 
 
 
-#### - PropertyKey [in]
+### -param PropertyKey [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that specifies the device property key.
 
 
-#### - Lcid [in]
+### -param Lcid [in]
 
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Reserved. Drivers should set this value to 0.
 
 
-#### - PropertyType [in]
+### -param PropertyType [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a> value that specifies the type of the data that is provided in the <i>PropertyData</i> buffer.
 
 
-#### - PropertyDataSize [in]
+### -param PropertyDataSize [in]
 
 The size, in bytes, of the buffer that <i>PropertyData</i> points to.
 
 
-#### - PropertyData [in, optional]
+### -param PropertyData [in, optional]
 
 A pointer to the device property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
@@ -173,17 +173,17 @@ For more information about accessing the registry, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
 
  
 

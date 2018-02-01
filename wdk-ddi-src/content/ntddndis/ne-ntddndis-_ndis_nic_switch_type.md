@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F990F166-D9DA-43F5-95D3-86B9B11FACF1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisNicSwitchTypeExternal, _NDIS_NIC_SWITCH_TYPE, ntddndis/NDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeUnspecified, ntddndis/NdisNicSwitchTypeMax, netvista.ndis_nic_switch_type, ntddndis/NdisNicSwitchTypeUnspecified, ntddndis/PNDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeExternal, NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_TYPE, PNDIS_NIC_SWITCH_TYPE, *PNDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeMax, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NdisNicSwitchTypeUnspecified, ntddndis/PNDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeMax, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisNicSwitchTypeMax, PNDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeUnspecified, netvista.ndis_nic_switch_type, ntddndis/NDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeExternal, _NDIS_NIC_SWITCH_TYPE, *PNDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ typedef enum _NDIS_NIC_SWITCH_TYPE {
 
 
 
-#### - NdisNicSwitchTypeUnspecified
+### -field NdisNicSwitchTypeUnspecified
 
 The NIC switch type is not specified.
 
 
-#### - NdisNicSwitchTypeExternal
+### -field NdisNicSwitchTypeExternal
 
 This value specifies an external switch. The single root I/O virtualization (SR-IOV) virtual ports (VPorts) connected to this type of switch, including the default VPort, can access the external network through the physical port on the network adapter.
 
 
-#### - NdisNicSwitchTypeMax
+### -field NdisNicSwitchTypeMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 

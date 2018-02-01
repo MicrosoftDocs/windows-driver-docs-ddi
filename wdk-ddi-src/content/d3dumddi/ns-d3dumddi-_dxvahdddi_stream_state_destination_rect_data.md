@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82f0cb12-fc0e-4627-af50-df4697f6764f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, DXVA2_Structs_3b88b3f0-9b31-46c6-8725-514f227b12a1.xml, display.dxvahdddi_stream_state_destination_rect_data, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
+ms.keywords: DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure [Display Devices], display.dxvahdddi_stream_state_destination_rect_data, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, DXVA2_Structs_3b88b3f0-9b31-46c6-8725-514f227b12a1.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA {
 
 
 
-#### - Enable
+### -field Enable
 
 [in] A Boolean value that specifies whether the driver should use the <b>DestinationRect</b> member or the entire target rectangle as the destination. The default value is <b>FALSE</b>, which indicates that the entire target rectangle is the destination. 
 
 
-#### - DestinationRect
+### -field DestinationRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the coordinates of the destination rectangle relevant to the target rectangle. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is empty (0,0,0,0). 
 

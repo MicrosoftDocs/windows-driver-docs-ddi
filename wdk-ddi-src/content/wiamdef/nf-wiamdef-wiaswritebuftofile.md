@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 29e9fa32-9264-41d7-8ac2-c6a08cab2880
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaswritebuftofile, wiamdef/wiasWriteBufToFile, wiasWriteBufToFile, wiasWriteBufToFile function [Imaging Devices], wiasFncs_9d14f2bd-ceba-491a-808c-9af7cdcc8b6b.xml
+ms.keywords: wiasFncs_9d14f2bd-ceba-491a-808c-9af7cdcc8b6b.xml, wiasWriteBufToFile function [Imaging Devices], wiasWriteBufToFile, wiamdef/wiasWriteBufToFile, image.wiaswritebuftofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ HRESULT _stdcall wiasWriteBufToFile(
 
 
 
-#### - lFlags
+### -param lFlags
 
 Specifies a set of operation flags. This parameter should be set to 0.
 
 
-#### - pmdtc [in]
+### -param pmdtc [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure.
 
@@ -95,9 +95,9 @@ A WIA minidriver uses this function to write a buffer to any type of image file.
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftostream.md">wiasWritePageBufToStream</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftostream.md">wiasWritePageBufToStream</a>
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 

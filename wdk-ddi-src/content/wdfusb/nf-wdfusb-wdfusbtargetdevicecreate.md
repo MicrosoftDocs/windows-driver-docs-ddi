@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5a2d3430-ca94-42f0-bfeb-fd38d9d4958a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceCreate, DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml, WdfUsbTargetDeviceCreate method, PFN_WDFUSBTARGETDEVICECREATE, kmdf.wdfusbtargetdevicecreate, wdf.wdfusbtargetdevicecreate, wdfusb/WdfUsbTargetDeviceCreate
+ms.keywords: kmdf.wdfusbtargetdevicecreate, DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml, PFN_WDFUSBTARGETDEVICECREATE, WdfUsbTargetDeviceCreate, wdfusb/WdfUsbTargetDeviceCreate, WdfUsbTargetDeviceCreate method, wdf.wdfusbtargetdevicecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfUsbTargetDeviceCreate(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a caller-supplied <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new USB device object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - UsbDevice [out]
+### -param UsbDevice [out]
 
 A pointer to a location that receives a handle to the new framework USB device object.
 
@@ -161,9 +161,9 @@ For more information about the <b>WdfUsbTargetDeviceCreate</b> method and USB I/
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetnuminterfaces.md">WdfUsbTargetDeviceGetNumInterfaces</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
  
 

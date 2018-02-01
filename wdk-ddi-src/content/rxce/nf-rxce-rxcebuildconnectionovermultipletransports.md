@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports
+ms.keywords: rxce/RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ NTSTATUS RxCeBuildConnectionOverMultipleTransports(
 
 
 
-#### - pMiniRedirectorDeviceObject [in, out]
+### -param pMiniRedirectorDeviceObject [in, out]
 
 A pointer to the mini-redirector device object.
 
@@ -87,42 +87,42 @@ A pointer to the mini-redirector device object.
 TBD
 
 
-#### - NumberOfAddresses [in]
+### -param NumberOfAddresses [in]
 
 The number of local addresses (transports).
 
 
-#### - pLocalAddressPointers [in]
+### -param pLocalAddressPointers [in]
 
 A pointer to an array of the local address handles.
 
 
-#### - pServerName [in]
+### -param pServerName [in]
 
 A pointer to the name of the server (for connection enumeration).
 
 
-#### - pConnectionInformation [in]
+### -param pConnectionInformation [in]
 
 A pointer to the connection information that specifies the remote address.
 
 
-#### - pHandler [in]
+### -param pHandler [in]
 
 A pointer to the event handler for processing receive indications.
 
 
-#### - pEventContext [in]
+### -param pEventContext [in]
 
 A pointer to the context parameter to be passed back to the event handler and used for indications.
 
 
-#### - pCompletionRoutine [in]
+### -param pCompletionRoutine [in]
 
 A pointer to a connection completion routine when this routine completed if STATUS_PENDING is initially returned.
 
 
-#### - pCompletionContext [in, out]
+### -param pCompletionContext [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RXCE_CONNECTION_COMPLETION_CONTEXT structure. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit and connection are properly initialized.
 
@@ -134,9 +134,9 @@ Create options that determine which transport will be selected for establishing 
 
 
 
-#### RxCeSelectFirstSuccessfulTransport
+#### RxCeSelectAllSuccessfulTransports
 
-Select the first successful transport that responds.
+Select all of the successful transports that respond.
 
 
 #### RxCeSelectBestSuccessfulTransport
@@ -144,9 +144,9 @@ Select the first successful transport that responds.
 Select the best successful transport that responds.
 
 
-#### RxCeSelectAllSuccessfulTransports
+#### RxCeSelectFirstSuccessfulTransport
 
-Select all of the successful transports that respond.
+Select the first successful transport that responds.
 
 
 ## -returns
@@ -223,9 +223,9 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
-
 <a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
+
+<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], wdm/SeValidSecurityDescriptor, k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, SeValidSecurityDescriptor, kernel.sevalidsecuritydescriptor
+ms.keywords: kernel.sevalidsecuritydescriptor, SeValidSecurityDescriptor, wdm/SeValidSecurityDescriptor, k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ BOOLEAN SeValidSecurityDescriptor(
 
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the size in bytes of the given security descriptor.
 
 
-#### - SecurityDescriptor [in]
+### -param SecurityDescriptor [in]
 
 Pointer to the self-relative <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>, which must be buffered somewhere in system space.
 

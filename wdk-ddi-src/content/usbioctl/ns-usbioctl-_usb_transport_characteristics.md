@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 56394A88-7231-4693-8DD1-C5C7586E490C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUSB_TRANSPORT_CHARACTERISTICS, PUSB_TRANSPORT_CHARACTERISTICS structure pointer [Buses], USB_TRANSPORT_CHARACTERISTICS, usbioctl/USB_TRANSPORT_CHARACTERISTICS, PUSB_TRANSPORT_CHARACTERISTICS, usbioctl/PUSB_TRANSPORT_CHARACTERISTICS, buses.usb_transport_characteristics, _USB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS structure [Buses]"
+ms.keywords: PUSB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS, buses.usb_transport_characteristics, _USB_TRANSPORT_CHARACTERISTICS, usbioctl/PUSB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS structure [Buses], PUSB_TRANSPORT_CHARACTERISTICS structure pointer [Buses], *PUSB_TRANSPORT_CHARACTERISTICS, usbioctl/USB_TRANSPORT_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,13 +71,13 @@ typedef struct _USB_TRANSPORT_CHARACTERISTICS {
 
 
 
-#### - Version
+### -field Version
 
 The version is set to  USB_TRANSPORT_CHARACTERISTICS_VERSION_1. 
 
 
 
-#### - TransportCharacteristicsFlags
+### -field TransportCharacteristicsFlags
 
 A bitmask that indicates to the client driver the transport characteristics that are available and are returned in this structure. 
 
@@ -96,7 +96,7 @@ If USB_TRANSPORT_CHARACTERISTICS_BANDWIDTH_AVAILABLE
 is set, <b>MaxPotentialBandwidth</b> contains valid information. Otherwise, it must not be used by the client driver.  
 
 
-#### - CurrentRoundtripLatencyInMilliSeconds
+### -field CurrentRoundtripLatencyInMilliSeconds
 
 Contains the current round-trip delay in milliseconds from the time a non-isochronous transfer is received by the USB driver stack to the time that the transfer is completed.  
 
@@ -104,7 +104,7 @@ For MA-USB, the underlying network could be WiFi, WiGig, Ethernet etc. The delay
 
 
 
-#### - MaxPotentialBandwidth
+### -field MaxPotentialBandwidth
 
 Contains the total bandwidth of the host controller’s shared transport. 
 

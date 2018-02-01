@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 48744342-9137-48F5-9071-528974DE6AD5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue, buses.udecxusbendpointsetwdfioqueue, UdecxUsbEndpointSetWdfIoQueue function [Buses]
+ms.keywords: buses.udecxusbendpointsetwdfioqueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], UdecxUsbEndpointSetWdfIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE void UdecxUsbEndpointSetWdfIoQueue(
 
 
 
-#### - UdecxUsbEndpoint [in]
+### -param UdecxUsbEndpoint [in]
 
 A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>.
 
 
-#### - WdfQueue [in]
+### -param WdfQueue [in]
 
 A handle to a framework queue object that will handle requests sent to the endpoint. The client driver retrieved this pointer in the previous call to <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>. 
 
@@ -89,9 +89,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 

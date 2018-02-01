@@ -72,17 +72,17 @@ void SetLoadImageNotifyRoutine(
 
 
 
-#### - FullImageName [in, optional]
+### -param FullImageName [in, optional]
 
 A pointer to a buffered Unicode string that identifies the executable image file. (The <i>FullImageName</i> parameter can be <b>NULL</b> in cases in which the operating system is unable to obtain the full name of the image at process creation time.) 
 
 
-#### - ProcessId [in]
+### -param ProcessId [in]
 
 The process ID of the process in which the image has been mapped, but this handle is zero if the newly loaded image is a driver.
 
 
-#### - ImageInfo [in]
+### -param ImageInfo [in]
 
 A pointer to an <a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a> structure that contains image information. See Remarks.
 
@@ -116,9 +116,9 @@ When the main executable image for a newly created process is loaded, the load-i
 
 <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>
 
-<a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
-
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+
+<a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
 
  
 

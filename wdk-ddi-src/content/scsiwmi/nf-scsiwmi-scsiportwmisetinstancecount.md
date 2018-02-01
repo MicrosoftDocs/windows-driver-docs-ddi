@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0de2c766-cd3c-46ff-bb78-f1e4c37af2c0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiSetInstanceCount function [Storage Devices], storage.scsiportwmisetinstancecount, scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, scsiwmi/ScsiPortWmiSetInstanceCount, ScsiPortWmiSetInstanceCount
+ms.keywords: ScsiPortWmiSetInstanceCount, scsiwmi/ScsiPortWmiSetInstanceCount, ScsiPortWmiSetInstanceCount function [Storage Devices], scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, storage.scsiportwmisetinstancecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,24 +71,24 @@ BOOLEAN ScsiPortWmiSetInstanceCount(
 
 
 
-#### - RequestContext [in]
+### -param RequestContext [in]
 
 Pointer to a structure of type <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a> that contains the request context for a WMI SRB. 
 
 
-#### - InstanceCount [in]
+### -param InstanceCount [in]
 
 Contains the number of instances for which the minidriver will provide data. 
 
 
-#### - BufferAvail [out]
+### -param BufferAvail [out]
 
 Contains, on return, the number of bytes of buffer space available for describing instance names and data. The value that is returned in this member can be passed to routines <a href="..\scsiwmi\nf-scsiwmi-scsiportwmisetdata.md">ScsiPortWmiSetData</a> and <a href="..\scsiwmi\nf-scsiwmi-scsiportwmisetinstancename.md">ScsiPortWmiSetInstanceName</a> in the <i>BufferAvail </i>parameter of those routines. 
 
 The <b>ScsiPortWmiSetInstanceCount</b> routine initializes an array of pointers to data buffers, with one array element for each instance. If there is not enough memory available in the WNODE to initialize an array of size <i>InstanceCount</i>, a zero will be returned in this member. 
 
 
-#### - SizeNeeded [out]
+### -param SizeNeeded [out]
 
 Indicates, on input, the number of bytes needed to describe the entire WNODE <i>before </i>configuring the internal arrays in the WNODE. On return, this member will contain the size of the entire WNODE, including the newly initialized arrays within the WNODE. 
 

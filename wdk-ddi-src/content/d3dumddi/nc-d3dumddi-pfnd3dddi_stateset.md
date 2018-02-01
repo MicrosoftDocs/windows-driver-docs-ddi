@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY StateSet(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 

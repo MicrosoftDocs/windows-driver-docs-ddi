@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 48d54092-d055-449c-a409-829213db2989
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
+ms.keywords: NdisOpenFile, netvista.ndisopenfile, ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, NdisOpenFile function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisOpenFile(
 
 
 
-#### - Status [out]
+### -param Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the open file
      operation, which can be one of the following:
@@ -82,11 +82,10 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
-#### NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_ERROR_READING_FILE
 
-The handle at 
-       <i>FileHandle</i> is valid for a subsequent call to 
-       <b>NdisMapFile</b>.
+The specified file's data could not be read into system memory for subsequent access by the
+       caller.
 
 
 #### NDIS_STATUS_FILE_NOT_FOUND
@@ -101,25 +100,26 @@ NDIS could not allocate the resources it needed to open the file and allocate a 
        file contents.
 
 
-#### NDIS_STATUS_ERROR_READING_FILE
+#### NDIS_STATUS_SUCCESS
 
-The specified file's data could not be read into system memory for subsequent access by the
-       caller.
+The handle at 
+       <i>FileHandle</i> is valid for a subsequent call to 
+       <b>NdisMapFile</b>.
 
 
-#### - FileHandle [out]
+### -param FileHandle [out]
 
 A pointer to a caller-supplied variable in which this function returns the handle of the opened
      file if the call succeeds.
 
 
-#### - FileLength [out]
+### -param FileLength [out]
 
 A pointer to a caller-supplied variable in which this function writes the number of bytes of data
      in the opened file if the call succeeds.
 
 
-#### - FileName [in]
+### -param FileName [in]
 
 A pointer to an NDIS_STRING type containing an initialized counted string, in the system-default
      character set, naming the file to be opened. For Windows 2000 and later drivers, this string contains
@@ -127,7 +127,7 @@ A pointer to an NDIS_STRING type containing an initialized counted string, in th
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 
-#### - HighestAcceptableAddress [in]
+### -param HighestAcceptableAddress [in]
 
 The highest physical address in which the file data can be stored, or specifies -1 if the driver
      places no restrictions.
@@ -166,15 +166,15 @@ When
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
 
 <a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

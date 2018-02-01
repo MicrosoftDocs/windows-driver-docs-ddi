@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b0a3ce92-b29a-4c5e-8cab-18fc92787e2e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects4, GetEventSystem method [Windows Debugging], IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects3::GetEventSystem, debugger.geteventsystem, IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method, GetEventSystem, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4::GetEventSystem, GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetEventSystem
+ms.keywords: IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem, GetEventSystem method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetEventSystem(
 
 
 
-#### - Id [out]
+### -param Id [out]
 
 Receives the engine target ID.
 
@@ -99,13 +99,13 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

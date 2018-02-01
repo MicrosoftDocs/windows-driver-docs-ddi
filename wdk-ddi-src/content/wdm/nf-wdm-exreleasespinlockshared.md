@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D79FD160-1A03-43F0-B9AB-D74C6176565A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockshared_, ExReleaseSpinLockShared, wdm/ExReleaseSpinLockShared
+ms.keywords: ExReleaseSpinLockShared, wdm/ExReleaseSpinLockShared, kernel.exreleasespinlockshared_, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ VOID ExReleaseSpinLockShared (
 TBD
 
 
-#### - OldIrql [in]
+### -param OldIrql [in]
 
 The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451053">ExAcquireSpinLockShared</a> call that acquired the spin lock.
 

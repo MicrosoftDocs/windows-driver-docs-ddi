@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: f55b74d0-d545-419a-87fb-c320f789aaf4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smclib/*PSCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES, smartcrd.scard_reader_capabilities, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], _SCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES, smclib/SCARD_READER_CAPABILITIES
+ms.keywords: "*PSCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES, smclib/SCARD_READER_CAPABILITIES, smclib/*PSCARD_READER_CAPABILITIES, _SCARD_READER_CAPABILITIES, scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], smartcrd.scard_reader_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,20 +93,10 @@ typedef struct {
 
 
 
-#### - CLKFrequency
+### -field CLKFrequency
 
 
       A structure with the following members:
-
-
-#### Default
-
-Contains the standard clock frequency at which the reader runs, in kilohertz, and encoded in little-endian format. For example, 3.58 MHz is encoded as 3580. This member is required. 
-
-
-#### Max
-
-Contains the maximum clock frequency at which the reader can run, in kilohertz, and encoded in little-endian format. This member is required. 
 
 
 ### -field CLKFrequency.Default
@@ -119,21 +109,11 @@ Contains the standard clock frequency at which the reader runs, in kilohertz, an
 Contains the maximum clock frequency at which the reader can run, in kilohertz, and encoded in little-endian format. This member is required. 
 
 
-#### - DataRate
+### -field DataRate
 
 
       A structure with the following members:
      
-
-
-#### Default
-
-Contains the standard data rate of the reader, in units of bits per second, and encoded in little-endian format. This member is required. 
-
-
-#### Max
-
-Contains the maximum data rate of the reader, in units of bits per second, and encoded in little-endian format. This member is required.  
 
 
 ### -field DataRate.Default
@@ -146,21 +126,11 @@ Contains the standard data rate of the reader, in units of bits per second, and 
 Contains the maximum data rate of the reader, in units of bits per second, and encoded in little-endian format. This member is required.  
 
 
-#### - DataRatesSupported
+### -field DataRatesSupported
 
 
       A structure with the following members:
      
-
-
-#### List
-
-Contains a list of data rates, in bits per second, that are supported by the reader. This member is used with the PTS request. The reader driver usually sets this member to a pointer to a static array of unsigned long values that contain the supported data rates. If the reader does not support different data rates, leave this member empty. This member is optional.
-
-
-#### Entries
-
-Contains the number of linked list entries in DataRatesSupported.List. This member is optional. 
 
 
 ### -field DataRatesSupported.List
@@ -175,25 +145,17 @@ Contains the number of linked list entries in DataRatesSupported.List. This memb
 
 ### -field _DataRatesSupported
 
- 
+
+      A structure with the following members:
+     
 
 
-#### - CLKFrequenciesSupported
+### -field CLKFrequenciesSupported
 
 
       A structure with the following members:
       
      
-
-
-#### List
-
-Contains a list of clock frequencies, in kilohertz, that are supported by the reader. This member is used with the PTS request. The driver usually sets this member to a pointer to a static array of unsigned long values that contain the supported clock frequencies. If the reader does not support different clock frequencies, leave this member empty. This member is optional. 
-
-
-#### Entries
-
-Contains the number of linked list entries of CLKFrquenciesSupported.List. This member is optional. 
 
 
 ### -field CLKFrequenciesSupported.List
@@ -208,20 +170,23 @@ Contains the number of linked list entries of CLKFrquenciesSupported.List. This 
 
 ### -field _CLKFrequenciesSupported
 
- 
+
+      A structure with the following members:
+      
+     
 
 
-#### - SupportedProtocols
+### -field SupportedProtocols
 
 Must be set to a bitmask that reflects the asynchronous or synchronous protocols that the card reader and card reader driver support. This member is required.   
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use. 
 
 
-#### - ReaderType
+### -field ReaderType
 
 This member contains the reader type and is required. This member can have one of the values in the following table.
 <table>
@@ -322,7 +287,7 @@ Reader that uses a proprietary vendor bus
 </table> 
 
 
-#### - MechProperties
+### -field MechProperties
 
 Contains a value that is formed by taking a bitwise OR of all applicable reader properties shown in the following table. This member is optional. 
 <table>
@@ -363,7 +328,7 @@ Reader can swallow the smart card.
 </table> 
 
 
-#### - CurrentState
+### -field CurrentState
 
 This member contains the status of the card and is required. This member can have one of the values listed in the following table.
 <table>
@@ -446,7 +411,7 @@ A smart card is inserted and a protocol has been selected.
 Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData-&gt;SpinLock</b> member of <a href="..\smclib\ns-smclib-_smartcard_extension.md">SMARTCARD_EXTENSION</a>. 
 
 
-#### - Channel
+### -field Channel
 
 Contains the logical channel number. This member is optional. The exact meaning of this member depends on the type of smart card, as shown in the following table. 
 <table>
@@ -509,22 +474,22 @@ Device number
 For more information, see Part 3 of the <i>Interoperability Specification for ICCs and Personal Computer Systems</i>. 
 
 
-#### - MaxIFSD
+### -field MaxIFSD
 
 Contains the maximum buffer size of the reader. This value informs the smart card at the beginning of a T=1 transmission of the maximum number of bytes that can be received in one packet. This member is required.  
 
 
-#### - PowerMgmtSupport
+### -field PowerMgmtSupport
 
 Indicates the type of power management that the card supports. A value of zero indicates that the smart card does not support power management. 
 
 
-#### - CardConfiscated
+### -field CardConfiscated
 
 If <b>TRUE</b>, indicates that the smart card was confiscated.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for system use.
 

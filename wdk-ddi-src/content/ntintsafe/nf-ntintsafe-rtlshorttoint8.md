@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 644559BB-9842-4261-9A9C-720185E6E9F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlshorttoint8, ntintsafe/RtlShortToInt8, RtlShortToInt8 function [Kernel-Mode Driver Architecture], RtlShortToInt8
+ms.keywords: RtlShortToInt8 function [Kernel-Mode Driver Architecture], RtlShortToInt8, ntintsafe/RtlShortToInt8, kernel.rtlshorttoint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlShortToInt8(
 
 
 
-#### - sOperand [in]
+### -param sOperand [in]
 
 The value to be converted.
 
 
-#### - pi8Result [out]
+### -param pi8Result [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

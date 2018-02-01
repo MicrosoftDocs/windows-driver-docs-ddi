@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject method, wdfchildlist/WdfChildListRequestChildEject, kmdf.wdfchildlistrequestchildeject, WdfChildListRequestChildEject, PFN_WDFCHILDLISTREQUESTCHILDEJECT, wdf.wdfchildlistrequestchildeject
+ms.keywords: PFN_WDFCHILDLISTREQUESTCHILDEJECT, wdfchildlist/WdfChildListRequestChildEject, WdfChildListRequestChildEject, wdf.wdfchildlistrequestchildeject, kmdf.wdfchildlistrequestchildeject, WdfChildListRequestChildEject method, DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ BOOLEAN WdfChildListRequestChildEject(
 
 
 
-#### - ChildList [in]
+### -param ChildList [in]
 
 A handle to a child list object.
 
 
-#### - IdentificationDescription [in]
+### -param IdentificationDescription [in]
 
 A pointer to a caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 

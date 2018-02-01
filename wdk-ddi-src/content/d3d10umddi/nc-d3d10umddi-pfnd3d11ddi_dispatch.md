@@ -84,11 +84,6 @@ VOID APIENTRY Dispatch(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - ThreadGroupCountX [in]
 
  The size, in thread groups, of the x-dimension of the thread-group grid.  The maximum size is 65535. 
@@ -102,6 +97,11 @@ VOID APIENTRY Dispatch(
 #### - ThreadGroupCountZ [in]
 
  The size, in thread groups, of the z-dimension of the thread-group grid.  The maximum size is 65535. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 ## -returns

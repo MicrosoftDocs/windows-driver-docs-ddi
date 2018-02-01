@@ -74,16 +74,16 @@ NDIS_STATUS NdisTcpOffloadReceiveHandler(
 
 
 
-#### - NdisOffloadHandle [in]
+### -param NdisOffloadHandle [in]
 
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
-     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that was associated with the connection state.
+     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Each 
@@ -107,7 +107,7 @@ The
       indication.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The offload target must supply the following status value:
      
@@ -119,11 +119,11 @@ The offload target must supply the following status value:
 
 This indicates that the host stack can retain ownership of the NET_BUFFER_LIST structures and
        associated structures until it returns these structures to the 
-       <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
-       MiniportTcpOffloadReceiveReturn</i></mshelp:link> function of the offload target.
+       <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+       MiniportTcpOffloadReceiveReturn</a> function of the offload target.
 
 
-#### - BytesConsumed [out]
+### -param BytesConsumed [out]
 
 A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
      client application.
@@ -182,12 +182,12 @@ The client application consumed a subset of the indicated receive data. The amou
 
 
 Receive buffers are posted to the 
-    <mshelp:link keywords="netvista.miniporttcpoffloadreceive" tabindex="0"><i>
-    MiniportTcpOffloadReceive</i></mshelp:link> function of the offload target. If preposted receive requests (buffers
+    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">
+    MiniportTcpOffloadReceive</a> function of the offload target. If preposted receive requests (buffers
     supplied by the client application) are available for the connection, the offload target should transfer
     the receive data by calling the 
-    <mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-    NdisTcpOffloadReceiveComplete</b></mshelp:link> function. For more information, see 
+    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+    NdisTcpOffloadReceiveComplete</a> function. For more information, see 
     <a href="https://msdn.microsoft.com/13e80cec-03f5-4498-94ab-ce974a8b9697">Delivery Algorithm</a>.
 
 All receive requests must be completed by the offload target (even if they are zero-byte receive requests).
@@ -219,14 +219,14 @@ The host stack can post a zero-byte receive request to enable receive indication
     <b>
     NdisTcpOffloadReceiveHandler</b> function. The offload target uses the other pool for making receive
     indications through the nonoffload NDIS interface when calling the 
-    <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-    NdisMIndicateReceiveNetBufferLists</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    NdisMIndicateReceiveNetBufferLists</a> function.
 
 Each allocated NET_BUFFER_LIST structure must have only one NET_BUFFER structure associated with it.
     The number of such structures to allocate is up to the driver writer. For more information about
     allocating such structures, see 
-    <mshelp:link keywords="netvista.miniport_driver_buffer_management" tabindex="0">Miniport Driver Buffer
-    Management</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-driver-buffer-management">Miniport Driver Buffer
+    Management</a>.
 
 Provided that it is not making a delayed acknowledgment, the offload target should acknowledge
     received data as soon as the offload target has internal buffers into which it can deposit the data. The
@@ -242,8 +242,8 @@ The offload target always supplies a
 <li>
 If the host stack returns NDIS_STATUS_SUCCESS, indicating that the client application accepted and
       consumed the receive data, the host stack will return the NET_BUFFER_LIST structures to the 
-      <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
-      MiniportTcpOffloadReceiveReturn</i></mshelp:link> function of the offload target. The host stack will set the
+      <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+      MiniportTcpOffloadReceiveReturn</a> function of the offload target. The host stack will set the
       variable specified by the 
       <i>BytesConsumed</i> parameter to the number of bytes that were indicated by the offload target.
 
@@ -256,8 +256,8 @@ If the host stack returns NDIS_STATUS_NOT_ACCEPTED, indicating that the client a
       anticipation that the client application will post receive buffers on the connection. After the client
       application posts receive buffers, the offload target copies the buffered receive data into the posted
       buffers and completes the posted buffers by calling the 
-      <mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-      NdisTcpOffloadReceiveComplete</b></mshelp:link> function. For more information, see 
+      <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+      NdisTcpOffloadReceiveComplete</a> function. For more information, see 
       <a href="https://msdn.microsoft.com/13e80cec-03f5-4498-94ab-ce974a8b9697">Delivery Algorithm</a>. The host stack will
       set the variable specified by the 
       <i>BytesConsumed</i> parameter to zero.
@@ -282,27 +282,27 @@ In the
     <b>RcvIndicationSize</b> member of the TCP_OFFLOAD_STATE_CACHED structure, the host stack can specify the
     optimum number of data bytes that the offload target should supply in a single call to the 
     <b>NdisTcpOffloadReceiveHandler</b> function. For more information, see 
-    <mshelp:link keywords="netvista.using_the_specified_receive_indication_size" tabindex="0">Using the Specified
-    Receive Indication Size</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff564606">Using the Specified
+    Receive Indication Size</a>.
 
 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
-   MiniportTcpOffloadReceiveReturn</i></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+   MiniportTcpOffloadReceiveReturn</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
  
 

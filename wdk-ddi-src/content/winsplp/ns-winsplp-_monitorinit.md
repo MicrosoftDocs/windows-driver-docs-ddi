@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/PMONITORINIT, MONITORINIT structure [Print Devices], *PMONITORINIT, PMONITORINIT structure pointer [Print Devices], MONITORINIT, print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, PMONITORINIT, winsplp/MONITORINIT, _MONITORINIT
+ms.keywords: PMONITORINIT, MONITORINIT, winsplp/PMONITORINIT, *PMONITORINIT, print.monitorinit, MONITORINIT structure [Print Devices], spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, _MONITORINIT, PMONITORINIT structure pointer [Print Devices], winsplp/MONITORINIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _MONITORINIT {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Size, in bytes, of the MONITORINIT structure.
 
 
-#### - hSpooler
+### -field hSpooler
 
 Spooler handle, for use as input to functions identified by the MONITORREG structure.
 
 
-#### - hckRegistryRoot
+### -field hckRegistryRoot
 
 Registry handle, for use as input to functions identified by the MONITORREG structure.
 
 
-#### - pMonitorReg
+### -field pMonitorReg
 
 Pointer to a <a href="..\winsplp\ns-winsplp-_monitorreg.md">MONITORREG</a> structure.
 
 
-#### - bLocal
+### -field bLocal
 
 <b>TRUE</b> if the monitor is being called by a local node spooler. <b>FALSE</b> if the monitor is being called by a cluster spooler. (Monitors can usually ignore this member.)
 
 
-#### - pszServerName
+### -field pszServerName
 
 Caller-supplied pointer to a string representing a server name.
 

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 78D46903-A13D-4BC2-803F-E1656A43E865
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_CONTROLLER_CONFIG_INIT function [Buses], SPB_CONTROLLER_CONFIG_INIT, SPB.spb_controller_config_init, spbcx/SPB_CONTROLLER_CONFIG_INIT
+ms.keywords: SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses], SPB.spb_controller_config_init, spbcx/SPB_CONTROLLER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID SPB_CONTROLLER_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 A pointer to the <b>SPB_CONTROLLER_CONFIG</b> structure that is to be initialized.
 

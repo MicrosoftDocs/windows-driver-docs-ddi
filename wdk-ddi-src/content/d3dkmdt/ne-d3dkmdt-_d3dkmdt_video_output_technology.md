@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a0876a0-5c27-47aa-9215-1b2bd8612306
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VOT_SDI, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, D3DKMDT_VOT_DVI, display.d3dkmdt_video_output_technology, d3dkmdt/D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, D3DKMDT_VOT_UDI_EXTERNAL, D3DKMDT_VOT_MIRACAST, D3DKMDT_VOT_SVIDEO_7PIN, d3dkmdt/D3DKMDT_VOT_RF, d3dkmdt/D3DKMDT_VOT_MIRACAST, D3DKMDT_VOT_UNINITIALIZED, d3dkmdt/D3DKMDT_VOT_UDI_EMBEDDED, d3dkmdt/D3DKMDT_VOT_D_JPN, d3dkmdt/D3DKMDT_VOT_COMPOSITE_VIDEO, D3DKMDT_VOT_INTERNAL, d3dkmdt/D3DKMDT_VOT_RCA_3COMPONENT, d3dkmdt/D3DKMDT_VOT_SVIDEO, D3DKMDT_VOT_SVIDEO_4PIN, d3dkmdt/D3DKMDT_VOT_OTHER, D3DKMDT_VOT_HDMI, d3dkmdt/D3DKMDT_VOT_COMPONENT_VIDEO, D3DKMDT_VOT_HD15, DmEnums_c4d89369-4b10-4033-9bb6-218904fc5c5a.xml, d3dkmdt/D3DKMDT_VOT_SVIDEO_4PIN, d3dkmdt/D3DKMDT_VOT_UDI_EXTERNAL, d3dkmdt/D3DKMDT_VOT_SDI, d3dkmdt/D3DKMDT_VOT_HD15, D3DKMDT_VOT_D_JPN, D3DKMDT_VOT_COMPONENT_VIDEO, d3dkmdt/D3DKMDT_VOT_BNC, d3dkmdt/D3DKMDT_VOT_HDMI, D3DKMDT_VOT_RCA_3COMPONENT, D3DKMDT_VOT_BNC, d3dkmdt/D3DKMDT_VOT_SDTVDONGLE, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, D3DKMDT_VOT_OTHER, D3DKMDT_VOT_SVIDEO, D3DKMDT_VOT_LVDS, D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, d3dkmdt/D3DKMDT_VOT_LVDS, d3dkmdt/D3DKMDT_VOT_SVIDEO_7PIN, D3DKMDT_VOT_UDI_EMBEDDED, D3DKMDT_VOT_SDTVDONGLE, D3DKMDT_VOT_COMPOSITE_VIDEO, d3dkmdt/D3DKMDT_VOT_INTERNAL, d3dkmdt/D3DKMDT_VOT_UNINITIALIZED, D3DKMDT_VOT_RF, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumeration [Display Devices], d3dkmdt/D3DKMDT_VOT_DVI
+ms.keywords: D3DKMDT_VOT_SVIDEO_7PIN, d3dkmdt/D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, DmEnums_c4d89369-4b10-4033-9bb6-218904fc5c5a.xml, D3DKMDT_VOT_D_JPN, d3dkmdt/D3DKMDT_VOT_INTERNAL, d3dkmdt/D3DKMDT_VOT_UDI_EMBEDDED, D3DKMDT_VOT_LVDS, D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, D3DKMDT_VOT_RF, d3dkmdt/D3DKMDT_VOT_HDMI, d3dkmdt/D3DKMDT_VOT_DVI, d3dkmdt/D3DKMDT_VOT_UDI_EXTERNAL, D3DKMDT_VOT_RCA_3COMPONENT, d3dkmdt/D3DKMDT_VOT_RF, d3dkmdt/D3DKMDT_VOT_SDI, d3dkmdt/D3DKMDT_VOT_BNC, D3DKMDT_VOT_SDTVDONGLE, display.d3dkmdt_video_output_technology, d3dkmdt/D3DKMDT_VOT_MIRACAST, D3DKMDT_VOT_COMPOSITE_VIDEO, D3DKMDT_VOT_UDI_EMBEDDED, _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_SVIDEO, d3dkmdt/D3DKMDT_VOT_SDTVDONGLE, d3dkmdt/D3DKMDT_VOT_LVDS, D3DKMDT_VOT_BNC, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, d3dkmdt/D3DKMDT_VOT_SVIDEO_4PIN, D3DKMDT_VOT_OTHER, D3DKMDT_VOT_SDI, D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, d3dkmdt/D3DKMDT_VOT_D_JPN, D3DKMDT_VOT_COMPONENT_VIDEO, D3DKMDT_VOT_MIRACAST, D3DKMDT_VOT_UDI_EXTERNAL, D3DKMDT_VOT_INTERNAL, d3dkmdt/D3DKMDT_VOT_SVIDEO_7PIN, D3DKMDT_VOT_UNINITIALIZED, D3DKMDT_VOT_HD15, D3DKMDT_VOT_SVIDEO_4PIN, d3dkmdt/D3DKMDT_VOT_COMPONENT_VIDEO, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumeration [Display Devices], d3dkmdt/D3DKMDT_VOT_RCA_3COMPONENT, D3DKMDT_VOT_SVIDEO, d3dkmdt/D3DKMDT_VOT_HD15, D3DKMDT_VOT_DVI, D3DKMDT_VOT_HDMI, d3dkmdt/D3DKMDT_VOT_OTHER, d3dkmdt/D3DKMDT_VOT_UNINITIALIZED, d3dkmdt/D3DKMDT_VOT_COMPOSITE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,87 +91,87 @@ typedef enum _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY {
 
 
 
-#### - D3DKMDT_VOT_UNINITIALIZED
+### -field D3DKMDT_VOT_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY has not yet been assigned a meaningful value.
 
 
-#### - D3DKMDT_VOT_OTHER
+### -field D3DKMDT_VOT_OTHER
 
 Indicates that the video output device connects to an external display device through a connector that is not one of the types that is indicated by the following values in this enumeration.
 
 
-#### - D3DKMDT_VOT_HD15
+### -field D3DKMDT_VOT_HD15
 
 Indicates that the video output device connects to an external display device through an HD15 (VGA) connector.
 
 
-#### - D3DKMDT_VOT_SVIDEO
+### -field D3DKMDT_VOT_SVIDEO
 
 Indicates that the video output device connects to an external display device through an S-video connector.
 
 
-#### - D3DKMDT_VOT_COMPOSITE_VIDEO
+### -field D3DKMDT_VOT_COMPOSITE_VIDEO
 
 Indicates that the video output device connects to an external display device through composite video connectors.
 
 
-#### - D3DKMDT_VOT_COMPONENT_VIDEO
+### -field D3DKMDT_VOT_COMPONENT_VIDEO
 
 Indicates that the video output device connects to an external display device through component video connectors.
 
 
-#### - D3DKMDT_VOT_DVI
+### -field D3DKMDT_VOT_DVI
 
 Indicates that the video output device connects to an external display device through a Digital Video Interface (DVI) connector.
 
 
-#### - D3DKMDT_VOT_HDMI
+### -field D3DKMDT_VOT_HDMI
 
 Indicates that the video output device connects to an external display device through an High-Definition Multimedia Interface (HDMI) connector.
 
 
-#### - D3DKMDT_VOT_LVDS
+### -field D3DKMDT_VOT_LVDS
 
 Indicates that the video output device connects to an external display device through an Low Voltage Differential Swing (LVDS) or Mobile Industry Processor Interface (MIPI) Digital Serial Interface (DSI) connector.
 
 
-#### - D3DKMDT_VOT_D_JPN
+### -field D3DKMDT_VOT_D_JPN
 
 Indicates that the video output device connects to an external display device through a D-Jpn connector. 
 
 
-#### - D3DKMDT_VOT_SDI
+### -field D3DKMDT_VOT_SDI
 
 Indicates that the video output device connects to an external display device through an SDI connector. 
 
 
-#### - D3DKMDT_VOT_DISPLAYPORT_EXTERNAL
+### -field D3DKMDT_VOT_DISPLAYPORT_EXTERNAL
 
 Indicates that the connector type is an external display port. 
 
 
-#### - D3DKMDT_VOT_DISPLAYPORT_EMBEDDED
+### -field D3DKMDT_VOT_DISPLAYPORT_EMBEDDED
 
 Indicates that the connector type is an embedded display port. 
 
 
-#### - D3DKMDT_VOT_UDI_EXTERNAL
+### -field D3DKMDT_VOT_UDI_EXTERNAL
 
 Indicates that the connector type is an external Unified Display Interface (UDI). 
 
 
-#### - D3DKMDT_VOT_UDI_EMBEDDED
+### -field D3DKMDT_VOT_UDI_EMBEDDED
 
 Indicates that the connector type is an embedded UDI. 
 
 
-#### - D3DKMDT_VOT_SDTVDONGLE
+### -field D3DKMDT_VOT_SDTVDONGLE
 
 Indicates that the video output device connects to an external display device through a dongle cable that supports SDTV. 
 
 
-#### - D3DKMDT_VOT_MIRACAST
+### -field D3DKMDT_VOT_MIRACAST
 
 Indicates that the video output device connects to an external display device wirelessly through a Miracast connected session. For more info, see <a href="https://msdn.microsoft.com/1645E14A-EC4A-4EB8-9AFA-6DF0466D2B1A">Wireless displays (Miracast)</a>.
 
@@ -182,34 +182,34 @@ Supported starting with Windows 8.1.
 
 
 
-#### - D3DKMDT_VOT_INTERNAL
+### -field D3DKMDT_VOT_INTERNAL
 
 Indicates that the video output device connects internally to a display device (for example, the internal connection in a laptop computer).
 
 This constant value is not a bit-field value. Instead, it's a standalone video output type.
 
 
-#### - D3DKMDT_VOT_SVIDEO_4PIN
+### -field D3DKMDT_VOT_SVIDEO_4PIN
 
 Indicates that the video output device connects to an external display device through a 4-pin S-video connector.
 
 
-#### - D3DKMDT_VOT_SVIDEO_7PIN
+### -field D3DKMDT_VOT_SVIDEO_7PIN
 
 Indicates that the video output device connects to an external display device through a 7-pin S-video connector.
 
 
-#### - D3DKMDT_VOT_RF
+### -field D3DKMDT_VOT_RF
 
 Indicates that the video output device connects to an external display device through an RF connector.
 
 
-#### - D3DKMDT_VOT_RCA_3COMPONENT
+### -field D3DKMDT_VOT_RCA_3COMPONENT
 
 Indicates that the video output device connects to an external display device through a set of three RCA connectors.
 
 
-#### - D3DKMDT_VOT_BNC
+### -field D3DKMDT_VOT_BNC
 
 Indicates that the video output device connects to an external display device through a BNC connector.
 
@@ -223,9 +223,9 @@ The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
 
  
 

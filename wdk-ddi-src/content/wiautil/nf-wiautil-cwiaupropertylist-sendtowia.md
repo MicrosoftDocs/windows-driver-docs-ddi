@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2f7d6975-4c90-4351-bf68-89786bafcc8e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList, image.cwiaupropertylist_sendtowia, CWiauPropertyList::SendToWia, SendToWia method [Imaging Devices], wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia, SendToWia, CWiauPropertyList interface [Imaging Devices], SendToWia method, SendToWia method [Imaging Devices], CWiauPropertyList interface
+ms.keywords: SendToWia method [Imaging Devices], SendToWia method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_sendtowia, CWiauPropertyList::SendToWia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia, SendToWia, CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SendToWia method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT SendToWia(
 
 
 
-#### - pWiasContext
+### -param pWiasContext
 
 Pointer to a WIA item context that previously was passed in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a> method.
 
@@ -89,9 +89,9 @@ The <b>CWiauPropertyList::SendToWia</b> method should be called only after all p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
 
  
 

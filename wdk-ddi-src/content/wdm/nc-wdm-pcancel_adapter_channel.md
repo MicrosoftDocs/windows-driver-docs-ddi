@@ -73,17 +73,17 @@ BOOLEAN CancelAdapterChannel(
 
 
 
-#### - DmaAdapter [in]
+### -param DmaAdapter [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that is waiting for the pending resource allocation request to be granted. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine, and the caller passed this pointer to the <a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>, <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>, or <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a> call that requested the resource allocation.
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. This structure is the physical device object (PDO) that represents the target device for the DMA operation for which the DMA channel was requested.
 
 
-#### - DmaTransferContext [in]
+### -param DmaTransferContext [in]
 
 A pointer to a DMA transfer context. This parameter value must be the same DMA transfer context that was passed to the <b>AllocateAdapterChannelEx</b>, <b>GetScatterGatherListEx</b>, or <b>BuildScatterGatherListEx</b> call that requested the adapter channel allocation.
 
@@ -128,15 +128,9 @@ If a driver calls <b>AllocateAdapterChannelEx</b> to request resources for a dri
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
-
-<a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
 <a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
 
@@ -144,7 +138,13 @@ If a driver calls <b>AllocateAdapterChannelEx</b> to request resources for a dri
 
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
 
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
+<a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
  
 

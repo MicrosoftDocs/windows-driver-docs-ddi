@@ -72,7 +72,7 @@ __checkReturn HRESULT APIENTRY SetLight(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -110,11 +110,11 @@ Light properties describe the type and color of a light source. Depending on the
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setlight.md">D3DDDIARG_SETLIGHT</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
  
 

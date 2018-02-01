@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: C9CF39F2-5081-4B99-BFD1-9F7130B27369
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_EVCOMPENSATION, PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, KSCAMERA_EXTENDEDPROP_EVCOMPENSATION structure [Streaming Media Devices], stream.kscamera_extendedprop_evcompensation, ksmedia/PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION structure pointer [Streaming Media Devices], tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, *PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, ksmedia/KSCAMERA_EXTENDEDPROP_EVCOMPENSATION
+ms.keywords: KSCAMERA_EXTENDEDPROP_EVCOMPENSATION structure [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_EVCOMPENSATION, PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, *PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION structure pointer [Streaming Media Devices], tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, ksmedia/PKSCAMERA_EXTENDEDPROP_EVCOMPENSATION, stream.kscamera_extendedprop_evcompensation, KSCAMERA_EXTENDEDPROP_EVCOMPENSATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _KSCAMERA_EXTENDEDPROP_EVCOMPENSATION {
 
 
 
-#### - Mode
+### -field Mode
 
 Not used. Set to 0.
 
 
-#### - Min
+### -field Min
 
 The minimum EV compensation supported. This is an absolute EV value.
 
 
-#### - Max
+### -field Max
 
 The maximum EV compensation supported. This is an absolute EV value.
 
 
-#### - Value
+### -field Value
 
 EV Compensation in units of steps  selected in the <b>Flags</b> member of <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_header.md">KSCAMERA_EXTENDEDPROP_HEADER</a>.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
@@ -105,9 +105,9 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_header.md">KSCAMERA_EXTENDEDPROP_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567572">KSPROPERTY_CAMERACONTROL_EXTENDED_EVCOMPENSATION</a>
+
+<a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_header.md">KSCAMERA_EXTENDEDPROP_HEADER</a>
 
  
 

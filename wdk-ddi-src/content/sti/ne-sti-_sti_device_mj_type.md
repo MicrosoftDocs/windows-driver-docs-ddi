@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f5ab3aa3-c24e-4716-b94a-525c6b6776dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: StiDeviceTypeScanner, STI_DEVICE_TYPE, sti/StiDeviceTypeDefault, STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], StiDeviceTypeDefault, sti/StiDeviceTypeScanner, sti/StiDeviceTypeDigitalCamera, StiDeviceTypeStreamingVideo, StiDeviceTypeDigitalCamera, sti/STI_DEVICE_TYPE, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml, STI_DEVICE_TYPE enumeration [Imaging Devices], _STI_DEVICE_MJ_TYPE, sti/StiDeviceTypeStreamingVideo, image.sti_device_type
+ms.keywords: STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], sti/StiDeviceTypeStreamingVideo, STI_DEVICE_MJ_TYPE, sti/STI_DEVICE_TYPE, _STI_DEVICE_MJ_TYPE, StiDeviceTypeDigitalCamera, STI_DEVICE_TYPE, image.sti_device_type, StiDeviceTypeDefault, sti/StiDeviceTypeDigitalCamera, STI_DEVICE_TYPE enumeration [Imaging Devices], sti/StiDeviceTypeScanner, sti/StiDeviceTypeDefault, StiDeviceTypeStreamingVideo, StiDeviceTypeScanner, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _STI_DEVICE_MJ_TYPE {
 
 
 
-#### - StiDeviceTypeDefault
+### -field StiDeviceTypeDefault
 
 Default type.
 
 
-#### - StiDeviceTypeScanner
+### -field StiDeviceTypeScanner
 
 Scanner.
 
 
-#### - StiDeviceTypeDigitalCamera
+### -field StiDeviceTypeDigitalCamera
 
 Digital camera.
 
 
-#### - StiDeviceTypeStreamingVideo
+### -field StiDeviceTypeStreamingVideo
 
 Streaming video.
 

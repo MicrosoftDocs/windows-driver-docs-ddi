@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9464a17a-fa09-46c5-a4a7-d5cbd58deebd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_64634d5e-72a6-4300-9fa9-e1d6859f0813.xml, ksmedia/KS_AMVP_MODE_WEAVE, ksmedia/KS_AMVP_MODE_SKIPEVEN, KS_AMVP_MODE enumeration [Streaming Media Devices], ksmedia/KS_AMVP_MODE_BOBINTERLEAVED, ksmedia/KS_AMVP_MODE, KS_AMVP_MODE_WEAVE, KS_AMVP_MODE_BOBNONINTERLEAVED, ksmedia/KS_AMVP_MODE_BOBNONINTERLEAVED, KS_AMVP_MODE_SKIPODD, ksmedia/KS_AMVP_MODE_SKIPODD, KS_AMVP_MODE_BOBINTERLEAVED, KS_AMVP_MODE, KS_AMVP_MODE_SKIPEVEN, stream.ks_amvp_mode
+ms.keywords: ksmedia/KS_AMVP_MODE_SKIPODD, KS_AMVP_MODE enumeration [Streaming Media Devices], ksmedia/KS_AMVP_MODE_BOBINTERLEAVED, KS_AMVP_MODE_WEAVE, KS_AMVP_MODE_BOBNONINTERLEAVED, ksmedia/KS_AMVP_MODE_BOBNONINTERLEAVED, KS_AMVP_MODE, KS_AMVP_MODE_BOBINTERLEAVED, stream.ks_amvp_mode, ksmedia/KS_AMVP_MODE_SKIPEVEN, vidcapstruct_64634d5e-72a6-4300-9fa9-e1d6859f0813.xml, ksmedia/KS_AMVP_MODE, KS_AMVP_MODE_SKIPEVEN, KS_AMVP_MODE_SKIPODD, ksmedia/KS_AMVP_MODE_WEAVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum  {
 
 
 
-#### - KS_AMVP_MODE_WEAVE
+### -field KS_AMVP_MODE_WEAVE
 
 Specifies the weave method to display interlaced video. In the weave mode, alternating fields are combined to form a single frame.
 
 
-#### - KS_AMVP_MODE_BOBINTERLEAVED
+### -field KS_AMVP_MODE_BOBINTERLEAVED
 
 Specifies the interleaved bob method to display video. In the interleaved bob mode, each field is displayed individually, and the gaps between fields are filled with interpolated values.
 
 
-#### - KS_AMVP_MODE_BOBNONINTERLEAVED
+### -field KS_AMVP_MODE_BOBNONINTERLEAVED
 
 Specifies the non-interleaved bob method to display video.
 
 
-#### - KS_AMVP_MODE_SKIPEVEN
+### -field KS_AMVP_MODE_SKIPEVEN
 
 Specifies that even video fields should be skipped when displaying video.
 
 
-#### - KS_AMVP_MODE_SKIPODD
+### -field KS_AMVP_MODE_SKIPODD
 
 Specifies that odd video fields should be skipped when displaying video.
 

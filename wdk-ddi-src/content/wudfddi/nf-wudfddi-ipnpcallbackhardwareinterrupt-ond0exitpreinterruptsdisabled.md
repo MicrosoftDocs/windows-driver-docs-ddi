@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C67EA467-D344-44D0-93E8-29D29A3A586B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, wdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt interface, OnD0ExitPreInterruptsDisabled method, wudfddi/IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, OnD0ExitPreInterruptsDisabled
+ms.keywords: wudfddi/IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, wdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, OnD0ExitPreInterruptsDisabled, IPnpCallbackHardwareInterrupt interface, OnD0ExitPreInterruptsDisabled method, OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, umdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,7 @@ HRESULT OnD0ExitPreInterruptsDisabled(
 
 
 
-#### - TargetState [in]
+### -param TargetState [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the target device power state that the device is about to enter.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a7030210-2907-45c7-a689-5e41db7c81b0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.access_denied_ace, ntifs/ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Installable File System Drivers], *PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], ACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml, _ACCESS_DENIED_ACE, ntifs/PACCESS_DENIED_ACE, PACCESS_DENIED_ACE
+ms.keywords: "*PACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml, ifsk.access_denied_ace, _ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Installable File System Drivers], ntifs/ACCESS_DENIED_ACE, ntifs/PACCESS_DENIED_ACE, PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], ACCESS_DENIED_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _ACCESS_DENIED_ACE {
 
 
 
-#### - Header
+### -field Header
 
 Specifies an ACE_HEADER structure. 
 
 
-#### - Mask
+### -field Mask
 
 ACCESS_MASK structure specifying the access rights explicitly denied by this ACE. 
 
 
-#### - SidStart
+### -field SidStart
 
 Specifies a SID. The access rights specified by the <b>Mask</b> member are denied to any subject possessing an enabled SID matching this member. 
 
@@ -93,21 +93,21 @@ This structure must be aligned on a 32-bit boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
 <a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
 
 <a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

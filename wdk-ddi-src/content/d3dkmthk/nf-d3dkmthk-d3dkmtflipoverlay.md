@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09424b92-bf55-4348-8b6a-f632a0dc9b2f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, D3DKMTFlipOverlay, d3dkmthk/D3DKMTFlipOverlay, D3DKMTFlipOverlay function [Display Devices], display.d3dkmtflipoverlay
+ms.keywords: D3DKMTFlipOverlay, display.d3dkmtflipoverlay, D3DKMTFlipOverlay function [Display Devices], OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, d3dkmthk/D3DKMTFlipOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

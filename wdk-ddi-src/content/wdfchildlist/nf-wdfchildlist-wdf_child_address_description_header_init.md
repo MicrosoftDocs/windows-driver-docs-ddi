@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: acc56cb0-5f89-413f-9fdc-a051cc4947c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_child_address_description_header_init, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, DFDeviceObjectChildListRef_167489bc-617b-440a-a0b2-d5c346b4cf50.xml, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, kmdf.wdf_child_address_description_header_init
+ms.keywords: WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function, DFDeviceObjectChildListRef_167489bc-617b-440a-a0b2-d5c346b4cf50.xml, kmdf.wdf_child_address_description_header_init, wdf.wdf_child_address_description_header_init, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT(
 
 
 
-#### - Header [out]
+### -param Header [out]
 
 A pointer to a driver-allocated WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure.
 
 
-#### - AddressDescriptionSize [in]
+### -param AddressDescriptionSize [in]
 
 The size, in bytes, of a driver-defined structure that contains device address information. For more information about specifying the size value, see <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>.
 

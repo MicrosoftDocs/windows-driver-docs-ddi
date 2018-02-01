@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2953b0d-6745-4804-bcda-47c7ddfb901f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IDriverEntry::OnDeviceAdd, wudfddi/IDriverEntry::OnDeviceAdd, wdf.idriverentry_ondeviceadd, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, IDriverEntry, IDriverEntry interface, OnDeviceAdd method, OnDeviceAdd method, IDriverEntry interface, OnDeviceAdd method, OnDeviceAdd, umdf.idriverentry_ondeviceadd
+ms.keywords: OnDeviceAdd, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, OnDeviceAdd method, umdf.idriverentry_ondeviceadd, IDriverEntry::OnDeviceAdd, IDriverEntry interface, OnDeviceAdd method, wdf.idriverentry_ondeviceadd, IDriverEntry, OnDeviceAdd method, IDriverEntry interface, wudfddi/IDriverEntry::OnDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT OnDeviceAdd(
 
 
 
-#### - pWdfDriver [in]
+### -param pWdfDriver [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the parent driver object that the new device belongs to.
 
 
-#### - pWdfDeviceInit [in]
+### -param pWdfDeviceInit [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a> interface that the driver uses to initialize the newly created device.
 
@@ -103,17 +103,17 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
-
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
+<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
  
 

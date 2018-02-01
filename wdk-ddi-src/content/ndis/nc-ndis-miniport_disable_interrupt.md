@@ -73,12 +73,12 @@ VOID MiniportDisableInterruptEx(
 
 
 
-#### - MiniportInterruptContext [in]
+### -param MiniportInterruptContext [in]
 
 A handle to a block of context information. The miniport driver supplied this handle in the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
-     <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
-     NdisMRegisterInterruptEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+     NdisMRegisterInterruptEx</a> function.
 
 
 ## -returns
@@ -147,14 +147,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 <a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
  
 

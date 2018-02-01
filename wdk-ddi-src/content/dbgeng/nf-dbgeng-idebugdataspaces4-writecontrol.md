@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b512c66-7cd8-4605-87d5-13b78d790c8c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, IDebugDataSpaces4, IDebugDataSpaces4::WriteControl, IDebugDataSpaces3::WriteControl, debugger.writecontrol, dbgeng/IDebugDataSpaces3::WriteControl, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, IDebugDataSpaces2::WriteControl, WriteControl, dbgeng/IDebugDataSpaces2::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, WriteControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces::WriteControl, dbgeng/IDebugDataSpaces::WriteControl, IDebugDataSpaces interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], dbgeng/IDebugDataSpaces4::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method
+ms.keywords: dbgeng/IDebugDataSpaces3::WriteControl, dbgeng/IDebugDataSpaces4::WriteControl, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, IDebugDataSpaces3::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], WriteControl method, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2::WriteControl, IDebugDataSpaces4, WriteControl method [Windows Debugging], WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces::WriteControl, debugger.writecontrol, dbgeng/IDebugDataSpaces::WriteControl, IDebugDataSpaces4::WriteControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,27 +74,27 @@ HRESULT WriteControl(
 
 
 
-#### - Processor [in]
+### -param Processor [in]
 
 Specifies the processor whose information is to be written.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the offset of the control space of the memory to write.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Specifies the data to write to the control-space memory.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
 
-#### - BytesWritten [out, optional]
+### -param BytesWritten [out, optional]
 
 Receives the number of bytes returned in the buffer <i>Buffer</i>.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 

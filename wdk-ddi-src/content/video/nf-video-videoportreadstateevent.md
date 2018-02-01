@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadStateEvent, display.videoportreadstateevent, video/VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml
+ms.keywords: VideoPortReadStateEvent function [Display Devices], display.videoportreadstateevent, video/VideoPortReadStateEvent, VideoPortReadStateEvent, VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ LONG VideoPortReadStateEvent(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - pEvent [in]
+### -param pEvent [in]
 
 Pointer to the event object whose state is to be read.
 

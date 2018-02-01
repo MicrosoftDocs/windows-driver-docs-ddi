@@ -70,17 +70,17 @@ typedef BOOLEAN (*PHW_ADAPTER_STATE)(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Reserved for system use.
 
 
-#### - SaveState [in]
+### -param SaveState [in]
 
 Indicates, when <b>TRUE</b>, that the miniport driver should save the current state of the HBA until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557278">HwScsiAdapterState</a> routine is called again with <i>SaveState</i> set to <b>FALSE</b> to restore the saved state.
 

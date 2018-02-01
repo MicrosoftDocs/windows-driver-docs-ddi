@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d246109-839d-46fd-9898-9e059b803790
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_ENTRY structure [Streaming Media Devices], *PKSEVENT_ENTRY, stream.ksevent_entry, KSEVENT_ENTRY, ks/KSEVENT_ENTRY, _KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml
+ms.keywords: ks/KSEVENT_ENTRY, KSEVENT_ENTRY, _KSEVENT_ENTRY, *PKSEVENT_ENTRY, stream.ksevent_entry, KSEVENT_ENTRY structure [Streaming Media Devices], ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,7 @@ typedef struct _KSEVENT_ENTRY {
 
 
 
-#### - ListEntry
-
-
-
-#### - Object
+#### - BufferItem
 
 
 
@@ -93,19 +89,7 @@ typedef struct _KSEVENT_ENTRY {
 
 
 
-#### - BufferItem
-
-
-
 #### - EventData
-
-
-
-#### - NotificationType
-
-
-
-#### - EventSet
 
 
 
@@ -113,11 +97,27 @@ typedef struct _KSEVENT_ENTRY {
 
 
 
+#### - EventSet
+
+
+
 #### - FileObject
 
 
 
-#### - SemaphoreAdjustment
+#### - Flags
+
+
+
+#### - ListEntry
+
+
+
+#### - NotificationType
+
+
+
+#### - Object
 
 
 
@@ -125,7 +125,7 @@ typedef struct _KSEVENT_ENTRY {
 
 
 
-#### - Flags
+#### - SemaphoreAdjustment
 
 
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D2F7C90E-BAF4-419D-94CF-5FC39E7B6A58
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PGNSS_NI_RESPONSE, gnssdriver/GNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], GNSS_NI_RESPONSE structure [Sensor Devices], sensors.gnss_ni_response, PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE"
+ms.keywords: gnssdriver/PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE, sensors.gnss_ni_response, gnssdriver/GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], GNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - RequestId
+### -field RequestId
 
 The ID to uniquely identify the NI request.
 
 
-#### - UserResponse
+### -field UserResponse
 
 The user response to the NI request.
 

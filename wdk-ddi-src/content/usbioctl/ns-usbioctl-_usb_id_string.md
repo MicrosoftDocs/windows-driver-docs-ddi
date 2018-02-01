@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e7af07ed-f1a7-4f66-8824-2e12492d037a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], *PUSB_ID_STRING, USB_ID_STRING structure [Buses], USB_ID_STRING, usbioctl/USB_ID_STRING, PUSB_ID_STRING, buses.usb_id_string, usbioctl/PUSB_ID_STRING"
+ms.keywords: usbioctl/PUSB_ID_STRING, USB_ID_STRING structure [Buses], USB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], *PUSB_ID_STRING, _USB_ID_STRING, usbioctl/USB_ID_STRING, buses.usb_id_string, PUSB_ID_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _USB_ID_STRING {
 
 
 
-#### - LanguageId
+### -field LanguageId
 
 Indicates that language ID of the string.
 
@@ -80,12 +80,12 @@ Indicates that language ID of the string.
  
 
 
-#### - LengthInBytes
+### -field LengthInBytes
 
 Indicates the length (in bytes) of the string pointed to by <b>Buffer</b>, including the terminating <b>NULL</b>. 
 
 
-#### - Buffer
+### -field Buffer
 
 Pointer to a string or multi-string.
 

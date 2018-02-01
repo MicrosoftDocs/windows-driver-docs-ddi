@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, WIDTHRUN, prntfont/WIDTHRUN, *PWIDTHRUN, PWIDTHRUN, WIDTHRUN structure [Print Devices], print.widthrun, prntfont/PWIDTHRUN, _WIDTHRUN, PWIDTHRUN structure pointer [Print Devices]
+ms.keywords: prntfont/PWIDTHRUN, prntfont/WIDTHRUN, *PWIDTHRUN, PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, _WIDTHRUN, print.widthrun, WIDTHRUN, WIDTHRUN structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WIDTHRUN {
 
 
 
-#### - wStartGlyph
+### -field wStartGlyph
 
 Is an index value indicating the first glyph of the width run.
 
 
-#### - wGlyphCount
+### -field wGlyphCount
 
 Specifies the number of glyphs represented by the width run.
 
 
-#### - loCharWidthOffset
+### -field loCharWidthOffset
 
 Specifies the offset from the beginning of a <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure to the location containing the width of the set of glyphs contained in the width run.
 
@@ -113,9 +113,9 @@ For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b>
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+
+<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
 
  
 

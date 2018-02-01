@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B847EE03-65C0-4046-BD0A-0441C487056F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], SetOutputLinePrefixWide method, SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, dbgeng/IDebugClient5::SetOutputLinePrefixWide, debugger.idebugclient5_setoutputlineprefixwide, IDebugClient5::SetOutputLinePrefixWide
+ms.keywords: SetOutputLinePrefixWide, debugger.idebugclient5_setoutputlineprefixwide, dbgeng/IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], SetOutputLinePrefixWide method, IDebugClient5, IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetOutputLinePrefixWide(
 
 
 
-#### - Prefix [in, optional]
+### -param Prefix [in, optional]
 
 The pointer to a Unicode character prefix string.
 

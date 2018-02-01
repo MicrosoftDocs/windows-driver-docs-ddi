@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ecfce692-7dac-4f55-8a8a-1f51c27cce41
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceSetBusInformationForChildren, DFDeviceObjectGeneralRef_76b69a67-0e1e-41d6-be98-3d5f76433d97.xml, PFN_WDFDEVICESETBUSINFORMATIONFORCHILDREN, WdfDeviceSetBusInformationForChildren method, kmdf.wdfdevicesetbusinformationforchildren, wdf.wdfdevicesetbusinformationforchildren, wdfdevice/WdfDeviceSetBusInformationForChildren
+ms.keywords: wdf.wdfdevicesetbusinformationforchildren, kmdf.wdfdevicesetbusinformationforchildren, wdfdevice/WdfDeviceSetBusInformationForChildren, WdfDeviceSetBusInformationForChildren, PFN_WDFDEVICESETBUSINFORMATIONFORCHILDREN, WdfDeviceSetBusInformationForChildren method, DFDeviceObjectGeneralRef_76b69a67-0e1e-41d6-be98-3d5f76433d97.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfDeviceSetBusInformationForChildren(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - BusInformation [in]
+### -param BusInformation [in]
 
 A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_pnp_bus_information.md">PNP_BUS_INFORMATION</a> structure that describes the bus.
 

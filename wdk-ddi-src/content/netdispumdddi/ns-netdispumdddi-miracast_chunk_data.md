@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ff4af0b-df1c-4529-9f80-c9e44d889a63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.miracast_chunk_data, netdispumdddi/MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], MIRACAST_CHUNK_DATA
+ms.keywords: netdispumdddi/MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], MIRACAST_CHUNK_DATA, display.miracast_chunk_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,26 +69,26 @@ typedef struct {
 
 
 
-#### - ChunkInfo
+### -field ChunkInfo
 
 A <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a> encode chunk information structure that the user-mode display driver wants to report.
 
 
-#### - PrivateDriverDataSize
+### -field PrivateDriverDataSize
 
 The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 
 
-#### - PrivateDriverData
+### -field PrivateDriverData
 
 Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when it calls the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a> function.
 
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
-
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
 
  
 

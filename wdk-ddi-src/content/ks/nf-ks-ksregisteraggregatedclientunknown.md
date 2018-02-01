@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b0e18e39-2435-4823-aab4-ba52d218294a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, stream.ksregisteraggregatedclientunknown, KsRegisterAggregatedClientUnknown, ks/KsRegisterAggregatedClientUnknown
+ms.keywords: stream.ksregisteraggregatedclientunknown, KsRegisterAggregatedClientUnknown function [Streaming Media Devices], KsRegisterAggregatedClientUnknown, ks/KsRegisterAggregatedClientUnknown, avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PUNKNOWN KsRegisterAggregatedClientUnknown(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 A pointer to the AVStream object to become the outer unknown interface.
 
 
-#### - ClientUnknown [in]
+### -param ClientUnknown [in]
 
 A pointer to an <b>IUnknown</b> interface.
 

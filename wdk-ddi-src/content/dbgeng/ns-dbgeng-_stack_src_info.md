@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F19D5A5C-D9CF-40CC-B344-8F2D862FBF04
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: STACK_SRC_INFO structure [Windows Debugging], PSTACK_SRC_INFO, STACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], _STACK_SRC_INFO, dbgeng/STACK_SRC_INFO, debugger.stack_src_info, *PSTACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO
+ms.keywords: PSTACK_SRC_INFO, debugger.stack_src_info, dbgeng/STACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO, _STACK_SRC_INFO, STACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], *PSTACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _STACK_SRC_INFO {
 
 
 
-#### - ImagePath
+### -field ImagePath
 
 An image path.
 
 
-#### - ModuleName
+### -field ModuleName
 
 A module name.
 
 
-#### - Function
+### -field Function
 
 A function.
 
 
-#### - Displacement
+### -field Displacement
 
 A displacement value. 
 
 
-#### - Row
+### -field Row
 
 A row number.
 
 
-#### - Column
+### -field Column
 
 A column number.
 

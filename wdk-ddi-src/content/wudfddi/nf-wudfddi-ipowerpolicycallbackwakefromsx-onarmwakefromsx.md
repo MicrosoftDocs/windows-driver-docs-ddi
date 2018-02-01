@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 98350b75-aa25-4b3f-ad6c-3038111b8a48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_36d2ec5a-4244-499b-9ff3-117704e0ac78.xml, OnArmWakeFromSx method, IPowerPolicyCallbackWakeFromSx interface, wudfddi/IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx, umdf.ipowerpolicycallbackwakefromsx_onarmwakefromsx, IPowerPolicyCallbackWakeFromSx interface, OnArmWakeFromSx method, IPowerPolicyCallbackWakeFromSx, OnArmWakeFromSx method, wdf.ipowerpolicycallbackwakefromsx_onarmwakefromsx, IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx, OnArmWakeFromSx
+ms.keywords: IPowerPolicyCallbackWakeFromSx interface, OnArmWakeFromSx method, IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx, OnArmWakeFromSx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx, UMDFDeviceObjectRef_36d2ec5a-4244-499b-9ff3-117704e0ac78.xml, OnArmWakeFromSx method, wdf.ipowerpolicycallbackwakefromsx_onarmwakefromsx, umdf.ipowerpolicycallbackwakefromsx_onarmwakefromsx, OnArmWakeFromSx method, IPowerPolicyCallbackWakeFromSx interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT OnArmWakeFromSx(
 
 
 
-#### - pWdfDevice [in]
+### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
@@ -119,11 +119,11 @@ For more information about this callback function, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556833">IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered</a>
-
 <a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefromsx.md">IPowerPolicyCallbackWakeFromSx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556828">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556833">IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered</a>
 
  
 

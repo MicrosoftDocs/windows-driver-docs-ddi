@@ -74,12 +74,12 @@ NTSTATUS EvtInterruptDisable(
 
 
 
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
-#### - AssociatedDevice [in]
+### -param AssociatedDevice [in]
 
 A handle to the framework device object that the driver passed to <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>.
 
@@ -114,11 +114,11 @@ For more information about handling interrupts in framework-based drivers, see <
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit_pre_interrupts_disabled.md">EvtDeviceD0ExitPreInterruptsDisabled</a>
 
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptdisable.md">WdfInterruptDisable</a>
+
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptdisable.md">WdfInterruptDisable</a>
 
  
 

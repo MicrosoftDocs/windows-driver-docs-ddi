@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1420D957-546E-4795-A545-B098C411CCA5
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers._secure_element_routing_type, SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeTech, nfcsedev/RoutingTypeAid, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeProtocol, RoutingTypeTech, _SECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid, *PSECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], RoutingTypeProtocol
+ms.keywords: nfcsedev/RoutingTypeTech, RoutingTypeProtocol, nfcsedev/RoutingTypeAid, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], SECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type, *PSECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeProtocol, RoutingTypeTech, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,19 +70,19 @@ typedef enum _SECURE_ELEMENT_ROUTING_TYPE {
 
 
 
-#### - RoutingTypeTech
+### -field RoutingTypeTech
 
 NFC Forum technology-based routing type.
 
 
 
-#### - RoutingTypeProtocol
+### -field RoutingTypeProtocol
 
 NFC Forum protocol-based routing type.
 
 
 
-#### - RoutingTypeAid
+### -field RoutingTypeAid
 
 NFC Forum AID-based routing type.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 93E3D03B-6FA1-49D5-AF38-6C2FEA3FC95D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2 interface, audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2, IMiniportStreamAudioEngineNode2 interface [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method, SetStreamCurrentWritePositionForLastBuffer
+ms.keywords: audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, IMiniportStreamAudioEngineNode2 interface [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer, IMiniportStreamAudioEngineNode2, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,13 +67,7 @@ NTSTATUS SetStreamCurrentWritePositionForLastBuffer(
 
 
 
-### -param _ulWritePosition
-
-
-
-
-
-#### - ulWritePosition [in]
+### -param _ulWritePosition [in]
 
 The current cursor position in the last audio data stream.
 

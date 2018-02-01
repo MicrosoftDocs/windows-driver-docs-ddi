@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 324eddca-f619-44e2-b32f-34cefd4c9cdc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/PBDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR, bdatypes/BDANODE_DESCRIPTOR, BDANODE_DESCRIPTOR structure [Streaming Media Devices], BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR, stream.bdanode_descriptor, _BDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR structure pointer [Streaming Media Devices], bdaref_0610ecfc-d15b-4031-9d88-b041ef21e2fb.xml
+ms.keywords: BDANODE_DESCRIPTOR, bdatypes/PBDANODE_DESCRIPTOR, bdaref_0610ecfc-d15b-4031-9d88-b041ef21e2fb.xml, stream.bdanode_descriptor, BDANODE_DESCRIPTOR structure [Streaming Media Devices], _BDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR structure pointer [Streaming Media Devices], bdatypes/BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _BDANODE_DESCRIPTOR {
 
 
 
-#### - ulBdaNodeType
+### -field ulBdaNodeType
 
 The node type as the BDA template topology identifies it. The BDA node-type identifier typically corresponds to the index of the element in the zero-based array of node types. This array of node types is an array of KSNODE_DESCRIPTOR structures. 
 
 
-#### - guidFunction
+### -field guidFunction
 
 GUID that describes the node's function. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff556529">BDA Node Category GUIDs</a> for a list of these GUIDs.
 
 
-#### - guidName
+### -field guidName
 
 GUID that can be used to store a string containing the name of the node. Applications can search the registry for this GUID to obtain the node's name and then can display the name. 
 

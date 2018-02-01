@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl, ks/IKsControl::KsProperty, KsProperty, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, KsProperty method [Streaming Media Devices], stream.ikscontrol_ksproperty2, KsProperty method [Streaming Media Devices], IKsControl interface, IKsControl interface [Streaming Media Devices], KsProperty method, IKsControl::KsProperty
+ms.keywords: avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, KsProperty method [Streaming Media Devices], KsProperty, ks/IKsControl::KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method, KsProperty method [Streaming Media Devices], IKsControl interface, IKsControl::KsProperty, IKsControl, stream.ikscontrol_ksproperty2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ NTSTATUS KsProperty(
 
 
 
-#### - Property [in]
+### -param Property [in]
 
 Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
 
 
-#### - PropertyLength [in]
+### -param PropertyLength [in]
 
 Specifies size, in bytes, of the buffer at <i>Property</i>.
 
 
-#### - PropertyData [in, out]
+### -param PropertyData [in, out]
 
 Pointer to a buffer that contains data for a KSPROPERTY_TYPE_SET, KSPROPERTY_TYPE_UNSERIALIZESET, or KSPROPERTY_TYPE_UNSERIALIZERAW operation, or buffer space that receives data for all other operations.
 
 
-#### - DataLength [in]
+### -param DataLength [in]
 
 Specifies size, in bytes, of the buffer at <i>PropertyData</i>.
 
 
-#### - BytesReturned [out]
+### -param BytesReturned [out]
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsProperty</b> stores in the buffer at <i>PropertyData</i>. If no data is stored, the size is zero.
 

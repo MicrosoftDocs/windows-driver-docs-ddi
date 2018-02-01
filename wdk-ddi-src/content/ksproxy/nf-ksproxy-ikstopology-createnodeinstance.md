@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CreateNodeInstance method [Streaming Media Devices], IKsTopology, ksproxy/IKsTopology::CreateNodeInstance, CreateNodeInstance, stream.ikstopology_createnodeinstance, CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method
+ms.keywords: CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, IKsTopology::CreateNodeInstance, CreateNodeInstance, stream.ikstopology_createnodeinstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, IKsTopology, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, CreateNodeInstance method [Streaming Media Devices], ksproxy/IKsTopology::CreateNodeInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT CreateNodeInstance(
 
 
 
-#### - NodeId [in]
+### -param NodeId [in]
 
 Identifier for the topology node object to open. 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bitmask enumerating the type of topology node object. No flags are currently defined.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> bitmask specifying the type of access that the caller requires to the topology node object. See <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> for a description of each access-right value.
 
 
-#### - UnkOuter [in, optional]
+### -param UnkOuter [in, optional]
 
 Pointer to an <b>IUnknown</b> interface that supports the topology node interface.
 
 
-#### - InterfaceId [in]
+### -param InterfaceId [in]
 
 Identifier of the topology node interface being requested.
 
 
-#### - Interface [out]
+### -param Interface [out]
 
 Pointer to a variable that receives the interface pointer requested in <i>InterfaceId</i>. Upon successful return, *<i>Interface</i> contains the requested interface pointer to the object. If the object does not support the interface specified in <i>InterfaceId</i>, *<i>Interface</i> is set to <b>NULL</b>.
 
@@ -111,11 +111,11 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="..\ksproxy\nn-ksproxy-ikstopology.md">IKsTopology</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\ksproxy\nn-ksproxy-ikstopology.md">IKsTopology</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
  
 

@@ -75,7 +75,7 @@ HRESULT APIENTRY CALLBACK* pfnMapGpuVirtualAddressCb(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device.
 
@@ -133,9 +133,9 @@ This function might also return other values.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a>
 
  
 

@@ -73,13 +73,13 @@ NTSTATUS NdkSrqReceive(
 
 
 
-#### - *pNdkSrq [in]
+### -param *pNdkSrq [in]
 
 A pointer to an NDK shared receive queue (SRQ) object
 (<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
 
 
-#### - RequestContext [in, optional]
+### -param RequestContext [in, optional]
 
 A context value to be returned in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for this request.
 
@@ -89,16 +89,10 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 
 
-#### - nSge [in]
+### -param nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
-
-
-#### - pNdkSrq [in]
-
-A pointer to an NDK shared receive queue (SRQ) object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
 
 
 #### - pSgl
@@ -153,11 +147,11 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
  
 

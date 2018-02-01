@@ -119,9 +119,9 @@ If the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is large enough for a
 
 ## -see-also
 
-<a href="..\ntddvol\ns-ntddvol-_disk_extent.md">DISK_EXTENT</a>
-
 <a href="..\ntddvol\ns-ntddvol-_volume_disk_extents.md">VOLUME_DISK_EXTENTS</a>
+
+<a href="..\ntddvol\ns-ntddvol-_disk_extent.md">DISK_EXTENT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportquerysystemtime, storport/StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml, StorPortQuerySystemTime routine [Storage Devices], StorPortQuerySystemTime
+ms.keywords: storage.storportquerysystemtime, storport/StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ STORPORT_API VOID StorPortQuerySystemTime(
 
 
 
-#### - CurrentTime [out]
+### -param CurrentTime [out]
 
 Pointer to the current time, on return. 
 

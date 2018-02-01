@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5778f57c-52dd-43f4-b0f7-d07e0c40512b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, ReloadSymbols, wdbgexts/ReloadSymbols, debugger.reloadsymbols, ReloadSymbols function [Windows Debugging]
+ms.keywords: debugger.reloadsymbols, ReloadSymbols function [Windows Debugging], ReloadSymbols, wdbgexts/ReloadSymbols, WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

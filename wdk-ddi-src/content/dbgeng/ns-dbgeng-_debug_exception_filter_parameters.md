@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26a101c5-0866-44e3-948b-8d3ca4dd9d00
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_EXCEPTION_FILTER_PARAMETERS structure pointer [Windows Debugging], _DEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/PDEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS, debugger.debug_exception_filter_parameters, DEBUG_EXCEPTION_FILTER_PARAMETERS, PDEBUG_EXCEPTION_FILTER_PARAMETERS, *PDEBUG_EXCEPTION_FILTER_PARAMETERS, DEBUG_EXCEPTION_FILTER_PARAMETERS structure [Windows Debugging], Structures_f3f2b1ac-e10c-439e-9de9-6b4161bf3c28.xml
+ms.keywords: debugger.debug_exception_filter_parameters, DEBUG_EXCEPTION_FILTER_PARAMETERS, PDEBUG_EXCEPTION_FILTER_PARAMETERS, _DEBUG_EXCEPTION_FILTER_PARAMETERS, *PDEBUG_EXCEPTION_FILTER_PARAMETERS, Structures_f3f2b1ac-e10c-439e-9de9-6b4161bf3c28.xml, DEBUG_EXCEPTION_FILTER_PARAMETERS structure [Windows Debugging], dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/PDEBUG_EXCEPTION_FILTER_PARAMETERS, PDEBUG_EXCEPTION_FILTER_PARAMETERS structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _DEBUG_EXCEPTION_FILTER_PARAMETERS {
 
 
 
-#### - ExecutionOption
+### -field ExecutionOption
 
 The <a href="https://msdn.microsoft.com/1f8f738b-7b2b-419a-949e-b71f937de02d">break status</a> of the exception filter, including the terminator.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 
-#### - ContinueOption
+### -field ContinueOption
 
 The <a href="https://msdn.microsoft.com/1f8f738b-7b2b-419a-949e-b71f937de02d">handling status</a> of the exception filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 
-#### - TextSize
+### -field TextSize
 
 The size, in characters, of the name (including the terminator) of the exception filter.  If the filter is an arbitrary exception filter, it does not have a name and <b>TextSize</b> is zero.
 
 
-#### - CommandSize
+### -field CommandSize
 
 The size, in characters, of the command (including the terminator) to execute upon the first chance of the exception.
 
 
-#### - SecondCommandSize
+### -field SecondCommandSize
 
 The size, in characters, of the command (including the terminator) to execute upon the second chance of the exception.
 
 
-#### - ExceptionCode
+### -field ExceptionCode
 
 The exception code for the exception filter.
 

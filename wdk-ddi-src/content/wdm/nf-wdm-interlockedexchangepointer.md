@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8c39a62d-0c05-4d26-b104-90c436e821cb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer routine [Kernel-Mode Driver Architecture], wdm/InterlockedExchangePointer, kernel.interlockedexchangepointer, k102_4959af35-65d8-4768-94f7-a2dad0a2db46.xml
+ms.keywords: wdm/InterlockedExchangePointer, kernel.interlockedexchangepointer, InterlockedExchangePointer, k102_4959af35-65d8-4768-94f7-a2dad0a2db46.xml, InterlockedExchangePointer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PVOID InterlockedExchangePointer(
 
 
 
-#### - Target [in, out]
+### -param Target [in, out]
 
 A pointer to a PVOID value. The routine sets (*<i>Target</i>) to <i>Value</i>.
 
 
-#### - Value [in, optional]
+### -param Value [in, optional]
 
 Specifies the PVOID value to set (*<i>Target</i>) to.
 
@@ -103,9 +103,9 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
-
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
 
 <a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
 

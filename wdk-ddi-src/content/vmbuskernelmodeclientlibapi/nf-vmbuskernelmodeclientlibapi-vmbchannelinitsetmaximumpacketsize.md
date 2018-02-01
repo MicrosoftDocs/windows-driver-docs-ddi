@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E1CD6911-A54F-4B24-B9BE-59EF9F2C30E5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelinitsetmaximumpacketsize, VmbChannelInitSetMaximumPacketSize, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumPacketSize, VmbChannelInitSetMaximumPacketSize function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbchannelinitsetmaximumpacketsize, VmbChannelInitSetMaximumPacketSize function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumPacketSize, VmbChannelInitSetMaximumPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS VmbChannelInitSetMaximumPacketSize(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for the channel.  
 
 
-#### - PacketSize [in]
+### -param PacketSize [in]
 
 Maximum size, in bytes, of a packet.
 

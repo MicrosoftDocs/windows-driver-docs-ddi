@@ -78,32 +78,32 @@ typedef EVT_UCX_USBDEVICE_ENDPOINT_ADD PEVT_UCX_USBDEVICE_ENDPOINT_ADD;
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-#### - UcxUsbDevice [in]
+### -param UcxUsbDevice [in]
 
 A handle to a UCX object that represents the USB device.
 
 
-#### - UsbEndpointDescriptor [in]
+### -param UsbEndpointDescriptor [in]
 
 A pointer to a location containing a USB descriptor for the endpoint being created.
 
 
-#### - UsbEndpointDescriptorBufferLength [in]
+### -param UsbEndpointDescriptorBufferLength [in]
 
 Length in bytes of the descriptor.
 
 
-#### - SuperSpeedEndpointCompanionDescriptor [in, optional]
+### -param SuperSpeedEndpointCompanionDescriptor [in, optional]
 
 An additional descriptor for a super speed port. This parameter is optional and may be <b>NULL</b>.
 
 
-#### - UcxEndpointInit [in]
+### -param UcxEndpointInit [in]
 
 A pointer to an opaque structure containing initialization
     information.  Callbacks for the endpoint object are associated with this
@@ -132,15 +132,15 @@ Then, the callback  function typically creates a WDF queue associated with the e
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
  
 

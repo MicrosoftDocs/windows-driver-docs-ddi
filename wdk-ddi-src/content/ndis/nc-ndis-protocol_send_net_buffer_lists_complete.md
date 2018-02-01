@@ -52,8 +52,8 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolSendNetBufferListsComplete</i> function completes a send operation that the protocol driver
   initiated with a call to the 
-  <mshelp:link keywords="netvista.ndissendnetbufferlists" tabindex="0"><b>
-  NdisSendNetBufferLists</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">
+  NdisSendNetBufferLists</a> function.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
@@ -77,7 +77,7 @@ VOID ProtocolSendNetBufferListsComplete(
 
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 A handle to a context area that the protocol driver allocated to maintain state information about
      a binding. This handle was passed to NDIS in a previous call to 
@@ -88,7 +88,7 @@ A handle to a context area that the protocol driver allocated to maintain state 
 
 
 
-#### - SendCompleteFlags [in]
+### -param SendCompleteFlags [in]
 
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates
@@ -121,8 +121,8 @@ None
 
 NDIS calls 
     <i>ProtocolSendNetBufferListsComplete</i> after the underlying miniport driver calls the 
-    <mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-    NdisMSendNetBufferListsComplete</b></mshelp:link> function. Completion of a send operation usually implies that the
+    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+    NdisMSendNetBufferListsComplete</a> function. Completion of a send operation usually implies that the
     underlying miniport driver has transmitted the specified network data. However, a miniport driver can
     indicate that a send operation has completed as soon as it transfers the network data to its NIC.
 
@@ -181,14 +181,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
 
  
 

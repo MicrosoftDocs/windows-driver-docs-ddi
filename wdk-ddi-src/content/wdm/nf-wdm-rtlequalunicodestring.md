@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ba50fcac-acb1-43de-aacc-b47845f19f44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, kernel.rtlequalunicodestring, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], RtlEqualUnicodeString, wdm/RtlEqualUnicodeString
+ms.keywords: k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlequalunicodestring, RtlEqualUnicodeString, wdm/RtlEqualUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ BOOLEAN RtlEqualUnicodeString(
 
 
 
-#### - String1 [in]
+### -param String1 [in]
 
 Pointer to the first Unicode string.
 
 
-#### - String2 [in]
+### -param String2 [in]
 
 Pointer to the second Unicode string.
 
 
-#### - CaseInSensitive [in]
+### -param CaseInSensitive [in]
 
 If <b>TRUE</b>, case should be ignored when doing the comparison. 
 

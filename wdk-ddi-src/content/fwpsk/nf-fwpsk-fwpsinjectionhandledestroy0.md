@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a00917b-36e8-4e06-a001-d8e6ac2e3573
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml, fwpsk/FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0
+ms.keywords: fwpsk/FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], FwpsInjectionHandleDestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS FwpsInjectionHandleDestroy0(
 
 
 
-#### - injectionHandle [in]
+### -param injectionHandle [in]
 
 The injection handle being destroyed.
 
@@ -118,8 +118,8 @@ An error occurred.
 A callout driver calls the 
     <b>FwpsInjectionHandleDestroy0</b> function to destroy an injection handle that was previously created by
     calling the 
-    <mshelp:link keywords="netvista.fwpsinjectionhandlecreate0" tabindex="0"><b>
-    FwpsInjectionHandleCreate0</b></mshelp:link> function. The 
+    <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">
+    FwpsInjectionHandleCreate0</a> function. The 
     <b>FwpsInjectionHandleDestroy0</b> function will not return to the caller until all pending injections are
     completed.
 

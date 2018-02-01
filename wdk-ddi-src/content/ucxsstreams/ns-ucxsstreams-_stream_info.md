@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._stream_info, *PSTREAM_INFO, ucxsstreams/_STREAM_INFO, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], ucxsstreams/P_STREAM_INFO, STREAM_INFO structure [Buses], STREAM_INFO, _STREAM_INFO
+ms.keywords: ucxsstreams/_STREAM_INFO, *PSTREAM_INFO, STREAM_INFO structure [Buses], P_STREAM_INFO, buses._stream_info, ucxsstreams/P_STREAM_INFO, STREAM_INFO, _STREAM_INFO, P_STREAM_INFO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _STREAM_INFO {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of this structure.
 
 
-#### - WdfQueue
+### -field WdfQueue
 
 A handle to the framework queue object that contains streams.
 
 
-#### - StreamId
+### -field StreamId
 
 The stream identifier. The open-static streams request obtains stream identifiers that are assigned by the USB driver stack.
 

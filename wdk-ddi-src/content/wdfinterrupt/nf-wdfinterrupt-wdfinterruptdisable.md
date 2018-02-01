@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ece6a3f-2f25-4143-8f0e-c65c02794cc4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptDisable, kmdf.wdfinterruptdisable, PFN_WDFINTERRUPTDISABLE, wdf.wdfinterruptdisable, DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml, WdfInterruptDisable method, wdfinterrupt/WdfInterruptDisable
+ms.keywords: kmdf.wdfinterruptdisable, WdfInterruptDisable, DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml, wdfinterrupt/WdfInterruptDisable, wdf.wdfinterruptdisable, PFN_WDFINTERRUPTDISABLE, WdfInterruptDisable method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfInterruptDisable(
 
 
 
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 

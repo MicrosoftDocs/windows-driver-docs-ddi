@@ -75,31 +75,31 @@ DWORD APIENTRY Dot11ExtIhvInitAdapter(
 
 
 
-#### - pDot11Adapter [in]
+### -param pDot11Adapter [in]
 
 A pointer to a 
      <a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a> structure, which identifies the
      adapter to be initialized.
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 A handle assigned by the operating system for the adapter. The IHV Extensions DLL must use this
      handle value when calling any IHV Extensibility function that declares an 
      <i>hDot11SvcHandle</i> parameter, such as 
-     <mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-     Dot11ExtPreAssociateCompletion</b></mshelp:link>.
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+     Dot11ExtPreAssociateCompletion</a>.
 
 
-#### - phIhvExtAdapter [out]
+### -param phIhvExtAdapter [out]
 
 A pointer to a handle variable. The IHV Extensions DLL must assign a unique handle value for the
      adapter and set *
      <i>phIhvExtAdapter</i> to the handle value. The operating system uses this handle value when it calls any
      IHV Handler function that declares an 
      <i>hIhvExtAdapter</i> parameter, such as 
-     <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-     Dot11ExtIhvPerformPreAssociate</i></mshelp:link>. 
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+     Dot11ExtIhvPerformPreAssociate</a>. 
      
 
 Typically, the IHV Extensions DLL allocates a state array for the adapter context and returns the
@@ -129,16 +129,16 @@ For more information about WLAN adapter initialization, see
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
 
-<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
-   Extensibility Functions</mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+   Dot11ExtPreAssociateCompletion</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+   Extensibility Functions</a>
 
 <a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
-
-<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-   Dot11ExtPreAssociateCompletion</b></mshelp:link>
 
  
 

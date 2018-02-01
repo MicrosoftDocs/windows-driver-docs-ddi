@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition, _DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml
+ms.keywords: "_DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION, DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, d3dkmddi/DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices], display.dxgkarg_setpointerposition"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _DXGKARG_SETPOINTERPOSITION {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the mouse pointer is located on. 
 
 
-#### - X
+### -field X
 
 [in] The column, in pixels, that the mouse pointer is located on from the top left.
 
 
-#### - Y
+### -field Y
 
 [in] The row, in pixels, that the mouse pointer is located on from the top left.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a>
 
  
 

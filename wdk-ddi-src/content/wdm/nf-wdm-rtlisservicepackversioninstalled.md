@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1314ffb5-e6e2-4c22-bc67-388da3bcbe79
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlIsServicePackVersionInstalled, k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], kernel.rtlisservicepackversioninstalled
+ms.keywords: RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], RtlIsServicePackVersionInstalled, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled, k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ BOOLEAN RtlIsServicePackVersionInstalled(
 
 
 
-#### - Version [in]
+### -param Version [in]
 
 The service pack version of the Windows DDI that is available. The following table lists the possible values for <i>Version</i>.
 <table>
@@ -284,9 +284,9 @@ The Windows kernel implements <b>RtlIsServicePackVersionInstalled</b> only in Wi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-
 <a href="..\wdm\nf-wdm-psgetversion.md">PsGetVersion</a>
+
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 <a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">RtlIsNtDdiVersionAvailable</a>
 

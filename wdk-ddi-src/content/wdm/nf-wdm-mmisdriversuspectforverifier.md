@@ -68,7 +68,7 @@ LOGICAL MmIsDriverSuspectForVerifier(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 A pointer to the driver object. This object is a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure that represents a loaded driver image. The driver receives this pointer as an input parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
@@ -95,11 +95,11 @@ Another related routine, <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md"
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
-
 <a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 

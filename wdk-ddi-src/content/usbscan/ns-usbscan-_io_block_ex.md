@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2474a49b-e275-4b4d-b762-c296b92bab4c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], *PIO_BLOCK_EX, usbscan/PIO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], _IO_BLOCK_EX, usbscan/IO_BLOCK_EX, IO_BLOCK_EX, image.io_block_ex
+ms.keywords: "_IO_BLOCK_EX, *PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], IO_BLOCK_EX, image.io_block_ex, usbscan/IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], usbscan/PIO_BLOCK_EX, PIO_BLOCK_EX, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _IO_BLOCK_EX {
 
 
 
-#### - uOffset
+### -field uOffset
 
 Used as the <b>Value</b> field of a USB Device Request.
 
 
-#### - uLength
+### -field uLength
 
 Length of the buffer to transfer.
 
 
-#### - pbyData
+### -field pbyData
 
 Pointer to a data buffer with a length of <b>uLength</b>.
 
 
-#### - uIndex
+### -field uIndex
 
 Used as the <b>Index</b> field of a USB Device Request.
 
 
-#### - bRequest
+### -field bRequest
 
 Used as the <b>bRequest</b> field of a USB Device Request.
 
 
-#### - bmRequestType
+### -field bmRequestType
 
 Used as the <b>bmRequestType</b> field of a USB Device Request.
 
 
-#### - fTransferDirectionIn
+### -field fTransferDirectionIn
 
 <b>TRUE</b> for transfers from device to host; <b>FALSE</b> for transfers from host to device.
 

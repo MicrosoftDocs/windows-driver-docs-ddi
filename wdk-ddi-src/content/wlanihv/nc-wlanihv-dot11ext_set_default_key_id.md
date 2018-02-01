@@ -72,7 +72,7 @@ DWORD WINAPI * Dot11ExtSetDefaultKeyId(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -80,7 +80,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-#### - uDefaultKeyId [in]
+### -param uDefaultKeyId [in]
 
 The index value of the key within the adapter's default or per-station cipher key tables.
      
@@ -111,8 +111,8 @@ The default key identifier (ID) specifies the index of a cipher key in the adapt
 
 A call to the 
     <b>Dot11ExtSetDefaultKeyId</b> function results in a set request of the 
-    <mshelp:link keywords="netvista.oid_dot11_cipher_default_key_id" tabindex="0">
-    OID_DOT11_CIPHER_DEFAULT_KEY_ID</mshelp:link> object identifier (OID) to the Native 802.11 miniport driver, which
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+    OID_DOT11_CIPHER_DEFAULT_KEY_ID</a> object identifier (OID) to the Native 802.11 miniport driver, which
     manages the WLAN adapter.
 
 
@@ -121,9 +121,9 @@ A call to the
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY_ID</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
 <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4c1284da-b086-46f3-aeea-0afe6a2f1031
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolModuleWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModuleWide, debugger.getsymbolmodulewide, dbgeng/IDebugSymbols3::GetSymbolModuleWide, GetSymbolModuleWide method [Windows Debugging], IDebugSymbols3::GetSymbolModuleWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolModuleWide method
+ms.keywords: GetSymbolModuleWide method [Windows Debugging], debugger.getsymbolmodulewide, dbgeng/IDebugSymbols3::GetSymbolModuleWide, IDebugSymbols3 interface [Windows Debugging], GetSymbolModuleWide method, GetSymbolModuleWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModuleWide, IDebugSymbols3, IDebugSymbols3::GetSymbolModuleWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetSymbolModuleWide(
 
 
 
-#### - Symbol [in]
+### -param Symbol [in]
 
 Specifies the name of the symbol to look up.  See the Remarks section for details of the syntax of this name.
 
 
-#### - Base [out]
+### -param Base [out]
 
 Receives the location in the target's memory address space of the base of the module.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
 

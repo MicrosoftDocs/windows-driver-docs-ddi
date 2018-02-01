@@ -68,7 +68,7 @@ _Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_DESTROYHWCONTEXTCB(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the device.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 164c34ce-603f-447b-8bd7-14b1c19e9baa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_serialhdr, PKSPROPERTY_SERIALHDR structure pointer [Streaming Media Devices], ks/KSPROPERTY_SERIALHDR, ks/PKSPROPERTY_SERIALHDR, *PKSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR structure [Streaming Media Devices], KSPROPERTY_SERIALHDR, PKSPROPERTY_SERIALHDR, ks-struct_cdf54d37-a5b8-4a73-98dd-c7a9439ac51a.xml
+ms.keywords: PKSPROPERTY_SERIALHDR, ks/KSPROPERTY_SERIALHDR, ks-struct_cdf54d37-a5b8-4a73-98dd-c7a9439ac51a.xml, ks/PKSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR, PKSPROPERTY_SERIALHDR structure pointer [Streaming Media Devices], KSPROPERTY_SERIALHDR structure [Streaming Media Devices], *PKSPROPERTY_SERIALHDR, stream.ksproperty_serialhdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - PropertySet
+### -field PropertySet
 
 Specifies the GUID of the property set contained in the serialized buffer.
 
 
-#### - Count
+### -field Count
 
 Specifies the count of serialized properties to follow.
 

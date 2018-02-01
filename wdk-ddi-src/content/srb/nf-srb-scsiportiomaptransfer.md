@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, ScsiPortIoMapTransfer, storage.scsiportiomaptransfer, ScsiPortIoMapTransfer routine [Storage Devices], srb/ScsiPortIoMapTransfer
+ms.keywords: scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, srb/ScsiPortIoMapTransfer, ScsiPortIoMapTransfer, storage.scsiportiomaptransfer, ScsiPortIoMapTransfer routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ VOID ScsiPortIoMapTransfer(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 Pointer to the SCSI request block for the DMA transfer.
 
 
-#### - LogicalAddress [in]
+### -param LogicalAddress [in]
 
 Specifies the starting address for the transfer operation. This value can be the base address of a buffer into which or from which data is to be transferred. This value can be an offset within such a buffer.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the number of bytes to be transferred.
 
@@ -110,9 +110,9 @@ After the operating system-specific port driver programs the system DMA controll
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a>
-
 <a href="..\srb\nf-srb-scsiportflushdma.md">ScsiPortFlushDma</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a>
 
  
 

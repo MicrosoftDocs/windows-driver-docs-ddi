@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VPCI_PNP_ID structure [Buses], pcivirt/VPCI_PNP_ID, _VPCI_PNP_ID, *PVPCI_PNP_ID, VPCI_PNP_ID, PCI.vpci_pnp_id
+ms.keywords: PCI.vpci_pnp_id, VPCI_PNP_ID, pcivirt/VPCI_PNP_ID, *PVPCI_PNP_ID, _VPCI_PNP_ID, VPCI_PNP_ID structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _VPCI_PNP_ID {
 
 
 
-#### - VendorID
+### -field VendorID
 
 PCI SIG-assigned identifier for the vendor of the device.
 
 
-#### - DeviceID
+### -field DeviceID
 
 Vendor-defined identifier for the device.
 
 
-#### - RevisionID
+### -field RevisionID
 
 Vendor-defined revision number.
 
 
-#### - ProgIf
+### -field ProgIf
 
 Programming Interface code.
 
 
-#### - SubClass
+### -field SubClass
 
 Vendor-defined subclass code.
 
 
-#### - BaseClass
+### -field BaseClass
 
 Vendor-defined base class code from the configuration space.
 
 
-#### - SubVendorID
+### -field SubVendorID
 
 PCI SIG-assigned identifier for the vendor of the subsystem.
 
 
-#### - SubSystemID
+### -field SubSystemID
 
 Vendor-defined subsystem identifier.
 

@@ -74,23 +74,23 @@ void EvUcxControllerStopTrackingForTimeSync(
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-#### - WdfRequest [in]
+### -param WdfRequest [in]
 
 A framework request object that contains the request to stop time tracking.
 
 
-#### - OutputBufferLength [in]
+### -param OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer
         is available. This value is the size of the <a href="..\usbioctl\ns-usbioctl-_usb_stop_tracking_for_time_sync_information.md">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. 
 
 
-#### - InputBufferLength [in]
+### -param InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer
         is available. This value is the size of the <a href="..\usbioctl\ns-usbioctl-_usb_stop_tracking_for_time_sync_information.md">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.

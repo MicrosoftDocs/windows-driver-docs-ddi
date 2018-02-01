@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b9e3ea22-be24-4f36-abde-339495b9ed1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, wudfddi_types/WdfRequestStopActionPurge, WdfRequestStopRequestCancelable, umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, _WDF_REQUEST_STOP_ACTION_FLAGS, wudfddi_types/WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopActionSuspend, umdf.wdf_request_stop_action_flags, WdfRequestStopActionPurge, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionSuspend, wudfddi_types/WdfRequestStopRequestCancelable, WDF_REQUEST_STOP_ACTION_FLAGS, wdf.wdf_request_stop_action_flags_umdf, WdfRequestStopActionInvalid
+ms.keywords: wudfddi_types/WdfRequestStopRequestCancelable, umdf.wdf_request_stop_action_flags, WdfRequestStopRequestCancelable, umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, wudfddi_types/WdfRequestStopActionSuspend, wudfddi_types/WdfRequestStopActionInvalid, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionPurge, WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopActionPurge, _WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionSuspend, wdf.wdf_request_stop_action_flags_umdf, WDF_REQUEST_STOP_ACTION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,22 +74,22 @@ typedef enum _WDF_REQUEST_STOP_ACTION_FLAGS {
 
 
 
-#### - WdfRequestStopActionInvalid
+### -field WdfRequestStopActionInvalid
 
 If this value is set to 1, the request is invalid.
 
 
-#### - WdfRequestStopActionSuspend
+### -field WdfRequestStopActionSuspend
 
 If this value is set to 1, the device is suspended.
 
 
-#### - WdfRequestStopActionPurge
+### -field WdfRequestStopActionPurge
 
 If this value is set to 1, the device and queue are removed.
 
 
-#### - WdfRequestStopRequestCancelable
+### -field WdfRequestStopRequestCancelable
 
 If this value is set to 1, the request is marked as cancelable.
 

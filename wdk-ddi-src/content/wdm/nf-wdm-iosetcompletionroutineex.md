@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fe84e542-c8b2-4631-9ffb-dde471311871
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetCompletionRoutineEx, k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, wdm/IoSetCompletionRoutineEx, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], kernel.iosetcompletionroutineex
+ms.keywords: IoSetCompletionRoutineEx, wdm/IoSetCompletionRoutineEx, kernel.iosetcompletionroutineex, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ NTSTATUS IoSetCompletionRoutineEx(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the driver's device object.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that the driver is processing.
 
 
-#### - CompletionRoutine [in]
+### -param CompletionRoutine [in]
 
 Specifies the entry point for the driver-supplied <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine, which is called when the next-lower driver completes the packet.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Pointer to a driver-determined context to pass to the <i>IoCompletion</i> routine. Context information must be stored in nonpaged memory, because the <i>IoCompletion</i> routine is called at IRQL &lt;= DISPATCH_LEVEL.
 
 
-#### - InvokeOnSuccess [in]
+### -param InvokeOnSuccess [in]
 
 Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure, based on results of the NT_SUCCESS macro (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>).
 
 
-#### - InvokeOnError [in]
+### -param InvokeOnError [in]
 
 Specifies whether the completion routine is called if the IRP is completed with a nonsuccess status value in the IRP's <b>IO_STATUS_BLOCK</b> structure.
 
 
-#### - InvokeOnCancel [in]
+### -param InvokeOnCancel [in]
 
 Specifies whether the completion routine is called if a driver or the kernel has called <a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a> to cancel the IRP.
 
@@ -136,19 +136,19 @@ The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="..\w
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
-
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
-
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
 
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

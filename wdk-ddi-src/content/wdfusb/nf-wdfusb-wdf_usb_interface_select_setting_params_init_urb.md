@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c11941e-d0fc-4b0f-bf18-9920d371dd09
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, kmdf.wdf_usb_interface_select_setting_params_init_urb, wdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml
+ms.keywords: kmdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, wdf.wdf_usb_interface_select_setting_params_init_urb, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB(
 
 
 
-#### - Params [out]
+### -param Params [out]
 
 A pointer to a driver-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
 
 
-#### - Urb [in]
+### -param Urb [in]
 
 A pointer to a <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
@@ -116,13 +116,13 @@ To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_p
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
-
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
 
  
 

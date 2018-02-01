@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 04B8EE71-59F9-4DE4-AD36-846632D3EBB4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsRuntimePower::SendPowerControl, portcls/IPortClsRuntimePower::SendPowerControl, IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, SendPowerControl method [Audio Devices], IPortClsRuntimePower interface, SendPowerControl, SendPowerControl method [Audio Devices], audio.iportclsruntimepower_sendpowercontrol
+ms.keywords: IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, IPortClsRuntimePower, SendPowerControl, SendPowerControl method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower::SendPowerControl, portcls/IPortClsRuntimePower::SendPowerControl, SendPowerControl method [Audio Devices], audio.iportclsruntimepower_sendpowercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,73 +73,37 @@ NTSTATUS SendPowerControl(
 
 
 
-### -param _DeviceObject
-
-
-
-
-### -param _PowerControlCode
-
-
-
-
-### -param _InBuffer
-
-
-
-
-### -param _InBufferSize
-
-
-
-
-### -param _OutBuffer
-
-
-
-
-### -param _OutBufferSize
-
-
-
-
-### -param _BytesReturned
-
-
-
-
-
-#### - DeviceObject [in]
+### -param _DeviceObject [in]
 
 The device object.
 
 
-#### - PowerControlCode [in]
+### -param _PowerControlCode [in]
 
 The power control code to be sent to the audio adapter.
 
 
-#### - InBuffer [in, optional]
+### -param _InBuffer [in, optional]
 
 The input buffer.
 
 
-#### - InBufferSize [in]
+### -param _InBufferSize [in]
 
 The size of the input buffer.
 
 
-#### - OutBuffer [out, optional]
+### -param _OutBuffer [out, optional]
 
 The output buffer.
 
 
-#### - OutBufferSize [in]
+### -param _OutBufferSize [in]
 
 The size of the output buffer.
 
 
-#### - BytesReturned [out, optional]
+### -param _BytesReturned [out, optional]
 
 The number of bytes returned.
 

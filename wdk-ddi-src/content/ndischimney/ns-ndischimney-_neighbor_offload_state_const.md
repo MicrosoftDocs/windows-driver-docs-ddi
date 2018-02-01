@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c79a3d6-c365-4740-a2e0-94333b70d8cc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, _NEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], netvista.neighbor_offload_state_const, NEIGHBOR_OFFLOAD_STATE_CONST, *PNEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_CONST, tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST
+ms.keywords: tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml, netvista.neighbor_offload_state_const, PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], NEIGHBOR_OFFLOAD_STATE_CONST, *PNEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_CONST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NEIGHBOR_OFFLOAD_STATE_CONST {
 
 
 
-#### - Header
+### -field Header
 
 An 
      <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
@@ -83,7 +83,7 @@ An
      <b>Header</b> is reserved.
 
 
-#### - DlSourceAddress
+### -field DlSourceAddress
 
 When non-<b>NULL</b>, a 32-byte source MAC address. The offload target must support software-configurable
      MAC addresses and it must set the source MAC address of all packets that it sends on the offloaded
@@ -101,7 +101,7 @@ If the network interface has one or more multicast addresses enabled, the offloa
      <b>DlSourceAddress</b> is zero, the MAC address for the network interface.
 
 
-#### - VlanId
+### -field VlanId
 
 An unsigned 12-bit binary number that identifies the virtual LAN (VLAN) to which a packet belongs.
      The 
@@ -119,8 +119,8 @@ When <b>NULL</b>, the offload target should use any VLAN IDs that have been conf
 
 For a description of how an offload target uses the 
     <b>VlanId</b> member, see 
-    <mshelp:link keywords="netvista.802_1q_and_802_1p_processing_on_an_offloaded_tcp_connection" tabindex="0">802.1Q
-    and 802.1p Processing on an Offloaded TCP Connection</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570937">802.1Q
+    and 802.1p Processing on an Offloaded TCP Connection</a>.
 
 
 
@@ -128,12 +128,12 @@ For a description of how an offload target uses the
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/AVCPRECONNECTINFO, AVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, PAVCPRECONNECTINFO, *PAVCPRECONNECTINFO, stream.avcpreconnectinfo, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], avc/PAVCPRECONNECTINFO, _AVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices]
+ms.keywords: PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, *PAVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], avc/AVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], AVCPRECONNECTINFO, stream.avcpreconnectinfo, _AVCPRECONNECTINFO, avc/PAVCPRECONNECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _AVCPRECONNECTINFO {
 
 
 
-#### - DeviceID
+### -field DeviceID
 
 A GUID representing the unit as a whole. All subunits within the same unit share the same GUID. No two units share the same GUID.
 
 
-#### - SubunitAddress
+### -field SubunitAddress
 
 The encoded subunit type and subunit ID of the subunit.
 
 
-#### - SubunitPlugNumber
+### -field SubunitPlugNumber
 
 The plug number (within the subunit) described by the AVCPRECONNECTINFO structure.
 
 
-#### - DataFlow
+### -field DataFlow
 
 The direction of data flow on this subunit plug. Destination plugs have KSPIN_DATAFLOW_IN; source plugs have KSPIN_DATAFLOW_OUT.
 
 
-#### - Flags
+### -field Flags
 
 A bitmap with one or more bits set from the KSPIN_FLAG_AVC enumeration.
 
 
-#### - UnitPlugNumber
+### -field UnitPlugNumber
 
 The plug number (within the subunit) described by the AVCPRECONNECTINFO structure.
 
@@ -113,9 +113,9 @@ This structure is used only as member of the AVC_PRECONNECT_INFO structure. It i
 
 ## -see-also
 
-<a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
-
 <a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
+
+<a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
 
  
 

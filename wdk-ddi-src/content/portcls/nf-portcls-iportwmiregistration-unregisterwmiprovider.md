@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51c43e1a-ec8e-4dd2-ab08-b90cd89d9b5d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWMIRegistration::UnregisterWMIProvider, portcls/IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider, IPortWMIRegistration, audio.iportwmiregistration_unregisterwmiprovider, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml
+ms.keywords: audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, IPortWMIRegistration, portcls/IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider, audio.iportwmiregistration_unregisterwmiprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

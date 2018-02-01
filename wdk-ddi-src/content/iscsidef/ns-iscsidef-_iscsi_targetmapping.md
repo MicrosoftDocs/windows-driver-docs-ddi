@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b8c5024-5d37-4f85-be00-1a60dd9ab323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsidef/ISCSI_TargetMapping, *PISCSI_TargetMapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, ISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], ISCSI_TargetMapping structure [Storage Devices], _ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, storage.iscsi_targetmapping, PISCSI_TargetMapping
+ms.keywords: ISCSI_TargetMapping structure [Storage Devices], storage.iscsi_targetmapping, iscsidef/PISCSI_TargetMapping, *PISCSI_TargetMapping, ISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, PISCSI_TargetMapping, _ISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _ISCSI_TargetMapping {
 
 
 
-#### - OSBus
+### -field OSBus
 
 The SCSI bus number (which is valid in the local operating system) that the remote target is mapped to. A value of 0xffffffff indicates that the miniport driver can associate any SCSI bus number with the target. 
 
 
-#### - OSTarget
+### -field OSTarget
 
 The SCSI target number (which is valid in the local operating system) that the remote target is mapped to. A value of 0xffffffff indicates that the miniport driver can pick any number to identify the remote target device.
 
 
-#### - UniqueSessionId
+### -field UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in their UniqueSessionId parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 
-#### - LUNCount
+### -field LUNCount
 
 The number of LUNs that are associated with the remote target device.
 
 
-#### - TargetName
+### -field TargetName
 
 A wide character string that indicates the target name. 
 
 
-#### - FromPersistentLogin
+### -field FromPersistentLogin
 
 A Boolean value that indicates whether the logon session is persistent. If this member is <b>TRUE</b>, the logon session is persistent and the system creates it automatically when the computer boots up. If this member is <b>FALSE</b>, the logon session is not persistent.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for Microsoft use only.
 
 
-#### - LUNList
+### -field LUNList
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
 
@@ -125,11 +125,11 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 

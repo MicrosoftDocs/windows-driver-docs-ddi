@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d193398-752f-4aef-8ae6-59c9afabd79a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SVCSTAT_DISABLED, RIL_SVCSTAT_MAX, rilapitypes/RILSERVICESETTINGSSTATUS, rilapitypes/RIL_SVCSTAT_DISABLED, rilapitypes/RIL_SVCSTAT_MAX, rilapitypes/RIL_SVCSTAT_DEFAULT, netvista.rilservicesettingsstatus_2, RILSERVICESETTINGSSTATUS, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SVCSTAT_ENABLED, RIL_SVCSTAT_DEFAULT, RIL_SVCSTAT_ENABLED
+ms.keywords: RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCSTAT_MAX, rilapitypes/RILSERVICESETTINGSSTATUS, RIL_SVCSTAT_ENABLED, rilapitypes/RIL_SVCSTAT_ENABLED, RIL_SVCSTAT_DISABLED, RILSERVICESETTINGSSTATUS, netvista.rilservicesettingsstatus_2, rilapitypes/RIL_SVCSTAT_MAX, rilapitypes/RIL_SVCSTAT_DISABLED, rilapitypes/RIL_SVCSTAT_DEFAULT, RIL_SVCSTAT_DEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILSERVICESETTINGSSTATUS {
 
 
 
-#### - RIL_SVCSTAT_DISABLED
+### -field RIL_SVCSTAT_DISABLED
 
 
 
-#### - RIL_SVCSTAT_ENABLED
+### -field RIL_SVCSTAT_ENABLED
 
 
 
-#### - RIL_SVCSTAT_DEFAULT
+### -field RIL_SVCSTAT_DEFAULT
 
 
 
-#### - RIL_SVCSTAT_MAX
+### -field RIL_SVCSTAT_MAX
 
 

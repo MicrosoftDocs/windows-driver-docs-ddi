@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d4249b81-0ee7-49dd-9886-cdc5842f02d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MIRACAST_DATARATE_STATS, netdispumdddi/MIRACAST_DATARATE_STATS, display.miracast_datarate_stats, MIRACAST_DATARATE_STATS structure [Display Devices]
+ms.keywords: netdispumdddi/MIRACAST_DATARATE_STATS, display.miracast_datarate_stats, MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct {
 
 
 
-#### - EncoderBitRate
+### -field EncoderBitRate
 
 The bit rate, in bits per second, that the operating system recommends that the audio/video encoder uses.
 
 
-#### - CurrentMaxTxDataRate
+### -field CurrentMaxTxDataRate
 
 The theoretical maximum speed, in bits per second, reported by the Wi-Fi driver.
 
 
-#### - TransmittedFrameCount
+### -field TransmittedFrameCount
 
 The total number of Wi-Fi frames that were sent with zero retries since the previous time step.
 
 
-#### - FailedFrameCount
+### -field FailedFrameCount
 
 The total number of Wi-Fi frames that exhausted the maximum number of retries since the previous time step.
 
 
-#### - RetriedFrameCount
+### -field RetriedFrameCount
 
 The total number of Wi-Fi frames that succeeded after a single retry since the previous time step.
 
 
-#### - MultipleRetryFrameCount
+### -field MultipleRetryFrameCount
 
 The total number of Wi-Fi frames that succeeded after more than one retry since the previous time step.
 

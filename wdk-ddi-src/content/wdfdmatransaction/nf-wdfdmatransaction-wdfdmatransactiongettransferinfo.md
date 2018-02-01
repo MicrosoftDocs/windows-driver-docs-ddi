@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9EE04529-D322-4498-B802-BB6A53FBC716
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo method, wdf.wdfdmatransactiongettransferinfo, PFN_WDFDMATRANSACTIONGETTRANSFERINFO, WdfDmaTransactionGetTransferInfo
+ms.keywords: wdf.wdfdmatransactiongettransferinfo, WdfDmaTransactionGetTransferInfo method, PFN_WDFDMATRANSACTIONGETTRANSFERINFO, wdfdmatransaction/WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo, kmdf.wdfdmatransactiongettransferinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ void WdfDmaTransactionGetTransferInfo(
 
 
 
-#### - DmaTransaction [in]
+### -param DmaTransaction [in]
 
 A handle to an initialized DMA transaction object.
 
 
-#### - MapRegisterCount [out, optional]
+### -param MapRegisterCount [out, optional]
 
 A caller-supplied location that, on return, contains the number of map registers required for the specified transaction. This parameter is optional and can be NULL.
 
 
-#### - ScatterGatherElementCount [out, optional]
+### -param ScatterGatherElementCount [out, optional]
 
 A caller-supplied location that, on return, contains the number of scatter/gather elements required for the specified transaction. This parameter is optional and can be NULL.
 
@@ -106,9 +106,9 @@ When using DMA version 3, this method returns an accurate count of the number of
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
 
  
 

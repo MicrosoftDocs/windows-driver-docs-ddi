@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ab429d1b-0b4d-4897-b5f0-73113d16758e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml, ntddk/PWHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO, whea.whea_persistence_info, _WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications]
+ms.keywords: WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], ntddk/PWHEA_PERSISTENCE_INFO, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml, PWHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, whea.whea_persistence_info, PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications], _WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,67 +82,37 @@ typedef union _WHEA_PERSISTENCE_INFO {
 
 ### -field DUMMYSTRUCTNAME.Signature
 
- 
+The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
 
 
 ### -field DUMMYSTRUCTNAME.Length
 
- 
+The length, in bytes, of the error record when it is stored in the platform's persistent data storage.
 
 
 ### -field DUMMYSTRUCTNAME.Identifier
 
- 
+An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
 
 
 ### -field DUMMYSTRUCTNAME.Attributes
 
- 
+Attribute flags that describe the error record. No attributes are currently defined.
 
 
 ### -field DUMMYSTRUCTNAME.DoNotLog
 
- 
+A single bit that indicates that WHEA should not log an entry in the system event log for the error record.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved for system use. This member must be zero.
 
 
-#### - AsULONGLONG
+### -field AsULONGLONG
 
 A ULONGLONG representation of the contents of the WHEA_PERSISTENCE_INFO union.
-
-
-#### - Signature
-
-The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
-
-
-#### - Length
-
-The length, in bytes, of the error record when it is stored in the platform's persistent data storage.
-
-
-#### - Identifier
-
-An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
-
-
-#### - Attributes
-
-Attribute flags that describe the error record. No attributes are currently defined.
-
-
-#### - DoNotLog
-
-A single bit that indicates that WHEA should not log an entry in the system event log for the error record.
-
-
-#### - Reserved
-
-Reserved for system use. This member must be zero.
 
 
 ## -remarks

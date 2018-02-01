@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cdfe1932-ee3d-41ea-8d7b-85c17c0f1722
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicecreatedeviceinterface, wdf.wdfdevicecreatedeviceinterface, WdfDeviceCreateDeviceInterface method, WdfDeviceCreateDeviceInterface, DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, wdfdevice/WdfDeviceCreateDeviceInterface
+ms.keywords: kmdf.wdfdevicecreatedeviceinterface, DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface method, WdfDeviceCreateDeviceInterface, wdf.wdfdevicecreatedeviceinterface, wdfdevice/WdfDeviceCreateDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfDeviceCreateDeviceInterface(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - InterfaceClassGUID [in]
+### -param InterfaceClassGUID [in]
 
 A pointer to a GUID that identifies the device interface class.
 
 
-#### - ReferenceString [in, optional]
+### -param ReferenceString [in, optional]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that describes a reference string for the device interface. The string must not contain any path separator characters ("/" or "\").  This parameter is optional and can be <b>NULL</b>.   For more information, see the following Remarks section.
 
@@ -114,9 +114,9 @@ For more information about device interfaces and the <b>WdfDeviceCreateDeviceInt
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md">WdfDeviceSetDeviceInterfaceState</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

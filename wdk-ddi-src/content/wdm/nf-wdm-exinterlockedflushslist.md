@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedFlushSList, ExInterlockedFlushSList, kernel.exinterlockedflushslist
+ms.keywords: ExInterlockedFlushSList, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList, k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PSLIST_ENTRY ExInterlockedFlushSList(
 
 
 
-#### - ListHead [in, out]
+### -param ListHead [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
 

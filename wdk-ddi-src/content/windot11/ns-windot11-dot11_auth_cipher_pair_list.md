@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1440041-a7cd-45c6-8aa5-445d6de2bc20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_AUTH_CIPHER_PAIR_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_22a0193d-4747-47ac-84dc-067bb30e22ca.xml, windot11/DOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST, PDOT11_AUTH_CIPHER_PAIR_LIST, windot11/PDOT11_AUTH_CIPHER_PAIR_LIST, netvista.dot11_auth_cipher_pair_list, *PDOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST structure [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_AUTH_CIPHER_PAIR_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11_auth_cipher_pair_list, PDOT11_AUTH_CIPHER_PAIR_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST, windot11/PDOT11_AUTH_CIPHER_PAIR_LIST, Native_802.11_data_types_22a0193d-4747-47ac-84dc-067bb30e22ca.xml, *PDOT11_AUTH_CIPHER_PAIR_LIST, PDOT11_AUTH_CIPHER_PAIR_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct DOT11_AUTH_CIPHER_PAIR_LIST {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_AUTH_CIPHER_PAIR_LIST structure. This member is
      formatted as an 
@@ -87,11 +87,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_AUTH_CIPHER_PAIR_LIST_REVISION_1.
@@ -103,33 +98,38 @@ This member must be set to
        <code>sizeof(DOT11_AUTH_CIPHER_PAIR_LIST)</code>.
 
 
-#### - uNumOfEntries
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uNumOfEntries
 
 The number of entries in the 
      <b>AuthCipherPairs</b> array.
 
 
-#### - uTotalNumOfEntries
+### -field uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>AuthCipherPairs</b> array can contain.
 
 
-#### - AuthCipherPairs
+### -field AuthCipherPairs
 
 The list of 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structures.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structures.
 
 
 ## -remarks
 
 
 A miniport driver returns the DOT11_AUTH_CIPHER_PAIR_LIST structure when queried by either 
-    <mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link> or 
-    <mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
 
 When these OIDs are queried, the miniport driver must verify that the 
     <b>InformationBuffer</b> member of the 
@@ -210,15 +210,15 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
-
-<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
  
 

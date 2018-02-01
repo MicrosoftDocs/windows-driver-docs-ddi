@@ -76,12 +76,12 @@ UINT APIENTRY* pfnGetBitstreamEncryptionSchemeCount(
 
 
 
-#### - NodeIndex
+### -param NodeIndex
 
 The physical adapter of the device to which this operation applies.
 
 
-#### - DecodeProfile
+### -param DecodeProfile
 
 The decode profile GUID to retrieve the count of supported encryption GUIDs.
 

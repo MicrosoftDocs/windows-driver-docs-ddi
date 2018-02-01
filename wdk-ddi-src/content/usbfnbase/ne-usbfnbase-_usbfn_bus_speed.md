@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B97E27A1-0D95-41AA-8FF6-A92F70FBAD28
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedMaximum, buses.usbfn_bus_speed, UsbfnBusSpeedFull, USBFN_BUS_SPEED, *PUSBFN_BUS_SPEED, UsbfnBusSpeedLow, UsbfnBusSpeedMaximum, usbfnbase/USBFN_BUS_SPEED, UsbfnBusSpeedSuper, _USBFN_BUS_SPEED, UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedSuper, USBFN_BUS_SPEED enumeration [Buses], usbfnbase/UsbfnBusSpeedLow
+ms.keywords: usbfnbase/USBFN_BUS_SPEED, _USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedMaximum, USBFN_BUS_SPEED enumeration [Buses], buses.usbfn_bus_speed, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedSuper, UsbfnBusSpeedHigh, UsbfnBusSpeedSuper, USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedHigh, UsbfnBusSpeedMaximum, *PUSBFN_BUS_SPEED, UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedLow, UsbfnBusSpeedLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _USBFN_BUS_SPEED {
 
 
 
-#### - UsbfnBusSpeedLow
+### -field UsbfnBusSpeedLow
 
 A low bandwidth bus speed of 1.5 Mbit per second.
 
 
-#### - UsbfnBusSpeedFull
+### -field UsbfnBusSpeedFull
 
 A full bandwidth bus speed of 12 MBit per second.
 
 
-#### - UsbfnBusSpeedHigh
+### -field UsbfnBusSpeedHigh
 
 A high bus speed of 480 Mbit per second.
 
 
-#### - UsbfnBusSpeedSuper
+### -field UsbfnBusSpeedSuper
 
 A SuperSpeed mode bus speed of 5 Gbit per second.
 
 
-#### - UsbfnBusSpeedMaximum
+### -field UsbfnBusSpeedMaximum
 
 The maximum value of the enumeration.
 

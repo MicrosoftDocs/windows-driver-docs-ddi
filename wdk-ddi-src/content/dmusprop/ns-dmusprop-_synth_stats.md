@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSYNTH_STATS, *PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], dmusprop/SYNTH_STATS, SYNTH_STATS, _SYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, PSYNTH_STATS structure pointer [Audio Devices], dmusprop/PSYNTH_STATS, audio.synth_stats
+ms.keywords: PSYNTH_STATS structure pointer [Audio Devices], dmusprop/PSYNTH_STATS, SYNTH_STATS, SYNTH_STATS structure [Audio Devices], PSYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, audio.synth_stats, _SYNTH_STATS, dmusprop/SYNTH_STATS, *PSYNTH_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,26 +73,21 @@ typedef struct _SYNTH_STATS {
 
 
 
-#### - ValidStats
+### -field ValidStats
 
 Specifies which members of the SYNTH_STATS structure contain valid data. This member is a bitfield whose value is either zero or a bitwise OR of one or more of the following flag bits:
 
 
 
 
-#### SYNTH_STATS_VOICES
-
-The <b>Voices</b> field contains valid data.
-
-
-#### SYNTH_STATS_TOTAL_CPU
-
-The <b>TotalCPU</b> field contains valid data.
-
-
 #### SYNTH_STATS_CPU_PER_VOICE
 
 The <b>CPUPerVoice</b> field contains valid data.
+
+
+#### SYNTH_STATS_FREE_MEMORY
+
+The <b>FreeMemory</b> field contains valid data.
 
 
 #### SYNTH_STATS_LOST_NOTES
@@ -105,37 +100,42 @@ The <b>LostNotes </b>field contains valid data.
 The <b>PeakVolume </b>field contains valid data.
 
 
-#### SYNTH_STATS_FREE_MEMORY
+#### SYNTH_STATS_TOTAL_CPU
 
-The <b>FreeMemory</b> field contains valid data.
+The <b>TotalCPU</b> field contains valid data.
 
 
-#### - Voices
+#### SYNTH_STATS_VOICES
+
+The <b>Voices</b> field contains valid data.
+
+
+### -field Voices
 
 Specifies the average number of voices playing.
 
 
-#### - TotalCPU
+### -field TotalCPU
 
 Specifies the total CPU usage (all voices), which is expressed as a percentage (a fraction multiplied by 100).
 
 
-#### - CPUPerVoice
+### -field CPUPerVoice
 
 Specifies the CPU usage per voice, which is expressed as a percentage (a fraction multiplied by 100).
 
 
-#### - LostNotes
+### -field LostNotes
 
 Specifies the number of notes lost. Notes can be dropped if the number of simultaneous voices exceeds the maximum specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a> property. For additional information, see <a href="https://msdn.microsoft.com/fb1e6c36-02b4-41a6-b9c4-09f393d389db">Voice Allocation</a>.
 
 
-#### - FreeMemory
+### -field FreeMemory
 
 Specifies the amount of free memory in bytes. This is the storage that remains available for downloading additional DLS data resources.
 
 
-#### - PeakVolume
+### -field PeakVolume
 
 Specifies the peak volume level expressed as decibels multiplied by 100.
 

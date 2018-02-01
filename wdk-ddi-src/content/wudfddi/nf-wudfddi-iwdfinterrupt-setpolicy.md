@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EDBCBB37-41A4-4234-BE8C-4C8739BC287B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt, SetPolicy method, IWDFInterrupt interface, wdf.iwdfinterrupt_setpolicy, wudfddi/IWDFInterrupt::SetPolicy, IWDFInterrupt interface, SetPolicy method, SetPolicy method, umdf.iwdfinterrupt_setpolicy, IWDFInterrupt::SetPolicy, SetPolicy
+ms.keywords: umdf.iwdfinterrupt_setpolicy, SetPolicy method, IWDFInterrupt interface, SetPolicy method, IWDFInterrupt::SetPolicy, wdf.iwdfinterrupt_setpolicy, wudfddi/IWDFInterrupt::SetPolicy, IWDFInterrupt interface, SetPolicy method, IWDFInterrupt, SetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ void SetPolicy(
 
 
 
-#### - Policy [in]
+### -param Policy [in]
 
 A <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
 
 
-#### - Priority [in]
+### -param Priority [in]
 
 A <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a>-typed enumerator that specifies a priority for the interrupt.
 
 
-#### - TargetProcessorSet [in]
+### -param TargetProcessorSet [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed value that specifies a processor affinity for the interrupt, if the <i>Policy</i> parameter is set to <b>WdfIrqPolicySpecifiedProcessors</b>.
 
@@ -118,9 +118,9 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a>
-
 <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>
+
+<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a>
 
  
 

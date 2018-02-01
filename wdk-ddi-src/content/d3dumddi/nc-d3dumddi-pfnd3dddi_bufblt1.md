@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY* BufBlt1(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -98,9 +98,9 @@ __checkReturn HRESULT APIENTRY* BufBlt1(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a>
 
  
 

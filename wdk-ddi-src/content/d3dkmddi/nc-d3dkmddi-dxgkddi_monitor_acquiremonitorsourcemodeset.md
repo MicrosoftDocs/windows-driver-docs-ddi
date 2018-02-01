@@ -73,22 +73,22 @@ NTSTATUS APIENTRY pfnAcquireMonitorSourceModeSet(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 [in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
 
 
-#### - VideoPresentTargetId [in]
+### -param VideoPresentTargetId [in]
 
 [in] An integer that identifies one of the video present targets on the display adapter. The returned source mode set object describes the modes available on the monitor that is connected to this video present target.
 
 
-#### - phMonitorSourceModeSet [out]
+### -param phMonitorSourceModeSet [out]
 
 [out] A pointer to a variable that receives a handle to a monitor source mode set object.
 
 
-#### - ppMonitorSourceModeSetInterface [out]
+### -param ppMonitorSourceModeSetInterface [out]
 
 [out] A pointer to a variable that receives a pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor source mode set object.
 
@@ -165,9 +165,9 @@ This function is also available in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mo
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
 
  
 

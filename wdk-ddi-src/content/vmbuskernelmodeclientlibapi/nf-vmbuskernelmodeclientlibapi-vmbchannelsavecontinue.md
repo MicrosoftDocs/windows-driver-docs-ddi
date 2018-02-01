@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57266CAE-C069-4379-92FD-0F93FECC6EB5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsavecontinue, vmbuskernelmodeclientlibapi/VmbChannelSaveContinue, VmbChannelSaveContinue
+ms.keywords: VmbChannelSaveContinue, vmbuskernelmodeclientlibapi/VmbChannelSaveContinue, VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsavecontinue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,30 +75,30 @@ NTSTATUS VmbChannelSaveContinue(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel to save.  
 
 
-#### - SaveBuffer [out]
+### -param SaveBuffer [out]
 
 A pointer to buffer into which to save state information. 
 
 
-#### - SaveBufferSize [in]
+### -param SaveBufferSize [in]
 
 The size, in bytes, of the save buffer.
 
 
 
-#### - BytesFilled [out]
+### -param BytesFilled [out]
 
 A pointer to a variable that receives the number of bytes
 that were copied to the save buffer.
 
 
 
-#### - BytesRequired [out]
+### -param BytesRequired [out]
 
 A pointer to a variable that receives the number of
 bytes that are needed for this function to make progress on the next

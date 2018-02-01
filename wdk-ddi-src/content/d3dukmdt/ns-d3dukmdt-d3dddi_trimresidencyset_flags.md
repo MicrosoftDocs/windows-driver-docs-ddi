@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B063561B-FA79-44B4-A058-71DB9CBF4804
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, display.d3dddi_trimresidencyset_flags, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices], D3DDDI_TRIMRESIDENCYSET_FLAGS
+ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices], display.d3dddi_trimresidencyset_flags, d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct D3DDDI_TRIMRESIDENCYSET_FLAGS {
 
 
 
-#### - PeriodicTrim
+### -field PeriodicTrim
 
 When <b>PeriodicTrim</b> flag is set, the driver is required to performed the following operations:
                                                 
@@ -85,24 +85,24 @@ When <b>PeriodicTrim</b> flag is set, the driver is required to performed the fo
 <li>Refresh the last periodic trim context fence with the last completed context fence.</li>
 </ul>
 
-#### - RestartPeriodicTrim
+### -field RestartPeriodicTrim
 
 May not be set together with <b>PeriodicTrim</b> flag.
                                                 Reset the last periodic trim context fence to the last completed context fence.
 
 
-#### - TrimToBudget
+### -field TrimToBudget
 
 Indicates that the application usage is over the memory budget
                                                 and that <b>NumBytesToTrim</b> bytes should be trimmed to fit in the new memory budget.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 The consolidated value of the bit-fields in the structure.
 

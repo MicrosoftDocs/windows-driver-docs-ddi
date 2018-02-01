@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3AF0646D-5405-4A35-8352-7E32BCA5DD24
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED, DXGK_PAGE_FAULT_IOMMU, DXGK_PAGE_FAULT_WRITE, display.dxgk_page_fault_flags, d3dkmdt/DXGK_PAGE_FAULT_FLAGS, d3dkmdt/DXGK_PAGE_FAULT_WRITE, d3dkmdt/DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, DXGK_PAGE_FAULT_FENCE_INVALID, d3dkmdt/DXGK_PAGE_FAULT_FENCE_INVALID, DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, d3dkmdt/DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED, _DXGK_PAGE_FAULT_FLAGS, d3dkmdt/DXGK_PAGE_FAULT_IOMMU, DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, d3dkmdt/DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, DXGK_PAGE_FAULT_FLAGS enumeration [Display Devices], DXGK_PAGE_FAULT_FLAGS
+ms.keywords: DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, DXGK_PAGE_FAULT_FLAGS, d3dkmdt/DXGK_PAGE_FAULT_FENCE_INVALID, DXGK_PAGE_FAULT_IOMMU, _DXGK_PAGE_FAULT_FLAGS, DXGK_PAGE_FAULT_WRITE, DXGK_PAGE_FAULT_FENCE_INVALID, d3dkmdt/DXGK_PAGE_FAULT_IOMMU, d3dkmdt/DXGK_PAGE_FAULT_WRITE, d3dkmdt/DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED, DXGK_PAGE_FAULT_FLAGS enumeration [Display Devices], display.dxgk_page_fault_flags, d3dkmdt/DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, d3dkmdt/DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, d3dkmdt/DXGK_PAGE_FAULT_FLAGS, DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,12 +72,12 @@ typedef enum _DXGK_PAGE_FAULT_FLAGS {
 
 
 
-#### - DXGK_PAGE_FAULT_WRITE
+### -field DXGK_PAGE_FAULT_WRITE
 
 When set, this indicates that the faulted GPU virtual operation was a write operation.
 
 
-#### - DXGK_PAGE_FAULT_FENCE_INVALID
+### -field DXGK_PAGE_FAULT_FENCE_INVALID
 
 When set, this indicates that a faulting packet could not be determined. In this case, the OS will have to perform a GPU reset action to clear the GPU error state, and one of the subsequent bits will have to be set.
 
@@ -86,22 +86,22 @@ When not set, this indicates that the DMA packet submitted with <b>FaultedFenceI
 
 
 
-#### - DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED
+### -field DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED
 
 When set, this indicates that the fault put the GPU into a state that requires a full adapter reset.
 
 
-#### - DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED
+### -field DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED
 
 When set, this indicates that the fault put the GPU into a state that requires a GPU engine reset.
 
 
-#### - DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR
+### -field DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR
 
 When set, this indicates that the system hardware, not just the GPU, cannot continue, and the OS should issue a bugcheck.
 
 
-#### - DXGK_PAGE_FAULT_IOMMU
+### -field DXGK_PAGE_FAULT_IOMMU
 
 When set, this indicates that the faulting GPU's virtual address was mapped using IoMmu. When not set, the faulting GPU's virtual address was mapped using the GPU's memory management unit.
 

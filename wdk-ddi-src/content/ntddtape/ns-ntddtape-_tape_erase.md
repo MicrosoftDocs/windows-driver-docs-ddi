@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dc17efe6-9183-4908-8ca5-69c6ae38db6d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TAPE_ERASE, ntddtape/TAPE_ERASE, storage.tape_erase, PTAPE_ERASE, structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml, _TAPE_ERASE, ntddtape/PTAPE_ERASE, TAPE_ERASE structure [Storage Devices], *PTAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices]
+ms.keywords: structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml, *PTAPE_ERASE, ntddtape/TAPE_ERASE, ntddtape/PTAPE_ERASE, PTAPE_ERASE, TAPE_ERASE structure [Storage Devices], _TAPE_ERASE, TAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], storage.tape_erase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _TAPE_ERASE {
 
 
 
-#### - Type
+### -field Type
 
 Indicates the type of erasure to perform. When this member is set to TAPE_ERASE_LONG, the tape partition is overwritten with a filler pattern. When it is set to TAPE_ERASE_SHORT, an end-of-recorded-data mark is written to the current position. 
 
 
-#### - Immediate
+### -field Immediate
 
 Indicates that the target device should return status immediately, when set to <b>TRUE</b>. When this member is set to <b>FALSE</b>, the device should return status after the operation is complete. 
 

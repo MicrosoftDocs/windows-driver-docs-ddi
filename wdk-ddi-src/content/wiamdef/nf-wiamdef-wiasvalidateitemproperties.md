@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: d7858b1b-88cf-4e75-a466-40afdcb01d9b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices], wiasValidateItemProperties, image.wiasvalidateitemproperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml
+ms.keywords: wiasValidateItemProperties function [Imaging Devices], wiasValidateItemProperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml, image.wiasvalidateitemproperties, wiamdef/wiasValidateItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT _stdcall wiasValidateItemProperties(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - nPropSpec
+### -param nPropSpec
 
 Specifies the number of properties to validate.
 
 
-#### - pPropSpec [in]
+### -param pPropSpec [in]
 
 Pointer to the first element of an array of PROPSPEC structures indicating the properties to validate.
 

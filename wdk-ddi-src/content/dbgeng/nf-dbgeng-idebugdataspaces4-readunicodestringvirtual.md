@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 956ad15d-2c90-473a-b9be-8c5023628841
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtual method, IDebugDataSpaces_423e591f-3840-4c6c-94e0-67b06a435652.xml, IDebugDataSpaces4::ReadUnicodeStringVirtual, IDebugDataSpaces4, ReadUnicodeStringVirtual, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtual, debugger.readunicodestringvirtual, ReadUnicodeStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, ReadUnicodeStringVirtual method [Windows Debugging]
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtual method, ReadUnicodeStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::ReadUnicodeStringVirtual, IDebugDataSpaces_423e591f-3840-4c6c-94e0-67b06a435652.xml, ReadUnicodeStringVirtual, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtual, IDebugDataSpaces4, debugger.readunicodestringvirtual, ReadUnicodeStringVirtual method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT ReadUnicodeStringVirtual(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location in the process's virtual address space of the string.
 
 
-#### - MaxBytes [in]
+### -param MaxBytes [in]
 
 Specifies the maximum number of bytes to read from the target.
 
 
-#### - CodePage [in]
+### -param CodePage [in]
 
 Specifies the code page to use to convert the multibyte string read from the target into a Unicode string.  For example, CP_ACP is the ANSI code page.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - StringBytes [out, optional]
+### -param StringBytes [out, optional]
 
 Receives the size, in bytes, of the string in the target.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 

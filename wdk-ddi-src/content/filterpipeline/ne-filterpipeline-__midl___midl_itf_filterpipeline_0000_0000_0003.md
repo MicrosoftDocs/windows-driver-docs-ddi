@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9fab1cba-fe67-4654-ae33-3de41f0427f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EXpsJobConsumption enumeration [Print Devices], print.expsjobconsumption, filterpipeline/XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_DocumentSequenceAdded, XpsJob_DocumentSequenceAdded, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, XpsJob_FixedPageAdded, __MIDL___MIDL_itf_filterpipeline_0000_0000_0003, filterpipeline/EXpsJobConsumption, XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_FixedPageAdded, EXpsJobConsumption
+ms.keywords: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0003, EXpsJobConsumption enumeration [Print Devices], XpsJob_DocumentSequenceAdded, filterpipeline/EXpsJobConsumption, XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_FixedDocumentAdded, XpsJob_FixedPageAdded, EXpsJobConsumption, filterpipeline/XpsJob_FixedPageAdded, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, filterpipeline/XpsJob_DocumentSequenceAdded, print.expsjobconsumption"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - XpsJob_DocumentSequenceAdded
+### -field XpsJob_DocumentSequenceAdded
 
 A document sequence is added to the job.
 
 
-#### - XpsJob_FixedDocumentAdded
+### -field XpsJob_FixedDocumentAdded
 
 A fixed document is added to the job.
 
 
-#### - XpsJob_FixedPageAdded
+### -field XpsJob_FixedPageAdded
 
 A fixed page is added to the job.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b02f29a9-1049-4e29-aac3-72bf0c70a21e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUNICODE_STRING, UNICODE_STRING, wudfwdm/PUNICODE_STRING, wudfwdm/UNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], _UNICODE_STRING, *PUNICODE_STRING, PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml, kernel.unicode_string
+ms.keywords: UNICODE_STRING, *PUNICODE_STRING, wudfwdm/UNICODE_STRING, wudfwdm/PUNICODE_STRING, PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], PUNICODE_STRING, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml, kernel.unicode_string, _UNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _UNICODE_STRING {
 
 
 
-#### - Length
+### -field Length
 
 The length, in bytes, of the string stored in <b>Buffer</b>.
 
 
-#### - MaximumLength
+### -field MaximumLength
 
 The length, in bytes, of <b>Buffer</b>.
 
@@ -100,7 +100,7 @@ The length, in bytes, of <b>Buffer</b>.
  
 
 
-#### - Buffer
+### -field Buffer
 
 Pointer to a buffer used to contain a string of wide characters.
 
@@ -120,19 +120,19 @@ The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that
 
 <a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
 
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansisize.md">RtlUnicodeStringToAnsiSize</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
 
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
  
 

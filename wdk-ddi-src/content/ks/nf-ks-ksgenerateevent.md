@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4f142e5f-7d8a-47e0-8757-8c6e527a2472
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_929fd3d4-2f02-4106-b8cd-25c3fb13ba05.xml, ks/KsGenerateEvent, KsGenerateEvent, KsGenerateEvent function [Streaming Media Devices], stream.ksgenerateevent
+ms.keywords: KsGenerateEvent function [Streaming Media Devices], ks/KsGenerateEvent, stream.ksgenerateevent, ksfunc_929fd3d4-2f02-4106-b8cd-25c3fb13ba05.xml, KsGenerateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KsGenerateEvent(
 
 
 
-#### - EventEntry [in]
+### -param EventEntry [in]
 
 Specifies the event entry structure that references the event data. The information is used to determine what type of notification to perform. If the notification type is not one of the predefined standards, an error is returned. In the case of a single, nonrecurring event, this entry will be invalid on returning from the function. Therefore, any code that enumerates a list of events must preincrement to acquire the next event in the list before passing this event to the function.
 
@@ -89,13 +89,13 @@ A device determines when event notifications are generated using the <a href="..
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
  
 

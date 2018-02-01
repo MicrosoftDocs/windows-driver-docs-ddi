@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8a5d3fba-ffd5-4fbc-973a-d5bfec6bb6e3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], DIDDT1_Interlaced, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, d3dkmdt/DIDDT1_Interlaced, d3dkmdt/DIDDT1_Progressive, display.displayid_detailed_timing_type_i_scanning_mode, DIDDT1_Progressive, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml"
+ms.keywords: d3dkmdt/DIDDT1_Progressive, d3dkmdt/DIDDT1_Interlaced, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, DIDDT1_Progressive, DIDDT1_Interlaced, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, display.displayid_detailed_timing_type_i_scanning_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ enum _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE {
 
 
 
-#### - DIDDT1_Progressive
+### -field DIDDT1_Progressive
 
 Indicates a progressive scanning mode.
 
 
-#### - DIDDT1_Interlaced
+### -field DIDDT1_Interlaced
 
 Indicates an interlaced scanning mode.
 

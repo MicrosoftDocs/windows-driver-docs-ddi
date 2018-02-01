@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b3318695-e9f2-480a-9133-9008ef0002b7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice::ConfigureRequestDispatching, ConfigureRequestDispatching method, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, IWDFDevice interface, ConfigureRequestDispatching method, ConfigureRequestDispatching method, IWDFDevice interface, IWDFDevice, umdf.iwdfdevice_configurerequestdispatching, IWDFDevice::ConfigureRequestDispatching, wdf.iwdfdevice_configurerequestdispatching, ConfigureRequestDispatching
+ms.keywords: UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, ConfigureRequestDispatching method, IWDFDevice interface, IWDFDevice interface, ConfigureRequestDispatching method, wudfddi/IWDFDevice::ConfigureRequestDispatching, umdf.iwdfdevice_configurerequestdispatching, wdf.iwdfdevice_configurerequestdispatching, IWDFDevice, ConfigureRequestDispatching, ConfigureRequestDispatching method, IWDFDevice::ConfigureRequestDispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT ConfigureRequestDispatching(
 
 
 
-#### - pQueue [in]
+### -param pQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue to configure. 
 
 
-#### - RequestType [in]
+### -param RequestType [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type to be queued. The only valid <b>WDF_REQUEST_TYPE</b> values are <b>WdfRequestCreate</b>, <b>WdfRequestRead</b>, <b>WdfRequestWrite</b>, and <b>WdfRequestDeviceIoControl</b>.
 
 
-#### - Forward [in]
+### -param Forward [in]
 
 A BOOL value that specifies whether requests of the specified type are queued. <b>TRUE</b> indicates to enable queuing requests; <b>FALSE</b> indicates to disable queuing requests.
 
@@ -98,9 +98,9 @@ A BOOL value that specifies whether requests of the specified type are queued. <
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
  
 

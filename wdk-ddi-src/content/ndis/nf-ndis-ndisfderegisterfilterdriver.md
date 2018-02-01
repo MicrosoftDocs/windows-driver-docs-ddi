@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f97ecce3-73b9-4c51-b4a4-e114420af2c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], netvista.ndisfderegisterfilterdriver, NdisFDeregisterFilterDriver, ndis/NdisFDeregisterFilterDriver
+ms.keywords: netvista.ndisfderegisterfilterdriver, filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, ndis/NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -52,8 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 A filter drivers calls the
   <b>NdisFDeregisterFilterDriver</b> function to release resources that it previously allocated with the 
-  <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><i>
-  NdisFRegisterFilterDriver</i></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+  NdisFRegisterFilterDriver</a> function.
 
 
 ## -syntax
@@ -71,7 +71,7 @@ VOID NdisFDeregisterFilterDriver(
 
 
 
-#### - NdisFilterDriverHandle [in]
+### -param NdisFilterDriverHandle [in]
 
 The filter driver handle that identifies this filter driver. NDIS returned the handle to the
      filter driver in a call to 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 10DD32ED-96F2-43BF-BBF4-85851BC9A377
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpiioct/ACPI_METHOD_ARGUMENT_V2, acpi.acpi_method_argument_v2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], acpiioct/PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2, *PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], PACPI_METHOD_ARGUMENT_V2, _ACPI_METHOD_ARGUMENT_V2
+ms.keywords: "*PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], acpiioct/ACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2, acpiioct/PACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], acpi.acpi_method_argument_v2, ACPI_METHOD_ARGUMENT_V2, _ACPI_METHOD_ARGUMENT_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _ACPI_METHOD_ARGUMENT_V2 {
 
 
 
-#### - DUMMYUNIONNAME
+### -field DUMMYUNIONNAME
 
 Defines the members of <b>DUMMYUNIONNAME</b>.
 
@@ -87,12 +87,12 @@ Defines the members of <b>DUMMYUNIONNAME</b>.
  
 
 
-#### - Type
+### -field Type
 
 Defines the <b>USHORT</b> member <b>Type</b>.
 
 
-#### - DataLength
+### -field DataLength
 
 Defines the <b>USHORT</b> member <b>DataLength</b>.
 

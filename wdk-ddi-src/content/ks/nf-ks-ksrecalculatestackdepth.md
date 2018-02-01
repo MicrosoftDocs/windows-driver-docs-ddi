@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0b8f23a5-af8a-4b99-8f17-092076523914
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, ks/KsRecalculateStackDepth, KsRecalculateStackDepth function [Streaming Media Devices], stream.ksrecalculatestackdepth
+ms.keywords: KsRecalculateStackDepth function [Streaming Media Devices], ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth, ks/KsRecalculateStackDepth, KsRecalculateStackDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID KsRecalculateStackDepth(
 
 
 
-#### - Header [in]
+### -param Header [in]
 
 Points to a header previously allocated by <b>KsAllocateDeviceHeader</b>.
 
 
-#### - ReuseStackLocation [in]
+### -param ReuseStackLocation [in]
 
 If this is set to <b>TRUE</b>, the current stack location is reused when any IRP is forwarded. This means that this object does not require its own stack location when forwarding IRPs and an extra location is not added to the maximum stack size. If set to <b>FALSE</b>, the calculated stack size is incremented by one. If the Pnp object stack is set, the reuse parameter also applies to that stack. Note that <b>KsDefaultDispatchPnp</b> always reuses the current stack location. The minimum stack depth is 1.
 
@@ -97,13 +97,13 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
-
 <a href="..\ks\nf-ks-kssettargetdeviceobject.md">KsSetTargetDeviceObject</a>
 
-<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
 
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+
+<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
 
  
 

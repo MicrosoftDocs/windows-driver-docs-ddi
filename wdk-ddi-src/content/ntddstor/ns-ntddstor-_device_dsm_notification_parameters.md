@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57885E58-C7EC-493E-9AB8-B9DABC6CEA2A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PDEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS, storage.device_dsm_notification_parameters, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS"
+ms.keywords: storage.device_dsm_notification_parameters, ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, *PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], PDEVICE_DSM_NOTIFICATION_PARAMETERS, _DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _DEVICE_DSM_NOTIFICATION_PARAMETERS {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the total size, in bytes, of this structure. The value of this member must include the total size, in bytes, of the <b>FileTypeIDs</b> member.
 
 
-#### - Flags
+### -field Flags
 
 A flag that specifies the characteristics of the notification operation. The  <b>Flags</b> member must be set to one of the following values:
 
@@ -94,7 +94,7 @@ The Logical Block Address (LBA) range is currently being used by the file types 
 The LBA range is no longer being used by the file types that are specified in the <b>FileTypeIDs</b> member. 
 
 
-#### - NumFileTypeIDs
+### -field NumFileTypeIDs
 
 The number of entries in the <b>FileTypeIDs</b> member.
 

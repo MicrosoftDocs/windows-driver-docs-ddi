@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1f38292-604f-4618-b6ec-f3822d60a96c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics, iscsiprf/MSiSCSI_ConnectionStatistics, structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml, storage.msiscsi_connectionstatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, _MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics structure [Storage Devices], PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices]
+ms.keywords: PMSiSCSI_ConnectionStatistics, _MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics structure [Storage Devices], structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml, *PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], iscsiprf/PMSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics, storage.msiscsi_connectionstatistics, iscsiprf/MSiSCSI_ConnectionStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _MSiSCSI_ConnectionStatistics {
 
 
 
-#### - iSCSIName
+### -field iSCSIName
 
 A wide character string that contains the name of the iSCSI target.
 
 
-#### - CID
+### -field CID
 
 The iSCSI connection identifier (ID) for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the connection. Do not use this ID. Application software should use the connection identifier that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods return in the <i>UniqueConnectionId</i> parameter.
 
 
-#### - USID
+### -field USID
 
 The iSCSI session ID for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the session. Application software should use the session identifier that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods return in the <i>UniqueSessionId</i> parameter.
 
 
-#### - UniqueAdapterId
+### -field UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
 
 
-#### - BytesSent
+### -field BytesSent
 
 The number of bytes that are sent over this connection. 
 
 
-#### - BytesReceived
+### -field BytesReceived
 
 The number of bytes that are received over this connection. 
 
 
-#### - PDUCommandsSent
+### -field PDUCommandsSent
 
 The number of PDUs that are sent over this connection. 
 
 
-#### - PDUResponsesReceived
+### -field PDUResponsesReceived
 
 The number of PDUs that are received over this connection.
 
@@ -137,9 +137,9 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 

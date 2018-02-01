@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 405FB676-64FD-43DE-BCD9-233C8B43D851
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrToUInt16, RtlUIntPtrToUInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint16, ntintsafe/RtlUIntPtrToUInt16
+ms.keywords: RtlUIntPtrToUInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint16, ntintsafe/RtlUIntPtrToUInt16, RtlUIntPtrToUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlUIntPtrToUInt16(
 
 
 
-#### - uOperand [in]
+### -param uOperand [in]
 
 The value to be converted.
 
 
-#### - pu16Result [out]
+### -param pu16Result [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

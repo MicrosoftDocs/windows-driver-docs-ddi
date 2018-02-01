@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d1ef833e-8350-499c-9a3d-408d900c9245
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST structure [Bluetooth Devices], bth_structs_c625eff6-6ec7-49a4-a141-778ebda2d563.xml, PBTH_SDP_SERVICE_SEARCH_REQUEST structure pointer [Bluetooth Devices], BTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_SEARCH_REQUEST, PBTH_SDP_SERVICE_SEARCH_REQUEST, _BTH_SDP_SERVICE_SEARCH_REQUEST, bltooth.bth_sdp_service_search_request
+ms.keywords: BTH_SDP_SERVICE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_SERVICE_SEARCH_REQUEST structure pointer [Bluetooth Devices], *PBTH_SDP_SERVICE_SEARCH_REQUEST, PBTH_SDP_SERVICE_SEARCH_REQUEST, bth_structs_c625eff6-6ec7-49a4-a141-778ebda2d563.xml, BTH_SDP_SERVICE_SEARCH_REQUEST, _BTH_SDP_SERVICE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_SEARCH_REQUEST, bltooth.bth_sdp_service_search_request, bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _BTH_SDP_SERVICE_SEARCH_REQUEST {
  
 
 
-#### - uuids
+### -field uuids
 
 An array of UUIDs that represent the services for which to query. Each entry can be a 2-byte,
      4-byte, or 16-byte type, and there can be a maximum of 12 entries. The array can be terminated before
@@ -91,8 +91,8 @@ A handle to the remote SDP server that is returned by the
 
 
 This structure is passed as the input buffer to the 
-    <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_search" tabindex="0"><b>
-    IOCTL_BTH_SDP_SERVICE_SEARCH</b></mshelp:link> IOCTL.
+    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">
+    IOCTL_BTH_SDP_SERVICE_SEARCH</a> IOCTL.
 
 
 

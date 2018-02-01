@@ -72,17 +72,17 @@ NTSTATUS APIENTRY pfnGetPathSourceFromTarget(
 
 
 
-#### - hVidTopology [in]
+### -param hVidTopology [in]
 
 [in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_gettopology.md">pfnGetTopology</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
 
 
-#### - VidPnTargetId [in]
+### -param VidPnTargetId [in]
 
 [in] An integer that identifies a particular video present source.
 
 
-#### - pVidPnSourceId [out]
+### -param pVidPnSourceId [out]
 
 [out] A pointer to a variable that receives the identifier of the video present source.
 

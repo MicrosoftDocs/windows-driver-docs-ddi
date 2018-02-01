@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b189ece-6c49-42e2-8ef2-b3db516fc844
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml, hbapiwmi/PGetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN, hbapiwmi/GetPortAttributesByWWN_IN, _GetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], storage.getportattributesbywwn_in, PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices]
+ms.keywords: "_GetPortAttributesByWWN_IN, storage.getportattributesbywwn_in, PGetPortAttributesByWWN_IN, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml, hbapiwmi/PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], *PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices], hbapiwmi/GetPortAttributesByWWN_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _GetPortAttributesByWWN_IN {
 
 
 
-#### - wwn
+### -field wwn
 
 Contains a worldwide name that identifies a port of type FC_Port.
 

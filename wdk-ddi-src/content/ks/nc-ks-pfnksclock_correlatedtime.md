@@ -71,12 +71,12 @@ LONGLONG FASTCALL KStrClockGetCorrelatedTime(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
 
-#### - SystemTime [out]
+### -param SystemTime [out]
 
 A pointer to a 64-bit integer containing the number of clock ticks since system boot.
 

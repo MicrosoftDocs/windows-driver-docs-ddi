@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 53631f26-8377-4ab5-83db-ed241c11643a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], PKSDATARANGE_AUDIO structure pointer [Audio Devices], ksmedia/PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, ksmedia/KSDATARANGE_AUDIO, KSDATARANGE_AUDIO, audio.ksdatarange_audio"
+ms.keywords: PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], audio.ksdatarange_audio, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, ksmedia/PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO structure pointer [Audio Devices], KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO, ksmedia/KSDATARANGE_AUDIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the audio data. This member is an initialized <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structure.
 
 
-#### - MaximumChannels
+### -field MaximumChannels
 
 Specifies the maximum number of channels supported. A value of (ULONG)-1 for this member means that the number of channels has no explicit limit, although the number of channels might be practically limited by the availability of resources such as memory or processing power.
 
 
-#### - MinimumBitsPerSample
+### -field MinimumBitsPerSample
 
 Specifies the minimum bits per sample supported.
 
 
-#### - MaximumBitsPerSample
+### -field MaximumBitsPerSample
 
 Specifies the maximum bits per sample supported.
 
 
-#### - MinimumSampleFrequency
+### -field MinimumSampleFrequency
 
 Specifies the minimum frequency allowed.
 
 
-#### - MaximumSampleFrequency
+### -field MaximumSampleFrequency
 
 Specifies the maximum frequency allowed.
 

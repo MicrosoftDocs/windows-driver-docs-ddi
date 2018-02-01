@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 70214b6e-92d2-418a-ad8a-8701df02fdc3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/MO_NFR_525, MO_NFR_525, DST_L, STK_9940, PC_5_RW, ntddstor/SYQUEST_EZ135, PSTORAGE_MEDIA_TYPE enumeration pointer [Storage Devices], QIC, ntddstor/IOMEGA_ZIP, PSTORAGE_MEDIA_TYPE, ntddstor/ADR_2, ntddstor/SYQUEST_SYJET, DDS_4mm, ntddstor/SONY_D2, ntddstor/MO_3_RW, ntddstor/STK_DATA_D3, LTO_Accelis, ntddstor/ADR_1, AME_8mm, STORAGE_MEDIA_TYPE, ntddstor/DVD_RW, ntddstor/VXATape_2, ntddstor/PHILIPS_12_WO, ntddstor/STK_9840, DVD_RAM, DVD_ROM, CLEANER_CARTRIDGE, ntddstor/PD_5_RW, ntddstor/MP2_8mm, ntddstor/QIC, MO_5_WO, ntddstor/CLEANER_CARTRIDGE, IBM_Magstar_3590, AVATAR_F2, ntddstor/CD_RW, ntddstor/DST_M, LTO_Ultrium, ntddstor/KODAK_14_WO, AIT1_8mm, ntddstor/CD_R, ntddstor/MO_5_WO, _STORAGE_MEDIA_TYPE, HITACHI_12_WO, ntddstor/STK_9940, ntddstor/VXATape_1, CD_RW, ABL_5_WO, ntddstor/STORAGE_MEDIA_TYPE, ntddstor/ABL_5_WO, ntddstor/NIKON_12_RW, ntddstor/AVATAR_F2, MO_5_RW, VXATape_2, storage.storage_media_type, ntddstor/DVD_R, CYGNET_12_WO, PHILIPS_12_WO, VXATape, ntddstor/MP_8mm, NCTP, IBM_Magstar_MP, IBM_3490E, SYQUEST_EZ135, ntddstor/DVD_RAM, STK_DATA_D3, ntddstor/IOMEGA_JAZ, SONY_D2, *PSTORAGE_MEDIA_TYPE, IBM_3480, ntddstor/Travan, ntddstor/AME_8mm, PD_5_RW, AIT_8mm, DVD_R, ntddstor/PC_5_WO, ntddstor/VXATape, SYQUEST_SYJET, ntddstor/IBM_3480, ntddstor/SAIT, MP_8mm, ntddstor/SYQUEST_EZFLYER, DVD_RW, DV_6mm, ntddstor/DVD_ROM, MiniQic, STORAGE_MEDIA_TYPE enumeration [Storage Devices], ntddstor/DST_S, ntddstor/DMI, CD_ROM, KODAK_14_WO, IOMEGA_ZIP, Travan, PC_5_WO, ntddstor/PINNACLE_APEX_5_RW, ntddstor/HITACHI_12_WO, SONY_DTF, IOMEGA_JAZ, ntddstor/LTO_Accelis, ntddstor/IBM_Magstar_3590, MP2_8mm, ntddstor/AIT_8mm, ntddstor/PC_5_RW, MO_5_LIMDOW, NIKON_12_RW, ADR_2, ntddstor/CYGNET_12_WO, ntddstor/MO_5_RW, ntddstor/PSTORAGE_MEDIA_TYPE, CD_R, ntddstor/LTO_Ultrium, ntddstor/DV_6mm, SYQUEST_EZFLYER, ntddstor/DDS_4mm, SONY_12_WO, ADR_1, ntddstor/SONY_12_WO, structs-general_d1e0e1bc-5ce9-49d0-9ab5-94b5e495d124.xml, ntddstor/AIT1_8mm, DST_S, ntddstor/SONY_DTF, SAIT, ntddstor/IBM_Magstar_MP, ntddstor/NCTP, DLT, ntddstor/CD_ROM, PINNACLE_APEX_5_RW, DMI, ntddstor/IBM_3490E, ntddstor/MO_5_LIMDOW, ntddstor/DLT, MO_3_RW, DST_M, STK_9840, ntddstor/MiniQic, ntddstor/DST_L, VXATape_1
+ms.keywords: ntddstor/DVD_RAM, ntddstor/MO_5_RW, PSTORAGE_MEDIA_TYPE enumeration pointer [Storage Devices], ntddstor/STK_9840, IBM_3480, ntddstor/PHILIPS_12_WO, ntddstor/VXATape, Travan, SYQUEST_EZFLYER, ntddstor/MP2_8mm, ntddstor/STK_DATA_D3, CD_ROM, ntddstor/SYQUEST_SYJET, ntddstor/QIC, ntddstor/MP_8mm, DMI, ntddstor/AME_8mm, CLEANER_CARTRIDGE, MO_3_RW, DST_M, ntddstor/DST_M, ntddstor/MiniQic, ntddstor/DST_L, LTO_Ultrium, ntddstor/Travan, ntddstor/PC_5_WO, ntddstor/SYQUEST_EZFLYER, LTO_Accelis, ntddstor/PINNACLE_APEX_5_RW, ntddstor/AIT_8mm, ntddstor/CD_RW, ntddstor/ADR_1, ntddstor/SONY_DTF, STK_DATA_D3, MP2_8mm, AME_8mm, ntddstor/DV_6mm, ntddstor/MO_NFR_525, MO_NFR_525, VXATape_1, ADR_2, SONY_D2, DV_6mm, NCTP, SONY_12_WO, CD_RW, PHILIPS_12_WO, *PSTORAGE_MEDIA_TYPE, ntddstor/MO_5_LIMDOW, PINNACLE_APEX_5_RW, ntddstor/SONY_12_WO, ntddstor/DVD_ROM, ntddstor/IOMEGA_JAZ, ntddstor/LTO_Accelis, ntddstor/ADR_2, ntddstor/IBM_Magstar_MP, SYQUEST_SYJET, IBM_Magstar_MP, CD_R, ntddstor/IBM_Magstar_3590, ntddstor/MO_5_WO, ntddstor/SAIT, SONY_DTF, ntddstor/SYQUEST_EZ135, ntddstor/VXATape_2, AIT_8mm, ntddstor/STORAGE_MEDIA_TYPE, NIKON_12_RW, ntddstor/VXATape_1, _STORAGE_MEDIA_TYPE, ADR_1, ntddstor/PD_5_RW, ntddstor/DVD_R, SYQUEST_EZ135, MiniQic, STK_9940, ntddstor/DST_S, AIT1_8mm, MO_5_LIMDOW, MO_5_RW, SAIT, storage.storage_media_type, ntddstor/LTO_Ultrium, PSTORAGE_MEDIA_TYPE, ntddstor/HITACHI_12_WO, IBM_Magstar_3590, ntddstor/NCTP, PD_5_RW, ntddstor/ABL_5_WO, STORAGE_MEDIA_TYPE, IOMEGA_ZIP, ntddstor/IOMEGA_ZIP, DVD_RAM, HITACHI_12_WO, PC_5_WO, CYGNET_12_WO, STORAGE_MEDIA_TYPE enumeration [Storage Devices], MP_8mm, ntddstor/MO_3_RW, ntddstor/DLT, ntddstor/IBM_3490E, PC_5_RW, ntddstor/CLEANER_CARTRIDGE, ntddstor/CD_R, ntddstor/CYGNET_12_WO, ntddstor/DMI, ABL_5_WO, ntddstor/SONY_D2, VXATape, AVATAR_F2, DST_S, IBM_3490E, DVD_R, ntddstor/AVATAR_F2, DVD_ROM, ntddstor/KODAK_14_WO, ntddstor/NIKON_12_RW, DVD_RW, DLT, DDS_4mm, DST_L, ntddstor/DVD_RW, ntddstor/STK_9940, ntddstor/AIT1_8mm, IOMEGA_JAZ, ntddstor/DDS_4mm, QIC, STK_9840, structs-general_d1e0e1bc-5ce9-49d0-9ab5-94b5e495d124.xml, ntddstor/PSTORAGE_MEDIA_TYPE, KODAK_14_WO, ntddstor/IBM_3480, MO_5_WO, VXATape_2, ntddstor/CD_ROM, ntddstor/PC_5_RW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -129,267 +129,267 @@ typedef enum _STORAGE_MEDIA_TYPE {
 
 
 
-#### - DDS_4mm
+### -field DDS_4mm
 
 Indicates a DAT DDS1 or DDS2 tape device (all vendors).
 
 
-#### - MiniQic
+### -field MiniQic
 
 Indicates a mini-QIC tape device. 
 
 
-#### - Travan
+### -field Travan
 
 Indicates a Travan TR-1, 2 or 3 tape device. 
 
 
-#### - QIC
+### -field QIC
 
 Indicates a QIC tape device. 
 
 
-#### - MP_8mm
+### -field MP_8mm
 
 Indicates an 8mm Exabyte metal particle tape device. 
 
 
-#### - AME_8mm
+### -field AME_8mm
 
 Indicates an 8mm Exabyte advanced metal tape device.
 
 
-#### - AIT1_8mm
+### -field AIT1_8mm
 
 Indicates an 8mm Sony AIT tape device. 
 
 
-#### - DLT
+### -field DLT
 
 Indicates a DLT compact IIIxt or IV tape device. 
 
 
-#### - NCTP
+### -field NCTP
 
 Indicates a Philips NCTP tape device. 
 
 
-#### - IBM_3480
+### -field IBM_3480
 
 Indicates an IBM 3480 tape device. 
 
 
-#### - IBM_3490E
+### -field IBM_3490E
 
 Indicates an IBM 3490E tape device.
 
 
-#### - IBM_Magstar_3590
+### -field IBM_Magstar_3590
 
 Indicates an IBM Magstar 3590 tape device. 
 
 
-#### - IBM_Magstar_MP
+### -field IBM_Magstar_MP
 
 Indicates an IBM Magstar MP tape device. 
 
 
-#### - STK_DATA_D3
+### -field STK_DATA_D3
 
 Indicates an STK data D3 tape device. 
 
 
-#### - SONY_DTF
+### -field SONY_DTF
 
 Indicates a Sony DTF tape device. 
 
 
-#### - DV_6mm
+### -field DV_6mm
 
 Indicates a 6mm digital video tape device. 
 
 
-#### - DMI
+### -field DMI
 
 Indicates a Exabyte DMI tape device and compatible devices. 
 
 
-#### - SONY_D2
+### -field SONY_D2
 
 Indicates a Sony D2S or D2L tape device. 
 
 
-#### - CLEANER_CARTRIDGE
+### -field CLEANER_CARTRIDGE
 
 Indicates a drive type that supports drive cleaners. 
 
 
-#### - CD_ROM
+### -field CD_ROM
 
 Indicates a CD optical disk. 
 
 
-#### - CD_R
+### -field CD_R
 
 Indicates a CD-recordable (write once) optical disk. 
 
 
-#### - CD_RW
+### -field CD_RW
 
 Indicates a CD-rewritable optical disk. 
 
 
-#### - DVD_ROM
+### -field DVD_ROM
 
 Indicates a DVD-ROM optical disk. 
 
 
-#### - DVD_R
+### -field DVD_R
 
 Indicates a DVD-recordable (write once) optical disk. 
 
 
-#### - DVD_RW
+### -field DVD_RW
 
 Indicates a DVD-rewritable optical disk. 
 
 
-#### - MO_3_RW
+### -field MO_3_RW
 
 Indicates a 3.5" rewritable MO optical disk. 
 
 
-#### - MO_5_WO
+### -field MO_5_WO
 
 Indicates a MO 5.25" write once optical disk. 
 
 
-#### - MO_5_RW
+### -field MO_5_RW
 
 Indicates a MO 5.25" rewritable (not LIMDOW) optical disk.
 
 
-#### - MO_5_LIMDOW
+### -field MO_5_LIMDOW
 
 Indicates a MO 5.25" rewritable (LIMDOW) optical disk. 
 
 
-#### - PC_5_WO
+### -field PC_5_WO
 
 Indicates a phase change 5.25" write once optical disk. 
 
 
-#### - PC_5_RW
+### -field PC_5_RW
 
 Indicates a phase change 5.25" rewritable optical disk. 
 
 
-#### - PD_5_RW
+### -field PD_5_RW
 
 Indicates a phase change dual rewritable optical disk. 
 
 
-#### - ABL_5_WO
+### -field ABL_5_WO
 
 Indicates a ablative 5.25" write once optical disk. 
 
 
-#### - PINNACLE_APEX_5_RW
+### -field PINNACLE_APEX_5_RW
 
 Indicates a pinnacle apex 4.6-GB rewritable optical disk.
 
 
-#### - SONY_12_WO
+### -field SONY_12_WO
 
 Indicates a Sony 12" write once optical disk. 
 
 
-#### - PHILIPS_12_WO
+### -field PHILIPS_12_WO
 
 Indicates a Philips/LMS 12" write once optical disk. 
 
 
-#### - HITACHI_12_WO
+### -field HITACHI_12_WO
 
 Indicates a Hitachi 12" write once optical disk. 
 
 
-#### - CYGNET_12_WO
+### -field CYGNET_12_WO
 
 Indicates a Cygnet/ATG 12" write once optical disk. 
 
 
-#### - KODAK_14_WO
+### -field KODAK_14_WO
 
 Indicates a Kodak 14" write once optical disk. 
 
 
-#### - MO_NFR_525
+### -field MO_NFR_525
 
 Indicates a near field recording (Terastor) optical disk. 
 
 
-#### - NIKON_12_RW
+### -field NIKON_12_RW
 
 Indicates a Nikon 12" rewritable optical disk. 
 
 
-#### - IOMEGA_ZIP
+### -field IOMEGA_ZIP
 
 Indicates Iomega zip magnetic disk device. 
 
 
-#### - IOMEGA_JAZ
+### -field IOMEGA_JAZ
 
 Indicates an Iomega Jaz magnetic disk device. 
 
 
-#### - SYQUEST_EZ135
+### -field SYQUEST_EZ135
 
 Indicates a Syquest EZ135 magnetic disk device. 
 
 
-#### - SYQUEST_EZFLYER
+### -field SYQUEST_EZFLYER
 
 Indicates a Syquest EzFlyer magnetic disk device. 
 
 
-#### - SYQUEST_SYJET
+### -field SYQUEST_SYJET
 
 Indicates a Syquest SyJet magnetic disk device. 
 
 
-#### - AVATAR_F2
+### -field AVATAR_F2
 
 Indicates a 2.5" Floppy device. 
 
 
-#### - MP2_8mm
+### -field MP2_8mm
 
 Indicates an 8mm Hitachi tape device. 
 
 
-#### - DST_S
+### -field DST_S
 
 Indicates a type DST Ampex small tape device. 
 
 
-#### - DST_M
+### -field DST_M
 
 Indicates a type DST Ampex medium tape device. 
 
 
-#### - DST_L
+### -field DST_L
 
 Indicates a type DST Ampex large tape device. 
 
 
-#### - VXATape_1
+### -field VXATape_1
 
 Indicates an 8mm Ecrix tape device. 
 
 
-#### - VXATape_2
+### -field VXATape_2
 
 Indicates an 8mm Ecrix tape device. 
 
@@ -398,47 +398,47 @@ Indicates an 8mm Ecrix tape device.
 
 
 
-#### - LTO_Ultrium
+### -field LTO_Ultrium
 
 Indicates an IBM, HP, or Seagate LTO Ultrium device. 
 
 
-#### - LTO_Accelis
+### -field LTO_Accelis
 
 Indicates an IBM, HP, or Seagate LTO Accelis
 
 
-#### - DVD_RAM
+### -field DVD_RAM
 
 Indicates a DVD-RAM optical device. 
 
 
-#### - AIT_8mm
+### -field AIT_8mm
 
 Indicates an AIT2 or higher 8mm tape device. 
 
 
-#### - ADR_1
+### -field ADR_1
 
 Indicates an on-stream ADR media type device. 
 
 
-#### - ADR_2
+### -field ADR_2
 
 Indicates an on-stream ADR media type device. 
 
 
-#### - STK_9940
+### -field STK_9940
 
 STK 9940
 
 
-#### - SAIT
+### -field SAIT
 
 SAIT Tapes
 
 
-#### - VXATape
+### -field VXATape
 
 VXA (Ecrix 8mm) Tape
 
@@ -452,9 +452,9 @@ Indicates an STK 9840 device.
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
 
-<a href="..\ntddstor\ns-ntddstor-_get_media_types.md">GET_MEDIA_TYPES</a>
-
 <a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a>
+
+<a href="..\ntddstor\ns-ntddstor-_get_media_types.md">GET_MEDIA_TYPES</a>
 
  
 

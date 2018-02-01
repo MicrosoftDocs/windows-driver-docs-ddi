@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, print.printdocumentonprintprocessor, PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], winsplp/PrintDocumentOnPrintProcessor
+ms.keywords: print.printdocumentonprintprocessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, PrintDocumentOnPrintProcessor function [Print Devices], PrintDocumentOnPrintProcessor, winsplp/PrintDocumentOnPrintProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ BOOL PrintDocumentOnPrintProcessor(
 
 
 
-#### - hPrintProcessor [in]
+### -param hPrintProcessor [in]
 
 Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>.
 
 
-#### - pDocumentName [in]
+### -param pDocumentName [in]
 
 Caller-supplied pointer to the document name.
 
@@ -102,9 +102,9 @@ The <code>PrintDocumentOnPrintProcessor</code> function must be written to handl
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
-
 <a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
+
+<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
 
  
 

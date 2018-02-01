@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1a40e8a7-ba7b-4aaf-975f-4095f9ef7ba7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EvaluateWide, debugger.evaluatewide, IDebugControl4::EvaluateWide, IDebugControl4, EvaluateWide method [Windows Debugging], dbgeng/IDebugControl4::EvaluateWide, IDebugControl4 interface [Windows Debugging], EvaluateWide method, EvaluateWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide, EvaluateWide method [Windows Debugging], EvaluateWide, IDebugControl4::EvaluateWide, EvaluateWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], EvaluateWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT EvaluateWide(
 
 
 
-#### - Expression [in]
+### -param Expression [in]
 
 Specifies the expression to be evaluated.
 
 
-#### - DesiredType [in]
+### -param DesiredType [in]
 
 Specifies the desired return type.  Possible values are described in <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
 
 
-#### - Value [out]
+### -param Value [out]
 
 Receives the value of the expression.
 
 
-#### - RemainderIndex [out, optional]
+### -param RemainderIndex [out, optional]
 
 Receives the index of the first character of the expression not used in the evaluation.  If <i>RemainderIndex</i> is <b>NULL</b>, this information isn't returned.
 
@@ -140,11 +140,11 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
  
 

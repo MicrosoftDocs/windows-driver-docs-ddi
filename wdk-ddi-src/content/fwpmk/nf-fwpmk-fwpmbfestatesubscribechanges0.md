@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 375af8a1-9e05-4830-9074-6313b4e082d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpmk/FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], netvista.fwpmbfestatesubscribechanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml
+ms.keywords: fwpmk/FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], netvista.fwpmbfestatesubscribechanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ NTSTATUS NTAPI FwpmBfeStateSubscribeChanges0(
 
 
 
-#### - deviceObject [in, out]
+### -param deviceObject [in, out]
 
 A pointer to a device object that was previously created by the callout driver. For more
      information about how a callout driver creates a device object, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>.
 
 
-#### - callback [in]
+### -param callback [in]
 
 A pointer to a callout driver-provided service state change callback function. The filter engine
      calls this function whenever there is a change in the state of the filter engine.
@@ -118,9 +118,9 @@ The new state of the filter engine. This parameter contains one of the following
 
 
 
-#### FWPM_SERVICE_STOPPED
+#### FWPM_SERVICE_RUNNING
 
-The filter engine is not running.
+The filter engine is running.
 
 
 #### FWPM_SERVICE_START_PENDING
@@ -128,24 +128,24 @@ The filter engine is not running.
 The filter engine is starting.
 
 
+#### FWPM_SERVICE_STOPPED
+
+The filter engine is not running.
+
+
 #### FWPM_SERVICE_STOP_PENDING
 
 The filter engine is stopping.
 
 
-#### FWPM_SERVICE_RUNNING
-
-The filter engine is running.
-
-
-#### - context [in, optional]
+### -param context [in, optional]
 
 A pointer to a callout driver-provided context that is passed to the callback function specified
      in the 
      <i>Callback</i> parameter.
 
 
-#### - changeHandle [out]
+### -param changeHandle [out]
 
 A pointer to a variable that receives a handle that is associated with the registration of the
      callback function. A callout driver passes this handle to the
@@ -207,8 +207,8 @@ A callout driver must call <b>FwpmBfeStateSubscribeChanges0</b> before calling t
     <b>FwpmBfeStateGet0</b> at any time.
 
 A callout driver must deregister the callback function by calling the 
-    <mshelp:link keywords="netvista.fwpmbfestateunsubscribechanges0" tabindex="0"><b>
-    FwpmBfeStateUnsubscribeChanges0</b></mshelp:link> function before the callout driver can be unloaded.
+    <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+    FwpmBfeStateUnsubscribeChanges0</a> function before the callout driver can be unloaded.
 <div class="alert"><b>Note</b>  <p class="note">Do not call <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">FwpmBfeStateUnsubscribeChanges0</a> from the callback function that you passed in the <i>callback</i> parameter. Doing so can cause a deadlock.
 
 </div><div> </div>
@@ -216,12 +216,12 @@ A callout driver must deregister the callback function by calling the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpmbfestateunsubscribechanges0" tabindex="0"><b>
-   FwpmBfeStateUnsubscribeChanges0</b></mshelp:link>
-
-<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+   FwpmBfeStateUnsubscribeChanges0</a>
 
 <a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
+
+<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
  
 

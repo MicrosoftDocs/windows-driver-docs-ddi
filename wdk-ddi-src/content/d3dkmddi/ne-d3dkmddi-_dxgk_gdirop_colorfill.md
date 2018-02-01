@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ef99bb0-855a-46d1-9702-5fc3eba5e68e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GDIROPCF_DSTINVERT, d3dkmddi/DXGK_GDIROPCF_INVALID, d3dkmddi/DXGK_GDIROPCF_PATOR, DXGK_GDIROPCF_PDXN, d3dkmddi/DXGK_GDIROPCF_PDXN, d3dkmddi/DXGK_GDIROPCF_ROP3, d3dkmddi/DXGK_GDIROPCF_PATAND, d3dkmddi/DXGK_GDIROPCF_PATINVERT, d3dkmddi/DXGK_GDIROPCF_PATCOPY, DXGK_GDIROP_COLORFILL enumeration [Display Devices], display.dxgk_gdirop_colorfill, DXGK_GDIROPCF_PATINVERT, DXGK_GDIROPCF_DSTINVERT, DXGK_GDIROPCF_PATCOPY, DXGK_GDIROPCF_PATAND, DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROP_COLORFILL, DXGK_GDIROPCF_INVALID, DXGK_GDIROPCF_ROP3, DXGK_GDIROPCF_PATOR, DmEnums_eaf6bb81-110e-428b-9dc8-22d152bce5b9.xml, _DXGK_GDIROP_COLORFILL
+ms.keywords: d3dkmddi/DXGK_GDIROPCF_DSTINVERT, DXGK_GDIROPCF_PATOR, DXGK_GDIROP_COLORFILL, DXGK_GDIROPCF_PATINVERT, d3dkmddi/DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROPCF_PATAND, DXGK_GDIROPCF_DSTINVERT, DXGK_GDIROPCF_INVALID, _DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROPCF_INVALID, d3dkmddi/DXGK_GDIROPCF_PATCOPY, display.dxgk_gdirop_colorfill, d3dkmddi/DXGK_GDIROPCF_PATOR, DXGK_GDIROP_COLORFILL enumeration [Display Devices], d3dkmddi/DXGK_GDIROPCF_PATINVERT, DXGK_GDIROPCF_PATCOPY, DmEnums_eaf6bb81-110e-428b-9dc8-22d152bce5b9.xml, d3dkmddi/DXGK_GDIROPCF_ROP3, d3dkmddi/DXGK_GDIROPCF_PDXN, DXGK_GDIROPCF_ROP3, DXGK_GDIROPCF_PDXN, DXGK_GDIROPCF_PATAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _DXGK_GDIROP_COLORFILL {
 
 
 
-#### - DXGK_GDIROPCF_INVALID
+### -field DXGK_GDIROPCF_INVALID
 
 Indicates that the GDI raster operation is invalid.
 
 
-#### - DXGK_GDIROPCF_PATCOPY
+### -field DXGK_GDIROPCF_PATCOPY
 
 Indicates that the specified color is copied into all pixels of the destination rectangle.
 
 
-#### - DXGK_GDIROPCF_PATINVERT
+### -field DXGK_GDIROPCF_PATINVERT
 
 Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean <b>XOR</b> operator.
 
 
-#### - DXGK_GDIROPCF_PDXN
+### -field DXGK_GDIROPCF_PDXN
 
 Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean <b>NOT(XOR)</b> operator.
 
 
-#### - DXGK_GDIROPCF_DSTINVERT
+### -field DXGK_GDIROPCF_DSTINVERT
 
 Indicates that the destination rectangle is inverted.
 
 
-#### - DXGK_GDIROPCF_PATAND
+### -field DXGK_GDIROPCF_PATAND
 
 Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean <b>AND</b> operator.
 
 
-#### - DXGK_GDIROPCF_PATOR
+### -field DXGK_GDIROPCF_PATOR
 
 Indicates that the colors of the specified pattern are combined with the colors of the destination rectangle by using the Boolean <b>OR</b> operator.
 
 
-#### - DXGK_GDIROPCF_ROP3
+### -field DXGK_GDIROPCF_ROP3
 
 Indicates that a ternary GDI raster operation (ROP3) will be applied.
 

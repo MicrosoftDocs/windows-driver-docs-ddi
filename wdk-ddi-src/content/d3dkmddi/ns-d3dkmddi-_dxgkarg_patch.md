@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37ca2208-253c-417e-a44c-fd1303d5f3dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_PATCH structure [Display Devices], DXGKARG_PATCH, _DXGKARG_PATCH, d3dkmddi/DXGKARG_PATCH, DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, display.dxgkarg_patch
+ms.keywords: d3dkmddi/DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], _DXGKARG_PATCH, display.dxgkarg_patch, DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, DXGKARG_PATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,28 +89,28 @@ typedef struct _DXGKARG_PATCH {
 
 
 
-#### - hDevice
+### -field hDevice
 
 [in] If a driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains.
 
 For some paging operations, <b>hDevice</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member. 
 
 
-#### - hContext
+### -field hContext
 
 [in] If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains. 
 
 For some paging operations, <b>hContext</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
 
 
-#### - DmaBufferSegmentId
+### -field DmaBufferSegmentId
 
 [in] The identifier of the memory segment that the DMA buffer was paged in. 
 
 The identifier can be zero if the driver indicated not to map the DMA buffer into the segment by setting the <b>DmaBufferSegmentSet</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a> structure to 0 in a call to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function. If <b>DmaBufferSegmentId</b> is zero, the DMA buffer was allocated as a contiguous block of system memory. 
 
 
-#### - DmaBufferPhysicalAddress
+### -field DmaBufferPhysicalAddress
 
 [in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address where the DMA buffer was paged in. 
 
@@ -121,60 +121,60 @@ If <b>DmaBufferSegmentId</b> is nonzero, <b>DmaBufferPhysicalAddress</b> is the 
 Note that <b>DmaBufferPhysicalAddress</b> always refers to the beginning of the DMA buffer even though the driver might be required to patch or submit a section of the DMA buffer that does not include the beginning of the DMA buffer (that is, if the <b>DmaBufferSubmissionStartOffset</b> member is nonzero). 
 
 
-#### - pDmaBuffer
+### -field pDmaBuffer
 
 [in] A pointer to the start of the DMA buffer (that is, the virtual address of the beginning of the DMA buffer).
 
 
-#### - DmaBufferSize
+### -field DmaBufferSize
 
 [in] The size, in bytes, of the DMA buffer that <b>pDmaBuffer</b> points to.
 
 Note that <b>DmaBufferSize</b> represents the entire length of the DMA buffer; however, the request to patch or submit might refer to only a portion of the DMA buffer. 
 
 
-#### - DmaBufferSubmissionStartOffset
+### -field DmaBufferSubmissionStartOffset
 
 [in] The offset, in bytes, from the beginning of the DMA buffer that <b>pDmaBuffer</b> specifies to the start of the portion of the DMA buffer that requires patching or submitting. The offset that is received at patch time matches the offset that is received at submission time. 
 
 
-#### - DmaBufferSubmissionEndOffset
+### -field DmaBufferSubmissionEndOffset
 
 [in] The offset, in bytes, from the beginning of the DMA buffer that <b>pDmaBuffer</b> specifies to the end of the portion of the DMA buffer that requires patching or submitting. The offset that is received at patch time matches the offset that is received at submission time. 
 
 
-#### - pDmaBufferPrivateData
+### -field pDmaBufferPrivateData
 
 [in] A pointer to the driver-resident private data that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
 
 For paging operations, a single paging buffer is used for multiple independent submissions. In that scenario, the driver can indicate—by returning the appropriate private driver data pointer in a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function—to have either a single driver private data range for all submissions or one for each submission. 
 
 
-#### - DmaBufferPrivateDataSize
+### -field DmaBufferPrivateDataSize
 
 [in] The size, in bytes, of the private driver data at <b>pDmaBufferPrivateData</b>.
 
 Note that <b>DmaBufferPrivateDataSize</b> represents the entire length of the private driver data buffer; however, the portion that is associated with the current submission might be smaller. 
 
 
-#### - DmaBufferPrivateDataSubmissionStartOffset
+### -field DmaBufferPrivateDataSubmissionStartOffset
 
 [in] The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the start of the portion of the private data that is associated with the current submission. <b>DmaBufferPrivateDataSubmissionStartOffset</b> is always zero for a nonpaging request. 
 
 
-#### - DmaBufferPrivateDataSubmissionEndOffset
+### -field DmaBufferPrivateDataSubmissionEndOffset
 
 [in] The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the end of the portion of the private data that is associated with the current submission. 
 
 
-#### - pAllocationList
+### -field pAllocationList
 
 [in] A pointer to an array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
 
 For paging operations, <b>pAllocationList</b> is <b>NULL</b> because paging buffers are not associated with allocation lists. 
 
 
-#### - AllocationListSize
+### -field AllocationListSize
 
 [in] The number of elements in the array that <b>pAllocationList</b> specifies.
 
@@ -183,7 +183,7 @@ Note that <b>AllocationListSize</b> represents the total size of the allocation 
 Note that for paging operations <b>AllocationListSize</b> is zero because paging buffers are not associated with allocation lists. 
 
 
-#### - pPatchLocationList
+### -field pPatchLocationList
 
 [in] A pointer to an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures for the list of patch locations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to.
 
@@ -192,7 +192,7 @@ Note that the array can begin with an element that is before the range that is u
 For paging operations, <b>pPatchLocationList</b> is <b>NULL</b> because paging buffers are not associated with patch-location lists.
 
 
-#### - PatchLocationListSize
+### -field PatchLocationListSize
 
 [in] The number of elements in the array that <b>pPatchLocationList</b> specifies.
 
@@ -201,31 +201,31 @@ Note that <b>PatchLocationListSize</b> represents the total size of the patch-lo
 For paging operations, <b>PatchLocationListSize</b> is zero because paging buffers are not associated with patch-location lists.
 
 
-#### - PatchLocationListSubmissionStart
+### -field PatchLocationListSubmissionStart
 
 [in] The index of the first element in the patch-location list that <b>pPatchLocationList</b> specifies that must be processed. 
 
 For paging operations, <b>PatchLocationListSubmissionStart</b> is zero.
 
 
-#### - PatchLocationListSubmissionLength
+### -field PatchLocationListSubmissionLength
 
 [in] The number of elements in the patch-location list that <b>pPatchLocationList</b> specifies that must be processed.
 
 For paging operations, <b>PatchLocationListSubmissionLength</b> is zero.
 
 
-#### - SubmissionFenceId
+### -field SubmissionFenceId
 
 [in] A unique identifier that the driver can write into the fence command at the end of the DMA buffer. For more information about this type of identifier, see <a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a> structure that identifies information about the DMA buffer that requires patching.
 
 
-#### - EngineOrdinal
+### -field EngineOrdinal
 
 [in] Reserved for future use.
 
@@ -239,27 +239,27 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a>
 
  
 

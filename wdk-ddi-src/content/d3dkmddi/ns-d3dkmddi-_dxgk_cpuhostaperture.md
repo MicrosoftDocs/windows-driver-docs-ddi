@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_cpuhostaperture, DXGK_CPUHOSTAPERTURE structure [Display Devices], d3dkmddi/DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE, _DXGK_CPUHOSTAPERTURE
+ms.keywords: DXGK_CPUHOSTAPERTURE structure [Display Devices], display.dxgk_cpuhostaperture, DXGK_CPUHOSTAPERTURE, d3dkmddi/DXGK_CPUHOSTAPERTURE, _DXGK_CPUHOSTAPERTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGK_CPUHOSTAPERTURE {
 
 
 
-#### - PhysicalAddress
+### -field PhysicalAddress
 
 The CPU physical address.
 
 
-#### - SizeInPages
+### -field SizeInPages
 
 The size d3ddiin CPU host pages.
 

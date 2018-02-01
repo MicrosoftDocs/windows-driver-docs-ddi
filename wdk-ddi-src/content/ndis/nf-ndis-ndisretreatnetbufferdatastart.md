@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisRetreatNetBufferDataStart, netvista.ndisretreatnetbufferdatastart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisRetreatNetBufferDataStart, netvista.ndisretreatnetbufferdatastart, ndis/NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NDIS_STATUS NdisRetreatNetBufferDataStart(
 
 
 
-#### - NetBuffer [in]
+### -param NetBuffer [in]
 
 A pointer to a previously allocated NET_BUFFER structure.
 
 
-#### - DataOffsetDelta [in]
+### -param DataOffsetDelta [in]
 
 The amount of 
      <i>used data space</i> to add. NDIS adjusts the 
@@ -87,14 +87,14 @@ The amount of
      <i>unused data space</i> to satisfy the request, NDIS allocates additional memory.
 
 
-#### - DataBackFill [in]
+### -param DataBackFill [in]
 
 If NDIS must allocate memory, this parameter specifies the amount of data space, in addition to
      the value of the 
      <i>DataOffsetDelta</i> parameter, to allocate.
 
 
-#### - AllocateMdlHandler [in, optional]
+### -param AllocateMdlHandler [in, optional]
 
 An optional entry point for an 
      <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a> function. If the caller
@@ -167,8 +167,8 @@ If there isn't enough
     driver's design requirements.
 
 Call the 
-    <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-    NdisAdvanceNetBufferDataStart</b></mshelp:link> function to release the 
+    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    NdisAdvanceNetBufferDataStart</a> function to release the 
     <i>used data space</i> that was added with 
     <b>NdisRetreatNetBufferDataStart</b>.
 
@@ -176,12 +176,12 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
-
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

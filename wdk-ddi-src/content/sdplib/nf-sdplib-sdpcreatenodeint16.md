@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d36d9ac5-1bb8-4433-b795-fe8e3391980e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeInt16, SdpCreateNodeInt16 function [Bluetooth Devices], sdplib/SdpCreateNodeInt16, bltooth.sdpcreatenodeint16, bth_funcs_7ca1636f-a86f-4938-8483-461e48b13abb.xml
+ms.keywords: bth_funcs_7ca1636f-a86f-4938-8483-461e48b13abb.xml, sdplib/SdpCreateNodeInt16, SdpCreateNodeInt16 function [Bluetooth Devices], bltooth.sdpcreatenodeint16, SdpCreateNodeInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ PSDP_NODE SdpCreateNodeInt16(
 
 
 
-#### - sVal [in]
+### -param sVal [in]
 
 The 16-bit integer value that is used to initialize the SDP_NODE structure.
 
 
-#### - tag [in]
+### -param tag [in]
 
 A profile driver defined tag to associate with the node.
 
@@ -119,13 +119,13 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 
  
 

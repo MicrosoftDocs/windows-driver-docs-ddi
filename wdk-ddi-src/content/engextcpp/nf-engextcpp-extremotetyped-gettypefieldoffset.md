@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, ExtRemoteTyped::GetTypeFieldOffset, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, GetTypeFieldOffset method [Windows Debugging], debugger.extremotetyped_gettypefieldoffset, ExtRemoteTyped, GetTypeFieldOffset
+ms.keywords: ExtRemoteTyped, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, debugger.extremotetyped_gettypefieldoffset, GetTypeFieldOffset, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::GetTypeFieldOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ static ULONG GetTypeFieldOffset(
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 The name of the type of the structure. This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
 
-#### - Field [in]
+### -param Field [in]
 
 The name of the member in the structure.  You can specify sub-members  by using a dot operator (.) (for example, <b>mymember.mysubmember</b>).
 

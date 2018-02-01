@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bad50869-472c-4eb7-9bc0-0fa2d27ee753
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExtensionFunction method [Windows Debugging], IDebugControl interface, IDebugControl3, IDebugControl2::GetExtensionFunction, dbgeng/IDebugControl3::GetExtensionFunction, IDebugControl3 interface [Windows Debugging], GetExtensionFunction method, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, IDebugControl2 interface [Windows Debugging], GetExtensionFunction method, IDebugControl interface [Windows Debugging], GetExtensionFunction method, IDebugControl::GetExtensionFunction, dbgeng/IDebugControl::GetExtensionFunction, GetExtensionFunction, debugger.getextensionfunction, GetExtensionFunction method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl2 interface, GetExtensionFunction method [Windows Debugging], dbgeng/IDebugControl2::GetExtensionFunction
+ms.keywords: IDebugControl3::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetExtensionFunction method, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, IDebugControl3, dbgeng/IDebugControl::GetExtensionFunction, IDebugControl3 interface [Windows Debugging], GetExtensionFunction method, GetExtensionFunction, debugger.getextensionfunction, GetExtensionFunction method [Windows Debugging], IDebugControl2 interface, IDebugControl::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], dbgeng/IDebugControl2::GetExtensionFunction, IDebugControl2 interface [Windows Debugging], GetExtensionFunction method, GetExtensionFunction method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::GetExtensionFunction, IDebugControl2::GetExtensionFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetExtensionFunction(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Specifies the handle of the extension library that contains the extension function.  If <i>Handle</i> is zero, the engine will walk the extension library chain searching for the extension function.
 
 
-#### - FuncName [in]
+### -param FuncName [in]
 
 Specifies the name of the extension function to return.  When searching the extension libraries for the function, the debugger engine will prepend "_EFN_" to the name.  For example, if <i>FuncName</i> is "SampleFunction", the engine will search the extension libraries for "_EFN_SampleFunction".
 
 
-#### - Function [out]
+### -param Function [out]
 
 Receives the extension function.
 
@@ -123,17 +123,17 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
 
  
 

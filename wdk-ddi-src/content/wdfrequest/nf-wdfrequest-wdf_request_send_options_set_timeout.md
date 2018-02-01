@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 729bd44f-9ac7-4b3d-905d-a78b10fba2a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, kmdf.wdf_request_send_options_set_timeout, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, wdf.wdf_request_send_options_set_timeout
+ms.keywords: wdf.wdf_request_send_options_set_timeout, DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, kmdf.wdf_request_send_options_set_timeout, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT(
 
 
 
-#### - Options [in, out]
+### -param Options [in, out]
 
 A pointer to the driver's <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure.
 
 
-#### - Timeout [in]
+### -param Timeout [in]
 
 An absolute or relative time-out value. For more information, see the <b>Timeout</b> member of the <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure.
 
@@ -99,9 +99,9 @@ The <b>WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</b> function stores the specified ti
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
-
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
 
  
 

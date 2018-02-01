@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 48827a51-d364-43f6-864b-b63395168429
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_tcp_large_send_offload_net_buffer_list_info, PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, tcpip_offload_ref_ea60f429-377b-47e6-bb4b-aff34288fa17.xml, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, _NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
+ms.keywords: ndis/NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, tcpip_offload_ref_ea60f429-377b-47e6-bb4b-aff34288fa17.xml, PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_tcp_large_send_offload_net_buffer_list_info, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, _NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,29 +99,11 @@ typedef struct _NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO {
 
 
 
-#### - Transmit
+### -field Transmit
 
 A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO that specifies transmit
       information and that contains the following members:
       
-
-
-#### Unused
-
-A ULONG value that specifies unused space that is reserved for NDIS.
-
-
-#### Type
-
-The offload type that the miniport driver should run. Protocol drivers set this member to
-        NDIS_TCP_LARGE_SEND_OFFLOAD_V1_TYPE to specify large send offload version 1 (LSOV1) operations or to
-        NDIS_TCP_LARGE_SEND_OFFLOAD_V2_TYPE to specify large send offload version 2 (LSOV2)
-        operations.
-
-
-#### Reserved2
-
-Reserved for NDIS.
 
 
 ### -field Transmit.Unused
@@ -142,38 +124,11 @@ The offload type that the miniport driver should run. Protocol drivers set this 
 Reserved for NDIS.
 
 
-#### - LsoV1Transmit
+### -field LsoV1Transmit
 
 A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO that specifies LSO transmit
       information and that contains the following members:
       
-
-
-#### MSS
-
-The maximum segment size (MSS), in bytes, for each packet after segmentaion. The TCP/IP
-        transport writes this value before passing a large TCP packet to a miniport driver for segmentation.
-        The size of TCP payload in each transmitted segment must not exceed this value.
-
-
-#### TcpHeaderOffset
-
-The offset, in bytes, of the TCP header from the beginning of the packet for TCP packets.
-        Miniport drivers can use 
-        <b>TcpHeaderOffset</b> to determine the location of the TCP header so that they do not have to parse
-        IP headers.
-
-
-#### Type
-
-The offload type that the miniport driver should run. Protocol drivers set this member to
-        NDIS_TCP_LARGE_SEND_OFFLOAD_V1_TYPE to specify LSOV1 operations or to
-        NDIS_TCP_LARGE_SEND_OFFLOAD_V2_TYPE to specify LSOV2 operations.
-
-
-#### Reserved2
-
-Reserved for NDIS.
 
 
 ### -field LsoV1Transmit.MSS
@@ -203,29 +158,11 @@ The offload type that the miniport driver should run. Protocol drivers set this 
 Reserved for NDIS.
 
 
-#### - LsoV1TransmitComplete
+### -field LsoV1TransmitComplete
 
 A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO that specifies LSO transmit
       complete information and that contains the following members:
       
-
-
-#### TcpPayload
-
-The total number of TCP payload bytes in a set of packets that a network interface card (NIC)
-        created by segmenting a large packet. A miniport driver writes the TCP payload size before completing
-        the send of an LSO packet.
-
-
-#### Type
-
-The offload type that the miniport driver performed. The mniport drivers leaves this value the
-        same as it was when the overlying driver submitted the packet for transmit.
-
-
-#### Reserved2
-
-Reserved for NDIS.
 
 
 ### -field LsoV1TransmitComplete.TcpPayload
@@ -246,39 +183,11 @@ The offload type that the miniport driver performed. The mniport drivers leaves 
 Reserved for NDIS.
 
 
-#### - LsoV2Transmit
+### -field LsoV2Transmit
 
 A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO that specifies LSOV2 transmit
       information and that contains the following members:
       
-
-
-#### MSS
-
-The MSS, in bytes, for each TCP segment. The TCP/IP transport writes this value before passing
-        a large TCP packet to a miniport driver for segmentation.
-
-
-#### TcpHeaderOffset
-
-The offset, in bytes, of the TCP header from the beginning of the packet for TCP packets.
-        Miniport drivers can use 
-        <b>TcpHeaderOffset</b> to determine the location of the TCP header so that they do not have to parse
-        IP headers.
-
-
-#### Type
-
-The offload type that the miniport driver should run. Protocol drivers set this member to
-        NDIS_TCP_LARGE_SEND_OFFLOAD_V1_TYPE to specify LSOV1 operations or to
-        NDIS_TCP_LARGE_SEND_OFFLOAD_V2_TYPE to specify LSOV2 operations.
-
-
-#### IPVersion
-
-The IP version of the packet. For IPv4 packets, 
-        <b>IPVersion</b> is set to NDIS_TCP_LARGE_SEND_OFFLOAD_IPv4. For IPv6 packets, 
-        <b>IPVersion</b> is set to NDIS_TCP_LARGE_SEND_OFFLOAD_IPv6.
 
 
 ### -field LsoV2Transmit.MSS
@@ -309,29 +218,11 @@ The IP version of the packet. For IPv4 packets,
         <b>IPVersion</b> is set to NDIS_TCP_LARGE_SEND_OFFLOAD_IPv6.
 
 
-#### - LsoV2TransmitComplete
+### -field LsoV2TransmitComplete
 
 A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO that specifies LSOV2 transmit
       complete information and that contains the following members:
       
-
-
-#### Reserved
-
-In general, this member is reserved for NDIS.  However, when a send operation is complete, the miniport driver must set this member to zero.
-
-
-#### Type
-
-The offload type that the miniport driver performed. The mniport driver leaves this value the
-        same as it was when the overlying driver submitted the packet for transmit.
-
- For example, when a send operation is complete, the miniport driver sets this member to <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2_TYPE</b>.
-
-
-#### Reserved2
-
-Reserved for NDIS.
 
 
 ### -field LsoV2TransmitComplete.Reserved
@@ -352,7 +243,7 @@ The offload type that the miniport driver performed. The mniport driver leaves t
 Reserved for NDIS.
 
 
-#### - Value
+### -field Value
 
 A PVOID version of the LSO information. Use this member to access the raw information instead of
       the specific fields.
@@ -385,13 +276,13 @@ For LSOV1, miniport drivers write the TCP payload size in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/network/offloading-the-segmentation-of-large-tcp-packets">Offloading the Segmentation of Large TCP Packets</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/network/offloading-the-segmentation-of-large-tcp-packets">Offloading the Segmentation of Large TCP Packets</a>
 
  
 

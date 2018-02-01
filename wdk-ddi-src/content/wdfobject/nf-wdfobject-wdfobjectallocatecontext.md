@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfObjectAllocateContext method, DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext, PFN_WDFOBJECTALLOCATECONTEXT, kmdf.wdfobjectallocatecontext
+ms.keywords: PFN_WDFOBJECTALLOCATECONTEXT, DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, wdfobject/WdfObjectAllocateContext, wdf.wdfobjectallocatecontext, WdfObjectAllocateContext method, WdfObjectAllocateContext, kmdf.wdfobjectallocatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfObjectAllocateContext(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle to a framework object.
 
 
-#### - ContextAttributes [in]
+### -param ContextAttributes [in]
 
 A pointer to a caller-supplied <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes the context space.
 
 
-#### - Context [out]
+### -param Context [out]
 
 A pointer to a location that receives a pointer to the allocated context space.
 
@@ -181,11 +181,11 @@ For more information about object context space, see <a href="https://docs.micro
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
 
  
 

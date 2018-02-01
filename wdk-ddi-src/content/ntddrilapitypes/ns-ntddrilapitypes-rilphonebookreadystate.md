@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cd71234b-4b46-4b7b-953b-32e6f014af03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILPHONEBOOKREADYSTATE, netvista.rilphonebookreadystate, RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKREADYSTATE
+ms.keywords: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE, ntddrilapitypes/RILPHONEBOOKREADYSTATE, netvista.rilphonebookreadystate, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILPHONEBOOKREADYSTATE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - hUiccApp
+### -field hUiccApp
 
 
 
-#### - dwStoreLocations
+### -field dwStoreLocations
 
 

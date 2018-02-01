@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1085EA0A-B688-4F77-80AF-E81CFE645CDF
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_NFC_A, _NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_NFC_B, NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_CONFIG, nfpdrivers.nfc_cx_poll_bailout_config, NFC_CX_POLL_BAILOUT_DEFAULT, nfccx/NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_NFC_B
+ms.keywords: NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG, nfpdrivers.nfc_cx_poll_bailout_config, *PNFC_CX_POLL_BAILOUT_CONFIG, _NFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_NFC_B, NFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_POLL_BAILOUT_NFC_B, nfccx/NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,23 +69,23 @@ typedef enum _NFC_CX_POLL_BAILOUT_CONFIG {
 
 
 
-#### - NFC_CX_POLL_BAILOUT_DEFAULT
+### -field NFC_CX_POLL_BAILOUT_DEFAULT
 
 
 
-#### - NFC_CX_POLL_BAILOUT_NFC_A
+### -field NFC_CX_POLL_BAILOUT_NFC_A
 
 
 
-#### - NFC_CX_POLL_BAILOUT_NFC_B
+### -field NFC_CX_POLL_BAILOUT_NFC_B
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

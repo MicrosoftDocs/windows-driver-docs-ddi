@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92a1c2d7-6a6f-4b5e-be04-b444abe3e1d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreatedevice, ks/KsCreateDevice, avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, KsCreateDevice, KsCreateDevice function [Streaming Media Devices]
+ms.keywords: avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, KsCreateDevice function [Streaming Media Devices], KsCreateDevice, ks/KsCreateDevice, stream.kscreatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS KsCreateDevice(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 A pointer to the WDM driver object of the minidriver.
 
 
-#### - PhysicalDeviceObject [in]
+### -param PhysicalDeviceObject [in]
 
 A pointer to the WDM physical device object for the device you want to create under AVStream.
 
 
-#### - Descriptor [in, optional]
+### -param Descriptor [in, optional]
 
 A pointer to a device descriptor that describes the characteristics of the device being created. If the caller does not specify this optional parameter, AVStream creates a device with default characteristics and no associated filter factories.
 
 
-#### - ExtensionSize [in]
+### -param ExtensionSize [in]
 
 This parameter contains the size of the device extension. If this is zero, the default extension size is used. If not, it must be at least sizeof (KSDEVICE_HEADER).
 
 
-#### - Device [out, optional]
+### -param Device [out, optional]
 
 A pointer to a memory location that contains the address of the created <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure. Optional.
 
@@ -117,21 +117,21 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
 
  
 

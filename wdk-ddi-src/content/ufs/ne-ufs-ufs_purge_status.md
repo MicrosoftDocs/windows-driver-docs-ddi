@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ufs_purge_status, UFS_PurgeStatusIdle, UFS_PurgeStatusQueueNotEmpty, UFS_PURGE_STATUS enumeration [Storage Devices], ufs/UFS_PurgeStatusInProgress, ufs/UFS_PURGE_STATUS, UFS_PurgeStatusInterrupted, UFS_PURGE_STATUS, ufs/UFS_PurgeStatusSuccess, UFS_PurgeStatusFailure, UFS_PurgeStatusSuccess, ufs/UFS_PurgeStatusFailure, ufs/UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusQueueNotEmpty, UFS_PurgeStatusInProgress
+ms.keywords: ufs/UFS_PurgeStatusInterrupted, UFS_PurgeStatusFailure, UFS_PURGE_STATUS, ufs/UFS_PurgeStatusSuccess, UFS_PURGE_STATUS enumeration [Storage Devices], ufs/UFS_PURGE_STATUS, storage.ufs_purge_status, UFS_PurgeStatusInProgress, UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusInProgress, UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusIdle, UFS_PurgeStatusIdle, UFS_PurgeStatusSuccess, ufs/UFS_PurgeStatusFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _UFS_PURGE_STATUS {
 
 
 
-#### - UFS_PurgeStatusIdle
+### -field UFS_PurgeStatusIdle
 
 The status of the purge operation has already been read but was not returned.
 
 
-#### - UFS_PurgeStatusInProgress
+### -field UFS_PurgeStatusInProgress
 
 The purge operation is currently in progress.
 
 
-#### - UFS_PurgeStatusInterrupted
+### -field UFS_PurgeStatusInterrupted
 
 The current purge operation was interrupted.
 
 
-#### - UFS_PurgeStatusSuccess
+### -field UFS_PurgeStatusSuccess
 
 The current purge operation was successful.
 
 
-#### - UFS_PurgeStatusQueueNotEmpty
+### -field UFS_PurgeStatusQueueNotEmpty
 
 The current purge operation failed due to the logical queue being not empty.
 
 
-#### - UFS_PurgeStatusFailure
+### -field UFS_PurgeStatusFailure
 
 The current purge operation failed.
 

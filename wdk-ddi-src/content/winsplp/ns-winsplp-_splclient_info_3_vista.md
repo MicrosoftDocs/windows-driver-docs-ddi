@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/SPLCLIENT_INFO_3_VISTA, _SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, SPLCLIENT_INFO_3_VISTA structure [Print Devices], *LPSPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA, *PSPLCLIENT_INFO_3, SPLCLIENT_INFO_3
+ms.keywords: SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3, _SPLCLIENT_INFO_3_VISTA, *PSPLCLIENT_INFO_3, winsplp/SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, SPLCLIENT_INFO_3_VISTA structure [Print Devices], *LPSPLCLIENT_INFO_3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ typedef struct _SPLCLIENT_INFO_3_VISTA {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Specifies the size in bytes of this structure.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Specifies open printer additional flags to the provider.
 
 
-#### - dwSize
+### -field dwSize
 
 Reserved. Used for compatibility with the <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> structure.
 
 
-#### - pMachineName
+### -field pMachineName
 
 Specifies the client machine name.
 
 
-#### - pUserName
+### -field pUserName
 
 Specifies the client user name.
 
 
-#### - dwBuildNum
+### -field dwBuildNum
 
 Specifies the client build number.
 
 
-#### - dwMajorVersion
+### -field dwMajorVersion
 
 Specifies the major version of the client machine.
 
 
-#### - dwMinorVersion
+### -field dwMinorVersion
 
 Specifies the minor version of the client machine.
 
 
-#### - wProcessorArchitecture
+### -field wProcessorArchitecture
 
 Specifies the client machine architecture.
 
 
-#### - hSplPrinter
+### -field hSplPrinter
 
 Specifies the server-side handle to be used for direct calls.
 

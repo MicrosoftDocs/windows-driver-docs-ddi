@@ -71,13 +71,13 @@ VOID NdkArmCq(
 
 
 
-#### - *pNdkCq [in]
+### -param *pNdkCq [in]
 
 A pointer to an NDK completion queue object (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 The type of notification to arm. The following notification types are defined:
 
@@ -120,12 +120,6 @@ Notify when the completion queue receives a send request that includes the ND_OP
 </table> 
 
 
-#### - pNdkCq [in]
-
-A pointer to an NDK completion queue object (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
-
-
-
 ## -returns
 
 
@@ -144,15 +138,15 @@ If the CQ is closed while a call to <i>NdkCqNotificationCallback</i> is in-progr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_cq_notification_callback.md">NDK_FN_CQ_NOTIFICATION_CALLBACK</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_cq_notification_callback.md">NDK_FN_CQ_NOTIFICATION_CALLBACK</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
  
 

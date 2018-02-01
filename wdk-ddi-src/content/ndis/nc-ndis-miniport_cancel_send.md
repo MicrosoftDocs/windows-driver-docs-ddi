@@ -75,14 +75,14 @@ VOID MiniportCancelSend(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information about an adapter.
 
 
-#### - CancelId [in]
+### -param CancelId [in]
 
 A cancellation identifier. This identifier specifies the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are being
      canceled.
@@ -105,8 +105,8 @@ Miniport drivers and intermediate drivers that queue send
     structures.
 
 When an overlying NDIS driver calls the 
-    <mshelp:link keywords="netvista.ndiscancelsendnetbufferlists" tabindex="0"><b>
-    NdisCancelSendNetBufferLists</b></mshelp:link> function, NDIS calls the 
+    <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+    NdisCancelSendNetBufferLists</a> function, NDIS calls the 
     <i>MiniportCancelSend</i> function of the appropriate lower-level driver on the binding. NDIS makes this
     call only if the lower-level driver exports a 
     <i>MiniportCancelSend</i> function.
@@ -116,8 +116,8 @@ A miniport driver's
 <ol>
 <li>
 Traverses its list of queued NET_BUFFER_LIST structures for the specified adapter and calls the 
-      <mshelp:link keywords="netvista.ndis_get_net_buffer_list_cancel_id" tabindex="0"><b>
-      NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link> macro to obtain the cancellation identifier for each queued
+      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+      NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a> macro to obtain the cancellation identifier for each queued
       NET_BUFFER_LIST structure. The miniport driver compares the cancellation identifier that
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID returns with the cancellation identifier that NDIS passed to 
       <i>MiniportCancelSend</i>.
@@ -130,8 +130,8 @@ Removes from the send queue (un-links) all NET_BUFFER_LIST structures whose canc
 </li>
 <li>
 Calls the 
-      <mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-      NdisMSendNetBufferListsComplete</b></mshelp:link> function for all unlinked NET_BUFFER_LIST structures to return
+      <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+      NdisMSendNetBufferListsComplete</a> function for all unlinked NET_BUFFER_LIST structures to return
       the structures .The miniport driver sets the status field of the NET_BUFFER_LIST structures to
       NDIS_STATUS_SEND_ABORTED.
 
@@ -146,8 +146,8 @@ Performs the operations in the preceding list for a miniport driver's
 </li>
 <li>
 Calls the 
-      <mshelp:link keywords="netvista.ndiscancelsendnetbufferlists" tabindex="0"><b>
-      NdisCancelSendNetBufferLists</b></mshelp:link> function, specifying the binding that maps to the adapter that NDIS
+      <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+      NdisCancelSendNetBufferLists</a> function, specifying the binding that maps to the adapter that NDIS
       specified in the call to 
       <i>MiniportCancelSend</i>.
 
@@ -190,19 +190,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_get_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
 
  
 

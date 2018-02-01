@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceWriteToHardware, wdfdevice/WdfDeviceWriteToHardware, PFN_WDFDEVICEWRITETOHARDWARE, wdfhwaccess/WdfDeviceWriteToHardware, WdfDeviceWriteToHardware method, wdf.wdfdevicewritetohardware
+ms.keywords: PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware method, wdfdevice/WdfDeviceWriteToHardware, WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware, wdf.wdfdevicewritetohardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,31 +77,31 @@ void WdfDeviceWriteToHardware(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 
 
-#### - Size [in]
+### -param Size [in]
 
 
 
-#### - TargetAddress [in]
+### -param TargetAddress [in]
 
 
 
-#### - Value [in]
+### -param Value [in]
 
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 
 
-#### - Count [in, optional]
+### -param Count [in, optional]
 
 
 

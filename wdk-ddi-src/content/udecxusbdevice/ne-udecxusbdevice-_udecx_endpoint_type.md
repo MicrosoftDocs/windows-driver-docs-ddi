@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxEndpointTypeInvalid, UDECX_ENDPOINT_TYPE enumeration [Buses], udecxusbdevice/UdecxEndpointTypeInvalid, buses.udecx_endpoint_type, UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeSimple, udecxusbdevice/UdecxEndpointTypeDynamic, _UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE, UdecxEndpointTypeDynamic, UdecxEndpointTypeSimple, udecxusbdevice/UDECX_ENDPOINT_TYPE
+ms.keywords: UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple, UdecxEndpointTypeDynamic, buses.udecx_endpoint_type, udecxusbdevice/UdecxEndpointTypeInvalid, UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE enumeration [Buses], _UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE, udecxusbdevice/UDECX_ENDPOINT_TYPE, UdecxEndpointTypeSimple, udecxusbdevice/UdecxEndpointTypeDynamic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _UDECX_ENDPOINT_TYPE {
 
 
 
-#### - UdecxEndpointTypeInvalid
+### -field UdecxEndpointTypeInvalid
 
 The endpoint is not of a valid type.
 
 
-#### - UdecxEndpointTypeSimple
+### -field UdecxEndpointTypeSimple
 
 The endpoint is defined in the first (and only) interface setting of the interface. That device has only one configuration. The client driver creates all endpoints before the device is detected. 
 
 
-#### - UdecxEndpointTypeDynamic
+### -field UdecxEndpointTypeDynamic
 
 The endpoint is dynamically created in the client driver's implementation of the <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback.
 

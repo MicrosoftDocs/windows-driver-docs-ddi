@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8839c0ab-08c5-4cc7-a526-aa1ebe2fde15
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IPortWaveRTStream::FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], audmp-routines_7e3477c5-08b8-4e7c-bfb9-36945bf765c4.xml, IPortWaveRTStream interface [Audio Devices], FreePagesFromMdl method, IPortWaveRTStream, IPortWaveRTStream::FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], IPortWaveRTStream interface, audio.iportwavertstream_freepagesfrommdl, FreePagesFromMdl
+ms.keywords: FreePagesFromMdl method [Audio Devices], IPortWaveRTStream interface, audmp-routines_7e3477c5-08b8-4e7c-bfb9-36945bf765c4.xml, FreePagesFromMdl, portcls/IPortWaveRTStream::FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], audio.iportwavertstream_freepagesfrommdl, IPortWaveRTStream::FreePagesFromMdl, IPortWaveRTStream interface [Audio Devices], FreePagesFromMdl method, IPortWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ VOID FreePagesFromMdl(
 
 
 
-#### - MemoryDescriptorList [in]
+### -param MemoryDescriptorList [in]
 
 Pointer to the MDL.
 
@@ -92,9 +92,9 @@ The miniport driver must call this method to free an MDL that was previously all
 
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
-<a href="https://msdn.microsoft.com/976f7e83-9b2a-4e1b-ab76-76d8e9711bff">IPortWaveRTStream::AllocateContiguousPagesForMdl </a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+
+<a href="https://msdn.microsoft.com/976f7e83-9b2a-4e1b-ab76-76d8e9711bff">IPortWaveRTStream::AllocateContiguousPagesForMdl </a>
 
  
 

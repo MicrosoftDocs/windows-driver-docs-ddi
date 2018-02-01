@@ -67,7 +67,7 @@ NTSTATUS APIENTRY DXGKDDI_CREATEPERIODICFRAMENOTIFICATION(
 
 
 
-#### - pCreatePeriodicFrameNotification [in]
+### -param pCreatePeriodicFrameNotification [in]
 
 A structure of type <i>PDXGKARG_CREATEPERIODICFRAMENOTIFICATION</i> containing the arguments needed to create a periodic frame notification.
 

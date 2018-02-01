@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72545150-5fd8-4770-aab2-b49d80c1e865
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUnregisterPlugPlayNotificationEx, wdm/IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], kernel.iounregisterplugplaynotificationex, k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml
+ms.keywords: k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, kernel.iounregisterplugplaynotificationex, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], wdm/IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS IoUnregisterPlugPlayNotificationEx(
 
 
 
-#### - NotificationEntry [in]
+### -param NotificationEntry [in]
 
 A pointer to an opaque value that represents the registration to cancel. The caller previously obtained this value by calling the <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a> routine. 
 

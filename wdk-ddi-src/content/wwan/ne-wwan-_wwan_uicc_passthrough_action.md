@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4C9293CB-D92D-4C31-929F-16C1B8918933
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanUiccPassThroughEnable, wwan/WWAN_UICC_PASSTHROUGH_ACTION, WwanUiccPassThroughActionMaximum, netvista.wwan_uicc_passthrough_action, wwan/WwanUiccPassThroughActionMaximum, WwanUiccPassThroughEnable, WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughDisable, *PWWAN_UICC_PASSTHROUGH_ACTION, _WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughDisable
+ms.keywords: WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughActionMaximum, wwan/WwanUiccPassThroughDisable, wwan/WWAN_UICC_PASSTHROUGH_ACTION, netvista.wwan_uicc_passthrough_action, WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughActionMaximum, WwanUiccPassThroughDisable, wwan/WwanUiccPassThroughEnable, _WWAN_UICC_PASSTHROUGH_ACTION, WwanUiccPassThroughEnable, *PWWAN_UICC_PASSTHROUGH_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WWAN_UICC_PASSTHROUGH_ACTION {
 
 
 
-#### - WwanUiccPassThroughDisable
+### -field WwanUiccPassThroughDisable
 
 Indicates to disable passthrough to the UICC after reset. When UICC passthrough is disabled, the MB host treats the UICC as a regular Telecom UICC and expects a Telecom UICC file system to be present on the UICC.
 
 
-#### - WwanUiccPassThroughEnable
+### -field WwanUiccPassThroughEnable
 
 Indicates to enable passthrough to the UICC after reset. When UICC passthrough is enabled, the modem miniport adapter treats the UICC as if it were in a passthrough mode that enables communication between the host and UICC, even if the UICC has no Telecom UICC file system. The miniport adapter does not send any APDUs to the card and does not interfere at any time with the communication between the host and the UICC.
 
 
-#### - WwanUiccPassThroughActionMaximum
+### -field WwanUiccPassThroughActionMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

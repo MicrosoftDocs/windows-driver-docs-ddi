@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CORRELATION_VECTOR, *PCORRELATION_VECTOR, ntddk/CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector
+ms.keywords: ntddk/CORRELATION_VECTOR, kernel.correlation_vector, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], CORRELATION_VECTOR, *PCORRELATION_VECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _CORRELATION_VECTOR {
 
 
 
-#### - Version
+### -field Version
 
 The version of the correlation vector. Possible values are: 
 <ul>
@@ -78,7 +78,7 @@ The version of the correlation vector. Possible values are:
 <li>RTL_CORRELATION_VECTOR_VERSION_CURRENT</li>
 </ul>
 
-#### - Vector
+### -field Vector
 
 An array CHARs that represents the correlation vector.
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 328dca02-9276-4a3d-acac-e00721863243
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BTH_SDP_CONNECT, *PBTH_SDP_CONNECT, bltooth.bth_sdp_connect, PBTH_SDP_CONNECT, BTH_SDP_CONNECT structure [Bluetooth Devices], PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], bthioctl/PBTH_SDP_CONNECT, bthioctl/BTH_SDP_CONNECT, BTH_SDP_CONNECT, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml"
+ms.keywords: "_BTH_SDP_CONNECT, bltooth.bth_sdp_connect, BTH_SDP_CONNECT, PBTH_SDP_CONNECT, PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], bthioctl/BTH_SDP_CONNECT, *PBTH_SDP_CONNECT, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, BTH_SDP_CONNECT structure [Bluetooth Devices], bthioctl/PBTH_SDP_CONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,13 +73,13 @@ typedef struct _BTH_SDP_CONNECT {
 
 
 
-#### - bthAddress
+### -field bthAddress
 
 The address of the remote SDP server that the local system connects to. This address cannot be to
      the local radio.
 
 
-#### - fSdpConnect
+### -field fSdpConnect
 
 A flag or combination of flags that determines how to handle the connection request. Valid flag
      values are listed in the following table.
@@ -117,7 +117,7 @@ Requests are serviced out of the local cache of the SDP record.
  
 
 
-#### - requestTimeout
+### -field requestTimeout
 
 The timeout, in seconds, for requests to the SDP connection handle that is returned in the 
      <b>hConnection</b> member. If the request times out, the SDP connection returned in 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26512dc5-9d3d-4dd5-bce3-37feb64dded8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PingIPAddress_OUT, PPingIPAddress_OUT structure pointer [Storage Devices], structs-iSCSI_a6cbf3cf-b386-4cab-9193-5b9724e4646e.xml, iscsimgt/PingIPAddress_OUT, PPingIPAddress_OUT, iscsimgt/PPingIPAddress_OUT, storage.pingipaddress_out, PingIPAddress_OUT structure [Storage Devices], *PPingIPAddress_OUT, _PingIPAddress_OUT
+ms.keywords: PPingIPAddress_OUT structure pointer [Storage Devices], PingIPAddress_OUT, *PPingIPAddress_OUT, PPingIPAddress_OUT, structs-iSCSI_a6cbf3cf-b386-4cab-9193-5b9724e4646e.xml, storage.pingipaddress_out, iscsimgt/PingIPAddress_OUT, _PingIPAddress_OUT, iscsimgt/PPingIPAddress_OUT, PingIPAddress_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PingIPAddress_OUT {
 
 
 
-#### - Status
+### -field Status
 
 A status of type ISDSC_ERROR.
 
 
-#### - ResponsesReceived
+### -field ResponsesReceived
 
 The number of responses that were received.
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1e0b4b66-f9aa-4315-a07d-b6fd47f10371
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posdevicetype, PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_Max, PosDeviceType_Max, PosDeviceType, pointofservicecommontypes/PosDeviceType_CashDrawer, PosDeviceType_MagneticStripeReader, PosDeviceType_Unknown, _PosDeviceType, PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType, pointofservicecommontypes/PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_Unknown, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, PosDeviceType enumeration, PosDeviceType_BarcodeScanner
+ms.keywords: "_PosDeviceType, pointofservicecommontypes/PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType, PosDeviceType_BarcodeScanner, pos.posdevicetype, PosDeviceType_MagneticStripeReader, PosDeviceType_Printer, PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_Unknown, PosDeviceType, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, PosDeviceType_Max, PosDeviceType enumeration, pointofservicecommontypes/PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_Max, PosDeviceType_Unknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _PosDeviceType {
 
 
 
-#### - PosDeviceType_Unknown
+### -field PosDeviceType_Unknown
 
 Indicates that the type of device is not known.
 
 
-#### - PosDeviceType_BarcodeScanner
+### -field PosDeviceType_BarcodeScanner
 
 Indicates that the type of device is a barcode scanner.
 
 
-#### - PosDeviceType_MagneticStripeReader
+### -field PosDeviceType_MagneticStripeReader
 
 Indicates that the type of device is a magnetic stripe reader.
 
 
-#### - PosDeviceType_Printer
+### -field PosDeviceType_Printer
 
 Indicates that the type of device is a printer.
 
 
-#### - PosDeviceType_CashDrawer
+### -field PosDeviceType_CashDrawer
 
 Indicates that the type of device is a cash drawer.
 
@@ -101,7 +101,7 @@ Indicates that the type of device is a cash drawer.
 
 
 
-#### - PosDeviceType_Max
+### -field PosDeviceType_Max
 
 Unused.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4add891-e90e-4fad-b862-c5cad91a277d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltObjectDereference, fltkernel/FltObjectDereference, ifsk.fltobjectdereference, FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, FltObjectDereference routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltObjectDereference, FltObjectDereference routine [Installable File System Drivers], FltObjectDereference, FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, ifsk.fltobjectdereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID FltObjectDereference(
 
 
 
-#### - FltObject [in, out]
+### -param FltObject [in, out]
 
 Opaque filter pointer (PFLT_FILTER), instance pointer (PFLT_INSTANCE), or volume pointer (PFLT_VOLUME). 
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosDeviceBasicsType structure, pointofservicedriverinterface/PosDeviceBasicsType, PosDeviceBasicsType, pos.posdevicebasicstype, _PosDeviceBasicsType
+ms.keywords: PosDeviceBasicsType structure, PosDeviceBasicsType, pos.posdevicebasicstype, pointofservicedriverinterface/PosDeviceBasicsType, _PosDeviceBasicsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _PosDeviceBasicsType {
 
 
 
-#### - Version
+### -field Version
 
 Contains the major and minor version of the POS driver interface. The top 16 bits contains the major version and the bottom 16 bits contains the minor version.
 
 
-#### - DeviceType
+### -field DeviceType
 
 Indicates the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_posdevicetype.md">PosDeviceType</a> of the POS device (for example, a barcode scanner or a magnetic stripe reader).
 
 
-#### - RecommendedBufferSize
+### -field RecommendedBufferSize
 
 Indicates the size of the buffer that needs to be allocated to receive event data when calling <a href="http://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> to retrieve events for this device
 

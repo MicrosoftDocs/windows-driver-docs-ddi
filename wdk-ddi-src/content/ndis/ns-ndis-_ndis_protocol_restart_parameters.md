@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 722287da-e0ee-41d5-b85a-0ec55eac41b9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PROTOCOL_RESTART_PARAMETERS, protocol_structures_ref_1a426da7-b2f9-49b0-9069-24ceddcd8ad1.xml, netvista.ndis_protocol_restart_parameters, ndis/PNDIS_PROTOCOL_RESTART_PARAMETERS, ndis/NDIS_PROTOCOL_RESTART_PARAMETERS, PNDIS_PROTOCOL_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_RESTART_PARAMETERS, PNDIS_PROTOCOL_RESTART_PARAMETERS
+ms.keywords: ndis/PNDIS_PROTOCOL_RESTART_PARAMETERS, PNDIS_PROTOCOL_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_RESTART_PARAMETERS, *PNDIS_PROTOCOL_RESTART_PARAMETERS, protocol_structures_ref_1a426da7-b2f9-49b0-9069-24ceddcd8ad1.xml, NDIS_PROTOCOL_RESTART_PARAMETERS, ndis/NDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_RESTART_PARAMETERS, netvista.ndis_protocol_restart_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _NDIS_PROTOCOL_RESTART_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -88,7 +88,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_PROTOCOL_RESTART_PARAMETERS_REVISION_1.
 
 
-#### - FilterModuleNameBuffer
+### -field FilterModuleNameBuffer
 
 A list of the names of the underlying filter modules. For each name, the buffer contains a USHORT
      value followed by a wide character string. Use the first USHORT value in the buffer to determine the
@@ -98,13 +98,13 @@ A list of the names of the underlying filter modules. For each name, the buffer 
      <b>FilterModuleNameBufferLength</b> member.
 
 
-#### - FilterModuleNameBufferLength
+### -field FilterModuleNameBufferLength
 
 The length, in bytes, of the buffer in the 
      <b>FilterModuleNameBuffer</b> member.
 
 
-#### - RestartAttributes
+### -field RestartAttributes
 
 A pointer to the first entry in a list of 
      <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a> structures.
@@ -112,7 +112,7 @@ A pointer to the first entry in a list of
      <b>Next</b> member of the NDIS_RESTART_ATTRIBUTES structure to get the next structure in the list.
 
 
-#### - BoundIfIndex
+### -field BoundIfIndex
 
 The NDIS network interface index of the highest-level interface that is stacked on the miniport
      adapter. That is, if there are virtual miniports or filter modules that are installed over the miniport
@@ -120,7 +120,7 @@ The NDIS network interface index of the highest-level interface that is stacked 
      <i>IfIndex</i> of the highest-level virtual miniport or filter module.
 
 
-#### - BoundIfNetluid
+### -field BoundIfNetluid
 
 The NDIS 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value (that is also the network interface
@@ -131,7 +131,7 @@ The NDIS
      module.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for future use.
 
@@ -154,11 +154,11 @@ Each name that is specified in the buffer in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
 
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

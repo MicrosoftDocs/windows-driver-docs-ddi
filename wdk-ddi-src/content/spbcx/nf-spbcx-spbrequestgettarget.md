@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 2F89C886-99FF-4D6C-B52F-6422DB9E76AE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spbcx/SpbRequestGetTarget, SPB.spbrequestgettarget, SpbRequestGetTarget, SpbRequestGetTarget method [Buses]
+ms.keywords: SpbRequestGetTarget, SpbRequestGetTarget method [Buses], spbcx/SpbRequestGetTarget, SPB.spbrequestgettarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ SPBTARGET SpbRequestGetTarget(
 
 
 
-#### - SpbRequest [in]
+### -param SpbRequest [in]
 
 An <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/1DA1FF41-FB01-45CC-B0C1-EAF2C81D0CDA">event callback functions</a>.
 
@@ -90,9 +90,9 @@ The returned SPBTARGET handle is guaranteed to remain valid until the correspond
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 50860DA0-D42C-4ACB-A574-C0DEA85713BD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], sensorsdef/SENSOR_COLLECTION_LIST_INIT, SENSOR_COLLECTION_LIST_INIT, sensors.sensor_collection_list_init
+ms.keywords: sensors.sensor_collection_list_init, SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], SENSOR_COLLECTION_LIST_INIT, sensorsdef/SENSOR_COLLECTION_LIST_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,14 +69,14 @@ FORCEINLINE VOID SENSOR_COLLECTION_LIST_INIT(
 
 
 
-#### - pCollectionList [out]
+### -param pCollectionList [out]
 
 A pointer to a <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
 
 
 
 
-#### - CollectionListSize [in]
+### -param CollectionListSize [in]
 
 The size of the <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
 

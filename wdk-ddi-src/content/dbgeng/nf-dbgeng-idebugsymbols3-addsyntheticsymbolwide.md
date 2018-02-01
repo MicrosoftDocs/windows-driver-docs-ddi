@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06d4d1f1-8d28-46cc-8c80-8a67cf4ae4c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::AddSyntheticSymbolWide, AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, debugger.addsyntheticsymbolwide
+ms.keywords: AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method, IDebugSymbols3::AddSyntheticSymbolWide, debugger.addsyntheticsymbolwide, AddSyntheticSymbolWide, IDebugSymbols3, AddSyntheticSymbolWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT AddSyntheticSymbolWide(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location in the process's virtual address space of the synthetic symbol.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies the size in bytes of the synthetic symbol.
 
 
-#### - Name [in]
+### -param Name [in]
 
 Specifies the name of the synthetic symbol.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Set to DEBUG_ADDSYNTHSYM_DEFAULT.
 
 
-#### - Id [out, optional]
+### -param Id [out, optional]
 
 Receives the <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
 

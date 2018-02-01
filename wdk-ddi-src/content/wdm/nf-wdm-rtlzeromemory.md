@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e9e20d9c-0f2f-4ab1-a249-3e09bb6a7a22
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, RtlZeroMemory, RtlZeroMemory routine [Kernel-Mode Driver Architecture], wdm/RtlZeroMemory, kernel.rtlzeromemory
+ms.keywords: RtlZeroMemory routine [Kernel-Mode Driver Architecture], k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, wdm/RtlZeroMemory, kernel.rtlzeromemory, RtlZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,12 +69,12 @@ VOID RtlZeroMemory(
 
 
 
-#### - Destination [out]
+### -param Destination [out]
 
 A pointer to the memory block to be filled with zeros.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to fill with zeros.
 
@@ -90,9 +90,9 @@ Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination me
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
-
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+<a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
 
  
 

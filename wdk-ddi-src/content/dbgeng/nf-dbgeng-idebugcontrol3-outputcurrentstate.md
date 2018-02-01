@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3d176438-5551-48a4-b757-81c14d84c075
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::OutputCurrentState, IDebugControl3, IDebugControl2::OutputCurrentState, IDebugControl interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl3::OutputCurrentState, OutputCurrentState, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface, IDebugControl::OutputCurrentState, debugger.outputcurrentstate, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, OutputCurrentState method [Windows Debugging], dbgeng/IDebugControl2::OutputCurrentState
+ms.keywords: dbgeng/IDebugControl2::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl::OutputCurrentState, IDebugControl2::OutputCurrentState, IDebugControl3, dbgeng/IDebugControl3::OutputCurrentState, IDebugControl3::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl::OutputCurrentState, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, debugger.outputcurrentstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT OutputCurrentState(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies which clients to send the output to.  For possible values see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the bit set that determines the information to print to the debugger console.  <i>Flags</i> can be any combination of values from the following table.
 <table>

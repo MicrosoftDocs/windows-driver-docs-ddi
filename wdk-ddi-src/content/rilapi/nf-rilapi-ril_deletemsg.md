@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bda4663b-0aae-481a-8bd6-f242c6e6b1de
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_DeleteMsg, netvista.ril_deletemsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], RIL_DeleteMsg
+ms.keywords: RIL_DeleteMsg, rilapi/RIL_DeleteMsg, netvista.ril_deletemsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_DeleteMsg(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 
-#### - dwIndex
+### -param dwIndex
 
 
 

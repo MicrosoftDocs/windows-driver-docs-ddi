@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CE8BBFB7-FC6C-458B-89EC-355A6DD18399
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketRestore, vmbuskernelmodeclientlibapi/VmbPacketRestore, VmbPacketRestore function [Network Drivers Starting with Windows Vista], netvista.vmbpacketrestore
+ms.keywords: VmbPacketRestore function [Network Drivers Starting with Windows Vista], VmbPacketRestore, netvista.vmbpacketrestore, vmbuskernelmodeclientlibapi/VmbPacketRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ NTSTATUS VmbPacketRestore(
 
 
 
-#### - PacketObject [in]
+### -param PacketObject [in]
 
 This is a handle of a VMBus packet.
 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to buffer that contains previously saved context.
 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size, in bytes, of buffer.
 

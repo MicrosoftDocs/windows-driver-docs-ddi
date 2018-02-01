@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 8EC415AA-F578-42BF-B785-52613B20A2AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbControllerSetTargetAttributes, SpbControllerSetTargetAttributes method [Buses], SPB.spbcontrollersettargetattributes, spbcx/SpbControllerSetTargetAttributes
+ms.keywords: SpbControllerSetTargetAttributes method [Buses], SpbControllerSetTargetAttributes, spbcx/SpbControllerSetTargetAttributes, SPB.spbcontrollersettargetattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID SpbControllerSetTargetAttributes(
 
 
 
-#### - FxDevice [in]
+### -param FxDevice [in]
 
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the controller's SPBTARGET objects.
 
@@ -106,11 +106,11 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 ## -see-also
 
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
  
 

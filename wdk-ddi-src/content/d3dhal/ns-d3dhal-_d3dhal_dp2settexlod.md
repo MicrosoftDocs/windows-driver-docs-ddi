@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89fc8319-64ec-4e9d-8863-e5140e9f7a44
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETTEXLOD, d3dstrct_8b7c348f-b058-4cd8-ac49-788765e4fa15.xml, display.d3dhal_dp2settexlod, _D3DHAL_DP2SETTEXLOD, *LPD3DHAL_DP2SETTEXLOD, D3DHAL_DP2SETTEXLOD structure [Display Devices], d3dhal/D3DHAL_DP2SETTEXLOD
+ms.keywords: D3DHAL_DP2SETTEXLOD structure [Display Devices], _D3DHAL_DP2SETTEXLOD, D3DHAL_DP2SETTEXLOD, d3dstrct_8b7c348f-b058-4cd8-ac49-788765e4fa15.xml, *LPD3DHAL_DP2SETTEXLOD, display.d3dhal_dp2settexlod, d3dhal/D3DHAL_DP2SETTEXLOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DHAL_DP2SETTEXLOD {
 
 
 
-#### - dwDDSurface
+### -field dwDDSurface
 
 Specifies a handle to a surface chain.
 
 
-#### - dwLOD
+### -field dwLOD
 
 Controls the maximum MIP level loaded into video memory. Therefore, if the most detailed MIP map in the chain has dimensions 256x256, setting the maximum level to 2 means that the largest MIP map ever present in video memory has dimensions 64x64. 
 

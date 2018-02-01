@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ae92f321-d6dc-4e48-8107-1a6fbd3bb15a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilwritephonebookentryparams_2, *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS, rilapitypes/RILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILWRITEPHONEBOOKENTRYPARAMS, netvista.rilwritephonebookentryparams_2, RILWRITEPHONEBOOKENTRYPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _RILWRITEPHONEBOOKENTRYPARAMS {
 
 
 
-#### - hUiccApp
+### -field hUiccApp
 
 
 
-#### - dwStoreLocation
+### -field dwStoreLocation
 
 
 
-#### - fHasLockVerification
+### -field fHasLockVerification
 
 
 
-#### - lockVerification
+### -field lockVerification
 
 
 
-#### - pbEntry
+### -field pbEntry
 
 

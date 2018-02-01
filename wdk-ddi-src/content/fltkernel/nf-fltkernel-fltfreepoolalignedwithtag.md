@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 295a34e4-734e-41ba-bf2e-378333c14e2c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltfreepoolalignedwithtag, FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, fltkernel/FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag routine [Installable File System Drivers]
+ms.keywords: ifsk.fltfreepoolalignedwithtag, FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag routine [Installable File System Drivers], FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, fltkernel/FltFreePoolAlignedWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID FltFreePoolAlignedWithTag(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 Opaque instance pointer for a caller-owned minifilter driver instance that is attached to the volume. Must be the same instance pointer as the one used in the call to <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Address of the block of pool memory to be freed. 
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Tag used to mark the pool block. Must be the same tag as the one used in the call to <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b9d37683-fd3d-42fd-9ec2-128b76325868
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgdcs, RILMSGDCS structure [Network Drivers Starting with Windows Vista], RILMSGDCS, *LPRILMSGDCS, ntddrilapitypes/RILMSGDCS
+ms.keywords: RILMSGDCS, netvista.rilmsgdcs, ntddrilapitypes/RILMSGDCS, *LPRILMSGDCS, RILMSGDCS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,34 +74,34 @@ typedef struct _RILMSGDCS {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwType
+### -field dwType
 
 
 
-#### - dwFlags
+### -field dwFlags
 
 
 
-#### - dwMsgClass
+### -field dwMsgClass
 
 
 
-#### - dwAlphabet
+### -field dwAlphabet
 
 
 
-#### - dwIndication
+### -field dwIndication
 
 
 
-#### - dwLanguage
+### -field dwLanguage
 
 

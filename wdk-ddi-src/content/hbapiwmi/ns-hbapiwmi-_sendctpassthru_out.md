@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f9340f0d-4f70-4751-b339-de11ee13a469
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml, SendCTPassThru_OUT structure [Storage Devices], *PSendCTPassThru_OUT, storage.sendctpassthru_out, PSendCTPassThru_OUT structure pointer [Storage Devices], PSendCTPassThru_OUT, _SendCTPassThru_OUT, hbapiwmi/PSendCTPassThru_OUT, SendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT
+ms.keywords: PSendCTPassThru_OUT structure pointer [Storage Devices], storage.sendctpassthru_out, SendCTPassThru_OUT, _SendCTPassThru_OUT, SendCTPassThru_OUT structure [Storage Devices], hbapiwmi/PSendCTPassThru_OUT, *PSendCTPassThru_OUT, PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT, structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendCTPassThru_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-#### - TotalResponseBufferCount
+### -field TotalResponseBufferCount
 
 Contains the size in bytes of the results common transport (CT) command. 
 
 
-#### - ActualResponseBufferCount
+### -field ActualResponseBufferCount
 
 Contains the size in bytes of the data that was actually retrieved. 
 
 
-#### - ResponseBuffer
+### -field ResponseBuffer
 
 Contains the results of the common transport command. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_STATISTICS, *PDOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], DOT11_STATISTICS, netvista.dot11_statistics, windot11/PDOT11_STATISTICS
+ms.keywords: DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_STATISTICS, PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], DOT11_STATISTICS, windot11/PDOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, netvista.dot11_statistics, *PDOT11_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct DOT11_STATISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_STATISTICS structure. This member is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -89,11 +89,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_STATISTICS_REVISION_1.
@@ -105,7 +100,12 @@ This member must be set to
        sizeof(DOT11_STATISTICS).
 
 
-#### - ullFourWayHandshakeFailures
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field ullFourWayHandshakeFailures
 
 The number of four-way handshake failures that the 802.11 station encountered during Wi-Fi
      Protected Access (WPA) or Robust Security Network Association (RSNA) authentication.
@@ -115,7 +115,7 @@ If the 802.11 station is not performing the WPA or RSNA authentication, it shoul
      DOT11_STATISTICS_UNKNOWN.
 
 
-#### - ullTKIPCounterMeasuresInvoked
+### -field ullTKIPCounterMeasuresInvoked
 
 The number of times that the 802.11 station invoked countermeasures following a message integrity
      code (MIC) failure.
@@ -125,18 +125,18 @@ If the 802.11 station is not performing TKIP countermeasures, it should set this
      DOT11_STATISTICS_UNKNOWN.
 
 
-#### - ullReserved
+### -field ullReserved
 
 This member is reserved for use by the operating system. The miniport driver must not write to
      this member.
 
 
-#### - MacUcastCounters
+### -field MacUcastCounters
 
 The MAC layer counters based on unicast packets sent or received by the 802.11 station. The data
      structure for this member is the 
-     <mshelp:link keywords="netvista.dot11_mac_frame_statistics" tabindex="0"><b>
-     DOT11_MAC_FRAME_STATISTICS</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_mac_frame_statistics.md">
+     DOT11_MAC_FRAME_STATISTICS</a> structure.
      
 <div class="alert"><b>Note</b>  <p class="note"> Counters for received unicast packets must only be incremented for those packets with a
      destination MAC address in the 802.11 MAC header that matches the 802.11 station's MAC
@@ -144,12 +144,12 @@ The MAC layer counters based on unicast packets sent or received by the 802.11 s
 
 </div><div> </div>
 
-#### - MacMcastCounters
+### -field MacMcastCounters
 
 The MAC layer counters based on multicast or broadcast packets sent or received by the 802.11
      station. The data structure for this member is the 
-     <mshelp:link keywords="netvista.dot11_mac_frame_statistics" tabindex="0"><b>
-     DOT11_MAC_FRAME_STATISTICS</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_mac_frame_statistics.md">
+     DOT11_MAC_FRAME_STATISTICS</a> structure.
      
 <div class="alert"><b>Note</b>  <p class="note"> Counters for received multicast or broadcast packets must only be incremented for those
      packets with a destination MAC address in the 802.11 MAC header that matches an entry in the multicast
@@ -158,11 +158,11 @@ The MAC layer counters based on multicast or broadcast packets sent or received 
 
 </div><div> </div>
 
-#### - PhyCounters
+### -field PhyCounters
 
 An array of PHY layer counters. Each entry in this array is formatted as a 
-     <mshelp:link keywords="netvista.dot11_phy_frame_statistics" tabindex="0"><b>
-     DOT11_PHY_FRAME_STATISTICS</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_phy_frame_statistics.md">
+     DOT11_PHY_FRAME_STATISTICS</a> structure.
      
 
 The miniport driver must maintain an entry within the 
@@ -172,8 +172,8 @@ The miniport driver must maintain an entry within the
 Entries within the 
      <b>PhyCounters</b> array must be in the same order as the list of supported PHYs that the driver returns
      when queried by 
-     <mshelp:link keywords="netvista.oid_dot11_supported_phy_types" tabindex="0">
-     OID_DOT11_SUPPORTED_PHY_TYPES</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+     OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 
 ## -remarks

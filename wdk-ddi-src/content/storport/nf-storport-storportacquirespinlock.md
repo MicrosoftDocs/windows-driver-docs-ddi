@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml, storage.storportacquirespinlock, storport/StorPortAcquireSpinLock, StorPortAcquireSpinLock routine [Storage Devices]
+ms.keywords: StorPortAcquireSpinLock routine [Storage Devices], storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml, storport/StorPortAcquireSpinLock, storage.storportacquirespinlock, StorPortAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VOID StorPortAcquireSpinLock(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 A pointer to the miniport driver per-adapter device extension. 
 
 
-#### - SpinLock [in]
+### -param SpinLock [in]
 
 Contains an enumerator value of type <a href="..\storport\ne-storport-_stor_spinlock.md">STOR_SPINLOCK</a> that specifies the spin lock to acquire. 
 
 
-#### - LockContext [in]
+### -param LockContext [in]
 
 A pointer to the DPC object for which the lock is held if <i>SpinLock</i> indicates a type of <b>DpcLock</b>. This member should be <b>NULL</b> if <i>SpinLock </i>indicates a type of either <b>InterruptLock</b> or <b>StartIoLock</b>. 
 
 
-#### - LockHandle [in, out]
+### -param LockHandle [in, out]
 
 A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the <a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a> routine. 
 
@@ -160,8 +160,8 @@ Interrupt
 <tr>
 <td>
 
-<mshelp:link keywords="storage.hwstorstartio" tabindex="0"><b>
-        HwStorStartIo</b></mshelp:link>
+<a href="..\storport\nc-storport-hw_startio.md">
+        HwStorStartIo</a>
 
 
 </td>
@@ -351,8 +351,8 @@ None
 <tr>
 <td>
 
-<mshelp:link keywords="storage.hwstorstartio" tabindex="0"><b>
-        HwStorStartIo</b></mshelp:link>
+<a href="..\storport\nc-storport-hw_startio.md">
+        HwStorStartIo</a>
 
 
 </td>
@@ -479,9 +479,9 @@ DPC, StartIo, Interrupt
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a>
-
 <a href="..\storport\ne-storport-_stor_spinlock.md">STOR_SPINLOCK</a>
+
+<a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a>
 
  
 

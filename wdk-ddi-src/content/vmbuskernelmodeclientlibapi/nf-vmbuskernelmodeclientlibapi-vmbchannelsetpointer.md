@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E536B66D-EAF2-4377-8452-7D37A277E7C8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelsetpointer, vmbuskernelmodeclientlibapi/VmbChannelSetPointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista], VmbChannelSetPointer
+ms.keywords: VmbChannelSetPointer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSetPointer, netvista.vmbchannelsetpointer, VmbChannelSetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ VOID VmbChannelSetPointer(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel.  
 
 
-#### - Pointer [in, optional]
+### -param Pointer [in, optional]
 
 Arbitrary pointer to save in the channel's context.
 

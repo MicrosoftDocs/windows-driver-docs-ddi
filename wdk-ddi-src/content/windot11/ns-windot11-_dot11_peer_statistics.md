@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 08ea7f19-e086-4d5a-bfc7-de9178d815cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_PEER_STATISTICS, Native_802.11_data_types_5e07a8dd-79f1-4cba-89d3-f70e04caad12.xml, windot11/PDOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_PEER_STATISTICS, PDOT11_PEER_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_PEER_STATISTICS, netvista.dot11_peer_statistics, PDOT11_PEER_STATISTICS, _DOT11_PEER_STATISTICS
+ms.keywords: netvista.dot11_peer_statistics, Native_802.11_data_types_5e07a8dd-79f1-4cba-89d3-f70e04caad12.xml, *PDOT11_PEER_STATISTICS, PDOT11_PEER_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS structure [Network Drivers Starting with Windows Vista], PDOT11_PEER_STATISTICS, windot11/DOT11_PEER_STATISTICS, windot11/PDOT11_PEER_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,35 +74,35 @@ typedef struct _DOT11_PEER_STATISTICS {
 
 
 
-#### - ullDecryptSuccessCount
+### -field ullDecryptSuccessCount
 
 The number of received encrypted packets that the peer station successfully decrypted.
 
 
-#### - ullDecryptFailureCount
+### -field ullDecryptFailureCount
 
 The number of encrypted packets that the peer station failed to decrypt.
 
 
-#### - ullTxPacketSuccessCount
+### -field ullTxPacketSuccessCount
 
 The number of MAC service data unit (MSDU) packets and MAC management protocol data unit (MMPDU)
      frames that the IEEE MAC sublayer of the peer station successfully transmitted.
 
 
-#### - ullTxPacketFailureCount
+### -field ullTxPacketFailureCount
 
 The number of MSDU packets and MMPDU frames that the IEEE MAC sublayer of the peer station
      attempted to transmit, but that failed to transmit.
 
 
-#### - ullRxPacketSuccessCount
+### -field ullRxPacketSuccessCount
 
 The number of MSDU packets and MMPDU frames that the IEEE MAC sublayer of the peer station
      successfully received.
 
 
-#### - ullRxPacketFailureCount
+### -field ullRxPacketFailureCount
 
 The number of MSDU packets and MMPDU frames that the IEEE MAC sublayer of the peer station
      attempted to receive, but that failed to be received.

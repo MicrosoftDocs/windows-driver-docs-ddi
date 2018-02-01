@@ -73,17 +73,17 @@ NTSTATUS IoCompletion(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Caller-supplied pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that describes the I/O operation.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Caller-supplied pointer to driver-specific context information, previously supplied when calling <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a> or <a href="..\wdm\nf-wdm-iosetcompletionroutineex.md">IoSetCompletionRoutineEx</a>. Context information must be stored in nonpaged memory, since an <i>IoCompletion</i> routine can be called at DISPATCH_LEVEL. For more information, see the following Remarks section.
 

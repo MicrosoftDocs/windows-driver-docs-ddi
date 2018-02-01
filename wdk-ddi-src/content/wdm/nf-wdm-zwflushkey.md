@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5250b7d-a996-4591-b289-cfb1af00e7da
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwFlushKey, NtFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], kernel.zwflushkey, k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, ZwFlushKey, wdm/NtFlushKey
+ms.keywords: NtFlushKey, ZwFlushKey, k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, kernel.zwflushkey, wdm/ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], wdm/NtFlushKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ZwFlushKey(
 
 
 
-#### - KeyHandle [in]
+### -param KeyHandle [in]
 
 Handle to the registry key to be flushed to disk. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>.
 
@@ -94,11 +94,11 @@ You can flush changes made by <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey
 
 <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
  
 

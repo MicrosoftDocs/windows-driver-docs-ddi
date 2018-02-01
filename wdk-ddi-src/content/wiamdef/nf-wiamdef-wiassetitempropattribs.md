@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 354d09c3-8db4-4af9-b077-8e3bcda7a6f2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs function [Imaging Devices], image.wiassetitempropattribs, wiamdef/wiasSetItemPropAttribs, wiasSetItemPropAttribs
+ms.keywords: wiamdef/wiasSetItemPropAttribs, wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs function [Imaging Devices], wiasSetItemPropAttribs, image.wiassetitempropattribs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasSetItemPropAttribs(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - cPropSpec
+### -param cPropSpec
 
 Specifies the number of properties.
 
 
-#### - pPropSpec [in]
+### -param pPropSpec [in]
 
 Pointer to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation) indicating the properties for which to set valid values and access flags.
 
 
-#### - pwpi [in]
+### -param pwpi [in]
 
 Pointer to the first element of an array of <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
 
@@ -157,9 +157,9 @@ Reboot the system and repeat the steps necessary to produce this error. There wi
 
 <a href="..\wiamdef\nf-wiamdef-wiassetpropertyattributes.md">wiasSetPropertyAttributes</a>
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a>
 
  
 

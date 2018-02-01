@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ce9b1622-4c02-4496-82ca-cefa49d531da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemDriverUni, DrvYMoveTo method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml, IPrintOemDriverUni interface [Print Devices], DrvYMoveTo method, DrvYMoveTo, IPrintOemDriverUni::DrvYMoveTo, DrvYMoveTo method [Print Devices]
+ms.keywords: IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml, DrvYMoveTo method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvYMoveTo, DrvYMoveTo, IPrintOemDriverUni interface [Print Devices], DrvYMoveTo method, DrvYMoveTo method [Print Devices], IPrintOemDriverUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT DrvYMoveTo(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - y
+### -param y
 
 Caller-supplied value representing the number of units the cursor should be moved. The unit is defined by the MV_GRAPHICS flags in <i>dwFlags</i>.
 
 
-#### - dwFlags
+### -param dwFlags
 
 One or more of the following caller-supplied bit flags:
 <table>
@@ -142,7 +142,7 @@ If not set, specifies that Unidrv should update its current calculation of the c
 </table> 
 
 
-#### - piResult [out]
+### -param piResult [out]
 
 Receives the method-supplied result of subtracting the actual new cursor position from the requested new cursor position. This value might be zero, but it is always nonnegative.
 

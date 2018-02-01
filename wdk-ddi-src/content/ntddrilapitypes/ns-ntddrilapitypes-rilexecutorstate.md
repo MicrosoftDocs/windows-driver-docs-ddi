@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3d820c24-6f07-4ba2-b2e3-f3c799c6a1ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEXECUTORSTATE, netvista.rilexecutorstate, ntddrilapitypes/RILEXECUTORSTATE, RILEXECUTORSTATE structure [Network Drivers Starting with Windows Vista], *LPRILEXECUTORSTATE
+ms.keywords: RILEXECUTORSTATE, *LPRILEXECUTORSTATE, RILEXECUTORSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorstate, ntddrilapitypes/RILEXECUTORSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILEXECUTORSTATE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwFlags
+### -field dwFlags
 
 

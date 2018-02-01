@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 28699952-FC15-46A2-96EC-F5F8BD2391D7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], IRB_REQ_ISOCH_FREE_RESOURCES, 1394/IRB_REQ_ISOCH_FREE_RESOURCES, IEEE.irb_req_isoch_free_resources, _IRB_REQ_ISOCH_FREE_RESOURCES
+ms.keywords: IRB_REQ_ISOCH_FREE_RESOURCES, IEEE.irb_req_isoch_free_resources, 1394/IRB_REQ_ISOCH_FREE_RESOURCES, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], _IRB_REQ_ISOCH_FREE_RESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _IRB_REQ_ISOCH_FREE_RESOURCES {
 
 
 
-#### - hResource
+### -field hResource
 
 Specifies the resource handle to release. 
 

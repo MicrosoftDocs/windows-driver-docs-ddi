@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fe7a1afe-dc87-412c-9e35-4a1af05f9474
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects2 interface [Windows Debugging], GetImplicitThreadDataOffset method, IDebugSystemObjects3 interface [Windows Debugging], GetImplicitThreadDataOffset method, dbgeng/IDebugSystemObjects4::GetImplicitThreadDataOffset, debugger.getimplicitthreaddataoffset, IDebugSystemObjects4, GetImplicitThreadDataOffset, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4 interface [Windows Debugging], GetImplicitThreadDataOffset method, dbgeng/IDebugSystemObjects3::GetImplicitThreadDataOffset, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_fd957a10-62ec-464c-b5d0-c1b36a13013f.xml, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2::GetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects2::GetImplicitThreadDataOffset, IDebugSystemObjects4::GetImplicitThreadDataOffset, IDebugSystemObjects3::GetImplicitThreadDataOffset, GetImplicitThreadDataOffset method [Windows Debugging]
+ms.keywords: GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects_fd957a10-62ec-464c-b5d0-c1b36a13013f.xml, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, GetImplicitThreadDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetImplicitThreadDataOffset method, IDebugSystemObjects4 interface [Windows Debugging], GetImplicitThreadDataOffset method, IDebugSystemObjects3 interface [Windows Debugging], GetImplicitThreadDataOffset method, dbgeng/IDebugSystemObjects2::GetImplicitThreadDataOffset, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3::GetImplicitThreadDataOffset, debugger.getimplicitthreaddataoffset, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects4::GetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects3::GetImplicitThreadDataOffset, IDebugSystemObjects4::GetImplicitThreadDataOffset, IDebugSystemObjects2::GetImplicitThreadDataOffset, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetImplicitThreadDataOffset(
 
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the location in the target's memory address space of the data structure of the system thread that is the implicit thread for the current process.
 

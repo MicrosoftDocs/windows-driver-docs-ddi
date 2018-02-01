@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bb115eb-074d-4983-97e4-fa38aaa8a81b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetNodeIdFromIrp function [Streaming Media Devices], KsGetNodeIdFromIrp, ks/KsGetNodeIdFromIrp, stream.ksgetnodeidfromirp, avfunc_dbc2812f-8011-40e6-8847-f7c3fc35b4b5.xml
+ms.keywords: avfunc_dbc2812f-8011-40e6-8847-f7c3fc35b4b5.xml, ks/KsGetNodeIdFromIrp, KsGetNodeIdFromIrp function [Streaming Media Devices], stream.ksgetnodeidfromirp, KsGetNodeIdFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG KsGetNodeIdFromIrp(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to determine the associated node ID. This IRP must have been sent to a file object corresponding to a filter, pin, or node.
 
@@ -82,11 +82,11 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
+<a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
 
 <a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
 
-<a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
+<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

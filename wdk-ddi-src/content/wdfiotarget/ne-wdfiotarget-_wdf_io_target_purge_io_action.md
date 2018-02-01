@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, WdfIoTargetPurgeIo, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, _WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION, wdf.wdf_io_target_purge_io_action, WdfIoTargetPurgeIoUndefined, wdfiotarget/WdfIoTargetPurgeIoAndWait, kmdf.wdf_io_target_purge_io_action, WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoUndefined
+ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION enumeration, kmdf.wdf_io_target_purge_io_action, _WDF_IO_TARGET_PURGE_IO_ACTION, WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIoUndefined, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdf.wdf_io_target_purge_io_action, wdfiotarget/WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIoUndefined, WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIo, WDF_IO_TARGET_PURGE_IO_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _WDF_IO_TARGET_PURGE_IO_ACTION {
 
 
 
-#### - WdfIoTargetPurgeIoUndefined
+### -field WdfIoTargetPurgeIoUndefined
 
 Reserved for system use.
 
 
-#### - WdfIoTargetPurgeIoAndWait
+### -field WdfIoTargetPurgeIoAndWait
 
 The framework attempts to cancel all of the I/O requests in the target's queue, and waits until all delivered requests are completed or canceled, before <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a> returns. If the framework receives additional requests for the queue, it completes them with a completion status value of STATUS_INVALID_DEVICE_STATE.
 
 
 
-#### - WdfIoTargetPurgeIo
+### -field WdfIoTargetPurgeIo
 
 The framework attempts to cancel all of the target queue's I/O requests, before <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a> returns.
 
@@ -102,9 +102,9 @@ If your driver specifies the <b>WdfIoTargetPurgeIoAndWait</b> flag, the driver m
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46231ac0-2c34-4154-8b3e-f34c40cbff4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_processor_perf_state, pepfx/PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE
+ms.keywords: "_PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE, kernel.pep_processor_perf_state, pepfx/PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _PEP_PROCESSOR_PERF_STATE {
 
 
 
-#### - Performance
+### -field Performance
 
 On output, the performance level (on the scale returned by the <a href="..\pepfx\ns-pepfx-_pep_query_component_perf_capabilities.md">PEP_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification) of this performance state.
 
 
-#### - Frequency
+### -field Frequency
 
 On output, the frequency (in MHz) of this performance state. 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 

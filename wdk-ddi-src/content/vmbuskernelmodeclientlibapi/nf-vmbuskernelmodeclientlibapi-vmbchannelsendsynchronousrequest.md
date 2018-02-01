@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 312DED8E-570E-4DEC-B084-36894970F49F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSendSynchronousRequest, vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest, netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista]
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest, netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,48 +79,48 @@ NTSTATUS VmbChannelSendSynchronousRequest(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for the channel.  
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Data to send.
 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size, in bytes, of the data to send.
 
 
 
-#### - ExternalDataMdl [in, optional]
+### -param ExternalDataMdl [in, optional]
 
 A Memory Descriptor List (MDL) that describes an additional buffer to     send.
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Standard flags.
 
 
-#### - CompletionBuffer [out]
+### -param CompletionBuffer [out]
 
 Buffer in which to store completion packet results.
 
 
 
-#### - CompletionBufferSize [in, out, optional]
+### -param CompletionBufferSize [in, out, optional]
 
 The size, in bytes, of the <i>CompletionBuffer</i> value. This value must be     rounded up to nearest 8 bytes, or else the function fails. On success,
 returns the number of bytes written into <i>CompletionBuffer</i>.
 
 
 
-#### - Timeout [in, optional]
+### -param Timeout [in, optional]
 
 A timeout in the style of the <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a> routing.
 After this time elapses, the packet is cancelled. For a timeout of zero (0), if a packet does not fir in the ring buffer, it is not queued.

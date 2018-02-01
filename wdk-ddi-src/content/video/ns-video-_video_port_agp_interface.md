@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a2be4958-3f11-4b9d-9c0c-c339ebbbce04
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, video/VIDEO_PORT_AGP_INTERFACE, _VIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], VIDEO_PORT_AGP_INTERFACE, display.video_port_agp_interface, PVIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE, video/PVIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices]
+ms.keywords: PVIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, VIDEO_PORT_AGP_INTERFACE, video/PVIDEO_PORT_AGP_INTERFACE, video/VIDEO_PORT_AGP_INTERFACE, _VIDEO_PORT_AGP_INTERFACE, display.video_port_agp_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,72 +81,72 @@ typedef struct _VIDEO_PORT_AGP_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size in bytes of this structure.
 
 
-#### - Version
+### -field Version
 
 Specifies the version of the interface to be returned by the video port driver. The current interface version is defined in <i>video.h</i> and has the form VIDEO_PORT_AGP_INTERFACE_<i>N</i>.
 
 
-#### - Context
+### -field Context
 
 Pointer to a video port driver-defined context for the interface.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to the video port driver-implemented reference routine for this interface.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to the video port driver-implemented dereference routine for this interface.
 
 
-#### - AgpReservePhysical
+### -field AgpReservePhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a> routine.
 
 
-#### - AgpReleasePhysical
+### -field AgpReleasePhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a> routine.
 
 
-#### - AgpCommitPhysical
+### -field AgpCommitPhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a> routine.
 
 
-#### - AgpFreePhysical
+### -field AgpFreePhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a> routine.
 
 
-#### - AgpReserveVirtual
+### -field AgpReserveVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> routine.
 
 
-#### - AgpReleaseVirtual
+### -field AgpReleaseVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a> routine.
 
 
-#### - AgpCommitVirtual
+### -field AgpCommitVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> routine.
 
 
-#### - AgpFreeVirtual
+### -field AgpFreeVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a> routine.
 
 
-#### - AgpAllocationLimit
+### -field AgpAllocationLimit
 
 Specifies the maximum total number of bytes of AGP memory that a miniport driver can commit.
 

@@ -78,43 +78,25 @@ NTSTATUS NTAPI vSwitchFilterEngineReorderNotifyRn(
 
 
 
-#### - *notifyContext [in, optional]
+### -param *notifyContext [in, optional]
 
 A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
 
-#### - *completionContext [in]
+### -param *completionContext [in]
 
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
 
 
 
 
-#### - isInRequiredPosition [in]
+### -param isInRequiredPosition [in]
 
 A BOOLEAN value that is set to TRUE if the filter is in the required position in the filter stack or FALSE if it is not.
 
 
-#### - *vSwitchExtensionLwfList [in]
-
-An <a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a> structure that specifies a list of the virtual switch extension NDIS filter drivers.
-
-
-#### - notifyContext [in, optional]
-
-A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
- function. This parameter is optional and can be NULL.
-
-
-#### - completionContext [in]
-
-A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
-
-
-
-
-#### - vSwitchExtensionLwfList [in]
+### -param *vSwitchExtensionLwfList [in]
 
 An <a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a> structure that specifies a list of the virtual switch extension NDIS filter drivers.
 
@@ -182,21 +164,21 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchFilterEngineReorder
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
-
 <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
 
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 <a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+
+<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
  
 

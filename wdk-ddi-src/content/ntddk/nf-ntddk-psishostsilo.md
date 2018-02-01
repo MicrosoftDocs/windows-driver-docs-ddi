@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4C6D85F2-C9B8-425D-A307-5609E1C1465B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], kernel.psishostsilo, ntddk/PsIsHostSilo
+ms.keywords: kernel.psishostsilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], ntddk/PsIsHostSilo, PsIsHostSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN PsIsHostSilo(
 
 
 
-#### - Silo [in]
+### -param Silo [in]
 
 The  silo to evaluate.
 

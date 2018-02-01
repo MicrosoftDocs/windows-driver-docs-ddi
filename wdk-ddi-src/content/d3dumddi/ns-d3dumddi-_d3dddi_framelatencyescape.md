@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19395349-375E-46AF-BCCF-FF5C92B374C4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_FRAMELATENCYESCAPE, display.d3dddi_framelatencyescape, d3dumddi/D3DDDI_FRAMELATENCYESCAPE, D3DDDI_FRAMELATENCYESCAPE structure [Display Devices], _D3DDDI_FRAMELATENCYESCAPE
+ms.keywords: "_D3DDDI_FRAMELATENCYESCAPE, D3DDDI_FRAMELATENCYESCAPE structure [Display Devices], D3DDDI_FRAMELATENCYESCAPE, display.d3dddi_framelatencyescape, d3dumddi/D3DDDI_FRAMELATENCYESCAPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDI_FRAMELATENCYESCAPE {
 
 
 
-#### - RequestedLatency
+### -field RequestedLatency
 
 [in] The frame latency requested by the driver, specified as the number of frames that are allowed to be stored in a queue, before submission for rendering.
 

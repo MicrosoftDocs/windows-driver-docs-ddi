@@ -73,10 +73,10 @@ NTSTATUS EVT_WDF_COMPANION_POST_D0_EXIT(
 
 
 
-#### - Companion [in]
+### -param Companion [in]
 
 
 
-#### - TargetState [in]
+### -param TargetState [in]
 
 

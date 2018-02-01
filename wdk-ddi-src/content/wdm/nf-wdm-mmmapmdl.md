@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4272f7a2-9379-40dd-a0a1-784dd25bc8bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmmapmdl, MmMapMdl function [Kernel-Mode Driver Architecture], wdm/MmMapMdl, MmMapMdl
+ms.keywords: MmMapMdl, wdm/MmMapMdl, kernel.mmmapmdl, MmMapMdl function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ This function maps physical pages described by a memory descriptor
 
 
 
-#### - MemoryDescriptorList [in]
+### -param MemoryDescriptorList [in]
 
 A pointer to a valid MDL.
 
 
-#### - Protection [in]
+### -param Protection [in]
 
 A bitwise of flags that indicates the protection to set for the pages. Possible values are PAGE_Xxx constants defined in Wdm.h.
 
 
-#### - DriverRoutine [in]
+### -param DriverRoutine [in]
 
  A pointer to a driver-supplied callback routine (<a href="..\wdm\nc-wdm-mm_mdl_routine.md">MM_MDL_ROUTINE</a>) that is invoked after the MDL is mapped.
 
 
-#### - DriverContext [in]
+### -param DriverContext [in]
 
 A pointer to a driver-defined context. The driver's callback function can store any status information  in the driver context and then examine the value, when the callback is invoked. 
 

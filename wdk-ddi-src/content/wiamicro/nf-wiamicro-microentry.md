@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamicro/MicroEntry, MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry function [Imaging Devices], image.microentry, MicroEntry
+ms.keywords: MicroEntry function [Imaging Devices], MicroEntry, MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, wiamicro/MicroEntry, image.microentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ WIAMICRO_API HRESULT MicroEntry(
 
 
 
-#### - lCommand
+### -param lCommand
 
 Specifies a command issued to the microdriver by the WIA Flatbed driver. 
 
 
-#### - pValue [in, out]
+### -param pValue [in, out]
 
 Points to a <a href="..\wiamicro\ns-wiamicro-val.md">VAL</a> structure that is used to pass information between the WIA Flatbed driver and the microdriver.
 
@@ -97,13 +97,13 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
+<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
 
 <a href="..\wiamicro\ns-wiamicro-val.md">VAL</a>
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
  
 

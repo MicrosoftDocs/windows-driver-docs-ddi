@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListAppendDescriptor method, kmdf.wdfioresourcelistappenddescriptor, wdf.wdfioresourcelistappenddescriptor, WdfIoResourceListAppendDescriptor, PFN_WDFIORESOURCELISTAPPENDDESCRIPTOR, wdfresource/WdfIoResourceListAppendDescriptor, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml
+ms.keywords: PFN_WDFIORESOURCELISTAPPENDDESCRIPTOR, WdfIoResourceListAppendDescriptor, wdfresource/WdfIoResourceListAppendDescriptor, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, kmdf.wdfioresourcelistappenddescriptor, WdfIoResourceListAppendDescriptor method, wdf.wdfioresourcelistappenddescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfIoResourceListAppendDescriptor(
 
 
 
-#### - ResourceList [in]
+### -param ResourceList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 
-#### - Descriptor [in]
+### -param Descriptor [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
@@ -141,9 +141,9 @@ For more information about resource requirements lists and logical configuration
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistinsertdescriptor.md">WdfIoResourceListInsertDescriptor</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 

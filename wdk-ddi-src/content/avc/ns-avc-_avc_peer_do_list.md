@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/PAVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, PAVC_PEER_DO_LIST, stream.avc_peer_do_list, _AVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml
+ms.keywords: stream.avc_peer_do_list, AVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, avc/AVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], avc/PAVC_PEER_DO_LIST, _AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AVC_PEER_DO_LIST {
 
 
 
-#### - Count
+### -field Count
 
 Ignored on input. On output, set to the number of objects in the list. If zero, the caller must not attempt to dereference the <b>Objects</b> member (it is set to <b>NULL</b>).
 
 
-#### - Objects
+### -field Objects
 
 Ignored on input. On output (and if the <b>Count</b> member is not zero) <b>Objects</b> contains a pointer to a contiguous array of DEVICE_OBJECT pointers. The caller must release the reference held on each object (by using <b>ObDereferenceObject</b>), and free the memory containing the list (by using <b>ExFreePool</b>) when finished with it.
 
@@ -91,11 +91,11 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a>
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
  
 

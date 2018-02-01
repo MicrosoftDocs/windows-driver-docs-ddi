@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 00dc716c-621f-4312-bf53-6bc3ab492faa
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric_ref_1d08ec8c-d73e-462f-a2f3-dce508bc159f.xml, PWINBIO_DATA, *PWINBIO_DATA, winbio_ioctl/WINBIO_DATA, WINBIO_DATA, WINBIO_DATA structure [Biometric Devices], biometric.winbio_data, winbio_ioctl/PWINBIO_DATA, _WINBIO_DATA, PWINBIO_DATA structure pointer [Biometric Devices]
+ms.keywords: "*PWINBIO_DATA, biometric.winbio_data, PWINBIO_DATA structure pointer [Biometric Devices], _WINBIO_DATA, WINBIO_DATA structure [Biometric Devices], winbio_ioctl/PWINBIO_DATA, PWINBIO_DATA, winbio_ioctl/WINBIO_DATA, biometric_ref_1d08ec8c-d73e-462f-a2f3-dce508bc159f.xml, WINBIO_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _WINBIO_DATA {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size, in bytes, of the payload.
 
 
-#### - Data
+### -field Data
 
 Specifies an array that contains the payload. Frequently this member contains a structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>.
 

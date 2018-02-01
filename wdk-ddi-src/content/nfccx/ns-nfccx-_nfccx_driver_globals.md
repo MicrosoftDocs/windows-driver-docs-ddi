@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 3B84B227-7155-4FA2-A224-1317D103F5C3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], nfccx/PNFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS, _NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS, nfpdrivers.nfccx_driver_globals
+ms.keywords: "_NFCCX_DRIVER_GLOBALS, nfccx/PNFCCX_DRIVER_GLOBALS, nfpdrivers.nfccx_driver_globals, PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,15 +67,15 @@ typedef struct _NFCCX_DRIVER_GLOBALS {
 
 
 
-#### - Reserved
+### -field Reserved
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

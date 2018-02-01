@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D23A651-7231-40CE-B9C2-4382D4E7F683
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetInitiatorProcessId method, wudfddi/IWDFFile3::GetInitiatorProcessId, GetInitiatorProcessId method, IWDFFile3 interface, wdf.iwdffile3_getinitiatorprocessid, GetInitiatorProcessId, IWDFFile3::GetInitiatorProcessId, IWDFFile3, IWDFFile3 interface, GetInitiatorProcessId method, umdf.iwdffile3_getinitiatorprocessid
+ms.keywords: GetInitiatorProcessId method, IWDFFile3 interface, IWDFFile3 interface, GetInitiatorProcessId method, IWDFFile3::GetInitiatorProcessId, wdf.iwdffile3_getinitiatorprocessid, umdf.iwdffile3_getinitiatorprocessid, GetInitiatorProcessId method, wudfddi/IWDFFile3::GetInitiatorProcessId, IWDFFile3, GetInitiatorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetInitiatorProcessId(
 
 
 
-#### - pdwProcessId [out]
+### -param pdwProcessId [out]
 
 Specifies the address of a location that receives the initiator process identifier associated with the file, if any exists.  Otherwise, the location receives 0.
 

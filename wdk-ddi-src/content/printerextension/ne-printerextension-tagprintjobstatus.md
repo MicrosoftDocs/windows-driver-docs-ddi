@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PrintJobStatus_Deleted, printerextension/PrintJobStatus_Complete, PrintJobStatus_Retained, printerextension/PrintJobStatus_Offline, printerextension/PrintJobStatus_Paused, PrintJobStatus_Deleting, PrintJobStatus enumeration [Print Devices], printerextension/PrintJobStatus_Printing, PrintJobStatus_Offline, PrintJobStatus_Complete, print.printjobstatus, tagPrintJobStatus, printerextension/PrintJobStatus_Restarted, PrintJobStatus_UserIntervention, PrintJobStatus_PaperOut, PrintJobStatus_Printing, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Error, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Printed, PrintJobStatus_Restarted, PrintJobStatus_Spooling, printerextension/PrintJobStatus, PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Error, PrintJobStatus, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_UserIntervention, PrintJobStatus_Printed, PrintJobStatus_Paused
+ms.keywords: PrintJobStatus_Printing, tagPrintJobStatus, PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_Printed, PrintJobStatus_Retained, PrintJobStatus_PaperOut, printerextension/PrintJobStatus, printerextension/PrintJobStatus_Spooling, PrintJobStatus_Deleted, printerextension/PrintJobStatus_Deleted, PrintJobStatus_Deleting, PrintJobStatus_Error, printerextension/PrintJobStatus_Error, PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_PaperOut, print.printjobstatus, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Restarted, printerextension/PrintJobStatus_Printing, PrintJobStatus_Spooling, PrintJobStatus_Offline, printerextension/PrintJobStatus_UserIntervention, PrintJobStatus_Paused, PrintJobStatus, printerextension/PrintJobStatus_Complete, PrintJobStatus_Restarted, printerextension/PrintJobStatus_Offline, PrintJobStatus_Complete, PrintJobStatus_Printed, printerextension/PrintJobStatus_Retained, PrintJobStatus enumeration [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,72 +83,72 @@ typedef enum _PrintJobStatus {
 
 
 
-#### - PrintJobStatus_Paused
+### -field PrintJobStatus_Paused
 
 The job is paused.
 
 
-#### - PrintJobStatus_Error
+### -field PrintJobStatus_Error
 
 There is an error associated with the job.
 
 
-#### - PrintJobStatus_Deleting
+### -field PrintJobStatus_Deleting
 
 The job is being deleted.
 
 
-#### - PrintJobStatus_Spooling
+### -field PrintJobStatus_Spooling
 
 The job is spooling.
 
 
-#### - PrintJobStatus_Printing
+### -field PrintJobStatus_Printing
 
 The job is printing.
 
 
-#### - PrintJobStatus_Offline
+### -field PrintJobStatus_Offline
 
 The printer is offline.
 
 
-#### - PrintJobStatus_PaperOut
+### -field PrintJobStatus_PaperOut
 
 The printer is out of paper.
 
 
-#### - PrintJobStatus_Printed
+### -field PrintJobStatus_Printed
 
 The job printing is completed.
 
 
-#### - PrintJobStatus_Deleted
+### -field PrintJobStatus_Deleted
 
 The job has been deleted.
 
 
-#### - PrintJobStatus_BlockedDeviceQueue
+### -field PrintJobStatus_BlockedDeviceQueue
 
 The driver cannot print the job.
 
 
-#### - PrintJobStatus_UserIntervention
+### -field PrintJobStatus_UserIntervention
 
 The printer has an error that requires intervention from the user.
 
 
-#### - PrintJobStatus_Restarted
+### -field PrintJobStatus_Restarted
 
 The job has been restarted.
 
 
-#### - PrintJobStatus_Complete
+### -field PrintJobStatus_Complete
 
 The job data transfer to the printer is complete. Note that  the printing of the job may not yet be complete.
 
 
-#### - PrintJobStatus_Retained
+### -field PrintJobStatus_Retained
 
 The job has been retained in the print queue and cannot be deleted.
 
@@ -164,9 +164,9 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
+
+<a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
 
  
 

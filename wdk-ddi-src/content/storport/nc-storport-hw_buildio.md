@@ -72,12 +72,12 @@ BOOLEAN HwStorBuildIo(
 
 
 
-#### - DeviceExtension
+### -param DeviceExtension
 
 A pointer to the miniport driver's per HBA storage area. 
 
 
-#### - Srb
+### -param Srb
 
 A pointer to the SCSI request block (SRB) to be processed.
 
@@ -268,19 +268,19 @@ For more information about what you can and cannot do safely in this miniport dr
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
-
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
 
  
 

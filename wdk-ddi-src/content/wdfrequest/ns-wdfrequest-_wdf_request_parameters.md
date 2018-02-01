@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 012e34c0-3cc6-49dc-94ad-d359d857720f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/PWDF_REQUEST_PARAMETERS, wdfrequest/WDF_REQUEST_PARAMETERS, PWDF_REQUEST_PARAMETERS structure pointer, DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, wdf.wdf_request_parameters, _WDF_REQUEST_PARAMETERS, kmdf.wdf_request_parameters, PWDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS structure, *PWDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS
+ms.keywords: DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, *PWDF_REQUEST_PARAMETERS, wdfrequest/PWDF_REQUEST_PARAMETERS, PWDF_REQUEST_PARAMETERS structure pointer, _WDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS, kmdf.wdf_request_parameters, wdf.wdf_request_parameters, WDF_REQUEST_PARAMETERS structure, PWDF_REQUEST_PARAMETERS, wdfrequest/WDF_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,35 +103,10 @@ typedef struct _WDF_REQUEST_PARAMETERS {
 
 
 
-#### - Parameters
+### -field Parameters
 
 Parameters that are unique for each IRP major function code. This member contains a subset of the Parameters member of the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure. 
 
-
-
-#### Create
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.
-
-
-#### Read
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>.
-
-
-#### Write
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>.
-
-
-#### DeviceIoControl
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>.
-
-
-#### Others
-
-Use of this member is defined by the driver stack.
 
 
 ### -field Parameters.Create
@@ -254,17 +229,17 @@ Use of this member is defined by the driver stack.
  
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - MinorFunction
+### -field MinorFunction
 
 The IRP minor function code, if any, that is associated with the I/O request. Some major function codes have associated minor function codes.
 
 
-#### - Type
+### -field Type
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
 
@@ -278,11 +253,11 @@ The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="..\wdfr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
  
 

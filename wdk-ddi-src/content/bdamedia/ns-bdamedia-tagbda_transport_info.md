@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 995a1d2f-8e2b-426e-a08c-283124ce905e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BDA_TRANSPORT_INFO structure [Streaming Media Devices], tagBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], stream.bda_transport_info, bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, bdamedia/PBDA_TRANSPORT_INFO, bdamedia/BDA_TRANSPORT_INFO
+ms.keywords: BDA_TRANSPORT_INFO, bdamedia/PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO, tagBDA_TRANSPORT_INFO, bdamedia/BDA_TRANSPORT_INFO, bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, stream.bda_transport_info, BDA_TRANSPORT_INFO structure [Streaming Media Devices], *PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct tagBDA_TRANSPORT_INFO {
 
 
 
-#### - ulcbPhyiscalPacket
+### -field ulcbPhyiscalPacket
 
 Size, in bytes, of a physical packet (for example, the size of a satellite link payload). 
 
 
-#### - ulcbPhyiscalFrame
+### -field ulcbPhyiscalFrame
 
 Size, in bytes, of each physical frame (0 indicates no hardware requirement).
 
 
-#### - ulcbPhyiscalFrameAlignment
+### -field ulcbPhyiscalFrameAlignment
 
 Capture buffer alignment in bytes (0 and 1 indicate no alignment requirements).
 
 
-#### - AvgTimePerFrame
+### -field AvgTimePerFrame
 
 REFERENCE TIME value that indicates the video frame's average display time, in 100-nanosecond units. 
 

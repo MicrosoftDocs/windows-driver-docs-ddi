@@ -73,7 +73,7 @@ NTSTATUS EvtDmaEnablerDisable(
 
 
 
-#### - DmaEnabler [in]
+### -param DmaEnabler [in]
 
 A handle to a DMA enabler object.  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 818A9F03-F56E-47D6-A9D1-DD0F63B05054
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices], StorPortSetAdapterBusType, storage.storportsetadapterbustype
+ms.keywords: StorPortSetAdapterBusType routine [Storage Devices], storport/StorPortSetAdapterBusType, StorPortSetAdapterBusType, storage.storportsetadapterbustype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ ULONG StorPortSetAdapterBusType(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
-#### - BusType [in]
+### -param BusType [in]
 
 Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566356">STORAGE_BUS_TYPE</a> that specifies the type of bus-specific configuration data to be set.
 

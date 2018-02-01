@@ -74,49 +74,29 @@ NTSTATUS NdkGetConnectionData(
 
 
 
-#### - *pNdkConnector [in]
+### -param *pNdkConnector [in]
 
 A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
 
 
-#### - *pInboundReadLimit [out, optional]
+### -param *pInboundReadLimit [out, optional]
 
 The maximum number of incoming in-progress read operations to allow on the QP is returned in this location.
 
 
-#### - *pOutboundReadLimit [out, optional]
+### -param *pOutboundReadLimit [out, optional]
 
 The maximum number of outgoing in-progress read operations to allow on the QP is returned in this location.
 
 
-#### - pPrivateData
+### -param pPrivateData
 
 A pointer to private data that is returned.
 
 
 
 
-#### - *pPrivateDataLength
-
-The length, in bytes, of the private data that is provided in the <i>pPrivateData</i> parameter.
-<div class="alert"><b>Note</b>  The output value does not indicate the actual length of private data stored in the buffer. NDK consumers must negotiate the format and length of the actual private data. For more information about private data, see the Remarks section.</div><div> </div>
-
-#### - pNdkConnector [in]
-
-A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
-
-
-#### - pInboundReadLimit [out, optional]
-
-The maximum number of incoming in-progress read operations to allow on the QP is returned in this location.
-
-
-#### - pOutboundReadLimit [out, optional]
-
-The maximum number of outgoing in-progress read operations to allow on the QP is returned in this location.
-
-
-#### - pPrivateDataLength
+### -param *pPrivateDataLength
 
 The length, in bytes, of the private data that is provided in the <i>pPrivateData</i> parameter.
 <div class="alert"><b>Note</b>  The output value does not indicate the actual length of private data stored in the buffer. NDK consumers must negotiate the format and length of the actual private data. For more information about private data, see the Remarks section.</div><div> </div>

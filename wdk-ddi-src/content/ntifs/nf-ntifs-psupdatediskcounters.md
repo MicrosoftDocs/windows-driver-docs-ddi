@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0BDC6629-9C0E-4437-888D-1EF730714CA4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.psupdatediskcounters, PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable File System Drivers], ntifs/PsUpdateDiskCounters
+ms.keywords: ntifs/PsUpdateDiskCounters, PsUpdateDiskCounters, ifsk.psupdatediskcounters, PsUpdateDiskCounters routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,32 +72,32 @@ VOID PsUpdateDiskCounters(
 
 
 
-#### - Process
+### -param Process
 
 A pointer to the process to update counters for.
 
 
-#### - BytesRead
+### -param BytesRead
 
 The number of bytes to update in the Read counter.
 
 
-#### - BytesWritten
+### -param BytesWritten
 
 The number of bytes to update in the Write counter.
 
 
-#### - ReadOperationCount
+### -param ReadOperationCount
 
 The number of read operations to update in the Read Operation counter.
 
 
-#### - WriteOperationCount
+### -param WriteOperationCount
 
 The number of write operations to update in the Write Operation counter.
 
 
-#### - FlushOperationCount
+### -param FlushOperationCount
 
 The number of flush operations to update in the Flush Operation counter.
 

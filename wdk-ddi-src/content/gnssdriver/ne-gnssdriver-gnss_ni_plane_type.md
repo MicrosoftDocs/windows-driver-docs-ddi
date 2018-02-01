@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F06FFABA-D7AB-4301-9F73-CE4BBB0B8AA6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_ni_plane_type, GNSS_NI_CP, GNSS_NI_V2UPL, GNSS_NI_SUPL, GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_NI_SUPL, gnssdriver/GNSS_NI_CP, gnssdriver/GNSS_NI_PLANE_TYPE, GNSS_NI_PLANE_TYPE, gnssdriver/GNSS_NI_V2UPL
+ms.keywords: sensors.gnss_ni_plane_type, gnssdriver/GNSS_NI_SUPL, GNSS_NI_CP, gnssdriver/GNSS_NI_CP, GNSS_NI_V2UPL, GNSS_NI_SUPL, gnssdriver/GNSS_NI_V2UPL, gnssdriver/GNSS_NI_PLANE_TYPE, GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], GNSS_NI_PLANE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - GNSS_NI_SUPL
+### -field GNSS_NI_SUPL
 
 Indicates the plane type of the request is SUPL.
 
 
-#### - GNSS_NI_CP
+### -field GNSS_NI_CP
 
 Indicates the plane type of the request is CP.
 
 
-#### - GNSS_NI_V2UPL
+### -field GNSS_NI_V2UPL
 
 Indicates plane type of the request is V2UPL.
 

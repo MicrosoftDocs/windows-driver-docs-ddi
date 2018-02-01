@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CoerceValue method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], CoerceValue method, CoerceValue method [Windows Debugging], IDebugControl3 interface, CoerceValue method [Windows Debugging], IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl::CoerceValue, IDebugControl3::CoerceValue, IDebugControl3, CoerceValue, dbgeng/IDebugControl::CoerceValue, IDebugControl2::CoerceValue, debugger.coercevalue, dbgeng/IDebugControl3::CoerceValue, IDebugControl2 interface [Windows Debugging], CoerceValue method, CoerceValue method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml
+ms.keywords: IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, dbgeng/IDebugControl2::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl2::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl3 interface, IDebugControl3::CoerceValue, IDebugControl3, IDebugControl::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl2 interface [Windows Debugging], CoerceValue method, CoerceValue, CoerceValue method [Windows Debugging], IDebugControl interface, debugger.coercevalue, dbgeng/IDebugControl3::CoerceValue, dbgeng/IDebugControl::CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT CoerceValue(
 
 
 
-#### - In [in]
+### -param In [in]
 
 Specifies the value to be converted
 
 
-#### - OutType [in]
+### -param OutType [in]
 
 Specifies the desired type for the converted value. See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for possible values.
 
 
-#### - Out [out]
+### -param Out [out]
 
 Receives the converted value.  The type of this value will be the type specified by <i>OutType</i>.
 
@@ -120,13 +120,13 @@ This method converts a value of one type into a value of another type.  If the s
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 34f70519-7905-4a16-bd07-db3592b05890
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME, display.d3dkmt_opennthandlefromname, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices]"
+ms.keywords: display.d3dkmt_opennthandlefromname, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, _D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices], D3DKMT_OPENNTHANDLEFROMNAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_OPENNTHANDLEFROMNAME {
 
 
 
-#### - dwDesiredAccess
+### -field dwDesiredAccess
 
 [in] Specifies read and write access for the resource.
 
 
-#### - pObjAttrib
+### -field pObjAttrib
 
 [in] A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the adapter, including its name.
 
 
-#### - hNtHandle
+### -field hNtHandle
 
 [out] An NT handle to the process.
 

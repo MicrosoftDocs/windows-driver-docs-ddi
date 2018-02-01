@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnAcquirePinnedModeInfo(
 
 
 
-#### - hVidPnSourceModeSet [in]
+### -param hVidPnSourceModeSet [in]
 
 [in] A handle to a VidPN source mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset.md">pfnAcquireSourceModeSet</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
 
 
-#### - ppPinnedVidPnSourceModeInfo [out]
+### -param ppPinnedVidPnSourceModeInfo [out]
 
 [out] A pointer to a variable that receives a pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure. The structure contains a variety of information about the pinned mode, including its ID, type, and rendering format. If the source mode set identified by <i>hVidPnSourceModeSet</i> has no pinned mode, then this variable receives a <b>NULL</b> pointer.
 

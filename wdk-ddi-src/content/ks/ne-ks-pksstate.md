@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSSTATE_RUN, ks/KSSTATE_ACQUIRE, ks/KSSTATE, PKSSTATE enumeration pointer [Streaming Media Devices], *PKSSTATE, ks/KSSTATE_STOP, KSSTATE_STOP, KSSTATE, ks/PKSSTATE, ks/KSSTATE_PAUSE, KSSTATE_ACQUIRE, KSSTATE enumeration [Streaming Media Devices], KSSTATE_RUN, PKSSTATE, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, KSSTATE_PAUSE, stream.ksstate
+ms.keywords: KSSTATE_RUN, ks/KSSTATE_ACQUIRE, ks/KSSTATE_STOP, PKSSTATE enumeration pointer [Streaming Media Devices], ks/KSSTATE, ks/PKSSTATE, stream.ksstate, KSSTATE enumeration [Streaming Media Devices], ks/KSSTATE_RUN, KSSTATE_ACQUIRE, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, KSSTATE_PAUSE, KSSTATE_STOP, PKSSTATE, *PKSSTATE, ks/KSSTATE_PAUSE, KSSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum  {
 
 
 
-#### - KSSTATE_STOP
+### -field KSSTATE_STOP
 
 Indicates that the object is in minimum resource consumption mode.
 
 
-#### - KSSTATE_ACQUIRE
+### -field KSSTATE_ACQUIRE
 
 Indicates that the object is acquiring resources.
 
 
-#### - KSSTATE_PAUSE
+### -field KSSTATE_PAUSE
 
 Indicates that the object is preparing to make instant transition to Run state.
 
 
-#### - KSSTATE_RUN
+### -field KSSTATE_RUN
 
 Indicates that the object is actively streaming.
 

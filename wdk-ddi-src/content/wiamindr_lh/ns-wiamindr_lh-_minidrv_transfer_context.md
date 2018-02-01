@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 26583873-4f84-4254-86c1-2063df85000c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PMINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], image.minidrv_transfer_context, _MINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT"
+ms.keywords: image.minidrv_transfer_context, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, _MINIDRV_TRANSFER_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,141 +94,141 @@ typedef struct _MINIDRV_TRANSFER_CONTEXT {
 
 
 
-#### - lSize
+### -field lSize
 
 Specifies the size in bytes of this MINIDRV_TRANSFER_CONTEXT structure.
 
 
-#### - lWidthInPixels
+### -field lWidthInPixels
 
 Specifies the width in pixels of the current image. The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551615">WIA_IPA_PIXELS_PER_LINE</a> common item property.
 
 
-#### - lLines
+### -field lLines
 
 Specifies the total number of lines (the number of horizontal rows of pixels) in the current image. The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551611">WIA_IPA_NUMBER_OF_LINES</a> common item property.
 
 
-#### - lDepth
+### -field lDepth
 
 Specifies the color depth value of the current image in bits per pixel. The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551546">WIA_IPA_DEPTH</a> common item property.
 
 
-#### - lXRes
+### -field lXRes
 
 Specifies the current horizontal resolution of the image in pixels per inch. The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552665">WIA_IPS_XRES</a> scanner item property.
 
 
-#### - lYRes
+### -field lYRes
 
 Specifies the current vertical resolution of the image in pixels per inch. The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552673">WIA_IPS_YRES</a> scanner item property.
 
 
-#### - lCompression
+### -field lCompression
 
 Specifies the type of compression used by the device. The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551540">WIA_IPA_COMPRESSION</a> common item property.
 
 
-#### - guidFormatID
+### -field guidFormatID
 
 Specifies a GUID that indicates the data format for the device. The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551553">WIA_IPA_FORMAT</a> common item property.
 
 
-#### - tymed
+### -field tymed
 
 Specifies the type of data transfer. The data transfer specified can be either a memory-callback transfer (TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK) or file transfer (TYMED_FILE or TYMED_MULTIPAGE_FILE). The value of this member is derived from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551656">WIA_IPA_TYMED</a> common item property. 
 
 This member conveys information related to that in the <b>bTransferDataCB</b> member. See <b>Remarks</b> for more information.
 
 
-#### - hFile
+### -field hFile
 
 Specifies the handle to the open file used during file transfers. The minidriver should not use this member. See <b>Remarks</b> for more information.
 
 
-#### - cbOffset
+### -field cbOffset
 
 Specifies the current offset in bytes of the next buffer location used during this transfer.
 
 
-#### - lBufferSize
+### -field lBufferSize
 
 Specifies the total size of the transfer buffer.
 
 
-#### - lActiveBuffer
+### -field lActiveBuffer
 
 Specifies which buffer is used for the current transfer. The value of this member must be in the range of 1 through <b>lNumBuffers</b>.
 
 
-#### - lNumBuffers
+### -field lNumBuffers
 
 Specifies the number of buffers available for data transfer. This value can currently be either 1 or 2.
 
 
-#### - pBaseBuffer
+### -field pBaseBuffer
 
 Points to the start of the base transfer buffer.
 
 
-#### - pTransferBuffer
+### -field pTransferBuffer
 
 Points to the start of the current transfer buffer. For a callback transfer in which double buffering is used, this member alternates between the two buffers, pointing to the beginning of the first buffer, and then to the beginning of the second, and so on.
 
 
-#### - bTransferDataCB
+### -field bTransferDataCB
 
 Specifies whether a data transfer is a memory-callback transfer or a file transfer. This member is set to <b>TRUE</b> if the transfer is a memory-callback transfer, and <b>FALSE</b> if the transfer is a file transfer. For file transfers, the WIA service usually provides a callback routine, which enables the application to receive updates from the minidriver about the status of the file transfer. (The WIA service provides a callback routine if the application provides its own callback routine. See <a href="https://msdn.microsoft.com/a535d718-e34f-4cd0-9137-83d28d0b8e9c">IWiaMiniDrvCallback COM Interface</a> for details.) For file transfers, a minidriver should check the value stored in the <b>pIWiaMiniDrvCallBack</b> member. If that member is <b>NULL</b>, the WIA service does not provide a callback routine, so the driver must not attempt to call it. For memory-callback transfers, the WIA service always provides a callback.
 
 This member conveys information related to that in the <b>tymed</b> member. See <b>Remarks</b> for more information.
 
 
-#### - bClassDrvAllocBuf
+### -field bClassDrvAllocBuf
 
 Specifies whether the WIA service has allocated the transfer buffer. This value is <b>TRUE</b> if the WIA service allocated the buffer, and <b>FALSE</b> if not. In that case, it is the minidriver's responsibility to allocate the transfer buffer.
 
 
-#### - lClientAddress
+### -field lClientAddress
 
 Specifies the address, in the client's address space, of the transfer. The minidriver must not change this value.
 
 
-#### - pIWiaMiniDrvCallBack
+### -field pIWiaMiniDrvCallBack
 
 Points to an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvcallback.md">IWiaMiniDrvCallBack Interface</a> used for data or status callback transfer.
 
 
-#### - lImageSize
+### -field lImageSize
 
 Specifies the size, in bytes, of uncompressed bits in a single page.
 
 
-#### - lHeaderSize
+### -field lHeaderSize
 
 Specifies the size, in bytes, of image header data in a single page.
 
 
-#### - lItemSize
+### -field lItemSize
 
 Specifies the size, in bytes, of bits and header. This value can be zero if the item size is unknown before acquisition.
 
 
-#### - cbWidthInBytes
+### -field cbWidthInBytes
 
 Specifies the size, in bytes, of an image line.
 
 
-#### - lPage
+### -field lPage
 
 Specifies the page number of the current page when scanning a multipage TIFF image. Page numbering begins with zero.
 
 
-#### - lCurIfdOffset
+### -field lCurIfdOffset
 
 Specifies the image file directory (IFD) offset in the current page of a multipage TIFF image.
 
 
-#### - lPrevIfdOffset
+### -field lPrevIfdOffset
 
 Specifies the image file directory (IFD) offset in the previous page of a multipage TIFF image.
 

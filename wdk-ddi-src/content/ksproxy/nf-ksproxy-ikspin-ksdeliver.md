@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e527a659-7ed5-4262-bed2-3bab58919401
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, IKsPin, IKsPin interface [Streaming Media Devices], KsDeliver method, IKsPin::KsDeliver, KsDeliver, KsDeliver method [Streaming Media Devices], ksproxy/IKsPin::KsDeliver, stream.ikspin_ksdeliver, KsDeliver method [Streaming Media Devices], IKsPin interface
+ms.keywords: IKsPin::KsDeliver, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, KsDeliver method [Streaming Media Devices], IKsPin interface, KsDeliver method [Streaming Media Devices], stream.ikspin_ksdeliver, IKsPin interface [Streaming Media Devices], KsDeliver method, KsDeliver, ksproxy/IKsPin::KsDeliver, IKsPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT KsDeliver(
 
 
 
-#### - Sample [in]
+### -param Sample [in]
 
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bitmask enumerating information about the stream header of the media sample. A bitwise OR combination of the following flags is possible:
 

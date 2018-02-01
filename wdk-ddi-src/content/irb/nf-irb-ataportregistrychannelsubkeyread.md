@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50fc7a8c-64ee-4a0c-9106-a071a7cefc34
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortRegistryChannelSubkeyRead, atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, storage.ataportregistrychannelsubkeyread, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyRead
+ms.keywords: irb/AtaPortRegistryChannelSubkeyRead, atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], AtaPortRegistryChannelSubkeyRead, storage.ataportregistrychannelsubkeyread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN __inline AtaPortRegistryChannelSubkeyRead(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-#### - ControllerNumber [in]
+### -param ControllerNumber [in]
 
 Contains the controller number. 
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 Contains the name of the registry value from which to read. 
 
 
-#### - ValueType [in]
+### -param ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
 <table>
@@ -128,7 +128,7 @@ A null-terminated. Unicode string.
 </table> 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 A pointer to the destination buffer where the data that is read from the registry will be written. 
 
@@ -162,9 +162,9 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyRead</b> either dur
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 

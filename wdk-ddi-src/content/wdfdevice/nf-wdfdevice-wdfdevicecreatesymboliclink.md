@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c22035a2-8ceb-42e9-9d54-8997ce0dd8da
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink, WdfDeviceCreateSymbolicLink method, PFN_WDFDEVICECREATESYMBOLICLINK, WdfDeviceCreateSymbolicLink, kmdf.wdfdevicecreatesymboliclink, DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml
+ms.keywords: WdfDeviceCreateSymbolicLink method, wdfdevice/WdfDeviceCreateSymbolicLink, kmdf.wdfdevicecreatesymboliclink, WdfDeviceCreateSymbolicLink, DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, wdf.wdfdevicecreatesymboliclink, PFN_WDFDEVICECREATESYMBOLICLINK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfDeviceCreateSymbolicLink(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - SymbolicLinkName [in]
+### -param SymbolicLinkName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a user-visible name for the device.
 

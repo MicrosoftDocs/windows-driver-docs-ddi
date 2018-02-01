@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57519a7c-7710-4482-82f2-32067b1af22f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: vpci/PVPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], kernel.vpci_write_block_input, VPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], _VPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT
+ms.keywords: VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], VPCI_WRITE_BLOCK_INPUT, vpci/PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT, kernel.vpci_write_block_input, _VPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], vpci/VPCI_WRITE_BLOCK_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _VPCI_WRITE_BLOCK_INPUT {
 
 
 
-#### - BlockId
+### -field BlockId
 
 A <b>ULONG</b> value that specifies the VF configuration block to be read.  This value is defined by the driver for the PCIe physical function (PF) of the device.
 
 
-#### - DataLength
+### -field DataLength
 
 The size, in bytes, of the data to be written from the <b>Data</b> member.
 
 
-#### - Data
+### -field Data
 
 A variable-size array that contains the data to be written to the configuration block that is specified by the <b>BlockId</b> member.
 

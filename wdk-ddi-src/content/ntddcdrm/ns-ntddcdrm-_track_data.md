@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/TRACK_DATA, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, PTRACK_DATA, storage.track_data, TRACK_DATA structure [Storage Devices], *PTRACK_DATA, TRACK_DATA, _TRACK_DATA, ntddcdrm/PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices]
+ms.keywords: ntddcdrm/PTRACK_DATA, ntddcdrm/TRACK_DATA, PTRACK_DATA, TRACK_DATA, storage.track_data, TRACK_DATA structure [Storage Devices], *PTRACK_DATA, _TRACK_DATA, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, PTRACK_DATA structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _TRACK_DATA {
 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. 
 
 
-#### - Control
+### -field Control
 
 Indicates the attributes of the track. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
 
 
-#### - Adr
+### -field Adr
 
 Indicates the type of information encoded in the Q subchannel of the track where this table of contents entry was found. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
 
 
-#### - TrackNumber
+### -field TrackNumber
 
 Indicates the number of the track. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Address
+### -field Address
 
 Indicates the starting address of the track. 
 

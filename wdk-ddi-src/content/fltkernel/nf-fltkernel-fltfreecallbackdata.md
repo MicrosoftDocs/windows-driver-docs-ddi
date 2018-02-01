@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 45cf398f-f7f0-4eb1-b490-4123c6c9f6fa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltFreeCallbackData, FltFreeCallbackData, FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml, FltFreeCallbackData routine [Installable File System Drivers], ifsk.fltfreecallbackdata
+ms.keywords: ifsk.fltfreecallbackdata, FltFreeCallbackData, FltFreeCallbackData routine [Installable File System Drivers], FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml, fltkernel/FltFreeCallbackData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID FltFreeCallbackData(
 
 
 
-#### - CallbackData [in]
+### -param CallbackData [in]
 
 Pointer to the callback data structure to be freed. This <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure must have been allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -93,15 +93,15 @@ The <b>FltFreeCallbackData</b> routine frees any <a href="..\wdm\ns-wdm-_mdl.md"
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
 
  
 

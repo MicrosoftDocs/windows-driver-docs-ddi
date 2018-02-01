@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 0E23690B-4AE1-42F1-A53F-FE9A4697DBF2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_CONNECTION_PARAMETERS_INIT, SPB.spb_connection_parameters_init, spbcx/SPB_CONNECTION_PARAMETERS_INIT, SPB_CONNECTION_PARAMETERS_INIT function [Buses]
+ms.keywords: SPB_CONNECTION_PARAMETERS_INIT, spbcx/SPB_CONNECTION_PARAMETERS_INIT, SPB.spb_connection_parameters_init, SPB_CONNECTION_PARAMETERS_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID SPB_CONNECTION_PARAMETERS_INIT(
 
 
 
-#### - Parameters [out]
+### -param Parameters [out]
 
 A pointer to the <b>SPB_CONNECTION_PARAMETERS</b> structure that is to be initialized.
 

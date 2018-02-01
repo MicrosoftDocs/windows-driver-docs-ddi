@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 61b6dbd3-7565-4d63-bcc0-007df9793398
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDRV_VERSION structure pointer [Imaging Devices], stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, usbscan/DRV_VERSION, _DRV_VERSION, DRV_VERSION, PDRV_VERSION, usbscan/PDRV_VERSION, image.drv_version, DRV_VERSION structure [Imaging Devices], *PDRV_VERSION
+ms.keywords: PDRV_VERSION, DRV_VERSION, DRV_VERSION structure [Imaging Devices], image.drv_version, usbscan/PDRV_VERSION, stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, _DRV_VERSION, usbscan/DRV_VERSION, PDRV_VERSION structure pointer [Imaging Devices], *PDRV_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _DRV_VERSION {
 
 
 
-#### - major
+### -field major
 
 Major version number.
 
 
-#### - minor
+### -field minor
 
 Minor version number.
 
 
-#### - internal
+### -field internal
 
 Internal, vendor-specific version number.
 

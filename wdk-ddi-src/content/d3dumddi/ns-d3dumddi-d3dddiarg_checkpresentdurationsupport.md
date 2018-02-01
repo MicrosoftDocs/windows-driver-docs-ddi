@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D72D6C06-DD6A-4051-9AD0-FD1E240C164A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_checkpresentdurationsupport, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices]
+ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], display.d3dddiarg_checkpresentdurationsupport, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based video present network (VidPN) source identification number of the input for which the hardware support is queried.
 
 
-#### - DesiredPresentDuration
+### -field DesiredPresentDuration
 
 [in] The desired duration of a single present operation, in units of 100 nanoseconds.
 
 
-#### - ClosestSmallerDuration
+### -field ClosestSmallerDuration
 
 [out] The smallest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≤ <b>DesiredPresentDuration</b>.
 
 See Remarks for more limitations on this value.
 
 
-#### - ClosestLargerDuration
+### -field ClosestLargerDuration
 
 [out] The largest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≥ <b>DesiredPresentDuration</b>.
 

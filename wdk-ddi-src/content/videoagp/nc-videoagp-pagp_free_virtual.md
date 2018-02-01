@@ -74,22 +74,22 @@ VOID APIENTRY AgpFreeVirtual(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - VirtualReserveContext [in]
+### -param VirtualReserveContext [in]
 
 Identifies a reserved virtual address range. This context handle was obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>.
 
 
-#### - Pages [in]
+### -param Pages [in]
 
 Specifies the number of pages of virtual memory that the video port driver should unmap.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the page offset into the reserved virtual address range identified by <b>VirtualReserveContext</b> that indicates the actual base address at which to unmap virtual memory.
 

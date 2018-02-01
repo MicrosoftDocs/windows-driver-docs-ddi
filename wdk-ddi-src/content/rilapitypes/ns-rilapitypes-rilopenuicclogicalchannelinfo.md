@@ -72,22 +72,22 @@ typedef struct _RILOPENUICCLOGICALCHANNELINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwChannelId
+### -field dwChannelId
 
 
 
-#### - dwSelectResponseLength
+### -field dwSelectResponseLength
 
 
 
-#### - bSelectResponse
+### -field bSelectResponse
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetSymbolPath method, debugger.getsymbolpath, IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols2::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, GetSymbolPath method [Windows Debugging], IDebugSymbols3, IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, GetSymbolPath, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, GetSymbolPath method [Windows Debugging], IDebugSymbols interface
+ms.keywords: IDebugSymbols::GetSymbolPath, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetSymbolPath, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], dbgeng/IDebugSymbols::GetSymbolPath, dbgeng/IDebugSymbols2::GetSymbolPath, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, GetSymbolPath, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPath method [Windows Debugging], IDebugSymbols interface, debugger.getsymbolpath, IDebugSymbols3, IDebugSymbols3::GetSymbolPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetSymbolPath(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the symbol path.  This is a string that contains symbol path elements separated by semicolons (<b>;</b>).  Each symbol path element can specify either a directory or a symbol server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - PathSize [out, optional]
+### -param PathSize [out, optional]
 
 Receives the size, in characters, of the symbol path.
 
@@ -130,15 +130,15 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
  
 

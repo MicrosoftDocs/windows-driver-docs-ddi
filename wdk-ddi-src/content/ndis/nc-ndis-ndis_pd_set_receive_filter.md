@@ -76,17 +76,17 @@ NTSTATUS NdisPDSetReceiveFilter(
 
 
 
-#### - ProviderHandle [in]
+### -param ProviderHandle [in]
 
 A provider handle that identifies the PD-capable miniport driver's provider object.
 
 
-#### - FilterParameters [in]
+### -param FilterParameters [in]
 
 Parameters that identify any necessary information for the filter. For more information, see the <a href="..\ndis\ns-ndis-_ndis_pd_filter_parameters.md">NDIS_PD_FILTER_PARAMETERS</a> structure.
 
 
-#### - FilterHandle [out]
+### -param FilterHandle [out]
 
 A handle to the filter.
 

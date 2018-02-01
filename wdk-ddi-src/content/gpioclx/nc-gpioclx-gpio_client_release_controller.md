@@ -71,12 +71,12 @@ NTSTATUS CLIENT_ReleaseController(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the GPIO controller.
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4BE99C71-9BA6-44E3-A54F-DE8C3440A474">device context</a>.
 

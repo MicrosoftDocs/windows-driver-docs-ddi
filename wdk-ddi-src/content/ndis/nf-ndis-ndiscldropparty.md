@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5d04730-a7eb-4670-9b47-f8c52267aea8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClDropParty function [Network Drivers Starting with Windows Vista], netvista.ndiscldropparty, NdisClDropParty, ndis/NdisClDropParty, condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml
+ms.keywords: NdisClDropParty function [Network Drivers Starting with Windows Vista], NdisClDropParty, ndis/NdisClDropParty, condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml, netvista.ndiscldropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NDIS_STATUS NdisClDropParty(
 
 
 
-#### - NdisPartyHandle [in]
+### -param NdisPartyHandle [in]
 
 Specifies the handle identifying the party to be dropped on the multipoint connection. The client
      obtained this handle from a preceding call to 
@@ -78,14 +78,14 @@ Specifies the handle identifying the party to be dropped on the multipoint conne
      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 Pointer to a caller-allocated buffer containing any data to be transmitted to close the multipoint
      connection of the party on the remote node. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
 
-#### - Size [in, optional]
+### -param Size [in, optional]
 
 Specifies the size in bytes at 
      <i>Buffer</i>, zero if 
@@ -98,8 +98,8 @@ Specifies the size in bytes at
 When 
      <b>NdisClDropParty</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
      internal call to its 
-     <mshelp:link keywords="netvista.protocolcldroppartycomplete" tabindex="0"><i>
-     ProtocolClDropPartyComplete</i></mshelp:link> function. Otherwise, NDIS calls the client's 
+     <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">
+     ProtocolClDropPartyComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClDropPartyComplete</i> function when this operation is completed.
 
 
@@ -112,8 +112,8 @@ Clients usually call
 <ul>
 <li>
 From the 
-      <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
-      ProtocolClIncomingDropParty</i></mshelp:link> function to remove the given party from a multipoint connection.
+      <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+      ProtocolClIncomingDropParty</a> function to remove the given party from a multipoint connection.
 
 This occurs when a party on a remote node closes its connection with 
       <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>. When NDIS calls the
@@ -148,8 +148,8 @@ As a general guideline, a client must call
     before it closes its multipoint connection with 
     <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>. Since remote parties can
     initiate closes of their connections, thereby causing calls to the local client's 
-    <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
-    ProtocolClIncomingDropParty</i></mshelp:link> function, the local client must keep track of the number of active
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+    ProtocolClIncomingDropParty</a> function, the local client must keep track of the number of active
     parties on its multipoint VCs in order to know how many calls it must make to 
     <b>NdisClDropParty</b> before it can call 
     <b>NdisClCloseCall</b>.
@@ -171,27 +171,27 @@ The caller of
     <b>NdisClDropParty</b> should consider the input 
     <i>NdisPartyHandle</i> invalid as soon as it makes this call. If it stored this handle in the party
     context area it allocated, the client's 
-    <mshelp:link keywords="netvista.protocolcldroppartycomplete" tabindex="0"><i>
-    ProtocolClDropPartyComplete</i></mshelp:link> function should reset the handle variable to <b>NULL</b> if it reinitializes
+    <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">
+    ProtocolClDropPartyComplete</a> function should reset the handle variable to <b>NULL</b> if it reinitializes
     its per-party context area for reuse when the party has been dropped.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
  
 

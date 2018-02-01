@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEVENT_TRACE_HEADER, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml, kernel.event_trace_header, evntrace/PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], _EVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER
+ms.keywords: PEVENT_TRACE_HEADER, _EVENT_TRACE_HEADER, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml, evntrace/PEVENT_TRACE_HEADER, kernel.event_trace_header, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], *PEVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,17 +112,17 @@ typedef struct _EVENT_TRACE_HEADER {
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.HeaderType
 
- 
+Reserved for internal use.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MarkerFlags
 
- 
+Reserved for internal use.
 
 
 ### -field DUMMYUNIONNAME.FieldTypeFlags
 
- 
+Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are valid.
 
 
 ### -field DUMMYUNIONNAME2
@@ -132,27 +132,28 @@ typedef struct _EVENT_TRACE_HEADER {
 
 ### -field DUMMYUNIONNAME2.Class
 
- 
+
+       Event class information.
 
 
 ### -field DUMMYUNIONNAME2.Class.Type
 
- 
+Trace event type. This can be one of the predefined EVENT_TRACE_TYPE_<i>XXX</i> values contained in Evntrace.h or can be a driver-defined value. Callers are free to define private event types with values greater than the reserved values in Evntrace.h.
 
 
 ### -field DUMMYUNIONNAME2.Class.Level
 
- 
+Trace instrumentation level. A driver-defined value meant to represent the degree of detail of the trace instrumentation. Drivers are free to give this value meaning. This value should be 0 by default. More information about how consumers can request different levels of trace information will be provided in a future version of the documentation.
 
 
 ### -field DUMMYUNIONNAME2.Class.Version
 
- 
+Version of trace record. Version information that can be used by the driver to track different event formats.
 
 
 ### -field DUMMYUNIONNAME2.Version
 
- 
+Drivers can use this member to store version information. This information is not interpreted by the event logger.
 
 
 ### -field DUMMYUNIONNAME3
@@ -162,12 +163,12 @@ typedef struct _EVENT_TRACE_HEADER {
 
 ### -field DUMMYUNIONNAME3.Guid
 
- 
+The GUID that identifies the data block for the event. 
 
 
 ### -field DUMMYUNIONNAME3.GuidPtr
 
- 
+If the WNODE_FLAG_USE_GUID_PTR flag bit is set in <b>Flags</b>, <b>GuidPtr</b> points to the GUID that identifies the data block for the event.
 
 
 ### -field DUMMYUNIONNAME4
@@ -182,12 +183,12 @@ typedef struct _EVENT_TRACE_HEADER {
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.KernelTime
 
- 
+Reserved for internal use.
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.UserTime
 
- 
+Reserved for internal use.
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2
@@ -197,113 +198,37 @@ typedef struct _EVENT_TRACE_HEADER {
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.ClientContext
 
- 
+Reserved for internal use.
 
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.Flags
 
- 
+Provides information about the contents of this structure. For information about <b>EVENT_TRACE_HEADER</b><b> Flags</b> values, see the <b>Flags</b> description in <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>.
 
 
 ### -field DUMMYUNIONNAME4.ProcessorTime
 
- 
+Reserved for internal use.
 
 
-#### - Size
+### -field Size
 
 Specifies the size, in bytes, of the buffer that is allocated to hold event tracing information. The value that is specified must include both the size of the <b>EVENT_TRACE_HEADER</b> structure and the size of any driver-specific data. (<b>EVENT_TRACE_HEADER</b> is overlaid on a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure, but the <b>Size</b> member of <b>EVENT_TRACE_HEADER</b> and the <b>BufferSize</b> member of <b>WNODE_HEADER</b> do not specify the same size. Do not use the <b>BufferSize</b> member of <b>WNODE_HEADER</b> to set the <b>Size</b> member.) 
 
 
-#### - ThreadId
+### -field ThreadId
 
 Thread identifier.
 
 
-#### - ProcessId
+### -field ProcessId
 
 Process identifier.
 
 
-#### - TimeStamp
+### -field TimeStamp
 
 The time at which the driver event occurred. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. If the WNODE_FLAG_USE_TIMESTAMP is set in <b>Flags,</b> the system logger will leave the value of <b>TimeStamp</b> unchanged. Otherwise, the system logger will set the value of <b>TimeStamp</b> at the time it receives the event. A driver can call <b>KeQuerySystemTime</b> to set the value of <b>TimeStamp</b>. 
-
-
-#### - FieldTypeFlags
-
-Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are valid.
-
-
-#### - HeaderType
-
-Reserved for internal use.
-
-
-#### - MarkerFlags
-
-Reserved for internal use.
-
-
-#### - Version
-
-Drivers can use this member to store version information. This information is not interpreted by the event logger.
-
-
-#### - Class
-
-
-       Event class information.
-
-
-#### Type
-
-Trace event type. This can be one of the predefined EVENT_TRACE_TYPE_<i>XXX</i> values contained in Evntrace.h or can be a driver-defined value. Callers are free to define private event types with values greater than the reserved values in Evntrace.h.
-
-
-#### Level
-
-Trace instrumentation level. A driver-defined value meant to represent the degree of detail of the trace instrumentation. Drivers are free to give this value meaning. This value should be 0 by default. More information about how consumers can request different levels of trace information will be provided in a future version of the documentation.
-
-
-#### Version
-
-Version of trace record. Version information that can be used by the driver to track different event formats.
-
-
-#### - Guid
-
-The GUID that identifies the data block for the event. 
-
-
-#### - GuidPtr
-
-If the WNODE_FLAG_USE_GUID_PTR flag bit is set in <b>Flags</b>, <b>GuidPtr</b> points to the GUID that identifies the data block for the event.
-
-
-#### - KernelTime
-
-Reserved for internal use.
-
-
-#### - UserTime
-
-Reserved for internal use.
-
-
-#### - ProcessorTime
-
-Reserved for internal use.
-
-
-#### - ClientContext
-
-Reserved for internal use.
-
-
-#### - Flags
-
-Provides information about the contents of this structure. For information about <b>EVENT_TRACE_HEADER</b><b> Flags</b> values, see the <b>Flags</b> description in <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>.
 
 
 ## -remarks
@@ -319,9 +244,9 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-
 <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
+
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 

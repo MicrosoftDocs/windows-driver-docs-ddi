@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 092B54D7-FFEA-48BB-993E-14443BD0C7AA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorioctl/LBA_FILTER_TABLE_ENTRY, PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices], PLBA_FILTER_TABLE_ENTRY, storage.lba_filter_table_entry, ehstorioctl/PLBA_FILTER_TABLE_ENTRY, _LBA_FILTER_TABLE_ENTRY
+ms.keywords: PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices], *PLBA_FILTER_TABLE_ENTRY, storage.lba_filter_table_entry, ehstorioctl/PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY, _LBA_FILTER_TABLE_ENTRY, ehstorioctl/LBA_FILTER_TABLE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _LBA_FILTER_TABLE_ENTRY {
 
 
 
-#### - StartLba
+### -field StartLba
 
 The starting LBA of the LBA range for this entry.
 
 
-#### - LbaCount
+### -field LbaCount
 
 The number of LBAs in the LBA range.
 
 
-#### - ReadLock
+### -field ReadLock
 
 Set to TRUE if the LBA range in this entry is  not readable. Otherwise, this member is FALSE and the LBA range is readable.
 
 
-#### - WriteLock
+### -field WriteLock
 
 Set to TRUE if the LBA range in this entry is  not writeable. Otherwise, this member is FALSE and the LBA range is writable
 

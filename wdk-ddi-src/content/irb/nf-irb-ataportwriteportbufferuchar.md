@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43c12b35-380c-46bc-9ea0-9745f047c81a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_a1c82429-9d44-4a9b-8285-e632172a6be4.xml, irb/AtaPortWritePortBufferUchar, AtaPortWritePortBufferUchar, storage.ataportwriteportbufferuchar, AtaPortWritePortBufferUchar routine [Storage Devices]
+ms.keywords: atartns_a1c82429-9d44-4a9b-8285-e632172a6be4.xml, AtaPortWritePortBufferUchar, irb/AtaPortWritePortBufferUchar, storage.ataportwriteportbufferuchar, AtaPortWritePortBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID AtaPortWritePortBufferUchar(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the source buffer.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of UCHAR values to write to the HBA.
 
@@ -96,9 +96,9 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-
 <a href="..\irb\nf-irb-ataportwriteportbufferushort.md">AtaPortWritePortBufferUshort</a>
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 <a href="..\irb\nf-irb-ataportwriteportbufferulong.md">AtaPortWritePortBufferUlong</a>
 

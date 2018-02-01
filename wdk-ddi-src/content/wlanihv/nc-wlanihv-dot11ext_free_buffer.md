@@ -70,7 +70,7 @@ VOID WINAPI * Dot11ExtFreeBuffer(
 
 
 
-#### - pvMemory [in, optional]
+### -param pvMemory [in, optional]
 
 A pointer to the buffer to be freed. If the value of 
      <i>pvMemory</i> is <b>NULL</b>, the 
@@ -94,15 +94,15 @@ The IHV Extension DLL must not call the
     Handler function.
 
 For more information about the IHV Handler functions, see 
-    <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-    Functions</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    Functions</a>.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 

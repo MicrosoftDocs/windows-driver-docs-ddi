@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bc01b363-71e9-4c50-ad14-a101abbfe6ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, GETINFO_GLYPHWIDTH structure [Print Devices], printoem/PGETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, GETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH, printoem/GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], _GETINFO_GLYPHWIDTH
+ms.keywords: GETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, printoem/GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, GETINFO_GLYPHWIDTH structure [Print Devices], PGETINFO_GLYPHWIDTH, _GETINFO_GLYPHWIDTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _GETINFO_GLYPHWIDTH {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Size, in bytes, of the GETINFO_GLYPHWIDTH structure. Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - dwType
+### -field dwType
 
 Specifies the type of the glyph specifier array pointed to by <b>pGlyph</b>. Valid values are:
 
@@ -88,17 +88,17 @@ TYPE_GLYPHID
 Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - dwCount
+### -field dwCount
 
 Specifies the number of elements in the array pointed to by <b>pGlyph</b>. Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - pGlyph
+### -field pGlyph
 
 Pointer to an array of glyph specifiers. The array element type is indicated by <b>dwType</b>. Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - plWidth
+### -field plWidth
 
 Pointer to a location into which Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function places the width value. The pointer is supplied by the <i>UNIFONTOBJ_GetInfo</i> caller.
 

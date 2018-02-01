@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F3FA3790-0754-4D5E-9F27-8ECD71278520
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NDK_STATISTICS_INFO, ntddndis/PNDIS_NDK_STATISTICS_INFO, netvista.ndis_ndk_statistics_info, PNDIS_NDK_STATISTICS_INFO, _NDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_STATISTICS_INFO
+ms.keywords: netvista.ndis_ndk_statistics_info, ntddndis/PNDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO, ntddndis/NDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_NDK_STATISTICS_INFO, _NDIS_NDK_STATISTICS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_NDK_STATISTICS_INFO {
 
 
 
-#### - Header
+### -field Header
 
 An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_STATISTICS_INFO</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 <ul>
@@ -82,7 +82,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</
  
 
 
-#### - CounterSet
+### -field CounterSet
 
 An <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure that contains the NDK performance counters.
 

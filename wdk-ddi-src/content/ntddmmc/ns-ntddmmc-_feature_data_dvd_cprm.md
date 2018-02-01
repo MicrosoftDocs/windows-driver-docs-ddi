@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 060c1e9a-14d3-4f9b-b898-d8042f5efd7e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml, FEATURE_DATA_DVD_CPRM structure [Storage Devices], _FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices], PFEATURE_DATA_DVD_CPRM, ntddmmc/PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM, ntddmmc/FEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm
+ms.keywords: FEATURE_DATA_DVD_CPRM structure [Storage Devices], ntddmmc/PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm, ntddmmc/FEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml, _FEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _FEATURE_DATA_DVD_CPRM {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved. 
 
 
-#### - CPRMVersion
+### -field CPRMVersion
 
 Contains the CPRM version number. Must be set to 1. 
 

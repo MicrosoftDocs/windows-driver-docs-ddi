@@ -72,15 +72,15 @@ HRESULT  RIL_SetRadioStateDetails(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - pItems
+### -param pItems
 
 
 

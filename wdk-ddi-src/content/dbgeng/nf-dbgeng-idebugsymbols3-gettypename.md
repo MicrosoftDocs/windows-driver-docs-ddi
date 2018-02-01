@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09aa3ba9-d5b6-4c08-93f1-f7beca9350a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeName method [Windows Debugging], IDebugSymbols2 interface, GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, IDebugSymbols interface [Windows Debugging], GetTypeName method, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], dbgeng/IDebugSymbols3::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, IDebugSymbols3::GetTypeName, debugger.gettypename, GetTypeName, dbgeng/IDebugSymbols2::GetTypeName, IDebugSymbols3, IDebugSymbols::GetTypeName, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], IDebugSymbols interface
+ms.keywords: IDebugSymbols2::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, dbgeng/IDebugSymbols2::GetTypeName, IDebugSymbols3::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols3, debugger.gettypename, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, IDebugSymbols::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, IDebugSymbols interface [Windows Debugging], GetTypeName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,27 +73,27 @@ HRESULT GetTypeName(
 
 
 
-#### - Module [in]
+### -param Module [in]
 
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
 
 
-#### - TypeId [in]
+### -param TypeId [in]
 
 Specifies the type ID of the type.
 
 
-#### - NameBuffer [out, optional]
+### -param NameBuffer [out, optional]
 
 Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - NameBufferSize [in]
+### -param NameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -153,11 +153,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4081ddf9-673d-4df6-8698-726a70d32c03
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols::GetFieldOffset, dbgeng/IDebugSymbols2::GetFieldOffset, IDebugSymbols3, GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::GetFieldOffset, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetFieldOffset method, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols3::GetFieldOffset, GetFieldOffset method [Windows Debugging], debugger.getfieldoffset2, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method
+ms.keywords: GetFieldOffset method [Windows Debugging], IDebugSymbols interface, GetFieldOffset method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetFieldOffset method, IDebugSymbols::GetFieldOffset, IDebugSymbols3::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, debugger.getfieldoffset2, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols2::GetFieldOffset, IDebugSymbols2::GetFieldOffset, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetFieldOffset(
 
 
 
-#### - Module [in]
+### -param Module [in]
 
 Specifies the module containing the types of both the container and the field.
 
 
-#### - TypeId [in]
+### -param TypeId [in]
 
 Specifies the type ID of the type containing the field.
 
 
-#### - Field [in]
+### -param Field [in]
 
 Specifies the name of the field whose offset is requested.  Subfields may be specified by using a dot-separated path.
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the offset of the specified field from the base memory location of an instance of the type. 
 

@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 159d4767-b0e2-4d76-b23c-e078e13827dd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_WINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, WINBIO_BIR structure [Biometric Devices], *PWINBIO_BIR, WINBIO_BIR, winbio_types/PWINBIO_BIR, PWINBIO_BIR, biometric.winbio_bir, winbio_types/WINBIO_BIR"
+ms.keywords: winbio_types/PWINBIO_BIR, _WINBIO_BIR, WINBIO_BIR structure [Biometric Devices], *PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, PWINBIO_BIR, WINBIO_BIR, winbio_types/WINBIO_BIR, biometric.winbio_bir
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _WINBIO_BIR {
 
 
 
-#### - HeaderBlock
+### -field HeaderBlock
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a> that contains size and offset information for a standard biometric header. This member is required.
 
 
-#### - StandardDataBlock
+### -field StandardDataBlock
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a> that contains size and offset information for a standard data block based on the ANSI 381 format. This member is optional. Set this member to 0,0 if you do not use it.
 
 
-#### - VendorDataBlock
+### -field VendorDataBlock
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a> that contains size and offset information for a vendor-specific data block.  This member is optional. Set this member to 0,0 if you do not use it.
 
 
-#### - SignatureBlock
+### -field SignatureBlock
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a> that contains size and offset information for a signature block. This member is optional. Set this member to 0,0 if you do not use it.
 

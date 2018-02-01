@@ -71,7 +71,7 @@ HRESULT APIENTRY CALLBACK* pfnCreatePagingQueueCb(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device.
 

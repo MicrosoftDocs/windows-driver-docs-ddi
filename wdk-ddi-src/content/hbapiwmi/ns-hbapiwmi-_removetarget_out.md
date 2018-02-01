@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 176dbb0c-227e-48b2-956c-9e2b42f4c68b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRemoveTarget_OUT, RemoveTarget_OUT structure [Storage Devices], storage.removetarget_out, _RemoveTarget_OUT, RemoveTarget_OUT, *PRemoveTarget_OUT, hbapiwmi/PRemoveTarget_OUT, structs-Fibre_0cab8f87-0c96-4e03-bfd9-495e245850ca.xml, hbapiwmi/RemoveTarget_OUT, PRemoveTarget_OUT structure pointer [Storage Devices]
+ms.keywords: RemoveTarget_OUT, PRemoveTarget_OUT, _RemoveTarget_OUT, hbapiwmi/PRemoveTarget_OUT, PRemoveTarget_OUT structure pointer [Storage Devices], hbapiwmi/RemoveTarget_OUT, storage.removetarget_out, *PRemoveTarget_OUT, structs-Fibre_0cab8f87-0c96-4e03-bfd9-495e245850ca.xml, RemoveTarget_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _RemoveTarget_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 

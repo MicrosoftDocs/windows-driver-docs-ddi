@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: A122F923-D98E-4D73-896A-551A233E7491
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_MetadataAlignment, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192, KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_32, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, stream.kscamera_extendedprop_metadataalignment, KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, KSCAMERA_EXTENDEDPROP_MetadataAlignment_32
+ms.keywords: KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, stream.kscamera_extendedprop_metadataalignment, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment, KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, KSCAMERA_EXTENDEDPROP_MetadataAlignment, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_32, KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, KSCAMERA_EXTENDEDPROP_MetadataAlignment_32, KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192, KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,52 +76,52 @@ typedef enum  {
 
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_16
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_16
 
 This identifies an alignment of 16 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_32
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_32
 
 This identifies an alignment of 32 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_64
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_64
 
 This identifies an alignment of 64 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_128
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_128
 
 This identifies an alignment of 128 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_256
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_256
 
 This identifies an alignment of 256 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_512
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_512
 
 This identifies an alignment of 512 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024
 
 This identifies an alignment of 1024 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048
 
 This identifies an alignment of 2048 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096
 
 This identifies an alignment of 4096 bytes.
 
 
-#### - KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192
+### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192
 
 This identifies an alignment of 8192 bytes.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d115616-85d4-43f8-b0c8-ea5b5c2e4eff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_deleteadditionalnumberstring, RIL_DeleteAdditionalNumberString, rilapi/RIL_DeleteAdditionalNumberString, RIL_DeleteAdditionalNumberString method [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapi/RIL_DeleteAdditionalNumberString, RIL_DeleteAdditionalNumberString, netvista.ril_deleteadditionalnumberstring, RIL_DeleteAdditionalNumberString method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_DeleteAdditionalNumberString(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 
-#### - dwNumId
+### -param dwNumId
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], debugger.writephysicalwithflags, WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, wdbgexts/WritePhysicalWithFlags
+ms.keywords: debugger.writephysicalwithflags, WritePhysicalWithFlags function [Windows Debugging], wdbgexts/WritePhysicalWithFlags, WritePhysicalWithFlags, WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ VOID WritePhysicalWithFlags(
 
 
 
-#### - address
+### -param address
 
 Specifies the physical address to write.
 
 
-#### - buf
+### -param buf
 
 Specifies the address of an array of bytes to hold the data that is  written.
 
 
-#### - size
+### -param size
 
 Specifies the number of bytes to write. 
 
 
-#### - flags
+### -param flags
 
 Specifies the properties of the physical memory to be written to.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
 <table>
@@ -138,7 +138,7 @@ The physical memory is write-combined.
 </table> 
 
 
-#### - sizew
+### -param sizew
 
 Receives the number of bytes actually written.
 
@@ -159,9 +159,9 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
-
 <a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
+
+<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
 
  
 

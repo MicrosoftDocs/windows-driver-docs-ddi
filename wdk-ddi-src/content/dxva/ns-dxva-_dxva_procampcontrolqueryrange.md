@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 934b69cd-f54d-4706-bcb6-8d9e25ea3367
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_procampcontrolqueryrange, LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], DXVA_ProcAmpControlQueryRange structure [Display Devices], dxva/DXVA_ProcAmpControlQueryRange, dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml, *LPDXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange, _DXVA_ProcAmpControlQueryRange
+ms.keywords: DXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, _DXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], display.dxva_procampcontrolqueryrange, dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml, *LPDXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange structure [Display Devices], dxva/DXVA_ProcAmpControlQueryRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXVA_ProcAmpControlQueryRange {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size of this structure in bytes.
 
 
-#### - ProcAmpControlProp
+### -field ProcAmpControlProp
 
 Specifies a <a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a> structure that indicates the supported ProcAmp control properties.
 
 
-#### - VideoDesc
+### -field VideoDesc
 
 Specifies a <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a> structure that provides the driver with a description of the video that the ProcAmp adjustment is going to be applied to. Drivers may adjust their ProcAmp feature support for particular video streams.
 

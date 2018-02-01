@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 477EBC8A-04A5-4904-AC62-0FA7DB861ACC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure [Display Devices], display.dxgkarg_checkmultiplaneoverlaysupport2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2"
+ms.keywords: "*IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure [Display Devices], DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, display.dxgkarg_checkmultiplaneoverlaysupport2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 {
 
 
 
-#### - PlaneCount
+### -field PlaneCount
 
 The number of planes to be enabled.
 
 
-#### - pPlanes
+### -field pPlanes
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source.md">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a> 
                                                                         structure that specifies support attributes that the hardware
                                                                         provides for multi-plane overlays.
 
 
-#### - Supported
+### -field Supported
 
 <b>TRUE</b> if the multi-plane overlay configuration can be supported, otherwise <b>FALSE</b>.
 
 
-#### - ReturnInfo
+### -field ReturnInfo
 
 Specifies additional information.
 

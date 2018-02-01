@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c80e18db-332a-41d3-b761-46b94436742c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeReadStateEvent, k105_f0b95771-5c9f-4573-8dc0-44b8f673b6d7.xml, kernel.kereadstateevent, KeReadStateEvent, KeReadStateEvent routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeReadStateEvent, KeReadStateEvent routine [Kernel-Mode Driver Architecture], kernel.kereadstateevent, k105_f0b95771-5c9f-4573-8dc0-44b8f673b6d7.xml, KeReadStateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ LONG KeReadStateEvent(
 
 
 
-#### - Event [in]
+### -param Event [in]
 
 A pointer to an initialized event object for which the caller provides the storage.
 
@@ -93,15 +93,15 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
  
 

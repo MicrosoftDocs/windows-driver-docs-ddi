@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04c1ece1-1c8f-40eb-8437-ac2fe1445095
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], display.kmddod_initialization_data, dispmprt/PKMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA, _KMDDOD_INITIALIZATION_DATA
+ms.keywords: KMDDOD_INITIALIZATION_DATA, display.kmddod_initialization_data, PKMDDOD_INITIALIZATION_DATA, dispmprt/KMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], _KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,216 +107,216 @@ typedef struct _KMDDOD_INITIALIZATION_DATA {
 
 
 
-#### - Version
+### -field Version
 
 A positive integer that indicates the version of the functional interface implemented by the KMDOD. The KMDOD must set this member to <b>DXGKDDI_INTERFACE_VERSION</b>, which is defined in Dispmprt.h.
 
 
-#### - DxgkDdiAddDevice
+### -field DxgkDdiAddDevice
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-#### - DxgkDdiStartDevice
+### -field DxgkDdiStartDevice
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
 
 
-#### - DxgkDdiStopDevice
+### -field DxgkDdiStopDevice
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a> function.
 
 
-#### - DxgkDdiRemoveDevice
+### -field DxgkDdiRemoveDevice
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_remove_device.md">DxgkDdiRemoveDevice</a> function.
 
 
-#### - DxgkDdiDispatchIoRequest
+### -field DxgkDdiDispatchIoRequest
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_dispatch_io_request.md">DxgkDdiDispatchIoRequest</a> function.
 
 
-#### - DxgkDdiInterruptRoutine
+### -field DxgkDdiInterruptRoutine
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function.
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
 
-#### - DxgkDdiDpcRoutine
+### -field DxgkDdiDpcRoutine
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_dpc_routine.md">DxgkDdiDpcRoutine</a> function.
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
 
-#### - DxgkDdiQueryChildRelations
+### -field DxgkDdiQueryChildRelations
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function.
 
 
-#### - DxgkDdiQueryChildStatus
+### -field DxgkDdiQueryChildStatus
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a> function.
 
 
-#### - DxgkDdiQueryDeviceDescriptor
+### -field DxgkDdiQueryDeviceDescriptor
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a> function.
 
 
-#### - DxgkDdiSetPowerState
+### -field DxgkDdiSetPowerState
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a> function.
 
 
-#### - DxgkDdiNotifyAcpiEvent
+### -field DxgkDdiNotifyAcpiEvent
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a> function.
 
 
-#### - DxgkDdiResetDevice
+### -field DxgkDdiResetDevice
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_reset_device.md">DxgkDdiResetDevice</a> function.
 
 
-#### - DxgkDdiUnload
+### -field DxgkDdiUnload
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_unload.md">DxgkDdiUnload</a> function.
 
 
-#### - DxgkDdiQueryInterface
+### -field DxgkDdiQueryInterface
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a> function.
 
 
-#### - DxgkDdiControlEtwLogging
+### -field DxgkDdiControlEtwLogging
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_control_etw_logging.md">DxgkDdiControlEtwLogging</a> function.
 
 
-#### - DxgkDdiQueryAdapterInfo
+### -field DxgkDdiQueryAdapterInfo
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
 
 
-#### - DxgkDdiSetPalette
+### -field DxgkDdiSetPalette
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a> function that sets the palette for the display.
 
 
-#### - DxgkDdiSetPointerPosition
+### -field DxgkDdiSetPointerPosition
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a> function.
 
 
-#### - DxgkDdiSetPointerShape
+### -field DxgkDdiSetPointerShape
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a> function.
 
 
-#### - DxgkDdiEscape
+### -field DxgkDdiEscape
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a> function.
 
 
-#### - DxgkDdiCollectDbgInfo
+### -field DxgkDdiCollectDbgInfo
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a> function.
 
 
-#### - DxgkDdiIsSupportedVidPn
+### -field DxgkDdiIsSupportedVidPn
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a> function.
 
 
-#### - DxgkDdiRecommendFunctionalVidPn
+### -field DxgkDdiRecommendFunctionalVidPn
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a> function.
 
 
-#### - DxgkDdiEnumVidPnCofuncModality
+### -field DxgkDdiEnumVidPnCofuncModality
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a> function.
 
 
-#### - DxgkDdiSetVidPnSourceVisibility
+### -field DxgkDdiSetVidPnSourceVisibility
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility.md">DxgkDdiSetVidPnSourceVisibility</a> function.
 
 
-#### - DxgkDdiCommitVidPn
+### -field DxgkDdiCommitVidPn
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>  function.
 
 
-#### - DxgkDdiUpdateActiveVidPnPresentPath
+### -field DxgkDdiUpdateActiveVidPnPresentPath
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a> function.
 
 
-#### - DxgkDdiRecommendMonitorModes
+### -field DxgkDdiRecommendMonitorModes
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonitormodes.md">DxgkDdiRecommendMonitorModes</a> function.
 
 
-#### - DxgkDdiGetScanLine
+### -field DxgkDdiGetScanLine
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md">DxgkDdiGetScanLine</a> function.
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
 
-#### - DxgkDdiQueryVidPnHWCapability
+### -field DxgkDdiQueryVidPnHWCapability
 
 
       A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a> function.
 
 
-#### - DxgkDdiPresentDisplayOnly
+### -field DxgkDdiPresentDisplayOnly
 
 
       A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a> function.
 
 
-#### - DxgkDdiStopDeviceAndReleasePostDisplayOwnership
+### -field DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 
 
       A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a> function.
 
 
-#### - DxgkDdiSystemDisplayEnable
+### -field DxgkDdiSystemDisplayEnable
 
 
       A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_enable.md">DxgkDdiSystemDisplayEnable</a> function.
 
 
-#### - DxgkDdiSystemDisplayWrite
+### -field DxgkDdiSystemDisplayWrite
 
 
       A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_write.md">DxgkDdiSystemDisplayWrite</a> function.
 
 
-#### - DxgkDdiGetChildContainerId
+### -field DxgkDdiGetChildContainerId
 
 
       A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_get_child_container_id.md">DxgkDdiGetChildContainerId</a> function.
 
 
-#### - DxgkDdiControlInterrupt
+### -field DxgkDdiControlInterrupt
 
 
       A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a> function.
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
 
-#### - DxgkDdiSetPowerComponentFState
+### -field DxgkDdiSetPowerComponentFState
 
 
       A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md">DxgkDdiSetPowerComponentFState</a> function.
 
 
-#### - DxgkDdiPowerRuntimeControlRequest
+### -field DxgkDdiPowerRuntimeControlRequest
 
 
       A pointer to the KMDOD's <a href="https://msdn.microsoft.com/56535128-3107-4fb5-b0e1-2e913c386cc2">DxgkDdiPowerRuntimeControlRequest</a> function.
 
 
-#### - DxgkDdiNotifySurpriseRemoval
+### -field DxgkDdiNotifySurpriseRemoval
 
 
       A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_surprise_removal.md">DxgkDdiNotifySurpriseRemoval</a> function.

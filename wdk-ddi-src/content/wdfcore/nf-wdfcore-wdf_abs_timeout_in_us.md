@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9258d82c-98d1-45ab-88db-484cb9db45ee
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_ABS_TIMEOUT_IN_US function, wdfcore/WDF_ABS_TIMEOUT_IN_US, wdf.wdf_abs_timeout_in_us, kmdf.wdf_abs_timeout_in_us, DFTimerObjectRef_0e51f320-984a-4fe2-a077-09aec8b3b011.xml, WDF_ABS_TIMEOUT_IN_US
+ms.keywords: WDF_ABS_TIMEOUT_IN_US, wdf.wdf_abs_timeout_in_us, kmdf.wdf_abs_timeout_in_us, WDF_ABS_TIMEOUT_IN_US function, DFTimerObjectRef_0e51f320-984a-4fe2-a077-09aec8b3b011.xml, wdfcore/WDF_ABS_TIMEOUT_IN_US
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ LONGLONG WDF_ABS_TIMEOUT_IN_US(
 
 
 
-#### - Time [in]
+### -param Time [in]
 
 The number of microseconds to convert.
 

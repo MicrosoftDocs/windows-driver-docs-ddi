@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 05FF8A47-A586-4DA7-94AD-A7186265ADB4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprinterqueue2_sendbidisetrequestasync, IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2, IPrinterQueue2 interface [Print Devices], SendBidiSetRequestAsync method, SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
+ms.keywords: SendBidiSetRequestAsync, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync, IPrinterQueue2, SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface [Print Devices], SendBidiSetRequestAsync method, SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface, IPrinterQueue2::SendBidiSetRequestAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT SendBidiSetRequestAsync(
 
 
 
-#### - bstrBidiRequest [in]
+### -param bstrBidiRequest [in]
 
 XML string that is used to transfer the data for the  Set request.
 
 
-#### - pCallback [in]
+### -param pCallback [in]
 
 Callback object for the Bidi Set request.
 
 
-#### - ppAsyncOperation [out, retval]
+### -param ppAsyncOperation [out, retval]
 
 Context object associated with the asynchronous Bidi Set  request (operation).
 
@@ -98,9 +98,9 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 <a href="..\printerextension\nn-printerextension-iprinterbidisetrequestcallback.md">IPrinterBidiSetRequestCallback</a>
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterqueue2.md">IPrinterQueue2</a>
+
+<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
 
  
 

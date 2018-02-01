@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bfeafa09-49b7-45b3-84d8-afad5f43b78e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Copy, Copy method [Windows Debugging], ExtRemoteTyped class [Windows Debugging], Copy method, Copy method [Windows Debugging], ExtRemoteTyped class, ExtBuffer::Copy, ExtBuffer, debugger.extremotetyped_copy_debug_typed_data
+ms.keywords: ExtRemoteTyped class [Windows Debugging], Copy method, ExtBuffer::Copy, Copy method [Windows Debugging], debugger.extremotetyped_copy_debug_typed_data, Copy method [Windows Debugging], ExtRemoteTyped class, ExtBuffer, Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,11 +99,11 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+<a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">ExtRemoteTyped::operator=</a>
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
-<a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">ExtRemoteTyped::operator=</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
  
 

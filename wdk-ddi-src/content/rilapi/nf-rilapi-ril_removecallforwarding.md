@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d2ac3147-fe34-4643-b735-c795b6ba4768
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_RemoveCallForwarding, RIL_RemoveCallForwarding, netvista.ril_removecallforwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_removecallforwarding, rilapi/RIL_RemoveCallForwarding, RIL_RemoveCallForwarding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,23 +74,23 @@ HRESULT  RIL_RemoveCallForwarding(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - dwReason
+### -param dwReason
 
 
 
-#### - dwInfoClasses
+### -param dwInfoClasses
 
 
 

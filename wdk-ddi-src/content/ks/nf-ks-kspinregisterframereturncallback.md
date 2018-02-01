@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 480f33e7-6fe6-40a1-9e1b-351378b7e003
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinRegisterFrameReturnCallback function [Streaming Media Devices], stream.kspinregisterframereturncallback, avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, ks/KsPinRegisterFrameReturnCallback, KsPinRegisterFrameReturnCallback
+ms.keywords: KsPinRegisterFrameReturnCallback function [Streaming Media Devices], ks/KsPinRegisterFrameReturnCallback, avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, KsPinRegisterFrameReturnCallback, stream.kspinregisterframereturncallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsPinRegisterFrameReturnCallback(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to the AVStream <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that you want to place into injection mode by registering a frame return callback.
 
 
-#### - FrameReturn [in]
+### -param FrameReturn [in]
 
 This parameter supplies the address of a minidriver-provided <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a> routine.
 
@@ -97,11 +97,11 @@ Minidrivers that call this function are directly responsible for injecting frame
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
+<a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>
 
 <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
 
-<a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>
+<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
 
  
 

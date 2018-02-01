@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2A151351-AC57-4F7C-BA1A-201F6FB29C4F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN, _NDIS_SWITCH_PORT_PROPERTY_VLAN, netvista.ndis_switch_port_property_vlan, ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN
+ms.keywords: ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN, PNDIS_SWITCH_PORT_PROPERTY_VLAN, _NDIS_SWITCH_PORT_PROPERTY_VLAN, PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_PROPERTY_VLAN, netvista.ndis_switch_port_property_vlan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,38 +86,9 @@ typedef struct _NDIS_SWITCH_PORT_PROPERTY_VLAN {
 
 
 
-#### - VlanProperties
+### -field VlanProperties
 
 A structure that specifies the properties of a VLAN with an operation mode of <b>NdisSwitchPortVlanModeAccess</b> or <b>NdisSwitchPortVlanModeTrunk</b>. This structure contains the following members:
-
-
-
-#### AccessVlanId
-
-A UINT16 value that specifies the VLAN identifier for the extensible switch port that operates in VLAN access mode.
-<div class="alert"><b>Note</b>  This member is only valid if  the <b>OperationMode</b> member is set to <b>NdisSwitchPortVlanModeAccess</b>.</div><div> </div>
-
-#### NativeVlanId
-
-A UINT16 value that specifies the VLAN identifier for the extensible switch port that operates in VLAN trunk mode.
-
-
-#### PruneVlanIdArray
-
-An array of UINT64 elements that specifies VLAN identifiers whose packets are blocked on an extensible switch port.
-
-The array has 64 UINT64 elements that represent 4096 consecutive bits.
-         Each bit that has a value of one specifies a VLAN identifier whose packets are blocked from being sent or received on an extensible switch port. For example,  if bit three is set to one, packet traffic from VLAN identifier three is blocked on a port. Similarly, if bit 64 is set to zero, packet traffic from VLAN identifier 64 is not blocked on a port.
-
-<div class="alert"><b>Note</b>  VLANS with identifiers that map to a bit value of one are
-        always blocked. This overrides the equivalent bit setting for the VLAN identifier in the <b>TrunkVlanIdArray</b> member.</div><div> </div>
-
-#### TrunkVlanIdArray
-
-An array of UINT64 elements that specifies VLAN identifiers whose packets are allowed on an extensible switch port.
-
-The array has 64 UINT64 elements that represent 4096 consecutive bits.
-         Each bit that has a value of one specifies a VLAN identifier whose packets are allowed to be sent or received on an extensible switch port. For example,  if bit two is set to one, packet traffic from VLAN identifier two is allowed on a port. Similarly, if bit 1954 is set to zero, packet traffic from VLAN identifier 1954 is not allowed on a port.
 
 
 
@@ -150,34 +121,10 @@ The array has 64 UINT64 elements that represent 4096 consecutive bits.
 
 
 
-#### - PvlanProperties
+### -field PvlanProperties
 
 A structure that specifies the properties of a VLAN with an operation mode of <b>NdisSwitchPortVlanModePrivate</b>. This structure contains the following members:
 
-
-#### PvlanMode
-
-An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_pvlan_mode.md">NDIS_SWITCH_PORT_PVLAN_MODE</a> enumeration value that specifies the operation mode of the PVLAN.
-
-
-#### PrimaryVlanId
-
-A UINT16 value that specifies the primary VLAN identifier for an extensible switch port.
-<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeCommunity</b>.</div><div> </div>
-
-#### SecondaryVlanId
-
-A UINT16 value that specifies the secondary VLAN identifier for an extensible switch port.
-<div class="alert"><b>Note</b>  This member is only valid if   the  <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeIsolated</b> or <b>NdisSwitchPortPvlanModeCommunity</b>.</div><div> </div>
-
-#### SecondaryVlanIdArray
-
-An array of UINT64 elements that specify the secondary VLAN identifiers for an extensible switch port.
-
-The array has 64 UINT64 elements, which represent 4096 consecutive bits.
-         Each bit that has a value of one specifies a secondary VLAN identifier for the extensible switch port. For example,  if bit five is set to one, the secondary VLAN identifier is five. Similarly, if bit 128 is set to zero, 128 cannot be used as a secondary VLAN identifier.
-
-<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModePromiscuous</b>.</div><div> </div>
 
 ### -field PvlanProperties.SecondaryVlanId
 
@@ -203,7 +150,7 @@ An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_pvlan_mode.md">NDIS_SWITCH
 A UINT16 value that specifies the primary VLAN identifier for an extensible switch port.
 <div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeCommunity</b>.</div><div> </div>
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -219,12 +166,12 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_PROPERTY_VLAN_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
 
 
-#### - OperationMode
+### -field OperationMode
 
 An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a> enumeration value that specifies the operation mode of the VLAN.
 
@@ -286,15 +233,15 @@ For more information on forwarding extensions, see <a href="https://msdn.microso
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598275">OID_SWITCH_PORT_PROPERTY_ADD</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a>
 
 <b></b>
 

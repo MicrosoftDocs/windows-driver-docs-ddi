@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cba1fcc3-74d0-44b7-b480-3e7d754f9efe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UICCAPPTYPE_USIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_USIM, RIL_UICCAPPTYPE_MF_RUIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, RILUICCAPPTYPE, rilapitypes/RILUICCAPPTYPE, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, rilapitypes/RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_ISIM, RIL_UICCAPPTYPE_UNKNOWN, netvista.riluiccapptype, RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_MF, RIL_UICCAPPTYPE_CSIM, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPPTYPE_ISIM
+ms.keywords: RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RILUICCAPPTYPE, RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RIL_UICCAPPTYPE_USIM, RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_MF, RILUICCAPPTYPE, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_ISIM, RIL_UICCAPPTYPE_USIM, netvista.riluiccapptype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,31 +75,31 @@ enum RILUICCAPPTYPE {
 
 
 
-#### - RIL_UICCAPPTYPE_UNKNOWN
+### -field RIL_UICCAPPTYPE_UNKNOWN
 
 
 
-#### - RIL_UICCAPPTYPE_MF
+### -field RIL_UICCAPPTYPE_MF
 
 
 
-#### - RIL_UICCAPPTYPE_MF_SIM
+### -field RIL_UICCAPPTYPE_MF_SIM
 
 
 
-#### - RIL_UICCAPPTYPE_MF_RUIM
+### -field RIL_UICCAPPTYPE_MF_RUIM
 
 
 
-#### - RIL_UICCAPPTYPE_USIM
+### -field RIL_UICCAPPTYPE_USIM
 
 
 
-#### - RIL_UICCAPPTYPE_CSIM
+### -field RIL_UICCAPPTYPE_CSIM
 
 
 
-#### - RIL_UICCAPPTYPE_ISIM
+### -field RIL_UICCAPPTYPE_ISIM
 
 
 

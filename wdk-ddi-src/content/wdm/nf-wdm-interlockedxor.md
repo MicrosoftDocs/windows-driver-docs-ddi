@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3ddf62f1-ce5d-4d55-9964-8d1786ac2997
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml, InterlockedXor, kernel.interlockedxor, InterlockedXor routine [Kernel-Mode Driver Architecture], wdm/InterlockedXor
+ms.keywords: k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml, InterlockedXor routine [Kernel-Mode Driver Architecture], kernel.interlockedxor, wdm/InterlockedXor, InterlockedXor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ LONG InterlockedXor(
 
 
 
-#### - Destination [in, out]
+### -param Destination [in, out]
 
 A pointer to the variable to be exclusive ORed with <i>Value</i>. The result of the operation is stored in the variable. 
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the value to be exclusive ORed with the variable that is pointed to by <i>Destination</i>. 
 
@@ -97,9 +97,9 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
-
 <a href="..\wdm\nf-wdm-interlockedor.md">InterlockedOr</a>
+
+<a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
 
  
 

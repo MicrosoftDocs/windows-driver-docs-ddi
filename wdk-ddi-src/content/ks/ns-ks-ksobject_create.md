@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b59d76eb-77c2-4ae5-8be2-f987d7f58446
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSOBJECT_CREATE, PKSOBJECT_CREATE structure pointer [Streaming Media Devices], ks/PKSOBJECT_CREATE, PKSOBJECT_CREATE, KSOBJECT_CREATE, KSOBJECT_CREATE structure [Streaming Media Devices], stream.ksobject_create, ks-struct_885122dd-299b-47d0-b161-2d3ffac610f6.xml, *PKSOBJECT_CREATE
+ms.keywords: PKSOBJECT_CREATE structure pointer [Streaming Media Devices], PKSOBJECT_CREATE, *PKSOBJECT_CREATE, ks/PKSOBJECT_CREATE, ks-struct_885122dd-299b-47d0-b161-2d3ffac610f6.xml, KSOBJECT_CREATE structure [Streaming Media Devices], KSOBJECT_CREATE, ks/KSOBJECT_CREATE, stream.ksobject_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - CreateItemsCount
+### -field CreateItemsCount
 
 Contains the number of items in the following array.
 
 
-#### - CreateItemsList
+### -field CreateItemsList
 
 Points to an array of <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> structures for base object classes supported by this device object.
 

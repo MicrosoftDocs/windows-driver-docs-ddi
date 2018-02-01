@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C5BAED6C-223F-4D1B-A9A4-323C93DD5AD9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryByToken method, GetSymbolEntryByToken, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, GetSymbolEntryByToken method [Windows Debugging], debugger.idebugsymbols3_getsymbolentrybytoken, IDebugSymbols3::GetSymbolEntryByToken, IDebugSymbols3, GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetSymbolEntryByToken, IDebugSymbols3::GetSymbolEntryByToken, debugger.idebugsymbols3_getsymbolentrybytoken, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3, GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryByToken method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetSymbolEntryByToken(
 
 
 
-#### - ModuleBase [in]
+### -param ModuleBase [in]
 
 The base of the module.
 
 
-#### - Token [in]
+### -param Token [in]
 
 The token to use to look up the symbol.
 
 
-#### - Id [out]
+### -param Id [out]
 
 A pointer to the module as a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure. 
 

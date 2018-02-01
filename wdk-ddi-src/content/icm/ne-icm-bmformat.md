@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1c29bf1e-e785-48ab-aa2c-3665fd5c0ab0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BMFORMAT, BM_xRGBQUADS, BM_XYZTRIPLETS, icm/BM_565RGB, icm/BM_CMYKQUADS, icm/BM_16b_RGB, icm/BM_NAMED_INDEX, BM_LabTRIPLETS, icm/BM_x555Lab, BM_32b_scRGB, icm/BM_xG3CHQUADS, icm/BM_xRGBQUADS, BM_R10G10B10A2_XR, BM_16b_G3CH, icm/BM_5CHANNEL, icm/BM_LabTRIPLETS, BM_x555XYZ, icm/BM_XYZTRIPLETS, BM_10b_G3CH, BM_BGRTRIPLETS, icm/BM_R10G10B10A2, icm/BM_16b_XYZ, icm/BM_G3CHTRIPLETS, colorfnc_44898765-c0de-41ae-8036-b288ab45b3cb.xml, icm/BM_32b_scRGB, icm/BM_S2DOT13FIXED_scRGB, BM_6CHANNEL, BM_R16G16B16A16_FLOAT, BM_G3CHTRIPLETS, *PBMFORMAT, BM_16b_GRAY, BM_R10G10B10A2, BM_x555G3CH, icm/BM_KYMCQUADS, BM_x555Yxy, icm/BM_x555XYZ, icm/BM_RGBTRIPLETS, BM_16b_XYZ, BM_x555RGB, icm/BMFORMAT, BM_7CHANNEL, icm/BM_6CHANNEL, icm/BM_BGRTRIPLETS, icm/BM_GRAY, BM_x555Lab, icm/BM_10b_RGB, icm/BM_7CHANNEL, BM_10b_RGB, BM_16b_RGB, icm/BM_R16G16B16A16_FLOAT, BM_S2DOT13FIXED_scRGB, icm/BM_10b_Lab, BM_KYMCQUADS, BM_8CHANNEL, BM_5CHANNEL, icm/BM_xBGRQUADS, BM_32b_scARGB, BM_565RGB, BM_YxyTRIPLETS, BM_10b_XYZ, BM_S2DOT13FIXED_scARGB, icm/BM_R10G10B10A2_XR, icm/BM_10b_XYZ, BM_NAMED_INDEX, BM_16b_Yxy, icm/BM_x555RGB, icm/BM_x555G3CH, icm/BM_10b_G3CH, icm/BM_16b_Lab, BM_16b_Lab, BM_xBGRQUADS, BM_xG3CHQUADS, BM_GRAY, icm/BM_10b_Yxy, BM_RGBTRIPLETS, BM_CMYKQUADS, BM_10b_Yxy, icm/BM_x555Yxy, icm/BM_YxyTRIPLETS, BMFORMAT enumeration [Print Devices], icm/BM_16b_GRAY, icm/BM_16b_G3CH, icm/BM_16b_Yxy, BM_10b_Lab, print.bmformat, icm/BM_8CHANNEL, icm/BM_S2DOT13FIXED_scARGB, icm/BM_32b_scARGB
+ms.keywords: icm/BM_LabTRIPLETS, BM_YxyTRIPLETS, BM_5CHANNEL, BM_R10G10B10A2, BM_6CHANNEL, BM_x555Lab, icm/BM_10b_XYZ, icm/BM_10b_Yxy, BM_10b_XYZ, icm/BM_16b_Lab, icm/BM_7CHANNEL, BM_16b_RGB, BM_16b_XYZ, icm/BM_32b_scARGB, BM_10b_Lab, BM_16b_G3CH, icm/BM_565RGB, icm/BM_S2DOT13FIXED_scARGB, icm/BM_RGBTRIPLETS, BM_R16G16B16A16_FLOAT, BM_10b_G3CH, BM_10b_Yxy, BM_NAMED_INDEX, BM_16b_GRAY, BM_16b_Yxy, icm/BMFORMAT, icm/BM_x555RGB, BM_8CHANNEL, icm/BM_16b_XYZ, BM_KYMCQUADS, icm/BM_10b_G3CH, icm/BM_R16G16B16A16_FLOAT, icm/BM_G3CHTRIPLETS, BM_16b_Lab, BM_S2DOT13FIXED_scARGB, icm/BM_R10G10B10A2, icm/BM_10b_RGB, BM_565RGB, BMFORMAT enumeration [Print Devices], BM_x555G3CH, icm/BM_16b_G3CH, BM_x555Yxy, BM_xRGBQUADS, BMFORMAT, icm/BM_32b_scRGB, icm/BM_xG3CHQUADS, icm/BM_KYMCQUADS, icm/BM_BGRTRIPLETS, icm/BM_CMYKQUADS, *PBMFORMAT, icm/BM_10b_Lab, BM_LabTRIPLETS, icm/BM_8CHANNEL, BM_GRAY, icm/BM_XYZTRIPLETS, icm/BM_6CHANNEL, icm/BM_5CHANNEL, icm/BM_GRAY, icm/BM_16b_GRAY, colorfnc_44898765-c0de-41ae-8036-b288ab45b3cb.xml, BM_32b_scRGB, icm/BM_xRGBQUADS, BM_S2DOT13FIXED_scRGB, BM_RGBTRIPLETS, icm/BM_NAMED_INDEX, icm/BM_x555G3CH, BM_x555RGB, icm/BM_x555XYZ, BM_xG3CHQUADS, icm/BM_x555Lab, BM_x555XYZ, icm/BM_xBGRQUADS, icm/BM_R10G10B10A2_XR, icm/BM_x555Yxy, BM_CMYKQUADS, BM_xBGRQUADS, BM_G3CHTRIPLETS, icm/BM_S2DOT13FIXED_scRGB, BM_BGRTRIPLETS, icm/BM_16b_RGB, icm/BM_YxyTRIPLETS, icm/BM_16b_Yxy, BM_R10G10B10A2_XR, print.bmformat, BM_32b_scARGB, BM_7CHANNEL, BM_XYZTRIPLETS, BM_10b_RGB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -107,204 +107,204 @@ typedef enum  {
 
 
 
-#### - BM_x555RGB
+### -field BM_x555RGB
 
 16 bits per pixel. RGB color space. 5 bits per channel. The most significant bit is ignored.
 
 
-#### - BM_x555XYZ
+### -field BM_x555XYZ
 
 16 bits per pixel. Yxy color space. 5 bits per channel. The most significant bit is ignored.
 
 
-#### - BM_x555Yxy
+### -field BM_x555Yxy
 
 16 bits per pixel. Yxy color space. 5 bits per channel. The most significant bit is ignored.
 
 
-#### - BM_x555Lab
+### -field BM_x555Lab
 
 BM_x555G3CH
 
 
-#### - BM_x555G3CH
+### -field BM_x555G3CH
 
 16 bits per pixel. G3CH color space. 5 bits per channel. The most significant bit is ignored.
 
 
-#### - BM_RGBTRIPLETS
+### -field BM_RGBTRIPLETS
 
 24 bits per pixel maximum. For three channel colors, such as red, green, and blue, the total size is 24 bits per pixel. For single channel colors, such as gray, the total size is 8 bits per pixel.
 
 
-#### - BM_BGRTRIPLETS
+### -field BM_BGRTRIPLETS
 
 24 bits per pixel maximum. For three channel colors, such as red, green, and blue, the total size is 24 bits per pixel. For single channel colors, such as gray, the total size is 8 bits per pixel.
 
 
-#### - BM_XYZTRIPLETS
+### -field BM_XYZTRIPLETS
 
 24 bits per pixel maximum. For three channel colors, such as red, green, and blue, the total size is 24 bits per pixel. For single channel colors, such as gray, the total size is 8 bits per pixel.
 
 
-#### - BM_YxyTRIPLETS
+### -field BM_YxyTRIPLETS
 
 24 bits per pixel maximum. For three channel, Y, x, and y values, the total size is 24 bits per pixel. For single channel gray scale, the total size is 8 bits per pixel.
 
 
-#### - BM_LabTRIPLETS
+### -field BM_LabTRIPLETS
 
 24 bits per pixel maximum. For three channel, L, a, and b values, the total size is 24 bits per pixel. For single channel gray scale, the total size is 8 bits per pixel.
 
 
-#### - BM_G3CHTRIPLETS
+### -field BM_G3CHTRIPLETS
 
 24 bits per pixel maximum. For three channel values, the total size is 24 bits per pixel. For single channel gray scale, the total size is 8 bits per pixel.
 
 
-#### - BM_5CHANNEL
+### -field BM_5CHANNEL
 
 40 bits per pixel. 8 bits apiece are used for each channel.
 
 
-#### - BM_6CHANNEL
+### -field BM_6CHANNEL
 
 
 
-#### - BM_7CHANNEL
+### -field BM_7CHANNEL
 
 56 bits per pixel. 8 bits apiece are used for each channel.
 
 
-#### - BM_8CHANNEL
+### -field BM_8CHANNEL
 
 64 bits per pixel. 8 bits apiece are used for each channel.
 
 
-#### - BM_GRAY
+### -field BM_GRAY
 
 32 bits per pixel. Only the 8 bit gray-scale value is used.
 
 
-#### - BM_xRGBQUADS
+### -field BM_xRGBQUADS
 
 32 bits per pixel. 8 bits are used for each color channel. The most significant byte is ignored.
 
 
-#### - BM_xBGRQUADS
+### -field BM_xBGRQUADS
 
 32 bits per pixel. 8 bits are used for each color channel. The most significant byte is ignored.
 
 
-#### - BM_xG3CHQUADS
+### -field BM_xG3CHQUADS
 
 32 bits per pixel. 8 bits are used for each color channel. The most significant byte is ignored.
 
 
-#### - BM_KYMCQUADS
+### -field BM_KYMCQUADS
 
 32 bits per pixel. 8 bits are used for each color channel.
 
 
-#### - BM_CMYKQUADS
+### -field BM_CMYKQUADS
 
 32 bits per pixel. 8 bits are used for each color channel.
 
 
-#### - BM_10b_RGB
+### -field BM_10b_RGB
 
 32 bits per pixel. 10 bits are used for each color channel. The 2 most significant bits are ignored. 
 
 
-#### - BM_10b_XYZ
+### -field BM_10b_XYZ
 
 32 bits per pixel. 10 bits are used for each color channel. The 2 most significant bits are ignored.
 
 
-#### - BM_10b_Yxy
+### -field BM_10b_Yxy
 
 32 bits per pixel. 10 bits are used for each color channel. The 2 most significant bits are ignored.
 
 
-#### - BM_10b_Lab
+### -field BM_10b_Lab
 
 32 bits per pixel. 10 bits are used for each color channel. The 2 most significant bits are ignored.
 
 
-#### - BM_10b_G3CH
+### -field BM_10b_G3CH
 
 32 bits per pixel. 10 bits are used for each color channel. The 2 most significant bits are ignored.
 
 
-#### - BM_NAMED_INDEX
+### -field BM_NAMED_INDEX
 
 32 bits per pixel. Named color indices. Index numbering begins at one. 
 
 
-#### - BM_16b_RGB
+### -field BM_16b_RGB
 
 64 bits per pixel. 16 bits are used for the gray-scale value. Each of the three color channels uses 16 bits.
 
 
-#### - BM_16b_XYZ
+### -field BM_16b_XYZ
 
 64 bits per pixel. 16 bits are used for the gray-scale value. Each of the three color channels uses 16 bits.
 
 
-#### - BM_16b_Yxy
+### -field BM_16b_Yxy
 
 64 bits per pixel. 16 bits are used for the gray-scale value. Each of the three color channels uses 16 bits.
 
 
-#### - BM_16b_Lab
+### -field BM_16b_Lab
 
 64 bits per pixel. 16 bits are used for the gray-scale value. Each of the three color channels uses 16 bits.
 
 
-#### - BM_16b_G3CH
+### -field BM_16b_G3CH
 
 64 bits per pixel. 16 bits are used for the gray-scale value. Each of the three color channels uses 16 bits.
 
 
-#### - BM_16b_GRAY
+### -field BM_16b_GRAY
 
 64 bits per pixel. 16 bits are used for the gray-scale value. All other bits are ignored.
 
 
-#### - BM_565RGB
+### -field BM_565RGB
 
 16 bits per pixel. 5 bits are used for red, 6 for green, and 5 for blue.
 
 
-#### - BM_32b_scRGB
+### -field BM_32b_scRGB
 
 96 bits per pixel. 32 bits are used for each color channel, as defined by the IEEE 32-bit floating point standard.
 
 
-#### - BM_32b_scARGB
+### -field BM_32b_scARGB
 
 128 bits per pixel. 32 bits are used for each color channel, as defined by the IEEE 32-bit floating point standard.
 
 
-#### - BM_S2DOT13FIXED_scRGB
+### -field BM_S2DOT13FIXED_scRGB
 
 48 bits per pixel. Color data is stored as one 16-bit word per channel, with a fixed range of -4 to +4, inclusive. A signed format is used, with 1 bit for the sign, 2 bits for the integer portion, and 13 bits for the fractional portion.
 
 
-#### - BM_S2DOT13FIXED_scARGB
+### -field BM_S2DOT13FIXED_scARGB
 
 64 bits per pixel. Color data is stored as one 16-bit word per channel, with a fixed range of -4 to +4, inclusive. A signed format is used, with 1 bit for the sign, 2 bits for the integer portion, and 13 bits for the fractional portion.
 
 
-#### - BM_R10G10B10A2
+### -field BM_R10G10B10A2
 
 
 
-#### - BM_R10G10B10A2_XR
+### -field BM_R10G10B10A2_XR
 
 
 
-#### - BM_R16G16B16A16_FLOAT
+### -field BM_R16G16B16A16_FLOAT
 
 #endif // NTDDI_VERSION &gt;= NTDDI_WIN7
 

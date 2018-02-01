@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89b7f66e-3a3a-4723-a409-3b3030c1a45b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml, irb/PIDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], *PIDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], irb/IDE_CONTROLLER_CONFIGURATION, _IDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION, storage.ide_controller_configuration, PIDE_CONTROLLER_CONFIGURATION
+ms.keywords: structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml, storage.ide_controller_configuration, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], irb/PIDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION, _IDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION, irb/IDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], PIDE_CONTROLLER_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,17 +77,17 @@ typedef struct _IDE_CONTROLLER_CONFIGURATION {
 
 
 
-#### - Version
+### -field Version
 
 The port driver sets this field to indicate the version of the port driver. The port driver sets the version to sizeof(IDE_CONTROLLER_CONFIGURATION). The miniport driver should verify that the version is greater than or equal to the one it is using.
 
 
-#### - NumberOfChannels
+### -field NumberOfChannels
 
 Specifies the number of channels supported by the HBA. Note that this indicates the total number of channels including the ones that are disabled.
 
 
-#### - ControllerMode
+### -field ControllerMode
 
 The port driver sets this field to inform the ATA miniport which mode it is running at. There are two possible modes:
   
@@ -119,42 +119,42 @@ This is the limited no memory mode that an ATA miniport operates in during hiber
 </table> 
 
 
-#### - NumberOfPhysicalBreaks
+### -field NumberOfPhysicalBreaks
 
 Specifies the maximum number of breaks between address ranges that a data buffer can have if the HBA supports scatter/gather. In other words, the number of scatter/gather lists minus one. By default, the value of this member is IDE_UNINITIALIZED_VALUE, which indicates the HBA can support an unlimited number of physical discontiguities. If the port driver sets a value for this member, the miniport driver can adjust the value lower but no higher. If this member is IDE_UNINITIALIZED_VALUE, the miniport driver must reset this member according to the HBA's scatter/gather capacity.
 
 
-#### - MaximumTransferLength
+### -field MaximumTransferLength
 
 Specifies the maximum number of bytes the HBA can transfer in a single transfer operation. By default, the value of this member is IDE_UNINITIALIZED_VALUE, which indicates an unlimited maximum transfer size.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use. The miniport driver must not use this field.
 
 
-#### - NativeModeEnabled
+### -field NativeModeEnabled
 
 The miniport driver could set this member to <b>TRUE</b> to indicate that the controller is to be operated in Native mode.
 
 
-#### - Dma64BitAddress
+### -field Dma64BitAddress
 
 The miniport driver could set this member to <b>TRUE</b> to indicate support for 64 bit DMA operation.
 
 
-#### - BusMaster
+### -field BusMaster
 
 The miniport driver could set this member to <b>TRUE</b> to indicate bus mastering support.
 
 
-#### - AtaBusType
+### -field AtaBusType
 
 Indicates whether it is a SATA or a PATA controller.
 
 
-#### - ControllerResources
+### -field ControllerResources
 
 Provides the hardware resources for the ATA controller.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b79dd6e7-361c-4051-9e7c-18c64d459a70
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Command, print.iprintoemps_command, IPrintOemPS::Command, prcomoem/IPrintOemPS::Command, Command method [Print Devices], IPrintOemPS interface, Command method [Print Devices], IPrintOemPS, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml, IPrintOemPS interface [Print Devices], Command method
+ms.keywords: print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml, IPrintOemPS, Command method [Print Devices], Command, IPrintOemPS interface [Print Devices], Command method, Command method [Print Devices], IPrintOemPS interface, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, IPrintOemPS::Command
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT Command(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - dwIndex
+### -param dwIndex
 
 Caller-supplied value representing the current injection point within the print job's data stream. For more information, see the following Remarks section.
 
 
-#### - pData
+### -param pData
 
 Not used.
 
 
-#### - cbSize
+### -param cbSize
 
 Not used.
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 Receives a method-supplied value indicating the result of the insertion operation. If the insertion succeeds, this value should be ERROR_SUCCESS. If the insertion fails, the value should be one of the error codes defined in winerror.h. If the method does not attempt to insert data for a specified <i>dwIndex</i> value, the value should be ERROR_NOT_SUPPORTED.
 

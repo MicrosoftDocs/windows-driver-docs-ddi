@@ -73,7 +73,7 @@ VOID EvtIoTargetRemoveComplete(
 
 
 
-#### - IoTarget [in]
+### -param IoTarget [in]
 
 A handle to an I/O target object. 
 

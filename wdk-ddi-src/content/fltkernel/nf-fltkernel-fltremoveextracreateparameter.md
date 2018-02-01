@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 924e9108-f0cf-4202-905c-04a27c15dfa3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltRemoveExtraCreateParameter routine [Installable File System Drivers], FltRemoveExtraCreateParameter, ifsk.fltremoveextracreateparameter, FltApiRef_p_to_z_696787f2-1381-451f-aed4-bf307ee58291.xml, fltkernel/FltRemoveExtraCreateParameter
+ms.keywords: FltRemoveExtraCreateParameter, fltkernel/FltRemoveExtraCreateParameter, ifsk.fltremoveextracreateparameter, FltApiRef_p_to_z_696787f2-1381-451f-aed4-bf307ee58291.xml, FltRemoveExtraCreateParameter routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS FltRemoveExtraCreateParameter(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 
-#### - EcpList [in, out]
+### -param EcpList [in, out]
 
 Pointer to the extra create parameter (ECP) list that contains the ECP context structure to be detached from the given list.
 
 
-#### - EcpType [in]
+### -param EcpType [in]
 
 Pointer to a user-defined GUID that uniquely identifies the ECP context structure to be detached from the list.
 
 
-#### - EcpContext [out]
+### -param EcpContext [out]
 
 Pointer to the detached ECP context structure.  If the ECP context structure is successfully detached from the given list, this parameter will be set to point to the detached ECP context structure.  If the ECP context structure is not found in the given ECP list, this parameter is set to <b>NULL</b>.
 
 
-#### - EcpContextSize [out, optional]
+### -param EcpContextSize [out, optional]
 
 Optional parameter that receives the size of the detached ECP context structure.  If this parameter is present when the routine is called, the parameter will receive the size, in bytes, of the detached ECP context structure.  If the given ECP context structure was not found in the given ECP list, this parameter is undefined. 
 
@@ -145,23 +145,23 @@ The <b>FltRemoveExtraCreateParameter</b> routine searches the ECP list given by 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 <b>FltAllocateExtraCreateParameterFromLookasideList</b>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6A9BBBAD-F6D1-49A4-9FBA-7F263C1793F0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlpreparemdlwriteex, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ntifs/FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx
+ms.keywords: FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, FsRtlPrepareMdlWriteEx, ntifs/FsRtlPrepareMdlWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,32 +72,32 @@ NTSTATUS FsRtlPrepareMdlWriteEx(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to the file object.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length in bytes of the data to write to the cache.
 
 
-#### - LockKey [in]
+### -param LockKey [in]
 
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock. The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-#### - MdlChain [out]
+### -param MdlChain [out]
 
 On output, a pointer to a linked list of memory descriptor lists (MDLs) that point to the byte range within the cached data.
 
 
-#### - IoStatus [out]
+### -param IoStatus [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
@@ -141,11 +141,11 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 <a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+<a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
 
  
 

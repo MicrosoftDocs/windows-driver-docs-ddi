@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.attachkernelwide, AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide method [Windows Debugging], IDebugClient5, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, IDebugClient5::AttachKernelWide
+ms.keywords: dbgeng/IDebugClient5::AttachKernelWide, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::AttachKernelWide, AttachKernelWide, IDebugClient5, debugger.attachkernelwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT AttachKernelWide(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the flags that control how the debugger attaches to the kernel target.  The possible values are:
 <table>
@@ -99,21 +99,21 @@ Attach to a kernel by using an eXDI driver.
 </table> 
 
 
-#### - ConnectOptions [in, optional]
+### -param ConnectOptions [in, optional]
 
 Specifies the connection settings for communicating with the computer running the kernel target.  The interpretation of <i>ConnectOptions</i> depends on the value of <i>Flags</i>.
 
 
 
 
-#### DEBUG_ATTACH_KERNEL_CONNECTION
-
-<i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.  
-
-
 #### DEBUG_ATTACH_EXDI_DRIVER
 
 eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
+
+
+#### DEBUG_ATTACH_KERNEL_CONNECTION
+
+<i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.  
 
 
 ## -returns

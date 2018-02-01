@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E83111C1-5A46-4AB4-B54C-F8330943070D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bda_isdbcas_requestheader, _BDA_ISDBCAS_REQUESTHEADER, PBDA_ISDBCAS_REQUESTHEADER structure pointer [Streaming Media Devices], BDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER structure [Streaming Media Devices], bdatypes/BDA_ISDBCAS_REQUESTHEADER, *PBDA_ISDBCAS_REQUESTHEADER, bdatypes/PBDA_ISDBCAS_REQUESTHEADER, PBDA_ISDBCAS_REQUESTHEADER
+ms.keywords: PBDA_ISDBCAS_REQUESTHEADER, stream.bda_isdbcas_requestheader, BDA_ISDBCAS_REQUESTHEADER, *PBDA_ISDBCAS_REQUESTHEADER, bdatypes/BDA_ISDBCAS_REQUESTHEADER, PBDA_ISDBCAS_REQUESTHEADER structure pointer [Streaming Media Devices], bdatypes/PBDA_ISDBCAS_REQUESTHEADER, _BDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,21 +70,21 @@ typedef struct _BDA_ISDBCAS_REQUESTHEADER {
 
 
 
-#### - bInstruction
+### -field bInstruction
 
 EMD/EMG
 
 
-#### - bReserved
+### -field bReserved
 
 Reserved for future use.
 
 
-#### - ulDataLength
+### -field ulDataLength
 
 Specifies the size in bytes of the <b>argbIsdbCommand</b> member.
 
 
-#### - argbIsdbCommand
+### -field argbIsdbCommand
 
 

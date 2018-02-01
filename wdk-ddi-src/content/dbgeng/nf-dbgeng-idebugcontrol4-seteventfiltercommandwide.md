@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::SetEventFilterCommandWide, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetEventFilterCommandWide, IDebugControl4, debugger.seteventfiltercommandwide, SetEventFilterCommandWide
+ms.keywords: dbgeng/IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, SetEventFilterCommandWide, IDebugControl4, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SetEventFilterCommandWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the event filter.  <i>Index</i> can take any value between zero and one less than the total number of event filters returned by <b>GetNumberEventFilters</b> (inclusive).  For more information about the index of the filters, see Index and Exception Code.
 
 
-#### - Command [in]
+### -param Command [in]
 
 Specifies the debugger command for the engine to execute when the event occurs.
 
@@ -113,11 +113,11 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
+
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
  
 

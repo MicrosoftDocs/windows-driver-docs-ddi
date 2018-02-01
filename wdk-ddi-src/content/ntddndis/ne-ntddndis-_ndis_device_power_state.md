@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d241b0ee-7b13-453d-ac6a-015b82effb95
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisDeviceStateD1, NdisDeviceStateD0, ntddndis/NdisDeviceStateD3, ntddndis/NdisDeviceStateD0, NdisDeviceStateMaximum, NDIS_DEVICE_POWER_STATE, *PNDIS_DEVICE_POWER_STATE, NdisDeviceStateD1, NdisDeviceStateD3, ntddndis/NDIS_DEVICE_POWER_STATE, NdisDeviceStateD2, PNDIS_DEVICE_POWER_STATE, netvista.ndis_device_power_state, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateMaximum, ntddndis/NdisDeviceStateUnspecified, NdisDeviceStateUnspecified, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], _NDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD2
+ms.keywords: NdisDeviceStateD3, NDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD1, PNDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD0, NdisDeviceStateD0, NdisDeviceStateD2, _NDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_device_power_state, ntddndis/NdisDeviceStateMaximum, ntddndis/NdisDeviceStateD2, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_DEVICE_POWER_STATE, NdisDeviceStateUnspecified, ntddndis/NdisDeviceStateD3, NdisDeviceStateMaximum, ntddndis/NdisDeviceStateUnspecified, *PNDIS_DEVICE_POWER_STATE, NdisDeviceStateD1, ntddndis/PNDIS_DEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,32 +89,32 @@ typedef enum _NDIS_DEVICE_POWER_STATE {
 
 
 
-#### - NdisDeviceStateUnspecified
+### -field NdisDeviceStateUnspecified
 
 The device does not support power management.
 
 
-#### - NdisDeviceStateD0
+### -field NdisDeviceStateD0
 
 Device power state D0.
 
 
-#### - NdisDeviceStateD1
+### -field NdisDeviceStateD1
 
 Device power state D1.
 
 
-#### - NdisDeviceStateD2
+### -field NdisDeviceStateD2
 
 Device power state D2.
 
 
-#### - NdisDeviceStateD3
+### -field NdisDeviceStateD3
 
 Device power state D3.
 
 
-#### - NdisDeviceStateMaximum
+### -field NdisDeviceStateMaximum
 
 The maximum value for this enumeration. Reserved for system use. Do not use this value in your driver. This value might change in future versions of NDIS header files and binaries.
 
@@ -135,15 +135,15 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>
 
 <a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
-
 <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
 
  
 

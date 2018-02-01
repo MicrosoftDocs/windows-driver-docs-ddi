@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiodisk/PPDO_INFORMATION, mpiodisk/PDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], PDO_INFORMATION, *PPDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml, PPDO_INFORMATION, _PDO_INFORMATION, storage.pdo_information
+ms.keywords: "*PPDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], mpiodisk/PDO_INFORMATION, PPDO_INFORMATION, _PDO_INFORMATION, PDO_INFORMATION, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml, storage.pdo_information, mpiodisk/PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _PDO_INFORMATION {
 
 
 
-#### - ScsiAddress
+### -field ScsiAddress
 
 A PDOSCSI_ADDR structure that represents the SCSI address of the LUN's instance that corresponds to a particular path.
 
 
-#### - DeviceState
+### -field DeviceState
 
 An unsigned 32-bitfield that represents whether the path, through which this instance of the LUN was exposed, is usable.
 
 
-#### - PathIdentifier
+### -field PathIdentifier
 
 An unsigned 64-bitfield that represents the identifier that is associated with the path through which this instance of the LUN is exposed.
 
 
-#### - IdentifierType
+### -field IdentifierType
 
 An unsigned 32-bitfield that represents the identifier type of the LUN's controller.
 
 
-#### - IdentifierLength
+### -field IdentifierLength
 
 An unsigned 32-bitfield that represents the length of the identifier of the LUN's controller.
 
 
-#### - Identifier
+### -field Identifier
 
 An unsigned 64-bitfield that represents the identifier that is associated with the path through which this instance of the LUN is exposed.
 
 
-#### - Pad
+### -field Pad
 
 Should be zero.
 

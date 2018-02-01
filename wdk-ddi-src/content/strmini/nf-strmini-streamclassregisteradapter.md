@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f57e9c0f-d99b-4b01-b512-4a8f754c8822
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclassregisteradapter, StreamClassRegisterAdapter, strclass-routines_059c6a60-83c5-4eaa-ade5-f60ddcbba594.xml, strmini/StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices]
+ms.keywords: stream.streamclassregisteradapter, StreamClassRegisterAdapter, strclass-routines_059c6a60-83c5-4eaa-ade5-f60ddcbba594.xml, StreamClassRegisterAdapter function [Streaming Media Devices], strmini/StreamClassRegisterAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

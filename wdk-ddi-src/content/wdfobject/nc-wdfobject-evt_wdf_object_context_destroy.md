@@ -73,7 +73,7 @@ VOID EvtDestroyCallback(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 A handle to a framework object.
 
@@ -164,9 +164,9 @@ EVT_WDF_OBJECT_CONTEXT_DESTROY
 
 ## -see-also
 
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
 
  
 

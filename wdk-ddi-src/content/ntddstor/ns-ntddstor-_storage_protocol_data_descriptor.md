@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 292EE243-2952-4020-8EB0-C5127DF92318
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], storage.storage_protocol_data_descriptor, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, _STORAGE_PROTOCOL_DATA_DESCRIPTOR
+ms.keywords: "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, storage.storage_protocol_data_descriptor, _STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _STORAGE_PROTOCOL_DATA_DESCRIPTOR {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure.
 
 
-#### - Size
+### -field Size
 
 The total size of the descriptor, including the space for all protocol data.
 
 
-#### - ProtocolSpecificData
+### -field ProtocolSpecificData
 
 The protocol-specific data, of type <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>.
 

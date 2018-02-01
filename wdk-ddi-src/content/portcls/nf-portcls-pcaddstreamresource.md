@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: CADB17C6-07EA-4497-AA73-4AECCC1D0A45
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcaddstreamresource, portcls/PcAddStreamResource, PcAddStreamResource, PcAddStreamResource function [Audio Devices]
+ms.keywords: portcls/PcAddStreamResource, audio.pcaddstreamresource, PcAddStreamResource function [Audio Devices], PcAddStreamResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS  PcAddStreamResource(
 
 
 
-#### - PhysicalDeviceObject [in]
+### -param PhysicalDeviceObject [in]
 
 PDEVICE_OBJECT - The PDO of the device stack using this resource. 
 
 
-#### - ResourceSet [in]
+### -param ResourceSet [in]
 
 PVOID - Reserved for future use, set to NULL. Only device-scoped resources are supported at this time. 
 
 
-#### - ResourceDescriptor [in]
+### -param ResourceDescriptor [in]
 
 PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information, see <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
 
 
-#### - ResourceHandle [out]
+### -param ResourceHandle [out]
 
 PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="..\portcls\nf-portcls-pcremovestreamresource.md">PcRemoveStreamResource</a>.  
 

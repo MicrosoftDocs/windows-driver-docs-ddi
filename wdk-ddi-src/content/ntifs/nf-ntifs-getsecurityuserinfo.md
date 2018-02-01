@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: GetSecurityUserInfo function [Installable File System Drivers], GetSecurityUserInfo, ntifs/GetSecurityUserInfo, ifsk.getsecurityuserinfo, IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml
+ms.keywords: IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, GetSecurityUserInfo function [Installable File System Drivers], GetSecurityUserInfo, ntifs/GetSecurityUserInfo, ifsk.getsecurityuserinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS GetSecurityUserInfo(
 
 
 
-#### - LogonId [in, optional]
+### -param LogonId [in, optional]
 
 An optional pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=121236">LUID</a> containing the logon session for which information is to be retrieved. If <i>LogonId</i> is <b>NULL</b>, information for the logon session of the calling thread is returned.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 This parameter is currently not used.
 
 
-#### - UserInformation [out]
+### -param UserInformation [out]
 
 A pointer to a location which contains a pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The caller is responsible for freeing this buffer by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a> function.
 

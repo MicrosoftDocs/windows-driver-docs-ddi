@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83a83af9-314a-49c1-b241-a0ef0716f83a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_DIR_INBOUND, netvista.dot11_direction, DOT11_DIR_BOTH, windot11/PDOT11_DIRECTION, Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, windot11/DOT11_DIRECTION, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_DIR_BOTH, PDOT11_DIRECTION, DOT11_DIR_OUTBOUND, windot11/DOT11_DIR_OUTBOUND, *PDOT11_DIRECTION, PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_DIR_INBOUND, DOT11_DIRECTION
+ms.keywords: Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, DOT11_DIRECTION, DOT11_DIR_OUTBOUND, windot11/DOT11_DIR_OUTBOUND, windot11/PDOT11_DIRECTION, windot11/DOT11_DIRECTION, PDOT11_DIRECTION, PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_DIR_BOTH, windot11/DOT11_DIR_BOTH, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_DIR_INBOUND, *PDOT11_DIRECTION, netvista.dot11_direction, DOT11_DIR_INBOUND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,19 +71,19 @@ typedef enum DOT11_DIRECTION {
 
 
 
-#### - DOT11_DIR_INBOUND
+### -field DOT11_DIR_INBOUND
 
 The 802.11 station uses the cipher key to decrypt packets received from the access point (AP) or
      peer station.
 
 
-#### - DOT11_DIR_OUTBOUND
+### -field DOT11_DIR_OUTBOUND
 
 The 802.11 station uses the cipher key to encrypt packets transmitted to the AP or peer
      station.
 
 
-#### - DOT11_DIR_BOTH
+### -field DOT11_DIR_BOTH
 
 The 802.11 station uses the cipher key for packets received from or transmitted to the AP or peer
      station.
@@ -91,8 +91,8 @@ The 802.11 station uses the cipher key for packets received from or transmitted 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link>
+<a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
 

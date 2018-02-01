@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: faaaf6e5-9f4d-4051-a656-92c1394cda24
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-device-funcs-video-0033, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0033, D3D12DDI_DEVICE_FUNCS_VIDEO_0033 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_VIDEO_0033
+ms.keywords: display.d3d12ddi-device-funcs-video-0033, D3D12DDI_DEVICE_FUNCS_VIDEO_0033, D3D12DDI_DEVICE_FUNCS_VIDEO_0033 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,52 +78,52 @@ typedef struct _D3D12DDI_DEVICE_FUNCS_VIDEO_0033 {
 
 
 
-#### - pfnGetCaps
+### -field pfnGetCaps
 
 Get caps.
 
 
-#### - pfnCalcPrivateVideoDecoderSize
+### -field pfnCalcPrivateVideoDecoderSize
 
 Calculates the private video decoder size.
 
 
-#### - pfnCreateVideoDecoder
+### -field pfnCreateVideoDecoder
 
 Creates a video decoder.
 
 
-#### - pfnDestroyVideoDecoder
+### -field pfnDestroyVideoDecoder
 
 Destroys the video decoder.
 
 
-#### - pfnCalcPrivateVideoDecoderHeapSize
+### -field pfnCalcPrivateVideoDecoderHeapSize
 
 Calculates the private video decoder heap size.
 
 
-#### - pfnCreateVideoDecoderHeap
+### -field pfnCreateVideoDecoderHeap
 
 Creates the video decoder heap.
 
 
-#### - pfnDestroyVideoDecoderHeap
+### -field pfnDestroyVideoDecoderHeap
 
 Destroys the video decoder heap.
 
 
-#### - pfnCalcPrivateVideoProcessorSize
+### -field pfnCalcPrivateVideoProcessorSize
 
 Calculates the private video processor size.
 
 
-#### - pfnCreateVideoProcessor
+### -field pfnCreateVideoProcessor
 
 Creates the video processor.
 
 
-#### - pfnDestroyVideoProcessor
+### -field pfnDestroyVideoProcessor
 
 Destroys the video processor.
 

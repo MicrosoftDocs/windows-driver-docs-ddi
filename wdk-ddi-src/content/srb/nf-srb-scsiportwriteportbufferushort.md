@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ca6bd14b-533d-4451-b54f-29bc566c968d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWritePortBufferUshort, scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml, storage.scsiportwriteportbufferushort, ScsiPortWritePortBufferUshort routine [Storage Devices], srb/ScsiPortWritePortBufferUshort
+ms.keywords: srb/ScsiPortWritePortBufferUshort, storage.scsiportwriteportbufferushort, ScsiPortWritePortBufferUshort routine [Storage Devices], ScsiPortWritePortBufferUshort, scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortWritePortBufferUshort(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to the buffer.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of USHORT values to be written to the HBA.
 

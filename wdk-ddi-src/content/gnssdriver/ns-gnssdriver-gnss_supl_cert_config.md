@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_supl_cert_config, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG, gnssdriver/GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices]
+ms.keywords: PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], gnssdriver/PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config, gnssdriver/GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - CertAction
+### -field CertAction
 
 A <a href="..\gnssdriver\ne-gnssdriver-gnss_supl_cert_action.md">GNSS_SUPL_CERT_ACTION</a> enumeration value that specifies the action to take on the certificate.
 <table></table> 
@@ -127,7 +127,7 @@ Delete all the certificates injected to the GNSS driver previously. The values o
  
 
 
-#### - CertSize
+### -field CertSize
 
 The size of the certificate in bytes.
 
@@ -143,9 +143,9 @@ The size of the certificate in bytes.
 
 
 
-#### - SuplCertName[MAX_PATH]
+#### - CertData[ANYSIZE_ARRAY]
 
-String containing the certificate name.
+The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
 
 
 #### - IsRoot
@@ -155,12 +155,12 @@ Specify whether the certificate is a root certificate.
 Multiple root certificates can be configured since some mobile operator require this functionality. An IHV supporting SUPL should have support for multiple certificates.
 
 
+#### - SuplCertName[MAX_PATH]
+
+String containing the certificate name.
+
+
 #### - Unused[512]
 
 Padding buffer.
-
-
-#### - CertData[ANYSIZE_ARRAY]
-
-The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
 

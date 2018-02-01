@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 94A966C4-9FFA-4937-B7D8-D1A3608E4A7F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SET_FCP_NOTIFY structure [Buses], *PSET_FCP_NOTIFY, 61883/PSET_FCP_NOTIFY, SET_FCP_NOTIFY, IEEE.set_fcp_notify, _SET_FCP_NOTIFY, PSET_FCP_NOTIFY, 61883/SET_FCP_NOTIFY, PSET_FCP_NOTIFY structure pointer [Buses]
+ms.keywords: "_SET_FCP_NOTIFY, IEEE.set_fcp_notify, 61883/SET_FCP_NOTIFY, PSET_FCP_NOTIFY, SET_FCP_NOTIFY, SET_FCP_NOTIFY structure [Buses], *PSET_FCP_NOTIFY, PSET_FCP_NOTIFY structure pointer [Buses], 61883/PSET_FCP_NOTIFY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _SET_FCP_NOTIFY {
 
 
 
-#### - Flags
+### -field Flags
 
 On input, specifies the notification requested by the driver. The driver can register by setting <b>Flags</b> with either or both of the following: 
 
@@ -79,7 +79,7 @@ REGISTER_FCP_REQUEST_NOTIFY
 The driver can cancel notification by setting <b>Flags</b> with DEREGISTER_FCP_NOTIFY, which clears REGISTER_FCP_RESPONSE_NOTIFY and REGISTER_FCP_REQUEST_NOTIFY.
 
 
-#### - NodeAddress
+### -field NodeAddress
 
 Reserved for use by the operating system.
 

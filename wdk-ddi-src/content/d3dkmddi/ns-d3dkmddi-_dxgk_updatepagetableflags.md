@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags, _DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices]
+ms.keywords: DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, _DXGK_UPDATEPAGETABLEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGK_UPDATEPAGETABLEFLAGS {
 
 
 
-#### - Repeat
+### -field Repeat
 
 When set to <b>TRUE</b>, page table entries will point to a single page table entry value that needs to be replicated to all page table entries being updated.
 
 
-#### - InitialUpdate
+### -field InitialUpdate
 
 Indicates that the page table is initialized very first time after being made resident in memory.
 
 
-#### - NotifyEviction
+### -field NotifyEviction
 
 Indicates that the page table is about to be evicted. 
 
 
-#### - Use64KBPages
+### -field Use64KBPages
 
 Indicates that page table entries  point to page tables pointing to 64 KB pages. 
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 

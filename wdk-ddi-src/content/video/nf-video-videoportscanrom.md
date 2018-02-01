@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7787237c-5afd-46f2-ac75-6c0b41d37352
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortScanRom function [Display Devices], video/VideoPortScanRom, VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, VideoPortScanRom, display.videoportscanrom
+ms.keywords: VideoPortScanRom function [Display Devices], VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, video/VideoPortScanRom, display.videoportscanrom, VideoPortScanRom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ BOOLEAN VideoPortScanRom(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-#### - RomBase
+### -param RomBase
 
 Specifies the base ROM address at which the search should start. The given <i>RomBase</i> must be in a mapped range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-#### - RomLength
+### -param RomLength
 
 Specifies the size in bytes of the mapped ROM to be searched.
 
 
-#### - String
+### -param String
 
 Pointer to the driver-allocated string to search for.
 
@@ -109,11 +109,11 @@ If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
 <a href="..\video\nf-video-videoportgetromimage.md">VideoPortGetRomImage</a>
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ebc98e65-5d11-4c3d-aea1-dfad1434c093
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, netvista.ndis_miniport_offload_block_list
+ms.keywords: ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_offload_block_list, _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,7 +84,7 @@ typedef struct _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST {
 
 
 
-#### - NextBlock
+### -field NextBlock
 
 A pointer to the next NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the offload state layer
      (neighbor, path, or TCP) indicated by the 
@@ -100,7 +100,7 @@ A pointer to the next NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the offload 
  
 
 
-#### - DependentBlockList
+### -field DependentBlockList
 
 A pointer to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that is at a dependent layer of the
      offload state (a higher layer in the offload state tree). For TCP chimney offload: 
@@ -129,7 +129,7 @@ The
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
 
-#### - Header
+### -field Header
 
 The header of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure. The header is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The
@@ -149,54 +149,30 @@ The following OFFLOAD_STATE_TYPE values are supported:
 
 
 
-#### NeighborOffloadConstState
+#### FilterReservedOffloadState
 
-Specifies the constant neighbor state. This state is formatted as a 
-       <mshelp:link keywords="netvista.neighbor_offload_state_const" tabindex="0"><b>
-       NEIGHBOR_OFFLOAD_STATE_CONST</b></mshelp:link> structure.
-
-
-#### NeighborOffloadCachedState
-
-Specifies the cached neighbor state. This state is formatted as a 
-       <mshelp:link keywords="netvista.neighbor_offload_state_cached" tabindex="0"><b>
-       NEIGHBOR_OFFLOAD_STATE_CACHED</b></mshelp:link> structure.
-
-
-#### NeighborOffloadDelegatedState
-
-Specifies the delegated neighbor state. This state is formatted as a 
-       <mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-       NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link> structure.
-
-
-#### NeighborOffloadState
-
-Specifies all of the neighbor state information, including the constant, cached, and delegated
-       neighbor state. This state is formatted as a NEIGHBOR_OFFLOAD_STATE_CONST structure, followed by a
-       NEIGHBOR_OFFLOAD_STATE_CACHED structure, followed by a NEIGHBOR_OFFLOAD_STATE_DELEGATED
-       structure.
-
-
-#### Ip4OffloadConstState
-
-Specifies the constant path state (IPv4). This state is formatted as a 
-       <mshelp:link keywords="netvista.path_offload_state_const" tabindex="0"><b>
-       PATH_OFFLOAD_STATE_CONST</b></mshelp:link> structure.
+Reserved for filter drivers.
 
 
 #### Ip4OffloadCachedState
 
 Specifies the cached path state (IPv4). This state is formatted as a 
-       <mshelp:link keywords="netvista.path_offload_state_cached" tabindex="0"><b>
-       PATH_OFFLOAD_STATE_CACHED</b></mshelp:link> structure.
+       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">
+       PATH_OFFLOAD_STATE_CACHED</a> structure.
+
+
+#### Ip4OffloadConstState
+
+Specifies the constant path state (IPv4). This state is formatted as a 
+       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">
+       PATH_OFFLOAD_STATE_CONST</a> structure.
 
 
 #### Ip4OffloadDelegatedState
 
 Specifies the delegated path state (IPv4). This state is formatted as a 
-       <mshelp:link keywords="netvista.path_offload_state_delegated" tabindex="0"><b>
-       PATH_OFFLOAD_STATE_DELEGATED</b></mshelp:link> structure. Currently there is no delegated path state. The
+       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">
+       PATH_OFFLOAD_STATE_DELEGATED</a> structure. Currently there is no delegated path state. The
        PATH_OFFLOAD_STATE_DELEGATED structure does not contain any variables.
 
 
@@ -207,15 +183,15 @@ Specifies all of the path state (IPv4), including the constant, cached, and dele
        PATH_OFFLOAD_STATE_CACHED structure, followed by a PATH_OFFLOAD_STATE_DELEGATED structure.
 
 
-#### Ip6OffloadConstState
-
-Specifies the constant path state (IPv6). This state is formatted as a PATH_OFFLOAD_STATE_CONST
-       structure.
-
-
 #### Ip6OffloadCachedState
 
 Specifies the cached path state (IPv6). This state is formatted as a PATH_OFFLOAD_STATE_CACHED
+       structure.
+
+
+#### Ip6OffloadConstState
+
+Specifies the constant path state (IPv6). This state is formatted as a PATH_OFFLOAD_STATE_CONST
        structure.
 
 
@@ -233,25 +209,54 @@ Specifies all of the path state information(IPv6), including the constant, cache
        PATH_OFFLOAD_STATE_CACHED structure, followed by a PATH_OFFLOAD_STATE_DELEGATED structure.
 
 
-#### TcpOffloadConstState
+#### NeighborOffloadCachedState
 
-Specifies the constant TCP state. This state is formatted as a 
-       <mshelp:link keywords="netvista.tcp_offload_state_const" tabindex="0"><b>
-       TCP_OFFLOAD_STATE_CONST</b></mshelp:link> structure.
+Specifies the cached neighbor state. This state is formatted as a 
+       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">
+       NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure.
+
+
+#### NeighborOffloadConstState
+
+Specifies the constant neighbor state. This state is formatted as a 
+       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+       NEIGHBOR_OFFLOAD_STATE_CONST</a> structure.
+
+
+#### NeighborOffloadDelegatedState
+
+Specifies the delegated neighbor state. This state is formatted as a 
+       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+       NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure.
+
+
+#### NeighborOffloadState
+
+Specifies all of the neighbor state information, including the constant, cached, and delegated
+       neighbor state. This state is formatted as a NEIGHBOR_OFFLOAD_STATE_CONST structure, followed by a
+       NEIGHBOR_OFFLOAD_STATE_CACHED structure, followed by a NEIGHBOR_OFFLOAD_STATE_DELEGATED
+       structure.
 
 
 #### TcpOffloadCachedState
 
 Specifies the cached TCP state. This state is formatted as a 
-       <mshelp:link keywords="netvista.tcp_offload_state_cached" tabindex="0"><b>
-       TCP_OFFLOAD_STATE_CACHED</b></mshelp:link> structure.
+       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">
+       TCP_OFFLOAD_STATE_CACHED</a> structure.
+
+
+#### TcpOffloadConstState
+
+Specifies the constant TCP state. This state is formatted as a 
+       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">
+       TCP_OFFLOAD_STATE_CONST</a> structure.
 
 
 #### TcpOffloadDelegatedState
 
 Specifies the delegated TCP state. This state is formatted as a 
-       <mshelp:link keywords="netvista.tcp_offload_state_delegated" tabindex="0"><b>
-       TCP_OFFLOAD_STATE_DELEGATED</b></mshelp:link> structure.
+       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">
+       TCP_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
 #### TcpOffloadResourceState
@@ -267,12 +272,7 @@ Specifies all of the TCP state information, including the constant, cached, and 
        TCP_OFFLOAD_STATE_CACHED structure, followed by a TCP_OFFLOAD_STATE_DELEGATED structure.
 
 
-#### FilterReservedOffloadState
-
-Reserved for filter drivers.
-
-
-#### - Status
+### -field Status
 
 The completion status of an initiate offload, query offload, update offload, invalidate offload,
      or terminate offload operation that the offload target performed on the state associated with, or
@@ -282,28 +282,6 @@ The completion status of an initiate offload, query offload, update offload, inv
      
 
 
-
-
-#### NDIS_STATUS_SUCCESS
-
-Initiate offload: The offload target successfully offloaded the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure and the state associated with all of the immediately
-       dependent NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures.
-       
-
-Query, update, invalidate, or terminate offload: The offload target successfully performed the
-       operation on the state associated with, or referenced by, the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
-       structure.
-
-
-#### NDIS_STATUS_OFFLOAD_PARTIAL_SUCCESS
-
-Initiate offload: The offload target successfully offloaded the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure, but failed to offload the state associated with one or
-       more of the immediately dependent NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures.
-       
-
-Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
 #### NDIS_STATUS_FAILURE
@@ -317,31 +295,26 @@ Query, update, invalidate, or terminate offload: The offload target failed to pe
        structure.
 
 
-#### NDIS_STATUS_RESOURCES
+#### NDIS_STATUS_OFFLOAD_HW_ADDRESS_ENTRIES
 
 Initiate offload: The offload target failed to offload the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate sufficient
-       host memory.
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the host stack specified a non-<b>NULL</b><b>DlSourceAddress</b> member in the 
+       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+       NEIGHBOR_OFFLOAD_STATE_CONST</a> structure, and the offload target either does not support
+       configurable source MAC addresses or cannot accept additional source MAC addresses.
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
-#### NDIS_STATUS_OFFLOAD_TCP_ENTRIES
+#### NDIS_STATUS_OFFLOAD_IP_ADDRESS_ENTRIES
 
 Initiate offload: The offload target failed to offload the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a TCP
-       connection state object.
-       
-
-Query, update, invalidate, or terminate offload: Not an allowed status value.
-
-
-#### NDIS_STATUS_OFFLOAD_PATH_ENTRIES
-
-Initiate offload: The offload target failed to offload the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a path state
-       object.
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a data
+       structure for the source IP address that is referenced by the 
+       <b>SourceAddress</b> pointer in the 
+       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">
+       PATH_OFFLOAD_STATE_CONST</a> structure.
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
@@ -357,36 +330,39 @@ Initiate offload: The offload target failed to offload the state associated with
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
-#### NDIS_STATUS_OFFLOAD_HW_ADDRESS_ENTRIES
+#### NDIS_STATUS_OFFLOAD_PARTIAL_SUCCESS
 
-Initiate offload: The offload target failed to offload the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the host stack specified a non-<b>NULL</b><b>DlSourceAddress</b> member in the 
-       <mshelp:link keywords="netvista.neighbor_offload_state_const" tabindex="0"><b>
-       NEIGHBOR_OFFLOAD_STATE_CONST</b></mshelp:link> structure, and the offload target either does not support
-       configurable source MAC addresses or cannot accept additional source MAC addresses.
+Initiate offload: The offload target successfully offloaded the state associated with the
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure, but failed to offload the state associated with one or
+       more of the immediately dependent NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures.
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
-#### NDIS_STATUS_OFFLOAD_IP_ADDRESS_ENTRIES
+#### NDIS_STATUS_OFFLOAD_PATH_ENTRIES
 
 Initiate offload: The offload target failed to offload the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a data
-       structure for the source IP address that is referenced by the 
-       <b>SourceAddress</b> pointer in the 
-       <mshelp:link keywords="netvista.path_offload_state_const" tabindex="0"><b>
-       PATH_OFFLOAD_STATE_CONST</b></mshelp:link> structure.
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a path state
+       object.
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
-#### NDIS_STATUS_OFFLOAD_TCP_XMIT_BUFFER
+#### NDIS_STATUS_OFFLOAD_PATH_MTU
+
+The path MTU for the TCP connection is larger than the offload target supports.
+       
+
+Query, update, invalidate, or terminate offload: Not an allowed status value.
+
+
+#### NDIS_STATUS_OFFLOAD_TCP_ENTRIES
 
 Initiate offload: The offload target failed to offload the state associated with the
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate enough TCP
-       transmit buffers.
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a TCP
+       connection state object.
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
@@ -407,8 +383,18 @@ Query, update, invalidate, or terminate offload: Not an allowed status value.
 Initiate offload: The offload target failed to offload the state associated with the
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the 
        <b>InitialRcvWnd</b> member specified in the 
-       <mshelp:link keywords="netvista.tcp_offload_state_cached" tabindex="0"><b>
-       TCP_OFFLOAD_STATE_CACHED</b></mshelp:link> structure is larger than the offload target can support.
+       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">
+       TCP_OFFLOAD_STATE_CACHED</a> structure is larger than the offload target can support.
+       
+
+Query, update, invalidate, or terminate offload: Not an allowed status value.
+
+
+#### NDIS_STATUS_OFFLOAD_TCP_XMIT_BUFFER
+
+Initiate offload: The offload target failed to offload the state associated with the
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate enough TCP
+       transmit buffers.
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
@@ -431,20 +417,34 @@ Initiate offload: The neighbor
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
-#### NDIS_STATUS_OFFLOAD_PATH_MTU
+#### NDIS_STATUS_RESOURCES
 
-The path MTU for the TCP connection is larger than the offload target supports.
+Initiate offload: The offload target failed to offload the state associated with the
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate sufficient
+       host memory.
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
-#### - NdisReserved
+#### NDIS_STATUS_SUCCESS
+
+Initiate offload: The offload target successfully offloaded the state associated with the
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure and the state associated with all of the immediately
+       dependent NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures.
+       
+
+Query, update, invalidate, or terminate offload: The offload target successfully performed the
+       operation on the state associated with, or referenced by, the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+       structure.
+
+
+### -field NdisReserved
 
 Reserved for use by NDIS.
 
 
-#### - MiniportOffloadContext
+### -field MiniportOffloadContext
 
 A pointer to a memory location into which the offload target writes a PVOID value. The PVOID value
      references the offload context area in which the offload target stores the state associated with the
@@ -457,47 +457,47 @@ A pointer to a memory location into which the offload target writes a PVOID valu
      placeholder in the offload state tree.
 
 
-#### - NdisOffloadHandle
+### -field NdisOffloadHandle
 
 The handle that the offload target supplies in subsequent calls to the 
-     <mshelp:link keywords="netvista.ndistcpoffloadeventhandler" tabindex="0"><b>
-     NdisTcpOffloadEventHandler</b></mshelp:link> function or the 
-     <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-     NdisTcpOffloadReceiveHandler</b></mshelp:link> function when making an indication on the offload state associated
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+     NdisTcpOffloadEventHandler</a> function or the 
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     NdisTcpOffloadReceiveHandler</a> function when making an indication on the offload state associated
      with this NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
 
-#### - ProtocolReserved
+### -field ProtocolReserved
 
 Reserved for use by protocol drivers, which can use this area for their own purposes. Offload
      targets must not modify this value.
 
 
-#### - MiniportReserved
+### -field MiniportReserved
 
 Reserved for use by offload targets, which can use this area for their own purposes, such as
      queuing up the offload state associated with the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
 
-#### - ImReserved
+### -field ImReserved
 
 Reserved for use by intermediate drivers, which can use this area for their own purposes. Offload
      targets must not modify this value.
 
 
-#### - Scratch
+### -field Scratch
 
 The offload target can use this area for internal tracking. The information in this area is valid
      only while the offload target has ownership of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST.
 
 
-#### - SourceHandle
+### -field SourceHandle
 
 This member is not significant for an offload target. An offload target must not modify this
      member.
 
 
-#### - PortNumber
+### -field PortNumber
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
@@ -506,7 +506,7 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      not allocated ports for the specified adapter.
 
 
-#### - NetBufferListChain
+### -field NetBufferListChain
 
 When the host stack specifies a <b>NULL</b> value, 
      <b>NetBufferListChain</b> is not significant and can be ignored by the offload target. 
@@ -532,8 +532,8 @@ The MDLs associated with the NET_BUFFER structures contain data that the host st
 An offload target can pass outstanding send data to the host stack when terminating the offload of a
      TCP connection. In this case, the offload target specifies a non-<b>NULL</b> value for the 
      <b>NetBufferListChain</b> member when calling the 
-     <mshelp:link keywords="netvista.ndismterminateoffloadcomplete" tabindex="0"><b>
-     NdisMTerminateOffloadComplete</b></mshelp:link> function. If the offload target is not passing send data for a TCP
+     <a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+     NdisMTerminateOffloadComplete</a> function. If the offload target is not passing send data for a TCP
      connection that is being terminated, it must specify a <b>NULL</b> value for the 
      <b>NetBufferListChain</b> member.
 
@@ -584,15 +584,15 @@ Through NDIS, the host stack passes an
 <ul>
 <li>
 
-<mshelp:link keywords="netvista.ndisminitiateoffloadcomplete" tabindex="0"><b>
-       NdisMInitiateOffloadComplete</b></mshelp:link>
+<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">
+       NdisMInitiateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-       NdisMQueryOffloadStateComplete</b></mshelp:link>
+<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+       NdisMQueryOffloadStateComplete</a>
 
 
 </li>
@@ -604,15 +604,15 @@ Through NDIS, the host stack passes an
 </li>
 <li>
 
-<mshelp:link keywords="netvista.ndisminvalidateoffloadcomplete" tabindex="0"><b>
-       NdisMInvalidateOffloadComplete</b></mshelp:link>
+<a href="..\ndischimney\nf-ndischimney-ndisminvalidateoffloadcomplete.md">
+       NdisMInvalidateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<mshelp:link keywords="netvista.ndismterminateoffloadcomplete" tabindex="0"><b>
-       NdisMTerminateOffloadComplete</b></mshelp:link>
+<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+       NdisMTerminateOffloadComplete</a>
 
 
 </li>
@@ -627,14 +627,14 @@ The host stack and offload target use the
     <b>*MiniportOffloadContext</b> and 
     <b>NdisOffloadHandle</b> members of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure to reference offloaded
     state. For more information, see 
-    <mshelp:link keywords="netvista.storing_and_referencing_offloaded_state" tabindex="0">Storing and Referencing
-    Offloaded State</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    Offloaded State</a>.
 
 An NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can perform one of several functions in an offload state
     tree. It can function as a placeholder, a linker, or it can convey new state to be offloaded by the
     offload target. For more information, see 
-    <mshelp:link keywords="netvista.placeholders__linkers__and_new_offloads" tabindex="0">Placeholders, Linkers, and
-    New Offloads</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
+    New Offloads</a>.
 
 Before completing an initiate offload, query offload, update offload, invalidate offload, or terminate
     offload operation, an offload target must write the completion status to the 
@@ -644,53 +644,53 @@ Before completing an initiate offload, query offload, update offload, invalidate
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
-
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
 
-<mshelp:link keywords="netvista.ndismterminateoffloadcomplete" tabindex="0"><b>
-   NdisMTerminateOffloadComplete</b></mshelp:link>
-
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
-
-<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-   NdisMQueryOffloadStateComplete</b></mshelp:link>
-
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+   NdisMTerminateOffloadComplete</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
-<mshelp:link keywords="netvista.ndisminvalidateoffloadcomplete" tabindex="0"><b>
-   NdisMInvalidateOffloadComplete</b></mshelp:link>
+<a href="..\ndischimney\nf-ndischimney-ndisminvalidateoffloadcomplete.md">
+   NdisMInvalidateOffloadComplete</a>
 
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
+
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+   NdisMQueryOffloadStateComplete</a>
+
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 74f24296-cd42-402b-a61f-0199c4a07fd0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml, SeUnregisterLogonSessionTerminatedRoutine, ifsk.seunregisterlogonsessionterminatedroutine, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ntifs/SeUnregisterLogonSessionTerminatedRoutine
+ms.keywords: seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml, SeUnregisterLogonSessionTerminatedRoutine, ntifs/SeUnregisterLogonSessionTerminatedRoutine, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seunregisterlogonsessionterminatedroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS SeUnregisterLogonSessionTerminatedRoutine(
 
 
 
-#### - CallbackRoutine [in]
+### -param CallbackRoutine [in]
 
 Address of routine that was originally passed in to <b>SeRegisterLogonSessionTerminatedRoutine</b>.
 

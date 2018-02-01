@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 77737A33-9592-43A3-B12A-5BFDCA0209BE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], winsplp/BranchOfficeJobDataPrinted, print.branchofficejobdataprinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], *PBranchOfficeJobDataPrinted
+ms.keywords: winsplp/PBranchOfficeJobDataPrinted, winsplp/BranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], *PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], print.branchofficejobdataprinted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,42 +75,42 @@ typedef struct {
 
 
 
-#### - Status
+### -field Status
 
 Specifies the current status, or the failure code for a JOB_ERROR event.
 
 
-#### - pDocumentName
+### -field pDocumentName
 
 Specifies the name of the printed document.
 
 
-#### - pUserName
+### -field pUserName
 
 Specifies the user who submitted the job.
 
 
-#### - pMachineName
+### -field pMachineName
 
 Specifies the name of the client machine printing the job
 
 
-#### - pPrinterName
+### -field pPrinterName
 
 Specifies the name of the print connection.
 
 
-#### - pPortName
+### -field pPortName
 
 Specifies the name of the port the job printed on.
 
 
-#### - Size
+### -field Size
 
 Specifies the 64-bit size of the job.
 
 
-#### - TotalPages
+### -field TotalPages
 
 Specifies the total number of pages in the job.
 

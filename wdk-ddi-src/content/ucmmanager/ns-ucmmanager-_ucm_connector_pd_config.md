@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9DE2AF2D-D6B5-4FC4-8871-246F3661980F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], buses.ucm_connector_pd_config, ucmmanager/PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], _UCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG"
+ms.keywords: ucmmanager/PUCM_CONNECTOR_PD_CONFIG, _UCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], UCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,24 +71,24 @@ typedef struct _UCM_CONNECTOR_PD_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 Size of the <b>UCM_CONNECTOR_PD_CONFIG</b> structure. 
 
 
-#### - IsSupported
+### -field IsSupported
 
 If TRUE, a PD role is supported. (Default).
 
 If FALSE, a PD role is not supported.
 
 
-#### - SupportedPowerRoles
+### -field SupportedPowerRoles
 
 Indicates the operating mode of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed flags.
 
 
-#### - EvtSetPowerRole
+### -field EvtSetPowerRole
 
 A pointer to the Policy Manager's implementation of the <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a> event callback.
 

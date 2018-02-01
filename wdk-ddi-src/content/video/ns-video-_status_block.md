@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e3126df-d081-4545-a5db-8637ee27f15b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.status_block, video/PSTATUS_BLOCK, PSTATUS_BLOCK structure pointer [Display Devices], _STATUS_BLOCK, *PSTATUS_BLOCK, STATUS_BLOCK, STATUS_BLOCK structure [Display Devices], video/STATUS_BLOCK, PSTATUS_BLOCK, Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml
+ms.keywords: "*PSTATUS_BLOCK, video/PSTATUS_BLOCK, STATUS_BLOCK structure [Display Devices], STATUS_BLOCK, video/STATUS_BLOCK, _STATUS_BLOCK, PSTATUS_BLOCK, Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, PSTATUS_BLOCK structure pointer [Display Devices], display.status_block"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _STATUS_BLOCK {
 
 
 
-#### - Status
+### -field Status
 
 Indicates the result of the requested operation. This member might be one of the following status codes:
 
@@ -126,21 +126,21 @@ There is insufficient memory to process the request.
 The requested operation has been carried out and completed successfully.
 
 
-#### - Pointer
+### -field Pointer
 
 Should be ignored by the miniport driver. This member of the union exists to guarantee field alignment across 32- and 64-bit systems.
 
 
-#### - Information
+### -field Information
 
 Supplies additional information about the completed operation. The meaning of the value varies according to VRP. Generally, this member is used to return the minimum size required for the input buffer if the VRP passes data in the <b>InputBuffer</b>. Alternatively, it contains the number of bytes of data transferred if the requested operation returns data in the VRP <b>OutputBuffer</b>.
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-
 <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
+
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
  
 

@@ -74,12 +74,12 @@ WDF_IO_FORWARD_PROGRESS_ACTION EvtIoWdmIrpForForwardProgress(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to an I/O queue object.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to an IRP structure.
 

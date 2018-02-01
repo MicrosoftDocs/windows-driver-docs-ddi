@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 678998C5-DC3B-471D-ADBF-876EFB53D227
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, _DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_PAGE_FAULT, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, DXGK_GENERAL_ERROR_CODE, display.dxgk_general_error_code, d3dkmdt/DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_INVALID_INSTRUCTION
+ms.keywords: DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], display.dxgk_general_error_code, _DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, DXGK_GENERAL_ERROR_PAGE_FAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _DXGK_GENERAL_ERROR_CODE {
 
 
 
-#### - DXGK_GENERAL_ERROR_PAGE_FAULT
+### -field DXGK_GENERAL_ERROR_PAGE_FAULT
 
 Indicates that the GPU encountered a page fault. The <b>FaultedVirtualAddress</b> and <b>PageTableLevel</b> members of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure should be used to provide further information about the GPU virtual address operation that caused the fault.
 
 
-#### - DXGK_GENERAL_ERROR_INVALID_INSTRUCTION
+### -field DXGK_GENERAL_ERROR_INVALID_INSTRUCTION
 
 Indicates that the GPU encountered an invalid instruction in the DMA command buffer.
 

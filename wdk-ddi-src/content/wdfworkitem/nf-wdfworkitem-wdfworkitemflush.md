@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5868dd01-17ba-4edf-b665-c90d2b1aa2ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWorkItemFlush, PFN_WDFWORKITEMFLUSH, wdf.wdfworkitemflush, WdfWorkItemFlush method, DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, kmdf.wdfworkitemflush, wdfworkitem/WdfWorkItemFlush
+ms.keywords: kmdf.wdfworkitemflush, PFN_WDFWORKITEMFLUSH, wdfworkitem/WdfWorkItemFlush, WdfWorkItemFlush, WdfWorkItemFlush method, wdf.wdfworkitemflush, DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfWorkItemFlush(
 
 
 
-#### - WorkItem [in]
+### -param WorkItem [in]
 
 A handle to a framework work-item object that is obtained from a previous call to <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
 

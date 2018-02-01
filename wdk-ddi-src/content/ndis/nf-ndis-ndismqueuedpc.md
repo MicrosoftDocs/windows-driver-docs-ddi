@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 203be18a-b3c5-420b-bcd1-1134beb1c8bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMQueueDpc, netvista.ndismqueuedpc, ndis/NdisMQueueDpc, ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, NdisMQueueDpc function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismqueuedpc, ndis/NdisMQueueDpc, NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,41 +72,41 @@ ULONG NdisMQueueDpc(
 
 
 
-#### - NdisInterruptHandle [in]
+### -param NdisInterruptHandle [in]
 
 An interrupt handle that the miniport driver obtained in a previous call to the 
-     <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
-     NdisMRegisterInterruptEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+     NdisMRegisterInterruptEx</a> function.
 
 
-#### - MessageId [in]
+### -param MessageId [in]
 
 An MSI message ID for the DPC. If the DPC is for a line-based interrupt, this parameter is not
      used and it should be set to zero. Otherwise, 
      <i>MessageId</i> is an index to the 
-     <mshelp:link keywords="kernel.io_interrupt_message_info_entry" tabindex="0"><b>
-     IO_INTERRUPT_MESSAGE_INFO_ENTRY</b></mshelp:link> structures inside a 
-     <mshelp:link keywords="kernel.io_interrupt_message_info" tabindex="0"><b>
-     IO_INTERRUPT_MESSAGE_INFO</b></mshelp:link> structure. NDIS passes a pointer to the associated
+     <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+     IO_INTERRUPT_MESSAGE_INFO_ENTRY</a> structures inside a 
+     <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">
+     IO_INTERRUPT_MESSAGE_INFO</a> structure. NDIS passes a pointer to the associated
      IO_INTERRUPT_MESSAGE_INFO structure at the 
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
      <b>NdisMRegisterInterruptEx</b> function.
 
 
-#### - TargetProcessors [in]
+### -param TargetProcessors [in]
 
 A bitmap that indicates the target processors for which NDIS should schedule a DPC. Each bit in 
      <i>TargetProcessors</i> identifies a CPU. If the caller sets bit 0, NDIS schedules a DPC for CPU 0. If the caller sets bit 1, NDIS
      schedules a DPC for CPU 1, and so forth.
 
 
-#### - MiniportDpcContext [in, optional]
+### -param MiniportDpcContext [in, optional]
 
 A pointer to a caller-specified context area. NDIS passes this pointer to the 
      <i>MiniportDpcContext</i> parameter of the 
      <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> and 
-     <mshelp:link keywords="netvista.miniportmessageinterruptdpc" tabindex="0"><i>
-     MiniportMessageInterruptDPC</i></mshelp:link> functions.
+     <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">
+     MiniportMessageInterruptDPC</a> functions.
 
 
 ## -returns
@@ -126,8 +126,8 @@ If the driver requested a DPC for a CPU, and NDIS indicates that it did not sche
 
 NDIS calls 
     <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> or 
-    <mshelp:link keywords="netvista.miniportmessageinterruptdpc" tabindex="0"><i>
-    MiniportMessageInterruptDPC</i></mshelp:link> to complete the deferred processing of an interrupt. The miniport
+    <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">
+    MiniportMessageInterruptDPC</a> to complete the deferred processing of an interrupt. The miniport
     driver can call 
     <b>NdisMQueueDpc</b> to request additional DPC calls for other processors.
 
@@ -135,9 +135,9 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
 <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 

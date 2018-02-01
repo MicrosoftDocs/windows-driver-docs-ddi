@@ -79,30 +79,30 @@ typedef EVT_VMB_CHANNEL_SAVE_PACKET PFN_VMB_CHANNEL_SAVE_PACKET;
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel on which the packet arrives.
 
 
-#### - Packet [in]
+### -param Packet [in]
 
 The packet for which VSP saves state.
 
 
-#### - SaveBuf [out]
+### -param SaveBuf [out]
 
 The buffer into which to save the state.
 
 
 
-#### - SaveBufSize [in]
+### -param SaveBufSize [in]
 
 Size of the <i>SaveBuf</i> parameter, in bytes.
 
 
 
 
-#### - BytesNeeded [out]
+### -param BytesNeeded [out]
 
 Size necessary to save the state of the transaction, in bytes.
 

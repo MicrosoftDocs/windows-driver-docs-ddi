@@ -76,29 +76,29 @@ VOID NetTimerCallback(
 
 
 
-#### - SystemSpecific1 [in]
+### -param SystemSpecific1 [in]
 
 A pointer to a system-specific value that is reserved for system use.
 
 
-#### - FunctionContext [in]
+### -param FunctionContext [in]
 
 A pointer to a driver-supplied context area that the driver passed to the 
      <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function. If the 
      <i>FunctionContext</i> parameter of 
      <b>NdisSetTimerObject</b> was <b>NULL</b>, NDIS uses the default value that the driver specified in the 
-     <mshelp:link keywords="netvista.ndis_timer_characteristics" tabindex="0"><b>
-     NDIS_TIMER_CHARACTERISTICS</b></mshelp:link> structure. The driver passed the structure to the 
+     <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">
+     NDIS_TIMER_CHARACTERISTICS</a> structure. The driver passed the structure to the 
      <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a> function
      to initialize the associated timer object.
 
 
-#### - SystemSpecific2 [in]
+### -param SystemSpecific2 [in]
 
 A pointer to a system-specific value that is reserved for system use.
 
 
-#### - SystemSpecific3 [in]
+### -param SystemSpecific3 [in]
 
 A pointer to a system-specific value that is reserved for system use.
 
@@ -119,8 +119,8 @@ Any NDIS driver can have one or more
     timer object.
 
 The driver initializes a driver-allocated timer object by calling the 
-    <mshelp:link keywords="netvista.ndisallocatetimerobject" tabindex="0"><b>
-    NdisAllocateTimerObject</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">
+    NdisAllocateTimerObject</a> function.
 
 A subsequent call to the 
     <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function causes the 
@@ -175,19 +175,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
 <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
-
-<a href="https://msdn.microsoft.com/75f348f7-173f-4799-88aa-1ca50a6df023">Setting and Clearing Timers</a>
-
-<a href="https://msdn.microsoft.com/2f304f5c-fa70-441e-853e-a48ad70d61a0">Initializing NDIS Timers</a>
+<a href="https://msdn.microsoft.com/6a80a55b-4c7e-4a48-8903-0a1fb28af153">Servicing Timers</a>
 
 <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
-<a href="https://msdn.microsoft.com/6a80a55b-4c7e-4a48-8903-0a1fb28af153">Servicing Timers</a>
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+<a href="https://msdn.microsoft.com/2f304f5c-fa70-441e-853e-a48ad70d61a0">Initializing NDIS Timers</a>
+
+<a href="https://msdn.microsoft.com/75f348f7-173f-4799-88aa-1ca50a6df023">Setting and Clearing Timers</a>
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
  
 

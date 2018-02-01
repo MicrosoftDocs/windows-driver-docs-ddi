@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 46845a10-c44b-4d11-b82e-986bfc066b97
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportdebugprint, StorPortDebugPrint routine [Storage Devices], storport/StorPortDebugPrint, storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml, StorPortDebugPrint
+ms.keywords: storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml, StorPortDebugPrint, storage.storportdebugprint, StorPortDebugPrint routine [Storage Devices], storport/StorPortDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID StorPortDebugPrint(
 
 
 
-#### - DebugPrintLevel
+### -param DebugPrintLevel
 
 Indicates the amount of debug information that will be displayed. 
 
 
-#### - DebugMessage
+### -param DebugMessage
 
 Pointer to the debug message to be printed. 
 

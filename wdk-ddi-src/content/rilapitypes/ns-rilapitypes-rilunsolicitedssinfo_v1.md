@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 37bd1dcd-3cf1-46af-847d-200d0c04167d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilunsolicitedssinfo_v1_2, rilapitypes/RILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1, *LPRILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1, rilapitypes/RILUNSOLICITEDSSINFO_V1, netvista.rilunsolicitedssinfo_v1_2, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,34 +75,34 @@ typedef struct _RILUNSOLICITEDSSINFO_V1 {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwID
+### -field dwID
 
 
 
-#### - dwNotificationCode
+### -field dwNotificationCode
 
 
 
-#### - raAddress
+### -field raAddress
 
 
 
-#### - rsaSubAddress
+### -field rsaSubAddress
 
 
 
-#### - dwCUGIndex
+### -field dwCUGIndex
 
 

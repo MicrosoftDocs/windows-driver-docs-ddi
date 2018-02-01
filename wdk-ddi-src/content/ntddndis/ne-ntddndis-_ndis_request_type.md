@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4352eab-8bbd-429e-93ad-190372d29f2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisRequestGeneric1, NdisRequestReset, NdisRequestQueryStatistics, NdisRequestGeneric4, ntddndis/NdisRequestGeneric2, ntddndis/NdisRequestGeneric3, *PNDIS_REQUEST_TYPE, ntddndis/PNDIS_REQUEST_TYPE, NdisRequestClose, ntddndis/NdisRequestGeneric4, NdisRequestOpen, NDIS_REQUEST_TYPE, ntddndis/NdisRequestQueryInformation, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, ntddndis/NdisRequestSetInformation, ntddndis/NdisRequestTransferData, ntddndis/NdisRequestMethod, ntddndis/NdisRequestOpen, NdisRequestMethod, ntddndis/NdisRequestReset, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisRequestQueryStatistics, NdisRequestGeneric3, PNDIS_REQUEST_TYPE, ntddndis/NDIS_REQUEST_TYPE, NdisRequestGeneric1, _NDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisRequestTransferData, NdisRequestGeneric2, NdisRequestSend, netvista.ndis_request_type, NdisRequestQueryInformation, ntddndis/NdisRequestSend, NdisRequestSetInformation, ntddndis/NdisRequestClose
+ms.keywords: ntddndis/NdisRequestQueryInformation, NdisRequestSend, ntddndis/NdisRequestTransferData, NdisRequestQueryStatistics, ntddndis/NdisRequestQueryStatistics, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_REQUEST_TYPE, NdisRequestGeneric4, ntddndis/NdisRequestMethod, NdisRequestGeneric1, NdisRequestTransferData, ntddndis/NDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE, NdisRequestGeneric2, ntddndis/NdisRequestSend, ntddndis/NdisRequestClose, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_REQUEST_TYPE, NdisRequestGeneric3, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, ntddndis/NdisRequestGeneric2, NdisRequestMethod, NdisRequestSetInformation, NdisRequestReset, ntddndis/NdisRequestOpen, _NDIS_REQUEST_TYPE, *PNDIS_REQUEST_TYPE, ntddndis/NdisRequestGeneric4, netvista.ndis_request_type, NdisRequestClose, ntddndis/NdisRequestGeneric3, NdisRequestQueryInformation, ntddndis/NdisRequestGeneric1, ntddndis/NdisRequestReset, NdisRequestOpen, ntddndis/NdisRequestSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -79,72 +79,72 @@ typedef enum _NDIS_REQUEST_TYPE {
 
 
 
-#### - NdisRequestQueryInformation
+### -field NdisRequestQueryInformation
 
 A query-information request. For certain requests, NDIS satisfies the request. Otherwise,
      NDIS forwards such requests to the underlying driver's 
      <i>MiniportOidRequest</i> function. This type of request can originate in a user-mode application, filter module, or protocol driver.
 <div class="alert"><b>Note</b>  Drivers should treat <b>NdisRequestQueryInformation</b> and <b>NdisRequestQueryStatistics</b> queries identically.</div><div> </div>
 
-#### - NdisRequestSetInformation
+### -field NdisRequestSetInformation
 
 A set-information request. NDIS forwards such a request to the underlying driver's 
      <i>MiniportOidRequest</i> function.
 
 
-#### - NdisRequestQueryStatistics
+### -field NdisRequestQueryStatistics
 
 A query-statistics request. For certain requests, NDIS satisfies the request. Otherwise,
      NDIS forwards such requests to the underlying driver's 
      <i>MiniportOidRequest</i> function. This type of request can originate in a user-mode application, filter module, or protocol driver.
 <div class="alert"><b>Note</b>  Drivers should treat <b>NdisRequestQueryInformation</b> and <b>NdisRequestQueryStatistics</b> queries identically.</div><div> </div>
 
-#### - NdisRequestOpen
+### -field NdisRequestOpen
 
 This type is obsolete.
 
 
-#### - NdisRequestClose
+### -field NdisRequestClose
 
 This type is obsolete.
 
 
-#### - NdisRequestSend
+### -field NdisRequestSend
 
 This type is obsolete.
 
 
-#### - NdisRequestTransferData
+### -field NdisRequestTransferData
 
 This type is obsolete.
 
 
-#### - NdisRequestReset
+### -field NdisRequestReset
 
 This type is obsolete.
 
 
-#### - NdisRequestGeneric1
+### -field NdisRequestGeneric1
 
 A request that is specific to the type of the miniport driver.
 
 
-#### - NdisRequestGeneric2
+### -field NdisRequestGeneric2
 
 A request that is specific to the type of the miniport driver.
 
 
-#### - NdisRequestGeneric3
+### -field NdisRequestGeneric3
 
 A request that is specific to the type of the miniport driver.
 
 
-#### - NdisRequestGeneric4
+### -field NdisRequestGeneric4
 
 A request that is specific to the type of the miniport driver.
 
 
-#### - NdisRequestMethod
+### -field NdisRequestMethod
 
 A method request. NDIS forwards such a request to the underlying driver's 
      <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.

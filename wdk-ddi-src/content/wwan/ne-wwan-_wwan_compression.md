@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a22bcf4e-f460-4f32-9e1e-4ae952fc87d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_COMPRESSION, netvista.wwan_compression, wwan/WwanCompressionMax, wwan/WwanCompressionNone, WWAN_COMPRESSION, *PWWAN_COMPRESSION, WwanCompressionEnable, WwanCompressionMax, WwanCompressionNone, wwan/WwanCompressionEnable, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, PWWAN_COMPRESSION, wwan/PWWAN_COMPRESSION, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_COMPRESSION
+ms.keywords: WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], WwanCompressionEnable, netvista.wwan_compression, WwanCompressionNone, wwan/WwanCompressionNone, wwan/WwanCompressionEnable, wwan/WWAN_COMPRESSION, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, wwan/PWWAN_COMPRESSION, wwan/WwanCompressionMax, PWWAN_COMPRESSION, WwanCompressionMax, _WWAN_COMPRESSION, *PWWAN_COMPRESSION, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_COMPRESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ typedef enum _WWAN_COMPRESSION {
 
 
 
-#### - WwanCompressionNone
+### -field WwanCompressionNone
 
 No compression is applied.
 
 
-#### - WwanCompressionEnable
+### -field WwanCompressionEnable
 
 Enable header and data compression.
 
 
-#### - WwanCompressionMax
+### -field WwanCompressionMax
 
 The total number of supported compression options.
 

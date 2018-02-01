@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B98143A1-7F7D-4130-A388-72A21B89E6D8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_ussd_request, ndiswwan/NDIS_WWAN_USSD_REQUEST, ndiswwan/PNDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST, *PNDIS_WWAN_USSD_REQUEST, _NDIS_WWAN_USSD_REQUEST
+ms.keywords: ndiswwan/NDIS_WWAN_USSD_REQUEST, PNDIS_WWAN_USSD_REQUEST, *PNDIS_WWAN_USSD_REQUEST, _NDIS_WWAN_USSD_REQUEST, netvista.ndis_wwan_ussd_request, NDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_USSD_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_USSD_REQUEST {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_USSD_REQUEST structure. The MB Service sets the header with the values that are shown in the following table when it
      sends the data structure to the miniport driver for 
@@ -116,7 +116,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - UssdRequest
+### -field UssdRequest
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a> object that represents a USSD request.

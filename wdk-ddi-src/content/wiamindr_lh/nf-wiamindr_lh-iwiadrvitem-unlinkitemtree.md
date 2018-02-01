@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f6fb2929-177b-44cd-a313-8620ba9b2907
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UnlinkItemTree method [Imaging Devices], wiamindr_lh/IWiaDrvItem::UnlinkItemTree, image.iwiadrvitem_unlinkitemtree, DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, UnlinkItemTree method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::UnlinkItemTree, UnlinkItemTree, IWiaDrvItem interface [Imaging Devices], UnlinkItemTree method, IWiaDrvItem
+ms.keywords: image.iwiadrvitem_unlinkitemtree, DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, UnlinkItemTree method [Imaging Devices], IWiaDrvItem interface, UnlinkItemTree method [Imaging Devices], IWiaDrvItem interface [Imaging Devices], UnlinkItemTree method, IWiaDrvItem, UnlinkItemTree, wiamindr_lh/IWiaDrvItem::UnlinkItemTree, IWiaDrvItem::UnlinkItemTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

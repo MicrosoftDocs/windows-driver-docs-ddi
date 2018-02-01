@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8364FC5F-1FF4-415F-B83C-4A866C860522
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtldwordptradd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], RtlDWordPtrAdd, ntintsafe/RtlDWordPtrAdd
+ms.keywords: kernel.rtldwordptradd, RtlDWordPtrAdd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlDWordPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlDWordPtrAdd(
 
 
 
-#### - dwAugend [in]
+### -param dwAugend [in]
 
 The first value in the equation.
 
 
-#### - dwAddend [in]
+### -param dwAddend [in]
 
 The value to add to <i>dwAugend</i>.
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

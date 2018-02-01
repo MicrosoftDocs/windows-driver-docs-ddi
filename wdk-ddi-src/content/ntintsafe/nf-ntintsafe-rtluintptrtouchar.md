@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F5E4225F-4C66-44A8-9445-7D7DBAFA1DA4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrtouchar, ntintsafe/RtlUIntPtrToUChar, RtlUIntPtrToUChar, RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToUChar, kernel.rtluintptrtouchar, RtlUIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlUIntPtrToUChar(
 
 
 
-#### - uOperand [in]
+### -param uOperand [in]
 
 The value to be converted.
 
 
-#### - pch [out]
+### -param pch [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

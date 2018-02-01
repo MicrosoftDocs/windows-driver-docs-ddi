@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_win32_IBidiRequest_SetSchema, gdi.ibidirequest_ibidirequest__setschema, IBidiRequest::IBidiRequest::SetSchema, IBidiRequest::SetSchema method [Print Devices], IBidiRequest interface [Print Devices], IBidiRequest::SetSchema method, bidispl/IBidiRequest::IBidiRequest::SetSchema, IBidiRequest, SetSchema, print.ibidirequest_ibidirequest__setschema, IBidiRequest::SetSchema, IBidiRequest::SetSchema method [Print Devices], IBidiRequest interface"
+ms.keywords: "_win32_IBidiRequest_SetSchema, IBidiRequest interface [Print Devices], IBidiRequest::SetSchema method, IBidiRequest::IBidiRequest::SetSchema, IBidiRequest::SetSchema, SetSchema, IBidiRequest, bidispl/IBidiRequest::IBidiRequest::SetSchema, IBidiRequest::SetSchema method [Print Devices], IBidiRequest::SetSchema method [Print Devices], IBidiRequest interface, print.ibidirequest_ibidirequest__setschema, gdi.ibidirequest_ibidirequest__setschema"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT IBidiRequest::SetSchema(
 
 
 
-#### - pszSchema [in]
+### -param pszSchema [in]
 
 Pointer to a schema string.
 

@@ -108,11 +108,6 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_DEVICE_NOT_READY
 
 The keyboard interrupt is not initialized.
@@ -126,6 +121,11 @@ The input parameters are not valid.
 #### -STATUS_IO_TIMEOUT
 
 The request timed out.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 
 
 ## -see-also

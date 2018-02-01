@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: DB8A5E89-771C-45E8-8F90-708CDAD50BBF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, serports.sercx2_custom_receive_transaction_config_init
+ms.keywords: serports.sercx2_custom_receive_transaction_config_init, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VOID SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 A pointer to the <a href="..\sercx\ns-sercx-_sercx2_custom_receive_transaction_config.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</a> structure that is to be initialized.
 
 
-#### - EvtSerCx2CustomReceiveTransactionStart [in]
+### -param EvtSerCx2CustomReceiveTransactionStart [in]
 
 The value to load into the <b>EvtSerCx2CustomReceiveTransactionStart</b> member of the <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_custom_receive_transaction_config.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</a>.
 
 
-#### - EvtSerCx2CustomReceiveTransactionEnableNewDataNotification [in, optional]
+### -param EvtSerCx2CustomReceiveTransactionEnableNewDataNotification [in, optional]
 
 The value to load into the <b>EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</b> member of the <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_custom_receive_transaction_config.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</a>.
 
 
-#### - EvtSerCx2CustomReceiveTransactionQueryProgress [in]
+### -param EvtSerCx2CustomReceiveTransactionQueryProgress [in]
 
 The value to load into the <b>EvtSerCx2CustomReceiveTransactionQueryProgress</b> member of the <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_custom_receive_transaction_config.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</a>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55A48F87-B96C-42E7-B9B4-3C829097CAE9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIMT_NONE, d3dumddi/D3DDDI_MARKERTYPE, d3dumddi/D3DDDIMT_PROFILE, D3DDDI_MARKERTYPE enumeration [Display Devices], D3DDDIMT_NONE, D3DDDI_MARKERTYPE, D3DDDIMT_PROFILE, display.d3dddi_markertype
+ms.keywords: d3dumddi/D3DDDIMT_NONE, D3DDDIMT_PROFILE, d3dumddi/D3DDDIMT_PROFILE, display.d3dddi_markertype, d3dumddi/D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE enumeration [Display Devices], D3DDDIMT_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum D3DDDI_MARKERTYPE {
 
 
 
-#### - D3DDDIMT_NONE
+### -field D3DDDIMT_NONE
 
 No marker type is supported. This type is set on creation of the display device.
 
 
-#### - D3DDDIMT_PROFILE
+### -field D3DDDIMT_PROFILE
 
 Profile mode, where the driver estimates the length of time the GPU takes to execute certain operations. The context submits GPU work for single-threaded user-mode DDIs. In this case, each time stamp denotes the end of GPU work.
 

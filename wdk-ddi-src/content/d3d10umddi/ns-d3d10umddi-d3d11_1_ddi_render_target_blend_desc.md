@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc, d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices]
+ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,12 +76,12 @@ typedef struct D3D11_1_DDI_RENDER_TARGET_BLEND_DESC {
 
 
 
-#### - BlendEnable
+### -field BlendEnable
 
 [in] A Boolean value that specifies whether blending is enabled for the associated render target. <b>TRUE</b> indicates blending is enabled; <b>FALSE</b> indicates blending is disabled.
 <div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div><div> </div>
 
-#### - LogicOpEnable
+### -field LogicOpEnable
 
 Specifies whether shader logic operations given by the <b>LogicOp</b> member are available in the blend state. The user-mode display driver sets <b>LogicOpEnable</b> to <b>TRUE</b> if logic operations are available in the blend state and <b>FALSE</b> otherwise. 
 
@@ -90,42 +90,42 @@ This member is <b>FALSE</b> if the   driver supports Direct3D feature level 9.1,
 This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 <div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div><div> </div>
 
-#### - SrcBlend
+### -field SrcBlend
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a> that indicates the blend mode of the source for the enabled render target. 
 
 
-#### - DestBlend
+### -field DestBlend
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a> that indicates the blend mode of the destination for the enabled render target. 
 
 
-#### - BlendOp
+### -field BlendOp
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a> that indicates the blending operation for the enabled render target. 
 
 
-#### - SrcBlendAlpha
+### -field SrcBlendAlpha
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a> that indicates the transparency blend mode of the source for the enabled render target. 
 
 
-#### - DestBlendAlpha
+### -field DestBlendAlpha
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a> that indicates the transparency blend mode of the destination for the enabled render target. 
 
 
-#### - BlendOpAlpha
+### -field BlendOpAlpha
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a> that indicates the transparency blending operation for the enabled render target. 
 
 
-#### - LogicOp
+### -field LogicOp
 
 [in] A value of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_logic_op.md">D3D11_1_DDI_LOGIC_OP</a> that specifies  shader logic operations that are available in the blend state.
 
 
-#### - RenderTargetWriteMask
+### -field RenderTargetWriteMask
 
 [in] An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
 <table>
@@ -188,17 +188,17 @@ Writes red, green, blue, and a transparency level
 
 ## -see-also
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_logic_op.md">D3D11_1_DDI_LOGIC_OP</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_logic_op.md">D3D11_1_DDI_LOGIC_OP</a>
 
  
 

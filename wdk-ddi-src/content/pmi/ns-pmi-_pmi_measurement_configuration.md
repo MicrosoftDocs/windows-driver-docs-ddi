@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], *PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PPMI_MEASUREMENT_CONFIGURATION, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, powermeter.pmi_measurement_configuration"
+ms.keywords: PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration, pmi/PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], *PPMI_MEASUREMENT_CONFIGURATION, _PMI_MEASUREMENT_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PMI_MEASUREMENT_CONFIGURATION {
 
 
 
-#### - AveragingInterval
+### -field AveragingInterval
 
 A value, in units of milliseconds (mS), that specifies the interval during which the power meter averages power measurement data.
 
@@ -81,11 +81,11 @@ The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement pa
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
  
 

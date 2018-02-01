@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 976e0d67-a03c-4545-b165-4b48062c03b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanPacketServiceActionDetach, wwan/WwanPacketServiceActionAttach, wwan/PWWAN_PACKET_SERVICE_ACTION, _WWAN_PACKET_SERVICE_ACTION, PWWAN_PACKET_SERVICE_ACTION, *PWWAN_PACKET_SERVICE_ACTION, PWWAN_PACKET_SERVICE_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_packet_service_action, WwanRef_6ab5ff1d-9b6c-4018-8d3b-7753ebca12e4.xml, WwanPacketServiceActionAttach, wwan/WwanPacketServiceActionDetach, WWAN_PACKET_SERVICE_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_PACKET_SERVICE_ACTION, WWAN_PACKET_SERVICE_ACTION
+ms.keywords: wwan/PWWAN_PACKET_SERVICE_ACTION, PWWAN_PACKET_SERVICE_ACTION, _WWAN_PACKET_SERVICE_ACTION, wwan/WWAN_PACKET_SERVICE_ACTION, *PWWAN_PACKET_SERVICE_ACTION, WWAN_PACKET_SERVICE_ACTION, WwanPacketServiceActionAttach, WWAN_PACKET_SERVICE_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPacketServiceActionAttach, WwanPacketServiceActionDetach, wwan/WwanPacketServiceActionDetach, WwanRef_6ab5ff1d-9b6c-4018-8d3b-7753ebca12e4.xml, netvista.wwan_packet_service_action, PWWAN_PACKET_SERVICE_ACTION enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _WWAN_PACKET_SERVICE_ACTION {
 
 
 
-#### - WwanPacketServiceActionAttach
+### -field WwanPacketServiceActionAttach
 
 Packet-attach to the registered provider.
 
 
-#### - WwanPacketServiceActionDetach
+### -field WwanPacketServiceActionDetach
 
 Packet-detach from the registered provider.
 

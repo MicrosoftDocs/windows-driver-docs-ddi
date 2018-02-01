@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 23698bb8-3fb6-4e60-aaac-75c2e3341d54
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], PNDIS_QOS_CAPABILITIES, _NDIS_QOS_CAPABILITIES, ntddndis/NDIS_QOS_CAPABILITIES, ntddndis/PNDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NDIS_QOS_CAPABILITIES, netvista.ndis_qos_capabilities
+ms.keywords: PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_QOS_CAPABILITIES, ntddndis/NDIS_QOS_CAPABILITIES, netvista.ndis_qos_capabilities, ntddndis/PNDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_QOS_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _NDIS_QOS_CAPABILITIES {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_QOS_CAPABILITIES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -90,21 +90,11 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_QOS_CAPABILITIES_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the NDIS QoS capabilities that a network adapter supports. The following flags are defined:
 
 
-
-
-#### NDIS_QOS_CAPABILITIES_STRICT_TSA_SUPPORTED
-
-If this flag is set, the network adapter supports the strict priority transmission selection algorithm (TSA). For more information about this algorithm, see <a href="https://msdn.microsoft.com/7C7A34CA-673C-4EFC-970D-08458AA83EAD">Strict Priority Algorithm</a>.
-<div class="alert"><b>Note</b>  In order to be compliant with DCB, the network adapter must support the strict priority TSA.</div><div> </div>
-
-#### NDIS_QOS_CAPABILITIES_MACSEC_BYPASS_SUPPORTED
-
-If this flag is set, the network adapter supports the ability to bypass media access control security (MACsec) processing. For more information about MACsec, refer to the 802.1AE-2006 standard.
 
 
 #### NDIS_QOS_CAPABILITIES_CEE_DCBX_SUPPORTED
@@ -118,19 +108,29 @@ If this flag is set, the network adapter and miniport driver supports the IEEE 8
 For more information about this protocol, see <a href="https://msdn.microsoft.com/FEB3FDBB-8A3C-4907-A6D0-CB5E94BCFEFF">Overview of Data Center Bridging</a>.
 <div class="alert"><b>Note</b>  If this flag is set, the miniport driver must reject any send requests for DCBX packets.</div><div> </div>
 
-#### - MaxNumTrafficClasses
+#### NDIS_QOS_CAPABILITIES_MACSEC_BYPASS_SUPPORTED
+
+If this flag is set, the network adapter supports the ability to bypass media access control security (MACsec) processing. For more information about MACsec, refer to the 802.1AE-2006 standard.
+
+
+#### NDIS_QOS_CAPABILITIES_STRICT_TSA_SUPPORTED
+
+If this flag is set, the network adapter supports the strict priority transmission selection algorithm (TSA). For more information about this algorithm, see <a href="https://msdn.microsoft.com/7C7A34CA-673C-4EFC-970D-08458AA83EAD">Strict Priority Algorithm</a>.
+<div class="alert"><b>Note</b>  In order to be compliant with DCB, the network adapter must support the strict priority TSA.</div><div> </div>
+
+### -field MaxNumTrafficClasses
 
 A <b>ULONG</b> value that specifies the maximum number of NDIS QoS traffic classes that the network adapter supports. For more information, see <a href="https://msdn.microsoft.com/0DE61F97-7173-4D91-90F3-20EAFB810251">NDIS QoS Traffic Classes</a>.
 <div class="alert"><b>Note</b>  In order for the network adapter to support NDIS QoS for DCB, it must support at least three traffic classes.</div><div> </div>
 
-#### - MaxNumEtsCapableTrafficClasses
+### -field MaxNumEtsCapableTrafficClasses
 
 A <b>ULONG</b> value that specifies the maximum number of QoS traffic classes that the network adapter can use with the  Enhanced Transmission Selection (ETS) algorithm. This value must be less than or equal to the value of the <b>MaxNumTrafficClasses</b> member.
 
  For more information about ETS, see <a href="https://msdn.microsoft.com/952ECB1E-96AD-4717-8E49-68558E7E9AD4">Enhanced Transmission Selection (ETS) Algorithm</a>.
 <div class="alert"><b>Note</b>  In order for the network adapter to support NDIS QoS for DCB, it must support at least two ETS-capable traffic classes.</div><div> </div>
 
-#### - MaxNumPfcEnabledTrafficClasses
+### -field MaxNumPfcEnabledTrafficClasses
 
 A <b>ULONG</b> value that specifies the maximum number of QoS traffic classes that the network adapter can use with the   Priority-based Flow Control (PFC) algorithm. This value must be less than or equal to the value of the <b>MaxNumTrafficClasses</b> member.
 
@@ -153,8 +153,8 @@ The miniport driver initializes an  <a href="..\ndis\ns-ndis-_ndis_miniport_adap
 
 </li>
 <li>
-The miniport driver  calls <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link> and sets the <i>MiniportAttributes</i> parameter to 
+The miniport driver  calls <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a> and sets the <i>MiniportAttributes</i> parameter to 
     a pointer to the <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
     structure.
 
@@ -167,14 +167,14 @@ The miniport driver  calls <mshelp:link keywords="netvista.ndismsetminiportattri
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
 
-<mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a>
 
 <b></b>
 

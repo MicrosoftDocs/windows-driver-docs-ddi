@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], hbapiwmi/PRemovePort_OUT, storage.removeport_out, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, PRemovePort_OUT, hbapiwmi/RemovePort_OUT, _RemovePort_OUT, RemovePort_OUT, RemovePort_OUT structure [Storage Devices]"
+ms.keywords: hbapiwmi/PRemovePort_OUT, hbapiwmi/RemovePort_OUT, storage.removeport_out, RemovePort_OUT structure [Storage Devices], *PRemovePort_OUT, PRemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, RemovePort_OUT, _RemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _RemovePort_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 

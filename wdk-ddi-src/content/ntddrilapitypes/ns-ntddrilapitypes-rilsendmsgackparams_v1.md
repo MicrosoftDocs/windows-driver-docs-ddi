@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 96f1e6c2-f2cc-44f0-af9c-4a17ab22bdf4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSENDMSGACKPARAMS_V1, netvista.rilsendmsgackparams_v1
+ms.keywords: netvista.rilsendmsgackparams_v1, ntddrilapitypes/RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILSENDMSGACKPARAMS_V1 {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - hUiccApp
+### -field hUiccApp
 
 
 
-#### - dwAckID
+### -field dwAckID
 
 
 
-#### - dwMsgStatus
+### -field dwMsgStatus
 
 

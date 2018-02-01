@@ -75,12 +75,12 @@ NTSTATUS GetVirtualFunctionProbedBars(
 
 
 
-#### - Context [in, out]
+### -param Context [in, out]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-#### - BaseRegisterValues [out]
+### -param BaseRegisterValues [out]
 
 A pointer to an array of ULONG values. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a> routine returns a value for each BAR of the device.
 <div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a> returns a maximum of <b>PCI_TYPE0_ADDRESSES</b> values within this array.
@@ -166,9 +166,9 @@ address space for each BAR after the physical device has started. At that point,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 <b></b>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6898ca45-e4a2-41ad-a47e-6dfbcc60b00a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_de88c383-95ac-4f3e-b02d-aec76132e4c3.xml, storage.storportreadportuchar, storport/StorPortReadPortUchar, StorPortReadPortUchar routine [Storage Devices], StorPortReadPortUchar
+ms.keywords: StorPortReadPortUchar routine [Storage Devices], storage.storportreadportuchar, storprt_de88c383-95ac-4f3e-b02d-aec76132e4c3.xml, StorPortReadPortUchar, storport/StorPortReadPortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ STORPORT_API UCHAR StorPortReadPortUchar(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the address from which to read. 
 
@@ -96,9 +96,9 @@ For more information, see the <a href="..\srb\nf-srb-scsiportreadportbufferuchar
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
-
 <a href="..\storport\nf-storport-storportreadportbufferuchar.md">StorPortReadPortBufferUchar</a>
+
+<a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
 
  
 

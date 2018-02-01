@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4E620796-3065-469E-8E91-8F698F672CAE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_cst_states, pepfx/PEP_PPM_CST_STATES, PEP_PPM_CST_STATES, PPEP_PPM_CST_STATES, PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES, pepfx/PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATES, PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_CST_STATES, pepfx/PPEP_PPM_CST_STATES, PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES, kernel.pep_ppm_cst_states, pepfx/PEP_PPM_CST_STATES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PEP_PPM_CST_STATES {
 
 
 
-#### - Count
+### -field Count
 
 The number of elements in the <b>IdleStates</b> array.
 
 
-#### - IdleStates
+### -field IdleStates
 
 A pointer to an array of <a href="..\pepfx\ns-pepfx-_pep_ppm_cst_state.md">PEP_PPM_CST_STATE</a> structures.
 
@@ -87,9 +87,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
-
 <a href="..\pepfx\ns-pepfx-_pep_ppm_cst_state.md">PEP_PPM_CST_STATE</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
 
  
 

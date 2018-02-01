@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kestallexecutionprocessor, KeStallExecutionProcessor, k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, wdm/KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, wdm/KeStallExecutionProcessor, KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], kernel.kestallexecutionprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ The <b>KeStallExecutionProcessor</b> routine stalls the caller on the current pr
 
 
 
-#### - MicroSeconds [in]
+### -param MicroSeconds [in]
 
 Specifies the number of microseconds to stall.
 

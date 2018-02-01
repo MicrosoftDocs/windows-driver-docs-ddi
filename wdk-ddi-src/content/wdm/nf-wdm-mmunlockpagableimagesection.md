@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a6e3029-d378-4e42-8556-e3640cfdb392
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmUnlockPagableImageSection, MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture], kernel.mmunlockpagableimagesection, wdm/MmUnlockPagableImageSection, k106_1420e152-a858-4256-87ed-8fa78ee76379.xml
+ms.keywords: k106_1420e152-a858-4256-87ed-8fa78ee76379.xml, MmUnlockPagableImageSection, kernel.mmunlockpagableimagesection, wdm/MmUnlockPagableImageSection, MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID MmUnlockPagableImageSection(
 
 
 
-#### - ImageSectionHandle [in]
+### -param ImageSectionHandle [in]
 
 Specifies the handle returned by a call to <a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a> or <a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>. 
 
@@ -97,15 +97,15 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
-
 <a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
 <a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
 
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
 
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
  
 

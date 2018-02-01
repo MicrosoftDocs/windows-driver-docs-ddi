@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c2201e3c-c680-4a22-adf5-5131fb138066
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], CHANNEL_CONFIG_PARAMETERS, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, *PCHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], bthddi/CHANNEL_CONFIG_PARAMETERS, bthddi/PCHANNEL_CONFIG_PARAMETERS, _CHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters, PCHANNEL_CONFIG_PARAMETERS
+ms.keywords: PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], bthddi/CHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, bthddi/PCHANNEL_CONFIG_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _CHANNEL_CONFIG_PARAMETERS {
 
 
 
-#### - Flags
+### -field Flags
 
 A flag or combination of flags that specifies which members of this structure contain data. Valid
      flag values are listed in the following table.
@@ -130,29 +130,29 @@ If set, the
 </table> 
 
 
-#### - Mtu
+### -field Mtu
 
 The message transfer units for the specified channel direction.
 
 
-#### - FlushTO
+### -field FlushTO
 
 The flush timeout for the specified channel direction.
 
 
-#### - NumExtraOptions
+### -field NumExtraOptions
 
 The number of items specified in the array that is specified in the 
      <b>ExtraOptions</b> member.
 
 
-#### - ExtraOptions
+### -field ExtraOptions
 
 The number of items specified in the array that is specified in the 
      <b>ExtraOptions</b> member.
 
 
-#### - Flow
+### -field Flow
 
 The QoS settings for the specified channel direction.
 

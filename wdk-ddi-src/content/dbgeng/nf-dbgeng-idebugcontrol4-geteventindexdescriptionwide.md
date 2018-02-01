@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide, IDebugControl4, GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method
+ms.keywords: GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, IDebugControl4::GetEventIndexDescriptionWide, GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide, IDebugControl4, GetEventIndexDescriptionWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetEventIndexDescriptionWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the event whose description will be returned.
 
 
-#### - Which [in]
+### -param Which [in]
 
 Specifies which piece of the event description to return.  Currently only DEBUG_EINDEX_NAME is supported; this returns the name of the event.
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 Receives the description of the event.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer </i>buffer.
 
 
-#### - DescSize [out, optional]
+### -param DescSize [out, optional]
 
 Receives the size, in characters, of the description.  If <i>DescSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -129,11 +129,11 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iounregisterbootdrivercallback, ntddk/IoUnRegisterBootDriverCallback, IoUnregisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnRegisterBootDriverCallback
+ms.keywords: IoUnregisterBootDriverCallback, ntddk/IoUnRegisterBootDriverCallback, kernel.iounregisterbootdrivercallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnRegisterBootDriverCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void IoUnRegisterBootDriverCallback(
 
 
 
-#### - CallbackHandle [in]
+### -param CallbackHandle [in]
 
 A handle returned from a previous call to <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a>.
 

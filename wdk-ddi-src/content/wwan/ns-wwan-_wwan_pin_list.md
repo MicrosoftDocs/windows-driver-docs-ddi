@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ddea69c-db40-4fae-9ca9-5eadc9b40b0c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_PIN_LIST, WWAN_PIN_LIST, wwan/WWAN_PIN_LIST, wwan/PWWAN_PIN_LIST, netvista.wwan_pin_list, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_LIST, *PWWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml"
+ms.keywords: WWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, PWWAN_PIN_LIST, wwan/PWWAN_PIN_LIST, *PWWAN_PIN_LIST, wwan/WWAN_PIN_LIST, _WWAN_PIN_LIST, netvista.wwan_pin_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,65 +78,65 @@ typedef struct _WWAN_PIN_LIST {
 
 
 
-#### - WwanPinDescPin1
+### -field WwanPinDescPin1
 
 Description for PIN1. For GSM-based devices, this is a Subscriber Identity Module (SIM) PIN. For
      CDMA-based devices, power-on device lock is reported as PIN1.
 
 
-#### - WwanPinDescPin2
+### -field WwanPinDescPin2
 
 Description for PIN2. This is a SIM PIN2 that protects certain SIM functionality.
 
 
-#### - WwanPinDescDeviceSimPin
+### -field WwanPinDescDeviceSimPin
 
 Description for the device-to-SIM-card PIN. This is a PIN that locks the device to a specific
      SIM.
 
 
-#### - WwanPinDescDeviceFirstSimPin
+### -field WwanPinDescDeviceFirstSimPin
 
 Description for the device-to-very-first-SIM-card PIN. This is a PIN that locks the device to the
      very first inserted SIM.
 
 
-#### - WwanPinDescNetworkPin
+### -field WwanPinDescNetworkPin
 
 Description for the network personalization PIN. This is a PIN that allows the device to be
      personalized to a network. For more information about this PIN type, see section 22.022 of the 3GPP
      specification.
 
 
-#### - WwanPinDescNetworkSubsetPin
+### -field WwanPinDescNetworkSubsetPin
 
 Description for network subset personalization PIN. This is a PIN that allows the device to be
      personalized to a subset of a network. For more information about this PIN type, see section 22.022 of
      the 3GPP specification.
 
 
-#### - WwanPinDescSvcProviderPin
+### -field WwanPinDescSvcProviderPin
 
 Description for Service Provider (SP) personalization PIN. This is a PIN that allows the device to
      be personalized to a service provider. For more information about this PIN type, see section 22.022 of
      the 3GPP specification.
 
 
-#### - WwanPinDescCorporatePin
+### -field WwanPinDescCorporatePin
 
 Description for corporate personalization PIN. This is a PIN that allows the device to be
      personalized to a specific company. For more information about this PIN type, see section 22.022 of the
      3GPP specification.
 
 
-#### - WwanPinDescSubsidyLock
+### -field WwanPinDescSubsidyLock
 
 Description for subsidy unlock PIN. This is a PIN that allows the device to be restricted to
      operate on a specific network. For more information about this PIN type, see section 22.022 of the 3GPP
      specification.
 
 
-#### - WwanPinDescCustom
+### -field WwanPinDescCustom
 
 Description for custom PIN. This is a custom vendor-defined PIN type. It is not included in the
      above list.

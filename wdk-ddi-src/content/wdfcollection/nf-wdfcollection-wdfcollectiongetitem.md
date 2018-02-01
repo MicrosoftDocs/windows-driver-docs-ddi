@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bb6232c-b87e-4358-ba0c-8854d641bfd8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCollectionGetItem method, WdfCollectionGetItem, wdf.wdfcollectiongetitem, DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, kmdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem, PFN_WDFCOLLECTIONGETITEM
+ms.keywords: WdfCollectionGetItem, DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, PFN_WDFCOLLECTIONGETITEM, kmdf.wdfcollectiongetitem, WdfCollectionGetItem method, wdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ WDFOBJECT WdfCollectionGetItem(
 
 
 
-#### - Collection [in]
+### -param Collection [in]
 
 A handle to a collection object.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based index value that identifies an object in the collection. 
 
@@ -104,9 +104,9 @@ For more information about object collections, see <a href="https://docs.microso
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
 
  
 

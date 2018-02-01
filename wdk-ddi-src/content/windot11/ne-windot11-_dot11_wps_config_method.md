@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FFA5B3FF-57AF-4701-97FB-E1182CDE8F7A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WPS_CONFIG_METHOD_DISPLAY, windot11/DOT11_WPS_CONFIG_METHOD, DOT11_WPS_CONFIG_METHOD, DOT11_WPS_CONFIG_METHOD_PUSHBUTTON, _DOT11_WPS_CONFIG_METHOD, windot11/DOT11_WPS_CONFIG_METHOD_PUSHBUTTON, windot11/DOT11_WPS_CONFIG_METHOD_KEYPAD, *PDOT11_WPS_CONFIG_METHOD, DOT11_WPS_CONFIG_METHOD enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_WPS_CONFIG_METHOD_NULL, DOT11_WPS_CONFIG_METHOD_NULL, DOT11_WPS_CONFIG_METHOD_KEYPAD, netvista.dot11_wps_config_method, windot11/DOT11_WPS_CONFIG_METHOD_DISPLAY
+ms.keywords: DOT11_WPS_CONFIG_METHOD_PUSHBUTTON, windot11/DOT11_WPS_CONFIG_METHOD_NULL, DOT11_WPS_CONFIG_METHOD, windot11/DOT11_WPS_CONFIG_METHOD_PUSHBUTTON, DOT11_WPS_CONFIG_METHOD_DISPLAY, DOT11_WPS_CONFIG_METHOD enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_WPS_CONFIG_METHOD_KEYPAD, *PDOT11_WPS_CONFIG_METHOD, DOT11_WPS_CONFIG_METHOD_NULL, netvista.dot11_wps_config_method, windot11/DOT11_WPS_CONFIG_METHOD, _DOT11_WPS_CONFIG_METHOD, DOT11_WPS_CONFIG_METHOD_KEYPAD, windot11/DOT11_WPS_CONFIG_METHOD_DISPLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,12 +71,12 @@ typedef enum _DOT11_WPS_CONFIG_METHOD {
 
 
 
-#### - DOT11_WPS_CONFIG_METHOD_NULL
+### -field DOT11_WPS_CONFIG_METHOD_NULL
 
 No setup method is configured.
 
 
-#### - DOT11_WPS_CONFIG_METHOD_DISPLAY
+### -field DOT11_WPS_CONFIG_METHOD_DISPLAY
 
 Setup is configured by a software user interface.
 
@@ -89,12 +89,12 @@ Setup is configured by a software user interface.
 
 
 
-#### - DOT11_WPS_CONFIG_METHOD_PUSHBUTTON
+### -field DOT11_WPS_CONFIG_METHOD_PUSHBUTTON
 
 Setup is configured by push button enablement.
 
 
-#### - DOT11_WPS_CONFIG_METHOD_KEYPAD
+### -field DOT11_WPS_CONFIG_METHOD_KEYPAD
 
 Setup is configured by a keypad action.
 

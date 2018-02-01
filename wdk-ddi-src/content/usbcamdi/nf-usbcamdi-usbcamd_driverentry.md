@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac77b121-2495-4739-8c8f-96d6c48e4dc6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.usbcamd_driverentry, USBCAMD_DriverEntry function [Streaming Media Devices], usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, USBCAMD_DriverEntry
+ms.keywords: stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, USBCAMD_DriverEntry function [Streaming Media Devices], USBCAMD_DriverEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ ULONG USBCAMD_DriverEntry(
 
 
 
-#### - Context1 [in]
+### -param Context1 [in]
 
 Pointer to the first argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the driver object that is created by the system and passed to DriverEntry.
 
 
-#### - Context2 [in]
+### -param Context2 [in]
 
 Pointer to the second argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the registry path that describes the minidriver's registry key.
 
 
-#### - DeviceContextSize [in]
+### -param DeviceContextSize [in]
 
 Specifies the size, in bytes, required for the minidriver's device-specific context.
 
@@ -93,7 +93,7 @@ Specifies the size, in bytes, required for the minidriver's device-specific cont
 TBD
 
 
-#### - ReceivePacket [in]
+### -param ReceivePacket [in]
 
 Pointer to the minidriver-defined <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 
@@ -122,11 +122,11 @@ A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
 
 <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
+<a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
 
  
 

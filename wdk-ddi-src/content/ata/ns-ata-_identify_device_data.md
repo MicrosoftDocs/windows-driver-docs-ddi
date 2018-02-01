@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7f2edd6f-16bf-47a6-8546-7871435a56ac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_IDENTIFY_DEVICE_DATA, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml, ata/PIDENTIFY_DEVICE_DATA, *PIDENTIFY_DEVICE_DATA, storage.identify_device_data, IDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA, ata/IDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices], PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices]"
+ms.keywords: PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], *PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices], ata/PIDENTIFY_DEVICE_DATA, storage.identify_device_data, ata/IDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA, _IDENTIFY_DEVICE_DATA, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -312,48 +312,8 @@ typedef struct _IDENTIFY_DEVICE_DATA {
 
 
 
-#### - GeneralConfiguration
+### -field GeneralConfiguration
 
-
-
-#### Reserved1
-
-Reserved.
-
-
-#### Retired3
-
-This member is no longer used.
-
-
-#### ResponseIncomplete
-
-Indicates that the response was incomplete.
-
-
-#### Retired2
-
-This member is no longer used.
-
-
-#### FixedDevice
-
-Indicates when set to 1 that the device is fixed.
-
-
-#### RemovableMedia
-
-Indicates when set to 1 that the media is removable.
-
-
-#### Retired1
-
-This member is no longer used.
-
-
-#### DeviceType
-
-Indicates when set to 1 that the device is an ATA device.
 
 
 ### -field GeneralConfiguration.Reserved1
@@ -411,53 +371,8 @@ Indicates when set to 1 that the device is an ATA device.
  
 
 
-#### - Capabilities
+### -field Capabilities
 
-
-
-#### ReservedByte49
-
-Reserved.
-
-
-#### DmaSupported
-
-Indicates that the device supports DMA operations.
-
-
-#### LbaSupported
-
-Indicates that the device supports logical block addressing.
-
-
-#### IordyDisable
-
-Indicates when set to 1 that I/O channel ready is disabled for the device.
-
-
-#### IordySupported
-
-Indicates when set to 1 that I/O channel ready is supported by the device.
-
-
-#### Reserved1
-
-Reserved.
-
-
-#### StandybyTimerSupport
-
-Indicates when set to 1 that the device supports standby timers.
-
-
-#### Reserved2
-
-Reserved.
-
-
-#### ReservedWord50
-
-Reserved.
 
 
 ### -field Capabilities.CurrentLongPhysicalSectorAlignment
@@ -815,138 +730,8 @@ Reserved.
  
 
 
-#### - CommandSetSupport
+### -field CommandSetSupport
 
-
-
-#### SmartCommands
-
-Indicates when <b>TRUE</b> that the device supports the SMART feature set.
-
-
-#### SecurityMode
-
-Indicates when <b>TRUE</b> that the device supports the security mode feature set.
-
-
-#### PowerManagement
-
-Indicates when <b>TRUE</b> that the device supports the mandatory power management feature set.
-
-
-#### Reserved1
-
-Reserved.
-
-
-#### WriteCache
-
-Indicates when <b>TRUE</b> that the device supports a write cache.
-
-
-#### LookAhead
-
-Indicates when <b>TRUE</b> that the device supports lookahead.
-
-
-#### ReleaseInterrupt
-
-Indicates when <b>TRUE</b> that the device supports release interrupt.
-
-
-#### ServiceInterrupt
-
-Indicates when <b>TRUE</b> that the device supports service interrupt.
-
-
-#### DeviceReset
-
-Indicates when <b>TRUE</b> that the device supports the device reset command.
-
-
-#### HostProtectedArea
-
-Indicates when <b>TRUE</b> that the device supports the host protected area feature set.
-
-
-#### Obsolete1
-
-This member is obsolete. Do not use.
-
-
-#### WriteBuffer
-
-Indicates when <b>TRUE</b> that the device supports the write buffer command.
-
-
-#### ReadBuffer
-
-Indicates when <b>TRUE</b> that the device supports the read buffer command.
-
-
-#### Nop
-
-Indicates when <b>TRUE</b> that the device supports the NOP command.
-
-
-#### Obsolete2
-
-Obsolete. Do not use.
-
-
-#### DownloadMicrocode
-
-Indicates when <b>TRUE</b> that the device supports the DOWNLOAD MICROCODE command.
-
-
-#### DmaQueued
-
-Indicates when <b>TRUE</b> that the device supports READ/WRITE DMA QUEUED command.
-
-
-#### Cfa
-
-Indicates when <b>TRUE</b> that the device supports the CFA feature set.
-
-
-#### AdvancedPm
-
-Indicates when <b>TRUE</b> that the device supports the advanced power management feature set.
-
-
-#### Msn
-
-Indicates when <b>TRUE</b> that the device supports the media status notification feature set.
-
-
-#### PowerUpInStandby
-
-Indicates when <b>TRUE</b> that the device supports power-up in standby feature set.
-
-
-#### ManualPowerUp
-
-Indicates when <b>TRUE</b> that the device supports the SET FEATURES subcommand required to spin up the device after power-up.
-
-
-#### Reserved2
-
-Reserved.
-
-
-#### SetMax
-
-Indicates when <b>TRUE</b> that the device supports the SET MAX security extension command.
-
-
-#### Acoustics
-
-Indicates when <b>TRUE</b> that the device supports the automatic acoustic management feature set.
-
-
-#### BigLba
-
-Indicates when <b>TRUE</b> that the device supports the 48-bit address feature set.
 
 
 #### Resrved3
@@ -1179,147 +964,12 @@ Indicates when <b>TRUE</b> that the device supports the 48-bit address feature s
  
 
 
-#### - CommandSetActive
+### -field CommandSetActive
 
 
 
 #### 
 
-
-
-#### SmartCommands
-
-Indicates when <b>TRUE</b> that the device supports the SMART feature set.
-
-
-#### SecurityMode
-
-Indicates when <b>TRUE</b> that the device supports the security mode feature set.
-
-
-#### PowerManagement
-
-Indicates when <b>TRUE</b> that the device supports the mandatory power management feature set.
-
-
-#### Reserved1
-
-Reserved.
-
-
-#### WriteCache
-
-Indicates when <b>TRUE</b> that the device supports a write cache.
-
-
-#### LookAhead
-
-Indicates when <b>TRUE</b> that the device supports lookahead.
-
-
-#### ReleaseInterrupt
-
-Indicates when <b>TRUE</b> that the device supports release interrupt.
-
-
-#### ServiceInterrupt
-
-Indicates when <b>TRUE</b> that the device supports service interrupt.
-
-
-#### DeviceReset
-
-Indicates when <b>TRUE</b> that the device supports the device reset command.
-
-
-#### HostProtectedArea
-
-Indicates when <b>TRUE</b> that the device supports the host protected area feature set.
-
-
-#### Obsolete1
-
-This member is obsolete. Do not use.
-
-
-#### WriteBuffer
-
-Indicates when <b>TRUE</b> that the device supports the write buffer command.
-
-
-#### ReadBuffer
-
-Indicates when <b>TRUE</b> that the device supports the read buffer command.
-
-
-#### Nop
-
-Indicates when <b>TRUE</b> that the device supports the NOP command.
-
-
-#### Obsolete2
-
-Obsolete. Do not use.
-
-
-#### DownloadMicrocode
-
-Indicates when <b>TRUE</b> that the device supports the DOWNLOAD MICROCODE command.
-
-
-#### DmaQueued
-
-Indicates when <b>TRUE</b> that the device supports READ/WRITE DMA QUEUED command.
-
-
-#### Cfa
-
-Indicates when <b>TRUE</b> that the device supports the CFA feature set.
-
-
-#### AdvancedPm
-
-Indicates when <b>TRUE</b> that the device supports the advanced power management feature set.
-
-
-#### Msn
-
-Indicates when <b>TRUE</b> that the device supports the media status notification feature set.
-
-
-#### PowerUpInStandby
-
-Indicates when <b>TRUE</b> that the device supports power-up in standby feature set.
-
-
-#### ManualPowerUp
-
-Indicates when <b>TRUE</b> that the device supports the SET FEATURES subcommand required to spin up the device after power-up.
-
-
-#### Reserved2
-
-Reserved.
-
-
-#### SetMax
-
-Indicates when <b>TRUE</b> that the device supports the SET MAX security extension command.
-
-
-#### Acoustics
-
-Indicates when <b>TRUE</b> that the device supports the automatic acoustic management feature set.
-
-
-#### BigLba
-
-Indicates when <b>TRUE</b> that the device supports the 48-bit address feature set.
-
-
-#### Resrved3
-
-Reserved.
 
 
 ### -field CommandSetActive.SmartCommands
@@ -1582,13 +1232,8 @@ Reserved.
  
 
 
-#### - PhysicalLogicalSectorSize
+### -field PhysicalLogicalSectorSize
 
-
-
-#### Reserved1
-
-Reserved.
 
 
 ### -field PhysicalLogicalSectorSize.LogicalSectorsPerPhysicalSector
@@ -1616,7 +1261,7 @@ Reserved.
 Reserved.
 
 
-#### - CommandSetSupportExt
+### -field CommandSetSupportExt
 
 
 
@@ -1675,13 +1320,8 @@ Reserved.
  
 
 
-#### - CommandSetActiveExt
+### -field CommandSetActiveExt
 
-
-
-#### Reserved1
-
-Reserved.
 
 
 ### -field CommandSetActiveExt.ReservedForDrqTechnicalReport
@@ -1734,14 +1374,9 @@ Reserved.
 Reserved.
 
 
-#### - SecurityStatus
+### -field SecurityStatus
 
 Contains a bitmap that indicates the security status. For more information about the meaning of each individual bit, see the <i>ATA/ATAPI specification</i>.
-
-
-#### Reserved1
-
-Reserved.
 
 
 ### -field SecurityStatus.SecuritySupported
@@ -1819,7 +1454,7 @@ Reserved.
  
 
 
-#### - DataSetManagementFeature
+### -field DataSetManagementFeature
 
 
 
@@ -1878,7 +1513,7 @@ Reserved.
  
 
 
-#### - BlockAlignment
+### -field BlockAlignment
 
 
 
@@ -1897,13 +1532,8 @@ Reserved.
  
 
 
-#### - NVCacheCapabilities
+### -field NVCacheCapabilities
 
-
-
-#### Reserved1
-
-Reserved.
 
 
 ### -field NVCacheCapabilities.NVCachePowerModeEnabled
@@ -1936,7 +1566,7 @@ Reserved.
  
 
 
-#### - NVCacheOptions
+### -field NVCacheOptions
 
 
 
@@ -1965,7 +1595,7 @@ Reserved.
  
 
 
-#### - NumCylinders
+### -field NumCylinders
 
 Indicates the number of cylinders on the device.
 
@@ -1975,72 +1605,72 @@ Indicates the number of cylinders on the device.
  
 
 
-#### - NumHeads
+### -field NumHeads
 
 Number of logical heads on the device.
 
 
-#### - Retired1
+### -field Retired1
 
 This member is no longer used.
 
 
-#### - NumSectorsPerTrack
+### -field NumSectorsPerTrack
 
 Indicates the number of sectors per track.
 
 
-#### - VendorUnique1
+### -field VendorUnique1
 
 Contains the first ID of the device's vendor.
 
 
-#### - SerialNumber
+### -field SerialNumber
 
 Contains the serial number of the device.
 
 
-#### - Retired2
+### -field Retired2
 
 This member is no longer used.
 
 
-#### - Obsolete1
+### -field Obsolete1
 
 This member is obsolete. Do not use.
 
 
-#### - FirmwareRevision
+### -field FirmwareRevision
 
 Contains the revision number of the device's firmware.
 
 
-#### - ModelNumber
+### -field ModelNumber
 
 Contains the device's model number.
 
 
-#### - MaximumBlockTransfer
+### -field MaximumBlockTransfer
 
 Contains the maximum number of blocks allowed in a single transfer.
 
 
-#### - VendorUnique2
+### -field VendorUnique2
 
 Contains the second ID of the device's vendor.
 
 
-#### - ObsoleteWords51
+### -field ObsoleteWords51
 
 This member is obsolete. Do not use.
 
 
-#### - TranslationFieldsValid
+### -field TranslationFieldsValid
 
 Contains a bitfield whose bits indicate which of the bytes in the identify data package contain valid address translation information. For more information about how this bitfield is defined, see the <i>ATA/ATAPI specification</i>.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved.
 
@@ -2050,37 +1680,37 @@ Reserved.
  
 
 
-#### - NumberOfCurrentCylinders
+### -field NumberOfCurrentCylinders
 
 Indicates the number of cylinders on the device.
 
 
-#### - NumberOfCurrentHeads
+### -field NumberOfCurrentHeads
 
 Indicates the number of heads on the device.
 
 
-#### - CurrentSectorsPerTrack
+### -field CurrentSectorsPerTrack
 
 Indicates the number of sectors per track.
 
 
-#### - CurrentSectorCapacity
+### -field CurrentSectorCapacity
 
 Indicates the number of sectors on the device.
 
 
-#### - CurrentMultiSectorSetting
+### -field CurrentMultiSectorSetting
 
 Indicates the multisector setting.
 
 
-#### - MultiSectorSettingValid
+### -field MultiSectorSettingValid
 
 Indicates when <b>TRUE</b> that the multisector setting is valid.
 
 
-#### - ReservedByte59
+### -field ReservedByte59
 
 Reserved.
 
@@ -2105,51 +1735,51 @@ Reserved.
  
 
 
-#### - UserAddressableSectors
+### -field UserAddressableSectors
 
 Indicates the total number of user-addressable sectors.
 
 
-#### - ObsoleteWord62
+### -field ObsoleteWord62
 
 This member is obsolete. Do not use.
 
 
-#### - MultiWordDMASupport
+### -field MultiWordDMASupport
 
 Indicates which DMA modes the device supports.
 
 
-#### - MultiWordDMAActive
+### -field MultiWordDMAActive
 
 Indicates which DMA modes are currently selected.
 
 
-#### - AdvancedPIOModes
+### -field AdvancedPIOModes
 
 
 
-#### - ReservedByte64
+### -field ReservedByte64
 
 Reserved.
 
 
-#### - MinimumMWXferCycleTime
+### -field MinimumMWXferCycleTime
 
 Indicates the minimum multiword DMA transfer cycle time per word.
 
 
-#### - RecommendedMWXferCycleTime
+### -field RecommendedMWXferCycleTime
 
 Indicates the recommended multiword DMA transfer cycle time per word.
 
 
-#### - MinimumPIOCycleTime
+### -field MinimumPIOCycleTime
 
 Indicates the minimum PIO transfer cycle time without flow control.
 
 
-#### - MinimumPIOCycleTimeIORDY
+### -field MinimumPIOCycleTimeIORDY
 
 Indicates the minimum PIO transfer cycle time with IORDY flow control.
 
@@ -2159,32 +1789,32 @@ Indicates the minimum PIO transfer cycle time with IORDY flow control.
  
 
 
-#### - QueueDepth
+### -field QueueDepth
 
 Indicates the maximum queue depth.
 
 
-#### - ReservedWord75
+### -field ReservedWord75
 
 Reserved.
 
 
-#### - MajorRevision
+### -field MajorRevision
 
 Indicates the device's major revision number.
 
 
-#### - MinorRevision
+### -field MinorRevision
 
 Indicates the device's minor revision number.
 
 
-#### - UltraDMASupport
+### -field UltraDMASupport
 
 Contains a bitmap indicating which ultraDMA modes the device supports.
 
 
-#### - UltraDMAActive
+### -field UltraDMAActive
 
 Contains a bitmap indicating which ultraDMA modes are selected.
 
@@ -2204,17 +1834,17 @@ Contains a bitmap indicating which ultraDMA modes are selected.
  
 
 
-#### - HardwareResetResult
+### -field HardwareResetResult
 
 Indicates the result of a hardware reset. For more information about the values assigned to this member, see the <i>ATA/ATAP specification</i>.
 
 
-#### - CurrentAcousticValue
+### -field CurrentAcousticValue
 
 Indicates the current acoustic management value.
 
 
-#### - RecommendedAcousticValue
+### -field RecommendedAcousticValue
 
 Contain the device vendor's recommended acoustic management value.
 
@@ -2239,12 +1869,12 @@ Contain the device vendor's recommended acoustic management value.
  
 
 
-#### - Max48BitLBA
+### -field Max48BitLBA
 
 Contains the maximum user LBA for the 48-bit address feature set.
 
 
-#### - StreamingTransferTime
+### -field StreamingTransferTime
 
 
 
@@ -2253,31 +1883,31 @@ Contains the maximum user LBA for the 48-bit address feature set.
  
 
 
-#### - InterSeekDelay
+### -field InterSeekDelay
 
 
 
-#### - WorldWideName
+### -field WorldWideName
 
 
 
-#### - ReservedForWorldWideName128
+### -field ReservedForWorldWideName128
 
 
 
-#### - ReservedForTlcTechnicalReport
+### -field ReservedForTlcTechnicalReport
 
 
 
-#### - WordsPerLogicalSector
+### -field WordsPerLogicalSector
 
 
 
-#### - ReservedForExpandedSupportandActive
+### -field ReservedForExpandedSupportandActive
 
 
 
-#### - MsnSupport
+### -field MsnSupport
 
 Indicates when <b>TRUE</b> that the device supports media status notification.
 
@@ -2287,12 +1917,12 @@ Indicates when <b>TRUE</b> that the device supports media status notification.
  
 
 
-#### - ReservedWord129
+### -field ReservedWord129
 
 Reserved.
 
 
-#### - ReservedForCfaWord161
+### -field ReservedForCfaWord161
 
 Words 161-168
 
@@ -2317,39 +1947,39 @@ Words 161-168
  
 
 
-#### - CurrentMediaSerialNumber
+### -field CurrentMediaSerialNumber
 
 Words 176-205
 
 
-#### - ReservedWord207
+### -field ReservedWord207
 
 Words 207-208
 
 
-#### - WriteReadVerifySectorCountMode3Only
+### -field WriteReadVerifySectorCountMode3Only
 
 Words 210-211
 
 
-#### - WriteReadVerifySectorCountMode2Only
+### -field WriteReadVerifySectorCountMode2Only
 
 Words 212-213
 
 
-#### - NVCacheSizeLSW
+### -field NVCacheSizeLSW
 
 
 
-#### - NVCacheSizeMSW
+### -field NVCacheSizeMSW
 
 
 
-#### - NominalMediaRotationRate
+### -field NominalMediaRotationRate
 
 
 
-#### - ReservedWord218
+### -field ReservedWord218
 
 
 
@@ -2358,7 +1988,7 @@ Words 212-213
  
 
 
-#### - ReservedWord220
+### -field ReservedWord220
 
 Words 220-254
 
@@ -2398,14 +2028,31 @@ Words 220-254
  
 
 
-#### - Signature
+### -field Signature
 
 Indicates the disk signature.
 
 
-#### - CheckSum
+### -field CheckSum
 
 Indicates the checksum.
+
+
+#### - CfaPowerModel
+
+
+
+#### - ReservedForCfaWord170
+
+Words 170-175
+
+
+#### - ReservedWord105
+
+
+
+#### - ReservedWord1274
+
 
 
 #### - ReservedWord2
@@ -2413,17 +2060,12 @@ Indicates the checksum.
 Reserved.
 
 
+#### - ReservedWord206
+
+Word 206
+
+
 #### - ReservedWord48
-
-Reserved.
-
-
-#### - ReservedWords69
-
-Reserved.
-
-
-#### - ReservedWords76
 
 Reserved.
 
@@ -2438,24 +2080,12 @@ Reserved.
 Reserved.
 
 
-#### - ReservedWord105
+#### - ReservedWords69
+
+Reserved.
 
 
+#### - ReservedWords76
 
-#### - ReservedWord1274
-
-
-
-#### - CfaPowerModel
-
-
-
-#### - ReservedForCfaWord170
-
-Words 170-175
-
-
-#### - ReservedWord206
-
-Word 206
+Reserved.
 

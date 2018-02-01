@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4E8AD6FA-BB89-4CB0-A06E-7B4917390311
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NDK_CAPABILITIES, netvista.ndis_ndk_capabilities, NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES, ntddndis/PNDIS_NDK_CAPABILITIES"
+ms.keywords: ntddndis/NDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], netvista.ndis_ndk_capabilities, NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES, _NDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _NDIS_NDK_CAPABILITIES {
 
 
 
-#### - Header
+### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CAPABILITIES</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 <ul>
@@ -91,49 +91,49 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
  
 
 
-#### - MaxQpCount
+### -field MaxQpCount
 
 The maximum number of queue pairs (QPs) that can be supported by the adapter.
 
 
-#### - MaxCqCount
+### -field MaxCqCount
 
 The maximum number of completion queues (CQs) that can be supported by the adapter.
 
 
-#### - MaxMrCount
+### -field MaxMrCount
 
 The maximum number of memory regions (MRs) that can be supported by the adapter.
 
 
-#### - MaxPdCount
+### -field MaxPdCount
 
 The maximum number of protection domains (PDs) that can be supported by the adapter
 
 
-#### - MaxInboundReadLimit
+### -field MaxInboundReadLimit
 
 The maximum number of incoming outstanding read requests that can be supported by the adapter. 
      If this member is zero, there is no adapter limit. In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxInboundReadLimit</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure.
 
 
-#### - MaxOutboundReadLimit
+### -field MaxOutboundReadLimit
 
 The maximum number of outgoing outstanding read requests that can be supported by the adapter. 
     If this member is zero, there is no adapter-wide limit.  In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxOutboundReadLimit</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure.
 
 
-#### - MaxMwCount
+### -field MaxMwCount
 
 The maximum number of memory windows (MWs) that are supported by the adapter.
 
 
-#### - MaxSrqCount
+### -field MaxSrqCount
 
 The maximum number of shared receive queues (SRQs) that are supported by the adapter.
 
 
-#### - MissingCounterMask
+### -field MissingCounterMask
 
 A bitmask that identifies counters that an NDK provider does not support. NDK providers are required to support all the performance counters that are included
     in the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure. However, in the rare case that
@@ -142,7 +142,7 @@ A bitmask that identifies counters that an NDK provider does not support. NDK pr
     counter which it cannot support.
 
 
-#### - NdkInfo
+### -field NdkInfo
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure that specifies NDK adapter capabilities and limits that are relevant for an specific NDK consumer. These capabilities can be different from system-wide limits.
 
@@ -164,11 +164,11 @@ The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="..\ndis\ns-nd
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

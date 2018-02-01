@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92759ba0-79f1-4dec-aea5-62c24253c6f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_DATARANGE_DV_AVC, tagKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC structure [Streaming Media Devices], avcsref_e5ebf0ed-91f2-415a-a6b1-346cfebf16b5.xml, avcstrm/PKS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC structure pointer [Streaming Media Devices], stream.ks_datarange_dv_avc, *PKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC, avcstrm/KS_DATARANGE_DV_AVC
+ms.keywords: avcstrm/PKS_DATARANGE_DV_AVC, avcstrm/KS_DATARANGE_DV_AVC, avcsref_e5ebf0ed-91f2-415a-a6b1-346cfebf16b5.xml, PKS_DATARANGE_DV_AVC structure pointer [Streaming Media Devices], *PKS_DATARANGE_DV_AVC, tagKS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC structure [Streaming Media Devices], stream.ks_datarange_dv_avc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,28 +69,28 @@ typedef struct tagKS_DATARANGE_DV_AVC {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the range of supported AV/C digital video formats.
 
 
-#### - DVVideoInfo
+### -field DVVideoInfo
 
 Specifies the digital video information, for example, sound tracks and video information.
 
 
-#### - ConnectInfo
+### -field ConnectInfo
 
 Specifies the AV/C preconnection info.
 
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
 <a href="..\avc\ns-avc-_avcpreconnectinfo.md">AVCPRECONNECTINFO</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
 
  
 

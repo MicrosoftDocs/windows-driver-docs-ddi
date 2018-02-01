@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_CONFIG_INIT, serports.sercx2_config_init, SERCX2_CONFIG_INIT function [Serial Ports], 2/SERCX2_CONFIG_INIT
+ms.keywords: serports.sercx2_config_init, SERCX2_CONFIG_INIT function [Serial Ports], 2/SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VOID SERCX2_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 A pointer to the <a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a> structure that is to be initialized.
 
 
-#### - EvtSerCx2ApplyConfig [in]
+### -param EvtSerCx2ApplyConfig [in]
 
 The value to load into the <b>EvtSerCx2ApplyConfig</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>.
 
 
-#### - EvtSerCx2Control [in]
+### -param EvtSerCx2Control [in]
 
 The value to load into the <b>EvtSerCx2Control</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>.
 
 
-#### - EvtSerCx2PurgeFifos [in]
+### -param EvtSerCx2PurgeFifos [in]
 
 The value to load into the <b>EvtSerCx2PurgeFifos</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EEAB636B-5565-4C2A-9EC7-4DC63EBB286F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.auxklibenumeratesystemfirmwaretables, aux_klib/AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], AuxKlibEnumerateSystemFirmwareTables
+ms.keywords: AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], kernel.auxklibenumeratesystemfirmwaretables, AuxKlibEnumerateSystemFirmwareTables, aux_klib/AuxKlibEnumerateSystemFirmwareTables
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS AuxKlibEnumerateSystemFirmwareTables(
 
 
 
-#### - FirmwareTableProviderSignature [in]
+### -param FirmwareTableProviderSignature [in]
 
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
 <table>
@@ -112,17 +112,17 @@ The raw SMBIOS firmware table provider.
 </table> 
 
 
-#### - FirmwareTableBuffer [out, optional]
+### -param FirmwareTableBuffer [out, optional]
 
 A pointer to a caller-allocated buffer to which the routine writes the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 The size, in bytes, of the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
 
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 A pointer to a location to which the routine writes the number of bytes of data written to the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
@@ -185,11 +185,11 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
+
 <a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
 
 <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
 
  
 

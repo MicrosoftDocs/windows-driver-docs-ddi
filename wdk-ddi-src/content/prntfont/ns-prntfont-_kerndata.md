@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b3f68c08-7097-46e7-ad47-6e5e1f2cb8b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, KERNDATA, prntfont/KERNDATA, _KERNDATA, prntfont/PKERNDATA, *PKERNDATA, PKERNDATA structure pointer [Print Devices], PKERNDATA, KERNDATA structure [Print Devices], print.kerndata
+ms.keywords: "_KERNDATA, prntfont/KERNDATA, KERNDATA, print.kerndata, prntfont/PKERNDATA, KERNDATA structure [Print Devices], print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, *PKERNDATA, PKERNDATA, PKERNDATA structure pointer [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _KERNDATA {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of KERNDATA structure, including the <b>KernPair</b> array.
 
 
-#### - dwKernPairNum
+### -field dwKernPairNum
 
 Specifies the number of elements in the <b>KernPair</b> array.
 
 
-#### - KernPair
+### -field KernPair
 
 Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565630">FD_KERNINGPAIR</a> structures.
 

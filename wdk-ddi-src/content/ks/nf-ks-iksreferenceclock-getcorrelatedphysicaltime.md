@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b80f6e20-410d-4984-8535-782a84c6af7e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml, GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, GetCorrelatedPhysicalTime, IKsReferenceClock::GetCorrelatedPhysicalTime, stream.iksreferenceclock_getcorrelatedphysicaltime, ks/IKsReferenceClock::GetCorrelatedPhysicalTime, GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedPhysicalTime method, IKsReferenceClock
+ms.keywords: GetCorrelatedPhysicalTime, avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml, ks/IKsReferenceClock::GetCorrelatedPhysicalTime, IKsReferenceClock::GetCorrelatedPhysicalTime, IKsReferenceClock, stream.iksreferenceclock_getcorrelatedphysicaltime, GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedPhysicalTime method, GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ LONGLONG GetCorrelatedPhysicalTime(
 
 
 
-#### - SystemTime [out]
+### -param SystemTime [out]
 
 Specifies the current system time in 100 nanosecond units.
 

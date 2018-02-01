@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxStatusSuccess, 1/SerCxStatusCancelled, SERCX_STATUS enumeration [Serial Ports], 1/SerCxStatusTimeout, SerCxStatusTimeout, 1/SERCX_STATUS, serports.sercx_status, *PSERCX_STATUS, _SERCX_STATUS, SerCxStatusSuccess, SERCX_STATUS, SerCxStatusCancelled
+ms.keywords: "_SERCX_STATUS, 1/SerCxStatusCancelled, SerCxStatusTimeout, 1/SERCX_STATUS, SerCxStatusSuccess, serports.sercx_status, SERCX_STATUS enumeration [Serial Ports], SerCxStatusCancelled, SERCX_STATUS, 1/SerCxStatusTimeout, *PSERCX_STATUS, 1/SerCxStatusSuccess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _SERCX_STATUS {
 
 
 
-#### - SerCxStatusSuccess
+### -field SerCxStatusSuccess
 
 The operation is proceeding successfully.
 
 
-#### - SerCxStatusCancelled
+### -field SerCxStatusCancelled
 
 The operation was canceled.
 
 
-#### - SerCxStatusTimeout
+### -field SerCxStatusTimeout
 
 The operation timed out. This enumeration value applies only to read interval time-outs for receive operations. For more information, see the description of the <b>ReadIntervalTimeout</b> member in <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>.
 
@@ -96,9 +96,9 @@ The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
-
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+
+<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
 
  
 

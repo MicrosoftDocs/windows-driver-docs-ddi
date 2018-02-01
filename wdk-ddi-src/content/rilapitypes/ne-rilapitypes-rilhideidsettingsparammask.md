@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5c951b21-1fa9-4b76-8631-3ab4148176ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_HIDS_STATUS, RIL_PARAM_HIDS_STATUS, RILHIDEIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_HIDS_PROVISIONING, rilapitypes/RIL_PARAM_HIDS_ALL, netvista.rilhideidsettingsparammask_2, RIL_PARAM_HIDS_PROVISIONING, rilapitypes/RILHIDEIDSETTINGSPARAMMASK, RIL_PARAM_HIDS_ALL
+ms.keywords: RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_HIDS_STATUS, RIL_PARAM_HIDS_PROVISIONING, RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_STATUS, rilapitypes/RILHIDEIDSETTINGSPARAMMASK, RILHIDEIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_HIDS_PROVISIONING, rilapitypes/RIL_PARAM_HIDS_ALL, netvista.rilhideidsettingsparammask_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,14 +74,14 @@ typedef enum _RILHIDEIDSETTINGSPARAMMASK {
 
 
 
-#### - RIL_PARAM_HIDS_STATUS
+### -field RIL_PARAM_HIDS_STATUS
 
 
 
-#### - RIL_PARAM_HIDS_PROVISIONING
+### -field RIL_PARAM_HIDS_PROVISIONING
 
 
 
-#### - RIL_PARAM_HIDS_ALL
+### -field RIL_PARAM_HIDS_ALL
 
 

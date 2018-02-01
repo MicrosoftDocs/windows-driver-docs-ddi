@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E364130B-9709-4FD9-8654-9FBC52E29145
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], ntddk/PsDetachSiloFromCurrentThread, kernel.psdetachsilofromcurrentthread, PsDetachSiloFromCurrentThread
+ms.keywords: kernel.psdetachsilofromcurrentthread, PsDetachSiloFromCurrentThread, ntddk/PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ void PsDetachSiloFromCurrentThread(
 
 
 
-#### - PreviousSilo [in]
+### -param PreviousSilo [in]
 
 The value returned from the silo attach call.
 

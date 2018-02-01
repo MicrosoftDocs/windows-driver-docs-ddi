@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 867b6152-9846-484f-9eac-07d0f24d55df
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES structure [Storage Devices], PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], irb/PIDE_MINIPORT_RESOURCES, structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml, *PIDE_MINIPORT_RESOURCES, irb/IDE_MINIPORT_RESOURCES, _IDE_MINIPORT_RESOURCES, PIDE_MINIPORT_RESOURCES, storage.ide_miniport_resources
+ms.keywords: "*PIDE_MINIPORT_RESOURCES, irb/IDE_MINIPORT_RESOURCES, structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml, irb/PIDE_MINIPORT_RESOURCES, _IDE_MINIPORT_RESOURCES, PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], storage.ide_miniport_resources, IDE_MINIPORT_RESOURCES structure [Storage Devices], PIDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _IDE_MINIPORT_RESOURCES {
 
 
 
-#### - NumberOfAccessRanges
+### -field NumberOfAccessRanges
 
 Contains the number of access ranges pointed to by <b>IdeAccessRange</b>. Each is a range either of memory addresses or I/O port addresses.
 
 
-#### - IdeAccessRange
+### -field IdeAccessRange
 
 Pointer to the first address range in a series of contiguous address ranges defined by a structure of type <a href="..\irb\ns-irb-_ide_access_range.md">IDE_ACCESS_RANGE</a>. The value in the <b>NumberOfAccessRanges</b> member indicates how many address ranges are provided. The port driver populates each <b>IDE_ACCESS_RANGE</b> structure with the address ranges allocated for the controller.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9c74a56-3f2c-4b94-8fb2-6b44075ec34b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksregisterworker, ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, KsRegisterWorker function [Streaming Media Devices], KsRegisterWorker, ks/KsRegisterWorker
+ms.keywords: stream.ksregisterworker, KsRegisterWorker function [Streaming Media Devices], ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, KsRegisterWorker, ks/KsRegisterWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,12 +76,12 @@ typedef PVOID PKSWORKER;
 
 
 
-#### - WorkQueueType [in]
+### -param WorkQueueType [in]
 
 Specifies the priority of the thread to create. This is usually either CriticalWorkQueue<b>, </b>DelayedWorkQueue, or HyperCriticalWorkQueue<b>.</b>
 
 
-#### - Worker [out]
+### -param Worker [out]
 
 Location to put the opaque context that must be used when scheduling a work item. This contains the queue type and is used to synchronize completion of work items.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_POWER_DESCRIPTOR structure [Storage Devices], PUFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], ufs/PUFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR, storage.ufs_power_descriptor, *PUFS_POWER_DESCRIPTOR
+ms.keywords: PUFS_POWER_DESCRIPTOR, storage.ufs_power_descriptor, UFS_POWER_DESCRIPTOR structure [Storage Devices], ufs/UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR, ufs/PUFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,29 +72,29 @@ typedef struct _UFS_POWER_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-#### - bDescriptorIDN
+### -field bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_POWER_IDN</b>.
 
 
-#### - wActiveICCLevelsVCC
+### -field wActiveICCLevelsVCC
 
 Specifies the maximum VCC current value for
 each UFS_bActiveICCLevel, based on the index value.
 
 
-#### - wActiveICCLevelsVCCQ
+### -field wActiveICCLevelsVCCQ
 
 Specifies the maximum VCCQ current value for
 each UFS_bActiveICCLevel, based on the index value.
 
 
-#### - wActiveICCLevelsVCCQ2
+### -field wActiveICCLevelsVCCQ2
 
 Specifies the maximum VCCQ current value for
 each UFS_bActiveICCLevel, based on the index value.

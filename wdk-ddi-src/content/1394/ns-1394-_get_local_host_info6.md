@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: d5da15b9-a020-42bf-8876-cec9edf3119f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.get_local_host_info6, *PGET_LOCAL_HOST_INFO6, 1394/PGET_LOCAL_HOST_INFO6, _GET_LOCAL_HOST_INFO6, 1394/GET_LOCAL_HOST_INFO6, GET_LOCAL_HOST_INFO6 structure [Buses], PGET_LOCAL_HOST_INFO6 structure pointer [Buses], GET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6, 1394stct_90799b58-816d-4624-a194-6b42d64b903c.xml
+ms.keywords: "*PGET_LOCAL_HOST_INFO6, GET_LOCAL_HOST_INFO6 structure [Buses], GET_LOCAL_HOST_INFO6, _GET_LOCAL_HOST_INFO6, 1394/GET_LOCAL_HOST_INFO6, IEEE.get_local_host_info6, PGET_LOCAL_HOST_INFO6, 1394stct_90799b58-816d-4624-a194-6b42d64b903c.xml, 1394/PGET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6 structure pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _GET_LOCAL_HOST_INFO6 {
 
 
 
-#### - CsrBaseAddress
+### -field CsrBaseAddress
 
 Specifies the base address to examine in the CSR. <b>CsrBaseAddress.Off_High</b> must be INITIAL_REGISTER_SPACE_HI. The possible values of <b>CsrBaseAddress.Off_Low</b> are as follows.
 <table>
@@ -102,12 +102,12 @@ The current topology map. The bus driver converts this from big-endian to machin
 </table> 
 
 
-#### - CsrDataLength
+### -field CsrDataLength
 
 Specifies the length in bytes of the buffer that <b>CsrDataBuffer</b> points to.
 
 
-#### - CsrDataBuffer
+### -field CsrDataBuffer
 
 Pointer to the buffer where the bus driver returns the requested CSR data.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da01963f-a0eb-4222-b0c7-20b924f65f66
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsystemtime, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], *LPRILSYSTEMTIME, ntddrilapitypes/RILSYSTEMTIME, RILSYSTEMTIME
+ms.keywords: RILSYSTEMTIME, *LPRILSYSTEMTIME, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], netvista.rilsystemtime, ntddrilapitypes/RILSYSTEMTIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,34 +74,34 @@ typedef struct _RILSYSTEMTIME {
 
 
 
-#### - wYear
+### -field wYear
 
 
 
-#### - wMonth
+### -field wMonth
 
 
 
-#### - wDayOfWeek
+### -field wDayOfWeek
 
 
 
-#### - wDay
+### -field wDay
 
 
 
-#### - wHour
+### -field wHour
 
 
 
-#### - wMinute
+### -field wMinute
 
 
 
-#### - wSecond
+### -field wSecond
 
 
 
-#### - wMilliseconds
+### -field wMilliseconds
 
 

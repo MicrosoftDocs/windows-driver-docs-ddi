@@ -68,7 +68,7 @@ _Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQ
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the device.
 

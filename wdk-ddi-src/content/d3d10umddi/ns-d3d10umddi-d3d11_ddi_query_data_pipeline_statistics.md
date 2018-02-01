@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d82b4e91-6734-4644-811d-fb64cfb9f5c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, UMDisplayDriver_Dx11param_Structs_68a59a1f-0f02-4be2-b417-5c4064df23fb.xml, display.d3d11_ddi_query_data_pipeline_statistics, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices]
+ms.keywords: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_68a59a1f-0f02-4be2-b417-5c4064df23fb.xml, d3d10umddi/D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d11_ddi_query_data_pipeline_statistics, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS {
 
 
 
-#### - IAVertices
+### -field IAVertices
 
 The number of input assembler (IA) veritces. 
 
 
-#### - IAPrimitives
+### -field IAPrimitives
 
 The number of IA primitives. 
 
 
-#### - VSInvocations
+### -field VSInvocations
 
 The number of vertex shader (VS) invocations. 
 
 
-#### - GSInvocations
+### -field GSInvocations
 
 The number of geometry shader (GS) invocations. 
 
 
-#### - GSPrimitives
+### -field GSPrimitives
 
 The number of GS primitives. 
 
 
-#### - CInvocations
+### -field CInvocations
 
 The number of clipper invocations. 
 
 
-#### - CPrimitives
+### -field CPrimitives
 
 The number of clipper primitives. 
 
 
-#### - PSInvocations
+### -field PSInvocations
 
 The number of pixel shader (PS) invocations. 
 
 
-#### - HSInvocations
+### -field HSInvocations
 
 The number of hull shader (HS) invocations. 
 
 
-#### - DSInvocations
+### -field DSInvocations
 
 The number of domain shader (DS) invocations. 
 
 
-#### - CSInvocations
+### -field CSInvocations
 
 The number of commute shader (CS) invocations. 
 
@@ -143,9 +143,9 @@ The driver associates a D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure with 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 517be11b-a15d-43ac-aefd-f425fa6f63e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_EXTSTA_RECV_CONTEXT, *PDOT11_EXTAP_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT structure [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_recv_context, PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_EXTSTA_RECV_CONTEXT, windot11/DOT11_EXTSTA_RECV_CONTEXT, windot11/PDOT11_EXTSTA_RECV_CONTEXT, Native_802.11_data_types_c3f69d82-f4b2-4a2a-b864-9b4eebc9e3ff.xml
+ms.keywords: DOT11_EXTSTA_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_EXTAP_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c3f69d82-f4b2-4a2a-b864-9b4eebc9e3ff.xml, *PDOT11_EXTSTA_RECV_CONTEXT, windot11/DOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, netvista.dot11_extsta_recv_context, PDOT11_EXTSTA_RECV_CONTEXT, windot11/PDOT11_EXTSTA_RECV_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of a received packet by
   the 802.11 station and indicated by the miniport driver operating in either Extensible Station (ExtSTA) or
   Network Monitor (NetMon) modes. For more information about these operation modes, see 
-  <mshelp:link keywords="netvista.native_802_11_operation_modes" tabindex="0">Native 802.11 Operation
-  Modes</mshelp:link>.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+  Modes</a>.
 
 
 ## -syntax
@@ -81,7 +81,7 @@ typedef struct DOT11_EXTSTA_RECV_CONTEXT {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_EXTSTA_RECV_CONTEXT structure. This member is formatted
      as an 
@@ -97,11 +97,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_EXTSTA_RECV_CONTEXT_REVISION_1.
@@ -113,7 +108,12 @@ This member must be set to
        sizeof(DOT11_EXTSTA_RECV_CONTEXT).
 
 
-#### - uReceiveFlags
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uReceiveFlags
 
 The attributes of the received packet data specified through a bitmask. 
      
@@ -130,8 +130,8 @@ The following flag values are valid for the miniport driver if is operating in N
 
 If this bit is set, the packet contains the data as it was originally received by the 802.11
        station. For more information about raw packets, see 
-       <mshelp:link keywords="netvista.indicating_raw_802_11_packets" tabindex="0">Indicating Raw 802.11
-       Packets</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11
+       Packets</a>.
 
 
 #### DOT11_RECV_FLAG_RAW_PACKET_FCS_FAILURE
@@ -147,41 +147,41 @@ If this bit is set, the NIC sets the timestamp information in the
        <b>ullTimestamp</b> member.
 
 
-#### - uPhyId
+### -field uPhyId
 
 The identifier (ID) of the PHY on which the 802.11 station received the packet.
 
 
-#### - uChCenterFrequency
+### -field uChCenterFrequency
 
 The channel center frequency, in units of megahertz (MHz), of the frequency band on which the
      802.11 station received the packet.
 
 
-#### - usNumberOfMPDUsReceived
+### -field usNumberOfMPDUsReceived
 
 The number of media access control (MAC) protocol data unit (MPDU) fragments received and
      reassembled by the 802.11 station for the packet. The value of 
      <b>usNumberOfMPDUsReceived</b> must be from one through the value of DOT11_MAX_NUM_OF_FRAGMENTS.
 
 
-#### - lRSSI
+### -field lRSSI
 
 The received signal strength indication (RSSI) value for the last received MPDU fragment of the
      802.11 packet. The RSSI value is in units of decibels referenced to 1.0 milliwatts (dBm).
 
 
-#### - ucDataRate
+### -field ucDataRate
 
 The data rate at which the 802.11 station received the packet. The value of 
      <b>ucDataRate</b> is the value of the 
      <b>ucDataRateIndex</b> member of the data rate from the 802.11 station's data rate mapping table. For
      more information about the data rate mapping table, see 
-     <mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-     OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+     OID_DOT11_DATA_RATE_MAPPING_TABLE</a>.
 
 
-#### - uSizeMediaSpecificInfo
+### -field uSizeMediaSpecificInfo
 
 The size, in bytes, of the media specific information at the 
      <b>pvMediaSpecificInfo</b> member. 
@@ -191,7 +191,7 @@ The size, in bytes, of the media specific information at the
 <div class="alert"><b>Note</b>  This member is currently reserved for future use and must contain
      zero.</div><div> </div>
 
-#### - pvMediaSpecificInfo
+### -field pvMediaSpecificInfo
 
 A pointer to a buffer that contains media-specific infomration. The mininiport driver can set this
      member if the miniport driver passes media-specific OOB data to an IHV-specific 802.3 protocol driver.
@@ -205,7 +205,7 @@ The native 802.11 framework copies this pointer to the
 <div class="alert"><b>Note</b>  IHV extensions are currently unable to receive the 
      <b>MediaSpecificInformation</b>.</div><div> </div>
 
-#### - ullTimestamp
+### -field ullTimestamp
 
 An 802.11 timing synchronization function (TSF) timer value, in microseconds, that specifies the
      time when the packet was received. This member is provided to support 
@@ -272,12 +272,12 @@ Set the value of
 
 </li>
 </ul>For more information about raw packets, see 
-    <mshelp:link keywords="netvista.indicating_raw_802_11_packets" tabindex="0">Indicating Raw 802.11
-    Packets</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11
+    Packets</a>.
 
 For more information about Native 802.11 receive operations, see 
-    <mshelp:link keywords="netvista.native_802_11_receive_operations" tabindex="0">Native 802.11 Receive
-    Operations</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-receive-operations">Native 802.11 Receive
+    Operations</a>.
 
 
 
@@ -285,17 +285,17 @@ For more information about Native 802.11 receive operations, see
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+   OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-   OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

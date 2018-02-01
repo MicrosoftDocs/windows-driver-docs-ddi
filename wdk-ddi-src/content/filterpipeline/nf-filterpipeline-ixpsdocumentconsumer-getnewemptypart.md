@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cc0911da-46ca-4cf7-a59e-da0d53e1d10c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetNewEmptyPart method [Print Devices], GetNewEmptyPart, filterpipeline_c4770528-f57a-4197-b60b-5b780d5e7752.xml, GetNewEmptyPart method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart, IXpsDocumentConsumer interface [Print Devices], GetNewEmptyPart method, IXpsDocumentConsumer, print.ixpsdocumentconsumer_getnewemptypart
+ms.keywords: IXpsDocumentConsumer::GetNewEmptyPart, GetNewEmptyPart method [Print Devices], GetNewEmptyPart method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer, filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart, print.ixpsdocumentconsumer_getnewemptypart, IXpsDocumentConsumer interface [Print Devices], GetNewEmptyPart method, filterpipeline_c4770528-f57a-4197-b60b-5b780d5e7752.xml, GetNewEmptyPart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT GetNewEmptyPart(
 
 
 
-#### - uri [in]
+### -param uri [in]
 
 The URI for the new part to be created.
 
 
-#### - riid [in]
+### -param riid [in]
 
 A reference identifier (REFIID) for one of the following interfaces: 
 <ul>
@@ -123,12 +123,12 @@ A reference identifier (REFIID) for one of the following interfaces:
 </li>
 </ul>
 
-#### - ppNewObject [out]
+### -param ppNewObject [out]
 
 A pointer to the new object to be created.
 
 
-#### - ppWriteStream [out]
+### -param ppWriteStream [out]
 
 A data stream object that the part will be written to. Each part is associated with a data stream object.
 
@@ -149,21 +149,21 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
-
-<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartcolorprofile.md">IPartColorProfile</a>
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartfont.md">IPartFont</a>
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
-
-<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
+<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartcolorprofile.md">IPartColorProfile</a>
+<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+
+<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
+
+<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
 
  
 

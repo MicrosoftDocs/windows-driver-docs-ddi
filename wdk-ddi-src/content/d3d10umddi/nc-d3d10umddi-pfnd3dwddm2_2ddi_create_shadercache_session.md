@@ -87,14 +87,14 @@ VOID APIENTRY* pfnCreateShaderCacheSession(
 
 
 
-#### - hDevice
-
-The handle of a device.
-
-
 #### - hCacheSession
 
 The handle of a cache session.
+
+
+#### - hDevice
+
+The handle of a device.
 
 
 #### - hRTCacheSession

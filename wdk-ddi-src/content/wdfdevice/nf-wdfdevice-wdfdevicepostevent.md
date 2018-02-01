@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevicePostEvent function, PFN_WDFDEVICEPOSTEVENT, WdfDevicePostEvent, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent
+ms.keywords: WdfDevicePostEvent function, PFN_WDFDEVICEPOSTEVENT, wdfdevice/WdfDevicePostEvent, WdfDevicePostEvent, wdf.wdfdevicepostevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ NTSTATUS WdfDevicePostEvent(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - EventGuid [in]
+### -param EventGuid [in]
 
 The GUID for the event. The GUID is determined by the application and the driver and is opaque to the framework.
 
 
-#### - WdfEventType [in]
+### -param WdfEventType [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
-#### - Data [in]
+### -param Data [in]
 
 A pointer to a buffer that contains data that is associated with the event. <b>NULL</b> is a valid value. 
 
 
-#### - DataSizeCb [in]
+### -param DataSizeCb [in]
 
 The size, in bytes, of data that <i>Data</i> points to. Zero is a valid size value if <i>Data</i> is set to <b>NULL</b>. 
 

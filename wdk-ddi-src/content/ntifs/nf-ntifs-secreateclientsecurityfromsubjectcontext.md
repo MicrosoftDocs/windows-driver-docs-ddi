@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3b3b12b8-05f7-40e6-909c-b99bf18cc299
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.secreateclientsecurityfromsubjectcontext, ntifs/SeCreateClientSecurityFromSubjectContext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], SeCreateClientSecurityFromSubjectContext
+ms.keywords: ifsk.secreateclientsecurityfromsubjectcontext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], SeCreateClientSecurityFromSubjectContext, ntifs/SeCreateClientSecurityFromSubjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS SeCreateClientSecurityFromSubjectContext(
 
 
 
-#### - SubjectContext [in]
+### -param SubjectContext [in]
 
 Pointer to the security subject context of the client to be impersonated.
 
 
-#### - ClientSecurityQos [in]
+### -param ClientSecurityQos [in]
 
 Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating what form of impersonation is to be performed.
 
 
-#### - ServerIsRemote [in]
+### -param ServerIsRemote [in]
 
 Set to <b>TRUE</b> if the server of the client's request is remote.
 
 
-#### - ClientContext [out]
+### -param ClientContext [out]
 
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
 
@@ -149,11 +149,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
 <a href="..\ntifs\nf-ntifs-sedeleteclientsecurity.md">SeDeleteClientSecurity</a>
 
 <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
-
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
  
 

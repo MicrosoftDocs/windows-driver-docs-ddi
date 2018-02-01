@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4db605f8-a1ed-4b75-8c72-f4846ae7007e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DDIGAMMACAPS, D3D_other_Structs_7aa0b131-f7e5-4208-b3bb-7a35fa0d5ef1.xml, display.ddigammacaps, d3dumddi/DDIGAMMACAPS, DDIGAMMACAPS structure [Display Devices], DDIGAMMACAPS"
+ms.keywords: d3dumddi/DDIGAMMACAPS, display.ddigammacaps, D3D_other_Structs_7aa0b131-f7e5-4208-b3bb-7a35fa0d5ef1.xml, DDIGAMMACAPS structure [Display Devices], _DDIGAMMACAPS, DDIGAMMACAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DDIGAMMACAPS {
 
 
 
-#### - GammaCaps
+### -field GammaCaps
 
 [out] A valid bitwise OR of the following capability bits that the driver supports.
 <table>
@@ -90,11 +90,11 @@ Gamma-ramp data is stored as 256 16-bit RGB values.
 
 ## -see-also
 
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
  
 

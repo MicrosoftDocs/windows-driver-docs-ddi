@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a7f365c-a252-4d8e-bddf-684b3298db5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filter_structures_ref_34b4c497-9a4c-4d15-9d25-672a7580456b.xml, netvista.ndis_filter_partial_characteristics, PNDIS_FILTER_PARTIAL_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_FILTER_PARTIAL_CHARACTERISTICS, ndis/PNDIS_FILTER_PARTIAL_CHARACTERISTICS, _NDIS_FILTER_PARTIAL_CHARACTERISTICS, ndis/NDIS_FILTER_PARTIAL_CHARACTERISTICS, *PNDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_FILTER_PARTIAL_CHARACTERISTICS, ndis/NDIS_FILTER_PARTIAL_CHARACTERISTICS, PNDIS_FILTER_PARTIAL_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_filter_partial_characteristics, _NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS, filter_structures_ref_34b4c497-9a4c-4d15-9d25-672a7580456b.xml, ndis/PNDIS_FILTER_PARTIAL_CHARACTERISTICS, *PNDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -51,8 +51,8 @@ req.typenames: "*PNDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARA
 
 To specify optional entry points for a filter module, a filter driver initializes an
   NDIS_FILTER_PARTIAL_CHARACTERISTICS structure and passes it to the 
-  <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-  NdisSetOptionalHandlers</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+  NdisSetOptionalHandlers</a> function.
 
 
 ## -syntax
@@ -76,7 +76,7 @@ typedef struct _NDIS_FILTER_PARTIAL_CHARACTERISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -87,45 +87,45 @@ The
      <b>Size</b> member to NDIS_SIZEOF_FILTER_PARTIAL_CHARACTERISTICS_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for NDIS.
 
 
-#### - SendNetBufferListsHandler
+### -field SendNetBufferListsHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.filtersendnetbufferlists" tabindex="0"><i>
-     FilterSendNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
+     <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">
+     FilterSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
-#### - SendNetBufferListsCompleteHandler
+### -field SendNetBufferListsCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-     FilterSendNetBufferListsComplete</i></mshelp:link> function. To bypass this function, set this member to
+     <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+     FilterSendNetBufferListsComplete</a> function. To bypass this function, set this member to
      <b>NULL</b>.
 
 
-#### - CancelSendNetBufferListsHandler
+### -field CancelSendNetBufferListsHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
-     FilterCancelSendNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
+     <a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
+     FilterCancelSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
-#### - ReceiveNetBufferListsHandler
-
-The entry point of the caller's 
-     <mshelp:link keywords="netvista.filterreceivenetbufferlists" tabindex="0"><i>
-     FilterReceiveNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
-
-
-#### - ReturnNetBufferListsHandler
+### -field ReceiveNetBufferListsHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.filterreturnnetbufferlists" tabindex="0"><i>
-     FilterReturnNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
+     <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
+     FilterReceiveNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
+
+
+### -field ReturnNetBufferListsHandler
+
+The entry point of the caller's 
+     <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">
+     FilterReturnNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ## -remarks
@@ -134,35 +134,35 @@ The entry point of the caller's
 This structure specifies optional 
     <i>FilterXxx</i> functions and other characteristics for a filter module. These characteristics override
     the default values that the driver set in the 
-    <mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
-    NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link> structure that the driver passed to the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function.
+    <a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+    NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure that the driver passed to the 
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
-   FilterCancelSendNetBufferLists</i></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
-   NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
-
-<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-   FilterSendNetBufferListsComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
+   FilterCancelSendNetBufferLists</a>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+   FilterSendNetBufferListsComplete</a>
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
 
  
 

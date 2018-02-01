@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E4800343-E773-448D-B33E-2546ECDA4303
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxusbdeviceinitaddstringdescriptorraw, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses]
+ms.keywords: buses.udecxusbdeviceinitaddstringdescriptorraw, UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses], udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS UdecxUsbDeviceInitAddStringDescriptorRaw(
 
 
 
-#### - UdecxUsbDeviceInit [in, out]
+### -param UdecxUsbDeviceInit [in, out]
 
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
 
 
-#### - Descriptor [in]
+### -param Descriptor [in]
 
 A caller-allocated buffer that contains the USB descriptor to add to the device.
 
 
-#### - DescriptorLength [in]
+### -param DescriptorLength [in]
 
 The length of the descriptor buffer.
 
 
-#### - DescriptorIndex [in]
+### -param DescriptorIndex [in]
 
 The index of the descriptor.
 
 
-#### - LanguageId [in]
+### -param LanguageId [in]
 
 The language identifier of the string. The client driver must define constants for the language support, such as:
 
@@ -110,13 +110,13 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540156">USB String Descriptors</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540156">USB String Descriptors</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
  
 

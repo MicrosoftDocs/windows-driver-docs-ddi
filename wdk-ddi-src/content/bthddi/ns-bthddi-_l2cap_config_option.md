@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 9759c2b5-91c7-46e9-97dd-8268bf24db78
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PL2CAP_CONFIG_OPTION, bthddi/PL2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION, bthddi/L2CAP_CONFIG_OPTION, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], _L2CAP_CONFIG_OPTION, bltooth.l2cap_config_option, L2CAP_CONFIG_OPTION
+ms.keywords: PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], PL2CAP_CONFIG_OPTION, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bthddi/L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION, bltooth.l2cap_config_option, _L2CAP_CONFIG_OPTION, bthddi/PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], L2CAP_CONFIG_OPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,14 +74,14 @@ typedef struct _L2CAP_CONFIG_OPTION {
 
 
 
-#### - Header
+### -field Header
 
 A 
      <a href="..\bthddi\ns-bthddi-_co_header.md">CO_HEADER</a> structure that specifies information
      about vendor-specific configuration options.
 
 
-#### - DynamicBuffer
+### -field DynamicBuffer
 
 A pointer to a buffer that contains additional L2CAP channel parameters that are defined either by
      the profile driver or the remote device. The 
@@ -89,14 +89,14 @@ A pointer to a buffer that contains additional L2CAP channel parameters that are
      parameters.
 
 
-#### - FixedBuffer
+### -field FixedBuffer
 
 A buffer that contains additional L2CAP channel parameters that are defined either by the profile
      driver or the remote device if they fit into 4 bytes. The 
      <b>Flags</b> member is set to CO_FIXED to indicate that this member contains the extra parameters.
 
 
-#### - Flags
+### -field Flags
 
 A combination of flags that determines which of this structure's buffer members contain
      parameters. Multiple flags can be set at once. Valid flag values are listed in the following table.

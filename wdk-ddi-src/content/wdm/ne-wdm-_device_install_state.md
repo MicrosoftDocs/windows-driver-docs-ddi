@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.device_install_state, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], PDEVICE_INSTALL_STATE, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, InstallStateFinishInstall, *PDEVICE_INSTALL_STATE, wdm/InstallStateNeedsReinstall, InstallStateFailedInstall, wdm/InstallStateFinishInstall, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/DEVICE_INSTALL_STATE, InstallStateNeedsReinstall, wdm/InstallStateFailedInstall, InstallStateInstalled, _DEVICE_INSTALL_STATE
+ms.keywords: kernel.device_install_state, DEVICE_INSTALL_STATE, wdm/DEVICE_INSTALL_STATE, InstallStateInstalled, InstallStateNeedsReinstall, wdm/InstallStateNeedsReinstall, InstallStateFinishInstall, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, _DEVICE_INSTALL_STATE, *PDEVICE_INSTALL_STATE, wdm/InstallStateFinishInstall, InstallStateFailedInstall, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], PDEVICE_INSTALL_STATE, wdm/PDEVICE_INSTALL_STATE, wdm/InstallStateFailedInstall, wdm/InstallStateInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _DEVICE_INSTALL_STATE {
 
 
 
-#### - InstallStateInstalled
+### -field InstallStateInstalled
 
 The device is installed.
 
 
-#### - InstallStateNeedsReinstall
+### -field InstallStateNeedsReinstall
 
 The system will try to reinstall the device on a later enumeration.
 
 
-#### - InstallStateFailedInstall
+### -field InstallStateFailedInstall
 
 The device did not install properly.
 
 
-#### - InstallStateFinishInstall
+### -field InstallStateFinishInstall
 
 The installation of this device is not yet complete. 
 

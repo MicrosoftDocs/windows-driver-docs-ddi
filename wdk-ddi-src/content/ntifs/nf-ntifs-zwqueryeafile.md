@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwqueryeafile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], ntifs/ZwQueryEaFile, ZwQueryEaFile
+ms.keywords: ZwQueryEaFile routine [Kernel-Mode Driver Architecture], ntifs/ZwQueryEaFile, ZwQueryEaFile, kernel.zwqueryeafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,37 +76,37 @@ NTSTATUS ZwQueryEaFile(
 
 
 
-#### - FileHandle [in]
+### -param FileHandle [in]
 
 The handle for the file on which the operation is to be performed.
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that 
       receives the final completion status and other information about the requested operation.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a caller-supplied 
       <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured output 
       buffer, where the extended attribute values are to be returned.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
 
-#### - ReturnSingleEntry [in]
+### -param ReturnSingleEntry [in]
 
 Set to <b>TRUE</b> if 
       <b>ZwQueryEaFile</b> should return only the first entry that 
       is found.
 
 
-#### - EaList [in, optional]
+### -param EaList [in, optional]
 
 A pointer to a caller-supplied 
       <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>-structured input 
@@ -114,19 +114,19 @@ A pointer to a caller-supplied
       <b>NULL</b>.
 
 
-#### - EaListLength [in]
+### -param EaListLength [in]
 
 The length, in bytes, of the buffer that the <i>EaList</i> parameter points to.
 
 
-#### - EaIndex [in, optional]
+### -param EaIndex [in, optional]
 
 The index of the entry at which scanning the file's extended-attribute list should begin. This parameter is 
       ignored if the <i>EaList</i> parameter points to a nonempty list. This parameter is optional 
       and can be <b>NULL</b>.
 
 
-#### - RestartScan [in]
+### -param RestartScan [in]
 
 Set to <b>TRUE</b> if 
       <b>ZwQueryEaFile</b> should begin the scan at the first 
@@ -186,11 +186,11 @@ The <i>EaList</i> parameter is not formatted correctly. This is an error code.
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
 <a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
 
 <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
  
 

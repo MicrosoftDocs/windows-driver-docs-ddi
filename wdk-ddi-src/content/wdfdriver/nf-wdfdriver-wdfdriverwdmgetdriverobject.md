@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9755557-6d5d-4ef0-b868-f05e5b82da78
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, WdfDriverWdmGetDriverObject method, WdfDriverWdmGetDriverObject, kmdf.wdfdriverwdmgetdriverobject, wdfdriver/WdfDriverWdmGetDriverObject, PFN_WDFDRIVERWDMGETDRIVEROBJECT, wdf.wdfdriverwdmgetdriverobject
+ms.keywords: WdfDriverWdmGetDriverObject method, wdfdriver/WdfDriverWdmGetDriverObject, PFN_WDFDRIVERWDMGETDRIVEROBJECT, DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, kmdf.wdfdriverwdmgetdriverobject, wdf.wdfdriverwdmgetdriverobject, WdfDriverWdmGetDriverObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PDRIVER_OBJECT WdfDriverWdmGetDriverObject(
 
 
 
-#### - Driver [in]
+### -param Driver [in]
 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 
@@ -92,11 +92,11 @@ The pointer that the <b>WdfDriverWdmGetDriverObject</b> method returns is valid 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
  
 

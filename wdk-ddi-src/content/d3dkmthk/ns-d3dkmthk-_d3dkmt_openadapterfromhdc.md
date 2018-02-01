@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: db425b8c-4abd-4998-89bb-f6d9f066a3f6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], display.d3dkmt_openadapterfromhdc, D3DKMT_OPENADAPTERFROMHDC, _D3DKMT_OPENADAPTERFROMHDC, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC
+ms.keywords: D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, _D3DKMT_OPENADAPTERFROMHDC, D3DKMT_OPENADAPTERFROMHDC, display.d3dkmt_openadapterfromhdc, OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_OPENADAPTERFROMHDC {
 
 
 
-#### - hDc
+### -field hDc
 
 [in] The HDC for the graphics adapter and monitor output that are retrieved.
 
 
-#### - hAdapter
+### -field hAdapter
 
 [out] A handle to the graphics adapter for the HDC that <b>hDc</b> specifies. The adapter handle is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromhdc.md">D3DKMTOpenAdapterFromHdc</a> function.
 
 
-#### - AdapterLuid
+### -field AdapterLuid
 
 [out] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter for the HDC that <b>hDc</b> specifies. The LUID is returned from the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromhdc.md">D3DKMTOpenAdapterFromHdc</a> call.
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [out] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the HDC that <b>hDc</b> specifies. The identification number is returned from the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromhdc.md">D3DKMTOpenAdapterFromHdc</a> call.
 

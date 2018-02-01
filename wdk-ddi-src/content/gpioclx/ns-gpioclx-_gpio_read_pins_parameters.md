@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: D04C836E-C440-4AB9-BB44-7D1E8E0F681D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_READ_PINS_PARAMETERS structure [Parallel Ports], *PGPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS structure pointer [Parallel Ports], PGPIO_READ_PINS_PARAMETERS, GPIO_READ_PINS_PARAMETERS, gpioclx/PGPIO_READ_PINS_PARAMETERS, _GPIO_READ_PINS_PARAMETERS, gpioclx/GPIO_READ_PINS_PARAMETERS, GPIO.gpio_read_pins_parameters
+ms.keywords: gpioclx/GPIO_READ_PINS_PARAMETERS, gpioclx/PGPIO_READ_PINS_PARAMETERS, *PGPIO_READ_PINS_PARAMETERS, GPIO.gpio_read_pins_parameters, GPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS, _GPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS structure pointer [Parallel Ports], GPIO_READ_PINS_PARAMETERS structure [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _GPIO_READ_PINS_PARAMETERS {
 
 
 
-#### - BankId
+### -field BankId
 
 The identifier for the bank of GPIO pins that contains the pins to read. If N is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to N–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
 
 
-#### - PinNumberTable
+### -field PinNumberTable
 
 A pointer to an array of bank-relative PIN_NUMBER values. Each array element specifies the number of a GPIO pin to read from. If this bank has N pins, the pins are numbered 0 to N–1. The number of elements in this array is specified by the <b>PinCount</b> member.
 
 
-#### - PinCount
+### -field PinCount
 
 The number of elements in the <b>PinNumberTable</b> array.
 
 
-#### - Buffer
+### -field Buffer
 
 A pointer to a buffer to hold the values that the GPIO controller driver reads from the GPIO pins that are specified by the <b>PinNumberTable</b> array. Array element 0 specifies the GPIO pin whose value is saved to bit 0 (the least significant bit) in the buffer, array element 1 specifies the GPIO pin whose value is saved to bit 1 in the buffer, and so on.
 
 
-#### - Flags
+### -field Flags
 
 A set of flags to control the GPIO pin read operation. If the <b>WriteConfiguredPins</b> flag bit is set, the GPIO controller driver can read from a GPIO pin that is configured for write operations.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
@@ -113,9 +113,9 @@ The <i>ReadParameters</i> parameter of the <a href="https://msdn.microsoft.com/l
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1af8dc98-9fee-4029-970f-462fdf80fdc9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwPrePrepareComplete, ZwPrePrepareComplete routine [Kernel-Mode Driver Architecture], ZwPrePrepareComplete, NtPrePrepareComplete, ktm_ref_f34acd5c-6983-4f8a-86ca-968dde152526.xml, kernel.zwprepreparecomplete, wdm/NtPrePrepareComplete
+ms.keywords: kernel.zwprepreparecomplete, ZwPrePrepareComplete routine [Kernel-Mode Driver Architecture], wdm/NtPrePrepareComplete, wdm/ZwPrePrepareComplete, ktm_ref_f34acd5c-6983-4f8a-86ca-968dde152526.xml, NtPrePrepareComplete, ZwPrePrepareComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwPrePrepareComplete(
 
 
 
-#### - EnlistmentHandle [in]
+### -param EnlistmentHandle [in]
 
 A handle to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SUBORDINATE_RIGHTS access to the object.
 
 
-#### - TmVirtualClock [in, optional]
+### -param TmVirtualClock [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
@@ -156,13 +156,13 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 <a href="..\wdm\nf-wdm-tmprepreparecomplete.md">TmPrePrepareComplete</a>
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
 <a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

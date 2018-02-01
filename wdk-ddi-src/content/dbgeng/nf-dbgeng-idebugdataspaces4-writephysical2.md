@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 15a83343-b95b-4f79-b4f2-ed2ad60d170e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method, debugger.writephysical2, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::WritePhysical2, WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical2 method [Windows Debugging]
+ms.keywords: IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::WritePhysical2, debugger.writephysical2, WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical2 method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT WritePhysical2(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the physical address of the memory to write the data to.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the properties of the physical memory to be written to.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
 <table>
@@ -127,17 +127,17 @@ The physical memory is write-combined.
 </table> 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Specifies the data to write.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in bytes, of the <i>Buffer</i> buffer.  This is the maximum number of bytes that will be written.
 
 
-#### - BytesWritten [out, optional]
+### -param BytesWritten [out, optional]
 
 Receives the number of bytes written to the target's memory.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a826782a-67ca-4b90-b7b5-caddeae6d2dc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbacks_createprocess, CreateProcess method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::CreateProcess, IDebugEventCallbacks, ComCallbacks_cd6a97b7-a041-419c-8e64-0aeb6fe7b0c8.xml, IDebugEventCallbacks interface [Windows Debugging], CreateProcess method, CreateProcess, CreateProcess method [Windows Debugging], dbgeng/IDebugEventCallbacks::CreateProcess
+ms.keywords: CreateProcess method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::CreateProcess, IDebugEventCallbacks::CreateProcess, CreateProcess method [Windows Debugging], IDebugEventCallbacks, ComCallbacks_cd6a97b7-a041-419c-8e64-0aeb6fe7b0c8.xml, CreateProcess, IDebugEventCallbacks interface [Windows Debugging], CreateProcess method, debugger.idebugeventcallbacks_createprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,57 +77,57 @@ HRESULT CreateProcess(
 
 
 
-#### - ImageFileHandle [in]
+### -param ImageFileHandle [in]
 
 Specifies the handle to the process's image file.    If this information is not available, <i>ImageFileHandle</i> will be <b>NULL</b>.  
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Specifies the handle to the process.  This parameter corresponds to the <b>hProcess</b> field in the CREATE_PROCESS_DEBUG_INFO structure.  If this information is not available, <i>ImageFileHandle</i> will be <b>NULL</b>.  
 
 
-#### - BaseOffset [in]
+### -param BaseOffset [in]
 
 Specifies the base address of the process's executable image in the target's memory address space.  If this information is not available, <i>BaseOffset</i> will be <b>NULL</b>.
 
 
-#### - ModuleSize [in]
+### -param ModuleSize [in]
 
 Specifies the process's executable image size in bytes.  If this information is not available, <i>ModuleSize</i> will be zero.
 
 
-#### - ModuleName [in, optional]
+### -param ModuleName [in, optional]
 
 Specifies the simplified module name that is used by the debugger engine.  In most cases, this matches the image file name excluding the extension.  If this information is not available, <i>ModuleName</i> will be <b>NULL</b>.
 
 
-#### - ImageName [in, optional]
+### -param ImageName [in, optional]
 
 Specifies the process's executable-image file name, which can include the path.   If this information is not available, <i>ImageName</i> will be <b>NULL</b>.
 
 
-#### - CheckSum [in]
+### -param CheckSum [in]
 
 Specifies the checksum of the process's executable image.  If this information is not available, <i>CheckSum</i> will be zero.
 
 
-#### - TimeDateStamp [in]
+### -param TimeDateStamp [in]
 
 Specifies the time and date stamp of the process's executable-image file.  If this information is not available, <i>TimeDateStamp</i> will be zero.
 
 
-#### - InitialThreadHandle [in]
+### -param InitialThreadHandle [in]
 
 Specifies the handle to the process's initial thread.  This parameter corresponds to the <b>hThread</b> field in the CREATE_PROCESS_DEBUG_INFO structure.  If this information is not available, <i>InitialThreadHandle</i> will be <b>NULL</b>. 
 
 
-#### - ThreadDataOffset [in]
+### -param ThreadDataOffset [in]
 
 Specifies a block of data that the operating system maintains for this thread.  The actual data in the block is operating system-specific.  If this information is not available, <i>ThreadDataOffset</i> will be <b>NULL</b>. 
 
 
-#### - StartOffset [in]
+### -param StartOffset [in]
 
 Specifies the starting address of the thread in the process's virtual address space.    If this information is not available, <i>StartOffset</i> will be <b>NULL</b>.
 

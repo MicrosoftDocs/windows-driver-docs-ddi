@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 49e27e24-d38a-4a22-a92f-33a384437250
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleByModuleName2Wide method [Windows Debugging], debugger.getmodulebymodulename2wide, GetModuleByModuleName2Wide, IDebugSymbols3::GetModuleByModuleName2Wide, dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2Wide method, IDebugSymbols3, GetModuleByModuleName2Wide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, GetModuleByModuleName2Wide, GetModuleByModuleName2Wide method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName2Wide method [Windows Debugging], IDebugSymbols3::GetModuleByModuleName2Wide, debugger.getmodulebymodulename2wide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2Wide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetModuleByModuleName2Wide(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 Specifies the name of the desired module.
 
 
-#### - StartIndex [in]
+### -param StartIndex [in]
 
 Specifies the index to start searching from.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bit-set containing options used when searching for the module with the specified name.  <i>Flags</i> may contain the following bit-flags:
 <table>
@@ -112,12 +112,12 @@ Do not search the unloaded modules.
 </table> 
 
 
-#### - Index [out, optional]
+### -param Index [out, optional]
 
 Receives the index of the first module with the name <i>Name</i>.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Base [out, optional]
+### -param Base [out, optional]
 
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 
@@ -168,9 +168,9 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547095">GetModuleByModuleName</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547095">GetModuleByModuleName</a>
 
  
 

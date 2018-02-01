@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e1763ae1-5583-43fe-a342-3b9b5a92ef3f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DSPR_ADDR, D3DSPR_CONSTINT, d3d9types/D3DSPR_ATTROUT, d3d9types/D3DSPR_CONST2, D3DSHADER_PARAM_REGISTER_TYPE enumeration [Display Devices], d3d9types/D3DSPR_COLOROUT, D3DSPR_MISCTYPE, d3d9types/D3DSPR_CONST4, d3d9types/D3DSPR_MISCTYPE, D3DSPR_TEMPFLOAT16, D3DSPR_OUTPUT, D3DSPR_LOOP, d3d9types/D3DSPR_TEXTURE, D3DSPR_DEPTHOUT, D3DSPR_LABEL, D3DSPR_COLOROUT, D3DSPR_CONST4, d3d9types/D3DSPR_LOOP, D3DSPR_RASTOUT, d3d9types/D3DSHADER_PARAM_REGISTER_TYPE, d3d9types/D3DSPR_OUTPUT, d3d9types/D3DSPR_TEMPFLOAT16, d3d9types/D3DSPR_CONST3, UserModeDisplayDriver_Shader_1968e381-80d3-44f2-a02d-7625ba93f95a.xml, D3DSPR_PREDICATE, D3DSPR_TEXCRDOUT, d3d9types/D3DSPR_PREDICATE, d3d9types/D3DSPR_INPUT, d3d9types/D3DSPR_ADDR, D3DSPR_SAMPLER, d3d9types/D3DSPR_FORCE_DWORD, d3d9types/D3DSPR_CONSTBOOL, D3DSPR_CONST2, D3DSPR_INPUT, d3d9types/D3DSPR_TEXCRDOUT, D3DSPR_CONST3, D3DSPR_TEXTURE, D3DSPR_FORCE_DWORD, D3DSPR_TEMP, d3d9types/D3DSPR_SAMPLER, d3d9types/D3DSPR_RASTOUT, D3DSPR_CONSTBOOL, D3DSHADER_PARAM_REGISTER_TYPE, d3d9types/D3DSPR_CONSTINT, D3DSPR_ATTROUT, d3d9types/D3DSPR_DEPTHOUT, _D3DSHADER_PARAM_REGISTER_TYPE, D3DSPR_CONST, d3d9types/D3DSPR_TEMP, d3d9types/ D3DSPR_CONST, d3d9types/D3DSPR_LABEL, display.shader_register_types
+ms.keywords: D3DSPR_MISCTYPE, D3DSPR_TEXCRDOUT, D3DSPR_CONST2, d3d9types/D3DSPR_MISCTYPE, D3DSPR_TEMPFLOAT16, d3d9types/D3DSPR_CONSTINT, d3d9types/D3DSPR_COLOROUT, d3d9types/D3DSPR_OUTPUT, d3d9types/D3DSPR_DEPTHOUT, d3d9types/D3DSPR_ATTROUT, d3d9types/D3DSPR_CONST3, D3DSPR_ADDR, d3d9types/D3DSPR_INPUT, d3d9types/D3DSPR_LOOP, D3DSPR_COLOROUT, D3DSPR_SAMPLER, D3DSPR_LABEL, _D3DSHADER_PARAM_REGISTER_TYPE, D3DSPR_ATTROUT, D3DSPR_CONST4, d3d9types/D3DSPR_TEXCRDOUT, D3DSPR_LOOP, D3DSPR_RASTOUT, d3d9types/D3DSPR_TEMPFLOAT16, d3d9types/D3DSPR_TEMP, d3d9types/D3DSPR_LABEL, UserModeDisplayDriver_Shader_1968e381-80d3-44f2-a02d-7625ba93f95a.xml, D3DSPR_OUTPUT, d3d9types/D3DSPR_ADDR, d3d9types/ D3DSPR_CONST, d3d9types/D3DSHADER_PARAM_REGISTER_TYPE, d3d9types/D3DSPR_FORCE_DWORD, D3DSPR_PREDICATE, D3DSPR_INPUT, d3d9types/D3DSPR_CONSTBOOL, D3DSPR_CONST3, D3DSPR_CONST, d3d9types/D3DSPR_TEXTURE, d3d9types/D3DSPR_RASTOUT, d3d9types/D3DSPR_SAMPLER, D3DSPR_FORCE_DWORD, D3DSHADER_PARAM_REGISTER_TYPE enumeration [Display Devices], d3d9types/D3DSPR_PREDICATE, D3DSPR_TEXTURE, d3d9types/D3DSPR_CONST2, D3DSHADER_PARAM_REGISTER_TYPE, D3DSPR_DEPTHOUT, D3DSPR_CONSTBOOL, display.shader_register_types, D3DSPR_CONSTINT, d3d9types/D3DSPR_CONST4, D3DSPR_TEMP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,117 +89,117 @@ typedef enum _D3DSHADER_PARAM_REGISTER_TYPE {
 
 
 
-#### - D3DSPR_TEMP
+### -field D3DSPR_TEMP
 
 Temporary register file.
 
 
-#### - D3DSPR_INPUT
+### -field D3DSPR_INPUT
 
 Input register file.
 
 
-#### - D3DSPR_CONST
+### -field D3DSPR_CONST
 
 For PS, constant register file  0 - 2047 (DEF instruction). For VS, reserved.
 
 
-#### - D3DSPR_ADDR
+### -field D3DSPR_ADDR
 
 Address register (VS).
 
 
-#### - D3DSPR_TEXTURE
+### -field D3DSPR_TEXTURE
 
 Texture register file (PS).
 
 
-#### - D3DSPR_RASTOUT
+### -field D3DSPR_RASTOUT
 
 For VS, rasterizer output register file.
 
 
-#### - D3DSPR_ATTROUT
+### -field D3DSPR_ATTROUT
 
 Attribute output register file.
 
 
-#### - D3DSPR_TEXCRDOUT
+### -field D3DSPR_TEXCRDOUT
 
 Texture coordinate output register file.
 
 
-#### - D3DSPR_OUTPUT
+### -field D3DSPR_OUTPUT
 
 For &amp;lt; VS 3_0, texture coordinate output register file. For &amp;gt;/= VS 3_0, output register file. For PS, reserved.
 
 
-#### - D3DSPR_CONSTINT
+### -field D3DSPR_CONSTINT
 
 Constant integer vector register file.
 
 
-#### - D3DSPR_COLOROUT
+### -field D3DSPR_COLOROUT
 
 Color output register file.
 
 
-#### - D3DSPR_DEPTHOUT
+### -field D3DSPR_DEPTHOUT
 
 Depth output register file.
 
 
-#### - D3DSPR_SAMPLER
+### -field D3DSPR_SAMPLER
 
 Sampler state register file.
 
 
-#### - D3DSPR_CONST2
+### -field D3DSPR_CONST2
 
 Constant register file  2048 - 4095.
 
 
-#### - D3DSPR_CONST3
+### -field D3DSPR_CONST3
 
 Constant register file  4096 - 6143.
 
 
-#### - D3DSPR_CONST4
+### -field D3DSPR_CONST4
 
 Constant register file  6144 - 8191.
 
 
-#### - D3DSPR_CONSTBOOL
+### -field D3DSPR_CONSTBOOL
 
 Constant Boolean register file.
 
 
-#### - D3DSPR_LOOP
+### -field D3DSPR_LOOP
 
 Loop counter register file.
 
 
-#### - D3DSPR_TEMPFLOAT16
+### -field D3DSPR_TEMPFLOAT16
 
 16-bit float temp register file.
 
 
-#### - D3DSPR_MISCTYPE
+### -field D3DSPR_MISCTYPE
 
 Miscellaneous (single) registers.
 
 
-#### - D3DSPR_LABEL
+### -field D3DSPR_LABEL
 
 Label.
 
 
-#### - D3DSPR_PREDICATE
+### -field D3DSPR_PREDICATE
 
 Predicate register.
 
 
-#### - D3DSPR_FORCE_DWORD
+### -field D3DSPR_FORCE_DWORD
 
 Force 32-bit size enumeration.
 

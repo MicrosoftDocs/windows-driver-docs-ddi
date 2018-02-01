@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15D6A09F-2AEC-431F-91F4-D1571DB56E81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObCloseHandle routine [Kernel-Mode Driver Architecture], ObCloseHandle, kernel.obclosehandle, wdm/ObCloseHandle
+ms.keywords: ObCloseHandle, wdm/ObCloseHandle, kernel.obclosehandle, ObCloseHandle routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS ObCloseHandle(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle to a system-supplied object of any type.
 
 
-#### - PreviousMode [in]
+### -param PreviousMode [in]
 
 Specifies the previous processor mode of the thread that opened the handle. To close a <a href="https://msdn.microsoft.com/4015d7bd-48f6-489b-a0e5-eca83758c5bb">kernel handle</a>, set this parameter to <b>KernelMode</b>. To close a <i>user handle</i>, set this parameter to <b>UserMode</b>. For more information about these two handle types, see Remarks.
 
@@ -157,11 +157,11 @@ NTSTATUS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
 <a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

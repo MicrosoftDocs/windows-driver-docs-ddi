@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 31F291ED-0B04-4CDF-A83B-7CF3717EC234
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter method [Audio Devices], portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelPeakMeter method, GetDeviceChannelPeakMeter method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getdevicechannelpeakmeter, GetDeviceChannelPeakMeter
+ms.keywords: audio.iminiportaudioenginenode_getdevicechannelpeakmeter, GetDeviceChannelPeakMeter method [Audio Devices], GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelPeakMeter method, IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS GetDeviceChannelPeakMeter(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-#### - ulChannel [in]
+### -param ulChannel [in]
 
 The audio device channel.
 
 
-#### - plPeakMeter [out]
+### -param plPeakMeter [out]
 
 The PeakMeter value for the audio device channel.
 

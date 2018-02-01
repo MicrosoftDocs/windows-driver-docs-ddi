@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: efb49852-3c0a-4dab-9d50-c103ba4a136b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMPIO_PATH_HEALTH_INFO structure pointer [Storage Devices], MPIO_PATH_HEALTH_INFO structure [Storage Devices], mpiowmi/MPIO_PATH_HEALTH_INFO, structs-scsibus_482617c5-3ed9-4a17-ab14-15fc65057062.xml, mpiowmi/PMPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO, PMPIO_PATH_HEALTH_INFO, _MPIO_PATH_HEALTH_INFO, storage.mpio_path_health_info
+ms.keywords: mpiowmi/PMPIO_PATH_HEALTH_INFO, _MPIO_PATH_HEALTH_INFO, mpiowmi/MPIO_PATH_HEALTH_INFO, PMPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO, storage.mpio_path_health_info, structs-scsibus_482617c5-3ed9-4a17-ab14-15fc65057062.xml, *PMPIO_PATH_HEALTH_INFO, PMPIO_PATH_HEALTH_INFO structure pointer [Storage Devices], MPIO_PATH_HEALTH_INFO structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MPIO_PATH_HEALTH_INFO {
 
 
 
-#### - NumberPathPackets
+### -field NumberPathPackets
 
 An unsigned 32-bitfield that returns the number of health packets available that correspond to the number of available paths under MPIO control.
 
 
-#### - Reserved
+### -field Reserved
 
 Should be zero.
 
 
-#### - PathHealthPackets
+### -field PathHealthPackets
 
 A field that contains an array with health information about all the available paths under MPIO control. The number of elements of the array is given by NumberPathPackets and each element of the array is an instance of the MPIO_PATH_HEALTH_CLASS structure.
 

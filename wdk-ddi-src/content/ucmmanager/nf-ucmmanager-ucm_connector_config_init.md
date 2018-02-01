@@ -69,12 +69,12 @@ FORCEINLINE void UCM_CONNECTOR_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a> structure to initialize.
 
 
-#### - ConnectorId [in]
+### -param ConnectorId [in]
 
 The identifier to assign to the connector object. If there is only one connector, pass 0.
 

@@ -77,14 +77,14 @@ VOID ProtocolOidRequestComplete(
 
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      per-binding run-time state. The driver supplied this handle when it called the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-#### - OidRequest [in]
+### -param OidRequest [in]
 
 A pointer to the protocol driver-supplied 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that was
@@ -92,7 +92,7 @@ A pointer to the protocol driver-supplied
      <b>NdisOidRequest</b> function.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The final status of the request. The underlying driver or NDIS determines this final status. This
      parameter determines what 
@@ -132,8 +132,8 @@ If the protocol driver made a query,
       <b>Oid</b> member.
 
 For example, if the protocol driver originally initiated an 
-      <mshelp:link keywords="netvista.oid_gen_maximum_send_packets" tabindex="0">
-      OID_GEN_MAXIMUM_SEND_PACKETS</mshelp:link> query, 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">
+      OID_GEN_MAXIMUM_SEND_PACKETS</a> query, 
       <i>ProtocolOidRequestComplete</i> might set up state variables in the 
       <i>ProtocolBindingContext</i> area to throttle the number of outstanding sends the
       driver will set up for subsequent calls to the 
@@ -232,13 +232,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
+
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
 

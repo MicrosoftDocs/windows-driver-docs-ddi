@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 521928f8-6434-443a-83f0-7e8e00c756b5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidport/HidRegisterMinidriver, hid.hidregisterminidriver, HidRegisterMinidriver routine [Human Input Devices], hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, HidRegisterMinidriver
+ms.keywords: hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hid.hidregisterminidriver, HidRegisterMinidriver routine [Human Input Devices], hidport/HidRegisterMinidriver, HidRegisterMinidriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS HidRegisterMinidriver(
 
 
 
-#### - MinidriverRegistration [in]
+### -param MinidriverRegistration [in]
 
 Pointer to a caller-allocated buffer that contains an initialized <a href="..\hidport\ns-hidport-_hid_minidriver_registration.md">HID_MINIDRIVER_REGISTRATION</a> structure for the minidriver.
 

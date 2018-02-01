@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a551f469-96f4-42cf-826d-3557cc13ce29
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILUICCAPPDATACHANGE, ntddrilapitypes/RILUICCAPPDATACHANGE, netvista.riluiccappdatachange, RILUICCAPPDATACHANGE structure [Network Drivers Starting with Windows Vista], RILUICCAPPDATACHANGE"
+ms.keywords: ntddrilapitypes/RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE structure [Network Drivers Starting with Windows Vista], *LPRILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE, netvista.riluiccappdatachange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILUICCAPPDATACHANGE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - hUiccApp
+### -field hUiccApp
 
 
 
-#### - dwDataChange
+### -field dwDataChange
 
 

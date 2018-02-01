@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointNoPingResponseError, ucxendpoint/UcxEndpointNoPingResponseError, buses._ucxendpointnopingresponseerror, UcxEndpointNoPingResponseError method [Buses]
+ms.keywords: buses._ucxendpointnopingresponseerror, UcxEndpointNoPingResponseError method [Buses], UcxEndpointNoPingResponseError, ucxendpoint/UcxEndpointNoPingResponseError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ void UcxEndpointNoPingResponseError(
 
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
 

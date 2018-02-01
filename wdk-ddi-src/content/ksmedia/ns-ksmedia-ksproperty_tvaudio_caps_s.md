@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 991208ee-d245-41d1-a5e6-0e79368e37a8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_tvaudio_caps_s, ksmedia/KSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S structure [Streaming Media Devices], vidcapstruct_dd4243d2-9778-4dae-99e2-0d32a73ab0d4.xml, PKSPROPERTY_TVAUDIO_CAPS_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_TVAUDIO_CAPS_S, *PKSPROPERTY_TVAUDIO_CAPS_S, PKSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S
+ms.keywords: ksmedia/PKSPROPERTY_TVAUDIO_CAPS_S, PKSPROPERTY_TVAUDIO_CAPS_S structure pointer [Streaming Media Devices], *PKSPROPERTY_TVAUDIO_CAPS_S, stream.ksproperty_tvaudio_caps_s, PKSPROPERTY_TVAUDIO_CAPS_S, ksmedia/KSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S, vidcapstruct_dd4243d2-9778-4dae-99e2-0d32a73ab0d4.xml, KSPROPERTY_TVAUDIO_CAPS_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-#### - Capabilities
+### -field Capabilities
 
 Specifies the capabilities of the TV audio device. The minidriver returns the capabilities of the TV audio device by setting this member to one or more (logically ORed) values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -136,23 +136,23 @@ Indicates the device supports a third language.
 </table> 
 
 
-#### - InputMedium
+### -field InputMedium
 
 Reserved for system use.
 
 
-#### - OutputMedium
+### -field OutputMedium
 
 Reserved for system use.
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565933">KSPROPERTY_TVAUDIO_CAPS</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
 
  
 

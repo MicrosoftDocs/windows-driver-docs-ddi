@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d4ac375-ede9-406e-bac0-9caa2273c91a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_setbindingsupport, HBA_SetBindingSupport routine [Storage Devices], fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, hbaapi/HBA_SetBindingSupport, HBA_SetBindingSupport
+ms.keywords: hbaapi/HBA_SetBindingSupport, HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices], storage.hba_setbindingsupport, fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ HBA_STATUS HBA_API HBA_SetBindingSupport(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port referenced by <i>HbaPortWWN </i>is located. 
 
 
-#### - HbaPortWWN [in]
+### -param HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the port for which the binding capabilities specified by <i>Flags </i>are enabled. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Contains a bitwise OR of a set of flags that indicate the capabilities to enable on the port referenced by <i>HbaPortWWN</i>. For a description of the flags, see the corresponding values associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a> WMI property qualifier.
 
@@ -154,9 +154,9 @@ Returned if an unspecified error occurred that prevented the routine from enabli
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

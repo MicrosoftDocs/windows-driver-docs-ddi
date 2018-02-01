@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32cc50bc-a93b-43ec-98c7-bfaaebbe6c28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionGetBytesTransferred method, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred, PFN_WDFDMATRANSACTIONGETBYTESTRANSFERRED, DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, kmdf.wdfdmatransactiongetbytestransferred, wdf.wdfdmatransactiongetbytestransferred, WdfDmaTransactionGetBytesTransferred
+ms.keywords: wdfdmatransaction/WdfDmaTransactionGetBytesTransferred, PFN_WDFDMATRANSACTIONGETBYTESTRANSFERRED, WdfDmaTransactionGetBytesTransferred, DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred method, kmdf.wdfdmatransactiongetbytestransferred, wdf.wdfdmatransactiongetbytestransferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ size_t WdfDmaTransactionGetBytesTransferred(
 
 
 
-#### - DmaTransaction [in]
+### -param DmaTransaction [in]
 
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 
@@ -96,13 +96,13 @@ Framework-based drivers typically call <b>WdfDmaTransactionGetBytesTransferred</
 
 ## -see-also
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
  
 

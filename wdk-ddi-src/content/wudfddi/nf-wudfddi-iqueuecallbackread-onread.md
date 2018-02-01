@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e11a823d-0b08-42fd-b093-4c464c152afe
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iqueuecallbackread_onread, OnRead method, IQueueCallbackRead interface, OnRead method, OnRead, wdf.iqueuecallbackread_onread, IQueueCallbackRead::OnRead, IQueueCallbackRead, wudfddi/IQueueCallbackRead::OnRead, OnRead method, IQueueCallbackRead interface, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml
+ms.keywords: OnRead method, IQueueCallbackRead interface, IQueueCallbackRead, wudfddi/IQueueCallbackRead::OnRead, IQueueCallbackRead::OnRead, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml, IQueueCallbackRead interface, OnRead method, OnRead method, umdf.iqueuecallbackread_onread, wdf.iqueuecallbackread_onread, OnRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ void  OnRead(
 
 
 
-#### - pWdfQueue [in]
+### -param pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from. 
 
 
-#### - pWdfRequest [in]
+### -param pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object. 
 
 
-#### - NumOfBytesToRead [in]
+### -param NumOfBytesToRead [in]
 
 The size, in bytes, of the read buffer for the request.
 
@@ -109,15 +109,15 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackread.md">IQueueCallbackRead</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackread.md">IQueueCallbackRead</a>
 
  
 

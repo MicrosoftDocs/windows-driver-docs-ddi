@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b41fc37a-d41f-49ca-848f-844e049dd987
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfinterruptsynchronize, kmdf.wdfinterruptsynchronize, PFN_WDFINTERRUPTSYNCHRONIZE, WdfInterruptSynchronize, wdfinterrupt/WdfInterruptSynchronize, WdfInterruptSynchronize method, DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml
+ms.keywords: DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, PFN_WDFINTERRUPTSYNCHRONIZE, wdfinterrupt/WdfInterruptSynchronize, WdfInterruptSynchronize, kmdf.wdfinterruptsynchronize, WdfInterruptSynchronize method, wdf.wdfinterruptsynchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,17 +77,17 @@ BOOLEAN WdfInterruptSynchronize(
 
 
 
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
-#### - Callback [in]
+### -param Callback [in]
 
 A pointer to an <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a> callback function.
 
 
-#### - Context [in]
+### -param Context [in]
 
 An untyped pointer to driver-supplied information that the framework passes to the <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a> callback function.
 
@@ -124,11 +124,11 @@ Do not call <b>WdfInterruptSynchronize</b> from an arbitrary thread context,  su
 
 ## -see-also
 
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
-
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ufxfdoinit, UfxFdoInit method [Buses], ufxclient/UfxFdoInit, UfxFdoInit
+ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS UfxFdoInit(
 
 
 
-#### - WdfDriver [in]
+### -param WdfDriver [in]
 
 A handle to the driver's WDF driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 
 
-#### - DeviceInit [in, out]
+### -param DeviceInit [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - FdoAttributes [in, out]
+### -param FdoAttributes [in, out]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the 
 

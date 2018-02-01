@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6db90186-a663-4710-8209-abd5ef2b361a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortReadRegisterBufferUshort, scsiprt_f6e36a20-066b-4b3e-bf94-9182e84dc2eb.xml, ScsiPortReadRegisterBufferUshort, ScsiPortReadRegisterBufferUshort routine [Storage Devices], storage.scsiportreadregisterbufferushort
+ms.keywords: scsiprt_f6e36a20-066b-4b3e-bf94-9182e84dc2eb.xml, storage.scsiportreadregisterbufferushort, srb/ScsiPortReadRegisterBufferUshort, ScsiPortReadRegisterBufferUshort routine [Storage Devices], ScsiPortReadRegisterBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortReadRegisterBufferUshort(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to the buffer.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of USHORT values to be read from the HBA.
 

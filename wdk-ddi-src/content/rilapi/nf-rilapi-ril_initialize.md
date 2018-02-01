@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7287281b-8c7b-4842-b312-1fff130a5de6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_initialize, rilapi/RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], RIL_Initialize
+ms.keywords: rilapi/RIL_Initialize, netvista.ril_initialize, RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,35 +77,35 @@ HRESULT  RIL_Initialize(
 
 
 
-#### - dwIndex
+### -param dwIndex
 
 
 
-#### - pfnResult
+### -param pfnResult
 
 
 
-#### - pfnNotify
+### -param pfnNotify
 
 
 
-#### - lpdwNotifications
+### -param lpdwNotifications
 
 
 
-#### - dwNotificationCount
+### -param dwNotificationCount
 
 
 
-#### - lpParam
+### -param lpParam
 
 
 
-#### - pwszClientName
+### -param pwszClientName
 
 
 
-#### - lphRil
+### -param lphRil
 
 
 

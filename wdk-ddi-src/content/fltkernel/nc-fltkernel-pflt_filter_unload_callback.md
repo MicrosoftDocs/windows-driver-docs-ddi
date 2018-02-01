@@ -70,7 +70,7 @@ NTSTATUS FilterUnloadCallback(
 
 
 
-#### - Flags
+### -param Flags
 
 Bitmask of flags describing the unload request. This parameter can be <b>NULL</b> or the following: 
 <table>
@@ -132,9 +132,9 @@ If the FLTFL_FILTER_UNLOAD_MANDATORY flag is set in the <i>Flags</i> parameter, 
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
  
 

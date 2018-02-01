@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b271e095-1ac5-4795-82b0-954a17df334a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionRelease method, DFDmaObjectRef_24ae3a95-d8b5-4a41-874a-ef537ed4c4cd.xml, wdfdmatransaction/WdfDmaTransactionRelease, kmdf.wdfdmatransactionrelease, WdfDmaTransactionRelease, PFN_WDFDMATRANSACTIONRELEASE, wdf.wdfdmatransactionrelease
+ms.keywords: wdfdmatransaction/WdfDmaTransactionRelease, DFDmaObjectRef_24ae3a95-d8b5-4a41-874a-ef537ed4c4cd.xml, PFN_WDFDMATRANSACTIONRELEASE, wdf.wdfdmatransactionrelease, WdfDmaTransactionRelease, WdfDmaTransactionRelease method, kmdf.wdfdmatransactionrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS WdfDmaTransactionRelease(
 
 
 
-#### - DmaTransaction [in]
+### -param DmaTransaction [in]
 
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 

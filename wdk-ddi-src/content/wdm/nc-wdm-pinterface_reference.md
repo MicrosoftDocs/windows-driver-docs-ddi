@@ -71,7 +71,7 @@ VOID InterfaceReference(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure for the interface.
 
@@ -94,9 +94,9 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 

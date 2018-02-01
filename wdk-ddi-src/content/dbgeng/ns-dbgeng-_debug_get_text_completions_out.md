@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09F3A720-C039-4C8D-84A4-8AF071E1FFB0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "*PDEBUG_GET_TEXT_COMPLETIONS_OUT, PDEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, _DEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, debugger.debug_get_text_completions_out, DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL, DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND, PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_OUT"
+ms.keywords: "*PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], debugger.debug_get_text_completions_out, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT, _DEBUG_GET_TEXT_COMPLETIONS_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DEBUG_GET_TEXT_COMPLETIONS_OUT {
 
 
 
-#### - Flags
+### -field Flags
 
 Flags. Valid flag values include the following:
 <table>
@@ -115,22 +115,22 @@ Is symbol.
 </table> 
 
 
-#### - ReplaceIndex
+### -field ReplaceIndex
 
 The index of the replace location.
 
 
-#### - MatchCount
+### -field MatchCount
 
 Count value of matches.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 47b0b1da-e29b-45cc-921b-69d630670b44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmnotifycloseaddressfamily, NdisMCmNotifyCloseAddressFamily macro [Network Drivers Starting with Windows Vista], NdisMCmNotifyCloseAddressFamily, ndis/NdisMCmNotifyCloseAddressFamily, condis_mcm_ref_448486f3-1eeb-4f45-b764-6fd4ab06b63e.xml
+ms.keywords: ndis/NdisMCmNotifyCloseAddressFamily, condis_mcm_ref_448486f3-1eeb-4f45-b764-6fd4ab06b63e.xml, NdisMCmNotifyCloseAddressFamily, NdisMCmNotifyCloseAddressFamily macro [Network Drivers Starting with Windows Vista], netvista.ndismcmnotifycloseaddressfamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -87,41 +87,41 @@ A handle that identifies the AF that NDIS should close. NDIS supplied this handl
 
 
 MCMs, which register as NDIS miniport drivers by calling the 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link> function, can call the 
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a> function, can call the 
     <b>NdisMCmNotifyCloseAddressFamily</b> function. Stand-alone call managers instead call the 
-    <mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
-    NdisCmNotifyCloseAddressFamily</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+    NdisCmNotifyCloseAddressFamily</a> function.
 
 To close an AF for a miniport adapter, the MCM should call 
     <b>NdisMCmNotifyCloseAddressFamily</b> from its 
     <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. NDIS
     subsequently calls the 
-    <mshelp:link keywords="netvista.protocolclnotifycloseaf" tabindex="0"><i>
-    ProtocolClNotifyCloseAf</i></mshelp:link> function of the client that has the specified AF open.
+    <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">
+    ProtocolClNotifyCloseAf</a> function of the client that has the specified AF open.
 
 If 
     <b>NdisMCmNotifyCloseAddressFamily</b> returns NDIS_STATUS_PENDING, NDIS calls the MCM's 
-    <mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-    ProtocolCmNotifyCloseAfComplete</i></mshelp:link> function after the client completes the AF close operation.
+    <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+    ProtocolCmNotifyCloseAfComplete</a> function after the client completes the AF close operation.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+<a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+   NdisCmNotifyCloseAddressFamily</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
-   NdisCmNotifyCloseAddressFamily</b></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+   ProtocolCmNotifyCloseAfComplete</a>
 
-<mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-   ProtocolCmNotifyCloseAfComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlIsPartialPlaceholderFileInfo, ifsk.rtlispartialplaceholderfileinfo, RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers]
+ms.keywords: RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfileinfo, RtlIsPartialPlaceholderFileInfo, ntifs/RtlIsPartialPlaceholderFileInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,19 +70,19 @@ NTSTATUS RtlIsPartialPlaceholderFileInfo(
 
 
 
-#### - InfoBuffer [in]
+### -param InfoBuffer [in]
 
 Specifies a pointer to a caller-allocated buffer which contains information about the file object. If this is from a call
         to <b>NtQueryDirectoryFile</b>, this may point to the first or any subsequent
         subsequent entry in the buffer (found by walking the buffer).
 
 
-#### - InfoClass [in]
+### -param InfoClass [in]
 
  Specifies which File Information class to use to query InfoBuffer.
 
 
-#### - IsPartialPlaceholder [out]
+### -param IsPartialPlaceholder [out]
 
 <b>IsPartialPlaceholder</b> is a pointer to a boolean which returns <b>TRUE</b> if the file or directory is a placeholder. It  returns <b>FALSE</b> if either the
         file or directory is not a placeholder or is a full placeholder. Returns undefined on failure.

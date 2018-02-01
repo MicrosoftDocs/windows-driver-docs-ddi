@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a21be482-7640-4e72-a8af-00bb10216fa8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], FindSourceFileWide method, FindSourceFileWide method [Windows Debugging], FindSourceFileWide, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, FindSourceFileWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.findsourcefilewide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], FindSourceFileWide method, FindSourceFileWide method [Windows Debugging], IDebugSymbols3 interface, FindSourceFileWide, FindSourceFileWide method [Windows Debugging], dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide, IDebugSymbols3, IDebugSymbols3::FindSourceFileWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,41 +73,41 @@ HRESULT FindSourceFileWide(
 
 
 
-#### - StartElement [in]
+### -param StartElement [in]
 
 Specifies the index of an element within the source path to start searching from.  All elements in the source path before <i>StartElement</i> are excluded from the search.  The index of the first element is zero.  If <i>StartElement</i> is greater than or equal to the number of elements in the source path, the filing system is checked directly.
 
 This parameter can be used with <i>FoundElement</i> to check for multiple matches in the source path.
 
 
-#### - File [in]
+### -param File [in]
 
 Specifies the path and file name of the file to search for.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the search flags. For a description of these flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>.
 
 The flag DEBUG_FIND_SOURCE_TOKEN_LOOKUP should not be set.  The flag DEBUG_FIND_SOURCE_NO_SRCSRV is ignored because this method does not include source servers in the search.
 
 
-#### - FoundElement [out, optional]
+### -param FoundElement [out, optional]
 
 Receives the index of the element within the source path that contains the file.  If the file was found directly on the filing system (not using the source path) then <b>-1</b> is returned to <i>FoundElement</i>.  If <i>FoundElement</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the path and name of the found file.  If the flag DEBUG_FIND_SOURCE_FULL_PATH is set, this is the full canonical path name for the file.  Otherwise, it is the concatenation of the directory in the source path with the tail of <i>File</i> that was used to find the file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - FoundSize [out, optional]
+### -param FoundSize [out, optional]
 
 Specifies the size, in characters, of the name of the file.  If <i>FoundSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -174,15 +174,15 @@ The first match found is returned.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 38612533-DC8A-4D46-9C95-9F16BD9C27AB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS, NDIS_PD_OPEN_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_pd_open_provider_parameters, _NDIS_PD_OPEN_PROVIDER_PARAMETERS, NDIS_PD_OPEN_PROVIDER_PARAMETERS
+ms.keywords: "_NDIS_PD_OPEN_PROVIDER_PARAMETERS, netvista.ndis_pd_open_provider_parameters, NDIS_PD_OPEN_PROVIDER_PARAMETERS, ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS, NDIS_PD_OPEN_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_PD_OPEN_PROVIDER_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_OPEN_PROVIDER_PARAMETERS</b> structure. Set the members of this structure as follows:
 <ul>
@@ -79,17 +79,17 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_OPEN_PROVIDER_PARAMETERS_REVISION_1</b></li>
 </ul>
 
-#### - Flags
+### -field Flags
 
 This member is reserved and must be 0.
 
 
-#### - ProviderHandle
+### -field ProviderHandle
 
 A provider handle that identifies the PD-capable miniport driver's provider object.
 
 
-#### - ProviderDispatch
+### -field ProviderDispatch
 
 See <a href="..\ndis\ns-ndis-_ndis_pd_provider_dispatch.md">NDIS_PD_PROVIDER_DISPATCH</a>.
 

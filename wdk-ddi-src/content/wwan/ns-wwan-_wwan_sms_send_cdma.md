@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e05b7391-7852-45c7-aed0-36c95b4e475b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SMS_SEND_CDMA, _WWAN_SMS_SEND_CDMA, wwan/PWWAN_SMS_SEND_CDMA, WwanRef_0b4ec978-8685-46a6-b1dd-556606660614.xml, WWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_sms_send_cdma, wwan/WWAN_SMS_SEND_CDMA, *PWWAN_SMS_SEND_CDMA, WWAN_SMS_SEND_CDMA structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.wwan_sms_send_cdma, WwanRef_0b4ec978-8685-46a6-b1dd-556606660614.xml, WWAN_SMS_SEND_CDMA structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_SEND_CDMA structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SMS_SEND_CDMA, *PWWAN_SMS_SEND_CDMA, wwan/WWAN_SMS_SEND_CDMA, wwan/PWWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA, WWAN_SMS_SEND_CDMA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,20 +73,20 @@ typedef struct _WWAN_SMS_SEND_CDMA {
 
 
 
-#### - EncodingId
+### -field EncodingId
 
 The encoding that is used in the CDMA message. 
      <b>EncodedMsg</b> message should be interpreted based on the value of this member.
 
 
-#### - LanguageId
+### -field LanguageId
 
 The language used in CDMA message. This is an indicator of the language used in SMS message and
      may be set to 
      <b>WwanSmsCdmaLangUnknown</b>, if the language is not known.
 
 
-#### - Address
+### -field Address
 
 A NULL-terminated string with a maximum length of 15 digits that represents a mobile number. The
      number can be in any of the following formats:
@@ -110,14 +110,14 @@ A NULL-terminated string with a maximum length of 15 digits that represents a mo
      <i>WwanMsgStatusOld</i>, miniport drivers should specify the sender's mobile number.
 
 
-#### - SizeInBytes
+### -field SizeInBytes
 
 The size, in bytes, of 
      <b>EncodedMsg</b> . The encoded message can have a maximum length of WWAN_SMS_CDMA_MAX_BUF_LEN. Miniport
      drivers must specify a value for this member for all encoding types.
 
 
-#### - SizeInCharacters
+### -field SizeInCharacters
 
 Size of 
      <b>EncodedMsg</b> in number of characters represented by the encoded data. Miniport drivers should
@@ -127,18 +127,18 @@ Size of
      <i>WwanSmsCdmaEncodingKorean</i>.
 
 
-#### - EncodedMsg
+### -field EncodedMsg
 
 The encoded content that represents the CDMA-based SMS text message.
 
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
 <a href="..\wwan\ne-wwan-_wwan_sms_cdma_lang.md">WWAN_SMS_CDMA_LANG</a>
 
 <a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
-
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
  
 

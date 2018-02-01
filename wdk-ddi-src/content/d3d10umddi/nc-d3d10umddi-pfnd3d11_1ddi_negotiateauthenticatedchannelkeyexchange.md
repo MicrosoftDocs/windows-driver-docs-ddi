@@ -75,33 +75,28 @@ HRESULT APIENTRY* pfnNegotiateAuthenticatedChannelKeyExchange(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCAuthChannel [in]
+### -param hCAuthChannel [in]
 
 A handle to an authenticated channel object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
 
 
 
-#### - DataSize [in]
+### -param DataSize [in]
 
 The size, in bytes, of the data in the <i>pData</i> array.
 
 
 
 
-#### - *pData [in]
-
-A pointer to a byte array that contains the encrypted session key.
-
-
-#### - pData [in]
+### -param *pData [in]
 
 A pointer to a byte array that contains the encrypted session key.
 

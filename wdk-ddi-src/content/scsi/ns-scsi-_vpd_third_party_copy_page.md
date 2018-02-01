@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E8D9E05C-26C3-474C-854F-9AD12C8834DF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: VPD_THIRD_PARTY_COPY_PAGE structure [Storage Devices], scsi/VPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE structure pointer [Storage Devices], _VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE, scsi/PVPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE, storage.vpd_third_party_copy_page, PVPD_THIRD_PARTY_COPY_PAGE
+ms.keywords: scsi/VPD_THIRD_PARTY_COPY_PAGE, storage.vpd_third_party_copy_page, _VPD_THIRD_PARTY_COPY_PAGE, scsi/PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE structure pointer [Storage Devices], *PVPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE structure [Storage Devices], PVPD_THIRD_PARTY_COPY_PAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _VPD_THIRD_PARTY_COPY_PAGE {
 
 
 
-#### - DeviceType
+### -field DeviceType
 
 The device type. This is the same device type defined for use in the inquiry data for the storage device.
 
 
-#### - DeviceTypeQualifier
+### -field DeviceTypeQualifier
 
 A qualifier code for the device. Currently, <b>DEVICE_CONNECTED</b>, is the only valid value.
 
 
-#### - PageCode
+### -field PageCode
 
 The page code for the VPD third party copy page. This page code is defined as 0x8f.
 
 
-#### - PageLength
+### -field PageLength
 
 The length, in bytes, of the VPD page. For offload data transfer on Windows, <b>PageLength</b> must be &gt;= 0x24.
 
 
-#### - ThirdPartyCopyDescriptors
+### -field ThirdPartyCopyDescriptors
 
 Support descriptors for copy operations. On Windows systems, <b>ThirdPartyCopyDescriptors</b>  will contain one descriptor formatted as a <a href="..\scsi\ns-scsi-_windows_block_device_token_limits_descriptor.md">WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR</a> structure.
 

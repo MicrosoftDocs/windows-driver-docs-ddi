@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 754CD1DD-88E6-4E02-8E24-1939222FE326
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_ERRORINFO, gnssdriver/GNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], sensors.gnss_errorinfo, gnssdriver/PGNSS_ERRORINFO, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], *PGNSS_ERRORINFO
+ms.keywords: gnssdriver/PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], sensors.gnss_errorinfo, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, gnssdriver/GNSS_ERRORINFO, *PGNSS_ERRORINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - ErrorCode
+### -field ErrorCode
 
 Win32 Error Code associated with the event.
 
@@ -90,7 +90,7 @@ The IHV can pick the error that is most similar to what needs to be reported (fo
 
 
 
-#### - IsRecoverable
+### -field IsRecoverable
 
 If FALSE, the GNSS adapter needs to reset it’s state with the GNSS driver.
 

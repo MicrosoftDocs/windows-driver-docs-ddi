@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e1d31fdd-de4f-4e57-a8e8-0468ab4242f8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetDeviceAttachmentBaseRef, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers], ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, ifsk.iogetdeviceattachmentbaseref, ntifs/IoGetDeviceAttachmentBaseRef
+ms.keywords: IoGetDeviceAttachmentBaseRef, ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, ntifs/IoGetDeviceAttachmentBaseRef, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers], ifsk.iogetdeviceattachmentbaseref
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PDEVICE_OBJECT IoGetDeviceAttachmentBaseRef(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to a device object in the stack.
 
@@ -90,17 +90,17 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\ntifs\nf-ntifs-ioenumeratedeviceobjectlist.md">IoEnumerateDeviceObjectList</a>
-
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+<a href="..\ntifs\nf-ntifs-obquerynamestring.md">ObQueryNameString</a>
 
 <a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
 
-<a href="..\ntifs\nf-ntifs-obquerynamestring.md">ObQueryNameString</a>
+<a href="..\ntifs\nf-ntifs-ioenumeratedeviceobjectlist.md">IoEnumerateDeviceObjectList</a>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

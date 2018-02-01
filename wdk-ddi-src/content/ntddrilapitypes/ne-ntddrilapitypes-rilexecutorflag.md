@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b388a5d9-3549-472d-8ebe-b618751626ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], netvista.rilexecutorflag, RIL_EXECUTORFLAG_ALL, RILEXECUTORFLAG, RIL_EXECUTORFLAG_HIGHPRIORITY, ntddrilapitypes/RILEXECUTORFLAG
+ms.keywords: netvista.rilexecutorflag, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY, ntddrilapitypes/RILEXECUTORFLAG, RILEXECUTORFLAG, RIL_EXECUTORFLAG_HIGHPRIORITY, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, RIL_EXECUTORFLAG_ALL, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,10 +72,10 @@ typedef enum _RILEXECUTORFLAG {
 
 
 
-#### - RIL_EXECUTORFLAG_HIGHPRIORITY
+### -field RIL_EXECUTORFLAG_HIGHPRIORITY
 
 
 
-#### - RIL_EXECUTORFLAG_ALL
+### -field RIL_EXECUTORFLAG_ALL
 
 

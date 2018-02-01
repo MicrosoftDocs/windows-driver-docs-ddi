@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4742F6DD-F7D6-4EF4-877B-C02630018C8E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols3_getsourceentrystring, dbgeng/IDebugSymbols3::GetSourceEntryString, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method, GetSourceEntryString, GetSourceEntryString method [Windows Debugging], IDebugSymbols3, IDebugSymbols3::GetSourceEntryString, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols3::GetSourceEntryString, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceEntryString, GetSourceEntryString method [Windows Debugging], GetSourceEntryString, debugger.idebugsymbols3_getsourceentrystring, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetSourceEntryString(
 
 
 
-#### - Entry [in]
+### -param Entry [in]
 
 An entry as a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
 
 
-#### - Which [in]
+### -param Which [in]
 
 A value that determines which types to return.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a string buffer for the results.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size of the buffer.
 
 
-#### - StringSize [out, optional]
+### -param StringSize [out, optional]
 
 Pointer to the size of the string. 
 

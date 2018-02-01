@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml, ntifs/RtlCaptureStackBackTrace, ifsk.rtlcapturestackbacktrace, RtlCaptureStackBackTrace routine [Installable File System Drivers]
+ms.keywords: RtlCaptureStackBackTrace routine [Installable File System Drivers], ntifs/RtlCaptureStackBackTrace, ifsk.rtlcapturestackbacktrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml, RtlCaptureStackBackTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ USHORT RtlCaptureStackBackTrace(
 
 
 
-#### - FramesToSkip [in]
+### -param FramesToSkip [in]
 
 The number of frames to skip from the start of the back trace.
 
 
-#### - FramesToCapture [in]
+### -param FramesToCapture [in]
 
 The number of frames to be captured. 
 
 
-#### - BackTrace [out]
+### -param BackTrace [out]
 
 An array of pointers captured from the current stack trace.
 
 
-#### - BackTraceHash [out, optional]
+### -param BackTraceHash [out, optional]
 
 An optional value that can be used to organize hash tables. If this parameter is <b>NULL</b>, no hash value is computed.
 

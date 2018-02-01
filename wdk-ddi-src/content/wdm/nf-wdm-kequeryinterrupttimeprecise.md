@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], KeQueryInterruptTimePrecise, kernel.kequeryinterrupttimeprecise
+ms.keywords: KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, KeQueryInterruptTimePrecise, wdm/KeQueryInterruptTimePrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG64 KeQueryInterruptTimePrecise(
 
 
 
-#### - QpcTimeStamp [out]
+### -param QpcTimeStamp [out]
 
 A pointer to a ULONG64 variable into which the routine writes the performance counter value used to interpolate the return value.
 
@@ -100,13 +100,13 @@ However, power-management state changes do affect the system interrupt time coun
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>
-
-<a href="..\wdm\nf-wdm-kequeryunbiasedinterrupttime.md">KeQueryUnbiasedInterruptTime</a>
-
 <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
 
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+
+<a href="..\wdm\nf-wdm-kequeryunbiasedinterrupttime.md">KeQueryUnbiasedInterruptTime</a>
+
+<a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>
 
  
 

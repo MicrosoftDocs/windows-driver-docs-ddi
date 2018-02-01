@@ -77,37 +77,37 @@ ULONG VirtualHwStorFindAdapter(
 
 
 
-#### - DeviceExtension
+### -param DeviceExtension
 
 A pointer to the miniport driver's per-adapter non-paged storage area. The operating system-specific port driver allocates memory for and initializes this extension with zeros before it calls the miniport's <b>VirtualHwStorFindAdapter</b> routine.
 
 
-#### - HwContext
+### -param HwContext
 
 A pointer to the PDO in the device stack. The HBA itself is the FDO. The PDO might belong to the Pci.sys driver if the miniport driver controls physical hardware. But in the case of a virtual miniport driver, the PDO belongs to the PnP manager.
 
 
-#### - BusInformation
+### -param BusInformation
 
 A pointer to the miniport's functional device object  (FDO).
 
 
-#### - LowerDevice
+### -param LowerDevice
 
 A pointer to the device object controlled by the miniport's FDO.
 
 
-#### - ArgumentString
+### -param ArgumentString
 
 A pointer to a null-terminated ASCII string. This string, if supplied, contains device information from the registry such as a base parameter.
 
 
-#### - ConfigInfo
+### -param ConfigInfo
 
 A pointer to a <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> set in the <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>. <b>VirtualHwStorFindAdapter</b>  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, <b>VirtualHwStorFindAdapter</b> initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's <b>DriverEntry</b> routine.
 
 
-#### - Again
+### -param Again
 
 Not used.
 
@@ -201,13 +201,13 @@ VIRTUAL_HW_FIND_ADAPTER (
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>
-
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
-<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+<a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>
 
  
 

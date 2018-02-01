@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 786ced41-7841-4898-93d5-afb4dcf7fa0c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_cec37979-eb0c-4914-86fe-6dc613c61ae8.xml, stream.bdapropertynodetypes, bdasup/BdaPropertyNodeTypes, BdaPropertyNodeTypes function [Streaming Media Devices], BdaPropertyNodeTypes
+ms.keywords: bdasup/BdaPropertyNodeTypes, bdaref_cec37979-eb0c-4914-86fe-6dc613c61ae8.xml, stream.bdapropertynodetypes, BdaPropertyNodeTypes, BdaPropertyNodeTypes function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS BdaPropertyNodeTypes(
 TBD
 
 
-#### - pKSProperty [in]
+### -param pKSProperty [in]
 
 Points to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
-#### - pulProperty [out]
+### -param pulProperty [out]
 
 Points to an array that receives the list of node types. 
 

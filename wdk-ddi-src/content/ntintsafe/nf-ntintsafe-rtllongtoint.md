@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9C35B77E-FFEC-42A0-9D2C-9E52E210C941
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtllongtoint, RtlLongToInt function [Kernel-Mode Driver Architecture], RtlLongToInt, ntintsafe/RtlLongToInt
+ms.keywords: RtlLongToInt, RtlLongToInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToInt, kernel.rtllongtoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlLongToInt(
 
 
 
-#### - lOperand [in]
+### -param lOperand [in]
 
 The value to be converted.
 
 
-#### - piResult [out]
+### -param piResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

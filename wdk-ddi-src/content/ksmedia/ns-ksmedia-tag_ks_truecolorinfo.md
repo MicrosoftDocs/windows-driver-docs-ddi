@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tag_KS_TRUECOLORINFO, *PKS_TRUECOLORINFO, stream.ks_truecolorinfo, ksmedia/PKS_TRUECOLORINFO, PKS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, KS_TRUECOLORINFO, ksmedia/KS_TRUECOLORINFO, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices]
+ms.keywords: PKS_TRUECOLORINFO, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, tag_KS_TRUECOLORINFO, stream.ks_truecolorinfo, ksmedia/PKS_TRUECOLORINFO, ksmedia/KS_TRUECOLORINFO, KS_TRUECOLORINFO, *PKS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct tag_KS_TRUECOLORINFO {
 
 
 
-#### - dwBitMasks
+### -field dwBitMasks
 
 Array of color masks (one per color element).
 
 
-#### - bmiColors
+### -field bmiColors
 
 Array of palette colors.
 

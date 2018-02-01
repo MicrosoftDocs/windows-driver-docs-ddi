@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: acaf7024-b73a-4fe5-89e2-83e28cf2fdd1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryCreateKey method, PFN_WDFREGISTRYCREATEKEY, wdf.wdfregistrycreatekey, WdfRegistryCreateKey, wdfregistry/WdfRegistryCreateKey, kmdf.wdfregistrycreatekey, DFRegKeyObjectRef_400650ea-7915-45f5-bcdd-2de1a02041f0.xml
+ms.keywords: kmdf.wdfregistrycreatekey, PFN_WDFREGISTRYCREATEKEY, WdfRegistryCreateKey method, DFRegKeyObjectRef_400650ea-7915-45f5-bcdd-2de1a02041f0.xml, wdf.wdfregistrycreatekey, wdfregistry/WdfRegistryCreateKey, WdfRegistryCreateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,37 +79,37 @@ NTSTATUS WdfRegistryCreateKey(
 
 
 
-#### - ParentKey [in, optional]
+### -param ParentKey [in, optional]
 
 A handle to a framework registry-key object. This object represents a parent registry key that the driver has opened. This parameter is optional and can be <b>NULL</b>. If the parameter is not <b>NULL</b>, the key that <i>KeyName</i> specifies must reside under this parent key in the registry. For more information about this parent key, see the Remarks section.
 
 
-#### - KeyName [in]
+### -param KeyName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the key to be opened. The key name can include path information. If <i>ParentKey</i> is <b>NULL</b>, <i>KeyName</i> must specify a complete path to a registry key.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>-typed value that specifies access rights that the driver is requesting for the specified registry key. For a list of access rights that drivers typically use for registry keys, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558746">Opening a Handle to a Registry-Key Object</a>. Your driver must ask for only the types of access that it needs. For example, the driver must not ask for KEY_ALL_ACCESS if it will only read the registry key. 
 
 
-#### - CreateOptions [in]
+### -param CreateOptions [in]
 
 One or more flags. For information about these flags, see the <i>CreateOptions</i> parameter or <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>.
 
 
-#### - CreateDisposition [out, optional]
+### -param CreateDisposition [out, optional]
 
 A pointer to a location that receives REG_CREATED_NEW_KEY if a new key is created or REG_OPENED_EXISTING_KEY if an existing key is opened. These values are defined in <i>Wdm.h</i>. This pointer is optional and can be <b>NULL</b>.
 
 
-#### - KeyAttributes [in, optional]
+### -param KeyAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - Key [out]
+### -param Key [out]
 
 A pointer to a location that receives a handle to the new registry-key object.
 
@@ -204,25 +204,25 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryopenkey.md">WdfRegistryOpenKey</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryopenkey.md">WdfRegistryOpenKey</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

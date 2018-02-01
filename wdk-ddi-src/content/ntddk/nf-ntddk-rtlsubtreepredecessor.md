@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSubtreePredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml, ifsk.rtlsubtreepredecessor, RtlSubtreePredecessor routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlsubtreepredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml, RtlSubtreePredecessor routine [Installable File System Drivers], ntddk/RtlSubtreePredecessor, RtlSubtreePredecessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PRTL_SPLAY_LINKS RtlSubtreePredecessor(
 
 
 
-#### - Links [in]
+### -param Links [in]
 
 A pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
@@ -92,13 +92,13 @@ Callers of <b>RtlSubtreePredecessor</b> must be running at IRQL &lt;= DISPATCH_L
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 <a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
 
 <a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
  
 

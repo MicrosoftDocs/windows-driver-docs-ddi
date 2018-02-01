@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F175ED42-3DB6-4568-96CA-EFC283B14887
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], StorPortPoFxSetComponentLatency, storage.storportpofxsetcomponentlatency
+ms.keywords: StorPortPoFxSetComponentLatency, storport/StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storage.storportpofxsetcomponentlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortPoFxSetComponentLatency(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
 
 
-#### - Address [in, optional]
+### -param Address [in, optional]
 
 The address of a storage device unit. This parameter is <b>NULL</b> when setting the latency of a storage adapter component.
 
 
-#### - Component [in]
+### -param Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-#### - Latency [in]
+### -param Latency [in]
 
 The time, in units of 100 nanoseconds, that the storage device component can tolerate  for a transition from an  idle state the active state.
 

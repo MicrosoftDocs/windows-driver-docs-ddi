@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FCCFFE1-C341-4C8D-8EEC-E07C7ECFC317
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters, _SET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS
+ms.keywords: ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters, *PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], PSET_BAND_METADATA_PARAMETERS, _SET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _SET_BAND_METADATA_PARAMETERS {
 
 
 
-#### - StructSize
+### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(SET_BAND_METADATA_PARAMETERS).
 
 
-#### - BandId
+### -field BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
 
-#### - BandStart
+### -field BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
 
-#### - MetadataOffset
+### -field MetadataOffset
 
 The offset from the start of the band metadata property  to set the new   data.
 
 
-#### - MetadataSize
+### -field MetadataSize
 
 The length of metadata bytes to set. This size is limited by the value of <b>MetadataOffset</b> subtracted from the <b>BandMetadataSize</b> member of the <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a> structure.
 
 
-#### - BufferOffset
+### -field BufferOffset
 
 The offset, in bytes, from the beginning of <b>SET_BAND_METADATA_PARAMETERS </b> to the location of the new metadata.
 
 
-#### - AuthKeyOffset
+### -field AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authorization key for the band. The offset is from the beginning of <b>SET_BAND_METADATA_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>
@@ -124,14 +124,14 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authoriza
 To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-#### KeySize
-
-Size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
-
-
 #### Key
 
 A variable-length byte array that contains the key data.
+
+
+#### KeySize
+
+Size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
 ## -remarks
@@ -149,11 +149,11 @@ The new metadata to set for the band is included in the system buffer for  the <
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a>
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
  
 

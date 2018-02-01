@@ -77,12 +77,12 @@ typedef EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY PEVT_UCX_CONTROLLER_QUERY_USB_CA
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-#### - CapabilityType [in]
+### -param CapabilityType [in]
 
 Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i>  values are  as follows:
 <ul>
@@ -101,18 +101,18 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
 </ul>   See the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a> for more information.
 
 
-#### - OutputBufferLength [in]
+### -param OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-#### - OutputBuffer [out, optional]
+### -param OutputBuffer [out, optional]
 
 A pointer to a location that receives the buffer's address. Certain capabilities may need to provide additional information
         to UCX in this buffer.
 
 
-#### - ResultLength [out]
+### -param ResultLength [out]
 
 A location that, on return, contains the size, in bytes, of the information that the callback function stored in <i>OutputBuffer.</i>
 

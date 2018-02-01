@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 71a45396-0b23-4a20-a4f4-25355a1f6271
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreatetopologynode2, KsCreateTopologyNode2, ks/KsCreateTopologyNode2, KsCreateTopologyNode2 function [Streaming Media Devices]
+ms.keywords: KsCreateTopologyNode2 function [Streaming Media Devices], stream.kscreatetopologynode2, KsCreateTopologyNode2, ks/KsCreateTopologyNode2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ KSDDKAPI HRESULT WINAPI KsCreateTopologyNode2(
 
 
 
-#### - ParentHandle [in]
+### -param ParentHandle [in]
 
 Specifies the handle to the parent on which the node is created.
 
 
-#### - NodeCreate [in]
+### -param NodeCreate [in]
 
 A <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> indicating the desired access to the object. This is typically <b>GENERIC_READ</b> and/or <b>GENERIC_WRITE</b>.
 
 
-#### - NodeHandle [out]
+### -param NodeHandle [out]
 
 Location for the topology node handle.
 
@@ -108,13 +108,13 @@ This is a new version of the <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
-
 <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
 
-<a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+
+<a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a>
 
  
 

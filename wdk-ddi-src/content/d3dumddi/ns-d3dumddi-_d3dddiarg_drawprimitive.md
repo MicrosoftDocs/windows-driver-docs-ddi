@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b5c3a750-7ccb-42ab-9648-17c43e390ec8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWPRIMITIVE, _D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, display.d3dddiarg_drawprimitive
+ms.keywords: D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], display.d3dddiarg_drawprimitive, _D3DDDIARG_DRAWPRIMITIVE, UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_DRAWPRIMITIVE {
 
 
 
-#### - PrimitiveType
+### -field PrimitiveType
 
 [in] A D3DPRIMITIVETYPE-typed value that indicates the type of primitive to draw. This member can be one of the following values: D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP, or D3DPT_TRIANGLEFAN. For more information about D3DPRIMITIVETYPE, see the Microsoft Windows SDK documentation.
 
 
-#### - VStart
+### -field VStart
 
 [in] The index (into each active vertex stream) of the vertex elements to start drawing with. Vertex data should be read from the current vertex streams (those that are referenced by the current vertex shader).
 
 
-#### - PrimitiveCount
+### -field PrimitiveCount
 
 [in] The number of triangles, lines, or points to draw for the given primitive. 
 

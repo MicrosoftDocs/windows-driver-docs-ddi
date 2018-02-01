@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 27E54F0D-2163-4D7C-B204-336EE0227488
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxroothub/P_UCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG structure pointer [Buses], ucxroothub/_UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG, _UCX_ROOTHUB_CONFIG, buses._ucx_roothub_config, UCX_ROOTHUB_CONFIG structure [Buses]
+ms.keywords: ucxroothub/P_UCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG structure [Buses], UCX_ROOTHUB_CONFIG, ucxroothub/_UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG structure pointer [Buses], buses._ucx_roothub_config, _UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,77 +82,77 @@ typedef struct _UCX_ROOTHUB_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of this structure.
 
 
-#### - NumberOfPresentedControlUrbCallbacks
+### -field NumberOfPresentedControlUrbCallbacks
 
 The number of control requests sent to the default endpoint.
 
 
-#### - EvtRootHubClearHubFeature
+### -field EvtRootHubClearHubFeature
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubClearPortFeature
+### -field EvtRootHubClearPortFeature
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubGetHubStatus
+### -field EvtRootHubGetHubStatus
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubGetPortStatus
+### -field EvtRootHubGetPortStatus
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubSetHubFeature
+### -field EvtRootHubSetHubFeature
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubSetPortFeature
+### -field EvtRootHubSetPortFeature
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubGetPortErrorCount
+### -field EvtRootHubGetPortErrorCount
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubControlUrb
+### -field EvtRootHubControlUrb
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
-#### - EvtRootHubInterruptTx
+### -field EvtRootHubInterruptTx
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_interrupt_tx.md">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> callback function.
 
 
-#### - EvtRootHubGetInfo
+### -field EvtRootHubGetInfo
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_info.md">EVT_UCX_ROOTHUB_GET_INFO</a> callback function.
 
 
-#### - EvtRootHubGet20PortInfo
+### -field EvtRootHubGet20PortInfo
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_20port_info.md">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a> callback function.
 
 
-#### - EvtRootHubGet30PortInfo
+### -field EvtRootHubGet30PortInfo
 
 A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
 
 
-#### - WdfRequestAttributes
+### -field WdfRequestAttributes
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies initialization parameters.
 

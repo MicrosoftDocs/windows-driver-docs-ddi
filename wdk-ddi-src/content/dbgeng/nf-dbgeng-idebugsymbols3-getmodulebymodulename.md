@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 243b79fe-b1b2-48b4-bb0b-c56b787e7b83
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method, GetModuleByModuleName method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetModuleByModuleName, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, debugger.getmodulebymodulename, dbgeng/IDebugSymbols3::GetModuleByModuleName, IDebugSymbols3::GetModuleByModuleName
+ms.keywords: GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, debugger.getmodulebymodulename, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, dbgeng/IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols3, dbgeng/IDebugSymbols2::GetModuleByModuleName, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetModuleByModuleName(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 Specifies the name of the desired module.
 
 
-#### - StartIndex [in]
+### -param StartIndex [in]
 
 Specifies the index to start searching from.
 
 
-#### - Index [out, optional]
+### -param Index [out, optional]
 
 Receives the index of the first module with the name <i>Name</i>.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Base [out, optional]
+### -param Base [out, optional]
 
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 
@@ -138,11 +138,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

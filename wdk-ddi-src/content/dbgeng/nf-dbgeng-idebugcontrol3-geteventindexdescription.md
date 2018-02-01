@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75aace9d-3f1e-4002-82e6-d581903da4f9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, GetEventIndexDescription, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, IDebugControl3::GetEventIndexDescription, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method, GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3::GetEventIndexDescription, IDebugControl3, GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, GetEventIndexDescription, debugger.geteventindexdescription, GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetEventIndexDescription(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the event whose description will be returned.
 
 
-#### - Which [in]
+### -param Which [in]
 
 Specifies which piece of the event description to return.  Currently only DEBUG_EINDEX_NAME is supported; this returns the name of the event.
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 Receives the description of the event.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer </i>buffer.
 
 
-#### - DescSize [out, optional]
+### -param DescSize [out, optional]
 
 Receives the size, in characters, of the description.  If <i>DescSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -129,11 +129,11 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
 
  
 

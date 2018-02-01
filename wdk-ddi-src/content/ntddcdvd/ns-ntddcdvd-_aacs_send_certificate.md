@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e0071ee1-7675-4029-b457-e7c26e642c31
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AACS_SEND_CERTIFICATE, ntddcdvd/PAACS_SEND_CERTIFICATE, *PAACS_SEND_CERTIFICATE, structs-DVD_0f4e9fce-96a6-4064-bbb2-4c7077dad635.xml, PAACS_SEND_CERTIFICATE structure pointer [Storage Devices], ntddcdvd/AACS_SEND_CERTIFICATE, _AACS_SEND_CERTIFICATE, storage.aacs_send_certificate, AACS_SEND_CERTIFICATE structure [Storage Devices], PAACS_SEND_CERTIFICATE
+ms.keywords: storage.aacs_send_certificate, ntddcdvd/AACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE structure pointer [Storage Devices], _AACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE structure [Storage Devices], structs-DVD_0f4e9fce-96a6-4064-bbb2-4c7077dad635.xml, AACS_SEND_CERTIFICATE, ntddcdvd/PAACS_SEND_CERTIFICATE, *PAACS_SEND_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AACS_SEND_CERTIFICATE {
 
 
 
-#### - SessionId
+### -field SessionId
 
 A value of type DVD_SESSION_ID that specifies an AGID.
 
 
-#### - Certificate
+### -field Certificate
 
 A structure of type <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_certificate.md">AACS_CERTIFICATE</a> that specifies the certificate to retrieve.
 
@@ -87,11 +87,11 @@ Clients send an Advanced Access Content System (AACS) certificate with an <a hre
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_get_certificate.md">IOCTL_AACS_GET_CERTIFICATE</a>
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_certificate.md">AACS_CERTIFICATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>
 
  
 

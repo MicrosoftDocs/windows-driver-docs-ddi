@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3331c2d8-3100-410d-9c75-33a3b55d5a49
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_object_attributes, wdfobject/WDF_OBJECT_ATTRIBUTES, wdfobject/PWDF_OBJECT_ATTRIBUTES, wdf.wdf_object_attributes, PWDF_OBJECT_ATTRIBUTES structure pointer, WDF_OBJECT_ATTRIBUTES structure, WDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES, *PWDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, _WDF_OBJECT_ATTRIBUTES
+ms.keywords: "*PWDF_OBJECT_ATTRIBUTES, kmdf.wdf_object_attributes, PWDF_OBJECT_ATTRIBUTES structure pointer, wdfobject/PWDF_OBJECT_ATTRIBUTES, _WDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, wdf.wdf_object_attributes, PWDF_OBJECT_ATTRIBUTES, wdfobject/WDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES structure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,44 +77,44 @@ typedef struct _WDF_OBJECT_ATTRIBUTES {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - EvtCleanupCallback
+### -field EvtCleanupCallback
 
 A pointer to the driver's <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> callback function, or <b>NULL</b>.
 
 
-#### - EvtDestroyCallback
+### -field EvtDestroyCallback
 
 A pointer to the driver's <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> callback function, or <b>NULL</b>.
 
 
-#### - ExecutionLevel
+### -field ExecutionLevel
 
 A <a href="..\wdfobject\ne-wdfobject-_wdf_execution_level.md">WDF_EXECUTION_LEVEL</a>-typed value that specifies the maximum IRQL at which the framework will call the object's event callback functions. For a list of framework objects for which the driver can specify an <b>ExecutionLevel</b> value, see <a href="..\wdfobject\ne-wdfobject-_wdf_execution_level.md">WDF_EXECUTION_LEVEL</a>.
 
 
-#### - SynchronizationScope
+### -field SynchronizationScope
 
 A <a href="..\wdfobject\ne-wdfobject-_wdf_synchronization_scope.md">WDF_SYNCHRONIZATION_SCOPE</a>-typed value that specifies how the framework will synchronize execution of the object's event callback functions. For a list of framework objects for which the driver can specify a <b>SynchronizationScope</b> value, see <a href="..\wdfobject\ne-wdfobject-_wdf_synchronization_scope.md">WDF_SYNCHRONIZATION_SCOPE</a>.
 
 
-#### - ParentObject
+### -field ParentObject
 
 A handle to the object's parent object, or <b>NULL</b> if the object does not have a driver-specified parent. 
 
 See <a href="https://msdn.microsoft.com/799284a5-91c0-47b0-8f20-75a5f8e2284d">Summary of Framework Objects</a> for a table that shows the objects that allow a driver-specified parent. The table also shows the default parent of each object. 
 
 
-#### - ContextSizeOverride
+### -field ContextSizeOverride
 
 If not zero, this value overrides the <b>ContextSize</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_context_type_info.md">WDF_OBJECT_CONTEXT_TYPE_INFO</a> structure that the <b>ContextTypeInfo</b> member references. This value is optional and can be zero. If the value is not zero, it must specify a size, in bytes, that is larger than the value that is specified for the <b>ContextSize</b> member of the WDF_OBJECT_CONTEXT_TYPE_INFO structure. For more information, see the following Remarks section.
 
 
-#### - ContextTypeInfo
+### -field ContextTypeInfo
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_context_type_info.md">WDF_OBJECT_CONTEXT_TYPE_INFO</a> structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a> macro sets this pointer.
 
@@ -184,13 +184,13 @@ MyRequestObjectAttributes.ContextSizeOverride =
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectallocatecontext.md">WdfObjectAllocateContext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
 
  
 

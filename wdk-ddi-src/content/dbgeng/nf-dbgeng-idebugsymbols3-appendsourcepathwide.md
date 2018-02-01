@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 54f78169-4253-4dea-921f-981658df311e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::AppendSourcePathWide, debugger.appendsourcepathwide, AppendSourcePathWide method [Windows Debugging], IDebugSymbols3, AppendSourcePathWide, IDebugSymbols3::AppendSourcePathWide, AppendSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], AppendSourcePathWide method
+ms.keywords: AppendSourcePathWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], AppendSourcePathWide method, AppendSourcePathWide, AppendSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::AppendSourcePathWide, debugger.appendsourcepathwide, dbgeng/IDebugSymbols3::AppendSourcePathWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT AppendSourcePathWide(
 
 
 
-#### - Addition [in]
+### -param Addition [in]
 
 Specifies the directories to append to the source path.  This is a string that contains source path elements separated by semicolons (;).  Each source path element can specify either a directory or a source server.
 
@@ -108,13 +108,13 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
  
 

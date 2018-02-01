@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: aa4baa12-c349-4961-9694-b8fb3cd8dc50
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: parallel/PPARALLEL_INTERRUPT_INFORMATION, PPARALLEL_INTERRUPT_INFORMATION, _PARALLEL_INTERRUPT_INFORMATION, parports.parallel_interrupt_information, PARALLEL_INTERRUPT_INFORMATION structure [Parallel Ports], *PPARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION, parallel/PARALLEL_INTERRUPT_INFORMATION, cisspd_3912e608-5549-4b0a-a48d-fdc34af7bc04.xml, PPARALLEL_INTERRUPT_INFORMATION structure pointer [Parallel Ports]
+ms.keywords: parallel/PPARALLEL_INTERRUPT_INFORMATION, cisspd_3912e608-5549-4b0a-a48d-fdc34af7bc04.xml, parports.parallel_interrupt_information, *PPARALLEL_INTERRUPT_INFORMATION, _PARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION structure [Parallel Ports], PPARALLEL_INTERRUPT_INFORMATION structure pointer [Parallel Ports], PPARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION, parallel/PARALLEL_INTERRUPT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PARALLEL_INTERRUPT_INFORMATION {
 
 
 
-#### - InterruptObject
+### -field InterruptObject
 
 Pointer to the parallel port interrupt object.
 
 
-#### - TryAllocatePortAtInterruptLevel
+### -field TryAllocatePortAtInterruptLevel
 
 Pointer to the system-supplied <a href="..\parallel\nc-parallel-pparallel_try_allocate_routine.md">PPARALLEL_TRY_ALLOCATE_ROUTINE (ISR)</a> callback routine that a kernel-mode driver can use to attempt to allocate the parallel port at IRQL = DIRQL.
 
 
-#### - FreePortFromInterruptLevel
+### -field FreePortFromInterruptLevel
 
 Pointer to the system-supplied <a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE (ISR)</a> callback routine that a kernel-mode driver can use to free the parallel port at IRQL = DIRQL.
 
 
-#### - Context
+### -field Context
 
 Pointer to the device extension of a functional device object that represents the parallel port.
 
@@ -101,11 +101,11 @@ A kernel-mode driver can use the parallel interrupt information in the context o
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
 
-<a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE (ISR)</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_disconnect_interrupt.md">IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
+<a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE (ISR)</a>
 
 <a href="..\parallel\nc-parallel-pparallel_try_allocate_routine.md">PPARALLEL_TRY_ALLOCATE_ROUTINE (ISR)</a>
 

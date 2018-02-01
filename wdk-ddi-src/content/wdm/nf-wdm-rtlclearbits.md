@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2c332700-7778-4342-b99b-093142496624
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlClearBits routine [Kernel-Mode Driver Architecture], wdm/RtlClearBits, kernel.rtlclearbits, RtlClearBits, k109_ee20da99-4d30-46dc-99c1-d3d8dfa92d08.xml
+ms.keywords: wdm/RtlClearBits, kernel.rtlclearbits, k109_ee20da99-4d30-46dc-99c1-d3d8dfa92d08.xml, RtlClearBits, RtlClearBits routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID RtlClearBits(
 
 
 
-#### - BitMapHeader [in]
+### -param BitMapHeader [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine.
 
 
-#### - StartingIndex [in]
+### -param StartingIndex [in]
 
 The index of the first bit in the bit range that is to be cleared. If the bitmap contains N bits, the bits are numbered from 0 to N-1.
 
 
-#### - NumberToClear [in]
+### -param NumberToClear [in]
 
 Specifies how many bits to clear. If the bitmap contains N bits, this parameter can be a value in the range 1 to (N - <i>StartingIndex</i>).
 
@@ -105,19 +105,19 @@ Callers of <b>RtlClearBits</b> must be running at IRQL &lt;= APC_LEVEL if the me
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
-
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 <a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
 
 <a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+
+<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+
+<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, RxCeBuildTransport
+ms.keywords: RxCeBuildTransport, ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS RxCeBuildTransport(
 TBD
 
 
-#### - pTransportName [in]
+### -param pTransportName [in]
 
 A pointer to the Unicode binding string for the desired transport.
 
 
-#### - QualityOfService [in]
+### -param QualityOfService [in]
 
 The quality of service desired from the transport.
 

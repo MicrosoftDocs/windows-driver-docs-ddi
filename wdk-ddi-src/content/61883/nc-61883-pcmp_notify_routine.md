@@ -72,7 +72,7 @@ typedef PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
 
 
 
-#### - NotifyInfo [in]
+### -param NotifyInfo [in]
 
 Specifies the notification information.
 

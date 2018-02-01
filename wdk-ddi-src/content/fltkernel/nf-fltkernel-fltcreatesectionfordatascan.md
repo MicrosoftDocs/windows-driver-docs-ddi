@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCreateSectionForDataScan routine [Installable File System Drivers], ifsk.fltcreatesectionfordatascan, FltCreateSectionForDataScan, fltkernel/FltCreateSectionForDataScan
+ms.keywords: fltkernel/FltCreateSectionForDataScan, FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], ifsk.fltcreatesectionfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,22 +79,22 @@ NTSTATUS FltCreateSectionForDataScan(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 The opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 The file object for an open file.  The section object will be backed by the specified file. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - SectionContext [in]
+### -param SectionContext [in]
 
 A pointer to a previously allocated section context. 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 The type  of access for the section object as one or more of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> flags. 
 <table>
@@ -145,17 +145,17 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 </table> 
 
 
-#### - ObjectAttributes [in, optional]
+### -param ObjectAttributes [in, optional]
 
 A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FltCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
-#### - MaximumSize [in, optional]
+### -param MaximumSize [in, optional]
 
 This parameter is reserved for future use.
 
 
-#### - SectionPageProtection [in]
+### -param SectionPageProtection [in]
 
 The protection to place on each page in the section. Specify one of the following values. This parameter is required and cannot be zero. 
 <table>
@@ -186,7 +186,7 @@ Enables both read and write access to the committed region of pages.
 </table> 
 
 
-#### - AllocationAttributes [in]
+### -param AllocationAttributes [in]
 
 Bitmasks of the SEC_<i>XXX</i> flags determine the allocation attributes of the section. Specify one or more of the following values. This parameter is required and cannot be zero. 
 <table>
@@ -217,22 +217,22 @@ The file specified by the <i>FileObject</i> parameter is a mapped file.
 </table> 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 This parameter is reserved for future use.
 
 
-#### - SectionHandle [out]
+### -param SectionHandle [out]
 
 A pointer to a caller-allocated variable that receives an opaque handle to the section handle. 
 
 
-#### - SectionObject [out]
+### -param SectionObject [out]
 
 A pointer to a caller-allocated variable that receives an opaque pointer to the section object.
 
 
-#### - SectionFileSize [out, optional]
+### -param SectionFileSize [out, optional]
 
 A pointer to a caller-allocated variable that receives the size, in bytes, of the file at the time the section object was created. This parameter is optional and can be <b>NULL</b>.
 
@@ -396,25 +396,25 @@ For overview  information on creating mapped sections and views of memory, see <
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_section_conflict_notification_callback.md">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_section_conflict_notification_callback.md">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

@@ -71,7 +71,7 @@ VOID HwVidTimer(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 

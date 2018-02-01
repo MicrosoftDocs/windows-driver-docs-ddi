@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 76BC179A-7484-433C-8467-B13BA7008B90
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cmp_get_plug_state, PCMP_GET_PLUG_STATE, _CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE structure [Buses], *PCMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], CMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE
+ms.keywords: PCMP_GET_PLUG_STATE, IEEE.cmp_get_plug_state, *PCMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], _CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE structure [Buses], CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _CMP_GET_PLUG_STATE {
 
 
 
-#### - hPlug
+### -field hPlug
 
 On input, the handle of the plug to retrieve state information.
 
 
-#### - State
+### -field State
 
 On output, the state of the plug. Can be one of the following:
 
@@ -90,7 +90,7 @@ CMP_PLUG_STATE_SUSPENDED
 CMP_PLUG_STATE_ACTIVE 
 
 
-#### - DataRate
+### -field DataRate
 
 On output, the data rate of the plug. Can be one of the following: 
 
@@ -101,17 +101,17 @@ CMP_SPEED_S200
 CMP_SPEED_S400 
 
 
-#### - Payload
+### -field Payload
 
 On output, the payload size for the plug.
 
 
-#### - BC_Connections
+### -field BC_Connections
 
 On output, the number of broadcast connections associated with the plug.
 
 
-#### - PP_Connections
+### -field PP_Connections
 
 On output, the number of point-to-point connections associated with the plug.
 

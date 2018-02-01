@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1ad13196-a133-4168-9a36-1f7e4ed5c4f1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadBuffer method [Windows Debugging], ExtRemoteData class, ExtRemoteData::ReadBuffer, debugger.extremotedata_readbuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method, ReadBuffer, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ReadBuffer method [Windows Debugging], ExtRemoteData
+ms.keywords: ExtRemoteData::ReadBuffer, ExtRemoteData, ReadBuffer, debugger.extremotedata_readbuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method, ReadBuffer method [Windows Debugging], ExtRemoteData class, ReadBuffer method [Windows Debugging], EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ ULONG ReadBuffer(
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer that receives the data read from the target.
 
 
-#### - Bytes [in]
+### -param Bytes [in]
 
 Specifies the number of bytes to read.  The <i>Buffer</i> buffer must be at least this size.
 
 
-#### - MustReadAll [in]
+### -param MustReadAll [in]
 
 Specifies what happens if the debugger engine is unable to read all the data from the target.  If <i>MustReadAll</i> is <code>true</code> and the debugger engine is unable to read <i>Bytes</i> bytes from the target, an <b>ExtRemoteException</b> will be thrown.  If <i>MustReadAll</i>  is <code>false</code>, no exception will be thrown if the engine is unable to read the requested number of bytes from the target.
 
@@ -93,9 +93,9 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
  
 

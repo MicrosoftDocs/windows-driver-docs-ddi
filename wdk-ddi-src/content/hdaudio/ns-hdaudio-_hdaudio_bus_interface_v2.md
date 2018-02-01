@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7d639909-dc56-4ec5-b596-bfbbf262a3d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PHDAUDIO_BUS_INTERFACE_V2, HDAUDIO_BUS_INTERFACE_V2, PHDAUDIO_BUS_INTERFACE_V2 structure pointer [Audio Devices], audio.hdaudio_bus_interface_v2, aud-prop2_42a4681c-608a-479b-a33d-725f9625d64b.xml, _HDAUDIO_BUS_INTERFACE_V2, HDAUDIO_BUS_INTERFACE_V2 structure [Audio Devices], hdaudio/HDAUDIO_BUS_INTERFACE_V2, hdaudio/PHDAUDIO_BUS_INTERFACE_V2, PHDAUDIO_BUS_INTERFACE_V2"
+ms.keywords: HDAUDIO_BUS_INTERFACE_V2 structure [Audio Devices], hdaudio/HDAUDIO_BUS_INTERFACE_V2, *PHDAUDIO_BUS_INTERFACE_V2, _HDAUDIO_BUS_INTERFACE_V2, PHDAUDIO_BUS_INTERFACE_V2 structure pointer [Audio Devices], hdaudio/PHDAUDIO_BUS_INTERFACE_V2, HDAUDIO_BUS_INTERFACE_V2, PHDAUDIO_BUS_INTERFACE_V2, audio.hdaudio_bus_interface_v2, aud-prop2_42a4681c-608a-479b-a33d-725f9625d64b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,117 +89,117 @@ typedef struct _HDAUDIO_BUS_INTERFACE_V2 {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size, in bytes, of the HDAUDIO_BUS_INTERFACE_V2 structure.
 
 
-#### - Version
+### -field Version
 
 Specifies the version of the baseline HD Audio DDI.
 
 
-#### - Context
+### -field Context
 
 A pointer to interface-specific context information.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 A pointer to a driver-supplied routine that increments the reference count for the interface.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 A pointer to a driver-supplied routine that decrements the reference count for the interface.
 
 
-#### - TransferCodecVerbs
+### -field TransferCodecVerbs
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a> routine.
 
 
-#### - AllocateCaptureDmaEngine
+### -field AllocateCaptureDmaEngine
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> routine.
 
 
-#### - AllocateRenderDmaEngine
+### -field AllocateRenderDmaEngine
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a> routine.
 
 
-#### - ChangeBandwidthAllocation
+### -field ChangeBandwidthAllocation
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a> routine.
 
 
-#### - AllocateDmaBuffer
+### -field AllocateDmaBuffer
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a> routine.
 
 
-#### - FreeDmaBuffer
+### -field FreeDmaBuffer
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a> routine.
 
 
-#### - FreeDmaEngine
+### -field FreeDmaEngine
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a> routine.
 
 
-#### - SetDmaEngineState
+### -field SetDmaEngineState
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a> routine.
 
 
-#### - GetWallClockRegister
+### -field GetWallClockRegister
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a> routine.
 
 
-#### - GetLinkPositionRegister
+### -field GetLinkPositionRegister
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pget_link_position_register.md">GetLinkPositionRegister</a> routine.
 
 
-#### - RegisterEventCallback
+### -field RegisterEventCallback
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a> routine.
 
 
-#### - UnregisterEventCallback
+### -field UnregisterEventCallback
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a> routine.
 
 
-#### - GetDeviceInformation
+### -field GetDeviceInformation
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pget_device_information.md">GetDeviceInformation</a> routine.
 
 
-#### - GetResourceInformation
+### -field GetResourceInformation
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pget_resource_information.md">GetResourceInformation</a> routine.
 
 
-#### - AllocateDmaBufferWithNotification
+### -field AllocateDmaBufferWithNotification
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a> routine.
 
 
-#### - FreeDmaBufferWithNotification
+### -field FreeDmaBufferWithNotification
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer_with_notification.md">FreeDmaBufferWithNotification</a> routine.
 
 
-#### - RegisterNotificationEvent
+### -field RegisterNotificationEvent
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a> routine.
 
 
-#### - UnregisterNotificationEvent
+### -field UnregisterNotificationEvent
 
 A function pointer to the <a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a> routine.
 
@@ -215,41 +215,41 @@ The names and definitions of the first five members of the <b>HDAUDIO_BUS_INTERF
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>
-
-<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
-
-<a href="..\hdaudio\nc-hdaudio-pget_link_position_register.md">GetLinkPositionRegister</a>
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
-
 <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer_with_notification.md">FreeDmaBufferWithNotification</a>
-
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 <a href="..\hdaudio\nc-hdaudio-pget_device_information.md">GetDeviceInformation</a>
 
-<a href="..\hdaudio\nc-hdaudio-pget_resource_information.md">GetResourceInformation</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
-
-<a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 <a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
 
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+
+<a href="..\hdaudio\nc-hdaudio-pget_link_position_register.md">GetLinkPositionRegister</a>
+
 <a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
+
+<a href="..\hdaudio\nc-hdaudio-pget_resource_information.md">GetResourceInformation</a>
 
 <a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
 
 <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
 
-<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
+
+<a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
 
  
 

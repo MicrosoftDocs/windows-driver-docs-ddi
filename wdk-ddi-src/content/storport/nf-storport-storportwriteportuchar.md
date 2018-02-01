@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportwriteportuchar, StorPortWritePortUchar routine [Storage Devices], storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, storport/StorPortWritePortUchar, StorPortWritePortUchar
+ms.keywords: StorPortWritePortUchar, storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, storage.storportwriteportuchar, StorPortWritePortUchar routine [Storage Devices], storport/StorPortWritePortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ STORPORT_API VOID StorPortWritePortUchar(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Contains the address of the port to be written to. 
 
 
-#### - Value [in]
+### -param Value [in]
 
 Contains the value to be written. 
 

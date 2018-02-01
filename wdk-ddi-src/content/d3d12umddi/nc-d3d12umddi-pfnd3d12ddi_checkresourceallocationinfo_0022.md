@@ -90,19 +90,14 @@ VOID APIENTRY* pfnCheckResourceAllocationInfo(
 
 
 
-#### - AlignmentRestriction
+### -param AlignmentRestriction
 
 An alignment restriction value.
 
 
-#### - VisibleNodeMask
+### -param VisibleNodeMask
 
 A visible node mask.
-
-
-#### - hDevice
-
-A device handle. 
 
 
 #### - CreateResource [in]
@@ -113,6 +108,11 @@ A pointer to a create resource.
 #### - ResourceOptimizationFlags
 
 Resource optimization flags.
+
+
+#### - hDevice
+
+A device handle. 
 
 
 #### - pInfo [out]

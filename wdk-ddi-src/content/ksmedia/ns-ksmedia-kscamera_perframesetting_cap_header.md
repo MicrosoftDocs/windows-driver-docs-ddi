@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7478E83E-0657-4547-993A-84AECBB2562D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_PERFRAMESETTING_CAP_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER structure pointer [Streaming Media Devices], *PKSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER structure [Streaming Media Devices], stream.kscamera_perframesetting_cap_header, ksmedia/KSCAMERA_PERFRAMESETTING_CAP_HEADER
+ms.keywords: KSCAMERA_PERFRAMESETTING_CAP_HEADER, stream.kscamera_perframesetting_cap_header, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_HEADER, ksmedia/KSCAMERA_PERFRAMESETTING_CAP_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER structure pointer [Streaming Media Devices], KSCAMERA_PERFRAMESETTING_CAP_HEADER structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 The size of the entire capability payload, including this header, all the item headers, and the item payloads that follow.
 
 
-#### - ItemCount
+### -field ItemCount
 
 The number of capability items.
 
 
-#### - Flags
+### -field Flags
 
 Not used.
 

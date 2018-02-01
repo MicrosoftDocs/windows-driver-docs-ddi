@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa571ca0-194c-4018-9b93-a3cc687f7632
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], portcls/PcAddAdapterDevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, audio.pcaddadapterdevice
+ms.keywords: PcAddAdapterDevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice, audio.pcaddadapterdevice, PcAddAdapterDevice function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS PcAddAdapterDevice(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 Pointer to the driver object. This pointer is passed as a parameter to the adapter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> handler. The driver object is a system structure of type <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>.
 
 
-#### - PhysicalDeviceObject [in]
+### -param PhysicalDeviceObject [in]
 
 Pointer to the device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">physical device object (PDO)</a>. PortCls passes this pointer as a call parameter to the adapter's <i>AddDevice</i> handler. The PDO is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-#### - StartDevice [in]
+### -param StartDevice [in]
 
 Pointer to the function that the operating system calls in order to start the device. For more information, see the following <b>Remarks</b> section.
 
 
-#### - MaxObjects [in]
+### -param MaxObjects [in]
 
 Specifies the maximum number of subdevices to be registered by calls to <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>. This count sets the upper limit to the total number of miniport objects that the adapter driver can instantiate.
 
 
-#### - DeviceExtensionSize [in]
+### -param DeviceExtensionSize [in]
 
 Specifies the device extension size. Use zero for default size. See the following <b>Remarks</b> section for user-supplied extension sizes.
 
@@ -162,13 +162,13 @@ The adapter driver can then access the device-specific extension data, as shown 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
  
 

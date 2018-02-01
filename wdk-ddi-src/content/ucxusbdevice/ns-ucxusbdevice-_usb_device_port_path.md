@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 75C7DB08-F831-43ED-8373-F3F4C7AF89E8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH structure [Buses], ucxusbdevice/_USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH structure pointer [Buses], *PUSB_DEVICE_PORT_PATH, ucxusbdevice/P_USB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH, buses._usb_device_port_path"
+ms.keywords: "*PUSB_DEVICE_PORT_PATH, ucxusbdevice/P_USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH structure [Buses], P_USB_DEVICE_PORT_PATH, _USB_DEVICE_PORT_PATH, ucxusbdevice/_USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH, buses._usb_device_port_path, P_USB_DEVICE_PORT_PATH structure pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _USB_DEVICE_PORT_PATH {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of this structure.
 
 
-#### - PortPathDepth
+### -field PortPathDepth
 
 The depth of path in the USB topology tree, consisting of host controller, hubs, and devices.
 
 
-#### - TTHubDepth
+### -field TTHubDepth
 
 The depth of path in the USB topology tree from a TT hub. 
 
 
-#### - PortPath
+### -field PortPath
 
 The index of connected USB port on the hub.
 

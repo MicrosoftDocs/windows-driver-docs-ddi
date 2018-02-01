@@ -69,24 +69,19 @@ HRESULT APIENTRY* PFND3D12DDI_OPENCRYPTOSESSION_0030(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - *pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to open a crypto session.
 
 
-#### - hDrvCryptoSession
+### -param hDrvCryptoSession
 
 The crypto session.
-
-
-#### - pArgs [in]
-
-The arguments used to open a crypto session.
 
 
 ## -returns

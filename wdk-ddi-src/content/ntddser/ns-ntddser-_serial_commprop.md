@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], SERIAL_COMMPROP, serports.serial_commprop, PSERIAL_COMMPROP structure pointer [Serial Ports], PSERIAL_COMMPROP, *PSERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP"
+ms.keywords: PSERIAL_COMMPROP, *PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], ntddser/PSERIAL_COMMPROP, serports.serial_commprop, PSERIAL_COMMPROP structure pointer [Serial Ports], _SERIAL_COMMPROP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,37 +84,37 @@ typedef struct _SERIAL_COMMPROP {
 
 
 
-#### - PacketLength
+### -field PacketLength
 
 The size, in bytes, of the data packet that starts with this structure and that contains the requested property data. This size includes the <b>SERIAL_COMMPROP</b> structure and any additional <b>ProvChar</b> array elements that follow this structure.
 
 
-#### - PacketVersion
+### -field PacketVersion
 
 The version of this structure. The current version number is 2.
 
 
-#### - ServiceMask
+### -field ServiceMask
 
 A bitmask that indicates which services are implemented by this communications provider. This member is always set to SERIAL_SP_SERIALCOMM by serial communications providers, including modem providers. The <b>ProvSubType</b> member indicates the specific type of serial communications that are implemented (for example, modem).
 
 
-#### - Reserved1
+### -field Reserved1
 
 Not used.
 
 
-#### - MaxTxQueue
+### -field MaxTxQueue
 
 Maximum transmit queue size. The maximum size, in bytes, of the serial controller driver's internal output buffer. A value of zero indicates that no maximum value is imposed by the serial provider.
 
 
-#### - MaxRxQueue
+### -field MaxRxQueue
 
 Maximum receive queue size. The maximum size, in bytes, of the serial controller driver's internal input buffer. A value of zero indicates that no maximum value is imposed by the serial provider.
 
 
-#### - MaxBaud
+### -field MaxBaud
 
 The maximum acceptable baud rate. An <a href="https://msdn.microsoft.com/4A9B80F1-4DE1-4D35-ADDF-90058A4F8388">extension-based serial controller driver</a> sets this member to a baud rate expressed in bits per second (bps). For example, if the serial controller supports a maximum baud rate of 115,200 bps, the driver sets <b>MaxBaud</b> = 115200.
 
@@ -207,7 +207,7 @@ However, Serial.sys and many older serial controller drivers set <b>MaxBaud</b> 
 </table> 
 
 
-#### - ProvSubType
+### -field ProvSubType
 
 The specific communications provider type. When the <b>ServiceMask</b> member is set to SERIAL_SP_SERIALCOMM, <b>ProvSubType</b> is set to one of the following values.
 <table>
@@ -270,7 +270,7 @@ The specific communications provider type. When the <b>ServiceMask</b> member is
 </table> 
 
 
-#### - ProvCapabilities
+### -field ProvCapabilities
 
 The capabilities offered by the provider. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
 <table>
@@ -321,7 +321,7 @@ The capabilities offered by the provider. This member is set to zero or to the b
 </table> 
 
 
-#### - SettableParams
+### -field SettableParams
 
 A bitmask that indicates the communication parameter that can be changed. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
 <table>
@@ -360,14 +360,14 @@ A bitmask that indicates the communication parameter that can be changed. This m
 </table> 
 
 
-#### - SettableBaud
+### -field SettableBaud
 
 A bitmask that indicates the baud rates that can be used. For a table that describes the SERIAL_BAUD_<i>XXX</i> flag bits that are defined for this member, see the description of the <b>MaxBaud</b> member. <b>SettableBaud</b> is set to zero or to the bitwise-OR or one or more of these flag bits.
 
 Serial controller drivers set the SERIAL_BAUD_USER flag bit in the <b>SettableBaud</b> bitmask value to indicate that they support higher baud rates than those that can be expressed by the other SERIAL_BAUD_<i>XXX</i> flag bits. For example, a driver that supports baud rates of 57600, 115200, 230400, and 460800 bps sets <b>SettableBaud</b> = (SERIAL_BAUD_57600 |  SERIAL_BAUD_115200 |  SERIAL_BAUD_USER).
 
 
-#### - SettableData
+### -field SettableData
 
 The number of data bits that can be set. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
 <table>
@@ -402,7 +402,7 @@ The number of data bits that can be set. This member is set to zero or to the bi
 </table> 
 
 
-#### - SettableStopParity
+### -field SettableStopParity
 
 The stop-bit and parity settings that can be selected. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
 <table>
@@ -445,14 +445,14 @@ The stop-bit and parity settings that can be selected. This member is set to zer
 </table> 
 
 
-#### - CurrentTxQueue
+### -field CurrentTxQueue
 
 Transmit queue size. This member specifies the size, in bytes, of the serial controller driver's internal output buffer. A value of zero indicates that the buffer size is unavailable.
 
 For SerCx2 and SerCx, the associated serial controller driver typically sets this member to zero. Serial.sys sets this member to a nonzero value that indicates the output buffer size.
 
 
-#### - CurrentRxQueue
+### -field CurrentRxQueue
 
 Receive queue size. This member specifies the size, in bytes, of the serial controller driver's internal input buffer. A value of zero indicates that the buffer size is unavailable.
 
@@ -461,17 +461,17 @@ For SerCx2 and SerCx, this member is set by the associated serial controller dri
 Serial.sys sets this member to a nonzero value that indicates the input buffer size.
 
 
-#### - ProvSpec1
+### -field ProvSpec1
 
 Provider-specific data. Applications should ignore this member unless provider-specific data about the data format required by the serial port is available.
 
 
-#### - ProvSpec2
+### -field ProvSpec2
 
 Provider-specific data. Applications should ignore this member unless provider-specific data about the data format required by the serial port is available.
 
 
-#### - ProvChar
+### -field ProvChar
 
 Provider-specific data. Applications should ignore this member unless provider-specific data about the data format required by the serial port is available. This member is the first element in a wide-character array of one or more elements. Any additional elements immediately follow this member. The <b>PacketLength</b> member specifies the size of the <b>SERIAL_COMMPROP</b> structure plus any additional <b>ProvChar</b> array elements that follow this structure.
 

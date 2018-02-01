@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1d03b97f-5c01-48b2-a0e4-2dc6bf732813
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreampointerunlock, ks/KsStreamPointerUnlock, avfunc_71260371-8ee2-45e1-ad72-7eba8212d081.xml, KsStreamPointerUnlock, KsStreamPointerUnlock function [Streaming Media Devices]
+ms.keywords: KsStreamPointerUnlock function [Streaming Media Devices], ks/KsStreamPointerUnlock, KsStreamPointerUnlock, stream.ksstreampointerunlock, avfunc_71260371-8ee2-45e1-ad72-7eba8212d081.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsStreamPointerUnlock(
 
 
 
-#### - StreamPointer [in]
+### -param StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer to unlock.
 
 
-#### - Eject [in]
+### -param Eject [in]
 
 This parameter specifies whether to advance <i>StreamPointer</i> to the next data frame. A value of <b>TRUE</b> advances the stream pointer.
 
@@ -99,19 +99,19 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
 
 <b>KsPinGetLeadingEdgeStreamPointer</b>
 
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-
 <a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 <a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
  
 

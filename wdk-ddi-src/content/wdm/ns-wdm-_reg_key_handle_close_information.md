@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 023ca2d0-45a2-423e-bd88-e40792ef0e49
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_KEY_HANDLE_CLOSE_INFORMATION, _REG_KEY_HANDLE_CLOSE_INFORMATION, kernel.reg_key_handle_close_information, *PREG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_26822436-a385-4b98-8179-18c661ebdb1f.xml, wdm/REG_KEY_HANDLE_CLOSE_INFORMATION, wdm/PREG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: REG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION, *PREG_KEY_HANDLE_CLOSE_INFORMATION, wdm/PREG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/REG_KEY_HANDLE_CLOSE_INFORMATION, kernel.reg_key_handle_close_information, kstruct_d_26822436-a385-4b98-8179-18c661ebdb1f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _REG_KEY_HANDLE_CLOSE_INFORMATION {
 
 
 
-#### - Object
+### -field Object
 
 A pointer to the registry key object for the handle that is about to be closed.
 
 
-#### - CallContext
+### -field CallContext
 
 Optional driver-defined context information that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system. 
 
 
-#### - ObjectContext
+### -field ObjectContext
 
 A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved for future use. This member is defined for Windows Vista and later versions of the Windows operating system.
 
@@ -102,9 +102,9 @@ For more information about registry filtering operations, see <a href="https://m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1012abf2-a73b-49d9-8017-b0b1a1c7fbcd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], PCI.pci_express_slot_status_register, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, _PCI_EXPRESS_SLOT_STATUS_REGISTER, *PPCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], PCI_EXPRESS_SLOT_STATUS_REGISTER
+ms.keywords: "*PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, PCI_EXPRESS_SLOT_STATUS_REGISTER, _PCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,131 +86,81 @@ typedef union _PCI_EXPRESS_SLOT_STATUS_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.AttentionButtonPressed
 
- 
+A single bit that indicates that the attention button for the slot is being pressed.
 
 
 ### -field DUMMYSTRUCTNAME.PowerFaultDetected
 
- 
+A single bit that indicates that a power fault at the slot has been detected.
 
 
 ### -field DUMMYSTRUCTNAME.MRLSensorChanged
 
- 
+A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
 
 
 ### -field DUMMYSTRUCTNAME.PresenceDetectChanged
 
- 
+A single bit that indicates that the card presence detection state for the slot has changed.
 
 
 ### -field DUMMYSTRUCTNAME.CommandCompleted
 
- 
-
-
-### -field DUMMYSTRUCTNAME.MRLSensorState
-
- 
-
-
-### -field DUMMYSTRUCTNAME.PresenceDetectState
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ElectromechanicalLockEngaged
-
- 
-
-
-### -field DUMMYSTRUCTNAME.DataLinkStateChanged
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Rsvd
-
- 
-
-
-#### - AsUSHORT
-
-A USHORT representation of the contents of the PCI_EXPRESS_SLOT_STATUS_REGISTER structure.
-
-
-#### - AttentionButtonPressed
-
-A single bit that indicates that the attention button for the slot is being pressed.
-
-
-#### - PowerFaultDetected
-
-A single bit that indicates that a power fault at the slot has been detected.
-
-
-#### - MRLSensorChanged
-
-A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
-
-
-#### - PresenceDetectChanged
-
-A single bit that indicates that the card presence detection state for the slot has changed.
-
-
-#### - CommandCompleted
-
 A single bit that indicates that a command has been completed by the slot's hot-plug controller.
 
 
-#### - MRLSensorState
+### -field DUMMYSTRUCTNAME.MRLSensorState
 
 The slot's manually operated retention latch (MRL) sensor state. Possible values are:
 
 
 
 
-#### MRLClosed
-
-The MRL is closed.
-
-
-#### MRLOpen
-
-The MRL is open.
-
-
-#### - PresenceDetectState
+### -field DUMMYSTRUCTNAME.PresenceDetectState
 
 The slot's card presence detection state. Possible values are:
 
 
 
 
-#### SlotEmpty
-
-The slot is empty.
-
-
-#### CardPresent
-
-A card is present in the slot.
-
-
-#### - ElectromechanicalLockEngaged
+### -field DUMMYSTRUCTNAME.ElectromechanicalLockEngaged
 
 A single bit that indicates if the slot's electromechanical interlock is engaged.
 
 
-#### - DataLinkStateChanged
+### -field DUMMYSTRUCTNAME.DataLinkStateChanged
 
 A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
 
 
-#### - Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
+
+
+### -field AsUSHORT
+
+A USHORT representation of the contents of the PCI_EXPRESS_SLOT_STATUS_REGISTER structure.
+
+
+##### - MRLSensorState.MRLClosed
+
+The MRL is closed.
+
+
+##### - MRLSensorState.MRLOpen
+
+The MRL is open.
+
+
+##### - PresenceDetectState.CardPresent
+
+A card is present in the slot.
+
+
+##### - PresenceDetectState.SlotEmpty
+
+The slot is empty.
 
 
 ## -remarks

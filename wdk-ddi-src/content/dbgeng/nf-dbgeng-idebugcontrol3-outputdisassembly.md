@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2a9944a4-3885-4e83-b20e-040cffcbf85b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputDisassembly method [Windows Debugging], IDebugControl interface, OutputDisassembly method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl2 interface, OutputDisassembly method [Windows Debugging], IDebugControl interface [Windows Debugging], OutputDisassembly method, dbgeng/IDebugControl2::OutputDisassembly, dbgeng/IDebugControl3::OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, IDebugControl2 interface [Windows Debugging], OutputDisassembly method, IDebugControl2::OutputDisassembly, IDebugControl3::OutputDisassembly, OutputDisassembly, debugger.outputdisassembly, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, IDebugControl3 interface [Windows Debugging], OutputDisassembly method
+ms.keywords: IDebugControl interface [Windows Debugging], OutputDisassembly method, dbgeng/IDebugControl3::OutputDisassembly, IDebugControl::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl2::OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl3 interface, IDebugControl3::OutputDisassembly, IDebugControl3, dbgeng/IDebugControl2::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl interface, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, OutputDisassembly method [Windows Debugging], IDebugControl2 interface, debugger.outputdisassembly, OutputDisassembly, IDebugControl2 interface [Windows Debugging], OutputDisassembly method, IDebugControl3 interface [Windows Debugging], OutputDisassembly method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT OutputDisassembly(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies the output control that determines which client's output callbacks receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location in the target's memory of the instruction to disassemble.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the bit-flags that affect the behavior of this method.  The following table lists the bits that can be set.
 <table>
@@ -133,7 +133,7 @@ Include the source file name in the output.
 </table> 
 
 
-#### - EndOffset [out]
+### -param EndOffset [out]
 
 Receives the location in the target's memory of the instruction that follows the disassembled instruction.
 
@@ -175,9 +175,9 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553216">OutputDisassemblyLines</a>
 

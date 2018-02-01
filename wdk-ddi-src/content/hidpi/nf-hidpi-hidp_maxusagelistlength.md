@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 90491024-f623-4528-8d37-4a6acb394473
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_MaxUsageListLength, hid.hidp_maxusagelistlength, HidP_MaxUsageListLength routine [Human Input Devices], HidP_MaxUsageListLength, hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml
+ms.keywords: hid.hidp_maxusagelistlength, hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml, HidP_MaxUsageListLength routine [Human Input Devices], hidpi/HidP_MaxUsageListLength, HidP_MaxUsageListLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG __stdcall HidP_MaxUsageListLength(
 
 
 
-#### - ReportType [in]
+### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the report type.
 
 
-#### - UsagePage [in]
+### -param UsagePage [in]
 
 Specifies a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> as a search criteria. If <i>UsagePage</i> is zero, the routine returns the number of all the buttons in the collection.
 
 
-#### - PreparsedData [in]
+### -param PreparsedData [in]
 
 Pointer to a top-level collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
@@ -101,9 +101,9 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 

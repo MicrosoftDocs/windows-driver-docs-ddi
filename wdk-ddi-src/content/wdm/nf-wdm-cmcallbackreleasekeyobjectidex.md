@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3361DAEF-AC2A-401B-80E8-0220F191587C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CmCallbackReleaseKeyObjectIDEx, kernel.cmcallbackreleasekeyobjectidex, CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], wdm/CmCallbackReleaseKeyObjectIDEx
+ms.keywords: CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], wdm/CmCallbackReleaseKeyObjectIDEx, CmCallbackReleaseKeyObjectIDEx, kernel.cmcallbackreleasekeyobjectidex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID CmCallbackReleaseKeyObjectIDEx(
 
 
 
-#### - ObjectName
+### -param ObjectName
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the object name string. The driver previously obtained this pointer by calling <a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>.
 
@@ -82,9 +82,9 @@ None.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

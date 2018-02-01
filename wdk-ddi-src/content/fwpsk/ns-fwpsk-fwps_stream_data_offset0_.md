@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6b60fa1-23ed-44dd-8300-c66d5f907993
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwps_stream_data_offset0, FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0_, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml, fwpsk/FWPS_STREAM_DATA_OFFSET0
+ms.keywords: netvista.fwps_stream_data_offset0, fwpsk/FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0_, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct FWPS_STREAM_DATA_OFFSET0_ {
 
 
 
-#### - netBufferList
+### -field netBufferList
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure in which the
      offset lies.
 
 
-#### - netBuffer
+### -field netBuffer
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure in which the offset
      lies.
 
 
-#### - mdl
+### -field mdl
 
 A pointer to the Memory Descriptor List (MDL) in which the offset lies.
 
 
-#### - mdlOffset
+### -field mdlOffset
 
 The byte offset from the beginning of the MDL pointed to by the 
      <b>Mdl</b> member.
 
 
-#### - netBufferOffset
+### -field netBufferOffset
 
 Reserved for system use. Callout drivers must not use this member.
 
 
-#### - streamDataOffset
+### -field streamDataOffset
 
 Reserved for system use. Callout drivers must not use this member.
 
@@ -126,11 +126,11 @@ The combination of the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

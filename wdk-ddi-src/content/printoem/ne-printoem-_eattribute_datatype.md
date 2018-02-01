@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: kADT_UNICODE, kADT_SIZE, _EATTRIBUTE_DATATYPE, printoem/kADT_BINARY, printoem/kADT_DWORD, EATTRIBUTE_DATATYPE, kADT_UNKNOWN, kADT_BINARY, kADT_RECT, printoem/kADT_BOOL, printoem/kADT_SIZE, printoem/kADT_UNKNOWN, kADT_CUSTOMSIZEPARAMS, printoem/kADT_LONG, printoem/kADT_RECT, printoem/EATTRIBUTE_DATATYPE, printoem/kADT_ASCII, printoem/kADT_INT, printoem/kADT_CUSTOMSIZEPARAMS, kADT_DWORD, printoem/kADT_UNICODE, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, EATTRIBUTE_DATATYPE enumeration [Print Devices], kADT_BOOL, kADT_INT, kADT_ASCII, kADT_LONG, print.eattribute_datatype
+ms.keywords: kADT_INT, printoem/kADT_DWORD, printoem/kADT_BOOL, kADT_UNKNOWN, printoem/kADT_UNKNOWN, printoem/kADT_UNICODE, kADT_SIZE, kADT_UNICODE, printoem/kADT_INT, print.eattribute_datatype, _EATTRIBUTE_DATATYPE, printoem/kADT_SIZE, printoem/kADT_ASCII, kADT_CUSTOMSIZEPARAMS, printoem/kADT_CUSTOMSIZEPARAMS, printoem/kADT_RECT, EATTRIBUTE_DATATYPE, EATTRIBUTE_DATATYPE enumeration [Print Devices], kADT_BOOL, printoem/kADT_BINARY, kADT_DWORD, kADT_RECT, kADT_BINARY, kADT_ASCII, printoem/EATTRIBUTE_DATATYPE, printoem/kADT_LONG, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, kADT_LONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,57 +78,57 @@ typedef enum _EATTRIBUTE_DATATYPE {
 
 
 
-#### - kADT_UNKNOWN
+### -field kADT_UNKNOWN
 
 The attribute is of unknown type.
 
 
-#### - kADT_BOOL
+### -field kADT_BOOL
 
 The attribute is of type BOOL.
 
 
-#### - kADT_INT
+### -field kADT_INT
 
 The attribute is of type INT.
 
 
-#### - kADT_LONG
+### -field kADT_LONG
 
 The attribute is of type LONG.
 
 
-#### - kADT_DWORD
+### -field kADT_DWORD
 
 The attribute is of type DWORD.
 
 
-#### - kADT_ASCII
+### -field kADT_ASCII
 
 The attribute is an ASCII string. 
 
 
-#### - kADT_UNICODE
+### -field kADT_UNICODE
 
 The attribute is a Unicode string.
 
 
-#### - kADT_BINARY
+### -field kADT_BINARY
 
 The attribute consists of binary data.
 
 
-#### - kADT_SIZE
+### -field kADT_SIZE
 
 The attribute is of type SIZE.
 
 
-#### - kADT_RECT
+### -field kADT_RECT
 
 The attribute is of type RECT.
 
 
-#### - kADT_CUSTOMSIZEPARAMS
+### -field kADT_CUSTOMSIZEPARAMS
 
 The attribute is an array containing CUSTOMPARAM_MAX (a constant defined in printoem.h) elements. Each element is a <a href="..\printoem\ns-printoem-_customsizeparam.md">CUSTOMSIZEPARAM</a> structure.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76588bdd-ceb8-4c8b-bcd7-23184feacf86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsMgmtSetLogFileSize, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], ClfsMgmtSetLogFileSize, kernel.clfsmgmtsetlogfilesize, Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml
+ms.keywords: ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], ClfsMgmtSetLogFileSize, Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, kernel.clfsmgmtsetlogfilesize, wdm/ClfsMgmtSetLogFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS ClfsMgmtSetLogFileSize(
 
 
 
-#### - LogFile [in]
+### -param LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log, or a stream within the log, to which containers are being added or deleted.
 
 
-#### - NewSizeInContainers [in]
+### -param NewSizeInContainers [in]
 
 A pointer to the requested log size. The caller sets this parameter to one of the following values.
 <table>
@@ -134,17 +134,17 @@ If a maximum size policy is installed, the log expands to the maximum number of 
 To determine the actual log size, which might be different from the requested size, use the <i>ResultingSizeInContainers</i> parameter.
 
 
-#### - ResultingSizeInContainers [out]
+### -param ResultingSizeInContainers [out]
 
 A pointer to the resulting log size. If successful, the routine writes the actual size of the log, expressed as the number of containers in the log, to the location pointed to by this parameter.
 
 
-#### - CompletionRoutine [in, optional]
+### -param CompletionRoutine [in, optional]
 
  Not used.  Set to NULL.
 
 
-#### - CompletionRoutineData [in, optional]
+### -param CompletionRoutineData [in, optional]
 
  Not used. Set to NULL.
 
@@ -250,9 +250,9 @@ The <b>ClfsMgmtSetLogFileSize</b> routine is typically used only when a client s
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
-
 <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
 
  
 

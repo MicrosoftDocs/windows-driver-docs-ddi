@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: abe43441-3e00-4d85-ae84-dd738303ab1b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ArrayElement method [Windows Debugging], debugger.extremotetyped_arrayelement, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ArrayElement, ArrayElement method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::ArrayElement, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], ArrayElement method
+ms.keywords: ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], ArrayElement method, ArrayElement method [Windows Debugging], ArrayElement method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::ArrayElement, ArrayElement, debugger.extremotetyped_arrayelement, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ ExtRemoteData ArrayElement(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 The index of the array element.
 

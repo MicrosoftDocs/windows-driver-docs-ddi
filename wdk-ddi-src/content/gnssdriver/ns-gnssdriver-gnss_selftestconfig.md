@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE0D4A9A-F85D-4AA4-8A21-1BEC86837444
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SELFTESTCONFIG structure [Sensor Devices], gnssdriver/PGNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG, gnssdriver/GNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, sensors.gnss_selftestconfig, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices]
+ms.keywords: gnssdriver/GNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], sensors.gnss_selftestconfig, GNSS_SELFTESTCONFIG structure [Sensor Devices], PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - TestType
+### -field TestType
 
 The type of self-test requested.
 
@@ -92,7 +92,7 @@ The type of self-test requested.
  
 
 
-#### - InBufLen
+### -field InBufLen
 
 The length of the buffer for passing in any additional information about the self-test.
 
@@ -103,12 +103,12 @@ The length of the buffer for passing in any additional information about the sel
 
 
 
-#### - Unused[512]
-
-Padding buffer.
-
-
 #### - InBuffer[ANYSIZE_ARRAY]
 
 The buffer that will contain the additional information about the self-test.
+
+
+#### - Unused[512]
+
+Padding buffer.
 

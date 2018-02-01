@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], _USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], buses.usb_port_connector_properties, *PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES
+ms.keywords: usbioctl/USB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], USB_PORT_CONNECTOR_PROPERTIES structure [Buses], PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES, _USB_PORT_CONNECTOR_PROPERTIES, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, *PUSB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,23 +73,23 @@ typedef struct _USB_PORT_CONNECTOR_PROPERTIES {
 
 
 
-#### - ConnectionIndex
+### -field ConnectionIndex
 
 The port number being queried in the request. <b>ConnectionIndex</b> is specified by the caller. If there are <i>n</i> ports on the SuperSpeed hub, the ports are numbered from 1 to <i>n</i>. To get the number of ports, the caller first sends an <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request. The request retrieves the highest port number on the hub.
 
 
-#### - ActualLength
+### -field ActualLength
 
 The number of bytes required to hold the entire <b>USB_PORT_CONNECTOR_PROPERTIES</b>
     structure including the string that contains the symbolic link name of the companion hub. That string is stored in the <b>CompanionHubSymbolicLinkName</b> member. The <b>ActualLength</b> value is returned by the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a> request and used by the caller to allocate a buffer to hold the received information. For details, see <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b>. 
 
 
-#### - UsbPortProperties
+### -field UsbPortProperties
 
 The port properties. Upon completion of the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a> request, <b>UsbPortProperties</b> contains a bitwise <b>OR</b> of one or more flags indicating the properties and capabilities of the port. The flags are defined in <a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>.
 
 
-#### - CompanionIndex
+### -field CompanionIndex
 
 The index of the companion port that is associated with the port being queried (specified by <b>ConnectionIndex</b>). If there are <i>n</i> companion ports, those ports are indexed from 0 to <i>n</i>–1.
 
@@ -98,12 +98,12 @@ If a port is mapped to more than one companion port, <b>CompanionIndex</b> is in
 For SuperSpeed hubs and xHCI controllers, <b>CompanionIndex</b> is always 0. For more information, see Remarks.
 
 
-#### - CompanionPortNumber
+### -field CompanionPortNumber
 
 The port number of the companion port that is given by <b>CompanionIndex</b>. If the port being queried shares a USB connector with a port on another hub,  <b>CompanionPortNumber</b> indicates the port number of the port on the other hub. 
 <div class="alert"><b>Note</b>  For root hub of an xHCI controller, the shared port might be on the same hub.</div><div> </div>
 
-#### - CompanionHubSymbolicLinkName
+### -field CompanionHubSymbolicLinkName
 
 The Unicode string that contains the symbolic link  of the companion hub that shares the USB connector. If a companion hub exists, <b>CompanionPortNumber</b> is nonzero. Otherwise, <b>CompanionHubSymbolicLinkName [0]</b> is <b>NULL</b>.
 

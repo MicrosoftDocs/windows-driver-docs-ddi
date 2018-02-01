@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.urssetpohandle, ursdevice/UrsSetPoHandle, UrsSetPoHandle function [Buses], UrsSetPoHandle
+ms.keywords: UrsSetPoHandle, ursdevice/UrsSetPoHandle, buses.urssetpohandle, UrsSetPoHandle function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE void UrsSetPoHandle(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-#### - PoHandle [in]
+### -param PoHandle [in]
 
 A handle that represents the registration of the device with PoFx. The client driver receives this handle from WDF in  <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>  and <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a> callback functions.
 
@@ -98,9 +98,9 @@ In the client driver's implementation of the <a href="..\wdfdevice\nc-wdfdevice-
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
-
 <i>EvtDeviceWdmPrePoFxUnregisterDevice</i>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
  
 

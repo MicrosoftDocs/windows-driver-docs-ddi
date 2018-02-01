@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetFileSizes routine [Installable File System Drivers], CcSetFileSizes, ifsk.ccsetfilesizes, ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ntifs/CcSetFileSizes
+ms.keywords: CcSetFileSizes, ifsk.ccsetfilesizes, CcSetFileSizes routine [Installable File System Drivers], ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ntifs/CcSetFileSizes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID CcSetFileSizes(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the cached file.
 
 
-#### - FileSizes [in]
+### -param FileSizes [in]
 
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b> and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 <div class="code"><span codelanguage=""><table>

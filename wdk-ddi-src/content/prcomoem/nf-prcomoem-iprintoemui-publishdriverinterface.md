@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4c2053ec-c6b3-4584-b689-dc887610c57e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUI, prcomoem/IPrintOemUI::PublishDriverInterface, print.iprintoemui_publishdriverinterface, IPrintOemUI interface [Print Devices], PublishDriverInterface method, print_unidrv-pscript_ui_d5f2a80f-fa9d-4433-9dc1-b1771f124a32.xml, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices], IPrintOemUI interface, IPrintOemUI::PublishDriverInterface
+ms.keywords: print.iprintoemui_publishdriverinterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], prcomoem/IPrintOemUI::PublishDriverInterface, PublishDriverInterface method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_d5f2a80f-fa9d-4433-9dc1-b1771f124a32.xml, IPrintOemUI, IPrintOemUI::PublishDriverInterface, IPrintOemUI interface [Print Devices], PublishDriverInterface method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT PublishDriverInterface(
 
 
 
-#### - pIUnknown
+### -param pIUnknown
 
 Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://msdn.microsoft.com/3c9df0ac-d823-4c27-bd34-85765f48b972">IPrintCoreUI2 COM Interface</a>, <a href="https://msdn.microsoft.com/ed11789f-750d-4f29-b5e0-ab299a1388db">IPrintOemDriverUI COM Interface</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552906">IPrintCoreHelperPS Interface</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552940">IPrintCoreHelperUni Interface</a>. See Remarks.
 

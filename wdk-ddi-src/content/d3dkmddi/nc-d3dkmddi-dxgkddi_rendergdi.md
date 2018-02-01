@@ -71,12 +71,12 @@ NTSTATUS APIENTRY DxgkDdiRenderGdi(
 
 
 
-#### - hContext [in]
+### -param hContext [in]
 
 A handle to a context block that is associated with a display adapter. 
 
 
-#### - pRenderGdi [in, out]
+### -param pRenderGdi [in, out]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_rendergdi.md">DXGKARG_RENDERGDI</a> structure that describes operation.
 

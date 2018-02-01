@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d94e3b80-b151-4b3a-a37d-bfba2850b28f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_ManageCalls, netvista.ril_managecalls, rilapi/RIL_ManageCalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_ManageCalls method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls, RIL_ManageCalls, rilapi/RIL_ManageCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,35 +77,35 @@ HRESULT  RIL_ManageCalls(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - dwCommand
+### -param dwCommand
 
 
 
-#### - dwID
+### -param dwID
 
 
 
-#### - lprcmOfferAnswer
+### -param lprcmOfferAnswer
 
 
 
-#### - lpraAddress
+### -param lpraAddress
 
 
 
-#### - dwRTTAction
+### -param dwRTTAction
 
 
 

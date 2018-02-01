@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 89a3ca92-7c8a-40e3-a818-0127af6f2e91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringFromGUID, kernel.rtlstringfromguid, RtlStringFromGUID routine [Kernel-Mode Driver Architecture], wdm/RtlStringFromGUID, k109_8a3ac592-7ade-48fc-9536-d8a6c84fb033.xml
+ms.keywords: wdm/RtlStringFromGUID, RtlStringFromGUID, k109_8a3ac592-7ade-48fc-9536-d8a6c84fb033.xml, kernel.rtlstringfromguid, RtlStringFromGUID routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS RtlStringFromGUID(
 
 
 
-#### - Guid [in]
+### -param Guid [in]
 
 Specifies the binary-format GUID to convert. 
 
 
-#### - GuidString [out]
+### -param GuidString [out]
 
 Pointer to a caller-supplied variable in which a pointer to the converted GUID string is returned. <b>RtlStringFromGUID</b> allocates the buffer space for the string, which the caller must free by calling <b>RtlFreeUnicodeString</b>. 
 

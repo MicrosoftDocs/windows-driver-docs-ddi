@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1B7C68BF-78AE-4427-B5DC-E388CB5FAC0C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_TEMPERATURE_INFO, storage.storage_temperature_info, ntddstor/PSTORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO, _STORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Storage Devices], PSTORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Storage Devices], *PSTORAGE_TEMPERATURE_INFO
+ms.keywords: storage.storage_temperature_info, STORAGE_TEMPERATURE_INFO structure [Storage Devices], _STORAGE_TEMPERATURE_INFO, ntddstor/PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Storage Devices], ntddstor/STORAGE_TEMPERATURE_INFO, *PSTORAGE_TEMPERATURE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _STORAGE_TEMPERATURE_INFO {
 
 
 
-#### - Index
+### -field Index
 
 Identifies the instance of temperature information. Starts from 0. Index 0 may indicate a composite value.      
 
 
-#### - Temperature
+### -field Temperature
 
 A signed value that indicates the current temperature, in degrees Celsius. 
 
 
-#### - OverThreshold
+### -field OverThreshold
 
 A signed value that specifies the maximum temperature within the desired threshold, in degrees Celsius.
 
 
-#### - UnderThreshold
+### -field UnderThreshold
 
 A signed value that specifies the minimum temperature within the desired threshold, in degrees Celsius.
 
 
-#### - OverThresholdChangable
+### -field OverThresholdChangable
 
 Indicates if <i>OverThreshold</i> can be changed by using <a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_temperature_threshold.md">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>.
 
 
-#### - UnderThresholdChangable
+### -field UnderThresholdChangable
 
 Indicates if <i>UnderThreshold</i> can be changed by using <a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_temperature_threshold.md">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>.
 
 
-#### - EventGenerated
+### -field EventGenerated
 
 Indicates if a notification will be generated when the current temperature crosses a threshold.
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved for future use.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for future use.
 
@@ -126,9 +126,9 @@ Reserved for future use.
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: wdm/FileFsFullSizeInformation, FileFsSectorSizeInformation, wdm/FileFsDriverPathInformation, FileFsLabelInformation, FileFsSizeInformation, wdm/FileFsSizeInformation, FileFsControlInformation, wdm/FileFsDeviceInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsVolumeInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], *PFS_INFORMATION_CLASS, FileFsVolumeFlagsInformation, wdm/FS_INFORMATION_CLASS, wdm/FileFsVolumeFlagsInformation, FileFsDeviceInformation, ifsk.fs_information_class, wdm/FileFsLabelInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsVolumeInformation, FileFsAttributeInformation, _FSINFOCLASS, wdm/FileFsAttributeInformation, FS_INFORMATION_CLASS, wdm/FileFsControlInformation, FileFsObjectIdInformation, wdm/FileFsObjectIdInformation
+ms.keywords: wdm/FileFsSizeInformation, FileFsSectorSizeInformation, wdm/FS_INFORMATION_CLASS, wdm/FileFsAttributeInformation, FileFsDriverPathInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsDriverPathInformation, ifsk.fs_information_class, wdm/FileFsFullSizeInformation, wdm/FileFsDeviceInformation, FileFsFullSizeInformation, wdm/FileFsLabelInformation, *PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsLabelInformation, FileFsSizeInformation, wdm/FileFsVolumeInformation, wdm/FileFsObjectIdInformation, FileFsControlInformation, FileFsVolumeFlagsInformation, wdm/FileFsVolumeFlagsInformation, _FSINFOCLASS, FileFsVolumeInformation, FileFsDeviceInformation, FileFsAttributeInformation, FileFsObjectIdInformation, wdm/FileFsControlInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,57 +80,57 @@ typedef enum  {
 
 
 
-#### - FileFsVolumeInformation
+### -field FileFsVolumeInformation
 
 Return a <a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a> structure that contains information about the volume such as the volume label, serial number, and creation time. 
 
 
-#### - FileFsLabelInformation
+### -field FileFsLabelInformation
 
 Use a <a href="..\ntddk\ns-ntddk-_file_fs_label_information.md">FILE_FS_LABEL_INFORMATION</a> structure to set information a volume label. 
 
 
-#### - FileFsSizeInformation
+### -field FileFsSizeInformation
 
 Return a <a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a> structure containing information about the amount of space on the volume that is available to the user that is associated with the calling thread. 
 
 
-#### - FileFsDeviceInformation
+### -field FileFsDeviceInformation
 
 Return a <a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a> structure that contains device information for the volume. 
 
 
-#### - FileFsAttributeInformation
+### -field FileFsAttributeInformation
 
 Return a <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a> structure that contains attribute information about the file system responsible for the volume. 
 
 
-#### - FileFsControlInformation
+### -field FileFsControlInformation
 
 Return a <a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a> structure that contains file system control information about the volume. 
 
 
-#### - FileFsFullSizeInformation
+### -field FileFsFullSizeInformation
 
 Return a <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a> structure that contains information about the total amount of space available on the volume. 
 
 
-#### - FileFsObjectIdInformation
+### -field FileFsObjectIdInformation
 
 Return a <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a> structure that contains file-system-specific object ID information for the volume. Note that this is not the same as the (GUID-based) unique volume name that is assigned by the operating system. 
 
 
-#### - FileFsDriverPathInformation
+### -field FileFsDriverPathInformation
 
 Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a> structure that contains information about whether a specified driver is in the I/O path for the volume. The originator of the IRP_MJ_QUERY_VOLUME_INFORMATION request must store the name of the driver into the FILE_FS_DRIVER_PATH_INFORMATION structure before sending the IRP to the file system volume device stack. 
 
 
-#### - FileFsVolumeFlagsInformation
+### -field FileFsVolumeFlagsInformation
 
 Use a <b>FILE_FS_VOLUME_FLAGS_INFORMATION</b> structure to set the flags for a volume. 
 
 
-#### - FileFsSectorSizeInformation
+### -field FileFsSectorSizeInformation
 
 Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_SECTOR_SIZE_INFORMATION</a> structure that contains information about the physical and logical sector sizes of a volume.
 

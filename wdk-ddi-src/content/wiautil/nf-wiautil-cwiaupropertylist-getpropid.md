@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a06de368-71a1-49f1-a948-1b69ca359fb6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList, CWiauPropertyList::GetPropId, image.cwiaupropertylist_getpropid, wiauFncs_3463736c-9dd0-4b87-b427-b19a0daf0df9.xml, GetPropId method [Imaging Devices], wiautil/CWiauPropertyList::GetPropId, CWiauPropertyList interface [Imaging Devices], GetPropId method, GetPropId method [Imaging Devices], CWiauPropertyList interface, GetPropId
+ms.keywords: wiauFncs_3463736c-9dd0-4b87-b427-b19a0daf0df9.xml, GetPropId, CWiauPropertyList interface [Imaging Devices], GetPropId method, GetPropId method [Imaging Devices], CWiauPropertyList, CWiauPropertyList::GetPropId, GetPropId method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_getpropid, wiautil/CWiauPropertyList::GetPropId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ PROPID GetPropId(
 
 
 
-#### - index
+### -param index
 
 Specifies the index of the property within the property list.
 

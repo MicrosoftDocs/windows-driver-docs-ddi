@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d97d6ef-87e6-4ba3-ab4b-aa5b22cb126b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_video_color_rgba, d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA, D3D11_1DDI_VIDEO_COLOR_RGBA structure [Display Devices], D3D11_1DDI_VIDEO_COLOR_RGBA
+ms.keywords: D3D11_1DDI_VIDEO_COLOR_RGBA structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA, display.d3d11_1ddi_video_color_rgba, D3D11_1DDI_VIDEO_COLOR_RGBA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D11_1DDI_VIDEO_COLOR_RGBA {
 
 
 
-#### - R
+### -field R
 
 The red value.
 
 
-#### - G
+### -field G
 
 The green value.
 
 
-#### - B
+### -field B
 
 The blue value.
 
 
-#### - A
+### -field A
 
 The alpha value. Values range from 0 (transparent) to 1 (opaque).
 

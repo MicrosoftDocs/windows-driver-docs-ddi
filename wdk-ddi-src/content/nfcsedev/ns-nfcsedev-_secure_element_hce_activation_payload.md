@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 2FFEB2DB-7506-4CDB-BD5F-41D2E4212017
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure pointer [Near-Field Proximity Drivers], nfcsedev/PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfpdrivers.secure_element_hce_activation_payload, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure [Near-Field Proximity Drivers], nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+ms.keywords: nfcsedev/PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure pointer [Near-Field Proximity Drivers], nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfpdrivers.secure_element_hce_activation_payload, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure [Near-Field Proximity Drivers], *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,18 +69,18 @@ typedef struct _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD {
 
 
 
-#### - bConnectionId
+### -field bConnectionId
 
 Unique identifer for current connection.
 
 
-#### - eRfTechType
+### -field eRfTechType
 
 NFC Forum RF technology type.
 
 
 
-#### - eRfProtocolType
+### -field eRfProtocolType
 
 NFC Forum RF protocol
 type.

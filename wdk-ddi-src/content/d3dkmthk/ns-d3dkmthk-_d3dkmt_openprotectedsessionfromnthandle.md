@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 15937864-c6ef-4c86-b957-87c7afe1cd94
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], display.d3dkmt-openprotectedsessionfromnthandle, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
+ms.keywords: display.d3dkmt-openprotectedsessionfromnthandle, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE {
 
 
 
-#### - hNtHandle
+### -field hNtHandle
 
 The protected NT session handle.
 
 
-#### - hHandle
+### -field hHandle
 
 The protected kernel session handle.
 

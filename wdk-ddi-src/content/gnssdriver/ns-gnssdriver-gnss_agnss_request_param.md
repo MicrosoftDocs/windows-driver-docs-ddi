@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 67A1DAEF-13D3-4D47-B10C-0CA30C8EB22F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_AGNSS_REQUEST_PARAM, gnssdriver/GNSS_AGNSS_REQUEST_PARAM, sensors.gnss_agnss_request_param, PGNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM structure pointer [Sensor Devices], GNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM structure [Sensor Devices], *PGNSS_AGNSS_REQUEST_PARAM
+ms.keywords: GNSS_AGNSS_REQUEST_PARAM structure [Sensor Devices], PGNSS_AGNSS_REQUEST_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM, sensors.gnss_agnss_request_param, gnssdriver/GNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - RequestType
+### -field RequestType
 
 Specifies the type of the request (for example, time injection, blob injection).
 
 
-#### - BlobFormat
+### -field BlobFormat
 
 If the RequestType is GNSS_AGNSS_BlobInjection, this contains the required  blob format.
 

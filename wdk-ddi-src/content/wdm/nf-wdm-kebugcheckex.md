@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2330fda2-71f5-4a8b-8124-775a40926bc1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeBugCheckEx, k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, kernel.kebugcheckex, KeBugCheckEx routine [Kernel-Mode Driver Architecture], KeBugCheckEx
+ms.keywords: KeBugCheckEx, kernel.kebugcheckex, wdm/KeBugCheckEx, k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, KeBugCheckEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,24 +72,24 @@ VOID  KeBugCheckEx(
 
 
 
-#### - BugCheckCode [in]
+### -param BugCheckCode [in]
 
 Specifies a value that indicates the reason for the bug check.
 
 
-#### - BugCheckParameter1 [in]
+### -param BugCheckParameter1 [in]
 
 
 
-#### - BugCheckParameter2 [in]
+### -param BugCheckParameter2 [in]
 
 
 
-#### - BugCheckParameter3 [in]
+### -param BugCheckParameter3 [in]
 
 
 
-#### - BugCheckParameter4 [in]
+### -param BugCheckParameter4 [in]
 
 The four <i>BugCheckParameterX</i> values supply additional information, such as the address and data where a memory-corruption error occurred, depending on the value of <i>BugCheckCode</i>.
 
@@ -118,15 +118,15 @@ However, even during driver development, this routine is of only limited utility
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
 
 <a href="..\ntddk\nf-ntddk-kebugcheck.md">KeBugCheck</a>
 
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-
 <a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
  
 

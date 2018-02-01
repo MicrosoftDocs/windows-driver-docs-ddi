@@ -71,22 +71,12 @@ VOID NdkGetPrivilegedMemoryRegionToken(
 
 
 
-#### - *pNdkPd [in]
+### -param *pNdkPd [in]
 
 A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
 
 
-#### - *pToken [out]
-
-A memory token value is returned in this location.
-
-
-#### - pNdkPd [in]
-
-A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
-
-
-#### - pToken [out]
+### -param *pToken [out]
 
 A memory token value is returned in this location.
 

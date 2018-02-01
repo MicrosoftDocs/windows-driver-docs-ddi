@@ -72,17 +72,17 @@ void SetCreateThreadNotifyRoutine(
 
 
 
-#### - ProcessId [in]
+### -param ProcessId [in]
 
 The process ID of the process.
 
 
-#### - ThreadId [in]
+### -param ThreadId [in]
 
 The thread ID of the thread.
 
 
-#### - Create [in]
+### -param Create [in]
 
 Indicates whether the thread was created (<b>TRUE</b>) or deleted (<b>FALSE</b>).
 

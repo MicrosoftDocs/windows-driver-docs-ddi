@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b749f96d-d04a-48f2-9012-b7c853e0de14
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::SetExceptionFilterParameters, IDebugControl3, SetExceptionFilterParameters method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], SetExceptionFilterParameters method, SetExceptionFilterParameters, IDebugControl_4e60bce4-e40d-46b6-83ad-55559b97fbad.xml, dbgeng/IDebugControl2::SetExceptionFilterParameters, IDebugControl::SetExceptionFilterParameters, dbgeng/IDebugControl3::SetExceptionFilterParameters, SetExceptionFilterParameters method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::SetExceptionFilterParameters, IDebugControl2::SetExceptionFilterParameters, SetExceptionFilterParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetExceptionFilterParameters method, SetExceptionFilterParameters method [Windows Debugging], debugger.setexceptionfilterparameters, IDebugControl interface [Windows Debugging], SetExceptionFilterParameters method
+ms.keywords: SetExceptionFilterParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl::SetExceptionFilterParameters, IDebugControl3 interface [Windows Debugging], SetExceptionFilterParameters method, IDebugControl interface [Windows Debugging], SetExceptionFilterParameters method, SetExceptionFilterParameters method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], SetExceptionFilterParameters method, dbgeng/IDebugControl3::SetExceptionFilterParameters, dbgeng/IDebugControl2::SetExceptionFilterParameters, IDebugControl3, SetExceptionFilterParameters, SetExceptionFilterParameters method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::SetExceptionFilterParameters, IDebugControl3::SetExceptionFilterParameters, debugger.setexceptionfilterparameters, SetExceptionFilterParameters method [Windows Debugging], IDebugControl_4e60bce4-e40d-46b6-83ad-55559b97fbad.xml, IDebugControl2::SetExceptionFilterParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT SetExceptionFilterParameters(
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of exception filters to change the parameters for.
 
 
-#### - Params [in]
+### -param Params [in]
 
 Specifies an array of exception filter parameters of type <a href="..\dbgeng\ns-dbgeng-_debug_exception_filter_parameters.md">DEBUG_EXCEPTION_FILTER_PARAMETERS</a>.  Only the <b>ExecutionOption</b>, <b>ContinueOption</b>, and <b>ExceptionCode</b> fields of these parameters are used.  The <b>ExceptionCode</b> field is used to identify the <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exception</a> whose exception filter will be changed.  <b>ExceptionOption</b> specifies the new break status and <b>ContinueOption</b> specifies the new handling status.
 
@@ -130,17 +130,17 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
  
 

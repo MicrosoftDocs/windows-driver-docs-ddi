@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5189ffad-e5dc-4f5a-a7e3-481d36332c81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE, _PNP_LOCATION_INTERFACE, drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml, kernel.pnp_location_interface, PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], ntddk/PNP_LOCATION_INTERFACE, ntddk/PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture]"
+ms.keywords: kernel.pnp_location_interface, ntddk/PNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE, drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml, PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture], _PNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE, ntddk/PPNP_LOCATION_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _PNP_LOCATION_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Version
+### -field Version
 
 The driver-defined version of the interface.
 
 
-#### - Context
+### -field Context
 
 A pointer to interface-specific context information.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the reference count for the interface. The PINTERFACE_REFERENCE function pointer type is defined in the Wdm.h header file.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the reference count for the interface. The PINTERFACE_DEREFERENCE function pointer type is defined in the Wdm.h header file.
 
 
-#### - GetLocationString
+### -field GetLocationString
 
 A pointer to the <a href="..\ntddk\nc-ntddk-pget_location_string.md">PnpGetLocationString</a> routine for the interface. The routine supplies the device-specific part of the SPDRP_LOCATION_PATHS property for the device.
 
@@ -111,13 +111,13 @@ A driver obtains a pointer to the <b>PNP_LOCATION_INTERFACE</b> structure by sen
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
 <a href="..\ntddk\nc-ntddk-pget_location_string.md">PnpGetLocationString</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
  
 

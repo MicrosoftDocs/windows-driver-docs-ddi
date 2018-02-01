@@ -59,6 +59,6 @@ Miniports have an opportunity to receive a PnP Stop notification for each audio 
 
 IAdapterPnpManagement is available in Windows 10, version 1511 and later versions of Windows. 
 
-For more information, see <mshelp:link keywords="audio.implement_pnp_rebalance_for_portcls_audio_drivers" tabindex="0">
-Implement PnP Rebalance for PortCls Audio Drivers</mshelp:link>.
+For more information, see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">
+Implement PnP Rebalance for PortCls Audio Drivers</a>.
 

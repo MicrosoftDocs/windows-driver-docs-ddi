@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 065f51c3-f476-4f04-880a-5c42e493d458
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKS_COMPRESSION, KS_COMPRESSION structure [Streaming Media Devices], PKS_COMPRESSION, KS_COMPRESSION, ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, stream.ks_compression, *PKS_COMPRESSION, PKS_COMPRESSION structure pointer [Streaming Media Devices], ks/KS_COMPRESSION
+ms.keywords: KS_COMPRESSION structure [Streaming Media Devices], stream.ks_compression, ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, ks/PKS_COMPRESSION, *PKS_COMPRESSION, KS_COMPRESSION, ks/KS_COMPRESSION, PKS_COMPRESSION, PKS_COMPRESSION structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - RatioNumerator
+### -field RatioNumerator
 
 Specifies the numerator of the compression/expansion ratio.
 
 
-#### - RatioDenominator
+### -field RatioDenominator
 
 Specifies the denominator of the compression/expansion ratio.
 
 
-#### - RatioConstantMargin
+### -field RatioConstantMargin
 
 Specifies a scalar constant to apply to the compression ratio. Set this to zero for no compression.
 

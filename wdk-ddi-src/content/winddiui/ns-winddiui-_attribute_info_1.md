@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7902877c-4991-48ae-9285-82949f898af2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PATTRIBUTE_INFO_1 structure pointer [Print Devices], ATTRIBUTE_INFO_1 structure [Print Devices], winddiui/PATTRIBUTE_INFO_1, winddiui/ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1, print.attribute_info_1, PATTRIBUTE_INFO_1, _ATTRIBUTE_INFO_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, ATTRIBUTE_INFO_1
+ms.keywords: PATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1 structure [Print Devices], winddiui/PATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1 structure pointer [Print Devices], print.attribute_info_1, winddiui/ATTRIBUTE_INFO_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, _ATTRIBUTE_INFO_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _ATTRIBUTE_INFO_1 {
 
 
 
-#### - dwJobNumberOfPagesPerSide
+### -field dwJobNumberOfPagesPerSide
 
 Number of document pages to be placed on one side of a physical page, as requested by the user. Allowable values are 1, 2, 4, 6, 9, or 16.
 
 
-#### - dwDrvNumberOfPagesPerSide
+### -field dwDrvNumberOfPagesPerSide
 
 Number of document pages that the printer and driver can place on one side of a physical page. This value must be 1 or the value specified for <b>dwJobNumberOfPagesPerSide</b>.
 
 
-#### - dwNupBorderFlags
+### -field dwNupBorderFlags
 
 One of the following bit flag values:
 <table>
@@ -115,7 +115,7 @@ The print processor should not draw a border around the page.
 </table> 
 
 
-#### - dwJobPageOrderFlags
+### -field dwJobPageOrderFlags
 
 One of the following bit flag values:
 <table>
@@ -156,17 +156,17 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 </table> 
 
 
-#### - dwDrvPageOrderFlags
+### -field dwDrvPageOrderFlags
 
 Bit flags indicating which page ordering options are supported by the printer and driver. Uses the same flags as <b>dwJobPageOrderFlags</b>.
 
 
-#### - dwJobNumberOfCopies
+### -field dwJobNumberOfCopies
 
 Number of copies of the print job, as requested by the user.
 
 
-#### - dwDrvNumberOfCopies
+### -field dwDrvNumberOfCopies
 
 Maximum number of copies the printer and driver can handle at once, taking into account such job attributes as collating and stapling.
 

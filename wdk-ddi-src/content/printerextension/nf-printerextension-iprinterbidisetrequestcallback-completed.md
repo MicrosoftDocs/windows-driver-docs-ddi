@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterBidiSetRequestCallback::Completed, Completed method [Print Devices], IPrinterBidiSetRequestCallback interface, IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback::Completed, Completed, Completed method [Print Devices], print.iprinterbidisetrequestcallback_completed, IPrinterBidiSetRequestCallback interface [Print Devices], Completed method
+ms.keywords: print.iprinterbidisetrequestcallback_completed, printerextension/IPrinterBidiSetRequestCallback::Completed, IPrinterBidiSetRequestCallback::Completed, Completed method [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices], Completed method, Completed method [Print Devices], IPrinterBidiSetRequestCallback interface, Completed, IPrinterBidiSetRequestCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT Completed(
 
 
 
-#### - bstrResponse [in]
+### -param bstrResponse [in]
 
 The received response.
 
 
-#### - hrStatus [in]
+### -param hrStatus [in]
 
 An HRESULT value.
 

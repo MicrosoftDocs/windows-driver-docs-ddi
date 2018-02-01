@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdffile_retrievefilename, RetrieveFileName method, IWDFFile interface, RetrieveFileName method, RetrieveFileName, IWDFFile::RetrieveFileName, umdf.iwdffile_retrievefilename, IWDFFile, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, wudfddi/IWDFFile::RetrieveFileName, RetrieveFileName method, IWDFFile interface
+ms.keywords: IWDFFile::RetrieveFileName, wudfddi/IWDFFile::RetrieveFileName, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, RetrieveFileName method, umdf.iwdffile_retrievefilename, IWDFFile, IWDFFile interface, RetrieveFileName method, RetrieveFileName method, IWDFFile interface, wdf.iwdffile_retrievefilename, RetrieveFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT RetrieveFileName(
 
 
 
-#### - pFileName [out]
+### -param pFileName [out]
 
 A pointer to a caller-supplied buffer that receives a <b>NULL</b>-terminated string that represents the full name of the file that is associated with the underlying kernel-mode device, if the supplied pointer is non-<b>NULL</b> and <b>RetrieveFileName</b> is successful. 
 
 
-#### - pdwFileNameLengthInChars [in, out]
+### -param pdwFileNameLengthInChars [in, out]
 
 A pointer to a caller-supplied variable that receives the size, in characters, of the full file name that <i>pFileName</i> points to. If the buffer at <i>pFileName</i> is non-<b>NULL</b>, the framework returns the size, in characters, of the file name string.
 

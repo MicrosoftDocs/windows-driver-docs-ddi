@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e821f738-3712-49c2-9026-ff6ddc0381a6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2 interface, ResumeIdle method, ResumeIdle, wudfddi/IWDFDevice2::ResumeIdle, ResumeIdle method, IWDFDevice2 interface, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, ResumeIdle method, wdf.iwdfdevice2_resumeidle, IWDFDevice2, IWDFDevice2::ResumeIdle, umdf.iwdfdevice2_resumeidle
+ms.keywords: IWDFDevice2::ResumeIdle, ResumeIdle method, IWDFDevice2 interface, umdf.iwdfdevice2_resumeidle, wudfddi/IWDFDevice2::ResumeIdle, wdf.iwdfdevice2_resumeidle, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, IWDFDevice2 interface, ResumeIdle method, IWDFDevice2, ResumeIdle method, ResumeIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

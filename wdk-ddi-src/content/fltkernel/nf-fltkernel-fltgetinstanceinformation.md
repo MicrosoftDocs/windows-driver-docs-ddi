@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eb8ba04a-dbf8-4964-8b45-2620447418b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetInstanceInformation, fltkernel/FltGetInstanceInformation, ifsk.fltgetinstanceinformation, FltGetInstanceInformation routine [Installable File System Drivers], FltApiRef_e_to_o_d476d1f7-fff3-45d1-91e9-25879ab9e90e.xml
+ms.keywords: FltGetInstanceInformation routine [Installable File System Drivers], fltkernel/FltGetInstanceInformation, FltGetInstanceInformation, FltApiRef_e_to_o_d476d1f7-fff3-45d1-91e9-25879ab9e90e.xml, ifsk.fltgetinstanceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS FltGetInstanceInformation(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 Opaque instance pointer for the caller. 
 
 
-#### - InformationClass [in]
+### -param InformationClass [in]
 
 Type of information requested. This parameter can have one of the following values. 
 <table>
@@ -127,17 +127,17 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="..\flt
 </table> 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter. 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value. 
 
 
-#### - BytesReturned [out]
+### -param BytesReturned [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltGetInstanceInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -186,21 +186,21 @@ Given a pointer to a minifilter instance, this routine returns information about
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPublishDeviceProfile, stream.kspublishdeviceprofile, KsPublishDeviceProfile function [Streaming Media Devices], ks/KsPublishDeviceProfile
+ms.keywords: stream.kspublishdeviceprofile, KsPublishDeviceProfile function [Streaming Media Devices], KsPublishDeviceProfile, ks/KsPublishDeviceProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ The <b>KsPublishDeviceProfile</b> API is called to publish device profile inform
 
 
 
-#### - FilterFactory [in]
+### -param FilterFactory [in]
 
 This is the same <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> used in the <a href="..\ks\nf-ks-ksinitializedeviceprofile.md">KsInitializeDeviceProfile</a> API.
 
 
-#### - Profile [in]
+### -param Profile [in]
 
 This is a camera profile of type <a href="..\ksmedia\ns-ksmedia-_ksdevice_profile_info.md">KSDEVICE_PROFILE_INFO</a>.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 350D3182-3BEE-4AB7-A9F0-5C5D7D60A617
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE, wditypes/WDI_WNM_ACTION, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, _WDI_WNM_ACTION, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, WDI_WNM_ACTION, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, WDI_WNM_ACTION enumeration [Network Drivers Starting with Windows Vista], netvista.wdi_wnm_action, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY
+ms.keywords: "_WDI_WNM_ACTION, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, wditypes/WDI_WNM_ACTION, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, WDI_WNM_ACTION, WDI_WNM_ACTION enumeration [Network Drivers Starting with Windows Vista], netvista.wdi_wnm_action, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WDI_WNM_ACTION {
 
 
 
-#### - WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY
+### -field WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY
 
 The message is a BSS Transition Management query frame.
 
 
-#### - WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST
+### -field WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST
 
 The message is a BSS Transition Management request frame. This is sent by the AP to the client.
 
 
-#### - WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE
+### -field WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE
 
 The message is a BSS Transition Management response frame. This is a response to the above request frame from the AP.
 

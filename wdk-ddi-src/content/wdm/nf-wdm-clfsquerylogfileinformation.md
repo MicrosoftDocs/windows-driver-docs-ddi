@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a907f219-9e4a-415f-821c-d419b7fde729
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsquerylogfileinformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture], ClfsQueryLogFileInformation, Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, wdm/ClfsQueryLogFileInformation
+ms.keywords: Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, wdm/ClfsQueryLogFileInformation, ClfsQueryLogFileInformation, kernel.clfsquerylogfileinformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS  ClfsQueryLogFileInformation(
 
 
 
-#### - plfoLog [in]
+### -param plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
-#### - eInformationClass [in]
+### -param eInformationClass [in]
 
 A value from the <a href="..\wdm\ne-wdm-_cls_log_information_class.md">CLFS_LOG_INFORMATION_CLASS</a> enumeration that specifies the type of information being requested.
 
@@ -92,7 +92,7 @@ TBD
 TBD
 
 
-#### - pinfoBuffer [out]
+### -param pinfoBuffer [out]
 
 A pointer to a buffer that receives the log information. The structure of this buffer depends on the value of <i>eInformationClass</i>. The following table shows the relationship between the information class and the data type of the buffer.
 <table>

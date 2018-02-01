@@ -77,12 +77,12 @@ typedef EVT_VMB_CHANNEL_PROCESSING_COMPLETE PFN_VMB_CHANNEL_PROCESSING_COMPLETE;
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel one which the packets are delivered.
 
 
-#### - PacketsProcessed [in]
+### -param PacketsProcessed [in]
 
 The number of packets which were delivered in this batch.
 
@@ -109,9 +109,9 @@ has been configured to defer packet processing to a worker thread.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">VmbChannelInitSetProcessPacketCallbacks</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">VmbChannelInitSetProcessPacketCallbacks</a>
 
  
 

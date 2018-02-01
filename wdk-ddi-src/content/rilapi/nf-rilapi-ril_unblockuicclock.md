@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8cddfa1-b15e-4832-8c9c-12d378bc682d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_UnblockUiccLock method [Network Drivers Starting with Windows Vista], RIL_UnblockUiccLock, rilapi/RIL_UnblockUiccLock, netvista.ril_unblockuicclock
+ms.keywords: RIL_UnblockUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_unblockuicclock, RIL_UnblockUiccLock, rilapi/RIL_UnblockUiccLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_UnblockUiccLock(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - lpLockCredential
+### -param lpLockCredential
 
 
 
-#### - lpszNewPassword
+### -param lpszNewPassword
 
 
 

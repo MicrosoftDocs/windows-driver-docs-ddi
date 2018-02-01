@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExFreePoolWithTag, ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag
+ms.keywords: kernel.exfreepoolwithtag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], k102_03ac2997-acff-40b6-a110-718261627130.xml, ExFreePoolWithTag, wdm/ExFreePoolWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID ExFreePoolWithTag(
 
 
 
-#### - P [in]
+### -param P [in]
 
 Specifies the beginning address of a block of pool memory allocated by either <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>.
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Specifies the tag value passed to <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a> when the block of memory was originally allocated.
 
@@ -97,9 +97,9 @@ Callers of <b>ExFreePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
  
 

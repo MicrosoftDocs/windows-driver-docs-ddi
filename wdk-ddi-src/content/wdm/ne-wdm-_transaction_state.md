@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b97bedc5-6393-49bd-b803-e70e3a3d49df
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, wdm/TransactionStateNormal, wdm/TransactionStateIndoubt, _TRANSACTION_STATE, wdm/TransactionStateCommittedNotify, kernel.transaction_state, TRANSACTION_STATE, wdm/TRANSACTION_STATE, TransactionStateCommittedNotify, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], TransactionStateNormal, TransactionStateIndoubt
+ms.keywords: kernel.transaction_state, wdm/TransactionStateNormal, wdm/TransactionStateIndoubt, _TRANSACTION_STATE, TransactionStateCommittedNotify, TRANSACTION_STATE, TransactionStateNormal, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/TRANSACTION_STATE, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, wdm/TransactionStateCommittedNotify, TransactionStateIndoubt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _TRANSACTION_STATE {
 
 
 
-#### - TransactionStateNormal
+### -field TransactionStateNormal
 
 The transaction's state is neither in doubt nor committed.
 
 
-#### - TransactionStateIndoubt
+### -field TransactionStateIndoubt
 
 The transaction's state is in doubt (that is, KTM cannot determine whether the transaction should be committed or rolled back). A transaction that has been prepared enters the "in doubt" state if its <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior transaction manager</a> becomes unavailable.
 
 
-#### - TransactionStateCommittedNotify
+### -field TransactionStateCommittedNotify
 
 The transaction has been committed. Commit notifications might (or might not) have been delivered to all enlistments.
 

@@ -70,7 +70,7 @@ void TerminateCallback(
 
 
 
-#### - Silo [in]
+### -param Silo [in]
 
 The silo to be terminated.
 

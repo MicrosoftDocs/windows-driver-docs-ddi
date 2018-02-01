@@ -74,37 +74,37 @@ The <b>DebugExtensionProvideValue</b> callback function sets <a href="https://ms
 
 
 
-#### - Client [in]
+### -param Client [in]
 
 A client to use if the extension needs DbgEng functions.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Provides behavioral flags. This parameter is currently reserved.
 
 
-#### - Name [in]
+### -param Name [in]
 
 The name of the value to return. This name might be one of the names that the <a href="..\dbgeng\nc-dbgeng-pdebug_extension_query_value_names.md">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
 
 
-#### - Value [out]
+### -param Value [out]
 
 A pointer to the value to be set.
 
 
-#### - TypeModBase [out]
+### -param TypeModBase [out]
 
 The base starting address for <i>Client.</i>
 
 
-#### - TypeId [out]
+### -param TypeId [out]
 
 A pointer to the ID for the type of <i>Value</i>.
 
 
-#### - TypeFlags [out]
+### -param TypeFlags [out]
 
 A parameter that you can use to return one of the following flags: 
 <table>
@@ -174,9 +174,9 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 <i>KnownStructOutput</i>
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
 <i>DebugExtensionUninitialize</i>
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 <i>DebugExtensionQueryValueNames</i>
 

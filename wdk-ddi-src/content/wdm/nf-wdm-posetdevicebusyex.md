@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3f4d01fe-84cb-424e-9107-e29c4e25d85c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoSetDeviceBusyEx, portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, kernel.posetdevicebusyex, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], PoSetDeviceBusyEx
+ms.keywords: PoSetDeviceBusyEx, wdm/PoSetDeviceBusyEx, portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], kernel.posetdevicebusyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID PoSetDeviceBusyEx(
 
 
 
-#### - IdlePointer [in, out]
+### -param IdlePointer [in, out]
 
 A pointer to an idle counter. This is a pointer value that was previously returned by the <a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a> routine. Because <b>PoRegisterDeviceForIdleDetection</b> might return a <b>NULL</b> pointer, the caller must verify that the pointer is non-<b>NULL</b> before it calls <b>PoSetDeviceBusyEx</b>.
 
@@ -99,13 +99,13 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 <a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-<a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
-
 <a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
+
+<a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
 
  
 

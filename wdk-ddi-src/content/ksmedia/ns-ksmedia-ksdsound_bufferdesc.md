@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 95b2f2ff-b98f-4210-9a4f-898573679aa7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC structure [Audio Devices], ksmedia/PKSDSOUND_BUFFERDESC, aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, audio.ksdsound_bufferdesc, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], PKSDSOUND_BUFFERDESC, *PKSDSOUND_BUFFERDESC, ksmedia/KSDSOUND_BUFFERDESC
+ms.keywords: aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, KSDSOUND_BUFFERDESC, ksmedia/PKSDSOUND_BUFFERDESC, audio.ksdsound_bufferdesc, *PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC structure [Audio Devices], PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], PKSDSOUND_BUFFERDESC, ksmedia/KSDSOUND_BUFFERDESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,21 +69,11 @@ typedef struct {
 
 
 
-#### - Flags
+### -field Flags
 
 Specifies the buffer configuration. This member can be set to the bitwise OR of one or more of the following flag bits:
 
 
-
-
-#### KSDSOUND_BUFFER_PRIMARY
-
-Indicates that the buffer is a primary sound buffer (the buffer the user hears when a game is playing).
-
-
-#### KSDSOUND_BUFFER_STATIC
-
-Indicates that the buffer will be used for static sound data.
 
 
 #### KSDSOUND_BUFFER_LOCHARDWARE
@@ -96,7 +86,17 @@ Forces the buffer to use hardware mixing.
 Forces the buffer to be stored in system memory and use software mixing.
 
 
-#### - Control
+#### KSDSOUND_BUFFER_PRIMARY
+
+Indicates that the buffer is a primary sound buffer (the buffer the user hears when a game is playing).
+
+
+#### KSDSOUND_BUFFER_STATIC
+
+Indicates that the buffer will be used for static sound data.
+
+
+### -field Control
 
 Specifies the capabilities of the buffer. The capabilities of a buffer are represented by a set of control flags. This member can be set to the bitwise OR of one or more of the following flag bits:
 
@@ -123,17 +123,17 @@ Indicates that the buffer uses a head-related transfer function (HRTF) for 3D co
 Indicates that the buffer has pan-control capability. If this bit is set, the pin representing the buffer implements a volume node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>) to control panning. For more information, see <a href="https://msdn.microsoft.com/baca55f5-c669-4bd2-82b5-3985030864f2">DirectSound Node-Ordering Requirements</a>.
 
 
-#### KSDSOUND_BUFFER_CTRL_VOLUME
-
-Indicates that the buffer has volume-control capability. If this bit is set, the pin representing the buffer implements a volume node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>) to control the stream's volume level.
-
-
 #### KSDSOUND_BUFFER_CTRL_POSITIONNOTIFY
 
 Indicates that the buffer has position-notification capability. If this bit is set, the pin representing the buffer supports the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a> property.
 
 
-#### - WaveFormatEx
+#### KSDSOUND_BUFFER_CTRL_VOLUME
+
+Indicates that the buffer has volume-control capability. If this bit is set, the pin representing the buffer implements a volume node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>) to control the stream's volume level.
+
+
+### -field WaveFormatEx
 
 Specifies the wave-data format of the buffer. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>.
 
@@ -149,9 +149,9 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>
+
+<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
 
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
@@ -159,7 +159,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
 
-<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 

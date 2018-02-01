@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiControlInvalid, wdfwmi/WdfWmiControlInvalid, wdfwmi/WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiInstanceControl, WDF_WMI_PROVIDER_CONTROL enumeration, _WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiEventControl, wdf.wdf_wmi_provider_control, WDF_WMI_PROVIDER_CONTROL, WdfWmiInstanceControl, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, WdfWmiEventControl, kmdf.wdf_wmi_provider_control
+ms.keywords: "_WDF_WMI_PROVIDER_CONTROL, wdfwmi/WDF_WMI_PROVIDER_CONTROL, WdfWmiEventControl, WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL enumeration, kmdf.wdf_wmi_provider_control, wdfwmi/WdfWmiInstanceControl, WdfWmiControlInvalid, wdf.wdf_wmi_provider_control, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, WdfWmiInstanceControl, wdfwmi/WdfWmiEventControl, wdfwmi/WdfWmiControlInvalid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _WDF_WMI_PROVIDER_CONTROL {
 
 
 
-#### - WdfWmiControlInvalid
+### -field WdfWmiControlInvalid
 
 For internal use only.
 
 
-#### - WdfWmiEventControl
+### -field WdfWmiEventControl
 
 The driver must enable or disable delivering events for a provider instance.
 
 
-#### - WdfWmiInstanceControl
+### -field WdfWmiInstanceControl
 
 The driver must enable or disable collecting data for a provider instance.
 

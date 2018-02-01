@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltwritefileex, FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx
+ms.keywords: fltkernel/FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], ifsk.fltwritefileex, FltWriteFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,17 +77,17 @@ NTSTATUS FltWriteFileEx(
 
 
 
-#### - InitiatingInstance [in]
+### -param InitiatingInstance [in]
 
 An opaque instance pointer for the minifilter driver instance that is initiating the write request. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for the file that the data is to be written to. This file object must be currently open. Calling <b>FltWriteFileEx</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - ByteOffset [in, optional]
+### -param ByteOffset [in, optional]
 
 A pointer to a caller-allocated variable that specifies the starting byte offset within the file where the write operation is to begin. 
 
@@ -103,19 +103,19 @@ If the file object that <i>FileObject</i> points to was opened for asynchronous 
 
 
 
-#### - Length [in]
+### -param Length [in]
 
 The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer that contains the data to be written to the file. If the file is opened for noncached I/O, this buffer be must be aligned in accordance with the alignment requirement of the underlying storage device. Minifilter drivers can allocate such an aligned buffer by calling <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
 
 If an MDL is provided in <i>Mdl</i>, <i>Buffer</i> must be NULL.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bitmask of flags that specify the type of write operation to be performed. 
 <table>
@@ -168,27 +168,27 @@ This flag is available starting with Windows Vista.
 </table> 
 
 
-#### - BytesWritten [out, optional]
+### -param BytesWritten [out, optional]
 
 A pointer to a caller-allocated variable that receives the number of bytes written to the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>. 
 
 
-#### - CallbackRoutine [in, optional]
+### -param CallbackRoutine [in, optional]
 
 A pointer to a <a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the write operation is complete. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - CallbackContext [in, optional]
+### -param CallbackContext [in, optional]
 
 A context pointer to be passed to the routine in <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored. 
 
 
-#### - Key [in, optional]
+### -param Key [in, optional]
 
 An optional key associated with a file object lock.
 
 
-#### - Mdl [in, optional]
+### -param Mdl [in, optional]
 
 An optional MDL that describes the data to write. If a buffer is provided in <i>Buffer</i>, then <i>Mdl</i> must be NULL.
 
@@ -243,21 +243,21 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfileex.md">FltReadFileEx</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
 <a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltreadfileex.md">FltReadFileEx</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
 
  
 

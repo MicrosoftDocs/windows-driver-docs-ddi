@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b91f33b3-2706-4c94-9960-ceea023891af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.iksclockpropertyset_ksgetcorrelatedtime, IKsClockPropertySet, KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices], KsGetCorrelatedTime method, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, IKsClockPropertySet::KsGetCorrelatedTime, KsGetCorrelatedTime
+ms.keywords: IKsClockPropertySet, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, IKsClockPropertySet interface [Streaming Media Devices], KsGetCorrelatedTime method, KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet::KsGetCorrelatedTime, KsGetCorrelatedTime, stream.iksclockpropertyset_ksgetcorrelatedtime, KsGetCorrelatedTime method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsGetCorrelatedTime(
 
 
 
-#### - CorrelatedTime [out]
+### -param CorrelatedTime [out]
 
 Pointer to a variable that receives a <a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a> structure that contains the current clock time along with the correlated system time.
 
@@ -90,11 +90,11 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
+<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559756">IKsClockPropertySet::KsSetCorrelatedTime</a>
 
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
 
  
 

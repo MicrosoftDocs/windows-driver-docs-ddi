@@ -70,7 +70,7 @@ _Check_return_ HRESULT APIENTRY* SetMarker(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 

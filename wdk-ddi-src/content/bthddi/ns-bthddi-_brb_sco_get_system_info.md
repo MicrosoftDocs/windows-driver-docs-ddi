@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO, bthddi/_BRB_SCO_GET_SYSTEM_INFO, bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices]"
+ms.keywords: bthddi/_BRB_SCO_GET_SYSTEM_INFO, _BRB_SCO_GET_SYSTEM_INFO, bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,14 +74,14 @@ struct _BRB_SCO_GET_SYSTEM_INFO {
 
 
 
-#### - Hdr
+### -field Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-#### - Features
+### -field Features
 
 A flag or combination of flags that indicates what SCO features the system supports. Possible
      values include:
@@ -96,19 +96,19 @@ A flag or combination of flags that indicates what SCO features the system suppo
 
 
 
-#### - MaxChannels
+### -field MaxChannels
 
 The maximum number of active SCO channels that the system supports. This member is set to 0xFFFF
      if there is no limit or if the limit is unknown.
 
 
-#### - TransferUnit
+### -field TransferUnit
 
 The minimum data transfer speed per each request, in milliseconds . Set to 0xFFFF if this value is
      variable or unknown.
 
 
-#### - PacketTypes
+### -field PacketTypes
 
 A flag or combination of flags that indicates the type of SCO data packets that the local system
      supports. These SCO packet types are defined by the Bluetooth SIG. See the Bluetooth specification for
@@ -132,7 +132,7 @@ A flag or combination of flags that indicates the type of SCO data packets that 
 
 
 
-#### - DataFormats
+### -field DataFormats
 
 A flag or combination of flags the indicates the voice-encoding data formats supported by the
      local system. Possible values include:
@@ -151,7 +151,7 @@ A flag or combination of flags the indicates the voice-encoding data formats sup
 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use. Do not use.
 
@@ -171,9 +171,9 @@ Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b>
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536625">BRB_SCO_GET_SYSTEM_INFO</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

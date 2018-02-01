@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C2D32ABB-5ABE-4580-9577-1144569EA8E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugcontrol4_getmanagedstatus, IDebugControl4::GetManagedStatus, IDebugControl4 interface [Windows Debugging], GetManagedStatus method, GetManagedStatus method [Windows Debugging], IDebugControl4 interface, GetManagedStatus method [Windows Debugging], dbgeng/IDebugControl4::GetManagedStatus, IDebugControl4, GetManagedStatus
+ms.keywords: GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetManagedStatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatus method, dbgeng/IDebugControl4::GetManagedStatus, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT GetManagedStatus(
 
 
 
-#### - Flags [out, optional]
+### -param Flags [out, optional]
 
 A pointer to flags from the debugging APIs.
 
 
-#### - WhichString [in]
+### -param WhichString [in]
 
 A value that controls which string to use.
 
 
-#### - String [out]
+### -param String [out]
 
 A pointer to a string from the debugging APIs.
 
 
-#### - StringSize [in]
+### -param StringSize [in]
 
 The size of the string.
 
 
-#### - StringNeeded [out, optional]
+### -param StringNeeded [out, optional]
 
 A pointer to an output string.
 

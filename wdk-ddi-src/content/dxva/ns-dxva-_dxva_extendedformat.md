@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b4d01c1f-8267-490e-a808-87d9be666a94
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], display.dxva_extendedformat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, _DXVA_ExtendedFormat, DXVA_ExtendedFormat
+ms.keywords: dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, dxva/DXVA_ExtendedFormat, DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], display.dxva_extendedformat, _DXVA_ExtendedFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,56 +73,56 @@ typedef struct _DXVA_ExtendedFormat {
 
 
 
-#### - SampleFormat
+### -field SampleFormat
 
 Specifies how a video frame is sampled. The 8 bits are defined by one of the enumerators in the <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a> enumeration type.
 
 
-#### - VideoChromaSubsampling
+### -field VideoChromaSubsampling
 
 Specifies the chroma encoding scheme for Y'Cb'Cr' data. The 4 bits are defined by an ORed combination of the enumerators in the <a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a> enumeration type. 
 
 
-#### - NominalRange
+### -field NominalRange
 
 Specifies whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black). The 3 bits are defined by one of the enumerators in the <a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a> enumeration type. 
 
 
-#### - VideoTransferMatrix
+### -field VideoTransferMatrix
 
 Specifies the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'. The 3 bits are defined by one of the enumerators in the <a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a> enumeration type. 
 
 
-#### - VideoLighting
+### -field VideoLighting
 
 Specifies lighting conditions for viewing video. The 4 bits are defined by one of the enumerators in the <a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a> enumeration type. 
 
 
-#### - VideoPrimaries
+### -field VideoPrimaries
 
 Specifies color primaries, which state which RGB basis functions are used. The 5 bits are defined by one of the enumerators in the <a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a> enumeration type. 
 
 
-#### - VideoTransferFunction
+### -field VideoTransferFunction
 
 Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by the <a href="..\dxva\ne-dxva-_dxva_videotransferfunction.md">DXVA_VideoTransferFunction</a> enumeration type. 
 
 
 ## -see-also
 
+<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
+
 <a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
 
-<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
+<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
+
+<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
 <a href="..\dxva\ne-dxva-_dxva_videotransferfunction.md">DXVA_VideoTransferFunction</a>
 
 <a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
-
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-
-<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
-
-<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
 
  
 

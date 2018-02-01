@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7244a63b-404f-45e0-b2f7-6c4ea70e4a21
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], IoFreeErrorLogEntry, wdm/IoFreeErrorLogEntry, kernel.iofreeerrorlogentry
+ms.keywords: k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], kernel.iofreeerrorlogentry, wdm/IoFreeErrorLogEntry, IoFreeErrorLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoFreeErrorLogEntry(
 
 
 
-#### - ElEntry [in]
+### -param ElEntry [in]
 
 Pointer to an error log packet allocated by <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>. 
 
@@ -89,11 +89,11 @@ Drivers use <b>IoFreeErrorLogEntry</b> to free an error log entry allocated by <
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
 <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 <a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
-
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
  
 

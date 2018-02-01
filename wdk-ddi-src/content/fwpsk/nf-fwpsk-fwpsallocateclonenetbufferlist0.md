@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72759748-fac6-45b9-9a81-ab71e6e7c3ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsAllocateCloneNetBufferList0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateCloneNetBufferList0, netvista.fwpsallocateclonenetbufferlist0
+ms.keywords: wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsallocateclonenetbufferlist0, FwpsAllocateCloneNetBufferList0, fwpsk/FwpsAllocateCloneNetBufferList0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,23 +75,23 @@ NTSTATUS NTAPI FwpsAllocateCloneNetBufferList0(
 
 
 
-#### - originalNetBufferList [in, out]
+### -param originalNetBufferList [in, out]
 
 A pointer to the original 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is being
      cloned.
 
 
-#### - netBufferListPoolHandle [in, optional]
+### -param netBufferListPoolHandle [in, optional]
 
 A 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-     NdisAllocateNetBufferListPool</b></mshelp:link> function. This parameter is optional and can be <b>NULL</b>.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - netBufferPoolHandle [in, optional]
+### -param netBufferPoolHandle [in, optional]
 
 A 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> pool handle that was obtained from a
@@ -99,13 +99,13 @@ A
      <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - allocateCloneFlags [in]
+### -param allocateCloneFlags [in]
 
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
 
-#### - netBufferList [out]
+### -param netBufferList [out]
 
 A pointer to a variable that receives a pointer to the clone 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
@@ -158,8 +158,8 @@ A callout driver calls the
     NET_BUFFER_LIST structure.
 
 This function is a wrapper around the 
-    <mshelp:link keywords="netvista.ndisallocateclonenetbufferlist" tabindex="0"><b>
-    NdisAllocateCloneNetBufferList</b></mshelp:link> function, but it is specialized for use by WFP 
+    <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+    NdisAllocateCloneNetBufferList</a> function, but it is specialized for use by WFP 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>.
 
 If the clone NET_BUFFER_LIST structure should have attributes that are associated with a specific pool,
@@ -173,8 +173,8 @@ The clone NET_BUFFER_LIST structure describes the same data that is described by
     <b>FwpsAllocateCloneNetBufferList0</b> function does not copy the data that is described by the original
     MDLs to new data buffers. Instead, the clone NET_BUFFER_LIST structure references the original data
     buffers. The clone NET_BUFFER_LIST structure does not include an initial 
-    <mshelp:link keywords="netvista.net_buffer_list_context" tabindex="0"><b>
-    NET_BUFFER_LIST_CONTEXT</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
+    NET_BUFFER_LIST_CONTEXT</a> structure.
 
 This function sets the 
     <b>ParentNetBufferList</b> member of the newly created clone NET_BUFFER_LIST structure to point to the
@@ -190,8 +190,8 @@ A callout driver can modify the clone NET_BUFFER_LIST structure and inject it in
 
 A callout driver can insert or replace individual net buffers (<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>) or MDLs inside the clone net buffer
     list. Such a driver must also undo the modifications before it calls the 
-    <mshelp:link keywords="netvista.fwpsfreeclonenetbufferlist0" tabindex="0"><b>
-    FwpsFreeCloneNetBufferList0</b></mshelp:link> function.
+    <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">
+    FwpsFreeCloneNetBufferList0</a> function.
 <h3><a id="Guidelines_for_Managing_Cloned_Packets"></a><a id="guidelines_for_managing_cloned_packets"></a><a id="GUIDELINES_FOR_MANAGING_CLONED_PACKETS"></a>Guidelines for Managing Cloned Packets</h3>A callout driver must not hold cloned packets indefinitely. A cloned packet can interfere with power
      management operations on an idle computer.
 
@@ -202,8 +202,8 @@ The intended use for cloned packets in WFP is to get clarification from a user-m
 
 If the callout driver needs to wait for a potentially lengthy operation, it makes a deep copy of
      the packet using 
-     <mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
-     FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>, and it blocks and absorbs the original packet.
+     <a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+     FwpsAllocateNetBufferAndNetBufferList0</a>, and it blocks and absorbs the original packet.
 
 Callout drivers should always return held packets as quickly as possible.
 
@@ -213,18 +213,18 @@ Callout drivers should always return held packets as quickly as possible.
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

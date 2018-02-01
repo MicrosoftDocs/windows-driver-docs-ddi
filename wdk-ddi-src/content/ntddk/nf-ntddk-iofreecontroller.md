@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a9b0ca27-dc46-4f9b-a3f9-51bbd759afc1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoFreeController, k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, IoFreeController, IoFreeController routine [Kernel-Mode Driver Architecture], kernel.iofreecontroller
+ms.keywords: k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, kernel.iofreecontroller, IoFreeController routine [Kernel-Mode Driver Architecture], IoFreeController, ntddk/IoFreeController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID IoFreeController(
 
 
 
-#### - ControllerObject [in]
+### -param ControllerObject [in]
 
 Pointer to the driver's controller object, which was allocated for the current I/O operation on a particular device by calling <b>IoAllocateController</b>. 
 
@@ -88,9 +88,9 @@ The connection between the current target device object and the controller objec
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
-
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
+
+<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
 
 <a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
 

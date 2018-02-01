@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a95f7a8d-7e0d-4971-9683-f83600030337
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2::SetPassCount, SetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, SetPassCount, debugger.setpasscount, SetPassCount method [Windows Debugging], dbgeng/IDebugBreakpoint::SetPassCount, SetPassCount method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], SetPassCount method, IDebugBreakpoint interface [Windows Debugging], SetPassCount method, dbgeng/IDebugBreakpoint2::SetPassCount, ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint::SetPassCount
+ms.keywords: SetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint2::SetPassCount, debugger.setpasscount, IDebugBreakpoint::SetPassCount, IDebugBreakpoint2 interface [Windows Debugging], SetPassCount method, ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, SetPassCount, IDebugBreakpoint2, IDebugBreakpoint interface [Windows Debugging], SetPassCount method, SetPassCount method [Windows Debugging], SetPassCount method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::SetPassCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT SetPassCount(
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 The number of times that the target must hit the breakpoint before it is triggered.  The number of times the target must pass the breakpoint without triggering it is the value of <i>Count</i>, minus one.
 

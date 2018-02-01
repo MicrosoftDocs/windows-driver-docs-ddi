@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4012667b-d287-4846-8860-0cca977f9792
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _REG_LOAD_KEY_INFORMATION, kernel.reg_load_key_information, wdm/PREG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION, kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml, wdm/REG_LOAD_KEY_INFORMATION
+ms.keywords: PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml, REG_LOAD_KEY_INFORMATION, kernel.reg_load_key_information, PREG_LOAD_KEY_INFORMATION, wdm/PREG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_LOAD_KEY_INFORMATION, wdm/REG_LOAD_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,57 +78,57 @@ typedef struct _REG_LOAD_KEY_INFORMATION {
 
 
 
-#### - Object
+### -field Object
 
 A pointer to the registry key object for the root key of the hive that is about to be loaded.
 
 
-#### - KeyName
+### -field KeyName
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the root key.
 
 
-#### - SourceFile
+### -field SourceFile
 
 A pointer to a <b>UNICODE_STRING</b> structure that contains the path name of a file that contains the registry hive information that is being loaded.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for system use.
 
 
-#### - TrustClassObject
+### -field TrustClassObject
 
 Reserved for system use.
 
 
-#### - UserEvent
+### -field UserEvent
 
 A pointer to an event object that is signaled when the hive is unloaded.
 
 
-#### - DesiredAccess
+### -field DesiredAccess
 
 The access mask that was specified by the thread that is trying to load the registry key. For more information about this access mask, see the description of the <i>DesiredAccess</i> parameter of the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine.
 
 
-#### - RootHandle
+### -field RootHandle
 
 An optional pointer to a location that receives the handle to the root of the hive that is being loaded. This member can be non-<b>NULL</b> if an application hive is  being loaded. In all other cases, this member should be <b>NULL</b>.
 
 
-#### - CallContext
+### -field CallContext
 
 Optional driver-defined context information that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can supply.
 
 
-#### - ObjectContext
+### -field ObjectContext
 
 A pointer to driver-defined context information that the driver has associated with a registry object by calling the <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a> routine.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
@@ -144,11 +144,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22">RegLoadKey</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+<a href="https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22">RegLoadKey</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 81511d81-206c-420b-a956-42cf68b57fc4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestForwardToParentDeviceIoQueue, WdfRequestForwardToParentDeviceIoQueue method, wdf.wdfrequestforwardtoparentdeviceioqueue, DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, wdfrequest/WdfRequestForwardToParentDeviceIoQueue, PFN_WDFREQUESTFORWARDTOPARENTDEVICEIOQUEUE, kmdf.wdfrequestforwardtoparentdeviceioqueue
+ms.keywords: WdfRequestForwardToParentDeviceIoQueue, DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, wdfrequest/WdfRequestForwardToParentDeviceIoQueue, PFN_WDFREQUESTFORWARDTOPARENTDEVICEIOQUEUE, WdfRequestForwardToParentDeviceIoQueue method, wdf.wdfrequestforwardtoparentdeviceioqueue, kmdf.wdfrequestforwardtoparentdeviceioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS WdfRequestForwardToParentDeviceIoQueue(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 
 
-#### - ParentDeviceQueue [in]
+### -param ParentDeviceQueue [in]
 
 A handle to a framework queue object. 
 
 
-#### - ForwardOptions [in]
+### -param ForwardOptions [in]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 

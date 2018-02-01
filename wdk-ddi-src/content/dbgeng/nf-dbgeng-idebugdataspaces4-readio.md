@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d690cf53-63a6-487c-a952-07035786d19c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadIo, IDebugDataSpaces4, debugger.readio, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces2::ReadIo, ReadIo method [Windows Debugging], ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces::ReadIo, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces interface, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces::ReadIo, IDebugDataSpaces3::ReadIo, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, dbgeng/IDebugDataSpaces3::ReadIo, IDebugDataSpaces interface [Windows Debugging], ReadIo method
+ms.keywords: ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, IDebugDataSpaces interface [Windows Debugging], ReadIo method, ReadIo, IDebugDataSpaces2::ReadIo, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, debugger.readio, dbgeng/IDebugDataSpaces3::ReadIo, dbgeng/IDebugDataSpaces::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces3::ReadIo, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, ReadIo method [Windows Debugging], IDebugDataSpaces4::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces::ReadIo, dbgeng/IDebugDataSpaces2::ReadIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,37 +76,37 @@ HRESULT ReadIo(
 
 
 
-#### - InterfaceType [in]
+### -param InterfaceType [in]
 
 Specifies the interface type of the I/O bus.  This parameter may take values in the INTERFACE_TYPE enumeration defined in wdm.h.
 
 
-#### - BusNumber [in]
+### -param BusNumber [in]
 
 Specifies the system-assigned number of the bus.  This is usually zero, unless the system has more than one bus of the same interface type.
 
 
-#### - AddressSpace [in]
+### -param AddressSpace [in]
 
 This parameter must be equal to one.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the I/O address within the address space.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Receives the data read from the I/O bus.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.  At present, this must be 1, 2, or 4. 
 
 
-#### - BytesRead [out, optional]
+### -param BytesRead [out, optional]
 
 Receives the number of bytes returned read from the I/O bus.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 83840bca-2e6e-4982-9ec1-e1e278908993
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline/IPartBase::GetStream, IPartBase, IPartBase interface [Print Devices], GetStream method, GetStream, GetStream method [Print Devices], IPartBase interface, print.ipartbase_getstream, GetStream method [Print Devices], filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml, IPartBase::GetStream
+ms.keywords: IPartBase::GetStream, print.ipartbase_getstream, IPartBase, IPartBase interface [Print Devices], GetStream method, GetStream method [Print Devices], IPartBase interface, GetStream, GetStream method [Print Devices], filterpipeline/IPartBase::GetStream, filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetStream(
 
 
 
-#### - ppStream [out]
+### -param ppStream [out]
 
 The stream object that contains the part data to be read.
 

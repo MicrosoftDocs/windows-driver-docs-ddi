@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6ff4e4d7-3ba4-4e4b-98fa-62f269aee69f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidiStream interface [Audio Devices], Write method, audio.iminiportmidistream_write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, Write, Write method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream, Write method [Audio Devices], IMiniportMidiStream::Write, portcls/IMiniportMidiStream::Write
+ms.keywords: Write method [Audio Devices], IMiniportMidiStream, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, Write, Write method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream interface [Audio Devices], Write method, IMiniportMidiStream::Write, portcls/IMiniportMidiStream::Write, audio.iminiportmidistream_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS Write(
 
 
 
-#### - BufferAddress [in]
+### -param BufferAddress [in]
 
 Pointer to a caller-allocated buffer that contains the outgoing MIDI data
 
 
-#### - BytesToWrite [in]
+### -param BytesToWrite [in]
 
 Specifies the number of bytes of MIDI data contained in the buffer that <i>BufferAddress</i> points to.
 
 
-#### - BytesWritten [out]
+### -param BytesWritten [out]
 
 Output pointer to a caller-allocated variable into which the method writes a count specifying the actual number of bytes that the method succeeded in writing to the MIDI output device. For more information, see the following Remarks section.
 

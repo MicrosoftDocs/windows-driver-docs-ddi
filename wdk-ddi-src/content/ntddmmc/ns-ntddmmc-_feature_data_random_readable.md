@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c235a3aa-f8fe-4034-a645-ef85b2574fa0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_RANDOM_READABLE, storage.feature_data_random_readable, ntddmmc/FEATURE_DATA_RANDOM_READABLE, PFEATURE_DATA_RANDOM_READABLE structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE structure [Storage Devices], _FEATURE_DATA_RANDOM_READABLE, structs-CD-ROM_90540677-8abb-43d0-919a-821411398074.xml, *PFEATURE_DATA_RANDOM_READABLE
+ms.keywords: PFEATURE_DATA_RANDOM_READABLE structure pointer [Storage Devices], storage.feature_data_random_readable, structs-CD-ROM_90540677-8abb-43d0-919a-821411398074.xml, FEATURE_DATA_RANDOM_READABLE structure [Storage Devices], _FEATURE_DATA_RANDOM_READABLE, ntddmmc/FEATURE_DATA_RANDOM_READABLE, ntddmmc/PFEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE, *PFEATURE_DATA_RANDOM_READABLE, PFEATURE_DATA_RANDOM_READABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _FEATURE_DATA_RANDOM_READABLE {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - LogicalBlockSize
+### -field LogicalBlockSize
 
 Indicates the number of bytes per logical block. The bytes of this value are arranged in big-endian order. <b>LogicalBlockSize</b>[0] contains the most significant byte, and <b>LogicalBlockSize</b>[3] contains the least significant byte.
 
 
-#### - Blocking
+### -field Blocking
 
 Indicates the number of logical blocks per device-readable unit. The bytes of this value are arranged in big-endian order. <b>Blocking</b>[0] contains the most significant byte, and <b>Blocking</b>[1] contains the least significant byte. 
 
 
-#### - ErrorRecoveryPagePresent
+### -field ErrorRecoveryPagePresent
 
 Indicates, when set to zero, that the read/write error recovery mode page might not be present. When set to 1, it indicates that the error recovery page is present. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 

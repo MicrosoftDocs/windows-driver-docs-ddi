@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMAlphaBlend function [Print Devices], print.oemalphablend, OEMAlphaBlend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, printoem/OEMAlphaBlend
+ms.keywords: printoem/OEMAlphaBlend, OEMAlphaBlend function [Print Devices], OEMAlphaBlend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, print.oemalphablend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,30 +73,30 @@ BOOL  APIENTRY OEMAlphaBlend(
 
 
 
-#### - psoDest
+### -param psoDest
 
 
 
-#### - psoSrc
+### -param psoSrc
 
 
 
-#### - pco
+### -param pco
 
 
 
-#### - pxlo
+### -param pxlo
 
 
 
-#### - prclDest
+### -param prclDest
 
 
 
-#### - prclSrc
+### -param prclSrc
 
 
 
-#### - pBlendObj
+### -param pBlendObj
 
 

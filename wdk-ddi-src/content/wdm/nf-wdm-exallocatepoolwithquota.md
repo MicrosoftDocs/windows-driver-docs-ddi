@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
+ms.keywords: ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], wdm/ExAllocatePoolWithQuota, kernel.exallocatepoolwithquota, ExAllocatePoolWithQuota, k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ PVOID ExAllocatePoolWithQuota(
 
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>.
 
 You can modify <i>PoolType</i> by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies the number of bytes to allocate.
 
@@ -107,13 +107,13 @@ Memory allocations of less than PAGE_SIZE are allocated within a page and do not
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
  
 

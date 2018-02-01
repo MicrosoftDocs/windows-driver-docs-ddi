@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68faba0a-8057-4259-b93d-c19899637356
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ikspin_kscreatesinkpinhandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin, IKsPin::KsCreateSinkPinHandle, ksproxy/IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, KsCreateSinkPinHandle
+ms.keywords: IKsPin, KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, stream.ikspin_kscreatesinkpinhandle, IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, ksproxy/IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin::KsCreateSinkPinHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT KsCreateSinkPinHandle(
 
 
 
-#### - Interface [in]
+### -param Interface [in]
 
 A type reference to a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> structure for the interface that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
 
 
-#### - Medium [in]
+### -param Medium [in]
 
 A type reference to a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structure for the medium that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
 
@@ -98,11 +98,11 @@ This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
  
 

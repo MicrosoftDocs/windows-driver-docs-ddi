@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F44C7FCC-0693-4F43-BF23-7160B67EDD3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE, kernel.pep_ppm_idle_complete, PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE, pepfx/PPEP_PPM_IDLE_COMPLETE
+ms.keywords: PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE, kernel.pep_ppm_idle_complete, _PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PEP_PPM_IDLE_COMPLETE {
 
 
 
-#### - ProcessorState
+### -field ProcessorState
 
 [in] An index that identifies the idle state from which the processor is waking. The platform extension plug-in (PEP) previously specified the supported processor idle states in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification. If the PEP specified N processor idle states, valid processor-idle-state indexes range from 0 to N-1. When the hypervisor is enabled and the platform wakes from an idle state, this member is set to <b>PEP_PROCESSOR_IDLE_STATE_UNKNOWN</b> (0xffffffff). For more information, see <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a>.
 
 
-#### - PlatformState
+### -field PlatformState
 
 [in] An index that identifies the idle state from which the platform is waking. The PEP previously specified the supported platform idle states in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification. If the PEP specified M platform idle states, valid platform-idle-state indexes range from 0 to M-1. If the transition from the processor idle state does not involve a transition from an platform idle state, this member will contain the value <b>PEP_PLATFORM_IDLE_STATE_NONE</b> (0xffffffff).
 

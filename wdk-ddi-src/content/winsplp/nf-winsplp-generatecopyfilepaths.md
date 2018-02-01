@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, GenerateCopyFilePaths, winsplp/GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices]
+ms.keywords: winsplp/GenerateCopyFilePaths, poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,39 +76,39 @@ DWORD GenerateCopyFilePaths(
 
 
 
-#### - pszPrinterName [in]
+### -param pszPrinterName [in]
 
 Caller-supplied pointer to a string representing the name of the print queue.
 
 
-#### - pszDirectory [in]
+### -param pszDirectory [in]
 
 Caller-supplied pointer to a string representing the value supplied for the server's <b>Directory</b> entry in the registry. For more information, see <a href="https://msdn.microsoft.com/70e65c7b-bba2-4da1-ac80-9719f8005c50">Supporting Point and Print During Printer Installations</a>.
 
 
-#### - pSplClientInfo [in]
+### -param pSplClientInfo [in]
 
 Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_splclient_info_1.md">SPLCLIENT_INFO_1</a> structure.
 
 
-#### - dwLevel [in]
+### -param dwLevel [in]
 
 Caller-supplied value indicating the level number of the structure pointed to by <i>pSplClientInfo</i>. Must be 1.
 
 
-#### - pszSourceDir [in, out]
+### -param pszSourceDir [in, out]
 
 For input, receives a caller-supplied pointer to a string representing the complete server directory path (including server name) from which files are to be copied.
 
 For output, the function can modify this string.
 
 
-#### - pcchSourceDirSize [in, out]
+### -param pcchSourceDirSize [in, out]
 
 Caller-supplied address containing the length of the buffer pointed to by <i>pszSourceDir</i>. (Note that this is the buffer length, not the string length.)
 
 
-#### - pszTargetDir [in, out]
+### -param pszTargetDir [in, out]
 
 For input, receives a caller-supplied pointer to a string representing the client directory path to which files are to be copied. The following rules apply:
 <ul>
@@ -123,12 +123,12 @@ When the function is called on the client, the string contains a complete path.
 </ul>For output, the function can modify this string.
 
 
-#### - pcchTargetDirSize [in, out]
+### -param pcchTargetDirSize [in, out]
 
 Caller-supplied address containing the length of the buffer pointed to by <i>pszTargetDir</i>. (Note that this is the buffer length, not the string length.)
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Caller-supplied flag. Can be one of the following:
 

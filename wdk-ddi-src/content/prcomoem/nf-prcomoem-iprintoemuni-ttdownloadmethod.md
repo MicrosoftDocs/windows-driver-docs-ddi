@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni interface [Print Devices], TTDownloadMethod method, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, IPrintOemUni, print.iprintoemuni_ttdownloadmethod, TTDownloadMethod method [Print Devices], IPrintOemUni interface, TTDownloadMethod method [Print Devices], IPrintOemUni::TTDownloadMethod, prcomoem/IPrintOemUni::TTDownloadMethod, TTDownloadMethod
+ms.keywords: IPrintOemUni interface [Print Devices], TTDownloadMethod method, print.iprintoemuni_ttdownloadmethod, IPrintOemUni, TTDownloadMethod method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::TTDownloadMethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, TTDownloadMethod, TTDownloadMethod method [Print Devices], IPrintOemUni::TTDownloadMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT TTDownloadMethod(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - pUFObj
+### -param pUFObj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 Receives one of the following method-supplied constant values:
 <table>
@@ -194,13 +194,13 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566001">FONTOBJ_pvTrueTypeFontFile</a>
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566001">FONTOBJ_pvTrueTypeFontFile</a>
 
  
 

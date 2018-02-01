@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3dd9c7f9-27d4-45d2-8692-4270818c1823
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml, IPrintCoreHelperUni, CreateGDLSnapshot, print.iprintcorehelperuni_creategdlsnapshot, CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni::CreateGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateGDLSnapshot method
+ms.keywords: CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni, CreateGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, print.iprintcorehelperuni_creategdlsnapshot, IPrintCoreHelperUni interface [Print Devices], CreateGDLSnapshot method, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml, IPrintCoreHelperUni::CreateGDLSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT CreateGDLSnapshot(
 
 
 
-#### - pDevmode [in]
+### -param pDevmode [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::CreateGDLSnapshot</code>  should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider, there is no default DEVMODEW structure and the <i>pDevmode</i> parameter is required.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter. 
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Reserved for system use. This parameter must be set to zero.
 
 
-#### - ppSnapshotStream [out]
+### -param ppSnapshotStream [out]
 
 A pointer to a stream that supplies the XML version of the GDL snapshot.
 

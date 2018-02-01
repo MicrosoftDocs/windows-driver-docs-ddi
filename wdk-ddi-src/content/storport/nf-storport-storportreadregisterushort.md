@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 11659e7d-db54-401c-a179-75cc5d411b55
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadRegisterUshort, storprt_f477688d-54cb-4cb6-b713-0e70cfbf2139.xml, storport/StorPortReadRegisterUshort, storage.storportreadregisterushort, StorPortReadRegisterUshort routine [Storage Devices]
+ms.keywords: storage.storportreadregisterushort, storport/StorPortReadRegisterUshort, storprt_f477688d-54cb-4cb6-b713-0e70cfbf2139.xml, StorPortReadRegisterUshort routine [Storage Devices], StorPortReadRegisterUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ STORPORT_API USHORT StorPortReadRegisterUshort(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register where the data is to be read. 
 

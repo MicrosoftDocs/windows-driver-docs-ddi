@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/CcSetLogHandleForFile, ifsk.ccsetloghandleforfile, Lsn, CcSetLogHandleForFile, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, CcSetLogHandleForFile routine [Installable File System Drivers], LogHandle
+ms.keywords: CcSetLogHandleForFile routine [Installable File System Drivers], ntifs/CcSetLogHandleForFile, ifsk.ccsetloghandleforfile, LogHandle, Lsn, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, CcSetLogHandleForFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID CcSetLogHandleForFile(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to the file object for the file for which the log handle is to be stored. 
 
 
-#### - LogHandle [in]
+### -param LogHandle [in]
 
 Pointer to the log handle that is to be stored. 
 
 
-#### - FlushToLsnRoutine [in]
+### -param FlushToLsnRoutine [in]
 
 Pointer to a log file flush callback routine to call before flushing buffers for this file. This routine is called to ensure that a log file is flushed to the most recent logical sequence number (LSN) for any buffer control block (BCB) being flushed. This routine is declared as follows:
 <div class="code"><span codelanguage=""><table>

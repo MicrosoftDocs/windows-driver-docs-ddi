@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9da16cd4-bd5f-4713-83ce-4302f6807476
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], *PUSB_PIPE_INFO, _USB_PIPE_INFO, USB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml, usbioctl/USB_PIPE_INFO, USB_PIPE_INFO structure [Buses], usbioctl/PUSB_PIPE_INFO, buses.usb_pipe_info
+ms.keywords: usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml, USB_PIPE_INFO, *PUSB_PIPE_INFO, buses.usb_pipe_info, USB_PIPE_INFO structure [Buses], PUSB_PIPE_INFO, _USB_PIPE_INFO, usbioctl/PUSB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], usbioctl/USB_PIPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _USB_PIPE_INFO {
 
 
 
-#### - EndpointDescriptor
+### -field EndpointDescriptor
 
 Describes the endpoint descriptor. For more information about the endpoint descriptor, see <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>.
 
 
-#### - ScheduleOffset
+### -field ScheduleOffset
 
 Indicates the schedule offset assigned to the endpoint for this pipe. See the remarks section for a discussion of the range of values that this member can take. 
 
@@ -156,9 +156,9 @@ The USB specification labels isochronous and interrupt transfers as "periodic," 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f5dec76e-16ad-4df0-b3c9-f0cbfb9b8c41
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, IPrintOemDriverUI interface [Print Devices], DrvUpdateUISetting method, IPrintOemDriverUI::DrvUpdateUISetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting, IPrintOemDriverUI, DrvUpdateUISetting method [Print Devices], IPrintOemDriverUI interface, print.iprintoemdriverui_drvupdateuisetting
+ms.keywords: prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintOemDriverUI interface, print.iprintoemdriverui_drvupdateuisetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml, IPrintOemDriverUI interface [Print Devices], DrvUpdateUISetting method, DrvUpdateUISetting, IPrintOemDriverUI::DrvUpdateUISetting, IPrintOemDriverUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT DrvUpdateUISetting(
 
 
 
-#### - pci
+### -param pci
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - pOptItem
+### -param pOptItem
 
 Caller-supplied pointer to an <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure describing a user interface option item.
 
 
-#### - dwPreviousSelection
+### -param dwPreviousSelection
 
 Not used.
 
 
-#### - dwMode
+### -param dwMode
 
 Caller-supplied integer constant indicating to which property sheet page the supplied option item belongs. The following constants are valid.
 <table>

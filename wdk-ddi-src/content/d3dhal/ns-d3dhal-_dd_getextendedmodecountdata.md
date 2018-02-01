@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 138b6ae2-4c89-40cb-a7b0-d1208e68c460
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DD_GETEXTENDEDMODECOUNTDATA, display.dd_getextendedmodecountdata, DD_GETEXTENDEDMODECOUNTDATA structure [Display Devices], d3dstrct_2139722c-6eff-4c77-b899-2085de6239fd.xml, _DD_GETEXTENDEDMODECOUNTDATA, d3dhal/DD_GETEXTENDEDMODECOUNTDATA
+ms.keywords: DD_GETEXTENDEDMODECOUNTDATA, display.dd_getextendedmodecountdata, _DD_GETEXTENDEDMODECOUNTDATA, d3dstrct_2139722c-6eff-4c77-b899-2085de6239fd.xml, d3dhal/DD_GETEXTENDEDMODECOUNTDATA, DD_GETEXTENDEDMODECOUNTDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _DD_GETEXTENDEDMODECOUNTDATA {
 
 
 
-#### - gdi2
+### -field gdi2
 
 Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
 
 
-#### - dwModeCount
+### -field dwModeCount
 
 Receives the number of supported extended display modes.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Specifies a reserved field. Driver should not read or write.
 
@@ -97,9 +97,9 @@ To handle D3DGDI2_TYPE_GETEXTENDEDMODECOUNT, the driver must store the number of
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7747645c-398f-434e-9f0c-21b6d3c7d963
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pm_parameters, NDIS_PM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PARAMETERS, ntddndis/NDIS_PM_PARAMETERS, _NDIS_PM_PARAMETERS, *PNDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS, miniport_power_management_ref_dc82d32a-ee0e-4167-b322-f0b91ece8002.xml, ntddndis/PNDIS_PM_PARAMETERS, PNDIS_PM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_PM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_parameters, miniport_power_management_ref_dc82d32a-ee0e-4167-b322-f0b91ece8002.xml, NDIS_PM_PARAMETERS, ntddndis/NDIS_PM_PARAMETERS, PNDIS_PM_PARAMETERS, ntddndis/PNDIS_PM_PARAMETERS, _NDIS_PM_PARAMETERS, *PNDIS_PM_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,20 +74,13 @@ typedef struct _NDIS_PM_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_PM_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
 
-
-
-#### NDIS_PM_PARAMETERS_REVISION_2
-
-Added various changes for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
 
 
 #### NDIS_PM_PARAMETERS_REVISION_1
@@ -97,7 +90,14 @@ Original version for NDIS 6.20.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_1.
 
 
-#### - EnabledWoLPacketPatterns
+#### NDIS_PM_PARAMETERS_REVISION_2
+
+Added various changes for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
+
+
+### -field EnabledWoLPacketPatterns
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that correspond to capabilities that the
      miniport driver reported in the 
@@ -118,27 +118,9 @@ The following flags are used:
 If this flag is set, the network adapter is enabled to generate a wake-up event when it receives a packet that matches a configured bitmap pattern.
 
 
-#### NDIS_PM_WOL_MAGIC_PACKET_ENABLED
-
-If this flag is set, the network adapter is enabled to generate a wake-up event when it receives a WOL magic packet. A 
-       <i>magic packet</i> contains within its payload a string of six bytes with a value of 0xFF, followed
-       immediately by 16 contiguous copies of the receiving network adapter's media access control (MAC) address.
-
-
 #### NDIS_PM_WOL_EAPOL_REQUEST_ID_MESSAGE_ENABLED
 
 If this flag is set, the network adapter is enabled to generate a wake-up event when it receives an EAPOL request identifier message.
-
-
-#### NDIS_PM_WOL_IPV4_TCP_SYN_ENABLED
-
-If this flag is set, the network adapter is enabled to generate a wake-up event when it receives an IPv4 TCP SYN packet. Remote hosts send TCP SYN packets to
-       initiate a TCP connection to the local computer.
-
-
-#### NDIS_PM_WOL_IPV6_TCP_SYN_ENABLED
-
-If this flag is set, the network adapter is enabled to generate a wake-up event when it receives an IPv6 TCP SYN packet.
 
 
 #### NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED
@@ -164,6 +146,12 @@ A value from the incoming packet in the location specified by the WOL pattern is
 </li>
 </ul><div class="alert"><b>Note</b>  Wildcard values that are enabled by this flag can include unspecified IPv4
         source and destination addresses, as well as unspecified source and destination ports.</div><div> </div>
+
+#### NDIS_PM_WOL_IPV4_TCP_SYN_ENABLED
+
+If this flag is set, the network adapter is enabled to generate a wake-up event when it receives an IPv4 TCP SYN packet. Remote hosts send TCP SYN packets to
+       initiate a TCP connection to the local computer.
+
 
 #### NDIS_PM_WOL_IPV6_DEST_ADDR_WILDCARD_ENABLED
 
@@ -193,7 +181,19 @@ A value from the incoming packet in the location specified by the WOL pattern is
 
 
 
-#### - EnabledProtocolOffloads
+#### NDIS_PM_WOL_IPV6_TCP_SYN_ENABLED
+
+If this flag is set, the network adapter is enabled to generate a wake-up event when it receives an IPv6 TCP SYN packet.
+
+
+#### NDIS_PM_WOL_MAGIC_PACKET_ENABLED
+
+If this flag is set, the network adapter is enabled to generate a wake-up event when it receives a WOL magic packet. A 
+       <i>magic packet</i> contains within its payload a string of six bytes with a value of 0xFF, followed
+       immediately by 16 contiguous copies of the receiving network adapter's media access control (MAC) address.
+
+
+### -field EnabledProtocolOffloads
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that correspond to capabilities that the
      miniport driver reported in the 
@@ -204,6 +204,16 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that correspond 
      
 
 
+
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_80211_RSN_REKEY_ENABLED
+
+If this bit is set, the overlying driver will request the network adapter to enable the IEEE
+       802.11i Robust Security Network (RSN) protocol offload capability. As soon as this protocol offload
+       has been configured by a set request of 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a>,
+       the driver should enable the network adapter to respond to RSN re-key requests packets while it is in a low power
+       state.
 
 
 #### NDIS_PM_PROTOCOL_OFFLOAD_ARP_ENABLED
@@ -224,17 +234,7 @@ If this bit is set, the overlying driver will request the network adapter to ena
        the driver should enable the network adapter to respond to NS packets while it is in a low-power state.
 
 
-#### NDIS_PM_PROTOCOL_OFFLOAD_80211_RSN_REKEY_ENABLED
-
-If this bit is set, the overlying driver will request the network adapter to enable the IEEE
-       802.11i Robust Security Network (RSN) protocol offload capability. As soon as this protocol offload
-       has been configured by a set request of 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a>,
-       the driver should enable the network adapter to respond to RSN re-key requests packets while it is in a low power
-       state.
-
-
-#### - WakeUpFlags
+### -field WakeUpFlags
 
 A ULONG value that contains a bitwise OR of NDIS_PM_WAKE_ON_
      <i>Xxx</i> flags. NDIS uses these flags to enable wake-up capabilities on
@@ -242,23 +242,6 @@ A ULONG value that contains a bitwise OR of NDIS_PM_WAKE_ON_
      
 
 
-
-
-#### NDIS_PM_WAKE_ON_LINK_CHANGE_ENABLED
-
-If this flag is set, the network adapter is enabled to generate a wake-up event when the link state changes from
-       media disconnected to media connected. 
-       
-
-For more information about this WOL capability, see 
-       <mshelp:link keywords="netvista.low_power_on_media_disconnect" tabindex="0">Low Power on Media
-       Disconnect</mshelp:link>.
-
-
-#### NDIS_PM_WAKE_ON_MEDIA_DISCONNECT_ENABLED
-
-If this flag is set, the network adapter is enabled to generate a wake-up event when the link state changes from
-       media connected to media disconnected.
 
 
 #### NDIS_PM_SELECTIVE_SUSPEND_ENABLED
@@ -278,7 +261,24 @@ The network adapter detects other external events that require processing by the
 For more information about the selective suspend power management capability, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451659">NDIS Selective Suspend</a>.
 
 
-#### - MediaSpecificWakeUpEvents
+#### NDIS_PM_WAKE_ON_LINK_CHANGE_ENABLED
+
+If this flag is set, the network adapter is enabled to generate a wake-up event when the link state changes from
+       media disconnected to media connected. 
+       
+
+For more information about this WOL capability, see 
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/low-power-on-media-disconnect">Low Power on Media
+       Disconnect</a>.
+
+
+#### NDIS_PM_WAKE_ON_MEDIA_DISCONNECT_ENABLED
+
+If this flag is set, the network adapter is enabled to generate a wake-up event when the link state changes from
+       media connected to media disconnected.
+
+
+### -field MediaSpecificWakeUpEvents
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. These flags specify the media-specific wake-up events that a network adapter supports. 
      
@@ -288,11 +288,9 @@ Starting with NDIS 6.30, the following flags are defined:
 
 
 
-#### NDIS_WLAN_WAKE_ON_NLO_DISCOVERY_ENABLED
+#### NDIS_WLAN_WAKE_ON_4WAY_HANDSHAKE_REQUEST_ENABLED
 
-If this flag is set, the 802.11 network adapter is enabled to generate a wake-up event when it detects a service set identifier (SSID) that was specified through a network offload (NLO). 
-
-For more information about NLO, see <a href="https://msdn.microsoft.com/528838AA-4002-4923-A71B-37ADEE9B8D07">Wi-Fi Network List Offload</a>.
+If this flag is set, the 802.11 network adapter is enabled to generate a wake-up event when it receives the first frame of the IEEE 802.11i RSN 4-way handshake with the AP. This handshake is performed when the adapter authenticates with the AP.
 
 
 #### NDIS_WLAN_WAKE_ON_AP_ASSOCIATION_LOST_ENABLED
@@ -305,9 +303,16 @@ If this flag is set, the 802.11 network adapter is enabled to generate a wake-up
 If this flag is set, the 802.11 network adapter is enabled to generate a wake-up event when it encounters an error during the IEEE 802.11i RSN group transient key (GTK) handshake with the AP.
 
 
-#### NDIS_WLAN_WAKE_ON_4WAY_HANDSHAKE_REQUEST_ENABLED
+#### NDIS_WLAN_WAKE_ON_NLO_DISCOVERY_ENABLED
 
-If this flag is set, the 802.11 network adapter is enabled to generate a wake-up event when it receives the first frame of the IEEE 802.11i RSN 4-way handshake with the AP. This handshake is performed when the adapter authenticates with the AP.
+If this flag is set, the 802.11 network adapter is enabled to generate a wake-up event when it detects a service set identifier (SSID) that was specified through a network offload (NLO). 
+
+For more information about NLO, see <a href="https://msdn.microsoft.com/528838AA-4002-4923-A71B-37ADEE9B8D07">Wi-Fi Network List Offload</a>.
+
+
+#### NDIS_WWAN_WAKE_ON_PACKET_STATE_ENABLED
+
+If this flag is set, the MB network adapter is enabled to generate a wake-up event when the availability of cellular packet data changes. This flag is new in Windows 10.
 
 
 #### NDIS_WWAN_WAKE_ON_REGISTER_STATE_ENABLED
@@ -320,19 +325,14 @@ If this flag is set, the mobile broadband (MB) network adapter is enabled to gen
 If this flag is set, the MB network adapter is enabled to generate a wake-up event when the MB Service has to be notified about the receipt of a Short Message Service (SMS) message. The adapter generates this wake-up event either after the completion of a previously issued <a href="https://msdn.microsoft.com/library/windows/hardware/ff569839">OID_WWAN_SMS_READ</a> query request, or the arrival of a new class-0 (flash/alert) message from the network provider as an event notification.
 
 
-#### NDIS_WWAN_WAKE_ON_USSD_RECEIVE_ENABLED
-
-If this flag is set, the MB network adapter is enabled to generate a wake-up event when it receives an Unstructured Supplementary Service Data (USSD) message.
-
-
-#### NDIS_WWAN_WAKE_ON_PACKET_STATE_ENABLED
-
-If this flag is set, the MB network adapter is enabled to generate a wake-up event when the availability of cellular packet data changes. This flag is new in Windows 10.
-
-
 #### NDIS_WWAN_WAKE_ON_UICC_CHANGE_ENABLED
 
 If this flag is set, the MB network adapter is enabled to generate a wake-up event when the UICC (SIM) card is inserted, removed, or enters an error state. This flag is new in Windows 10.
+
+
+#### NDIS_WWAN_WAKE_ON_USSD_RECEIVE_ENABLED
+
+If this flag is set, the MB network adapter is enabled to generate a wake-up event when it receives an Unstructured Supplementary Service Data (USSD) message.
 
 
 ## -remarks
@@ -362,17 +362,17 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569768">OID_PM_PARAMETERS</a>
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
  
 

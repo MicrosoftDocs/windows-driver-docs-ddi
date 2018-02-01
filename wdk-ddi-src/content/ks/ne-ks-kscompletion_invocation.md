@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnError, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], ks/KsInvokeOnSuccess, stream.kscompletion_invocation, KSCOMPLETION_INVOCATION, KsInvokeOnCancel, ks/KsInvokeOnCancel, KsInvokeOnError, KsInvokeOnSuccess
+ms.keywords: KSCOMPLETION_INVOCATION, stream.kscompletion_invocation, ks/KSCOMPLETION_INVOCATION, KsInvokeOnError, ks/KsInvokeOnError, KsInvokeOnCancel, ks/KsInvokeOnCancel, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnSuccess, ks/KsInvokeOnSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - KsInvokeOnSuccess
+### -field KsInvokeOnSuccess
 
 Invokes the completion routine on success.
 
 
-#### - KsInvokeOnError
+### -field KsInvokeOnError
 
 Invokes the completion routine on error.
 
 
-#### - KsInvokeOnCancel
+### -field KsInvokeOnCancel
 
 Invokes the completion routine on cancellation.
 

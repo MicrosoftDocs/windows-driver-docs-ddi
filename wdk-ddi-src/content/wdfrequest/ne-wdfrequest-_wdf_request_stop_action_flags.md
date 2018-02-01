@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 01f95aee-60aa-4d6f-88a9-c0fa6ea6a09a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestStopRequestCancelable, DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, _WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS, wdf.wdf_request_stop_action_flags, WdfRequestStopActionPurge, kmdf.wdf_request_stop_action_flags, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionSuspend, wdfrequest/WdfRequestStopActionSuspend, wdfrequest/WdfRequestStopRequestCancelable, wdfrequest/WdfRequestStopActionInvalid, wdfrequest/WdfRequestStopActionPurge, WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionInvalid
+ms.keywords: DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, WdfRequestStopRequestCancelable, wdfrequest/WdfRequestStopRequestCancelable, wdfrequest/WdfRequestStopActionInvalid, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wdfrequest/WdfRequestStopActionSuspend, WdfRequestStopActionPurge, WdfRequestStopActionInvalid, _WDF_REQUEST_STOP_ACTION_FLAGS, kmdf.wdf_request_stop_action_flags, wdf.wdf_request_stop_action_flags, WdfRequestStopActionSuspend, WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WdfRequestStopActionPurge, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_REQUEST_STOP_ACTION_FLAGS {
 
 
 
-#### - WdfRequestStopActionInvalid
+### -field WdfRequestStopActionInvalid
 
 Reserved for internal use only.
 
 
-#### - WdfRequestStopActionSuspend
+### -field WdfRequestStopActionSuspend
 
 The framework is stopping the I/O queue because the device is leaving its working (D0) state.
 
 
-#### - WdfRequestStopActionPurge
+### -field WdfRequestStopActionPurge
 
 The framework is stopping the I/O queue because the device is being removed. 
 
 
-#### - WdfRequestStopRequestCancelable
+### -field WdfRequestStopRequestCancelable
 
 The I/O request is cancelable.
 

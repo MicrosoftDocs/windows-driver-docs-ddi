@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bf8390db-7e42-4860-8cf6-df3459f16cea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers], RxAcquireSharedFcbResourceInMRxEx, mrxfcb/RxAcquireSharedFcbResourceInMRxEx, ifsk.rxacquiresharedfcbresourceinmrxex
+ms.keywords: mrxfcb/RxAcquireSharedFcbResourceInMRxEx, ifsk.rxacquiresharedfcbresourceinmrxex, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers], rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml, RxAcquireSharedFcbResourceInMRxEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS RxAcquireSharedFcbResourceInMRxEx(
 
 
 
-#### - pRxContext [in]
+### -param pRxContext [in]
 
 A pointer to the RX_CONTEXT. This parameter supplies the context of the operation for special treatment by internal RDBSS tracking if this feature is enabled. 
 
@@ -134,11 +134,11 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRxEx </b>should be
 
 <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
 
+<b>RxAcquireSharedFcbResourceInMRx</b>
+
 <a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
 <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
-
-<b>RxAcquireSharedFcbResourceInMRx</b>
 
  
 

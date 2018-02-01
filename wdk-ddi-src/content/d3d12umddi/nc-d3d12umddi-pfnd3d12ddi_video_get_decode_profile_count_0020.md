@@ -75,7 +75,7 @@ UINT APIENTRY* pfnGetDecodeProfileCount(
 
 
 
-#### - NodeIndex
+### -param NodeIndex
 
 The physical adapter of the device to which this operation applies.
 

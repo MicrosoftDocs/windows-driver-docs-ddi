@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.avc_pin_descriptor, avc/AVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], avc/PAVC_PIN_DESCRIPTOR
+ms.keywords: PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], AVC_PIN_DESCRIPTOR, stream.avc_pin_descriptor, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, *PAVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR, avc/PAVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _AVC_PIN_DESCRIPTOR {
 
 
 
-#### - PinId
+### -field PinId
 
 Specifies the offset (or ID) of the pin for which information is to be retrieved.
 
 
-#### - PinDescriptor
+### -field PinDescriptor
 
 Specifies a KSPIN_DESCRIPTOR structure. This structure is allocated in the nonpaged pool. The subunit driver must not free this pointer.
 
 
-#### - IntersectHandler
+### -field IntersectHandler
 
 An optional output parameter specifying a data range intersect handler associated with the <b>DataRanges</b> member of the <b>PinDescriptor</b> member.
 
 
-#### - Context
+### -field Context
 
 An optional output parameter specifying a value to be passed to the <b>IntersectHandler</b> when it is called during format negotiation. For more information about what an intersect handler is, see <a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>.
 
@@ -133,9 +133,9 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 <a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
 

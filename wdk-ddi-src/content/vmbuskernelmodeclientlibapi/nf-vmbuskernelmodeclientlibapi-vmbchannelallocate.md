@@ -74,19 +74,19 @@ NTSTATUS
 
 
 
-#### - ParentDeviceObject [in]
+### -param ParentDeviceObject [in]
 
 A pointer to the parent device.
 
 
 
-#### - IsServer [in]
+### -param IsServer [in]
 
 Whether the new channel is a server endpoint.
 
 
 
-#### - Channel [out]
+### -param Channel [out]
 
 A pointer to an allocated channel.
 

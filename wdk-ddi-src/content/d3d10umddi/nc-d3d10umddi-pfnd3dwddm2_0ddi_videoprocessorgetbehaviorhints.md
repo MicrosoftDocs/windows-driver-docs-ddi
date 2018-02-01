@@ -77,52 +77,42 @@ HRESULT APIENTRY* pfnVideoProcessorGetBehaviorHints(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-#### - hVideoProcessor [in]
+### -param hVideoProcessor [in]
 
 Handle to the video processor object.
 
 
-#### - OutputWidth [in]
+### -param OutputWidth [in]
 
 Indicates the width of the output surface.
 
 
-#### - OutputHeight [in]
+### -param OutputHeight [in]
 
 Indicates the height of the output surface.
 
 
-#### - OutputFormat [in]
+### -param OutputFormat [in]
 
 Indicates the output format of the video processor. 
 
 
-#### - StreamCount [in]
+### -param StreamCount [in]
 
 The number of input streams to process. 
 
 
-#### - *pStreams [in]
+### -param *pStreams [in]
 
 An array of structures indicating the format and status of each stream.
 
 
-#### - *pBehaviorHints [out]
-
-Receives a combination of <b>D3DWDDM2_0DDI_VIDEO_PROCESSOR_MULTIPLANE_BEHAVIOR_HINTS</b> values indicting which of the operations would best be performed using multi-plane overlay hardware rather than with <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>. 
-
-
-#### - pStreams [in]
-
-An array of structures indicating the format and status of each stream.
-
-
-#### - pBehaviorHints [out]
+### -param *pBehaviorHints [out]
 
 Receives a combination of <b>D3DWDDM2_0DDI_VIDEO_PROCESSOR_MULTIPLANE_BEHAVIOR_HINTS</b> values indicting which of the operations would best be performed using multi-plane overlay hardware rather than with <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>. 
 
@@ -143,9 +133,9 @@ This function uses the current state, set via the <b>VideoProcessorSetOutput</b>
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
  
 

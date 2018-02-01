@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6350A740-BD69-40C3-804A-075F9889865B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPROPERTY_QUALITY_REPORT, KSPROPERTY_QUALITY enumeration [Streaming Media Devices], ks/KSPROPERTY_QUALITY_ERROR, ks/KSPROPERTY_QUALITY, KSPROPERTY_QUALITY, stream.ksproperty_quality, KSPROPERTY_QUALITY_ERROR, KSPROPERTY_QUALITY_REPORT
+ms.keywords: KSPROPERTY_QUALITY_ERROR, ks/KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY_REPORT, ks/KSPROPERTY_QUALITY_ERROR, stream.ksproperty_quality, KSPROPERTY_QUALITY enumeration [Streaming Media Devices], KSPROPERTY_QUALITY, KSPROPERTY_QUALITY_REPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum  {
 
 
 
-#### - KSPROPERTY_QUALITY_REPORT
+### -field KSPROPERTY_QUALITY_REPORT
 
 Specify if the pin supports quality management.
 
 
-#### - KSPROPERTY_QUALITY_ERROR
+### -field KSPROPERTY_QUALITY_ERROR
 
 Specify if the pin supports quality management.
 

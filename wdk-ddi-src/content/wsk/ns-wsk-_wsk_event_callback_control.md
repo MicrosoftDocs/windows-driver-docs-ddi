@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 152e142a-dda4-4540-b1a9-14625f4653bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWSK_EVENT_CALLBACK_CONTROL, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml, WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], wsk/WSK_EVENT_CALLBACK_CONTROL, _WSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], WSK_EVENT_CALLBACK_CONTROL, *PWSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wsk/PWSK_EVENT_CALLBACK_CONTROL
+ms.keywords: WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], *PWSK_EVENT_CALLBACK_CONTROL, wsk/WSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml, _WSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL, wsk/PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], PWSK_EVENT_CALLBACK_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,18 +70,18 @@ typedef struct _WSK_EVENT_CALLBACK_CONTROL {
 
 
 
-#### - NpiId
+### -field NpiId
 
 A pointer to a 
-     <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
-     (NPI)</mshelp:link> identifier that specifies the NPI for the event callback function that is being enabled or
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     (NPI)</a> identifier that specifies the NPI for the event callback function that is being enabled or
      disabled. For enabling or disabling any of the standard WSK event callback functions, this member is a
      pointer to the WSK NPI identifier, NPI_WSK_INTERFACE_ID. For enabling or disabling any event callback
      functions for an extension interface, this member is a pointer to the NPI identifier for the extension
      interface.
 
 
-#### - EventMask
+### -field EventMask
 
 A ULONG value that contains a bitwise OR of event flags for the event callback functions that are
      being enabled or disabled. For information about the event flags for the standard WSK event callback
@@ -102,25 +102,25 @@ A WSK application can enable any combination of event callback functions for a s
 
 For more information about statically enabling certain event callback functions for all of the sockets
     that are created by a WSK application, see 
-    <mshelp:link keywords="netvista.wsk_set_static_event_callbacks" tabindex="0"><b>
-    WSK_SET_STATIC_EVENT_CALLBACKS</b></mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+    WSK_SET_STATIC_EVENT_CALLBACKS</a>.
 
 For more information about enabling and disabling a socket's event callback functions, see 
-    <mshelp:link keywords="netvista.enabling_and_disabling_event_callback_functions" tabindex="0">Enabling and
-    Disabling Event Callback Functions</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    Disabling Event Callback Functions</a>.
 
 
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+   WSK_SET_STATIC_EVENT_CALLBACKS</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
-<mshelp:link keywords="netvista.wsk_set_static_event_callbacks" tabindex="0"><b>
-   WSK_SET_STATIC_EVENT_CALLBACKS</b></mshelp:link>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>
 
  
 

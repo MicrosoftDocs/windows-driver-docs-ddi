@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 963c809f-da89-4f27-ba8b-3de8cdcec179
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, winppi/GdiStartPageEMF, GdiStartPageEMF, GdiStartPageEMF function [Print Devices], print.gdistartpageemf
+ms.keywords: gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, winppi/GdiStartPageEMF, print.gdistartpageemf, GdiStartPageEMF, GdiStartPageEMF function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ BOOL GdiStartPageEMF(
 
 
 
-#### - SpoolFileHandle
+### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 

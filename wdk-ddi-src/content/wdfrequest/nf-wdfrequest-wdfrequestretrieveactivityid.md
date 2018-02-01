@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6E38514E-75BD-4F98-AD12-FA4E31654C3E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveActivityId method, wdfrequest/WdfRequestRetrieveActivityId, PFN_WDFREQUESTRETRIEVEACTIVITYID, WdfRequestRetrieveActivityId, wdf.wdfrequestretrieveactivityid
+ms.keywords: PFN_WDFREQUESTRETRIEVEACTIVITYID, wdfrequest/WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId method, wdf.wdfrequestretrieveactivityid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS WdfRequestRetrieveActivityId(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 
 
-#### - ActivityId [out]
+### -param ActivityId [out]
 
 A pointer to a location to store the retrieved GUID.
 

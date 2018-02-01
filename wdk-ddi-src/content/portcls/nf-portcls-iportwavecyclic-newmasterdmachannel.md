@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbd2b6e2-e332-49ae-aa18-490fd5631479
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iportwavecyclic_newmasterdmachannel, IPortWaveCyclic interface [Audio Devices], NewMasterDmaChannel method, portcls/IPortWaveCyclic::NewMasterDmaChannel, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, IPortWaveCyclic::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], IPortWaveCyclic interface, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel, IPortWaveCyclic
+ms.keywords: NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices], IPortWaveCyclic interface, IPortWaveCyclic interface [Audio Devices], NewMasterDmaChannel method, NewMasterDmaChannel, IPortWaveCyclic, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, IPortWaveCyclic::NewMasterDmaChannel, audio.iportwavecyclic_newmasterdmachannel, portcls/IPortWaveCyclic::NewMasterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,42 +74,42 @@ NTSTATUS NewMasterDmaChannel(
 
 
 
-#### - DmaChannel [out]
+### -param DmaChannel [out]
 
 Pointer to a caller-allocated pointer variable into which the method writes a pointer to the new <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-#### - OuterUnknown [in]
+### -param OuterUnknown [in]
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-#### - ResourceList [in, optional]
+### -param ResourceList [in, optional]
 
 Pointer to the miniport driver's resource list, which is an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
 
 
-#### - MaximumLength [in]
+### -param MaximumLength [in]
 
 Maximum length in bytes of the cyclic DMA buffer that will be associated with this channel.
 
 
-#### - Dma32BitAddresses [in]
+### -param Dma32BitAddresses [in]
 
 Specifies the use of 32-bit addresses.
 
 
-#### - Dma64BitAddresses [in]
+### -param Dma64BitAddresses [in]
 
 Specifies the use of 64-bit addresses.
 
 
-#### - DmaWidth [in]
+### -param DmaWidth [in]
 
 Not used. Set to (DMA_WIDTH)(-1).
 
 
-#### - DmaSpeed [in]
+### -param DmaSpeed [in]
 
 Not used. Set to (DMA_SPEED)(-1).
 
@@ -134,17 +134,17 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536902">IPortWaveCyclic::NewSlaveDmaChannel</a>
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
 
  
 

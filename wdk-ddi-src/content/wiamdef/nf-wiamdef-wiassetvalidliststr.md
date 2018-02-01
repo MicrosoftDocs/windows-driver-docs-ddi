@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: d2745d91-6696-4946-9f90-a9cb48c7980f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasSetValidListStr, wiasSetValidListStr function [Imaging Devices], image.wiassetvalidliststr, wiasFncs_c18aeb74-5c44-43ea-be9e-5132f45a5f77.xml, wiasSetValidListStr
+ms.keywords: wiasSetValidListStr function [Imaging Devices], wiasSetValidListStr, wiamdef/wiasSetValidListStr, image.wiassetvalidliststr, wiasFncs_c18aeb74-5c44-43ea-be9e-5132f45a5f77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ HRESULT _stdcall wiasSetValidListStr(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - propid
+### -param propid
 
 Specifies the identifier of the property to be updated.
 
 
-#### - ulCount
+### -param ulCount
 
 Specifies the number of items in the <i>pbstrValues</i> array.
 
 
-#### - bstrNom
+### -param bstrNom
 
 Specifies the nominal value of the property.
 
@@ -112,15 +112,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistfloat.md">wiasSetValidListFloat</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
 

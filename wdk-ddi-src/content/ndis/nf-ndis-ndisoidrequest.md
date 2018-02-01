@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a3ddeec4-0414-48ed-ab3b-5df252682655
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisoidrequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, ndis/NdisOidRequest
+ms.keywords: ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, NdisOidRequest, netvista.ndisoidrequest, NdisOidRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ NDIS_STATUS NdisOidRequest(
 
 
 
-#### - NdisBindingHandle [in]
+### -param NdisBindingHandle [in]
 
 The handle returned by the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function that
      identifies the target adapter on the binding.
 
 
-#### - OidRequest [in]
+### -param OidRequest [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
@@ -114,8 +114,8 @@ The request operation completed successfully.
 </td>
 <td width="60%">
 The request is being handled asynchronously, and NDIS will call the caller's 
-       <mshelp:link keywords="netvista.protocoloidrequestcomplete" tabindex="0"><i>
-       ProtocolOidRequestComplete</i></mshelp:link> function when the request is completed.
+       <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">
+       ProtocolOidRequestComplete</a> function when the request is completed.
 
 </td>
 </tr>
@@ -277,9 +277,9 @@ For more information about the general and media-specific OIDs and their respect
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
-
 <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 4387e6f4-c980-4339-a89c-0e71c5a79e2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_PosBarcodeScannerCapabilitiesType, pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure, PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype"
+ms.keywords: PosBarcodeScannerCapabilitiesType, pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype, _PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PosBarcodeScannerCapabilitiesType {
 
 
 
-#### - PowerReportingType
+### -field PowerReportingType
 
 A <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> that indicates whether the device supports standard or advanced power reporting.
 
 
-#### - IsStatisticsReportingSupported
+### -field IsStatisticsReportingSupported
 
 Indicates whether <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics.md">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a> is supported.
 
 
-#### - IsStatisticsUpdatingSupported
+### -field IsStatisticsUpdatingSupported
 
 Indicates whether <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics.md">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a> is supported. 
 
 
-#### - IsImagePreviewSupported
+### -field IsImagePreviewSupported
 
 Indicates whether image data can be obtained from the barcode scanner device (in other words, whether <a href="https://msdn.microsoft.com/library/windows/hardware/dn757466">BarcodeScannerImagePreviewReceived</a> events will be sent by the driver).
 

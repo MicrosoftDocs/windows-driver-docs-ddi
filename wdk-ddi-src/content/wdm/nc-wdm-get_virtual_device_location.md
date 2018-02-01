@@ -75,31 +75,31 @@ NTSTATUS GetLocation(
 
 
 
-#### - Context [in, out]
+### -param Context [in, out]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-#### - VirtualFunction [in]
+### -param VirtualFunction [in]
 
 A zero-based value that specifies the VF on the device for  which the device location is returned
 
 
-#### - SegmentNumber [out]
+### -param SegmentNumber [out]
 
 A pointer to a caller-supplied variable in which this routine returns a UINT16 value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
 
 
 
-#### - BusNumber [out]
+### -param BusNumber [out]
 
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the current PCI bus number on which the device is attached.
 
 
 
 
-#### - FunctionNumber [out]
+### -param FunctionNumber [out]
 
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value.  This value contains the function number for the specified VF on the PCI bus.
 
@@ -152,9 +152,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 <b></b>
 

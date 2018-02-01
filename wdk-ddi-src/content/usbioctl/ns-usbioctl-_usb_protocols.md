@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F970A7FB-DF6F-414B-8B4B-C7E4C5C620B1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_PROTOCOLS union [Buses], *PUSB_PROTOCOLS, USB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, _USB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], PUSB_PROTOCOLS, buses.usb_protocols, usbioctl/USB_PROTOCOLS
+ms.keywords: USB_PROTOCOLS union [Buses], PUSB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], *PUSB_PROTOCOLS, buses.usb_protocols, _USB_PROTOCOLS, usbioctl/USB_PROTOCOLS, USB_PROTOCOLS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,27 +78,27 @@ typedef union _USB_PROTOCOLS {
 
 
 
-#### - Usb110
+### -field Usb110
 
 If <b>TRUE</b>, the port supports the protocols that are defined in the USB 1.1 Specification. This indicates that the port supports full-speed and low-speed operations.  <b>Usb110</b> is always TRUE for high-speed ports because those ports support full-speed and low-speed operations through split transactions and transaction translators.
 
 
-#### - Usb200
+### -field Usb200
 
 If <b>TRUE</b>, the port supports the protocols that are defined USB 2.0 Specification. This indicates that the port supports high-speed operations.
 
 
-#### - Usb300
+### -field Usb300
 
 If <b>TRUE</b>, the port supports the protocols that are defined USB 3.0 Specification. This indicates that the port supports SuperSpeed operations.
 
 
-#### - ReservedMBZ
+### -field ReservedMBZ
 
 Reserved. Do not use.
 
 
-#### - ul
+### -field ul
 
 A bitmask that indicates the USB signaling protocols that are supported by the port.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 276ED4AC-15D9-4550-AC51-83320DE9D5B2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices], display.d3dwddm1_3ddi_tile_region_size, D3DWDDM1_3DDI_TILE_REGION_SIZE
+ms.keywords: d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices], D3DWDDM1_3DDI_TILE_REGION_SIZE, display.d3dwddm1_3ddi_tile_region_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct D3DWDDM1_3DDI_TILE_REGION_SIZE {
 
 
 
-#### - NumTiles
+### -field NumTiles
 
 The number of tiles within the tiled region.
 <div class="alert"><b>Note</b>  <b>NumTiles</b> must equal <b>Width</b> * <b>Height</b> * <b>Depth</b>.</div><div> </div>
 
-#### - bUseBox
+### -field bUseBox
 
 If <b>TRUE</b>, the tiled region is defined by the <b>Width</b>, <b>Height</b>, and <b>Depth</b> members. In this case, one update region cannot span mipmaps, although it can span array slices using the  <b>Depth</b> member.
 
@@ -86,17 +86,17 @@ In either case, the starting location for the region within the resource
                   is specified as a separate parameter outside this structure.
 
 
-#### - Width
+### -field Width
 
 The width (in the <i>x</i>-direction) of the tiled region. Used for buffer, 1-D, 2-D, and 3-D rendering.
 
 
-#### - Height
+### -field Height
 
 The height (in the <i>y</i>-direction) of the tiled region. Used for 2-D and 3-D rendering.
 
 
-#### - Depth
+### -field Depth
 
 The depth (in the <i>z</i>-direction) of the tiled region. Used for 3-D rendering or for arrays. In the case of arrays, advancing in depth skips to the next slice of the same mipmap size.
 

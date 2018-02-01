@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e850fc5-a46a-4bd1-97a0-7ecc86102480
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWRECTPATCH, UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, display.d3dddiarg_drawrectpatch, d3dumddi/D3DDDIARG_DRAWRECTPATCH, D3DDDIARG_DRAWRECTPATCH structure [Display Devices], _D3DDDIARG_DRAWRECTPATCH
+ms.keywords: D3DDDIARG_DRAWRECTPATCH structure [Display Devices], _D3DDDIARG_DRAWRECTPATCH, UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, d3dumddi/D3DDDIARG_DRAWRECTPATCH, D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDIARG_DRAWRECTPATCH {
 
 
 
-#### - Handle
+### -field Handle
 
 [in] The handle to the patch surface.
 

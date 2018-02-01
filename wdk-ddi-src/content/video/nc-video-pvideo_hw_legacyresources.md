@@ -74,29 +74,24 @@ VOID HwVidLegacyResources(
 
 
 
-#### - VendorId [in]
+### -param VendorId [in]
 
 Specifies a code that identifies the device's vendor. This is the vendor ID specified in the device's PCI configuration space. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
 
 
-#### - DeviceId [in]
+### -param DeviceId [in]
 
 Specifies a code that identifies the particular device. This is the device ID specified in the device's PCI configuration space.
 
 
-#### - *LegacyResourceList [in, out]
+### -param *LegacyResourceList [in, out]
 
 Pointer to an array of <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
 
 
-#### - LegacyResourceCount [in, out]
+### -param LegacyResourceCount [in, out]
 
 Is the number of elements in the array to which <i>LegacyResourceList</i> points.
-
-
-#### - LegacyResourceList [in, out]
-
-Pointer to an array of <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
 
 
 ## -returns

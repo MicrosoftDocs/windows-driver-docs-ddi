@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 182e55ec-1a99-4bd6-bcf6-d5e8302b9eae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetValues2 method, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, IDebugRegisters2, GetValues2 method [Windows Debugging], debugger.getvalues2, GetValues2 method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetValues2, IDebugRegisters2::GetValues2, GetValues2
+ms.keywords: dbgeng/IDebugRegisters2::GetValues2, GetValues2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, IDebugRegisters2 interface [Windows Debugging], GetValues2 method, debugger.getvalues2, IDebugRegisters2, GetValues2, GetValues2 method [Windows Debugging], IDebugRegisters2::GetValues2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT GetValues2(
 
 
 
-#### - Source [in]
+### -param Source [in]
 
 Specifies the register source to query.
 
@@ -116,22 +116,22 @@ Fetch register information from the current scope's register context.
 </table> 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of registers whose values are requested.
 
 
-#### - Indices [in, optional]
+### -param Indices [in, optional]
 
 Specifies an array that contains the indices of the registers from which to get the values.  The number of elements in this array is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
 
-#### - Start [in]
+### -param Start [in]
 
 If <i>Indices</i> is <b>NULL</b>, the registers will be read consecutively starting at this index.  Otherwise, it is ignored.
 
 
-#### - Values [out]
+### -param Values [out]
 
 Receives the values of the registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
 
@@ -184,11 +184,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
 
  
 

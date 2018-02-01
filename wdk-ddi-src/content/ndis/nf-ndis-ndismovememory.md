@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1be08720-be44-4e1b-b0ec-b4eb0a2718a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMoveMemory macro [Network Drivers Starting with Windows Vista], netvista.ndismovememory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, NdisMoveMemory, ndis/NdisMoveMemory
+ms.keywords: netvista.ndismovememory, NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, ndis/NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -71,21 +71,21 @@ VOID NdisMoveMemory(
 
 
 
-#### - Destination [out]
+### -param Destination [out]
 
 A pointer to a system-space buffer that is the destination of the move. This buffer must be at
      least 
      <i>Length</i> bytes in size.
 
 
-#### - Source [in]
+### -param Source [in]
 
 A pointer to a system-space buffer from which this function copies the data to the destination
      buffer. This buffer must be at least 
      <i>Length</i> bytes in size.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to copy.
 
@@ -120,8 +120,8 @@ Callers of
 
 <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f0e6834c-b827-4342-83f1-5980f8edce24
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_registerforlinkevents, HBA_RegisterForLinkEvents routine [Storage Devices], HBA_RegisterForLinkEvents, hbaapi/HBA_RegisterForLinkEvents, fibreHBA_rtns_7fd8f7c4-faaf-4190-99c8-560615e14365.xml
+ms.keywords: fibreHBA_rtns_7fd8f7c4-faaf-4190-99c8-560615e14365.xml, HBA_RegisterForLinkEvents, hbaapi/HBA_RegisterForLinkEvents, storage.hba_registerforlinkevents, HBA_RegisterForLinkEvents routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ HBA_STATUS HBA_API HBA_RegisterForLinkEvents(
 
 
 
-#### - callback
+### -param callback
 
 Pointer to a callback routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556121">HBA_LINK_CALLBACK</a> to call when the event occurs. 
 
 
-#### - userData
+### -param userData
 
 Pointer to user input data that is passed to the callback routine when it is called with each occurrence of the event. This data can synchronize the event handling with event registration.
 
 
-#### - pRLIRBuffer
+### -param pRLIRBuffer
 
 Pointer to registered link incident report (RLIR) data that is passed to the callback routine with each occurrence of the event. This data is overwritten by the callback routine each time it is called. 
 
 
-#### - RLIRBufferSize
+### -param RLIRBufferSize
 
 Contains the size, in bytes, of the buffer at <i>pRLIRBuffer</i>.
 
@@ -103,14 +103,14 @@ TBD
 
 
 
-#### - handle
-
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
-
-
 #### - callbackHandle
 
 Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.
+
+
+#### - handle
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
 
 
 ## -returns
@@ -170,11 +170,11 @@ Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\n
 
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556121">HBA_LINK_CALLBACK</a>
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

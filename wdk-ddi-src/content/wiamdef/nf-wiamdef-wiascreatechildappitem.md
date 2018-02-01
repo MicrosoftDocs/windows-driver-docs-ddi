@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1dba59b0-5eac-4507-bd42-517a856aa864
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasCreateChildAppItem function [Imaging Devices], wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml, wiasCreateChildAppItem, wiamdef/wiasCreateChildAppItem, image.wiascreatechildappitem
+ms.keywords: wiasCreateChildAppItem function [Imaging Devices], wiasCreateChildAppItem, wiamdef/wiasCreateChildAppItem, image.wiascreatechildappitem, wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasCreateChildAppItem(
 
 
 
-#### - pParentWiasContext [in]
+### -param pParentWiasContext [in]
 
 Pointer to the item context to which the child will be added.
 
 
-#### - lFlags
+### -param lFlags
 
 Is reserved for system use.  
 
 
-#### - bstrItemName [in]
+### -param bstrItemName [in]
 
 Specifies a string that contains the item name without path information.
 
 
-#### - bstrFullItemName [in]
+### -param bstrFullItemName [in]
 
 Specifies a string that contains the item name including path information.
 
 
-#### - ppWiasChildContext [out]
+### -param ppWiasChildContext [out]
 
 Pointer to a memory location that receives the address of the newly created child item's context.
 

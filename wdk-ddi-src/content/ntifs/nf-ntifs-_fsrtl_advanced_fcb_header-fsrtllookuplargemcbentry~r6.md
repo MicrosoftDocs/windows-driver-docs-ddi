@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 35c6fefb-6045-4b0e-abe8-f78176ca144a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtllookuplargemcbentry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], ntifs/FsRtlLookupLargeMcbEntry, fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, FsRtlLookupLargeMcbEntry
+ms.keywords: ifsk.fsrtllookuplargemcbentry, FsRtlLookupLargeMcbEntry, fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], ntifs/FsRtlLookupLargeMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,19 +103,14 @@ TBD
 TBD
 
 
-#### - Index [out, optional]
+### -param Index [out, optional]
 
 Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - OpaqueMcb [in]
+#### - LargeCountFromStartingLbn [out, optional]
 
-Pointer to an initialized MCB structure. 
-
-
-#### - LargeVbn [in]
-
-Pointer to the requested VBN.
+Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
 
 
 #### - LargeLbn [out, optional]
@@ -133,9 +128,14 @@ Pointer to a variable that receives the number of sectors that follow <i>LargeVb
 Pointer to a variable that receives the LBN corresponding to the start of the mapping run, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - LargeCountFromStartingLbn [out, optional]
+#### - LargeVbn [in]
 
-Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
+Pointer to the requested VBN.
+
+
+#### - OpaqueMcb [in]
+
+Pointer to an initialized MCB structure. 
 
 
 ## -returns
@@ -167,15 +167,13 @@ If the specified VBN is higher than the highest VBN mapped by the MCB, or if the
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md">FsRtlInitializeLargeMcb</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
 
@@ -185,7 +183,9 @@ If the specified VBN is higher than the highest VBN mapped by the MCB, or if the
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md">FsRtlInitializeLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
 
  
 

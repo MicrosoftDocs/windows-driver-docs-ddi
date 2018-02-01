@@ -70,12 +70,7 @@ VOID NdkFlush(
 
 
 
-#### - *pNdkQp [in]
-
-A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
-
-
-#### - pNdkQp [in]
+### -param *pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
 

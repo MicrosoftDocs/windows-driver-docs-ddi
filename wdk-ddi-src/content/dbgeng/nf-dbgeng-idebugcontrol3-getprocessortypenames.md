@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], IDebugControl2::GetProcessorTypeNames, GetProcessorTypeNames, debugger.getprocessortypenames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetProcessorTypeNames
+ms.keywords: IDebugControl2::GetProcessorTypeNames, GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3, GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, debugger.getprocessortypenames, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetProcessorTypeNames, IDebugControl3::GetProcessorTypeNames, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,37 +75,37 @@ HRESULT GetProcessorTypeNames(
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 Specifies the type of the processor whose name is requested.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a> for a list of possible values.
 
 
-#### - FullNameBuffer [out, optional]
+### -param FullNameBuffer [out, optional]
 
 Receives the full name of the processor type.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - FullNameBufferSize [in]
+### -param FullNameBufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>FullNameBuffer</i> specifies.
 
 
-#### - FullNameSize [out, optional]
+### -param FullNameSize [out, optional]
 
 Receives the size in characters of the full name of the processor type.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - AbbrevNameBuffer [out, optional]
+### -param AbbrevNameBuffer [out, optional]
 
 Receives the abbreviated name of the processor type.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - AbbrevNameBufferSize [in]
+### -param AbbrevNameBufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>AbbrevNameBuffer</i> specifies.
 
 
-#### - AbbrevNameSize [out, optional]
+### -param AbbrevNameSize [out, optional]
 
 Receives the size in characters of the abbreviated name of the processor type.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -154,13 +154,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

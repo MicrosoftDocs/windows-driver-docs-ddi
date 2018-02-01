@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8ce3297-5a57-4ece-a74c-ae5e4e15ce3e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IMAGE_POLICY_ENTRY_TYPE, wdm/ImagePolicyEntryTypeAnsiString, wdm/ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeInt16, wdm/ImagePolicyEntryTypeBool, kernel._image_policy_entry_type, ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeUInt16, ImagePolicyEntryTypeInt8, ImagePolicyEntryTypeAnsiString, wdm/ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeInt32, ImagePolicyEntryTypeUnicodeString, wdm/ImagePolicyEntryTypeInt8, IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeUnicodeString, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeMaximum, ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeUInt64, ImagePolicyEntryTypeInt32, ImagePolicyEntryTypeInt64, _IMAGE_POLICY_ENTRY_TYPE
+ms.keywords: kernel._image_policy_entry_type, wdm/ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeInt64, wdm/IMAGE_POLICY_ENTRY_TYPE, wdm/ImagePolicyEntryTypeBool, IMAGE_POLICY_ENTRY_TYPE, wdm/ImagePolicyEntryTypeInt32, ImagePolicyEntryTypeUnicodeString, _IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeMaximum, ImagePolicyEntryTypeAnsiString, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt16, ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeBool, ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeUnicodeString, ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeInt16, wdm/ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeAnsiString, wdm/ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,62 +83,62 @@ typedef enum _IMAGE_POLICY_ENTRY_TYPE {
 
 
 
-#### - ImagePolicyEntryTypeBool
+### -field ImagePolicyEntryTypeBool
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeInt8
+### -field ImagePolicyEntryTypeInt8
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeUInt8
+### -field ImagePolicyEntryTypeUInt8
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeInt16
+### -field ImagePolicyEntryTypeInt16
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeUInt16
+### -field ImagePolicyEntryTypeUInt16
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeInt32
+### -field ImagePolicyEntryTypeInt32
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeUInt32
+### -field ImagePolicyEntryTypeUInt32
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeInt64
+### -field ImagePolicyEntryTypeInt64
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeUInt64
+### -field ImagePolicyEntryTypeUInt64
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeAnsiString
+### -field ImagePolicyEntryTypeAnsiString
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeUnicodeString
+### -field ImagePolicyEntryTypeUnicodeString
 
 Reserved.
 
 
-#### - ImagePolicyEntryTypeMaximum
+### -field ImagePolicyEntryTypeMaximum
 
 Reserved.
 

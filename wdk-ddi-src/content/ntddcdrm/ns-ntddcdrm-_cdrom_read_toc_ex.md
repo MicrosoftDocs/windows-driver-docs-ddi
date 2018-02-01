@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17dbc843-dc65-40d7-9cda-916127e4cfa4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml, _CDROM_READ_TOC_EX, PCDROM_READ_TOC_EX, storage.cdrom_read_toc_ex, CDROM_READ_TOC_EX structure [Storage Devices], PCDROM_READ_TOC_EX structure pointer [Storage Devices], CDROM_READ_TOC_EX, *PCDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX
+ms.keywords: PCDROM_READ_TOC_EX structure pointer [Storage Devices], CDROM_READ_TOC_EX structure [Storage Devices], _CDROM_READ_TOC_EX, PCDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, CDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX, structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml, storage.cdrom_read_toc_ex, *PCDROM_READ_TOC_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _CDROM_READ_TOC_EX {
 
 
 
-#### - Format
+### -field Format
 
 Specifies table of contents read operation, as follows:
 
@@ -89,14 +89,14 @@ Specifies table of contents read operation, as follows:
 
 
 
-#### CDROM_READ_TOC_EX_FORMAT_TOC
+#### CDROM_READ_TOC_EX_FORMAT_ATIP
 
-Query the device for the table of contents for the specified session(s). The <b>SessionTrack</b> member of the structure specifies the starting track number of the session for which the data will be returned. For multisession CD-ROMs, this command will return the table of contents data for all sessions. For track number 0xAA, it returns the lead-out area of the last complete session. The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a> structure.
+Query the device for <i>absolute time in pregroove</i> (ATIP) data. The output data is reported in the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a> structure. In this format, the <b>SessionTrack</b> member is reserved and must be set to zero. Logical block addressing (LBA) is not defined, and the <b>Msf</b> member must be set to 1.
 
 
-#### CDROM_READ_TOC_EX_FORMAT_SESSION
+#### CDROM_READ_TOC_EX_FORMAT_CDTEXT
 
-Query the device for the first complete session number, the last complete session number, and the last complete session starting address. The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a> structure. With this format, the <b>SessionTrack</b> member is reserved and must be set to zero. This format provides the initiator with quick access to the last finalized session starting address. 
+Query the device for CD-TEXT information that is recorded in the lead-in area as R-W subchannel data. The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a> structure with an appended array of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a> structures.
 
 
 #### CDROM_READ_TOC_EX_FORMAT_FULL_TOC
@@ -109,37 +109,37 @@ Query the device for all Q subcode data in the lead-in table of contents areas s
 Query the device for all Q subcode data in the <i>program memory area</i> (PMA). The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_pma_data.md">CDROM_TOC_PMA_DATA</a> structure. In this format, the <b>SessionTrack</b> member is reserved and must be set to zero. Logical block addressing (LBA) is not defined, and the <b>Msf</b> member must be set to 1.
 
 
-#### CDROM_READ_TOC_EX_FORMAT_ATIP
+#### CDROM_READ_TOC_EX_FORMAT_SESSION
 
-Query the device for <i>absolute time in pregroove</i> (ATIP) data. The output data is reported in the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a> structure. In this format, the <b>SessionTrack</b> member is reserved and must be set to zero. Logical block addressing (LBA) is not defined, and the <b>Msf</b> member must be set to 1.
-
-
-#### CDROM_READ_TOC_EX_FORMAT_CDTEXT
-
-Query the device for CD-TEXT information that is recorded in the lead-in area as R-W subchannel data. The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a> structure with an appended array of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a> structures.
+Query the device for the first complete session number, the last complete session number, and the last complete session starting address. The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a> structure. With this format, the <b>SessionTrack</b> member is reserved and must be set to zero. This format provides the initiator with quick access to the last finalized session starting address. 
 
 
-#### - Reserved1
+#### CDROM_READ_TOC_EX_FORMAT_TOC
+
+Query the device for the table of contents for the specified session(s). The <b>SessionTrack</b> member of the structure specifies the starting track number of the session for which the data will be returned. For multisession CD-ROMs, this command will return the table of contents data for all sessions. For track number 0xAA, it returns the lead-out area of the last complete session. The output data is reported in a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a> structure.
+
+
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Msf
+### -field Msf
 
 Indicates the minute-second-frame bit. When set to one, this bit indicates that minute-second-frame (MSF) addressing must be used. When zero, it indicates that logical block addressing (LBA) must be used. 
 
 
-#### - SessionTrack
+### -field SessionTrack
 
 Specifies the starting track number for which the data will be returned, the session for which the command is targeted, or a reserved field that drivers should set to zero. Which of these values <b>SessionTrack</b> takes depends on the value of the <b>Format</b> member. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved
 
@@ -153,23 +153,23 @@ For further information and definitions of terms used in this reference page and
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_pma_data.md">CDROM_TOC_PMA_DATA</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
-
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
  
 

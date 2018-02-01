@@ -71,7 +71,7 @@ VOID StrMiniPriorityRoutine(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to this buffer in the Context parameter of its call to <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>.
 

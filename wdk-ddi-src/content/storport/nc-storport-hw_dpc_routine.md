@@ -74,22 +74,22 @@ VOID HwStorDpcRoutine(
 
 
 
-#### - Dpc
+### -param Dpc
 
 A pointer to a Storport DPC  context. 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 A pointer to the per-adapter device extension. 
 
 
-#### - SystemArgument1
+### -param SystemArgument1
 
 A pointer to caller-supplied information.
 
 
-#### - SystemArgument2
+### -param SystemArgument2
 
 A pointer to caller-supplied information.
 
@@ -131,13 +131,13 @@ HW_DPC_ROUTINE (
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 

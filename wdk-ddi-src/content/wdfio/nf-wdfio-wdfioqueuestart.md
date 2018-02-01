@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ce8a447-6205-44d0-b5d2-b78f01e15bb4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStart method, PFN_WDFIOQUEUESTART, kmdf.wdfioqueuestart, wdfio/WdfIoQueueStart, wdf.wdfioqueuestart, DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, WdfIoQueueStart
+ms.keywords: WdfIoQueueStart method, WdfIoQueueStart, PFN_WDFIOQUEUESTART, wdf.wdfioqueuestart, wdfio/WdfIoQueueStart, DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, kmdf.wdfioqueuestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfIoQueueStart(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 

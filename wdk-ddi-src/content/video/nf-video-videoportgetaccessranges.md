@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a858b32-408e-4926-9aba-44046b0266e2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetAccessRanges function [Display Devices], VideoPortGetAccessRanges, display.videoportgetaccessranges, VideoPort_Functions_a0db7d5d-01be-4c3c-9ea2-2ebd9b8aaca3.xml, video/VideoPortGetAccessRanges
+ms.keywords: VideoPort_Functions_a0db7d5d-01be-4c3c-9ea2-2ebd9b8aaca3.xml, video/VideoPortGetAccessRanges, VideoPortGetAccessRanges function [Display Devices], VideoPortGetAccessRanges, display.videoportgetaccessranges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ VP_STATUS VideoPortGetAccessRanges(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-#### - NumRequestedResources
+### -param NumRequestedResources
 
 Specifies the number of elements in the <i>RequestedResources</i> array.
 
@@ -90,27 +90,27 @@ Specifies the number of elements in the <i>RequestedResources</i> array.
 TBD
 
 
-#### - NumAccessRanges
+### -param NumAccessRanges
 
 Specifies the number of elements in the <i>AccessRanges</i> array.
 
 
-#### - AccessRanges [out]
+### -param AccessRanges [out]
 
 Pointer to an area on the stack or to a static structure in the miniport driver to which <b>VideoPortGetAccessRanges</b> returns an array of <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a> elements filled with the bus-relative device memory ranges for the adapter.
 
 
-#### - VendorId
+### -param VendorId
 
 Should be set to <b>NULL</b>.
 
 
-#### - DeviceId
+### -param DeviceId
 
 Should be set to <b>NULL</b>.
 
 
-#### - Slot
+### -param Slot
 
 Pointer to a memory location in which the video port driver stores the slot number for the device, or is <b>NULL</b>. 
 
@@ -152,23 +152,23 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
-
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\nf-video-videoportsetbusdata.md">VideoPortSetBusData</a>
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
+
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

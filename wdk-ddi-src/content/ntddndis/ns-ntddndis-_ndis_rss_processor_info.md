@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f40a815-0247-428c-a46f-d3cdbf7e8058
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO, _NDIS_RSS_PROCESSOR_INFO, netvista.ndis_rss_processor_info, NDIS_RSS_PROCESSOR_INFO, ntddndis/PNDIS_RSS_PROCESSOR_INFO, ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_RSS_PROCESSOR_INFO
+ms.keywords: ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, PNDIS_RSS_PROCESSOR_INFO, ntddndis/PNDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO, *PNDIS_RSS_PROCESSOR_INFO, _NDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSS_PROCESSOR_INFO, netvista.ndis_rss_processor_info, NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ typedef struct _NDIS_RSS_PROCESSOR_INFO {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -115,27 +115,27 @@ NDIS 6.30
 </table> 
 
 
-#### - Flags
+### -field Flags
 
 Reserved. NDIS sets this member to zero.
 
 
-#### - RssBaseProcessor
+### -field RssBaseProcessor
 
 The starting processor number that is used for RSS. 
 <div class="alert"><b>Note</b>  The RSS base CPU number is the CPU number of the first CPU that RSS can use. RSS cannot use the CPUs that are numbered below the base CPU number.</div><div> </div>
 
-#### - MaxNumRssProcessors
+### -field MaxNumRssProcessors
 
 The maximum number of processors that are used for RSS
 
 
-#### - PreferredNumaNode
+### -field PreferredNumaNode
 
 The preferred NUMA node, which is the node closest to the NIC
 
 
-#### - RssProcessorArrayOffset
+### -field RssProcessorArrayOffset
 
 The offset, in bytes, from the start of the structure to an array of 
      <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a> structures, with each
@@ -145,24 +145,24 @@ The offset, in bytes, from the start of the structure to an array of
      array.
 
 
-#### - RssProcessorCount
+### -field RssProcessorCount
 
 The number of elements in the array of <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
 
 
-#### - RssProcessorEntrySize
+### -field RssProcessorEntrySize
 
 The size, in bytes, of elements in the array of <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
 
 
-#### - RssMaxProcessor
+### -field RssMaxProcessor
 
 The maximum processor number that is used for RSS.
 
 
-#### - RssProfile
+### -field RssProfile
 
 Reserved.
 
@@ -171,8 +171,8 @@ Reserved.
 
 
 NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls to the 
-    <mshelp:link keywords="netvista.ndisgetrssprocessorinformation" tabindex="0"><b>
-    NdisGetRssProcessorInformation</b></mshelp:link> function. After 
+    <a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+    NdisGetRssProcessorInformation</a> function. After 
     <b>NdisGetRssProcessorInformation</b> returns, this structure contains information about the set of
     processors that will be used for receive side scaling (RSS).
 
@@ -180,12 +180,12 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisgetrssprocessorinformation" tabindex="0"><b>
-   NdisGetRssProcessorInformation</b></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
+<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+   NdisGetRssProcessorInformation</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
 

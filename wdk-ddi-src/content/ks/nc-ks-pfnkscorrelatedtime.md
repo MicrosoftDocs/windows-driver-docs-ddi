@@ -71,12 +71,12 @@ LONGLONG FASTCALL KStrCorrelatedTime(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
 
-#### - SystemTime [out]
+### -param SystemTime [out]
 
 Specifies a pointer to a variable that receives the performance counter frequency.
 
@@ -99,13 +99,13 @@ The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteri
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
+
 <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
 
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
 
  
 

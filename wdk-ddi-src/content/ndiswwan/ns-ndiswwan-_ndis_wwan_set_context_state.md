@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8aadbfe0-e925-4c58-9ca0-d07dc40a0ff3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_538105aa-7c75-4c30-96ed-4763cf59575d.xml, _NDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_context_state, ndiswwan/NDIS_WWAN_SET_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_SET_CONTEXT_STATE, *PNDIS_WWAN_SET_CONTEXT_STATE
+ms.keywords: WwanRef_538105aa-7c75-4c30-96ed-4763cf59575d.xml, netvista.ndis_wwan_set_context_state, ndiswwan/PNDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE, *PNDIS_WWAN_SET_CONTEXT_STATE, _NDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SET_CONTEXT_STATE {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_CONTEXT_STATE
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - SetContextState
+### -field SetContextState
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a> object that
@@ -127,9 +127,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
  
 

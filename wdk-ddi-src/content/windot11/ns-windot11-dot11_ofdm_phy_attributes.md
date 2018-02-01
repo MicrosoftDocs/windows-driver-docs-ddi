@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: edc9bd9b-938f-43df-80fd-5a4d49f6f768
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_OFDM_PHY_ATTRIBUTES, PDOT11_OFDM_PHY_ATTRIBUTES, Native_802.11_data_types_20b6778d-4037-488b-a99f-304258498618.xml, windot11/PDOT11_OFDM_PHY_ATTRIBUTES, windot11/DOT11_OFDM_PHY_ATTRIBUTES, DOT11_OFDM_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], netvista.dot11_ofdm_phy_attributes, DOT11_OFDM_PHY_ATTRIBUTES, PDOT11_OFDM_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: "*PDOT11_OFDM_PHY_ATTRIBUTES, DOT11_OFDM_PHY_ATTRIBUTES, netvista.dot11_ofdm_phy_attributes, PDOT11_OFDM_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_OFDM_PHY_ATTRIBUTES, DOT11_OFDM_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/DOT11_OFDM_PHY_ATTRIBUTES, Native_802.11_data_types_20b6778d-4037-488b-a99f-304258498618.xml, PDOT11_OFDM_PHY_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct DOT11_OFDM_PHY_ATTRIBUTES {
 
 
 
-#### - uFrequencyBandsSupported
+### -field uFrequencyBandsSupported
 
 The frequency bands in which the PHY is capable of operating. Frequency bands are defined for:
      

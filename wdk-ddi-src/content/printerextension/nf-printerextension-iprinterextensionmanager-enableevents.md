@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8DF89C18-10CA-4E8B-8E2A-B373C80F7B39
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterExtensionManager::EnableEvents, EnableEvents, IPrinterExtensionManager::EnableEvents, IPrinterExtensionManager interface [Print Devices], EnableEvents method, EnableEvents method [Print Devices], EnableEvents method [Print Devices], IPrinterExtensionManager interface, print.iprinterextensionmanager_enableevents, IPrinterExtensionManager
+ms.keywords: EnableEvents method [Print Devices], IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices], EnableEvents method, printerextension/IPrinterExtensionManager::EnableEvents, print.iprinterextensionmanager_enableevents, IPrinterExtensionManager::EnableEvents, EnableEvents method [Print Devices], EnableEvents, IPrinterExtensionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT EnableEvents(
 
 
 
-#### - printerDriverId [in]
+### -param printerDriverId [in]
 
 The GUID representing the specified driver for which to enable events. This GUID is specified in the INF file, and is also specified by the manifest file directive 'PrinterDriverID'.
 

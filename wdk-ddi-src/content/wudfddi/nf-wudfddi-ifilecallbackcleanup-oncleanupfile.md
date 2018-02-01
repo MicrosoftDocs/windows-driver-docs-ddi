@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IFileCallbackCleanup, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, wudfddi/IFileCallbackCleanup::OnCleanupFile, wdf.ifilecallbackcleanup_oncleanupfile, OnCleanupFile method, OnCleanupFile method, IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, IFileCallbackCleanup interface, OnCleanupFile method
+ms.keywords: OnCleanupFile method, IFileCallbackCleanup interface, wdf.ifilecallbackcleanup_oncleanupfile, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, IFileCallbackCleanup, OnCleanupFile, wudfddi/IFileCallbackCleanup::OnCleanupFile, OnCleanupFile method, IFileCallbackCleanup::OnCleanupFile, umdf.ifilecallbackcleanup_oncleanupfile, IFileCallbackCleanup interface, OnCleanupFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void OnCleanupFile(
 
 
 
-#### - pWdfFileObject [in]
+### -param pWdfFileObject [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is associated with the device. 
 
@@ -95,11 +95,11 @@ For information about when the framework calls <b>OnCleanupFile</b>, see <a href
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-<a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
 
  
 

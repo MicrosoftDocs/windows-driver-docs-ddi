@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2D25A276-A367-4E59-9CA0-4F480675DD77
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceCreateIsochUrb, wdf.wdfusbtargetdevicecreateisochurb, PFN_WDFUSBTARGETDEVICECREATEISOCHURB, kmdf.wdfusbtargetdevicecreateisochurb, WdfUsbTargetDeviceCreateIsochUrb method, WdfUsbTargetDeviceCreateIsochUrb
+ms.keywords: WdfUsbTargetDeviceCreateIsochUrb method, kmdf.wdfusbtargetdevicecreateisochurb, wdf.wdfusbtargetdevicecreateisochurb, PFN_WDFUSBTARGETDEVICECREATEISOCHURB, wdfusb/WdfUsbTargetDeviceCreateIsochUrb, WdfUsbTargetDeviceCreateIsochUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfUsbTargetDeviceCreateIsochUrb(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a caller-supplied <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new memory object.   If the driver provides this parameter, the structure's <b>ParentObject</b> member must be a USB device object (WDFUSBDEVICE) or a request object (WDFREQUEST) created by the framework, or any object whose chain of parents leads to one of these types. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - NumberOfIsochPackets [in]
+### -param NumberOfIsochPackets [in]
 
 Specifies the number of isochronous packets for which the system allocates memory in the URB.
 
 
-#### - UrbMemory [out]
+### -param UrbMemory [out]
 
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object.
 
 
-#### - Urb [out, optional]
+### -param Urb [out, optional]
 
 A pointer to an URB structure that receives the address of the new isochronous URB. The framework initializes contents of the URB structure to zero. This parameter is optional and can be NULL.
 

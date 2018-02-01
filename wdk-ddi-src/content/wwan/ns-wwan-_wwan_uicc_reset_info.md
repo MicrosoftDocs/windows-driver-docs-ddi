@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1D53135F-3826-4546-A0AD-34697D186E8A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_uicc_reset_info, PWWAN_UICC_RESET_INFO, WWAN_UICC_RESET_INFO, wwan/WWAN_UICC_RESET_INFO, WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_UICC_RESET_INFO, wwan/PWWAN_UICC_RESET_INFO, PWWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_UICC_RESET_INFO
+ms.keywords: PWWAN_UICC_RESET_INFO, PWWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_UICC_RESET_INFO, wwan/PWWAN_UICC_RESET_INFO, wwan/WWAN_UICC_RESET_INFO, WWAN_UICC_RESET_INFO, WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_UICC_RESET_INFO, netvista.wwan_uicc_reset_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _WWAN_UICC_RESET_INFO {
 
 
 
-#### - PassThroughStatus
+### -field PassThroughStatus
 
 The passthrough status of the miniport adapter. For more info, see <a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>.
 
@@ -77,9 +77,9 @@ The passthrough status of the miniport adapter. For more info, see <a href="..\w
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_uicc_reset_info.md">NDIS_WWAN_UICC_RESET_INFO</a>
 
-<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+
+<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>
 
  
 

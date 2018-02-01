@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 470563BD-F185-4CA2-B4AD-06E1AABD36AD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyPagingQueue function [Display Devices], d3dkmthk/D3DKMTDestroyPagingQueue, display.d3dkmtdestroypagingqueue, D3DKMTDestroyPagingQueue
+ms.keywords: D3DKMTDestroyPagingQueue function [Display Devices], D3DKMTDestroyPagingQueue, display.d3dkmtdestroypagingqueue, d3dkmthk/D3DKMTDestroyPagingQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: AC0811C9-8746-40F4-801E-6A1567ABDE0B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltreleasecontextsex, fltkernel/FltReleaseContextsEx, FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers]
+ms.keywords: ifsk.fltreleasecontextsex, FltReleaseContextsEx, fltkernel/FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID FltReleaseContextsEx(
 
 
 
-#### - ContextsSize [in]
+### -param ContextsSize [in]
 
 The size, in bytes, of the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
 
 
-#### - Contexts [in]
+### -param Contexts [in]
 
 Pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure. 
 
@@ -102,15 +102,15 @@ When each context's reference count reaches zero, the context is freed immediate
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>
 
  
 

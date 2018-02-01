@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: da6e4133-a2ba-4f8c-9490-e1f9b453b6e2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsDeleteLogByPointer, Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, kernel.clfsdeletelogbypointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], ClfsDeleteLogByPointer
+ms.keywords: kernel.clfsdeletelogbypointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], wdm/ClfsDeleteLogByPointer, Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, ClfsDeleteLogByPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ClfsDeleteLogByPointer(
 
 
 
-#### - plfoLog [in]
+### -param plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream to be deleted. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 

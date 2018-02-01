@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c1b54ef4-93b5-41df-8a49-8b00cbd4bcee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortMapMemory, VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, VideoPortMapMemory, display.videoportmapmemory, VideoPortMapMemory function [Display Devices]
+ms.keywords: video/VideoPortMapMemory, VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, display.videoportmapmemory, VideoPortMapMemory, VideoPortMapMemory function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ VP_STATUS VideoPortMapMemory(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-#### - PhysicalAddress
+### -param PhysicalAddress
 
 The bus-relative base address of the range to map.
 
 
-#### - Length
+### -param Length
 
 On input, specifies the number of bytes of video memory to map. On output, receives the size of the memory actually mapped, which might be rounded to a system-determined alignment boundary. (However, the miniport and display drivers cannot access any memory that is outside the range delimited by the input value at <i>Length</i>.)
 
 
-#### - InIoSpace
+### -param InIoSpace
 
 Pointer to a variable that indicates the location of the range. The variable can be one of the following flags or an ORed, compatible combination of these flags.
 <table>
@@ -150,7 +150,7 @@ The address range should be mapped into the virtual address space of a user-mode
 </table> 
 
 
-#### - VirtualAddress
+### -param VirtualAddress
 
 Pointer to a variable that, on input, is either <b>NULL</b> or a handle to a user-mode process. If the input value is <b>NULL</b>, this routine maps the video memory into system space. Otherwise, this routine maps the video memory into the virtual address space of the user-mode process that is identified by the handle. On output, receives the base virtual address of the mapping.
 
@@ -242,11 +242,11 @@ if(NT_SUCCESS(ntStatus))
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-
-<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
  
 

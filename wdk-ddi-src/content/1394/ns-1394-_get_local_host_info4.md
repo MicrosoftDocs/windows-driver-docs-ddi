@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 72bc1d4b-cc68-4ea8-9431-c85cbcf135d8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGET_LOCAL_HOST_INFO4, GET_LOCAL_HOST_INFO4 structure [Buses], 1394/PGET_LOCAL_HOST_INFO4, _GET_LOCAL_HOST_INFO4, PGET_LOCAL_HOST_INFO4 structure pointer [Buses], 1394stct_c06286e2-308d-4534-9a1b-14d3a04b5f86.xml, GET_LOCAL_HOST_INFO4, 1394/GET_LOCAL_HOST_INFO4, *PGET_LOCAL_HOST_INFO4, IEEE.get_local_host_info4
+ms.keywords: 1394/GET_LOCAL_HOST_INFO4, PGET_LOCAL_HOST_INFO4 structure pointer [Buses], 1394/PGET_LOCAL_HOST_INFO4, PGET_LOCAL_HOST_INFO4, IEEE.get_local_host_info4, 1394stct_c06286e2-308d-4534-9a1b-14d3a04b5f86.xml, *PGET_LOCAL_HOST_INFO4, _GET_LOCAL_HOST_INFO4, GET_LOCAL_HOST_INFO4 structure [Buses], GET_LOCAL_HOST_INFO4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _GET_LOCAL_HOST_INFO4 {
 
 
 
-#### - PhysAddrMappingRoutine
+### -field PhysAddrMappingRoutine
 
 Pointer to the physical address mapping routine, which is of type: 
 <div class="code"><span codelanguage=""><table>
@@ -87,16 +87,16 @@ PhysAddrMappingRoutine (
 </table></span></div>The physical mapping routine is invoked on an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a> IRB. It fills in the <b>u.AllocateAddressRange.pAddressRange</b> member with the physical addresses that the <b>u.AllocateAddressRange.Mdl</b> member of the IRB are mapped to. The proper value for the <i>Context</i> parameter is the <b>Context</b> member below.
 
 
-#### - Context
+### -field Context
 
 Specifies the argument that should be passed as the Context argument of the physical address mapping routine.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
 
  
 

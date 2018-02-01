@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 431d8f18-18db-460c-9f2f-454a5378825c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETPIPEISINENDPOINT, kmdf.wdfusbtargetpipeisinendpoint, wdfusb/WdfUsbTargetPipeIsInEndpoint, wdf.wdfusbtargetpipeisinendpoint, WdfUsbTargetPipeIsInEndpoint method, WdfUsbTargetPipeIsInEndpoint, DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml
+ms.keywords: kmdf.wdfusbtargetpipeisinendpoint, wdf.wdfusbtargetpipeisinendpoint, DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, WdfUsbTargetPipeIsInEndpoint, PFN_WDFUSBTARGETPIPEISINENDPOINT, wdfusb/WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BOOLEAN WdfUsbTargetPipeIsInEndpoint(
 
 
 
-#### - Pipe [in]
+### -param Pipe [in]
 
 A handle to a framework pipe object that represents a bulk pipe or interrupt pipe and was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 

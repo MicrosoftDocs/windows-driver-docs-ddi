@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14225920-2f51-4fef-9501-812e3aff8905
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_INGRESS_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_RECV_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_NATIVE_RECV_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_INGRESS_COMPLETE, FWPS_NET_BUFFER_LIST_CONTEXT_REMOVED, FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO, fwpsk/FWPS_NET_BUFFER_LIST_CONTEXT_REMOVED, fwpsk/FWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, FWPS_NET_BUFFER_LIST_EXIT_NETIO, FWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, fwpsk/FWPS_NET_BUFFER_LIST_EVENT_TYPE0, netvista.fwps_net_buffer_list_event_type0, FWPS_NET_BUFFER_LIST_NDIS_RECV_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETEFWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, FWPS_NET_BUFFER_LIST_EVENT_TYPE0, FWPS_NET_BUFFER_LIST_NDIS_NATIVE_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_NATIVE_RECV_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_NATIVE_SEND_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_SEND_COMPLETE, wfp_ref_4_enum_efc9d72c-0710-440a-8074-77ce1dffd9bf.xml, FWPS_NET_BUFFER_LIST_EVENT_TYPE0_, fwpsk/FWPS_NET_BUFFER_LIST_EXIT_NETIO, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_RECV_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_ENTERED_NETIO, FWPS_NET_BUFFER_LIST_EVENT_TYPE0 enumeration [Network Drivers Starting with Windows Vista], FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_RECV_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETEFWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, FWPS_NET_BUFFER_LIST_ENTERED_NETIO, fwpsk/FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO, FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_SEND_COMPLETE, FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO, fwpsk/FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API
+ms.keywords: fwpsk/FWPS_NET_BUFFER_LIST_EXIT_NETIO, FWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_RECV_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETEFWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_RECV_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_SEND_COMPLETE, FWPS_NET_BUFFER_LIST_CONTEXT_REMOVED, FWPS_NET_BUFFER_LIST_EVENT_TYPE0, FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO, fwpsk/FWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, FWPS_NET_BUFFER_LIST_EXIT_NETIO, FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API, fwpsk/FWPS_NET_BUFFER_LIST_EVENT_TYPE0, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_INGRESS_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_EGRESS_COMPLETEFWPS_NET_BUFFER_LIST_CLONED_BY_NDIS, wfp_ref_4_enum_efc9d72c-0710-440a-8074-77ce1dffd9bf.xml, netvista.fwps_net_buffer_list_event_type0, FWPS_NET_BUFFER_LIST_NDIS_RECV_COMPLETE, FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_NATIVE_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_RECV_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_NATIVE_RECV_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_INGRESS_COMPLETE, FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_CONTEXT_REMOVED, fwpsk/FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO, FWPS_NET_BUFFER_LIST_EVENT_TYPE0 enumeration [Network Drivers Starting with Windows Vista], FWPS_NET_BUFFER_LIST_EVENT_TYPE0_, fwpsk/FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API, FWPS_NET_BUFFER_LIST_ENTERED_NETIO, FWPS_NET_BUFFER_LIST_NDIS_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_ENTERED_NETIO, FWPS_NET_BUFFER_LIST_NDIS_NATIVE_SEND_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_NDIS_NATIVE_RECV_COMPLETE, fwpsk/FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -51,8 +51,8 @@ req.typenames: FWPS_NET_BUFFER_LIST_EVENT_TYPE0
 
 The <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> enumeration type specifies the possible status events that can
   cause the callout driver's 
-  <mshelp:link keywords="netvista.fwps_net_buffer_list_notify_fn0" tabindex="0"><i>
-  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i></mshelp:link> function to be called.
+  <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
+  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function to be called.
 <div class="alert"><b>Note</b>  <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> is a specific version of <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -syntax
@@ -86,34 +86,34 @@ typedef enum FWPS_NET_BUFFER_LIST_EVENT_TYPE0_ {
 
 
 
-#### - FWPS_NET_BUFFER_LIST_ENTERED_NETIO
+### -field FWPS_NET_BUFFER_LIST_ENTERED_NETIO
 
 The <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure entered the TCP/IP stack. Packets enter the stack either from
      the NDIS layer or as a result of a call to a WFP packet injection function.
 
 
-#### - FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO
+### -field FWPS_NET_BUFFER_LIST_CLONED_BY_NETIO
 
 The NET_BUFFER_LIST structure was cloned.
 
 
-#### - FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API
+### -field FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API
 
 The NET_BUFFER_LIST structure was cloned by a call to the 
      <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">FwpsAllocateCloneNetBufferList0</a> function.
 
 
-#### - FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO
+### -field FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO
 
 The NET_BUFFER_LIST structure was duplicated.
 
 
-#### - FWPS_NET_BUFFER_LIST_EXIT_NETIO
+### -field FWPS_NET_BUFFER_LIST_EXIT_NETIO
 
 The NET_BUFFER_LIST structure is about to leave the TCP/IP stack.
 
 
-#### - FWPS_NET_BUFFER_LIST_CONTEXT_REMOVED
+### -field FWPS_NET_BUFFER_LIST_CONTEXT_REMOVED
 
 The NET_BUFFER_LIST structure is outside of the context for which it was tagged. The
      circumstances for this event depend upon the specifics of the tagged packets.
@@ -140,45 +140,45 @@ Any
 </td>
 <td>
 Upon asynchronous context removal resulting from a call to the 
-        <mshelp:link keywords="netvista.fwpsnetbufferlistremovecontext0" tabindex="0"><b>
-        FwpsNetBufferListRemoveContext0</b></mshelp:link> function.
+        <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+        FwpsNetBufferListRemoveContext0</a> function.
 
 </td>
 </tr>
 </table> 
 
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_SEND_COMPLETE
+### -field FWPS_NET_BUFFER_LIST_NDIS_SEND_COMPLETE
 
 See FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_SEND_COMPLETE.
 
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_RECV_COMPLETE
+### -field FWPS_NET_BUFFER_LIST_NDIS_RECV_COMPLETE
 
 See FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_RECV_COMPLETE.
 
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_SEND_COMPLETE
+### -field FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_SEND_COMPLETE
 
 The NET_BUFFER_LIST structure send over the upper (protocol driver) NDIS 802.3 layer is complete.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_RECV_COMPLETE
+### -field FWPS_NET_BUFFER_LIST_NDIS_ETHERNET_RECV_COMPLETE
 
 The NET_BUFFER_LIST structure receive over the upper (protocol driver) NDIS 802.3 layer is complete.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_NATIVE_SEND_COMPLETE
+### -field FWPS_NET_BUFFER_LIST_NDIS_NATIVE_SEND_COMPLETE
 
 The NET_BUFFER_LIST structure send over the lower (miniport driver) NDIS native layer is complete.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_NATIVE_RECV_COMPLETE
+### -field FWPS_NET_BUFFER_LIST_NDIS_NATIVE_RECV_COMPLETE
 
 The NET_BUFFER_LIST structure receive over the lower (miniport driver) NDIS  native layer is complete.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-#### - FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_INGRESS_COMPLETE
+### -field FWPS_NET_BUFFER_LIST_NDIS_VSWITCH_INGRESS_COMPLETE
 
 The NET_BUFFER_LIST structure ingres on the virtual switch is complete.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
@@ -187,7 +187,7 @@ The NET_BUFFER_LIST structure ingres on the virtual switch is complete.
 
 
 
-#### - FWPS_NET_BUFFER_LIST_CLONED_BY_NDIS
+### -field FWPS_NET_BUFFER_LIST_CLONED_BY_NDIS
 
 NDIS cloned the  NET_BUFFER_LIST structure.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
@@ -208,16 +208,16 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistremovecontext0" tabindex="0"><b>
-        FwpsNetBufferListRemoveContext0</b></mshelp:link>
+<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
+  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
-<mshelp:link keywords="netvista.fwps_net_buffer_list_notify_fn0" tabindex="0"><i>
-  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
-     FwpsAllocateCloneNetBufferList0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+        FwpsNetBufferListRemoveContext0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+     FwpsAllocateCloneNetBufferList0</a>
 
  
 

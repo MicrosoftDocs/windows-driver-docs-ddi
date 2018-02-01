@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6faeb410-486e-4b79-b942-62d16039d24b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwqueryinformationresourcemanager, wdm/NtQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, wdm/ZwQueryInformationResourceManager, NtQueryInformationResourceManager, ZwQueryInformationResourceManager
+ms.keywords: wdm/NtQueryInformationResourceManager, wdm/ZwQueryInformationResourceManager, ZwQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationresourcemanager, NtQueryInformationResourceManager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS ZwQueryInformationResourceManager(
 
 
 
-#### - ResourceManagerHandle [in]
+### -param ResourceManagerHandle [in]
 
 A handle to a resource manager object that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a> or <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_QUERY_INFORMATION access to the object.
 
 
-#### - ResourceManagerInformationClass [in]
+### -param ResourceManagerInformationClass [in]
 
 A <a href="..\wdm\ne-wdm-_resourcemanager_information_class.md">RESOURCEMANAGER_INFORMATION_CLASS</a>-typed value that specifies the information to retrieve. This value must be <b>ResourceManagerBasicInformation</b>.
 
 
-#### - ResourceManagerInformation [out]
+### -param ResourceManagerInformation [out]
 
 A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a> structure that receives information from <b>ZwQueryInformationResourceManager</b>.
 
 
-#### - ResourceManagerInformationLength [in]
+### -param ResourceManagerInformationLength [in]
 
 The length, in bytes, of the buffer that the <i>ResourceManagerInformation</i> parameter points to.
 
 
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>ResourceManagerInformation</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
@@ -192,19 +192,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
-
 <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
 
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-<a href="..\wdm\ne-wdm-_resourcemanager_information_class.md">RESOURCEMANAGER_INFORMATION_CLASS</a>
+<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
 
 <a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
+<a href="..\wdm\ne-wdm-_resourcemanager_information_class.md">RESOURCEMANAGER_INFORMATION_CLASS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

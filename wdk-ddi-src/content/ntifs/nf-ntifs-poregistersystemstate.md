@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoRegisterSystemState, wdm/PoRegisterSystemState, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate
+ms.keywords: wdm/PoRegisterSystemState, kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,21 +68,21 @@ PVOID PoRegisterSystemState(
 
 
 
-#### - StateHandle [in, out]
+### -param StateHandle [in, out]
 
 A pointer to a caller-supplied buffer for a registration state handle. The size, in bytes, of the buffer is <b>sizeof</b>(ULONG). If <b>NULL</b>, this is a new registration. If non-<b>NULL</b>, this parameter points to a handle that was returned by a previous call to <b>PoRegisterSystemState</b>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Indicates the type of activity, as specified by a bitwise OR of one or more of the following values:
 
 
 
 
-#### ES_SYSTEM_REQUIRED
+#### ES_CONTINUOUS
 
-The system is not idle, regardless of apparent load.
+The settings are continuous and should remain in effect until explicitly changed.
 
 
 #### ES_DISPLAY_REQUIRED
@@ -90,14 +90,14 @@ The system is not idle, regardless of apparent load.
 Use of the display is required.
 
 
+#### ES_SYSTEM_REQUIRED
+
+The system is not idle, regardless of apparent load.
+
+
 #### ES_USER_PRESENT
 
 A user is present.
-
-
-#### ES_CONTINUOUS
-
-The settings are continuous and should remain in effect until explicitly changed.
 
 
 ## -returns

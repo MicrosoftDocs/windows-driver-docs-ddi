@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.psgetprocessexittime, psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml, PsGetProcessExitTime routine [Installable File System Drivers], ntifs/PsGetProcessExitTime, PsGetProcessExitTime
+ms.keywords: PsGetProcessExitTime, psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml, PsGetProcessExitTime routine [Installable File System Drivers], ntifs/PsGetProcessExitTime, ifsk.psgetprocessexittime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

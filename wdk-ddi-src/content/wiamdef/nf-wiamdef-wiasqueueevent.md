@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1ea82b64-e0e0-445b-8200-70cd6920d29b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasQueueEvent, wiasQueueEvent function [Imaging Devices], image.wiasqueueevent, wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml
+ms.keywords: wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiamdef/wiasQueueEvent, wiasQueueEvent, image.wiasqueueevent, wiasQueueEvent function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT _stdcall wiasQueueEvent(
 
 
 
-#### - bstrDeviceId [in]
+### -param bstrDeviceId [in]
 
 Specifies the device ID. This is the value passed to the minidriver in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544986">IWiaMiniDrv::drvInitializeWia</a> method.
 
 
-#### - pEventGUID [in]
+### -param pEventGUID [in]
 
 Pointer to a buffer that contains the GUID for the event.
 
 
-#### - bstrFullItemName [in, optional]
+### -param bstrFullItemName [in, optional]
 
 Specifies the full item name, including path information.
 

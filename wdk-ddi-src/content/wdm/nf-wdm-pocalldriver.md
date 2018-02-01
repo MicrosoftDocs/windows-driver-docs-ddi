@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5ce7786-717a-4e0f-bc57-342655a59ca1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoCallDriver routine [Kernel-Mode Driver Architecture], wdm/PoCallDriver, PoCallDriver, kernel.pocalldriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml
+ms.keywords: wdm/PoCallDriver, kernel.pocalldriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml, PoCallDriver, PoCallDriver routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS PoCallDriver(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the driver-created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> to which the IRP is to be routed.
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 A pointer to an IRP. 
 
@@ -111,21 +111,21 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
 
 <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+
+<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

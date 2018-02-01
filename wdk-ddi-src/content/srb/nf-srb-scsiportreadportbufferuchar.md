@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9444670d-5b9f-4d77-b867-ac5608c24e02
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_db25989e-3b44-4f45-b768-b1b11c2ed25a.xml, srb/ScsiPortReadPortBufferUchar, storage.scsiportreadportbufferuchar, ScsiPortReadPortBufferUchar routine [Storage Devices], ScsiPortReadPortBufferUchar
+ms.keywords: storage.scsiportreadportbufferuchar, ScsiPortReadPortBufferUchar, srb/ScsiPortReadPortBufferUchar, scsiprt_db25989e-3b44-4f45-b768-b1b11c2ed25a.xml, ScsiPortReadPortBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortReadPortBufferUchar(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to the buffer.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of bytes to be read from the HBA.
 

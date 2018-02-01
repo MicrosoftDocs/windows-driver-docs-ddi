@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0946287-3ED2-4DE1-A3D7-46611B25BB93
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSaveBegin function [Network Drivers Starting with Windows Vista], VmbChannelSaveBegin, vmbuskernelmodeclientlibapi/VmbChannelSaveBegin, netvista.vmbchannelsavebegin
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelSaveBegin, VmbChannelSaveBegin, netvista.vmbchannelsavebegin, VmbChannelSaveBegin function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS VmbChannelSaveBegin(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for the channel to save.  
 

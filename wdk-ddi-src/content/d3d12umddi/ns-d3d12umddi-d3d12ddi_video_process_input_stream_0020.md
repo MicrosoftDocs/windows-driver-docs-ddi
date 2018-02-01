@@ -69,17 +69,17 @@ typedef struct D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 {
 
 
 
-#### - hDrvInputTexture
+### -field hDrvInputTexture
 
 The current input field or frame.  
 
 
-#### - Subresource
+### -field Subresource
 
 The subresource index to use of the <i>hDrvInputTexture</i> argument.
 
 
-#### - ReferenceInfo
+### -field ReferenceInfo
 
 The set of references to be able to perform processing.  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a2d8bdf-cfc2-4724-aab3-0277edb477e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_TXRX_TARGET_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_txrx_target_configuration, _WDI_TXRX_TARGET_CONFIGURATION, *PWDI_TXRX_TARGET_CONFIGURATION, dot11wdi/PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION, dot11wdi/WDI_TXRX_TARGET_CONFIGURATION, netvista.wdi_txrx_target_configuration
+ms.keywords: dot11wdi/WDI_TXRX_TARGET_CONFIGURATION, WDI_TXRX_TARGET_CONFIGURATION structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CONFIGURATION, *PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], PWDI_TXRX_TARGET_CONFIGURATION, netvista.wifi_txrx_target_configuration, WDI_TXRX_TARGET_CONFIGURATION, dot11wdi/PWDI_TXRX_TARGET_CONFIGURATION, netvista.wdi_txrx_target_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WDI_TXRX_TARGET_CONFIGURATION {
 
 
 
-#### - TxRxParams
+### -field TxRxParams
 
 Specifies the TXRX parameters.
 
 
-#### - MaxNumPorts
+### -field MaxNumPorts
 
 Specifies the maximum number of ports.
 
 
-#### - MaxNumPeers
+### -field MaxNumPeers
 
 Specifies the maximum number of peers.
 

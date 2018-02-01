@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a4aab60-6568-4017-acad-ca643cb4d661
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicegetdevicepowerpolicystate, wdfdevice/WdfDeviceGetDevicePowerPolicyState, DFDeviceObjectGeneralRef_34dd5376-7889-4900-bcd9-65ad9ff732e2.xml, WdfDeviceGetDevicePowerPolicyState method, wdf.wdfdevicegetdevicepowerpolicystate, PFN_WDFDEVICEGETDEVICEPOWERPOLICYSTATE, WdfDeviceGetDevicePowerPolicyState
+ms.keywords: WdfDeviceGetDevicePowerPolicyState, PFN_WDFDEVICEGETDEVICEPOWERPOLICYSTATE, wdf.wdfdevicegetdevicepowerpolicystate, DFDeviceObjectGeneralRef_34dd5376-7889-4900-bcd9-65ad9ff732e2.xml, kmdf.wdfdevicegetdevicepowerpolicystate, WdfDeviceGetDevicePowerPolicyState method, wdfdevice/WdfDeviceGetDevicePowerPolicyState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDF_DEVICE_POWER_POLICY_STATE WdfDeviceGetDevicePowerPolicyState(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 

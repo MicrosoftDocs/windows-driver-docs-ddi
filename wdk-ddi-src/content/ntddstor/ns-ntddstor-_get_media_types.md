@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e803505f-37a0-4b20-bd6f-ce0f79eead03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.get_media_types, ntddstor/PGET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices], structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml, GET_MEDIA_TYPES structure [Storage Devices], _GET_MEDIA_TYPES, GET_MEDIA_TYPES, *PGET_MEDIA_TYPES, ntddstor/GET_MEDIA_TYPES, PGET_MEDIA_TYPES
+ms.keywords: storage.get_media_types, PGET_MEDIA_TYPES, _GET_MEDIA_TYPES, *PGET_MEDIA_TYPES, structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml, ntddstor/GET_MEDIA_TYPES, GET_MEDIA_TYPES structure [Storage Devices], ntddstor/PGET_MEDIA_TYPES, GET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _GET_MEDIA_TYPES {
 
 
 
-#### - DeviceType
+### -field DeviceType
 
 Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants indicating the type of device (such as FILE_DEVICE_DISK, FILE_DEVICE_KEYBOARD, and so forth) or a vendor-defined value for a new type of device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. 
 
 
-#### - MediaInfoCount
+### -field MediaInfoCount
 
 Contains the number of <a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a> structures in the array starting at <b>MediaInfo</b>.
 
 
-#### - MediaInfo
+### -field MediaInfo
 
 Contains an array whose first element holds the first DEVICE_MEDIA_INFO structure in the array.
 

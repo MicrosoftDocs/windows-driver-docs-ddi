@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E52B252F-0530-4543-A44C-95D4198504CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], stream.ks_datarange_h264_video, PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO, tagKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], ksmedia/PKS_DATARANGE_H264_VIDEO, ksmedia/KS_DATARANGE_H264_VIDEO
+ms.keywords: ksmedia/KS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], *PKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO, tagKS_DATARANGE_H264_VIDEO, ksmedia/PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], stream.ks_datarange_h264_video
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _KS_DATARANGE_H264_VIDEO {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the major identifier for the format.
 
 
-#### - bFixedSizeSamples
+### -field bFixedSizeSamples
 
 Specifies that all the samples are the same size if set to <b>TRUE</b>.
 
 
-#### - bTemporalCompression
+### -field bTemporalCompression
 
 Specifies whether each sample can stand independently on its own, without relying on previous or future samples.
 
 
-#### - StreamDescriptionFlags
+### -field StreamDescriptionFlags
 
 Unused and should be set to zero.
 
 
-#### - MemoryAllocationFlags
+### -field MemoryAllocationFlags
 
 Unused and should be set to zero.
 
 
-#### - ConfigCaps
+### -field ConfigCaps
 
 Specifies the configuration of the stream, including scaling, cropping, and frame and data rates.
 
 
-#### - VideoInfoHeader
+### -field VideoInfoHeader
 
 Specifies the details of the video stream.
 

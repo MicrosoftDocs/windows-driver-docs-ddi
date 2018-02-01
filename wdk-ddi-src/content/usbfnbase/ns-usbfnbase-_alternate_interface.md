@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F57FA113-F664-4B10-8457-DF6D266264E9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/ALTERNATE_INTERFACE, _ALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses], *PALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], buses.alternate_interface, ALTERNATE_INTERFACE, PALTERNATE_INTERFACE
+ms.keywords: usbfnbase/ALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], PALTERNATE_INTERFACE, *PALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE, buses.alternate_interface, _ALTERNATE_INTERFACE, ALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _ALTERNATE_INTERFACE {
 
 
 
-#### - InterfaceNumber
+### -field InterfaceNumber
 
 The index number for theUSB interface setting.
 
 
-#### - AlternateInterfaceNumber
+### -field AlternateInterfaceNumber
 
 The index number for the alternate USB interface setting.
 

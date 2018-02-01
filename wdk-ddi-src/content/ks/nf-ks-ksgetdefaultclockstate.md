@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b579fd85-5073-4894-a4ef-e56638f45ef6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetDefaultClockState, stream.ksgetdefaultclockstate, KsGetDefaultClockState function [Streaming Media Devices], ksfunc_9b1067e9-8d12-42a5-969e-0ec6205f12e2.xml, ks/KsGetDefaultClockState
+ms.keywords: KsGetDefaultClockState function [Streaming Media Devices], ks/KsGetDefaultClockState, KsGetDefaultClockState, ksfunc_9b1067e9-8d12-42a5-969e-0ec6205f12e2.xml, stream.ksgetdefaultclockstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ KSSTATE KsGetDefaultClockState(
 
 
 
-#### - DefaultClock [in]
+### -param DefaultClock [in]
 
 Specifies an initialized, default clock structure that is shared among any instance of the default clock for the parent.
 

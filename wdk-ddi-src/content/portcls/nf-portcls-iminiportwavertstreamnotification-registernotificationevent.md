@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 269eccd8-e477-4082-930b-1f4b3e3706b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, IMiniportWaveRTStreamNotification::RegisterNotificationEvent, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent, audio.iminiportwavertstreamnotification_registernotificationevent, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices]
+ms.keywords: audio.iminiportwavertstreamnotification_registernotificationevent, IMiniportWaveRTStreamNotification, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS RegisterNotificationEvent(
 
 
 
-#### - NotificationEvent [in]
+### -param NotificationEvent [in]
 
 A pointer to a kernel event (PKEVENT) to be registered for notification as DMA progresses.
 
@@ -92,9 +92,9 @@ For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIF
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksrtaudio_notification_event_property.md">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
 
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 

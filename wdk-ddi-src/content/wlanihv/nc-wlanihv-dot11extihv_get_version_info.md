@@ -73,7 +73,7 @@ DWORD APIENTRY Dot11ExtIhvGetVersionInfo(
 
 
 
-#### - pDot11IHVVersionInfo [out]
+### -param pDot11IHVVersionInfo [out]
 
 A pointer to a 
      <a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a> structure,
@@ -125,9 +125,9 @@ The
 
 ## -see-also
 
-<a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
+
+<a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a>
 
  
 

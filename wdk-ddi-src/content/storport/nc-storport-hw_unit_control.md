@@ -73,12 +73,12 @@ SCSI_UNIT_CONTROL_STATUS HwStorUnitControl(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 A pointer to the miniport driver's per-unit storage area. 
 
 
-#### - ControlType [in]
+### -param ControlType [in]
 
 Specifies  an unit control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings.
 <table>
@@ -308,7 +308,7 @@ None
 </table> 
 
 
-#### - Parameters [in]
+### -param Parameters [in]
 
 Contains information related to the <i>ControlType</i>.  
 <table>
@@ -812,9 +812,9 @@ For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the
 </table></span></div>
 
 
-#### Version
+#### Address
 
-The version of the parent structure.
+The address of the unit the control operation is specified for.
 
 
 #### Size
@@ -822,9 +822,9 @@ The version of the parent structure.
 The size, in bytes, of the parent structure.
 
 
-#### Address
+#### Version
 
-The address of the unit the control operation is specified for.
+The version of the parent structure.
 
 
 ## -returns

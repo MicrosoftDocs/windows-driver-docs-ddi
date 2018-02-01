@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7fb199b6-dcdb-41fc-b1c4-4eef2177018e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MS_SMHBA_FC_PHY structure [Storage Devices], storage.ms_smhba_fc_phy, hbapiwmi/MS_SMHBA_FC_PHY, structs-Fibre_64c8e970-8d72-4651-bcb8-8363b424cd04.xml, _MS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY, PMS_SMHBA_FC_PHY, PMS_SMHBA_FC_PHY structure pointer [Storage Devices], *PMS_SMHBA_FC_PHY, hbapiwmi/PMS_SMHBA_FC_PHY
+ms.keywords: storage.ms_smhba_fc_phy, _MS_SMHBA_FC_PHY, hbapiwmi/MS_SMHBA_FC_PHY, *PMS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY, structs-Fibre_64c8e970-8d72-4651-bcb8-8363b424cd04.xml, MS_SMHBA_FC_PHY structure [Storage Devices], PMS_SMHBA_FC_PHY structure pointer [Storage Devices], PMS_SMHBA_FC_PHY, hbapiwmi/PMS_SMHBA_FC_PHY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _MS_SMHBA_FC_PHY {
 
 
 
-#### - PhySupportSpeed
+### -field PhySupportSpeed
 
 The signaling bit rates at which the port can operate. For a list of the values that this member supports, see PhySpeed.
 
 
-#### - PhySpeed
+### -field PhySpeed
 
 The signaling bit rates at which PortWWN is currently operating. This member must have one of the values in the following table.
 <table>
@@ -152,7 +152,7 @@ The speed at which the port will operate has not yet been established.
 </table> 
 
 
-#### - PhyType
+### -field PhyType
 
 The port type. This member must have one of the values in the following table.
 <table>
@@ -279,7 +279,7 @@ Point to point.
 </table> 
 
 
-#### - MaxFrameSize
+### -field MaxFrameSize
 
 The maximum frame size, in bytes, that is supported by PortWWN.
 

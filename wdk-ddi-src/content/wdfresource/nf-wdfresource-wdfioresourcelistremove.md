@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc67afc9-7542-4fca-bfc7-4b03b9d39735
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, kmdf.wdfioresourcelistremove, wdfresource/WdfIoResourceListRemove, WdfIoResourceListRemove method, wdf.wdfioresourcelistremove, WdfIoResourceListRemove, PFN_WDFIORESOURCELISTREMOVE
+ms.keywords: kmdf.wdfioresourcelistremove, PFN_WDFIORESOURCELISTREMOVE, WdfIoResourceListRemove method, wdf.wdfioresourcelistremove, WdfIoResourceListRemove, DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, wdfresource/WdfIoResourceListRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfIoResourceListRemove(
 
 
 
-#### - ResourceList [in]
+### -param ResourceList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based value that is used as an index into the logical configuration that <i>ResourceList</i> specifies.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], KSTOPOLOGY_CONNECTION, stream.kstopology_connection, ks/KSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION, ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, *PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices]
+ms.keywords: PKSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], *PKSTOPOLOGY_CONNECTION, ks/KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], stream.kstopology_connection, KSTOPOLOGY_CONNECTION, ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - FromNode
+### -field FromNode
 
 Specifies the node ID of the node on the upstream end of the connection. If this end of the connection is an external pin on the filter -- not a logical pin on a node--set this member to the null node-ID value, KSFILTER_NODE.
 
 
-#### - FromNodePin
+### -field FromNodePin
 
 Specifies the pin ID for the upstream end of the connection. If <b>FromNode </b>is KSFILTER_NODE, the pin on this end of the connection is an external pin on the filter. If not, the pin on this end is a logical pin on an internal node.
 
 
-#### - ToNode
+### -field ToNode
 
 Specifies the node ID of the node on the downstream end of the connection. If this end of the connection is an external pin on the filter--not a logical pin on a node -- set this member to the null node-ID value, KSFILTER_NODE.
 
 
-#### - ToNodePin
+### -field ToNodePin
 
 Specifies the pin ID for the downstream end of the connection. If <b>ToNode</b> is KSFILTER_NODE, the pin on this end of the connection is an external pin on the filter. If not, the pin on this end is a logical pin on an internal node.
 
@@ -109,13 +109,13 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCON
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a>
 
 <a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565802">KSPROPERTY_TOPOLOGY_CONNECTIONS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
  
 

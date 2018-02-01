@@ -74,12 +74,12 @@ VOID EvtDeviceRelationsQuery(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - RelationType [in]
+### -param RelationType [in]
 
 A DEVICE_RELATION_TYPE-typed enumerator value. The DEVICE_RELATION_TYPE enumeration is defined in <i>wdm.h</i>.
 

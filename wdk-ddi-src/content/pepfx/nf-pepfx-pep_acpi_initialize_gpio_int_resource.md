@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EF8E3D1D-9C87-4083-A022-FD888D370B20
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_int_resource, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
+ms.keywords: pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, kernel.pep_acpi_initialize_gpio_int_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,72 +80,72 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE(
 
 
 
-#### - InterruptType [in]
+### -param InterruptType [in]
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
-#### - LevelType [in]
+### -param LevelType [in]
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
 
-#### - Shareable [in]
+### -param Shareable [in]
 
 Indicates if the device can be shared.
 
 
-#### - CanWake [in]
+### -param CanWake [in]
 
 Indicates if the device can be woken from a low-power state.
 
 
-#### - PinConfig [in]
+### -param PinConfig [in]
 
 A <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
-#### - DebounceTimeout [in]
+### -param DebounceTimeout [in]
 
 Specifies the hardware debounce wait time, in hundredths of milliseconds.
 
 
-#### - ResourceSourceIndex [in]
+### -param ResourceSourceIndex [in]
 
 This parameter should always be zero.
 
 
-#### - ResourceSourceName [in]
+### -param ResourceSourceName [in]
 
 This parameter should always be "ResourceConsumer."
 
 
-#### - ResourceUsage [in]
+### -param ResourceUsage [in]
 
 Indicates if this device is in use.
 
 
-#### - VendorData [in]
+### -param VendorData [in]
 
 A pointer to a raw data buffer containing vendor-defined byte data to be decoded by the OS driver. 
 
 
-#### - VendorDataLength [in]
+### -param VendorDataLength [in]
 
 The size of the buffer in the <i>VendorData</i> partameter.
 
 
-#### - PinTable [in]
+### -param PinTable [in]
 
 A list of pin numbers on the resource. 
 
 
-#### - PinCount [in]
+### -param PinCount [in]
 
 The number of pins described by the <i>PinTable</i> parameter.
 
 
-#### - Resource [out]
+### -param Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>. 
 
@@ -159,11 +159,11 @@ This function does not return a value.
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
 
 <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
-
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
 <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 

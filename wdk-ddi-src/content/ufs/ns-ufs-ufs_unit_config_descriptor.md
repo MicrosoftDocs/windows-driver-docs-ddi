@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 09CBAD0A-CBDC-464E-908C-BF142D515969
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PUFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], ufs/UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR, storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices]
+ms.keywords: ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR, storage.ufs_unit_config_descriptor, ufs/UFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,22 +77,22 @@ typedef struct _UFS_UNIT_CONFIG_DESCRIPTOR {
 
 
 
-#### - bLUEnable
+### -field bLUEnable
 
 Specifies if the logical unit is enabled.
 
 
-#### - bBootLunID
+### -field bBootLunID
 
 Specifies if the logical unit is a bootable logical unit.
 
 
-#### - bLUWriteProtect
+### -field bLUWriteProtect
 
 Specifies if the Logical Unit is write protected.
 
 
-#### - bMemoryType
+### -field bMemoryType
 
 Specifies the Memory type of the device.
 <table>
@@ -135,12 +135,12 @@ Specifies the Memory type of the device.
 </table> 
 
 
-#### - dNumAllocUnits
+### -field dNumAllocUnits
 
 Specifies the number of allocation units assigned to the logical unit.
 
 
-#### - bDataReliability
+### -field bDataReliability
 
 <b>bDataReliability</b> defines the device behavior
 when a power failure occurs during a write
@@ -169,12 +169,12 @@ data is protected against power failure.</td>
 </table> 
 
 
-#### - bLogicalBlockSize
+### -field bLogicalBlockSize
 
 Specifies the logical block size.
 
 
-#### - bProvisioningType
+### -field bProvisioningType
 
 Specifies the provisioning type.
 <table>
@@ -203,12 +203,12 @@ Specifies the provisioning type.
 </table> 
 
 
-#### - wContextCapabilities
+### -field wContextCapabilities
 
 Specifies the Context Capabilities.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 

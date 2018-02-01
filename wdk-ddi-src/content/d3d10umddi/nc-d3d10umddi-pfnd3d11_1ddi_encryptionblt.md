@@ -75,44 +75,36 @@ VOID APIENTRY* EncryptionBlt(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCryptoSession [in]
+### -param hCryptoSession [in]
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
-#### - hSrcResource [in]
+### -param hSrcResource [in]
 
 A handle to the resource that contains the source data.
 
 
-#### - hDstResource [in]
+### -param hDstResource [in]
 
 A pointer to the resource where the encrypted data is to be written.
 
 
 
 
-#### - IVSize [in]
+### -param IVSize [in]
 
 The size, in bytes, of the initialization vector (IV).
 
 
-#### - *pIV [in]
-
-A pointer to a block of memory that contains the initialization vector that is required to encrypt the bitblt data. For more information, see the Remarks section.
-<div class="alert"><b>Note</b>  <p class="note">If <i>pIV</i> is NULL, the graphics adapter does not require a separate initialization vector to encrypt the data. That is, the session key is used to encrypt the data. 
-
-
-</div><div> </div>
-
-#### - pIV [in]
+### -param *pIV [in]
 
 A pointer to a block of memory that contains the initialization vector that is required to encrypt the bitblt data. For more information, see the Remarks section.
 <div class="alert"><b>Note</b>  <p class="note">If <i>pIV</i> is NULL, the graphics adapter does not require a separate initialization vector to encrypt the data. That is, the session key is used to encrypt the data. 
@@ -175,9 +167,9 @@ For other encryption types, a different structure might be used, or the encrypti
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
  
 

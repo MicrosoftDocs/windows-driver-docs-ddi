@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortMoveMemory, StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml, storage.storportmovememory, StorPortMoveMemory routine [Storage Devices]
+ms.keywords: storport/StorPortMoveMemory, storage.storportmovememory, StorPortMoveMemory routine [Storage Devices], StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ STORPORT_API VOID StorPortMoveMemory(
 
 
 
-#### - WriteBuffer [in]
+### -param WriteBuffer [in]
 
 Pointer to the destination buffer. 
 
 
-#### - ReadBuffer [in]
+### -param ReadBuffer [in]
 
 Pointer to the source buffer. 
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies how many bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>. 
 

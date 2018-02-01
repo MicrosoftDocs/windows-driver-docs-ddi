@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 358b1aa9-4bfd-4bed-94f7-1b021c732a02
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], NdisFCancelSendNetBufferLists, filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, ndis/NdisFCancelSendNetBufferLists, netvista.ndisfcancelsendnetbufferlists
+ms.keywords: netvista.ndisfcancelsendnetbufferlists, NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelSendNetBufferLists, filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, NdisFCancelSendNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ VOID NdisFCancelSendNetBufferLists(
 
 
 
-#### - NdisFilterHandle [in]
+### -param NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - CancelId [in]
+### -param CancelId [in]
 
 The cancellation identifier. This identifier specifies the network data for the transmission that
      is being canceled.
@@ -95,12 +95,12 @@ None
 
 A filter driver can cancel the send requests that it originates or pass on the cancellation requests
     from overlying drivers. To cancel a send request from an overlying driver, NDIS calls the filter drivers 
-    <mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
-    FilterCancelSendNetBufferLists</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
+    FilterCancelSendNetBufferLists</a> function.
 
 A filter driver can call the 
-    <mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link> macro to mark NET_BUFFER_LIST structures that it originates and
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro to mark NET_BUFFER_LIST structures that it originates and
     passes down to lower-level drivers for transmission. The NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro marks
     the specified packet with a cancellation identifier.
 
@@ -108,26 +108,26 @@ A filter driver can call the
     specified cancellation identifier.
 
 NDIS returns canceled send data that the filter driver originated to the 
-    <mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-    FilterSendNetBufferListsComplete</i></mshelp:link> function. The completion status of canceled requests is
+    <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+    FilterSendNetBufferListsComplete</a> function. The completion status of canceled requests is
     NDIS_STATUS_SEND_ABORTED.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
-   FilterCancelSendNetBufferLists</i></mshelp:link>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-   FilterSendNetBufferListsComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
+   FilterCancelSendNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+   FilterSendNetBufferListsComplete</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
  
 

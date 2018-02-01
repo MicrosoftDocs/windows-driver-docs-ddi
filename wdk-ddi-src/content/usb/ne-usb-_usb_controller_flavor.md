@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c732fe90-50fb-4f6e-b42e-cb35c1ed0091
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/OHCI_Generic, EHCI_Generic, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, usb/OHCI_Hydra, UHCI_Ich4, usb/UHCI_Piix3, usb/UHCI_VIA_x0E_FIFO, usb/EHCI_Generic, UHCI_Ich3m, EHCI_Lucent, usb/EHCI_NEC, usb/UHCI_Ich4, usb/UHCI_Ich2, UHCI_Ich1, usb/USB_CONTROLLER_FLAVOR, UHCI_VIA_x03, usb/EHCI_Intel_Medfield, USB_CONTROLLER_FLAVOR, USB_HcGeneric, EHCI_NVIDIA_Tegra2, usb/UHCI_VIA_x01, _USB_CONTROLLER_FLAVOR, UHCI_VIA_x01, buses.usb_controller_flavor, usb/UHCI_Piix4, EHCI_NVIDIA_Tegra3, usb/UHCI_VIA_x02, usb/UHCI_VIA_x04, usb/UHCI_Generic, EHCI_NEC, UHCI_Piix3, usb/EHCI_NVIDIA_Tegra3, UHCI_VIA_x04, UHCI_VIA_x02, UHCI_VIA_x0E_FIFO, UHCI_Ich5, usb/OHCI_NEC, UHCI_Generic, usb/UHCI_Ich6, usb/UHCI_Intel, UHCI_Intel, usb/UHCI_Ich1, usb/EHCI_Lucent, OHCI_Generic, usb/USB_HcGeneric, UHCI_Ich2, UHCI_VIA, usb/UHCI_VIA_x03, UHCI_Piix4, usb/UHCI_VIA, OHCI_Hydra, usb/UHCI_Ich5, USB_CONTROLLER_FLAVOR enumeration [Buses], usb/EHCI_NVIDIA_Tegra2, OHCI_NEC, usb/UHCI_Ich3m, EHCI_Intel_Medfield, UHCI_Ich6
+ms.keywords: OHCI_Generic, usb/UHCI_Intel, UHCI_VIA_x0E_FIFO, USB_HcGeneric, usb/UHCI_Ich6, usb/OHCI_Hydra, UHCI_Ich3m, UHCI_Ich1, usb/EHCI_NEC, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, usb/UHCI_VIA_x02, UHCI_Ich2, usb/EHCI_NVIDIA_Tegra2, usb/UHCI_VIA_x03, usb/UHCI_Generic, usb/UHCI_VIA, UHCI_VIA_x04, usb/EHCI_Lucent, UHCI_Intel, usb/UHCI_Piix4, usb/UHCI_Ich1, UHCI_VIA_x03, usb/USB_CONTROLLER_FLAVOR, EHCI_Intel_Medfield, USB_CONTROLLER_FLAVOR enumeration [Buses], UHCI_Piix4, usb/UHCI_Ich2, usb/UHCI_Ich5, usb/UHCI_VIA_x01, _USB_CONTROLLER_FLAVOR, buses.usb_controller_flavor, OHCI_Hydra, OHCI_NEC, EHCI_Lucent, USB_CONTROLLER_FLAVOR, usb/OHCI_NEC, UHCI_VIA_x02, EHCI_NVIDIA_Tegra2, UHCI_Ich4, UHCI_Ich6, usb/USB_HcGeneric, usb/UHCI_VIA_x0E_FIFO, UHCI_Piix3, usb/UHCI_Ich4, UHCI_Generic, EHCI_Generic, usb/EHCI_Generic, usb/UHCI_Piix3, usb/UHCI_Ich3m, EHCI_NEC, usb/EHCI_Intel_Medfield, usb/OHCI_Generic, usb/EHCI_NVIDIA_Tegra3, UHCI_VIA, EHCI_NVIDIA_Tegra3, usb/UHCI_VIA_x04, UHCI_VIA_x01, UHCI_Ich5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,42 +93,42 @@ typedef enum _USB_CONTROLLER_FLAVOR {
 
 
 
-#### - USB_HcGeneric
+### -field USB_HcGeneric
 
 Indicates a generic host controller.
 
 
-#### - OHCI_Generic
+### -field OHCI_Generic
 
 Indicates a generic OHCI host controller.
 
 
-#### - OHCI_Hydra
+### -field OHCI_Hydra
 
 Indicates a Hydra host controller.
 
 
-#### - OHCI_NEC
+### -field OHCI_NEC
 
 Indicates a NEC host controller.
 
 
-#### - UHCI_Generic
+### -field UHCI_Generic
 
 Indicates a generic UHCI host controller.
 
 
-#### - UHCI_Piix4
+### -field UHCI_Piix4
 
 Indicates an Intel PIIX4 UHCI host controller.
 
 
-#### - UHCI_Piix3
+### -field UHCI_Piix3
 
 Indicates an Intel PIIX3 UHCI host controller.
 
 
-#### - UHCI_Ich2
+### -field UHCI_Ich2
 
 Indicates an Intel ICH2 UHCI host controller.
 
@@ -137,101 +137,101 @@ Indicates an Intel ICH2 UHCI host controller.
 
 
 
-#### - UHCI_Ich1
+### -field UHCI_Ich1
 
 Indicates an Intel 815 ICH1 UHCI host controller.
 
 
-#### - UHCI_Ich3m
+### -field UHCI_Ich3m
 
 Indicates an Intel ICH3m UHCI host controller.
 
 
-#### - UHCI_Ich4
+### -field UHCI_Ich4
 
 Indicates an Intel ICH4m UHCI host controller.
 
 
-#### - UHCI_Ich5
+### -field UHCI_Ich5
 
 Indicates an Intel ICH5m UHCI host controller.
 
 
-#### - UHCI_Ich6
+### -field UHCI_Ich6
 
 Indicates an Intel ICH6m UHCI host controller.
 
 
-#### - UHCI_Intel
+### -field UHCI_Intel
 
 Indicates a generic Intel UHCI host controller.
 
 
-#### - UHCI_VIA
+### -field UHCI_VIA
 
 Indicates a generic VIA UHCI host controller.
 
 
-#### - UHCI_VIA_x01
+### -field UHCI_VIA_x01
 
 Indicates a Revision 1 VIA UHCI host controller.
 
 
-#### - UHCI_VIA_x02
+### -field UHCI_VIA_x02
 
 Indicates a Revision 2 VIA UHCI host controller.
 
 
-#### - UHCI_VIA_x03
+### -field UHCI_VIA_x03
 
 Indicates a Revision 3 VIA UHCI host controller.
 
 
-#### - UHCI_VIA_x04
+### -field UHCI_VIA_x04
 
 Indicates a Revision 4 VIA UHCI host controller.
 
 
-#### - UHCI_VIA_x0E_FIFO
+### -field UHCI_VIA_x0E_FIFO
 
 Indicates a FIFO Revision VIA UHCI host controller.
 
 
-#### - EHCI_Generic
+### -field EHCI_Generic
 
 Indicates a generic EHCI host controller.
 
 
-#### - EHCI_NEC
+### -field EHCI_NEC
 
 Indicates an NEC EHCI host controller.
 
 
-#### - EHCI_Lucent
+### -field EHCI_Lucent
 
 Indicates an EHCI Lucent host controller.
 
 
-#### - EHCI_NVIDIA_Tegra2
+### -field EHCI_NVIDIA_Tegra2
 
 Indicates a Revision 2 NVIDIA Tegra EHCI host controller.
 
 
-#### - EHCI_NVIDIA_Tegra3
+### -field EHCI_NVIDIA_Tegra3
 
 Indicates a Revision 3 NVIDIA Tegra EHCI host controller.
 
 
-#### - EHCI_Intel_Medfield
+### -field EHCI_Intel_Medfield
 
 Indicates an Intel Medfield host controller.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
 
  
 

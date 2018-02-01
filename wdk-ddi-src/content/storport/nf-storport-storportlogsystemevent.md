@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 720245ff-8c97-4b8d-8406-f6b712fa74c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortLogSystemEvent routine [Storage Devices], storage.storportlogsystemevent, StorPortLogSystemEvent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml, storport/StorPortLogSystemEvent
+ms.keywords: storport/StorPortLogSystemEvent, storage.storportlogsystemevent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml, StorPortLogSystemEvent, StorPortLogSystemEvent routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortLogSystemEvent(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
-#### - LogDetails [in, out]
+### -param LogDetails [in, out]
 
 Information to appear in the system event log entry.
 
 
-#### - MaximumSize [in, out]
+### -param MaximumSize [in, out]
 
 Variable to receive maximum combined size of miniport's dump data and strings. Only returned if the function fails and returns a STOR_STATUS_INVALID_BUFFER_SIZE value. This parameter is optional.
 

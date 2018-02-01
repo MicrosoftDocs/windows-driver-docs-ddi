@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 269bbb79-c730-4b78-bf46-d502f23f039b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kssetdevicepnpandbaseobject, ks/KsSetDevicePnpAndBaseObject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml, KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject function [Streaming Media Devices]
+ms.keywords: KsSetDevicePnpAndBaseObject function [Streaming Media Devices], ks/KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject, stream.kssetdevicepnpandbaseobject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ void KsSetDevicePnpAndBaseObject(
 
 
 
-#### - Header [in]
+### -param Header [in]
 
 Points to a header previously allocated by <b>KsAllocateDeviceHeader</b> in which to put the PnP device object.
 
 
-#### - PnpDeviceObject [in]
+### -param PnpDeviceObject [in]
 
 Specifies the PnP device object to place in the device header, overwriting any previously set device object.
 

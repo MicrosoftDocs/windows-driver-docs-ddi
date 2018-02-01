@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ef7ffca-9192-4578-8397-c7fbb2ea2239
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices]
+ms.keywords: display.iddcx_monitor_description, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], IDDCX_MONITOR_DESCRIPTION, iddcx/IDDCX_MONITOR_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,28 +70,28 @@ typedef struct IDDCX_MONITOR_DESCRIPTION {
 
 
 
-#### - Size
+### -field Size
 
 
                      Total size of the structure.
                  
 
 
-#### - Type
+### -field Type
 
 
                      Type of this monitor description.
                  
 
 
-#### - DataSize
+### -field DataSize
 
 
                      The size of the monitor description data.
                  
 
 
-#### - pData
+### -field pData
 
 
                      Pointer to the monitor description data.

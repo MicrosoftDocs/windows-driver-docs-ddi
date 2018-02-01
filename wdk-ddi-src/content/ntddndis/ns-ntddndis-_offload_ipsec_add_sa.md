@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 592d338c-8ab0-4163-bcfa-75c941b83c3d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/POFFLOAD_IPSEC_ADD_SA, _OFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA, ntddndis/OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, *POFFLOAD_IPSEC_ADD_SA, netvista.offload_ipsec_add_sa, OFFLOAD_IPSEC_ADD_SA
+ms.keywords: OFFLOAD_IPSEC_ADD_SA, ntddndis/POFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA, netvista.offload_ipsec_add_sa, 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, _OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], ntddndis/OFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_SA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,27 +82,27 @@ typedef struct _OFFLOAD_IPSEC_ADD_SA {
 
 
 
-#### - SrcAddr
+### -field SrcAddr
 
 The IP address of the source host (the host sending the packets).
 
 
-#### - SrcMask
+### -field SrcMask
 
 The subnet mask for the source IP address.
 
 
-#### - DestAddr
+### -field DestAddr
 
 The IP address of the destination host (the host receiving the packets).
 
 
-#### - DestMask
+### -field DestMask
 
 The subnet mask for the destination IP address.
 
 
-#### - Protocol
+### -field Protocol
 
 The IP protocol. You can specify any combination of IP protocol types (such as TCP, UDP, or ICMP).
      The encoding of 
@@ -110,19 +110,19 @@ The IP protocol. You can specify any combination of IP protocol types (such as T
      <b>Protocol</b> is set to zero, the SA applies to any IP protocol.
 
 
-#### - SrcPort
+### -field SrcPort
 
 A source TCP or UDP port. If 
      <b>SrcPort</b> is set to zero, the SA applies to any source TCP/UDP port.
 
 
-#### - DestPort
+### -field DestPort
 
 A destination TCP or UDP port. If 
      <b>DestPort</b> is set to zero, the SA applies to any source TCP/UDP port.
 
 
-#### - SrcTunnelAddr
+### -field SrcTunnelAddr
 
 The IP address for the source endpoint, such as a connector, of a tunnel. The miniport driver uses
      
@@ -131,7 +131,7 @@ The IP address for the source endpoint, such as a connector, of a tunnel. The mi
      <b>SrcTunnelAddr</b> is set to zero for an SA that applies to the transport portion of a packet.
 
 
-#### - DestTunnelAddr
+### -field DestTunnelAddr
 
 The IP address for the destination endpoint, such as a connector, of a tunnel. The miniport driver
      uses 
@@ -140,7 +140,7 @@ The IP address for the destination endpoint, such as a connector, of a tunnel. T
      <b>DestTunnelAddr</b> is set to zero for an SA that applies to the transport portion of a packet.
 
 
-#### - Flags
+### -field Flags
 
 A bitmask that indicates whether the SA that is being added is an inbound or outbound SA as
      follows:
@@ -159,15 +159,15 @@ Specifies an inbound SA.
 Specifies an outbound SA.
 
 
-#### - NumSAs
+### -field NumSAs
 
 The number of elements in the 
      <b>SecAssoc</b> array. Each element in the array is an 
-     <mshelp:link keywords="netvista.offload_security_association" tabindex="0"><b>
-     OFFLOAD_SECURITY_ASSOCIATION</b></mshelp:link> structure.
+     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
 
-#### - SecAssoc
+### -field SecAssoc
 
 A variable-length array that contains the information about the Internet Protocol security (IPsec)
      operations (AH or ESP) for the SA. The information for each IPsec operations is formatted as an
@@ -182,7 +182,7 @@ The TCP/IP transport specifies one or two OFFLOAD_SECURITY_ASSOCIATION structure
      supported: encryption/decryption (ESP) followed by authentication (AH).
 
 
-#### - OffloadHandle
+### -field OffloadHandle
 
 The handle to the newly created SA. The miniport driver supplies this handle before completing the
      
@@ -191,25 +191,25 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a> structure before
      passing a send packet to the miniport driver. The TCP/IP transport must also specify this handle when
      deleting the SA with an 
-     <mshelp:link keywords="netvista.oid_tcp_task_ipsec_delete_sa" tabindex="0">
-     OID_TCP_TASK_IPSEC_DELETE_SA</mshelp:link> request.
+     <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
+     OID_TCP_TASK_IPSEC_DELETE_SA</a> request.
 
 
-#### - KeyLen
+### -field KeyLen
 
 The length, in bytes, of the buffer at 
      <b>KeyMat</b> .
 
 
-#### - KeyMat
+### -field KeyMat
 
 A variable-length array that contains keys for the SAs specified at 
      <b>SecAssoc</b> . If both a confidentiality (encryption/decryption) algorithm and an integrity
      (authentication) algorithm are specified by the 
      <b>ConfAlgo</b> and 
      <b>IntegrityAlgo</b> members of an 
-     <mshelp:link keywords="netvista.offload_security_association" tabindex="0"><b>
-     OFFLOAD_SECURITY_ASSOCIATION</b></mshelp:link> structure, the buffer at 
+     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     OFFLOAD_SECURITY_ASSOCIATION</a> structure, the buffer at 
      <b>KeyMat</b> contains key information for the confirmation algorithm first, followed immediately by key
      information for the integrity algorithm.
      
@@ -232,15 +232,15 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
 
-<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
  
 

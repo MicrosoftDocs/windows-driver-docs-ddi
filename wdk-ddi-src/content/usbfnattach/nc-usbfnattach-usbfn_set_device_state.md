@@ -75,17 +75,17 @@ typedef USBFN_SET_DEVICE_STATE PFN_USBFN_SET_DEVICE_STATE;
 
 
 
-#### - Context [in]
+### -param Context [in]
 
     A pointer to a driver-defined context.
 
 
-#### - DeviceState [in]
+### -param DeviceState [in]
 
     A <a href="..\usbfnbase\ne-usbfnbase-_usbfn_device_state.md">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
 
 
-#### - BusSpeed [in]
+### -param BusSpeed [in]
 
 A <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAllocateMdl routine [Kernel-Mode Driver Architecture], wdm/IoAllocateMdl, kernel.ioallocatemdl, IoAllocateMdl, k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml
+ms.keywords: kernel.ioallocatemdl, k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], wdm/IoAllocateMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ PMDL IoAllocateMdl(
 
 
 
-#### - VirtualAddress [in, optional]
+### -param VirtualAddress [in, optional]
 
 Pointer to the base virtual address of the buffer the MDL is to describe.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the length, in bytes, of the buffer that the MDL is to describe. For more information, see the following Remarks section.
 
 
-#### - SecondaryBuffer [in]
+### -param SecondaryBuffer [in]
 
 Indicates whether the buffer is a primary or secondary buffer. This parameter determines how the MDL is to be linked to the IRP. All buffers except the first buffer described by an MDL in an IRP are considered secondary buffers. This field must be <b>FALSE</b> if no IRP is associated with the MDL. For more information, see the following Remarks section.
 
 
-#### - ChargeQuota [in]
+### -param ChargeQuota [in]
 
 Reserved for system use. Drivers must set this parameter to <b>FALSE</b>.
 
 
-#### - Irp [in, out, optional]
+### -param Irp [in, out, optional]
 
 Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is non-<b>NULL</b>, the allocated MDL is associated with the specified IRP's MDL list, according to the value of <i>SecondaryBuffer</i>. 
 
@@ -119,11 +119,11 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr, netdma/NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], NetDmaIsr
+ms.keywords: netdma/NetDmaIsr, NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr, NetDmaIsr function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,20 +73,20 @@ VOID NetDmaIsr(
 
 
 
-#### - NetDmaChannelHandle [in]
+### -param NetDmaChannelHandle [in]
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
-#### - DmaDescriptor [in]
+### -param DmaDescriptor [in]
 
 The physical address of the DMA descriptor that is associated with the interrupt.
 
 
-#### - pCpuNumber [out]
+### -param pCpuNumber [out]
 
 The number of the CPU that is associated with the interrupt DPC. The NetDMA interface writes this
      CPU number at the provided address before 

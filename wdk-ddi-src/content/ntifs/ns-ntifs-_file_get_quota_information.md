@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4c4d57bd-28b3-4db3-a172-bc1a27dd10b2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, ntifs/PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], _FILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], *PFILE_GET_QUOTA_INFORMATION, ifsk.file_get_quota_information
+ms.keywords: FILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], ntifs/FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION, ifsk.file_get_quota_information, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, *PFILE_GET_QUOTA_INFORMATION, _FILE_GET_QUOTA_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _FILE_GET_QUOTA_INFORMATION {
 
 
 
-#### - NextEntryOffset
+### -field NextEntryOffset
 
 Offset, in bytes, of the next FILE_GET_QUOTA_INFORMATION-typed entry. This member is zero if no other entries follow this one. 
 
 
-#### - SidLength
+### -field SidLength
 
 Length, in bytes, of the <b>Sid</b> member. 
 
 
-#### - Sid
+### -field Sid
 
 Security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) whose quota information is to be returned. 
 
@@ -97,13 +97,13 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 <a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
 
  
 

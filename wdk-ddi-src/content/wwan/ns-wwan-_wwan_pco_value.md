@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45A499CE-2C9A-4070-BEF8-880E7673FA8E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], _WWAN_PCO_VALUE, *PWWAN_PCO_VALUE, PWWAN_PCO_VALUE, wwan/PWWAN_PCO_VALUE, WWAN_PCO_VALUE, netvista.wwan_pco_value
+ms.keywords: PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE, _WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], netvista.wwan_pco_value, PWWAN_PCO_VALUE, wwan/PWWAN_PCO_VALUE, WWAN_PCO_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _WWAN_PCO_VALUE {
 
 
 
-#### - Size
+### -field Size
 
 The length of the PCO value that is valid in <b>PcoData</b>, which will be octets 3 (octet 1 to 3) + m*protocol element length + n*container element length. This is defined in the 3GPP TS24.008 spec, Section 10.5, since PCO is Type 4 information. 
 
 
-#### - Type
+### -field Type
 
 Indicates whether the PCO value being passed up is the original structure that was received by the modem or a subset of the full PCO structure and has the header synthesized. For more info, see <a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>.
 
@@ -104,9 +104,9 @@ The following figure shows  	a full PCO structure as defined in the 3G TS24.008 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
 
 <a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>
 

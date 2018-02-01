@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BAAAF09B-F39D-44E0-9409-1C98B0C6A56B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugPlmClient3::QueryPlmPackageList, IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_queryplmpackagelist, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, IDebugPlmClient3, QueryPlmPackageList method [Windows Debugging]
+ms.keywords: QueryPlmPackageList, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, IDebugPlmClient3, debugger.idebugplmclient3_queryplmpackagelist, IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], dbgeng/IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT QueryPlmPackageList(
 
 
 
-#### - Server [in]
+### -param Server [in]
 
 The server of the package.
 
 
-#### - Stream [in]
+### -param Stream [in]
 
 A pointer to an output stream for results.
 

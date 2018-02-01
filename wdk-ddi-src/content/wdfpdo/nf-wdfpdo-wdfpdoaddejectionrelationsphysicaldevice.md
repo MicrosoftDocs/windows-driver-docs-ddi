@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23a9ab2a-be8e-40ff-8654-adf170adc6f2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoAddEjectionRelationsPhysicalDevice, WdfPdoAddEjectionRelationsPhysicalDevice method, wdf.wdfpdoaddejectionrelationsphysicaldevice, DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, PFN_WDFPDOADDEJECTIONRELATIONSPHYSICALDEVICE, kmdf.wdfpdoaddejectionrelationsphysicaldevice, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
+ms.keywords: WdfPdoAddEjectionRelationsPhysicalDevice, kmdf.wdfpdoaddejectionrelationsphysicaldevice, WdfPdoAddEjectionRelationsPhysicalDevice method, PFN_WDFPDOADDEJECTIONRELATIONSPHYSICALDEVICE, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice, wdf.wdfpdoaddejectionrelationsphysicaldevice, DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoAddEjectionRelationsPhysicalDevice(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - PhysicalDevice [in]
+### -param PhysicalDevice [in]
 
 A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 

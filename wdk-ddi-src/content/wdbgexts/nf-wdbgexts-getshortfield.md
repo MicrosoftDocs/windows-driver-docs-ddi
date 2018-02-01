@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f5f00e88-b758-4f37-9fe5-5db8f20835b1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, GetShortField function [Windows Debugging], GetShortField, debugger.getshortfield, wdbgexts/GetShortField
+ms.keywords: GetShortField, debugger.getshortfield, GetShortField function [Windows Debugging], WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, wdbgexts/GetShortField
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ __inline ULONG64 GetShortField(
 
 
 
-#### - TypeAddress [in]
+### -param TypeAddress [in]
 
 The meaning of this parameter depends on the value of <i>StoreAddress</i>.
 
@@ -87,7 +87,7 @@ Specifies the address of the structure in the target's memory.  This address is 
 <i>TypeAddress</i> is ignored.  The value of <i>TypeAddress</i> from the last call when <i>StoreAddress</i> was non-zero is used to specify the address of the structure in the target's memory. 
 
 
-#### - Name [in]
+### -param Name [in]
 
 The meaning of this parameter depends on the value of <i>StoreAddress</i>.
 
@@ -104,7 +104,7 @@ Specifies the name of the type of the structure at <i>TypeAddress</i>.
 Specifies the name of the member in the structure to read.  The address and type of the structure are remembered from a previous call to this function with <i>StoreAddress</i> not equal to zero.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield". 
 
 
-#### - StoreAddress [in]
+### -param StoreAddress [in]
 
 Specifies the mode of this function.
 
@@ -246,11 +246,11 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550957">InitTypeReadPhysical</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550953">InitTypeRead</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550957">InitTypeReadPhysical</a>
 
  
 

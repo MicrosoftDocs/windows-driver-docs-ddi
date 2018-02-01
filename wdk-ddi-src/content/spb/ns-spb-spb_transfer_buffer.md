@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, spb/SPB_TRANSFER_BUFFER, spb/PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], SPB.spb_transfer_buffer"
+ms.keywords: spb/SPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB_TRANSFER_BUFFER, SPB.spb_transfer_buffer, spb/PSPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], *PSPB_TRANSFER_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,12 +86,12 @@ typedef struct _SPB_TRANSFER_BUFFER {
  
 
 
-#### - Simple
+### -field Simple
 
 A SPB_TRANSFER_BUFFER_LIST_ENTRY  structure that specifies the base address and the length of a simple transfer buffer. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatSimple</b> or <b>SpbTransferBufferFormatSimpleNonPaged</b>. The <b>SpbTransferBufferFormatSimpleNonPaged</b> format is used only by kernel-mode clients.
 
 
-#### - BufferList
+### -field BufferList
 
 A scatter-gather list that consists of an array of buffer descriptors. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatList</b>.
 
@@ -106,12 +106,12 @@ A pointer to an array of <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structures that d
 The number of elements in the <b>List</b> array.
 
 
-#### - Mdl
+### -field Mdl
 
 A pointer to an MDL that describes the buffer. This member is used only by kernel-mode clients. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatMdl</b>. For more information, see Remarks.
 
 
-#### - Format
+### -field Format
 
 The buffer format.  This member is set to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a> enumeration values:
 <ul>

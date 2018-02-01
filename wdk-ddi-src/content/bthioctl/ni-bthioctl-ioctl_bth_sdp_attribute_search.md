@@ -69,16 +69,16 @@ The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified 
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <mshelp:link keywords="bltooth.bth_sdp_attribute_search_request" tabindex="0"><b>
-      BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</b></mshelp:link> structure that specifies the remote computer range of attributes
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+      BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure that specifies the remote computer range of attributes
       to search plus other key members.
 
 
 ### -input-buffer-length
 
 The length of a 
-      <mshelp:link keywords="bltooth.bth_sdp_attribute_search_request" tabindex="0"><b>
-      BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</b></mshelp:link> structure.
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+      BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure.
 
 
 ### -output-buffer
@@ -201,12 +201,12 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 
 In most circumstances, profile drivers can combine SDP service and attribute searches by calling the 
-    <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
-    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link> IOCTL. If a profile driver must reduce the amount of SDP
+    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTL. If a profile driver must reduce the amount of SDP
     traffic that is transmitted over the Bluetooth link, or extract information from the SDP server by using
     a small number of message transfer units (MTUs), the profile driver should call the 
-    <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_search" tabindex="0"><b>
-    IOCTL_BTH_SDP_SERVICE_SEARCH</b></mshelp:link> IOCTL to perform a service search. The profile driver should then call
+    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">
+    IOCTL_BTH_SDP_SERVICE_SEARCH</a> IOCTL to perform a service search. The profile driver should then call
     the IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL to perform an attribute search.
 
 The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains information about the
@@ -220,13 +220,13 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
 
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
+
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+   BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
-
-<mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
-   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
-
-<mshelp:link keywords="bltooth.bth_sdp_attribute_search_request" tabindex="0"><b>
-   BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</b></mshelp:link>
 
  
 

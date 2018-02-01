@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c551a376-2148-4fc4-ba4e-9c1ce1eea1d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_GetLUNStatistics_IN, _SM_GetLUNStatistics_IN, hbapiwmi/PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], *PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], hbapiwmi/SM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in
+ms.keywords: storage.sm_getlunstatistics_in, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], PSM_GetLUNStatistics_IN, _SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], hbapiwmi/SM_GetLUNStatistics_IN, hbapiwmi/PSM_GetLUNStatistics_IN, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml, SM_GetLUNStatistics_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SM_GetLUNStatistics_IN {
 
 
 
-#### - Lunit
+### -field Lunit
 
 A structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that contains information that is used by the operating system to identify a SCSI logical unit.
 

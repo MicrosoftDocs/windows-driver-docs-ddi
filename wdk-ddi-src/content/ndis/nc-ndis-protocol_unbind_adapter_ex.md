@@ -74,12 +74,12 @@ NDIS_STATUS ProtocolUnbindAdapterEx(
 
 
 
-#### - UnbindContext [in]
+### -param UnbindContext [in]
 
 The handle that identifies the NDIS context area for this unbind operation.
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
@@ -116,8 +116,8 @@ A handle to a context area allocated by the protocol driver. The protocol driver
 <td width="60%">
 <i>ProtocolUnbindAdapterEx</i> did not complete the unbind operation and the operation will be
        completed asynchronously. The protocol driver must call the 
-       <mshelp:link keywords="netvista.ndiscompleteunbindadapterex" tabindex="0"><b>
-       NdisCompleteUnbindAdapterEx</b></mshelp:link> function after the unbind operation is complete.
+       <a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">
+       NdisCompleteUnbindAdapterEx</a> function after the unbind operation is complete.
 
 </td>
 </tr>
@@ -145,16 +145,16 @@ Before calling
     the binding to the underlying miniport adapter. If 
     <b>NdisCloseAdapterEx</b> returns NDIS_STATUS_SUCCESS, the close operation is complete. If 
     <b>NdisCloseAdapterEx</b> returns NDIS_STATUS_PENDING, NDIS calls the protocol driver's 
-    <mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
-    ProtocolCloseAdapterCompleteEx</i></mshelp:link> function after the close operation is complete.
+    <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+    ProtocolCloseAdapterCompleteEx</a> function after the close operation is complete.
 
 Before calling 
     <b>NdisCloseAdapterEx</b>, the protocol driver should clear the multicast address list and packet filters
     for the binding. The protocol driver sets the binding multicast address list to <b>NULL</b>, and the packet
     filter to zero. For more information, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a> and 
-    <mshelp:link keywords="netvista.oid_gen_current_packet_filter" tabindex="0">
-    OID_GEN_CURRENT_PACKET_FILTER</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">
+    OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 If a wake-up pattern has been specified, the protocol driver should remove it with the   <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a> OID and clear the receive side scaling parameters with the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID. An NDIS 6.20 and later protocol driver should remove a wake-on-LAN pattern with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569771">OID_PM_REMOVE_WOL_PATTERN</a> OID and remove a low-power protocol offload with the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
 
@@ -172,8 +172,8 @@ If the protocol driver has completed the unbind operation,
 <i>ProtocolUnbindAdapterEx</i> can return NDIS_STATUS_PENDING to defer the completion of the unbind
     operation to a later time. If 
     <i>ProtocolUnbindAdapterEx</i> returns NDIS_STATUS_PENDING, the driver must eventually call the 
-    <mshelp:link keywords="netvista.ndiscompleteunbindadapterex" tabindex="0"><b>
-    NdisCompleteUnbindAdapterEx</b></mshelp:link> function to complete the unbind operation. If the 
+    <a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">
+    NdisCompleteUnbindAdapterEx</a> function to complete the unbind operation. If the 
     <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a> function returned
     NDIS_STATUS_PENDING, the driver can complete the unbind operation in 
     <i>ProtocolCloseAdapterCompleteEx</i>. 
@@ -200,14 +200,14 @@ NDIS calls
 <ol>
 <li>
 Remove power management wake on LAN (WOL) patterns from the miniport adapter with the 
-       <mshelp:link keywords="netvista.oid_pnp_remove_wake_up_pattern" tabindex="0">
-       OID_PNP_REMOVE_WAKE_UP_PATTERN</mshelp:link> OID.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
+       OID_PNP_REMOVE_WAKE_UP_PATTERN</a> OID.
 
 </li>
 <li>
 Clear the receive side scaling parameters with the 
-       <mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-       OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link> OID.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+       OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID.
 
 </li>
 </ol>NDIS 6.20 and later protocol drivers should perform the following operations:
@@ -219,8 +219,8 @@ Remove power management WOL patterns from the miniport adapter with the
 </li>
 <li>
 Remove power management protocol offloads from the miniport adapter with the 
-       <mshelp:link keywords="netvista.oid_pm_remove_protocol_offload" tabindex="0">
-       OID_PM_REMOVE_PROTOCOL_OFFLOAD</mshelp:link> OID.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">
+       OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
 
 </li>
 </ol><h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolUnbindAdapterEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
@@ -259,27 +259,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
 
-<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
-
-<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+   ProtocolCloseAdapterCompleteEx</a>
 
 <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
-<mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
-   ProtocolCloseAdapterCompleteEx</i></mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
  
 

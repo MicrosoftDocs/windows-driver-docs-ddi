@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_DATA0, FWPS_STREAM_DATA0_, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, netvista.fwps_stream_data0, FWPS_STREAM_DATA0
+ms.keywords: fwpsk/FWPS_STREAM_DATA0, FWPS_STREAM_DATA0_, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, netvista.fwps_stream_data0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct FWPS_STREAM_DATA0_ {
 
 
 
-#### - flags
+### -field flags
 
 A variable containing flags that specify the characteristics of the data stream.
      
@@ -90,17 +90,6 @@ Specifies that the stream is an inbound data stream. This flag is always set for
        streams.
 
 
-#### FWPS_STREAM_FLAG_RECEIVE_EXPEDITED
-
-Specifies that the inbound data stream contains high-priority out-of-band data.
-
-
-#### FWPS_STREAM_FLAG_RECEIVE_DISCONNECT
-
-Specifies that the inbound data has arrived with the FIN flag set in the TCP header. This
-       indicates that the sender has disconnected the stream.
-
-
 #### FWPS_STREAM_FLAG_RECEIVE_ABORT
 
 Specifies that the inbound data has arrived with the RST flag set in the TCP header. This
@@ -108,10 +97,38 @@ Specifies that the inbound data has arrived with the RST flag set in the TCP hea
        
 <div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div><div> </div>
 
+#### FWPS_STREAM_FLAG_RECEIVE_DISCONNECT
+
+Specifies that the inbound data has arrived with the FIN flag set in the TCP header. This
+       indicates that the sender has disconnected the stream.
+
+
+#### FWPS_STREAM_FLAG_RECEIVE_EXPEDITED
+
+Specifies that the inbound data stream contains high-priority out-of-band data.
+
+
 #### FWPS_STREAM_FLAG_SEND
 
 Specifies that the stream is an outbound data stream. This flag is always set for outbound data
        streams.
+
+
+#### FWPS_STREAM_FLAG_SEND_ABORT
+
+Specifies that the stream is to be reset after the data in the outbound data stream has been
+       sent. The network stack will set the RST flag in the TCP header of the last packet that is sent out.
+       Callout drivers must not call the 
+       <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a> function
+       to inject data into the stream if this flag is set.
+       
+<div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div><div> </div>
+
+#### FWPS_STREAM_FLAG_SEND_DISCONNECT
+
+Specifies that the stream is to be disconnected after the data in the outbound data stream has
+       been sent. The network stack will set the FIN flag in the TCP header of the last packet that is sent
+       out.
 
 
 #### FWPS_STREAM_FLAG_SEND_EXPEDITED
@@ -126,36 +143,19 @@ Specifies that the sending client requests that the outbound data stream is not 
        necessary.
 
 
-#### FWPS_STREAM_FLAG_SEND_DISCONNECT
-
-Specifies that the stream is to be disconnected after the data in the outbound data stream has
-       been sent. The network stack will set the FIN flag in the TCP header of the last packet that is sent
-       out.
-
-
-#### FWPS_STREAM_FLAG_SEND_ABORT
-
-Specifies that the stream is to be reset after the data in the outbound data stream has been
-       sent. The network stack will set the RST flag in the TCP header of the last packet that is sent out.
-       Callout drivers must not call the 
-       <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a> function
-       to inject data into the stream if this flag is set.
-       
-<div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div><div> </div>
-
-#### - dataOffset
+### -field dataOffset
 
 An 
      <a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a> structure
      that specifies the offset into the data stream where the portion of the data stream begins.
 
 
-#### - dataLength
+### -field dataLength
 
 The number of bytes in the portion of the data stream.
 
 
-#### - netBufferListChain
+### -field netBufferListChain
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
@@ -169,23 +169,23 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
     callout's 
     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function can process. The 
     <b>dataStream</b> member of the 
-    <mshelp:link keywords="netvista.fwps_stream_callout_io_packet0" tabindex="0"><b>
-    FWPS_STREAM_CALLOUT_IO_PACKET0</b></mshelp:link> structure points to an FWPS_STREAM_DATA0 structure.
+    <a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+    FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure points to an FWPS_STREAM_DATA0 structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwps_stream_callout_io_packet0" tabindex="0"><b>
-   FWPS_STREAM_CALLOUT_IO_PACKET0</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
 
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
  
 

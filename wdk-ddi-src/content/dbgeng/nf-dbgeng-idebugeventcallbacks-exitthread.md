@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03ff46cb-dfc5-409a-b652-bef8f2b37b59
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExitThread, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, ExitThread method [Windows Debugging], IDebugEventCallbacks, dbgeng/IDebugEventCallbacks::ExitThread, IDebugEventCallbacks::ExitThread, ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, IDebugEventCallbacks interface [Windows Debugging], ExitThread method, debugger.idebugeventcallbacks_exitthread
+ms.keywords: IDebugEventCallbacks interface [Windows Debugging], ExitThread method, IDebugEventCallbacks, ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, ExitThread, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, ExitThread method [Windows Debugging], IDebugEventCallbacks::ExitThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT ExitThread(
 
 
 
-#### - ExitCode [in]
+### -param ExitCode [in]
 
 Specifies the exit code for the thread.
 

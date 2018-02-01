@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 94e7c36a-e45c-4d98-aeb7-f23769347ca5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTcpciPortControllerStart, ucmtcpciportcontroller/UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart
+ms.keywords: UcmTcpciPortControllerStart method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerStart, buses.ucmtcpciportcontrollerstart, UcmTcpciPortControllerStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS UcmTcpciPortControllerStart(
 
 
 
-#### - PortControllerObject
+### -param PortControllerObject
 
 Handle to the port controller  object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
 

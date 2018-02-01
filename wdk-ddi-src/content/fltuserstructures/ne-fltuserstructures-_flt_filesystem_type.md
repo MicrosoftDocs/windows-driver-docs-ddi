@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b4bdfa93-3db5-4dfa-b539-112927cbedb0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FLT_FSTYPE_UDFS, FLT_FSTYPE_GPFS, FLT_FILESYSTEM_TYPE enumeration [Installable File System Drivers], FLT_FSTYPE_LANMAN, FLT_FSTYPE_PSFS, fltuserstructures/FLT_FSTYPE_FS_REC, fltuserstructures/FLT_FSTYPE_UDFS, fltuserstructures/FLT_FSTYPE_RDPDR, fltuserstructures/FLT_FSTYPE_EXFAT, fltuserstructures/FLT_FILESYSTEM_TYPE, FLT_FILESYSTEM_TYPE, fltuserstructures/FLT_FSTYPE_LANMAN, FLT_FSTYPE_UNKNOWN, FLT_FSTYPE_MUP, fltuserstructures/FLT_FSTYPE_ROXIO_UDF3, fltuserstructures/FLT_FSTYPE_PSFS, fltuserstructures/FLT_FSTYPE_REFS, FLT_FSTYPE_RAW, FLT_FSTYPE_FS_REC, fltuserstructures/FLT_FSTYPE_UNKNOWN, FLT_FSTYPE_OPENAFS, fltuserstructures/FLT_FSTYPE_NTFS, FLT_FSTYPE_MSFS, PFLT_FILESYSTEM_TYPE enumeration pointer [Installable File System Drivers], FLT_FSTYPE_CSVFS, FLT_FSTYPE_ROXIO_UDF2, FLT_FSTYPE_RSFX, FLT_FSTYPE_MS_NETWARE, fltuserstructures/FLT_FSTYPE_NFS, fltuserstructures/FLT_FSTYPE_OPENAFS, _FLT_FILESYSTEM_TYPE, fltuserstructures/FLT_FSTYPE_NPFS, fltuserstructures/FLT_FSTYPE_WEBDAV, fltuserstructures/FLT_FSTYPE_MSFS, FLT_FSTYPE_NETWARE, fltuserstructures/FLT_FSTYPE_ROXIO_UDF2, fltuserstructures/FLT_FSTYPE_FAT, fltuserstructures/FLT_FSTYPE_MUP, fltuserstructures/FLT_FSTYPE_TACIT, fltuserstructures/FLT_FSTYPE_CSVFS, FLT_FSTYPE_RDPDR, fltuserstructures/FLT_FSTYPE_INCD, fltuserstructures/FLT_FSTYPE_GPFS, PFLT_FILESYSTEM_TYPE, FLT_FSTYPE_REFS, fltuserstructures/FLT_FSTYPE_RAW, fltuserstructures/FLT_FSTYPE_MS_NETWARE, FLT_FSTYPE_ROXIO_UDF1, FLT_FSTYPE_CDFS, fltuserstructures/FLT_FSTYPE_RSFX, FLT_FSTYPE_NTFS, FLT_FSTYPE_TACIT, FLT_FSTYPE_ROXIO_UDF3, ifsk.flt_filesystem_type, fltuserstructures/FLT_FSTYPE_INCD_FAT, FLT_FSTYPE_BSUDF, FLT_FSTYPE_FAT, fltuserstructures/FLT_FSTYPE_BSUDF, fltuserstructures/PFLT_FILESYSTEM_TYPE, fltuserstructures/FLT_FSTYPE_NETWARE, fltuserstructures/FLT_FSTYPE_ROXIO_UDF1, FLT_FSTYPE_NPFS, FLT_FSTYPE_INCD_FAT, FLT_FSTYPE_EXFAT, FLT_FSTYPE_WEBDAV, FLT_FSTYPE_INCD, fltuserstructures/FLT_FSTYPE_CDFS, *PFLT_FILESYSTEM_TYPE, FLT_FSTYPE_NFS
+ms.keywords: fltuserstructures/FLT_FILESYSTEM_TYPE, FLT_FSTYPE_UNKNOWN, fltuserstructures/FLT_FSTYPE_WEBDAV, *PFLT_FILESYSTEM_TYPE, fltuserstructures/FLT_FSTYPE_REFS, FLT_FILESYSTEM_TYPE enumeration [Installable File System Drivers], FLT_FSTYPE_UDFS, FLT_FSTYPE_MUP, FLT_FSTYPE_RAW, fltuserstructures/FLT_FSTYPE_ROXIO_UDF2, FLT_FSTYPE_OPENAFS, fltuserstructures/FLT_FSTYPE_RSFX, fltuserstructures/FLT_FSTYPE_RAW, FLT_FSTYPE_LANMAN, FLT_FSTYPE_NPFS, fltuserstructures/FLT_FSTYPE_INCD, fltuserstructures/FLT_FSTYPE_CDFS, FLT_FSTYPE_CSVFS, FLT_FSTYPE_EXFAT, FLT_FSTYPE_RDPDR, fltuserstructures/FLT_FSTYPE_UDFS, fltuserstructures/FLT_FSTYPE_NETWARE, fltuserstructures/FLT_FSTYPE_INCD_FAT, fltuserstructures/FLT_FSTYPE_NFS, fltuserstructures/FLT_FSTYPE_RDPDR, fltuserstructures/FLT_FSTYPE_ROXIO_UDF1, FLT_FSTYPE_NFS, PFLT_FILESYSTEM_TYPE enumeration pointer [Installable File System Drivers], fltuserstructures/FLT_FSTYPE_ROXIO_UDF3, fltuserstructures/FLT_FSTYPE_LANMAN, fltuserstructures/FLT_FSTYPE_BSUDF, fltuserstructures/FLT_FSTYPE_OPENAFS, fltuserstructures/FLT_FSTYPE_FAT, FLT_FSTYPE_REFS, fltuserstructures/FLT_FSTYPE_MSFS, FLT_FSTYPE_NTFS, FLT_FSTYPE_FAT, FLT_FSTYPE_WEBDAV, FLT_FSTYPE_CDFS, FLT_FSTYPE_NETWARE, FLT_FSTYPE_BSUDF, FLT_FSTYPE_PSFS, FLT_FSTYPE_ROXIO_UDF1, fltuserstructures/FLT_FSTYPE_NTFS, fltuserstructures/PFLT_FILESYSTEM_TYPE, fltuserstructures/FLT_FSTYPE_NPFS, fltuserstructures/FLT_FSTYPE_GPFS, fltuserstructures/FLT_FSTYPE_UNKNOWN, FLT_FILESYSTEM_TYPE, FLT_FSTYPE_MS_NETWARE, fltuserstructures/FLT_FSTYPE_MS_NETWARE, fltuserstructures/FLT_FSTYPE_FS_REC, FLT_FSTYPE_ROXIO_UDF3, ifsk.flt_filesystem_type, FLT_FSTYPE_INCD, FLT_FSTYPE_FS_REC, fltuserstructures/FLT_FSTYPE_PSFS, FLT_FSTYPE_MSFS, fltuserstructures/FLT_FSTYPE_TACIT, FLT_FSTYPE_RSFX, fltuserstructures/FLT_FSTYPE_MUP, _FLT_FILESYSTEM_TYPE, FLT_FSTYPE_INCD_FAT, FLT_FSTYPE_GPFS, FLT_FSTYPE_ROXIO_UDF2, PFLT_FILESYSTEM_TYPE, fltuserstructures/FLT_FSTYPE_CSVFS, FLT_FSTYPE_TACIT, fltuserstructures/FLT_FSTYPE_EXFAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,152 +96,152 @@ typedef enum _FLT_FILESYSTEM_TYPE {
 
 
 
-#### - FLT_FSTYPE_UNKNOWN
+### -field FLT_FSTYPE_UNKNOWN
 
 Unknown file system type.
 
 
-#### - FLT_FSTYPE_RAW
+### -field FLT_FSTYPE_RAW
 
 Microsoft RAW file system. File system namespace: \FileSystem\RAW. 
 
 
-#### - FLT_FSTYPE_NTFS
+### -field FLT_FSTYPE_NTFS
 
 Microsoft NTFS file system. File system namespace:  \FileSystem\Ntfs.
 
 
-#### - FLT_FSTYPE_FAT
+### -field FLT_FSTYPE_FAT
 
 Microsoft FAT file system. File system namespace: \FileSystem\Fastfat. 
 
 
-#### - FLT_FSTYPE_CDFS
+### -field FLT_FSTYPE_CDFS
 
 Microsoft CDFS file system. File system namespace: \FileSystem\Cdfs.
 
 
-#### - FLT_FSTYPE_UDFS
+### -field FLT_FSTYPE_UDFS
 
 Microsoft UDFS file system. File system namespace: \FileSystem\Udfs.
 
 
-#### - FLT_FSTYPE_LANMAN
+### -field FLT_FSTYPE_LANMAN
 
 Microsoft LanMan Redirector. File system namespace: \FileSystem\MRxSmb.
 
 
-#### - FLT_FSTYPE_WEBDAV
+### -field FLT_FSTYPE_WEBDAV
 
 Microsoft WebDav redirector. File system namespace: \FileSystem\MRxDav.
 
 
-#### - FLT_FSTYPE_RDPDR
+### -field FLT_FSTYPE_RDPDR
 
 Microsoft Terminal Server redirector. File system namespace: \Driver\rdpdr.
 
 
-#### - FLT_FSTYPE_NFS
+### -field FLT_FSTYPE_NFS
 
 Microsoft NFS file system. File system namespace: \FileSystem\NfsRdr.
 
 
-#### - FLT_FSTYPE_MS_NETWARE
+### -field FLT_FSTYPE_MS_NETWARE
 
 Microsoft NetWare redirector. File system namespace: \FileSystem\nwrdr.
 
 
-#### - FLT_FSTYPE_NETWARE
+### -field FLT_FSTYPE_NETWARE
 
 Novell NetWare redirector.
 
 
-#### - FLT_FSTYPE_BSUDF
+### -field FLT_FSTYPE_BSUDF
 
 The BsUDF CD-ROM driver. File system namespace: \FileSystem\BsUDF.
 
 
-#### - FLT_FSTYPE_MUP
+### -field FLT_FSTYPE_MUP
 
 Microsoft MUP redirector. File system namespace: \FileSystem\Mup.
 
 
-#### - FLT_FSTYPE_RSFX
+### -field FLT_FSTYPE_RSFX
 
 Microsoft WinFS redirector. File system namespace: \FileSystem\RsFxDrv.
 
 
-#### - FLT_FSTYPE_ROXIO_UDF1
+### -field FLT_FSTYPE_ROXIO_UDF1
 
 Roxio UDF writeable file system. File system namespace: \FileSystem\cdudf_xp.
 
 
-#### - FLT_FSTYPE_ROXIO_UDF2
+### -field FLT_FSTYPE_ROXIO_UDF2
 
 Roxio UDF readable file system. File system namespace: \FileSystem\UdfReadr_xp.
 
 
-#### - FLT_FSTYPE_ROXIO_UDF3
+### -field FLT_FSTYPE_ROXIO_UDF3
 
 Roxio DVD file system. File system namespace: \FileSystem\DVDVRRdr_xp.
 
 
-#### - FLT_FSTYPE_TACIT
+### -field FLT_FSTYPE_TACIT
 
 Tacit file system. Namespace: \Device\TCFSPSE.
 
 
-#### - FLT_FSTYPE_FS_REC
+### -field FLT_FSTYPE_FS_REC
 
 Microsoft file system recognizer. File system namespace: \FileSystem\Fs_rec.
 
 
-#### - FLT_FSTYPE_INCD
+### -field FLT_FSTYPE_INCD
 
 Nero InCD file system. File system namespace: \FileSystem\InCDfs.
 
 
-#### - FLT_FSTYPE_INCD_FAT
+### -field FLT_FSTYPE_INCD_FAT
 
 Nero InCD FAT file system. File system namespace: \FileSystem\InCDFat.
 
 
-#### - FLT_FSTYPE_EXFAT
+### -field FLT_FSTYPE_EXFAT
 
 Microsoft EXFat file system. File system namespace: \FileSystem\exfat.
 
 
-#### - FLT_FSTYPE_PSFS
+### -field FLT_FSTYPE_PSFS
 
 PolyServ file system. File system namespace: \FileSystem\psfs.
 
 
-#### - FLT_FSTYPE_GPFS
+### -field FLT_FSTYPE_GPFS
 
 IBM General Parallel File System. File system namespace: \FileSystem\gpfs.
 
 
-#### - FLT_FSTYPE_NPFS
+### -field FLT_FSTYPE_NPFS
 
 Microsoft named pipe file system. File system namespace: \FileSystem\npfs.
 
 
-#### - FLT_FSTYPE_MSFS
+### -field FLT_FSTYPE_MSFS
 
 Microsoft mailslot file system. File system namespace: \FileSystem\msfs.
 
 
-#### - FLT_FSTYPE_CSVFS
+### -field FLT_FSTYPE_CSVFS
 
 Microsoft cluster shared volume file system. File system namespace: \FileSystem\csvfs.
 
 
-#### - FLT_FSTYPE_REFS
+### -field FLT_FSTYPE_REFS
 
 Microsoft ReFS file system. File system namespace: \FileSystem\refs.
 
 
-#### - FLT_FSTYPE_OPENAFS
+### -field FLT_FSTYPE_OPENAFS
 
  OpenAFS file system. File system namespace: \FileSystem\AFSRedirector.
 
@@ -255,13 +255,13 @@ New file systems that are not part of the <b>FLT_FILESYSTEM_TYPE</b> enumeration
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilesystemtype.md">FltGetFileSystemType</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilesystemtype.md">FltGetFileSystemType</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
  
 

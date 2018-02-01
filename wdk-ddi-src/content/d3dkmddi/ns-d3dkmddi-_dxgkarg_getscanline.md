@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_GETSCANLINE structure [Display Devices], DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, *INOUT_PDXGKARG_GETSCANLINE, _DXGKARG_GETSCANLINE, display.dxgkarg_getscanline, d3dkmddi/DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE
+ms.keywords: display.dxgkarg_getscanline, DXGKARG_GETSCANLINE, _DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], d3dkmddi/DXGKARG_GETSCANLINE, *INOUT_PDXGKARG_GETSCANLINE, DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGKARG_GETSCANLINE {
 
 
 
-#### - VidPnTargetId
+### -field VidPnTargetId
 
 [in] The identifier of a display adapter's video present target.
 
 
-#### - InVerticalBlank
+### -field InVerticalBlank
 
 [out] A Boolean variable that receives <b>TRUE</b> if the video present target is in vertical blanking mode and <b>FALSE</b> if the video present target is not in vertical blanking mode.
 
 
-#### - ScanLine
+### -field ScanLine
 
 [out] The video present target's current scan line.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06816431-a6fc-4c24-a31d-c486a4ba667f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], rilapitypes/RILEMERGENCYNUMBERSLIST, *LPRILEMERGENCYNUMBERSLIST, netvista.rilemergencynumberslist_2, RILEMERGENCYNUMBERSLIST
+ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, netvista.rilemergencynumberslist_2, rilapitypes/RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct _RILEMERGENCYNUMBERSLIST {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwRilENSize
+### -field dwRilENSize
 
 
 
-#### - RilEN
+### -field RilEN
 
 

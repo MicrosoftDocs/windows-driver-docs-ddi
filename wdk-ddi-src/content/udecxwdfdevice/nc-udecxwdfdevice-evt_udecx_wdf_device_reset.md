@@ -71,7 +71,7 @@ void EvtUdecxWdfDeviceReset(
 
 
 
-#### - UdecxWdfDevice [in]
+### -param UdecxWdfDevice [in]
 
 A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 

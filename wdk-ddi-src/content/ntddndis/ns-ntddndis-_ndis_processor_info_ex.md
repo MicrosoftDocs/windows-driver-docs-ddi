@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e4f28f30-32bc-4bbc-8e95-f87dfe80229d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_PROCESSOR_INFO_EX, ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, netvista.ndis_processor_info_ex, ntddndis/PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROCESSOR_INFO_EX, *PNDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX
+ms.keywords: ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, *PNDIS_PROCESSOR_INFO_EX, netvista.ndis_processor_info_ex, ntddndis/PNDIS_PROCESSOR_INFO_EX, _NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_INFO_EX, ntddndis/NDIS_PROCESSOR_INFO_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,25 +73,25 @@ typedef struct _NDIS_PROCESSOR_INFO_EX {
 
 
 
-#### - ProcNum
+### -field ProcNum
 
 The processor number that is assigned to the processor.
 
 
-#### - SocketId
+### -field SocketId
 
 The socket identifier for the processor. This is the number that is assigned to the motherboard
      socket on the local computer. That is, it is a physical processor identifier. The possible values for
      this member are zero to the number of sockets on the motherboard minus one.
 
 
-#### - CoreId
+### -field CoreId
 
 The core ID of the processor. The value is in the range from zero through the number in the 
      <b>NumCoresPerSocket</b> member of the NDIS_SYSTEM_PROCESSOR_INFO_EX structure minus one.
 
 
-#### - HyperThreadId
+### -field HyperThreadId
 
 The hyper-threading ID of the processor. The value is in the range from zero through the number in
      the 
@@ -99,19 +99,19 @@ The hyper-threading ID of the processor. The value is in the range from zero thr
      one.
 
 
-#### - NodeId
+### -field NodeId
 
 The node identifier of the processor. This is the number of the NUMA node to which the processor
      belongs. This range of possible values is zero to the number of NUMA nodes on the local computer minus
      one.
 
 
-#### - NodeDistance
+### -field NodeDistance
 
 The node distance of the processor. If the handle at the 
      <i>NdisHandle</i> parameter that the caller passed to the 
-     <mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
-     NdisGetProcessorInformationEx</b></mshelp:link> function is not <b>NULL</b> and is a miniport adapter handle, this member
+     <a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+     NdisGetProcessorInformationEx</a> function is not <b>NULL</b> and is a miniport adapter handle, this member
      contains the distance of the corresponding NIC from this processor's NUMA node. Otherwise, this member
      is zero for miniport drivers or USHORT_MAX (0xffff) for other drivers.
 
@@ -120,19 +120,19 @@ The node distance of the processor. If the handle at the
 
 
 The NDIS_PROCESSOR_INFO_EX structure is used in the 
-    <mshelp:link keywords="netvista.ndis_system_processor_info_ex" tabindex="0"><b>
-    NDIS_SYSTEM_PROCESSOR_INFO_EX</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">
+    NDIS_SYSTEM_PROCESSOR_INFO_EX</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
-   NdisGetProcessorInformationEx</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 <a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+   NdisGetProcessorInformationEx</a>
 
  
 

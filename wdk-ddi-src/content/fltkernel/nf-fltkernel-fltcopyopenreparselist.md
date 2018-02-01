@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], ifsk.fltcopyopenreparselist, fltkernel/FltAddOpenReparseEntry, FltCopyOpenReparseList
+ms.keywords: fltkernel/FltAddOpenReparseEntry, FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist, FltCopyOpenReparseList, FltAddOpenReparseEntry routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,18 +70,18 @@ NTSTATUS FltAddOpenReparseEntry(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 The filter to reference.
 
 
-#### - Data [in]
+### -param Data [in]
 
 The create operation from which open reparse
                        information should be copied.
 
 
-#### - EcpList [in, out]
+### -param EcpList [in, out]
 
 A new ECP list to copy open reparse information
                        to.

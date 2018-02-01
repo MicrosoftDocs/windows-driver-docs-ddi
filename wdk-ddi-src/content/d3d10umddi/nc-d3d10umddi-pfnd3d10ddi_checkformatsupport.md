@@ -87,14 +87,14 @@ VOID APIENTRY CheckFormatSupport(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - Format [in]
 
  A -typed value of type <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> indicates the pixel format to retrieve capabilities for. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - pFormatCaps [out]
@@ -102,29 +102,19 @@ VOID APIENTRY CheckFormatSupport(
 A pointer to a variable that receives a valid bitwise <b>OR</b> of the following values that indicate the capabilities.
 
 
-#### D3D10_DDI_FORMAT_SUPPORT_SHADER_SAMPLE (0x00000001)
-
-The format can be sampled with any filter in shaders.
-
-
-#### D3D10_DDI_FORMAT_SUPPORT_RENDERTARGET (0x00000002)
-
-The format can be a render target.
-
-
 #### D3D10_DDI_FORMAT_SUPPORT_BLENDABLE (0x00000004)
 
 The format is blendable. (You can set this value only if the format can be a render target.)
 
 
-#### D3D10_DDI_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (0x00000008)
-
-The format can be a render target with a sample count that is greater than one.
-
-
 #### D3D10_DDI_FORMAT_SUPPORT_MULTISAMPLE_LOAD (0x00000010)
 
 The format can be used for reading individual samples from multiple-sample resources.
+
+
+#### D3D10_DDI_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET (0x00000008)
+
+The format can be a render target with a sample count that is greater than one.
 
 
 #### D3D10_DDI_FORMAT_SUPPORT_NOT_SUPPORTED (0x80000000)
@@ -141,39 +131,14 @@ The format is not supported at all. This value is valid only for the following f
 Available starting with Windows 8.
 
 
-#### D3D11_1DDI_FORMAT_SUPPORT_DECODER_OUTPUT (0x00000020)
+#### D3D10_DDI_FORMAT_SUPPORT_RENDERTARGET (0x00000002)
 
-The format can be supported as a decode output resource.
-
-Available starting with Windows 8.
+The format can be a render target.
 
 
-#### D3D11_1DDI_FORMAT_SUPPORT_VIDEO_PROCESSOR_OUTPUT (0x00000040)
+#### D3D10_DDI_FORMAT_SUPPORT_SHADER_SAMPLE (0x00000001)
 
-The format can be a video processor output resource.
-
-Available starting with Windows 8.
-
-
-#### D3D11_1DDI_FORMAT_SUPPORT_VIDEO_PROCESSOR_INPUT (0x00000080)
-
-The format can be a video processor input resource.
-
-Available starting with Windows 8.
-
-
-#### D3D11_1DDI_FORMAT_SUPPORT_VERTEX_BUFFER (0x00000100)
-
-The format can be a vertex buffer.
-
-Available starting with Windows 8.
-
-
-#### D3D11_1DDI_FORMAT_SUPPORT_UAV_WRITES (0x00000200)
-
-The format can be written through an unordered access view (UAV) append buffer.
-
-Available starting with Windows 8.
+The format can be sampled with any filter in shaders.
 
 
 #### D3D11_1DDI_FORMAT_SUPPORT_BUFFER (0x00000400)
@@ -190,11 +155,18 @@ The format can be supported as an output to the video capture engine.
 Available starting with Windows 8.
 
 
-#### D3D11_1DDI_FORMAT_SUPPORT_VIDEO_ENCODER (0x00001000)
+#### D3D11_1DDI_FORMAT_SUPPORT_DECODER_OUTPUT (0x00000020)
 
-The format can be supported as an input to a hardware-encode Media Foundation Transform (MFT).
+The format can be supported as a decode output resource.
 
 Available starting with Windows 8.
+
+
+#### D3D11_1DDI_FORMAT_SUPPORT_MULTIPLANE_OVERLAY (0x00008000)
+
+The format supports multiplane overlays.
+
+Available starting with Windows 8. However, multiplane overlays are supported only in WDDM 1.3 and later drivers, which were introduced with Windows 8.1.
 
 
 #### D3D11_1DDI_FORMAT_SUPPORT_OUTPUT_MERGER_LOGIC_OP (0x00002000)
@@ -211,11 +183,39 @@ The format supports "Shader gather4" resource attributes.
 Available starting with Windows 8.
 
 
-#### D3D11_1DDI_FORMAT_SUPPORT_MULTIPLANE_OVERLAY (0x00008000)
+#### D3D11_1DDI_FORMAT_SUPPORT_UAV_WRITES (0x00000200)
 
-The format supports multiplane overlays.
+The format can be written through an unordered access view (UAV) append buffer.
 
-Available starting with Windows 8. However, multiplane overlays are supported only in WDDM 1.3 and later drivers, which were introduced with Windows 8.1.
+Available starting with Windows 8.
+
+
+#### D3D11_1DDI_FORMAT_SUPPORT_VERTEX_BUFFER (0x00000100)
+
+The format can be a vertex buffer.
+
+Available starting with Windows 8.
+
+
+#### D3D11_1DDI_FORMAT_SUPPORT_VIDEO_ENCODER (0x00001000)
+
+The format can be supported as an input to a hardware-encode Media Foundation Transform (MFT).
+
+Available starting with Windows 8.
+
+
+#### D3D11_1DDI_FORMAT_SUPPORT_VIDEO_PROCESSOR_INPUT (0x00000080)
+
+The format can be a video processor input resource.
+
+Available starting with Windows 8.
+
+
+#### D3D11_1DDI_FORMAT_SUPPORT_VIDEO_PROCESSOR_OUTPUT (0x00000040)
+
+The format can be a video processor output resource.
+
+Available starting with Windows 8.
 
 
 #### D3DWDDM1_3DDI_FORMAT_SUPPORT_TILED (0x00010000)
@@ -243,13 +243,13 @@ The driver can call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterro
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
 
 <a href="https://msdn.microsoft.com/2aef590f-2328-4175-ab60-c72b1fd83db7">DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

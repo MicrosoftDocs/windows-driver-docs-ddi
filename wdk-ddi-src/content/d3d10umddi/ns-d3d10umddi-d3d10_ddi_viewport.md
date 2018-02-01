@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b2025ce-e0dd-434d-b92b-16ecaf24808f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_820ac08a-01a2-4e47-8573-aedf3c3769e1.xml, D3D10_DDI_VIEWPORT, display.d3d10_ddi_viewport
+ms.keywords: D3D10_DDI_VIEWPORT, UMDisplayDriver_Dx10param_Structs_820ac08a-01a2-4e47-8573-aedf3c3769e1.xml, d3d10umddi/D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT structure [Display Devices], display.d3d10_ddi_viewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ typedef struct D3D10_DDI_VIEWPORT {
 
 
 
-#### - TopLeftX
+### -field TopLeftX
 
 [in] A single-precision float vector for the top-left x-coordinate of the viewport.
 
 
-#### - TopLeftY
+### -field TopLeftY
 
 [in] A single-precision float vector for the top-left y-coordinate of the viewport.
 
 
-#### - Width
+### -field Width
 
 
       [in] A single-precision float vector for the width of the viewport.
      
 
 
-#### - Height
+### -field Height
 
 [in] A single-precision float vector for the height of the viewport.
 
 
-#### - MinDepth
+### -field MinDepth
 
 [in] A single-precision float vector for the minimum depth of the viewport.
 
 
-#### - MaxDepth
+### -field MaxDepth
 
 [in] A single-precision float vector for the maximum depth of the viewport.
 

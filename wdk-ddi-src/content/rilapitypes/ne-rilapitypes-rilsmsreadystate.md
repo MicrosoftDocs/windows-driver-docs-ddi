@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4b1fd540-85cf-45b3-9f39-984bb3b9e200
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SMSREADYSTATE_ALL, rilapitypes/RILSMSREADYSTATE, rilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, rilapitypes/RIL_SMSREADY_UICCREADY, rilapitypes/RIL_SMSREADYSTATE_ALL, netvista.rilsmsreadystate_2, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADY_SERVICEREADY_3GPP2, RILSMSREADYSTATE
+ms.keywords: netvista.rilsmsreadystate_2, RIL_SMSREADY_UICCREADY, rilapitypes/RILSMSREADYSTATE, rilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADYSTATE_ALL, rilapitypes/RIL_SMSREADYSTATE_ALL, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RILSMSREADYSTATE, rilapitypes/RIL_SMSREADY_UICCREADY, RIL_SMSREADY_SERVICEREADY_3GPP2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,14 +74,14 @@ typedef enum _RILSMSREADYSTATE {
 
 
 
-#### - RIL_SMSREADY_SERVICEREADY_3GPP2
+### -field RIL_SMSREADY_SERVICEREADY_3GPP2
 
 
 
-#### - RIL_SMSREADY_UICCREADY
+### -field RIL_SMSREADY_UICCREADY
 
 
 
-#### - RIL_SMSREADYSTATE_ALL
+### -field RIL_SMSREADYSTATE_ALL
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6a6726a-83bc-4102-a6b6-74115ca4b889
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME, DFIOTargetRef_5ae50d6e-6e3b-484a-afe9-6198860180b7.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function, kmdf.wdf_io_target_open_params_init_create_by_name, wdf.wdf_io_target_open_params_init_create_by_name, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
+ms.keywords: kmdf.wdf_io_target_open_params_init_create_by_name, DFIOTargetRef_5ae50d6e-6e3b-484a-afe9-6198860180b7.xml, wdf.wdf_io_target_open_params_init_create_by_name, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME(
 
 
 
-#### - Params [out]
+### -param Params [out]
 
 A pointer to a driver-allocated <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure, which the function initializes.
 
 
-#### - TargetDeviceName [in]
+### -param TargetDeviceName [in]
 
 A value for the <b>TargetDeviceName</b> member of the <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure. 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 A value for the <b>DesiredAccess</b> member of the <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
@@ -119,11 +119,11 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
+<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</a>
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_existing_device.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE</a>
-
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 
  
 

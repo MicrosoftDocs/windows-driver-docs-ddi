@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edf59add-0155-4619-9c7c-fdb63b954f85
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], _D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA, display.d3dkmdt_sharedprimarysurfacedata, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml
+ms.keywords: D3DKMDT_SHAREDPRIMARYSURFACEDATA, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, display.d3dkmdt_sharedprimarysurfacedata, _D3DKMDT_SHAREDPRIMARYSURFACEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMDT_SHAREDPRIMARYSURFACEDATA {
 
 
 
-#### - Width
+### -field Width
 
 [in] The width of the surface, in pixels. The driver returns the width value.
 
 
-#### - Height
+### -field Height
 
 [in] The height of the surface, in pixels. The driver returns the height value.
 
 
-#### - Format
+### -field Format
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The driver returns the format value.
 
 
-#### - RefreshRate
+### -field RefreshRate
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a> structure that indicates the refresh rate that the shared primary surface was created with.
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the surface is located on. 
 
@@ -105,13 +105,13 @@ Multiple processes can lock a shared primary surface. The video memory manager p
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
 
  
 

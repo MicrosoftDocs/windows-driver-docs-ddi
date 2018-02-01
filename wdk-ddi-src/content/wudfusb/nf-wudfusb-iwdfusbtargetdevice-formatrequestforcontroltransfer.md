@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, IWDFUsbTargetDevice, FormatRequestForControlTransfer, IWDFUsbTargetDevice::FormatRequestForControlTransfer, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, FormatRequestForControlTransfer method
+ms.keywords: UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, IWDFUsbTargetDevice, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, FormatRequestForControlTransfer, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice::FormatRequestForControlTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ HRESULT FormatRequestForControlTransfer(
 
 
 
-#### - pRequest [in]
+### -param pRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the request object to format. 
 
 
-#### - SetupPacket [in]
+### -param SetupPacket [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540313">WINUSB_SETUP_PACKET</a> for the control transfer.
 
 
-#### - pMemory [in, optional]
+### -param pMemory [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface that is used to access the buffer that is used for the control transfer. This parameter is optional.
 
 
-#### - TransferOffset [in, optional]
+### -param TransferOffset [in, optional]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes the memory offset that is used for the control transfer. This parameter is optional.
 
@@ -150,13 +150,13 @@ After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
  
 

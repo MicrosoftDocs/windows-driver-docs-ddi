@@ -78,12 +78,12 @@ typedef EVT_VMB_CHANNEL_PNP_FAILURE PFN_VMB_CHANNEL_PNP_FAILURE;
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel of the client endpoint.
 
 
-#### - FailureStatus [in]
+### -param FailureStatus [in]
 
 A failure code.
 

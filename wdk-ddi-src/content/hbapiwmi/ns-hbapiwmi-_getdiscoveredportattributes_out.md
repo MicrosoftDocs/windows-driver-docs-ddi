@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PGetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, _GetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], hbapiwmi/GetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices]"
+ms.keywords: GetDiscoveredPortAttributes_OUT structure [Storage Devices], hbapiwmi/GetDiscoveredPortAttributes_OUT, _GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], *PGetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, storage.getdiscoveredportattributes_out, hbapiwmi/PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _GetDiscoveredPortAttributes_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation.
 
 
-#### - PortAttributes
+### -field PortAttributes
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a> that holds the port attributes to report.
 

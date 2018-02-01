@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 531f5e99-0e04-47dd-86bb-c35aa549c63a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetAlignmentRequirement, wdf.wdfdevicegetalignmentrequirement, DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml, kmdf.wdfdevicegetalignmentrequirement, PFN_WDFDEVICEGETALIGNMENTREQUIREMENT, wdfdevice/WdfDeviceGetAlignmentRequirement, WdfDeviceGetAlignmentRequirement method
+ms.keywords: wdfdevice/WdfDeviceGetAlignmentRequirement, wdf.wdfdevicegetalignmentrequirement, DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml, PFN_WDFDEVICEGETALIGNMENTREQUIREMENT, WdfDeviceGetAlignmentRequirement method, kmdf.wdfdevicegetalignmentrequirement, WdfDeviceGetAlignmentRequirement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ ULONG WdfDeviceGetAlignmentRequirement(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 

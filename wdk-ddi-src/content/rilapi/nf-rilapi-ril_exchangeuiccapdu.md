@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0d0eaa5-8f3a-4522-b99b-76f42402dae9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_exchangeuiccapdu, RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], rilapi/RIL_ExchangeUiccAPDU
+ms.keywords: RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], rilapi/RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU, netvista.ril_exchangeuiccapdu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ HRESULT  RIL_ExchangeUiccAPDU(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwSlotIndex
+### -param dwSlotIndex
 
 
 
-#### - dwChannelId
+### -param dwChannelId
 
 
 
-#### - dwAPDULength
+### -param dwAPDULength
 
 
 
-#### - bAPDU
+### -param bAPDU
 
 
 

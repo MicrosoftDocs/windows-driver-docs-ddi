@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, wdf.iwdfdevice2_registerremoteinterfacenotification, IWDFDevice2, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, RegisterRemoteInterfaceNotification, umdf.iwdfdevice2_registerremoteinterfacenotification, IWDFDevice2::RegisterRemoteInterfaceNotification, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method
+ms.keywords: RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, wdf.iwdfdevice2_registerremoteinterfacenotification, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, IWDFDevice2::RegisterRemoteInterfaceNotification, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, RegisterRemoteInterfaceNotification method, umdf.iwdfdevice2_registerremoteinterfacenotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT RegisterRemoteInterfaceNotification(
 
 
 
-#### - pDeviceInterfaceGuid [in]
+### -param pDeviceInterfaceGuid [in]
 
 A pointer to a GUID that identifies a device interface.
 
 
-#### - IncludeExistingInterfaces [in]
+### -param IncludeExistingInterfaces [in]
 
 A Boolean value. If the driver sets this value to <b>TRUE</b>, the framework notifies the driver if the specified device interface becomes available after the driver calls <b>RegisterRemoteInterfaceNotification</b>, and it also notifies the driver if the device interface was available before the driver called <b>RegisterRemoteInterfaceNotification</b>. 
 

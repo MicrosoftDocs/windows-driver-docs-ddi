@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8b3257ea-9eeb-426b-8c82-a4f0242861a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml, netvista.fwpsaleendpointenum0, FwpsAleEndpointEnum0, fwpsk/FwpsAleEndpointEnum0, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: fwpsk/FwpsAleEndpointEnum0, netvista.fwpsaleendpointenum0, FwpsAleEndpointEnum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,20 +73,20 @@ NTSTATUS NTAPI FwpsAleEndpointEnum0(
 
 
 
-#### - engineHandle [in]
+### -param engineHandle [in]
 
 The handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
 
 
-#### - enumHandle [in]
+### -param enumHandle [in]
 
 The enumeration handle created by a previous call to 
      <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">FwpsAleEndpointDestroyEnumHandle0</a>.
 
 
-#### - numEntriesRequested [in]
+### -param numEntriesRequested [in]
 
 The maximum number of endpoint property entries to return. The actual number of entries enumerated
      is returned in 
@@ -94,7 +94,7 @@ The maximum number of endpoint property entries to return. The actual number of 
      than the requested are present.
 
 
-#### - entries [out]
+### -param entries [out]
 
 A pointer to an array of 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551218">FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure pointers. Each structure contains the properties of a
@@ -102,7 +102,7 @@ A pointer to an array of
      <i>numEntriesReturned</i>.
 
 
-#### - numEntriesReturned [out]
+### -param numEntriesReturned [out]
 
 On return, the number of elements in the array of endpoint property structures pointed to by 
      <i>entries</i>.
@@ -165,19 +165,19 @@ When finished examining endpoint properties, the callout driver must call
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
+   FwpsAleEndpointCreateEnumHandle0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+   FwpsAleEndpointGetSecurityInfo0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+   FwpsAleEndpointDestroyEnumHandle0</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
-<mshelp:link keywords="netvista.fwpsaleendpointdestroyenumhandle0" tabindex="0"><b>
-   FwpsAleEndpointDestroyEnumHandle0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>
-   FwpsAleEndpointCreateEnumHandle0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
 
  
 

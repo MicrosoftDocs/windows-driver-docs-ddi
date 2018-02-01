@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fe00b980-4bb5-4ad7-84c0-99d47d2f7c51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtloemtounicoden, RtlOemToUnicodeN, ntifs/RtlOemToUnicodeN, rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml, RtlOemToUnicodeN routine [Installable File System Drivers]
+ms.keywords: RtlOemToUnicodeN routine [Installable File System Drivers], RtlOemToUnicodeN, ntifs/RtlOemToUnicodeN, rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml, ifsk.rtloemtounicoden
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS RtlOemToUnicodeN(
 
 
 
-#### - UnicodeString [out]
+### -param UnicodeString [out]
 
 Pointer to a caller-allocated buffer that receives the translated string. 
 
 
-#### - MaxBytesInUnicodeString [in]
+### -param MaxBytesInUnicodeString [in]
 
 Maximum number of bytes to be written at <i>UnicodeString</i>. If this value causes the translated string to be truncated, <b>RtlOemToUnicodeN</b> does not return an error status. 
 
 
-#### - BytesInUnicodeString [out, optional]
+### -param BytesInUnicodeString [out, optional]
 
 Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter can be <b>NULL</b>. 
 
 
-#### - OemString [in]
+### -param OemString [in]
 
 Pointer to the OEM source string to be translated into Unicode. If the current code page describes a single-byte character set, this pointer can be the same address as <i>UnicodeString</i>. 
 
 
-#### - BytesInOemString [in]
+### -param BytesInOemString [in]
 
 Length, in bytes, of the string at <i>OemString</i>. 
 
@@ -120,11 +120,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtloemstringtounicodestring.md">RtlOemStringToUnicodeString</a>
+
 <a href="..\ntifs\nf-ntifs-rtlunicodetooemn.md">RtlUnicodeToOemN</a>
 
 <a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
-
-<a href="..\ntifs\nf-ntifs-rtloemstringtounicodestring.md">RtlOemStringToUnicodeString</a>
 
  
 

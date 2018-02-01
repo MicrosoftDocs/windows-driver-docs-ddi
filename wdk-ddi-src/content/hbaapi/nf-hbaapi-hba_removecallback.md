@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b97e93c-a375-4df7-9d2d-86f1ad72b62d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RemoveCallback routine [Storage Devices], HBA_RemoveCallback, storage.hba_removecallback, hbaapi/HBA_RemoveCallback, fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml
+ms.keywords: hbaapi/HBA_RemoveCallback, fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml, storage.hba_removecallback, HBA_RemoveCallback, HBA_RemoveCallback routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ HBA_STATUS HBA_API HBA_RemoveCallback(
 
 
 
-#### - callbackHandle [in]
+### -param callbackHandle [in]
 
 Contains an opaque handle specified with the call to <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the callback routine to de-register. 
 
@@ -109,9 +109,9 @@ Returned if an unspecified error occurred that prevented the de-registration of 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

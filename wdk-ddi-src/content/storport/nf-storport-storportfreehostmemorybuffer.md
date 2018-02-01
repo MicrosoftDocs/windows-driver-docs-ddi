@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 686D141E-E6EA-4BB6-8556-0ECAC592E8F0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeHostMemoryBuffer routine [Storage Devices], StorPortFreeHostMemoryBuffer, storport/StorPortFreeHostMemoryBuffer, storage.storportfreehostmemorybuffer
+ms.keywords: storage.storportfreehostmemorybuffer, StorPortFreeHostMemoryBuffer, storport/StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,18 +71,18 @@ ULONG StorPortFreeHostMemoryBuffer(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - PhysicalAddressRanges
+### -param PhysicalAddressRanges
 
 The array of physical address ranges that make up
         the Host Memory Buffer previously allocated by  <b>StorPortAllocateHostMemoryBuffer</b>.
 
 
-#### - PhysicalAddressRangeCount [in]
+### -param PhysicalAddressRangeCount [in]
 
  The number of entries in <b>PhysicalAddressRanges</b>. 
 

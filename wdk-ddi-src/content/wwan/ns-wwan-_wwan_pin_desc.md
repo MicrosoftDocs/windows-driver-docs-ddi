@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a88f56eb-b527-4c7c-8f59-650dd10c671e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_PIN_DESC, netvista.wwan_pin_desc, WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, _WWAN_PIN_DESC, WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], WWAN_PIN_DESC, PWWAN_PIN_DESC, *PWWAN_PIN_DESC, wwan/WWAN_PIN_DESC, PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_PIN_DESC, _WWAN_PIN_DESC, WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], netvista.wwan_pin_desc, *PWWAN_PIN_DESC, WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, wwan/PWWAN_PIN_DESC, PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_DESC, wwan/WWAN_PIN_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,26 +72,26 @@ typedef struct _WWAN_PIN_DESC {
 
 
 
-#### - PinMode
+### -field PinMode
 
 The current status of the PIN.
 
 
-#### - PinFormat
+### -field PinFormat
 
 The format of the PIN. This member is ignored if the 
      <b>PinMode</b> is 
      <b>WwanPinModeNotSupported</b>.
 
 
-#### - PinLengthMin
+### -field PinLengthMin
 
 The minimum number of characters in the PIN. Miniport drivers should not specify a value that is
      greater than WWAN_PIN_LEN (12). Miniport drivers should specify WWAN_PIN_LENGTH_UNKNOWN, if the PIN
      length is not available.
 
 
-#### - PinLengthMax
+### -field PinLengthMax
 
 The maximum number of characters in the PIN. Miniport drivers should not specify a value that is
      greater than WWAN_PIN_LEN (12). Miniport drivers should specify WWAN_PIN_LENGTH_UNKNOWN, if the PIN
@@ -100,11 +100,11 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_pin_format.md">WWAN_PIN_FORMAT</a>
+
 <a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
 
 <a href="..\wwan\ne-wwan-_wwan_pin_mode.md">WWAN_PIN_MODE</a>
-
-<a href="..\wwan\ne-wwan-_wwan_pin_format.md">WWAN_PIN_FORMAT</a>
 
  
 

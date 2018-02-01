@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b3eaabdf-0163-4679-9b22-d8ec53abed59
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_MORPHING structure [Storage Devices], *PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_MORPHING, ntddmmc/FEATURE_DATA_MORPHING, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml, storage.feature_data_morphing, PFEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING, _FEATURE_DATA_MORPHING
+ms.keywords: ntddmmc/PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING structure pointer [Storage Devices], FEATURE_DATA_MORPHING structure [Storage Devices], storage.feature_data_morphing, FEATURE_DATA_MORPHING, _FEATURE_DATA_MORPHING, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml, *PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING, ntddmmc/FEATURE_DATA_MORPHING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,25 +71,25 @@ typedef struct _FEATURE_DATA_MORPHING {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - Asynchronous
+### -field Asynchronous
 
 Indicates, when set to 1, that the initiator can request device status asynchronously. If set to zero, the initiator must use polling to request status. 
 
 
-#### - OCEvent
+### -field OCEvent
 
 
 
-#### - Reserved01
+### -field Reserved01
 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 

@@ -75,7 +75,7 @@ NDIS_STATUS MiniportWdiCloseAdapter(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 The handle to the context area that the miniport driver allocated.
 
@@ -120,11 +120,11 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_allocate_adapter.md">MiniportWdiAllocateAdapter</a>
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">CloseAdapterComplete</a>
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
  
 

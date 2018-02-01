@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e1e8605c-b3d1-40db-bb33-fc1f7ed51617
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSetVolumeContext function [Installable File System Drivers], FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, ifsk.fltsetvolumecontext, fltkernel/FltSetVolumeContext, FltSetVolumeContext
+ms.keywords: FltSetVolumeContext function [Installable File System Drivers], FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, fltkernel/FltSetVolumeContext, FltSetVolumeContext, ifsk.fltsetvolumecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,21 +70,16 @@ NTSTATUS FltSetVolumeContext(
 
 
 
-#### - Volume [in]
+### -param Volume [in]
 
 Opaque volume pointer for the volume. 
 
 
-#### - Operation [in]
+### -param Operation [in]
 
 Flag specifying details of the operation to be performed. This parameter must be one of the following: 
 
 
-
-
-#### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
-
-If a context is already set, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume. 
 
 
 #### FLT_SET_CONTEXT_KEEP_IF_EXISTS
@@ -92,12 +87,17 @@ If a context is already set, replace it with <i>NewContext</i>. Otherwise, inser
 If a context is already set, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume. 
 
 
-#### - NewContext [in]
+#### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
+
+If a context is already set, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume. 
+
+
+### -param NewContext [in]
 
 Pointer to the new context to be set for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - OldContext [out, optional]
+### -param OldContext [out, optional]
 
 Pointer to a caller-allocated variable that receives the address of the existing volume context for <i>Instance</i>. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
@@ -192,15 +192,15 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletevolumecontext.md">FltDeleteVolumeContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletevolumecontext.md">FltDeleteVolumeContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
  
 

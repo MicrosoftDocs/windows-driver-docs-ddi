@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb85aa34-5983-405b-85d3-7ebc4be49c51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject
+ms.keywords: FltGetDiskDeviceObject routine [Installable File System Drivers], ifsk.fltgetdiskdeviceobject, FltGetDiskDeviceObject, FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, fltkernel/FltGetDiskDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetDiskDeviceObject(
 
 
 
-#### - Volume [in]
+### -param Volume [in]
 
 Opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - DiskDeviceObject [out]
+### -param DiskDeviceObject [out]
 
 Pointer to a caller-allocated variable that receives the device object pointer. This parameter is required and cannot be <b>NULL</b>. 
 

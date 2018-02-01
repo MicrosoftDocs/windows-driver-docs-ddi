@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortFreePool function [Display Devices], display.videoportfreepool, VideoPortFreePool, VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, video/VideoPortFreePool
+ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], video/VideoPortFreePool, display.videoportfreepool, VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID VideoPortFreePool(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - Ptr [in]
+### -param Ptr [in]
 
 Pointer to the first byte of the memory to be freed.
 

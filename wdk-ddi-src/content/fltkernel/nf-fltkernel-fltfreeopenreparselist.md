@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 78FA1585-F834-48E4-BB15-78BA5563F9D0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAddOpenReparseEntry, FltFreeOpenReparseList, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltfreeopenreparselist
+ms.keywords: ifsk.fltfreeopenreparselist, FltFreeOpenReparseList, fltkernel/FltAddOpenReparseEntry, FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void FltAddOpenReparseEntry(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 The filter to dereference.
 
 
-#### - EcpList [in]
+### -param EcpList [in]
 
 The ECP list whose open reparse information should
                        be deallocated.

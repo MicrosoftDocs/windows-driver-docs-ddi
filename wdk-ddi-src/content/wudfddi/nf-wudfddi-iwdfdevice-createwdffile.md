@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b356e3ac-451d-4a10-94e2-d03fcf76cb29
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, CreateWdfFile, umdf.iwdfdevice_createwdffile, IWDFDevice interface, CreateWdfFile method, wudfddi/IWDFDevice::CreateWdfFile, IWDFDevice, CreateWdfFile method, IWDFDevice interface, wdf.iwdfdevice_createwdffile, CreateWdfFile method, IWDFDevice::CreateWdfFile
+ms.keywords: CreateWdfFile method, IWDFDevice::CreateWdfFile, IWDFDevice interface, CreateWdfFile method, wudfddi/IWDFDevice::CreateWdfFile, CreateWdfFile method, IWDFDevice interface, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, umdf.iwdfdevice_createwdffile, wdf.iwdfdevice_createwdffile, IWDFDevice, CreateWdfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT CreateWdfFile(
 
 
 
-#### - pcwszFileName [in, optional]
+### -param pcwszFileName [in, optional]
 
 A pointer to a <b>NULL</b>-terminated string that contains the name of the file to create a file object from. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to create the file object from a file name. If the driver must supply a name, the string that the driver passes must not contain any path separator characters ("/" or "\"). 
 
 
-#### - ppFile [out]
+### -param ppFile [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a> interface for the driver-created file object.
 
@@ -99,9 +99,9 @@ For information about when a UMDF driver might use <b>CreateWdfFile</b> to preve
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

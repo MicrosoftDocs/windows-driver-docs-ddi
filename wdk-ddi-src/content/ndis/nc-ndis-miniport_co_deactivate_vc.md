@@ -73,7 +73,7 @@ NDIS_STATUS MiniportCoDeactivateVc(
 
 
 
-#### - MiniportVcContext [in]
+### -param MiniportVcContext [in]
 
 Specified the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information per-VC. The miniport driver supplied this handle to NDIS from its 
@@ -109,8 +109,8 @@ Indicates that the miniport driver successfully halted any communication across 
 <td width="60%">
 Indicates that the miniport driver will complete the request to halt the VC asynchronously. When
        the miniport driver has completed halting the VC, it must then call 
-       <mshelp:link keywords="netvista.ndismcodeactivatevccomplete" tabindex="0"><b>
-       NdisMCoDeactivateVcComplete</b></mshelp:link> to signal NDIS that this operation has been completed.
+       <a href="..\ndis\nf-ndis-ndismcodeactivatevccomplete.md">
+       NdisMCoDeactivateVcComplete</a> to signal NDIS that this operation has been completed.
 
 </td>
 </tr>

@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 53881aca-e49c-43e9-b68e-b91a1868e3f5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_PCMCIA_SOCKET_INFORMATION, PCMCIA.pcmcia_socket_information, *PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION structure [Buses], memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, PPCMCIA_SOCKET_INFORMATION, ntddpcm/PCMCIA_SOCKET_INFORMATION, ntddpcm/PPCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], PCMCIA_SOCKET_INFORMATION"
+ms.keywords: PCMCIA.pcmcia_socket_information, *PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION structure [Buses], ntddpcm/PCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], PPCMCIA_SOCKET_INFORMATION, ntddpcm/PPCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, _PCMCIA_SOCKET_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,32 +76,32 @@ typedef struct _PCMCIA_SOCKET_INFORMATION {
 
 
 
-#### - Socket
+### -field Socket
 
 Indicates the socket number. 
 
 
-#### - TupleCrc
+### -field TupleCrc
 
 Contains a 16-bit CRC that is concatenated with the PCMCIA prefix, the manufacturer-name string, the product-name string, and the instance value for the card to produce the device ID for a PC Card or CardBus card. For more information about PCMCIA device IDs, see <a href="https://msdn.microsoft.com/7eaf6372-a9cc-4714-8955-52653ec57141">Identifiers for PCMCIA Devices</a>. 
 
 
-#### - Manufacturer
+### -field Manufacturer
 
 Indicates the manufacturer of the PC Card or CardBus card. 
 
 
-#### - Identifier
+### -field Identifier
 
 Contains the device ID of the PC Card or CardBus card. 
 
 
-#### - DriverName
+### -field DriverName
 
 Contains the name of the PC Card or CardBus card device driver. 
 
 
-#### - DeviceFunctionId
+### -field DeviceFunctionId
 
 Indicates the type of PC Card or CardBus card. This value can be one of the following.
 <table>
@@ -242,22 +242,22 @@ Modem card.
 </table> 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. 
 
 
-#### - CardInSocket
+### -field CardInSocket
 
 Indicates that there is a card present in the socket. 
 
 
-#### - CardEnabled
+### -field CardEnabled
 
 Indicates that the card is enabled. 
 
 
-#### - ControllerType
+### -field ControllerType
 
 Indicates the controller type. Some common controller types are defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537600">PCMCIA_CONTROLLER_CLASS</a> enumeration. 
 

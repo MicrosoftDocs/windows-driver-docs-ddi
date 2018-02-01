@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d1570dc0-1587-4d02-a655-724c999d10a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMSGBCGENERAL, *LPRILMSGBCGENERAL, netvista.rilmsgbcgeneral, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], RILMSGBCGENERAL
+ms.keywords: ntddrilapitypes/RILMSGBCGENERAL, *LPRILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], RILMSGBCGENERAL, netvista.rilmsgbcgeneral
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,62 +81,62 @@ typedef struct _RILMSGBCGENERAL {
 
 
 
-#### - dwGeoScope
+### -field dwGeoScope
 
 
 
-#### - dwMsgCode
+### -field dwMsgCode
 
 
 
-#### - dwUpdateNumber
+### -field dwUpdateNumber
 
 
 
-#### - dwID
+### -field dwID
 
 
 
-#### - dwSerialNumber
+### -field dwSerialNumber
 
 
 
-#### - rmdDataCoding
+### -field rmdDataCoding
 
 
 
-#### - dwTotalPages
+### -field dwTotalPages
 
 
 
-#### - dwPageNumber
+### -field dwPageNumber
 
 
 
-#### - dwWarningType
+### -field dwWarningType
 
 
 
-#### - bEmergencyUserAlert
+### -field bEmergencyUserAlert
 
 
 
-#### - bMessagePopup
+### -field bMessagePopup
 
 
 
-#### - stSCReceiveTime
+### -field stSCReceiveTime
 
 
 
-#### - digSig
+### -field digSig
 
 
 
-#### - cchMsgLength
+### -field cchMsgLength
 
 
 
-#### - rgbMsg
+### -field rgbMsg
 
 

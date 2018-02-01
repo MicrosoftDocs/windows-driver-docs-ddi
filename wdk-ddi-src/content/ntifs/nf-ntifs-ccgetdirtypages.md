@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccgetdirtypages, ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, CcGetDirtyPages routine [Installable File System Drivers], CcGetDirtyPages, ntifs/CcGetDirtyPages
+ms.keywords: CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers], ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ntifs/CcGetDirtyPages, ifsk.ccgetdirtypages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ LARGE_INTEGER CcGetDirtyPages(
 
 
 
-#### - LogHandle [in]
+### -param LogHandle [in]
 
 Log handle stored by a previous call to <b>CcSetLogHandleForFile</b>. 
 
 
-#### - DirtyPageRoutine [in]
+### -param DirtyPageRoutine [in]
 
 Pointer to a callback routine that builds up a dirty page table from the pages found. This routine, which is called for each dirty page found, is declared as follows: 
 <div class="code"><span codelanguage=""><table>
@@ -99,6 +99,16 @@ VOID (*PDIRTY_PAGE_ROUTINE) (
 </table></span></div>
 
 
+#### Context1
+
+First context parameter. 
+
+
+#### Context2
+
+Second context parameter. 
+
+
 #### FileObject
 
 Pointer to the file object for the file containing the dirty page. 
@@ -114,32 +124,22 @@ Pointer to a variable that specifies the starting byte offset of the dirty page 
 Length, in bytes, of the dirty page. 
 
 
-#### OldestLsn
-
-Oldest logical sequence number (LSN) found in the dirty page. 
-
-
 #### NewestLsn
 
 Newest LSN found in the dirty page. 
 
 
-#### Context1
+#### OldestLsn
 
-First context parameter. 
-
-
-#### Context2
-
-Second context parameter. 
+Oldest logical sequence number (LSN) found in the dirty page. 
 
 
-#### - Context1 [in]
+### -param Context1 [in]
 
 First context parameter to be passed to the <i>DirtyPageRoutine</i>. 
 
 
-#### - Context2 [in]
+### -param Context2 [in]
 
 Second context parameter to be passed to the <i>DirtyPageRoutine</i>. 
 
@@ -162,9 +162,9 @@ To set a log handle for a file, use <a href="..\ntifs\nf-ntifs-ccsetloghandlefor
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
 <a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
  
 

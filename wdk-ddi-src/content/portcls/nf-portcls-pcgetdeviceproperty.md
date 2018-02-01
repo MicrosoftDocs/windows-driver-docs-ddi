@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75d66965-ab97-4f67-b62f-e7fedbf524a6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcGetDeviceProperty, audio.pcgetdeviceproperty, PcGetDeviceProperty function [Audio Devices], audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty
+ms.keywords: PcGetDeviceProperty function [Audio Devices], PcGetDeviceProperty, audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS PcGetDeviceProperty(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object for the device. This parameter points to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> system structure but is cast to type PVOID.
 
 
-#### - DeviceProperty [in]
+### -param DeviceProperty [in]
 
 Specifies the Plug and Play device property that is requested. For a list of property specifier values, see the following Remarks section.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 Specifies the length in bytes of the buffer that is to receive the requested property data.
 
 
-#### - PropertyBuffer [out]
+### -param PropertyBuffer [out]
 
 Pointer to a caller-allocated buffer into which the method is to write the requested property data. The buffer must be large enough to contain the number of bytes specified in <i>BufferLength</i>.
 
 
-#### - ResultLength [out]
+### -param ResultLength [out]
 
 Pointer to a caller-allocated variable into which the method outputs a count specifying the number of bytes actually written to the buffer. If the buffer size specified in <i>BufferLength</i> is too small to hold the property data, the method instead outputs the number of bytes required for the property data and returns STATUS_BUFFER_TOO_SMALL.
 
@@ -157,9 +157,9 @@ Two calls to <b>PcGetDeviceProperty</b> might be necessary to determine the requ
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 498F8325-C887-4FDE-8BCF-A713639E3B35
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_GEOREGION_CIRCLE, *PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE, sensors.gnss_georegion_circle, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], GNSS_GEOREGION_CIRCLE structure [Sensor Devices], gnssdriver/PGNSS_GEOREGION_CIRCLE
+ms.keywords: PGNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE, sensors.gnss_georegion_circle, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], *PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnssdriver/GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Latitude
+### -field Latitude
 
 Latitude of the center of the circle.
 
 
-#### - Longitude
+### -field Longitude
 
 Longitude of the center of the circle.
 
 
-#### - RadiusInMeters
+### -field RadiusInMeters
 
 Radius of the circle in meters.
 

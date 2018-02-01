@@ -73,22 +73,22 @@ VOID NetFreeSharedMemory(
 
 
 
-#### - ProviderContext [in]
+### -param ProviderContext [in]
 
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
-     <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
-#### - SharedMemoryProviderContext [in]
+### -param SharedMemoryProviderContext [in]
 
 A handle for a context area that identifies the shared memory block. This is the handle that the
      shared memory provider supplied at the 
      <i>pSharedMemoryProviderContext</i> parameter of the 
-     <mshelp:link keywords="netvista.netallocatesharedmemory" tabindex="0"><i>
-     NetAllocateSharedMemory</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">
+     NetAllocateSharedMemory</a> function.
 
 
 ## -returns
@@ -107,19 +107,19 @@ NDIS calls the
 
 The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER) for 
     <i>NetFreeSharedMemory</i> in the 
-    <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a>
-
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 <a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+
+<a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a>
 
  
 

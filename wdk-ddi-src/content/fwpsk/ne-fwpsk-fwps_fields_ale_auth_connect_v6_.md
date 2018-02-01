@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ef1bc756-e60b-43fb-9ac6-3cc22611b538
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID, FWPS_FIELDS_ALE_AUTH_CONNECT_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE, FWPS_FIELDS_ALE_AUTH_CONNECT_V6, netvista.fwps_fields_ale_auth_connect_v6, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME, FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX, fwpsk/FWPS_FIELDS_ALE_AUTH_CONNECT_V6, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT, wfp_ref_5_const_3_data_fields_e5d80100-9dd1-49fb-868a-97af0f14fe36.xml, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX, FWPS_FIELDS_ALE_AUTH_CONNECT_V6_, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID
+ms.keywords: fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH, FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE, FWPS_FIELDS_ALE_AUTH_CONNECT_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID, wfp_ref_5_const_3_data_fields_e5d80100-9dd1-49fb-868a-97af0f14fe36.xml, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID, netvista.fwps_fields_ale_auth_connect_v6, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID, FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE, FWPS_FIELDS_ALE_AUTH_CONNECT_V6, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT, FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE, FWPS_FIELDS_ALE_AUTH_CONNECT_V6_, FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME, FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELDS_ALE_AUTH_CONNECT_V6, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE, FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX, FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -109,84 +109,84 @@ typedef enum FWPS_FIELDS_ALE_AUTH_CONNECT_V6_ {
 
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_APP_ID
 
 The full path of the application.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_USER_ID
 
 The identifier of the local user.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS
 
 The local IP address.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a> enumeration.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_PORT
 
 The local transport protocol port number.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_PROTOCOL
 
 The IP protocol number, as specified in RFC 1700.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_ADDRESS
 
 The remote IP address.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_REMOTE_PORT
 
 The remote transport protocol port number.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_USER_ID
 
 The identification of the remote user.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_REMOTE_MACHINE_ID
 
 The identification of the remote machine.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_DESTINATION_ADDRESS_TYPE
 
 The destination IP address type. The possible values are defined by the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a> enumeration.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_LOCAL_INTERFACE
 
 The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
      local IP address.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_FLAGS
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff549942">Filtering Condition Flags</a>.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_TYPE
 
 The type of the network interface, as defined by the Internet Assigned Numbers Authority (IANA).
      For more information, see 
      <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_TUNNEL_TYPE
 
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
@@ -195,27 +195,27 @@ The encapsulation method used by a tunnel if the
      Windows SDK.
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_INDEX
 
 The index of the network interface, as enumerated by the network stack.
      
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
      Windows.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_SUB_INTERFACE_INDEX
 
 The index of the network subinterface, as enumerated by the network stack.
      
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
      Windows.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_ARRIVAL_INTERFACE
 
 The LUID for the network interface that is associated with the arrival IP address.
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_TYPE
 
 The type of the arrival network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
@@ -223,7 +223,7 @@ The type of the arrival network interface, as defined by the Internet Assigned N
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_TUNNEL_TYPE
 
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
@@ -233,20 +233,20 @@ The encapsulation method used by a tunnel if the
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ARRIVAL_INTERFACE_INDEX
 
 The index of the arrival network interface, as enumerated by the network stack.
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_SUB_INTERFACE_INDEX
 
 The index of the logical network interface that will be used to continue forwarding of the
      outbound packet, as enumerated by the network stack.
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_IP_NEXTHOP_INTERFACE
 
 The LUID for the network interface that is the next interface for the forwarding of the outbound
      packet.
@@ -254,7 +254,7 @@ The LUID for the network interface that is the next interface for the forwarding
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
      Windows.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_TYPE
 
 The type of the network interface that will be used to continue forwarding of the outbound packet,
      as defined by the Internet Assigned Numbers Authority (IANA). For more information, see 
@@ -263,7 +263,7 @@ The type of the network interface that will be used to continue forwarding of th
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
      Windows.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_TUNNEL_TYPE
 
 The encapsulation method used by a tunnel for the forwarding interface of the outbound packet, if
      the 
@@ -274,7 +274,7 @@ The encapsulation method used by a tunnel for the forwarding interface of the ou
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
      Windows.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_NEXTHOP_INTERFACE_INDEX
 
 The index of the network interface that will be used to continue forwarding of the outbound
      packet, as enumerated by the network stack.
@@ -282,21 +282,21 @@ The index of the network interface that will be used to continue forwarding of t
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
      Windows.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_PROFILE_ID
 
 The original profile identifier (network category) of the network interface. The possible network
      category values are: public (1), private (2), or domain (3).
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_CURRENT_PROFILE_ID
 
 The current profile identifier (network category) of the network interface. The possible network
      category values are: public (1), private (2), or domain (3).
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_REAUTHORIZE_REASON
 
 The reason for reauthorizing a previously authorized connection. For more information about
      reasons for reauthorization, see 
@@ -305,30 +305,30 @@ The reason for reauthorizing a previously authorized connection. For more inform
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_PEER_NAME
 
 The machine name that is associated with the destination IP address.
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ORIGINAL_ICMP_TYPE
 
 The original ICMP type for an exchange. The ICMP type field, as specified in RFC 792.
      
 <div class="alert"><b>Note</b>  Supported in Windows 7 and later versions of Windows.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_INTERFACE_QUARANTINE_EPOCH
 
 The time that has passed since the last media state change occurred for the network interface.
      
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_ORIGINAL_APP_ID
 
 The full path of the original application for proxy connections. If the application has not been proxied, this path is identical to the xxx_ALE_APP_ID.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_ALE_PACKAGE_ID
 
 The package identifier is a security identifier (SID) that identifies the associated AppContainer process. For more information about the SID structure, see the description for the SID structure in the Microsoft Windows SDK documentation.
 <div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
@@ -361,7 +361,7 @@ The package identifier is a security identifier (SID) that identifies the associ
 
 
 
-#### - FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX
+### -field FWPS_FIELD_ALE_AUTH_CONNECT_V6_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -396,9 +396,9 @@ The following macros in
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
  
 

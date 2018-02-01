@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 4B5301B6-8C10-4C8E-A9D2-28D2484A907A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercxprogresstransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports], 1/SerCxProgressTransmit
+ms.keywords: 1/SerCxProgressTransmit, serports.sercxprogresstransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS SerCxProgressTransmit(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - BytesTransmitted [in]
+### -param BytesTransmitted [in]
 
 The number of bytes of data that the caller copied from the transmit buffer that was obtained by the latest call to the <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a> method.
 
 
-#### - TransmitStatus [in]
+### -param TransmitStatus [in]
 
 The current status of the transmit operation. Set this parameter to one of the following values:
 <ul>
@@ -146,11 +146,11 @@ If the <b>SerCxProgressTransmit</b> call does not complete all outstanding work 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
-
 <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
 
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+<a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
 
  
 

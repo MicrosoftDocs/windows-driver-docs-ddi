@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, *PWSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, _WSK_TRANSPORT, netvista.wsk_transport, WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], PWSK_TRANSPORT
+ms.keywords: "*PWSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, netvista.wsk_transport, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_TRANSPORT, wsk/PWSK_TRANSPORT, PWSK_TRANSPORT, _WSK_TRANSPORT, WSK_TRANSPORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _WSK_TRANSPORT {
 
 
 
-#### - Version
+### -field Version
 
 The version of the transport. The format of the version number is transport-specific.
 
 
-#### - SocketType
+### -field SocketType
 
 The type of socket that is supported by the transport. This member can be one of the following:
      
@@ -88,11 +88,6 @@ The type of socket that is supported by the transport. This member can be one of
 For more information about the socket types that are supported for each supported address family, see
      
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
-
-
-#### SOCK_STREAM
-
-Supports reliable connection-oriented byte stream communication.
 
 
 #### SOCK_DGRAM
@@ -105,21 +100,26 @@ Supports unreliable connectionless datagram communication.
 Supports raw access to the transport protocol.
 
 
-#### - Protocol
+#### SOCK_STREAM
+
+Supports reliable connection-oriented byte stream communication.
+
+
+### -field Protocol
 
 The protocol that is supported by the transport. For more information about the protocols that are
      supported for each supported address family, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
-#### - AddressFamily
+### -field AddressFamily
 
 The address family that is supported by the transport. For more information about supported
      address families, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
-#### - ProviderId
+### -field ProviderId
 
 The identifier of the transport provider that implements the transport.
 
@@ -152,11 +152,11 @@ A single transport provider can support multiple combinations of values for the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
  
 

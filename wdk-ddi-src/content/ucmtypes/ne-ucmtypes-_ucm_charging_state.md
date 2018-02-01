@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DDC3532A-0084-4C56-B540-C638AB7F7080
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_UCM_CHARGING_STATE, ucmtypes/UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateInvalid, ucmtypes/UCM_CHARGING_STATE, UcmChargingStateTrickleCharging, ucmtypes/UcmChargingStateNotCharging, UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateSlowCharging, UcmChargingStateSlowCharging, UCM_CHARGING_STATE, UCM_CHARGING_STATE enumeration [Buses], UcmChargingStateNotCharging, ucmtypes/ UcmChargingStateTrickleCharging, *PUCM_CHARGING_STATE, buses.ucm_charging_state, UcmChargingStateInvalid"
+ms.keywords: UcmChargingStateNominalCharging, UcmChargingStateTrickleCharging, UcmChargingStateInvalid, UcmChargingStateSlowCharging, ucmtypes/UcmChargingStateInvalid, ucmtypes/UcmChargingStateNotCharging, ucmtypes/UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateSlowCharging, buses.ucm_charging_state, ucmtypes/ UcmChargingStateTrickleCharging, UcmChargingStateNotCharging, _UCM_CHARGING_STATE, UCM_CHARGING_STATE enumeration [Buses], ucmtypes/UCM_CHARGING_STATE, *PUCM_CHARGING_STATE, UCM_CHARGING_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,38 +73,38 @@ typedef enum _UCM_CHARGING_STATE {
 
 
 
-#### - UcmChargingStateInvalid
+### -field UcmChargingStateInvalid
 
 Indicates the charging state is invalid.
 
 
-#### - UcmChargingStateNotCharging
+### -field UcmChargingStateNotCharging
 
 Indicates the port is not drawing a charge.
 
 
-#### - UcmChargingStateNominalCharging
+### -field UcmChargingStateNominalCharging
 
 Indicates the port is drawing a nominal charge.
 
 
-#### - UcmChargingStateSlowCharging
+### -field UcmChargingStateSlowCharging
 
 Indicates the port is drawing a slow charge.
 
 
-#### - UcmChargingStateTrickleCharging
+### -field UcmChargingStateTrickleCharging
 
 Indicates the port is drawing a trickle charge.
 
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
+<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params.md">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a>
 

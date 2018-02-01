@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT, Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_send_context, DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT
+ms.keywords: PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT, netvista.dot11_extsta_send_context, DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], windot11/DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTSTA_SEND_CONTEXT structure defines the Native 802.11 attributes of a packet to be sent
   by the miniport driver operating in Extensible Station (ExtSTA) mode. For more information about this
   operation mode, see 
-  <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-  Mode</mshelp:link>.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+  Mode</a>.
 
 
 ## -syntax
@@ -77,7 +77,7 @@ typedef struct DOT11_EXTSTA_SEND_CONTEXT {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_EXTSTA_SEND_CONTEXT structure. This member is formatted
      as an 
@@ -93,11 +93,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_EXTSTA_SEND_CONTEXT_REVISION_1.
@@ -109,7 +104,12 @@ This member must be set to
        sizeof(DOT11_EXTSTA_SEND_CONTEXT).
 
 
-#### - usExemptionActionType
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field usExemptionActionType
 
 The type of encryption exemption for the packet. The following exemption types are defined:
      
@@ -117,15 +117,15 @@ The type of encryption exemption for the packet. The following exemption types a
 
 
 
-#### DOT11_EXEMPT_NO_EXEMPTION
-
-The packet is not exempt from any cipher operations performed by the 802.11 station.
-
-
 #### DOT11_EXEMPT_ALWAYS
 
 The packet is exempt from any cipher operations performed by the 802.11 station. The 802.11
        station must transmit the packet unencrypted.
+
+
+#### DOT11_EXEMPT_NO_EXEMPTION
+
+The packet is not exempt from any cipher operations performed by the 802.11 station.
 
 
 #### DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
@@ -136,7 +136,7 @@ The packet is exempt from any cipher operations performed by the 802.11 station 
        <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>.
 
 
-#### - uPhyId
+### -field uPhyId
 
 The identifier (ID) of a PHY type on the 802.11 station. The 802.11 station must use the specified
      PHY to transmit the packet.
@@ -166,11 +166,11 @@ The value of DOT11_PHY_ID_ANY, in which case the 802.11 station can use any PHY 
      <b>Status</b> member of the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure to
      NDIS_STATUS_UNSUPPORTED_MEDIA and calls 
-     <mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-     NdisMSendNetBufferListsComplete</b></mshelp:link> to complete the send request.
+     <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+     NdisMSendNetBufferListsComplete</a> to complete the send request.
 
 
-#### - uDelayedSleepValue
+### -field uDelayedSleepValue
 
 The time, in microseconds, before a response to the packet is expected. The 
      <b>uDelayedSleepValue</b> member is only valid when all of the following are true:
@@ -186,8 +186,8 @@ The 802.11 station is operating in a power save (PS) mode. In this situation, th
        <b>msDot11PowerSavingLevel</b> management information base (MIB) object has any value except
        DOT11_POWER_SAVING_NO_POWER_SAVING. For more information about the 
        <b>msDot11PowerSavingLevel</b> MIB value, see 
-       <mshelp:link keywords="netvista.oid_dot11_power_mgmt_request" tabindex="0">
-       OID_DOT11_POWER_MGMT_REQUEST</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">
+       OID_DOT11_POWER_MGMT_REQUEST</a>.
 
 </li>
 </ul>The 802.11 station uses the value of 
@@ -198,7 +198,7 @@ The 802.11 station is operating in a power save (PS) mode. In this situation, th
      response.
 
 
-#### - pvMediaSpecificInfo
+### -field pvMediaSpecificInfo
 
 A pointer to a buffer that contains media-specific information. This member should be <b>NULL</b> when
      the 802.11 
@@ -215,7 +215,7 @@ Otherwise,
      IHV-specific 802.3 protocol driver.
 
 
-#### - uSendFlags
+### -field uSendFlags
 
 A set of flags that define send attributes. Currently, there are no flags defined. This member
      should be zero.
@@ -225,8 +225,8 @@ A set of flags that define send attributes. Currently, there are no flags define
 
 
 The miniport driver performs a send operation when its 
-    <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-    MiniportSendNetBufferLists</i></mshelp:link> is called. Each packet passed to the driver through this function is
+    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    MiniportSendNetBufferLists</a> is called. Each packet passed to the driver through this function is
     defined by a 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure, which contains
     Native 802.11 out-of-band (OOB) data. The OOB data contains media-specific parameters that the 802.11
@@ -250,8 +250,8 @@ The _
 
 </li>
 </ul>For more information about Native 802.11 send operations, see 
-    <mshelp:link keywords="netvista.native_802_11_send_operations" tabindex="0">Native 802.11 Send
-    Operations</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-send-operations">Native 802.11 Send
+    Operations</a>.
 
 
 
@@ -259,20 +259,20 @@ The _
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a>
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
 
  
 

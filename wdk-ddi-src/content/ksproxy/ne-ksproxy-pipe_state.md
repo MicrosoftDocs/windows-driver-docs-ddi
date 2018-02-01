@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: A3053A39-5DB6-4DB8-89ED-63ABDB1CD16F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PipeState_RangeFixed, PipeState_DontCare, ksproxy/PipeState_CompressionUnknown, ksproxy/PIPE_STATE, ksproxy/PipeState_DontCare, PipeState_RangeNotFixed, ksproxy/PipeState_RangeFixed, ksproxy/PipeState_RangeNotFixed, PIPE_STATE, PipeState_CompressionUnknown, PIPE_STATE enumeration [Streaming Media Devices], ksproxy/PipeState_Finalized, stream.pipe_state, PipeState_Finalized
+ms.keywords: PipeState_RangeFixed, ksproxy/PIPE_STATE, ksproxy/PipeState_RangeNotFixed, PipeState_CompressionUnknown, stream.pipe_state, PipeState_DontCare, PIPE_STATE, ksproxy/PipeState_RangeFixed, PipeState_Finalized, ksproxy/PipeState_DontCare, PipeState_RangeNotFixed, ksproxy/PipeState_Finalized, ksproxy/PipeState_CompressionUnknown, PIPE_STATE enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum  {
 
 
 
-#### - PipeState_DontCare
+### -field PipeState_DontCare
 
 
 
-#### - PipeState_RangeNotFixed
+### -field PipeState_RangeNotFixed
 
 
 
-#### - PipeState_RangeFixed
+### -field PipeState_RangeFixed
 
 
 
-#### - PipeState_CompressionUnknown
+### -field PipeState_CompressionUnknown
 
 
 
-#### - PipeState_Finalized
+### -field PipeState_Finalized
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0890c352-8722-4108-9b76-60c81179b46b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method
+ms.keywords: OnSelfManagedIoCleanup method, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, OnSelfManagedIoCleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void OnSelfManagedIoCleanup(
 
 
 
-#### - pWdfDevice [in]
+### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that the driver performs cleanup for.
 

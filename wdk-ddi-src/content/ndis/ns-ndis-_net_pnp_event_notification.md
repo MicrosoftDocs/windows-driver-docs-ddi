@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58d3baf3-a1fa-42ae-b795-2774a148aeda
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml, PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], netvista.net_pnp_event_notification, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], ndis/NET_PNP_EVENT_NOTIFICATION, PNET_PNP_EVENT_NOTIFICATION, _NET_PNP_EVENT_NOTIFICATION"
+ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], NET_PNP_EVENT_NOTIFICATION, _NET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml, PNET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NET_PNP_EVENT_NOTIFICATION {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -81,13 +81,13 @@ The
      <b>Size</b> member to NDIS_SIZEOF_NET_PNP_EVENT_NOTIFICATION_REVISION_1.
 
 
-#### - PortNumber
+### -field PortNumber
 
 The source port of the event notification. If the status indication is not specific to a port, 
      <b>PortNumber</b> is zero.
 
 
-#### - NetPnPEvent
+### -field NetPnPEvent
 
 A
      <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structure that describes the
@@ -149,9 +149,9 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
 <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
  
 

@@ -76,12 +76,12 @@ VOID EvtReserveDma(
 
 
 
-#### - DmaTransaction [in]
+### -param DmaTransaction [in]
 
 A handle to the DMA transaction object that represents the transaction to which DMA resources were assigned.
 
 
-#### - Context [in]
+### -param Context [in]
 
 The context pointer that the driver specified in a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>.
 
@@ -113,9 +113,9 @@ On operating systems earlier than Windows 8, <i>EvtReserveDma</i> must be used 
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
 
  
 

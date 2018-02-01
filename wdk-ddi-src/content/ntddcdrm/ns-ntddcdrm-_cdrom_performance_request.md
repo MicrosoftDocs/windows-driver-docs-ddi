@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E43D2F2C-B5A1-4724-AEBC-F4B6A85EA846
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, ntddcdrm/CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], *PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request, _CDROM_PERFORMANCE_REQUEST
+ms.keywords: CDROM_PERFORMANCE_REQUEST structure [Storage Devices], *PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request, ntddcdrm/CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, _CDROM_PERFORMANCE_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _CDROM_PERFORMANCE_REQUEST {
 
 
 
-#### - RequestType
+### -field RequestType
 
 The <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_type.md">CDROM_PERFORMANCE_REQUEST_TYPE</a> enumeration specifies the request type, <b>CdromPerformanceRequest</b>, or <b>CdromWriteSpeedRequest</b>.
 
 
-#### - PerformanceType
+### -field PerformanceType
 
 The <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_type.md">CDROM_PERFORMANCE_TYPE</a> enumeration specifies the type of performance data.
 
 
-#### - Exceptions
+### -field Exceptions
 
 The <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_exception_type.md">CDROM_PERFORMANCE_EXCEPTION_TYPE</a>    enumeration specifies the type of exception. 
 
 
-#### - Tolerance
+### -field Tolerance
 
 The <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_tolerance_type.md">CDROM_PERFORMANCE_TOLERANCE_TYPE</a> enumeration specifies the performance tolerance for the nominal performance and the time tolerance (seek delay) for the exception list.
 

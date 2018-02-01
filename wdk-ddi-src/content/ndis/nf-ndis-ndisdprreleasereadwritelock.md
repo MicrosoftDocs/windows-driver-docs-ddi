@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BD9B13A7-5F5F-437a-BEB7-56DE6D03A29B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock, netvista.ndisdprreleasereadwritelock
+ms.keywords: ndis/NdisDprReleaseReadWriteLock, netvista.ndisdprreleasereadwritelock, NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], NdisDprReleaseReadWriteLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisDprReleaseReadWriteLock(
 
 
 
-#### - Lock [in, out]
+### -param Lock [in, out]
 
 A pointer to an <a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a> variable for the acquired lock to be released.
 
@@ -114,11 +114,11 @@ A driver must call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisDprAcquireReadWriteLock</a>
+
 <a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
 <a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
-
-<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisDprAcquireReadWriteLock</a>
 
  
 

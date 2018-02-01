@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 03E15708-7983-41F5-BD66-F9E1117740A6
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfc_cx_llcp_config_init, NFC_CX_LLCP_CONFIG_INIT function [Near-Field Proximity Drivers], NFC_CX_LLCP_CONFIG_INIT, nfccx/NFC_CX_LLCP_CONFIG_INIT
+ms.keywords: nfccx/NFC_CX_LLCP_CONFIG_INIT, NFC_CX_LLCP_CONFIG_INIT function [Near-Field Proximity Drivers], nfpdrivers.nfc_cx_llcp_config_init, NFC_CX_LLCP_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID NFC_CX_LLCP_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 A pointer to the <a href="..\nfccx\ns-nfccx-_nfc_cx_llcp_config.md">NFC_CX_LLCP_CONFIG</a> structure that the function will initialize.
 
@@ -82,9 +82,9 @@ None.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

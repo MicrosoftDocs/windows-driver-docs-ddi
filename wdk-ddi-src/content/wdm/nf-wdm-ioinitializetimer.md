@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f2b0f74d-7417-443e-96ec-5101b1289f9d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoInitializeTimer, kernel.ioinitializetimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, IoInitializeTimer
+ms.keywords: wdm/IoInitializeTimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], kernel.ioinitializetimer, k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, IoInitializeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS IoInitializeTimer(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to a device object representing a device on which I/O operations can time out.
 
 
-#### - TimerRoutine [in]
+### -param TimerRoutine [in]
 
 Pointer to the driver-supplied <i>IoTimer</i> routine. 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Pointer to the driver-determined context with which its <i>IoTimer</i> routine will be called. 
 
@@ -107,15 +107,15 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
-
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
-<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
+
+<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
 
  
 

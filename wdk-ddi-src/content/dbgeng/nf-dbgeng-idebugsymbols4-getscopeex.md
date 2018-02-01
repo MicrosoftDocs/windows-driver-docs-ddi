@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B91EF786-51F7-406E-BCC2-C917E6881886
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetScopeEx, IDebugSymbols4, debugger.idebugsymbols4_getscopeex, IDebugSymbols4 interface [Windows Debugging], GetScopeEx method, GetScopeEx method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4::GetScopeEx, GetScopeEx method [Windows Debugging], dbgeng/IDebugSymbols4::GetScopeEx
+ms.keywords: IDebugSymbols4::GetScopeEx, GetScopeEx method [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], GetScopeEx method, GetScopeEx, IDebugSymbols4, debugger.idebugsymbols4_getscopeex, GetScopeEx method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::GetScopeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetScopeEx(
 
 
 
-#### - InstructionOffset [out, optional]
+### -param InstructionOffset [out, optional]
 
 The offset of the instruction for the scope. 
 
 
-#### - ScopeFrame [out, optional]
+### -param ScopeFrame [out, optional]
 
 The scope frame returned as a <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame_ex.md">DEBUG_STACK_FRAME_EX</a> structure. 
 
 
-#### - ScopeContext [out]
+### -param ScopeContext [out]
 
 A pointer to the scope context returned. 
 
 
-#### - ScopeContextSize [in]
+### -param ScopeContextSize [in]
 
 The size of the scope context.
 

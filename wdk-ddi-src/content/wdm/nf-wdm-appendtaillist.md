@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], AppendTailList, kernel.appendtaillist
+ms.keywords: AppendTailList routine [Kernel-Mode Driver Architecture], wdm/AppendTailList, kernel.appendtaillist, AppendTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID AppendTailList(
 
 
 
-#### - ListHead [in, out]
+### -param ListHead [in, out]
 
 A pointer to the head of the list to which the list pointed to by <i>ListToAppend</i> is to be appended. This parameter must be a valid, non-NULL pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that is the head of a list. This list can be empty.
 
 
-#### - ListToAppend [in, out]
+### -param ListToAppend [in, out]
 
 A pointer to the first entry in the list to append to the list pointed to by <i>ListHead</i>. This parameter must be a valid, non-NULL pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that is the first entry in a headless list. For more information, see Remarks.
 
@@ -105,11 +105,11 @@ Callers of <b>AppendTailList</b> can be running at any IRQL. If <b>AppendTailLis
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
-
 <a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 

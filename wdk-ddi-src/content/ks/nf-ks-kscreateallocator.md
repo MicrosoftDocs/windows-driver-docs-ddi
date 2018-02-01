@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c67e036c-9f4c-447e-94bb-73cf215c865a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateAllocator, stream.kscreateallocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml
+ms.keywords: ks/KsCreateAllocator, KsCreateAllocator function [Streaming Media Devices], stream.kscreateallocator, KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsCreateAllocator(
 
 
 
-#### - ConnectionHandle [in]
+### -param ConnectionHandle [in]
 
 Specifies the handle to the sink connection on which to create the allocator.
 
 
-#### - AllocatorFraming [in]
+### -param AllocatorFraming [in]
 
 Specified framing for the allocator.
 
 
-#### - AllocatorHandle [out]
+### -param AllocatorHandle [out]
 
 Specifies the pointer to a handle to store the allocator handle.
 

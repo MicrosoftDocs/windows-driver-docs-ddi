@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ec914f67-b2c2-4370-8685-770bca045034
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable
+ms.keywords: ntifs/KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, kernel.kesetkernelstackswapenable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN KeSetKernelStackSwapEnable(
 
 
 
-#### - Enable [in]
+### -param Enable [in]
 
 Specifies whether to enable swapping of the stack that belongs to the calling thread. If <b>TRUE</b>, swapping is enabled and the contents of the stack can be paged in and out of memory. If <b>FALSE</b>, swapping is disabled and the stack is memory-resident. 
 

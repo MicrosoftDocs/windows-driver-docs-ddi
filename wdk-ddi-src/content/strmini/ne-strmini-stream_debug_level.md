@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 42d70c1f-5cce-4097-849d-a5aa05b669b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/DebugLevelFatal, strmini/DebugLevelWarning, DebugLevelFatal, STREAM_DEBUG_LEVEL, stream.stream_debug_level, strmini/DebugLevelTrace, strmini/DebugLevelError, strmini/DebugLevelVerbose, DebugLevelMaximum, DebugLevelVerbose, DebugLevelInfo, strmini/DebugLevelMaximum, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], strmini/STREAM_DEBUG_LEVEL, DebugLevelWarning, ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, DebugLevelError, strmini/DebugLevelInfo, DebugLevelTrace
+ms.keywords: strmini/DebugLevelMaximum, stream.stream_debug_level, strmini/DebugLevelTrace, strmini/DebugLevelWarning, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], DebugLevelWarning, strmini/DebugLevelInfo, strmini/DebugLevelVerbose, DebugLevelTrace, DebugLevelError, DebugLevelFatal, DebugLevelMaximum, strmini/DebugLevelError, ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, strmini/DebugLevelFatal, DebugLevelInfo, STREAM_DEBUG_LEVEL, DebugLevelVerbose, strmini/STREAM_DEBUG_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,37 +74,37 @@ typedef enum  {
 
 
 
-#### - DebugLevelFatal
+### -field DebugLevelFatal
 
 Display only information about nonrecoverable system failure.
 
 
-#### - DebugLevelError
+### -field DebugLevelError
 
 Display information about serious but recoverable error.
 
 
-#### - DebugLevelWarning
+### -field DebugLevelWarning
 
 Display warnings
 
 
-#### - DebugLevelInfo
+### -field DebugLevelInfo
 
 Display status information. System must remain responsive.
 
 
-#### - DebugLevelTrace
+### -field DebugLevelTrace
 
 Display trace information. System need not remain responsive
 
 
-#### - DebugLevelVerbose
+### -field DebugLevelVerbose
 
 Display verbose trace information. System need not remain responsive.
 
 
-#### - DebugLevelMaximum
+### -field DebugLevelMaximum
 
 Display maximum information.
 

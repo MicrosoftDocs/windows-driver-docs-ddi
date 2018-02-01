@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 985dcde1-5643-4c35-9096-44b076a1dd51
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, wdf.wdfdevicegetcharacteristics, kmdf.wdfdevicegetcharacteristics, wdfdevice/WdfDeviceGetCharacteristics, WdfDeviceGetCharacteristics, WdfDeviceGetCharacteristics method, PFN_WDFDEVICEGETCHARACTERISTICS
+ms.keywords: WdfDeviceGetCharacteristics, kmdf.wdfdevicegetcharacteristics, WdfDeviceGetCharacteristics method, DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, wdf.wdfdevicegetcharacteristics, PFN_WDFDEVICEGETCHARACTERISTICS, wdfdevice/WdfDeviceGetCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ ULONG WdfDeviceGetCharacteristics(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
@@ -87,9 +87,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
 
  
 

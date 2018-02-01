@@ -76,14 +76,14 @@ NTSTATUS WSKAPI * WskDisconnect(
 
 
 
-#### - Socket [in]
+### -param Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being disconnected.
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure. This structure describes a data
@@ -94,7 +94,7 @@ A pointer to a
      <i>Buffer</i> parameter must be <b>NULL</b>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A ULONG value that contains the following flag, or zero:
      
@@ -108,12 +108,12 @@ Directs the WSK subsystem to perform an abortive disconnect of the socket. If a 
        does not specify this flag, the WSK subsystem will perform a graceful disconnect of the socket.
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the disconnect
      operation asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
 
 
 ## -returns
@@ -223,22 +223,22 @@ A WSK application can completely close the connection by calling the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect_event.md">WskDisconnectEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect_event.md">WskDisconnectEvent</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
  
 

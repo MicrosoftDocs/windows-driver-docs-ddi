@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, IDebugRegisters2, IDebugRegisters2::SetPseudoValues, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, SetPseudoValues method [Windows Debugging]
+ms.keywords: dbgeng/IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, IDebugRegisters2::SetPseudoValues, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, SetPseudoValues, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, debugger.setpseudovalues, SetPseudoValues method [Windows Debugging], IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT SetPseudoValues(
 
 
 
-#### - Source [in]
+### -param Source [in]
 
 Specifies the register source to query.
 
@@ -116,22 +116,22 @@ Fetch register information from the current scope's register context.
 </table> 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of pseudo-registers whose values are being set.
 
 
-#### - Indices [in, optional]
+### -param Indices [in, optional]
 
 Specifies an array of indices of pseudo-registers.  These are the pseudo-registers whose values will be set.  The size of <i>Indices</i> is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used to specify the indices instead.
 
 
-#### - Start [in]
+### -param Start [in]
 
 Specifies the index of the first pseudo-register whose value will be set.  The pseudo-registers with indices between <i>Start</i> and <i>Start</i> plus <i>Count</i> minus one, will be set.  <i>Start</i> is only used if <i>Indices</i> is <b>NULL</b>.
 
 
-#### - Values [in]
+### -param Values [in]
 
 Specifies the new values of the pseudo-registers.  The number of elements this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
 
@@ -169,9 +169,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548215">GetPseudoValues</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
  
 

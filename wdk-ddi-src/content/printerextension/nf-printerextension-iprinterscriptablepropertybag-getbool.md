@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: EEBB916B-0E7B-4523-BB13-A4758F5491BB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptablePropertyBag, printerextension/IPrinterScriptablePropertyBag::GetBool, IPrinterScriptablePropertyBag interface [Print Devices], GetBool method, IPrinterScriptablePropertyBag::GetBool, GetBool method [Print Devices], IPrinterScriptablePropertyBag interface, GetBool, print.iprinterscriptablepropertybag_getbool, GetBool method [Print Devices]
+ms.keywords: IPrinterScriptablePropertyBag, print.iprinterscriptablepropertybag_getbool, GetBool method [Print Devices], printerextension/IPrinterScriptablePropertyBag::GetBool, GetBool method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag::GetBool, IPrinterScriptablePropertyBag interface [Print Devices], GetBool method, GetBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetBool(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The name of the property.
 
 
-#### - pbValue [out, retval]
+### -param pbValue [out, retval]
 
 The returned property value.
 

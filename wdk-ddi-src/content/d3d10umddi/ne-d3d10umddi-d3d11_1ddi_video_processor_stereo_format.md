@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 348d17f3-a688-4f63-87aa-a8588f069c5c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, display.d3d11_1ddi_video_processor_stereo_format, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, display.d3d11_1ddi_video_processor_stereo_format, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,12 +74,12 @@ typedef enum D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT {
 
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO
 
 The sample does not contain stereo data. If the stereo format is not specified, this value is the default.
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL
 
 Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram.
 
@@ -88,7 +88,7 @@ Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram.
 All drivers that support stereo video must support this format.
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL
 
 Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram.
 
@@ -97,14 +97,14 @@ Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram.
 All drivers that support stereo video must support this format.
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE
 
 Frame 0 and frame 1 are placed in separate resources or in separate texture array elements within the same resource.
 
 All drivers that support stereo video must support this format.
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET
 
 The sample contains non-stereo data. However, the driver should create a left/right output of this sample using a specified offset.  The offset is specified in the <i>MonoOffset</i> parameter of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a> function. 
 
@@ -113,7 +113,7 @@ This format is primarily intended for subtitles and other subpicture data, where
 Support for this stereo format is optional.
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED
 
 Frame 0 and frame 1 are packed into interleaved rows, as shown in the following diagram.
 
@@ -122,7 +122,7 @@ Frame 0 and frame 1 are packed into interleaved rows, as shown in the following 
 Support for this stereo format is optional.
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED
 
 Frame 0 and frame 1 are packed into interleaved columns, as shown in the following diagram.
 
@@ -131,7 +131,7 @@ Frame 0 and frame 1 are packed into interleaved columns, as shown in the followi
 Support for this stereo format is optional.
 
 
-#### - D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD
+### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD
 
 Frame 0 and frame 1 are packed in a checkerboard format, as shown in the following diagram.
 
@@ -153,9 +153,9 @@ To query whether the device supports stereo 3-D video, call <a href="..\d3d10umd
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 

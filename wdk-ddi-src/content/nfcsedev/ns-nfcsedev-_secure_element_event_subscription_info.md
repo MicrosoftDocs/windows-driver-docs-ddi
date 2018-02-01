@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1ADA8430-86B4-4885-B20A-EBA8CDAC5449
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfcsedev/SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfpdrivers.secure_element_event_subscription_info, PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure pointer [Near-Field Proximity Drivers], PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure [Near-Field Proximity Drivers], *PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
+ms.keywords: "_SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfpdrivers.secure_element_event_subscription_info, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure pointer [Near-Field Proximity Drivers], PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, *PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,11 +68,11 @@ typedef struct _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO {
 
 
 
-#### - guidSecureElementId
+### -field guidSecureElementId
 
 
 
-#### - eEventType
+### -field eEventType
 
 Secure element event type. A service can subscribe and receive notification when an external reader arrival, external reader departure, transaction, HCE activated, or HCE deactivated event is triggered.
 

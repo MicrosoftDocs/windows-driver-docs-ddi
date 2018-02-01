@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2a5cccb3-24aa-404a-b887-2ccbe98a0673
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTSETINFORMATION, DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, wdf.wdfrequestsetinformation, WdfRequestSetInformation, wdfrequest/WdfRequestSetInformation, kmdf.wdfrequestsetinformation, WdfRequestSetInformation method
+ms.keywords: wdf.wdfrequestsetinformation, DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, WdfRequestSetInformation, PFN_WDFREQUESTSETINFORMATION, kmdf.wdfrequestsetinformation, wdfrequest/WdfRequestSetInformation, WdfRequestSetInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfRequestSetInformation(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 
 
-#### - Information [in]
+### -param Information [in]
 
 Driver-defined completion status information for the request.
 

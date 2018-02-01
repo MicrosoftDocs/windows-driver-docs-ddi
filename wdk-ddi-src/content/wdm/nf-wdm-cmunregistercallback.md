@@ -68,7 +68,7 @@ NTSTATUS CmUnRegisterCallback(
 
 
 
-#### - Cookie [in]
+### -param Cookie [in]
 
 A LARGE_INTEGER value that identifies the callback routine to unregister. <b>CmRegisterCallback</b> provided this value when you registered the callback routine. 
 
@@ -90,11 +90,11 @@ A driver that calls <b>CmRegisterCallback</b> or <b>CmRegisterCallbackEx</b> sho
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
 <a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
 
 <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
  
 

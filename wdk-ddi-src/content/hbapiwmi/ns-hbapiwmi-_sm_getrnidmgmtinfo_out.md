@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e12bd494-4d2a-44a9-95dc-0bc78fa73a97
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_getrnidmgmtinfo_out, _SM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, hbapiwmi/SM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], *PSM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT, structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml, SM_GetRNIDMgmtInfo_OUT
+ms.keywords: structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], _SM_GetRNIDMgmtInfo_OUT, *PSM_GetRNIDMgmtInfo_OUT, hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, storage.sm_getrnidmgmtinfo_out, PSM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT, hbapiwmi/SM_GetRNIDMgmtInfo_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SM_GetRNIDMgmtInfo_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-#### - MgmtInfo
+### -field MgmtInfo
 
 A structure of type HBAFC3MgmtInfo that holds FC3 management information. The FC3 management information is used to configure the fibre channel adapter.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 021f41c4-6ba9-418e-bc18-131ce6d90877
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceive, netvista.ndisoffloadtcpreceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml, NdisOffloadTcpReceive
+ms.keywords: NdisOffloadTcpReceive, NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpreceive, ndischimney/NdisOffloadTcpReceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,16 +73,16 @@ NDIS_STATUS NdisOffloadTcpReceive(
 
 
 
-#### - NdisOffloadHandle [in]
+### -param NdisOffloadHandle [in]
 
 A handle to an 
      <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
-     <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-     Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+     Referencing Offloaded State Through an Intermediate Driver</a>.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
@@ -107,8 +107,8 @@ The
 
 
 In response to a call to its 
-    <mshelp:link keywords="netvista.miniporttcpoffloadreceive" tabindex="0"><i>
-    MiniportTcpOffloadReceive</i></mshelp:link> function, an intermediate driver calls the 
+    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">
+    MiniportTcpOffloadReceive</a> function, an intermediate driver calls the 
     <b>NdisOffloadTcpReceive</b> function to propagate the receive operation to the underlying intermediate
     driver or offload target. For more information, see 
     <a href="https://msdn.microsoft.com/009159ad-81c0-4555-8e6b-a4fec2c7f1d5">Propagating I/O Operations</a>.
@@ -120,8 +120,8 @@ To the
 An 
       <i>NdisOffloadHandle</i> function that references the NDIS_OFFLOAD_HANDLE structure stored in the
       intermediate driver's context for the offloaded TCP connection. For more information, see 
-      <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>
 <li>
@@ -139,19 +139,19 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
+   ProtocolTcpOffloadReceiveComplete</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
-<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-   NdisTcpOffloadReceiveComplete</b></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+   NdisTcpOffloadReceiveComplete</a>
 
-<mshelp:link keywords="netvista.protocoltcpoffloadreceivecomplete" tabindex="0"><i>
-   ProtocolTcpOffloadReceiveComplete</i></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

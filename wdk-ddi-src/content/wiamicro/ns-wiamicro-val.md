@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9c9cf520-3249-4c1e-9d0d-e07f7127117e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PVAL, *PVAL, wiamicro/VAL, wiamicro/PVAL, MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, image.val, VAL structure [Imaging Devices], VAL, PVAL structure pointer [Imaging Devices]
+ms.keywords: "*PVAL, PVAL structure pointer [Imaging Devices], VAL, image.val, wiamicro/VAL, PVAL, MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, wiamicro/PVAL, VAL structure [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct VAL {
 
 
 
-#### - lVal
+### -field lVal
 
 Specifies a command value to return to the WIA Flatbed driver. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a> for a list of available commands for this parameter.
 
 
-#### - dblVal
+### -field dblVal
 
 Specifies a command value to return to the WIA Flatbed driver. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a> for a list of available commands for this parameter.
 
 
-#### - pGuid
+### -field pGuid
 
 Points to the GUID of the pressed button. If no button was pressed, this member points to GUID_NULL.
 
 
-#### - pScanInfo
+### -field pScanInfo
 
 Points to a <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure.
 
 
-#### - handle
+### -field handle
 
 Points to a ShutDown event handle that will be signaled by the WIA Flatbed Driver when the driver is being unloaded or shut down. 
 
 
-#### - ppButtonNames
+### -field ppButtonNames
 
 Specifies the address of a pointer to an array of button names.
 
 
-#### - pHandle
+### -field pHandle
 
 Points to an event handle.
 
 
-#### - lReserved
+### -field lReserved
 
 Reserved. Do not use.
 
 
-#### - szVal
+### -field szVal
 
 Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> (described in the Microsoft Windows SDK documentation) in order to obtain a file handle to the device.
 

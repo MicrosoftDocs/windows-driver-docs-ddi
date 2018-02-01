@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b9c8e54e-7cd5-48a9-b948-5327900c8a99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, AutoForwardCreateCleanupClose, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method
+ms.keywords: UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void AutoForwardCreateCleanupClose(
 
 
 
-#### - State [in]
+### -param State [in]
 
 A WDF_TRI_STATE-typed value that identifies the state of automatic forwarding. The following table shows the possible values.
 <table>
@@ -141,11 +141,11 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2338e583-4491-492e-b7e6-fa4e23485c22
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsEnableEvent, ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, KsEnableEvent function [Streaming Media Devices], stream.ksenableevent
+ms.keywords: stream.ksenableevent, ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, KsEnableEvent function [Streaming Media Devices], KsEnableEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS KsEnableEvent(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP with the enable request being handled. The file object associated with the IRP is stored with the event for later comparison when disabling the event.
 
 
-#### - EventSetsCount [in]
+### -param EventSetsCount [in]
 
 Indicates the number of event set structures being passed.
 
 
-#### - EventSet [in]
+### -param EventSet [in]
 
 Specifies a pointer to the list of event set information.
 
 
-#### - EventsList [in, out]
+### -param EventsList [in, out]
 
 If the enabling event's KSEVENT_SET.AddHandler for the event set is <b>NULL</b>, it must point to the head of the list of KSEVENT_ENTRY items on which the event is to be added. This function assumes a single list for at least a subset of events.
 
 
-#### - EventsFlags [in, optional]
+### -param EventsFlags [in, optional]
 
 Specifies <a href="..\ks\ne-ks-ksevents_locktype.md">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 
-#### - EventsLock [in, optional]
+### -param EventsLock [in, optional]
 
 If the KSEVENT_SET.AddHandler for the event set containing the event being enabled is <b>NULL</b>, then this is used to synchronize access to the list. This value can be <b>NULL</b> if no flag is set in <i>EventsFlags</i>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo, DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, _DXGKARG_QUERYADAPTERINFO, d3dkmddi/DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices]
+ms.keywords: "_DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices], d3dkmddi/DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo, DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _DXGKARG_QUERYADAPTERINFO {
 
 
 
-#### - Type
+### -field Type
 
 [in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_queryadapterinfotype.md">DXGK_QUERYADAPTERINFOTYPE</a>-typed value that indicates the type of information to retrieve.
 
 
-#### - pInputData
+### -field pInputData
 
 [in] A pointer to input information for the query. 
 
@@ -85,12 +85,12 @@ When <b>Type</b> specifies DXGKQAITYPE_UMDRIVERPRIVATE, <b>pInputData</b> points
 An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVERCAPS value.
 
 
-#### - InputDataSize
+### -field InputDataSize
 
 [in] The size, in bytes, of the input data that <b>pInputData</b> points to.
 
 
-#### - pOutputData
+### -field pOutputData
 
 [out] A pointer to an output buffer that the display miniport driver fills with the required information.
 <table>
@@ -125,7 +125,7 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 </table> 
 
 
-#### - OutputDataSize
+### -field OutputDataSize
 
 [in] The size, in bytes, of the output data that <b>pOutputData</b> points to.
 
@@ -138,21 +138,21 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn268634">DXGK_POWER_P_COMPONENT</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_queryadapterinfotype.md">DXGK_QUERYADAPTERINFOTYPE</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn268634">DXGK_POWER_P_COMPONENT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_queryadapterinfotype.md">DXGK_QUERYADAPTERINFOTYPE</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
  
 

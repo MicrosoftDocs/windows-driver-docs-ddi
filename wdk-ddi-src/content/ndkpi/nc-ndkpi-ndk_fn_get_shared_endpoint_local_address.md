@@ -72,27 +72,17 @@ NTSTATUS NdkGetSharedEndpointLocalAddress(
 
 
 
-#### - *pNdkSharedEndpoint [in]
+### -param *pNdkSharedEndpoint [in]
 
 A pointer to an NDK shared endpoint object  (<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>).
 
 
-#### - pAddress
+### -param pAddress
 
 A local address is returned in this buffer.
 
 
-#### - *pAddressLength
-
-The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
-
-
-#### - pNdkSharedEndpoint [in]
-
-A pointer to an NDK shared endpoint object  (<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>).
-
-
-#### - pAddressLength
+### -param *pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 

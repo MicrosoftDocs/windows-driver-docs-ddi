@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
+ms.keywords: CcSetAdditionalCacheAttributesEx, ntifs/CcSetAdditionalCacheAttributesEx, ifsk.ccsetadditionalcacheattributesex, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID CcSetAdditionalCacheAttributesEx(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the cached file.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Behavior flags to set for <i>FileObject</i>. Currently, only the  <b>AGGRESSIVE_UNMAP_BEHIND</b> flag is available. Setting this flag will allow the cache manager to optimize memory usage when modified writes are disabled for a file object.
 

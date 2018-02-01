@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c735d9c9-8e87-4a80-af1d-c97d457f78fa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml, MSiSCSI_PersistentLogins, _MSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], *PMSiSCSI_PersistentLogins, storage.msiscsi_persistentlogins, iscsiop/PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices], iscsiop/MSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins
+ms.keywords: PMSiSCSI_PersistentLogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml, storage.msiscsi_persistentlogins, iscsiop/MSiSCSI_PersistentLogins, iscsiop/PMSiSCSI_PersistentLogins, _MSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MSiSCSI_PersistentLogins {
 
 
 
-#### - PersistentLoginCount
+### -field PersistentLoginCount
 
 The number of persistent target logon sessions that the initiator manages.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for Microsoft use only.
 
 
-#### - PersistentLogins
+### -field PersistentLogins
 
 A variable length array of <a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_login.md">ISCSI_Persistent_Login</a> structures, each of which contains information that is associated with a particular persistent logon session that the initiator maintains.
 

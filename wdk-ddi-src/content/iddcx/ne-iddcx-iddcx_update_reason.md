@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e451e4e3-0b8a-4a17-8e4e-2da99d336a39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, display.iddcx_update_reason, iddcx/IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON_UNINITIALIZED, IDDCX_UPDATE_REASON enumeration [Display Devices], iddcx/IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_UNINITIALIZED, IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_OTHER, IDDCX_UPDATE_REASON_OTHER, IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, IDDCX_UPDATE_REASON
+ms.keywords: iddcx/IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, IDDCX_UPDATE_REASON enumeration [Display Devices], iddcx/IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_OTHER, IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, IDDCX_UPDATE_REASON_UNINITIALIZED, IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, IDDCX_UPDATE_REASON_OTHER, iddcx/IDDCX_UPDATE_REASON_UNINITIALIZED, display.iddcx_update_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _IDDCX_UPDATE_REASON {
 
 
 
-#### - IDDCX_UPDATE_REASON_UNINITIALIZED
+### -field IDDCX_UPDATE_REASON_UNINITIALIZED
 
 
                         
                     Indicates that an <b>IDDCX_UPDATE_REASON</b> variable has not yet been assigned a meaningful value.
 
 
-#### - IDDCX_UPDATE_REASON_POWER_CONSTRAINTS
+### -field IDDCX_UPDATE_REASON_POWER_CONSTRAINTS
 
 
                         The mode list is changing due to changed power constraints on the host system
                     
 
 
-#### - IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH
+### -field IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH
 
 
                         The mode list is changing due to changes in bandwidth between the system and the indirect display device
                     
 
 
-#### - IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH
+### -field IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH
 
 
                         The mode list is changing due to changes in bandwidth between the indirect display device and the monitor
                     
 
 
-#### - IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS
+### -field IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS
 
 
                         The mode list is changing due to constraints of the product when in a new configuration
                     
 
 
-#### - IDDCX_UPDATE_REASON_OTHER
+### -field IDDCX_UPDATE_REASON_OTHER
 
 
                         The mode list is changing due to another reason not listed above

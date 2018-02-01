@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata, DXGKARGCB_GETHANDLEDATA structure [Display Devices], _DXGKARGCB_GETHANDLEDATA
+ms.keywords: DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, display.dxgkargcb_gethandledata, DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _DXGKARGCB_GETHANDLEDATA {
 
 
 
-#### - hObject
+### -field hObject
 
 [in] A handle to the private data. This handle is the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) assigned for the private data.
 
 
-#### - Type
+### -field Type
 
 [in] A DXGK_HANDLE_TYPE-typed value that indicates the type of handle to retrieve data about. This member can be one of the following values:
 <table>
@@ -105,7 +105,7 @@ The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateA
 </table> 
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0B5C1BF9-59C3-4AC9-B545-FD7260B75E90
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], FltGetSectionContext, ifsk.fltgetsectioncontext
+ms.keywords: FltGetSectionContext, fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext, FltGetSectionContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltGetSectionContext(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 An opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for the stream. 
 
 
-#### - Context [out]
+### -param Context [out]
 
 A pointer to a caller-allocated variable that receives the address of the context. 
 
@@ -134,11 +134,11 @@ To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocateco
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
 

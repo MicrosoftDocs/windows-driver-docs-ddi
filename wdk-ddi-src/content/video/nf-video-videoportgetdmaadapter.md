@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e28649d3-cb4f-4589-b421-a7cdd9139e4c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml, VideoPortGetDmaAdapter, VideoPortGetDmaAdapter function [Display Devices], video/VideoPortGetDmaAdapter, display.videoportgetdmaadapter
+ms.keywords: VideoPortGetDmaAdapter function [Display Devices], VideoPortGetDmaAdapter, video/VideoPortGetDmaAdapter, display.videoportgetdmaadapter, VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PVP_DMA_ADAPTER VideoPortGetDmaAdapter(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - VpDeviceDescription [in]
+### -param VpDeviceDescription [in]
 
 Pointer to a <a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
 
@@ -117,11 +117,11 @@ This structure is available in Windows XP and later.
 
 <a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
 
-<a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
-
 <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
 <a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a>
+
+<a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
 
  
 

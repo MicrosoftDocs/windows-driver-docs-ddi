@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 80c24c5b-49a3-4ecc-92fe-3477cbb8a544
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFindInTunnelCache, FsRtlFindInTunnelCache routine [Installable File System Drivers], ifsk.fsrtlfindintunnelcache, ntifs/FsRtlFindInTunnelCache, fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml
+ms.keywords: fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml, ifsk.fsrtlfindintunnelcache, FsRtlFindInTunnelCache, FsRtlFindInTunnelCache routine [Installable File System Drivers], ntifs/FsRtlFindInTunnelCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BOOLEAN FsRtlFindInTunnelCache(
 
 
 
-#### - Cache [in]
+### -param Cache [in]
 
 Pointer to a tunnel cache initialized by <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>.
 
@@ -83,27 +83,27 @@ Pointer to a tunnel cache initialized by <a href="..\ntifs\nf-ntifs-_fsrtl_advan
 TBD
 
 
-#### - Name [in]
+### -param Name [in]
 
 Pointer to a Unicode string containing the new name for the file that is being renamed or created.
 
 
-#### - ShortName [out]
+### -param ShortName [out]
 
 Pointer to a caller-allocated Unicode string to receive the short name of the tunneled file. This string must be long enough to hold a full 8.3 file name. (Unlike <i>LongName</i>, <i>ShortName</i> is not grown dynamically.)
 
 
-#### - LongName [out]
+### -param LongName [out]
 
 Pointer to a caller-allocated Unicode string to receive the long name of the tunneled file. If this string is not large enough to hold the tunneled name, <b>FsRtlFindInTunnelCache</b> replaces it with a larger system-allocated string. If such a string is allocated, the caller is responsible for detecting this case and freeing the new system-allocated string as well as the original caller-allocated string.
 
 
-#### - DataLength [in, out]
+### -param DataLength [in, out]
 
 On input, this is a pointer to a variable that specifies the length of the buffer pointed to by <i>Data</i>. On output, the same variable receives the length in bytes of the data written to the buffer.
 
 
-#### - Data [out]
+### -param Data [out]
 
 Pointer to a caller-allocated buffer to receive the data found in the tunnel cache. 
 
@@ -145,11 +145,11 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

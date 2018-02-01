@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ED63E47F-B91F-49DC-9CE9-8CFE8F670B16
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTGETEFFECTIVEIOTYPE, wdfrequest/WdfRequestGetEffectiveIoType, WdfRequestGetEffectiveIoType, wdf.wdfrequestgeteffectiveiotype, WdfRequestGetEffectiveIoType method
+ms.keywords: WdfRequestGetEffectiveIoType, PFN_WDFREQUESTGETEFFECTIVEIOTYPE, WdfRequestGetEffectiveIoType method, wdfrequest/WdfRequestGetEffectiveIoType, wdf.wdfrequestgeteffectiveiotype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ WDF_DEVICE_IO_TYPE WdfRequestGetEffectiveIoType(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d78c54a7-04a5-4c51-bf33-a5b7fb937897
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters::GetValues, GetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2, GetValues method [Windows Debugging], IDebugRegisters interface [Windows Debugging], GetValues method, GetValues, IDebugRegisters::GetValues, dbgeng/IDebugRegisters2::GetValues, GetValues method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2 interface [Windows Debugging], GetValues method, debugger.getvalues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, IDebugRegisters2::GetValues
+ms.keywords: GetValues method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetValues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, GetValues method [Windows Debugging], GetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetValues, IDebugRegisters::GetValues, IDebugRegisters interface [Windows Debugging], GetValues method, GetValues, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValues method, dbgeng/IDebugRegisters2::GetValues, debugger.getvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT GetValues(
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of registers whose values are requested.
 
 
-#### - Indices [in, optional]
+### -param Indices [in, optional]
 
 Specifies an array that contains the indices of the registers from which to get the values.  The number of elements in this array is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
 
-#### - Start [in]
+### -param Start [in]
 
 If <i>Indices</i> is <b>NULL</b>, the registers will be read consecutively starting at this index.  Otherwise it is ignored.
 
 
-#### - Values [out]
+### -param Values [out]
 
 Receives the values of the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
 
@@ -154,11 +154,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 

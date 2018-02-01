@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9acd83c1-7e9e-4906-bb07-4f9699f76e96
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0032 structure [Display Devices], display.d3d12ddi-command-list-funcs-3d-0032, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0032, D3D12DDI_COMMAND_LIST_FUNCS_3D_0032
+ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0032, D3D12DDI_COMMAND_LIST_FUNCS_3D_0032 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0032, display.d3d12ddi-command-list-funcs-3d-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,287 +123,287 @@ typedef struct _D3D12DDI_COMMAND_LIST_FUNCS_3D_0032 {
 
 
 
-#### - pfnCloseCommandList
+### -field pfnCloseCommandList
 
 Close the command list.
 
 
-#### - pfnResetCommandList
+### -field pfnResetCommandList
 
 Reset the command list.
 
 
-#### - pfnDrawInstanced
+### -field pfnDrawInstanced
 
 Draw instanced.
 
 
-#### - pfnDrawIndexedInstanced
+### -field pfnDrawIndexedInstanced
 
 Draw indexed instanced.
 
 
-#### - pfnDispatch
+### -field pfnDispatch
 
 Dispatch.
 
 
-#### - pfnClearUnorderedAccessViewUint
+### -field pfnClearUnorderedAccessViewUint
 
 Clear the unordered access view of UINT values.
 
 
-#### - pfnClearUnorderedAccessViewFloat
+### -field pfnClearUnorderedAccessViewFloat
 
 Clear the unordered access view of FLOAT values.
 
 
-#### - pfnClearRenderTargetView
+### -field pfnClearRenderTargetView
 
 Clear the render target view.
 
 
-#### - pfnClearDepthStencilView
+### -field pfnClearDepthStencilView
 
 Clear the depth stencil view.
 
 
-#### - pfnDiscardResource
+### -field pfnDiscardResource
 
 Discard resource.
 
 
-#### - pfnCopyTextureRegion
+### -field pfnCopyTextureRegion
 
 Copy texture region.
 
 
-#### - pfnResourceCopy
+### -field pfnResourceCopy
 
 Resource copy.
 
 
-#### - pfnCopyTiles
+### -field pfnCopyTiles
 
 Copy tiles.
 
 
-#### - pfnCopyBufferRegion
+### -field pfnCopyBufferRegion
 
 Copy buffer region.
 
 
-#### - pfnResourceResolveSubresource
+### -field pfnResourceResolveSubresource
 
 Resource resolve subresource.
 
 
-#### - pfnExecuteBundle
+### -field pfnExecuteBundle
 
 Execute bundle.
 
 
-#### - pfnExecuteIndirect
+### -field pfnExecuteIndirect
 
 Execute indirect.
 
 
-#### - pfnResourceBarrier
+### -field pfnResourceBarrier
 
 Resource barrier.
 
 
-#### - pfnBlt
+### -field pfnBlt
 
 Blt.
 
 
-#### - pfnPresent
+### -field pfnPresent
 
 Present.
 
 
-#### - pfnBeginQuery
+### -field pfnBeginQuery
 
 Begin query.
 
 
-#### - pfnEndQuery
+### -field pfnEndQuery
 
 End query.
 
 
-#### - pfnResolveQueryData
+### -field pfnResolveQueryData
 
 Resolve query data.
 
 
-#### - pfnSetPredication
+### -field pfnSetPredication
 
 Set predication.
 
 
-#### - pfnIaSetTopology
+### -field pfnIaSetTopology
 
 Set topology.
 
 
-#### - pfnRsSetViewports
+### -field pfnRsSetViewports
 
 Set view ports.
 
 
-#### - pfnRsSetScissorRects
+### -field pfnRsSetScissorRects
 
 Set scissor rectangles.
 
 
-#### - pfnOmSetBlendFactor
+### -field pfnOmSetBlendFactor
 
 Set blend factor.
 
 
-#### - pfnOmSetStencilRef
+### -field pfnOmSetStencilRef
 
 Set stencil reference.
 
 
-#### - pfnSetPipelineState
+### -field pfnSetPipelineState
 
 Set pipeline state.
 
 
-#### - pfnSetDescriptorHeaps
+### -field pfnSetDescriptorHeaps
 
 Set descriptor heaps.
 
 
-#### - pfnSetComputeRootSignature
+### -field pfnSetComputeRootSignature
 
 Set compute root signature.
 
 
-#### - pfnSetGraphicsRootSignature
+### -field pfnSetGraphicsRootSignature
 
 Set graphics root signature.
 
 
-#### - pfnSetComputeRootDescriptorTable
+### -field pfnSetComputeRootDescriptorTable
 
 Set compute root descriptor table.
 
 
-#### - pfnSetGraphicsRootDescriptorTable
+### -field pfnSetGraphicsRootDescriptorTable
 
 Set graphic root descriptor table.
 
 
-#### - pfnSetComputeRoot32BitConstant
+### -field pfnSetComputeRoot32BitConstant
 
 Set compute root 32-bit constant.
 
 
-#### - pfnSetGraphicsRoot32BitConstant
+### -field pfnSetGraphicsRoot32BitConstant
 
 Set graphics root 32-bit constant.
 
 
-#### - pfnSetComputeRoot32BitConstants
+### -field pfnSetComputeRoot32BitConstants
 
 Set compute root 32-bit constants.
 
 
-#### - pfnSetGraphicsRoot32BitConstants
+### -field pfnSetGraphicsRoot32BitConstants
 
 Set graphics root 32-bit constants.
 
 
-#### - pfnSetComputeRootConstantBufferView
+### -field pfnSetComputeRootConstantBufferView
 
 Set compute root constant buffer view.
 
 
-#### - pfnSetGraphicsRootConstantBufferView
+### -field pfnSetGraphicsRootConstantBufferView
 
 Set graphics root constant buffer view.
 
 
-#### - pfnSetComputeRootShaderResourceView
+### -field pfnSetComputeRootShaderResourceView
 
 Set compute root shader resource view.
 
 
-#### - pfnSetGraphicsRootShaderResourceView
+### -field pfnSetGraphicsRootShaderResourceView
 
 Set graphics root shader resource view.
 
 
-#### - pfnSetComputeRootUnorderedAccessView
+### -field pfnSetComputeRootUnorderedAccessView
 
 Set compute root unordered access view.
 
 
-#### - pfnSetGraphicsRootUnorderedAccessView
+### -field pfnSetGraphicsRootUnorderedAccessView
 
 Set graphics root unordered access view.
 
 
-#### - pfnIASetIndexBuffer
+### -field pfnIASetIndexBuffer
 
 Set index buffer.
 
 
-#### - pfnIASetVertexBuffers
+### -field pfnIASetVertexBuffers
 
 Set vertex buffers.
 
 
-#### - pfnSOSetTargets
+### -field pfnSOSetTargets
 
 Set targets.
 
 
-#### - pfnOMSetRenderTargets
+### -field pfnOMSetRenderTargets
 
 Set render targets.
 
 
-#### - pfnSetMarker
+### -field pfnSetMarker
 
 Set marker.
 
 
-#### - pfnClearRootArguments
+### -field pfnClearRootArguments
 
 Clear root arguments.
 
 
-#### - pfnAtomicCopyBufferRegion
+### -field pfnAtomicCopyBufferRegion
 
 Atomic copy the buffer region.
 
 
-#### - pfnOMSetDepthBounds
+### -field pfnOMSetDepthBounds
 
 Set depth bounds.
 
 
-#### - pfnSetSamplePositions
+### -field pfnSetSamplePositions
 
 Set sample positions.
 
 
-#### - pfnResourceResolveSubresourceRegion
+### -field pfnResourceResolveSubresourceRegion
 
 Resource resolve subresource region.
 
 
-#### - pfnSetProtectedResourceSession
+### -field pfnSetProtectedResourceSession
 
 Set protected resource session.
 
 
-#### - pfnWriteBufferImmediate
+### -field pfnWriteBufferImmediate
 
 Write buffer immediate.
 

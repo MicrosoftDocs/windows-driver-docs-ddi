@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45ec429e-d324-40c9-bedc-acd75ccb160e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsAleEndpointDestroyEnumHandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista], netvista.fwpsaleendpointdestroyenumhandle0, FwpsAleEndpointDestroyEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml
+ms.keywords: fwpsk/FwpsAleEndpointDestroyEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml, FwpsAleEndpointDestroyEnumHandle0, netvista.fwpsaleendpointdestroyenumhandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -53,8 +53,8 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 The 
   <b>FwpsAleEndpointDestroyEnumHandle0</b> function destroys an endpoint enumeration handle that was created
   by calling 
-  <mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>
-  FwpsAleEndpointCreateEnumHandle0</b></mshelp:link>.
+  <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
+  FwpsAleEndpointCreateEnumHandle0</a>.
 <div class="alert"><b>Note</b>  <b>FwpsAleEndpointDestroyEnumHandle0</b> is a specific version of <b>FwpsAleEndpointDestroyEnumHandle</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -syntax
@@ -73,18 +73,18 @@ NTSTATUS NTAPI FwpsAleEndpointDestroyEnumHandle0(
 
 
 
-#### - engineHandle [in]
+### -param engineHandle [in]
 
 The handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
 
 
-#### - enumHandle [in, out]
+### -param enumHandle [in, out]
 
 The enumeration handle created by a previous call to 
-     <mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>
-     FwpsAleEndpointCreateEnumHandle0</b></mshelp:link>.
+     <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
+     FwpsAleEndpointCreateEnumHandle0</a>.
 
 
 ## -returns
@@ -133,8 +133,8 @@ When endpoint enumeration is complete, the enumeration handle must be destroyed 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>
-     FwpsAleEndpointCreateEnumHandle0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
+     FwpsAleEndpointCreateEnumHandle0</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f285e319-23ef-4951-8fb3-107cd54a23b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlMultiByteToUnicodeSize, ifsk.rtlmultibytetounicodesize, RtlMultiByteToUnicodeSize, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml, RtlMultiByteToUnicodeSize routine [Installable File System Drivers]
+ms.keywords: RtlMultiByteToUnicodeSize, ntifs/RtlMultiByteToUnicodeSize, RtlMultiByteToUnicodeSize routine [Installable File System Drivers], ifsk.rtlmultibytetounicodesize, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlMultiByteToUnicodeSize(
 
 
 
-#### - BytesInUnicodeString [out]
+### -param BytesInUnicodeString [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes that are required to store the translated string. 
 
 
-#### - MultiByteString [in]
+### -param MultiByteString [in]
 
 Pointer to the source string for which the Unicode length is to be calculated. 
 
 
-#### - BytesInMultiByteString [in]
+### -param BytesInMultiByteString [in]
 
 Length, in bytes, of the source string. 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlAppendUnicodeStringToString, wdm/RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, kernel.rtlappendunicodestringtostring
+ms.keywords: k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, kernel.rtlappendunicodestringtostring, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], RtlAppendUnicodeStringToString, wdm/RtlAppendUnicodeStringToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RtlAppendUnicodeStringToString(
 
 
 
-#### - Destination [in, out]
+### -param Destination [in, out]
 
 Pointer to a buffered Unicode string.
 
 
-#### - Source [in]
+### -param Source [in]
 
 Pointer to the buffered string to be concatenated. 
 

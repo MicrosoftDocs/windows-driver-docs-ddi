@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetBandSize method [Print Devices], prcomoem/IPrintOemUni3::SetBandSize, BMF_4BPP, BMF_32BPP, BMF_1BPP, BMF_8BPP, BMF_4RLE, IPrintOemUni3, SetBandSize, BMF_24BPP, IPrintOemUni3 interface [Print Devices], SetBandSize method, SetBandSize method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3::SetBandSize, BMF_8RLE, BMF_16BPP, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, print.iprintoemuni3_setbandsize
+ms.keywords: print.iprintoemuni3_setbandsize, SetBandSize method [Print Devices], IPrintOemUni3 interface, BMF_32BPP, BMF_8RLE, BMF_1BPP, IPrintOemUni3 interface [Print Devices], SetBandSize method, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, BMF_4BPP, SetBandSize method [Print Devices], prcomoem/IPrintOemUni3::SetBandSize, BMF_16BPP, SetBandSize, IPrintOemUni3, BMF_4RLE, BMF_8BPP, BMF_24BPP, IPrintOemUni3::SetBandSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,12 +73,12 @@ HRESULT SetBandSize(
 
 
 
-#### - pdevobj [in]
+### -param pdevobj [in]
 
 A caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - iFormat [in]
+### -param iFormat [in]
 
 An integer value that specifies the format of the bitmap in terms of the number of bits of color information per pixel that are required. This parameter can be one of the following values.
 <table>
@@ -169,22 +169,22 @@ Monochrome
 </table> 
 
 
-#### - dwPageWidthBytes [in]
+### -param dwPageWidthBytes [in]
 
 A Unidrv-supplied value that specifies the width of the printing area, in bytes.
 
 
-#### - dwPageHeight [in]
+### -param dwPageHeight [in]
 
 A Unidrv-supplied value that specifies the height of the printing area, in pixels.
 
 
-#### - dwMaxHeight [in]
+### -param dwMaxHeight [in]
 
 A Unidrv-supplied value that specifies the maximum allowable height of the printing area, in pixels.
 
 
-#### - pdwRequiredHeight [in]
+### -param pdwRequiredHeight [in]
 
 A caller-supplied pointer to a DWORD that contains the height of the printing area, in pixels, required by the rendering plug-in.
 

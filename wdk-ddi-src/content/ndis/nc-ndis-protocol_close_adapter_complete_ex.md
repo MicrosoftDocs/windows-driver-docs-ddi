@@ -74,7 +74,7 @@ VOID ProtocolCloseAdapterCompleteEx(
 
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
@@ -110,8 +110,8 @@ After the protocol driver calls the
     <b>Ndis<i>Xxx</i></b> functions that require this handle as a parameter.
 
 If the 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> function has not already done so,
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> function has not already done so,
     <i>ProtocolCloseAdapterCompleteEx</i> can release the resources that the protocol driver allocated for
     per-binding network I/O operations.
 
@@ -120,8 +120,8 @@ If
     <i>UnbindContext</i> handle in the context area at 
     <i>ProtocolBindingContext</i>, 
     <i>ProtocolCloseAdapterCompleteEx</i> can call the 
-    <mshelp:link keywords="netvista.ndiscompleteunbindadapterex" tabindex="0"><b>
-    NdisCompleteUnbindAdapterEx</b></mshelp:link> function to complete the unbinding operation. Consequently, 
+    <a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">
+    NdisCompleteUnbindAdapterEx</a> function to complete the unbinding operation. Consequently, 
     <i>ProtocolCloseAdapterCompleteEx</i> should not release the context area until after it calls 
     <b>NdisCompleteUnbindAdapterEx</b>.
 
@@ -162,13 +162,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
  
 

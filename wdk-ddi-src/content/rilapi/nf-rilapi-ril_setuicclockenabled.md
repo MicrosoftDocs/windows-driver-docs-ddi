@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eb422fec-8cc3-42b8-9caf-21fd135df7a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetUiccLockEnabled, RIL_SetUiccLockEnabled method [Network Drivers Starting with Windows Vista], netvista.ril_setuicclockenabled, rilapi/RIL_SetUiccLockEnabled
+ms.keywords: RIL_SetUiccLockEnabled method [Network Drivers Starting with Windows Vista], RIL_SetUiccLockEnabled, rilapi/RIL_SetUiccLockEnabled, netvista.ril_setuicclockenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_SetUiccLockEnabled(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - lpLockCredential
+### -param lpLockCredential
 
 
 
-#### - fEnable
+### -param fEnable
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1264bfe7-3ab6-4ba0-aa41-cf81bc9bb687
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlanihvtypes/PDOT11EXT_IHV_PARAMS, wlanihvtypes/DOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_params, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_PARAMS, Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, _DOT11EXT_IHV_PARAMS, *PDOT11EXT_IHV_PARAMS
+ms.keywords: "_DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS, wlanihvtypes/DOT11EXT_IHV_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], *PDOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, netvista.dot11ext_ihv_params"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,43 +71,43 @@ typedef struct _DOT11EXT_IHV_PARAMS {
 
 
 
-#### - dot11ExtIhvProfileParams
+### -field dot11ExtIhvProfileParams
 
 A 
-     <mshelp:link keywords="netvista.dot11ext_ihv_profile_params" tabindex="0"><b>
-     DOT11EXT_IHV_PROFILE_PARAMS</b></mshelp:link> structure that specifies general parameters of a basic service set
+     <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
+     DOT11EXT_IHV_PROFILE_PARAMS</a> structure that specifies general parameters of a basic service set
      (BSS) network with which a network profile will be applied.
 
 
-#### - wstrProfileName
+### -field wstrProfileName
 
 A string that defines the IHV profile name.
 
 
-#### - dwProfileTypeFlags
+### -field dwProfileTypeFlags
 
 The flags associated with this IHV profile type.
 
 
-#### - interfaceGuid
+### -field interfaceGuid
 
 The globally unique identifier (GUID) for the wireless LAN (WLAN) adapter. 
      
 
 The operating system passes the GUID and other data related to the WLAN adapter through the 
      <i>pDot11Adapter</i> parameter of the 
-     <mshelp:link keywords="netvista.dot11extihvinitadapter" tabindex="0"><i>
-     Dot11ExtIhvInitAdapter</i></mshelp:link> function, which the operating system calls when it detects the arrival of
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
+     Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
      the WLAN adapter. For more information about this operation, see 
-     <mshelp:link keywords="netvista.802_11_wlan_adapter_arrival" tabindex="0">802.11 WLAN Adapter
-     Arrival</mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557044">802.11 WLAN Adapter
+     Arrival</a>.
 
 
 ## -see-also
 
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
  
 

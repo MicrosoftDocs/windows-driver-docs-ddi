@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], D3DKMT_ACQUIREKEYEDMUTEX, _D3DKMT_ACQUIREKEYEDMUTEX, OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml
+ms.keywords: d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], display.d3dkmt_acquirekeyedmutex, _D3DKMT_ACQUIREKEYEDMUTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX {
 
 
 
-#### - hKeyedMutex
+### -field hKeyedMutex
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to acquire. 
 
 
-#### - Key
+### -field Key
 
 [in] A 64-bit value that specifies the key value to acquire the mutex for. 
 
 
-#### - pTimeout
+### -field pTimeout
 
 [in] A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which acquiring the mutex is to be completed. 
 
@@ -89,7 +89,7 @@ A positive value specifies an absolute time, relative to January 1, 1601. A nega
 If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> returns without waiting. If the caller supplies a <b>NULL</b> pointer, <b>D3DKMTAcquireKeyedMutex</b> waits indefinitely until the mutex object is set to the signaled state. 
 
 
-#### - FenceValue
+### -field FenceValue
 
 [out] A 64-bit value that specifies the current fence value of the GPU synchronization object. 
 

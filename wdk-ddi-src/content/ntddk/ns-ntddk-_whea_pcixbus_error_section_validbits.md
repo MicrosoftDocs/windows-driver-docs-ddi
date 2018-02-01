@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 85f14500-9cf6-42a6-a302-0990b99ddb5f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], *PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, ntddk/WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, _WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, ntddk/PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], whea.whea_pcixbus_error_section_validbits, PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXBUS_ERROR_VALIDBITS, WHEA_PCIXBUS_ERROR_VALIDBITS, whearef_a01d7635-52ac-4b47-98f9-b09601dce4ff.xml
+ms.keywords: PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, WHEA_PCIXBUS_ERROR_VALIDBITS, whearef_a01d7635-52ac-4b47-98f9-b09601dce4ff.xml, ntddk/WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], _WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, ntddk/PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], *PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXBUS_ERROR_VALIDBITS, WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, whea.whea_pcixbus_error_section_validbits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,107 +86,57 @@ typedef union _WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS {
 
 ### -field DUMMYSTRUCTNAME.ErrorStatus
 
- 
+A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.ErrorType
 
- 
+A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.BusId
 
- 
+A single bit that indicates that the <b>BusId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.BusAddress
 
- 
+A single bit that indicates that the <b>BusAddress</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.BusData
 
- 
+A single bit that indicates that the <b>BusData</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.BusCommand
 
- 
+A single bit that indicates that the <b>BusCommand</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.RequesterId
 
- 
+A single bit that indicates that the <b>RequesterId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.CompleterId
 
- 
+A single bit that indicates that the <b>CompleterId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.TargetId
 
- 
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved for system use.
 
 
-#### - ValidBits
+### -field ValidBits
 
 A ULONGLONG representation of the contents of the WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union.
-
-
-#### - ErrorStatus
-
-A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - ErrorType
-
-A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - BusId
-
-A single bit that indicates that the <b>BusId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - BusAddress
-
-A single bit that indicates that the <b>BusAddress</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - BusData
-
-A single bit that indicates that the <b>BusData</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - BusCommand
-
-A single bit that indicates that the <b>BusCommand</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - RequesterId
-
-A single bit that indicates that the <b>RequesterId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - CompleterId
-
-A single bit that indicates that the <b>CompleterId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - TargetId
-
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - Reserved
-
-Reserved for system use.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a69eae04-a7e0-4d0c-a3e0-d49905096c8e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_381ec3d0-fcf3-4153-8cc3-f2dda3f9684f.xml, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure [Display Devices], DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, display.dxgkmdt_opm_hdcp_key_selection_vector, d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+ms.keywords: display.dxgkmdt_opm_hdcp_key_selection_vector, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DmStructs_381ec3d0-fcf3-4153-8cc3-f2dda3f9684f.xml, _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR {
 
 
 
-#### - abKeySelectionVector
+### -field abKeySelectionVector
 
 A 5-byte array that comprises the HDCP KSV. Byte 0 is the least significant byte and byte 4 is the most significant byte. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31135396-303b-4b94-8616-a4b7be207fa1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsNetBufferListAssociateContext0, netvista.fwpsnetbufferlistassociatecontext0, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml, fwpsk/FwpsNetBufferListAssociateContext0
+ms.keywords: FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista], netvista.fwpsnetbufferlistassociatecontext0, FwpsNetBufferListAssociateContext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml, fwpsk/FwpsNetBufferListAssociateContext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,30 +77,30 @@ NTSTATUS NTAPI FwpsNetBufferListAssociateContext0(
 
 
 
-#### - netBufferList [in, out]
+### -param netBufferList [in, out]
 
 A network buffer list that indicates one or more packets of interest to the callout driver.
 
 
-#### - layerId [in]
+### -param layerId [in]
 
 The identifier of the layer in which the context is being associated. When calling this function
      from the NDIS receive path, set this parameter to FWPS_LAYER_NON_WFP.
 
 
-#### - context [in]
+### -param context [in]
 
 Arbitrary context information set by the callout driver. The filter engine will pass this context
      to the callout driver's 
-     <mshelp:link keywords="netvista.fwps_net_buffer_list_notify_fn0" tabindex="0"><i>
-     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i></mshelp:link>.
+     <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
+     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>.
 
 
-#### - contextTag [in]
+### -param contextTag [in]
 
 A locally unique identifier obtained by calling the 
-     <mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
-     FwpsNetBufferListGetTagForContext0</b></mshelp:link> function.
+     <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+     FwpsNetBufferListGetTagForContext0</a> function.
 
 
 ### -param providerGuid
@@ -108,20 +108,20 @@ A locally unique identifier obtained by calling the
 TBD
 
 
-#### - deviceObject [in, out]
+### -param deviceObject [in, out]
 
 A pointer to the callout driver's device object.
 
 
-#### - notifyFn [in]
+### -param notifyFn [in]
 
 A pointer to the callout driver's 
-     <mshelp:link keywords="netvista.fwps_net_buffer_list_notify_fn0" tabindex="0"><i>
-     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i></mshelp:link> function. The filter engine will send status notifications to this
+     <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
+     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function. The filter engine will send status notifications to this
      function.
 
 
-#### - flags [in]
+### -param flags [in]
 
 This parameter is reserved for future use and is set to zero.
 
@@ -181,20 +181,20 @@ Before calling this function, the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistremovecontext0" tabindex="0"><b>
-   FwpsNetBufferListRemoveContext0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+   FwpsNetBufferListGetTagForContext0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
-   FwpsNetBufferListGetTagForContext0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsnetbufferlistretrievecontext0" tabindex="0"><b>
-   FwpsNetBufferListRetrieveContext0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
+   FwpsNetBufferListRetrieveContext0</a>
 
 <a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

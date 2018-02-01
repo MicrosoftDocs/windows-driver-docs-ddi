@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 80abf9a7-0a34-4fc2-ab5a-afcb678b7003
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceinfo, ntddrilapitypes/RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO
+ms.keywords: ntddrilapitypes/RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO, netvista.riluiccserviceinfo, RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILUICCSERVICEINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwService
+### -field dwService
 
 
 
-#### - dwState
+### -field dwState
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.gdigetdevmodeforpage, gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, winppi/GdiGetDevmodeForPage, GdiGetDevmodeForPage function [Print Devices], GdiGetDevmodeForPage
+ms.keywords: winppi/GdiGetDevmodeForPage, gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, GdiGetDevmodeForPage function [Print Devices], print.gdigetdevmodeforpage, GdiGetDevmodeForPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ BOOL GdiGetDevmodeForPage(
 
 
 
-#### - SpoolFileHandle
+### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 
 
-#### - dwPageNumber
+### -param dwPageNumber
 
 Caller-supplied number of the page for which <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> contents are to be returned.
 
 
-#### - pCurrDM
+### -param pCurrDM
 
 Caller-supplied location to receive a pointer to a DEVMODE structure for the page specified by <i>dwPageNumber</i>.
 
 
-#### - pLastDM
+### -param pLastDM
 
 Caller-supplied location to receive a pointer to a DEVMODE structure for the page previous to the one specified by <i>dwPageNumber</i>.
 

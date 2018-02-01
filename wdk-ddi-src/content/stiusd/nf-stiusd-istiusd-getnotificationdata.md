@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c4293fa8-07c9-40b2-acc2-8a3128b6dad4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stiusd/IStiUSD::GetNotificationData, IStiUSD interface [Imaging Devices], GetNotificationData method, GetNotificationData method [Imaging Devices], IStiUSD::GetNotificationData, GetNotificationData, image.istiusd_getnotificationdata, GetNotificationData method [Imaging Devices], IStiUSD interface, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, IStiUSD
+ms.keywords: GetNotificationData method [Imaging Devices], IStiUSD, GetNotificationData, IStiUSD interface [Imaging Devices], GetNotificationData method, GetNotificationData method [Imaging Devices], IStiUSD interface, image.istiusd_getnotificationdata, IStiUSD::GetNotificationData, stiusd/IStiUSD::GetNotificationData, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

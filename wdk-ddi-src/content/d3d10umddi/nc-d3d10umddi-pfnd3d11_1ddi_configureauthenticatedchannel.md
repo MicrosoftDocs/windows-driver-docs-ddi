@@ -74,39 +74,29 @@ HRESULT APIENTRY* ConfigureAuthenticatedChannel(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCAuthChannel [in]
+### -param hCAuthChannel [in]
 
 A handle to the authenticated channel object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function. 
 
 
-#### - InputDataSize [in]
+### -param InputDataSize [in]
 
 The size, in bytes, of the array that is specified by the <i>pInputData</i> parameter.
 
 
-#### - *pInputData [in]
+### -param *pInputData [in]
 
 A pointer to a byte array that contains input data for the command. For more information, see the Remarks section.
 
 
-#### - *pOutputData [out]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a> structure. For more information, see the Remarks section.
-
-
-#### - pInputData [in]
-
-A pointer to a byte array that contains input data for the command. For more information, see the Remarks section.
-
-
-#### - pOutputData [out]
+### -param *pOutputData [out]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a> structure. For more information, see the Remarks section.
 

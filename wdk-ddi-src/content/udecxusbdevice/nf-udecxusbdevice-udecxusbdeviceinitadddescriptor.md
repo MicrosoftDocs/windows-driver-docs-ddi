@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BC43B6AB-E34C-45A9-B666-1B323104FC48
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor, buses.udecxusbdeviceinitadddescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses]
+ms.keywords: UdecxUsbDeviceInitAddDescriptor, buses.udecxusbdeviceinitadddescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], udecxusbdevice/UdecxUsbDeviceInitAddDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ FORCEINLINE NTSTATUS UdecxUsbDeviceInitAddDescriptor(
 
 
 
-#### - UdecxUsbDeviceInit [in, out]
+### -param UdecxUsbDeviceInit [in, out]
 
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
 
 
-#### - Descriptor [in]
+### -param Descriptor [in]
 
 A caller-allocated buffer that contains the USB descriptor to add to the device.
 
 
-#### - DescriptorLength [in]
+### -param DescriptorLength [in]
 
 The length of the descriptor buffer.
 
@@ -95,11 +95,11 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn303349">Standard USB descriptors</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 

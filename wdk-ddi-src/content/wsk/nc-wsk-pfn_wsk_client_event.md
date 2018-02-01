@@ -76,7 +76,7 @@ NTSTATUS APIENTRY WskClientEvent(
 
 
 
-#### - ClientContext [in, optional]
+### -param ClientContext [in, optional]
 
 A pointer to the context value that was specified by the 
      <i>WskClientNpi</i> parameter passed to the 
@@ -87,13 +87,13 @@ A pointer to the context value that was specified by the
 
 
 
-#### - Information [in, optional]
+### -param Information [in, optional]
 
 A pointer to a buffer that contains additional information that is associated with the event. If
      there is no additional information associated with the event, this pointer will be <b>NULL</b>.
 
 
-#### - InformationLength [in]
+### -param InformationLength [in]
 
 The length of the additional information that is contained in the buffer that is pointed to by the
      

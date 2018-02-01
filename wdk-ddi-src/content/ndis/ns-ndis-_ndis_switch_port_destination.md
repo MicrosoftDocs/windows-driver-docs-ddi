@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EC7FFB5E-F50B-40C4-B4B7-0A11A374EBD0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PORT_DESTINATION structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_DESTINATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_DESTINATION, ndis/NDIS_SWITCH_PORT_DESTINATION, netvista.ndis_switch_port_destination, ndis/PNDIS_SWITCH_PORT_DESTINATION, *PNDIS_SWITCH_PORT_DESTINATION, _NDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION
+ms.keywords: ndis/NDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_DESTINATION, *PNDIS_SWITCH_PORT_DESTINATION, PNDIS_SWITCH_PORT_DESTINATION structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_SWITCH_PORT_DESTINATION, PNDIS_SWITCH_PORT_DESTINATION, netvista.ndis_switch_port_destination, _NDIS_SWITCH_PORT_DESTINATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,38 +72,38 @@ typedef struct _NDIS_SWITCH_PORT_DESTINATION {
 
 
 
-#### - PortId
+### -field PortId
 
 An NDIS_SWITCH_PORT_ID value that specifies the unique identifier of the destination port on the extensible switch.
 
 
-#### - NicIndex
+### -field NicIndex
 
 An NDIS_SWITCH_NIC_INDEX value that specifies the index of the network adapter that is connected to the  extensible switch port specified by the <b>PortId</b> member.
 
 For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://msdn.microsoft.com/969333DA-0282-474B-8D56-72CD623C5329">Network Adapter Index Values</a>.
 <div class="alert"><b>Note</b>  This member must specify the index value of a network adapter that is in a connected state. Index values for network adapters that are in a created or disconnected state cannot be specified. For more information about network connection states, see <a href="https://msdn.microsoft.com/1E2075E3-D7CC-4364-ABB2-D5969DB361B5">Hyper-V Extensible Switch Port and Network Adapter States</a>.</div><div> </div>
 
-#### - IsExcluded
+### -field IsExcluded
 
 If this member is set to TRUE, the packet will not be delivered to the
     destination port.
 
 
 
-#### - PreserveVLAN
+### -field PreserveVLAN
 
 If this member is set to TRUE, the 802.1Q virtual local area network (VLAN) information will be preserved when the packet is delivered to the destination port.  
 
 
 
-#### - PreservePriority
+### -field PreservePriority
 
 If this member is set to TRUE, the 802.1Q priority information will be preserved when the packet is delivered to the destination port.  
 
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved for future use by NDIS.
 

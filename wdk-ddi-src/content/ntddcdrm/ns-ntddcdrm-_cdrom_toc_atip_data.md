@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4caf59d4-262a-49e3-8b66-9cf29ed5cee5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PCDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, *PCDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, _CDROM_TOC_ATIP_DATA, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml, CDROM_TOC_ATIP_DATA structure [Storage Devices], PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], CDROM_TOC_ATIP_DATA
+ms.keywords: "_CDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, CDROM_TOC_ATIP_DATA structure [Storage Devices], PCDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, ntddcdrm/PCDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _CDROM_TOC_ATIP_DATA {
 
 
 
-#### - Length
+### -field Length
 
 Indicates the number of bytes to be transferred in response to the command. This length value does not include the length of the <b>Length </b>member itself. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 
 
-#### - Descriptors
+### -field Descriptors
 
 Contains zero or more ATIP data block descriptors of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data_block.md">CDROM_TOC_ATIP_DATA_BLOCK</a>. 
 

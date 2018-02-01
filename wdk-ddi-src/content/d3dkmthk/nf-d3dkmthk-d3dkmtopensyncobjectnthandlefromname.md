@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 29EF6C90-E25F-4E03-8834-EC2546B670AA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, D3DKMTOpenSyncObjectNtHandleFromName, display.d3dkmtopensyncobjectnthandlefromname
+ms.keywords: D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], display.d3dkmtopensyncobjectnthandlefromname, d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, D3DKMTOpenSyncObjectNtHandleFromName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemPS2, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, GetPDEVAdjustment method [Print Devices]
+ms.keywords: IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, IPrintOemPS2, GetPDEVAdjustment, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, GetPDEVAdjustment method [Print Devices], print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, prcomoem/IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,12 +72,12 @@ HRESULT GetPDEVAdjustment(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - dwAdjustType
+### -param dwAdjustType
 
 Specifies the type of adjustment asked for. The following flags are currently supported:
 <table>
@@ -118,17 +118,17 @@ Enable or disable color output for monochrome and color printers. See the <a hre
 </table> 
 
 
-#### - pBuf
+### -param pBuf
 
 Pointer to a structure that contains the planned settings that are used if there is no change. These structures are listed in the preceding table. The plug-in can overwrite the settings in the relevant structure.
 
 
-#### - cbBuffer
+### -param cbBuffer
 
 Specifies the size, in bytes, of the structure pointed to by <i>pBuf</i>.
 
 
-#### - pbAdjustmentDone [out]
+### -param pbAdjustmentDone [out]
 
 Pointer to a memory location that the plug-in sets to <b>TRUE</b> when it actually changes a value in the buffer. This may be used by the driver for optimizations.
 
@@ -153,9 +153,9 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 <a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
-
 <a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+
+<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
 
  
 

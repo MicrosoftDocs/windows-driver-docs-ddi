@@ -73,12 +73,12 @@ VOID NdisWdiOpenAdapterComplete(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 The miniport handle.
 
 
-#### - CompletionStatus [in]
+### -param CompletionStatus [in]
 
 The completion status.
 

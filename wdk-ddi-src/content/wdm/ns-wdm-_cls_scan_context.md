@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f10abc6-1c86-4401-9af7-26d6c30f6fe8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CLFS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], CLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/CLS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, kernel.clfs_scan_context, wdm/PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT, *PCLFS_SCAN_CONTEXT, CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], wdm/PPCLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, PPCLFS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/PPCLFS_SCAN_CONTEXT
+ms.keywords: CLFS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PCLFS_SCAN_CONTEXT, kernel.clfs_scan_context, wdm/CLS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], wdm/PCLS_SCAN_CONTEXT, *PCLFS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], CLS_SCAN_CONTEXT, wdm/CLFS_SCAN_CONTEXT, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, PCLS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT, wdm/PPCLS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, wdm/PPCLFS_SCAN_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,32 +74,32 @@ typedef struct _CLS_SCAN_CONTEXT {
 
 
 
-#### - cidNode
+### -field cidNode
 
 A <a href="https://msdn.microsoft.com/99132138-b7ba-47a1-ac40-353d5d70db42">CLFS_NODE_ID</a> structure that contains the scan context's node identity and type.
 
 
-#### - plfoLog
+### -field plfoLog
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents a CLFS log.
 
 
-#### - cIndex
+### -field cIndex
 
 The index of the current container.
 
 
-#### - cContainers
+### -field cContainers
 
 The number of containers to scan in each call to <b>ClfsScanLogContainers</b>. This is the number of elements in the array pointed to by <i>pinfoContainer</i>.
 
 
-#### - cContainersReturned
+### -field cContainersReturned
 
 The number of containers actually scanned in a call to <b>ClfsScanLogContainers</b>.
 
 
-#### - eScanMode
+### -field eScanMode
 
 This member can be one of the following values.
 <table>
@@ -150,7 +150,7 @@ The scan is closed. No containers are scanned.
 </table> 
 
 
-#### - pinfoContainer
+### -field pinfoContainer
 
 A pointer to an array of <a href="..\wdm\ns-wdm-_cls_container_information.md">CLFS_CONTAINER_INFORMATION</a> structures. The <i>cContainers</i> parameter specifies the number of elements in this array. 
 

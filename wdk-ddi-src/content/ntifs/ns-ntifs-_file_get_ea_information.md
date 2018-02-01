@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2abaf505-b890-43b6-a277-d930417bdcb8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_GET_EA_INFORMATION structure [Installable File System Drivers], ifsk.file_get_ea_information, _FILE_GET_EA_INFORMATION, fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml, FILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION, ntifs/FILE_GET_EA_INFORMATION, ntifs/PFILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers]
+ms.keywords: ntifs/PFILE_GET_EA_INFORMATION, ntifs/FILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION structure [Installable File System Drivers], FILE_GET_EA_INFORMATION, ifsk.file_get_ea_information, PFILE_GET_EA_INFORMATION, _FILE_GET_EA_INFORMATION, fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml, *PFILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _FILE_GET_EA_INFORMATION {
 
 
 
-#### - NextEntryOffset
+### -field NextEntryOffset
 
 Offset, in bytes, of the next FILE_GET_EA_INFORMATION-typed entry. This member is zero if no other entries follow this one. 
 
 
-#### - EaNameLength
+### -field EaNameLength
 
 Length, in bytes, of the <b>EaName</b> array. This value does not include a NULL terminator. 
 
 
-#### - EaName
+### -field EaName
 
 Specifies the first character of the name of the extended attribute to be queried. This is followed in memory by the remainder of the string. 
 
@@ -97,9 +97,9 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
+
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
  
 

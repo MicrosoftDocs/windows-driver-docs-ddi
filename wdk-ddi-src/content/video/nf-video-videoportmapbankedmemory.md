@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee94d883-b4c4-4cd5-9b61-2e51810f8fc8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, video/VideoPortMapBankedMemory, VideoPortMapBankedMemory, display.videoportmapbankedmemory, VideoPortMapBankedMemory function [Display Devices]
+ms.keywords: video/VideoPortMapBankedMemory, VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, VideoPortMapBankedMemory, VideoPortMapBankedMemory function [Display Devices], display.videoportmapbankedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,22 +78,22 @@ VP_STATUS VideoPortMapBankedMemory(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-#### - PhysicalAddress
+### -param PhysicalAddress
 
 Specifies the bus-relative base address of the range to be mapped.
 
 
-#### - Length
+### -param Length
 
 Pointer to a variable specifying the total number of bytes of device memory to be mapped (regardless of bank size). <b>VideoPortMapBankedMemory</b> returns the actual size of the memory mapped, which can be rounded to a system-determined alignment boundary, in this parameter. However, the miniport and display drivers cannot access memory outside the range delimited by the input value at <i>Length</i>.
 
 
-#### - InIoSpace
+### -param InIoSpace
 
 Indicates the location of the range. This parameter can be one of the following values:
 <table>
@@ -154,27 +154,27 @@ Indicates that the address range specified should be mapped into user mode rathe
 </table> 
 
 
-#### - VirtualAddress
+### -param VirtualAddress
 
 Is a handle to the process into which the memory must be mapped, or <b>NULL</b>. <b>NULL</b> specifies that the port driver should map the logical memory range at any location in the address space of the current process. Otherwise, this handle can be a value passed in a <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a> by the miniport driver's corresponding display driver. On return from a successful call, <b>VideoPortMapBankedMemory</b> resets the variable to the base virtual address to which it has mapped the given <i>PhysicalAddress</i>.
 
 
-#### - BankLength
+### -param BankLength
 
 Specifies the size of a bank, in bytes.
 
 
-#### - ReadWriteBank
+### -param ReadWriteBank
 
 If set to <b>TRUE</b> the bank is Read\Write; if set to <b>FALSE</b> there are two independent read and write banks. 
 
 
-#### - BankRoutine
+### -param BankRoutine
 
 Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a> function to be called by the Memory Manager when a new bank is accessed by the display driver.
 
 
-#### - Context
+### -param Context
 
 Pointer to a miniport driver-supplied context that is passed back to the driver when the <i>BankRoutine</i> is called.
 
@@ -197,17 +197,17 @@ Pointer to a miniport driver-supplied context that is passed back to the driver 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
 <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a>
 
-<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 

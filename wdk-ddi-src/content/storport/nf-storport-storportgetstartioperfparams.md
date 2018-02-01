@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c3314ac6-2b46-417f-a87b-64e27df9686d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetStartIoPerfParams, storage.storportgetstartioperfparams, storport/StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml
+ms.keywords: storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml, storport/StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], StorPortGetStartIoPerfParams, storage.storportgetstartioperfparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortGetStartIoPerfParams(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 The SRB pointer that was passed in to the  <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine that was supplied by the miniport driver. This parameter must not be <b>NULL</b>.
 
 
-#### - StartIoPerfParams [in, out]
+### -param StartIoPerfParams [in, out]
 
 A pointer to a STARTIO_PERFORMANCE_PARAMETERS structure that the miniport driver supplies.  The miniport driver needs to set only the size of the allocated structure, as Storport will set the other members. This parameter must not be <b>NULL</b>.
 
@@ -152,11 +152,11 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
 <a href="..\storport\ns-storport-_startio_performance_parameters.md">STARTIO_PERFORMANCE_PARAMETERS</a>
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
  
 

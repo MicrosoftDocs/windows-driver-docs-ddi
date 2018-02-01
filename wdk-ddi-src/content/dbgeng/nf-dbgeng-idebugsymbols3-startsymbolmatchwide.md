@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dbf8c1a3-cc59-40d7-8355-62891b5b45d2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.startsymbolmatchwide, StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::StartSymbolMatchWide, IDebugSymbols3, dbgeng/IDebugSymbols3::StartSymbolMatchWide, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatchWide method, StartSymbolMatchWide method [Windows Debugging]
+ms.keywords: StartSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, debugger.startsymbolmatchwide, dbgeng/IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide, IDebugSymbols3::StartSymbolMatchWide, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatchWide method, StartSymbolMatchWide method [Windows Debugging], IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT StartSymbolMatchWide(
 
 
 
-#### - Pattern [in]
+### -param Pattern [in]
 
 Specifies the pattern for which to search.  The search will return all symbols whose names match this pattern.  For details of the syntax of the pattern, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558843">Symbol Syntax and Symbol Matching</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff558819">String Wildcard Syntax</a>.
 
 
-#### - Handle [out]
+### -param Handle [out]
 
 Receives the handle identifying the search.  This handle can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>.
 
@@ -124,11 +124,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
 
  
 

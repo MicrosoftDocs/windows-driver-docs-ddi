@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice, wdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface, RetrieveUsbInterface method, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, umdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, RetrieveUsbInterface method, IWDFUsbTargetDevice interface
+ms.keywords: RetrieveUsbInterface, umdf.iwdfusbtargetdevice_retrieveusbinterface, RetrieveUsbInterface method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice, RetrieveUsbInterface method, IWDFUsbTargetDevice::RetrieveUsbInterface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT RetrieveUsbInterface(
 
 
 
-#### - InterfaceIndex [in]
+### -param InterfaceIndex [in]
 
 The index of the interface to retrieve.
 
 
-#### - ppUsbInterface [out]
+### -param ppUsbInterface [out]
 
 A pointer to a variable that receives a pointer to the specified <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a> interface for the USB device.
 
@@ -140,13 +140,13 @@ The driver can use the interface pointer that <b>RetrieveUsbInterface</b> retrie
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
-
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
 
  
 

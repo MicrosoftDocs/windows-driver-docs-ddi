@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D9A54562-0ABC-4BEA-A9E3-F1A0A4EBC095
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method, audio.iportclspnp_registeradapterpnpmanagement, RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp::RegisterAdapterPnpManagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement
+ms.keywords: RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method, RegisterAdapterPnpManagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement, IPortClsPnp, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], audio.iportclspnp_registeradapterpnpmanagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ NTSTATUS RegisterAdapterPnpManagement(
 
 
 
-#### - pUnknown [in]
+### -param pUnknown [in]
 
 Specifies a pointer to <b>IUnknown</b> of <a href="..\portcls\nn-portcls-iadapterpnpmanagement.md">IAdapterPnpManagement</a>. 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
@@ -96,9 +96,9 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536876">IPortClsPower::UnregisterAdapterPowerManagement</a>
-
 <a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536876">IPortClsPower::UnregisterAdapterPowerManagement</a>
 
  
 

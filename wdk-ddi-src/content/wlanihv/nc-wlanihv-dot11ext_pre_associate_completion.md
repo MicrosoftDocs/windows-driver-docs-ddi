@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
   <b>Dot11ExtPreAssociateCompletion</b> function to asynchronously complete a
   pre-association operation initiated through a call to the 
-  <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-  Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
+  <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+  Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
 ## -prototype
@@ -75,7 +75,7 @@ DWORD WINAPI * Dot11ExtPreAssociateCompletion(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -83,15 +83,15 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-#### - hConnectSession [in, optional]
+### -param hConnectSession [in, optional]
 
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the 
-     <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-     Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+     Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
-#### - dwReasonCode [in]
+### -param dwReasonCode [in]
 
 A value that provides additional information for the completion status of the pre-association
      operation. The IHV Extensions DLL must set 
@@ -106,7 +106,7 @@ The IHV Extensions DLL returns the general completion status of the pre-associat
      L2_REASON_CODE_GROUP_SIZE-1).
 
 
-#### - dwWin32Error [in]
+### -param dwWin32Error [in]
 
 The completion status of the pre-association operation as defined by an error code within 
      Winerror.h. If the operation completes successfully, the IHV Extensions DLL must set 
@@ -184,17 +184,17 @@ The IHV Extensions DLL must call
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
 
  
 

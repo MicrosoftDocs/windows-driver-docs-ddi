@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0c285630-876d-4b06-aace-4a2c4c06c1cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.sti_device_information, STI_DEVICE_INFORMATION, sti/PSTI_DEVICE_INFORMATION, *PSTI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION, STI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], sti/STI_DEVICE_INFORMATIONW, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml, STI_DEVICE_INFORMATION structure [Imaging Devices], _STI_DEVICE_INFORMATIONW
+ms.keywords: STI_DEVICE_INFORMATIONW, STI_DEVICE_INFORMATION, sti/PSTI_DEVICE_INFORMATION, PSTI_DEVICE_INFORMATION, *PSTI_DEVICE_INFORMATIONW, sti/STI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], _STI_DEVICE_INFORMATIONW, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml, STI_DEVICE_INFORMATION structure [Imaging Devices], image.sti_device_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,27 +77,27 @@ typedef struct _STI_DEVICE_INFORMATION {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Caller-supplied size, in bytes, of the STI_DEVICE_INFORMATION structure.
 
 
-#### - DeviceType
+### -field DeviceType
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548376">STI_DEVICE_TYPE</a>-typed value identifying the still image device type. 
 
 
-#### - szDeviceInternalName
+### -field szDeviceInternalName
 
 Character array containing the device's internal name string. The string can have at most STI_MAX_INTERNAL_NAME_LENGTH characters, including the terminating null character. STI_MAX_INTERNAL_NAME_LENGTH is defined in <i>Sti.h</i>.
 
 
-#### - DeviceCapabilities
+### -field DeviceCapabilities
 
 Structure of type <a href="..\sti\ns-sti-_sti_dev_caps.md">STI_DEV_CAPS</a>.
 
 
-#### - dwHardwareConfiguration
+### -field dwHardwareConfiguration
 
 Type of bus connection. The following constants are defined in <i>Sti.h</i>:
 
@@ -112,27 +112,27 @@ STI_HW_CONFIG_USB
 STI_HW_CONFIG_UNKNOWN
 
 
-#### - pszVendorDescription
+### -field pszVendorDescription
 
 Pointer to a vendor identification string, obtained from the <a href="https://msdn.microsoft.com/c5128d0a-d581-4461-8eb9-5680b6b6ef38">INF Manufacturer Section</a> of the device's INF file.
 
 
-#### - pszDeviceDescription
+### -field pszDeviceDescription
 
 Pointer to a device description string, obtained from the <a href="https://msdn.microsoft.com/b870e8fb-21b4-439b-b858-c45bf9be2ec1">INF Models Section</a> of the device's INF file.
 
 
-#### - pszPortName
+### -field pszPortName
 
 Pointer to a string identifying the device's port.
 
 
-#### - pszPropProvider
+### -field pszPropProvider
 
 Pointer to a string containing the file name and entry point of a DLL for adding device-specific property sheet pages to Control Panel. Obtained from the <b>PropertyPages</b> entry in the device's INF file.
 
 
-#### - pszLocalName
+### -field pszLocalName
 
 Pointer to the local device name the user supplied during installation, for use in displays.
 

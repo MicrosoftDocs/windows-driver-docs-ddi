@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PFILE_RENAME_INFORMATION, _FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], ifsk.file_rename_information, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], FILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, ntifs/FILE_RENAME_INFORMATION
+ms.keywords: PFILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, FILE_RENAME_INFORMATION structure [Installable File System Drivers], ntifs/FILE_RENAME_INFORMATION, _FILE_RENAME_INFORMATION, ntifs/PFILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_rename_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _FILE_RENAME_INFORMATION {
 
 ### -field DUMMYUNIONNAME.ReplaceIfExists
 
- 
+Set to <b>TRUE</b> to specify that if a file with the given name already exists, it should be replaced with the given file. Set to <b>FALSE</b> if the rename operation should fail if a file with the given name already exists. 
 
 
 ### -field DUMMYUNIONNAME.Flags
@@ -85,22 +85,22 @@ typedef struct _FILE_RENAME_INFORMATION {
  
 
 
-#### - ReplaceIfExists
+### -field ReplaceIfExists
 
 Set to <b>TRUE</b> to specify that if a file with the given name already exists, it should be replaced with the given file. Set to <b>FALSE</b> if the rename operation should fail if a file with the given name already exists. 
 
 
-#### - RootDirectory
+### -field RootDirectory
 
 If the file is not being moved to a different directory, or if the <b>FileName</b> member contains the full pathname, this member is <b>NULL</b>. Otherwise, it is a handle for the root directory under which the file will reside after it is renamed. 
 
 
-#### - FileNameLength
+### -field FileNameLength
 
 Length, in bytes, of the new name for the file. 
 
 
-#### - FileName
+### -field FileName
 
 The first character of a wide-character string containing the new name for the file. This is followed in memory by the remainder of the string. If the <b>RootDirectory</b> member is <b>NULL</b>, and the file is being moved to a different directory, this member specifies the full pathname to be assigned to the file. Otherwise, it specifies only the file name or a relative pathname. 
 
@@ -208,11 +208,11 @@ If <b>ReplaceIfExists</b> is set to <b>TRUE</b>, the rename operation will succe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
 
  
 

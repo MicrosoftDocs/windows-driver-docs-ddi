@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2585da94-babe-479f-8957-adaa9190451e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWritePortUchar, atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, AtaPortWritePortUchar routine [Storage Devices], irb/AtaPortWritePortUchar, storage.ataportwriteportuchar
+ms.keywords: storage.ataportwriteportuchar, AtaPortWritePortUchar, irb/AtaPortWritePortUchar, AtaPortWritePortUchar routine [Storage Devices], atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID AtaPortWritePortUchar(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the value to write to the HBA's I/O port
 
@@ -90,9 +90,9 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-
 <a href="..\irb\nf-irb-ataportwriteportulong.md">AtaPortWritePortUlong</a>
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 <a href="..\irb\nf-irb-ataportwriteportushort.md">AtaPortWritePortUshort</a>
 

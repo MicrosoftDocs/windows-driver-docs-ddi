@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 820d9e28-fe06-4aa7-91d8-a90340affb94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMIcmDeleteColorTransform, print.oemicmdeletecolortransform, printoem/OEMIcmDeleteColorTransform, OEMIcmDeleteColorTransform function [Print Devices], print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml
+ms.keywords: print.oemicmdeletecolortransform, OEMIcmDeleteColorTransform function [Print Devices], OEMIcmDeleteColorTransform, printoem/OEMIcmDeleteColorTransform, print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,10 +69,10 @@ BOOL APIENTRY OEMIcmDeleteColorTransform(
 
 
 
-#### - dhpdev
+### -param dhpdev
 
 
 
-#### - hcmXform
+### -param hcmXform
 
 

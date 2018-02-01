@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], NdisMRegisterDmaChannel, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel
+ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,32 +75,32 @@ NDIS_STATUS NdisMRegisterDmaChannel(
 
 
 
-#### - MiniportDmaHandle [out]
+### -param MiniportDmaHandle [out]
 
 A pointer to a caller-supplied variable in which this function returns a handle the miniport
      driver uses in subsequent calls to the 
      <b>NdisM<i>Xxx</i></b> system DMA functions.
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 The miniport adapter handle input to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
-#### - DmaChannel [in]
+### -param DmaChannel [in]
 
 Ignored. Set the DMA channel, if any, at 
      <i>DmaDescription</i> .
 
 
-#### - Dma32BitAddresses [in]
+### -param Dma32BitAddresses [in]
 
 A boolean value that is <b>TRUE</b> if the NIC has 32 address lines. Otherwise, it is <b>FALSE</b>.
 
 
-#### - DmaDescription [in]
+### -param DmaDescription [in]
 
 A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This structure is defined
      as follows: 
@@ -127,16 +127,21 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
 
 
 
+#### AutoInitialize
+
+A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
+       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
+
+
 #### DemandMode
 
 A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's demand
        mode. Otherwise, it is <b>FALSE</b>.
 
 
-#### AutoInitialize
+#### DmaChannel
 
-A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
-       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
+The bus-relative number of the system DMA controller channel used by the NIC.
 
 
 #### DmaChannelSpecified
@@ -146,12 +151,10 @@ A boolean value that is <b>TRUE</b> if
        NIC. Otherwise, it is <b>FALSE</b>.
 
 
-#### DmaWidth
+#### DmaPort
 
-The transfer width for DMA operations, one of 
-       <b>Width8Bits</b>, 
-       <b>Width16Bits</b>, or 
-       <b>Width32Bits</b>.
+This member refers to the MCA bus, which is no longer supported. This member must be
+       zero.
 
 
 #### DmaSpeed
@@ -163,18 +166,15 @@ The DMA speed as one of
        <b>TypeC</b>.
 
 
-#### DmaPort
+#### DmaWidth
 
-This member refers to the MCA bus, which is no longer supported. This member must be
-       zero.
-
-
-#### DmaChannel
-
-The bus-relative number of the system DMA controller channel used by the NIC.
+The transfer width for DMA operations, one of 
+       <b>Width8Bits</b>, 
+       <b>Width16Bits</b>, or 
+       <b>Width32Bits</b>.
 
 
-#### - MaximumLength [in]
+### -param MaximumLength [in]
 
 The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
      unlimited transfer capacity, set this parameter to -1.
@@ -255,8 +255,8 @@ The driver of an ISA bus-master NIC also must call
     <i>MiniportInitializeEx</i> to claim a system DMA controller channel for the NIC in the registry.
 
 <i>MiniportInitializeEx</i> must call the 
-    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link> function before calling 
+    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a> function before calling 
     <b>NdisMRegisterDmaChannel</b>.
 
 <i>MiniportInitializeEx</i> obtained the bus-relative values passed to 
@@ -268,20 +268,20 @@ If such a driver cannot allocate the system DMA resources that its device needs,
     initialization for that NIC.
 
 If the driver successfully registers the DMA channel, it must later call the 
-    <mshelp:link keywords="netvista.ndismderegisterdmachannel" tabindex="0"><b>
-    NdisMDeregisterDmaChannel</b></mshelp:link> function to deregister the DMA channel.
+    <a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">
+    NdisMDeregisterDmaChannel</a> function to deregister the DMA channel.
 
 
 
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
 <a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
  
 

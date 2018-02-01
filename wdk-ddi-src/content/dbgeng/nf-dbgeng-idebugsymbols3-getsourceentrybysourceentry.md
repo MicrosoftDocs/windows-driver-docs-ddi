@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4ED5D2DC-8D31-458A-80F2-F681DC375769
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, GetSourceEntryBySourceEntry, dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry method [Windows Debugging], IDebugSymbols3 interface, debugger.idebugsymbols3_getsourceentrybysourceentry, GetSourceEntryBySourceEntry method [Windows Debugging], IDebugSymbols3::GetSourceEntryBySourceEntry, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryBySourceEntry method
+ms.keywords: dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryBySourceEntry method, IDebugSymbols3, IDebugSymbols3::GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryBySourceEntry method [Windows Debugging], GetSourceEntryBySourceEntry, debugger.idebugsymbols3_getsourceentrybysourceentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetSourceEntryBySourceEntry(
 
 
 
-#### - FromEntry [in]
+### -param FromEntry [in]
 
 A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> as the input entry.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bit-set that contains options that affect the behavior of this method. 
 
 
-#### - ToEntry [out]
+### -param ToEntry [out]
 
 A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> as the output entry.
 

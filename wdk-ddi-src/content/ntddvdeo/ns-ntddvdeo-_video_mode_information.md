@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aac658d9-b90a-4724-9dc4-af3a561f64bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION, display.video_mode_information, ntddvdeo/PVIDEO_MODE_INFORMATION, ntddvdeo/VIDEO_MODE_INFORMATION, Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, VIDEO_MODE_INFORMATION structure [Display Devices], _VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices]"
+ms.keywords: ntddvdeo/VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION, ntddvdeo/PVIDEO_MODE_INFORMATION, _VIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, *PVIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION structure [Display Devices], PVIDEO_MODE_INFORMATION, display.video_mode_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,87 +86,87 @@ typedef struct _VIDEO_MODE_INFORMATION {
 
 
 
-#### - Length
+### -field Length
 
 Specifies the length, in bytes, of this structure. A miniport driver can use this value to determine the version of this structure. 
 
 
-#### - ModeIndex
+### -field ModeIndex
 
 Specifies the index of the particular mode to be used in a call to the miniport driver.
 
 
-#### - VisScreenWidth
+### -field VisScreenWidth
 
 Specifies the number of visible pixels on one horizontal scan line.
 
 
-#### - VisScreenHeight
+### -field VisScreenHeight
 
 Specifies the number of visible lines (or scan lines) on the screen.
 
 
-#### - ScreenStride
+### -field ScreenStride
 
 Specifies the number of bytes between the start of one scan line and the next.
 
 
-#### - NumberOfPlanes
+### -field NumberOfPlanes
 
 Specifies the number of separate planes combined by the device.
 
 
-#### - BitsPerPlane
+### -field BitsPerPlane
 
 Specifies the number of bits per pixel per plane.
 
 
-#### - Frequency
+### -field Frequency
 
 Specifies the screen refresh rate, in Hertz.
 
 
-#### - XMillimeter
+### -field XMillimeter
 
 Specifies the width, in millimeters, of the active region on the output device.
 
 
-#### - YMillimeter
+### -field YMillimeter
 
 Specifies the height, in millimeters, of the active region on the output device.
 
 
-#### - NumberRedBits
+### -field NumberRedBits
 
 Specifies the number of bits in the red DAC.
 
 
-#### - NumberGreenBits
+### -field NumberGreenBits
 
 Specifies the number of bits in the green DAC.
 
 
-#### - NumberBlueBits
+### -field NumberBlueBits
 
 Specifies the number of bits in the blue DAC.
 
 
-#### - RedMask
+### -field RedMask
 
 Is the red color mask for a device with direct color modes. For example, to indicate that bits 0 through 4 are to be used for red, use the value 0x001F.
 
 
-#### - GreenMask
+### -field GreenMask
 
 Is the green color mask for a device with direct color modes. For example, to indicate that bits 5 through 9 are to be used for green, use the value 0x03E0.
 
 
-#### - BlueMask
+### -field BlueMask
 
 Is the blue color mask for a device with direct color modes. For example, to indicate that bits 10 through 14 are to be used for blue, use the value 0x7C00.
 
 
-#### - AttributeFlags
+### -field AttributeFlags
 
 Is a set of flags indicating certain behavior for the device. The flags and their meanings are shown in the following table.
 <table>
@@ -340,17 +340,17 @@ VIDEO_MODE_NO_64_BIT_ACCESS
 </table> 
 
 
-#### - VideoMemoryBitmapWidth
+### -field VideoMemoryBitmapWidth
 
 Specifies the width, in pixels, of the video memory bitmap. 
 
 
-#### - VideoMemoryBitmapHeight
+### -field VideoMemoryBitmapHeight
 
 Specifies the height, in pixels, of the video memory bitmap.
 
 
-#### - DriverSpecificAttributeFlags
+### -field DriverSpecificAttributeFlags
 
 Is a set of flags indicating certain behavior for the device. These private flags are defined in the miniport driver, and are for the use by the miniport and display drivers only.
 
@@ -380,9 +380,9 @@ The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures 
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
  
 

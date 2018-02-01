@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19180ab8-7ac6-45cb-8f17-b16368bbb32b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlRealSuccessor, ifsk.rtlrealsuccessor, ntddk/RtlRealSuccessor, RtlRealSuccessor routine [Installable File System Drivers], rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml
+ms.keywords: ntddk/RtlRealSuccessor, RtlRealSuccessor routine [Installable File System Drivers], ifsk.rtlrealsuccessor, rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml, RtlRealSuccessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PRTL_SPLAY_LINKS RtlRealSuccessor(
 
 
 
-#### - Links [in]
+### -param Links [in]
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
@@ -100,11 +100,11 @@ Callers of <b>RtlRealSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+
 <a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
 
 <a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
-
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
  
 

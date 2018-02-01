@@ -71,7 +71,7 @@ VOID ThreadStart(
 
 
 
-#### - StartContext [in]
+### -param StartContext [in]
 
 A caller-supplied pointer to driver-defined context information that is specified in the <i>StartContext</i> parameter a previous call to <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 16010297-5B08-466C-AB79-4ED12A9539D9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportStreamAudioEngineNode::GetStreamChannelMute, IMiniportStreamAudioEngineNode, GetStreamChannelMute, GetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreamchannelmute, GetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode::GetStreamChannelMute, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelMute method
+ms.keywords: GetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelMute method, IMiniportStreamAudioEngineNode, GetStreamChannelMute, IMiniportStreamAudioEngineNode::GetStreamChannelMute, audio.iminiportstreamaudioenginenode_getstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelMute, GetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ NTSTATUS GetStreamChannelMute(
 
 
 
-#### - ulChannel [in]
+### -param ulChannel [in]
 
 The audio stream channel.
 
 
-#### - pbMute [out]
+### -param pbMute [out]
 
 The state of the Mute node.
 

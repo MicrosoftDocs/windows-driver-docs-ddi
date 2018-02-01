@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BDE53311-589F-4458-9510-1B02F1BD0289
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.lamp_intensity_white, lamp/LAMP_INTENSITY_WHITE, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], LAMP_INTENSITY_WHITE
+ms.keywords: LAMP_INTENSITY_WHITE, lamp/LAMP_INTENSITY_WHITE, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], stream.lamp_intensity_white
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct LAMP_INTENSITY_WHITE {
 
 
 
-#### - Value
+### -field Value
 
 White light intensity in percentage (0-100).
 

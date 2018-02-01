@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d5f4eb5f-28bb-4906-b9f5-3adae31cac80
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WakeUserControlInvalid, WakeDoNotAllowUserControl, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WakeDoNotAllowUserControl, kmdf.wdf_power_policy_sx_wake_user_control, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, wdfdevice/WakeDoNotAllowUserControl, wudfddi_types/WakeAllowUserControl, wdfdevice/WakeUserControlInvalid, wdfdevice/WakeAllowUserControl, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wdf.wdf_power_policy_sx_wake_user_control, WakeAllowUserControl, DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WakeUserControlInvalid
+ms.keywords: wdfdevice/WakeDoNotAllowUserControl, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, kmdf.wdf_power_policy_sx_wake_user_control, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WakeAllowUserControl, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WakeUserControlInvalid, wdfdevice/WakeUserControlInvalid, wdfdevice/WakeAllowUserControl, wudfddi_types/WakeDoNotAllowUserControl, WakeUserControlInvalid, wudfddi_types/WakeAllowUserControl, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, WakeDoNotAllowUserControl, wdf.wdf_power_policy_sx_wake_user_control, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,17 +73,17 @@ typedef enum _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL {
 
 
 
-#### - WakeUserControlInvalid
+### -field WakeUserControlInvalid
 
 For internal use only.
 
 
-#### - WakeDoNotAllowUserControl
+### -field WakeDoNotAllowUserControl
 
 Users cannot control the device's ability to wake the system from a low system power state.
 
 
-#### - WakeAllowUserControl
+### -field WakeAllowUserControl
 
 Users can control the device's ability to wake the system from a low system power state.
 

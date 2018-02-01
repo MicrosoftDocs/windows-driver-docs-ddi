@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4671B6C1-358A-4CC2-A6FC-0FBA0F26DB07
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], DXGK_INTEGRATEDDISPLAYFLAGS, d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags, _DXGK_INTEGRATEDDISPLAYFLAGS, *PDXGK_INTEGRATEDDISPLAYFLAGS
+ms.keywords: "_DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS, *PDXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,14 +72,14 @@ typedef union _DXGK_INTEGRATEDDISPLAYFLAGS {
 
 
 
-#### - UndockedOrientation
+### -field UndockedOrientation
 
 Orientation of the integrated panel when the system is undocked.  
 In most systems, the integrated panel is installed such that the native orientation of the panel matches the default orientation of the system so DXGK_DPO_0 (zero) would be used.  An example where this would be non-zero is if a natively portrait panel is used in a laptop device.
 
 
 
-#### - DockedOrientation
+### -field DockedOrientation
 
 Orientation of the integrated panel when the system is docked.  If the system does not support docking, this value will not be used.
 
@@ -88,12 +88,12 @@ In most systems, the integrated panel is installed such that the native orientat
 
 
 
-#### - Reserved
+### -field Reserved
 
 This value is reserved for system use.
 
 
-#### - Value
+### -field Value
 
 UINT used to operate on the combined bit-fields.
 

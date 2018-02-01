@@ -69,12 +69,12 @@ typedef BOOLEAN (*PHW_STARTIO)(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 Pointer to the SCSI request block to be started. 
 
@@ -99,9 +99,9 @@ For more information about the miniport driver's start I/O routine that is used 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
  
 

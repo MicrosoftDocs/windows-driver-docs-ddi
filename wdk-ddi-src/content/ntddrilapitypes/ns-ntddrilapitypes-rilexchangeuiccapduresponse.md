@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57418ab1-e341-41ad-a120-cc4f7e0b0227
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilexchangeuiccapduresponse, RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], RILEXCHANGEUICCAPDURESPONSE, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSE, *LPRILEXCHANGEUICCAPDURESPONSE
+ms.keywords: ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSE, netvista.rilexchangeuiccapduresponse, *LPRILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], RILEXCHANGEUICCAPDURESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,18 +70,18 @@ typedef struct _RILEXCHANGEUICCAPDURESPONSE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwResponseAPDULength
+### -field dwResponseAPDULength
 
 
 
-#### - bResponseAPDU
+### -field bResponseAPDU
 
 

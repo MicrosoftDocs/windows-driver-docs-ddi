@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, portcls/IPortClsNotifications::AllocNotificationBuffer, IPortClsNotifications, IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, AllocNotificationBuffer method [Audio Devices], AllocNotificationBuffer, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method
+ms.keywords: AllocNotificationBuffer method [Audio Devices], AllocNotificationBuffer, portcls/IPortClsNotifications::AllocNotificationBuffer, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, IPortClsNotifications, IPortClsNotifications::AllocNotificationBuffer, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, audio.iportclsnotifications_allocnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,12 +72,12 @@ NTSTATUS  AllocNotificationBuffer(
 
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the type of memory pool from which the object is to be allocated (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>). The recommended values are NonPagedPoolNx or PagedPool. The memory pool type selection also depends on the IRQL level. If running at DISPATCH_LEVEL the memory must be non-paged.
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Number of bytes to allocate.
 

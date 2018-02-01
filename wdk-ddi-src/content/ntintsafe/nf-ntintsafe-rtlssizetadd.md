@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1CBB3CDF-E7DD-4686-8EF6-FBCADE978A16
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSSIZETAdd, ntintsafe/RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], kernel.rtlssizetadd
+ms.keywords: ntintsafe/RtlSSIZETAdd, RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], kernel.rtlssizetadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlSSIZETAdd(
 
 
 
-#### - Augend [in]
+### -param Augend [in]
 
 The first value in the equation.
 
 
-#### - Addend [in]
+### -param Addend [in]
 
 The value to add to <i>Augend</i>.
 
 
-#### - pResult [out]
+### -param pResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

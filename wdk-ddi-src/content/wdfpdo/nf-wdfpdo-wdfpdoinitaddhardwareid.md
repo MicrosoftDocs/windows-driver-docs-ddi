@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, wdf.wdfpdoinitaddhardwareid, kmdf.wdfpdoinitaddhardwareid, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID, PFN_WDFPDOINITADDHARDWAREID
+ms.keywords: kmdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID, wdf.wdfpdoinitaddhardwareid, PFN_WDFPDOINITADDHARDWAREID, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, wdfpdo/WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoInitAddHardwareID(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - HardwareID [in]
+### -param HardwareID [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a hardware ID string. The driver can allocate the string's buffer from paged pool.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f624ffc4-3313-46a3-9231-15a54c3f2791
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, display.d3d11_1ddi_video_processor_content_desc, D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC structure [Display Devices]
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC structure [Display Devices], display.d3d11_1ddi_video_processor_content_desc, D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,53 +74,53 @@ typedef struct D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC {
 
 
 
-#### - InputFrameFormat
+### -field InputFrameFormat
 
 A member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
 
 
-#### - InputFrameRate
+### -field InputFrameRate
 
 The frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure.
 
 
-#### - InputWidth
+### -field InputWidth
 
 The width of the input frames, in pixels.
 
 
-#### - InputHeight
+### -field InputHeight
 
 The height of the input frames, in pixels.
 
 
-#### - OutputFrameRate
+### -field OutputFrameRate
 
 The frame rate of the output video stream, specified as a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure.
 
 
-#### - OutputWidth
+### -field OutputWidth
 
 The width of the output frames, in pixels.
 
 
-#### - OutputHeight
+### -field OutputHeight
 
 The height of the output frames, in pixels.
 
 
-#### - Usage
+### -field Usage
 
 A member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a> enumeration that describes how the video processor will be used. The value indicates the desired trade-off between speed and video quality. The driver uses this flag as a hint when it creates the video processor.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
 
 <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a>
 
  
 

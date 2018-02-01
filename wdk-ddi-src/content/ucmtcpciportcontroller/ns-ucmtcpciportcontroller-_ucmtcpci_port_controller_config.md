@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a9027cda-0851-46e2-9006-0d757109fc3a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_UCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses], *PUCMTCPCI_PORT_CONTROLLER_CONFIG, buses.ucmtcpci_port_controller_config, UCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG"
+ms.keywords: ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG, _UCMTCPCI_PORT_CONTROLLER_CONFIG, buses.ucmtcpci_port_controller_config, *PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,19 +72,19 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 
                      Size of this structure.
                  
 
 
-#### - Identification
+### -field Identification
 
 A pointer to the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_identification.md">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
 
 
-#### - Capabilities
+### -field Capabilities
 
  A pointer to the 
                  <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.

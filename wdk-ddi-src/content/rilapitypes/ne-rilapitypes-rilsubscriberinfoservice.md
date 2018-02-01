@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9dcdfbcc-bab8-4621-993b-e64106d0457e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SERVICE_UNKNOWN, RIL_SERVICE_VOICE, RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_UNKNOWN, rilapitypes/RILSUBSCRIBERINFOSERVICE, RIL_SERVICE_FAX, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfoservice, rilapitypes/RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_VOICE, RILSUBSCRIBERINFOSERVICE
+ms.keywords: RIL_SERVICE_FAX, RIL_SERVICE_VOICE, rilapitypes/RILSUBSCRIBERINFOSERVICE, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfoservice, rilapitypes/RIL_SERVICE_VOICE, RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_OTHER, RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_UNKNOWN, rilapitypes/RIL_SERVICE_FAX, RIL_SERVICE_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,19 +72,19 @@ enum RILSUBSCRIBERINFOSERVICE {
 
 
 
-#### - RIL_SERVICE_UNKNOWN
+### -field RIL_SERVICE_UNKNOWN
 
 
 
-#### - RIL_SERVICE_VOICE
+### -field RIL_SERVICE_VOICE
 
 
 
-#### - RIL_SERVICE_FAX
+### -field RIL_SERVICE_FAX
 
 
 
-#### - RIL_SERVICE_OTHER
+### -field RIL_SERVICE_OTHER
 
 
 

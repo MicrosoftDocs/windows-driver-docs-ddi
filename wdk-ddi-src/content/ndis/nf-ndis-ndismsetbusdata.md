@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b9153b3-f379-40c4-87f6-1fa380070e65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMSetBusData function [Network Drivers Starting with Windows Vista], NdisMSetBusData, ndis/NdisMSetBusData, netvista.ndismsetbusdata, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml
+ms.keywords: NdisMSetBusData, netvista.ndismsetbusdata, ndis/NdisMSetBusData, NdisMSetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,26 +78,26 @@ ULONG NdisMSetBusData(
 TBD
 
 
-#### - WhichSpace [in]
+### -param WhichSpace [in]
 
 The type of bus data to be written. For further information, see the discussion of the 
      <i>WhichSpace</i> parameter on the reference page for 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 The byte offset in the configuration space, specified by 
      <i>WhichSpace</i>, to which data is written.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer that contains the data to write to the bus. Must be at least as large as 
      <i>Length</i> .
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length, in bytes, of the data to write.
 
@@ -106,8 +106,8 @@ The length, in bytes, of the data to write.
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ## -returns
@@ -121,8 +121,8 @@ The miniport adapter handle that NDIS passed to the
 
 
 This function replaces the NDIS 5.1 
-    <mshelp:link keywords="netxp.ndiswritepcislotinformation" tabindex="0"><b>
-    NdisWritePciSlotInformation</b></mshelp:link> function.
+    <a href="https://msdn.microsoft.com/6783ad54-3382-456b-a59e-3fc2b1f91cd6">
+    NdisWritePciSlotInformation</a> function.
 
 
 
@@ -130,11 +130,11 @@ This function replaces the NDIS 5.1
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

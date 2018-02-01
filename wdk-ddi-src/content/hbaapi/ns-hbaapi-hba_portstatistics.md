@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a0d6633-b4a6-4864-96ae-4f91de11daa1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_PortStatistics, hbaapi/HBA_PortStatistics, structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml, SMHBA_FCPHYSTATISTICS, PHBA_PORTSTATISTICS structure pointer [Storage Devices], *PSMHBA_FCPHYSTATISTICS, HBA_PortStatistics structure [Storage Devices], hbaapi/PHBA_PORTSTATISTICS, *PHBA_PORTSTATISTICS, HBA_PORTSTATISTICS structure [Storage Devices], storage.hba_portstatistics, HBA_PORTSTATISTICS, PHBA_PORTSTATISTICS
+ms.keywords: "*PHBA_PORTSTATISTICS, PHBA_PORTSTATISTICS, storage.hba_portstatistics, *PSMHBA_FCPHYSTATISTICS, hbaapi/PHBA_PORTSTATISTICS, PHBA_PORTSTATISTICS structure pointer [Storage Devices], hbaapi/HBA_PortStatistics, HBA_PORTSTATISTICS structure [Storage Devices], HBA_PORTSTATISTICS, HBA_PortStatistics, HBA_PortStatistics structure [Storage Devices], SMHBA_FCPHYSTATISTICS, structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,77 +81,77 @@ typedef struct HBA_PortStatistics {
 
 
 
-#### - SecondsSinceLastReset
+### -field SecondsSinceLastReset
 
 Reports the number of seconds since the statistics were last reset.
 
 
-#### - TxFrames
+### -field TxFrames
 
 Reports the number of fibre channel frames transmitted for all protocols and classes.
 
 
-#### - TxWords
+### -field TxWords
 
 Reports the number of fibre channel words transmitted for all protocols and classes. 
 
 
-#### - RxFrames
+### -field RxFrames
 
 Reports the number of fibre channel frames received for all protocols and classes. 
 
 
-#### - RxWords
+### -field RxWords
 
 Reports the number of fibre channel words received for all protocols and classes. 
 
 
-#### - LIPCount
+### -field LIPCount
 
 Reports the number of LIP events that have occurred on a arbitrated loop.
 
 
-#### - NOSCount
+### -field NOSCount
 
 Reports the number of NOS events that have occurred on the switched fabric.
 
 
-#### - ErrorFrames
+### -field ErrorFrames
 
 Reports the number of frames that have been received in error.
 
 
-#### - DumpedFrames
+### -field DumpedFrames
 
 Reports the number of frames that were lost due to a lack of host buffers available. 
 
 
-#### - LinkFailureCount
+### -field LinkFailureCount
 
 Reports the link failure count field of the error status block for the port. 
 
 
-#### - LossOfSyncCount
+### -field LossOfSyncCount
 
 Reports the value of the loss of synchronization count field of the link error status block for the port.  
 
 
-#### - LossOfSignalCount
+### -field LossOfSignalCount
 
 Reports the value of the loss of signal count field of the link error status block for the specified port. 
 
 
-#### - PrimitiveSeqProtocolErrCount
+### -field PrimitiveSeqProtocolErrCount
 
 Reports the value of the primitive sequence protocol error field of the link error status block for the port. 
 
 
-#### - InvalidTxWordCount
+### -field InvalidTxWordCount
 
 Reports the value of the invalid transmission word field of the link error status block for the specified port. 
 
 
-#### - InvalidCRCCount
+### -field InvalidCRCCount
 
 Reports the value of the invalid CRC count field of the link error status block for the specified port. 
 

@@ -73,22 +73,22 @@ VOID MiniportInitiateOffload(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-     NdisMSetMiniportAttributes</b></mshelp:link> from its 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     NdisMSetMiniportAttributes</a> from its 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
-#### - OffloadBlockList [in, out]
+### -param OffloadBlockList [in, out]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that can be a stand-alone structure or the root of a
+     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures.
 
 
@@ -106,8 +106,8 @@ The
     <i>MiniportInitiateOffload</i> function stores the 
     <i>OffloadBlockList</i> pointer and then returns. The offload target always completes the offload
     operation asynchronously by calling 
-    <mshelp:link keywords="netvista.ndisminitiateoffloadcomplete" tabindex="0"><b>
-    NdisMInitiateOffloadComplete</b></mshelp:link>. The state tree pointed to by the 
+    <a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">
+    NdisMInitiateOffloadComplete</a>. The state tree pointed to by the 
     <i>OffloadBlockList</i> pointer is valid until the miniport driver calls 
     <b>NdisMInitiateOffloadComplete</b>.
 
@@ -116,8 +116,8 @@ After returning from its
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure whose 
     <b>MiniportOffloadContext</b> member points to a memory location that contains a <b>NULL</b> value is followed by
     state to be offloaded. For more information, see 
-    <mshelp:link keywords="netvista.storing_and_referencing_offloaded_state" tabindex="0">Storing and Referencing
-    Offloaded State</mshelp:link>. The 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    Offloaded State</a>. The 
     <b>Header</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure contains a 
     <b>Type</b> member that specifies the type of offload state, and by implication, the 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> or structures,
@@ -125,8 +125,8 @@ After returning from its
 
 The offload target offloads the offload state associated with an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
     structure into an offload context area. For more information, see 
-    <mshelp:link keywords="netvista.storing_and_referencing_offloaded_state" tabindex="0">Storing and Referencing
-    Offloaded State</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    Offloaded State</a>.
 
 When offloading state, the offload target must traverse the state tree in 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/traversing-a-state-tree">depth-first/breadth-next fashion</a>. It
@@ -135,14 +135,14 @@ When offloading state, the offload target must traverse the state tree in
 Some of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures in the state tree that are passed to the 
     <i>MiniportInitiateOffload</i> function can be placeholders or linking nodes that do not have accompanying
     state to be offloaded. For more information, see 
-    <mshelp:link keywords="netvista.placeholders__linkers__and_new_offloads" tabindex="0">Placeholders, Linkers, and
-    New Offloads</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
+    New Offloads</a>.
 
 The offload target can receive buffered data from the host stack for a connection that is being
     offloaded. The offload target must copy this data into its own buffer before completing the offload
     operation. For more information about processing buffered receive data, see 
-    <mshelp:link keywords="netvista.handling_buffered_receive_data_during_and_after_an_offload_operation" tabindex="0">
-    Handling Buffered Receive Data During and After an Offload Operation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">
+    Handling Buffered Receive Data During and After an Offload Operation</a>.
 
 For each state object that it offloads, the offload target must also supply a PVOID value that
     references the offload context area in which the offload target stores the state object. The offload
@@ -152,21 +152,21 @@ For each state object that it offloads, the offload target must also supply a PV
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure, it should not write a value to the memory location pointed to
     by the 
     <b>*MiniportOffloadContext</b> member. For more information, see 
-    <mshelp:link keywords="netvista.storing_and_referencing_offloaded_state" tabindex="0">Storing and Referencing
-    Offloaded State</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    Offloaded State</a>.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
-
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
-
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
  
 

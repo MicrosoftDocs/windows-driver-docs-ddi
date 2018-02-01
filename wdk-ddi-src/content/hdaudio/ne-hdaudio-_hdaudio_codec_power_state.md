@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4C002B40-AD27-4FE2-B07F-5E9715E6CF1F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/PowerCodecD2, PHDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD3, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecUnspecified, hdaudio/PowerCodecMaximum, PowerCodecD1, PowerCodecD3, audio.hdaudio_codec_power_state, hdaudio/PowerCodecD3Cold, PowerCodecD0, PowerCodecD3Cold, hdaudio/PowerCodecD1, PowerCodecD2, hdaudio/PowerCodecD0, *PHDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE, hdaudio/PHDAUDIO_CODEC_POWER_STATE, PowerCodecMaximum, _HDAUDIO_CODEC_POWER_STATE, PowerCodecUnspecified, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices]
+ms.keywords: hdaudio/PHDAUDIO_CODEC_POWER_STATE, _HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD2, hdaudio/PowerCodecUnspecified, PowerCodecD3Cold, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], hdaudio/PowerCodecMaximum, audio.hdaudio_codec_power_state, PowerCodecD1, PowerCodecMaximum, HDAUDIO_CODEC_POWER_STATE, PHDAUDIO_CODEC_POWER_STATE, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD3, hdaudio/PowerCodecD3Cold, PowerCodecUnspecified, hdaudio/PowerCodecD0, hdaudio/PowerCodecD1, *PHDAUDIO_CODEC_POWER_STATE, PowerCodecD2, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], PowerCodecD3, PowerCodecD0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,37 +75,37 @@ typedef enum _HDAUDIO_CODEC_POWER_STATE {
 
 
 
-#### - PowerCodecUnspecified
+### -field PowerCodecUnspecified
 
 An unspecified power state.
 
 
-#### - PowerCodecD0
+### -field PowerCodecD0
 
 Power state D0
 
 
-#### - PowerCodecD1
+### -field PowerCodecD1
 
 Power state D1
 
 
-#### - PowerCodecD2
+### -field PowerCodecD2
 
 Power state D2
 
 
-#### - PowerCodecD3
+### -field PowerCodecD3
 
 Power state D3
 
 
-#### - PowerCodecD3Cold
+### -field PowerCodecD3Cold
 
 Power state D3 Cold
 
 
-#### - PowerCodecMaximum
+### -field PowerCodecMaximum
 
 Power state Maximum
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a922379-b439-4f94-9eb1-7c229318382c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/ZwDuplicateObject, ZwDuplicateObject routine [Kernel-Mode Driver Architecture], kernel.zwduplicateobject, ZwDuplicateObject, NtDuplicateObject, ntifs/NtDuplicateObject
+ms.keywords: ntifs/NtDuplicateObject, ntifs/ZwDuplicateObject, ZwDuplicateObject routine [Kernel-Mode Driver Architecture], NtDuplicateObject, kernel.zwduplicateobject, ZwDuplicateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,37 +75,37 @@ NTSTATUS ZwDuplicateObject(
 
 
 
-#### - SourceProcessHandle [in]
+### -param SourceProcessHandle [in]
 
 A handle to the source process for the handle being duplicated.
 
 
-#### - SourceHandle [in]
+### -param SourceHandle [in]
 
 The handle to duplicate.
 
 
-#### - TargetProcessHandle [in, optional]
+### -param TargetProcessHandle [in, optional]
 
 A handle to the target process that is to receive the new handle. This parameter is optional and can be specified as NULL if the <b>DUPLICATE_CLOSE_SOURCE</b> flag is set in <i>Options</i>.
 
 
-#### - TargetHandle [out, optional]
+### -param TargetHandle [out, optional]
 
 A pointer to a HANDLE variable into which the routine writes the new duplicated handle. The duplicated handle is valid in the specified target process. This parameter is optional and can be specified as NULL if no duplicate handle is to be created.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the desired access for the new handle.
 
 
-#### - HandleAttributes [in]
+### -param HandleAttributes [in]
 
 A ULONG that specifies the desired attributes for the new handle. For more information about attributes, see the description of the <b>Attributes</b> member in <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>.
 
 
-#### - Options [in]
+### -param Options [in]
 
 A set of flags to control the behavior of the duplication operation. Set this parameter to zero or to the bitwise OR of one or more of the following flags.
 <table>
@@ -150,11 +150,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

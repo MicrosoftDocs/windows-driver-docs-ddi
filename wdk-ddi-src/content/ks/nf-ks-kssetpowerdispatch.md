@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77ceaebe-ded1-4fbb-bc10-593ff62fcbe2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsSetPowerDispatch, stream.kssetpowerdispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, KsSetPowerDispatch, KsSetPowerDispatch routine [Streaming Media Devices]
+ms.keywords: KsSetPowerDispatch routine [Streaming Media Devices], stream.kssetpowerdispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, ks/KsSetPowerDispatch, KsSetPowerDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID KsSetPowerDispatch(
 
 
 
-#### - Header [in]
+### -param Header [in]
 
 Points to a header previously allocated by <b>KsAllocateObjectHeader</b>.
 
 
-#### - PowerDispatch [in, optional]
+### -param PowerDispatch [in, optional]
 
 Optionally contains the power dispatch function that will be called, or <b>NULL</b> if the function is to be removed from the list of functions being called. This function must not complete the power IRP sent. The return value of this function must be STATUS_SUCCESS. <b>KsSetPowerDispatch</b> can be called while executing this power dispatch routine if the purpose is to manipulate this list entry only. Manipulating other list entries may confuse the current enumeration.
 
 
-#### - PowerContext [in, optional]
+### -param PowerContext [in, optional]
 
 Optionally contains the context parameter to pass to the power dispatch function.
 

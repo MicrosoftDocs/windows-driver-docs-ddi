@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanModemConfigStateUnknown, wwan/WWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE, WwanModemConfigStatePending, wwan/WwanModemConfigStateMax, *PWWAN_MODEM_CONFIG_STATE, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_MODEM_CONFIG_STATE, _WWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigStateActivated, wwan/WwanModemConfigStateActivated, netvista.wwan_modem_config_state, WwanModemConfigStateMax, PWWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateUnknown, wwan/WwanModemConfigStatePending
+ms.keywords: "_WWAN_MODEM_CONFIG_STATE, wwan/WWAN_MODEM_CONFIG_STATE, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATE, WwanModemConfigStateActivated, wwan/WwanModemConfigStateActivated, PWWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStatePending, WwanModemConfigStateUnknown, WwanModemConfigStateMax, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_MODEM_CONFIG_STATE, netvista.wwan_modem_config_state, wwan/WwanModemConfigStateUnknown, *PWWAN_MODEM_CONFIG_STATE, WwanModemConfigStatePending, wwan/WwanModemConfigStateMax"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _WWAN_MODEM_CONFIG_STATE {
 
 
 
-#### - WwanModemConfigStateUnknown
+### -field WwanModemConfigStateUnknown
 
 The modem configuration state is currently not available.
 
 
-#### - WwanModemConfigStatePending
+### -field WwanModemConfigStatePending
 
 The modem is currently selecting the best suitable configuration file that matches the UICC info.
 
 
-#### - WwanModemConfigStateActivated
+### -field WwanModemConfigStateActivated
 
 The modem has completed its configuration and modem subcomponents are aware of the new configuration.
 
 
-#### - WwanModemConfigStateMax
+### -field WwanModemConfigStateMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

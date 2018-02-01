@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d852f062-3090-4a7a-bdb8-9dde93257a90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsifnd/PISCSI_DiscoveredTargetPortalGroup2, iscsifnd/ISCSI_DiscoveredTargetPortalGroup2, structs-iSCSI_2135fea1-a4b9-401e-a7b3-9a1b1896fe28.xml, _ISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2, storage.iscsi_discoveredtargetportalgroup2, *PISCSI_DiscoveredTargetPortalGroup2, PISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2 structure [Storage Devices], PISCSI_DiscoveredTargetPortalGroup2 structure pointer [Storage Devices]
+ms.keywords: ISCSI_DiscoveredTargetPortalGroup2 structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTargetPortalGroup2, iscsifnd/ISCSI_DiscoveredTargetPortalGroup2, storage.iscsi_discoveredtargetportalgroup2, PISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2, structs-iSCSI_2135fea1-a4b9-401e-a7b3-9a1b1896fe28.xml, PISCSI_DiscoveredTargetPortalGroup2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortalGroup2, *PISCSI_DiscoveredTargetPortalGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _ISCSI_DiscoveredTargetPortalGroup2 {
 
 
 
-#### - PortalCount
+### -field PortalCount
 
 The number of portals in the group. 
 
 
-#### - Tag
+### -field Tag
 
 A tag number that identifies the portal group. 
 
 
-#### - Portals
+### -field Portals
 
 An array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a> structures, which describe target portals. 
 

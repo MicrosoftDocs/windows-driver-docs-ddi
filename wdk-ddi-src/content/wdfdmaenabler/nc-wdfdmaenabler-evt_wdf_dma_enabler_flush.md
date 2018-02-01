@@ -73,7 +73,7 @@ NTSTATUS EvtDmaEnablerFlush(
 
 
 
-#### - DmaEnabler [in]
+### -param DmaEnabler [in]
 
 A handle to a DMA enabler object.  
 
@@ -96,11 +96,11 @@ For more information about the <i>EvtDmaEnablerFlush</i> callback function, see 
 
 ## -see-also
 
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_fill.md">EvtDmaEnablerFill</a>
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
-
-<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_fill.md">EvtDmaEnablerFill</a>
 
  
 

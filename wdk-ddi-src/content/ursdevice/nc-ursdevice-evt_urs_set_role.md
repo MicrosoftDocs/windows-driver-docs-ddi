@@ -74,12 +74,12 @@ typedef EVT_URS_SET_ROLE PFN_URS_SET_ROLE;
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 
-#### - Role [in]
+### -param Role [in]
 
 A <a href="..\urstypes\ne-urstypes-_urs_role.md">URS_ROLE</a> type value that indicates the role to set for the controller device.
 

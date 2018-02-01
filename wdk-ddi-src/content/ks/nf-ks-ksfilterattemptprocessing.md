@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 22c6bd15-98b7-4905-8551-c8202cc6840b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterAttemptProcessing function [Streaming Media Devices], KsFilterAttemptProcessing, ks/KsFilterAttemptProcessing, stream.ksfilterattemptprocessing, avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml
+ms.keywords: KsFilterAttemptProcessing, avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, ks/KsFilterAttemptProcessing, stream.ksfilterattemptprocessing, KsFilterAttemptProcessing function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsFilterAttemptProcessing(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure representing the AVStream filter object on which to attempt processing.
 
 
-#### - Asynchronous [in]
+### -param Asynchronous [in]
 
 This parameter contains an indication as to whether the processing dispatch should occur asynchronously or not (should it occur). An asynchronous dispatch is guaranteed if this is <b>TRUE</b>; however, synchronous processing dispatches are governed by conditions described below.
 
@@ -99,13 +99,13 @@ Note that this is only an attempt at processing; calling this function does not 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
-
 <a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+
+<a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
 
  
 

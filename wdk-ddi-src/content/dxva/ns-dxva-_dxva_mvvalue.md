@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33b68e74-64ca-49e0-b469-96d430c2a5c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_MVvalue, _DXVA_MVvalue, LPDXVA_MVvalue, display.dxva_mvvalue, DXVA_MVvalue structure [Display Devices], dxva/DXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], *LPDXVA_MVvalue, dxva/LPDXVA_MVvalue, dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml
+ms.keywords: dxva/DXVA_MVvalue, LPDXVA_MVvalue, *LPDXVA_MVvalue, display.dxva_mvvalue, DXVA_MVvalue structure [Display Devices], _DXVA_MVvalue, DXVA_MVvalue, dxva/LPDXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVA_MVvalue {
 
 
 
-#### - horz
+### -field horz
 
 Specifies the horizontal component of the value of a motion vector. Contains a signed integer motion offset in half-sample units. The value of this member will be an even integer if the <b>bMVprecisionAndChromaRelation</b> member of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> equals 2 (H.261-style motion supporting only integer-sample offsets).
 
 
-#### - vert
+### -field vert
 
 Specifies the vertical component of the value of a motion vector. Contains a signed integer motion offset in half-sample units. The value of this member will be an even integer if the <b>bMVprecisionAndChromaRelation</b> member of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> equals 2 (H.261-style motion supporting only integer-sample offsets).
 
@@ -87,9 +87,9 @@ The DXVA_MVvalue structure is used in the <a href="..\dxva\ns-dxva-_dxva_mbctrl_
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
-
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
 
  
 

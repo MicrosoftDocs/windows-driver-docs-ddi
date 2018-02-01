@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1bc6eed2-c6bd-448f-8f78-630cca4cd29a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetCreateParameters method, IWDFIoRequest, IWDFIoRequest interface, GetCreateParameters method, wudfddi/IWDFIoRequest::GetCreateParameters, IWDFIoRequest::GetCreateParameters, umdf.iwdfiorequest_getcreateparameters, GetCreateParameters method, IWDFIoRequest interface, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, GetCreateParameters, wdf.iwdfiorequest_getcreateparameters
+ms.keywords: GetCreateParameters method, wudfddi/IWDFIoRequest::GetCreateParameters, GetCreateParameters, IWDFIoRequest interface, GetCreateParameters method, wdf.iwdfiorequest_getcreateparameters, umdf.iwdfiorequest_getcreateparameters, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, IWDFIoRequest::GetCreateParameters, GetCreateParameters method, IWDFIoRequest interface, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,7 +72,7 @@ void GetCreateParameters(
 
 
 
-#### - pOptions [out, optional]
+### -param pOptions [out, optional]
 
 A pointer to a variable that receives a bitmask of flags that specify the options that are applied when creating or opening the file that is associated with the request and the action to be taken if the file already exists.
 
@@ -83,14 +83,14 @@ The low 24 bits of this parameter correspond to the <i>CreateOptions</i> paramet
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-#### - pFileAttributes [out, optional]
+### -param pFileAttributes [out, optional]
 
 A pointer to a variable that receives a bitmask of attribute flags that is applied when creating or opening the file that is associated with the request. Explicitly specified attributes are applied only when the file is created, superseded, or, in some situations, overwritten. By default, the single FILE_ATTRIBUTE_NORMAL flag is specified. However, this flag can be overridden by any other flag or by a bitwise OR combination of compatible flags. The bitmask of attribute flags corresponds to the <i>FileAttributes</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-#### - pShareAccess [out, optional]
+### -param pShareAccess [out, optional]
 
 A pointer to a variable that receives a bitmask of flags that specify the share access rights that are requested for the file that is associated with the request. If the received bitmask is zero, exclusive access is being requested. For more information about share access, see the description of the <i>ShareAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
 

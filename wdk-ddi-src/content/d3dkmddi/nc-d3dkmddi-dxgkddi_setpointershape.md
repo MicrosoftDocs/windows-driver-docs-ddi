@@ -71,12 +71,12 @@ NTSTATUS APIENTRY DxgkDdiSetPointerShape(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-#### - pSetPointerShape [in]
+### -param pSetPointerShape [in]
 
 [in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointershape.md">DXGKARG_SETPOINTERSHAPE</a> structure that describes the appearance and location of the mouse pointer.
 
@@ -133,9 +133,9 @@ If you run a <i>DxgkDdiSetPointerShape</i> thread simultaneously with another di
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointershape.md">DXGKARG_SETPOINTERSHAPE</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c5af24f-fd99-4a64-afd4-aaa8168b1dc5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION structure [Storage Devices], ntdddisk/GET_LENGTH_INFORMATION, ntdddisk/PGET_LENGTH_INFORMATION, storage.get_length_information, _GET_LENGTH_INFORMATION, PGET_LENGTH_INFORMATION structure pointer [Storage Devices], structs-disk_6efbf7e7-9fc2-44b0-a9f8-b83219b07a64.xml
+ms.keywords: structs-disk_6efbf7e7-9fc2-44b0-a9f8-b83219b07a64.xml, ntdddisk/PGET_LENGTH_INFORMATION, _GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION, storage.get_length_information, GET_LENGTH_INFORMATION structure [Storage Devices], PGET_LENGTH_INFORMATION structure pointer [Storage Devices], ntdddisk/GET_LENGTH_INFORMATION, PGET_LENGTH_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _GET_LENGTH_INFORMATION {
 
 
 
-#### - Length
+### -field Length
 
 Contains the length, in bytes, of a disk, partition, or volume.
 

@@ -99,8 +99,8 @@ When the
 <ul>
 <li>
 The operating system calls the 
-      <mshelp:link keywords="netvista.dot11extihvdeinitadapter" tabindex="0"><i>
-      Dot11ExtIhvDeinitAdapter</i></mshelp:link> function prior to calling the 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">
+      Dot11ExtIhvDeinitAdapter</a> function prior to calling the 
       <i>Dot11ExtIhvDeinitService</i> function. As a result, the 
       <i>Dot11ExtIhvDeinitService</i> function should not initiate any operations on the WLAN adapter.
       Instead, 
@@ -127,9 +127,9 @@ The DLL must free any allocated resources for the DLL itself. In particular, all
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
  
 

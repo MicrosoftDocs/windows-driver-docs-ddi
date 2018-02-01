@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c4464fba-cc23-47d2-87d6-82b3eba8ddbe
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWavePciStream interface [Audio Devices], ReleaseMapping method, ReleaseMapping method [Audio Devices], IPortWavePciStream interface, IPortWavePciStream::ReleaseMapping, portcls/IPortWavePciStream::ReleaseMapping, ReleaseMapping, ReleaseMapping method [Audio Devices], IPortWavePciStream, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, audio.iportwavepcistream_releasemapping
+ms.keywords: portcls/IPortWavePciStream::ReleaseMapping, ReleaseMapping, ReleaseMapping method [Audio Devices], IPortWavePciStream interface, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, IPortWavePciStream, audio.iportwavepcistream_releasemapping, ReleaseMapping method [Audio Devices], IPortWavePciStream::ReleaseMapping, IPortWavePciStream interface [Audio Devices], ReleaseMapping method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS ReleaseMapping(
 
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Specifies a tag value identifying the mapping that is to be released. For more information, see the following Remarks section.
 
@@ -92,15 +92,15 @@ To avoid potential deadlocks, the miniport driver must avoid holding a spin lock
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
-
-<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
 
 <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
  
 

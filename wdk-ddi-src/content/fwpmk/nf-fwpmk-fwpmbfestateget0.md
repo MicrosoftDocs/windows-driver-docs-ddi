@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f165c5a0-6f8e-495f-90b9-62d0d8982456
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista], netvista.fwpmbfestateget0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml, FwpmBfeStateGet0, fwpmk/FwpmBfeStateGet0
+ms.keywords: netvista.fwpmbfestateget0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml, FwpmBfeStateGet0, fwpmk/FwpmBfeStateGet0, FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,8 +141,8 @@ Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpmbfestatesubscribechanges0" tabindex="0"><b>
-   FwpmBfeStateSubscribeChanges0</b></mshelp:link>
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+   FwpmBfeStateSubscribeChanges0</a>
 
  
 

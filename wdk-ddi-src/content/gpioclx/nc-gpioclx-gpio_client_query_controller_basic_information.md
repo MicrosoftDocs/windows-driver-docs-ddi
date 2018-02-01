@@ -71,12 +71,12 @@ NTSTATUS CLIENT_QueryControllerBasicInformation(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4BE99C71-9BA6-44E3-A54F-DE8C3440A474">device context</a>.
 
 
-#### - Information [out]
+### -param Information [out]
 
 A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a> structure. The <i>CLIENT_QueryControllerBasicInformation</i> function writes the GPIO controller hardware attributes and configuration information into this structure.
 

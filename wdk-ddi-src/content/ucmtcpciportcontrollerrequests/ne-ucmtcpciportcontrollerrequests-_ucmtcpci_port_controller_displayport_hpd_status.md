@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6BE5948B-DAC9-4448-AE22-108805BB364C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusHigh, UcmTcpciPortControllerHPDStatusHigh, UcmTcpciPortControllerHPDStatusLow, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusLow, buses.ucmtcpci_port_controller_displayport_hpd_status, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS enumeration [Buses]
+ms.keywords: UcmTcpciPortControllerHPDStatusLow, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusLow, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusHigh, UcmTcpciPortControllerHPDStatusHigh, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS enumeration [Buses], ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, buses.ucmtcpci_port_controller_displayport_hpd_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS {
 
 
 
-#### - UcmTcpciPortControllerHPDStatusLow
+### -field UcmTcpciPortControllerHPDStatusLow
 
 The DisplayPort device is unplugged.
 
 
-#### - UcmTcpciPortControllerHPDStatusHigh
+### -field UcmTcpciPortControllerHPDStatusHigh
 
 A DisplayPort device such as a monitor is plugged in.
 

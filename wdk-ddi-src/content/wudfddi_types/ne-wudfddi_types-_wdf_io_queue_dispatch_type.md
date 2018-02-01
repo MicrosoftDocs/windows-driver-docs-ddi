@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40f4cd91-ba84-426c-b248-6027d1e8d1a4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_DISPATCH_TYPE, wudfddi_types/WdfIoQueueDispatchManual, wdf.wdf_io_queue_dispatch_type_umdf, wudfddi_types/WdfIoQueueDispatchMaximum, _WDF_IO_QUEUE_DISPATCH_TYPE, wudfddi_types/WdfIoQueueDispatchSequential, wudfddi_types/WdfIoQueueDispatchParallel, WdfIoQueueDispatchSequential, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchParallel, umdf.wdf_io_queue_dispatch_type, WdfIoQueueDispatchMaximum, WdfIoQueueDispatchManual, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml
+ms.keywords: WdfIoQueueDispatchSequential, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, wdf.wdf_io_queue_dispatch_type_umdf, wudfddi_types/WdfIoQueueDispatchMaximum, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml, _WDF_IO_QUEUE_DISPATCH_TYPE, wudfddi_types/WdfIoQueueDispatchParallel, WdfIoQueueDispatchMaximum, wudfddi_types/WdfIoQueueDispatchSequential, WdfIoQueueDispatchManual, WdfIoQueueDispatchParallel, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, umdf.wdf_io_queue_dispatch_type, wudfddi_types/WdfIoQueueDispatchManual, WDF_IO_QUEUE_DISPATCH_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,22 +74,22 @@ typedef enum _WDF_IO_QUEUE_DISPATCH_TYPE {
 
 
 
-#### - WdfIoQueueDispatchSequential
+### -field WdfIoQueueDispatchSequential
 
 The I/O queue's requests are presented to the driver's I/O queue callback functions one at a time. The framework delivers the next request after the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> method to complete the current request.
 
 
-#### - WdfIoQueueDispatchParallel
+### -field WdfIoQueueDispatchParallel
 
 The framework presents requests to the driver's I/O queue callback functions as soon as the requests are available.
 
 
-#### - WdfIoQueueDispatchManual
+### -field WdfIoQueueDispatchManual
 
 The framework places requests into the queue but does not deliver them to the driver. The driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a> method to retrieve a request from the queue.
 
 
-#### - WdfIoQueueDispatchMaximum
+### -field WdfIoQueueDispatchMaximum
 
 Valid enumeration values were exceeded.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b8e14607-a8d4-4e15-8b1d-92096879ea65
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUpdateShareAccess, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml, wdm/IoUpdateShareAccess, kernel.ioupdateshareaccess
+ms.keywords: kernel.ioupdateshareaccess, k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml, wdm/IoUpdateShareAccess, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], IoUpdateShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID IoUpdateShareAccess(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a referenced file object representing the file or associated device object for which to update the share access.
 
 
-#### - ShareAccess [in, out]
+### -param ShareAccess [in, out]
 
 Pointer to the common <b>SHARE_ACCESS</b> structure associated with the <i>FileObject</i>. Drivers should treat this structure as opaque.
 
@@ -97,11 +97,11 @@ Before calling <b>IoUpdateShareAccess</b>, the caller must successfully call <b>
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
 <a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
 
 <a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
  
 

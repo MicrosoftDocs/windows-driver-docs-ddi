@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxPostRecurrentTimerRequest, rxtimer/RxPostRecurrentTimerRequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], rxref_64318843-28af-4351-9273-06061b94578f.xml, ifsk.rxpostrecurrenttimerrequest
+ms.keywords: ifsk.rxpostrecurrenttimerrequest, RxPostRecurrentTimerRequest, rxtimer/RxPostRecurrentTimerRequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, RxPostRecurrentTimerRequest routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS RxPostRecurrentTimerRequest(
 
 
 
-#### - pDeviceObject [in]
+### -param pDeviceObject [in]
 
 A pointer to the device object to be associated with this timer. 
 
 
-#### - Routine [in]
+### -param Routine [in]
 
 A pointer to the worker thread routine to call when this timer expires. 
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 A pointer to the context parameter to be associated with this timer.
 
 
-#### - TimeInterval [in]
+### -param TimeInterval [in]
 
 The time interval, in 100-nanosecond ticks.
 
@@ -124,9 +124,9 @@ A recurrent timer can be canceled by calling <b>RxCancelTimerRequest</b>.
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
-
 <a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
+
+<a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: D6C03D60-9FC4-4EF1-A7DD-4A91990D5CF1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, stream.kscamera_extendedprop_cameraoffset, tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, ksmedia/PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, ksmedia/KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_CAMERAOFFSET"
+ms.keywords: "*PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, stream.kscamera_extendedprop_cameraoffset, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, ksmedia/KSCAMERA_EXTENDEDPROP_CAMERAOFFSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _KSCAMERA_EXTENDEDPROP_CAMERAOFFSET {
 
 
 
-#### - PitchAngle
+### -field PitchAngle
 
 The angle offset of the camera look direction from the horizontal axis of the camera facing direction.
 
 
-#### - YawAngle
+### -field YawAngle
 
 The angle offset of the camera look direction from the vertical axis of the camera facing direction.
 
 
-#### - Flag
+### -field Flag
 
 Reserved. Set to 0.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Set to 0.
 

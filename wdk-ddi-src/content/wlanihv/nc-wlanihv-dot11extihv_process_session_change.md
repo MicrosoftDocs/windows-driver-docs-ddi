@@ -74,7 +74,7 @@ DWORD APIENTRY Dot11ExtIhvProcessSessionChange(
 
 
 
-#### - uEventType [in]
+### -param uEventType [in]
 
 The type of event. This parameter can have one of the following values.
      
@@ -178,7 +178,7 @@ A session has changed its remote controlled status. To determine the status, cal
 </table> 
 
 
-#### - pSessionNotification [in]
+### -param pSessionNotification [in]
 
 A pointer to a WTSSESSION_NOTIFICATION structure, which provides information about the session
      change notification. For more information about this structure, refer to the Windows SDK

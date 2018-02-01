@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], *PXVARIABLE_NAME, XVARIABLE_NAME, kernel.xvariable_name, _XVARIABLE_NAME, *PSYSENV_VARIABLE_NAME, SYSENV_VARIABLE_NAME, ntddsysenv/PXVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], PXVARIABLE_NAME
+ms.keywords: PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], XVARIABLE_NAME, kernel.xvariable_name, *PXVARIABLE_NAME, SYSENV_VARIABLE_NAME, PXVARIABLE_NAME, *PSYSENV_VARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], ntddsysenv/PXVARIABLE_NAME, _XVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _XVARIABLE_NAME {
 
 
 
-#### - NextEntryOffset
+### -field NextEntryOffset
 
 The location of the next entry in the array of <b>XVARIABLE_NAME</b> structures reprieved by the  <a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
 
 
-#### - VendorGuid
+### -field VendorGuid
 
 The vendor GUID.
 
 
-#### - Name
+### -field Name
 
 Name of the system environment variable.
 

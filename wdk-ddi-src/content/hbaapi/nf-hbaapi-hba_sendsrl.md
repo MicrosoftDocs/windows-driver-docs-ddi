@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 455ff9c9-89d5-4c79-8b01-f0d731ac8d5a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendSRL, fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml, HBA_SendSRL routine [Storage Devices], storage.hba_sendsrl, hbaapi/HBA_SendSRL
+ms.keywords: hbaapi/HBA_SendSRL, storage.hba_sendsrl, HBA_SendSRL routine [Storage Devices], HBA_SendSRL, fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,14 +92,19 @@ TBD
 TBD
 
 
-#### - pRspBuffer [out]
+### -param pRspBuffer [out]
 
 Pointer to a buffer that receives the output data of the SRL request. 
 
 
-#### - pRspBufferSize [in, out]
+### -param pRspBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member contains the number of bytes of data retrieved in <i>pRspBuffer</i>. If the buffer is not large enough to receive all of the response data, the data is truncated to the size of the buffer. Eight bytes is sufficient buffer space for any response. 
+
+
+#### - domain [in]
+
+Indicates the number of the domain controller associated with the loops to scan. If <i>wwn</i> is nonzero, this member is ignored.
 
 
 #### - handle [in]
@@ -115,11 +120,6 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the port through
 #### - wwn [in]
 
 Contains a 64-bit WWN that uniquely identifies the FL_Port port that is associated with the loop that is scanned. The SRL request is sent to this port. If this member is <b>NULL</b>, it is ignored, and the SRL request is sent to the domain controller that is associated with the loop. The domain controller is identified by the value in <i>domain. </i>
-
-
-#### - domain [in]
-
-Indicates the number of the domain controller associated with the loops to scan. If <i>wwn</i> is nonzero, this member is ignored.
 
 
 ## -returns
@@ -181,9 +181,9 @@ Returned if an unspecified error occurred that prevented the execution of the SR
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

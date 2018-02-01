@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 552b607e-65c7-4595-9adb-b9c2f4301afd
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, hidsdi/HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices], HidD_GetHidGuid, hid.hidd_gethidguid
+ms.keywords: HidD_GetHidGuid, hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, hid.hidd_gethidguid, hidsdi/HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void __stdcall HidD_GetHidGuid(
 
 
 
-#### - HidGuid [out]
+### -param HidGuid [out]
 
 Pointer to a caller-allocated GUID buffer that the routine uses to return the device interface GUID for HIDClass devices.
 

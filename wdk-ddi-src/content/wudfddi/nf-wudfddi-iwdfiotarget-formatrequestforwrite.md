@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dd579620-4fe9-4cd0-8e21-f32b07338de1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTarget::FormatRequestForWrite, IWDFIoTarget, FormatRequestForWrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, FormatRequestForWrite method, IWDFIoTarget interface, FormatRequestForWrite method, wdf.iwdfiotarget_formatrequestforwrite, IWDFIoTarget interface, FormatRequestForWrite method, umdf.iwdfiotarget_formatrequestforwrite, wudfddi/IWDFIoTarget::FormatRequestForWrite
+ms.keywords: FormatRequestForWrite method, IWDFIoTarget interface, umdf.iwdfiotarget_formatrequestforwrite, FormatRequestForWrite, IWDFIoTarget, wdf.iwdfiotarget_formatrequestforwrite, FormatRequestForWrite method, IWDFIoTarget::FormatRequestForWrite, wudfddi/IWDFIoTarget::FormatRequestForWrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, IWDFIoTarget interface, FormatRequestForWrite method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,27 +74,27 @@ HRESULT FormatRequestForWrite(
 
 
 
-#### - pRequest [in]
+### -param pRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the request object to format. 
 
 
-#### - pFile [in, optional]
+### -param pFile [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is associated with the write request. For the default I/O target, this parameter must be non-<b>NULL</b>.
 
 
-#### - pInputMemory [in, optional]
+### -param pInputMemory [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface that is used to access the buffer that is used for the write request. This parameter is optional.
 
 
-#### - pInputMemoryOffset [in, optional]
+### -param pInputMemoryOffset [in, optional]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes the input memory offset that is used for the write request. This parameter is optional.
 
 
-#### - DeviceOffset [in, optional]
+### -param DeviceOffset [in, optional]
 
 A pointer to the device offset that is used for the write request. This parameter is optional.
 
@@ -108,15 +108,15 @@ A pointer to the device offset that is used for the write request. This paramete
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BFCFE35A-5697-4F9D-B0A1-51EB5D8AE690
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_FLR_UNKNOWN, extsfns/DEBUG_FLR_KERNEL, DEBUG_FLR_USER_CRASH, DEBUG_FLR_KERNEL, DEBUG_FLR_IE_CRASH, DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_IE_CRASH, _DEBUG_FAILURE_TYPE, DEBUG_FAILURE_TYPE enumeration [Windows Debugging], extsfns/DEBUG_FLR_UNKNOWN, debugger.debug_failure_type, extsfns/DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_USER_CRASH
+ms.keywords: DEBUG_FLR_KERNEL, DEBUG_FLR_UNKNOWN, extsfns/DEBUG_FLR_KERNEL, DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FLR_USER_CRASH, DEBUG_FAILURE_TYPE, _DEBUG_FAILURE_TYPE, DEBUG_FAILURE_TYPE enumeration [Windows Debugging], debugger.debug_failure_type, extsfns/DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_UNKNOWN, DEBUG_FLR_USER_CRASH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _DEBUG_FAILURE_TYPE {
 
 
 
-#### - DEBUG_FLR_UNKNOWN
+### -field DEBUG_FLR_UNKNOWN
 
 The failure type is not known.
 
 
-#### - DEBUG_FLR_KERNEL
+### -field DEBUG_FLR_KERNEL
 
 The failing code was running in kernel mode.
 
 
-#### - DEBUG_FLR_USER_CRASH
+### -field DEBUG_FLR_USER_CRASH
 
 The failing code was running in user mode.
 
 
-#### - DEBUG_FLR_IE_CRASH
+### -field DEBUG_FLR_IE_CRASH
 
 The failure occurred in the application iexplore.exe.
 

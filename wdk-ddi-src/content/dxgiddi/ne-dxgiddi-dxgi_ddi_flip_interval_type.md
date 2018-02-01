@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e33da768-9d57-4b07-9c4e-c86d19828291
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_FLIP_INTERVAL_THREE, DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, DXGI_DDI_FLIP_INTERVAL_FOUR, dxgiddi/DXGI_DDI_FLIP_INTERVAL_TWO, dxgiddi/DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_ONE, display.dxgi_ddi_flip_interval_type, UMDisplayDriver_Dx10param_Structs_65a96d1c-4c37-4fdd-b79e-2a90559db67d.xml, dxgiddi/DXGI_DDI_FLIP_INTERVAL_FOUR, DXGI_DDI_FLIP_INTERVAL_ONE, DXGI_DDI_FLIP_INTERVAL_TYPE enumeration [Display Devices], dxgiddi/DXGI_DDI_FLIP_INTERVAL_TYPE, DXGI_DDI_FLIP_INTERVAL_TWO, dxgiddi/DXGI_DDI_FLIP_INTERVAL_THREE, DXGI_DDI_FLIP_INTERVAL_TYPE
+ms.keywords: DXGI_DDI_FLIP_INTERVAL_ONE, DXGI_DDI_FLIP_INTERVAL_TWO, dxgiddi/DXGI_DDI_FLIP_INTERVAL_THREE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_FOUR, DXGI_DDI_FLIP_INTERVAL_TYPE, DXGI_DDI_FLIP_INTERVAL_THREE, DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_TWO, UMDisplayDriver_Dx10param_Structs_65a96d1c-4c37-4fdd-b79e-2a90559db67d.xml, display.dxgi_ddi_flip_interval_type, dxgiddi/DXGI_DDI_FLIP_INTERVAL_ONE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_TYPE, DXGI_DDI_FLIP_INTERVAL_TYPE enumeration [Display Devices], DXGI_DDI_FLIP_INTERVAL_FOUR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum DXGI_DDI_FLIP_INTERVAL_TYPE {
 
 
 
-#### - DXGI_DDI_FLIP_INTERVAL_IMMEDIATE
+### -field DXGI_DDI_FLIP_INTERVAL_IMMEDIATE
 
 Indicates to perform the flip immediately without waiting for a vertical sync to occur. 
 
 
-#### - DXGI_DDI_FLIP_INTERVAL_ONE
+### -field DXGI_DDI_FLIP_INTERVAL_ONE
 
 Indicates to perform the flip on every vertical sync. 
 
 
-#### - DXGI_DDI_FLIP_INTERVAL_TWO
+### -field DXGI_DDI_FLIP_INTERVAL_TWO
 
 Indicates to perform the flip on every other vertical sync. 
 
 
-#### - DXGI_DDI_FLIP_INTERVAL_THREE
+### -field DXGI_DDI_FLIP_INTERVAL_THREE
 
 Indicates to perform the flip on every third vertical sync.
 
 
-#### - DXGI_DDI_FLIP_INTERVAL_FOUR
+### -field DXGI_DDI_FLIP_INTERVAL_FOUR
 
 Indicates to perform the flip on every fourth vertical sync.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0274b3c7-c17e-45bf-867f-2b0f741b2ecb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSFC_HBAPortStatistics structure [Storage Devices], *PMSFC_HBAPortStatistics, PMSFC_HBAPortStatistics structure pointer [Storage Devices], hbapiwmi/PMSFC_HBAPortStatistics, storage.msfc_hbaportstatistics, _MSFC_HBAPortStatistics, structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml, hbapiwmi/MSFC_HBAPortStatistics, PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics
+ms.keywords: hbapiwmi/PMSFC_HBAPortStatistics, structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml, PMSFC_HBAPortStatistics structure pointer [Storage Devices], hbapiwmi/MSFC_HBAPortStatistics, MSFC_HBAPortStatistics, storage.msfc_hbaportstatistics, PMSFC_HBAPortStatistics, _MSFC_HBAPortStatistics, MSFC_HBAPortStatistics structure [Storage Devices], *PMSFC_HBAPortStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,77 +81,77 @@ typedef struct _MSFC_HBAPortStatistics {
 
 
 
-#### - SecondsSinceLastReset
+### -field SecondsSinceLastReset
 
 Contains the number of seconds since the statistics were last reset.
 
 
-#### - TxFrames
+### -field TxFrames
 
 Contains the number of total transmitted fibre channel frames across all protocols and classes.
 
 
-#### - TxWords
+### -field TxWords
 
 Contains the number of total transmitted fibre channel words across all protocols and classes.
 
 
-#### - RxFrames
+### -field RxFrames
 
 Contains the number of received fibre channel frames across all protocols and classes.
 
 
-#### - RxWords
+### -field RxWords
 
 Contains the number of received fibre channel words across all protocols and classes.
 
 
-#### - LIPCount
+### -field LIPCount
 
 Contains the number of loop initialization primitive sequence (LIP) events that have occurred on a arbitrated loop.
 
 
-#### - NOSCount
+### -field NOSCount
 
 Contains the number of nonoperational state primitive sequence (NOS) events that have occurred on the switched fabric.
 
 
-#### - ErrorFrames
+### -field ErrorFrames
 
 Contains the number of frames that have been received in error.
 
 
-#### - DumpedFrames
+### -field DumpedFrames
 
 Contains the number of frames that were lost due to a lack of host buffers available.
 
 
-#### - LinkFailureCount
+### -field LinkFailureCount
 
 Contains the link failure count. 
 
 
-#### - LossOfSyncCount
+### -field LossOfSyncCount
 
 Contains the loss of synchronization count. 
 
 
-#### - LossOfSignalCount
+### -field LossOfSignalCount
 
 Contains the loss of signal count. 
 
 
-#### - PrimitiveSeqProtocolErrCount
+### -field PrimitiveSeqProtocolErrCount
 
 Contains the primitive sequence protocol error count. 
 
 
-#### - InvalidTxWordCount
+### -field InvalidTxWordCount
 
 Contains a count of the number of invalid transmissions. 
 
 
-#### - InvalidCRCCount
+### -field InvalidCRCCount
 
 Contains a count of the number frames with invalid cyclic redundancy checksums. 
 

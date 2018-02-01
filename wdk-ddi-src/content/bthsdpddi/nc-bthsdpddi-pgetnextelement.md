@@ -76,37 +76,31 @@ VOID SdpGetNextElement(
 
 
 
-#### - Stream
+### -param Stream
 
 Pointer to the SDP record stream to iterate through.
 
 
-#### - StreamSize
+### -param StreamSize
 
 An unsigned long integer that indicates the size of the SDP stream.
 
 
-#### - CurrentElement
+### -param CurrentElement
 
 A pointer to the currently selected entry in the SDP stream. This parameter can take a <b>NULL</b>
      value.
 
 
-#### - *NextElement
+### -param *NextElement
 
 A pointer to an unsigned character variable that receives the address of the next entry in the SDP
      container stream.
 
 
-#### - NextElementSize
+### -param NextElementSize
 
 A pointer to an unsigned long integer variable that receives the size of the next entry in the SDP
-     container stream.
-
-
-#### - NextElement
-
-A pointer to an unsigned character variable that receives the address of the next entry in the SDP
      container stream.
 
 
@@ -134,8 +128,8 @@ Calling this function with the
     <i>CurrentElement</i> parameter set to <b>NULL</b> returns the first entry in the container stream.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
-    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
 

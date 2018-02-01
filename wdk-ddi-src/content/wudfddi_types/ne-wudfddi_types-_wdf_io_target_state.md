@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0189a83d-da46-49f1-99b8-8fb920009804
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetClosed, wdfiotarget/WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE, WdfIoTargetStarted, wudfddi_types/WdfIoTargetStarted, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, wdfiotarget/WdfIoTargetClosed, wdfiotarget/WdfIoTargetPurged, wudfddi_types/PWDF_IO_TARGET_STATE, _WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetStateUndefined, wdfiotarget/PWDF_IO_TARGET_STATE, kmdf.wdf_io_target_state, wudfddi_types/WdfIoTargetStopped, wudfddi_types/WdfIoTargetPurged, wudfddi_types/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetStopped, WdfIoTargetClosedForQueryRemove, wudfddi_types/WDF_IO_TARGET_STATE, wdf.wdf_io_target_state, WdfIoTargetDeleted, wudfddi_types/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetStarted, WdfIoTargetStopped, WdfIoTargetPurged, PWDF_IO_TARGET_STATE enumeration pointer, wdfiotarget/WdfIoTargetClosedForQueryRemove, WdfIoTargetStateUndefined, wudfddi_types/WdfIoTargetClosedForQueryRemove, wudfddi_types/WdfIoTargetClosed, PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE enumeration
+ms.keywords: WdfIoTargetClosedForQueryRemove, WDF_IO_TARGET_STATE enumeration, wdfiotarget/WdfIoTargetStarted, WdfIoTargetStarted, wudfddi_types/WdfIoTargetClosed, *PWDF_IO_TARGET_STATE, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, wdfiotarget/WdfIoTargetStateUndefined, wdf.wdf_io_target_state, wudfddi_types/WdfIoTargetDeleted, wudfddi_types/WdfIoTargetStarted, _WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetClosed, WdfIoTargetClosed, kmdf.wdf_io_target_state, WdfIoTargetDeleted, WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetClosedForQueryRemove, wdfiotarget/WdfIoTargetStopped, wudfddi_types/WdfIoTargetPurged, wudfddi_types/WDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetDeleted, PWDF_IO_TARGET_STATE enumeration pointer, PWDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetClosedForQueryRemove, WdfIoTargetStopped, wdfiotarget/PWDF_IO_TARGET_STATE, wdfiotarget/WDF_IO_TARGET_STATE, WdfIoTargetPurged, wdfiotarget/WdfIoTargetPurged, wudfddi_types/WdfIoTargetStopped, WDF_IO_TARGET_STATE, wudfddi_types/PWDF_IO_TARGET_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,32 +77,32 @@ typedef enum _WDF_IO_TARGET_STATE {
 
 
 
-#### - WdfIoTargetStateUndefined
+### -field WdfIoTargetStateUndefined
 
 Reserved for internal use.
 
 
-#### - WdfIoTargetStarted
+### -field WdfIoTargetStarted
 
 The I/O target is started and can process I/O requests.
 
 
-#### - WdfIoTargetStopped
+### -field WdfIoTargetStopped
 
 The I/O target is temporarily stopped and cannot process I/O requests.
 
 
-#### - WdfIoTargetClosedForQueryRemove
+### -field WdfIoTargetClosedForQueryRemove
 
 The I/O target's underlying device might be removed in the near future.
 
 
-#### - WdfIoTargetClosed
+### -field WdfIoTargetClosed
 
 The I/O target is permanently stopped and cannot process I/O requests. 
 
 
-#### - WdfIoTargetDeleted
+### -field WdfIoTargetDeleted
 
 The I/O target's underlying device has been removed.
 

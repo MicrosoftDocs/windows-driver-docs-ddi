@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 54583406-9c60-4622-a78d-085c35ce7593
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, WdfRegistryQueryULong, wdf.wdfregistryqueryulong, kmdf.wdfregistryqueryulong, WdfRegistryQueryULong method, wdfregistry/WdfRegistryQueryULong, PFN_WDFREGISTRYQUERYULONG
+ms.keywords: DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, WdfRegistryQueryULong method, wdf.wdfregistryqueryulong, kmdf.wdfregistryqueryulong, wdfregistry/WdfRegistryQueryULong, PFN_WDFREGISTRYQUERYULONG, WdfRegistryQueryULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfRegistryQueryULong(
 
 
 
-#### - Key [in]
+### -param Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a name for the registry value. 
 
 
-#### - Value [out]
+### -param Value [out]
 
 A pointer to a location that receives the data that is assigned to the registry value that <i>ValueName</i> specifies.
 
@@ -185,7 +185,7 @@ For more information about registry-key objects, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
 
@@ -193,7 +193,7 @@ For more information about registry-key objects, see <a href="https://msdn.micro
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 

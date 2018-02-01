@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PUFF_FILEHEADER, print.uff_fileheader, prntfont/PUFF_FILEHEADER, PUFF_FILEHEADER, prntfont/UFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER structure [Print Devices], _UFF_FILEHEADER, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, UFF_FILEHEADER"
+ms.keywords: "_UFF_FILEHEADER, print.uff_fileheader, UFF_FILEHEADER structure [Print Devices], *PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, PUFF_FILEHEADER, UFF_FILEHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,42 +76,42 @@ typedef struct _UFF_FILEHEADER {
 
 
 
-#### - dwSignature
+### -field dwSignature
 
 Specifies the signature for .uff files. This value must be UFF_FILE_MAGIC.
 
 
-#### - dwVersion
+### -field dwVersion
 
 Specifies the format version for .uff files. This value must be UFF_VERSION_NUMBER. The HIWORD contains the major version number and the LOWORD contains the minor version number.
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the UFF_FILEHEADER structure.
 
 
-#### - nFonts
+### -field nFonts
 
 Specifies the number of fonts specified within the .uff file and identified by <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structures. This is also the number of <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a> structures within the .uff file.
 
 
-#### - nGlyphSets
+### -field nGlyphSets
 
 Specifies the  number of glyph sets specified within the .uff file and identified by DATA_HEADER structures. Some fonts might share a glyph set.
 
 
-#### - nVarData
+### -field nVarData
 
 Specifies the  number of variable data sections specified within the .uff file and identified by DATA_HEADER structures.
 
 
-#### - offFontDir
+### -field offFontDir
 
 Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a> structure.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Is a set of bit flags, as specified in the following table.
 <table>
@@ -132,16 +132,16 @@ The array of UFF_FONTDIRECTORY structures (specified by <b>offFontDir</b>) is so
 </table> 
 
 
-#### - dwReserved
+### -field dwReserved
 
 Reserved. Must be set to zero.
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
-
 <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
+
+<a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
 
  
 

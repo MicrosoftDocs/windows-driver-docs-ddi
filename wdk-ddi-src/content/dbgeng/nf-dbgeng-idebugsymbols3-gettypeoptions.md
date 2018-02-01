@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a21442e5-8237-4d00-8d8a-6fabd6cc0db2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::GetTypeOptions, IDebugSymbols3, dbgeng/IDebugSymbols3::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method, GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, GetTypeOptions method [Windows Debugging], GetTypeOptions, IDebugSymbols3::GetTypeOptions, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, debugger.gettypeoptions, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, IDebugSymbols2::GetTypeOptions
+ms.keywords: GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetTypeOptions, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method, dbgeng/IDebugSymbols2::GetTypeOptions, GetTypeOptions, dbgeng/IDebugSymbols3::GetTypeOptions, debugger.gettypeoptions, IDebugSymbols2::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols3, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetTypeOptions(
 
 
 
-#### - Options [out]
+### -param Options [out]
 
 Receives the type formatting options.  <i>Options</i> is a bit-set; for a description of the bit flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541712">DEBUG_TYPEOPTS_XXX</a>.
 
@@ -108,15 +108,15 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
 
  
 

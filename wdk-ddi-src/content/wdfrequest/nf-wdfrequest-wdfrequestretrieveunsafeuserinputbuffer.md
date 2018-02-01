@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a5e141d-2ef5-482c-8470-560411241510
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTRETRIEVEUNSAFEUSERINPUTBUFFER, wdf.wdfrequestretrieveunsafeuserinputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserInputBuffer, WdfRequestRetrieveUnsafeUserInputBuffer, kmdf.wdfrequestretrieveunsafeuserinputbuffer, WdfRequestRetrieveUnsafeUserInputBuffer method, DFRequestObjectRef_0ac5a2ff-74b6-4e9c-9a3e-0038c3e1420a.xml
+ms.keywords: WdfRequestRetrieveUnsafeUserInputBuffer, wdf.wdfrequestretrieveunsafeuserinputbuffer, kmdf.wdfrequestretrieveunsafeuserinputbuffer, PFN_WDFREQUESTRETRIEVEUNSAFEUSERINPUTBUFFER, WdfRequestRetrieveUnsafeUserInputBuffer method, DFRequestObjectRef_0ac5a2ff-74b6-4e9c-9a3e-0038c3e1420a.xml, wdfrequest/WdfRequestRetrieveUnsafeUserInputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfRequestRetrieveUnsafeUserInputBuffer(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object. 
 
 
-#### - MinimumRequiredLength [in]
+### -param MinimumRequiredLength [in]
 
 The minimum buffer size, in bytes, that the driver needs to process the I/O request.
 
 
-#### - InputBuffer [out]
+### -param InputBuffer [out]
 
 A pointer to a location that receives the buffer's address.
 
 
-#### - Length [out, optional]
+### -param Length [out, optional]
 
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
@@ -176,11 +176,11 @@ For more information about <b>WdfRequestRetrieveUnsafeUserInputBuffer</b>, see <
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
 
  
 

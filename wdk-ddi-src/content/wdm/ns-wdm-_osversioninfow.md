@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PRTL_OSVERSIONINFOW, OSVERSIONINFOW, _OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOW, OSVERSIONINFO, *LPOSVERSIONINFOW, wdm/PRTL_OSVERSIONINFOW, kernel.rtl_osversioninfow, *POSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, *PRTL_OSVERSIONINFOW
+ms.keywords: "*POSVERSIONINFOW, wdm/PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, kernel.rtl_osversioninfow, OSVERSIONINFO, _OSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOW, PRTL_OSVERSIONINFOW, *LPOSVERSIONINFOW, OSVERSIONINFOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _OSVERSIONINFOW {
 
 
 
-#### - dwOSVersionInfoSize
+### -field dwOSVersionInfoSize
 
 The size in bytes of an <b>RTL_OSVERSIONINFOW</b> structure. This member must be set before the structure is used with <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>.
 
 
-#### - dwMajorVersion
+### -field dwMajorVersion
 
 The major version number of the operating system. For example, for Windows 2000, the major version number is five. For more information, see <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>.
 
 
-#### - dwMinorVersion
+### -field dwMinorVersion
 
 The minor version number of the operating system. For example, for Windows 2000 the minor version number is zero. For more information, see <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>. 
 
 
-#### - dwBuildNumber
+### -field dwBuildNumber
 
 The build number of the operating system.
 
 
-#### - dwPlatformId
+### -field dwPlatformId
 
 The operating system platform. For Microsoft Win32 on NT-based operating systems, <b>RtlGetVersion</b> returns the value VER_PLATFORM_WIN32_NT.
 
 
-#### - szCSDVersion
+### -field szCSDVersion
 
 The service-pack version string. This member contains a null-terminated string, such as "Service Pack 3", which indicates the latest service pack installed on the system. If no service pack is installed, <b>RtlGetVersion</b> might not initialize this string. Initialize <i>szCSDVersion</i> to zero (empty string) before the call to <b>RtlGetVersion</b>.
 
@@ -112,11 +112,11 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
  
 

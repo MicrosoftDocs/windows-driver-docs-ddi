@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice_getdriver, IWDFDevice, IWDFDevice::GetDriver, GetDriver method, IWDFDevice interface, umdf.iwdfdevice_getdriver, IWDFDevice interface, GetDriver method, GetDriver method, GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, wudfddi/IWDFDevice::GetDriver
+ms.keywords: wdf.iwdfdevice_getdriver, IWDFDevice::GetDriver, IWDFDevice interface, GetDriver method, GetDriver method, IWDFDevice interface, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, wudfddi/IWDFDevice::GetDriver, IWDFDevice, umdf.iwdfdevice_getdriver, GetDriver, GetDriver method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetDriver(
 
 
 
-#### - ppWdfDriver [out]
+### -param ppWdfDriver [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the parent driver object.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5E90FB65-AF23-47C0-B0E9-2B6EF353D095
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_USSD_EVENT, wwan/PWWAN_USSD_EVENT, WWAN_USSD_EVENT, WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], PWWAN_USSD_EVENT, *PWWAN_USSD_EVENT, netvista.wwan_ussd_event, wwan/WWAN_USSD_EVENT
+ms.keywords: WWAN_USSD_EVENT, netvista.wwan_ussd_event, wwan/PWWAN_USSD_EVENT, *PWWAN_USSD_EVENT, WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], wwan/WWAN_USSD_EVENT, PWWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_USSD_EVENT, PWWAN_USSD_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,28 +70,28 @@ typedef struct _WWAN_USSD_EVENT {
 
 
 
-#### - EventType
+### -field EventType
 
 The type of USSD event.
 
 
-#### - SessionState
+### -field SessionState
 
 The USSD string is the first message of a USSD session.
 
 
-#### - UssdString
+### -field UssdString
 
 The USSD string that accompanies the event.
 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_ussd_session_state.md">WWAN_USSD_SESSION_STATE</a>
+<a href="..\wwan\ne-wwan-_wwan_ussd_event_type.md">WWAN_USSD_EVENT_TYPE</a>
 
 <a href="..\wwan\ns-wwan-_wwan_ussd_string.md">WWAN_USSD_STRING</a>
 
-<a href="..\wwan\ne-wwan-_wwan_ussd_event_type.md">WWAN_USSD_EVENT_TYPE</a>
+<a href="..\wwan\ne-wwan-_wwan_ussd_session_state.md">WWAN_USSD_SESSION_STATE</a>
 
  
 

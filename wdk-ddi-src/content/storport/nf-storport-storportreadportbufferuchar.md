@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8602efbf-8e90-43d3-992f-4d2ecbcc7043
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortBufferUchar, storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml, storage.storportreadportbufferuchar, StorPortReadPortBufferUchar routine [Storage Devices], storport/StorPortReadPortBufferUchar
+ms.keywords: storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml, storport/StorPortReadPortBufferUchar, StorPortReadPortBufferUchar, storage.storportreadportbufferuchar, StorPortReadPortBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API VOID StorPortReadPortBufferUchar(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the address from which to read. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Number of unsigned characters to be read. 
 

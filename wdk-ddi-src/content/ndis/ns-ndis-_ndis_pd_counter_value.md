@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0C2424C5-F6EE-4D07-B5C3-CEC3520AFFDC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_counter_value, *PNDIS_PD_COUNTER_VALUE, ndis/PNDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista], NDIS_PD_COUNTER_VALUE, _NDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_COUNTER_VALUE
+ms.keywords: ndis/PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_VALUE, *PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE, ndis/NDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE, netvista.ndis_pd_counter_value, NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef union _NDIS_PD_COUNTER_VALUE {
 
 
 
-#### - ReceiveQueue
+### -field ReceiveQueue
 
 See <a href="..\ndis\ns-ndis-_ndis_pd_receive_queue_counter.md">NDIS_PD_RECEIVE_QUEUE_COUNTER</a>.
 
 
-#### - TransmitQueue
+### -field TransmitQueue
 
 See <a href="..\ndis\ns-ndis-_ndis_pd_transmit_queue_counter.md">NDIS_PD_TRANSMIT_QUEUE_COUNTER</a>.
 
 
-#### - Filter
+### -field Filter
 
 See <a href="..\ndis\ns-ndis-_ndis_pd_filter_counter.md">NDIS_PD_FILTER_COUNTER</a>.
 

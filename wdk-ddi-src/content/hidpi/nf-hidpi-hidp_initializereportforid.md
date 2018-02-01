@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 9d56a07e-8898-4bd6-93ae-752ff7d3b215
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_InitializeReportForID, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hid.hidp_initializereportforid
+ms.keywords: hidpi/HidP_InitializeReportForID, HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hid.hidp_initializereportforid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS __stdcall HidP_InitializeReportForID(
 
 
 
-#### - ReportType [in]
+### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator that indicates the type of HID report located at <i>Report</i>.
 
 
-#### - ReportID [in]
+### -param ReportID [in]
 
 Specifies a report ID.
 
 
-#### - PreparsedData [in]
+### -param PreparsedData [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a> of the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> associated with the HID report located at <i>Report</i>.
 
 
-#### - Report [out]
+### -param Report [out]
 
 Pointer to the caller-allocated buffer containing the HID report that <b>HidP_InitializeReportForID</b> initializes.
 
 
-#### - ReportLength [in]
+### -param ReportLength [in]
 
 Specifies the size, in bytes, of the HID report located at <i>Report</i>. <i>ReportLength</i> must be equal to the collection's report length for the specified report type, as specified by the <i>Xxx</i><b>ReportByteLength</b> members of a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
@@ -188,11 +188,11 @@ Sets the bitfield of all controls with null values to their corresponding null v
 
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
 <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
  
 

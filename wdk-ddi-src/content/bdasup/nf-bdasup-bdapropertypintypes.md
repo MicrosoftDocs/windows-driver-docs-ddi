@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 155aafd7-0d26-47b1-9401-9d780e393e03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaPropertyPinTypes, BdaPropertyPinTypes function [Streaming Media Devices], bdasup/BdaPropertyPinTypes, stream.bdapropertypintypes, bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml
+ms.keywords: bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, stream.bdapropertypintypes, BdaPropertyPinTypes function [Streaming Media Devices], BdaPropertyPinTypes, bdasup/BdaPropertyPinTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS BdaPropertyPinTypes(
 TBD
 
 
-#### - pKSProperty [in]
+### -param pKSProperty [in]
 
 Points to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
-#### - pulProperty [out]
+### -param pulProperty [out]
 
 Points to an array that receives the list of pin types. 
 
@@ -106,9 +106,9 @@ A BDA minidriver calls the <b>BdaPropertyPinTypes</b> function to retrieve the l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564352">KSPROPERTY_BDA_PIN_TYPES</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564352">KSPROPERTY_BDA_PIN_TYPES</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 92E2A992-8A0B-4E0F-B615-DC6E30E4A227
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, PWDF_INTERRUPT_POLICY, wudfinterrupt/PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY enumeration, umdf.wdf_interrupt_policy, PWDF_INTERRUPT_POLICY enumeration pointer, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, _WDF_INTERRUPT_POLICY, WdfIrqPolicyAllCloseProcessors, wdf.wdf_interrupt_policy_umdf, WdfIrqPolicyAllProcessorsInMachine, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicySpreadMessagesAcrossAllProcessors, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, WdfIrqPolicyMachineDefault, wudfinterrupt/WDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY, WdfIrqPolicyOneCloseProcessor, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicyMachineDefault, *PWDF_INTERRUPT_POLICY
+ms.keywords: WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyMachineDefault, WDF_INTERRUPT_POLICY enumeration, _WDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, WDF_INTERRUPT_POLICY, wudfinterrupt/WDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY enumeration pointer, WdfIrqPolicyAllCloseProcessors, PWDF_INTERRUPT_POLICY, wdf.wdf_interrupt_policy_umdf, *PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicyMachineDefault, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, umdf.wdf_interrupt_policy, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, WdfIrqPolicySpecifiedProcessors, wudfinterrupt/PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyOneCloseProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,32 +75,32 @@ typedef enum _WDF_INTERRUPT_POLICY {
 
 
 
-#### - WdfIrqPolicyMachineDefault
+### -field WdfIrqPolicyMachineDefault
 
 Use the system's default affinity policy.
 
 
-#### - WdfIrqPolicyAllCloseProcessors
+### -field WdfIrqPolicyAllCloseProcessors
 
 For NUMA systems, the PnP manager should assign the device's interrupts to processors that are close to the device. For non-NUMA systems, specifying <b>WdfIrqPolicyAllCloseProcessors</b> is the same as specifying <b>WdfIrqPolicyAllProcessorsInMachine</b>.
 
 
-#### - WdfIrqPolicyOneCloseProcessor
+### -field WdfIrqPolicyOneCloseProcessor
 
 For NUMA systems, the PnP manager should assign one interrupt to a processor that is close to the device. For non-NUMA systems, the PnP manager can assign the interrupt to any processor.
 
 
-#### - WdfIrqPolicyAllProcessorsInMachine
+### -field WdfIrqPolicyAllProcessorsInMachine
 
 The PnP manager can assign a device's interrupts to any of the system's processors.
 
 
-#### - WdfIrqPolicySpecifiedProcessors
+### -field WdfIrqPolicySpecifiedProcessors
 
 The PnP manager should assign the device's interrupts only to specified processors.
 
 
-#### - WdfIrqPolicySpreadMessagesAcrossAllProcessors
+### -field WdfIrqPolicySpreadMessagesAcrossAllProcessors
 
 The PnP manager should assign different message-based interrupts to different processors, if possible. 
 

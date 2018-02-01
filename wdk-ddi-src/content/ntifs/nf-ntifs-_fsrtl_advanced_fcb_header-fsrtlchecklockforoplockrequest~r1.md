@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 67056CD0-EBFB-4E34-9613-98ECBB858810
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCheckLockForOplockRequest, ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest routine [Installable File System Drivers]
+ms.keywords: FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN FsRtlCheckLockForOplockRequest(
 
 
 
-#### - FileLock [in]
+### -param FileLock [in]
 
 The file lock that specifies locked ranges.
 
 
-#### - AllocationSize [in]
+### -param AllocationSize [in]
 
 The file allocation size to check for any locked ranges.
 

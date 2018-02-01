@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 351859d5-89fb-4756-a75b-fd4048cb20ef
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getextensionfunctionwide, GetExtensionFunctionWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetExtensionFunctionWide method, GetExtensionFunctionWide method [Windows Debugging], IDebugControl4, dbgeng/IDebugControl4::GetExtensionFunctionWide, GetExtensionFunctionWide, IDebugControl4::GetExtensionFunctionWide
+ms.keywords: debugger.getextensionfunctionwide, dbgeng/IDebugControl4::GetExtensionFunctionWide, GetExtensionFunctionWide, IDebugControl4::GetExtensionFunctionWide, GetExtensionFunctionWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetExtensionFunctionWide method, IDebugControl4, GetExtensionFunctionWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetExtensionFunctionWide(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Specifies the handle of the extension library that contains the extension function.  If <i>Handle</i> is zero, the engine will walk the extension library chain searching for the extension function.
 
 
-#### - FuncName [in]
+### -param FuncName [in]
 
 Specifies the name of the extension function to return.  When searching the extension libraries for the function, the debugger engine will prepend "_EFN_" to the name.  For example, if <i>FuncName</i> is "SampleFunction", the engine will search the extension libraries for "_EFN_SampleFunction".
 
 
-#### - Function [out]
+### -param Function [out]
 
 Receives the extension function.
 
@@ -121,13 +121,13 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
 
  
 

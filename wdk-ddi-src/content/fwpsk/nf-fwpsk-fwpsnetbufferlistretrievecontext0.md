@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 482cec75-8a21-4988-b869-639d019f9460
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_J-Q_63312511-d342-4705-86d9-844c59f42fe3.xml, netvista.fwpsnetbufferlistretrievecontext0, FwpsNetBufferListRetrieveContext0, fwpsk/FwpsNetBufferListRetrieveContext0, FwpsNetBufferListRetrieveContext0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsNetBufferListRetrieveContext0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_63312511-d342-4705-86d9-844c59f42fe3.xml, FwpsNetBufferListRetrieveContext0, netvista.fwpsnetbufferlistretrievecontext0, fwpsk/FwpsNetBufferListRetrieveContext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,33 +74,33 @@ NTSTATUS NTAPI FwpsNetBufferListRetrieveContext0(
 
 
 
-#### - netBufferList [in, out]
+### -param netBufferList [in, out]
 
 A network buffer list that indicates one or more packets of interest to the callout driver. If 
      <i>removeContext</i> is set, the network buffer list returned will have the context removed.
 
 
-#### - contextTag [in]
+### -param contextTag [in]
 
 A locally unique identifier obtained by calling the 
-     <mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
-     FwpsNetBufferListGetTagForContext0</b></mshelp:link> function. This is the context tag used in the initial call to 
+     <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+     FwpsNetBufferListGetTagForContext0</a> function. This is the context tag used in the initial call to 
      <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">FwpsNetBufferListAssociateContext0</a>.
 
 
-#### - removeContext [in]
+### -param removeContext [in]
 
 If set, 
      <b>FwpsNetBufferListRetrieveContext0</b> will remove the context association in addition to retrieving
      the context.
 
 
-#### - flags [in]
+### -param flags [in]
 
 This parameter is reserved for future use and is set to zero.
 
 
-#### - context [out]
+### -param context [out]
 
 The context assigned to the packet by the callout driver in the initial call to 
      <b>FwpsNetBufferListAssociateContext0</b>.
@@ -156,16 +156,16 @@ You can also use this function to remove the context association by setting the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistremovecontext0" tabindex="0"><b>
-   FwpsNetBufferListRemoveContext0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
-   FwpsNetBufferListGetTagForContext0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsnetbufferlistassociatecontext0" tabindex="0"><b>
-   FwpsNetBufferListAssociateContext0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">
+   FwpsNetBufferListAssociateContext0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+   FwpsNetBufferListGetTagForContext0</a>
 
  
 

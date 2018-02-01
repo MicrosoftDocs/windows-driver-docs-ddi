@@ -72,19 +72,14 @@ VOID IoTimer(
 
 
 
-#### - *DeviceObject [in]
+### -param *DeviceObject [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>.
-
-
-#### - DeviceObject [in]
-
-Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 
 ## -returns

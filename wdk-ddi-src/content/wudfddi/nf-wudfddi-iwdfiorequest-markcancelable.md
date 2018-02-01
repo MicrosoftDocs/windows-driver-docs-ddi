@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73e323a4-d40e-4414-92b7-310bfb0f6457
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: MarkCancelable method, wdf.iwdfiorequest_markcancelable, MarkCancelable, umdf.iwdfiorequest_markcancelable, IWDFIoRequest, IWDFIoRequest::MarkCancelable, wudfddi/IWDFIoRequest::MarkCancelable, MarkCancelable method, IWDFIoRequest interface, UMDFRequestObjectRef_c1304e95-724d-4ced-abc2-801b1606f43b.xml, IWDFIoRequest interface, MarkCancelable method
+ms.keywords: MarkCancelable method, IWDFIoRequest interface, MarkCancelable method, wdf.iwdfiorequest_markcancelable, umdf.iwdfiorequest_markcancelable, UMDFRequestObjectRef_c1304e95-724d-4ced-abc2-801b1606f43b.xml, MarkCancelable, wudfddi/IWDFIoRequest::MarkCancelable, IWDFIoRequest::MarkCancelable, MarkCancelable method, IWDFIoRequest interface, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void  MarkCancelable(
 
 
 
-#### - pCancelCallback [in]
+### -param pCancelCallback [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a> interface whose method the framework calls after the I/O request is canceled.
 
@@ -116,23 +116,23 @@ After the framework dequeues the request from the second queue and delivers the 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92594bdd-a458-4262-ac4c-013cffb7a725
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_DEVICE, stream.ksevent_device, KSEVENT_DEVICE enumeration [Streaming Media Devices], ks/KSEVENT_DEVICE_LOST, KSEVENT_DEVICE_PREEMPTED, KSEVENT_DEVICE, KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE_PREEMPTED
+ms.keywords: KSEVENT_DEVICE, ks/KSEVENT_DEVICE, ks/KSEVENT_DEVICE_LOST, KSEVENT_DEVICE_PREEMPTED, KSEVENT_DEVICE enumeration [Streaming Media Devices], ks/KSEVENT_DEVICE_PREEMPTED, KSEVENT_DEVICE_LOST, stream.ksevent_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum  {
 
 
 
-#### - KSEVENT_DEVICE_LOST
+### -field KSEVENT_DEVICE_LOST
 
 A camera device has been removed from the system. See <a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>.
 
 
-#### - KSEVENT_DEVICE_PREEMPTED
+### -field KSEVENT_DEVICE_PREEMPTED
 
 A camera device has been preempted by a new Windows app. See <a href="https://msdn.microsoft.com/library/windows/hardware/jj156040">KSEVENT_DEVICE_PREEMPTED</a>.
 

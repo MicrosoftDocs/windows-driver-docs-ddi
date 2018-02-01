@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66ec7c51-3d2c-4a25-a356-4df06ee1b1f5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleNameWide method, dbgeng/IDebugSymbols3::GetModuleByModuleNameWide, IDebugSymbols3, IDebugSymbols3::GetModuleByModuleNameWide, debugger.getmodulebymodulenamewide, GetModuleByModuleNameWide, GetModuleByModuleNameWide method [Windows Debugging]
+ms.keywords: IDebugSymbols3::GetModuleByModuleNameWide, GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleNameWide, dbgeng/IDebugSymbols3::GetModuleByModuleNameWide, debugger.getmodulebymodulenamewide, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleNameWide method, GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetModuleByModuleNameWide(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 Specifies the name of the desired module.
 
 
-#### - StartIndex [in]
+### -param StartIndex [in]
 
 Specifies the index to start searching from.
 
 
-#### - Index [out, optional]
+### -param Index [out, optional]
 
 Receives the index of the first module with the name <i>Name</i>.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Base [out, optional]
+### -param Base [out, optional]
 
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 

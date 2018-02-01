@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7c51b228-480d-4e19-aa70-4fcc44ffae16
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_OPM_GET_INFOMATION structure [Display Devices], display.idarg_out_opm_get_infomation, iddcx/IDARG_OUT_OPM_GET_INFOMATION, IDARG_OUT_OPM_GET_INFOMATION
+ms.keywords: iddcx/IDARG_OUT_OPM_GET_INFOMATION, IDARG_OUT_OPM_GET_INFOMATION, display.idarg_out_opm_get_infomation, IDARG_OUT_OPM_GET_INFOMATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct IDARG_OUT_OPM_GET_INFOMATION {
 
 
 
-#### - RequestedInformation
+### -field RequestedInformation
 
 
                       [out] The OPM information that was requested.

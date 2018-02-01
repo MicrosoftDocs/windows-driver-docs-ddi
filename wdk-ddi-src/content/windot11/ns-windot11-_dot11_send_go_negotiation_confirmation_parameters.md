@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CBEDFDCA-A43D-47E3-AE3F-2C25E50D7A70
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, windot11/PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, netvista.dot11_send_go_negotiation_confirmation_parameters, windot11/DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, _DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
+ms.keywords: "_DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, windot11/DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, *PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, netvista.dot11_send_go_negotiation_confirmation_parameters, windot11/PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ typedef struct _DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following:
 <table>
@@ -101,63 +101,63 @@ Specifies the type, revision and size of the <b>DOT11_SEND_GO_NEGOTIATION_CONFIR
 </table> 
 
 
-#### - PeerDeviceAddress
+### -field PeerDeviceAddress
 
 The Peer-to-Peer (P2P) address of the Wi-Fi Direct (WFD) device that the GO negotiation confirmation is sent to.
 
 
-#### - DialogToken
+### -field DialogToken
 
 The dialog token received from the GO negotiation response packet. This dialog token must be included in  the GO negotiation confirmation  packet.
 
 
-#### - ResponseContext
+### -field ResponseContext
 
 Miniport context data included in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439791">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_RESPONSE</a> indication.
 
 
-#### - uSendTimeout
+### -field uSendTimeout
 
 The maximum time, in milliseconds, allowed to send the GO negotiation response. If the timeout expires before the miniport has successfully transmitted the GO negotiation confirmation, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451706">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a> with a failure status.
 
 
-#### - Status
+### -field Status
 
 Status information to include in the GO  negotiation confirmation.
 
 
-#### - GroupCapability
+### -field GroupCapability
 
 The capability values that are included in the Group Capability bitmask of the Peer-to-Peer (P2P) Capability Information Element (IE) in  a GO negotiation confirmation.
 
 
-#### - GroupID
+### -field GroupID
 
 The group identifier to include in the Group ID attribute of the GO negotiation confirmation.
 
 
-#### - bUseGroupID
+### -field bUseGroupID
 
 If TRUE, the value in <b>GroupID</b> should be included in the GO negotiation confirmation.
 
 
-#### - uIEsOffset
+### -field uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) the Wi-Fi Direct (WFD) port must add to the GO negotiation confirmation packet. This offset is from the start of the buffer that contains this structure.
 
 
-#### - uIEsLength
+### -field uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451706">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439791">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_RESPONSE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451803">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439791">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451706">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a>
 
  
 

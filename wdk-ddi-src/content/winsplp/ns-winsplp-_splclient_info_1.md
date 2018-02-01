@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a9659f77-e84b-471a-a778-a4628d89ce19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PSPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], SPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1, winsplp/LPSPLCLIENT_INFO_1, print.splclient_info_1, winsplp/SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, _SPLCLIENT_INFO_1, winsplp/PSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1 structure pointer [Print Devices], LPSPLCLIENT_INFO_1 structure pointer [Print Devices], poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml
+ms.keywords: LPSPLCLIENT_INFO_1 structure pointer [Print Devices], winsplp/SPLCLIENT_INFO_1, PSPLCLIENT_INFO_1 structure pointer [Print Devices], LPSPLCLIENT_INFO_1, poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, SPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], winsplp/PSPLCLIENT_INFO_1, winsplp/LPSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1, _SPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, print.splclient_info_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _SPLCLIENT_INFO_1 {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Size of the SPLCLIENT_INFO_1 structure.
 
 
-#### - pMachineName
+### -field pMachineName
 
 Not used.
 
 
-#### - pUserName
+### -field pUserName
 
 Not used.
 
 
-#### - dwBuildNum
+### -field dwBuildNum
 
 The build number of the version of the NT-based operating system running on the client, as returned by the Microsoft Window SDK <b>GetVersionEx</b> function.
 
 
-#### - dwMajorVersion
+### -field dwMajorVersion
 
 The major version number of the NT-based operating system print spooler running on the client.
 
 
-#### - dwMinorVersion
+### -field dwMinorVersion
 
 The minor version number of the NT-based operating system print spooler running on the client.
 
 
-#### - wProcessorArchitecture
+### -field wProcessorArchitecture
 
 The client's processor architecture, as returned by the Window SDK <b>GetSystemInfo</b> function.
 

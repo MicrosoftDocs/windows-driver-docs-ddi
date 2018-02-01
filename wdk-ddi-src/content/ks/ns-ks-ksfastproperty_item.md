@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a39b7cb-cd05-4fb8-9e50-7425e689a36f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, ks/KSFASTPROPERTY_ITEM, ks/PKSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], *PKSFASTPROPERTY_ITEM, stream.ksfastproperty_item, PKSFASTPROPERTY_ITEM
+ms.keywords: ks/PKSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM, ks/KSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], stream.ksfastproperty_item, KSFASTPROPERTY_ITEM, ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, KSFASTPROPERTY_ITEM structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,32 +76,32 @@ typedef struct {
 
 
 
-#### - GetPropertyHandler
+### -field GetPropertyHandler
 
 Points to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a> routine that specifies the fast handler for retrieving the property. If this is <b>NULL</b>, the property cannot be read with a fast handler.
 
 
-#### - GetSupported
+### -field GetSupported
 
 A boolean value that indicates if the driver has supplied a get property handler.
 
 
-#### - SetPropertyHandler
+### -field SetPropertyHandler
 
 Points to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a> routine that specifies the fast handler for setting the property. If this is <b>NULL</b>, the property cannot be set with a fast handler.
 
 
-#### - SetSupported
+### -field SetSupported
 
 A boolean value that indicates if the driver has supplied a set property handler.
 
 
-#### - PropertyId
+### -field PropertyId
 
 Specifies the identifier of the specific property within the set.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved and set to zero.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, kmdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, wdf.wdfusbtargetpipegettype, PFN_WDFUSBTARGETPIPEGETTYPE, WdfUsbTargetPipeGetType
+ms.keywords: WdfUsbTargetPipeGetType method, WdfUsbTargetPipeGetType, kmdf.wdfusbtargetpipegettype, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, wdfusb/WdfUsbTargetPipeGetType, wdf.wdfusbtargetpipegettype, PFN_WDFUSBTARGETPIPEGETTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDF_USB_PIPE_TYPE WdfUsbTargetPipeGetType(
 
 
 
-#### - Pipe [in]
+### -param Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
@@ -98,9 +98,9 @@ For more information about the <b>WdfUsbTargetPipeGetType</b> method and USB I/O
 
 ## -see-also
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
 
  
 

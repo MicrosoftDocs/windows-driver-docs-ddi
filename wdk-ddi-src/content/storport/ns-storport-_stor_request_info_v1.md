@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_STOR_REQUEST_INFO_V1, StorIoPriorityCritical, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], storport/_STOR_REQUEST_INFO_V1, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, STOR_REQUEST_INFO_V1, StorIoPriorityLow, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, _STOR_REQUEST_INFO_V1 structure [Storage Devices], STOR_REQUEST_INFO_V1 structure [Storage Devices], storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, StorIoPriorityVeryLow, StorIoPriorityNormal, StorIoPriorityHigh, *PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1, REQUEST_INFO_PAGING_IO_FLAG"
+ms.keywords: storport/PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], storage.stor_request_info, StorIoPriorityVeryLow, StorIoPriorityLow, PSTOR_REQUEST_INFO_V1, *PSTOR_REQUEST_INFO_V1, REQUEST_INFO_TEMPORARY_FLAG, STOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1, storport/_STOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityNormal, StorIoPriorityHigh, StorIoPriorityCritical, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, _STOR_REQUEST_INFO_V1 structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,17 +77,17 @@ typedef struct _STOR_REQUEST_INFO_V1 {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure. Set this member to <b>STOR_REQUEST_INFO_VER_1</b>.
 
 
-#### - Size
+### -field Size
 
 The size of this structure. Set this value to <b>sizeof</b>(STOR_REQUEST_INFO).
 
 
-#### - PriorityHint
+### -field PriorityHint
 
 The priority hint set for the IO request.
 <table>
@@ -153,7 +153,7 @@ Critical priority.
 </table> 
 
 
-#### - Flags
+### -field Flags
 
 Flags set for handling the request. May be a combination of these values:
 <table>
@@ -214,22 +214,22 @@ No system buffering for the request.
 </table> 
 
 
-#### - Key
+### -field Key
 
 The read or write key for the request.
 
 
-#### - Length
+### -field Length
 
 The length of the data in this request.
 
 
-#### - IsWriteRequest
+### -field IsWriteRequest
 
 True if this is a write request. Otherwise, false, if this is a read request.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 

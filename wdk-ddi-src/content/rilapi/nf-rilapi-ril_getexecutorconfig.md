@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 71931187-14f1-459f-9c1a-cc3463178af9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetExecutorConfig, RIL_GetExecutorConfig, netvista.ril_getexecutorconfig, RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_getexecutorconfig, RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetExecutorConfig, RIL_GetExecutorConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetExecutorConfig(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 

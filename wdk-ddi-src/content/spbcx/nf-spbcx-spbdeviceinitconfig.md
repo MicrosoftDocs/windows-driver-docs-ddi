@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 7B62C0B0-F90A-41B1-B903-5C9F905F4A08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spbdeviceinitconfig, SpbDeviceInitConfig method [Buses], spbcx/SpbDeviceInitConfig, SpbDeviceInitConfig
+ms.keywords: SpbDeviceInitConfig method [Buses], SpbDeviceInitConfig, SPB.spbdeviceinitconfig, spbcx/SpbDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS SpbDeviceInitConfig(
 
 
 
-#### - DeviceInit [in, out]
+### -param DeviceInit [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that is  to be configured.
 
@@ -107,11 +107,11 @@ This method associates the configuration information for SpbCx with the <a href=
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 

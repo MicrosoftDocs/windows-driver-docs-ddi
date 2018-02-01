@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwFlushVirtualMemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, ntifs/ZwFlushVirtualMemory, ntifs/NtFlushVirtualMemory, kernel.zwflushvirtualmemory, NtFlushVirtualMemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwFlushVirtualMemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], NtFlushVirtualMemory, ntifs/ZwFlushVirtualMemory, kernel.zwflushvirtualmemory, ntifs/NtFlushVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS ZwFlushVirtualMemory(
 
 
 
-#### - ProcessHandle [in]
+### -param ProcessHandle [in]
 
 An open handle for the process in whose context the pages to be flushed reside. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process. 
 
 
-#### - BaseAddress [in, out]
+### -param BaseAddress [in, out]
 
 A pointer to the base address of the virtual address range.
 
@@ -85,7 +85,7 @@ On entry, this parameter specifies a pointer to the initial value of the base ad
 On return, this parameter provides a pointer to a variable that will receive the base address of the flushed region.
 
 
-#### - RegionSize [in, out]
+### -param RegionSize [in, out]
 
 The size, in bytes, of the virtual address range.
 
@@ -94,7 +94,7 @@ On entry, this parameter specifies a pointer to the initial value of the size in
 On return, this parameter specifies a pointer to a variable that will receive the actual size in bytes of the flushed region of pages.
 
 
-#### - IoStatus [out]
+### -param IoStatus [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. This structure is where the value of the I/O status for the last attempted I/O operation is stored on output.
 
@@ -202,9 +202,9 @@ For more information about memory management support for kernel-mode drivers, se
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

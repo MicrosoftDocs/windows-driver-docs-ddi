@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D1CCF3D-D677-47B0-9C7B-7E35C649A7D5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorageCryptoAlgorithmMax, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmAESECB, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmAESECB, STORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], ntddstor/StorageCryptoAlgorithmXTSAES, ntddstor/StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmMax, StorageCryptoAlgorithmXTSAES, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, _STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, storage.storage_crypto_algorithm_id, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices]
+ms.keywords: ntddstor/StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmAESECB, _STORAGE_CRYPTO_ALGORITHM_ID, storage.storage_crypto_algorithm_id, ntddstor/StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmAESECB, ntddstor/StorageCryptoAlgorithmXTSAES, StorageCryptoAlgorithmXTSAES, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _STORAGE_CRYPTO_ALGORITHM_ID {
 
 
 
-#### - StorageCryptoAlgorithmUnknown
+### -field StorageCryptoAlgorithmUnknown
 
 Reserved for system use.
 
 
-#### - StorageCryptoAlgorithmXTSAES
+### -field StorageCryptoAlgorithmXTSAES
 
 Reserved for system use.
 
 
-#### - StorageCryptoAlgorithmBitlockerAESCBC
+### -field StorageCryptoAlgorithmBitlockerAESCBC
 
 Reserved for system use.
 
 
-#### - StorageCryptoAlgorithmAESECB
+### -field StorageCryptoAlgorithmAESECB
 
 Reserved for system use.
 
 
-#### - StorageCryptoAlgorithmESSIVAESCBC
+### -field StorageCryptoAlgorithmESSIVAESCBC
 
 Reserved for system use.
 
 
-#### - StorageCryptoAlgorithmMax
+### -field StorageCryptoAlgorithmMax
 
 Reserved for system use.
 

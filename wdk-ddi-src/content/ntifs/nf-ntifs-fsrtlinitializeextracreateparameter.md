@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e3be12e4-84f3-4bd5-af9a-26ad89948e50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers], FsRtlInitializeExtraCreateParameter, ntifs/FsRtlInitializeExtraCreateParameter, ifsk.fsrtlinitializeextracreateparameter
+ms.keywords: ifsk.fsrtlinitializeextracreateparameter, ntifs/FsRtlInitializeExtraCreateParameter, fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers], FsRtlInitializeExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,32 +72,32 @@ VOID FsRtlInitializeExtraCreateParameter(
 
 
 
-#### - Ecp [in]
+### -param Ecp [in]
 
 Pointer to the ECP context structure to initialize. 
 
 
-#### - EcpFlags [in]
+### -param EcpFlags [in]
 
 Defines initialization options. Currently, no flags are defined. 
 
 
-#### - CleanupCallback [in, optional]
+### -param CleanupCallback [in, optional]
 
 Optional pointer to a filter-defined cleanup callback routine of type <a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>. The cleanup callback routine is called when the ECP context structure (created by the <a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameter.md">FsRtlAllocateExtraCreateParameter</a> routine) is deleted. Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable. 
 
 
-#### - TotalSize [in]
+### -param TotalSize [in]
 
 The size, in bytes, of the ECP context structure to initialize. 
 
 
-#### - EcpType [in]
+### -param EcpType [in]
 
 Pointer to a GUID that indicates the type of ECP for which the context structure will be initialized. For more information about ECPs, see <a href="https://msdn.microsoft.com/e32aeec6-1a0a-4d21-8358-89d9fc0a15eb">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>. 
 
 
-#### - ListAllocatedFrom [in, optional]
+### -param ListAllocatedFrom [in, optional]
 
 Optional pointer to the list from which the ECP context structure is allocated. 
 

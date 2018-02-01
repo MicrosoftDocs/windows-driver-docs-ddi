@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E079527D-1687-4A12-B86E-96C89CE458CE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcleanup, VmbChannelCleanup
+ms.keywords: VmbChannelCleanup, netvista.vmbchannelcleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID VmbChannelCleanup(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel to clean up. 
 

@@ -75,14 +75,14 @@ NDIS_STATUS MiniportCoActivateVc(
 
 
 
-#### - MiniportVcContext [in]
+### -param MiniportVcContext [in]
 
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 
      <i>MiniportCoCreateVc</i> function.
 
 
-#### - CallParameters [in, out]
+### -param CallParameters [in, out]
 
 Specifies the call parameters, as specified by the call manager, to be established for this VC. On
      output, the miniport driver returns altered call parameters if certain flags are set in the 
@@ -117,8 +117,8 @@ Indicates that the VC was activated successfully.
 <td width="60%">
 Indicates that the miniport driver will complete the request to activate a VC asynchronously.
        When the miniport driver has finished with its operations, it must call 
-       <mshelp:link keywords="netvista.ndismcoactivatevccomplete" tabindex="0"><b>
-       NdisMCoActivateVcComplete</b></mshelp:link>.
+       <a href="..\ndis\nf-ndis-ndismcoactivatevccomplete.md">
+       NdisMCoActivateVcComplete</a>.
 
 </td>
 </tr>
@@ -217,9 +217,9 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-
 <a href="..\ndis\nf-ndis-ndismcoactivatevccomplete.md">NdisMCoActivateVcComplete</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24197846-9664-4fc6-8578-5bcaf0e4a71c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_driver_config, wdf.wdf_driver_config, _WDF_DRIVER_CONFIG, wdfdriver/WDF_DRIVER_CONFIG, WDF_DRIVER_CONFIG, WDF_DRIVER_CONFIG structure, PWDF_DRIVER_CONFIG, wdfdriver/PWDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG, PWDF_DRIVER_CONFIG structure pointer, DFDriverObjectRef_89306ddc-557c-4142-a26b-a120acdffed6.xml
+ms.keywords: "_WDF_DRIVER_CONFIG, DFDriverObjectRef_89306ddc-557c-4142-a26b-a120acdffed6.xml, kmdf.wdf_driver_config, wdf.wdf_driver_config, WDF_DRIVER_CONFIG structure, wdfdriver/PWDF_DRIVER_CONFIG, wdfdriver/WDF_DRIVER_CONFIG, PWDF_DRIVER_CONFIG structure pointer, *PWDF_DRIVER_CONFIG, PWDF_DRIVER_CONFIG, WDF_DRIVER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,27 +74,27 @@ typedef struct _WDF_DRIVER_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - EvtDriverDeviceAdd
+### -field EvtDriverDeviceAdd
 
 A pointer to a driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-#### - EvtDriverUnload
+### -field EvtDriverUnload
 
 A pointer to a driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a> callback function.
 
 
-#### - DriverInitFlags
+### -field DriverInitFlags
 
 A bitwise OR of one or more <a href="..\wdfdriver\ne-wdfdriver-_wdf_driver_init_flags.md">WDF_DRIVER_INIT_FLAGS</a>-typed values that identify driver initialization flags.
 
 
-#### - DriverPoolTag
+### -field DriverPoolTag
 
 (KMDF versions 1.5 and later.) A driver-defined pool tag that the framework will assign to all of the driver's pool allocations. Debuggers display this tag. For more information about specifying a pool tag, see the following Remarks section.
 
@@ -112,15 +112,15 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdr
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
 <a href="..\wdfdriver\ne-wdfdriver-_wdf_driver_init_flags.md">WDF_DRIVER_INIT_FLAGS</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
-
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
 
  
 

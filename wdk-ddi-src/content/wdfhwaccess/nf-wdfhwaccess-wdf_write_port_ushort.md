@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 310C55F8-E62C-4ABE-997E-E551CA6C4BB2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_write_port_ushort, WDF_WRITE_PORT_USHORT, wdfhwaccess/WDF_WRITE_PORT_USHORT, WDF_WRITE_PORT_USHORT function
+ms.keywords: WDF_WRITE_PORT_USHORT function, wdf.wdf_write_port_ushort, WDF_WRITE_PORT_USHORT, wdfhwaccess/WDF_WRITE_PORT_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ void WDF_WRITE_PORT_USHORT(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Port [in]
+### -param Port [in]
 
 A pointer to the port, which must be a mapped memory range in I/O space.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a USHORT value to be written to the port.
 

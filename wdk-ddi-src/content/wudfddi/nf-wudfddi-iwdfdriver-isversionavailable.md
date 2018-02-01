@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9048a568-3369-44eb-8fa8-361ce968a253
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IsVersionAvailable method, IWDFDriver interface, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, umdf.iwdfdriver_isversionavailable, wdf.iwdfdriver_isversionavailable, IsVersionAvailable, wudfddi/IWDFDriver::IsVersionAvailable, IWDFDriver::IsVersionAvailable, IWDFDriver interface, IsVersionAvailable method, IsVersionAvailable method, IWDFDriver
+ms.keywords: IWDFDriver, IsVersionAvailable method, IWDFDriver interface, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, wdf.iwdfdriver_isversionavailable, IWDFDriver interface, IsVersionAvailable method, IsVersionAvailable method, wudfddi/IWDFDriver::IsVersionAvailable, umdf.iwdfdriver_isversionavailable, IsVersionAvailable, IWDFDriver::IsVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ BOOL IsVersionAvailable(
 
 
 
-#### - pMinimumVersion [in]
+### -param pMinimumVersion [in]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">UMDF_VERSION_DATA</a> structure that describes the minimum version of the framework that the driver supports.
 

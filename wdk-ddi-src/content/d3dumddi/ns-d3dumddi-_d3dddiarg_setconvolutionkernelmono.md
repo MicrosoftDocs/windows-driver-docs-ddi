@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a7a19c7-2e2d-4e52-920d-68f1d2d77585
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, display.d3dddiarg_setconvolutionkernelmono, D3DDDIARG_SETCONVOLUTIONKERNELMONO, D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices], _D3DDDIARG_SETCONVOLUTIONKERNELMONO
+ms.keywords: d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices], D3DDDIARG_SETCONVOLUTIONKERNELMONO, UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, _D3DDDIARG_SETCONVOLUTIONKERNELMONO, display.d3dddiarg_setconvolutionkernelmono
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DDDIARG_SETCONVOLUTIONKERNELMONO {
 
 
 
-#### - Width
+### -field Width
 
 [in] The width, which is the resolution of the filter kernel in the horizontal direction. Valid values for this member are from 1 to 7. 
 
 
-#### - Height
+### -field Height
 
 [in] The height, which is the resolution of the filter kernel in the vertical direction. Valid values for this member are from 1 to 7. 
 
 
-#### - pKernelRow
+### -field pKernelRow
 
 [in] A pointer to weights in the horizontal direction of a separable filter. In Microsoft Direct3D 9.L and later, <b>pKernelRow</b> must be <b>NULL</b>, which indicates that all of the weights are 1.0. 
 
 
-#### - pKernelCol
+### -field pKernelCol
 
 [in] A pointer to weights in the vertical direction of a separable filter. In Direct3D 9.L and later, <b>pKernelCol</b> must be <b>NULL</b>, which indicates that all of the weights are 1.0. 
 

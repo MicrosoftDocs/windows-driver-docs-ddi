@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: f4f8bd0d-fad7-4712-92ca-44d45969142d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], *PPCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml, _PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI.pci_express_link_control_register, PPCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER
+ms.keywords: ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER, PCI.pci_express_link_control_register, PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml, ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, *PPCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CONTROL_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,119 +85,74 @@ typedef union _PCI_EXPRESS_LINK_CONTROL_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.ActiveStatePMControl
 
- 
-
-
-### -field DUMMYSTRUCTNAME.Rsvd1
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ReadCompletionBoundary
-
- 
-
-
-### -field DUMMYSTRUCTNAME.LinkDisable
-
- 
-
-
-### -field DUMMYSTRUCTNAME.RetrainLink
-
- 
-
-
-### -field DUMMYSTRUCTNAME.CommonClockConfig
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ExtendedSynch
-
- 
-
-
-### -field DUMMYSTRUCTNAME.EnableClockPowerManagement
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Rsvd2
-
- 
-
-
-#### - AsUSHORT
-
-A USHORT representation of the contents of the PCI_EXPRESS_LINK_CONTROL_REGISTER structure.
-
-
-#### - ActiveStatePMControl
-
 The level of active state power management that is enabled on the PCIe link. Possible values are:
 
 
 
 
-#### L0sAndL1EntryDisabled
-
-L0s and L1 are both disabled.
-
-
-#### L0sEntryEnabled
-
-L0s is enabled.
-
-
-#### L1EntryEnabled
-
-L1 is enabled.
-
-
-#### L0sAndL1EntryEnabled
-
-L0s and L1 are both enabled.
-
-
-#### - Rsvd1
+### -field DUMMYSTRUCTNAME.Rsvd1
 
 Reserved.
 
 
-#### - ReadCompletionBoundary
+### -field DUMMYSTRUCTNAME.ReadCompletionBoundary
 
 The read completion boundary (RCB) value for the root port or the root port upstream from the endpoint. If the bit is clear, the RCB is 64 byte. If the bit is set, the RCB is 128 byte. This member is not applicable for switch ports.
 
 
-#### - LinkDisable
+### -field DUMMYSTRUCTNAME.LinkDisable
 
 A single bit that indicates that the link is disabled. This member is not applicable for endpoint devices, PCIe-to-PCI or PCI-X bridges, and upstream ports of switches.
 
 
-#### - RetrainLink
+### -field DUMMYSTRUCTNAME.RetrainLink
 
 A single bit that is used to initiate retraining of the link. Reads of this bit always return zero. This member is not applicable for endpoint devices, PCIe-to-PCI or PCI-X bridges, and upstream ports of switches.
 
 
-#### - CommonClockConfig
+### -field DUMMYSTRUCTNAME.CommonClockConfig
 
 A single bit that indicates that this component and the component at the opposite end of the link are operating with a distributed common reference clock. If this bit is clear, this component and the component at the opposite end of the link are operating with an asynchronous reference clock.
 
 
-#### - ExtendedSynch
+### -field DUMMYSTRUCTNAME.ExtendedSynch
 
 A single bit that indicates that additional ordered sets are transmitted when exiting the L0s state and when in the recovery state.
 
 
-#### - EnableClockPowerManagement
+### -field DUMMYSTRUCTNAME.EnableClockPowerManagement
 
 A single bit that indicates that clock power management is enabled.
 
 
-#### - Rsvd2
+### -field DUMMYSTRUCTNAME.Rsvd2
 
 Reserved.
+
+
+### -field AsUSHORT
+
+A USHORT representation of the contents of the PCI_EXPRESS_LINK_CONTROL_REGISTER structure.
+
+
+##### - ActiveStatePMControl.L0sAndL1EntryDisabled
+
+L0s and L1 are both disabled.
+
+
+##### - ActiveStatePMControl.L0sAndL1EntryEnabled
+
+L0s and L1 are both enabled.
+
+
+##### - ActiveStatePMControl.L0sEntryEnabled
+
+L0s is enabled.
+
+
+##### - ActiveStatePMControl.L1EntryEnabled
+
+L1 is enabled.
 
 
 ## -remarks

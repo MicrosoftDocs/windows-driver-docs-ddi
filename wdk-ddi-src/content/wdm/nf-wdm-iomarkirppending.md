@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 424d5ebd-c871-40d8-b5b7-3a4a04fe60fa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, IoMarkIrpPending, kernel.iomarkirppending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], wdm/IoMarkIrpPending
+ms.keywords: wdm/IoMarkIrpPending, IoMarkIrpPending, k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], kernel.iomarkirppending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoMarkIrpPending(
 
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 Pointer to the IRP to be marked as pending.
 
@@ -100,11 +100,11 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
 
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
-<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

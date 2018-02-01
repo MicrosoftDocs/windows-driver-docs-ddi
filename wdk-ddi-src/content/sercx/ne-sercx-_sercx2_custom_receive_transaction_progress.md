@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B832554C-FB37-416F-9586-EFAB5A3633E5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, serports.sercx2_custom_receive_transaction_progress, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration [Serial Ports], SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
+ms.keywords: SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration [Serial Ports], 2/SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, serports.sercx2_custom_receive_transaction_progress, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,14 +78,14 @@ typedef enum _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS {
 
 
 
-#### - SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
-
-No progress is being made. This value indicates that no data bytes have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
-
-
 #### - SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
 
 Progress is being made. This value indicates that one or more bytes of data have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
+
+
+#### - SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
+
+No progress is being made. This value indicates that no data bytes have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
 
 
 ## -remarks

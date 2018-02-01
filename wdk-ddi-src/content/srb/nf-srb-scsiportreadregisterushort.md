@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 192a525e-6a42-4bd0-9c50-d13741469a48
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_342c6cc3-090e-4bea-be54-1a52f50d8276.xml, ScsiPortReadRegisterUshort, srb/ScsiPortReadRegisterUshort, ScsiPortReadRegisterUshort routine [Storage Devices], storage.scsiportreadregisterushort
+ms.keywords: ScsiPortReadRegisterUshort, ScsiPortReadRegisterUshort routine [Storage Devices], srb/ScsiPortReadRegisterUshort, storage.scsiportreadregisterushort, scsiprt_342c6cc3-090e-4bea-be54-1a52f50d8276.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ USHORT ScsiPortReadRegisterUshort(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 

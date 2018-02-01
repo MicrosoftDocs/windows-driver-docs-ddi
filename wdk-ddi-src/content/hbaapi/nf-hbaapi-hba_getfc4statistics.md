@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetFC4Statistics, HBA_GetFC4Statistics, storage.hba_getfc4statistics, fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, HBA_GetFC4Statistics routine [Storage Devices]
+ms.keywords: fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, HBA_GetFC4Statistics routine [Storage Devices], storage.hba_getfc4statistics, HBA_GetFC4Statistics, hbaapi/HBA_GetFC4Statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,7 +80,7 @@ TBD
 TBD
 
 
-#### - FC4type [in]
+### -param FC4type [in]
 
 Contains a value that indicates the type FC-4 protocol. For an explanation of FC4 types and the values that can be assigned to this parameter, see the T11 committee's <i>Fibre Channel Generic Services - 4 </i>specification. 
 
@@ -161,11 +161,11 @@ Statistics counters in <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

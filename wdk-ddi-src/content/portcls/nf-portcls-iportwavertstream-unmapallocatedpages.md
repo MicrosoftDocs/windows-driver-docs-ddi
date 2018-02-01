@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 558636ed-4bab-42bc-8925-df01e032439a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UnmapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, UnmapAllocatedPages method [Audio Devices], IPortWaveRTStream, UnmapAllocatedPages, audmp-routines_2d402b1b-6951-48db-89bb-81f3cc7e0076.xml, IPortWaveRTStream::UnmapAllocatedPages, portcls/IPortWaveRTStream::UnmapAllocatedPages, IPortWaveRTStream interface [Audio Devices], UnmapAllocatedPages method, audio.iportwavertstream_unmapallocatedpages
+ms.keywords: UnmapAllocatedPages method [Audio Devices], audmp-routines_2d402b1b-6951-48db-89bb-81f3cc7e0076.xml, audio.iportwavertstream_unmapallocatedpages, UnmapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, portcls/IPortWaveRTStream::UnmapAllocatedPages, IPortWaveRTStream::UnmapAllocatedPages, UnmapAllocatedPages, IPortWaveRTStream interface [Audio Devices], UnmapAllocatedPages method, IPortWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ VOID UnmapAllocatedPages(
 
 
 
-#### - BaseAddress [in]
+### -param BaseAddress [in]
 
 Pointer to the base virtual address to which the physical pages were mapped.
 
 
-#### - MemoryDescriptorList [in]
+### -param MemoryDescriptorList [in]
 
 Pointer to a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) that describes the physical pages.
 
@@ -98,9 +98,9 @@ This method is similar in operation to the <a href="..\wdm\nf-wdm-mmunmaplockedp
 
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536926">IPortWaveRTStream::FreePagesFromMdl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
 
 <a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 

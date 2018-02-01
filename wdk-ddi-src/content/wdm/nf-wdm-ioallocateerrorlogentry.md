@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 07fc3ae1-325a-4e50-a83d-9e70a8d63aaa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml, IoAllocateErrorLogEntry, kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.ioallocateerrorlogentry, k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], wdm/IoAllocateErrorLogEntry, IoAllocateErrorLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PVOID IoAllocateErrorLogEntry(
 
 
 
-#### - IoObject [in]
+### -param IoObject [in]
 
 Pointer to a device object representing the device on which an I/O error occurred, or to a driver object representing the driver that found an error.
 
 
-#### - EntrySize [in]
+### -param EntrySize [in]
 
 Specifies the size, in bytes, of the error log entry to be allocated. This value cannot exceed ERROR_LOG_MAXIMUM_SIZE. 
 <div class="alert"><b>Warning</b>  <i>EntrySize</i> is a UCHAR value. If you specify a larger value, the compiler will silently truncate that value to a (wrong) UCHAR. </div><div> </div>
@@ -103,9 +103,9 @@ Drivers must not treat <b>IoAllocateErrorLogEntry</b> returning <b>NULL</b> as a
 
 <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
-<a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
-
 <a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
+
+<a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
 
  
 

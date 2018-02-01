@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 33a8c609-aa65-4629-b4ee-3723e614d400
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSM_SetPersistentBinding_IN, _SM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN, hbapiwmi/PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN structure pointer [Storage Devices], storage.sm_setpersistentbinding_in, hbapiwmi/SM_SetPersistentBinding_IN, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml, SM_SetPersistentBinding_IN structure [Storage Devices]"
+ms.keywords: "_SM_SetPersistentBinding_IN, hbapiwmi/SM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN structure [Storage Devices], hbapiwmi/PSM_SetPersistentBinding_IN, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml, SM_SetPersistentBinding_IN, storage.sm_setpersistentbinding_in, PSM_SetPersistentBinding_IN structure pointer [Storage Devices], PSM_SetPersistentBinding_IN, *PSM_SetPersistentBinding_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SM_SetPersistentBinding_IN {
 
 
 
-#### - HbaPortWWN
+### -field HbaPortWWN
 
 The worldwide name (WWN) of the local port whose events the WMI client will receive.
 
 
-#### - DomainPortWWN
+### -field DomainPortWWN
 
 A worldwide name (WWN) that specifies the SAS domain worldwide name of the local port.
 
 
-#### - InEntryCount
+### -field InEntryCount
 
 The number of persistent bindings that are associated with the HBA.
 
 
-#### - Entry
+### -field Entry
 
 A list of MS_SMHBA_BINDINGENTRY types for persistent binding.
 

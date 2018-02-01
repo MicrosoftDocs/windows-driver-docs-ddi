@@ -78,39 +78,39 @@ VOID* DxgkDdiSystemDisplayWrite(
 
 
 
-#### - MiniportDeviceContext [in]
+### -param MiniportDeviceContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 
 
-#### - Source [in]
+### -param Source [in]
 
 A pointer to the start address of the source image to be written to the bugcheck screen that displays information about the system stop error.
 
 
-#### - SourceWidth [in]
+### -param SourceWidth [in]
 
 A UINT value that specifies the width, in units of pixels, of the specified source image.
 
 
-#### - SourceHeight [in]
+### -param SourceHeight [in]
 
 A UINT value that specifies the height, in units of pixels, of the specified source image.
 
 
-#### - SourceStride [in]
+### -param SourceStride [in]
 
 A UINT value that specifies the number of bytes for each line of the specified source image.
 
 
-#### - PositionX [in]
+### -param PositionX [in]
 
 A UINT value that specifies the starting X coordinate that the specified source image should be written to on the display device.
 
 
-#### - PositionY [in]
+### -param PositionY [in]
 
 A UINT value that specifies the starting Y coordinate that the specified source image should be written to on the display device.
 
@@ -151,11 +151,11 @@ For more information about TDR, see <a href="https://msdn.microsoft.com/f410eec7
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_enable.md">DxgkDdiSystemDisplayEnable</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
-<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
  
 

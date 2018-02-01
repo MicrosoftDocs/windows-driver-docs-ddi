@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B3268640-F256-4B64-AE95-8D30A6A7BF6C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlDWordPtrSub function [Kernel-Mode Driver Architecture], RtlDWordPtrSub, kernel.rtldwordptrsub, ntintsafe/RtlDWordPtrSub
+ms.keywords: ntintsafe/RtlDWordPtrSub, RtlDWordPtrSub, kernel.rtldwordptrsub, RtlDWordPtrSub function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlDWordPtrSub(
 
 
 
-#### - dwMinuend [in]
+### -param dwMinuend [in]
 
 The value from which <i>dwSubtrahend</i> is subtracted.
 
 
-#### - dwSubtrahend [in]
+### -param dwSubtrahend [in]
 
 The value to subtract from <i>dwMinuend</i>.
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a51ee2e-2df6-44f4-8e95-776851d743a6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, NetworkOpenIntegrityEncrypted, ntifs/NetworkOpenIntegrityAny, NetworkOpenIntegritySigned, ntifs/NetworkOpenIntegrityEncrypted, NetworkOpenIntegrityNone, ntifs/NetworkOpenIntegrityMaximum, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], ifsk.network_open_integrity_qualifier, NetworkOpenIntegrityAny, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegritySigned, ntifs/NetworkOpenIntegrityNone, NetworkOpenIntegrityMaximum, NETWORK_OPEN_INTEGRITY_QUALIFIER
+ms.keywords: ntifs/NetworkOpenIntegrityNone, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenIntegritySigned, NetworkOpenIntegrityEncrypted, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, NetworkOpenIntegrityNone, NetworkOpenIntegrityAny, ntifs/NetworkOpenIntegrityEncrypted, ntifs/NetworkOpenIntegrityAny, ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, ntifs/NetworkOpenIntegrityMaximum, NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegritySigned, ifsk.network_open_integrity_qualifier, NetworkOpenIntegrityMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum  {
 
 
 
-#### - NetworkOpenIntegrityAny
+### -field NetworkOpenIntegrityAny
 
 Indicates that the file has no integrity restrictions. That is, the file has no restrictions about how to sign, encrypt, and so on. 
 
 
-#### - NetworkOpenIntegrityNone
+### -field NetworkOpenIntegrityNone
 
 Indicates that the file is not signed or encrypted. 
 
 
-#### - NetworkOpenIntegritySigned
+### -field NetworkOpenIntegritySigned
 
 Indicates that the file is signed end-to-end. 
 
 
-#### - NetworkOpenIntegrityEncrypted
+### -field NetworkOpenIntegrityEncrypted
 
 Indicates that the file is encrypted end-to-end. 
 
 
-#### - NetworkOpenIntegrityMaximum
+### -field NetworkOpenIntegrityMaximum
 
 Indicates that the file has the best integrity that is available. 
 

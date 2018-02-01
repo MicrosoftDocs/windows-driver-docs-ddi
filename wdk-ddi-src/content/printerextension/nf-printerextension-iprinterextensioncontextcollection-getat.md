@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, GetAt method [Print Devices], IPrinterExtensionContextCollection interface, GetAt, get_GetAt, IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection, GetAt method [Print Devices], print.iprinterextensioncontextcollection_getat
+ms.keywords: print.iprinterextensioncontextcollection_getat, get_GetAt, printerextension/IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, IPrinterExtensionContextCollection::GetAt, GetAt, IPrinterExtensionContextCollection, GetAt method [Print Devices], IPrinterExtensionContextCollection interface, GetAt method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetAt(
 
 
 
-#### - ulIndex [in]
+### -param ulIndex [in]
 
 The index of the <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> object within the collection.
 
 
-#### - ppContext [out, retval]
+### -param ppContext [out, retval]
 
 Pointer to an <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> interface.
 

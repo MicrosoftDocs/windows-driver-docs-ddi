@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_qaitargetin, d3dkmddi/DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QAITARGETIN, DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN
+ms.keywords: "_DXGK_QAITARGETIN, DXGK_QAITARGETIN, display.dxgk_qaitargetin, DXGK_QAITARGETIN structure [Display Devices], d3dkmddi/DXGK_QAITARGETIN, DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DXGK_QAITARGETIN {
 
 
 
-#### - TargetId
+### -field TargetId
 
 The ID of the target.
 

@@ -73,22 +73,22 @@ NTSTATUS APIENTRY pfnEnumPathTargetsFromSource(
 
 
 
-#### - hVidPnTopology [in]
+### -param hVidPnTopology [in]
 
 [in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_gettopology.md">pfnGetTopology</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
 
 
-#### - VidPnSourceId [in]
+### -param VidPnSourceId [in]
 
 [in] An integer that identifies a particular video present source.
 
 
-#### - VidPnPresentPathIndex [in]
+### -param VidPnPresentPathIndex [in]
 
 [in] A zero-based index into the set of paths that contain the source identified by <i>VidPnSourceId</i>.
 
 
-#### - pVidPnTargetId [out]
+### -param pVidPnTargetId [out]
 
 [out] A pointer to a variable that receives the target identifier.
 
@@ -164,9 +164,9 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getnumpathsfromsource.md">pfnGetNumPathsFromSource</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getpathsourcefromtarget.md">pfnGetPathSourceFromTarget</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getnumpathsfromsource.md">pfnGetNumPathsFromSource</a>
 
  
 

@@ -76,32 +76,32 @@ BOOLEAN FlushAdapterBuffers(
 
 
 
-#### - DmaAdapter [in]
+### -param DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 Pointer to the MDL that describes the buffer previously passed in the driver's call to <b>MapTransfer</b>.
 
 
-#### - MapRegisterBase [in]
+### -param MapRegisterBase [in]
 
 Specifies the map registers allocated for the DMA operation.  The system passes this value  to the driver's <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a> routine.
 
 
-#### - CurrentVa [in]
+### -param CurrentVa [in]
 
 Pointer to the current virtual address in the buffer, described by the <i>Mdl</i>, where the I/O operation occurred. This value must be the same as the initial <i>CurrentVa</i> value passed to <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the length, in bytes, of the buffer.
 
 
-#### - WriteToDevice [in]
+### -param WriteToDevice [in]
 
 Specifies the direction of the DMA transfer operation: <b>TRUE</b> for a transfer from a buffer in system memory to the driver's device.
 
@@ -129,19 +129,19 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
 <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
 
  
 

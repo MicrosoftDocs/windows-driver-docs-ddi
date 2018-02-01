@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5ba625f5-5bc0-4e2b-a7a9-5014746086c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_504c0bd9-3ba7-47cc-a99d-ab54d46cbdc4.xml, WDF_USB_DEVICE_TRAITS, WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, wdfusb/WDF_USB_DEVICE_TRAIT_SELF_POWERED, wdfusb/WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, WDF_USB_DEVICE_TRAITS enumeration, kmdf.wdf_usb_device_traits, _WDF_USB_DEVICE_TRAITS, wdfusb/WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, WDF_USB_DEVICE_TRAIT_SELF_POWERED, wdf.wdf_usb_device_traits, wdfusb/WDF_USB_DEVICE_TRAITS
+ms.keywords: wdfusb/WDF_USB_DEVICE_TRAITS, WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, wdf.wdf_usb_device_traits, wdfusb/WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, wdfusb/WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, wdfusb/WDF_USB_DEVICE_TRAIT_SELF_POWERED, WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, kmdf.wdf_usb_device_traits, _WDF_USB_DEVICE_TRAITS, WDF_USB_DEVICE_TRAITS, WDF_USB_DEVICE_TRAIT_SELF_POWERED, WDF_USB_DEVICE_TRAITS enumeration, DFUsbRef_504c0bd9-3ba7-47cc-a99d-ab54d46cbdc4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _WDF_USB_DEVICE_TRAITS {
 
 
 
-#### - WDF_USB_DEVICE_TRAIT_SELF_POWERED
+### -field WDF_USB_DEVICE_TRAIT_SELF_POWERED
 
 The device is self-powered.
 
 
-#### - WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE
+### -field WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE
 
 The device has a remote wakeup capability.
 
 
-#### - WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED
+### -field WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED
 
 The device is operating at high speed or SuperSpeed.
 

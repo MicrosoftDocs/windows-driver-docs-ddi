@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b5939a5b-2856-494c-9673-d32e2fc93384
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/PUSB_NODE_CONNECTION_DRIVERKEY_NAME, USB_NODE_CONNECTION_DRIVERKEY_NAME, buses.usb_node_connection_driverkey_name, PUSB_NODE_CONNECTION_DRIVERKEY_NAME structure pointer [Buses], _USB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME, *PUSB_NODE_CONNECTION_DRIVERKEY_NAME, usbstrct_561b9eb1-d580-48c5-ac16-c87647f7a342.xml, USB_NODE_CONNECTION_DRIVERKEY_NAME structure [Buses], usbioctl/USB_NODE_CONNECTION_DRIVERKEY_NAME
+ms.keywords: USB_NODE_CONNECTION_DRIVERKEY_NAME structure [Buses], usbioctl/USB_NODE_CONNECTION_DRIVERKEY_NAME, usbioctl/PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME, USB_NODE_CONNECTION_DRIVERKEY_NAME, _USB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME structure pointer [Buses], buses.usb_node_connection_driverkey_name, *PUSB_NODE_CONNECTION_DRIVERKEY_NAME, usbstrct_561b9eb1-d580-48c5-ac16-c87647f7a342.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,26 +70,26 @@ typedef struct _USB_NODE_CONNECTION_DRIVERKEY_NAME {
 
 
 
-#### - ConnectionIndex
+### -field ConnectionIndex
 
 On input, the port number that the device is connected to.
 
 
-#### - ActualLength
+### -field ActualLength
 
 On output, the length, in bytes, of the string in <b>DriverKeyName</b>.
 
 
-#### - DriverKeyName
+### -field DriverKeyName
 
 On output, the driver key name for the device that is attached to the port that is indicated by <b>ConnectionIndex</b>. This name is represented as a Unicode string.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_driverkey_name.md">IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

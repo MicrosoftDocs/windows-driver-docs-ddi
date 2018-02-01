@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 38f4c2b7-f9cd-42f2-b75e-725976b6b9dd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlAllocateHeap routine [Installable File System Drivers], RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml, ntifs/RtlAllocateHeap, ifsk.rtlallocateheap
+ms.keywords: rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml, RtlAllocateHeap, ntifs/RtlAllocateHeap, ifsk.rtlallocateheap, RtlAllocateHeap routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ PVOID RtlAllocateHeap(
 
 
 
-#### - HeapHandle [in]
+### -param HeapHandle [in]
 
 Handle for a private heap from which the memory will be allocated. This parameter is a handle returned from a successful call to <b>RtlCreateHeap</b>. 
 
 
-#### - Flags [in, optional]
+### -param Flags [in, optional]
 
 Specifies several controllable aspects of heap allocation. Specifying any of these values will override the corresponding value specified when the heap was created with <b>RtlCreateHeap</b>. This parameter can be one or more of the following values. 
 <table>
@@ -116,7 +116,7 @@ Specifies that the allocated memory will be initialized to zero. Otherwise, the 
 </table> 
 
 
-#### - Size [in]
+### -param Size [in]
 
 Number of bytes to be allocated. If the heap, specified by the <i>HeapHandle</i> parameter, is a nongrowable heap, <i>Size</i> must be less than or equal to the heap's virtual memory threshold. (For more information, see the <b>VirtualMemoryThreshold</b> member of the <i>Parameters</i> parameter to <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>.) 
 

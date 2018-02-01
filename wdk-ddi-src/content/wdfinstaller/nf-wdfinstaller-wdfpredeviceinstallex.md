@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 99de930a-0d01-4177-b0d9-4692cc570303
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPreDeviceInstallEx, WdfPreDeviceInstallEx function, kmdf.wdfpredeviceinstallex, wdf.wdfpredeviceinstallex, DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml, wdfinstaller/WdfPreDeviceInstallEx, PFN_WDFPREDEVICEINSTALLEX
+ms.keywords: kmdf.wdfpredeviceinstallex, WdfPreDeviceInstallEx function, PFN_WDFPREDEVICEINSTALLEX, DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml, WdfPreDeviceInstallEx, wdfinstaller/WdfPreDeviceInstallEx, wdf.wdfpredeviceinstallex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ ULONG WdfPreDeviceInstallEx(
 
 
 
-#### - InfPath [in]
+### -param InfPath [in]
 
 A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <b>GetCurrentDirectory</b>, which is described in the Microsoft Windows SDK.
 
 
-#### - InfSectionName [in, optional]
+### -param InfSectionName [in, optional]
 
 A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 
 
-#### - ClientOptions [in]
+### -param ClientOptions [in]
 
 A pointer to a caller-allocated <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
 
@@ -118,9 +118,9 @@ If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="..\wdfi
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
-
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
+
+<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], PSTREAM_TIME_REFERENCE, _STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE, strmini/PSTREAM_TIME_REFERENCE, stream.stream_time_reference, STREAM_TIME_REFERENCE, strmini/STREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE structure [Streaming Media Devices]
+ms.keywords: strmini/STREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE, _STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE, stream.stream_time_reference, strmini/PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE structure [Streaming Media Devices], STREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _STREAM_TIME_REFERENCE {
 
 
 
-#### - CurrentOnboardClockValue
+### -field CurrentOnboardClockValue
 
 Current value of the adapter clock.
 
 
-#### - OnboardClockFrequency
+### -field OnboardClockFrequency
 
 Frequency of the adapter clock.
 
 
-#### - CurrentSystemTime
+### -field CurrentSystemTime
 
 KeQueryPerformanceCounter time.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 

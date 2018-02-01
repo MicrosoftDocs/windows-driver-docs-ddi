@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.format_ex_parameters, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], _FORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, ntdddisk/FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices]
+ms.keywords: ntdddisk/PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, FORMAT_EX_PARAMETERS structure [Storage Devices], PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, _FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], ntdddisk/FORMAT_EX_PARAMETERS, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,53 +74,53 @@ typedef struct _FORMAT_EX_PARAMETERS {
 
 
 
-#### - MediaType
+### -field MediaType
 
 Indicates format information, such as the disk size and the number of bytes per sector. For a list of the values that can be assigned to this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>. 
 
 
-#### - StartCylinderNumber
+### -field StartCylinderNumber
 
 Indicates the number of the cylinder where the formatting should begin. 
 
 
-#### - EndCylinderNumber
+### -field EndCylinderNumber
 
 Indicates the number of the cylinder where the formatting should end. 
 
 
-#### - StartHeadNumber
+### -field StartHeadNumber
 
 Indicates the number of the head where the formatting should begin. 
 
 
-#### - EndHeadNumber
+### -field EndHeadNumber
 
 Indicates the number of the head where the formatting should end. 
 
 
-#### - FormatGapLength
+### -field FormatGapLength
 
 Indicates the length in bytes of a format gap. 
 
 
-#### - SectorsPerTrack
+### -field SectorsPerTrack
 
 Indicates the number of sectors per track. 
 
 
-#### - SectorNumber
+### -field SectorNumber
 
 Contains an array whose first element indicates the number of the sector where the formatting should begin. 
 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_format_parameters.md">FORMAT_PARAMETERS</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
+<a href="..\ntdddisk\ns-ntdddisk-_format_parameters.md">FORMAT_PARAMETERS</a>
 
  
 

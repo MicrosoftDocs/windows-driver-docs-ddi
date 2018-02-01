@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: db703d46-d37f-442a-a543-ce9e9c5ea3cb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, IEEE.io_address, IO_ADDRESS, PIO_ADDRESS, 1394/IO_ADDRESS, *PIO_ADDRESS, IO_ADDRESS structure [Buses], 1394/PIO_ADDRESS, _IO_ADDRESS, PIO_ADDRESS structure pointer [Buses]
+ms.keywords: "_IO_ADDRESS, PIO_ADDRESS, IO_ADDRESS, 1394/PIO_ADDRESS, IEEE.io_address, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, *PIO_ADDRESS, 1394/IO_ADDRESS, PIO_ADDRESS structure pointer [Buses], IO_ADDRESS structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,29 +68,29 @@ typedef struct _IO_ADDRESS {
 
 
 
-#### - IA_Destination_ID
+### -field IA_Destination_ID
 
 Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537435">NODE_ADDRESS</a> containing the destination node address.
 
 
-#### - IA_Destination_Offset
+### -field IA_Destination_Offset
 
 Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a> that specifies the index of the 1394 address within the address array.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537634">REQUEST_ASYNC_READ</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537435">NODE_ADDRESS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537636">REQUEST_ASYNC_WRITE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537633">REQUEST_ASYNC_LOCK</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537435">NODE_ADDRESS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537636">REQUEST_ASYNC_WRITE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537634">REQUEST_ASYNC_READ</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 152e3b52-44e4-4ed7-bfc3-38d0c65725fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], RILRADIOSTATEITEM, ntddrilapitypes/RILRADIOSTATEITEM, netvista.rilradiostateitem"
+ms.keywords: "*LPRILRADIOSTATEITEM, netvista.rilradiostateitem, ntddrilapitypes/RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], RILRADIOSTATEITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
-#### - itemValueUnion
+### -field itemValueUnion
 
 
 
@@ -113,31 +113,43 @@ typedef struct _RILRADIOSTATEITEM {
  
 
 
-#### - RILITEMVALUEUNION
+### -field RILITEMVALUEUNION
 
 
 
-#### - dwItemId
+### -field dwItemId
 
 
 
-#### - dwItemFlag
+### -field dwItemFlag
 
 
 
-#### - dwItemAttributes
+### -field dwItemAttributes
 
 
 
-#### - wszFriendlyName
+### -field wszFriendlyName
 
 
 
-#### - wszItemValueOptions
+### -field wszItemValueOptions
+
+
+
+#### - byteArray
+
+
+
+#### - intArray
 
 
 
 #### - intVal
+
+
+
+#### - uintArray
 
 
 
@@ -146,17 +158,5 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 #### - wszVal
-
-
-
-#### - intArray
-
-
-
-#### - uintArray
-
-
-
-#### - byteArray
 
 

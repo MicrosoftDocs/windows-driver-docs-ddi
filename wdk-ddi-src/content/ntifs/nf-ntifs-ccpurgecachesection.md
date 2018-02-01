@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7f9cff3b-0780-4fc4-8b1a-b0af0506712a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcPurgeCacheSection routine [Installable File System Drivers], ntifs/CcPurgeCacheSection, CcPurgeCacheSection, ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, ifsk.ccpurgecachesection
+ms.keywords: ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, ifsk.ccpurgecachesection, CcPurgeCacheSection, ntifs/CcPurgeCacheSection, CcPurgeCacheSection routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ BOOLEAN CcPurgeCacheSection(
 
 
 
-#### - SectionObjectPointer [in]
+### -param SectionObjectPointer [in]
 
 Pointer to a structure containing the file object's section object pointers.
 
 
-#### - FileOffset [in, optional]
+### -param FileOffset [in, optional]
 
 Pointer to a variable that specifies the starting byte offset within the cached file where the data is to be purged. 
 
@@ -84,7 +84,7 @@ If <i>FileOffset</i> is <b>NULL</b>, the entire file is purged from the cache.
 If <i>FileOffset</i> is not <b>NULL</b>, only the byte range specified by <i>FileOffset</i> and <i>Length</i> is purged.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Length of the byte range to purge, starting at <i>FileOffset</i>. If <i>Length</i> is zero, the range from <i>FileOffset</i> to the end of the file is purged. If <i>FileOffset</i> is <b>NULL</b>, <i>Length</i> is ignored.
 
@@ -120,13 +120,13 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+
+<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
 
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 

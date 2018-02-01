@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DvdManufacturerDescriptor, ntddcdvd/DVD_STRUCTURE_FORMAT, DvdMaxDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdDiskKeyDescriptor, ntddcdvd/DvdMaxDescriptor, *PDVD_STRUCTURE_FORMAT, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], DvdCopyrightDescriptor, PDVD_STRUCTURE_FORMAT, ntddcdvd/PDVD_STRUCTURE_FORMAT, ntddcdvd/DvdManufacturerDescriptor, ntddcdvd/DvdPhysicalDescriptor, DvdPhysicalDescriptor, DvdDiskKeyDescriptor, ntddcdvd/DvdBCADescriptor, DVD_STRUCTURE_FORMAT, DvdBCADescriptor, storage.dvd_structure_format
+ms.keywords: ntddcdvd/DvdBCADescriptor, DvdMaxDescriptor, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DvdManufacturerDescriptor, *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT, ntddcdvd/DvdDiskKeyDescriptor, DvdManufacturerDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DvdBCADescriptor, DvdPhysicalDescriptor, ntddcdvd/DvdMaxDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, DvdDiskKeyDescriptor, ntddcdvd/DVD_STRUCTURE_FORMAT, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml, storage.dvd_structure_format, ntddcdvd/DvdCopyrightDescriptor, PDVD_STRUCTURE_FORMAT, DvdCopyrightDescriptor, ntddcdvd/DvdPhysicalDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,41 +72,41 @@ typedef enum DVD_STRUCTURE_FORMAT {
 
 
 
-#### - DvdPhysicalDescriptor
+### -field DvdPhysicalDescriptor
 
 Indicates that caller is requesting a DVD physical descriptor. 
 
 
-#### - DvdCopyrightDescriptor
+### -field DvdCopyrightDescriptor
 
 Indicates that caller is requesting a DVD copyright descriptor containing copyright information from the DVD lead-in area. 
 
 
-#### - DvdDiskKeyDescriptor
+### -field DvdDiskKeyDescriptor
 
 Indicates that caller is requesting a DVD key descriptor containing the disc key obfuscated using the bus key. 
 
 
-#### - DvdBCADescriptor
+### -field DvdBCADescriptor
 
 Indicates that caller is requesting a DVD burst cutting area (BCA) descriptor. 
 
 
-#### - DvdManufacturerDescriptor
+### -field DvdManufacturerDescriptor
 
 Indicates that caller is requesting a DVD manufacturer descriptor containing disc manufacturing information from the DVD lead-in area. 
 
 
-#### - DvdMaxDescriptor
+### -field DvdMaxDescriptor
 
 Indicates that caller is requesting a DVD max descriptor. 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+
+<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0973d8d8-53df-47aa-be65-71045c2e6006
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2, dbgeng/IDebugRegisters2::GetPseudoIndexByName, GetPseudoIndexByName method [Windows Debugging], GetPseudoIndexByName, IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByName method, debugger.getpseudoindexbyname, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, GetPseudoIndexByName method [Windows Debugging], IDebugRegisters2 interface
+ms.keywords: debugger.getpseudoindexbyname, GetPseudoIndexByName method [Windows Debugging], IDebugRegisters2 interface, GetPseudoIndexByName method [Windows Debugging], IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByName method, dbgeng/IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters2, GetPseudoIndexByName, IDebugRegisters2::GetPseudoIndexByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetPseudoIndexByName(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 Specifies the name of the pseudo-register whose index is requested.  The name includes the leading dollar sign ( <b>$</b> ), for example, "$frame".
 
 
-#### - Index [out]
+### -param Index [out]
 
 Receives the index of the pseudo-register.
 
@@ -113,9 +113,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548189">GetPseudoDescription</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548189">GetPseudoDescription</a>
 
  
 

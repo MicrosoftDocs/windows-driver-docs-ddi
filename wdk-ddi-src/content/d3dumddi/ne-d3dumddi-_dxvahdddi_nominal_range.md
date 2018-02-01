@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 952BE36C-0F53-47C3-9C95-E6ECAB9D36D1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, _DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_16_235, display.dxvahdddi_nominal_range, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255
+ms.keywords: display.dxvahdddi_nominal_range, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, _DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DXVAHDDDI_NOMINAL_RANGE {
 
 
 
-#### - DXVAHDDDI_NOMINAL_RANGE_UNDEFINED
+### -field DXVAHDDDI_NOMINAL_RANGE_UNDEFINED
 
 The driver default value, which is the <i>studio luminance range</i> of 16 to 235, inclusive [16, 235].
 
 
-#### - DXVAHDDDI_NOMINAL_RANGE_16_235
+### -field DXVAHDDDI_NOMINAL_RANGE_16_235
 
 The <i>studio luminance range</i> of 16 to 235, inclusive [16, 235].
 
 
-#### - DXVAHDDDI_NOMINAL_RANGE_0_255
+### -field DXVAHDDDI_NOMINAL_RANGE_0_255
 
 The <i>full luminance range</i>, or <i>extended range</i>, of 0 to 255, inclusive [0, 255].
 

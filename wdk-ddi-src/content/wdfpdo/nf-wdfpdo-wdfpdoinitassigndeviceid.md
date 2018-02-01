@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f8992245-42db-4ca8-afdc-e123adc0a40d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, PFN_WDFPDOINITASSIGNDEVICEID, WdfPdoInitAssignDeviceID method, wdf.wdfpdoinitassigndeviceid, wdfpdo/WdfPdoInitAssignDeviceID, kmdf.wdfpdoinitassigndeviceid, WdfPdoInitAssignDeviceID
+ms.keywords: DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, kmdf.wdfpdoinitassigndeviceid, PFN_WDFPDOINITASSIGNDEVICEID, WdfPdoInitAssignDeviceID, wdf.wdfpdoinitassigndeviceid, wdfpdo/WdfPdoInitAssignDeviceID, WdfPdoInitAssignDeviceID method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoInitAssignDeviceID(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - DeviceID [in]
+### -param DeviceID [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a device ID string. The driver can allocate the string's buffer from paged pool.
 
@@ -130,9 +130,9 @@ The driver must call <b>WdfPdoInitAssignDeviceID</b> before calling <a href="..\
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md">WdfPdoInitAddHardwareID</a>
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigninstanceid.md">WdfPdoInitAssignInstanceID</a>
+
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md">WdfPdoInitAddHardwareID</a>
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md">WdfPdoInitAddCompatibleID</a>
 

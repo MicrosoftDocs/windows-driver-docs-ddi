@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fdb8376b-fbda-4bee-895e-a306fd0f632a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/PPOINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical, *PPOINTER_SEARCH_PHYSICAL, WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, _POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], wdbgexts/POINTER_SEARCH_PHYSICAL
+ms.keywords: wdbgexts/PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL, WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], POINTER_SEARCH_PHYSICAL structure [Windows Debugging], *PPOINTER_SEARCH_PHYSICAL, wdbgexts/POINTER_SEARCH_PHYSICAL, _POINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,27 +75,27 @@ typedef struct _POINTER_SEARCH_PHYSICAL {
 
 
 
-#### - Offset
+### -field Offset
 
 Specifies the address in the target's physical memory to start searching from.
 
 
-#### - Length
+### -field Length
 
 Specifies the amount of the target's physical memory to search.
 
 
-#### - PointerMin
+### -field PointerMin
 
 Specifies the lower limit of the range of pointers to search for.
 
 
-#### - PointerMax
+### -field PointerMax
 
 Specifies the upper limit of the range of pointers to search for.
 
 
-#### - Flags
+### -field Flags
 
 Specifies bit flags that alter the behavior of this <b>Ioctl</b> operation.  The following flags can be included.
 <table>
@@ -146,17 +146,17 @@ Do not check that the symbols used for the kernel are correct.
 </table> 
 
 
-#### - MatchOffsets
+### -field MatchOffsets
 
 Receives the addresses of all the pointers that match the search criteria.  <b>MatchOffsets</b> is an array that contains <b>MatchOffsetsSize</b> elements.
 
 
-#### - MatchOffsetsSize
+### -field MatchOffsetsSize
 
 Specifies the number of entries in the array <b>MatchOffsets</b>.
 
 
-#### - MatchOffsetsCount
+### -field MatchOffsetsCount
 
 Receives the number of pointers found that match the search criteria.
 

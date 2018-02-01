@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cad48019-3777-4f1c-9872-c837604f47bc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_FS_LABEL_INFORMATION, ntddk/PFILE_FS_LABEL_INFORMATION, ifsk.file_fs_label_information, ntddk/FILE_FS_LABEL_INFORMATION, PFILE_FS_LABEL_INFORMATION, fileinformationstructures_ac9398f2-2488-43b4-8fdb-76ae1f84066c.xml, FILE_FS_LABEL_INFORMATION structure [Installable File System Drivers], PFILE_FS_LABEL_INFORMATION structure pointer [Installable File System Drivers], *PFILE_FS_LABEL_INFORMATION, _FILE_FS_LABEL_INFORMATION
+ms.keywords: PFILE_FS_LABEL_INFORMATION, ifsk.file_fs_label_information, FILE_FS_LABEL_INFORMATION structure [Installable File System Drivers], _FILE_FS_LABEL_INFORMATION, ntddk/FILE_FS_LABEL_INFORMATION, ntddk/PFILE_FS_LABEL_INFORMATION, fileinformationstructures_ac9398f2-2488-43b4-8fdb-76ae1f84066c.xml, *PFILE_FS_LABEL_INFORMATION, PFILE_FS_LABEL_INFORMATION structure pointer [Installable File System Drivers], FILE_FS_LABEL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _FILE_FS_LABEL_INFORMATION {
 
 
 
-#### - VolumeLabelLength
+### -field VolumeLabelLength
 
 Length, in bytes, of the name for the volume. 
 
 
-#### - VolumeLabel
+### -field VolumeLabel
 
 Name for the volume. 
 

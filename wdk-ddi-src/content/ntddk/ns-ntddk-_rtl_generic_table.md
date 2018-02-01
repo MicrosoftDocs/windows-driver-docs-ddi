@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0e5dba1b-8b0d-470a-8ead-4c022e9da7fe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PRTL_GENERIC_TABLE structure pointer [Installable File System Drivers], RTL_GENERIC_TABLE, ifsk.rtl_generic_table, PRTL_GENERIC_TABLE, RTL_GENERIC_TABLE structure [Installable File System Drivers], othersystemstructures_ce9bd546-d224-429d-8835-be3d5ecb1a52.xml, ntddk/PRTL_GENERIC_TABLE, ntddk/RTL_GENERIC_TABLE, _RTL_GENERIC_TABLE, *PRTL_GENERIC_TABLE
+ms.keywords: ifsk.rtl_generic_table, RTL_GENERIC_TABLE structure [Installable File System Drivers], PRTL_GENERIC_TABLE, PRTL_GENERIC_TABLE structure pointer [Installable File System Drivers], _RTL_GENERIC_TABLE, ntddk/PRTL_GENERIC_TABLE, othersystemstructures_ce9bd546-d224-429d-8835-be3d5ecb1a52.xml, RTL_GENERIC_TABLE, ntddk/RTL_GENERIC_TABLE, *PRTL_GENERIC_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,47 +77,47 @@ typedef struct _RTL_GENERIC_TABLE {
 
 
 
-#### - TableRoot
+### -field TableRoot
 
 Reserved for system use.
 
 
-#### - InsertOrderList
+### -field InsertOrderList
 
 Reserved for system use.
 
 
-#### - OrderedPointer
+### -field OrderedPointer
 
 Reserved for system use.
 
 
-#### - WhichOrderedElement
+### -field WhichOrderedElement
 
 Reserved for system use.
 
 
-#### - NumberGenericTableElements
+### -field NumberGenericTableElements
 
 Reserved for system use.
 
 
-#### - CompareRoutine
+### -field CompareRoutine
 
 Reserved for system use.
 
 
-#### - AllocateRoutine
+### -field AllocateRoutine
 
 Reserved for system use.
 
 
-#### - FreeRoutine
+### -field FreeRoutine
 
 Reserved for system use.
 
 
-#### - TableContext
+### -field TableContext
 
 Reserved for system use.
 
@@ -192,27 +192,27 @@ To initialize a generic table package, you allocate a buffer that is at least <b
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
-
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictablefullavl.md">RtlLookupElementGenericTableFull</a>
-
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
-
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
-
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictablefullavl.md">RtlInsertElementGenericTableFull</a>
-
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
-
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
-
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
-
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
 
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictablefullavl.md">RtlInsertElementGenericTableFull</a>
+
+<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictablefullavl.md">RtlLookupElementGenericTableFull</a>
+
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
 
  
 

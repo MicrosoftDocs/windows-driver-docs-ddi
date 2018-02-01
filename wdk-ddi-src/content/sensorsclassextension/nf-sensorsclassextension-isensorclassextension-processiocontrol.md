@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: bd886086-4e23-47c0-ae58-9234399e5a79
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ProcessIoControl method [Sensor Devices], ISensorClassExtension, ProcessIoControl, sensors.isensorclassextension_processiocontrol, ISensorClassExtension::ProcessIoControl
+ms.keywords: ProcessIoControl method [Sensor Devices], sensors.isensorclassextension_processiocontrol, ISensorClassExtension::ProcessIoControl, ISensorClassExtension, ProcessIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT ProcessIoControl(
 
 
 
-#### - pRequest
+### -param pRequest
 
 Pointer to the IWDFIoRequest interface that represents the UMDF request object.
 

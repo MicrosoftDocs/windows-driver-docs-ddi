@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SYM_DUMP_PARAM structure [Windows Debugging], _SYM_DUMP_PARAM, SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, PSYM_DUMP_PARAM structure pointer [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, *PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM, PSYM_DUMP_PARAM, wdbgexts/PSYM_DUMP_PARAM
+ms.keywords: SYM_DUMP_PARAM, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, wdbgexts/SYM_DUMP_PARAM, PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, *PSYM_DUMP_PARAM, wdbgexts/PSYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,37 +88,37 @@ typedef struct _SYM_DUMP_PARAM {
 
 
 
-#### - Context
+### -field Context
 
 Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
 
 
-#### - pBuffer
+### -field pBuffer
 
 Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
 
 
-#### - size
+### -field size
 
 Specifies the size, in bytes, of this structure.  It should be set to <code>sizeof(SYM_DUMP_PARAM)</code>.
 
 
-#### - sName
+### -field sName
 
 Specifies the name of the symbol to lookup.
 
 
-#### - Options
+### -field Options
 
 Specifies the flags that determine the behavior of this <b>Ioctl</b> operation.  For a description of these flags, see Remarks.
 
 
-#### - addr
+### -field addr
 
 Specifies the address of the symbol.
 
 
-#### - listLink
+### -field listLink
 
 Specifies the field that contains the next item in a linked list.  If the symbol is an entry in a linked list, this <b>Ioctl</b> operation can iterate over the items in the list using the field specified here as the pointer to the next item in the list.  The type of this structure is <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>.
 
@@ -127,62 +127,62 @@ The callback function specified in the <b>fieldCallBack</b> member of this struc
 DBG_DUMP_LIST should be set in <b>Options</b> to tell this <b>Ioctl</b> to iterate over the list.
 
 
-#### - CallbackRoutine
+### -field CallbackRoutine
 
 Specifies a callback function that is called by the engine.  The engine provides the callback function with information about the symbol and its members.
 
 
-#### - nFields
+### -field nFields
 
 Specifies the number of entries in the <b>Fields</b> array.
 
 
-#### - Fields
+### -field Fields
 
 Specifies an array of <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structures that control the behavior of this operation for individual members of the specified symbol. See FIELD_INFO for details.
 
 
-#### - ModBase
+### -field ModBase
 
 Receives the location in the target's memory of the start of the module that contains the symbol.
 
 
-#### - TypeId
+### -field TypeId
 
 Receives the type ID of the symbol.
 
 
-#### - TypeSize
+### -field TypeSize
 
 Receives the size, in bytes, of the symbol in the target's memory.
 
 
-#### - BufferSize
+### -field BufferSize
 
 Specifies the size, in bytes, of the <b>pBuffer</b> buffer.
 
 
-#### - fPointer
+### -field fPointer
 
 Receives a Boolean value that indicates whether the symbol is a pointer.  <b>fPointer</b> is <b>FALSE</b> if the symbol is not a pointer.  It is 1 if the symbol is a 32-bit pointer and 3 if the symbol is a 64-bit pointer.
 
 
-#### - fArray
+### -field fArray
 
 Receives a Boolean value that indicates whether the symbol is an array.  <b>fArray</b> is <b>FALSE</b> if the symbol is not an array and <b>TRUE</b> if it is.
 
 
-#### - fStruct
+### -field fStruct
 
 Receives a Boolean value that indicates whether the symbol is a structure.  <b>fStruct</b> is <b>FALSE</b> if the symbol is not a structure and <b>TRUE</b> if it is.
 
 
-#### - fConstant
+### -field fConstant
 
 Receives a Boolean value that indicates whether the symbol is a constant.  <b>fConstant</b> is <b>FALSE</b> if the symbol is not a constant and <b>TRUE</b> if it is.
 
 
-#### - Reserved
+### -field Reserved
 
 
 
@@ -477,11 +477,11 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
+
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
 
  
 

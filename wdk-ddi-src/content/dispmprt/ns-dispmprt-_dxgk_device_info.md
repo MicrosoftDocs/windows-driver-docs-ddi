@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcdae08f-69a6-496b-8391-d2b505fb86d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_device_info, PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO, DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, PDXGK_DEVICE_INFO structure pointer [Display Devices], *PDXGK_DEVICE_INFO, dispmprt/PDXGK_DEVICE_INFO, _DXGK_DEVICE_INFO, dispmprt/DXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices]
+ms.keywords: "_DXGK_DEVICE_INFO, display.dxgk_device_info, PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], dispmprt/PDXGK_DEVICE_INFO, DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, *PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO structure pointer [Display Devices], DXGK_DEVICE_INFO, dispmprt/DXGK_DEVICE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _DXGK_DEVICE_INFO {
 
 
 
-#### - MiniportDeviceContext
+### -field MiniportDeviceContext
 
 A handle to a context block (created and maintained by the display miniport driver) associated with a display adapter.
 
 
-#### - PhysicalDeviceObject
+### -field PhysicalDeviceObject
 
 A pointer to the physical device object (PDO) that represents the display adapter.
 
 
-#### - DeviceRegistryPath
+### -field DeviceRegistryPath
 
 A Unicode string that holds the registry path of the software key for the display adapter. Registry data should be written only to this path.
 
 
-#### - TranslatedResourceList
+### -field TranslatedResourceList
 
 A pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that holds the translated resources assigned to the display adapter.
 
 
-#### - SystemMemorySize
+### -field SystemMemorySize
 
 The size, in bytes, of system memory.
 
 
-#### - HighestPhysicalAddress
+### -field HighestPhysicalAddress
 
 The highest physical address of system memory (RAM).
 
 
-#### - AgpApertureBase
+### -field AgpApertureBase
 
 The base physical address of the AGP aperture. If 0, the display adapter is not an AGP adapter, or AGP resources were not found.
 
 
-#### - AgpApertureSize
+### -field AgpApertureSize
 
 The size, in bytes, of the AGP aperture. If 0, the display adapter is not an AGP adapter, or AGP resources were not found.
 
 
-#### - DockingState
+### -field DockingState
 
 The state of a portable computer that can be attached to a docking station.
 
@@ -131,9 +131,9 @@ The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_dev
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
  
 

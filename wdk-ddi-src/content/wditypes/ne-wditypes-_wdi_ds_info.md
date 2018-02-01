@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4375FF5C-8772-43AB-844B-4AD5E044AF55
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdi_ds_info, wditypes/WDI_DS_UNKNOWN, WDI_DS_INFO, wditypes/WDI_DS_UNCHANGED, wditypes/WDI_DS_CHANGED, _WDI_DS_INFO, netvista.wifi_ds_info, WDI_DS_UNKNOWN, wditypes/WDI_DS_INFO, WDI_DS_CHANGED, WDI_DS_INFO enumeration [Device and Driver Installation], WDI_DS_UNCHANGED
+ms.keywords: wditypes/WDI_DS_UNKNOWN, wditypes/WDI_DS_INFO, WDI_DS_INFO, WDI_DS_INFO enumeration [Device and Driver Installation], wditypes/WDI_DS_UNCHANGED, WDI_DS_UNKNOWN, wditypes/WDI_DS_CHANGED, netvista.wifi_ds_info, netvista.wdi_ds_info, WDI_DS_UNCHANGED, WDI_DS_CHANGED, _WDI_DS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WDI_DS_INFO {
 
 
 
-#### - WDI_DS_CHANGED
+### -field WDI_DS_CHANGED
 
 New DS.
 
 
-#### - WDI_DS_UNCHANGED
+### -field WDI_DS_UNCHANGED
 
 Same DS as previously associated.
 
 
-#### - WDI_DS_UNKNOWN
+### -field WDI_DS_UNKNOWN
 
 Unable to determine if the DS has changed.
 

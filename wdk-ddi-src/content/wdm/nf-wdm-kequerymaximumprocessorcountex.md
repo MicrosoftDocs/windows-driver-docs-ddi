@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6ccc0f8c-d7b7-4043-8580-d35345d884cc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryMaximumProcessorCountEx, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], KeQueryMaximumProcessorCountEx, k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, kernel.kequerymaximumprocessorcountex
+ms.keywords: KeQueryMaximumProcessorCountEx, k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, kernel.kequerymaximumprocessorcountex, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], wdm/KeQueryMaximumProcessorCountEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG KeQueryMaximumProcessorCountEx(
 
 
 
-#### - GroupNumber [in]
+### -param GroupNumber [in]
 
 Specifies a group number. If a multiprocessor system contains <i>n</i> groups, the groups are numbered from 0 to <i>n</i>-1. To obtain the maximum number of processors in the system, set this parameter to ALL_PROCESSOR_GROUPS, which is defined in the Winnt.h and Ntdef.h header files.
 
@@ -85,7 +85,7 @@ Specifies a group number. If a multiprocessor system contains <i>n</i> groups, t
 
 The value that is returned by <b>KeQueryMaximumProcessorCountEx</b> remains constant during runtime. This value depends on the hardware configuration of the multiprocessor system, but it can never exceed a fixed limit that is set by the Windows operating system. This limit is 32 logical processors for 32-bit versions of Windows and 64 logical processors for 64-bit versions of Windows.
 
-In contrast, the value that is returned by the <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine can change during runtime as processors are dynamically added to the system.
+In contrast, the value that is returned by the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine can change during runtime as processors are dynamically added to the system.
 
 A related routine, <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>, returns a maximum processor count, but this routine, unlike <b>KeQueryMaximumProcessorCountEx</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryMaximumProcessorCount</b> returns the maximum number of logical processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryMaximumProcessorCount</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryMaximumProcessorCountEx</b> instead of <b>KeQueryMaximumProcessorCount</b>. 
 
@@ -93,9 +93,9 @@ A related routine, <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQue
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
-
 <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
+
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
 
  
 

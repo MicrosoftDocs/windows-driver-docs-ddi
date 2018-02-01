@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_colorimetry, d3dkmddi/PDXGK_COLORIMETRY, _DXGK_COLORIMETRY, DXGK_COLORIMETRY, PDXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, *PDXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY structure pointer [Display Devices]
+ms.keywords: PDXGK_COLORIMETRY, display.dxgk_colorimetry, PDXGK_COLORIMETRY structure pointer [Display Devices], *PDXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], d3dkmddi/DXGK_COLORIMETRY, DXGK_COLORIMETRY, _DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,52 +75,52 @@ typedef struct _DXGK_COLORIMETRY {
 
 
 
-#### - RedPoint
+### -field RedPoint
 
 Override for display red point.  Note, each dimension is a 10-bit value stored in the least significant bits.
 Zero indicates no override.
 
 
-#### - GreenPoint
+### -field GreenPoint
 
 Override for display green point. Note, each dimension is a 10-bit value stored in the least significant bits.
 
 
-#### - BluePoint
+### -field BluePoint
 
 Override for display blue point. Note, each dimension is a 10-bit value stored in the least significant bits.
 
 
-#### - WhitePoint
+### -field WhitePoint
 
 Override for display white point. Note, each dimension is a 10-bit value stored in the least significant bits.
 
 
-#### - MinLuminance
+### -field MinLuminance
 
 Override for the minimum luminance value supported by the display measured in one ten thousandth of a nit.  Only valid if MaxLuminance is non-zero.  Zero is a valid value.
 
 
-#### - MaxLuminance
+### -field MaxLuminance
 
 Override for the maximum luminance value supported by the display measured in one ten thousandth of a nit.  This luminance level is expected to be supported for only a relatively small area in any given frame.  
 Zero indicates no override of MaxLuminance, MaxFullFrameLuminance or MinLuminance.
 
 
 
-#### - MaxFullFrameLuminance
+### -field MaxFullFrameLuminance
 
 Override for the max full frame luminance value supported by the display measured in one ten thousandth of a nit.  This luminance level must be supported across every pixel in the frame simultaneously in order to provide an estimate of the average luminance value which can be supported by the display across a frame.
 Only valid if MaxLuminance is non-zero.  Zero is not a valid override.
 
 
 
-#### - FormatBitDepths
+### -field FormatBitDepths
 
 Overrides the supported bits per color channel in each of the five color encodings specified for wire-formats.  At least one bit must be set, excluding the Preference field which is reserved and must be zero.
 
 
-#### - StandardColorimetryFlags
+### -field StandardColorimetryFlags
 
 Indicates support for specific colorimetry and EOTF capabilities using bit-fields.
 

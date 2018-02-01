@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlsizetmult, RtlSizeTMult, ntintsafe/RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlSizeTMult, kernel.rtlsizetmult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlSizeTMult(
 
 
 
-#### - Multiplicand [in]
+### -param Multiplicand [in]
 
 The value to be multiplied by <i>Multiplier</i>.
 
 
-#### - Multiplier [in]
+### -param Multiplier [in]
 
 The value by which to multiply <i>Multiplicand</i>.
 
 
-#### - pResult [out]
+### -param pResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

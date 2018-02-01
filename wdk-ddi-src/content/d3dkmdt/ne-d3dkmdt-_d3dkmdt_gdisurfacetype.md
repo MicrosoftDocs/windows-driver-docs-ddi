@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1c8fc0a-b877-4321-85b9-0c5c174ffc45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACE_EXISTINGSYSMEM, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_EXISTINGSYSMEM, D3DKMDT_GDISURFACE_TEXTURE, DmEnums_5e870c41-1496-48ff-bddd-f01a2f9e36e6.xml, d3dkmdt/D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, D3DKMDT_GDISURFACE_INVALID, D3DKMDT_GDISURFACETYPE enumeration [Display Devices], D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_STAGING, d3dkmdt/D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACE_STAGING, _D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_LOOKUPTABLE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, D3DKMDT_GDISURFACE_LOOKUPTABLE, display.d3dkmdt_gdisurfacetype
+ms.keywords: D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, D3DKMDT_GDISURFACETYPE enumeration [Display Devices], d3dkmdt/D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACE_LOOKUPTABLE, D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, _D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACE_STAGING, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_STAGING, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_EXISTINGSYSMEM, d3dkmdt/D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_INVALID, display.d3dkmdt_gdisurfacetype, DmEnums_5e870c41-1496-48ff-bddd-f01a2f9e36e6.xml, D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE, d3dkmdt/D3DKMDT_GDISURFACE_LOOKUPTABLE, D3DKMDT_GDISURFACE_EXISTINGSYSMEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,12 +77,12 @@ typedef enum _D3DKMDT_GDISURFACETYPE {
 
 
 
-#### - D3DKMDT_GDISURFACE_INVALID
+### -field D3DKMDT_GDISURFACE_INVALID
 
 The driver should not see this value.
 
 
-#### - D3DKMDT_GDISURFACE_TEXTURE
+### -field D3DKMDT_GDISURFACE_TEXTURE
 
 Indicates that the surface has the following properties:
 <ul>
@@ -108,7 +108,7 @@ It is used as a source or destination surface in GDI hardware-accelerated operat
 </li>
 </ul>
 
-#### - D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE
+### -field D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE
 
 Indicates that the surface has the following properties:
 <ul>
@@ -134,7 +134,7 @@ Its pitch value and surface address must be aligned to the value of the <b>Align
 </li>
 </ul>
 
-#### - D3DKMDT_GDISURFACE_STAGING
+### -field D3DKMDT_GDISURFACE_STAGING
 
 Indicates that the surface has the following properties:
 <ul>
@@ -152,7 +152,7 @@ It is used as a source or destination surface in GDI bitblt (copy-only) operatio
 </li>
 </ul>
 
-#### - D3DKMDT_GDISURFACE_LOOKUPTABLE
+### -field D3DKMDT_GDISURFACE_LOOKUPTABLE
 
 Indicates that the surface has the following properties:
 <ul>
@@ -174,7 +174,7 @@ The gamma lookup allocation is created one time and never changes after it is in
 </li>
 </ul>
 
-#### - D3DKMDT_GDISURFACE_EXISTINGSYSMEM
+### -field D3DKMDT_GDISURFACE_EXISTINGSYSMEM
 
 Indicates that the surface has the following properties:
 <ul>
@@ -196,14 +196,14 @@ This value is used in the same way as the D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE 
 </li>
 </ul>
 
-#### - D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE
+### -field D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE
 
 Reserved for system use. Do not use this value in your driver.
 
 Supported starting with Windows 8.
 
 
-#### - D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER
+### -field D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER
 
 Indicates that the surface has the following properties:
 <ul>
@@ -222,7 +222,7 @@ The pitch and height must have the required alignment for the cross-adapter reso
 </ul>Supported starting with Windows 8.1.
 
 
-#### - D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER
+### -field D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER
 
 Reserved for system use. Do not use this value in your driver.
 
@@ -231,15 +231,15 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
  
 

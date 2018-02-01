@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwEnumerateTransactionObject, kernel.zwenumeratetransactionobject, wdm/NtEnumerateTransactionObject, NtEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], ZwEnumerateTransactionObject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml
+ms.keywords: ZwEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, wdm/NtEnumerateTransactionObject, NtEnumerateTransactionObject, kernel.zwenumeratetransactionobject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS ZwEnumerateTransactionObject(
 
 
 
-#### - RootObjectHandle [in, optional]
+### -param RootObjectHandle [in, optional]
 
 A handle to a KTM object. The routine enumerates the child objects of the specified object. This parameter is optional and can be <b>NULL</b>. For more information about valid values for this parameter, see the table in the following Remarks section.
 
 
-#### - QueryType [in]
+### -param QueryType [in]
 
 A <a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>-typed value that identifies the object type to enumerate. For more information about valid values for this parameter, see the table in the following Remarks section.
 
 
-#### - ObjectCursor [in, out]
+### -param ObjectCursor [in, out]
 
 A pointer to a caller-allocated buffer that begins with a <a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a> structure. <b>ZwEnumerateTransactionObject</b> uses the buffer to store the GUIDs of objects that it finds.
 
 
-#### - ObjectCursorLength [in]
+### -param ObjectCursorLength [in]
 
 The length, in bytes, of the buffer that <i>ObjectCursor</i> points to.
 
 
-#### - ReturnLength [out]
+### -param ReturnLength [out]
 
 A pointer to a caller-allocated location that receives the number of bytes that <b>ZwEnumerateTransactionObject</b> returns in the <i>ObjectCursor</i> buffer, including the length of the <b>KTMOBJECT_CURSOR</b> structure and the length of all returned GUIDs.
 

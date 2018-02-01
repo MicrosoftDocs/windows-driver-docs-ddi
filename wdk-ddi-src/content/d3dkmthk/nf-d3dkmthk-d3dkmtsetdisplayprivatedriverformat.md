@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4b720076-161f-47b4-b410-f9554e502a53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetDisplayPrivateDriverFormat function [Display Devices], OpenGL_Functions_742fb584-0b9d-4650-a0a6-64f3e3f55dff.xml, d3dkmthk/D3DKMTSetDisplayPrivateDriverFormat, display.d3dkmtsetdisplayprivatedriverformat, D3DKMTSetDisplayPrivateDriverFormat
+ms.keywords: D3DKMTSetDisplayPrivateDriverFormat, d3dkmthk/D3DKMTSetDisplayPrivateDriverFormat, D3DKMTSetDisplayPrivateDriverFormat function [Display Devices], display.d3dkmtsetdisplayprivatedriverformat, OpenGL_Functions_742fb584-0b9d-4650-a0a6-64f3e3f55dff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

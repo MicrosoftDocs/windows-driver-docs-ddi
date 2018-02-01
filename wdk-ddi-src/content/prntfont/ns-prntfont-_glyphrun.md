@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21f6631c-dff1-459f-a83e-7aa1d5d2ab2b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PGLYPHRUN structure pointer [Print Devices], print.glyphrun, prntfont/GLYPHRUN, GLYPHRUN, _GLYPHRUN, GLYPHRUN structure [Print Devices], print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, prntfont/PGLYPHRUN, *PGLYPHRUN, PGLYPHRUN
+ms.keywords: prntfont/GLYPHRUN, GLYPHRUN structure [Print Devices], PGLYPHRUN, prntfont/PGLYPHRUN, PGLYPHRUN structure pointer [Print Devices], print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, print.glyphrun, *PGLYPHRUN, GLYPHRUN, _GLYPHRUN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _GLYPHRUN {
 
 
 
-#### - wcLow
+### -field wcLow
 
 Specifies a Unicode value representing the first glyph in the glyph run.
 
 
-#### - wGlyphCount
+### -field wGlyphCount
 
 Specifies the number of glyphs represented by the glyph run.
 
@@ -90,11 +90,11 @@ The GLYPHRUN structures must be defined in ascending order, based on the value o
 
 ## -see-also
 
+<a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570578">WCRUN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GLYPHSET</a>
-
-<a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
 
  
 

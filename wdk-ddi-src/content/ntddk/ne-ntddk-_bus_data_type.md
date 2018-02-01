@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/MPSAConfiguration, ntddk/PCMCIAConfiguration, PNPISAConfiguration, ntddk/Cmos, ntddk/CbusConfiguration, PBUS_DATA_TYPE, ntddk/VMEConfiguration, ntddk/PNPISAConfiguration, CbusConfiguration, VMEConfiguration, ntddk/MPIConfiguration, ntddk/NuBusConfiguration, PCIConfiguration, MPIConfiguration, MaximumBusDataType, ntddk/Pos, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], ConfigurationSpaceUndefined, ntddk/PBUS_DATA_TYPE, BUS_DATA_TYPE, ntddk/MaximumBusDataType, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], SgiInternalConfiguration, Pos, MPSAConfiguration, EisaConfiguration, ntddk/SgiInternalConfiguration, ntddk/EisaConfiguration, ntddk/ConfigurationSpaceUndefined, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, _BUS_DATA_TYPE, *PBUS_DATA_TYPE, Cmos, ntddk/PCIConfiguration, ntddk/BUS_DATA_TYPE, PCMCIAConfiguration, kernel.bus_data_type, NuBusConfiguration
+ms.keywords: PNPISAConfiguration, ntddk/VMEConfiguration, ConfigurationSpaceUndefined, ntddk/SgiInternalConfiguration, VMEConfiguration, Cmos, ntddk/ConfigurationSpaceUndefined, MaximumBusDataType, ntddk/PNPISAConfiguration, kernel.bus_data_type, BUS_DATA_TYPE, ntddk/MPIConfiguration, PCIConfiguration, ntddk/BUS_DATA_TYPE, SgiInternalConfiguration, PBUS_DATA_TYPE, ntddk/Cmos, ntddk/PBUS_DATA_TYPE, ntddk/CbusConfiguration, *PBUS_DATA_TYPE, CbusConfiguration, MPIConfiguration, ntddk/MaximumBusDataType, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/MPSAConfiguration, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], EisaConfiguration, ntddk/NuBusConfiguration, PCMCIAConfiguration, _BUS_DATA_TYPE, Pos, ntddk/Pos, NuBusConfiguration, ntddk/EisaConfiguration, ntddk/PCIConfiguration, ntddk/PCMCIAConfiguration, MPSAConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,85 +80,85 @@ typedef enum _BUS_DATA_TYPE {
 
 
 
-#### - ConfigurationSpaceUndefined
+### -field ConfigurationSpaceUndefined
 
 Indicates that the type of bus configuration space is undefined.
 
 
-#### - Cmos
+### -field Cmos
 
 Indicates CMOS data.
 
 
-#### - EisaConfiguration
+### -field EisaConfiguration
 
 Indicates an EISA bus configuration space.
 
 
-#### - Pos
+### -field Pos
 
 For internal use only.
 
 
-#### - CbusConfiguration
+### -field CbusConfiguration
 
 Indicates Cbus configuration space.
 
 
-#### - PCIConfiguration
+### -field PCIConfiguration
 
 Indicates PCI configuration space.
 
 
-#### - VMEConfiguration
+### -field VMEConfiguration
 
 Indicates VME configuration space.
 
 
-#### - NuBusConfiguration
+### -field NuBusConfiguration
 
 Indicates NuBus configuration space.
 
 
-#### - PCMCIAConfiguration
+### -field PCMCIAConfiguration
 
 Indicates PCMCIA configuration space.
 
 
-#### - MPIConfiguration
+### -field MPIConfiguration
 
 Indicates MPI configuration space.
 
 
-#### - MPSAConfiguration
+### -field MPSAConfiguration
 
 Indicates MPSA configuration space.
 
 
-#### - PNPISAConfiguration
+### -field PNPISAConfiguration
 
 Indicates PNPISA configuration space.
 
 
-#### - SgiInternalConfiguration
+### -field SgiInternalConfiguration
 
 Indicates SGI internal bus configuration space.
 
 
-#### - MaximumBusDataType
+### -field MaximumBusDataType
 
 Indicates the upper limit of the bus configuration space types.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
  
 

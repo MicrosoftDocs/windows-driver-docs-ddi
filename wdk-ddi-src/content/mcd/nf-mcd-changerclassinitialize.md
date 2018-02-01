@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerClassInitialize routine [Storage Devices], ChangerClassInitialize, chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize, storage.changerclassinitialize
+ms.keywords: storage.changerclassinitialize, ChangerClassInitialize, mcd/ChangerClassInitialize, chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, ChangerClassInitialize routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ChangerClassInitialize(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 Pointer to the changer miniclass driver object.  This is passed as a parameter to the miniclass driver's <b>DriverEntry</b> routine. The format of this object is operating system-specific and should not be interpreted by the miniclass driver. 
 
 
-#### - RegistryPath [in]
+### -param RegistryPath [in]
 
 Pointer to the registry path for changer miniclass driver. This is also passed as a parameter to the miniclass driver's <b>DriverEntry</b> routine. The format of this is operating system-specific and should not be interpreted by the miniclass driver.
 

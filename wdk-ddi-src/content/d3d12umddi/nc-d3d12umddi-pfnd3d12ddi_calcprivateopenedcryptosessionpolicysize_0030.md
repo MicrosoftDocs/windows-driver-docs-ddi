@@ -68,17 +68,12 @@ SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - *pArgs [in]
-
-The arguments used to open a session policy.
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to open a session policy.
 

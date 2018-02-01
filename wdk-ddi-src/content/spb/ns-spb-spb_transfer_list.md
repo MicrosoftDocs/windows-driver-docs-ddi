@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: DC4E165B-4D3A-4C5F-9B6F-8CB825BAF4FD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spb_transfer_list, SPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], PSPB_TRANSFER_LIST structure pointer [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST
+ms.keywords: PSPB_TRANSFER_LIST structure pointer [Buses], SPB_TRANSFER_LIST, spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, SPB.spb_transfer_list, SPB_TRANSFER_LIST structure [Buses], *PSPB_TRANSFER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _SPB_TRANSFER_LIST {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of the <b>SPB_TRANSFER_LIST</b> structure. This size value does not include any <b>Transfers</b> array elements that might follow this structure. If new members are added to future versions of this structure, the <b>Size</b> value can be used to determine which version of the <b>SPB_TRANSFER_LIST</b> structure is being used.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for use by the operating system. Set to zero.
 
 
-#### - TransferCount
+### -field TransferCount
 
 The number of elements in the <b>Transfers</b> array. This array contains a minimum of one element.
 
 
-#### - Transfers
+### -field Transfers
 
 This member is the first element in an array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structures.  Each array element describes an individual transfer in the I/O transfer sequence. If the array contains more than one element, the additional array elements immediately follow the <b>SPB_TRANSFER_LIST</b> structure in memory. The transfers are performed in the order in which they appear in the array, starting with the first element.
 
@@ -106,9 +106,9 @@ If your SPB controller driver supports custom I/O control (IOCTL) requests that 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh974774">IOCTL_SPB_FULL_DUPLEX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
  
 

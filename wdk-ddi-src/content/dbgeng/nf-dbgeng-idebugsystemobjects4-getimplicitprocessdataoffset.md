@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20a11f3b-cc49-4080-ac4c-b8e18d4b2f73
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects4, GetImplicitProcessDataOffset method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetImplicitProcessDataOffset, GetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getimplicitprocessdataoffset, dbgeng/IDebugSystemObjects2::GetImplicitProcessDataOffset, GetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetImplicitProcessDataOffset method, IDebugSystemObjects3::GetImplicitProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetImplicitProcessDataOffset method, IDebugSystemObjects4::GetImplicitProcessDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetImplicitProcessDataOffset method, GetImplicitProcessDataOffset, dbgeng/IDebugSystemObjects4::GetImplicitProcessDataOffset, IDebugSystemObjects2::GetImplicitProcessDataOffset, IDebugSystemObjects_3ec83d96-a7ff-4767-be21-b822c45ae01e.xml, GetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface
+ms.keywords: IDebugSystemObjects4 interface [Windows Debugging], GetImplicitProcessDataOffset method, IDebugSystemObjects4, debugger.getimplicitprocessdataoffset, GetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::GetImplicitProcessDataOffset, GetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects_3ec83d96-a7ff-4767-be21-b822c45ae01e.xml, dbgeng/IDebugSystemObjects4::GetImplicitProcessDataOffset, GetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects2::GetImplicitProcessDataOffset, GetImplicitProcessDataOffset, IDebugSystemObjects3::GetImplicitProcessDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetImplicitProcessDataOffset method, IDebugSystemObjects3 interface [Windows Debugging], GetImplicitProcessDataOffset method, dbgeng/IDebugSystemObjects3::GetImplicitProcessDataOffset, GetImplicitProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2::GetImplicitProcessDataOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetImplicitProcessDataOffset(
 
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the location in the target's memory address space of the data structure of the system process that is the implicit process for the current target.
 

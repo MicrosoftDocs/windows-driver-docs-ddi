@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7abe2aa-a33c-4184-a850-d0efa1e99221
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2, IDebugBreakpoint interface [Windows Debugging], GetPassCount method, GetPassCount method [Windows Debugging], ComOther_bf916108-efd7-436f-a89e-a26826e2e258.xml, dbgeng/IDebugBreakpoint::GetPassCount, IDebugBreakpoint2 interface [Windows Debugging], GetPassCount method, dbgeng/IDebugBreakpoint2::GetPassCount, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, GetPassCount, IDebugBreakpoint2::GetPassCount, debugger.getpasscount, GetPassCount method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetPassCount
+ms.keywords: GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetPassCount, dbgeng/IDebugBreakpoint::GetPassCount, IDebugBreakpoint2, IDebugBreakpoint::GetPassCount, GetPassCount method [Windows Debugging], IDebugBreakpoint interface, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetPassCount method, IDebugBreakpoint2::GetPassCount, GetPassCount, ComOther_bf916108-efd7-436f-a89e-a26826e2e258.xml, IDebugBreakpoint interface [Windows Debugging], GetPassCount method, debugger.getpasscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetPassCount(
 
 
 
-#### - Count [out]
+### -param Count [out]
 
 The number of times that the target was originally required to hit the breakpoint before it is triggered.  The number of times that the target was originally required to pass the breakpoint without triggering it is the value that is returned to <i>Count</i>, minus one.
 

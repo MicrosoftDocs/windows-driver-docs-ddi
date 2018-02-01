@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c418538a-4041-4ea8-8a4c-1f4d35e434c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInterlockedAddUlong, kernel.exinterlockedaddulong, k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, ExInterlockedAddUlong, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ExInterlockedAddUlong, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, kernel.exinterlockedaddulong, ExInterlockedAddUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG ExInterlockedAddUlong(
 
 
 
-#### - Addend [in, out]
+### -param Addend [in, out]
 
 A pointer to an unsigned long integer whose value is to be adjusted by the <i>Increment</i> value.
 
 
-#### - Increment [in]
+### -param Increment [in]
 
 Specifies an unsigned long integer to be added. 
 
 
-#### - Lock [in, out]
+### -param Lock [in, out]
 
 A pointer to a spin lock to be used to synchronize access to the <i>Addend</i>. 
 
@@ -111,13 +111,13 @@ Callers of <b>ExInterlockedAddUlong</b> run at any IRQL. The storage for the <i>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
-
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
-
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
 <a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
  
 

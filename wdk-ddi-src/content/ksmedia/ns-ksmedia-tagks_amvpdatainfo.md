@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4c217cf8-ca93-4e5d-8cbc-c56794f96d50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, KS_AMVPDATAINFO structure [Streaming Media Devices], ksmedia/KS_AMVPDATAINFO, PKS_AMVPDATAINFO structure pointer [Streaming Media Devices], *PKS_AMVPDATAINFO, PKS_AMVPDATAINFO, tagKS_AMVPDATAINFO, ksmedia/PKS_AMVPDATAINFO, stream.ks_amvpdatainfo, KS_AMVPDATAINFO
+ms.keywords: "*PKS_AMVPDATAINFO, KS_AMVPDATAINFO structure [Streaming Media Devices], ksmedia/KS_AMVPDATAINFO, tagKS_AMVPDATAINFO, stream.ks_amvpdatainfo, dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, ksmedia/PKS_AMVPDATAINFO, KS_AMVPDATAINFO, PKS_AMVPDATAINFO, PKS_AMVPDATAINFO structure pointer [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,67 +79,67 @@ typedef struct tagKS_AMVPDATAINFO {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size of the structure, in bytes.
 
 
-#### - dwMicrosecondsPerField
+### -field dwMicrosecondsPerField
 
 Specifies the time taken by each field, in microseconds (millionths of a second).
 
 
-#### - amvpDimInfo
+### -field amvpDimInfo
 
 Describes the dimensional information of the video port, such as field and VBI dimensions.
 
 
-#### - dwPictAspectRatioX
+### -field dwPictAspectRatioX
 
 Indicates the picture aspect ratio in the horizontal dimension. For example, for a 16x9 aspect ratio this member would be 16.
 
 
-#### - dwPictAspectRatioY
+### -field dwPictAspectRatioY
 
 Indicates the picture aspect ratio in the vertical dimension. For example, for a 4x3 aspect ratio this member would be 3.
 
 
-#### - bEnableDoubleClock
+### -field bEnableDoubleClock
 
 Specifies if the video port should enable double clocking. 
 
 
-#### - bEnableVACT
+### -field bEnableVACT
 
 Specifies if the video port should use an external VACT signal.
 
 
-#### - bDataIsInterlaced
+### -field bDataIsInterlaced
 
 Indicates that the signal is interlaced.
 
 
-#### - lHalfLinesOdd
+### -field lHalfLinesOdd
 
 Indicates the number of halflines in the odd field.
 
 
-#### - bFieldPolarityInverted
+### -field bFieldPolarityInverted
 
 Indicates if the device inverts the field polarity by default.
 
 
-#### - dwNumLinesInVREF
+### -field dwNumLinesInVREF
 
 Specifies the number of lines of data in VREF.
 
 
-#### - lHalfLinesEven
+### -field lHalfLinesEven
 
 Indicates the number of halflines in the even field.
 
 
-#### - dwReserved1
+### -field dwReserved1
 
 Reserved for future use. Do not use.
 

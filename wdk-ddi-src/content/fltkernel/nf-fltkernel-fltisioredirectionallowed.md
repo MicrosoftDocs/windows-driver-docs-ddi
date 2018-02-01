@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 79a59e86-9ee2-4cfa-b495-5248f227d24b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsIoRedirectionAllowed routine [Installable File System Drivers], FltIsIoRedirectionAllowed, ifsk.fltisioredirectionallowed, fltkernel/FltIsIoRedirectionAllowed
+ms.keywords: fltkernel/FltIsIoRedirectionAllowed, ifsk.fltisioredirectionallowed, FltIsIoRedirectionAllowed routine [Installable File System Drivers], FltIsIoRedirectionAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltIsIoRedirectionAllowed(
 
 
 
-#### - SourceInstance [in]
+### -param SourceInstance [in]
 
 The filter instance on the source device stack.
 
 
-#### - TargetInstance [in]
+### -param TargetInstance [in]
 
 The filter instance on the target device stack.
 
 
-#### - RedirectionAllowed [out]
+### -param RedirectionAllowed [out]
 
 A value of <b>TRUE</b> if all I/O to the source device stack can be redirected to the target device stack by changing the filter instance referenced, otherwise <b>FALSE</b>.
 
@@ -104,13 +104,13 @@ If <i>RedirectionAllowed</i> is <b>FALSE</b>, the minifilter needs to allocate a
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+<a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
  
 

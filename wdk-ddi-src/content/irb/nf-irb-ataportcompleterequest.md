@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2dddd012-9a13-49e4-9392-300938e78609
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortCompleteRequest routine [Storage Devices], AtaPortCompleteRequest, atartns_6ed3a9ca-b9b8-4d2f-a2f2-5a57db2071f8.xml, storage.ataportcompleterequest, irb/AtaPortCompleteRequest
+ms.keywords: irb/AtaPortCompleteRequest, atartns_6ed3a9ca-b9b8-4d2f-a2f2-5a57db2071f8.xml, storage.ataportcompleterequest, AtaPortCompleteRequest, AtaPortCompleteRequest routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID AtaPortCompleteRequest(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-#### - Irb [in]
+### -param Irb [in]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) to be completed.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: EEE091E4-29D1-4C6F-B543-C54736660CCA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PPCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER, *PPCNOTIFICATION_BUFFER, audio.pcnotification_buffer, PCNOTIFICATION_BUFFER structure [Audio Devices], _PCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], portcls/PCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER
+ms.keywords: PCNOTIFICATION_BUFFER, _PCNOTIFICATION_BUFFER, portcls/PPCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER structure [Audio Devices], audio.pcnotification_buffer, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], PPCNOTIFICATION_BUFFER, portcls/PCNOTIFICATION_BUFFER, *PPCNOTIFICATION_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PCNOTIFICATION_BUFFER {
 
 
 
-#### - NotificationBuffer
+### -field NotificationBuffer
 
 The notification buffer used by <a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>.
 

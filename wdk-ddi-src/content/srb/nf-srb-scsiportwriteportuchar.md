@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aba28a55-d7bc-4f75-ac87-4148cb1b4cfb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_4dfda130-8e22-44b3-a57a-0656cd2a70f2.xml, storage.scsiportwriteportuchar, ScsiPortWritePortUchar routine [Storage Devices], ScsiPortWritePortUchar, srb/ScsiPortWritePortUchar
+ms.keywords: scsiprt_4dfda130-8e22-44b3-a57a-0656cd2a70f2.xml, ScsiPortWritePortUchar routine [Storage Devices], ScsiPortWritePortUchar, storage.scsiportwriteportuchar, srb/ScsiPortWritePortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID ScsiPortWritePortUchar(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the value to be written to the HBA's I/O port.
 

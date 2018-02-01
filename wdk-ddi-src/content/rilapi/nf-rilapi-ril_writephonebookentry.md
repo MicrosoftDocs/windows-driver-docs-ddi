@@ -75,27 +75,27 @@ HRESULT  RIL_WritePhonebookEntry(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 
-#### - dwStoreLocation
+### -param dwStoreLocation
 
 
 
-#### - lpEntry
+### -param lpEntry
 
 
 
-#### - lpLockVerification
+### -param lpLockVerification
 
 
 

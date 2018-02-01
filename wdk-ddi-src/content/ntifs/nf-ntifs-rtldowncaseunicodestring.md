@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c611b051-45fe-4509-bf2c-7059d578ea05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtldowncaseunicodestring, RtlDowncaseUnicodeString routine [Installable File System Drivers], rtlref_140e7faa-096a-49df-a2b7-87776cfc5b38.xml, RtlDowncaseUnicodeString, ntifs/RtlDowncaseUnicodeString
+ms.keywords: RtlDowncaseUnicodeString, rtlref_140e7faa-096a-49df-a2b7-87776cfc5b38.xml, RtlDowncaseUnicodeString routine [Installable File System Drivers], ntifs/RtlDowncaseUnicodeString, ifsk.rtldowncaseunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlDowncaseUnicodeString(
 
 
 
-#### - DestinationString
+### -param DestinationString
 
 Pointer to a caller-allocated buffer to receive the converted Unicode string. If <i>AllocateDestinationString</i> is <b>FALSE</b>, the caller must also allocate a buffer for the <b>Buffer</b> member of <i>DestinationString</i> to hold the Unicode data. If <i>AllocateDestinationString</i> is <b>TRUE</b>, <b>RtlDowncaseUnicodeString</b> allocates a buffer large enough to hold the string, passes a pointer to it in <b>Buffer</b>, and updates the length and maximum length members of <i>DestinationString</i> accordingly. 
 
 
-#### - SourceString [in]
+### -param SourceString [in]
 
 Pointer to the source Unicode string to be converted to lowercase. 
 
 
-#### - AllocateDestinationString [in]
+### -param AllocateDestinationString [in]
 
 Set to <b>TRUE</b> if <b>RtlDowncaseUnicodeString</b> should allocate the buffer space for the <i>DestinationString</i>, <b>FALSE</b> otherwise. If this parameter is <b>TRUE</b>, the caller is responsible for freeing the buffer when it is no longer needed by calling <b>RtlFreeUnicodeString</b>. 
 

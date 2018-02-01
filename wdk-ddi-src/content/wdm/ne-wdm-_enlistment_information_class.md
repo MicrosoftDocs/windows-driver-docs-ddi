@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d031e032-66e3-4697-8db1-67655cfc223d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: EnlistmentBasicInformation, wdm/EnlistmentCrmInformation, ENLISTMENT_INFORMATION_CLASS, EnlistmentCrmInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, wdm/EnlistmentBasicInformation, wdm/ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentRecoveryInformation, _ENLISTMENT_INFORMATION_CLASS, kernel.enlistment_information_class, EnlistmentRecoveryInformation, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, _ENLISTMENT_INFORMATION_CLASS, EnlistmentCrmInformation, EnlistmentBasicInformation, wdm/EnlistmentCrmInformation, wdm/ENLISTMENT_INFORMATION_CLASS, kernel.enlistment_information_class, wdm/EnlistmentBasicInformation, ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentRecoveryInformation, EnlistmentRecoveryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,26 +70,26 @@ typedef enum _ENLISTMENT_INFORMATION_CLASS {
 
 
 
-#### - EnlistmentBasicInformation
+### -field EnlistmentBasicInformation
 
 Information about an enlistment object is stored in an <a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a> structure.
 
 
-#### - EnlistmentRecoveryInformation
+### -field EnlistmentRecoveryInformation
 
 A resource manager is setting or obtaining customized recovery information for an enlistment. To learn more about recovery information, see <a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>.
 
 
-#### - EnlistmentCrmInformation
+### -field EnlistmentCrmInformation
 
 Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMATION</b> structure.
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
-
 <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
 
 <a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
 

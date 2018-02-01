@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp
+ms.keywords: ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,37 +77,37 @@ typedef struct {
 
 
 
-#### - Counter
+### -field Counter
 
 Specifies the source clock reference counter.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - SCRToken
+### -field SCRToken
 
 Specifies the source clock reference token.
 
 
-#### - PresentationTimeStamp
+### -field PresentationTimeStamp
 
 Specifies the presentation timestamp.
 
 
-#### - SourceClockReference
+### -field SourceClockReference
 
 Specifies the source clock reference.
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 

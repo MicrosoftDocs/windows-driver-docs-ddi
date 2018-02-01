@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, wdf.wdfioresourcerequirementslistgetcount, kmdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount method, WdfIoResourceRequirementsListGetCount, wdfresource/WdfIoResourceRequirementsListGetCount
+ms.keywords: wdfresource/WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount, wdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount method, PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, kmdf.wdfioresourcerequirementslistgetcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ ULONG WdfIoResourceRequirementsListGetCount(
 
 
 
-#### - RequirementsList [in]
+### -param RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 

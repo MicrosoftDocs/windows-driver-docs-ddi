@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7D146DDF-58A5-40C2-BF21-AF785DC7DB18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateNegotiationSucceeded, UCM_PD_CONN_STATE enumeration [Buses], UCM_PD_CONN_STATE, UcmPdConnStateInvalid, UcmPdConnStateNegotiationFailed, ucmtypes/UCM_PD_CONN_STATE, _UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateInvalid, UcmPdConnStateNotSupported, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNotSupported, buses.ucm_pd_conn_state
+ms.keywords: UCM_PD_CONN_STATE enumeration [Buses], ucmtypes/UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationSucceeded, UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNotSupported, UCM_PD_CONN_STATE, ucmtypes/UCM_PD_CONN_STATE, _UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateNegotiationFailed, UcmPdConnStateNegotiationFailed, UcmPdConnStateNegotiationSucceeded, buses.ucm_pd_conn_state, UcmPdConnStateNotSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _UCM_PD_CONN_STATE {
 
 
 
-#### - UcmPdConnStateInvalid
+### -field UcmPdConnStateInvalid
 
 Indicates the PD negotiation state is invalid.
 
 
-#### - UcmPdConnStateNotSupported
+### -field UcmPdConnStateNotSupported
 
 Indicates a PD connection is not supported. 
 
 
-#### - UcmPdConnStateNegotiationFailed
+### -field UcmPdConnStateNegotiationFailed
 
 Indicates the PD negotiation failed.
 
 
-#### - UcmPdConnStateNegotiationSucceeded
+### -field UcmPdConnStateNegotiationSucceeded
 
 Indicates the PD negotiation succeeded.
 

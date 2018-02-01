@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFObject, wdf.iwdfobject_acquirelock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, IWDFObject interface, AcquireLock method, wudfddi/IWDFObject::AcquireLock, umdf.iwdfobject_acquirelock, IWDFObject::AcquireLock, AcquireLock method, IWDFObject interface, AcquireLock, AcquireLock method
+ms.keywords: UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, IWDFObject::AcquireLock, AcquireLock method, AcquireLock, AcquireLock method, IWDFObject interface, IWDFObject, IWDFObject interface, AcquireLock method, wudfddi/IWDFObject::AcquireLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

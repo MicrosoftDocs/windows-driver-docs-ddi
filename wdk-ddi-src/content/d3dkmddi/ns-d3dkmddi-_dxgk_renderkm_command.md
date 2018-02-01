@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_RENDERKM_COMMAND structure [Display Devices], DXGK_RENDERKM_COMMAND, _DXGK_RENDERKM_COMMAND, DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, display.dxgk_renderkm_command, d3dkmddi/DXGK_RENDERKM_COMMAND
+ms.keywords: d3dkmddi/DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DXGK_RENDERKM_COMMAND, _DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command, DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,50 +76,8 @@ typedef struct _DXGK_RENDERKM_COMMAND {
 
 
 
-#### - Command
+### -field Command
 
-
-
-#### BitBlt
-
-
-       [in] A bit-block transfer (bitblt) that is described by a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_bitblt.md">DXGK_GDIARG_BITBLT</a> structure.
-      
-
-
-#### ColorFill
-
-
-       [in] A color fill that is described by a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a> structure.
-      
-
-
-#### AlphaBlend
-
-
-       [in] An alpha blend that is described by a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a> structure.
-      
-
-
-#### StretchBlt
-
-
-       [in] A stretch bit-block transfer that is described by a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a> structure.
-      
-
-
-#### TransparentBlt
-
-
-       [in] A transparent bit-block transfer that is described by a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a> structure.
-      
-
-
-#### ClearTypeBlend
-
-
-       [in] A ClearType blend that is described by a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a> structure.
-      
 
 
 ### -field Command.BitBlt
@@ -164,14 +122,14 @@ typedef struct _DXGK_RENDERKM_COMMAND {
       
 
 
-#### - OpCode
+### -field OpCode
 
 
       [in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>-type operation code that identifies the GDI hardware-accelerated rendering operation to process. For more information about GDI hardware acceleration, see the Remarks section.
      
 
 
-#### - CommandSize
+### -field CommandSize
 
 
       [in] The size of the current command, in bytes. This is equal to the number of bytes from the beginning of DXGK_RENDERKM_COMMAND up to the next command.
@@ -190,23 +148,23 @@ A display miniport driver should report that it supports command buffer processi
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_bitblt.md">DXGK_GDIARG_BITBLT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
 
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_bitblt.md">DXGK_GDIARG_BITBLT</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
 
  
 

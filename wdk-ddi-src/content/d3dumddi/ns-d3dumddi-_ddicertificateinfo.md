@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 205936c3-fb5a-48e7-8f13-328563c2f0d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DDICERTIFICATEINFO, display.ddicertificateinfo, _DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, d3dumddi/DDICERTIFICATEINFO
+ms.keywords: d3dumddi/DDICERTIFICATEINFO, _DDICERTIFICATEINFO, DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], display.ddicertificateinfo, D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DDICERTIFICATEINFO {
 
 
 
-#### - CertificateType
+### -field CertificateType
 
 [in] A <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_certificatetype.md">D3DDDI_CERTIFICATETYPE</a>-typed value that indicates the certificate type.
 
 
-#### - ChannelType
+### -field ChannelType
 
 [in] A <a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>-typed value that indicates the authenticated-channel type. 
 
 
-#### - CryptoSessionType
+### -field CryptoSessionType
 
 [in] A GUID that indicates the encryption session. 
 
@@ -93,13 +93,13 @@ The runtime specifies a pointer to a DDICERTIFICATEINFO structure in the <b>pInf
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
 <a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_certificatetype.md">D3DDDI_CERTIFICATETYPE</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
  
 

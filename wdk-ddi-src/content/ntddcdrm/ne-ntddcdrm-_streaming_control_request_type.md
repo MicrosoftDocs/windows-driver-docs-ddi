@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A17F0E3C-402B-4484-B4AE-0583773AEDA8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/ CdromStreamingEnableForWriteOnly, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], ntddcdrm/CdromStreamingEnableForReadWrite, CdromStreamingEnableForWriteOnly, _STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForReadWrite, PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForReadOnly, storage.streaming_control_request_type, CdromStreamingDisable, *PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingEnableForReadOnly, ntddcdrm/CdromStreamingDisable, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices]
+ms.keywords: ntddcdrm/ CdromStreamingEnableForWriteOnly, storage.streaming_control_request_type, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingDisable, CdromStreamingEnableForWriteOnly, CdromStreamingDisable, CdromStreamingEnableForReadOnly, ntddcdrm/CdromStreamingEnableForReadWrite, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForReadWrite, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], PSTREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE, _STREAMING_CONTROL_REQUEST_TYPE, STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingEnableForReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _STREAMING_CONTROL_REQUEST_TYPE {
 
 
 
-#### - CdromStreamingDisable
+### -field CdromStreamingDisable
 
 Streaming read and streaming write requests will be disabled for the requested file handle.
 
 
-#### - CdromStreamingEnableForReadOnly
+### -field CdromStreamingEnableForReadOnly
 
 Streaming read requests will be enabled, and streaming write requests will be disabled, for the requested file handle.
 
 
-#### - CdromStreamingEnableForWriteOnly
+### -field CdromStreamingEnableForWriteOnly
 
 Streaming read requests will be disabled, and streaming write requests will be enabled, for the requested file handle.
 
 
-#### - CdromStreamingEnableForReadWrite
+### -field CdromStreamingEnableForReadWrite
 
 Streaming read and streaming write requests will be enabled for the requested file handle.
 

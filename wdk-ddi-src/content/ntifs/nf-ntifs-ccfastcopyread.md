@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 725ede16-5fc6-4465-bcdc-da7702779d68
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, CcFastCopyRead, ntifs/CcFastCopyRead, ifsk.ccfastcopyread, CcFastCopyRead routine [Installable File System Drivers]
+ms.keywords: ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, CcFastCopyRead, CcFastCopyRead routine [Installable File System Drivers], ntifs/CcFastCopyRead, ifsk.ccfastcopyread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,32 +72,32 @@ VOID CcFastCopyRead(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the cached file from which the data is to be read.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 Starting byte offset within the cached file.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Length in bytes of the data to be read.
 
 
-#### - PageCount [in]
+### -param PageCount [in]
 
 Number of pages spanned by the read.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a buffer into which the data is to be copied. 
 
 
-#### - IoStatus [out]
+### -param IoStatus [out]
 
 Pointer to a structure that receives the final completion status and information about the operation. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
@@ -136,17 +136,17 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
+<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
-
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
 
  
 

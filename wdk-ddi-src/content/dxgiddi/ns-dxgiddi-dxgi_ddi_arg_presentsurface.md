@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1A1E2644-7411-4D69-8D45-B19D707221AB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgi_ddi_arg_presentsurface, dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices]
+ms.keywords: DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices], display.dxgi_ddi_arg_presentsurface, dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct DXGI_DDI_ARG_PRESENTSURFACE {
 
 
 
-#### - hSurface
+### -field hSurface
 
 [in] A handle to the resource that contains the surface. 
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 The zero-based index into the resource, which the handle in the <b>hSurface</b> member specifies. The <b>SubResourceIndex</b> index indicates the surface.
 

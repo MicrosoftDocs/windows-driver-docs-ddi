@@ -69,17 +69,17 @@ NTSTATUS RtlUShortSub(
 
 
 
-#### - usMinuend [in]
+### -param usMinuend [in]
 
 The value from which <i>usSubtrahend</i> is subtracted.
 
 
-#### - usSubtrahend [in]
+### -param usSubtrahend [in]
 
 The value to subtract from <i>usMinuend</i>.
 
 
-#### - pusResult [out]
+### -param pusResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

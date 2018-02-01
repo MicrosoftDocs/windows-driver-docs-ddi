@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6b20db9e-807d-40f5-844f-f9726e3a854f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObDereferenceObjectDeferDelete, kernel.obdereferenceobjectdeferdelete, k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], wdm/ObDereferenceObjectDeferDelete
+ms.keywords: wdm/ObDereferenceObjectDeferDelete, kernel.obdereferenceobjectdeferdelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], ObDereferenceObjectDeferDelete, k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ObDereferenceObjectDeferDelete(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 A pointer to the body of the object.
 
@@ -95,9 +95,9 @@ To avoid such deadlocks, use <b>ObDereferenceObjectDeferDelete</b> instead of <b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
  
 

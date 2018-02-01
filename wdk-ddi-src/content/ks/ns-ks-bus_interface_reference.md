@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 17c2c46c-ff79-4c80-82c9-c49b18426789
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bus_interface_reference, *PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE, ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], ks/PBUS_INTERFACE_REFERENCE, ks/BUS_INTERFACE_REFERENCE
+ms.keywords: ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, PBUS_INTERFACE_REFERENCE, ks/BUS_INTERFACE_REFERENCE, ks/PBUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], stream.bus_interface_reference, BUS_INTERFACE_REFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - Interface
+### -field Interface
 
 Specifies the exported <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
 
 
-#### - ReferenceDeviceObject
+### -field ReferenceDeviceObject
 
 Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567198">KStrReferenceDeviceObject</a> routine.
 
 
-#### - DereferenceDeviceObject
+### -field DereferenceDeviceObject
 
 Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567170">KStrDereferenceDeviceObject</a> routine.
 
 
-#### - QueryReferenceString
+### -field QueryReferenceString
 
 Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567193">KStrQueryReferenceString</a> routine.
 

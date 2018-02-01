@@ -68,7 +68,7 @@ typedef struct IDARG_IN_OPM_GET_INFOMATION {
 
 
 
-#### - GetInfoParameters
+### -field GetInfoParameters
 
 
                      [in] Parameters for the get information request

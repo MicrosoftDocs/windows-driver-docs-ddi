@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 71DC78B0-F987-4FFB-B3D0-E7AD88EECDA3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], *PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_clear_active_interrupts_parameters, PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], gpioclx/GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
+ms.keywords: GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_clear_active_interrupts_parameters, PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], gpioclx/GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS {
 
 
 
-#### - BankId
+### -field BankId
 
 The identifier for the bank of GPIO pins that contains the pins to be cleared. If N is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to N–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
 
 
-#### - ClearActiveMask
+### -field ClearActiveMask
 
 A 64-bit mask that indicates which interrupts to clear in the specified bank. A bit in the mask that is set to 1 identifies a pin that is configured as an interrupt and that is to be cleared. All other bits in the mask are 0. If N is the number of pins in this bank, the pins are numbered 0 to N–1. Bit 0 (the least significant bit) in the mask represents pin 0, bit 1 represents pin 1, and so on.
 
 
-#### - FailedClearMask
+### -field FailedClearMask
 
 A 64-bit mask that identifies the GPIO pins that could not be cleared. If the GPIO controller driver fails to clear a bit that is indicated in the <b>ClearActiveMask</b> member, the driver sets the corresponding bit in the <b>FailedClearMask</b> member to mark the failure. If all the bits specified in <b>ClearActiveMask</b> are successfully cleared, the driver sets <b>FailedClearMask</b> to zero.
 
@@ -95,9 +95,9 @@ The <i>ClearParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
  
 

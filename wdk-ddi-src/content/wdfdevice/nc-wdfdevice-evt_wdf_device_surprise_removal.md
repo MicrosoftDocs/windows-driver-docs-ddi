@@ -73,7 +73,7 @@ VOID EvtDeviceSurpriseRemoval(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1d638aeb-299a-4707-be5d-99291a1605e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_bufferblt, _D3DDDIARG_BUFFERBLT, D3DDDIARG_BUFFERBLT, d3dumddi/D3DDDIARG_BUFFERBLT, UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml, D3DDDIARG_BUFFERBLT structure [Display Devices]
+ms.keywords: D3DDDIARG_BUFFERBLT structure [Display Devices], display.d3dddiarg_bufferblt, d3dumddi/D3DDDIARG_BUFFERBLT, UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml, _D3DDDIARG_BUFFERBLT, D3DDDIARG_BUFFERBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DDDIARG_BUFFERBLT {
 
 
 
-#### - hDstResource
+### -field hDstResource
 
 [in] A handle to the destination vertex or index buffer.
 
 
-#### - hSrcResource
+### -field hSrcResource
 
 [in] A handle to the source vertex or index buffer.
 
 
-#### - Offset
+### -field Offset
 
 [in] The offset, in bytes, of the destination buffer that the copy should be directed into.
 
 
-#### - SrcRange
+### -field SrcRange
 
 [in] A D3DDDIRANGE structure that indicates what range of the source buffer should be copied. This D3DDDIRANGE specifies an offset and size, in bytes.
 

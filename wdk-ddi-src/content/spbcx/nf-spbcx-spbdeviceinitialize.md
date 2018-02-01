@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbDeviceInitialize method [Buses], SpbDeviceInitialize, SPB.spbdeviceinitialize, spbcx/SpbDeviceInitialize
+ms.keywords: spbcx/SpbDeviceInitialize, SPB.spbdeviceinitialize, SpbDeviceInitialize method [Buses], SpbDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS SpbDeviceInitialize(
 
 
 
-#### - FxDevice [in]
+### -param FxDevice [in]
 
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
 
-#### - Config [in]
+### -param Config [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a> structure that contains the device configuration information for the SPB controller driver.  This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a> function.
 
@@ -102,13 +102,13 @@ If the structure pointed to by <i>Config</i> is not filled out correctly, <a hre
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
 
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
 
  
 

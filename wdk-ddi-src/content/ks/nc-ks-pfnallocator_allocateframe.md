@@ -71,17 +71,12 @@ NTSTATUS KStrAllocateFrame(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure for which to allocate frames.
 
 
-#### - *Frame [out]
-
-A pointer to a caller-allocated buffer in which the new frame is returned.
-
-
-#### - Frame [out]
+### -param *Frame [out]
 
 A pointer to a caller-allocated buffer in which the new frame is returned.
 

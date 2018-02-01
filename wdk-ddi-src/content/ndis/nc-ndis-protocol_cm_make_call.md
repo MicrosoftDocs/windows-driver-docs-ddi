@@ -76,28 +76,28 @@ NDIS_STATUS ProtocolCmMakeCall(
 
 
 
-#### - CallMgrVcContext [in]
+### -param CallMgrVcContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call managers maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - CallParameters [in, out]
+### -param CallParameters [in, out]
 
 Pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> structure that contains
      the parameters, specified by a connection-oriented client, for this outgoing call.
 
 
-#### - NdisPartyHandle [in, optional]
+### -param NdisPartyHandle [in, optional]
 
 Specifies a handle, supplied by NDIS, that uniquely identifies the initial party on the multipoint
      virtual connection. This handle is opaque to the call manager and reserved for NDIS library use. This
      handle is <b>NULL</b> if the client is not setting up an outgoing multipoint call.
 
 
-#### - CallMgrPartyContext [out, optional]
+### -param CallMgrPartyContext [out, optional]
 
 On return, specifies a handle to a call manager-supplied context area in which the call manager
      maintains state about the initial party on the multipoint call. If 
@@ -264,13 +264,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 <a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
 
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
  
 

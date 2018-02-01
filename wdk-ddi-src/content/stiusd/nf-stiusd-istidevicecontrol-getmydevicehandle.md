@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: B20B2AE6-A408-451C-B46D-803139E8B57F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface, GetMyDeviceHandle, stiusd/IStiDeviceControl::GetMyDeviceHandle, GetMyDeviceHandle method [Imaging Devices], image.istidevicecontrol_getmydevicehandle, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method, IStiDeviceControl::GetMyDeviceHandle, IStiDeviceControl
+ms.keywords: GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl::GetMyDeviceHandle, image.istidevicecontrol_getmydevicehandle, GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl, GetMyDeviceHandle, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method, stiusd/IStiDeviceControl::GetMyDeviceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetMyDeviceHandle(
 
 
 
-#### - lph
+### -param lph
 
 Defines the <b>LPHANDLE</b> parameter <i>lph</i>.
 

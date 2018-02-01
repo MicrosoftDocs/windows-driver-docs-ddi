@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc64b3d6-8c86-4f99-b3b9-de31f576988c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml, image.istidevice_rawwritedata, RawWriteData, IStiDevice::RawWriteData, sti/IStiDevice::RawWriteData, RawWriteData method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], RawWriteData method, RawWriteData method [Imaging Devices], IStiDevice
+ms.keywords: RawWriteData method [Imaging Devices], IStiDevice interface, RawWriteData method [Imaging Devices], IStiDevice, image.istidevice_rawwritedata, RawWriteData, IStiDevice interface [Imaging Devices], RawWriteData method, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml, sti/IStiDevice::RawWriteData, IStiDevice::RawWriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT RawWriteData(
 
 
 
-#### - lpBuffer [in]
+### -param lpBuffer [in]
 
 Caller-supplied pointer to a buffer containing data to be sent to the device.
 
 
-#### - nNumberOfBytes
+### -param nNumberOfBytes
 
 Caller-supplied number of bytes to be written. This is the number of bytes in the buffer pointed to by <i>lpBuffer</i>.
 
 
-#### - lpOverlapped [in, optional]
+### -param lpOverlapped [in, optional]
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 

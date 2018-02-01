@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81b979a8-87bb-48f3-b44a-bac9286648fa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortResumeDevice, storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml, StorPortResumeDevice routine [Storage Devices], storport/StorPortResumeDevice, storage.storportresumedevice
+ms.keywords: storage.storportresumedevice, storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml, StorPortResumeDevice routine [Storage Devices], storport/StorPortResumeDevice, StorPortResumeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API BOOLEAN StorPortResumeDevice(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - PathId [in]
+### -param PathId [in]
 
 Identifies the SCSI bus. 
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 Identifies the target controller or device on the bus. 
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Identifies the logical unit number of the target device. 
 

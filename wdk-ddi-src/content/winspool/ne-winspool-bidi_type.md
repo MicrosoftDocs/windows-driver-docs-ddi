@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ebb79ad6-91a1-4bdf-a6f6-7e04ed2358d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winspool/BIDI_TEXT, BIDI_BLOB, BIDI_FLOAT, winspool/BIDI_STRING, winspool/BIDI_ENUM, BIDI_INT, winspool/BIDI_TYPE, winspool/BIDI_BLOB, BIDI_ENUM, BIDI_TYPE, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, winspool/BIDI_NULL, print.bidi_type, BIDI_BOOL, BIDI_TYPE enumeration [Print Devices], winspool/BIDI_BOOL, BIDI_TEXT, winspool/BIDI_FLOAT, winspool/BIDI_INT, BIDI_NULL, BIDI_STRING
+ms.keywords: print.bidi_type, winspool/BIDI_BLOB, winspool/BIDI_NULL, winspool/BIDI_STRING, BIDI_BOOL, BIDI_TYPE, BIDI_ENUM, BIDI_FLOAT, winspool/BIDI_ENUM, BIDI_STRING, BIDI_BLOB, BIDI_TEXT, winspool/BIDI_TYPE, winspool/BIDI_FLOAT, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, winspool/BIDI_INT, winspool/BIDI_TEXT, winspool/BIDI_BOOL, BIDI_NULL, BIDI_INT, BIDI_TYPE enumeration [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,42 +75,42 @@ typedef enum  {
 
 
 
-#### - BIDI_NULL
+### -field BIDI_NULL
 
 Indicates that there is no data.
 
 
-#### - BIDI_INT
+### -field BIDI_INT
 
 Indicates that the bidi data is an integer.
 
 
-#### - BIDI_FLOAT
+### -field BIDI_FLOAT
 
 Indicates that the bidi data is a floating-point number.
 
 
-#### - BIDI_BOOL
+### -field BIDI_BOOL
 
 Indicates that the bidi data is either <b>TRUE</b> or <b>FALSE</b>.
 
 
-#### - BIDI_STRING
+### -field BIDI_STRING
 
 Indicates that the bidi data is a Unicode character string.
 
 
-#### - BIDI_TEXT
+### -field BIDI_TEXT
 
 Indicates that the bidi data is a nonlocalizable Unicode string.
 
 
-#### - BIDI_ENUM
+### -field BIDI_ENUM
 
 Indicates that the bidi data value is a Unicode string.
 
 
-#### - BIDI_BLOB
+### -field BIDI_BLOB
 
 Indicates that the bidi data is binary data.
 

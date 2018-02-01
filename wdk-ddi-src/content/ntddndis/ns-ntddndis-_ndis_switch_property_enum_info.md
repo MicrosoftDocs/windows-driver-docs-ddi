@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1b990bc5-3ff4-4e37-b011-258c4dbe8f22
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PROPERTY_ENUM_INFO, netvista.ndis_switch_property_enum_info, NDIS_SWITCH_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO, *PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_INFO
+ms.keywords: PNDIS_SWITCH_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO, *PNDIS_SWITCH_PROPERTY_ENUM_INFO, netvista.ndis_switch_property_enum_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _NDIS_SWITCH_PROPERTY_ENUM_INFO {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_PROPERTY_ENUM_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -89,36 +89,36 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-#### - PropertyInstanceId
+### -field PropertyInstanceId
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that specifies the instance identifier of the  extensible switch property.
 
 
 
 
-#### - PropertyVersion
+### -field PropertyVersion
 
 An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the property for the extensible switch port. 
 
 
 
 
-#### - QwordAlignedPropertyBufferLength
+### -field QwordAlignedPropertyBufferLength
 
 A ULONG value that specifies the aligned size, in bytes, of the property buffer.
 
 
-#### - PropertyBufferLength
+### -field PropertyBufferLength
 
 A ULONG value that specifies the actual size, in bytes, of the property buffer.
 <div class="alert"><b>Note</b>  This value must be less than or equal to the value of the <b>QwordAlignedPropertyBufferLength</b> member.</div><div> </div>
 
-#### - PropertyBufferOffset
+### -field PropertyBufferOffset
 
 A ULONG value that specifies the offset, in bytes, to the property buffer that follows the <b>NDIS_SWITCH_PROPERTY_ENUM_INFO</b> structure. The offset is measured from the start of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a> structure up to the beginning of the property buffer.
 
@@ -140,15 +140,15 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598252">NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598282">OID_SWITCH_PROPERTY_ENUM</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598251">NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <b></b>
 

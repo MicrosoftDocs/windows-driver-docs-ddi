@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 53892fd1-d83c-4b6e-9c39-2f64ba0ab310
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwgetnotificationresourcemanager, ZwGetNotificationResourceManager, wdm/NtGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], NtGetNotificationResourceManager, wdm/ZwGetNotificationResourceManager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml
+ms.keywords: ZwGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], wdm/NtGetNotificationResourceManager, NtGetNotificationResourceManager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml, kernel.zwgetnotificationresourcemanager, wdm/ZwGetNotificationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,22 +75,22 @@ NTSTATUS ZwGetNotificationResourceManager(
 
 
 
-#### - ResourceManagerHandle [in]
+### -param ResourceManagerHandle [in]
 
 A handle to a <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a> or <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_GET_NOTIFICATION access to the object.
 
 
-#### - TransactionNotification [out]
+### -param TransactionNotification [out]
 
 A pointer to a caller-allocated buffer that receives information about the retrieved notification. The buffer must be large enough to contain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a> structure plus additional notification-specific arguments.
 
 
-#### - NotificationLength [in]
+### -param NotificationLength [in]
 
 The length, in bytes, of the buffer that the <i>TransactionNotification </i>parameter points to. 
 
 
-#### - Timeout [in]
+### -param Timeout [in]
 
 A pointer to a value that specifies a relative or absolute time, in units of 100 nanoseconds. This pointer is optional and can be <b>NULL</b>.
 
@@ -103,17 +103,17 @@ A positive value specifies an absolute time, which is actually relative to 00:00
 If the caller specifies a zero value (instead of a <b>NULL</b> pointer), <b>ZwGetNotificationResourceManager</b> returns immediately, whether a notification is available or not.
 
 
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 An optional pointer to a variable. If this pointer is not <b>NULL</b>, and if the <i>NotificationLength</i> parameter's value is too small, <b>ZwGetNotificationResourceManager</b> supplies the required length in the variable and returns STATUS_BUFFER_TOO_SMALL.
 
 
-#### - Asynchronous [in]
+### -param Asynchronous [in]
 
 A ULONG value that must be zero. <b>ZwGetNotificationResourceManager</b> does not support asynchronous notifications. Use <a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a> to enable asynchronous notifications. 
 
 
-#### - AsynchronousContext [in, optional]
+### -param AsynchronousContext [in, optional]
 
 A pointer to a ULONG value. This pointer must be <b>NULL</b>.
 
@@ -211,11 +211,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
 
-<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

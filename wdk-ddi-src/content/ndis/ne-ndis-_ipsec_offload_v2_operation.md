@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb26c8af-1564-4cf8-ab40-b50b4811466d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPsecOffloadV2Ah, ndis/IPSEC_OFFLOAD_V2_OPERATION, netvista.ipsec_offload_v2_operation, _IPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Max, IPsecOffloadV2Esp, IPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, *PIPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Esp, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], ndis/IPsecOffloadV2Max, ndis/IPsecOffloadV2Ah, ndis/PIPSEC_OFFLOAD_V2_OPERATION
+ms.keywords: ndis/PIPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Ah, PIPSEC_OFFLOAD_V2_OPERATION, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, IPsecOffloadV2Ah, ndis/IPsecOffloadV2Max, IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Esp, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_OPERATION, *PIPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], netvista.ipsec_offload_v2_operation, IPsecOffloadV2Esp, IPsecOffloadV2Max, ndis/IPSEC_OFFLOAD_V2_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _IPSEC_OFFLOAD_V2_OPERATION {
 
 
 
-#### - IPsecOffloadV2Ah
+### -field IPsecOffloadV2Ah
 
 The SA is used for authentication (integrity checking).
 
 
-#### - IPsecOffloadV2Esp
+### -field IPsecOffloadV2Esp
 
 The SA is used for encryption/decryption (confidentiality).
 
 
-#### - IPsecOffloadV2Max
+### -field IPsecOffloadV2Max
 
 Reserved for NDIS.
 
@@ -92,15 +92,15 @@ Reserved for NDIS.
 
 The IPSEC_OFFLOAD_V2_OPERATION enumeration specifies the operation for which an SA is used in the 
     <b>Operation</b> member of the 
-    <mshelp:link keywords="netvista.ipsec_offload_v2_security_association" tabindex="0"><b>
-    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
+    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ipsec_offload_v2_security_association" tabindex="0"><b>
-   IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
+   IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
 
  
 

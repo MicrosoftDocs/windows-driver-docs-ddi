@@ -69,17 +69,17 @@ NTSTATUS APIENTRY (*pfnAcquireNextFrequencyRangeInfo)(
 
 
 
-#### - hMonitorFrequencyRangeSet [in]
+### -param hMonitorFrequencyRangeSet [in]
 
 [in] A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset.md">pfnGetMonitorFrequencyRangeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor Interface</a>.
 
 
-#### - pMonitorFrequencyRangeInfo [in]
+### -param pMonitorFrequencyRangeInfo [in]
 
 [in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure that is the current frequency range descriptor. The display miniport driver previously obtained this pointer by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirefirstfrequencyrangeinfo.md">pfnAcquireFirstFrequencyRangeInfo</a> or <b>pfnAcquireNextFrequencyRangeInfo</b>.
 
 
-#### - ppNextMonitorFrequencyRangeInfo [out]
+### -param ppNextMonitorFrequencyRangeInfo [out]
 
 [out] A pointer to a variable that receives a pointer to a D3DKMDT_MONITOR_FREQUENCY_RANGE structure that is the next frequency range descriptor.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml, netvista.ndisgethypervisorinfo, ndis/NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], NdisGetHypervisorInfo
+ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ NDIS_STATUS NdisGetHypervisorInfo(
 
 
 
-#### - HypervisorInfo [in, out]
+### -param HypervisorInfo [in, out]
 
 A pointer to a caller-allocated <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a> structure that
      contains information about the hypervisor that is present on the system.

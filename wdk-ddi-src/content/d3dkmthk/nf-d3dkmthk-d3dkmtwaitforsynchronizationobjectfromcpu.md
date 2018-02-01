@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C65880F7-DFCA-4DF9-ABF1-95A82D1D43ED
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForSynchronizationObjectFromCpu, display.d3dkmtwaitforsynchronizationobjectfromcpu, D3DKMTWaitForSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu
+ms.keywords: display.d3dkmtwaitforsynchronizationobjectfromcpu, D3DKMTWaitForSynchronizationObjectFromCpu function [Display Devices], D3DKMTWaitForSynchronizationObjectFromCpu, d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

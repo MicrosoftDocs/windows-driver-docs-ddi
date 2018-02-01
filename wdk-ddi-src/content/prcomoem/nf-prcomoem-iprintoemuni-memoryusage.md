@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MemoryUsage, MemoryUsage method [Print Devices], prcomoem/IPrintOemUni::MemoryUsage, IPrintOemUni interface [Print Devices], MemoryUsage method, MemoryUsage method [Print Devices], IPrintOemUni interface, IPrintOemUni, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage
+ms.keywords: IPrintOemUni interface [Print Devices], MemoryUsage method, prcomoem/IPrintOemUni::MemoryUsage, MemoryUsage, IPrintOemUni::MemoryUsage, IPrintOemUni, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, MemoryUsage method [Print Devices], IPrintOemUni interface, print.iprintoemuni_memoryusage, MemoryUsage method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT MemoryUsage(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - pMemoryUsage
+### -param pMemoryUsage
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a> structure.
 

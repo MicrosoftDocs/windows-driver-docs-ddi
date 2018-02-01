@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57B41604-0189-48ED-847F-74C09C7746E8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, wwan/WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionWriteSupported, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista]"
+ms.keywords: wwan/WwanDeviceServiceSessionReadSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionWriteSupported, WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_device_service_session_capability, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionWriteSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY {
 
 
 
-#### - WwanDeviceServiceSessionNotSupported
+### -field WwanDeviceServiceSessionNotSupported
 
 The device service does not support device service sessions.
 
 
-#### - WwanDeviceServiceSessionWriteSupported
+### -field WwanDeviceServiceSessionWriteSupported
 
 The device service supports write operations from Windows to the miniport driver.
 
 
-#### - WwanDeviceServiceSessionReadSupported
+### -field WwanDeviceServiceSessionReadSupported
 
 The device service supports read indication  notifications on a session for data read from the device.
 

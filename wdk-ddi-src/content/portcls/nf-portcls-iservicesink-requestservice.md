@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c5035dee-3523-4b0d-9baa-e30720115499
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IServiceSink::RequestService, audio.iservicesink_requestservice, IServiceSink interface [Audio Devices], RequestService method, RequestService, portcls/IServiceSink::RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices], IServiceSink interface, IServiceSink, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml
+ms.keywords: audio.iservicesink_requestservice, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, RequestService method [Audio Devices], IServiceSink interface, RequestService method [Audio Devices], portcls/IServiceSink::RequestService, IServiceSink interface [Audio Devices], RequestService method, RequestService, IServiceSink::RequestService, IServiceSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

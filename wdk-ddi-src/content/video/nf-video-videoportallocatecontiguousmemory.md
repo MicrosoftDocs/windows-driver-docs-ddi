@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba23f4d4-7e3d-4bfc-acf7-68dab01d2f61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, video/VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], display.videoportallocatecontiguousmemory, VideoPortAllocateContiguousMemory
+ms.keywords: display.videoportallocatecontiguousmemory, video/VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory, VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, VideoPortAllocateContiguousMemory function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ PVOID VideoPortAllocateContiguousMemory(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies the size in bytes of the block of contiguous memory to be allocated. 
 
 
-#### - HighestAcceptableAddress [in]
+### -param HighestAcceptableAddress [in]
 
 Specifies the highest valid physical address the miniport driver can use. For example, if a device can only reference physical memory in the lower 16MB, this value would be set to 0x00000000FFFFFF.
 

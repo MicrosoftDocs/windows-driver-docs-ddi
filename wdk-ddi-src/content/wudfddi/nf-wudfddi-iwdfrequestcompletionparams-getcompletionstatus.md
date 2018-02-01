@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8959fc25-2477-485a-aa40-10d6228cb476
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, GetCompletionStatus method, GetCompletionStatus method, IWDFRequestCompletionParams interface, wdf.iwdfrequestcompletionparams_getcompletionstatus, umdf.iwdfrequestcompletionparams_getcompletionstatus, IWDFRequestCompletionParams, GetCompletionStatus, IWDFRequestCompletionParams::GetCompletionStatus, IWDFRequestCompletionParams interface, GetCompletionStatus method, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus
+ms.keywords: IWDFRequestCompletionParams, GetCompletionStatus method, wdf.iwdfrequestcompletionparams_getcompletionstatus, IWDFRequestCompletionParams interface, GetCompletionStatus method, GetCompletionStatus method, IWDFRequestCompletionParams interface, GetCompletionStatus, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus, umdf.iwdfrequestcompletionparams_getcompletionstatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, IWDFRequestCompletionParams::GetCompletionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

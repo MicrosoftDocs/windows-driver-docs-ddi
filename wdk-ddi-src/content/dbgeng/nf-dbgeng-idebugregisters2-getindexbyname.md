@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a012b235-ed50-4009-a7ee-01783f9e3597
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getindexbyname, IDebugRegisters2, IDebugRegisters interface [Windows Debugging], GetIndexByName method, dbgeng/IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, GetIndexByName, IDebugRegisters::GetIndexByName, dbgeng/IDebugRegisters::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml
+ms.keywords: IDebugRegisters interface [Windows Debugging], GetIndexByName method, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, dbgeng/IDebugRegisters::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters interface, debugger.getindexbyname, IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, dbgeng/IDebugRegisters2::GetIndexByName, IDebugRegisters2, IDebugRegisters::GetIndexByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetIndexByName(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 Specifies the name of the register whose index is requested.
 
 
-#### - Index [out]
+### -param Index [out]
 
 Receives the index of the register.
 

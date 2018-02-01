@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3a3050a-6fa2-4ace-87f2-41b8364f4d30
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.getfcptargetmapping_out, hbapiwmi/GetFcpTargetMapping_OUT, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], *PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT, hbapiwmi/PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT structure [Storage Devices], _GetFcpTargetMapping_OUT
+ms.keywords: storage.getfcptargetmapping_out, GetFcpTargetMapping_OUT structure [Storage Devices], _GetFcpTargetMapping_OUT, hbapiwmi/GetFcpTargetMapping_OUT, hbapiwmi/PGetFcpTargetMapping_OUT, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml, GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _GetFcpTargetMapping_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-#### - TotalEntryCount
+### -field TotalEntryCount
 
 Indicates the total number of persistent bindings associated with the HBA..
 
 
-#### - OutEntryCount
+### -field OutEntryCount
 
 Indicates the total number of mappings retrieved by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method. This value will be less than or equal to <b>TotalEntryCount</b>. 
 
 
-#### - Entry
+### -field Entry
 
 Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers. 
 
@@ -101,13 +101,13 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

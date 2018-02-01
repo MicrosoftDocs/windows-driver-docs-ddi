@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90C0AAE1-EE79-4347-B6F1-276DBF84F7BC
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_setulong, IDebugFailureAnalysis2, debugger.idebugfailureanalysis2_setextensionulong, SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::SetUlong, SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, extsfns/IDebugFailureAnalysis2::SetUlong, SetUlong
+ms.keywords: IDebugFailureAnalysis2, debugger.idebugfailureanalysis2_setulong, SetUlong method [Windows Debugging], extsfns/IDebugFailureAnalysis2::SetUlong, IDebugFailureAnalysis2::SetUlong, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, SetUlong, SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensionulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ FA_ENTRY SetUlong(
 
 
 
-#### - Tag
+### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-#### - Value [in]
+### -param Value [in]
 
 The <b>ULONG</b> value to be written to the data block of the new or existing <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a>.
 
@@ -98,11 +98,11 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983409">AddUlong</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 

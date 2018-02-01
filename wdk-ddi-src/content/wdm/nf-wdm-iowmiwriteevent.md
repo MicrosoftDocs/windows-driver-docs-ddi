@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iowmiwriteevent, k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, wdm/IoWMIWriteEvent, IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, IoWMIWriteEvent, wdm/IoWMIWriteEvent, kernel.iowmiwriteevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS IoWMIWriteEvent(
 
 
 
-#### - WnodeEventItem [in, out]
+### -param WnodeEventItem [in, out]
 
 Pointer to a <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event. 
 

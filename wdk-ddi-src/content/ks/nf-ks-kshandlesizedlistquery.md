@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 014ca1bd-6e18-4110-aefb-ec36e816f013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], stream.kshandlesizedlistquery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, KsHandleSizedListQuery
+ms.keywords: KsHandleSizedListQuery function [Streaming Media Devices], ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, KsHandleSizedListQuery, stream.kshandlesizedlistquery, ks/KsHandleSizedListQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsHandleSizedListQuery(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP with the identifier list request.
 
 
-#### - DataItemsCount [in]
+### -param DataItemsCount [in]
 
 Specifies the number of items in the identifier list.
 
 
-#### - DataItemSize [in]
+### -param DataItemSize [in]
 
 Specifies the size of a data item.
 
 
-#### - DataItems [in]
+### -param DataItems [in]
 
 Specifies the list of data items.
 

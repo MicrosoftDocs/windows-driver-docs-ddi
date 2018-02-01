@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 77ebca0f-3056-4f11-9d59-fbd166967ed3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDpcObjectRef_28be5a7f-4f65-4b9e-b9f4-80b754cc8ca3.xml, WdfDpcGetParentObject, wdfdpc/WdfDpcGetParentObject, PFN_WDFDPCGETPARENTOBJECT, wdf.wdfdpcgetparentobject, kmdf.wdfdpcgetparentobject, WdfDpcGetParentObject method
+ms.keywords: wdfdpc/WdfDpcGetParentObject, DFDpcObjectRef_28be5a7f-4f65-4b9e-b9f4-80b754cc8ca3.xml, kmdf.wdfdpcgetparentobject, PFN_WDFDPCGETPARENTOBJECT, WdfDpcGetParentObject, WdfDpcGetParentObject method, wdf.wdfdpcgetparentobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDFOBJECT WdfDpcGetParentObject(
 
 
 
-#### - Dpc [in]
+### -param Dpc [in]
 
 A handle to a framework DPC object.
 

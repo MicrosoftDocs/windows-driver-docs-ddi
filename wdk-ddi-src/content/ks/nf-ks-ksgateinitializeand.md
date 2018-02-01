@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac03889a-1e02-4852-8ed9-487674c6e0de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateInitializeAnd function [Streaming Media Devices], ks/KsGateInitializeAnd, avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, KsGateInitializeAnd, stream.ksgateinitializeand
+ms.keywords: avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, KsGateInitializeAnd function [Streaming Media Devices], ks/KsGateInitializeAnd, stream.ksgateinitializeand, KsGateInitializeAnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ void __inline KsGateInitializeAnd(
 
 
 
-#### - AndGate [in]
+### -param AndGate [in]
 
 A pointer to the KSGATE structure to initialize as a new AND gate.
 
 
-#### - NextOrGate [in, optional]
+### -param NextOrGate [in, optional]
 
 A pointer to an existing KSGATE structure to which <i>AndGate</i> attaches. This parameter should be an OR gate and is optional.
 
@@ -98,9 +98,9 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 

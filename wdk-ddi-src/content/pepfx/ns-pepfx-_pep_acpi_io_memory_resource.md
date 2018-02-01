@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7438C120-9CFB-4D5D-9323-8A5D84D02449
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_IO_MEMORY_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_IO_MEMORY_RESOURCE structure [Kernel-Mode Driver Architecture], kernel.pep_acpi_io_memory_resource, pepfx/PEP_ACPI_IO_MEMORY_RESOURCE, pepfx/PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE, _PEP_ACPI_IO_MEMORY_RESOURCE, *PPEP_ACPI_IO_MEMORY_RESOURCE, PPEP_ACPI_IO_MEMORY_RESOURCE
+ms.keywords: PPEP_ACPI_IO_MEMORY_RESOURCE, _PEP_ACPI_IO_MEMORY_RESOURCE, pepfx/PEP_ACPI_IO_MEMORY_RESOURCE, *PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_IO_MEMORY_RESOURCE, kernel.pep_acpi_io_memory_resource, PPEP_ACPI_IO_MEMORY_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_IO_MEMORY_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ typedef struct _PEP_ACPI_IO_MEMORY_RESOURCE {
 
 
 
-#### - Type
+### -field Type
 
 A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
 
 
-#### - Information
+### -field Information
 
 If bit 0 is a 1, this indicates that the logical device decodes 16-bit addresses. If bit 0 is 0, this indicates that the logical device only decodes the first 10 bits of the address.
 
 Bits 1 to 7 of this member are reserved and must be set to zero.
 
 
-#### - MinimumAddress
+### -field MinimumAddress
 
 Specifies the minimum acceptable starting address for the IO range.
 
 
-#### - MaximumAddress
+### -field MaximumAddress
 
 Specifies the maximum acceptable starting address for the IO range.
 
 
-#### - Alignment
+### -field Alignment
 
 Specifies the alignment granularity for the IO address assigned.
 
 
-#### - Length
+### -field Length
 
 Specifies the number of bytes in the IO range.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwCreateSection routine [Kernel-Mode Driver Architecture], kernel.zwcreatesection, wdm/ZwCreateSection, k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, NtCreateSection, ZwCreateSection, wdm/NtCreateSection
+ms.keywords: NtCreateSection, wdm/ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], ZwCreateSection, kernel.zwcreatesection, wdm/NtCreateSection, k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS ZwCreateSection(
 
 
 
-#### - SectionHandle [out]
+### -param SectionHandle [out]
 
 Pointer to a HANDLE variable that receives a handle to the section object.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify any of the following access rights, which are specific to section objects:
 <table>
@@ -151,27 +151,27 @@ All of the previous flags combined with STANDARD_RIGHTS_REQUIRED.
 </table> 
 
 
-#### - ObjectAttributes [in, optional]
+### -param ObjectAttributes [in, optional]
 
 Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
-#### - MaximumSize [in, optional]
+### -param MaximumSize [in, optional]
 
 Specifies the maximum size, in bytes, of the section. <b>ZwCreateSection</b> rounds this value up to the nearest multiple of PAGE_SIZE. If the section is backed by the paging file, <i>MaximumSize</i> specifies the actual size of the section. If the section is backed by an ordinary file, <i>MaximumSize</i> specifies the maximum size that the file can be extended or mapped to.
 
 
-#### - SectionPageProtection [in]
+### -param SectionPageProtection [in]
 
 Specifies the protection to place on each page in the section. Use one of the following four values: PAGE_READONLY, PAGE_READWRITE, PAGE_EXECUTE, or PAGE_WRITECOPY. For a description of these values, see <a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>.
 
 
-#### - AllocationAttributes [in]
+### -param AllocationAttributes [in]
 
 Specifies a bitmask of SEC_<i>XXX</i> flags that determines the allocation attributes of the section. For a description of these flags, see <a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>.
 
 
-#### - FileHandle [in, optional]
+### -param FileHandle [in, optional]
 
 Optionally specifies a handle for an open file object. If the value of <i>FileHandle</i> is <b>NULL</b>, the section is backed by the paging file. Otherwise, the section is backed by the specified file. 
 
@@ -258,19 +258,19 @@ For more information about setting up mapped sections and views of memory, see <
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
 <a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
  
 

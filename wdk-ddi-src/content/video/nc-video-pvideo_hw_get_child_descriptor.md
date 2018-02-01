@@ -76,17 +76,17 @@ VP_STATUS HwVidGetVideoChildDescriptor(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-#### - ChildEnumInfo [in]
+### -param ChildEnumInfo [in]
 
 Is a <a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a> structure that describes the device being enumerated.
 
 
-#### - VideoChildType [out]
+### -param VideoChildType [out]
 
 Pointer to a location in which the miniport driver returns the type of child being enumerated. This member can be one of the following from the VIDEO_CHILD_TYPE enumeration:
 <table>
@@ -145,17 +145,17 @@ The miniport driver should return the device's PnP hardware identifier as a Unic
 </table> 
 
 
-#### - pChildDescriptor [out]
+### -param pChildDescriptor [out]
 
 Pointer to a buffer in which the miniport driver can return data that identifies the device. The information returned depends on the child type specified in <i>VideoChildType</i>. The size of this buffer is specified by the video port driver in the <b>ChildDescriptorSize</b> member of <a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>.
 
 
-#### - UId [out]
+### -param UId [out]
 
 Pointer to the location in which the miniport driver returns a unique 32-bit <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device ID</a> for this device. The miniport driver should set <i>UId</i> to be DISPLAY_ADAPTER_HW_ID when the device is the actual display adapter.
 
 
-#### - pUnused [out]
+### -param pUnused [out]
 
 Is unused and must be set to zero.
 

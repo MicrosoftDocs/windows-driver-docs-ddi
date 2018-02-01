@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoRequest::SetCompletionCallback, IWDFIoRequest, SetCompletionCallback method, IWDFIoRequest interface, SetCompletionCallback method, umdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest interface, SetCompletionCallback method, SetCompletionCallback, IWDFIoRequest::SetCompletionCallback, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, wdf.iwdfiorequest_setcompletioncallback
+ms.keywords: wdf.iwdfiorequest_setcompletioncallback, SetCompletionCallback method, IWDFIoRequest interface, SetCompletionCallback method, IWDFIoRequest::SetCompletionCallback, wudfddi/IWDFIoRequest::SetCompletionCallback, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, SetCompletionCallback, IWDFIoRequest interface, SetCompletionCallback method, IWDFIoRequest, umdf.iwdfiorequest_setcompletioncallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ void SetCompletionCallback(
 
 
 
-#### - pCompletionCallback [in]
+### -param pCompletionCallback [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a> interface whose <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">OnCompletion</a> method the framework calls after the I/O request completes. Beginning with version 1.9 of UMDF, the driver can specify <b>NULL</b> to deregister a previously registered <b>OnCompletion</b> method.
 
 
-#### - pContext [in, optional]
+### -param pContext [in, optional]
 
 A pointer to a buffer that contains context information that is related to the request completion. The framework passes this context information in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> method. This parameter is optional and can be <b>NULL</b>.
 

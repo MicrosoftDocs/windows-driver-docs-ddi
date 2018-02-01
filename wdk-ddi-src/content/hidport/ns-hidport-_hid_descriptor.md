@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 80a6a5d8-b13a-418d-a4bd-941d3a913c1e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidport/PHID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, HID_DESCRIPTOR, *PHID_DESCRIPTOR, hid.hid_descriptor, PHID_DESCRIPTOR, HID_DESCRIPTOR structure [Human Input Devices], PHID_DESCRIPTOR structure pointer [Human Input Devices], hidport/HID_DEVICE_ATTRIBUTES, _HID_DESCRIPTOR
+ms.keywords: "*PHID_DESCRIPTOR, PHID_DESCRIPTOR structure pointer [Human Input Devices], PHID_DESCRIPTOR, hidport/PHID_DESCRIPTOR, HID_DESCRIPTOR structure [Human Input Devices], hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, hidport/HID_DEVICE_ATTRIBUTES, hid.hid_descriptor, HID_DESCRIPTOR, _HID_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,27 +90,27 @@ typedef struct _HID_DESCRIPTOR {
  
 
 
-#### - DescriptorList [1]
+### -field DescriptorList [1]
 
 
 
-#### - bLength
+### -field bLength
 
 
 
-#### - bDescriptorType
+### -field bDescriptorType
 
 
 
-#### - bcdHID
+### -field bcdHID
 
 
 
-#### - bCountry
+### -field bCountry
 
 
 
-#### - bNumDescriptors
+### -field bNumDescriptors
 
 
 

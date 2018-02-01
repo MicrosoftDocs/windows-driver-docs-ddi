@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73891793-e59f-4c67-af93-07929d7c7326
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfchildlistendscan, DFDeviceObjectChildListRef_ffd03c13-6074-4679-bb87-b2c028fc8ded.xml, wdfchildlist/WdfChildListEndScan, wdf.wdfchildlistendscan, WdfChildListEndScan, PFN_WDFCHILDLISTENDSCAN, WdfChildListEndScan method
+ms.keywords: kmdf.wdfchildlistendscan, wdfchildlist/WdfChildListEndScan, WdfChildListEndScan, PFN_WDFCHILDLISTENDSCAN, wdf.wdfchildlistendscan, DFDeviceObjectChildListRef_ffd03c13-6074-4679-bb87-b2c028fc8ded.xml, WdfChildListEndScan method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfChildListEndScan(
 
 
 
-#### - ChildList [in]
+### -param ChildList [in]
 
 The same handle to a framework child-list object that the driver previously specified to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>.
 
@@ -97,11 +97,11 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistenditeration.md">WdfChildListEndIteration</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
 
  
 

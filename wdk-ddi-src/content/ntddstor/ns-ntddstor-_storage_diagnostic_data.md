@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68BC990B-DD0C-49CD-95EC-672FD1459B39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], storage.storage_diagnostic_data, PSTORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, *PSTORAGE_DIAGNOSTIC_DATA, ntddstor/PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], _STORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA
+ms.keywords: STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], *PSTORAGE_DIAGNOSTIC_DATA, storage.storage_diagnostic_data, _STORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, ntddstor/PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _STORAGE_DIAGNOSTIC_DATA {
 
 
 
-#### - Version
+### -field Version
 
 Version of this structure.
 
 
-#### - Size
+### -field Size
 
 Specifies the whole size of the structure and the associated data buffer.
 
 
-#### - ProviderId
+### -field ProviderId
 
 Specifies the GUID of a diagnostic data provider.
 
 
-#### - BufferSize
+### -field BufferSize
 
 If the request failed because of buffer too small, this field should be filled with the required buffer
     size for a <i>DiagnosticDataBuffer</i> needed by provider;
@@ -95,21 +95,21 @@ If the request failed because of buffer too small, this field should be filled w
      it should be cleared to zero for other cases.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
 
-#### - DiagnosticDataBuffer
+### -field DiagnosticDataBuffer
 
 Specifies the Diagnostic data buffer.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_diagnostic_request.md">STORAGE_DIAGNOSTIC_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a>
 
  
 

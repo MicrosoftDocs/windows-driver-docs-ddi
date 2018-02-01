@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 98b6c085-d7d0-47e4-acea-a272487f20c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ksmedia/KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, *PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, vidcapstruct_7ae44134-3ba1-4419-9290-c305f345e29c.xml, ksmedia/PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, stream.ksproperty_videocontrol_actual_frame_rate_s, PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure pointer [Streaming Media Devices]
+ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ksmedia/KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, vidcapstruct_7ae44134-3ba1-4419-9290-c305f345e29c.xml, PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure pointer [Streaming Media Devices], KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, stream.ksproperty_videocontrol_actual_frame_rate_s, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-#### - StreamIndex
+### -field StreamIndex
 
 Contains the zero-based index of the stream.
 
 
-#### - RangeIndex
+### -field RangeIndex
 
 Contains the zero-based index into the range list. The value contained at this location specifies the range in which frame rate information is being requested.
 
 
-#### - Dimensions
+### -field Dimensions
 
 Specifies the width and height of the image.
 
 
-#### - CurrentActualFrameRate
+### -field CurrentActualFrameRate
 
 Specifies the actual frame rate for the specified stream and range. Frame rate values are expressed in 100-nanosecond units.
 
 
-#### - CurrentMaxAvailableFrameRate
+### -field CurrentMaxAvailableFrameRate
 
 Specifies the maximum frame rate for the specified stream and range. Frame rate values are expressed in 100-nanosecond units.
 
@@ -113,9 +113,9 @@ The minidriver should return STATUS_NOT_SUPPORTED if the pin is not open.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566024">KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
  
 

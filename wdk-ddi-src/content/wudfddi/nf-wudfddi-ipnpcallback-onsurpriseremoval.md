@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval method, wudfddi/IPnpCallback::OnSurpriseRemoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, OnSurpriseRemoval, umdf.ipnpcallback_onsurpriseremoval, IPnpCallback interface, OnSurpriseRemoval method, IPnpCallback, OnSurpriseRemoval method, IPnpCallback interface, IPnpCallback::OnSurpriseRemoval
+ms.keywords: umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval method, wudfddi/IPnpCallback::OnSurpriseRemoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, IPnpCallback, IPnpCallback interface, OnSurpriseRemoval method, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval method, IPnpCallback interface, OnSurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void OnSurpriseRemoval(
 
 
 
-#### - pWdfDevice [in]
+### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that is removed unexpectedly.
 

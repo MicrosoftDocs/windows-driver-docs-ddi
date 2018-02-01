@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange, fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, FsRtlNotifyFilterReportChange function [Installable File System Drivers]
+ms.keywords: fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], ntifs/FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,52 +76,52 @@ VOID FsRtlNotifyFilterReportChange(
 
 
 
-#### - NotifySync [in]
+### -param NotifySync [in]
 
 Pointer to an opaque synchronization object for the change directory notify list that is pointed to by the <i>NotifyList</i> parameter. 
 
 
-#### - NotifyList [in]
+### -param NotifyList [in]
 
 Pointer to the head of the change directory notify list for the current volume. Each element in the list is an opaque notify structure. 
 
 
-#### - FullTargetName [in]
+### -param FullTargetName [in]
 
 Pointer to an ANSI or Unicode string that contains the full pathname of the file or directory that changed. 
 
 
-#### - TargetNameOffset [in]
+### -param TargetNameOffset [in]
 
 Offset, in bytes, within the <i>FullTargetName</i> string of the final component of the file name for the file or directory that changed. 
 
 
-#### - StreamName [in, optional]
+### -param StreamName [in, optional]
 
 Optional pointer to an ANSI or Unicode string that contains a stream name to store with the file name. 
 
 
-#### - NormalizedParentName [in, optional]
+### -param NormalizedParentName [in, optional]
 
 Optional pointer to an ANSI or Unicode string that contains the same path as in the <i>FullTargetName</i> string, but with all short names replaced by the corresponding long names. 
 
 
-#### - FilterMatch [in]
+### -param FilterMatch [in]
 
 Bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>. 
 
 
-#### - Action [in]
+### -param Action [in]
 
 Specifies the action code to store in the user's buffer if present. For possible action code values, see the <i>Action</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>. 
 
 
-#### - TargetContext [in, optional]
+### -param TargetContext [in, optional]
 
 Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>.
 
 
-#### - FilterContext [in, optional]
+### -param FilterContext [in, optional]
 
 Context pointer to pass to the filter callback routine. For more information, see the <i>FilterCallback</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>. 
 
@@ -146,9 +146,9 @@ When a change occurs to the directory, the file system calls <b>FsRtlNotifyFilte
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory~r9.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 

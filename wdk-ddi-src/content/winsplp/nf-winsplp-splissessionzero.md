@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9d68a41d-0f2b-4cf0-92c6-8e05ce6b4378
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, SplIsSessionZero, print.splissessionzero, SplIsSessionZero function [Print Devices], winsplp/SplIsSessionZero
+ms.keywords: spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, winsplp/SplIsSessionZero, print.splissessionzero, SplIsSessionZero, SplIsSessionZero function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ DWORD SplIsSessionZero(
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 Is a handle to the printer.
 
@@ -80,7 +80,7 @@ Is a handle to the printer.
 TBD
 
 
-#### - pIsSessionZero [out]
+### -param pIsSessionZero [out]
 
 Pointer to a memory location that is set to <b>TRUE</b> if the SessionID for the session is zero; otherwise, this value is set to <b>FALSE</b>.
 

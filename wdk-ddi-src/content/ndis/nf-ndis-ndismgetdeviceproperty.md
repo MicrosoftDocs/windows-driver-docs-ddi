@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty, NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml
+ms.keywords: netvista.ndismgetdeviceproperty, ndis/NdisMGetDeviceProperty, miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,21 +75,21 @@ VOID NdisMGetDeviceProperty(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 The NDIS handle that identifies the miniport adapter. This handle was originally passed to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
-#### - PhysicalDeviceObject [out, optional]
+### -param PhysicalDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the
      physical device for the miniport adapter. This pointer is optional.
 
 
-#### - FunctionalDeviceObject [out, optional]
+### -param FunctionalDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. 
@@ -97,7 +97,7 @@ A pointer to a caller-allocated buffer. The buffer receives a pointer to a
      This pointer is optional.
 
 
-#### - NextDeviceObject [out, optional]
+### -param NextDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the next device object. This next device object is
@@ -106,7 +106,7 @@ A pointer to a caller-allocated buffer. The buffer receives a pointer to a
      object that is associated with a bus driver or HAL This pointer is optional.
 
 
-#### - AllocatedResources [out, optional]
+### -param AllocatedResources [out, optional]
 
 A pointer to a caller-allocated buffer that receives a pointer to a 
      CM_RESOURCE_LIST structure. 
@@ -115,7 +115,7 @@ A pointer to a caller-allocated buffer that receives a pointer to a
      pointer is optional.
 
 
-#### - AllocatedResourcesTranslated [out, optional]
+### -param AllocatedResourcesTranslated [out, optional]
 
 A pointer to a caller-allocated buffer that receives a pointer to a 
      CM_RESOURCE_LIST structure. 
@@ -159,9 +159,9 @@ Miniport drivers can call
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

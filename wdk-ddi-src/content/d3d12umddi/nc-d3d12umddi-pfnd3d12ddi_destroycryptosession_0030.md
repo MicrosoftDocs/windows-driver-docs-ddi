@@ -68,12 +68,12 @@ VOID APIENTRY* PFND3D12DDI_DESTROYCRYPTOSESSION_0030(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - hDrvCryptoSession
+### -param hDrvCryptoSession
 
 The crypto session
 

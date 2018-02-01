@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de761fd9-5637-40be-a4bb-9e29ed19a434
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CloseUiccLogicalChannelGroup method [Network Drivers Starting with Windows Vista], rilapi/RIL_CloseUiccLogicalChannelGroup, netvista.ril_closeuicclogicalchannelgroup, RIL_CloseUiccLogicalChannelGroup
+ms.keywords: netvista.ril_closeuicclogicalchannelgroup, RIL_CloseUiccLogicalChannelGroup, RIL_CloseUiccLogicalChannelGroup method [Network Drivers Starting with Windows Vista], rilapi/RIL_CloseUiccLogicalChannelGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_CloseUiccLogicalChannelGroup(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwSlotIndex
+### -param dwSlotIndex
 
 
 
-#### - dwChannelGroup
+### -param dwChannelGroup
 
 
 

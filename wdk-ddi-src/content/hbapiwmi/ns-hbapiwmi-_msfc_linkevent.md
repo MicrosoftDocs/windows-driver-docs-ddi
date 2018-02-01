@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 35fb3397-2e45-4d32-8cb1-1050199b2209
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MSFC_LinkEvent, hbapiwmi/MSFC_LinkEvent, *PMSFC_LinkEvent, MSFC_LinkEvent, storage.msfc_linkevent, hbapiwmi/PMSFC_LinkEvent, PMSFC_LinkEvent, structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml, PMSFC_LinkEvent structure pointer [Storage Devices], MSFC_LinkEvent structure [Storage Devices]"
+ms.keywords: storage.msfc_linkevent, structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml, hbapiwmi/MSFC_LinkEvent, *PMSFC_LinkEvent, _MSFC_LinkEvent, hbapiwmi/PMSFC_LinkEvent, PMSFC_LinkEvent, MSFC_LinkEvent, PMSFC_LinkEvent structure pointer [Storage Devices], MSFC_LinkEvent structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _MSFC_LinkEvent {
 
 
 
-#### - EventType
+### -field EventType
 
 Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 
-#### - AdapterWWN
+### -field AdapterWWN
 
 Contains a worldwide name that indicates the adapter for which the event occurred. 
 
 
-#### - RLIRBufferSize
+### -field RLIRBufferSize
 
 Indicates the size of the buffer at <b>RLIRBuffer</b>. 
 
 
-#### - RLIRBuffer
+### -field RLIRBuffer
 
 Contains the data associated with a register link incident request (RLIR).
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3990d67-aa0c-4d17-9126-80fdcebbd306
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PFILE_ALIGNMENT_INFORMATION, kernel.file_alignment_information, FILE_ALIGNMENT_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_ce42b00c-17a9-4fcf-a6bb-ade557580e81.xml, FILE_ALIGNMENT_INFORMATION, _FILE_ALIGNMENT_INFORMATION, ntddk/FILE_ALIGNMENT_INFORMATION, PFILE_ALIGNMENT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_ALIGNMENT_INFORMATION, *PFILE_ALIGNMENT_INFORMATION
+ms.keywords: PFILE_ALIGNMENT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/PFILE_ALIGNMENT_INFORMATION, kernel.file_alignment_information, FILE_ALIGNMENT_INFORMATION, PFILE_ALIGNMENT_INFORMATION, ntddk/FILE_ALIGNMENT_INFORMATION, _FILE_ALIGNMENT_INFORMATION, *PFILE_ALIGNMENT_INFORMATION, kstruct_b_ce42b00c-17a9-4fcf-a6bb-ade557580e81.xml, FILE_ALIGNMENT_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,18 +67,18 @@ typedef struct _FILE_ALIGNMENT_INFORMATION {
 
 
 
-#### - AlignmentRequirement
+### -field AlignmentRequirement
 
 The buffer alignment required by the underlying device. For a list of system-defined values, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. The value must be one of the FILE_<i>XXX</i>_ALIGNMENT values defined in Wdm.h. For more information, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a>.
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

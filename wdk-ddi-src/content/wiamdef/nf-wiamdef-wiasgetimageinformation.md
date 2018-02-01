@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 457c4b98-313d-4b31-aa6c-fb62fea6fc7d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, wiamdef/wiasGetImageInformation, wiasGetImageInformation, image.wiasgetimageinformation, wiasGetImageInformation function [Imaging Devices]
+ms.keywords: wiasGetImageInformation, wiasGetImageInformation function [Imaging Devices], wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, wiamdef/wiasGetImageInformation, image.wiasgetimageinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ HRESULT _stdcall wiasGetImageInformation(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - lFlags
+### -param lFlags
 
 Specifies operational flags. Currently, only the following flag is defined:
 <table>
@@ -96,7 +96,7 @@ Initialize the MINIDRV_TRANSFER_CONTEXT structure.
 </table> 
 
 
-#### - pmdtc [in, out]
+### -param pmdtc [in, out]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure. Upon return, this structure contains the requested image item information.
 

@@ -82,7 +82,7 @@ VOID APIENTRY CsSetShaderWithIfaces(
 
 
 
-#### - NumClassInstances [in]
+### -param NumClassInstances [in]
 
  The number of class instances for implementations of the interfaces. 
 

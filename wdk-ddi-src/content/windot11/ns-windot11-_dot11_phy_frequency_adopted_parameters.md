@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c6f98202-b70e-4ef7-853a-b97bb5e6294e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_phy_frequency_adopted_parameters, *PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml, _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
+ms.keywords: "_DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml, windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, netvista.dot11_phy_frequency_adopted_parameters, windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, *PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,20 +74,20 @@ typedef struct _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS {
 
 
 
-#### - ulChannel
+### -field ulChannel
 
 The channel number of the 
-      <mshelp:link keywords="netvista.dsss__hrdsss__and_erp_phy_configuration" tabindex="0">DSSS, HRDSSS, and ERP PHY
-      configurations</mshelp:link> that the NIC has adopted to communicate over the BSS network.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
+      configurations</a> that the NIC has adopted to communicate over the BSS network.
 
 
-#### - ulFrequency
+### -field ulFrequency
 
 The orthogonal frequency division multiplexing (OFDM) frequency that the NIC has adopted to
       communicate over the BSS network.
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure. This member
      is formatted as an 
@@ -103,11 +103,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS_REVISION_1.
@@ -119,7 +114,12 @@ This member must be set to
        <b>sizeof</b>(DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS).
 
 
-#### - ulPhyId
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field ulPhyId
 
 The value of an entry in the list of active PHY types defined by the 
      <b>msDot11ActivePhyList</b> MIB object that specifies the current channel or frequency that the NIC has
@@ -140,19 +140,19 @@ This member should not be set to DOT11_PHY_ID_ANY.
 
 The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure when the
     driver makes an 
-    <mshelp:link keywords="netvista.ndis_status_dot11_phy_frequency_adopted" tabindex="0">
-    NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</mshelp:link> status indication.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
+    NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a> status indication.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_status_dot11_phy_frequency_adopted" tabindex="0">
-   NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</mshelp:link>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
+   NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

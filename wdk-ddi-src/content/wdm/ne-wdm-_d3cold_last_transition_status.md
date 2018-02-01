@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/LastDStateTransitionD3hot, wdm/LastDStateTransitionD3cold, LastDStateTransitionD3cold, wdm/LastDStateTransitionStatusUnknown, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], LastDStateTransitionStatusUnknown, wdm/D3COLD_LAST_TRANSITION_STATUS, _D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, D3COLD_LAST_TRANSITION_STATUS, *PD3COLD_LAST_TRANSITION_STATUS, LastDStateTransitionD3hot
+ms.keywords: "_D3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/LastDStateTransitionStatusUnknown, LastDStateTransitionStatusUnknown, D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, LastDStateTransitionD3cold, LastDStateTransitionD3hot, wdm/LastDStateTransitionD3cold, wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3hot, *PD3COLD_LAST_TRANSITION_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _D3COLD_LAST_TRANSITION_STATUS {
 
 
 
-#### - LastDStateTransitionStatusUnknown
+### -field LastDStateTransitionStatusUnknown
 
 Information is not available from the bus driver or platform firmware about whether the most recent transition to D3hot was followed by a transition to D3cold.
 
 
-#### - LastDStateTransitionD3hot
+### -field LastDStateTransitionD3hot
 
 The most recent transition to the D3hot device power state was not followed by a transition to the D3cold device power state.
 
 
-#### - LastDStateTransitionD3cold
+### -field LastDStateTransitionD3cold
 
 The most recent transition to the D3hot device power state was followed by a transition to the D3cold device power state.
 

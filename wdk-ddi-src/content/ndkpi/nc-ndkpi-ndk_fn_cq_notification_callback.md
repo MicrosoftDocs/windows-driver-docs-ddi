@@ -71,12 +71,12 @@ VOID NdkCqNotificationCallback(
 
 
 
-#### - CqNotificationContext [in, optional]
+### -param CqNotificationContext [in, optional]
 
 A context area that was specified in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ)  object was created.
 
 
-#### - CqStatus [in]
+### -param CqStatus [in]
 
 Indicates the CQ error status. The following status codes are defined:
 
@@ -137,9 +137,9 @@ The NDK consumer specified the <i>NdkCqNotificationCallback</i> function  in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>
+
+<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
 
  
 

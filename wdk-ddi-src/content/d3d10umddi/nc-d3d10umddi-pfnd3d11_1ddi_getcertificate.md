@@ -73,34 +73,24 @@ VOID APIENTRY* pfnGetCertificate(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - *pCertificateInfo [in]
+### -param *pCertificateInfo [in]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_certificate_info.md">D3D11_1DDI_CERTIFICATE_INFO</a> structure that specifies the cryptographic  session certificate or authenticated channel to return.
 
 
-#### - CertificateSize [in]
+### -param CertificateSize [in]
 
 The size, in bytes, of the buffer that is referenced by the <i>pCertificate</i> parameter.
 
 
-#### - *pCertificate [out]
-
-A pointer to a byte array that receives the driver's certificate chain.
-
-
-#### - pCertificateInfo [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_certificate_info.md">D3D11_1DDI_CERTIFICATE_INFO</a> structure that specifies the cryptographic  session certificate or authenticated channel to return.
-
-
-#### - pCertificate [out]
+### -param *pCertificate [out]
 
 A pointer to a byte array that receives the driver's certificate chain.
 

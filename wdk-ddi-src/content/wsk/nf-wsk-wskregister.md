@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskRegister, wsk/WskRegister, netvista.wskregister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, WskRegister function [Network Drivers Starting with Windows Vista]
+ms.keywords: WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 
 The 
   <b>WskRegister</b> function registers a WSK application, given the application's WSK client 
-  <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
-  (NPI)</mshelp:link>.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  (NPI)</a>.
 
 
 ## -syntax
@@ -73,12 +73,12 @@ NTSTATUS WskRegister(
 
 
 
-#### - WskClientNpi [in]
+### -param WskClientNpi [in]
 
 A pointer to the client NPI implemented by the WSK application.
 
 
-#### - WskRegistration [out]
+### -param WskRegistration [out]
 
 A pointer to a memory location that identifies a WSK application's registration instance. This
      memory location will be initialized by the 
@@ -151,18 +151,18 @@ The block of memory pointed to by
     
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock Kernel
-    Application</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    Application</a>.
 
 
 
 ## -see-also
 
+<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
-
-<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
 
  
 

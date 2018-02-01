@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksremoveitemfromobjectbag, avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, ks/KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices], KsRemoveItemFromObjectBag
+ms.keywords: stream.ksremoveitemfromobjectbag, avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, KsRemoveItemFromObjectBag function [Streaming Media Devices], ks/KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG KsRemoveItemFromObjectBag(
 
 
 
-#### - ObjectBag [in]
+### -param ObjectBag [in]
 
 This parameter specifies the KSOBJECT_BAG (equivalent to type PVOID) from which to remove <i>Item</i>. 
 
 
-#### - Item [in]
+### -param Item [in]
 
 A pointer to the item to remove from the requested object bag. Note that <i>Item</i> is removed from the requested object bag only. It is not removed from any other object bags that it may be in.
 
 
-#### - Free [in]
+### -param Free [in]
 
 This parameter specifies whether <i>Item</i> should be freed once it has been removed from the specified object bag. Only set <i>Free</i> to <b>TRUE</b> if <i>Item</i> is not contained in any other object bag.
 
@@ -113,17 +113,17 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
 <a href="..\ks\nf-ks-ksmergeautomationtables.md">KsMergeAutomationTables</a>
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
 
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+
+<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
  
 

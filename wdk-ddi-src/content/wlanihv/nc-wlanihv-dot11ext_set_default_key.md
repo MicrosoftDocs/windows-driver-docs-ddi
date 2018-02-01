@@ -74,7 +74,7 @@ DWORD WINAPI * Dot11ExtSetDefaultKey(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -82,14 +82,14 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-#### - pKey [in]
+### -param pKey [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11_cipher_default_key_value" tabindex="0"><b>
-     DOT11_CIPHER_DEFAULT_KEY_VALUE</b></mshelp:link> structure, which defines the cipher key.
+     <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+     DOT11_CIPHER_DEFAULT_KEY_VALUE</a> structure, which defines the cipher key.
 
 
-#### - dot11Direction [in]
+### -param dot11Direction [in]
 
 A 
      <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a> value that specifies whether
@@ -118,37 +118,37 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 A call to the 
     <b>Dot11ExtSetDefaultKey</b> function results in a set request of the 
-    <mshelp:link keywords="netvista.oid_dot11_cipher_default_key" tabindex="0">
-    OID_DOT11_CIPHER_DEFAULT_KEY</mshelp:link> object identifier to the WLAN adapter.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+    OID_DOT11_CIPHER_DEFAULT_KEY</a> object identifier to the WLAN adapter.
 
 A default cipher key is defined by setting the 
     <b>MacAddr</b> member of the 
-    <mshelp:link keywords="netvista.dot11_cipher_default_key_value" tabindex="0"><b>
-    DOT11_CIPHER_DEFAULT_KEY_VALUE</b></mshelp:link> structure to a value of 0x000000000000. A per-station default cipher
+    <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+    DOT11_CIPHER_DEFAULT_KEY_VALUE</a> structure to a value of 0x000000000000. A per-station default cipher
     key is defined by setting the 
     <b>MacAddr</b> member to a valid unicast media access control (MAC) address.
 
 A cipher key is deleted from the adapter's key tables if the 
     <b>bDelete</b> member of the 
-    <mshelp:link keywords="netvista.dot11_cipher_default_key_value" tabindex="0"><b>
-    DOT11_CIPHER_DEFAULT_KEY_VALUE</b></mshelp:link> structure is set to <b>TRUE</b>.
+    <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+    DOT11_CIPHER_DEFAULT_KEY_VALUE</a> structure is set to <b>TRUE</b>.
 
 
 
 ## -see-also
 
-<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
-
-<mshelp:link keywords="netvista.dot11_cipher_default_key_value" tabindex="0"><b>
-   DOT11_CIPHER_DEFAULT_KEY_VALUE</b></mshelp:link>
+<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
-<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+<a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+   DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
  
 

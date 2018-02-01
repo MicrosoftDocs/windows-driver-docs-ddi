@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0009e11d-73d0-4ca2-afbc-5f2999e829ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, GetCurrentSystemUpTime method [Windows Debugging], GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetCurrentSystemUpTime, dbgeng/IDebugControl3::GetCurrentSystemUpTime, GetCurrentSystemUpTime, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl2::GetCurrentSystemUpTime, debugger.getcurrentsystemuptime, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method, dbgeng/IDebugControl2::GetCurrentSystemUpTime
+ms.keywords: GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, GetCurrentSystemUpTime method [Windows Debugging], dbgeng/IDebugControl2::GetCurrentSystemUpTime, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, GetCurrentSystemUpTime, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl3, debugger.getcurrentsystemuptime, IDebugControl3::GetCurrentSystemUpTime, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl2::GetCurrentSystemUpTime, dbgeng/IDebugControl3::GetCurrentSystemUpTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetCurrentSystemUpTime(
 
 
 
-#### - UpTime [out]
+### -param UpTime [out]
 
 Receives the number of seconds the computer has been running, or <b>0</b> if the engine is unable to determine the running time.
 

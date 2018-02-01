@@ -77,29 +77,29 @@ NDIS_STATUS MiniportWdiAllocateAdapter(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The NDIS-supplied handle that identifies the miniport adapter.
 
 
-#### - MiniportDriverContext [in]
+### -param MiniportDriverContext [in]
 
 The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="..\dot11wdi\nf-dot11wdi-ndismregisterwdiminiportdriver.md">NdisMRegisterWdiMiniportDriver</a> function.
 
 
 
 
-#### - MiniportInitParameters [in]
+### -param MiniportInitParameters [in]
 
 A pointer to an <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a> structure that defines the initialization parameters for the miniport adapter.
 
 
-#### - NdisWdiInitParameters [in]
+### -param NdisWdiInitParameters [in]
 
 A pointer to an <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a> structure that defines the WDI initialization parameters for the miniport adapter.
 
 
-#### - RegistrationAttributes [in, out]
+### -param RegistrationAttributes [in, out]
 
 A pointer to an <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a> structure that defines registration attributes that are associated with the miniport adapter.
 
@@ -142,13 +142,13 @@ MiniportWdiAllocateAdapter could not allocate the necessary resources.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
  
 

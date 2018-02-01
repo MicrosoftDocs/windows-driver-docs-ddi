@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F3DA4CBB-5749-4E7D-828F-398714575173
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VhfStart method [Human Input Devices], VhfStart, vhf/VhfStart, hid.vhfstart
+ms.keywords: vhf/VhfStart, VhfStart, VhfStart method [Human Input Devices], hid.vhfstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS VhfStart(
 
 
 
-#### - VhfHandle [in]
+### -param VhfHandle [in]
 
 A handle to a virtual HID device that your HID source driver received in the previous call to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a>.
 

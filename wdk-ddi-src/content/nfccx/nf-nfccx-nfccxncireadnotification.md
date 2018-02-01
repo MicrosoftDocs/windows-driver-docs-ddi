@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 0D2FB16D-ABBC-428F-95D4-4B17E262D115
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers._nfccxncireadnotification, nfccx/NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], NfcCxNciReadNotification
+ms.keywords: NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification, nfccx/NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS NfcCxNciReadNotification(
 
 
 
-#### - Device
+### -param Device
 
 A handle to a framework device object.
 
 
-#### - Memory
+### -param Memory
 
 A handle to a framework memory object.
 
@@ -89,9 +89,9 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

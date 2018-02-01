@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6500c46b-ae39-4c91-8b84-14df0a7046a1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PIO_SECURITY_CONTEXT, kernel.io_security_context, wdm/IO_SECURITY_CONTEXT, PIO_SECURITY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], IO_SECURITY_CONTEXT, wdm/PIO_SECURITY_CONTEXT, kstruct_b_2c3ede84-cdd5-4e78-99b9-5ff642463f85.xml, PIO_SECURITY_CONTEXT, _IO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT structure [Kernel-Mode Driver Architecture]"
+ms.keywords: wdm/PIO_SECURITY_CONTEXT, *PIO_SECURITY_CONTEXT, kernel.io_security_context, _IO_SECURITY_CONTEXT, wdm/IO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT structure [Kernel-Mode Driver Architecture], PIO_SECURITY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], IO_SECURITY_CONTEXT, PIO_SECURITY_CONTEXT, kstruct_b_2c3ede84-cdd5-4e78-99b9-5ff642463f85.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,33 +71,33 @@ typedef struct _IO_SECURITY_CONTEXT {
 
 
 
-#### - SecurityQos
+### -field SecurityQos
 
 Reserved for system use.
 
 
-#### - AccessState
+### -field AccessState
 
 Reserved for use by file systems and file system filter drivers. This member is a pointer to an <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a> structure that contains the object's subject context, granted access types, and remaining desired access types. 
 
 
-#### - DesiredAccess
+### -field DesiredAccess
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that expresses the access rights that are requested in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request.
 
 
-#### - FullCreateOptions
+### -field FullCreateOptions
 
 Reserved for system use.
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de67cf2e-1dd8-4b01-9a60-b8a2a01d326b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_RADIOPRESENCE_MAX, ntddrilapitypes/RILRADIOPRESENCE, ntddrilapitypes/RIL_RADIOPRESENCE_PRESENT, RILRADIOPRESENCE, RIL_RADIOPRESENCE_MAX, RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiopresence, RIL_RADIOPRESENCE_PRESENT
+ms.keywords: ntddrilapitypes/RIL_RADIOPRESENCE_PRESENT, RIL_RADIOPRESENCE_MAX, RILRADIOPRESENCE, RIL_RADIOPRESENCE_PRESENT, netvista.rilradiopresence, ntddrilapitypes/RILRADIOPRESENCE, ntddrilapitypes/RIL_RADIOPRESENCE_MAX, RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,10 +72,10 @@ typedef enum _RILRADIOPRESENCE {
 
 
 
-#### - RIL_RADIOPRESENCE_PRESENT
+### -field RIL_RADIOPRESENCE_PRESENT
 
 
 
-#### - RIL_RADIOPRESENCE_MAX
+### -field RIL_RADIOPRESENCE_MAX
 
 

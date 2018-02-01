@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba4e60e-c247-4466-9b0f-c8e7ffa594d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterStateSearching, wwan/WwanRegisterStateHome, wwan/WwanRegisterStateRoaming, wwan/WwanRegisterStateDenied, *PWWAN_REGISTER_STATE, wwan/PWWAN_REGISTER_STATE, WWAN_REGISTER_STATE, wwan/WwanRegisterStateDeregistered, wwan/WwanRegisterStateSearching, wwan/WWAN_REGISTER_STATE, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterStateMax, WwanRegisterStateDeregistered, WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStateMax, _WWAN_REGISTER_STATE, wwan/WwanRegisterStatePartner, netvista.wwan_register_state, WwanRegisterStateDenied, wwan/WwanRegisterStateUnknown, WwanRegisterStateUnknown, WwanRegisterStatePartner, WwanRegisterStateRoaming, WwanRegisterStateHome, PWWAN_REGISTER_STATE
+ms.keywords: wwan/PWWAN_REGISTER_STATE, wwan/WwanRegisterStateUnknown, wwan/WwanRegisterStateHome, *PWWAN_REGISTER_STATE, WwanRegisterStateUnknown, WwanRegisterStatePartner, WWAN_REGISTER_STATE, WwanRegisterStateRoaming, WwanRegisterStateDenied, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStatePartner, wwan/WwanRegisterStateDenied, _WWAN_REGISTER_STATE, wwan/WwanRegisterStateDeregistered, wwan/WwanRegisterStateRoaming, netvista.wwan_register_state, wwan/WwanRegisterStateMax, wwan/WwanRegisterStateSearching, WwanRegisterStateHome, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRegisterStateDeregistered, PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterStateMax, WwanRegisterStateSearching, WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,45 +76,45 @@ typedef enum _WWAN_REGISTER_STATE {
 
 
 
-#### - WwanRegisterStateUnknown
+### -field WwanRegisterStateUnknown
 
 The current registration state is unknown. The miniport driver may specify this state on a failure
      to set an appropriate 
      <i>WwanRegisterActionXxx</i>.
 
 
-#### - WwanRegisterStateDeregistered
+### -field WwanRegisterStateDeregistered
 
 The device is not registered and is not searching for network providers.
 
 
-#### - WwanRegisterStateSearching
+### -field WwanRegisterStateSearching
 
 The device is searching for a network provider.
 
 
-#### - WwanRegisterStateHome
+### -field WwanRegisterStateHome
 
 The device is using the home network provider.
 
 
-#### - WwanRegisterStateRoaming
+### -field WwanRegisterStateRoaming
 
 The device is using a network provider that supports roaming.
 
 
-#### - WwanRegisterStatePartner
+### -field WwanRegisterStatePartner
 
 The device is using a roaming network partner.
 
 
-#### - WwanRegisterStateDenied
+### -field WwanRegisterStateDenied
 
 Registration of the device on visible networks has been denied. However, emergency voice calls may
      still be made. This value applies only to voice connections, and not to data connections.
 
 
-#### - WwanRegisterStateMax
+### -field WwanRegisterStateMax
 
 The total number of supported registration states.
 

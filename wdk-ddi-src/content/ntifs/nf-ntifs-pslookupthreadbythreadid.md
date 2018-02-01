@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4b61f480-6432-48db-9211-68a7d823d698
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.pslookupthreadbythreadid, PsLookupThreadByThreadId, psref_36f0c499-8370-4257-849c-dc8bad2720cc.xml, ntifs/PsLookupThreadByThreadId, PsLookupThreadByThreadId routine [Installable File System Drivers]
+ms.keywords: PsLookupThreadByThreadId routine [Installable File System Drivers], ifsk.pslookupthreadbythreadid, psref_36f0c499-8370-4257-849c-dc8bad2720cc.xml, ntifs/PsLookupThreadByThreadId, PsLookupThreadByThreadId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PsLookupThreadByThreadId(
 
 
 
-#### - ThreadId [in]
+### -param ThreadId [in]
 
 Specifies the thread ID of the thread.
 
 
-#### - Thread [out]
+### -param Thread [out]
 
 Returns a referenced pointer to the ETHREAD structure of thread specified by the <i>ThreadId</i>.
 
@@ -119,23 +119,23 @@ The <b>PsLookupThreadByThreadId</b> routine contains pageable code.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
 <a href="..\ntddk\nf-ntddk-psremovecreatethreadnotifyroutine.md">PsRemoveCreateThreadNotifyRoutine</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
-
-<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
-
-<a href="..\ntifs\nf-ntifs-pslookupprocessbyprocessid.md">PsLookupProcessByProcessId</a>
 
 <a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 
 <a href="..\ntddk\nf-ntddk-psremoveloadimagenotifyroutine.md">PsRemoveLoadImageNotifyRoutine</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+<a href="..\ntifs\nf-ntifs-pslookupprocessbyprocessid.md">PsLookupProcessByProcessId</a>
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 

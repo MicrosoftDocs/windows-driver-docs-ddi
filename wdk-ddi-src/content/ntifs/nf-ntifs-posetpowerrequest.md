@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], wdm/PoSetPowerRequest, kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml
+ms.keywords: wdm/PoSetPowerRequest, PoSetPowerRequest, kernel.posetpowerrequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], portn_8f3abb03-a324-4841-b630-b62344d656ce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PoSetPowerRequest(
 
 
 
-#### - PowerRequest [in, out]
+### -param PowerRequest [in, out]
 
 A pointer to a power request object that was created by the <a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a> routine.
 
 
-#### - Type [in]
+### -param Type [in]
 
 The type of power request. Set this parameter to the following <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration value:
 <ul>

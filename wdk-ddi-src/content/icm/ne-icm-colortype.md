@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aa7d8d32-7bbe-4091-82a2-32ade463dd9e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: COLOR_8_CHANNEL, COLOR_RGB, icm/COLOR_5_CHANNEL, COLORTYPE enumeration [Print Devices], print.colortype, icm/COLOR_XYZ, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, COLOR_5_CHANNEL, icm/COLOR_CMYK, icm/COLOR_3_CHANNEL, COLORTYPE, icm/COLOR_NAMED, COLOR_6_CHANNEL, COLOR_Yxy, COLOR_NAMED, *PCOLORTYPE, icm/COLOR_7_CHANNEL, COLOR_GRAY, COLOR_XYZ, icm/COLOR_Yxy, icm/COLOR_6_CHANNEL, COLOR_Lab, COLOR_CMYK, icm/COLORTYPE, COLOR_7_CHANNEL, icm/COLOR_GRAY, COLOR_3_CHANNEL, icm/COLOR_RGB, icm/COLOR_Lab, icm/COLOR_8_CHANNEL
+ms.keywords: COLOR_3_CHANNEL, COLOR_5_CHANNEL, COLOR_6_CHANNEL, icm/COLOR_NAMED, COLOR_Lab, COLOR_NAMED, COLOR_7_CHANNEL, icm/COLOR_6_CHANNEL, icm/COLOR_8_CHANNEL, icm/COLORTYPE, COLOR_CMYK, icm/COLOR_Yxy, icm/COLOR_GRAY, icm/COLOR_CMYK, icm/COLOR_3_CHANNEL, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, COLORTYPE, COLOR_8_CHANNEL, print.colortype, icm/COLOR_7_CHANNEL, icm/COLOR_RGB, icm/COLOR_XYZ, COLOR_XYZ, *PCOLORTYPE, COLOR_Yxy, icm/COLOR_Lab, COLOR_GRAY, COLORTYPE enumeration [Print Devices], COLOR_RGB, icm/COLOR_5_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,62 +78,62 @@ typedef enum  {
 
 
 
-#### - COLOR_GRAY
+### -field COLOR_GRAY
 
 Specifies a 16-bit gray-scale pixel value. Correlates to the ICM GRAYCOLOR.
 
 
-#### - COLOR_RGB
+### -field COLOR_RGB
 
 Specifies a 48-bit RGB pixel value. Correlates to the ICM RGBCOLOR structure.
 
 
-#### - COLOR_XYZ
+### -field COLOR_XYZ
 
 Specifies a 48-bit CIEXYZ pixel value. Correlates to the ICM XYZCOLOR structure.
 
 
-#### - COLOR_Yxy
+### -field COLOR_Yxy
 
 Specifies a 48-bit CIE Yxy pixel value. Correlates to the ICM YxyCOLOR structure.
 
 
-#### - COLOR_Lab
+### -field COLOR_Lab
 
 Specifies a 48-bit CIELAB pixel value. Correlates to the ICM LabCOLOR structure.
 
 
-#### - COLOR_3_CHANNEL
+### -field COLOR_3_CHANNEL
 
 Specifies a 48-bit generic three-channel pixel value. Correlates to the ICM GENERIC3CHANNEL structure.
 
 
-#### - COLOR_CMYK
+### -field COLOR_CMYK
 
 Specifies a 48-bit CMYK pixel value. Correlates to the ICM CMYKCOLOR structure.
 
 
-#### - COLOR_5_CHANNEL
+### -field COLOR_5_CHANNEL
 
 Specifies a 64-bit generic five-channel pixel value.
 
 
-#### - COLOR_6_CHANNEL
+### -field COLOR_6_CHANNEL
 
 Specifies a 64-bit generic six-channel pixel value.
 
 
-#### - COLOR_7_CHANNEL
+### -field COLOR_7_CHANNEL
 
 Specifies a 64-bit generic seven-channel pixel value.
 
 
-#### - COLOR_8_CHANNEL
+### -field COLOR_8_CHANNEL
 
 Specifies a 64-bit generic eight-channel pixel value.
 
 
-#### - COLOR_NAMED
+### -field COLOR_NAMED
 
 Specifies a 32-bit named color-indexed pixel value. Correlates to the ICM NAMEDCOLOR structure.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aef1b7b2-73d3-49ad-a3f2-c06fa1f34839
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PORT structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PORT, _NDIS_PORT, PNDIS_PORT, ndis_ports_ref_df9a02e1-4a6b-4901-8794-37a5e30ececb.xml, ntddndis/PNDIS_PORT, NDIS_PORT, ntddndis/NDIS_PORT, netvista.ndis_port, NDIS_PORT structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_ports_ref_df9a02e1-4a6b-4901-8794-37a5e30ececb.xml, _NDIS_PORT, *PNDIS_PORT, ntddndis/NDIS_PORT, netvista.ndis_port, PNDIS_PORT, PNDIS_PORT structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT structure [Network Drivers Starting with Windows Vista], NDIS_PORT, ntddndis/PNDIS_PORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,31 +72,31 @@ typedef struct _NDIS_PORT {
 
 
 
-#### - Next
+### -field Next
 
 A pointer to the next port in the linked list of ports.
 
 
-#### - NdisReserved
+### -field NdisReserved
 
 Reserved for NDIS.
 
 
-#### - MiniportReserved
+### -field MiniportReserved
 
 Reserved for miniport drivers.
 
 
-#### - ProtocolReserved
+### -field ProtocolReserved
 
 Reserved for protocol drivers.
 
 
-#### - PortCharacteristics
+### -field PortCharacteristics
 
 An 
-     <mshelp:link keywords="netvista.ndis_port_characteristics" tabindex="0"><b>
-     NDIS_PORT_CHARACTERISTICS</b></mshelp:link> structure that specifies the characteristics of the port.
+     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     NDIS_PORT_CHARACTERISTICS</a> structure that specifies the characteristics of the port.
 
 
 ## -remarks

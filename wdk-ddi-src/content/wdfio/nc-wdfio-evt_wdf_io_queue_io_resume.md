@@ -74,12 +74,12 @@ VOID EvtIoResume(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to the framework queue object that is associated with the I/O request.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 
@@ -108,9 +108,9 @@ This callback function can be called at IRQL &lt;= DISPATCH_LEVEL, unless the <b
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
  
 

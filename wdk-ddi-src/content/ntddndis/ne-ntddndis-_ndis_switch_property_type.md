@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: baa1b837-6f9b-41f4-acf8-e640f8e9f8da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeCustom, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPropertyTypeUndefined, NdisSwitchPropertyTypeCustom, *PNDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeUndefined, ntddndis/NDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE, ntddndis/PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeMaximum, ntddndis/NdisSwitchPropertyTypeMaximum
+ms.keywords: ntddndis/PNDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeCustom, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, _NDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeMaximum, NdisSwitchPropertyTypeUndefined, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPropertyTypeUndefined, ntddndis/NDIS_SWITCH_PROPERTY_TYPE, PNDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeCustom, ntddndis/NdisSwitchPropertyTypeMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _NDIS_SWITCH_PROPERTY_TYPE {
 
 
 
-#### - NdisSwitchPropertyTypeUndefined
+### -field NdisSwitchPropertyTypeUndefined
 
 The switch property type is not defined.
 
 
-#### - NdisSwitchPropertyTypeCustom
+### -field NdisSwitchPropertyTypeCustom
 
 This value specifies a custom switch property that is defined  by an independent software vendor (ISV).
 
 
-#### - NdisSwitchPropertyTypeMaximum
+### -field NdisSwitchPropertyTypeMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 
@@ -119,11 +119,11 @@ The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_delete_parameters.md">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
 
 <b></b>
 

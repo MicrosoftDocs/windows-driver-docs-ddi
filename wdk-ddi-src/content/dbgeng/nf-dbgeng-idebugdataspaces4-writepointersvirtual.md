@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b6bde54b-262a-4431-8f85-63f9c66463c4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], WritePointersVirtual method, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::WritePointersVirtual, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, debugger.writepointersvirtual, dbgeng/IDebugDataSpaces4::WritePointersVirtual, IDebugDataSpaces2 interface [Windows Debugging], WritePointersVirtual method, IDebugDataSpaces4 interface [Windows Debugging], WritePointersVirtual method, IDebugDataSpaces4::WritePointersVirtual, dbgeng/IDebugDataSpaces3::WritePointersVirtual, WritePointersVirtual method [Windows Debugging], WritePointersVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_da1045b5-8b82-4412-8e83-58c285dccce0.xml, IDebugDataSpaces::WritePointersVirtual, IDebugDataSpaces interface [Windows Debugging], WritePointersVirtual method, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::WritePointersVirtual, WritePointersVirtual, dbgeng/IDebugDataSpaces2::WritePointersVirtual, dbgeng/IDebugDataSpaces::WritePointersVirtual
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], WritePointersVirtual method, IDebugDataSpaces interface [Windows Debugging], WritePointersVirtual method, WritePointersVirtual, IDebugDataSpaces4 interface [Windows Debugging], WritePointersVirtual method, dbgeng/IDebugDataSpaces4::WritePointersVirtual, IDebugDataSpaces3::WritePointersVirtual, dbgeng/IDebugDataSpaces::WritePointersVirtual, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces interface, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces_da1045b5-8b82-4412-8e83-58c285dccce0.xml, IDebugDataSpaces::WritePointersVirtual, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces3 interface, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2::WritePointersVirtual, IDebugDataSpaces4, IDebugDataSpaces4::WritePointersVirtual, dbgeng/IDebugDataSpaces3::WritePointersVirtual, IDebugDataSpaces3 interface [Windows Debugging], WritePointersVirtual method, dbgeng/IDebugDataSpaces2::WritePointersVirtual, debugger.writepointersvirtual, WritePointersVirtual method [Windows Debugging], IDebugDataSpaces2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT WritePointersVirtual(
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of pointers to write.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location in the target's virtual address space at which to start writing the pointers.
 
 
-#### - Ptrs [in]
+### -param Ptrs [in]
 
 Specifies the array of pointers to write.  The number of elements in this array is <i>Count</i>.
 
@@ -120,17 +120,17 @@ If the target uses 32-bit pointers, this method casts the specified  64-bit valu
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554323">ReadPointersVirtual</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554323">ReadPointersVirtual</a>
 
  
 

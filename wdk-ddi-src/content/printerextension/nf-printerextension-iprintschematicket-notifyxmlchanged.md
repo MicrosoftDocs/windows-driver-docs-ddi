@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NotifyXmlChanged method [Print Devices], IPrintSchemaTicket::NotifyXmlChanged, IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method, NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, printerextension/IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, print.iprintschematicket_notifyxmlchanged, IPrintSchemaTicket
+ms.keywords: NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket::NotifyXmlChanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, print.iprintschematicket_notifyxmlchanged, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b5b0a540-2730-40ef-8f65-135a19b9a732
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UntranslatedList method [Audio Devices], IResourceList interface, UntranslatedList method [Audio Devices], UntranslatedList, audio.iresourcelist_untranslatedlist, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, portcls/IResourceList::UntranslatedList, IResourceList, IResourceList::UntranslatedList, IResourceList interface [Audio Devices], UntranslatedList method
+ms.keywords: audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, audio.iresourcelist_untranslatedlist, UntranslatedList method [Audio Devices], IResourceList interface, IResourceList, IResourceList interface [Audio Devices], UntranslatedList method, UntranslatedList method [Audio Devices], portcls/IResourceList::UntranslatedList, IResourceList::UntranslatedList, UntranslatedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,9 +81,9 @@ PCM_RESOURCE_LIST UntranslatedList(
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
  
 

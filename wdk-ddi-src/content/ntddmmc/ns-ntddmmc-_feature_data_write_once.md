@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE, ntddmmc/PFEATURE_DATA_WRITE_ONCE, _FEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], PFEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml, ntddmmc/FEATURE_DATA_WRITE_ONCE
+ms.keywords: "_FEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml, storage.feature_data_write_once, ntddmmc/PFEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], FEATURE_DATA_WRITE_ONCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _FEATURE_DATA_WRITE_ONCE {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - LogicalBlockSize
+### -field LogicalBlockSize
 
 Indicates the number of bytes per logical block. The bytes in this array are arranged in big-endian order. <b>LogicalBlockSize</b>[0] holds the most significant byte. <b>LogicalBlockSize</b>[3] holds the least significant byte. 
 
 
-#### - Blocking
+### -field Blocking
 
 Indicates the number of logical blocks per device. The bytes in this array are arranged in big-endian order. <b>Blocking</b>[0] holds the most significant byte. <b>Blocking</b>[1] holds the least significant byte. 
 
 
-#### - ErrorRecoveryPagePresent
+### -field ErrorRecoveryPagePresent
 
 Indicates, when set to 1, that the Read/Write Error Recovery Mode Page is present. When set to zero, indicates that it might not be present. See the <i>SCSI Multimedia 3</i> (<i>MMC-3</i>) specification for a description of this page. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 

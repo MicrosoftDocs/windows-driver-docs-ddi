@@ -76,21 +76,21 @@ NDIS_STATUS ProtocolCmDropParty(
 
 
 
-#### - CallMgrPartyContext [in]
+### -param CallMgrPartyContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-party state. This handle was provided to NDIS in the call managers 
      <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
 
 
-#### - CloseData [in, optional]
+### -param CloseData [in, optional]
 
 Pointer to a buffer containing connection-oriented client-specific data that should be sent across
      the connection before the party is dropped. This parameter is <b>NULL</b> if the underlying network medium does
      not support transfers of data when closing a connection.
 
 
-#### - Size [in, optional]
+### -param Size [in, optional]
 
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
@@ -157,8 +157,8 @@ Indicates that
     necessary for its media, to drop a party from an existing multipoint call. If the call manager is
     required to communicated with network control agents (such as, a networking switch) it should use a
     virtual connection to the network control agents that it established in its 
-    <mshelp:link keywords="netvista.protocolbindadapterex" tabindex="0"><i>
-    ProtocolBindAdapterEx</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+    ProtocolBindAdapterEx</a> function.
 
 If 
     <i>CloseData</i> is non-<b>NULL</b> and sending data at connection termination is supported by its media type,
@@ -207,9 +207,9 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
-
 <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
  
 

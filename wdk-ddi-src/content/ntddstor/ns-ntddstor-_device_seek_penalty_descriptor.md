@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c12b66a4-fdb5-40d3-a767-c15477391179
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.device_seek_penalty_descriptor, ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR, *PDEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/PDEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Storage Devices], DEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Storage Devices], _DEVICE_SEEK_PENALTY_DESCRIPTOR, structs-general_9fb189fe-9d56-4460-8860-dc6fe6d2fceb.xml
+ms.keywords: ntddstor/PDEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR, _DEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Storage Devices], storage.device_seek_penalty_descriptor, *PDEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Storage Devices], structs-general_9fb189fe-9d56-4460-8860-dc6fe6d2fceb.xml, ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DEVICE_SEEK_PENALTY_DESCRIPTOR {
 
 
 
-#### - Version
+### -field Version
 
 Contains the size of the structure DEVICE_SEEK_PENALTY_DESCRIPTOR. The value of this member will change as members are added to the structure.
 
 
-#### - Size
+### -field Size
 
 Specifies the total size of the descriptor, in bytes.
 
 
-#### - IncursSeekPenalty
+### -field IncursSeekPenalty
 
 Specifies whether the device incurs a seek penalty.
 

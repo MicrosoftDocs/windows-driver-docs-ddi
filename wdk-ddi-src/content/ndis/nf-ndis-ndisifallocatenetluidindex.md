@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], netvista.ndisifallocatenetluidindex, NdisIfAllocateNetLuidIndex
+ms.keywords: NdisIfAllocateNetLuidIndex, ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ NDIS_STATUS NdisIfAllocateNetLuidIndex(
 TBD
 
 
-#### - pNetLuidIndex [out]
+### -param pNetLuidIndex [out]
 
 A pointer to a caller-supplied 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> index variable. If allocation is
@@ -156,18 +156,18 @@ The interface provider must store the NET_LUID values that it allocates in persi
     <a href="..\ndis\nf-ndis-ndisiffreenetluidindex.md">NdisIfFreeNetLuidIndex</a> later to
     free any indexes that are no longer in use. Also, the provider should use the same NET_LUID value
     whenever it registers the same interface with the 
-    <mshelp:link keywords="netvista.ndisifregisterinterface" tabindex="0"><b>
-    NdisIfRegisterInterface</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+    NdisIfRegisterInterface</a> function.
 
 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
 <a href="..\ndis\nf-ndis-ndisiffreenetluidindex.md">NdisIfFreeNetLuidIndex</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
-
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 

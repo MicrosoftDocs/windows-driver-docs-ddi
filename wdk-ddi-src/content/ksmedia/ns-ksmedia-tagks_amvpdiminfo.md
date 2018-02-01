@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, *PKS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], KS_AMVPDIMINFO, PKS_AMVPDIMINFO, tagKS_AMVPDIMINFO
+ms.keywords: dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, ksmedia/PKS_AMVPDIMINFO, tagKS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], stream.ks_amvpdiminfo, *PKS_AMVPDIMINFO, ksmedia/KS_AMVPDIMINFO, PKS_AMVPDIMINFO, KS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct tagKS_AMVPDIMINFO {
 
 
 
-#### - dwFieldWidth
+### -field dwFieldWidth
 
 Specifies the field width.
 
 
-#### - dwFieldHeight
+### -field dwFieldHeight
 
 Specifies the field height.
 
 
-#### - dwVBIWidth
+### -field dwVBIWidth
 
 Specifies the VBI data width.
 
 
-#### - dwVBIHeight
+### -field dwVBIHeight
 
 Specifies the VBI data height.
 
 
-#### - rcValidRegion
+### -field rcValidRegion
 
 Describes a valid rectangle for data cropping.
 

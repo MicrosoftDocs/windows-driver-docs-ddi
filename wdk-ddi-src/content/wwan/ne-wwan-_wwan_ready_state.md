@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanReadyStateOff, netvista.wwan_ready_state, WwanReadyStateNotActivated, wwan/WwanReadyStateNotActivated, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], WwanReadyStateDeviceLocked, wwan/PWWAN_READY_STATE, wwan/WwanReadyStateSimNotInserted, wwan/WwanReadyStateInitialized, _WWAN_READY_STATE, wwan/WwanReadyStateFailure, WwanReadyStateFailure, WwanReadyStateSimNotInserted, wwan/WWAN_READY_STATE, WwanReadyStateOff, wwan/WwanReadyStateDeviceLocked, WWAN_READY_STATE, WwanReadyStateInitialized, wwan/WwanReadyStateBadSim, PWWAN_READY_STATE, WwanReadyStateBadSim, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_READY_STATE
+ms.keywords: PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateNotActivated, *PWWAN_READY_STATE, wwan/WwanReadyStateFailure, WwanReadyStateSimNotInserted, wwan/WWAN_READY_STATE, WwanReadyStateOff, PWWAN_READY_STATE, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, wwan/WwanReadyStateDeviceLocked, _WWAN_READY_STATE, wwan/PWWAN_READY_STATE, WwanReadyStateInitialized, wwan/WwanReadyStateOff, WwanReadyStateNotActivated, WwanReadyStateBadSim, wwan/WwanReadyStateInitialized, wwan/WwanReadyStateSimNotInserted, WwanReadyStateDeviceLocked, wwan/WwanReadyStateBadSim, WWAN_READY_STATE, netvista.wwan_ready_state, WwanReadyStateFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,37 +75,37 @@ typedef enum _WWAN_READY_STATE {
 
 
 
-#### - WwanReadyStateOff
+### -field WwanReadyStateOff
 
 The device firmware stack is OFF or has not yet completed its initialization.
 
 
-#### - WwanReadyStateInitialized
+### -field WwanReadyStateInitialized
 
 The device is ready to turn on and register with the provider.
 
 
-#### - WwanReadyStateSimNotInserted
+### -field WwanReadyStateSimNotInserted
 
 The SIM card is not inserted into the device.
 
 
-#### - WwanReadyStateBadSim
+### -field WwanReadyStateBadSim
 
 The SIM card inserted into the device is invalid.
 
 
-#### - WwanReadyStateFailure
+### -field WwanReadyStateFailure
 
 A general device failure has occurred.
 
 
-#### - WwanReadyStateNotActivated
+### -field WwanReadyStateNotActivated
 
 The subscription is not activated.
 
 
-#### - WwanReadyStateDeviceLocked
+### -field WwanReadyStateDeviceLocked
 
 The device is locked and requires PIN1 or PUK1 to unlock.
      

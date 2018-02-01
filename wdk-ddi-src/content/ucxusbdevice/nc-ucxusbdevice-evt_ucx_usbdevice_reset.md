@@ -75,12 +75,12 @@ typedef EVT_UCX_USBDEVICE_RESET PEVT_UCX_USBDEVICE_RESET;
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-#### - Request [in]
+### -param Request [in]
 
 Contains the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_reset.md">USBDEVICE_RESET</a> structure.
 
@@ -106,9 +106,9 @@ The client driver returns completion status in <i>Request</i>.  The driver can c
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_reset.md">USBDEVICE_RESET</a>
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
  
 

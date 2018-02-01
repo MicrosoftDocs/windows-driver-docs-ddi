@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwTerminateProcess, ntddk/ZwTerminateProcess, NtTerminateProcess, kernel.zwterminateprocess, ntddk/NtTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml
+ms.keywords: NtTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], ntddk/NtTerminateProcess, k111_72c76674-5372-4662-9097-53d850d49afe.xml, ntddk/ZwTerminateProcess, kernel.zwterminateprocess, ZwTerminateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS ZwTerminateProcess(
 
 
 
-#### - ProcessHandle [in, optional]
+### -param ProcessHandle [in, optional]
 
 A handle to the process object that represents the process to be terminated. 
 
 
-#### - ExitStatus [in]
+### -param ExitStatus [in]
 
 An NTSTATUS value that the operating system uses as the final status for the process and each of its threads. 
 

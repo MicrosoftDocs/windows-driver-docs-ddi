@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 75a0e9ef-0791-4465-b671-36c86dc9116a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmtcpci_driver_globals, _UCMTCPCI_DRIVER_GLOBALS, *PUCMTCPCI_DRIVER_GLOBALS, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses], UCMTCPCI_DRIVER_GLOBALS
+ms.keywords: "_UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses], *PUCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _UCMTCPCI_DRIVER_GLOBALS {
 
 
 
-#### - Reserved
+### -field Reserved
 
 
                      Reserved.

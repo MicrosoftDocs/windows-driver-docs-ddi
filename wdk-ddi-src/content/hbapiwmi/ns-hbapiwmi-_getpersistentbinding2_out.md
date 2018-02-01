@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 883a7a56-ecb9-428f-a15a-ba428a626bed
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, hbapiwmi/GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT, _GetPersistentBinding2_OUT, hbapiwmi/PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], PGetPersistentBinding2_OUT, storage.getpersistentbinding2_out, GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices]
+ms.keywords: PGetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT, hbapiwmi/GetPersistentBinding2_OUT, hbapiwmi/PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices], structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, _GetPersistentBinding2_OUT, storage.getpersistentbinding2_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _GetPersistentBinding2_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-#### - TotalEntryCount
+### -field TotalEntryCount
 
 Indicates the number of binding entries that the WMI provider can report.
 
 
-#### - OutEntryCount
+### -field OutEntryCount
 
 Indicates the total number of persistent bindings retrieved by the GetPersistentBinding2 method.
 
 
-#### - Bindings
+### -field Bindings
 
 Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers.
 

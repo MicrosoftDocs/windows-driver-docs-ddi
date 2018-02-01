@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prntfont/PWIDTHTABLE, print.widthtable, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, prntfont/WIDTHTABLE, PWIDTHTABLE, _WIDTHTABLE, WIDTHTABLE structure [Print Devices], PWIDTHTABLE structure pointer [Print Devices], *PWIDTHTABLE, WIDTHTABLE
+ms.keywords: print.widthtable, prntfont/WIDTHTABLE, WIDTHTABLE, PWIDTHTABLE structure pointer [Print Devices], print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, *PWIDTHTABLE, PWIDTHTABLE, WIDTHTABLE structure [Print Devices], prntfont/PWIDTHTABLE, _WIDTHTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WIDTHTABLE {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the WIDTHTABLE structure, including the <b>WidthRun</b> array.
 
 
-#### - dwRunNum
+### -field dwRunNum
 
 Specifies the number of elements in the <b>WidthRun</b> array.
 
 
-#### - WidthRun
+### -field WidthRun
 
 Is an array of <a href="..\prntfont\ns-prntfont-_widthrun.md">WIDTHRUN</a> structures.
 

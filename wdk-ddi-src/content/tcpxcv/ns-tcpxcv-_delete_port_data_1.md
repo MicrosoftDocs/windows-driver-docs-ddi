@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d4fb5bf9-7982-4abd-91ba-59b7798a18c7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, *PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1 structure pointer [Print Devices], _DELETE_PORT_DATA_1, tcpxcv/DELETE_PORT_DATA_1, tcpxcv/PDELETE_PORT_DATA_1, print.delete_port_data_1, DELETE_PORT_DATA_1, DELETE_PORT_DATA_1 structure [Print Devices]
+ms.keywords: print.delete_port_data_1, *PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1 structure pointer [Print Devices], _DELETE_PORT_DATA_1, DELETE_PORT_DATA_1 structure [Print Devices], DELETE_PORT_DATA_1, tcpxcv/DELETE_PORT_DATA_1, spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, tcpxcv/PDELETE_PORT_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _DELETE_PORT_DATA_1 {
 
 
 
-#### - psztPortName
+### -field psztPortName
 
 Specifies the name of the port to be deleted. The MAX_PORTNAME_LEN constant is defined in tcpxcv.h.
 
 
-#### - Reserved
+### -field Reserved
 
 Is reserved for system use.
 
 
-#### - dwVersion
+### -field dwVersion
 
 Specifies the version of this structure, which is currently 1.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Is obsolete, and must be set to 0.
 

@@ -77,27 +77,27 @@ VOID EvtIoDeviceControl(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to the framework queue object that is associated with the I/O request.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 
 
-#### - OutputBufferLength [in]
+### -param OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-#### - InputBufferLength [in]
+### -param InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
 
-#### - IoControlCode [in]
+### -param IoControlCode [in]
 
 The driver-defined or system-defined I/O control code (IOCTL) that is associated with the request.
 
@@ -151,13 +151,13 @@ A driver's <i>EvtIoDeviceControl</i> callback function should not call the follo
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforioctl.md">WdfIoTargetFormatRequestForIoctl</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforioctl.md">WdfIoTargetFormatRequestForIoctl</a>
+
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md">EvtIoInternalDeviceControl</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
  
 

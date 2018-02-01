@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3807BD27-FAE4-4E12-A825-A9FAFB7A6ACA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_submitcommandtohwqueue, _D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], D3DKMT_SUBMITCOMMANDTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE
+ms.keywords: display.d3dkmt_submitcommandtohwqueue, D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE, _D3DKMT_SUBMITCOMMANDTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,50 +74,50 @@ typedef struct _D3DKMT_SUBMITCOMMANDTOHWQUEUE {
 
 
 
-#### - hHwQueue
+### -field hHwQueue
 
 Context queue to submit the command to.
 
 
 
-#### - HwQueueProgressFenceId
+### -field HwQueueProgressFenceId
 
 Hardware queue progress fence value that will be signaled once the command is finished.
 
 
-#### - CommandBuffer
+### -field CommandBuffer
 
 GPU VA of the command buffer to be executed on the GPU.
 
 
 
-#### - CommandLength
+### -field CommandLength
 
 Length in bytes of the command buffer.
 
 
 
 
-#### - PrivateDriverDataSize
+### -field PrivateDriverDataSize
 
 Size of private driver data in bytes.
 
 
 
 
-#### - pPrivateDriverData
+### -field pPrivateDriverData
 
 Pointer to the private driver data.
 
 
 
-#### - NumPrimaries
+### -field NumPrimaries
 
 The number of primaries written by this command buffer.
 
 
 
-#### - WrittenPrimaries
+### -field WrittenPrimaries
 
 The array of primaries written by this command buffer.
 

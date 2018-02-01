@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d20668f0-b076-4edd-bf21-98841cbbdc74
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FSRTL_PER_FILE_CONTEXT, _FSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT, ntifs/PFSRTL_PER_FILE_CONTEXT, ifsk.fsrtl_per_file_context, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], ntifs/FSRTL_PER_FILE_CONTEXT
+ms.keywords: FSRTL_PER_FILE_CONTEXT, ntifs/FSRTL_PER_FILE_CONTEXT, ntifs/PFSRTL_PER_FILE_CONTEXT, _FSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], ifsk.fsrtl_per_file_context, PFSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, *PFSRTL_PER_FILE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _FSRTL_PER_FILE_CONTEXT {
 
 
 
-#### - Links
+### -field Links
 
 A link for this structure in the list of all per-file context structures that are associated with the same file. <a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a> inserts this member into the list of all per-file context structures for a file. 
 
 
-#### - OwnerId
+### -field OwnerId
 
 A pointer to a filter-driver-allocated buffer that uniquely identifies the owner of the per-file context structure. The format of this variable is filter-driver-specific.  Filter drivers must set this member to a non-<b>NULL</b> value. 
 
 
-#### - InstanceId
+### -field InstanceId
 
 A pointer to a filter-driver-allocated buffer that can be used to distinguish among the per-file context structures that are created by the same filter driver. The format of this variable is filter-driver-specific. Filter drivers can set this member to <b>NULL</b>.
 
 
-#### - FreeCallback
+### -field FreeCallback
 
 A pointer to a <a href="https://msdn.microsoft.com/291b57d9-3bef-4acb-a571-86b67a03cd08">callback routine</a> that frees the per-file context structure. Filter drivers must set this member to a non-<b>NULL</b> value.
 
@@ -149,17 +149,17 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
+<a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
 
  
 

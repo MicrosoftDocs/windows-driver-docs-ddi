@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c5a1e12-b66f-4bcb-bb9d-739b883fe9c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTGETFILEOBJECT, kmdf.wdfrequestgetfileobject, WdfRequestGetFileObject, wdfrequest/WdfRequestGetFileObject, WdfRequestGetFileObject method, wdf.wdfrequestgetfileobject, DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml
+ms.keywords: WdfRequestGetFileObject, wdfrequest/WdfRequestGetFileObject, wdf.wdfrequestgetfileobject, PFN_WDFREQUESTGETFILEOBJECT, kmdf.wdfrequestgetfileobject, DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml, WdfRequestGetFileObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFFILEOBJECT WdfRequestGetFileObject(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 

@@ -78,41 +78,41 @@ VOID APIENTRY* DecryptionBlt(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCryptoSession [in]
+### -param hCryptoSession [in]
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
-#### - hSrcResource [in]
+### -param hSrcResource [in]
 
 A handle to the resource that contains the source data.
 
 
-#### - hDstResource [in]
+### -param hDstResource [in]
 
 A pointer to the resource where the encrypted data is to be written.
 
 
 
 
-#### - *pEncryptedBlockInfo [in]
+### -param *pEncryptedBlockInfo [in]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a> structure that describes the portions of the buffer that are encrypted. 
 <div class="alert"><b>Note</b>  If the entire buffer is encrypted, <i>pEncryptedBlockinfo</i> should be set to NULL.</div><div> </div>
 
-#### - ContentKeySize [in]
+### -param ContentKeySize [in]
 
 The size, in bytes, of the content key.
 
 
-#### - *pContentKey [in]
+### -param *pContentKey [in]
 
 A pointer to a block of memory that contains the content key that is required to decrypt the bit-block transfer (bitblt) data.
 
@@ -121,34 +121,12 @@ If <i>pContentKey</i> is not set to NULL, the buffer data is encrypted by using 
 If <i>pContentKey</i> is NULL, the graphics adapter does not require a separate content key to decrypt the data. In this case, the session key is used to decrypt the data.
 
 
-#### - IVSize [in]
+### -param IVSize [in]
 
 The size, in bytes, of the initialization vector (IV).
 
 
-#### - *pIV [in]
-
-A pointer to a block of memory that contains the initialization vector that is required to decrypt the bitblt data. For more information, see the Remarks section.
-<div class="alert"><b>Note</b>  <p class="note">If <i>pIV</i> is NULL, the graphics adapter does not require a separate initialization vector to decrypt the data. That is, the session key is used to decrypt the data. 
-
-
-</div><div> </div>
-
-#### - pEncryptedBlockInfo [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a> structure that describes the portions of the buffer that are encrypted. 
-<div class="alert"><b>Note</b>  If the entire buffer is encrypted, <i>pEncryptedBlockinfo</i> should be set to NULL.</div><div> </div>
-
-#### - pContentKey [in]
-
-A pointer to a block of memory that contains the content key that is required to decrypt the bit-block transfer (bitblt) data.
-
-If <i>pContentKey</i> is not set to NULL, the buffer data is encrypted by using the specified content key. The data for this key is encrypted by using the session key with the AES-ECB algorithm.
-
-If <i>pContentKey</i> is NULL, the graphics adapter does not require a separate content key to decrypt the data. In this case, the session key is used to decrypt the data.
-
-
-#### - pIV [in]
+### -param *pIV [in]
 
 A pointer to a block of memory that contains the initialization vector that is required to decrypt the bitblt data. For more information, see the Remarks section.
 <div class="alert"><b>Note</b>  <p class="note">If <i>pIV</i> is NULL, the graphics adapter does not require a separate initialization vector to decrypt the data. That is, the session key is used to decrypt the data. 
@@ -178,11 +156,11 @@ For other encryption types, a different structure might be used, or the encrypti
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeRange, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeMaximum, *PPO_FX_PERF_STATE_TYPE, wdm/PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_TYPE, kernel.po_fx_perf_state_type, PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeRange, PoFxPerfStateTypeMaximum, PO_FX_PERF_STATE_TYPE
+ms.keywords: "*PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeRange, kernel.po_fx_perf_state_type, PoFxPerfStateTypeMaximum, wdm/PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeDiscrete, PoFxPerfStateTypeRange, wdm/PoFxPerfStateTypeDiscrete, wdm/PO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeMaximum, PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _PO_FX_PERF_STATE_TYPE {
 
 
 
-#### - PoFxPerfStateTypeDiscrete
+### -field PoFxPerfStateTypeDiscrete
 
 Indicates that the performance state set contains a discrete number of states.
 
 
-#### - PoFxPerfStateTypeRange
+### -field PoFxPerfStateTypeRange
 
 Indicates that the performance state set contains a continuous distribution of  states between a minimum and maximum value.
 
 
-#### - PoFxPerfStateTypeMaximum
+### -field PoFxPerfStateTypeMaximum
 
 This value is reserved for system use.
 
@@ -94,9 +94,9 @@ The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
-
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
  
 

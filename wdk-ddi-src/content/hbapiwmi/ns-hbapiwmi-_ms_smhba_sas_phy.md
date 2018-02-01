@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9bbf2f63-4479-47ee-a014-78b13deccb4c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MS_SMHBA_SAS_PHY structure [Storage Devices], MS_SMHBA_SAS_PHY, PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml, storage.ms_smhba_sas_phy, PMS_SMHBA_SAS_PHY, hbapiwmi/MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY, _MS_SMHBA_SAS_PHY
+ms.keywords: PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], hbapiwmi/PMS_SMHBA_SAS_PHY, storage.ms_smhba_sas_phy, MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY structure [Storage Devices], PMS_SMHBA_SAS_PHY, _MS_SMHBA_SAS_PHY, hbapiwmi/MS_SMHBA_SAS_PHY, structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _MS_SMHBA_SAS_PHY {
 
 
 
-#### - PhyIdentifier
+### -field PhyIdentifier
 
 The port whose physical configuration and link information is being returned. It is unique within the context of the SAS device that contains the physical port.
 
 
-#### - NegotiatedLinkRate
+### -field NegotiatedLinkRate
 
 The state or the transmission speed that is negotiated by the physical port for the physical link.
 
 
-#### - ProgrammedMinLinkRate
+### -field ProgrammedMinLinkRate
 
 The minimum physical link rate that is set by the physical port control mechanism.
 
 
-#### - HardwareMinLinkRate
+### -field HardwareMinLinkRate
 
 The minimum physical link rate that is supported by the physical port.
 
 
-#### - ProgrammedMaxLinkRate
+### -field ProgrammedMaxLinkRate
 
 The maximum physical link rate that is set by the physical port control mechanism.
 
 
-#### - HardwareMaxLinkRate
+### -field HardwareMaxLinkRate
 
 The maximum physical link rate that is supported by the physical port.
 
 
-#### - domainPortWWN
+### -field domainPortWWN
 
 The Port_Identifier that has the smallest value of any Port_Identifier of an expander SMP.
 

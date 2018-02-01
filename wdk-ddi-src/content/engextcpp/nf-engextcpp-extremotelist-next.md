@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a1bf6f5b-c23d-40ed-b6e2-788066fcf0fc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging], Next method, EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, Next method [Windows Debugging], Next, debugger.extremotelist_next, ExtRemoteList::Next, Next method [Windows Debugging], ExtRemoteList class
+ms.keywords: EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, ExtRemoteList::Next, debugger.extremotelist_next, ExtRemoteList class [Windows Debugging], Next method, Next method [Windows Debugging], Next, ExtRemoteList, Next method [Windows Debugging], ExtRemoteList class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8a7e136a-fc87-481c-bb35-270408cb5071
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.file_fs_control_information, PFILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], *PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION, ntifs/FILE_FS_CONTROL_INFORMATION, _FILE_FS_CONTROL_INFORMATION, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, ntifs/PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers]
+ms.keywords: "_FILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], ntifs/FILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION, ntifs/PFILE_FS_CONTROL_INFORMATION, ifsk.file_fs_control_information, PFILE_FS_CONTROL_INFORMATION, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], *PFILE_FS_CONTROL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _FILE_FS_CONTROL_INFORMATION {
 
 
 
-#### - FreeSpaceStartFiltering
+### -field FreeSpaceStartFiltering
 
 Minimum amount of free disk space, in bytes, that is required for the Content-Indexing daemon to begin document filtering. 
 
 
-#### - FreeSpaceThreshold
+### -field FreeSpaceThreshold
 
 Minimum amount of free disk space, in bytes, required for the Indexing Service to continue to filter documents and merge word lists. If the amount of free disk space falls below this threshold, a warning message is written to the Microsoft Windows application event log. Filtering and merging are halted until space is freed. 
 
 
-#### - FreeSpaceStopFiltering
+### -field FreeSpaceStopFiltering
 
 Minimum amount of free disk space, in bytes, that is required for the Content-Indexing daemon to continue document filtering. If the amount of free disk space falls below this threshold, document filtering is halted. 
 
 
-#### - DefaultQuotaThreshold
+### -field DefaultQuotaThreshold
 
 Default per-user disk quota warning threshold for the volume. 
 
 
-#### - DefaultQuotaLimit
+### -field DefaultQuotaLimit
 
 Default per-user disk quota limit for the volume. 
 
 
-#### - FileSystemControlFlags
+### -field FileSystemControlFlags
 
 Bitmask of flags that control quota enforcement and logging of user-related quota events on the volume. Logging makes an entry in the Windows application event log. Compatible combination of one or more of the following: 
 <table>
@@ -271,17 +271,17 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
 
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
 
-<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
  
 

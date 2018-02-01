@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortBufferUchar routine [Storage Devices], storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml, storage.storportwriteportbufferuchar, StorPortWritePortBufferUchar, storport/StorPortWritePortBufferUchar
+ms.keywords: StorPortWritePortBufferUchar routine [Storage Devices], storport/StorPortWritePortBufferUchar, StorPortWritePortBufferUchar, storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml, storage.storportwriteportbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API VOID StorPortWritePortBufferUchar(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Contains the address of the port to be written to. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Contains the number of data items of size <b>sizeof</b>(UCHAR) to be written. 
 
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>
-
 <a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
+
+<a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>
 
  
 

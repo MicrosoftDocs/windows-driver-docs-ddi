@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod, _D3DKMT_MULTISAMPLEMETHOD, OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml
+ms.keywords: D3DKMT_MULTISAMPLEMETHOD, _D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_MULTISAMPLEMETHOD {
 
 
 
-#### - NumSamples
+### -field NumSamples
 
 [out] The number of subpixels that are used in the multiple-sampling method (for example, 2 for 2x and 8 for 8x multiple-sampling).
 
 
-#### - NumQualityLevels
+### -field NumQualityLevels
 
 [out] The upper bound on the quality range that is supported for the multiple-sampling method. The range extends from zero through the reported maximum quality setting.
 
 
-#### - Reserved
+### -field Reserved
 
 [out] Reserved.
 
@@ -93,9 +93,9 @@ The driver can partition its quality levels for a given multiple-sampling method
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
 
  
 

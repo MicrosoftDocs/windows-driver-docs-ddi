@@ -71,12 +71,12 @@ BOOLEAN KStrCancelTimer(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
 
-#### - Timer [in]
+### -param Timer [in]
 
 Pointer to the minidriver's custom timer object to cancel.
 

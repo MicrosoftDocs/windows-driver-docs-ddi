@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OPLOCK_KEY_VERSION_WIN8, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], ntddk/OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_FLAG_TARGET_KEY, *POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT, OPLOCK_KEY_FLAG_PARENT_KEY, _OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT
+ms.keywords: OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], _OPLOCK_KEY_CONTEXT, OPLOCK_KEY_FLAG_TARGET_KEY, *POPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_FLAG_PARENT_KEY, ntddk/OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN8, OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _OPLOCK_KEY_CONTEXT {
 
 
 
-#### - Version
+### -field Version
 
 The oplock key version. The version is set to one of the following values.
 <table>
@@ -101,7 +101,7 @@ This is a Windows 8 oplock key.
 </table> 
 
 
-#### - Flags
+### -field Flags
 
 A set of flags that indicate the oplock key type. <b>Flags</b> is set to one or both of the following values.
 <table>
@@ -132,12 +132,12 @@ A valid oplock key is present in <b>TargetOplockKey.</b>
 </table> 
 
 
-#### - ParentOplockKey
+### -field ParentOplockKey
 
 A <b>GUID</b>  that represents the parent oplock  key value.
 
 
-#### - TargetOplockKey
+### -field TargetOplockKey
 
 A <b>GUID</b>  that represents the target oplock  key value.
 
@@ -159,9 +159,9 @@ If an oplock is requested for a file during an <a href="https://msdn.microsoft.c
 
 <a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
-<a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
 
  
 

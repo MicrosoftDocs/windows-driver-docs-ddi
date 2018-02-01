@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: d15bf48e-132d-4f89-8f19-64f57deed500
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, image.wiasgetcontextfromname, wiamdef/wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices]
+ms.keywords: wiasGetContextFromName function [Imaging Devices], wiasGetContextFromName, wiamdef/wiasGetContextFromName, image.wiasgetcontextfromname, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasGetContextFromName(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - lFlags
+### -param lFlags
 
 Reserved for system use and should be set to 0.
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 Specifies the name of the context that is being searched for.
 
 
-#### - ppWiasContext [out]
+### -param ppWiasContext [out]
 
 Pointer to a memory location that receives the address of the WIA item context.
 

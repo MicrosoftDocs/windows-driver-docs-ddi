@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e8855baf-ce75-4a4c-bbbe-d1a7e5a65907
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccremapbcb, CcRemapBcb, ccref_64bd8036-ecdd-48bd-8894-fea7f28cc3be.xml, CcRemapBcb routine [Installable File System Drivers], ntifs/CcRemapBcb
+ms.keywords: ntifs/CcRemapBcb, CcRemapBcb, CcRemapBcb routine [Installable File System Drivers], ccref_64bd8036-ecdd-48bd-8894-fea7f28cc3be.xml, ifsk.ccremapbcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PVOID CcRemapBcb(
 
 
 
-#### - Bcb [in]
+### -param Bcb [in]
 
 Pointer to the BCB to be remapped.
 
@@ -88,13 +88,13 @@ Like <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>, <b>CcRemapBcb</b> m
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 

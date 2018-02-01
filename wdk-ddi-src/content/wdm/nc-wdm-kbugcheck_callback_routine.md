@@ -72,12 +72,12 @@ VOID BugCheckCallback(
 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the buffer that was specified when the callback was registered.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the length, in bytes, of the buffer that is pointed to by the <i>Buffer</i> parameter.
 
@@ -106,11 +106,11 @@ Note that beginning with the Windows XP SP1 and Windows Server 2003 operating sy
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 <a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 <a href="..\wdm\nf-wdm-kederegisterbugcheckcallback.md">KeDeregisterBugCheckCallback</a>
 

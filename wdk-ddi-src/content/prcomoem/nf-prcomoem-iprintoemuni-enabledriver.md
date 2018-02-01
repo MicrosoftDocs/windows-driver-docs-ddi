@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7d7cd1de-569a-4083-8d4c-e073645941e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni::EnableDriver, EnableDriver method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml, print.iprintoemuni_enabledriver, EnableDriver method [Print Devices], IPrintOemUni, EnableDriver, prcomoem/IPrintOemUni::EnableDriver, IPrintOemUni interface [Print Devices], EnableDriver method
+ms.keywords: print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml, EnableDriver method [Print Devices], IPrintOemUni interface, IPrintOemUni, EnableDriver method [Print Devices], EnableDriver, print.iprintoemuni_enabledriver, prcomoem/IPrintOemUni::EnableDriver, IPrintOemUni::EnableDriver, IPrintOemUni interface [Print Devices], EnableDriver method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ STDMETHOD EnableDriver(
 
 
 
-#### - DriverVersion
+### -param DriverVersion
 
 Caller-supplied interface version number. This value is defined by PRINTER_OEMINTF_VERSION, in printoem.h.
 
 
-#### - cbSize
+### -param cbSize
 
 Caller-supplied size, in bytes, of the structure pointed to by <i>pded</i>.
 
 
-#### - pded
+### -param pded
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556206">DRVENABLEDATA</a> structure.
 

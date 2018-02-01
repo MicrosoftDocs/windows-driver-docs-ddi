@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: de6efd10-7f97-422a-abd4-c21c4cbc1dd7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryMediums method [Streaming Media Devices], IKsPin::KsQueryMediums, IKsPin, ksproxy_88debe31-2dd5-41bc-80c0-164b28dc586f.xml, KsQueryMediums method [Streaming Media Devices], IKsPin interface, KsQueryMediums, stream.ikspin_ksquerymediums, ksproxy/IKsPin::KsQueryMediums, IKsPin interface [Streaming Media Devices], KsQueryMediums method
+ms.keywords: KsQueryMediums method [Streaming Media Devices], IKsPin interface, stream.ikspin_ksquerymediums, IKsPin interface [Streaming Media Devices], KsQueryMediums method, KsQueryMediums, KsQueryMediums method [Streaming Media Devices], ksproxy_88debe31-2dd5-41bc-80c0-164b28dc586f.xml, IKsPin::KsQueryMediums, ksproxy/IKsPin::KsQueryMediums, IKsPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsQueryMediums(
 
 
 
-#### - MediumList [out]
+### -param MediumList [out]
 
 Pointer to a buffer that receives a pointer to a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structures that describe medium types. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
@@ -90,9 +90,9 @@ Applications call <b>KsQueryMediums</b> to retrieve mediums that pins support in
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
-
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
 
  
 

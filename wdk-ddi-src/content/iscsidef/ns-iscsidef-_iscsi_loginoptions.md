@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2440999a-e10c-4a27-b076-a0b640c2ca7f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_LoginOptions structure pointer [Storage Devices], *PISCSI_LoginOptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, iscsidef/PISCSI_LoginOptions, storage.iscsi_loginoptions, ISCSI_LoginOptions structure [Storage Devices], iscsidef/ISCSI_LoginOptions, _ISCSI_LoginOptions, PISCSI_LoginOptions, ISCSI_LoginOptions
+ms.keywords: "_ISCSI_LoginOptions, ISCSI_LoginOptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, PISCSI_LoginOptions structure pointer [Storage Devices], PISCSI_LoginOptions, storage.iscsi_loginoptions, iscsidef/ISCSI_LoginOptions, *PISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _ISCSI_LoginOptions {
 
 
 
-#### - InformationSpecified
+### -field InformationSpecified
 
 A bitmap that indicates which members of the ISCSI_LoginOptions structure contain valid data. The following table describes the possible values: 
 <table>
@@ -165,32 +165,32 @@ The password to be used during logon.
 </table> 
 
 
-#### - HeaderDigest
+### -field HeaderDigest
 
 A <a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the header digest in a logon PDU.
 
 
-#### - DataDigest
+### -field DataDigest
 
 A <a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the data digest in a logon PDU.
 
 
-#### - MaximumConnections
+### -field MaximumConnections
 
 A value between 1 and 65535 that specifies the maximum number of connections to target devices that can be associated with a single logon session. A value of 0 indicates that there is no limit to the number of connections. 
 
 
-#### - DefaultTime2Wait
+### -field DefaultTime2Wait
 
 The minimum time to wait, in seconds, before the initiator attempts to reconnect or reassign a connection (or task) that has been dropped after an unexpected connection termination or reset. The initiator and target negotiate to determine this value.
 
 
-#### - DefaultTime2Retain
+### -field DefaultTime2Retain
 
 The maximum time, in seconds, to reassign a connection after the initial wait that is indicated in <b>DefaultTime2Wait</b> has elapsed. The initiator and target negotiate to determine this value.
 
 
-#### - LoginFlags
+### -field LoginFlags
 
 A bitwise OR of logon flags that define certain characteristics of the logon session. The following table indicates the values that you can assign to this member.
 <table>
@@ -261,18 +261,18 @@ Use RADIUS to verify CHAP response.
 </table> 
 
 
-#### - AuthType
+### -field AuthType
 
 A <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a> value that indicates the authentication method that is used to establish a logon connection. 
 
 
 ## -see-also
 
-<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561543">ISCSI_LoginOptions WMI Class</a>
 
 <a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561543">ISCSI_LoginOptions WMI Class</a>
+<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6F1A1545-5B64-4481-B795-0B6433304C06
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDevicePlugIn function [Buses], udecxusbdevice/UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn, buses.udecxusbdeviceplugin
+ms.keywords: UdecxUsbDevicePlugIn function [Buses], buses.udecxusbdeviceplugin, udecxusbdevice/UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE NTSTATUS UdecxUsbDevicePlugIn(
 
 
 
-#### - UdecxUsbDevice [in]
+### -param UdecxUsbDevice [in]
 
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 
 
-#### - Options [in]
+### -param Options [in]
 
 A <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a>-type value that indicates the port to which the device is plugged. At most one of Usb20PortNumber, Usb30PortNumber can be non-zero. NULL disables plug-in options (use defaults).
 

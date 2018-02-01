@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c77ad1a-218d-4857-a07c-f5d542d070d7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetSymbolTypeId, IDebugSymbols::GetSymbolTypeId, IDebugSymbols2::GetSymbolTypeId, debugger.getsymboltypeid, GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols2 interface, GetSymbolTypeId method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, dbgeng/IDebugSymbols2::GetSymbolTypeId, IDebugSymbols interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols2 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging]
+ms.keywords: GetSymbolTypeId method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeId method, dbgeng/IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3, GetSymbolTypeId method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolTypeId method, dbgeng/IDebugSymbols::GetSymbolTypeId, IDebugSymbols::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], debugger.getsymboltypeid, IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3::GetSymbolTypeId, dbgeng/IDebugSymbols3::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, GetSymbolTypeId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetSymbolTypeId(
 
 
 
-#### - Symbol [in]
+### -param Symbol [in]
 
 Specifies the expression whose type ID is requested.  See the Remarks section for details on the syntax of this expression.
 
 
-#### - TypeId [out]
+### -param TypeId [out]
 
 Receives the type ID.
 
 
-#### - Module [out, optional]
+### -param Module [out, optional]
 
 Receives the base address of the module containing the symbol.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.  If <i>Module</i> is <b>NULL</b>, this information is not returned.
 
@@ -121,15 +121,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
  
 

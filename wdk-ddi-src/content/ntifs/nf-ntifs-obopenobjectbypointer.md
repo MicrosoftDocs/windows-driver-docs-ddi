@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f2aa198e-6018-486f-8c39-c89c3f78cb41
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OBJ_FORCE_ACCESS_CHECK, ifsk.obopenobjectbypointer, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, OBJ_INHERIT, OBJ_KERNEL_HANDLE, OBJ_EXCLUSIVE, ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], ntifs/ObOpenObjectByPointer
+ms.keywords: OBJ_FORCE_ACCESS_CHECK, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, ifsk.obopenobjectbypointer, OBJ_EXCLUSIVE, OBJ_INHERIT, OBJ_KERNEL_HANDLE, ntifs/ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], ObOpenObjectByPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS ObOpenObjectByPointer(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 Pointer to the object to be opened. 
 
 
-#### - HandleAttributes [in]
+### -param HandleAttributes [in]
 
 Bitmask of flags specifying the desired attributes for the object handle. If the caller is not running in the system process context, these flags must include OBJ_KERNEL_HANDLE. This parameter is optional and can be zero. Otherwise, it is an ORed combination of one or more of the following: 
 
@@ -104,28 +104,28 @@ The handle can be inherited by child processes of the current process. This flag
 The handle can only be accessed in kernel mode. This flag must be specified if the caller is not running in the system process context. 
 
 
-#### - PassedAccessState [in, optional]
+### -param PassedAccessState [in, optional]
 
 Pointer to an <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp-&gt;Parameters.Create.SecurityContext-&gt;AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.) 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value specifying the desired access to the object. This parameter is optional and can be zero. 
 
 
-#### - ObjectType [in, optional]
+### -param ObjectType [in, optional]
 
 Pointer to the object type. If the value of <i>AccessMode</i> is <b>KernelMode</b>, this parameter is optional and can be <b>NULL</b>. Otherwise, it must be either <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsThreadType </b>, <b>*SeTokenObjectType</b>, or <b>*CmKeyObjectType</b>. 
 <div class="alert"><b>Note</b>    The <b>SeTokenObjectType</b> object type is supported staring with Windows XP and  and the <b>CmKeyObjectType</b> object type is supported staring with Windows 7.</div><div> </div>
 
-#### - AccessMode [in]
+### -param AccessMode [in]
 
 Access mode to be used for the access check. This parameter is required and must be either <b>UserMode</b> or <b>KernelMode</b>. 
 
 
-#### - Handle [out]
+### -param Handle [out]
 
 Pointer to a caller-allocated variable that receives a handle to the object. 
 
@@ -237,17 +237,17 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
 <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

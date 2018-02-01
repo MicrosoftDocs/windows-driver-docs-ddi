@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2d1b967-32fb-437a-a0bd-e0028acee022
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorAuthenticAMD, ntddndis/NDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorGenuinIntel, PNDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], NdisProcessorVendorGenuinIntel, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], NdisProcessorVendorUnknown, ntddndis/PNDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorUnknown, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, *PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, _NDIS_PROCESSOR_VENDOR, netvista.ndis_processor_vendor
+ms.keywords: "_NDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], NdisProcessorVendorGenuinIntel, ntddndis/NDIS_PROCESSOR_VENDOR, NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorAuthenticAMD, NdisProcessorVendorUnknown, ntddndis/NdisProcessorVendorUnknown, ntddndis/PNDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorGenuinIntel, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, *PNDIS_PROCESSOR_VENDOR, netvista.ndis_processor_vendor, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _NDIS_PROCESSOR_VENDOR {
 
 
 
-#### - NdisProcessorVendorUnknown
+### -field NdisProcessorVendorUnknown
 
 The processor vendor is unknown.
 
 
-#### - NdisProcessorVendorGenuinIntel
+### -field NdisProcessorVendorGenuinIntel
 
 The processor vendor is Intel.
 
@@ -83,7 +83,7 @@ The processor vendor is Intel.
 
 
 
-#### - NdisProcessorVendorAuthenticAMD
+### -field NdisProcessorVendorAuthenticAMD
 
 The processor vendor is AMD.
 
@@ -92,8 +92,8 @@ The processor vendor is AMD.
 
 
 The NDIS_PROCESSOR_VENDOR enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_system_processor_info" tabindex="0"><b>
-    NDIS_SYSTEM_PROCESSOR_INFO</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">
+    NDIS_SYSTEM_PROCESSOR_INFO</a> structure.
 
 
 

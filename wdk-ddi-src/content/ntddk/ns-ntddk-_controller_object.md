@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5530901-e48c-4f4e-86a8-00d5ed01f933
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PCONTROLLER_OBJECT, _CONTROLLER_OBJECT, PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], kernel.controller_object, kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml, *PCONTROLLER_OBJECT, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], CONTROLLER_OBJECT, PCONTROLLER_OBJECT, ntddk/CONTROLLER_OBJECT
+ms.keywords: "_CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT, PCONTROLLER_OBJECT, ntddk/CONTROLLER_OBJECT, CONTROLLER_OBJECT, PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], *PCONTROLLER_OBJECT, kernel.controller_object, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ typedef struct _CONTROLLER_OBJECT {
  
 
 
-#### - ControllerExtension
+### -field ControllerExtension
 
 Pointer to the controller extension. The structure and contents of the controller extension are driver-defined. The size is driver-determined, specified in the driver's call to <b>IoCreateController</b>. Usually, drivers maintain common state about I/O operations in the controller extension and device-specific state about I/O for a target device in the corresponding device extension. 
 

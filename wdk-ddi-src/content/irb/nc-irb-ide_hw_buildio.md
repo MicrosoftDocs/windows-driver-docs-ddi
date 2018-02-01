@@ -71,12 +71,12 @@ BOOLEAN IdeHwBuildIo(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the miniport driver channel extension.
 
 
-#### - Irb [in]
+### -param Irb [in]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the Integrated Device Electronics (IDE) input/output request block (IRB) to process.
 
@@ -107,9 +107,9 @@ The <b><i>IdeHwBuildIo</i></b> routine resembles Storport's <a href="..\storport
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
-
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
 
  
 

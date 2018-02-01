@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5e3918a4-8cc6-45b9-acb1-3a2b2088d4b9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, _FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure [Storage Devices], ntddmmc/PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, structs-CD-ROM_ad0cd0d4-fa5d-4ad4-82d9-7945eaa2a2cd.xml, storage.feature_data_incremental_streaming_writable"
+ms.keywords: FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure [Storage Devices], _FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, *PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, structs-CD-ROM_ad0cd0d4-fa5d-4ad4-82d9-7945eaa2a2cd.xml, FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, ntddmmc/FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, ntddmmc/PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure pointer [Storage Devices], storage.feature_data_incremental_streaming_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,39 +74,39 @@ typedef struct _FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - DataTypeSupported
+### -field DataTypeSupported
 
 Indicates the supported data type. See the <i>SCSI Multimedia - 4 (MMC-4)</i> specification for an explanation of the values that this member can take. <b>DataTypeSupported</b>[0] must hold the most significant byte of the number of the data type. <b>DataTypeSupported</b>[1] must hold the least significant byte of the number.
 
 
-#### - BufferUnderrunFree
+### -field BufferUnderrunFree
 
 Indicates, when set to one, that the logical unit is capable of zero-loss linking.
 
 
-#### - AddressModeReservation
+### -field AddressModeReservation
 
 
 
-#### - TrackRessourceInformation
+### -field TrackRessourceInformation
 
 
 
-#### - Reserved01
+### -field Reserved01
 
 
 
-#### - NumberOfLinkSizes
+### -field NumberOfLinkSizes
 
 Specifies the number of link sizes available for the current media. See the <i>MMC-3</i> specification for an explanation of the values that this member can take. 
 
 
-#### - LinkSize
+### -field LinkSize
 
 Contains an array that indicates the number of logical blocks per link. 
 

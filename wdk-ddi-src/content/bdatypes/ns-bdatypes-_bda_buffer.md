@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: DCC7087B-0A1B-4E96-A82F-BDEF09D8CEE2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_BUFFER structure pointer [Streaming Media Devices], _BDA_BUFFER, stream.bda_buffer, bdatypes/BDA_BUFFER, bdatypes/PBDA_BUFFER, PBDA_BUFFER, BDA_BUFFER structure [Streaming Media Devices], BDA_BUFFER, *PBDA_BUFFER
+ms.keywords: bdatypes/PBDA_BUFFER, PBDA_BUFFER, BDA_BUFFER, bdatypes/BDA_BUFFER, _BDA_BUFFER, *PBDA_BUFFER, PBDA_BUFFER structure pointer [Streaming Media Devices], stream.bda_buffer, BDA_BUFFER structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _BDA_BUFFER {
 
 
 
-#### - lResult
+### -field lResult
 
 
 
@@ -84,10 +84,10 @@ typedef struct _BDA_BUFFER {
 
 
 
-#### - ulKeyuuidBufferLen
-
-
-
 #### - argKeyuuidBuffer
+
+
+
+#### - ulKeyuuidBufferLen
 
 

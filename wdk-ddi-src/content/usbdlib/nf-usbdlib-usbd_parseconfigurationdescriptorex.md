@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c14b3cde-b501-4d07-96ae-f0e0e6320966
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx routine [Buses], buses.usbd_parseconfigurationdescriptorex, usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml
+ms.keywords: buses.usbd_parseconfigurationdescriptorex, usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml, usbdlib/USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx routine [Buses], USBD_ParseConfigurationDescriptorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,37 +75,37 @@ PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptorEx(
 
 
 
-#### - ConfigurationDescriptor [in]
+### -param ConfigurationDescriptor [in]
 
 Pointer to a USB configuration descriptor that contains the interface for which to search.
 
 
-#### - StartPosition [in]
+### -param StartPosition [in]
 
 Pointer to the address within the configuration descriptor, provided at <i>ConfigurationDescriptor</i>, to begin searching from. To search from the beginning of the configuration descriptor, the parameters <i>ConfigurationDescriptor</i> and <i>StartPosition</i> must be the same address.
 
 
-#### - InterfaceNumber [in]
+### -param InterfaceNumber [in]
 
 Specifies the device-defined index of the interface to be retrieved. This should be set to -1 if it should not be a search criterion.
 
 
-#### - AlternateSetting [in]
+### -param AlternateSetting [in]
 
 Specifies the device-defined alternate-setting index of the interface to be retrieved. If the caller does not wish the alternate setting value to be a search criterion, this parameter should be set to -1.
 
 
-#### - InterfaceClass [in]
+### -param InterfaceClass [in]
 
 Specifies the device- or USB-defined identifier for the interface class of the interface to be retrieved. If the caller does not wish the interface class value to be a search criterion, this parameter should be set to -1.
 
 
-#### - InterfaceSubClass [in]
+### -param InterfaceSubClass [in]
 
 Specifies the device- or USB-defined identifier for the interface subclass of the interface to be retrieved. If the caller does not wish the interface subclass value to be a search criterion, this parameter should be set to -1.
 
 
-#### - InterfaceProtocol [in]
+### -param InterfaceProtocol [in]
 
 Specifies the device- or USB-defined identifier for the interface protocol of the interface to be retrieved. If the caller does not wish the interface protocol value to be a search criterion, this parameter should be set to -1.
 

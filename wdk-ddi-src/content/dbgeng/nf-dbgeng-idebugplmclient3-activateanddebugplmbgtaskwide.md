@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77358032-1777-46F4-BF16-5DFFAC15E672
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, ActivateAndDebugPlmBgTaskWide, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_activateanddebugplmbgtaskwide, IDebugPlmClient3 interface [Windows Debugging], ActivateAndDebugPlmBgTaskWide method, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3
+ms.keywords: ActivateAndDebugPlmBgTaskWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], ActivateAndDebugPlmBgTaskWide method, ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT ActivateAndDebugPlmBgTaskWide(
 
 
 
-#### - Server [in]
+### -param Server [in]
 
 The server of the task.
 
 
-#### - PackageFullName [in]
+### -param PackageFullName [in]
 
 A pointer to the package name.
 
 
-#### - BackgroundTaskId [in]
+### -param BackgroundTaskId [in]
 
 A pointer to the task ID. 
 

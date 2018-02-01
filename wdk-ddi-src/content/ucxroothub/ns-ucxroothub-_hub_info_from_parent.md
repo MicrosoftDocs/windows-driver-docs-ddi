@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_HUB_INFO_FROM_PARENT, _HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT, buses._hub_info_from_parent, ucxroothub/P_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], ucxroothub/_HUB_INFO_FROM_PARENT
+ms.keywords: buses._hub_info_from_parent, P_HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT, ucxroothub/P_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], P_HUB_INFO_FROM_PARENT structure pointer [Buses], ucxroothub/_HUB_INFO_FROM_PARENT, _HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,79 +82,79 @@ typedef struct _HUB_INFO_FROM_PARENT {
 
 
 
-#### - IoTarget
+### -field IoTarget
 
 A pointer to the WDM device object of the parent that represents the I/O target.
 
 
-#### - DeviceDescriptor
+### -field DeviceDescriptor
 
 A <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure that contains the device descriptor.
 
 
-#### - U1ExitLatency
+### -field U1ExitLatency
 
 The time to transition from the U1 state. 
 
 
-#### - U2ExitLatency
+### -field U2ExitLatency
 
 The time to transition from the U2 state. 
 
 
-#### - ExitLatencyOfSlowestLinkForU1
+### -field ExitLatencyOfSlowestLinkForU1
 
 The exit latency for the slowest link for U1 transition.
 
 
-#### - DepthOfSlowestLinkForU1
+### -field DepthOfSlowestLinkForU1
 
 The depth of the hub based on which the latency
         for the slowest link is calculated for a U1 transition.
 
 
-#### - ExitLatencyOfSlowestLinkForU2
+### -field ExitLatencyOfSlowestLinkForU2
 
 The exit latency for the slowest link for U2 transition.
 
 
-#### - DepthOfSlowestLinkForU2
+### -field DepthOfSlowestLinkForU2
 
 The depth of the hub based on which the latency
         for the slowest link is calculated for a U2 transition.
 
 
-#### - HostInitiatedU1ExitLatency
+### -field HostInitiatedU1ExitLatency
 
 Host-initiated exit latency to transition from the U1 state. 
 
 
-#### - HostInitiatedU2ExitLatency
+### -field HostInitiatedU2ExitLatency
 
 Host-initiated exit latency to transition from the U2 state. 
 
 
-#### - TotalHubDepth
+### -field TotalHubDepth
 
 Total hub depth.
 
 
-#### - TotalTPPropogationDelay
+### -field TotalTPPropogationDelay
 
 The total TP propagation delay.
 
 
-#### - HubFlags
+### -field HubFlags
 
 A bitwise-OR of <a href="..\ucxroothub\ns-ucxroothub-_parent_hub_flags.md">PARENT_HUB_FLAGS</a> flags.
 
 
-#### - SublinkSpeedAttr
+### -field SublinkSpeedAttr
 
 A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that describes the USB 3.1capability's sublink speed attributes. For structure declaration, see Usbspec.h
 
 
-#### - SublinkSpeedAttrCount
+### -field SublinkSpeedAttrCount
 
 The count of sublink speed attributes.
 

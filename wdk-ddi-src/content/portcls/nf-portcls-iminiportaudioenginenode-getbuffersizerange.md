@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75CBDD4F-618F-4618-9D53-4A8DF40992B0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetBufferSizeRange method, GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetBufferSizeRange, portcls/IMiniportAudioEngineNode::GetBufferSizeRange, IMiniportAudioEngineNode, GetBufferSizeRange method [Audio Devices], audio.iminiportaudioenginenode_getbuffersizerange, GetBufferSizeRange
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetBufferSizeRange method, IMiniportAudioEngineNode::GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getbuffersizerange, GetBufferSizeRange, IMiniportAudioEngineNode, portcls/IMiniportAudioEngineNode::GetBufferSizeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS GetBufferSizeRange(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-#### - pKsDataFormatWfx [in]
+### -param pKsDataFormatWfx [in]
 
 A <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> structure that represents the audio data format for the audio device.
 
 
-#### - pBufferSizeRange [out]
+### -param pBufferSizeRange [out]
 
 A <a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_buffer_size_range.md">KSAUDIOENGINE_BUFFER_SIZE_RANGE</a> structure that represents the minimum and maximum buffer size that the hardware audio engine can support at the time when it is called.
 

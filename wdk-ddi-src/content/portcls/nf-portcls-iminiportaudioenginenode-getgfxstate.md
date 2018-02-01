@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C2D4EB3E-0A39-4458-B0E7-C6D943AB4203
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetGfxState, GetGfxState method [Audio Devices], IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetGfxState, portcls/IMiniportAudioEngineNode::GetGfxState, audio.iminiportaudioenginenode_getgfxstate, GetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], GetGfxState method
+ms.keywords: GetGfxState method [Audio Devices], portcls/IMiniportAudioEngineNode::GetGfxState, IMiniportAudioEngineNode interface [Audio Devices], GetGfxState method, IMiniportAudioEngineNode, GetGfxState, GetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getgfxstate, IMiniportAudioEngineNode::GetGfxState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ NTSTATUS GetGfxState(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID of the GFX node.
 
 
-#### - pbEnable [out]
+### -param pbEnable [out]
 
 Pointer to a <b>BOOL</b> data type.
 

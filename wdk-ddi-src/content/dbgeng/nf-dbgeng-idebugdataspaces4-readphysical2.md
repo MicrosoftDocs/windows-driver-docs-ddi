@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ad376a6f-b8e3-40ba-9b00-df1410c1293c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2 method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces4, IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, dbgeng/IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces4, ReadPhysical2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT ReadPhysical2(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the physical address of the memory to read.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the properties of the physical memory to be read.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
 <table>
@@ -127,17 +127,17 @@ The physical memory is write-combined.
 </table> 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Receives the memory that is read.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in bytes, of the <i>Buffer</i> buffer.  This is the maximum number of bytes that will be read.
 
 
-#### - BytesRead [out, optional]
+### -param BytesRead [out, optional]
 
 Receives the number of bytes read from the target's memory.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 

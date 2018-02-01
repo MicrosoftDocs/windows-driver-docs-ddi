@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 718431f9-e4cc-4e79-84d3-a59f5399e711
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hbafcpscsientry, _HBAFCPScsiEntry, HBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, *PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], hbapiwmi/PHBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, PHBAFCPScsiEntry
+ms.keywords: structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, *PHBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, _HBAFCPScsiEntry, storage.hbafcpscsientry, HBAFCPScsiEntry structure [Storage Devices], PHBAFCPScsiEntry structure pointer [Storage Devices], PHBAFCPScsiEntry, HBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _HBAFCPScsiEntry {
 
 
 
-#### - FCPId
+### -field FCPId
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpid.md">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
-#### - Luid
+### -field Luid
 
 Contains the logical unit descriptor for the device that the operating system derives from SCSI inquiry data. 
 
 
-#### - ScsiId
+### -field ScsiId
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
 

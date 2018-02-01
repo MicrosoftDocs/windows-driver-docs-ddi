@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ee411f2-1779-41bd-808c-40639bb22662
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND, _D3DDDI_MULTIPLANE_OVERLAY_BLEND, display.d3dddi_multiplane_overlay_blend, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE
+ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND, display.d3dddi_multiplane_overlay_blend, D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, D3DDDI_MULTIPLANE_OVERLAY_BLEND, _D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _D3DDDI_MULTIPLANE_OVERLAY_BLEND {
 
 
 
-#### - D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE
+### -field D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE
 
 The overlay plane should ignore data in the alpha channel and make the blended plane entirely opaque.
 
 
-#### - D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND
+### -field D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND
 
 The overlay plane should use the pre-multiplied alpha channel in this plane to blend it with the plane beneath.
 

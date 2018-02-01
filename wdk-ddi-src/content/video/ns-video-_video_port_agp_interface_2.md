@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 626cbf2d-2841-4b52-b17d-5377aa2f6264
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, display.video_port_agp_interface_2, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], VIDEO_PORT_AGP_INTERFACE_2, *PVIDEO_PORT_AGP_INTERFACE_2, _VIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], video/PVIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2
+ms.keywords: video/PVIDEO_PORT_AGP_INTERFACE_2, Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, *PVIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], display.video_port_agp_interface_2, VIDEO_PORT_AGP_INTERFACE_2, _VIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,77 +82,77 @@ typedef struct _VIDEO_PORT_AGP_INTERFACE_2 {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size in bytes of this structure.
 
 
-#### - Version
+### -field Version
 
 Specifies the version of the interface to be returned by the video port driver. The current interface version is defined in <i>video.h</i> and has the form VIDEO_PORT_AGP_INTERFACE_<i>N</i>.
 
 
-#### - Context
+### -field Context
 
 Pointer to a video port driver-defined context for the interface.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to the video port driver-implemented reference routine for this interface.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to the video port driver-implemented dereference routine for this interface.
 
 
-#### - AgpReservePhysical
+### -field AgpReservePhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a> routine.
 
 
-#### - AgpReleasePhysical
+### -field AgpReleasePhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a> routine.
 
 
-#### - AgpCommitPhysical
+### -field AgpCommitPhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a> routine.
 
 
-#### - AgpFreePhysical
+### -field AgpFreePhysical
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a> routine.
 
 
-#### - AgpReserveVirtual
+### -field AgpReserveVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> routine.
 
 
-#### - AgpReleaseVirtual
+### -field AgpReleaseVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a> routine.
 
 
-#### - AgpCommitVirtual
+### -field AgpCommitVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> routine.
 
 
-#### - AgpFreeVirtual
+### -field AgpFreeVirtual
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a> routine.
 
 
-#### - AgpAllocationLimit
+### -field AgpAllocationLimit
 
 Specifies the maximum total number of bytes of AGP memory that a miniport driver can commit.
 
 
-#### - AgpSetRate
+### -field AgpSetRate
 
 Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a> routine.
 
@@ -168,9 +168,9 @@ This structure is identical to the <a href="..\video\ns-video-_video_port_agp_in
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
-
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 

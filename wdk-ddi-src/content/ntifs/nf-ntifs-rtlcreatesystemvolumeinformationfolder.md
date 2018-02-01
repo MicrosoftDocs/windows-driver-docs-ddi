@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bcbbddc7-6675-4555-bd05-588762148554
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlcreatesystemvolumeinformationfolder, ntifs/RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers]
+ms.keywords: RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ntifs/RtlCreateSystemVolumeInformationFolder, ifsk.rtlcreatesystemvolumeinformationfolder, RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS RtlCreateSystemVolumeInformationFolder(
 
 
 
-#### - VolumeRootPath [in]
+### -param VolumeRootPath [in]
 
 A pointer to a path to the root of the volume.
 

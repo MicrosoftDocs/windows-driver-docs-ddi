@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 64079b03-9771-4940-a19e-a29389cbf2fe
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE, whea.whea_x86_register_state, WHEA_X86_REGISTER_STATE structure [WHEA Drivers and Applications], whearef_330404b2-bd6e-4220-97c6-8bacc803eb78.xml, ntddk/WHEA_X86_REGISTER_STATE, _WHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_X86_REGISTER_STATE
+ms.keywords: whearef_330404b2-bd6e-4220-97c6-8bacc803eb78.xml, ntddk/WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE, whea.whea_x86_register_state, ntddk/PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE structure pointer [WHEA Drivers and Applications], WHEA_X86_REGISTER_STATE structure [WHEA Drivers and Applications], WHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE, _WHEA_X86_REGISTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,127 +91,127 @@ typedef struct _WHEA_X86_REGISTER_STATE {
 
 
 
-#### - Eax
+### -field Eax
 
 The accumulator register.
 
 
-#### - Ebx
+### -field Ebx
 
 The base register.
 
 
-#### - Ecx
+### -field Ecx
 
 The count register.
 
 
-#### - Edx
+### -field Edx
 
 The data register.
 
 
-#### - Esi
+### -field Esi
 
 The source index register.
 
 
-#### - Edi
+### -field Edi
 
 The destination index register.
 
 
-#### - Ebp
+### -field Ebp
 
 The base pointer register.
 
 
-#### - Esp
+### -field Esp
 
 The stack pointer register.
 
 
-#### - Cs
+### -field Cs
 
 The code segment register.
 
 
-#### - Ds
+### -field Ds
 
 The data segment register.
 
 
-#### - Ss
+### -field Ss
 
 The stack segment register.
 
 
-#### - Es
+### -field Es
 
 The extra segment register.
 
 
-#### - Fs
+### -field Fs
 
 The general purpose segment register FS.
 
 
-#### - Gs
+### -field Gs
 
 The general purpose segment register GS.
 
 
-#### - Eflags
+### -field Eflags
 
 The flags register.
 
 
-#### - Eip
+### -field Eip
 
 The instruction pointer register.
 
 
-#### - Cr0
+### -field Cr0
 
 The control register 0.
 
 
-#### - Cr1
+### -field Cr1
 
 The control register 1.
 
 
-#### - Cr2
+### -field Cr2
 
 The control register 2.
 
 
-#### - Cr3
+### -field Cr3
 
 The control register 3.
 
 
-#### - Cr4
+### -field Cr4
 
 The control register 4.
 
 
-#### - Gdtr
+### -field Gdtr
 
 The global descriptor table register.
 
 
-#### - Idtr
+### -field Idtr
 
 The interrupt descriptor table register.
 
 
-#### - Ldtr
+### -field Ldtr
 
 The local descriptor table register.
 
 
-#### - Tr
+### -field Tr
 
 The task register.
 

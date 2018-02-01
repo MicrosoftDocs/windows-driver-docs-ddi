@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89cbb950-c3e5-4d79-aa7f-fd64cd67fd5e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_DVVIDEO, KS_DATARANGE_DVVIDEO, avcstrm/PKS_DATARANGE_DVVIDEO, KS_DATARANGE_DVVIDEO structure [Streaming Media Devices], avcstrm/KS_DATARANGE_DVVIDEO, *PKS_DATARANGE_DVVIDEO, stream.ks_datarange_dvvideo, PKS_DATARANGE_DVVIDEO, avcsref_4058b68a-c43e-46f0-82b7-dc596cbead98.xml, PKS_DATARANGE_DVVIDEO structure pointer [Streaming Media Devices]
+ms.keywords: tagKS_DATARANGE_DVVIDEO, KS_DATARANGE_DVVIDEO, *PKS_DATARANGE_DVVIDEO, avcstrm/PKS_DATARANGE_DVVIDEO, stream.ks_datarange_dvvideo, avcstrm/KS_DATARANGE_DVVIDEO, avcsref_4058b68a-c43e-46f0-82b7-dc596cbead98.xml, KS_DATARANGE_DVVIDEO structure [Streaming Media Devices], PKS_DATARANGE_DVVIDEO, PKS_DATARANGE_DVVIDEO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct tagKS_DATARANGE_DVVIDEO {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the range of supported digital video formats.
 
 
-#### - DVVideoInfo
+### -field DVVideoInfo
 
 Specifies the digital video information, for example, sound tracks and video information.
 
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
 
  
 

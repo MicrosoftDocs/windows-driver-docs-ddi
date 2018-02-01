@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7db22027-49ac-4ee5-8da7-bbd16c97a35b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistrycontrollerkeyread, AtaPortRegistryControllerKeyRead routine [Storage Devices], irb/AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead, atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml
+ms.keywords: AtaPortRegistryControllerKeyRead routine [Storage Devices], irb/AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead, storage.ataportregistrycontrollerkeyread, atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN __inline AtaPortRegistryControllerKeyRead(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-#### - ControllerNumber [in]
+### -param ControllerNumber [in]
 
 Contains the controller number. 
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 Contains the name of the registry value to read. 
 
 
-#### - ValueType [in]
+### -param ValueType [in]
 
 Indicates the type of the data that is contained in the registry value. This parameter should be assigned one of values indicated in the following table.
 <table>
@@ -128,7 +128,7 @@ A null-terminated, Unicode string.
 </table> 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 A pointer to the buffer where the results are to be copied. 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c60ac4b8-3e55-42c8-a693-4fc6bbec0de8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_FILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/FILTER_AGGREGATE_BASIC_INFORMATION, FltSystemStructures_b8f9faf4-0b81-4536-8f86-1e3f7938c3a4.xml, PFILTER_AGGREGATE_BASIC_INFORMATION structure pointer [Installable File System Drivers], ifsk.filter_aggregate_basic_information, FILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_BASIC_INFORMATION, PFILTER_AGGREGATE_BASIC_INFORMATION, *PFILTER_AGGREGATE_BASIC_INFORMATION, FILTER_AGGREGATE_BASIC_INFORMATION structure [Installable File System Drivers]"
+ms.keywords: FltSystemStructures_b8f9faf4-0b81-4536-8f86-1e3f7938c3a4.xml, ifsk.filter_aggregate_basic_information, *PFILTER_AGGREGATE_BASIC_INFORMATION, FILTER_AGGREGATE_BASIC_INFORMATION structure [Installable File System Drivers], _FILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/FILTER_AGGREGATE_BASIC_INFORMATION, FILTER_AGGREGATE_BASIC_INFORMATION, PFILTER_AGGREGATE_BASIC_INFORMATION, PFILTER_AGGREGATE_BASIC_INFORMATION structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,17 +82,7 @@ typedef struct _FILTER_AGGREGATE_BASIC_INFORMATION {
 
 
 
-#### - Type
-
- 
-
-
-#### MiniFilter
-
- 
-
-
-#### LegacyFilter
+### -field Type
 
  
 
@@ -100,36 +90,6 @@ typedef struct _FILTER_AGGREGATE_BASIC_INFORMATION {
 ### -field Type.MiniFilter
 
  
-
-
-#### MiniFilter.FrameID
-
-Zero-based index of the current frame. 
-
-
-#### MiniFilter.NumberOfInstances
-
-Number of instances that currently exist for the minifilter. 
-
-
-#### MiniFilter.FilterNameLength
-
-Length, in bytes, of the filter name. 
-
-
-#### MiniFilter.FilterNameBufferOffset
-
-Byte offset of the first character of the filter name string. 
-
-
-#### MiniFilter.FilterAltitudeLength
-
-Length, in bytes, of the minifilter altitude string. 
-
-
-#### MiniFilter.FilterAltitudeBufferOffset
-
-Byte offset of the first character of the minifilter altitude string. 
 
 
 ### -field Type.MiniFilter.FrameID
@@ -167,16 +127,6 @@ Byte offset of the first character of the minifilter altitude string.
  
 
 
-#### LegacyFilter.FilterNameLength
-
-Length, in bytes, of the filter name. 
-
-
-#### LegacyFilter.FilterNameBufferOffset
-
-Byte offset of the first character of the filter name string. 
-
-
 ### -field Type.LegacyFilter.FilterNameLength
 
 Length, in bytes, of the filter name. 
@@ -187,12 +137,12 @@ Length, in bytes, of the filter name.
 Byte offset of the first character of the filter name string. 
 
 
-#### - NextEntryOffset
+### -field NextEntryOffset
 
 Byte offset of the next FILTER_AGGREGATE_BASIC_INFORMATION entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one. 
 
 
-#### - Flags
+### -field Flags
 
 Indicates whether the filter driver is a legacy filter or a minifilter.  This member must be one of the following values.
 <table>
@@ -234,21 +184,21 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540500">FilterGetInformation</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5b34168-b3b8-4559-8b41-982f0a66f01d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFMemory::CopyToBuffer, IWDFMemory interface, CopyToBuffer method, CopyToBuffer method, umdf.iwdfmemory_copytobuffer, wdf.iwdfmemory_copytobuffer, IWDFMemory, CopyToBuffer method, IWDFMemory interface, IWDFMemory::CopyToBuffer, CopyToBuffer, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml
+ms.keywords: umdf.iwdfmemory_copytobuffer, CopyToBuffer method, IWDFMemory interface, CopyToBuffer method, IWDFMemory, IWDFMemory::CopyToBuffer, CopyToBuffer, CopyToBuffer method, IWDFMemory interface, wdf.iwdfmemory_copytobuffer, wudfddi/IWDFMemory::CopyToBuffer, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,7 +72,7 @@ HRESULT CopyToBuffer(
 
 
 
-#### - SourceOffset [in]
+### -param SourceOffset [in]
 
 The offset, in bytes, into the memory object to start to copy data from. 
 
@@ -82,7 +82,7 @@ The offset, in bytes, into the memory object to start to copy data from.
 
 
 
-#### - NumOfBytesToCopyTo [in]
+### -param NumOfBytesToCopyTo [in]
 
 The number of bytes to copy to the buffer that <i>pTargetBuffer</i> points to.
 

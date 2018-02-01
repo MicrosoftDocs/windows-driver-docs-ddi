@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.enumerator_type, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE_SERVICE, ENUMERATOR_TYPE_MAX, bthddi/PENUMERATOR_TYPE, PENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], *PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, _ENUMERATOR_TYPE, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_SERVICE, bthddi/ENUMERATOR_TYPE_MAX, ENUMERATOR_TYPE_PROTOCOL
+ms.keywords: bthddi/ENUMERATOR_TYPE_MAX, bthddi/ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_PROTOCOL, _ENUMERATOR_TYPE, PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE, bthddi/PENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], *PENUMERATOR_TYPE, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], ENUMERATOR_TYPE_MAX, bltooth.enumerator_type, ENUMERATOR_TYPE, ENUMERATOR_TYPE_SERVICE, bthddi/ENUMERATOR_TYPE_SERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,12 +71,12 @@ typedef enum _ENUMERATOR_TYPE {
 
 
 
-#### - ENUMERATOR_TYPE_PROTOCOL
+### -field ENUMERATOR_TYPE_PROTOCOL
 
 For internal use only. Do not use.
 
 
-#### - ENUMERATOR_TYPE_SERVICE
+### -field ENUMERATOR_TYPE_SERVICE
 
 This value should be specified for profile drivers. For more information about how this value is
      used, see 
@@ -87,7 +87,7 @@ This value should be specified for profile drivers. For more information about h
 
 
 
-#### - ENUMERATOR_TYPE_MAX
+### -field ENUMERATOR_TYPE_MAX
 
 For internal use only. Do not use.
 
@@ -98,15 +98,15 @@ For internal use only. Do not use.
 A value from this enumeration is returned as the 
     <b>EnumeratorType</b> member of the 
     <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a> structure, which the 
-    <mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
-    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link> returns in its output buffer.
+    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> returns in its output buffer.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
-   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link>
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
 
 <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
 

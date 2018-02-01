@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 167bb0f3-a484-443b-8bc4-bb2bbcecc19a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestgetcompletionparams, WdfRequestGetCompletionParams method, kmdf.wdfrequestgetcompletionparams, PFN_WDFREQUESTGETCOMPLETIONPARAMS, DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, wdfrequest/WdfRequestGetCompletionParams, WdfRequestGetCompletionParams
+ms.keywords: WdfRequestGetCompletionParams method, WdfRequestGetCompletionParams, kmdf.wdfrequestgetcompletionparams, PFN_WDFREQUESTGETCOMPLETIONPARAMS, wdfrequest/WdfRequestGetCompletionParams, DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, wdf.wdfrequestgetcompletionparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfRequestGetCompletionParams(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 
 
-#### - Params [out]
+### -param Params [out]
 
 A pointer to a caller-supplied <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
 
@@ -116,9 +116,9 @@ For more information about <b>WdfRequestGetCompletionParams</b>, see <a href="ht
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_completion_params_init.md">WDF_REQUEST_COMPLETION_PARAMS_INIT</a>
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
  
 

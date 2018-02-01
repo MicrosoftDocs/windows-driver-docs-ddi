@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/DiagnoseLevelFirmwareImageDump, DiagnoseLevelDriverStateDump, netvista.wdiediagnoselevel, dot11wdi/DiagnoseLevelNone, dot11wdi/DiagnoseLevelHardwareRegisters, eDiagnoseLevel, DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelDriverStateDump, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], DiagnoseLevelNone, dot11wdi/eDiagnoseLevel
+ms.keywords: dot11wdi/DiagnoseLevelFirmwareImageDump, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel, dot11wdi/eDiagnoseLevel, DiagnoseLevelHardwareRegisters, DiagnoseLevelFirmwareImageDump, eDiagnoseLevel, dot11wdi/DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelNone, dot11wdi/DiagnoseLevelDriverStateDump
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _eDiagnoseLevel {
 
 
 
-#### - DiagnoseLevelNone
+### -field DiagnoseLevelNone
 
 No diagnostic information should be collected.
 
 
-#### - DiagnoseLevelHardwareRegisters
+### -field DiagnoseLevelHardwareRegisters
 
 Dump the hardware registers. This information is included in the LiveKD dump.
 
 
-#### - DiagnoseLevelFirmwareImageDump
+### -field DiagnoseLevelFirmwareImageDump
 
 Dump the full firmware image and hardware registers. The firmware image should dump to a file.
 
 
-#### - DiagnoseLevelDriverStateDump
+### -field DiagnoseLevelDriverStateDump
 
 Dump the driver state, full firmware image, and hardware registers. The driver state and full firmware image should dump to files.
 

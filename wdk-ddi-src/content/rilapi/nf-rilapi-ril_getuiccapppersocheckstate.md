@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 328f6ac4-e045-4197-a74c-607e98ba606c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getuiccapppersocheckstate, RIL_GetUiccAppPersoCheckState, RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetUiccAppPersoCheckState
+ms.keywords: RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetUiccAppPersoCheckState, netvista.ril_getuiccapppersocheckstate, RIL_GetUiccAppPersoCheckState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetUiccAppPersoCheckState(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 

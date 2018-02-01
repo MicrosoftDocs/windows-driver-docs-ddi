@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSHANDSHAKE, KSHANDSHAKE, stream.kshandshake, PKSHANDSHAKE structure pointer [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, *PKSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], ks/KSHANDSHAKE, PKSHANDSHAKE
+ms.keywords: KSHANDSHAKE structure [Streaming Media Devices], KSHANDSHAKE, *PKSHANDSHAKE, ks/KSHANDSHAKE, stream.kshandshake, avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, PKSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], ks/PKSHANDSHAKE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - ProtocolId
+### -field ProtocolId
 
 This member specifies the GUID that represents the interface or protocol being negotiated between two AVStream pins.
 
 
-#### - Argument1
+### -field Argument1
 
 A pointer to an interface-dependent argument. Most often, this is used to pass back and forth COM-style interface pointers once a specific private interface or protocol has been agreed upon. 
 
 
-#### - Argument2
+### -field Argument2
 
 A pointer to an interface-dependent argument.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2813c28c-e964-44ee-9995-15aa563c43d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILOPERATORNAMES, RILOPERATORNAMES, netvista.riloperatornames, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], *LPRILOPERATORNAMES
+ms.keywords: "*LPRILOPERATORNAMES, rilapitypes/RILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], netvista.riloperatornames"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,34 +74,34 @@ struct RILOPERATORNAMES {
 
 
 
-#### - cbSize
+### -field cbSize
 
 The size of the structure in bytes.
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riloperatornamesparammask.md">RILOPERATORNAMESPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - dwSystemType
+### -field dwSystemType
 
 Must specify one and only one system type.
 
 
-#### - wszLongName
+### -field wszLongName
 
 
 
-#### - wszShortName
+### -field wszShortName
 
 
 
-#### - wszNumName
+### -field wszNumName
 
 
 
-#### - wszCountryCode
+### -field wszCountryCode
 
 Mobile country code
 

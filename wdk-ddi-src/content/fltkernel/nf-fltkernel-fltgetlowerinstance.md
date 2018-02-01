@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bba47250-0344-4b5d-8461-d481519ba9ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetLowerInstance, ifsk.fltgetlowerinstance, FltGetLowerInstance routine [Installable File System Drivers], FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml, fltkernel/FltGetLowerInstance
+ms.keywords: FltGetLowerInstance routine [Installable File System Drivers], FltGetLowerInstance, FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml, ifsk.fltgetlowerinstance, fltkernel/FltGetLowerInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetLowerInstance(
 
 
 
-#### - CurrentInstance [in]
+### -param CurrentInstance [in]
 
 Opaque instance pointer for the minifilter driver instance for which the lower minifilter driver instance is requested. 
 
 
-#### - LowerInstance [out]
+### -param LowerInstance [out]
 
 Pointer to a caller-allocated variable that receives an opaque minifilter driver instance pointer for the next lower minifilter driver instance. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -119,17 +119,17 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetbottominstance.md">FltGetBottomInstance</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetupperinstance.md">FltGetUpperInstance</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+<a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
 
  
 

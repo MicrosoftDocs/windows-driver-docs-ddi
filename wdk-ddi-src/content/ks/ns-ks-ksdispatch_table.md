@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: baa45ce7-3dcd-4383-99f2-aeb664a03190
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE, KSDISPATCH_TABLE, stream.ksdispatch_table, ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], PKSDISPATCH_TABLE, ks/KSDISPATCH_TABLE"
+ms.keywords: "*PKSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], ks/PKSDISPATCH_TABLE, ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, PKSDISPATCH_TABLE, stream.ksdispatch_table, ks/KSDISPATCH_TABLE, KSDISPATCH_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct {
 
 
 
-#### - DeviceIoControl
+### -field DeviceIoControl
 
 Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> IRPs to.
 
 
-#### - Read
+### -field Read
 
 Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> IRPs to.
 
 
-#### - Write
+### -field Write
 
 Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a> IRPs to.
 
 
-#### - Flush
+### -field Flush
 
 Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a> IRPs to.
 
 
-#### - Close
+### -field Close
 
 Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> IRPs to.
 
 
-#### - QuerySecurity
+### -field QuerySecurity
 
 Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549298">IRP_MJ_QUERY_SECURITY</a> IRPs to.
 
 
-#### - SetSecurity
+### -field SetSecurity
 
 Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549407">IRP_MJ_SET_SECURITY</a> IRPs to.
 
 
-#### - FastDeviceIoControl
+### -field FastDeviceIoControl
 
 Specifies the minidriver's routine to dispatch fast device I/O control requests to.
 
 
-#### - FastRead
+### -field FastRead
 
 Specifies the minidriver's routine to dispatch fast read requests to.
 
 
-#### - FastWrite
+### -field FastWrite
 
 Specifies the minidriver's routine to dispatch fast write requests to.
 

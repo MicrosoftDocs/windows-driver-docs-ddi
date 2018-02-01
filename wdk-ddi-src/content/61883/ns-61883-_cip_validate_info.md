@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 98993973-91a4-456a-9343-c744408055ed
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml, IEEE.cip_validate_info, CIP_VALIDATE_INFO structure [Buses], *PCIP_VALIDATE_INFO, PCIP_VALIDATE_INFO, _CIP_VALIDATE_INFO, PCIP_VALIDATE_INFO structure pointer [Buses], 61883/CIP_VALIDATE_INFO, 61883/PCIP_VALIDATE_INFO, CIP_VALIDATE_INFO
+ms.keywords: PCIP_VALIDATE_INFO structure pointer [Buses], *PCIP_VALIDATE_INFO, IEEE.cip_validate_info, CIP_VALIDATE_INFO structure [Buses], 61883/CIP_VALIDATE_INFO, PCIP_VALIDATE_INFO, CIP_VALIDATE_INFO, _CIP_VALIDATE_INFO, 61883/PCIP_VALIDATE_INFO, 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _CIP_VALIDATE_INFO {
 
 
 
-#### - hConnect
+### -field hConnect
 
 A handle to the connection.
 
 
-#### - Context
+### -field Context
 
 Points to the context provided by the caller at <b>ValidateContext</b> in the input CIP_FRAME structure.
 
 
-#### - TimeStamp
+### -field TimeStamp
 
 The timestamp of the current source packet.
 
 
-#### - Packet
+### -field Packet
 
 The packet offset for the current source packet.
 

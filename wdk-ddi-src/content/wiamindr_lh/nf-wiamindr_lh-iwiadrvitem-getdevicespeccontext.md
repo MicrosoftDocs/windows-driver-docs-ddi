@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 04f8d7ef-43c6-43b7-afa1-06ae379a8e26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, IWiaDrvItem, GetDeviceSpecContext, IWiaDrvItem::GetDeviceSpecContext
+ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, IWiaDrvItem, GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, image.iwiadrvitem_getdevicespeccontext, GetDeviceSpecContext, IWiaDrvItem::GetDeviceSpecContext, GetDeviceSpecContext method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

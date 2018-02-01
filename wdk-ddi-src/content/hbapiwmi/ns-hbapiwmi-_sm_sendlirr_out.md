@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68e6ab20-b8a2-4a72-bb38-28fe4345e638
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_SendLIRR_OUT, hbapiwmi/SM_SendLIRR_OUT, structs-Fibre_42d6f555-895e-4cb7-a2fb-8bc61025a940.xml, hbapiwmi/PSM_SendLIRR_OUT, _SM_SendLIRR_OUT, storage.sm_sendlirr_out, *PSM_SendLIRR_OUT, PSM_SendLIRR_OUT structure pointer [Storage Devices], PSM_SendLIRR_OUT, SM_SendLIRR_OUT structure [Storage Devices]
+ms.keywords: PSM_SendLIRR_OUT structure pointer [Storage Devices], storage.sm_sendlirr_out, hbapiwmi/PSM_SendLIRR_OUT, _SM_SendLIRR_OUT, SM_SendLIRR_OUT, SM_SendLIRR_OUT structure [Storage Devices], hbapiwmi/SM_SendLIRR_OUT, structs-Fibre_42d6f555-895e-4cb7-a2fb-8bc61025a940.xml, *PSM_SendLIRR_OUT, PSM_SendLIRR_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SM_SendLIRR_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-#### - TotalRespBufferSize
+### -field TotalRespBufferSize
 
 The size, in bytes, of the results common transport (CT) command.
 
 
-#### - OutRespBufferSize
+### -field OutRespBufferSize
 
 The size, in bytes, of the data that was actually retrieved.
 
 
-#### - RespBuffer
+### -field RespBuffer
 
 The results of the common transport command.
 

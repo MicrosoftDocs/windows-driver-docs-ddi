@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bfac8f91-2367-4194-8e98-e274025c049a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveComplete method, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, IRemoteTargetCallbackRemoval, OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval interface
+ms.keywords: IRemoteTargetCallbackRemoval, OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveComplete method, umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, OnRemoteTargetRemoveComplete method, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void OnRemoteTargetRemoveComplete(
 
 
 
-#### - pWdfRemoteTarget [in]
+### -param pWdfRemoteTarget [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a> interface of a remote target object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>.
 
@@ -105,9 +105,9 @@ For more information about the <b>OnRemoteTargetRemoveComplete</b> event callbac
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a>
 
-<a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a>
+
+<a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
 
  
 

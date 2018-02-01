@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b072b4ec-790f-454b-b94a-bfe44674f600
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasReadPropStr function [Imaging Devices], image.wiasreadpropstr, wiasReadPropStr, wiasFncs_b0756dcf-44dd-4a9f-ad9a-1edff1b8e6f6.xml, wiamdef/wiasReadPropStr
+ms.keywords: wiasReadPropStr, image.wiasreadpropstr, wiamdef/wiasReadPropStr, wiasReadPropStr function [Imaging Devices], wiasFncs_b0756dcf-44dd-4a9f-ad9a-1edff1b8e6f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasReadPropStr(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - propid
+### -param propid
 
 Specifies the property identifier.
 
 
-#### - pbstr [out]
+### -param pbstr [out]
 
 Pointer to a memory location that receives the first byte of the property's string value.
 
 
-#### - pbstrOld [out, optional]
+### -param pbstrOld [out, optional]
 
 Pointer to a memory location that receives the first byte of the property's previous value. If this information is not needed, set this parameter to <b>NULL</b>.
 
 
-#### - bMustExist
+### -param bMustExist
 
 Indicates whether the property must exist. If set to <b>TRUE</b>, the property must exist; if set to <b>FALSE</b>, the property does not have to exist.
 
@@ -113,15 +113,15 @@ When the minidriver has completed using the string it received from this functio
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9581e3af-f7f8-4365-8bb2-daedcb7a3280
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFNamedPropertyStore interface, GetNamedValue method, GetNamedValue method, GetNamedValue, GetNamedValue method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::GetNamedValue, wudfddi/IWDFNamedPropertyStore::GetNamedValue, umdf.iwdfnamedpropertystore_getnamedvalue, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, IWDFNamedPropertyStore, wdf.iwdfnamedpropertystore_getnamedvalue
+ms.keywords: wudfddi/IWDFNamedPropertyStore::GetNamedValue, wdf.iwdfnamedpropertystore_getnamedvalue, IWDFNamedPropertyStore, GetNamedValue, umdf.iwdfnamedpropertystore_getnamedvalue, GetNamedValue method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface, GetNamedValue method, IWDFNamedPropertyStore::GetNamedValue, GetNamedValue method, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT GetNamedValue(
 
 
 
-#### - pszName [in]
+### -param pszName [in]
 
 A pointer to a null-terminated string that contains the name of the property.
 
 
-#### - pv [out]
+### -param pv [out]
 
 A pointer to a variable that receives the value for the property. 
 
@@ -200,11 +200,11 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
 
 <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a>
+
+<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>
 
  
 

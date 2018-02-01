@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: baa0292a-b327-4fc0-9235-b1b977f93bf9
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, acpiioct/ACPI_ENUM_CHILD, _ACPI_ENUM_CHILD, ACPI_ENUM_CHILD, acpi.acpi_enum_child, *PACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices]
+ms.keywords: ACPI_ENUM_CHILD structure [ACPI Devices], _ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, ACPI_ENUM_CHILD, acpiioct/ACPI_ENUM_CHILD, *PACPI_ENUM_CHILD, acpi.acpi_enum_child
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _ACPI_ENUM_CHILD {
 
 
 
-#### - Flags
+### -field Flags
 
 A flag value that the ACPI driver sets to ACPI_OBJECT_HAS_CHILDREN if the enumerated child object has child objects; otherwise, the ACPI driver does not set this value.
 
 
-#### - NameLength
+### -field NameLength
 
 The number of characters, including a NULL-terminated character, in the ASCII string that the <b>Name</b> array contains.
 
 
-#### - Name
+### -field Name
 
 A NULL-terminated ASCII string that contains the path and name of an object in an ACPI namespace. For more information about the format of the path and name, see the Remarks section later in this topic.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69371414-9f4a-46a6-8622-5750db7a0c5b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGMWIDETAIL, *LPRILMSGMWIDETAIL, ntddrilapitypes/RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail
+ms.keywords: RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail, *LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, ntddrilapitypes/RILMSGMWIDETAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,30 +73,30 @@ typedef struct _RILMSGMWIDETAIL {
 
 
 
-#### - dwMwiType
+### -field dwMwiType
 
 
 
-#### - dwMwiPriority
+### -field dwMwiPriority
 
 
 
-#### - raToAddress
+### -field raToAddress
 
 
 
-#### - raFromAddress
+### -field raFromAddress
 
 
 
-#### - stDateSent
+### -field stDateSent
 
 
 
-#### - wszSubject
+### -field wszSubject
 
 
 
-#### - wszMessageId
+### -field wszMessageId
 
 

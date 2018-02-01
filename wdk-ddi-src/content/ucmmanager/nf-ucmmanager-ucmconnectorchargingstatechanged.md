@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorChargingStateChanged, ucmmanager/UcmConnectorChargingStateChanged, buses.ucmconnectorchargingstatechanged, UcmConnectorChargingStateChanged method [Buses]
+ms.keywords: UcmConnectorChargingStateChanged, ucmmanager/UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS UcmConnectorChargingStateChanged(
 
 
 
-#### - Connector [in]
+### -param Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 
 
-#### - ChargingState [in]
+### -param ChargingState [in]
 
 One of the <a href="..\ucmtypes\ne-ucmtypes-_ucm_charging_state.md">UCM_CHARGING_STATE</a>-typed flags that indicates the new charging state. 
 

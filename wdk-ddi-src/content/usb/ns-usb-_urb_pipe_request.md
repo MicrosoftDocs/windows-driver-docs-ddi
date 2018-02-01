@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 611bddf9-befd-4d2f-8e7d-7b5fe0744c03
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._urb_pipe_request, usb/_URB_PIPE_REQUEST, _URB_PIPE_REQUEST, _URB_PIPE_REQUEST structure [Buses], usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml
+ms.keywords: usb/_URB_PIPE_REQUEST, _URB_PIPE_REQUEST structure [Buses], _URB_PIPE_REQUEST, buses._urb_pipe_request, usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ struct _URB_PIPE_REQUEST {
 
 
 
-#### - Hdr
+### -field Hdr
 
 Pointer to the <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of the following: 
 <ul>
@@ -87,12 +87,12 @@ Pointer to the <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure 
  
 
 
-#### - PipeHandle
+### -field PipeHandle
 
 Specifies an opaque handle to the bulk or interrupt pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Do not use.
 
@@ -106,9 +106,9 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 

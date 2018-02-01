@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c34db7b-6153-40ec-9a9f-72b9c04c9f12
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_2c70707b-7052-4f5f-8715-e2e61a7ab267.xml, d3dkmthk/D3DKMTDestroyDCFromMemory, D3DKMTDestroyDCFromMemory function [Display Devices], D3DKMTDestroyDCFromMemory, display.d3dkmtdestroydcfrommemory
+ms.keywords: d3dkmthk/D3DKMTDestroyDCFromMemory, D3DKMTDestroyDCFromMemory function [Display Devices], display.d3dkmtdestroydcfrommemory, D3DKMTDestroyDCFromMemory, OpenGL_Functions_2c70707b-7052-4f5f-8715-e2e61a7ab267.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

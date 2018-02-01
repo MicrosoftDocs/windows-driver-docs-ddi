@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c433fe5-1782-4a00-aa7b-1558b0f56080
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storduid/PSTORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE, structs-general_0392587a-aab6-4f49-bb7e-3ebf8acc87bb.xml, _STORAGE_DEVICE_LAYOUT_SIGNATURE, storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE, storage.storage_device_layout_signature, STORAGE_DEVICE_LAYOUT_SIGNATURE structure [Storage Devices], PSTORAGE_DEVICE_LAYOUT_SIGNATURE structure pointer [Storage Devices]
+ms.keywords: storage.storage_device_layout_signature, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE, structs-general_0392587a-aab6-4f49-bb7e-3ebf8acc87bb.xml, storduid/PSTORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE structure pointer [Storage Devices], _STORAGE_DEVICE_LAYOUT_SIGNATURE, storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE structure [Storage Devices], STORAGE_DEVICE_LAYOUT_SIGNATURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,18 +74,8 @@ typedef struct _STORAGE_DEVICE_LAYOUT_SIGNATURE {
 
 
 
-#### - DeviceSpecific
+### -field DeviceSpecific
 
-
-
-#### MbrSignature
-
-The signature value, which uniquely identifies the disk.
-
-
-#### GptDiskId
-
-The GUID that uniquely identifies the disk.
 
 
 ### -field DeviceSpecific.MbrSignature
@@ -98,17 +88,17 @@ The signature value, which uniquely identifies the disk.
 The GUID that uniquely identifies the disk.
 
 
-#### - Version
+### -field Version
 
 The version of the DUID.
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this STORAGE_DEVICE_LAYOUT_SIGNATURE structure.
 
 
-#### - Mbr
+### -field Mbr
 
 A Boolean value that indicates whether the partition table of the disk is formatted with a master boot record (MBR). If <b>TRUE</b>, the partition table of the disk is formatted with a master boot record (MBR). If <b>FALSE</b>, the disk has a GUID partition table (GPT).
 

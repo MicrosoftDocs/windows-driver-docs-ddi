@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE220435-C8EC-408E-8177-A88FC858FA5A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_filter_parameters, NDIS_PD_FILTER_PARAMETERS, _NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_FILTER_PARAMETERS
+ms.keywords: NDIS_PD_FILTER_PARAMETERS, ndis/NDIS_PD_FILTER_PARAMETERS, netvista.ndis_pd_filter_parameters, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _NDIS_PD_FILTER_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_FILTER_PARAMETERS</b> structure. Set the members of this structure as follows:
 <ul>
@@ -86,52 +86,52 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_FILTER_PARAMETERS_REVISION_1</b></li>
 </ul>
 
-#### - Flags
+### -field Flags
 
 This member is reserved and must be set to 0 by the client. It is ignored by the provider.
 
 
-#### - MatchProfileId
+### -field MatchProfileId
 
 This value is used to determine if the HeaderGroupMatchArray members describe an NDIS_GFP_HEADER_GROUP_EXACT_MATCH array or a NDIS_GFP_HEADER_GROUP_WILDCARD_MATCH array.
 
 
-#### - Priority
+### -field Priority
 
 The priority of this filter.
 
 
-#### - CounterHandle
+### -field CounterHandle
 
 A handle to a counter.
 
 
-#### - TargetReceiveQueue
+### -field TargetReceiveQueue
 
 The target receive queue to filter.
 
 
-#### - RxFilterContext
+### -field RxFilterContext
 
 The context for the receive filter.
 
 
-#### - HeaderGroupMatchArray
+### -field HeaderGroupMatchArray
 
 An array of either NDIS_GFP_HEADER_GROUP_EXACT_MATCH or NDIS_GFP_HEADER_GROUP_WILDCARD_MATCH elements as determined by the MatchProfileId member.
 
 
-#### - HeaderGroupMatchArrayNumElements
+### -field HeaderGroupMatchArrayNumElements
 
 The number of elements for the HeaderGroupMatchArray.
 
 
-#### - HeaderGroupMatchArrayElementSize
+### -field HeaderGroupMatchArrayElementSize
 
 The size of each element for the HeaderGroupMatchArray.
 
 
-#### - HeaderGroupMatchArrayTotalSize
+### -field HeaderGroupMatchArrayTotalSize
 
 The total size of the HeaderGroupMatchArray.
 

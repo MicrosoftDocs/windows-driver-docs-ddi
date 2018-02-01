@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78a216c7-b208-49fb-bb8e-6758b3cb13ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_IN_GETDIRTYRECTS, IDARG_IN_GETDIRTYRECTS, display.idarg_in_getdirtyrects, IDARG_IN_GETDIRTYRECTS structure [Display Devices]
+ms.keywords: iddcx/IDARG_IN_GETDIRTYRECTS, IDARG_IN_GETDIRTYRECTS structure [Display Devices], IDARG_IN_GETDIRTYRECTS, display.idarg_in_getdirtyrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct IDARG_IN_GETDIRTYRECTS {
 
 
 
-#### - DirtyRectInCount
+### -field DirtyRectInCount
 
 
                      [in] Number of dirty rects in the <b>pDirtyRects</b> array
                  
 
 
-#### - pDirtyRects
+### -field pDirtyRects
 
 
                      [out] Pointer to the buffer where the OS can copy the dirty rects that indicate which parts of the surface have been changed since the last present.

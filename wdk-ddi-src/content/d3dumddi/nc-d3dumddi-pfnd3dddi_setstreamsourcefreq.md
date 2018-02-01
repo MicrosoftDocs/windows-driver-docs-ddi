@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY SetStreamSourceFreq(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -131,9 +131,9 @@ The driver ignores the setting of a stream's frequency divisor either for indexe
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourcefreq.md">D3DDDIARG_SETSTREAMSOURCEFREQ</a>
 

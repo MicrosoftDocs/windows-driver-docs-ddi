@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlcurrentoplockh, fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, FsRtlCurrentOplockH function [Installable File System Drivers], FsRtlCurrentOplockH, ntifs/FsRtlCurrentOplockH
+ms.keywords: ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, FsRtlCurrentOplockH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FsRtlCurrentOplockH(
 
 
 
-#### - Oplock [in]
+### -param Oplock [in]
 
 An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
 

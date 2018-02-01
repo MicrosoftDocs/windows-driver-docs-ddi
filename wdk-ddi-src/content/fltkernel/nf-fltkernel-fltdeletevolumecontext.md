@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dfb376af-9910-4708-9248-1104dfc4bdec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_a_to_d_261f2efb-7c2e-4f85-a75c-b5cf55236271.xml, ifsk.fltdeletevolumecontext, fltkernel/FltDeleteVolumeContext, FltDeleteVolumeContext function [Installable File System Drivers], FltDeleteVolumeContext
+ms.keywords: FltDeleteVolumeContext function [Installable File System Drivers], FltDeleteVolumeContext, ifsk.fltdeletevolumecontext, fltkernel/FltDeleteVolumeContext, FltApiRef_a_to_d_261f2efb-7c2e-4f85-a75c-b5cf55236271.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS FltDeleteVolumeContext(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 Opaque filter pointer for the caller. 
 
 
-#### - Volume [in]
+### -param Volume [in]
 
 Opaque volume pointer for the volume. 
 
 
-#### - OldContext [out, optional]
+### -param OldContext [out, optional]
 
 Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a> to release this context when it is no longer needed. 
 
@@ -137,15 +137,15 @@ To set a volume context, call <a href="..\fltkernel\nf-fltkernel-fltsetvolumecon
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumecontext.md">FltSetVolumeContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumecontext.md">FltSetVolumeContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
  
 

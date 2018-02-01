@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 08CCC4A8-2D85-436D-B18E-77C91A24F59C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, sensors.gnss_supl_hslp_config, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], *PGNSS_SUPL_HSLP_CONFIG, gnssdriver/GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG
+ms.keywords: PGNSS_SUPL_HSLP_CONFIG, gnssdriver/GNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnssdriver/PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG, sensors.gnss_supl_hslp_config, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
@@ -92,7 +92,7 @@ Version number.
  
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
@@ -103,14 +103,14 @@ Reserved for future use.
 
 
 
-#### - SuplHslp[MAX_SERVER_URL_NAME]
-
-This is the SUPL server address with TCP port. The server address will be a FQDN as indicated in the OMA SUPL specs.
-
-
 #### - SuplHslpFromImsi[MAX_SERVER_URL_NAME]
 
 This is the SUPL server address as derived from IMSI.
+
+
+#### - SuplHslp[MAX_SERVER_URL_NAME]
+
+This is the SUPL server address with TCP port. The server address will be a FQDN as indicated in the OMA SUPL specs.
 
 
 #### - Unused[512]

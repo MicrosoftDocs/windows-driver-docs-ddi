@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18ce5fc5-927c-4261-8966-bb12849b95c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, stream.ksp_timeformat, PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], ks/KSP_TIMEFORMAT, *PKSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices], ks/PKSP_TIMEFORMAT, PKSP_TIMEFORMAT, KSP_TIMEFORMAT
+ms.keywords: ks/KSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], PKSP_TIMEFORMAT, KSP_TIMEFORMAT, *PKSP_TIMEFORMAT, stream.ksp_timeformat, KSP_TIMEFORMAT structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 Specifies a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure.
 
 
-#### - SourceFormat
+### -field SourceFormat
 
 Pointer to a GUID that specifies the format to convert. If <b>NULL</b>, the current format is used.
 
 
-#### - TargetFormat
+### -field TargetFormat
 
 Pointer to a GUID that specifies the target format. If <b>NULL</b>, the current format is used.
 
 
-#### - Time
+### -field Time
 
 Specifies the time value to convert.
 

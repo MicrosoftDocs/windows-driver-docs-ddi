@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDRVPROCS structure pointer [Print Devices], print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, printoem/PDRVPROCS, DRVPROCS structure [Print Devices], print.drvprocs, PDRVPROCS, *PDRVPROCS, DRVPROCS, _DRVPROCS, printoem/DRVPROCS
+ms.keywords: print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, DRVPROCS, PDRVPROCS, printoem/PDRVPROCS, PDRVPROCS structure pointer [Print Devices], print.drvprocs, _DRVPROCS, printoem/DRVPROCS, DRVPROCS structure [Print Devices], *PDRVPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,30 +120,30 @@ typedef struct _DRVPROCS {
 
 
 
-#### - DrvWriteSpoolBuf
+### -field DrvWriteSpoolBuf
 
 
 
-#### - DrvXMoveTo
+### -field DrvXMoveTo
 
 
 
-#### - DrvYMoveTo
+### -field DrvYMoveTo
 
 
 
-#### - DrvGetDriverSetting
+### -field DrvGetDriverSetting
 
 
 
-#### - BGetStandardVariable
+### -field BGetStandardVariable
 
 
 
-#### - DrvUnidriverTextOut
+### -field DrvUnidriverTextOut
 
 
 
-#### - DrvWriteAbortBuf
+### -field DrvWriteAbortBuf
 
 

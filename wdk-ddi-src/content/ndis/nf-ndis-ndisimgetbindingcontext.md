@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fc0668b3-9242-4d30-9dc9-820f6d596d6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIMGetBindingContext, NdisIMGetBindingContext, intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, netvista.ndisimgetbindingcontext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisimgetbindingcontext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista], ndis/NdisIMGetBindingContext, NdisIMGetBindingContext, intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NDIS_HANDLE NdisIMGetBindingContext(
 
 
 
-#### - NdisBindingHandle [in]
+### -param NdisBindingHandle [in]
 
 The binding handle that the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function returned at
@@ -100,8 +100,8 @@ A protocol driver or intermediate driver can call
 
 Such a device context area was allocated and defined by the lower level NDIS intermediate driver and
     passed to NDIS in a call to the 
-    <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-    NdisIMInitializeDeviceInstanceEx</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+    NdisIMInitializeDeviceInstanceEx</a> function.
 
 All protocol drivers that call 
     <b>NdisIMGetBindingContext</b> can safely assume that the underlying intermediate driver allocated its
@@ -112,12 +112,12 @@ All protocol drivers that call
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
 
  
 

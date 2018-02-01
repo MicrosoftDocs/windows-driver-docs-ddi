@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f22be66a-1f1c-4999-a99e-9a8575313239
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POWER_THROTTLING_PROCESS_STATE, ntddk/POWER_THROTTLING_PROCESS_STATE, *PPOWER_THROTTLING_PROCESS_STATE, _POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture]
+ms.keywords: POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], kernel.power_throttling_process_state, _POWER_THROTTLING_PROCESS_STATE, *PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE, ntddk/POWER_THROTTLING_PROCESS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,19 +69,19 @@ typedef struct _POWER_THROTTLING_PROCESS_STATE {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure. Set to PROCESS_POWER_THROTTLING_CURRENT_VERSION.
 
 
-#### - ControlMask
+### -field ControlMask
 
 Flags that enable the caller to take control of the power throttling mechanism.
 <ul>
 <li>PROCESS_POWER_THROTTLING_EXECUTION_SPEED: Manages the execution speed of the process.</li>
 </ul>
 
-#### - StateMask
+### -field StateMask
 
 Flags that manage the power throttling mechanism on/off state.
 <ul>

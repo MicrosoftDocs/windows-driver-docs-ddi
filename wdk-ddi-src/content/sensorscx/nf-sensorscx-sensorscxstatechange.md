@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E6897994-51C7-4278-9CCE-9B7E9DD408D7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensorscxstatechange, SensorsCxStateChange function [Sensor Devices], sensorscx/SensorsCxStateChange, SensorsCxStateChange
+ms.keywords: SensorsCxStateChange, SensorsCxStateChange function [Sensor Devices], sensorscx/SensorsCxStateChange, sensors.sensorscxstatechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ FORCEINLINE VOID SensorsCxStateChange(
 
 
 
-#### - Sensor [in]
+### -param Sensor [in]
 
 Holds information on the sensor being managed by the driver.
 
 
-#### - State [in]
+### -param State [in]
 
 Holds information on the state of the sensor.
 

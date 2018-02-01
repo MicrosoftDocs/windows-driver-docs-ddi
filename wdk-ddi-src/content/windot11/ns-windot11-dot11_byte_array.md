@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2c67eaf-d39e-43c9-8e06-18f668c0baa3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_BYTE_ARRAY, Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, *PDOT11_BYTE_ARRAY, windot11/DOT11_BYTE_ARRAY
+ms.keywords: PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, DOT11_BYTE_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct DOT11_BYTE_ARRAY {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_BYTE_ARRAY structure. This member is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -87,11 +87,6 @@ The miniport driver must set the members of
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 #### Revision
@@ -108,19 +103,24 @@ This member must be set to
        sizeof(DOT11_BYTE_ARRAY).
 
 
-#### - uNumOfBytes
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uNumOfBytes
 
 The number of bytes in the 
      <b>ucBuffer</b> array.
 
 
-#### - uTotalNumOfBytes
+### -field uTotalNumOfBytes
 
 The maximum number of bytes that the 
      <b>ucBuffer</b> array requires.
 
 
-#### - ucBuffer
+### -field ucBuffer
 
 The list of variable-length structures.
 
@@ -198,12 +198,12 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
  
 

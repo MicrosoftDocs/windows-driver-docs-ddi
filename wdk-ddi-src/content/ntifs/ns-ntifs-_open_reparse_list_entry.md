@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A6D28F60-FA38-45EA-9E3C-D2E6F899333E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OPEN_REPARSE_POINT_TAG_ENCOUNTERED, ntifs/OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY structure [Installable File System Drivers], ifsk.open_reparse_list_entry_, OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT, ntifs/POPEN_REPARSE_LIST_ENTRY, *POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS, _OPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_VERSION_EX, POPEN_REPARSE_LIST_ENTRY structure pointer [Installable File System Drivers], OPEN_REPARSE_LIST_ENTRY
+ms.keywords: OPEN_REPARSE_POINT_VERSION_EX, ifsk.open_reparse_list_entry_, ntifs/POPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_TAG_ENCOUNTERED, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS, _OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY structure [Installable File System Drivers], OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS, ntifs/OPEN_REPARSE_LIST_ENTRY, *POPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _OPEN_REPARSE_LIST_ENTRY  {
 
 
 
-#### - OpenReparseListEntry
+### -field OpenReparseListEntry
 
 The entry in the open reparse list.
 
 
-#### - ReparseTag
+### -field ReparseTag
 
 The reparse tag that should be opened directly without returning <b>STATUS_REPARSE</b>. 
 
 
-#### - Flags
+### -field Flags
 
 Flags that control behavior when a reparse point is encountered on a directory that may be non-empty (one whose reparse tag is  recognized by <b>FsRtlIsNonEmptyDirectoryReparsePointAllowed</b>)
 .
@@ -154,17 +154,17 @@ Indicates that the fields of this structure are valid.
 </table> 
 <div class="alert"><b>Note</b>  When the <b>OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS</b>,  <b>OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS</b>, and <b>OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT</b> flags are used together at the same time, it indicates that the system is to reparse on any directory reparse point.</div><div> </div>
 
-#### - ReparseGuid
+### -field ReparseGuid
 
 The GUID of the reparse tag that should be opened directly without returning <b>STATUS_REPARSE</b>.
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - RemainingLength
+### -field RemainingLength
 
 The unprocessed path length when the reparse point was
     encountered.

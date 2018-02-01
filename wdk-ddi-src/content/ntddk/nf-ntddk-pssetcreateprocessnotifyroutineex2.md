@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pssetcreateprocessnotifyroutineex2, ntddk/PsSetCreateProcessNotifyRoutineEx2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], PsSetCreateProcessNotifyRoutineEx2
+ms.keywords: kernel.pssetcreateprocessnotifyroutineex2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], PsSetCreateProcessNotifyRoutineEx2, ntddk/PsSetCreateProcessNotifyRoutineEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS PsSetCreateProcessNotifyRoutineEx2(
 
 
 
-#### - NotifyType [in]
+### -param NotifyType [in]
 
 A <a href="..\ntddk\ne-ntddk-_pscreateprocessnotifytype.md">PSCREATEPROCESSNOTIFYTYPE</a>-type value that indicates the type of process notification.
 
 
-#### - NotifyInformation [in]
+### -param NotifyInformation [in]
 
 The address of the notification information for the specified type of process notification. If <i>NotifyType</i> is <b>PsCreateProcessNotifySubsystems</b>, <i>NotifyInformation</i> is a  <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> that specifies the entry point of the caller-supplied process-creation callback. 
 
 
-#### - Remove [in]
+### -param Remove [in]
 
 A Boolean value that specifies whether <b>PsSetCreateProcessNotifyRoutineEx2</b> will add or remove a specified routine from the list of callback routines. If this parameter is <b>TRUE</b>, the specified routine is removed from the list of callback routines. If this parameter is <b>FALSE</b>, the specified routine is added to the list of callback routines. If <i>Remove</i> is <b>TRUE</b>, the system also waits for all in-flight callback routines to complete before returning.
 

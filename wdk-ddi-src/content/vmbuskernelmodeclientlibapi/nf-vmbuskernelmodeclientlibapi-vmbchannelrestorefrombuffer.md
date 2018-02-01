@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5A063585-AC45-44DF-BE21-FA1BB6283E6F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelrestorefrombuffer, vmbuskernelmodeclientlibapi/VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer function [Network Drivers Starting with Windows Vista], VmbChannelRestoreFromBuffer
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelrestorefrombuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,18 +73,18 @@ NTSTATUS VmbChannelRestoreFromBuffer(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
  A handle for a channel.  
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer that contains previously saved state.
 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size, in bytes, of the buffer.
 

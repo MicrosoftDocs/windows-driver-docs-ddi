@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fad8ca8b-1854-4a71-a0f2-60c211ece022
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure [Buses], ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, buses.ucmtcpci_port_controller_identification
+ms.keywords: buses.ucmtcpci_port_controller_identification, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure [Buses], PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure pointer [Buses], _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,40 +77,40 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION {
 
 
 
-#### - Size
+### -field Size
 
 Size of this structure.
 
 
-#### - VendorId
+### -field VendorId
 
 Specifies the vendor identifier assigned by the USB specification committee.
                      
                  
 
 
-#### - ProductId
+### -field ProductId
 
 
                      Specifies the product identifier. This value is assigned by the manufacturer.
                  
 
 
-#### - DeviceId
+### -field DeviceId
 
 
                      The device ID for the USB Type-C port  controller.
                  
 
 
-#### - TypeCRevisionInBcd
+### -field TypeCRevisionInBcd
 
 
                      The revision ID for the USB Type-C port  controller.
                  
 
 
-#### - PDRevisionAndVersionInBcd
+### -field PDRevisionAndVersionInBcd
 
 
                      
@@ -118,7 +118,7 @@ Specifies the vendor identifier assigned by the USB specification committee.
                  
 
 
-#### - PDInterfaceRevisionAndVersionInBcd
+### -field PDInterfaceRevisionAndVersionInBcd
 
 
                      

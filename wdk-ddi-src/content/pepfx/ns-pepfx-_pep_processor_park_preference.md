@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AADA3F1E-DEE8-42E3-B0B8-9EA276F46F86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PROCESSOR_PARK_PREFERENCE, _PEP_PROCESSOR_PARK_PREFERENCE, pepfx/PEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PROCESSOR_PARK_PREFERENCE, kernel.pep_processor_park_preference
+ms.keywords: PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE, pepfx/PPEP_PROCESSOR_PARK_PREFERENCE, _PEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE, kernel.pep_processor_park_preference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _PEP_PROCESSOR_PARK_PREFERENCE {
 
 
 
-#### - Processor
+### -field Processor
 
 A <b>PEPHANDLE</b> value that identifies the processor. The PEP supplied this handle in a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
-#### - PoPreference
+### -field PoPreference
 
 The operating system's parking preference for this processor. For more information, see Remarks.
 
 
-#### - PepPreference
+### -field PepPreference
 
 The PEP's parking preference for this processor. For more information, see Remarks.
 
@@ -119,9 +119,9 @@ The following table lists the three values that are defined for the <b>PoPrefere
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
-
 <a href="..\pepfx\ns-pepfx-_pep_ppm_park_selection.md">PEP_PPM_PARK_SELECTION</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 

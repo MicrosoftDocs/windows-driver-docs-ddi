@@ -71,7 +71,7 @@ PMDL NetAllocateMdl(
 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size of the memory block, in bytes. When calling 
      <i>NetAllocateMdl</i>, NDIS passes in the requested size.
@@ -91,8 +91,8 @@ The size of the memory block, in bytes. When calling
 If the NDIS driver specifies an entry point for the 
     <i>NetAllocateMdl</i> function at the 
     <i>AllocateMdl</i> parameter of the 
-    <mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-    NdisRetreatNetBufferDataStart</b></mshelp:link> function, NDIS calls 
+    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+    NdisRetreatNetBufferDataStart</a> function, NDIS calls 
     <i>NetAllocateMdl</i> to allocate an MDL and memory.
 
 NDIS specifies the size of the associated memory block at 
@@ -111,10 +111,10 @@ NDIS calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-   NdisRetreatNetBufferDataStart</b></mshelp:link>
-
 <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+   NdisRetreatNetBufferDataStart</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da4cdaff-4418-4b88-bf47-5a1567e940e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2winfo, LPD3DHAL_DP2WINFO structure pointer [Display Devices], _D3DHAL_DP2WINFO, d3dhal/LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], *LPD3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml
+ms.keywords: d3dhal/LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO, display.d3dhal_dp2winfo, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, _D3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, D3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], LPD3DHAL_DP2WINFO structure pointer [Display Devices], *LPD3DHAL_DP2WINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,11 +68,11 @@ typedef struct _D3DHAL_DP2WINFO {
 
 
 
-#### - dvWNear
+### -field dvWNear
 
 
 
-#### - dvWFar
+### -field dvWFar
 
 Specify the near and far limit of the w-buffer, respectively. These members can be any valid floating-point values.
 
@@ -92,11 +92,11 @@ Video adapters that do not support this feature should ignore and skip over thes
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 D3DDP2OP_WINFO
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

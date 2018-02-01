@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b5f314c-6918-4cb8-a4e2-9ca0f4c5ea54
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FILE_ALL_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_ALL_INFORMATION, ntifs/PFILE_ALL_INFORMATION, kernel.file_all_information, ntifs/FILE_ALL_INFORMATION, kstruct_b_24c6b1da-76d1-46a9-838d-bb19af21d6f8.xml, PFILE_ALL_INFORMATION, *PFILE_ALL_INFORMATION, _FILE_ALL_INFORMATION, PFILE_ALL_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PFILE_ALL_INFORMATION, kernel.file_all_information, PFILE_ALL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_24c6b1da-76d1-46a9-838d-bb19af21d6f8.xml, FILE_ALL_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_ALL_INFORMATION, ntifs/FILE_ALL_INFORMATION, *PFILE_ALL_INFORMATION, ntifs/PFILE_ALL_INFORMATION, _FILE_ALL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _FILE_ALL_INFORMATION {
 
 
 
-#### - BasicInformation
+### -field BasicInformation
 
 Contains basic information about the file, which includes the file attributes and the file creation time. This member is a <a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a> structure. 
 
 
-#### - StandardInformation
+### -field StandardInformation
 
 Contains standard information about a file, which includes the file allocation size, the end-of-file offset, and whether the file is a directory. This member is a <a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a> structure. 
 
 
-#### - InternalInformation
+### -field InternalInformation
 
 Contains the 8-byte file reference number for the file. This member is a <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a> structure. 
 
 
-#### - EaInformation
+### -field EaInformation
 
 Specifies the size of the extended attributes of the file. This member is a <a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a> structure. 
 
 
-#### - AccessInformation
+### -field AccessInformation
 
 Specifies the client's access rights to the file. This member is a <a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a> structure. 
 
 
-#### - PositionInformation
+### -field PositionInformation
 
 Specifies the current file position. This member is a <a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a> structure. 
 
 
-#### - ModeInformation
+### -field ModeInformation
 
 Specifies the access mode in which the file was created or opened. This member is a <a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a> structure. 
 
 
-#### - AlignmentInformation
+### -field AlignmentInformation
 
 Specifies the device's memory address alignment requirement for data transfers. This member is a <a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a> structure. 
 
 
-#### - NameInformation
+### -field NameInformation
 
 Contains the file name. This member is a <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a> structure. This structure contains the first character in the file name string. The additional characters in the file name string immediately follow the structure. To accommodate the full file name, the buffer that is allocated to contain a <b>FILE_ALL_INFORMATION</b> structure must be large enough to contain both the structure and the part of the file name string that follows the structure. 
 
@@ -131,25 +131,25 @@ This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
 
 <a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
-
 <a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+
+<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
 
 <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 819261a5-bec0-49a8-942a-9313d3b793ca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_V1, _DXGK_VIDPN_INTERFACE_VERSION, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, DXGK_VIDPN_INTERFACE_VERSION, DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION, DXGK_VIDPN_INTERFACE_VERSION enumeration [Display Devices], DmEnums_69c4e28b-70fe-4576-b726-6fa6d78c97d0.xml, display.dxgk_vidpn_interface_version, DXGK_VIDPN_INTERFACE_VERSION_V1
+ms.keywords: d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, _DXGK_VIDPN_INTERFACE_VERSION, display.dxgk_vidpn_interface_version, DmEnums_69c4e28b-70fe-4576-b726-6fa6d78c97d0.xml, DXGK_VIDPN_INTERFACE_VERSION_V1, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION, DXGK_VIDPN_INTERFACE_VERSION enumeration [Display Devices], DXGK_VIDPN_INTERFACE_VERSION, DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _DXGK_VIDPN_INTERFACE_VERSION {
 
 
 
-#### - DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED
+### -field DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED
 
 Indicates that a variable of type DXGK_VIDPN_INTERFACE_VERSION has not yet been assigned a meaningful value.
 
 
-#### - DXGK_VIDPN_INTERFACE_VERSION_V1
+### -field DXGK_VIDPN_INTERFACE_VERSION_V1
 
 Indicates version 1 of the VidPN interface.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwfreevirtualmemory, ntifs/ZwFreeVirtualMemory, ntifs/NtFreeVirtualMemory, NtFreeVirtualMemory
+ms.keywords: kernel.zwfreevirtualmemory, ntifs/ZwFreeVirtualMemory, ZwFreeVirtualMemory, k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, ntifs/NtFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], NtFreeVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ NTSTATUS ZwFreeVirtualMemory(
 
 
 
-#### - ProcessHandle [in]
+### -param ProcessHandle [in]
 
 A handle for the process in whose context the pages to be freed reside. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
 
-#### - BaseAddress [in, out]
+### -param BaseAddress [in, out]
 
 A pointer to a variable that will receive the virtual address of the freed region of pages. 
 
 If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> when the region was reserved.
 
 
-#### - RegionSize [in, out]
+### -param RegionSize [in, out]
 
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
@@ -108,7 +108,7 @@ The MEM_DECOMMIT flag is set.
 </li>
 </ul>
 
-#### - FreeType [in]
+### -param FreeType [in]
 
 A bitmask that contains flags that describe the type of free operation that <b>ZwFreeVirtualMemory</b> will perform for the specified region of pages. The possible values are listed in the following table.
 <table>
@@ -273,9 +273,9 @@ For more information about memory management support for kernel-mode drivers, se
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

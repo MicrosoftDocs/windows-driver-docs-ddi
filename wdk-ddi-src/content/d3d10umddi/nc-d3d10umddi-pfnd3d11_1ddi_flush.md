@@ -75,7 +75,7 @@ BOOL APIENTRY* Flush(D3D11_1)(
 
 
 
-#### - FlushFlags [in]
+### -param FlushFlags [in]
 
  A value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_flush_flags.md">D3D11_1_DDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should  continue to submit command buffers if there have been no new commands.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PEXTCHKBOX, compstui/PEXTCHKBOX, EXTCHKBOX, compstui/EXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, _EXTCHKBOX, print.extchkbox, *PEXTCHKBOX, EXTCHKBOX structure [Print Devices], PEXTCHKBOX structure pointer [Print Devices]
+ms.keywords: PEXTCHKBOX, _EXTCHKBOX, compstui/PEXTCHKBOX, EXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, *PEXTCHKBOX, compstui/EXTCHKBOX, print.extchkbox, PEXTCHKBOX structure pointer [Print Devices], EXTCHKBOX structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _EXTCHKBOX {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Size, in bytes, of the EXTCHKBOX structure.
 
 
-#### - Flags
+### -field Flags
 
 Bit flags, which can be one of the following:
 
@@ -139,22 +139,22 @@ If set, CPSUI overlays the IDI_CPSUI_STOP icon onto the icon identified by the <
 If set, CPSUI overlays its IDI_CPSUI_WARNING icon onto the icon identified by the <b>IconID</b> member.
 
 
-#### - pTitle
+### -field pTitle
 
 String identifier, representing the check box title. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
 
 
-#### - pSeparator
+### -field pSeparator
 
 String identifier, representing a separator character to be displayed between the checked name string and the selected option string This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
 
 
-#### - pCheckedName
+### -field pCheckedName
 
 String identifier, representing the text to be displayed when the check box is checked. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
 
 
-#### - IconID
+### -field IconID
 
 One of the following icon identifiers:
 <ul>
@@ -169,12 +169,12 @@ An icon handle. If a handle is specified, ECBF_ICONID_AS_HICON must be set in th
 </ul>If this value is zero, an icon is not displayed.
 
 
-#### - wReserved
+### -field wReserved
 
 Reserved, must be initialized to zero.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Reserved, must be initialized to zero.
 

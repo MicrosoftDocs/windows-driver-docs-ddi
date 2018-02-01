@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], _D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS, display.d3dkmt_createdeviceflags, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml
+ms.keywords: D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], _D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS, OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, display.d3dkmt_createdeviceflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _D3DKMT_CREATEDEVICEFLAGS {
 
 
 
-#### - LegacyMode
+### -field LegacyMode
 
 A UINT value that specifies whether the device should imitate several behaviors of legacy devices (that is, from Microsoft DirectDraw through Microsoft Direct3D 9.0 device types).
 
@@ -83,21 +83,21 @@ When legacy mode is enabled, the video memory manager does not allow the device 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
 
-#### - RequestVSync
+### -field RequestVSync
 
 A UINT value that specifies whether the device requires vertical sync to operate. If <b>RequestVSync</b> is set, the operating system will enable vertical sync on the graphics hardware until the display device is released. 
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
 
 
-#### - DisableGpuTimeout
+### -field DisableGpuTimeout
 
 Supported in Windows 8 and later versions.A UINT value that specifies whether the device has disabled <a href="https://msdn.microsoft.com/f410eec7-026f-41e0-8c60-72f651659ead">Timeout Detection and Recovery (TDR)</a>.
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000004).
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of a 32-bit value to zeros.
 

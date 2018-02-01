@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3545AE6F-3D9E-4C3B-8C22-B823A18CC700
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddiarg_createvideoprocessoroutputview, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
+ms.keywords: display.d3d11_1ddiarg_createvideoprocessoroutputview, D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure pointer [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW {
 
 
 
-#### - hDrvResource
+### -field hDrvResource
 
 A handle to the video decoder output resource.
 
 
-#### - hDrvVideoProcessorEnum
+### -field hDrvVideoProcessorEnum
 
 A handle to the video processor enumeration.
 
 
-#### - MipSlice
+### -field MipSlice
 
 The identifier of the MIP-map slice.
 
 
-#### - FirstArraySlice
+### -field FirstArraySlice
 
 The identifier of the first array slice.
 
 
-#### - ArraySize
+### -field ArraySize
 
 The number of array slices for the texture.
 

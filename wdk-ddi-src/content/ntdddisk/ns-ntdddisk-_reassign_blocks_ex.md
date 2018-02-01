@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1BE17A0-39F1-496A-AD53-46A3F136D793
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PREASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], *PREASSIGN_BLOCKS_EX, storage.reassign_blocks_ex, _REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX
+ms.keywords: REASSIGN_BLOCKS_EX, _REASSIGN_BLOCKS_EX, storage.reassign_blocks_ex, ntdddisk/PREASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], REASSIGN_BLOCKS_EX structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _REASSIGN_BLOCKS_EX {
 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Count
+### -field Count
 
 Contains the number of blocks in the array pointed to by <b>BlockNumber</b> to reassign.
 
 
-#### - BlockNumber
+### -field BlockNumber
 
 Contains an array of block numbers corresponding to damaged blocks. These numbers will be reassigned to good blocks taken from the device's spare block pool.
 

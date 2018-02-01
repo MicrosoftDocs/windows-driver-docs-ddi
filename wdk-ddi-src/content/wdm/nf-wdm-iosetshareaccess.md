@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a686ea04-8a6b-4c4b-be06-73a75c4fc87d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetShareAccess, kernel.iosetshareaccess, wdm/IoSetShareAccess, k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, IoSetShareAccess routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoSetShareAccess, kernel.iosetshareaccess, k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID IoSetShareAccess(
 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the type of access requested for the <i>FileObject</i>. See <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a> for a complete list of system-defined <i>DesiredAccess </i>flags.
 
 
-#### - DesiredShareAccess [in]
+### -param DesiredShareAccess [in]
 
 Specifies the type of share access to be set for the file object. This value can be zero, or any combination of the following:
 
@@ -87,12 +87,12 @@ FILE_SHARE_WRITE
 FILE_SHARE_DELETE
 
 
-#### - FileObject [in, out]
+### -param FileObject [in, out]
 
 Pointer to the file object whose share access is being set or reset.
 
 
-#### - ShareAccess [out]
+### -param ShareAccess [out]
 
 Pointer to the SHARE_ACCESS structure associated with <i>FileObject</i>. Drivers should treat this structure as opaque. 
 
@@ -119,21 +119,21 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
 <a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
+
+<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
 
 <a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
 
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
-
-<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
 
 <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
  
 

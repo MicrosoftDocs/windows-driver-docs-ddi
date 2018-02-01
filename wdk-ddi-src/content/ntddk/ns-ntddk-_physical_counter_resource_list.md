@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8b22839-6a5d-48e2-a0e5-dae811d729ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml, *PPHYSICAL_COUNTER_RESOURCE_LIST, PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PHYSICAL_COUNTER_RESOURCE_LIST, _PHYSICAL_COUNTER_RESOURCE_LIST
+ms.keywords: PHYSICAL_COUNTER_RESOURCE_LIST, ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, *PPHYSICAL_COUNTER_RESOURCE_LIST, PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST, kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml, _PHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PHYSICAL_COUNTER_RESOURCE_LIST {
 
 
 
-#### - Count
+### -field Count
 
 The number of elements in the <b>Descriptors</b> array. 
 
 
-#### - Descriptors
+### -field Descriptors
 
 The first element in an array of <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structures. If the array contains more than one element, the remaining elements immediately follow the first element. 
 

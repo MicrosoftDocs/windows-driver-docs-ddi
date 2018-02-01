@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 262d511d-2846-415d-b1b8-2687f12f9f78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_architecture_info_data, D3D11_1DDI_ARCHITECTURE_INFO_DATA structure [Display Devices], D3D11_1DDI_ARCHITECTURE_INFO_DATA, d3d10umddi/D3D11_1DDI_ARCHITECTURE_INFO_DATA
+ms.keywords: d3d10umddi/D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA, display.d3d11_1ddi_architecture_info_data, D3D11_1DDI_ARCHITECTURE_INFO_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct D3D11_1DDI_ARCHITECTURE_INFO_DATA {
 
 
 
-#### - TileBasedDeferredRenderer
+### -field TileBasedDeferredRenderer
 
 Specifies whether a rendering device batches rendering commands and performs multipass rendering into tiles or bins over a render area. The value is <b>TRUE</b> if the rendering device batches rendering commands and <b>FALSE</b> otherwise.
 

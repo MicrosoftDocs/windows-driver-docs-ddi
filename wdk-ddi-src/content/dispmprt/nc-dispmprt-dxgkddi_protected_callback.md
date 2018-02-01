@@ -76,14 +76,14 @@ VOID DxgkProtectedCallback(
 
 
 
-#### - ProtectedCallbackContext [in]
+### -param ProtectedCallbackContext [in]
 
 
       A pointer to driver-defined information that was specified in a previous call to <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>.
      
 
 
-#### - ProtectionStatus [in]
+### -param ProtectionStatus [in]
 
 Status of the display adapter's protected state. If STATUS_SUCCESS, the adapter was successfully protected from access. A failure status code indicates that the adapter is not protected.
 

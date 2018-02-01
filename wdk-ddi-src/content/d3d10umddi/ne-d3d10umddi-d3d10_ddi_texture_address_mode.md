@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 96bbba03-97c1-43f2-bf3e-902de77d5eb9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10_ddi_texture_address_mode, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRROR, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, D3D10_DDI_TEXTURE_ADDRESS_MODE, D3D10_DDI_TEXTURE_ADDRESS_WRAP, D3D10_DDI_TEXTURE_ADDRESS_CLAMP, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MODE, D3D10_DDI_TEXTURE_ADDRESS_MIRROR, D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, UMDisplayDriver_Dx10param_Structs_11f66184-ba3e-4c13-869b-d810c97b1878.xml, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_BORDER, D3D10_DDI_TEXTURE_ADDRESS_BORDER, D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration [Display Devices], d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_CLAMP, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_WRAP
+ms.keywords: D3D10_DDI_TEXTURE_ADDRESS_MIRROR, D3D10_DDI_TEXTURE_ADDRESS_WRAP, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_BORDER, D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MODE, display.d3d10_ddi_texture_address_mode, D3D10_DDI_TEXTURE_ADDRESS_MODE, UMDisplayDriver_Dx10param_Structs_11f66184-ba3e-4c13-869b-d810c97b1878.xml, D3D10_DDI_TEXTURE_ADDRESS_BORDER, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_WRAP, D3D10_DDI_TEXTURE_ADDRESS_CLAMP, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRROR, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_CLAMP, D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum D3D10_DDI_TEXTURE_ADDRESS_MODE {
 
 
 
-#### - D3D10_DDI_TEXTURE_ADDRESS_WRAP
+### -field D3D10_DDI_TEXTURE_ADDRESS_WRAP
 
 Tile the texture at every integer junction. For example, for u values between 0 and 3, the texture is repeated three times; no mirroring is performed.
 
 
-#### - D3D10_DDI_TEXTURE_ADDRESS_MIRROR
+### -field D3D10_DDI_TEXTURE_ADDRESS_MIRROR
 
 Similar to D3D10_DDI_TEXTURE_ADDRESS_WRAP, except that the texture is flipped at every integer junction. For u values between 0 and 1, for example, the texture is addressed normally; between 1 and 2, the texture is flipped (mirrored); and between 2 and 3, the texture is normal again, and so on.
 
 
-#### - D3D10_DDI_TEXTURE_ADDRESS_CLAMP
+### -field D3D10_DDI_TEXTURE_ADDRESS_CLAMP
 
 Texture coordinates outside the range [0.0, 1.0] are set to the texture color at 0.0 or 1.0, respectively.
 
 
-#### - D3D10_DDI_TEXTURE_ADDRESS_BORDER
+### -field D3D10_DDI_TEXTURE_ADDRESS_BORDER
 
 Texture coordinates outside the range [0.0, 1.0] are set to the border color.
 
 
-#### - D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE
+### -field D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE
 
 Similar to D3D10_DDI_TEXTURE_ADDRESS_MIRROR and D3D10_DDI_TEXTURE_ADDRESS_CLAMP. Takes the absolute value of the texture coordinate (thus, mirroring around 0), and then clamps to the maximum value. The most common usage of D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE is for volume textures, where support for the full D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE texture-addressing mode is not necessary, but the data is symmetric around the one axis.
 

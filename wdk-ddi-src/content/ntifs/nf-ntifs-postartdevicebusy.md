@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3801fdf-c300-4863-afb9-49fad011dc4c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoStartDeviceBusy, kernel.postartdevicebusy, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, PoStartDeviceBusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoStartDeviceBusy, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.postartdevicebusy, wdm/PoStartDeviceBusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID PoStartDeviceBusy(
 
 
 
-#### - IdlePointer [in, out]
+### -param IdlePointer [in, out]
 
 A pointer to an idle counter. This is a pointer value that was previously returned by the <a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a> routine. Because <b>PoRegisterDeviceForIdleDetection</b> might return a <b>NULL</b> pointer, the caller must verify that the pointer is non-<b>NULL</b> before it calls <b>PoStartDeviceBusy</b>.
 
@@ -92,9 +92,9 @@ Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
-
 <a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
+
+<a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
 

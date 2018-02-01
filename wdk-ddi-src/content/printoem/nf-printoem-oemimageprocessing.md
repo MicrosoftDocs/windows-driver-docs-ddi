@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 965e17bc-2a38-4caa-a0dd-41ee1e1198f0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMImageProcessing function [Print Devices], OEMImageProcessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing, print.oemimageprocessing
+ms.keywords: printoem/OEMImageProcessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, OEMImageProcessing, print.oemimageprocessing, OEMImageProcessing function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,26 +72,26 @@ PBYTE APIENTRY OEMImageProcessing(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 
 
-#### - pSrcBitmap
+### -param pSrcBitmap
 
 
 
-#### - pBitmapInfoHeader
+### -param pBitmapInfoHeader
 
 
 
-#### - pColorTable
+### -param pColorTable
 
 
 
-#### - dwCallbackID
+### -param dwCallbackID
 
 
 
-#### - pIPParams
+### -param pIPParams
 
 

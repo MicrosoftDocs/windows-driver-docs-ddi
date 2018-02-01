@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6DA0F939-F4B3-4E66-A90C-5112AE6FEC8D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlShortToUChar, RtlShortToUChar function [Kernel-Mode Driver Architecture], RtlShortToUChar, kernel.rtlshorttouchar
+ms.keywords: RtlShortToUChar, RtlShortToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlShortToUChar, kernel.rtlshorttouchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlShortToUChar(
 
 
 
-#### - sOperand [in]
+### -param sOperand [in]
 
 The value to be converted.
 
 
-#### - pch [out]
+### -param pch [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

@@ -75,30 +75,30 @@ VOID NetProcessSGList(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to a 
      <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-#### - Reserved [in]
+### -param Reserved [in]
 
 Reserved for NDIS.
 
 
-#### - ScatterGatherListBuffer [in]
+### -param ScatterGatherListBuffer [in]
 
 A pointer to a 
      <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure.
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to a block of driver-allocated context information that contains information about the
      scatter gather list. The driver provided this context information in the 
      <b>Context</b> member of the 
-     <mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-     NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+     NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -114,10 +114,10 @@ None
 NDIS calls the 
     <i>NetProcessSGList</i> function that is specified at the 
     <b>ProcessSGListHandler</b> member of the 
-    <mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-    NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link> structure within the context of the 
-    <mshelp:link keywords="netvista.ndisbuildscattergatherlist" tabindex="0"><b>
-    NdisBuildScatterGatherList</b></mshelp:link> function.
+    <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure within the context of the 
+    <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">
+    NdisBuildScatterGatherList</a> function.
 
 The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for 
     <i>NetProcessSGList</i> in the NDIS_SCATTER_GATHER_LIST_PARAMETERS structure.
@@ -126,12 +126,12 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
+
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-   NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
 

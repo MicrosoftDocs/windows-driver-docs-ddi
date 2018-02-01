@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b5bfbb6d-4797-4e5f-bc66-398527b13d85
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadListEntry function [Windows Debugging], wdbgexts/ReadListEntry, debugger.readlistentry, WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, ReadListEntry
+ms.keywords: debugger.readlistentry, ReadListEntry, ReadListEntry function [Windows Debugging], wdbgexts/ReadListEntry, WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ __inline ULONG ReadListEntry(
 
 
 
-#### - Address
+### -param Address
 
 Specifies the address of the list entry in the target.  If the target uses 32-bit pointers, this should be the address of a LIST_ENTRY32 structure.  If the target uses 64-bit pointers, this should be the address of a LIST_ENTRY64 structure.
 
 
-#### - List
+### -param List
 
 Receives a LIST_ENTRY64 structure that contains pointers to the previous and next entries in the list.  If the target uses 32-bit pointers, they are sign-extended to 64 bits.
 

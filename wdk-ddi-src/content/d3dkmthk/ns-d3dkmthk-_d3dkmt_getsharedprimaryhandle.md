@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59c45a0e-54c3-4301-8e65-409d6c728325
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], _D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE, OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, display.d3dkmt_getsharedprimaryhandle, d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE
+ms.keywords: d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, _D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE, display.d3dkmt_getsharedprimaryhandle, D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_GETSHAREDPRIMARYHANDLE {
 
 
 
-#### - hAdapter
+### -field hAdapter
 
 [in] A handle to the graphics adapter that the primary surface is associated with.
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that displays the primary surface.
 
 
-#### - hSharedPrimary
+### -field hSharedPrimary
 
 [out] A handle to the global shared primary surface if a shared handle currently exists. The shared handle is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetsharedprimaryhandle.md">D3DKMTGetSharedPrimaryHandle</a> function.
 

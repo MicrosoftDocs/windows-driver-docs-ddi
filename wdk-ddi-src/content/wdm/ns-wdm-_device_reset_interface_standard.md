@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD8A7E50-664B-49B8-905B-A5BE02A48DCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], *PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, _DEVICE_RESET_INTERFACE_STANDARD, wdm/DEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PDEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], wdm/DEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], DEVICE_RESET_INTERFACE_STANDARD, _DEVICE_RESET_INTERFACE_STANDARD, *PDEVICE_RESET_INTERFACE_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,32 +74,32 @@ typedef struct _DEVICE_RESET_INTERFACE_STANDARD {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Version
+### -field Version
 
 The driver-defined interface version.
 
 
-#### - Context
+### -field Context
 
 A pointer to interface-specific context information
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
-#### - DeviceReset
+### -field DeviceReset
 
 A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a> routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
 
@@ -109,7 +109,7 @@ A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows
  
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved for future use.
 
@@ -125,17 +125,17 @@ For more information about the purpose of this interface, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
 
 <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
  
 

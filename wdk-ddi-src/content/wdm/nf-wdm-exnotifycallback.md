@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback
+ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], kernel.exnotifycallback, wdm/ExNotifyCallback, k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID ExNotifyCallback(
 
 
 
-#### - CallbackObject [in]
+### -param CallbackObject [in]
 
 A pointer to the callback object for which all registered callback routines will be called.
 
 
-#### - Argument1 [in, optional]
+### -param Argument1 [in, optional]
 
 Specifies the parameter that is passed as <i>Argument1</i> of the callback routine.
 
 
-#### - Argument2 [in, optional]
+### -param Argument2 [in, optional]
 
 Specifies the parameter that is passed as <i>Argument2</i> of the callback routine. 
 
@@ -107,9 +107,9 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. The system
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
-
 <a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
+<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
 
  
 

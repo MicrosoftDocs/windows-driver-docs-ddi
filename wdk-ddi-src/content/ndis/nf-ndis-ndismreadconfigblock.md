@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4b5e669-7abb-4c60-b2dc-249103d0b20c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismreadconfigblock, NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMReadConfigBlock
+ms.keywords: NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMReadConfigBlock, netvista.ndismreadconfigblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,25 +71,25 @@ NDIS_STATUS NdisMReadConfigBlock(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - BlockId [in]
+### -param BlockId [in]
 
 A ULONG value that specifies the identifier of the VF configuration block to be read. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the PF and VF miniport drivers.
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a caller-allocated buffer that will contain the requested configuration data.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to be read from the VF configuration block.
 

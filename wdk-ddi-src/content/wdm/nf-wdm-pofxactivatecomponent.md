@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxactivatecomponent, wdm/PoFxActivateComponent, PoFxActivateComponent, PO_FX_FLAG_BLOCKING, PO_FX_FLAG_ASYNC_ONLY, PoFxActivateComponent routine [Kernel-Mode Driver Architecture]
+ms.keywords: PO_FX_FLAG_BLOCKING, PoFxActivateComponent, wdm/PoFxActivateComponent, PO_FX_FLAG_ASYNC_ONLY, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID PoFxActivateComponent(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-#### - Component [in]
+### -param Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 The flags for the activation operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
@@ -149,15 +149,15 @@ PoFx notifies the driver when a transition between the active condition and idle
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
-
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
 
 <a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
  
 

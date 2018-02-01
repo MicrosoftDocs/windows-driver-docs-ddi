@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AC6434F5-0892-4426-98BB-BC02AD17917B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFeature method [Print Devices], printerextension/IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, IPrintSchemaCapabilities interface [Print Devices], GetFeature method, IPrintSchemaCapabilities, IPrintSchemaCapabilities::GetFeature, GetFeature, GetFeature method [Print Devices], IPrintSchemaCapabilities interface
+ms.keywords: GetFeature, printerextension/IPrintSchemaCapabilities::GetFeature, IPrintSchemaCapabilities::GetFeature, GetFeature method [Print Devices], IPrintSchemaCapabilities interface [Print Devices], GetFeature method, IPrintSchemaCapabilities, GetFeature method [Print Devices], IPrintSchemaCapabilities interface, print.iprintschemacapabilities_getfeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,18 +70,18 @@ HRESULT GetFeature(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The base  value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this &lt;psf:Feature name="psk:JobOutputBin"&gt;, showing  a base value of "JobOutputBin".
 
 
-#### - bstrNamespaceUri [in]
+### -param bstrNamespaceUri [in]
 
 The namespace URI value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this &lt;psf:Feature name="psk:JobOutputBin"&gt;, with a base name value of "JobOutputBin", and the namespace URI of the public Print Schema is "http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace that defines the feature.
 
 
-#### - ppFeature [out, retval]
+### -param ppFeature [out, retval]
 
 The returned feature.
 
@@ -106,9 +106,9 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
-
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
  
 

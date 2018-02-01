@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f38248fb-b2aa-417a-9d9b-36ff069bf78f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/PUSB_NODE_CONNECTION_NAME, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml, PUSB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], usbioctl/USB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, USB_NODE_CONNECTION_NAME structure [Buses], *PUSB_NODE_CONNECTION_NAME, _USB_NODE_CONNECTION_NAME
+ms.keywords: USB_NODE_CONNECTION_NAME structure [Buses], usbioctl/USB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], PUSB_NODE_CONNECTION_NAME, usbioctl/PUSB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml, *PUSB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, _USB_NODE_CONNECTION_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,26 +70,26 @@ typedef struct _USB_NODE_CONNECTION_NAME {
 
 
 
-#### - ConnectionIndex
+### -field ConnectionIndex
 
 A value that is greater than or equal to 1 that specifies the number of the port to which the hub is attached.
 
 
-#### - ActualLength
+### -field ActualLength
 
 The length, in bytes, of the attached hub's symbolic link.
 
 
-#### - NodeName
+### -field NodeName
 
 A Unicode symbolic link for the downstream hub that is attached to the port that is indicated by <b>ConnectionIndex</b>. If there is no attached device, the attached device does not have a symbolic link, or if the device is not a hub, <b>NodeName</b>[0] will contain a value of UNICODE_NULL.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_name.md">IOCTL_USB_GET_NODE_CONNECTION_NAME</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6397d96e-f3b1-4e2f-91ce-b123c9e8de81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.obreferenceobjectbyhandle, ObReferenceObjectByHandle, k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, wdm/ObReferenceObjectByHandle, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture]
+ms.keywords: ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], kernel.obreferenceobjectbyhandle, ObReferenceObjectByHandle, k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, wdm/ObReferenceObjectByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,28 +73,28 @@ NTSTATUS ObReferenceObjectByHandle(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Specifies an open handle for an object.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies the requested types of access to the object. The interpretation of this field is dependent on the object type. Do not use any generic access rights. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
 
 
-#### - ObjectType [in, optional]
+### -param ObjectType [in, optional]
 
 Pointer to the object type. <i>ObjectType</i> can be <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsProcessType</b>, <b>*PsThreadType</b>, <b>*SeTokenObjectType</b>, <b>*TmEnlistmentObjectType</b>, <b>*TmResourceManagerObjectType</b>, <b>*TmTransactionManagerObjectType</b>, or <b>*TmTransactionObjectType</b>.
 <div class="alert"><b>Note</b>  The <b>SeTokenObjectType</b> object type is supported starting with Windows XP.</div><div> </div>If <i>ObjectType</i> is not <b>NULL</b>, the operating system verifies that the supplied object type matches the object type of the object that <i>Handle</i> specifies.
 
 
-#### - AccessMode [in]
+### -param AccessMode [in]
 
 Specifies the access mode to use for the access check. It must be either <b>UserMode</b> or <b>KernelMode</b>. Drivers should always specify <b>UserMode</b> for handles they receive from user address space.
 
 
-#### - Object [out]
+### -param Object [out]
 
 Pointer to a variable that receives a pointer to the object's body. The following table contains the pointer types.
 <table>
@@ -207,7 +207,7 @@ PKTRANSACTION
 The structures that the pointer types reference are opaque, and drivers cannot access the structure members. Because the structures are opaque, PEPROCESS is equivalent to PKPROCESS, and PETHREAD is equivalent to PKTHREAD.
 <div class="alert"><b>Note</b>  The <b>SeTokenObjectType</b> object type is supported starting with Windows XP.</div><div> </div>
 
-#### - HandleInformation [out, optional]
+### -param HandleInformation [out, optional]
 
 Drivers set this to <b>NULL</b>.
 
@@ -273,13 +273,13 @@ If the call succeeds, a pointer to the object body is returned to the caller and
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
  
 

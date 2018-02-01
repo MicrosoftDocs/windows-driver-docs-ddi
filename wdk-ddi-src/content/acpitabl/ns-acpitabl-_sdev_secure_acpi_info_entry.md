@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: A3FDE9B0-DD6E-4FF5-AD9A-7DF7BF276EFA
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], *PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, _SDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY
+ms.keywords: SDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, _SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _SDEV_SECURE_ACPI_INFO_ENTRY {
 
 
 
-#### - Header
+### -field Header
 
 A header. 
 
 
-#### - IdentifierOffset
+### -field IdentifierOffset
 
 An identifier offset value.
 
 
-#### - IdentifierLength
+### -field IdentifierLength
 
 The length of the identifier.
 
 
-#### - VendorInfoOffset
+### -field VendorInfoOffset
 
 A vendor information offset value.
 
 
-#### - VendorInfoLength
+### -field VendorInfoLength
 
 The length of the vendor information. 
 

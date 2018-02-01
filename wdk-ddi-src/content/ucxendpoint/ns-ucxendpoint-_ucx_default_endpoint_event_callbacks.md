@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A22E96FC-E219-4F6C-B8AF-AC86FAD89543
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, *PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, buses._ucx_default_endpoint_event_callbacks, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses], ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
+ms.keywords: UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses], ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, *PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, buses._ucx_default_endpoint_event_callbacks, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of this structure.
 
 
-#### - EvtEndpointPurge
+### -field EvtEndpointPurge
 
 A pointer to a EVT_UCX_ENDPOINT_PURGE callback function.
 
 
-#### - EvtEndpointStart
+### -field EvtEndpointStart
 
 A pointer to a EVT_UCX_ENDPOINT_START callback function.
 
 
-#### - EvtEndpointAbort
+### -field EvtEndpointAbort
 
 A pointer to a EVT_UCX_ENDPOINT_ABORT callback function.
 
 
-#### - EvtEndpointOkToCancelTransfers
+### -field EvtEndpointOkToCancelTransfers
 
 A pointer to a EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function.
 
 
-#### - EvtDefaultEndpointUpdate
+### -field EvtDefaultEndpointUpdate
 
 A pointer to a EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Do not use.
 

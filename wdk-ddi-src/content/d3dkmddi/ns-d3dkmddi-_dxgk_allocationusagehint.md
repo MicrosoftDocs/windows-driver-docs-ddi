@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04cceb5e-d185-4f43-a627-71a61a45b8aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], DXGK_ALLOCATIONUSAGEHINT, _DXGK_ALLOCATIONUSAGEHINT, DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, display.dxgk_allocationusagehint
+ms.keywords: display.dxgk_allocationusagehint, _DXGK_ALLOCATIONUSAGEHINT, DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], DXGK_ALLOCATIONUSAGEHINT, d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,25 +68,25 @@ typedef struct _DXGK_ALLOCATIONUSAGEHINT {
 
 
 
-#### - Version
+### -field Version
 
 [out] A positive integer that indicates the version of the allocation.
 
 
-#### - v1
+### -field v1
 
 [out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusageinfo1.md">DXGK_ALLOCATIONUSAGEINFO1</a> structure that describes how an allocation can be used in direct memory access (DMA) buffering.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusageinfo1.md">DXGK_ALLOCATIONUSAGEINFO1</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
  
 

@@ -72,7 +72,7 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 

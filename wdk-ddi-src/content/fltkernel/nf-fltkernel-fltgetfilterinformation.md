@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d3ffe93c-4fe8-4a2e-9448-8488d2ff909e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetFilterInformation, FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation routine [Installable File System Drivers], ifsk.fltgetfilterinformation, FltGetFilterInformation
+ms.keywords: FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation, FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS FltGetFilterInformation(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 Opaque filter pointer for the caller. 
 
 
-#### - InformationClass [in]
+### -param InformationClass [in]
 
 Type of information requested. This parameter can have one of the following values. 
 <table>
@@ -117,17 +117,17 @@ The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="..\fltu
 </table> 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter. 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value. 
 
 
-#### - BytesReturned [out]
+### -param BytesReturned [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltGetFilterInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -169,9 +169,9 @@ An invalid value was specified for the <i>InformationClass</i> parameter. For ex
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
@@ -179,9 +179,9 @@ An invalid value was specified for the <i>InformationClass</i> parameter. For ex
 
 <a href="..\fltkernel\nf-fltkernel-fltgetinstanceinformation.md">FltGetInstanceInformation</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
 
  
 

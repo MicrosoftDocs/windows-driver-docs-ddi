@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d20349-4039-4a5d-a1fd-0488148c623d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_CREATEDEVICE, _DXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, DXGKARG_CREATEDEVICE, *INOUT_PDXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE structure [Display Devices], display.dxgkarg_createdevice
+ms.keywords: DXGKARG_CREATEDEVICE structure [Display Devices], d3dkmddi/DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, *INOUT_PDXGKARG_CREATEDEVICE, display.dxgkarg_createdevice, _DXGKARG_CREATEDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,31 +75,31 @@ typedef struct _DXGKARG_CREATEDEVICE {
 
 
 
-#### - Flags
+### -field Flags
 
  A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a> structure that identifies how to create the device.
 
 
-#### - pInfo
+### -field pInfo
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a> structure that contains parameters that the DirectX graphics subsystem requires from the display miniport driver.
 
 
-#### - hDevice
+### -field hDevice
 
 A handle to the graphics context device. On input to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function, <b>hDevice</b> specifies the handle that the driver should use when it calls back into the Microsoft DirectX graphics kernel subsystem. 
 
 The driver generates a unique handle and passes it back to the DirectX graphics subsystem. On output from the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function, <b>hDevice</b> specifies the handle that the DirectX graphics subsystem should use in subsequent driver calls to identify the device.
 
 
-#### - Pasid
+### -field Pasid
 
 The owner process PASID for a support vector machine GPU.
 
 Supported starting with Windows 10.
 
 
-#### - hKmdProcess
+### -field hKmdProcess
 
 A handle to the corresponding kernel mode driver process object.
 

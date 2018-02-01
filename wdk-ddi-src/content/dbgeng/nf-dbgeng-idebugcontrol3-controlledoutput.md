@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, IDebugControl3 interface [Windows Debugging], ControlledOutput method, IDebugControl3, ControlledOutput method [Windows Debugging], IDebugControl interface, ControlledOutput method [Windows Debugging], dbgeng/IDebugControl::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl2 interface, IDebugControl3::ControlledOutput, ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, ControlledOutput method [Windows Debugging], IDebugControl3 interface, IDebugControl2::ControlledOutput, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl2 interface [Windows Debugging], ControlledOutput method, debugger.controlledoutput, IDebugControl::ControlledOutput
+ms.keywords: IDebugControl::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, IDebugControl2::ControlledOutput, ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl3 interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, IDebugControl3, ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, debugger.controlledoutput, ControlledOutput method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT ControlledOutput(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies an output control that determines which of the clients' output callbacks will receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-#### - Mask [in]
+### -param Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-#### - Format [in]
+### -param Format [in]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -465,17 +465,17 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 

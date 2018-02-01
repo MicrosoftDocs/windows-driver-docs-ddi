@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 835DC1E4-2D49-4D43-A545-5D4288412EC6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY_INVALID, POS_CX_EVENT_PRIORITY_CONTROL, pos.pos_cx_event_priority, poscx/POS_CX_EVENT_PRIORITY_INVALID, POS_CX_EVENT_PRIORITY enumeration, poscx/POS_CX_EVENT_PRIORITY_CONTROL, poscx/POS_CX_EVENT_PRIORITY_DATA, _POS_CX_EVENT_PRIORITY, poscx/POS_CX_EVENT_PRIORITY
+ms.keywords: pos.pos_cx_event_priority, _POS_CX_EVENT_PRIORITY, poscx/POS_CX_EVENT_PRIORITY_DATA, poscx/POS_CX_EVENT_PRIORITY_CONTROL, POS_CX_EVENT_PRIORITY_INVALID, POS_CX_EVENT_PRIORITY_DATA, poscx/POS_CX_EVENT_PRIORITY_INVALID, poscx/POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY enumeration, POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _POS_CX_EVENT_PRIORITY {
 
 
 
-#### - POS_CX_EVENT_PRIORITY_INVALID
+### -field POS_CX_EVENT_PRIORITY_INVALID
 
 Invalid priority. This value should not be used.
 
 
-#### - POS_CX_EVENT_PRIORITY_DATA
+### -field POS_CX_EVENT_PRIORITY_DATA
 
 Data level priority delivered in FIFO.
 
 
-#### - POS_CX_EVENT_PRIORITY_CONTROL
+### -field POS_CX_EVENT_PRIORITY_CONTROL
 
 Control level priority delivered in FIFO.
 

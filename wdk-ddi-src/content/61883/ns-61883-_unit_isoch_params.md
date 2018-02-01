@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1c661a35-8209-49c5-9987-b4b6e9e710b4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_UNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, IEEE.unit_isoch_params, *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], 61883/UNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], 61883/PUNIT_ISOCH_PARAMS"
+ms.keywords: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], UNIT_ISOCH_PARAMS, 61883/PUNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], IEEE.unit_isoch_params, _UNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _UNIT_ISOCH_PARAMS {
 
 
 
-#### - RX_NumPackets
+### -field RX_NumPackets
 
 The number of isochronous packets per descriptor to be received.
 
 
-#### - RX_NumDescriptors
+### -field RX_NumDescriptors
 
 The number of descriptors used for receiving isochronous data.
 
 
-#### - TX_NumPackets
+### -field TX_NumPackets
 
 The number of isochronous packets per descriptor to be transmitted.
 
 
-#### - TX_NumDescriptors
+### -field TX_NumDescriptors
 
 The number of descriptors used for transmitting isochronous data.
 

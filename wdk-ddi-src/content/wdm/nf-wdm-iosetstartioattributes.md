@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], IoSetStartIoAttributes, k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes
+ms.keywords: kernel.iosetstartioattributes, k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, wdm/IoSetStartIoAttributes, IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID IoSetStartIoAttributes(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object for the driver's device.
 
 
-#### - DeferredStartIo [in]
+### -param DeferredStartIo [in]
 
 If <b>TRUE</b>, the I/O manager will defer any call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine while the driver is already inside the routine. In particular, if the <i>StartIo</i> routine calls <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>, the <i>StartIo</i> routine will not be called again until the current invocation completes. The default is <b>FALSE</b>.
 
 
-#### - NonCancelable [in]
+### -param NonCancelable [in]
 
 If <b>TRUE</b>, the IRP cannot be canceled once it has been dequeued by a call to <b>IoStartNextPacket</b>. The default is <b>FALSE</b>. Drivers that set this member to <b>FALSE</b> must synchronize their IRP handling with the cancel spin lock.
 
@@ -94,9 +94,9 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
-
 <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
 
  
 

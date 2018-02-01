@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ddcb8222-808b-4dfe-9303-a588b3522ebe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_createallocationflags, D3DKMT_CREATEALLOCATIONFLAGS structure [Display Devices], _D3DKMT_CREATEALLOCATIONFLAGS, D3DKMT_CREATEALLOCATIONFLAGS, OpenGL_Structs_0b22984b-feef-4975-b7d9-596427c82b2b.xml, d3dkmthk/D3DKMT_CREATEALLOCATIONFLAGS
+ms.keywords: D3DKMT_CREATEALLOCATIONFLAGS structure [Display Devices], D3DKMT_CREATEALLOCATIONFLAGS, OpenGL_Structs_0b22984b-feef-4975-b7d9-596427c82b2b.xml, d3dkmthk/D3DKMT_CREATEALLOCATIONFLAGS, _D3DKMT_CREATEALLOCATIONFLAGS, display.d3dkmt_createallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _D3DKMT_CREATEALLOCATIONFLAGS {
 
 
 
-#### - CreateResource
+### -field CreateResource
 
 A UINT value that specifies whether to create a device-specific resource.
 
@@ -90,7 +90,7 @@ If you set <b>CreateShared</b>, you must also set <b>CreateResource</b>.
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
 
-#### - CreateShared
+### -field CreateShared
 
 A UINT value that specifies whether to create a resource shared across all devices. 
 
@@ -101,21 +101,21 @@ For more information on using <b>CreateShared</b>, see the Remarks section.
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
 
 
-#### - NonSecure
+### -field NonSecure
 
 A UINT value that specifies whether to create an allocation that can be opened by any process. If <b>NonSecure</b> is set, secure and non-secure processes can open the allocation.
 
 Setting this member is equivalent to setting the third bit of a 32-bit value (0x00000004).
 
 
-#### - CreateProtected
+### -field CreateProtected
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the fourth bit of a 32-bit value (0x00000008).
 
 Supported starting with Windows 7.
 
 
-#### - RestrictSharedAccess
+### -field RestrictSharedAccess
 
 A UINT value that specifies whether to create a resource shared across all devices but with some restrictions.
 
@@ -124,14 +124,14 @@ Setting this member is equivalent to setting the fifth bit of a 32-bit value (0x
 Supported starting with Windows 7.
 
 
-#### - ExistingSysMem
+### -field ExistingSysMem
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the sixth bit of a 32-bit value (0x00000020).
 
 Supported starting with Windows 7.
 
 
-#### - NtSecuritySharing
+### -field NtSecuritySharing
 
 A UINT value that specifies whether the allocation is shared with an NT handle, meaning that it  does not have a global <b>D3DKMT_HANDLE</b> kernel-mode handle to the resource.
 
@@ -143,7 +143,7 @@ Setting this member is equivalent to setting the seventh bit of a 32-bit value (
 Supported starting with Windows 8.
 
 
-#### - ReadOnly
+### -field ReadOnly
 
 A UINT value that specifies whether the allocation can only be read from.
 
@@ -152,21 +152,21 @@ Setting this member is equivalent to setting the eighth bit of a 32-bit value (0
 Supported starting with Windows 8.
 
 
-#### - CreateWriteCombined
+### -field CreateWriteCombined
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the seventh bit of a 32-bit value (0x00000100).
 
 Supported starting with Windows 8.
 
 
-#### - CreateCached
+### -field CreateCached
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the eighth bit of a 32-bit value (0x00000200).
 
 Supported starting with Windows 8.
 
 
-#### - SwapChainBackBuffer
+### -field SwapChainBackBuffer
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the seventh bit of a 32-bit value (0x00000100).
 
@@ -208,7 +208,7 @@ Supported starting with Windows 8.
  
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 22 bits (0xFFFFFC00) of a 32-bit value to zeros.
 
@@ -232,9 +232,9 @@ Drivers should follow these guidelines on <b>D3DKMT_CREATEALLOCATIONFLAGS</b> sh
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocation.md">D3DKMT_CREATEALLOCATION</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a>
 
  
 

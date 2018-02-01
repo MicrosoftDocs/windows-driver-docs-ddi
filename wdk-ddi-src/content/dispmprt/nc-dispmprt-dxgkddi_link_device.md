@@ -72,17 +72,17 @@ NTSTATUS DxgkDdiLinkDevice(
 
 
 
-#### - PhysicalDeviceObject [in]
+### -param PhysicalDeviceObject [in]
 
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
 
-#### - MiniportDeviceContext [in]
+### -param MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-#### - LinkedDevice [in, out]
+### -param LinkedDevice [in, out]
 
 A pointer to a <a href="..\dispmprt\ns-dispmprt-_linked_device.md">LINKED_DEVICE</a> structure that contains information on the linked display adapter configuration.
 
@@ -111,9 +111,9 @@ Plug and Play or power events cause the leading linked adapter to power up or st
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
 <a href="..\dispmprt\ns-dispmprt-_linked_device.md">LINKED_DEVICE</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
  
 

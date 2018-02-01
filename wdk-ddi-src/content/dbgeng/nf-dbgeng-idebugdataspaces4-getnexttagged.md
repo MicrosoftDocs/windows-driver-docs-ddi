@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 529ef33a-adad-4242-96a8-01cdd273cc35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces3::GetNextTagged, debugger.getnexttagged, IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method, GetNextTagged method [Windows Debugging], IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, GetNextTagged, IDebugDataSpaces3::GetNextTagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::GetNextTagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface
+ms.keywords: debugger.getnexttagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3::GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface, GetNextTagged, dbgeng/IDebugDataSpaces3::GetNextTagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, IDebugDataSpaces4, IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetNextTagged(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Specifies the handle identifying the enumeration.  This is the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>.
 
 
-#### - Tag [out]
+### -param Tag [out]
 
 Receives the GUID identifying the tagged data.  The data may be retrieved by passing this GUID to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>.
 
 
-#### - Size [out]
+### -param Size [out]
 
 Receives the size of the data identified by the GUID <i>Tag</i>.
 
@@ -122,13 +122,13 @@ There are no more blocks of tagged data available in this enumeration.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>
 
  
 

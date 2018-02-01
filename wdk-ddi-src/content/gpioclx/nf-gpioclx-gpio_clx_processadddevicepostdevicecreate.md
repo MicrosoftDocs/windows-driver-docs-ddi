@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 4B88820F-32B9-4AA2-867A-316A3796BE86
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO.gpio_clx_processadddevicepostdevicecreate
+ms.keywords: GPIO_CLX_ProcessAddDevicePostDeviceCreate, gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO.gpio_clx_processadddevicepostdevicecreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS GPIO_CLX_ProcessAddDevicePostDeviceCreate(
 
 
 
-#### - Driver [in]
+### -param Driver [in]
 
 A WDFDRIVER handle to the framework driver object for the GPIO controller driver.
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the GPIO controller. The caller obtained this handle from the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call that created the device object.
 
@@ -138,9 +138,9 @@ For a code example that contains a call to <b>GPIO_CLX_ProcessAddDevicePostDevic
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439487">GPIO_CLX_ProcessAddDevicePreDeviceCreate</a>
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439487">GPIO_CLX_ProcessAddDevicePreDeviceCreate</a>
 
  
 

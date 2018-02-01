@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, debugger.executecommandfilewide, ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4::ExecuteCommandFileWide, IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, IDebugControl4, dbgeng/IDebugControl4::ExecuteCommandFileWide
+ms.keywords: ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, ExecuteCommandFileWide, IDebugControl4::ExecuteCommandFileWide, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT ExecuteCommandFileWide(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies where to send the output of the command.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-#### - CommandFile [in]
+### -param CommandFile [in]
 
 Specifies the name of the file that contains the commands to execute.  This file is opened for reading and its contents are interpreted as if they had been typed into the debugger console.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies execution options for the command.  The default options are to log the command but not to send it to the output.  For details about the values that <i>Flags</i> can take, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>.
 
@@ -117,9 +117,9 @@ This method reads the specified file and execute the commands one line at a time
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
 
  
 

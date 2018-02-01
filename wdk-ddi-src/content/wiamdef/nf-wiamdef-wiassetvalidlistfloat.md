@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e1a833aa-fc8b-4506-aba8-ba6dc9a375ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasSetValidListFloat, image.wiassetvalidlistfloat, wiasSetValidListFloat function [Imaging Devices], wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml
+ms.keywords: wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml, image.wiassetvalidlistfloat, wiamdef/wiasSetValidListFloat, wiasSetValidListFloat function [Imaging Devices], wiasSetValidListFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasSetValidListFloat(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - propid
+### -param propid
 
 Specifies the identifier of the property to be updated.
 
 
-#### - ulCount
+### -param ulCount
 
 Specifies the number of items in the <i>plValues</i> array.
 
 
-#### - fNom
+### -param fNom
 
 Specifies the property's nominal value.
 
 
-#### - pfValues [in]
+### -param pfValues [in]
 
 Pointer to the first element of an array of valid property values.
 
@@ -106,15 +106,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
 

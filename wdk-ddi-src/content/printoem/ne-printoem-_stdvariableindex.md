@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 02E54636-0B8D-40FE-8405-0FB130139828
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SVI_MAX, SVI_DESTXREL, printoem/SVI_FONTUNDERLINE, printoem/SVI_DESTYREL, SVI_NEXTFONTID, printoem/SVI_COPIES, printoem/SVI_GRAPHICSXRES, printoem/SVI_DESTXREL, printoem/SVI_GREENVALUE, print.stdvariableindex, printoem/SVI_PAGENUMBER, SVI_HEIGHTINPIXELS, SVI_PHYSPAPERLENGTH, printoem/SVI_DESTX, SVI_DESTX, SVI_CURSORORIGINY, printoem/SVI_PHYSPAPERLENGTH, SVI_PATTERNBRUSH_ID, printoem/SVI_TEXTXRES, printoem/SVI_PATTERNBRUSH_TYPE, _STDVARIABLEINDEX, STDVARIABLEINDEX, SVI_NUMDATABYTES, printoem/SVI_NEXTGLYPH, SVI_NEXTGLYPH, SVI_CURRENTPALETTEINDEX, printoem/SVI_RECTYSIZE, SVI_PATTERNBRUSH_SIZE, SVI_CURRENTFONTID, SVI_DESTY, printoem/SVI_LINEFEEDSPACING, printoem/SVI_PRINTDIRECTION, SVI_GRAYPERCENT, printoem/SVI_NUMDATABYTES, SVI_FONTBOLD, printoem/SVI_PHYSPAPERWIDTH, printoem/SVI_FONTBOLD, SVI_PATTERNBRUSH_TYPE, printoem/SVI_CURSORORIGINX, SVI_PRINTDIRECTION, printoem/SVI_PATTERNBRUSH_SIZE, printoem/SVI_MAX, printoem/SVI_GRAYPERCENT, printoem/SVI_CURRENTFONTID, printoem/SVI_HEIGHTINPIXELS, SVI_BLUEVALUE, printoem/SVI_FONTWIDTH, printoem/SVI_FONTSTRIKETHRU, printoem/SVI_FONTHEIGHT, SVI_ROP3, SVI_PALETTEINDEXTOPROGRAM, SVI_PHYSPAPERWIDTH, SVI_REDVALUE, SVI_FONTSTRIKETHRU, SVI_DESTYREL, printoem/SVI_NEXTFONTID, SVI_TEXTXRES, printoem/SVI_FONTITALIC, printoem/SVI_CURSORORIGINY, printoem/SVI_TEXTYRES, printoem/SVI_ROP3, SVI_GRAPHICSYRES, printoem/SVI_REDVALUE, printoem/SVI_PATTERNBRUSH_ID, printoem/SVI_DESTY, SVI_CURSORORIGINX, SVI_RECTXSIZE, printoem/STDVARIABLEINDEX, SVI_FONTUNDERLINE, SVI_PAGENUMBER, SVI_FONTMAXWIDTH, SVI_WIDTHINBYTES, printoem/SVI_PALETTEINDEXTOPROGRAM, STDVARIABLEINDEX enumeration [Print Devices], printoem/SVI_FONTMAXWIDTH, SVI_TEXTYRES, SVI_FONTHEIGHT, SVI_GREENVALUE, printoem/SVI_RECTXSIZE, SVI_GRAPHICSXRES, printoem/SVI_GRAPHICSYRES, printoem/SVI_WIDTHINBYTES, SVI_LINEFEEDSPACING, SVI_RECTYSIZE, printoem/SVI_CURRENTPALETTEINDEX, SVI_FONTWIDTH, printoem/SVI_BLUEVALUE, SVI_COPIES, SVI_FONTITALIC
+ms.keywords: SVI_LINEFEEDSPACING, SVI_CURSORORIGINX, printoem/SVI_FONTITALIC, SVI_FONTITALIC, printoem/SVI_DESTYREL, SVI_PAGENUMBER, SVI_CURRENTPALETTEINDEX, SVI_REDVALUE, printoem/SVI_PATTERNBRUSH_TYPE, SVI_FONTUNDERLINE, printoem/SVI_PHYSPAPERWIDTH, SVI_FONTBOLD, printoem/SVI_PATTERNBRUSH_ID, printoem/SVI_CURSORORIGINX, printoem/SVI_REDVALUE, SVI_TEXTYRES, SVI_PATTERNBRUSH_ID, printoem/SVI_FONTWIDTH, printoem/SVI_TEXTXRES, printoem/SVI_NEXTFONTID, SVI_TEXTXRES, SVI_GRAPHICSYRES, SVI_FONTMAXWIDTH, SVI_COPIES, SVI_ROP3, SVI_PATTERNBRUSH_TYPE, printoem/SVI_GRAPHICSXRES, SVI_CURSORORIGINY, printoem/SVI_GRAPHICSYRES, printoem/SVI_FONTHEIGHT, printoem/SVI_WIDTHINBYTES, SVI_DESTX, printoem/SVI_PRINTDIRECTION, printoem/SVI_FONTBOLD, SVI_PALETTEINDEXTOPROGRAM, SVI_PHYSPAPERWIDTH, SVI_NEXTGLYPH, SVI_RECTXSIZE, SVI_MAX, SVI_PHYSPAPERLENGTH, printoem/SVI_CURRENTPALETTEINDEX, printoem/SVI_GRAYPERCENT, printoem/SVI_FONTMAXWIDTH, SVI_FONTWIDTH, printoem/SVI_FONTSTRIKETHRU, SVI_RECTYSIZE, print.stdvariableindex, printoem/SVI_LINEFEEDSPACING, SVI_PRINTDIRECTION, printoem/SVI_NUMDATABYTES, printoem/SVI_PALETTEINDEXTOPROGRAM, printoem/SVI_CURSORORIGINY, printoem/SVI_MAX, SVI_DESTY, SVI_DESTYREL, printoem/SVI_ROP3, STDVARIABLEINDEX enumeration [Print Devices], printoem/SVI_DESTY, printoem/STDVARIABLEINDEX, _STDVARIABLEINDEX, SVI_BLUEVALUE, printoem/SVI_PATTERNBRUSH_SIZE, SVI_CURRENTFONTID, SVI_FONTSTRIKETHRU, printoem/SVI_DESTXREL, SVI_WIDTHINBYTES, printoem/SVI_RECTYSIZE, SVI_GRAYPERCENT, SVI_FONTHEIGHT, SVI_PATTERNBRUSH_SIZE, SVI_GRAPHICSXRES, printoem/SVI_RECTXSIZE, SVI_HEIGHTINPIXELS, SVI_NEXTFONTID, printoem/SVI_BLUEVALUE, printoem/SVI_PHYSPAPERLENGTH, printoem/SVI_COPIES, printoem/SVI_NEXTGLYPH, printoem/SVI_HEIGHTINPIXELS, printoem/SVI_DESTX, printoem/SVI_TEXTYRES, printoem/SVI_GREENVALUE, printoem/SVI_PAGENUMBER, SVI_DESTXREL, STDVARIABLEINDEX, printoem/SVI_CURRENTFONTID, SVI_GREENVALUE, printoem/SVI_FONTUNDERLINE, SVI_NUMDATABYTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -109,212 +109,212 @@ typedef enum _STDVARIABLEINDEX {
 
 
 
-#### - SVI_NUMDATABYTES
+### -field SVI_NUMDATABYTES
 
 The number of data bytes.
 
 
-#### - SVI_WIDTHINBYTES
+### -field SVI_WIDTHINBYTES
 
 The raster data width in bytes.
 
 
-#### - SVI_HEIGHTINPIXELS
+### -field SVI_HEIGHTINPIXELS
 
 The raster data height in pixels.
 
 
-#### - SVI_COPIES
+### -field SVI_COPIES
 
 The number of copies.
 
 
-#### - SVI_PRINTDIRECTION
+### -field SVI_PRINTDIRECTION
 
 The print direction in CC degrees.
 
 
-#### - SVI_DESTX
+### -field SVI_DESTX
 
 The x destination.
 
 
-#### - SVI_DESTY
+### -field SVI_DESTY
 
 The y destination.
 
 
-#### - SVI_DESTXREL
+### -field SVI_DESTXREL
 
 The relative x destination.
 
 
-#### - SVI_DESTYREL
+### -field SVI_DESTYREL
 
 The relative y direction.
 
 
-#### - SVI_LINEFEEDSPACING
+### -field SVI_LINEFEEDSPACING
 
 The line feed spacing.
 
 
-#### - SVI_RECTXSIZE
+### -field SVI_RECTXSIZE
 
 The x rect size.
 
 
-#### - SVI_RECTYSIZE
+### -field SVI_RECTYSIZE
 
 The y rect size.
 
 
-#### - SVI_GRAYPERCENT
+### -field SVI_GRAYPERCENT
 
 The gray percentage.
 
 
-#### - SVI_NEXTFONTID
+### -field SVI_NEXTFONTID
 
 The next font ID.
 
 
-#### - SVI_NEXTGLYPH
+### -field SVI_NEXTGLYPH
 
 The next glyph.
 
 
-#### - SVI_PHYSPAPERLENGTH
+### -field SVI_PHYSPAPERLENGTH
 
 The physical paper length.
 
 
-#### - SVI_PHYSPAPERWIDTH
+### -field SVI_PHYSPAPERWIDTH
 
 The physical paper width.
 
 
-#### - SVI_FONTHEIGHT
+### -field SVI_FONTHEIGHT
 
 The font height.
 
 
-#### - SVI_FONTWIDTH
+### -field SVI_FONTWIDTH
 
 The font width.
 
 
-#### - SVI_FONTMAXWIDTH
+### -field SVI_FONTMAXWIDTH
 
 The max font width.
 
 
-#### - SVI_FONTBOLD
+### -field SVI_FONTBOLD
 
 The font is bold.
 
 
-#### - SVI_FONTITALIC
+### -field SVI_FONTITALIC
 
 The font is italicized.
 
 
-#### - SVI_FONTUNDERLINE
+### -field SVI_FONTUNDERLINE
 
 The font is underlined.
 
 
-#### - SVI_FONTSTRIKETHRU
+### -field SVI_FONTSTRIKETHRU
 
 The font has the strikethru style applied.
 
 
-#### - SVI_CURRENTFONTID
+### -field SVI_CURRENTFONTID
 
 The current font ID.
 
 
-#### - SVI_TEXTYRES
+### -field SVI_TEXTYRES
 
 The text y resolution.
 
 
-#### - SVI_TEXTXRES
+### -field SVI_TEXTXRES
 
 The text x resolution.
 
 
-#### - SVI_GRAPHICSYRES
+### -field SVI_GRAPHICSYRES
 
 The graphics y resolution.
 
 
-#### - SVI_GRAPHICSXRES
+### -field SVI_GRAPHICSXRES
 
 The graphics x resolution.
 
 
-#### - SVI_ROP3
+### -field SVI_ROP3
 
 The rop3.
 
 
-#### - SVI_REDVALUE
+### -field SVI_REDVALUE
 
 The red value.
 
 
-#### - SVI_GREENVALUE
+### -field SVI_GREENVALUE
 
 The green value.
 
 
-#### - SVI_BLUEVALUE
+### -field SVI_BLUEVALUE
 
 The blue value.
 
 
-#### - SVI_PALETTEINDEXTOPROGRAM
+### -field SVI_PALETTEINDEXTOPROGRAM
 
 The palette index to program.
 
 
-#### - SVI_CURRENTPALETTEINDEX
+### -field SVI_CURRENTPALETTEINDEX
 
 The current palette index.
 
 
-#### - SVI_PATTERNBRUSH_TYPE
+### -field SVI_PATTERNBRUSH_TYPE
 
 The pattern brush type.
 
 
-#### - SVI_PATTERNBRUSH_ID
+### -field SVI_PATTERNBRUSH_ID
 
 The pattern brush ID.
 
 
-#### - SVI_PATTERNBRUSH_SIZE
+### -field SVI_PATTERNBRUSH_SIZE
 
 The pattern brush size.
 
 
-#### - SVI_CURSORORIGINX
+### -field SVI_CURSORORIGINX
 
 The cursor origin x value. This is in master units and in the coordinates of the currently selected orientation. This values is defined as ImageableOrigin minus CursorOrigin.
 
 
-#### - SVI_CURSORORIGINY
+### -field SVI_CURSORORIGINY
 
 The cursor origin y value. This is in master units and in the coordinates of the currently selected orientation. This values is defined as ImageableOrigin minus CursorOrigin.
 
 
-#### - SVI_PAGENUMBER
+### -field SVI_PAGENUMBER
 
 The page number. This value tracks the number of times DrvStartBand has been called since StartDoc.
 
 
-#### - SVI_MAX
+### -field SVI_MAX
 
 Placeholder. Do not use.
 

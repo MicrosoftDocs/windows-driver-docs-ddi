@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1facaf24-ed94-4516-b9d6-bdcd8ac4b9e9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwOpenEvent, NtOpenEvent, wdm/NtOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, ZwOpenEvent
+ms.keywords: k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, ZwOpenEvent routine [Kernel-Mode Driver Architecture], kernel.zwopenevent, NtOpenEvent, wdm/NtOpenEvent, wdm/ZwOpenEvent, ZwOpenEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS ZwOpenEvent(
 
 
 
-#### - EventHandle [out]
+### -param EventHandle [out]
 
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
 <table>
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCES
 </table> 
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro. 
 
@@ -210,31 +210,31 @@ Notification events can be used to notify one or more threads of execution that 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
-
-<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
 
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
 
 <a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
 
+<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: E91F5D6F-40F9-4CE2-8C51-4CA7FB27F2C3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wia_micr_info, WIA_MICR_INFO structure [Imaging Devices], _WIA_MICR_INFO, wiadef/WIA_MICR_INFO, WIA_MICR_INFO
+ms.keywords: "_WIA_MICR_INFO, wiadef/WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], image.wia_micr_info, WIA_MICR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _WIA_MICR_INFO {
 
 
 
-#### - Size
+### -field Size
 
 The total size of this structure, in bytes.
 
 
-#### - Page
+### -field Page
 
 The page number where the MICR code was detected. A zero-based index referring to the current scan job.
 
 
-#### - Length
+### -field Length
 
 Length of the MICR text, in characters, excluding the length of the NULL terminator.
 
 
-#### - Text
+### -field Text
 
 Placeholder for a NULL terminated character string containing the MICR text.
 

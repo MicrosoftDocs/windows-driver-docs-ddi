@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90cec61b-fe49-4fc7-b666-e74f745a00b1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_SampleFormat enumeration [Display Devices], dxva/DXVA_SampleFormat, DXVA_SampleSubStream, dxva/DXVA_SampleSubStream, DXVA_SampleUnknown, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml, dxva/DXVA_SampleFormatMask, _DXVA_SampleFormat, DXVA_SampleFieldInterleavedEvenFirst, dxva/DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleFieldSingleEven, dxva/DXVA_SampleFieldInterleavedEvenFirst, DXVA_SampleFieldInterleavedOddFirst, DXVA_SampleFormatMask, display.dxva_sampleformat, DXVA_SampleFieldSingleEven, DXVA_SamplePreviousFrame, dxva/DXVA_SamplePreviousFrame, DXVA_SampleProgressiveFrame, DXVA_SampleFormat, dxva/DXVA_SampleFieldSingleOdd, dxva/DXVA_SampleProgressiveFrame, dxva/DXVA_SampleUnknown, DXVA_SampleFieldSingleOdd
+ms.keywords: dxva/DXVA_SampleFieldInterleavedEvenFirst, DXVA_SampleFormat, display.dxva_sampleformat, DXVA_SampleFieldSingleOdd, dxva/DXVA_SampleFieldSingleEven, DXVA_SampleFieldSingleEven, DXVA_SampleFormatMask, DXVA_SampleUnknown, DXVA_SampleSubStream, dxva/DXVA_SampleSubStream, dxva/DXVA_SampleFormatMask, _DXVA_SampleFormat, DXVA_SampleFieldInterleavedOddFirst, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml, DXVA_SampleFieldInterleavedEvenFirst, dxva/DXVA_SamplePreviousFrame, dxva/DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleFormat, dxva/DXVA_SampleFieldSingleOdd, DXVA_SampleFormat enumeration [Display Devices], DXVA_SamplePreviousFrame, dxva/DXVA_SampleProgressiveFrame, dxva/DXVA_SampleUnknown, DXVA_SampleProgressiveFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,49 +75,49 @@ typedef enum _DXVA_SampleFormat {
 
 
 
-#### - DXVA_SampleFormatMask
+### -field DXVA_SampleFormatMask
 
 Specifies the sample format mask. The first 8 (0x000000FF) bits of a DWORD can be used to specify input sample format. 
 
 
 
-#### - DXVA_SampleUnknown
+### -field DXVA_SampleUnknown
 
 Specifies that the sample format is unknown. 
 
 
 
-#### - DXVA_SamplePreviousFrame
+### -field DXVA_SamplePreviousFrame
 
 Specifies that the sample contains the previous output frame.
 
 
-#### - DXVA_SampleProgressiveFrame
+### -field DXVA_SampleProgressiveFrame
 
 Specifies that the sample contains a progressive frame.
 
 
-#### - DXVA_SampleFieldInterleavedEvenFirst
+### -field DXVA_SampleFieldInterleavedEvenFirst
 
 Specifies that the sample contains two interleaved fields; the even field is temporally first.
 
 
-#### - DXVA_SampleFieldInterleavedOddFirst
+### -field DXVA_SampleFieldInterleavedOddFirst
 
 Specifies that the sample contains two interleaved fields; the odd field is temporally first.
 
 
-#### - DXVA_SampleFieldSingleEven
+### -field DXVA_SampleFieldSingleEven
 
 Specifies that the sample contains an even interleaved field.
 
 
-#### - DXVA_SampleFieldSingleOdd
+### -field DXVA_SampleFieldSingleOdd
 
 Specifies that the sample contains an odd interleaved field.
 
 
-#### - DXVA_SampleSubStream
+### -field DXVA_SampleSubStream
 
 Windows Server 2003 SP1 and later and Windows XP SP2 and later versions only.
 
@@ -128,9 +128,9 @@ Specifies that the sample contains a video substream.
 
 <a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-
 <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
+
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
  
 

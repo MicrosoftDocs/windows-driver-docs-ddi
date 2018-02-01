@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_EXTENDED_ADDRESS, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 2 to 3 - Reserved, 1 - Decode type, *PPEP_ACPI_EXTENDED_ADDRESS, 1 to 2 - Memory attributes (MEM), PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], 6 to 7 - Reserved, PEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], 0 - Write status, 0 to 1 - Range, 5 - Memory to IO translation, 4 to 7 - Reserved, _PEP_ACPI_EXTENDED_ADDRESS, 2 - Minimum address fixed, kernel.pep_acpi_extended_address, 4 - IO to memory translation, 0 to 7 - Reserved, 5 - Sparse translation, 0 - Consumer/Producer flag, 3 - Max address fixed, 3 to 4 - Memory attributes (MTP)
+ms.keywords: 3 - Max address fixed, 4 to 7 - Reserved, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_extended_address, 5 - Memory to IO translation, pepfx/PEP_ACPI_EXTENDED_ADDRESS, 1 - Decode type, PPEP_ACPI_EXTENDED_ADDRESS, 5 - Sparse translation, PEP_ACPI_EXTENDED_ADDRESS, 0 - Consumer/Producer flag, _PEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], 4 - IO to memory translation, 0 - Write status, 3 to 4 - Memory attributes (MTP), 0 to 7 - Reserved, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 2 to 3 - Reserved, *PPEP_ACPI_EXTENDED_ADDRESS, 1 to 2 - Memory attributes (MEM), 2 - Minimum address fixed, 6 to 7 - Reserved, 0 to 1 - Range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,17 +80,17 @@ typedef struct _PEP_ACPI_EXTENDED_ADDRESS {
 
 
 
-#### - Type
+### -field Type
 
 A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
 
 
-#### - Flags
+### -field Flags
 
 A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure describing this resource.
 
 
-#### - ResourceFlags
+### -field ResourceFlags
 
 Indicates the type of resource this structure describes.
 <table>
@@ -156,7 +156,7 @@ These values are reserved for use by the hardware vendor.
 </table> 
 
 
-#### - GeneralFlags
+### -field GeneralFlags
 
 A value containing the bit flags that are common to all resource types. 
 <table>
@@ -219,7 +219,7 @@ These bits are reserved and must be set to zero.
 </table> 
 
 
-#### - TypeSpecificFlags
+### -field TypeSpecificFlags
 
 The value of this member is dependent on the value in <b>ResourceFlags</b> member. The flags for each resource type are described in the tables below.
 
@@ -422,48 +422,48 @@ These bits are reserved and must be set to zero.
 </table> 
 
 
-#### - RevisionId
+### -field RevisionId
 
 Indicates the revision of the extended address space descriptor detailed by this structure. For ACPI 3.0, this value is 1.
 
 
-#### - Reserved
+### -field Reserved
 
 
 
-#### - Granularity
+### -field Granularity
 
 A bit mask indicating which bits have been decoded.
 
 
-#### - MinimumAddress
+### -field MinimumAddress
 
 The minimum starting address. For bridges that translate addresses, this is the address space on the secondary side of the bridge.
 
 
-#### - MaximumAddress
+### -field MaximumAddress
 
 The maximum starting address. For bridges that translate addresses, this is the address space
 on the secondary side of the bridge.
 
 
-#### - TranslationAddress
+### -field TranslationAddress
 
 For bridges that translate addresses across the bridge, this is the
 address on the primary side. 
 
 
-#### - AddressLength
+### -field AddressLength
 
 The address length.
 
 
-#### - TypeAttribute
+### -field TypeAttribute
 
 Indicates attributes that are specific to the resource type that is specified in the <b>ResourceFlags</b> member. If <b>ResourceFlags</b> is zero, this value is zero, otherwise the meaning of the value can be found in the <i>UEFI Specification</i> in the section titled <b>GetMemoryMap()</b>. 
 
 
-#### - DescriptorName
+### -field DescriptorName
 
 The name of this resource descriptor.
 

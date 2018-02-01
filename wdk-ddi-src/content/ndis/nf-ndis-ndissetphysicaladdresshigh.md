@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbe58583-ea65-4920-9056-ab46bd881618
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], ndis/NdisSetPhysicalAddressHigh, miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh
+ms.keywords: NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], ndis/NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh, NdisSetPhysicalAddressHigh, miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,24 +69,12 @@ VOID NdisSetPhysicalAddressHigh(
 
 
 
-### -param _PhysicalAddress
-
-TBD
-
-
-### -param _Value
-
-TBD
-
-
-
-
-#### - PhysicalAddress [in]
+### -param _PhysicalAddress [in]
 
 Specifies a physical address of an OS-dependent size.
 
 
-#### - Value [in]
+### -param _Value [in]
 
 Specifies the value to be written into the high-order part of the address.
 

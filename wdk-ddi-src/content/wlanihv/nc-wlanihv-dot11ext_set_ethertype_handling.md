@@ -88,7 +88,7 @@ DWORD WINAPI * Dot11ExtSetEtherTypeHandling(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -96,7 +96,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-#### - uMaxBackLog [in]
+### -param uMaxBackLog [in]
 
 The maximum number of received packets that the operating system queues if the IHV Extensions DLL
      has not returned from a call to the 
@@ -105,20 +105,20 @@ The maximum number of received packets that the operating system queues if the I
      <i>uMaxBackLog</i> is reached, the operating system discards the oldest packet in the queue.
 
 
-#### - uNumOfExemption [in]
+### -param uNumOfExemption [in]
 
 The number of entries within the privacy exemptions array referenced by the 
      <i>pExemption</i> parameter. A value of zero disables privacy exemptions on the WLAN adapter.
 
 
-#### - pExemption [in, optional]
+### -param pExemption [in, optional]
 
 A pointer to an array of privacy exemptions. Each entry in the array is formatted as a 
-     <mshelp:link keywords="netvista.dot11_privacy_exemption" tabindex="0"><b>
-     DOT11_PRIVACY_EXEMPTION</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_privacy_exemption.md">
+     DOT11_PRIVACY_EXEMPTION</a> structure.
 
 
-#### - uNumOfRegistration [in]
+### -param uNumOfRegistration [in]
 
 Number of entries within the IEEE EtherType registrations array referenced by the 
      <i>pusRegistration</i> parameter. A value of zero disables the ability of the IHV Extensions DLL to
@@ -127,13 +127,7 @@ Number of entries within the IEEE EtherType registrations array referenced by th
      Handler function.
 
 
-#### - *pusRegistration [in, optional]
-
-A pointer to an array of IEEE EtherType registrations. Each entry has the EtherType value in
-     big-endian format.
-
-
-#### - pusRegistration [in, optional]
+### -param *pusRegistration [in, optional]
 
 A pointer to an array of IEEE EtherType registrations. Each entry has the EtherType value in
      big-endian format.
@@ -159,16 +153,16 @@ When calling the
 The IHV Extensions DLL can call 
       <b>Dot11ExtSetEtherTypeHandling</b> from within the calls to either the 
       <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> or 
-      <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-      Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler functions.
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+      Dot11ExtIhvPerformPreAssociate</a> IHV Handler functions.
 
 </li>
 <li>
 The IHV Extensions DLL must not call 
       <b>Dot11ExtSetEtherTypeHandling</b> after successfully completing the
       pre-association operation through a call to 
-      <mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-      Dot11ExtPreAssociateCompletion</b></mshelp:link>.
+      <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+      Dot11ExtPreAssociateCompletion</a>.
 
 </li>
 </ul>The operating system defaults to an empty list of privacy exemptions and EtherType registrations prior
@@ -180,20 +174,20 @@ The IHV Extensions DLL must not call
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
 <a href="..\windot11\ns-windot11-dot11_privacy_exemption.md">DOT11_PRIVACY_EXEMPTION</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-   Dot11ExtPreAssociateCompletion</b></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+   Dot11ExtPreAssociateCompletion</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.tmrenametransactionmanager_, TmRenameTransactionManager, wdm/TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture]
+ms.keywords: TmRenameTransactionManager, kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS TmRenameTransactionManager (
 
 
 
-#### - LogFileName [in]
+### -param LogFileName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path and file name of a <a href="https://msdn.microsoft.com/4da3cb49-dc20-4713-813b-ff458c99ab90">CLFS</a> log file stream to be associated with the transaction manager object.
 
 
-#### - ExistingTransactionManagerGuid [in]
+### -param ExistingTransactionManagerGuid [in]
 
 A pointer to a GUID structure that represents the current name of the transaction manager object.
 

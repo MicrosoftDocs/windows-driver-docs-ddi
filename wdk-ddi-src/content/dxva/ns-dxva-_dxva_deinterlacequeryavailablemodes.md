@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_deinterlacequeryavailablemodes, dxva/DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, _DXVA_DeinterlaceQueryAvailableModes
+ms.keywords: DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], dxva/DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, _DXVA_DeinterlaceQueryAvailableModes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, DXVA_DeinterlaceQueryAvailableModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXVA_DeinterlaceQueryAvailableModes {
 
 
 
-#### - Size
+### -field Size
 
 Indicates the size of this structure.
 
 
-#### - NumGuids
+### -field NumGuids
 
 Indicates the number of GUIDs that are returned in the <b>Guids</b> member for the available modes.
 
 
-#### - Guids
+### -field Guids
 
 An array of GUIDs that are returned for the available deinterlace modes.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsServiceBusEnumCreateRequest function [Streaming Media Devices], ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, swenum/KsServiceBusEnumCreateRequest, stream.ksservicebusenumcreaterequest, KsServiceBusEnumCreateRequest
+ms.keywords: ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, swenum/KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices], stream.ksservicebusenumcreaterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS KsServiceBusEnumCreateRequest(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object.
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 Pointer to the IRP that is associated with the device object.
 

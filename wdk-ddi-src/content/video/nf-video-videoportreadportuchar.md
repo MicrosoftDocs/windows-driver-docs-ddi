@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1cc93e46-406f-4f75-ae5d-7a4986286640
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortReadPortUchar, display.videoportreadportuchar, VideoPort_Functions_128aedd7-fb7b-4e0e-8447-12733a245bc0.xml, VideoPortReadPortUchar, VideoPortReadPortUchar function [Display Devices]
+ms.keywords: video/VideoPortReadPortUchar, display.videoportreadportuchar, VideoPort_Functions_128aedd7-fb7b-4e0e-8447-12733a245bc0.xml, VideoPortReadPortUchar function [Display Devices], VideoPortReadPortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ UCHAR VideoPortReadPortUchar(
 
 
 
-#### - Port
+### -param Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
@@ -91,9 +91,9 @@ Callers of <b>VideoPortReadPortUchar</b> can be running at any IRQL, provided th
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 

@@ -92,11 +92,6 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - Format [in]
 
  A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for. 
@@ -105,6 +100,11 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 #### - SampleCount [in]
 
  The number of samples to retrieve the quality levels for. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - pNumQualityLevels [out]
@@ -136,9 +136,9 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

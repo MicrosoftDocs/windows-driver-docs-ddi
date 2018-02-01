@@ -72,12 +72,12 @@ NTSTATUS EvtUsbDeviceDefaultEndpointAdd(
 
 
 
-#### - UdecxUsbDevice [in]
+### -param UdecxUsbDevice [in]
 
 A handle to the UDE device object for which the client driver creates the default endpoint. The driver created this object in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 
 
-#### - UdecxEndpointInit [in]
+### -param UdecxEndpointInit [in]
 
 A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>.
 
@@ -93,9 +93,9 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
  
 

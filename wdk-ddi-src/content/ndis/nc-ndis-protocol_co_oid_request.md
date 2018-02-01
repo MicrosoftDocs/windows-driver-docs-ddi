@@ -79,29 +79,29 @@ NDIS_STATUS ProtocolCoOidRequest(
 
 
 
-#### - ProtocolAfContext [in]
+### -param ProtocolAfContext [in]
 
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
-     <mshelp:link keywords="netvista.ndisclopenaddressfamilyex" tabindex="0"><b>
-     NdisClOpenAddressFamilyEx</b></mshelp:link> function to connect itself to the call manager. If the driver is a call
+     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     NdisClOpenAddressFamilyEx</a> function to connect itself to the call manager. If the driver is a call
      manager, it supplied this handle from its 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
 
 
-#### - ProtocolVcContext [in]
+### -param ProtocolVcContext [in]
 
 A handle that identifies the virtual connection (VC) to query or set information on, if the
      request is VC-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-#### - ProtocolPartyContext [in]
+### -param ProtocolPartyContext [in]
 
 A handle that identifies the party on a multipoint VC to query or set information on, if the
      request is party-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-#### - OidRequest [in, out]
+### -param OidRequest [in, out]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that contains
@@ -138,10 +138,10 @@ The client or call manager carried out the requested operation.
 </td>
 <td width="60%">
 The client, or call manager is handling this request asynchronously, and it will call the 
-       <mshelp:link keywords="netvista.ndiscooidrequestcomplete" tabindex="0"><b>
-       NdisCoOidRequestComplete</b></mshelp:link> function or the 
-       <mshelp:link keywords="netvista.ndismcmoidrequestcomplete" tabindex="0"><b>
-       NdisMCmOidRequestComplete</b></mshelp:link> function when the requested operation is complete.
+       <a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">
+       NdisCoOidRequestComplete</a> function or the 
+       <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
+       NdisMCmOidRequestComplete</a> function when the requested operation is complete.
 
 </td>
 </tr>
@@ -216,14 +216,14 @@ CoNDIS clients and call managers send information to each other by specifying a 
 
 To register 
     <i>ProtocolCoOidRequest</i> as a client, a driver initializes an 
-    <mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link> structure and passes it at the 
+    <a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a> structure and passes it at the 
     <i>OptionalHandlers</i> parameter of the 
     <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function.
     To register 
     <i>ProtocolCoOidRequest</i> as a call manager, a driver initializes an 
-    <mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link> structure and passes it at the 
+    <a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a> structure and passes it at the 
     <i>OptionalHandlers</i> parameter.
 
 If the 
@@ -248,10 +248,10 @@ The buffer at the
 
 If 
     <i>ProtocolCoOidRequest</i> returns NDIS_STATUS_PENDING, the driver must subsequently call the 
-    <mshelp:link keywords="netvista.ndiscooidrequestcomplete" tabindex="0"><b>
-    NdisCoOidRequestComplete</b></mshelp:link> function, or the 
-    <mshelp:link keywords="netvista.ndismcmoidrequestcomplete" tabindex="0"><b>
-    NdisMCmOidRequestComplete</b></mshelp:link> function for an MCM driver, when the driver completes the request.
+    <a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">
+    NdisCoOidRequestComplete</a> function, or the 
+    <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
+    NdisMCmOidRequestComplete</a> function for an MCM driver, when the driver completes the request.
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolCoOidRequest</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCoOidRequest</i> function that is named "MyCoOidRequest", use the <b>PROTOCOL_CO_OID_REQUEST</b> type as shown in this code example:
@@ -290,29 +290,29 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
+
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
 <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
 
  
 

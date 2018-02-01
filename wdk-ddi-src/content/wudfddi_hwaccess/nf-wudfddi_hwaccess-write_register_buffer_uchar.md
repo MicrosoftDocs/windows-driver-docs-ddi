@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5A124150-44E8-4F95-913A-8ECA29669A24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR function, WRITE_REGISTER_BUFFER_UCHAR, umdf.write_register_buffer_uchar, wdf.write_register_buffer_uchar
+ms.keywords: wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR, wdf.write_register_buffer_uchar, WRITE_REGISTER_BUFFER_UCHAR function, umdf.write_register_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WRITE_REGISTER_BUFFER_UCHAR(
 
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer from which an array of UCHAR values is to be written.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of bytes to write to the register.
 

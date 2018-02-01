@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml, iscsiop/PSetCHAPSharedSecret_IN, _SetCHAPSharedSecret_IN, iscsiop/SetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], storage.setchapsharedsecret_in, *PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], SetCHAPSharedSecret_IN
+ms.keywords: SetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], PSetCHAPSharedSecret_IN structure pointer [Storage Devices], iscsiop/SetCHAPSharedSecret_IN, _SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN, iscsiop/PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml, storage.setchapsharedsecret_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SetCHAPSharedSecret_IN {
 
 
 
-#### - SharedSecretSize
+### -field SharedSecretSize
 
 The size, in bytes, of the shared secret.
 
 
-#### - SharedSecret
+### -field SharedSecret
 
 A variable-length array that contains the shared secret.
 

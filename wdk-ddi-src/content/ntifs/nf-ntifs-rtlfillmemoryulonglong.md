@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlfillmemoryulonglong, RtlFillMemoryUlonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, ntifs/RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers]
+ms.keywords: rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, RtlFillMemoryUlonglong, ntifs/RtlFillMemoryUlonglong, ifsk.rtlfillmemoryulonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID RtlFillMemoryUlonglong(
 
 
 
-#### - Destination [out]
+### -param Destination [out]
 
 Pointer to the start of the range of memory to be filled. This address must be ULONGLONG-aligned.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Number of bytes to fill. This value must be a multiple of <b>sizeof(</b>ULONGLONG<b>)</b>. (Note: SIZE_T is defined in <i>basetsd.h</i>.)
 
 
-#### - Pattern [in]
+### -param Pattern [in]
 
 ULONGLONG value with which to fill the range starting at <i>Destination</i> and extending for <i>Length</i> bytes.
 
@@ -106,9 +106,9 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
-
 <a href="..\ntifs\nf-ntifs-rtlfillmemoryulong.md">RtlFillMemoryUlong</a>
+
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
  
 

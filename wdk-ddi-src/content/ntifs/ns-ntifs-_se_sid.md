@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6950B71D-B396-494E-A23C-EE37B439FD05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SE_SID union [Installable File System Drivers], ifsk.se_sid, PSE_SID, *PSE_SID, SE_SID, _SE_SID, PSE_SID union pointer [Installable File System Drivers], ntifs/SE_SID, ntifs/PSE_SID
+ms.keywords: SE_SID union [Installable File System Drivers], *PSE_SID, _SE_SID, ntifs/SE_SID, PSE_SID, SE_SID, ntifs/PSE_SID, PSE_SID union pointer [Installable File System Drivers], ifsk.se_sid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef union _SE_SID {
 
 
 
-#### - Sid
+### -field Sid
 
 A security identifier structure used to uniquely identify users or groups.
 
 
-#### - Buffer
+### -field Buffer
 
 Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
 

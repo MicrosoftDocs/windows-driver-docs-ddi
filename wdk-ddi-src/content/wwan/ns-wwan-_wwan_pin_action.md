@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4edd0bc1-cd50-460b-92e1-7b2440ae3861
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml, PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_PIN_ACTION, netvista.wwan_pin_action, _WWAN_PIN_ACTION, wwan/WWAN_PIN_ACTION, WWAN_PIN_ACTION, wwan/PWWAN_PIN_ACTION, PWWAN_PIN_ACTION
+ms.keywords: PWWAN_PIN_ACTION, WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml, wwan/PWWAN_PIN_ACTION, WWAN_PIN_ACTION, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], wwan/WWAN_PIN_ACTION, netvista.wwan_pin_action, *PWWAN_PIN_ACTION, _WWAN_PIN_ACTION, PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,24 +72,24 @@ typedef struct _WWAN_PIN_ACTION {
 
 
 
-#### - PinType
+### -field PinType
 
 The type of the PIN on which to perform the action.
 
 
-#### - PinOperation
+### -field PinOperation
 
 The action to perform with the PIN.
 
 
-#### - Pin
+### -field Pin
 
 A NULL-terminated string that represents the PIN value to perform the action with, or the PIN
      value required to enable/disable PIN settings. This member is a numeric value and applies for all values of 
      <b>PinOperation</b> .
 
 
-#### - NewPin
+### -field NewPin
 
 A NULL-terminated string that represents the new PIN value to set when 
      <b>PinOperation</b> is 
@@ -120,9 +120,9 @@ When
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_pin.md">NDIS_WWAN_SET_PIN</a>
 
-<a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
-
 <a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
+
+<a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
 
  
 

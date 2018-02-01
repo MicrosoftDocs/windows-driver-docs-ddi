@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 919f30b1-025d-4526-a1f6-2d14c482e474
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortDeviceBusy, irb/AtaPortDeviceBusy, storage.ataportdevicebusy, AtaPortDeviceBusy routine [Storage Devices], atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml
+ms.keywords: storage.ataportdevicebusy, AtaPortDeviceBusy routine [Storage Devices], irb/AtaPortDeviceBusy, AtaPortDeviceBusy, atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID __inline AtaPortDeviceBusy(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 Specifies the target identifier of the device.
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Specifies the logical unit number (LUN) of the device.
 
 
-#### - BusyTimeout [in]
+### -param BusyTimeout [in]
 
 Specifies the time, in seconds, for which the device is presumed to be busy.
 

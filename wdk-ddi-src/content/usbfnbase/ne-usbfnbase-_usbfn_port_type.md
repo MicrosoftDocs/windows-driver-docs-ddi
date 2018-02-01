@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnUnknownPort, UsbfnChargingDownstreamPort, usbfnbase/UsbfnStandardDownstreamPort, UsbfnStandardDownstreamPort, UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnProprietaryDedicatedChargingPort, *PUSBFN_PORT_TYPE, usbfnbase/UsbfnPortTypeMaximum, UsbfnDedicatedChargingPort, UsbfnPortTypeMaximum, usbfnbase/USBFN_PORT_TYPE, usbfnbase/UsbfnDedicatedChargingPort, buses.usbfn_port_type, _USBFN_PORT_TYPE, USBFN_PORT_TYPE enumeration [Buses], usbfnbase/UsbfnChargingDownstreamPort, UsbfnInvalidDedicatedChargingPort, USBFN_PORT_TYPE, UsbfnUnknownPort
+ms.keywords: USBFN_PORT_TYPE enumeration [Buses], usbfnbase/USBFN_PORT_TYPE, usbfnbase/UsbfnInvalidDedicatedChargingPort, UsbfnChargingDownstreamPort, UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnDedicatedChargingPort, _USBFN_PORT_TYPE, usbfnbase/UsbfnProprietaryDedicatedChargingPort, UsbfnProprietaryDedicatedChargingPort, USBFN_PORT_TYPE, usbfnbase/UsbfnUnknownPort, usbfnbase/UsbfnStandardDownstreamPort, buses.usbfn_port_type, UsbfnUnknownPort, UsbfnStandardDownstreamPort, usbfnbase/UsbfnChargingDownstreamPort, UsbfnDedicatedChargingPort, *PUSBFN_PORT_TYPE, UsbfnPortTypeMaximum, usbfnbase/UsbfnPortTypeMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,37 +74,37 @@ typedef enum _USBFN_PORT_TYPE {
 
 
 
-#### - UsbfnUnknownPort
+### -field UsbfnUnknownPort
 
 Port detection was unable to determine the port type.
 
 
-#### - UsbfnStandardDownstreamPort
+### -field UsbfnStandardDownstreamPort
 
 The upstream port has been detected as a standard downstream port (SDP) (as defined in the Battery Charging Specification, revision 1.2).
 
 
-#### - UsbfnChargingDownstreamPort
+### -field UsbfnChargingDownstreamPort
 
 The upstream port has been detected as a charging downstream port (CDP), as defined in the Battery Charging Specification, revision 1.2.
 
 
-#### - UsbfnDedicatedChargingPort
+### -field UsbfnDedicatedChargingPort
 
 The upstream port has been detected as a dedicated charging port (DCP) (as defined in the Battery Charging Specification, revision 1.2).
 
 
-#### - UsbfnInvalidDedicatedChargingPort
+### -field UsbfnInvalidDedicatedChargingPort
 
 The upstream port has been detected as a dedicated charging port that does not comply with the Battery Charging Specification, revision 1.2.
 
 
-#### - UsbfnProprietaryDedicatedChargingPort
+### -field UsbfnProprietaryDedicatedChargingPort
 
 A proprietary charger was attached.
 
 
-#### - UsbfnPortTypeMaximum
+### -field UsbfnPortTypeMaximum
 
 The maximum value of the enumeration.
 

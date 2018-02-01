@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OPLOCK_LEVEL_CACHE_WRITE, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_READ, FsRtlCheckUpperOplock, OPLOCK_LEVEL_CACHE_HANDLE, ntifs/FsRtlCheckUpperOplock, ifsk.fsrtlcheckupperoplock
+ms.keywords: ifsk.fsrtlcheckupperoplock, OPLOCK_LEVEL_CACHE_WRITE, FsRtlCheckUpperOplock, OPLOCK_LEVEL_CACHE_READ, ntifs/FsRtlCheckUpperOplock, OPLOCK_LEVEL_CACHE_HANDLE, FsRtlCheckUpperOplock routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS FsRtlCheckUpperOplock(
 
 
 
-#### - Oplock [in]
+### -param Oplock [in]
 
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
 
 
-#### - NewLowerOplockState [in]
+### -param NewLowerOplockState [in]
 
 A value representing the requested oplock held in a lower file system by a secondary file system. This a bitwise OR combination of the following:
 <table>
@@ -118,12 +118,12 @@ Indicates an oplock Handle (H) type.
 </table> 
 
 
-#### - CompletionRoutineContext [in, optional]
+### -param CompletionRoutineContext [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PrePendIrpRoutine</i> parameters point to. 
 
 
-#### - CompletionRoutine [in, optional]
+### -param CompletionRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. 
 
@@ -161,7 +161,7 @@ A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b>
 TBD
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of <b>FsRtlCheckUpperOplock</b>. The <i>Flags</i> parameter has the following options:
 

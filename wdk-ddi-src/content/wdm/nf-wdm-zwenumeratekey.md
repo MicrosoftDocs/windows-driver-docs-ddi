@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 77ccd451-40c7-4f64-af2b-480e44e7f672
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwEnumerateKey, wdm/NtEnumerateKey, k111_a41e7865-8cac-4dd8-83fb-ca04485feb48.xml, ZwEnumerateKey routine [Kernel-Mode Driver Architecture], NtEnumerateKey, kernel.zwenumeratekey, ZwEnumerateKey
+ms.keywords: wdm/ZwEnumerateKey, ZwEnumerateKey, kernel.zwenumeratekey, k111_a41e7865-8cac-4dd8-83fb-ca04485feb48.xml, NtEnumerateKey, ZwEnumerateKey routine [Kernel-Mode Driver Architecture], wdm/NtEnumerateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ NTSTATUS ZwEnumerateKey(
 
 
 
-#### - KeyHandle [in]
+### -param KeyHandle [in]
 
 Handle to the registry key that contains the subkeys to be enumerated. The handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>. 
 
 
-#### - Index [in]
+### -param Index [in]
 
 The index of the subkey that you want information for. If the key has <i>n</i> subkeys, the subkeys are numbered from 0 to <i>n</i>-1. 
 
 
-#### - KeyInformationClass [in]
+### -param KeyInformationClass [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a> enumeration value that determines the type of information to be received by the <i>KeyInformation</i> buffer. Set <i>KeyInformationClass</i> to one of the following values:
 <ul>
@@ -94,17 +94,17 @@ Specifies a <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CL
 </ul>If any value not in this list is specified, the routine returns error code STATUS_INVALID_PARAMETER.
 
 
-#### - KeyInformation [out, optional]
+### -param KeyInformation [out, optional]
 
 Pointer to a caller-allocated buffer that receives the requested information. The <i>KeyInformationClass</i> parameter determines the type of information provided. 
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the size, in bytes, of the <i>KeyInformation</i> buffer. 
 
 
-#### - ResultLength [out]
+### -param ResultLength [out]
 
 Pointer to a variable that receives the size, in bytes, of the registry-key information. If <b>ZwEnumerateKey</b> returns STATUS_SUCCESS, you can use the value of this variable to determine the amount of data returned. If the routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of this variable to determine the size of buffer required to hold the key information. 
 
@@ -180,29 +180,29 @@ For more information about working with registry keys, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
-
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
 
-<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
+
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
 
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
-
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
  
 

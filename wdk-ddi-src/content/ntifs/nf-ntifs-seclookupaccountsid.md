@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.seclookupaccountsid, ntifs/SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, SecLookupAccountSid
+ms.keywords: SecLookupAccountSid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ifsk.seclookupaccountsid, SecLookupAccountSid function [Installable File System Drivers], ntifs/SecLookupAccountSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS SecLookupAccountSid(
 
 
 
-#### - Sid [in]
+### -param Sid [in]
 
 A pointer to the SID to look up. 
 
 
-#### - NameSize [out]
+### -param NameSize [out]
 
 A pointer to a variable that specifies the size of the <i>NameBuffer</i>. On input, this value specifies the size in bytes of the input <i>NameBuffer</i>. If the function fails because the buffer is too small, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>NameBuffer</i>.
 
 
-#### - NameBuffer [in, out]
+### -param NameBuffer [in, out]
 
 A pointer to the <i>NameBuffer</i>. 
 
@@ -93,14 +93,9 @@ A pointer to the <i>NameBuffer</i>.
 TBD
 
 
-#### - NameUse [out]
+### -param NameUse [out]
 
 A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
-
-
-#### - DomainSize [out]
-
-A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
 
 
 #### - DomainBuffer [out, optional]
@@ -110,6 +105,11 @@ A pointer to an optional variable to the buffer that receives the name of the do
 On Windows Server 2003, the domain name returned for most accounts in the security database of the local computer is the name of the domain for which the server is a domain controller.
 
 On Windows XP, the domain name returned for most accounts in the security database of the local computer is the name of the computer as of the last start of the system (backslashes are excluded). If the name of the computer changes, the old name continues to be returned as the domain name until the system is restarted.
+
+
+#### - DomainSize [out]
+
+A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
 
 
 ## -returns

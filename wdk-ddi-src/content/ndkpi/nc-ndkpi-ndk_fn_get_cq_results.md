@@ -72,7 +72,7 @@ ULONG NdkGetCqResults(
 
 
 
-#### - *pNdkCq [in]
+### -param *pNdkCq [in]
 
 A pointer to an NDK completion queue (CQ) object  (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
 
@@ -81,14 +81,9 @@ A pointer to an NDK completion queue (CQ) object  (<a href="..\ndkpi\ns-ndkpi-_n
 
 
 
-#### - nResults [in]
+### -param nResults [in]
 
 The size, in elements, of the <i>Results</i> array. That is, the maximum number of completions to remove from the CQ.
-
-
-#### - pNdkCq [in]
-
-A pointer to an NDK completion queue (CQ) object  (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
 
 
 #### - Results
@@ -114,13 +109,13 @@ Zero means there were no completions in the CQ.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
 <a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
  
 

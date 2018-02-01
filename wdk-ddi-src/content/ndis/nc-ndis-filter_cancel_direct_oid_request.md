@@ -73,14 +73,14 @@ VOID FilterCancelDirectOidRequest(
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - RequestId [in]
+### -param RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the direct OID requests that
      match this value in the 
@@ -100,13 +100,13 @@ None
 
 <i>FilterCancelDirectOidRequest</i> is an optional function. If a filter driver does
     not use direct OID requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function.
 
 When NDIS calls 
     <i>FilterCancelDirectOidRequest</i>, the filter driver should attempt to call 
-    <mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-    NdisFDirectOidRequestComplete</b></mshelp:link> function as soon as possible.
+    <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+    NdisFDirectOidRequestComplete</a> function as soon as possible.
 
 If a filter driver does not queue direct OID requests, the driver is not required to provide a 
     <i>FilterCancelDirectOidRequest</i> function. If the filter driver does not specify a 
@@ -122,8 +122,8 @@ If the request processing is still not complete in a filter driver, the driver c
 
 If the filter driver forwarded the request to an underlying driver and the processing is still not
     complete, the filter driver calls the 
-    <mshelp:link keywords="netvista.ndisfcanceldirectoidrequest" tabindex="0"><b>
-    NdisFCancelDirectOidRequest</b></mshelp:link> function with the 
+    <a href="..\ndis\nf-ndis-ndisfcanceldirectoidrequest.md">
+    NdisFCancelDirectOidRequest</a> function with the 
     <i>OidRequest</i> parameter set to the value that it sent to the underlying
     driver.
 
@@ -165,16 +165,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nf-ndis-ndisfcanceldirectoidrequest.md">NdisFCancelDirectOidRequest</a>
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+   NdisFDirectOidRequestComplete</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
-<mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-   NdisFDirectOidRequestComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfcanceldirectoidrequest.md">NdisFCancelDirectOidRequest</a>
 
  
 

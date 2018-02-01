@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetWdmGetTargetFileHandle method, PFN_WDFIOTARGETWDMGETTARGETFILEHANDLE, WdfIoTargetWdmGetTargetFileHandle, DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, kmdf.wdfiotargetwdmgettargetfilehandle, wdf.wdfiotargetwdmgettargetfilehandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
+ms.keywords: wdfiotarget/WdfIoTargetWdmGetTargetFileHandle, DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle method, PFN_WDFIOTARGETWDMGETTARGETFILEHANDLE, kmdf.wdfiotargetwdmgettargetfilehandle, WdfIoTargetWdmGetTargetFileHandle, wdf.wdfiotargetwdmgettargetfilehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ HANDLE WdfIoTargetWdmGetTargetFileHandle(
 
 
 
-#### - IoTarget [in]
+### -param IoTarget [in]
 
 A handle to a remote I/O target object. This handle was obtained from a previous call to <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd7a194a-6ce4-4889-b574-7c4f232f45f0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/PTAPE_GET_POSITION, ntddtape/TAPE_GET_POSITION, storage.tape_get_position, structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml, TAPE_GET_POSITION, _TAPE_GET_POSITION, *PTAPE_GET_POSITION, TAPE_GET_POSITION structure [Storage Devices], PTAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Storage Devices]
+ms.keywords: ntddtape/PTAPE_GET_POSITION, TAPE_GET_POSITION, ntddtape/TAPE_GET_POSITION, PTAPE_GET_POSITION, TAPE_GET_POSITION structure [Storage Devices], PTAPE_GET_POSITION structure pointer [Storage Devices], structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml, _TAPE_GET_POSITION, *PTAPE_GET_POSITION, storage.tape_get_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _TAPE_GET_POSITION {
 
 
 
-#### - Type
+### -field Type
 
 Indicates the type of position requested. This member can be TAPE_ABSOLUTE_POSITION, TAPE_LOGICAL_POSITION, or TAPE_PSEUDO_LOGICAL_POSITION.
 
 
-#### - Partition
+### -field Partition
 
 Indicates the number of the partition where the current position is located.
 
 
-#### - Offset
+### -field Offset
 
 Indicates the number of bytes from the beginning of the partition to the current position.
 

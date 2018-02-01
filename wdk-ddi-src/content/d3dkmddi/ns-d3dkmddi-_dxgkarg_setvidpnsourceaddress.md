@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b83736b6-17c5-43b8-9204-d165fe07853b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS, DXGKARG_SETVIDPNSOURCEADDRESS structure [Display Devices], DmStructs_f179199a-3747-4086-8e77-5434a3e287a1.xml, DXGKARG_SETVIDPNSOURCEADDRESS, _DXGKARG_SETVIDPNSOURCEADDRESS, display.dxgkarg_setvidpnsourceaddress
+ms.keywords: d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS, DXGKARG_SETVIDPNSOURCEADDRESS, DXGKARG_SETVIDPNSOURCEADDRESS structure [Display Devices], DmStructs_f179199a-3747-4086-8e77-5434a3e287a1.xml, display.dxgkarg_setvidpnsourceaddress, _DXGKARG_SETVIDPNSOURCEADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,42 +76,42 @@ typedef struct _DXGKARG_SETVIDPNSOURCEADDRESS {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 An integer that identifies a video present source on the display adapter.
 
 
-#### - PrimarySegment
+### -field PrimarySegment
 
 The identifier of the segment that contains the source's primary surface.
 
 
-#### - PrimaryAddress
+### -field PrimaryAddress
 
 The address, within the segment identified by <i>PrimarySegment</i>, of the source's primary surface.
 
 
-#### - hAllocation
+### -field hAllocation
 
 [in] If non-NULL, a handle that the display miniport driver assigned to the allocation and returned from its call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. The driver must reprogram graphics hardware according to the specific private properties of the allocation, which include but are not limited to pitch size, swizzle format, and so on. 
 
 
-#### - ContextCount
+### -field ContextCount
 
 [in] The number of contexts in the array that the <b>Context</b> member specifies. 
 
 
-#### - Context
+### -field Context
 
 [in] An array of handles to the contexts that contributed to a display operation.  
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
 
 
-#### - Duration
+### -field Duration
 
 The length of time, in units of 100 nanoseconds, between when the current present operation flips to the screen and the next vertical blanking interrupt occurs.
 
@@ -147,9 +147,9 @@ For display mode-switch operations, the <b>ContextCount</b> member is always set
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
-
 <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
 
  
 

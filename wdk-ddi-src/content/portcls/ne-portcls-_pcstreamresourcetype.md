@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C9563635-66F3-4835-8153-DECB04580544
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ePcStreamResourceThread, *PPcStreamResourceType, ePcStreamResourceSet, ePcStreamResourceInterrupt, portcls/PcStreamResourceType, portcls/ePcStreamResourceSet, _PcStreamResourceType, PcStreamResourceType enumeration [Audio Devices], PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices], portcls/ePcStreamResourceThread, PcStreamResourceType, *PPcStreamResourceType, portcls/ePcStreamResourceInterrupt, audio.pcstreamresourcetype, PcStreamResourceType
+ms.keywords: ePcStreamResourceSet, PcStreamResourceType, *PPcStreamResourceType, audio.pcstreamresourcetype, PcStreamResourceType, portcls/ePcStreamResourceInterrupt, *PPcStreamResourceType, PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices], portcls/PcStreamResourceType, portcls/ePcStreamResourceThread, portcls/ePcStreamResourceSet, _PcStreamResourceType, ePcStreamResourceThread, PcStreamResourceType enumeration [Audio Devices], ePcStreamResourceInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum PcStreamResourceType {
 
 
 
-#### - ePcStreamResourceInterrupt
+### -field ePcStreamResourceInterrupt
 
 The resource is a PKINTERRUPT. 
 
 
-#### - ePcStreamResourceThread
+### -field ePcStreamResourceThread
 
  The resource is a PETHREAD. 
 
 
-#### - ePcStreamResourceSet
+### -field ePcStreamResourceSet
 
 The resource is a link to another device-stack’s resources. 
 

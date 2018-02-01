@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f5116986-aa0c-4cc3-9893-c93e83e922f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PGETINFO_FONTOBJ, GETINFO_FONTOBJ structure [Print Devices], print.getinfo_fontobj, GETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], printoem/GETINFO_FONTOBJ, _GETINFO_FONTOBJ, print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, printoem/PGETINFO_FONTOBJ, *PGETINFO_FONTOBJ
+ms.keywords: print.getinfo_fontobj, GETINFO_FONTOBJ, printoem/GETINFO_FONTOBJ, GETINFO_FONTOBJ structure [Print Devices], printoem/PGETINFO_FONTOBJ, print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, *PGETINFO_FONTOBJ, _GETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], PGETINFO_FONTOBJ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _GETINFO_FONTOBJ {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the GETINFO_FONTOBJ structure. Supplied by the UNIFONTOBJ_GetInfo caller.
 
 
-#### - pFontObj
+### -field pFontObj
 
 Pointer to an empty <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure. The structure is filled in by Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function. The pointer is supplied by the UNIFONTOBJ_GetInfo caller.
 

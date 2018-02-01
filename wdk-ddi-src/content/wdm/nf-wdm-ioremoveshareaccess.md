@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 999ee9cc-13c7-4e6b-a294-7e7d28272384
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, IoRemoveShareAccess, wdm/IoRemoveShareAccess, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], kernel.ioremoveshareaccess
+ms.keywords: IoRemoveShareAccess, k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], wdm/IoRemoveShareAccess, kernel.ioremoveshareaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID IoRemoveShareAccess(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to the file object, which usually is being closed by the current thread.
 
 
-#### - ShareAccess [in, out]
+### -param ShareAccess [in, out]
 
 Pointer to the share-access structure that describes how the open file object is currently being accessed. 
 
@@ -99,11 +99,11 @@ Callers of <b>IoRemoveShareAccess</b> must be running at IRQL = PASSIVE_LEVEL an
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
 <a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
 
 <a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
  
 

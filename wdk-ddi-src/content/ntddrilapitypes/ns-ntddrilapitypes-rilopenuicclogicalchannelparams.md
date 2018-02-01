@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4bc3a16b-dc9e-4c15-9083-75ac4608def5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS, netvista.rilopenuicclogicalchannelparams, *LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS, netvista.rilopenuicclogicalchannelparams, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILOPENUICCLOGICALCHANNELPARAMS {
 
 
 
-#### - dwSlotIndex
+### -field dwSlotIndex
 
 
 
-#### - dwChannelGroup
+### -field dwChannelGroup
 
 
 
-#### - dwAppIdLength
+### -field dwAppIdLength
 
 
 
-#### - bAppId
+### -field bAppId
 
 
 
-#### - dwSelectP2Arg
+### -field dwSelectP2Arg
 
 

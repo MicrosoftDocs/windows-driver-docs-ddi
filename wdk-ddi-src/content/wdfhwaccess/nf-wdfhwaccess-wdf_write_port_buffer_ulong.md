@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4FBBC349-B6D0-4F99-AF34-FA237199431E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG, WDF_WRITE_PORT_BUFFER_ULONG, wdf.wdf_write_port_buffer_ulong, WDF_WRITE_PORT_BUFFER_ULONG function
+ms.keywords: WDF_WRITE_PORT_BUFFER_ULONG function, wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG, wdf.wdf_write_port_buffer_ulong, WDF_WRITE_PORT_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,23 +74,23 @@ void WDF_WRITE_PORT_BUFFER_ULONG(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Port [in]
+### -param Port [in]
 
 A pointer to the port, which must be a mapped memory range in I/O space.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer from which an array of ULONG values is to be written.
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to be written to the buffer.
 

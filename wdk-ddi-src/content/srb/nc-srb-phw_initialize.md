@@ -68,7 +68,7 @@ typedef BOOLEAN (*PHW_INITIALIZE)(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 

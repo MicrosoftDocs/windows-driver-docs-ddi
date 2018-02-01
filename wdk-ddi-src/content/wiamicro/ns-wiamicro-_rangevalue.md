@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_RANGEVALUE, wiamicro/PRANGEVALUE, RANGEVALUE, wiamicro/RANGEVALUE, image.rangevalue, PRANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, RANGEVALUE structure [Imaging Devices], *PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices]"
+ms.keywords: image.rangevalue, PRANGEVALUE structure pointer [Imaging Devices], *PRANGEVALUE, RANGEVALUE, wiamicro/RANGEVALUE, wiamicro/PRANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, PRANGEVALUE, _RANGEVALUE, RANGEVALUE structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _RANGEVALUE {
 
 
 
-#### - lMin
+### -field lMin
 
 Specifies the minimum value for a parameter.
 
 
-#### - lMax
+### -field lMax
 
 Specifies the maximum value for a parameter.
 
 
-#### - lStep
+### -field lStep
 
 Specifies the step value for a parameter.
 

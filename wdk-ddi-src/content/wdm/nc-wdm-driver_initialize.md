@@ -72,19 +72,14 @@ NTSTATUS DriverEntry(
 
 
 
-#### - *DriverObject [in]
+### -param *DriverObject [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
-#### - RegistryPath [in]
+### -param RegistryPath [in]
 
 A pointer to a counted Unicode string specifying the path to the driver's registry key.
-
-
-#### - DriverObject [in]
-
-A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 789c60b6-a5a4-4570-bb0c-acfe1166a302
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.key_basic_information, KEY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/KEY_BASIC_INFORMATION, wdm/PKEY_BASIC_INFORMATION, kstruct_c_85ec4926-6fc1-42c1-8992-dd37ee92e5cf.xml, *PKEY_BASIC_INFORMATION, PKEY_BASIC_INFORMATION, _KEY_BASIC_INFORMATION, KEY_BASIC_INFORMATION, PKEY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: KEY_BASIC_INFORMATION, kernel.key_basic_information, *PKEY_BASIC_INFORMATION, KEY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_BASIC_INFORMATION, kstruct_c_85ec4926-6fc1-42c1-8992-dd37ee92e5cf.xml, _KEY_BASIC_INFORMATION, PKEY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PKEY_BASIC_INFORMATION, wdm/KEY_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _KEY_BASIC_INFORMATION {
 
 
 
-#### - LastWriteTime
+### -field LastWriteTime
 
 The last time this key or any of its values changed. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar.
 
 
-#### - TitleIndex
+### -field TitleIndex
 
 Device and intermediate drivers should ignore this member.
 
 
-#### - NameLength
+### -field NameLength
 
 The size, in bytes, of the key name string in the <b>Name</b> array.
 
 
-#### - Name
+### -field Name
 
 An array of wide characters that contains the name of the registry key. This character string is <u>not</u> null-terminated. Only the first element in this array is included in the <b>KEY_BASIC_INFORMATION</b> structure definition. The storage for the remaining elements in the array immediately follows this element.
 
@@ -100,21 +100,21 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
-
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
  
 

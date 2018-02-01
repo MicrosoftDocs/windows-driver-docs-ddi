@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2743bbb-a6fa-4b7e-8087-132e221a5624
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisoffloadtcpsend, NdisOffloadTcpSend function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_51f71d27-0877-4046-b80d-8c05765d8e69.xml, NdisOffloadTcpSend, ndischimney/NdisOffloadTcpSend
+ms.keywords: tcp_chim_ndis_func_51f71d27-0877-4046-b80d-8c05765d8e69.xml, NdisOffloadTcpSend function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpSend, NdisOffloadTcpSend, netvista.ndisoffloadtcpsend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,16 +72,16 @@ NDIS_STATUS NdisOffloadTcpSend(
 
 
 
-#### - NdisOffloadHandle [in]
+### -param NdisOffloadHandle [in]
 
 A handle to an 
      <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
-     <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-     Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+     Referencing Offloaded State Through an Intermediate Driver</a>.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
@@ -119,8 +119,8 @@ To the
 An 
       <i>NdisOffloadHandle</i> that references the NDIS_OFFLOAD_HANDLE structure stored in the intermediate
       driver's context for the offloaded TCP connection. For more information, see 
-      <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>
 <li>
@@ -137,18 +137,18 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocoltcpoffloadsendcomplete" tabindex="0"><i>
-   ProtocolTcpOffloadSendComplete</i></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
+   ProtocolTcpOffloadSendComplete</a>
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

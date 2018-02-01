@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0FD748D6-F598-44D1-A8D3-E63764CB90C6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE, storage.ses_configuration_diagnostic_page, PSES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE"
+ms.keywords: scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], *PSES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, storage.ses_configuration_diagnostic_page, SES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], _SES_CONFIGURATION_DIAGNOSTIC_PAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,28 +74,28 @@ typedef struct _SES_CONFIGURATION_DIAGNOSTIC_PAGE {
 
 
 
-#### - PageCode
+### -field PageCode
 
 Specifies the diagnostic page being sent or requested based on the value. For a Microcode Control diagnostic page, the value should be 0x01.
 
 
-#### - NumberOfSecondarySubEnclosures
+### -field NumberOfSecondarySubEnclosures
 
 Specifies the number of separate subenclosures included in
 the enclosure descriptor list, not including the primary subenclosure. If this is set to zero, only the primary subenclosure exists.
 
 
-#### - PageLength
+### -field PageLength
 
 Specifies the length of the diagnostic page, in bytes.
 
 
-#### - GenerationCode
+### -field GenerationCode
 
 Specifies the value of the generation code.
 
 
-#### - Descriptors
+### -field Descriptors
 
 Specifies the enclosure descriptors for the primary and secondary enclosures. The primary enclosure is the first index.
 

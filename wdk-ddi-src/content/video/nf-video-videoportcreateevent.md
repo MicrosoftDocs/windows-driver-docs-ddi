@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportcreateevent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, video/VideoPortCreateEvent, VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices]
+ms.keywords: video/VideoPortCreateEvent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, VideoPortCreateEvent function [Display Devices], VideoPortCreateEvent, display.videoportcreateevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VP_STATUS VideoPortCreateEvent(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - EventFlag [in]
+### -param EventFlag [in]
 
 Specifies the event type and initial event state. This can be an ORed combination of the following flags:
 <table>
@@ -107,12 +107,12 @@ Set this flag to create a notification event. If this flag is not set, a synchro
 </table> 
 
 
-#### - Unused [in]
+### -param Unused [in]
 
 Is currently ignored by the video port driver and must be set to <b>NULL</b>.
 
 
-#### - ppEvent [out]
+### -param ppEvent [out]
 
 Pointer to the memory location at which a pointer to the event object will be returned.
 

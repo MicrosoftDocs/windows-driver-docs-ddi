@@ -73,12 +73,12 @@ VOID BthInitializeBrb(
 
 
 
-#### - pBrb [in, out]
+### -param pBrb [in, out]
 
 Pointer to the BRB to initialize.
 
 
-#### - brbType [in]
+### -param brbType [in]
 
 Specifies a value from the 
      <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
@@ -105,16 +105,16 @@ It is not necessary to call this function for a BRB that was allocated using
 Profile drivers obtain a pointer to the 
     <i>BthInitializeBrb</i> function when they query the Bluetooth driver stack for an instance of the
     BTHDDI_PROFILE_DRIVER_INTERFACE driver interface. See 
-    <mshelp:link keywords="bltooth.querying_for_bluetooth_interfaces" tabindex="0">Querying for Bluetooth
-    Interfaces</mshelp:link> for more information about querying the Bluetooth driver stack.
+    <a href="https://msdn.microsoft.com/56db29cd-26ab-4262-9b9f-40d46372ffe9">Querying for Bluetooth
+    Interfaces</a> for more information about querying the Bluetooth driver stack.
 
 
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
  
 

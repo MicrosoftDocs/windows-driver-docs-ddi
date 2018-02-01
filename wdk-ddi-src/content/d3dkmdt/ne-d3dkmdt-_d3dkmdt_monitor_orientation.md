@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16e7d91c-04de-4a8c-97c2-c500d0d3697d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_monitor_orientation, D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MO_270DEG, _D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MO_180DEG, DmEnums_d8dfc33b-5b13-4fb0-8ef4-091c5b018424.xml, d3dkmdt/D3DKMDT_MO_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MO_90DEG, D3DKMDT_MO_UNINITIALIZED, d3dkmdt/D3DKMDT_MO_180DEG, D3DKMDT_MO_0DEG, D3DKMDT_MO_270DEG, D3DKMDT_MONITOR_ORIENTATION enumeration [Display Devices], d3dkmdt/D3DKMDT_MO_90DEG, d3dkmdt/D3DKMDT_MO_0DEG
+ms.keywords: D3DKMDT_MO_90DEG, DmEnums_d8dfc33b-5b13-4fb0-8ef4-091c5b018424.xml, d3dkmdt/D3DKMDT_MO_180DEG, D3DKMDT_MO_0DEG, D3DKMDT_MONITOR_ORIENTATION enumeration [Display Devices], _D3DKMDT_MONITOR_ORIENTATION, display.d3dkmdt_monitor_orientation, D3DKMDT_MO_270DEG, d3dkmdt/D3DKMDT_MO_90DEG, d3dkmdt/D3DKMDT_MO_270DEG, d3dkmdt/D3DKMDT_MO_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MO_0DEG, D3DKMDT_MO_180DEG, D3DKMDT_MO_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _D3DKMDT_MONITOR_ORIENTATION {
 
 
 
-#### - D3DKMDT_MO_UNINITIALIZED
+### -field D3DKMDT_MO_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_MONITOR_ORIENTATION has not yet been assigned a meaningful value.
 
 
-#### - D3DKMDT_MO_0DEG
+### -field D3DKMDT_MO_0DEG
 
 Indicates that the display device has not been rotated from its default orientation.
 
 
-#### - D3DKMDT_MO_90DEG
+### -field D3DKMDT_MO_90DEG
 
 Indicates that the display device has been rotated 90 degrees clockwise from its default orientation.
 
 
-#### - D3DKMDT_MO_180DEG
+### -field D3DKMDT_MO_180DEG
 
 Indicates that the display device has been rotated 180 degrees clockwise from its default orientation.
 
 
-#### - D3DKMDT_MO_270DEG
+### -field D3DKMDT_MO_270DEG
 
 Indicates that the display device has been rotated 270 degrees clockwise from its default orientation.
 

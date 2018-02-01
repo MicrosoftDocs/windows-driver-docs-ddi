@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56ef9b59-5dbb-4720-bae1-7af6d9dbc110
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlanihv/PDOT11EXT_IHV_CONNECTIVITY_PROFILE, netvista.dot11ext_ihv_connectivity_profile, _DOT11EXT_IHV_CONNECTIVITY_PROFILE, PDOT11EXT_IHV_CONNECTIVITY_PROFILE, PDOT11EXT_IHV_CONNECTIVITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], *PDOT11EXT_IHV_CONNECTIVITY_PROFILE, Native_802.11_data_types_a0d8e30b-4a72-44d2-a83a-c7b1785f2c8e.xml, DOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE structure [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_IHV_CONNECTIVITY_PROFILE
+ms.keywords: PDOT11EXT_IHV_CONNECTIVITY_PROFILE, wlanihv/PDOT11EXT_IHV_CONNECTIVITY_PROFILE, Native_802.11_data_types_a0d8e30b-4a72-44d2-a83a-c7b1785f2c8e.xml, netvista.dot11ext_ihv_connectivity_profile, *PDOT11EXT_IHV_CONNECTIVITY_PROFILE, _DOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE, PDOT11EXT_IHV_CONNECTIVITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _DOT11EXT_IHV_CONNECTIVITY_PROFILE {
 
 
 
-#### - pszXmlFragmentIhvConnectivity
+### -field pszXmlFragmentIhvConnectivity
 
 A pointer to the string that defines the IHV connectivity profile.
 

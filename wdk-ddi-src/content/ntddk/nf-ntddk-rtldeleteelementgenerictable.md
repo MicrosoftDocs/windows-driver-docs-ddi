@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3bf33ebb-bdb1-487d-b10f-1f00227d7128
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtldeleteelementgenerictable, RtlDeleteElementGenericTable routine [Installable File System Drivers], RtlDeleteElementGenericTable, rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml, ntddk/RtlDeleteElementGenericTable
+ms.keywords: rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml, ifsk.rtldeleteelementgenerictable, ntddk/RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], RtlDeleteElementGenericTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN RtlDeleteElementGenericTable(
 
 
 
-#### - Table [in]
+### -param Table [in]
 
 A pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a caller-allocated buffer containing a value that uniquely identifies the element to be deleted.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: beb630e7-9667-4bc2-bf35-69db6cf0b104
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfiorequest_impersonate, IWDFIoRequest, UMDFRequestObjectRef_a5f40359-edc8-42e1-a63d-99390abeba86.xml, Impersonate method, wudfddi/IWDFIoRequest::Impersonate, IWDFIoRequest::Impersonate, Impersonate method, IWDFIoRequest interface, IWDFIoRequest interface, Impersonate method, wdf.iwdfiorequest_impersonate, Impersonate
+ms.keywords: wudfddi/IWDFIoRequest::Impersonate, IWDFIoRequest interface, Impersonate method, Impersonate method, Impersonate, IWDFIoRequest, Impersonate method, IWDFIoRequest interface, IWDFIoRequest::Impersonate, UMDFRequestObjectRef_a5f40359-edc8-42e1-a63d-99390abeba86.xml, wdf.iwdfiorequest_impersonate, umdf.iwdfiorequest_impersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT Impersonate(
 
 
 
-#### - ImpersonationLevel [in]
+### -param ImpersonationLevel [in]
 
 A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
 
-#### - pCallback [in]
+### -param pCallback [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
 
 
-#### - pvCallbackContext [in, optional]
+### -param pvCallbackContext [in, optional]
 
 A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a> method. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a context. 
 
@@ -103,13 +103,13 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
 
  
 

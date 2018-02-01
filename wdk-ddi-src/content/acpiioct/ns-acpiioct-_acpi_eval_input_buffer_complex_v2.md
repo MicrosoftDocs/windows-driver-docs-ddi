@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: EAF78C14-7BE1-4441-B372-5AB0711E1F19
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2 structure [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, acpi.acpi_eval_input_buffer_complex_v2
+ms.keywords: acpi.acpi_eval_input_buffer_complex_v2, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2 structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2 {
 
 
 
-#### - DUMMYUNIONNAME
+### -field DUMMYUNIONNAME
 
 Defines the method name member of <b>DUMMYUNIONNAME</b>.
 
@@ -89,17 +89,17 @@ Defines the method name member of <b>DUMMYUNIONNAME</b>.
  
 
 
-#### - Signature
+### -field Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 
 
-#### - Size
+### -field Size
 
 Defines the <b>ULONG</b> member <b>Size</b>.
 
 
-#### - ArgumentCount
+### -field ArgumentCount
 
 Defines the <b>ULONG</b> member <b>ArgumentCount</b>.
 

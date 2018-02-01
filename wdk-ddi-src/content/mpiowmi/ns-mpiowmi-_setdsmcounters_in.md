@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fb8cebec-0cf8-4649-8b91-cd4f9935fac9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.setdsmcounters_in, structs-scsibus_683362cd-cba9-41b8-9e46-9cf6a22fbbf5.xml, SetDSMCounters_IN, PSetDSMCounters_IN, *PSetDSMCounters_IN, PSetDSMCounters_IN structure pointer [Storage Devices], mpiowmi/PSetDSMCounters_IN, SetDSMCounters_IN structure [Storage Devices], _SetDSMCounters_IN, mpiowmi/SetDSMCounters_IN
+ms.keywords: "_SetDSMCounters_IN, PSetDSMCounters_IN structure pointer [Storage Devices], SetDSMCounters_IN, mpiowmi/PSetDSMCounters_IN, PSetDSMCounters_IN, storage.setdsmcounters_in, *PSetDSMCounters_IN, structs-scsibus_683362cd-cba9-41b8-9e46-9cf6a22fbbf5.xml, SetDSMCounters_IN structure [Storage Devices], mpiowmi/SetDSMCounters_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SetDSMCounters_IN {
 
 
 
-#### - DsmContext
+### -field DsmContext
 
 A 64-bitfield that provides the DSM context.
 
 
-#### - DsmCounters
+### -field DsmCounters
 
 A structure of type DSM_COUNTERS.
 

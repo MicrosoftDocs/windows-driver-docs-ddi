@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f3cc9b23-6140-4cb2-959d-c76f23c697ea
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffileobject/WdfFileObjectWdmGetFileObject, WdfFileObjectWdmGetFileObject, DFFileObjectRef_1631ea08-9156-4de4-85e6-9368b89ae0f4.xml, PFN_WDFFILEOBJECTWDMGETFILEOBJECT, wdf.wdffileobjectwdmgetfileobject, kmdf.wdffileobjectwdmgetfileobject, WdfFileObjectWdmGetFileObject method
+ms.keywords: wdffileobject/WdfFileObjectWdmGetFileObject, PFN_WDFFILEOBJECTWDMGETFILEOBJECT, wdf.wdffileobjectwdmgetfileobject, kmdf.wdffileobjectwdmgetfileobject, WdfFileObjectWdmGetFileObject method, WdfFileObjectWdmGetFileObject, DFFileObjectRef_1631ea08-9156-4de4-85e6-9368b89ae0f4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PFILE_OBJECT WdfFileObjectWdmGetFileObject(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A handle to a framework file object.
 

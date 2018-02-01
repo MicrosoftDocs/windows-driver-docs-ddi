@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 17f5d8bf-a3e7-4ff5-9019-24c66875b786
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/PSIMULATE_CAPS_1, print.simulate_caps_1, SIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], *PSIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1, PSIMULATE_CAPS_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, _SIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices]
+ms.keywords: print.simulate_caps_1, _SIMULATE_CAPS_1, printoem/PSIMULATE_CAPS_1, SIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], PSIMULATE_CAPS_1, *PSIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices], printoem/SIMULATE_CAPS_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _SIMULATE_CAPS_1 {
 
 
 
-#### - dwLevel
+### -field dwLevel
 
 Specifies the version of this structure. This value must be 1.
 
 
-#### - dwPageOrderFlags
+### -field dwPageOrderFlags
 
 Specifies the order in which pages will be printed. This member can be set to one of the following values:
 <table>
@@ -118,17 +118,17 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 </table> 
 
 
-#### - dwNumberOfCopies
+### -field dwNumberOfCopies
 
 Specifies the maximum number of copies the spooler can handle.
 
 
-#### - dwCollate
+### -field dwCollate
 
 Specifies whether the spooler supports collation. A value of 1 indicates that the spooler supports collation, and a value of 0 indicates that it does not.
 
 
-#### - dwNupOptions
+### -field dwNupOptions
 
 Is a bitmask representing the various numbers of document pages the printer can print on a physical page. The least significant bit represents 1 document page per page, the next bit represents 2 document pages per page, the next bit represents 3 document pages per physical page, and so on. For example, 0x0000810B indicates that the spooler supports 1, 2, 4, 9, and 16 document pages per physical page.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0BC6A03C-CF6D-4F56-985E-933E87200DFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices], _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, audio.ksaudio_packetsize_processingmode_constraint
+ms.keywords: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices], KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, audio.ksaudio_packetsize_processingmode_constraint, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT {
 
 
 
-#### - ProcessingMode
+### -field ProcessingMode
 
 The signal processing mode that this constraint applies to.
 
 
-#### - SamplesPerProcessingPacket
+### -field SamplesPerProcessingPacket
 
 The processing frame size for the processing mode, expressed in number of samples. If this value is 0, the constraint is expressed by the <b>ProcessingPacketDurationInHns</b> field.
 
 
-#### - ProcessingPacketDurationInHns
+### -field ProcessingPacketDurationInHns
 
 The processing frame size for the processing mode, expressed in hundred-nanosecond (HNS) units. This field is ignored if <b>SamplesPerProcessingPacket</b> is nonzero.
 

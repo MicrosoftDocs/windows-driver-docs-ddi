@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0b5f791a-9814-4058-8ee0-8f113ca3ade2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], k109_67399c4f-a942-4493-b141-6824b6de570c.xml, kernel.rtlutf8tounicoden
+ms.keywords: RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], kernel.rtlutf8tounicoden, wdm/RtlUTF8ToUnicodeN, k109_67399c4f-a942-4493-b141-6824b6de570c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUTF8ToUnicodeN(
 
 
 
-#### - UnicodeStringDestination [out, optional]
+### -param UnicodeStringDestination [out, optional]
 
 A pointer to a caller-allocated destination buffer into which the routine writes the Unicode output string. If this parameter is <b>NULL</b>, the routine writes the required size of the output buffer to *<i>UnicodeStringActualByteCount</i>. 
 
 
-#### - UnicodeStringMaxByteCount [in]
+### -param UnicodeStringMaxByteCount [in]
 
 Specifies the maximum number of bytes that the routine can write to the buffer that <i>UnicodeStringDestination</i> points to. If <i>UnicodeStringDestination</i> = <b>NULL</b>, set <i>UnicodeStringMaxByteCount</i> = 0. 
 
 
-#### - UnicodeStringActualByteCount [out]
+### -param UnicodeStringActualByteCount [out]
 
 A pointer to a location into which the routine writes the actual number of bytes that the routine has written to the buffer that <i>UnicodeStringDestination</i> points to. If <i>UnicodeStringDestination</i> is non-<b>NULL</b>, this count never exceeds the value of <i>UnicodeStringMaxByteCount</i>. If <i>UnicodeStringDestination</i> is <b>NULL</b>, this count is the number of bytes that are required to contain the entire output string. 
 
 
-#### - UTF8StringSource [in]
+### -param UTF8StringSource [in]
 
 A pointer to the UTF-8 source string.
 
 
-#### - UTF8StringByteCount [in]
+### -param UTF8StringByteCount [in]
 
 Specifies the number of bytes in the UTF-8 source string that the <i>UTF8StringSource</i> parameter points to. 
 

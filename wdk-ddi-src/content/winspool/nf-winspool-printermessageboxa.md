@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6C238FF8-1EBC-4E3B-9184-D82F5A39DA2F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PrinterMessageBoxA, PrinterMessageBoxA function [Print Devices], winspool/PrinterMessageBoxA, print.printermessageboxa
+ms.keywords: print.printermessageboxa, PrinterMessageBoxA function [Print Devices], PrinterMessageBoxA, winspool/PrinterMessageBoxA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,26 +73,26 @@ DWORD WINAPI PrinterMessageBoxA(
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 
 
-#### - Error
+### -param Error
 
 
 
-#### - hWnd [in]
+### -param hWnd [in]
 
 
 
-#### - pText [in]
+### -param pText [in]
 
 
 
-#### - pCaption [in]
+### -param pCaption [in]
 
 
 
-#### - dwType
+### -param dwType
 
 

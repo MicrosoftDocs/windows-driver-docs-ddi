@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a633bc30-521f-4fdb-a4c0-4f72e619c28a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILHIDEIDSETTINGS, rilapitypes/RILHIDEIDSETTINGS, netvista.rilhideidsettings_2, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILHIDEIDSETTINGS, *LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideidsettings_2, rilapitypes/RILHIDEIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _RILHIDEIDSETTINGS {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwStatus
+### -field dwStatus
 
 
 
-#### - dwProvisioning
+### -field dwProvisioning
 
 

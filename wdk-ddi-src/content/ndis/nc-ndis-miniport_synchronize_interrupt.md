@@ -78,12 +78,12 @@ typedef MINIPORT_SYNCHRONIZE_INTERRUPT (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
 
 
 
-#### - SynchronizeContext [in]
+### -param SynchronizeContext [in]
 
 A handle to a context area that is supplied when the miniport driver's 
      <i>MiniportXxx</i> or internal function called the 
-     <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-     NdisMSynchronizeWithInterruptEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+     NdisMSynchronizeWithInterruptEx</a> function.
 
 
 ## -returns
@@ -107,8 +107,8 @@ A handle to a context area that is supplied when the miniport driver's
 
 To synchronize access to shared resources with 
     <i>MiniportInterrupt</i>, lower priority driver functions must call the 
-    <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-    NdisMSynchronizeWithInterruptEx</b></mshelp:link> function. The driver's 
+    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    NdisMSynchronizeWithInterruptEx</a> function. The driver's 
     <i>MiniportSynchronizeInterrupt</i> function accesses the shared resources at DIRQL. Calling 
     <b>NdisMSynchronizeWithInterruptEx</b> prevents race conditions and deadlocks in such a miniport
     driver.
@@ -119,8 +119,8 @@ Any lower priority driver functions that share resources among themselves (but n
 <i>MiniportSynchronizeInterrupt</i> runs at the DIRQL assigned when the driver's 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
     calls the 
-    <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
-    NdisMRegisterInterruptEx</b></mshelp:link> function. Like any driver function that runs at DIRQL, 
+    <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+    NdisMRegisterInterruptEx</a> function. Like any driver function that runs at DIRQL, 
     <i>MiniportSynchronizeInterrupt</i> should return control back to the caller as quickly as possible, and
     it can call only those 
     <b>Ndis<i>Xxx</i></b> functions that are safe to call at any IRQL.
@@ -184,16 +184,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
  
 

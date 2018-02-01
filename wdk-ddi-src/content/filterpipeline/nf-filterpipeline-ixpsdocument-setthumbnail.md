@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 47211c8f-e112-47fd-bd9e-57ff7ec586a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline/IXpsDocument::SetThumbnail, SetThumbnail, SetThumbnail method [Print Devices], SetThumbnail method [Print Devices], IXpsDocument interface, IXpsDocument::SetThumbnail, IXpsDocument, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, IXpsDocument interface [Print Devices], SetThumbnail method, print.ixpsdocument_setthumbnail
+ms.keywords: SetThumbnail method [Print Devices], IXpsDocument interface, SetThumbnail, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, print.ixpsdocument_setthumbnail, SetThumbnail method [Print Devices], IXpsDocument, IXpsDocument::SetThumbnail, IXpsDocument interface [Print Devices], SetThumbnail method, filterpipeline/IXpsDocument::SetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetThumbnail(
 
 
 
-#### - pThumbnail [in]
+### -param pThumbnail [in]
 
 A pointer to a new thumbnail.
 

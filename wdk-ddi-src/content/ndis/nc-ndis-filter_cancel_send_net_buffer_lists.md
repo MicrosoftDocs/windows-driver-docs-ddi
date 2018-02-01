@@ -77,14 +77,14 @@ typedef FILTER_CANCEL_SEND_NET_BUFFER_LISTS (*FILTER_CANCEL_SEND_HANDLER);
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to a context area that the filter driver allocated in its 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function. The filter driver
      uses this context area to maintain state information for a filter module.
 
 
-#### - CancelId [in]
+### -param CancelId [in]
 
 A cancellation identifier. This identifier specifies the NET_BUFFER_LIST structures that are being
      canceled.
@@ -103,8 +103,8 @@ None
 The
     <i>FilterCancelSendNetBufferLists</i> function is optional. If a filter driver does not filter send
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function.
 
 Filter drivers that queue 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures before sending
@@ -114,10 +114,10 @@ Filter drivers that queue
     NET_BUFFER_LIST structures.
 
 When an overlying NDIS driver calls the 
-    <mshelp:link keywords="netvista.ndiscancelsendnetbufferlists" tabindex="0"><b>
-    NdisCancelSendNetBufferLists</b></mshelp:link> or 
-    <mshelp:link keywords="netvista.ndisfcancelsendnetbufferlists" tabindex="0"><b>
-    NdisFCancelSendNetBufferLists</b></mshelp:link> function, NDIS calls the 
+    <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+    NdisCancelSendNetBufferLists</a> or 
+    <a href="..\ndis\nf-ndis-ndisfcancelsendnetbufferlists.md">
+    NdisFCancelSendNetBufferLists</a> function, NDIS calls the 
     <i>FilterCancelSendNetBufferLists</i> function of the filter modules on the binding.
 
 A filter driver's 
@@ -126,8 +126,8 @@ A filter driver's
 <li>
 Traverses its list of queued NET_BUFFER_LIST structures for the specified filter module and calls
       the 
-      <mshelp:link keywords="netvista.ndis_get_net_buffer_list_cancel_id" tabindex="0"><b>
-      NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link> macro to obtain the cancellation identifier for each queued
+      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+      NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a> macro to obtain the cancellation identifier for each queued
       NET_BUFFER_LIST structure. The filter driver compares the cancellation ID that
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID returns with the cancellation ID that NDIS passed to 
       <i>FilterCancelSendNetBufferLists</i>.
@@ -141,8 +141,8 @@ Removes from the send queue (unlinks) all
 </li>
 <li>
 Calls the 
-      <mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
-      NdisFSendNetBufferListsComplete</b></mshelp:link> function for all unlinked NET_BUFFER_LIST structures to return
+      <a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
+      NdisFSendNetBufferListsComplete</a> function for all unlinked NET_BUFFER_LIST structures to return
       the structures. The filter driver sets the status field of the NET_BUFFER_LIST structures to
       NDIS_STATUS_SEND_ABORTED.
 
@@ -190,24 +190,24 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-<mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisFSendNetBufferListsComplete</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisfcancelsendnetbufferlists.md">
+   NdisFCancelSendNetBufferLists</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
-<mshelp:link keywords="netvista.ndis_get_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
+   NdisFSendNetBufferListsComplete</a>
 
-<mshelp:link keywords="netvista.ndisfcancelsendnetbufferlists" tabindex="0"><b>
-   NdisFCancelSendNetBufferLists</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

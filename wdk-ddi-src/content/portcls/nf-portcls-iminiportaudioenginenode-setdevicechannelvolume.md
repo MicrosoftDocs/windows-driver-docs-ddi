@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 05DA619B-B36A-4E14-9F63-E12E90E0BDCD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume, audio.iminiportaudioenginenode_setdevicechannelvolume, IMiniportAudioEngineNode, SetDeviceChannelVolume, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode::SetDeviceChannelVolume, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelVolume method
+ms.keywords: SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelVolume method, audio.iminiportaudioenginenode_setdevicechannelvolume, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceChannelVolume, portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume, IMiniportAudioEngineNode, IMiniportAudioEngineNode::SetDeviceChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS SetDeviceChannelVolume(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-#### - ulChannel [in]
+### -param ulChannel [in]
 
 The audio device channel.
 
 
-#### - lVolume [in]
+### -param lVolume [in]
 
 The volume level to which the channel will be set.
 

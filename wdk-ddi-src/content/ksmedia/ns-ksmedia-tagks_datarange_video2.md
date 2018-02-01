@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bddb19cb-7705-470b-ad22-14fd72f3db11
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_DATARANGE_VIDEO2, tagKS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], ksmedia/PKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml, *PKS_DATARANGE_VIDEO2, stream.ks_datarange_video2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices]
+ms.keywords: ksmedia/PKS_DATARANGE_VIDEO2, ksmedia/KS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml, tagKS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], stream.ks_datarange_video2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct tagKS_DATARANGE_VIDEO2 {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the major identifier for the format.
 
 
-#### - bFixedSizeSamples
+### -field bFixedSizeSamples
 
 Specifies that all the samples are the same size if set to <b>TRUE</b>.
 
 
-#### - bTemporalCompression
+### -field bTemporalCompression
 
 Specifies whether each sample can stand independently on its own, without relying on previous or future samples.
 
 
-#### - StreamDescriptionFlags
+### -field StreamDescriptionFlags
 
 Unused and should be set to zero.
 
 
-#### - MemoryAllocationFlags
+### -field MemoryAllocationFlags
 
 Unused and should be set to zero.
 
 
-#### - ConfigCaps
+### -field ConfigCaps
 
 Specifies the configuration of the stream, including scaling, cropping, and frame and data rates.
 
 
-#### - VideoInfoHeader
+### -field VideoInfoHeader
 
 Specifies the details of the video stream.
 

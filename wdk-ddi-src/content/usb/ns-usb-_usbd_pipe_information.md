@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbd_pipe_information, _USBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml, *PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], usb/USBD_PIPE_INFORMATION, usb/PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION
+ms.keywords: usb/USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, usb/PUSBD_PIPE_INFORMATION, buses.usbd_pipe_information, PUSBD_PIPE_INFORMATION structure pointer [Buses], usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml, USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], _USBD_PIPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,19 +74,19 @@ typedef struct _USBD_PIPE_INFORMATION {
 
 
 
-#### - MaximumPacketSize
+### -field MaximumPacketSize
 
 Specifies the maximum packet size, in bytes, that this pipe handles. This value must be less than or equal to the value of <b>wMaxPacketSize</b> in the endpoint descriptor. The USB stack ignores this value if the USBD_PF_CHANGE_MAX_PACKET flag is not set in the <b>PipeFlags</b> member. 
 
 For high-speed isochronous endpoints, the received <b>MaximumPacketSize</b> value includes the number of bytes that can be transferred in additional transactions, if the endpoint supports them. For more information, see Remarks.
 
 
-#### - EndpointAddress
+### -field EndpointAddress
 
 Specifies the bus address for this pipe.
 
 
-#### - Interval
+### -field Interval
 
 Contains the polling interval, indicated by the <b>bInterval</b> field in the corresponding endpoint descriptor (<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>). This value is only valid for interrupt and isochronous pipes.  For other types of pipe, this value should be ignored. It reflects the device's configuration in firmware. Drivers cannot change it. 
 
@@ -217,24 +217,24 @@ The supported polling periods for high-speed isochronous transfers are 1, 2, 4, 
 The mappings in the preceding tables between periods and polling intervals are valid in Microsoft Windows 2000 and later versions of the Windows operating system.
 
 
-#### - PipeType
+### -field PipeType
 
 Specifies what type of transfers this pipe uses. These values are defined in the <a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a> enumeration.
 
 
-#### - PipeHandle
+### -field PipeHandle
 
 Specifies an opaque handle to the bulk or interrupt pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.    
 
 
-#### - MaximumTransferSize
+### -field MaximumTransferSize
 
 Specifies the maximum size, in bytes, for a transfer request on this pipe. In Windows Server 2003, Windows XP and later operating systems, this member is not used and does not contain valid data. 
 
 For information about the maximum transfer sizes of each type of USB endpoint in different versions of Windows, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538112">USB Transfer and Packet Sizes</a>.
 <div class="alert"><b>Note</b>  For WinUSB, do not use <b>MaximumTransferSize</b> to determine the maximum size of a USB transfer. Instead, use the MAXIMUM_TRANSFER_SIZE value retrieved by  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>.</div><div> </div>
 
-#### - PipeFlags
+### -field PipeFlags
 
 Contains a bitwise-OR of pipe flags that the driver can use to specify certain configurable characteristics of the pipe. The driver specifies these pipe characteristics when it selects the configuration of a USB device with a URB request whose function type is URB_FUNCTION_SELECT_CONFIGURATION. 
 

@@ -70,7 +70,7 @@ VOID WinDbgExtensionDllInit(
 
 
 
-#### - lpExtensionApis
+### -param lpExtensionApis
 
 A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to functions that you can use for standard operations. Copy the entire structure to a global variable in your DLL. For example, you could create a  global variable named ExtensionApis as shown in the following example.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -84,12 +84,12 @@ A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to fu
 </tr>
 </table></span></div>
 
-#### - MajorVersion
+### -param MajorVersion
 
 Specifies the Microsoft Windows build type. A value of 0xC indicates the checked build of Windows. A value of 0xF indicates the free build of Windows.   Save this value in a global variable in your DLL. For example, you could create a global variable named SavedMajorVersion.
 
 
-#### - MinorVersion
+### -param MinorVersion
 
 Specifies the Windows build number (for example 2600) of the target system. Save this value in a global variable in your DLL. For example, you could create a global variable named SavedMinorVersion.
 

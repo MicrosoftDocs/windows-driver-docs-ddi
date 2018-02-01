@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6F7DE233-D002-4927-80FC-307A3A33653A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/STORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES structure pointer [Storage Devices], LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_REPORTED, _STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES structure [Storage Devices], PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_DEDICATED_TO_LUN, storage.storage_lb_provisioning_map_resources, STORAGE_LB_PROVISIONING_MAP_RESOURCES"
+ms.keywords: ntddstor/STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_DEDICATED_TO_LUN, storage.storage_lb_provisioning_map_resources, _STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES structure [Storage Devices], PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, *PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES structure pointer [Storage Devices], LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_REPORTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,17 +78,17 @@ typedef struct _STORAGE_LB_PROVISIONING_MAP_RESOURCES {
 
 
 
-#### - Size
+### -field Size
 
 The size of this structure. This is set to <b>sizeof</b>(STORAGE_LB_PROVISIONING_MAP_RESOURCES).
 
 
-#### - Version
+### -field Version
 
 The version of this structure.
 
 
-#### - AvailableMappingResourcesValid
+### -field AvailableMappingResourcesValid
 
 The validity of the <b>AvailableMappingResources</b> member.
 <table>
@@ -121,7 +121,7 @@ The validity of the <b>AvailableMappingResources</b> member.
 </table> 
 
 
-#### - UsedMappingResourcesValid
+### -field UsedMappingResourcesValid
 
 The validity of the <b>UsedMappingResources</b> member.
 <table>
@@ -154,17 +154,17 @@ The validity of the <b>UsedMappingResources</b> member.
 </table> 
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 
 
-#### - AvailableMappingResourcesScope
+### -field AvailableMappingResourcesScope
 
 Resources scope available to a LUN or a LUN pool.
 <table>
@@ -208,7 +208,7 @@ Mapping resources dedicated to a LUN pool.
 </table> 
 
 
-#### - UsedMappingResourcesScope
+### -field UsedMappingResourcesScope
 
 Resources scope used by a LUN or LUN pool.
 <table>
@@ -252,22 +252,22 @@ Mapping resources dedicated to a LUN pool.
 </table> 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved.
 
 
-#### - AvailableMappingResources
+### -field AvailableMappingResources
 
 The count, in bytes, of the available mapping resources for a disk.
 
 
-#### - UsedMappingResources
+### -field UsedMappingResources
 
 The count, in bytes, of the used mapping resources for a disk.
 

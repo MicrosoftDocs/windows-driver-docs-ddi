@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSendMessage function [Installable File System Drivers], FltSendMessage, ifsk.fltsendmessage, FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, fltkernel/FltSendMessage
+ms.keywords: FltSendMessage, FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, ifsk.fltsendmessage, fltkernel/FltSendMessage, FltSendMessage function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,37 +73,37 @@ NTSTATUS FltSendMessage(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - ClientPort [in]
+### -param ClientPort [in]
 
 A pointer to a variable that contains the opaque client port pointer for the connection port between the user-mode application and the kernel-mode minifilter driver. For more information about the client port pointer, see the description of the <i>ConnectNotifyCallback</i> parameter in the reference entry for <a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>. 
 
 
-#### - SenderBuffer [in]
+### -param SenderBuffer [in]
 
 A pointer to a caller-allocated buffer containing the message to be sent to the user-mode application. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - SenderBufferLength [in]
+### -param SenderBufferLength [in]
 
 Size, in bytes, of the buffer that <i>SenderBuffer </i>points to. See Remarks.
 
 
-#### - ReplyBuffer [out, optional]
+### -param ReplyBuffer [out, optional]
 
 A pointer to a caller-allocated buffer that receives the reply (if any) from the application. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - ReplyLength [in, out]
+### -param ReplyLength [in, out]
 
 Size, in bytes, of the buffer that <i>ReplyBuffer </i>points to. 
 
 
-#### - Timeout [in, optional]
+### -param Timeout [in, optional]
 
 A pointer to a timeout value that specifies the total absolute or relative length of time, in units of 100 nanoseconds, for which the caller can be put into a wait state until the message is received by the user-mode application and until it receives a reply (if one is expected). Set to <b>NULL</b> if the caller can be put into a wait state indefinitely. 
 
@@ -209,13 +209,13 @@ Otherwise, the minifilter driver does not receive a reply, and <b>FltSendMessage
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
 
  
 

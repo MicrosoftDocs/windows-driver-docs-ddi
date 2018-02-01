@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f378a30f-7e6b-4c81-b98b-a5b40e9a1a17
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution, KeSynchronizeExecution, k105_2abf2438-6849-4069-8571-7d24d348056f.xml
+ms.keywords: k105_2abf2438-6849-4069-8571-7d24d348056f.xml, KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], wdm/KeSynchronizeExecution, kernel.kesynchronizeexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOLEAN KeSynchronizeExecution(
 
 
 
-#### - Interrupt [in, out]
+### -param Interrupt [in, out]
 
 A pointer to a set of interrupt objects. The caller obtained this pointer from the <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a> or <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> routine.
 
 
-#### - SynchronizeRoutine [in]
+### -param SynchronizeRoutine [in]
 
 Specifies a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff563928">SynchCritSection</a> routine whose execution is to be synchronized with the execution of the ISR assigned to the interrupt objects.
 
 
-#### - SynchronizeContext [in, optional]
+### -param SynchronizeContext [in, optional]
 
 A pointer to a caller-supplied context value to be passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563928">SynchCritSection</a> routine when it is called.
 

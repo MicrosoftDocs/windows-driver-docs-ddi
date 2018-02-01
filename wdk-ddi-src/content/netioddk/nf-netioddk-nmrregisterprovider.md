@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, NmrRegisterProvider, netioddk/NmrRegisterProvider
+ms.keywords: netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, NmrRegisterProvider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, NmrRegisterProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,16 +71,16 @@ NTSTATUS NmrRegisterProvider(
 
 
 
-#### - ProviderCharacteristics [in]
+### -param ProviderCharacteristics [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.npi_provider_characteristics" tabindex="0"><b>
-     NPI_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure that describes the characteristics of the provider module.
+     <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">
+     NPI_PROVIDER_CHARACTERISTICS</a> structure that describes the characteristics of the provider module.
      The provider module must make sure that this structure remains valid and resident in memory as long as
      the provider module is registered with the NMR.
 
 
-#### - ProviderContext [in]
+### -param ProviderContext [in]
 
 A pointer to a caller-supplied context for the registration. The provider module uses this context
      to keep track of the state of the provider registration. The contents of the provider module's
@@ -91,7 +91,7 @@ A pointer to a caller-supplied context for the registration. The provider module
      long as the provider module is registered with the NMR.
 
 
-#### - NmrProviderHandle [out]
+### -param NmrProviderHandle [out]
 
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the provider module. The provider module must save this handle and pass it as a parameter to the 
@@ -168,11 +168,11 @@ A provider module typically calls the
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
  
 

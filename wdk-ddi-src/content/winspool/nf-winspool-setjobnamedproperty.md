@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.setjobnamedproperty, winspool/SetJobNamedProperty, SetJobNamedProperty function [Print Devices], SetJobNamedProperty
+ms.keywords: SetJobNamedProperty function [Print Devices], winspool/SetJobNamedProperty, SetJobNamedProperty, print.setjobnamedproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,15 +70,15 @@ DWORD WINAPI SetJobNamedProperty(
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 
 
-#### - JobId [in]
+### -param JobId [in]
 
 TD
 
 
-#### - pProperty [in]
+### -param pProperty [in]
 
 

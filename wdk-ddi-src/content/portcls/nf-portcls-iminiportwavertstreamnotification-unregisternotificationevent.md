@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5b264784-7680-4c3b-9fc7-0609c53b53a2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTStreamNotification interface [Audio Devices], UnregisterNotificationEvent method, portcls/IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, audio.iminiportwavertstreamnotification_unregisternotificationevent, UnregisterNotificationEvent, UnregisterNotificationEvent method [Audio Devices], audmp-routines_db635e04-50ae-4aed-b5a5-dfb33f14d153.xml, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, UnregisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface
+ms.keywords: IMiniportWaveRTStreamNotification, audio.iminiportwavertstreamnotification_unregisternotificationevent, UnregisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, UnregisterNotificationEvent, audmp-routines_db635e04-50ae-4aed-b5a5-dfb33f14d153.xml, UnregisterNotificationEvent method [Audio Devices], portcls/IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, IMiniportWaveRTStreamNotification interface [Audio Devices], UnregisterNotificationEvent method, IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS UnregisterNotificationEvent(
 
 
 
-#### - NotificationEvent [in]
+### -param NotificationEvent [in]
 
 A pointer to a previously registered kernel event (PKEVENT) to be unregistered from notification as DMA progresses.
 

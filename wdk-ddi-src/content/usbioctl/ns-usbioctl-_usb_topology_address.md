@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5d8d6665-bfa1-4bc5-8168-7508624845e1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], USB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], buses.usb_topology_address, _USB_TOPOLOGY_ADDRESS, usbioctl/PUSB_TOPOLOGY_ADDRESS, usbioctl/USB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS
+ms.keywords: USB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, buses.usb_topology_address, usbioctl/USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS, usbioctl/PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], USB_TOPOLOGY_ADDRESS structure [Buses], _USB_TOPOLOGY_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _USB_TOPOLOGY_ADDRESS {
 
 
 
-#### - PciBusNumber
+### -field PciBusNumber
 
 Specifies the PCI bus number of the USB host controller to which the USB device is attached. 
 
 
-#### - PciDeviceNumber
+### -field PciDeviceNumber
 
 Specifies the PCI device number of the USB host controller to which the USB device is attached. 
 
 
-#### - PciFunctionNumber
+### -field PciFunctionNumber
 
 Specifies the PCI function number of the USB host controller to which the USB device is attached. 
 
@@ -92,12 +92,12 @@ Specifies the PCI function number of the USB host controller to which the USB de
  
 
 
-#### - RootHubPortNumber
+### -field RootHubPortNumber
 
 Specifies the root hub port number through which the USB device is connected.  The USB device can be connected to the root port directly, or it can be connected through 1 or more external USB hubs to the port. 
 
 
-#### - HubPortNumber
+### -field HubPortNumber
 
 An array containing the port number on each external hub (between the root hub and the device) through which the USB device is connected.  The first element of the array indicates the port on the hub that is connected directly to the root hub.  An array containing all zeros indicates that the device is connected directly to the root hub. 
 

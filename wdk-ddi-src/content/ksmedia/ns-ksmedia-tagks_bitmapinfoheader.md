@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77101494-97bb-4049-8c6c-cdb4ee82f312
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices], PKS_BITMAPINFOHEADER, ksmedia/PKS_BITMAPINFOHEADER, tagKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader
+ms.keywords: "*PKS_BITMAPINFOHEADER, ksmedia/KS_BITMAPINFOHEADER, vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, ksmedia/PKS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], tagKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct tagKS_BITMAPINFOHEADER {
 
 
 
-#### - biSize
+### -field biSize
 
 Specifies the size of the structure in bytes.
 
 
-#### - biWidth
+### -field biWidth
 
 Specifies the width of the bitmap in pixels.
 
 
-#### - biHeight
+### -field biHeight
 
 Specifies the height of the bitmap in pixels.
 
 
-#### - biPlanes
+### -field biPlanes
 
 Specifies the number of planes. This is always set to 1.
 
 
-#### - biBitCount
+### -field biBitCount
 
 Specifies the color bits per pixel. For example, 1, 4, 8, or 24.
 
 
-#### - biCompression
+### -field biCompression
 
 Specifies the compression scheme.
 
 
-#### - biSizeImage
+### -field biSizeImage
 
 Specifies the size of bitmap bits in bytes. (Only required if using compression.)
 
 
-#### - biXPelsPerMeter
+### -field biXPelsPerMeter
 
 Specifies the horizontal resolution in pixels per meter.
 
 
-#### - biYPelsPerMeter
+### -field biYPelsPerMeter
 
 Specifies the vertical resolution in pixels per meter.
 
 
-#### - biClrUsed
+### -field biClrUsed
 
 Specifies the number of colors used in the image.
 
 
-#### - biClrImportant
+### -field biClrImportant
 
 Specifies the number of important colors in the image.
 

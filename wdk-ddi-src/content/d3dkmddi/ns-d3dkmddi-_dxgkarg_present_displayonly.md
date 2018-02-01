@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7679d4f2-55c6-458c-afd3-020c3b7fd7e2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_PRESENT_DISPLAYONLY, display.dxgkarg_present_displayonly, d3dkmddi/DXGKARG_PRESENT_DISPLAYONLY, DXGKARG_PRESENT_DISPLAYONLY structure [Display Devices], _DXGKARG_PRESENT_DISPLAYONLY
+ms.keywords: display.dxgkarg_present_displayonly, DXGKARG_PRESENT_DISPLAYONLY, d3dkmddi/DXGKARG_PRESENT_DISPLAYONLY, DXGKARG_PRESENT_DISPLAYONLY structure [Display Devices], _DXGKARG_PRESENT_DISPLAYONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,67 +76,67 @@ typedef struct _DXGKARG_PRESENT_DISPLAYONLY {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which to restrict displaying.
 
 
-#### - pSource
+### -field pSource
 
 The virtual start address of the source image.
 
 
-#### - BytesPerPixel
+### -field BytesPerPixel
 
 The number of bytes per pixel in the source image.
 
 
-#### - Pitch
+### -field Pitch
 
 The pitch, in bytes, of each line in the source image—that is, the distance, in bytes, to the start of the next line.
 
 
-#### - Flags
+### -field Flags
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_d3dkmt_present_display_only_flags.md">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a> structure that identifies how to display the source image in the present operation.
 
 
-#### - NumMoves
+### -field NumMoves
 
 The number of screen-to-screen moves that are pointed to by the <b>pMoves</b> member.
 
 
-#### - pMoves
+### -field pMoves
 
 A pointer to a list of <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmt_move_rect.md">D3DKMT_MOVE_RECT</a> screen-to-screen moves.
 
 
-#### - NumDirtyRects
+### -field NumDirtyRects
 
 The number of dirty rectangles that are pointed to by the <b>pDirtyRect</b> member.
 
 
-#### - pDirtyRect
+### -field pDirtyRect
 
 A pointer to a list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dirty rectangles.
 
 
-#### - pfnPresentDisplayOnlyProgress
+### -field pfnPresentDisplayOnlyProgress
 
 Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_d3dkmt_present_display_only_flags.md">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_presentdisplayonly.md">DxgkDdiPresentDisplayOnly</a>
 
 <a href="https://msdn.microsoft.com/8970246b-b46f-464f-93b2-973cc351ed07">DxgkCbPresentDisplayOnlyProgress</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmt_move_rect.md">D3DKMT_MOVE_RECT</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_presentdisplayonly.md">DxgkDdiPresentDisplayOnly</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_d3dkmt_present_display_only_flags.md">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
  
 

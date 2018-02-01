@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5F1606D8-1E6F-494F-AE70-07A1EC1FEA47
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, kernel.pep_acpi_initialize_spb_i2c_resource, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE
+ms.keywords: pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, kernel.pep_acpi_initialize_spb_i2c_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE(
 
 
 
-#### - SlaveAddress [in]
+### -param SlaveAddress [in]
 
 The I2C bus address for this connection.
 
 
-#### - DeviceInitiated [in]
+### -param DeviceInitiated [in]
 
 If true, indicates that communication over this connection is initiated by the device.
 
 
-#### - ConnectionSpeed [in]
+### -param ConnectionSpeed [in]
 
 The maximum speed, in hertz, supported by this connection.
 
 
-#### - AddressingMode [in]
+### -param AddressingMode [in]
 
 Indicates that this device is in addressing mode.
 
 
-#### - ResourceSource [in]
+### -param ResourceSource [in]
 
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
@@ -105,32 +105,32 @@ qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
 
-#### - ResourceSourceIndex [in]
+### -param ResourceSourceIndex [in]
 
 This parameter should always be set to zero.
 
 
-#### - ResourceUsage [in]
+### -param ResourceUsage [in]
 
 Indicates if the resource is in use.
 
 
-#### - SharedMode [in]
+### -param SharedMode [in]
 
 Indicates if the resource is shared.
 
 
-#### - VendorData [in]
+### -param VendorData [in]
 
 A pointer to optional data that is specific to the serial bus connection type.
 
 
-#### - VendorDataLength [in]
+### -param VendorDataLength [in]
 
 The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
 
-#### - Resource [out]
+### -param Resource [out]
 
 A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_i2c_resource.md">PEP_ACPI_SPB_I2C_RESOURCE</a>.
 

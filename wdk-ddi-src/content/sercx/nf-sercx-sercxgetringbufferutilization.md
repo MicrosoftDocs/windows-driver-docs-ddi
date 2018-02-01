@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 8D4B8682-5713-47D6-A18E-F2EE44614DFB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetRingBufferUtilization method [Serial Ports], serports.sercxgetringbufferutilization, 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization
+ms.keywords: 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization, serports.sercxgetringbufferutilization, SerCxGetRingBufferUtilization method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID SerCxGetRingBufferUtilization(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - BytesUsed [out, optional]
+### -param BytesUsed [out, optional]
 
 The number of bytes of unread data that are currently contained in the type-ahead ring buffer that is used to store received data.
 
 
-#### - BufferSize [out, optional]
+### -param BufferSize [out, optional]
 
 The size, in bytes, of the type-ahead ring buffer that is used to store received data.
 

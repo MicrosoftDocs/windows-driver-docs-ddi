@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTAcquireKeyedMutex function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX, OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, display.d3dkmtacquirekeyedmutex, D3DKMTAcquireKeyedMutex, d3dkmthk/D3DKMTAcquireKeyedMutex
+ms.keywords: d3dkmthk/D3DKMTAcquireKeyedMutex, PFND3DKMT_ACQUIREKEYEDMUTEX, OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, display.d3dkmtacquirekeyedmutex, D3DKMTAcquireKeyedMutex function [Display Devices], D3DKMTAcquireKeyedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

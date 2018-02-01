@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemgetinfo, printoem/OEMGetInfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, OEMGetInfo function [Print Devices], OEMGetInfo
+ms.keywords: printoem/OEMGetInfo, OEMGetInfo function [Print Devices], OEMGetInfo, print.oemgetinfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,18 +70,18 @@ BOOL APIENTRY OEMGetInfo(
 
 
 
-#### - dwMode
+### -param dwMode
 
 
 
-#### - pBuffer [out]
+### -param pBuffer [out]
 
 
 
-#### - cbSize
+### -param cbSize
 
 
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 

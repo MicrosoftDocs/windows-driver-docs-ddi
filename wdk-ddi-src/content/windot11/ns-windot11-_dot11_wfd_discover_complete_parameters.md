@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0CAB1436-357F-4F9F-98F8-F05B3D86B00A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_discover_complete_parameters, windot11/PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, windot11/ DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, *PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista._dot11_wfd_discover_complete_parameters, _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/ DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, *PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following:
 <table>
@@ -96,27 +96,27 @@ Specifies the type, revision and size of the <b>DOT11_WFD_DISCOVER_COMPLETE_PARA
 </table> 
 
 
-#### - Status
+### -field Status
 
 The appropriate status code for the device discovery operation. If this value is not <b>NDIS_STATUS_SUCCESS</b>, the rest of the members in this structure must be set to 0.
 
 
-#### - uNumOfEntries
+### -field uNumOfEntries
 
 The total number of discovered devices in the list at <b>uListOffset</b>. The number of entries cannot exceed <b>DOT11_WFD_DISCOVER_COMPLETE_MAX_LIST_SIZE</b>.
 
 
-#### - uTotalNumOfEntries
+### -field uTotalNumOfEntries
 
 The total number of discovered devices in actually discovered  by the driver. The number of entries cannot exceed <b>DOT11_WFD_DISCOVER_COMPLETE_MAX_LIST_SIZE</b>.
 
 
-#### - uListOffset
+### -field uListOffset
 
 The offset in the <b>StatusBuffer</b> of <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> where the list of <a href="..\windot11\ns-windot11-_dot11_wfd_device_entry.md">DOT11_WFD_DEVICE_ENTRY</a> elements begins.
 
 
-#### - uListLength
+### -field uListLength
 
 The length, in bytes of the device list at <b>uListOffset</b>.
 

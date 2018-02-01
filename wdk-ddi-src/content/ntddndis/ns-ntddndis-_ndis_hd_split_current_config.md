@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 866fe9e6-0cb1-45cd-84b4-4e2df9c9c45a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_HD_SPLIT_CURRENT_CONFIG structure pointer [Network Drivers Starting with Windows Vista], header_data_split_ref_7275dcfc-6fe4-4648-9b4c-0b5a37aa850b.xml, *PNDIS_HD_SPLIT_CURRENT_CONFIG, PNDIS_HD_SPLIT_CURRENT_CONFIG, netvista.ndis_hd_split_current_config, NDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_HD_SPLIT_CURRENT_CONFIG, _NDIS_HD_SPLIT_CURRENT_CONFIG, ntddndis/PNDIS_HD_SPLIT_CURRENT_CONFIG
+ms.keywords: NDIS_HD_SPLIT_CURRENT_CONFIG, PNDIS_HD_SPLIT_CURRENT_CONFIG, _NDIS_HD_SPLIT_CURRENT_CONFIG, ntddndis/PNDIS_HD_SPLIT_CURRENT_CONFIG, PNDIS_HD_SPLIT_CURRENT_CONFIG structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_HD_SPLIT_CURRENT_CONFIG, netvista.ndis_hd_split_current_config, header_data_split_ref_7275dcfc-6fe4-4648-9b4c-0b5a37aa850b.xml, NDIS_HD_SPLIT_CURRENT_CONFIG structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_HD_SPLIT_CURRENT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _NDIS_HD_SPLIT_CURRENT_CONFIG {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -85,7 +85,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_HD_SPLIT_CURRENT_CONFIG_REVISION_1.
 
 
-#### - HardwareCapabilities
+### -field HardwareCapabilities
 
 The header-data split hardware capabilities that the miniport adapter supports. These capabilities
      should include capabilities that are currently disabled by INF file settings or through the 
@@ -129,7 +129,7 @@ The miniport adapter can split TCP frames with other TCP options in addition to 
        provider must be able to split the frame.</div><div> </div><div class="alert"><b>Note</b>  If a TCP header contains an unsupported TCP option, the NIC must split the frame
        at the beginning of the TCP header or must not split the frame.</div><div> </div>
 
-#### - CurrentCapabilities
+### -field CurrentCapabilities
 
 The current header-data split capabilities that the miniport adapter supports. The miniport driver
      uses the same flags that are defined for the 
@@ -137,7 +137,7 @@ The current header-data split capabilities that the miniport adapter supports. T
      that depend on the current configuration settings.
 
 
-#### - HDSplitFlags
+### -field HDSplitFlags
 
 A set of flags that reports the status of header-data split for a miniport adapter. NDIS sets this
      member with a bitwise OR of the following flags:
@@ -152,7 +152,7 @@ The miniport driver has enabled header-data split in the hardware. Otherwise, he
        is disabled.
 
 
-#### - HDSplitCombineFlags
+### -field HDSplitCombineFlags
 
 A set of flags that specify the current header-data split settings of a miniport adapter. The
      value of 
@@ -168,13 +168,13 @@ The miniport adapter is combining split frames. If header-data split is enabled 
        the miniport driver should combine the header and data before indicating the frame to NDIS.
 
 
-#### - BackfillSize
+### -field BackfillSize
 
 The backfill size, in bytes, that the miniport driver is using for the data portion of a split
      frame.
 
 
-#### - MaxHeaderSize
+### -field MaxHeaderSize
 
 The maximum size, in bytes, that the miniport driver is using for the header portion of a split
      frame. 
@@ -190,19 +190,19 @@ The maximum size, in bytes, that the miniport driver is using for the header por
 
 
 The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the 
-    <mshelp:link keywords="netvista.oid_gen_hd_split_current_config" tabindex="0">
-    OID_GEN_HD_SPLIT_CURRENT_CONFIG</mshelp:link> OID query request to obtain the current header-data split
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">
+    OID_GEN_HD_SPLIT_CURRENT_CONFIG</a> OID query request to obtain the current header-data split
     configuration of a miniport adapter.
 
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5a282acf-6084-4076-a69b-fe23c9eb4d6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasgetchangedvalueguid, wiasGetChangedValueGuid function [Imaging Devices], wiasGetChangedValueGuid, wiamdef/wiasGetChangedValueGuid, wiasFncs_b8b576d4-1470-4105-8725-928f70a1e3cc.xml
+ms.keywords: wiamdef/wiasGetChangedValueGuid, wiasGetChangedValueGuid function [Imaging Devices], wiasFncs_b8b576d4-1470-4105-8725-928f70a1e3cc.xml, image.wiasgetchangedvalueguid, wiasGetChangedValueGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ HRESULT _stdcall wiasGetChangedValueGuid(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure that contains the current property context.
 
 
-#### - bNoValidation
+### -param bNoValidation
 
 Indicates whether the property's current value should be validated against its set of valid values. If this parameter is set to <b>TRUE</b>, the function does not perform validation on the property. If it is <b>FALSE</b>, the function performs data validation. 
 
 
-#### - propID
+### -param propID
 
 Specifies the property identifier of the property being tested.
 
@@ -119,15 +119,15 @@ The driver should validate the property only after the driver has updated the va
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_changed_value_info.md">WIAS_CHANGED_VALUE_INFO</a>
 
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
 
  
 

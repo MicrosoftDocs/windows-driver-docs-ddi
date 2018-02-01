@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_POFX_DEVICE, *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, _STOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], storage.stor_pofx_device, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, storport/PSTOR_POFX_DEVICE, storport/STOR_POFX_DEVICE, STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE structure [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D0
+ms.keywords: STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, storport/PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D0, *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE structure [Storage Devices], storage.stor_pofx_device, STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, storport/STOR_POFX_DEVICE, _STOR_POFX_DEVICE, PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, PSTOR_POFX_DEVICE structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _PO_FX_DEVICE {
 
 
 
-#### - Version
+### -field Version
 
 The version number of this structure. Set this member to <b>STOR_POFX_DEVICE_VERSION_V1</b>.
 
 
-#### - Size
+### -field Size
 
 The size of this structure. Set this value to <b>STOR_POFX_DEVICE_SIZE</b>.
 
 
-#### - ComponentCount
+### -field ComponentCount
 
 The number of elements in the <b>Components</b> array. Set this member to 1. Currently, only a single component is supported for either a storage adapter or logical unit.
 
 
-#### - Flags
+### -field Flags
 
 The device power state capabilities flags. The miniport sets one or more of the PoFx device flags to enable or disable power state capabilities.
 
@@ -155,7 +155,7 @@ This flag indicates whether a device is available for dump when it is idle.
 </table> 
 
 
-#### - Components
+### -field Components
 
 This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
@@ -173,13 +173,13 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
 
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
  
 

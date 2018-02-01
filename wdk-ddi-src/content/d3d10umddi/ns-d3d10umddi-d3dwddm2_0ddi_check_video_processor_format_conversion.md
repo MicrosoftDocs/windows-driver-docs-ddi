@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3259CEB7-E902-4040-B99E-D0609935E804
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION structure [Display Devices], display.d3dwddm2_0ddi_check_video_processor_format_conversion, d3d10umddi/D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
+ms.keywords: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, display.d3dwddm2_0ddi_check_video_processor_format_conversion, D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION {
 
 
 
-#### - InputFormat
+### -field InputFormat
 
 Indicates the format of the video processor input.
 
 
-#### - InputColorSpace
+### -field InputColorSpace
 
 Indicates the colorspace of the video processor input.
 
 
-#### - OutputFormat
+### -field OutputFormat
 
 Indicates the format of the video processor output.
 
 
-#### - OutputColorSpace
+### -field OutputColorSpace
 
 Indicates the colorspace of the video processor output.
 
 
-#### - Supported
+### -field Supported
 
 The driver sets this to <b>TRUE</b> if the conversion between the input format/color space and the output format/color space is supported.
 

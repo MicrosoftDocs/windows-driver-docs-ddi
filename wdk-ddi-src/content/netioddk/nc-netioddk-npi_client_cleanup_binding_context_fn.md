@@ -75,7 +75,7 @@ typedef NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN * PNPI_CLIENT_CLEANUP_BINDING_CONT
 
 
 
-#### - ClientBindingContext [in]
+### -param ClientBindingContext [in]
 
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it has detached. The client module passes this pointer to the NMR when it
@@ -108,8 +108,8 @@ If the client module does not dynamically allocate the memory for its binding co
     <i>ClientCleanupBindingContext</i> callback function. If the client module does not implement a 
     <i>ClientCleanupBindingContext</i> callback function, then it must set the 
     <i>ClientCleanupBindingContext</i> member of the 
-    <mshelp:link keywords="netvista.npi_client_characteristics" tabindex="0"><b>
-    NPI_CLIENT_CHARACTERISTICS</b></mshelp:link> structure to <b>NULL</b> when it calls the 
+    <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">
+    NPI_CLIENT_CHARACTERISTICS</a> structure to <b>NULL</b> when it calls the 
     <a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a> function to register
     itself with the NMR.
 
@@ -120,15 +120,15 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
-
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
 
 <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
+<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
+
+<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
  
 

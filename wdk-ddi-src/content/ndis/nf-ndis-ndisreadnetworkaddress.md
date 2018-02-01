@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, ndis/NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], netvista.ndisreadnetworkaddress, NdisReadNetworkAddress
+ms.keywords: netvista.ndisreadnetworkaddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, ndis/NdisReadNetworkAddress, NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisReadNetworkAddress(
 
 
 
-#### - Status [out]
+### -param Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following:
@@ -82,36 +82,36 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
-#### NDIS_STATUS_SUCCESS
-
-The caller can use the address returned at 
-       <i>NetworkAddress</i> for the NIC.
-
-
 #### NDIS_STATUS_FAILURE
 
 There was no NIC address information available in the caller's registry 
        <b>Parameters</b> key or the value stored was not a string.
 
 
-#### - NetworkAddress [out]
+#### NDIS_STATUS_SUCCESS
+
+The caller can use the address returned at 
+       <i>NetworkAddress</i> for the NIC.
+
+
+### -param NetworkAddress [out]
 
 A pointer to a caller-supplied variable in which this function returns a pointer to a buffer that contains the
      network address (typically the MAC address), stored as a sequence of byte integers, if the call is successful.
 
 
-#### - NetworkAddressLength [out]
+### -param NetworkAddressLength [out]
 
 A pointer to a caller-supplied variable in which this function returns the number of bytes that
      are returned at 
      <i>NetworkAddress</i>.
 
 
-#### - ConfigurationHandle [in]
+### -param ConfigurationHandle [in]
 
 The configuration handle returned by the 
-     <mshelp:link keywords="netvista.ndisopenconfigurationex" tabindex="0"><b>
-     NdisOpenConfigurationEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+     NdisOpenConfigurationEx</a> function.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77B30ADC-27F2-4883-97FC-F6C29B539EE0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BDA_TUNER_TUNERSTATE structure [Streaming Media Devices], BDA_TUNER_TUNERSTATE, bdatypes/PBDA_TUNER_TUNERSTATE, _BDA_TUNER_TUNERSTATE, bdatypes/BDA_TUNER_TUNERSTATE, stream.bda_tuner_tunerstate, PBDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE, PBDA_TUNER_TUNERSTATE structure pointer [Streaming Media Devices]
+ms.keywords: bdatypes/BDA_TUNER_TUNERSTATE, _BDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE, PBDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE, stream.bda_tuner_tunerstate, bdatypes/PBDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE structure [Streaming Media Devices], PBDA_TUNER_TUNERSTATE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _BDA_TUNER_TUNERSTATE {
 
 
 
-#### - lResult
+### -field lResult
 
 
 
-#### - ulTuneLength
+### -field ulTuneLength
 
 
 
-#### - argbTuneData
+### -field argbTuneData
 
 

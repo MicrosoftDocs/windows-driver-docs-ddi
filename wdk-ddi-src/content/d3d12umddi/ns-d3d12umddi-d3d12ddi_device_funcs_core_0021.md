@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4E4C3DB3-9C4C-4BBC-82C4-C5C41C0B818C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0021 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_CORE_0021, display.d3d12ddi_device_funcs_core_0021, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0021
+ms.keywords: display.d3d12ddi_device_funcs_core_0021, D3D12DDI_DEVICE_FUNCS_CORE_0021, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0021, D3D12DDI_DEVICE_FUNCS_CORE_0021 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -234,17 +234,17 @@ typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0021 {
  
 
 
-#### - pfnCalcPrivatePipelineStateSize
+### -field pfnCalcPrivatePipelineStateSize
 
 A callback function that calculates the size of a private pipeline state.
 
 
-#### - pfnCreatePipelineState
+### -field pfnCreatePipelineState
 
 A callback function that creates a pipeline state.
 
 
-#### - pfnDestroyPipelineState
+### -field pfnDestroyPipelineState
 
 A callback function that destroys  a pipeline state.
 

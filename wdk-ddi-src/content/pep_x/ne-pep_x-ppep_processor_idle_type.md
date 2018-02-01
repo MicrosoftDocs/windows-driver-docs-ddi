@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PepIdleTypeProcessor, pep_x/PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_IDLE_TYPE, PepIdleTypePlatform, PEP_PROCESSOR_IDLE_TYPE, kernel.pep_processor_idle_type, pep_x/PepIdleTypePlatform, pep_x/PepIdleTypeMax, PepIdleTypeProcessor, PepIdleTypeMax
+ms.keywords: PepIdleTypePlatform, kernel.pep_processor_idle_type, PEP_PROCESSOR_IDLE_TYPE, pep_x/PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], pep_x/PepIdleTypeProcessor, pep_x/PepIdleTypePlatform, PepIdleTypeMax, pep_x/PepIdleTypeMax, *PPEP_PROCESSOR_IDLE_TYPE, PepIdleTypeProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _PEP_PROCESSOR_IDLE_TYPE {
 
 
 
-#### - PepIdleTypeProcessor
+### -field PepIdleTypeProcessor
 
 Apply to current processor.
 
 
-#### - PepIdleTypePlatform
+### -field PepIdleTypePlatform
 
 Apply to all processors.
 
 
-#### - PepIdleTypeMax
+### -field PepIdleTypeMax
 
 Reserved for use by operating system.
 

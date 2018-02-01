@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDISK_PERFORMANCE structure pointer [Storage Devices], PDISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, _DISK_PERFORMANCE, *PDISK_PERFORMANCE, DISK_PERFORMANCE, ntdddisk/DISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], storage.disk_performance
+ms.keywords: ntdddisk/DISK_PERFORMANCE, storage.disk_performance, PDISK_PERFORMANCE, _DISK_PERFORMANCE, DISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, ntdddisk/PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], DISK_PERFORMANCE structure [Storage Devices], *PDISK_PERFORMANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,62 +78,62 @@ typedef struct _DISK_PERFORMANCE {
 
 
 
-#### - BytesRead
+### -field BytesRead
 
 Contains a cumulative count of bytes read from the disk since the performance counters were enabled. 
 
 
-#### - BytesWritten
+### -field BytesWritten
 
 Contains a cumulative count of bytes written to the disk since the performance counters were enabled.
 
 
-#### - ReadTime
+### -field ReadTime
 
 Contains a cumulative time, expressed in increments of 100 nanoseconds, spent on disk reads since the performance counters were enabled. 
 
 
-#### - WriteTime
+### -field WriteTime
 
 Contains a cumulative time, expressed in increments of 100 nanoseconds, spent on disk reads since the performance counters were enabled. 
 
 
-#### - IdleTime
+### -field IdleTime
 
 Contains a cumulative time, expressed in increments of 100 nanoseconds, since the performance counters were enabled in which there was no disk activity. 
 
 
-#### - ReadCount
+### -field ReadCount
 
 Contains the number of disk accesses for reads since the performance counters were enabled. 
 
 
-#### - WriteCount
+### -field WriteCount
 
 Contains the number of disk accesses for writes since the performance counters were enabled.
 
 
-#### - QueueDepth
+### -field QueueDepth
 
 Contains a snapshot of the number of queued disk I/O requests at the time that the query for performance statistics was performed. 
 
 
-#### - SplitCount
+### -field SplitCount
 
 Contains the number of disk accesses by means of an associated IRP since the performance counters were enabled. 
 
 
-#### - QueryTime
+### -field QueryTime
 
 Contains a timestamp indicating the system time at the moment that the query took place. System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. For more information about system time, see <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>.
 
 
-#### - StorageDeviceNumber
+### -field StorageDeviceNumber
 
 Contains a unique number assigned to every disk or volume across a particular storage type. The storage types are <i>disk.sys</i>, <i>ftdisk.sys</i>, and <i>dmio.sys</i>. 
 
 
-#### - StorageManagerName
+### -field StorageManagerName
 
 Contains an 8-character string that indicates which device driver provided the performance statistics. In Windows 2000, this can be either "LogiDisk" for the driver <i>logidisk.sys</i> or "PhysDisk" for the driver <i>physdisk.sys</i>. These drivers collect performance statistics for devices and physical disks respectively. In Windows XP and later operating systems, this can be any of the following three strings: "FTDISK" for the driver <i>ftdisk.sys</i>, "DMIO" for the driver <i>dmio.sys</i>, or PARTMGR" for the driver <i>partmgr.sys</i>. These three drivers collect performance statistics for basic disk volumes, dynamic disk volumes, and physical disks respectively. Note that these strings are 8-character case-sensitive strings with blank fill. For example, in the case of the string "FTDISK", the <b>StorageManagerName</b> character array should contain two trailing blanks ("FTDISK&lt;b&gt;&lt;b&gt;"), and in the case of the string "DMIO", the array should contain four trailing blanks ("DMIO&lt;b&gt;&lt;b&gt;&lt;b&gt;&lt;b&gt;").
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxInitialize method [Serial Ports], 1/SerCxInitialize, serports.sercxinitialize, SerCxInitialize
+ms.keywords: serports.sercxinitialize, SerCxInitialize, 1/SerCxInitialize, SerCxInitialize method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS SerCxInitialize(
 
 
 
-#### - FxDevice [in]
+### -param FxDevice [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - Config [in]
+### -param Config [in]
 
 A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a> structure that contains configuration information for SerCx. The caller previously called the <a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a> function to initialize this structure.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8ccc097d-f997-43c1-a068-f2f532afa0d6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_3930c7d1-9295-4f62-867e-5e68729c45f3.xml, kernel.kesetsystemgroupaffinitythread, KeSetSystemGroupAffinityThread routine [Kernel-Mode Driver Architecture], wdm/KeSetSystemGroupAffinityThread, KeSetSystemGroupAffinityThread
+ms.keywords: KeSetSystemGroupAffinityThread, wdm/KeSetSystemGroupAffinityThread, kernel.kesetsystemgroupaffinitythread, k105_3930c7d1-9295-4f62-867e-5e68729c45f3.xml, KeSetSystemGroupAffinityThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID KeSetSystemGroupAffinityThread(
 
 
 
-#### - Affinity [in]
+### -param Affinity [in]
 
 A pointer to a <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> structure that specifies the new group number and group-relative affinity mask for the calling thread.
 
 
-#### - PreviousAffinity [out, optional]
+### -param PreviousAffinity [out, optional]
 
 A pointer to a caller-allocated <b>GROUP_AFFINITY</b> structure into which the routine writes information about the previous group affinity of the calling thread. The caller can later use this pointer as an input parameter to the <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a> routine to restore the previous thread affinity. Frequently, <b>KeSetSystemGroupAffinityThread</b> writes values to this structure that are not valid group affinities but that have special meaning to <b>KeRevertToUserGroupAffinityThread</b>. Do not supply pointers to these special values as <i>Affinity</i> parameters in subsequent <b>KeSetSystemGroupAffinityThread</b> calls.
 
@@ -135,11 +135,11 @@ If <b>KeSetSystemGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL and t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
-
 <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
 
 <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+
+<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
 
  
 

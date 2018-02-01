@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 41f8c9fc-7793-47c8-b381-4ef59dfde6b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS, netvista.rilradiostateitems_2, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRADIOSTATEITEMS
+ms.keywords: netvista.rilradiostateitems_2, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct _RILRADIOSTATEITEMS {
 
 
 
-#### - dwGroupId
+### -field dwGroupId
 
 
 
-#### - dwCntItems
+### -field dwCntItems
 
 
 
-#### - rilItems
+### -field rilItems
 
 

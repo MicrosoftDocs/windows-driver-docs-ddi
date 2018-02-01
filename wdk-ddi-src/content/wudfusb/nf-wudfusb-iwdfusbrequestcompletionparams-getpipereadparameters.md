@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams::GetPipeReadParameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, GetPipeReadParameters, GetPipeReadParameters method
+ms.keywords: IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, GetPipeReadParameters, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, GetPipeReadParameters method, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, IWDFUsbRequestCompletionParams::GetPipeReadParameters, IWDFUsbRequestCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ void GetPipeReadParameters(
 
 
 
-#### - ppReadMemory [out, optional]
+### -param ppReadMemory [out, optional]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface, for access to the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pBytesRead [out, optional]
+### -param pBytesRead [out, optional]
 
 A pointer to a variable that receives the size, in bytes, of the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pReadMemoryOffset [out, optional]
+### -param pReadMemoryOffset [out, optional]
 
 A pointer to a variable that receives the offset, in bytes, into the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 

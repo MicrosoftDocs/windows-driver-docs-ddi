@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 646a073b-e0c5-4d41-b60c-3935c129fb39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], kernel.halfreehardwarecounters, HalFreeHardwareCounters, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, ntddk/HalFreeHardwareCounters
+ms.keywords: kernel.halfreehardwarecounters, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], ntddk/HalFreeHardwareCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS HalFreeHardwareCounters(
 
 
 
-#### - CounterSetHandle [in]
+### -param CounterSetHandle [in]
 
 A handle to the allocated counter resources. The caller acquired this handle in a previous call to <b>HalAllocateHardwareCounters</b>.
 

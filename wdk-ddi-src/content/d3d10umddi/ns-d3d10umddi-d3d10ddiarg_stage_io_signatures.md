@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9639bdc8-9b2f-4911-8a09-d5cf16204cf4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_STAGE_IO_SIGNATURES, d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES, D3D10DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_877fde5f-64e9-455a-b7ed-453e4b6a9e15.xml, display.d3d10ddiarg_stage_io_signatures
+ms.keywords: UMDisplayDriver_Dx10param_Structs_877fde5f-64e9-455a-b7ed-453e4b6a9e15.xml, display.d3d10ddiarg_stage_io_signatures, d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES, D3D10DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], D3D10DDIARG_STAGE_IO_SIGNATURES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D10DDIARG_STAGE_IO_SIGNATURES {
 
 
 
-#### - pInputSignature
+### -field pInputSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_signature_entry.md">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature. 
 
 
-#### - NumInputSignatureEntries
+### -field NumInputSignatureEntries
 
 [in] The number of entries in the array that the <b>pInputSignature</b> member specifies. 
 
 
-#### - pOutputSignature
+### -field pOutputSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_signature_entry.md">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature. 
 
 
-#### - NumOutputSignatureEntries
+### -field NumOutputSignatureEntries
 
 [in] The number of entries in the array that the <b>pOutputSignature</b> member specifies. 
 

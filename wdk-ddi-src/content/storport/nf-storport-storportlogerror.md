@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f653e6bf-e99b-4aa2-aa54-d7482d326720
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortLogError, StorPortLogError routine [Storage Devices], storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml, storage.storportlogerror, storport/StorPortLogError
+ms.keywords: storport/StorPortLogError, storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml, StorPortLogError, StorPortLogError routine [Storage Devices], storage.storportlogerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,32 +75,32 @@ STORPORT_API VOID StorPortLogError(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - Srb [in, optional]
+### -param Srb [in, optional]
 
 Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>. 
 
 
-#### - PathId [in]
+### -param PathId [in]
 
 Identifies the SCSI bus. 
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 Identifies the target controller or device on the bus. 
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Identifies the logical unit number of the target device. 
 
 
-#### - ErrorCode [in]
+### -param ErrorCode [in]
 
 Specifies an error code indicating one of the following values as the type of error.
 <table>
@@ -211,7 +211,7 @@ Indicates that a target disconnected unexpectedly.
 </table> 
 
 
-#### - UniqueId [in]
+### -param UniqueId [in]
 
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i> value. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA. 
 
@@ -236,11 +236,11 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
 <a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
  
 

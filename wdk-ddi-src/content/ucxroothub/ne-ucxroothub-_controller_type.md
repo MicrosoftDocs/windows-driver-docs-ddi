@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E7DFBFFA-C65B-4757-8DB8-202760D6D3C6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ControllerTypeXhci, _CONTROLLER_TYPE enumeration [Buses], ucxroothub/ControllerTypeXhci, CONTROLLER_TYPE, ucxroothub/ControllerTypeSoftXhci, buses._controller_type, _CONTROLLER_TYPE, ucxroothub/_CONTROLLER_TYPE, ControllerTypeSoftXhci
+ms.keywords: ucxroothub/_CONTROLLER_TYPE, buses._controller_type, _CONTROLLER_TYPE, ucxroothub/ControllerTypeSoftXhci, _CONTROLLER_TYPE enumeration [Buses], ControllerTypeSoftXhci, ControllerTypeXhci, CONTROLLER_TYPE, ucxroothub/ControllerTypeXhci
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _CONTROLLER_TYPE {
 
 
 
-#### - ControllerTypeXhci
+### -field ControllerTypeXhci
 
 Indicates the USB host controller is an xHCI controller.
 
 
-#### - ControllerTypeSoftXhci
+### -field ControllerTypeSoftXhci
 
 Indicates the USB host controller is software an xHCI controller.
 

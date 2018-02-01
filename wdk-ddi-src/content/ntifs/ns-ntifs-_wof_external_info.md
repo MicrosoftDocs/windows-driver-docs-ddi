@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2522CDC6-C23A-4D9C-83BA-389B7D909619
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], ntifs/PWOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], *PWOF_EXTERNAL_INFO, ifsk.wof_external_info, _WOF_EXTERNAL_INFO
+ms.keywords: PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], PWOF_EXTERNAL_INFO, ntifs/PWOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO, ifsk.wof_external_info, _WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _WOF_EXTERNAL_INFO {
 
 
 
-#### - Version
+### -field Version
 
 The overlay service version. Set to WOF_CURRENT_VERSION. 
 
 
-#### - Provider
+### -field Provider
 
 The identifier of the data source provider. Valid provider identifiers  are WOF_PROVIDER_WIM for the Windows Image Format (WIM) provider, and WOF_PROVIDER_FILE for the individual compressed file provider.  WOF_PROVIDER_WIM is available starting with Windows 8.1 Update, WOF_PROVIDER_FILE is available starting with Windows 10.
 

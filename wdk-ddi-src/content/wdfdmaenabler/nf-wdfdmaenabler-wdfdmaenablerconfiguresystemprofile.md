@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3374EBB8-F43A-4A2A-92AC-623B39F5EFA0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerConfigureSystemProfile method, wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile, kmdf.wdfdmaenablerconfiguresystemprofile, wdf.wdfdmaenablerconfiguresystemprofile, PFN_WDFDMAENABLERCONFIGURESYSTEMPROFILE
+ms.keywords: wdf.wdfdmaenablerconfiguresystemprofile, WdfDmaEnablerConfigureSystemProfile method, wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile, kmdf.wdfdmaenablerconfiguresystemprofile, PFN_WDFDMAENABLERCONFIGURESYSTEMPROFILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfDmaEnablerConfigureSystemProfile(
 
 
 
-#### - DmaEnabler [in]
+### -param DmaEnabler [in]
 
 A handle to a DMA enabler object.
 
 
-#### - ProfileConfig [in]
+### -param ProfileConfig [in]
 
 A pointer to a <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md">WDF_DMA_SYSTEM_PROFILE_CONFIG</a> structure. Drivers must initialize this structure by calling <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>.
 
 
-#### - ConfigDirection [in]
+### -param ConfigDirection [in]
 
 A <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the DMA transfer operation. If the <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_profile.md">WDF_DMA_PROFILE</a> value for this enabler is not <b>WdfDmaProfileSystemDuplex</b>, the framework ignores this parameter.
 
@@ -165,13 +165,13 @@ If the DMA enabler is a duplex enabler, the driver must initialize a particular 
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45488748-fc7e-47a6-8427-479c63d74a27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_VIDEO_PALETTE structure [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE, vidcapstruct_8bba39d4-8ffb-41df-b314-f63fe26d66fa.xml, stream.ks_datarange_video_palette, ksmedia/PKS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE structure pointer [Streaming Media Devices], KS_DATARANGE_VIDEO_PALETTE, tagKS_DATARANGE_VIDEO_PALETTE
+ms.keywords: vidcapstruct_8bba39d4-8ffb-41df-b314-f63fe26d66fa.xml, PKS_DATARANGE_VIDEO_PALETTE, tagKS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE, ksmedia/PKS_DATARANGE_VIDEO_PALETTE, stream.ks_datarange_video_palette, KS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE structure pointer [Streaming Media Devices], KS_DATARANGE_VIDEO_PALETTE structure [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_PALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct tagKS_DATARANGE_VIDEO_PALETTE {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the major identifier for the format.
 
 
-#### - bFixedSizeSamples
+### -field bFixedSizeSamples
 
 Specifies that all the samples are the same size if set to <b>TRUE</b>.
 
 
-#### - bTemporalCompression
+### -field bTemporalCompression
 
 Specifies whether each sample can stand independently on its own, without relying on previous or future samples.
 
 
-#### - StreamDescriptionFlags
+### -field StreamDescriptionFlags
 
 Unused and should be set to zero.
 
 
-#### - MemoryAllocationFlags
+### -field MemoryAllocationFlags
 
 Unused and should be set to zero.
 
 
-#### - ConfigCaps
+### -field ConfigCaps
 
 Specifies the configuration of the stream, including scaling, cropping, and frame and data rates.
 
 
-#### - VideoInfo
+### -field VideoInfo
 
 Specifies the details of the video stream.
 

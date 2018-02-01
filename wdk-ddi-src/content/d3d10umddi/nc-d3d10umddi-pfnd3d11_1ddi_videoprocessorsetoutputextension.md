@@ -93,6 +93,11 @@ HRESULT APIENTRY* pfnVideoProcessorSetOutputExtension(
 
 
 
+#### - DataSize [in]
+
+The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -107,24 +112,19 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - pGuid [in]
-
-A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
-
-
-
-
-#### - DataSize [in]
-
-The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
-
-
 #### - pData [in]
 
 A pointer to a buffer that contains the private state data. 
 
 
 <div class="alert"><b>Note</b>  The Direct3D runtime does not validate the private state data in the buffer before it calls the  <b>VideoProcessorSetOutputExtension</b> function</div><div> </div>
+
+#### - pGuid [in]
+
+A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
+
+
+
 
 ## -returns
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: DA30F8BA-B920-458E-B7C7-8D7B7081507A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], PGET_LOCAL_HOST_INFO8 structure pointer [Buses], _GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8, 1394/PGET_LOCAL_HOST_INFO8, IEEE.get_local_host_info8, GET_LOCAL_HOST_INFO8
+ms.keywords: "*PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8 structure pointer [Buses], _GET_LOCAL_HOST_INFO8, IEEE.get_local_host_info8, GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], 1394/PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8, 1394/GET_LOCAL_HOST_INFO8"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _GET_LOCAL_HOST_INFO8 {
 
 
 
-#### - MajorVersion
+### -field MajorVersion
 
 The major version of the 1394 bus driver interface.
 
 
-#### - MinorVersion
+### -field MinorVersion
 
 The minor version of the 1394 bus driver interface.
 

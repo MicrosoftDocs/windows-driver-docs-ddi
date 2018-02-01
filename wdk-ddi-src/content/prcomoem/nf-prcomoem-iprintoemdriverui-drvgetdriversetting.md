@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 25e8aec7-86af-4753-83d7-e7df5435f602
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvGetDriverSetting, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface, prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, IPrintOemDriverUI::DrvGetDriverSetting, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUI, print.iprintoemdriverui_drvgetdriversetting, DrvGetDriverSetting method [Print Devices]
+ms.keywords: prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml, DrvGetDriverSetting method [Print Devices], print.iprintoemdriverui_drvgetdriversetting, IPrintOemDriverUI::DrvGetDriverSetting, DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT DrvGetDriverSetting(
 
 
 
-#### - pci
+### -param pci
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - Feature
+### -param Feature
 
 Caller-supplied value identifying the printer feature for which option settings are returned. This can be either a string pointer or a constant, as described in the following Remarks section.
 
 
-#### - pOutput
+### -param pOutput
 
 Caller-supplied pointer to a buffer to receive the specified information.
 
 
-#### - cbSize
+### -param cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutput</i>.
 
 
-#### - pcbNeeded
+### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the minimum buffer size required to contain the requested information.
 
 
-#### - pdwOptionsReturned
+### -param pdwOptionsReturned
 
 Caller-supplied pointer to a location to receive the number of option strings placed in <i>pOutput</i>.
 

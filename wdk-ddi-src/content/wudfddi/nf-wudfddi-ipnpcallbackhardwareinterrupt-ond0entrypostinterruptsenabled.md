@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6AA5AA6F-DC73-40E6-8EE0-CAA91D89A0E8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt, OnD0EntryPostInterruptsEnabled, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled method
+ms.keywords: OnD0EntryPostInterruptsEnabled method, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled method, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt, OnD0EntryPostInterruptsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,7 @@ HRESULT OnD0EntryPostInterruptsEnabled(
 
 
 
-#### - PreviousState [in]
+### -param PreviousState [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 88378f82-2975-4b53-9dde-53ab81df3c53
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcIsThereDirtyDataEx, CcIsThereDirtyDataEx routine [Installable File System Drivers], ntifs/CcIsThereDirtyDataEx, ifsk.ccistheredirtydataex, ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml
+ms.keywords: ntifs/CcIsThereDirtyDataEx, ifsk.ccistheredirtydataex, CcIsThereDirtyDataEx routine [Installable File System Drivers], CcIsThereDirtyDataEx, ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN CcIsThereDirtyDataEx(
 
 
 
-#### - Vpb [in]
+### -param Vpb [in]
 
 A pointer to a volume parameter block (VPB) for the volume. 
 
 
-#### - NumberOfDirtyPages [in, optional]
+### -param NumberOfDirtyPages [in, optional]
 
 An optional pointer to an unsigned long buffer that receives the number of dirty pages on the volume (associated with the Vpb parameter). 
 
@@ -94,9 +94,9 @@ This routine will return <b>TRUE</b> if any dirty pages exist including temporar
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
 <a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a2bcf1c0-a6c7-4bf3-bce6-9a661f2ab2e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, ntifs/FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards routine [Installable File System Drivers], FsRtlDoesNameContainWildCards, ifsk.fsrtldoesnamecontainwildcards
+ms.keywords: ifsk.fsrtldoesnamecontainwildcards, FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, FsRtlDoesNameContainWildCards, ntifs/FsRtlDoesNameContainWildCards
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FsRtlDoesNameContainWildCards(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 A pointer to the string to be checked.
 

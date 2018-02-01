@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7e52667-b4ef-4807-867c-37b80af03b6b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPropertyHandlerWithAllocator, stream.kspropertyhandlerwithallocator, ks/KsPropertyHandlerWithAllocator, KsPropertyHandlerWithAllocator function [Streaming Media Devices], ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml
+ms.keywords: stream.kspropertyhandlerwithallocator, KsPropertyHandlerWithAllocator, ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, KsPropertyHandlerWithAllocator function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsPropertyHandlerWithAllocator(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP with the property request being handled.
 
 
-#### - PropertySetsCount [in]
+### -param PropertySetsCount [in]
 
 Specifies the number of property sets being passed.
 
 
-#### - PropertySet [in]
+### -param PropertySet [in]
 
 Specifies the pointer to an array of property set information.
 
 
-#### - Allocator [in, optional]
+### -param Allocator [in, optional]
 
 Optionally points to an allocation function used to allocate memory to store the property parameters.
 
@@ -122,9 +122,9 @@ On 64-bit platforms, if the <i>PropertyItemSize</i> parameter is not a multiple 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
-
 <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
+
+<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
 
  
 

@@ -78,27 +78,27 @@ void EvtDmaTransactionDmaTransferComplete(
 
 
 
-#### - Transaction [in]
+### -param Transaction [in]
 
 A handle to a DMA transaction object representing the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a> that has just completed.
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to the framework device object that the driver specified when it called <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
 
 
-#### - Context [in]
+### -param Context [in]
 
 The context pointer that the driver specified in a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsettransfercompletecallback.md">WdfDmaTransactionSetTransferCompleteCallback</a>.
 
 
-#### - Direction [in]
+### -param Direction [in]
 
 A <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the completing DMA transfer operation.
 
 
-#### - Status [in]
+### -param Status [in]
 
 A <a href="..\wdm\ne-wdm-dma_completion_status.md">DMA_COMPLETION_STATUS</a>-typed value that specifies the status of the transfer.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 301e9c21-69e7-48d3-b170-de01684f4a12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_auth_cipher_pair, DOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR, Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, wlantypes/PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], *PDOT11_AUTH_CIPHER_PAIR, wlantypes/DOT11_AUTH_CIPHER_PAIR
+ms.keywords: DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR, Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, *PDOT11_AUTH_CIPHER_PAIR, wlantypes/PDOT11_AUTH_CIPHER_PAIR, netvista.dot11_auth_cipher_pair, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,13 +70,13 @@ typedef struct DOT11_AUTH_CIPHER_PAIR {
 
 
 
-#### - AuthAlgoId
+### -field AuthAlgoId
 
 An authentication algorithm as specified by a 
      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a> value.
 
 
-#### - CipherAlgoId
+### -field CipherAlgoId
 
 A cipher algorithm as specified by a 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> value.
@@ -89,15 +89,15 @@ The DOT11_AUTH_CIPHER_PAIR structure defines an authentication and cipher algori
     enabled together for basic service set (BSS) network connections.
 
 A miniport driver returns a list of these structures when either 
-    <mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link> or 
-    <mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link> is queried.
+    <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a> is queried.
 
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
     authentication and cipher algorithm pairs in the 
-    <mshelp:link keywords="netvista.dot11_auth_cipher_pair_list" tabindex="0"><b>
-    DOT11_AUTH_CIPHER_PAIR_LIST</b></mshelp:link> structure. However, if the operating system starts Soft AP, it enables
+    <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">
+    DOT11_AUTH_CIPHER_PAIR_LIST</a> structure. However, if the operating system starts Soft AP, it enables
     only the 
     <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the 
     <b>DOT11_CIPHER_ALGO_CCMP</b> cipher algorithm. To support Soft AP, the miniport driver must support this
@@ -116,15 +116,15 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
 

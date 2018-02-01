@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f7ebe2a7-b29e-411e-bdfa-744c95645095
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgetcallforwardingparams_2, RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGETCALLFORWARDINGPARAMS, *LPRILGETCALLFORWARDINGPARAMS
+ms.keywords: RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGETCALLFORWARDINGPARAMS, *LPRILGETCALLFORWARDINGPARAMS, netvista.rilgetcallforwardingparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,18 @@ typedef struct _RILGETCALLFORWARDINGPARAMS {
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwReason
+### -field dwReason
 
 
 
-#### - fAllClasses
+### -field fAllClasses
 
 
 
-#### - dwInfoClasses
+### -field dwInfoClasses
 
 

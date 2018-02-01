@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2446dfee-baa4-4f7b-a5a0-ff13bf45ce4b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iogetlowerdeviceobject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], ntifs/IoGetLowerDeviceObject
+ms.keywords: ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, ifsk.iogetlowerdeviceobject, ntifs/IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], IoGetLowerDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PDEVICE_OBJECT IoGetLowerDeviceObject(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the device object in the stack for which the next-lower-level device object is to be returned. 
 
@@ -106,9 +106,9 @@ The device object pointed to by <i>DeviceObject</i> is the lowest device object 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
 <a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 

@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_HWN_CLX_EXPORT_INDEX, hwnclx/HwNExportLastExportIndex, HWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/UnregisterClientIndex, *PHWN_CLX_EXPORT_INDEX, hwnclx/HWN_CLX_EXPORT_INDEX, UnregisterClientIndex, hwnclx/RegisterClientIndex, AddDevicePreDeviceCreateIndex, gpiobtn._hwn_clx_export_index, HWN_CLX_EXPORT_INDEX enumeration, RegisterClientIndex, HwNExportLastExportIndex"
+ms.keywords: UnregisterClientIndex, HWN_CLX_EXPORT_INDEX enumeration, AddDevicePreDeviceCreateIndex, HwNExportLastExportIndex, _HWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, hwnclx/RegisterClientIndex, RegisterClientIndex, hwnclx/HWN_CLX_EXPORT_INDEX, hwnclx/AddDevicePostDeviceCreateIndex, HWN_CLX_EXPORT_INDEX, hwnclx/HwNExportLastExportIndex, hwnclx/AddDevicePreDeviceCreateIndex, gpiobtn._hwn_clx_export_index, *PHWN_CLX_EXPORT_INDEX, hwnclx/UnregisterClientIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,31 +72,31 @@ typedef enum _HWN_CLX_EXPORT_INDEX {
 
 
 
-#### - RegisterClientIndex
+### -field RegisterClientIndex
 
 Position of the <a href="..\hwnclx\nf-hwnclx-hwnregisterclient.md">HwNRegisterClient</a> hardware notification in the export table.
 
 
 
-#### - UnregisterClientIndex
+### -field UnregisterClientIndex
 
 Position of the <a href="..\hwnclx\nf-hwnclx-hwnunregisterclient.md">HwNUnregisterClient</a> hardware notification in the export table.
 
 
 
-#### - AddDevicePreDeviceCreateIndex
+### -field AddDevicePreDeviceCreateIndex
 
 Position of the <a href="..\hwnclx\nf-hwnclx-hwnprocessadddevicepredevicecreate.md">HwNProcessAddDevicePreDeviceCreate</a> hardware notification in the export table.
 
 
 
-#### - AddDevicePostDeviceCreateIndex
+### -field AddDevicePostDeviceCreateIndex
 
 Position of the <a href="..\hwnclx\nf-hwnclx-hwnprocessadddevicepostdevicecreate.md">HwNProcessAddDevicePostDeviceCreate</a> hardware notification in the export table.
 
 
 
-#### - HwNExportLastExportIndex
+### -field HwNExportLastExportIndex
 
 Position of the last hardware notification in the export table.
 
@@ -104,9 +104,9 @@ Position of the last hardware notification in the export table.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
-
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
 
  
 

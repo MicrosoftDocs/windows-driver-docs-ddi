@@ -75,42 +75,42 @@ NTSTATUS __stdcall HidP_SetUsageValue(
 
 
 
-#### - ReportType [in]
+### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
 
-#### - UsagePage [in]
+### -param UsagePage [in]
 
 Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> of a usage.
 
 
-#### - LinkCollection [in]
+### -param LinkCollection [in]
 
 Specifies the <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> that contains the usage. If <i>LinkCollection</i> is nonzero, the routine only sets the usage, if one exists, in this link collection. If <i>LinkCollection</i> is zero, the routine sets the first usage it finds in the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> associated with <i>PreparsedData</i>.
 
 
-#### - Usage [in]
+### -param Usage [in]
 
 Specifies the usage.
 
 
-#### - UsageValue [in]
+### -param UsageValue [in]
 
 Specifies the usage value.
 
 
-#### - PreparsedData [in]
+### -param PreparsedData [in]
 
 Pointer to a top-level's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
-#### - Report [in, out]
+### -param Report [in, out]
 
 Pointer to a HID report.
 
 
-#### - ReportLength [in]
+### -param ReportLength [in]
 
 Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 

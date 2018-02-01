@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2e076f2f-59e3-43ca-b83e-3079bbf41df3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfiotargetgetdevice, WdfIoTargetGetDevice method, wdfiotarget/WdfIoTargetGetDevice, DFIOTargetRef_796e5254-23b4-4ed1-b02b-66c5c8560769.xml, WdfIoTargetGetDevice, PFN_WDFIOTARGETGETDEVICE, wdf.wdfiotargetgetdevice
+ms.keywords: kmdf.wdfiotargetgetdevice, WdfIoTargetGetDevice method, wdf.wdfiotargetgetdevice, DFIOTargetRef_796e5254-23b4-4ed1-b02b-66c5c8560769.xml, wdfiotarget/WdfIoTargetGetDevice, WdfIoTargetGetDevice, PFN_WDFIOTARGETGETDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFDEVICE WdfIoTargetGetDevice(
 
 
 
-#### - IoTarget [in]
+### -param IoTarget [in]
 
 A handle to an I/O target object. This handle is obtained from <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>, <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>, or from a method that a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/introduction-to-i-o-targets">specialized I/O target</a> supplies (such as <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>).
 
@@ -102,9 +102,9 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
  
 

@@ -71,34 +71,29 @@ HRESULT APIENTRY* PFND3D12DDI_CREATECRYPTOSESSIONPOLICY_0030(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - *pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to create a crypto session policy.
 
 
-#### - hDrvCryptoSession
+### -param hDrvCryptoSession
 
 Used to create a crypto session.
 
 
-#### - hDrvCryptoSessionPolicy
+### -param hDrvCryptoSessionPolicy
 
 Used to create a crypto session policy.
 
 
-#### - hRtProtectedSession
+### -param hRtProtectedSession
 
 Used to create a protected session.
-
-
-#### - pArgs [in]
-
-The arguments used to create a crypto session policy.
 
 
 ## -returns

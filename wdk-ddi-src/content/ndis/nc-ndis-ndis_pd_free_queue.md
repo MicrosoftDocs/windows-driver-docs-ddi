@@ -74,7 +74,7 @@ void NdisPDFreeQueue(
 
 
 
-#### - NdisPDQueue [in]
+### -param NdisPDQueue [in]
 
 Any empty queue that needs to be freed from memory. For more information, see the <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE</a> structure.
 

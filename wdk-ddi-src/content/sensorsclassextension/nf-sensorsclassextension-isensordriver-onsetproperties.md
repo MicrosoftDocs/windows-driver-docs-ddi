@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 7c3cca5b-1d08-42dc-8dc4-42eb1160b8bb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OnSetProperties, ISensorDriver, OnSetProperties method [Sensor Devices], ISensorDriver interface, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties, ISensorDriver interface [Sensor Devices], OnSetProperties method, OnSetProperties method [Sensor Devices], ISensorDriver::OnSetProperties, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml
+ms.keywords: OnSetProperties method [Sensor Devices], ISensorDriver interface [Sensor Devices], OnSetProperties method, ISensorDriver::OnSetProperties, sensorsclassextension/ISensorDriver::OnSetProperties, OnSetProperties method [Sensor Devices], ISensorDriver interface, ISensorDriver, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, OnSetProperties, sensors.isensordriver_onsetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT OnSetProperties(
 
 
 
-#### - pClientFile [in]
+### -param pClientFile [in]
 
 Pointer to an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that represents the file object for the application specifying property values.
 
 
-#### - pwszSensorID [in]
+### -param pwszSensorID [in]
 
 <b>LPWSTR</b> that contains the ID for the sensor for which the client application is specifying property values.
 
 
-#### - pPropertiesToSet [in]
+### -param pPropertiesToSet [in]
 
 Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> interface that contains the list of properties to set and their values.
 
 
-#### - ppResults [out]
+### -param ppResults [out]
 
 Address of an <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> pointer that receives the list of properties that have been set successfully and their new values. If a property was not set, the new value contains an HRESULT error code.
 

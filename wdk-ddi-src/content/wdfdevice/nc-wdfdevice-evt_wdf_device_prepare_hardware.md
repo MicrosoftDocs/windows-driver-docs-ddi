@@ -75,17 +75,17 @@ NTSTATUS EvtDevicePrepareHardware(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - ResourcesRaw [in]
+### -param ResourcesRaw [in]
 
 A handle to a framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
 
-#### - ResourcesTranslated [in]
+### -param ResourcesTranslated [in]
 
 A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: af52d1a3-b537-48d2-ab57-3f798ec83c98
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_ISSUEQUERY structure [Display Devices], D3DDDIARG_ISSUEQUERY, UMDisplayDriver_param_Structs_3fb59dbc-e5de-4d14-9d4b-25934e4e3ded.xml, display.d3dddiarg_issuequery, d3dumddi/D3DDDIARG_ISSUEQUERY, _D3DDDIARG_ISSUEQUERY
+ms.keywords: "_D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY structure [Display Devices], display.d3dddiarg_issuequery, UMDisplayDriver_param_Structs_3fb59dbc-e5de-4d14-9d4b-25934e4e3ded.xml, d3dumddi/D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_ISSUEQUERY {
 
 
 
-#### - hQuery
+### -field hQuery
 
 [in] The handle to the query that was created by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_issuequeryflags.md">D3DDDI_ISSUEQUERYFLAGS</a> structure that identifies the type of query to issue. The driver can ignore query requests with <b>Flags</b> set to 0. 
 
@@ -82,11 +82,11 @@ For many query types, start query is never specified (that is, the <b>Begin</b> 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_issuequeryflags.md">D3DDDI_ISSUEQUERYFLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_issuequeryflags.md">D3DDDI_ISSUEQUERYFLAGS</a>
 
  
 

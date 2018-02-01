@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72567e37-f37f-43f6-8a3a-3d184cb8de13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilumtsmrl, *LPRILUMTSMRL, RILUMTSMRL, rilapitypes/RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUMTSMRL, netvista.rilumtsmrl, RILUMTSMRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ struct RILUMTSMRL {
 
 
 
-#### - dwParams
+### -field dwParams
 
  A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilumtsmrlparammask.md">RILUMTSMRLPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - dwMobileCountryCode
+### -field dwMobileCountryCode
 
 Country code (0...999)
 
 
-#### - dwMobileNetworkCode
+### -field dwMobileNetworkCode
 
 Mobile network code (0...999)
 
 
-#### - dwLocationAreaCode
+### -field dwLocationAreaCode
 
 Location area code (0...65535)
 
 
-#### - dwCellID
+### -field dwCellID
 
 UMTS cell ID (0...268435455)
 
 
-#### - dwUARFCN
+### -field dwUARFCN
 
 UTRA absolute radio frequency channel number (0...16383)
 
 
-#### - dwPrimaryScramblingCode
+### -field dwPrimaryScramblingCode
 
 Primary Scrambling Code (0...511)
 
 
-#### - dwRSCP
+### -field dwRSCP
 
 Received signal code power of serving cell. Range (-1200 ... -250) in units of 0.1dBm, i.e., -250 represents -25dBm.
 
 
-#### - dwECNO
+### -field dwECNO
 
 Signal to noise ratio of serving cell; the ratio of the received energy per PN chip for the CPICH to the total received power spectral density at the antenna. Range (-500...0) in units of 0.1dBm.
 
 
-#### - dwPathLoss
+### -field dwPathLoss
 
 Path loss.
 

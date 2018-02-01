@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9847A6E1-9551-4F0A-8B50-BB191B0181EF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, buses.udecx_usb_device_state_change_callbacks, _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure [Buses], PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure pointer [Buses], PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+ms.keywords: PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure pointer [Buses], PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure [Buses], UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, buses.udecx_usb_device_state_change_callbacks, _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS {
 
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - EvtUsbDeviceLinkPowerEntry
+### -field EvtUsbDeviceLinkPowerEntry
 
 A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a> callback function implemented by a UDE client driver.
 
 
-#### - EvtUsbDeviceLinkPowerExit
+### -field EvtUsbDeviceLinkPowerExit
 
 A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a> callback function implemented by a UDE client driver.
 
@@ -98,17 +98,17 @@ A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_devic
  
 
 
-#### - EvtUsbDeviceDefaultEndpointAdd
+### -field EvtUsbDeviceDefaultEndpointAdd
 
 A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_default_endpoint_add.md">EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD</a> callback function implemented by a UDE client driver.
 
 
-#### - EvtUsbDeviceEndpointAdd
+### -field EvtUsbDeviceEndpointAdd
 
 A pointer to an E<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoint_add.md">VT_UDECX_USB_DEVICE_ENDPOINT_ADD</a> callback function implemented by a UDE client driver.
 
 
-#### - EvtUsbDeviceEndpointsConfigure
+### -field EvtUsbDeviceEndpointsConfigure
 
 A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback function implemented by a UDE client driver.
 

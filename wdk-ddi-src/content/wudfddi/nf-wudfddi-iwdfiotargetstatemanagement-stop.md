@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Stop, Stop method, IWDFIoTargetStateManagement, wudfddi/IWDFIoTargetStateManagement::Stop, IWDFIoTargetStateManagement interface, Stop method, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, umdf.iwdfiotargetstatemanagement_stop, Stop method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_stop, IWDFIoTargetStateManagement::Stop
+ms.keywords: IWDFIoTargetStateManagement::Stop, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, Stop method, wudfddi/IWDFIoTargetStateManagement::Stop, umdf.iwdfiotargetstatemanagement_stop, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Stop method, Stop, Stop method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT Stop(
 
 
 
-#### - Action [in]
+### -param Action [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that identifies how to handle sent I/O when the I/O target object is stopped.
 

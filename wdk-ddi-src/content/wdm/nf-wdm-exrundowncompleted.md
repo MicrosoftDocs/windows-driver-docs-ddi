@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExRundownCompleted routine [Kernel-Mode Driver Architecture], wdm/ExRundownCompleted, ExRundownCompleted, kernel.exrundowncompleted
+ms.keywords: ExRundownCompleted routine [Kernel-Mode Driver Architecture], ExRundownCompleted, wdm/ExRundownCompleted, kernel.exrundowncompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExRundownCompleted(
 
 
 
-#### - RunRef [out]
+### -param RunRef [out]
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a> structure that was initialized by a previous call to the  <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
 

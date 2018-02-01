@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63399c9a-6c3e-45e8-a3da-ead8f880ada8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_INDEX, FWPS_FIELDS_OUTBOUND_IPPACKET_V4_, netvista.fwps_fields_outbound_ippacket_v4, fwpsk/FWPS_FIELDS_OUTBOUND_IPPACKET_V4, FWPS_FIELDS_OUTBOUND_IPPACKET_V4 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_FLAGS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_TUNNEL_TYPE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_FLAGS, FWPS_FIELDS_OUTBOUND_IPPACKET_V4, wfp_ref_5_const_3_data_fields_cb77673f-3de7-4598-b99f-77dbaac7998f.xml, FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_TYPE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_TUNNEL_TYPE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_MAX, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_SUB_INTERFACE_INDEX, FWPS_FIELD_OUTBOUND_IPPACKET_V4_MAX, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_TYPE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_INDEX, FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS_TYPE
+ms.keywords: FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_TYPE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_MAX, FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_INDEX, FWPS_FIELDS_OUTBOUND_IPPACKET_V4 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_FLAGS, netvista.fwps_fields_outbound_ippacket_v4, FWPS_FIELD_OUTBOUND_IPPACKET_V4_FLAGS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_TUNNEL_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_OUTBOUND_IPPACKET_V4_SUB_INTERFACE_INDEX, FWPS_FIELDS_OUTBOUND_IPPACKET_V4, FWPS_FIELDS_OUTBOUND_IPPACKET_V4_, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_OUTBOUND_IPPACKET_V4_TUNNEL_TYPE, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_INDEX, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_MAX, fwpsk/FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELDS_OUTBOUND_IPPACKET_V4, FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_TYPE, wfp_ref_5_const_3_data_fields_cb77673f-3de7-4598-b99f-77dbaac7998f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -51,8 +51,8 @@ req.typenames: FWPS_FIELDS_OUTBOUND_IPPACKET_V4
 
 The FWPS_FIELDS_OUTBOUND_IPPACKET_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_OUTBOUND_IPPACKET_V4 and FWPS_LAYER_OUTBOUND_IPPACKET_V4_DISCARD 
-  <mshelp:link keywords="netvista.run_time_filtering_layer_identifiers" tabindex="0">run-time filtering
-  layers</mshelp:link>.
+  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering
+  layers</a>.
 
 
 ## -syntax
@@ -79,53 +79,53 @@ typedef enum FWPS_FIELDS_OUTBOUND_IPPACKET_V4_ {
 
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS
 
 The local IP address.
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS_TYPE
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a> enumeration
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_REMOTE_ADDRESS
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_REMOTE_ADDRESS
 
 The remote IP address.
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_INTERFACE
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_IP_LOCAL_INTERFACE
 
 The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
      local IP address.
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_INDEX
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_INDEX
 
 The index of the network interface, as enumerated by the network stack.
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_SUB_INTERFACE_INDEX
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_SUB_INTERFACE_INDEX
 
 The index of the logical network interface, as enumerated by the network stack.
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_FLAGS
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_FLAGS
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff549942">Filtering Condition Flags</a>.
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_TYPE
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_INTERFACE_TYPE
 
 The type of the local network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
      <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_TUNNEL_TYPE
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_TUNNEL_TYPE
 
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
@@ -138,7 +138,7 @@ The encapsulation method used by a tunnel if the
 
 
 
-#### - FWPS_FIELD_OUTBOUND_IPPACKET_V4_MAX
+### -field FWPS_FIELD_OUTBOUND_IPPACKET_V4_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -146,9 +146,9 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1D53D6C6-7546-439F-818C-85E65901B5DC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwsetinformationvirtualmemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], ZwSetInformationVirtualMemory, ntifs/ZwSetInformationVirtualMemory
+ms.keywords: ntifs/ZwSetInformationVirtualMemory, kernel.zwsetinformationvirtualmemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], ZwSetInformationVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS ZwSetInformationVirtualMemory(
 
 
 
-#### - ProcessHandle [in]
+### -param ProcessHandle [in]
 
 Specifies an open handle for the process in the context of which the operation is to be performed. This handle cannot be invalid. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556482">NtCurrentProcess</a> macro, defined in Ntddk.h, to specify the current process.
 
 
-#### - VmInformationClass [in]
+### -param VmInformationClass [in]
 
 Specifies the type of operation to perform. Set to  <b>VmPrefetchInformation</b> defined in the <b>VIRTUAL_MEMORY_INFORMATION_CLASS</b> enumeration, see ntddk.h. 
 
 
-#### - NumberOfEntries [in]
+### -param NumberOfEntries [in]
 
  Number of entries in the array pointed to by the <i>VirtualAddresses</i> parameter. This parameter cannot be 0.
 
 
-#### - VirtualAddresses [in]
+### -param VirtualAddresses [in]
 
  Pointer to an array of MEMORY_RANGE_ENTRY structures in which each entry specifies a virtual address range to be processed. The virtual address ranges may cover any part of the process address space accessible by the target process.
 
 
-#### - VmInformation [in]
+### -param VmInformation [in]
 
 A pointer to a buffer that contains memory information.
                     The format and content of the buffer depend on the
@@ -102,7 +102,7 @@ A pointer to a buffer that contains memory information.
 If <i>VmInformationClass</i> is  <b>VmPrefetchInformation</b>, this parameter cannot be this parameter cannot be NULL and must point to a ULONG variable that is set to 0.
 
 
-#### - VmInformationLength [in]
+### -param VmInformationLength [in]
 
 The size of the buffer pointed to by  <i>VmInformation</i>. 
 

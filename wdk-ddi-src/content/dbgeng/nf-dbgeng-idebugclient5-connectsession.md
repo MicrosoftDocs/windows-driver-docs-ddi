@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4531bf2f-ef3b-4d4f-b922-3a01a9468ac9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, dbgeng/IDebugClient::ConnectSession, IDebugClient interface [Windows Debugging], ConnectSession method, IDebugClient::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient5 interface, IDebugClient5::ConnectSession, dbgeng/IDebugClient5::ConnectSession, ConnectSession method [Windows Debugging], ConnectSession method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient4::ConnectSession, dbgeng/IDebugClient2::ConnectSession, IDebugClient5, IDebugClient5 interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], IDebugClient interface, IDebugClient2::ConnectSession, dbgeng/IDebugClient3::ConnectSession, debugger.connectsession, ConnectSession, ConnectSession method [Windows Debugging], IDebugClient4 interface, IDebugClient4::ConnectSession, IDebugClient3::ConnectSession, IDebugClient2 interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], IDebugClient3 interface, IDebugClient3 interface [Windows Debugging], ConnectSession method, IDebugClient4 interface [Windows Debugging], ConnectSession method
+ms.keywords: IDebugClient4 interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], ConnectSession method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], ConnectSession method, dbgeng/IDebugClient2::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient interface, ConnectSession, IDebugClient2 interface [Windows Debugging], ConnectSession method, dbgeng/IDebugClient3::ConnectSession, IDebugClient5 interface [Windows Debugging], ConnectSession method, dbgeng/IDebugClient::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient4 interface, IDebugClient4::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient3 interface, IDebugClient::ConnectSession, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, ConnectSession method [Windows Debugging], IDebugClient2 interface, IDebugClient interface [Windows Debugging], ConnectSession method, dbgeng/IDebugClient5::ConnectSession, IDebugClient2::ConnectSession, debugger.connectsession, IDebugClient3::ConnectSession, dbgeng/IDebugClient4::ConnectSession, IDebugClient5, IDebugClient5::ConnectSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,7 +72,7 @@ HRESULT ConnectSession(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bit-set of option flags for connecting to the session.  The possible values of these flags are:
 <table>
@@ -103,7 +103,7 @@ Do not output a message notifying other clients that this client has connected.
 </table> 
 
 
-#### - HistoryLimit [in]
+### -param HistoryLimit [in]
 
 Specifies the maximum number of characters from the session's history to send to this client's output upon connection.
 
@@ -145,21 +145,21 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 ## -see-also
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
+
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

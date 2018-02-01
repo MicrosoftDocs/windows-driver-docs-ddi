@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AE6988E6-81D7-47FB-986A-B5DEE9B7215B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_querysegmentout4, DXGK_QUERYSEGMENTOUT4 structure [Display Devices], _DXGK_QUERYSEGMENTOUT4, d3dkmddi/DXGK_QUERYSEGMENTOUT4, DXGK_QUERYSEGMENTOUT4
+ms.keywords: "_DXGK_QUERYSEGMENTOUT4, DXGK_QUERYSEGMENTOUT4, display.dxgk_querysegmentout4, DXGK_QUERYSEGMENTOUT4 structure [Display Devices], d3dkmddi/DXGK_QUERYSEGMENTOUT4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _DXGK_QUERYSEGMENTOUT4 {
 
 
 
-#### - NbSegment
+### -field NbSegment
 
 Number of elements in the <b>pSegmentDescriptor</b> array. The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> (<b>DXGKQAITYPE_QUERYSEGMENT4</b>) will be called twice. First time, <b>NbSegment</b> will be set to 0. The driver should return <b>STATUS_SUCCESS</b> and set <b>NbSegment</b> to the number of GPU memory segments in the adapter without accessing any other member of the structure. Second time, the driver will be called with the reported number of segments and the driver should fill all required information.
 
 
-#### - pSegmentDescriptor
+### -field pSegmentDescriptor
 
 Pointer to the array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a> structures. The size of the array element is defined by <b>SegmentDescriptorStride</b>. The <b>pSegmentDescriptor</b> type has been changed to a <b>BYTE*</b> to help enforce the use of the stride as the method of iterating the array. The driver fills the array with information about each memory segment.
 
 
-#### - PagingBufferSegmentId
+### -field PagingBufferSegmentId
 
 Segment identifier of the paging buffer. This is the index (starting from 1) of the segment in the <b>pSegmentDescriptor </b>array.
 
 
-#### - PagingBufferSize
+### -field PagingBufferSize
 
 Paging buffer size.
 
 
-#### - PagingBufferPrivateDataSize
+### -field PagingBufferPrivateDataSize
 
 Size, in bytes, of the driver-private data that will be provided with each paging buffer.
 
 
-#### - SegmentDescriptorStride
+### -field SegmentDescriptorStride
 
 Size of the elements in the <b>pSegmentDescriptor</b> array in bytes.
 

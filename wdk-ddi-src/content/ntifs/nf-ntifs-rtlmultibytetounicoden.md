@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0cc4fba-01ba-4745-8dee-fc4c43f570cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlmultibytetounicoden, RtlMultiByteToUnicodeN, rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml, RtlMultiByteToUnicodeN routine [Installable File System Drivers], ntifs/RtlMultiByteToUnicodeN
+ms.keywords: RtlMultiByteToUnicodeN routine [Installable File System Drivers], rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml, ntifs/RtlMultiByteToUnicodeN, ifsk.rtlmultibytetounicoden, RtlMultiByteToUnicodeN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlMultiByteToUnicodeN(
 
 
 
-#### - UnicodeString [out]
+### -param UnicodeString [out]
 
 Pointer to a caller-allocated buffer that receives the translated string. <i>UnicodeString</i> buffer must not overlap with <i>MultiByteString </i>buffer.
 
 
-#### - MaxBytesInUnicodeString [in]
+### -param MaxBytesInUnicodeString [in]
 
 Maximum number of bytes to be written at <i>UnicodeString</i>. If this value causes the translated string to be truncated, <b>RtlMultiByteToUnicodeN</b> does not return an error status. 
 
 
-#### - BytesInUnicodeString [out, optional]
+### -param BytesInUnicodeString [out, optional]
 
 Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter can be <b>NULL</b>. 
 
 
-#### - MultiByteString [in]
+### -param MultiByteString [in]
 
 Pointer to the string to be translated. 
 
 
-#### - BytesInMultiByteString [in]
+### -param BytesInMultiByteString [in]
 
 Size, in bytes, of the string at <i>MultiByteString</i>. 
 
@@ -123,9 +123,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicodesize.md">RtlMultiByteToUnicodeSize</a>
-
 <a href="..\ntifs\nf-ntifs-rtlunicodetomultibyten.md">RtlUnicodeToMultiByteN</a>
+
+<a href="..\ntifs\nf-ntifs-rtlmultibytetounicodesize.md">RtlMultiByteToUnicodeSize</a>
 
  
 

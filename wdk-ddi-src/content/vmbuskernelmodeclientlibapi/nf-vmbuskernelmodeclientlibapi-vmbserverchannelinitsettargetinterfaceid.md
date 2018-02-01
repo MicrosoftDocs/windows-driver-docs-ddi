@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09123845-F734-48B6-A593-0368CD195379
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbserverchannelinitsettargetinterfaceid, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId, VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetTargetInterfaceId
+ms.keywords: vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId, netvista.vmbserverchannelinitsettargetinterfaceid, VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetTargetInterfaceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,18 +73,18 @@ NTSTATUS
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel.  
 
 
-#### - InterfaceType [in]
+### -param InterfaceType [in]
 
 A pointer to the interface type GUID.
 
 
 
-#### - InterfaceInstance [in]
+### -param InterfaceInstance [in]
 
 A pointer to the instance type GUID.
 

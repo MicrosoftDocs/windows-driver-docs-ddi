@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 15450f33-cb86-4c1d-87d7-2d77a1d66a81
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.cip_hdr1, avcstrm/PCIP_HDR1, CIP_HDR1, *PCIP_HDR1, PCIP_HDR1 structure pointer [Streaming Media Devices], avcstrm/CIP_HDR1, PCIP_HDR1, CIP_HDR1 structure [Streaming Media Devices], avcsref_bfb761c5-6eb2-459a-b75f-32c5e2d11700.xml, _CIP_HDR1
+ms.keywords: "_CIP_HDR1, PCIP_HDR1 structure pointer [Streaming Media Devices], CIP_HDR1, stream.cip_hdr1, avcsref_bfb761c5-6eb2-459a-b75f-32c5e2d11700.xml, *PCIP_HDR1, avcstrm/PCIP_HDR1, PCIP_HDR1, avcstrm/CIP_HDR1, CIP_HDR1 structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,53 +74,53 @@ typedef struct _CIP_HDR1 {
 
 
 
-#### - DBC
+### -field DBC
 
 Data block counter. This is not used by subunit driver. It must be set to 0.
 
 
-#### - Rsv00
+### -field Rsv00
 
 Reserved bits. Do not use this. It must be 0:0.
 
 
-#### - SPH
+### -field SPH
 
 Specifies a source packet header. A value of 1 indicates the presence of a source packet header. A value of 0 indicates no source packet header.
 
 
-#### - QPC
+### -field QPC
 
 Quadlet padding count (0..7 quadlets).
 
 
-#### - FN
+### -field FN
 
 Specifies the fractional number.
 
 
-#### - DBS
+### -field DBS
 
 Specifies the data block size in quadlets.
 
 
-#### - SID
+### -field SID
 
 Specifies the source node ID (ID of transmitter). Not used by the subunit driver. Must be set to 0.
 
 
-#### - Bit00
+### -field Bit00
 
 Must be set to 0:0.
 
 
 ## -see-also
 
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
+
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_syt.md">CIP_HDR2_SYT</a>
 
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
-
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
 
  
 

@@ -76,7 +76,7 @@ NTSTATUS EvtUcxEndpointGetIsochTransferPathDelays(
 
 
 
-#### - UcxEndpointTransferPathDelays [in, out]
+### -param UcxEndpointTransferPathDelays [in, out]
 
 A pointer to a <a href="..\ucxendpoint\ns-ucxendpoint-_ucx_endpoint_isoch_transfer_path_delays.md">UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS</a> structure that contains transfer path delay values.
 

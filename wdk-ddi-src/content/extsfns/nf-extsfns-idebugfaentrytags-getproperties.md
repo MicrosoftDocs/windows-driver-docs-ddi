@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetProperties method [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], GetProperties method, extsfns/IDebugFAEntryTags::GetProperties, IDebugFAEntryTags, GetProperties, GetProperties method [Windows Debugging], IDebugFAEntryTags interface, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties
+ms.keywords: IDebugFAEntryTags interface [Windows Debugging], GetProperties method, GetProperties method [Windows Debugging], GetProperties, IDebugFAEntryTags, extsfns/IDebugFAEntryTags::GetProperties, IDebugFAEntryTags::GetProperties, GetProperties method [Windows Debugging], IDebugFAEntryTags interface, debugger.idebugfaentrytags_getproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetProperties(
 
 
 
-#### - Tag
+### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. This method gets the name or description (or both) of this tag.
 
 
-#### - Name [out]
+### -param Name [out]
 
 A pointer to a buffer that receives a null-terminated string that is the name of the tag. If <i>NameSize</i> is less than the length of the tag's name, this method copies only <i>NameSize</i> bytes, including the <b>NULL</b> terminator, to this buffer.
 
 
-#### - NameSize [in, out]
+### -param NameSize [in, out]
 
 On input, this parameter, specifies the size, in bytes, of the buffer pointed to by <i>Name</i>. On output, this parameter receives the size, in bytes, of the name of the tag. If the tag has no name, this parameter receives a value of 0.
 <div class="alert"><b>Note</b>  If <i>Name</i> is NULL, this parameter receives no information. You should either set both <i>Name</i> and <i>NameSize</i> to non-NULL values or set them both to <b>NULL</b>.</div><div> </div>
 
-#### - Description [out]
+### -param Description [out]
 
 A pointer to a buffer that receives a null-terminated string that is the description of the tag. If <i>DescSize</i> is less than the length of the tag's description, this method copies only <i>DescSize</i> bytes, including the <b>NULL</b> terminator, to this buffer.
 
 
-#### - DescSize [in, out]
+### -param DescSize [in, out]
 
 On input, this parameter, specifies the size, in bytes, of the buffer pointed to by <i>Description</i>. On output, this parameter receives the size, in bytes, of the description of the tag. If the tag has no description, this parameter receives a value of 0.
 <div class="alert"><b>Note</b>  If <i>Description</i> is NULL, this parameter receives no information. You should either set both <i>Description</i> and <i>DescSize</i> to non-NULL values or set them both to <b>NULL</b>.</div><div> </div>
 
-#### - Flags [out]
+### -param Flags [out]
 
 Reserved. Set this parameter to NULL.
 
@@ -152,11 +152,11 @@ The caller passed at least one invalid parameter.
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
 <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 

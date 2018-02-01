@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da5be900-a362-4d74-9ac7-65b96f0348ce
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemoveRADIUSServer_OUT structure [Storage Devices], iscsiop/PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT structure pointer [Storage Devices], PRemoveRADIUSServer_OUT, _RemoveRADIUSServer_OUT, structs-iSCSI_dea5813a-b7e8-4702-af57-f7a40360efb9.xml, storage.removeradiusserver_out, *PRemoveRADIUSServer_OUT, iscsiop/RemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT
+ms.keywords: PRemoveRADIUSServer_OUT structure pointer [Storage Devices], RemoveRADIUSServer_OUT structure [Storage Devices], PRemoveRADIUSServer_OUT, *PRemoveRADIUSServer_OUT, storage.removeradiusserver_out, structs-iSCSI_dea5813a-b7e8-4702-af57-f7a40360efb9.xml, iscsiop/PRemoveRADIUSServer_OUT, iscsiop/RemoveRADIUSServer_OUT, _RemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _RemoveRADIUSServer_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output from <b>RemoveRADIUSServer</b>, the status of the operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
@@ -81,11 +81,11 @@ It is optional that you implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564020">RemoveRADIUSServer</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 <a href="..\iscsiop\ns-iscsiop-_removeradiusserver_in.md">RemoveRADIUSServer_IN</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564020">RemoveRADIUSServer</a>
 
  
 

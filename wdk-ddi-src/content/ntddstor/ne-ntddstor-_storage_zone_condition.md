@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57FF3890-6B37-45EB-BB02-22B2ADDFAA90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_ZONE_CONDITION enumeration [Storage Devices], ZoneConditionOffline, ntddstor/ZoneConditionOffline, storage.storage_zone_condition, ZoneConditionConventional, ZoneConditionImplicitlyOpened, ntddstor/ZoneConditionClosed, PSTORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened, ntddstor/PSTORAGE_ZONE_CONDITION, _STORAGE_ZONE_CONDITION, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/STORAGE_ZONE_CONDITION, ZoneConditionClosed, ZoneConditionFull, ZoneConditionEmpty, ntddstor/ZoneConditionExplicitlyOpened, *PSTORAGE_ZONE_CONDITION, ntddstor/ZoneConditionReadOnly, ZoneConditionReadOnly, STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionEmpty, ntddstor/ZoneConditionImplicitlyOpened, ntddstor/ZoneConditionFull, ntddstor/ZoneConditionConventional
+ms.keywords: ntddstor/ZoneConditionReadOnly, _STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionFull, ntddstor/ZoneConditionEmpty, ntddstor/STORAGE_ZONE_CONDITION, ntddstor/PSTORAGE_ZONE_CONDITION, ZoneConditionConventional, ntddstor/ZoneConditionClosed, storage.storage_zone_condition, ZoneConditionEmpty, ZoneConditionImplicitlyOpened, ntddstor/ZoneConditionConventional, ntddstor/ZoneConditionExplicitlyOpened, PSTORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ZoneConditionFull, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/ZoneConditionImplicitlyOpened, ZoneConditionClosed, ntddstor/ZoneConditionOffline, ZoneConditionOffline, ZoneConditionReadOnly, STORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,42 +77,42 @@ typedef enum _STORAGE_ZONE_CONDITION {
 
 
 
-#### - ZoneConditionConventional
+### -field ZoneConditionConventional
 
 N/A
 
 
-#### - ZoneConditionEmpty
+### -field ZoneConditionEmpty
 
 N/A
 
 
-#### - ZoneConditionImplicitlyOpened
+### -field ZoneConditionImplicitlyOpened
 
 N/A
 
 
-#### - ZoneConditionExplicitlyOpened
+### -field ZoneConditionExplicitlyOpened
 
 N/A
 
 
-#### - ZoneConditionClosed
+### -field ZoneConditionClosed
 
 N/A
 
 
-#### - ZoneConditionReadOnly
+### -field ZoneConditionReadOnly
 
 N/A
 
 
-#### - ZoneConditionFull
+### -field ZoneConditionFull
 
 N/A
 
 
-#### - ZoneConditionOffline
+### -field ZoneConditionOffline
 
 N/A
 

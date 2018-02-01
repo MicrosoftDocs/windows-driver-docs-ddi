@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B6B645DF-AB4C-42FE-A664-AF9C9DD4F9E6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BDA_CAS_CHECK_ENTITLEMENTTOKEN, PBDA_CAS_CHECK_ENTITLEMENTTOKEN, stream.bda_cas_check_entitlementtoken, BDA_CAS_CHECK_ENTITLEMENTTOKEN structure [Streaming Media Devices], *PBDA_CAS_CHECK_ENTITLEMENTTOKEN, _BDA_CAS_CHECK_ENTITLEMENTTOKEN, PBDA_CAS_CHECK_ENTITLEMENTTOKEN structure pointer [Streaming Media Devices], bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/PBDA_CAS_CHECK_ENTITLEMENTTOKEN
+ms.keywords: BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN structure [Streaming Media Devices], PBDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/PBDA_CAS_CHECK_ENTITLEMENTTOKEN, PBDA_CAS_CHECK_ENTITLEMENTTOKEN structure pointer [Streaming Media Devices], stream.bda_cas_check_entitlementtoken, bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN, _BDA_CAS_CHECK_ENTITLEMENTTOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,10 +68,10 @@ typedef struct _BDA_CAS_CHECK_ENTITLEMENTTOKEN {
 
 
 
-#### - lResult
+### -field lResult
 
 
 
-#### - ulDescrambleStatus
+### -field ulDescrambleStatus
 
 

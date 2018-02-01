@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5B650831-7AD7-4FEA-AC31-82F2B351BAD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], D3DDDICB_SUBMITCOMMANDTOHWQUEUE, _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, display.d3dddicb_submitcommandtohwqueue, d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE
+ms.keywords: "_D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], display.d3dddicb_submitcommandtohwqueue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

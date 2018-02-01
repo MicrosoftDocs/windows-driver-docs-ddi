@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C88A1F30-FC6B-4EC4-8F10-F507E17CF01D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_ASYNC_READ, IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ structure [Buses], IRB_REQ_ASYNC_READ, _IRB_REQ_ASYNC_READ
+ms.keywords: IEEE.irb_req_async_read, 1394/IRB_REQ_ASYNC_READ, _IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], IRB_REQ_ASYNC_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,17 +77,17 @@ typedef struct _IRB_REQ_ASYNC_READ {
 
 
 
-#### - DestinationAddress
+### -field DestinationAddress
 
 Specifies the 1394 64-bit destination address for this read operation. The driver only needs to fill in the <b>IA_Destination_Offset</b> member of <b>DestinationAddress</b>; the bus driver fills in the <b>IA_Destination_ID</b> member. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a> for the structure description.
 
 
-#### - nNumberOfBytesToRead
+### -field nNumberOfBytesToRead
 
 Specifies the number of bytes to be read from the 1394 node.
 
 
-#### - nBlockSize
+### -field nBlockSize
 
 Specifies the size of each individual block within the data stream that is read as a whole from the 1394 node. If this parameter is zero, the maximum packet size for the device and speed selected is used to issue these read requests, unless raw-mode addressing is used.
 
@@ -103,7 +103,7 @@ For more information on raw-mode addressing, see <a href="https://msdn.microsoft
 
 
 
-#### - fulFlags
+### -field fulFlags
 
 Specifies any nondefault settings for this operation. The following flags are provided.
 <table>
@@ -134,37 +134,37 @@ The bus driver returns the elapsed time of the operation in <b>u.AsyncRead.Elaps
 </table> 
 
 
-#### - Mdl
+### -field Mdl
 
 Points to an MDL that describes the device driver's buffer, which receives data from the 1394 node.
 
 
-#### - ulGeneration
+### -field ulGeneration
 
 Specifies the bus reset generation as known by the device driver that submits this asynchronous request. If the generation count specified does not match the actual generation of the bus, this request is returned with an error of STATUS_INVALID_GENERATION. 
 
 
-#### - chPriority
+### -field chPriority
 
 Reserved. Drivers must set this to zero.
 
 
-#### - nSpeed
+### -field nSpeed
 
 Reserved. Drivers must set this to zero.
 
 
-#### - tCode
+### -field tCode
 
 Reserved. Drivers must set this to zero.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Drivers must set this to zero.
 
 
-#### - ElapsedTime
+### -field ElapsedTime
 
 Elapsed time in nanoseconds. Only valid for flag ASYNC_FLAGS_PING.
 

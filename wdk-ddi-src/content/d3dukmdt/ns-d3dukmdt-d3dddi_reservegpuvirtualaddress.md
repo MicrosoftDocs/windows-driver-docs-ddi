@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_reservegpuvirtualaddress, D3DDDI_RESERVEGPUVIRTUALADDRESS, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices]
+ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], display.d3dddi_reservegpuvirtualaddress, D3DDDI_RESERVEGPUVIRTUALADDRESS, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,47 +87,47 @@ typedef struct D3DDDI_RESERVEGPUVIRTUALADDRESS {
 
 
 
-#### - hPagingQueue
+### -field hPagingQueue
 
 Paging queue to synchronize the operation on.
 
 
-#### - hAdapter
+### -field hAdapter
 
 DirectX graphics adapter handle. 
 
 
-#### - ReservationType
+### -field ReservationType
 
 Specifies the virtual address reservation type.
 
 
-#### - Reserved0
+### -field Reserved0
 
 This member is reserved and should be set to zero.
 
 
-#### - DriverProtection
+### -field DriverProtection
 
 Specifies the driver-specific protection
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved and should be set to zero.
 
 
-#### - PagingFenceValue
+### -field PagingFenceValue
 
 Paging fence identifier for synchronization
 
 
-#### - Reserved2
+### -field Reserved2
 
 This member is reserved and should be set to zero.
 
 
-#### - BaseAddress
+### -field BaseAddress
 
 (Optional) If <b>non-NULL</b>, the video memory manager will attempt to use this address as the base address for the reserved range. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, the call will fail. When this parameter is <b>non-NULL</b>, <b>MinimumAddress</b> and <b>MaximumAddress</b> are ignored.
 
@@ -138,7 +138,7 @@ If <b>NULL</b> is specified the video memory manager will pick the base address 
 
 
 
-#### - MinimumAddress
+### -field MinimumAddress
 
 (Optional) Specifies the minimum GPU virtual address to consider for the reserved range.
 
@@ -147,7 +147,7 @@ If <b>NULL</b> is specified the video memory manager will pick the base address 
 This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
 
-#### - MaximumAddress
+### -field MaximumAddress
 
 (Optional) Specifies the maximum GPU virtual address to consider for the reserved range. the video memory manager will guarantee that <b>BaseAddress</b>+<b>Size</b> &lt;= <b>MaximumAddress</b>. If this is set to NULL the video memory manager will not apply any limit.
 
@@ -156,12 +156,12 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
 
-#### - Size
+### -field Size
 
 Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 
 
-#### - VirtualAddress
+### -field VirtualAddress
 
 [out] The reserved virtual address.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2e533d7b-be70-4601-b9e1-4fe3ce51817f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeWaitForMultipleObjects, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, wdm/KeWaitForMultipleObjects, kernel.kewaitformultipleobjects
+ms.keywords: KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], wdm/KeWaitForMultipleObjects, kernel.kewaitformultipleobjects, KeWaitForMultipleObjects, k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,37 +75,37 @@ NTSTATUS  KeWaitForMultipleObjects(
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 The number of objects to be waited on. This parameter specifies the number of elements in the array pointed to by the <i>Object</i> parameter.
 
 
-#### - Object [in]
+### -param Object [in]
 
 A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage. Both the pointer array and the dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
 
 
-#### - WaitType [in]
+### -param WaitType [in]
 
 The type of wait operation to perform. Specify either <b>WaitAll</b>, indicating that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, indicating that any one of the objects must attain a signaled state before the wait is satisfied.
 
 
-#### - WaitReason [in]
+### -param WaitReason [in]
 
 The reason for the wait. Drivers should set this value to <b>Executive</b> or, if the driver is doing work on behalf of a user and is running in the context of a user thread, to <b>UserRequest</b>.
 
 
-#### - WaitMode [in]
+### -param WaitMode [in]
 
 Whether the caller waits in <b>KernelMode</b> or <b>UserMode</b>. Intermediate and lowest-level drivers should specify <b>KernelMode</b>. If the set of objects waited on includes a mutex, the caller must specify <b>KernelMode</b>.
 
 
-#### - Alertable [in]
+### -param Alertable [in]
 
 A Boolean value that indicates whether the thread can be alerted while it is in the waiting state.
 
 
-#### - Timeout [in, optional]
+### -param Timeout [in, optional]
 
 A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
 
@@ -114,7 +114,7 @@ A positive value specifies an absolute time, relative to January 1, 1601. A nega
 If *<i>Timeout</i> = 0, the routine returns without waiting. If the caller supplies a <b>NULL</b> pointer, the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state. For more information, see the following Remarks section.
 
 
-#### - WaitBlockArray [out, optional]
+### -param WaitBlockArray [out, optional]
 
 A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> &lt;= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
 
@@ -215,19 +215,19 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
 <a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
  
 

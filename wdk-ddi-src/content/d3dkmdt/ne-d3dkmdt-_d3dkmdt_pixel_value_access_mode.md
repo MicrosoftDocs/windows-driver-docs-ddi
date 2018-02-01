@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da4074ac-309d-46b9-b630-79d73ed73f36
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_PVAM_DIRECT, D3DKMDT_PVAM_PRESETPALETTE, DmEnums_ac8b4715-9a7c-4698-8f57-e6125f90f75b.xml, d3dkmdt/D3DKMDT_PIXEL_VALUE_ACCESS_MODE, D3DKMDT_PVAM_SETTABLEPALETTE, _D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_PRESETPALETTE, d3dkmdt/D3DKMDT_PVAM_SETTABLEPALETTE, d3dkmdt/D3DKMDT_PVAM_UNINITIALIZED, D3DKMDT_PIXEL_VALUE_ACCESS_MODE, D3DKMDT_PVAM_UNINITIALIZED, D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration [Display Devices], d3dkmdt/D3DKMDT_PVAM_DIRECT, display.d3dkmdt_pixel_value_access_mode
+ms.keywords: d3dkmdt/D3DKMDT_PVAM_UNINITIALIZED, _D3DKMDT_PIXEL_VALUE_ACCESS_MODE, D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_SETTABLEPALETTE, D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration [Display Devices], D3DKMDT_PVAM_SETTABLEPALETTE, D3DKMDT_PVAM_DIRECT, display.d3dkmdt_pixel_value_access_mode, D3DKMDT_PVAM_UNINITIALIZED, d3dkmdt/D3DKMDT_PVAM_DIRECT, d3dkmdt/D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_PRESETPALETTE, DmEnums_ac8b4715-9a7c-4698-8f57-e6125f90f75b.xml, D3DKMDT_PVAM_PRESETPALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _D3DKMDT_PIXEL_VALUE_ACCESS_MODE {
 
 
 
-#### - D3DKMDT_PVAM_UNINITIALIZED
+### -field D3DKMDT_PVAM_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_PIXEL_VALUE_ACCESS_MODE has not yet been assigned a meaningful value.
 
 
-#### - D3DKMDT_PVAM_DIRECT
+### -field D3DKMDT_PVAM_DIRECT
 
 Indicates that colors are stored directly in the primary surface.
 
 
-#### - D3DKMDT_PVAM_PRESETPALETTE
+### -field D3DKMDT_PVAM_PRESETPALETTE
 
 Indicates that palette indices are stored in the primary surface. Colors are stored in a palette that is specific to the display adapter. The operating system can query the display miniport driver for the palette.
 
 
-#### - D3DKMDT_PVAM_SETTABLEPALETTE
+### -field D3DKMDT_PVAM_SETTABLEPALETTE
 
 Indicates that palette indices are stored in the primary surface. Colors are stored in a palette that the operating system can set dynamically by calling the display miniport driver.
 

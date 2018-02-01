@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 72fddd86-6e9f-4e75-af6a-e7f3e1064a8b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/UnknownMode, ChsMode, Lba48BitMode, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], irb/Lba48BitMode, LbaMode, ATA_ADDRESS_TRANSLATION, irb/LbaMode, irb/ChsMode, storage.ata_address_translation, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml, UnknownMode, irb/ATA_ADDRESS_TRANSLATION
+ms.keywords: irb/ChsMode, LbaMode, irb/LbaMode, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], ATA_ADDRESS_TRANSLATION, UnknownMode, ChsMode, irb/ATA_ADDRESS_TRANSLATION, irb/Lba48BitMode, Lba48BitMode, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml, storage.ata_address_translation, irb/UnknownMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,21 +70,21 @@ typedef enum  {
 
 
 
-#### - UnknownMode
+### -field UnknownMode
 
 
 
-#### - ChsMode
+### -field ChsMode
 
 Indicates that sectors are to be addressed using cylinder/head/sector (CHS) values.
 
 
-#### - LbaMode
+### -field LbaMode
 
 Indicates that sectors are to be addressed using logical block addressing (LBA) values.
 
 
-#### - Lba48BitMode
+### -field Lba48BitMode
 
 Indicates support for 48-bit LBAs.
 

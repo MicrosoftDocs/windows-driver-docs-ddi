@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 6b59fa86-3c3b-4ab9-98e2-f62f028d53df
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi.acpi_eval_input_buffer_complex, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, *PACPI_EVAL_INPUT_BUFFER_COMPLEX, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure [ACPI Devices], acpi-meth-eval-ref_e853be71-ec5f-41d6-82fc-6351a0847be8.xml, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure pointer [ACPI Devices]
+ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, acpi.acpi_eval_input_buffer_complex, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX, acpi-meth-eval-ref_e853be71-ec5f-41d6-82fc-6351a0847be8.xml, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, *PACPI_EVAL_INPUT_BUFFER_COMPLEX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,18 +74,8 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 {
 
 
 
-#### - DUMMYUNIONNAME
+### -field DUMMYUNIONNAME
 
-
-
-#### MethodName
-
-A four-element ASCII character array that contains the name of the method. For example, 'ABCD.'
-
-
-#### MethodNameAsUlong
-
-A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
 
 
 ### -field DUMMYUNIONNAME.MethodName
@@ -98,22 +88,22 @@ A four-element ASCII character array that contains the name of the method. For e
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
 
 
-#### - Signature
+### -field Signature
 
 The signature of a complex input buffer, which must be set to ACPI_EVAL_INPUT_BUFFER_COMPLEX_SIGNATURE. 
 
 
-#### - Size
+### -field Size
 
 The number of bytes that the <b>Argument</b> array contains.
 
 
-#### - ArgumentCount
+### -field ArgumentCount
 
 The number of variable-length ACPI_METHOD_ARGUMENT structures that the <b>Argument</b> array contains. The <b>Argument</b> array can hold a maximum of seven argument structures.
 
 
-#### - Argument
+### -field Argument
 
 An array of ACPI_METHOD_ARGUMENT structures.
 
@@ -151,9 +141,9 @@ Set <b>Argument</b> to the array of ACPI_METHOD_ARGUMENT structures.
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
 
  
 

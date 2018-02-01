@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b87adca-e838-471b-a600-1327253ee45d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessExecutableNameWide
+ms.keywords: dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method, GetCurrentProcessExecutableNameWide method [Windows Debugging], GetCurrentProcessExecutableNameWide, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetCurrentProcessExecutableNameWide(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the name of the executable file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-#### - ExeSize [out, optional]
+### -param ExeSize [out, optional]
 
 Receives the size in characters of the name of the executable file.  If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
 

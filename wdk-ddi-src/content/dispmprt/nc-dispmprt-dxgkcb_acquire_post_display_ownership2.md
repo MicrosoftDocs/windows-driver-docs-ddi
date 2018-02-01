@@ -74,17 +74,17 @@ typedef DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 ;
 
 
 
-#### - DeviceHandle
+### -param DeviceHandle
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the  member of the DXGKRNL_INTERFACE structure that was passed to DxgkDdiStartDevice.
 
 
-#### - DisplayInfo
+### -param DisplayInfo
 
 A pointer to a DXGK_DISPLAY_INFORMATION structure that is allocated by the display miniport driver. If DxgkCbAcquirePostDisplayOwnership returns STATUS_SUCCESS, this structure contains display information for the current display device that is used for POST operations.
 
 
-#### - Flags
+### -param Flags
 
 A pointer to a DXGK_DISPLAY_OWNERSHIP_FLAGS structure that is allocated by the display miniport driver. If DxgkCbAcquirePostDisplayOwnership2 returns STATUS_SUCCESS, this structure contains flags in bit fields describing the ownership of the display.  The only bit fields defined in WDDM 2.2 contain a DXGK_FRAMEBUFFER_STATE enum indicating how the frame buffer was initialized.
 

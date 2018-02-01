@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_CREATEPROTECTEDSESSION(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 A handle to the adapter.
 
 
-#### - pCreateProtectedSession [in, out]
+### -param pCreateProtectedSession [in, out]
 
 A pointer to the arguments used to create a protected session.
 

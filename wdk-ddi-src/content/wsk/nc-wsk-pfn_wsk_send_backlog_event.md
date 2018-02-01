@@ -74,7 +74,7 @@ NTSTATUS APIENTRY WskSendBacklogEvent(
 
 
 
-#### - SocketContext [in, optional]
+### -param SocketContext [in, optional]
 
 A pointer to the socket context for the connection-oriented socket that is notifying the WSK
      application about a change to its ideal send backlog size. The WSK application provided this pointer to
@@ -106,7 +106,7 @@ Its
 </li>
 </ul>
 
-#### - IdealBacklogSize [in]
+### -param IdealBacklogSize [in]
 
 A variable that contains the new ideal send backlog size.
 
@@ -127,8 +127,8 @@ The WSK subsystem calls a WSK application's
     connection-oriented socket only if the event callback function was previously enabled with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <mshelp:link keywords="netvista.enabling_and_disabling_event_callback_functions" tabindex="0">Enabling and
-    Disabling Event Callback Functions</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    Disabling Event Callback Functions</a>.
 
 The ideal send backlog size for a connection-oriented socket is the optimal amount of send data that
     needs to be kept outstanding (that is, passed to the WSK subsystem but not yet completed) to keep the
@@ -148,20 +148,20 @@ A WSK application's <i>WskSendBacklogEvent</i> event callback function must not 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+   WSK_CLIENT_CONNECTION_DISPATCH</a>
 
  
 

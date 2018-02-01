@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TraceEnableLevelClass, wdm/TraceIdClass, TraceEnableFlagsClass, LoggerEventsLostClass, wdm/GlobalLoggerHandleClass, TraceSessionSettingsClass, wdm/TRACE_INFORMATION_CLASS, LoggerEventsLoggedClass, TraceInformationClassReserved1, WdfNotifyRoutinesClass, wdm/LoggerEventsLostClass, wdm/TraceSessionSettingsClass, wdm/TraceInformationClassReserved2, kernel.trace_information_class, wdm/TraceHandleClass, TraceHandleClass, GlobalLoggerHandleClass, FltIoNotifyRoutinesClass, MaxTraceInformationClass, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], AllLoggerHandlesClass, TraceIdClass, wdm/FltIoNotifyRoutinesClass, wdm/LoggerEventsLoggedClass, EventLoggerHandleClass, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/EventLoggerHandleClass, wdm/TraceEnableFlagsClass, wdm/AllLoggerHandlesClass, DiskIoNotifyRoutinesClass, wdm/WdfNotifyRoutinesClass, _TRACE_INFORMATION_CLASS, TRACE_INFORMATION_CLASS, wdm/DiskIoNotifyRoutinesClass, TraceEnableLevelClass, TraceHandleByNameClass, wdm/TraceHandleByNameClass, wdm/MaxTraceInformationClass, TraceInformationClassReserved2, wdm/TraceInformationClassReserved1
+ms.keywords: wdm/TraceSessionSettingsClass, TraceIdClass, wdm/LoggerEventsLostClass, AllLoggerHandlesClass, wdm/TraceInformationClassReserved2, MaxTraceInformationClass, wdm/TraceIdClass, EventLoggerHandleClass, GlobalLoggerHandleClass, wdm/DiskIoNotifyRoutinesClass, _TRACE_INFORMATION_CLASS, FltIoNotifyRoutinesClass, wdm/TraceEnableFlagsClass, LoggerEventsLostClass, TraceSessionSettingsClass, wdm/FltIoNotifyRoutinesClass, wdm/TraceHandleByNameClass, wdm/TraceEnableLevelClass, wdm/TRACE_INFORMATION_CLASS, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/AllLoggerHandlesClass, wdm/TraceInformationClassReserved1, TraceHandleByNameClass, wdm/GlobalLoggerHandleClass, wdm/EventLoggerHandleClass, wdm/TraceHandleClass, WdfNotifyRoutinesClass, DiskIoNotifyRoutinesClass, wdm/MaxTraceInformationClass, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TraceHandleClass, TRACE_INFORMATION_CLASS, LoggerEventsLoggedClass, wdm/LoggerEventsLoggedClass, kernel.trace_information_class, TraceEnableFlagsClass, wdm/WdfNotifyRoutinesClass, TraceEnableLevelClass, TraceInformationClassReserved1, TraceInformationClassReserved2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -84,87 +84,87 @@ typedef enum _TRACE_INFORMATION_CLASS {
 
 
 
-#### - TraceIdClass
+### -field TraceIdClass
 
 Retrieves the logger ID (ULONG) of an event tracing session given a caller-supplied Wnode.
 
 
-#### - TraceHandleClass
+### -field TraceHandleClass
 
 Retrieves a trace handle (TRACEHANDLE) for an event tracing session given a caller-supplied logger ID (ULONG).
 
 
-#### - TraceEnableFlagsClass
+### -field TraceEnableFlagsClass
 
 Retrieves the enable flags (ULONG) set on a caller-supplied event trace handle (TRACEHANDLE).
 
 
-#### - TraceEnableLevelClass
+### -field TraceEnableLevelClass
 
 Retrieves the enable level (ULONG) set on a caller-supplied event trace handle (TRACEHANDLE).
 
 
-#### - GlobalLoggerHandleClass
+### -field GlobalLoggerHandleClass
 
 Retrieves an event trace handle (TRACEHANDLE) for the global logger.
 
 
-#### - EventLoggerHandleClass
+### -field EventLoggerHandleClass
 
 Reserved for use by the operating system.
 
 
-#### - AllLoggerHandlesClass
+### -field AllLoggerHandlesClass
 
 Retrieves an array of event trace handles (TRACEHANDLE array) for all valid loggers.
 
 
-#### - TraceHandleByNameClass
+### -field TraceHandleByNameClass
 
 Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure in buffer).
 
 
-#### - LoggerEventsLostClass
+### -field LoggerEventsLostClass
 
 Retrieves the number (ULONG) of events lost for a logger session given a caller-supplied logger ID (ULONG).
 
 
-#### - TraceSessionSettingsClass
+### -field TraceSessionSettingsClass
 
 Retrieves the settings (<b>ETW_TRACE_SESSION_SETTINGS</b> structure) for a logger session given a caller-supplied trace handle (TRACEHANDLE).
 
 
-#### - LoggerEventsLoggedClass
+### -field LoggerEventsLoggedClass
 
 Retrieves the number (ULONG) of events logged in a logger session given a caller-supplied logger ID (ULONG).
 
 
-#### - DiskIoNotifyRoutinesClass
+### -field DiskIoNotifyRoutinesClass
 
 Reserved for use by the operating system.
 
 
-#### - TraceInformationClassReserved1
+### -field TraceInformationClassReserved1
 
 Reserved for use by the operating system.
 
 
-#### - FltIoNotifyRoutinesClass
+### -field FltIoNotifyRoutinesClass
 
 Reserved for use by the operating system.
 
 
-#### - TraceInformationClassReserved2
+### -field TraceInformationClassReserved2
 
 Reserved for use by the operating system.
 
 
-#### - WdfNotifyRoutinesClass
+### -field WdfNotifyRoutinesClass
 
 Reserved for use by the operating system.
 
 
-#### - MaxTraceInformationClass
+### -field MaxTraceInformationClass
 
 The maximum value in this enumeration type.
 
@@ -180,11 +180,11 @@ The maximum value in this enumeration type.
 
 <a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
-
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 <a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, ZwDeleteKey, kernel.zwdeletekey, wdm/ZwDeleteKey, wdm/NtDeleteKey
+ms.keywords: ZwDeleteKey, wdm/ZwDeleteKey, kernel.zwdeletekey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], wdm/NtDeleteKey, k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, NtDeleteKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ZwDeleteKey(
 
 
 
-#### - KeyHandle [in]
+### -param KeyHandle [in]
 
 Handle to the registry key to be deleted. The handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>. 
 
@@ -97,9 +97,9 @@ For more information about working with registry keys, see <a href="https://msdn
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
  
 

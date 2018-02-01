@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fb583ded-8292-4486-8e85-3d3039611d14
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanSmsFormatCdma, wwan/WwanSmsFormatCdma, wwan/WwanSmsFormatReserved2, wwan/WwanSmsFormatMax, wwan/WwanSmsFormatPdu, _WWAN_SMS_FORMAT, WwanSmsFormatReserved0, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatReserved1, WwanSmsFormatPdu, WwanSmsFormatReserved1, WwanSmsFormatMax, netvista.wwan_sms_format, wwan/PWWAN_SMS_FORMAT, PWWAN_SMS_FORMAT, WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, wwan/WwanSmsFormatReserved0, wwan/WWAN_SMS_FORMAT, WWAN_SMS_FORMAT, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], *PWWAN_SMS_FORMAT, WwanSmsFormatReserved2
+ms.keywords: WwanSmsFormatPdu, _WWAN_SMS_FORMAT, WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, *PWWAN_SMS_FORMAT, WwanSmsFormatReserved1, wwan/WwanSmsFormatReserved2, netvista.wwan_sms_format, wwan/WwanSmsFormatPdu, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatReserved1, WwanSmsFormatReserved0, wwan/WwanSmsFormatCdma, PWWAN_SMS_FORMAT, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SMS_FORMAT, WwanSmsFormatReserved2, WWAN_SMS_FORMAT, wwan/WwanSmsFormatReserved0, WwanSmsFormatCdma, WwanSmsFormatMax, wwan/WWAN_SMS_FORMAT, wwan/WwanSmsFormatMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,7 +73,7 @@ typedef enum _WWAN_SMS_FORMAT {
 
 
 
-#### - WwanSmsFormatPdu
+### -field WwanSmsFormatPdu
 
 SMS messages are in PDU format. For GSM-based devices, messages are hexadecimal strings that
      represent messages in PDU format as defined in the 3GPP TS 27.005 and 3GPP TS 23.040 specifications. For
@@ -82,22 +82,22 @@ SMS messages are in PDU format. For GSM-based devices, messages are hexadecimal 
      Spectrum Systems".
 
 
-#### - WwanSmsFormatReserved0
+### -field WwanSmsFormatReserved0
 
 This value is reserved for future use. Do not use.
 
 
-#### - WwanSmsFormatReserved1
+### -field WwanSmsFormatReserved1
 
 This value is reserved for future use. Do not use.
 
 
-#### - WwanSmsFormatReserved2
+### -field WwanSmsFormatReserved2
 
 This value is reserved for future use. Do not use.
 
 
-#### - WwanSmsFormatCdma
+### -field WwanSmsFormatCdma
 
 The message is in text format. For more information, see 
      <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a> and 
@@ -105,7 +105,7 @@ The message is in text format. For more information, see
      only to CDMA-based devices.
 
 
-#### - WwanSmsFormatMax
+### -field WwanSmsFormatMax
 
 This value is reserved. Do not use.
 
@@ -121,17 +121,17 @@ CDMA-based devices support only
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
 
 <a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
-
 <a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+
+<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
 
  
 

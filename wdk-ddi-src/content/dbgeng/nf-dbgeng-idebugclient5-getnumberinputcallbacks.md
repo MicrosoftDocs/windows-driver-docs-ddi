@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25188616-ac1a-4699-9343-0fa88e27d9b8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], GetNumberInputCallbacks method, GetNumberInputCallbacks, GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, IDebugClient5, GetNumberInputCallbacks method [Windows Debugging], IDebugClient5::GetNumberInputCallbacks, debugger.getnumberinputcallbacks, dbgeng/IDebugClient5::GetNumberInputCallbacks
+ms.keywords: IDebugClient5::GetNumberInputCallbacks, dbgeng/IDebugClient5::GetNumberInputCallbacks, debugger.getnumberinputcallbacks, GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetNumberInputCallbacks method, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, GetNumberInputCallbacks, GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetNumberInputCallbacks(
 
 
 
-#### - Count [out]
+### -param Count [out]
 
 Receives the number of input callbacks that have been registered.
 
@@ -109,15 +109,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546892">GetInputCallbacks</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547931">GetNumberOutputCallbacks</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547931">GetNumberOutputCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
 
  
 

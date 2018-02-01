@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6a4dfb93-4044-4a7a-a993-38c91f84cae2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ScsiReportLUNsV2, fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, storage.hba_scsireportlunsv2, HBA_ScsiReportLUNsV2 routine [Storage Devices], hbaapi/HBA_ScsiReportLUNsV2
+ms.keywords: hbaapi/HBA_ScsiReportLUNsV2, HBA_ScsiReportLUNsV2, fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, HBA_ScsiReportLUNsV2 routine [Storage Devices], storage.hba_scsireportlunsv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,7 +79,7 @@ HBA_STATUS HBA_API HBA_ScsiReportLUNsV2(
 TBD
 
 
-#### - HbaPortWWN [in]
+### -param HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the SCSI report LUNs command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
@@ -89,27 +89,27 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA po
 TBD
 
 
-#### - pRespBuffer [out]
+### -param pRespBuffer [out]
 
 Pointer to a buffer that receives the output data of the SCSI report LUNs command.
 
 
-#### - pRespBufferSize [in, out]
+### -param pRespBufferSize [in, out]
 
 Indicates the size, in bytes, of the buffer at <i>pRespBuffer</i>.
 
 
-#### - pScsiStatus [out]
+### -param pScsiStatus [out]
 
 Pointer to a buffer that receives the SCSI status data. 
 
 
-#### - pSenseBuffer [out]
+### -param pSenseBuffer [out]
 
 Pointer to a buffer that receives the SCSI sense data.
 
 
-#### - pSenseBufferSize [in, out]
+### -param pSenseBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned.
 
@@ -205,9 +205,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

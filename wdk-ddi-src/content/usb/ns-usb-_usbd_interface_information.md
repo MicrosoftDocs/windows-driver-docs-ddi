@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/USBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, buses.usbd_interface_information, USBD_INTERFACE_INFORMATION, usb/PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml, *PUSBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses], _USBD_INTERFACE_INFORMATION
+ms.keywords: PUSBD_INTERFACE_INFORMATION structure pointer [Buses], PUSBD_INTERFACE_INFORMATION, _USBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usb/PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml, *PUSBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses], USBD_INTERFACE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ typedef struct _USBD_INTERFACE_INFORMATION {
 
 
 
-#### - Length
+### -field Length
 
 Specifies the length, in bytes, of this structure.
 
 
-#### - InterfaceNumber
+### -field InterfaceNumber
 
 Specifies the device-defined index identifier for this interface.
 
 
-#### - AlternateSetting
+### -field AlternateSetting
 
 Specifies a device-defined index identifier that indicates which alternate setting this interface is using, should use, or describes.
 
 
-#### - Class
+### -field Class
 
 Contains a USB-assigned identifier that specifies a USB-defined class that this interface conforms to.
 
 
-#### - SubClass
+### -field SubClass
 
 Contains a USB-assigned identifier that specifies a USB-defined subclass that this interface conforms to. This code is specific to the code in <b>Class</b>.
 
 
-#### - Protocol
+### -field Protocol
 
 Contains a USB-assigned identifier that specifies a USB-defined protocol that this interface conforms to. This code is specific to the codes in <b>Class</b> and <b>SubClass</b>.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - InterfaceHandle
+### -field InterfaceHandle
 
 Contains a host controller driver-defined handle that is used to access this interface. This member should be treated as opaque.
 
 
-#### - NumberOfPipes
+### -field NumberOfPipes
 
 Specifies the number of pipes (endpoints) in this interface.
 
 
-#### - Pipes
+### -field Pipes
 
 Pointer to the first element in the array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. The length of the array depends on the number of endpoints in the interface descriptor.
 
@@ -138,9 +138,9 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

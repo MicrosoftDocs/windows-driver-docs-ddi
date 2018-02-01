@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 490ef6ed-c5df-450f-acd1-36091ac8999e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILLINECONTROLINFO, *LPRILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILLINECONTROLINFO, netvista.rillinecontrolinfo_2
+ms.keywords: RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], RILLINECONTROLINFO, rilapitypes/RILLINECONTROLINFO, *LPRILLINECONTROLINFO, netvista.rillinecontrolinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,26 +73,26 @@ typedef struct _RILLINECONTROLINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - fPolarityIncluded
+### -field fPolarityIncluded
 
 
 
-#### - fToggleMode
+### -field fToggleMode
 
 
 
-#### - fReversePolarity
+### -field fReversePolarity
 
 
 
-#### - dwPowerDenialTime
+### -field dwPowerDenialTime
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 855e3231-502c-4c6f-99f9-7ad85354ccd5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/PNDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/NDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS, _NDIS_PROTOCOL_CO_CHARACTERISTICS, netvista.ndis_protocol_co_characteristics, condis_structures_ref_a4228b74-0f76-4800-ad95-e7ef3d92df42.xml, NDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: PNDIS_PROTOCOL_CO_CHARACTERISTICS, condis_structures_ref_a4228b74-0f76-4800-ad95-e7ef3d92df42.xml, *PNDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/NDIS_PROTOCOL_CO_CHARACTERISTICS, _NDIS_PROTOCOL_CO_CHARACTERISTICS, netvista.ndis_protocol_co_characteristics, NDIS_PROTOCOL_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_CO_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _NDIS_PROTOCOL_CO_CHARACTERISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -85,36 +85,36 @@ The
      <b>Size</b> member to NDIS_SIZEOF_PROTOCOL_CO_CHARACTERISTICS_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for NDIS.
 
 
-#### - CoStatusHandlerEx
+### -field CoStatusHandlerEx
 
 The entry point of the driver's 
      <a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a> function.
 
 
-#### - CoAfRegisterNotifyHandler
+### -field CoAfRegisterNotifyHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-     ProtocolCoAfRegisterNotify</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     ProtocolCoAfRegisterNotify</a> function.
 
 
-#### - CoReceiveNetBufferListsHandler
-
-The entry point of the driver's 
-     <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-     ProtocolCoReceiveNetBufferLists</i></mshelp:link> function.
-
-
-#### - CoSendNetBufferListsCompleteHandler
+### -field CoReceiveNetBufferListsHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.protocolcosendnetbufferlistscomplete" tabindex="0"><i>
-     ProtocolCoSendNetBufferListsComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+     ProtocolCoReceiveNetBufferLists</a> function.
+
+
+### -field CoSendNetBufferListsCompleteHandler
+
+The entry point of the driver's 
+     <a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+     ProtocolCoSendNetBufferListsComplete</a> function.
 
 
 ## -remarks
@@ -122,8 +122,8 @@ The entry point of the driver's
 
 To specify entry points for CoNDIS, a protocol driver initializes an NDIS_PROTOCOL_CO_CHARACTERISTICS
     structure and passes it to the 
-    <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-    NdisSetOptionalHandlers</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+    NdisSetOptionalHandlers</a> function.
 
 The protocol driver calls 
     <b>NdisSetOptionalHandlers</b> from the 
@@ -133,21 +133,21 @@ The protocol driver calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
 
-<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+   ProtocolCoSendNetBufferListsComplete</a>
 
-<mshelp:link keywords="netvista.protocolcosendnetbufferlistscomplete" tabindex="0"><i>
-   ProtocolCoSendNetBufferListsComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
 
  
 

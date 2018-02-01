@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, PFN_WDFIOQUEUEFINDREQUEST, kmdf.wdfioqueuefindrequest, WdfIoQueueFindRequest method, wdfio/WdfIoQueueFindRequest, WdfIoQueueFindRequest, wdf.wdfioqueuefindrequest
+ms.keywords: WdfIoQueueFindRequest, DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, wdf.wdfioqueuefindrequest, WdfIoQueueFindRequest method, PFN_WDFIOQUEUEFINDREQUEST, wdfio/WdfIoQueueFindRequest, kmdf.wdfioqueuefindrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfIoQueueFindRequest(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 
 
-#### - FoundRequest [in, optional]
+### -param FoundRequest [in, optional]
 
 A request object handle that the driver received from a previous call to <b>WdfIoQueueFindRequest</b>. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - FileObject [in, optional]
+### -param FileObject [in, optional]
 
 A handle to a framework file object. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - Parameters [in, out]
+### -param Parameters [in, out]
 
 A pointer to a driver-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a> structure that receives parameters that are associated with the found request. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - OutRequest [out]
+### -param OutRequest [out]
 
 A pointer to a location that receives a handle to the found request. If no match is found, the location receives <b>NULL</b>.
 
@@ -195,11 +195,11 @@ For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 

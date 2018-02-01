@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 47e6da4a-fa81-40ee-9bf5-80526dc0b865
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_GetUSBDIVersion, buses.usbd_getusbdiversion, USBD_GetUSBDIVersion routine [Buses], usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml, USBD_GetUSBDIVersion
+ms.keywords: USBD_GetUSBDIVersion routine [Buses], buses.usbd_getusbdiversion, usbdlib/USBD_GetUSBDIVersion, USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ void USBD_GetUSBDIVersion(
 
 
 
-#### - VersionInformation [out]
+### -param VersionInformation [out]
 
 Pointer to caller-allocated memory for a <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that on return from the routine, contains version information about the HCD.
 

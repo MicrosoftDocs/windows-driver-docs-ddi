@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75417373-AA1B-4297-863A-00EA97069573
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo, IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method
+ms.keywords: SetScopeFromJitDebugInfo method [Windows Debugging], debugger.idebugsymbols3_setscopefromjitdebuginfo, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, IDebugSymbols3::SetScopeFromJitDebugInfo, IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromJitDebugInfo, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetScopeFromJitDebugInfo(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 An output control.
 
 
-#### - InfoOffset [in]
+### -param InfoOffset [in]
 
 An offset for the debugging information. 
 

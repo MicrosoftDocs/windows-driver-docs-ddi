@@ -72,12 +72,12 @@ VOID VmbChannelUnmapGpadl(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel.  
 
 
-#### - GpadlHandle [in]
+### -param GpadlHandle [in]
 
 The handle of the GPADL to unmap.
 

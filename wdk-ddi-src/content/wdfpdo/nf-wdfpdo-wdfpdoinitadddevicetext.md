@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoInitAddDeviceText, wdf.wdfpdoinitadddevicetext, DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, kmdf.wdfpdoinitadddevicetext, WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, PFN_WDFPDOINITADDDEVICETEXT
+ms.keywords: wdf.wdfpdoinitadddevicetext, PFN_WDFPDOINITADDDEVICETEXT, kmdf.wdfpdoinitadddevicetext, WdfPdoInitAddDeviceText method, wdfpdo/WdfPdoInitAddDeviceText, DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfPdoInitAddDeviceText(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - DeviceDescription [in]
+### -param DeviceDescription [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a device description, formatted for the given locale. The driver can allocate the string's buffer from paged pool.
 
 
-#### - DeviceLocation [in]
+### -param DeviceLocation [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a description of the location on the bus where the parent device found the child. The driver can allocate the string's buffer from paged pool.
 
 
-#### - LocaleId [in]
+### -param LocaleId [in]
 
 A locale identifier (LCID) that represents the locale of the Unicode strings. For more information, see <a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fec0">Locale Identifiers</a>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5099ff37-eed9-44fd-8254-3828b8c5d8bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], display.iddcx_frame_statistics, iddcx/IDDCX_FRAME_STATISTICS
+ms.keywords: display.iddcx_frame_statistics, IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], iddcx/IDDCX_FRAME_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,100 +82,100 @@ typedef struct IDDCX_FRAME_STATISTICS {
 
 
 
-#### - Size
+### -field Size
 
 
                      Total size of the structure
                  
 
 
-#### - PresentationFrameNumber
+### -field PresentationFrameNumber
 
 
                      The frame number provided in the ReleaseAndAcquireBuffer call
 
 
-#### - FrameStatus
+### -field FrameStatus
 
 
                      Indicates the overall status of processing this frame
                  
 
 
-#### - ReEncodeNumber
+### -field ReEncodeNumber
 
 Zero based number to indicate the number of times the same frame has been encoded and sent. Re-encodes can be the result of the OS providing the same frame and frame number to the driver to encode or the driver having to re-encode outside of the normal OS presentation to satisfy the protocol.
 
 
-#### - FrameSliceTotal
+### -field FrameSliceTotal
 
 
                      Indicates the number of slices the driver processes the frame in. If slices are not used, then this should be set to the value one
                  
 
 
-#### - CurrentSlice
+### -field CurrentSlice
 
 
                      Indicates the zero based slice number being reported. If slicing is not supported, then the driver should always set this to the value zero
                  
 
 
-#### - FrameAcquireQpcTime
+### -field FrameAcquireQpcTime
 
 
                      System Qpc time the driver acquired the buffer from the OS
                  
 
 
-#### - FrameProcessingStepsCount
+### -field FrameProcessingStepsCount
 
 
                      The size of the frame step array pointed to by pFrameParts
                  
 
 
-#### - pFrameProcessingStep
+### -field pFrameProcessingStep
 
 
                      Array of frame processing steps the driver performed
                  
 
 
-#### - SendStartQpcTime
+### -field SendStartQpcTime
 
 
                      Marks the time when the driver started transmission for this slice to the device
 <div class="alert"><b>Note</b>  NOTE : This marks the time the driver started calling the transmit API's, not when the data actually starts being transmitted</div><div> </div>
 
-#### - SendStopQpcTime
+### -field SendStopQpcTime
 
 
                      Marks the time when the driver started transmission for this slice to the device
 <div class="alert"><b>Note</b>  This marks the time the driver started calling the transmit API's, not when the data actually starts being transmitted</div><div> </div>
 
-#### - SendCompleteQpcTime
+### -field SendCompleteQpcTime
 
 
                      Marks the time when the send was reported as complete by the OS. This is an optional time stamp that can be used if the driver uses asynchronous transmit API and a completion routine. In the event the driver does not have an asynchronous completion routine, this value should be set to zero
                  
 
 
-#### - Flags
+### -field Flags
 
 
                      Frame statistic flags
                  
 
 
-#### - ProcessedPixelCount
+### -field ProcessedPixelCount
 
 
                      
                  The total number of pixels processed in this frame
 
 
-#### - FrameSizeInBytes
+### -field FrameSizeInBytes
 
 
                      Total size of the data send to device for this frame, this includes all the slices

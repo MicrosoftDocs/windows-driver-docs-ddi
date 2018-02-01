@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2B9539D7-6125-4912-9572-13FA7CA671D9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUCM_MANAGER_CONFIG, ucmmanager/PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG structure pointer [Buses], buses.ucm_manager_config, UCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG, _UCM_MANAGER_CONFIG, ucmmanager/UCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG structure [Buses]"
+ms.keywords: buses.ucm_manager_config, ucmmanager/PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG, _UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG structure [Buses], PUCM_MANAGER_CONFIG structure pointer [Buses], ucmmanager/UCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _UCM_MANAGER_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 Size of the <b>UCM_MANAGER_CONFIG</b> structure. Initialize this structure by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_manager_config_init.md">UCM_MANAGER_CONFIG_INIT</a>.
 

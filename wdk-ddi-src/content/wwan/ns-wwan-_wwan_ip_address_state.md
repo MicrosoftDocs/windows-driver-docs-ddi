@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63D3B055-A3B0-4A76-B53C-C5E87C40A52C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE, netvista.wwan_ip_address_state, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_IP_ADDRESS_STATE, _WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], *PWWAN_IP_ADDRESS_STATE, _WWAN_IP_ADDRESS_STATE, netvista.wwan_ip_address_state, wwan/PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,61 +77,61 @@ typedef struct _WWAN_IP_ADDRESS_STATE {
 
 
 
-#### - IPv4Flags
+### -field IPv4Flags
 
 Flags that describe  the availability of the IPV4 address, gateway, DNS server, and MTU information of the PDP context.
 
 
-#### - IPv6Flags
+### -field IPv6Flags
 
 Flags that describe the availability of the IPV6 address, gateway, DNS server, and MTU information of the PDP context.
 
 
-#### - IPv4MTU
+### -field IPv4MTU
 
 The IPV4 MTU value of the PDP context.
 
 
-#### - IPv6MTU
+### -field IPv6MTU
 
 The IPV6 MTU value of the PDP context.
 
 
-#### - IpTable
+### -field IpTable
 
 Pointer to the start of an array of IP addresses of the PDP context.
 
 
-#### - IpCount
+### -field IpCount
 
 The number of entries in the <b>IpTable</b> array.
 
 
-#### - GatewayTable
+### -field GatewayTable
 
 Pointer to the start of an array of gateways of the PDP context.
 
 
-#### - GatewayCount
+### -field GatewayCount
 
 The number of entries in the <b>GatewayTable</b> array.
 
 
-#### - DnsTable
+### -field DnsTable
 
 Pointer to the start of an array of DNS servers of the PDP context.
 
 
-#### - DnsCount
+### -field DnsCount
 
 The number of entries in the <b>DnsTable</b> array.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
-
 <a href="..\wwan\ns-wwan-_wwan_ipaddress_entry.md">WWAN_IPADDRESS_ENTRY</a>
+
+<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
 
  
 

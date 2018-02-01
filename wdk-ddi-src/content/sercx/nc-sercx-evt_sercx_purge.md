@@ -72,12 +72,12 @@ NTSTATUS EvtSerCxPurge(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - PurgeMask [in]
+### -param PurgeMask [in]
 
 A set of flags that describe the hardware buffers that are to be purged.  Currently, no flags are defined for purge operations that are performed by the serial controller. For more information, see Remarks.
 
@@ -132,9 +132,9 @@ To register an <i>EvtSerCxPurge</i> callback function, the controller driver cal
 
 <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_purge.md">IOCTL_SERIAL_PURGE</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
  
 

@@ -72,7 +72,7 @@ VOID NdisWdiTxAbortConfirm(
 
 
 
-#### - NdisMiniportDataPathHandle [in]
+### -param NdisMiniportDataPathHandle [in]
 
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f9dd7b32-7a87-427e-9efe-861301249add
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintcorehelperuni_setoptions, SetOptions, IPrintCoreHelperUni, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml, prcomoem/IPrintCoreHelperUni::SetOptions, SetOptions method [Print Devices], IPrintCoreHelperUni interface [Print Devices], SetOptions method, SetOptions method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni::SetOptions
+ms.keywords: print.iprintcorehelperuni_setoptions, SetOptions, SetOptions method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni::SetOptions, prcomoem/IPrintCoreHelperUni::SetOptions, IPrintCoreHelperUni interface [Print Devices], SetOptions method, SetOptions method [Print Devices], IPrintCoreHelperUni, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,17 +74,17 @@ STDMETHOD  SetOptions(
 
 
 
-#### - pDevmode [in, optional]
+### -param pDevmode [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::SetOptions</code> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter. 
 
 
-#### - bResolveConflicts [in]
+### -param bResolveConflicts [in]
 
 A Boolean value that indicates whether <code>IPrintCoreHelperUni::SetOptions</code> should resolve conflicts that arise from one or more constraints in the GPD view of the configuration file, as well as constraints for functionality implemented by Unidrv or the print processor. If <b>TRUE</b>, this method should attempt to resolve the conflict. If <b>FALSE</b>, this method should not attempt to resolve conflicts.
 
@@ -94,17 +94,17 @@ A Boolean value that indicates whether <code>IPrintCoreHelperUni::SetOptions</co
 
 
 
-#### - cPairs [in]
+### -param cPairs [in]
 
 The number of feature-option pairs that are pointed to by the <i>pFOPairs</i> parameter. 
 
 
-#### - pcPairsWritten [out]
+### -param pcPairsWritten [out]
 
 A pointer to a variable that receives the number of feature-option pairs that were successfully saved before <code>IPrintCoreHelperUni::SetOptions</code> returned or failed. If this method returns successfully, *<i>pcPairsWritten</i> will have the same value as <i>cPairs</i>. If the method fails, *<i>pcPairsWritten</i> can have any value from zero through the value of <i>cPairs</i>. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 A pointer to a variable that receives the status of the conflict resolution. The status can be one of the following values.
 <table>

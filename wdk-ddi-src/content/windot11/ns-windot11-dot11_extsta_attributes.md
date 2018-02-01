@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 319017a7-f398-46f7-ab03-1dcb057c1332
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_EXTSTA_ATTRIBUTES, windot11/PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES, netvista.dot11_extsta_attributes, DOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/DOT11_EXTSTA_ATTRIBUTES
+ms.keywords: PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, netvista.dot11_extsta_attributes, DOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES, windot11/DOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_EXTSTA_ATTRIBUTES</b> structure defines the physical and operating attributes of the miniport
   driver and 802.11 station when operating in Extensible Station (ExtSTA) mode. For more information about
   this operation mode, see 
-  <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-  Mode</mshelp:link>.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+  Mode</a>.
 
 
 ## -syntax
@@ -100,7 +100,7 @@ typedef struct DOT11_EXTSTA_ATTRIBUTES {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_EXTSTA_ATTRIBUTES</b> structure. This member is formatted as
      an 
@@ -114,11 +114,6 @@ The miniport driver must set the members of
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
-
-
-#### Type
-
-This member must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.
 
 
 #### Revision
@@ -156,7 +151,12 @@ This member must be set to
        <b>sizeof</b>(<b>DOT11_EXTSTA_ATTRIBUTES</b>).
 
 
-#### - uScanSSIDListSize
+#### Type
+
+This member must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.
+
+
+### -field uScanSSIDListSize
 
 The maximum number of service set identifiers (SSIDs) supported by the 802.11 station for scan
      operations. The 802.11 station must support an SSID list of at least four entries.
@@ -167,62 +167,62 @@ The SSID list that the 802.11 station uses for scanning is specified when
      set.
 
 
-#### - uDesiredBSSIDListSize
+### -field uDesiredBSSIDListSize
 
 The maximum number of entries in the desired list of basic service set identifiers (BSSIDs)
      supported by the 802.11 station. The 802.11 station must support a BSSID list with at least one entry.
      
 
 For more information about the desired BSSID list, see 
-     <mshelp:link keywords="netvista.oid_dot11_desired_bssid_list" tabindex="0">
-     OID_DOT11_DESIRED_BSSID_LIST</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
+     OID_DOT11_DESIRED_BSSID_LIST</a>.
 
 
-#### - uDesiredSSIDListSize
+### -field uDesiredSSIDListSize
 
 The maximum number of entries in the desired SSID list supported by the 802.11 station. The 802.11
      station must support a desired SSID list with at least one entry.
      
 
 For more information about the desired SSID list, see 
-     <mshelp:link keywords="netvista.oid_dot11_desired_ssid_list" tabindex="0">
-     OID_DOT11_DESIRED_SSID_LIST</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">
+     OID_DOT11_DESIRED_SSID_LIST</a>.
 
 
-#### - uExcludedMacAddressListSize
+### -field uExcludedMacAddressListSize
 
 The maximum number of entries in the excluded MAC address list supported by the 802.11 station.
      The 802.11 station must support an excluded MAC address list with at least four entries.
      
 
 For more information about the desired excluded MAC address list, see 
-     <mshelp:link keywords="netvista.oid_dot11_excluded_mac_address_list" tabindex="0">
-     OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+     OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>.
 
 
-#### - uPrivacyExemptionListSize
+### -field uPrivacyExemptionListSize
 
 The maximum number of entries in the privacy exemption list supported by the 802.11 station. The
      802.11 station must support a privacy exemption list with at least one entry.
      
 
 For more information about the privacy exemption list, see 
-     <mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
-     OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+     OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
 
 
-#### - uKeyMappingTableSize
+### -field uKeyMappingTableSize
 
 The maximum number of cipher key-mapping keys supported by the 802.11 station. It is recommended
      that the 802.11 station support at least 32 key-mapping keys.
      
 
 For more information about key mapping keys, see 
-     <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-     OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+     OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>.
 
 
-#### - uDefaultKeyTableSize
+### -field uDefaultKeyTableSize
 
 The maximum number of cipher keys the 802.11 station supports for the default key and per-station
      default key tables.
@@ -233,7 +233,7 @@ For standard 802.11 cipher algorithms, the 802.11 station must support a table s
      can be four or greater.
 
 
-#### - uWEPKeyValueMaxLength
+### -field uWEPKeyValueMaxLength
 
 The maximum length, in bytes, of a WEP cipher key supported by the 802.11 station.
      
@@ -292,7 +292,7 @@ Any length supported by the 802.11 station
 </table> 
 
 
-#### - uPMKIDCacheSize
+### -field uPMKIDCacheSize
 
 The maximum number of entries in the pairwise master key identifier (PMKID) cache supported by the
      802.11 station. 
@@ -305,7 +305,7 @@ For more information about the PMKID cache, see
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>.
 
 
-#### - uMaxNumPerSTADefaultKeyTables
+### -field uMaxNumPerSTADefaultKeyTables
 
 The maximum number of per-station default cipher key tables supported by the 802.11 station. It is
      recommended that the 802.11 station support at least 32 per-station default cipher key tables.
@@ -315,7 +315,7 @@ For more information about per-station default cipher key tables, see
      <a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>.
 
 
-#### - bStrictlyOrderedServiceClassImplemented
+### -field bStrictlyOrderedServiceClassImplemented
 
 A Boolean value that, if set to <b>TRUE</b>, specifies that the 802.11 station supports the IEEE 802.11
      StrictlyOrdered service class for media access control (MAC) service data unit (MSDU) packet delivery.
@@ -325,7 +325,7 @@ For more information about the StrictlyOrdered service class, refer to Clause 5.
      802.11-2012 standard.
 
 
-#### - ucSupportedQoSProtocolFlags
+### -field ucSupportedQoSProtocolFlags
 
 A set of flags that specify the quality of service (QoS) protocols that the NIC implements. This
      member is either zero or a bitwise OR combination of the following flags:
@@ -334,17 +334,17 @@ A set of flags that specify the quality of service (QoS) protocols that the NIC 
 
 
 
-#### DOT11_QOS_PROTOCOL_FLAG_WMM
-
-The NIC implements the 802.11 WMM QoS protocol.
-
-
 #### DOT11_QOS_PROTOCOL_FLAG_11E
 
 The NIC implements the 802.11e QoS protocol.
 
 
-#### - bSafeModeImplemented
+#### DOT11_QOS_PROTOCOL_FLAG_WMM
+
+The NIC implements the 802.11 WMM QoS protocol.
+
+
+### -field bSafeModeImplemented
 
 The safe mode support capability of the NIC/miniport driver combination. The operating system
      interprets this member differently depending on the value of 
@@ -354,8 +354,8 @@ The safe mode support capability of the NIC/miniport driver combination. The ope
 
 
 This member is used in conjunction with 
-     <mshelp:link keywords="netvista.oid_dot11_safe_mode_enabled" tabindex="0">
-     OID_DOT11_SAFE_MODE_ENABLED</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">
+     OID_DOT11_SAFE_MODE_ENABLED</a>.
 
 
 #### Revision = DOT11_EXTSTA_ATTRIBUTES_REVISION_1
@@ -385,7 +385,7 @@ If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_CERTIFIED</b>, th
 </li>
 </ul>
 
-#### - uNumSupportedCountryOrRegionStrings
+### -field uNumSupportedCountryOrRegionStrings
 
 The number of country or region strings supported by the 802.11 station. If the 802.11 station
      supports multiple regulatory domains as specified by the IEEE 802.11d-2001 standard, each country or
@@ -396,12 +396,12 @@ If the 802.11 station does not support the IEEE 802.11d-2001 standard, the minip
      <b>uNumSupportedCountryOrRegionStrings</b> to zero.
 
 
-#### - pSupportedCountryOrRegionStrings
+### -field pSupportedCountryOrRegionStrings
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
      station. Each entry in the array is formatted as a 
-     <mshelp:link keywords="netvista.dot11_country_or_region_string" tabindex="0"><b>
-     DOT11_COUNTRY_OR_REGION_STRING</b></mshelp:link> structure.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+     DOT11_COUNTRY_OR_REGION_STRING</a> structure.
 
 
 ### -field pSupportedCountryOrRegionStrings.size_is
@@ -414,7 +414,7 @@ A pointer to an array of 802.11d country or region strings that are supported by
  
 
 
-#### - uInfraNumSupportedUcastAlgoPairs
+### -field uInfraNumSupportedUcastAlgoPairs
 
 The number of authentication and cipher algorithms supported by the 802.11 station for sending and
      receiving unicast packets when configured for operation in an infrastructure basic service set (BSS)
@@ -425,13 +425,13 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      <b>pInfraSupportedUcastAlgoPairs</b> member.
 
 
-#### - pInfraSupportedUcastAlgoPairs
+### -field pInfraSupportedUcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
      sending and receiving unicast packets in an infrastructure BSS network. Each entry in the array is
      formatted as a 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structure.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
 ### -field pInfraSupportedUcastAlgoPairs.size_is
@@ -444,7 +444,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
  
 
 
-#### - uInfraNumSupportedMcastAlgoPairs
+### -field uInfraNumSupportedMcastAlgoPairs
 
 The number of authentication and cipher algorithms supported by the 802.11 station for sending and
      receiving multicast and broadcast packets when configured for operation in an infrastructure basic
@@ -455,13 +455,13 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      <b>pInfraSupportedMcastAlgoPairs</b> member.
 
 
-#### - pInfraSupportedMcastAlgoPairs
+### -field pInfraSupportedMcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
      sending and receiving multicast and broadcast packets in an infrastructure BSS network. Each entry in
      the array is formatted as a 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structure.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
 ### -field pInfraSupportedMcastAlgoPairs.size_is
@@ -474,7 +474,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
  
 
 
-#### - uAdhocNumSupportedUcastAlgoPairs
+### -field uAdhocNumSupportedUcastAlgoPairs
 
 The number of authentication and cipher algorithms supported by the 802.11 station for sending and
      receiving unicast packets when configured for operation in an independent BSS (IBSS) network. The 
@@ -484,12 +484,12 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      <b>pAdhocSupportedUcastAlgoPairs</b> member.
 
 
-#### - pAdhocSupportedUcastAlgoPairs
+### -field pAdhocSupportedUcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
      sending and receiving unicast packets in an IBSS network. Each entry in the array is formatted as a 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structure.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
 ### -field pAdhocSupportedUcastAlgoPairs.size_is
@@ -502,7 +502,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
  
 
 
-#### - uAdhocNumSupportedMcastAlgoPairs
+### -field uAdhocNumSupportedMcastAlgoPairs
 
 The number of authentication and cipher algorithms supported by the 802.11 station for sending and
      receiving multicast and broadcast packets when configured for operation in an IBSS network. The 
@@ -512,13 +512,13 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      <b>pAdhocSupportedMcastAlgoPairs</b> member.
 
 
-#### - pAdhocSupportedMcastAlgoPairs
+### -field pAdhocSupportedMcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
      sending and receiving multicast and broadcast packets in an IBSS network. Each entry in the array is
      formatted as a 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structure.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
 ### -field pAdhocSupportedMcastAlgoPairs.size_is
@@ -531,32 +531,32 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
  
 
 
-#### - bAutoPowerSaveMode
+### -field bAutoPowerSaveMode
 
 The support capability of the NIC/miniport driver combination to autonomously manage power well, including detection and negotiation of proper Wi-Fi Power Save Mode (PSM) between the device and the Wi-Fi Access Point. NDIS 6.30 compliant Wi-Fi miniport drivers should set this member to TRUE.
 
 
-#### - uMaxNetworkOffloadListSize
+### -field uMaxNetworkOffloadListSize
 
 The maximum number of networks a miniport driver can offload, if it has the ability to support the Network List Offload capability.
 
 
-#### - bMFPCapable
+### -field bMFPCapable
 
 The support capability of the NIC/miniport driver to combination to support management frame protection between the device and the Wi-Fi Access Point  as specified in the 802.11w-2009 specification. Set to TRUE if supported. Otherwise, this member should be set to FALSE. 
 
 
-#### - uInfraNumSupportedMcastMgmtAlgoPairs
+### -field uInfraNumSupportedMcastMgmtAlgoPairs
 
 The length of the array of authentication and cipher algorithm pairs pointed to in <b>pInfraSupportedMcastMgmtAlgoPairs</b>.
 
 
-#### - pInfraSupportedMcastMgmtAlgoPairs
+### -field pInfraSupportedMcastMgmtAlgoPairs
 
 A pointer to an array of authentication and cipher algorithm pair which the device supports for MFP in Infra mode. The recommended cipher for Windows 8 is BIP with WPA or WPA2 authentication. Each entry in the array is
      formatted as a 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structure.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
 ### -field pInfraSupportedMcastMgmtAlgoPairs.size_is
@@ -599,8 +599,8 @@ A pointer to an array of authentication and cipher algorithm pair which the devi
 
 
 The 
-    <mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link> structure contains a member (<b>pExtSTAAttributes</b>) that specifies the address of a DOT11_EXTSTA_ATTRIBUTES structure. When the
+    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> structure contains a member (<b>pExtSTAAttributes</b>) that specifies the address of a DOT11_EXTSTA_ATTRIBUTES structure. When the
     miniport driver calls 
     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>,
     the driver sets the 
@@ -614,43 +614,43 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
-
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
-
-<mshelp:link keywords="netvista.oid_dot11_excluded_mac_address_list" tabindex="0">
-   OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</mshelp:link>
-
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
-
-<mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
-   OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+   Mode</a>
+
+<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+   OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-<mshelp:link keywords="netvista.dot11_country_or_region_string" tabindex="0"><b>
-   DOT11_COUNTRY_OR_REGION_STRING</b></mshelp:link>
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-   Mode</mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+   DOT11_COUNTRY_OR_REGION_STRING</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

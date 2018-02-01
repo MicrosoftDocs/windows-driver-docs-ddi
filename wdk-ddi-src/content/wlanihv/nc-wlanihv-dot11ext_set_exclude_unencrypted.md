@@ -72,7 +72,7 @@ DWORD WINAPI * Dot11ExtSetExcludeUnencrypted(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -80,7 +80,7 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-#### - bExcludeUnencrypted [in]
+### -param bExcludeUnencrypted [in]
 
 A Boolean value that, if set to <b>TRUE</b>, configures the WLAN adapter to exclude unencrypted
      packets.
@@ -101,22 +101,22 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 If the WLAN adapter is enabled to exclude unencrypted packets, the station must exempt received
     packets that match an entry in the station's current EtherType exemption list. The IHV Extensions DLL
     specifies the EtherType exemption list through calls to the 
-    <mshelp:link keywords="netvista.dot11extsetethertypehandling" tabindex="0"><b>
-    Dot11ExtSetEtherTypeHandling</b></mshelp:link> function.
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">
+    Dot11ExtSetEtherTypeHandling</a> function.
 
 A call to the 
     <b>Dot11ExtSetExcludeUnencrypted</b> function results in a set request of the 
-    <mshelp:link keywords="netvista.oid_dot11_exclude_unencrypted" tabindex="0">
-    OID_DOT11_EXCLUDE_UNENCRYPTED</mshelp:link> object identifier (OID) to the Native 802.11 miniport driver that
+    <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">
+    OID_DOT11_EXCLUDE_UNENCRYPTED</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
 
 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 

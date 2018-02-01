@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitialize routine [Storage Devices], storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, storage.storportinitialize, StorPortInitialize, storport/StorPortInitialize
+ms.keywords: storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, storport/StorPortInitialize, StorPortInitialize, StorPortInitialize routine [Storage Devices], storage.storportinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API ULONG StorPortInitialize(
 
 
 
-#### - Argument1 [in]
+### -param Argument1 [in]
 
 The first pointer with which the operating system called the miniport's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
-#### - Argument2 [in]
+### -param Argument2 [in]
 
 The second pointer with which the operating system called the miniports's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
-#### - HwInitializationData [in]
+### -param HwInitializationData [in]
 
 Pointer to the initialization and configuration information set by the miniport driver in it's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
-#### - HwContext [in, optional]
+### -param HwContext [in, optional]
 
 Is the address of a context value to be passed to the miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <b>HwStorFindAdapter</b>. 
 
@@ -184,9 +184,9 @@ Every miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 88EE4C63-C9D8-41D2-800E-9FFD5EF4962A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_FIPS_MODE enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_FIPS_MODE_DISABLED, wditypes/WDI_FIPS_MODE_UNKNOWN, WDI_FIPS_MODE_ENABLED, _WDI_FIPS_MODE, WDI_FIPS_MODE_DISABLED, WDI_FIPS_MODE_UNKNOWN, wditypes/WDI_FIPS_MODE, wditypes/WDI_FIPS_MODE_ENABLED, netvista.wdi_fips_mode, WDI_FIPS_MODE
+ms.keywords: WDI_FIPS_MODE enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_FIPS_MODE, WDI_FIPS_MODE_DISABLED, _WDI_FIPS_MODE, WDI_FIPS_MODE, WDI_FIPS_MODE_UNKNOWN, wditypes/WDI_FIPS_MODE_UNKNOWN, wditypes/WDI_FIPS_MODE_ENABLED, wditypes/WDI_FIPS_MODE_DISABLED, netvista.wdi_fips_mode, WDI_FIPS_MODE_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ typedef enum _WDI_FIPS_MODE {
 
 
 
-#### - WDI_FIPS_MODE_DISABLED
+### -field WDI_FIPS_MODE_DISABLED
 
 FIPS mode is disabled.
 
 
-#### - WDI_FIPS_MODE_ENABLED
+### -field WDI_FIPS_MODE_ENABLED
 
 FIPS mode is enabled.
 
 
-#### - WDI_FIPS_MODE_UNKNOWN
+### -field WDI_FIPS_MODE_UNKNOWN
 
 Unknown.
 

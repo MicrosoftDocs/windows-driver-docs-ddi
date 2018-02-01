@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 819ac05b-15c2-4a24-ae6b-8a47991a4e7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisAdvanceNetBufferListDataStart, netvista.ndisadvancenetbufferlistdatastart, NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, NdisAdvanceNetBufferListDataStart
+ms.keywords: ndis/NdisAdvanceNetBufferListDataStart, NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], NdisAdvanceNetBufferListDataStart, ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, netvista.ndisadvancenetbufferlistdatastart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -53,8 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Call the 
   <b>NdisAdvanceNetBufferListDataStart</b> function to release data space that was claimed in previous calls
   to the 
-  <mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
-  NdisRetreatNetBufferListDataStart</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+  NdisRetreatNetBufferListDataStart</a> function.
 
 
 ## -syntax
@@ -75,19 +75,19 @@ VOID NdisAdvanceNetBufferListDataStart(
 
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a previously allocated 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
 
 
-#### - DataOffsetDelta [in]
+### -param DataOffsetDelta [in]
 
 The amount of 
      <i>used data space</i> to release.
 
 
-#### - FreeMdl [in]
+### -param FreeMdl [in]
 
 If <b>TRUE</b> and NDIS allocated memory to satisfy the corresponding 
      <b>NdisRetreatNetBufferListDataStart</b> call, this function frees the memory that was allocated and the
@@ -124,13 +124,13 @@ None
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures in a 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. If 
     <i>FreeMdl</i> is <b>TRUE</b> and 
-    <mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
-    NdisRetreatNetBufferListDataStart</b></mshelp:link> allocated memory to satisfy the corresponding allocation request,
+    <a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+    NdisRetreatNetBufferListDataStart</a> allocated memory to satisfy the corresponding allocation request,
     
     <b>NdisAdvanceNetBufferListDataStart</b> frees the allocated memory. Calling this function is equivalent
     to calling 
-    <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-    NdisAdvanceNetBufferDataStart</b></mshelp:link> for every NET_BUFFER structure on the NET_BUFFER_LIST structure.
+    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    NdisAdvanceNetBufferDataStart</a> for every NET_BUFFER structure on the NET_BUFFER_LIST structure.
     However, calling 
     <b>NdisAdvanceNetBufferListDataStart</b> is more efficient.
 
@@ -143,19 +143,19 @@ When protocol drivers call
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
-   NdisRetreatNetBufferListDataStart</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+
+<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+   NdisRetreatNetBufferListDataStart</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

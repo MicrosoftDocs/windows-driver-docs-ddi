@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 981f5a33-a4f1-438c-8fcf-03a5ab4c0e44
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxindicatechangeofbufferingstate, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], RxIndicateChangeOfBufferingState, rxprocs/RxIndicateChangeOfBufferingState, rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml
+ms.keywords: rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml, rxprocs/RxIndicateChangeOfBufferingState, ifsk.rxindicatechangeofbufferingstate, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], RxIndicateChangeOfBufferingState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID RxIndicateChangeOfBufferingState(
 
 
 
-#### - SrvCall
+### -param SrvCall
 
 A pointer to the SRV_CALL structure.
 
 
-#### - SrvOpenKey
+### -param SrvOpenKey
 
 A pointer to the key for the SRV_OPEN structure.
 
@@ -115,9 +115,9 @@ If a buffering state request can be processed immediately instead of being queue
 
 <a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
 
-<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen.md">RxIndicateChangeOfBufferingStateForSrvOpen</a>
-
 <a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen.md">RxIndicateChangeOfBufferingStateForSrvOpen</a>
 
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 

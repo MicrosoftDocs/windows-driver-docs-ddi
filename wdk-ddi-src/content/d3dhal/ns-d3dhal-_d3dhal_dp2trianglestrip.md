@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfa4f6c3-b174-4bd5-9729-6d835bb87b6a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DHAL_DP2TRIANGLESTRIP, *LPD3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP, d3dhal/LPD3DHAL_DP2TRIANGLESTRIP, display.d3dhal_dp2trianglestrip, LPD3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP structure pointer [Display Devices], d3dstrct_01322dae-8b16-4631-ac3d-f65c5d31c5a3.xml, d3dhal/D3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP structure [Display Devices]"
+ms.keywords: "*LPD3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP structure [Display Devices], d3dstrct_01322dae-8b16-4631-ac3d-f65c5d31c5a3.xml, d3dhal/D3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP structure pointer [Display Devices], display.d3dhal_dp2trianglestrip, _D3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP, d3dhal/LPD3DHAL_DP2TRIANGLESTRIP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DHAL_DP2TRIANGLESTRIP {
 
 
 
-#### - wVStart
+### -field wVStart
 
 Specifies the index to the vertex buffer containing coordinate data for the initial vertex of the triangle strip.
 

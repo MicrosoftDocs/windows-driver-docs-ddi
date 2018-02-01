@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0aed2613-b40f-4328-91c4-c8e945c6ef17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDispatchQuerySecurity function [Streaming Media Devices], KsDispatchQuerySecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, stream.ksdispatchquerysecurity, ks/KsDispatchQuerySecurity
+ms.keywords: KsDispatchQuerySecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, KsDispatchQuerySecurity function [Streaming Media Devices], stream.ksdispatchquerysecurity, ks/KsDispatchQuerySecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsDispatchQuerySecurity(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Specifies the device object associated with the IRP.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP that is being handled.
 

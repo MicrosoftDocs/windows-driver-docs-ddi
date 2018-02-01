@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 75dda423-8d5a-4b11-a187-d6703601a366
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, DXGK_RFVR_UNINITIALIZED, display.dxgk_recommendfunctionalvidpn_reason, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_FIRMWARE, d3dkmddi/DXGK_RFVR_USERMODE, DXGK_RFVR_USERMODE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_UNINITIALIZED, DXGK_RFVR_HOTKEY, d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RFVR_FIRMWARE, d3dkmddi/DXGK_RFVR_HOTKEY
+ms.keywords: d3dkmddi/DXGK_RFVR_USERMODE, d3dkmddi/DXGK_RFVR_HOTKEY, DXGK_RFVR_HOTKEY, DXGK_RFVR_FIRMWARE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_FIRMWARE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, display.dxgk_recommendfunctionalvidpn_reason, DXGK_RFVR_UNINITIALIZED, d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RFVR_USERMODE, DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, d3dkmddi/DXGK_RFVR_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON {
 
 
 
-#### - DXGK_RFVR_UNINITIALIZED
+### -field DXGK_RFVR_UNINITIALIZED
 
 Indicates that a variable of type DXGK_RECOMMENDFUNCTIONALVIDPN_REASON has not yet been assigned a meaningful value.
 
 
-#### - DXGK_RFVR_HOTKEY
+### -field DXGK_RFVR_HOTKEY
 
 Indicates that the VidPN manager is calling <i>DxgkDdiRecommendFunctionalVidPn</i> because the user pressed a hot key to request a change in the way the desktop is displayed on a collection of monitors (or other display devices).
 
 
-#### - DXGK_RFVR_USERMODE
+### -field DXGK_RFVR_USERMODE
 
 Indicates that a user-mode application initiated a call to <i>DxgkDdiRecommendFunctionalVidPn</i>.
 
 
-#### - DXGK_RFVR_FIRMWARE
+### -field DXGK_RFVR_FIRMWARE
 
 Value indicating that the OS is requesting the driver to describe a functional VidPn which reflects the display topology and timings which are currently set, as inherited from firmware during boot or resume from hibernation.
 

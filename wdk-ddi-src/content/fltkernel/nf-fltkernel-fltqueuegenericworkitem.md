@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltQueueGenericWorkItem function [Installable File System Drivers], FltQueueGenericWorkItem, FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, ifsk.fltqueuegenericworkitem, fltkernel/FltQueueGenericWorkItem
+ms.keywords: ifsk.fltqueuegenericworkitem, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS FltQueueGenericWorkItem(
 
 
 
-#### - FltWorkItem [in]
+### -param FltWorkItem [in]
 
 Pointer to the work item to be added to the work queue. The work item must have been allocated by calling <a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>. 
 
 
-#### - FltObject [in]
+### -param FltObject [in]
 
 Opaque filter (PFLT_FILTER) or instance (PFLT_INSTANCE) pointer for the caller. 
 
 
-#### - WorkerRoutine [in]
+### -param WorkerRoutine [in]
 
 Pointer to a caller-supplied worker routine. This routine is declared as follows: 
 <div class="code"><span codelanguage=""><table>
@@ -101,9 +101,9 @@ Pointer to a caller-supplied worker routine. This routine is declared as follows
 </table></span></div>
 
 
-#### FltWorkItem
+#### Context
 
-Opaque pointer to a generic work item structure. 
+Context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueGenericWorkItem</b>. This parameter is optional. 
 
 
 #### FltObject
@@ -111,12 +111,12 @@ Opaque pointer to a generic work item structure.
 Opaque filter pointer that was passed as the <i>FltObject</i> parameter of <b>FltQueueGenericWorkItem</b>. 
 
 
-#### Context
+#### FltWorkItem
 
-Context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueGenericWorkItem</b>. This parameter is optional. 
+Opaque pointer to a generic work item structure. 
 
 
-#### - QueueType [in]
+### -param QueueType [in]
 
 Specifies the queue into which the work item that <i>FltWorkItem</i> points to is to be inserted. <i>QueueType</i> can be either of the following: 
 <table>
@@ -149,7 +149,7 @@ Insert the work item into the queue from which a system thread with a variable p
 The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use. 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Pointer to caller-defined context information to be passed as the <i>Context</i> parameter of the callback routine specified in the <i>WorkerRoutine</i> parameter. This parameter is optional.
 
@@ -191,9 +191,9 @@ To free the work item when it is no longer needed, call <a href="..\fltkernel\nf
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>
 
  
 

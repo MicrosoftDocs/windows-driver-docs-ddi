@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E5B7FDB6-3351-489E-B0BB-8B8DD605FCF4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0022, display.d3d12ddi_corelayer_devicecallbacks_0022, D3D12DDI_CORELAYER_DEVICECALLBACKS_0022, D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0022, display.d3d12ddi_corelayer_devicecallbacks_0022, D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure [Display Devices], D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,72 +80,72 @@ typedef struct D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 {
 
 
 
-#### - pfnSetErrorCb
+### -field pfnSetErrorCb
 
 A pointer to the pfnSetErrorCb function.
 
 
-#### - pfnSetCommandListErrorCb
+### -field pfnSetCommandListErrorCb
 
 A pointer to the function.
 
 
-#### - pfnSetCommandListDDITableCb
+### -field pfnSetCommandListDDITableCb
 
 A pointer to the pfnSetCommandListErrorCb function.
 
 
-#### - pfnCreateContextCb
+### -field pfnCreateContextCb
 
 A pointer to the pfnCreateContextCb function.
 
 
-#### - pfnCreateContextVirtualCb
+### -field pfnCreateContextVirtualCb
 
 A pointer to the pfnCreateContextVirtualCb function.
 
 
-#### - pfnDestroyContextCb
+### -field pfnDestroyContextCb
 
 A pointer to the pfnDestroyContextCb function.
 
 
-#### - pfnCreatePagingQueueCb
+### -field pfnCreatePagingQueueCb
 
 A pointer to the pfnCreatePagingQueueCb function.
 
 
-#### - pfnDestroyPagingQueueCb
+### -field pfnDestroyPagingQueueCb
 
 A pointer to the pfnDestroyPagingQueueCb function.
 
 
-#### - pfnMakeResidentCb
+### -field pfnMakeResidentCb
 
 A pointer to the pfnMakeResidentCb function.
 
 
-#### - pfnEvictCb
+### -field pfnEvictCb
 
 A pointer to the pfnEvictCb function.
 
 
-#### - pfnReclaimAllocations2Cb
+### -field pfnReclaimAllocations2Cb
 
 A pointer to the pfnReclaimAllocations2Cb function.
 
 
-#### - pfnOfferAllocationsCb
+### -field pfnOfferAllocationsCb
 
 A pointer to the pfnOfferAllocationsCb function.
 
 
-#### - pfnAllocateCb
+### -field pfnAllocateCb
 
 A pointer to the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_allocate_cb_0022.md">pfnAllocateCb</a> function.
 
 
-#### - pfnDeallocateCb
+### -field pfnDeallocateCb
 
 A pointer to the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_deallocate_cb_0022.md">pfnDeallocateCb</a> function.
 

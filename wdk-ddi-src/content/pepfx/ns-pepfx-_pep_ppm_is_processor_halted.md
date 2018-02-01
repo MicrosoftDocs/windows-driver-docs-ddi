@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 284BAFE1-C632-428D-800C-60C538052C02
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED, pepfx/PPEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, *PPEP_PPM_IS_PROCESSOR_HALTED, _PEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_PPM_IS_PROCESSOR_HALTED, _PEP_PPM_IS_PROCESSOR_HALTED, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, PPEP_PPM_IS_PROCESSOR_HALTED, pepfx/PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PEP_PPM_IS_PROCESSOR_HALTED {
 
 
 
-#### - Halted
+### -field Halted
 
 [out] Whether the processor is halted. Set to <b>TRUE</b> if the processor is halted, or to <b>FALSE</b> if it is not halted.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSetUnitAttributes, storport/StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], storage.storportsetunitattributes
+ms.keywords: storport/StorPortSetUnitAttributes, storage.storportsetunitattributes, StorPortSetUnitAttributes routine [Storage Devices], StorPortSetUnitAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortSetUnitAttributes(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Address [in]
+### -param Address [in]
 
 The storage unit device address. This parameter must not be NULL.
 
 
-#### - Attributes [in]
+### -param Attributes [in]
 
 A set of bitfields indicating the attributes supported for the unit device.
 
@@ -143,7 +143,7 @@ A miniport driver will call this routine to register the unit attributes with St
 
 <a href="..\storport\ns-storport-_stor_unit_attributes.md">STOR_UNIT_ATTRIBUTES</a>
 
-<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
  
 

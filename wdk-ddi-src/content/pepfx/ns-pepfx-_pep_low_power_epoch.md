@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], *PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "_PEP_LOW_POWER_EPOCH, pepfx/PEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], kernel.pep_low_power_epoch, *PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PEP_LOW_POWER_EPOCH {
 
 
 
-#### - LowPowerEpoch
+### -field LowPowerEpoch
 
 When <b>TRUE</b>, indicates that the low power epoch is on. 
 

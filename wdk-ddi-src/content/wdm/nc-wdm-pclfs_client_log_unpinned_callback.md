@@ -69,12 +69,12 @@ VOID ClfsLogUnpinnedCallback(
 
 
 
-#### - LogFile [in]
+### -param LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose tail has become unpinned.
 
 
-#### - ClientData [in]
+### -param ClientData [in]
 
 A pointer to client-supplied information. You specify this data in the <b>LogUnpinnedCallbackData</b> member of the <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a> structure.
 

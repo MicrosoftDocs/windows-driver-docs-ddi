@@ -73,10 +73,10 @@ NTSTATUS EVT_WDF_COMPANION_PRE_D0_ENTRY(
 
 
 
-#### - Companion [in]
+### -param Companion [in]
 
 
 
-#### - PreviousState [in]
+### -param PreviousState [in]
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5E8A2338-AF1E-41BE-870B-E1F1877DDEDD
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: npivwmi/MSFC_NPIVLUNMappingInformation, npivwmi/PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation, _MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], storage.msfc_npivlunmappinginformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices]
+ms.keywords: npivwmi/PMSFC_NPIVLUNMappingInformation, npivwmi/MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], *PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], storage.msfc_npivlunmappinginformation, MSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation, _MSFC_NPIVLUNMappingInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _MSFC_NPIVLUNMappingInformation {
 
 
 
-#### - WWPNVirtualPort
+### -field WWPNVirtualPort
 
 The world wide port name of the virtual port.
 
 
-#### - WWPNPhysicalPort
+### -field WWPNPhysicalPort
 
 The world wide port name of the physical port.
 
 
-#### - OSBus
+### -field OSBus
 
 The path ID of the LUN  mapped to the virtual port.
 
 
-#### - OSTarget
+### -field OSTarget
 
 The target device ID number of the LUN mapped to the virtual port.
 
 
-#### - OSLUN
+### -field OSLUN
 
 The LUN mapped to the virtual port.
 

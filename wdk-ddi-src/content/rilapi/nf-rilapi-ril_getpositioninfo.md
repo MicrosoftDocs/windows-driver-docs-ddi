@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a34ed9ad-13b6-4f09-88c1-c5462a421ad8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getpositioninfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], RIL_GetPositionInfo, rilapi/RIL_GetPositionInfo
+ms.keywords: RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getpositioninfo, RIL_GetPositionInfo, rilapi/RIL_GetPositionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetPositionInfo(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c9838b9e-b390-455d-98d6-249a49c9165d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::WriteMsr, IDebugDataSpaces2::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces_b0b0220e-66d2-4d96-b4bf-3016b0ed677c.xml, WriteMsr method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::WriteMsr, debugger.writemsr2, dbgeng/IDebugDataSpaces3::WriteMsr, IDebugDataSpaces::WriteMsr, IDebugDataSpaces3 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces interface [Windows Debugging], WriteMsr method, WriteMsr method [Windows Debugging], IDebugDataSpaces4 interface, WriteMsr, IDebugDataSpaces3::WriteMsr, dbgeng/IDebugDataSpaces4::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging], WriteMsr method, dbgeng/IDebugDataSpaces::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces3 interface
+ms.keywords: IDebugDataSpaces::WriteMsr, dbgeng/IDebugDataSpaces4::WriteMsr, IDebugDataSpaces2::WriteMsr, IDebugDataSpaces interface [Windows Debugging], WriteMsr method, IDebugDataSpaces3 interface [Windows Debugging], WriteMsr method, WriteMsr method [Windows Debugging], IDebugDataSpaces3 interface, debugger.writemsr2, WriteMsr method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces::WriteMsr, IDebugDataSpaces2 interface [Windows Debugging], WriteMsr method, WriteMsr method [Windows Debugging], IDebugDataSpaces4::WriteMsr, IDebugDataSpaces4, IDebugDataSpaces3::WriteMsr, dbgeng/IDebugDataSpaces3::WriteMsr, IDebugDataSpaces4 interface [Windows Debugging], WriteMsr method, WriteMsr, IDebugDataSpaces_b0b0220e-66d2-4d96-b4bf-3016b0ed677c.xml, WriteMsr method [Windows Debugging], IDebugDataSpaces2 interface, WriteMsr method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces2::WriteMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT WriteMsr(
 
 
 
-#### - Msr
+### -param Msr
 
 Specifies the MSR address.
 
 
-#### - Value
+### -param Value
 
 Specifies the value to write to the MSR.
 

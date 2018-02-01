@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d733f50c-01a2-484f-ab5b-72aaa3378c7d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCORRELATED_TIME, *PKSCORRELATED_TIME, KSCORRELATED_TIME structure [Streaming Media Devices], stream.kscorrelated_time, PKSCORRELATED_TIME structure pointer [Streaming Media Devices], ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, PKSCORRELATED_TIME, ks/PKSCORRELATED_TIME, ks/KSCORRELATED_TIME
+ms.keywords: stream.kscorrelated_time, PKSCORRELATED_TIME, *PKSCORRELATED_TIME, ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, KSCORRELATED_TIME structure [Streaming Media Devices], ks/PKSCORRELATED_TIME, PKSCORRELATED_TIME structure pointer [Streaming Media Devices], KSCORRELATED_TIME, ks/KSCORRELATED_TIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - Time
+### -field Time
 
 Specifies the current clock time in 100-nanosecond units.
 
 
-#### - SystemTime
+### -field SystemTime
 
 A 64-bit integer containing the number of clock ticks since system boot.
 
@@ -89,9 +89,9 @@ The system time is acquired from <a href="..\wdm\nf-wdm-kequeryperformancecounte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
-
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO, _PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture]"
+ms.keywords: kernel.pep_ppm_query_domain_info, _PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _PEP_PPM_QUERY_DOMAIN_INFO {
 
 
 
-#### - DomainId
+### -field DomainId
 
 On input, the domain ID of the domain being queried.
 
 
-#### - CoordinationType
+### -field CoordinationType
 
 On output, indicates the coordination type of the performance domain. The possible values are:
 <ul>
@@ -87,23 +87,23 @@ On output, indicates the coordination type of the performance domain. The possib
 </ul>If this notification is not supported, PROCESSOR_DOMAIN_COORDIANTION_SW_ALL coordination is used. 
 
 
-#### - IdleProcessorsDiscounted
+### -field IdleProcessorsDiscounted
 
 On output, and if HW-ALL coordination is used, this value is  TRUE if the platform automatically ignores requests from idle processors as it determines the resolved performance level of the domain, FALSE if requests from idle processors continue to be honored.  
 If PROCESSOR_DOMAIN_COORDIANTION_HW_ALL coordination is not used: this field is ignored. 
 
 
-#### - SchedulerDirectedTransitionsSupported
+### -field SchedulerDirectedTransitionsSupported
 
 On output, this value is TRUE if the PEP supports the requirements of scheduler directed performance transitions for this domain, FALSE otherwise. 
 
 
-#### - WorstCaseTransitionLatency
+### -field WorstCaseTransitionLatency
 
 On output, this value indicates the worst case latency for the processor to transition to a new performance state, measured from the time the OS issues the notification to the PEP to transition to a new performance level, to the time the processor is running at the new performance level, in 100ns units. 
 
 
-#### - WorstCaseTransitionOverhead
+### -field WorstCaseTransitionOverhead
 
 On output, this value indicates the worst case overhead (PEP code execution time plus time the processor is not executing instructions) measured from the time the OS issues the notification to the PEP to transition to a new performance level, to the time the processor is running at the new performance level, in 100ns units. 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor, PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], ATA_ZONE_DESCRIPTOR structure [Storage Devices], ata/PATA_ZONE_DESCRIPTOR"
+ms.keywords: ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], _ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor, ata/ATA_ZONE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,7 +110,7 @@ typedef struct _ATA_ZONE_DESCRIPTOR {
  
 
 
-#### - Reserved2
+### -field Reserved2
 
 N/A
 
@@ -145,22 +145,7 @@ N/A
  
 
 
-#### - Reserved6
-
-N/A
-
-
-#### - ZoneType  : 4
-
-N/A
-
-
-#### - Reserved0  : 4
-
-N/A
-
-
-#### - Reset  : 1
+### -field Reserved6
 
 N/A
 
@@ -170,7 +155,39 @@ N/A
 N/A
 
 
+#### - Reserved0  : 4
+
+N/A
+
+
 #### - Reserved1  : 2
+
+N/A
+
+
+#### - Reserved3  : 16
+
+N/A
+
+N/A
+
+
+#### - Reserved4  : 16
+
+N/A
+
+
+#### - Reserved5  : 16
+
+N/A
+
+
+#### - Reset  : 1
+
+N/A
+
+
+#### - WritePointerLBA  : 48
 
 N/A
 
@@ -185,29 +202,12 @@ N/A
 N/A
 
 
-#### - Reserved3  : 16
-
-N/A
-
-N/A
-
-
 #### - ZoneStartLBA  : 48
 
 N/A
 
 
-#### - Reserved4  : 16
-
-N/A
-
-
-#### - WritePointerLBA  : 48
-
-N/A
-
-
-#### - Reserved5  : 16
+#### - ZoneType  : 4
 
 N/A
 

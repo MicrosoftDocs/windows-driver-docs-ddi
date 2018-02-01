@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AAD0101E-13FB-48A2-8834-799472B93931
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportStreamAudioEngineNode::SetStreamChannelMute, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelMute method, SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute, audio.iminiportstreamaudioenginenode_setstreamchannelmute, SetStreamChannelMute method [Audio Devices]
+ms.keywords: audio.iminiportstreamaudioenginenode_setstreamchannelmute, IMiniportStreamAudioEngineNode, SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::SetStreamChannelMute, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelMute method, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ NTSTATUS SetStreamChannelMute(
 
 
 
-#### - ulChannel [in]
+### -param ulChannel [in]
 
 The channel for the audio stream.
 
 
-#### - bMute [in]
+### -param bMute [in]
 
 The state to which the Mute node will be set.
 

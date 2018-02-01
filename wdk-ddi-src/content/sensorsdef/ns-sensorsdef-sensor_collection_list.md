@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: B842C707-C6E0-4C56-986E-35BFD32F265D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorsdef/PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], *PSENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensors.sensor_collection_list, sensorsdef/SENSOR_COLLECTION_LIST
+ms.keywords: SENSOR_COLLECTION_LIST structure [Sensor Devices], *PSENSOR_COLLECTION_LIST, sensorsdef/SENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, sensors.sensor_collection_list, SENSOR_COLLECTION_LIST, sensorsdef/PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _SENSOR_COLLECTION_LIST {
 
 
 
-#### - AllocatedSizeInBytes
+### -field AllocatedSizeInBytes
 
 Represents the number of elements allocated in List.
 
 
-#### - Count
+### -field Count
 
 Represents the number of used entries in List.
 
 
-#### - List
+### -field List
 
 A list of <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a> structures.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1F49C8CA-51CE-49B2-AC37-C114A688B1DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucx_endpoint_characteristic_type, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE, _UCX_ENDPOINT_CHARACTERISTIC_TYPE
+ms.keywords: UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, buses.ucx_endpoint_characteristic_type, _UCX_ENDPOINT_CHARACTERISTIC_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,7 +68,7 @@ typedef enum _UCX_ENDPOINT_CHARACTERISTIC_TYPE {
 
 
 
-#### - UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY
+### -field UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY
 
 The type of characteristic of the endpoint.
 

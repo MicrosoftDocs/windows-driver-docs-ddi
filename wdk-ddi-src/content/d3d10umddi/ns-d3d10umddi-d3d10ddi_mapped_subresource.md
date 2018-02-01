@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a55f9aee-c6a5-4391-aad1-4003e58692cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_19502bf4-94a6-48d5-8294-c058c254540f.xml, d3d10umddi/D3D10DDI_MAPPED_SUBRESOURCE, display.d3d10ddi_mapped_subresource, D3D10DDI_MAPPED_SUBRESOURCE structure [Display Devices], D3D10DDI_MAPPED_SUBRESOURCE
+ms.keywords: D3D10DDI_MAPPED_SUBRESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_19502bf4-94a6-48d5-8294-c058c254540f.xml, D3D10DDI_MAPPED_SUBRESOURCE, d3d10umddi/D3D10DDI_MAPPED_SUBRESOURCE, display.d3d10ddi_mapped_subresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D10DDI_MAPPED_SUBRESOURCE {
 
 
 
-#### - pData
+### -field pData
 
 [out] A pointer to a buffer that contains the contents of the subresource.
 
 
-#### - RowPitch
+### -field RowPitch
 
 [out] The row pitch,  width, or physical size (in bytes) of the data.
 
 
-#### - DepthPitch
+### -field DepthPitch
 
 [out] The deptch pitch,  width, or physical size (in bytes) of the data.
 

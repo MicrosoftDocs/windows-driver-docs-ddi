@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: VERIFY_INFORMATION, PVERIFY_INFORMATION, _VERIFY_INFORMATION, storage.verify_information, PVERIFY_INFORMATION structure pointer [Storage Devices], structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, *PVERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], ntdddisk/PVERIFY_INFORMATION, ntdddisk/VERIFY_INFORMATION
+ms.keywords: ntdddisk/VERIFY_INFORMATION, storage.verify_information, PVERIFY_INFORMATION structure pointer [Storage Devices], structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, *PVERIFY_INFORMATION, _VERIFY_INFORMATION, PVERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], VERIFY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _VERIFY_INFORMATION {
 
 
 
-#### - StartingOffset
+### -field StartingOffset
 
 Specifies the starting offset, in bytes, of the disk extent. 
 
 
-#### - Length
+### -field Length
 
 Indicates the length, in bytes, of the disk extent. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 943ae1dc-cc42-4d6d-b2fb-9af25505e561
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_rate_set, DOT11_RATE_SET, _DOT11_RATE_SET, DOT11_RATE_SET structure [Network Drivers Starting with Windows Vista], *PDOT11_RATE_SET, PDOT11_RATE_SET structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RATE_SET, windot11/PDOT11_RATE_SET, PDOT11_RATE_SET, Native_802.11_data_types_b2c617a6-b974-4b67-9f33-2ff5a99b55e9.xml
+ms.keywords: windot11/PDOT11_RATE_SET, *PDOT11_RATE_SET, _DOT11_RATE_SET, DOT11_RATE_SET structure [Network Drivers Starting with Windows Vista], netvista.dot11_rate_set, PDOT11_RATE_SET structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RATE_SET, PDOT11_RATE_SET, Native_802.11_data_types_b2c617a6-b974-4b67-9f33-2ff5a99b55e9.xml, DOT11_RATE_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,13 +69,13 @@ typedef struct _DOT11_RATE_SET {
 
 
 
-#### - uRateSetLength
+### -field uRateSetLength
 
 The number of entries in the 
      <b>ucRateSet</b> array.
 
 
-#### - ucRateSet
+### -field ucRateSet
 
 The set of data rates.
 
@@ -86,17 +86,17 @@ The set of data rates.
 The values that are specified in the 
     <b>ucRateSet</b> array define the data rates at which the 802.11 station may transmit and receive data.
     Each value is an index into the table of data rates that are returned by the driver for a query of 
-    <mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-    OID_DOT11_DATA_RATE_MAPPING_ENTRY</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+    OID_DOT11_DATA_RATE_MAPPING_ENTRY</a>.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-   OID_DOT11_DATA_RATE_MAPPING_ENTRY</mshelp:link>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569395">OID_DOT11_OPERATIONAL_RATE_SET</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+   OID_DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4fa3093-a328-4d90-bc51-0e7a6db1ed58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/HBAFCPID, HBAFCPID structure [Storage Devices], PHBAFCPID, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, _HBAFCPID, storage.hbafcpid, PHBAFCPID structure pointer [Storage Devices], HBAFCPID, hbapiwmi/PHBAFCPID, *PHBAFCPID
+ms.keywords: hbapiwmi/PHBAFCPID, PHBAFCPID, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, HBAFCPID structure [Storage Devices], PHBAFCPID structure pointer [Storage Devices], _HBAFCPID, HBAFCPID, storage.hbafcpid, hbapiwmi/HBAFCPID, *PHBAFCPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _HBAFCPID {
 
 
 
-#### - Fcid
+### -field Fcid
 
 Contains the identifier that indicates which port is to be queried for information about the logical unit. For a discussion of the values that this member have, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-#### - NodeWWN
+### -field NodeWWN
 
 Contains the 64 bit world-wide name (WWN) of the node (machine) to which the logical unit is connected. If an HBA has multiple ports and is associated with more than one node, this member will contain a name chosen from among the names of the associated nodes. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-#### - PortWWN
+### -field PortWWN
 
 Contains the 64 bit world-wide name of the port to be queried for information about the logical unit. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-#### - FcpLun
+### -field FcpLun
 
 Contains a 64-bit fibre channel protocol (FCP) number for the logical unit. 
 

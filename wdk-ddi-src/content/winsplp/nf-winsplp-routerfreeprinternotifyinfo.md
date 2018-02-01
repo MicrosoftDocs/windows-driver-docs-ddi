@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11beef0b-061a-4d73-b723-d0214f479503
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, RouterFreePrinterNotifyInfo, print.routerfreeprinternotifyinfo, RouterFreePrinterNotifyInfo function [Print Devices], winsplp/RouterFreePrinterNotifyInfo
+ms.keywords: winsplp/RouterFreePrinterNotifyInfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, RouterFreePrinterNotifyInfo function [Print Devices], RouterFreePrinterNotifyInfo, print.routerfreeprinternotifyinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOL RouterFreePrinterNotifyInfo(
 
 
 
-#### - pInfo [in, optional]
+### -param pInfo [in, optional]
 
 Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (described in the Windows SDK documentation).
 
@@ -93,9 +93,9 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
+<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
 
  
 

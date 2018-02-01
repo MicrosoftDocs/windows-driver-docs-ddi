@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bbe3da6-f069-4965-ae60-2d755d7557c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, kmdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbTargetDeviceSelectSettingType, wdf.wdfusbtargetdeviceselectsettingtype, WdfUsbInterfaceSelectSettingTypeDescriptor, _WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbTargetDeviceSelectSettingType enumeration
+ms.keywords: "_WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, wdf.wdfusbtargetdeviceselectsettingtype, WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbTargetDeviceSelectSettingType enumeration, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, kmdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _WdfUsbTargetDeviceSelectSettingType {
 
 
 
-#### - WdfUsbInterfaceSelectSettingTypeDescriptor
+### -field WdfUsbInterfaceSelectSettingTypeDescriptor
 
 Specify an interface's alternate setting by providing a <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure.
 
 
-#### - WdfUsbInterfaceSelectSettingTypeSetting
+### -field WdfUsbInterfaceSelectSettingTypeSetting
 
 Specify an interface's alternate setting by providing a setting index value.
 
 
-#### - WdfUsbInterfaceSelectSettingTypeUrb
+### -field WdfUsbInterfaceSelectSettingTypeUrb
 
 Specify an interface's alternate setting by providing a <a href="..\usb\ns-usb-_urb.md">URB</a>.
 

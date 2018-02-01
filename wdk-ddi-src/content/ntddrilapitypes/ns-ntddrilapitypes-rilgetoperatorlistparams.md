@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 75c8b3b3-4f33-465a-a35c-9d3056a2eb75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetoperatorlistparams, *LPRILGETOPERATORLISTPARAMS, ntddrilapitypes/RILGETOPERATORLISTPARAMS
+ms.keywords: RILGETOPERATORLISTPARAMS, ntddrilapitypes/RILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETOPERATORLISTPARAMS, netvista.rilgetoperatorlistparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,10 +68,10 @@ typedef struct _RILGETOPERATORLISTPARAMS {
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwSystemTypes
+### -field dwSystemTypes
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe2f4a93-3fdd-422b-afce-8def3ed6688e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, *PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], iscsicfg/MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], storage.msiscsi_discoveryconfig, PMSiSCSI_DiscoveryConfig, _MSiSCSI_DiscoveryConfig, iscsicfg/PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig
+ms.keywords: MSiSCSI_DiscoveryConfig structure [Storage Devices], MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], _MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig, structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, iscsicfg/PMSiSCSI_DiscoveryConfig, iscsicfg/MSiSCSI_DiscoveryConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _MSiSCSI_DiscoveryConfig {
 
 
 
-#### - PerformiSNSDiscovery
+### -field PerformiSNSDiscovery
 
 A Boolean value that indicates whether the initiator performs target discovery by using iSNS and a predetermined iSNS server. If this member is <b>TRUE</b>, the initiator performs target discovery by using iSNS and a predetermined iSNS server. If this member is <b>FALSE</b>, the initiator does not do discovery with iSNS.
 
 
-#### - PerformSLPDiscovery
+### -field PerformSLPDiscovery
 
 A Boolean value that indicates whether the initiator performs target discovery by using SLP. If this member is <b>TRUE</b>, the initiator performs target discovery by using SLP. 
 
 
-#### - AutomaticiSNSDiscovery
+### -field AutomaticiSNSDiscovery
 
 A Boolean value that indicates whether the initiator should automatically search for an iSNS server and then perform target discovery by using iSNS. If this member is <b>TRUE</b>, the initiator should automatically search for an iSNS server and then perform target discovery by using iSNS.
 
 
-#### - InitiatorName
+### -field InitiatorName
 
 The default initiator name to register with the iSNS server. 
 
 
-#### - iSNSServer
+### -field iSNSServer
 
 If <b>AutomaticiSNSDiscovery</b> is <b>FALSE</b>, <b>iSNSServer</b> contains a <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that provides a fixed address of the iSNS server that is independent of the version of the IP protocol in use. 
 

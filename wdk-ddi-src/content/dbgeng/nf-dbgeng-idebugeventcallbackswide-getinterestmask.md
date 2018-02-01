@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbackswide_getinterestmask, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide, GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, GetInterestMask method [Windows Debugging], GetInterestMask
+ms.keywords: GetInterestMask, IDebugEventCallbacksWide::GetInterestMask, IDebugEventCallbacksWide, GetInterestMask method [Windows Debugging], debugger.idebugeventcallbackswide_getinterestmask, GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, dbgeng/IDebugEventCallbacksWide::GetInterestMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetInterestMask(
 
 
 
-#### - Mask [out]
+### -param Mask [out]
 
 Receives a bitmask that indicates which events the object is interested in.  The engine will call only those methods that correspond to the bit flags set by <b>GetInterestMask</b>.  For a description of the bit flags and their corresponding methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541478">DEBUG_EVENT_XXX</a>.
 

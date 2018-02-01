@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3993202-c49d-4de9-8881-9e3786575e17
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_REQUEST_COMPLETION_PARAMS, _WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, WDF_REQUEST_COMPLETION_PARAMS structure, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, kmdf.wdf_request_completion_params, *PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS, wdf.wdf_request_completion_params
+ms.keywords: PWDF_REQUEST_COMPLETION_PARAMS structure pointer, WDF_REQUEST_COMPLETION_PARAMS, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, PWDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, kmdf.wdf_request_completion_params, *PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS, _WDF_REQUEST_COMPLETION_PARAMS, wdf.wdf_request_completion_params, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,51 +117,13 @@ typedef struct _WDF_REQUEST_COMPLETION_PARAMS {
 
 
 
-#### - Parameters
+### -field Parameters
 
 Request-specific values for the request.
 
 
-#### Write
-
-
-
-#### Read
-
-
-
-#### Ioctl
-
-
-
-#### Others
-
-
-
-#### Usb
-
-For USB devices, this member contains a pointer to a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a> structure.
-
-
-
-
 ### -field Parameters.Write
 
-
-
-#### Write.Buffer
-
-A handle to a framework memory object. This object identifies the buffer that the driver specified when it formatted the request and sent it to an I/O target.
-
-
-#### Write.Length
-
-Length, in bytes, of the transfer.
-
-
-#### Write.Offset
-
-Beginning address within the buffer for the data transfer.
 
 
 ### -field Parameters.Write.Buffer
@@ -183,21 +145,6 @@ Beginning address within the buffer for the data transfer.
 
 
 
-#### Read.Buffer
-
-A handle to a framework memory object. This object identifies the buffer that the driver specified when it formatted the request and sent it to an I/O target.
-
-
-#### Read.Length
-
-Length, in bytes, of the transfer.
-
-
-#### Read.Offset
-
-Beginning address within the buffer for the data transfer.
-
-
 ### -field Parameters.Read.Buffer
 
 A handle to a framework memory object. This object identifies the buffer that the driver specified when it formatted the request and sent it to an I/O target.
@@ -217,26 +164,8 @@ Beginning address within the buffer for the data transfer.
 
 
 
-#### Ioctl.Input
-
-
-
-#### Ioctl.Output
-
-
-
 ### -field Parameters.Ioctl.Input
 
-
-
-#### Ioctl.Input.Buffer
-
-A handle to a framework memory object. This object identifies the input buffer that the driver specified when it formatted the request and sent it to an I/O target.
-
-
-#### Ioctl.Input.Offset
-
-Beginning address within the buffer for the data transfer.
 
 
 ### -field Parameters.Ioctl.Input.Buffer
@@ -251,21 +180,6 @@ Beginning address within the buffer for the data transfer.
 
 ### -field Parameters.Ioctl.Output
 
-
-
-#### Ioctl.Output.Buffer
-
-A handle to a framework memory object. This object identifies the output buffers that the driver specified when it formatted the request and sent it to an I/O target.
-
-
-#### Ioctl.Output.Offset
-
-Beginning address within the buffer for the data transfer.
-
-
-#### Ioctl.Output.Length
-
-Length, in bytes, of the transfer.
 
 
 ### -field Parameters.Ioctl.Output.Buffer
@@ -290,26 +204,6 @@ Length, in bytes, of the transfer.
 
 ### -field Parameters.Others
 
-
-
-#### Others.Argument1
-
-Use of this member is defined by the driver stack.  See Remarks.
-
-
-#### Others.Argument2
-
-Use of this member is defined by the driver stack.
-
-
-#### Others.Argument3
-
-Use of this member is defined by the driver stack.
-
-
-#### Others.Argument4
-
-Use of this member is defined by the driver stack.
 
 
 ### -field Parameters.Others.Argument1
@@ -384,17 +278,17 @@ For USB devices, this member contains a pointer to a <a href="..\wdfusb\ns-wdfus
  
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Type
+### -field Type
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a> value that identifies the request type.
 
 
-#### - IoStatus
+### -field IoStatus
 
 An <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the request.
 
@@ -414,15 +308,15 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_completion_params_init.md">WDF_REQUEST_COMPLETION_PARAMS_INIT</a>
+
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
 
  
 

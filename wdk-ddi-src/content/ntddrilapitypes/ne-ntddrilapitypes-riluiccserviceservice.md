@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1aeb4642-d718-4e39-a6c7-dc33146c9687
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX, RIL_UICCOPERATION_SERVICE_MAX, RIL_UICCOPERATION_SERVICE_ACL, netvista.riluiccserviceservice, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RILUICCSERVICESERVICE, RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN
+ms.keywords: RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_MAX, RILUICCSERVICESERVICE, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccserviceservice, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RILUICCSERVICESERVICE, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILUICCSERVICESERVICE {
 
 
 
-#### - RIL_UICCOPERATION_SERVICE_BDN
+### -field RIL_UICCOPERATION_SERVICE_BDN
 
 
 
-#### - RIL_UICCOPERATION_SERVICE_ACL
+### -field RIL_UICCOPERATION_SERVICE_ACL
 
 
 
-#### - RIL_UICCOPERATION_SERVICE_MAX
+### -field RIL_UICCOPERATION_SERVICE_MAX
 
 

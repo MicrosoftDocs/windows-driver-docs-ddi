@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3c3356c-ec7b-4869-896d-9d3b285f0e87
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_UNLOCKFLAGS structure [Display Devices], d3dumddi/D3DDDI_UNLOCKFLAGS, display.d3dddi_unlockflags, D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml, _D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS
+ms.keywords: D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml, d3dumddi/D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS, _D3DDDI_UNLOCKFLAGS, display.d3dddi_unlockflags, D3DDDI_UNLOCKFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,19 +73,19 @@ typedef struct _D3DDDI_UNLOCKFLAGS {
 
 
 
-#### - NotifyOnly
+### -field NotifyOnly
 
 A UINT value that specifies whether the unlock call is for notification only.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_UNLOCKFLAGS that can hold one 32-bit value that identifies how to unlock a resource.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, wdfresource/WdfIoResourceListGetDescriptor, kmdf.wdfioresourcelistgetdescriptor, PFN_WDFIORESOURCELISTGETDESCRIPTOR, WdfIoResourceListGetDescriptor, WdfIoResourceListGetDescriptor method, wdf.wdfioresourcelistgetdescriptor
+ms.keywords: WdfIoResourceListGetDescriptor method, DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, PFN_WDFIORESOURCELISTGETDESCRIPTOR, WdfIoResourceListGetDescriptor, kmdf.wdfioresourcelistgetdescriptor, wdf.wdfioresourcelistgetdescriptor, wdfresource/WdfIoResourceListGetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ PIO_RESOURCE_DESCRIPTOR WdfIoResourceListGetDescriptor(
 
 
 
-#### - ResourceList [in]
+### -param ResourceList [in]
 
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based value that is used as an index into the logical configuration that <i>ResourceList</i> specifies.
 
@@ -104,9 +104,9 @@ For more information about resource requirements lists and logical configuration
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>
-
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>
 
  
 

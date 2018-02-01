@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07cabd0e-5b5c-42ff-9b2a-57bec527d690
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], _D3DDDICB_GETMULTISAMPLEMETHODLIST, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist
+ms.keywords: d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, _D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, display.d3dddicb_getmultisamplemethodlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDICB_GETMULTISAMPLEMETHODLIST {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the allocation is on. 
 
 
-#### - Width
+### -field Width
 
 [in] The width of the allocation, in pixels.
 
 
-#### - Height
+### -field Height
 
 [in] The height of the allocation, in pixels.
 
 
-#### - Format
+### -field Format
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
 
 
-#### - pMethodList
+### -field pMethodList
 
 [out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a> structures that describe the list of multiple-sampling methods that are used for the allocation or <b>NULL</b>.
 
 
-#### - MethodCount
+### -field MethodCount
 
 [in/out] On input, the number of elements that the buffer at <b>pMethodList</b> can hold. On output, this member specifies the required number of elements that the buffer at <b>pMethodList</b> should hold. 
 
@@ -111,11 +111,11 @@ If the runtime returns a non-<b>NULL</b> value in the <b>pMethodList</b> member,
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb.md">pfnGetMultisampleMethodListCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
 
  
 

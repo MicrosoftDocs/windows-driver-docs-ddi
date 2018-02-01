@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C79BF9FC-4836-48AD-8E9F-41278BB01E11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], ndkpi/NDK_RESULT_EX, PNDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], ndkpi/PNDK_RESULT_EX, netvista.ndk_result_ex, _NDK_RESULT_EX, NDK_RESULT_EX
+ms.keywords: NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], ndkpi/PNDK_RESULT_EX, PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], NDK_RESULT_EX, _NDK_RESULT_EX, netvista.ndk_result_ex, ndkpi/NDK_RESULT_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,45 +72,45 @@ typedef struct _NDK_RESULT_EX {
 
 
 
-#### - Status
+### -field Status
 
 The NDK request completion status.
 
 
-#### - BytesTransferred
+### -field BytesTransferred
 
 The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
 
 
-#### - QPContext
+### -field QPContext
 
 A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>) function to create the <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a> object.
 
 
-#### - RequestContext
+### -field RequestContext
 
 A request context value specified by the NDK consumer when  a request is posted.
 
 
-#### - Type
+### -field Type
 
 An <a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a> enumeration value that specifies the type of operation that is being completed.
 
 
-#### - TypeSpecificCompletionOutput
+### -field TypeSpecificCompletionOutput
 
 The type-specific completion output, if any. If the  <b>Type</b> member is <b>NdkOperationTypeReceiveAndInvalidate</b>, this member is a 32-bit field, which contains the token to be invalidated before signaling this completion. Otherwise, this member is undefined.
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+<a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
-<a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
  
 

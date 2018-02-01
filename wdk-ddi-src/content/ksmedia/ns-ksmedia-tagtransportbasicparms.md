@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TRANSPORTBASICPARMS structure [Streaming Media Devices], PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml, *PTRANSPORTBASICPARMS, stream.transportbasicparms, ksmedia/TRANSPORTBASICPARMS, TRANSPORTBASICPARMS
+ms.keywords: tagTRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], ksmedia/TRANSPORTBASICPARMS, TRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, stream.transportbasicparms, ksmedia/PTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,7 +96,7 @@ typedef struct tagTRANSPORTBASICPARMS {
 
 
 
-#### - TimeFormat
+### -field TimeFormat
 
 Indicates the basic time format.
 <table>
@@ -157,7 +157,7 @@ Binary coded decimal, representing tracks, minutes, seconds, and frames
 </table> 
 
 
-#### - TimeReference
+### -field TimeReference
 
 Indicates the basic time reference.
 <table>
@@ -198,12 +198,12 @@ Index
 </table> 
 
 
-#### - Superimpose
+### -field Superimpose
 
 Indicates whether to enable or disable the onscreen display. Specify <b>TRUE</b> to enable, <b>FALSE</b> to disable.
 
 
-#### - EndStopAction
+### -field EndStopAction
 
 Specifies the stop action.
 <table>
@@ -244,7 +244,7 @@ Freeze/pause
 </table> 
 
 
-#### - RecordFormat
+### -field RecordFormat
 
 Indicates the basic record format.
 <table>
@@ -285,62 +285,62 @@ Extended play
 </table> 
 
 
-#### - StepFrames
+### -field StepFrames
 
 Indicates the frame step count.
 
 
-#### - SetpField
+### -field SetpField
 
 Indicates the field step count.
 
 
-#### - Preroll
+### -field Preroll
 
 Indicates the preroll amount.
 
 
-#### - RecPreroll
+### -field RecPreroll
 
 Indicates the record preroll amount.
 
 
-#### - Postroll
+### -field Postroll
 
 Indicates the postroll amount.
 
 
-#### - EditDelay
+### -field EditDelay
 
 Indicates the edit delay amount.
 
 
-#### - PlayTCDelay
+### -field PlayTCDelay
 
 Indicates the play timecode delay amount.
 
 
-#### - RecTCDelay
+### -field RecTCDelay
 
 Indicates the record timecode delay amount.
 
 
-#### - EditField
+### -field EditField
 
 Indicates the edit field.
 
 
-#### - FrameServo
+### -field FrameServo
 
 Specifies the frame servo.
 
 
-#### - ColorFrameServo
+### -field ColorFrameServo
 
 Specifies the color frame servo.
 
 
-#### - ServoRef
+### -field ServoRef
 
 Specifies the servo ref.
 <table>
@@ -391,12 +391,12 @@ Auto
 </table> 
 
 
-#### - WarnGenlock
+### -field WarnGenlock
 
 Indicates the warn genlock.
 
 
-#### - SetTracking
+### -field SetTracking
 
 Specifies the tracking.
 <table>
@@ -437,57 +437,57 @@ Reset
 </table> 
 
 
-#### - VolumeName
+### -field VolumeName
 
 Specifies the volume name.
 
 
-#### - Ballistic
+### -field Ballistic
 
 Specifies any proprietary data.
 
 
-#### - Speed
+### -field Speed
 
 Specifies the speed.
 
 
-#### - CounterFormat
+### -field CounterFormat
 
 Specifies the counter format.
 
 
-#### - TunerChannel
+### -field TunerChannel
 
 Indicates the tuner channel.
 
 
-#### - TunerNumber
+### -field TunerNumber
 
 Indicates the tuner number.
 
 
-#### - TimerEvent
+### -field TimerEvent
 
 Specifies a timer event.
 
 
-#### - TimerStartDay
+### -field TimerStartDay
 
 Indicates the timer start-day.
 
 
-#### - TimerStartTime
+### -field TimerStartTime
 
 Indicates the timer start-time.
 
 
-#### - TimerStopDay
+### -field TimerStopDay
 
 Indicates the timer stop-day.
 
 
-#### - TimerStopTime
+### -field TimerStopTime
 
 Indicates the timer stop-time.
 

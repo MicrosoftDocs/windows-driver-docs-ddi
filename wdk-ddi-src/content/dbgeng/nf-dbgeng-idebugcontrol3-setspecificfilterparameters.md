@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 97eb6db8-3c0a-44b4-8fb4-9e42ee9f9856
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], SetSpecificFilterParameters method, dbgeng/IDebugControl3::SetSpecificFilterParameters, IDebugControl2::SetSpecificFilterParameters, IDebugControl2 interface [Windows Debugging], SetSpecificFilterParameters method, SetSpecificFilterParameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, SetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, debugger.setspecificfilterparameters, IDebugControl::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::SetSpecificFilterParameters, IDebugControl3::SetSpecificFilterParameters, dbgeng/IDebugControl::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface [Windows Debugging], SetSpecificFilterParameters method
+ms.keywords: dbgeng/IDebugControl3::SetSpecificFilterParameters, IDebugControl interface [Windows Debugging], SetSpecificFilterParameters method, SetSpecificFilterParameters method [Windows Debugging], dbgeng/IDebugControl::SetSpecificFilterParameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, IDebugControl::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, IDebugControl3::SetSpecificFilterParameters, IDebugControl2 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl3, IDebugControl2::SetSpecificFilterParameters, debugger.setspecificfilterparameters, SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], SetSpecificFilterParameters method, dbgeng/IDebugControl2::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT SetSpecificFilterParameters(
 
 
 
-#### - Start [in]
+### -param Start [in]
 
 Specifies the index of the first specific event filter whose parameters will be changed.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of specific event filters whose parameters will be changed.
 
 
-#### - Params [in]
+### -param Params [in]
 
 Specifies an array of specific event filter parameters of type <a href="..\dbgeng\ns-dbgeng-_debug_specific_filter_parameters.md">DEBUG_SPECIFIC_FILTER_PARAMETERS</a>.  Only the <b>ExecutionOption</b> and <b>ContinueOption</b> members are used.  <b>ExceptionOption</b> specifies the new break status and <b>ContinueOption</b> specifies the new handling status.
 
@@ -119,17 +119,17 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
  
 

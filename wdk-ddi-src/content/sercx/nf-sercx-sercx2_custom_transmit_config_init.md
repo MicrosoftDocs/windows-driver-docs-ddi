@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 73C64B54-8181-491A-A418-75FC7012888F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2_custom_transmit_config_init, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT
+ms.keywords: 2/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function [Serial Ports], SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, serports.sercx2_custom_transmit_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 A pointer to the <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_config.md">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure that is to be initialized.
 

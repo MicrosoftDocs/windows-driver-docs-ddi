@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 97df2db8-6a42-46d4-bc31-babb124635ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/ChannelStateUnKnown, ChannelStateEnabled, ATA_CHANNEL_STATE, irb/ChannelStateDisabled, storage.ata_channel_state, irb/ATA_CHANNEL_STATE, ChannelStateUnKnown, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml, ChannelStateDisabled, irb/ChannelStateEnabled, ATA_CHANNEL_STATE enumeration [Storage Devices]
+ms.keywords: irb/ChannelStateUnKnown, ChannelStateEnabled, ChannelStateDisabled, ATA_CHANNEL_STATE enumeration [Storage Devices], irb/ChannelStateEnabled, ChannelStateUnKnown, storage.ata_channel_state, irb/ChannelStateDisabled, ATA_CHANNEL_STATE, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml, irb/ATA_CHANNEL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - ChannelStateDisabled
+### -field ChannelStateDisabled
 
 Indicates that the channel is disabled.
 
 
-#### - ChannelStateEnabled
+### -field ChannelStateEnabled
 
 Indicates that the channel is enabled.
 
 
-#### - ChannelStateUnKnown
+### -field ChannelStateUnKnown
 
 Indicates that the state of the channel is unknown.
 

@@ -74,12 +74,12 @@ NTSTATUS DxgkCbSynchronizeExecution(
 
 
 
-#### - DeviceHandle [in]
+### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-#### - SynchronizeRoutine [in]
+### -param SynchronizeRoutine [in]
 
 A pointer to a function, implemented by the display miniport driver, that will be synchronized with <i>DxgkDdiInterruptRoutine</i>. The function must conform to the following prototype:
 <div class="code"><span codelanguage=""><table>
@@ -93,17 +93,17 @@ A pointer to a function, implemented by the display miniport driver, that will b
 </tr>
 </table></span></div>
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to a context block, created by the display miniport driver, that will be passed to <i>SynchronizeRoutine</i>.
 
 
-#### - MessageNumber [in]
+### -param MessageNumber [in]
 
 The number of the interrupt message with which <i>SynchronizeRoutine</i> will be synchronized. If the interrupt is line-based, this parameter must be zero.
 
 
-#### - ReturnValue [out]
+### -param ReturnValue [out]
 
 A pointer to a Boolean variable that receives the return value of <i>SynchronizeRoutine</i>.
 

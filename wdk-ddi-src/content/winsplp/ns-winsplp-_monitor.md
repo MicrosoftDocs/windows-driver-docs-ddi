@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, MONITOR structure [Print Devices], _MONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, *LPMONITOR, winsplp/LPMONITOR, LPMONITOR, winsplp/MONITOR, print.monitor
+ms.keywords: "_MONITOR, winsplp/MONITOR, MONITOR structure [Print Devices], *LPMONITOR, print.monitor, MONITOR, winsplp/LPMONITOR, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, LPMONITOR structure pointer [Print Devices], LPMONITOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,96 +145,96 @@ typedef struct _MONITOR {
 
 
 
-#### - pfnEnumPorts
+### -field pfnEnumPorts
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548754">EnumPorts</a> function. (Port monitors only.)
 
 
-#### - pfnOpenPort
+### -field pfnOpenPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a> function.
 
 
-#### - pfnOpenPortEx
+### -field pfnOpenPortEx
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a> function. (Language monitors only.)
 
 
-#### - pfnStartDocPort
+### -field pfnStartDocPort
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a> function.
 
 
-#### - pfnWritePort
+### -field pfnWritePort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a> function.
 
 
-#### - pfnReadPort
+### -field pfnReadPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a> function.
 
 
-#### - pfnEndDocPort
+### -field pfnEndDocPort
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a> function.
 
 
-#### - pfnClosePort
+### -field pfnClosePort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a> function.
 
 
-#### - pfnAddPort
+### -field pfnAddPort
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> function.
 
 
-#### - pfnAddPortEx
+### -field pfnAddPortEx
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff545025">AddPortEx</a> function. (Port monitors only.)
 
 
-#### - pfnConfigurePort
+### -field pfnConfigurePort
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546286">ConfigurePort</a> function.
 
 
-#### - pfnDeletePort
+### -field pfnDeletePort
 
 (Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547427">DeletePort</a> function.
 
 
-#### - pfnGetPrinterDataFromPort
+### -field pfnGetPrinterDataFromPort
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a> function.
 
 
-#### - pfnSetPortTimeOuts
+### -field pfnSetPortTimeOuts
 
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a> function. (Port monitors only.)
 
 
-#### - pfnXcvOpenPort
+### -field pfnXcvOpenPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function. (Port monitors only.)
 
 
-#### - pfnXcvDataPort
+### -field pfnXcvDataPort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function. (Port monitors only.)
 
 
-#### - pfnXcvClosePort
+### -field pfnXcvClosePort
 
 Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a> function. (Port monitors only.)
 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
-
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
 
  
 

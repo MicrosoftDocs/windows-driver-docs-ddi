@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d63848e8-0e6a-4ad7-a147-8804869b9c9b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceResumeIdle method, kmdf.wdfdeviceresumeidle, wdfdevice/WdfDeviceResumeIdle, WdfDeviceResumeIdle, DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, PFN_WDFDEVICERESUMEIDLE, wdf.wdfdeviceresumeidle
+ms.keywords: kmdf.wdfdeviceresumeidle, wdf.wdfdeviceresumeidle, WdfDeviceResumeIdle method, WdfDeviceResumeIdle, PFN_WDFDEVICERESUMEIDLE, wdfdevice/WdfDeviceResumeIdle, DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -73,7 +73,7 @@ VOID WdfDeviceResumeIdle(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 

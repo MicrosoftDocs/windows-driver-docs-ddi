@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5963f34a-4315-46c3-9802-0b6a1b229e3f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmUnmapIoSpace, wdm/MmUnmapIoSpace, k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, kernel.mmunmapiospace, MmUnmapIoSpace routine [Kernel-Mode Driver Architecture]
+ms.keywords: MmUnmapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmUnmapIoSpace, MmUnmapIoSpace, k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, kernel.mmunmapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID MmUnmapIoSpace(
 
 
 
-#### - BaseAddress [in]
+### -param BaseAddress [in]
 
 Pointer to the base virtual address to which the physical pages were mapped.
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies the number of bytes that were mapped. 
 

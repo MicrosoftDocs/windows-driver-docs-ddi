@@ -71,7 +71,7 @@ NTSTATUS EvtSerCxFileOpen(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 

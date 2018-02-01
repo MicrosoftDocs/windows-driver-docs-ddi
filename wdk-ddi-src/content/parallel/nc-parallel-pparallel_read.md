@@ -71,27 +71,27 @@ typedef NTSTATUS ( *PPARALLEL_READ)(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a read buffer that the caller allocates.
 
 
-#### - NumBytesToRead [in]
+### -param NumBytesToRead [in]
 
 Specifies the number of bytes to read. Must less than or equal to the number of bytes in the caller-allocated read buffer.
 
 
-#### - NumBytesRead [out]
+### -param NumBytesRead [out]
 
 Specifies the number of bytes that were actually read from the parallel device and saved in the caller-allocated read buffer.
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 Not used.
 
@@ -143,9 +143,9 @@ The PPARALLEL_READ callback runs in the caller's thread at the IRQL of the calle
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
-
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
+<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
 
  
 

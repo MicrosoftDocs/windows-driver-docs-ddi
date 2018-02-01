@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B3655B3C-4E9E-4FAC-9AAB-B7D4BFB2B91E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_port_feature_status_custom, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, _NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM
+ms.keywords: "_NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_port_feature_status_custom, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -86,17 +86,17 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
-#### - FeatureStatusBufferLength
+### -field FeatureStatusBufferLength
 
 A ULONG value that specifies the size, in bytes, of the feature status buffer.
 
 
-#### - FeatureStatusBufferOffset
+### -field FeatureStatusBufferOffset
 
 A ULONG value that specifies the offset, in bytes, to the feature status buffer that follows the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</b> structure. The offset is measured from the start of the <b>NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</b> structure up to the beginning of the feature status buffer. 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: da866f7e-f2c6-4926-bbde-db0629571c57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_EXTDEVICE_S, stream.ksproperty_extdevice_s, ksmedia/PKSPROPERTY_EXTDEVICE_S, *PKSPROPERTY_EXTDEVICE_S, KSPROPERTY_EXTDEVICE_S structure [Streaming Media Devices], PKSPROPERTY_EXTDEVICE_S structure pointer [Streaming Media Devices], vidcapstruct_7c8b60d9-303e-489a-8c93-39d91cda2819.xml, KSPROPERTY_EXTDEVICE_S, PKSPROPERTY_EXTDEVICE_S
+ms.keywords: KSPROPERTY_EXTDEVICE_S, *PKSPROPERTY_EXTDEVICE_S, ksmedia/PKSPROPERTY_EXTDEVICE_S, KSPROPERTY_EXTDEVICE_S structure [Streaming Media Devices], PKSPROPERTY_EXTDEVICE_S, PKSPROPERTY_EXTDEVICE_S structure pointer [Streaming Media Devices], vidcapstruct_7c8b60d9-303e-489a-8c93-39d91cda2819.xml, ksmedia/KSPROPERTY_EXTDEVICE_S, stream.ksproperty_extdevice_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,43 +74,8 @@ typedef struct {
 
 
 
-#### - u
+### -field u
 
-
-
-#### Capabilities
-
-Describes the external device's capabilities.
-
-
-#### DevPort
-
-Specifies the external device's port. For example:
-
-DEV_PORT_1394
-
-DEV_PORT_USB
-
-
-#### PowerState
-
-Specifies the external device's power state:
-
-ED_POWER_ON
-
-ED_POWER_STANDBY
-
-ED_POWER_OFF
-
-
-#### pawchString
-
-Specifies the external device's ID and version.
-
-
-#### NodeUniqueID
-
-Specifies the external device's unique node Id.
 
 
 ### -field u.Capabilities
@@ -148,7 +113,7 @@ Specifies the external device's ID and version.
 Specifies the external device's unique node Id.
 
 
-#### - Property
+### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
@@ -162,9 +127,9 @@ Any ED_Xxx or DEV_PORT_Xxx tokens are defined in <i>xprtdefs.h</i> in the Micros
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagdevcaps.md">DEVCAPS</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
  
 

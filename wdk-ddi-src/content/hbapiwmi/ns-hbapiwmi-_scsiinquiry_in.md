@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f7690483-8269-4fb4-9960-9abdbb128b94
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ScsiInquiry_IN, *PScsiInquiry_IN, ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], PScsiInquiry_IN structure pointer [Storage Devices], PScsiInquiry_IN, hbapiwmi/PScsiInquiry_IN, hbapiwmi/ScsiInquiry_IN, structs-Fibre_b1f0d146-5bc7-4d98-b97e-ec508b4023c9.xml, storage.scsiinquiry_in2"
+ms.keywords: ScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], PScsiInquiry_IN, structs-Fibre_b1f0d146-5bc7-4d98-b97e-ec508b4023c9.xml, storage.scsiinquiry_in2, *PScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], _ScsiInquiry_IN, hbapiwmi/PScsiInquiry_IN, hbapiwmi/ScsiInquiry_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _ScsiInquiry_IN {
 
 
 
-#### - Cdb
+### -field Cdb
 
 Contains the command descriptor block that holds the SCSI inquiry command to be sent to the target device. 
 
 
-#### - HbaPortWWN
+### -field HbaPortWWN
 
 Contains a worldwise name for the HBA through which the target is accessed. 
 
 
-#### - DiscoveredPortWWN
+### -field DiscoveredPortWWN
 
 Contains a worldwide name for the port through which the target device is accessed. 
 
 
-#### - FcLun
+### -field FcLun
 
 Indicates the logical unit number of the logical unit that will receive the SCSI inquiry command.
 

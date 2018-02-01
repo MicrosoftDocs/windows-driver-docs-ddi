@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 091aee9d-5ecd-481a-b5e2-28b4828b2c2e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], hdaudio/PHDAUDIO_DEVICE_INFORMATION, hdaudio/HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION, _HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices], aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, *PHDAUDIO_DEVICE_INFORMATION, audio.hdaudio_device_information, PHDAUDIO_DEVICE_INFORMATION
+ms.keywords: PHDAUDIO_DEVICE_INFORMATION, hdaudio/PHDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION, _HDAUDIO_DEVICE_INFORMATION, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, HDAUDIO_DEVICE_INFORMATION, hdaudio/HDAUDIO_DEVICE_INFORMATION, audio.hdaudio_device_information, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices], PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _HDAUDIO_DEVICE_INFORMATION {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size in bytes of the HDAUDIO_DEVICE_INFORMATION structure.
 
 
-#### - DeviceVersion
+### -field DeviceVersion
 
 Specifies the HD Audio controller device version.
 
 
-#### - DriverVersion
+### -field DriverVersion
 
 Specifies the HD Audio bus driver version.
 
 
-#### - CodecsDetected
+### -field CodecsDetected
 
 Specifies the number of codecs that the HD Audio controller detects on the HD Audio Link.
 
 
-#### - IsStripingSupported
+### -field IsStripingSupported
 
 Specifies whether the HD Audio controller supports <a href="https://msdn.microsoft.com/29ab650c-0c3b-4693-a277-4d9ba63b7b66">striping</a>. If <b>TRUE</b>, it supports striping (with at least two SDO lines). If <b>FALSE</b>, it does not support striping.
 

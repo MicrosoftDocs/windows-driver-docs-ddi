@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a88cbb6-66be-4ef7-93da-27d7ce169779
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice_createdeviceinterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, IWDFDevice::CreateDeviceInterface, umdf.iwdfdevice_createdeviceinterface, wudfddi/IWDFDevice::CreateDeviceInterface, IWDFDevice, CreateDeviceInterface, CreateDeviceInterface method, IWDFDevice interface, CreateDeviceInterface method, CreateDeviceInterface method, IWDFDevice interface
+ms.keywords: UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, umdf.iwdfdevice_createdeviceinterface, wdf.iwdfdevice_createdeviceinterface, IWDFDevice::CreateDeviceInterface, IWDFDevice interface, CreateDeviceInterface method, CreateDeviceInterface method, wudfddi/IWDFDevice::CreateDeviceInterface, IWDFDevice, CreateDeviceInterface method, IWDFDevice interface, CreateDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT CreateDeviceInterface(
 
 
 
-#### - pDeviceInterfaceGuid [in]
+### -param pDeviceInterfaceGuid [in]
 
 A pointer to the GUID for a device interface class.
 
 
-#### - pReferenceString [in, optional]
+### -param pReferenceString [in, optional]
 
 A pointer to a <b>NULL</b>-terminated string that contains the name of the instance of the device interface. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a name. If the driver must supply a name, the string that the driver passes must not contain any path separator characters ("/" or "\"). 
 
@@ -101,9 +101,9 @@ For more information about device interfaces, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

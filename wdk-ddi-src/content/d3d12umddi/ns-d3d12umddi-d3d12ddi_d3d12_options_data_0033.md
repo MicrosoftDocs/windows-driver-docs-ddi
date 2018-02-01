@@ -79,67 +79,67 @@ typedef struct _D3D12DDI_D3D12_OPTIONS_DATA_0033 {
 
 
 
-#### - ResourceBindingTier
+### -field ResourceBindingTier
 
 Resource binding tier.
 
 
-#### - ConservativeRasterizationTier
+### -field ConservativeRasterizationTier
 
 Conservative rasterization tier.
 
 
-#### - TiledResourcesTier
+### -field TiledResourcesTier
 
 Tiled resource tier.
 
 
-#### - CrossNodeSharingTier
+### -field CrossNodeSharingTier
 
 Cross node sharing tier.
 
 
-#### - VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
+### -field VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
 
 VP and RT array index from any shader feeding rasterizer supported without GS emulation.
 
 
-#### - OutputMergerLogicOp
+### -field OutputMergerLogicOp
 
 Output merger logic option.
 
 
-#### - ResourceHeapTier
+### -field ResourceHeapTier
 
 Resource heap tier.
 
 
-#### - DepthBoundsTestSupported
+### -field DepthBoundsTestSupported
 
 Depth bounds test supported.
 
 
-#### - ProgrammableSamplePositionsTier
+### -field ProgrammableSamplePositionsTier
 
 Programmable sample positions tier.
 
 
-#### - CopyQueueTimestampQueriesSupported
+### -field CopyQueueTimestampQueriesSupported
 
 Copy queue timestamp queries supported.
 
 
-#### - WriteBufferImmediateQueueFlags
+### -field WriteBufferImmediateQueueFlags
 
 Write buffer immediate queue flags.
 
 
-#### - ViewInstancingTier
+### -field ViewInstancingTier
 
 View instancing tier.
 
 
-#### - BarycentricsSupported
+### -field BarycentricsSupported
 
 Barycentrics supported.
 

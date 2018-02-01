@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1727AD96-FC0B-4B52-92C5-5E7502433021
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlUShortMult, kernel.rtlushortmult
+ms.keywords: RtlUShortMult, kernel.rtlushortmult, ntintsafe/RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlUShortMult(
 
 
 
-#### - usMultiplicand [in]
+### -param usMultiplicand [in]
 
 The value to be multiplied by <i>usMultiplier</i>.
 
 
-#### - usMultiplier [in]
+### -param usMultiplier [in]
 
 The value by which to multiply <i>usMultiplicand</i>.
 
 
-#### - pusResult [out]
+### -param pusResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

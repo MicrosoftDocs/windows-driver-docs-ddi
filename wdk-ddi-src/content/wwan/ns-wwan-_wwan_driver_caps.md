@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c0696ac6-d35e-402a-8cb5-d4f23b3b8072
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_DRIVER_CAPS, *PWWAN_DRIVER_CAPS, WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, WWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_driver_caps, wwan/PWWAN_DRIVER_CAPS, wwan/WWAN_DRIVER_CAPS"
+ms.keywords: WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], *PWWAN_DRIVER_CAPS, wwan/WWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, _WWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS, netvista.wwan_driver_caps, wwan/PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,19 +70,19 @@ typedef struct _WWAN_DRIVER_CAPS {
 
 
 
-#### - ulMajorVersion
+### -field ulMajorVersion
 
 The major version of the MB driver model that the miniport driver supports. Miniport drivers
      should set this member to WWAN_MAJOR_VERSION.
 
 
-#### - ulMinorVersion
+### -field ulMinorVersion
 
 The minor version of the MB driver model that the miniport driver supports. Miniport drivers
      should set this member to WWAN_MINOR_VERSION.
 
 
-#### - ulDriverCaps
+### -field ulDriverCaps
 
 This member is reserved for future use. Miniport drivers should set this member to the value in
      the following table.

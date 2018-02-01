@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 68798F3D-B708-4DCD-AB3F-D8DE4A8A0CF2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE, WDI_P2P_LISTEN_STATE enumeration [Device and Driver Installation], wditypes/WDI_P2P_LISTEN_STATE_OFF, WDI_P2P_LISTEN_STATE_OFF, wditypes/WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, netvista.wdi_p2p_listen_state, WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, netvista.wifi_p2p_listen_state, WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY"
+ms.keywords: WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_OFF, netvista.wdi_p2p_listen_state, WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, WDI_P2P_LISTEN_STATE enumeration [Device and Driver Installation], WDI_P2P_LISTEN_STATE_OFF, wditypes/WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE, netvista.wifi_p2p_listen_state, WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, _WDI_P2P_LISTEN_STATE, WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,7 +71,7 @@ typedef enum _WDI_P2P_LISTEN_STATE {
 
 
 
-#### - WDI_P2P_LISTEN_STATE_OFF
+### -field WDI_P2P_LISTEN_STATE_OFF
 
 When this listen state is set:
 <ul>
@@ -79,7 +79,7 @@ When this listen state is set:
 <li>The port shall not respond to probe requests as a Wi-Fi Direct Adapter.</li>
 </ul>
 
-#### - WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
+### -field WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
 
 When this listen state is set:
 <ul>
@@ -87,7 +87,7 @@ When this listen state is set:
 <li>The port shall respond to probe requests with a "DIRECT-" SSID as a Wi-Fi Direct Adapter when parked on the specified channel.</li>
 </ul>
 
-#### - WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY
+### -field WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY
 
 When this listen state is set:
 <ul>
@@ -95,7 +95,7 @@ When this listen state is set:
 <li>The port shall respond to probe requests with a "DIRECT-" SSID as a Wi-Fi Direct Adapter when parked on the configured social channel.</li>
 </ul><div class="alert"><b>Note</b>  The optimized duty cycle for automatic availability listen state is outside the scope of this specification. The most aggressive power saving schedule that may be implemented by the port is being available for a contiguous 500ms out of every 5 seconds.</div><div> </div>
 
-#### - WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY
+### -field WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY
 
 When this listen state is set:
 <ul>

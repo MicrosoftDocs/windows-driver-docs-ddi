@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6510e732-b0ad-43c7-87a3-3630fdfd848d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE, ksmedia/KSVPMAXPIXELRATE, KSVPMAXPIXELRATE, stream.ksvpmaxpixelrate, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], KSVPMAXPIXELRATE structure [Streaming Media Devices], *PKSVPMAXPIXELRATE, dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml
+ms.keywords: ksmedia/KSVPMAXPIXELRATE, PKSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE, stream.ksvpmaxpixelrate, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], KSVPMAXPIXELRATE structure [Streaming Media Devices], KSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the dimension (width by height) of the video port.
 
 
-#### - MaxPixelsPerSecond
+### -field MaxPixelsPerSecond
 
 Indicates the maximum pixel throughput for the selected image size.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Do not use.
 

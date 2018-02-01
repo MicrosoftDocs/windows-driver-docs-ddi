@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ADEEB57F-79FF-4AA7-84AF-FED413E47057
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR, netvista.wwan_gsm_nmr, WWAN_GSM_NMR, PWWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], *PWWAN_GSM_NMR, _WWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_GSM_NMR, *PWWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR, wwan/PWWAN_GSM_NMR, netvista.wwan_gsm_nmr, _WWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _WWAN_GSM_NMR {
 
 
 
-#### - ElementCount
+### -field ElementCount
 
 The count of NMR entries following this member.
 
@@ -87,13 +87,13 @@ The array of NMR records, each specified as a <a href="..\wwan\ns-wwan-_wwan_gsm
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
-
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
+
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6A4963A0-4724-4709-A940-817B8AEBE1C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_SYS_CAPS_INFO, ndiswwan/PNDIS_WWAN_SYS_CAPS_INFO, NDIS_WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_sys_caps, *PNDIS_WWAN_SYS_CAPS_INFO, NDIS_WWAN_SYS_CAPS_INFO, _NDIS_WWAN_SYS_CAPS_INFO, PNDIS_WWAN_SYS_CAPS_INFO, PNDIS_WWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_WWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SYS_CAPS_INFO, *PNDIS_WWAN_SYS_CAPS_INFO, PNDIS_WWAN_SYS_CAPS_INFO, NDIS_WWAN_SYS_CAPS_INFO, ndiswwan/NDIS_WWAN_SYS_CAPS_INFO, ndiswwan/PNDIS_WWAN_SYS_CAPS_INFO, netvista.ndis_wwan_sys_caps, NDIS_WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SYS_CAPS_INFO {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the <b>NDIS_WWAN_SYS_CAPS_INFO</b> structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of system capability. The following table shows the possible values for
      this member.
@@ -183,20 +183,20 @@ The operation failed because the device does not support this OID.
 </table> 
 
 
-#### - SysCapsInfo
+### -field SysCapsInfo
 
 A formatted <a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO</a> structure that represents the overall modem system capability.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO</a>
+<a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
-
 <a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
+
+<a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO</a>
 
  
 

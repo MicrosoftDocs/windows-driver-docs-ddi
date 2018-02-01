@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4581b852-f539-4cad-93fd-2638c885c2e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasDownSampleBuffer, image.wiasdownsamplebuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml, wiamdef/wiasDownSampleBuffer
+ms.keywords: image.wiasdownsamplebuffer, wiasDownSampleBuffer, wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml, wiasDownSampleBuffer function [Imaging Devices], wiamdef/wiasDownSampleBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ HRESULT _stdcall wiasDownSampleBuffer(
 
 
 
-#### - lFlags
+### -param lFlags
 
 Specifies a set of flags that determine the behavior of this function. Currently, only the following flag is defined.
 <table>
@@ -90,7 +90,7 @@ Do not copy the downsampled data to the destination buffer. Instead, set the fol
 </table> 
 
 
-#### - pInfo [in, out]
+### -param pInfo [in, out]
 
 Pointer to the <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_down_sample_info.md">WIAS_DOWN_SAMPLE_INFO</a> structure that contains all of the information needed for the downsampling operation.
 

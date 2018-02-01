@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06b52af0-c2d3-444e-8714-4fce4181dddc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, MmAllocatePagesForMdl, wdm/MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], kernel.mmallocatepagesformdl
+ms.keywords: wdm/MmAllocatePagesForMdl, k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, MmAllocatePagesForMdl, kernel.mmallocatepagesformdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ PMDL MmAllocatePagesForMdl(
 
 
 
-#### - LowAddress [in]
+### -param LowAddress [in]
 
 Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdl</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdl</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
 
 
-#### - HighAddress [in]
+### -param HighAddress [in]
 
 Specifies the physical address of the end of the first address range from which the allocated pages can come. 
 
 
-#### - SkipBytes [in]
+### -param SkipBytes [in]
 
 Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes. 
 
 
-#### - TotalBytes [in]
+### -param TotalBytes [in]
 
 Specifies the total number of bytes to allocate for the MDL. 
 
@@ -137,7 +137,7 @@ The physical memory pages that are returned by <b>MmAllocatePagesForMdl</b> are 
 
 Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocatePagesForMdl</b> might return an MDL that describes less memory than was requested. The routine returns <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL. 
 
-The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdl</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure itself.
+The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdl</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure itself.
 
 In Windows 2000 and later versions of Windows, the maximum amount of memory that <b>MmAllocatePagesForMdl</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
@@ -147,7 +147,7 @@ In Windows 2000 and later versions of Windows, the maximum amount of memory that
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 

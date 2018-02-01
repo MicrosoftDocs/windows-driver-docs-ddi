@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 35f2b42d-d67f-4fd4-adde-918a2587980b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PPCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_CONTEXT_MODE, wdm/CLFS_CONTEXT_MODE, ClfsContextNone, kernel.clfs_context_mode, ClfsContextPrevious, CLFS_CONTEXT_MODE enumeration [Kernel-Mode Driver Architecture], ClfsContextUndoNext, PPCLFS_CONTEXT_MODE, wdm/ClfsContextForward, sysenum_b51a934c-9174-4607-8da9-22c7ecf56730.xml, wdm/ClfsContextNone, wdm/ClfsContextUndoNext, wdm/ClfsContextPrevious, ClfsContextForward, CLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE, *PCLFS_CONTEXT_MODE, _CLFS_CONTEXT_MODE
+ms.keywords: CLFS_CONTEXT_MODE, ClfsContextUndoNext, *PCLFS_CONTEXT_MODE, kernel.clfs_context_mode, wdm/ClfsContextPrevious, wdm/PPCLFS_CONTEXT_MODE, ClfsContextNone, wdm/ClfsContextForward, PCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], ClfsContextPrevious, PPCLFS_CONTEXT_MODE, _CLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE enumeration [Kernel-Mode Driver Architecture], wdm/CLFS_CONTEXT_MODE, wdm/ClfsContextNone, wdm/PCLFS_CONTEXT_MODE, sysenum_b51a934c-9174-4607-8da9-22c7ecf56730.xml, PCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], ClfsContextForward, wdm/ClfsContextUndoNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,35 +71,35 @@ typedef enum _CLFS_CONTEXT_MODE {
 
 
 
-#### - ClfsContextNone
+### -field ClfsContextNone
 
 Indicates that a variable of type <b>CLFS_CONTEXT_MODE</b> has not yet been assigned a meaningful value.
 
 
-#### - ClfsContextUndoNext
+### -field ClfsContextUndoNext
 
 Indicates that the next record in the sequence is pointed to by the <a href="https://msdn.microsoft.com/4637fa0c-2f19-4f0c-bf13-f4ccac2e7284">undo-next LSN</a> of the current record.
 
 
-#### - ClfsContextPrevious
+### -field ClfsContextPrevious
 
 Indicates that the next record in the sequence is pointed to by the <a href="https://msdn.microsoft.com/4637fa0c-2f19-4f0c-bf13-f4ccac2e7284">previous LSN</a> of the current record.
 
 
-#### - ClfsContextForward
+### -field ClfsContextForward
 
 Indicates that the next record in the sequence is the record in the stream that immediately follows the current record.
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
-
 <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
 
 <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
 
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+
+<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
 
  
 

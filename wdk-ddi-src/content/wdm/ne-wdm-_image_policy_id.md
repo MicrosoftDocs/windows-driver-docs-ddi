@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e2984ef0-6648-41d3-89da-4f57cce66cfb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_IMAGE_POLICY_ID, ImagePolicyIdCrashDump, ImagePolicyIdScenarioId, wdm/ImagePolicyIdParentSd, wdm/ImagePolicyIdCrashDumpKey, ImagePolicyIdDeviceId, wdm/ImagePolicyIdDebug, ImagePolicyIdDebug, ImagePolicyIdCrashDumpKey, wdm/ImagePolicyIdParentSdRev, ImagePolicyIdMaximum, wdm/ImagePolicyIdSvn, ImagePolicyIdParentSd, ImagePolicyIdParentSdRev, kernel._image_policy_id, wdm/ImagePolicyIdDeviceId, IMAGE_POLICY_ID, ImagePolicyIdCapability, wdm/ImagePolicyIdScenarioId, ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdCrashDumpKeyGuid, ImagePolicyIdSvn, wdm/ImagePolicyIdMaximum, wdm/ImagePolicyIdCrashDump, ImagePolicyIdEtw, wdm/ImagePolicyIdEtw, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], wdm/ImagePolicyIdCapability, wdm/IMAGE_POLICY_ID"
+ms.keywords: ImagePolicyIdDebug, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], ImagePolicyIdEtw, ImagePolicyIdCrashDumpKeyGuid, _IMAGE_POLICY_ID, wdm/ImagePolicyIdCrashDumpKey, ImagePolicyIdCrashDump, wdm/ImagePolicyIdDeviceId, ImagePolicyIdMaximum, IMAGE_POLICY_ID, ImagePolicyIdScenarioId, ImagePolicyIdCapability, wdm/ImagePolicyIdMaximum, wdm/ImagePolicyIdSvn, wdm/ImagePolicyIdEtw, ImagePolicyIdCrashDumpKey, wdm/ImagePolicyIdDebug, wdm/ImagePolicyIdScenarioId, wdm/ImagePolicyIdParentSd, wdm/IMAGE_POLICY_ID, wdm/ImagePolicyIdCapability, wdm/ImagePolicyIdCrashDump, wdm/ImagePolicyIdCrashDumpKeyGuid, kernel._image_policy_id, ImagePolicyIdParentSd, ImagePolicyIdSvn, wdm/ImagePolicyIdParentSdRev, ImagePolicyIdParentSdRev, ImagePolicyIdDeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,62 +83,62 @@ typedef enum _IMAGE_POLICY_ID {
 
 
 
-#### - ImagePolicyIdEtw
+### -field ImagePolicyIdEtw
 
 Reserved.
 
 
-#### - ImagePolicyIdDebug
+### -field ImagePolicyIdDebug
 
 Reserved.
 
 
-#### - ImagePolicyIdCrashDump
+### -field ImagePolicyIdCrashDump
 
 Reserved.
 
 
-#### - ImagePolicyIdCrashDumpKey
+### -field ImagePolicyIdCrashDumpKey
 
 Reserved.
 
 
-#### - ImagePolicyIdCrashDumpKeyGuid
+### -field ImagePolicyIdCrashDumpKeyGuid
 
 Reserved.
 
 
-#### - ImagePolicyIdParentSd
+### -field ImagePolicyIdParentSd
 
 Reserved.
 
 
-#### - ImagePolicyIdParentSdRev
+### -field ImagePolicyIdParentSdRev
 
 Reserved.
 
 
-#### - ImagePolicyIdSvn
+### -field ImagePolicyIdSvn
 
 Reserved.
 
 
-#### - ImagePolicyIdDeviceId
+### -field ImagePolicyIdDeviceId
 
 Reserved.
 
 
-#### - ImagePolicyIdCapability
+### -field ImagePolicyIdCapability
 
 Reserved.
 
 
-#### - ImagePolicyIdScenarioId
+### -field ImagePolicyIdScenarioId
 
 Reserved.
 
 
-#### - ImagePolicyIdMaximum
+### -field ImagePolicyIdMaximum
 
 Reserved.
 

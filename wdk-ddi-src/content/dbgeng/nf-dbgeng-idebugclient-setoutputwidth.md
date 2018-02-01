@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOutputWidth method [Windows Debugging], IDebugClient interface, SetOutputWidth, IDebugClient interface [Windows Debugging], SetOutputWidth method, SetOutputWidth method [Windows Debugging], IDebugClient::SetOutputWidth, IDebugClient, debugger.idebugclient_setoutputwidth, dbgeng/IDebugClient::SetOutputWidth
+ms.keywords: dbgeng/IDebugClient::SetOutputWidth, IDebugClient::SetOutputWidth, SetOutputWidth, SetOutputWidth method [Windows Debugging], IDebugClient interface, SetOutputWidth method [Windows Debugging], debugger.idebugclient_setoutputwidth, IDebugClient interface [Windows Debugging], SetOutputWidth method, IDebugClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT SetOutputWidth(
 
 
 
-#### - Columns [in]
+### -param Columns [in]
 
 The number of columns in the output.
 

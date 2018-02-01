@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9dfd1894-c9b5-43c2-8377-c28577898754
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbVPrintfW, kernel.rtlstringcbvprintf, RtlStringCbVPrintf, ntstrsafe/RtlStringCbVPrintfA, RtlStringCbVPrintfA, RtlStringCbVPrintfW, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml
+ms.keywords: kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfA, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml, RtlStringCbVPrintfA, RtlStringCbVPrintf, RtlStringCbVPrintfW, ntstrsafe/RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS RtlStringCbVPrintfW(
 
 
 
-#### - pszDest [out]
+### -param pszDest [out]
 
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the arguments supplied by <i>argList</i>.
 
 
-#### - cbDest [in]
+### -param cbDest [in]
 
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character.
 
@@ -87,12 +87,12 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(W
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
 
 
-#### - pszFormat [in]
+### -param pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/en-us/library/56e442dc.aspx">formatting directives</a>.
 
 
-#### - argList [in]
+### -param argList [in]
 
 A <b>va_list</b>-typed argument list. Arguments contained in the argument list will be interpreted by using the formatting string that is supplied by <i>pszFormat</i>.
 
@@ -223,9 +223,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfexw.md">RtlStringCbVPrintfEx</a>
 

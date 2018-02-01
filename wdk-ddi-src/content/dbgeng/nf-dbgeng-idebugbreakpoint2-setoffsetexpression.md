@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 63cfb3f2-5240-4cb6-9c23-8cdb363f62a8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint2, debugger.setoffsetexpression, ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, dbgeng/IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, SetOffsetExpression, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::SetOffsetExpression
+ms.keywords: dbgeng/IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint2::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2, SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, debugger.setoffsetexpression, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint::SetOffsetExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT SetOffsetExpression(
 
 
 
-#### - Expression [in]
+### -param Expression [in]
 
 The expression string that evaluates to the location on the target that triggers the breakpoint.  If the engine icannot evaluate the expression (for example, if the expression contains a symbol that cannot be interpreted), the breakpoint is flagged as deferred. (For more information about deferred breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.)  For more information about the expression syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
 

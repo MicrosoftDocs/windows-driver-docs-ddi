@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/RawWithSubCode, XAForm2, RawWithC2, ntddcdrm/RawWithC2AndSubCode, ntddcdrm/YellowMode2, *PTRACK_MODE_TYPE, ntddcdrm/XAForm2, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/RawWithC2, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, RawWithC2AndSubCode, _TRACK_MODE_TYPE, ntddcdrm/PTRACK_MODE_TYPE, TRACK_MODE_TYPE, RawWithSubCode, TRACK_MODE_TYPE enumeration [Storage Devices], ntddcdrm/CDDA, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], CDDA, PTRACK_MODE_TYPE, storage.track_mode_type, YellowMode2
+ms.keywords: ntddcdrm/XAForm2, TRACK_MODE_TYPE enumeration [Storage Devices], RawWithC2, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, PTRACK_MODE_TYPE, XAForm2, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], *PTRACK_MODE_TYPE, ntddcdrm/YellowMode2, ntddcdrm/RawWithC2AndSubCode, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/PTRACK_MODE_TYPE, TRACK_MODE_TYPE, ntddcdrm/RawWithSubCode, CDDA, _TRACK_MODE_TYPE, storage.track_mode_type, ntddcdrm/CDDA, RawWithC2AndSubCode, RawWithSubCode, YellowMode2, ntddcdrm/RawWithC2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _TRACK_MODE_TYPE {
 
 
 
-#### - YellowMode2
+### -field YellowMode2
 
 Indicates that CD-ROM mode should be used. This mode is used with read-only 120 mm Optical Data Discs (CD-ROM). For more information, see the ISO/IEC 10149 specification.
 
 
-#### - XAForm2
+### -field XAForm2
 
 Indicates that compact disc read-only memory extended architecture mode should be used. For more information see the specification for CD-ROM XA published by NV Philips and Sony Corporation.
 
 
-#### - CDDA
+### -field CDDA
 
 Indicates that digital audio information mode should be used. For more information, see the IEC 908:1987 specification.
 
 
-#### - RawWithC2AndSubCode
+### -field RawWithC2AndSubCode
 
 CD_RAW_SECTOR_WITH_C2_AND_SUBCODE_SIZE per sector
 
 
-#### - RawWithC2
+### -field RawWithC2
 
 CD_RAW_SECTOR_WITH_C2_SIZE per sector
 
 
-#### - RawWithSubCode
+### -field RawWithSubCode
 
 CD_RAW_SECTOR_WITH_SUBCODE_SIZE per sector
 

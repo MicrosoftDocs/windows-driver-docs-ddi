@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 905f8566-ad98-454f-a5cd-8f4ff46c8118
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_signal_state, PNDIS_WWAN_SIGNAL_STATE, PNDIS_WWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SIGNAL_STATE, WwanRef_92027d1b-0311-4d61-b8cf-04518ee2863b.xml, NDIS_WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SIGNAL_STATE, ndiswwan/PNDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE, _NDIS_WWAN_SIGNAL_STATE
+ms.keywords: WwanRef_92027d1b-0311-4d61-b8cf-04518ee2863b.xml, PNDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE, ndiswwan/PNDIS_WWAN_SIGNAL_STATE, netvista.ndis_wwan_signal_state, *PNDIS_WWAN_SIGNAL_STATE, _NDIS_WWAN_SIGNAL_STATE, PNDIS_WWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SIGNAL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SIGNAL_STATE {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SIGNAL_STATE structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -118,12 +118,12 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of the signal state operation.
 
 
-#### - SignalState
+### -field SignalState
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a> object that represents

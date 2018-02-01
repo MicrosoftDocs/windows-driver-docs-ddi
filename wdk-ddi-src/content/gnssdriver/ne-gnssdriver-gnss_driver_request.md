@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 923774E0-4F4E-470A-9793-8AD4261AEB64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_DRIVER_REQUEST, sensors.gnss_driver_request, GNSS_DRIVER_REQUEST, SUPL_CONFIG_DATA, gnssdriver/SUPL_CONFIG_DATA, GNSS_DRIVER_REQUEST enumeration [Sensor Devices]
+ms.keywords: sensors.gnss_driver_request, gnssdriver/SUPL_CONFIG_DATA, SUPL_CONFIG_DATA, GNSS_DRIVER_REQUEST, gnssdriver/GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum  {
 
 
 
-#### - SUPL_CONFIG_DATA
+### -field SUPL_CONFIG_DATA
 
 This is used by the GNSS driver to  request SUPL configuration data.
 

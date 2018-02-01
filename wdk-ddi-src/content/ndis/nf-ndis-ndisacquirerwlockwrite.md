@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 124302d7-0776-4025-b71f-ce6300f97f49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml, netvista.ndisacquirerwlockwrite, NdisAcquireRWLockWrite, NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockWrite
+ms.keywords: NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], netvista.ndisacquirerwlockwrite, NdisAcquireRWLockWrite, ndis/NdisAcquireRWLockWrite, ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisAcquireRWLockWrite(
 
 
 
-#### - Lock [in]
+### -param Lock [in]
 
 A pointer to an opaque 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> variable that represents a
@@ -80,7 +80,7 @@ A pointer to an opaque
      non-ISR driver threads.
 
 
-#### - LockState [out]
+### -param LockState [out]
 
 A pointer to an opaque 
      <a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a> variable that tracks the state
@@ -89,7 +89,7 @@ A pointer to an opaque
      obtain the lock from the same non-ISR driver thread.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A <b>ULONG</b> value that contains lock flags. Set this parameter to <b>NDIS_RWL_AT_DISPATCH_LEVEL</b> if the
      caller's current IRQL is <b>DISPATCH_LEVEL</b>. Otherwise, set this parameter to zero. For more information
@@ -136,12 +136,12 @@ A driver thread should never hold a write lock for more than a few microseconds.
 The driver cannot use a lock to protect resources from read or write access that its other functions
     share with the 
     <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> or 
-    <mshelp:link keywords="netvista.miniportdisableinterruptex" tabindex="0"><i>
-    MiniportDisableInterruptEx</i></mshelp:link> functions, or both. Instead, the driver must call 
-    <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-    NdisMSynchronizeWithInterruptEx</b></mshelp:link> so that its 
-    <mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
-    MiniportSynchronizeInterrupt</i></mshelp:link> function accesses such shared resources at the same DIRQL that its 
+    <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">
+    MiniportDisableInterruptEx</a> functions, or both. Instead, the driver must call 
+    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    NdisMSynchronizeWithInterruptEx</a> so that its 
+    <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL that its 
     <i>MiniportInterrupt</i> or 
     <i>
     MiniportDisableInterruptEx</i> functions, or both, do.
@@ -152,25 +152,25 @@ The driver cannot use a lock to protect resources from read or write access that
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
 <a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
-
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-<mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
-   MiniportSynchronizeInterrupt</i></mshelp:link>
-
-<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
 
 <a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
-<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
  
 

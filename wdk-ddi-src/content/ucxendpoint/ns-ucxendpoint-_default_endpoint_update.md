@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3E85D9AE-F8D3-4763-B1A2-51F95D00422D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxendpoint/_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, buses._default_endpoint_update, ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], _DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE structure [Buses]
+ms.keywords: P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], buses._default_endpoint_update, ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE structure [Buses], *PDEFAULT_ENDPOINT_UPDATE, _DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/_DEFAULT_ENDPOINT_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _DEFAULT_ENDPOINT_UPDATE {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains header information related to the USB device or hub endpoint.
 
 
-#### - DefaultEndpoint
+### -field DefaultEndpoint
 
 A handle to the  default endpoint to update.
 
 
-#### - MaxPacketSize
+### -field MaxPacketSize
 
 The maximum packet size of the default endpoint.
 

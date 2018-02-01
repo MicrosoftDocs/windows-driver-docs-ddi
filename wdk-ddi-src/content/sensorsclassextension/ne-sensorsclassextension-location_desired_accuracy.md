@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.location_desired_accuracy, sensorsclassextension/LOCATION_DESIRED_ACCURACY_HIGH, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], sensorsclassextension/LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY_HIGH, LOCATION_DESIRED_ACCURACY, sensorsclassextension/LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_DEFAULT
+ms.keywords: sensorsclassextension/LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsclassextension/LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], sensors.location_desired_accuracy, LOCATION_DESIRED_ACCURACY_HIGH, LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsclassextension/LOCATION_DESIRED_ACCURACY_HIGH, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,12 +70,12 @@ enum LOCATION_DESIRED_ACCURACY {
 
 
 
-#### - LOCATION_DESIRED_ACCURACY_DEFAULT
+### -field LOCATION_DESIRED_ACCURACY_DEFAULT
 
 Indicates that the sensor should use the accuracy for which it can optimize power and other such cost considerations.
 
 
-#### - LOCATION_DESIRED_ACCURACY_HIGH
+### -field LOCATION_DESIRED_ACCURACY_HIGH
 
 Indicates that the sensor should deliver the highest-accuracy report possible. This includes using services that might charge money, or consuming higher levels of battery power or connection bandwidth.
 

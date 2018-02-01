@@ -72,7 +72,7 @@ typedef PFNDRMDESTROYCONTENT DRMDestroyContent;
 
 
 
-#### - ContentId [in]
+### -param ContentId [in]
 
 This parameter is reserved for system use.
 

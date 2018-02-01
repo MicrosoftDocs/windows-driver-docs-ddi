@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F13C7D8D-C134-432A-904B-7435894B07E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses], udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange, UdecxEndpointsConfigureTypeEndpointsReleasedOnly, udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, buses.udecx_endpoints_configure_type, UdecxEndpointsConfigureTypeDeviceInitialize, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, UdecxEndpointsConfigureTypeInterfaceSettingChange, PUDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses], udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeDeviceConfigurationChange, *PUDECX_ENDPOINTS_CONFIGURE_TYPE, _UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE
+ms.keywords: PUDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, buses.udecx_endpoints_configure_type, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, UdecxEndpointsConfigureTypeEndpointsReleasedOnly, *PUDECX_ENDPOINTS_CONFIGURE_TYPE, PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses], udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, _UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeDeviceInitialize, UdecxEndpointsConfigureTypeDeviceConfigurationChange, UDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses], UdecxEndpointsConfigureTypeInterfaceSettingChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _UDECX_ENDPOINTS_CONFIGURE_TYPE {
 
 
 
-#### - UdecxEndpointsConfigureTypeDeviceInitialize
+### -field UdecxEndpointsConfigureTypeDeviceInitialize
 
 Reserved for internal use.
 
 
-#### - UdecxEndpointsConfigureTypeDeviceConfigurationChange
+### -field UdecxEndpointsConfigureTypeDeviceConfigurationChange
 
 The requested change applies to the USB device configuration.
 
 
-#### - UdecxEndpointsConfigureTypeInterfaceSettingChange
+### -field UdecxEndpointsConfigureTypeInterfaceSettingChange
 
 The requested change applies to an alternate setting of a USB interface.
 
 
-#### - UdecxEndpointsConfigureTypeEndpointsReleasedOnly
+### -field UdecxEndpointsConfigureTypeEndpointsReleasedOnly
 
 The requested change applies to an endpoint of an interface setting.
 

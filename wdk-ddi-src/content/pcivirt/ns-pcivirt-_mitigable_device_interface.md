@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.mitigable_device_interface, *PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], _MITIGABLE_DEVICE_INTERFACE
+ms.keywords: pcivirt/MITIGABLE_DEVICE_INTERFACE, *PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], PCI.mitigable_device_interface, _MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _MITIGABLE_DEVICE_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 Size of this structure.
 
 
-#### - Version
+### -field Version
 
 Version of this structure
 
 
-#### - Context
+### -field Context
 
 Driver-defined context passed by the driver.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
-#### - ReadWriteMitigatedRegister
+### -field ReadWriteMitigatedRegister
 
 Pointer to the driver's implementation of the <a href="https://msdn.microsoft.com/7cd45484-0fee-4b8e-aa35-4142883c146e">READ_WRITE_MITIGATED_REGISTER</a> callback function.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d7402839-2afe-43d3-9747-7b2e98d1c238
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+ms.keywords: "_D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS {
 
 
 
-#### - LevelCount
+### -field LevelCount
 
 The number of brightness levels that the integrated display panel supports.
 
 
-#### - BrightnessLevels
+### -field BrightnessLevels
 
 The specific brightness levels that the integrated display panel supports.
 

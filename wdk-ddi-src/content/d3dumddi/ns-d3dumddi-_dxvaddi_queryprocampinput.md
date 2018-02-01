@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9ba7c42a-4140-4d8c-abb3-ae5f9285dbd9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVADDI_QUERYPROCAMPINPUT, DXVA2_Structs_64cd50ed-940a-46a1-8a4d-b43d40e85b25.xml, DXVADDI_QUERYPROCAMPINPUT, display.dxvaddi_queryprocampinput, DXVADDI_QUERYPROCAMPINPUT structure [Display Devices], d3dumddi/DXVADDI_QUERYPROCAMPINPUT"
+ms.keywords: "_DXVADDI_QUERYPROCAMPINPUT, DXVA2_Structs_64cd50ed-940a-46a1-8a4d-b43d40e85b25.xml, d3dumddi/DXVADDI_QUERYPROCAMPINPUT, DXVADDI_QUERYPROCAMPINPUT structure [Display Devices], DXVADDI_QUERYPROCAMPINPUT, display.dxvaddi_queryprocampinput"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,41 +70,41 @@ typedef struct _DXVADDI_QUERYPROCAMPINPUT {
 
 
 
-#### - pVideoProcGuid
+### -field pVideoProcGuid
 
 [in] A pointer to a GUID that represents the video processing device type. 
 
 
-#### - VideoDesc
+### -field VideoDesc
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a> structure that describes the video stream. 
 
 
-#### - RenderTargetFormat
+### -field RenderTargetFormat
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
 
 
-#### - ProcAmpCap
+### -field ProcAmpCap
 
 [in] A ProcAmp control property that range information is requested for. The ProcAmp control property can be one of the members of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a> structure. 
 
 
 ## -see-also
 
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_valuerange.md">DXVADDI_VALUERANGE</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_valuerange.md">DXVADDI_VALUERANGE</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
  
 

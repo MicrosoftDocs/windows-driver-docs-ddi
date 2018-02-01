@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3db4e04b-2707-4eb1-a249-2714304246a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTChangeSurfacePointer function [Display Devices], D3DKMTChangeSurfacePointer, display.d3dkmtchangesurfacepointer, d3dkmthk/D3DKMTChangeSurfacePointer, PFND3DKMT_CHANGESURFACEPOINTER, OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml
+ms.keywords: display.d3dkmtchangesurfacepointer, PFND3DKMT_CHANGESURFACEPOINTER, D3DKMTChangeSurfacePointer function [Display Devices], D3DKMTChangeSurfacePointer, OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml, d3dkmthk/D3DKMTChangeSurfacePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

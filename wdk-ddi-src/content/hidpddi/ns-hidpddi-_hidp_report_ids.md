@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C88B77C3-01CB-4E8C-83A4-EB9AFB122327
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpddi/HIDP_REPORT_IDS, hidpddi/PHIDP_REPORT_IDS, PHIDP_REPORT_IDS, *PHIDP_REPORT_IDS, _HIDP_REPORT_IDS, hid.hidp_report_ids, HIDP_REPORT_IDS, HIDP_REPORT_IDS structure [Human Input Devices], PHIDP_REPORT_IDS structure pointer [Human Input Devices]
+ms.keywords: HIDP_REPORT_IDS structure [Human Input Devices], PHIDP_REPORT_IDS structure pointer [Human Input Devices], hidpddi/PHIDP_REPORT_IDS, _HIDP_REPORT_IDS, hidpddi/HIDP_REPORT_IDS, hid.hidp_report_ids, *PHIDP_REPORT_IDS, HIDP_REPORT_IDS, PHIDP_REPORT_IDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _HIDP_REPORT_IDS {
 
 
 
-#### - ReportID
+### -field ReportID
 
 The report ID of the top-level collection.
 
 
-#### - CollectionNumber
+### -field CollectionNumber
 
 The index of the collection in the array of  <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> structure.
 
 
-#### - InputLength
+### -field InputLength
 
 The length of an input report of this report ID. 
 
 
-#### - OutputLength
+### -field OutputLength
 
 The length of an output report of this report ID. An input report, an output report, and a feature report can use the same report.
 
 
-#### - FeatureLength
+### -field FeatureLength
 
 The length of a feature report of this report ID.
 

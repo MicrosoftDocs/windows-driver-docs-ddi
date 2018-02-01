@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, ksmedia/KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], PKSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, _KSPROPERTY_SPHLI, stream.ksproperty_sphli, *PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices]
+ms.keywords: dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices], stream.ksproperty_sphli, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], KSPROPERTY_SPHLI, _KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, ksmedia/KSPROPERTY_SPHLI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _KSPROPERTY_SPHLI {
 
 
 
-#### - HLISS
+### -field HLISS
 
 Indicates the highlight status of the current selection. A value of zero indicates that all highlights are invalid and the decoder should disable all highlights.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Do not use.
 
 
-#### - StartPTM
+### -field StartPTM
 
 Indicates the start of presentation time.
 
 
-#### - EndPTM
+### -field EndPTM
 
 Indicates the end of presentation time.
 
 
-#### - StartX
+### -field StartX
 
 Indicates the start x-coordinate pixel of the current highlight button.
 
 
-#### - StartY
+### -field StartY
 
 Indicates the start y-coordinate pixel of the current highlight button.
 
 
-#### - StopX
+### -field StopX
 
 Indicates the ending x-coordinate pixel of the current highlight button.
 
 
-#### - StopY
+### -field StopY
 
 Indicates the ending y-coordinate pixel of the current highlight button.
 
 
-#### - ColCon
+### -field ColCon
 
 Specifies the color/contrast of the highlight rectangle.
 

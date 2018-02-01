@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 787f20a4-51b6-44e3-aefb-2dc529359545
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTQueryProtectedSessionStatus method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionStatus, D3DKMTQueryProtectedSessionStatus, display.d3dkmtqueryprotectedsessionstatus
+ms.keywords: D3DKMTQueryProtectedSessionStatus, display.d3dkmtqueryprotectedsessionstatus, D3DKMTQueryProtectedSessionStatus method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

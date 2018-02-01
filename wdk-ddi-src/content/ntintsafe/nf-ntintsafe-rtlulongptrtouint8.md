@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7CAE67CD-44B3-48C0-AB9B-F67404D8FB7C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouint8, ntintsafe/RtlULongPtrToUInt8, RtlULongPtrToUInt8
+ms.keywords: RtlULongPtrToUInt8 function [Kernel-Mode Driver Architecture], RtlULongPtrToUInt8, ntintsafe/RtlULongPtrToUInt8, kernel.rtlulongptrtouint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlULongPtrToUInt8(
 
 
 
-#### - ulOperand [in]
+### -param ulOperand [in]
 
 The value to be converted.
 
 
-#### - pui8Result [out]
+### -param pui8Result [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

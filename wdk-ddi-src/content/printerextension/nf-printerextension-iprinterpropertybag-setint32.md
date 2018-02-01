@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9E6B55C3-C177-4C07-9AB5-7C743CE47016
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetInt32, SetInt32 method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag, IPrinterPropertyBag::SetInt32, IPrinterPropertyBag interface [Print Devices], SetInt32 method, printerextension/IPrinterPropertyBag::SetInt32, print.iprinterpropertybag_setint32, SetInt32 method [Print Devices]
+ms.keywords: IPrinterPropertyBag interface [Print Devices], SetInt32 method, IPrinterPropertyBag::SetInt32, printerextension/IPrinterPropertyBag::SetInt32, IPrinterPropertyBag, SetInt32 method [Print Devices], print.iprinterpropertybag_setint32, SetInt32, SetInt32 method [Print Devices], IPrinterPropertyBag interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetInt32(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The property to set.
 
 
-#### - nValue [in]
+### -param nValue [in]
 
 The new value to set.
 

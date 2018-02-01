@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 0f2c321c-f03b-4655-bbd1-25fcc6c52cfa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], PPCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml, *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], _PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI.pci_express_root_control_register, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER
+ms.keywords: PCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, _PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI.pci_express_root_control_register, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER, *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,67 +82,37 @@ typedef union _PCI_EXPRESS_ROOT_CONTROL_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.CorrectableSerrEnable
 
- 
+A single bit that indicates that a system error should be generated if a correctable error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
 ### -field DUMMYSTRUCTNAME.NonFatalSerrEnable
 
- 
+A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
 ### -field DUMMYSTRUCTNAME.FatalSerrEnable
 
- 
+A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
 ### -field DUMMYSTRUCTNAME.PMEInterruptEnable
 
- 
+A single bit that indicates that interrupts are enabled for power management events.
 
 
 ### -field DUMMYSTRUCTNAME.CRSSoftwareVisibilityEnable
 
- 
+A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
 
 
 ### -field DUMMYSTRUCTNAME.Rsvd
 
- 
+Reserved.
 
 
-#### - AsUSHORT
+### -field AsUSHORT
 
 A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CONTROL_REGISTER structure.
-
-
-#### - CorrectableSerrEnable
-
-A single bit that indicates that a system error should be generated if a correctable error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
-
-
-#### - NonFatalSerrEnable
-
-A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
-
-
-#### - FatalSerrEnable
-
-A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
-
-
-#### - PMEInterruptEnable
-
-A single bit that indicates that interrupts are enabled for power management events.
-
-
-#### - CRSSoftwareVisibilityEnable
-
-A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
-
-
-#### - Rsvd
-
-Reserved.
 
 
 ## -remarks

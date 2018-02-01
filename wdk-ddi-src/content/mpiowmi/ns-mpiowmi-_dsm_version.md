@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1aa264fa-b552-41a0-bd43-a62f8f2b533b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiowmi/PDSM_VERSION, DSM_VERSION structure [Storage Devices], _DSM_VERSION, PDSM_VERSION structure pointer [Storage Devices], DSM_VERSION, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml, storage.dsm_version, mpiowmi/DSM_VERSION, PDSM_VERSION, *PDSM_VERSION
+ms.keywords: DSM_VERSION, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml, PDSM_VERSION structure pointer [Storage Devices], mpiowmi/PDSM_VERSION, storage.dsm_version, _DSM_VERSION, DSM_VERSION structure [Storage Devices], mpiowmi/DSM_VERSION, PDSM_VERSION, *PDSM_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DSM_VERSION {
 
 
 
-#### - MajorVersion
+### -field MajorVersion
 
 An unsigned 32-bitfield that represents the major version portion of the version.
 
 
-#### - MinorVersion
+### -field MinorVersion
 
 An unsigned 32-bitfield that represents the minor version portion of the version.
 
 
-#### - ProductBuild
+### -field ProductBuild
 
 An unsigned 32-bitfield that represents the product build portion of the version.
 
 
-#### - QfeNumber
+### -field QfeNumber
 
 An unsigned 32-bitfield that represents the QFE number portion of the version.
 

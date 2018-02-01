@@ -70,7 +70,7 @@ NTSTATUS RequestInterrupt(
 
 
 
-#### - Gsiv [in]
+### -param Gsiv [in]
 
 The global system interrupt vector (GSIV) number that identifies this interrupt. The ACPI firmware assigns GSIV numbers to all primary interrupt lines. For secondary (GPIO) interrupt lines, the GSIV number is dynamically assigned by the operating system.
 

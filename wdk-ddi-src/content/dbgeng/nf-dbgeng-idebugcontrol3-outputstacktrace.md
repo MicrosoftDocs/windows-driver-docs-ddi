@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 207f289c-347c-4ae7-9bbd-7c4a04d19e24
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputStackTrace method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::OutputStackTrace, IDebugControl3, IDebugControl2::OutputStackTrace, OutputStackTrace method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], OutputStackTrace method, dbgeng/IDebugControl::OutputStackTrace, IDebugControl2 interface [Windows Debugging], OutputStackTrace method, OutputStackTrace method [Windows Debugging], IDebugControl interface, debugger.outputstacktrace, IDebugControl::OutputStackTrace, IDebugControl3 interface [Windows Debugging], OutputStackTrace method, IDebugControl3::OutputStackTrace, OutputStackTrace, dbgeng/IDebugControl3::OutputStackTrace, OutputStackTrace method [Windows Debugging], IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml
+ms.keywords: debugger.outputstacktrace, IDebugControl interface [Windows Debugging], OutputStackTrace method, dbgeng/IDebugControl::OutputStackTrace, OutputStackTrace method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], OutputStackTrace method, dbgeng/IDebugControl2::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, OutputStackTrace method [Windows Debugging], IDebugControl3 interface, OutputStackTrace method [Windows Debugging], dbgeng/IDebugControl3::OutputStackTrace, IDebugControl3, IDebugControl::OutputStackTrace, OutputStackTrace method [Windows Debugging], IDebugControl interface, IDebugControl2::OutputStackTrace, IDebugControl3::OutputStackTrace, IDebugControl3 interface [Windows Debugging], OutputStackTrace method, OutputStackTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT OutputStackTrace(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies where to send the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-#### - Frames [in, optional]
+### -param Frames [in, optional]
 
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frames are used.
 
 
-#### - FramesSize [in]
+### -param FramesSize [in]
 
 Specifies the number of frames to output.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 <table>
@@ -241,17 +241,17 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
  
 

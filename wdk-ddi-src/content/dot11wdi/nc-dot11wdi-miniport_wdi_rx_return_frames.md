@@ -75,12 +75,12 @@ VOID MiniportWdiRxReturnFrames(
 
 
 
-#### - MiniportTalTxRxContext [in]
+### -param MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-#### - pNBL [in]
+### -param pNBL [in]
 
 Pointer to the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain being returned to the IHV miniport.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE"
+ms.keywords: UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, UMDETW_ALLOCATION_USAGE, umdprovider/UMDETW_ALLOCATION_USAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,27 +76,27 @@ typedef struct _UMDETW_ALLOCATION_USAGE {
 
 
 
-#### - Packed
+### -field Packed
 
 The allocation is packed into a larger parent allocation.
 
 
-#### - Renamed
+### -field Renamed
 
 The allocation is a renamed instance of a Direct3D allocation.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use. Do not use in your driver.
 
 
-#### - DriverReserved
+### -field DriverReserved
 
 The driver can use these bit fields for its own internal purposes.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that specifies the allocation mapping.
 

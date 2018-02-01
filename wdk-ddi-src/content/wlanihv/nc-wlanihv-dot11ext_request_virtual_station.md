@@ -71,7 +71,7 @@ DWORD WINAPI * Dot11ExtRequestVirtualStation(
 
 
 
-#### - hDot11PrimaryHandle [in, optional]
+### -param hDot11PrimaryHandle [in, optional]
 
 A handle used by the operating system to reference the primary physical wireless LAN (WLAN)
      adapter. This handle value was received as the 
@@ -80,7 +80,7 @@ A handle used by the operating system to reference the primary physical wireless
      Handler function.
 
 
-#### - pvReserved
+### -param pvReserved
 
 This parameter is reserved for use by the operating system and should be <b>NULL</b>.
 
@@ -114,8 +114,8 @@ After the operating system creates the new virtual station, the IHV Extensions D
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extreleasevirtualstation" tabindex="0"><i>
-   Dot11ExtReleaseVirtualStation</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
+   Dot11ExtReleaseVirtualStation</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 

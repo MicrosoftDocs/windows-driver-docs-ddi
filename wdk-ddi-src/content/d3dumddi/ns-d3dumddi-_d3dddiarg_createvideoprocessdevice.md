@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b875755c-9559-41ee-8a9b-1de05a2f1dab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATEVIDEOPROCESSDEVICE, d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, display.d3dddiarg_createvideoprocessdevice
+ms.keywords: d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml, D3DDDIARG_CREATEVIDEOPROCESSDEVICE, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, display.d3dddiarg_createvideoprocessdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DDDIARG_CREATEVIDEOPROCESSDEVICE {
 
 
 
-#### - pVideoProcGuid
+### -field pVideoProcGuid
 
 [in] A pointer to the GUID that represents a DirectX VA video processing device to create. The Microsoft Direct3D runtime can call the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function to query for the video processing GUIDs that the driver supports. 
 
 
-#### - VideoDesc
+### -field VideoDesc
 
 [in] The <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a> structure for the video stream that the video processing device should process.
 
 
-#### - RenderTargetFormat
+### -field RenderTargetFormat
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
 
 
-#### - MaxSubStreams
+### -field MaxSubStreams
 
 [in] The maximum number of video substreams that can be sent to the video processing device. If this value is set to zero, the device never receives any video substreams.
 
 
-#### - hVideoProcess
+### -field hVideoProcess
 
 [in/out] A handle to the video processing device. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the video processing device in subsequent calls.
 

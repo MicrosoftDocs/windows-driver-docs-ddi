@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 663c0543-7059-4fb7-be3d-57edbba6bf83
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportwriteregisterbufferushort, scsiprt_300e2355-e8b2-4341-912d-a24954568824.xml, ScsiPortWriteRegisterBufferUshort, srb/ScsiPortWriteRegisterBufferUshort, ScsiPortWriteRegisterBufferUshort routine [Storage Devices]
+ms.keywords: ScsiPortWriteRegisterBufferUshort, storage.scsiportwriteregisterbufferushort, scsiprt_300e2355-e8b2-4341-912d-a24954568824.xml, ScsiPortWriteRegisterBufferUshort routine [Storage Devices], srb/ScsiPortWriteRegisterBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortWriteRegisterBufferUshort(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer containing the data to be written.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of USHORT values to be transferred to the HBA.
 

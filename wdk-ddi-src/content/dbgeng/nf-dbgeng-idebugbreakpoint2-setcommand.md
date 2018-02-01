@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetCommand method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], SetCommand method, IDebugBreakpoint2, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint::SetCommand, debugger.setcommand, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, dbgeng/IDebugBreakpoint::SetCommand, dbgeng/IDebugBreakpoint2::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint interface, SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetCommand
+ms.keywords: dbgeng/IDebugBreakpoint2::SetCommand, SetCommand, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, IDebugBreakpoint::SetCommand, IDebugBreakpoint interface [Windows Debugging], SetCommand method, dbgeng/IDebugBreakpoint::SetCommand, IDebugBreakpoint2, debugger.setcommand, SetCommand method [Windows Debugging], IDebugBreakpoint interface, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint2::SetCommand, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging], IDebugBreakpoint2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT SetCommand(
 
 
 
-#### - Command [in]
+### -param Command [in]
 
 The command string that is executed when the breakpoint is triggered.
 

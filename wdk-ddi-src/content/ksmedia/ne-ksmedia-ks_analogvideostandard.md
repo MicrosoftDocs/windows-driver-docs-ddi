@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 33efef2f-0734-416e-9f89-394a3dd344b8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_AnalogVideo_SECAM_K1, KS_AnalogVideo_PAL_H, ksmedia/KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_SECAM_K, KS_AnalogVideo_PAL_D, KS_AnalogVideo_SECAM_D, KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_SECAM_D, KS_AnalogVideo_SECAM_G, ksmedia/KS_AnalogVideo_PAL_I, KS_AnalogVideo_SECAM_K1, ksmedia/KS_AnalogVideo_PAL_G, stream.ks_analogvideostandard, KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_SECAM_L, KS_AnalogVideo_SECAM_K, ksmedia/KS_AnalogVideo_SECAM_G, ksmedia/KS_AnalogVideo_PAL_M, ksmedia/KS_AnalogVideo_SECAM_B, KS_AnalogVideo_SECAM_L, vidcapstruct_90d60791-13e2-42ec-a641-6eee5bbf25fa.xml, ksmedia/KS_AnalogVideo_PAL_B, KS_AnalogVideoStandard enumeration [Streaming Media Devices], KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_None, KS_AnalogVideo_PAL_I, KS_AnalogVideo_PAL_N_COMBO, ksmedia/KS_AnalogVideo_NTSC_433, KS_AnalogVideo_PAL_B, KS_AnalogVideo_PAL_N, ksmedia/KS_AnalogVideo_SECAM_L1, KS_AnalogVideo_PAL_M, ksmedia/KS_AnalogVideo_NTSC_M_J, KS_AnalogVideo_None, ksmedia/KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_SECAM_B, KS_AnalogVideo_NTSC_M_J, KS_AnalogVideo_PAL_G, ksmedia/KS_AnalogVideo_PAL_N, ksmedia/KS_AnalogVideo_PAL_D, KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_NTSC_M, ksmedia/KS_AnalogVideoStandard, KS_AnalogVideo_SECAM_L1, KS_AnalogVideo_NTSC_M, ksmedia/KS_AnalogVideo_PAL_H
+ms.keywords: ksmedia/KS_AnalogVideo_SECAM_K1, KS_AnalogVideo_SECAM_L1, KS_AnalogVideo_PAL_G, KS_AnalogVideo_SECAM_L, KS_AnalogVideo_NTSC_M, vidcapstruct_90d60791-13e2-42ec-a641-6eee5bbf25fa.xml, KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_SECAM_L, KS_AnalogVideo_PAL_I, KS_AnalogVideo_NTSC_M_J, KS_AnalogVideo_None, ksmedia/KS_AnalogVideo_PAL_G, ksmedia/KS_AnalogVideo_None, KS_AnalogVideo_PAL_B, ksmedia/KS_AnalogVideo_PAL_N, KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_PAL_H, ksmedia/KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_SECAM_H, KS_AnalogVideoStandard enumeration [Streaming Media Devices], ksmedia/KS_AnalogVideoStandard, KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_PAL_M, ksmedia/KS_AnalogVideo_NTSC_433, KS_AnalogVideo_SECAM_D, ksmedia/KS_AnalogVideo_SECAM_K, ksmedia/KS_AnalogVideo_PAL_D, KS_AnalogVideo_SECAM_B, KS_AnalogVideo_SECAM_K, KS_AnalogVideo_PAL_H, KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_SECAM_L1, KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_SECAM_D, KS_AnalogVideo_PAL_N, ksmedia/KS_AnalogVideo_PAL_B, KS_AnalogVideo_PAL_D, ksmedia/KS_AnalogVideo_SECAM_B, ksmedia/KS_AnalogVideo_SECAM_G, ksmedia/KS_AnalogVideo_PAL_N_COMBO, stream.ks_analogvideostandard, KS_AnalogVideo_SECAM_K1, ksmedia/KS_AnalogVideo_PAL_I, KS_AnalogVideo_SECAM_G, ksmedia/KS_AnalogVideo_NTSC_M, ksmedia/KS_AnalogVideo_PAL_M
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,107 +87,107 @@ typedef enum  {
 
 
 
-#### - KS_AnalogVideo_None
+### -field KS_AnalogVideo_None
 
 Specifies a digital sensor.
 
 
-#### - KS_AnalogVideo_NTSC_M
+### -field KS_AnalogVideo_NTSC_M
 
 Specifies the National Television Standards Committee (NTSC) "M" standard, at 7.5 IRE for black.
 
 
-#### - KS_AnalogVideo_NTSC_M_J
+### -field KS_AnalogVideo_NTSC_M_J
 
 Specifies the NTSC "M" standard that is used in Japan, at 0 IRE for black.
 
 
-#### - KS_AnalogVideo_NTSC_433
+### -field KS_AnalogVideo_NTSC_433
 
 Specifies the NTSC 433 standard
 
 
-#### - KS_AnalogVideo_PAL_B
+### -field KS_AnalogVideo_PAL_B
 
 Specifies the Phase Alteration Line (PAL) "B" standard.
 
 
-#### - KS_AnalogVideo_PAL_D
+### -field KS_AnalogVideo_PAL_D
 
 Specifies the PAL "D" standard.
 
 
-#### - KS_AnalogVideo_PAL_G
+### -field KS_AnalogVideo_PAL_G
 
 Specifies the PAL "G" standard.
 
 
-#### - KS_AnalogVideo_PAL_H
+### -field KS_AnalogVideo_PAL_H
 
 Specifies the PAL "H" standard.
 
 
-#### - KS_AnalogVideo_PAL_I
+### -field KS_AnalogVideo_PAL_I
 
 Specifies the PAL "I" standard.
 
 
-#### - KS_AnalogVideo_PAL_M
+### -field KS_AnalogVideo_PAL_M
 
 Specifies the PAL "M" standard.
 
 
-#### - KS_AnalogVideo_PAL_N
+### -field KS_AnalogVideo_PAL_N
 
 Specifies the PAL "N" standard.
 
 
-#### - KS_AnalogVideo_PAL_60
+### -field KS_AnalogVideo_PAL_60
 
 Specifies the PAL-60 standard.
 
 
-#### - KS_AnalogVideo_SECAM_B
+### -field KS_AnalogVideo_SECAM_B
 
 Specifies the Systeme Electronic Pour Couleur Avec Memoire (SECAM) "B" standard.
 
 
-#### - KS_AnalogVideo_SECAM_D
+### -field KS_AnalogVideo_SECAM_D
 
 Specifies the SECAM "D" standard.
 
 
-#### - KS_AnalogVideo_SECAM_G
+### -field KS_AnalogVideo_SECAM_G
 
 Specifies the SECAM "G" standard.
 
 
-#### - KS_AnalogVideo_SECAM_H
+### -field KS_AnalogVideo_SECAM_H
 
 Specifies the SECAM "H" standard.
 
 
-#### - KS_AnalogVideo_SECAM_K
+### -field KS_AnalogVideo_SECAM_K
 
 Specifies the SECAM "K" standard.
 
 
-#### - KS_AnalogVideo_SECAM_K1
+### -field KS_AnalogVideo_SECAM_K1
 
 Specifies the SECAM "K1" standard.
 
 
-#### - KS_AnalogVideo_SECAM_L
+### -field KS_AnalogVideo_SECAM_L
 
 Specifies the SECAM "L" standard.
 
 
-#### - KS_AnalogVideo_SECAM_L1
+### -field KS_AnalogVideo_SECAM_L1
 
 Specifies the SECAM "L1" standard.
 
 
-#### - KS_AnalogVideo_PAL_N_COMBO
+### -field KS_AnalogVideo_PAL_N_COMBO
 
 Specifies the combination PAL "N" standard (Argentina).
 
@@ -201,9 +201,9 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_mode_caps_s.md">KSPROPERTY_TUNER_MODE_CAPS_S</a>
 
@@ -211,7 +211,7 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
 
  
 

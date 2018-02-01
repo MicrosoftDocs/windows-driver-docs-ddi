@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 63b2d9a3-7f8e-4c03-8c0c-a4555c27e39c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_99b91933-c8d3-4580-bd51-a6620defcf30.xml, KsCreateDefaultAllocatorEx, ks/KsCreateDefaultAllocatorEx, KsCreateDefaultAllocatorEx function [Streaming Media Devices], stream.kscreatedefaultallocatorex
+ms.keywords: ks/KsCreateDefaultAllocatorEx, KsCreateDefaultAllocatorEx, KsCreateDefaultAllocatorEx function [Streaming Media Devices], ksfunc_99b91933-c8d3-4580-bd51-a6620defcf30.xml, stream.kscreatedefaultallocatorex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS KsCreateDefaultAllocatorEx(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Contains the IRP with the allocator create request being handled.
 
 
-#### - InitializeContext [in, optional]
+### -param InitializeContext [in, optional]
 
 Optionally contains a context to use with an external allocator. This is only used as the initialization context to the optional InitializeAllocator callback when creating an allocator context. The parameter is not otherwise used. If an external allocator is not provided, this parameter must be set to <b>NULL</b>.
 
 
-#### - DefaultAllocate [in, optional]
+### -param DefaultAllocate [in, optional]
 
 Optionally contains an external allocate function that is used in place of the default pool allocation. If this is <b>NULL</b>, default allocation is used.
 
 
-#### - DefaultFree [in, optional]
+### -param DefaultFree [in, optional]
 
 Optionally contains an external free function that is used in place of the default pool allocation. If an external allocator is not provided, this parameter must be set to <b>NULL</b>.
 
 
-#### - InitializeAllocator [in, optional]
+### -param InitializeAllocator [in, optional]
 
 Optionally contains an external allocator initialization function to which the InitializeContext parameter is passed. This function is expected to return an allocator context based on the allocator framing. If an external allocator is not provided, this parameter must be set to <b>NULL</b>.
 
 
-#### - DeleteAllocator [in, optional]
+### -param DeleteAllocator [in, optional]
 
 Optionally contains an external allocator delete function that is used for external allocators.  If an external allocator is not provided, this parameter must be set to <b>NULL</b>.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8c29339-274e-410a-893d-328703d902c3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IO_RESOURCE_LIST, IO_RESOURCE_LIST, *PIO_RESOURCE_LIST, kernel.io_resource_list, _IO_RESOURCE_LIST, kstruct_b_2e2d049f-a7c9-4051-8fa7-639bf03b5aae.xml, PIO_RESOURCE_LIST, IO_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], wdm/PIO_RESOURCE_LIST
+ms.keywords: IO_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], *PIO_RESOURCE_LIST, PIO_RESOURCE_LIST, wdm/PIO_RESOURCE_LIST, kernel.io_resource_list, PIO_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], IO_RESOURCE_LIST, _IO_RESOURCE_LIST, wdm/IO_RESOURCE_LIST, kstruct_b_2e2d049f-a7c9-4051-8fa7-639bf03b5aae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _IO_RESOURCE_LIST {
 
 
 
-#### - Version
+### -field Version
 
 The version number of this structure. This value should be 1.
 
 
-#### - Revision
+### -field Revision
 
 The revision of this structure. This value should be 1.
 
 
-#### - Count
+### -field Count
 
 The number of elements in the <b>Descriptors</b> array.
 
 
-#### - Descriptors
+### -field Descriptors
 
 The first element in an array of one or more <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structures.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3305a9c-8107-4631-974b-fe85779ec8dc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY enumeration pointer, WdfIrqPriorityHigh, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityNormal, wdfinterrupt/WdfIrqPriorityUndefined, WdfIrqPriorityUndefined, wdfinterrupt/WdfIrqPriorityLow, PWDF_INTERRUPT_PRIORITY, wdf.wdf_interrupt_priority, kmdf.wdf_interrupt_priority, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityLow, wdfinterrupt/WdfIrqPriorityNormal"
+ms.keywords: wdf.wdf_interrupt_priority, WdfIrqPriorityHigh, WDF_INTERRUPT_PRIORITY, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, kmdf.wdf_interrupt_priority, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, WdfIrqPriorityUndefined, wdfinterrupt/WdfIrqPriorityLow, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityNormal, wdfinterrupt/WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY enumeration pointer, PWDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityUndefined, _WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityLow, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_INTERRUPT_PRIORITY {
 
 
 
-#### - WdfIrqPriorityUndefined
+### -field WdfIrqPriorityUndefined
 
 The relative priority of a device's interrupt is undefined.
 
 
-#### - WdfIrqPriorityLow
+### -field WdfIrqPriorityLow
 
 The device's interrupt has a relatively low priority, typically because the interrupt does not have to be serviced immediately.
 
 
-#### - WdfIrqPriorityNormal
+### -field WdfIrqPriorityNormal
 
 The device's interrupt priority is neither relatively low nor relatively high.
 
 
-#### - WdfIrqPriorityHigh
+### -field WdfIrqPriorityHigh
 
 The device's interrupt has a relatively high priority, typically because the interrupt must be serviced immediately.
 

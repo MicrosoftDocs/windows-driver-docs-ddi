@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f1651f9-4952-4e87-90fc-3f79948b8457
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId, UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, IWDFDeviceInitialize, IWDFDeviceInitialize::RetrieveDeviceInstanceId
+ms.keywords: UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, IWDFDeviceInitialize, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface, IWDFDeviceInitialize::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface, RetrieveDeviceInstanceId method, wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT RetrieveDeviceInstanceId(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the identifier of an instance of a device if the supplied buffer is non-<b>NULL</b> and <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> is successful. 
 
 
-#### - pdwSizeInChars [in, out]
+### -param pdwSizeInChars [in, out]
 
 A pointer to a variable that receives the number of characters, including the <b>NULL</b> character, in the string that <i>Buffer</i> points to.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d2349c45-eb88-4584-bbdd-b7c46601a1bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendRLS routine [Storage Devices], storage.hba_sendrls, HBA_SendRLS, hbaapi/HBA_SendRLS, fibreHBA_rtns_8a7d150c-eeba-4850-9a93-7a48096d6f22.xml
+ms.keywords: HBA_SendRLS, hbaapi/HBA_SendRLS, fibreHBA_rtns_8a7d150c-eeba-4850-9a93-7a48096d6f22.xml, HBA_SendRLS routine [Storage Devices], storage.hba_sendrls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ HBA_STATUS HBA_API HBA_SendRLS(
 
 
 
-#### - HbaHandle [in]
+### -param HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
 
 
-#### - HbaPortWWN [in]
+### -param HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local port through which the request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-#### - DestWWN [in]
+### -param DestWWN [in]
 
 Contains a 64-bit WWN that uniquely identifies the destination port to which the request is sent. 
 
 
-#### - pRspBuffer [out]
+### -param pRspBuffer [out]
 
 Pointer to a buffer that receives the output data of the RLS request, if the request succeeds. If the destination port rejects the request, this buffer holds the link service reject (LS_RJT) payload data. If the amount of returned data exceeds the buffer size specified in <i>pRspBufferSize</i>, the data is truncated to the buffer size<i>. </i>The payload data is in big-endian format (higher order bytes are in lower addresses). 
 
 
-#### - pRspBufferSize [in, out]
+### -param pRspBufferSize [in, out]
 
 Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. A size of 28 bytes is sufficient for the largest response.
 
@@ -155,9 +155,9 @@ Returned if an unspecified error occurred that prevented the execution of the RL
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

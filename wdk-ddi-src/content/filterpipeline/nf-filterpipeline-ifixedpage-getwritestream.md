@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a095d51-b727-4d89-aa7c-f43998db4c2e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetWriteStream method [Print Devices], filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, GetWriteStream, print.ifixedpage_getwritestream, IFixedPage interface [Print Devices], GetWriteStream method, IFixedPage, GetWriteStream method [Print Devices], IFixedPage interface, IFixedPage::GetWriteStream, filterpipeline/IFixedPage::GetWriteStream
+ms.keywords: IFixedPage, IFixedPage::GetWriteStream, GetWriteStream, print.ifixedpage_getwritestream, filterpipeline/IFixedPage::GetWriteStream, IFixedPage interface [Print Devices], GetWriteStream method, filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices], IFixedPage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetWriteStream(
 
 
 
-#### - ppWriteStream [out]
+### -param ppWriteStream [out]
 
 The stream that the filter should use to write page markup to send data.
 

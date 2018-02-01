@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D09A124A-82F6-4B0A-B60F-E60EB54B0EC1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], UDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, buses.udecx_usb_device_plug_in_options, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ms.keywords: PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, buses.udecx_usb_device_plug_in_options, _UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _UDECX_USB_DEVICE_PLUG_IN_OPTIONS {
 
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - Usb20PortNumber
+### -field Usb20PortNumber
 
 The USB 2.0 port number.
 
 
-#### - Usb30PortNumber
+### -field Usb30PortNumber
 
 The USB 2.0 port number.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 448dc408-c47f-4c8b-8baf-a831c69c3020
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Read method [Audio Devices], Read method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream::Read, IMiniportMidiStream interface [Audio Devices], Read method, audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, IMiniportMidiStream, portcls/IMiniportMidiStream::Read, audio.iminiportmidistream_read, Read
+ms.keywords: IMiniportMidiStream interface [Audio Devices], Read method, audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, IMiniportMidiStream, Read method [Audio Devices], IMiniportMidiStream interface, Read, Read method [Audio Devices], portcls/IMiniportMidiStream::Read, IMiniportMidiStream::Read, audio.iminiportmidistream_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS Read(
 
 
 
-#### - BufferAddress [in]
+### -param BufferAddress [in]
 
 Specifies the address of a caller-allocated buffer. The method copies the incoming MIDI data from the device to the buffer. The allocated size of this buffer must be greater than or equal to <i>BufferLength</i>.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 Specifies the length in bytes of the buffer pointed to by <i>BufferAddress</i>.
 
 
-#### - BytesRead [out]
+### -param BytesRead [out]
 
 Output pointer to a caller-allocated variable into which the method writes a count specifying the actual number of bytes successfully read from the device into the buffer.
 
@@ -121,9 +121,9 @@ The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536708">IMiniportMidiStream::Write</a>
-
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536708">IMiniportMidiStream::Write</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging], StartTail method, StartTail method [Windows Debugging], ExtRemoteList::StartTail, StartTail method [Windows Debugging], ExtRemoteList class, StartTail, debugger.extremotelist_starttail, EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml
+ms.keywords: StartTail, ExtRemoteList::StartTail, StartTail method [Windows Debugging], ExtRemoteList class, debugger.extremotelist_starttail, StartTail method [Windows Debugging], ExtRemoteList, ExtRemoteList class [Windows Debugging], StartTail method, EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

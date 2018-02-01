@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c7863713-850f-4516-aec5-9e851c36cf52
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Purge method, IWDFIoQueue interface, IWDFIoQueue interface, Purge method, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, Purge, umdf.iwdfioqueue_purge, wudfddi/IWDFIoQueue::Purge, Purge method, IWDFIoQueue, IWDFIoQueue::Purge, wdf.iwdfioqueue_purge
+ms.keywords: IWDFIoQueue::Purge, wudfddi/IWDFIoQueue::Purge, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, Purge method, IWDFIoQueue interface, Purge method, Purge method, IWDFIoQueue interface, Purge, umdf.iwdfioqueue_purge, wdf.iwdfioqueue_purge, IWDFIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void Purge(
 
 
 
-#### - pPurgeComplete [in, optional]
+### -param pPurgeComplete [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a> interface whose method the framework calls to deliver queue state to the driver. The framework calls the method after all requests are canceled. This parameter is optional and can be <b>NULL</b>.
 
@@ -113,11 +113,11 @@ The driver should ensure that only one of the following methods is in progress a
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
 

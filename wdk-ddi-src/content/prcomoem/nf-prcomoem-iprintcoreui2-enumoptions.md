@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9ae20927-6ef4-4566-939c-967ce1d99874
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2::EnumOptions, print.iprintcoreui2_enumoptions, IPrintCoreUI2, print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml, prcomoem/IPrintCoreUI2::EnumOptions, EnumOptions method [Print Devices], IPrintCoreUI2 interface, EnumOptions, IPrintCoreUI2 interface [Print Devices], EnumOptions method, EnumOptions method [Print Devices]
+ms.keywords: EnumOptions, EnumOptions method [Print Devices], IPrintCoreUI2 interface, EnumOptions method [Print Devices], print.iprintcoreui2_enumoptions, print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml, IPrintCoreUI2 interface [Print Devices], EnumOptions method, IPrintCoreUI2, prcomoem/IPrintCoreUI2::EnumOptions, IPrintCoreUI2::EnumOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,34 +73,34 @@ HRESULT EnumOptions(
 
 
 
-#### - poemuiobj [in]
+### -param poemuiobj [in]
 
 Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-#### - pszFeatureKeyword [in]
+### -param pszFeatureKeyword [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string specifying a feature keyword whose options are requested.
 
 
-#### - pmszOptionList [out]
+### -param pmszOptionList [out]
 
 Pointer to a caller-supplied buffer that receives a NULL-delimited list, in MULTI_SZ format, containing the option keywords for the feature keyword pointed to by <i>pszFeatureKeyword</i>. This list is terminated with two null characters. 
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the option list without having the list filled in.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszOptionList</i>.
 
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the option list.
 
@@ -194,9 +194,9 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
+
+<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
  
 

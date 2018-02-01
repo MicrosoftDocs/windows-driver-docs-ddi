@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsSetInformationFile, stream.kssetinformationfile, KsSetInformationFile function [Streaming Media Devices], KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml
+ms.keywords: ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices], stream.kssetinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsSetInformationFile(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Specifies the file object to set the standard information on.
 
 
-#### - FileInformation [in]
+### -param FileInformation [in]
 
 Indicates the place in which to put the file information. The file information is assumed to be a valid or probed address.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the correct length of the <i>FileInformation</i> buffer.
 
 
-#### - FileInformationClass [in]
+### -param FileInformationClass [in]
 
 Specifies the class of information being set.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 10EB0C86-915F-4C24-ADBE-1D8E8DD8ECB6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UFX_ENDPOINT_CALLBACKS_INIT, UFX_ENDPOINT_CALLBACKS_INIT function [Buses], ufxclient/UFX_ENDPOINT_CALLBACKS_INIT, buses.ufx_endpoint_callbacks_init
+ms.keywords: ufxclient/UFX_ENDPOINT_CALLBACKS_INIT, UFX_ENDPOINT_CALLBACKS_INIT function [Buses], UFX_ENDPOINT_CALLBACKS_INIT, buses.ufx_endpoint_callbacks_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ FORCEINLINE void UFX_ENDPOINT_CALLBACKS_INIT(
 
 
 
-#### - Callbacks [out]
+### -param Callbacks [out]
 
 A pointer to the <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure.
 

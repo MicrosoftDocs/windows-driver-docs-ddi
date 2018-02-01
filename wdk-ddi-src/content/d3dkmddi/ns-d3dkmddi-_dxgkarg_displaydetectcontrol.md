@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], _DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol
+ms.keywords: display.dxgkarg_displaydetectcontrol, PDXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL, _DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,12 +75,12 @@ typedef struct _DXGKARG_DISPLAYDETECTCONTROL {
  
 
 
-#### - Type
+### -field Type
 
 Detection action type requested.
 
 
-#### - NonDestructiveOnly
+### -field NonDestructiveOnly
 
 Only used for polling the types of requests.
 If TRUE, the driver should attempt to poll the specified target(s) without causing any visual artifacts. 
@@ -88,7 +88,7 @@ If FALSE, the driver should perform any action necessary to detect the status of
 
 
 
-#### - Reserved
+### -field Reserved
 
 This value is reserved for system use.
 

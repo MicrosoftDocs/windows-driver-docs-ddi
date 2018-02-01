@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B5ADCD5D-301C-4B02-A4B2-90A81A5FBBC9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3D12DDICB_RECLAIMALLOCATIONS2, display.d3d12ddicb_reclaimallocations2, D3D12DDICB_RECLAIMALLOCATIONS2, D3D12DDICB_RECLAIMALLOCATIONS2 structure [Display Devices], d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2"
+ms.keywords: D3D12DDICB_RECLAIMALLOCATIONS2, D3D12DDICB_RECLAIMALLOCATIONS2 structure [Display Devices], _D3D12DDICB_RECLAIMALLOCATIONS2, d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2, display.d3d12ddicb_reclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _D3D12DDICB_RECLAIMALLOCATIONS2 {
 
 
 
-#### - NumAllocations
+### -field NumAllocations
 
 [in]  The number of items in <b>pDiscarded</b> and whichever of <b>pResources</b> or <b>HandleList</b> is non-NULL.
 
 
-#### - HandleList
+### -field HandleList
 
 [in]  An array of allocation handles. If non-NULL, <b>pResources</b> must be NULL.
 
 
-#### - pDiscarded
+### -field pDiscarded
 
 [out] Optional array of boolean values specifying whether each resource or allocation was discarded.
 
 
-#### - PagingFenceValue
+### -field PagingFenceValue
 
 [out] The paging fence to synchronize against before submitting work to the GPU which
                                                                            references any of the resources or allocations in the provided arrays

@@ -74,7 +74,7 @@ NTSTATUS APIENTRY WskAbortEvent(
 
 
 
-#### - SocketContext [in, optional]
+### -param SocketContext [in, optional]
 
 A pointer to the socket context for the listening socket on which the incoming connection request
      was received. The WSK application provided this pointer to the WSK subsystem when it called the 
@@ -82,7 +82,7 @@ A pointer to the socket context for the listening socket on which the incoming c
      socket.
 
 
-#### - InspectID [in]
+### -param InspectID [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure. The contents of
@@ -140,8 +140,8 @@ If the WSK application calls the
 A WSK application can enable conditional accept mode on a listening socket by enabling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <mshelp:link keywords="netvista.listening_for_and_accepting_incoming_connections" tabindex="0">Listening for and
-    Accepting Incoming Connections</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
+    Accepting Incoming Connections</a>.
 
 The WSK subsystem calls a WSK application's 
     <i>WskAbortEvent</i> event callback function at IRQL &lt;= DISPATCH_LEVEL.
@@ -152,17 +152,17 @@ A WSK application's <i>WskAbortEvent</i> event callback function must not wait f
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
 
 <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
 
  
 

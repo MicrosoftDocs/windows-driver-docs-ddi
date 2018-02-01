@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], PWWAN_REGISTRATION_STATE, wwan/PWWAN_REGISTRATION_STATE, WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, *PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_REGISTRATION_STATE, _WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE, netvista.wwan_registration_state
+ms.keywords: wwan/PWWAN_REGISTRATION_STATE, netvista.wwan_registration_state, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], *PWWAN_REGISTRATION_STATE, WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, _WWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,14 +75,14 @@ typedef struct _WWAN_REGISTRATION_STATE {
 
 
 
-#### - uNwError
+### -field uNwError
 
 A network specific error, in the event of a registration failure. For more information about this
      member, see the following 
      "Remarks" section.
 
 
-#### - RegisterState
+### -field RegisterState
 
 The registration state of the device. For a list of defined values, see 
      <a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>.
@@ -96,13 +96,13 @@ The
      <b>WwanRegisterStateRoaming</b>.
 
 
-#### - RegisterMode
+### -field RegisterMode
 
 The registration mode of the device. For a list of defined values, see 
      <a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>.
 
 
-#### - ProviderId
+### -field ProviderId
 
 A NULL-terminated numeric (0-9) string that represents the network provider identity.
      
@@ -133,7 +133,7 @@ CDMA 1xRTT providers must be set to WWAN_CDMA_DEFAULT_PROVIDER_ID if the provide
      available.
 
 
-#### - ProviderName
+### -field ProviderName
 
 A NULL-terminated string that represents the network provider's name. This member is limited to,
      at most, WWAN_PROVIDERNAME_LEN characters.
@@ -149,7 +149,7 @@ Miniport drivers should specify a <b>NULL</b> string for devices that do not hav
      information.
 
 
-#### - RoamingText
+### -field RoamingText
 
 A NULL-terminated string to inform the user that the device is roaming. This member is limited to
      at most WWAN_ROAMTEXT_LEN characters.
@@ -160,7 +160,7 @@ This text should provide additional information to the user when the registratio
      <b>WwanRegisterStateRoaming</b>. This member is optional.
 
 
-#### - WwanRegFlags
+### -field WwanRegFlags
 
 Registration flags.
 <table>
@@ -201,7 +201,7 @@ Iindicates that the MB device manages its own packet context. The MB Service wil
 </table> 
 
 
-#### - CurrentCellularClass
+### -field CurrentCellularClass
 
 The current cellular class of the registered network. For networks that only support a single cellular class this member should be set to that cellular class. For multi-mode capable networks the miniport driver sends  NDIS_STATUS_WWAN_REGISTER_STATE notifications to the MB service when the network changes its cellular class.
 
@@ -267,11 +267,11 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
 
 <a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>
-
-<a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
 
  
 

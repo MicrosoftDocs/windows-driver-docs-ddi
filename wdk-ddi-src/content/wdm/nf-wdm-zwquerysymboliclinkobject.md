@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtQuerySymbolicLinkObject, kernel.zwquerysymboliclinkobject, wdm/ZwQuerySymbolicLinkObject, k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, ZwQuerySymbolicLinkObject, NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ZwQuerySymbolicLinkObject, wdm/NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], ZwQuerySymbolicLinkObject, NtQuerySymbolicLinkObject, kernel.zwquerysymboliclinkobject, k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS ZwQuerySymbolicLinkObject(
 
 
 
-#### - LinkHandle [in]
+### -param LinkHandle [in]
 
 Handle to the symbolic-link object that you want to query. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>. 
 
 
-#### - LinkTarget [in, out]
+### -param LinkTarget [in, out]
 
 Pointer to an initialized Unicode string that receives the target of the symbolic link.
 
 
-#### - ReturnedLength [out, optional]
+### -param ReturnedLength [out, optional]
 
  contains the maximum number of bytes to copy into the Unicode string at <i>LinkTarget</i>. On output, the unsigned long integer contains the length of the Unicode string naming the target of the symbolic link. 
 
@@ -105,9 +105,9 @@ If <b>ZwQuerySymbolicLinkObject</b> returns STATUS_BUFFER_TOO_SMALL drivers shou
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

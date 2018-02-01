@@ -76,7 +76,7 @@ void NTAPI completionFn(
 
 
 
-#### - *context [in]
+### -param *context [in]
 
 A pointer to the 
      <i>completionContext</i> parameter of one of the 
@@ -84,7 +84,7 @@ A pointer to the
      by the callout driver.
 
 
-#### - *netBufferList [in, out]
+### -param *netBufferList [in, out]
 
 The pointer passed in the 
      <i>netBufferList</i> parameter of one of the 
@@ -92,29 +92,13 @@ The pointer passed in the
      by the callout driver.
 
 
-#### - dispatchLevel [in]
+### -param dispatchLevel [in]
 
 A value that indicates the IRQL at which the 
      <i>completionFn</i> callout function is being called. If this parameter is <b>TRUE</b>, the 
      <i>completionFn</i> callout function is being called at IRQL = DISPATCH_LEVEL. If this parameter is
      <b>FALSE</b>, the 
      <i>completionFn</i> callout function is being called at an IRQL &lt; DISPATCH_LEVEL.
-
-
-#### - context [in]
-
-A pointer to the 
-     <i>completionContext</i> parameter of one of the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> called
-     by the callout driver.
-
-
-#### - netBufferList [in, out]
-
-The pointer passed in the 
-     <i>netBufferList</i> parameter of one of the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> called
-     by the callout driver.
 
 
 ## -returns
@@ -165,23 +149,23 @@ The filter engine calls a callout's
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
  
 

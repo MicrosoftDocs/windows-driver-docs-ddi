@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c829cc26-e21c-46e7-a70f-fa691a6c52e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PCM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA, kernel.cm_serial_device_data, wdm/CM_SERIAL_DEVICE_DATA, _CM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml, *PCM_SERIAL_DEVICE_DATA
+ms.keywords: kernel.cm_serial_device_data, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture], kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml, _CM_SERIAL_DEVICE_DATA, wdm/CM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA, wdm/PCM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], *PCM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _CM_SERIAL_DEVICE_DATA {
 
 
 
-#### - Version
+### -field Version
 
 The version number of this structure.
 
 
-#### - Revision
+### -field Revision
 
 The revision of this structure.
 
 
-#### - BaudClock
+### -field BaudClock
 
 The clock baud rate, in megahertz, at which data is transferred.
 
@@ -89,9 +89,9 @@ The clock baud rate, in megahertz, at which data is transferred.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
-
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
  
 

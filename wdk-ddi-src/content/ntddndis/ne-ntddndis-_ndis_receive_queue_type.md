@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ee28daf-2719-42bc-ab2e-6dcfa7f0e04b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_receive_queue_type, virtual_machine_queue_ref_b51e0e9c-353e-40a1-b466-3136db1fcdd9.xml, ntddndis/NdisReceiveQueueTypeMaximum, ntddndis/NDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE, NdisReceiveQueueTypeMaximum, NdisReceiveQueueTypeVMQueue, *PNDIS_RECEIVE_QUEUE_TYPE, _NDIS_RECEIVE_QUEUE_TYPE, ntddndis/PNDIS_RECEIVE_QUEUE_TYPE, ntddndis/NdisReceiveQueueTypeUnspecified, PNDIS_RECEIVE_QUEUE_TYPE, NdisReceiveQueueTypeUnspecified, NDIS_RECEIVE_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveQueueTypeVMQueue
+ms.keywords: NdisReceiveQueueTypeMaximum, NdisReceiveQueueTypeUnspecified, *PNDIS_RECEIVE_QUEUE_TYPE, ntddndis/PNDIS_RECEIVE_QUEUE_TYPE, _NDIS_RECEIVE_QUEUE_TYPE, netvista.ndis_receive_queue_type, ntddndis/NdisReceiveQueueTypeVMQueue, NDIS_RECEIVE_QUEUE_TYPE, ntddndis/NDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_b51e0e9c-353e-40a1-b466-3136db1fcdd9.xml, ntddndis/NdisReceiveQueueTypeUnspecified, ntddndis/NdisReceiveQueueTypeMaximum, PNDIS_RECEIVE_QUEUE_TYPE, PNDIS_RECEIVE_QUEUE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisReceiveQueueTypeVMQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _NDIS_RECEIVE_QUEUE_TYPE {
 
 
 
-#### - NdisReceiveQueueTypeUnspecified
+### -field NdisReceiveQueueTypeUnspecified
 
 The receive queue type is not specified.
 
 
-#### - NdisReceiveQueueTypeVMQueue
+### -field NdisReceiveQueueTypeVMQueue
 
 This value specifies a virtual machine (VM) receive queue.
 
 
-#### - NdisReceiveQueueTypeMaximum
+### -field NdisReceiveQueueTypeMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -90,10 +90,10 @@ The maximum value for this enumeration. This value might change in future versio
 
 The NDIS_RECEIVE_QUEUE_TYPE enumeration is used in the 
     <b>QueueType</b> member of the 
-    <mshelp:link keywords="netvista.ndis_receive_queue_parameters" tabindex="0"><b>
-    NDIS_RECEIVE_QUEUE_PARAMETERS</b></mshelp:link> and 
-    <mshelp:link keywords="netvista.ndis_receive_queue_info" tabindex="0"><b>
-    NDIS_RECEIVE_QUEUE_INFO</b></mshelp:link> structures.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">
+    NDIS_RECEIVE_QUEUE_PARAMETERS</a> and 
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">
+    NDIS_RECEIVE_QUEUE_INFO</a> structures.
 
 
 

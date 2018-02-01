@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEUNMAPIOSPACE, WdfDeviceUnmapIoSpace function, WdfDeviceUnmapIoSpace, wdfdevice/WdfDeviceUnmapIoSpace, wdf.wdfdeviceunmapiospace
+ms.keywords: WdfDeviceUnmapIoSpace function, PFN_WDFDEVICEUNMAPIOSPACE, WdfDeviceUnmapIoSpace, wdfdevice/WdfDeviceUnmapIoSpace, wdf.wdfdeviceunmapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,19 +72,19 @@ void WdfDeviceUnmapIoSpace(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - PseudoBaseAddress [in]
+### -param PseudoBaseAddress [in]
 
 The address of a location that receives a pointer to the pseudo base address.
 
 
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
@@ -109,9 +109,9 @@ If a driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">Wdf
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
-
 <a href="https://msdn.microsoft.com/E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18">IWDFDevice3::UnmapIoSpace</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e58403d4-aacc-4d22-98e5-86db1a69c54a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GdiEndDocEMF, winppi/GdiEndDocEMF, print.gdienddocemf, GdiEndDocEMF function [Print Devices], gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml
+ms.keywords: winppi/GdiEndDocEMF, GdiEndDocEMF, gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml, GdiEndDocEMF function [Print Devices], print.gdienddocemf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ BOOL GdiEndDocEMF(
 
 
 
-#### - SpoolFileHandle
+### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 

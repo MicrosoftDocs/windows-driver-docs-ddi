@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildAddress function [Installable File System Drivers], rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, ifsk.rxcebuildaddress, RxCeBuildAddress, rxce/RxCeBuildAddress
+ms.keywords: rxce/RxCeBuildAddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, ifsk.rxcebuildaddress, RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RxCeBuildAddress(
 
 
 
-#### - pAddress [in, out]
+### -param pAddress [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RDBSS connection engine address structure. On output when this call is successful, the data members in the RXCE_ADDRESS structure will be properly initialized.
 
 
-#### - pTransport [in]
+### -param pTransport [in]
 
 A pointer to the transport with which this address is to be associated.
 
 
-#### - pTransportAddress [in]
+### -param pTransportAddress [in]
 
 A pointer to the transport address to be associated with the binding.
 
 
-#### - pHandler [in]
+### -param pHandler [in]
 
 A pointer to the event handler associated with the registration.
 
 
-#### - pEventContext [in]
+### -param pEventContext [in]
 
 A pointer to the context parameter to be passed back to the event handler.
 

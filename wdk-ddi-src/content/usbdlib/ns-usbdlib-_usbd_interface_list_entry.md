@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9b729c52-b03b-4b53-ae1a-9a025585ba7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY, _USBD_INTERFACE_LIST_ENTRY, usbdlib/USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY, buses.usbd_interface_list_entry, USBD_INTERFACE_LIST_ENTRY structure [Buses], PUSBD_INTERFACE_LIST_ENTRY structure pointer [Buses], usbstrct_f42a04be-c6c2-44c6-ae18-725929020420.xml, usbdlib/PUSBD_INTERFACE_LIST_ENTRY
+ms.keywords: buses.usbd_interface_list_entry, PUSBD_INTERFACE_LIST_ENTRY structure pointer [Buses], PUSBD_INTERFACE_LIST_ENTRY, usbstrct_f42a04be-c6c2-44c6-ae18-725929020420.xml, usbdlib/PUSBD_INTERFACE_LIST_ENTRY, usbdlib/USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY structure [Buses], _USBD_INTERFACE_LIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _USBD_INTERFACE_LIST_ENTRY {
 
 
 
-#### - InterfaceDescriptor
+### -field InterfaceDescriptor
 
 Pointer to a <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that describes the interface to be added to the configuration request.
 
 
-#### - Interface
+### -field Interface
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure that describes the properties and settings of the interface pointed to by <i>InterfaceDescriptor</i>.
 

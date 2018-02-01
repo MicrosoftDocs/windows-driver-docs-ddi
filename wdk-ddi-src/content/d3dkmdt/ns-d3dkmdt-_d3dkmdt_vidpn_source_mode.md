@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 763db6bb-8991-406d-a1d4-8ad50e32fee1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VIDPN_SOURCE_MODE, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE, _D3DKMDT_VIDPN_SOURCE_MODE, D3DKMDT_VIDPN_SOURCE_MODE structure [Display Devices], DmStructs_0e8655c2-a85f-411d-a791-4c85e5c7d52c.xml, display.d3dkmdt_vidpn_source_mode
+ms.keywords: DmStructs_0e8655c2-a85f-411d-a791-4c85e5c7d52c.xml, D3DKMDT_VIDPN_SOURCE_MODE structure [Display Devices], d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE, _D3DKMDT_VIDPN_SOURCE_MODE, display.d3dkmdt_vidpn_source_mode, D3DKMDT_VIDPN_SOURCE_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,17 +82,17 @@ typedef struct _D3DKMDT_VIDPN_SOURCE_MODE {
  
 
 
-#### - Id
+### -field Id
 
 An integer that identifies the source mode. The identifier is generated and filled in by the VidPN manager. However, the display miniport driver has the option of overwriting the identifier. For more information, see <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a>.
 
 
-#### - Type
+### -field Type
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_source_mode_type.md">D3DKMDT_VIDPN_SOURCE_MODE_TYPE</a> enumerator that indicates the mode type: graphics or text.
 
 
-#### - Format
+### -field Format
 
 A union that contains information about either the graphics rendering format or the text format in the following members. 
 
@@ -117,11 +117,11 @@ For more information about video present sources and VidPN source modes, see <a 
 
 ## -see-also
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPN Source Mode Set Interface</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a>
 
  
 

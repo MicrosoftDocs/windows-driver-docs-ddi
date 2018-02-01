@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3884eb16-56a0-4b48-abf3-a74794b2c996
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_7cd9a091-c100-4b0c-9ea0-9b831407d5a1.xml, KeQueryActiveProcessorCountEx routine [Kernel-Mode Driver Architecture], KeQueryActiveProcessorCountEx, wdm/KeQueryActiveProcessorCountEx, kernel.kequeryactiveprocessorcountex
+ms.keywords: k105_7cd9a091-c100-4b0c-9ea0-9b831407d5a1.xml, KeQueryActiveProcessorCountEx, wdm/KeQueryActiveProcessorCountEx, KeQueryActiveProcessorCountEx routine [Kernel-Mode Driver Architecture], kernel.kequeryactiveprocessorcountex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG KeQueryActiveProcessorCountEx(
 
 
 
-#### - GroupNumber [in]
+### -param GroupNumber [in]
 
 The group number. If a multiprocessor system contains <i>n</i> groups, valid group numbers range from 0 to <i>n</i>-1. To count all active processors in all groups in the system, set this parameter to ALL_PROCESSOR_GROUPS, which is defined in header files Winnt.h and Ntdef.h. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4314d3f9-2457-41f6-844c-197e5d05b0fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_net_buffer_list_8021q_info, PNDIS_NET_BUFFER_LIST_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_8021Q_INFO, *PNDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis_netbuf_structures_ref_6581b8a1-543e-46fe-a513-f8b2b6780cdd.xml, ndis/PNDIS_NET_BUFFER_LIST_8021Q_INFO
+ms.keywords: PNDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO, PNDIS_NET_BUFFER_LIST_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_NET_BUFFER_LIST_8021Q_INFO, *PNDIS_NET_BUFFER_LIST_8021Q_INFO, ndis_netbuf_structures_ref_6581b8a1-543e-46fe-a513-f8b2b6780cdd.xml, netvista.ndis_net_buffer_list_8021q_info, ndis/PNDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_8021Q_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,35 +83,12 @@ typedef struct _NDIS_NET_BUFFER_LIST_8021Q_INFO {
 
 
 
-#### - TagHeader
+### -field TagHeader
 
 A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO. 802.3 Ethernet
       miniport drivers use 
       <b>TagHeader</b> to access 802.1Q information. 
       <b>TagHeader</b> is a bit field with the following members:
-
-
-#### UserPriority
-
-Specifies 802.1p priority information that is used to establish packet priority in shared-media
-       802 networks. The bits in this member specify an 802.1p priority value.
-
-
-#### CanonicalFormatId
-
-This member should be set to zero, which indicates that all MAC address information present in a
-       packet is in canonical format (that is, simplest form).
-
-
-#### VlanId
-
-Identifies the VLAN that a packet belongs to. Outgoing packets are marked with the VLAN
-       identifier.
-
-
-#### Reserved
-
-This member is reserved and should be set to zero.
 
 
 ### -field TagHeader.UserPriority
@@ -137,45 +114,12 @@ Identifies the VLAN that a packet belongs to. Outgoing packets are marked with t
 This member is reserved and should be set to zero.
 
 
-#### - WLanTagHeader
+### -field WLanTagHeader
 
 A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO. Native 802.11
       miniport drivers use 
       <b>WLanTagHeader</b> to access 802.1Q information. 
       <b>WLanTagHeader</b> is a bit field with the following members:
-
-
-#### UserPriority
-
-Specifies 802.1p priority information that is used to establish packet priority in shared-media
-       802 networks. The bits in this member specify an 802.1p priority value.
-
-
-#### CanonicalFormatId
-
-This member should be set to zero, which indicates that all MAC address information present in a
-       packet is in canonical format (that is, simplest form).
-
-
-#### VlanId
-
-Identifies the VLAN that a packet belongs to. Outgoing packets are marked with the VLAN
-       identifier.
-
-
-#### WMMInfo
-
-A wireless multimedia (WMM) integer value that is the same as the traffic identifier (TID) fields
-        that appear in certain frames that are used to deliver and to control the delivery of 802.1Q Quality
-        of Service (QoS) data. The values 0 through 7 represent QoS user priorities (UPs) for the MAC service
-        data units (MSDUs). The values 8 through 15 are reserved. Therefore, the higest bit in 
-        <b>WMMInfo</b> must be zero.
-<div class="alert"><b>Note</b>  Traffic specification (TSPEC) and traffic classification (TCLAS) are not
-        supported.</div><div> </div>
-
-#### Reserved
-
-This member is reserved and should be set to zero.
 
 
 ### -field WLanTagHeader.UserPriority
@@ -211,7 +155,7 @@ A wireless multimedia (WMM) integer value that is the same as the traffic identi
 This member is reserved and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO. 
       <b>Value</b> contains a pointer value that is type-compatible with the 
@@ -253,8 +197,8 @@ For transmit operations, the miniport driver must check for NDIS_NET_BUFFER_LIST
 For receive operations, the miniport driver must remove the 802.1Q tag from the Ethernet frame and
       map the 802.1Q tag information into the NDIS_NET_BUFFER_LIST_8021Q_INFO OOB data in the NET_BUFFER_LIST
       structure before indicating the data to NDIS with the 
-      <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-      NdisMIndicateReceiveNetBufferLists</b></mshelp:link> function.
+      <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+      NdisMIndicateReceiveNetBufferLists</a> function.
 
 </li>
 </ul>
@@ -264,8 +208,8 @@ For receive operations, the miniport driver must remove the 802.1Q tag from the 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

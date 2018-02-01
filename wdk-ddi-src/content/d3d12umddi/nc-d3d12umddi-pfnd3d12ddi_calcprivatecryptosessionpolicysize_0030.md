@@ -69,24 +69,19 @@ HRESULT APIENTRY* PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030 (
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - *pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to create a session policy.
 
 
-#### - hDrvCryptoSession
+### -param hDrvCryptoSession
 
 The information for the driver session.
-
-
-#### - pArgs [in]
-
-The arguments used to create a session policy.
 
 
 ## -returns

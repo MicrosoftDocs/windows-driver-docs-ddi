@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dce67b78-a5e0-4664-b183-f462bcd773c8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreads method, IDebugSystemObjects_fece8f3e-8d85-492a-b1f8-beadc398613e.xml, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreads method, dbgeng/IDebugSystemObjects4::GetTotalNumberThreads, IDebugSystemObjects2 interface [Windows Debugging], GetTotalNumberThreads method, GetTotalNumberThreads method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4::GetTotalNumberThreads, dbgeng/IDebugSystemObjects2::GetTotalNumberThreads, GetTotalNumberThreads, IDebugSystemObjects2::GetTotalNumberThreads, dbgeng/IDebugSystemObjects::GetTotalNumberThreads, IDebugSystemObjects4, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects interface [Windows Debugging], GetTotalNumberThreads method, debugger.gettotalnumberthreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects::GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface
+ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetTotalNumberThreads method, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreads method, IDebugSystemObjects4::GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreads method, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects2::GetTotalNumberThreads, IDebugSystemObjects::GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects4, GetTotalNumberThreads method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface, debugger.gettotalnumberthreads, dbgeng/IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects2 interface [Windows Debugging], GetTotalNumberThreads method, dbgeng/IDebugSystemObjects2::GetTotalNumberThreads, dbgeng/IDebugSystemObjects::GetTotalNumberThreads, IDebugSystemObjects_fece8f3e-8d85-492a-b1f8-beadc398613e.xml, GetTotalNumberThreads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT GetTotalNumberThreads(
 
 
 
-#### - Total [out]
+### -param Total [out]
 
 Receives the total number of threads for all the processes in the current target.
 
 
-#### - LargestProcess [out]
+### -param LargestProcess [out]
 
 Receives the largest number of threads in any process for the current target.
 

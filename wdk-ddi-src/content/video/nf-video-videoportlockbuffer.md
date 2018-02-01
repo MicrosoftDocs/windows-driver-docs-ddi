@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba65d1b1-a720-4f21-8c6d-af70185c0c24
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, display.videoportlockbuffer, VideoPortLockBuffer function [Display Devices], VideoPortLockBuffer, video/VideoPortLockBuffer
+ms.keywords: VideoPortLockBuffer, VideoPortLockBuffer function [Display Devices], VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, display.videoportlockbuffer, video/VideoPortLockBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ PVOID VideoPortLockBuffer(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - BaseAddress [in]
+### -param BaseAddress [in]
 
 Specifies the virtual address of the buffer to be locked.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the length in bytes of the buffer to be locked.
 
 
-#### - Operation [in]
+### -param Operation [in]
 
 Specifies the type of operation for which the caller wants the access rights probed and the pages locked. The operation can be one of the following: <b>VpReadAccess</b>, <b>VpWriteAccess</b>, or <b>VpModifyAccess</b>.
 

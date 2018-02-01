@@ -77,14 +77,14 @@ NDIS_STATUS ProtocolCmModifyCallQoS(
 
 
 
-#### - CallMgrVcContext [in]
+### -param CallMgrVcContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS for its 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - CallParameters [in]
+### -param CallParameters [in]
 
 Pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> structure that contains
@@ -123,8 +123,8 @@ Indicates that the call manager successfully changed the parameters of the call 
 Indicates that the call manager will complete the request to modify the call parameters
        asynchronously. When the call manager has completed all operations necessary to modify the call
        parameters, it must call 
-       <mshelp:link keywords="netvista.ndiscmmodifycallqoscomplete" tabindex="0"><b>
-       NdisCmModifyCallQoSComplete</b></mshelp:link>.
+       <a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">
+       NdisCmModifyCallQoSComplete</a>.
 
 </td>
 </tr>
@@ -229,13 +229,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
+
 <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
  
 

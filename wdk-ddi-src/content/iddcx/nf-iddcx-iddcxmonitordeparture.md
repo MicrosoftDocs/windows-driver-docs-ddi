@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], iddcx/IddCxMonitorDeparture, display.iddcxmonitordeparture
+ms.keywords: iddcx/IddCxMonitorDeparture, display.iddcxmonitordeparture, IddCxMonitorDeparture method [Display Devices], IddCxMonitorDeparture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS IddCxMonitorDeparture(
 
 
 
-#### - MonitorObject [in]
+### -param MonitorObject [in]
 
 The monitor object that is departing
 

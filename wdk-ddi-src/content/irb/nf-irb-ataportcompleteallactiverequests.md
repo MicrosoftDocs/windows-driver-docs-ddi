@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportcompleteallactiverequests, AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests
+ms.keywords: storage.ataportcompleteallactiverequests, AtaPortCompleteAllActiveRequests, irb/AtaPortCompleteAllActiveRequests, atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, AtaPortCompleteAllActiveRequests routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ VOID AtaPortCompleteAllActiveRequests(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-#### - Target [in]
+### -param Target [in]
 
 Specifies the target identifier of the device.
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Specifies the logical unit number of the device.
 
 
-#### - IrbStatus [in]
+### -param IrbStatus [in]
 
 Specifies the status with which the requests will be completed.
 

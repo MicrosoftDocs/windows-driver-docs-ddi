@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 888f88db-2149-4da2-acdb-4bf88a5362dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI.pci_express_device_control_register, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], _PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER, pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], PCI_EXPRESS_DEVICE_CONTROL_REGISTER
+ms.keywords: PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], PCI.pci_express_device_control_register, _PCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,62 +88,68 @@ typedef union _PCI_EXPRESS_DEVICE_CONTROL_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.CorrectableErrorEnable
 
- 
+A single bit that indicates that reporting of correctable errors is enabled for the device.
 
 
 ### -field DUMMYSTRUCTNAME.NonFatalErrorEnable
 
- 
+A single bit that indicates that reporting of non-fatal uncorrectable errors is enabled for the device.
 
 
 ### -field DUMMYSTRUCTNAME.FatalErrorEnable
 
- 
+A single bit that indicates that reporting of non-fatal uncorrectable errors is enabled for the device.
 
 
 ### -field DUMMYSTRUCTNAME.UnsupportedRequestErrorEnable
 
- 
+A single bit that indicates that reporting of unsupported requests is enabled for the device.
 
 
 ### -field DUMMYSTRUCTNAME.EnableRelaxedOrder
 
- 
+A single bit that indicates that the device is permitted to set the relaxed ordering bit in the attributes field for any transactions that it initiates that do not require strong write ordering.
 
 
 ### -field DUMMYSTRUCTNAME.MaxPayloadSize
 
- 
+The maximum payload size for the device. Possible values are:
+
+
+
+This value must not exceed the maximum payload size that is specified in the PCIe device capabilities register of the PCIe capability structure.
 
 
 ### -field DUMMYSTRUCTNAME.ExtendedTagEnable
 
- 
+A single bit that indicates that the device is enabled to use an 8-bit Tag field in a PCIe transaction descriptor when the device is a requester. This bit can be set only if the PCIe device capabilities register of the PCIe capability structure indicates that the extended tag size is supported.
 
 
 ### -field DUMMYSTRUCTNAME.PhantomFunctionsEnable
 
- 
+A single bit that indicates that the device is enabled to use unused function numbers (phantom functions) to extend the number of outstanding transactions that are allowed for the device. This bit can be set only if the PCIe device capabilities register of the PCIe capability structure indicates that phantom functions are supported.
 
 
 ### -field DUMMYSTRUCTNAME.AuxPowerEnable
 
- 
+A single bit that indicates that the device is enabled to draw AUX power independent of power management events (PME) AUX power.
 
 
 ### -field DUMMYSTRUCTNAME.NoSnoopEnable
 
- 
+A single bit that indicates that the device is permitted to set the No Snoop bit in the Requester Attributes field of transactions that it initiates that do not require hardware enforced cache coherency.
 
 
 ### -field DUMMYSTRUCTNAME.MaxReadRequestSize
 
- 
+The maximum read request size for the device as a requester. Possible values are:
+
+
 
 
 ### -field DUMMYSTRUCTNAME.BridgeConfigRetryEnable
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME2
@@ -156,135 +162,69 @@ typedef union _PCI_EXPRESS_DEVICE_CONTROL_REGISTER {
  
 
 
-#### - AsUSHORT
+### -field AsUSHORT
 
 A USHORT representation of the contents of the <b>PCI_EXPRESS_DEVICE_CONTROL_REGISTER</b> structure.
 
 
-#### - CorrectableErrorEnable
-
-A single bit that indicates that reporting of correctable errors is enabled for the device.
-
-
-#### - NonFatalErrorEnable
-
-A single bit that indicates that reporting of non-fatal uncorrectable errors is enabled for the device.
-
-
-#### - FatalErrorEnable
-
-A single bit that indicates that reporting of non-fatal uncorrectable errors is enabled for the device.
-
-
-#### - UnsupportedRequestErrorEnable
-
-A single bit that indicates that reporting of unsupported requests is enabled for the device.
-
-
-#### - EnableRelaxedOrder
-
-A single bit that indicates that the device is permitted to set the relaxed ordering bit in the attributes field for any transactions that it initiates that do not require strong write ordering.
-
-
-#### - MaxPayloadSize
-
-The maximum payload size for the device. Possible values are:
-
-
-
-This value must not exceed the maximum payload size that is specified in the PCIe device capabilities register of the PCIe capability structure.
-
-
-#### MaxPayload128Bytes
-
-128 byte maximum payload size
-
-
-#### MaxPayload256Bytes
-
-256 byte maximum payload size
-
-
-#### MaxPayload512Bytes
-
-512 byte maximum payload size
-
-
-#### MaxPayload1024Bytes
+##### - MaxPayloadSize.MaxPayload1024Bytes
 
 1024 byte maximum payload size
 
 
-#### MaxPayload2048Bytes
+##### - MaxPayloadSize.MaxPayload128Bytes
+
+128 byte maximum payload size
+
+
+##### - MaxPayloadSize.MaxPayload2048Bytes
 
 2048 byte maximum payload size
 
 
-#### MaxPayload4096Bytes
+##### - MaxPayloadSize.MaxPayload256Bytes
+
+256 byte maximum payload size
+
+
+##### - MaxPayloadSize.MaxPayload4096Bytes
 
 4096 byte maximum payload size
 
 
-#### - ExtendedTagEnable
+##### - MaxPayloadSize.MaxPayload512Bytes
 
-A single bit that indicates that the device is enabled to use an 8-bit Tag field in a PCIe transaction descriptor when the device is a requester. This bit can be set only if the PCIe device capabilities register of the PCIe capability structure indicates that the extended tag size is supported.
-
-
-#### - PhantomFunctionsEnable
-
-A single bit that indicates that the device is enabled to use unused function numbers (phantom functions) to extend the number of outstanding transactions that are allowed for the device. This bit can be set only if the PCIe device capabilities register of the PCIe capability structure indicates that phantom functions are supported.
+512 byte maximum payload size
 
 
-#### - AuxPowerEnable
-
-A single bit that indicates that the device is enabled to draw AUX power independent of power management events (PME) AUX power.
-
-
-#### - NoSnoopEnable
-
-A single bit that indicates that the device is permitted to set the No Snoop bit in the Requester Attributes field of transactions that it initiates that do not require hardware enforced cache coherency.
-
-
-#### - MaxReadRequestSize
-
-The maximum read request size for the device as a requester. Possible values are:
-
-
-
-
-#### MaxPayload128Bytes
-
-128 byte maximum read request size
-
-
-#### MaxPayload256Bytes
-
-256 byte maximum read request size
-
-
-#### MaxPayload512Bytes
-
-512 byte maximum read request size
-
-
-#### MaxPayload1024Bytes
+##### - MaxReadRequestSize.MaxPayload1024Bytes
 
 1024 byte maximum read request size
 
 
-#### MaxPayload2048Bytes
+##### - MaxReadRequestSize.MaxPayload128Bytes
+
+128 byte maximum read request size
+
+
+##### - MaxReadRequestSize.MaxPayload2048Bytes
 
 2048 byte maximum read request size
 
 
-#### MaxPayload4096Bytes
+##### - MaxReadRequestSize.MaxPayload256Bytes
+
+256 byte maximum read request size
+
+
+##### - MaxReadRequestSize.MaxPayload4096Bytes
 
 4096 byte maximum read request size
 
 
-#### - BridgeConfigRetryEnable
+##### - MaxReadRequestSize.MaxPayload512Bytes
 
-Reserved.
+512 byte maximum read request size
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee0f458b-c8b3-46e7-87bd-25599d39203d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdffdoretrievenextstaticchild, DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, PFN_WDFFDORETRIEVENEXTSTATICCHILD, kmdf.wdffdoretrievenextstaticchild, wdffdo/WdfFdoRetrieveNextStaticChild, WdfFdoRetrieveNextStaticChild method, WdfFdoRetrieveNextStaticChild
+ms.keywords: WdfFdoRetrieveNextStaticChild method, wdffdo/WdfFdoRetrieveNextStaticChild, PFN_WDFFDORETRIEVENEXTSTATICCHILD, WdfFdoRetrieveNextStaticChild, kmdf.wdffdoretrievenextstaticchild, DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, wdf.wdffdoretrievenextstaticchild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ WDFDEVICE WdfFdoRetrieveNextStaticChild(
 
 
 
-#### - Fdo [in]
+### -param Fdo [in]
 
 A handle to a framework device object that represents the parent device.
 
 
-#### - PreviousChild [in, optional]
+### -param PreviousChild [in, optional]
 
 A handle to a framework device object that represents the child device that was returned by a previous call to <b>WdfFdoRetrieveNextStaticChild</b>. For the first call to <b>WdfFdoRetrieveNextStaticChild</b>, this value must be <b>NULL</b>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>-typed enumerator value that identifies the type of child devices that the method should retrieve. This parameter cannot be zero. 
 
@@ -122,9 +122,9 @@ Call <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">W
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
-
 <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
 
  
 

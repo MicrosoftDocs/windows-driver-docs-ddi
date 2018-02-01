@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PIRQ_PRIORITY, IrqPriorityHigh, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityUndefined, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPriorityUndefined, PIRQ_PRIORITY, wdm/IRQ_PRIORITY, IrqPriorityNormal, wdm/PIRQ_PRIORITY, IrqPriorityLow, wdm/IrqPriorityNormal, wdm/IrqPriorityHigh, _IRQ_PRIORITY, kernel.irq_priority, IRQ_PRIORITY, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IrqPriorityLow"
+ms.keywords: IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityNormal, PIRQ_PRIORITY, IrqPriorityUndefined, IrqPriorityLow, IrqPriorityHigh, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], wdm/PIRQ_PRIORITY, wdm/IrqPriorityLow, wdm/IrqPriorityHigh, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, kernel.irq_priority, *PIRQ_PRIORITY, wdm/IrqPriorityNormal, _IRQ_PRIORITY, IRQ_PRIORITY, wdm/IRQ_PRIORITY, wdm/IrqPriorityUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _IRQ_PRIORITY {
 
 
 
-#### - IrqPriorityUndefined
+### -field IrqPriorityUndefined
 
 Specifies that the device does not require any particular priority for its interrupts.
 
 
-#### - IrqPriorityLow
+### -field IrqPriorityLow
 
 Specifies that the device's interrupts are of low priority. This setting is appropiate for devices that can tolerate higher-than-normal latency.
 
 
-#### - IrqPriorityNormal
+### -field IrqPriorityNormal
 
 Specifies that the device's interrupts are of normal priority. 
 
 
-#### - IrqPriorityHigh
+### -field IrqPriorityHigh
 
 Specifies that the device's interrupts are of high priority. This setting is appropriate for devices that require low latency. 
 

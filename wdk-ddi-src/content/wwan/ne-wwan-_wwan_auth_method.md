@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D24D8C90-8F65-42BC-8FBC-308ECC4A73C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_auth_method, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], wwan/WwanAuthSim, WwanAuthAka, WwanAuthAkaPrime, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, _WWAN_AUTH_METHOD, wwan/WwanAuthMethodMax, WwanAuthMethodMax, *PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, wwan/WWAN_AUTH_METHOD, WwanAuthSim
+ms.keywords: WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], _WWAN_AUTH_METHOD, WwanAuthAka, wwan/WwanAuthMethodMax, netvista.wwan_auth_method, *PWWAN_AUTH_METHOD, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAkaPrime, WwanAuthAkaPrime, WwanAuthMethodMax, WwanAuthSim, WWAN_AUTH_METHOD, wwan/WwanAuthAka, wwan/WwanAuthSim
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _WWAN_AUTH_METHOD {
 
 
 
-#### - WwanAuthSim
+### -field WwanAuthSim
 
 Authenticate using the SIM method.
 
 
-#### - WwanAuthAka
+### -field WwanAuthAka
 
 Authenticate using the AKA method.
 
 
-#### - WwanAuthAkaPrime
+### -field WwanAuthAkaPrime
 
 Authenticate using the AKA' (AKA Prime) method.
 
 
-#### - WwanAuthMethodMax
+### -field WwanAuthMethodMax
 
 This value is reserved. Do not use.
 

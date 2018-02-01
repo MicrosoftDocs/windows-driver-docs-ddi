@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: c0627fbf-4b64-4530-8c0f-45326a83f765
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidD_GetProductString, HidD_GetProductString routine [Human Input Devices], hid.hidd_getproductstring, hidsdi/HidD_GetProductString, hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml
+ms.keywords: hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml, hid.hidd_getproductstring, hidsdi/HidD_GetProductString, HidD_GetProductString, HidD_GetProductString routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN __stdcall HidD_GetProductString(
 
 
 
-#### - HidDeviceObject [in]
+### -param HidDeviceObject [in]
 
 Specifies an open handle to a top-level collection.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a caller-allocated buffer that the routine uses to return the requested product string. The routine returns a NULL-terminated wide character string.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 Specifies the length, in bytes, of a caller-allocated buffer provided at <i>Buffer</i>. If the buffer is not large enough to return the entire NULL-terminated embedded string, the routine returns nothing in the buffer.
 
@@ -114,19 +114,19 @@ If the interface is grouped by a <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_product_string.md">IOCTL_HID_GET_PRODUCT_STRING</a>
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getphysicaldescriptor.md">HidD_GetPhysicalDescriptor</a>
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_serialnumber_string.md">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
 
+<a href="..\hidsdi\nf-hidsdi-hidd_getphysicaldescriptor.md">HidD_GetPhysicalDescriptor</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_product_string.md">IOCTL_HID_GET_PRODUCT_STRING</a>
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
 
  
 

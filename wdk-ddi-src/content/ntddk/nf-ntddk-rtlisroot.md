@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 74b3894e-972f-430b-bb8f-20fa46bf8b7d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml, ifsk.rtlisroot, RtlIsRoot routine [Installable File System Drivers], RtlIsRoot
+ms.keywords: RtlIsRoot routine [Installable File System Drivers], ifsk.rtlisroot, RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml, ntddk/RtlIsRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -67,7 +67,7 @@ BOOLEAN RtlIsRoot(
 
 
 
-#### - Links [in]
+### -param Links [in]
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 

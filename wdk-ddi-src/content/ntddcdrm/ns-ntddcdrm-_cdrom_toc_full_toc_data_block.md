@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8d6d1283-b64e-4c3b-8a45-376cfe76a19d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK, storage.cdrom_toc_full_toc_data_block, *PCDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_FULL_TOC_DATA_BLOCK, structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml, ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices]
+ms.keywords: "*PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml, storage.cdrom_toc_full_toc_data_block, _CDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _CDROM_TOC_FULL_TOC_DATA_BLOCK {
 
 
 
-#### - SessionNumber
+### -field SessionNumber
 
 Contains the number of the session that the track belongs to. 
 
 
-#### - Control
+### -field Control
 
 Indicates the attributes of the track. 
 
@@ -92,6 +92,11 @@ Indicates the attributes of the track.
 
 
 
+#### AUDIO_DATA_TRACK
+
+Indicates that the track contains nonaudio data. 
+
+
 #### AUDIO_WITH_PREEMPHASIS
 
 Indicates two audio channels with preemphasis of 50/15 microseconds have been added. 
@@ -102,17 +107,12 @@ Indicates two audio channels with preemphasis of 50/15 microseconds have been ad
 Indicates digital copying is allowed. 
 
 
-#### AUDIO_DATA_TRACK
-
-Indicates that the track contains nonaudio data. 
-
-
 #### TWO_FOUR_CHANNEL_AUDIO
 
 Indicates that the track contains four channels of audio data.
 
 
-#### - Adr
+### -field Adr
 
 Indicates the type of information encoded in the Q subchannel of the block where this table of contents entry was found.
 
@@ -125,16 +125,7 @@ Indicates the type of information encoded in the Q subchannel of the block where
 
 
 
-#### ADR_NO_MODE_INFORMATION
-
-Q subchannel mode information not supplied. 
-
-
 #### ADR_ENCODES_CURRENT_POSITION
-
-
-
-#### Q subchannel encodes current position data
 
 
 
@@ -142,9 +133,8 @@ Q subchannel mode information not supplied.
 
 
 
-#### ADR_ENCODES_MEDIA_CATALOG
+#### Q subchannel encodes current position data
 
-Q subchannel encodes media catalog number. 
 
 
 #### ADR_ENCODES_ISRC
@@ -152,27 +142,37 @@ Q subchannel encodes media catalog number.
 Q subchannel encodes ISRC. 
 
 
-#### - Reserved1
+#### ADR_ENCODES_MEDIA_CATALOG
+
+Q subchannel encodes media catalog number. 
+
+
+#### ADR_NO_MODE_INFORMATION
+
+Q subchannel mode information not supplied. 
+
+
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Point
+### -field Point
 
 Defines various types of information within the table of contents lead-in area. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS).
 
 
-#### - MsfExtra
+### -field MsfExtra
 
 See specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member. 
 
 
-#### - Zero
+### -field Zero
 
 Contains the value of the zero bit.
 
 
-#### - Msf
+### -field Msf
 
 Contains the minute, second, and frame. Msf[0] contains the minutes field. Msf[1] contains the seconds field, and Msf[2] contains the frames field. MSF is a format similar to logical block addressing. 
 

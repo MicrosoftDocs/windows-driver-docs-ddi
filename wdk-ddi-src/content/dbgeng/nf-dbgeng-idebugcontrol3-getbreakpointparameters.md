@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c4426dfa-7c14-4ef0-8660-855ee24ed7fe
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, dbgeng/IDebugControl2::GetBreakpointParameters, IDebugControl interface [Windows Debugging], GetBreakpointParameters method, IDebugControl3 interface [Windows Debugging], GetBreakpointParameters method, GetBreakpointParameters method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetBreakpointParameters, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, dbgeng/IDebugControl::GetBreakpointParameters, debugger.getbreakpointparameters, IDebugControl2::GetBreakpointParameters, IDebugControl3::GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetBreakpointParameters, GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl interface, GetBreakpointParameters method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetBreakpointParameters method
+ms.keywords: GetBreakpointParameters method [Windows Debugging], IDebugControl interface, IDebugControl::GetBreakpointParameters, dbgeng/IDebugControl3::GetBreakpointParameters, dbgeng/IDebugControl2::GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetBreakpointParameters, dbgeng/IDebugControl::GetBreakpointParameters, IDebugControl3, debugger.getbreakpointparameters, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, GetBreakpointParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetBreakpointParameters, IDebugControl2 interface [Windows Debugging], GetBreakpointParameters method, GetBreakpointParameters, IDebugControl3 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl interface [Windows Debugging], GetBreakpointParameters method, GetBreakpointParameters method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetBreakpointParameters(
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of breakpoints whose parameters are being requested.
 
 
-#### - Ids [in, optional]
+### -param Ids [in, optional]
 
 Specifies an array containing the IDs of the breakpoints whose parameters are being requested.  The number of items in this array must be equal to the value specified in <i>Count</i>.  If <i>Ids</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
 
-#### - Start [in]
+### -param Start [in]
 
 Specifies the beginning index of the breakpoints whose parameters are being requested.  The parameters for breakpoints with indices <i>Start</i> through <i>Start</i> plus <i>Count</i> minus one will be returned.  <i>Start</i> is used only if <i>Ids</i> is <b>NULL</b>.
 
 
-#### - Params [out]
+### -param Params [out]
 
 Receives the parameters for the specified breakpoints. The size of this array is equal to the value of <i>Count</i>.  For details on the structure returned, see <a href="..\dbgeng\ns-dbgeng-_debug_breakpoint_parameters.md">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
@@ -140,13 +140,13 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545617">GetBreakpointById</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

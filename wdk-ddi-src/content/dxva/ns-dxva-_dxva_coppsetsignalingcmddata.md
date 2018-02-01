@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88318bb4-bfca-4557-93cb-703840fa692e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_coppsetsignalingcmddata, _DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], DXVA_COPPSetSignalingCmdData, dxva/DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml
+ms.keywords: DXVA_COPPSetSignalingCmdData, dxva/DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, DXVA_COPPSetSignalingCmdData structure [Display Devices], dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml, _DXVA_COPPSetSignalingCmdData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ typedef struct _DXVA_COPPSetSignalingCmdData {
 
 
 
-#### - ActiveTVProtectionStandard
+### -field ActiveTVProtectionStandard
 
 Specifies a valid ORed combination of the following values from the <b>COPP_TVProtectionStandard</b> enumeration type that indicates the type of television signals on which to set protection:
 <ul>
@@ -150,12 +150,12 @@ COPP_ProtectionStandard_ARIBTRB15_1125i (0x00004000)
 </li>
 </ul>
 
-#### - AspectRatioChangeMask1
+### -field AspectRatioChangeMask1
 
 Specifies the COPP_ImageAspectRatio_EN300294_Mask (0x00000007) constant that indicates that only the first 3 bits in the following <b>AspectRatioData1</b> member are valid.
 
 
-#### - AspectRatioData1
+### -field AspectRatioData1
 
 Specifies one of the following values from the <b>COPP_ImageAspectRatio_EN300294</b> enumeration type to indicate an ETSI EN 300 294 value.
 <ul>
@@ -193,37 +193,37 @@ COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic (7)
 </li>
 </ul>
 
-#### - AspectRatioChangeMask2
+### -field AspectRatioChangeMask2
 
 Specifies a value that indicates the valid bitfields in the following <b>AspectRatioData2</b> member.
 
 
-#### - AspectRatioData2
+### -field AspectRatioData2
 
 Specifies 32-bit data for additional aspect ratio-related data to be set for specific protection standards. This data can be used to express End and Q0 values for EIA-608-B, or active format description for CEA-805-A Type B packets.
 
 
-#### - AspectRatioChangeMask3
+### -field AspectRatioChangeMask3
 
 Specifies a value that indicates the valid bitfields in the following <b>AspectRatioData3</b> member.
 
 
-#### - AspectRatioData3
+### -field AspectRatioData3
 
 Specifies 32-bit data for additional aspect ratio-related data to be set for specific protection standards. This data can be used to express End and Q0 values for EIA-608-B, or active format description for CEA-805-A Type B packets.
 
 
-#### - ExtendedInfoChangeMask
+### -field ExtendedInfoChangeMask
 
 Specifies an array of values that indicate the valid bitfields in the respective elements of the following <b>ExtendedInfoData</b> array member.
 
 
-#### - ExtendedInfoData
+### -field ExtendedInfoData
 
 Specifies an array of additional 32-bit data values to be set. Not currently used.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Should be set to zero.
 

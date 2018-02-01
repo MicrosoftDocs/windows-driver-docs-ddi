@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 710683e7-f628-4baa-b485-75b481812b97
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_ZRANGE, UMDisplayDriver_param_Structs_e1184f4e-5bff-4bdc-bf7a-473039a66ff7.xml, display.d3dddiarg_zrange, D3DDDIARG_ZRANGE structure [Display Devices], _D3DDDIARG_ZRANGE, D3DDDIARG_ZRANGE
+ms.keywords: display.d3dddiarg_zrange, d3dumddi/D3DDDIARG_ZRANGE, D3DDDIARG_ZRANGE, UMDisplayDriver_param_Structs_e1184f4e-5bff-4bdc-bf7a-473039a66ff7.xml, D3DDDIARG_ZRANGE structure [Display Devices], _D3DDDIARG_ZRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_ZRANGE {
 
 
 
-#### - MinZ
+### -field MinZ
 
 [in] A FLOAT value that indicates the minimum z value for the range. 
 
 
-#### - MaxZ
+### -field MaxZ
 
 [in] A FLOAT value that indicates the maximum z value for the range. 
 

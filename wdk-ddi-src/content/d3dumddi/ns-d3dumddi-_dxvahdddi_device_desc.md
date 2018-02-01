@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c40f4151-a392-463f-888f-d575e6992062
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC structure [Display Devices], _DXVAHDDDI_DEVICE_DESC, DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml, d3dumddi/DXVAHDDDI_DEVICE_DESC, display.dxvahdddi_device_desc
+ms.keywords: d3dumddi/DXVAHDDDI_DEVICE_DESC, DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml, DXVAHDDDI_DEVICE_DESC structure [Display Devices], display.dxvahdddi_device_desc, _DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVAHDDDI_DEVICE_DESC {
 
 
 
-#### - pContentDesc
+### -field pContentDesc
 
 [in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_content_desc.md">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content. 
 
 
-#### - Usage
+### -field Usage
 
 [in] A <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_device_usage.md">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video. 
 

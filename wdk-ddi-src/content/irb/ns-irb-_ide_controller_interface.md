@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cb18f7d9-f9e8-436d-8d61-3641730bd8a2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_CONTROLLER_INTERFACE, storage.ide_controller_interface, IDE_CONTROLLER_INTERFACE, irb/IDE_CONTROLLER_INTERFACE, PIDE_CONTROLLER_INTERFACE structure pointer [Storage Devices], _IDE_CONTROLLER_INTERFACE, structs-ATA_3b2abcb7-676c-44c9-a2a3-c4efb0f1e032.xml, irb/PIDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE structure [Storage Devices]
+ms.keywords: PIDE_CONTROLLER_INTERFACE, storage.ide_controller_interface, _IDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE structure [Storage Devices], irb/IDE_CONTROLLER_INTERFACE, irb/PIDE_CONTROLLER_INTERFACE, PIDE_CONTROLLER_INTERFACE structure pointer [Storage Devices], structs-ATA_3b2abcb7-676c-44c9-a2a3-c4efb0f1e032.xml, *PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _IDE_CONTROLLER_INTERFACE {
 
 
 
-#### - Version
+### -field Version
 
 The port driver sets this field to indicate the version of the port driver. The port driver sets the version to sizeof(IDE_CONTROLLER_INTERFACE). The miniport driver should verify that the version is greater than or equal to the one it is using.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use. The miniport driver shall not use this field.
 
 
-#### - ControllerExtensionSize
+### -field ControllerExtensionSize
 
 Specifies the size in bytes required by a miniport driver for its controller device extension.
 
 
-#### - ChannelExtensionSize
+### -field ChannelExtensionSize
 
 Specifies the size in bytes required by a miniport driver for its per-channel device extension.
 
 
-#### - AlignmentMask
+### -field AlignmentMask
 
 Contains a mask indicating the alignment restrictions for buffers required by the HBA for transfer operations. Valid mask values are also restricted by characteristics of the memory managers on different versions of Windows. Under Windows 2000 and Windows XP, the valid mask values are 0 (byte-aligned), 1 (word-aligned), 3 (DWORD-aligned) and 7 (double DWORD-aligned). The miniport driver should set this mask if the HBA supports scatter/gather.
 
 
-#### - AtaChannelInitRoutine
+### -field AtaChannelInitRoutine
 
 Pointer to the miniport's <b>AtaChannelInitRoutine</b> routine. The miniport needs to set this entry point only if it supports the Channel Interface.
 
 
-#### - AtaControllerChannelEnabled
+### -field AtaControllerChannelEnabled
 
 Pointer to the miniport's <b>AtaControllerChannelEnabled</b> routine. This is an optional entry point.
 
 
-#### - AtaControllerTransferModeSelect
+### -field AtaControllerTransferModeSelect
 
 Pointer to the miniport's <b>AtaControllerTransferModeSelect</b> routine. This is an optional entry point.
 
 
-#### - AtaAdapterControl
+### -field AtaAdapterControl
 
 Pointer to the miniport's <b>AtaControllerAdapterControl</b> routine. This is a required entry point.
 

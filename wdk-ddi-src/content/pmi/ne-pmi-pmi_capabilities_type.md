@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 6857f85b-c79a-4e80-a63f-1414aff61d1f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PMI_CAPABILITIES_TYPE, pmi/PmiCapabilitiesMax, PmiCapabilitiesMax, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeteredHardware, PMI_CAPABILITIES_TYPE, PmiReportedCapabilities, pmi/PmiReportedCapabilities, powermeter.pmi_capabilities_type, pmi/PmiMeteredHardware
+ms.keywords: PmiCapabilitiesMax, PmiMeteredHardware, pmi/PmiCapabilitiesMax, PmiReportedCapabilities, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiMeteredHardware, pmi/PmiReportedCapabilities, powermeter.pmi_capabilities_type, PMI_CAPABILITIES_TYPE, pmi/PMI_CAPABILITIES_TYPE, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - PmiReportedCapabilities
+### -field PmiReportedCapabilities
 
 The PMI capabilities data, formatted as a <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure, specifies the power capabilities of the power meter.
 
 
-#### - PmiMeteredHardware
+### -field PmiMeteredHardware
 
 The PMI capabilities data, formatted as a <a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a> structure, specifies the hardware devices that the power meter provides measurement data to.
 
 
-#### - PmiCapabilitiesMax
+### -field PmiCapabilitiesMax
 
 The maximum number of PMI capability structures.
 
@@ -93,13 +93,13 @@ The <b>CapabilityType</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
-<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
-
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 864891dd-7db5-4343-9014-c6a284f1fd7e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], WSK_PROVIDER_DISPATCH, _WSK_PROVIDER_DISPATCH, wsk/PWSK_PROVIDER_DISPATCH, *PWSK_PROVIDER_DISPATCH, wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml, wsk/WSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], PWSK_PROVIDER_DISPATCH, netvista.wsk_provider_dispatch
+ms.keywords: wsk/WSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], *PWSK_PROVIDER_DISPATCH, _WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], PWSK_PROVIDER_DISPATCH, netvista.wsk_provider_dispatch, wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml, wsk/PWSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,37 +78,37 @@ typedef struct _WSK_PROVIDER_DISPATCH {
 
 
 
-#### - Version
+### -field Version
 
 The version of the WSK 
-     <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
-     (NPI)</mshelp:link> that the WSK subsystem will use for its attachment to the WSK application.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     (NPI)</a> that the WSK subsystem will use for its attachment to the WSK application.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - WskSocket
+### -field WskSocket
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function.
 
 
-#### - WskSocketConnect
+### -field WskSocketConnect
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function.
 
 
-#### - WskControlClient
+### -field WskControlClient
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a> function.
 
 
-#### - WskGetAddressInfo
+### -field WskGetAddressInfo
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a> function.
@@ -117,7 +117,7 @@ A pointer to the WSK subsystem's
 This member is available beginning with Windows 7.
 
 
-#### - WskFreeAddressInfo
+### -field WskFreeAddressInfo
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a> function.
@@ -126,7 +126,7 @@ A pointer to the WSK subsystem's
 This member is available beginning with Windows 7.
 
 
-#### - WskGetNameInfo
+### -field WskGetNameInfo
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_get_name_info.md">WskGetNameInfo</a> function.
@@ -180,8 +180,8 @@ Minor = WSK_MINOR_VERSION(Version);</pre>
     <b>Version</b> member of the structure.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock Kernel
-    Application</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    Application</a>.
 
 
 
@@ -189,11 +189,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
+<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 

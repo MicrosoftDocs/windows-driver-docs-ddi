@@ -76,7 +76,7 @@ VOID ProtocolTcpOffloadReceiveComplete(
 
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
@@ -84,14 +84,14 @@ A handle to a context area allocated by the protocol driver. The driver maintain
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
-     <mshelp:link keywords="netvista.ndisoffloadtcpreceive" tabindex="0"><b>
-     NdisOffloadTcpReceive</b></mshelp:link> function.
+     <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">
+     NdisOffloadTcpReceive</a> function.
 
 
 ## -returns
@@ -105,8 +105,8 @@ None
 
 
 In response to an underlying driver's or offload target's call to the 
-    <mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-    NdisOffloadTcpReceiveComplete</b></mshelp:link> function, NDIS calls the overlying protocol driver's or intermediate
+    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+    NdisOffloadTcpReceiveComplete</a> function, NDIS calls the overlying protocol driver's or intermediate
     driver's 
     <i>ProtocolTcpOffloadReceiveComplete</i> function.
 
@@ -134,16 +134,16 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-   NdisOffloadTcpReceiveComplete</b></mshelp:link>
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+   NdisOffloadTcpReceiveComplete</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a>
 
  
 

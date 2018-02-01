@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 070ee8e2-80ed-4380-89ac-bfb5db2bcf7e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], miniport_power_management_ref_baaff596-1c2a-4cfc-865a-bb3f55988218.xml, *PNDIS_PM_COUNTED_STRING, ntddndis/NDIS_PM_COUNTED_STRING, netvista.ndis_pm_counted_string, PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_COUNTED_STRING
+ms.keywords: PNDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], miniport_power_management_ref_baaff596-1c2a-4cfc-865a-bb3f55988218.xml, NDIS_PM_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], _NDIS_PM_COUNTED_STRING, netvista.ndis_pm_counted_string, ntddndis/PNDIS_PM_COUNTED_STRING, ntddndis/NDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING, *PNDIS_PM_COUNTED_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _NDIS_PM_COUNTED_STRING {
 
 
 
-#### - Length
+### -field Length
 
 The length, in bytes, of the string.
 
 
-#### - String
+### -field String
 
 A WCHAR array that contains a NULL-terminated string that is limited to a maximum size of
      NDIS_PM_MAX_STRING_SIZE.

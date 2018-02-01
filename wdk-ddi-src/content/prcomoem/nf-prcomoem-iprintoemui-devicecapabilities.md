@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DeviceCapabilities method [Print Devices], IPrintOemUI interface, DeviceCapabilities method [Print Devices], print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, DeviceCapabilities, IPrintOemUI, IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, IPrintOemUI interface [Print Devices], DeviceCapabilities method
+ms.keywords: print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, DeviceCapabilities method [Print Devices], IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, IPrintOemUI, DeviceCapabilities method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], DeviceCapabilities method, DeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,47 +76,47 @@ HRESULT DeviceCapabilities(
 
 
 
-#### - poemuiobj
+### -param poemuiobj
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - hPrinter
+### -param hPrinter
 
 Caller-supplied handle to the printer device.
 
 
-#### - pDeviceName
+### -param pDeviceName
 
 Caller-supplied pointer to a string representing the device name.
 
 
-#### - wCapability
+### -param wCapability
 
 Caller-supplied flag indicating the type of information the method should return. For a list of flags, see the description of the <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a> function.
 
 
-#### - pOutput
+### -param pOutput
 
 Caller-supplied pointer to a buffer to receive the requested information. The type of information returned is dependent on the flag specified by <i>wCapability</i>.
 
 
-#### - pPublicDM
+### -param pPublicDM
 
 Caller-supplied pointer to a validated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-#### - pOEMDM
+### -param pOEMDM
 
 Caller-supplied pointer to the user interface plug-in's private DEVMODEW structure members.
 
 
-#### - dwOld
+### -param dwOld
 
 Caller-supplied return value from the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a> function, or from another user interface plug-in. For more information, see the following Remarks section.
 
 
-#### - dwResult
+### -param dwResult
 
 A return value that is dependent on the flag specified by <i>wCapability</i>. For more information, see the description of the <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a> function and the following Remarks section.
 

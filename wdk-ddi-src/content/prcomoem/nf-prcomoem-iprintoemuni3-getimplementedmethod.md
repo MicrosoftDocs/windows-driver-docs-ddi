@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a1de8e8f-eca1-4630-b689-585027184a08
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetImplementedMethod, IPrintOemUni3 interface [Print Devices], GetImplementedMethod method, IPrintOemUni3, GetImplementedMethod method [Print Devices], IPrintOemUni3 interface, GetImplementedMethod method [Print Devices], print_unidrv-pscript_rendering_7ca27745-8b8c-49c6-a80f-06bdc67132d5.xml, prcomoem/IPrintOemUni3::GetImplementedMethod, print.iprintoemuni3_getimplementedmethod, IPrintOemUni3::GetImplementedMethod
+ms.keywords: prcomoem/IPrintOemUni3::GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3::GetImplementedMethod, GetImplementedMethod method [Print Devices], print.iprintoemuni3_getimplementedmethod, IPrintOemUni3 interface [Print Devices], GetImplementedMethod method, IPrintOemUni3, print_unidrv-pscript_rendering_7ca27745-8b8c-49c6-a80f-06bdc67132d5.xml, GetImplementedMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ STDMETHOD GetImplementedMethod(
 
 
 
-#### - pMethodName
+### -param pMethodName
 
 Caller-supplied pointer to a string that represents the name of an <b>IPrintOemUni</b> interface method, such as "ImageProcessing" for <b>IPrintOemUni3::ImageProcessing</b> or "FilterGraphics" for <b>IPrintOemUni3::FilterGraphics</b>.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3743db2a-d613-4efb-ae73-80eb1bfd9410
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10_ddi_blend_op, D3D10_DDI_BLEND_OP_REV_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, D3D10_DDI_BLEND_OP_MAX, D3D10_DDI_BLEND_OP_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP, UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, D3D10_DDI_BLEND_OP enumeration [Display Devices], d3d10umddi/D3D10_DDI_BLEND_OP
+ms.keywords: D3D10_DDI_BLEND_OP_MAX, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, D3D10_DDI_BLEND_OP_REV_SUBTRACT, UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP_ADD, D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP enumeration [Display Devices], D3D10_DDI_BLEND_OP_MIN, display.d3d10_ddi_blend_op, d3d10umddi/D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP, d3d10umddi/D3D10_DDI_BLEND_OP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum D3D10_DDI_BLEND_OP {
 
 
 
-#### - D3D10_DDI_BLEND_OP_ADD
+### -field D3D10_DDI_BLEND_OP_ADD
 
 The result is the destination added to the source (Result = Source + Destination). 
 
 
-#### - D3D10_DDI_BLEND_OP_SUBTRACT
+### -field D3D10_DDI_BLEND_OP_SUBTRACT
 
 The result is the destination subtracted from to the source (Result = Source - Destination). 
 
 
-#### - D3D10_DDI_BLEND_OP_REV_SUBTRACT
+### -field D3D10_DDI_BLEND_OP_REV_SUBTRACT
 
 The result is the source subtracted from the destination (Result = Destination - Source). 
 
 
-#### - D3D10_DDI_BLEND_OP_MIN
+### -field D3D10_DDI_BLEND_OP_MIN
 
 The result is the minimum of the source and destination (Result = MIN(Source, Destination)) 
 
 
-#### - D3D10_DDI_BLEND_OP_MAX
+### -field D3D10_DDI_BLEND_OP_MAX
 
 The result is the maximum of the source and destination (Result = MAX(Source, Destination)) 
 

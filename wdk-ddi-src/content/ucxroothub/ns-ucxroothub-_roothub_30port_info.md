@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5C39C0EB-AC7F-44E5-95EB-9F067DBE0801
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_ROOTHUB_30PORT_INFO, ROOTHUB_30PORT_INFO, ucxroothub/_ROOTHUB_30PORT_INFO, *PROOTHUB_30PORT_INFO, ucxroothub/P_ROOTHUB_30PORT_INFO, buses._roothub_30port_info, P_ROOTHUB_30PORT_INFO structure pointer [Buses], P_ROOTHUB_30PORT_INFO, ROOTHUB_30PORT_INFO structure [Buses]"
+ms.keywords: ucxroothub/P_ROOTHUB_30PORT_INFO, ROOTHUB_30PORT_INFO, ucxroothub/_ROOTHUB_30PORT_INFO, buses._roothub_30port_info, ROOTHUB_30PORT_INFO structure [Buses], _ROOTHUB_30PORT_INFO, *PROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _ROOTHUB_30PORT_INFO {
 
 
 
-#### - PortNumber
+### -field PortNumber
 
 The USB 3.0 port number connected to the root hub.
 
 
-#### - MinorRevision
+### -field MinorRevision
 
 Revision number.
 
 
-#### - HubDepth
+### -field HubDepth
 
 The hub depth limit.
 
 
-#### - Removable
+### -field Removable
 
 A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is removable. 
 
 
-#### - DebugCapable
+### -field DebugCapable
 
 A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is debug capable. 
 

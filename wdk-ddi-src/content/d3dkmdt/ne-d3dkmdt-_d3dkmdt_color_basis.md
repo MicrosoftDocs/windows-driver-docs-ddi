@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2a8973d-bdab-44a6-b88b-482355ada1e5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_CB_SCRGB, D3DKMDT_COLOR_BASIS, d3dkmdt/D3DKMDT_CB_UNINITIALIZED, D3DKMDT_CB_UNINITIALIZED, D3DKMDT_CB_SRGB, d3dkmdt/D3DKMDT_CB_INTENSITY, display.d3dkmdt_color_basis, d3dkmdt/D3DKMDT_CB_SRGB, d3dkmdt/D3DKMDT_COLOR_BASIS, D3DKMDT_COLOR_BASIS enumeration [Display Devices], d3dkmdt/D3DKMDT_CB_YCBCR, D3DKMDT_CB_YCBCR, DmEnums_68aa2c18-ed0d-429d-88c3-7a9a7913c7c6.xml, _D3DKMDT_COLOR_BASIS, d3dkmdt/D3DKMDT_CB_YPBPR, d3dkmdt/D3DKMDT_CB_SCRGB, D3DKMDT_CB_INTENSITY, D3DKMDT_CB_YPBPR
+ms.keywords: d3dkmdt/D3DKMDT_CB_INTENSITY, D3DKMDT_CB_UNINITIALIZED, D3DKMDT_COLOR_BASIS, _D3DKMDT_COLOR_BASIS, D3DKMDT_CB_YPBPR, D3DKMDT_CB_SRGB, DmEnums_68aa2c18-ed0d-429d-88c3-7a9a7913c7c6.xml, D3DKMDT_COLOR_BASIS enumeration [Display Devices], d3dkmdt/D3DKMDT_CB_UNINITIALIZED, display.d3dkmdt_color_basis, d3dkmdt/D3DKMDT_CB_YCBCR, D3DKMDT_CB_INTENSITY, D3DKMDT_CB_YCBCR, d3dkmdt/D3DKMDT_CB_SCRGB, D3DKMDT_CB_SCRGB, d3dkmdt/D3DKMDT_CB_YPBPR, d3dkmdt/D3DKMDT_CB_SRGB, d3dkmdt/D3DKMDT_COLOR_BASIS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _D3DKMDT_COLOR_BASIS {
 
 
 
-#### - D3DKMDT_CB_UNINITIALIZED
+### -field D3DKMDT_CB_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_COLOR_BASIS has not yet been assigned a meaningful value.
 
 
-#### - D3DKMDT_CB_INTENSITY
+### -field D3DKMDT_CB_INTENSITY
 
 Indicates an encoding scheme that relies only on intensity. This basis is used for monochrome images.
 
 
-#### - D3DKMDT_CB_SRGB
+### -field D3DKMDT_CB_SRGB
 
 Indicates the SRGB color basis.
 
 
-#### - D3DKMDT_CB_SCRGB
+### -field D3DKMDT_CB_SCRGB
 
 Indicates the SCRGB color basis.
 
 
-#### - D3DKMDT_CB_YCBCR
+### -field D3DKMDT_CB_YCBCR
 
 Indicates the YCBCR color basis.
 
 
-#### - D3DKMDT_CB_YPBPR
+### -field D3DKMDT_CB_YPBPR
 
 Indicates the YPBPR color basis.
 

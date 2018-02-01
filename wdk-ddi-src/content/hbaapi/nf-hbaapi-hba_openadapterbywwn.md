@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62492c9b-ace0-48be-ae8b-bb681dbca8b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_openadapterbywwn, fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml, HBA_OpenAdapterByWWN, HBA_OpenAdapterByWWN routine [Storage Devices], hbaapi/HBA_OpenAdapterByWWN
+ms.keywords: storage.hba_openadapterbywwn, fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml, HBA_OpenAdapterByWWN routine [Storage Devices], hbaapi/HBA_OpenAdapterByWWN, HBA_OpenAdapterByWWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ HBA_STATUS HBA_API HBA_OpenAdapterByWWN(
 
 
 
-#### - HbaHandle [out]
+### -param HbaHandle [out]
 
 Contains, on output, a handle that identifies the HBA. 
 
 
-#### - Wwn [in]
+### -param Wwn [in]
 
 Contains a 64-bit worldwide name (WWN) that must either match the name of the node on which the HBA is located, or must match the name of a port on the HBA. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ffe1c550-a7cc-4d27-9a1e-287fdc7e08eb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_IPF_CPE_DESCRIPTOR, ntddk/WHEA_IPF_CPE_DESCRIPTOR, whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml, *PWHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whea.whea_ipf_cpe_descriptor, WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR
+ms.keywords: ntddk/WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml, PWHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_IPF_CPE_DESCRIPTOR, _WHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR, whea.whea_ipf_cpe_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _WHEA_IPF_CPE_DESCRIPTOR {
 
 
 
-#### - Type
+### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_IPFCPE.
 
 
-#### - Enabled
+### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 

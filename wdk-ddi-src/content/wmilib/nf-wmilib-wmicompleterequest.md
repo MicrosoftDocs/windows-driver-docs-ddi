@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c6377dcc-a83b-4766-b882-25d228a26efe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WmiCompleteRequest routine [Kernel-Mode Driver Architecture], wmilib/WmiCompleteRequest, k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, WmiCompleteRequest, kernel.wmicompleterequest
+ms.keywords: kernel.wmicompleterequest, k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, wmilib/WmiCompleteRequest, WmiCompleteRequest, WmiCompleteRequest routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS WmiCompleteRequest(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the driver's <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 A pointer to the IRP. 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies the status to return for the IRP. 
 
 
-#### - BufferUsed [in]
+### -param BufferUsed [in]
 
 Specifies the number of bytes needed in the buffer passed to the driver's <i>DpWmiXxx</i> routine. If the buffer is too small, the driver sets <i>Status</i> to STATUS_BUFFER_TOO_SMALL and sets <i>BufferUsed</i> to the number of bytes needed for the data to be returned. If the buffer passed is large enough, the driver sets <i>BufferUsed</i> to the number of bytes actually used. 
 
 
-#### - PriorityBoost [in]
+### -param PriorityBoost [in]
 
 Specifies a system-defined constant by which to increment the run-time priority of the original thread that requested the operation. WMI calls <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a> with <i>PriorityBoost</i> when it completes the IRP. See <b>IoCompleteRequest</b> for more information on <i>PriorityBoost</i>. 
 
@@ -118,21 +118,21 @@ A driver must not call <b>WmiCompleteRequest</b> from its <a href="..\wmilib\nc-
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
-
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
-
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
 
-<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
+<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
 
  
 

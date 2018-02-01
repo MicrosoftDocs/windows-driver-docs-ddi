@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e7b25a47-e197-4670-9907-409d5aeb5462
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetdevicequerystring, WdfUsbTargetDeviceQueryString method, WdfUsbTargetDeviceQueryString, wdfusb/WdfUsbTargetDeviceQueryString, PFN_WDFUSBTARGETDEVICEQUERYSTRING, kmdf.wdfusbtargetdevicequerystring, DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml
+ms.keywords: PFN_WDFUSBTARGETDEVICEQUERYSTRING, kmdf.wdfusbtargetdevicequerystring, WdfUsbTargetDeviceQueryString, wdfusb/WdfUsbTargetDeviceQueryString, DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, wdf.wdfusbtargetdevicequerystring, WdfUsbTargetDeviceQueryString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,37 +79,37 @@ NTSTATUS WdfUsbTargetDeviceQueryString(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-#### - Request [in, optional]
+### -param Request [in, optional]
 
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section. 
 
 
-#### - RequestOptions [in, optional]
+### -param RequestOptions [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section. 
 
 
-#### - String [out, optional]
+### -param String [out, optional]
 
 A pointer to a caller-allocated buffer that receives the requested Unicode string. The string is NULL-terminated only if the device supplies a NULL-terminated string. If this pointer is <b>NULL</b>, <b>WdfUsbTargetDeviceQueryString</b> returns the required buffer size (that is, the required number of Unicode characters) in the location that <i>NumCharacters</i> points to.
 
 
-#### - NumCharacters [in, out]
+### -param NumCharacters [in, out]
 
 A pointer to a caller-allocated variable. The caller supplies the number of Unicode characters that the buffer can hold. When <b>WdfUsbTargetDeviceQueryString</b> returns, the variable receives the number of characters (including the NULL terminator, if supplied) that are in the Unicode string that the <i>String</i> buffer receives. 
 
 
-#### - StringIndex [in]
+### -param StringIndex [in]
 
 An index value that identifies the Unicode string. This index value is obtained from a <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>, <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>, or <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure.
 
 
-#### - LangID [in, optional]
+### -param LangID [in, optional]
 
 A language identifier. The Unicode string will be retrieved for the language that this identifier specifies. For information about obtaining a device's supported language identifiers, see the USB specification. 
 
@@ -208,9 +208,11 @@ For more information about the <b>WdfUsbTargetDeviceQueryString</b> method and U
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
@@ -218,9 +220,7 @@ For more information about the <b>WdfUsbTargetDeviceQueryString</b> method and U
 
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
-
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
 
  
 

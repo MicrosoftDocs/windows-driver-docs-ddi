@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 54395899-c35d-4251-9e9d-ec2128b28c67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE, wiamindr_lh/PWIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE structure [Imaging Devices], image.wias_endorser_value, wiamindr_lh/WIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml, WIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices]"
+ms.keywords: WIAS_ENDORSER_VALUE structure [Imaging Devices], PWIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices], wiamindr_lh/PWIAS_ENDORSER_VALUE, wiamindr_lh/WIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml, WIAS_ENDORSER_VALUE, image.wias_endorser_value, _WIAS_ENDORSER_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _WIAS_ENDORSER_VALUE {
 
 
 
-#### - wszTokenName
+### -field wszTokenName
 
 Specifies a string value that represents the token name. Endorser token names begin and end with the $ character (for example, L"$MY_TOKEN_NAME$").
 
 
-#### - wszValue
+### -field wszValue
 
 Specifies the value with which to replace the token.
 
@@ -88,9 +88,9 @@ This structure is used indirectly by the <a href="..\wiamdef\nf-wiamdef-wiaspars
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseEndorserString</a>
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
 
  
 

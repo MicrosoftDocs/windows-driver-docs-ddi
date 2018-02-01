@@ -73,17 +73,17 @@ VOID HwStorWorkItem(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the miniport driver's per-HBA storage area. 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Optional context provided by the miniport in the <i>Callback</i> parameter of <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>.
 
 
-#### - Worker [in]
+### -param Worker [in]
 
 A pointer to an opaque buffer that holds context information for the work item returned by <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>.
 

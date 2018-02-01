@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6762d9b-5a3d-49a3-b954-48e4e4a9eacb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: minitape/TapeClassAllocateSrbBuffer, storage.tapeclassallocatesrbbuffer, TapeClassAllocateSrbBuffer routine [Storage Devices], TapeClassAllocateSrbBuffer, tapeclas_77717175-fd25-4cbe-8baf-8c326a5ec152.xml
+ms.keywords: tapeclas_77717175-fd25-4cbe-8baf-8c326a5ec152.xml, TapeClassAllocateSrbBuffer routine [Storage Devices], TapeClassAllocateSrbBuffer, storage.tapeclassallocatesrbbuffer, minitape/TapeClassAllocateSrbBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN TapeClassAllocateSrbBuffer(
 
 
 
-#### - Srb [in, out]
+### -param Srb [in, out]
 
 Pointer to the SRB.
 
 
-#### - SrbBufferSize [in]
+### -param SrbBufferSize [in]
 
 Specifies the size, in bytes, of the <b>DataBuffer</b> to be allocated.
 

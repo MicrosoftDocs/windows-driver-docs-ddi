@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b7f9413b-3d57-47c4-a8a4-3288cb03af21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETSHAREDRESOURCEADAPTERLUID, D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure [Display Devices], _D3DKMT_GETSHAREDRESOURCEADAPTERLUID, display.d3dkmt_getsharedresourceadapterluid, d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID
+ms.keywords: D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure [Display Devices], d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID, display.d3dkmt_getsharedresourceadapterluid, _D3DKMT_GETSHAREDRESOURCEADAPTERLUID, D3DKMT_GETSHAREDRESOURCEADAPTERLUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_GETSHAREDRESOURCEADAPTERLUID {
 
 
 
-#### - hGlobalShare
+### -field hGlobalShare
 
 [in] A handle to the shared resource.
 
 
-#### - hNtHandle
+### -field hNtHandle
 
 [in] An NT handle to the process.
 
 
-#### - AdapterLuid
+### -field AdapterLuid
 
 [out] A LUID that serves as an identifier for the device that the resource indicated by <b>hGlobalShare</b> was created on. <b>LUID</b> is defined in Dxgi.h.
 

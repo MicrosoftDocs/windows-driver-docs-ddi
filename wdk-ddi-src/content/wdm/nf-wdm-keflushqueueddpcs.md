@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5237e44-fff1-4928-9029-f1d1691ef2e3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeFlushQueuedDpcs, KeFlushQueuedDpcs routine [Kernel-Mode Driver Architecture], k105_6aaf8f1a-0fa7-422a-b390-ba0f92558a65.xml, wdm/KeFlushQueuedDpcs, kernel.keflushqueueddpcs
+ms.keywords: KeFlushQueuedDpcs routine [Kernel-Mode Driver Architecture], kernel.keflushqueueddpcs, k105_6aaf8f1a-0fa7-422a-b390-ba0f92558a65.xml, wdm/KeFlushQueuedDpcs, KeFlushQueuedDpcs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,13 +83,13 @@ Drivers can use this routine to wait until all currently-queued DPCs are run. No
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 <a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
  
 

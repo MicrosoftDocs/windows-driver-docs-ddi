@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AA71D015-B047-497C-A9E1-32E5E73AD0C2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxroothub/_ROOTHUB_20PORT_INFO, ROOTHUB_20PORT_INFO structure [Buses], buses._roothub_20port_info, ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], *PROOTHUB_20PORT_INFO, _ROOTHUB_20PORT_INFO, ucxroothub/P_ROOTHUB_20PORT_INFO
+ms.keywords: P_ROOTHUB_20PORT_INFO, buses._roothub_20port_info, ucxroothub/P_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], ROOTHUB_20PORT_INFO, ROOTHUB_20PORT_INFO structure [Buses], _ROOTHUB_20PORT_INFO, *PROOTHUB_20PORT_INFO, ucxroothub/_ROOTHUB_20PORT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _ROOTHUB_20PORT_INFO {
 
 
 
-#### - PortNumber
+### -field PortNumber
 
 The USB 2.0 root hub port number.
 
 
-#### - MinorRevision
+### -field MinorRevision
 
 Minor revision number.
 
 
-#### - HubDepth
+### -field HubDepth
 
 The hub depth limit.
 
 
-#### - Removable
+### -field Removable
 
 A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is removable. 
 
 
-#### - IntegratedHubImplemented
+### -field IntegratedHubImplemented
 
 A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is implemented. 
 
 
-#### - DebugCapable
+### -field DebugCapable
 
 A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is debug capable. 
 
 
-#### - ControllerUsb20HardwareLpmFlags
+### -field ControllerUsb20HardwareLpmFlags
 
 A value that indicates Link Power Management (LPM) flags for the controller.
 

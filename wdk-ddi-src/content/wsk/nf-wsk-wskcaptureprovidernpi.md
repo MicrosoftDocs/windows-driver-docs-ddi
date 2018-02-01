@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista]
+ms.keywords: WskCaptureProviderNPI, netvista.wskcaptureprovidernpi, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 
 The 
   <b>WskCaptureProviderNPI</b> function captures a provider 
-  <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
-  (NPI)</mshelp:link> when it becomes available from the WSK subsystem.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  (NPI)</a> when it becomes available from the WSK subsystem.
 
 
 ## -syntax
@@ -74,7 +74,7 @@ NTSTATUS WskCaptureProviderNPI(
 
 
 
-#### - WskRegistration [in]
+### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
      <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK
@@ -82,7 +82,7 @@ A pointer to the memory location initialized by
      <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>.
 
 
-#### - WaitTimeout [in]
+### -param WaitTimeout [in]
 
 The time, in milliseconds, that the 
      <b>WskCaptureProviderNPI</b> function can wait until the WSK provider NPI becomes available. Alternately,
@@ -92,13 +92,8 @@ The time, in milliseconds, that the
 
 
 For more information about how this parameter is used, see 
-     <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock
-     Kernel Application</mshelp:link>.
-
-
-#### WSK_NO_WAIT
-
-Return from this function immediately if the provider NPI is not available.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
+     Kernel Application</a>.
 
 
 #### WSK_INFINITE_WAIT
@@ -106,7 +101,12 @@ Return from this function immediately if the provider NPI is not available.
 Wait until the provider NPI is available from the WSK subsystem.
 
 
-#### - WskProviderNpi [out]
+#### WSK_NO_WAIT
+
+Return from this function immediately if the provider NPI is not available.
+
+
+### -param WskProviderNpi [out]
 
 A pointer to the NPI returned by the WSK provider. This 
      <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a> structure contains a
@@ -190,8 +190,8 @@ For each call to
     become available will also return immediately with status code STATUS_DEVICE_NOT_READY.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock Kernel
-    Application</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    Application</a>.
 
 Callers of the 
     <b>WskCaptureProviderNPI</b> function must be running at IRQL = PASSIVE_LEVEL if 
@@ -202,11 +202,11 @@ Callers of the
 
 ## -see-also
 
+<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+
 <a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
 
  
 

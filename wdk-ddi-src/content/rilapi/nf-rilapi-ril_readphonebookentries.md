@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3da05f28-a6de-4dad-a978-0439f3244bbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_readphonebookentries, RIL_ReadPhonebookEntries, rilapi/RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], RIL_ReadPhonebookEntries, rilapi/RIL_ReadPhonebookEntries, netvista.ril_readphonebookentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ HRESULT  RIL_ReadPhonebookEntries(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 
-#### - dwStoreLocation
+### -param dwStoreLocation
 
 
 
-#### - dwStartIndex
+### -param dwStartIndex
 
 
 
-#### - dwEndIndex
+### -param dwEndIndex
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 92955e1e-6c5b-4e8e-a365-65ff4d0889a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDeregisterSapComplete, netvista.ndiscmderegistersapcomplete, condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, ndis/NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndiscmderegistersapcomplete, condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], NdisCmDeregisterSapComplete, ndis/NdisCmDeregisterSapComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID NdisCmDeregisterSapComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies NDIS_STATUS_SUCCESS.
 
 
-#### - NdisSapHandle [in]
+### -param NdisSapHandle [in]
 
 Specifies the handle identifying the SAP.
 
@@ -92,13 +92,13 @@ None
 
 <b>NdisCmDeregisterSapComplete</b> notifies both NDIS and the client that the call manager has completed
     the SAP-deregistration request for which its 
-    <mshelp:link keywords="netvista.protocolcmderegistersap" tabindex="0"><i>
-    ProtocolCmDeregisterSap</i></mshelp:link> function previously returned NDIS_STATUS_PENDING.
+    <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+    ProtocolCmDeregisterSap</a> function previously returned NDIS_STATUS_PENDING.
 
 A call to 
     <b>NdisCmDeregisterSapComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
-    ProtocolClDeregisterSapComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+    ProtocolClDeregisterSapComplete</a> function.
 
 The call manager should consider the 
     <i>NdisSapHandle</i> invalid when 
@@ -113,14 +113,14 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
-   ProtocolClDeregisterSapComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 <a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
-
 <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+   ProtocolClDeregisterSapComplete</a>
 
  
 

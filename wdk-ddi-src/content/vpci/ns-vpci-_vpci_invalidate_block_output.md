@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6971C724-CE5E-44BC-8D3A-FAD248771E6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], vpci/VPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, _VPCI_INVALIDATE_BLOCK_OUTPUT
+ms.keywords: VPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], kernel.vpci_invalidate_block_output, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT, _VPCI_INVALIDATE_BLOCK_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _VPCI_INVALIDATE_BLOCK_OUTPUT {
 
 
 
-#### - BlockMask
+### -field BlockMask
 
 A <b>UINT64</b> value that specifies a bitmask for the first 64 VF configuration blocks. Each bit in the bitmask corresponds to a VF configuration block. If a bit is set to one, the data associated with the corresponding VF configuration block has changed.
 

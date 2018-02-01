@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7d0525f1-8422-47a4-a64e-11e35496a849
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMdlWriteCompleteDev, ifsk.fsrtlmdlwritecompletedev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlWriteCompleteDev, fsrtlref_c0520b55-791c-4527-a734-1495a2a4809b.xml
+ms.keywords: FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlWriteCompleteDev, ifsk.fsrtlmdlwritecompletedev, FsRtlMdlWriteCompleteDev, fsrtlref_c0520b55-791c-4527-a734-1495a2a4809b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ BOOLEAN FsRtlMdlWriteCompleteDev(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to the file object.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
 
-#### - MdlChain [in]
+### -param MdlChain [in]
 
 A pointer to a linked list of memory descriptor lists (MDLs) that <b>FsRtlPrepareMdlWrite</b> allocated.
 
 
-#### - DeviceObject [in, optional]
+### -param DeviceObject [in, optional]
 
 The device object for the device that holds the file data.
 

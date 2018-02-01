@@ -74,12 +74,12 @@ typedef EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION *PF
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-#### - ChangeNotificationFlags [in]
+### -param ChangeNotificationFlags [in]
 
  A bitwise option of flags that indicate the type transport characteristics in which UCX is interested. The flags are defined in <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transport_characteristics_change_flags.md">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS</a>.
 

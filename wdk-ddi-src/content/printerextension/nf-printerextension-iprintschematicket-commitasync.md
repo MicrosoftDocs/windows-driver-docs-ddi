@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CommitAsync method [Print Devices], IPrintSchemaTicket interface, CommitAsync method [Print Devices], IPrintSchemaTicket::CommitAsync, CommitAsync, printerextension/IPrintSchemaTicket::CommitAsync, IPrintSchemaTicket interface [Print Devices], CommitAsync method, IPrintSchemaTicket, print.iprintschematicket_commitasync
+ms.keywords: IPrintSchemaTicket::CommitAsync, CommitAsync, IPrintSchemaTicket interface [Print Devices], CommitAsync method, CommitAsync method [Print Devices], CommitAsync method [Print Devices], IPrintSchemaTicket interface, printerextension/IPrintSchemaTicket::CommitAsync, print.iprintschematicket_commitasync, IPrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT CommitAsync(
 
 
 
-#### - pPrintTicketCommit [in]
+### -param pPrintTicketCommit [in]
 
 The print ticket to commit.
 
 
-#### - ppAsyncOperation [out]
+### -param ppAsyncOperation [out]
 
 The asynchronous commit operation context.
 

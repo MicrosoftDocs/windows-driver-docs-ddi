@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0ad85551-a8d2-4f7f-958b-fe23111de340
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IoCreateDisk routine [Storage Devices], ntddk/IoCreateDisk, storage.iocreatedisk, IoCreateDisk, rtns-disk_5f69686f-f812-4ccc-8bc8-4caa70230d20.xml
+ms.keywords: IoCreateDisk, ntddk/IoCreateDisk, IoCreateDisk routine [Storage Devices], storage.iocreatedisk, rtns-disk_5f69686f-f812-4ccc-8bc8-4caa70230d20.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoCreateDisk(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Specifies the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for the raw disk.
 
 
-#### - Disk [in, optional]
+### -param Disk [in, optional]
 
 Pointer to a <a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a> structure that specifies the type and parameters for the partition table. If <i>Disk</i> is <b>NULL</b>, the routine deletes the partition table on the disk.
 
@@ -94,9 +94,9 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
 
  
 

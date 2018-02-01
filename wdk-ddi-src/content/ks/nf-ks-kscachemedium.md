@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0e9c146-5d73-49e8-92a8-c453f5bbbfe9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCacheMedium, ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, stream.kscachemedium, ks/KsCacheMedium, KsCacheMedium function [Streaming Media Devices]
+ms.keywords: ks/KsCacheMedium, KsCacheMedium function [Streaming Media Devices], ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, stream.kscachemedium, KsCacheMedium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsCacheMedium(
 
 
 
-#### - SymbolicLink [in]
+### -param SymbolicLink [in]
 
 The symbolic link used to open the device interface.
 
 
-#### - Medium [in]
+### -param Medium [in]
 
 Points to the medium to cache.
 
 
-#### - PinDirection [in]
+### -param PinDirection [in]
 
 Contains the direction of the Pin.  1 is output, 0 is input.
 

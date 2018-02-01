@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6bff18d1-77bf-49c0-af9c-aa1abbfbfa53
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], *PKSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, audio.ksds3d_listener_all, ksmedia/PKSDS3D_LISTENER_ALL
+ms.keywords: "*PKSDS3D_LISTENER_ALL, ksmedia/PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL, aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], PKSDS3D_LISTENER_ALL, audio.ksds3d_listener_all, ksmedia/KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct {
 
 
 
-#### - Position
+### -field Position
 
 Specifies the position vector of the 3D listener. This member is a structure of type <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>.
 
 
-#### - Velocity
+### -field Velocity
 
 Specifies the velocity vector of the 3D listener. This member is a structure of type DS3DVECTOR.
 
 
-#### - OrientFront
+### -field OrientFront
 
 Specifies the front orientation vector of the 3D listener. This member is a structure of type DS3DVECTOR.
 
 
-#### - OrientTop
+### -field OrientTop
 
 Specifies the top orientation vector of the 3D listener. This member is a structure of type DS3DVECTOR.
 
 
-#### - DistanceFactor
+### -field DistanceFactor
 
 Specifies the distance factor for the 3D listener.
 
 
-#### - RolloffFactor
+### -field RolloffFactor
 
 Specifies the rolloff factor for the 3D listener.
 
 
-#### - DopplerFactor
+### -field DopplerFactor
 
 Specifies the Doppler factor for the 3D listener.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 41C4E9D2-DC1B-4DFC-8C15-E9C21515B5F0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest3_getusermodedriverinitiatedio, IWDFIoRequest3 interface, GetUserModeDriverInitiatedIo method, umdf.iwdfiorequest3_getusermodedriverinitiatedio, IWDFIoRequest3, GetUserModeDriverInitiatedIo, GetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, wudfddi/IWDFIoRequest3::GetUserModeDriverInitiatedIo, IWDFIoRequest3::GetUserModeDriverInitiatedIo, GetUserModeDriverInitiatedIo method
+ms.keywords: GetUserModeDriverInitiatedIo method, GetUserModeDriverInitiatedIo, IWDFIoRequest3, wudfddi/IWDFIoRequest3::GetUserModeDriverInitiatedIo, GetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, IWDFIoRequest3 interface, GetUserModeDriverInitiatedIo method, umdf.iwdfiorequest3_getusermodedriverinitiatedio, IWDFIoRequest3::GetUserModeDriverInitiatedIo, wdf.iwdfiorequest3_getusermodedriverinitiatedio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

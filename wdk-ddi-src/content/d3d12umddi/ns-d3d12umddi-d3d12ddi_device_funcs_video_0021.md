@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F4C385C8-00A2-44AB-A7E6-4C9AA19CFFB0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_VIDEO_0021, display.d3d12ddi_device_funcs_video, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO
+ms.keywords: display.d3d12ddi_device_funcs_video, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_VIDEO_0021, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,92 +84,92 @@ typedef struct D3D12DDI_DEVICE_FUNCS_VIDEO_0021 {
 
 
 
-#### - pfnGetCaps
+### -field pfnGetCaps
 
 A function that gets video capabilities.
 
 
-#### - pfnCalcPrivateVideoDecoderSize
+### -field pfnCalcPrivateVideoDecoderSize
 
 A function that calculates the size of a private decoder.
 
 
-#### - pfnCreateVideoDecoder
+### -field pfnCreateVideoDecoder
 
 A function that creates a video decoder. 
 
 
-#### - pfnDestroyVideoDecoder
+### -field pfnDestroyVideoDecoder
 
 A function that destroys a video decoder.
 
 
-#### - pfnCalcPrivateVideoProcessorSize
+### -field pfnCalcPrivateVideoProcessorSize
 
 A function that calculates the size of a private video processor.
 
 
-#### - pfnCreateVideoProcessor
+### -field pfnCreateVideoProcessor
 
 A function that creates a video processor.
 
 
-#### - pfnDestroyVideoProcessor
+### -field pfnDestroyVideoProcessor
 
 A function that destroys a video processor. 
 
 
-#### - pfnCalcPrivateContentProtectionSessionSize
+### -field pfnCalcPrivateContentProtectionSessionSize
 
 A function that calculates the size of a private content protection session.
 
 
-#### - pfnCreateContentProtectionSession
+### -field pfnCreateContentProtectionSession
 
 A function that creates a content protection system. 
 
 
-#### - pfnDestroyContentProtectionSession
+### -field pfnDestroyContentProtectionSession
 
 A function that destroys a content protection system. 
 
 
-#### - pfnContentProtectionSessionInvokeFunction
+### -field pfnContentProtectionSessionInvokeFunction
 
 A function that invokes a function in a content protection session. 
 
 
-#### - pfnContentProtectionSessionSetupHardwareKey
+### -field pfnContentProtectionSessionSetupHardwareKey
 
 A function that sets up a hardware key for a content protection session. 
 
 
-#### - pfnContentProtectionSessionGetStatus
+### -field pfnContentProtectionSessionGetStatus
 
 A function that gets the status of a content protection session. 
 
 
-#### - pfnGetDecodeProfileCount
+### -field pfnGetDecodeProfileCount
 
 A function that gets the decode profile count. 
 
 
-#### - pfnGetDecodeFormatCount
+### -field pfnGetDecodeFormatCount
 
 A function that gets the decode format count. 
 
 
-#### - pfnGetBitstreamEncryptionSchemeCount
+### -field pfnGetBitstreamEncryptionSchemeCount
 
 A function that gets the count of bitstream encryption schemes. 
 
 
-#### - pfnDecoderTrimAllocations
+### -field pfnDecoderTrimAllocations
 
 A function that trims decoder allocations. 
 
 
-#### - pfnProcessorTrimAllocations
+### -field pfnProcessorTrimAllocations
 
 A function that trims processor allocations. 
 

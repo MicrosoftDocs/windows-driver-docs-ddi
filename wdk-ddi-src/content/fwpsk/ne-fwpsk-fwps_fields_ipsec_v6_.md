@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e3141736-6e85-43ad-b7f5-28845a57a75c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_FIELD_IPSEC_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_IPSEC_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_IPSEC_V6_IP_LOCAL_ADDRESS, wfp_ref_5_const_3_data_fields_33605f4a-08a5-4d7e-bd5c-262711341b18.xml, fwpsk/FWPS_FIELD_IPSEC_V6_IP_PROTOCOL, fwpsk/FWPS_FIELDS_IPSEC_V6, FWPS_FIELDS_IPSEC_V6, fwpsk/FWPS_FIELD_IPSEC_V6_IP_LOCAL_PORT, FWPS_FIELD_IPSEC_V6_PROFILE_ID, FWPS_FIELD_IPSEC_V6_IP_LOCAL_PORT, FWPS_FIELDS_IPSEC_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_IPSEC_V6_MAX, FWPS_FIELD_IPSEC_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IPSEC_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_IPSEC_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_IPSEC_V6_PROFILE_ID, FWPS_FIELDS_IPSEC_V6_, FWPS_FIELD_IPSEC_V6_MAX, netvista.fwps_fields_ipsec_v6
+ms.keywords: fwpsk/FWPS_FIELDS_IPSEC_V6, fwpsk/FWPS_FIELD_IPSEC_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_V6_IP_PROTOCOL, FWPS_FIELDS_IPSEC_V6_, FWPS_FIELD_IPSEC_V6_IP_REMOTE_PORT, FWPS_FIELDS_IPSEC_V6, FWPS_FIELD_IPSEC_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_V6_MAX, FWPS_FIELD_IPSEC_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_V6_MAX, netvista.fwps_fields_ipsec_v6, FWPS_FIELD_IPSEC_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_IPSEC_V6_IP_REMOTE_PORT, FWPS_FIELDS_IPSEC_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_IPSEC_V6_IP_LOCAL_PORT, FWPS_FIELD_IPSEC_V6_PROFILE_ID, fwpsk/FWPS_FIELD_IPSEC_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_IPSEC_V6_PROFILE_ID, wfp_ref_5_const_3_data_fields_33605f4a-08a5-4d7e-bd5c-262711341b18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,37 +78,37 @@ typedef enum FWPS_FIELDS_IPSEC_V6_ {
 
 
 
-#### - FWPS_FIELD_IPSEC_V6_IP_PROTOCOL
+### -field FWPS_FIELD_IPSEC_V6_IP_PROTOCOL
 
 The IP protocol number, as specified in RFC 1700.
 
 
-#### - FWPS_FIELD_IPSEC_V6_IP_LOCAL_ADDRESS
+### -field FWPS_FIELD_IPSEC_V6_IP_LOCAL_ADDRESS
 
 The local IP address.
 
 
-#### - FWPS_FIELD_IPSEC_V6_IP_REMOTE_ADDRESS
+### -field FWPS_FIELD_IPSEC_V6_IP_REMOTE_ADDRESS
 
 The remote IP address.
 
 
-#### - FWPS_FIELD_IPSEC_V6_IP_LOCAL_PORT
+### -field FWPS_FIELD_IPSEC_V6_IP_LOCAL_PORT
 
 The local transport protocol port number.
 
 
-#### - FWPS_FIELD_IPSEC_V6_IP_REMOTE_PORT
+### -field FWPS_FIELD_IPSEC_V6_IP_REMOTE_PORT
 
 The remote transport protocol port number.
 
 
-#### - FWPS_FIELD_IPSEC_V6_IP_LOCAL_INTERFACE
+### -field FWPS_FIELD_IPSEC_V6_IP_LOCAL_INTERFACE
 
 The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the local IP address.
 
 
-#### - FWPS_FIELD_IPSEC_V6_PROFILE_ID
+### -field FWPS_FIELD_IPSEC_V6_PROFILE_ID
 
 The profile identifier (network category) of the network interface. The possible network category
      values are: public (1), private (2), or domain (3).
@@ -119,7 +119,7 @@ The profile identifier (network category) of the network interface. The possible
 
 
 
-#### - FWPS_FIELD_IPSEC_V6_MAX
+### -field FWPS_FIELD_IPSEC_V6_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

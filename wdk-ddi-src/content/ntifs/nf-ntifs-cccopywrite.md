@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 100fec4a-eebe-4a4d-b322-09afbe68ec5c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyWrite, ifsk.cccopywrite, ntifs/CcCopyWrite, CcCopyWrite routine [Installable File System Drivers], ccref_97ca67a6-e212-42bb-8998-be458c792f7b.xml
+ms.keywords: CcCopyWrite routine [Installable File System Drivers], ifsk.cccopywrite, ccref_97ca67a6-e212-42bb-8998-be458c792f7b.xml, ntifs/CcCopyWrite, CcCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ BOOLEAN CcCopyWrite(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for the cached file to which the data is to be written.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length in bytes of the data to be written.
 
 
-#### - Wait [in]
+### -param Wait [in]
 
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the buffer from which the data is to be copied.
 

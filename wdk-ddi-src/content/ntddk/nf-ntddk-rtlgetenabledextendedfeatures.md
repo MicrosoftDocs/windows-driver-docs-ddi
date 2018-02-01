@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c23d3bfd-a83c-4480-b5a1-b057201ea279
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, RtlGetEnabledExtendedFeatures, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], wdm/RtlGetEnabledExtendedFeatures, XSTATE_MASK_GSSE, kernel.rtlgetenabledextendedfeatures
+ms.keywords: k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, XSTATE_MASK_GSSE, wdm/RtlGetEnabledExtendedFeatures, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], XSTATE_MASK_LEGACY_FLOATING_POINT, RtlGetEnabledExtendedFeatures, kernel.rtlgetenabledextendedfeatures, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_SSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ ULONG64 RtlGetEnabledExtendedFeatures(
 
 
 
-#### - FeatureMask [in]
+### -param FeatureMask [in]
 
 A 64-bit feature mask. This parameter indicates a set of extended processor features for which the caller requests information about whether the features are enabled. If a mask bit is one, the caller requests information about the feature that corresponds to this mask bit. The caller sets all other mask bits to zero. Set this parameter to (ULONG64)(-1) to get the mask of all enabled features. To determine whether a particular set of features is enabled, set this parameter to the bitwise OR of one or more of the following <b>XSTATE_MASK_<i>XXX</i></b> flag bits:
 <table>

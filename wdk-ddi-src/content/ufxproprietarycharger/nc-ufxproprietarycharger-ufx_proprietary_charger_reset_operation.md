@@ -73,7 +73,7 @@ typedef UFX_PROPRIETARY_CHARGER_RESET_OPERATION PFN_UFX_PROPRIETARY_CHARGER_RESE
 
 
 
-#### - Context [in]
+### -param Context [in]
 
     A pointer to a driver-defined context.
 

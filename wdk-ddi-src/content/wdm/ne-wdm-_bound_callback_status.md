@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: BoundExceptionMaximum, wdm/BoundExceptionHandled, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionMaximum, _BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, BoundExceptionContinueSearch, BoundExceptionError, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionError, *PBOUND_CALLBACK_STATUS, kernel.bound_callback_status, BoundExceptionHandled, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/BoundExceptionHandled, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionError, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionMaximum, *PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, _BOUND_CALLBACK_STATUS, wdm/BOUND_CALLBACK_STATUS, BoundExceptionHandled, kernel.bound_callback_status, wdm/BoundExceptionError, BoundExceptionContinueSearch, BoundExceptionMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _BOUND_CALLBACK_STATUS {
 
 
 
-#### - BoundExceptionContinueSearch
+### -field BoundExceptionContinueSearch
 
 The bounds exception was not handled by the callback, and the exception should continue to propagate.  
 
 
-#### - BoundExceptionHandled
+### -field BoundExceptionHandled
 
 The exception was handled by the callback, and the exception should not propagate any further. 
 
 
-#### - BoundExceptionError
+### -field BoundExceptionError
 
 The user mode process should be terminated by the system.
 
 
-#### - BoundExceptionMaximum
+### -field BoundExceptionMaximum
 
 This value is not currently used.
 

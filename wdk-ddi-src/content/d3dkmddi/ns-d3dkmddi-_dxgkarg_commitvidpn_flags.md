@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags, _DXGKARG_COMMITVIDPN_FLAGS, DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS
+ms.keywords: d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], _DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS, DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, display.dxgkarg_commitvidpn_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _DXGKARG_COMMITVIDPN_FLAGS {
 
 
 
-#### - PathPowerTransition
+### -field PathPowerTransition
 
 A UINT value that specifies whether the Microsoft DirectX graphics kernel subsystem calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function to power off a connected monitor.
 
@@ -80,7 +80,7 @@ Setting this member is equivalent to setting the first bit of a 32-bit value (0x
 For more information, see the following Remarks section.
 
 
-#### - PathPoweredOff
+### -field PathPoweredOff
 
 A UINT value that specifies whether the DirectX graphics kernel subsystem calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> to inform the driver that the user changed modes.
 
@@ -91,7 +91,7 @@ If <b>PathPoweredOff</b> is set to <b>FALSE</b>, the topology path is powered on
 For more information, see the following Remarks section.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of a 32-bit value to zeros.
 
@@ -115,11 +115,11 @@ If a system resume operation is triggered after monitors were turned off for a s
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
 
  
 

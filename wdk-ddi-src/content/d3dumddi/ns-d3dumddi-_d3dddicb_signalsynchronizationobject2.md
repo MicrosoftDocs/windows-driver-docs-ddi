@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb8df28d-1d44-446b-83a8-b4191213973d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], display.d3dddicb_signalsynchronizationobject2"
+ms.keywords: d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dddicb_signalsynchronizationobject2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,46 +76,46 @@ typedef struct _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 {
 
 
 
-#### - FenceValue
+### -field FenceValue
 
 [in] A 64-bit value that specifies the current fence value of the GPU synchronization object.
 
 This value applies only if the GPU synchronization object is of type <b>D3DDDI_FENCE</b>—namely, the <b>Type</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure has a value of <b>D3DDDI_FENCE</b>.
 
 
-#### - CpuEventHandle
+### -field CpuEventHandle
 
 [in] The handle of an event object that will be signaled when the signal command is processed. This member must be set only when <b>Flags</b>.<b>EnqueueCpuEvent</b> is specified.
 
 
-#### - hContext
+### -field hContext
 
 [in] A handle to a Direct3D context that signals the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies.
 
 
-#### - ObjectCount
+### -field ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array.
 
 
-#### - ObjectHandleArray
+### -field ObjectHandleArray
 
 [in] An array of handles to the synchronization events that the context that is specified by the <b>hContext</b> member signals. The <b>D3DDDI_MAX_OBJECT_SIGNALED</b> constant, which is defined as 32, indicates the maximum number of synchronization events that the context can signal.
 
 All synchronization objects must be created on the same logical adapter as the  context specified by <b>hContext</b>.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
 
-#### - BroadcastContextCount
+### -field BroadcastContextCount
 
 [in] The number of contexts to broadcast this signal buffer to.
 
 
-#### - BroadcastContext
+### -field BroadcastContext
 
 [in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the additional contexts to broadcast the current signal command to. The <b>D3DDDI_MAX_BROADCAST_CONTEXT</b> constant, which is defined as 64, defines the maximum number of synchronization events that the context can signal to.
 

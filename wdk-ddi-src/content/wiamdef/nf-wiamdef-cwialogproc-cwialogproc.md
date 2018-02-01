@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: FB963A5D-ACB2-4720-95D1-0CA1661A99C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProc method [Imaging Devices], CWiaLogProc interface, CWiaLogProc::CWiaLogProc, CWiaLogProc interface [Imaging Devices], CWiaLogProc method, wiamdef/CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, CWiaLogProc method [Imaging Devices], CWiaLogProc
+ms.keywords: image.cwialogproc_cwialogproc, CWiaLogProc method [Imaging Devices], wiamdef/CWiaLogProc::CWiaLogProc, CWiaLogProc interface [Imaging Devices], CWiaLogProc method, CWiaLogProc::CWiaLogProc, CWiaLogProc method [Imaging Devices], CWiaLogProc interface, CWiaLogProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,12 +76,12 @@ void CWiaLogProc(
 
 
 
-#### - ResourceID
+### -param ResourceID
 
 Defines the <b>INT</b> parameter <i>ResourceID</i>.
 
 
-#### - DetailLevel
+### -param DetailLevel
 
 Defines the <b>INT</b> parameter <i>DetailLevel</i>.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c09840fb-8195-4ac5-a164-ba4d82615344
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryAddCreateItem, stream.ksfilterfactoryaddcreateitem, KsFilterFactoryAddCreateItem function [Streaming Media Devices], avfunc_f4a42084-1d8f-49f8-a6d3-d09304e11049.xml, ks/KsFilterFactoryAddCreateItem
+ms.keywords: avfunc_f4a42084-1d8f-49f8-a6d3-d09304e11049.xml, KsFilterFactoryAddCreateItem function [Streaming Media Devices], ks/KsFilterFactoryAddCreateItem, KsFilterFactoryAddCreateItem, stream.ksfilterfactoryaddcreateitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsFilterFactoryAddCreateItem(
 
 
 
-#### - FilterFactory [in]
+### -param FilterFactory [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure representing the filter factory to which to add a new create item.
 
 
-#### - RefString [in]
+### -param RefString [in]
 
 A pointer to a Unicode text string that identifies the create item.
 
 
-#### - SecurityDescriptor [in, optional]
+### -param SecurityDescriptor [in, optional]
 
 This parameter optionally contains a pointer to a SECURITY_DESCRIPTOR structure for this type of object. See the Microsoft Windows SDK For information about this structure. For related information, see <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>. If <b>NULL</b>, no descriptor is assigned.
 
 
-#### - CreateItemFlags [in]
+### -param CreateItemFlags [in]
 
 See the table for the <b>Flags</b> member of <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>.
 
@@ -109,17 +109,17 @@ For more information, see <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksaddobjectcreateitemtoobjectheader.md">KsAddObjectCreateItemToObjectHeader</a>
-
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
-
-<a href="..\ks\nf-ks-ksqueryobjectcreateitem.md">KsQueryObjectCreateItem</a>
-
-<a href="..\ks\nf-ks-ksaddobjectcreateitemtodeviceheader.md">KsAddObjectCreateItemToDeviceHeader</a>
+<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
 
 <a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>
 
-<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
+<a href="..\ks\nf-ks-ksaddobjectcreateitemtodeviceheader.md">KsAddObjectCreateItemToDeviceHeader</a>
+
+<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+
+<a href="..\ks\nf-ks-ksaddobjectcreateitemtoobjectheader.md">KsAddObjectCreateItemToObjectHeader</a>
+
+<a href="..\ks\nf-ks-ksqueryobjectcreateitem.md">KsQueryObjectCreateItem</a>
 
  
 

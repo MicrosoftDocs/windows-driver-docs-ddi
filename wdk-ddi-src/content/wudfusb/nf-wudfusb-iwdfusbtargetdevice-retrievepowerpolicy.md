@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrievePowerPolicy method, RetrievePowerPolicy, RetrievePowerPolicy method, wdf.iwdfusbtargetdevice_retrievepowerpolicy, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy, umdf.iwdfusbtargetdevice_retrievepowerpolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml
+ms.keywords: IWDFUsbTargetDevice interface, RetrievePowerPolicy method, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, IWDFUsbTargetDevice, RetrievePowerPolicy, umdf.iwdfusbtargetdevice_retrievepowerpolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT RetrievePowerPolicy(
 
 
 
-#### - PolicyType [in]
+### -param PolicyType [in]
 
 The type of WinUsb power policy that the UMDF driver requests.
 
 
-#### - ValueLength [in, out]
+### -param ValueLength [in, out]
 
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrievePowerPolicy</b> supplies in <i>Value</i>. On output, this parameter contains the size that <b>RetrievePowerPolicy</b> requires for <i>Value</i>.
 
 
-#### - Value [out]
+### -param Value [out]
 
 A pointer that receives the buffer that contains the WinUsb power policy.
 
@@ -150,11 +150,11 @@ The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560385">IWDFUsbTargetDevice::SetPowerPolicy</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540275">WinUsb_GetPowerPolicy</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560385">IWDFUsbTargetDevice::SetPowerPolicy</a>
 
  
 

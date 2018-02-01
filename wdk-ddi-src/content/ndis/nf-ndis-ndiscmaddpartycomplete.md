@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00833038-1fff-4103-9508-07cb8cbfa846
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmAddPartyComplete, ndis/NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete, condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndiscmaddpartycomplete, condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, NdisCmAddPartyComplete, ndis/NdisCmAddPartyComplete, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,26 +72,26 @@ VOID NdisCmAddPartyComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies the final status of the call manager's add-party operation, either NDIS_STATUS_SUCCESS
      or any NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-#### - NdisPartyHandle [in]
+### -param NdisPartyHandle [in]
 
 Specifies the handle identifying the party. This handle was input to the call manager's 
      <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
 
 
-#### - CallMgrPartyContext [in, optional]
+### -param CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area in which the call manager will
      maintain party-specific state information if the add-party operation succeeded. Otherwise, this
      parameter can be <b>NULL</b> because it is ignored.
 
 
-#### - CallParameters [in]
+### -param CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that contains the call
@@ -158,8 +158,8 @@ If the CM sets
 
 A call to 
     <b>NdisCmAddPartyComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolcladdpartycomplete" tabindex="0"><i>
-    ProtocolClAddPartyComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">
+    ProtocolClAddPartyComplete</a> function.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmAddPartyComplete</b>. Connection-oriented miniport drivers that provide integrated
@@ -170,18 +170,18 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
  
 

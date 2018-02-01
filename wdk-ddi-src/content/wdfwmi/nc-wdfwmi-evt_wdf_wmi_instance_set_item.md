@@ -76,22 +76,22 @@ NTSTATUS EvtWmiInstanceSetItem(
 
 
 
-#### - WmiInstance [in]
+### -param WmiInstance [in]
 
 A handle to a WMI instance object.
 
 
-#### - DataItemId [in]
+### -param DataItemId [in]
 
 A value that identifies an item of data for a provider instance. This value corresponds to the <a href="https://msdn.microsoft.com/e2d281b3-913c-43ad-921c-80dc8be09aa0">WmiDataId</a> value that is specified in the provider's MOF file.
 
 
-#### - InBufferSize [in]
+### -param InBufferSize [in]
 
 The size, in bytes, of the input buffer that <i>InBuffer</i> points to.
 
 
-#### - InBuffer [in]
+### -param InBuffer [in]
 
 A pointer to the input buffer.
 
@@ -120,11 +120,11 @@ For more information about the <i>EvtWmiInstanceSetItem</i> callback function, s
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 

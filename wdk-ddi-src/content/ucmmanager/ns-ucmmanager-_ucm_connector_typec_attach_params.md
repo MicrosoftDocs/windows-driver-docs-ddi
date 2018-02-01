@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D1D4B9D8-0BBF-4592-9EC8-ED294D6D0C90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, *PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, buses.ucm_connector_typec_attach_params, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure pointer [Buses], ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure [Buses]
+ms.keywords: PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure [Buses], ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure pointer [Buses], *PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, buses.ucm_connector_typec_attach_params, ucmmanager/PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS {
 
 
 
-#### - Size
+### -field Size
 
 Size of the <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure. 
 
@@ -81,12 +81,12 @@ Size of the <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure.
  
 
 
-#### - CurrentAdvertisement
+### -field CurrentAdvertisement
 
 Power sourcing capabilities of: the partner port when <b>PortPartnerType</b> is <b>UcmTypeCPortStateDfp</b>; the local port when <b>PortPartnerType</b> is not <b>UcmTypeCPortStateDfp</b>. 
 
 
-#### - ChargingState
+### -field ChargingState
 
 Optional. Charging state of the port indicated by one of the <a href="..\ucmtypes\ne-ucmtypes-_ucm_charging_state.md">UCM_CHARGING_STATE</a>-typed flags. 
 

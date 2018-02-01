@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ef6fdd4-7d52-436a-96ee-ed83fab33e7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_set_signal_indication, ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATION, WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml
+ms.keywords: netvista.ndis_wwan_set_signal_indication, PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION, _NDIS_WWAN_SET_SIGNAL_INDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SET_SIGNAL_INDICATION {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_SIGNAL_INDICATION
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,19 +118,19 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - SignalIndication
+### -field SignalIndication
 
 A formatted 
-     <mshelp:link keywords="netvista.wwan_set_signal_indication" tabindex="0"><b>
-     WWAN_SET_SIGNAL_INDICATION</b></mshelp:link> object that represents the frequency of RSSI interval and RSSI
+     <a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">
+     WWAN_SET_SIGNAL_INDICATION</a> object that represents the frequency of RSSI interval and RSSI
      threshold notifications.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">WWAN_SET_SIGNAL_INDICATION</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">WWAN_SET_SIGNAL_INDICATION</a>
 
  
 

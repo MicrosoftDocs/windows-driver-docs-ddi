@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 10aadf41-79c4-46d6-a5ae-e8b3b5f338f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml, SeCreateClientSecurity, ntifs/SeCreateClientSecurity, ifsk.secreateclientsecurity, SeCreateClientSecurity routine [Installable File System Drivers]
+ms.keywords: SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml, SeCreateClientSecurity routine [Installable File System Drivers], ifsk.secreateclientsecurity, ntifs/SeCreateClientSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS SeCreateClientSecurity(
 
 
 
-#### - ClientThread [in]
+### -param ClientThread [in]
 
 Pointer to the thread of the client to be impersonated.
 
 
-#### - ClientSecurityQos [in]
+### -param ClientSecurityQos [in]
 
 Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating what form of impersonation is to be performed.
 
@@ -85,7 +85,7 @@ Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating w
 TBD
 
 
-#### - ClientContext [out]
+### -param ClientContext [out]
 
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
 

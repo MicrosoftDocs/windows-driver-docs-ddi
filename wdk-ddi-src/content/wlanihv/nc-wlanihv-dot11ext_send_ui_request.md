@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
   <b>Dot11ExtSendUIRequest</b> function to request user notification or input
   through the 
-  <mshelp:link keywords="netvista.native_802_11_ihv_ui_extensions_dll" tabindex="0">Native 802.11 IHV UI Extensions
-  DLL</mshelp:link>.
+  <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
+  DLL</a>.
 
 
 ## -prototype
@@ -73,7 +73,7 @@ DWORD WINAPI * Dot11ExtSendUIRequest(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -81,11 +81,11 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-#### - pIhvUIRequest [in]
+### -param pIhvUIRequest [in]
 
 A pointer to a caller-allocated buffer, formatted as a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_ui_request" tabindex="0"><b>
-     DOT11EXT_IHV_UI_REQUEST</b></mshelp:link> structure.
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">
+     DOT11EXT_IHV_UI_REQUEST</a> structure.
 
 
 ## -returns
@@ -105,10 +105,10 @@ The IHV Extensions DLL must follow these guidelines when calling the
 <ul>
 <li>
 Requests for event notification by the 
-      <mshelp:link keywords="netvista.native_802_11_ihv_ui_extensions_dll" tabindex="0">Native 802.11 IHV UI Extensions
-      DLL</mshelp:link> are completed through a call to the 
-      <mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
-      Dot11ExtIhvProcessUIResponse</i></mshelp:link> IHV Handler function. The IHV Extensions DLL must not free the
+      <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
+      DLL</a> are completed through a call to the 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_process_ui_response.md">
+      Dot11ExtIhvProcessUIResponse</a> IHV Handler function. The IHV Extensions DLL must not free the
       memory referenced by the 
       <i>pIhvUIRequest</i> parameter until the request is completed.
 
@@ -124,8 +124,8 @@ If the operating system calls the
 </li>
 <li>
 The operating system can query the completion status of the request through a call to the 
-      <mshelp:link keywords="netvista.dot11extihvisuirequestpending" tabindex="0"><i>
-      Dot11ExtIhvIsUIRequestPending</i></mshelp:link> IHV Handler function.
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
+      Dot11ExtIhvIsUIRequestPending</a> IHV Handler function.
 
 </li>
 </ul>
@@ -133,17 +133,17 @@ The operating system can query the completion status of the request through a ca
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvisuirequestpending" tabindex="0"><i>
-   Dot11ExtIhvIsUIRequestPending</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
+   Dot11ExtIhvIsUIRequestPending</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_process_ui_response.md">
+   Dot11ExtIhvProcessUIResponse</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
-   Dot11ExtIhvProcessUIResponse</i></mshelp:link>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
  
 

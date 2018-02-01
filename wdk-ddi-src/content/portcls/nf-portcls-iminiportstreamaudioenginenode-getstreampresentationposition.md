@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportStreamAudioEngineNode, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreampresentationposition, GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
+ms.keywords: IMiniportStreamAudioEngineNode, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, audio.iminiportstreamaudioenginenode_getstreampresentationposition, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS GetStreamPresentationPosition(
 
 
 
-#### - pPresentationPosition [out]
+### -param pPresentationPosition [out]
 
 A <a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a> structure that represents the current cursor position in the audio data stream.
 

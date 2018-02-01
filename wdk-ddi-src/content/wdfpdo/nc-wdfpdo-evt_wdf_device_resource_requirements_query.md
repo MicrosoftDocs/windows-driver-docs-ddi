@@ -74,12 +74,12 @@ NTSTATUS EvtDeviceResourceRequirementsQuery(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - IoResourceRequirementsList [in]
+### -param IoResourceRequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents an empty resource requirements list.
 

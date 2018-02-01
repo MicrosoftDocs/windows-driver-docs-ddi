@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 948331f1-1398-4e6e-85cb-27bbbd79630e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiowmi/PDSM_PARAMETERS, *PDSM_PARAMETERS, _DSM_PARAMETERS, PDSM_PARAMETERS, structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml, DSM_PARAMETERS structure [Storage Devices], DSM_PARAMETERS, PDSM_PARAMETERS structure pointer [Storage Devices], storage.dsm_parameters, mpiowmi/DSM_PARAMETERS
+ms.keywords: storage.dsm_parameters, DSM_PARAMETERS, PDSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], mpiowmi/PDSM_PARAMETERS, structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml, _DSM_PARAMETERS, mpiowmi/DSM_PARAMETERS, PDSM_PARAMETERS structure pointer [Storage Devices], *PDSM_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DSM_PARAMETERS {
 
 
 
-#### - DsmName
+### -field DsmName
 
 A string field of maximum length 63 characters that returns the friendly name of the DSM.
 
 
-#### - DsmContext
+### -field DsmContext
 
 An unsigned 64-bitfield that represents a unique identifier as used by MPIO to address a particular DSM.
 
 
-#### - DsmVersion
+### -field DsmVersion
 
 A field that contains an instance of the DSM_VERSION structure with version information for the DSM.
 
 
-#### - DsmCounters
+### -field DsmCounters
 
 A field that contains an instance of the DSM_COUNTERS structure with timer counters information that is specific to the particular DSM.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9C7BB96-1E26-4D89-9CBE-074232FD0752
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SYSENV_VARIABLE_INFO, ntddsysenv/SYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture], kernel.sysenv_variable_info, ntddsysenv/PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, _SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], *PSYSENV_VARIABLE_INFO
+ms.keywords: kernel.sysenv_variable_info, ntddsysenv/PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture], *PSYSENV_VARIABLE_INFO, ntddsysenv/SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_INFO, _SYSENV_VARIABLE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _SYSENV_VARIABLE_INFO {
 
 
 
-#### - MaximumVariableStorageSize
+### -field MaximumVariableStorageSize
 
 The size of the variable.
 
 
-#### - RemainingVariableStorageSize
+### -field RemainingVariableStorageSize
 
 The remaining size of the variable.
 
 
-#### - MaximumVariableSize
+### -field MaximumVariableSize
 
 The maximum size of the variable.
 

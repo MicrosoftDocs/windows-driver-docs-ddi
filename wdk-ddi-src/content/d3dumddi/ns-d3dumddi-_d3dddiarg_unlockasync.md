@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 27d4a7fa-ac2a-4049-8c9f-5ac9338c70b3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_1b08f2e6-73cd-4390-a9a2-54e604ca5012.xml, d3dumddi/D3DDDIARG_UNLOCKASYNC, display.d3dddiarg_unlockasync, _D3DDDIARG_UNLOCKASYNC, D3DDDIARG_UNLOCKASYNC, D3DDDIARG_UNLOCKASYNC structure [Display Devices]
+ms.keywords: "_D3DDDIARG_UNLOCKASYNC, D3DDDIARG_UNLOCKASYNC structure [Display Devices], display.d3dddiarg_unlockasync, D3DDDIARG_UNLOCKASYNC, d3dumddi/D3DDDIARG_UNLOCKASYNC, UMDisplayDriver_param_Structs_1b08f2e6-73cd-4390-a9a2-54e604ca5012.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_UNLOCKASYNC {
 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the resource to be unlocked. 
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be unlocked.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_unlockasyncflags.md">D3DDDI_UNLOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
 

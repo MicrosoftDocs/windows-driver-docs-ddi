@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5E639331-5929-4575-855F-CAFB4E77B66D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensor_property_list_calculate_max_count, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices]
+ms.keywords: sensors.sensor_property_list_calculate_max_count, sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ FORCEINLINE ULONG SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT(
 
 
 
-#### - pPropertyList [in]
+### -param pPropertyList [in]
 
 A pointer to a <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a> structure.
 

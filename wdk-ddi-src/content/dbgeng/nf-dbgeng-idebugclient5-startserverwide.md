@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7a36f278-45eb-4ee9-9bdf-370c546245c0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::StartServerWide, IDebugClient5 interface [Windows Debugging], StartServerWide method, StartServerWide, debugger.startserverwide, dbgeng/IDebugClient5::StartServerWide, IDebugClient5, StartServerWide method [Windows Debugging], IDebugClient5 interface, StartServerWide method [Windows Debugging]
+ms.keywords: IDebugClient5 interface [Windows Debugging], StartServerWide method, debugger.startserverwide, StartServerWide method [Windows Debugging], IDebugClient5 interface, StartServerWide, StartServerWide method [Windows Debugging], IDebugClient5::StartServerWide, dbgeng/IDebugClient5::StartServerWide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT StartServerWide(
 
 
 
-#### - Options [in]
+### -param Options [in]
 
 Specifies the connections options for this server.  These are the same options given to the <b>.server</b> debugger command or the WinDbg and CDB <b>-server</b> command-line option.  For details on the syntax of this string, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537823">Activating a Debugging Server</a>.
 
@@ -109,11 +109,11 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
+
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
  
 

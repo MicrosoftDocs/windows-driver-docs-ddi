@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aaca14ff-9ea2-43f4-bfa9-9151d855c3af
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetCompletionParams, IWDFIoRequest, GetCompletionParams method, IWDFIoRequest interface, IWDFIoRequest::GetCompletionParams, umdf.iwdfiorequest_getcompletionparams, wdf.iwdfiorequest_getcompletionparams, IWDFIoRequest interface, GetCompletionParams method, wudfddi/IWDFIoRequest::GetCompletionParams, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, GetCompletionParams method
+ms.keywords: IWDFIoRequest interface, GetCompletionParams method, wudfddi/IWDFIoRequest::GetCompletionParams, GetCompletionParams method, IWDFIoRequest, GetCompletionParams method, IWDFIoRequest interface, umdf.iwdfiorequest_getcompletionparams, GetCompletionParams, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, wdf.iwdfiorequest_getcompletionparams, IWDFIoRequest::GetCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetCompletionParams(
 
 
 
-#### - ppCompletionParams [out]
+### -param ppCompletionParams [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a> interface.
 

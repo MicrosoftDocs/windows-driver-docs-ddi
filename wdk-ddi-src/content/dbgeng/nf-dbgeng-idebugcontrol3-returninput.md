@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl2 interface [Windows Debugging], ReturnInput method, debugger.returninput, IDebugControl3::ReturnInput, IDebugControl::ReturnInput, IDebugControl interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl2 interface, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, ReturnInput method [Windows Debugging], IDebugControl interface, IDebugControl2::ReturnInput, dbgeng/IDebugControl::ReturnInput, IDebugControl3 interface [Windows Debugging], ReturnInput method, dbgeng/IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, ReturnInput method [Windows Debugging], ReturnInput
+ms.keywords: IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, ReturnInput method [Windows Debugging], ReturnInput method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], ReturnInput method, dbgeng/IDebugControl2::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl2 interface, IDebugControl2::ReturnInput, dbgeng/IDebugControl::ReturnInput, IDebugControl3, ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], ReturnInput method, debugger.returninput, dbgeng/IDebugControl3::ReturnInput, IDebugControl::ReturnInput, IDebugControl3::ReturnInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT ReturnInput(
 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Specifies the input string being sent to the engine.
 

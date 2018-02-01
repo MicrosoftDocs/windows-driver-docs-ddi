@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Seek method [Print Devices], IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices], Seek method, IPrinterScriptableStream, printerextension/IPrinterScriptableStream::Seek, Seek method [Print Devices], print.iprinterscriptablestream__seek, IPrinterScriptableStream::Seek, Seek
+ms.keywords: IPrinterScriptableStream::Seek, IPrinterScriptableStream interface [Print Devices], Seek method, IPrinterScriptableStream, print.iprinterscriptablestream__seek, Seek method [Print Devices], IPrinterScriptableStream interface, Seek method [Print Devices], printerextension/IPrinterScriptableStream::Seek, Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT Seek(
 
 
 
-#### - lOffset [in]
+### -param lOffset [in]
 
 The displacement to be added to the location indicated by the <i>streamSeek</i> parameter.
 
 
-#### - streamSeek [in]
+### -param streamSeek [in]
 
 The origin for the displacement specified <i>lOffset</i>.
 
 
-#### - plPosition [out, retval]
+### -param plPosition [out, retval]
 
 The new pointer position.
 

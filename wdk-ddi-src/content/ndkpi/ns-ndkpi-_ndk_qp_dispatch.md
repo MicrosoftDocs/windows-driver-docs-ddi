@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C2B50C94-693A-48A2-8458-5722F652C933
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndkpi/NDK_QP_DISPATCH, _NDK_QP_DISPATCH, netvista.ndk_qp_dispatch, NDK_QP_DISPATCH, NDK_QP_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndkpi/NDK_QP_DISPATCH, NDK_QP_DISPATCH structure [Network Drivers Starting with Windows Vista], NDK_QP_DISPATCH, netvista.ndk_qp_dispatch, _NDK_QP_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _NDK_QP_DISPATCH {
 
 
 
-#### - NdkCloseQp
+### -field NdkCloseQp
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a> dispatch function.
 
 
-#### - NdkQueryExtension
+### -field NdkQueryExtension
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
-#### - NdkFlush
+### -field NdkFlush
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_flush.md">NDK_FN_FLUSH</a> dispatch function.
 
 
-#### - NdkSend
+### -field NdkSend
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_send.md">NDK_FN_SEND</a> dispatch function.
 
 
-#### - NdkReceive
+### -field NdkReceive
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a> dispatch function.
 
 
-#### - NdkBind
+### -field NdkBind
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a> dispatch function.
 
 
-#### - NdkFastRegister
+### -field NdkFastRegister
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a> dispatch function.
 
 
-#### - NdkInvalidate
+### -field NdkInvalidate
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a> dispatch function.
 
 
-#### - NdkRead
+### -field NdkRead
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_read.md">NDK_FN_READ</a> dispatch function.
 
 
-#### - NdkWrite
+### -field NdkWrite
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a> dispatch function.
 
 
-#### - NdkSendAndInvalidate
+### -field NdkSendAndInvalidate
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_send_and_invalidate.md">NDK_FN_SEND_AND_INVALIDATE</a> dispatch function.
 
@@ -143,27 +143,27 @@ The <b>NDK_QP_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_flush.md">NDK_FN_FLUSH</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_send.md">NDK_FN_SEND</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_flush.md">NDK_FN_FLUSH</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_read.md">NDK_FN_READ</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
  
 

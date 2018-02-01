@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f27dae6e-2fc7-4e26-84fb-4ce48da3db6b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, kmdf.wdfusbtargetdeviceformatrequestforcycleport, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCYCLEPORT, wdf.wdfusbtargetdeviceformatrequestforcycleport, WdfUsbTargetDeviceFormatRequestForCyclePort method, WdfUsbTargetDeviceFormatRequestForCyclePort, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort
+ms.keywords: wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCYCLEPORT, wdf.wdfusbtargetdeviceformatrequestforcycleport, WdfUsbTargetDeviceFormatRequestForCyclePort, WdfUsbTargetDeviceFormatRequestForCyclePort method, kmdf.wdfusbtargetdeviceformatrequestforcycleport, DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfUsbTargetDeviceFormatRequestForCyclePort(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object. For more information, see the following Remarks section.
 
@@ -146,15 +146,15 @@ For more information about the <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecycleportsynchronously.md">WdfUsbTargetDeviceCyclePortSynchronously</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecycleportsynchronously.md">WdfUsbTargetDeviceCyclePortSynchronously</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
  
 

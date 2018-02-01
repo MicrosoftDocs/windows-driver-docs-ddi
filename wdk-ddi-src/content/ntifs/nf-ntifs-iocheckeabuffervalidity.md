@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1f9a4fcb-0e70-4f13-bd38-e87bee909a26
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoCheckEaBufferValidity, ifsk.iocheckeabuffervalidity, IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml
+ms.keywords: ifsk.iocheckeabuffervalidity, ntifs/IoCheckEaBufferValidity, IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoCheckEaBufferValidity(
 
 
 
-#### - EaBuffer [in]
+### -param EaBuffer [in]
 
 Pointer to the buffer containing the EAs to be checked.
 
 
-#### - EaLength [in]
+### -param EaLength [in]
 
 Length, in bytes, of <i>EaBuffer</i>.
 
 
-#### - ErrorOffset [out]
+### -param ErrorOffset [out]
 
 Pointer to a variable that receives the offset of the offending entry in the EA buffer if an error is found. This variable is only valid if an error occurs.
 
@@ -129,11 +129,11 @@ The actual buffer length is nonnegative.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549346">IRP_MJ_SET_EA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
+
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
  
 

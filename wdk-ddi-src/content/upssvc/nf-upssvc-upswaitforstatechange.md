@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: ac78dda4-6d14-441b-8e79-3245f7253875
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, UPSWaitForStateChange function [Battery Devices], battery.upswaitforstatechange, upssvc/UPSWaitForStateChange, UPSWaitForStateChange
+ms.keywords: upssvc/UPSWaitForStateChange, UPSWaitForStateChange, battery.upswaitforstatechange, UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, UPSWaitForStateChange function [Battery Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,21 +69,11 @@ void UPSWaitForStateChange(
 
 
 
-#### - aCurrentState [in]
+### -param aCurrentState [in]
 
 Specifies the UPS state on which to wait. When the state of the UPS system changes from the specified state to any other state, the function returns. The specified value can be one of the following:
 
 
-
-
-#### UPS_ONLINE
-
-Utility-supplied power is normal.
-
-
-#### UPS_ONBATTERY
-
-Utility-supplied power is inadequate, and the UPS batteries are discharging.
 
 
 #### UPS_LOWBATTERY
@@ -96,7 +86,17 @@ Utility-supplied power is inadequate, and the UPS batteries are critically low.
 Communication with the UPS is not currently established.
 
 
-#### - anInterval [in]
+#### UPS_ONBATTERY
+
+Utility-supplied power is inadequate, and the UPS batteries are discharging.
+
+
+#### UPS_ONLINE
+
+Utility-supplied power is normal.
+
+
+### -param anInterval [in]
 
 Specifies a time-out interval, in milliseconds, for the function. If the UPS state has not changed from the specified state when the interval elapses, the function returns. A value of INFINITE means the interval never elapses.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 384E04BE-794F-4F87-81E5-35B974EB6172
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_UrbAllocate routine [Buses], usbdlib/USBD_UrbAllocate, USBD_UrbAllocate, buses.usbd_urballocate
+ms.keywords: USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, usbdlib/USBD_UrbAllocate, USBD_UrbAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS USBD_UrbAllocate(
 
 
 
-#### - USBDHandle [in]
+### -param USBDHandle [in]
 
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
 
-#### - Urb [out]
+### -param Urb [out]
 
 Pointer to the newly allocated <a href="..\usb\ns-usb-_urb.md">URB</a> structure. All members of the structure are set to zero. The client driver must free the URB when the driver has finished using it by calling <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>.
 
@@ -108,11 +108,11 @@ You must call <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a> t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>
 
 <a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
 
-<a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
  
 

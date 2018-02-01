@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide, ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging]
+ms.keywords: ChangeDebuggeeState, IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeDebuggeeState method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, debugger.idebugeventcallbackswide_changedebuggeestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ChangeDebuggeeState(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the type of changes made to the target.  <i>Flags</i> may take one of the following values:
 <table>
@@ -109,7 +109,7 @@ The target's data space has changed.
 </table> 
 
 
-#### - Argument [in]
+### -param Argument [in]
 
 Provides additional information about the change in the target. The interpretation of the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 

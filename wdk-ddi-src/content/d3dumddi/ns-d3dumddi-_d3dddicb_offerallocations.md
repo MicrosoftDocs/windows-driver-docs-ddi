@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26f3cd7b-ae2e-4632-bfb2-e62839346f83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_offerallocations, d3dumddi/D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS
+ms.keywords: "_D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], d3dumddi/D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,37 +70,37 @@ typedef struct _D3DDDICB_OFFERALLOCATIONS {
 
 
 
-#### - pResources
+### -field pResources
 
 [in] An array of Direct3D runtime handles to resources to offer.
 
 If the user-mode driver uses the array specified by <b>HandleList</b> to offer a list of allocations, it must set <b>pResources</b> to <b>NULL</b>. Conversely, if the driver uses the array specified by <b>pResources</b> to offer a list of resources, it must set <b>HandleList</b> to <b>NULL</b>.
 
 
-#### - HandleList
+### -field HandleList
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to allocations to offer.
 
 If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set in <i>pCreateResource</i>-&gt;<b>BindFlags</b>, offer the resources by their allocation handles, not by their resource handles.
 
 
-#### - NumAllocations
+### -field NumAllocations
 
 [in] The number of items in the <b>pResources</b> or <b>HandleList</b> members, whichever is not <b>NULL</b>.
 
 
-#### - Priority
+### -field Priority
 
 [in] The priority, of type  <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
 <div class="alert"><b>Note</b>  Do not set this member to a value of <b>D3DDDI_OFFER_PRIORITY_NONE</b>.</div><div> </div>
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>
 
  
 

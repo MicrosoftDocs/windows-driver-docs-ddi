@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94797515-3440-46A9-ACBD-09D005A33CE3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure [Display Devices], display.dxgkarg_destroyperiodicframenotification"
+ms.keywords: d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkarg_destroyperiodicframenotification, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION {
 
 
 
-#### - hNotification
+### -field hNotification
 
 A handle to the notification object created by the KMD.
 
 
-#### - hAdapter
+### -field hAdapter
 
 A handle to the adapter that the notification object was created for.
 

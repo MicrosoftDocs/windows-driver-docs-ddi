@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4295ef73-b9a8-4593-8114-d0b836275b13
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetSentIoUndefined, WdfIoTargetCancelSentIo, WdfIoTargetWaitForSentIoToComplete, kmdf.wdf_io_target_sent_io_action, WDF_IO_TARGET_SENT_IO_ACTION enumeration, wdfiotarget/WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetLeaveSentIoPending, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, wdf.wdf_io_target_sent_io_action"
+ms.keywords: WdfIoTargetCancelSentIo, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, kmdf.wdf_io_target_sent_io_action, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, wdfiotarget/WdfIoTargetLeaveSentIoPending, WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, _WDF_IO_TARGET_SENT_IO_ACTION, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, wdf.wdf_io_target_sent_io_action, WdfIoTargetWaitForSentIoToComplete, WdfIoTargetSentIoUndefined, WDF_IO_TARGET_SENT_IO_ACTION enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_IO_TARGET_SENT_IO_ACTION {
 
 
 
-#### - WdfIoTargetSentIoUndefined
+### -field WdfIoTargetSentIoUndefined
 
 Reserved for system use.
 
 
-#### - WdfIoTargetCancelSentIo
+### -field WdfIoTargetCancelSentIo
 
 Before the framework stops the I/O target, it will attempt to cancel I/O requests that are in the I/O target's queue. The framework cancels all of the target queue's I/O requests, and waits for all I/O requests to complete, before <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> returns. The framework also attempts to cancel I/O requests that have left the I/O target's queue and entered lower drivers.
 
 
-#### - WdfIoTargetWaitForSentIoToComplete
+### -field WdfIoTargetWaitForSentIoToComplete
 
 Before the framework stops the I/O target, it will wait for I/O requests that are in the I/O target's queue to be completed. The framework completes all of the target queue's I/O requests, and calls each request's <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, before <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> returns.
 
 
-#### - WdfIoTargetLeaveSentIoPending
+### -field WdfIoTargetLeaveSentIoPending
 
 The framework will leave I/O requests in the I/O target's queue. The requests remain in the target's queue until the driver calls <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a> or the device is removed.
 

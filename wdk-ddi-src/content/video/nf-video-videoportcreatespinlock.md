@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb5f3b3e-3358-4181-9c4d-1871be1a7b7b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportcreatespinlock, VideoPortCreateSpinLock, VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, VideoPortCreateSpinLock function [Display Devices], video/VideoPortCreateSpinLock
+ms.keywords: VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices], video/VideoPortCreateSpinLock, display.videoportcreatespinlock, VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VP_STATUS VideoPortCreateSpinLock(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - SpinLock [out]
+### -param SpinLock [out]
 
 Pointer to a memory location that will receive a pointer to the newly created spin lock.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2c7d31a3-081a-420a-ab61-33700155d858
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface, wdf.wdfusbtargetdevicegetinterface, PFN_WDFUSBTARGETDEVICEGETINTERFACE, kmdf.wdfusbtargetdevicegetinterface, WdfUsbTargetDeviceGetInterface method, DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml
+ms.keywords: WdfUsbTargetDeviceGetInterface, kmdf.wdfusbtargetdevicegetinterface, PFN_WDFUSBTARGETDEVICEGETINTERFACE, WdfUsbTargetDeviceGetInterface method, wdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface, DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ WDFUSBINTERFACE WdfUsbTargetDeviceGetInterface(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-#### - InterfaceIndex [in]
+### -param InterfaceIndex [in]
 
 A zero-based index value that specifies a USB interface object in the current configuration. This index value might not be the same as the interface number that the USB specification defines.
 

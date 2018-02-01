@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26917b2b-abbf-4d1b-b086-104390998a35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension, ExtExtension::HasUnnamedArg, HasUnnamedArg method [Windows Debugging], ExtExtension class, HasUnnamedArg method [Windows Debugging], HasUnnamedArg, EngExtCpp_Ref_5d191b46-bac6-415e-8c02-732ce433f950.xml, debugger.hasunnamedarg, ExtExtension class [Windows Debugging], HasUnnamedArg method
+ms.keywords: HasUnnamedArg method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], HasUnnamedArg method, EngExtCpp_Ref_5d191b46-bac6-415e-8c02-732ce433f950.xml, ExtExtension::HasUnnamedArg, HasUnnamedArg method [Windows Debugging], debugger.hasunnamedarg, ExtExtension, HasUnnamedArg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ bool HasUnnamedArg(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments returned by <a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a> minus one (unnamed arguments - 1).
 
@@ -90,9 +90,9 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+<a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a>
 
  
 

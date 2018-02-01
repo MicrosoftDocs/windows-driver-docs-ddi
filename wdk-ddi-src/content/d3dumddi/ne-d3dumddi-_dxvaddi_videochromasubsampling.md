@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 697b6ac2-9d25-42ad-aac5-44754f19bf2c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_VideoChromaSubsampling_MPEG2, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, _DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, DXVADDI_VideoChromaSubsampling_MPEG1, display.dxvaddi_videochromasubsampling, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVADDI_VideoChromaSubsamplingMask
+ms.keywords: d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VideoChromaSubsampling_Cosited, _DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, display.dxvaddi_videochromasubsampling, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_DV_PAL, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,52 +76,52 @@ typedef enum _DXVADDI_VIDEOCHROMASUBSAMPLING {
 
 
 
-#### - DXVADDI_VideoChromaSubsamplingMask
+### -field DXVADDI_VideoChromaSubsamplingMask
 
 The video chroma subsampling mask. The first four (0x0F) bits of a DWORD can be used to specify video chroma subsampling.
 
 
-#### - DXVADDI_VideoChromaSubsampling_Unknown
+### -field DXVADDI_VideoChromaSubsampling_Unknown
 
 The video chroma subsampling is not specified.
 
 
-#### - DXVADDI_VideoChromaSubsampling_ProgressiveChroma
+### -field DXVADDI_VideoChromaSubsampling_ProgressiveChroma
 
 The video chroma subsampling is progressive.
 
 
-#### - DXVADDI_VideoChromaSubsampling_Horizontally_Cosited
+### -field DXVADDI_VideoChromaSubsampling_Horizontally_Cosited
 
 Chroma samples are aligned on multiples of the luma samples horizontally.
 
 
-#### - DXVADDI_VideoChromaSubsampling_Vertically_Cosited
+### -field DXVADDI_VideoChromaSubsampling_Vertically_Cosited
 
 Chroma samples are aligned on multiples of the luma samples vertically.
 
 
-#### - DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes
+### -field DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes
 
 The Pb and Pr (or Cb and Cr) planes have the same phase alignment. This value can be set only to 0 in the <b>VideoChromaSubsampling</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure if the data is vertically cosited.
 
 
-#### - DXVADDI_VideoChromaSubsampling_MPEG2
+### -field DXVADDI_VideoChromaSubsampling_MPEG2
 
 A bitwise OR of the <b>DXVADDI_VideoChromaSubsampling_Horizontally_Cosited</b> and <b>DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes</b> values that are used with 4:2:0 data.
 
 
-#### - DXVADDI_VideoChromaSubsampling_MPEG1
+### -field DXVADDI_VideoChromaSubsampling_MPEG1
 
 The <b>DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes</b> value that is used with 4:2:0 data.
 
 
-#### - DXVADDI_VideoChromaSubsampling_DV_PAL
+### -field DXVADDI_VideoChromaSubsampling_DV_PAL
 
 A bitwise OR of the <b>DXVADDI_VideoChromaSubsampling_Horizontally_Cosited</b> and <b>DXVADDI_VideoChromaSubsampling_Vertically_Cosited</b> values that are used with 4:2:0 data.
 
 
-#### - DXVADDI_VideoChromaSubsampling_Cosited
+### -field DXVADDI_VideoChromaSubsampling_Cosited
 
 A bitwise OR of the <b>DXVADDI_VideoChromaSubsampling_Horizontally_Cosited</b>, and <b>DXVADDI_VideoChromaSubsampling_Vertically_Cosited</b>, and <b>DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes</b> values that are used with 4:4:4, 4:2:2, and 4:1:1 data.
 

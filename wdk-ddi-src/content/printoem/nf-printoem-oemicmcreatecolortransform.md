@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 995fdac4-e958-4eed-ba3a-7be0349dec59
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemicmcreatecolortransform, printoem/OEMIcmCreateColorTransform, OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices], print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml
+ms.keywords: OEMIcmCreateColorTransform function [Print Devices], print.oemicmcreatecolortransform, print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, OEMIcmCreateColorTransform, printoem/OEMIcmCreateColorTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,38 +76,38 @@ HANDLE APIENTRY OEMIcmCreateColorTransform(
 
 
 
-#### - dhpdev
+### -param dhpdev
 
 
 
-#### - pLogColorSpace
+### -param pLogColorSpace
 
 
 
-#### - pvSourceProfile [in, optional]
+### -param pvSourceProfile [in, optional]
 
 
 
-#### - cjSourceProfile
+### -param cjSourceProfile
 
 
 
-#### - pvDestProfile [in]
+### -param pvDestProfile [in]
 
 
 
-#### - cjDestProfile
+### -param cjDestProfile
 
 
 
-#### - pvTargetProfile [in, optional]
+### -param pvTargetProfile [in, optional]
 
 
 
-#### - cjTargetProfile
+### -param cjTargetProfile
 
 
 
-#### - dwReserved
+### -param dwReserved
 
 

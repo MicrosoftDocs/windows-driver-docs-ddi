@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a169a5b2-5303-41fc-80d2-69b44fd45c47
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], _SetCHAPSharedSecret_OUT, *PSetCHAPSharedSecret_OUT, storage.setchapsharedsecret_out, iscsiop/SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT, iscsiop/PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices]
+ms.keywords: "*PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml, iscsiop/PSetCHAPSharedSecret_OUT, iscsiop/SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], _SetCHAPSharedSecret_OUT, storage.setchapsharedsecret_out, SetCHAPSharedSecret_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetCHAPSharedSecret_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output, the status of the <b>SetCHAPSharedSecret</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.  
 
@@ -81,11 +81,11 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 <a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_in.md">SetCHAPSharedSecret_IN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b6915215-3654-446b-b30d-b891f439a379
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, GetOffsetByName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetOffsetByName method, IDebugSymbols::GetOffsetByName, dbgeng/IDebugSymbols::GetOffsetByName, IDebugSymbols3 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols2 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols2::GetOffsetByName, GetOffsetByName method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetOffsetByName, IDebugSymbols_ef72e546-d27f-4cdf-9eeb-53151680c2d1.xml, debugger.getoffsetbyname, GetOffsetByName method [Windows Debugging], IDebugSymbols3::GetOffsetByName, GetOffsetByName method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetOffsetByName, GetOffsetByName
+ms.keywords: dbgeng/IDebugSymbols3::GetOffsetByName, IDebugSymbols_ef72e546-d27f-4cdf-9eeb-53151680c2d1.xml, debugger.getoffsetbyname, GetOffsetByName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols3::GetOffsetByName, IDebugSymbols interface [Windows Debugging], GetOffsetByName method, GetOffsetByName, IDebugSymbols::GetOffsetByName, GetOffsetByName method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::GetOffsetByName, GetOffsetByName method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetOffsetByName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols2::GetOffsetByName, GetOffsetByName method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT GetOffsetByName(
 
 
 
-#### - Symbol [in]
+### -param Symbol [in]
 
 Specifies the name of the symbol to locate.  The name may be qualified by a module name (for example, <b>mymodule!main</b>).
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the location in the target's memory address space of the base of the symbol's memory allocation.
 
@@ -141,11 +141,11 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

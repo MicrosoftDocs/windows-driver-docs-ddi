@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2e7353d-2c83-4704-bec4-9485ab3c7706
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FCPBINDINGENTRY2 structure [Storage Devices], HBA_FCPBINDINGENTRY2, PHBA_FCPBINDINGENTRY2, *PHBA_FCPBINDINGENTRY2, PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], HBA_FCPBindingEntry2, HBA_FCPBindingEntry2 structure [Storage Devices], hbaapi/HBA_FCPBindingEntry2, structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml, hbaapi/PHBA_FCPBINDINGENTRY2, storage.hba_fcpbindingentry2
+ms.keywords: "*PHBA_FCPBINDINGENTRY2, storage.hba_fcpbindingentry2, HBA_FCPBINDINGENTRY2, hbaapi/HBA_FCPBindingEntry2, HBA_FCPBindingEntry2 structure [Storage Devices], hbaapi/PHBA_FCPBINDINGENTRY2, HBA_FCPBindingEntry2, HBA_FCPBINDINGENTRY2 structure [Storage Devices], PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml, PHBA_FCPBINDINGENTRY2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct HBA_FCPBindingEntry2 {
 
 
 
-#### - type
+### -field type
 
 Contains a binding type that indicates how the target is specified in the binding. This member can have any of the following values: 
 <table>
@@ -136,22 +136,22 @@ For a comparable set of values that define how an HBA specifies targets and logi
 For a more detailed description of the values that this member can have, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-#### - ScsiId
+### -field ScsiId
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that contains the information that uniquely identifies a logical unit for the operating system.
 
 
-#### - FcpId
+### -field FcpId
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
-#### - LUID
+### -field LUID
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a> that holds a logical unit descriptor for the device that the operating system derives from SCSI inquiry data. 
 
 
-#### - Status
+### -field Status
 
 Contains, on return, a status value that indicates the condition of the HBA. The status values that can be returned in this member correspond to the values associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> WMI property qualifier. 
 
@@ -165,19 +165,19 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
+<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
+
+<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
 
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
 
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
-
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
 
  
 

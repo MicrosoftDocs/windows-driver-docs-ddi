@@ -72,27 +72,17 @@ NTSTATUS NdkGetPeerAddress(
 
 
 
-#### - *pNdkConnector [in]
+### -param *pNdkConnector [in]
 
 A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
 
 
-#### - pAddress
+### -param pAddress
 
 A remote address is returned in this buffer.
 
 
-#### - *pAddressLength
-
-The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
-
-
-#### - pNdkConnector [in]
-
-A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
-
-
-#### - pAddressLength
+### -param *pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 

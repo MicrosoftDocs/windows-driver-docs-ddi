@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd61184f-0502-492d-9014-6afbfd70c189
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_pci_properties_ref_46b46f9e-32d9-47fb-ad16-bb8b56a5d5bd.xml, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ntddndis/PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, netvista.ndis_pci_device_custom_properties, *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
+ms.keywords: ntddndis/PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ndis_pci_properties_ref_46b46f9e-32d9-47fb-ad16-bb8b56a5d5bd.xml, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, netvista.ndis_pci_device_custom_properties, ntddndis/NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure [Network Drivers Starting with Windows Vista], *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,7 @@ typedef struct _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -94,13 +94,13 @@ The
      sizeof(NDIS_PCI_DEVICE_CUSTOM_PROPERTIES).
 
 
-#### - DeviceType
+### -field DeviceType
 
 The PCI device type. For example, conventional, PCI-X, PCI-E, and so on. See the definitions for
      DevProp_PciDevice_DeviceType_xxx in pciprop.h.
 
 
-#### - CurrentSpeedAndMode
+### -field CurrentSpeedAndMode
 
 The speed and mode of conventional PCI or PCI-X devices. For conventional PCI devices, see the
      definitions for DevProp_PciDevice_CurrentSpeedAndMode_Pci_Conventional_xxx. For PCI-X devices, see the
@@ -108,67 +108,67 @@ The speed and mode of conventional PCI or PCI-X devices. For conventional PCI de
      conventional PCI and PCI-X devices.
 
 
-#### - CurrentPayloadSize
+### -field CurrentPayloadSize
 
 The current payload size in the transaction layer for a PCI Express device. See definitions for
      DevProp_PciExpressDevice_PayloadOrRequestSize_xxx. This property is valid only for PCI Express
      devices.
 
 
-#### - MaxPayloadSize
+### -field MaxPayloadSize
 
 The maximum payload size in the transaction layer that is supported by a PCI Express device. See
      definitions for DevProp_PciExpressDevice_PayloadOrRequestSize_xxx. This property is valid only for PCI
      Express devices.
 
 
-#### - MaxReadRequestSize
+### -field MaxReadRequestSize
 
 The maximum read request size for a PCI Express device. See definitions for
      DevProp_PciExpressDevice_PayloadOrRequestSize_xxx. This property is valid only for PCI Express
      devices..
 
 
-#### - CurrentLinkSpeed
+### -field CurrentLinkSpeed
 
 The current link speed for the device. This property is applicable to a PCI Express device. See
      the definitions for DevProp_PciExpressDevice_LinkSpeed_xxx. This property is valid only for PCI Express
      devices.
 
 
-#### - CurrentLinkWidth
+### -field CurrentLinkWidth
 
 The current link width of the device. This property is applicable to a PCI express device. See the
      definitions for DevProp_PciExpressDevice_LinkWidth_xxx. This property is valid only for PCI Express
      devices.
 
 
-#### - MaxLinkSpeed
+### -field MaxLinkSpeed
 
 The maximum link speed of an express link for a PCI Express device. See the definitions for
      DevProp_PciExpressDevice_LinkSpeed_xxx. This property is valid only for PCI Express devices..
 
 
-#### - MaxLinkWidth
+### -field MaxLinkWidth
 
 The maximum link width that is implemented by an express link for a PCI Express device. See the
      definitions for DevProp_PciExpressDevice_LinkWidth_xxx. This property is valid only for PCI Express
      devices.
 
 
-#### - PciExpressVersion
+### -field PciExpressVersion
 
 The specification version to which an PCI Express device was built. See the definitions for
      DevProp_PciExpressDevice_Spec_Version_xxx. This property is valid only for PCI Express devices.
 
 
-#### - InterruptType
+### -field InterruptType
 
 The hardware support for interrupts on the PCI Express device. See the definitions for
      DevProp_PciDevice_InterruptType_xxx. This property is valid only for PCI Express devices.
 
 
-#### - MaxInterruptMessages
+### -field MaxInterruptMessages
 
 The number of message interrupts that a PCI Express device supports in hardware. See the
      definition for DevProp_PciDevice_InterruptMessageMaximum. This property is valid only for PCI Express
@@ -183,27 +183,27 @@ Some high performance miniport adapters can adjust the hardware configuration an
     this information during initialization, NDIS queries the custom PCI properties of PCI adapters and
     provides the results in 
     <b>PciDeviceCustomProperties</b> member of the 
-    <mshelp:link keywords="netvista.ndis_miniport_init_parameters" tabindex="0"><b>
-    NDIS_MINIPORT_INIT_PARAMETERS</b></mshelp:link> structure. The type and speed of the PCI bus is also available
+    <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">
+    NDIS_MINIPORT_INIT_PARAMETERS</a> structure. The type and speed of the PCI bus is also available
     through the 
-    <mshelp:link keywords="netvista.oid_gen_pci_device_custom_properties" tabindex="0">
-    OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</mshelp:link> OID request and the 
-    <mshelp:link keywords="netvista.guid_ndis_gen_pci_device_custom_properties" tabindex="0"><b>
-    GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</b></mshelp:link> WMI GUID.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
+    OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a> OID request and the 
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566745">
+    GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a> WMI GUID.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.guid_ndis_gen_pci_device_custom_properties" tabindex="0"><b>
-   GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566745">
+   GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
 
-<mshelp:link keywords="netvista.oid_gen_pci_device_custom_properties" tabindex="0">
-   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
+   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
 
  
 

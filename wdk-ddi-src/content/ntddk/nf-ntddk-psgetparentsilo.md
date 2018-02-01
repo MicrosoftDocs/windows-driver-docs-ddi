@@ -70,7 +70,7 @@ PESILO  PsGetParentSilo(
 
 
 
-#### - Job [in, optional]
+### -param Job [in, optional]
 
 A pointer to an <b>EJOB</b> structure that represents the job object. 
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFC_CX_HOST_ACTION, nfccx/HostActionStop, nfccx/HostActionUnload, nfccx/HostActionRestart, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], *PNFC_CX_HOST_ACTION, HostActionUnload, HostActionStop, HostActionRestart, nfccx/HostActionStart, HostActionStart, _NFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION, nfpdrivers.nfc_cx_host_action
+ms.keywords: HostActionStop, nfccx/HostActionRestart, HostActionUnload, nfpdrivers.nfc_cx_host_action, _NFC_CX_HOST_ACTION, nfccx/HostActionStart, nfccx/NFC_CX_HOST_ACTION, HostActionRestart, NFC_CX_HOST_ACTION, HostActionStart, *PNFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], nfccx/HostActionUnload, nfccx/HostActionStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,31 +70,31 @@ typedef enum _NFC_CX_HOST_ACTION {
 
 
 
-#### - HostActionStart
+### -field HostActionStart
 
 Specifies full initialization.
 
 
-#### - HostActionStop
+### -field HostActionStop
 
 Specifies de-initialization.
 
 
-#### - HostActionRestart
+### -field HostActionRestart
 
 Specifies a full driver restart.
 
 
-#### - HostActionUnload
+### -field HostActionUnload
 
 Specifies to unload the driver.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

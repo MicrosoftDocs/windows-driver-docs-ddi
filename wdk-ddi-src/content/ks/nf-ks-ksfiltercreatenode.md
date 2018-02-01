@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a796bb9-7d55-47da-9a57-2829cd193e23
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterCreateNode function [Streaming Media Devices], ks/KsFilterCreateNode, stream.ksfiltercreatenode, KsFilterCreateNode, avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml
+ms.keywords: KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, KsFilterCreateNode, stream.ksfiltercreatenode, ks/KsFilterCreateNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ KSDDKAPI NTSTATUS NTAPI KsFilterCreateNode(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure on which to create a new topology node.
 
 
-#### - NodeDescriptor [in]
+### -param NodeDescriptor [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a> structure that describes the new node.
 
 
-#### - NodeID [out]
+### -param NodeID [out]
 
 A pointer to a ULONG where AVStream places the ID of the new node.
 

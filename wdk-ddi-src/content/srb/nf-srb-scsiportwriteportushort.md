@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b1accd8-5dbe-47d6-822e-1997a6ab5082
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWritePortUshort, srb/ScsiPortWritePortUshort, ScsiPortWritePortUshort routine [Storage Devices], scsiprt_e7e27190-3f51-4ede-9b4d-fcc437f46d17.xml, storage.scsiportwriteportushort
+ms.keywords: srb/ScsiPortWritePortUshort, storage.scsiportwriteportushort, ScsiPortWritePortUshort routine [Storage Devices], scsiprt_e7e27190-3f51-4ede-9b4d-fcc437f46d17.xml, ScsiPortWritePortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID ScsiPortWritePortUshort(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the value to be written to the HBA's I/O port.
 

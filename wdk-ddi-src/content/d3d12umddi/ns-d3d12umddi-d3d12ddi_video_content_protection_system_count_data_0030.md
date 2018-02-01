@@ -68,12 +68,12 @@ typedef struct _D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030 {
 
 
 
-#### - NodeIndex
+### -field NodeIndex
 
 Node index.
 
 
-#### - ContentProtectionSystemCount
+### -field ContentProtectionSystemCount
 
 Content protection system count.
 

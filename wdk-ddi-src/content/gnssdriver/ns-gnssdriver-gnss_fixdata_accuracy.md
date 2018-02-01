@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 3C08FE5D-1385-4FE3-98C9-9FC530C6C755
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_FIXDATA_ACCURACY, *PGNSS_FIXDATA_ACCURACY, gnssdriver/GNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY structure [Sensor Devices], GNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY structure pointer [Sensor Devices], sensors.gnss_fixdata_accuracy
+ms.keywords: sensors.gnss_fixdata_accuracy, PGNSS_FIXDATA_ACCURACY structure pointer [Sensor Devices], *PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY structure [Sensor Devices], PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY, gnssdriver/PGNSS_FIXDATA_ACCURACY, gnssdriver/GNSS_FIXDATA_ACCURACY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,84 +82,84 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - HorizontalAccuracy
+### -field HorizontalAccuracy
 
 Accuracy reported with 95% confidence.
 
 
-#### - HorizontalErrorMajorAxis
+### -field HorizontalErrorMajorAxis
 
 Horizontal uncertainty ellipse semi-major axis with  95% confidence accuracy.
 
 
-#### - HorizontalErrorMinorAxis
+### -field HorizontalErrorMinorAxis
 
 Horizontal uncertainty ellipse semi-minor axis with  95% confidence accuracy.
 
 
-#### - HorizontalErrorAngle
+### -field HorizontalErrorAngle
 
 Horizontal uncertainty ellipse orientation angle with  95% confidence accuracy.
 
 
-#### - HeadingAccuracy
+### -field HeadingAccuracy
 
 Reserved, do not use.
 
 
-#### - AltitudeAccuracy
+### -field AltitudeAccuracy
 
 Reserved, do not use.
 
 
-#### - SpeedAccuracy
+### -field SpeedAccuracy
 
 Reserved, do not use.
 
 
-#### - HorizontalConfidence
+### -field HorizontalConfidence
 
 Reserved, do not use.
 
 
-#### - HeadingConfidence
+### -field HeadingConfidence
 
 Reserved, do not use.
 
 
-#### - AltitudeConfidence
+### -field AltitudeConfidence
 
 Reserved, do not use.
 
 
-#### - SpeedConfidence
+### -field SpeedConfidence
 
 Reserved, do not use.
 
 
-#### - PositionDilutionOfPrecision
+### -field PositionDilutionOfPrecision
 
 Position dilution of precision (PDOP).
 
 Satellite-based positions with a dilution of precision (DOP) value of 0 or a DOP value higher than 10 may be filtered by the GNSS adapter.
 
 
-#### - HorizontalDilutionOfPrecision
+### -field HorizontalDilutionOfPrecision
 
 Horizontal dilution of precision (HDOP).
 
 
-#### - VerticalDilutionOfPrecision
+### -field VerticalDilutionOfPrecision
 
 Vertical dilution of precision (VDOP).
 

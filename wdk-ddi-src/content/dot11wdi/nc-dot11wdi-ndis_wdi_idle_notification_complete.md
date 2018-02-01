@@ -72,7 +72,7 @@ VOID NdisWdiIdleNotificationComplete(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 The miniport handle.
 

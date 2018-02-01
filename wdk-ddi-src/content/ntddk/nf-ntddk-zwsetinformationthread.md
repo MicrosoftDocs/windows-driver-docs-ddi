@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ec67c643-bc91-4784-b5f4-09a20e8406c3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/ZwSetInformationThread, kernel.zwsetinformationthread, MEMORY_PRIORITY_BELOW_NORMAL, ZwSetInformationThread, k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], MEMORY_PRIORITY_VERY_LOW, NtSetInformationThread, ntddk/NtSetInformationThread, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_NORMAL
+ms.keywords: MEMORY_PRIORITY_VERY_LOW, ZwSetInformationThread, ntddk/NtSetInformationThread, k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, MEMORY_PRIORITY_NORMAL, NtSetInformationThread, MEMORY_PRIORITY_MEDIUM, ntddk/ZwSetInformationThread, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_LOW, kernel.zwsetinformationthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS ZwSetInformationThread(
 
 
 
-#### - ThreadHandle [in]
+### -param ThreadHandle [in]
 
 Handle to the thread object. To create a new thread and get a handle to it, call <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>. To specify the current thread, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566434">ZwCurrentThread</a> macro.
 
 
-#### - ThreadInformationClass [in]
+### -param ThreadInformationClass [in]
 
 One of the system-defined values in the THREADINFOCLASS enumeration (see ntddk.h), <b>ThreadPriority</b>,   <b>ThreadBasePriority</b>,  <b>ThreadPagePriority</b>, or <b>ThreadPowerThrottlingState</b>.
 
 
-#### - ThreadInformation [in]
+### -param ThreadInformation [in]
 
 Pointer to a variable that specifies the information to set. 
 
@@ -155,7 +155,7 @@ Normal memory priority. This is the default priority for all threads and process
 </table> 
 
 
-#### - ThreadInformationLength [in]
+### -param ThreadInformationLength [in]
 
 The size, in bytes, of <b>ThreadInformation</b>. 
 
@@ -187,13 +187,13 @@ To determine the page priority for a thread, call <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
  
 

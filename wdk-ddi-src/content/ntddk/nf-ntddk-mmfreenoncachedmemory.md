@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 284c7e69-50c6-4eef-bcf1-547bc7032a4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml, MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], kernel.mmfreenoncachedmemory, ntddk/MmFreeNonCachedMemory
+ms.keywords: MmFreeNonCachedMemory, ntddk/MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], kernel.mmfreenoncachedmemory, k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID MmFreeNonCachedMemory(
 
 
 
-#### - BaseAddress [in]
+### -param BaseAddress [in]
 
 Pointer to the virtual address of the memory to be freed. 
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies the size of the range to be freed. This value must match the size passed in a preceding call to <b>MmAllocateNonCachedMemory</b>. 
 

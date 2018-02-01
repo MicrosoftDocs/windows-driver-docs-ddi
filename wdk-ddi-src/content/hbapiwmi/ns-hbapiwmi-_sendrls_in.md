@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba78482f-243a-4f60-907e-8d5c4a702ef2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sendrls_in, SendRLS_IN structure [Storage Devices], hbapiwmi/SendRLS_IN, SendRLS_IN, PSendRLS_IN structure pointer [Storage Devices], hbapiwmi/PSendRLS_IN, PSendRLS_IN, _SendRLS_IN, *PSendRLS_IN, structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml
+ms.keywords: SendRLS_IN structure [Storage Devices], SendRLS_IN, hbapiwmi/SendRLS_IN, *PSendRLS_IN, _SendRLS_IN, PSendRLS_IN, hbapiwmi/PSendRLS_IN, structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml, PSendRLS_IN structure pointer [Storage Devices], storage.sendrls_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SendRLS_IN {
 
 
 
-#### - PortWWN
+### -field PortWWN
 
 Contains a worldwide name for the local port through which the read link error status block (RLS) command is sent. 
 
 
-#### - DestWWN
+### -field DestWWN
 
 Contains a worldwide name for the destination port. 
 

@@ -71,12 +71,12 @@ NTSTATUS DxgkDdiQueryInterface(
 
 
 
-#### - MiniportDeviceContext [in]
+### -param MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-#### - QueryInterface [in]
+### -param QueryInterface [in]
 
 A pointer to a <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a> structure in which the display miniport driver should return information about the interface it supports.
 
@@ -121,11 +121,11 @@ Initialize all additional interface-specific members to point to the appropriate
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
-<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
  
 

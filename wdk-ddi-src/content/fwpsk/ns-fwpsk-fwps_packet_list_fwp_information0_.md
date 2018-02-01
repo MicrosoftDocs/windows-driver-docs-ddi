@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2d3faf3-cd3b-4147-8ceb-5b3f0c257939
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0, FWPS_PACKET_LIST_FWP_INFORMATION0_, FWPS_PACKET_LIST_FWP_INFORMATION0, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml, netvista.fwps_packet_list_fwp_information0
+ms.keywords: FWPS_PACKET_LIST_FWP_INFORMATION0_, FWPS_PACKET_LIST_FWP_INFORMATION0, fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0, wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_packet_list_fwp_information0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct FWPS_PACKET_LIST_FWP_INFORMATION0_ {
 
 
 
-#### - isReinjected
+### -field isReinjected
 
 A value that indicates whether the packet data was reinjected by a callout driver.
 
@@ -77,8 +77,8 @@ A value that indicates whether the packet data was reinjected by a callout drive
 
 
 A FWPS_PACKET_LIST_FWP_INFORMATION0 structure is included as a member of the 
-    <mshelp:link keywords="netvista.fwps_packet_list_information0" tabindex="0"><b>
-    FWPS_PACKET_LIST_INFORMATION0</b></mshelp:link> structure.
+    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">
+    FWPS_PACKET_LIST_INFORMATION0</a> structure.
 
 
 

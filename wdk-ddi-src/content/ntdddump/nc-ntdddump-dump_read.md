@@ -72,17 +72,17 @@ NTSTATUS Dump_Read(
 
 
 
-#### - FilterExtension [in]
+### -param FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 
 
-#### - DiskByteOffset [in]
+### -param DiskByteOffset [in]
 
 The value, in bytes, relative to the source partition for the crash dump or hibernation. Filter drivers should not modify this field.
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the data buffer containing the dump data. Filter drivers should not modify this field.
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 155D1C71-7935-4512-8AA2-0EB167FCBF5E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/DecodeLengthType_AnyLength, BarcodeSymbologyDecodeLengthType enumeration, DecodeLengthType_Discrete, DecodeLengthType_AnyLength, DecodeLengthType_Range, _BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType, pos.barcodesymbologydecodelengthtype, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_Range
+ms.keywords: pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pos.barcodesymbologydecodelengthtype, _BarcodeSymbologyDecodeLengthType, DecodeLengthType_AnyLength, DecodeLengthType_Range, pointofservicecommontypes/DecodeLengthType_Range, BarcodeSymbologyDecodeLengthType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _BarcodeSymbologyDecodeLengthType {
 
 
 
-#### - DecodeLengthType_AnyLength
+### -field DecodeLengthType_AnyLength
 
 Decode length can be any length.
 
 
-#### - DecodeLengthType_Discrete
+### -field DecodeLengthType_Discrete
 
 Decode length is two discrete values
 
 
-#### - DecodeLengthType_Range
+### -field DecodeLengthType_Range
 
 Decode length is is a range of values.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, ReadPtr, ReadPtr function [Windows Debugging], debugger.readptr, wdbgexts/ReadPtr
+ms.keywords: debugger.readptr, ReadPtr, WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, ReadPtr function [Windows Debugging], wdbgexts/ReadPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ __inline ULONG ReadPtr(
 
 
 
-#### - Addr
+### -param Addr
 
 Specifies the address of the pointer to read.
 
 
-#### - pPointer
+### -param pPointer
 
 Receives the value of the pointer.  If the target uses 32-bit pointers, the pointer is sign-extended to 64 bits.
 

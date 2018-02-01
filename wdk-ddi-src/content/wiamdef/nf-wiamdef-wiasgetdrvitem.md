@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c09924ef-cd2c-419c-81d5-bbd40b886767
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetDrvItem, wiamdef/wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, image.wiasgetdrvitem, wiasGetDrvItem function [Imaging Devices]
+ms.keywords: wiasGetDrvItem function [Imaging Devices], wiasGetDrvItem, image.wiasgetdrvitem, wiamdef/wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ HRESULT _stdcall wiasGetDrvItem(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 

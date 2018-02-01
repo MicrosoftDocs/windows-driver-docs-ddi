@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintcoreui2_enumfeatures, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, IPrintCoreUI2::EnumFeatures, IPrintCoreUI2, EnumFeatures, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, EnumFeatures method [Print Devices], prcomoem/IPrintCoreUI2::EnumFeatures, EnumFeatures method [Print Devices], IPrintCoreUI2 interface
+ms.keywords: print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, EnumFeatures method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, IPrintCoreUI2::EnumFeatures, EnumFeatures, EnumFeatures method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,29 +72,29 @@ HRESULT EnumFeatures(
 
 
 
-#### - poemuiobj [in]
+### -param poemuiobj [in]
 
 Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-#### - pmszFeatureList [out]
+### -param pmszFeatureList [out]
 
 Pointer to a caller-supplied buffer that receives a null-delimited list of feature keywords in MULTI_SZ format. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the feature list without having the list filled in.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureList</i>.
 
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the feature list.
 
@@ -173,9 +173,9 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
+
+<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
  
 

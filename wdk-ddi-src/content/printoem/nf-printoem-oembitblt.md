@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, OEMBitBlt, print.oembitblt, printoem/OEMBitBlt, OEMBitBlt function [Print Devices]
+ms.keywords: printoem/OEMBitBlt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,46 +78,46 @@ BOOL  APIENTRY OEMBitBlt(
 
 
 
-#### - psoTrg
+### -param psoTrg
 
 
 
-#### - psoSrc
+### -param psoSrc
 
 
 
-#### - psoMask
+### -param psoMask
 
 
 
-#### - pco
+### -param pco
 
 
 
-#### - pxlo
+### -param pxlo
 
 
 
-#### - prclTrg
+### -param prclTrg
 
 
 
-#### - pptlSrc
+### -param pptlSrc
 
 
 
-#### - pptlMask
+### -param pptlMask
 
 
 
-#### - pbo
+### -param pbo
 
 
 
-#### - pptlBrush
+### -param pptlBrush
 
 
 
-#### - rop4
+### -param rop4
 
 

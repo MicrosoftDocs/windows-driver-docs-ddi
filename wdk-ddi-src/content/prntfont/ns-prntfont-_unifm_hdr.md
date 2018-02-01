@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PUNIFM_HDR, UNIFM_HDR, PUNIFM_HDR, prntfont/UNIFM_HDR, print.unifm_hdr, prntfont/PUNIFM_HDR, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, UNIFM_HDR structure [Print Devices], PUNIFM_HDR structure pointer [Print Devices], _UNIFM_HDR"
+ms.keywords: prntfont/PUNIFM_HDR, *PUNIFM_HDR, PUNIFM_HDR, prntfont/UNIFM_HDR, print.unifm_hdr, PUNIFM_HDR structure pointer [Print Devices], print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, _UNIFM_HDR, UNIFM_HDR structure [Print Devices], UNIFM_HDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ typedef struct _UNIFM_HDR {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the total size, in bytes, of the .ufm file. Note that this is the total size of all structures used to define the file. This value is not the size of the UNIFM_HDR structure.
 
 
-#### - dwVersion
+### -field dwVersion
 
 Specifies the file version number, as defined in prntfont.h by a constant with a name format of UNIFM_VERSION_<i>x</i>_<i>x</i>.
 
 
-#### - ulDefaultCodepage
+### -field ulDefaultCodepage
 
 Specifies the code page identifier for the font's default code page. For more information, see the following Remarks section.
 
 
-#### - lGlyphSetDataRCID
+### -field lGlyphSetDataRCID
 
 Specifies an RC_GTT resource identifier that identifies a .gtt (Glyph Translation Table) file, or one of the CC_-prefixed code conversion identifiers defined in prntfont.h. For more information, see the following Remarks section.
 
 
-#### - loUnidrvInfo
+### -field loUnidrvInfo
 
 Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) file to the location of the file's <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a> structure.
 
 
-#### - loIFIMetrics
+### -field loIFIMetrics
 
 Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a> structure.
 
 
-#### - loExtTextMetric
+### -field loExtTextMetric
 
 Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a> structure.
 
 
-#### - loWidthTable
+### -field loWidthTable
 
 Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure.
 
 
-#### - loKernPair
+### -field loKernPair
 
 Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a> structure.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Not used.
 
@@ -189,15 +189,15 @@ The character conversion codes predefined by the system, listed in Prntfont.h, a
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
-
 <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
-
-<a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
 
 <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
 
+<a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
+
 <a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a>
+
+<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
 
 <a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
 

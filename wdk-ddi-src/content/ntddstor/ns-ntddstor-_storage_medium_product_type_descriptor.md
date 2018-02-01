@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AC0C09DF-EFD4-457B-8ABC-C60890D3AF6A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_medium_product_type_descriptor, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices]
+ms.keywords: ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, storage.storage_medium_product_type_descriptor, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices], PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,19 +69,19 @@ typedef struct _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR {
 
 
 
-#### - Version
+### -field Version
 
 Contains the size of this structure, in bytes, as defined by <code>Sizeof(STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR)</code>. The value of this member will change as members are added to 
       the structure. 
 
 
-#### - Size
+### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
 
 
-#### - MediumProductType
+### -field MediumProductType
 
 Specifies the product type of the storage device.
 <table>

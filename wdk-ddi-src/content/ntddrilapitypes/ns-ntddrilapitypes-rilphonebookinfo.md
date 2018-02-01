@@ -84,74 +84,74 @@ typedef struct _RILPHONEBOOKINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwUsed
+### -field dwUsed
 
 
 
-#### - dwTotal
+### -field dwTotal
 
 
 
-#### - dwMaxAddressLength
+### -field dwMaxAddressLength
 
 
 
-#### - dwMaxTextLength
+### -field dwMaxTextLength
 
 
 
-#### - dwMaxAdditionalNumbers
+### -field dwMaxAdditionalNumbers
 
 
 
-#### - dwMaxAdditionalNumberLength
+### -field dwMaxAdditionalNumberLength
 
 
 
-#### - dwMaxAdditionalNumberTextLength
+### -field dwMaxAdditionalNumberTextLength
 
 
 
-#### - dwUsedAdditionalNumberStrings
+### -field dwUsedAdditionalNumberStrings
 
 
 
-#### - dwTotalAdditionalNumberStrings
+### -field dwTotalAdditionalNumberStrings
 
 
 
-#### - dwMaxEmails
+### -field dwMaxEmails
 
 
 
-#### - dwMaxEmailAddressLength
+### -field dwMaxEmailAddressLength
 
 
 
-#### - dwMaxGroups
+### -field dwMaxGroups
 
 
 
-#### - dwMaxGroupStringLength
+### -field dwMaxGroupStringLength
 
 
 
-#### - dwUsedGroupStrings
+### -field dwUsedGroupStrings
 
 
 
-#### - dwTotalGroupStrings
+### -field dwTotalGroupStrings
 
 
 
-#### - dwMaxSecondNameStringLength
+### -field dwMaxSecondNameStringLength
 
 

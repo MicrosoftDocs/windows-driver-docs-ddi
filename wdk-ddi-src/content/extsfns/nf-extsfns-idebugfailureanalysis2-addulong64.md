@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E5FB5911-C6E5-44C1-B33F-75B4DD86A3D9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_addulong64, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddUlong64 method, extsfns/IDebugFailureAnalysis2::AddUlong64, AddUlong64, AddUlong64 method [Windows Debugging], IDebugFailureAnalysis2 interface, AddUlong64 method [Windows Debugging], IDebugFailureAnalysis2::AddUlong64
+ms.keywords: IDebugFailureAnalysis2, AddUlong64, debugger.idebugfailureanalysis2_addulong64, AddUlong64 method [Windows Debugging], IDebugFailureAnalysis2 interface, extsfns/IDebugFailureAnalysis2::AddUlong64, AddUlong64 method [Windows Debugging], IDebugFailureAnalysis2::AddUlong64, IDebugFailureAnalysis2 interface [Windows Debugging], AddUlong64 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,13 +68,13 @@ PFA_ENTRY AddUlong64(
 
 
 
-#### - Tag
+### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_ULONG64</b> or <b>DEBUG_FA_ENTRY_POINTER</b> or <b>DEBUG_FA_ENTRY_INSTRUCTION_OFFSET</b>.
 
 
 
-#### - Value [in]
+### -param Value [in]
 
 The <b>ULONG64</b> value to be written to the data block of the new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a>.
 
@@ -97,13 +97,13 @@ To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDeb
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983421">GetUlong64</a>
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983421">GetUlong64</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 

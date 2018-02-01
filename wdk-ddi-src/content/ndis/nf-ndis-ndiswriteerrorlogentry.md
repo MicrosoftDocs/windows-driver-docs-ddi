@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry, ndis/NdisWriteErrorLogEntry, miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml
+ms.keywords: ndis/NdisWriteErrorLogEntry, miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, netvista.ndiswriteerrorlogentry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteErrorLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ VOID __cdecl NdisWriteErrorLogEntry(
 
 
 
-#### - NdisAdapterHandle [in]
+### -param NdisAdapterHandle [in]
 
 Specifies the handle representing the NIC that is the cause of the I/O error to be logged. This
      handle is an input parameter to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - ErrorCode [in]
+### -param ErrorCode [in]
 
 Specifies the NDIS_ERRROR_CODE_<i>XXX</i> code that best describes the I/O error as one of the following values:
      
@@ -86,19 +86,9 @@ Specifies the NDIS_ERRROR_CODE_<i>XXX</i> code that best describes the I/O error
 
 
 
-#### NDIS_ERROR_CODE_RESOURCE_CONFLICT
+#### NDIS_ERROR_CODE_ADAPTER_DISABLED
 
-The driver could not access a required resource.
-
-
-#### NDIS_ERROR_CODE_OUT_OF_RESOURCES
-
-The hardware or driver ran out of resources.
-
-
-#### NDIS_ERROR_CODE_HARDWARE_FAILURE
-
-The driver detected a hardware error.
+The network adapter hardware is disabled.
 
 
 #### NDIS_ERROR_CODE_ADAPTER_NOT_FOUND
@@ -106,14 +96,9 @@ The driver detected a hardware error.
 The network adapter was not found.
 
 
-#### NDIS_ERROR_CODE_INTERRUPT_CONNECT
+#### NDIS_ERROR_CODE_BAD_IO_BASE_ADDRESS
 
-The interrupt registration failed.
-
-
-#### NDIS_ERROR_CODE_DRIVER_FAILURE
-
-A driver failure occurred that does not match any of the other error conditions.
+The I/O base address for the network adapter hardware is invalid.
 
 
 #### NDIS_ERROR_CODE_BAD_VERSION
@@ -121,19 +106,19 @@ A driver failure occurred that does not match any of the other error conditions.
 The driver detected a version mismatch.
 
 
-#### NDIS_ERROR_CODE_TIMEOUT
+#### NDIS_ERROR_CODE_DRIVER_FAILURE
 
-A timeout expired.
-
-
-#### NDIS_ERROR_CODE_NETWORK_ADDRESS
-
-A network address is invalid.
+A driver failure occurred that does not match any of the other error conditions.
 
 
-#### NDIS_ERROR_CODE_UNSUPPORTED_CONFIGURATION
+#### NDIS_ERROR_CODE_HARDWARE_FAILURE
 
-The requested driver configuration is not supported.
+The driver detected a hardware error.
+
+
+#### NDIS_ERROR_CODE_INTERRUPT_CONNECT
+
+The interrupt registration failed.
 
 
 #### NDIS_ERROR_CODE_INVALID_VALUE_FROM_ADAPTER
@@ -146,9 +131,14 @@ The network adapter hardware provided an invalid value.
 A driver configuration parameter is missing in the registry.
 
 
-#### NDIS_ERROR_CODE_BAD_IO_BASE_ADDRESS
+#### NDIS_ERROR_CODE_NETWORK_ADDRESS
 
-The I/O base address for the network adapter hardware is invalid.
+A network address is invalid.
+
+
+#### NDIS_ERROR_CODE_OUT_OF_RESOURCES
+
+The hardware or driver ran out of resources.
 
 
 #### NDIS_ERROR_CODE_RECEIVE_SPACE_SMALL
@@ -156,12 +146,22 @@ The I/O base address for the network adapter hardware is invalid.
 The amount of receive buffer memory that is available is too small to receive data.
 
 
-#### NDIS_ERROR_CODE_ADAPTER_DISABLED
+#### NDIS_ERROR_CODE_RESOURCE_CONFLICT
 
-The network adapter hardware is disabled.
+The driver could not access a required resource.
 
 
-#### - NumberOfErrorValues [in]
+#### NDIS_ERROR_CODE_TIMEOUT
+
+A timeout expired.
+
+
+#### NDIS_ERROR_CODE_UNSUPPORTED_CONFIGURATION
+
+The requested driver configuration is not supported.
+
+
+### -param NumberOfErrorValues [in]
 
 Specifies the number of ULONG values to follow this parameter.
 

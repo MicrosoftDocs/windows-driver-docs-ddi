@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58a814ab-629e-4528-a349-c469defc0a5a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032, display.d3d12ddi-video-decode-reference-frames-0032, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032 structure [Display Devices], display.d3d12ddi-video-decode-reference-frames-0032, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032 {
 
 
 
-#### - hDrvTexture2Ds
+### -field hDrvTexture2Ds
 
 Texture.
 
 
-#### - pSubresources
+### -field pSubresources
 
 Subresources.
 
 
-#### - hDrvVideoDecoderHeaps
+### -field hDrvVideoDecoderHeaps
 
 Video decoder heaps.
 
 
-#### - NumTexture2Ds
+### -field NumTexture2Ds
 
 The number of textures.
 

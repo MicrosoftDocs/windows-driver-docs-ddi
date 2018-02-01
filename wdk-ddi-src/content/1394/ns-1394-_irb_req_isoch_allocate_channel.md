@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: CE38C189-34C7-40FC-81BE-9688AC9A7420
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IEEE.irb_req_isoch_allocate_channel, IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+ms.keywords: IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IEEE.irb_req_isoch_allocate_channel, _IRB_REQ_ISOCH_ALLOCATE_CHANNEL, 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _IRB_REQ_ISOCH_ALLOCATE_CHANNEL {
 
 
 
-#### - nRequestedChannel
+### -field nRequestedChannel
 
 Specifies the particular channel to allocate, or ISOCH_ANY_CHANNEL for an arbitrary channel. 
 
 
-#### - Channel
+### -field Channel
 
 Specifies the channel allocated, if the request succeeds.
 
 
-#### - ChannelsAvailable
+### -field ChannelsAvailable
 
 A bitmap specifying the available channels. The highest order bit (bit 63) specifies channel 0, the next bit (bit 62) specifies channel 1, and so on.
 <div class="alert"><b>Note</b>  Drivers should not rely on this information  because another device may allocate or deallocate channels at any time. The bus driver fills in this member, even if the request fails.</div><div> </div>

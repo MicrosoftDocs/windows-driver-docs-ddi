@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetOpenByName, WdfIoTargetOpenUndefined, WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, _WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenUndefined, wdfiotarget/WdfIoTargetOpenReopen, WDF_IO_TARGET_OPEN_TYPE enumeration, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenUseExistingDevice, WdfIoTargetOpenByName, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, kmdf.wdf_io_target_open_type, WdfIoTargetOpenUseExistingDevice, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdf.wdf_io_target_open_type
+ms.keywords: WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WdfIoTargetOpenUndefined, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, WDF_IO_TARGET_OPEN_TYPE enumeration, kmdf.wdf_io_target_open_type, _WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenUseExistingDevice, wdfiotarget/WdfIoTargetOpenByName, WdfIoTargetOpenUseExistingDevice, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenReopen, wdf.wdf_io_target_open_type, WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenUndefined, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,29 +74,29 @@ typedef enum _WDF_IO_TARGET_OPEN_TYPE {
 
 
 
-#### - WdfIoTargetOpenUndefined
+### -field WdfIoTargetOpenUndefined
 
 Reserved for system use.
 
 
-#### - WdfIoTargetOpenUseExistingDevice
+### -field WdfIoTargetOpenUseExistingDevice
 
 This value is supported by KMDF only.
 
 The driver is identifying a remote I/O target by supplying a pointer to a Windows Driver Model (WDM) <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-#### - WdfIoTargetOpenByName
+### -field WdfIoTargetOpenByName
 
 The driver is opening a remote I/O target by supplying a Unicode name string that represents an <a href="https://msdn.microsoft.com/b30e7475-7f94-4993-b373-8e4a8b1bcb4c">object name</a>. This name can identify a device, file, or device interface.
 
 
-#### - WdfIoTargetOpenReopen
+### -field WdfIoTargetOpenReopen
 
 The driver is reopening a remote I/O target after previously calling <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>. For more information, see the following Remarks section.
 
 
-#### - WdfIoTargetOpenLocalTargetByFile
+### -field WdfIoTargetOpenLocalTargetByFile
 
 This value is supported by UMDF only.
 
@@ -123,15 +123,15 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
+<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
 
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
 
  
 

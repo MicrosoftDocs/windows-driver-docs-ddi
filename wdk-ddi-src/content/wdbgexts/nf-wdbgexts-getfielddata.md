@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e60c2288-fe25-4da5-9b17-6e95a30e7c1c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_898dacb4-308c-4a8f-99e2-030adf2b0eae.xml, GetFieldData, debugger.getfielddata, GetFieldData function [Windows Debugging], wdbgexts/GetFieldData
+ms.keywords: debugger.getfielddata, wdbgexts/GetFieldData, GetFieldData, GetFieldData function [Windows Debugging], WdbgExts_Ref_898dacb4-308c-4a8f-99e2-030adf2b0eae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,31 +72,31 @@ __inline ULONG GetFieldData(
 
 
 
-#### - TypeAddress [in]
+### -param TypeAddress [in]
 
 Specifies the address of the structure in the target's memory.
 
 
-#### - Type [in]
+### -param Type [in]
 
 Specifies the name of the type of the structure.  This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
 
-#### - Field [in]
+### -param Field [in]
 
 Specifies the name of the member in the structure whose value will be returned.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield".
 
 If the size of the structure pointed to by <i>TypeAddress</i> is less than 8 bytes, <i>Field</i> can be <b>NULL</b>; in this case, the entire structure is copied to <i>pOutValue</i>.
 
 
-#### - OutSize [in]
+### -param OutSize [in]
 
 Specifies the size, in bytes, of the buffer <i>pOutValue</i>.
 
 If <i>OutSize</i> is smaller than the size of the value returned, an error message is printed and an exception is raised; if the exception is handled or ignored, the return value is zero. In this case, the data beyond the end of the buffer referred to by <i>pOutValue</i> might be overwritten.
 
 
-#### - pOutValue [out]
+### -param pOutValue [out]
 
 Receives the value of the member.  Or, the value of the type, if <i>Field</i> is <b>NULL</b>.
 

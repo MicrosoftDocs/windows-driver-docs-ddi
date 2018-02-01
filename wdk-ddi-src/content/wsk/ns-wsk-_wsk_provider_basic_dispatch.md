@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15cd5336-fe29-4a59-8071-04c802552a5a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WSK_PROVIDER_BASIC_DISPATCH, wskref_eac2fecd-6800-4c2f-b636-bcc103c99377.xml, netvista.wsk_provider_basic_dispatch, _WSK_PROVIDER_BASIC_DISPATCH, PWSK_PROVIDER_BASIC_DISPATCH, *PWSK_PROVIDER_BASIC_DISPATCH, PWSK_PROVIDER_BASIC_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wsk/PWSK_PROVIDER_BASIC_DISPATCH, wsk/WSK_PROVIDER_BASIC_DISPATCH, WSK_PROVIDER_BASIC_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: wsk/PWSK_PROVIDER_BASIC_DISPATCH, PWSK_PROVIDER_BASIC_DISPATCH, PWSK_PROVIDER_BASIC_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_provider_basic_dispatch, wskref_eac2fecd-6800-4c2f-b636-bcc103c99377.xml, wsk/WSK_PROVIDER_BASIC_DISPATCH, _WSK_PROVIDER_BASIC_DISPATCH, *PWSK_PROVIDER_BASIC_DISPATCH, WSK_PROVIDER_BASIC_DISPATCH structure [Network Drivers Starting with Windows Vista], WSK_PROVIDER_BASIC_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct _WSK_PROVIDER_BASIC_DISPATCH {
 
 
 
-#### - WskControlSocket
+### -field WskControlSocket
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a> function for the
      socket.
 
 
-#### - WskCloseSocket
+### -field WskCloseSocket
 
 A pointer to the WSK subsystem's 
      <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function for the
@@ -96,12 +96,12 @@ A WSK application receives a pointer to a WSK_PROVIDER_BASIC_DISPATCH structure 
     WSK subsystem.
 
 The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the 
-    <mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-    WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>, 
-    <mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-    WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>, and 
-    <mshelp:link keywords="netvista.wsk_provider_listen_dispatch" tabindex="0"><b>
-    WSK_PROVIDER_LISTEN_DISPATCH</b></mshelp:link> structures. The 
+    <a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+    WSK_PROVIDER_CONNECTION_DISPATCH</a>, 
+    <a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+    WSK_PROVIDER_DATAGRAM_DISPATCH</a>, and 
+    <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">
+    WSK_PROVIDER_LISTEN_DISPATCH</a> structures. The 
     <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a> and 
     <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> functions that are included
     in the WSK_PROVIDER_BASIC_DISPATCH structure are supported by all of the 
@@ -111,21 +111,21 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
  
 

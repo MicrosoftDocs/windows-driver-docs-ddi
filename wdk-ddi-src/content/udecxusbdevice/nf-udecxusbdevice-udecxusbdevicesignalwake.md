@@ -70,7 +70,7 @@ void UdecxUsbDeviceSignalWake(
 
 
 
-#### - UdecxUsbDevice [in]
+### -param UdecxUsbDevice [in]
 
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cfc3e62-3398-435a-b603-fb7638ed8ce9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILRADIOSTATEITEM, netvista.rilradiostateitem_2, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], RILRADIOSTATEITEM, rilapitypes/RILRADIOSTATEITEM"
+ms.keywords: RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRADIOSTATEITEM, netvista.rilradiostateitem_2, *LPRILRADIOSTATEITEM, RILRADIOSTATEITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,7 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
-#### - itemValueUnion
+### -field itemValueUnion
 
 
 
@@ -128,63 +128,31 @@ typedef struct _RILRADIOSTATEITEM {
  
 
 
-#### - RILITEMVALUEUNION
+### -field RILITEMVALUEUNION
 
 
 
-#### - dwItemId
+### -field dwItemId
 
 
 
-#### - dwItemFlag
+### -field dwItemFlag
 
 
 
-#### - dwItemAttributes
+### -field dwItemAttributes
 
 
 
-#### - wszFriendlyName
+### -field wszFriendlyName
 
 
 
-#### - wszItemValueOptions
+### -field wszItemValueOptions
 
 
 
-#### - switch_is
-
-
-
-#### - intVal
-
-
-
-#### - case
-
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
-
-
-
-#### - uintVal
-
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
-
-
-
-#### - wszVal
-
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
-
-
-
-#### - intArray
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
 
 
 
@@ -192,7 +160,7 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
-#### - uintArray
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
 
 
 
@@ -200,10 +168,42 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
+
+
+
 #### - byteArray
 
 
 
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
+#### - case
+
+
+
+#### - intArray
+
+
+
+#### - intVal
+
+
+
+#### - switch_is
+
+
+
+#### - uintArray
+
+
+
+#### - uintVal
+
+
+
+#### - wszVal
 
 

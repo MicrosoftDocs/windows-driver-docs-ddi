@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f8baaa47-9b3a-4a85-8943-0878105bb5fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_RESOLVESHAREDRESOURCE, D3DDDIARG_RESOLVESHAREDRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_94131b1d-aa0e-4d9a-92b5-baca06cf8247.xml, display.d3dddiarg_resolvesharedresource, D3DDDIARG_RESOLVESHAREDRESOURCE, _D3DDDIARG_RESOLVESHAREDRESOURCE
+ms.keywords: D3DDDIARG_RESOLVESHAREDRESOURCE structure [Display Devices], D3DDDIARG_RESOLVESHAREDRESOURCE, _D3DDDIARG_RESOLVESHAREDRESOURCE, d3dumddi/D3DDDIARG_RESOLVESHAREDRESOURCE, UMDisplayDriver_param_Structs_94131b1d-aa0e-4d9a-92b5-baca06cf8247.xml, display.d3dddiarg_resolvesharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDIARG_RESOLVESHAREDRESOURCE {
 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the surface that the driver uses as a shared surface or in GDI interoperability. 
 

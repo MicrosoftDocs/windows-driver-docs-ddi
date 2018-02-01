@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 52530081-1518-4A80-A341-DEF71DAA8AC7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/P_BDA_USERACTIVITY_INTERVAL, P_BDA_USERACTIVITY_INTERVAL structure pointer [Streaming Media Devices], P_BDA_USERACTIVITY_INTERVAL, bdatypes/BDA_USERACTIVITY_INTERVAL, BDA_USERACTIVITY_INTERVAL, *P_BDA_USERACTIVITY_INTERVAL, stream.bda_useractivity_interval, _BDA_USERACTIVITY_INTERVAL, BDA_USERACTIVITY_INTERVAL structure [Streaming Media Devices]
+ms.keywords: P_BDA_USERACTIVITY_INTERVAL structure pointer [Streaming Media Devices], *P_BDA_USERACTIVITY_INTERVAL, P_BDA_USERACTIVITY_INTERVAL, BDA_USERACTIVITY_INTERVAL, stream.bda_useractivity_interval, _BDA_USERACTIVITY_INTERVAL, bdatypes/P_BDA_USERACTIVITY_INTERVAL, bdatypes/BDA_USERACTIVITY_INTERVAL, BDA_USERACTIVITY_INTERVAL structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,10 +68,10 @@ typedef struct _BDA_USERACTIVITY_INTERVAL {
 
 
 
-#### - lResult
+### -field lResult
 
 
 
-#### - ulActivityInterval
+### -field ulActivityInterval
 
 

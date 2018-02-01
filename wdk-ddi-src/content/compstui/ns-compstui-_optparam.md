@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, compstui/OPTPARAM, *POPTPARAM, print.optparam, POPTPARAM, compstui/POPTPARAM, OPTPARAM structure [Print Devices], _OPTPARAM, OPTPARAM, POPTPARAM structure pointer [Print Devices]
+ms.keywords: POPTPARAM structure pointer [Print Devices], compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam, compstui/OPTPARAM, POPTPARAM, _OPTPARAM, *POPTPARAM, OPTPARAM, OPTPARAM structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _OPTPARAM {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Size, in bytes, of the OPTPARAM structure.
 
 
-#### - Flags
+### -field Flags
 
 Optional bit flags that modify the parameter's characteristics. The following flags can be set in any combination:
 
@@ -166,27 +166,27 @@ If not set, <b>lParam</b> contains a template resource identifier.
 (Used only if <b>Style</b> is PUSHBUTTON_TYPE_DLGPROC.)
 
 
-#### - Style
+### -field Style
 
 Push button style, used only for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562844">TVOT_PUSHBUTTON</a> option type.
 
 
-#### - pData
+### -field pData
 
 Pointer to the parameter's value. Use of this member is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
 
-#### - IconID
+### -field IconID
 
 Usually identifies the icon to be associated with the option parameter, but is sometimes used for other purposes. Use of this member is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
 
-#### - lParam
+### -field lParam
 
 Use of this member is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Reserved, must be initialized to zero.
 

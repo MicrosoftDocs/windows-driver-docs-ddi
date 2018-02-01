@@ -73,21 +73,21 @@ VOID NdisTcpOffloadSendComplete(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> function.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      The offload target obtained these structures in one or more calls to its 
-     <mshelp:link keywords="netvista.miniporttcpoffloadsend" tabindex="0"><i>
-     MiniportTcpOffloadSend</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">
+     MiniportTcpOffloadSend</a> function.
 
 
 ## -returns
@@ -119,8 +119,8 @@ Write a status value to the
 <li>NDIS_STATUS_SUCCESS indicates that all data associated with the NET_BUFFER_LIST was successfully
        sent by the offload target and that the offload target received from the remote host an acknowledgment
        for all the transmitted data. Note that this differs from the non-offload send function, 
-       <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-       MiniportSendNetBufferLists</i></mshelp:link>, which does not monitor acknowledgments.</li>
+       <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+       MiniportSendNetBufferLists</a>, which does not monitor acknowledgments.</li>
 <li>A status value other than NDIS_STATUS_SUCCESS--for example, a status value of
        NDIS_STATUS_REQUEST_ABORTED or NDIS_STATUS_UPLOAD_IN_PROGRESS--indicates that the send data was not
        successfully acknowledged. The offload target might or might not have sent the data. The offload
@@ -153,8 +153,8 @@ Specify the number of data bytes sent. The offload target does this by calling t
 </li>
 <li>
 Call the 
-      <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-      NdisAdvanceNetBufferDataStart</b></mshelp:link> function for each NET_BUFFER structure that is associated with the
+      <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+      NdisAdvanceNetBufferDataStart</a> function for each NET_BUFFER structure that is associated with the
       NET_BUFFER_LIST structure. The 
       <i>NetBuffer</i> parameter passed to the 
       <b>NdisAdvanceNetBufferDataStart</b> function should point to the NET_BUFFER structure. The 
@@ -168,18 +168,18 @@ Call the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

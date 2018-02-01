@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8b13348-71a6-4981-8c99-6368fa0f01ff
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices], display.d3dkmt-unorderedpresentswapchain, D3DKMT_UNORDEREDPRESENTSWAPCHAIN, _D3DKMT_UNORDEREDPRESENTSWAPCHAIN
+ms.keywords: display.d3dkmt-unorderedpresentswapchain, D3DKMT_UNORDEREDPRESENTSWAPCHAIN, _D3DKMT_UNORDEREDPRESENTSWAPCHAIN, d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMT_UNORDEREDPRESENTSWAPCHAIN {
 
 
 
-#### - hNtSwapChain
+### -field hNtSwapChain
 
 NT handle for the swapchain in this process.
 
 
-#### - bProducer
+### -field bProducer
 
 Indicates if producer or consumer.
 
 
-#### - PresentBufferIdx
+### -field PresentBufferIdx
 
 Index of the buffer to present.
 
 
-#### - MetaDataSize
+### -field MetaDataSize
 
 Size of the metadata.
 
 
-#### - pMetaData
+### -field pMetaData
 
 A pointer to the metadata for the frame.
 

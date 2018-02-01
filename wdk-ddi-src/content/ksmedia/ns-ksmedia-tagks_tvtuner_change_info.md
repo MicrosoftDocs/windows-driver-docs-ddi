@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7bb04fbb-2894-4148-88c2-fbbebb000ec9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_TVTUNER_CHANGE_INFO, ksmedia/PKS_TVTUNER_CHANGE_INFO, stream.ks_tvtuner_change_info, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml, tagKS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], KS_TVTUNER_CHANGE_INFO, ksmedia/KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices]
+ms.keywords: PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices], tagKS_TVTUNER_CHANGE_INFO, ksmedia/KS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml, KS_TVTUNER_CHANGE_INFO, stream.ks_tvtuner_change_info, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], ksmedia/PKS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct tagKS_TVTUNER_CHANGE_INFO {
 
 
 
-#### - dwFlags
+### -field dwFlags
 
 Specifies flags indicating the status of the tuning operation. This member must be set to one of the following values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -101,17 +101,17 @@ Indicates completion of a tuning operation. VBI codecs should resume decoding.
 </table> 
 
 
-#### - dwCountryCode
+### -field dwCountryCode
 
 Specifies the country code in use. This corresponds to the International Telecommunications Unit (ITU) long distance dialing code.
 
 
-#### - dwAnalogVideoStandard
+### -field dwAnalogVideoStandard
 
 Specifies the current analog video standard. This member should be set to a value from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
 
 
-#### - dwChannel
+### -field dwChannel
 
 Specifies the current channel number.
 

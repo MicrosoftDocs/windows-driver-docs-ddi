@@ -75,12 +75,12 @@ NTSTATUS DxgkCbWriteDeviceSpace(
 
 
 
-#### - DeviceHandle [in]
+### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-#### - DataType [in]
+### -param DataType [in]
 
 The type of write transaction to be performed. This parameter must be one of the following values, which are defined in <i>Dispmprt.h</i>:
 
@@ -107,22 +107,22 @@ Write to the configuration space of a memory controller hub that is a peer to th
 Write to the display adapter's expansion ROM.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer that supplies the data to be written to the configuration space.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 The offset, in bytes, into the configuration space, at which the write transaction begins.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to be written.
 
 
-#### - BytesWritten [out]
+### -param BytesWritten [out]
 
 A pointer to a ULONG-typed variable that receives the number of bytes actually written.
 

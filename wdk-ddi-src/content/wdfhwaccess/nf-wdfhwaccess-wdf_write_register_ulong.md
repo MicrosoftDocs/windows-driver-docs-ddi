@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C2EBA90C-3F36-45AC-9344-DFB1824A66B9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WRITE_REGISTER_ULONG, wdf.wdf_write_register_ulong, wdfhwaccess/WDF_WRITE_REGISTER_ULONG, WDF_WRITE_REGISTER_ULONG function
+ms.keywords: wdf.wdf_write_register_ulong, WDF_WRITE_REGISTER_ULONG function, WDF_WRITE_REGISTER_ULONG, wdfhwaccess/WDF_WRITE_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ void WDF_WRITE_REGISTER_ULONG(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a ULONG value to write to the register.
 

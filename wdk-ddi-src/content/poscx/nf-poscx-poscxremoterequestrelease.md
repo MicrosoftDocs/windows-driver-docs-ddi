@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1755E30C-15F8-41A9-9F4C-26455C92B66A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxRemoteRequestRelease, PosCxRemoteRequestRelease, pos.poscxremoterequestrelease, PosCxRemoteRequestRelease function
+ms.keywords: pos.poscxremoterequestrelease, poscx/PosCxRemoteRequestRelease, PosCxRemoteRequestRelease function, PosCxRemoteRequestRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS PosCxRemoteRequestRelease(
 
 
 
-#### - device [in]
+### -param device [in]
 
 A handle to a framework device object that represents the device.
 
 
-#### - deviceInterfaceTag [in]
+### -param deviceInterfaceTag [in]
 
 The device interface that initiated the release request.
 

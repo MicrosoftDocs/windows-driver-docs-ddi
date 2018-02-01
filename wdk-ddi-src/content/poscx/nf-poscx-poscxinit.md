@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 23FEA770-12E1-44EC-901D-5C660F5F054A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxinit, PosCxInit function, PosCxInit, poscx/PosCxInit
+ms.keywords: poscx/PosCxInit, PosCxInit function, PosCxInit, pos.poscxinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS PosCxInit(
 
 
 
-#### - device [in]
+### -param device [in]
 
 A handle to a framework device object that represents the device.
 
 
-#### - posCxAttrPtr [in]
+### -param posCxAttrPtr [in]
 
 A pointer to a caller-allocated and initialized <a href="..\poscx\ns-poscx-_pos_cx_attributes.md">POS_CX_ATTRIBUTES</a> structure. The structure should be initialized with <a href="..\poscx\nf-poscx-pos_cx_attributes_init.md">POS_CX_ATTRIBUTES_INIT</a>.
 

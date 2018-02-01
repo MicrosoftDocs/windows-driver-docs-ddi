@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 615A19E7-ED3B-4C41-9B3B-F4FB77811BC2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.read_register_buffer_ulong, READ_REGISTER_BUFFER_ULONG function, READ_REGISTER_BUFFER_ULONG, wdf.read_register_buffer_ulong, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG
+ms.keywords: READ_REGISTER_BUFFER_ULONG, umdf.read_register_buffer_ulong, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG, wdf.read_register_buffer_ulong, READ_REGISTER_BUFFER_ULONG function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void READ_REGISTER_BUFFER_ULONG(
 
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a buffer into which an array of ULONG values is read.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to be read into the buffer.
 

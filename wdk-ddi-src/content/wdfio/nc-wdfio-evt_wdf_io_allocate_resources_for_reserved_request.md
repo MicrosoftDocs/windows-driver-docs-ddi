@@ -74,12 +74,12 @@ NTSTATUS EvtIoAllocateResourcesForReservedRequest(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to an I/O queue object.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a request object that the framework has created for use during future low-memory situations.
 
@@ -122,11 +122,11 @@ For more information about the <i>EvtIoAllocateResourcesForReservedRequest</i> c
 
 ## -see-also
 
+<a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
+
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_request_resources.md">EvtIoAllocateRequestResources</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestisreserved.md">WdfRequestIsReserved</a>
-
-<a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
 
  
 

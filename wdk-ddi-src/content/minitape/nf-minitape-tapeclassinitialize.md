@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c70ca5-2caf-4758-99bb-221af0a79211
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: minitape/TapeClassInitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml, TapeClassInitialize, TapeClassInitialize routine [Storage Devices], storage.tapeclassinitialize
+ms.keywords: minitape/TapeClassInitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml, TapeClassInitialize routine [Storage Devices], TapeClassInitialize, storage.tapeclassinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG TapeClassInitialize(
 
 
 
-#### - Argument1 [in]
+### -param Argument1 [in]
 
 Pointer to driver context information that was passed to the tape miniclass driver's <b>DriverEntry</b> routine. The format of the information is operating system-specific and must not be interpreted by a tape miniclass driver.
 
 
-#### - Argument2 [in]
+### -param Argument2 [in]
 
 Pointer to the second driver context structure that was passed to the tape miniclass driver's<b> DriverEntry</b> routine. The format of the information is operating system-specific and must not be interpreted by a tape miniclass driver.
 
 
-#### - TapeInitData [in]
+### -param TapeInitData [in]
 
 Pointer to a TAPE_INIT_DATA_EX structure containing driver-specific information such as the entry points for the tape miniclass driver's command processing routines.
 

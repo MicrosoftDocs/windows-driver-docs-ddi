@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ae1ed49-af07-4e34-80fa-34a55c973cfb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_sendmsg, rilapi/RIL_SendMsg, RIL_SendMsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SendMsg, netvista.ril_sendmsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ HRESULT  RIL_SendMsg(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 
-#### - lpMessage
+### -param lpMessage
 
 
 
-#### - dwOptions
+### -param dwOptions
 
 
 

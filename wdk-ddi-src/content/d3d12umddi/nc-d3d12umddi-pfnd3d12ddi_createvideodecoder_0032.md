@@ -69,24 +69,19 @@ HRESULT APIENTRY* PFND3D12DDI_CREATEVIDEODECODER_0032(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - *pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to create a video decoder.
 
 
-#### - hDrvVideoDecoder
+### -param hDrvVideoDecoder
 
 The video decoder.
-
-
-#### - pArgs [in]
-
-The arguments used to create a video decoder.
 
 
 ## -returns

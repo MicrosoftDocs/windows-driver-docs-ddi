@@ -74,14 +74,14 @@ NDIS_STATUS FilterDirectOidRequest(
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - OidRequest [in]
+### -param OidRequest [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
@@ -120,8 +120,8 @@ A pointer to an
 <td width="60%">
 The filter driver will complete the request asynchronously. After the driver completes the
        request, it must call the 
-       <mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-       NdisFDirectOidRequestComplete</b></mshelp:link> function to inform NDIS that the request is complete.
+       <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+       NdisFDirectOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 </td>
 </tr>
@@ -235,8 +235,8 @@ For a set operation, the data that was supplied in the
 <i>FilterDirectOidRequest</i> is an optional function. If a filter driver does not use
     direct OID requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
     <b>NdisFRegisterFilterDriver</b> function. If a filter driver defines a 
-    <mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
-    FilterDirectOidRequestComplete</i></mshelp:link> function, it must provide the 
+    <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+    FilterDirectOidRequestComplete</a> function, it must provide the 
     <i>FilterDirectOidRequest</i> function.
 
 NDIS calls the filter driver's 
@@ -250,13 +250,13 @@ Before the driver calls
     <b>NdisFDirectOidRequest</b>, the driver must allocate an 
     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure and transfer the
     request information to the new structure by calling the 
-    <mshelp:link keywords="netvista.ndisallocatecloneoidrequest" tabindex="0"><b>
-    NdisAllocateCloneOidRequest</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">
+    NdisAllocateCloneOidRequest</a> function.
 
 To complete a request synchronously, the filter driver returns NDIS_STATUS_SUCCESS or a failure
     status. If the driver returns NDIS_STATUS_PENDING, it must call the 
-    <mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-    NdisFDirectOidRequestComplete</b></mshelp:link> function to inform NDIS that the request is complete.
+    <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+    NdisFDirectOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 For a query operation, 
     <i>FilterDirectOidRequest</i> returns the requested information in the 
@@ -319,23 +319,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+   NdisFDirectOidRequestComplete</a>
 
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
 
-<mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-   NdisFDirectOidRequestComplete</b></mshelp:link>
+<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+   FilterDirectOidRequestComplete</a>
 
-<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
-   FilterDirectOidRequestComplete</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
 
  
 

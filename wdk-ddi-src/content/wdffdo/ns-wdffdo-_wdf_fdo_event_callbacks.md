@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61e268aa-782a-42d5-8965-b935156033cb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffdo/WDF_FDO_EVENT_CALLBACKS, wdf.wdf_fdo_event_callbacks, WDF_FDO_EVENT_CALLBACKS structure, PWDF_FDO_EVENT_CALLBACKS, wdffdo/PWDF_FDO_EVENT_CALLBACKS, _WDF_FDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_ed4f99d4-cc25-4275-b523-36cd439cac86.xml, PWDF_FDO_EVENT_CALLBACKS structure pointer, *PWDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS, kmdf.wdf_fdo_event_callbacks
+ms.keywords: PWDF_FDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_ed4f99d4-cc25-4275-b523-36cd439cac86.xml, wdffdo/WDF_FDO_EVENT_CALLBACKS, _WDF_FDO_EVENT_CALLBACKS, wdf.wdf_fdo_event_callbacks, WDF_FDO_EVENT_CALLBACKS, kmdf.wdf_fdo_event_callbacks, WDF_FDO_EVENT_CALLBACKS structure, *PWDF_FDO_EVENT_CALLBACKS, PWDF_FDO_EVENT_CALLBACKS structure pointer, wdffdo/PWDF_FDO_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,22 +73,22 @@ typedef struct _WDF_FDO_EVENT_CALLBACKS {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - EvtDeviceFilterAddResourceRequirements
+### -field EvtDeviceFilterAddResourceRequirements
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540870">EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceFilterRemoveResourceRequirements
+### -field EvtDeviceFilterRemoveResourceRequirements
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540870">EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceRemoveAddedResources
+### -field EvtDeviceRemoveAddedResources
 
 A pointer to the driver's <a href="..\wdffdo\nc-wdffdo-evt_wdf_device_remove_added_resources.md">EvtDeviceRemoveAddedResources</a> event callback function, or <b>NULL</b>.
 

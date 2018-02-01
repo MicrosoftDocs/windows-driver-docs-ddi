@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d6567f1-9e2a-405f-ae8d-eb531cc29275
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetFileObject, wudfddi/IWDFIoRequest::GetFileObject, IWDFIoRequest interface, GetFileObject method, umdf.iwdfiorequest_getfileobject, IWDFIoRequest, GetFileObject method, IWDFIoRequest::GetFileObject, wdf.iwdfiorequest_getfileobject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, GetFileObject method, IWDFIoRequest interface
+ms.keywords: wdf.iwdfiorequest_getfileobject, umdf.iwdfiorequest_getfileobject, wudfddi/IWDFIoRequest::GetFileObject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, GetFileObject method, GetFileObject method, IWDFIoRequest interface, IWDFIoRequest interface, GetFileObject method, GetFileObject, IWDFIoRequest::GetFileObject, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetFileObject(
 
 
 
-#### - ppFileObject [out]
+### -param ppFileObject [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object. Note that returning <b>NULL</b> is valid.
 

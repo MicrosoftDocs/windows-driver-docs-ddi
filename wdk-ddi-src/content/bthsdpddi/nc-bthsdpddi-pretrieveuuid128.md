@@ -73,17 +73,12 @@ void SdpRetrieveUuid128(
 
 
 
-#### - Stream
+### -param Stream
 
 A pointer to an unaligned 128-bit UUID.
 
 
-#### - *uuid128
-
-A pointer to an aligned variable to receive the 128-bit UUID.
-
-
-#### - uuid128
+### -param *uuid128
 
 A pointer to an aligned variable to receive the 128-bit UUID.
 
@@ -115,8 +110,8 @@ The
 This function has no effect on byte order.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
-    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
 

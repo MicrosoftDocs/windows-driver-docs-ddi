@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fa725534-ccc3-4e71-a83f-b25fd4c72c14
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DPRIMCAPS structure pointer [Display Devices], D3DPRIMCAPS structure [Display Devices], _D3DPrimCaps, display.d3dprimcaps, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, d3dcaps/LPD3DPRIMCAPS, d3dcaps/D3DPRIMCAPS, *LPD3DPRIMCAPS, D3DPRIMCAPS, LPD3DPRIMCAPS
+ms.keywords: LPD3DPRIMCAPS structure pointer [Display Devices], LPD3DPRIMCAPS, _D3DPrimCaps, *LPD3DPRIMCAPS, D3DPRIMCAPS, display.d3dprimcaps, d3dcaps/D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], d3dcaps/LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,12 +84,12 @@ typedef struct _D3DPrimCaps {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the D3DPRIMCAPS structure. 
 
 
-#### - dwMiscCaps
+### -field dwMiscCaps
 
 Specifies the general capabilities for this primitive. This member can be one or more of the following:    
   
@@ -147,7 +147,7 @@ D3DPMISCCAPS_LINEPATTERNREP and D3DPRASTERCAPS_PAT must be set consistently (bot
 </table> 
 
 
-#### - dwRasterCaps
+### -field dwRasterCaps
 
 Contains information about raster-drawing capabilities. This member can be one or more of the following:
 <table>
@@ -249,7 +249,7 @@ D3DPRASTERCAPS_PAT and D3DPMISCCAPS_LINEPATTERNREP must be set consistently (bot
 </table> 
 
 
-#### - dwZCmpCaps
+### -field dwZCmpCaps
 
 Specifies Z-buffer comparison functions that the driver can perform through the D3DRENDERSTATE_ZFUNC render state. This member can be one or more of the following:  
   
@@ -300,7 +300,7 @@ Specifies Z-buffer comparison functions that the driver can perform through the 
 </table> 
 
 
-#### - dwSrcBlendCaps
+### -field dwSrcBlendCaps
 
 Specifies source blending capabilities supported by the driver through the D3DRENDERSTATE_SRCBLEND render state. This member can be one or more of the following values. (The RGBA values of the source and destination are indicated with the subscripts s and d.)  
   
@@ -372,17 +372,17 @@ Specifies source blending capabilities supported by the driver through the D3DRE
 </table> 
 
 
-#### - dwDestBlendCaps
+### -field dwDestBlendCaps
 
 Specifies destination blending capabilities supported by the driver through the D3DRENDERSTATE_DESTBLEND render state. This member can be the same capabilities that are defined for the <b>dwSrcBlendCaps</b> member. 
 
 
-#### - dwAlphaCmpCaps
+### -field dwAlphaCmpCaps
 
 Specifies alpha-test comparison functions that the driver can perform. This member uses the same comparison functions as are defined for the <b>dwZCmpCaps</b> member. If the <b>dwAlphaCmpCaps</b> member of the D3DPRIMCAPS structure is 0, the driver does not support alpha test render states D3DRENDERSTATE_ALPHAFUNC, D3DRENDERSTATE_ALPHAREF, and D3DRENDERSTATE_ALPHATESTENABLE. 
 
 
-#### - dwShadeCaps
+### -field dwShadeCaps
 
 Specifies shading operations that the device can perform. It is assumed, in general, that if a device supports a given command (such as D3DOP_TRIANGLE) at all, it supports the D3DSHADE_FLAT mode (as specified in the D3DSHADEMODE enumerated type in the DirectX SDK documentation). This flag specifies whether the driver can also support Gouraud and Phong shading and whether alpha color components are supported for each of the three color-generation modes. When alpha components are not supported in a given mode, the alpha value of colors generated in that mode is implicitly 255. This is the maximum possible alpha (that is, the alpha component is at full intensity).
 
@@ -451,7 +451,7 @@ D3DPSHADECAPS_SPECULARPHONGRGB</td>
 Most hardware drivers should expose the D3DPSHADECAPS_COLORFLATRGB and D3DPSHADECAPS_COLORGOURAUDRGB capabilities. Hardware that supports intensity (grayscale) lighting (see D3DRENDERSTATE_MONOENABLE for more details) should also expose the D3DPSHADECAPS_COLORFLATMONO and D3DSHADECAPS_COLORGOURAUDMONO capabilities.
 
 
-#### - dwTextureCaps
+### -field dwTextureCaps
 
 Specifies miscellaneous texture-mapping capabilities. This member can be one or more of the following: 
 <table>
@@ -527,7 +527,7 @@ If this flag is set, the D3DPTEXTURECAPS_POW2 flag must also be set.
 </table> 
 
 
-#### - dwTextureFilterCaps
+### -field dwTextureFilterCaps
 
 Specifies texture-mapping capabilities. This member can be one or more of the following: 
   
@@ -609,7 +609,7 @@ Specifies that bilinear filtering on the magnify filter is supported.</td>
 </table> 
 
 
-#### - dwTextureBlendCaps
+### -field dwTextureBlendCaps
 
 Specifies texture-blending capabilities. See the D3DRENDERSTATE_TEXTUREMAPBLEND enumerated type for discussions of the various texture-blending modes. This member can be one or more of the following:   
   
@@ -657,7 +657,7 @@ Specifies texture-blending capabilities. See the D3DRENDERSTATE_TEXTUREMAPBLEND 
 </table> 
 
 
-#### - dwTextureAddressCaps
+### -field dwTextureAddressCaps
 
 Specifies the texture-addressing capabilities. This member can be one or more of the following, corresponding to D3DTEXTUREADDRESS texture-addressing modes:
 <table>
@@ -690,11 +690,11 @@ Specifies the texture-addressing capabilities. This member can be one or more of
 </table> 
 
 
-#### - dwStippleWidth
+### -field dwStippleWidth
 
 
 
-#### - dwStippleHeight
+### -field dwStippleHeight
 
 Specify the maximum width and height of the supported stipple (up to 32-by-32). 
 

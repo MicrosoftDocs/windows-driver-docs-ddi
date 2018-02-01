@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetProperties method [Print Devices], IPrinterQueue interface, GetProperties, IPrinterQueue interface [Print Devices], GetProperties method, IPrinterQueue::GetProperties, printerextension/IPrinterQueue::GetProperties, GetProperties method [Print Devices], print.iprinterqueue_getproperties, IPrinterQueue
+ms.keywords: IPrinterQueue::GetProperties, GetProperties, print.iprinterqueue_getproperties, IPrinterQueue, GetProperties method [Print Devices], printerextension/IPrinterQueue::GetProperties, GetProperties method [Print Devices], IPrinterQueue interface, IPrinterQueue interface [Print Devices], GetProperties method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetProperties(
 
 
 
-#### - ppPropertyBag [out, retval]
+### -param ppPropertyBag [out, retval]
 
 A pointer to the property bag.
 
@@ -82,9 +82,9 @@ This method returns and <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+
+<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
  
 

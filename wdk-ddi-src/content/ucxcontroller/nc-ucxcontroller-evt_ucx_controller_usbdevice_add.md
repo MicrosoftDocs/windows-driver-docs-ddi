@@ -75,17 +75,17 @@ typedef EVT_UCX_CONTROLLER_USBDEVICE_ADD PEVT_UCX_CONTROLLER_USBDEVICE_ADD;
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-#### - UcxUsbDeviceInfo [in]
+### -param UcxUsbDeviceInfo [in]
 
 Pointer to a <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucxusbdevice_info.md">UCXUSBDEVICE_INFO</a> structure.
 
 
-#### - UsbDeviceInit [in]
+### -param UsbDeviceInit [in]
 
 Pointer to an opaque structure containing initialization
     information.  Callbacks for the device object are associated with this structure.

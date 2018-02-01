@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbbbf7d2-cf24-47af-89e9-c27d577165e4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_preferred_providers, WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml, PNDIS_WWAN_PREFERRED_PROVIDERS, _NDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS
+ms.keywords: ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml, netvista.ndis_wwan_preferred_providers, PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS, PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PREFERRED_PROVIDERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_PREFERRED_PROVIDERS {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_PREFERRED_PROVIDERS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 Miniport driver must set this to WWAN_STATUS_SUCCESS for unsolicited events
      (NDIS_STATUS_INDICATION::RequestId = 0). WWAN_STATUS_SUCCESS is also set for successful execution of the
@@ -188,7 +188,7 @@ A
 </table> 
 
 
-#### - PreferredListHeader
+### -field PreferredListHeader
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents a
@@ -206,9 +206,9 @@ Response to
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
  
 

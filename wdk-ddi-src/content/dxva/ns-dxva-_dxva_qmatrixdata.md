@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2cb96d6b-37f1-47dd-8135-66d3ead2dd64
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_QmatrixData, dxva/LPDXVA_QmatrixData, dxva/DXVA_QmatrixData, DXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], display.dxva_qmatrixdata, LPDXVA_QmatrixData structure pointer [Display Devices], dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml, LPDXVA_QmatrixData, *LPDXVA_QmatrixData"
+ms.keywords: LPDXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml, dxva/DXVA_QmatrixData, display.dxva_qmatrixdata, dxva/LPDXVA_QmatrixData, _DXVA_QmatrixData, LPDXVA_QmatrixData structure pointer [Display Devices], *LPDXVA_QmatrixData, DXVA_QmatrixData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _DXVA_QmatrixData {
 
 
 
-#### - bNewQmatrix
+### -field bNewQmatrix
 
 Indicates which new inverse-quantization matrices are present in an inverse-quantization matrix buffer. Each element in this array corresponds to an inverse-quantization matrix type and indicates whether a new inverse-quantization matrix of that type is present in the buffer. If any element in the <b>bNewQmatrix</b> array contains a value of 1, a new inverse-quantization matrix of the type specified for that array element follows in the inverse-quantization matrix buffer. The inverse-quantization matrices that can be used are as follows.
 <table>
@@ -127,7 +127,7 @@ If <b>bNewQmatrix</b>[<i>i </i>- 2] is zero, the previous inverse-quantization m
 If <b>bNewQmatrix</b>[<i>i </i>- 2] is 1, the inverse-quantization matrix defined by the <i>i</i>th element is set equal to the new inverse-quantization matrix for <i>i </i>- 2.
 
 
-#### - Qmatrix
+### -field Qmatrix
 
 A two-dimensional array that specifies an inverse-quantization matrix buffer. This array is present only for each element in <b>bNewQmatrix</b> equal to 1. The matrix consists of (<b>bBlockWidthMinus1</b>+1) X (<b>bBlockHeightMinus1</b>+1) unsigned words (in which only the lower 8 bits of each word are used for the dominant video coding standards), where <b>bBlockWidthMinus1</b> and <b>bBlockHeightMinus1</b> are members of the <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> structure.
 <div class="alert"><b>Note</b>  For MPEG-2 bitstreams, the data values within Qmatrix are in zigzag inverse scan order, as specified in subclause 7.3.1 and figure 7-2 of MPEG-2.</div><div> </div>
@@ -147,9 +147,9 @@ The order of the data values within the inverse-quantization matrix is as specif
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
-
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
  
 

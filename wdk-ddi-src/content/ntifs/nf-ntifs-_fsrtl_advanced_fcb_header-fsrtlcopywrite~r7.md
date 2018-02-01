@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
+ms.keywords: FsRtlCopyWrite routine [Installable File System Drivers], ifsk.fsrtlcopywrite, fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ntifs/FsRtlCopyWrite, FsRtlCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,42 +74,42 @@ BOOLEAN FsRtlCopyWrite(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for the cached file to which the data is to be written.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length in bytes of the data to be written.
 
 
-#### - Wait [in]
+### -param Wait [in]
 
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
 
-#### - LockKey [in]
+### -param LockKey [in]
 
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the buffer from which the data is to be copied.
 
 
-#### - IoStatus [out]
+### -param IoStatus [out]
 
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation. If the data is copied successfully, <i>IoStatus.Status</i> contains STATUS_SUCCESS. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the device object for the mounted volume that holds the file data.
 
@@ -159,9 +159,9 @@ To cache a file, use the <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcI
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite~r5.md">FsRtlFastCheckLockForWrite</a>
 

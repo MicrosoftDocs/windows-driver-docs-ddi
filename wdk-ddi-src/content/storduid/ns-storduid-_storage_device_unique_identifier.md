@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02de3382-031a-4d42-b349-786248da9c5c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-general_ed4e22dc-a5cb-4746-a846-cbae5e8d7ce8.xml, STORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/STORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER structure pointer [Storage Devices], STORAGE_DEVICE_UNIQUE_IDENTIFIER structure [Storage Devices], _STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storage.storage_device_unique_identifier, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
+ms.keywords: PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, structs-general_ed4e22dc-a5cb-4746-a846-cbae5e8d7ce8.xml, _STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER structure pointer [Storage Devices], STORAGE_DEVICE_UNIQUE_IDENTIFIER structure [Storage Devices], STORAGE_DEVICE_UNIQUE_IDENTIFIER, storage.storage_device_unique_identifier, storduid/PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/STORAGE_DEVICE_UNIQUE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,36 +72,36 @@ typedef struct _STORAGE_DEVICE_UNIQUE_IDENTIFIER {
 
 
 
-#### - Version
+### -field Version
 
 The version of the DUID.
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of the identifier header and the identifiers (IDs) that follow the header.
 
 
-#### - StorageDeviceIdOffset
+### -field StorageDeviceIdOffset
 
 The offset, in bytes, from the beginning of the header to the device ID descriptor (<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>). The device ID descriptor contains the IDs that are extracted from page 0x83 of the device's vital product data (VPD).
 
 
-#### - StorageDeviceOffset
+### -field StorageDeviceOffset
 
 The offset, in bytes, from the beginning of the header to the device descriptor (<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>). The device descriptor contains IDs that are extracted from non-VPD inquiry data.
 
 
-#### - DriveLayoutSignatureOffset
+### -field DriveLayoutSignatureOffset
 
 The offset, in bytes, to the drive layout signature (<a href="..\storduid\ns-storduid-_storage_device_layout_signature.md">STORAGE_DEVICE_LAYOUT_SIGNATURE</a>).
 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
  
 

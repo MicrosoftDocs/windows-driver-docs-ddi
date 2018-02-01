@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9368846a-b985-40f4-8b02-1bb48431141a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, _KsEdit function [Streaming Media Devices], stream._ksedit, _KsEdit
+ms.keywords: stream._ksedit, _KsEdit, avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, _KsEdit function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS _KsEdit(
 
 
 
-#### - ObjectBag [in]
+### -param ObjectBag [in]
 
 The KSOBJECT_BAG (equivalent to type PVOID) to use in the check. If the item is not contained within the object bag, <b>_KsEdit</b> dynamically allocates sufficient memory for the item, copies the old contents, and places the newly allocated memory in this object bag.
 
 
-#### - PointerToPointerToItem [in, out]
+### -param PointerToPointerToItem [in, out]
 
 A pointer to a pointer to the item being edited.
 
 
-#### - NewSize [in]
+### -param NewSize [in]
 
 The number of bytes to allocate for the item.
 
 
-#### - OldSize [in]
+### -param OldSize [in]
 
 The number of bytes the item currently takes up.
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Contains the pool tag to use for the allocations. Drivers normally specify the pool tag as a string of up to four characters, delimited by single quotation marks. The string is usually specified in reversed order. The ASCII value of each character in the tag must be between 0 and 127.
 

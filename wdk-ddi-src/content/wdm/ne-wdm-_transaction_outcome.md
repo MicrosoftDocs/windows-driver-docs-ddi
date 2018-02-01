@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TransactionOutcomeUndetermined, wdm/TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted, wdm/TransactionOutcomeCommitted, wdm/TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], TransactionOutcomeAborted, kernel.transaction_outcome, TRANSACTION_OUTCOME
+ms.keywords: wdm/TransactionOutcomeUndetermined, wdm/TRANSACTION_OUTCOME, TRANSACTION_OUTCOME, TransactionOutcomeAborted, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], TransactionOutcomeUndetermined, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, _TRANSACTION_OUTCOME, kernel.transaction_outcome, wdm/TransactionOutcomeCommitted, TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _TRANSACTION_OUTCOME {
 
 
 
-#### - TransactionOutcomeUndetermined
+### -field TransactionOutcomeUndetermined
 
 The transaction has not yet been committed or rolled back.
 
 
-#### - TransactionOutcomeCommitted
+### -field TransactionOutcomeCommitted
 
 The transaction has been committed.
 
 
-#### - TransactionOutcomeAborted
+### -field TransactionOutcomeAborted
 
 The transaction has been rolled back.
 

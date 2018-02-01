@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a7a595e-59b1-4cc2-ab09-ba22aebae9ca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_SIGNATURE_ENTRY structure [Display Devices], D3D10DDIARG_SIGNATURE_ENTRY, UMDisplayDriver_Dx10param_Structs_8f54c330-f382-4bae-939f-7b96fd9b1a46.xml, d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY, display.d3d10ddiarg_signature_entry
+ms.keywords: display.d3d10ddiarg_signature_entry, D3D10DDIARG_SIGNATURE_ENTRY structure [Display Devices], D3D10DDIARG_SIGNATURE_ENTRY, UMDisplayDriver_Dx10param_Structs_8f54c330-f382-4bae-939f-7b96fd9b1a46.xml, d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct D3D10DDIARG_SIGNATURE_ENTRY {
 
 
 
-#### - SystemValue
+### -field SystemValue
 
 [in] The D3D10_SB_NAME-typed value that indicates the system name of the signature entry. The D3D10_SB_NAME enumeration is defined in the D3d10tokenizedprogramformat.hpp header file. One of the following values can be set.
 <table>
@@ -180,12 +180,12 @@ Is front face.
 </table> 
 
 
-#### - Register
+### -field Register
 
 [in] The number of the register for the signature entry.
 
 
-#### - Mask
+### -field Mask
 
 [in] The xyzw mask for the signature entry. The four least significant bits (LSBs) of the mask represent xyzw respectively.
 

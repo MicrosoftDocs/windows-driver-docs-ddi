@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd292f3c-2cf7-4f17-999b-a82b2a3a8e0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_present_stats, D3DKMT_PRESENT_STATS, D3DKMT_PRESENT_STATS structure [Display Devices], d3dkmthk/D3DKMT_PRESENT_STATS, OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, _D3DKMT_PRESENT_STATS
+ms.keywords: "_D3DKMT_PRESENT_STATS, d3dkmthk/D3DKMT_PRESENT_STATS, D3DKMT_PRESENT_STATS, OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, display.d3dkmt_present_stats, D3DKMT_PRESENT_STATS structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMT_PRESENT_STATS {
 
 
 
-#### - PresentCount
+### -field PresentCount
 
 [out] A UINT value that indicates the number of times that the OpenGL installable client driver (ICD) called the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a> function on a rendering device or swap chain. After the maximum value is reached, <b>PresentCount</b> starts over at zero. When a new rendering device is created, <b>PresentCount</b> is initialized to zero. The operating system maintains a present counter for each swap chain that is created.
 
 
-#### - PresentRefreshCount
+### -field PresentRefreshCount
 
 [out] A UINT value that indicates the number of times the display controller outputs a new video frame, which occurs at the beginning of each vertical retrace period. The operating system maintains a present refresh counter for each video display controller output in the operating system. <b>PresentRefreshCount</b> is initialized to an unspecified value. 
 
 
-#### - SyncRefreshCount
+### -field SyncRefreshCount
 
 [out] A UINT value that indicates the number of the most recent capture of the timing information in the <b>SyncQPCTime</b> and <b>SyncGPUTime</b> members.
 
 
-#### - SyncQPCTime
+### -field SyncQPCTime
 
 [out] The computer processing unit (CPU) time that the current video frame was output at (that is, the CPU time that the vertical retrace started).
 
 
-#### - SyncGPUTime
+### -field SyncGPUTime
 
 [out] The graphics processing unit (GPU) time that the current video frame was output at (that is, the GPU time that the vertical retrace started).
 
@@ -109,9 +109,9 @@ Present statistics cannot work for windowed-mode devices. For windowed mode, eac
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicepresent_state.md">D3DKMT_DEVICEPRESENT_STATE</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicepresent_state.md">D3DKMT_DEVICEPRESENT_STATE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A4324FAD-A925-4D65-9697-9CC2878DBE0B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/UfsDataTypeUnknown, UfsDataTypeQueryDescriptor, STORAGE_PROTOCOL_UFS_DATA_TYPE, UfsDataTypeMax, UfsDataTypeUnknown, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_UFS_DATA_TYPE, storage.storage_protocol_ufs_data_type, ntddstor/ UfsDataTypeMax, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE
+ms.keywords: STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], UfsDataTypeMax, storage.storage_protocol_ufs_data_type, STORAGE_PROTOCOL_UFS_DATA_TYPE, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/UfsDataTypeUnknown, ntddstor/ UfsDataTypeQueryDescriptor, _STORAGE_PROTOCOL_UFS_DATA_TYPE, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _STORAGE_PROTOCOL_UFS_DATA_TYPE {
 
 
 
-#### - UfsDataTypeUnknown
+### -field UfsDataTypeUnknown
 
 Unknown data type.
 
 
-#### - UfsDataTypeQueryDescriptor
+### -field UfsDataTypeQueryDescriptor
 
 Query Descriptor data type. Retrieved by command UfsSrbQueryProtocolQueryDescriptor.
 
 
-#### - UfsDataTypeMax
+### -field UfsDataTypeMax
 
 Max size of data type.
 

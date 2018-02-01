@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FCDAEE07-B10E-491B-9BDB-49D77444281D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_DEVICE_SERVICE_RESPONSE, netvista.wwan_device_service_response, _WWAN_DEVICE_SERVICE_RESPONSE, wwan/WWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE
+ms.keywords: "_WWAN_DEVICE_SERVICE_RESPONSE, netvista.wwan_device_service_response, wwan/PWWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE, *PWWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WWAN_DEVICE_SERVICE_RESPONSE {
 
 
 
-#### - DeviceServiceGuid
+### -field DeviceServiceGuid
 
 The GUID of the device service that the response originated from.
 
 
-#### - ResponseID
+### -field ResponseID
 
 The ID of the response.
 
 
-#### - uDataSize
+### -field uDataSize
 
 The size, in bytes, of the device service response data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxCommandDataSize</b> member of the <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
 

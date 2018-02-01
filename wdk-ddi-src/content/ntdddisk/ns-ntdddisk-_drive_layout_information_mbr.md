@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 41df2847-7cfa-4746-82bd-d0b8b482a0d4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.drive_layout_information_mbr, PDRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR, _DRIVE_LAYOUT_INFORMATION_MBR, structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices], DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices]
+ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices], storage.drive_layout_information_mbr, structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, _DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
 
 
 
-#### - Signature
+### -field Signature
 
 Specifies the disk signature value, which uniquely identifies the disk. 
 
@@ -89,9 +89,9 @@ This structure contains the drive layout information that is specific to a drive
 
 <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
  
 

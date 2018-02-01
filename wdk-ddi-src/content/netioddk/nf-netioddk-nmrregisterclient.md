@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrRegisterClient function [Network Drivers Starting with Windows Vista], NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, netioddk/NmrRegisterClient
+ms.keywords: netioddk/NmrRegisterClient, NmrRegisterClient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netvista.nmrregisterclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,16 +71,16 @@ NTSTATUS NmrRegisterClient(
 
 
 
-#### - ClientCharacteristics [in]
+### -param ClientCharacteristics [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.npi_client_characteristics" tabindex="0"><b>
-     NPI_CLIENT_CHARACTERISTICS</b></mshelp:link> structure that describes the characteristics of the client module. The
+     <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">
+     NPI_CLIENT_CHARACTERISTICS</a> structure that describes the characteristics of the client module. The
      client module must make sure that this structure remains valid and resident in memory as long as the
      client module is registered with the NMR.
 
 
-#### - ClientContext [in]
+### -param ClientContext [in]
 
 A pointer to a caller-supplied context for the registration. The client module uses this context
      to keep track of the state of the client registration. The contents of the client module's registration
@@ -91,7 +91,7 @@ A pointer to a caller-supplied context for the registration. The client module u
      memory as long as the client module is registered with the NMR.
 
 
-#### - NmrClientHandle [out]
+### -param NmrClientHandle [out]
 
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the client module. The client module must save this handle and pass it as a parameter to the 

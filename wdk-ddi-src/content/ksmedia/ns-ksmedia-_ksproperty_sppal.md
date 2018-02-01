@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b6c50f2f-efc7-415f-895b-fcffb2575fe8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_SPPAL, KSPROPERTY_SPPAL, KSPROPERTY_SPPAL structure [Streaming Media Devices], ksmedia/PKSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL, PKSPROPERTY_SPPAL, stream.ksproperty_sppal, _KSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml
+ms.keywords: "*PKSPROPERTY_SPPAL, ksmedia/KSPROPERTY_SPPAL, ksmedia/PKSPROPERTY_SPPAL, _KSPROPERTY_SPPAL, PKSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml, KSPROPERTY_SPPAL, PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], KSPROPERTY_SPPAL structure [Streaming Media Devices], stream.ksproperty_sppal"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _KSPROPERTY_SPPAL {
 
 
 
-#### - sppal
+### -field sppal
 
 Specifies an array of 16 YUV color values.
 

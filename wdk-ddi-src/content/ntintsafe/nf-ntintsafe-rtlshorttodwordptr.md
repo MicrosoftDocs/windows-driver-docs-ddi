@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ABB3DBF-117D-491D-85A3-68E9280CFC6C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlShortToDWordPtr, ntintsafe/RtlShortToDWordPtr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttodwordptr
+ms.keywords: ntintsafe/RtlShortToDWordPtr, RtlShortToDWordPtr, kernel.rtlshorttodwordptr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlShortToDWordPtr(
 
 
 
-#### - sOperand [in]
+### -param sOperand [in]
 
 The value to be converted.
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

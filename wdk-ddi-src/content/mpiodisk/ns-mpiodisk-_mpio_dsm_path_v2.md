@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8ebbb4c0-c761-42a5-a41a-9d661a6126d9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MPIO_DSM_Path_V2, MPIO_DSM_Path_V2, PMPIO_DSM_Path_V2, mpiodisk/MPIO_DSM_Path_V2, PMPIO_DSM_Path_V2 structure pointer [Storage Devices], structs-scsibus_e1d340a8-aa6a-4219-8bd4-c11fc3520f5d.xml, storage.mpio_dsm_path_v2, *PMPIO_DSM_Path_V2, mpiodisk/PMPIO_DSM_Path_V2, MPIO_DSM_Path_V2 structure [Storage Devices]"
+ms.keywords: "_MPIO_DSM_Path_V2, mpiodisk/PMPIO_DSM_Path_V2, mpiodisk/MPIO_DSM_Path_V2, *PMPIO_DSM_Path_V2, MPIO_DSM_Path_V2, PMPIO_DSM_Path_V2 structure pointer [Storage Devices], MPIO_DSM_Path_V2 structure [Storage Devices], structs-scsibus_e1d340a8-aa6a-4219-8bd4-c11fc3520f5d.xml, PMPIO_DSM_Path_V2, storage.mpio_dsm_path_v2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,77 +81,77 @@ typedef struct _MPIO_DSM_Path_V2 {
 
 
 
-#### - DsmPathId
+### -field DsmPathId
 
 An unsigned 64-bitfield that is used as a unique identifier to distinguish paths known to the DSM.
 
 
-#### - Reserved
+### -field Reserved
 
 Should be zero.
 
 
-#### - PathWeight
+### -field PathWeight
 
 An unsigned 32-bitfield that holds the weight associated with the given path.
 
 
-#### - PrimaryPath
+### -field PrimaryPath
 
 An unsigned 32-bitfield that is used as a flag to indicate the path state when accessing a particular LUN.
 
 
-#### - OptimizedPath
+### -field OptimizedPath
 
 An unsigned 32-bitfield that is used in conjunction with <i>PrimaryPath</i> to indicate the path state for accessing a LUN.
 
 
-#### - PreferredPath
+### -field PreferredPath
 
 An unsigned 32-bitfield that is used as a flag to indicate whether this is the preferred path for accessing the LUN.
 
 
-#### - FailedPath
+### -field FailedPath
 
 A 32-bit unsigned field that is used as a flag to indicate if the path has failed.
 
 
-#### - TargetPortGroup_State
+### -field TargetPortGroup_State
 
 An unsigned 32-bitfield that is used to indicate the access state of the target port group to which this instance of the LUN belongs.
 
 
-#### - ALUASupport
+### -field ALUASupport
 
 An unsigned 32-bitfield that returns the Asymmetrical Logical Unit Access (ALUA) state transition support that is indicated by the LUN.
 
 
-#### - SymmetricLUA
+### -field SymmetricLUA
 
 An unsigned 8-bitfield that is used as a flag to indicate to the application if logical unit access is symmetric.
 
 
-#### - TargetPortGroup_Preferred
+### -field TargetPortGroup_Preferred
 
 An unsigned 8-bitfield that is used as a flag. This field indicates if the LUN's target port group that corresponds to this path is preferred for the LUN access.
 
 
-#### - TargetPortGroup_Identifier
+### -field TargetPortGroup_Identifier
 
 An unsigned 16-bitfield that contains the identifier of the LUN's target port group that corresponds to this path.
 
 
-#### - TargetPort_Identifier
+### -field TargetPort_Identifier
 
 An unsigned 32-bitfield that contains the identifier of the target port that corresponds to this path through which the LUN has been exposed.
 
 
-#### - Reserved32
+### -field Reserved32
 
 Should be zero.
 
 
-#### - Reserved64
+### -field Reserved64
 
 Should be zero.
 

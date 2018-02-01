@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 329e0036-2d67-465f-a049-a36648622003
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_327e85bf-81c0-420e-b229-e389115fcab3.xml, d3dhal/D3DHAL_DP2ZRANGE, D3DHAL_DP2ZRANGE, d3dhal/LPD3DHAL_DP2ZRANGE, LPD3DHAL_DP2ZRANGE structure pointer [Display Devices], D3DHAL_DP2ZRANGE structure [Display Devices], _D3DHAL_DP2ZRANGE, *LPD3DHAL_DP2ZRANGE, LPD3DHAL_DP2ZRANGE, display.d3dhal_dp2zrange
+ms.keywords: D3DHAL_DP2ZRANGE, D3DHAL_DP2ZRANGE structure [Display Devices], d3dstrct_327e85bf-81c0-420e-b229-e389115fcab3.xml, d3dhal/D3DHAL_DP2ZRANGE, LPD3DHAL_DP2ZRANGE structure pointer [Display Devices], _D3DHAL_DP2ZRANGE, *LPD3DHAL_DP2ZRANGE, display.d3dhal_dp2zrange, d3dhal/LPD3DHAL_DP2ZRANGE, LPD3DHAL_DP2ZRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DHAL_DP2ZRANGE {
 
 
 
-#### - dvMinZ
+### -field dvMinZ
 
 Specifies the minimum z value for the Mvs matrix described in the <a href="https://msdn.microsoft.com/b45aa56e-2d8c-412a-b581-a1e2002d4fac">Hardware Transform and Lighting</a> section of the design guide.
 
 
-#### - dvMaxZ
+### -field dvMaxZ
 
 Specifies the maximum z value for the Mvs matrix described in the <a href="https://msdn.microsoft.com/b45aa56e-2d8c-412a-b581-a1e2002d4fac">Hardware Transform and Lighting</a> section of the design guide.
 

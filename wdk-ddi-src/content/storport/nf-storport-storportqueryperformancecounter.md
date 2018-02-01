@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6502E3AE-5841-41C9-BEB7-B00620DBF02D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportqueryperformancecounter, StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter routine [Storage Devices], storport/StorPortQueryPerformanceCounter
+ms.keywords: StorPortQueryPerformanceCounter routine [Storage Devices], storport/StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter, storage.storportqueryperformancecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortQueryPerformanceCounter(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - PerformanceFrequency [out, optional]
+### -param PerformanceFrequency [out, optional]
 
  A pointer to a large integer to receive the current system performance frequency value. This parameter is optional and can be NULL.
 
 
-#### - PerformanceCounter [out]
+### -param PerformanceCounter [out]
 
 A pointer to a large integer to receive the current system performance counter value.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4789e848-bb95-43e1-9768-8f94a475f9c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcxdeviceinitconfig, IddCxDeviceInitConfig method [Display Devices], iddcx/IddCxDeviceInitConfig, IddCxDeviceInitConfig
+ms.keywords: IddCxDeviceInitConfig method [Display Devices], display.iddcxdeviceinitconfig, iddcx/IddCxDeviceInitConfig, IddCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS IddCxDeviceInitConfig(
 
 
 
-#### - DeviceInit
+### -param DeviceInit
 
 The information about the device that is being initialized. 
 
 
-#### - Config
+### -param Config
 
 The information required about the configuration of the client.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MONITORREG, PMONITORREG, winsplp/MONITORREG, *PMONITORREG, winsplp/PMONITORREG, _MONITORREG, print.monitorreg, MONITORREG structure [Print Devices], spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, PMONITORREG structure pointer [Print Devices]
+ms.keywords: print.monitorreg, PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG structure pointer [Print Devices], _MONITORREG, winsplp/MONITORREG, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, *PMONITORREG, winsplp/PMONITORREG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,48 +134,48 @@ typedef struct _MONITORREG {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Size, in bytes, of the MONITORREG structure.
 
 
-#### - fpCreateKey
+### -field fpCreateKey
 
 
 
-#### - fpOpenKey
+### -field fpOpenKey
 
 
 
-#### - fpCloseKey
+### -field fpCloseKey
 
 
 
-#### - fpDeleteKey
+### -field fpDeleteKey
 
 
 
-#### - fpEnumKey
+### -field fpEnumKey
 
 
 
-#### - fpQueryInfoKey
+### -field fpQueryInfoKey
 
 
 
-#### - fpSetValue
+### -field fpSetValue
 
 
 
-#### - fpDeleteValue
+### -field fpDeleteValue
 
 
 
-#### - fpEnumValue
+### -field fpEnumValue
 
 
 
-#### - fpQueryValue
+### -field fpQueryValue
 
 
 
@@ -307,9 +307,9 @@ The spooler registry functions use HANDLE and PHANDLE parameter types instead of
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
-
 <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
+
+<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
  
 

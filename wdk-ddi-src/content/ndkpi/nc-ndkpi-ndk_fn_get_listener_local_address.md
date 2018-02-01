@@ -72,27 +72,17 @@ NTSTATUS NdkGetListenerLocalAddress(
 
 
 
-#### - *pNdkListener [in]
+### -param *pNdkListener [in]
 
 A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
 
 
-#### - pAddress
+### -param pAddress
 
 A local address for a listener is returned in this buffer.
 
 
-#### - *pAddressLength
-
-The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
-
-
-#### - pNdkListener [in]
-
-A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
-
-
-#### - pAddressLength
+### -param *pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 
@@ -153,9 +143,9 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
 
  
 

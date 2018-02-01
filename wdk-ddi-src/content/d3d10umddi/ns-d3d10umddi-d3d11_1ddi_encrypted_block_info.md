@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36d7fab0-e343-4236-9d13-93cc0e41721e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_ENCRYPTED_BLOCK_INFO, D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure [Display Devices], D3D11_1DDI_ENCRYPTED_BLOCK_INFO, display.d3d11_1ddi_encrypted_block_info
+ms.keywords: display.d3d11_1ddi_encrypted_block_info, D3D11_1DDI_ENCRYPTED_BLOCK_INFO, d3d10umddi/D3D11_1DDI_ENCRYPTED_BLOCK_INFO, D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D11_1DDI_ENCRYPTED_BLOCK_INFO {
 
 
 
-#### - NumEncryptedBytesAtBeginning
+### -field NumEncryptedBytesAtBeginning
 
 The number of bytes that are encrypted at the start of the buffer.
 
 
-#### - NumBytesInSkipPattern
+### -field NumBytesInSkipPattern
 
 The number of bytes that are skipped after the first <b>NumEncryptedBytesAtBeginning</b> bytes, and then after each block of <b>NumBytesInEncryptPattern</b> bytes. Skipped bytes are not encrypted.
 
 
-#### - NumBytesInEncryptPattern
+### -field NumBytesInEncryptPattern
 
 The number of bytes that are encrypted after each block of skipped bytes.
 

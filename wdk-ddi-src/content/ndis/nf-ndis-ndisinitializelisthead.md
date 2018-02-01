@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisinitializelisthead, NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, ndis/NdisInitializeListHead
+ms.keywords: NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], netvista.ndisinitializelisthead, ndis/NdisInitializeListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,14 +68,7 @@ VOID NdisInitializeListHead(
 
 
 
-### -param _ListHead
-
-TBD
-
-
-
-
-#### - ListHead [in]
+### -param _ListHead [in]
 
 A pointer to driver-allocated nonpaged storage for the head of the interlocked queue or
      list.
@@ -109,21 +102,21 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
-   NdisInterlockedInsertTailList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+   NdisInterlockedInsertHeadList</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
 
-<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
-   NdisInterlockedInsertHeadList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+   NdisInterlockedInsertTailList</a>
+
+<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+   NdisInterlockedRemoveHeadList</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<mshelp:link keywords="netvista.ndisinterlockedremoveheadlist" tabindex="0"><b>
-   NdisInterlockedRemoveHeadList</b></mshelp:link>
-
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
  
 

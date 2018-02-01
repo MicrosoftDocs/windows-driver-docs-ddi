@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0720635c-77a2-4391-ba75-b276c0d457d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SURFACEBLT structure [Display Devices], display.d3dhal_dp2surfaceblt, d3dhal/LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT, _D3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, LPD3DHAL_DP2SURFACEBLT, *LPD3DHAL_DP2SURFACEBLT, d3dhal/D3DHAL_DP2SURFACEBLT
+ms.keywords: d3dhal/LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], _D3DHAL_DP2SURFACEBLT, *LPD3DHAL_DP2SURFACEBLT, display.d3dhal_dp2surfaceblt, D3DHAL_DP2SURFACEBLT structure [Display Devices], d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, d3dhal/D3DHAL_DP2SURFACEBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,37 +77,37 @@ typedef struct _D3DHAL_DP2SURFACEBLT {
 
 
 
-#### - dwSource
+### -field dwSource
 
 Specifies the handle to the source surface.
 
 
-#### - rSource
+### -field rSource
 
 Specifies a RECTL structure that specifies the upper left and lower right points of a rectangle on the source surface. These points define the area of the source blit data and its position on the source surface.
 
 
-#### - dwSourceMipLevel
+### -field dwSourceMipLevel
 
 Specifies the sublevel of a MIP-map texture that is the source of the blt.
 
 
-#### - dwDest
+### -field dwDest
 
 Specifies the handle to the destination surface.
 
 
-#### - rDest
+### -field rDest
 
 Specifies a RECTL structure that specifies the upper left and lower right points of a rectangle on the destination surface. These points define the area in which the blit should occur and its position on the destination surface.
 
 
-#### - dwDestMipLevel
+### -field dwDestMipLevel
 
 Specifies the sublevel of a MIP-map texture that is the destination for the blt.
 
 
-#### - Flags
+### -field Flags
 
 Unused
 
@@ -123,13 +123,13 @@ The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the t
 
 ## -see-also
 
-D3DDP2OP_BLT
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 D3DDP2OP_SURFACEBLT
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+D3DDP2OP_BLT
 
  
 

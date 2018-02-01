@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f101fc66-40a9-4077-b651-cef0a0e247d4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlcreateunicodestring, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml, RtlCreateUnicodeString, ntifs/RtlCreateUnicodeString, RtlCreateUnicodeString routine [Installable File System Drivers]
+ms.keywords: RtlCreateUnicodeString routine [Installable File System Drivers], RtlCreateUnicodeString, ifsk.rtlcreateunicodestring, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml, ntifs/RtlCreateUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN RtlCreateUnicodeString(
 
 
 
-#### - DestinationString [out]
+### -param DestinationString [out]
 
 Pointer to the newly allocated and initialized Unicode string. 
 
 
-#### - SourceString [in]
+### -param SourceString [in]
 
 Pointer to a null-terminated Unicode string with which to initialize the new string.
 
@@ -97,9 +97,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

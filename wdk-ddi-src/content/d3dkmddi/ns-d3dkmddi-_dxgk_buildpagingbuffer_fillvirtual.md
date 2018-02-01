@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 373065F6-C754-4517-905E-86A974866120
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, display.dxgk_buildpagingbuffer_fillvirtual, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure [Display Devices]
+ms.keywords: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure [Display Devices], DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, display.dxgk_buildpagingbuffer_fillvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL {
 
 
 
-#### - hAllocation
+### -field hAllocation
 
 The kernel mode driver handle of the allocation being filled. The handle is returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>. The allocation properties are needed in order to detect if the allocation is swizzled.
 
 
-#### - AllocationOffsetInBytes
+### -field AllocationOffsetInBytes
 
 The offset, in bytes, from the start of the allocation being filled.
 
 
-#### - FillSizeInBytes
+### -field FillSizeInBytes
 
 The number of bytes to fill.
 
 
-#### - FillPattern
+### -field FillPattern
 
 The byte pattern to fill with.
 
 
-#### - DestinationVirtualAddress
+### -field DestinationVirtualAddress
 
 The virtual address of the destination in the context of the paging process.
 

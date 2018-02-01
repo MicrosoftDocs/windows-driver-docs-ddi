@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e7708b33-b032-41b9-84f9-6c5b38044f9c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemuipsparam, printoem/POEMUIPSPARAM, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, OEMUIPSPARAM structure [Print Devices], *POEMUIPSPARAM, printoem/OEMUIPSPARAM, _OEMUIPSPARAM, POEMUIPSPARAM structure pointer [Print Devices], OEMUIPSPARAM, POEMUIPSPARAM
+ms.keywords: print.oemuipsparam, printoem/POEMUIPSPARAM, POEMUIPSPARAM, POEMUIPSPARAM structure pointer [Print Devices], *POEMUIPSPARAM, printoem/OEMUIPSPARAM, OEMUIPSPARAM, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, _OEMUIPSPARAM, OEMUIPSPARAM structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,39 +78,44 @@ typedef struct _OEMUIPSPARAM {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Size of the OEMUIPSPARAM structure. Supplied by the Unidrv or Pscript5 driver.
 
 
-#### - poemuiobj
+### -field poemuiobj
 
 Not used.
 
 
-#### - hPrinter
+### -field hPrinter
 
 Handle to the printer. Supplied by the Unidrv or Pscript5 driver.
 
 
-#### - pPrinterName
+### -field pPrinterName
 
 String containing the printer name. Supplied by the Unidrv or Pscript5 driver.
 
 
-#### - hModule
+### -field hModule
 
 Handle to the user interface plug-in. Supplied by the Unidrv or Pscript5 driver.
 
 
-#### - hOEMHeap
+### -field hOEMHeap
 
 Handle to a heap from which space can be allocated by calling the Microsoft Windows SDK <b>HeapAlloc</b> function. Supplied by the Unidrv or Pscript5 driver.
 
 
-#### - pPublicDM
+### -field pPublicDM
 
 
+
+
+#### For calls to IPrintOemUI::DevicePropertySheets:
+
+Not used.
 
 
 #### For calls to IPrintOemUI::DocumentPropertySheets:
@@ -118,14 +123,14 @@ Handle to a heap from which space can be allocated by calling the Microsoft Wind
 Caller-supplied pointer to the printer's public DEVMODEW structure.
 
 
+### -field pOEMDM
+
+
+
+
 #### For calls to IPrintOemUI::DevicePropertySheets:
 
 Not used.
-
-
-#### - pOEMDM
-
-
 
 
 #### For calls to IPrintOemUI::DocumentPropertySheets:
@@ -133,24 +138,14 @@ Not used.
 Caller-supplied pointer to the user interface plug-in's private DEVMODEW members.
 
 
-#### For calls to IPrintOemUI::DevicePropertySheets:
-
-Not used.
-
-
-#### - pOEMUserData
+### -field pOEMUserData
 
 Pointer, supplied by user interface plug-in, to a location containing private information. This pointer is returned to the plug-in's <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function when a property sheet item has changed.
 
 
-#### - dwFlags
+### -field dwFlags
 
 
-
-
-#### For calls to IPrintOemUI::DocumentPropertySheets:
-
-Contains the contents of the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
 
 
 #### For calls to IPrintOemUI::DevicePropertySheets:
@@ -158,22 +153,27 @@ Contains the contents of the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER s
 Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
 
 
-#### - pOemEntry
+#### For calls to IPrintOemUI::DocumentPropertySheets:
+
+Contains the contents of the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
+
+
+### -field pOemEntry
 
 Reserved for system use.
 
 
 ## -see-also
 
+<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+<a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
-
-<a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>
+<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
 
  
 

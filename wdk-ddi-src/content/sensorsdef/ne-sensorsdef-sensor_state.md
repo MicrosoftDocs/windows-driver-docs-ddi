@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F1E869AE-2FAF-402F-9C50-58D81E0EFF69
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorsdef/SENSOR_STATE, SensorState_Initializing, SENSOR_STATE enumeration [Sensor Devices], sensorsdef/SensorState_Error, sensors.sensor_state, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Active, SensorState_Idle, SensorState_Error, SENSOR_STATE, sensorsdef/SensorState_Initializing, SensorState_Active
+ms.keywords: sensorsdef/SENSOR_STATE, sensorsdef/SensorState_Active, SENSOR_STATE, sensorsdef/SensorState_Error, sensorsdef/SensorState_Initializing, SensorState_Active, SensorState_Error, sensors.sensor_state, SensorState_Initializing, SensorState_Idle, SENSOR_STATE enumeration [Sensor Devices], sensorsdef/SensorState_Idle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _SENSOR_STATE {
 
 
 
-#### - SensorState_Initializing
+### -field SensorState_Initializing
 
 Indicates that the sensor is initializing.
 
 
-#### - SensorState_Idle
+### -field SensorState_Idle
 
 Indicates that the sensor is idle
 
 
-#### - SensorState_Active
+### -field SensorState_Active
 
 Indicates that the sensor is active.
 
 
-#### - SensorState_Error
+### -field SensorState_Error
 
 Indicates that the sensor is in an error state.
 

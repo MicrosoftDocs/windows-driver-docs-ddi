@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5EA31AC4-FFAF-4AB8-B471-32B823F35D2F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/SpoolerFreePrinterNotifyInfo, SpoolerFreePrinterNotifyInfo, print.spoolerfreeprinternotifyinfo, SpoolerFreePrinterNotifyInfo function [Print Devices]
+ms.keywords: SpoolerFreePrinterNotifyInfo function [Print Devices], winsplp/SpoolerFreePrinterNotifyInfo, SpoolerFreePrinterNotifyInfo, print.spoolerfreeprinternotifyinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID WINAPI SpoolerFreePrinterNotifyInfo(
 
 
 
-#### - pInfo [in]
+### -param pInfo [in]
 
 
 

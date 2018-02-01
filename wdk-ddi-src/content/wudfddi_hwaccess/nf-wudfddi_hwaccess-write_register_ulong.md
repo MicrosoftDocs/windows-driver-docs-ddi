@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5C5DAEA-9F4E-4202-90BE-A8D41EE03BDA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_REGISTER_ULONG function, wudfddi_hwaccess/WRITE_REGISTER_ULONG, umdf.write_register_ulong, wdf.write_register_ulong, WRITE_REGISTER_ULONG
+ms.keywords: WRITE_REGISTER_ULONG function, wdf.write_register_ulong, wudfddi_hwaccess/WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG, umdf.write_register_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ void WRITE_REGISTER_ULONG(
 
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a ULONG value to write to the register.
 

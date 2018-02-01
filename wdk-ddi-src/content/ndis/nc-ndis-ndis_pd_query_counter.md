@@ -75,12 +75,12 @@ void NdisPDQueryCounter(
 
 
 
-#### - CounterHandle [in]
+### -param CounterHandle [in]
 
 A counter handle that the miniport driver allocated in its <a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a> function.
 
 
-#### - CounterValue [out]
+### -param CounterValue [out]
 
 The miniport returns a pointer to a <a href="..\ndis\ns-ndis-_ndis_pd_counter_value.md">NDIS_PD_COUNTER_VALUE</a> structure that contains the values stored in  the counter object.
 

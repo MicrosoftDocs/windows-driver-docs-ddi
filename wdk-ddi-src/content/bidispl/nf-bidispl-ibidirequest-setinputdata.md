@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.ibidirequest_ibidirequest__setinputdata, IBidiRequest::IBidiRequest::SetInputData, BIDI_BLOB, BIDI_INT, IBidiRequest::SetInputData, SetInputData, gdi.ibidirequest_ibidirequest__setinputdata, BIDI_FLOAT, IBidiRequest, IBidiRequest::SetInputData method [Print Devices], IBidiRequest interface, bidispl/IBidiRequest::IBidiRequest::SetInputData, BIDI_ENUM, BIDI_BOOL, _win32_IBidiRequest_SetInputData, BIDI_NULL, IBidiRequest::SetInputData method [Print Devices], BIDI_STRING, IBidiRequest interface [Print Devices], IBidiRequest::SetInputData method, BIDI_TEXT
+ms.keywords: bidispl/IBidiRequest::IBidiRequest::SetInputData, IBidiRequest interface [Print Devices], IBidiRequest::SetInputData method, IBidiRequest::SetInputData, BIDI_BOOL, SetInputData, IBidiRequest::SetInputData method [Print Devices], BIDI_ENUM, BIDI_NULL, BIDI_FLOAT, BIDI_INT, IBidiRequest::IBidiRequest::SetInputData, BIDI_BLOB, _win32_IBidiRequest_SetInputData, BIDI_STRING, IBidiRequest, IBidiRequest::SetInputData method [Print Devices], IBidiRequest interface, gdi.ibidirequest_ibidirequest__setinputdata, print.ibidirequest_ibidirequest__setinputdata, BIDI_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT IBidiRequest::SetInputData(
 
 
 
-#### - dwType [in]
+### -param dwType [in]
 
 The type of data to be sent. This parameter can be one of the following values.
 <table>
@@ -160,12 +160,12 @@ Binary data.
 </table> 
 
 
-#### - pData [in]
+### -param pData [in]
 
 A pointer to the byte array that contains the data. For example, if <i>dwType</i> is BIDI_BOOL, <i>pData</i> points to a buffer that contains a Boolean value and if <i>dwType</i> is BIDI_BLOB, <i>pData</i> points to a buffer that contains the binary data.
 
 
-#### - uSize [in]
+### -param uSize [in]
 
 Size, in bytes, of the byte array specified by <i>pData</i>.
 

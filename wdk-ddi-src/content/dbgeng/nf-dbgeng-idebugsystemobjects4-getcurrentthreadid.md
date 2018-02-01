@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7062c962-2e82-40e3-81ea-97ac0948e501
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentthreadid, GetCurrentThreadId method [Windows Debugging], GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4::GetCurrentThreadId, GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_e40e3ab8-b03d-4b1e-805b-ad8ba51ea1c5.xml, IDebugSystemObjects2::GetCurrentThreadId, GetCurrentThreadId, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadId method, dbgeng/IDebugSystemObjects2::GetCurrentThreadId, IDebugSystemObjects3::GetCurrentThreadId, dbgeng/IDebugSystemObjects::GetCurrentThreadId, IDebugSystemObjects4, GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadId method, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadId method, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadId method, IDebugSystemObjects::GetCurrentThreadId, GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects3::GetCurrentThreadId, dbgeng/IDebugSystemObjects4::GetCurrentThreadId
+ms.keywords: GetCurrentThreadId, dbgeng/IDebugSystemObjects3::GetCurrentThreadId, dbgeng/IDebugSystemObjects4::GetCurrentThreadId, GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4::GetCurrentThreadId, IDebugSystemObjects2::GetCurrentThreadId, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadId method, debugger.getcurrentthreadid, GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_e40e3ab8-b03d-4b1e-805b-ad8ba51ea1c5.xml, IDebugSystemObjects4, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadId method, IDebugSystemObjects3::GetCurrentThreadId, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadId method, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadId method, dbgeng/IDebugSystemObjects::GetCurrentThreadId, dbgeng/IDebugSystemObjects2::GetCurrentThreadId, GetCurrentThreadId method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects::GetCurrentThreadId, GetCurrentThreadId method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT GetCurrentThreadId(
 
 
 
-#### - Id [out]
+### -param Id [out]
 
 Receives the engine thread ID.
 

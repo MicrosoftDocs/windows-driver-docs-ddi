@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/PDEBUG_VALUE, DEBUG_VALUE, debugger.debug_value, PDEBUG_VALUE structure pointer [Windows Debugging], dbgeng/DEBUG_VALUE, PDEBUG_VALUE, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, *PDEBUG_VALUE, _DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging]
+ms.keywords: "_DEBUG_VALUE, debugger.debug_value, dbgeng/DEBUG_VALUE, DEBUG_VALUE, PDEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], *PDEBUG_VALUE, dbgeng/PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -212,12 +212,12 @@ typedef struct _DEBUG_VALUE {
  
 
 
-#### - TailOfRawBytes
+### -field TailOfRawBytes
 
 See Remarks.
 
 
-#### - Type
+### -field Type
 
 See Remarks.
 
@@ -225,21 +225,6 @@ See Remarks.
 #### - ( unnamed union )
 
  
-
-
-#### I8
-
-See Remarks.
-
-
-#### I16
-
-See Remarks.
-
-
-#### I32
-
-See Remarks.
 
 
 #### ( unnamed struct )
@@ -253,6 +238,26 @@ See Remarks.
 
 
 #### Nat
+
+See Remarks.
+
+
+#### F128Bytes
+
+See Remarks.
+
+
+#### F128Parts64
+
+See Remarks.
+
+
+#### HighPart
+
+See Remarks.
+
+
+#### LowPart
 
 See Remarks.
 
@@ -277,12 +282,47 @@ See Remarks.
 See Remarks.
 
 
-#### F128Bytes
+#### I16
 
 See Remarks.
 
 
-#### VI8
+#### I32
+
+See Remarks.
+
+
+#### I64Parts32
+
+See Remarks.
+
+
+#### HighPart
+
+See Remarks.
+
+
+#### LowPart
+
+See Remarks.
+
+
+#### I8
+
+See Remarks.
+
+
+#### RawBytes
+
+See Remarks.
+
+
+#### VF32
+
+See Remarks.
+
+
+#### VF64
 
 See Remarks.
 
@@ -302,47 +342,7 @@ See Remarks.
 See Remarks.
 
 
-#### VF32
-
-See Remarks.
-
-
-#### VF64
-
-See Remarks.
-
-
-#### I64Parts32
-
-See Remarks.
-
-
-#### LowPart
-
-See Remarks.
-
-
-#### HighPart
-
-See Remarks.
-
-
-#### F128Parts64
-
-See Remarks.
-
-
-#### LowPart
-
-See Remarks.
-
-
-#### HighPart
-
-See Remarks.
-
-
-#### RawBytes
+#### VI8
 
 See Remarks.
 

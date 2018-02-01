@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d4685c23-7461-4539-9f7c-80f9760bf706
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInitializeDpcRequest, k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, kernel.ioinitializedpcrequest, wdm/IoInitializeDpcRequest, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoInitializeDpcRequest, wdm/IoInitializeDpcRequest, kernel.ioinitializedpcrequest, k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID IoInitializeDpcRequest(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Supplies a pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure representing the physical device that generates interrupts.
 
 
-#### - DpcRoutine [in]
+### -param DpcRoutine [in]
 
 Supplies a pointer to the driver-supplied <i>DpcForIsr</i> routine.
 
@@ -99,7 +99,9 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
 
 <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
@@ -107,9 +109,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
  
 

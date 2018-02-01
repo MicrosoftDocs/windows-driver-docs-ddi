@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DATA_HEADER, print.data_header, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, PDATA_HEADER, DATA_HEADER structure [Print Devices], _DATA_HEADER, *PDATA_HEADER, prntfont/DATA_HEADER, prntfont/PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices]
+ms.keywords: prntfont/DATA_HEADER, PDATA_HEADER, _DATA_HEADER, DATA_HEADER, *PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], print.data_header, DATA_HEADER structure [Print Devices], prntfont/PDATA_HEADER, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _DATA_HEADER {
 
 
 
-#### - dwSignature
+### -field dwSignature
 
 Specifies the signature value identifying the type of data in the data section. Valid signature values are listed in the following table.
 <table>
@@ -133,12 +133,12 @@ This data section contains data to be downloaded to the printer. See the followi
 </table> 
 
 
-#### - wSize
+### -field wSize
 
 Specifies the size, in bytes, of the DATA_HEADER structure.
 
 
-#### - wDataID
+### -field wDataID
 
 If the data section contains font metrics data, this value must be a unique font identifier. For fonts that are permanently downloaded by the font installer, this value should be the downloaded font's identifier.
 
@@ -147,12 +147,12 @@ If the data section contains glyph data, this value must be a glyph set identifi
 If the data section contains variable data, this value must be zero.
 
 
-#### - dwDataSize
+### -field dwDataSize
 
 Specifies the size, in bytes, of all the information represented by this DATA_HEADER structure. For example, if <b>dwSignature</b> is DATA_UFM_SIG, this value represents the size, in bytes, of the font's <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a> structure and all associated structures. The size value does not include any byte padding required to align the next DATA_HEADER structure to a DWORD.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Not used. Must be set to zero.
 

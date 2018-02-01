@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: af74f94a-497a-4771-aee4-d1ba8d2f3ad9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilreadphonebookentriesparams, RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILREADPHONEBOOKENTRIESPARAMS, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS
+ms.keywords: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS, netvista.rilreadphonebookentriesparams, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,18 +70,18 @@ typedef struct _RILREADPHONEBOOKENTRIESPARAMS {
 
 
 
-#### - hUiccApp
+### -field hUiccApp
 
 
 
-#### - dwStoreLocation
+### -field dwStoreLocation
 
 
 
-#### - dwStartIndex
+### -field dwStartIndex
 
 
 
-#### - dwEndIndex
+### -field dwEndIndex
 
 

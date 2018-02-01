@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bce6931d-af45-42aa-9be2-ded07f98c300
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvaddi_procampvalues, _DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES, DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES structure [Display Devices], d3dumddi/DXVADDI_PROCAMPVALUES
+ms.keywords: d3dumddi/DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES, DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, display.dxvaddi_procampvalues, DXVADDI_PROCAMPVALUES structure [Display Devices], _DXVADDI_PROCAMPVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXVADDI_PROCAMPVALUES {
 
 
 
-#### - Brightness
+### -field Brightness
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the brightness of the output image, as it is written to the destination surface.
 
 
-#### - Contrast
+### -field Contrast
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the contrast of the output image, as it is written to the destination surface.
 
 
-#### - Hue
+### -field Hue
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the hue of the output image, as it is written to the destination surface.
 
 
-#### - Saturation
+### -field Saturation
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the saturation of the output image, as it is written to the destination surface.
 

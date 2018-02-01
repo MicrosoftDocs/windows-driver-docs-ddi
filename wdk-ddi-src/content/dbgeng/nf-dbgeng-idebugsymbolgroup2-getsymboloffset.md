@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: da3ddebc-109e-43fb-a0e9-fd89d90dbbc7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsymboloffset, GetSymbolOffset method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolOffset, ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolOffset method, GetSymbolOffset method [Windows Debugging], dbgeng/IDebugSymbolGroup2::GetSymbolOffset, GetSymbolOffset
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolOffset method, IDebugSymbolGroup2, debugger.getsymboloffset, IDebugSymbolGroup2::GetSymbolOffset, ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, GetSymbolOffset method [Windows Debugging], dbgeng/IDebugSymbolGroup2::GetSymbolOffset, GetSymbolOffset, GetSymbolOffset method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetSymbolOffset(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 The index of the symbol whose address you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 The location in the process's virtual address space of the symbol.
 
@@ -123,9 +123,9 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

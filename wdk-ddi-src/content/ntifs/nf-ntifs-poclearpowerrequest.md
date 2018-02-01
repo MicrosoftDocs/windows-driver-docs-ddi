@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3754cca-81a4-42d2-a728-9f7e3270a4ee
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, PoClearPowerRequest, kernel.poclearpowerrequest, PoClearPowerRequest routine [Kernel-Mode Driver Architecture], wdm/PoClearPowerRequest
+ms.keywords: PoClearPowerRequest routine [Kernel-Mode Driver Architecture], PoClearPowerRequest, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, wdm/PoClearPowerRequest, kernel.poclearpowerrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PoClearPowerRequest(
 
 
 
-#### - PowerRequest [in, out]
+### -param PowerRequest [in, out]
 
 A pointer to a power request object that was created by the <a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a> routine.
 
 
-#### - Type [in]
+### -param Type [in]
 
 The type of the power request. Set this parameter to the following <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration value:
 <ul>

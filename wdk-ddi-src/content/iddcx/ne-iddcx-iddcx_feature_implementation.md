@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7bed6940-3f69-4cc0-b746-98cd7441f4b8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_FEATURE_IMPLEMENTATION_NONE, IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED, IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, display.iddcx_feature_implementation, iddcx/IDDCX_FEATURE_IMPLEMENTATION_NONE, iddcx/IDDCX_FEATURE_IMPLEMENTATION, iddcx/IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, IDDCX_FEATURE_IMPLEMENTATION, iddcx/IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED, IDDCX_FEATURE_IMPLEMENTATION enumeration [Display Devices], iddcx/IDDCX_FEATURE_IMPLEMENTATION_HARDWARE
+ms.keywords: iddcx/IDDCX_FEATURE_IMPLEMENTATION_NONE, IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED, display.iddcx_feature_implementation, IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION, IDDCX_FEATURE_IMPLEMENTATION_NONE, IDDCX_FEATURE_IMPLEMENTATION, IDDCX_FEATURE_IMPLEMENTATION enumeration [Display Devices], iddcx/IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED, IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,28 +72,28 @@ typedef enum _IDDCX_FEATURE_IMPLEMENTATION {
 
 
 
-#### - IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED
+### -field IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED
 
 
                         
                     Indicates that an <b>IDDCX_FEATURE_IMPLEMENTATION</b> variable has not yet been assigned a meaningful value.
 
 
-#### - IDDCX_FEATURE_IMPLEMENTATION_NONE
+### -field IDDCX_FEATURE_IMPLEMENTATION_NONE
 
 
                         The feature is not implemented
                     
 
 
-#### - IDDCX_FEATURE_IMPLEMENTATION_HARDWARE
+### -field IDDCX_FEATURE_IMPLEMENTATION_HARDWARE
 
 
                         The feature is implemented and hardware is used in the implementation. For example, the adapter/ display pipeline blends the hardware cursor image into the signal sent to the monitor.
                     
 
 
-#### - IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE
+### -field IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE
 
 
                         The feature is implemented and software is used in the implementation. For example, the driver/ support hardware cursor by blending the cursor image into the display pixels as part of the processing.

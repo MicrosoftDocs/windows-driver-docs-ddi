@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1C3E07CB-917D-4B3E-979D-4DBD38957B98
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, display.d3dwddm2_0ddi_video_decoder_caps, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration [Display Devices], D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME
+ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, display.d3dwddm2_0ddi_video_decoder_caps, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration [Display Devices], D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,12 +70,12 @@ typedef enum D3DWDDM2_0DDI_VIDEO_DECODER_CAPS {
 
 
 
-#### - D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE
 
 Indicates that the driver can support at least some downsampling scenarios.
 
 
-#### - D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME
 
 The decode operation is supported, but cannot be performed real-time.  Indicates that the decode hardware cannot support the decode operation in real-time. Decode is still viable for transcode scenarios. 
 
@@ -84,12 +84,12 @@ The decode operation is supported, but cannot be performed real-time.  Indicates
 It is possible that decode can occur in real-time if downsampling is applied.
 
 
-#### - D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED
 
 	Indicates that the decode configuration can be supported only if down sampling is applied. 
 
 
-#### - D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED
+### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED
 
 	Indicates that the decode configuration is not supported. 
 

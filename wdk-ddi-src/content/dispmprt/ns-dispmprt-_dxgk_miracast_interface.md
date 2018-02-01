@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39DCDA28-D32F-4755-91FB-0D42822D7B54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], display.dxgk_miracast_display_interface, _DXGK_MIRACAST_INTERFACE, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE, *PDXGK_MIRACAST_DISPLAY_INTERFACE
+ms.keywords: "*PDXGK_MIRACAST_DISPLAY_INTERFACE, display.dxgk_miracast_display_interface, DXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE, _DXGK_MIRACAST_INTERFACE, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _DXGK_MIRACAST_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Version
+### -field Version
 
 The version number of the Miracast interface. Version number constants are defined in Dispmprt.h (for example, DXGK_MIRACAST_DISPLAY_INTERFACE_VERSION_1).
 
 
-#### - Context
+### -field Context
 
 A pointer to a context that is provided by the display miniport driver.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display miniport driver.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display miniport driver.
 
 
-#### - DxgkDdiMiracastQueryCaps
+### -field DxgkDdiMiracastQueryCaps
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_query_caps.md">DxgkDdiMiracastQueryCaps</a> function.
 
 
-#### - DxgkDdiMiracastCreateContext
+### -field DxgkDdiMiracastCreateContext
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a> function.
 
 
-#### - DxgkDdiMiracastIoControl
+### -field DxgkDdiMiracastIoControl
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a> function.
 
 
-#### - DxgkDdiMiracastDestroyContext
+### -field DxgkDdiMiracastDestroyContext
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_destroy_context.md">DxgkDdiMiracastDestroyContext</a> function.
 
@@ -137,13 +137,13 @@ For more info on how to use the Miracast interface, see <a href="https://msdn.mi
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_query_caps.md">DxgkDdiMiracastQueryCaps</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_destroy_context.md">DxgkDdiMiracastDestroyContext</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63DB66FB-E02B-4C5E-AC7A-654E9D70435A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020, display.d3d12ddi_video_process_references_info, D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020
+ms.keywords: D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020, d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020, display.d3d12ddi_video_process_references_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,33 +72,33 @@ typedef struct D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020 {
 
 
 
-#### - NumPastFrames
+### -field NumPastFrames
 
 The number of past reference frames.
 
 
 
-#### - hDrvPastFrames
+### -field hDrvPastFrames
 
 A pointer to an array of surfaces. The number of elements in the array is the value of the <i>NumPastFrames</i> parameter.
 
 
-#### - pPastSubresources
+### -field pPastSubresources
 
 An array of subresource indexes for the list of past frames textures.  A value of null indicates subresource of zero (0) for each resource.
 
 
-#### - NumFutureFrames
+### -field NumFutureFrames
 
 The number of future reference frames.
 
 
-#### - hDrvFutureFrames
+### -field hDrvFutureFrames
 
 A pointer to an array of surfaces. The number of elements in the array is the value of  <i>NumFutureFrames</i> parameter.
 
 
-#### - pFutureSubresources
+### -field pFutureSubresources
 
 An array of subresource indexes for the list of future frames textures.  A value of null indicates subresource 0 for each resource.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 208fecc5-f01f-41f3-80d3-d811b3f4173a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetCorrelatedPhysicalTime method [Streaming Media Devices], ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, IKsClockPropertySet, IKsClockPropertySet::KsSetCorrelatedPhysicalTime, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime, stream.iksclockpropertyset_kssetcorrelatedphysicaltime, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface
+ms.keywords: IKsClockPropertySet::KsSetCorrelatedPhysicalTime, IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, KsSetCorrelatedPhysicalTime, stream.iksclockpropertyset_kssetcorrelatedphysicaltime, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, KsSetCorrelatedPhysicalTime method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsSetCorrelatedPhysicalTime(
 
 
 
-#### - CorrelatedTime [in]
+### -param CorrelatedTime [in]
 
 Pointer to a <a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time to which to set the underlying clock. 
 
@@ -88,11 +88,11 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
+<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564461">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559733">IKsClockPropertySet::KsGetCorrelatedPhysicalTime</a>
-
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
 
  
 

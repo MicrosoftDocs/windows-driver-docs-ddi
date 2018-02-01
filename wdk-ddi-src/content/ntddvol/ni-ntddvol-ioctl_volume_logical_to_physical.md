@@ -115,25 +115,25 @@ If the operation is successful, the <b>Status</b> member is set to STATUS_SUCCES
 
 
 
-#### -STATUS_INVALID_PARAMETER
-
-The input buffer is too small. 
-
-
 #### -STATUS_BUFFER_TOO_SMALL
 
 The output buffer is too small. The volume manager sets the <b>Irp-&gt;IoStatus.Information</b> member to the size of the output buffer the caller should have provided. 
 
 
-## -see-also
+#### -STATUS_INVALID_PARAMETER
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
+The input buffer is too small. 
+
+
+## -see-also
 
 <a href="..\ntddvol\ns-ntddvol-_volume_physical_offset.md">VOLUME_PHYSICAL_OFFSET</a>
 
 <a href="..\ntddvol\ns-ntddvol-_volume_physical_offsets.md">VOLUME_PHYSICAL_OFFSETS</a>
 
 <a href="..\ntddvol\ns-ntddvol-_volume_logical_offset.md">VOLUME_LOGICAL_OFFSET</a>
+
+<a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
 
  
 

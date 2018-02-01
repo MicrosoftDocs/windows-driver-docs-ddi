@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a1bc9be3-53ec-4506-a409-94a65d7136e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUI::DevQueryPrintEx, DevQueryPrintEx, IPrintOemUI interface [Print Devices], DevQueryPrintEx method, prcomoem/IPrintOemUI::DevQueryPrintEx, IPrintOemUI, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml, print.iprintoemui_devqueryprintex, DevQueryPrintEx method [Print Devices], IPrintOemUI interface, DevQueryPrintEx method [Print Devices]
+ms.keywords: DevQueryPrintEx, prcomoem/IPrintOemUI::DevQueryPrintEx, IPrintOemUI::DevQueryPrintEx, print.iprintoemui_devqueryprintex, IPrintOemUI, IPrintOemUI interface [Print Devices], DevQueryPrintEx method, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml, DevQueryPrintEx method [Print Devices], IPrintOemUI interface, DevQueryPrintEx method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT DevQueryPrintEx(
 
 
 
-#### - poemuiobj
+### -param poemuiobj
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - pDQPInfo
+### -param pDQPInfo
 
 Caller-supplied pointer to a <a href="..\winddiui\ns-winddiui-_devqueryprint_info.md">DEVQUERYPRINT_INFO</a> structure.
 
 
-#### - pPublicDM
+### -param pPublicDM
 
 Caller-supplied pointer to a validated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-#### - pOEMDM
+### -param pOEMDM
 
 Caller-supplied pointer to the user interface plug-in's private DEVMODEW structure members.
 

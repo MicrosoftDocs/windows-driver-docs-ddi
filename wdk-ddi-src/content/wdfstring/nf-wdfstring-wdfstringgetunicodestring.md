@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfstring/WdfStringGetUnicodeString, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, kmdf.wdfstringgetunicodestring, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, PFN_WDFSTRINGGETUNICODESTRING, wdf.wdfstringgetunicodestring
+ms.keywords: wdfstring/WdfStringGetUnicodeString, wdf.wdfstringgetunicodestring, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, WdfStringGetUnicodeString, PFN_WDFSTRINGGETUNICODESTRING, WdfStringGetUnicodeString method, kmdf.wdfstringgetunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfStringGetUnicodeString(
 
 
 
-#### - String [in]
+### -param String [in]
 
 A handle to a framework string object.
 
 
-#### - UnicodeString [out]
+### -param UnicodeString [out]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
 
@@ -108,9 +108,9 @@ For more information about framework string objects, see <a href="https://docs.m
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

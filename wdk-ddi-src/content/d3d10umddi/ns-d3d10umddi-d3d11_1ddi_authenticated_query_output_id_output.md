@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b4c87e5-9109-4be2-b912-4396a0e9eb10
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT structure [Display Devices], display.d3d11_1ddi_authenticated_query_output_id_output, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT
+ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT, display.d3d11_1ddi_authenticated_query_output_id_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_OUTPUT {
 
 
 
-#### - Output
+### -field Output
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a> structure that contains a Message Authentication Code (MAC) and other data.
 
 
-#### - DeviceHandle
+### -field DeviceHandle
 
 A handle to the device.
 
 
-#### - CryptoSessionHandle
+### -field CryptoSessionHandle
 
 A handle to the cryptographic session.
 
 
-#### - OutputIDIndex
+### -field OutputIDIndex
 
 The index of the output ID.
 
 
-#### - OutputID
+### -field OutputID
 
 An output ID that is associated with the specified device and cryptographic session.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a>
 
  
 

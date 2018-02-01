@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8c4f9abc-f03d-4084-b0ce-34aea5dd7d96
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfMemoryCreatePreallocated, wdf.wdfmemorycreatepreallocated, DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, wdfmemory/WdfMemoryCreatePreallocated, kmdf.wdfmemorycreatepreallocated, WdfMemoryCreatePreallocated method, PFN_WDFMEMORYCREATEPREALLOCATED
+ms.keywords: DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, wdfmemory/WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method, PFN_WDFMEMORYCREATEPREALLOCATED, kmdf.wdfmemorycreatepreallocated, wdf.wdfmemorycreatepreallocated, WdfMemoryCreatePreallocated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfMemoryCreatePreallocated(
 
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new memory object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a driver-supplied buffer.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 
 
-#### - Memory [out]
+### -param Memory [out]
 
 A pointer to a location that receives a handle to the new memory object.
 
@@ -158,13 +158,13 @@ For more information about framework memory objects, see <a href="https://docs.m
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemoryassignbuffer.md">WdfMemoryAssignBuffer</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 

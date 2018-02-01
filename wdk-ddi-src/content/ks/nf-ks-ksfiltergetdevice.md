@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f3abb5e4-6711-47bb-82b5-7ef838d49258
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterGetDevice, ks/KsFilterGetDevice, stream.ksfiltergetdevice, avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, KsFilterGetDevice function [Streaming Media Devices]
+ms.keywords: stream.ksfiltergetdevice, KsFilterGetDevice function [Streaming Media Devices], KsFilterGetDevice, ks/KsFilterGetDevice, avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PKSDEVICE __inline KsFilterGetDevice(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to find the owning AVStream device.
 
@@ -88,11 +88,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
 
  
 

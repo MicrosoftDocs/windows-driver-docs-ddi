@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b5295760-7f0e-4973-9ce3-4aa35ea5211b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_RESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION, kernel.resourcemanager_basic_information, *PRESOURCEMANAGER_BASIC_INFORMATION, RESOURCEMANAGER_BASIC_INFORMATION, RESOURCEMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PRESOURCEMANAGER_BASIC_INFORMATION, wdm/RESOURCEMANAGER_BASIC_INFORMATION, ktm_ref_bcc9f19b-2cd4-45da-b5df-1f28e832d48e.xml, PRESOURCEMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: kernel.resourcemanager_basic_information, _RESOURCEMANAGER_BASIC_INFORMATION, wdm/RESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION, wdm/PRESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], RESOURCEMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], ktm_ref_bcc9f19b-2cd4-45da-b5df-1f28e832d48e.xml, RESOURCEMANAGER_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _RESOURCEMANAGER_BASIC_INFORMATION {
 
 
 
-#### - ResourceManagerId
+### -field ResourceManagerId
 
 A GUID that KTM assigned to the resource manager.
 
 
-#### - DescriptionLength
+### -field DescriptionLength
 
 The length, in bytes, of the character array that the <b>Description</b> member provides.
 
 
-#### - Description
+### -field Description
 
 A caller-allocated array of characters that receives a resource manager's description string. 
 

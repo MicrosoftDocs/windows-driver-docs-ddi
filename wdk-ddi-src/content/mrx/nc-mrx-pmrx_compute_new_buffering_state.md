@@ -72,17 +72,17 @@ NTSTATUS MRxComputeNewBufferingState(
 
 
 
-#### - SrvOpen [in, out]
+### -param SrvOpen [in, out]
 
 A pointer to the SRV_OPEN structure and the associated FCB structure.
 
 
-#### - MRxContext [in]
+### -param MRxContext [in]
 
 A pointer to a context parameter for use by the network mini-redirector callback.
 
 
-#### - NewBufferingState [out]
+### -param NewBufferingState [out]
 
 A pointer to where the new buffering state is stored when the routine returns. 
 
@@ -122,9 +122,9 @@ The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549850">MRxCompleteBufferingStateChangeRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
 
  
 

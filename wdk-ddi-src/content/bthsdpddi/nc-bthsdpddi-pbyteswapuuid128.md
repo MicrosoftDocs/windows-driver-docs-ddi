@@ -73,7 +73,7 @@ void SdpByteSwapUuid128(
 
 
 
-#### - *pUuidFrom
+### -param *pUuidFrom
 
 A pointer to the 128-bit GUID for which to reverse the byte order.
 
@@ -83,11 +83,6 @@ A pointer to the 128-bit GUID for which to reverse the byte order.
 
 
 
-
-
-#### - pUuidFrom
-
-A pointer to the 128-bit GUID for which to reverse the byte order.
 
 
 #### - pUuidTo

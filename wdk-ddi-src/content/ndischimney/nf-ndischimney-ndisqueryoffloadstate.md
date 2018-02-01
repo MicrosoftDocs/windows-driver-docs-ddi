@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97d30ba7-b67c-460b-ba80-171687495e27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml, NdisQueryOffloadState, netvista.ndisqueryoffload, ndis/NdisQueryOffloadState, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista]
+ms.keywords: tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista], netvista.ndisqueryoffload, NdisQueryOffloadState, ndis/NdisQueryOffloadState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisQueryOffloadState(
 
 
 
-#### - NdisBindingHandle [in]
+### -param NdisBindingHandle [in]
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
@@ -80,11 +80,11 @@ The handle that NDIS provided at the
      target.
 
 
-#### - OffloadBlockList [in]
+### -param OffloadBlockList [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that can be a stand-alone structure or the root of a
+     <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the offloaded state objects that are being
      queried.
 
@@ -102,15 +102,15 @@ None
 An intermediate driver calls the 
     <b>NdisQueryOffloadState</b> function to propagate a query offload operation that was initiated by the host
     stack. For more information, see 
-    <mshelp:link keywords="netvista.propagating_state_manipulation_operations" tabindex="0">Propagating
-    State-Manipulation Operations</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff563771">Propagating
+    State-Manipulation Operations</a>.
 
 From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its 
     <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a> function, the
     intermediate driver constructs an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. For more information, see
     Reusing an 
-    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> Structure. The intermediate driver passes a pointer (the 
+    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> Structure. The intermediate driver passes a pointer (the 
     <i>OffloadBlockList</i> parameter) to this NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure when calling the 
     <b>NdisQueryOffloadState</b> function.
 
@@ -118,21 +118,21 @@ From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+   NdisMQueryOffloadStateComplete</a>
 
-<mshelp:link keywords="netvista.protocolqueryoffloadcomplete" tabindex="0"><i>
-   ProtocolQueryOffloadComplete</i></mshelp:link>
-
-<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-   NdisMQueryOffloadStateComplete</b></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
+   ProtocolQueryOffloadComplete</a>
 
  
 

@@ -73,19 +73,19 @@ HRESULT  RIL_SetNotificationFilterState(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwFilterMask
+### -param dwFilterMask
 
 
 
-#### - dwFilterState
+### -param dwFilterState
 
 
 

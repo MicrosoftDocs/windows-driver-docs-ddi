@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ce983953-53fc-4a32-8072-8a9f74d11ae3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDriverObjectExtension, kernel.iogetdriverobjectextension, wdm/IoGetDriverObjectExtension, k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoGetDriverObjectExtension, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture], kernel.iogetdriverobjectextension, k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, wdm/IoGetDriverObjectExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ PVOID IoGetDriverObjectExtension(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 Specifies the driver object with which the context area is associated.
 
 
-#### - ClientIdentificationAddress [in]
+### -param ClientIdentificationAddress [in]
 
 Specifies the unique identifier, provided when it was allocated, of the context area to be retrieved.
 

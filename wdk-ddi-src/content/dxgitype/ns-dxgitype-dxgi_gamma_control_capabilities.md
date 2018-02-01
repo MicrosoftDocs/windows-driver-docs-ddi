@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a91311e-c8b9-4f28-b72e-9f93d459aac2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgi_gamma_control_capabiliites, UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILIITES, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES
+ms.keywords: UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, DXGI_GAMMA_CONTROL_CAPABILITIES, display.dxgi_gamma_control_capabiliites, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILIITES, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct DXGI_GAMMA_CONTROL_CAPABILIITES {
 
 
 
-#### - ScaleAndOffsetSupported
+### -field ScaleAndOffsetSupported
 
 [out] A BOOL value that indicates whether the device supports scale and offset. <b>TRUE</b> indicates that the device supports scale and offset; <b>FALSE</b> indicates that the device does not support scale and offset. 
 
 
-#### - MaxConvertedValue
+### -field MaxConvertedValue
 
 [out] A single-precision float vector for the maximum converted value for the gamma control. 
 
 
-#### - MinConvertedValue
+### -field MinConvertedValue
 
 [out] A single-precision float vector for the minimum converted value for the gamma control. 
 
 
-#### - NumGammaControlPoints
+### -field NumGammaControlPoints
 
 [out] The number of elements in the array that the <b>ControlPointPositions</b> member specifies. 
 
 
-#### - ControlPointPositions
+### -field ControlPointPositions
 
 [out] An array of single-precision float vectors that describe the gamma control point positions. 
 

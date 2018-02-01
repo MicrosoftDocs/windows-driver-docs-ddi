@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateObjectCreateItem function [Streaming Media Devices], KsAllocateObjectCreateItem, stream.ksallocateobjectcreateitem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, ks/KsAllocateObjectCreateItem
+ms.keywords: ks/KsAllocateObjectCreateItem, KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, stream.ksallocateobjectcreateitem, KsAllocateObjectCreateItem function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS KsAllocateObjectCreateItem(
 
 
 
-#### - Header [in]
+### -param Header [in]
 
 Points to the device header on which to attach the create item.
 
 
-#### - CreateItem [in]
+### -param CreateItem [in]
 
 Contains the create item to attach.
 
 
-#### - AllocateEntry [in]
+### -param AllocateEntry [in]
 
 Indicates whether the create item pointer passed should be attached directly to the header, or if a copy of it should be made instead.
 
 
-#### - ItemFreeCallback [in, optional]
+### -param ItemFreeCallback [in, optional]
 
 Optionally contains a pointer to a minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567188">KStrItemFreeCallback</a> function to be called when the create entry is being destroyed upon freeing the device header. This is only valid when <i>AllocateEntry</i> is <b>TRUE</b>.
 

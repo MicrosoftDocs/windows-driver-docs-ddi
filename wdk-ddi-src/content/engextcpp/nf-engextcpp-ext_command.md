@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 349712b1-bd1f-4f1f-a242-b6aa36e48773
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EXT_COMMAND function [Windows Debugging], EngExtCpp_Ref_a6dc21d7-b0c2-4e13-add5-ecfe3c38a94a.xml, debugger.ext_command, EXT_COMMAND, engextcpp/EXT_COMMAND
+ms.keywords: EXT_COMMAND function [Windows Debugging], debugger.ext_command, EngExtCpp_Ref_a6dc21d7-b0c2-4e13-add5-ecfe3c38a94a.xml, EXT_COMMAND, engextcpp/EXT_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -71,19 +71,19 @@ An extension command is defined as follows:
 
 
 
-#### - _Name
+### -param _Name
 
 The name of the extension command.  This must be the same as the <i>_Name</i> parameter that is used to declare the extension command by using <a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>.
 
 Because EXT_COMMAND is a macro, <i>_Name</i> must be the bare name of the extension command and should not be enclosed in quotation marks or be a variable.
 
 
-#### - _Desc
+### -param _Desc
 
 A string describing the extension command.
 
 
-#### - _Args
+### -param _Args
 
 A string describing the arguments that are expected by the extension command.   For information about how the <i>_Args</i> string is formatted, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
 <div class="alert"><b>Note</b>     As an alternative to supplying a string that describes the arguments, you can use  the string "{{custom}}" to indicate that the extension command will parse the arguments itself.  The method <a href="..\engextcpp\nf-engextcpp-extextension-getrawargstr.md">GetRawArgStr</a> can be used to fetch the raw argument for parsing.</div><div> </div>
@@ -151,11 +151,11 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+<a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>
 
  
 

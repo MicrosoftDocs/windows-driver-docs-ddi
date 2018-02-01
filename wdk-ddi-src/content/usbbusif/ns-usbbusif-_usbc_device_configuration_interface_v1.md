@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 86e8946f-f87f-40d4-bd02-6e4befe847e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbc_device_configuration_interface_v1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1
+ms.keywords: USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml, buses.usbc_device_configuration_interface_v1, _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,51 +75,51 @@ typedef struct _USBC_DEVICE_CONFIGURATION_INTERFACE_V1 {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Version
+### -field Version
 
 The version of the interface.
 
 
-#### - Context
+### -field Context
 
 The USB generic parent driver does not use this member. It is populated by the vendor supplied filter driver and may be used to track instance information for the bus interface. It is passed as a parameter to <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> and <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
-#### - StartDeviceCallback
+### -field StartDeviceCallback
 
 Pointer to the callback routine that the filter driver furnishes to the USB generic parent driver to assist in defining interface collections on a device. For more information, see <a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>.
 
 
-#### - PdoEnableCallback
+### -field PdoEnableCallback
 
 Reserved.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB structures</a>
-
 <a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB structures</a>
 
 <a href="https://msdn.microsoft.com/3cf4e9f2-ea33-491f-94af-62d2afacc899">Customizing Enumeration of Interface Collections for Composite Devices</a>
 

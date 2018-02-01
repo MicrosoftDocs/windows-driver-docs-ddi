@@ -91,14 +91,14 @@ The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an  <b>E
 </table></span></div>
 
 
-#### -StructSize
-
-The size of the structure. This is set to <b>sizeof</b>(EHSTOR_DEVICE_PROPERTIES).
-
-
 #### -BytesPerSector
 
 The size, in bytes, of a sector on the underlying storage device.
+
+
+#### -StructSize
+
+The size of the structure. This is set to <b>sizeof</b>(EHSTOR_DEVICE_PROPERTIES).
 
 
 ### -output-buffer-length

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 952812f4-5d29-4d1d-ab81-dd3a76a5f04c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ChangeSharedCacheMap, ifsk.fsrtl_change_backing_type, FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], *PFSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeImageControlArea, contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml, ntifs/FSRTL_CHANGE_BACKING_TYPE, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], ChangeDataControlArea, ntifs/ChangeSharedCacheMap, PFSRTL_CHANGE_BACKING_TYPE, ntifs/PFSRTL_CHANGE_BACKING_TYPE, _FSRTL_CHANGE_BACKING_TYPE, FSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeDataControlArea, ChangeImageControlArea
+ms.keywords: ntifs/PFSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeImageControlArea, ntifs/ChangeDataControlArea, _FSRTL_CHANGE_BACKING_TYPE, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], ChangeImageControlArea, FSRTL_CHANGE_BACKING_TYPE, ChangeSharedCacheMap, FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], ntifs/FSRTL_CHANGE_BACKING_TYPE, ChangeDataControlArea, *PFSRTL_CHANGE_BACKING_TYPE, PFSRTL_CHANGE_BACKING_TYPE, ifsk.fsrtl_change_backing_type, ntifs/ChangeSharedCacheMap, contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _FSRTL_CHANGE_BACKING_TYPE {
 
 
 
-#### - ChangeDataControlArea
+### -field ChangeDataControlArea
 
 The data control area of the memory manager.
 
 
-#### - ChangeImageControlArea
+### -field ChangeImageControlArea
 
 An image control area that belongs to the memory manager.
 
 
-#### - ChangeSharedCacheMap
+### -field ChangeSharedCacheMap
 
 The shared cache map of the cache manager.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b09373ef-7b65-46f7-b5b7-a6dcecf0166c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TUNER_SCAN_STATUS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S, ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S structure pointer [Streaming Media Devices], vidcapstruct_70c7d301-6c91-4955-bcaa-67cad29cb15a.xml, stream.ksproperty_tuner_scan_status_s, *PKSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_SCAN_STATUS_S
+ms.keywords: stream.ksproperty_tuner_scan_status_s, KSPROPERTY_TUNER_SCAN_STATUS_S structure [Streaming Media Devices], *PKSPROPERTY_TUNER_SCAN_STATUS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S, vidcapstruct_70c7d301-6c91-4955-bcaa-67cad29cb15a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-#### - LockStatus
+### -field LockStatus
 
 One of the following values from the <b>TunerLockType</b> enumeration that indicates the lock status of the scanning operation.
 <table>
@@ -115,16 +115,16 @@ A fine-tune signal lock was established. The driver can return this value at the
 </table> 
 
 
-#### - CurrentFrequency
+### -field CurrentFrequency
 
 The current locked-in frequency, in Hz, on the tuning device. 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 

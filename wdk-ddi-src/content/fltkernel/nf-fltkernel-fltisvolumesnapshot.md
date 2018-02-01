@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eb35e108-577e-4897-8f8c-f3c54753c1f7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsVolumeSnapshot, FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, ifsk.fltisvolumesnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot
+ms.keywords: FltIsVolumeSnapshot routine [Installable File System Drivers], FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot, fltkernel/FltIsVolumeSnapshot, FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltIsVolumeSnapshot(
 
 
 
-#### - FltObject [in]
+### -param FltObject [in]
 
 An opaque pointer to the volume or instance.
 
 
-#### - IsSnapshotVolume [out]
+### -param IsSnapshotVolume [out]
 
 A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if the volume or instance is attached to a snapshot volume. Otherwise, the variable receives <b>FALSE</b>.
 

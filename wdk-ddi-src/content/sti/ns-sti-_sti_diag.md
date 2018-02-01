@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 07caa8b0-849c-4ad9-9adb-b1726edc9234
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.sti_diag, LPSTI_DIAG structure pointer [Imaging Devices], _STI_DIAG, sti/LPSTI_DIAG, DIAG, sti/STI_DIAG, stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml, LPSTI_DIAG, *LPSTI_DIAG, STI_DIAG, STI_DIAG structure [Imaging Devices]
+ms.keywords: STI_DIAG, DIAG, image.sti_diag, *LPSTI_DIAG, sti/LPSTI_DIAG, sti/STI_DIAG, _STI_DIAG, LPSTI_DIAG, STI_DIAG structure [Imaging Devices], LPSTI_DIAG structure pointer [Imaging Devices], stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _STI_DIAG {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Caller-supplied size, in bytes, of the STI_DIAG structure.
 
 
-#### - dwBasicDiagCode
+### -field dwBasicDiagCode
 
 Bit flag indicating the type of test to be performed. Currently this must be STI_DIAGCODE_HWPRESENCE<i>.</i>
 
 
-#### - dwVendorDiagCode
+### -field dwVendorDiagCode
 
 Optional, vendor-defined diagnostic request code.
 
 
-#### - dwStatusMask
+### -field dwStatusMask
 
 Reserved for future use.
 
 
-#### - sErrorInfo
+### -field sErrorInfo
 
 Structure of type <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a>.
 

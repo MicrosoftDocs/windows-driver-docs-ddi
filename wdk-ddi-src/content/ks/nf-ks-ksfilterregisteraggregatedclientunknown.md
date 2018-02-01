@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aac70408-83b8-4bfd-8ce9-9b74483f6282
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfilterregisteraggregatedclientunknown, KsFilterRegisterAggregatedClientUnknown function [Streaming Media Devices], ks/KsFilterRegisterAggregatedClientUnknown, KsFilterRegisterAggregatedClientUnknown, avfunc_c485334a-83bd-474e-abfc-ced331ca55db.xml
+ms.keywords: ks/KsFilterRegisterAggregatedClientUnknown, KsFilterRegisterAggregatedClientUnknown, KsFilterRegisterAggregatedClientUnknown function [Streaming Media Devices], stream.ksfilterregisteraggregatedclientunknown, avfunc_c485334a-83bd-474e-abfc-ced331ca55db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PUNKNOWN __inline KsFilterRegisterAggregatedClientUnknown(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 A pointer to the specified AVStream <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure.
 
 
-#### - ClientUnknown [in]
+### -param ClientUnknown [in]
 
 The client <b>IUnknown</b> interface object.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b760e176-3ef7-4495-89c7-ec6b8bb3ed30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscopyfromnetbuffertonetbuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, ndis/NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer
+ms.keywords: ndis/NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer, netvista.ndiscopyfromnetbuffertonetbuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,36 +76,36 @@ NDIS_STATUS NdisCopyFromNetBufferToNetBuffer(
 
 
 
-#### - Destination [in]
+### -param Destination [in]
 
 A pointer to a previously allocated destination NET_BUFFER structure.
 
 
-#### - DestinationOffset [in]
+### -param DestinationOffset [in]
 
 The byte offset within the destination NET_BUFFER structure at which to begin writing the copied
      data. For more information about 
      <i>DestinationOffset</i>, see the following Remarks section.
 
 
-#### - BytesToCopy [in]
+### -param BytesToCopy [in]
 
 The number of bytes to copy.
 
 
-#### - Source [in]
+### -param Source [in]
 
 A pointer to a previously allocated source NET_BUFFER structure.
 
 
-#### - SourceOffset [in]
+### -param SourceOffset [in]
 
 The byte offset within the source NET_BUFFER structure at which to begin copying the data. For
      more information about 
      <i>SourceOffset</i>, see the following Remarks section.
 
 
-#### - BytesCopied [out]
+### -param BytesCopied [out]
 
 A pointer to the caller-supplied variable in which this function returns the number of bytes
      actually copied. This number can be less than the value of 

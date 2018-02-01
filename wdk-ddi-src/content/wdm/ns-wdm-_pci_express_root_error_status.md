@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1af0c877-e634-474e-9b4d-a28991fb3f66
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_PCI_EXPRESS_ROOT_ERROR_STATUS, wdm/PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI.pci_express_root_error_status, wdm/PCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS union [Buses], pci_struct_8b730780-dc4a-4873-8efd-fb6df47f7c8f.xml, *PPCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS union pointer [Buses]"
+ms.keywords: "*PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI.pci_express_root_error_status, wdm/PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS, pci_struct_8b730780-dc4a-4873-8efd-fb6df47f7c8f.xml, _PCI_EXPRESS_ROOT_ERROR_STATUS, wdm/PCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS union pointer [Buses], PCI_EXPRESS_ROOT_ERROR_STATUS union [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,97 +86,52 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
 
 ### -field DUMMYSTRUCTNAME.CorrectableErrorReceived
 
- 
+A single bit that indicates that a correctable error message has been received.
 
 
 ### -field DUMMYSTRUCTNAME.MultipleCorrectableErrorsReceived
 
- 
+A single bit that indicates that multiple correctable error messages have been received.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableErrorReceived
 
- 
+A single bit that indicates that an uncorrectable error message has been received.
 
 
 ### -field DUMMYSTRUCTNAME.MultipleUncorrectableErrorsReceived
 
- 
+A single bit that indicates that multiple uncorrectable error messages have been received.
 
 
 ### -field DUMMYSTRUCTNAME.FirstUncorrectableFatal
 
- 
+A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.NonFatalErrorMessagesReceived
 
- 
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
 
 
 ### -field DUMMYSTRUCTNAME.FatalErrorMessagesReceived
 
- 
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.AdvancedErrorInterruptMessageNumber
 
- 
+The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
 
 
-#### - AsULONG
+### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_STATUS structure.
-
-
-#### - CorrectableErrorReceived
-
-A single bit that indicates that a correctable error message has been received.
-
-
-#### - MultipleCorrectableErrorsReceived
-
-A single bit that indicates that multiple correctable error messages have been received.
-
-
-#### - UncorrectableErrorReceived
-
-A single bit that indicates that an uncorrectable error message has been received.
-
-
-#### - MultipleUncorrectableErrorsReceived
-
-A single bit that indicates that multiple uncorrectable error messages have been received.
-
-
-#### - FirstUncorrectableFatal
-
-A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
-
-
-#### - NonFatalErrorMessagesReceived
-
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
-
-
-#### - FatalErrorMessagesReceived
-
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
-
-
-#### - Reserved
-
-Reserved.
-
-
-#### - AdvancedErrorInterruptMessageNumber
-
-The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
 
 
 ## -remarks

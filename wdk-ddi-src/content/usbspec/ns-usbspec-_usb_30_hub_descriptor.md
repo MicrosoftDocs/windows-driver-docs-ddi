@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5B910D0B-0D1D-45D8-B418-13DC00B3398A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbspec/PUSB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR structure [Buses], PUSB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], *PUSB_30_HUB_DESCRIPTOR, _USB_30_HUB_DESCRIPTOR
+ms.keywords: USB_30_HUB_DESCRIPTOR structure [Buses], usbspec/USB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, PUSB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], usbspec/PUSB_30_HUB_DESCRIPTOR, _USB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,58 +76,58 @@ typedef struct _USB_30_HUB_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 The length, in bytes, of the descriptor.
 
 
-#### - bDescriptorType
+### -field bDescriptorType
 
     The descriptor type. For SuperSpeed hub descriptors, the value must be USB_30_HUB_DESCRIPTOR_TYPE (0x2A).
 
 
 
 
-#### - bNumberOfPorts
+### -field bNumberOfPorts
 
     The number of ports on the hub.
 
 
-#### - wHubCharacteristics
+### -field wHubCharacteristics
 
     The hub characteristics. 
 
 
-#### - bPowerOnToPowerGood
+### -field bPowerOnToPowerGood
 
     The time, in 2-millisecond intervals, that it takes the device to turn on completely.
 
 
-#### - bHubControlCurrent
+### -field bHubControlCurrent
 
 The maximum current requirements, in milliamperes, of the controller component of the hub.
 
 
-#### - bHubHdrDecLat
+### -field bHubHdrDecLat
 
 The    hub packet header decode latency.
 
 
-#### - wHubDelay
+### -field wHubDelay
 
     The average delay, in nanoseconds, that is introduced by the hub.
 
 
-#### - DeviceRemovable
+### -field DeviceRemovable
 
     Indicates whether a removable device is attached to each port.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

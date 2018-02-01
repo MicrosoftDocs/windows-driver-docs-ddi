@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exinitializesettimerparameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], wdm/ExInitializeSetTimerParameters, ExInitializeSetTimerParameters
+ms.keywords: ExInitializeSetTimerParameters, kernel.exinitializesettimerparameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], wdm/ExInitializeSetTimerParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExInitializeSetTimerParameters(
 
 
 
-#### - Parameters [out]
+### -param Parameters [out]
 
 A pointer to the <b>EXT_SET_PARAMETER</b> structure that is to be initialized.
 

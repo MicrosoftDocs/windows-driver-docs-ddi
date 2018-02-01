@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e9d25ac3-8ffc-4137-8409-731d8caaa730
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_activation_command, wwan/WwanActivationCommandActivate, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandMax, WWAN_ACTIVATION_COMMAND, WwanActivationCommandDeactivate, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandDeactivate, PWWAN_ACTIVATION_COMMAND, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, *PWWAN_ACTIVATION_COMMAND, wwan/PWWAN_ACTIVATION_COMMAND, WwanActivationCommandMax, WwanActivationCommandActivate
+ms.keywords: WwanActivationCommandDeactivate, WwanActivationCommandMax, wwan/WwanActivationCommandActivate, *PWWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], PWWAN_ACTIVATION_COMMAND, netvista.wwan_activation_command, WwanActivationCommandActivate, wwan/PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanActivationCommandMax, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, WWAN_ACTIVATION_COMMAND, _WWAN_ACTIVATION_COMMAND, wwan/WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,18 +71,18 @@ typedef enum _WWAN_ACTIVATION_COMMAND {
 
 
 
-#### - WwanActivationCommandDeactivate
+### -field WwanActivationCommandDeactivate
 
 Deactivate a currently activated PDP context identified by 
      <b>ConnectionId</b> .
 
 
-#### - WwanActivationCommandActivate
+### -field WwanActivationCommandActivate
 
 Activate PDP context.
 
 
-#### - WwanActivationCommandMax
+### -field WwanActivationCommandMax
 
 The total number of supported activation commands.
 

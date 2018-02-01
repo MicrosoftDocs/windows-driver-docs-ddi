@@ -69,17 +69,17 @@ NTSTATUS PsGetPermanentSiloContext(
 
 
 
-#### - Silo [in]
+### -param Silo [in]
 
 The silo in which the object was inserted. This parameter is required and it cannot be <b>NULL</b>.
 
 
-#### - ContextSlot [in]
+### -param ContextSlot [in]
 
 The read-only slot that was previously allocated by<a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> and made read-only by <a href="..\ntddk\nf-ntddk-psmakesilocontextpermanent.md">PsMakeSiloContextPermanent</a>.
 
 
-#### - ReturnedSiloContext
+### -param ReturnedSiloContext
 
 A pointer to a caller-allocated variable that receives the address of the existing object. This parameter is required and it cannot be <b>NULL</b>.
 

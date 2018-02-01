@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aa191c47-4b3b-464a-8a12-db673fca0f20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/NDIS_WWAN_SET_SMS_CONFIGURATION, *PNDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SET_SMS_CONFIGURATION, _NDIS_WWAN_SET_SMS_CONFIGURATION, WwanRef_f118e481-c8ed-4b8b-a6f9-ba1e26fc564f.xml, netvista.ndis_wwan_set_sms_configuration
+ms.keywords: ndiswwan/PNDIS_WWAN_SET_SMS_CONFIGURATION, PNDIS_WWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_f118e481-c8ed-4b8b-a6f9-ba1e26fc564f.xml, ndiswwan/NDIS_WWAN_SET_SMS_CONFIGURATION, *PNDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_SMS_CONFIGURATION, netvista.ndis_wwan_set_sms_configuration, PNDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SET_SMS_CONFIGURATION {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_SMS_CONFIGURATION
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,11 +118,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - SetSmsConfiguration
+### -field SetSmsConfiguration
 
 A formatted 
-     <mshelp:link keywords="netvista.wwan_set_sms_configuration" tabindex="0"><b>
-     WWAN_SET_SMS_CONFIGURATION</b></mshelp:link> object that represents the SMS configuration to set on the
+     <a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">
+     WWAN_SET_SMS_CONFIGURATION</a> object that represents the SMS configuration to set on the
      device.
 
 

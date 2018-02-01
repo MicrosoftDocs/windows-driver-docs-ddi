@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 246c2abd-ad07-4910-968c-dbd5fefff5bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], RtlUnicodeStringCbCatN, kernel.rtlunicodestringcbcatn, ntstrsafe/RtlUnicodeStringCbCatN
+ms.keywords: ntstrsafe/RtlUnicodeStringCbCatN, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml, kernel.rtlunicodestringcbcatn, RtlUnicodeStringCbCatN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlUnicodeStringCbCatN(
 
 
 
-#### - DestinationString [in, out]
+### -param DestinationString [in, out]
 
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-#### - SourceString [in]
+### -param SourceString [in]
 
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that contains the source string. This string will be added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-#### - cbToAppend [in]
+### -param cbToAppend [in]
 
 The maximum number of bytes to append to the string that the <i>DestinationString</i> parameter describes.
 

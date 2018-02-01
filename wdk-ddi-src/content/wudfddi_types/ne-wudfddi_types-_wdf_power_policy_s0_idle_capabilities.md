@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b4a3611d-5eb6-4fb2-a66a-e563569c4790
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/IdleCannotWakeFromS0, IdleUsbSelectiveSuspend, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wdfdevice/IdleCanWakeFromS0, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, IdleCannotWakeFromS0, wdfdevice/IdleCannotWakeFromS0, wudfddi_types/IdleCanWakeFromS0, wdfdevice/IdleCapsInvalid, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wdf.wdf_power_policy_s0_idle_capabilities, IdleCapsInvalid, wudfddi_types/IdleCapsInvalid, kmdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleUsbSelectiveSuspend, IdleCanWakeFromS0, wudfddi_types/IdleUsbSelectiveSuspend
+ms.keywords: wdfdevice/IdleCannotWakeFromS0, wudfddi_types/IdleUsbSelectiveSuspend, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, kmdf.wdf_power_policy_s0_idle_capabilities, wudfddi_types/IdleCannotWakeFromS0, wdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleUsbSelectiveSuspend, wudfddi_types/IdleCapsInvalid, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wdfdevice/IdleCanWakeFromS0, IdleCanWakeFromS0, wudfddi_types/IdleCanWakeFromS0, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wdfdevice/IdleCapsInvalid, IdleCannotWakeFromS0, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, IdleUsbSelectiveSuspend, IdleCapsInvalid, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,22 +74,22 @@ typedef enum _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES {
 
 
 
-#### - IdleCapsInvalid
+### -field IdleCapsInvalid
 
 For internal use only.
 
 
-#### - IdleCannotWakeFromS0
+### -field IdleCannotWakeFromS0
 
 The device cannot wake itself from a low-power state while the system is in its working (S0) state.
 
 
-#### - IdleCanWakeFromS0
+### -field IdleCanWakeFromS0
 
 The device can wake itself from a low-power state while the system is in its working (S0) state.
 
 
-#### - IdleUsbSelectiveSuspend
+### -field IdleUsbSelectiveSuspend
 
 The device is connected to a USB bus and supports <a href="https://msdn.microsoft.com/library/windows/hardware/ff540144">USB selective suspend</a>. Use this value if your USB-connected device supports both idling and waking itself while the computer is in its working state. If your USB device supports only idling, use <b>IdleCannotWakeFromS0</b>. (Drivers for USB devices must not specify <b>IdleCanWakeFromS0</b>.) See the code examples in the following Examples section.
 

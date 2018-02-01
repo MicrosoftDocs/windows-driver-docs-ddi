@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_modem_config_status, WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, _WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], *PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS
+ms.keywords: wwan/PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], *PWWAN_MODEM_CONFIG_STATUS, _WWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _WWAN_MODEM_CONFIG_STATUS {
 
 
 
-#### - ConfigState
+### -field ConfigState
 
 The modem's config state. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>.
 
 
-#### - ConfigReason
+### -field ConfigReason
 
 The reason why the modem's config state change was triggered. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_reason.md">WWAN_MODEM_CONFIG_REASON</a>.
 
 
-#### - PreviousConfigID
+### -field PreviousConfigID
 
 The previous config file's Config ID.
 
 
-#### - CurrentConfigID
+### -field CurrentConfigID
 
 The current config file's Config ID.
 
 
-#### - DefaultOrNot
+### -field DefaultOrNot
 
 Indicates if the default config file was selected, if available. 
 
@@ -116,11 +116,11 @@ If the same config file is selected as the currently activated one, the MBB driv
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>
+
 <a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
 
 <a href="..\wwan\ne-wwan-_wwan_modem_config_reason.md">WWAN_MODEM_CONFIG_REASON</a>
-
-<a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>
 
  
 

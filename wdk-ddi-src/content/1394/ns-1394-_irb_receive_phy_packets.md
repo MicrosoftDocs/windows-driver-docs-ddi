@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FE160EB4-EDBD-4783-A02D-F82D2842ADD0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS, _IRB_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], IEEE.irb_req_receive_phy_packets
+ms.keywords: 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], IRB_REQ_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets, _IRB_RECEIVE_PHY_PACKETS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _IRB_REQ_RECEIVE_PHY_PACKETS {
 
 
 
-#### - Flags
+### -field Flags
 
 Specifies whether a callback should be registered or deactivated. Use REGISTER_PHY_PACKET_NOTIFICATION to register PhyPacketRoutine as the callback. Use DEREGISTER_PHY_PACKET_NOTIFICATION to deactivate any previously registered callbacks.
 
 
-#### - PhyPacketRoutine
+### -field PhyPacketRoutine
 
 Points to the notification routine for received PHY packets. The following prototype illustrates the notification routine:
 <pre class="syntax" xml:space="preserve"><code>void PhyPacketRoutine(
@@ -120,7 +120,7 @@ The 64-bit PHY packet that is received from the 1394 bus.
 </table> 
 
 
-#### - PhyPacketContext
+### -field PhyPacketContext
 
 Specifies the Context argument to be passed to the PhyPacketRoutine.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 34733e8f-cbe0-4fcd-abcf-6791e298282f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_FRAME_METADATA, *PWDI_FRAME_METADATA, WDI_FRAME_METADATA structure [Network Drivers Starting with Windows Vista], PWDI_FRAME_METADATA, netvista.wdi_frame_metadata, netvista.wifi_frame_metadata, dot11wdi/WDI_FRAME_METADATA, dot11wdi/PWDI_FRAME_METADATA, PWDI_FRAME_METADATA structure pointer [Network Drivers Starting with Windows Vista], _WDI_FRAME_METADATA
+ms.keywords: PWDI_FRAME_METADATA structure pointer [Network Drivers Starting with Windows Vista], *PWDI_FRAME_METADATA, dot11wdi/WDI_FRAME_METADATA, dot11wdi/PWDI_FRAME_METADATA, netvista.wifi_frame_metadata, PWDI_FRAME_METADATA, _WDI_FRAME_METADATA, WDI_FRAME_METADATA structure [Network Drivers Starting with Windows Vista], netvista.wdi_frame_metadata, WDI_FRAME_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,18 +78,8 @@ typedef struct _WDI_FRAME_METADATA {
 
 
 
-#### - u
+### -field u
 
-
-
-#### txMetaData
-
-TX metadata.
-
-
-#### rxMetaData
-
-RX metadata.
 
 
 ### -field u.txMetaData
@@ -102,40 +92,40 @@ TX metadata.
 RX metadata.
 
 
-#### - Linkage
+### -field Linkage
 
 Reserved for use by the Microsoft component.
 
 
-#### - pNBL
+### -field pNBL
 
 Set by the LE on RX path and the UE on TX path when the metadata is associated with an NBL.
 
 
-#### - FrameID
+### -field FrameID
 
 Filled in by the Microsoft component.
 
 
-#### - wPad
+### -field wPad
 
 Padding.
 
 
-#### - dPad
+### -field dPad
 
 Padding.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
-
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_metadata.md">WDI_TX_METADATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297642">WDI_FRAME_ID</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_metadata.md">WDI_TX_METADATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_rx_metadata.md">WDI_RX_METADATA</a>
 

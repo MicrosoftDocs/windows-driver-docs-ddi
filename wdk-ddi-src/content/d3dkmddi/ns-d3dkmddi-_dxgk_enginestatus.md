@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e052e3bc-688e-4aa8-b987-88ed6963774a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_ENGINESTATUS, _DXGK_ENGINESTATUS, d3dkmddi/DXGK_ENGINESTATUS, DXGK_ENGINESTATUS structure [Display Devices], display.dxgk_enginestatus
+ms.keywords: d3dkmddi/DXGK_ENGINESTATUS, display.dxgk_enginestatus, DXGK_ENGINESTATUS structure [Display Devices], DXGK_ENGINESTATUS, _DXGK_ENGINESTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _DXGK_ENGINESTATUS {
 
 
 
-#### - Responsive
+### -field Responsive
 
 The display miniport driver must set this member to a value of 1 if the node and physical adapter are making progress in operations, or to 0 if the node and physical adapter are not responding to queries to report progress.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that specifies the progress of the physical adapter.
 

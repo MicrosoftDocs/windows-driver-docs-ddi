@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 157a420a-18ad-46cf-ae93-603e9226ee4f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_changedebuggeestate, ChangeDebuggeeState, IDebugEventCallbacks, IDebugEventCallbacks::ChangeDebuggeeState, IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, ChangeDebuggeeState method [Windows Debugging]
+ms.keywords: IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::ChangeDebuggeeState, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, ChangeDebuggeeState, IDebugEventCallbacks, debugger.idebugeventcallbacks_changedebuggeestate, ChangeDebuggeeState method [Windows Debugging], dbgeng/IDebugEventCallbacks::ChangeDebuggeeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ChangeDebuggeeState(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the type of changes made to the target.  <i>Flags</i> may take one of the following values:
 <table>
@@ -119,7 +119,7 @@ Inform the GUI clients to refresh debugger windows.
 </table> 
 
 
-#### - Argument [in]
+### -param Argument [in]
 
 Provides additional information about the change in the target. The interpretation of the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a311470-b443-41d8-866f-10bf3120c13c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0, netvista.fwps_bind_request0, _FWPS_BIND_REQUEST0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml
+ms.keywords: netvista.fwps_bind_request0, fwpsk/FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml, _FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,20 +77,20 @@ typedef struct _FWPS_BIND_REQUEST0 {
  
 
 
-#### - previousVersion
+### -field previousVersion
 
 The previous version of the bind request data. This read-only field records the modification history of the bind request. This member is preinitialized with a pointer to a singly linked list with the index set to the record for the current FWPS_BIND_REQUEST0 data.
 
 
 
-#### - localAddressAndPort
+### -field localAddressAndPort
 
 The local transport address of the bind request. This is an IPV4 or IPV6 address and TCP/UDP port
      formatted as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a> structure.
 
 
-#### - portReservationToken
+### -field portReservationToken
 
 A token used to reserve the appropriate port. The token is obtained when a port is reserved by
      calling either 
@@ -98,7 +98,7 @@ A token used to reserve the appropriate port. The token is obtained when a port 
      <a href="https://msdn.microsoft.com/AFD2EFD1-55AF-49C9-8109-D4D1B7BB7C94">CreatePersistentUdpPortReservation</a>. Both reservation functions can be found in iphlpapi.h.
 
 
-#### - modifierFilterId
+### -field modifierFilterId
 
 The value of the 
      <b>FilterId</b> member of the 
@@ -112,8 +112,8 @@ The value of the
 
 
 The callout driver obtains this structure by calling the 
-    <mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
-    FwpsAcquireWritableLayerDataPointer0</b></mshelp:link> function, which returns a pointer to a <b>FWPS_BIND_REQUEST0</b>
+    <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
+    FwpsAcquireWritableLayerDataPointer0</a> function, which returns a pointer to a <b>FWPS_BIND_REQUEST0</b>
     structure through the 
     <i>writableLayerData</i> parameter.
 
@@ -132,13 +132,13 @@ Make all changes to the <b>FWPS_BIND_REQUEST0</b> structure that was returned by
 </li>
 <li>
 Call 
-      <mshelp:link keywords="netvista.fwpsapplymodifiedlayerdata0" tabindex="0"><b>
-      FwpsApplyModifiedLayerData0</b></mshelp:link> with the 
+      <a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">
+      FwpsApplyModifiedLayerData0</a> with the 
       <i>modifiedLayerData</i> parameter set to the address of the <b>FWPS_BIND_REQUEST0</b> structure, even if the callout driver didn't modify any data. This value
       must be the same as the 
       <i>modifiedLayerData</i> parameter value that was returned by 
-      <mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
-      FwpsAcquireWritableLayerDataPointer0</b></mshelp:link>.
+      <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
+      FwpsAcquireWritableLayerDataPointer0</a>.
 
 </li>
 </ul>This structure acts as a linked list that contains a record of all changes made by other callout
@@ -151,16 +151,16 @@ Call
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
+   FwpsAcquireWritableLayerDataPointer0</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
-<mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
-   FwpsAcquireWritableLayerDataPointer0</b></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
 
  
 

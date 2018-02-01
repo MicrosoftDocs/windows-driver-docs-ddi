@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72dc7128-fcbc-4ad8-ac81-e2767ac6ffa2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], *PWDIAG_IHV_WLAN_ID, wlanihv/PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID, wlanihv/WDIAG_IHV_WLAN_ID, _WDIAG_IHV_WLAN_ID, netvista.wdiag_ihv_wlan_id, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml, PWDIAG_IHV_WLAN_ID
+ms.keywords: Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml, wlanihv/PWDIAG_IHV_WLAN_ID, netvista.wdiag_ihv_wlan_id, _WDIAG_IHV_WLAN_ID, *PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], wlanihv/WDIAG_IHV_WLAN_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _WDIAG_IHV_WLAN_ID {
 
 
 
-#### - strProfileName
+### -field strProfileName
 
 A string that defines the IHV profile name.
 
 
-#### - Ssid
+### -field Ssid
 
 The service set identifier (SSID) of the basic service set (BSS) network. The 
      <b>Ssid</b> member is of the 
      <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a> type.
 
 
-#### - BssType
+### -field BssType
 
 The type of the BSS network. The 
      <b>BssType</b> member contains a value defined for the 
      <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
 
 
-#### - dwFlags
+### -field dwFlags
 
 A flag which, if set to WDIAG_IHV_WLAN_ID_FLAG_SECURITY_ENABLED, indicates that security is
      enabled for this IHV profile. Otherwise, security is not enabled.
 
 
-#### - dwReasonCode
+### -field dwReasonCode
 
 An error reason code, when available.
 

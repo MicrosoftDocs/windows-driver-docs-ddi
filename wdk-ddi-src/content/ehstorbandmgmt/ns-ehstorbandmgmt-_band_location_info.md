@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A9E28600-45B2-4082-917F-29B3237DEC84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_BAND_LOCATION_INFO, PBAND_LOCATION_INFO, *PBAND_LOCATION_INFO, BAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], ehstorbandmgmt/PBAND_LOCATION_INFO, ehstorbandmgmt/BAND_LOCATION_INFO, storage.band_location_info, BAND_LOCATION_INFO structure [Storage Devices]"
+ms.keywords: ehstorbandmgmt/PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_LOCATION_INFO, BAND_LOCATION_INFO, storage.band_location_info, BAND_LOCATION_INFO structure [Storage Devices], PBAND_LOCATION_INFO, ehstorbandmgmt/BAND_LOCATION_INFO, *PBAND_LOCATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _BAND_LOCATION_INFO {
 
 
 
-#### - StructSize
+### -field StructSize
 
 The size of the structure in bytes. Set to <b>sizeof</b>(BAND_LOCATION_INFO).
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - BandStart
+### -field BandStart
 
 The offset in bytes of this band location on the storage device. This value is always 0 for the global band.
 
 
-#### - BandSize
+### -field BandSize
 
 The size in bytes of the band configured at this location. This value is set to the maximum size possible for the global band.
 
 
-#### - Metadata
+### -field Metadata
 
 A metadata field used as a data area for a band management application.
 
@@ -105,9 +105,9 @@ A metadata field used as a data area for a band management application.
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveUsbPipeObject method, IWDFUsbInterface interface, IWDFUsbInterface, wdf.iwdfusbinterface_retrieveusbpipeobject, RetrieveUsbPipeObject method, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject, umdf.iwdfusbinterface_retrieveusbpipeobject, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, RetrieveUsbPipeObject, IWDFUsbInterface::RetrieveUsbPipeObject, IWDFUsbInterface interface, RetrieveUsbPipeObject method
+ms.keywords: IWDFUsbInterface::RetrieveUsbPipeObject, umdf.iwdfusbinterface_retrieveusbpipeobject, IWDFUsbInterface, wdf.iwdfusbinterface_retrieveusbpipeobject, RetrieveUsbPipeObject method, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, RetrieveUsbPipeObject, RetrieveUsbPipeObject method, IWDFUsbInterface interface, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject, IWDFUsbInterface interface, RetrieveUsbPipeObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT RetrieveUsbPipeObject(
 
 
 
-#### - PipeIndex [in]
+### -param PipeIndex [in]
 
 The index of the USB pipe object to retrieve.
 
 
-#### - ppPipe [out]
+### -param ppPipe [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface for the USB pipe object whose index is specified by <i>PipeIndex</i>.
 
@@ -138,9 +138,9 @@ A UMDF driver can call the methods of the <a href="..\wudfusb\nn-wudfusb-iwdfusb
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
  
 

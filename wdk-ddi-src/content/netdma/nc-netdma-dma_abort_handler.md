@@ -73,13 +73,13 @@ NTSTATUS ProviderAbortDma(
 
 
 
-#### - ProviderChannelContext [in]
+### -param ProviderChannelContext [in]
 
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ## -returns
@@ -132,8 +132,8 @@ In
     <b>NetDmaTransferStatusHalted</b> status in the address that is specified in the 
     <b>CompletionVirtualAddress</b> and 
     <b>CompletionPhysicalAddress</b> members in the 
-    <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-    NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 After the abort operation completes, the DMA channel must be ready for the NetDMA interface to call
     the 
@@ -149,9 +149,9 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 

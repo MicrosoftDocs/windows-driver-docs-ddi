@@ -74,12 +74,12 @@ VOID EvtIoCanceledOnQueue(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to an I/O queue object.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a request object.
 
@@ -134,9 +134,9 @@ If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
  
 

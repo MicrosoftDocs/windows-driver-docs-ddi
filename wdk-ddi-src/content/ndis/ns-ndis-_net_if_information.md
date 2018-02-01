@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5508650c-473c-4710-869e-053481e83f1b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNET_IF_INFORMATION, NET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], ndis/NET_IF_INFORMATION, PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], PNET_IF_INFORMATION, _NET_IF_INFORMATION, netvista.net_if_information"
+ms.keywords: PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], PNET_IF_INFORMATION, NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], _NET_IF_INFORMATION, ndis/NET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, NET_IF_INFORMATION, *PNET_IF_INFORMATION, netvista.net_if_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,7 +86,7 @@ typedef struct _NET_IF_INFORMATION {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -97,7 +97,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_NET_IF_INFORMATION_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 Flags that provide information about the interface that this structure describes. These flags are
      combined with a bitwise OR operation. If none of the flags applies, set this member to zero. The
@@ -107,14 +107,14 @@ Flags that provide information about the interface that this structure describes
 
 
 
-#### NIIF_HARDWARE_INTERFACE
-
-Set if the network interface is for hardware.
-
-
 #### NIIF_FILTER_INTERFACE
 
 Set if the network interface is for a filter module.
+
+
+#### NIIF_HARDWARE_INTERFACE
+
+Set if the network interface is for hardware.
 
 
 #### NIIF_NDIS_RESERVED1
@@ -132,53 +132,53 @@ Reserved for NDIS.
 Reserved for NDIS.
 
 
-#### - PhysicalLocation
+### -field PhysicalLocation
 
 The physical location for the hardware that is associated with an interface specified in a 
-     <mshelp:link keywords="netvista.net_physical_location" tabindex="0"><b>
-     NET_PHYSICAL_LOCATION</b></mshelp:link> structure.
+     <a href="https://msdn.microsoft.com/e5661e05-a83f-4632-af98-2a021eeb7d80">
+     NET_PHYSICAL_LOCATION</a> structure.
 
 
-#### - WanTunnelType
+### -field WanTunnelType
 
 The tunnelIfEncapsMethod (from 
      RFC 2667) for WAN devices. If the WAN tunnel type is unknown, set this
      member to NIIF_WAN_TUNNEL_TYPE_UNKNOWN.
 
 
-#### - PortNumber
+### -field PortNumber
 
 The NDIS port number for the interface.
 
 
-#### - AccessType
+### -field AccessType
 
 A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a> NDIS network interface
      access type.
 
 
-#### - DirectionType
+### -field DirectionType
 
 A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
-#### - ConnectionType
+### -field ConnectionType
 
 A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a> NDIS network
      interface connection type.
 
 
-#### - ifConnectorPresent
+### -field ifConnectorPresent
 
 A Boolean value that indicates if a connector is present. Set this value to <b>TRUE</b> if there is a
      physical adapter or <b>FALSE</b> if there is no physical adapter.
 
 
-#### - PhysAddressLength
+### -field PhysAddressLength
 
 The length, in bytes, of the physical address or MAC address. This length is the length of the
      byte arrays that are located at the offsets that the 
@@ -186,7 +186,7 @@ The length, in bytes, of the physical address or MAC address. This length is the
      <b>PermanentPhysAddressOffset</b> members specify.
 
 
-#### - PhysAddressOffset
+### -field PhysAddressOffset
 
 The offset of the current physical address, in bytes, from the beginning of this structure. The
      current physical address is an array of bytes. The length of the array is specified in the 
@@ -195,7 +195,7 @@ The offset of the current physical address, in bytes, from the beginning of this
      returns.
 
 
-#### - PermanentPhysAddressOffset
+### -field PermanentPhysAddressOffset
 
 The offset of the permanent physical address, in bytes, from the beginning of this structure. The
      permanent physical address is an array of bytes. The length of the array is specified in the 
@@ -204,14 +204,14 @@ The offset of the permanent physical address, in bytes, from the beginning of th
      returns.
 
 
-#### - FriendlyNameLength
+### -field FriendlyNameLength
 
 The length, in bytes, of the friendly name for the interface that this structure describes. This
      length is the length of the WCHAR array that is located at the offset in the 
      <b>FriendlyNameOffset</b> member.
 
 
-#### - FriendlyNameOffset
+### -field FriendlyNameOffset
 
 The offset of the beginning of the friendly name, in bytes, from the beginning of this structure.
      This name should include the name of the manufacturer, the product, and the version of the interface
@@ -219,7 +219,7 @@ The offset of the beginning of the friendly name, in bytes, from the beginning o
      <b>FriendlyNameLength</b> member specifies the length of the array.
 
 
-#### - InterfaceGuid
+### -field InterfaceGuid
 
 The GUID that is associated with the interface. The interface provider generates the interface
      GUID for the interface. The provider can call the 
@@ -230,29 +230,29 @@ The GUID that is associated with the interface. The interface provider generates
      and reuse the GUID when it reregisters the interface after the computer restarts.
 
 
-#### - NetworkGuid
+### -field NetworkGuid
 
 The GUID that is associated with the network that the interface belongs to. If the interface
      provider cannot provide the network GUID, it can pass a zero GUID. In this case, NDIS will register the
      interface in the default network of the primary compartment.
 
 
-#### - SupportedStatistics
+### -field SupportedStatistics
 
 The statistics that the interface supports. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
-     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link> structure .
+     <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure .
 
 
-#### - MediaType
+### -field MediaType
 
 The 
      <b>NdisMedium</b><i>Xxx</i> type that the interface supports. For more information, see 
      <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>.
 
 
-#### - PhysicalMediumType
+### -field PhysicalMediumType
 
 The physical medium type for the interface. For more information, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
@@ -265,8 +265,8 @@ The physical medium type for the interface. For more information, see
 A network interface provider initializes a NET_IF_INFORMATION structure to provide NDIS with
     information about a registered interface. To register an interface, a provider passes a pointer to a
     NET_IF_INFORMATION structure to the 
-    <mshelp:link keywords="netvista.ndisifregisterinterface" tabindex="0"><b>
-    NdisIfRegisterInterface</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+    NdisIfRegisterInterface</a> function.
 
 The interface provider should allocate enough memory for the structure and the arrays that the 
     <b>PhysAddressOffset</b>, 
@@ -278,34 +278,34 @@ The interface provider should allocate enough memory for the structure and the a
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568750">NET_PHYSICAL_LOCATION</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
-
-<a href="..\ntddk\nf-ntddk-exuuidcreate.md">ExUuidCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
+
+<a href="..\ntddk\nf-ntddk-exuuidcreate.md">ExUuidCreate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
 
  
 

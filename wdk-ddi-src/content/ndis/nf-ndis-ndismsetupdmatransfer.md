@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismsetupdmatransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], NdisMSetupDmaTransfer, ndis/NdisMSetupDmaTransfer, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml
+ms.keywords: ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer, NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -105,6 +105,34 @@ TBD
 
 
 
+#### - Buffer [in]
+
+A pointer to the buffer descriptor mapping the range of host memory from which or into which the
+     data will be transferred.
+
+
+#### - Length [in]
+
+The number of bytes of data to be transferred. The range specified by 
+     <i>Offset</i> and 
+     <i>Length</i> must be a proper subrange of that specified at 
+     <i>Buffer</i> .
+
+
+#### - MiniportDmaHandle [in]
+
+The DMA handle returned by the 
+     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
+     during initialization.
+
+
+#### - Offset [in]
+
+The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
+     transfer should begin at the initial byte of the range specified at 
+     <i>Buffer</i> .
+
+
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the request,
@@ -112,12 +140,6 @@ A pointer to a caller-supplied variable in which this function returns the statu
      
 
 
-
-
-#### NDIS_STATUS_SUCCESS
-
-The DMA controller has been set up to transfer the specified data, which has been flushed to or
-       from the device to maintain data integrity.
 
 
 #### NDIS_STATUS_RESOURCES
@@ -128,32 +150,10 @@ An attempt to set up the DMA controller for the transfer has failed, either beca
        <i>Length</i> is invalid.
 
 
-#### - MiniportDmaHandle [in]
+#### NDIS_STATUS_SUCCESS
 
-The DMA handle returned by the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
-     during initialization.
-
-
-#### - Buffer [in]
-
-A pointer to the buffer descriptor mapping the range of host memory from which or into which the
-     data will be transferred.
-
-
-#### - Offset [in]
-
-The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
-     transfer should begin at the initial byte of the range specified at 
-     <i>Buffer</i> .
-
-
-#### - Length [in]
-
-The number of bytes of data to be transferred. The range specified by 
-     <i>Offset</i> and 
-     <i>Length</i> must be a proper subrange of that specified at 
-     <i>Buffer</i> .
+The DMA controller has been set up to transfer the specified data, which has been flushed to or
+       from the device to maintain data integrity.
 
 
 #### - WriteToDevice [in]
@@ -182,8 +182,8 @@ The caller must supply a buffer descriptor that specifies the host range into wh
     be transferred from the NIC when 
     <i>WriteToDevice</i> is <b>FALSE</b>. Otherwise, the buffer descriptor at 
     <i>Buffer</i> was chained to a packet descriptor input to the miniport driver's 
-    <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-    MiniportSendNetBufferLists</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    MiniportSendNetBufferLists</a> function.
 
 To improve performance for small transmit requests, such as a send request of less than 256 bytes in
     length, a miniport driver can copy the packet data into an internal staging buffer and pass a
@@ -195,18 +195,18 @@ On return from
     driver then programs the NIC for the transfer operation.
 
 When the transfer is complete, the miniport driver must call the 
-    <mshelp:link keywords="netvista.ndismcompletedmatransfer" tabindex="0"><b>
-    NdisMCompleteDmaTransfer</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">
+    NdisMCompleteDmaTransfer</a> function.
 
 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
+
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
 
  
 

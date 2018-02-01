@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f26732a7-54b5-4573-ac4f-7b2b6c8db8b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_property_store_root_class, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, _WDF_PROPERTY_STORE_ROOT_CLASS, wdf.wdf_property_store_root_class, WdfPropertyStoreRootClassSoftwareKey, WdfPropertyStoreRootClassLegacyHardwareKey, WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, WdfPropertyStoreRootClassDeviceInterfaceKey
+ms.keywords: "_WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, WDF_PROPERTY_STORE_ROOT_CLASS, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, WdfPropertyStoreRootClassSoftwareKey, umdf.wdf_property_store_root_class, WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, wdf.wdf_property_store_root_class, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, WdfPropertyStoreRootClassLegacyHardwareKey, WdfPropertyStoreRootClassDeviceInterfaceKey"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_PROPERTY_STORE_ROOT_CLASS {
 
 
 
-#### - WdfPropertyStoreRootClassHardwareKey
+### -field WdfPropertyStoreRootClassHardwareKey
 
 The property store represents a device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">hardware key</a>.
 
 
-#### - WdfPropertyStoreRootClassSoftwareKey
+### -field WdfPropertyStoreRootClassSoftwareKey
 
 The property store represents a driver's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">software key</a>.
 
 
-#### - WdfPropertyStoreRootClassDeviceInterfaceKey
+### -field WdfPropertyStoreRootClassDeviceInterfaceKey
 
 The property store represents the key for an instance of a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">device interface class</a>.
 
 
-#### - WdfPropertyStoreRootClassLegacyHardwareKey
+### -field WdfPropertyStoreRootClassLegacyHardwareKey
 
 The property store represents the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">DEVICEMAP key</a>, which is used by only a few older drivers. 
 

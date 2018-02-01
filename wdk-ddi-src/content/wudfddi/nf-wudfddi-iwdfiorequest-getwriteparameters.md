@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0627b278-2fd5-4185-8ec9-8b306c6d85a8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfiorequest_getwriteparameters, IWDFIoRequest::GetWriteParameters, IWDFIoRequest, GetWriteParameters method, IWDFIoRequest interface, GetWriteParameters method, GetWriteParameters, wdf.iwdfiorequest_getwriteparameters, wudfddi/IWDFIoRequest::GetWriteParameters, GetWriteParameters method, IWDFIoRequest interface, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml
+ms.keywords: UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, GetWriteParameters, IWDFIoRequest, wdf.iwdfiorequest_getwriteparameters, wudfddi/IWDFIoRequest::GetWriteParameters, GetWriteParameters method, umdf.iwdfiorequest_getwriteparameters, GetWriteParameters method, IWDFIoRequest interface, IWDFIoRequest::GetWriteParameters, IWDFIoRequest interface, GetWriteParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,7 +72,7 @@ void  GetWriteParameters(
 
 
 
-#### - pSizeInBytes [out]
+### -param pSizeInBytes [out]
 
 A pointer to a variable that receives the size, in bytes, to write. To retrieve the data for writing, the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a> method.
 
@@ -84,7 +84,7 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 
 
 
-#### - pulKey [out]
+### -param pulKey [out]
 
 A pointer to a variable that receives a key that the driver can use to sort the I/O request in a way that the driver determines. 
 

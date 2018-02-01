@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b3acd3d-b5da-4dd3-89f1-0b8a7d68e54c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml, _SCSI_ADDRESS, storage.scsi_address, ntddscsi/SCSI_ADDRESS, *PSCSI_ADDRESS, SCSI_ADDRESS, PSCSI_ADDRESS structure pointer [Storage Devices], SCSI_ADDRESS structure [Storage Devices], PSCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS
+ms.keywords: SCSI_ADDRESS, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml, PSCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS, storage.scsi_address, _SCSI_ADDRESS, *PSCSI_ADDRESS, SCSI_ADDRESS structure [Storage Devices], PSCSI_ADDRESS structure pointer [Storage Devices], ntddscsi/SCSI_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _SCSI_ADDRESS {
 
 
 
-#### - Length
+### -field Length
 
 Contains the length of this structure in bytes. 
 
 
-#### - PortNumber
+### -field PortNumber
 
 Contains the number of the SCSI adapter.
 
 
-#### - PathId
+### -field PathId
 
 Contains the number of the bus. 
 
 
-#### - TargetId
+### -field TargetId
 
 Contains the number of the target device. 
 
 
-#### - Lun
+### -field Lun
 
 Contains the logical unit number.
 

@@ -71,12 +71,12 @@ NTSTATUS KStrIrpListCallback(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the IRP to possibly move to the destination list from the source list.
 
 
-#### - Context [in]
+### -param Context [in]
 
 Passed from <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>.
 

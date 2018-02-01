@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismregisterwdiminiportdriver, NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMRegisterWdiMiniportDriver
+ms.keywords: NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver, dot11wdi/NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,43 +73,43 @@ NDIS_STATUS NdisMRegisterWdiMiniportDriver(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 A pointer to an opaque driver object that the miniport driver received in its 
      <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
-     <mshelp:link keywords="netvista.driverentry_of_ndis_miniport_drivers" tabindex="0"><b>DriverEntry of NDIS
-     Miniport Drivers</b></mshelp:link>).
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+     Miniport Drivers</a>).
 
 
-#### - RegistryPath [in]
+### -param RegistryPath [in]
 
 A pointer to an opaque registry path that the miniport driver received in its 
      <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 
-#### - NdisDriverContext [in, optional]
+### -param NdisDriverContext [in, optional]
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
 
-#### - MiniportDriverCharacteristics [in]
+### -param MiniportDriverCharacteristics [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_miniport_driver_characteristics" tabindex="0"><b>
-     NDIS_MINIPORT_DRIVER_CHARACTERISTICS</b></mshelp:link> structure that the caller initialized.
+     <a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
+     NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure that the caller initialized.
 
 
-#### - MiniportWdiCharacteristics [in]
+### -param MiniportWdiCharacteristics [in]
 
 A pointer to an 
      
      <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a> structure that the caller initialized.
 
 
-#### - NdisMiniportDriverHandle [out]
+### -param NdisMiniportDriverHandle [out]
 
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies this driver. The driver must save this handle for use in subsequent 
@@ -204,11 +204,11 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
 <a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
  
 

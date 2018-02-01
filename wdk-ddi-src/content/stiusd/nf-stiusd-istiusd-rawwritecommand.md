@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c1b03ff5-1924-4221-b177-15214a8bf4f1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::RawWriteCommand, RawWriteCommand, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, stiusd/IStiUSD::RawWriteCommand, image.istiusd_rawwritecommand, RawWriteCommand method [Imaging Devices], IStiUSD interface [Imaging Devices], RawWriteCommand method, RawWriteCommand method [Imaging Devices], IStiUSD interface, IStiUSD
+ms.keywords: RawWriteCommand method [Imaging Devices], IStiUSD, IStiUSD interface [Imaging Devices], RawWriteCommand method, RawWriteCommand, IStiUSD::RawWriteCommand, RawWriteCommand method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::RawWriteCommand, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, image.istiusd_rawwritecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT RawWriteCommand(
 
 
 
-#### - lpBuffer
+### -param lpBuffer
 
 Caller-supplied pointer to a buffer containing data to be sent to the device.
 
 
-#### - nNumberOfBytes
+### -param nNumberOfBytes
 
 Caller-supplied number of bytes to be written. This is the number of bytes in the buffer pointed to by <i>lpBuffer</i>.
 
 
-#### - lpOverlapped
+### -param lpOverlapped
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 

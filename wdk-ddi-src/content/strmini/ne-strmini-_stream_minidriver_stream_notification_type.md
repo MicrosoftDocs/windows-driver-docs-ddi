@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 13D8152C-FE7E-46EB-9C7F-9CA0135A4B76
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamRequestComplete, stream.stream_minidriver_stream_notification_type, *PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/DeleteStreamEvent, strmini/StreamNotificationMaximum, strmini/ReadyForNextStreamControlRequest, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration [Streaming Media Devices], ReadyForNextStreamControlRequest, strmini/ReadyForNextStreamDataRequest, SignalMultipleStreamEvents, _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, SignalStreamEvent, HardwareStarved, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, DeleteStreamEvent, strmini/PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/SignalMultipleStreamEvents, strmini/SignalStreamEvent, StreamNotificationMaximum, strmini/HardwareStarved, strmini/StreamRequestComplete, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, ReadyForNextStreamDataRequest
+ms.keywords: "_STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, ReadyForNextStreamDataRequest, strmini/PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/ReadyForNextStreamControlRequest, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/StreamRequestComplete, strmini/HardwareStarved, strmini/ReadyForNextStreamDataRequest, strmini/SignalMultipleStreamEvents, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], ReadyForNextStreamControlRequest, SignalMultipleStreamEvents, strmini/STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, StreamNotificationMaximum, *PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, SignalStreamEvent, strmini/SignalStreamEvent, strmini/DeleteStreamEvent, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/StreamNotificationMaximum, HardwareStarved, DeleteStreamEvent, stream.stream_minidriver_stream_notification_type, StreamRequestComplete, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,38 +75,38 @@ typedef enum _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE {
 
 
 
-#### - ReadyForNextStreamDataRequest
+### -field ReadyForNextStreamDataRequest
 
 Indicates that the minidriver is ready for the next stream data request.
 
 
-#### - ReadyForNextStreamControlRequest
+### -field ReadyForNextStreamControlRequest
 
 Indicates that the minidriver is ready for the next stream control request.
 
 
-#### - HardwareStarved
+### -field HardwareStarved
 
 Indicates that the hardware is starved for data.
 
 
-#### - StreamRequestComplete
+### -field StreamRequestComplete
 
 Indicates that the specified stream SRB has completed.
 
 
-#### - SignalMultipleStreamEvents
+### -field SignalMultipleStreamEvents
 
 
 
-#### - SignalStreamEvent
+### -field SignalStreamEvent
 
 
 
-#### - DeleteStreamEvent
+### -field DeleteStreamEvent
 
 
 
-#### - StreamNotificationMaximum
+### -field StreamNotificationMaximum
 
 

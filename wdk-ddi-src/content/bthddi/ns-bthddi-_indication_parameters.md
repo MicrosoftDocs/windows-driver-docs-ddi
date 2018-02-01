@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: INDICATION_PARAMETERS structure [Bluetooth Devices], PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], INDICATION_PARAMETERS, bltooth.indication_parameters, _INDICATION_PARAMETERS, PINDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, *PINDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS, bthddi/INDICATION_PARAMETERS
+ms.keywords: bthddi/INDICATION_PARAMETERS, bltooth.indication_parameters, _INDICATION_PARAMETERS, PINDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], INDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, bthddi/PINDICATION_PARAMETERS, INDICATION_PARAMETERS structure [Bluetooth Devices], *PINDICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,44 +104,8 @@ typedef struct _INDICATION_PARAMETERS {
 
 
 
-#### - Parameters
+### -field Parameters
 
-
-
-#### Connect
-
-The structure that contains parameters for the 
-      <b>IndicationRemoteConnect</b> callback function.
-
-
-#### ConfigRequest
-
-The structure that contains parameters for the 
-      <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
-
-
-#### ConfigResponse
-
-The structure that contains parameters for the 
-      <b>IndicationRemoteConfigResponseINDICATION_CODE</b> value.
-
-
-#### FreeExtraOptions
-
-The structure that contains parameters for the 
-      <b>IndicationFreeExtraOptionsINDICATION_CODE</b> value.
-
-
-#### Disconnect
-
-The structure that contains the parameters for the 
-      <b>IndicationRemoteDisconnectINDICATION_CODE</b> value.
-
-
-#### RecvPacket
-
-The structure that contains the parameters for the 
-      <b>IndicationRecvPacketINDICATION_CODE</b> value.
 
 
 ### -field Parameters.Connect
@@ -150,21 +114,9 @@ The structure that contains parameters for the
       <b>IndicationRemoteConnect</b> callback function.
 
 
-#### Connect.Request
-
-The structure that contains the parameters for a connection request.
-
-
 ### -field Parameters.Connect.Request
 
 The structure that contains the parameters for a connection request.
-
-
-#### Connect.Request.PSM
-
-The Protocol/Service Multiplexer (PSM) that is passed to the calling function when the 
-        <b>IndicationRemoteConnectINDICATION_CODE</b> value is specified in the callback function's 
-        <i>Indication</i> parameter.
 
 
 ### -field Parameters.Connect.Request.PSM
@@ -180,99 +132,11 @@ The structure that contains parameters for the
       <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
 
 
-#### ConfigRequest.CurrentParams
-
-A 
-       <mshelp:link keywords="bltooth.channel_config_parameters" tabindex="0"><b>
-       CHANNEL_CONFIG_PARAMETERS</b></mshelp:link> structure that contains the parameters for the current channel. This
-       value is only valid if the channel was previously open and is now in the process of being configured.
-       This member is used when the callback function specifies the 
-       <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
-
-
-#### ConfigRequest.RequestedParams
-
-A CHANNEL_CONFIG_PARAMETERS structure that contains the parameters that are passed from the
-       remote host for configuration requests. This member is used when the callback function specifies the 
-       <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
-
-
-#### ConfigRequest.ResponseParams
-
-A CHANNEL_CONFIG_PARAMETERS structure that contains the parameters that the profile driver
-       responds to the configuration request with.
-
-
-#### ConfigRequest.Response
-
-A flag that indicates the status of the configuration request. Valid flag values are listed in
-       the following table.
-       
-<table>
-<tr>
-<th>Flag</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_SUCCESS
-
-</td>
-<td>
-The configuration request was successful.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_DISCONNECT
-
-</td>
-<td>
-The configuration request failed because the L2CAP connection was disconnected.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_INVALID_PARAMETER
-
-</td>
-<td>
-The configuration request failed because an invalid parameter was passed to the profile
-          driver.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_REJECT
-
-</td>
-<td>
-The profile driver rejected the configuration request.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_UNKNOWN_OPTION
-
-</td>
-<td>
-The configuration request failed because one of the specified configuration options was not
-          recognized by the profile driver.
-
-</td>
-</tr>
-</table> 
-
-
 ### -field Parameters.ConfigRequest.CurrentParams
 
 A 
-       <mshelp:link keywords="bltooth.channel_config_parameters" tabindex="0"><b>
-       CHANNEL_CONFIG_PARAMETERS</b></mshelp:link> structure that contains the parameters for the current channel. This
+       <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">
+       CHANNEL_CONFIG_PARAMETERS</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
@@ -362,116 +226,11 @@ The structure that contains parameters for the
       <b>IndicationRemoteConfigResponseINDICATION_CODE</b> value.
 
 
-#### ConfigResponse.CurrentParams
-
-A 
-       <mshelp:link keywords="bltooth.channel_config_parameters" tabindex="0"><b>
-       CHANNEL_CONFIG_PARAMETERS</b></mshelp:link> structure that contains the parameters for the current channel. This
-       value is only valid if the channel was previously open and is now in the process of being configured.
-       This member is used when the callback function specifies the 
-       <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
-
-
-#### ConfigResponse.RequestedParams
-
-A CHANNEL_CONFIG_PARAMETERS structure that contains the parameters that are passed from the
-       remote host for configuration requests. This member is used when the callback function specifies the 
-       <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
-
-
-#### ConfigResponse.RejectedParams
-
-A CHANNEL_CONFIG_PARAMETERS structure that contains the configuration parameter settings that
-       were rejected by the remote device.
-
-
-#### ConfigResponse.UnknownTypes
-
-An array of types that were not recognized by the responding device.
-
-
-#### ConfigResponse.NumUnknownTypes
-
-The number of unrecognized types in the 
-       <b>UnknownTypes</b> member.
-
-
-#### ConfigResponse.NewRequestParams
-
-A CHANNEL_CONFIG_PARAMETERS structure that contains the parameter settings for the callback
-       function to resubmit after the response has returned from the remote device.
-
-
-#### ConfigResponse.Response
-
-A flag that indicates the status of the configuration request. Valid flag values are listed in
-       the following table.
-       
-<table>
-<tr>
-<th>Flag</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_SUCCESS
-
-</td>
-<td>
-The configuration request was successful.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_DISCONNECT
-
-</td>
-<td>
-The configuration request failed because the L2CAP connection was disconnected.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_INVALID_PARAMETER
-
-</td>
-<td>
-The configuration request failed because an invalid parameter was passed to the profile
-          driver.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_REJECT
-
-</td>
-<td>
-The profile driver rejected the configuration request.
-
-</td>
-</tr>
-<tr>
-<td>
-CONFIG_STATUS_UNKNOWN_OPTION
-
-</td>
-<td>
-The configuration request failed because one of the specified configuration options was not
-          recognized by the profile driver.
-
-</td>
-</tr>
-</table> 
-
-
 ### -field Parameters.ConfigResponse.CurrentParams
 
 A 
-       <mshelp:link keywords="bltooth.channel_config_parameters" tabindex="0"><b>
-       CHANNEL_CONFIG_PARAMETERS</b></mshelp:link> structure that contains the parameters for the current channel. This
+       <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">
+       CHANNEL_CONFIG_PARAMETERS</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <b>IndicationRemoteConfigRequestINDICATION_CODE</b> value.
@@ -578,18 +337,6 @@ The structure that contains parameters for the
       <b>IndicationFreeExtraOptionsINDICATION_CODE</b> value.
 
 
-#### FreeExtraOptions.NumExtraOptions
-
-The number of extra options contained in the 
-       <b>ExtraOptions</b> member.
-
-
-#### FreeExtraOptions.ExtraOptions
-
-The number of extra options contained in the 
-       <b>ExtraOptions</b> member.
-
-
 ### -field Parameters.FreeExtraOptions.NumExtraOptions
 
 The number of extra options contained in the 
@@ -606,20 +353,6 @@ The number of extra options contained in the
 
 The structure that contains the parameters for the 
       <b>IndicationRemoteDisconnectINDICATION_CODE</b> value.
-
-
-#### Disconnect.Reason
-
-An 
-       <a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a> value that
-       indicates why the L2CAP connection to the remote device was terminated.
-
-
-#### Disconnect.CloseNow
-
-A Boolean value that a profile driver uses to notify the Bluetooth driver stack to close the
-       L2CAP connection. Set this member to <b>TRUE</b> to notify the Bluetooth driver stack to close the
-       connection. Otherwise, set it to <b>FALSE</b> to keep the connection open.
 
 
 ### -field Parameters.Disconnect.Reason
@@ -642,17 +375,6 @@ The structure that contains the parameters for the
       <b>IndicationRecvPacketINDICATION_CODE</b> value.
 
 
-#### RecvPacket.PacketLength
-
-The size, in bytes, of the packet that the callback function sent over the L2CAP
-       connection.
-
-
-#### RecvPacket.TotalQueueLength
-
-The number of packets to be processed over the L2CAP connection.
-
-
 ### -field Parameters.RecvPacket.PacketLength
 
 The size, in bytes, of the packet that the callback function sent over the L2CAP
@@ -664,13 +386,13 @@ The size, in bytes, of the packet that the callback function sent over the L2CAP
 The number of packets to be processed over the L2CAP connection.
 
 
-#### - ConnectionHandle
+### -field ConnectionHandle
 
 The L2CAP connection handle to the remote device. This handle is only valid for notifications that
      arrive over an established L2CAP connection.
 
 
-#### - BtAddress
+### -field BtAddress
 
 The Bluetooth address of the remote device.
 
@@ -722,9 +444,9 @@ When the Bluetooth driver stack passes
 
 <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
 
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
-
 <a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a>
+
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
 

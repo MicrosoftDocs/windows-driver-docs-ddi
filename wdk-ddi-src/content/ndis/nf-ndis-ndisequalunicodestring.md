@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f3abf40-bb47-4fa6-862b-6126edb00b36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], netvista.ndisequalunicodestring, ndis/NdisEqualUnicodeString, NdisEqualUnicodeString, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml
+ms.keywords: NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualUnicodeString, netvista.ndisequalunicodestring, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -71,14 +71,14 @@ BOOLEAN NdisEqualUnicodeString(
 
 
 
-### -param _String1
+### -param _String1 [in]
 
-TBD
+A pointer to an NDIS_STRING type that describes the first Unicode string.
 
 
-### -param _String2
+### -param _String2 [in]
 
-TBD
+A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 
 ### -param _CaseInsensitive
@@ -86,16 +86,6 @@ TBD
 TBD
 
 
-
-
-#### - String1 [in]
-
-A pointer to an NDIS_STRING type that describes the first Unicode string.
-
-
-#### - String2 [in]
-
-A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 
 #### - CaseInSensitive [in]

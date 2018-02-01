@@ -68,7 +68,7 @@ VOID WINAPI DrvSplClose(
 
 
 
-#### - hDriver
+### -param hDriver
 
 
 

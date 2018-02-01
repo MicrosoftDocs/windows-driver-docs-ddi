@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA23251C-E901-48A0-9B58-458622DE8CF0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices], display.dxgk_buildpagingbuffer_updatecontextallocation, _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
+ms.keywords: d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices], DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, display.dxgk_buildpagingbuffer_updatecontextallocation, _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION {
 
 
 
-#### - ContextAllocation
+### -field ContextAllocation
 
 A GPU virtual address in the paging process scratch area for the context allocation being updated.
 
 
-#### - ContextAllocationSize
+### -field ContextAllocationSize
 
 The size of the context allocation.
 
 
-#### - pDriverPrivateData
+### -field pDriverPrivateData
 
 A pointer to the driver-private data that was passed in the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a>.
 
 
-#### - DriverPrivateDataSize
+### -field DriverPrivateDataSize
 
 The size of the driver-private data.
 

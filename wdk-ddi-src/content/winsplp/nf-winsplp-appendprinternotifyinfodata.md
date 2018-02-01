@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: AppendPrinterNotifyInfoData function [Print Devices], AppendPrinterNotifyInfoData, winsplp/AppendPrinterNotifyInfoData, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, print.appendprinternotifyinfodata
+ms.keywords: print.appendprinternotifyinfodata, AppendPrinterNotifyInfoData, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, winsplp/AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ BOOL AppendPrinterNotifyInfoData(
 
 
 
-#### - pInfoDest [in]
+### -param pInfoDest [in]
 
 Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (defined in the Microsoft Windows SDK documentation).
 
@@ -80,7 +80,7 @@ Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (defined in the Micro
 TBD
 
 
-#### - fdwFlags
+### -param fdwFlags
 
 Caller-supplied flags. The following flag is defined.
 
@@ -123,9 +123,9 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
+<a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
 
  
 

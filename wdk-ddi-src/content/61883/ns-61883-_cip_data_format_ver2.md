@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C78543F5-82CC-43CF-8769-1E721C17FF9C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCIP_DATA_FORMAT_VER2 structure pointer [Buses], *PCIP_DATA_FORMAT, CIP_DATA_FORMAT_VER2, IEEE.cip_data_format_ver2, CIP_DATA_FORMAT, *PCIP_DATA_FORMAT_VER2, 61883/PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2 structure [Buses], _CIP_DATA_FORMAT_VER2, PCIP_DATA_FORMAT_VER2, 61883/CIP_DATA_FORMAT_VER2
+ms.keywords: "*PCIP_DATA_FORMAT_VER2, PCIP_DATA_FORMAT_VER2, _CIP_DATA_FORMAT_VER2, PCIP_DATA_FORMAT_VER2 structure pointer [Buses], IEEE.cip_data_format_ver2, CIP_DATA_FORMAT_VER2 structure [Buses], *PCIP_DATA_FORMAT, CIP_DATA_FORMAT, 61883/PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2, 61883/CIP_DATA_FORMAT_VER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,14 +114,14 @@ typedef struct _CIP_DATA_FORMAT_VER2 {
 
 
 
-#### - hConnect
-
-A handle to a connection.
-
-
 #### - Frame
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure that contains information about a frame and a data buffer to be sent or filled.
+
+
+#### - hConnect
+
+A handle to a connection.
 
 
 ## -see-also

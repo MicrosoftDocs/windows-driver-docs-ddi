@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39f541be-c514-4cd4-bf7d-03b7a318b663
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tcp_chim_ndis_func_2fe6d15f-5e88-4aec-9c5b-281b0e002d8f.xml, NdisOffloadTcpReceiveReturn function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpreceivereturn, ndischimney/NdisOffloadTcpReceiveReturn, NdisOffloadTcpReceiveReturn
+ms.keywords: tcp_chim_ndis_func_2fe6d15f-5e88-4aec-9c5b-281b0e002d8f.xml, NdisOffloadTcpReceiveReturn function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceiveReturn, NdisOffloadTcpReceiveReturn, netvista.ndisoffloadtcpreceivereturn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID NdisOffloadTcpReceiveReturn(
 
 
 
-#### - NdisBindingHandle [in]
+### -param NdisBindingHandle [in]
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
@@ -82,14 +82,14 @@ The handle that NDIS provided at the
      target.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      The linked list can contain NET_BUFFER_LIST structures from one or more calls to the 
-     <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-     NdisTcpOffloadReceiveHandler</b></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     NdisTcpOffloadReceiveHandler</a> function.
 
 
 ## -returns
@@ -105,8 +105,8 @@ The
 
 
 In response to a call to its 
-    <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
-    MiniportTcpOffloadReceiveReturn</i></mshelp:link> function, an intermediate driver calls the 
+    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+    MiniportTcpOffloadReceiveReturn</a> function, an intermediate driver calls the 
     <b>NdisOffloadTcpReceiveReturn</b> function to propagate the receive return operation to the underlying
     intermediate driver or offload target. For more information, see 
     <a href="https://msdn.microsoft.com/009159ad-81c0-4555-8e6b-a4fec2c7f1d5">Propagating I/O Operations</a>.
@@ -118,8 +118,8 @@ To the
 An 
       <i>NdisOffloadHandle</i> function that references the NDIS_OFFLOAD_HANDLE structure stored in the
       intermediate driver's context for the offloaded TCP connection. For more information, see 
-      <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>
 <li>
@@ -132,12 +132,12 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
 
-<mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
-   MiniportTcpOffloadReceiveReturn</i></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+   MiniportTcpOffloadReceiveReturn</a>
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

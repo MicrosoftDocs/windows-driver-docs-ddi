@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/PHBA_MGMTINFO, hbaapi/HBA_MgmtInfo, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, PHBA_MGMTINFO structure pointer [Storage Devices], *PHBA_MGMTINFO, HBA_MgmtInfo, HBA_MGMTINFO, HBA_MGMTINFO structure [Storage Devices], storage.hba_mgmtinfo, HBA_MgmtInfo structure [Storage Devices], PHBA_MGMTINFO
+ms.keywords: structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, PHBA_MGMTINFO, hbaapi/PHBA_MGMTINFO, hbaapi/HBA_MgmtInfo, *PHBA_MGMTINFO, HBA_MgmtInfo, HBA_MgmtInfo structure [Storage Devices], storage.hba_mgmtinfo, HBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], HBA_MGMTINFO structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct HBA_MgmtInfo {
 
 
 
-#### - wwn
+### -field wwn
 
 Contains a 64 bit world-wide name (WWN) that uniquely identifies the primary fibre channel node (host system) to which the HBA is attached. This information is returned in an RNID Accept payload in response to an RNID request. For more information about the meaning of this member, see the description of the RNID Accept payload in the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-#### - unittype
+### -field unittype
 
 Contains a value that indicates the unit type. Unit types include such things as gateways, switches, hubs, storage subsystems, etc. For a list of values that can be assigned to this field and their corresponding units, see the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee.
 
 
-#### - PortId
+### -field PortId
 
 Contains a vendor-specific value that identifies the physical port on the HBA that has a Fibre-Channel link attached. For more information about the meaning of this member, see the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee. 
 
 
-#### - NumberOfAttachedNodes
+### -field NumberOfAttachedNodes
 
 Indicates the number of nodes to which the HBA is attached. For more information about the meaning of this member, see the description of the RNID Accept payload in the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee. 
 
 
-#### - IPVersion
+### -field IPVersion
 
 Indicates the version of the IP protocol used by the HBA. For more information about the meaning of this member, see the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee. 
 
 
-#### - UDPPort
+### -field UDPPort
 
 Indicates the UDP/TCP port number used by the HBA. For more information about the meaning of this member, see the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee. 
 
 
-#### - IPAddress
+### -field IPAddress
 
 Contains the IP address f the HBA. 
 
 
-#### - reserved
+### -field reserved
 
 Reserved. 
 
 
-#### - TopologyDiscoveryFlags
+### -field TopologyDiscoveryFlags
 
 Contains the topology discovery flags. For an explanation of this member, see the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee. 
 

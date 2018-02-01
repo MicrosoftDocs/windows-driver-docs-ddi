@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aec44058-13ad-4093-91b1-e5dca6f2e295
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WSK_EXTENSION_CONTROL_OUT, netvista.wsk_extension_control_out, wsk/WSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista], wsk/PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, _WSK_EXTENSION_CONTROL_OUT, wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml, *PWSK_EXTENSION_CONTROL_OUT
+ms.keywords: wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml, _WSK_EXTENSION_CONTROL_OUT, WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista], *PWSK_EXTENSION_CONTROL_OUT, netvista.wsk_extension_control_out, WSK_EXTENSION_CONTROL_OUT, wsk/PWSK_EXTENSION_CONTROL_OUT, wsk/WSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _WSK_EXTENSION_CONTROL_OUT {
 
 
 
-#### - ProviderContext
+### -field ProviderContext
 
 A pointer to a WSK subsystem-supplied context for the registration of the extension interface on a
      socket. The WSK subsystem uses this context to track the state of the extension interface registration
@@ -79,7 +79,7 @@ A pointer to a WSK subsystem-supplied context for the registration of the extens
      socket's extension interface functions that require the WSK subsystem's registration context.
 
 
-#### - ProviderDispatch
+### -field ProviderDispatch
 
 A pointer to a structure that contains the WSK subsystem's dispatch table of functions for the
      extension interface. The contents of the structure are specific to the extension interface.
@@ -91,18 +91,18 @@ A pointer to a structure that contains the WSK subsystem's dispatch table of fun
 The WSK subsystem fills in the contents of the WSK_EXTENSION_CONTROL_OUT structure when a WSK
     application registers an extension interface. For more information about registering an extension
     interface, see 
-    <mshelp:link keywords="netvista.registering_an_extension_interface" tabindex="0">Registering an Extension
-    Interface</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
+    Interface</a>.
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_extension_control_in.md">WSK_EXTENSION_CONTROL_IN</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
 
  
 

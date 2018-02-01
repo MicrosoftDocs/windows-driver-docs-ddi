@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], LPPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA, winsplp/PRINTPROCESSOROPENDATA, winsplp/LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, _PRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, print.printprocessoropendata, PPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA
+ms.keywords: LPPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], winsplp/LPPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, _PRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], winsplp/PRINTPROCESSOROPENDATA, print.printprocessoropendata, *PPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _PRINTPROCESSOROPENDATA {
 
 
 
-#### - pDevMode
+### -field pDevMode
 
 Spooler-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-#### - pDatatype
+### -field pDatatype
 
 Spooler-supplied pointer to a string representing the print job's data type.
 
 
-#### - pParameters
+### -field pParameters
 
 Spooler-supplied pointer to a parameter string, as specified in a JOB_INFO_2 structure supplied to a call to the <b>SetJob</b> function, described in the Microsoft Windows SDK documentation.
 
 
-#### - pDocumentName
+### -field pDocumentName
 
 Spooler-supplied pointer to a string representing the name of the input document associated with the print job. 
 
 
-#### - JobId
+### -field JobId
 
 Spooler-supplied value identifying the print job.
 
 
-#### - pOutputFile
+### -field pOutputFile
 
 Spooler-supplied pointer to a string representing the name of the output spool file.
 
 
-#### - pPrinterName
+### -field pPrinterName
 
 Spooler-supplied pointer to a string representing the name of the printer to be used.
 

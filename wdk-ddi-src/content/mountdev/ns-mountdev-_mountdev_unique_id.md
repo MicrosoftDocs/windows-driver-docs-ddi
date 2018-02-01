@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cc6cbda8-4056-41e7-98f9-927a99e66081
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.mountdev_unique_id, mountdev/PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID, mountdev/MOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml, *PMOUNTDEV_UNIQUE_ID, _MOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices]
+ms.keywords: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], _MOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices], mountdev/MOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID, structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml, mountdev/PMOUNTDEV_UNIQUE_ID, storage.mountdev_unique_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _MOUNTDEV_UNIQUE_ID {
 
 
 
-#### - UniqueIdLength
+### -field UniqueIdLength
 
 Contains the length of the unique volume ID. 
 
 
-#### - UniqueId
+### -field UniqueId
 
 Contains the unique volume ID as an array of bytes. 
 

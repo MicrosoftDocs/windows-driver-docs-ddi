@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcc2679c-9a73-4bd0-ad2d-e7b48df9c7f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/PVIDEO_PORT_I2C_INTERFACE, Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, PVIDEO_PORT_I2C_INTERFACE, video/VIDEO_PORT_I2C_INTERFACE, _VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE structure [Display Devices], display.video_port_i2c_interface
+ms.keywords: PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], VIDEO_PORT_I2C_INTERFACE structure [Display Devices], display.video_port_i2c_interface, video/VIDEO_PORT_I2C_INTERFACE, Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, VIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, _VIDEO_PORT_I2C_INTERFACE, video/PVIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _VIDEO_PORT_I2C_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size in bytes of this structure.
 
 
-#### - Version
+### -field Version
 
 Specifies the version of the interface to be returned by the miniport driver. The current interface version is defined in <i>video.h</i>, and has the form VIDEO_PORT_I2C_INTERFACE_<i>N</i>.
 
 
-#### - Context
+### -field Context
 
 Pointer to a miniport driver-defined context for the interface.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to the video port driver-implemented reference routine for this interface.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to the video port driver-implemented dereference routine for this interface.
 
 
-#### - I2CStart
+### -field I2CStart
 
 Pointer to the video port driver's <a href="..\video\nc-video-pi2c_start.md">I2CStart</a> routine.
 
 
-#### - I2CStop
+### -field I2CStop
 
 Pointer to the video port driver's <a href="..\video\nc-video-pi2c_stop.md">I2CStop</a> routine.
 
 
-#### - I2CWrite
+### -field I2CWrite
 
 Pointer to the video port driver's <a href="..\video\nc-video-pi2c_write.md">I2CWrite</a> routine.
 
 
-#### - I2CRead
+### -field I2CRead
 
 Pointer to the video port driver's <a href="..\video\nc-video-pi2c_read.md">I2CRead</a> routine.
 

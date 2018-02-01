@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeDeviceBase function [Storage Devices], storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml, StorPortFreeDeviceBase, storage.storportfreedevicebase, storport/StorPortFreeDeviceBase
+ms.keywords: StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices], storport/StorPortFreeDeviceBase, storage.storportfreedevicebase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ STORPORT_API VOID StorPortFreeDeviceBase(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - MappedAddress [in]
+### -param MappedAddress [in]
 
 Pointer to region of memory to be freed.
 
@@ -89,9 +89,9 @@ None
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
-
 <a href="..\srb\nf-srb-scsiportfreedevicebase.md">ScsiPortFreeDeviceBase</a>
+
+<a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
 
  
 

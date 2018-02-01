@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 17A78DC7-A89D-405A-983E-FC0DC469A4B0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_LTE_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_LTE_SERVING_CELL_INFO, wwan/WWAN_LTE_SERVING_CELL_INFO, PWWAN_LTE_SERVING_CELL_INFO, PWWAN_LTE_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_LTE_SERVING_CELL_INFO, _WWAN_LTE_SERVING_CELL_INFO, WWAN_LTE_SERVING_CELL_INFO, netvista.wwan_lte_serving_cell_info
+ms.keywords: "*PWWAN_LTE_SERVING_CELL_INFO, _WWAN_LTE_SERVING_CELL_INFO, PWWAN_LTE_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_LTE_SERVING_CELL_INFO, wwan/WWAN_LTE_SERVING_CELL_INFO, WWAN_LTE_SERVING_CELL_INFO, WWAN_LTE_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_lte_serving_cell_info, PWWAN_LTE_SERVING_CELL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,47 +77,47 @@ typedef struct _WWAN_LTE_SERVING_CELL_INFO {
 
 
 
-#### - ProviderIdOffset
+### -field ProviderIdOffset
 
 The offset in bytes, calculated from the beginning of this structure, to a numeric (0-9) string called <i>ProviderId</i> that represents the network provider identity. This string is a concatenation of a three-digit Mobile Country Code (MCC) and a two or three-digit Mobile Network Code (MNC). This member can be NULL when no <i>ProviderId</i> information is returned.
 
 
-#### - ProviderIdSize
+### -field ProviderIdSize
 
 The size, in bytes, used for <i>ProviderId</i>.
 
 
-#### - CellId
+### -field CellId
 
 The Cell ID (0-268435455). Use 0xFFFFFFFF when this information is not available.
 
 
-#### - EARFCN
+### -field EARFCN
 
 The Radio Frequency Channel Number of the serving cell (0-65535). Use 0xFFFFFFFF when this information is not available.
 
 
-#### - PhysicalCellId
+### -field PhysicalCellId
 
 The Physical Cell ID (0-503). Use 0xFFFFFFFF when this information is not available.
 
 
-#### - TAC
+### -field TAC
 
 The Tracking Area Code (0-65535). Use 0xFFFFFFFF when this information is not available.
 
 
-#### - RSRP
+### -field RSRP
 
 The Average Reference Signal Received Power. The range is -140 to -44, in units of 1dBm. Use 0xFFFFFFFF when this information is not available.
 
 
-#### - RSRQ
+### -field RSRQ
 
 The Average Reference Signal Received Quality. The range is -20 to -3, in units of 1dBm. Use 0xFFFFFFFF when this information is not available.
 
 
-#### - TimingAdvance
+### -field TimingAdvance
 
 The Timing Advance (0-255). Use 0xFFFFFFFF when this information is not available.
 

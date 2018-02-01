@@ -73,17 +73,17 @@ NTSTATUS CamStopCaptureEx(
 
 
 
-#### - BusDeviceObject
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-#### - DeviceContext
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-#### - StreamNumber
+### -param StreamNumber
 
 Indicates the stream number.
 

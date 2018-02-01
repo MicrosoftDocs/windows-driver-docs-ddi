@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7732b1a8-4f76-49d0-acbf-ce0be6b36858
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSDPC_ITEM, ks/KSDPC_ITEM, stream.ksdpc_item, PKSDPC_ITEM, KSDPC_ITEM structure [Streaming Media Devices], ks/PKSDPC_ITEM, PKSDPC_ITEM structure pointer [Streaming Media Devices], ks-struct_c40f10e3-5732-4020-a22f-4695eaaa471a.xml, KSDPC_ITEM"
+ms.keywords: ks/PKSDPC_ITEM, KSDPC_ITEM structure [Streaming Media Devices], KSDPC_ITEM, PKSDPC_ITEM, PKSDPC_ITEM structure pointer [Streaming Media Devices], ks/KSDPC_ITEM, *PKSDPC_ITEM, ks-struct_c40f10e3-5732-4020-a22f-4695eaaa471a.xml, stream.ksdpc_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Dpc
+### -field Dpc
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure that is queued to perform notifications that cannot occur at raised IRQL.
 
 
-#### - ReferenceCount
+### -field ReferenceCount
 
 Specifies whether pending DPCs will reference this structure. This is initially set to 1 when the event structure is created, and decremented when the event structure is destroyed. If the reference count is nonzero at that time, then the last DPC to run frees the structure rather than the event disable call.
 
 
-#### - AccessLock
+### -field AccessLock
 
 This lock is used to synchronize deletion of an event item with any DPC that might be running.
 

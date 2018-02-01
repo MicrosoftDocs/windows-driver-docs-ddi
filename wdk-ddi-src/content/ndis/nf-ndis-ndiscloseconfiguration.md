@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2d68f7dd-3954-4b3b-8673-1da63e1a1edc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_configuration_ref_eb02fa4e-fff9-41e5-81f6-9580af7480a7.xml, NdisCloseConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisCloseConfiguration, NdisCloseConfiguration, netvista.ndiscloseconfiguration
+ms.keywords: ndis/NdisCloseConfiguration, netvista.ndiscloseconfiguration, NdisCloseConfiguration function [Network Drivers Starting with Windows Vista], NdisCloseConfiguration, ndis_configuration_ref_eb02fa4e-fff9-41e5-81f6-9580af7480a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -53,10 +53,10 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisCloseConfiguration</b> function releases the handle to the registry key that was returned by the 
   <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>, 
-  <mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-  NdisOpenConfigurationKeyByIndex</b></mshelp:link>, or 
-  <mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
-  NdisOpenConfigurationKeyByName</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+  NdisOpenConfigurationKeyByIndex</a>, or 
+  <a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+  NdisOpenConfigurationKeyByName</a> function.
 
 
 ## -syntax
@@ -74,7 +74,7 @@ VOID NdisCloseConfiguration(
 
 
 
-#### - ConfigurationHandle [in]
+### -param ConfigurationHandle [in]
 
 The handle that the 
      <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a> function
@@ -99,26 +99,26 @@ This function frees any temporary storage allocated in calls to other
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+   NdisOpenConfigurationKeyByIndex</a>
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
-
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
 
 <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
 
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
-   NdisOpenConfigurationKeyByName</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+   NdisOpenConfigurationKeyByName</a>
 
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+
+<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
  
 

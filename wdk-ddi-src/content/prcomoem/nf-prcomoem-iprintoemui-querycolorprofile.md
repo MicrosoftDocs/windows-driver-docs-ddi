@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, QueryColorProfile method [Print Devices], QueryColorProfile, IPrintOemUI, IPrintOemUI interface [Print Devices], QueryColorProfile method, prcomoem/IPrintOemUI::QueryColorProfile, QueryColorProfile method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
+ms.keywords: QueryColorProfile, QueryColorProfile method [Print Devices], print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml, IPrintOemUI::QueryColorProfile, IPrintOemUI, print.iprintoemui_querycolorprofile, IPrintOemUI interface [Print Devices], QueryColorProfile method, prcomoem/IPrintOemUI::QueryColorProfile, QueryColorProfile method [Print Devices], IPrintOemUI interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,27 +75,27 @@ HRESULT QueryColorProfile(
 
 
 
-#### - hPrinter
+### -param hPrinter
 
 Caller-supplied printer handle.
 
 
-#### - poemuiobj
+### -param poemuiobj
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - pPublicDM
+### -param pPublicDM
 
 Caller-supplied pointer to a validated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-#### - pOEMDM
+### -param pOEMDM
 
 Caller-supplied pointer to the user interface plug-in's private DEVMODEW structure members.
 
 
-#### - ulQueryMode
+### -param ulQueryMode
 
 One of the following caller-supplied bit flags, indicating the type of profile to be specified.
 <table>
@@ -126,17 +126,17 @@ The caller is requesting a source profile.
 </table> 
 
 
-#### - pvProfileData
+### -param pvProfileData
 
 Caller-supplied pointer to a buffer to receive profile information.
 
 
-#### - pcbProfileData
+### -param pcbProfileData
 
 Caller-supplied pointer to a value representing the size, in bytes, of the buffer pointed to by <i>pvProfileData</i>.
 
 
-#### - pflProfileData
+### -param pflProfileData
 
 One of the following method-supplied bit flags, indicating the type of information the method is returning.
 <table>

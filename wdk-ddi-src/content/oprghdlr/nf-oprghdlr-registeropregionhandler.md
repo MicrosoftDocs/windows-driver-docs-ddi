@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 5795a1d1-0e13-4f9f-b2f2-37bbd71bde7a
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, RegisterOpRegionHandler routine [ACPI Devices], oprghdlr/RegisterOpRegionHandler, acpi.registeropregionhandler, RegisterOpRegionHandler
+ms.keywords: RegisterOpRegionHandler, RegisterOpRegionHandler routine [ACPI Devices], acpi.registeropregionhandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, oprghdlr/RegisterOpRegionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ NTSTATUS RegisterOpRegionHandler(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>) that represents the ACPI device that defines the operation region.
 
 
-#### - AccessType [in]
+### -param AccessType [in]
 
 Specifies ACPI_OPREGION_ACCESS_AS_COOKED.
 
 
-#### - RegionSpace [in]
+### -param RegionSpace [in]
 
 Specifies one of the following types of region space.
 <table>
@@ -175,22 +175,22 @@ Vendor-defined
 </table> 
 
 
-#### - Handler [in]
+### -param Handler [in]
 
 Pointer to the <a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>-typed operation region handler (supplied by an ACPI device function driver).
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to a device-specific operation region context (supplied by an ACPI device function driver).
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Reserved for internal use.
 
 
-#### - OperationRegionObject [out]
+### -param OperationRegionObject [out]
 
 Pointer to caller-allocated buffer that, on output, contains a pointer to the operation region object that the ACPI driver creates for the operation region.
 

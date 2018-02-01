@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 299fd2fc-d7f4-4176-addd-d45d010b1056
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PshedSynchronizeExecution function [WHEA Drivers and Applications], whea.pshedsynchronizeexecution, ntddk/PshedSynchronizeExecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml, PshedSynchronizeExecution
+ms.keywords: PshedSynchronizeExecution, PshedSynchronizeExecution function [WHEA Drivers and Applications], ntddk/PshedSynchronizeExecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml, whea.pshedsynchronizeexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN PshedSynchronizeExecution(
 
 
 
-#### - ErrorSource [in]
+### -param ErrorSource [in]
 
 A pointer to a <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes an error source.
 
 
-#### - SynchronizeRoutine [in]
+### -param SynchronizeRoutine [in]
 
 A pointer to a caller-supplied function whose execution is synchronized with the hardware error processing for the error source described by the <i>ErrorSource</i> parameter. A <i>SynchronizeRoutine</i> function is declared as follows:
 <div class="code"><span codelanguage=""><table>
@@ -97,7 +97,7 @@ SynchronizeRoutine(
 The context value that is passed in the <i>SynchronizeContext</i> parameter to the <b>PshedSynchronizeExecution</b> function.
 
 
-#### - SynchronizeContext [in]
+### -param SynchronizeContext [in]
 
 A pointer to a caller-supplied context area that is passed to the function pointed to by the <i>SynchronizeRoutine</i> parameter.
 

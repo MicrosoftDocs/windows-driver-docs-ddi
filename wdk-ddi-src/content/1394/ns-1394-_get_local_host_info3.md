@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 49c24328-dfd9-4d4d-a40f-a375f1384a5c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394stct_327b0f83-9367-41ef-8b04-a07338f8725b.xml, GET_LOCAL_HOST_INFO3 structure [Buses], 1394/PGET_LOCAL_HOST_INFO3, PGET_LOCAL_HOST_INFO3 structure pointer [Buses], PGET_LOCAL_HOST_INFO3, IEEE.get_local_host_info3, _GET_LOCAL_HOST_INFO3, *PGET_LOCAL_HOST_INFO3, GET_LOCAL_HOST_INFO3, 1394/GET_LOCAL_HOST_INFO3
+ms.keywords: GET_LOCAL_HOST_INFO3 structure [Buses], PGET_LOCAL_HOST_INFO3 structure pointer [Buses], 1394/PGET_LOCAL_HOST_INFO3, PGET_LOCAL_HOST_INFO3, _GET_LOCAL_HOST_INFO3, GET_LOCAL_HOST_INFO3, 1394/GET_LOCAL_HOST_INFO3, *PGET_LOCAL_HOST_INFO3, IEEE.get_local_host_info3, 1394stct_327b0f83-9367-41ef-8b04-a07338f8725b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _GET_LOCAL_HOST_INFO3 {
 
 
 
-#### - deciWattsSupplied
+### -field deciWattsSupplied
 
 Specifies the wattage supplied, in tenths of a watt.
 
 
-#### - Voltage
+### -field Voltage
 
 Specifies the voltage, in tenths of a volt.
 

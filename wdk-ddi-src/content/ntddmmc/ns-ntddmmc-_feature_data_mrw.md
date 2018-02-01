@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af0c8c50-c5a0-4395-a608-fced6ac3cfe5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_MRW, PFEATURE_DATA_MRW, storage.feature_data_mrw, *PFEATURE_DATA_MRW, ntddmmc/FEATURE_DATA_MRW, ntddmmc/PFEATURE_DATA_MRW, PFEATURE_DATA_MRW structure pointer [Storage Devices], structs-CD-ROM_54208a52-0bc2-4e97-a3b1-4d57f5192ce4.xml, FEATURE_DATA_MRW structure [Storage Devices], _FEATURE_DATA_MRW
+ms.keywords: ntddmmc/PFEATURE_DATA_MRW, FEATURE_DATA_MRW, structs-CD-ROM_54208a52-0bc2-4e97-a3b1-4d57f5192ce4.xml, *PFEATURE_DATA_MRW, storage.feature_data_mrw, ntddmmc/FEATURE_DATA_MRW, PFEATURE_DATA_MRW structure pointer [Storage Devices], FEATURE_DATA_MRW structure [Storage Devices], _FEATURE_DATA_MRW, PFEATURE_DATA_MRW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,29 +72,29 @@ typedef struct _FEATURE_DATA_MRW {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - Write
+### -field Write
 
 Indicates, if set to 1, that the device can format discs using the MRW format and write to discs that have been formatted in this manner. See the <i>SCSI Multimedia - 4 (MMC-4)</i> specification for more information. 
 
 
-#### - DvdPlusRead
+### -field DvdPlusRead
 
 
 
-#### - DvdPlusWrite
+### -field DvdPlusWrite
 
 
 
-#### - Reserved01
+### -field Reserved01
 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 

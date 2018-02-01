@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbf65c28-b4f2-4930-8d01-050c45f87bb4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_FILTER_SATURATION, d3dumddi/DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, d3dumddi/DXVAHDDDI_FILTER_HUE, DXVAHDDDI_FILTER_HUE, display.dxvahdddi_filter, d3dumddi/DXVAHDDDI_FILTER_EDGE_ENHANCEMENT, d3dumddi/DXVAHDDDI_FILTER, _DXVAHDDDI_FILTER, d3dumddi/DXVAHDDDI_FILTER_CONTRAST, DXVAHDDDI_FILTER enumeration [Display Devices], d3dumddi/DXVAHDDDI_FILTER_SATURATION, d3dumddi/DXVAHDDDI_FILTER_NOISE_REDUCTION, DXVAHDDDI_FILTER, DXVAHDDDI_FILTER_BRIGHTNESS, DXVAHDDDI_FILTER_EDGE_ENHANCEMENT, DXVAHDDDI_FILTER_NOISE_REDUCTION, DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, DXVA2_Structs_730202a4-96bd-4779-b952-d493295f06ad.xml, d3dumddi/DXVAHDDDI_FILTER_BRIGHTNESS, DXVAHDDDI_FILTER_CONTRAST
+ms.keywords: d3dumddi/DXVAHDDDI_FILTER_CONTRAST, d3dumddi/DXVAHDDDI_FILTER_EDGE_ENHANCEMENT, _DXVAHDDDI_FILTER, display.dxvahdddi_filter, d3dumddi/DXVAHDDDI_FILTER_BRIGHTNESS, DXVAHDDDI_FILTER, DXVAHDDDI_FILTER_CONTRAST, d3dumddi/DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, DXVAHDDDI_FILTER_EDGE_ENHANCEMENT, DXVAHDDDI_FILTER_SATURATION, DXVAHDDDI_FILTER enumeration [Display Devices], d3dumddi/DXVAHDDDI_FILTER_HUE, DXVA2_Structs_730202a4-96bd-4779-b952-d493295f06ad.xml, d3dumddi/DXVAHDDDI_FILTER_SATURATION, DXVAHDDDI_FILTER_NOISE_REDUCTION, d3dumddi/DXVAHDDDI_FILTER, DXVAHDDDI_FILTER_BRIGHTNESS, d3dumddi/DXVAHDDDI_FILTER_NOISE_REDUCTION, DXVAHDDDI_FILTER_HUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,37 +73,37 @@ typedef enum _DXVAHDDDI_FILTER {
 
 
 
-#### - DXVAHDDDI_FILTER_BRIGHTNESS
+### -field DXVAHDDDI_FILTER_BRIGHTNESS
 
 A value that specifies the filter range of the brightness ProcAmp. 
 
 
-#### - DXVAHDDDI_FILTER_CONTRAST
+### -field DXVAHDDDI_FILTER_CONTRAST
 
 A value that specifies the filter range of the contrast ProcAmp. 
 
 
-#### - DXVAHDDDI_FILTER_HUE
+### -field DXVAHDDDI_FILTER_HUE
 
 A value that specifies the filter range of the hue ProcAmp. 
 
 
-#### - DXVAHDDDI_FILTER_SATURATION
+### -field DXVAHDDDI_FILTER_SATURATION
 
 A value that specifies the filter range of the saturation ProcAmp. 
 
 
-#### - DXVAHDDDI_FILTER_NOISE_REDUCTION
+### -field DXVAHDDDI_FILTER_NOISE_REDUCTION
 
 A value that specifies the filter range of the noise reduction filter. 
 
 
-#### - DXVAHDDDI_FILTER_EDGE_ENHANCEMENT
+### -field DXVAHDDDI_FILTER_EDGE_ENHANCEMENT
 
 A value that specifies the filter range of the edge enhancement filter. 
 
 
-#### - DXVAHDDDI_FILTER_ANAMORPHIC_SCALING
+### -field DXVAHDDDI_FILTER_ANAMORPHIC_SCALING
 
 A value that specifies that the filter range of anamorphic scaling. 
 

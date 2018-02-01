@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76319a0b-a7b3-48f6-804b-e01bc360c441
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectDriverDefIntRef_2bfa96a8-a58a-4408-83db-11670d7de8c7.xml, WdfDeviceInterfaceDereferenceNoOp method, wdf.wdfdeviceinterfacedereferencenoop, PFN_WDFDEVICEINTERFACEDEREFERENCENOOP, wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp, WdfDeviceInterfaceDereferenceNoOp, kmdf.wdfdeviceinterfacedereferencenoop
+ms.keywords: WdfDeviceInterfaceDereferenceNoOp method, wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp, DFDeviceObjectDriverDefIntRef_2bfa96a8-a58a-4408-83db-11670d7de8c7.xml, PFN_WDFDEVICEINTERFACEDEREFERENCENOOP, wdf.wdfdeviceinterfacedereferencenoop, WdfDeviceInterfaceDereferenceNoOp, kmdf.wdfdeviceinterfacedereferencenoop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfDeviceInterfaceDereferenceNoOp(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 This parameter is not used.
 
@@ -94,11 +94,11 @@ For more information about interface reference counts and the <b>WdfDeviceInterf
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
 
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
 
-<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
  
 

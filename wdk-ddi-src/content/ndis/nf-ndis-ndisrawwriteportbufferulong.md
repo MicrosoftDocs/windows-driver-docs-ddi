@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f97aa977-289b-4a46-b724-9a5c1b468b74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRawWritePortBufferUlong, NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisRawWritePortBufferUlong, netvista.ndisrawwriteportbufferulong, miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml
+ms.keywords: netvista.ndisrawwriteportbufferulong, ndis/NdisRawWritePortBufferUlong, miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml, NdisRawWritePortBufferUlong, NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,19 +70,19 @@ VOID NdisRawWritePortBufferUlong(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
-     <mshelp:link keywords="netvista.ndismregisterioportrange" tabindex="0"><b>
-     NdisMRegisterIoPortRange</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">
+     NdisMRegisterIoPortRange</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a caller-allocated resident buffer containing the ULONGs to be written.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the number of ULONGs to write to the I/O port.
 
@@ -102,13 +102,13 @@ A miniport driver calls
 
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
 

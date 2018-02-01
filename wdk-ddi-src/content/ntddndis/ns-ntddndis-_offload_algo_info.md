@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 119a8c88-f181-40f5-8a12-5d663c5a1534
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, ntddndis/POFFLOAD_ALGO_INFO, netvista.offload_algo_info, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], *POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO, ntddndis/OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO, _OFFLOAD_ALGO_INFO
+ms.keywords: ntddndis/POFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], *POFFLOAD_ALGO_INFO, ntddndis/OFFLOAD_ALGO_INFO, _OFFLOAD_ALGO_INFO, netvista.offload_algo_info, OFFLOAD_ALGO_INFO, 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], POFFLOAD_ALGO_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _OFFLOAD_ALGO_INFO {
 
 
 
-#### - algoIdentifier
+### -field algoIdentifier
 
 The confidentiality or integrity algorithm used for the SA. 
      
@@ -89,10 +89,9 @@ If the algorithm is an integrity algorithm (that is, if the OFFLOAD_ALGO_INFO st
 
 
 
-#### OFFLOAD_IPSEC_CONF_NONE
+#### OFFLOAD_IPSEC_CONF_3_DES
 
-Specifies no confidentiality algorithm. Used for null encryption--that is, when a packet is not
-       encrypted but its ESP header contains authentication information.
+Specifies the triple-DES algorithm.
 
 
 #### OFFLOAD_IPSEC_CONF_DES
@@ -100,9 +99,15 @@ Specifies no confidentiality algorithm. Used for null encryption--that is, when 
 Specifies the DES algorithm.
 
 
-#### OFFLOAD_IPSEC_CONF_3_DES
+#### OFFLOAD_IPSEC_CONF_NONE
 
-Specifies the triple-DES algorithm.
+Specifies no confidentiality algorithm. Used for null encryption--that is, when a packet is not
+       encrypted but its ESP header contains authentication information.
+
+
+#### OFFLOAD_IPSEC_INTEGRITY_MD5
+
+Specifies the keyed MD5 algorithm.
 
 
 #### OFFLOAD_IPSEC_INTEGRITY_NONE
@@ -111,17 +116,12 @@ Specifies no integrity algorithm. Used when the ESP header contains no authentic
        information.
 
 
-#### OFFLOAD_IPSEC_INTEGRITY_MD5
-
-Specifies the keyed MD5 algorithm.
-
-
 #### OFFLOAD_IPSEC_INTEGRITY_SHA
 
 Specifies the SHA 1 algorithm.
 
 
-#### - algoKeylen
+### -field algoKeylen
 
 The length, in bytes, of the key for the algorithm. The key is contained in the buffer at 
      <b>KeyMat</b>Â¸ which is the variable-length array specified in the 
@@ -130,8 +130,8 @@ The length, in bytes, of the key for the algorithm. The key is contained in the 
 
 If only an integrity algorithm (
      <b>IntegrityAlgo</b>) is specified in the 
-     <mshelp:link keywords="netvista.offload_security_association" tabindex="0"><b>
-     OFFLOAD_SECURITY_ASSOCIATION</b></mshelp:link> structure, 
+     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     OFFLOAD_SECURITY_ASSOCIATION</a> structure, 
      <b>algoKeylen</b> indicates the length of the key for the integrity algorithm,
      starting from the beginning of the buffer at 
      <b>KeyMat</b>.
@@ -147,7 +147,7 @@ If both an integrity and a confidentiality algorithm (
      integrity algorithm.
 
 
-#### - algoRounds
+### -field algoRounds
 
 The number of transformation rounds that the encryption algorithm performs.
 <div class="alert"><b>Note</b>  This member is only used for 
@@ -160,8 +160,8 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
     <b>IntegrityAlgo</b>, 
     <b>ConfAlgo</b>, and 
     <b>Reserved</b> members of the 
-    <mshelp:link keywords="netvista.offload_security_association" tabindex="0"><b>
-    OFFLOAD_SECURITY_ASSOCIATION</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+    OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
 
 

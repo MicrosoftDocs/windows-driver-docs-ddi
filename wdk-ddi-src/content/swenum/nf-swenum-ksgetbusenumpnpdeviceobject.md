@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e81a294-9388-467d-8405-472fbe9fe827
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml, stream.ksgetbusenumpnpdeviceobject, swenum/KsGetBusEnumPnpDeviceObject, KsGetBusEnumPnpDeviceObject
+ms.keywords: KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml, swenum/KsGetBusEnumPnpDeviceObject, stream.ksgetbusenumpnpdeviceobject, KsGetBusEnumPnpDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS KsGetBusEnumPnpDeviceObject(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object from which to retrieve the Plug and Play device object.
 
 
-#### - PnpDeviceObject [out]
+### -param PnpDeviceObject [out]
 
 Pointer to the device object to receive the Plug and Play device object pointer.
 

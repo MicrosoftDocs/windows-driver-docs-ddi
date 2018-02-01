@@ -72,17 +72,17 @@ NTSTATUS DxgkCbQueryServices(
 
 
 
-#### - DeviceHandle [in]
+### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-#### - ServicesType [in]
+### -param ServicesType [in]
 
 A constant from the <a href="..\dispmprt\ne-dispmprt-dxgk_services.md">DXGK_SERVICES</a> enumeration that specifies which interface is being requested. This parameter must be set to <b>DxgkServicesAgp</b>, <b>DxgkServicesDebugReport</b>, or <b>DxgkServicesTimedOperation</b>, as those are the only supported interfaces.
 
 
-#### - Interface [in, out]
+### -param Interface [in, out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that receives the requested interface.
 
@@ -170,11 +170,11 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 

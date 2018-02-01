@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66e20ac3-e97d-429d-868e-79c04881702b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFSetAttributes function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_67ad6b8c-e7ae-45d7-9213-48e8a2b6c2ff.xml, netvista.ndisfsetattributes, NdisFSetAttributes, ndis/NdisFSetAttributes
+ms.keywords: NdisFSetAttributes function [Network Drivers Starting with Windows Vista], netvista.ndisfsetattributes, NdisFSetAttributes, ndis/NdisFSetAttributes, filter_ndis_functions_ref_67ad6b8c-e7ae-45d7-9213-48e8a2b6c2ff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,23 +71,23 @@ NDIS_STATUS NdisFSetAttributes(
 
 
 
-#### - NdisFilterHandle [in]
+### -param NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 The caller-allocated context area for this filter module.
 
 
-#### - FilterAttributes [in]
+### -param FilterAttributes [in]
 
 A pointer to a filter driver allocated 
-     <mshelp:link keywords="netvista.ndis_filter_attributes" tabindex="0"><b>
-     NDIS_FILTER_ATTRIBUTES</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ndis_filter_attributes.md">
+     NDIS_FILTER_ATTRIBUTES</a> structure.
 
 
 ## -returns
@@ -154,11 +154,11 @@ A filter driver calls
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attributes.md">NDIS_FILTER_ATTRIBUTES</a>
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attributes.md">NDIS_FILTER_ATTRIBUTES</a>
 
  
 

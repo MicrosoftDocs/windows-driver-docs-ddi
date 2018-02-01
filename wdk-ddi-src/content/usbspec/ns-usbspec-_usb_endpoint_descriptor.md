@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbspec/USB_ENDPOINT_DESCRIPTOR, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml, _USB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, *PUSB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], USB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses]
+ms.keywords: PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], usbspec/USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, *PUSB_ENDPOINT_DESCRIPTOR, _USB_ENDPOINT_DESCRIPTOR, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml, USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _USB_ENDPOINT_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-#### - bDescriptorType
+### -field bDescriptorType
 
 Specifies the descriptor type. Must be set to USB_ENDPOINT_DESCRIPTOR_TYPE.
 
 
-#### - bEndpointAddress
+### -field bEndpointAddress
 
 Specifies the USB-defined endpoint address. The four low-order bits specify the endpoint number. The high-order bit specifies the direction of data flow on this endpoint: 1 for in, 0 for out.
 
 
-#### - bmAttributes
+### -field bmAttributes
 
 The two low-order bits specify the endpoint type, one of USB_ENDPOINT_TYPE_CONTROL, USB_ENDPOINT_TYPE_ISOCHRONOUS, USB_ENDPOINT_TYPE_BULK, or USB_ENDPOINT_TYPE_INTERRUPT.
 
 
-#### - wMaxPacketSize
+### -field wMaxPacketSize
 
 Specifies the maximum packet size that can be sent from or to this endpoint.
 
 
-#### - bInterval
+### -field bInterval
 
 The  <b>bInterval</b> value contains the polling interval for interrupt and isochronous endpoints. For other types of endpoint, this value should be ignored. This value reflects the device's configuration in firmware. Drivers cannot change it.
 
@@ -248,9 +248,9 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 

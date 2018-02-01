@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 49b8f602-8f82-4445-98f2-a63563689561
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY, aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml, *PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, audio.ksaudio_mic_array_geometry, KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices]
+ms.keywords: KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], PKSAUDIO_MIC_ARRAY_GEOMETRY, aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices], *PKSAUDIO_MIC_ARRAY_GEOMETRY, audio.ksaudio_mic_array_geometry, ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,12 +76,12 @@ typedef struct {
 
 
 
-#### - usVersion
+### -field usVersion
 
 Specifies the version number of the KSAUDIO_MIC_ARRAY_GEOMETRY structure. This member is a BCD value and is currently set to 0x0100, which represents a version number of 1.0.
 
 
-#### - usMicArrayType
+### -field usMicArrayType
 
 Specifies the type of microphone array in use. This member can be any one of the KSMICARRAY_MICARRAYTYPE enumeration values shown in the following table.
 <table>
@@ -128,42 +128,42 @@ KSMICARRAY_MICARRAYTYPE_3D
 </table> 
 
 
-#### - wVerticalAngleBegin
+### -field wVerticalAngleBegin
 
 Specifies the vertical angle of the start of the working volume of the microphone array.
 
 
-#### - wVerticalAngleEnd
+### -field wVerticalAngleEnd
 
 Specifies the vertical angle of the end of the working volume of the microphone array.
 
 
-#### - wHorizontalAngleBegin
+### -field wHorizontalAngleBegin
 
 Work Volume HorizontalAngle Begin
 
 
-#### - wHorizontalAngleEnd
+### -field wHorizontalAngleEnd
 
 Work Volume HorizontalAngle End
 
 
-#### - usFrequencyBandLo
+### -field usFrequencyBandLo
 
 Specifies the low end of the frequency range for the microphone array.
 
 
-#### - usFrequencyBandHi
+### -field usFrequencyBandHi
 
 Specifies the high end of the frequency range for the microphone array.
 
 
-#### - usNumberOfMicrophones
+### -field usNumberOfMicrophones
 
 Specifies the number of microphones in the microphone array.
 
 
-#### - KsMicCoord
+### -field KsMicCoord
 
 Specifies the array of KSAUDIO_MICROPHONE_COORDINATES structures that contains the locations of the microphones in the array.
 

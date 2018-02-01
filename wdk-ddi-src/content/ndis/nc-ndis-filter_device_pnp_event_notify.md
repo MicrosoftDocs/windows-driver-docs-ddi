@@ -74,14 +74,14 @@ VOID FilterDevicePnPEventNotify(
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - NetDevicePnPEvent [in]
+### -param NetDevicePnPEvent [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a> structure that
@@ -100,15 +100,15 @@ None
 
 <i>FilterDevicePnPEventNotify</i> is an optional function. If a filter driver does not use device PnP
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function.
 
 <i>FilterDevicePnPEventNotify</i> is similar to a miniport driver's 
-    <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-    MiniportDevicePnPEventNotify</i></mshelp:link> function. Filter drivers can forward these notifications to underlying
+    <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+    MiniportDevicePnPEventNotify</a> function. Filter drivers can forward these notifications to underlying
     drivers. To forward a request, call the 
-    <mshelp:link keywords="netvista.ndisfdevicepnpeventnotify" tabindex="0"><b>
-    NdisFDevicePnPEventNotify</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisfdevicepnpeventnotify.md">
+    NdisFDevicePnPEventNotify</a> function.
 
 NDIS calls 
     <i>FilterDevicePnPEventNotify</i> at IRQL = PASSIVE_LEVEL.
@@ -148,18 +148,18 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisfdevicepnpeventnotify.md">NdisFDevicePnPEventNotify</a>
+
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a>
-
-<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-   MiniportDevicePnPEventNotify</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
-<a href="..\ndis\nf-ndis-ndisfdevicepnpeventnotify.md">NdisFDevicePnPEventNotify</a>
-
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a>
+
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
 
  
 

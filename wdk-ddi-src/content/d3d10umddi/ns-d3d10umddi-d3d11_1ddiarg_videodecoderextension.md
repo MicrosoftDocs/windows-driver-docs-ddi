@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddiarg_videodecoderextension, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], D3D11_1DDIARG_VIDEODECODEREXTENSION, d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION
+ms.keywords: D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], display.d3d11_1ddiarg_videodecoderextension, d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct D3D11_1DDIARG_VIDEODECODEREXTENSION {
 
 
 
-#### - Function
+### -field Function
 
 The function number. This number identifies the operation to perform. Currently no function numbers are defined.
 
 
-#### - pPrivateInputData
+### -field pPrivateInputData
 
 A pointer to a buffer that contains input data for the driver.
 
 
-#### - PrivateInputDataSize
+### -field PrivateInputDataSize
 
 The size of the buffer pointed to by <b>pPrivateInputData</b>, in bytes.
 
 
-#### - pPrivateOutputData
+### -field pPrivateOutputData
 
 A pointer to a buffer that the driver can use to write output data.
 
 
-#### - PrivateOutputDataSize
+### -field PrivateOutputDataSize
 
 The size of the buffer pointed to by <b>pPrivateOutputData</b>, in bytes.
 
 
-#### - ResourceCount
+### -field ResourceCount
 
 The number of elements in the <b>pResourceList</b> array. If <b>pResourceList</b> is <b>NULL</b>, set <b>ResourceCount</b> to zero.
 
 
-#### - pResourceList
+### -field pResourceList
 
 A pointer to an array of resource handles. Use this member to pass Direct3D resources to the driver.
 

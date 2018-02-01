@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnssdriver/PGNSS_GEOREGION, gnssdriver/GNSS_GEOREGION, PGNSS_GEOREGION, sensors.gnss_georegion, GNSS_GEOREGION structure [Sensor Devices], GNSS_GEOREGION"
+ms.keywords: gnssdriver/PGNSS_GEOREGION, sensors.gnss_georegion, GNSS_GEOREGION structure [Sensor Devices], gnssdriver/GNSS_GEOREGION, PGNSS_GEOREGION, *PGNSS_GEOREGION, GNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct {
 
 
 
-#### - Circle
+### -field Circle
 
 
 <a href="..\gnssdriver\ns-gnssdriver-gnss_georegion_circle.md">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
@@ -84,17 +84,17 @@ typedef struct {
  
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - GeoRegionType
+### -field GeoRegionType
 
 
 <a href="..\gnssdriver\ne-gnssdriver-gnss_georegiontype.md">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.

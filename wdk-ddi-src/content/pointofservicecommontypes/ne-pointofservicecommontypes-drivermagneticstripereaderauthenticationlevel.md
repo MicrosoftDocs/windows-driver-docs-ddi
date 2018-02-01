@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 779e750a-70c6-41f3-b680-a9fe833014b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/NotSupported, NotSupported, pointofservicecommontypes/Optional, pointofservicecommontypes/Required, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen, Optional, DriverMagneticStripeReaderAuthenticationLevel enumeration, Required, DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel
+ms.keywords: Required, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen, DriverMagneticStripeReaderAuthenticationLevel enumeration, pointofservicecommontypes/Required, NotSupported, DriverMagneticStripeReaderAuthenticationLevel, Optional, pointofservicecommontypes/Optional, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/NotSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DriverMagneticStripeReaderAuthenticationLevel {
 
 
 
-#### - NotSupported
+### -field NotSupported
 
 Does not support authentication.
 
 
-#### - Optional
+### -field Optional
 
 Supports authentication, but does not require it.
 
 
-#### - Required
+### -field Required
 
 Requires authentication.
 

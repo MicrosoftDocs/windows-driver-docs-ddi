@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], gnssdriver/GNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, sensors.gnss_agnss_injectblob
+ms.keywords: gnssdriver/GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB, sensors.gnss_agnss_injectblob, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,34 +73,34 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - BlobOui
+### -field BlobOui
 
 This field indicates the 3-byte OUI of silicon vendor or device maker.
 
 
-#### - BlobVersion
+### -field BlobVersion
 
 Version of the blob from the same vendor.
 
 
-#### - AgnssFormat
+### -field AgnssFormat
 
 Data format of the blob.
 
 The formats are defined as macros (GNSS_AGNSSFORMAT_*).
 
 
-#### - BlobSize
+### -field BlobSize
 
 Size of the blob data in bytes.
 

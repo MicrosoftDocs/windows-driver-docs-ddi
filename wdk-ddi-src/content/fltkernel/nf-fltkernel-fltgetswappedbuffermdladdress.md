@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 804263ec-8b3b-4a7c-9db4-ad524b807313
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetSwappedBufferMdlAddress, ifsk.fltgetswappedbuffermdladdress, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers], FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, fltkernel/FltGetSwappedBufferMdlAddress
+ms.keywords: ifsk.fltgetswappedbuffermdladdress, fltkernel/FltGetSwappedBufferMdlAddress, FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers], FltGetSwappedBufferMdlAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PMDL FASTCALL FltGetSwappedBufferMdlAddress(
 
 
 
-#### - CallbackData [in]
+### -param CallbackData [in]
 
 Pointer to the callback data structure for the operation. 
 
@@ -102,9 +102,9 @@ The MDL for the buffer that was swapped in by the caller is automatically freed 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltretainswappedbuffermdladdress.md">FltRetainSwappedBufferMdlAddress</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
 
  
 

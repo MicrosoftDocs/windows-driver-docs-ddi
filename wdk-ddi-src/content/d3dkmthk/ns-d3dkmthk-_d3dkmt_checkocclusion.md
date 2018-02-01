@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1797b64d-ca2c-4b07-aaad-bef4966b5ca7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CHECKOCCLUSION, display.d3dkmt_checkocclusion, D3DKMT_CHECKOCCLUSION structure [Display Devices], _D3DKMT_CHECKOCCLUSION, OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml, d3dkmthk/D3DKMT_CHECKOCCLUSION
+ms.keywords: D3DKMT_CHECKOCCLUSION structure [Display Devices], d3dkmthk/D3DKMT_CHECKOCCLUSION, _D3DKMT_CHECKOCCLUSION, display.d3dkmt_checkocclusion, D3DKMT_CHECKOCCLUSION, OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DKMT_CHECKOCCLUSION {
 
 
 
-#### - hWindow
+### -field hWindow
 
 [in] A handle to the window to check for occlusion. 
 

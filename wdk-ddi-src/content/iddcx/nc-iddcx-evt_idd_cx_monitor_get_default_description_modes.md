@@ -74,21 +74,21 @@ typedef EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES PFN_IDD_CX_MONITOR_GET_
 
 
 
-#### - MonitorObject [in]
+### -param MonitorObject [in]
 
 
                     
                 A handle by the OS to identify the monitor that requires a generated list of default modes.
 
 
-#### - pInArgs [in]
+### -param pInArgs [in]
 
 
                     
                 Input arguments used by <b>EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES</b>.
 
 
-#### - pOutArgs [out]
+### -param pOutArgs [out]
 
 
                     

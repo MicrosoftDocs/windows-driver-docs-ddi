@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a895f048-b111-4ccc-8466-fe9b169a2f95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], PWNODE_HEADER, kernel.wnode_header, wmistr/WNODE_HEADER, wmistr/PWNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, _WNODE_HEADER, *PWNODE_HEADER, WNODE_HEADER
+ms.keywords: "_WNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], wmistr/WNODE_HEADER, kernel.wnode_header, *PWNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], wmistr/PWNODE_HEADER, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, WNODE_HEADER, PWNODE_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,17 +96,17 @@ typedef struct _WNODE_HEADER {
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Version
 
- 
+This member is reserved for WMI.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Linkage
 
- 
+This member is reserved for WMI. 
 
 
 ### -field DUMMYUNIONNAME.HistoricalContext
 
- 
+This member stores the handle to the event tracing session. 
 
 
 ### -field DUMMYUNIONNAME2
@@ -116,35 +116,35 @@ typedef struct _WNODE_HEADER {
 
 ### -field DUMMYUNIONNAME2.CountLost
 
- 
+Reserved
 
 
 ### -field DUMMYUNIONNAME2.KernelHandle
 
- 
+This member is reserved for WMI.
 
 
 ### -field DUMMYUNIONNAME2.TimeStamp
 
- 
+This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged. 
 
 
-#### - BufferSize
+### -field BufferSize
 
 This member specifies the size, in bytes, of the nonpaged buffer to receive any <b>WNODE_<i>XXX</i></b> data to be returned, including this <b>WNODE_HEADER</b> structure, additional members of a <b>WNODE_<i>XXX</i></b> structure of the type indicated by <b>Flags</b>, and any WMI- or driver-determined data that accompanies that structure.
 
 
-#### - ProviderId
+### -field ProviderId
 
 If <b>Flags</b> is set to WNODE_FLAG_EVENT_ITEM or WNODE_FLAG_EVENT_REFERENCE, <b>ProviderId</b> should contain the ID of the WMI provider associated with the device object. You can obtain the <b>ProviderId</b> value by calling <a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>. If <b>Flags</b> is set to any other value, this member is reserved.
 
 
-#### - Guid
+### -field Guid
 
 This member indicates the GUID that represents the data block associated with the <b>WNODE_<i>XXX</i></b> to be returned. 
 
 
-#### - ClientContext
+### -field ClientContext
 
 This member stores the clock type for the session. Possible values are included in the following table. 
 <table>
@@ -185,7 +185,7 @@ CPU cycle
 </table> 
 
 
-#### - Flags
+### -field Flags
 
 This member indicates the type of <b>WNODE_<i>XXX</i></b> structure that contains the WNODE_HEADER structure:
 
@@ -221,11 +221,42 @@ The rest of a <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EV
 A driver sets this flag when it generates an event that is larger than the maximum size specified in the registry for an event. WMI uses the information in the <b>WNODE_EVENT_REFERENCE</b> structure to request the event data and schedules such a request according to the value of WNODE_FLAG_SEVERITY_MASK.
 
 
+#### WNODE_FLAG_FIXED_INSTANCE_SIZE
+
+All instances of a data block are the same size. This flag is valid only if WNODE_FLAG_ALL_DATA is also set. 
+
+
+#### WNODE_FLAG_INSTANCES_SAME
+
+The number of instances and the dynamic instance names in a <b>WNODE_ALL_DATA</b> structure to be returned are identical to those returned from the previous <b>WNODE_ALL_DATA</b> query. This flag is valid only if WNODE_FLAG_ALL_DATA is also set. This flag is ignored for data blocks registered with static instance names.
+
+For optimized performance, a driver should set this flag if it can track changes to the number or names of its data blocks. WMI can then skip the processing required to detect and update dynamic instance names. 
+
+
+#### WNODE_FLAG_LOG_WNODE
+
+An event block is to be sent to the system logger. The event header is a standard <b>WNODE_HEADER</b> structure. If the driver clears WNODE_FLAG_TRACED_GUID, the block will also be sent to WMI for delivery to any data consumers that have enabled the event. The driver must allocate the <b>WNODE_<i>XXX</i></b> from pool memory. WMI frees the memory after delivering the event to data consumers.
+
+
 #### WNODE_FLAG_METHOD_ITEM
 
 The rest of a <a href="..\wmistr\ns-wmistr-tagwnode_method_item.md">WNODE_METHOD_ITEM</a> structure follows the <b>WNODE_HEADER</b> structure in the buffer.
 
 WMI sets this flag in the <b>WNODE_HEADER</b> structure that it passes with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request. 
+
+
+#### WNODE_FLAG_PDO_INSTANCE_NAMES
+
+Static instance names are based on the device instance ID of the PDO for the device. A driver requests such names by setting WMIREG_FLAG_INSTANCE_PDO in the <a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a> it uses to register the block.
+
+WMI sets this flag before requesting <b>WNODE_<i>XXX</i></b> data for data blocks registered with PDO-based instance names.
+
+
+#### WNODE_FLAG_SEVERITY_MASK
+
+The driver-determined severity level of the event associated with a returned <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>, with 0x00 indicating the least severe and 0xff indicating the most severe level.
+
+WMI uses the value of this flag to prioritize its requests for the event data.
 
 
 #### WNODE_FLAG_SINGLE_INSTANCE
@@ -246,25 +277,6 @@ WMI sets this flag in the <b>WNODE_HEADER</b> structure that it passes with a re
 A driver sets this flag in the <b>WNODE_HEADER</b> structure of an event that consists of a single data item.
 
 
-#### WNODE_FLAG_TOO_SMALL
-
-The rest of a <a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a> structure follows the <b>WNODE_HEADER</b> structure in the buffer.
-
-A driver sets this flag when it passes a <b>WNODE_TOO_SMALL</b> structure, indicating that the buffer is too small for all of the <b>WNODE_<i>XXX</i></b> data to be returned.
-
-
-#### WNODE_FLAG_FIXED_INSTANCE_SIZE
-
-All instances of a data block are the same size. This flag is valid only if WNODE_FLAG_ALL_DATA is also set. 
-
-
-#### WNODE_FLAG_INSTANCES_SAME
-
-The number of instances and the dynamic instance names in a <b>WNODE_ALL_DATA</b> structure to be returned are identical to those returned from the previous <b>WNODE_ALL_DATA</b> query. This flag is valid only if WNODE_FLAG_ALL_DATA is also set. This flag is ignored for data blocks registered with static instance names.
-
-For optimized performance, a driver should set this flag if it can track changes to the number or names of its data blocks. WMI can then skip the processing required to detect and update dynamic instance names. 
-
-
 #### WNODE_FLAG_STATIC_INSTANCE_NAMES
 
 The <b>WNODE_<i>XXX</i></b> data to be returned does not include instance names.
@@ -272,28 +284,11 @@ The <b>WNODE_<i>XXX</i></b> data to be returned does not include instance names.
 WMI sets this flag before requesting <b>WNODE_<i>XXX</i></b> data for data blocks registered with static instance names. After receiving the returned <b>WNODE_<i>XXX</i></b> from the driver, WMI fills in the static instance names specified at registration before passing the returned <b>WNODE_<i>XXX</i></b> to a data consumer. 
 
 
-#### WNODE_FLAG_PDO_INSTANCE_NAMES
+#### WNODE_FLAG_TOO_SMALL
 
-Static instance names are based on the device instance ID of the PDO for the device. A driver requests such names by setting WMIREG_FLAG_INSTANCE_PDO in the <a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a> it uses to register the block.
+The rest of a <a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a> structure follows the <b>WNODE_HEADER</b> structure in the buffer.
 
-WMI sets this flag before requesting <b>WNODE_<i>XXX</i></b> data for data blocks registered with PDO-based instance names.
-
-
-#### WNODE_FLAG_SEVERITY_MASK
-
-The driver-determined severity level of the event associated with a returned <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>, with 0x00 indicating the least severe and 0xff indicating the most severe level.
-
-WMI uses the value of this flag to prioritize its requests for the event data.
-
-
-#### WNODE_FLAG_USE_TIMESTAMP
-
-The system logger should not modify the value of <b>TimeStamp</b> set by the driver. 
-
-
-#### WNODE_FLAG_LOG_WNODE
-
-An event block is to be sent to the system logger. The event header is a standard <b>WNODE_HEADER</b> structure. If the driver clears WNODE_FLAG_TRACED_GUID, the block will also be sent to WMI for delivery to any data consumers that have enabled the event. The driver must allocate the <b>WNODE_<i>XXX</i></b> from pool memory. WMI frees the memory after delivering the event to data consumers.
+A driver sets this flag when it passes a <b>WNODE_TOO_SMALL</b> structure, indicating that the buffer is too small for all of the <b>WNODE_<i>XXX</i></b> data to be returned.
 
 
 #### WNODE_FLAG_TRACED_GUID
@@ -311,34 +306,9 @@ The <b>Guid</b> member points to a GUID in memory, rather than containing the GU
 Data that follows the fixed members of a <b>WNODE_<i>XXX</i></b> structure consists of an array of MOF_FIELD structures, defined in Evntrace.h, that contain pointers to data and sizes rather than the data itself. The array can contain up to MAX_MOF_FIELD elements. The system logger dereferences the pointers before passing the data to the consumer This flag is valid only for blocks registered with WMIREG_FLAG_TRACED_GUID. 
 
 
-#### - HistoricalContext
+#### WNODE_FLAG_USE_TIMESTAMP
 
-This member stores the handle to the event tracing session. 
-
-
-#### - Version
-
-This member is reserved for WMI.
-
-
-#### - Linkage
-
-This member is reserved for WMI. 
-
-
-#### - CountLost
-
-Reserved
-
-
-#### - KernelHandle
-
-This member is reserved for WMI.
-
-
-#### - TimeStamp
-
-This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged. 
+The system logger should not modify the value of <b>TimeStamp</b> set by the driver. 
 
 
 ## -remarks
@@ -350,25 +320,25 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
-
-<a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
-
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
-
-<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
-
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 <a href="..\wmistr\ns-wmistr-tagwnode_method_item.md">WNODE_METHOD_ITEM</a>
 
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+
 <a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
 
+<a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
+
 <a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
  
 

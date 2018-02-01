@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: da9a4058-1a0e-484b-afcd-9d4558810acd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemdownloadcharglyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml, OEMDownloadCharGlyph, OEMDownloadCharGlyph function [Print Devices], printoem/OEMDownloadCharGlyph
+ms.keywords: OEMDownloadCharGlyph function [Print Devices], print.oemdownloadcharglyph, OEMDownloadCharGlyph, printoem/OEMDownloadCharGlyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,18 +70,18 @@ DWORD APIENTRY OEMDownloadCharGlyph(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 
 
-#### - pUFObj
+### -param pUFObj
 
 
 
-#### - hGlyph
+### -param hGlyph
 
 
 
-#### - pdwWidth [out]
+### -param pdwWidth [out]
 
 

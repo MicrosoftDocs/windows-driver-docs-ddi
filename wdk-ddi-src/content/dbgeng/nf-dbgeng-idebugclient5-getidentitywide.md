@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8e55f829-2f55-4b83-8e0d-2554246a5d59
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetIdentityWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetIdentityWide, debugger.getidentitywide, IDebugClient5 interface [Windows Debugging], GetIdentityWide method, GetIdentityWide method [Windows Debugging], IDebugClient5, GetIdentityWide, IDebugClient5::GetIdentityWide
+ms.keywords: dbgeng/IDebugClient5::GetIdentityWide, IDebugClient5::GetIdentityWide, GetIdentityWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetIdentityWide method, GetIdentityWide method [Windows Debugging], debugger.getidentitywide, GetIdentityWide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetIdentityWide(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Specifies the buffer to receive the string.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size of the buffer <i>Buffer</i>.
 
 
-#### - IdentitySize [out, optional]
+### -param IdentitySize [out, optional]
 
 Receives the size of the string. If <i>IdentitySize</i> is <b>NULL</b>, this information is not returned.
 

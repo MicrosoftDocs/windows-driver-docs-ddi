@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: acfd28c9-c6d5-4768-b095-488f174d78c0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtHandleLogFileFull, kernel.clfsmgmthandlelogfilefull, Clfs_management_244be38f-f0dc-45db-b0c2-ccdee1290840.xml, ClfsMgmtHandleLogFileFull routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtHandleLogFileFull
+ms.keywords: ClfsMgmtHandleLogFileFull routine [Kernel-Mode Driver Architecture], ClfsMgmtHandleLogFileFull, kernel.clfsmgmthandlelogfilefull, wdm/ClfsMgmtHandleLogFileFull, Clfs_management_244be38f-f0dc-45db-b0c2-ccdee1290840.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS ClfsMgmtHandleLogFileFull(
 
 
 
-#### - Client [in]
+### -param Client [in]
 
 The client that is requesting CLFS management to make space available in the log. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a> routine.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 372a155f-e270-49ab-a5ab-9b933b29ed74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlfindmostsignificantbit, RtlFindMostSignificantBit, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture], k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml, wdm/RtlFindMostSignificantBit
+ms.keywords: RtlFindMostSignificantBit, wdm/RtlFindMostSignificantBit, kernel.rtlfindmostsignificantbit, k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ CCHAR RtlFindMostSignificantBit(
 
 
 
-#### - Set [in]
+### -param Set [in]
 
 The 64-bit value to be searched for its most significant nonzero bit. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dc356e6-a2ef-4b43-abe5-7c5058c15cf5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml, NdisOpenAdapterEx, netvista.ndisopenadapterex
+ms.keywords: NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml, netvista.ndisopenadapterex, NdisOpenAdapterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NDIS_STATUS NdisOpenAdapterEx(
 
 
 
-#### - NdisProtocolHandle [in]
+### -param NdisProtocolHandle [in]
 
 The handle returned by the 
-     <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-     NdisRegisterProtocolDriver</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     NdisRegisterProtocolDriver</a> function.
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 The handle for a caller-supplied context area in which the protocol driver maintains state
      information for this binding.
 
 
-#### - OpenParameters [in]
+### -param OpenParameters [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a> structure that is
      set up by the caller.
 
 
-#### - BindContext [in]
+### -param BindContext [in]
 
 The handle that identifies the NDIS context area for the bind operation. NDIS passed this handle
      to the 
@@ -103,7 +103,7 @@ The handle that identifies the NDIS context area for the bind operation. NDIS pa
      <i>ProtocolBindAdapterEx</i> function.
 
 
-#### - NdisBindingHandle [out]
+### -param NdisBindingHandle [out]
 
 A pointer to a caller-supplied variable. NDIS writes a handle at 
      <i>NdisBindingHandle</i> that identifies the binding between the caller and the miniport adapter
@@ -141,8 +141,8 @@ A pointer to a caller-supplied variable. NDIS writes a handle at
 </td>
 <td width="60%">
 <b>NdisOpenAdapterEx</b> did not complete the open operation. NDIS later calls the protocol driver's 
-       <mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-       ProtocolOpenAdapterCompleteEx</i></mshelp:link> function to complete the open operation.
+       <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+       ProtocolOpenAdapterCompleteEx</a> function to complete the open operation.
 
 </td>
 </tr>
@@ -213,8 +213,8 @@ If
     <i>NdisBindingHandle</i> and the 
     <b>SelectedMediumIndex</b> member at 
     <i>OpenParameters</i> until NDIS calls the 
-    <mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-    ProtocolOpenAdapterCompleteEx</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+    ProtocolOpenAdapterCompleteEx</a> function.
 
 The string at 
     <b>AdapterName</b> must remain valid only until 
@@ -234,14 +234,14 @@ After the open operation completes successfully, the caller can use the value th
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
 <a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
  
 

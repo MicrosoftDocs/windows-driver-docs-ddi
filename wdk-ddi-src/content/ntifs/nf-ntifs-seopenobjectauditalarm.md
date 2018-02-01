@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a4310cf8-1518-4d25-b2f9-a232ddd9c535
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeOpenObjectAuditAlarm, SeOpenObjectAuditAlarm routine [Installable File System Drivers], ifsk.seopenobjectauditalarm, seref_87dbea09-cd36-40c2-8241-16c8180f1945.xml, ntifs/SeOpenObjectAuditAlarm
+ms.keywords: seref_87dbea09-cd36-40c2-8241-16c8180f1945.xml, SeOpenObjectAuditAlarm routine [Installable File System Drivers], SeOpenObjectAuditAlarm, ntifs/SeOpenObjectAuditAlarm, ifsk.seopenobjectauditalarm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,47 +75,47 @@ VOID SeOpenObjectAuditAlarm(
 
 
 
-#### - ObjectTypeName [in]
+### -param ObjectTypeName [in]
 
 Pointer to a null-terminated string specifying the type of object to which the client is requesting access. This string appears in any audit message that is generated.
 
 
-#### - Object [in, optional]
+### -param Object [in, optional]
 
 Address of the object being opened. This value is needed only to enter into log messages. If the open attempt fails, the value of <i>Object</i> is ignored. Otherwise, it must be provided.
 
 
-#### - AbsoluteObjectName [in, optional]
+### -param AbsoluteObjectName [in, optional]
 
 Pointer to a null-terminated string specifying the name of the object being opened. This string appears in any audit message that is generated.
 
 
-#### - SecurityDescriptor [in]
+### -param SecurityDescriptor [in]
 
 A pointer to the security descriptor structure for the object being opened.
 
 
-#### - AccessState [in]
+### -param AccessState [in]
 
 Pointer to an access state structure containing the object's subject context, remaining desired access types, granted access types, and, optionally, a privilege set to indicate which privileges were used to permit the access.
 
 
-#### - ObjectCreated [in]
+### -param ObjectCreated [in]
 
 Set to <b>TRUE</b> if the open operation causes a new object to be created, or <b>FALSE</b> if an existing object is opened.
 
 
-#### - AccessGranted [in]
+### -param AccessGranted [in]
 
 Set to <b>TRUE</b> if open access was granted based on a previous access check or privilege check, or <b>FALSE</b> if it was denied.
 
 
-#### - AccessMode [in]
+### -param AccessMode [in]
 
 Access mode used for the access check. Either <b>UserMode</b> or <b>KernelMode</b>.
 
 
-#### - GenerateOnClose [out]
+### -param GenerateOnClose [out]
 
 Pointer to a flag set by the audit generation routine when <b>SeOpenObjectAuditAlarm</b> returns.  
 
@@ -140,25 +140,25 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 <a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
 
 <a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
 
+<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
+
 <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
+<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
 
 <a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 <a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
 
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
 
  
 

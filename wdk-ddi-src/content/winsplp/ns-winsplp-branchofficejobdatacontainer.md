@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5C6D2FFC-DBFF-4C44-8757-ED87593A584F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PBranchOfficeJobDataContainer structure pointer [Print Devices], *PBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer structure pointer [Print Devices], BranchOfficeJobDataContainer structure [Print Devices], print.branchofficejobdatacontainer, winsplp/PBranchOfficeJobDataContainer, winsplp/LPBranchOfficeJobDataContainer, BranchOfficeJobDataContainer, PBranchOfficeJobDataContainer, *LPBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer, winsplp/BranchOfficeJobDataContainer
+ms.keywords: PBranchOfficeJobDataContainer, print.branchofficejobdatacontainer, LPBranchOfficeJobDataContainer, BranchOfficeJobDataContainer, winsplp/LPBranchOfficeJobDataContainer, *LPBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer structure pointer [Print Devices], BranchOfficeJobDataContainer structure [Print Devices], *PBranchOfficeJobDataContainer, winsplp/BranchOfficeJobDataContainer, PBranchOfficeJobDataContainer structure pointer [Print Devices], winsplp/PBranchOfficeJobDataContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct {
 
 
 
-#### - cJobDataEntries
+### -field cJobDataEntries
 
 Describes the <b>DWORD</b> type member <b>cJobDataEntries</b>.
 
 
-#### - JobData
+### -field JobData
 
 Describes the <b>BranchOfficeJobData</b> type member <b>JobData</b>.
 

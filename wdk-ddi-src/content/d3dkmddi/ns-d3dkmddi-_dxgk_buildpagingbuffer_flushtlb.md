@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9FDE47A4-1784-41EB-9F60-76368D6DFEED
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_BUILDPAGINGBUFFER_FLUSHTLB, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], display.dxgk_buildpagingbuffer_flushtlb"
+ms.keywords: "_DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], display.dxgk_buildpagingbuffer_flushtlb"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_FLUSHTLB {
 
 
 
-#### - RootPageTableAddress
+### -field RootPageTableAddress
 
 Physical address of the root page table being invalidated.
 
 
-#### - hProcess
+### -field hProcess
 
 KMD process handle,  returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>, that the page table belongs to. 
 
 
-#### - StartVirtualAddress
+### -field StartVirtualAddress
 
 The start of the affected GPU virtual address range.
 
 
-#### - EndVirtualAddress
+### -field EndVirtualAddress
 
 The end of the affected GPU virtual address range. When both <b>StartVirtualAddress</b> and <b>EndVirtualAddress</b> are zero, the entire GPU virtual address range is affected.
 

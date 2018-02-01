@@ -75,27 +75,27 @@ NTSTATUS EvtSerCxControl(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A WDFREQUEST handle to the framework request object that represents the I/O control request.
 
 
-#### - OutputBufferLength [in]
+### -param OutputBufferLength [in]
 
 Specifies the length, in bytes, of the output buffer for the I/O control request specified by the <i>Request</i> parameter.
 
 
-#### - InputBufferLength [in]
+### -param InputBufferLength [in]
 
 Specifies the length, in bytes, of the input buffer for the I/O control request specified by the <i>Request</i> parameter.
 
 
-#### - IoControlCode [in]
+### -param IoControlCode [in]
 
 Specifies the IOCTL from the I/O control request specified by the <i>Request</i> parameter.
 

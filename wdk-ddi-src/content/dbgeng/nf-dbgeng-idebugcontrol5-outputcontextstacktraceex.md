@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, debugger.idebugcontrol5_outputcontextstacktraceex, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5
+ms.keywords: OutputContextStackTraceEx, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, IDebugControl5, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], debugger.idebugcontrol5_outputcontextstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT OutputContextStackTraceEx(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies where to send the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-#### - Frames [in]
+### -param Frames [in]
 
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frame is used.
 
 
-#### - FramesSize [in]
+### -param FramesSize [in]
 
 Specifies the number of frames to output.
 
 
-#### - FrameContexts [in]
+### -param FrameContexts [in]
 
 Specifies the register context for each frame in the stack.  The entries in this array correspond to the entries in the <i>Frames</i> array.  The type of the thread context is the CONTEXT structure for the target's effective processor.
 
 
-#### - FrameContextsSize [in]
+### -param FrameContextsSize [in]
 
 Specifies the size, in bytes, of the memory pointed to by <i>FrameContexts</i>.  The number of stack frames must equal the number of contexts, and <i>FrameContextsSize</i> must equal <i>FramesSize</i> multiplied by <i>FrameContextsEntrySize</i>.
 
 
-#### - FrameContextsEntrySize [in]
+### -param FrameContextsEntrySize [in]
 
 Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 <table>

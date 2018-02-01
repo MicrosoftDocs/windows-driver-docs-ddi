@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], wdm/KeQuerySystemTimePrecise, KeQuerySystemTimePrecise, kernel.kequerysystemtimeprecise
+ms.keywords: KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise, KeQuerySystemTimePrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KeQuerySystemTimePrecise(
 
 
 
-#### - CurrentTime [out]
+### -param CurrentTime [out]
 
 A pointer to a LARGE_INTEGER variable into which the routine writes the current system time.
 
@@ -100,13 +100,13 @@ Call the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a
 
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
-<a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
-
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
  
 

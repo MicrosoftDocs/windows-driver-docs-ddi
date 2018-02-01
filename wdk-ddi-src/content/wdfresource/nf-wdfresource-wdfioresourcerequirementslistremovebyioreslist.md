@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 507729e9-96da-461c-badb-a3725abf6591
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_fa50f423-3ade-4deb-89a0-d79cd3f98710.xml, kmdf.wdfioresourcerequirementslistremovebyioreslist, wdfresource/WdfIoResourceRequirementsListRemoveByIoResList, WdfIoResourceRequirementsListRemoveByIoResList, WdfIoResourceRequirementsListRemoveByIoResList method, PFN_WDFIORESOURCEREQUIREMENTSLISTREMOVEBYIORESLIST, wdf.wdfioresourcerequirementslistremovebyioreslist
+ms.keywords: WdfIoResourceRequirementsListRemoveByIoResList method, DFResourceObjectRef_fa50f423-3ade-4deb-89a0-d79cd3f98710.xml, wdf.wdfioresourcerequirementslistremovebyioreslist, kmdf.wdfioresourcerequirementslistremovebyioreslist, PFN_WDFIORESOURCEREQUIREMENTSLISTREMOVEBYIORESLIST, wdfresource/WdfIoResourceRequirementsListRemoveByIoResList, WdfIoResourceRequirementsListRemoveByIoResList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfIoResourceRequirementsListRemoveByIoResList(
 
 
 
-#### - RequirementsList [in]
+### -param RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-#### - IoResList [in]
+### -param IoResList [in]
 
 A handle to a framework resource-range-list object that represents the logical configuration to be removed from the resource requirements list that <i>RequirementsList</i> specifies.
 
@@ -104,17 +104,17 @@ For more information about resource requirements lists, see <a href="https://doc
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremove.md">WdfIoResourceRequirementsListRemove</a>
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md">WdfIoResourceListGetDescriptor</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremove.md">WdfIoResourceRequirementsListRemove</a>
 
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetcount.md">WdfIoResourceListGetCount</a>
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C71187C5-74B6-450A-8461-BB9FDF60DB8D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, netvista.ndis_wwan_pco_status, ndiswwan/PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PCO_STATUS, ndiswwan/NDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PCO_STATUS"
+ms.keywords: NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, *PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, _NDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS, netvista.ndis_wwan_pco_status, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_PCO_STATUS {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the <b>NDIS_WWAN_PCO_STATUS</b> structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of system capability. The following table shows the possible values for
      this member.
@@ -231,7 +231,7 @@ The PCO value failed due to a read failure.
 </table> 
 
 
-#### - PcoValue
+### -field PcoValue
 
 A formatted <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a> structure, which contains the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 
@@ -244,9 +244,9 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a> stru
 
 <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pco">OID_WWAN_PCO</a>
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-pco-status">NDIS_STATUS_WWAN_PCO_STATUS</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pco">OID_WWAN_PCO</a>
 
  
 

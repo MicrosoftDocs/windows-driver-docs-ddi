@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b667f0c9-7746-432e-ae58-3fe5b48309e0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtltestansicharacter, fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, ntifs/FsRtlTestAnsiCharacter, FsRtlTestAnsiCharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlTestAnsiCharacter, ifsk.fsrtltestansicharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers], fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, FsRtlTestAnsiCharacter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -102,11 +102,6 @@ Pointer to the character to be tested.
 Default value to be returned if the value of <i>(SCHAR *)Character</i> is &lt; 0.
 
 
-#### - WildCardsPermissible
-
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
-
-
 #### - Flags
 
 Combination of one or more of the flag values described following.
@@ -178,6 +173,11 @@ FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL
 </table> 
 
 
+#### - WildCardsPermissible
+
+Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
+
+
 ## -remarks
 
 
@@ -187,13 +187,13 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalntfs.md">FsRtlIsAnsiCharacterLegalNtfs</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalhpfs.md">FsRtlIsAnsiCharacterLegalHpfs</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalntfs.md">FsRtlIsAnsiCharacterLegalNtfs</a>
 
  
 

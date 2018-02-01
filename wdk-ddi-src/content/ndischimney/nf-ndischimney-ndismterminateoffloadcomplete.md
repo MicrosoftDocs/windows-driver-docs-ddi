@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d444eae5-2e7c-41f2-9fb2-55e172505cf6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml, NdisMTerminateOffloadComplete, NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMTerminateOffloadComplete, netvista.ndismterminateoffloadcomplete
+ms.keywords: NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], netvista.ndismterminateoffloadcomplete, NdisMTerminateOffloadComplete, tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml, ndischimney/NdisMTerminateOffloadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -54,8 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 An offload target calls the 
   <b>NdisMTerminateOffloadComplete</b> function to complete a terminate offload operation that was initiated
   by a previous call to the 
-  <mshelp:link keywords="netvista.miniportterminateoffload" tabindex="0"><i>
-  MiniportTerminateOffload</i></mshelp:link> function of the offload target.
+  <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">
+  MiniportTerminateOffload</a> function of the offload target.
 
 
 ## -syntax
@@ -74,21 +74,21 @@ VOID NdisMTerminateOffloadComplete(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a>.
 
 
-#### - OffloadBlockList [in]
+### -param OffloadBlockList [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure. The offload target obtained this pointer as an input
+     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The offload target obtained this pointer as an input
      parameter to its 
-     <mshelp:link keywords="netvista.miniportterminateoffload" tabindex="0"><i>
-     MiniportTerminateOffload</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">
+     MiniportTerminateOffload</a> function.
 
 
 ## -returns
@@ -133,13 +133,13 @@ Complete any oustanding calls to the
       <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>, 
       <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>,
       
-      <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-      MiniportTcpOffloadDisconnect</i></mshelp:link>, 
+      <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+      MiniportTcpOffloadDisconnect</a>, 
       <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>,
       
       <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>, and 
-      <mshelp:link keywords="netvista.miniportupdateoffload" tabindex="0"><i>
-      MiniportUpdateOffload</i></mshelp:link> functions.
+      <a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">
+      MiniportUpdateOffload</a> functions.
 
 </li>
 <li>
@@ -148,8 +148,8 @@ Ensure that any outstanding calls to the
       <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>, 
       <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>,
       and 
-      <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-      NdisTcpOffloadReceiveHandler</b></mshelp:link> functions have returned.
+      <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+      NdisTcpOffloadReceiveHandler</a> functions have returned.
 
 </li>
 </ul>If there is outstanding send data on a TCP connection that is being terminated, the offload target
@@ -179,8 +179,8 @@ SndMax
 
 </li>
 </ul>For more information about passing outstanding send data, see 
-    <mshelp:link keywords="netvista.handling_outstanding_send_data_during_and_after_an_offload_operation" tabindex="0">
-    Handling Outstanding Send Data During and After an Offload Operation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">
+    Handling Outstanding Send Data During and After an Offload Operation</a>.
 
 If there is no outstanding send data on a TCP connection that is being terminated, the offload target
     must specify a <b>NULL</b> value for the 
@@ -189,8 +189,8 @@ If there is no outstanding send data on a TCP connection that is being terminate
 There might be outstanding receive data on a TCP connection that is being uploaded. This is data that
     the offload target has received off the wire, processed, and acknowledged. For more information about
     processing such data, see 
-    <mshelp:link keywords="netvista.handling_buffered_receive_data_during_a_terminate_offload_operation" tabindex="0">
-    Handling Buffered Receive Data During a Terminate Offload Operation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">
+    Handling Buffered Receive Data During a Terminate Offload Operation</a>.
 
 The offload target frees all resources, such as memory, that are associated with the terminated state
     objects.
@@ -199,14 +199,14 @@ The offload target frees all resources, such as memory, that are associated with
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
-
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
  
 

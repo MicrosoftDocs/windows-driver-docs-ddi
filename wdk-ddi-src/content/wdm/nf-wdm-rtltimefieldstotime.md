@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5873b627-6ef4-4e2c-8a53-921f37b729bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlTimeFieldsToTime, k109_9b5d67de-92c3-4fb7-bcd7-4e045ae9ada4.xml, wdm/RtlTimeFieldsToTime, kernel.rtltimefieldstotime, RtlTimeFieldsToTime routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlTimeFieldsToTime routine [Kernel-Mode Driver Architecture], RtlTimeFieldsToTime, kernel.rtltimefieldstotime, wdm/RtlTimeFieldsToTime, k109_9b5d67de-92c3-4fb7-bcd7-4e045ae9ada4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ BOOLEAN RtlTimeFieldsToTime(
 
 
 
-#### - TimeFields [in]
+### -param TimeFields [in]
 
 Pointer to the following structure, containing the time information to be converted:
 <div class="code"><span codelanguage=""><table>
@@ -93,16 +93,6 @@ Pointer to the following structure, containing the time information to be conver
 </table></span></div>
 
 
-#### Year
-
-Specifies a value from 1601 on.
-
-
-#### Month
-
-Specifies a value from 1 to 12.
-
-
 #### Day
 
 Specifies a value from 1 to 31.
@@ -113,9 +103,19 @@ Specifies a value from 1 to 31.
 Specifies a value from 0 to 23.
 
 
+#### Milliseconds
+
+Specifies a value from 0 to 999.
+
+
 #### Minute
 
 Specifies a value from 0 to 59.
+
+
+#### Month
+
+Specifies a value from 1 to 12.
 
 
 #### Second
@@ -123,17 +123,17 @@ Specifies a value from 0 to 59.
 Specifies a value from 0 to 59.
 
 
-#### Milliseconds
-
-Specifies a value from 0 to 999.
-
-
 #### Weekday
 
 Specifies a value from 0 to 6 (Sunday to Saturday). 
 
 
-#### - Time [out]
+#### Year
+
+Specifies a value from 1601 on.
+
+
+### -param Time [out]
 
 Pointer to a buffer, which is to contain the converted system time value as a large integer. 
 
@@ -156,11 +156,11 @@ Callers of <b>RtlTimeFieldsToTime</b> can be running at any IRQL if both input b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
 
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
-<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 <a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
 

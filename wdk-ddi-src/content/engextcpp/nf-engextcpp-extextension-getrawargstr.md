@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetRawArgStr method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], GetRawArgStr method, ExtExtension, GetRawArgStr, ExtExtension::GetRawArgStr, debugger.getrawargstr, GetRawArgStr method [Windows Debugging], EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml
+ms.keywords: GetRawArgStr, debugger.getrawargstr, EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension class [Windows Debugging], GetRawArgStr method, GetRawArgStr method [Windows Debugging], ExtExtension::GetRawArgStr, ExtExtension, GetRawArgStr method [Windows Debugging], ExtExtension class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.GetRawArgStr
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtExtension::GetRawArgStr method

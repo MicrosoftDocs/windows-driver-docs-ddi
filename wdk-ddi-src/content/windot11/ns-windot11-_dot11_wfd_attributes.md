@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7B221221-5C91-45DA-85C5-5E7CF71E6689
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_WFD_ATTRIBUTES, *PDOT11_WFD_ATTRIBUTES, windot11/DOT11_WFD_ATTRIBUTES, windot11/PDOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_ATTRIBUTES, _DOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES, _DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,7 @@ typedef struct _DOT11_WFD_ATTRIBUTES {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_WFD_ATTRIBUTES</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -105,62 +105,62 @@ The type, revision, and size of the <b>DOT11_WFD_ATTRIBUTES</b> structure. The r
 </table> 
 
 
-#### - uNumConcurrentGORole
+### -field uNumConcurrentGORole
 
 The number of operational Wi-Fi Direct Group Owner (GO) roles simultaneously supported by the miniport driver. This value is the number of ports that can be simultaneously configured in <b>DOT11_OPERATION_MODE_WFD_GROUP_OWNER</b> operation mode. This member must be less than or equal to  <b>uNumWFDGroup</b> in  <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a> returned by the miniport driver.
 
 
-#### - uNumConcurrentClientRole
+### -field uNumConcurrentClientRole
 
 The number of operational Wi-Fi Direct Client roles simultaneously supported by the miniport driver. This value is the number of ports that can be simultaneously configured in <b>DOT11_OPERATION_MODE_WFD_CLIENT</b> operation mode. This member must be less than or equal to <b> uNumWFDGroup</b> in  <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a> returned by the miniport driver.
 
 
-#### - WPSVersionsSupported
+### -field WPSVersionsSupported
 
 The Wi-Fi Protected Services (WPS) versions supported by the miniport driver. The miniport driver must be able to interpret WPS Information Elements (IEs) formatted to these supported WPS version specifications.
 
 
-#### - bServiceDiscoverySupported
+### -field bServiceDiscoverySupported
 
 If TRUE, the miniport supports sending and responding to WFD Service Discovery Queries. Otherwise, Service Discovery Queries are not supported. 
 
 
-#### - bClientDiscoverabilitySupported
+### -field bClientDiscoverabilitySupported
 
 If TRUE, the miniport supports the WFD Client Discoverability. Otherwise, Client Discoverability is not supported.
 
 
-#### - bInfrastructureManagementSupported
+### -field bInfrastructureManagementSupported
 
 If TRUE, the miniport supports management by the infrastructure network. Otherwise, infrastructure network management is not supported.
 
 
-#### - uMaxSecondaryDeviceTypeListSize
+### -field uMaxSecondaryDeviceTypeListSize
 
 The maximum number of Secondary Device Types that can be configured on the WFD device.
 
 
-#### - DeviceAddress
+### -field DeviceAddress
 
 The WFD Peer-to-Peer  (P2P) device address. This address is used as a unique identifier to reference the P2P device.
 
 
-#### - uInterfaceAddressListCount
+### -field uInterfaceAddressListCount
 
 The number of P2P Interface Addresses supported by the WFD device. This value must be less than or equal to <b>uNumWFDGroup</b> in <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a> returned by the miniport.
 
 
-#### - pInterfaceAddressList
+### -field pInterfaceAddressList
 
 A pointer to an array of P2P Interface Addresses supported by the WFD device.
 
 
-#### - uNumSupportedCountryOrRegionStrings
+### -field uNumSupportedCountryOrRegionStrings
 
 The number of country or region strings supported by the 802.11 station. To support multiple regulatory domains, as specified by the IEEE 802.11d-2001 standard, each country or region string identifies a regulatory domain supported by the 802.11 station.
 
 
-#### - pSupportedCountryOrRegionStrings
+### -field pSupportedCountryOrRegionStrings
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11 station.
 
@@ -175,23 +175,23 @@ A pointer to an array of 802.11d country or region strings that are supported by
  
 
 
-#### - uDiscoveryFilterListSize
+### -field uDiscoveryFilterListSize
 
 The maximum number of  Discovery Filters supported by the WFD device for discovery operations. This must be at least 2.
 
 The Discovery filters list that the WFD device must apply for device discovery is specified when <a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a> is set.
 
 
-#### - uGORoleClientTableSize
+### -field uGORoleClientTableSize
 
 The maximum number of associations that each WFD GO port supports simultaneously. The miniport must have at least this number of entries in its key-mapping key table.
 
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+
+<a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565926">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 

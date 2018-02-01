@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e32e4b7d-715b-4eae-832f-314980ab89b3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], RIL_VerifyUiccLock, netvista.ril_verifyuicclock, rilapi/RIL_VerifyUiccLock
+ms.keywords: netvista.ril_verifyuicclock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], rilapi/RIL_VerifyUiccLock, RIL_VerifyUiccLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_VerifyUiccLock(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - lpVerification
+### -param lpVerification
 
 
 

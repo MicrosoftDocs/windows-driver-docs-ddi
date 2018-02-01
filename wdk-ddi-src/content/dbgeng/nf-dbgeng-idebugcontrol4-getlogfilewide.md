@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2dd20552-747c-4eb8-aacd-7ee241d490d1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetLogFileWide method [Windows Debugging], GetLogFileWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetLogFileWide, IDebugControl4 interface [Windows Debugging], GetLogFileWide method, debugger.getlogfilewide, GetLogFileWide, IDebugControl4, IDebugControl4::GetLogFileWide
+ms.keywords: GetLogFileWide, dbgeng/IDebugControl4::GetLogFileWide, GetLogFileWide method [Windows Debugging], IDebugControl4 interface, debugger.getlogfilewide, IDebugControl4::GetLogFileWide, IDebugControl4, GetLogFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetLogFileWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetLogFileWide(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the name of the currently open log file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - FileSize [out, optional]
+### -param FileSize [out, optional]
 
 Receives the size, in characters, of the name of the log file.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Append [out]
+### -param Append [out]
 
 Receives <b>TRUE</b> if log messages are appended to the log file, or <b>FALSE</b> if the contents of the log file were discarded when the file was opened.
 
@@ -147,15 +147,15 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
  
 

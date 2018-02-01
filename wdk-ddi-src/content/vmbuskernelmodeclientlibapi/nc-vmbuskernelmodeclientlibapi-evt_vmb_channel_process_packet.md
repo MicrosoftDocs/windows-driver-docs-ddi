@@ -80,29 +80,29 @@ typedef EVT_VMB_CHANNEL_PROCESS_PACKET PFN_VMB_CHANNEL_PROCESS_PACKET;
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel on which the packet arrives.
 
 
-#### - Packet [in]
+### -param Packet [in]
 
 The completion context, which identifies this packet to Kernel Mode Client Library (KMCL) when the transaction can be retired.
 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 The packet which was sent by the opposite endpoint.  This value does not contain the VMBus and KMCL headers.
 
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 The length of the <i>Buffer</i> parameter, in bytes.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags. Possible values include the following: 
 <table>
@@ -148,11 +148,11 @@ has been configured to defer packet processing to a worker thread.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata.md">VmbChannelPacketGetExternalData</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">VmbChannelInitSetProcessPacketCallbacks</a>
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata.md">VmbChannelPacketGetExternalData</a>
 
  
 

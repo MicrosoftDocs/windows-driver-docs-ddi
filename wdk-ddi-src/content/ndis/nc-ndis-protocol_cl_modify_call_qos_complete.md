@@ -80,7 +80,7 @@ VOID ProtocolClModifyCallQoSComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies the final status of the client's asynchronous request to modify the call parameters for
      this VC as one of the following:
@@ -89,15 +89,10 @@ Specifies the final status of the client's asynchronous request to modify the ca
 
 
 
-#### NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_FAILURE
 
-The QoS was modified as requested by the client.
-
-
-#### NDIS_STATUS_RESOURCES
-
-NDIS or the call manager could not modify the QoS because one of them could not allocate
-       sufficient resources dynamically.
+The call manager could not change the QoS because of a failure on the network or in another
+       connection-oriented network component.
 
 
 #### NDIS_STATUS_INVALID_DATA
@@ -106,10 +101,15 @@ The call parameters that the client supplied to
        <b>NdisClModifyCallQoS</b> were invalid.
 
 
-#### NDIS_STATUS_FAILURE
+#### NDIS_STATUS_RESOURCES
 
-The call manager could not change the QoS because of a failure on the network or in another
-       connection-oriented network component.
+NDIS or the call manager could not modify the QoS because one of them could not allocate
+       sufficient resources dynamically.
+
+
+#### NDIS_STATUS_SUCCESS
+
+The QoS was modified as requested by the client.
 
 
 #### NDIS_STATUS_XXX
@@ -118,7 +118,7 @@ The call manager failed to change the QoS, and NDIS propagated the CM-determined
        to the client.
 
 
-#### - ProtocolVcContext [in]
+### -param ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
      NDIS when it called 
@@ -127,7 +127,7 @@ Specifies the handle to the client's per-VC context area, which the client origi
      <i>ProtocolCoCreateVc</i> function if the client accepted an incoming call on this VC.
 
 
-#### - CallParameters [in]
+### -param CallParameters [in]
 
 Pointer to a buffered CO_CALL_PARAMETERS structure containing the client-specified QoS change it
      requested, or, possibly, the original QoS for this VC established when the connection was activated,
@@ -197,19 +197,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQoSComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
  
 

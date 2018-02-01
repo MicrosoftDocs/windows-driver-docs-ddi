@@ -71,12 +71,12 @@ NTSTATUS APIENTRY DxgkDdiUnmapCpuHostAperture(
 
 
 
-#### - hAdapter
+### -param hAdapter
 
 A handle to the display adapter.
 
 
-#### - pArgs
+### -param pArgs
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture.md">DXGKARG_UNMAPCPUHOSTAPERTURE</a> structure that describes the operation.
 

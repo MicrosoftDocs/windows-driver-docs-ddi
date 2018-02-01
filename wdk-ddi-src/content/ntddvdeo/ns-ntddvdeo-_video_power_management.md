@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9522c504-9bdb-4388-b047-340a211463dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_POWER_MANAGEMENT, ntddvdeo/VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT, display.video_power_management, ntddvdeo/PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], *PVIDEO_POWER_MANAGEMENT, Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, VIDEO_POWER_MANAGEMENT structure [Display Devices], _VIDEO_POWER_MANAGEMENT
+ms.keywords: PVIDEO_POWER_MANAGEMENT, Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, ntddvdeo/VIDEO_POWER_MANAGEMENT, ntddvdeo/PVIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], _VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT, display.video_power_management, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,21 +69,31 @@ typedef struct _VIDEO_POWER_MANAGEMENT {
 
 
 
-#### - Length
+### -field Length
 
 Is the size in bytes of this VIDEO_POWER_MANAGEMENT structure.
 
 
-#### - DPMSVersion
+### -field DPMSVersion
 
 Specifies the version of the Display Power Management Signaling (DPMS) standard supported by the device. Currently, the video port driver sets this member to zero, which corresponds with Version 1.0 of the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VESA</a> DPMS Standard.
 
 
-#### - PowerState
+### -field PowerState
 
 Specifies the power management state to be set or queried. This member can be one of the following values in the VIDEO_POWER_STATE enumeration:
 
 
+
+
+#### VideoPowerHibernate
+
+The monitor and graphics adapter are both fully powered on and operational.
+
+
+#### VideoPowerOff
+
+The monitor and graphics adapter are both off, consuming no power at all.
 
 
 #### VideoPowerOn
@@ -99,16 +109,6 @@ The monitor is running at a reduced power level that requires a short recovery t
 #### VideoPowerSuspend
 
 The monitor is running at a substantially reduced power level that requires a possibly longer recovery time than <b>VideoPowerStandBy</b> to <b>VideoPowerOn</b>. The graphics adapter is off.
-
-
-#### VideoPowerOff
-
-The monitor and graphics adapter are both off, consuming no power at all.
-
-
-#### VideoPowerHibernate
-
-The monitor and graphics adapter are both fully powered on and operational.
 
 
 ## -remarks

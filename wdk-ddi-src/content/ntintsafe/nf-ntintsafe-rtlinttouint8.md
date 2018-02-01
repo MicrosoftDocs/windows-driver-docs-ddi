@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BD5F605A-0E0F-4D68-8905-6FCEC9DD7F15
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlIntToUInt8, RtlIntToUInt8 function [Kernel-Mode Driver Architecture], RtlIntToUInt8, kernel.rtlinttouint8
+ms.keywords: RtlIntToUInt8, RtlIntToUInt8 function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntToUInt8, kernel.rtlinttouint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlIntToUInt8(
 
 
 
-#### - iOperand [in]
+### -param iOperand [in]
 
 The value to be converted.
 
 
-#### - pui8Result [out]
+### -param pui8Result [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

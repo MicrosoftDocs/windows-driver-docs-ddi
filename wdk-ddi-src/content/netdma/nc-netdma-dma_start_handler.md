@@ -76,16 +76,16 @@ NTSTATUS ProviderStartDma(
 
 
 
-#### - ProviderChannelContext [in]
+### -param ProviderChannelContext [in]
 
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
-#### - DescriptorVirtualAddress [in]
+### -param DescriptorVirtualAddress [in]
 
 A pointer to the virtual address of the first 
      <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure in a linked
@@ -93,14 +93,14 @@ A pointer to the virtual address of the first
      <i>DescriptorPhysicalAddress</i> parameter.
 
 
-#### - DescriptorPhysicalAddress [in]
+### -param DescriptorPhysicalAddress [in]
 
 A pointer to the physical address of the first DMA descriptor in a linked list of DMA descriptors.
      The corresponding virtual address is specified at the 
      <i>DescriptorVirtualAddress</i> parameter.
 
 
-#### - DescriptorCount [in]
+### -param DescriptorCount [in]
 
 The number of DMA descriptors at 
      <i>DescriptorVirtualAddress</i> .
@@ -164,8 +164,8 @@ The NetDMA interface calls a DMA provider driver's
     <i>ProviderStartDma</i> after it calls the 
     <a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>, 
     <a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>, or 
-    <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-    ProviderAllocateDmaChannel</b></mshelp:link> function for a DMA channel.
+    <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+    ProviderAllocateDmaChannel</a> function for a DMA channel.
 
 The source of the DMA transfer is a linked list of DMA descriptors. The 
     <b>NextDescriptor</b> member of the 
@@ -198,15 +198,15 @@ NetDMA calls
 
 ## -see-also
 
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
 <a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
 <a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
-
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
  
 

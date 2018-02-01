@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb1bd1dd-feab-4aa4-8b4f-932f0d5ec4ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices], PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], dispmprt/PDXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, _DXGK_DEBUG_REPORT_INTERFACE, dispmprt/DXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE, DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml
+ms.keywords: dispmprt/DXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices], dispmprt/PDXGK_DEBUG_REPORT_INTERFACE, DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml, PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], *PDXGK_DEBUG_REPORT_INTERFACE, _DXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,42 +83,42 @@ typedef struct _DXGK_DEBUG_REPORT_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Version
+### -field Version
 
 The version number of the Debug Report interface. Version number constants are defined in <i>Dispmprt.h</i> (for example, DXGK_DEBUG_REPORT_INTERFACE_VERSION_1).
 
 
-#### - Context
+### -field Context
 
 A pointer to a context that is provided by the display port driver.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display port driver.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display port driver.
 
 
-#### - DbgReportCreate
+### -field DbgReportCreate
 
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> function.
 
 
-#### - DbgReportSecondaryData
+### -field DbgReportSecondaryData
 
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a> function.
 
 
-#### - DbgReportComplete
+### -field DbgReportComplete
 
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a> function. 
 

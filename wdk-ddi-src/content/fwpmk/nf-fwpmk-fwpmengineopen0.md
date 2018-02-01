@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d805ffe-7cf9-4cbc-9077-e191ddc24ecd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml, netvista.fwpmengineopen0, FwpmEngineOpen0, fwpmk/FwpmEngineOpen0
+ms.keywords: fwpmk/FwpmEngineOpen0, FwpmEngineOpen0, wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml, FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista], netvista.fwpmengineopen0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,20 +73,20 @@ NTSTATUS NTAPI FwpmEngineOpen0(
 
 
 
-#### - serverName [in, optional]
+### -param serverName [in, optional]
 
 A pointer to a NULL-terminated string that specifies the standard DNS name of the system on which
      the session to the filter engine is opened. Callout drivers must specify <b>NULL</b> for this parameter.
 
 
-#### - authnService [in]
+### -param authnService [in]
 
 The authentication service to use. For a list of valid choices for this parameter, see
      Authentication-Service Constants in the RPC section in the Microsoft Windows SDK documentation. Callout
      drivers must specify either RPC_C_AUTHN_WINNT or RPC_C_AUTHN_DEFAULT for this parameter.
 
 
-#### - authIdentity [in, optional]
+### -param authIdentity [in, optional]
 
 A pointer to a <b>SEC_WINNT_AUTH_IDENTITY_W</b> structure that contains the authentication and
      authorization credentials for accessing the filter engine. This parameter is ignored when the 
@@ -94,7 +94,7 @@ A pointer to a <b>SEC_WINNT_AUTH_IDENTITY_W</b> structure that contains the auth
      parameter to <b>NULL</b>.
 
 
-#### - session [in, optional]
+### -param session [in, optional]
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff550083">FWPM_SESSION0</a> structure that defines
@@ -102,7 +102,7 @@ A pointer to an
      <b>NULL</b>.
 
 
-#### - engineHandle [out]
+### -param engineHandle [out]
 
 A pointer to a variable that receives a handle for the open session to the filter engine.
 
@@ -173,17 +173,17 @@ After a callout driver has finished accessing the filter engine, it calls the
 
 <a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
 
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebyid0.md">FwpmCalloutDeleteById0</a>
+<a href="..\fwpmk\nf-fwpmk-fwpmengineclose0.md">FwpmEngineClose0</a>
 
 <a href="..\fwpmk\nf-fwpmk-fwpmcalloutadd0.md">FwpmCalloutAdd0</a>
 
-<mshelp:link keywords="netvista.other_windows_filtering_platform_functions" tabindex="0">Other Windows Filtering
-   Platform Functions</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Other Windows Filtering
+   Platform Functions</a>
 
-<a href="..\fwpmk\nf-fwpmk-fwpmengineclose0.md">FwpmEngineClose0</a>
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+   FwpmBfeStateSubscribeChanges0</a>
 
-<mshelp:link keywords="netvista.fwpmbfestatesubscribechanges0" tabindex="0"><b>
-   FwpmBfeStateSubscribeChanges0</b></mshelp:link>
+<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebyid0.md">FwpmCalloutDeleteById0</a>
 
 <a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebykey0.md">FwpmCalloutDeleteByKey0</a>
 

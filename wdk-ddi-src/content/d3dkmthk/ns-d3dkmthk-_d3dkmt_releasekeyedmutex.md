@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0ba40b4e-2e1d-45fa-9222-e162a39eea33
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_releasekeyedmutex, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX, OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, _D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices]
+ms.keywords: display.d3dkmt_releasekeyedmutex, OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX, _D3DKMT_RELEASEKEYEDMUTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX {
 
 
 
-#### - hKeyedMutex
+### -field hKeyedMutex
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to release. 
 
 
-#### - Key
+### -field Key
 
 [in] A 64-bit value that specifies the key value to release the mutex to. 
 
 
-#### - FenceValue
+### -field FenceValue
 
 [in] A 64-bit value that specifies the current fence value of the GPU synchronization object. 
 

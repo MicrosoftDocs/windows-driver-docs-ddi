@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 750c9293-7662-41e0-9a2a-5c19e49ad20e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerCreate, WdfDmaEnablerCreate method, wdf.wdfdmaenablercreate, wdfdmaenabler/WdfDmaEnablerCreate, kmdf.wdfdmaenablercreate, PFN_WDFDMAENABLERCREATE, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml
+ms.keywords: kmdf.wdfdmaenablercreate, PFN_WDFDMAENABLERCREATE, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, wdf.wdfdmaenablercreate, WdfDmaEnablerCreate method, wdfdmaenabler/WdfDmaEnablerCreate, WdfDmaEnablerCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfDmaEnablerCreate(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Config [in]
+### -param Config [in]
 
 A pointer to a <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure. Drivers must initialize this structure by calling <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>.
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new DMA enabler object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
-#### - DmaEnablerHandle [out]
+### -param DmaEnablerHandle [out]
 
 A handle to a new DMA enabler object.  
 

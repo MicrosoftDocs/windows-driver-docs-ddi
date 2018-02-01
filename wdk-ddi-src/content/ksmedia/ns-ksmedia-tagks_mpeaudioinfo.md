@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df8a1e95-211a-47df-a904-4578cd0a7dc9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], ksmedia/KS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO, tagKS_MPEAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], ksmedia/PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml
+ms.keywords: stream.ks_mpegaudioinfo, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, *PKS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], KS_MPEGAUDIOINFO, ksmedia/KS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], tagKS_MPEAUDIOINFO, PKS_MPEGAUDIOINFO, ksmedia/PKS_MPEGAUDIOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct tagKS_MPEAUDIOINFO {
 
 
 
-#### - dwFlags
+### -field dwFlags
 
 Specifies the time base for audio timestamps. Reject the connection if undefined bits are not 0. The following flag is defined.
 <table>
@@ -91,17 +91,17 @@ Specifies that PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 </table> 
 
 
-#### - dwReserved1
+### -field dwReserved1
 
 Must be 0; otherwise, reject the connection.
 
 
-#### - dwReserved2
+### -field dwReserved2
 
 Must be 0; otherwise, reject the connection.
 
 
-#### - dwReserved3
+### -field dwReserved3
 
 Must be 0; otherwise, reject the connection.
 

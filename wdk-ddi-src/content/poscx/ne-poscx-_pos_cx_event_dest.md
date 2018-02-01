@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 63D16B9E-82CC-4171-B80A-D0FA6F2066E2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/POS_CX_EVENT_DEST, pos.pos_cx_event_dest, POS_CX_EVENT_DEST_INVALID, POS_CX_EVENT_DEST enumeration, poscx/POS_CX_EVENT_DEST_DEVICE_OWNER, POS_CX_EVENT_DEST_DEVICE_OWNER, POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_INVALID, POS_CX_EVENT_DEST_ALL, poscx/POS_CX_EVENT_DEST_ALL, _POS_CX_EVENT_DEST
+ms.keywords: POS_CX_EVENT_DEST enumeration, POS_CX_EVENT_DEST_INVALID, poscx/POS_CX_EVENT_DEST_INVALID, poscx/POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_DEVICE_OWNER, POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_ALL, pos.pos_cx_event_dest, POS_CX_EVENT_DEST_ALL, _POS_CX_EVENT_DEST, POS_CX_EVENT_DEST_DEVICE_OWNER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _POS_CX_EVENT_DEST {
 
 
 
-#### - POS_CX_EVENT_DEST_INVALID
+### -field POS_CX_EVENT_DEST_INVALID
 
 Specifies that no devices will receive this event.  This value should not be used.
 
 
-#### - POS_CX_EVENT_DEST_DEVICE_OWNER
+### -field POS_CX_EVENT_DEST_DEVICE_OWNER
 
 Specifies that only the current claim owner will receive this event.
 
 
-#### - POS_CX_EVENT_DEST_ALL
+### -field POS_CX_EVENT_DEST_ALL
 
 Specifies that the event will be broadcast to all client handles.
 

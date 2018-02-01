@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D5D8D994-0BB6-44FC-A696-F2E0264445C1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketInitialize function [Network Drivers Starting with Windows Vista], netvista.vmbpacketinitialize, VmbPacketInitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize
+ms.keywords: VmbPacketInitialize function [Network Drivers Starting with Windows Vista], netvista.vmbpacketinitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize, VmbPacketInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,19 +74,19 @@ NTSTATUS
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel.
 
 
 
-#### - VmbPacket [out]
+### -param VmbPacket [out]
 
 The buffer to use to store the VMBus packet.
 
 
 
-#### - ByteCount [in]
+### -param ByteCount [in]
 
 The size of <i>Buffer</i>, in bytes.
 

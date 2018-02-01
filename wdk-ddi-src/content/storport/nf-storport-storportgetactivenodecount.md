@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml, StorPortGetActiveNodeCount routine [Storage Devices], StorPortGetActiveNodeCount, storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount
+ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml, storage.storportgetactivenodecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortGetActiveNodeCount(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - NumberNodes [out]
+### -param NumberNodes [out]
 
 A pointer to a variable that holds the number of nodes.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9f092940-b8be-4d28-b82c-d169abefe5d9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], ntifs/BOOT_AREA_INFO, _BOOT_AREA_INFO, *PBOOT_AREA_INFO, ifsk.boot_area_info, BOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers]
+ms.keywords: "*PBOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO, BOOT_AREA_INFO, ntifs/BOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers], _BOOT_AREA_INFO, ifsk.boot_area_info, PBOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct _BOOT_AREA_INFO {
  
 
 
-#### - BootSectors
+### -field BootSectors
 
 A variable length array of structures. Each structure contains an <b>Offset</b> member.
 
@@ -85,7 +85,7 @@ A variable length array of structures. Each structure contains an <b>Offset</b> 
 The location of a boot sector or a copy of a boot sector.
 
 
-#### - BootSectorCount
+### -field BootSectorCount
 
 The number of elements in the <b>BootSectors</b> array.
 

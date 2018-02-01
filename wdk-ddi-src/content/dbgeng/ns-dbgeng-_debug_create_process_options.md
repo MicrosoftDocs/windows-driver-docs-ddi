@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b4b279c2-d44a-442d-9f1d-0ac0d2304eb8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_CREATE_PROCESS_OPTIONS structure [Windows Debugging], DEBUG_CREATE_PROCESS_OPTIONS, debugger.debug_create_process_options, _DEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS, Structures_2dc7014a-a1c3-4d31-b754-834f5d06c482.xml, dbgeng/DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/PDEBUG_CREATE_PROCESS_OPTIONS, *PDEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS structure pointer [Windows Debugging]
+ms.keywords: DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/DEBUG_CREATE_PROCESS_OPTIONS, *PDEBUG_CREATE_PROCESS_OPTIONS, debugger.debug_create_process_options, DEBUG_CREATE_PROCESS_OPTIONS structure [Windows Debugging], _DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/PDEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS, Structures_2dc7014a-a1c3-4d31-b754-834f5d06c482.xml, PDEBUG_CREATE_PROCESS_OPTIONS structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _DEBUG_CREATE_PROCESS_OPTIONS {
 
 
 
-#### - CreateFlags
+### -field CreateFlags
 
 The flags to use when creating the process.   In addition to the flags described in the "Process Creation Flags" topic in the Platform SDK documentation, the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> uses the following flags when creating a process.
 <table>
@@ -103,7 +103,7 @@ The native NT RTL process creation routines should be used instead of Win32.  Th
 When creating and attaching to a process through the debugger engine, set one of the Platform SDK's process creation flags: DEBUG_PROCESS or DEBUG_ONLY_THIS_PROCESS.
 
 
-#### - EngCreateFlags
+### -field EngCreateFlags
 
 The engine specific flags used when creating the process.  <b>EngCreateFlags</b> is a combination of the following bit-flags:
 <table>
@@ -144,12 +144,12 @@ Use the debugger's or process server's implicit command line to start the proces
 </table> 
 
 
-#### - VerifierFlags
+### -field VerifierFlags
 
 The Application Verifier flags.  Only used if DEBUG_ECREATE_PROCESS_USE_VERIFIER_FLAGS is set in the <b>EngCreateFlags</b> field.  For possible values, see the <a href="https://msdn.microsoft.com/d3040254-aa9b-4aae-b850-966078df7988">Application Verifier</a> documentation. 
 
 
-#### - Reserved
+### -field Reserved
 
 Set to zero.
 

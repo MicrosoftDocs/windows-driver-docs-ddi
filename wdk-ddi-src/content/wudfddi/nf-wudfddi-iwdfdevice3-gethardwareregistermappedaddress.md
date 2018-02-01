@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 94852404-301F-4C09-81D2-CEDEECFCD6BD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice3_gethardwareregistermappedaddress, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, GetHardwareRegisterMappedAddress, IWDFDevice3::GetHardwareRegisterMappedAddress, umdf.iwdfdevice3_gethardwareregistermappedaddress, GetHardwareRegisterMappedAddress method, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress, IWDFDevice3, IWDFDevice3 interface, GetHardwareRegisterMappedAddress method
+ms.keywords: wdf.iwdfdevice3_gethardwareregistermappedaddress, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress, umdf.iwdfdevice3_gethardwareregistermappedaddress, IWDFDevice3 interface, GetHardwareRegisterMappedAddress method, IWDFDevice3::GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress, IWDFDevice3, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ PVOID GetHardwareRegisterMappedAddress(
 
 
 
-#### - PseudoBaseAddress [in]
+### -param PseudoBaseAddress [in]
 
 A pointer to the pseudo base address returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a>.
 

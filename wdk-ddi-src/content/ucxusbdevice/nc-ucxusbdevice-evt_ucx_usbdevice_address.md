@@ -74,12 +74,12 @@ typedef EVT_UCX_USBDEVICE_ADDRESS PEVT_UCX_USBDEVICE_ADDRESS;
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A structure of type <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_address.md">USBDEVICE_ADDRESS</a>.
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], bthddi/PSCO_DISCONNECT_REASON, bthddi/ScoRadioPoweredDown, bthddi/ScoHciDisconnect, bthddi/ScoHardwareRemoval, _SCO_DISCONNECT_REASON, ScoDisconnectRequest, bthddi/SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bthddi/ScoDisconnectRequest, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, *PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoHardwareRemoval, PSCO_DISCONNECT_REASON, ScoRadioPoweredDown, ScoHciDisconnect, SCO_DISCONNECT_REASON
+ms.keywords: SCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bthddi/PSCO_DISCONNECT_REASON, bthddi/ScoRadioPoweredDown, ScoHardwareRemoval, bthddi/ScoHardwareRemoval, ScoDisconnectRequest, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], PSCO_DISCONNECT_REASON, _SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON, bthddi/ScoHciDisconnect, ScoHciDisconnect, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoRadioPoweredDown, bthddi/ScoDisconnectRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,24 +71,24 @@ typedef enum _SCO_DISCONNECT_REASON {
 
 
 
-#### - ScoHciDisconnect
+### -field ScoHciDisconnect
 
 This value specifies to the profile driver that the Bluetooth driver stack has received a
      disconnect notification from the host controller interface (HCI) layer.
 
 
-#### - ScoDisconnectRequest
+### -field ScoDisconnectRequest
 
 This value specifies to the profile driver that a disconnect request has been received from the
      remote device.
 
 
-#### - ScoRadioPoweredDown
+### -field ScoRadioPoweredDown
 
 This value specifies to the profile driver that the local radio has been turned off.
 
 
-#### - ScoHardwareRemoval
+### -field ScoHardwareRemoval
 
 This value specifies to the profile driver that the local radio has been physically
      removed.
@@ -99,8 +99,8 @@ This value specifies to the profile driver that the local radio has been physica
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <mshelp:link keywords="bltooth.sco_indication_parameters" tabindex="0"><b>
-    SCO_INDICATION_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
+    SCO_INDICATION_PARAMETERS</a> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
     <b>ScoRadioPoweredDown</b> and 
@@ -114,9 +114,9 @@ Currently,
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
  
 

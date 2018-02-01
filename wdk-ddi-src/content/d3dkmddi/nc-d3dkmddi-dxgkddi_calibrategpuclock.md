@@ -73,24 +73,24 @@ _Check_return NTSTATUS APIENTRY* DxgkDdiCalibrateGpuClock(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 A handle to the adapter object for the GPU for which timing calibration info is to be obtained. 
 
 The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-#### - NodeOrdinal [in]
+### -param NodeOrdinal [in]
 
 An index of a node for which timing calibration info will be obtained. This node is within the physical adapter defined by the <i>hAdapter</i> parameter.
 
 
-#### - EngineOrdinal [in]
+### -param EngineOrdinal [in]
 
 The zero-based index of the engine, within the node that <i>NodeOrdinal</i> specifies, for which timing calibration info will be obtained. For graphics adapters that are not part of a link in a linked display adapter (LDA) configuration, you should always set <i>EngineOrdinal</i> to 0.
 
 
-#### - pClockCalibration [out]
+### -param pClockCalibration [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn467320">DXGKARG_CALIBRATEGPUCLOCK</a> structure that provides clock counter info from the GPU and CPU.
 

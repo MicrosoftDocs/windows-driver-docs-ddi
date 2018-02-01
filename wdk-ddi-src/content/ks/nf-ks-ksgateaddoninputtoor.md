@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aaa6891b-f9f9-40d5-b0eb-e17f511e2611
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateAddOnInputToOr, avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, stream.ksgateaddoninputtoor, ks/KsGateAddOnInputToOr, KsGateAddOnInputToOr function [Streaming Media Devices]
+ms.keywords: stream.ksgateaddoninputtoor, avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, ks/KsGateAddOnInputToOr, KsGateAddOnInputToOr function [Streaming Media Devices], KsGateAddOnInputToOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void __inline KsGateAddOnInputToOr(
 
 
 
-#### - OrGate [in]
+### -param OrGate [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representing the OR gate to which to add a new ON input.
 
@@ -90,13 +90,13 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputon.m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
-
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
 <a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
 <a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
 

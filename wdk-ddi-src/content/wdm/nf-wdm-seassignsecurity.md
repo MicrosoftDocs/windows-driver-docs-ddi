@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08f0b4c0-ba77-450d-8b93-73231bbf760c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeAssignSecurity, kernel.seassignsecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, wdm/SeAssignSecurity
+ms.keywords: k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], wdm/SeAssignSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,37 +75,37 @@ NTSTATUS SeAssignSecurity(
 
 
 
-#### - ParentDescriptor [in, optional]
+### -param ParentDescriptor [in, optional]
 
 Pointer to a buffer containing the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> for the parent directory, if any, containing the new object being created. <i>ParentDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> system access control list (<a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">SACL</a>) or a <b>NULL</b> discretionary access control list (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DACL</a>).
 
 
-#### - ExplicitDescriptor [in, optional]
+### -param ExplicitDescriptor [in, optional]
 
 Pointer to a buffer containing the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> specified by the user that is applied to the new object. <i>ExplicitDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> SACL or a <b>NULL</b> DACL.
 
 
-#### - NewDescriptor [out]
+### -param NewDescriptor [out]
 
 Receives a pointer to the returned <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>. <b>SeAssignSecurity</b> allocates the buffer from the paged memory pool.
 
 
-#### - IsDirectoryObject [in]
+### -param IsDirectoryObject [in]
 
 Specifies whether the new object is a directory object. <b>TRUE</b> indicates the object contains other objects.
 
 
-#### - SubjectContext [in]
+### -param SubjectContext [in]
 
 Pointer to a buffer containing the security context of the subject creating the object. This is used to retrieve default security information for the new object, such as the default owner, the primary group, and discretionary access control.
 
 
-#### - GenericMapping [in]
+### -param GenericMapping [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a> structure that describes the mapping from each generic right to the implied nongeneric rights.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 This parameter is unused.  The buffer to hold the new security descriptor is always allocated from paged pool.
 
@@ -227,13 +227,13 @@ If the passed security descriptor includes a group, it is assigned as the new ob
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
-
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
 
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
  
 

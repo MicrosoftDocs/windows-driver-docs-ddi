@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ntifs/PSRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, PSRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT, _SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers]
+ms.keywords: ntifs/PSRV_OPEN_ECP_CONTEXT, _SRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PSRV_OPEN_ECP_CONTEXT, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], *PSRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _SRV_OPEN_ECP_CONTEXT {
 
 
 
-#### - ShareName
+### -field ShareName
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
 
 
-#### - SocketAddress
+### -field SocketAddress
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a> structure that specifies the transport address of a client computer. This client originates the open file request. 
 
 
-#### - OplockBlockState
+### -field OplockBlockState
 
 A Boolean value that indicates whether the Server Message Block (SMB) server blocks the open thread that is waiting for the oplock break. <b>TRUE</b> indicates that the open thread is in the blocking state and <b>FALSE</b> otherwise. 
 
 
-#### - OplockAppState
+### -field OplockAppState
 
 A Boolean value that indicates whether the SMB server requests an oplock with the current open thread. Set to <b>TRUE</b> to request the oplock and <b>FALSE</b> otherwise. 
 
 
-#### - OplockFinalState
+### -field OplockFinalState
 
 A Boolean value that indicates whether a file-open operation is the final file-open operation to request the oplock. <b>TRUE</b> indicates the final file-open operation to obtain the oplock and <b>FALSE</b> indicates otherwise. 
 
@@ -120,9 +120,9 @@ The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

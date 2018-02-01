@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1b470ae8-49d3-467d-aa08-08bd9c9e9466
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetLineByOffset method [Windows Debugging], dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, IDebugSymbols3, dbgeng/IDebugSymbols::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols interface, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, GetLineByOffset, IDebugSymbols::GetLineByOffset, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols3::GetLineByOffset, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2::GetLineByOffset, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, debugger.getlinebyoffset
+ms.keywords: debugger.getlinebyoffset, IDebugSymbols3::GetLineByOffset, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, IDebugSymbols3, GetLineByOffset method [Windows Debugging], GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, dbgeng/IDebugSymbols::GetLineByOffset, IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols2::GetLineByOffset, IDebugSymbols::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols interface, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetLineByOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,32 +74,32 @@ HRESULT GetLineByOffset(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location in the target's virtual address space of the instruction for which to return the source file and line number.
 
 
-#### - Line [out, optional]
+### -param Line [out, optional]
 
 Receives the line number within the source file of the instruction specified by <i>Offset</i>.  If <i>Line</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - FileBuffer [out, optional]
+### -param FileBuffer [out, optional]
 
 Receives the file name of the file that contains the instruction specified by <i>Offset</i>.  If <i>FileBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - FileBufferSize [in]
+### -param FileBufferSize [in]
 
 Specifies the size, in characters, of the <i>FileBuffer</i> buffer.
 
 
-#### - FileSize [out, optional]
+### -param FileSize [out, optional]
 
 Specifies the size, in characters, of the source filename.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Displacement [out, optional]
+### -param Displacement [out, optional]
 
 Receives the difference between the location specified in <i>Offset</i> and the location of the first instruction of the returned line.  If <i>Displacement</i> is <b>NULL</b>, this information is not returned.
 
@@ -148,11 +148,11 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548022">GetOffsetByLine</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548022">GetOffsetByLine</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

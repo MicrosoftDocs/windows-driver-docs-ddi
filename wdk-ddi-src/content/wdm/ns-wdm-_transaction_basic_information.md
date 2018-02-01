@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79dd9ff3-2a5f-457a-8a8a-4963a799055c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PTRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION, _TRANSACTION_BASIC_INFORMATION, wdm/TRANSACTION_BASIC_INFORMATION, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, TRANSACTION_BASIC_INFORMATION, wdm/PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.transaction_basic_information, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/TRANSACTION_BASIC_INFORMATION, wdm/PTRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, kernel.transaction_basic_information, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], *PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _TRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _TRANSACTION_BASIC_INFORMATION {
 
 
 
-#### - TransactionId
+### -field TransactionId
 
 A GUID that KTM has assigned to the transaction object. This value is also known as the transaction's <a href="https://msdn.microsoft.com/927a417b-35f5-49b8-85f3-7e6b1f5c0225">unit of work (UOW) identifier</a>.
 
 
-#### - State
+### -field State
 
 A <a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>-typed value that specifies the transaction's current state.
 
 
-#### - Outcome
+### -field Outcome
 
 A <a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>-typed value that specifies the transaction's outcome (result).
 
@@ -94,15 +94,15 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
 <a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
 
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
 <a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
 
  
 

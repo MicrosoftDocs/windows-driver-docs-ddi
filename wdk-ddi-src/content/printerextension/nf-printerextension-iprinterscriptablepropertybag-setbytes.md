@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 517CF135-A5D7-4C99-8592-59934E24DEE3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptablePropertyBag, printerextension/IPrinterScriptablePropertyBag::SetBytes, SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices], SetBytes method, print.iprinterscriptablepropertybag_setbytes, SetBytes, IPrinterScriptablePropertyBag::SetBytes, SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface
+ms.keywords: printerextension/IPrinterScriptablePropertyBag::SetBytes, SetBytes method [Print Devices], print.iprinterscriptablepropertybag_setbytes, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::SetBytes, SetBytes, IPrinterScriptablePropertyBag interface [Print Devices], SetBytes method, SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT SetBytes(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The array to write to.
 

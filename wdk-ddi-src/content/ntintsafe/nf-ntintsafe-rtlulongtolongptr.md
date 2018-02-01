@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 707C2392-D78F-42E1-A9F8-9F502BF5227E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongToLongPtr function [Kernel-Mode Driver Architecture], RtlULongToLongPtr, kernel.rtlulongtolongptr, ntintsafe/RtlULongToLongPtr
+ms.keywords: RtlULongToLongPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongToLongPtr, kernel.rtlulongtolongptr, RtlULongToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlULongToLongPtr(
 
 
 
-#### - ulOperand [in]
+### -param ulOperand [in]
 
 The value to be converted.
 
 
-#### - plResult [out]
+### -param plResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

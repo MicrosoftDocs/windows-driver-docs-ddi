@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D1454F07-3CBA-498B-B054-6A0D5020A164
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_FIXDATA_SATELLITE, gnssdriver/PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE structure [Sensor Devices], PGNSS_FIXDATA_SATELLITE structure pointer [Sensor Devices], GNSS_FIXDATA_SATELLITE, *PGNSS_FIXDATA_SATELLITE, gnssdriver/GNSS_FIXDATA_SATELLITE, sensors.gnss_fixdata_satellite
+ms.keywords: PGNSS_FIXDATA_SATELLITE structure pointer [Sensor Devices], gnssdriver/PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE structure [Sensor Devices], gnssdriver/GNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE, sensors.gnss_fixdata_satellite, *PGNSS_FIXDATA_SATELLITE, PGNSS_FIXDATA_SATELLITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - SatelliteCount
+### -field SatelliteCount
 
 Number of satellites in this structure. Not all satellites are actually used for positioning.
 

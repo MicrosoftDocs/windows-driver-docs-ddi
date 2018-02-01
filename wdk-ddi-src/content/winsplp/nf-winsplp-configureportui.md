@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fef58485-db4e-4bad-a21b-376e8d83f243
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.configureportui, ConfigurePortUI, pfnConfigurePortUI function [Print Devices], spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, pfnConfigurePortUI, winsplp/pfnConfigurePortUI
+ms.keywords: pfnConfigurePortUI, pfnConfigurePortUI function [Print Devices], spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, print.configureportui, winsplp/pfnConfigurePortUI, ConfigurePortUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOL WINAPI pfnConfigurePortUI(
 
 
 
-#### - pszServer [in, optional]
+### -param pszServer [in, optional]
 
 Caller-supplied pointer to a string representing a server name, or <b>NULL</b> if the printer is local. (The port monitor can ignore this parameter.)
 
 
-#### - hWnd [in]
+### -param hWnd [in]
 
 Caller-supplied handle of the window that should be used as the parent for dialog boxes. If <b>NULL</b>, no dialog boxes should be displayed.
 
 
-#### - pszPortName [in]
+### -param pszPortName [in]
 
 Caller-supplied pointer to a string representing the name of the port to be configured.
 
@@ -131,9 +131,9 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
-
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
+
+<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
 
 <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: umdprovider/UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], UMDEtwLogMapAllocation, display.umdetwlogmapallocation
+ms.keywords: display.umdetwlogmapallocation, UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], umdprovider/UMDEtwLogMapAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ void UMDEtwLogMapAllocation(
 
 
 
-#### - hD3DAllocation
+### -param hD3DAllocation
 
 A handle to the Direct3D allocation.
 
@@ -82,27 +82,27 @@ A handle to the Direct3D allocation.
 The driver can set this value to <b>NULL</b> if it uses allocations internally.
 
 
-#### - hDxgAllocation
+### -param hDxgAllocation
 
 A handle to the DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation that the Direct3D allocation is mapped to.
 
 
-#### - Offset
+### -param Offset
 
 The starting address, in bytes, of the Direct3D allocation within the Dxgkrnl allocation.
 
 
-#### - Size
+### -param Size
 
 The size, in bytes, of the Direct3D allocation within the Dxgkrnl allocation.
 
 
-#### - Usage
+### -param Usage
 
 A <a href="..\umdprovider\ns-umdprovider-_umdetw_allocation_usage.md">UMDETW_ALLOCATION_USAGE</a> structure that indicates the reason for this mapping.
 
 
-#### - Semantic
+### -param Semantic
 
 If the allocation is used internally by the user-mode driver, this is a <a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a> structure that indicates what the allocation is used for.
 
@@ -182,13 +182,13 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
 
 ## -see-also
 
-<a href="..\umdprovider\ns-umdprovider-_umdetw_allocation_usage.md">UMDETW_ALLOCATION_USAGE</a>
+<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
-<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+<a href="..\umdprovider\ns-umdprovider-_umdetw_allocation_usage.md">UMDETW_ALLOCATION_USAGE</a>
 
  
 

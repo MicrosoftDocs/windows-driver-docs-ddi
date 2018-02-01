@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d1354ab7-4d7d-4cc2-8e30-763d8b881a11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters::OutputRegisters, OutputRegisters method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2, IDebugRegisters::OutputRegisters, OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2::OutputRegisters, dbgeng/IDebugRegisters2::OutputRegisters, IDebugRegisters2 interface [Windows Debugging], OutputRegisters method, IDebugRegisters interface [Windows Debugging], OutputRegisters method, debugger.outputregisters
+ms.keywords: OutputRegisters method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters method [Windows Debugging], IDebugRegisters interface, IDebugRegisters::OutputRegisters, IDebugRegisters2 interface [Windows Debugging], OutputRegisters method, dbgeng/IDebugRegisters2::OutputRegisters, debugger.outputregisters, IDebugRegisters2, IDebugRegisters interface [Windows Debugging], OutputRegisters method, OutputRegisters method [Windows Debugging], dbgeng/IDebugRegisters::OutputRegisters, OutputRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT OutputRegisters(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies which clients should be sent the output of the formatted registers.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a> for possible values.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies which set of registers to print.  This can either be DEBUG_REGISTERS_DEFAULT to print commonly used registers, DEBUG_REGISTERS_ALL to print all the sets of registers, or a combination of the values listed in the following table.
 <table>
@@ -154,9 +154,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553245">OutputRegisters2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553245">OutputRegisters2</a>
 
  
 

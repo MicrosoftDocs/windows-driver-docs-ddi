@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce3610ab-a927-45e7-8ceb-3f38b5f50f00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_multiplane_allocation_info, d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO, D3DDDI_MULTIPLANE_ALLOCATION_INFO, D3DDDI_MULTIPLANE_ALLOCATION_INFO structure [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
+ms.keywords: d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO, D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, D3DDDI_MULTIPLANE_ALLOCATION_INFO structure [Display Devices], display.d3dddi_multiplane_allocation_info, D3DDDI_MULTIPLANE_ALLOCATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO {
 
 
 
-#### - PresentAllocation
+### -field PresentAllocation
 
 [in] A handle to the multiplane overlay allocation.
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] The zero-based index into the resource which the handle in the <b>PresentAllocation</b> member specifies. This index indicates the display surface.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 272B83D4-AACE-419D-9DD7-A1AE1C8A931A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetDeviceChannelMute, portcls/IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelMute method, audio.iminiportaudioenginenode_setdevicechannelmute
+ms.keywords: audio.iminiportaudioenginenode_setdevicechannelmute, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelMute method, SetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceChannelMute method [Audio Devices], portcls/IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute, IMiniportAudioEngineNode, IMiniportAudioEngineNode::SetDeviceChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS SetDeviceChannelMute(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-#### - ulChannel [in]
+### -param ulChannel [in]
 
 The audio device channel.
 
 
-#### - bMute [in]
+### -param bMute [in]
 
 The state to which the Mute node for the audio device channel will be set.
 

@@ -76,7 +76,7 @@ SIZE_T APIENTRY* CalcPrivateShaderSize(D3D11_1)(
 
 
 
-#### - *pShaderCode [in]
+### -param *pShaderCode [in]
 
 A pointer to an array of CONST UINT tokens that make up the shader code.
 
@@ -91,11 +91,6 @@ A pointer to an array of CONST UINT tokens that make up the shader code.
 #### - hDevice
 
 A handle to the display device (graphics context).
-
-
-#### - pShaderCode [in]
-
-A pointer to an array of CONST UINT tokens that make up the shader code.
 
 
 #### - pSignatures [in]

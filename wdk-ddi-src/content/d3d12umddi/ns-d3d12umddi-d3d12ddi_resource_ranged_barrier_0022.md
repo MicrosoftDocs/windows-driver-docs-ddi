@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 759BA42A-2F38-42D3-A245-8DEA2919DC39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_RESOURCE_RANGED_BARRIER_0022, display.d3d12ddi_resource_ranged_barrier_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure [Display Devices]
+ms.keywords: display.d3d12ddi_resource_ranged_barrier_0022, d3d12umddi/D3D12DDI_RESOURCE_RANGED_BARRIER_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure [Display Devices], D3D12DDI_RESOURCE_RANGED_BARRIER_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D12DDI_RESOURCE_RANGED_BARRIER_0022 {
 
 
 
-#### - hResource
+### -field hResource
 
 The handle of a resource. A null value means that the entire GPU cache must be flushed or invalidated. A non-null value means that the flush or invalidate action affects a smaller subset of the cache that can contain data for that resource. 
 
 
-#### - Subresource
+### -field Subresource
 
 A subresource. If the <i>Subresource</i> value  is -1 or _ALL_SUBRESOURCES, then a flush or invalidate action need only affect the part of the cache where the entire <i>hResource</i> may reside. If <i>Subresource</i> is not  _ALL_SUBRESOURCES,  a valid subresource index is specified and the <i>Range</i> may further constrain the impact of the operation. 
 
 
-#### - Range
+### -field Range
 
 A range as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_range.md">D3D12DDI_RANGE</a> structure. If the resource is a texture with an adapter-dependent layout, the range must be (0, UINT64_MAX), because only the driver knows where a particular subresource resides. When the resource is a buffer or texture with well-specified layout, the range fits within the subresource extent. Empty ranges are never passed.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 265912e2-2076-4435-811f-70a3dd1a0bd7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setpalette, D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE structure [Display Devices], _D3DDDIARG_SETPALETTE, UMDisplayDriver_param_Structs_6fb950bf-0a0f-4d87-950d-7030251ed074.xml, d3dumddi/D3DDDIARG_SETPALETTE
+ms.keywords: d3dumddi/D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE, UMDisplayDriver_param_Structs_6fb950bf-0a0f-4d87-950d-7030251ed074.xml, display.d3dddiarg_setpalette, _D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _D3DDDIARG_SETPALETTE {
 
 
 
-#### - PaletteHandle
+### -field PaletteHandle
 
 [in] A handle to the palette to be set up. If the value of <b>PaletteHandle</b> is zero, the surface that is specified by <b>hResource</b> should be uncoupled from any palette that it might have been associated with previously.
 
 
-#### - PaletteFlags
+### -field PaletteFlags
 
 [in] A valid bitwise OR of the following flags that specify the attributes of the palette.
 <table>
@@ -115,7 +115,7 @@ The palette's alpha data channel is valid and should be used.
 </table> 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the surface (texture) with which the palette that is identified by <b>PaletteHandle</b> is associated.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AD4E4EF6-F033-4226-9DC6-A6E55E965B4C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], BLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor, PBLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR
+ms.keywords: scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], *PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _BLOCK_DEVICE_TOKEN_DESCRIPTOR {
 
 
 
-#### - TokenIdentifier
+### -field TokenIdentifier
 
 An identifier value assigned by the copy provider to provide uniqueness to <b>Token</b> while the value of <b>Token</b> is valid. This member is reserved for system use and must not be modified.
 
 
-#### - Token
+### -field Token
 
 A data value defining a token as a point-in-time representation of data (ROD) for an offload read data operation. <b>Token</b> is an opaque value and must be used unmodified in offload write data operations.
 

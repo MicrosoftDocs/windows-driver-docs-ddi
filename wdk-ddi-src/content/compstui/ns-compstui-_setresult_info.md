@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54701f88-1145-4a50-bf5a-36be1d88355d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/PSETRESULT_INFO, SETRESULT_INFO structure [Print Devices], cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, _SETRESULT_INFO, print.setresult_info, SETRESULT_INFO, compstui/SETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], PSETRESULT_INFO, *PSETRESULT_INFO
+ms.keywords: SETRESULT_INFO structure [Print Devices], PSETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, SETRESULT_INFO, *PSETRESULT_INFO, _SETRESULT_INFO, compstui/PSETRESULT_INFO, compstui/SETRESULT_INFO, print.setresult_info, PSETRESULT_INFO structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SETRESULT_INFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 CPSUI-supplied size, in bytes, of the SETRESULT_INFO structure.
 
 
-#### - wReserved
+### -field wReserved
 
 Reserved.
 
 
-#### - hSetResult
+### -field hSetResult
 
 CPSUI-supplied handle to an added property sheet page, obtained from the application. For more information, see the following Remarks section.
 
 
-#### - Result
+### -field Result
 
 CPSUI-supplied handle to an added property sheet page, obtained from the application. For more information, see the following Remarks section.
 

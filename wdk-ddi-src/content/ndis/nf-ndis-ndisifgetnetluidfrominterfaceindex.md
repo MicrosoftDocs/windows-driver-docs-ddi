@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cfb7f31-93ae-47a2-8da8-becfbe045f5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], netvista.ndisifgetnetluidfrominterfaceindex, ndis/NdisIfGetNetLuidFromInterfaceIndex
+ms.keywords: netvista.ndisifgetnetluidfrominterfaceindex, NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetNetLuidFromInterfaceIndex, net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ NDIS_STATUS NdisIfGetNetLuidFromInterfaceIndex(
 TBD
 
 
-#### - pNetLuid [out]
+### -param pNetLuid [out]
 
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfGetNetLuidFromInterfaceIndex</b> succeeds, NDIS writes the NET_LUID value that is associated
@@ -88,8 +88,8 @@ A pointer to a caller-supplied NET_LUID variable. If
 
 A network interface index that NDIS assigned to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value in the 
-     <mshelp:link keywords="netvista.ndisifregisterinterface" tabindex="0"><b>
-     NdisIfRegisterInterface</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     NdisIfRegisterInterface</a> function.
 
 
 ## -returns
@@ -141,14 +141,14 @@ For the interfaces that the NDIS proxy provider service manages, NDIS provides t
 <ul>
 <li>
 Miniport drivers can obtain the interface index and NET_LUID for a miniport adapter in the 
-      <mshelp:link keywords="netvista.ndis_miniport_init_parameters" tabindex="0"><b>
-      NDIS_MINIPORT_INIT_PARAMETERS</b></mshelp:link> structure.
+      <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">
+      NDIS_MINIPORT_INIT_PARAMETERS</a> structure.
 
 </li>
 <li>
 Filter drivers can obtain the interface index and NET_LUID for a filter module in the 
-      <mshelp:link keywords="netvista.ndis_filter_attach_parameters" tabindex="0"><b>
-      NDIS_FILTER_ATTACH_PARAMETERS</b></mshelp:link> structure.
+      <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+      NDIS_FILTER_ATTACH_PARAMETERS</a> structure.
 
 </li>
 <li>
@@ -168,28 +168,28 @@ The interface index value can change without a computer restart. Deregistering a
     not confuse the interface index with the NET_LUID index that persists after a computer restarts.
 
 NDIS provides the 
-    <mshelp:link keywords="netvista.ndisifgetinterfaceindexfromnetluid" tabindex="0"><b>
-    NdisIfGetInterfaceIndexFromNetLuid</b></mshelp:link> function to obtain the interface index for a specified
+    <a href="..\ndis\nf-ndis-ndisifgetinterfaceindexfromnetluid.md">
+    NdisIfGetInterfaceIndexFromNetLuid</a> function to obtain the interface index for a specified
     NET_LUID.
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndisifgetinterfaceindexfromnetluid" tabindex="0"><b>
-   NdisIfGetInterfaceIndexFromNetLuid</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndisifgetinterfaceindexfromnetluid.md">
+   NdisIfGetInterfaceIndexFromNetLuid</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
 
  
 

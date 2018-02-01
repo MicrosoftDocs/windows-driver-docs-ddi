@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5c868a5-0e79-482b-9694-02cae2de99ca
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, KsFilterFactoryUpdateCacheData, ks/KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], stream.ksfilterfactoryupdatecachedata
+ms.keywords: KsFilterFactoryUpdateCacheData function [Streaming Media Devices], KsFilterFactoryUpdateCacheData, ks/KsFilterFactoryUpdateCacheData, avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, stream.ksfilterfactoryupdatecachedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsFilterFactoryUpdateCacheData(
 
 
 
-#### - FilterFactory [in]
+### -param FilterFactory [in]
 
 The <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to update FilterData and Medium cache in the registry.
 
 
-#### - FilterDescriptor [in, optional]
+### -param FilterDescriptor [in, optional]
 
 An optional <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> for which the FilterData key and Medium cache will be updated. If <b>NULL</b>, <i>FilterFactory</i>'s descriptor is used instead. Provide if the filter factory uses dynamic pins and needs to update information for pins that have not yet been instantiated.
 
@@ -105,11 +105,11 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
+
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
 
  
 

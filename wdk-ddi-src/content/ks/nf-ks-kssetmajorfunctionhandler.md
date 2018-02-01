@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, ks/KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], stream.kssetmajorfunctionhandler
+ms.keywords: stream.kssetmajorfunctionhandler, KsSetMajorFunctionHandler function [Streaming Media Devices], KsSetMajorFunctionHandler, ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsSetMajorFunctionHandler(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 Specifies the driver object whose major function is to be handled.
 
 
-#### - MajorFunction [in]
+### -param MajorFunction [in]
 
 Specifies the major function identifier to be handled. This sets the major function pointer in the driver object to an internal function that then dispatches to the <b>KSDISPATCH_TABLE</b> function. The pointer to this table is assumed to be the first element in a structure pointed to by <b>FsContext</b> in the file object of the specific IRP being dispatched. The valid major function identifiers are as listed.
 <table>

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D170D828-A0BC-4CBC-9F3F-E384AAD11FCC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_OPERATION_FLUSH_TLB, d3dkmddi/DXGK_OPERATION_NOTIFY_RESIDENCY, DXGK_OPERATION_DISCARD_CONTENT, DXGK_OPERATION_READ_PHYSICAL, DXGK_OPERATION_VIRTUAL_FILL, d3dkmddi/DXGK_OPERATION_TRANSFER, DXGK_OPERATION_UPDATE_PAGE_TABLE, d3dkmddi/DXGK_OPERATION_UPDATE_PAGE_TABLE, DXGK_OPERATION_NOTIFY_RESIDENCY, DXGK_BUILDPAGINGBUFFER_OPERATION, d3dkmddi/DXGK_OPERATION_DISCARD_CONTENT, DXGK_BUILDPAGINGBUFFER_OPERATION enumeration [Display Devices], display.dxgk_buildpagingbuffer_operation, DXGK_OPERATION_WRITE_PHYSICAL, DXGK_OPERATION_FILL, d3dkmddi/DXGK_OPERATION_SPECIAL_LOCK_TRANSFER, DXGK_OPERATION_VIRTUAL_TRANSFER, DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES, d3dkmddi/DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES, DXGK_OPERATION_UNMAP_APERTURE_SEGMENT, d3dkmddi/DXGK_OPERATION_FILL, d3dkmddi/DXGK_OPERATION_UNMAP_APERTURE_SEGMENT, DXGK_OPERATION_FLUSH_TLB, DXGK_OPERATION_MAP_APERTURE_SEGMENT, DXGK_OPERATION_SPECIAL_LOCK_TRANSFER, d3dkmddi/DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION, d3dkmddi/DXGK_OPERATION_WRITE_PHYSICAL, d3dkmddi/DXGK_OPERATION_MAP_APERTURE_SEGMENT, d3dkmddi/DXGK_BUILDPAGINGBUFFER_OPERATION, DXGK_OPERATION_INIT_CONTEXT_RESOURCE, d3dkmddi/DXGK_OPERATION_VIRTUAL_TRANSFER, DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION, d3dkmddi/DXGK_OPERATION_VIRTUAL_FILL, _DXGK_BUILDPAGINGBUFFER_OPERATION, DXGK_OPERATION_TRANSFER, d3dkmddi/DXGK_OPERATION_READ_PHYSICAL, d3dkmddi/, d3dkmddi/DXGK_OPERATION_INIT_CONTEXT_RESOURCE
+ms.keywords: display.dxgk_buildpagingbuffer_operation, DXGK_BUILDPAGINGBUFFER_OPERATION enumeration [Display Devices], DXGK_OPERATION_VIRTUAL_FILL, d3dkmddi/DXGK_OPERATION_FILL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_OPERATION, d3dkmddi/DXGK_OPERATION_READ_PHYSICAL, d3dkmddi/DXGK_OPERATION_VIRTUAL_FILL, d3dkmddi/DXGK_OPERATION_DISCARD_CONTENT, d3dkmddi/DXGK_OPERATION_SPECIAL_LOCK_TRANSFER, d3dkmddi/DXGK_OPERATION_INIT_CONTEXT_RESOURCE, DXGK_OPERATION_WRITE_PHYSICAL, DXGK_OPERATION_SPECIAL_LOCK_TRANSFER, d3dkmddi/DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES, d3dkmddi/DXGK_OPERATION_MAP_APERTURE_SEGMENT, d3dkmddi/DXGK_OPERATION_UPDATE_PAGE_TABLE, DXGK_OPERATION_MAP_APERTURE_SEGMENT, DXGK_OPERATION_UNMAP_APERTURE_SEGMENT, DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES, DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION, d3dkmddi/DXGK_OPERATION_UNMAP_APERTURE_SEGMENT, d3dkmddi/, DXGK_BUILDPAGINGBUFFER_OPERATION, DXGK_OPERATION_TRANSFER, d3dkmddi/DXGK_OPERATION_FLUSH_TLB, DXGK_OPERATION_DISCARD_CONTENT, DXGK_OPERATION_VIRTUAL_TRANSFER, d3dkmddi/DXGK_OPERATION_WRITE_PHYSICAL, _DXGK_BUILDPAGINGBUFFER_OPERATION, DXGK_OPERATION_UPDATE_PAGE_TABLE, d3dkmddi/DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION, DXGK_OPERATION_NOTIFY_RESIDENCY, DXGK_OPERATION_FLUSH_TLB, DXGK_OPERATION_FILL, d3dkmddi/DXGK_OPERATION_TRANSFER, DXGK_OPERATION_INIT_CONTEXT_RESOURCE, d3dkmddi/DXGK_OPERATION_VIRTUAL_TRANSFER, DXGK_OPERATION_READ_PHYSICAL, d3dkmddi/DXGK_OPERATION_NOTIFY_RESIDENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,83 +89,83 @@ typedef enum _DXGK_BUILDPAGINGBUFFER_OPERATION {
 
 
 
-#### - DXGK_OPERATION_TRANSFER
+### -field DXGK_OPERATION_TRANSFER
 
 Perform a transfer operation that moves the content of an allocation from one location to another.
 
 
-#### - DXGK_OPERATION_FILL
+### -field DXGK_OPERATION_FILL
 
 Fill an allocation with a specified pattern.
 
 
-#### - DXGK_OPERATION_DISCARD_CONTENT
+### -field DXGK_OPERATION_DISCARD_CONTENT
 
 Notifies the driver that an allocation is discarded from the allocation's current location in a memory segment (that is, the allocation is evicted and not copied back to system memory).
 
 
-#### - DXGK_OPERATION_READ_PHYSICAL
+### -field DXGK_OPERATION_READ_PHYSICAL
 
 Perform a read-physical operation that reads from a specified physical memory address.
 
 
-#### - DXGK_OPERATION_WRITE_PHYSICAL
+### -field DXGK_OPERATION_WRITE_PHYSICAL
 
 Perform a write-physical operation that writes to a specified physical memory address.
 
 
-#### - DXGK_OPERATION_MAP_APERTURE_SEGMENT
+### -field DXGK_OPERATION_MAP_APERTURE_SEGMENT
 
 Perform a map-aperture-segment operation that maps a memory descriptor list (MDL) into a range of an aperture segment.
 
 
-#### - DXGK_OPERATION_UNMAP_APERTURE_SEGMENT
+### -field DXGK_OPERATION_UNMAP_APERTURE_SEGMENT
 
 Perform an unmap-aperture-segment operation that unmaps a previously mapped range of an aperture segment.
 
 
-#### - DXGK_OPERATION_SPECIAL_LOCK_TRANSFER
+### -field DXGK_OPERATION_SPECIAL_LOCK_TRANSFER
 
 Perform a special transfer operation that moves the content of an allocation from one location to another. In this operation, the content of the allocation is transferred from or to the alternate virtual address that was set up for the allocation (that is, when the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function was called with the <b>UseAlternateVA</b> bit-field flag set).
 
 
-#### - DXGK_OPERATION_VIRTUAL_TRANSFER
+### -field DXGK_OPERATION_VIRTUAL_TRANSFER
 
 The operation is used to transfer allocation content between locations in memory. 
 
 
-#### - DXGK_OPERATION_VIRTUAL_FILL
+### -field DXGK_OPERATION_VIRTUAL_FILL
 
 The operation is used to fill an allocation with a pattern.
 
 
-#### - DXGK_OPERATION_INIT_CONTEXT_RESOURCE
+### -field DXGK_OPERATION_INIT_CONTEXT_RESOURCE
 
 Perform an context initialization operation for a GPU context or device-specific context. This value is supported beginning with Windows 8.
 
 <div class="alert"><b>Note</b>  The display miniport driver allocates context resources by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.</div><div> </div>
 
-#### - DXGK_OPERATION_UPDATE_PAGE_TABLE
+### -field DXGK_OPERATION_UPDATE_PAGE_TABLE
 
 The operation is called to allow the kernel mode driver to build a command buffer to update a page table. 
 
 
-#### - DXGK_OPERATION_FLUSH_TLB
+### -field DXGK_OPERATION_FLUSH_TLB
 
 This operation instructs GPU to flush <i>translation look-aside buffer</i> entries, which belong to the given root page table. 
 
 
-#### - DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION
+### -field DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION
 
 This operation is used to update the content of a context or device allocation. 
 
 
-#### - DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES
+### -field DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES
 
 This operation is called to copy page table entries from one location to another.
 
 
-#### - DXGK_OPERATION_NOTIFY_RESIDENCY
+### -field DXGK_OPERATION_NOTIFY_RESIDENCY
 
 The paging operation is issued every time an allocation residency is changed (when allocation is evicted or committed).
 

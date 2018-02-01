@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml
+ms.keywords: ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], NdisRegisterProtocolDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NDIS_STATUS NdisRegisterProtocolDriver(
 
 
 
-#### - ProtocolDriverContext [in, optional]
+### -param ProtocolDriverContext [in, optional]
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
 
-#### - ProtocolCharacteristics [in]
+### -param ProtocolCharacteristics [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link> structure that the protocol driver created and initialized
+     <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure that the protocol driver created and initialized
      with its 
      <i>ProtocolXxx</i> function entry points.
 
 
-#### - NdisProtocolHandle [out]
+### -param NdisProtocolHandle [out]
 
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies the driver that is registering. The driver must save this handle for use in
@@ -178,16 +178,16 @@ A protocol driver calls the
     <b>NdisRegisterProtocolDriver</b> function from its 
     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS
-    Protocol Drivers</b></mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS
+    Protocol Drivers</a>.
 
 Drivers that call <b>
     NdisRegisterProtocolDriver</b> must be prepared for an immediate call to any of their <i>ProtocolXxx</i> functions.
 
 Every protocol driver exports a set of 
     <i>ProtocolXxx</i> functions by setting up the 
-    <mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link> structure and calling 
+    <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure and calling 
     <b>NdisRegisterProtocolDriver</b>. NDIS copies this structure to the NDIS library's internal storage.
 
 To allow protocol drivers to register optional services, NDIS calls the 
@@ -196,23 +196,23 @@ To allow protocol drivers to register optional services, NDIS calls the
     <b>NdisRegisterProtocolDriver</b>.
 
 Protocol drivers call the 
-    <mshelp:link keywords="netvista.ndisderegisterprotocoldriver" tabindex="0"><b>
-    NdisDeregisterProtocolDriver</b></mshelp:link> function to release resources that were previously allocated with 
+    <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">
+    NdisDeregisterProtocolDriver</a> function to release resources that were previously allocated with 
     <b>NdisRegisterProtocolDriver</b>.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
 <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
 
  
 

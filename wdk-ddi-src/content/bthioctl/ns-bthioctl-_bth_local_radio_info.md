@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 288863ca-1a11-456f-8d6b-b429668c2bf2
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], bthioctl/PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], bltooth.bth_local_radio_info, _BTH_LOCAL_RADIO_INFO, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, bthioctl/BTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO
+ms.keywords: bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, *PBTH_LOCAL_RADIO_INFO, bthioctl/PBTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], PBTH_LOCAL_RADIO_INFO, _BTH_LOCAL_RADIO_INFO, bthioctl/BTH_LOCAL_RADIO_INFO, bltooth.bth_local_radio_info, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,14 +72,14 @@ typedef struct _BTH_LOCAL_RADIO_INFO {
 
 
 
-#### - localInfo
+### -field localInfo
 
 A 
      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that contains
      information about the local radio.
 
 
-#### - flags
+### -field flags
 
 A flag that indicates the state of the local radio. Both flags can be set at the same time.
      Possible values include:
@@ -94,17 +94,17 @@ LOCAL_RADIO_DISCOVERABLE
 LOCAL_RADIO_CONNECTABLE
 
 
-#### - hciRevision
+### -field hciRevision
 
 The minor version of the host controller interface (HCI).
 
 
-#### - hciVersion
+### -field hciVersion
 
 The major version of the HCI.
 
 
-#### - radioInfo
+### -field radioInfo
 
 A 
      <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a> structure that contains
@@ -124,9 +124,9 @@ The
 
 <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
 
  
 

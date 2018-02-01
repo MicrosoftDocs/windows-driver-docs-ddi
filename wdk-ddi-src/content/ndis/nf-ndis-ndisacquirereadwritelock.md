@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 563b4bff-36ee-4597-ae6e-7d3811592549
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, NdisAcquireReadWriteLock, netvista.ndisacquirereadwritelock, ndis/NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisAcquireReadWriteLock, ndis/NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, netvista.ndisacquirereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,13 +71,13 @@ VOID NdisAcquireReadWriteLock(
 
 
 
-#### - Lock [in, out]
+### -param Lock [in, out]
 
 A pointer to an opaque variable that represents a lock. The caller can use this lock to access
      shared resources.
 
 
-#### - fWrite [in]
+### -param fWrite [in]
 
 A Boolean value. If the value is <b>TRUE</b>, this function is provided with write access to shared
      resources; if the value is <b>FALSE</b>, this function is provided with read access.
@@ -108,14 +108,14 @@ None
 
 
 The driver must initialize a variable of type <a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a> using the 
-    <mshelp:link keywords="netvista.ndisinitializereadwritelock" tabindex="0"><b>
-    NdisInitializeReadWriteLock</b></mshelp:link> function before the driver calls any other 
+    <a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">
+    NdisInitializeReadWriteLock</a> function before the driver calls any other 
     Ndis<i>Xxx</i>ReadWriteLock function. The driver must provide resident storage for the locks it uses.
 
 After acquiring a lock by using 
     <b>NdisAcquireReadWriteLock</b>, the caller must release that lock by calling the 
-    <mshelp:link keywords="netvista.ndisreleasereadwritelock" tabindex="0"><b>
-    NdisReleaseReadWriteLock</b></mshelp:link> function. To decrement the reference count of the lock, a driver must call
+    <a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">
+    NdisReleaseReadWriteLock</a> function. To decrement the reference count of the lock, a driver must call
     
     <b>NdisReleaseReadWriteLock</b> once for each call to 
     <b>NdisAcquireReadWriteLock</b>.
@@ -131,12 +131,12 @@ A driver thread should never hold a write lock for more than 25 microseconds. Ho
 The driver cannot use a lock to protect resources from read or write access that its other functions
     share with the 
     <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> and/or 
-    <mshelp:link keywords="netvista.miniportdisableinterruptex" tabindex="0"><i>
-    MiniportDisableInterruptEx</i></mshelp:link> functions. Instead, the driver must call 
-    <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-    NdisMSynchronizeWithInterruptEx</b></mshelp:link> so that its 
-    <mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
-    MiniportSynchronizeInterrupt</i></mshelp:link> function accesses such shared resources at the same DIRQL at which its
+    <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">
+    MiniportDisableInterruptEx</a> functions. Instead, the driver must call 
+    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    NdisMSynchronizeWithInterruptEx</a> so that its 
+    <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its
     
     <i>MiniportInterrupt</i> and/or 
     <i>
@@ -147,30 +147,30 @@ The driver cannot use a lock to protect resources from read or write access that
     <b>NdisAcquireReadWriteLock</b> explicitly raises the IRQL to IRQL = <b>DISPATCH_LEVEL</b>.
 
 For more information about acquiring and releasing NDIS spin locks, see 
-    <mshelp:link keywords="netvista.synchronization_and_notification_in_network_drivers" tabindex="0">Synchronization
-    and Notification in Network Drivers</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    and Notification in Network Drivers</a>.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-<mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
-   MiniportSynchronizeInterrupt</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
+<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisReleaseReadWriteLock</a>
 
 <a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
-<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
 
-<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisReleaseReadWriteLock</a>
+<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
 
  
 

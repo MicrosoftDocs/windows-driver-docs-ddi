@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04867D53-DB36-482A-93BF-C91D13998B3F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psreferencesilocontext, PsReferenceSiloContext, ntddk/PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture], ntddk/PsReferenceSiloContext, kernel.psreferencesilocontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void PsReferenceSiloContext(
 
 
 
-#### - SiloContext [in]
+### -param SiloContext [in]
 
 A pointer to the object created by the <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a> routine. This parameter is required and it cannot be <b>NULL</b>. 
 

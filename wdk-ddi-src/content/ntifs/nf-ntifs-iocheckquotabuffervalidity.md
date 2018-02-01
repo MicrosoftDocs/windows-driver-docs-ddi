@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iocheckquotabuffervalidity, ntifs/IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, IoCheckQuotaBufferValidity
+ms.keywords: IoCheckQuotaBufferValidity routine [Installable File System Drivers], ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity, ifsk.iocheckquotabuffervalidity, IoCheckQuotaBufferValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoCheckQuotaBufferValidity(
 
 
 
-#### - QuotaBuffer [in]
+### -param QuotaBuffer [in]
 
 Pointer to the buffer containing the quota entries to be checked.
 
 
-#### - QuotaLength [in]
+### -param QuotaLength [in]
 
 Length, in bytes, of <i>QuotaBuffer</i>.
 
 
-#### - ErrorOffset [out]
+### -param ErrorOffset [out]
 
 A variable to receive the offset of the offending entry in the quota buffer if an error is found. This variable is only valid if an error occurs.
 
@@ -132,11 +132,11 @@ The actual buffer length is nonnegative.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+
 <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
  
 

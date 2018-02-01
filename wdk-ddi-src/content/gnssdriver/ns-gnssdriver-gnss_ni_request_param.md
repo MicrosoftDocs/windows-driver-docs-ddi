@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_ni_request_param, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM, *PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM
+ms.keywords: PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], *PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], sensors.gnss_ni_request_param
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,57 +79,57 @@ typedef struct {
 
 
 
-#### - SuplNiInfo
+### -field SuplNiInfo
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_ni_info.md">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
 
 
-#### - CpNiInfo
+### -field CpNiInfo
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_cp_ni_info.md">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
 
 
-#### - V2UplNiInfo
+### -field V2UplNiInfo
 
 V2Upl NI request information.
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - RequestId
+### -field RequestId
 
 The ID that uniquely identifies the NI request. It is used later by the NI response to identify the request to respond to.
 
 
-#### - RequestType
+### -field RequestType
 
 A <a href="..\gnssdriver\ne-gnssdriver-gnss_ni_request_type.md">GNSS_NI_REQUEST_TYPE</a> enumeration value that specifies the request type.
 
 
-#### - NotificationType
+### -field NotificationType
 
 A <a href="..\gnssdriver\ne-gnssdriver-gnss_ni_notification_type.md">GNSS_NI_NOTIFICATION_TYPE</a> enumeration value that specifies the notification type.
 
 
-#### - RequestPlaneType
+### -field RequestPlaneType
 
 A <a href="..\gnssdriver\ne-gnssdriver-gnss_ni_plane_type.md">GNSS_NI_PLANE_TYPE</a> enumeration value that specifies the plane type.
 
 
-#### - ResponseTimeInSec
+### -field ResponseTimeInSec
 
 The required response time, in seconds.
 
 
-#### - EmergencyLocation
+### -field EmergencyLocation
 
 Indicates an emergency request, so an existing NI dialog will be dismissed and the new request will be processed immediately.
 

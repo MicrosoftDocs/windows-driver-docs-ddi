@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: af20cab0-c70b-404c-b6bd-54d9ecf75714
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: T1_DATA, *PT1_DATA structure [Smart Card Reader Devices], T1_DATA structure [Smart Card Reader Devices], T1_DATA, *PT1_DATA, T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smclib/T1_DATA, _T1_DATA, *PT1_DATA, smartcrd.t1_data
+ms.keywords: smartcrd.t1_data, *PT1_DATA, smclib/T1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA, *PT1_DATA, _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, T1_DATA, *PT1_DATA structure [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,22 +92,22 @@ typedef struct {
  
 
 
-#### - BytesReceived
+### -field BytesReceived
 
 Contains the number of bytes already received from the smart card. 
 
 
-#### - BytesSent
+### -field BytesSent
 
 Contains the number of bytes already sent to the smart card. 
 
 
-#### - BytesToSend
+### -field BytesToSend
 
 Contains the total number of remaining bytes to send. 
 
 
-#### - LastError
+### -field LastError
 
 Contains the T1 error code of the last received block. 
 
@@ -117,7 +117,7 @@ Contains the T1 error code of the last received block.
  
 
 
-#### - NAD
+### -field NAD
 
 Contains the node address byte to send to the smart card. 
 
@@ -127,42 +127,42 @@ Contains the node address byte to send to the smart card.
  
 
 
-#### - Resend
+### -field Resend
 
 Contains the resend counter. 
 
 
-#### - Resynch
+### -field Resynch
 
 Contains the resynch counter. 
 
 
-#### - RSN
+### -field RSN
 
 Contains the number of sent I-Blocks, as defined in the <i>ISO 7816-3 Specification</i>. 
 
 
-#### - SSN
+### -field SSN
 
 Contains the send sequence number (SSN). This member has a value of 0 or 1 as defined in the <i>ISO 7816-3 Specification</i>.
 
 
-#### - State
+### -field State
 
 Contains the current state of the protocol. 
 
 
-#### - Wtx
+### -field Wtx
 
 Contains the waiting time extension for a T=1 transmission. If nonzero, this is a multiplier for the block waiting time. Usually, the driver will time out if the block waiting time expires. Several smart card operations require more time. The smart card answers with a waiting time extension. Therefore, the block waiting time must be multiplied with the <b>Wtx</b> value. If this value is nonzero, it applies as a waiting extension. 
 
 
-#### - ReplyData
+### -field ReplyData
 
 A pointer to the buffer that contains the result of the operation. 
 
 
-#### - WaitForReply
+### -field WaitForReply
 
 If <b>TRUE</b>, execute the operation synchronously.
 

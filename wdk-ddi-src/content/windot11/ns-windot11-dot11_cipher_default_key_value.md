@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7362b20a-6ec4-4b22-8981-3a4b647a3cfa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE, netvista.dot11_cipher_default_key_value, Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, *PDOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_cipher_default_key_value, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, *PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE, Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ typedef struct DOT11_CIPHER_DEFAULT_KEY_VALUE {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_CIPHER_DEFAULT_KEY_VALUE structure. This member is
      formatted as an 
@@ -94,11 +94,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_CIPHER_DEFAULT_KEY_VALUE_REVISION_1.
@@ -110,7 +105,12 @@ This member must be set to
        <code>sizeof(DOT11_CIPHER_DEFAULT_KEY_VALUE)</code>.
 
 
-#### - uKeyIndex
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uKeyIndex
 
 The index of the key in the 802.11 station's default key array. 
      
@@ -126,7 +126,7 @@ The IEEE 802.11-2012 standard defines default key index values from 1 through 4.
      (<i>x</i> + 1).
 
 
-#### - AlgorithmId
+### -field AlgorithmId
 
 The value of the cipher algorithm that uses this key. For more information about values for cipher
      algorithms, see 
@@ -139,7 +139,7 @@ The miniport driver must ignore this member if
      <b>bDelete</b> is <b>TRUE</b>.
 
 
-#### - MacAddr
+### -field MacAddr
 
 The media access control (MAC) address, which identifies the default key table to add or remove
      the key.
@@ -177,11 +177,11 @@ If a per-station default key table does not exist for the value of
 </li>
 </ul>For more information about the 
      <b>dot11DesiredBSSType</b> MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_desired_bss_type" tabindex="0">
-     OID_DOT11_DESIRED_BSS_TYPE</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">
+     OID_DOT11_DESIRED_BSS_TYPE</a>.
 
 
-#### - bDelete
+### -field bDelete
 
 A Boolean value that specifies whether the miniport driver should delete the default key.
      
@@ -191,7 +191,7 @@ If set to <b>TRUE</b>, the miniport driver must delete the default key reference
      <b>uKeyIndex</b> .
 
 
-#### - bStatic
+### -field bStatic
 
 A Boolean value that specifies whether the miniport driver should delete the default key following
      a connection or roaming operation.
@@ -217,8 +217,8 @@ Reconnects to the same BSS network.
 <ul>
 <li>
 Explicitly deleted through a set request of 
-       <mshelp:link keywords="netvista.oid_dot11_cipher_default_key" tabindex="0">
-       OID_DOT11_CIPHER_DEFAULT_KEY</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+       OID_DOT11_CIPHER_DEFAULT_KEY</a>.
 
 </li>
 <li>
@@ -228,7 +228,7 @@ Implicitly deleted through a method request of
 </li>
 </ul>
 
-#### - usKeyLength
+### -field usKeyLength
 
 The length, in bytes, of the key material in the 
      <b>ucKey</b> array.
@@ -249,7 +249,7 @@ The length, in bytes, of the key material in the
  
 
 
-#### - ucKey
+### -field ucKey
 
 The key material. 
      
@@ -258,15 +258,15 @@ If
      <b>AlgorithmId</b> is set to 
      <b>DOT11_CIPHER_ALGO_TKIP</b>, the 
      <b>ucKey</b> array defines the key material through the 
-     <mshelp:link keywords="netvista.dot11_key_algo_tkip_mic" tabindex="0"><b>
-     DOT11_KEY_ALGO_TKIP_MIC</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">
+     DOT11_KEY_ALGO_TKIP_MIC</a> structure.
 
 If 
      <b>AlgorithmId</b> is set to 
      <b>DOT11_CIPHER_ALGO_CCMP</b>, the 
      <b>ucKey</b> array defines the key material through the
-     <mshelp:link keywords="netvista.dot11_key_algo_ccmp" tabindex="0"><b>
-     DOT11_KEY_ALGO_CCMP</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">
+     DOT11_KEY_ALGO_CCMP</a> structure.
 
 If 
      <b>AlgorithmId</b> is set to 
@@ -299,19 +299,19 @@ If the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
-
-<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
+<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
+
+<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67c364a7-5cf7-424a-8ba3-ba9a11276f5d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_3b90a87b-c560-40e4-809a-c3d1dd1671e8.xml, RtlUnicodeStringCbCopyStringNEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx, kernel.rtlunicodestringcbcopystringnex
+ms.keywords: ntstrsafe/RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx function [Kernel-Mode Driver Architecture], safestrings_3b90a87b-c560-40e4-809a-c3d1dd1671e8.xml, RtlUnicodeStringCbCopyStringNEx, kernel.rtlunicodestringcbcopystringnex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RtlUnicodeStringCbCopyStringNEx(
 
 
 
-#### - DestinationString [out]
+### -param DestinationString [out]
 
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>pszSrc </i>parameter points to (excluding the terminating null) is copied into the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of bytes in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-#### - pszSrc [in]
+### -param pszSrc [in]
 
 Optional. A pointer to the string to be copied. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-#### - cbToCopy [in]
+### -param cbToCopy [in]
 
 The number of bytes to be copied from the source to the destination. 
 
 
-#### - RemainingString [out, optional]
+### -param RemainingString [out, optional]
 
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
@@ -104,24 +104,24 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
 If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
 
 
-#### STRSAFE_IGNORE_NULLS
-
-If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringCbCopyStringNEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
-
-
 #### STRSAFE_FILL_ON_FAILURE
 
 If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
 
 
-#### STRSAFE_NULL_ON_FAILURE
+#### STRSAFE_IGNORE_NULLS
 
-If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
+If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringCbCopyStringNEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
 
 
 #### STRSAFE_NO_TRUNCATION
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
+
+
+#### STRSAFE_NULL_ON_FAILURE
+
+If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
 
 
 #### STRSAFE_ZERO_LENGTH_ON_FAILURE
@@ -203,11 +203,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopystringn.md">RtlUnicodeStringCbCopyStringN</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopystringnex.md">RtlUnicodeStringCchCopyStringNEx</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopystringn.md">RtlUnicodeStringCbCopyStringN</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

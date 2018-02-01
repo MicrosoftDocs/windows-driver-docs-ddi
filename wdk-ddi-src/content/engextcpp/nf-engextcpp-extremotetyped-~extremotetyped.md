@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSimpleValue, Copy, Set, ExtRemoteTyped class [Windows Debugging], EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::Clear, operator[], ExtRemoteTyped::~ExtRemoteTyped, ExtRemoteTyped::Copy, ExtRemoteTyped::operator[], ExtRemoteTyped::GetSimpleValue, operator=, ExtRemoteTyped class [Windows Debugging], described, debugger.extremotetyped, ExtRemoteTyped::operator=, engextcpp/ExtRemoteTyped, ExtRemoteTyped::Set, ErtIoctl, ~ExtRemoteTyped, Clear, ExtRemoteTyped::ErtIoctl, ExtRemoteTyped
+ms.keywords: Clear, ExtRemoteTyped::Clear, ExtRemoteTyped::ErtIoctl, ~ExtRemoteTyped, operator=, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, debugger.extremotetyped, ExtRemoteTyped::Copy, GetSimpleValue, Set, ExtRemoteTyped::operator[], Copy, ExtRemoteTyped::operator=, ExtRemoteTyped::Set, ExtRemoteTyped::GetSimpleValue, operator[], ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped, engextcpp/ExtRemoteTyped, ErtIoctl, ExtRemoteTyped::~ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -63,13 +63,13 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 </dd>
 <dd>
 
-<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">operator=</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">operator=</a>
 
 
 </dd>
 <dd>
 
-<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">operator=</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">operator=</a>
 
 
 </dd>
@@ -266,9 +266,9 @@ Indicates whether or not the destructor for this instance of <b>ExtRemoteTyped</
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
  
 

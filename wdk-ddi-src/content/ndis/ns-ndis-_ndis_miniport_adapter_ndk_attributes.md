@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 615A190E-D8F5-4E84-A475-FFF38077BC09
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, netvista.ndis_miniport_adapter_ndk_attributes, PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
+ms.keywords: PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, netvista.ndis_miniport_adapter_ndk_attributes, ndis/PNDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</b> structure. 
 
@@ -80,12 +80,12 @@ Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 <li>Set the <b>Size</b> member to <b>NDIS_SIZEOF_MINIPORT_ADAPTER_NDK_ATTRIBUTES_REVISION_1</b>.</li>
 </ul>
 
-#### - Enabled
+### -field Enabled
 
 If the miniport adapter's NDK functionality is enabled, this member is <b>TRUE</b>. Otherwise, it is <b>FALSE</b>.
 
 
-#### - NdkCapabilities
+### -field NdkCapabilities
 
 A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a> structure that specifies the capabilities of an NDK adapter.  
 
@@ -103,15 +103,15 @@ To report its NDK capabilities, the miniport adapter stores an  <b>NDIS_MINIPORT
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/0A920057-3C12-4770-BA08-6C3BB24072EB">Initializing an NDK Miniport Adapter</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_attributes.md">NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a>
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<a href="https://msdn.microsoft.com/0A920057-3C12-4770-BA08-6C3BB24072EB">Initializing an NDK Miniport Adapter</a>
 
  
 

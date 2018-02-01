@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, stream.ksgetobjecttypefromirp, KsGetObjectTypeFromIrp function [Streaming Media Devices], KsGetObjectTypeFromIrp, ks/KsGetObjectTypeFromIrp
+ms.keywords: KsGetObjectTypeFromIrp function [Streaming Media Devices], stream.ksgetobjecttypefromirp, KsGetObjectTypeFromIrp, avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ KSOBJECTTYPE KsGetObjectTypeFromIrp(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to find the associated AVStream object type.
 
@@ -82,11 +82,11 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
+<a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
 
 <a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
 
-<a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
+<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

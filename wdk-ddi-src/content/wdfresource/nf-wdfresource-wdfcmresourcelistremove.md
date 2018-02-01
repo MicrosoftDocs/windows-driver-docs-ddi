@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f636d85d-f7bb-4ebe-b03f-3b9c3c17bacd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcmresourcelistremove, WdfCmResourceListRemove, wdfresource/WdfCmResourceListRemove, wdf.wdfcmresourcelistremove, PFN_WDFCMRESOURCELISTREMOVE, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, WdfCmResourceListRemove method
+ms.keywords: PFN_WDFCMRESOURCELISTREMOVE, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, wdf.wdfcmresourcelistremove, WdfCmResourceListRemove, WdfCmResourceListRemove method, wdfresource/WdfCmResourceListRemove, kmdf.wdfcmresourcelistremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfCmResourceListRemove(
 
 
 
-#### - List [in]
+### -param List [in]
 
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based value that is used as an index into the resource list that <i>List</i> specifies.
 

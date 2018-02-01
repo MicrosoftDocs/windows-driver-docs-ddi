@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d6be16da-7f92-4c10-af8b-7ecd05ef6856
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dkmt_destroysynchronizationobject, d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, OpenGL_Structs_ca88b27b-fcac-41f6-bf16-9f26507f4e3f.xml, _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+ms.keywords: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dkmt_destroysynchronizationobject, D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, OpenGL_Structs_ca88b27b-fcac-41f6-bf16-9f26507f4e3f.xml, _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT {
 
 
 
-#### - hSyncObject
+### -field hSyncObject
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
 

@@ -74,7 +74,7 @@ NDIS_STATUS ProtocolNetPnPEvent(
 
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 The handle to a protocol-driver-allocated context area in which this driver maintains per-binding
      run-time state information. The protocol driver supplied this handle when it called the 
@@ -96,8 +96,8 @@ The handle to a protocol-driver-allocated context area in which this driver main
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_pnp_event_notification" tabindex="0"><b>
-     NET_PNP_EVENT_NOTIFICATION</b></mshelp:link> structure which describes the Plug and Play event or Power Management
+     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+     NET_PNP_EVENT_NOTIFICATION</a> structure which describes the Plug and Play event or Power Management
      event that NDIS is indicating to the protocol driver.
 
 
@@ -120,8 +120,8 @@ A pointer to a
 The protocol driver successfully handled the indicated network Plug and Play event, NDIS PnP
        event, or power management event. The meaning of this status code depends on the 
        <b>NetEvent</b> code in the buffered 
-       <mshelp:link keywords="netvista.net_pnp_event_notification" tabindex="0"><b>
-       NET_PNP_EVENT_NOTIFICATION</b></mshelp:link> structure at 
+       <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+       NET_PNP_EVENT_NOTIFICATION</a> structure at 
        <i>NetPnPEvent</i>:
        
 
@@ -214,8 +214,8 @@ The protocol driver has acknowledged the activation of a port that is associated
 <td width="60%">
 The protocol driver will return its response to the indicated event asynchronously with a call
        to the 
-       <mshelp:link keywords="netvista.ndiscompletenetpnpevent" tabindex="0"><b>
-       NdisCompleteNetPnPEvent</b></mshelp:link> function.
+       <a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">
+       NdisCompleteNetPnPEvent</a> function.
 
 </td>
 </tr>
@@ -289,8 +289,8 @@ The
     event, an NDIS PnP event, or Power Management event has occurred.
 
 The 
-    <mshelp:link keywords="netvista.net_pnp_event_notification" tabindex="0"><b>
-    NET_PNP_EVENT_NOTIFICATION</b></mshelp:link> structure that is passed to 
+    <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+    NET_PNP_EVENT_NOTIFICATION</a> structure that is passed to 
     <i>ProtocolNetPnPEvent</i> describes the event. 
     <i>ProtocolNetPnPEvent</i> interprets two basic pieces of information in the
     NET_PNP_EVENT_NOTIFICATION structure:
@@ -387,15 +387,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
 
 <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
 
+<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
+
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
  
 

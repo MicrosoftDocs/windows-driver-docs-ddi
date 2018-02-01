@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4dd4c02f-af44-4b02-a646-b7648b430b89
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_89fc526d-719f-43b5-b195-47a199a290ec.xml, display.d3dddiarg_setdisplaymode, _D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE, d3dumddi/D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE structure [Display Devices]
+ms.keywords: D3DDDIARG_SETDISPLAYMODE structure [Display Devices], d3dumddi/D3DDDIARG_SETDISPLAYMODE, display.d3dddiarg_setdisplaymode, UMDisplayDriver_param_Structs_89fc526d-719f-43b5-b195-47a199a290ec.xml, _D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DDDIARG_SETDISPLAYMODE {
 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the resource that contains the display surface.
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the display surface.
 

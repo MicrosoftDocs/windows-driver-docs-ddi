@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AFDB4DB4-3C63-44A0-88D7-C8047ECB2261
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols4_getlinebyinlinecontext, IDebugSymbols4, IDebugSymbols4::GetLineByInlineContext, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContext method, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::GetLineByInlineContext, GetLineByInlineContext
+ms.keywords: GetLineByInlineContext method [Windows Debugging], IDebugSymbols4::GetLineByInlineContext, GetLineByInlineContext, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContext method, debugger.idebugsymbols4_getlinebyinlinecontext, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::GetLineByInlineContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT GetLineByInlineContext(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 An offset for the line.
 
 
-#### - InlineContext [in]
+### -param InlineContext [in]
 
 The inline context. 
 
 
-#### - Line [out, optional]
+### -param Line [out, optional]
 
 A pointer to the returned line.
 
 
-#### - FileBuffer [out]
+### -param FileBuffer [out]
 
 A pointer to an output buffer.
 
 
-#### - FileBufferSize [in]
+### -param FileBufferSize [in]
 
 The size of the file buffer.
 
 
-#### - FileSize [out, optional]
+### -param FileSize [out, optional]
 
 A pointer to the length of the file.
 
 
-#### - Displacement [out, optional]
+### -param Displacement [out, optional]
 
 A pointer to the displacement value of the file.
 

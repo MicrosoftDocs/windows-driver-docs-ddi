@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB00FF6B-144B-4256-A362-D593FD4CFC98
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffileobject/WdfFileObjectGetRelatedFileObject, PFN_WDFFILEOBJECTGETRELATEDFILEOBJECT, WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, wdf.wdffileobjectgetrelatedfileobject
+ms.keywords: PFN_WDFFILEOBJECTGETRELATEDFILEOBJECT, WdfFileObjectGetRelatedFileObject method, wdffileobject/WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject, wdf.wdffileobjectgetrelatedfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ WDFFILEOBJECT WdfFileObjectGetRelatedFileObject(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A handle to a framework file object.
 

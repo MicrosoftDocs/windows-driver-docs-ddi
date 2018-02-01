@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0f39e50-8bf1-4ac9-8610-18915b375797
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetPowerNotPageable, PFN_WDFDEVICEINITSETPOWERNOTPAGEABLE, WdfDeviceInitSetPowerNotPageable method, wdfdevice/WdfDeviceInitSetPowerNotPageable, wdf.wdfdeviceinitsetpowernotpageable, kmdf.wdfdeviceinitsetpowernotpageable, DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml
+ms.keywords: wdf.wdfdeviceinitsetpowernotpageable, kmdf.wdfdeviceinitsetpowernotpageable, DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml, WdfDeviceInitSetPowerNotPageable, PFN_WDFDEVICEINITSETPOWERNOTPAGEABLE, WdfDeviceInitSetPowerNotPageable method, wdfdevice/WdfDeviceInitSetPowerNotPageable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfDeviceInitSetPowerNotPageable(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 

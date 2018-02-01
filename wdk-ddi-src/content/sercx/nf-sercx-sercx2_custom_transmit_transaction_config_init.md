@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 098A7BB0-B135-4E99-8BDA-1EF29A8C338F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, serports.sercx2_custom_transmit_transaction_config_init, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT
+ms.keywords: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, serports.sercx2_custom_transmit_transaction_config_init, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 A pointer to the <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a> structure that is to be initialized.
 
 
-#### - EvtSerCx2CustomTransmitTransactionStart [in]
+### -param EvtSerCx2CustomTransmitTransactionStart [in]
 
 The value to load into the <b>EvtSerCx2CustomTransmitTransactionStart</b> member of the <b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a>.
 

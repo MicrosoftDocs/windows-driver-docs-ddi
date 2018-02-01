@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2, RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, RemoveFlags, ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint2::RemoveFlags, debugger.removeflags, RemoveFlags method [Windows Debugging]
+ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, dbgeng/IDebugBreakpoint::RemoveFlags, IDebugBreakpoint2, IDebugBreakpoint::RemoveFlags, debugger.removeflags, RemoveFlags, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint2::RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging], IDebugBreakpoint interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT RemoveFlags(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags to remove from the breakpoint.  <i>Flags</i> is a bit field. The new value of the flags in the engine is the old value and not the value of <i>Flags</i>.  For more information about the flag bit field and an explanation of each flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.  You cannot modify the DEBUG_BREAKPOINT_DEFERRED flag in the engine. This bit in <i>Flags</i> must always be zero.
 

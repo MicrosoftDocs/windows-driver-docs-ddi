@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1F764A80-71FC-445A-AADE-09660D1C250B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, netvista.dot11_send_provision_discovery_request_parameters, *PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, _DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS
+ms.keywords: PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, netvista.dot11_send_provision_discovery_request_parameters, *PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/PDOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ typedef struct _DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -99,42 +99,42 @@ The type, revision, and size of the <b>DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PA
 </table> 
 
 
-#### - DialogToken
+### -field DialogToken
 
 The dialog token to send  in the provision discovery request packet.
 
 
-#### - PeerDeviceAddress
+### -field PeerDeviceAddress
 
 The destination address of the WFD device receiving the provision discovery packet.
 
 
-#### - uSendTimeout
+### -field uSendTimeout
 
 The maximum time, in milliseconds, allowed to send the provision discovery request. If the time-out expires before the miniport has successfully transmitted the provision discovery response, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439783">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE</a> with a failure status.
 
 
-#### - GroupCapability
+### -field GroupCapability
 
 The capability values that are included in the Group Capability bitmask of the Peer-to-Peer (P2P) Capability Information Element (IE) in  a provision discovery request.
 
 
-#### - GroupID
+### -field GroupID
 
 The group identifier to include in the provision discovery request.
 
 
-#### - bUseGroupID
+### -field bUseGroupID
 
 If TRUE, the value in <b>GroupID</b> should be included in the provision discovery request.
 
 
-#### - uIEsOffset
+### -field uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) the Wi-Fi Direct (WFD) port must add to the provision discovery request packet. This offset is from the start of the buffer that contains this structure.
 
 
-#### - uIEsLength
+### -field uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d828cf1-991b-4c2d-882b-de56512a6737
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, IDebugControl3::GetPromptText, IDebugControl3, dbgeng/IDebugControl3::GetPromptText, GetPromptText method [Windows Debugging], GetPromptText method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetPromptText, IDebugControl2 interface [Windows Debugging], GetPromptText method, IDebugControl interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl3 interface, GetPromptText, GetPromptText method [Windows Debugging], IDebugControl2 interface, debugger.getprompttext, IDebugControl::GetPromptText, dbgeng/IDebugControl::GetPromptText, IDebugControl3 interface [Windows Debugging], GetPromptText method, IDebugControl2::GetPromptText
+ms.keywords: GetPromptText method [Windows Debugging], debugger.getprompttext, GetPromptText method [Windows Debugging], IDebugControl2 interface, IDebugControl3, dbgeng/IDebugControl2::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetPromptText method, IDebugControl3::GetPromptText, dbgeng/IDebugControl3::GetPromptText, IDebugControl2::GetPromptText, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, IDebugControl interface [Windows Debugging], GetPromptText method, IDebugControl2 interface [Windows Debugging], GetPromptText method, GetPromptText, dbgeng/IDebugControl::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl interface, IDebugControl::GetPromptText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetPromptText(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the prompt text.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - TextSize [out, optional]
+### -param TextSize [out, optional]
 
 Receives the size, in characters, of the prompt text.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -130,13 +130,13 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf295061-42d6-4f2e-a39e-9bac440b0d93
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsireadcapacity_out2, hbapiwmi/PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], hbapiwmi/ScsiReadCapacity_OUT, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, ScsiReadCapacity_OUT structure [Storage Devices], *PScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, PScsiReadCapacity_OUT
+ms.keywords: hbapiwmi/PScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, storage.scsireadcapacity_out2, hbapiwmi/ScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], ScsiReadCapacity_OUT, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, *PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _ScsiReadCapacity_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation. 
 
 
-#### - ResponseBufferSize
+### -field ResponseBufferSize
 
 Indicates the size in bytes of the buffer that will hold the results of the read capacity command. 
 
 
-#### - SenseBufferSize
+### -field SenseBufferSize
 
 Indicates the size in bytes of the buffer that will hold the SCSI sense data that results from the read capacity command. 
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 Contains the status of the SCSI read capacity command. 
 
 
-#### - ResponseBuffer
+### -field ResponseBuffer
 
 Contains the results of the SCSI read capacity command. 
 
@@ -111,9 +111,9 @@ The WMI tool suite generates a declaration of the ScsiReadCapacity_OUT structure
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

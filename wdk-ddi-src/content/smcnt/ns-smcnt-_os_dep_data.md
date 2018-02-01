@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 76f6f0d1-cb2f-4cda-aeb0-7421e18e3c27
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], OS_DEP_DATA, POS_DEP_DATA, smartcrd.os_dep_data__wdm_, scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smcnt/OS_DEP_DATA, OS_DEP_DATA structure [Smart Card Reader Devices], *POS_DEP_DATA, smcnt/POS_DEP_DATA, _OS_DEP_DATA, OS_DEP_DATA (WDM), POS_DEP_DATA structure pointer [Smart Card Reader Devices]
+ms.keywords: POS_DEP_DATA, POS_DEP_DATA structure pointer [Smart Card Reader Devices], scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], smartcrd.os_dep_data__wdm_, OS_DEP_DATA structure [Smart Card Reader Devices], smcnt/OS_DEP_DATA, *POS_DEP_DATA, smcnt/POS_DEP_DATA, _OS_DEP_DATA, OS_DEP_DATA, OS_DEP_DATA (WDM)
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,29 +81,9 @@ typedef struct _OS_DEP_DATA {
 
 
 
-#### - RemoveLock
+### -field RemoveLock
 
 A structure with the following members:
-
-
-#### Removed
-
-If this Boolean value is non-zero, it indicates that the spin lock was removed.
-
-
-#### RefCount
-
-If this long integer is non-zero, it indicates the number of references to the spin lock that are currently active. 
-
-
-#### RemoveEvent
-
-A pointer to an event that synchronizes spin lock removal.
-
-
-#### TagList
-
-A pointer to a linked list of structures, each of which contains a tag string that identifies a remove spin lock. 
 
 
 ### -field RemoveLock.Removed
@@ -126,32 +106,32 @@ A pointer to an event that synchronizes spin lock removal.
 A pointer to a linked list of structures, each of which contains a tag string that identifies a remove spin lock. 
 
 
-#### - DeviceObject
+### -field DeviceObject
 
 A pointer to the smart card reader device object. (Must be set by the driver.)
 
 
-#### - CurrentIrp
+### -field CurrentIrp
 
 A pointer to the current IRP to process. Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData-&gt;SpinLock</b> member of <a href="..\smclib\ns-smclib-_smartcard_extension.md">SMARTCARD_EXTENSION</a>. 
 
 
-#### - NotificationIrp
+### -field NotificationIrp
 
 A pointer to an IRP that the smart card reader driver uses to notify applications when a smart card has been inserted or removedl. Access to this field must be sequentialized by using the spin lock that is pointed to by the <b>OsData-&gt;SpinLock</b> member of SMARTCARD_EXTENSION.  
 
 
-#### - Mutex
+### -field Mutex
 
 Contains a mutex that applications use to synchronize access to the reader driver. 
 
 
-#### - SpinLock
+### -field SpinLock
 
 Contains a mutex that drivers use to synchronize access to protected members of the OS_DEP_DATA structure. For more information, see <a href="..\smclib\ns-smclib-_scard_card_capabilities.md">SCARD_CARD_CAPABILITIES</a>.
 
 
-#### - DebugDeviceObject
+### -field DebugDeviceObject
 
 Unused.
 

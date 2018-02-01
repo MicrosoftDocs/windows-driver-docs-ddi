@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CIP_TALK, PCIP_TALK, CIP_TALK, *PCIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, 61883/PCIP_TALK, _CIP_TALK, PCIP_TALK structure pointer [Buses]
+ms.keywords: PCIP_TALK structure pointer [Buses], PCIP_TALK, 61883/CIP_TALK, *PCIP_TALK, CIP_TALK, _CIP_TALK, 61883/PCIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _CIP_TALK {
 
 
 
-#### - hConnect
+### -field hConnect
 
 On input, the handle of the connection to begin isochronous transmission.
 

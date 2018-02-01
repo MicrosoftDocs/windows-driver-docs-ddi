@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5846165-f58d-44a8-9242-02a2f85d3a8d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTOutputDuplPresent, PFND3DKMT_OUTPUTDUPLPRESENT, D3DKMTOutputDuplPresent function [Display Devices], D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent
+ms.keywords: d3dkmthk/D3DKMTOutputDuplPresent, PFND3DKMT_OUTPUTDUPLPRESENT, D3DKMTOutputDuplPresent function [Display Devices], display.d3dkmtoutputduplpresent, D3DKMTOutputDuplPresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

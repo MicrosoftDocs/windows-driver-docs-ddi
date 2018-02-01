@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c7d9f8b1-a18f-4644-aaee-c019692e62a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_BUS_INTERFACE_USBDI_V2, usbbusif/USB_BUS_INTERFACE_USBDI_V2, usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml, *PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2, _USB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2 structure [Buses]
+ms.keywords: usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml, USB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], PUSB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2 structure [Buses], *PUSB_BUS_INTERFACE_USBDI_V2, usbbusif/USB_BUS_INTERFACE_USBDI_V2, usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, _USB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,12 +78,12 @@ typedef struct _USB_BUS_INTERFACE_USBDI_V2 {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size in bytes of the buffer that holds the interface pointers. 
 
 
-#### - Version
+### -field Version
 
 Indicates, on input, the version of the interface. The values that this member can take are as follows.
 <table>
@@ -134,47 +134,47 @@ Version 3 of the interface.
 </table> 
 
 
-#### - BusContext
+### -field BusContext
 
 Contains information that describes the USB bus and the USB bus driver that exposes this interface. This is an opaque entity that the caller must pass to the interface routines. 
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
-#### - GetUSBDIVersion
+### -field GetUSBDIVersion
 
 Pointer to a routine that returns the USB interface version number, the version number of USB specification that defines the interface, along with host controller capabilities information. This routine returns the highest USBDI interface version supported by the port driver. For more information about this routine, see <a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>. 
 
 
-#### - QueryBusTime
+### -field QueryBusTime
 
 Pointer to a routine that returns the current 32-bit USB frame number. This routine replaces the <b>USBD_QueryBusTime</b> function provided by usbd.sys. For more information about this routine, see <a href="https://msdn.microsoft.com/6a0a1953-070d-4335-a906-4ca3fe8a04e1">QueryBusTime</a>.
 
 
-#### - SubmitIsoOutUrb
+### -field SubmitIsoOutUrb
 
 Reserved. Do not use.
 
 
-#### - QueryBusInformation
+### -field QueryBusInformation
 
 Pointer to a routine that retrieves information about the bus. The information that is returned depends on the value of the <b>Level </b>member. If <b>Level</b> is 0, this routine returns bus bandwidth information. If <b>Level</b> is 1, it returns bus bandwidth information and the host controller's symbolic name. This routine replaces the <b>USBD_QueryBusInformation</b> function provided by usbd.sys. For more information about this routine, see <a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a>. 
 
 
-#### - IsDeviceHighSpeed
+### -field IsDeviceHighSpeed
 
 Pointer to a routine that determines if the USB device is operating at high speed. This routine returns <b>TRUE</b> if the USB device is operating at high speed USB 2.0 compliant device. Returns <b>FALSE</b> otherwise. For more information about this routine, see <a href="https://msdn.microsoft.com/36e0041d-700f-44db-84b6-3745026cb6f7">IsDeviceHighSpeed</a>. 
 
 
-#### - EnumLogEntry
+### -field EnumLogEntry
 
 Reserved. Do not use.
 

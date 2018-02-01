@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2dc6a60-b3a6-4b2a-8a6c-aa513ca9b87b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSI structure [Network Drivers Starting with Windows Vista], rilapitypes/RILIMSI, RILIMSI, *LPRILIMSI, netvista.rilimsi
+ms.keywords: RILIMSI, *LPRILIMSI, rilapitypes/RILIMSI, netvista.rilimsi, RILIMSI structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,27 +74,27 @@ struct RILIMSI {
 
 
 
-#### - cbSize
+### -field cbSize
 
 The size of the structure in bytes.
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilimsiparammask.md">RILIMSIPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - wszImsi
+### -field wszImsi
 
 The IMSI as a null-terminated Unicode string.
 
 
-#### - dwMcc
+### -field dwMcc
 
 The mobile country code from the IMSI.
 
 
-#### - dwMnc
+### -field dwMnc
 
 The mobile network code from the IMSI.
 

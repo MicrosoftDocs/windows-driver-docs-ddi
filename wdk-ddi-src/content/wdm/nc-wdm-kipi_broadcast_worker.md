@@ -71,7 +71,7 @@ ULONG_PTR IpiGenericCall(
 
 
 
-#### - Argument [in]
+### -param Argument [in]
 
 Supplies the value that was passed to the <a href="..\wdm\nf-wdm-keipigenericcall.md">KeIpiGenericCall</a> routine that called <i>IpiGenericCall</i>.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0A50C1FB-D0C6-47C4-AD71-AD0B7486AA2E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_remove_lock_options, WDF_REMOVE_LOCK_OPTIONS structure, PWDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS, _WDF_REMOVE_LOCK_OPTIONS, kmdf.wdf_remove_lock_options, wdfdevice/WDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS structure pointer, wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS
+ms.keywords: wdf.wdf_remove_lock_options, PWDF_REMOVE_LOCK_OPTIONS structure pointer, PWDF_REMOVE_LOCK_OPTIONS, kmdf.wdf_remove_lock_options, *PWDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS, wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS structure, _WDF_REMOVE_LOCK_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,23 +72,23 @@ typedef struct _WDF_REMOVE_LOCK_OPTIONS {
 
 
 
-#### - Size
+### -field Size
 
 The size of the structure, in bytes.
 
 
-#### - Flags
+### -field Flags
 
 The bitwise <b>OR</b> of values from the <a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a> enumeration.
 
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
+
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
 
  
 

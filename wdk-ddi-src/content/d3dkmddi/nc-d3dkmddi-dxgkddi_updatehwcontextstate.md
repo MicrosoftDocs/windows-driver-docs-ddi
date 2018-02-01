@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_UPDATEHWCONTEXTSTATE(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 A handle to the generated adapter.
 
 
-#### - pUpdateHwContextState [in]
+### -param pUpdateHwContextState [in]
 
 A pointer used by the function to update the hardware context state.
 

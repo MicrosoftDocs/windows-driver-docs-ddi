@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: F4F3A591-B4BE-4367-A76A-820552F9B3B5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltCreateNamedPipeFile, FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile function [Installable File System Drivers], ifsk.fltcreatenamedpipefile, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FltCreateNamedPipeFile
+ms.keywords: FILE_PIPE_MESSAGE_MODE, FILE_PIPE_BYTE_STREAM_TYPE, ifsk.fltcreatenamedpipefile, FILE_PIPE_COMPLETE_OPERATION, FltCreateNamedPipeFile function [Installable File System Drivers], FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, fltkernel/FltCreateNamedPipeFile, FILE_PIPE_BYTE_STREAM_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,27 +85,27 @@ NTSTATUS FltCreateNamedPipeFile(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 An opaque filter pointer for the caller. 
 
 
-#### - Instance [in, optional]
+### -param Instance [in, optional]
 
 An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume for the named pipe file system. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-<b>NULL</b>, the request is sent only to minifilter driver instances that are attached below the specified instance. 
 
 
-#### - FileHandle [out]
+### -param FileHandle [out]
 
 A pointer to a caller-allocated variable that receives the file handle if the call to  <b>FltCreateNamedPipeFile</b> is successful. 
 
 
-#### - FileObject [out, optional]
+### -param FileObject [out, optional]
 
 A pointer to a caller-allocated variable that receives the file object pointer if the call to <b>FltCreateNamedPipeFile</b> is successful. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects. 
 <table>
@@ -244,7 +244,7 @@ STANDARD_RIGHTS_WRITE, FILE_WRITE_DATA, FILE_APPEND_DATA, and SYNCHRONIZE.
 </table> 
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 A pointer to an opaque <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that is already initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object are listed in the following table. 
 <table>
@@ -305,7 +305,7 @@ A set of flags that controls the file object attributes. If the caller is runnin
 </table> 
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateNamedPipeFile</b>, the <b>Information</b> member of the variable contains one of the following values:
 
@@ -314,7 +314,7 @@ FILE_CREATED
 FILE_OPENED
 
 
-#### - ShareAccess [in]
+### -param ShareAccess [in]
 
 The type of share access to the file that the caller requires as one or a combination of the following flags. For the greatest chance of avoiding sharing violation errors, specify all of the following share access flags. 
 <table>
@@ -345,7 +345,7 @@ The file can be opened for write access by other threads' calls to <b>FltCreateN
 </table> 
 
 
-#### - CreateDisposition [in]
+### -param CreateDisposition [in]
 
 A value that determines the action to be taken, depending on whether the file already exists. The value can be any of those described in the following table. 
 <table>
@@ -386,7 +386,7 @@ If the file already exists, open it. If it does not, create the file.
 </table> 
 
 
-#### - CreateOptions [in]
+### -param CreateOptions [in]
 
 The options to be applied when creating or opening the pipe, as a compatible combination of the following flags. 
 <table>
@@ -427,7 +427,7 @@ All operations on the pipe are performed synchronously. Waits in the system to s
 </table> 
 
 
-#### - NamedPipeType [in]
+### -param NamedPipeType [in]
 
 The mode to read from the pipe.
 <table>
@@ -458,7 +458,7 @@ The data is written to the pipe as a message.
 </table> 
 
 
-#### - ReadMode [in]
+### -param ReadMode [in]
 
 The mode to read from the pipe.
 <table>
@@ -489,7 +489,7 @@ The pipe data is read as messages. To use this mode, <i>NamedPipeType</i> must b
 </table> 
 
 
-#### - CompletionMode [in]
+### -param CompletionMode [in]
 
 The completion mode for pipe reads and writes.
 <table>
@@ -520,7 +520,7 @@ The pipe read and write requests are completed immediately.
 </table> 
 
 
-#### - MaximumInstances [in]
+### -param MaximumInstances [in]
 
 The maximum number of instances allowed for this named pipe.
 
@@ -535,12 +535,12 @@ TBD
 TBD
 
 
-#### - DefaultTimeout [in, optional]
+### -param DefaultTimeout [in, optional]
 
 The default timeout in 100-nanosecond increments. This value is expressed as a negative integer. For example, 250 milliseconds is specified as –10 * 1000 * 250.
 
 
-#### - DriverContext [in, optional]
+### -param DriverContext [in, optional]
 
 An optional pointer to an <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a> structure already initialized by <a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>.
 
@@ -606,15 +606,15 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
 
-<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 <a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
  
 

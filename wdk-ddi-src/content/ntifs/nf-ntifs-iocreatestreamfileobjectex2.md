@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2F12F4E5-21C2-4DA8-9111-0087A16F0256
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex2, IoCreateStreamFileObjectEx2, ntifs/IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx
+ms.keywords: ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx2, IoCreateStreamFileObjectEx routine [Installable File System Drivers], IoCreateStreamFileObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PFILE_OBJECT IoCreateStreamFileObjectEx(
 
 
 
-#### - CreateOptions [in]
+### -param CreateOptions [in]
 
 Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create options for the new stream file object.  <b>IO_CREATE_STREAM_FILE_OPTIONS</b> is defined in <i>ntifs.h</i> as the following.
 <pre class="syntax" xml:space="preserve"><code>typedef struct _IO_CREATE_STREAM_FILE_OPTIONS {
@@ -80,11 +80,6 @@ Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create o
     PDEVICE_OBJECT TargetDeviceObject;
 } IO_CREATE_STREAM_FILE_OPTIONS, *PIO_CREATE_STREAM_FILE_OPTIONS;
 </code></pre>
-
-
-#### Size
-
-Size of the stream options structure. Set to <b>sizeof</b>(IO_CREATE_STREAM_FILE_OPTIONS).
 
 
 #### Flags
@@ -121,6 +116,11 @@ A file object is created with out a file handle. No close operation is sent for 
 </table> 
 
 
+#### Size
+
+Size of the stream options structure. Set to <b>sizeof</b>(IO_CREATE_STREAM_FILE_OPTIONS).
+
+
 #### TargetDeviceObject
 
 A pointer to the device object to set as the target for operations on the file
@@ -128,22 +128,22 @@ A pointer to the device object to set as the target for operations on the file
         member is optional.
 
 
-#### - FileObject [in, optional]
+### -param FileObject [in, optional]
 
 Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - DeviceObject [in, optional]
+### -param DeviceObject [in, optional]
 
 Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>. 
 
 
-#### - StreamFileObject [out]
+### -param StreamFileObject [out]
 
 Pointer to a device object pointer to receive the stream fille object.
 
 
-#### - FileHandle [out, optional]
+### -param FileHandle [out, optional]
 
 A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>. 
 
@@ -174,19 +174,19 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

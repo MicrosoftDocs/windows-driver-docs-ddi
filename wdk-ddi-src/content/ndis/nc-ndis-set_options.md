@@ -73,15 +73,15 @@ NDIS_STATUS SetOptions(
 
 
 
-#### - NdisDriverHandle [in]
+### -param NdisDriverHandle [in]
 
-A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> for miniport drivers, <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-     NdisRegisterProtocolDriver</b></mshelp:link> for protocol drivers, and <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-     NdisFRegisterFilterDriver</b></mshelp:link> for filter drivers).
+A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> for miniport drivers, <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     NdisRegisterProtocolDriver</a> for protocol drivers, and <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+     NdisFRegisterFilterDriver</a> for filter drivers).
 
 
-#### - DriverContext [in]
+### -param DriverContext [in]
 
 The handle that the driver passed to 
      <b>NdisRegisterXxxDriver</b> that identifies the driver context area, where Xxx is the type of driver (Miniport, Protocol, or Filter).
@@ -157,39 +157,39 @@ The driver's attempt to register options failed. Usually, such an error status i
 Miniport drivers can apply to the optional services defined in the following characteristics structures:<dl>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
-       NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+       NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-       NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+       NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_generic_characteristics" tabindex="0"><b>
-      NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>(see 
-      <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-      documentation</mshelp:link>)
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_generic_characteristics.md">
+      NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>(see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+      documentation</a>)
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_tcp_characteristics" tabindex="0"><b>
-      NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>(see 
-      <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-      documentation</mshelp:link>)
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_tcp_characteristics.md">
+      NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>(see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+      documentation</a>)
 
 </dd>
 </dl>
@@ -198,22 +198,22 @@ Miniport drivers can apply to the optional services defined in the following cha
 Protocol drivers can apply to the optional services defined in the following characteristics structures:<dl>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
-       NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+       NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+       NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 </dd>
@@ -288,20 +288,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
-   NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+   NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
  
 

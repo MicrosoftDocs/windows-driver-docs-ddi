@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1DE23CF6-970E-4BDE-9BEC-CAC0640B257A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PSTACK_SYM_FRAME_INFO, *PSTACK_SYM_FRAME_INFO, _STACK_SYM_FRAME_INFO, debugger.stack_sym_frame_info, STACK_SYM_FRAME_INFO structure [Windows Debugging], PSTACK_SYM_FRAME_INFO structure pointer [Windows Debugging], dbgeng/PSTACK_SYM_FRAME_INFO, dbgeng/STACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO
+ms.keywords: PSTACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO, debugger.stack_sym_frame_info, *PSTACK_SYM_FRAME_INFO, _STACK_SYM_FRAME_INFO, dbgeng/STACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO structure pointer [Windows Debugging], STACK_SYM_FRAME_INFO structure [Windows Debugging], dbgeng/PSTACK_SYM_FRAME_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _STACK_SYM_FRAME_INFO {
 
 
 
-#### - StackFrameEx
+### -field StackFrameEx
 
 A stack frame as a <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame_ex.md">DEBUG_STACK_FRAME_EX</a> structure. 
 
 
-#### - SrcInfo
+### -field SrcInfo
 
 Stack source information as a <a href="..\dbgeng\ns-dbgeng-_stack_src_info.md">STACK_SRC_INFO</a> structure.
 

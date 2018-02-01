@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, portcls/IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel method [Audio Devices], audio.iportwavepci_newmasterdmachannel, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel, IPortWavePci
+ms.keywords: NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel, IPortWavePci::NewMasterDmaChannel, portcls/IPortWavePci::NewMasterDmaChannel, audio.iportwavepci_newmasterdmachannel, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, IPortWavePci, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,57 +83,57 @@ NTSTATUS NewMasterDmaChannel(
 
 
 
-#### - OuterUnknown [in, optional]
+### -param OuterUnknown [in, optional]
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
-#### - ResourceList [in, optional]
+### -param ResourceList [in, optional]
 
 Pointer to the miniport driver's resource list, which is an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
 
 
-#### - ScatterGather [in]
+### -param ScatterGather [in]
 
 Requests that the DMA channel support scatter/gather DMA. Always set this parameter to <b>TRUE</b>.
 
 
-#### - Dma32BitAddresses [in]
+### -param Dma32BitAddresses [in]
 
 Specifies the use of 32-bit addresses for DMA operations.
 
 
-#### - Dma64BitAddresses [in]
+### -param Dma64BitAddresses [in]
 
 Specifies the use of 64-bit addresses for DMA operations.
 
 
-#### - IgnoreCount [in]
+### -param IgnoreCount [in]
 
 Indicates whether to ignore the DMA controller's transfer counter. Set to <b>TRUE</b> if the DMA controller in this platform does not maintain an accurate transfer counter, and therefore requires a workaround.
 
 
-#### - DmaWidth [in]
+### -param DmaWidth [in]
 
 Not used. Set to (DMA_WIDTH)(-1).
 
 
-#### - DmaSpeed [in]
+### -param DmaSpeed [in]
 
 Not used. Set to (DMA_SPEED)(-1).
 
 
-#### - MaximumLength [in]
+### -param MaximumLength [in]
 
 Maximum number of bytes in the buffer that will be associated with this DMA channel.
 
 
-#### - DmaPort [in]
+### -param DmaPort [in]
 
 Not used. Set to 0.
 
@@ -167,9 +167,9 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
 <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 

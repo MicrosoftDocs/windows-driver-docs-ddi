@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f0ae6fc-4f2f-4a1a-ac2f-93689f6b7d50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtRemovePolicy, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtremovepolicy, Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, wdm/ClfsMgmtRemovePolicy
+ms.keywords: ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtRemovePolicy, kernel.clfsmgmtremovepolicy, ClfsMgmtRemovePolicy, Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ClfsMgmtRemovePolicy(
 
 
 
-#### - LogFile [in]
+### -param LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log whose policy is being removed.
 
 
-#### - PolicyType [in]
+### -param PolicyType [in]
 
 A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of the policy to be removed.
 
@@ -163,9 +163,9 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
-
 <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+<a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
 
  
 

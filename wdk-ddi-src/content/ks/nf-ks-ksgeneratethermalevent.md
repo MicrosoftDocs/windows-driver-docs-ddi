@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: CE450017-1792-4B69-8289-902396D0D7B1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgeneratethermalevent, ks/KsGenerateThermalEvent, KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices]
+ms.keywords: ks/KsGenerateThermalEvent, KsGenerateThermalEvent, stream.ksgeneratethermalevent, KsGenerateThermalEvent function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ void KSDDKAPI NTSTATUS NTAPI KsGenerateThermalEvent(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 Can be  <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>, <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>, or <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>. Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
 
 
-#### - Value [in]
+### -param Value [in]
 
 KSDEVICE_THERMAL_STATE_LOW or KSDEVICE_THERMAL_STATE_HIGH
 

@@ -77,37 +77,37 @@ BOOLEAN ModifyMemoryWindow(
 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Pointer to the context for the interface routine.
 
 
-#### - HostBase [in]
+### -param HostBase [in]
 
 Specifies the physical memory window to map. <i>HostBase</i> is the base address for the memory card in the system's physical address space.
 
 
-#### - CardBase [in]
+### -param CardBase [in]
 
 Specifies the byte offset in the PC Card's or CardBus card's memory where the memory mapping begins.
 
 
-#### - Enable [in]
+### -param Enable [in]
 
 Specifies permission to access the memory window. If <i>Enable</i> is <b>TRUE</b>, memory access is permitted, otherwise memory access is not permitted.
 
 
-#### - WindowSize [in, optional]
+### -param WindowSize [in, optional]
 
 Specifies the size, in bytes, of the memory window that is mapped. The value of <i>WindowSize</i> cannot exceed the memory window granted to the driver in its assigned resources. If the value of Enable is <b>TRUE</b> and the value of WindowSize is zero, the size of the memory window granted to the driver in its assigned resources is used. If <i>Enable</i> is <b>FALSE</b>, <i>WindowSize</i> is not used.
 
 
-#### - AccessSpeed [in, optional]
+### -param AccessSpeed [in, optional]
 
 Specifies the access speed of the PC Card or CardBus card. The value of <i>AccessSpeed</i> is encoded as specified by the <i>PC Card Standard, Release 6.1</i>. If Enable is <b>FALSE</b>, <i>AccessSpeed</i> is not used.
 
 
-#### - BusWidth [in, optional]
+### -param BusWidth [in, optional]
 
 Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> must be one of the following values:
 

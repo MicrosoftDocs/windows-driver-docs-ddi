@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 73c6ddaa-f090-430a-86b5-61b33cb8ffc8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iowmisetsingleitem, wdm/IoWMISetSingleItem, k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], IoWMISetSingleItem
+ms.keywords: kernel.iowmisetsingleitem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], IoWMISetSingleItem, wdm/IoWMISetSingleItem, k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS IoWMISetSingleItem(
 
 
 
-#### - DataBlockObject [in]
+### -param DataBlockObject [in]
 
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_SET access right. 
 
 
-#### - InstanceName [in]
+### -param InstanceName [in]
 
 Specifies the name of the instance of the data block. This value corresponds to the value of the <b>InstanceName</b> property for the block. 
 
 
-#### - DataItemId [in]
+### -param DataItemId [in]
 
 Specifies the data item ID for the property to be set. The value of this parameter corresponds to the value declared in the <b>WmiDataId</b> qualifier for the property.
 
 
-#### - Version [in]
+### -param Version [in]
 
 Reserved for future use. Callers must set this parameter to zero.
 
 
-#### - ValueBufferSize [in]
+### -param ValueBufferSize [in]
 
 Specifies the size, in bytes, of the buffer passed in the <i>ValueBuffer</i> parameter.
 
 
-#### - ValueBuffer [in]
+### -param ValueBuffer [in]
 
 Pointer to the buffer that contains the new value for the property specified by the <i>DataItemId</i> parameter. 
 
@@ -195,11 +195,11 @@ Drivers can also use <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetS
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
 
 <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
  
 

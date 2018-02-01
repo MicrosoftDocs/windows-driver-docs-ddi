@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::ControlledOutputVaList, IDebugControl3, IDebugControl::ControlledOutputVaList, IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, dbgeng/IDebugControl3::ControlledOutputVaList, IDebugControl2::ControlledOutputVaList, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl3::ControlledOutputVaList, ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging], debugger.controlledoutputvalist, ControlledOutputVaList method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::ControlledOutputVaList
+ms.keywords: ControlledOutputVaList method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, IDebugControl3, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl2::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, ControlledOutputVaList, IDebugControl3::ControlledOutputVaList, debugger.controlledoutputvalist, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT ControlledOutputVaList(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies an output control that determines which client's output callbacks will receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-#### - Mask [in]
+### -param Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-#### - Format [in]
+### -param Format [in]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -421,7 +421,7 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </table></span></div>
 
 
-#### - Args [in]
+### -param Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
@@ -462,15 +462,15 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 

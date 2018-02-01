@@ -74,17 +74,17 @@ PHYSICAL_ADDRESS APIENTRY AgpReservePhysical(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - Pages [in]
+### -param Pages [in]
 
 Specifies the number of pages that the video port driver should reserve.
 
 
-#### - Caching [in]
+### -param Caching [in]
 
 Specifies the type of caching that the system should use. This parameter can be set to one of the following values.
 <table>
@@ -125,12 +125,7 @@ The system should use ordinary caching.
 </table> 
 
 
-#### - *PhysicalReserveContext [out]
-
-Specifies the location in which the video port driver writes a context handle that identifies the reserved physical address space.
-
-
-#### - PhysicalReserveContext [out]
+### -param *PhysicalReserveContext [out]
 
 Specifies the location in which the video port driver writes a context handle that identifies the reserved physical address space.
 
@@ -159,11 +154,11 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_ph
 
 ## -see-also
 
+<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
+
 <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
 
 <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-
-<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
 
  
 

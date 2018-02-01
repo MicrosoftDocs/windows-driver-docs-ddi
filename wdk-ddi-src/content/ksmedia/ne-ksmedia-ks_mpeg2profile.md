@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1846e6b7-5b98-4850-86d6-ef6a29ce050b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_MPEG2Profile_SNRScalable, KS_MPEG2Profile enumeration [Streaming Media Devices], ksmedia/KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile_Simple, KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_High, stream.ks_mpeg2profile, KS_MPEG2Profile_Main, KS_MPEG2Profile_High, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml, KS_MPEG2Profile, KS_MPEG2Profile_Simple, KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile
+ms.keywords: KS_MPEG2Profile_Main, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml, KS_MPEG2Profile_SNRScalable, KS_MPEG2Profile, KS_MPEG2Profile enumeration [Streaming Media Devices], ksmedia/KS_MPEG2Profile_Simple, KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_High, KS_MPEG2Profile_Simple, KS_MPEG2Profile_High, ksmedia/KS_MPEG2Profile_Main, stream.ks_mpeg2profile, ksmedia/KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum  {
 
 
 
-#### - KS_MPEG2Profile_Simple
+### -field KS_MPEG2Profile_Simple
 
 Specifies the simple MPEG-2 profile, generally intended for software applications and some cable television.
 
 
-#### - KS_MPEG2Profile_Main
+### -field KS_MPEG2Profile_Main
 
 Specifies the main MPEG-2 profile, generally intended for cable or satellite television.
 
 
-#### - KS_MPEG2Profile_SNRScalable
+### -field KS_MPEG2Profile_SNRScalable
 
 Similar to <b>KS_MPEG2Profile_Main</b>, with scalable signal-to-noise.
 
 
-#### - KS_MPEG2Profile_SpatiallyScalable
+### -field KS_MPEG2Profile_SpatiallyScalable
 
 Similar to <b>KS_MPEG2Profile_Main</b>, with spatial scalability.
 
 
-#### - KS_MPEG2Profile_High
+### -field KS_MPEG2Profile_High
 
 Similar to <b>KS_MPEG2Profile_Main</b>, with spatial scalability, scalable signal-to-noise, and 4:2:2 macroblocks.
 

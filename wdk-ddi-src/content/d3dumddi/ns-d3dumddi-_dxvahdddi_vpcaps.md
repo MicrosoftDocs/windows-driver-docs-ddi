@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e7e3280-3176-4bec-95ab-4dd203fce419
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVAHDDDI_VPCAPS, display.dxvahdddi_vpcaps, DXVAHDDDI_VPCAPS, d3dumddi/DXVAHDDDI_VPCAPS, DXVAHDDDI_VPCAPS structure [Display Devices], DXVA2_Structs_d3780f70-71f7-4105-a79e-df3abda62417.xml"
+ms.keywords: d3dumddi/DXVAHDDDI_VPCAPS, display.dxvahdddi_vpcaps, DXVAHDDDI_VPCAPS, DXVAHDDDI_VPCAPS structure [Display Devices], DXVA2_Structs_d3780f70-71f7-4105-a79e-df3abda62417.xml, _DXVAHDDDI_VPCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,24 +72,24 @@ typedef struct _DXVAHDDDI_VPCAPS {
 
 
 
-#### - VPGuid
+### -field VPGuid
 
 [out] A <b>GUID</b> that identifies the video processor. 
 
 
-#### - PastFrames
+### -field PastFrames
 
 [out] The number of past reference frames that are required to perform the optimal video processing. 
 
 
-#### - FutureFrames
+### -field FutureFrames
 
 
       [out] The number of future reference frames that are required to perform the optimal video processing. 
      
 
 
-#### - ProcessorCaps
+### -field ProcessorCaps
 
 [out] A bitwise <b>OR</b> of the following values from the DXVAHDDDI_PROCESSOR_CAPS enumeration to indicate video processor-specific capabilities.
 <table>
@@ -166,7 +166,7 @@ When the driver uses inverse telecine with normal rate de-interlacing, because t
 For more information about blend and Bob de-interlacing, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>. 
 
 
-#### - ITelecineCaps
+### -field ITelecineCaps
 
 [out] A bitwise <b>OR</b> of the following values from the DXVAHDDDI_ITELECINE_CAPS enumeration to indicate inverse telecine-specific capabilities.
 <table>
@@ -277,7 +277,7 @@ The driver can perform reverse non-standard telecine.
 </table> 
 
 
-#### - CustomRateCount
+### -field CustomRateCount
 
 [out] The number of supported custom output rates. The driver returns an array of <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a> structures for the custom output rates that the video processor supports when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCUSTOMRATES value set. 
 
@@ -291,15 +291,15 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPCAPS s
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
 
  
 

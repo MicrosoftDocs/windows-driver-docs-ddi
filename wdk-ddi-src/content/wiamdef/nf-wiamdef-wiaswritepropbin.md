@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 953a43dd-1cab-442b-9d77-f310805166ee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasWritePropBin, wiasFncs_fa38d5cc-94dd-4a1f-9e24-e12c42ce0429.xml, wiasWritePropBin function [Imaging Devices], wiamdef/wiasWritePropBin, image.wiaswritepropbin
+ms.keywords: wiasWritePropBin, wiasWritePropBin function [Imaging Devices], wiasFncs_fa38d5cc-94dd-4a1f-9e24-e12c42ce0429.xml, image.wiaswritepropbin, wiamdef/wiasWritePropBin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasWritePropBin(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - propid
+### -param propid
 
 Specifies the property identifier.
 
 
-#### - cbVal
+### -param cbVal
 
 Specifies the total number of bytes to write to the item.
 
 
-#### - pbVal [in]
+### -param pbVal [in]
 
 Pointer to the first byte of an array of bytes to be written to the item.
 
@@ -100,15 +100,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
 
  
 

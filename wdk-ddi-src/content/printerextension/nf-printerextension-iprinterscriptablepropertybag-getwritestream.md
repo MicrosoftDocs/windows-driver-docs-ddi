@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: EFF55B5C-55E2-4E03-9D96-FDB1BC550A53
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices], GetWriteStream method, GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::GetWriteStream, GetWriteStream, GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream
+ms.keywords: GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getwritestream, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::GetWriteStream, GetWriteStream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream, GetWriteStream method [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices], GetWriteStream method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetWriteStream(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The property to write.
 
 
-#### - ppStream [out, retval]
+### -param ppStream [out, retval]
 
 The retrieved stream.
 
@@ -97,9 +97,9 @@ A call to <b>GetWriteStream</b> will throw an exception, if the specified proper
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
 
  
 

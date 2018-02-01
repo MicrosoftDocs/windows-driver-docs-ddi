@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78960e0c-6b27-4331-a0e0-3f7ba13a54cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwps_fields_rpc_epmap, FWPS_FIELD_RPC_EPMAP_PROTOCOL, fwpsk/FWPS_FIELDS_RPC_EPMAP, FWPS_FIELDS_RPC_EPMAP, FWPS_FIELDS_RPC_EPMAP enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_RPC_EPMAP_AUTH_TYPE, FWPS_FIELD_RPC_EPMAP_AUTH_TYPE, fwpsk/FWPS_FIELD_RPC_EPMAP_PROTOCOL, FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_IF_UUID, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_PORT, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6, FWPS_FIELD_RPC_EPMAP_IF_VERSION, FWPS_FIELD_RPC_EPMAP_PIPE, fwpsk/FWPS_FIELD_RPC_EPMAP_IF_VERSION, FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM, wfp_ref_5_const_3_data_fields_64131f70-58be-4569-913f-fc651c8bab8f.xml, FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN, FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4, FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM, fwpsk/FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL, fwpsk/FWPS_FIELD_RPC_EPMAP_MAX, FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE, FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4, FWPS_FIELDS_RPC_EPMAP_, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4, FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL, FWPS_FIELD_RPC_EPMAP_MAX, fwpsk/FWPS_FIELD_RPC_EPMAP_PIPE, FWPS_FIELD_RPC_EPMAP_LOCAL_PORT, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE, FWPS_FIELD_RPC_EPMAP_IF_UUID
+ms.keywords: fwpsk/FWPS_FIELD_RPC_EPMAP_PIPE, FWPS_FIELD_RPC_EPMAP_PROTOCOL, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_PORT, FWPS_FIELD_RPC_EPMAP_LOCAL_PORT, fwpsk/FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4, FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN, fwpsk/FWPS_FIELD_RPC_EPMAP_MAX, wfp_ref_5_const_3_data_fields_64131f70-58be-4569-913f-fc651c8bab8f.xml, fwpsk/FWPS_FIELD_RPC_EPMAP_IF_UUID, FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM, fwpsk/FWPS_FIELD_RPC_EPMAP_AUTH_TYPE, FWPS_FIELDS_RPC_EPMAP, fwpsk/FWPS_FIELD_RPC_EPMAP_PROTOCOL, FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4, fwpsk/FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL, FWPS_FIELD_RPC_EPMAP_MAX, FWPS_FIELDS_RPC_EPMAP enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN, FWPS_FIELD_RPC_EPMAP_AUTH_TYPE, FWPS_FIELD_RPC_EPMAP_PIPE, FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL, fwpsk/FWPS_FIELD_RPC_EPMAP_IF_VERSION, FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE, FWPS_FIELDS_RPC_EPMAP_, netvista.fwps_fields_rpc_epmap, FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM, FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4, FWPS_FIELD_RPC_EPMAP_IF_VERSION, fwpsk/FWPS_FIELDS_RPC_EPMAP, FWPS_FIELD_RPC_EPMAP_IF_UUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,30 +83,22 @@ typedef enum FWPS_FIELDS_RPC_EPMAP_ {
 
 
 
-#### - FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN
+### -field FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN
 
 The identification of the remote user.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_IF_UUID
+### -field FWPS_FIELD_RPC_EPMAP_IF_UUID
 
 The UUID of the RPC interface.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_IF_VERSION
+### -field FWPS_FIELD_RPC_EPMAP_IF_VERSION
 
 The version of the RPC interface.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_PROTOCOL
-
-
-
-####  The possible condition values are:
-
-
-
-#### RPC_PROTSEQ_TCP
+### -field FWPS_FIELD_RPC_EPMAP_PROTOCOL
 
 
 
@@ -118,59 +110,67 @@ The version of the RPC interface.
 
 
 
-#### - FWPS_FIELD_RPC_EPMAP_AUTH_TYPE
+#### RPC_PROTSEQ_TCP
+
+
+
+####  The possible condition values are:
+
+
+
+### -field FWPS_FIELD_RPC_EPMAP_AUTH_TYPE
 
 The authentication service type. For more information about authentication service types, see
      Authentication-Service Constants in the RPC section of the Microsoft Windows SDK documentation.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL
+### -field FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL
 
 The authentication service level. For more information about authentication service levels, see
      Authentication-Service Constants in the RPC section of the Windows SDK documentation.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM
+### -field FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM
 
 The certificate-based security service provider interface (SSPI) encryption algorithm.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE
+### -field FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE
 
 The certificate-based SSPI encryption key size.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4
+### -field FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4
 
 The local IPv4 address.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6
+### -field FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6
 
 The local IPv6 address.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_LOCAL_PORT
+### -field FWPS_FIELD_RPC_EPMAP_LOCAL_PORT
 
 The local transport protocol port number.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_PIPE
+### -field FWPS_FIELD_RPC_EPMAP_PIPE
 
 The name of the remote named pipe.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4
+### -field FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4
 
 The remote IPv4 address.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6
+### -field FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6
 
 The remote IPv6 address.
 
 
-#### - FWPS_FIELD_RPC_EPMAP_MAX
+### -field FWPS_FIELD_RPC_EPMAP_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

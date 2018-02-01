@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5fa4b7e2-8215-49d8-9d70-b45c972b39b4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: StatusMiracast, StatusUninitialized, _DXGK_CHILD_STATUS_TYPE, StatusRotation, DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, StatusConnection, dispmprt/PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], display.dxgk_child_status_type, dispmprt/StatusUninitialized, *PDXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusConnection, dispmprt/StatusRotation, dispmprt/StatusMiracast, dispmprt/DXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], DXGK_CHILD_STATUS_TYPE
+ms.keywords: dispmprt/PDXGK_CHILD_STATUS_TYPE, StatusRotation, StatusMiracast, dispmprt/StatusMiracast, display.dxgk_child_status_type, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, dispmprt/StatusRotation, _DXGK_CHILD_STATUS_TYPE, StatusUninitialized, StatusConnection, *PDXGK_CHILD_STATUS_TYPE, dispmprt/DXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusUninitialized, dispmprt/StatusConnection, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _DXGK_CHILD_STATUS_TYPE {
 
 
 
-#### - StatusUninitialized
+### -field StatusUninitialized
 
 Indicates that a variable of type DXGK_CHILD_STATUS_TYPE has not yet been assigned a meaningful value.
 
 
-#### - StatusConnection
+### -field StatusConnection
 
 Indicates that the request or report pertains to whether the child device has a monitor (or other display device) connected to it.
 
 
-#### - StatusRotation
+### -field StatusRotation
 
 Indicates that the request or report pertains to the rotation angle of the monitor (or other display device) that is connected to the child device.
 
@@ -108,9 +108,9 @@ The <b>Type</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
  
 

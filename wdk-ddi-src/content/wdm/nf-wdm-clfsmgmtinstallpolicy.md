@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsmgmtinstallpolicy, Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy
+ms.keywords: wdm/ClfsMgmtInstallPolicy, kernel.clfsmgmtinstallpolicy, Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS ClfsMgmtInstallPolicy(
 
 
 
-#### - LogFile [in]
+### -param LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log that this instance of the <b>CLFS_MGMT_POLICY</b> structure will apply to. The policy applies to all streams within the log, even if a single stream within the log was specified. 
 
 
-#### - Policy [in]
+### -param Policy [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure that contains the policy to be installed.
 
 
-#### - PolicyLength [in]
+### -param PolicyLength [in]
 
 The length, in bytes, of the structure pointed to by the <i>Policy</i> parameter. 
 

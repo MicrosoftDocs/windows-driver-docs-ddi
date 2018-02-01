@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b4a4cc4b-8f23-4dd6-81d3-4cb2c861ba4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQueryInformationTransaction, NtQueryInformationTransaction, wdm/ZwQueryInformationTransaction, kernel.zwqueryinformationtransaction, wdm/NtQueryInformationTransaction, ZwQueryInformationTransaction routine [Kernel-Mode Driver Architecture], ktm_ref_ffef2acc-e180-4adf-8aa5-31ee7dae0592.xml
+ms.keywords: wdm/ZwQueryInformationTransaction, ktm_ref_ffef2acc-e180-4adf-8aa5-31ee7dae0592.xml, ZwQueryInformationTransaction, NtQueryInformationTransaction, kernel.zwqueryinformationtransaction, ZwQueryInformationTransaction routine [Kernel-Mode Driver Architecture], wdm/NtQueryInformationTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS ZwQueryInformationTransaction(
 
 
 
-#### - TransactionHandle [in]
+### -param TransactionHandle [in]
 
 A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>. The handle must have TRANSACTION_QUERY_INFORMATION access to the object.
 
 
-#### - TransactionInformationClass [in]
+### -param TransactionInformationClass [in]
 
 A <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>-typed value that specifies the information to obtain. The value must be one of the following values:
 <ul>
@@ -97,17 +97,17 @@ A <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMAT
 </ul>The <b>TransactionFullInformation</b> value is not used with <b>ZwQueryInformationTransaction</b>.
 
 
-#### - TransactionInformation [out]
+### -param TransactionInformation [out]
 
 A pointer to a caller-allocated buffer that receives the information that the <i>TransactionInformationClass</i> parameter specifies. The buffer's structure type must be <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>, <a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>, or <a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>.
 
 
-#### - TransactionInformationLength [in]
+### -param TransactionInformationLength [in]
 
 The length, in bytes, of the buffer that the <i>TransactionInformation</i> parameter points to, including the length of any additional array elements that the caller has allocated to receive information.
 
 
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>TransactionInformation</i> buffer. This parameter is optional and can be <b>NULL</b>. 
 
@@ -206,23 +206,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+<a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
+
 <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
 <a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
-<a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
 <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
-
-<a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

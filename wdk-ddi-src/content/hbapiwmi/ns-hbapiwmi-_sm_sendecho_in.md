@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0fce2e27-8705-4916-8c75-ecc2845c255c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_b5bcd1e0-9847-4425-8091-6b6dcf7581a0.xml, PSM_SendECHO_IN, SM_SendECHO_IN, SM_SendECHO_IN structure [Storage Devices], hbapiwmi/SM_SendECHO_IN, _SM_SendECHO_IN, hbapiwmi/PSM_SendECHO_IN, *PSM_SendECHO_IN, PSM_SendECHO_IN structure pointer [Storage Devices], storage.sm_sendecho_in
+ms.keywords: SM_SendECHO_IN structure [Storage Devices], structs-Fibre_b5bcd1e0-9847-4425-8091-6b6dcf7581a0.xml, storage.sm_sendecho_in, hbapiwmi/SM_SendECHO_IN, SM_SendECHO_IN, hbapiwmi/PSM_SendECHO_IN, *PSM_SendECHO_IN, PSM_SendECHO_IN, _SM_SendECHO_IN, PSM_SendECHO_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _SM_SendECHO_IN {
 
 
 
-#### - HbaPortWWN
+### -field HbaPortWWN
 
 The local HBA port worldwide name (WWN).
 
 
-#### - DestWWN
+### -field DestWWN
 
 The remote HBA port worldwide name (WWN) to which the command will be sent.
 
 
-#### - DestFCID
+### -field DestFCID
 
 The address identifier of the remote port.
 
 
-#### - InRespBufferMaxSize
+### -field InRespBufferMaxSize
 
 The maximum response buffer size.
 
 
-#### - ReqBufferSize
+### -field ReqBufferSize
 
 The request buffer size.
 
 
-#### - ReqBuffer
+### -field ReqBuffer
 
 The request buffer data.
 

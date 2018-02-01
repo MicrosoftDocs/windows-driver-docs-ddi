@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 076B47F5-8312-43E3-AE75-D4DDA8C0A181
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_DESTROYHWQUEUE, D3DKMT_DESTROYHWQUEUE, d3dkmthk/D3DKMT_DESTROYHWQUEUE, display.d3dkmt_destroyhwqueue, D3DKMT_DESTROYHWQUEUE structure [Display Devices]"
+ms.keywords: d3dkmthk/D3DKMT_DESTROYHWQUEUE, D3DKMT_DESTROYHWQUEUE structure [Display Devices], _D3DKMT_DESTROYHWQUEUE, D3DKMT_DESTROYHWQUEUE, display.d3dkmt_destroyhwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DKMT_DESTROYHWQUEUE {
 
 
 
-#### - hHwQueue
+### -field hHwQueue
 
 Handle to the hardware queue to be destroyed.
 

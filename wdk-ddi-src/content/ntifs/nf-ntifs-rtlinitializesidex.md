@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInitializeSidEx routine [Installable File System Drivers], RtlInitializeSidEx, ntifs/RtlInitializeSidEx, ifsk.rtlinitializesidex
+ms.keywords: RtlInitializeSidEx routine [Installable File System Drivers], ntifs/RtlInitializeSidEx, ifsk.rtlinitializesidex, RtlInitializeSidEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlInitializeSidEx(
 
 
 
-#### - Sid [out]
+### -param Sid [out]
 
 Pointer to a caller-allocated SID structure to be initialized. 
 
 
-#### - IdentifierAuthority [in]
+### -param IdentifierAuthority [in]
 
 Pointer to an <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a> structure to set in the SID structure. 
 
 
-#### - SubAuthorityCount [in]
+### -param SubAuthorityCount [in]
 
 Number of sub-authorities to set in the SID.
 

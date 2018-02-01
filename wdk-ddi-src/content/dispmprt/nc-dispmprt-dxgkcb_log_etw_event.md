@@ -77,17 +77,17 @@ VOID DxgkCbLogEtwEvent(
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 A constant that specifies the event type. These constants  are defined in Evntrace.h and have the form of <b>EVENT_TRACE_TYPE_XX</b>.
 
 
-#### - EventBufferSize [in]
+### -param EventBufferSize [in]
 
 The size, in bytes, of the buffer pointed to by <i>EventBuffer</i>. There is a significant performance penalty if the buffer is larger than 256 bytes.
 
 
-#### - EventBuffer [in]
+### -param EventBuffer [in]
 
 A pointer to a buffer that contains the information to be logged.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b685f2f5-3491-471d-b1da-07a7e56bda62
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], audio.ksaudio_mixlevel, KSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], ksmedia/KSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL
+ms.keywords: audio.ksaudio_mixlevel, ksmedia/KSAUDIO_MIXLEVEL, aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, KSAUDIO_MIXLEVEL structure [Audio Devices], KSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], PKSAUDIO_MIXLEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - Mute
+### -field Mute
 
 Specifies whether the input channel is muted (not mixed) as it flows into the output channel. A value of <b>TRUE</b> indicates that the channel is muted. A value of <b>FALSE</b> indicates that the channel's mix level is specified by the <b>Level</b> member.
 
 
-#### - Level
+### -field Level
 
 Specifies the mix level that is applied to the input channel as it flows into the output channel. For more information, see the following Remarks section.
 
@@ -101,9 +101,9 @@ This scale has a resolution of 1/65536 decibel.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
 

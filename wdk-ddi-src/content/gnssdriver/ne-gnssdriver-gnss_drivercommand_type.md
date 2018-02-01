@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_ForceSatelliteSystem, gnssdriver/GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_ForceOperationMode, GNSS_ResetGeofencesTracking, GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_SetNMEALogging, GNSS_ForceSatelliteSystem, GNSS_ForceOperationMode, gnssdriver/GNSS_ClearAgnssData, GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_CustomCommand, GNSS_ResetEngine, GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ResetGeofencesTracking, GNSS_SetLocationServiceEnabled, GNSS_SetUplServerAccessInterval, GNSS_ClearAgnssData, sensors.gnss_drivercommand_type, GNSS_SetLocationNIRequestAllowed, GNSS_SetNMEALogging, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_SetLocationServiceEnabled, GNSS_SetSuplVersion, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_SetSuplVersion
+ms.keywords: gnssdriver/GNSS_DRIVERCOMMAND_TYPE, GNSS_ResetEngine, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_CustomCommand, GNSS_ForceSatelliteSystem, GNSS_CustomCommand, gnssdriver/GNSS_SetLocationServiceEnabled, GNSS_SetUplServerAccessInterval, GNSS_SetLocationNIRequestAllowed, GNSS_ResetGeofencesTracking, GNSS_SetNMEALogging, gnssdriver/GNSS_SetUplServerAccessInterval, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_ForceOperationMode, GNSS_ForceOperationMode, gnssdriver/GNSS_ResetEngine, GNSS_ClearAgnssData, sensors.gnss_drivercommand_type, gnssdriver/GNSS_ForceSatelliteSystem, GNSS_SetLocationServiceEnabled, GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetSuplVersion, GNSS_SetSuplVersion, gnssdriver/GNSS_SetNMEALogging, GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_SetNiTimeoutInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,7 +78,7 @@ typedef enum  {
 
 
 
-#### - GNSS_SetLocationServiceEnabled
+### -field GNSS_SetLocationServiceEnabled
 
 Informs the driver whether location is enabled on the device. This command is issued each time the location service is enabled/disabled on the device. The associated command data is a <b>BOOL</b>.
 
@@ -119,7 +119,7 @@ Other network initiated location requests should honor the <b>GNSS_SetLocationNI
 </ul>Unless this command is issued by the GNSS adapter, the driver must assume that the location service is disabled on the system. 
 
 
-#### - GNSS_SetLocationNIRequestAllowed
+### -field GNSS_SetLocationNIRequestAllowed
 
 Informs the driver if it is allowed to entertain network initiated location requests coming from the mobile network. The command only needs to be supported if required by the mobile operator. As of Windows 10, Microsoft is not aware of any mobile operator requiring this any longer, but this remains to avoid  any blocking issues during commercialization. If the command is not implemented, the GNSS driver should simply keep its default behavior.
 
@@ -142,7 +142,7 @@ The GNSS adapter will evaluate the value of these two settings and will indicate
 The location requests for emergency services or for CALEA (for example, the case of privacy override being set) must be served regardless of the value of this setting.
 
 
-#### - GNSS_ForceSatelliteSystem
+### -field GNSS_ForceSatelliteSystem
 
 This command causes the GNSS driver to use the specified satellite system(s) for getting fixes. The parameter is a <b>DWORD</b> with the following values:
 <pre class="syntax" xml:space="preserve"><code>#define GNSS_SATELLITE_ANY          0x00
@@ -155,7 +155,7 @@ This command causes the GNSS driver to use the specified satellite system(s) for
 This is expected to be used only for test purposes. Some mobile operators do require validations using a single satellite system.
 
 
-#### - GNSS_ForceOperationMode
+### -field GNSS_ForceOperationMode
 
 This command causes the GNSS driver to use the specified operation mode. The parameter is a <b>DWORD</b> with the following values:
 <pre class="syntax" xml:space="preserve"><code>#define GNSS_OPERMODE_ANY          0x00
@@ -179,7 +179,7 @@ To configure different modes of operation for test purposes. This would mostly b
 </li>
 </ul><div class="alert"><b>Note</b>  Setting the SUPL <b>GNSS_ForceOperationMode</b> to <b>GNSS_OPERMODE_MSS</b> is an indication to the GNSS system to not do any kind of interaction with the SUPL server for AGNSS data.</div><div> </div>
 
-#### - GNSS_ResetEngine
+### -field GNSS_ResetEngine
 
 This command clears up the state of the GNSS engine. After this command is issued the engine will be ready for a cold start fix:
 <ul>
@@ -198,7 +198,7 @@ The GNSS engine configuration parameters will persist.
 </ul>This command should only be called when there is no active fix session. This command is typically used for recursively testing the GNSS time to first fix on cold start.
 
 
-#### - GNSS_ClearAgnssData
+### -field GNSS_ClearAgnssData
 
 This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific <a href="..\gnssdriver\ne-gnssdriver-gnss_agnss_request_type.md">GNSS_AGNSS_REQUEST_TYPE</a> enumeration to indicate the specific data element to be cleared:
 <ul>
@@ -217,7 +217,7 @@ If <b>GNSS_AGNSS_BlobInjection</b> is specified, both ephemeris acquired from th
 </ul>It is highly recommended that this command is supported for test purposes even if the assistance data is not obtained from the OS location platform.
 
 
-#### - GNSS_SetSuplVersion
+### -field GNSS_SetSuplVersion
 
 This command sets the SUPL version that the mobile operator wants supported. The command data contains a value of <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_version.md">GNSS_SUPL_VERSION</a> structure which includes both the major and the minor SUPL versions indicated by the mobile operator. The SUPL client should use the SUPL version as specifies in the OMA SUPL standards, summarizing:
 <ul>
@@ -231,7 +231,7 @@ For SET initiated SUPL sessions, the initial SUPL message from the SET carries t
 </li>
 </ul>
 
-#### - GNSS_SetNMEALogging
+### -field GNSS_SetNMEALogging
 
 This command sets the status for NMEA logging.
 
@@ -243,24 +243,24 @@ This command causes the GNSS driver to start/stop providing the data fix informa
 This command has been introduced to support OEM testing. This command is not used by the location framework or by Microsoft test tools.
 
 
-#### - GNSS_SetUplServerAccessInterval
+### -field GNSS_SetUplServerAccessInterval
 
 This command sets the minimum time in between requests to the server for assisted position to prevent service overload. The time interval is specified in seconds.
 
 Mobile operators may use the configuration service provider to tune this setting, if they require it.  If this parameter is not supported, if can be ignored, but the SUPL configuration commands must not fail.
 
 
-#### - GNSS_SetNiTimeoutInterval
+### -field GNSS_SetNiTimeoutInterval
 
 This command sets how much time the device must wait for input from a user before it responds to the NI request executing the default action. The time interval is specified in seconds and the default value is 35 seconds. This timeout is 5 seconds larger than the timeout used by the operating system to wait for response from the user, and it is simply a failsafe in case of the operating system not responding. This command is applicable only to network initiated requests in which the verification from the user is requested. Mobile operators may use the configuration service provider to override the default value from the operating system. In such case the default values specified above should be replaced by the values provided by the mobile operator.
 
 
-#### - GNSS_ResetGeofencesTracking
+### -field GNSS_ResetGeofencesTracking
 
 This command resets the geofence tracking operation. The GNSS driver must delete all geofences from the GNSS engine, stop geofence tracking and stop monitoring for signal conditions. The geofence tracking operation will begin as usual only when the HLOS creates one or more new geofences.
 
 
-#### - GNSS_CustomCommand
+### -field GNSS_CustomCommand
 
 Range for custom IHV-specific GNSS commands:  0x0100 – 0x01FF
 

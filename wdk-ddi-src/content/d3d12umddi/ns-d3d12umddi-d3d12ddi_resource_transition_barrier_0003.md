@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 86E2A0A4-F02C-43E7-8CC1-395B444299A6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_resource_transition_barrier_0003, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 structure [Display Devices], d3d12umddi/D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
+ms.keywords: d3d12umddi/D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 structure [Display Devices], display.d3d12ddi_resource_transition_barrier_0003
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 {
 
 
 
-#### - hResource
+### -field hResource
 
 The handle of a resource.
 
 
-#### - Subresource
+### -field Subresource
 
 A subresource.
 
 
-#### - StateBefore
+### -field StateBefore
 
 The state before a transition.
 
 
-#### - StateAfter
+### -field StateAfter
 
 The state after a transition.
 

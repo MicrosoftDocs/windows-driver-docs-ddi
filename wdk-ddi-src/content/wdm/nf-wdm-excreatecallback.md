@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8532a6d-2b7f-4ed6-a2e4-6157d5e842ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExCreateCallback, wdm/ExCreateCallback, kernel.excreatecallback, k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, ExCreateCallback routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.excreatecallback, wdm/ExCreateCallback, ExCreateCallback, k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, ExCreateCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS ExCreateCallback(
 
 
 
-#### - CallbackObject [out]
+### -param CallbackObject [out]
 
 A pointer to a location that receives a pointer to a callback object, which is an opaque, system structure. If the <b>ExCreateCallback</b> call succeeds, the routine writes the address of the newly created or opened callback object to this location. The callback object pointer obtained from this routine can be supplied as a parameter to the <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a> or <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a> routine.
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that contains the callback object's attributes. This structure was previously initialized by the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine.
 
 
-#### - Create [in]
+### -param Create [in]
 
 Whether to create a callback object. Set to <b>TRUE</b> to create a new callback object if the requested object cannot be opened. Otherwise, set to <b>FALSE</b>.
 
 
-#### - AllowMultipleCallbacks [in]
+### -param AllowMultipleCallbacks [in]
 
 Whether a newly created callback object should allow multiple registered callback routines. Set to <b>TRUE</b> to allow multiple registered callback routines. Otherwise, set to <b>FALSE</b>. This parameter is ignored when <i>Create</i> is <b>FALSE</b> or when opening an existing object.
 
@@ -141,13 +141,13 @@ For more information about callback objects, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
+<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
+<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
  
 

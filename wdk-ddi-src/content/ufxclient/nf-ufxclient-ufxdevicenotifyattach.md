@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDeviceNotifyAttach method [Buses], UfxDeviceNotifyAttach, buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
+ms.keywords: UfxDeviceNotifyAttach, ufxclient/UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID UfxDeviceNotifyAttach(
 
 
 
-#### - UfxDevice [in]
+### -param UfxDevice [in]
 
 A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 

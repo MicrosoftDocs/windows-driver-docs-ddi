@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40971ff3-6fd3-480b-aba9-7f572d6e1ce2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksdevicegetbusdata, ks/KsDeviceGetBusData, avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, KsDeviceGetBusData function [Streaming Media Devices], KsDeviceGetBusData
+ms.keywords: KsDeviceGetBusData function [Streaming Media Devices], avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, stream.ksdevicegetbusdata, KsDeviceGetBusData, ks/KsDeviceGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ ULONG KsDeviceGetBusData(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the given AVStream device for which data from the bus should be read. 
 
 
-#### - DataType [in]
+### -param DataType [in]
 
 This parameter indicates the type of bus data to be read. Zero corresponds to configuration space. For further information, see the discussion of <b>WhichSpace</b> in the reference page for <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer that receives the data read from the bus. Must be at least as large as <i>Length</i>.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 This parameter contains the byte offset in the space specified by <i>DataType</i> from which data is read.
 
 
-#### - Length [in]
+### -param Length [in]
 
 This parameter specifies the number of bytes to read into <i>Buffer</i>.
 

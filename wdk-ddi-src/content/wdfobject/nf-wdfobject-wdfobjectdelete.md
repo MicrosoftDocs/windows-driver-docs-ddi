@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09eceeb4-8501-48c4-84f5-aa747914f9dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfObjectDelete, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, wdf.wdfobjectdelete, WdfObjectDelete method, kmdf.wdfobjectdelete, wdfobject/WdfObjectDelete, PFN_WDFOBJECTDELETE
+ms.keywords: WdfObjectDelete method, kmdf.wdfobjectdelete, wdf.wdfobjectdelete, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, WdfObjectDelete, wdfobject/WdfObjectDelete, PFN_WDFOBJECTDELETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfObjectDelete(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 A handle to framework object.
 

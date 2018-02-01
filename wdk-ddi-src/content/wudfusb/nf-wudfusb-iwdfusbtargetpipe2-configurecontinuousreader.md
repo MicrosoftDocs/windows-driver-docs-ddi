@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, ConfigureContinuousReader method, wdf.iwdfusbtargetpipe2_configurecontinuousreader, umdf.iwdfusbtargetpipe2_configurecontinuousreader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader, IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2
+ms.keywords: IWDFUsbTargetPipe2::ConfigureContinuousReader, ConfigureContinuousReader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, IWDFUsbTargetPipe2, umdf.iwdfusbtargetpipe2_configurecontinuousreader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,42 +77,42 @@ HRESULT ConfigureContinuousReader(
 
 
 
-#### - TransferLength [in]
+### -param TransferLength [in]
 
 The maximum length, in bytes, of data that can be received from the device.
 
 
-#### - HeaderLength [in]
+### -param HeaderLength [in]
 
 An offset, in bytes, into the buffer that receives data from the device. The framework will store data from the device in a read buffer, beginning at the offset value. In other words, this space precedes the <i>TransferLength</i>-sized space in which the framework stores data from the device.
 
 
-#### - TrailerLength [in]
+### -param TrailerLength [in]
 
 The length, in bytes, of a trailing buffer space. This space follows the <i>TransferLength</i>-sized space in which the framework stores data from the device.
 
 
-#### - NumPendingReads [in]
+### -param NumPendingReads [in]
 
 The number of read requests that the framework will queue to receive data from the I/O target. If this value is zero, the framework uses a default number of read requests. If the specified value is greater than the permitted maximum value, the framework uses the permitted maximum value. For more information about the <i>NumPendingReads</i> parameter, see the following Remarks section.
 
 
-#### - pMemoryCleanupCallbackInterface [in, optional]
+### -param pMemoryCleanupCallbackInterface [in, optional]
 
 A pointer to a driver-supplied <b>IUnkown</b> interface that the framework uses to access an optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> callback function. The framework calls the callback function when it deallocates the read buffer that it creates to handle the continuous read operation. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pOnCompletion [in]
+### -param pOnCompletion [in]
 
 A pointer to a driver-supplied <a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface that provides an <a href="https://msdn.microsoft.com/946e0206-7609-4dc7-91c2-a6aadad91751">OnReaderCompletion</a> callback function. 
 
 
-#### - pCompletionContext [in, optional]
+### -param pCompletionContext [in, optional]
 
 An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a> callback function. 
 
 
-#### - pOnFailure [in, optional]
+### -param pOnFailure [in, optional]
 
 A pointer to a driver-supplied <a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed.md">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a> interface that provides an <a href="https://msdn.microsoft.com/ad91208e-e57a-4b80-b1a1-13b9f7eb1119">OnReaderFailure</a> callback function. 
 
@@ -210,21 +210,21 @@ For more information about the <b>ConfigureContinuousReader</b> method and USB I
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
 
  
 

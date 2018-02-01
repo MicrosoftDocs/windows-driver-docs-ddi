@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e6197993-b998-424e-ab5d-a91a57c7398c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetParentItem method [Imaging Devices], image.iwiadrvitem_getparentitem, IWiaDrvItem interface [Imaging Devices], GetParentItem method, wiamindr_lh/IWiaDrvItem::GetParentItem, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetParentItem, GetParentItem, IWiaDrvItem
+ms.keywords: IWiaDrvItem::GetParentItem, image.iwiadrvitem_getparentitem, GetParentItem method [Imaging Devices], IWiaDrvItem, GetParentItem, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, wiamindr_lh/IWiaDrvItem::GetParentItem, GetParentItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], GetParentItem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

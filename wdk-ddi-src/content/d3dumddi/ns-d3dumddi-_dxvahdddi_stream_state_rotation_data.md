@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c874df6-6b47-4501-9eaf-7c07f0172580
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_ROTATION_DATA, display.dxvahdddi_stream_state_rotation_data, _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices]
+ms.keywords: display.dxvahdddi_stream_state_rotation_data, _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVAHDDDI_STREAM_STATE_ROTATION_DATA {
 
 
 
-#### - Enable
+### -field Enable
 
 A Boolean value that specifies whether the driver should rotate the output surface. The default value is <b>FALSE</b>, which indicates that rotation is disabled.
 
 
-#### - Rotation
+### -field Rotation
 
 The clockwise degrees of rotation as specified by a <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_rotation.md">DXVAHDDDI_ROTATION</a> enumeration value.
 

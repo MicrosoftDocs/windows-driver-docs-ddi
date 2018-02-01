@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 10cfc201-d5c9-4887-997e-673ef6abb7db
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_ERROR_PACKET_V2 structure [WHEA Drivers and Applications], WHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET, PWHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V2 structure pointer [WHEA Drivers and Applications], whearef_dda917df-4c9e-435e-ab12-1520e13d3dac.xml, ntddk/PWHEA_ERROR_PACKET_V2, whea.whea_error_packet_v2, _WHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET_V2, ntddk/WHEA_ERROR_PACKET_V2
+ms.keywords: ntddk/WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET, whearef_dda917df-4c9e-435e-ab12-1520e13d3dac.xml, WHEA_ERROR_PACKET, whea.whea_error_packet_v2, _WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET_V2 structure [WHEA Drivers and Applications], PWHEA_ERROR_PACKET_V2 structure pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET_V2, ntddk/PWHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,53 +82,58 @@ typedef struct _WHEA_ERROR_PACKET_V2 {
 
 
 
-#### - Signature
+### -field Signature
 
 The signature of the hardware error packet. This member contains the value WHEA_ERROR_PACKET_V2_SIGNATURE.
 
 
-#### - Version
+### -field Version
 
 The version of the WHEA_ERROR_PACKET_V2 structure. This member contains the value WHEA_ERROR_PKT_V2_VERSION.
 
 
-#### - Length
+### -field Length
 
 The size, in bytes, of the hardware error packet, including the hardware error data and PSHED data.
 
 
-#### - Flags
+### -field Flags
 
 A <a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a> union that specifies the format of the hardware error data. 
 
 
-#### - ErrorType
+### -field ErrorType
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a> value that specifies the type of hardware component that reported the hardware error.
 
 
-#### - ErrorSeverity
+### -field ErrorSeverity
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a> value that specifies the severity of the error condition.
 
 
-#### - ErrorSourceId
+### -field ErrorSourceId
 
 The identifier of the error source that reported the hardware error.
 
 
-#### - ErrorSourceType
+### -field ErrorSourceType
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a> value that indicates the type of the error source that reported the hardware error.
 
 
-#### - NotifyType
+### -field NotifyType
 
 A GUID that identifies the notification mechanism by which an error condition is reported to the operating system. The following are the GUIDs for the standard notification types:
 
 
 
 For error notification types that do not conform to one of the standard types in the previous list, a platform-specific GUID can be defined to identify the notification mechanism. If the notification type does not correspond to any of the standard notification types or any platform-specific notification types, this member is set to GENERIC_NOTIFY_TYPE_GUID.
+
+
+#### BOOT_NOTIFY_TYPE_GUID
+
+Boot Error Record (BOOT)
 
 
 #### CMC_NOTIFY_TYPE_GUID
@@ -141,19 +146,14 @@ Corrected Machine Check (CMC)
 Corrected Platform Error (CPE)
 
 
-#### MCE_NOTIFY_TYPE_GUID
-
-Machine Check Exception (MCE)
-
-
-#### PCIe_NOTIFY_TYPE_GUID
-
-PCI Express (PCIe) Error
-
-
 #### INIT_NOTIFY_TYPE_GUID
 
 INIT Error Record (INIT)
+
+
+#### MCE_NOTIFY_TYPE_GUID
+
+Machine Check Exception (MCE)
 
 
 #### NMI_NOTIFY_TYPE_GUID
@@ -161,42 +161,42 @@ INIT Error Record (INIT)
 Nonmaskable Interrupt (NMI)
 
 
-#### BOOT_NOTIFY_TYPE_GUID
+#### PCIe_NOTIFY_TYPE_GUID
 
-Boot Error Record (BOOT)
+PCI Express (PCIe) Error
 
 
-#### - Context
+### -field Context
 
 Reserved for system use.
 
 
-#### - DataFormat
+### -field DataFormat
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_packet_data_format.md">WHEA_ERROR_PACKET_DATA_FORMAT</a> value  that indicates the format of the hardware error information that is contained in the data that is referenced through the <b>DataOffset </b>and <b>DataLength</b> members.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for system use.
 
 
-#### - DataOffset
+### -field DataOffset
 
 An offset, in bytes, for hardware error data from the status registers for the error source. The format of the hardware error data is specified by the <b>DataFormat</b> member. The offset of the hardware error information is relative to the start of the WHEA_ERROR_PACKET_V2 structure.
 
 
-#### - DataLength
+### -field DataLength
 
 The length, in bytes, of the hardware error data.
 
 
-#### - PshedDataOffset
+### -field PshedDataOffset
 
 An offset, in bytes, for a data buffer where a PSHED plug-in can add additional platform-specific error data to the hardware error packet. The offset of the PSHED data buffer is relative to the start of the WHEA_ERROR_PACKET_V2 structure.
 
 
-#### - PshedDataLength
+### -field PshedDataLength
 
 The length, in bytes, of the PSHED data buffer.
 
@@ -224,19 +224,19 @@ In addition, <a href="https://msdn.microsoft.com/7c56a8e2-11e9-4ef0-83f2-50a1771
 
 ## -see-also
 
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
 <a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
-
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
 
 <a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>
 
-<a href="..\ntddk\ne-ntddk-_whea_error_packet_data_format.md">WHEA_ERROR_PACKET_DATA_FORMAT</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
 
-<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_packet_data_format.md">WHEA_ERROR_PACKET_DATA_FORMAT</a>
 
  
 

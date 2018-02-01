@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_CREATEPROCESS, *INOUT_PDXGKARG_CREATEPROCESS, display.dxgkarg_createprocess, DXGKARG_CREATEPROCESS structure [Display Devices], _DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS
+ms.keywords: "*INOUT_PDXGKARG_CREATEPROCESS, d3dkmddi/DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], DXGKARG_CREATEPROCESS, _DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct _DXGKARG_CREATEPROCESS {
 
 
 
-#### - hDxgkProcess
+### -field hDxgkProcess
 
 [in] The handle to the DirectX graphics kernel process.
 
 
-#### - hKmdProcess
+### -field hKmdProcess
 
 [out] The handle to the kernel mode driver process.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
 
 
-#### - NumPasid
+### -field NumPasid
 
 [in] The number of elements in the process address space identifier array located in the <b>pPasid</b>  member. 
 
 
-#### - pPasid
+### -field pPasid
 
 [in] A pointer to an array of process address identifiers. There will be one for each physical GPUs.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt, DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, DXGK_GDIARG_BITBLT structure [Display Devices]"
+ms.keywords: DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, d3dkmddi/DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], _DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt, DXGK_GDIARG_BITBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ typedef struct _DXGK_GDIARG_BITBLT {
 
 
 
-#### - SrcRect
+### -field SrcRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
 
@@ -87,7 +87,7 @@ This rectangle is mapped to the destination rectangle defined by <b>DstRect</b>.
 For more information, see the Remarks section.
 
 
-#### - DstRect
+### -field DstRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
 
@@ -96,56 +96,56 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 For more information, see the Remarks section.
 
 
-#### - SrcAllocationIndex
+### -field SrcAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>SrcRect</b> source rectangle.
      
 
 
-#### - DstAllocationIndex
+### -field DstAllocationIndex
 
 
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
      
 
 
-#### - NumSubRects
+### -field NumSubRects
 
 
       [in] The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-#### - pSubRects
+### -field pSubRects
 
 
       [in] A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
      
 
 
-#### - Rop
+### -field Rop
 
 
       [in] An 8-bit value that specifies a GDI raster operation (ROP) that is defined by the constant values of the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_bitblt.md">DXGK_GDIROP_BITBLT</a> enumeration.
      
 
 
-#### - Rop3
+### -field Rop3
 
 
       [in] An 8-bit value that specifies a ternary GDI raster operation (ROP3) that combines a brush, a source bitmap, and a destination bitmap in one of 256 possible combinations. This type of raster operation will be processed only if the driver has set the <b>SupportAllBltRops</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
      
 
 
-#### - SrcPitch
+### -field SrcPitch
 
 
       [in] The pitch of the source surface, in bytes. For more information on using pitch, see Remarks section.
      
 
 
-#### - DstPitch
+### -field DstPitch
 
 
       [in] The pitch of the destination surface, in bytes. For more information on using pitch, see Remarks section.
@@ -209,9 +209,9 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
  
 

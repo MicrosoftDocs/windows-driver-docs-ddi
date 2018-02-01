@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5AAB4474-9FDF-4ACF-AC38-F84D2682B5E0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_UDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], *PUDECX_USB_ENDPOINT_CALLBACKS, buses.udecx_usb_endpoint_callbacks, UDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses]"
+ms.keywords: buses.udecx_usb_endpoint_callbacks, UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], _UDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _UDECX_USB_ENDPOINT_CALLBACKS {
 
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - EvtUsbEndpointReset
+### -field EvtUsbEndpointReset
 
 Required. A pointer to an <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_udecx_usb_endpoint_reset.md">EVT_UDECX_USB_ENDPOINT_RESET</a> callback function implemented by a UDE client driver.
 
 
-#### - EvtUsbEndpointStart
+### -field EvtUsbEndpointStart
 
 Optional. A pointer to an <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_udecx_usb_endpoint_start.md">EVT_UDECX_USB_ENDPOINT_START</a> callback function implemented by a UDE client driver.
 
 
-#### - EvtUsbEndpointPurge
+### -field EvtUsbEndpointPurge
 
 Optional. A pointer to an <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_udecx_usb_endpoint_purge.md">EVT_UDECX_USB_ENDPOINT_PURGE</a> callback function implemented by a UDE client driver.
 

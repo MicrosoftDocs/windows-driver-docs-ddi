@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d74aec3-dbc5-4494-ba52-135e3f545c1b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, wdm/FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION"
+ms.keywords: FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], *PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, wdm/FILE_MEMORY_PARTITION_INFORMATION, _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,26 +77,12 @@ typedef struct _FILE_MEMORY_PARTITION_INFORMATION {
 
 
 
-#### - Flags
+### -field Flags
 
-
-
-#### DUMMYSTRUCTNAME
-
-
-
-#### AllFlags
-
-Bitwise of all flags. 
 
 
 ### -field Flags.DUMMYSTRUCTNAME
 
-
-
-#### DUMMYSTRUCTNAME.NoCrossPartitionAccess
-
-Determines whether cross-partition access is allowed.
 
 
 ### -field Flags.DUMMYSTRUCTNAME.NoCrossPartitionAccess
@@ -114,7 +100,7 @@ Determines whether cross-partition access is allowed.
 Bitwise of all flags. 
 
 
-#### - OwnerPartitionHandle
+### -field OwnerPartitionHandle
 
 Handle to the specified partition.
 

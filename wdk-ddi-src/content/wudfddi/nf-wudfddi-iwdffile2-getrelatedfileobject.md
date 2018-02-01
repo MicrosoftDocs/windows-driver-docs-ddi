@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFFile2::GetRelatedFileObject, IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject method, IWDFFile2 interface, IWDFFile2, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, wdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject, umdf.iwdffile2_getrelatedfileobject, IWDFFile2::GetRelatedFileObject, GetRelatedFileObject method
+ms.keywords: umdf.iwdffile2_getrelatedfileobject, IWDFFile2::GetRelatedFileObject, IWDFFile2, IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject method, wdf.iwdffile2_getrelatedfileobject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, GetRelatedFileObject, GetRelatedFileObject method, IWDFFile2 interface, wudfddi/IWDFFile2::GetRelatedFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetRelatedFileObject(
 
 
 
-#### - ppRelatedFileObj [out]
+### -param ppRelatedFileObj [out]
 
 The address of a location that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of a UMDF file object. This file object is related to the file object that exposes the <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a> interface's parent <b>IWDFFile</b> interface.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfchildlist/WdfChildListRetrievePdo, kmdf.wdfchildlistretrievepdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, PFN_WDFCHILDLISTRETRIEVEPDO, WdfChildListRetrievePdo, wdf.wdfchildlistretrievepdo, WdfChildListRetrievePdo method
+ms.keywords: wdfchildlist/WdfChildListRetrievePdo, WdfChildListRetrievePdo method, wdf.wdfchildlistretrievepdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo, PFN_WDFCHILDLISTRETRIEVEPDO, kmdf.wdfchildlistretrievepdo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ WDFDEVICE WdfChildListRetrievePdo(
 
 
 
-#### - ChildList [in]
+### -param ChildList [in]
 
 A handle to a child list object.
 
 
-#### - RetrieveInfo [in, out]
+### -param RetrieveInfo [in, out]
 
 A pointer to a driver-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a> structure that the driver initializes with the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> of the child to be retrieved. 
 
@@ -107,9 +107,9 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md">WDF_CHILD_RETRIEVE_INFO_INIT</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
-
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
  
 

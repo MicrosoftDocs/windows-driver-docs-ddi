@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 01161a61-c52a-4a0e-b680-a8c3a224c2e5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/USB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, _USB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME structure [Buses], usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml, PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], buses.usb_hcd_driverkey_name, usbioctl/PUSB_HCD_DRIVERKEY_NAME
+ms.keywords: USB_HCD_DRIVERKEY_NAME structure [Buses], usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml, _USB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME, buses.usb_hcd_driverkey_name, PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], *PUSB_HCD_DRIVERKEY_NAME, usbioctl/PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, usbioctl/USB_HCD_DRIVERKEY_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _USB_HCD_DRIVERKEY_NAME {
 
 
 
-#### - ActualLength
+### -field ActualLength
 
 The length, in bytes, of the string in the <b>DriverKeyName</b> member.
 
 
-#### - DriverKeyName
+### -field DriverKeyName
 
 A NULL-terminated Unicode driver key name for the USB host controller.
 

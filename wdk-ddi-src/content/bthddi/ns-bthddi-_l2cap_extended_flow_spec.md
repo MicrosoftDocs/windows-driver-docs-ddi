@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: B190484F-1A87-4C52-A1FF-4D4EB593A963
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PL2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], _L2CAP_EXTENDED_FLOW_SPEC, bthddi/PL2CAP_EXTENDED_FLOW_SPEC, bthddi/L2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC, bltooth.l2cap_extended_flow_spec"
+ms.keywords: "_L2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, bltooth.l2cap_extended_flow_spec, bthddi/L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], *PL2CAP_EXTENDED_FLOW_SPEC, bthddi/PL2CAP_EXTENDED_FLOW_SPEC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _L2CAP_EXTENDED_FLOW_SPEC {
 
 
 
-#### - Identifier
+### -field Identifier
 
 Reserved. Do not use.
 
 
-#### - ServiceType
+### -field ServiceType
 
 Reserved. Do not use.
 
 
-#### - MaxSDUSize
+### -field MaxSDUSize
 
 Reserved. Do not use.
 
 
-#### - SDUInterArrivalTime
+### -field SDUInterArrivalTime
 
 Reserved. Do not use.
 
 
-#### - AccessLatency
+### -field AccessLatency
 
 Reserved. Do not use.
 
 
-#### - FlushTimeout
+### -field FlushTimeout
 
 Reserved. Do not use.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/DeviceIsAtapi, IDE_DEVICE_TYPE, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml, irb/DeviceIsAta, irb/IDE_DEVICE_TYPE, storage.ide_device_type, DeviceIsAta, DeviceNotExist, DeviceUnknown, irb/DeviceUnknown, irb/DeviceNotExist, DeviceIsAtapi, IDE_DEVICE_TYPE enumeration [Storage Devices]
+ms.keywords: DeviceIsAtapi, IDE_DEVICE_TYPE, irb/DeviceNotExist, DeviceNotExist, irb/DeviceIsAtapi, irb/DeviceUnknown, storage.ide_device_type, DeviceIsAta, DeviceUnknown, irb/DeviceIsAta, IDE_DEVICE_TYPE enumeration [Storage Devices], irb/IDE_DEVICE_TYPE, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum  {
 
 
 
-#### - DeviceUnknown
+### -field DeviceUnknown
 
 Indicates that the device does not communicate by means of a known protocol.
 
 
-#### - DeviceIsAta
+### -field DeviceIsAta
 
 Indicates an ATA device.
 
 
-#### - DeviceIsAtapi
+### -field DeviceIsAtapi
 
 Indicates an ATAPI device.
 
 
-#### - DeviceNotExist
+### -field DeviceNotExist
 
 Indicates that the device does not exist.
 

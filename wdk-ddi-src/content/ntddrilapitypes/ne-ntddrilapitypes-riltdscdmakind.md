@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61b5d7f8-bd45-448b-b7a1-3e52909a63cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riltdscdmakind, ntddrilapitypes/RIL_TDSCDMAKIND_MAX, ntddrilapitypes/RIL_TDSCDMAKIND_DC_HSPAPLUS, ntddrilapitypes/RIL_TDSCDMAKIND_HSPAPLUS, RIL_TDSCDMAKIND_HSDPA, ntddrilapitypes/RIL_TDSCDMAKIND_HSDPA, RIL_TDSCDMAKIND_HSUPA, ntddrilapitypes/RILTDSCDMAKIND, RILTDSCDMAKIND, ntddrilapitypes/RIL_TDSCDMAKIND_HSUPA, RIL_TDSCDMAKIND_HSPAPLUS, RIL_TDSCDMAKIND_MAX, RIL_TDSCDMAKIND_DC_HSPAPLUS, RILTDSCDMAKIND enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_TDSCDMAKIND_HSPAPLUS, RIL_TDSCDMAKIND_HSDPA, RILTDSCDMAKIND, ntddrilapitypes/RIL_TDSCDMAKIND_DC_HSPAPLUS, RILTDSCDMAKIND enumeration [Network Drivers Starting with Windows Vista], RIL_TDSCDMAKIND_DC_HSPAPLUS, ntddrilapitypes/RIL_TDSCDMAKIND_MAX, ntddrilapitypes/RIL_TDSCDMAKIND_HSPAPLUS, ntddrilapitypes/RIL_TDSCDMAKIND_HSDPA, ntddrilapitypes/RIL_TDSCDMAKIND_HSUPA, RIL_TDSCDMAKIND_HSUPA, ntddrilapitypes/RILTDSCDMAKIND, RIL_TDSCDMAKIND_MAX, netvista.riltdscdmakind
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,22 +75,22 @@ typedef enum _RILTDSCDMAKIND {
 
 
 
-#### - RIL_TDSCDMAKIND_HSDPA
+### -field RIL_TDSCDMAKIND_HSDPA
 
 
 
-#### - RIL_TDSCDMAKIND_HSUPA
+### -field RIL_TDSCDMAKIND_HSUPA
 
 
 
-#### - RIL_TDSCDMAKIND_HSPAPLUS
+### -field RIL_TDSCDMAKIND_HSPAPLUS
 
 
 
-#### - RIL_TDSCDMAKIND_DC_HSPAPLUS
+### -field RIL_TDSCDMAKIND_DC_HSPAPLUS
 
 
 
-#### - RIL_TDSCDMAKIND_MAX
+### -field RIL_TDSCDMAKIND_MAX
 
 

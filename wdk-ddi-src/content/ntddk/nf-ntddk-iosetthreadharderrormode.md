@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bedb6399-8f79-477a-9a90-4a7dec5c5dae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], kernel.iosetthreadharderrormode, IoSetThreadHardErrorMode, ntddk/IoSetThreadHardErrorMode, k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml
+ms.keywords: IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], ntddk/IoSetThreadHardErrorMode, k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml, kernel.iosetthreadharderrormode, IoSetThreadHardErrorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN IoSetThreadHardErrorMode(
 
 
 
-#### - EnableHardErrors [in]
+### -param EnableHardErrors [in]
 
 Specifies whether hard error reporting to the user should be enabled or disabled for this thread. A value of <b>TRUE</b> enables hard error reporting. <b>FALSE</b> disables it. 
 

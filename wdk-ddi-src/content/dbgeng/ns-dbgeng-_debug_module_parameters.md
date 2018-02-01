@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3f10997f-263f-4d1b-ab0a-d44201aaaf37
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], dbgeng/DEBUG_MODULE_PARAMETERS, Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], _DEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters
+ms.keywords: PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], DEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], dbgeng/DEBUG_MODULE_PARAMETERS, _DEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters, Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,27 +78,27 @@ typedef struct _DEBUG_MODULE_PARAMETERS {
 
 
 
-#### - Base
+### -field Base
 
 The location in the target's virtual address space of the module's base.  If the value of <b>Base</b> is DEBUG_INVALID_OFFSET, the structure is invalid.
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of the memory range that is occupied by the module.
 
 
-#### - TimeDateStamp
+### -field TimeDateStamp
 
 The date and time stamp of the module's executable file.  This is the number of seconds elapsed since midnight (00:00:00), January 1, 1970 Coordinated Universal Time (UTC) as stored in the image file header.
 
 
-#### - Checksum
+### -field Checksum
 
 The checksum of the image.  This value can be zero.
 
 
-#### - Flags
+### -field Flags
 
 A bit-set that contains the module's flags.  The bit-flags that can be present are as follows. 
 <table>
@@ -139,7 +139,7 @@ The checksum in the symbol file did not match the checksum for the module image.
 </table> 
 
 
-#### - SymbolType
+### -field SymbolType
 
 The type of symbols that are loaded for the module.  This member can have one of the following values.
 <table>
@@ -230,32 +230,32 @@ Symbols in PDB format have been loaded through the DIA interface.
 </table> 
 
 
-#### - ImageNameSize
+### -field ImageNameSize
 
 The size of the file name for the module. The size is measured in characters, including the terminator.
 
 
-#### - ModuleNameSize
+### -field ModuleNameSize
 
 The size of the module name of the module. The size is measured in characters, including the terminator.
 
 
-#### - LoadedImageNameSize
+### -field LoadedImageNameSize
 
 The size of the loaded image name for the module. The size is measured in characters, including the terminator.
 
 
-#### - SymbolFileNameSize
+### -field SymbolFileNameSize
 
 The size of the symbol file name for the module. The size is measured in characters, including the terminator.
 
 
-#### - MappedImageNameSize
+### -field MappedImageNameSize
 
 The size of the mapped image name of the module. The size is measured in characters, including the terminator.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 

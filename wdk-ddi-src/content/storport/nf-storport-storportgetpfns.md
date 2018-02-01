@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetPfns, storage.storportgetpfns, StorPortGetPfns routine [Storage Devices], storport/StorPortGetPfns
+ms.keywords: StorPortGetPfns routine [Storage Devices], storport/StorPortGetPfns, storage.storportgetpfns, StorPortGetPfns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,34 +76,34 @@ ULONG StorPortGetPfns(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver.
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 A pointer to the source SCSI request block (SRB). 
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 A pointer to the MDL for which Pfns are requested. Only MDLs obtained 
             using <b>StorPortGetOriginalMdl</b> or <b>StorPortGetDataInBufferMdl</b> are supported.
 
 
-#### - Pfns [out]
+### -param Pfns [out]
 
  A pointer to the beginning of the array of physical page numbers that are associated with the MDL.
               Callers must NOT modify or update or free the list.
 
 
-#### - PfnCount [out]
+### -param PfnCount [out]
 
 Specifies the number of PFNs in the array.
 
 
-#### - StartingOffset [out]
+### -param StartingOffset [out]
 
 Specifies the byte offset within the initial page of the buffer described by the given MDL.
 
@@ -165,11 +165,11 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553718">StorPortGetDataInBufferMdl</a>
+
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567093">StorPortGetOriginalMdl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj553718">StorPortGetDataInBufferMdl</a>
 
  
 

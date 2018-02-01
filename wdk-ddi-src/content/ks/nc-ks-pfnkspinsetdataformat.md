@@ -74,37 +74,27 @@ NTSTATUS AVStrMiniPinSetDataFormat(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 Pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which the data format is changing.
 
 
-#### - OldFormat [in, optional]
+### -param OldFormat [in, optional]
 
 Optional. Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure. Minidrivers can use this field to determine the data format that the pin was using before this call. If <b>NULL</b>, indicates that no data format has been set for the pin and that <i>Pin's</i> create dispatch has not yet been made. A <b>NULL</b> value here indicates that this routine was called at initialization time for format verification.
 
 
-#### - OldAttributeList [in, optional]
+### -param OldAttributeList [in, optional]
 
 Optional. Pointer to a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure that stores attributes for the previous format.
 
 
-#### - *DataRange [in]
+### -param *DataRange [in]
 
 Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structure. The data range for the new format.
 
 
-#### - *AttributeRange [in, optional]
-
-Optional. The attribute range for the new format.
-
-
-#### - DataRange [in]
-
-Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structure. The data range for the new format.
-
-
-#### - AttributeRange [in, optional]
+### -param *AttributeRange [in, optional]
 
 Optional. The attribute range for the new format.
 
@@ -133,17 +123,17 @@ This routine is optional.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
  
 

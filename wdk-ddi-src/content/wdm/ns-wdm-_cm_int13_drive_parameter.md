@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eee1070f-c821-42bd-a0c9-d429fac6305b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_CM_INT13_DRIVE_PARAMETER, PCM_INT13_DRIVE_PARAMETER structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_INT13_DRIVE_PARAMETER, kstruct_a_4d629962-92d1-446d-890b-196893ea37a0.xml, CM_INT13_DRIVE_PARAMETER structure [Kernel-Mode Driver Architecture], PCM_INT13_DRIVE_PARAMETER, wdm/CM_INT13_DRIVE_PARAMETER, kernel.cm_int13_drive_parameter, *PCM_INT13_DRIVE_PARAMETER, CM_INT13_DRIVE_PARAMETER"
+ms.keywords: wdm/CM_INT13_DRIVE_PARAMETER, PCM_INT13_DRIVE_PARAMETER structure pointer [Kernel-Mode Driver Architecture], kstruct_a_4d629962-92d1-446d-890b-196893ea37a0.xml, _CM_INT13_DRIVE_PARAMETER, kernel.cm_int13_drive_parameter, CM_INT13_DRIVE_PARAMETER structure [Kernel-Mode Driver Architecture], PCM_INT13_DRIVE_PARAMETER, *PCM_INT13_DRIVE_PARAMETER, CM_INT13_DRIVE_PARAMETER, wdm/PCM_INT13_DRIVE_PARAMETER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _CM_INT13_DRIVE_PARAMETER {
 
 
 
-#### - DriveSelect
+### -field DriveSelect
 
 The drive selected value.
 
 
-#### - MaxCylinders
+### -field MaxCylinders
 
 The maximum number of cylinders.
 
 
-#### - SectorsPerTrack
+### -field SectorsPerTrack
 
 The number of sectors per track.
 
 
-#### - MaxHeads
+### -field MaxHeads
 
 The maximum number of heads.
 
 
-#### - NumberDrives
+### -field NumberDrives
 
 The number of drives. 
 

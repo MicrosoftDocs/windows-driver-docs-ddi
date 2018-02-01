@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoValidateDeviceIoControlAccess, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], FILE_READ_ACCESS, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess
+ms.keywords: WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess, FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, wdmsec/IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS WdmlibIoValidateDeviceIoControlAccess(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> on which to perform the access check.
 
 
-#### - RequiredAccess [in]
+### -param RequiredAccess [in]
 
 Specifies the type of access to the device object that the request sender must have. The caller can specify one or more of the following flags.
 <table>

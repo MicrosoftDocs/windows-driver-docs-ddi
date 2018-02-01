@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3509a177-d974-45fb-9387-21780483cbe7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY, _NDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY, ntddndis/NDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_array
+ms.keywords: NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_array, PNDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY, _NDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _NDIS_SWITCH_NIC_ARRAY {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_NIC_ARRAY</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -90,26 +90,26 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_NIC_ARRAY_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
 
 
 
-#### - FirstElementOffset
+### -field FirstElementOffset
 
 A USHORT value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_SWITCH_NIC_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a> structure.
 
 
 <div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div><div> </div>
 
-#### - NumElements
+### -field NumElements
 
 A ULONG value that specifies the number of <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a> elements that follow the <b>NDIS_SWITCH_NIC_ARRAY</b> structure. 
 
 
-#### - ElementSize
+### -field ElementSize
 
 A ULONG value that specifies the size, in bytes, of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a> elements that follows the <b>NDIS_SWITCH_NIC_ARRAY</b> structure. 
 
@@ -127,11 +127,11 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598213">NDIS_SWITCH_NIC_AT_ARRAY_INDEX</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598213">NDIS_SWITCH_NIC_AT_ARRAY_INDEX</a>
 
 <b></b>
 

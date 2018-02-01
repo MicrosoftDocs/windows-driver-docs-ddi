@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4f9dd025-b49f-44ab-88c4-38139e6cbee2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetValueKey method [Audio Devices], audio.iregistrykey_setvaluekey, SetValueKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::SetValueKey, IRegistryKey, IRegistryKey interface [Audio Devices], SetValueKey method, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, IRegistryKey::SetValueKey, SetValueKey
+ms.keywords: SetValueKey, audio.iregistrykey_setvaluekey, IRegistryKey interface [Audio Devices], SetValueKey method, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, IRegistryKey, portcls/IRegistryKey::SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices], IRegistryKey interface, IRegistryKey::SetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ NTSTATUS SetValueKey(
 
 
 
-#### - ValueName [in, optional]
+### -param ValueName [in, optional]
 
 Pointer to a string containing the name of the value entry to set. The name string is specified by a structure of type <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>. If the value entry has no name, set this parameter to <b>NULL</b>. If the caller specifies a name string but the given name is not unique relative to its containing key, the method replaces the data for an existing value entry.
 
 
-#### - Type [in]
+### -param Type [in]
 
 Specifies the type of the data to be written for <i>ValueName</i>. Set this parameter to one of the following system-defined types:
 
@@ -106,12 +106,12 @@ REG_FULL_RESOURCE_DESCRIPTOR
 These parameter types are explained in <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>.
 
 
-#### - Data [in]
+### -param Data [in]
 
 Pointer to a buffer containing the data. This parameter points to a user-supplied structure or value appropriate to the function.
 
 
-#### - DataSize [in]
+### -param DataSize [in]
 
 Specifies the size in bytes of <i>Data</i>. This parameter specifies how many bytes of data the method will copy from the buffer that <i>Data</i> points to.
 
@@ -160,11 +160,11 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

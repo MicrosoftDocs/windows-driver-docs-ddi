@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 13c136f9-079a-414e-a40b-1938899024a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauDbgFn, ~CWiauDbgFn method [Imaging Devices], CWiauDbgFn::~CWiauDbgFn, ~CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, ~CWiauDbgFn, image.cwiaudbgfn__cwiaudbgfn, wiauFncs_5fc25385-87e3-4664-9df6-be2c6bef7d75.xml, CWiauDbgFn interface [Imaging Devices], ~CWiauDbgFn method, wiautil/CWiauDbgFn::~CWiauDbgFn
+ms.keywords: "~CWiauDbgFn method [Imaging Devices], wiauFncs_5fc25385-87e3-4664-9df6-be2c6bef7d75.xml, CWiauDbgFn::~CWiauDbgFn, ~CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, wiautil/CWiauDbgFn::~CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], ~CWiauDbgFn method, ~CWiauDbgFn, CWiauDbgFn, image.cwiaudbgfn__cwiaudbgfn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

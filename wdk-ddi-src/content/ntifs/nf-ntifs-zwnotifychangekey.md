@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 660c04b0-499b-40e7-94c2-5cb457e93f00
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], ZwNotifyChangeKey, ntifs/ZwNotifyChangeKey, k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, kernel.zwnotifychangekey, ntifs/NtNotifyChangeKey, NtNotifyChangeKey
+ms.keywords: ntifs/NtNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], NtNotifyChangeKey, ZwNotifyChangeKey, kernel.zwnotifychangekey, k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, ntifs/ZwNotifyChangeKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,24 +77,24 @@ NTSTATUS ZwNotifyChangeKey(
 
 
 
-#### - KeyHandle [in]
+### -param KeyHandle [in]
 
 Handle to the key to register a notification routine for. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> or <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>. The caller must have specified KEY_NOTIFY access.
 
 
-#### - Event [in, optional]
+### -param Event [in, optional]
 
 Handle to a caller-created event. If not <b>NULL</b>, the caller is placed into a wait state until the operation succeeds, at which time the event is set to the Signaled state. 
 
 
-#### - ApcRoutine [in, optional]
+### -param ApcRoutine [in, optional]
 
  For a user-mode call, this parameter points to a caller-supplied APC routine that is run after the operation is completed. This parameter is optional and can be <b>NULL</b>.
 
   For a kernel-mode call, this parameter must be <b>NULL</b>.
 
 
-#### - ApcContext [in, optional]
+### -param ApcContext [in, optional]
 
 The meaning of this parameter depends on whether the routine is called from kernel mode or from user mode. For a kernel-mode call, set this parameter to one of the following <a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a> enumeration values:
 <ul>
@@ -109,21 +109,16 @@ DelayedWorkQueue
 </ul>The parameter value must be cast to type PVOID. For a user-mode call, this parameter points to a caller-specified context for the APC routine. This value is passed to the APC routine when it is run. 
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains the final status and information about the operation. For successful calls that return data, the number of bytes written to <i>Buffer</i> is supplied in <i>IoStatusBlock</i>-&gt;<b>Information</b>.
 
 
-#### - CompletionFilter [in]
+### -param CompletionFilter [in]
 
 Bitmask of operations that cause the driver to be notified. Specify one or more of the following flags:
 
 
-
-
-#### REG_NOTIFY_CHANGE_NAME
-
-Notify the caller if a subkey is added or deleted.
 
 
 #### REG_NOTIFY_CHANGE_ATTRIBUTES
@@ -136,27 +131,32 @@ Notify the caller of changes to the attributes of the key, such as the security 
 Notify the caller of changes to a value of the key. This can include adding or deleting a value, or changing an existing value. (The caller receives no notification if the new value written to the key matches the previous value of the key.)
 
 
+#### REG_NOTIFY_CHANGE_NAME
+
+Notify the caller if a subkey is added or deleted.
+
+
 #### REG_NOTIFY_CHANGE_SECURITY
 
 Notify the caller of changes to the security descriptor of the key.
 
 
-#### - WatchTree [in]
+### -param WatchTree [in]
 
 If <b>TRUE</b>, the driver is notified about changes to all subkeys of the specified key. If <b>FALSE</b>, the driver is only notified for changes to the specified key.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Reserved. Specify <b>NULL</b>.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Reserved. Specify zero.
 
 
-#### - Asynchronous [in]
+### -param Asynchronous [in]
 
 If <b>FALSE</b>, the routine does not return until the specified event occurs. If <b>TRUE</b>, the routine returns immediately. 
 
@@ -179,17 +179,17 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
 
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

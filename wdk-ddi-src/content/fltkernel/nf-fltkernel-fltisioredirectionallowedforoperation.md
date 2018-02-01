@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 601a155d-587f-47fc-960e-d1162eabd4b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsIoRedirectionAllowedForOperation routine [Installable File System Drivers], ifsk.fltisioredirectionallowedforoperation, FltIsIoRedirectionAllowedForOperation, fltkernel/FltIsIoRedirectionAllowedForOperation
+ms.keywords: ifsk.fltisioredirectionallowedforoperation, fltkernel/FltIsIoRedirectionAllowedForOperation, FltIsIoRedirectionAllowedForOperation routine [Installable File System Drivers], FltIsIoRedirectionAllowedForOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FltIsIoRedirectionAllowedForOperation(
 
 
 
-#### - Data [in]
+### -param Data [in]
 
 An <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure representing the I/O operation.
 
 
-#### - TargetInstance [in]
+### -param TargetInstance [in]
 
 A filter instance on the target device stack.
 
 
-#### - RedirectionAllowedThisIo [out]
+### -param RedirectionAllowedThisIo [out]
 
 A value of <b>TRUE</b> if this I/O can be redirected to the target device stack by changing the filter instance referenced.
 
 
-#### - RedirectionAllowedAllIo [out, optional]
+### -param RedirectionAllowedAllIo [out, optional]
 
 This optional parameter has a value of <b>TRUE</b> if all I/O to the device stack to which the I/O operation is issued can be redirected to the target device by changing the filter instance referenced,  otherwise <b>FALSE</b>.
 
@@ -110,13 +110,13 @@ If <i>RedirectionAllowed</i> is <b>FALSE</b>, the minifilter needs to allocate a
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+<a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 127D132B-6A40-4F6F-BCDA-473F89A1A747
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceInitAllocate, udecxusbdevice/UdecxUsbDeviceInitAllocate, buses.udecxusbdeviceinitallocate, UdecxUsbDeviceInitAllocate function [Buses]
+ms.keywords: buses.udecxusbdeviceinitallocate, UdecxUsbDeviceInitAllocate function [Buses], UdecxUsbDeviceInitAllocate, udecxusbdevice/UdecxUsbDeviceInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ FORCEINLINE PUDECXUSBDEVICE_INIT UdecxUsbDeviceInitAllocate(
 
 
 
-#### - UdecxWdfDevice [in]
+### -param UdecxWdfDevice [in]
 
 A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 

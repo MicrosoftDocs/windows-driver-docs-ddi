@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInitializeGenericTableAvl routine [Installable File System Drivers], RtlInitializeGenericTableAvl, ntddk/RtlInitializeGenericTableAvl, ifsk.rtlinitializegenerictableavl
+ms.keywords: ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID RtlInitializeGenericTableAvl(
 
 
 
-#### - Table [out]
+### -param Table [out]
 
 A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
 
 
-#### - CompareRoutine [in]
+### -param CompareRoutine [in]
 
 An entry point of a comparison callback routine, declared as follows:
 <div class="code"><span codelanguage=""><table>
@@ -102,11 +102,6 @@ The <i>CompareRoutine</i> must strictly track the ordering of all elements in th
 Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan</b>, <b>GenericGreaterThan</b>, or <b>GenericEqual</b>. 
 
 
-#### Table
-
-A pointer to the generic table.
-
-
 #### FirstStruct
 
 A pointer to the first item to be compared.
@@ -117,7 +112,12 @@ A pointer to the first item to be compared.
 A pointer to the second item to be compared.
 
 
-#### - AllocateRoutine [in]
+#### Table
+
+A pointer to the generic table.
+
+
+### -param AllocateRoutine [in]
 
 An entry point of an allocation callback routine, declared as follows:
 <div class="code"><span codelanguage=""><table>
@@ -140,17 +140,17 @@ An entry point of an allocation callback routine, declared as follows:
 For each new element, the <i>AllocateRoutine</i> is called to allocate memory for caller-supplied data plus some additional memory for use by the <i>Rtl...GenericTableAvl</i> routines. Note that because of this "additional memory," caller-supplied routines must not access the first <b>sizeof</b>(RTL_BALANCED_LINKS) bytes of any element in the generic table. 
 
 
-#### Table
-
-A pointer to the generic table.
-
-
 #### ByteSize
 
 The number of bytes to allocate.
 
 
-#### - FreeRoutine [in]
+#### Table
+
+A pointer to the generic table.
+
+
+### -param FreeRoutine [in]
 
 An entry point of a deallocation callback routine, declared as follows:
 <div class="code"><span codelanguage=""><table>
@@ -173,17 +173,17 @@ An entry point of a deallocation callback routine, declared as follows:
 <i>Rtl...GenericTableAvl</i> routines call the <i>FreeRoutine</i> to deallocate memory for elements to be deleted from the generic table. The <i>FreeRoutine</i> is the opposite of the <i>AllocateRoutine</i>. 
 
 
-#### Table
-
-A pointer to the generic table.
-
-
 #### Buffer
 
 A pointer to the element that is being deleted.
 
 
-#### - TableContext [in, optional]
+#### Table
+
+A pointer to the generic table.
+
+
+### -param TableContext [in, optional]
 
 An optional pointer to a caller-supplied context for the generic table. This parameter can be <b>NULL</b>.
 
@@ -224,21 +224,21 @@ The <b>RtlInitializeGenericTableAvl</b> routine explicitlly allocates a generic 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
 
 <a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
 
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTableAvl</a>
-
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
 
 <a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
 
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+
+<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTableAvl</a>
 
  
 

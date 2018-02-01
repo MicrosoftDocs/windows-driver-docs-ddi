@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 082a63d5-5ba5-4cd3-aea3-0184317e1e96
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCancelIo, stream.kscancelio, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, KsCancelIo, KsCancelIo function [Streaming Media Devices]
+ms.keywords: stream.kscancelio, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, KsCancelIo function [Streaming Media Devices], ks/KsCancelIo, KsCancelIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsCancelIo(
 
 
 
-#### - QueueHead [in, out]
+### -param QueueHead [in, out]
 
 Specifies the head of a driver-maintained queue containing the IRP's to be canceled.
 
 
-#### - SpinLock [in]
+### -param SpinLock [in]
 
 Points to a caller-allocated spin lock for queue access. A copy of this pointer is kept in the IRP's KSQUEUE_SPINLOCK_IRP_STORAGE(Irp) for use by the cancel routine, if necessary.
 

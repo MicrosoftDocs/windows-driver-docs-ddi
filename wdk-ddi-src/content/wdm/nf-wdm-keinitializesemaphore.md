@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 447a7ba5-8357-4383-987f-51f5b3c9996c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keinitializesemaphore, k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], wdm/KeInitializeSemaphore
+ms.keywords: k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], KeInitializeSemaphore, wdm/KeInitializeSemaphore, kernel.keinitializesemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID KeInitializeSemaphore(
 
 
 
-#### - Semaphore [out]
+### -param Semaphore [out]
 
 Pointer to a dispatcher object of type semaphore, for which the caller provides the storage.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the initial count value to be assigned to the semaphore. This value must be positive. A nonzero value sets the initial state of the semaphore to signaled.
 
 
-#### - Limit [in]
+### -param Limit [in]
 
 Specifies the maximum count value that the semaphore can attain. This value must be positive. It determines how many waiting threads become eligible for execution when the semaphore is set to the signaled state and can therefore access the resource that the semaphore protects. 
 
@@ -105,13 +105,13 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
 
 <a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
  
 

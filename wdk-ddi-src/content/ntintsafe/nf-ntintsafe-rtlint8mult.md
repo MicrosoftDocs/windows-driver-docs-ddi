@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A2551FD2-55E7-4931-887B-1CB9901F23D6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlInt8Mult, RtlInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtlint8mult, RtlInt8Mult
+ms.keywords: kernel.rtlint8mult, RtlInt8Mult function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8Mult, RtlInt8Mult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlInt8Mult(
 
 
 
-#### - i8Multiplicand [in]
+### -param i8Multiplicand [in]
 
 The value to be multiplied by <i>i8Multiplier</i>.
 
 
-#### - i8Multiplier [in]
+### -param i8Multiplier [in]
 
 The value by which to multiply <i>i8Multiplicand</i>.
 
 
-#### - pi8Result [out]
+### -param pi8Result [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

@@ -68,21 +68,16 @@ typedef NTSTATUS (*PPARALLEL_DESELECT_ROUTINE)(
 
 
 
-#### - DeselectContext [in]
+### -param DeselectContext [in]
 
 Pointer to the device extension of a functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>) that represents a parallel port.
 
 
-#### - DeselectCommand [in]
+### -param DeselectCommand [in]
 
 Pointer to a PARALLEL_1284_COMMAND structure. The caller specifies the following members:
 
 
-
-
-#### ID
-
-Specifies the 1284.3 device ID (zero or 1).
 
 
 #### CommandFlags
@@ -114,6 +109,11 @@ Specifies that the port be kept allocated.
 </td>
 </tr>
 </table> 
+
+
+#### ID
+
+Specifies the 1284.3 device ID (zero or 1).
 
 
 ## -returns
@@ -174,13 +174,13 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
-
-<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
-
 <a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
 
 <a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
+<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
 
  
 

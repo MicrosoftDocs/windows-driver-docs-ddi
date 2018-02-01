@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee9124db-9d92-42e1-84fa-6d3eefeaeac5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeInitializeThreadedDpc, k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], kernel.keinitializethreadeddpc, KeInitializeThreadedDpc
+ms.keywords: k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, KeInitializeThreadedDpc, kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID KeInitializeThreadedDpc(
 
 
 
-#### - Dpc [out]
+### -param Dpc [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
 
 
-#### - DeferredRoutine [in]
+### -param DeferredRoutine [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine to associate with the DPC.
 
 
-#### - DeferredContext [in, optional]
+### -param DeferredContext [in, optional]
 
 Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>.
 
@@ -101,11 +101,11 @@ For more information about threaded DPCs, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
-
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 <a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
 
  
 

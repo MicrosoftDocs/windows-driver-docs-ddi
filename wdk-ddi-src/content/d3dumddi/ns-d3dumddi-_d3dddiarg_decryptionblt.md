@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cc11e153-6be6-4fbc-9535-98bab7ed2b90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DECRYPTIONBLT structure [Display Devices], d3dumddi/D3DDDIARG_DECRYPTIONBLT, UMDisplayDriver_param_Structs_1d0c0adb-cfde-47fd-b17c-1acc15de25cd.xml, display.d3dddiarg_decryptionblt, D3DDDIARG_DECRYPTIONBLT, _D3DDDIARG_DECRYPTIONBLT
+ms.keywords: UMDisplayDriver_param_Structs_1d0c0adb-cfde-47fd-b17c-1acc15de25cd.xml, D3DDDIARG_DECRYPTIONBLT structure [Display Devices], d3dumddi/D3DDDIARG_DECRYPTIONBLT, display.d3dddiarg_decryptionblt, _D3DDDIARG_DECRYPTIONBLT, D3DDDIARG_DECRYPTIONBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _D3DDDIARG_DECRYPTIONBLT {
 
 
 
-#### - hCryptoSession
+### -field hCryptoSession
 
 [in] A handle to the encryption session. 
 
 
-#### - hSrcResource
+### -field hSrcResource
 
 [in] A handle to the source resource.
 
 
-#### - SrcSubResourceIndex
+### -field SrcSubResourceIndex
 
 [in] The index to the source surface within the resource. 
 
 
-#### - hDstResource
+### -field hDstResource
 
 [in] A handle to the destination resource. 
 
 
-#### - DstSubResourceIndex
+### -field DstSubResourceIndex
 
 [in] The index to the destination surface within the resource. 
 
 
-#### - SrcResourceSize
+### -field SrcResourceSize
 
 [in] The size, in bytes, of the source resource. 
 
 
-#### - pEncryptedBlockInfo
+### -field pEncryptedBlockInfo
 
 [in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiencrypted_block_info.md">D3DDDIENCRYPTED_BLOCK_INFO</a> structure that describes the portions of the buffer that are encrypted. 
 
 
-#### - pContentKey
+### -field pContentKey
 
 [in] A pointer to a block of memory that contains the content key that is required to decrypt the bitblt data. If <b>pContentKey</b> is <b>NULL</b>, hardware does not require a separate content key to decrypt the data. That is, the session key is used to encrypt the data. 
 
 
-#### - pIV
+### -field pIV
 
 [in] A pointer to a block of memory that contains the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate initialization vector to decrypt the data. That is, the session key is used to encrypt the data. 
 
@@ -129,9 +129,9 @@ A pointer to a populated D3DDDIARG_DECRYPTIONBLT structure is passed to the driv
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiencrypted_block_info.md">D3DDDIENCRYPTED_BLOCK_INFO</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
 
  
 

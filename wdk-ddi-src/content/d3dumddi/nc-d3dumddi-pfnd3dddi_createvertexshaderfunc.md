@@ -72,7 +72,7 @@ __checkReturn HRESULT APIENTRY CreateVertexShaderFunc(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -84,14 +84,14 @@ __checkReturn HRESULT APIENTRY CreateVertexShaderFunc(
 
 
 
-#### - pData [in, out]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderfunc.md">D3DDDIARG_CREATEVERTEXSHADERFUNC</a> structure that retrieves the shader handle that is associated with the vertex shader code that is specified by <b>pCode</b>.
-
-
 #### - pCode [in]
 
  An array of CONST UINT tokens that make up the vertex shader code.
+
+
+#### - pData [in, out]
+
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderfunc.md">D3DDDIARG_CREATEVERTEXSHADERFUNC</a> structure that retrieves the shader handle that is associated with the vertex shader code that is specified by <b>pCode</b>.
 
 
 ## -returns

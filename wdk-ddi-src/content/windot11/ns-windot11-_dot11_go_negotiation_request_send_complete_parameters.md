@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2F10078E-CE9F-425D-AB48-7A27906830B0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista._dot11_go_negotiation_request_send_complete_parameters, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/ DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS
+ms.keywords: windot11/PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/ DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, netvista._dot11_go_negotiation_request_send_complete_parameters, _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following:
 <table>
@@ -96,27 +96,27 @@ Specifies the type, revision and size of the <b>DOT11_GO_NEGOTIATION_REQUEST_SEN
 </table> 
 
 
-#### - PeerDeviceAddress
+### -field PeerDeviceAddress
 
 The device address of the Peer-to-Peer (P2P) Wi-Fi Direct (WFD) device that the GO negotiation request was sent to.
 
 
-#### - DialogToken
+### -field DialogToken
 
 The dialog token from the GO negotiation  request packet. This must match the dialog token sent with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451804">OID_DOT11_WFD_SEND_GO_NEGOTIATION_REQUEST</a> request.
 
 
-#### - Status
+### -field Status
 
 The status of the request send attempt. Set to <b>NDIS_STATUS_SUCCESS</b> if the packet was successfully transmitted
 
 
-#### - uIEsOffset
+### -field uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) which were included in the the GO negotiation request packet. This offset is from the start of the buffer that contains this structure.
 
 
-#### - uIEsLength
+### -field uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 20d76582-4138-4a45-940b-a8e9207946a5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, usbspec/PUSB_STRING_DESCRIPTOR, buses.usb_string_descriptor, _USB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR structure pointer [Buses], USB_STRING_DESCRIPTOR structure [Buses], USB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
+ms.keywords: PUSB_STRING_DESCRIPTOR, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, _USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, *PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR structure pointer [Buses], USB_STRING_DESCRIPTOR structure [Buses], USB_STRING_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _USB_STRING_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 Specifies the length, in bytes, of the descriptor.
 
 
-#### - bDescriptorType
+### -field bDescriptorType
 
 Specifies the descriptor type. Must always be USB_STRING_DESCRIPTOR_TYPE.
 
 
-#### - bString
+### -field bString
 
 Pointer to a client-allocated buffer that contains, on return from the host controller driver, a Unicode string with the requested string descriptor.
 
@@ -96,9 +96,9 @@ Strings returned in <b>bString</b> are in Unicode format and the contents of the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 

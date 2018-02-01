@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d1163185-4cae-4f14-ae99-78795da89fb8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_HW_STREAM_INFORMATION, strmini/HW_STREAM_INFORMATION, strmini/PHW_STREAM_INFORMATION, HW_STREAM_INFORMATION structure [Streaming Media Devices], *PHW_STREAM_INFORMATION, stream.hw_stream_information, PHW_STREAM_INFORMATION structure pointer [Streaming Media Devices], PHW_STREAM_INFORMATION, strclass-struct_df196092-33e4-4b19-b45c-0986b262f2e9.xml, HW_STREAM_INFORMATION"
+ms.keywords: PHW_STREAM_INFORMATION structure pointer [Streaming Media Devices], *PHW_STREAM_INFORMATION, strclass-struct_df196092-33e4-4b19-b45c-0986b262f2e9.xml, _HW_STREAM_INFORMATION, stream.hw_stream_information, HW_STREAM_INFORMATION structure [Streaming Media Devices], HW_STREAM_INFORMATION, strmini/HW_STREAM_INFORMATION, strmini/PHW_STREAM_INFORMATION, PHW_STREAM_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,84 +83,84 @@ typedef struct _HW_STREAM_INFORMATION {
 
 
 
-#### - NumberOfPossibleInstances
+### -field NumberOfPossibleInstances
 
 Specifies the number of possible instances of this stream that can be opened.
 
 
-#### - DataFlow
+### -field DataFlow
 
 The direction that data can travel on this stream. For unidirectional data flow, <b>DataFlow</b> has the value <b>KSPIN_DATAFLOW_IN</b> or KSPIN_DATAFLOW_OUT.
 
 
-#### - DataAccessible
+### -field DataAccessible
 
 Specifies <b>TRUE</b> if the stream data is accessible to the class driver. 
 
 
-#### - NumberOfFormatArrayEntries
+### -field NumberOfFormatArrayEntries
 
 The number of entries in the array that begins at the address in the <b>StreamFormatsArray</b> member.
 
 
-#### - StreamFormatsArray
+### -field StreamFormatsArray
 
 Pointer to the beginning of the array of data ranges that this stream supports. (The name of this member is deceptive. This member points to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures, not KSDATAFORMAT structures.)
 
 
-#### - ClassReserved
+### -field ClassReserved
 
 Reserved for use by the class driver. Do not use.
 
 
-#### - NumStreamPropArrayEntries
+### -field NumStreamPropArrayEntries
 
 The number of entries in the array that begins at the address in the <b>StreamPropertiesArray</b> member.
 
 
-#### - StreamPropertiesArray
+### -field StreamPropertiesArray
 
 Pointer to the beginning of the array of property sets supported by this stream.
 
 
-#### - NumStreamEventArrayEntries
+### -field NumStreamEventArrayEntries
 
 The number of entries in the array that begins at the address in the <b>StreamEventsArray</b> field.
 
 
-#### - StreamEventsArray
+### -field StreamEventsArray
 
 Pointer to the beginning of the array of event sets supported by this stream.
 
 
-#### - Category
+### -field Category
 
 Specifies the GUID of the pin category.
 
 
-#### - Name
+### -field Name
 
 Specifies the GUID of the localized Unicode string name for the pin type, stored in the Registry.
 
 
-#### - MediumsCount
+### -field MediumsCount
 
 The number of entries in the array that begins at the address in the <b>Mediums</b> field.
 
 
-#### - Mediums
+### -field Mediums
 
 Pointer to the beginning of the array of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structures supported by this stream. If the minidriver does not specify a medium, the class driver uses the KSMEDIUMSETID_STANDARD, KSMEDIUM_TYPE_ANYINSTANCE medium as the default.
 
 
-#### - BridgeStream
+### -field BridgeStream
 
 If <b>TRUE</b>, the communications type of this stream's underlying pin type is KSPIN_COMMUNICATION_BRIDGE. Otherwise, the default communications type of a stream is KSPIN_COMMUNICATION_SINK.
 
 Most minidrivers will set this member to <b>FALSE</b>. See KSPROPERTY_PIN_COMMUNICATIONS for a description of communication types.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for use by the class driver. Do not use.
 

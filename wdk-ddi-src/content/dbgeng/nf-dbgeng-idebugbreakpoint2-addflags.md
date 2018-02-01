@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.addflags, IDebugBreakpoint2, AddFlags method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::AddFlags, IDebugBreakpoint::AddFlags, IDebugBreakpoint2::AddFlags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, dbgeng/IDebugBreakpoint::AddFlags, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint interface [Windows Debugging], AddFlags method, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, AddFlags, AddFlags method [Windows Debugging]
+ms.keywords: AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::AddFlags, AddFlags, IDebugBreakpoint::AddFlags, IDebugBreakpoint2::AddFlags, IDebugBreakpoint2, AddFlags method [Windows Debugging], debugger.addflags, dbgeng/IDebugBreakpoint::AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint interface [Windows Debugging], AddFlags method, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT AddFlags(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Additional flags to add to the breakpoint.  <i>Flags</i> is a bit field that is combined together with the existing flags by using a bitwise OR.  For more information about the flag bit field and an explanation of each flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.  You cannot modify the DEBUG_BREAKPOINT_DEFERRED flag in the <a href="https://msdn.microsoft.com/1e32bd40-8c77-4c6b-913c-6ec26707ed36">engine</a>. This bit in <i>Flags</i> must always be zero.
 

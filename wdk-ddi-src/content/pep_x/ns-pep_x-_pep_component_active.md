@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58C2FFFC-2EAC-406B-943A-491AF3538F78
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_ACTIVE, pep_x/PEP_COMPONENT_ACTIVE, kernel.pep_component_active, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture], *PPEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE, pep_x/PPEP_COMPONENT_ACTIVE
+ms.keywords: "_PEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture], *PPEP_COMPONENT_ACTIVE, pep_x/PPEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE, kernel.pep_component_active, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], pep_x/PEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _PEP_COMPONENT_ACTIVE {
 
 
 
-#### - DeviceHandle
+### -field DeviceHandle
 
 [in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
-#### - Component
+### -field Component
 
 [in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-#### - Active
+### -field Active
 
 [in] Whether the component is making a transition to the active condition. If TRUE, the component is making a transition from the idle condition to the active condition. If FALSE, the component is making a transition from the active condition to the idle condition.
 
 
-#### - WorkInformation
+### -field WorkInformation
 
 [out] A pointer to a <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure that describes the work that the PEP requests in response to this notification. If <b>NeedWork</b> is TRUE, <b>WorkInformation</b> must point to a valid <b>PEP_WORK_INFORMATION</b> structure. If <b>NeedWork</b> is FALSE, <b>WorkInformation</b> must be NULL.
 
 
-#### - NeedWork
+### -field NeedWork
 
 [out] Whether the PEP has a work request to submit in response to this notification. Set to TRUE if the PEP has work to request, or to FALSE if the PEP has no work to request.
 
@@ -107,9 +107,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 

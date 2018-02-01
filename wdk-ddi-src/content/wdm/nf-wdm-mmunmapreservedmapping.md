@@ -70,17 +70,17 @@ VOID MmUnmapReservedMapping(
 
 
 
-#### - BaseAddress [in]
+### -param BaseAddress [in]
 
 Pointer to the beginning of the reserved virtual memory range. This must be an address returned by <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>. 
 
 
-#### - PoolTag [in]
+### -param PoolTag [in]
 
 Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a> that initially reserved the buffer.
 
 
-#### - MemoryDescriptorList [in]
+### -param MemoryDescriptorList [in]
 
 Pointer to the MDL that describes the physical memory mapping.
 
@@ -94,9 +94,9 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
-
 <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
+
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
 

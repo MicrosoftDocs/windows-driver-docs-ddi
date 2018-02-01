@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87139670-9b51-4ced-9624-2ec9f4726a84
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintPipelineFilter interface [Print Devices], StartOperation method, IPrintPipelineFilter::StartOperation, IPrintPipelineFilter, StartOperation, print.iprintpipelinefilter_startoperation, StartOperation method [Print Devices], filterpipeline/IPrintPipelineFilter::StartOperation, StartOperation method [Print Devices], IPrintPipelineFilter interface, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml
+ms.keywords: print.iprintpipelinefilter_startoperation, filterpipeline/IPrintPipelineFilter::StartOperation, StartOperation method [Print Devices], IPrintPipelineFilter, StartOperation, StartOperation method [Print Devices], IPrintPipelineFilter interface, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml, IPrintPipelineFilter::StartOperation, IPrintPipelineFilter interface [Print Devices], StartOperation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

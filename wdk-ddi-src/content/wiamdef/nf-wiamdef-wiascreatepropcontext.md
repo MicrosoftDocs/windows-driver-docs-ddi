@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b820c19d-a12b-417b-a9a3-6a3d700009c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiascreatepropcontext, wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, wiamdef/wiasCreatePropContext
+ms.keywords: wiasCreatePropContext, wiamdef/wiasCreatePropContext, image.wiascreatepropcontext, wiasCreatePropContext function [Imaging Devices], wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasCreatePropContext(
 
 
 
-#### - cPropSpec
+### -param cPropSpec
 
 Specifies the total number of PROPSPEC structures in the <i>pPropSpec</i> array.
 
 
-#### - pPropSpec [in]
+### -param pPropSpec [in]
 
 Pointer to the first element of an array of PROPSPEC structures identifying which properties are changing.
 
 
-#### - cProps
+### -param cProps
 
 Specifies the number of property identifiers stored in this context.
 
 
-#### - pProps [in, optional]
+### -param pProps [in, optional]
 
 Pointer to the first element of an array of property identifiers that indicate the properties to put into this property context.
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure that contains a property context.
 
@@ -171,11 +171,11 @@ WIA_IPA_FORMAT
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
 
  
 

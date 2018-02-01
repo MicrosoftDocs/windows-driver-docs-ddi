@@ -75,7 +75,7 @@ DWORD APIENTRY Dot11ExtIhvReceivePacket(
 
 
 
-#### - hIhvExtAdapter [in, optional]
+### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -83,13 +83,13 @@ The handle used by the IHV Extensions DLL to reference the WLAN adapter. This ha
      Handler function.
 
 
-#### - dwInBufferSize [in]
+### -param dwInBufferSize [in]
 
 The length, in bytes, of the received packet referenced by the 
      <i>pvInBuffer</i> parameter.
 
 
-#### - pvInBuffer [in]
+### -param pvInBuffer [in]
 
 A pointer to a buffer, allocated by the operating system, which contains the packet data, as
      described in the Remarks section.
@@ -118,8 +118,8 @@ The WLAN adapter receives a packet and the Native 802.11 miniport driver, which 
 <li>
 The packet's IEEE EtherType matches an entry in the list of EtherTypes specified by the IHV
       Extensions DLL through a call to the 
-      <mshelp:link keywords="netvista.dot11extsetethertypehandling" tabindex="0"><b>
-      Dot11ExtSetEtherTypeHandling</b></mshelp:link> function.
+      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">
+      Dot11ExtSetEtherTypeHandling</a> function.
 
 </li>
 </ul>The buffer pointed to by 
@@ -127,8 +127,8 @@ The packet's IEEE EtherType matches an entry in the list of EtherTypes specified
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in 
-      <mshelp:link keywords="netvista.802_11_mac_header_management" tabindex="0">802.11 MAC Header
-      Management</mshelp:link>
+      <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header
+      Management</a>
 
 
 </li>

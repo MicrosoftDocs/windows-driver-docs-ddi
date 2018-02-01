@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c3fd576-48de-454b-8015-51767b21f17e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, GetDeviceControlTransferParameters method, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, GetDeviceControlTransferParameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters
+ms.keywords: GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ void GetDeviceControlTransferParameters(
 
 
 
-#### - ppMemory [out, optional]
+### -param ppMemory [out, optional]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface, for access to the buffer for the device I/O control request. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pLengthTransferred [out, optional]
+### -param pLengthTransferred [out, optional]
 
 A pointer to a variable that receives the size, in bytes, of transferred data. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pOffset [out, optional]
+### -param pOffset [out, optional]
 
 A pointer to a variable that receives the offset, in bytes, into the buffer for the I/O control request. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pSetupPacket [out, optional]
+### -param pSetupPacket [out, optional]
 
 A pointer that receives the WinUsb setup packet for the control transfer. This pointer is a PWINUSB_SETUP_PACKET data type that is defined as PVOID. This parameter is optional and can be <b>NULL</b>.
 

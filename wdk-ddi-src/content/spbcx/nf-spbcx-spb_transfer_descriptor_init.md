@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 96A069B5-BD89-4B8E-88D9-57944F4C9DB8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_DESCRIPTOR_INIT, SPB.spb_transfer_descriptor_init, SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR_INIT
+ms.keywords: SPB.spb_transfer_descriptor_init, SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], SPB_TRANSFER_DESCRIPTOR_INIT, spbcx/SPB_TRANSFER_DESCRIPTOR_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID SPB_TRANSFER_DESCRIPTOR_INIT(
 
 
 
-#### - Descriptor [out]
+### -param Descriptor [out]
 
 A pointer to the <b>SPB_TRANSFER_DESCRIPTOR</b> structure that is to be initialized.
 

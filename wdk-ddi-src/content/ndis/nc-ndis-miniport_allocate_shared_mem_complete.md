@@ -52,8 +52,8 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 NDIS calls a miniport driver's 
    <i>MiniportSharedMemoryAllocateComplete</i> function to complete a shared memory allocation request that
    the miniport driver started by calling the 
-   <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> function.
+   <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a> function.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE</b>
    type. For more information, see the following Examples section.</div><div> </div>
 
@@ -79,34 +79,34 @@ VOID MiniportSharedMemoryAllocateComplete(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 The handle to a context area allocated by the miniport driver in which the driver maintains state
      information for a NIC. The driver allocates this context area in the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
-#### - VirtualAddress [in]
+### -param VirtualAddress [in]
 
 The base virtual address of the shared memory that the miniport driver allocated by calling 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>. 
      <i>VirtualAddress</i> is <b>NULL</b> if the allocation attempt failed.
 
 
-#### - PhysicalAddress [in]
+### -param PhysicalAddress [in]
 
 The base physical address for the NIC to use that is mapped to the address that the 
      <i>VirtualAddress</i> parameter specifies.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes that 
      <b>NdisMAllocateSharedMemoryAsyncEx</b> allocated.
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to a context area that the miniport driver specified in the preceding call to 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
@@ -126,12 +126,12 @@ None
     driver registers a 
     <i>MiniportAllocateSharedMemoryComplete</i> function in the NDIS_SG_DMA_DESCRIPTION structure that the
     driver passed to the 
-    <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-    NdisMRegisterScatterGatherDma</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+    NdisMRegisterScatterGatherDma</a> function.
 
 Miniport drivers call 
-    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> to allocate shared memory. If 
+    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    NdisMAllocateSharedMemoryAsyncEx</a> to allocate shared memory. If 
     <b>NdisMAllocateSharedMemoryAsyncEx</b> returns NDIS_STATUS_PENDING, NDIS calls 
     <i>MiniportAllocateSharedMemoryComplete</i> to pass the memory to the miniport driver.
 
@@ -176,13 +176,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
 
  
 

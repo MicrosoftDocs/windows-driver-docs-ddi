@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 42d01b63-ca3b-4348-bf50-a1d648548266
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], display.d3d10ddiarg_stream_output_declaration_entry, UMDisplayDriver_Dx10param_Structs_bdfafade-cf99-4cbb-9ae1-d1bd57997dac.xml, d3d10umddi/D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
+ms.keywords: d3d10umddi/D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], display.d3d10ddiarg_stream_output_declaration_entry, UMDisplayDriver_Dx10param_Structs_bdfafade-cf99-4cbb-9ae1-d1bd57997dac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY {
 
 
 
-#### - OutputSlot
+### -field OutputSlot
 
 [in] The number of the slot for the portion of the stream output. 
 
 
-#### - RegisterIndex
+### -field RegisterIndex
 
 [in] The number of the register for the portion of the stream output.
 
 
-#### - RegisterMask
+### -field RegisterMask
 
 [in] The xyzw register mask for the portion of the stream output. That is, the four least signifigant bits (LSBs) of the mask represent xyzw respectively. 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlVerifyVersionInfo, wdm/RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], kernel.rtlverifyversioninfo, k109_c0301686-a323-499f-ac04-3bc414b016cd.xml
+ms.keywords: RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], kernel.rtlverifyversioninfo, k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, RtlVerifyVersionInfo, wdm/RtlVerifyVersionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS RtlVerifyVersionInfo(
 
 
 
-#### - VersionInfo [in]
+### -param VersionInfo [in]
 
 Pointer to an <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system. 
 
 
-#### - TypeMask [in]
+### -param TypeMask [in]
 
 Specifies which members of <i>VersionInfo</i> to compare with the corresponding attributes of the currently running version of the operating system. <i>TypeMask</i> is set to a logical OR of one or more of the following values.
                         
@@ -168,7 +168,7 @@ VER_PRODUCT_TYPE
 </table> 
 
 
-#### - ConditionMask [in]
+### -param ConditionMask [in]
 
 Specifies how to compare each <b>VersionInfo</b> member. To set the value of <i>ConditionMask</i>, a caller should use the <b>VER_SET_CONDITION</b> macro:
 						  
@@ -200,98 +200,6 @@ Set the <i>TypeBitMask</i> and <i>ComparisonType</i> parameters for each call to
 
 </li>
 </ul>
-
-
-#### TypeBitMask
-
-Indicates the <i>VersionInfo</i> member for which the comparison type is set. <i>TypeBitMask</i> can be one of the following values.
-        
-<table>
-<tr>
-<th>Value</th>
-<th>Corresponding member</th>
-</tr>
-<tr>
-<td>
-VER_BUILDNUMBER
-
-</td>
-<td>
-<b>dwBuildNumber</b>
-
-</td>
-</tr>
-<tr>
-<td>
-VER_MAJORVERSION
-
-</td>
-<td>
-<b>dwMajorVersion</b>
-
-</td>
-</tr>
-<tr>
-<td>
-VER_MINORVERSION
-
-</td>
-<td>
-<b>dwMinorVersion</b>
-
-</td>
-</tr>
-<tr>
-<td>
-VER_PLATFORMID
-
-</td>
-<td>
-<b>dwPlatformId</b>
-
-</td>
-</tr>
-<tr>
-<td>
-VER_SERVICEPACKMAJOR
-
-</td>
-<td>
-<b>wServicePackMajor</b>
-
-</td>
-</tr>
-<tr>
-<td>
-VER_SERVICEPACKMINOR
-
-</td>
-<td>
-<b>wServicePackMinor</b>
-
-</td>
-</tr>
-<tr>
-<td>
-VER_SUITENAME
-
-</td>
-<td>
-<b>wSuiteMask</b>
-
-</td>
-</tr>
-<tr>
-<td>
-VER_PRODUCT_TYPE
-
-</td>
-<td>
-<b>wProductType</b>
-
-</td>
-</tr>
-</table> 
 
 
 #### ComparisonType
@@ -386,6 +294,98 @@ At least one of the specified product suites must be present in the current syst
 </table> 
 
 
+#### TypeBitMask
+
+Indicates the <i>VersionInfo</i> member for which the comparison type is set. <i>TypeBitMask</i> can be one of the following values.
+        
+<table>
+<tr>
+<th>Value</th>
+<th>Corresponding member</th>
+</tr>
+<tr>
+<td>
+VER_BUILDNUMBER
+
+</td>
+<td>
+<b>dwBuildNumber</b>
+
+</td>
+</tr>
+<tr>
+<td>
+VER_MAJORVERSION
+
+</td>
+<td>
+<b>dwMajorVersion</b>
+
+</td>
+</tr>
+<tr>
+<td>
+VER_MINORVERSION
+
+</td>
+<td>
+<b>dwMinorVersion</b>
+
+</td>
+</tr>
+<tr>
+<td>
+VER_PLATFORMID
+
+</td>
+<td>
+<b>dwPlatformId</b>
+
+</td>
+</tr>
+<tr>
+<td>
+VER_SERVICEPACKMAJOR
+
+</td>
+<td>
+<b>wServicePackMajor</b>
+
+</td>
+</tr>
+<tr>
+<td>
+VER_SERVICEPACKMINOR
+
+</td>
+<td>
+<b>wServicePackMinor</b>
+
+</td>
+</tr>
+<tr>
+<td>
+VER_SUITENAME
+
+</td>
+<td>
+<b>wSuiteMask</b>
+
+</td>
+</tr>
+<tr>
+<td>
+VER_PRODUCT_TYPE
+
+</td>
+<td>
+<b>wProductType</b>
+
+</td>
+</tr>
+</table> 
+
+
 ## -returns
 
 
@@ -457,11 +457,11 @@ If the major service pack version exceeds the minimum required, then the minor s
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
-
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
  
 

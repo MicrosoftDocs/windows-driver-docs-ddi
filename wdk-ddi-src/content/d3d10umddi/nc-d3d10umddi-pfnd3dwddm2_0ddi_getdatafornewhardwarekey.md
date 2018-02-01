@@ -74,37 +74,27 @@ typedef HRESULT APIENTRY* pfnGetDataForNewHardwareKey(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-#### - hCryptoSession [in]
+### -param hCryptoSession [in]
 
 A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
-#### - PrivateInputSize [in]
+### -param PrivateInputSize [in]
 
 The size of the  buffer pointed to by <b>pPrivatInputData</b>, in bytes.
 
 
-#### - *pPrivatInputData [in]
+### -param *pPrivatInputData [in]
 
 A pointer to a buffer that receives private input data for the driver.
 
 
-#### - *pPrivateOutputData [out]
-
-A pointer to a UINT64 value that receives private driver output data that could be used later by the secure DRM component when initializing the key.
-
-
-#### - pPrivatInputData [in]
-
-A pointer to a buffer that receives private input data for the driver.
-
-
-#### - pPrivateOutputData [out]
+### -param *pPrivateOutputData [out]
 
 A pointer to a UINT64 value that receives private driver output data that could be used later by the secure DRM component when initializing the key.
 

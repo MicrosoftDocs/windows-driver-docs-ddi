@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b88afd6e-3a0a-471e-a874-db8fc3175d61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ntifs/MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences, ifsk.mmdoesfilehaveuserwritablereferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml
+ms.keywords: MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ifsk.mmdoesfilehaveuserwritablereferences, MmDoesFileHaveUserWritableReferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ntifs/MmDoesFileHaveUserWritableReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG MmDoesFileHaveUserWritableReferences(
 
 
 
-#### - SectionPointer [in]
+### -param SectionPointer [in]
 
 Pointer to a <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
 

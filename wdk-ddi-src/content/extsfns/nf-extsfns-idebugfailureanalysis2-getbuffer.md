@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 262B5237-86BF-43D6-A29A-A868663EA5D9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], GetBuffer method, IDebugFailureAnalysis2, GetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, GetBuffer, IDebugFailureAnalysis2::GetBuffer, extsfns/IDebugFailureAnalysis2::GetBuffer, GetBuffer method [Windows Debugging], debugger.idebugfailureanalysis2_getbuffer
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], GetBuffer method, IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::GetBuffer, GetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_getbuffer, GetBuffer, IDebugFailureAnalysis2::GetBuffer, GetBuffer method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ PFA_ENTRY GetBuffer(
 
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-#### - Buf [out]
+### -param Buf [out]
 
 A pointer to a buffer that receives the entry's data block.
 
 
-#### - Size [in]
+### -param Size [in]
 
 The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
@@ -100,13 +100,13 @@ If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-A
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 

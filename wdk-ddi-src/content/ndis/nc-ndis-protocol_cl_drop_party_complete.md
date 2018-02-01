@@ -79,20 +79,13 @@ VOID ProtocolClDropPartyComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies the final status of the client-initiated drop-party operation, which can be one of the
      following:
      
 
 
-
-
-#### NDIS_STATUS_SUCCESS
-
-The party has been dropped. The 
-       <i>NdisPartyHandle</i> that represented this party, which the client stored in its 
-       <i>ProtocolPartyContext</i> area, is now invalid.
 
 
 #### NDIS_STATUS_FAILURE
@@ -103,7 +96,14 @@ The given party was the last remaining on the client's multipoint VC. Therefore,
        party.
 
 
-#### - ProtocolPartyContext [in]
+#### NDIS_STATUS_SUCCESS
+
+The party has been dropped. The 
+       <i>NdisPartyHandle</i> that represented this party, which the client stored in its 
+       <i>ProtocolPartyContext</i> area, is now invalid.
+
+
+### -param ProtocolPartyContext [in]
 
 Specifies the handle to the client's per-party context area, which the client originally supplied
      to NDIS either when it called 
@@ -172,24 +172,24 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
-<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
 
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
 <a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
  
 

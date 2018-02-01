@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 493B8E5B-D2CC-453E-8202-69337FAC85ED
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucx_controller_config_set_pci_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], UCX_CONTROLLER_CONFIG_SET_PCI_INFO
+ms.keywords: buses._ucx_controller_config_set_pci_info, UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,37 +75,37 @@ void UCX_CONTROLLER_CONFIG_SET_PCI_INFO(
 
 
 
-#### - Config [in]
+### -param Config [in]
 
 A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure to initialize.
 
 
-#### - VendorId [in]
+### -param VendorId [in]
 
 Specifies the vendor identifier for the device as assigned by the PCI SIG.
 
 
-#### - DeviceId [in]
+### -param DeviceId [in]
 
 Specifies the device identifier assigned by the manufacturer. 
 
 
-#### - RevisionId [in]
+### -param RevisionId [in]
 
 Specifies the revision level of the device described by the <b>DeviceID</b> member.
 
 
-#### - BusNumber [in]
+### -param BusNumber [in]
 
 Specifies the bus number that identifies the bus instance that a device instance is attached to.
 
 
-#### - DeviceNumber [in]
+### -param DeviceNumber [in]
 
 Specifies the device number that is assigned to the logical PCI slot. 
 
 
-#### - FunctionNumber [in]
+### -param FunctionNumber [in]
 
 Specifies the specific function on the device that is located in the logical PCI slot. 
 
@@ -119,9 +119,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
 <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
 
  
 

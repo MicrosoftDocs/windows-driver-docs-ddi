@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.iscsi_discoveredtargetportal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], iscsifnd/ISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal, _ISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml
+ms.keywords: ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml, _ISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], *PISCSI_DiscoveredTargetPortal, storage.iscsi_discoveredtargetportal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _ISCSI_DiscoveredTargetPortal {
 
 
 
-#### - Socket
+### -field Socket
 
 The socket number of the portal. 
 
 
-#### - Address
+### -field Address
 
 The network address of the portal. 
 
 
-#### - SymbolicName
+### -field SymbolicName
 
 A wide character string that indicates the portal's symbolic name.
 
@@ -93,11 +93,11 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal2.md">ISCSI_DiscoveredTargetPortal2</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal2.md">ISCSI_DiscoveredTargetPortal2</a>
 
  
 

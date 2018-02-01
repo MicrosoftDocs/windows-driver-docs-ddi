@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12ac73ed-f829-4f22-bca9-ccc1dc29f4c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_driverversion, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0, d3dkmthk/_QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_1_2, KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, d3dkmthk/, D3DKMT_DRIVERVERSION, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, _QAI_DRIVERVERSION enumeration [Display Devices], OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, KMT_DRIVERVERSION_WDDM_1_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, _QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_2_0, D3DKMT_DRIVERVERSION enumeration [Display Devices]
+ms.keywords: KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_0, _QAI_DRIVERVERSION enumeration [Display Devices], KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/_QAI_DRIVERVERSION, display.d3dkmt_driverversion, D3DKMT_DRIVERVERSION enumeration [Display Devices], d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, D3DKMT_DRIVERVERSION, d3dkmthk/, _QAI_DRIVERVERSION, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_2_0, KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -79,36 +79,36 @@ typedef enum _QAI_DRIVERVERSION {
 
 
 
-#### - KMT_DRIVERVERSION_WDDM_1_0
+### -field KMT_DRIVERVERSION_WDDM_1_0
 
 The display miniport driver supports the Windows Vista display driver model (WDDM) without Windows 7 features. 
 
 
-#### - KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE
+### -field KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE
 
 The display miniport driver supports the Windows Vista display driver model with prereleased Windows 7 features. 
 
 
-#### - KMT_DRIVERVERSION_WDDM_1_1
+### -field KMT_DRIVERVERSION_WDDM_1_1
 
 The display miniport driver supports the Windows Vista display driver model with released Windows 7 features. 
 
 
-#### - KMT_DRIVERVERSION_WDDM_1_2
+### -field KMT_DRIVERVERSION_WDDM_1_2
 
 The display miniport driver supports the Windows Vista display driver model with released Windows 8 features.
 
 Supported starting with Windows 8.
 
 
-#### - KMT_DRIVERVERSION_WDDM_1_3
+### -field KMT_DRIVERVERSION_WDDM_1_3
 
 The display miniport driver supports the Windows display driver model with released Windows 8.1 features.
 
 Supported starting with Windows 8.1.
 
 
-#### - KMT_DRIVERVERSION_WDDM_2_0
+### -field KMT_DRIVERVERSION_WDDM_2_0
 
 The display miniport driver supports the Windows display driver model with released Windows 10 features.
 

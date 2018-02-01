@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f17e390a-fa13-4435-ad1e-3fecc035ec41
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_PARAMETER_TYPE, ndis/NdisParameterInteger, netvista.ndis_parameter_type, NdisParameterInteger, NDIS_PARAMETER_TYPE, NdisParameterMultiString, ndis/NdisParameterString, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterBinary, PNDIS_PARAMETER_TYPE, _NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE, ndis/NdisParameterMultiString, ndis/NdisParameterHexInteger, ndis/NDIS_PARAMETER_TYPE, NdisParameterString, ndis/NdisParameterBinary, NdisParameterHexInteger
+ms.keywords: NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterString, PNDIS_PARAMETER_TYPE, _NDIS_PARAMETER_TYPE, ndis/NdisParameterMultiString, ndis/NdisParameterInteger, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_PARAMETER_TYPE, ndis/PNDIS_PARAMETER_TYPE, NdisParameterBinary, ndis/NDIS_PARAMETER_TYPE, netvista.ndis_parameter_type, NdisParameterInteger, NdisParameterHexInteger, NDIS_PARAMETER_TYPE, ndis/NdisParameterHexInteger, NdisParameterMultiString, ndis/NdisParameterBinary, ndis/NdisParameterString, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _NDIS_PARAMETER_TYPE {
 
 
 
-#### - NdisParameterInteger
+### -field NdisParameterInteger
 
 An integer in decimal notation.
 
 
-#### - NdisParameterHexInteger
+### -field NdisParameterHexInteger
 
 An integer in hexadecimal notation.
 
 
-#### - NdisParameterString
+### -field NdisParameterString
 
 A string of type NDIS_STRING.
 
 
-#### - NdisParameterMultiString
+### -field NdisParameterMultiString
 
 A multistring parameter of the REG_MULTI_SZ type.
 
 
-#### - NdisParameterBinary
+### -field NdisParameterBinary
 
 A binary value of type REG_BINARY.
 
@@ -100,8 +100,8 @@ A binary value of type REG_BINARY.
 
 
 The NDIS_PARAMETER_TYPE enumeration type is used in the 
-    <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
-    NDIS_CONFIGURATION_PARAMETER</b></mshelp:link> structure and in the 
+    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    NDIS_CONFIGURATION_PARAMETER</a> structure and in the 
     <i>ParameterType</i> parameter of the 
     <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a> function.
 

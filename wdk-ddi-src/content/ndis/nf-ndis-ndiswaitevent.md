@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fefdb56f-6689-4a4f-a198-6108190624f0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiswaitevent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], NdisWaitEvent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, ndis/NdisWaitEvent
+ms.keywords: ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, NdisWaitEvent function [Network Drivers Starting with Windows Vista], ndis/NdisWaitEvent, NdisWaitEvent, netvista.ndiswaitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ BOOLEAN NdisWaitEvent(
 
 
 
-#### - Event [in]
+### -param Event [in]
 
 A pointer to an initialized event object for which the caller provides the storage.
 
 
-#### - MsToWait [in]
+### -param MsToWait [in]
 
 The number of milliseconds the caller will wait if the event is not set to the 
      <i>signaled</i> state within that interval. A value of zero specifies that the caller will wait for the
@@ -106,29 +106,29 @@ A miniport driver typically calls
     driver typically calls 
     <b>NdisWaitEvent</b> from its 
     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> and 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> functions.
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> functions.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
 <a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
 
  
 

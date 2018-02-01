@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 15231188-5c6d-4e36-afe9-74b92f445fa3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.logoutfromtarget_out, structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml, iscsiop/PLogoutFromTarget_OUT, LogoutFromTarget_OUT structure [Storage Devices], *PLogoutFromTarget_OUT, LogoutFromTarget_OUT, PLogoutFromTarget_OUT, _LogoutFromTarget_OUT, iscsiop/LogoutFromTarget_OUT, PLogoutFromTarget_OUT structure pointer [Storage Devices]
+ms.keywords: structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml, iscsiop/LogoutFromTarget_OUT, iscsiop/PLogoutFromTarget_OUT, LogoutFromTarget_OUT structure [Storage Devices], PLogoutFromTarget_OUT structure pointer [Storage Devices], _LogoutFromTarget_OUT, storage.logoutfromtarget_out, PLogoutFromTarget_OUT, *PLogoutFromTarget_OUT, LogoutFromTarget_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _LogoutFromTarget_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output from <b>LogoutFromTarget</b>, the status of the logoff operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
@@ -83,11 +83,11 @@ You must implement this method.
 
 <a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_in.md">LogoutFromTarget_IN</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a>
 

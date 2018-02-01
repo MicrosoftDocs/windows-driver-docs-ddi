@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 373D7CA9-AF1B-46E8-AE6A-F693A9214527
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX, *PUSBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], buses.usbfn_class_information_packet_ex, PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX"
+ms.keywords: "*PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, buses.usbfn_class_information_packet_ex, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], _USBFN_CLASS_INFORMATION_PACKET_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,7 +98,7 @@ typedef struct _USBFN_CLASS_INFORMATION_PACKET_EX {
  
 
 
-#### - HasInterfaceGuid
+### -field HasInterfaceGuid
 
 Determines whether the driver has published a device interface is GUID. 
 
@@ -113,9 +113,9 @@ A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface_ex.md">USBFN_CLASS_I
 A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface_ex.md">USBFN_CLASS_INTERFACE_EX</a> structure that describes an interface for high speed device.
 
 
-#### - SuperSpeedClassInterface
+#### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
 
-A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
+A string from which the driver can derive the device interface GUID.
 
 
 #### - InterfaceName[MAX_INTERFACE_NAME_LENGTH]
@@ -123,18 +123,18 @@ A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTE
 A string that contains the interface name.
 
 
-#### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
+#### - SuperSpeedClassInterface
 
-A string from which the driver can derive the device interface GUID.
+A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
 
 
 ## -see-also
 
-<a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md">WdfDeviceSetDeviceInterfaceState</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatesymboliclink.md">WdfDeviceCreateSymbolicLink</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md">WdfDeviceSetDeviceInterfaceState</a>
+<a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a>
 
  
 

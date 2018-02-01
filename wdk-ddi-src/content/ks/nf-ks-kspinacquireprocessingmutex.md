@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ce1fb470-6fee-4de0-a5db-15875a14e581
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinAcquireProcessingMutex function [Streaming Media Devices], stream.kspinacquireprocessingmutex, KsPinAcquireProcessingMutex, avfunc_d06d3037-45b0-4931-86e4-ef7c586bcdf1.xml, ks/KsPinAcquireProcessingMutex
+ms.keywords: ks/KsPinAcquireProcessingMutex, avfunc_d06d3037-45b0-4931-86e4-ef7c586bcdf1.xml, stream.kspinacquireprocessingmutex, KsPinAcquireProcessingMutex function [Streaming Media Devices], KsPinAcquireProcessingMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void KsPinAcquireProcessingMutex(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to acquire the processing mutex.
 
@@ -91,11 +91,11 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 <a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
 
+<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
+
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-
-<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
 
  
 

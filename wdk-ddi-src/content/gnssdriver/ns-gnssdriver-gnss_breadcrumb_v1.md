@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BE1D09C4-8EC0-4BF3-A943-20EDD44F9CF1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_BREADCRUMB_V1, gnssdriver/GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1, sensors.gnss_breadcrumb_v1, PGNSS_BREADCRUMB_V1, PGNSS_BREADCRUMB_V1 structure pointer [Sensor Devices], GNSS_BREADCRUMB_V1 structure [Sensor Devices], gnssdriver/PGNSS_BREADCRUMB_V1
+ms.keywords: PGNSS_BREADCRUMB_V1, gnssdriver/GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1, GNSS_BREADCRUMB_V1, sensors.gnss_breadcrumb_v1, GNSS_BREADCRUMB_V1 structure [Sensor Devices], PGNSS_BREADCRUMB_V1 structure pointer [Sensor Devices], gnssdriver/PGNSS_BREADCRUMB_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct {
 
 
 
-#### - FixTimeStamp
+### -field FixTimeStamp
 
 Contains the breadcrumb fix timestamp value.
 
 
-#### - Latitude
+### -field Latitude
 
 Contains the breadcrumb longitude value at the time of the fix.
 
 
-#### - Longitude
+### -field Longitude
 
 Contains the breadcrumb latitude at the time of the fix.
 
 
-#### - HorizontalAccuracy
+### -field HorizontalAccuracy
 
 Contains the breadcrumb horizontal altitude value.
 
 
-#### - Speed
+### -field Speed
 
 Contains the speed value at the time of the breadcrumb fix.
 
 
-#### - SpeedAccuracy
+### -field SpeedAccuracy
 
 Contains the breadcrumb speed accuracy value.
 
 
-#### - Altitude
+### -field Altitude
 
 Contains the breadcrumb altitude value at the time of the fix.
 
 
-#### - AltitudeAccuracy
+### -field AltitudeAccuracy
 
 Contains the breadcrumb altitude accuracy value.
 
 
-#### - Heading
+### -field Heading
 
 Contains the breadcrumb heading value at the time of the fix.
 
 
-#### - HeadingAccuracy
+### -field HeadingAccuracy
 
 Contains the breadcrumb heading accuracy value.
 
 
-#### - FixSuccess
+### -field FixSuccess
 
 A Boolean type that contains the fix success value.
 

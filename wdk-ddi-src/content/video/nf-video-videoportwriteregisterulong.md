@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6d7b5e2f-a7c3-46ee-a03a-f80f8e1ada07
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWriteRegisterUlong function [Display Devices], display.videoportwriteregisterulong, video/VideoPortWriteRegisterUlong, VideoPort_Functions_18ff4439-1c87-44fe-b695-3903b0093e55.xml, VideoPortWriteRegisterUlong
+ms.keywords: VideoPort_Functions_18ff4439-1c87-44fe-b695-3903b0093e55.xml, VideoPortWriteRegisterUlong function [Display Devices], video/VideoPortWriteRegisterUlong, VideoPortWriteRegisterUlong, display.videoportwriteregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID VideoPortWriteRegisterUlong(
 
 
 
-#### - Register
+### -param Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-#### - Value
+### -param Value
 
 Specifies a ULONG value to be transferred to the adapter.
 

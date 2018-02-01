@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F5520F9F-159E-42D9-A7F4-426CB935D29D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucm_pd_power_data_object_init_ulong, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
+ms.keywords: buses.ucm_pd_power_data_object_init_ulong, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_ULONG(
 
 
 
-#### - Pdo [out]
+### -param Pdo [out]
 
 A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure.
 
 
-#### - UlongInLittleEndian [in]
+### -param UlongInLittleEndian [in]
 
 The ULONG value to set in the <b>Ul</b> member of   <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>.
 

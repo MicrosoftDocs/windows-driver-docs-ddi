@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c33a9592-8e1b-4028-bd34-72cc4885f17f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemplgblt, OEMPlgBlt function [Print Devices], print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml, printoem/OEMPlgBlt, OEMPlgBlt
+ms.keywords: OEMPlgBlt, printoem/OEMPlgBlt, print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml, OEMPlgBlt function [Print Devices], print.oemplgblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,46 +78,46 @@ BOOL APIENTRY OEMPlgBlt(
 
 
 
-#### - psoDst
+### -param psoDst
 
 
 
-#### - psoSrc
+### -param psoSrc
 
 
 
-#### - psoMask
+### -param psoMask
 
 
 
-#### - pco
+### -param pco
 
 
 
-#### - pxlo
+### -param pxlo
 
 
 
-#### - pca
+### -param pca
 
 
 
-#### - pptlBrushOrg
+### -param pptlBrushOrg
 
 
 
-#### - pptfixDest
+### -param pptfixDest
 
 
 
-#### - prclSrc
+### -param prclSrc
 
 
 
-#### - pptlMask
+### -param pptlMask
 
 
 
-#### - iMode
+### -param iMode
 
 

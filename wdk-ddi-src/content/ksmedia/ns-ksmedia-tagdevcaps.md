@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: DEVCAPS structure [Streaming Media Devices], DEVCAPS, *PDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml, ksmedia/DEVCAPS, ksmedia/PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], tagDEVCAPS, stream.devcaps, PDEVCAPS
+ms.keywords: ksmedia/DEVCAPS, tagDEVCAPS, stream.devcaps, ksmedia/PDEVCAPS, *PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml, PDEVCAPS, DEVCAPS structure [Streaming Media Devices], DEVCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,37 +89,37 @@ typedef struct tagDEVCAPS {
 
 
 
-#### - CanRecord
+### -field CanRecord
 
 Specifies if the external device can record.
 
 
-#### - CanRecordStrobe
+### -field CanRecordStrobe
 
 For multitrack devices. Specifies if the external device can record. Switches currently recording tracks off and selected nonrecording track into record.
 
 
-#### - HasAudio
+### -field HasAudio
 
 Specifies if the external device has audio capabilities.
 
 
-#### - HasVideo
+### -field HasVideo
 
 Specifies if the external device has video capabilities.
 
 
-#### - UsesFiles
+### -field UsesFiles
 
 Specifies if the external device uses files.
 
 
-#### - CanSave
+### -field CanSave
 
 Specifies if the external device can save.
 
 
-#### - DeviceType
+### -field DeviceType
 
 Specifies the type of the external device. See Remarks.
 <table>
@@ -190,77 +190,77 @@ Unknown type
 </table> 
 
 
-#### - TCRead
+### -field TCRead
 
 Specifies if the external device can read timecodes.
 
 
-#### - TCWrite
+### -field TCWrite
 
 Specifies if the external device can write timecodes.
 
 
-#### - CTLRead
+### -field CTLRead
 
 Specifies if the external device can read to a control track (nontimecode) target value.
 
 
-#### - IndexRead
+### -field IndexRead
 
 Specifies if the external device can read to an index (nontimecode) target value.
 
 
-#### - Preroll
+### -field Preroll
 
 Specifies the external device's preroll time in the current time format.
 
 
-#### - Postroll
+### -field Postroll
 
 Specifies the external device's postroll time in the current time format.
 
 
-#### - SyncAcc
+### -field SyncAcc
 
 Indicates the external device's synchronization accuracy.
 
 
-#### - NormRate
+### -field NormRate
 
 Specifies the external device's normal frame rate.
 
 
-#### - CanPreview
+### -field CanPreview
 
 Specifies if the external device can preview.
 
 
-#### - CanMonitorSrc
+### -field CanMonitorSrc
 
 Specifies if the external device can monitor source.
 
 
-#### - CanTest
+### -field CanTest
 
 Indicates the implementation of the external device allows testing of methods/parameters by setting the high bit of a parameter that makes sense. This is not implemented an always returns FALSE.
 
 
-#### - VideoIn
+### -field VideoIn
 
 Indicates the external device accepts video as an input.
 
 
-#### - AudioIn
+### -field AudioIn
 
 Indicates the external device accepts audio as an input.
 
 
-#### - Calibrate
+### -field Calibrate
 
 Indicates if the external device requires calibrating.
 
 
-#### - SeekType
+### -field SeekType
 
 Specifies the type of seeking the external device is capable of. For example:
 <table>
@@ -301,7 +301,7 @@ Indicates slow seeking (like a tape transport).
 </table> 
 
 
-#### - SimulatedHardware
+### -field SimulatedHardware
 
 Must be set to zero.
 

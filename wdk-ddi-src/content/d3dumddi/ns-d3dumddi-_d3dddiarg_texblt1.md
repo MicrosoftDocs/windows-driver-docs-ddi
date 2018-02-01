@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e11fd9b5-c3ad-4f8f-890c-30ca5ce4a57f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1, display.d3dddiarg_texblt1, D3DDDIARG_TEXBLT1 structure [Display Devices], d3dumddi/D3DDDIARG_TEXBLT1"
+ms.keywords: "_D3DDDIARG_TEXBLT1, display.d3dddiarg_texblt1, d3dumddi/D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], D3DDDIARG_TEXBLT1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,43 +72,43 @@ typedef struct _D3DDDIARG_TEXBLT1 {
 
 
 
-#### - hDstResource
+### -field hDstResource
 
 A handle to the destination resource.
 
 
-#### - hSrcResource
+### -field hSrcResource
 
 A handle to the source resource.
 
 
-#### - CubeMapFace
+### -field CubeMapFace
 
 The face of a cube map.
 
 
-#### - DstPoint
+### -field DstPoint
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that describes the destination point where the source texture is copied.
 
 
-#### - SrcRect
+### -field SrcRect
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the source texture to copy to the destination point.
 
 
-#### - CopyFlags
+### -field CopyFlags
 
 A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+
+<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
 
  
 

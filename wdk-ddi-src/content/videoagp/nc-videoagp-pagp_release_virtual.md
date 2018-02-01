@@ -72,12 +72,12 @@ VOID APIENTRY AgpReleaseVirtual(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - VirtualReserveContext [in]
+### -param VirtualReserveContext [in]
 
 Is the context handle that identifies the reserved virtual address range to be released. This context was obtained from <b>AgpReleaseVirtual</b>.
 

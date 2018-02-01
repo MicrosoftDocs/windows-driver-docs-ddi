@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 258bcd6f-0536-48d3-a06a-10277f8bef87
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], _CMP_MONITOR_INFO, *PCMP_MONITOR_INFO, 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, 61883/CMP_MONITOR_INFO, IEEE.cmp_monitor_info, CMP_MONITOR_INFO structure [Buses]
+ms.keywords: PCMP_MONITOR_INFO, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, 61883/CMP_MONITOR_INFO, *PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], IEEE.cmp_monitor_info, _CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _CMP_MONITOR_INFO {
 
 
 
-#### - State
+### -field State
 
 The current state of the plug.
 
 
-#### - PlugNum
+### -field PlugNum
 
 The number of the plug that was accessed.
 
 
-#### - PlugType
+### -field PlugType
 
 The type of plug, either CMP_PlugOut or CMP_PlugIn.
 
 
-#### - Pcr
+### -field Pcr
 
 The current contents of the plug.
 
 
-#### - Context
+### -field Context
 
 Points to a caller-defined context that was registered with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536987">Av61883_MonitorPlugs</a>.
 

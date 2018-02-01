@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 234907d8-d21e-4303-9508-0673afa471a6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltUnloadFilter, FltUnloadFilter function [Installable File System Drivers], FltApiRef_p_to_z_88925df3-96d3-4e1f-9e0b-f97eb8d9b40b.xml, ifsk.fltunloadfilter, fltkernel/FltUnloadFilter
+ms.keywords: FltApiRef_p_to_z_88925df3-96d3-4e1f-9e0b-f97eb8d9b40b.xml, FltUnloadFilter, ifsk.fltunloadfilter, fltkernel/FltUnloadFilter, FltUnloadFilter function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS FltUnloadFilter(
 
 
 
-#### - FilterName [in]
+### -param FilterName [in]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the minifilter driver service name that was passed to <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>. 
 
@@ -122,9 +122,9 @@ A minifilter driver cannot call <b>FltUnloadFilter</b> to unload itself.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
 
  
 

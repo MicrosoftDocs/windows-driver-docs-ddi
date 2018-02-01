@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 726a4f12-3cee-4d95-89d3-39f2bb357967
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], D3DKMT_GETPROCESSDEVICELOSTSUPPORT, _D3DKMT_GETPROCESSDEVICELOSTSUPPORT
+ms.keywords: display.d3dkmt-getprocessdevicelostsupport, _D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct _D3DKMT_GETPROCESSDEVICELOSTSUPPORT {
 
 
 
-#### - hProcess
+### -field hProcess
 
 A handle to the process.
 
 
-#### - AdapterLuid
+### -field AdapterLuid
 
 LUID of Adapter that is potentially being detached
 
 
-#### - Support
+### -field Support
 
 Indicates whether or not all devices of the process using the adapter can recover from graphics device lost.
 

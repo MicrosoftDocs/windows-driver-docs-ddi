@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ca5caf9d-5c73-4516-bbc9-ee3ff9511e99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivated, WwanActivationStateMax, wwan/WwanActivationStateDeactivating, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, netvista.wwan_activation_state, WwanActivationStateActivated, wwan/WwanActivationStateActivating, WwanActivationStateUnknown, WwanActivationStateDeactivating, _WWAN_ACTIVATION_STATE, WwanActivationStateDeactivated, wwan/WwanActivationStateDeactivated, PWWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanActivationStateUnknown, *PWWAN_ACTIVATION_STATE, wwan/WWAN_ACTIVATION_STATE, wwan/WwanActivationStateMax, WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanActivationStateActivating, WWAN_ACTIVATION_STATE
+ms.keywords: WwanActivationStateActivating, WWAN_ACTIVATION_STATE, *PWWAN_ACTIVATION_STATE, wwan/PWWAN_ACTIVATION_STATE, _WWAN_ACTIVATION_STATE, WwanActivationStateUnknown, wwan/WwanActivationStateActivating, wwan/WwanActivationStateDeactivating, WwanActivationStateDeactivated, wwan/WwanActivationStateDeactivated, WwanActivationStateDeactivating, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, wwan/WwanActivationStateActivated, WwanActivationStateMax, wwan/WWAN_ACTIVATION_STATE, wwan/WwanActivationStateUnknown, netvista.wwan_activation_state, wwan/WwanActivationStateMax, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_ACTIVATION_STATE, WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanActivationStateActivated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,32 +74,32 @@ typedef enum _WWAN_ACTIVATION_STATE {
 
 
 
-#### - WwanActivationStateUnknown
+### -field WwanActivationStateUnknown
 
 The activation state is unknown.
 
 
-#### - WwanActivationStateActivated
+### -field WwanActivationStateActivated
 
 The packet context is activated.
 
 
-#### - WwanActivationStateActivating
+### -field WwanActivationStateActivating
 
 The packet context is currently in the process of getting activated.
 
 
-#### - WwanActivationStateDeactivated
+### -field WwanActivationStateDeactivated
 
 The packet context is not activated.
 
 
-#### - WwanActivationStateDeactivating
+### -field WwanActivationStateDeactivating
 
 The packet context is currently in the process of getting deactivated.
 
 
-#### - WwanActivationStateMax
+### -field WwanActivationStateMax
 
 The total number of PDP activation states.
 

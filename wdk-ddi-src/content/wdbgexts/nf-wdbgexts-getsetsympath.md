@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c7392c2-49c8-4b27-addc-0200eabbe87e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsetsympath, GetSetSympath function [Windows Debugging], wdbgexts/GetSetSympath, GetSetSympath, WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml
+ms.keywords: WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, GetSetSympath function [Windows Debugging], GetSetSympath, wdbgexts/GetSetSympath, debugger.getsetsympath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ __inline VOID GetSetSympath(
 
 
 
-#### - Arg [in]
+### -param Arg [in]
 
 Specifies the new search path. If this argument is <b>NULL</b> or the string is empty, the search path is not set and the current setting is returned in <i>Result</i>.
 
@@ -80,7 +80,7 @@ Specifies the new search path. If this argument is <b>NULL</b> or the string is 
 TBD
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the size of the buffer for storing the result.
 

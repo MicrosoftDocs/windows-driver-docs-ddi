@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 842D7F4A-3352-469A-B7C1-E075432107CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1, _FILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1, ifsk.file_provider_external_info_v1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers]
+ms.keywords: ifsk.file_provider_external_info_v1, PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers], ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO, FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _FILE_PROVIDER_EXTERNAL_INFO_V1 {
 
 
 
-#### - Version
+### -field Version
 
 The version of the provider to use. Specify FILE_PROVIDER_CURRENT_VERSION.
 
 
-#### - Algorithm
+### -field Algorithm
 
 Specifies the compression algorithm that is used to compress this file. Currently defined algorithms are: 
 <ul>
@@ -84,7 +84,7 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 <li>FILE_PROVIDER_COMPRESSION_XPRESS16K: Indicates that the data for the file should be compressed in 16kb chunks with the XPress algorithm.</li>
 </ul>
 
-#### - Flags
+### -field Flags
 
 Specifies flags for the operation. Reserved for future use, should be 0.
 

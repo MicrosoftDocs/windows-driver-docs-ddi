@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 02524493-3842-462e-86f6-2ab35998c65e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Compression method [Print Devices], print.iprintoemuni_compression, IPrintOemUni, Compression method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], Compression method, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml, prcomoem/IPrintOemUni::Compression, Compression, IPrintOemUni::Compression
+ms.keywords: Compression method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], Compression method, prcomoem/IPrintOemUni::Compression, IPrintOemUni, Compression, IPrintOemUni::Compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml, print.iprintoemuni_compression, Compression method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT Compression(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - pInBuf
+### -param pInBuf
 
 Caller-supplied pointer to input scan line data.
 
 
-#### - pOutBuf
+### -param pOutBuf
 
 Caller-supplied pointer to an output buffer to receive compressed scan line data.
 
 
-#### - dwInLen
+### -param dwInLen
 
 Caller-supplied length of the input data.
 
 
-#### - dwOutLen
+### -param dwOutLen
 
 Caller-supplied length of the output buffer.
 
 
-#### - piResult [out]
+### -param piResult [out]
 
 Receives a method-supplied result value. If the operation succeeds, this value should be the number of compressed bytes, which must not be larger than the value received for <i>dwOutLen</i>. If an error occurs, or if the method cannot compress, the result value should be -1.
 

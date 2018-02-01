@@ -68,12 +68,12 @@ BOOLEAN RtlDeleteElementGenericTableAvl(
 
 
 
-#### - Table [in]
+### -param Table [in]
 
 A pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a caller-allocated buffer containing a value that uniquely identifies the element to be deleted.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8b7a49cc-5061-475b-ac03-cbf43954c413
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPinCount interface [Audio Devices], PinCount method, IPinCount::PinCount, PinCount method [Audio Devices], IPinCount interface, audio.ipincount_pincount, IPinCount, PinCount method [Audio Devices], portcls/IPinCount::PinCount, PinCount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml
+ms.keywords: audio.ipincount_pincount, PinCount method [Audio Devices], IPinCount interface, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, IPinCount, PinCount method [Audio Devices], IPinCount interface [Audio Devices], PinCount method, PinCount, portcls/IPinCount::PinCount, IPinCount::PinCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ void PinCount(
 
 
 
-#### - PinId [in]
+### -param PinId [in]
 
 Specifies the pin ID. If a filter contains <i>n</i> pin factories, valid pin IDs range from 0 to <i>n</i>-1.
 
 
-#### - FilterNecessary [in, out]
+### -param FilterNecessary [in, out]
 
 Specifies the minimum number of pins that the pin factory should instantiate before the filter can perform I/O operations.
 
 
-#### - FilterCurrent [in, out]
+### -param FilterCurrent [in, out]
 
 Specifies the current number of pin instances. This number counts the pins that the pin factory has already instantiated on the filter.
 
 
-#### - FilterPossible [in, out]
+### -param FilterPossible [in, out]
 
 Specifies the maximum number of pins that the pin factory can instantiate on the filter. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
 
-#### - GlobalCurrent [in, out]
+### -param GlobalCurrent [in, out]
 
 Specifies the current number of pins that the pin factory has instantiated on the driver.
 
 
-#### - GlobalPossible [in, out]
+### -param GlobalPossible [in, out]
 
 Specifies the maximum number of pins that the pin factory can instantiate on the driver. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
@@ -158,19 +158,19 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
-
-<a href="..\portcls\nn-portcls-ipincount.md">IPinCount</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+<a href="..\portcls\nn-portcls-ipincount.md">IPinCount</a>
 
  
 

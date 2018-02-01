@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5110C452-53E6-401A-9D14-EBD95D3F8BE2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceassignproperty, wdfdevice/WdfDeviceAssignProperty, WdfDeviceAssignProperty, WdfDeviceAssignProperty method, PFN_WDFDEVICEASSIGNPROPERTY
+ms.keywords: WdfDeviceAssignProperty method, WdfDeviceAssignProperty, wdfdevice/WdfDeviceAssignProperty, PFN_WDFDEVICEASSIGNPROPERTY, wdf.wdfdeviceassignproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfDeviceAssignProperty(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - DeviceProperty [in]
+### -param DeviceProperty [in]
 
 A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to modify.
 
 
-#### - Type [in]
+### -param Type [in]
 
 A <b>DEVPROPTYPE</b>-typed variable that specifies the type of the data stored in <i>Data</i>.
 
 
-#### - Size [in]
+### -param Size [in]
 
 The size, in bytes, of the buffer that is pointed to by <i>Data</i>.
 
 
-#### - Data [in, optional]
+### -param Data [in, optional]
 
 A pointer to a caller-allocated buffer that contains the device property data. Set this parameter to <b>NULL</b> to delete the specified property.
 

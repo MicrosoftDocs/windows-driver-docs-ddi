@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1E88E9D9-B564-43B4-9A83-F621FF23437F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptQueueWorkItemForIsr method, kmdf.wdfinterruptqueueworkitemforisr, WdfInterruptQueueWorkItemForIsr, wdfinterrupt/WdfInterruptQueueWorkItemForIsr, wdf.wdfinterruptqueueworkitemforisr
+ms.keywords: WdfInterruptQueueWorkItemForIsr, WdfInterruptQueueWorkItemForIsr method, wdfinterrupt/WdfInterruptQueueWorkItemForIsr, wdf.wdfinterruptqueueworkitemforisr, kmdf.wdfinterruptqueueworkitemforisr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BOOLEAN WdfInterruptQueueWorkItemForIsr(
 
 
 
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 
@@ -110,13 +110,13 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
-
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueuedpcforisr.md">WdfInterruptQueueDpcForIsr</a>
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5387e22a-88df-413f-a6d1-2e208381df67
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltoplockissharedrequest, FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest, FltOplockIsSharedRequest routine [Installable File System Drivers], fltkernel/FltOplockIsSharedRequest
+ms.keywords: FltOplockIsSharedRequest, fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest, FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN FltOplockIsSharedRequest(
 
 
 
-#### - CallbackData [in]
+### -param CallbackData [in]
 
 A pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The caller must ensure that the I/O operation has a major code of IRP_MJ_FILE_SYSTEM_CONTROL and a minor code of IRP_MN_USER_FS_REQUEST. 
 

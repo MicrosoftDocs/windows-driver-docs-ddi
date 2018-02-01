@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid, FltGetRequestorSessionId routine [Installable File System Drivers], fltkernel/FltGetRequestorSessionId
+ms.keywords: FltGetRequestorSessionId, FltGetRequestorSessionId routine [Installable File System Drivers], ifsk.fltgetrequestorsessionid, fltkernel/FltGetRequestorSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetRequestorSessionId(
 
 
 
-#### - CallbackData [in]
+### -param CallbackData [in]
 
 A pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure specifying the I/O operation.
 
 
-#### - SessionId [out]
+### -param SessionId [out]
 
 A pointer to the session ID for the requesting operation.
 

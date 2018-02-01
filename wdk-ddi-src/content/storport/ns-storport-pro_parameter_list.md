@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96c128e1-c38a-412f-adeb-cde820e1af4e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, PRO_PARAMETER_LIST structure [Storage Devices], storport/PRO_PARAMETER_LIST, storage.pro_parameter_list, PPRO_PARAMETER_LIST structure pointer [Storage Devices], *PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST, storport/PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST
+ms.keywords: storport/PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, PRO_PARAMETER_LIST, PRO_PARAMETER_LIST structure [Storage Devices], structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, PPRO_PARAMETER_LIST structure pointer [Storage Devices], storage.pro_parameter_list, *PPRO_PARAMETER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct {
 
 
 
-#### - ReservationKey
+### -field ReservationKey
 
 The ReservationKey field contains an 8-byte value that is provided by the application client to the device server. This value identifies the initiator that is the source of the Persistent Reserve Out command.
 
 
-#### - ServiceActionReservationKey
+### -field ServiceActionReservationKey
 
 The ServiceActionReservationKey field contains information that is needed for the following four service actions:
 <ul>
@@ -101,12 +101,12 @@ PREEMPT AND ABORT
 </li>
 </ul>
 
-#### - ScopeSpecificAddress
+### -field ScopeSpecificAddress
 
 The ScopeSpecificAddress field contains the element address that has zeros placed in the most significant bits to fit the field. This is true if the scope of a reservation is set to ELEMENT_SCOPE. Otherwise, this field is set to all zeros.
 
 
-#### - ActivatePersistThroughPowerLoss
+### -field ActivatePersistThroughPowerLoss
 
 The ActivatePersistThroughPowerLoss (APTPL) bit is valid only for the following service actions:
 <ul>
@@ -120,17 +120,17 @@ REGISTER AND IGNORE EXISTING KEY
 </li>
 </ul>
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. Must be zero.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. Must be zero.
 
 
-#### - Obsolete
+### -field Obsolete
 
 Reserved. Must be zero.
 

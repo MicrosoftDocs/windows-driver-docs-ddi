@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], PUSBFN_USB_STRING, *PUSBFN_USB_STRING, USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, USBFN_USB_STRING structure [Buses]"
+ms.keywords: USBFN_USB_STRING structure [Buses], PUSBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, _USBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], *PUSBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, USBFN_USB_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _USBFN_USB_STRING {
 
 
 
-#### - StringIndex
+### -field StringIndex
 
 The string index.
 
 
-#### - UsbString
+### -field UsbString
 
 Pointer to the string.  
 

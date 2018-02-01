@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0b59056c-6e73-4078-b8b3-32ced29ff7b0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, wdm/KeInitializeEvent, kernel.keinitializeevent
+ms.keywords: KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, KeInitializeEvent, wdm/KeInitializeEvent, kernel.keinitializeevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID KeInitializeEvent(
 
 
 
-#### - Event [out]
+### -param Event [out]
 
 Pointer to an event object, for which the caller provides the storage.
 
 
-#### - Type [in]
+### -param Type [in]
 
 Specifies the event type, either <b>NotificationEvent</b> or <b>SynchronizationEvent</b>.
 
 
-#### - State [in]
+### -param State [in]
 
 Specifies the initial state of the event. <b>TRUE</b> indicates a signaled state.
 
@@ -109,15 +109,15 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 <a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
  
 

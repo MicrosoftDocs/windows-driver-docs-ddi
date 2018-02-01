@@ -74,22 +74,22 @@ NTSTATUS EvtSerCx2SystemDmaReceiveConfigureDmaChannel(
 
 
 
-#### - SystemDmaReceive [in]
+### -param SystemDmaReceive [in]
 
 A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method to create this object.
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> that describes the memory pages that are spanned by the read buffer for the system-DMA-receive transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 The starting offset for the data transfer. This parameter is a byte offset from the start of the buffer region described by the MDL. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Offset</i> are in the range 0 to N–1.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The size, in bytes, of the data transfer. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
@@ -118,11 +118,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivegetdmaenabler.md">SerCx2SystemDmaReceiveGetDmaEnabler</a>
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
  
 

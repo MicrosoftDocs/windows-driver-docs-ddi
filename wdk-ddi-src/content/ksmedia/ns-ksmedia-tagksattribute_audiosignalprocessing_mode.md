@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A7EE4FC5-420A-419A-98D1-3411C29F1990
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksattribute_audiosignalprocessing_mode, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure [Audio Devices], KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, ksmedia/PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, *PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure pointer [Audio Devices], ksmedia/KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
+ms.keywords: audio.ksattribute_audiosignalprocessing_mode, tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure [Audio Devices], PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure pointer [Audio Devices], ksmedia/KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, ksmedia/PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, *PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE {
 
 
 
-#### - AttributeHeader
+### -field AttributeHeader
 
 The AttributeHeader member specifies the attribute header using a <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a> data type.
 
 
-#### - SignalProcessingMode
+### -field SignalProcessingMode
 
 The SignalProcessingMode member specifies the unique GUIDs of the SignalProcessingMode. For more information, see <a href="https://msdn.microsoft.com/104275F8-2302-484B-B673-7448CAA1F793">Audio Signal Processing Modes</a>.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eba881f8-e946-44a8-9624-37f63471fb65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], netvista.ndisiffreenetluidindex
+ms.keywords: NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, ndis/NdisIfFreeNetLuidIndex, netvista.ndisiffreenetluidindex, NdisIfFreeNetLuidIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -54,8 +54,8 @@ The
   <b>NdisIfFreeNetLuidIndex</b> function frees a network interface 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> index that was previously allocated by a
   call to the 
-  <mshelp:link keywords="netvista.ndisifallocatenetluidindex" tabindex="0"><b>
-  NdisIfAllocateNetLuidIndex</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">
+  NdisIfAllocateNetLuidIndex</a> function.
 
 
 ## -syntax
@@ -79,7 +79,7 @@ NDIS_STATUS NdisIfFreeNetLuidIndex(
 TBD
 
 
-#### - NetLuidIndex [in]
+### -param NetLuidIndex [in]
 
 The NET_LUID index value that NDIS should free. This index was allocated in a previous call to 
      <b>NdisIfAllocateNetLuidIndex</b>.
@@ -148,8 +148,8 @@ NDIS interface providers call the
 <b>NdisIfFreeNetLuidIndex</b> returns a previously allocated NET_LUID index to NDIS for possible
     reallocation to another interface. The caller must pass in the same interface type at 
     <i>IfType</i> that it used when it called the 
-    <mshelp:link keywords="netvista.ndisifallocatenetluidindex" tabindex="0"><b>
-    NdisIfAllocateNetLuidIndex</b></mshelp:link> function to allocate the NET_LUID index.
+    <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">
+    NdisIfAllocateNetLuidIndex</a> function to allocate the NET_LUID index.
 
 The provider should not use the freed NET_LUID index or the associated NET_LUID value in any other
     NDIS function calls after it calls 

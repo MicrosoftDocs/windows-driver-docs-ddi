@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 05BCC40C-E542-4BE8-9FD7-F0D25C3B8C7C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_AGNSS_INJECTTIME, PGNSS_AGNSS_INJECTTIME, *PGNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME structure [Sensor Devices], PGNSS_AGNSS_INJECTTIME structure pointer [Sensor Devices], gnssdriver/PGNSS_AGNSS_INJECTTIME, sensors.gnss_agnss_injecttime
+ms.keywords: GNSS_AGNSS_INJECTTIME, PGNSS_AGNSS_INJECTTIME, sensors.gnss_agnss_injecttime, gnssdriver/GNSS_AGNSS_INJECTTIME, *PGNSS_AGNSS_INJECTTIME, gnssdriver/PGNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME structure [Sensor Devices], PGNSS_AGNSS_INJECTTIME structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - UtcTime
+### -field UtcTime
 
 UTC time.
 
 
-#### - TimeUncertainty
+### -field TimeUncertainty
 
 Uncertainty in milliseconds.
 

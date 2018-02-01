@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 90EED6A9-F25D-4EF9-8523-CFFC90185588
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices], SetLfxState method, IMiniportStreamAudioEngineNode, audio.iminiportstreamaudioenginenode_setlfxstate, SetLfxState, IMiniportStreamAudioEngineNode::SetLfxState, portcls/IMiniportStreamAudioEngineNode::SetLfxState, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetLfxState method [Audio Devices]
+ms.keywords: SetLfxState, audio.iminiportstreamaudioenginenode_setlfxstate, portcls/IMiniportStreamAudioEngineNode::SetLfxState, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetLfxState method, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode::SetLfxState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS SetLfxState(
 
 
 
-#### - bEnable [in]
+### -param bEnable [in]
 
 The state to which the LFX node will be set.
 

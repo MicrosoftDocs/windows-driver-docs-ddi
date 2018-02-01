@@ -81,12 +81,12 @@ VOID APIENTRY* AssignDebugBinary(
 
 
 
-#### - uBinarySize
+### -param uBinarySize
 
 The size, in bytes, of the full shader binary.
 
 
-#### - *pBinary [in]
+### -param *pBinary [in]
 
 A pointer to the full shader binary.
 
@@ -99,11 +99,6 @@ A handle to the display device (graphics context).
 #### - hShader
 
 A handle to the driver's private data for the shader object.
-
-
-#### - pBinary [in]
-
-A pointer to the full shader binary.
 
 
 ## -returns

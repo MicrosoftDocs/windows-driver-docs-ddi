@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 726ce165-fd07-4dd3-a004-8081481340a1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml, DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrix_Unknown, DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix_SMPTE240M, DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrix_BT601, DXVA_VideoTransferMatrix_BT601, dxva/DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_BT709, display.dxva_videotransfermatrix, _DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrix_Unknown
+ms.keywords: dxva/DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_BT601, _DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrix_BT601, dxva/DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix_SMPTE240M, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix_Unknown, DXVA_VideoTransferMatrix_BT709, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml, dxva/DXVA_VideoTransferMatrixMask, display.dxva_videotransfermatrix, DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrix_Unknown, dxva/DXVA_VideoTransferMatrix_BT709
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _DXVA_VideoTransferMatrix {
 
 
 
-#### - DXVA_VideoTransferMatrixShift
+### -field DXVA_VideoTransferMatrixShift
 
 Specifies to shift bits by 15 positions (DXVA_ExtColorData_ShiftBase + 7, or 8 + 7).
 
 
-#### - DXVA_VideoTransferMatrixMask
+### -field DXVA_VideoTransferMatrixMask
 
 Specifies the video transfer matrix mask. 3 (0x00038000) bits of a DWORD can be used to specify video transfer matrix.
 
 
-#### - DXVA_VideoTransferMatrix_Unknown
+### -field DXVA_VideoTransferMatrix_Unknown
 
 Specifies that the video transfer matrix is not specified. The default is BT601 for standard definition (SD) video and BT709 for high definition (HD) video.
 
 
-#### - DXVA_VideoTransferMatrix_BT709
+### -field DXVA_VideoTransferMatrix_BT709
 
 Specifies the BT709 transfer matrix.
 
 
-#### - DXVA_VideoTransferMatrix_BT601
+### -field DXVA_VideoTransferMatrix_BT601
 
 Specifies the BT601 transfer matrix.
 
 
-#### - DXVA_VideoTransferMatrix_SMPTE240M
+### -field DXVA_VideoTransferMatrix_SMPTE240M
 
 Specifies a HD video standard rarely used in Japan.
 

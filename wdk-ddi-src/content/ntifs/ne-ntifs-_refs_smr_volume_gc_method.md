@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PREFS_SMR_VOLUME_GC_METHOD, SmrGcMethodCompression, ntifs/PREFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], SmrGcMethodCompaction, _REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodRotation, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], ntifs/SmrGcMethodCompaction, *PREFS_SMR_VOLUME_GC_METHOD, SmrGcMethodRotation, ifsk.refs_smr_volume_gc_method, REFS_SMR_VOLUME_GC_METHOD, ntifs/REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompression
+ms.keywords: PREFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], SmrGcMethodRotation, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], ntifs/PREFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompression, _REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodRotation, SmrGcMethodCompression, ntifs/SmrGcMethodCompaction, ifsk.refs_smr_volume_gc_method, SmrGcMethodCompaction, ntifs/REFS_SMR_VOLUME_GC_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _REFS_SMR_VOLUME_GC_METHOD {
 
 
 
-#### - SmrGcMethodCompaction
+### -field SmrGcMethodCompaction
 
 Specifies the use of the compaction method for garbage collection.  
 
 
-#### - SmrGcMethodCompression
+### -field SmrGcMethodCompression
 
 Specifies the use of the compression method for garbage collection.
 
 
-#### - SmrGcMethodRotation
+### -field SmrGcMethodRotation
 
 Specifies the use of the rotation method for garbage collection. Moves data from one tier to another.
 

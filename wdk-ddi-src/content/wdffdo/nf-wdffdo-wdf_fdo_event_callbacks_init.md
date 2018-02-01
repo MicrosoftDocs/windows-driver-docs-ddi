@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 02ff7c36-8bca-4531-bef5-d8a284d2d047
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT, WDF_FDO_EVENT_CALLBACKS_INIT function, WDF_FDO_EVENT_CALLBACKS_INIT, wdf.wdf_fdo_event_callbacks_init, DFDeviceObjectFdoPdoRef_fdf4f567-cbdd-4fb4-a752-344f6a298bbf.xml, kmdf.wdf_fdo_event_callbacks_init
+ms.keywords: wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT, WDF_FDO_EVENT_CALLBACKS_INIT, WDF_FDO_EVENT_CALLBACKS_INIT function, wdf.wdf_fdo_event_callbacks_init, kmdf.wdf_fdo_event_callbacks_init, DFDeviceObjectFdoPdoRef_fdf4f567-cbdd-4fb4-a752-344f6a298bbf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID WDF_FDO_EVENT_CALLBACKS_INIT(
 
 
 
-#### - Callbacks [out]
+### -param Callbacks [out]
 
 A pointer to the driver's <a href="..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.md">WDF_FDO_EVENT_CALLBACKS</a> structure. 
 

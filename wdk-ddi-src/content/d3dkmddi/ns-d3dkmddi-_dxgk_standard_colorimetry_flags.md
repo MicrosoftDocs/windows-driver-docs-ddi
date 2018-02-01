@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 473C5D7B-8FDD-49E2-981A-00ECCA67671A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PDXGK_STANDARD_COLORIMETRY_FLAGS, display.dxgk_standard_colorimetry_flags, DXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS union [Display Devices], d3dkmddi/PDXGK_STANDARD_COLORIMETRY_FLAGS, _DXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS union pointer [Display Devices], d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS"
+ms.keywords: DXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS union [Display Devices], d3dkmddi/PDXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS union pointer [Display Devices], _DXGK_STANDARD_COLORIMETRY_FLAGS, display.dxgk_standard_colorimetry_flags, *PDXGK_STANDARD_COLORIMETRY_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,27 +73,27 @@ typedef union _DXGK_STANDARD_COLORIMETRY_FLAGS {
 
 
 
-#### - BT2020YCC
+### -field BT2020YCC
 
 Flag which indicates device support for the color space defined by BT.2020 using a YCC signal format.
 
 
-#### - BT2020RGB
+### -field BT2020RGB
 
 Flag which indicates device support for the color space defined by BT.2020 using an RGB signal format.
 
 
-#### - ST2084
+### -field ST2084
 
 Flag which indicates device support for the ST.2084 EOTF.
 
 
-#### - Reserved
+### -field Reserved
 
 This value is reserved for system use.
 
 
-#### - Value
+### -field Value
 
 The combined value that is operated on.
 

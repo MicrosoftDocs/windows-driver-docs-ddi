@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemServerNameWide method [Windows Debugging], debugger.idebugsystemobjects4_getcurrentsystemservernamewide, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemServerNameWide method
+ms.keywords: GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemServerNameWide method, GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetCurrentSystemServerNameWide(
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to an output buffer as a Unicode character string. 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The buffer size. 
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 A pointer to the name size. 
 
@@ -110,9 +110,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
  
 

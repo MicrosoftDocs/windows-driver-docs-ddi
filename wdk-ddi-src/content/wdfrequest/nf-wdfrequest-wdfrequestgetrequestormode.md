@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 63fc77c8-756c-4872-b608-539d8419154b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, PFN_WDFREQUESTGETREQUESTORMODE, WdfRequestGetRequestorMode method, wdf.wdfrequestgetrequestormode, WdfRequestGetRequestorMode, wdfrequest/WdfRequestGetRequestorMode, kmdf.wdfrequestgetrequestormode
+ms.keywords: wdfrequest/WdfRequestGetRequestorMode, PFN_WDFREQUESTGETREQUESTORMODE, kmdf.wdfrequestgetrequestormode, WdfRequestGetRequestorMode method, WdfRequestGetRequestorMode, DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, wdf.wdfrequestgetrequestormode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ KPROCESSOR_MODE WdfRequestGetRequestorMode(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 

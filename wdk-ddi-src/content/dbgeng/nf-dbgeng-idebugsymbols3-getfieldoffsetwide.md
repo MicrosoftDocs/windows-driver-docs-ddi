@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4a9b90dd-72b2-4625-8b73-bc0dca6ba905
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method, debugger.getfieldoffsetwide, dbgeng/IDebugSymbols3::GetFieldOffsetWide, GetFieldOffsetWide, IDebugSymbols3::GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols3::GetFieldOffsetWide, GetFieldOffsetWide, IDebugSymbols3, IDebugSymbols3::GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getfieldoffsetwide, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetFieldOffsetWide(
 
 
 
-#### - Module [in]
+### -param Module [in]
 
 Specifies the module containing the types of both the container and the field.
 
 
-#### - TypeId [in]
+### -param TypeId [in]
 
 Specifies the type ID of the type containing the field.
 
 
-#### - Field [in]
+### -param Field [in]
 
 Specifies the name of the field whose offset is requested.  Subfields may be specified by using a dot-separated path.
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the offset of the specified field from the base memory location of an instance of the type. 
 

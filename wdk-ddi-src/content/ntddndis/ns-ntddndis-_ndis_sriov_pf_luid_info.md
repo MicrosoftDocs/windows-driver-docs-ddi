@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03a83321-8396-4400-a15c-84a3b507702d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SRIOV_PF_LUID_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO, netvista.ndis_sriov_pf_luid_info, NDIS_SRIOV_PF_LUID_INFO, _NDIS_SRIOV_PF_LUID_INFO, ntddndis/NDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SRIOV_PF_LUID_INFO
+ms.keywords: NDIS_SRIOV_PF_LUID_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PF_LUID_INFO, netvista.ndis_sriov_pf_luid_info, ntddndis/PNDIS_SRIOV_PF_LUID_INFO, _NDIS_SRIOV_PF_LUID_INFO, *PNDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SRIOV_PF_LUID_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_SRIOV_PF_LUID_INFO {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_SRIOV_PF_LUID_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -84,7 +84,7 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_PF_LUID_INFO_REVISION_1.
 
 
-#### - Luid
+### -field Luid
 
 An <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> value that is associated with the PF network adapter. For more information, see the Remarks section.
 
@@ -102,13 +102,13 @@ NDIS generates an LUID for the PF  before NDIS calls the <a href="..\ndis\nc-ndi
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451864">OID_SRIOV_PF_LUID</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <b></b>
 

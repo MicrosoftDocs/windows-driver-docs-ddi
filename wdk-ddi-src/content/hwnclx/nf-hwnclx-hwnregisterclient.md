@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 69de1551-e41f-4d18-89db-28d190676922
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HwNRegisterClient, hwnclx/HwNRegisterClient, HwNRegisterClient function, gpiobtn.hwnregisterclient
+ms.keywords: hwnclx/HwNRegisterClient, HwNRegisterClient, gpiobtn.hwnregisterclient, HwNRegisterClient function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ FORCEINLINE NTSTATUS  HwNRegisterClient(
 
 
 
-#### - Driver [in]
+### -param Driver [in]
 
 Handle to the client drivers framework driver object. 
 
 
-#### - RegistrationPacket [in, out]
+### -param RegistrationPacket [in, out]
 
 Pointer to the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> structure that contains function pointers to the callback functions defined in the client driver implementation and required by the class extension.
 
 
-#### - RegistryPath [in]
+### -param RegistryPath [in]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key. 
 
@@ -94,9 +94,9 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
-
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
 
  
 

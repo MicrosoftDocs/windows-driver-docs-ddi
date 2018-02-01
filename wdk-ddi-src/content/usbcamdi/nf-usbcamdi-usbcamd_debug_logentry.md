@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a718cf3e-8359-4560-a88e-dd7789b61be6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_Debug_LogEntry function [Streaming Media Devices], USBCAMD_Debug_LogEntry, usbcamdi/USBCAMD_Debug_LogEntry, usbcmdpr_6f6f6419-d845-4488-bd8d-70efa67357fa.xml, stream.usbcamd_debug_logentry
+ms.keywords: USBCAMD_Debug_LogEntry function [Streaming Media Devices], stream.usbcamd_debug_logentry, usbcmdpr_6f6f6419-d845-4488-bd8d-70efa67357fa.xml, USBCAMD_Debug_LogEntry, usbcamdi/USBCAMD_Debug_LogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ VOID USBCAMD_Debug_LogEntry(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 Pointer to a <b>NULL</b>-terminated string containing the name of the file to write the log entry to.
 
 
-#### - Info1 [in]
+### -param Info1 [in]
 
 Specifies the first information value to be written to the log file.
 
 
-#### - Info2 [in]
+### -param Info2 [in]
 
 Specifies the second information value to be written to the log file.
 
 
-#### - Info3 [in]
+### -param Info3 [in]
 
 Specifies the third information value to be written to the log file.
 

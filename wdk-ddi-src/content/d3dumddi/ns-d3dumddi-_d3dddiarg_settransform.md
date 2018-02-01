@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1bd5c22e-c4c1-4b0a-b5ed-76e17cbe1aee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_719de83f-0830-4b1a-aa72-e3f58553c733.xml, D3DDDIARG_SETTRANSFORM, d3dumddi/D3DDDIARG_SETTRANSFORM, _D3DDDIARG_SETTRANSFORM, display.d3dddiarg_settransform, D3DDDIARG_SETTRANSFORM structure [Display Devices]
+ms.keywords: UMDisplayDriver_param_Structs_719de83f-0830-4b1a-aa72-e3f58553c733.xml, _D3DDDIARG_SETTRANSFORM, D3DDDIARG_SETTRANSFORM, D3DDDIARG_SETTRANSFORM structure [Display Devices], d3dumddi/D3DDDIARG_SETTRANSFORM, display.d3dddiarg_settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _D3DDDIARG_SETTRANSFORM {
 
 
 
-#### - TransformType
+### -field TransformType
 
 [in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of transform to set up. This member can be one of the following values.
 <table>
@@ -109,7 +109,7 @@ World transformation
 </table> 
 
 
-#### - Matrix
+### -field Matrix
 
 [in] A D3DMATRIX structure that describes the matrix that is used to set up the transform. For more information about D3DMATRIX, see the Microsoft Windows SDK documentation.
 

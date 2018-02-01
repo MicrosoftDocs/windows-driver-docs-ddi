@@ -80,19 +80,19 @@ HRESULT APIENTRY* pfnCreateVideoDecoder(
 
 
 
-#### - hDrvVideoDecoder
+### -param hDrvVideoDecoder
 
 The handle of a driver video decoder.
-
-
-#### - hDevice
-
-The handle of the device.
 
 
 #### - CreateVideoDecoder [in]
 
 The arguments used to create a video decoder.
+
+
+#### - hDevice
+
+The handle of the device.
 
 
 ## -returns

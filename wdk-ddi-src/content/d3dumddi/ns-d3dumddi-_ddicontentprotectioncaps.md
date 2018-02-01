@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d223712d-2c77-4bec-b8c0-d677d4caeac2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], display.ddicontentprotectioncaps, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, d3dumddi/DDICONTENTPROTECTIONCAPS"
+ms.keywords: "_DDICONTENTPROTECTIONCAPS, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, d3dumddi/DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _DDICONTENTPROTECTIONCAPS {
 
 
 
-#### - CryptoType
+### -field CryptoType
 
 [in] A GUID that indicates the encryption type that the driver uses. The currently defined GUIDs are:
 
@@ -87,7 +87,7 @@ A GUID that indicates the 128-bit AES-CRT block cipher.
 A GUID that indicates a proprietary encryption algorithm. 
 
 
-#### - DecodeProfile
+### -field DecodeProfile
 
 [in] A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses along with the encryption type, which the <b>CryptoType</b> member specifies. Not all drivers allow all types of encryption. For example, MPEG2 IDCT frequently requires that the private libraries, which the hardware vendor supplies, perform the proprietary encryption. A <b>NULL</b> value indicates that DirectX VA decode profile is not used. 
 
@@ -107,9 +107,9 @@ If the runtime specifies NULL_GUID in the <b>CryptoType</b> member, the driver s
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
  
 

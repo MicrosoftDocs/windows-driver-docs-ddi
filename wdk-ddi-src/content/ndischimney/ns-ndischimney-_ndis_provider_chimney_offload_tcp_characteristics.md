@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3eabbad5-b84b-4034-a0b6-d4d515cbc117
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_f701c1a0-6057-4cf3-ae27-6e72352b4829.xml, ndischimney/PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_provider_chimney_offload_tcp_characteristics
+ms.keywords: tcp_chim_struct_f701c1a0-6057-4cf3-ae27-6e72352b4829.xml, ndischimney/NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, netvista.ndis_provider_chimney_offload_tcp_characteristics, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The header of the NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure. The header is
      formatted as an 
@@ -88,50 +88,50 @@ The header of the NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure. T
      <b>Type</b> member of the header is not significant.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for system use.
 
 
-#### - OffloadType
+### -field OffloadType
 
 The chimney offload type. The only allowable value is 
      <b>NdisTcpChimneyOffload</b>, which specifies a TCP chimney.
 
 
-#### - TcpOffloadSendHandler
+### -field TcpOffloadSendHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.miniporttcpoffloadsend" tabindex="0"><i>
-     MiniportTcpOffloadSend</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">
+     MiniportTcpOffloadSend</a> function.
 
 
-#### - TcpOffloadReceiveHandler
-
-The entry point of the driver's 
-     <mshelp:link keywords="netvista.miniporttcpoffloadreceive" tabindex="0"><i>
-     MiniportTcpOffloadReceive</i></mshelp:link> function.
-
-
-#### - TcpOffloadDisconnectHandler
+### -field TcpOffloadReceiveHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-     MiniportTcpOffloadDisconnect</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">
+     MiniportTcpOffloadReceive</a> function.
 
 
-#### - TcpOffloadForwardHandler
-
-The entry point of the driver's 
-     <mshelp:link keywords="netvista.miniporttcpoffloadforward" tabindex="0"><i>
-     MiniportTcpOffloadForward</i></mshelp:link> function.
-
-
-#### - TcpOffloadReceiveReturnHandler
+### -field TcpOffloadDisconnectHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
-     MiniportTcpOffloadReceiveReturn</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+     MiniportTcpOffloadDisconnect</a> function.
+
+
+### -field TcpOffloadForwardHandler
+
+The entry point of the driver's 
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">
+     MiniportTcpOffloadForward</a> function.
+
+
+### -field TcpOffloadReceiveReturnHandler
+
+The entry point of the driver's 
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+     MiniportTcpOffloadReceiveReturn</a> function.
 
 
 ## -remarks
@@ -148,21 +148,21 @@ To register its TCP chimney offload-specific entry points, an offload target cal
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-   MiniportTcpOffloadDisconnect</i></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
-<mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
-   MiniportTcpOffloadReceiveReturn</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+   MiniportTcpOffloadReceiveReturn</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+   MiniportTcpOffloadDisconnect</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
 

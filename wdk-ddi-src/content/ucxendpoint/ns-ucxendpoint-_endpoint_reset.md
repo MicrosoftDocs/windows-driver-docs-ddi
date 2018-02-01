@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 99F65058-8718-4D2A-9C7F-D442BA8DA527
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_ENDPOINT_RESET structure pointer [Buses], ucxendpoint/_ENDPOINT_RESET, *PENDPOINT_RESET, ENDPOINT_RESET structure [Buses], P_ENDPOINT_RESET, _ENDPOINT_RESET, ENDPOINT_RESET, ucxendpoint/P_ENDPOINT_RESET, buses._endpoint_reset
+ms.keywords: "_ENDPOINT_RESET, P_ENDPOINT_RESET, ENDPOINT_RESET, ucxendpoint/P_ENDPOINT_RESET, ENDPOINT_RESET structure [Buses], *PENDPOINT_RESET, P_ENDPOINT_RESET structure pointer [Buses], buses._endpoint_reset, ucxendpoint/_ENDPOINT_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _ENDPOINT_RESET {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
 
 
-#### - Endpoint
+### -field Endpoint
 
 A handle to the device endpoint to reset.
 
 
-#### - Flags
+### -field Flags
 
 A <a href="..\ucxendpoint\ne-ucxendpoint-_endpoint_reset_flags.md">ENDPOINT_RESET_FLAGS</a> value that indicates reset parameters.
 

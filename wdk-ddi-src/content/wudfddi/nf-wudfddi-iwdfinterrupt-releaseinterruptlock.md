@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfinterrupt_releaseinterruptlock, IWDFInterrupt interface, ReleaseInterruptLock method, IWDFInterrupt, ReleaseInterruptLock method, wdf.iwdfinterrupt_releaseinterruptlock, ReleaseInterruptLock, IWDFInterrupt::ReleaseInterruptLock, wudfddi/IWDFInterrupt::ReleaseInterruptLock, ReleaseInterruptLock method, IWDFInterrupt interface
+ms.keywords: umdf.iwdfinterrupt_releaseinterruptlock, ReleaseInterruptLock method, wudfddi/IWDFInterrupt::ReleaseInterruptLock, ReleaseInterruptLock, IWDFInterrupt, IWDFInterrupt::ReleaseInterruptLock, wdf.iwdfinterrupt_releaseinterruptlock, IWDFInterrupt interface, ReleaseInterruptLock method, ReleaseInterruptLock method, IWDFInterrupt interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,9 +85,9 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7">IWDFInterrupt::AcquireInterruptLock</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+<a href="https://msdn.microsoft.com/2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7">IWDFInterrupt::AcquireInterruptLock</a>
 
  
 

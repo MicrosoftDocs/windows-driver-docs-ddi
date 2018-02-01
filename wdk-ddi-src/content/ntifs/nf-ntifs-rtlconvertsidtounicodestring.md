@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5dea6764-9ca0-4d38-9900-174637c4f648
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlConvertSidToUnicodeString, ifsk.rtlconvertsidtounicodestring, RtlConvertSidToUnicodeString routine [Installable File System Drivers], rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, RtlConvertSidToUnicodeString
+ms.keywords: ntifs/RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString, rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, ifsk.rtlconvertsidtounicodestring, RtlConvertSidToUnicodeString routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlConvertSidToUnicodeString(
 
 
 
-#### - UnicodeString [in, out]
+### -param UnicodeString [in, out]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to contain the generated Unicode string.  The <i>UnicodeString-&gt;MaximumLength</i> member is set only if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
 
-#### - Sid [in]
+### -param Sid [in]
 
 A pointer to the SID structure that is to be converted to Unicode (the SID structure is unaffected).
 
 
-#### - AllocateDestinationString [in]
+### -param AllocateDestinationString [in]
 
 A Boolean flag that indicates whether this routine will allocate the UnicodeString buffer. If <b>TRUE</b>, only the <i>UnicodeString-&gt;Buffer</i> member is allocated and the rest of the <i>UnicodeString</i> structure must be allocated by the caller.
 
@@ -172,11 +172,11 @@ If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

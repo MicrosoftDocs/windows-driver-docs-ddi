@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf7951de-3368-4faf-9bae-272c6d76d1a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_TX_COMPLETE_DATA structure [Network Drivers Starting with Windows Vista], PWDI_TX_COMPLETE_DATA structure pointer [Network Drivers Starting with Windows Vista], *PWDI_TX_COMPLETE_DATA, netvista.wifi_tx_complete_data, WDI_TX_COMPLETE_DATA, dot11wdi/PWDI_TX_COMPLETE_DATA, _WDI_TX_COMPLETE_DATA, netvista.wdi_tx_complete_data, dot11wdi/WDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA
+ms.keywords: "_WDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA structure pointer [Network Drivers Starting with Windows Vista], *PWDI_TX_COMPLETE_DATA, dot11wdi/PWDI_TX_COMPLETE_DATA, dot11wdi/WDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA structure [Network Drivers Starting with Windows Vista], netvista.wifi_tx_complete_data, WDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA, netvista.wdi_tx_complete_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _WDI_TX_COMPLETE_DATA {
 
 
 
-#### - SeqCtl
+### -field SeqCtl
 
 The value of the sequence control field from the frame transmission.
 
 
-#### - PnLength
+### -field PnLength
 
 The MPDU PN length for the transmitted frame.
 
 
-#### - RetryCount
+### -field RetryCount
 
 The number of attempts to transmit the frame.
 
 
-#### - wPad
+### -field wPad
 
 This member is reserved.
 
 
-#### - MpduPN
+### -field MpduPN
 
 The MPDU PN.
 
 
-#### - ReplayIHVReserved0
+### -field ReplayIHVReserved0
 
 Reserved for IHV use.
 
 
-#### - ReplayIHVReserved1
+### -field ReplayIHVReserved1
 
 Reserved for IHV use.
 

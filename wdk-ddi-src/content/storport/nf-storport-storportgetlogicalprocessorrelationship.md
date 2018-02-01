@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 32b92771-7f23-492c-a3b0-b10032c9f80a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetLogicalProcessorRelationship, storage.storportgetlogicalprocessorrelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml, storport/StorPortGetLogicalProcessorRelationship
+ms.keywords: storport/StorPortGetLogicalProcessorRelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml, storage.storportgetlogicalprocessorrelationship, StorPortGetLogicalProcessorRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ ULONG StorPortGetLogicalProcessorRelationship(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - ProcessorNumber [in, optional]
+### -param ProcessorNumber [in, optional]
 
 An optional pointer to a processor number for which relationships are to be returned. If this parameter is not provided, information about all processors is returned.
 
 
-#### - RelationshipType [in]
+### -param RelationshipType [in]
 
 The type of relationship to be returned.
 
 
-#### - Information [out]
+### -param Information [out]
 
 A pointer to a buffer that receives the specified information.
 
 
-#### - Length [in, out]
+### -param Length [in, out]
 
 A pointer to the length of the information buffer, in bytes. Upon return, this value receives the number of bytes that are populated with relationship information.
 

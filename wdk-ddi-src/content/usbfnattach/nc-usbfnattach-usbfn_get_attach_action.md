@@ -74,12 +74,12 @@ typedef USBFN_GET_ATTACH_ACTION PFN_USBFN_GET_ATTACH_ACTION;
 
 
 
-#### - Context [in]
+### -param Context [in]
 
     A pointer to a driver-defined context.
 
 
-#### - OnAttach [out]
+### -param OnAttach [out]
 
 A pointer to a caller-allocated <a href="..\usbfnattach\ns-usbfnattach-_usbfn_on_attach.md">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
 

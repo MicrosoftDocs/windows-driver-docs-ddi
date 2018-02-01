@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: HalftonePattern method [Print Devices], print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, IPrintOemUni interface [Print Devices], HalftonePattern method, IPrintOemUni, IPrintOemUni::HalftonePattern, HalftonePattern, HalftonePattern method [Print Devices], IPrintOemUni interface, print.iprintoemuni_halftonepattern, prcomoem/IPrintOemUni::HalftonePattern
+ms.keywords: print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, prcomoem/IPrintOemUni::HalftonePattern, HalftonePattern method [Print Devices], IPrintOemUni, HalftonePattern method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], HalftonePattern method, HalftonePattern, IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,44 +75,44 @@ HRESULT HalftonePattern(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - pHTPattern
+### -param pHTPattern
 
 Caller-supplied pointer to a buffer that receives the method-supplied halftone pattern. Buffer size, in bytes, is:
 
 (((<i>dwHTPatternX</i> * <i>dwHTPatternY</i>) + 3)/4) * 4 * <i>dwHTNumPatterns</i>.
 
 
-#### - dwHTPatternX
+### -param dwHTPatternX
 
 Caller-supplied length, in pixels, of the halftone pattern, as specified by the first value in the <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file's *<b>HTPatternSize</b> attribute.
 
 
-#### - dwHTPatternY
+### -param dwHTPatternY
 
 Caller-supplied height, in pixels, of the halftone pattern, as specified by the second value in the GPD file's *<b>HTPatternSize</b> attribute.
 
 
-#### - dwHTNumPatterns
+### -param dwHTNumPatterns
 
 Caller-supplied number of patterns, as specified by the GPD file's *<b>HTNumPatterns</b> attribute. The number of patterns can be either 1 or 3.
 
 
-#### - dwCallbackID
+### -param dwCallbackID
 
 Caller-supplied value identifying the halftone method, as specified by the GPD file's *<b>HTCallbackID</b> attribute.
 
 
-#### - pResource
+### -param pResource
 
 Caller-supplied pointer to a buffer containing a halftone pattern, as specified by the GPD file's *<b>rcHTPatternID</b> attribute. This can be <b>NULL</b>.
 
 
-#### - dwResourceSize
+### -param dwResourceSize
 
 Caller-supplied size of the halftone pattern contained in the buffer pointed to by <i>pResource</i>. This is zero if <i>pResource</i> is <b>NULL</b>.
 

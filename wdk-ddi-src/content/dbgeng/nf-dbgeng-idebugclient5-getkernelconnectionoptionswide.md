@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f85ef2cf-704a-4a7c-aeeb-483a7b1fdc8f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getkernelconnectionoptionswide, GetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetKernelConnectionOptionsWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptionsWide method, IDebugClient5::GetKernelConnectionOptionsWide, GetKernelConnectionOptionsWide, GetKernelConnectionOptionsWide method [Windows Debugging]
+ms.keywords: IDebugClient5::GetKernelConnectionOptionsWide, GetKernelConnectionOptionsWide, GetKernelConnectionOptionsWide method [Windows Debugging], GetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetKernelConnectionOptionsWide, debugger.getkernelconnectionoptionswide, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptionsWide method, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetKernelConnectionOptionsWide(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Specifies the buffer to receive the connection options.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-#### - OptionsSize [out, optional]
+### -param OptionsSize [out, optional]
 
 Receives the size in characters of the connection options.  If <i>OptionsSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -143,9 +143,9 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 476C9269-7A88-4D06-80E8-C80E5F29B6CF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiadef/WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO, image.wia_patch_code_info, _WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices]
+ms.keywords: image.wia_patch_code_info, wiadef/WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices], WIA_PATCH_CODE_INFO, _WIA_PATCH_CODE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _WIA_PATCH_CODE_INFO {
 
 
 
-#### - Type
+### -field Type
 
 The patch code type. One of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706269">WIA_IPS_SUPPORTED_PATCH_CODE_TYPES</a> values.
 

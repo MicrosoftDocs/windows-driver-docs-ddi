@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8326f683-3952-486e-b322-80ce96759366
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsi/ZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR structure pointer [Storage Devices], PZONE_DESCRIPTIOR, _ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR structure [Storage Devices], scsi/PZONE_DESCRIPTIOR, storage.zone_descriptior
+ms.keywords: PZONE_DESCRIPTIOR structure pointer [Storage Devices], PZONE_DESCRIPTIOR, scsi/PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR, _ZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR structure [Storage Devices], storage.zone_descriptior, *PZONE_DESCRIPTIOR, scsi/ZONE_DESCRIPTIOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,57 +80,57 @@ typedef struct _ZONE_DESCRIPTIOR {
 
 
 
-#### - ZoneType
+### -field ZoneType
 
 N/A
 
 
-#### - Reserved1
+### -field Reserved1
 
 N/A
 
 
-#### - Reset
+### -field Reset
 
 N/A
 
 
-#### - Non_Seq
+### -field Non_Seq
 
 N/A
 
 
-#### - Reserved2
+### -field Reserved2
 
 N/A
 
 
-#### - ZoneCondition
+### -field ZoneCondition
 
 N/A
 
 
-#### - Reserved3
+### -field Reserved3
 
 N/A
 
 
-#### - ZoneLength
+### -field ZoneLength
 
 N/A
 
 
-#### - ZoneStartLBA
+### -field ZoneStartLBA
 
 N/A
 
 
-#### - WritePointerLBA
+### -field WritePointerLBA
 
 N/A
 
 
-#### - Reserved4
+### -field Reserved4
 
 N/A
 

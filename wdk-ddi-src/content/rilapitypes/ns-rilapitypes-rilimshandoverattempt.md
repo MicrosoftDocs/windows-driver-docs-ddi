@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de56a241-10a3-4f9c-970c-433ab997612d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILIMSHANDOVERATTEMPT, netvista.rilimshandoverattempt_2, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], rilapitypes/RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT"
+ms.keywords: netvista.rilimshandoverattempt_2, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], RILIMSHANDOVERATTEMPT, rilapitypes/RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,18 @@ typedef struct _RILIMSHANDOVERATTEMPT {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwOldSystemType
+### -field dwOldSystemType
 
 
 
-#### - dwDestSystemType
+### -field dwDestSystemType
 
 
 
-#### - hrHandOverResult
+### -field hrHandOverResult
 
 

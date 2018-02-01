@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91bf3d1d-5be2-4790-9e6d-07db5eed4f06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices], display.d3dddiarg_drawindexedprimitive2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2
+ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices], _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, display.d3dddiarg_drawindexedprimitive2, UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE2 {
 
 
 
-#### - PrimitiveType
+### -field PrimitiveType
 
 [in] A D3DPRIMITIVETYPE-typed value that indicates the type of primitive to draw. This member can be one of the following values: D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP, or D3DPT_TRIANGLEFAN. For more information about D3DPRIMITIVETYPE, see the Microsoft Windows SDK documentation.
 
 
-#### - BaseVertexOffset
+### -field BaseVertexOffset
 
 [in] The offset that should be added to each vertex in vertex stream 0 by the various primitives to determine the actual vertex in vertex stream 0. This offset could be negative, but when an index is added to the offset, the result is positive. 
 
 
-#### - MinIndex
+### -field MinIndex
 
 [in] The minimum index of a range of vertices that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
 
-#### - NumVertices
+### -field NumVertices
 
 [in] The number of vertices in a range that are potentially accessed by the primitives to be drawn and, therefore, which vertices should be processed.
 
 
-#### - StartIndexOffset
+### -field StartIndexOffset
 
 [in] The offset of the first index in the index buffer from which indices are read to draw the primitives.
 
 
-#### - PrimitiveCount
+### -field PrimitiveCount
 
 [in] The number of triangles, lines, or points to draw for the given primitive. 
 

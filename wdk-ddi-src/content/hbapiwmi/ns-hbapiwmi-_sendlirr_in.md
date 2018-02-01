@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sendlirr_in, hbapiwmi/PSendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], hbapiwmi/SendLIRR_IN, SendLIRR_IN structure [Storage Devices], structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, _SendLIRR_IN, *PSendLIRR_IN, PSendLIRR_IN, SendLIRR_IN
+ms.keywords: PSendLIRR_IN structure pointer [Storage Devices], _SendLIRR_IN, hbapiwmi/SendLIRR_IN, hbapiwmi/PSendLIRR_IN, PSendLIRR_IN, storage.sendlirr_in, *PSendLIRR_IN, structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, SendLIRR_IN structure [Storage Devices], SendLIRR_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendLIRR_IN {
 
 
 
-#### - SourceWWN
+### -field SourceWWN
 
 Contains a worldwide name for the local port through which the link incident record registration (LIRR) command is sent. 
 
 
-#### - DestWWN
+### -field DestWWN
 
 Contains a worldwide name for the destination port. 
 
 
-#### - Function
+### -field Function
 
 Contains the code that identifies which registration function is to be performed. For an explanation of which values can be assigned to this member, see the T11 committee's <i>Fibre Channel Framing and Signaling</i> specification. 
 
 
-#### - Type
+### -field Type
 
 Indicates the device type for which link information is requested. For an explanation of which values can be assigned to this member, see the T11 committee's <i>Fibre Channel Framing and Signaling</i> specification. 
 

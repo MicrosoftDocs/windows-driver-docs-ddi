@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, GetNamedCommand, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2::GetNamedCommand, print.iprintcorehelperuni2_getnamedcommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface
+ms.keywords: IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, IPrintCoreHelperUni2, IPrintCoreHelperUni2::GetNamedCommand, print.iprintcorehelperuni2_getnamedcommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, GetNamedCommand method [Print Devices], GetNamedCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetNamedCommand(
 
 
 
-#### - pDevmode [in]
+### -param pDevmode [in]
 
 A pointer to a DEVMODE structure.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 The number of bytes in <i>pDevmode</i>, not the number of bytes written.
 
 
-#### - pszCommandName [in]
+### -param pszCommandName [in]
 
 The command name. This parameter accepts standard command names from the GPD, except for those that require an *Order attribute. Those six sections of ordered command sequences are accessible via the following special command names:
 <ul>
@@ -94,12 +94,12 @@ The command name. This parameter accepts standard command names from the GPD, ex
 <li>L"SectionJobFinish"</li>
 </ul>
 
-#### - ppCommandBytes [out]
+### -param ppCommandBytes [out]
 
 The output buffer. This buffer does not need to be freed by the caller.
 
 
-#### - pcbCommandSize [out]
+### -param pcbCommandSize [out]
 
 The size of the output buffer.    
 

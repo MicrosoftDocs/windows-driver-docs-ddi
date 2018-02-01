@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ValidatePrintTicket, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface
+ms.keywords: ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, ValidatePrintTicket, IPrintOemPrintTicketProvider, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT ValidatePrintTicket(
 
 
 
-#### - pPrintTicket [in, out]
+### -param pPrintTicket [in, out]
 
 A pointer to an input print ticket. When <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code> successfully returns, <i>pPrintTicket</i> points to a validated print ticket.
 

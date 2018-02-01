@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 798101da-51be-416d-ac56-2f55a21e8ea8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SMS_FILTER, PWWAN_SMS_FILTER, *PWWAN_SMS_FILTER, _WWAN_SMS_FILTER, wwan/PWWAN_SMS_FILTER, netvista.wwan_sms_filter, wwan/WWAN_SMS_FILTER, WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml
+ms.keywords: PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], PWWAN_SMS_FILTER, WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml, WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_filter, wwan/WWAN_SMS_FILTER, WWAN_SMS_FILTER, wwan/PWWAN_SMS_FILTER, *PWWAN_SMS_FILTER, _WWAN_SMS_FILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,13 +69,13 @@ typedef struct _WWAN_SMS_FILTER {
 
 
 
-#### - Flag
+### -field Flag
 
 A value from the WWAN_SMS_FLAG enumeration that represents what filter to use to display SMS
      messages for.
 
 
-#### - MessageIndex
+### -field MessageIndex
 
 A value between 1 and 
      <i>ulMaxMessageIndex</i> that is an index into the device's message store.

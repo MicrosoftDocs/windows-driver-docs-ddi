@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4cb6e9af-ddd0-48d9-9f07-43c828e4187b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changerexchangemedium, mcd/ChangerExchangeMedium, ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml
+ms.keywords: ChangerExchangeMedium function [Storage Devices], storage.changerexchangemedium, ChangerExchangeMedium, chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS ChangerExchangeMedium(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object that represents the changer. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the IRP. 
 

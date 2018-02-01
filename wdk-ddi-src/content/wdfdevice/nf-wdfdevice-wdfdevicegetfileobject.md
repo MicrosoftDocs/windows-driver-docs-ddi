@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2e56d444-4248-4f00-b712-cbb3a4869302
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceGetFileObject, kmdf.wdfdevicegetfileobject, PFN_WDFDEVICEGETFILEOBJECT, WdfDeviceGetFileObject, wdf.wdfdevicegetfileobject, WdfDeviceGetFileObject method, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml
+ms.keywords: wdfdevice/WdfDeviceGetFileObject, WdfDeviceGetFileObject method, wdf.wdfdevicegetfileobject, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, WdfDeviceGetFileObject, kmdf.wdfdevicegetfileobject, PFN_WDFDEVICEGETFILEOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ WDFFILEOBJECT WdfDeviceGetFileObject(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a WDM <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure.
 

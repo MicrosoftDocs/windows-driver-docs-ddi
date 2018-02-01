@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CFCF122F-E971-4A6B-91C9-71A8030366A9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SUPPORTED_DEVICE_SERVICES, WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], *PWWAN_SUPPORTED_DEVICE_SERVICES, netvista.wwan_supported_device_services, WWAN_SUPPORTED_DEVICE_SERVICES, _WWAN_SUPPORTED_DEVICE_SERVICES, wwan/WWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES
+ms.keywords: wwan/WWAN_SUPPORTED_DEVICE_SERVICES, wwan/PWWAN_SUPPORTED_DEVICE_SERVICES, _WWAN_SUPPORTED_DEVICE_SERVICES, *PWWAN_SUPPORTED_DEVICE_SERVICES, netvista.wwan_supported_device_services, PWWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], PWWAN_SUPPORTED_DEVICE_SERVICES, WWAN_SUPPORTED_DEVICE_SERVICES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _WWAN_SUPPORTED_DEVICE_SERVICES {
 
 
 
-#### - uMaxCommandDataSize
+### -field uMaxCommandDataSize
 
 The maximum size, in bytes, of data that can be associated with a device service command.
 
 
-#### - uMaxSessionDataSize
+### -field uMaxSessionDataSize
 
 The maximum size, in bytes, of data that can be associated with a device service session.
 
 
-#### - uMaxSessionCount
+### -field uMaxSessionCount
 
 The maximum number of device service sessions supported by the miniport driver.
 
 
-#### - ListHeader
+### -field ListHeader
 
 A formatted WWAN_LIST_HEADER object that represents a list of supported device services and the number of services  in the list.
 
@@ -95,11 +95,11 @@ This member points to the list of the <a href="..\wwan\ns-wwan-_wwan_device_serv
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_supported_device_services.md">NDIS_WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
  
 

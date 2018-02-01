@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45c6b9a3-b834-4e57-b7f8-fab7be749269
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_SUPPORTED_ANTENNA_LIST, _DOT11_SUPPORTED_ANTENNA_LIST, *PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11_supported_antenna_list, DOT11_SUPPORTED_ANTENNA_LIST, Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, PDOT11_SUPPORTED_ANTENNA_LIST, PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_ANTENNA_LIST
+ms.keywords: netvista.dot11_supported_antenna_list, windot11/PDOT11_SUPPORTED_ANTENNA_LIST, _DOT11_SUPPORTED_ANTENNA_LIST, Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, *PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST, PDOT11_SUPPORTED_ANTENNA_LIST, windot11/DOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista], PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,34 +71,34 @@ typedef struct _DOT11_SUPPORTED_ANTENNA_LIST {
 
 
 
-#### - uNumOfEntries
+### -field uNumOfEntries
 
 The number of entries in the 
      <b>dot11SupportedAntenna</b> array. A zero value for the 
      <b>uNumOfEntries</b> member indicates an empty list.
 
 
-#### - uTotalNumOfEntries
+### -field uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>dot11SupportedAntenna</b> array can contain.
 
 
-#### - dot11SupportedAntenna
+### -field dot11SupportedAntenna
 
 The list of supported antennas. Each element in this list is formatted as a 
-     <mshelp:link keywords="netvista.dot11_supported_antenna" tabindex="0"><b>
-     DOT11_SUPPORTED_ANTENNA</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-_dot11_supported_antenna.md">
+     DOT11_SUPPORTED_ANTENNA</a> structure.
 
 
 ## -remarks
 
 
 A miniport driver returns the DOT11_SUPPORTED_ANTENNA_LIST structure when queried by either 
-    <mshelp:link keywords="netvista.oid_dot11_supported_rx_antenna" tabindex="0">
-    OID_DOT11_SUPPORTED_RX_ANTENNA</mshelp:link> or 
-    <mshelp:link keywords="netvista.oid_dot11_supported_tx_antenna" tabindex="0">
-    OID_DOT11_SUPPORTED_TX_ANTENNA</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">
+    OID_DOT11_SUPPORTED_RX_ANTENNA</a> or 
+    <a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">
+    OID_DOT11_SUPPORTED_TX_ANTENNA</a>.
 
 When these OIDs are queried, the miniport driver must verify that the 
     <b>InformationBuffer</b> member of the 
@@ -174,11 +174,11 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
 
 <a href="..\windot11\ns-windot11-_dot11_supported_antenna.md">DOT11_SUPPORTED_ANTENNA</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
  
 

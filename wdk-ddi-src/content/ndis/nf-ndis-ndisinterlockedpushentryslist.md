@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 155604e9-45f6-4dd2-9373-90f689713c1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisInterlockedPushEntrySList, netvista.ndisinterlockedpushentryslist, NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml
+ms.keywords: netvista.ndisinterlockedpushentryslist, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -81,9 +81,14 @@ TBD
 TBD
 
 
-#### - Lock [in]
+### -param Lock [in]
 
 A pointer to a caller-supplied spin lock, not currently held by the caller.
+
+
+#### - ListEntry [in]
+
+A pointer to the entry to be inserted.
 
 
 #### - ListHead [in]
@@ -92,18 +97,13 @@ A pointer to the head of the already initialized sequenced, singly linked list i
      specified entry is to be inserted.
 
 
-#### - ListEntry [in]
-
-A pointer to the entry to be inserted.
-
-
 ## -remarks
 
 
 Before the driver's initial call the 
     <b>NdisInterlockedPushEntrySList</b> function, it must initialize the list head with the 
-    <mshelp:link keywords="netvista.ndisinitializeslisthead" tabindex="0"><b>
-    NdisInitializeSListHead</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">
+    NdisInitializeSListHead</a> function.
 
 A driver 
     <u>must not</u> be holding the given 
@@ -133,17 +133,17 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
-
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
-
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+
+<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
 
  
 

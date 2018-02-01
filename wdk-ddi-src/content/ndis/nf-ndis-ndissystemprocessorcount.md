@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 17c7b02d-3d32-4056-9baa-2fef74765da3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndissystemprocessorcount, ndis_sysinfo_ref_2bec0b11-bc24-4c8d-9e78-ff94c7f1645f.xml, ndis/NdisSystemProcessorCount, NdisSystemProcessorCount function [Network Drivers Starting with Windows Vista], NdisSystemProcessorCount
+ms.keywords: NdisSystemProcessorCount function [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_2bec0b11-bc24-4c8d-9e78-ff94c7f1645f.xml, ndis/NdisSystemProcessorCount, netvista.ndissystemprocessorcount, NdisSystemProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,12 +82,12 @@ CCHAR NdisSystemProcessorCount(void);
 An NDIS driver can call the 
     <b>NdisSystemProcessorCount</b> function to retrieve the maximum number of processors in the local
     computer. To retrieve the number of currently active processors, the driver must call the 
-    <mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
-    NdisSystemActiveProcessorCount</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+    NdisSystemActiveProcessorCount</a> function.
 
 <b>NdisSystemProcessorCount</b> is similar to the 
-    <mshelp:link keywords="kernel.kequerymaximumprocessorcount" tabindex="0"><b>
-    KeQueryMaximumProcessorCount</b></mshelp:link> function.
+    <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">
+    KeQueryMaximumProcessorCount</a> function.
 
 The value that 
     <b>NdisSystemProcessorCount</b> returns does not change at runtime.
@@ -109,13 +109,13 @@ If you are not optimizing and if the data structures that result from using the 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
-   NdisSystemActiveProcessorCount</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
 
 <a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
 
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+   NdisSystemActiveProcessorCount</a>
 
 <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
 

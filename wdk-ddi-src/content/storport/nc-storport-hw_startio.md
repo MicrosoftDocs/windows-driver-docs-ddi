@@ -72,12 +72,12 @@ BOOLEAN HwStorStartIo(
 
 
 
-#### - DeviceExtension
+### -param DeviceExtension
 
 A pointer to the miniport driver's per HBA storage area.
 
 
-#### - Srb
+### -param Srb
 
 A pointer to the SCSI request block to be started. 
 
@@ -175,13 +175,13 @@ BOOLEAN
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
-
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e236ac2e-24d7-45a4-aa88-b496c8d92764
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_TEXBLT, UMDisplayDriver_param_Structs_4a343a1e-c364-4261-9f86-e179e0fc2f7c.xml, d3dumddi/D3DDDIARG_TEXBLT, display.d3dddiarg_texblt, D3DDDIARG_TEXBLT structure [Display Devices], D3DDDIARG_TEXBLT"
+ms.keywords: "_D3DDDIARG_TEXBLT, display.d3dddiarg_texblt, UMDisplayDriver_param_Structs_4a343a1e-c364-4261-9f86-e179e0fc2f7c.xml, D3DDDIARG_TEXBLT structure [Display Devices], d3dumddi/D3DDDIARG_TEXBLT, D3DDDIARG_TEXBLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct _D3DDDIARG_TEXBLT {
 
 
 
-#### - hDstResource
+### -field hDstResource
 
 [in] A handle to the destination resource.
 
 
-#### - hSrcResource
+### -field hSrcResource
 
 [in] A handle to the source resource.
 
 
-#### - CubeMapFace
+### -field CubeMapFace
 
 [in] The face of a cube map.
 
 
-#### - DstPoint
+### -field DstPoint
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that describes the destination point where the source texture is copied.
 
 
-#### - SrcRect
+### -field SrcRect
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the source texture to copy to the destination point.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt.md">TexBlt</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt.md">TexBlt</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
 

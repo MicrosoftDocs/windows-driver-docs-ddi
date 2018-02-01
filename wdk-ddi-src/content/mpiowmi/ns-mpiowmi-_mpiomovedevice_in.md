@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2652874f-70d0-4eff-a46d-778a68d55cab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MPIOMoveDevice_IN, mpiowmi/MPIOMoveDevice_IN, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml, PMPIOMoveDevice_IN structure pointer [Storage Devices], mpiowmi/PMPIOMoveDevice_IN, _MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], *PMPIOMoveDevice_IN, storage.mpiomovedevice_in, PMPIOMoveDevice_IN
+ms.keywords: structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml, PMPIOMoveDevice_IN structure pointer [Storage Devices], storage.mpiomovedevice_in, _MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], mpiowmi/MPIOMoveDevice_IN, MPIOMoveDevice_IN, *PMPIOMoveDevice_IN, PMPIOMoveDevice_IN, mpiowmi/PMPIOMoveDevice_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MPIOMoveDevice_IN {
 
 
 
-#### - DiskOrdinal
+### -field DiskOrdinal
 
 A 32-bitfield that specifies the MPIO disk ordinal value.
 
 
-#### - Flags
+### -field Flags
 
 A 32-bitfield that specifies the flags that are associated with the device move operation.
 
 
-#### - PathID
+### -field PathID
 
 A 64-bitfield that specifies the path that is associated with the device.
 

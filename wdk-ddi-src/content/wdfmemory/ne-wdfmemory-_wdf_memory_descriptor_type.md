@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ab364ad8-1b04-4ad0-a036-9b1c41e16604
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfMemoryDescriptorTypeHandle, WdfMemoryDescriptorTypeMdl, _WDF_MEMORY_DESCRIPTOR_TYPE, wdf.wdf_memory_descriptor_type, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, WDF_MEMORY_DESCRIPTOR_TYPE enumeration, WdfMemoryDescriptorTypeBuffer, wdfmemory/WdfMemoryDescriptorTypeBuffer, wdfmemory/WdfMemoryDescriptorTypeMdl, wdfmemory/WdfMemoryDescriptorTypeHandle, WdfMemoryDescriptorTypeInvalid, WDF_MEMORY_DESCRIPTOR_TYPE, DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, kmdf.wdf_memory_descriptor_type, wdfmemory/WdfMemoryDescriptorTypeInvalid
+ms.keywords: wdfmemory/WdfMemoryDescriptorTypeBuffer, wdfmemory/WdfMemoryDescriptorTypeHandle, WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeMdl, wdfmemory/WdfMemoryDescriptorTypeInvalid, kmdf.wdf_memory_descriptor_type, wdf.wdf_memory_descriptor_type, WdfMemoryDescriptorTypeBuffer, WdfMemoryDescriptorTypeHandle, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, WdfMemoryDescriptorTypeInvalid, _WDF_MEMORY_DESCRIPTOR_TYPE, DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, WDF_MEMORY_DESCRIPTOR_TYPE enumeration, WdfMemoryDescriptorTypeMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_MEMORY_DESCRIPTOR_TYPE {
 
 
 
-#### - WdfMemoryDescriptorTypeInvalid
+### -field WdfMemoryDescriptorTypeInvalid
 
 Reserved for internal use only.
 
 
-#### - WdfMemoryDescriptorTypeBuffer
+### -field WdfMemoryDescriptorTypeBuffer
 
 The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure contains a buffer description.
 
 
-#### - WdfMemoryDescriptorTypeMdl
+### -field WdfMemoryDescriptorTypeMdl
 
 The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure contains a memory descriptor list (MDL).
 
 
-#### - WdfMemoryDescriptorTypeHandle
+### -field WdfMemoryDescriptorTypeHandle
 
 The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure contains a handle to a memory object.
 

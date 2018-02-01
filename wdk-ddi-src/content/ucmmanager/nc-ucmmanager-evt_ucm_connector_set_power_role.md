@@ -74,12 +74,12 @@ typedef EVT_UCM_CONNECTOR_SET_POWER_ROLE PFN_UCM_CONNECTOR_SET_POWER_ROLE;
 
 
 
-#### - Connector [in]
+### -param Connector [in]
 
 Handle to the connector that the client driver received in a previous call to  the <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a> method.
 
 
-#### - PowerRole [in]
+### -param PowerRole [in]
 
 A <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed flag that specifies the role to set.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 59ca5035-f4d8-4a9c-a298-c8dca604f4db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFreeObjectHeader, KsFreeObjectHeader, ksfunc_11097907-6879-43bb-879b-b74eb13d6109.xml, stream.ksfreeobjectheader, KsFreeObjectHeader function [Streaming Media Devices]
+ms.keywords: KsFreeObjectHeader function [Streaming Media Devices], ksfunc_11097907-6879-43bb-879b-b74eb13d6109.xml, ks/KsFreeObjectHeader, KsFreeObjectHeader, stream.ksfreeobjectheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KsFreeObjectHeader(
 
 
 
-#### - Header [in]
+### -param Header [in]
 
 Points to the object header to free.
 

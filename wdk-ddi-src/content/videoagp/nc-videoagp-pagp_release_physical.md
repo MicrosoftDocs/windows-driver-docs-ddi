@@ -72,12 +72,12 @@ VOID APIENTRY AgpReleasePhysical(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - PhysicalReserveContext [in]
+### -param PhysicalReserveContext [in]
 
 Is the context handle that identifies the reserved physical address range to be released. This context was obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
 

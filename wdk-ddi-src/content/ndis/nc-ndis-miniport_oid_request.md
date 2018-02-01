@@ -73,14 +73,14 @@ NDIS_STATUS MiniportOidRequest(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
-#### - OidRequest [in]
+### -param OidRequest [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that contains
@@ -117,8 +117,8 @@ The miniport driver has either set or obtained the data as requested.
 <td width="60%">
 The miniport driver will complete the request asynchronously. After the miniport driver has
        completed all processing, it must call the 
-       <mshelp:link keywords="netvista.ndismoidrequestcomplete" tabindex="0"><b>
-       NdisMOidRequestComplete</b></mshelp:link> function to inform NDIS that the request is complete.
+       <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">
+       NdisMOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 </td>
 </tr>
@@ -192,8 +192,8 @@ One or more of the parameters specified for the request at
 </td>
 <td width="60%">
 After calling the 
-       <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-       MiniportDevicePnPEventNotify</i></mshelp:link> function to indicate a surprise removal, NDIS calls the driver's 
+       <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+       MiniportDevicePnPEventNotify</a> function to indicate a surprise removal, NDIS calls the driver's 
        <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. If the
        driver receives any OID requests before NDIS calls 
        <i>MiniportHaltEx</i>, it should immediately complete such requests with a status value of
@@ -238,8 +238,8 @@ The miniport driver will provide an OID completion status with a subsequent stat
 
 A driver specifies the 
     <i>MiniportOidRequest</i> entry point when it calls the 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a> function.
 
 NDIS calls the 
     <i>MiniportOidRequest</i> function either on its own behalf or on behalf of a bound protocol driver that
@@ -302,26 +302,26 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
-<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-   MiniportDevicePnPEventNotify</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a949a583-1ee1-4538-9117-4ad1482e8bc8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::GetNotifyEventHandle, IDebugControl3, GetNotifyEventHandle method [Windows Debugging], debugger.getnotifyeventhandle, IDebugControl3::GetNotifyEventHandle, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetNotifyEventHandle, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2::GetNotifyEventHandle, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, dbgeng/IDebugControl3::GetNotifyEventHandle, GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetNotifyEventHandle
+ms.keywords: IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, GetNotifyEventHandle method [Windows Debugging], GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetNotifyEventHandle, IDebugControl3, dbgeng/IDebugControl::GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, IDebugControl2::GetNotifyEventHandle, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method, debugger.getnotifyeventhandle, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl::GetNotifyEventHandle, dbgeng/IDebugControl2::GetNotifyEventHandle, dbgeng/IDebugControl3::GetNotifyEventHandle, GetNotifyEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetNotifyEventHandle(
 
 
 
-#### - Handle [out]
+### -param Handle [out]
 
 Receives the handle of the event that will be signaled.  If <i>Handle</i> is <b>NULL</b>, no event will be signaled.
 
@@ -111,9 +111,9 @@ The event will only be signaled once.  After it has been signaled, this method w
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

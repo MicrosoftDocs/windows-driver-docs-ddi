@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c229eb9e-cf1f-43ea-b701-fb8fb6196b40
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceRequirementsListSetInterfaceType, wdf.wdfioresourcerequirementslistsetinterfacetype, wdfresource/WdfIoResourceRequirementsListSetInterfaceType, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, WdfIoResourceRequirementsListSetInterfaceType method, PFN_WDFIORESOURCEREQUIREMENTSLISTSETINTERFACETYPE, kmdf.wdfioresourcerequirementslistsetinterfacetype
+ms.keywords: wdfresource/WdfIoResourceRequirementsListSetInterfaceType, kmdf.wdfioresourcerequirementslistsetinterfacetype, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, PFN_WDFIORESOURCEREQUIREMENTSLISTSETINTERFACETYPE, wdf.wdfioresourcerequirementslistsetinterfacetype, WdfIoResourceRequirementsListSetInterfaceType method, WdfIoResourceRequirementsListSetInterfaceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfIoResourceRequirementsListSetInterfaceType(
 
 
 
-#### - RequirementsList [in]
+### -param RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-#### - InterfaceType [in]
+### -param InterfaceType [in]
 
 An <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to. 
 

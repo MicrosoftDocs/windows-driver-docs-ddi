@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, RtlAddAce routine [Installable File System Drivers], ifsk.rtladdace, RtlAddAce
+ms.keywords: rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, ifsk.rtladdace, RtlAddAce, ntifs/RtlAddAce, RtlAddAce routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS RtlAddAce(
 
 
 
-#### - Acl [in, out]
+### -param Acl [in, out]
 
 Pointer to the ACL to be modified. <b>RtlAddAce</b> adds the specified ACEs to this ACL. 
 
 
-#### - AceRevision [in]
+### -param AceRevision [in]
 
 ACL revision level of the ACE to be added. Windows version requirments are the following:
 <table>
@@ -112,17 +112,17 @@ The revision level valid starting with Windows 2000.
 </table> 
 
 
-#### - StartingAceIndex [in]
+### -param StartingAceIndex [in]
 
 Specifies the position in the ACL's list of ACEs at which to add new ACEs. A value of zero inserts the ACEs at the beginning of the list. A value of MAXULONG appends the ACEs to the end of the list.
 
 
-#### - AceList [in]
+### -param AceList [in]
 
 Pointer to a buffer containing a list of one or more ACEs to be added to the specified ACL. The ACEs in the list must be stored contiguously.
 
 
-#### - AceListLength [in]
+### -param AceListLength [in]
 
 Size, in bytes, of the input buffer pointed to by the <i>AceList</i> parameter. 
 
@@ -191,17 +191,17 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
-
-<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
 
 <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
 
  
 

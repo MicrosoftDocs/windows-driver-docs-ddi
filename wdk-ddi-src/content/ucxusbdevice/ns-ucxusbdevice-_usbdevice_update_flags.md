@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 36F009C8-046B-437A-83D6-AE8D5BF51AF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FLAGS, buses._usbdevice_update_flags, P_USBDEVICE_UPDATE_FLAGS
+ms.keywords: ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], USBDEVICE_UPDATE_FLAGS, buses._usbdevice_update_flags, _USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,53 +75,53 @@ typedef struct _USBDEVICE_UPDATE_FLAGS {
 
 
 
-#### - UpdateDeviceDescriptor
+### -field UpdateDeviceDescriptor
 
 If set, indicates a request to update the USB device descriptor.
 
 
-#### - UpdateBosDescriptor
+### -field UpdateBosDescriptor
 
 If set, indicates a request to update the USB BOS descriptor.
 
 
-#### - UpdateMaxExitLatency
+### -field UpdateMaxExitLatency
 
 If set, indicates a request to update the maximum exit latency.
 
 
-#### - UpdateIsHub
+### -field UpdateIsHub
 
 If set, indicates a request to determine of the device is a hub.
 
 
-#### - UpdateAllowIoOnInvalidPipeHandles
+### -field UpdateAllowIoOnInvalidPipeHandles
 
 If set, indicates the USB device or hub has been updated to allow I/O with invalid pipe handles.
 
 
-#### - Update20HardwareLpmParameters
+### -field Update20HardwareLpmParameters
 
 If set, indicates a request to update the 2.0 LPM state.
 
 
-#### - UpdateRootPortResumeTime
+### -field UpdateRootPortResumeTime
 
 If set, indicates a request to  update the root port resume time.
 
 
-#### - Reserved
+### -field Reserved
 
 Do not use. 
 
 
 ## -see-also
 
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
 
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
-
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
 
  
 

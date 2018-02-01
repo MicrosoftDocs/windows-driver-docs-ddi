@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iportclspower_setidlepowermanagement, portcls/IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement, IPortClsPower, SetIdlePowerManagement method [Audio Devices], IPortClsPower::SetIdlePowerManagement, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, SetIdlePowerManagement method [Audio Devices], IPortClsPower interface
+ms.keywords: audio.iportclspower_setidlepowermanagement, SetIdlePowerManagement method [Audio Devices], portcls/IPortClsPower::SetIdlePowerManagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, IPortClsPower, SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, IPortClsPower::SetIdlePowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,23 +68,12 @@ NTSTATUS SetIdlePowerManagement(
 
 
 
-### -param _DeviceObject
-
-
-
-
-### -param _bEnabled
-
-
-
-
-
-#### - DeviceObject [in]
+### -param _DeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
-#### - bEnabled [in]
+### -param _bEnabled [in]
 
 Specifies a Boolean variable that indicates whether idle state detection is enabled or disabled.
 
@@ -107,9 +96,9 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 <a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
 
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
 
  
 

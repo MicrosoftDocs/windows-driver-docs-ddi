@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 08452b54-158f-4dca-86d8-34cc3f96bc62
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, IDebugControl3, IDebugControl interface [Windows Debugging], AddBreakpoint method, IDebugControl2::AddBreakpoint, IDebugControl3::AddBreakpoint, AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, dbgeng/IDebugControl2::AddBreakpoint, AddBreakpoint method [Windows Debugging], IDebugControl3 interface, IDebugControl::AddBreakpoint, AddBreakpoint method [Windows Debugging], IDebugControl2 interface, AddBreakpoint method [Windows Debugging], IDebugControl3 interface [Windows Debugging], AddBreakpoint method, AddBreakpoint method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], AddBreakpoint method, debugger.addbreakpoint, dbgeng/IDebugControl3::AddBreakpoint
+ms.keywords: IDebugControl::AddBreakpoint, AddBreakpoint method [Windows Debugging], IDebugControl2 interface, IDebugControl2::AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, IDebugControl3 interface [Windows Debugging], AddBreakpoint method, AddBreakpoint method [Windows Debugging], IDebugControl3 interface, IDebugControl3, AddBreakpoint method [Windows Debugging], IDebugControl3::AddBreakpoint, IDebugControl interface [Windows Debugging], AddBreakpoint method, AddBreakpoint, dbgeng/IDebugControl3::AddBreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, IDebugControl2 interface [Windows Debugging], AddBreakpoint method, debugger.addbreakpoint, AddBreakpoint method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::AddBreakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT AddBreakpoint(
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 Specifies the breakpoint type of the new breakpoint.  This can be either of the following values:
 <table>
@@ -102,12 +102,12 @@ DEBUG_BREAKPOINT_DATA
 </table> 
 
 
-#### - DesiredId [in]
+### -param DesiredId [in]
 
 Specifies the desired ID of the new breakpoint.  If it is DEBUG_ANY_ID, the engine will pick an unused ID.
 
 
-#### - Bp [out]
+### -param Bp [out]
 
 Receives an interface pointer to the new breakpoint.
 
@@ -161,17 +161,17 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

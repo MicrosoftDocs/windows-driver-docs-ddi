@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f7ff16ac-fe20-4998-a8b3-d1d02c418938
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgetfirstchild, KsGetFirstChild, ks/KsGetFirstChild, avfunc_cfdde7e3-bc8b-46df-abf4-fe43ac9b0bfc.xml, KsGetFirstChild function [Streaming Media Devices]
+ms.keywords: KsGetFirstChild, ks/KsGetFirstChild, stream.ksgetfirstchild, KsGetFirstChild function [Streaming Media Devices], avfunc_cfdde7e3-bc8b-46df-abf4-fe43ac9b0bfc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PVOID KsGetFirstChild(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 The object for which to find the first AVStream child object.
 
@@ -91,13 +91,13 @@ Minidrivers rarely call this function directly. Those that do must manually perf
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterfactorygetfirstchildfilter.md">KsFilterFactoryGetFirstChildFilter</a>
-
 <a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
 
 <a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>
 
 <a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
+
+<a href="..\ks\nf-ks-ksfilterfactorygetfirstchildfilter.md">KsFilterFactoryGetFirstChildFilter</a>
 
  
 

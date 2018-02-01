@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 56B7D001-2EC3-4397-B520-193CCF52A9EE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_BUS_RESET, IRB_REQ_BUS_RESET structure [Buses], IRB_REQ_BUS_RESET, IEEE.irb_req_bus_reset, 1394/IRB_REQ_BUS_RESET"
+ms.keywords: IRB_REQ_BUS_RESET, IEEE.irb_req_bus_reset, IRB_REQ_BUS_RESET structure [Buses], 1394/IRB_REQ_BUS_RESET, _IRB_REQ_BUS_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _IRB_REQ_BUS_RESET {
 
 
 
-#### - fulFlags
+### -field fulFlags
 
 Set this flag to BUS_RESET_FLAGS_FORCE_ROOT to make the local node the root node. All other values indicate that the node is not root.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, debugger.getvalidregionvirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, GetValidRegionVirtual, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::GetValidRegionVirtual
+ms.keywords: IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, GetValidRegionVirtual, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, debugger.getvalidregionvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetValidRegionVirtual(
 
 
 
-#### - Base [in]
+### -param Base [in]
 
 Specifies the address of the beginning of the memory range to search for valid memory.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies the size, in bytes, of the memory range to search.
 
 
-#### - ValidBase [out]
+### -param ValidBase [out]
 
 Receives the address of the beginning of the found valid memory.
 
 
-#### - ValidSize [out]
+### -param ValidSize [out]
 
 Receives the size, in bytes, of the valid memory.
 

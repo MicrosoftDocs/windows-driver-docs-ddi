@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a88c2c74-ab9a-4d9a-aeb7-d08bfe497da4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/WriteMsr, WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, debugger.writemsr, WriteMsr function [Windows Debugging], WriteMsr
+ms.keywords: WriteMsr, dbgeng/WriteMsr, WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, debugger.writemsr, WriteMsr function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ __inline VOID WriteMsr(
 
 
 
-#### - MsrReg [in]
+### -param MsrReg [in]
 
 Specifies the ID number of the MSR.
 
 
-#### - MsrValue [in]
+### -param MsrValue [in]
 
 Specifies the new value of the MSR.
 

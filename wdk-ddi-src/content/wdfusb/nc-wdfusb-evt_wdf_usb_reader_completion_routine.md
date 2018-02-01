@@ -76,22 +76,22 @@ VOID EvtUsbTargetPipeReadComplete(
 
 
 
-#### - Pipe [in]
+### -param Pipe [in]
 
 A handle to a framework pipe object.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A handle to a framework memory object that represents a buffer that contains data from the device.
 
 
-#### - NumBytesTransferred [in]
+### -param NumBytesTransferred [in]
 
 The number of bytes of data that are in the read buffer.
 
 
-#### - Context [in]
+### -param Context [in]
 
 Driver-defined context information that the driver specified in the <b>EvtUsbTargetPipeReadCompleteContext</b> member of the pipe's <a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure. 
 
@@ -142,11 +142,11 @@ For more information about the <i>EvtUsbTargetPipeReadComplete</i> callback func
 
 ## -see-also
 
+<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
-
-<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
 
  
 

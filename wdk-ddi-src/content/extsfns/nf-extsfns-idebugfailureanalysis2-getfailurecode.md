@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E407482E-26DD-40C6-9405-DF5CA8996B91
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2::GetFailureCode, GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureCode method [Windows Debugging], debugger.idebugfailureanalysis2_getfailurecode, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureCode method, GetFailureCode, extsfns/IDebugFailureAnalysis2::GetFailureCode
+ms.keywords: extsfns/IDebugFailureAnalysis2::GetFailureCode, IDebugFailureAnalysis2, GetFailureCode, debugger.idebugfailureanalysis2_getfailurecode, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureCode method, GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2::GetFailureCode, GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,9 +86,9 @@ When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983415">GetFailureClass</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983417">GetFailureType</a>
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983417">GetFailureType</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 

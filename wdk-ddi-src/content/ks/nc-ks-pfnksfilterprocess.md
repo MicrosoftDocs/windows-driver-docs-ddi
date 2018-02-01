@@ -71,7 +71,7 @@ NTSTATUS AVStrMiniFilterProcess(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure that must process frames.
 
@@ -110,9 +110,9 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
-
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
+
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
  
 

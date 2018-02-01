@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CIP_FRAME, _CIP_FRAME, 61883/PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, PCIP_FRAME structure pointer [Buses], *PCIP_FRAME, IEEE.cip_frame, PCIP_FRAME, CIP_FRAME structure [Buses], CIP_FRAME
+ms.keywords: IEEE.cip_frame, PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, *PCIP_FRAME, PCIP_FRAME structure pointer [Buses], 61883/PCIP_FRAME, 61883/CIP_FRAME, CIP_FRAME structure [Buses], _CIP_FRAME, CIP_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,16 +79,16 @@ typedef struct _CIP_FRAME {
 
 
 
-#### - Reserved
+### -field Reserved
 
 
 
-#### - pNext
+### -field pNext
 
 Reserved for internal use.
 
 
-#### - Flags
+### -field Flags
 
 Specifies options associated with this frame. 
 
@@ -109,14 +109,19 @@ For packets to be transmitted or received, <b>Flags</b> can also be set with the
 
 
 
-#### CIP_VALIDATE_FIRST_SOURCE
+#### CIP_AUDIO_STYLE_SYT
 
-Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate only the first source packet.
+The value at <b>TimeStamp</b> is formatted for audio and music data transmission to audio devices.
 
 
-#### CIP_VALIDATE_ALL_SOURCE
+#### CIP_DV_STYLE_SYT
 
-Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate all source packets.
+The value at <b>TimeStamp</b> is formatted for data transmission to digital video devices (SD-DVCR, HD-DVCR, or SDL-DVCR).
+
+
+#### CIP_RESET_FRAME_ON_DISCONTINUITY
+
+Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
 
 
 #### CIP_STRIP_SOURCE_HEADER
@@ -129,22 +134,17 @@ Instructs the protocol driver to strip the source header packet within a source 
 Instructs the protocol driver to timestamp the frame with the timestamp found within the source header packet.
 
 
-#### CIP_DV_STYLE_SYT
+#### CIP_VALIDATE_ALL_SOURCE
 
-The value at <b>TimeStamp</b> is formatted for data transmission to digital video devices (SD-DVCR, HD-DVCR, or SDL-DVCR).
-
-
-#### CIP_AUDIO_STYLE_SYT
-
-The value at <b>TimeStamp</b> is formatted for audio and music data transmission to audio devices.
+Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate all source packets.
 
 
-#### CIP_RESET_FRAME_ON_DISCONTINUITY
+#### CIP_VALIDATE_FIRST_SOURCE
 
-Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
+Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate only the first source packet.
 
 
-#### - pfnValidate
+### -field pfnValidate
 
 Points to a caller-supplied function to validate a source packet. This function uses the following prototype: The parameter <b>ValidateInfo</b> must point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537048">CIP_VALIDATE_INFO</a> structure that contains information about the frame. 
 <div class="code"><span codelanguage=""><table>
@@ -161,12 +161,12 @@ Points to a caller-supplied function to validate a source packet. This function 
 </tr>
 </table></span></div>
 
-#### - ValidateContext
+### -field ValidateContext
 
 Points to an optional caller-defined context for the function at <b>pfnValidate</b>. If the function does not require a context, <b>ValidateContext</b> can be <b>NULL</b>.
 
 
-#### - pfnNotify
+### -field pfnNotify
 
 Points to a caller-supplied function to be called by the protocol driver when the requested frame is completed. The protocol driver calls this function at IRQL = DISPATCH_LEVEL.
 
@@ -190,12 +190,12 @@ This function uses the following prototype:
 
 
 
-#### - NotifyContext
+### -field NotifyContext
 
 Points to an optional caller-defined context for the caller-supplied function at <b>pfnNotify</b>. If the function does not require a context, <b>NotifyContext</b> can be <b>NULL</b>.
 
 
-#### - Timestamp
+### -field Timestamp
 
 The time associated with completion of the frame. 
 
@@ -204,7 +204,7 @@ For packets to be received, the protocol driver sets this member to the time whe
 For packets to be transmitted, CIP-DV_STYLE_SYT or CIP_AUDIO_STYLE_SYT in <b>Flags</b> indicates the format of the timestamp.
 
 
-#### - Status
+### -field Status
 
 The status of the frame. Can be one of the following:
 
@@ -215,12 +215,12 @@ CIP_STATUS_CORRUPT_FRAME
 CIP_STATUS_FIRST_FRAME
 
 
-#### - Packet
+### -field Packet
 
 Points to the beginning of a caller-allocated data buffer to be transmitted or received with this frame. The frame length specified in the associated <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a> request indicates the size of the buffer.
 
 
-#### - CompletedBytes
+### -field CompletedBytes
 
 
 

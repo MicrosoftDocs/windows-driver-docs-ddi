@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4bbcf4d3-e1f9-4e13-ac56-92ffddea1f67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetExclusive method, WdfDeviceInitSetExclusive, DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, wdfdevice/WdfDeviceInitSetExclusive, wdf.wdfdeviceinitsetexclusive, PFN_WDFDEVICEINITSETEXCLUSIVE, kmdf.wdfdeviceinitsetexclusive
+ms.keywords: PFN_WDFDEVICEINITSETEXCLUSIVE, kmdf.wdfdeviceinitsetexclusive, wdf.wdfdeviceinitsetexclusive, wdfdevice/WdfDeviceInitSetExclusive, DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, WdfDeviceInitSetExclusive method, WdfDeviceInitSetExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfDeviceInitSetExclusive(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - IsExclusive [in]
+### -param IsExclusive [in]
 
 A Boolean value which, if <b>TRUE</b>, indicates that the device is an exclusive device. If <b>FALSE</b>, the device is not an exclusive device.
 

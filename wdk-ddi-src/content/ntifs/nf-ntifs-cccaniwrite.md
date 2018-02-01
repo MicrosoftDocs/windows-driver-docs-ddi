@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 04b1521f-906f-493d-9ca6-6d97c6a80bdb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCanIWrite, ifsk.cccaniwrite, ntifs/CcCanIWrite, CcCanIWrite routine [Installable File System Drivers], ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml
+ms.keywords: ntifs/CcCanIWrite, CcCanIWrite, ifsk.cccaniwrite, ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, CcCanIWrite routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ BOOLEAN CcCanIWrite(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the cached file.
 
 
-#### - BytesToWrite [in]
+### -param BytesToWrite [in]
 
 Number of bytes to be written.
 
 
-#### - Wait [in]
+### -param Wait [in]
 
 Set to <b>TRUE</b> if the caller can be put into a wait state until it can write to the cached file, <b>FALSE</b> otherwise.
 
 
-#### - Retrying [in]
+### -param Retrying [in]
 
 Set to <b>FALSE</b> if this is the first time <b>CcCanIWrite</b> is being called for this write request, <b>TRUE</b> otherwise.
 
@@ -132,9 +132,9 @@ If a per-file dirty page threshold exists for this file, it is not exceeded by t
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
-
 <a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
+
+<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
 
 <a href="..\ntifs\nf-ntifs-ccfastcopywrite.md">CcFastCopyWrite</a>
 

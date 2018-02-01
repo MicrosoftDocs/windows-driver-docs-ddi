@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03B822CF-2FB0-412B-9F45-43756D8B4C19
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_signalsynchronizationobjectfromcpu, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_signalsynchronizationobjectfromcpu, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 
 
-#### - hDevice
+### -field hDevice
 
 [in] The handle to the device.
 
 
-#### - ObjectCount
+### -field ObjectCount
 
 [in] The number of synchronization objects in the <b>ObjectHandleArray</b> and fence values in the <b>FenceValueArray</b>. 
 
 
-#### - ObjectHandleArray
+### -field ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events to signal.
 
 
-#### - FenceValueArray
+### -field FenceValueArray
 
 [in] An array of 64 bit monitored fence values to signal, each corresponding to an object in the <b>ObjectHandleArray</b>.
 

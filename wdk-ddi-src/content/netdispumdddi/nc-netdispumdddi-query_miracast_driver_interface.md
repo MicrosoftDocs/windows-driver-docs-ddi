@@ -72,24 +72,19 @@ NTSTATUS QueryMiracastDriverInterface(
 
 
 
-#### - MiracastDriverInterfaceVersion [in]
+### -param MiracastDriverInterfaceVersion [in]
 
 The version of the Miracast display interface, supplied by the operating system. 
 
 This version is defined in Netdispumdddi.h as a <b>MIRACAST_DRIVER_INTERFACE_VERSION_XXX</b> value. For Windows 8.1, the value is <b>MIRACAST_DRIVER_INTERFACE_VERSION_1</b>.
 
 
-#### - MiracastDriverInterfaceSize [in]
+### -param MiracastDriverInterfaceSize [in]
 
 The size, supplied by the operating system, of the buffer pointed to by <i>pMiracastDriverInterface</i>.
 
 
-#### - *pMiracastDriverInterface [out]
-
-A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>.
-
-
-#### - pMiracastDriverInterface [out]
+### -param *pMiracastDriverInterface [out]
 
 A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>.
 
@@ -110,9 +105,9 @@ When the Miracast user-mode driver is loaded, the operating system calls the <a 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
+
+<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>
 
  
 

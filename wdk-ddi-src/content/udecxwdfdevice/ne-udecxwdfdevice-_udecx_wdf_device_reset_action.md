@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E3216F62-5506-4DA2-AD89-B2406D3E97C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUDECX_WDF_DEVICE_RESET_ACTION, _UDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, UDECX_WDF_DEVICE_RESET_ACTION, UdecxWdfDeviceResetActionResetWdfDevice, buses.udecx_wdf_device_reset_action, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice, UdecxWdfDeviceResetActionResetEachUsbDevice, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION"
+ms.keywords: UdecxWdfDeviceResetActionResetWdfDevice, _UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION, buses.udecx_wdf_device_reset_action, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice, udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, UDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], UdecxWdfDeviceResetActionResetEachUsbDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _UDECX_WDF_DEVICE_RESET_ACTION {
 
 
 
-#### - UdecxWdfDeviceResetActionResetEachUsbDevice
+### -field UdecxWdfDeviceResetActionResetEachUsbDevice
 
 Each device that is attached to the controller is reset.
 
 
-#### - UdecxWdfDeviceResetActionResetWdfDevice
+### -field UdecxWdfDeviceResetActionResetWdfDevice
 
 The emulated host controller is reset.
 

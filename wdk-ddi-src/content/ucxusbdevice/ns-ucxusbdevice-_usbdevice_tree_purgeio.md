@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 47C442F5-7D16-4E73-8D05-82D63D5265C1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, *PUSBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses], ucxusbdevice/_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], buses._usbdevice_tree_purgeio, USBDEVICE_TREE_PURGEIO, _USBDEVICE_TREE_PURGEIO
+ms.keywords: "_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], USBDEVICE_TREE_PURGEIO structure [Buses], ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, ucxusbdevice/_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, USBDEVICE_TREE_PURGEIO, *PUSBDEVICE_TREE_PURGEIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct __USBDEVICE_TREE_PURGEIO {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 

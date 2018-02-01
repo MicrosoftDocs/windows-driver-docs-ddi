@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d9c82a97-a8fb-4c23-aa9c-23711d98fd8b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_2ed50455-f426-4072-be25-cab15c4c79cc.xml, RtlIntegerToUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlintegertounicodestring, RtlIntegerToUnicodeString, wdm/RtlIntegerToUnicodeString
+ms.keywords: RtlIntegerToUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlintegertounicodestring, wdm/RtlIntegerToUnicodeString, k109_2ed50455-f426-4072-be25-cab15c4c79cc.xml, RtlIntegerToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS RtlIntegerToUnicodeString(
 
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the ULONG value to convert. 
 
 
-#### - Base [in, optional]
+### -param Base [in, optional]
 
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
 <table>
@@ -127,7 +127,7 @@ Decimal
 </table> 
 
 
-#### - String [in, out]
+### -param String [in, out]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
 
@@ -180,11 +180,11 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdm\nf-wdm-rtlunicodestringtointeger.md">RtlUnicodeStringToInteger</a>
 
 <a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

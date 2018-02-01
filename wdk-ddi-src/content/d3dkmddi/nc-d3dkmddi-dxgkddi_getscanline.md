@@ -71,12 +71,12 @@ NTSTATUS APIENTRY DxgkDdiGetScanLine(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-#### - pGetScanLine [in, out]
+### -param pGetScanLine [in, out]
 
 [in/out] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getscanline.md">DXGKARG_GETSCANLINE</a> structure that contains the vertical blanking status of a video present target.
 

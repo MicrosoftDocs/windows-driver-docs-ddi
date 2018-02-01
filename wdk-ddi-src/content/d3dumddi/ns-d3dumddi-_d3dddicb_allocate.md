@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 76ebc960-ff63-40eb-842b-acdb549ecdaa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_allocate, _D3DDDICB_ALLOCATE, D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, d3dumddi/D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE structure [Display Devices]
+ms.keywords: D3DDDICB_ALLOCATE structure [Display Devices], d3dumddi/D3DDDICB_ALLOCATE, _D3DDDICB_ALLOCATE, D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, display.d3dddicb_allocate, D3DDDICB_ALLOCATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,24 +78,24 @@ typedef struct _D3DDDICB_ALLOCATE {
 
 
 
-#### - pAllocationInfo2
+### -field pAllocationInfo2
 
 [in] This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
 
 
-#### - pPrivateDriverData
+### -field pPrivateDriverData
 
 [in] A pointer to private data, which is passed to the display miniport driver. This data is per resource and not per allocation. If allocations are attached to an existing resource, the current data should overwrite the former data.
 
 
-#### - PrivateDriverDataSize
+### -field PrivateDriverDataSize
 
 [in] The size, in bytes, of the private data that is pointed to by <b>pPrivateDriverData</b>.
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the resource that is associated with the allocations. 
 
@@ -104,7 +104,7 @@ When the user-mode display driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfn
 The Microsoft Direct3D runtime should use this handle in driver calls to identify the resource.
 
 
-#### - hKMResource
+### -field hKMResource
 
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the resource that is associated with the allocations.
 
@@ -113,12 +113,12 @@ The Direct3D runtime creates and returns a kernel-mode resource handle only if t
 The Direct3D runtime generates a unique handle and passes it back to the user-mode display driver. The user-mode display driver can insert the kernel-mode resource handle in the command stream for subsequent use by the display miniport driver.
 
 
-#### - NumAllocations
+### -field NumAllocations
 
 [in] The number of elements in the array at <b>pAllocationInfo</b>, which represents the number of allocations to allocate.
 
 
-#### - pAllocationInfo
+### -field pAllocationInfo
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structures that describe the allocations to allocate.
 
@@ -129,17 +129,17 @@ The Direct3D runtime generates a unique handle and passes it back to the user-mo
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createresource.md">D3D11DDIARG_CREATERESOURCE</a>
 

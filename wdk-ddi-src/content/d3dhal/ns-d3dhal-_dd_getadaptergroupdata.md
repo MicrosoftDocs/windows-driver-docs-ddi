@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c427880-f809-4b58-8f69-d81a273d705c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, display.dd_getadaptergroupdata, _DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA structure [Display Devices]
+ms.keywords: DD_GETADAPTERGROUPDATA structure [Display Devices], d3dhal/DD_GETADAPTERGROUPDATA, _DD_GETADAPTERGROUPDATA, display.dd_getadaptergroupdata, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, DD_GETADAPTERGROUPDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,22 +74,22 @@ typedef struct _DD_GETADAPTERGROUPDATA {
 
 
 
-#### - gdi2
+### -field gdi2
 
 Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
 
 
-#### - ulUniqueAdapterGroupId
+### -field ulUniqueAdapterGroupId
 
 Receives the identifier of the group of adapters that comprise the driver's multiple-head video card. The driver must provide a unique identifier for the master and all subordinate adapters within this group.
 
 
-#### - dwReserved1
+### -field dwReserved1
 
 Specifies a reserved field. Driver should not read or write. Set to zero.
 
 
-#### - dwReserved2
+### -field dwReserved2
 
 Specifies a reserved field. Driver should not read or write. Set to zero.
 

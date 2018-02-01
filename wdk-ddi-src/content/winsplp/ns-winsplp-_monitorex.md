@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f03f72a8-8dc1-4e27-b89b-1afea16a177a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPMONITOREX structure pointer [Print Devices], winsplp/MONITOREX, *LPMONITOREX, _MONITOREX, print.monitorex, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, MONITOREX structure [Print Devices], winsplp/LPMONITOREX, LPMONITOREX, MONITOREX
+ms.keywords: winsplp/LPMONITOREX, _MONITOREX, LPMONITOREX, MONITOREX, MONITOREX structure [Print Devices], print.monitorex, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, *LPMONITOREX, winsplp/MONITOREX, LPMONITOREX structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _MONITOREX {
 
 
 
-#### - dwMonitorSize
+### -field dwMonitorSize
 
 Specifies the size, in bytes, of the Monitor <b>member</b>.
 
 
-#### - Monitor
+### -field Monitor
 
 Is a <a href="..\winsplp\ns-winsplp-_monitor.md">MONITOR</a> structure.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E2527150-2F62-4729-BC6A-FE6027BCCA35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionOpen, wwan/WwanDeviceServiceSessionClosed, wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, netvista.wwan_device_service_session_state, _WWAN_DEVICE_SERVICE_SESSION_STATE, WwanDeviceServiceSessionOpen, WwanDeviceServiceSessionClosed"
+ms.keywords: wwan/WwanDeviceServiceSessionClosed, _WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionClosed, wwan/WwanDeviceServiceSessionOpen, netvista.wwan_device_service_session_state, WwanDeviceServiceSessionOpen, *PWWAN_DEVICE_SERVICE_SESSION_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _WWAN_DEVICE_SERVICE_SESSION_STATE {
 
 
 
-#### - WwanDeviceServiceSessionOpen
+### -field WwanDeviceServiceSessionOpen
 
 The device service session is closed or should be closed.
 
 
-#### - WwanDeviceServiceSessionClosed
+### -field WwanDeviceServiceSessionClosed
 
 The device service session is open or should be opened.
 

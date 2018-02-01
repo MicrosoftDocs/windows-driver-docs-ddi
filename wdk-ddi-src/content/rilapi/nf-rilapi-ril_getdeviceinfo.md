@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b125bf24-54fa-4a2e-912a-d0d0ed2a3568
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetDeviceInfo method [Network Drivers Starting with Windows Vista], RIL_GetDeviceInfo, rilapi/RIL_GetDeviceInfo, netvista.ril_getdeviceinfo
+ms.keywords: rilapi/RIL_GetDeviceInfo, RIL_GetDeviceInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdeviceinfo, RIL_GetDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_GetDeviceInfo(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - dwId
+### -param dwId
 
 
 

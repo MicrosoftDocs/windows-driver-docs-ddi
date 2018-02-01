@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49f7d633-3e8b-4c9c-b14a-7ae8f997ad2f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltdeletestreamcontext, FltApiRef_a_to_d_8339a254-56eb-4f75-b294-006286f3ff10.xml, FltDeleteStreamContext function [Installable File System Drivers], fltkernel/FltDeleteStreamContext, FltDeleteStreamContext
+ms.keywords: FltDeleteStreamContext, FltDeleteStreamContext function [Installable File System Drivers], ifsk.fltdeletestreamcontext, FltApiRef_a_to_d_8339a254-56eb-4f75-b294-006286f3ff10.xml, fltkernel/FltDeleteStreamContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS FltDeleteStreamContext(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 Opaque instance pointer for the minifilter driver instance whose context is to be removed from the list of contexts attached to the file stream. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the file stream. 
 
 
-#### - OldContext [out]
+### -param OldContext [out]
 
 Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a> to release this context when it is no longer needed. 
 
@@ -148,15 +148,15 @@ To set a stream context, call <a href="..\fltkernel\nf-fltkernel-fltsetstreamcon
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
  
 

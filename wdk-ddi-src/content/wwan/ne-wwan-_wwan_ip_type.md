@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E4CE7BE7-021A-4C9A-B467-B63AACEC1266
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_IP_TYPE, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_IP_TYPE, WwanIPTypeIpv4v6, wwan/WwanIPTypeIpv4v6, netvista.wwan_ip_type, wwan/WwanIPTypeDefault, WwanIPTypeIPv4, wwan/WwanIPTypeIPv4, WwanIPTypeDefault, *PWWAN_IP_TYPE, WwanIPTypeIPv6, wwan/WwanIPTypeIPv6, WWAN_IP_TYPE"
+ms.keywords: wwan/WWAN_IP_TYPE, *PWWAN_IP_TYPE, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanIPTypeDefault, _WWAN_IP_TYPE, wwan/WwanIPTypeIpv4v6, WwanIPTypeIPv6, WwanIPTypeIPv4, wwan/WwanIPTypeIPv6, WWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WwanIPTypeDefault, WwanIPTypeIpv4v6, wwan/WwanIPTypeIPv4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _WWAN_IP_TYPE {
 
 
 
-#### - WwanIPTypeDefault
+### -field WwanIPTypeDefault
 
 Default IP.
 
 
-#### - WwanIPTypeIPv4
+### -field WwanIPTypeIPv4
 
 IPv4.
 
 
-#### - WwanIPTypeIPv6
+### -field WwanIPTypeIPv6
 
 IPv6
 
 
-#### - WwanIPTypeIpv4v6
+### -field WwanIPTypeIpv4v6
 
 IPv4 with IPv6
 
@@ -98,9 +98,9 @@ IPv4 with IPv6
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
-
 <a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
+
+<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
  
 

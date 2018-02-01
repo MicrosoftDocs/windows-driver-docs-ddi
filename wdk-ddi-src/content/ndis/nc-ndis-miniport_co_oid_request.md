@@ -75,7 +75,7 @@ NDIS_STATUS MiniportCoOidRequest(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
@@ -139,8 +139,8 @@ The miniport driver either set or obtained the data as requested.
 <td width="60%">
 The miniport driver will complete the request asynchronously. After the miniport driver has
        completed all processing, it must call the 
-       <mshelp:link keywords="netvista.ndismcooidrequestcomplete" tabindex="0"><b>
-       NdisMCoOidRequestComplete</b></mshelp:link> function to inform NDIS that the request is complete.
+       <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">
+       NdisMCoOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 </td>
 </tr>
@@ -214,8 +214,8 @@ One or more of the parameters that were specified for the request at
 </td>
 <td width="60%">
 After NDIS calls the 
-       <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-       MiniportDevicePnPEventNotify</i></mshelp:link> function to indicate a surprise removal, NDIS calls the driver's 
+       <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+       MiniportDevicePnPEventNotify</a> function to indicate a surprise removal, NDIS calls the driver's 
        <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. If the
        driver receives any OID requests before NDIS calls 
        <i>MiniportHaltEx</i>, it should immediately complete such requests with a status value of
@@ -232,8 +232,8 @@ After NDIS calls the
 <td width="60%">
 The miniport driver stopped processing the request. For example, NDIS called the 
        <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> or 
-       <mshelp:link keywords="netvista.miniportcanceloidrequest" tabindex="0"><i>
-       MiniportCancelOidRequest</i></mshelp:link> function.
+       <a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">
+       MiniportCancelOidRequest</a> function.
 
 </td>
 </tr>
@@ -254,8 +254,8 @@ To register
     from the 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function. In 
     <i>MiniportSetOptions</i>, the miniport driver initializes an 
-    <mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
-    NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link> structure and passes it at the 
+    <a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+    NDIS_MINIPORT_CO_CHARACTERISTICS</a> structure and passes it at the 
     <i>OptionalHandlers</i> parameter of 
     <b>NdisSetOptionalHandlers</b>.
 
@@ -315,31 +315,31 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-   MiniportDevicePnPEventNotify</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
-<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
 
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+   NDIS_MINIPORT_CO_CHARACTERISTICS</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

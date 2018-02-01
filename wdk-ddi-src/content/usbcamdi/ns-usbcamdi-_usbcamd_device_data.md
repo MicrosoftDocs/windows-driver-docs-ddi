@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1841be02-e30f-4685-82ea-2d9c02ce7277
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA, stream.usbcamd_device_data, USBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], USBCAMD_DEVICE_DATA structure [Streaming Media Devices], usbcamdi/USBCAMD_DEVICE_DATA, usbcamdi/PUSBCAMD_DEVICE_DATA, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml, _USBCAMD_DEVICE_DATA"
+ms.keywords: usbcamdi/PUSBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], _USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA, usbcamdi/USBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], PUSBCAMD_DEVICE_DATA, *PUSBCAMD_DEVICE_DATA, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml, stream.usbcamd_device_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,67 +82,67 @@ typedef struct _USBCAMD_DEVICE_DATA {
 
 
 
-#### - Sig
+### -field Sig
 
 Reserved. Do not use.
 
 
-#### - CamInitialize
+### -field CamInitialize
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_initialize_routine.md">CamInitialize</a> callback function. This entry point is required.
 
 
-#### - CamUnInitialize
+### -field CamUnInitialize
 
 Pointer to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557646">CamUnInitialize</a> callback function. This entry point is required.
 
 
-#### - CamProcessUSBPacket
+### -field CamProcessUSBPacket
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine.md">CamProcessUSBPacket</a> callback function. This is an optional entry point. If the minidriver does not implement this function, it must point to an empty function.
 
 
-#### - CamNewVideoFrame
+### -field CamNewVideoFrame
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a> callback function. This is an optional entry point. If the minidriver does not implement this function, it must point to an empty function.
 
 
-#### - CamProcessRawVideoFrame
+### -field CamProcessRawVideoFrame
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a> callback function. This is an optional entry point. If the minidriver does not implement this function, it must point to an empty function.
 
 
-#### - CamStartCapture
+### -field CamStartCapture
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine.md">CamStartCapture</a> callback function. This entry point is required.
 
 
-#### - CamStopCapture
+### -field CamStopCapture
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_stop_capture_routine.md">CamStopCapture</a> callback function. This entry point is required.
 
 
-#### - CamConfigure
+### -field CamConfigure
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine.md">CamConfigure</a> callback function. This entry point is required.
 
 
-#### - CamSaveState
+### -field CamSaveState
 
 Pointer to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557635">CamSaveState</a> callback function. This is an optional entry point. If the minidriver does not implement this function, it must point to an empty function.
 
 
-#### - CamRestoreState
+### -field CamRestoreState
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_state_routine.md">CamRestoreState</a> callback function. This is an optional entry point. If the minidriver does not implement this function, it must point to an empty function.
 
 
-#### - CamAllocateBandwidth
+### -field CamAllocateBandwidth
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine.md">CamAllocateBandwidth</a> callback function. This entry point is required.
 
 
-#### - CamFreeBandwidth
+### -field CamFreeBandwidth
 
 Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine.md">CamFreeBandwidth</a> callback function. This entry point is required.
 

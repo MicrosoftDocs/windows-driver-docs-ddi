@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: CC827018-F6B2-48DF-BF0A-36654F866BD9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PT0_DATA structure pointer [Smart Card Reader Devices], smclib/T0_DATA, T0_DATA, T0_DATA structure [Smart Card Reader Devices], PT0_DATA, smclib/PT0_DATA, _T0_DATA, *PT0_DATA, smartcrd.t0_data
+ms.keywords: T0_DATA, _T0_DATA, smclib/PT0_DATA, smartcrd.t0_data, T0_DATA structure [Smart Card Reader Devices], PT0_DATA, *PT0_DATA, PT0_DATA structure pointer [Smart Card Reader Devices], smclib/T0_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _T0_DATA {
 
 
 
-#### - Lc
+### -field Lc
 
 Number of data bytes in the request.
 
 
-#### - Le
+### -field Le
 
 Number of expected bytes from the card.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c7592ad-f4ed-496f-90bb-638f68efe4f7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryAssignValue method, WdfRegistryAssignValue, PFN_WDFREGISTRYASSIGNVALUE, DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, wdf.wdfregistryassignvalue, wdfregistry/WdfRegistryAssignValue, kmdf.wdfregistryassignvalue
+ms.keywords: wdf.wdfregistryassignvalue, DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, PFN_WDFREGISTRYASSIGNVALUE, wdfregistry/WdfRegistryAssignValue, kmdf.wdfregistryassignvalue, WdfRegistryAssignValue, WdfRegistryAssignValue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ NTSTATUS WdfRegistryAssignValue(
 
 
 
-#### - Key [in]
+### -param Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a value name. 
 
 
-#### - ValueType [in]
+### -param ValueType [in]
 
 A value that identifies the data type. For a list of data type values, see the <b>Type</b> member of <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
-#### - ValueLength [in]
+### -param ValueLength [in]
 
 The length, in bytes, of the buffer that <i>Value</i> points to.
 
 
-#### - Value [in]
+### -param Value [in]
 
 A pointer to a buffer that contains driver-supplied data.
 
@@ -166,19 +166,19 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
-
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

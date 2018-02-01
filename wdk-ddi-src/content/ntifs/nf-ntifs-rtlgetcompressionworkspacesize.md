@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f0e856f8-9c01-4219-b521-ab4a5c9bc35c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlGetCompressionWorkSpaceSize, ntifs/RtlGetCompressionWorkSpaceSize, ifsk.rtlgetcompressionworkspacesize, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers], rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml
+ms.keywords: ntifs/RtlGetCompressionWorkSpaceSize, ifsk.rtlgetcompressionworkspacesize, RtlGetCompressionWorkSpaceSize, rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS RtlGetCompressionWorkSpaceSize(
 
 
 
-#### - CompressionFormatAndEngine [in]
+### -param CompressionFormatAndEngine [in]
 
 Bitmask specifying the compression format and engine type. This parameter must be set to one of the following bitwise OR combinations:
 <ul>
@@ -150,12 +150,12 @@ Not supported by this function.
 </table> 
 
 
-#### - CompressBufferWorkSpaceSize [out]
+### -param CompressBufferWorkSpaceSize [out]
 
 A pointer to a caller-allocated buffer receiving the size, in bytes, required to compress a buffer. This value is used to determine the correct size of <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>'s <i>WorkSpace</i> buffer.
 
 
-#### - CompressFragmentWorkSpaceSize [out]
+### -param CompressFragmentWorkSpaceSize [out]
 
 A pointer to a caller-allocated buffer receiving the size, in bytes, required to decompress a compressed buffer to a fragment. This value is used to determine the correct size of <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>'s <i>WorkSpace</i> buffer. Note that the <b>RtlCompressFragment</b> function does not currently exist.
 
@@ -242,13 +242,13 @@ To decompress only a portion of a compressed buffer (that is, a "fragment" of th
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
-
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
 
 <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
+
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a84dffce-977e-412a-a12a-e0e156b943ac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortRegistryFreeBuffer routine [Storage Devices], atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, AtaPortRegistryFreeBuffer, storage.ataportregistryfreebuffer, irb/AtaPortRegistryFreeBuffer
+ms.keywords: atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, storage.ataportregistryfreebuffer, AtaPortRegistryFreeBuffer routine [Storage Devices], irb/AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID AtaPortRegistryFreeBuffer(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the buffer to free. 
 

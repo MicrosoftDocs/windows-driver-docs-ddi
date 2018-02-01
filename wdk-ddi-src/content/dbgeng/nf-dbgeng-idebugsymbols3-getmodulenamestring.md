@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4264f5e1-08f5-4878-9e10-b98859043515
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleNameString method [Windows Debugging], GetModuleNameString method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleNameString method, GetModuleNameString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, GetModuleNameString, IDebugSymbols3::GetModuleNameString, IDebugSymbols2::GetModuleNameString, IDebugSymbols2 interface [Windows Debugging], GetModuleNameString method, dbgeng/IDebugSymbols3::GetModuleNameString, IDebugSymbols3, dbgeng/IDebugSymbols2::GetModuleNameString, debugger.getmodulenamestring
+ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetModuleNameString method, GetModuleNameString method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetModuleNameString, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, IDebugSymbols2::GetModuleNameString, GetModuleNameString method [Windows Debugging], IDebugSymbols3 interface, GetModuleNameString, IDebugSymbols3::GetModuleNameString, dbgeng/IDebugSymbols2::GetModuleNameString, IDebugSymbols3 interface [Windows Debugging], GetModuleNameString method, debugger.getmodulenamestring, IDebugSymbols3, GetModuleNameString method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ HRESULT GetModuleNameString(
 
 
 
-#### - Which [in]
+### -param Which [in]
 
 Specifies which of the module's names to return, possible values are:
 <table>
@@ -134,27 +134,27 @@ The mapped image name.  In most cases, this is <b>NULL</b>. If the debugger is m
 </table> 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
 
-#### - Base [in]
+### -param Base [in]
 
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the name of the module.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 

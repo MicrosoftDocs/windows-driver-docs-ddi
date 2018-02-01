@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, _DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation
+ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], DXGKARGCB_MAPCONTEXTALLOCATION, _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _DXGKARGCB_MAPCONTEXTALLOCATION {
 
 
 
-#### - BaseAddress
+### -field BaseAddress
 
 (optional) If non-NULL, the video memory manager will attempt to use this address as the base address for the mapping. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, the call will fail. When this parameter is non-NULL, <b>MinimumAddress</b> and <b>MaximumAddress</b> are ignored.
 
@@ -84,7 +84,7 @@ If NULL is specified, the video memory manager will pick the base address for th
 
 
 
-#### - MinimumAddress
+### -field MinimumAddress
 
 (optional) Specifies the minimum GPU virtual address to consider for the mapped range. 
 
@@ -93,7 +93,7 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
 
 
-#### - MaximumAddress
+### -field MaximumAddress
 
 Specifies the maximum GPU virtual address to consider for the mapped range. The video memory manager will guarantee that <b>BaseAddress</b>+<b>Size</b> &lt;= <b>MaximumAddress</b>. If this is set to <b>NULL</b> the video memory manager will not apply any limit.
 
@@ -102,36 +102,36 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
 
 
-#### - hAllocation
+### -field hAllocation
 
 Handle to the allocation being mapped into the GPU virtual address space. This is a DirectX graphics kernel  handle, returned by <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.
 
 
-#### - OffsetInPages
+### -field OffsetInPages
 
 Specifies the offset, in 4KB pages, to the starting page within the specified allocation that must be mapped.
 
 
-#### - SizeInPages
+### -field SizeInPages
 
 Specifies the size of the range to map in number of 4KB pages.
 
 
-#### - Protection
+### -field Protection
 
 Specifies the protection on the GPU virtual address that is mapped. 
 
 
-#### - DriverProtection
+### -field DriverProtection
 
 Specifies the driver protection parameters.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md">DxgkCbMapContextAllocation</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
 
  
 

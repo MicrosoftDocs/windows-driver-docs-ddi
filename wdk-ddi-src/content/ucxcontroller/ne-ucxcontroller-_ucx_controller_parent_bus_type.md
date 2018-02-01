@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FD78074D-E128-4085-A178-0133C9256E42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerParentBusTypePci, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], buses.ucx_controller_parent_bus_type, _UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, UCX_CONTROLLER_PARENT_BUS_TYPE, UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypePci, UcxControllerParentBusTypeAcpi, ucxcontroller/UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypeAcpi
+ms.keywords: ucxcontroller/UcxControllerParentBusTypeCustom, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, UcxControllerParentBusTypeAcpi, UcxControllerParentBusTypePci, UCX_CONTROLLER_PARENT_BUS_TYPE, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], buses.ucx_controller_parent_bus_type, UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypeAcpi, ucxcontroller/UcxControllerParentBusTypePci, _UCX_CONTROLLER_PARENT_BUS_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _UCX_CONTROLLER_PARENT_BUS_TYPE {
 
 
 
-#### - UcxControllerParentBusTypeCustom
+### -field UcxControllerParentBusTypeCustom
 
 Custom bus type.
 
 
-#### - UcxControllerParentBusTypePci
+### -field UcxControllerParentBusTypePci
 
 Parent bus is PCI.
 
 
-#### - UcxControllerParentBusTypeAcpi
+### -field UcxControllerParentBusTypeAcpi
 
 Parent is ACPI.
 

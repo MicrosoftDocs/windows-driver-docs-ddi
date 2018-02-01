@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a80d361e-81d3-483c-8ddb-d5e5a69c8ba4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG, kernel.read_register_buffer_ulong, k103_8349c675-ef3b-441a-b11c-730cc43ee09a.xml, READ_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.read_register_buffer_ulong, READ_REGISTER_BUFFER_ULONG, wdm/READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_8349c675-ef3b-441a-b11c-730cc43ee09a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID READ_REGISTER_BUFFER_ULONG(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a buffer into which an array of ULONG values is read.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to be read into the buffer. 
 

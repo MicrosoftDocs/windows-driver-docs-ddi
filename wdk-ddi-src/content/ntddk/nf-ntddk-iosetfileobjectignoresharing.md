@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 14863379-0639-4D24-AFA4-AE2196328B87
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ntddk/IoSetFileObjectIgnoreSharing, ifsk.iosetfileobjectignoresharing
+ms.keywords: IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ntddk/IoSetFileObjectIgnoreSharing, ifsk.iosetfileobjectignoresharing, IoSetFileObjectIgnoreSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS IoSetFileObjectIgnoreSharing(
 
 
 
-#### - FileObject
+### -param FileObject
 
 Pointer to a file object for the file.
 

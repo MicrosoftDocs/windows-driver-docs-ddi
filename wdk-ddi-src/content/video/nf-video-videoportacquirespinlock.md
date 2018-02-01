@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortAcquireSpinLock, display.videoportacquirespinlock, VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml
+ms.keywords: display.videoportacquirespinlock, VideoPortAcquireSpinLock, VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, video/VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID VideoPortAcquireSpinLock(
 
 
 
-#### - HwDeviceExtension [in, out]
+### -param HwDeviceExtension [in, out]
 
 Pointer to the miniport driver's device extension.
 
@@ -80,7 +80,7 @@ Pointer to the miniport driver's device extension.
 TBD
 
 
-#### - OldIrql [out]
+### -param OldIrql [out]
 
 Pointer to a memory location that will receive the current IRQL.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5A52543B-F0EA-4318-A66F-F9FA60FF94F5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxregistercomponentperfstates, PO_FX_FLAG_PERF_QUERY_ON_F0, wdm/PoFxRegisterComponentPerfStates, PoFxRegisterComponentPerfStates, PoFxRegisterComponentPerfStates routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_PERF_QUERY_ON_ALL_IDLE_STATES, PO_FX_FLAG_PERF_PEP_OPTIONAL
+ms.keywords: kernel.pofxregistercomponentperfstates, PoFxRegisterComponentPerfStates, PO_FX_FLAG_PERF_PEP_OPTIONAL, wdm/PoFxRegisterComponentPerfStates, PO_FX_FLAG_PERF_QUERY_ON_F0, PO_FX_FLAG_PERF_QUERY_ON_ALL_IDLE_STATES, PoFxRegisterComponentPerfStates routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS PoFxRegisterComponentPerfStates(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-#### - Component [in]
+### -param Component [in]
 
 The index that identifies the component whose performance states will be managed. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 The flags that modify the behavior of the performance state registration. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_PERF_<i>XXX</i></b> bits:
 <table>
@@ -127,17 +127,17 @@ For some devices, the PEP may need to a place a performance state set for a comp
 </table> 
 
 
-#### - ComponentPerfStateCallback [in]
+### -param ComponentPerfStateCallback [in]
 
 A pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a> routine. This routine is called when PoFx has completed logging and notifying the PEP about a performance state transition that is initiated by the driver’s call to <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a> or <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>. This callback may be the same for all components and all devices; PoFx provides the device handle and component index in each completion call.
 
 
-#### - InputStateInfo [in]
+### -param InputStateInfo [in]
 
 If the driver provides performance state info, this parameter contains a pointer to a driver allocated <a href="..\wdm\ns-wdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a> structure that provides performance state information to PoFx. If the driver requires performance state information from the PEP, this parameter must be set to NULL. 
 
 
-#### - OutputStateInfo [out]
+### -param OutputStateInfo [out]
 
 If the driver requires performance state information from the PEP, after a successful registration this parameter contains a pointer to a <a href="..\wdm\ns-wdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a> structure that provides performance state information defined by the PEP. If the driver provides performance state info, this parameter must be set to NULL. 
 
@@ -202,13 +202,13 @@ If the driver requires the PEP to provide performance state information, the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
-
 <a href="..\wdm\ns-wdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 47C0C369-B31B-4291-A420-A1E75BA990CF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, display.d3d12ddi_video_format_description, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices]
+ms.keywords: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices], D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, display.d3d12ddi_video_format_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 {
 
 
 
-#### - Format
+### -field Format
 
 The format of the data.  For more information, see the  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> enumeration.
 
 
-#### - ColorSpace
+### -field ColorSpace
 
 The color space of the data.  For more information, see the <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> enumeration.
 

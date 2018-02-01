@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3104cccf-03ae-4ff9-8cfe-86bd3719a47f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetFileContext, ifsk.fltgetfilecontext, FltGetFileContext, FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml, FltGetFileContext routine [Installable File System Drivers]
+ms.keywords: FltGetFileContext, fltkernel/FltGetFileContext, ifsk.fltgetfilecontext, FltGetFileContext routine [Installable File System Drivers], FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltGetFileContext(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - Context [out]
+### -param Context [out]
 
 Pointer to a caller-allocated variable that receives the address of the context. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -140,21 +140,21 @@ To determine whether file contexts are supported for a given file, call <a href=
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontextsex.md">FltSupportsFileContextsEx</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontextsex.md">FltSupportsFileContextsEx</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontexts.md">FltSupportsFileContexts</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
 
  
 

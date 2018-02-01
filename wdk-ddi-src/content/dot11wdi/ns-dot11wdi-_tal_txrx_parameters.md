@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 44f5c907-7368-43ea-b581-3b9ecf25c611
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.tal_txrx_parameters, dot11wdi/PTAL_TXRX_PARAMETERS, *PTAL_TXRX_PARAMETERS, TAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS, TAL_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], PTAL_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _TAL_TXRX_PARAMETERS, dot11wdi/TAL_TXRX_PARAMETERS
+ms.keywords: TAL_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.tal_txrx_parameters, dot11wdi/PTAL_TXRX_PARAMETERS, *PTAL_TXRX_PARAMETERS, TAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS, dot11wdi/TAL_TXRX_PARAMETERS, _TAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _TAL_TXRX_PARAMETERS {
 
 
 
-#### - MaxOutstandingTransfers
+### -field MaxOutstandingTransfers
 
 Specifies the maximum number of outstanding  frame transfers to the target. No further frames are transferred until a transfer complete indication is received from the target/TAL.
 

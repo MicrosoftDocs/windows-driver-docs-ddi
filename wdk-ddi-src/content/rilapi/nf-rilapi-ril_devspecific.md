@@ -73,19 +73,19 @@ HRESULT  RIL_DevSpecific(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - lpbParams
+### -param lpbParams
 
 
 
-#### - dwSize
+### -param dwSize
 
 
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_GeofenceState_Exited, GNSS_GeofenceState_Unknown, GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GEOFENCE_STATE, GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Entered, sensors.gnss_geofence_state, gnssdriver/GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Unknown, GNSS_GEOFENCE_STATE enumeration [Sensor Devices]
+ms.keywords: GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Entered, GNSS_GeofenceState_Unknown, GNSS_GEOFENCE_STATE, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, sensors.gnss_geofence_state, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - GNSS_GeofenceState_Unknown
+### -field GNSS_GeofenceState_Unknown
 
 The state of the geofence is unknown.
 
 
-#### - GNSS_GeofenceState_Entered
+### -field GNSS_GeofenceState_Entered
 
 The geofence has been entered.
 
 
-#### - GNSS_GeofenceState_Exited
+### -field GNSS_GeofenceState_Exited
 
 The geofence has been exited.
 

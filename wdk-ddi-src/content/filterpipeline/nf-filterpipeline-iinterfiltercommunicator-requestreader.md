@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IInterFilterCommunicator, RequestReader, RequestReader method [Print Devices], IInterFilterCommunicator interface, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, IInterFilterCommunicator::RequestReader, print.iinterfiltercommunicator_requestreader, filterpipeline/IInterFilterCommunicator::RequestReader, IInterFilterCommunicator interface [Print Devices], RequestReader method, RequestReader method [Print Devices]
+ms.keywords: IInterFilterCommunicator::RequestReader, RequestReader, print.iinterfiltercommunicator_requestreader, IInterFilterCommunicator interface [Print Devices], RequestReader method, RequestReader method [Print Devices], IInterFilterCommunicator interface, filterpipeline/IInterFilterCommunicator::RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, IInterFilterCommunicator, RequestReader method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT RequestReader(
 
 
 
-#### - ppIReader [out]
+### -param ppIReader [out]
 
 A variable that receives the reader interface object when <b>RequestReader</b> retrieves.
 

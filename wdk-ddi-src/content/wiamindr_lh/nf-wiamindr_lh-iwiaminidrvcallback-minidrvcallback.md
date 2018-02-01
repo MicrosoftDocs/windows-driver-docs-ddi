@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MiniDrvCallback, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack interface, IWiaMiniDrvCallBack, image.iwiaminidrvcallback_minidrvcallback, IWiaMiniDrvCallBack interface [Imaging Devices], MiniDrvCallback method, CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, MiniDrvCallback method [Imaging Devices], wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback
+ms.keywords: MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack interface, MiniDrvCallback, CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback method [Imaging Devices], wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback, IWiaMiniDrvCallBack, image.iwiaminidrvcallback_minidrvcallback, IWiaMiniDrvCallBack interface [Imaging Devices], MiniDrvCallback method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ HRESULT MiniDrvCallback(
 
 
 
-#### - lReason [in]
+### -param lReason [in]
 
 Specifies a constant value that designates a callback status message. This value is used to determine the purpose of the callback, and can be one of the following values:
 <table>
@@ -165,7 +165,7 @@ Indicates that the data transfer is complete.
 </table> 
 
 
-#### - lStatus [in]
+### -param lStatus [in]
 
 Specifies the status of the transfer. This parameter is a bitwise OR of the following values:
 <table>
@@ -206,27 +206,27 @@ Transferring data from the minidriver to the WIA service.
 </table> 
 
 
-#### - lPercentComplete [in]
+### -param lPercentComplete [in]
 
 Specifies the current percentage of data transferred.
 
 
-#### - lOffset [in]
+### -param lOffset [in]
 
 Specifies the current offset (in bytes) into the transfer buffer from the beginning of the buffer.
 
 
-#### - lLength [in]
+### -param lLength [in]
 
 Specifies the number of bytes contained in the transfer.
 
 
-#### - pTranCtx [in]
+### -param pTranCtx [in]
 
 Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the data transfer values.
 
 
-#### - lReserved [in]
+### -param lReserved [in]
 
 Reserved. Set to zero.
 
@@ -249,9 +249,9 @@ IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the applic
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvcallback.md">IWiaMiniDrvCallBack</a>
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
  
 

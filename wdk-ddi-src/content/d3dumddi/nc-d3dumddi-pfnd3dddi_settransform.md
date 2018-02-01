@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY SetTransform(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -97,9 +97,9 @@ __checkReturn HRESULT APIENTRY SetTransform(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_settransform.md">D3DDDIARG_SETTRANSFORM</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_settransform.md">D3DDDIARG_SETTRANSFORM</a>
 
  
 

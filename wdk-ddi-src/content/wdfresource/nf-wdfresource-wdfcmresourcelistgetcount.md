@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f1a38276-4964-422d-9b3c-8450b1028f27
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, wdf.wdfcmresourcelistgetcount, WdfCmResourceListGetCount method, WdfCmResourceListGetCount, wdfresource/WdfCmResourceListGetCount, kmdf.wdfcmresourcelistgetcount, PFN_WDFCMRESOURCELISTGETCOUNT
+ms.keywords: wdf.wdfcmresourcelistgetcount, kmdf.wdfcmresourcelistgetcount, wdfresource/WdfCmResourceListGetCount, DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, WdfCmResourceListGetCount method, WdfCmResourceListGetCount, PFN_WDFCMRESOURCELISTGETCOUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ ULONG WdfCmResourceListGetCount(
 
 
 
-#### - List [in]
+### -param List [in]
 
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 

@@ -69,17 +69,17 @@ NTSTATUS PsInsertSiloContext(
 
 
 
-#### - Silo [in]
+### -param Silo [in]
 
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
 
-#### - ContextSlot [in]
+### -param ContextSlot [in]
 
 A slot allocated by the <a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> routine. 
 
 
-#### - SiloContext [in]
+### -param SiloContext [in]
 
 A pointer to the object created by the <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>. 
 

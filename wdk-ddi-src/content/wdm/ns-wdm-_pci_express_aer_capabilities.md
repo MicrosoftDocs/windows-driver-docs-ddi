@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7cb25991-4e82-4da2-9d1f-fadc035b25a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_AER_CAPABILITIES union [Buses], wdm/PCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], PPCI_EXPRESS_AER_CAPABILITIES, _PCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, *PPCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES, PCI.pci_express_aer_capabilities
+ms.keywords: wdm/PCI_EXPRESS_AER_CAPABILITIES, PCI.pci_express_aer_capabilities, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], *PPCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, PCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES union [Buses], _PCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,27 +83,27 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
 
 ### -field DUMMYSTRUCTNAME.FirstErrorPointer
 
- 
+The bit position of the first error that was reported in the PCIe uncorrectable error status register.
 
 
 ### -field DUMMYSTRUCTNAME.ECRCGenerationCapable
 
- 
+A single bit that indicates that the device is capable of generating end-to-end cyclic redundancy checks (ECRC).
 
 
 ### -field DUMMYSTRUCTNAME.ECRCGenerationEnable
 
- 
+A single bit that indicates that ECRC generation is enabled.
 
 
 ### -field DUMMYSTRUCTNAME.ECRCCheckCapable
 
- 
+A single bit that indicates that the device is capable of checking ECRC.
 
 
 ### -field DUMMYSTRUCTNAME.ECRCCheckEnable
 
- 
+A single bit that indicates that ECRC checking is enabled.
 
 
 ### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingCapable
@@ -123,42 +123,12 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved.
 
 
-#### - AsULONG
+### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES structure.
-
-
-#### - FirstErrorPointer
-
-The bit position of the first error that was reported in the PCIe uncorrectable error status register.
-
-
-#### - ECRCGenerationCapable
-
-A single bit that indicates that the device is capable of generating end-to-end cyclic redundancy checks (ECRC).
-
-
-#### - ECRCGenerationEnable
-
-A single bit that indicates that ECRC generation is enabled.
-
-
-#### - ECRCCheckCapable
-
-A single bit that indicates that the device is capable of checking ECRC.
-
-
-#### - ECRCCheckEnable
-
-A single bit that indicates that ECRC checking is enabled.
-
-
-#### - Reserved
-
-Reserved.
 
 
 ## -remarks
@@ -174,9 +144,9 @@ A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="https://ms
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 08FBBC1D-EB2A-4178-9245-C3FF60424F95
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT function [Serial Ports], serports.sercx2_pio_receive_config_init, SERCX2_PIO_RECEIVE_CONFIG_INIT
+ms.keywords: 2/SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT, serports.sercx2_pio_receive_config_init, SERCX2_PIO_RECEIVE_CONFIG_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VOID SERCX2_PIO_RECEIVE_CONFIG_INIT(
 
 
 
-#### - PioReceiveConfig [out]
+### -param PioReceiveConfig [out]
 
 A pointer to the <a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a> structure that is to be initialized.
 
 
-#### - EvtSerCx2PioReceiveReadBuffer [in]
+### -param EvtSerCx2PioReceiveReadBuffer [in]
 
 The value to load into the <b>EvtSerCx2PioReceiveReadBuffer</b> member of the <b>SERCX2_PIO_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>.
 
 
-#### - EvtSerCx2PioReceiveEnableReadyNotification [in]
+### -param EvtSerCx2PioReceiveEnableReadyNotification [in]
 
 The value to load into the <b>EvtSerCx2PioReceiveEnableReadyNotification</b> member of the <b>SERCX2_PIO_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>.
 
 
-#### - EvtSerCx2PioReceiveCancelReadyNotification [in]
+### -param EvtSerCx2PioReceiveCancelReadyNotification [in]
 
 The value to load into the <b>EvtSerCx2PioReceiveCancelReadyNotification</b> member of the <b>SERCX2_PIO_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>.
 

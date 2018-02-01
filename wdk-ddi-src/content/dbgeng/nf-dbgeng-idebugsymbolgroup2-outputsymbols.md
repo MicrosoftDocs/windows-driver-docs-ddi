@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fe99cc4-35d9-432a-aed9-074d40438976
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup::OutputSymbols, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, OutputSymbols, IDebugSymbolGroup2, IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup2::OutputSymbols, debugger.outputsymbols, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup::OutputSymbols
+ms.keywords: dbgeng/IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup2, OutputSymbols method [Windows Debugging], IDebugSymbolGroup::OutputSymbols, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, OutputSymbols, IDebugSymbolGroup2::OutputSymbols, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, debugger.outputsymbols, IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup::OutputSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT OutputSymbols(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 The output control to use when printing the symbols' information.  For more information about possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 The flags that determine what information is printed for each symbol.  By default, the output includes the symbol's name, offset, value, and type.  The format for the output is as follows:
 
@@ -131,12 +131,12 @@ Suppress output of the symbol's type.
 </table> 
 
 
-#### - Start [in]
+### -param Start [in]
 
 The index of the first symbol in the symbol group to print.  The index of a symbol is an identification number. This number ranges from zero through the number of symbols in the symbol group minus one.
 
 
-#### - Count [in]
+### -param Count [in]
 
 The number of symbols to print.
 
@@ -175,11 +175,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b120f3c-43d2-447a-9959-0788d7decf50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure [Display Devices], DXGK_GRAPHICSPOWER_REGISTER_INPUT, display.dxgk-graphicspower-register-input-v-1-1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure pointer [Display Devices]
+ms.keywords: d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure [Display Devices], d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, display.dxgk-graphicspower-register-input-v-1-1, PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure pointer [Display Devices], *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 {
 
 
 
-#### - Version
+### -field Version
 
 The current version being used.
 
 
-#### - PrivateHandle
+### -field PrivateHandle
 
 A private handle to the device.
 
 
-#### - PowerNotificationCb
+### -field PowerNotificationCb
 
 Issues a power notification.
 
 
-#### - RemovalNotificationCb
+### -field RemovalNotificationCb
 
 Issues a removal notification.
 
 
-#### - FStateNotificationCb
+### -field FStateNotificationCb
 
 Issues a state notification.
 

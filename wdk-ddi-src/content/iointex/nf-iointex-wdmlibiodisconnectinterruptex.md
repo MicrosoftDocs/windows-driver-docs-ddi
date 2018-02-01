@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B6F8663C-3A13-45DA-80FE-CC8B9194D083
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: iointex/IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, kernel.wdmlibiodisconnectinterruptex
+ms.keywords: kernel.wdmlibiodisconnectinterruptex, iointex/IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx, IoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID WdmlibIoDisconnectInterruptEx(
 
 
 
-#### - Parameters [in, out]
+### -param Parameters [in, out]
 
 Pointer to an <a href="..\wdm\ns-wdm-_io_disconnect_interrupt_parameters.md">IO_DISCONNECT_INTERRUPT_PARAMETERS</a> structure that contains the connection context for  the interrupt being disconnected.
 

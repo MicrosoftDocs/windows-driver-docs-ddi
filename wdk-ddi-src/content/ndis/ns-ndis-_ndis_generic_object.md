@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e7af434-a6ad-44c8-a33d-adebb53b8e1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT, _NDIS_GENERIC_OBJECT, ndis_object_ref_19f8706c-633c-4c32-9d86-17edc4e2ad12.xml, ndis/PNDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_GENERIC_OBJECT structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_generic_object, ndis/NDIS_GENERIC_OBJECT
+ms.keywords: NDIS_GENERIC_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT, ndis/PNDIS_GENERIC_OBJECT, ndis/NDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT, _NDIS_GENERIC_OBJECT, ndis_object_ref_19f8706c-633c-4c32-9d86-17edc4e2ad12.xml, PNDIS_GENERIC_OBJECT structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_generic_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _NDIS_GENERIC_OBJECT {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,23 +83,23 @@ The
      sizeof(NDIS_GENERIC_OBJECT).
 
 
-#### - Caller
+### -field Caller
 
 Reserved for NDIS.
 
 
-#### - CallersCaller
+### -field CallersCaller
 
 Reserved for NDIS.
 
 
-#### - DriverObject
+### -field DriverObject
 
 The driver object that is associated with the generic object. If there is no driver object, this
      member is <b>NULL</b>. This is the value passed at the 
      <i>DriverObject</i> parameter of the 
-     <mshelp:link keywords="netvista.ndisallocategenericobject" tabindex="0"><b>
-     NdisAllocateGenericObject</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">
+     NdisAllocateGenericObject</a> function.
 
 
 ## -remarks
@@ -127,9 +127,9 @@ Use the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
 
 <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO, storage.storportupdateadaptermaxio, StorPortUpdateAdapterMaxIO function [Storage Devices]
+ms.keywords: StorPortUpdateAdapterMaxIO, storport/StorPortUpdateAdapterMaxIO, storage.storportupdateadaptermaxio, StorPortUpdateAdapterMaxIO function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ ULONG StorPortUpdateAdapterMaxIO(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 A pointer to miniport's device extension.
 
 
-#### - MaxIoCount
+### -param MaxIoCount
 
 Maximum IO's supported by the adapter.
 

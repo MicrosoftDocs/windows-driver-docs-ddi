@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1d5bbd9-45e3-4802-ab9b-77ff6bdcd6ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_PEER_INFO, windot11/DOT11_PEER_INFO, netvista.dot11_peer_info, *PDOT11_PEER_INFO, _DOT11_PEER_INFO, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, windot11/PDOT11_PEER_INFO, DOT11_PEER_INFO
+ms.keywords: "*PDOT11_PEER_INFO, PDOT11_PEER_INFO, Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, _DOT11_PEER_INFO, windot11/PDOT11_PEER_INFO, netvista.dot11_peer_info, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], DOT11_PEER_INFO, windot11/DOT11_PEER_INFO, PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,19 +81,19 @@ typedef struct _DOT11_PEER_INFO {
 
 
 
-#### - MacAddress
+### -field MacAddress
 
 The media access control (MAC) address of the peer station within an independent BSS (IBSS)
      network.
 
 
-#### - usCapabilityInformation
+### -field usCapabilityInformation
 
 The 802.11 Capability Information field from the beacon or probe response frames that the 802.11
      station most recently received from the peer.
 
 
-#### - AuthAlgo
+### -field AuthAlgo
 
 The authentication algorithm that the 802.11 station resolved with the peer station during the
      association operation. For more information about the data type for the 
@@ -104,7 +104,7 @@ The authentication algorithm that the 802.11 station resolved with the peer stat
 This member is not defined if the peer is not associated.
 
 
-#### - UnicastCipherAlgo
+### -field UnicastCipherAlgo
 
 The unicast cipher algorithm that the 802.11 station resolved with the peer station during the
      association operation. For more information about the data type for the 
@@ -115,7 +115,7 @@ The unicast cipher algorithm that the 802.11 station resolved with the peer stat
 This member is not defined if the peer is not associated.
 
 
-#### - MulticastCipherAlgo
+### -field MulticastCipherAlgo
 
 The multicast cipher algorithm that the 802.11 station resolved with the peer station during the
      association operation. For more information about the data type for the 
@@ -126,7 +126,7 @@ The multicast cipher algorithm that the 802.11 station resolved with the peer st
 This member is not defined if the peer is not associated.
 
 
-#### - bWpsEnabled
+### -field bWpsEnabled
 
 A Boolean value that indicates whether WiFi Protected Setup (WPS) is enabled for the peer station.
      If <b>TRUE</b>, WPS is enabled, and the authentication and cipher algorithms that are used by the peer might be
@@ -136,7 +136,7 @@ A Boolean value that indicates whether WiFi Protected Setup (WPS) is enabled for
 This member should not be used if the peer is not associated.
 
 
-#### - usListenInterval
+### -field usListenInterval
 
 A USHORT value that defines the 802.11 Listen Interval field that was obtained from the
      association request.
@@ -145,7 +145,7 @@ A USHORT value that defines the 802.11 Listen Interval field that was obtained f
 This member has a value of zero if the peer is not associated.
 
 
-#### - ucSupportedRates
+### -field ucSupportedRates
 
 A UCHAR value that specifies the data rates supported by the peer station. These rates are based
      on the 802.11 Supported Rates IE from the beacon or probe response frames that the 802.11 station most
@@ -155,13 +155,13 @@ A UCHAR value that specifies the data rates supported by the peer station. These
 Each entry in the 
      <b>ucPeerSupportedRates</b> array is the value of an index within the table of data rates returned
      through a query of 
-     <mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-     OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>. The index value must be between 2 and 127.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+     OID_DOT11_DATA_RATE_MAPPING_TABLE</a>. The index value must be between 2 and 127.
 
 This member has a value of zero if the peer is not associated.
 
 
-#### - usAssociationID
+### -field usAssociationID
 
 A USHORT value that specifies the 802.11 Association ID field from the association or
      re-association response frames that the 802.11 station received from the AP.
@@ -170,7 +170,7 @@ A USHORT value that specifies the 802.11 Association ID field from the associati
 This member has a value of 0xFFFF if the peer is not associated.
 
 
-#### - AssociationState
+### -field AssociationState
 
 A 
      <a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>-type value
@@ -186,14 +186,14 @@ In the
      <b>dot11_assoc_state_auth_unassoc</b> enumeration value may not be applicable.
 
 
-#### - PowerMode
+### -field PowerMode
 
 A 
      <a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>-type value that describes
      the latest power management mode of the peer station.
 
 
-#### - liAssociationUpTime
+### -field liAssociationUpTime
 
 A LARGEINTEGER value that specifies the timestamp when the 802.11 association procedure successfully
      completed. The miniport driver calls 
@@ -204,7 +204,7 @@ A LARGEINTEGER value that specifies the timestamp when the 802.11 association pr
 This member has a value of zero if the peer is not associated.
 
 
-#### - Statistics
+### -field Statistics
 
 The statistics counters for data traffic, defined by the 
      <a href="..\windot11\ns-windot11-_dot11_peer_statistics.md">DOT11_PEER_STATISTICS</a> structure.
@@ -217,15 +217,15 @@ This member has a value of zero if the peer is not associated.
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
-
-<a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>
-
-<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
+<a href="..\windot11\ns-windot11-_dot11_peer_statistics.md">DOT11_PEER_STATISTICS</a>
 
 <a href="..\windot11\ns-windot11-_dot11_peer_info_list.md">DOT11_PEER_INFO_LIST</a>
 
-<a href="..\windot11\ns-windot11-_dot11_peer_statistics.md">DOT11_PEER_STATISTICS</a>
+<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
+
+<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
+
+<a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>
 
  
 

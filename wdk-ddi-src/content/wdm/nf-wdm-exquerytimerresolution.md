@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExQueryTimerResolution, kernel.exquerytimerresolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], ExQueryTimerResolution
+ms.keywords: ExQueryTimerResolution, kernel.exquerytimerresolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], wdm/ExQueryTimerResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ExQueryTimerResolution(
 
 
 
-#### - MaximumTime [out]
+### -param MaximumTime [out]
 
 A pointer to a location to which the routine writes the maximum time interval, in 100-nanosecond units, between successive ticks of the system clock. A <i>tick</i> is an interrupt caused by the system clock timer.
 
 
-#### - MinimumTime [out]
+### -param MinimumTime [out]
 
 A pointer to a location to which the routine writes the minimum time interval, in 100-nanosecond units, between successive ticks of the system clock.
 
 
-#### - CurrentTime [out]
+### -param CurrentTime [out]
 
 A pointer to a location to which the routine writes the current time interval, in 100-nanosecond units, between successive ticks of the system clock.
 
@@ -104,9 +104,9 @@ When your driver calls a routine such as <a href="..\wdm\nf-wdm-kesettimerex.md"
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
 <a href="..\wdm\nf-wdm-exsettimerresolution.md">ExSetTimerResolution</a>
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
  
 

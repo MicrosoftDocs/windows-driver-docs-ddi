@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_TIMESTAMP, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], _WHEA_TIMESTAMP, whea.whea_timestamp, WHEA_TIMESTAMP union [WHEA Drivers and Applications], *PWHEA_TIMESTAMP, WHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP
+ms.keywords: ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], whea.whea_timestamp, *PWHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, PWHEA_TIMESTAMP, WHEA_TIMESTAMP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,97 +85,52 @@ typedef union _WHEA_TIMESTAMP {
 
 ### -field DUMMYSTRUCTNAME.Seconds
 
- 
+The number of seconds past the minute.
 
 
 ### -field DUMMYSTRUCTNAME.Minutes
 
- 
+The number of minutes past the hour.
 
 
 ### -field DUMMYSTRUCTNAME.Hours
 
- 
+The hour in the day.
 
 
 ### -field DUMMYSTRUCTNAME.Precise
 
- 
-
-
-### -field DUMMYSTRUCTNAME.Reserved
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Day
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Month
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Year
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Century
-
- 
-
-
-#### - AsLARGE_INTEGER
-
-A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
-
-
-#### - Seconds
-
-The number of seconds past the minute.
-
-
-#### - Minutes
-
-The number of minutes past the hour.
-
-
-#### - Hours
-
-The hour in the day.
-
-
-#### - Precise
-
 If this member is set to 1, the timestamp correlates precisely to the time of the error event.
 <div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div><div> </div>
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - Day
+### -field DUMMYSTRUCTNAME.Day
 
 The day of the month.
 
 
-#### - Month
+### -field DUMMYSTRUCTNAME.Month
 
 The month of the year.
 
 
-#### - Year
+### -field DUMMYSTRUCTNAME.Year
 
 The year within the century.
 
 
-#### - Century
+### -field DUMMYSTRUCTNAME.Century
 
 The century.
+
+
+### -field AsLARGE_INTEGER
+
+A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
 
 
 ## -remarks

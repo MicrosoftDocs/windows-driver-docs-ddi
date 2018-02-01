@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ifsk.fsrtlnotifyvolumeevent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], ntifs/FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent
+ms.keywords: FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent, fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlNotifyVolumeEvent(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for the given volume. 
 
 
-#### - EventCode [in]
+### -param EventCode [in]
 
 Specifies an event code for the event that is occurring. This code can be one of the following values.
 <table>

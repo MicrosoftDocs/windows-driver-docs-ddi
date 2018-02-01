@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetStatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, GetStatus method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::GetStatus, image.istiusd_getstatus, IStiUSD interface [Imaging Devices], GetStatus method, IStiUSD::GetStatus, GetStatus method [Imaging Devices], IStiUSD
+ms.keywords: IStiUSD::GetStatus, IStiUSD interface [Imaging Devices], GetStatus method, IStiUSD, GetStatus method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, GetStatus, GetStatus method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetStatus(
 
 
 
-#### - pDevStatus
+### -param pDevStatus
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure.
 

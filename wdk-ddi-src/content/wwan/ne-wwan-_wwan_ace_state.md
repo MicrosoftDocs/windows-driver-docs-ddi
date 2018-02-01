@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6BF63894-58D6-4C7C-B3D9-D4D9D19A686B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanManualOn, WwanAutoOff, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_ACE_STATE, wwan/WwanManualOn, WwanManualOff, WwanAutoOn, wwan/WwanAutoOff, wwan/WwanAutoOn, _WWAN_ACE_STATE, *PWWAN_ACE_STATE, wwan/WwanManualOff, WWAN_ACE_STATE, netvista.wwan_ace_state
+ms.keywords: WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_ACE_STATE, netvista.wwan_ace_state, *PWWAN_ACE_STATE, wwan/WwanManualOff, wwan/WWAN_ACE_STATE, WwanManualOff, WWAN_ACE_STATE, wwan/WwanAutoOff, WwanManualOn, wwan/WwanAutoOn, WwanAutoOn, WwanAutoOff, wwan/WwanManualOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _WWAN_ACE_STATE {
 
 
 
-#### - WwanAutoOff
+### -field WwanAutoOff
 
 Auto-connect off.
 
 
-#### - WwanAutoOn
+### -field WwanAutoOn
 
 Auto-connect on.
 
 
-#### - WwanManualOff
+### -field WwanManualOff
 
 Manual connect off.
 
 
-#### - WwanManualOn
+### -field WwanManualOn
 
 Manual connect on.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_VideoSample2 structure pointer [Display Devices], DXVA_VideoSample2 structure [Display Devices], DXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, *LPDXVA_VideoSample2, LPDXVA_VideoSample2, dxva/DXVA_VideoSample2, _DXVA_VideoSample2, dxva/LPDXVA_VideoSample2, display.dxva_videosample2
+ms.keywords: display.dxva_videosample2, *LPDXVA_VideoSample2, DXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, LPDXVA_VideoSample2, dxva/LPDXVA_VideoSample2, dxva/DXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], DXVA_VideoSample2 structure [Display Devices], _DXVA_VideoSample2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,56 +78,56 @@ typedef struct _DXVA_VideoSample2 {
 
 
 
-#### - Size
+### -field Size
 
 <b>Only compiles for a 64-bit version of the operating system.</b>
 
 Indicates the size of this structure.
 
 
-#### - Reserved
+### -field Reserved
 
 <b>Only compiles for a 64-bit version of the operating system.</b>
 
 Reserved.
 
 
-#### - rtStart
+### -field rtStart
 
 Specifies the start time of the sample.
 
 
-#### - rtEnd
+### -field rtEnd
 
 Specifies the end time of the sample.
 
 
-#### - SampleFormat
+### -field SampleFormat
 
 Specifies the format of the sample as defined by values of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> enumeration type. 
 
 
-#### - SampleFlags
+### -field SampleFlags
 
 Specifies a collection of flags that indicate changes in the current sample frame from the previous sample frame. This member is a bitwise-OR of one or more of the flags in the <a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a> enumeration type.
 
 
-#### - lpDDSSrcSurface
+### -field lpDDSSrcSurface
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that represents the sample.
 
 
-#### - rcSrc
+### -field rcSrc
 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer and its position on the source surface.
 
 
-#### - rcDst
+### -field rcDst
 
 Specifies a RECT structure that describes the upper-left and lower-right points of a rectangle on the destination surface. These points define the area in which the bit-block transfer should occur and its position on the destination surface.
 
 
-#### - Palette
+### -field Palette
 
 Specifies an array of <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a> structures that represent a complete 16-color palette for palletized video substream pixel formats. The driver uses this palette to composite the substream sample. For nonpalletized pixel formats, the palette is zero and can be ignored.
 
@@ -147,21 +147,21 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-
-<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
+<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
  
 

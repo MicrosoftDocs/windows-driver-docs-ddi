@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7b4fd9ff-09a7-44df-a3e6-0af5d7ea624e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiProviderIsEnabled method, wdfwmi/WdfWmiProviderIsEnabled, PFN_WDFWMIPROVIDERISENABLED, kmdf.wdfwmiproviderisenabled, wdf.wdfwmiproviderisenabled, DFWMIRef_3231e5bd-aa1c-4bf8-92ef-4b6c29308d95.xml, WdfWmiProviderIsEnabled
+ms.keywords: WdfWmiProviderIsEnabled, PFN_WDFWMIPROVIDERISENABLED, DFWMIRef_3231e5bd-aa1c-4bf8-92ef-4b6c29308d95.xml, kmdf.wdfwmiproviderisenabled, wdfwmi/WdfWmiProviderIsEnabled, wdf.wdfwmiproviderisenabled, WdfWmiProviderIsEnabled method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ BOOLEAN WdfWmiProviderIsEnabled(
 
 
 
-#### - WmiProvider [in]
+### -param WmiProvider [in]
 
 A handle to a WMI provider object that the driver obtained by calling <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a> or <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>.
 
 
-#### - ProviderControl [in]
+### -param ProviderControl [in]
 
 A <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WDF_WMI_PROVIDER_CONTROL</a>-typed value that specifies one of the types of control functions (data collection or event notification) that a WMI data provider can support.
 
@@ -104,11 +104,11 @@ A driver that does not provide an <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provi
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
 <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WDF_WMI_PROVIDER_CONTROL</a>
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
  
 

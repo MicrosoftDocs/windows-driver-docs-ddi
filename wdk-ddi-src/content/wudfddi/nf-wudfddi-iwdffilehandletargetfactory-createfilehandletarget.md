@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CreateFileHandleTarget method, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, IWDFFileHandleTargetFactory, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, umdf.iwdffilehandletargetfactory_createfilehandletarget, wdf.iwdffilehandletargetfactory_createfilehandletarget
+ms.keywords: CreateFileHandleTarget method, IWDFFileHandleTargetFactory, CreateFileHandleTarget, wdf.iwdffilehandletargetfactory_createfilehandletarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, umdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT CreateFileHandleTarget(
 
 
 
-#### - hTarget [in]
+### -param hTarget [in]
 
 A handle to the target device. The handle must have been previously opened with the FILE_FLAG_OVERLAPPED flag. For example, FILE_FLAG_OVERLAPPED must have been specified in the <i>dwFlagsAndAttributes</i> parameter of the Microsoft Win32 <b>CreateFile</b> function. 
 
 
-#### - ppTarget [out]
+### -param ppTarget [out]
 
 A pointer to a location that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface of the I/O target object.
 
@@ -141,11 +141,11 @@ For more information about <b>CreateFileHandleTarget</b> and I/O targets, see <a
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md">IWDFFileHandleTargetFactory</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
  
 

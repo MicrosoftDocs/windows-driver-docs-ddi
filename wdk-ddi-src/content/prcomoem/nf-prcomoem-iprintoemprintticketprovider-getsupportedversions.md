@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_getsupportedversions, IPrintOemPrintTicketProvider::GetSupportedVersions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml, GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, GetSupportedVersions
+ms.keywords: print.iprintoemprintticketprovider_getsupportedversions, GetSupportedVersions, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider, GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider::GetSupportedVersions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ STDMETHOD GetSupportedVersions(
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 A handle to the print device.
 
 
-#### - ppVersions [out]
+### -param ppVersions [out]
 
 A pointer to a variable that receives the address of the first element of an array of version numbers. Version numbers in the array can appear in any order. For more information about this parameter, see the following Remarks section.
 
 
-#### - cVersions [out]
+### -param cVersions [out]
 
 A pointer to a variable that receives the number of elements in the array that is pointed to by *<i>ppVersions</i>. 
 

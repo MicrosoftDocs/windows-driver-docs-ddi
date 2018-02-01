@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4787da-2813-4a7a-820a-5c078175aba5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnCompletion method, IRequestCallbackRequestCompletion interface, wdf.irequestcallbackrequestcompletion_oncompletion, OnCompletion method, IRequestCallbackRequestCompletion interface, OnCompletion method, IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion::OnCompletion, wudfddi/IRequestCallbackRequestCompletion::OnCompletion, UMDFRequestObjectRef_b3ec1892-f32f-4c52-80f6-8699a358ea8d.xml, OnCompletion, umdf.irequestcallbackrequestcompletion_oncompletion
+ms.keywords: IRequestCallbackRequestCompletion interface, OnCompletion method, OnCompletion, IRequestCallbackRequestCompletion, wudfddi/IRequestCallbackRequestCompletion::OnCompletion, UMDFRequestObjectRef_b3ec1892-f32f-4c52-80f6-8699a358ea8d.xml, IRequestCallbackRequestCompletion::OnCompletion, OnCompletion method, IRequestCallbackRequestCompletion interface, OnCompletion method, wdf.irequestcallbackrequestcompletion_oncompletion, umdf.irequestcallbackrequestcompletion_oncompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ void OnCompletion(
 
 
 
-#### - pWdfRequest [in]
+### -param pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object. 
 
 
-#### - pIoTarget [in]
+### -param pIoTarget [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface for the I/O target object that represents the lower driver in the stack where the request was previously sent. 
 
 
-#### - pParams [in]
+### -param pParams [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a> interface for the parameters object for the completion request. 
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 A pointer to a buffer that contains context information that is related to the completion request.
 
@@ -109,15 +109,15 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcom
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
 
  
 

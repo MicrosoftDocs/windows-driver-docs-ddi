@@ -74,17 +74,17 @@ VOID APIENTRY* ResizeTilePool(
 
 
 
-#### - hDevice
+### -param hDevice
 
 A handle to the display device (graphics context).
 
 
-#### - hTilePool
+### -param hTilePool
 
 A handle to the tile pool to resize.
 
 
-#### - NewSizeInBytes
+### -param NewSizeInBytes
 
 The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB or zero.
 

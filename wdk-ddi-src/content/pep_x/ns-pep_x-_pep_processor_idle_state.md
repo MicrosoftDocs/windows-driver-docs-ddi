@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 10CAB3CA-83BF-421B-81F5-2B42790B8928
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PPEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], pep_x/PEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE, *PPEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state
+ms.keywords: PPEP_PROCESSOR_IDLE_STATE, _PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], pep_x/PPEP_PROCESSOR_IDLE_STATE, *PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state, pep_x/PEP_PROCESSOR_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,29 +112,9 @@ typedef struct _PEP_PROCESSOR_IDLE_STATE {
 A collection of flag bits and status fields that can be accessed either individually as bitfields, or together as a 32-bit unsigned integer value.
 
 
-#### Ulong
-
-Flag bits and status fields accessed as a single 32-bit unsigned integer value.
-
-
 #### ( unnamed struct )
 
 Flag bits and status fields accessed as individual bitfields.
-
-
-#### Interruptible
-
-Whether the processor can respond to interrupts when in this idle state. Set this flag bit to 1 if the processor can respond to interrupts, and to 0 if it cannot.
-
-
-#### CacheCoherent
-
-Whether the processor's local cache or caches remain coherent through the duration of this processor idle state. Set this flag bit to 1 if cache coherency is maintained in this idle state, and to 0 if it is not.
-
-
-#### ThreadContextRetained
-
-Whether thread context is retained in this processor idle state. Set this flag bit to 1 if the processor hardware retains the thread context across the idle transition. Set to 0 if the processor uses the multiprocessor parking protocol to exit the idle state and return control to the operating system. For more information about this protocol, see the document titled "Multiprocessor Startup for ARM Platforms" at <a href="https://www.acpica.org/related-documents">https://www.acpica.org/related-documents</a>.
 
 
 #### CStateType
@@ -142,9 +122,29 @@ Whether thread context is retained in this processor idle state. Set this flag b
 The C-state type of the processor idle state. Set this bitfield to zero if this idle state does not correspond to an ACPI-defined C-state. Otherwise, set this bitfield to the C-state number. That is, set <b>CStateType</b> = 1 for C1, set <b>CStateType</b> = 2 for C2, and so on. For more information about C-states, see section 8.1, "Processor Power States", of the Advanced Configuration and Control Specification, Revision 5.0 (<a href="http://www.acpi.info">ACPI 5.0 specification</a>).
 
 
+#### CacheCoherent
+
+Whether the processor's local cache or caches remain coherent through the duration of this processor idle state. Set this flag bit to 1 if cache coherency is maintained in this idle state, and to 0 if it is not.
+
+
+#### Interruptible
+
+Whether the processor can respond to interrupts when in this idle state. Set this flag bit to 1 if the processor can respond to interrupts, and to 0 if it cannot.
+
+
 #### Reserved
 
 Reserved for future use.
+
+
+#### ThreadContextRetained
+
+Whether thread context is retained in this processor idle state. Set this flag bit to 1 if the processor hardware retains the thread context across the idle transition. Set to 0 if the processor uses the multiprocessor parking protocol to exit the idle state and return control to the operating system. For more information about this protocol, see the document titled "Multiprocessor Startup for ARM Platforms" at <a href="https://www.acpica.org/related-documents">https://www.acpica.org/related-documents</a>.
+
+
+#### Ulong
+
+Flag bits and status fields accessed as a single 32-bit unsigned integer value.
 
 
 ## -remarks

@@ -73,22 +73,22 @@ NTSTATUS CLIENT_PrepareController(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the GPIO controller.
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4BE99C71-9BA6-44E3-A54F-DE8C3440A474">device context</a>.
 
 
-#### - ResourcesRaw [in]
+### -param ResourcesRaw [in]
 
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the raw (bus-relative) hardware resources that the Plug and Play (PnP) manager has assigned to the GPIO controller device.
 
 
-#### - ResourcesTranslated [in]
+### -param ResourcesTranslated [in]
 
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the translated (system-physical) hardware resources that the PnP manager has assigned to the GPIO controller device.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6d9b0473-544f-43aa-9358-ec51d84d45d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETPRESENTHISTORY structure [Display Devices], _D3DKMT_GETPRESENTHISTORY, display.d3dkmt_getpresenthistory, D3DKMT_GETPRESENTHISTORY, d3dkmthk/D3DKMT_GETPRESENTHISTORY, OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml
+ms.keywords: "_D3DKMT_GETPRESENTHISTORY, display.d3dkmt_getpresenthistory, OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, D3DKMT_GETPRESENTHISTORY, d3dkmthk/D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,33 +71,33 @@ typedef struct _D3DKMT_GETPRESENTHISTORY {
 
 
 
-#### - hAdapter
+### -field hAdapter
 
 [in] The handle to the graphics adapter. 
 
 
-#### - ProvidedSize
+### -field ProvidedSize
 
 Supported in Windows 7 and later versions.
 
 [in] The size, in bytes, of the provided buffer that the <b>pTokens</b> member points to. 
 
 
-#### - WrittenSize
+### -field WrittenSize
 
 Supported in Windows 7 and later versions.
 
 [out] The size, in bytes, that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetpresenthistory.md">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to or the required size for first token. 
 
 
-#### - pTokens
+### -field pTokens
 
 Supported in Windows 7 and later versions.
 
 [in/out] A pointer to the buffer that receives the tokens. Each token is described by a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a> structure. 
 
 
-#### - NumTokens
+### -field NumTokens
 
 Supported in Windows 7 and later versions.
 

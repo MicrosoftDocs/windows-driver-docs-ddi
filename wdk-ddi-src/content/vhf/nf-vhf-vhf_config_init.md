@@ -72,22 +72,22 @@ FORCEINLINE void VHF_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 A pointer to the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure to initialize.
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. 
 
 
-#### - ReportDescriptorLength [in]
+### -param ReportDescriptorLength [in]
 
 The length of the HID Report Descriptor contained in a buffer pointer by <i>ReportDescriptor</i>.
 
 
-#### - ReportDescriptor
+### -param ReportDescriptor
 
 A pointer to a HID source driver-allocated buffer that contains the  HID Report Descriptor.
 

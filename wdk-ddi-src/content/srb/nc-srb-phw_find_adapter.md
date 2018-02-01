@@ -73,27 +73,27 @@ typedef ULONG (*PHW_FIND_ADAPTER)(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-#### - HwContext [in]
+### -param HwContext [in]
 
 Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a context value. For a description of the meaning of this member for a SCSI miniport driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
 
 
-#### - BusInformation [in]
+### -param BusInformation [in]
 
 Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to bus-type-specific information that the OS-specific port driver has gathered. For a complete description of the meaning of this member for a SCSI miniport driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
 
 
-#### - ArgumentString [in]
+### -param ArgumentString [in]
 
 Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a null-terminated ASCII string that contains device information such as a base parameter or an interrupt level from the registry. For a complete description of the meaning of this member for a SCSI miniport driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
 
 
-#### - ConfigInfo [in, out]
+### -param ConfigInfo [in, out]
 
 
 
@@ -109,7 +109,7 @@ Reserved member when used by one of the Storport driver's miniport drivers. With
 
 
 
-#### - Again [out]
+### -param Again [out]
 
 Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a BOOLEAN variable that informs the port driver whether it should call this routine again. For more information about the meaning of this member for a SCSI miniport driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
 
@@ -184,9 +184,9 @@ For more information about the Storport driver's version of the routine associat
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
  
 

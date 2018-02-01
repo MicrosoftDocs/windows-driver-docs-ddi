@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90b9cbba-6a8f-444e-b0eb-cfbabdd57dcf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, d3d10umddi/D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], display.d3d11_1ddiarg_tessellation_io_signatures
+ms.keywords: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11_1ddiarg_tessellation_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES {
  
 
 
-#### - pInputSignature
+### -field pInputSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_signature_entry.md">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
 
@@ -87,7 +87,7 @@ typedef struct D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES {
  
 
 
-#### - pOutputSignature
+### -field pOutputSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_signature_entry.md">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
 
@@ -97,22 +97,22 @@ typedef struct D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES {
  
 
 
-#### - pPatchConstantSignature
+### -field pPatchConstantSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_signature_entry.md">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the signature patches.
 
 
-#### - NumInputSignatureEntries
+### -field NumInputSignatureEntries
 
 [in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
 
 
-#### - NumOutputSignatureEntries
+### -field NumOutputSignatureEntries
 
 [in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
 
 
-#### - NumPatchConstantSignatureEntries
+### -field NumPatchConstantSignatureEntries
 
 [in] The number of entries in the array that the <b>pPatchConstantSignature</b> member specifies.
 

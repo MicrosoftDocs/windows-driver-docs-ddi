@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c4ac992a-7ef2-47b6-88d1-54b47b4a0af4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetBindingCapability routine [Storage Devices], fibreHBA_rtns_05b57109-c484-4faf-afaa-e5e833f47ee1.xml, storage.hba_getbindingcapability, HBA_GetBindingCapability, hbaapi/HBA_GetBindingCapability
+ms.keywords: HBA_GetBindingCapability, HBA_GetBindingCapability routine [Storage Devices], hbaapi/HBA_GetBindingCapability, storage.hba_getbindingcapability, fibreHBA_rtns_05b57109-c484-4faf-afaa-e5e833f47ee1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ HBA_STATUS HBA_API HBA_GetBindingCapability(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
-#### - HbaPortWWN [in]
+### -param HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port whose persistent binding capabilities will be retrieved. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-#### - Flags [out]
+### -param Flags [out]
 
 Contains a bitwise OR of flags associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a> WMI property qualifier that represent the persistent binding capabilities of the port. 
 
@@ -132,11 +132,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the po
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

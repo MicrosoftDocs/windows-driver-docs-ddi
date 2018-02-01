@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, *PMAPTABLE, MAPTABLE structure [Print Devices], PMAPTABLE structure pointer [Print Devices], MAPTABLE, prntfont/MAPTABLE, _MAPTABLE, print.maptable, prntfont/PMAPTABLE, PMAPTABLE
+ms.keywords: prntfont/MAPTABLE, PMAPTABLE, *PMAPTABLE, MAPTABLE structure [Print Devices], prntfont/PMAPTABLE, print.maptable, PMAPTABLE structure pointer [Print Devices], print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, _MAPTABLE, MAPTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _MAPTABLE {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the MAPTABLE structure, including the <b>Trans</b> array.
 
 
-#### - dwGlyphNum
+### -field dwGlyphNum
 
 Specifies the number of elements in the <b>Trans</b> array.
 
 
-#### - Trans
+### -field Trans
 
 Is an array of <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a> structures.
 

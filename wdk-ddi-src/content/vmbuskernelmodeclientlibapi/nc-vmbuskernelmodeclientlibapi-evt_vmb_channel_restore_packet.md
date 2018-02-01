@@ -80,30 +80,30 @@ typedef EVT_VMB_CHANNEL_RESTORE_PACKET PFN_VMB_CHANNEL_RESTORE_PACKET;
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel on which the packet arrives.
 
 
-#### - LibBuf [in]
+### -param LibBuf [in]
 
 Pointer to packet object state internal to the Kernel Mode Client Library (KMCL).
 
 
 
-#### - LibBufSize [in]
+### -param LibBufSize [in]
 
 Size of the <i>LibBuf</i> parameter, in bytes.
 
 
 
-#### - SaveBuf [in]
+### -param SaveBuf [in]
 
 Pointer to transaction state specific to the VSP.
 
 
 
-#### - SaveBufSize [in]
+### -param SaveBufSize [in]
 
 Size of the <i>SaveBuf</i> parameter, in bytes.
 
@@ -131,13 +131,13 @@ callback function, then this is provided in <i>SaveBuf</i>, and restored by the 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_restore_packet.md">EvtVmbChannelSavePacket</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketrestore.md">VmbPacketRestore</a>
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
+<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_restore_packet.md">EvtVmbChannelSavePacket</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13cb1da1-0bb7-444e-a0e1-abcac7d0240d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_pdo_event_callbacks, _WDF_PDO_EVENT_CALLBACKS, kmdf.wdf_pdo_event_callbacks, WDF_PDO_EVENT_CALLBACKS, PWDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS, wdfpdo/PWDF_PDO_EVENT_CALLBACKS, PWDF_PDO_EVENT_CALLBACKS structure pointer, DFDeviceObjectFdoPdoRef_7a22d0f9-82ea-448e-8272-d3009beea440.xml, WDF_PDO_EVENT_CALLBACKS structure, wdfpdo/WDF_PDO_EVENT_CALLBACKS
+ms.keywords: DFDeviceObjectFdoPdoRef_7a22d0f9-82ea-448e-8272-d3009beea440.xml, PWDF_PDO_EVENT_CALLBACKS structure pointer, WDF_PDO_EVENT_CALLBACKS structure, wdf.wdf_pdo_event_callbacks, WDF_PDO_EVENT_CALLBACKS, wdfpdo/WDF_PDO_EVENT_CALLBACKS, _WDF_PDO_EVENT_CALLBACKS, wdfpdo/PWDF_PDO_EVENT_CALLBACKS, kmdf.wdf_pdo_event_callbacks, PWDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,42 +77,42 @@ typedef struct _WDF_PDO_EVENT_CALLBACKS {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - EvtDeviceResourcesQuery
+### -field EvtDeviceResourcesQuery
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceResourceRequirementsQuery
+### -field EvtDeviceResourceRequirementsQuery
 
 A pointer to the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_resource_requirements_query.md">EvtDeviceResourceRequirementsQuery</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceEject
+### -field EvtDeviceEject
 
 A pointer to the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_eject.md">EvtDeviceEject</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceSetLock
+### -field EvtDeviceSetLock
 
 A pointer to the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_set_lock.md">EvtDeviceSetLock</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceEnableWakeAtBus
+### -field EvtDeviceEnableWakeAtBus
 
 A pointer to the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_enable_wake_at_bus.md">EvtDeviceEnableWakeAtBus</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceDisableWakeAtBus
+### -field EvtDeviceDisableWakeAtBus
 
 A pointer to the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_disable_wake_at_bus.md">EvtDeviceDisableWakeAtBus</a> event callback function, or <b>NULL</b>.
 
 
-#### - EvtDeviceReportedMissing
+### -field EvtDeviceReportedMissing
 
 A pointer to the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_reported_missing.md">EvtDeviceReportedMissing</a> event callback function, or <b>NULL</b>. The <b>EvtDeviceReportedMissing</b> member is available in version 1.11 and later versions of KMDF.
 
@@ -128,11 +128,11 @@ Drivers must call <a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">
 
 ## -see-also
 
+<a href="..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.md">WDF_FDO_EVENT_CALLBACKS</a>
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
 
 <a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a>
-
-<a href="..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.md">WDF_FDO_EVENT_CALLBACKS</a>
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
 

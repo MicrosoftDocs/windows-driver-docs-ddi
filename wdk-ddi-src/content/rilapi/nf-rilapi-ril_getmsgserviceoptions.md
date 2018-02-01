@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53e8be7b-dad2-4060-99b1-eca7b7fdb8ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions, netvista.ril_getmsgserviceoptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], RIL_GetMsgServiceOptions, rilapi/RIL_GetMsgServiceOptions, netvista.ril_getmsgserviceoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetMsgServiceOptions(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_GETINFO_GLYPHSTRING, printoem/GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING, print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, PGETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING structure [Print Devices], print.getinfo_glyphstring, PGETINFO_GLYPHSTRING structure pointer [Print Devices], *PGETINFO_GLYPHSTRING, printoem/PGETINFO_GLYPHSTRING"
+ms.keywords: "*PGETINFO_GLYPHSTRING, printoem/PGETINFO_GLYPHSTRING, print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, PGETINFO_GLYPHSTRING structure pointer [Print Devices], printoem/GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING structure [Print Devices], PGETINFO_GLYPHSTRING, _GETINFO_GLYPHSTRING, print.getinfo_glyphstring, GETINFO_GLYPHSTRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _GETINFO_GLYPHSTRING {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the GETINFO_GLYPHSTRING structure. This value is supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - dwCount
+### -field dwCount
 
 Specifies the number of elements in the arrays pointed to by <b>pGlyphIn</b> and <b>pGlyphOut</b>. This value is supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - dwTypeIn
+### -field dwTypeIn
 
 Specifies the type of glyph specifier array pointed to by <b>pGlyphIn</b>. Valid values are as follows:
 <table>
@@ -117,12 +117,12 @@ The <b>pGlyphIn</b> array elements are of type DWORD, and contain glyph identifi
 Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - pGlyphIn
+### -field pGlyphIn
 
 Pointer to an array of glyph specifiers. The array element type is indicated by <b>dwTypeIn</b>. This value is supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - dwTypeOut
+### -field dwTypeOut
 
 Specifies the type of glyph specifier array pointed to by <b>pGlyphOut</b>. Valid values are as follows:
 <table>
@@ -165,12 +165,12 @@ The <i>pGlyph</i> array elements are of type WCHAR. This value is valid when <b>
 Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - pGlyphOut
+### -field pGlyphOut
 
 Caller-supplied pointer to an empty array of glyph specifiers. The array is filled in by Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function. The array element type is indicated by <b>dwTypeOut</b>. This pointer is supplied by the <u>UNIFONTOBJ_GetInfo</u> caller.
 
 
-#### - dwGlyphOutSize
+### -field dwGlyphOutSize
 
 Specifies the size, in bytes, of the buffer pointed to by <b>pGlyphOut</b>. This member is used only when <b>dwTypeIn</b> has been set to TYPE_GLYPHHANDLE and <b>dwTypeOut</b> has been set to TYPE_TRANSDATA. See the following Remarks section for more information.
 
@@ -198,9 +198,9 @@ The plug-in allocates a block of memory of the size received in the <b>dwGlyphOu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554267">IPrintOemUni::OutputCharStr</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554267">IPrintOemUni::OutputCharStr</a>
 
  
 

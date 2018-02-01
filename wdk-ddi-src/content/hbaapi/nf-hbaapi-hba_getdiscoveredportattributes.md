@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 64c6ed50-a4b9-4a8c-b38c-b2fcdf5ccee9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetDiscoveredPortAttributes, HBA_GetDiscoveredPortAttributes routine [Storage Devices], HBA_GetDiscoveredPortAttributes, fibreHBA_rtns_3f74a187-728d-4534-8ad8-29e1a9b0add5.xml, storage.hba_getdiscoveredportattributes
+ms.keywords: HBA_GetDiscoveredPortAttributes routine [Storage Devices], hbaapi/HBA_GetDiscoveredPortAttributes, storage.hba_getdiscoveredportattributes, fibreHBA_rtns_3f74a187-728d-4534-8ad8-29e1a9b0add5.xml, HBA_GetDiscoveredPortAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ HBA_STATUS HBA_API HBA_GetDiscoveredPortAttributes(
 TBD
 
 
-#### - PortIndex [in]
+### -param PortIndex [in]
 
 Indicates the index of the local port of type Nx_Port through which to query the discovered remote port. For a definition of Nx_Port, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-#### - DiscoveredPortIndex [in]
+### -param DiscoveredPortIndex [in]
 
 Indicates the index of the remote port to query. 
 
@@ -117,11 +117,11 @@ The <b>HBA_GetDiscoveredPortAttributes</b> library routine corresponds to the <a
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
 <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

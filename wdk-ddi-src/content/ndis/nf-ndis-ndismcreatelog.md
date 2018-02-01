@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 804112cf-fc59-4a04-b848-4239b32e35d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCreateLog function [Network Drivers Starting with Windows Vista], netvista.ndismcreatelog, ndis/NdisMCreateLog, miniport_logging_ref_e6ca8197-b4f0-4eb9-bfe4-f4b957a124c8.xml, NdisMCreateLog
+ms.keywords: netvista.ndismcreatelog, miniport_logging_ref_e6ca8197-b4f0-4eb9-bfe4-f4b957a124c8.xml, NdisMCreateLog function [Network Drivers Starting with Windows Vista], ndis/NdisMCreateLog, NdisMCreateLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ NDIS_STATUS NdisMCreateLog(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 Specifies the handle input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies how many bytes to allocate for the log file. NDIS creates a temporary file that is not
      stored on disk.
 
 
-#### - LogHandle [out]
+### -param LogHandle [out]
 
 Pointer to a caller-supplied variable in which this function returns a handle to the log file.
      This handle is a required parameter to the 
@@ -165,11 +165,11 @@ Whatever size of log file is allocated, subsequent calls to
 
 <a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+
+<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
  
 

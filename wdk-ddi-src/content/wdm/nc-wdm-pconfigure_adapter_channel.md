@@ -73,17 +73,17 @@ NTSTATUS ConfigureAdapterChannel(
 
 
 
-#### - DmaAdapter [in]
+### -param DmaAdapter [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine.
 
 
-#### - FunctionNumber [in]
+### -param FunctionNumber [in]
 
 The number of the custom function to select. For more information, see the Remarks section.
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to the configuration parameters for the custom function that is specified by <i>FunctionNumber</i>. The function is implemented by the DMA controller and can be accessed by a device driver through the adapter object. The DMA controller and the device driver must agree on the meaning of these configuration parameters. The data that <i>Context</i> points to is opaque to the operating system.
 
@@ -128,11 +128,11 @@ Typically, a custom function sets state information in the DMA controller to con
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
  
 

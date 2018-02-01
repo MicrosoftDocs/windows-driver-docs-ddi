@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 52733647-d577-4507-a5ad-5f56f3a9f8a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceIoMaximum, umdf.wdf_device_io_type__umdf_, wudfddi_types/WdfDeviceIoBuffered, WdfDeviceIoNeither, wudfddi_types/WDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoMaximum, WdfDeviceIoDirect, wdf.wdf_device_io_type__umdf_, wudfddi_types/WdfDeviceIoNeither, wudfddi_types/PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoUndefined, WdfDeviceIoUndefined, WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, wudfddi_types/WdfDeviceIoBufferedOrDirect, _WDF_DEVICE_IO_TYPE, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, *PWDF_DEVICE_IO_TYPE
+ms.keywords: WdfDeviceIoNeither, wudfddi_types/WdfDeviceIoBufferedOrDirect, WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoMaximum, wudfddi_types/PWDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoDirect, umdf.wdf_device_io_type__umdf_, WdfDeviceIoBufferedOrDirect, wudfddi_types/WdfDeviceIoMaximum, *PWDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoNeither, WdfDeviceIoDirect, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, WDF_DEVICE_IO_TYPE, WdfDeviceIoUndefined, wudfddi_types/WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoUndefined, wdf.wdf_device_io_type__umdf_, _WDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE enumeration pointer, wudfddi_types/WDF_DEVICE_IO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,32 +76,32 @@ typedef enum _WDF_DEVICE_IO_TYPE {
 
 
 
-#### - WdfDeviceIoUndefined
+### -field WdfDeviceIoUndefined
 
 Reserved for system use.
 
 
-#### - WdfDeviceIoNeither
+### -field WdfDeviceIoNeither
 
 Reserved for system use.
 
 
-#### - WdfDeviceIoBuffered
+### -field WdfDeviceIoBuffered
 
 UMDF and the driver use <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">buffered I/O</a> to access data buffers.
 
 
-#### - WdfDeviceIoDirect
+### -field WdfDeviceIoDirect
 
 UMDF and the driver use <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">direct I/O</a> to access data buffers.
 
 
-#### - WdfDeviceIoBufferedOrDirect
+### -field WdfDeviceIoBufferedOrDirect
 
 UMDF and the driver can use either buffered I/O or direct I/O to access data buffers. 
 
 
-#### - WdfDeviceIoMaximum
+### -field WdfDeviceIoMaximum
 
 Reserved for system use.
 
@@ -135,9 +135,9 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider::BindPrinter, IPrintOemPrintTicketProvider, BindPrinter method [Print Devices], BindPrinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
+ms.keywords: BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, IPrintOemPrintTicketProvider::BindPrinter, BindPrinter method [Print Devices], print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, BindPrinter, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT BindPrinter(
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 The spooler's print handle, which is supplied by Unidrv. The provider should not close this handle at any time, because the client of the provider is responsible for managing the lifetime of this handle. The provider can cache the print handle; all future calls on this object are relative to the printer that is associated with this handle.
 
 
-#### - version [in]
+### -param version [in]
 
 The major version number of the print schema. Windows Vista supports only version 1.
 
 
-#### - pOptions [out]
+### -param pOptions [out]
 
 A pointer to a variable that receives one of the following enumerated values: 
 
@@ -101,12 +101,12 @@ The system places a binary encoding (a binary large object [BLOB]) of the privat
 The system will not place a binary encoding (a BLOB) of the private DEVMODEW structure into the print ticket in a conversion of a DEVMODEW to a print ticket. Use this value if all of the public and private DEVMODEW members are fully represented in the print ticket.
 
 
-#### - cNamespaces [out]
+### -param cNamespaces [out]
 
 A pointer to a variable that receives the number of private namespace URIs that are used in the plug-in. This number represents the count of strings in the array that is pointed to by *<i>ppNamespaces</i>.
 
 
-#### - ppNamespaces [out]
+### -param ppNamespaces [out]
 
 A pointer to a variable that receives the address of the first element of a BSTR array. The plug-in fills each array position with a namespace URI. For more information about this parameter, see the following Remarks section.
 
@@ -161,9 +161,9 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553170">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
 
  
 

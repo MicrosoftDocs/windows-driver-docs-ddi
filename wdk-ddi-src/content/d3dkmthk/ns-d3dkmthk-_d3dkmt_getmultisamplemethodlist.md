@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 138f6f75-3986-42f8-840c-d48edb271203
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST, D3DKMT_GETMULTISAMPLEMETHODLIST structure [Display Devices], display.d3dkmt_getmultisamplemethodlist, _D3DKMT_GETMULTISAMPLEMETHODLIST, D3DKMT_GETMULTISAMPLEMETHODLIST, OpenGL_Structs_ccb62d63-4a70-4fb4-b6db-d8a5e585b222.xml
+ms.keywords: OpenGL_Structs_ccb62d63-4a70-4fb4-b6db-d8a5e585b222.xml, display.d3dkmt_getmultisamplemethodlist, D3DKMT_GETMULTISAMPLEMETHODLIST, _D3DKMT_GETMULTISAMPLEMETHODLIST, D3DKMT_GETMULTISAMPLEMETHODLIST structure [Display Devices], d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _D3DKMT_GETMULTISAMPLEMETHODLIST {
 
 
 
-#### - hAdapter
+### -field hAdapter
 
 [in] A handle to the graphics adapter.
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the allocation is on. 
 
 
-#### - Width
+### -field Width
 
 [in] The width of the allocation, in pixels.
 
 
-#### - Height
+### -field Height
 
 [in] The height of the allocation, in pixels.
 
 
-#### - Format
+### -field Format
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
 
 
-#### - pMethodList
+### -field pMethodList
 
 [out] An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_multisamplemethod.md">D3DKMT_MULTISAMPLEMETHOD</a> structures that describe the list of multiple-sampling methods used for the allocation; otherwise, this member is <b>NULL</b>.
 
 
-#### - MethodCount
+### -field MethodCount
 
 [in/out] On input, the number of elements that the array that is specified by <b>pMethodList</b> can hold. On output, this member specifies the required number of elements that the array that is specified by <b>pMethodList</b> should hold. 
 
@@ -117,9 +117,9 @@ If the runtime returns a non-<b>NULL</b> value in <b>pMethodList</b>, the runtim
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_multisamplemethod.md">D3DKMT_MULTISAMPLEMETHOD</a>
 

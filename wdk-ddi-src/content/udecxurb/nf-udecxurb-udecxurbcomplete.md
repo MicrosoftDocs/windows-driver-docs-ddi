@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F0B014F3-AE40-466B-BD9A-0D01DF70DCFF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxurb/UdecxUrbComplete, UdecxUrbComplete function [Buses], UdecxUrbComplete, buses.udecxurbcomplete
+ms.keywords: UdecxUrbComplete, buses.udecxurbcomplete, UdecxUrbComplete function [Buses], udecxurb/UdecxUrbComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ FORCEINLINE void UdecxUrbComplete(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
 
 
-#### - UsbdStatus [in]
+### -param UsbdStatus [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_STATUS</a>-typed value that indicates the success or failure of the completed URB request. 
 

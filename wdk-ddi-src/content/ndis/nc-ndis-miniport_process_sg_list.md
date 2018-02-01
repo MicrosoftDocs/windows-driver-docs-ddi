@@ -75,25 +75,25 @@ VOID MiniportProcessSGList(
 
 
 
-#### - pDO [in]
+### -param pDO [in]
 
 Miniport drivers should ignore this parameter.
 
 
-#### - Reserved [in]
+### -param Reserved [in]
 
 Miniport drivers should ignore this parameter.
 
 
-#### - pSGL [in]
+### -param pSGL [in]
 
 A pointer to a scatter/gather list buffer. This is not necessarily the same buffer as the one the
      driver specified in the call to the 
-     <mshelp:link keywords="netvista.ndismallocatenetbuffersglist" tabindex="0"><b>
-     NdisMAllocateNetBufferSGList</b></mshelp:link> function
+     <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">
+     NdisMAllocateNetBufferSGList</a> function
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to a context area that the miniport driver created prior to calling 
      <b>NdisMAllocateNetBufferSGList</b>.
@@ -110,8 +110,8 @@ None
 
 
 Miniport drivers call the 
-    <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-    NdisMRegisterScatterGatherDma</b></mshelp:link> function to register a 
+    <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+    NdisMRegisterScatterGatherDma</a> function to register a 
     <i>MiniportProcessSGList</i> function. When a miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> to create a scatter/gather list, NDIS calls HAL to create the list.
     After creating the list, NDIS calls the miniport driver's 
@@ -167,8 +167,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
 
 <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
 

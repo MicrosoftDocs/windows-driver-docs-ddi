@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0f1ec015-bda6-45fe-973d-be414aece918
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, NtReadFile, wdm/ZwReadFile, kernel.zwreadfile, ZwReadFile
+ms.keywords: wdm/NtReadFile, wdm/ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], kernel.zwreadfile, k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, ZwReadFile, NtReadFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,42 +77,42 @@ NTSTATUS ZwReadFile(
 
 
 
-#### - FileHandle [in]
+### -param FileHandle [in]
 
 Handle to the file object. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>. 
 
 
-#### - Event [in, optional]
+### -param Event [in, optional]
 
 Optionally, a handle to an event object to set to the signaled state after the read operation completes. Device and intermediate drivers should set this parameter to <b>NULL</b>.
 
 
-#### - ApcRoutine [in, optional]
+### -param ApcRoutine [in, optional]
 
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-#### - ApcContext [in, optional]
+### -param ApcContext [in, optional]
 
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The <b>Information</b> member receives the number of bytes actually read from the file.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a caller-allocated buffer that receives the data read from the file.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
 
-#### - ByteOffset [in, optional]
+### -param ByteOffset [in, optional]
 
 Pointer to a variable that specifies the starting byte offset in the file where the read operation will begin. If an attempt is made to read beyond the end of the file, <b>ZwReadFile</b> returns an error.
 
@@ -131,7 +131,7 @@ Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.
 Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <b>ZwReadFile</b>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the read operation, and then updates the position according to the number of bytes actually read. This technique gives the caller atomic seek-and-read service.
 
 
-#### - Key [in, optional]
+### -param Key [in, optional]
 
 Device and intermediate drivers should set this pointer to <b>NULL</b>. 
 
@@ -200,15 +200,15 @@ Callers of <b>ZwReadFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

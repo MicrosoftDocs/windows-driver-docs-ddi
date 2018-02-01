@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7C2847F-D095-4A79-ADBB-DA0745E3192A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEPAGINGQUEUE, d3dkmthk/D3DKMT_CREATEPAGINGQUEUE, _D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue, D3DKMT_CREATEPAGINGQUEUE structure [Display Devices]
+ms.keywords: D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue, D3DKMT_CREATEPAGINGQUEUE structure [Display Devices], d3dkmthk/D3DKMT_CREATEPAGINGQUEUE, _D3DKMT_CREATEPAGINGQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DKMT_CREATEPAGINGQUEUE {
 
 
 
-#### - hDevice
+### -field hDevice
 
 [in] Device to create a new paging queue object for.
 
 
-#### - Priority
+### -field Priority
 
 [in] Scheduling priority relative to other paging queues on this device. Paging queues with higher priority values will be processed ahead of paging queues with lower priority values.
 
 
-#### - hPagingQueue
+### -field hPagingQueue
 
 [out] A paging queue handle that will be used to synchronize paging operations.
 
 
-#### - hSyncObject
+### -field hSyncObject
 
 [out] Handle to the monitored fence object used to synchronize paging operations for this paging queue. Destroying the paging queue (either implicitly or explicitly) will automatically destroy this sync object.
 
 
-#### - FenceValueCPUVirtualAddress
+### -field FenceValueCPUVirtualAddress
 
 [out] A read-only mapping of the paging fence object value for the CPU. This is a user mode address readable from the process that created the monitored fence object.
 
 
-#### - PhysicalAdapterIndex
+### -field PhysicalAdapterIndex
 
 [in] Physical adapter index (engine ordinal) for the queue.
 
@@ -111,9 +111,9 @@ A device can have multiple paging queues created for it. Paging queues can be de
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroypagingqueue.md">D3DKMTDestroyPagingQueue</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatepagingqueue.md">D3DKMTCreatePagingQueue</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroypagingqueue.md">D3DKMTDestroyPagingQueue</a>
 
  
 

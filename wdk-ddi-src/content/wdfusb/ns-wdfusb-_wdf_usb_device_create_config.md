@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 717DFAE8-5F10-4443-AACA-07009060C23D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_device_create_config, PWDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG, wdfusb/PWDF_USB_DEVICE_CREATE_CONFIG, *PWDF_USB_DEVICE_CREATE_CONFIG, kmdf.wdf_usb_device_create_config, _WDF_USB_DEVICE_CREATE_CONFIG, kmdf.wdf_usbtarget_device_config, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG structure, PWDF_USB_DEVICE_CREATE_CONFIG structure pointer
+ms.keywords: wdfusb/PWDF_USB_DEVICE_CREATE_CONFIG, kmdf.wdf_usb_device_create_config, PWDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG, kmdf.wdf_usbtarget_device_config, *PWDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG structure pointer, WDF_USB_DEVICE_CREATE_CONFIG structure, wdf.wdf_usb_device_create_config, _WDF_USB_DEVICE_CREATE_CONFIG, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _WDF_USB_DEVICE_CREATE_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - USBDClientContractVersion
+### -field USBDClientContractVersion
 
 The contract version that the client driver supports. <b>USBDClientContractVersion</b> must be USBD_CLIENT_CONTRACT_VERSION_602. 
 

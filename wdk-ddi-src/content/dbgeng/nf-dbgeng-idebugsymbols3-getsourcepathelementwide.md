@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 724ee7a6-a0ef-440b-a0d4-5eecda77338a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourcePathElementWide method, GetSourcePathElementWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourcePathElementWide, IDebugSymbols3, IDebugSymbols3::GetSourcePathElementWide, debugger.getsourcepathelementwide, GetSourcePathElementWide, GetSourcePathElementWide method [Windows Debugging]
+ms.keywords: GetSourcePathElementWide method [Windows Debugging], GetSourcePathElementWide, GetSourcePathElementWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSourcePathElementWide method, IDebugSymbols3::GetSourcePathElementWide, dbgeng/IDebugSymbols3::GetSourcePathElementWide, IDebugSymbols3, debugger.getsourcepathelementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetSourcePathElementWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the element in the source path that will be returned.  The source path is a string that contains elements separated by semicolons (;).  The index of the first element is zero.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the source path element.  Each source path element can be a directory or a source server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - ElementSize [out, optional]
+### -param ElementSize [out, optional]
 
 Receives the size, in characters, of the source path element.
 
@@ -138,9 +138,9 @@ For more information about manipulating the source path, see <a href="https://ms
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
  
 

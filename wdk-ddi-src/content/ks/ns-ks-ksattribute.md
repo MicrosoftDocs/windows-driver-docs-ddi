@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 985d9f12-11c6-40e6-9cb6-572196bc04f4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_02cb064e-813f-4d67-8cf3-a33e05af7421.xml, PKSATTRIBUTE, ks/PKSATTRIBUTE, PKSATTRIBUTE structure pointer [Streaming Media Devices], *PKSATTRIBUTE, stream.ksattribute, KSATTRIBUTE structure [Streaming Media Devices], ks/KSATTRIBUTE, KSATTRIBUTE
+ms.keywords: ks/KSATTRIBUTE, stream.ksattribute, PKSATTRIBUTE structure pointer [Streaming Media Devices], *PKSATTRIBUTE, KSATTRIBUTE structure [Streaming Media Devices], KSATTRIBUTE, ks-struct_02cb064e-813f-4d67-8cf3-a33e05af7421.xml, ks/PKSATTRIBUTE, PKSATTRIBUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size of the attribute. This is at least the size of the KSATTRIBUTE structure and may be more if there is extended information based on the identifying GUID in the <b>Attribute</b> field.
 
 
-#### - Flags
+### -field Flags
 
 Specifies the flags of the attribute. The only used flag is KSATTRIBUTE_REQUIRED; this flag specifies that an attribute is required. If this flag is not set, the attribute is optional. Note that the topmost bit is reserved for internal use in KS.
 
 
-#### - Attribute
+### -field Attribute
 
 Specifies the unique identifier of the attribute.
 

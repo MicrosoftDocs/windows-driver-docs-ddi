@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aedabb82-73d5-4953-bb7a-4ed526bff5a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_UMTSKIND_DC_HSPAPLUS, ntddrilapitypes/RIL_UMTSKIND_HSPAPLUS_64QAM, ntddrilapitypes/RIL_UMTSKIND_HSUPA, RIL_UMTSKIND_DC_HSPAPLUS, RIL_UMTSKIND_HSPAPLUS, netvista.rilumtskind, ntddrilapitypes/RIL_UMTSKIND_MAX, RILUMTSKIND enumeration [Network Drivers Starting with Windows Vista], RIL_UMTSKIND_HSPAPLUS_64QAM, ntddrilapitypes/RIL_UMTSKIND_HSDPA, ntddrilapitypes/RILUMTSKIND, RILUMTSKIND, ntddrilapitypes/RIL_UMTSKIND_HSPAPLUS, RIL_UMTSKIND_MAX, RIL_UMTSKIND_HSUPA, RIL_UMTSKIND_HSDPA
+ms.keywords: RIL_UMTSKIND_HSPAPLUS_64QAM, RIL_UMTSKIND_HSPAPLUS, ntddrilapitypes/RIL_UMTSKIND_MAX, RILUMTSKIND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUMTSKIND, RIL_UMTSKIND_MAX, RILUMTSKIND, netvista.rilumtskind, ntddrilapitypes/RIL_UMTSKIND_HSPAPLUS, ntddrilapitypes/RIL_UMTSKIND_DC_HSPAPLUS, RIL_UMTSKIND_DC_HSPAPLUS, RIL_UMTSKIND_HSUPA, ntddrilapitypes/RIL_UMTSKIND_HSPAPLUS_64QAM, ntddrilapitypes/RIL_UMTSKIND_HSUPA, ntddrilapitypes/RIL_UMTSKIND_HSDPA, RIL_UMTSKIND_HSDPA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,26 +76,26 @@ typedef enum _RILUMTSKIND {
 
 
 
-#### - RIL_UMTSKIND_HSDPA
+### -field RIL_UMTSKIND_HSDPA
 
 
 
-#### - RIL_UMTSKIND_HSUPA
+### -field RIL_UMTSKIND_HSUPA
 
 
 
-#### - RIL_UMTSKIND_HSPAPLUS
+### -field RIL_UMTSKIND_HSPAPLUS
 
 
 
-#### - RIL_UMTSKIND_DC_HSPAPLUS
+### -field RIL_UMTSKIND_DC_HSPAPLUS
 
 
 
-#### - RIL_UMTSKIND_HSPAPLUS_64QAM
+### -field RIL_UMTSKIND_HSPAPLUS_64QAM
 
 
 
-#### - RIL_UMTSKIND_MAX
+### -field RIL_UMTSKIND_MAX
 
 

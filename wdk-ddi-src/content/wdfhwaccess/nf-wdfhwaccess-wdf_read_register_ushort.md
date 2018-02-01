@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EC3D7812-4EAB-419D-B736-47AE148FC61C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_read_register_ushort, WDF_READ_REGISTER_USHORT function, WDF_READ_REGISTER_USHORT, wdfhwaccess/WDF_READ_REGISTER_USHORT
+ms.keywords: wdf.wdf_read_register_ushort, wdfhwaccess/WDF_READ_REGISTER_USHORT, WDF_READ_REGISTER_USHORT function, WDF_READ_REGISTER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ USHORT WDF_READ_REGISTER_USHORT(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register address, which must be a mapped range in memory space.
 

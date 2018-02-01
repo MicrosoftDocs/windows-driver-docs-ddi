@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d0969f-bc30-4235-93a5-dda51e15b4fc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, wdf.wdfusbtargetpipeabortsynchronously, kmdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, PFN_WDFUSBTARGETPIPEABORTSYNCHRONOUSLY
+ms.keywords: wdf.wdfusbtargetpipeabortsynchronously, WdfUsbTargetPipeAbortSynchronously, DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, PFN_WDFUSBTARGETPIPEABORTSYNCHRONOUSLY, wdfusb/WdfUsbTargetPipeAbortSynchronously, kmdf.wdfusbtargetpipeabortsynchronously, WdfUsbTargetPipeAbortSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfUsbTargetPipeAbortSynchronously(
 
 
 
-#### - Pipe [in]
+### -param Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-#### - Request [in, optional]
+### -param Request [in, optional]
 
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-#### - RequestOptions [in, optional]
+### -param RequestOptions [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 

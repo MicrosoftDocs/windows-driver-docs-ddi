@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1F2B15A6-7C05-4FBA-B54F-EEF013FF5739
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, storage.storage_diagnostic_mp_request, *PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST
+ms.keywords: storage.storage_diagnostic_mp_request, STORAGE_DIAGNOSTIC_MP_REQUEST, _STORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], *PSTORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,55 +74,55 @@ typedef struct _STORAGE_DIAGNOSTIC_MP_REQUEST {
 
 
 
-#### - Version
+### -field Version
 
 Version of this structure.
 
 
-#### - Size
+### -field Size
 
 Specifies the whole size of the structure and the associated data buffer.
 
 
-#### - TargetType
+### -field TargetType
 
 Specifies the request target type. See definitions for <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
 
 
-#### - Level
+### -field Level
 
 Specifies the Diagnostic level. See definitions for <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>.
 
 
-#### - ProviderId
+### -field ProviderId
 
 Specifies the GUID of the diagnostic data provider.
 
 
-#### - BufferSize
+### -field BufferSize
 
 Specifies the Data buffer size. As an input buffer, <i>BufferSize</i> should be set to number of bytes allocated for the <i>DataBuffer</i>. If the request is failed because of buffer too short, <i>BufferSize</i> should be set to the
        length required for <i>DataBuffer</i> by the diagnostic data provider;
        If the request is successful, it should be filled with returned data size of <i>DataBuffer</i>.       For other cases, it should be cleared to 0.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
 
-#### - DataBuffer
+### -field DataBuffer
 
 Specifies the Diagnostic data buffer.
 
 
 ## -see-also
 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_diagnostic.md">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
+
 <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_diagnostic_data.md">STORAGE_DIAGNOSTIC_DATA</a>
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_diagnostic.md">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
 
 <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION, _SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, ntddcdrm/PSUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], *PSUB_Q_CURRENT_POSITION, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml
+ms.keywords: PSUB_Q_CURRENT_POSITION, _SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], SUB_Q_CURRENT_POSITION structure [Storage Devices], ntddcdrm/SUB_Q_CURRENT_POSITION, ntddcdrm/PSUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml, *PSUB_Q_CURRENT_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,55 +74,55 @@ typedef struct _SUB_Q_CURRENT_POSITION {
 
 
 
-#### - Header
+### -field Header
 
 Indicates, among other things, the length of the Q subchannel data that was retrieved. See <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a> for more details. 
 
 
-#### - FormatCode
+### -field FormatCode
 
 Should have a value of IOCTL_CDROM_CURRENT_POSITION. 
 
 
-#### - Control
+### -field Control
 
 Defines various types of information within the table of contents lead-in area. For more information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
 
 
-#### - ADR
+### -field ADR
 
 Indicates the type of information encoded in the Q subchannel of the block. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
 
 
-#### - TrackNumber
+### -field TrackNumber
 
 Contains the current track number.
 
 
-#### - IndexNumber
+### -field IndexNumber
 
 Contains the current index number.
 
 
-#### - AbsoluteAddress
+### -field AbsoluteAddress
 
 Gives the current location relative to the logical beginning of the media. The bytes in this array are arranged in big-endian order. <b>AbsoluteAddress</b>[0] contains the most significant byte, and <b>AbsoluteAddress</b>[3] contains the least significant byte. 
 
 
-#### - TrackRelativeAddress
+### -field TrackRelativeAddress
 
 Gives the current location relative to the logical beginning of the current track. The bytes in this array are arranged in big-endian order. <b>TrackRelativeAddress</b>[0] contains the most significant byte, and <b>TrackRelativeAddress</b>[3] contains the least significant byte. 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
 
  
 

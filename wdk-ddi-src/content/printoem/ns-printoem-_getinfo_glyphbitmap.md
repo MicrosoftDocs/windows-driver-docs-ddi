@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6a5887fd-0269-4cd1-acf1-f7242016d993
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/GETINFO_GLYPHBITMAP, printoem/PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP, PGETINFO_GLYPHBITMAP, print.getinfo_glyphbitmap, PGETINFO_GLYPHBITMAP structure pointer [Print Devices], _GETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP structure [Print Devices], *PGETINFO_GLYPHBITMAP, print_unidrv-pscript_rendering_56355138-13b0-4e8b-8132-f7c017105ab3.xml
+ms.keywords: PGETINFO_GLYPHBITMAP, print.getinfo_glyphbitmap, PGETINFO_GLYPHBITMAP structure pointer [Print Devices], *PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP, printoem/GETINFO_GLYPHBITMAP, _GETINFO_GLYPHBITMAP, printoem/PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP structure [Print Devices], print_unidrv-pscript_rendering_56355138-13b0-4e8b-8132-f7c017105ab3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _GETINFO_GLYPHBITMAP {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the GETINFO_GLYPHBITMAP structure. Supplied by <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - hGlyph
+### -field hGlyph
 
 Handle to the glyph. See the following Remarks section. Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - pGlyphData
+### -field pGlyphData
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566819">GLYPHDATA</a> structure. The structure is filled in by Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function. The pointer is supplied by the <i>UNIFONTOBJ_GetInfo</i> caller.
 
@@ -96,9 +96,9 @@ The value that a rendering plug-in specifies for the <b>hGlyph</b> member must h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566819">GLYPHDATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566819">GLYPHDATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554241">IPrintOemUni::DownloadCharGlyph</a>
 

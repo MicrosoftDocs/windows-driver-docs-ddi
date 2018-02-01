@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7E990E9A-5BF5-4D6B-A5E2-4968FBD1CEBC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE, USBDEVICE_UPDATE, *PUSBDEVICE_UPDATE, buses._usbdevice_update, _USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], USBDEVICE_UPDATE structure [Buses]
+ms.keywords: "*PUSBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], buses._usbdevice_update, ucxusbdevice/P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE, _USBDEVICE_UPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,47 +81,47 @@ typedef struct _USBDEVICE_UPDATE {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
-#### - Flags
+### -field Flags
 
 A bitwise-OR of <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_flags.md">USBDEVICE_UPDATE_FLAGS</a> values that indicates the attributes that must be updated by the client driver.
 
 
-#### - DeviceDescriptor
+### -field DeviceDescriptor
 
 A pointer a <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure that contains the device descriptor.
 
 
-#### - BosDescriptor
+### -field BosDescriptor
 
 A pointer a <b>USB_BOS_DESCRIPTOR</b> structure that contains the device descriptor. See Usbspec.h.
 
 
-#### - MaxExitLatency
+### -field MaxExitLatency
 
 The maximum exit latency period.
 
 
-#### - IsHub
+### -field IsHub
 
 Indicates if the USB device to update is a USB hub (TRUE) or not (FALSE).
 
 
-#### - FailureFlags
+### -field FailureFlags
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a> structure that indicates the errors, if any, that occurred during the update operation. 
 
 
-#### - Usb20HardwareLpmParameters
+### -field Usb20HardwareLpmParameters
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>  structure that describes the Link Power Management (LPM) features.
 
 
-#### - RootPortResumeTime
+### -field RootPortResumeTime
 
 The resume time for the root port.
 
@@ -133,13 +133,13 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 ## -see-also
 
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
 
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_flags.md">USBDEVICE_UPDATE_FLAGS</a>
-
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, KsCompleteIoOperation, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, IKsDataTypeHandler, stream.iksdatatypehandler_kscompleteiooperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, stream.iksdatatypehandler_kscompleteiooperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, KsCompleteIoOperation, IKsDataTypeHandler, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT KsCompleteIoOperation(
 
 
 
-#### - Sample [in, out]
+### -param Sample [in, out]
 
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
 
-#### - StreamHeader [in, out]
+### -param StreamHeader [in, out]
 
 Pointer to a buffer that contains the extended header information.
 
 
-#### - IoOperation [in]
+### -param IoOperation [in]
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 <table>
@@ -111,7 +111,7 @@ Read data from stream.
 </table> 
 
 
-#### - Cancelled [in]
+### -param Cancelled [in]
 
 Boolean value that is <b>TRUE</b> if the I/O operation was canceled and <b>FALSE</b> otherwise.
 

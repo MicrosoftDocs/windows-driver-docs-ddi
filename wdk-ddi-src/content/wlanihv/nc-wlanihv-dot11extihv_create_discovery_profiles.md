@@ -79,7 +79,7 @@ DWORD APIENTRY Dot11ExtIhvCreateDiscoveryProfiles(
 
 
 
-#### - hIhvExtAdapter [in, optional]
+### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -87,22 +87,22 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-#### - bInsecure [in]
+### -param bInsecure [in]
 
 A Boolean value that specifies the security status of the discovery profiles. If set to <b>TRUE</b>, the
      IHV Extensions DLL can only return secure profiles, such as profiles which involve user
      authentication.
 
 
-#### - pIhvProfileParams [in, optional]
+### -param pIhvProfileParams [in, optional]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_profile_params" tabindex="0"><b>
-     DOT11EXT_IHV_PROFILE_PARAMS</b></mshelp:link> structure. This structure defines the attributes of the basic service
+     <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
+     DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
 
 
-#### - pConnectableBssid [in, optional]
+### -param pConnectableBssid [in, optional]
 
 A pointer to a 
      <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a> structure, which contains one
@@ -114,15 +114,15 @@ A pointer to a
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div><div> </div>
 
-#### - pIhvDiscoveryProfileList [out]
+### -param pIhvDiscoveryProfileList [out]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_discovery_profile_list" tabindex="0"><b>
-     DOT11EXT_IHV_DISCOVERY_PROFILE_LIST</b></mshelp:link> structure that specifies a list of IHV discovery
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile_list.md">
+     DOT11EXT_IHV_DISCOVERY_PROFILE_LIST</a> structure that specifies a list of IHV discovery
      profiles.
 
 
-#### - pdwReasonCode [out]
+### -param pdwReasonCode [out]
 
 A pointer to a DWORD value, which provides additional information for the return value of the 
      <i>Dot11ExtIhvCreateDiscoveryProfiles</i> function. The IHV Extensions DLL must set *
@@ -181,8 +181,8 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 </ul>
 </li>
 </ul>For more information about creating discovery profiles, see 
-    <mshelp:link keywords="netvista.creating_network_profile_extensions" tabindex="0">Creating Network Profile
-    Extensions</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/creating-network-profile-extensions">Creating Network Profile
+    Extensions</a>.
 
 
 
@@ -190,16 +190,16 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile_list.md">
+   DOT11EXT_IHV_DISCOVERY_PROFILE_LIST</a>
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
-
-<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
-
-<mshelp:link keywords="netvista.dot11ext_ihv_discovery_profile_list" tabindex="0"><b>
-   DOT11EXT_IHV_DISCOVERY_PROFILE_LIST</b></mshelp:link>
 
  
 

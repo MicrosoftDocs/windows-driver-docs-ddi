@@ -77,7 +77,7 @@ typedef EVT_VMB_CHANNEL_OPENED PFN_VMB_CHANNEL_OPENED;
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel that the guest virtual machine opens.
 

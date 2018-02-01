@@ -72,12 +72,12 @@ NTSTATUS APIENTRY DxgkDdiDestroyProcess(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 A handle to the display adapter.
 
 
-#### - hKmdProcess [in]
+### -param hKmdProcess [in]
 
 A handle to the kernel mode driver process.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c0539f0-116e-4344-9584-db7416d258e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_CALLOUT_IO_PACKET0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, FWPS_STREAM_CALLOUT_IO_PACKET0_, netvista.fwps_stream_callout_io_packet0, fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0
+ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0_, netvista.fwps_stream_callout_io_packet0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct FWPS_STREAM_CALLOUT_IO_PACKET0_ {
 
 
 
-#### - streamData
+### -field streamData
 
 A pointer to an 
      <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure that
@@ -82,7 +82,7 @@ A pointer to an
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for processing.
 
 
-#### - missedBytes
+### -field missedBytes
 
 The number of bytes in the data stream that are missing since the last time the callout driver's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function was called. This
@@ -91,7 +91,7 @@ The number of bytes in the data stream that are missing since the last time the 
      portion of the data stream.
 
 
-#### - countBytesRequired
+### -field countBytesRequired
 
 A value set by a callout's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. This value
@@ -107,7 +107,7 @@ If a callout's
      this member to zero.
 
 
-#### - countBytesEnforced
+### -field countBytesEnforced
 
 A value set by a callout's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. This value
@@ -119,7 +119,7 @@ A value set by a callout's
      classifyFn callout function.
 
 
-#### - streamAction
+### -field streamAction
 
 An <b>FWPS_STREAM_ACTION_TYPE</b> value set by a callout's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function that specifies
@@ -139,19 +139,21 @@ If a callout's
      ignored by the filter engine.
 
 
-#### FWPS_STREAM_ACTION_NONE
-
-No stream-specific action is required.
-
-
 #### FWPS_STREAM_ACTION_ALLOW_CONNECTION
 
 Indicates that all future data segments belonging to a flow are permitted. In this case, WFP stops classifying any data segments to the callout and attempts to offload the flow to the hardware such that no more inspection overhead is incurred.
 
 
-#### FWPS_STREAM_ACTION_NEED_MORE_DATA
+#### FWPS_STREAM_ACTION_DEFER
 
-More stream data is required by the callout function.
+Processing of the stream data will be deferred until the callout driver calls the 
+       <a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a> function. This
+       action can only be set for an inbound data stream.
+       
+
+Deferring an inbound data stream will cause the network stack to stop acknowledging data received
+       from the sender. This will lead to a reduction in the size of the sliding TCP window. A callout driver
+       can use this behavior to implement flow control to slow down the incoming data rate.
 
 
 #### FWPS_STREAM_ACTION_DROP_CONNECTION
@@ -170,16 +172,14 @@ The stream connection should be dropped. A callout's
        <b>FWP_ACTION_CALLOUT_INSPECTION</b>, the connection will not be dropped.
 
 
-#### FWPS_STREAM_ACTION_DEFER
+#### FWPS_STREAM_ACTION_NEED_MORE_DATA
 
-Processing of the stream data will be deferred until the callout driver calls the 
-       <a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a> function. This
-       action can only be set for an inbound data stream.
-       
+More stream data is required by the callout function.
 
-Deferring an inbound data stream will cause the network stack to stop acknowledging data received
-       from the sender. This will lead to a reduction in the size of the sliding TCP window. A callout driver
-       can use this behavior to implement flow control to slow down the incoming data rate.
+
+#### FWPS_STREAM_ACTION_NONE
+
+No stream-specific action is required.
 
 
 ## -remarks
@@ -195,9 +195,9 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
 <a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
 

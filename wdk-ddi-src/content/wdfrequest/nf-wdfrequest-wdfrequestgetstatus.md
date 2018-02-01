@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestGetStatus, PFN_WDFREQUESTGETSTATUS, WdfRequestGetStatus method, wdfrequest/WdfRequestGetStatus, kmdf.wdfrequestgetstatus, wdf.wdfrequestgetstatus, DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml
+ms.keywords: wdfrequest/WdfRequestGetStatus, WdfRequestGetStatus method, DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, wdf.wdfrequestgetstatus, PFN_WDFREQUESTGETSTATUS, kmdf.wdfrequestgetstatus, WdfRequestGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS WdfRequestGetStatus(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7648c486-181a-45c8-9c4b-e3158428046a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceSetSpecialFileSupport, WdfDeviceSetSpecialFileSupport, DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, PFN_WDFDEVICESETSPECIALFILESUPPORT, WdfDeviceSetSpecialFileSupport method, wdf.wdfdevicesetspecialfilesupport, kmdf.wdfdevicesetspecialfilesupport
+ms.keywords: WdfDeviceSetSpecialFileSupport, DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, PFN_WDFDEVICESETSPECIALFILESUPPORT, wdfdevice/WdfDeviceSetSpecialFileSupport, WdfDeviceSetSpecialFileSupport method, wdf.wdfdevicesetspecialfilesupport, kmdf.wdfdevicesetspecialfilesupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ VOID WdfDeviceSetSpecialFileSupport(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - FileType [in]
+### -param FileType [in]
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md">WDF_SPECIAL_FILE_TYPE</a>-typed enumerator that identifies the type of special file that the driver supports.
 
 
-#### - FileTypeIsSupported [in]
+### -param FileTypeIsSupported [in]
 
 Supplies a Boolean value which, if <b>TRUE</b>, enables support for the special file type and, if <b>FALSE</b>, disables support the special file type.
 
@@ -110,9 +110,9 @@ For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md">WDF_SPECIAL_FILE_TYPE</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
  
 

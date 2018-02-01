@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3B4C0CF0-8153-446E-A834-C1FE28651718
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlPtrdiffTAdd, ntintsafe/RtlPtrdiffTAdd, kernel.rtlptrdifftadd, RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture], RtlPtrdiffTAdd, ntintsafe/RtlPtrdiffTAdd, kernel.rtlptrdifftadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlPtrdiffTAdd(
 
 
 
-#### - Augend [in]
+### -param Augend [in]
 
 The first value in the equation.
 
 
-#### - Addend [in]
+### -param Addend [in]
 
 The value to add to <i>Augend</i>.
 
 
-#### - pResult [out]
+### -param pResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

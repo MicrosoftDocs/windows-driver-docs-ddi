@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 56e147ea-497b-4691-8a62-8165828b1f36
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolValueTextWide, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueTextWide method, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide, GetSymbolValueTextWide method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolValueTextWide method [Windows Debugging], debugger.getsymbolvaluetextwide, IDebugSymbolGroup2, IDebugSymbolGroup2::GetSymbolValueTextWide
+ms.keywords: GetSymbolValueTextWide, IDebugSymbolGroup2, GetSymbolValueTextWide method [Windows Debugging], IDebugSymbolGroup2::GetSymbolValueTextWide, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide, debugger.getsymbolvaluetextwide, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueTextWide method, GetSymbolValueTextWide method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetSymbolValueTextWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 The index of the symbol whose value you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 The value of the symbol as a string.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size, in characters, of the <i>Buffer </i>buffer.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 The size, in characters, of the value of the symbol.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -137,11 +137,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561457">WriteSymbol</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

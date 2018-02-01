@@ -72,12 +72,12 @@ VOID EvtSerCx2SystemDmaTransmitInitializeTransaction(
 
 
 
-#### - SystemDmaTransmit [in]
+### -param SystemDmaTransmit [in]
 
 A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to be transferred in the system-DMA-transmit transaction.
 

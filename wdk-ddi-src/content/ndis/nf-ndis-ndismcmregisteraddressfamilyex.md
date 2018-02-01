@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex, NdisMCmRegisterAddressFamilyEx
+ms.keywords: condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, NdisMCmRegisterAddressFamilyEx, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,15 +71,15 @@ NDIS_STATUS NdisMCmRegisterAddressFamilyEx(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 An NDIS-supplied handle that identifies a miniport adapter. This handle is an input parameter to
      the MCM's 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
-#### - AddressFamily [in]
+### -param AddressFamily [in]
 
 A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a> structure that identifies
@@ -87,8 +87,8 @@ A pointer to a
      
 
 The pointer becomes an input parameter to the 
-     <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-     ProtocolCoAfRegisterNotify</i></mshelp:link> functions of all of the CoNDIS clients that are bound to this MCM
+     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     ProtocolCoAfRegisterNotify</a> functions of all of the CoNDIS clients that are bound to this MCM
      driver.
 
 
@@ -110,8 +110,8 @@ The pointer becomes an input parameter to the
 <td width="60%">
 The miniport driver registered with NDIS as a call manager for the AF that the 
        <i>AddressFamily</i> parameter specified, so NDIS will call the 
-       <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-       ProtocolCoAfRegisterNotify</i></mshelp:link> functions of all of the clients that bind to the MCM driver.
+       <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+       ProtocolCoAfRegisterNotify</a> functions of all of the clients that bind to the MCM driver.
 
 </td>
 </tr>
@@ -159,12 +159,12 @@ The caller tried to register a duplicate AF for a given miniport adapter.
 
 
 NDIS MCMs, which register as NDIS miniport drivers by calling the 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link> function, should call the 
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a> function, should call the 
     <b>NdisMCmRegisterAddressFamilyEx</b> function to register an AF. Stand-alone call managers should instead
     call the 
-    <mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-    NdisCmRegisterAddressFamilyEx</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+    NdisCmRegisterAddressFamilyEx</a> function.
 
 To register an AF for a miniport adapter, the MCM should call 
     <b>NdisMCmRegisterAddressFamilyEx</b> from the 
@@ -185,8 +185,8 @@ After
     the 
     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> functions
     of potential clients and, then, the 
-    <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-    ProtocolCoAfRegisterNotify</i></mshelp:link> functions of all of the clients that bind themselves to the associated
+    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    ProtocolCoAfRegisterNotify</a> functions of all of the clients that bind themselves to the associated
     MCM miniport adapter. These clients then cause NDIS to call the 
     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function of the
     MCM.
@@ -200,29 +200,29 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+   NdisCmRegisterAddressFamilyEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-   NdisCmRegisterAddressFamilyEx</b></mshelp:link>
 
  
 

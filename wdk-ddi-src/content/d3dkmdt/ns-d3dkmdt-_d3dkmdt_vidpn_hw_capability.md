@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d881133-3ea7-43c4-99cc-d843026573d6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_vidpn_hw_capability, DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, D3DKMDT_VIDPN_HW_CAPABILITY, d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, _D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices]
+ms.keywords: d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY, DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, _D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _D3DKMDT_VIDPN_HW_CAPABILITY {
 
 
 
-#### - DriverRotation
+### -field DriverRotation
 
 A UINT value that describes the capability of the display miniport driver to display a rotated image.
 
@@ -82,7 +82,7 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 If set to 0, the driver uses display pipeline hardware to directly generate the rotated image.
 
 
-#### - DriverScaling
+### -field DriverScaling
 
 A UINT value that describes the capability of the display miniport driver to display a scaled image.
 
@@ -91,7 +91,7 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 If set to 0, the driver uses display pipeline hardware to directly generate the scaled image.
 
 
-#### - DriverCloning
+### -field DriverCloning
 
 A UINT value that describes the capability of the display miniport driver to display a cloned image.
 
@@ -100,7 +100,7 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 If set to 0, the driver uses display pipeline hardware to directly generate the cloned image.
 
 
-#### - DriverColorConvert
+### -field DriverColorConvert
 
 A UINT value that describes the capability of the display miniport driver to display a color-convert bit-block transfer (bitblt).
 
@@ -109,7 +109,7 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 If set to 0, the driver uses display pipeline hardware to directly generate the color-converted image.
 
 
-#### - DriverLinkedAdapaterOutput
+### -field DriverLinkedAdapaterOutput
 
 A UINT value that describes the capability of the display miniport driver to perform a bit-block transfer (bitblt) of a primary surface from one linked display adapter to another linked display adapter.
 
@@ -118,7 +118,7 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 If set to 0, the driver uses display pipeline hardware to directly generate the bitblt from the first linked display adapter and to display it with the second linked display adapter.
 
 
-#### - DriverRemoteDisplay
+### -field DriverRemoteDisplay
 
 A UINT value that describes whether the display pipeline hardware is located on the same device as the GPU graphics rendering pipeline.
 
@@ -127,7 +127,7 @@ If set to a nonzero value, the display pipeline hardware is not located on the s
 If set to 0, the display pipeline hardware is located on the same device as the GPU graphics rendering pipeline.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use. The display miniport driver must set this value to 0.
 

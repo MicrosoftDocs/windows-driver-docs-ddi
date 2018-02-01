@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43c55364-1f73-4413-99fb-27c85600d7a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_d690dcf4-4ef6-4aea-80dc-846649ed3142.xml, HBA_GetVendorLibraryAttributes routine [Storage Devices], hbaapi/HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes, storage.hba_getvendorlibraryattributes
+ms.keywords: hbaapi/HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes routine [Storage Devices], fibreHBA_rtns_d690dcf4-4ef6-4aea-80dc-846649ed3142.xml, storage.hba_getvendorlibraryattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ HBA_UINT32 HBA_API HBA_GetVendorLibraryAttributes(
 
 
 
-#### - AdapterIndex [in]
+### -param AdapterIndex [in]
 
 Contains an adapter index that identifies which library to query. Each library is associated with one or more HBAs. This routine uses an index to identify the HBA so that the caller does not have to open the adapter to obtain a name or handle. The HBA API library can be associated with more than one HBA, so the same library attributes might be retrieved for different HBAs. The adapter index must be within the range of values returned by <a href="..\hbaapi\nf-hbaapi-hba_getnumberofadapters.md">HBA_GetNumberOfAdapters</a>. 
 
 
-#### - Attributes [out]
+### -param Attributes [out]
 
 Pointer, on return, to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a> that holds the attributes of the library associated with the adapter referenced by <i>AdapterIndex</i>.
 
@@ -98,11 +98,11 @@ Microsoft supplies both libraries, so currently they return the same information
 
 ## -see-also
 
+<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
+
 <a href="..\hbaapi\nf-hbaapi-hba_getwrapperlibraryattributes.md">HBA_GetWrapperLibraryAttributes</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_getnumberofadapters.md">HBA_GetNumberOfAdapters</a>
-
-<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
 
  
 

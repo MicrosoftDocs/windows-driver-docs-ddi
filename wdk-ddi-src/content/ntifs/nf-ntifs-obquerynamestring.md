@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3c540410-6478-4da1-8ef5-b6d21d322b32
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml, ObQueryNameString, ntifs/ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], ifsk.obquerynamestring
+ms.keywords: obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml, ifsk.obquerynamestring, ObQueryNameString routine [Installable File System Drivers], ObQueryNameString, ntifs/ObQueryNameString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ObQueryNameString(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 A pointer to the object for which the name is requested. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - ObjectNameInfo [out, optional]
+### -param ObjectNameInfo [out, optional]
 
 A pointer to a caller-allocated buffer, of the following type, that receives the object name information: 
 <div class="code"><span codelanguage=""><table>
@@ -92,12 +92,12 @@ A pointer to a caller-allocated buffer, of the following type, that receives the
 </table></span></div>This parameter is optional and can be <b>NULL</b>. If <i>ObjectNameInfo</i> is <b>NULL</b>, <i>Length</i> must be zero.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The size, in bytes, of the buffer that is pointed to by <i>ObjectNameInfo</i>. This parameter is optional and can be zero. If <i>Length</i> is zero, <i>ReturnLength</i> receives the size, in bytes, of the buffer that is needed to hold the object name information. A reasonable size for the buffer to accommodate most object names is 1024 bytes. If <i>Length</i> is zero, <i>ObjectNameInfo</i> can be <b>NULL</b>.
 
 
-#### - ReturnLength [out]
+### -param ReturnLength [out]
 
 A pointer to a caller-allocated variable that receives the size, in bytes, of the returned object name information. The object name (when present) includes a NULL-terminator and all path separators "\" in the name. If <b>ObQueryNameString</b> returns <b>STATUS_INFO_LENGTH_MISMATCH</b>, it sets this parameter to the required buffer length. 
 

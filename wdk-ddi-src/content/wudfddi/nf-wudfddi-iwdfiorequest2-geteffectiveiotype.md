@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2::GetEffectiveIoType, wudfddi/IWDFIoRequest2::GetEffectiveIoType, umdf.iwdfiorequest2_geteffectiveiotype, GetEffectiveIoType, GetEffectiveIoType method, IWDFIoRequest2 interface, GetEffectiveIoType method, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, IWDFIoRequest2, wdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2 interface, GetEffectiveIoType method
+ms.keywords: wdf.iwdfiorequest2_geteffectiveiotype, GetEffectiveIoType, wudfddi/IWDFIoRequest2::GetEffectiveIoType, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2, GetEffectiveIoType method, IWDFIoRequest2::GetEffectiveIoType, IWDFIoRequest2 interface, GetEffectiveIoType method, GetEffectiveIoType method, IWDFIoRequest2 interface, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,9 +85,9 @@ For more information about accessing data buffers and when your driver should us
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
  
 

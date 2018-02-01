@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a2c98783-c463-435e-9d78-c10686f1c75c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PUNI_GLYPHSETDATA, prntfont/UNI_GLYPHSETDATA, _UNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], print.uni_glyphsetdata, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, prntfont/PUNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], *PUNI_GLYPHSETDATA, UNI_GLYPHSETDATA
+ms.keywords: "_UNI_GLYPHSETDATA, PUNI_GLYPHSETDATA, print.uni_glyphsetdata, prntfont/UNI_GLYPHSETDATA, UNI_GLYPHSETDATA, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, PUNI_GLYPHSETDATA structure pointer [Print Devices], *PUNI_GLYPHSETDATA, prntfont/PUNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,57 +78,57 @@ typedef struct _UNI_GLYPHSETDATA {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the total size, in bytes, of the .gtt file. Note that this is the total size of all structures used to define the file. This value is not the size of the UNI_GLYPHSETDATA structure.
 
 
-#### - dwVersion
+### -field dwVersion
 
 Specifies the file version number, as defined in prntfont.h by a constant with a name format of UNI_GLYPHSETDATA_VERSION_<i>x</i>_<i>x</i>.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Not used.
 
 
-#### - lPredefinedID
+### -field lPredefinedID
 
 Specifies one of the CC_-prefixed code conversion identifiers defined in prntfont.h. 
 
 
-#### - dwGlyphCount
+### -field dwGlyphCount
 
 Specifies the number of glyphs provided by this font.
 
 
-#### - dwRunCount
+### -field dwRunCount
 
 Specifies the number of <a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a> structures in the array pointed to by <b>loRunOffset</b>.
 
 
-#### - loRunOffset
+### -field loRunOffset
 
 Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of an array of <a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a> structures.
 
 
-#### - dwCodePageCount
+### -field dwCodePageCount
 
 Specifies the number of <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a> structures in the array pointed to by <b>loCodePageOffset</b>.
 
 
-#### - loCodePageOffset
+### -field loCodePageOffset
 
 Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of an array of <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a> structures.
 
 
-#### - loMapTableOffset
+### -field loMapTableOffset
 
 Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of a <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a> structure.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Reserved for system use.
 

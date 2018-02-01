@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a8e1ea01-2050-413a-991f-55c29977b6dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2SETSTREAMSOURCE2 structure pointer [Display Devices], d3dhal/D3DHAL_DP2SETSTREAMSOURCE2, _D3DHAL_DP2SETSTREAMSOURCE2, display.d3dhal_dp2setstreamsource2, *LPD3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2 structure [Display Devices], d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE2, LPD3DHAL_DP2SETSTREAMSOURCE2, d3dstrct_81c5d4ff-bd3e-4f52-a062-c30755da9416.xml, D3DHAL_DP2SETSTREAMSOURCE2
+ms.keywords: D3DHAL_DP2SETSTREAMSOURCE2 structure [Display Devices], _D3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2, *LPD3DHAL_DP2SETSTREAMSOURCE2, LPD3DHAL_DP2SETSTREAMSOURCE2, d3dhal/D3DHAL_DP2SETSTREAMSOURCE2, display.d3dhal_dp2setstreamsource2, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE2, d3dstrct_81c5d4ff-bd3e-4f52-a062-c30755da9416.xml, LPD3DHAL_DP2SETSTREAMSOURCE2 structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,31 +74,31 @@ typedef struct _D3DHAL_DP2SETSTREAMSOURCE2 {
 
 
 
-#### - dwStream
+### -field dwStream
 
 Specifies the stream being bound. It has a value between zero and the maximum number of streams specified by the driver.
 
 
-#### - dwVBHandle
+### -field dwVBHandle
 
 Specifies the vertex buffer handle. It is legal for the vertex buffer handle to be zero, in which case the stream is no longer bound to a vertex buffer.
 
 
-#### - dwOffset
+### -field dwOffset
 
 Specifies the offset of the first vertex size in bytes.
 
 
-#### - dwStride
+### -field dwStride
 
 Specifies the vertex size in bytes.
 
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 D3DDP2OP_SETSTREAMSOURCE2
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

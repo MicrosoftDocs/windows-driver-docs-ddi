@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1af15e59-8796-48e2-ab18-a450db3086d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: QueryDeviceDefaultNamespace method [Print Devices], QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, print.iprintoemprintticketprovider_querydevicedefaultnamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method
+ms.keywords: print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, print.iprintoemprintticketprovider_querydevicedefaultnamespace, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT QueryDeviceDefaultNamespace(
 
 
 
-#### - pbstrNamespaceUri [out]
+### -param pbstrNamespaceUri [out]
 
 A pointer to a BSTR that receives the namespace URI. The plug-in places the namespace URI in the buffer that is pointed to by <i>pbstrNamespaceUri</i>. <code>IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace</code> is responsible for allocating the string by means of a call to <b>SysAllocString</b> (described in the Microsoft Windows SDK documentation), but the caller is responsible for freeing the string.
 

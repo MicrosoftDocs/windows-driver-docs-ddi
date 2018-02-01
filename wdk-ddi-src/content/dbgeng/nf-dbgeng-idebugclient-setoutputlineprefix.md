@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 59A3FD7D-153D-4580-84C1-2408A485F684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix method [Windows Debugging], IDebugClient interface, SetOutputLinePrefix method [Windows Debugging], IDebugClient interface [Windows Debugging], SetOutputLinePrefix method, IDebugClient, debugger.idebugclient_setoutputlineprefix, IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix
+ms.keywords: dbgeng/IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix, IDebugClient interface [Windows Debugging], SetOutputLinePrefix method, SetOutputLinePrefix method [Windows Debugging], IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix method [Windows Debugging], IDebugClient interface, debugger.idebugclient_setoutputlineprefix, IDebugClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetOutputLinePrefix(
 
 
 
-#### - Prefix [in, optional]
+### -param Prefix [in, optional]
 
 A pointer to the prefix value.
 

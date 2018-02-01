@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CA5BC76B-539E-4FFF-8E02-C475D18588F6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_registertrimnotification, d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, _D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices]
+ms.keywords: d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, display.d3dkmt_registertrimnotification, _D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices], D3DKMT_REGISTERTRIMNOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,27 +73,27 @@ typedef struct _D3DKMT_REGISTERTRIMNOTIFICATION {
 
 
 
-#### - AdapterLuid
+### -field AdapterLuid
 
 [in] Luid of the adapter which the device created.
 
 
-#### - hDevice
+### -field hDevice
 
 [in] Device to trim the residency list for.
 
 
-#### - Callback
+### -field Callback
 
 [in] Pointer to the callback function.
 
 
-#### - Context
+### -field Context
 
 [in] Caller-supplied context for callback.
 
 
-#### - Handle
+### -field Handle
 
 [out] Handle that will be used to unregister the callback with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>.
 

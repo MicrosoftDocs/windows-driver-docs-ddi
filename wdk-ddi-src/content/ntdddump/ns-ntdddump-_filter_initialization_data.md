@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DUMP_FILTER_MAJOR_VERSION, _FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, FILTER_INITIALIZATION_DATA structure [Storage Devices], DUMP_FILTER_MAJOR_VERSION_1, ntdddump/PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], FILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA
+ms.keywords: DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, ntdddump/FILTER_INITIALIZATION_DATA, _FILTER_INITIALIZATION_DATA, storage.filter_initialization_data, PFILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION, FILTER_INITIALIZATION_DATA structure [Storage Devices], FILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION_1, DUMP_FILTER_CRITICAL, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, *PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], ntdddump/PFILTER_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,55 +76,55 @@ typedef struct _FILTER_INITIALIZATION_DATA {
 
 
 
-#### - MajorVersion
+### -field MajorVersion
 
 Set to one of the following major version values:
-
-
-#### DUMP_FILTER_MAJOR_VERSION_1 (0x1)
-
 
 
 #### DUMP_FILTER_MAJOR_VERSION (0x2)
 
 
 
-#### - MinorVersion
+#### DUMP_FILTER_MAJOR_VERSION_1 (0x1)
+
+
+
+### -field MinorVersion
 
 Set to <b>DUMP_FILTER_MINOR_VERSION</b>.
 
 
-#### - DumpStart
+### -field DumpStart
 
 A pointer to the dump initialization routine. This routine is called when the crash dump starts.
 
 
-#### - DumpWrite
+### -field DumpWrite
 
 A pointer to the write routine. This routine is called before every crash dump write request.
 
 
-#### - DumpFinish
+### -field DumpFinish
 
 A pointer to the dump finish routine.  This routine is called when the crash dump is finished.
 
 
-#### - DumpUnload
+### -field DumpUnload
 
 A pointer to the dump unload routine. This routine is called before the driver is unloaded.
 
 
-#### - DumpData
+### -field DumpData
 
 The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure during each callback.
 
 
-#### - MaxPagesPerWrite
+### -field MaxPagesPerWrite
 
 The maximum number of pages for each dump read or write request.
 
 
-#### - Flags
+### -field Flags
 
 A set of flags for  dump filter initialization. This value is set to either 0 or the following:
 <table>
@@ -155,7 +155,7 @@ Fail the filter initialization  immediately if the  dump filter driver's <b>Driv
 </table> 
 
 
-#### - DumpRead
+### -field DumpRead
 
 A pointer to the read routine. This routine is called after every crash dump read request. This member is available starting in Windows 8.
 
@@ -174,17 +174,17 @@ For a dump filter driver to support read filtering, the following settings are r
 
 ## -see-also
 
-<a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
-
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
+<a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
+
+<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
 
 <a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
+<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
 
  
 

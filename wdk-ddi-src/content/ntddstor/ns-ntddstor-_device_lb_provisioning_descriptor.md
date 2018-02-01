@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, _DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, storage.device_lb_provisioning_descriptor, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], *PDEVICE_LB_PROVISIONING_DESCRIPTOR
+ms.keywords: ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], *PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, _DEVICE_LB_PROVISIONING_DESCRIPTOR, storage.device_lb_provisioning_descriptor, DEVICE_LB_PROVISIONING_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,17 +78,17 @@ typedef struct _DEVICE_LB_PROVISIONING_DESCRIPTOR {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure.
 
 
-#### - Size
+### -field Size
 
 The size of this structure. This is set to <b>sizeof</b>(DEVICE_LB_PROVISIONING_DESCRIPTOR).
 
 
-#### - ThinProvisioningEnabled
+### -field ThinProvisioningEnabled
 
 The thin provisioning–enabled status.
 <table>
@@ -121,7 +121,7 @@ Thin provisioning is enabled.
 </table> 
 
 
-#### - ThinProvisioningReadZeros
+### -field ThinProvisioningReadZeros
 
 Reads to unmapped regions return zeros.
 <table>
@@ -154,7 +154,7 @@ Reads return zeros.
 </table> 
 
 
-#### - AnchorSupported
+### -field AnchorSupported
 
 Support for the anchored LBA mapping state.
 <table>
@@ -187,7 +187,7 @@ The anchored LBA mapping state is supported.
 </table> 
 
 
-#### - UnmapGranularityAlignmentValid
+### -field UnmapGranularityAlignmentValid
 
 The validity of unmap granularity alignment for the device.
 <table>
@@ -230,22 +230,22 @@ Unmap granularity alignment is valid.
  
 
 
-#### - OptimalUnmapGranularity
+### -field OptimalUnmapGranularity
 
 The optimal number of blocks for unmap granularity for the device.
 
 
-#### - UnmapGranularityAlignment
+### -field UnmapGranularityAlignment
 
 The current value, in blocks, set for unmap granularity alignment on the device.   The value <b>UnmapGranularityAlignmentValid</b> indicates the validity of this member.
 
 
-#### - MaxUnmapLbaCount
+### -field MaxUnmapLbaCount
 
 Maximum amount of LBAs that can be unmapped in a single UNMAP command, in units of logical blocks. This is valid only in Windows 10 and above.
 
 
-#### - MaxUnmapBlockDescriptorCount
+### -field MaxUnmapBlockDescriptorCount
 
 Maximum number of descriptors allowed in a single UNMAP command. This is valid only in Windows 10 and above.
 

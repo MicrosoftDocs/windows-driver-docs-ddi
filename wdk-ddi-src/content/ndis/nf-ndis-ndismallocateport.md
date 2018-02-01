@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ca3a2a12-ea80-4f77-9742-b0440fb441f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, ndis/NdisMAllocatePort, netvista.ndismallocateport, NdisMAllocatePort function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport, ndis/NdisMAllocatePort, NdisMAllocatePort function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,19 +75,19 @@ NDIS_STATUS NdisMAllocatePort(
 TBD
 
 
-#### - PortCharacteristics [in, out]
+### -param PortCharacteristics [in, out]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_port_characteristics" tabindex="0"><b>
-     NDIS_PORT_CHARACTERISTICS</b></mshelp:link> structure that defines the characteristics of the port.
+     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     NDIS_PORT_CHARACTERISTICS</a> structure that defines the characteristics of the port.
 
 
 #### - MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ## -returns
@@ -165,8 +165,8 @@ After the miniport driver activates the port, NDIS generates a PnP notification 
 When 
     <b>NdisMAllocatePort</b> successfully returns, the 
     <b>PortNumber</b> member of the 
-    <mshelp:link keywords="netvista.ndis_port_characteristics" tabindex="0"><b>
-    NDIS_PORT_CHARACTERISTICS</b></mshelp:link> structure that the 
+    <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+    NDIS_PORT_CHARACTERISTICS</a> structure that the 
     <i>PortCharacteristics</i> parameter specifies is set to the port number that NDIS assigned to the
     port.
 
@@ -177,11 +177,11 @@ After a port is no longer required, the miniport driver should call the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-
 <a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
 
 <a href="https://msdn.microsoft.com/39c77921-5841-40f5-90ba-0fba89b3b55e">Allocating an NDIS Port</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 

@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY DeleteVertexShaderDecl(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 

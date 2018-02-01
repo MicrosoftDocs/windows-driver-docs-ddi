@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 332ef453-6f9d-4cdd-a8c7-766158e540d8
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_usagelistdifference, hidpi/HidP_UsageListDifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, HidP_UsageListDifference routine [Human Input Devices], HidP_UsageListDifference
+ms.keywords: HidP_UsageListDifference routine [Human Input Devices], HidP_UsageListDifference, hid.hidp_usagelistdifference, hidpi/HidP_UsageListDifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS __stdcall HidP_UsageListDifference(
 
 
 
-#### - PreviousUsageList [in]
+### -param PreviousUsageList [in]
 
 Pointer to a list of usages that the routine compares with the list of usages in <i>CurrentUsageList</i>.
 
 
-#### - CurrentUsageList [in]
+### -param CurrentUsageList [in]
 
 Pointer to a list of usages that the routine compares with the list of usages in <i>PreviousUsageList</i>.
 
 
-#### - BreakUsageList [out]
+### -param BreakUsageList [out]
 
 Pointer to a caller-allocated buffer that, on return, contains a list of the usages that are in <i>PreviousUsageList</i>, but not in <i>CurrentUsageList</i>.
 
 
-#### - MakeUsageList [out]
+### -param MakeUsageList [out]
 
 Pointer to a caller-allocated buffer that, on return, contains a list of the usages that are in <i>CurrentUsageList</i>, but not in <i>PreviousUsageList</i>.
 
 
-#### - UsageListLength [in]
+### -param UsageListLength [in]
 
 Specifies the length, in array elements, of the buffers provided at <i>CurrentUsageList </i>and <i>PreviousUsageList</i>.
 

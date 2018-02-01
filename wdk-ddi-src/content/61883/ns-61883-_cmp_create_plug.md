@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4FE3FE9E-9F00-431D-99F0-002B1368CE34
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCMP_CREATE_PLUG structure pointer [Buses], CMP_CREATE_PLUG structure [Buses], PCMP_CREATE_PLUG, CMP_CREATE_PLUG, *PCMP_CREATE_PLUG, _CMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, IEEE.cmp_create_plug
+ms.keywords: CMP_CREATE_PLUG structure [Buses], PCMP_CREATE_PLUG structure pointer [Buses], 61883/PCMP_CREATE_PLUG, CMP_CREATE_PLUG, _CMP_CREATE_PLUG, PCMP_CREATE_PLUG, IEEE.cmp_create_plug, 61883/CMP_CREATE_PLUG, *PCMP_CREATE_PLUG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,16 +72,11 @@ typedef struct _CMP_CREATE_PLUG {
 
 
 
-#### - PlugType
+### -field PlugType
 
 On input, the type of plug to create. Can be one of the following:
 
 
-
-
-#### CMP_PlugOut
-
-An output plug, which transmits data from the device to the bus.
 
 
 #### CMP_PlugIn
@@ -89,27 +84,32 @@ An output plug, which transmits data from the device to the bus.
 An input plug, which receives data sent by the bus to the device.
 
 
-#### - Pcr
+#### CMP_PlugOut
+
+An output plug, which transmits data from the device to the bus.
+
+
+### -field Pcr
 
 On input, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a> structure that contains values used by the protocol driver to initialize the plug. 
 
 
-#### - pfnNotify
+### -field pfnNotify
 
 On input, a pointer to a caller-supplied function to be called by the protocol driver when the plug is created. 
 
 
-#### - Context
+### -field Context
 
 On input, a pointer to an optional caller-supplied context for the function at <b>pfnNotify</b>. 
 
 
-#### - PlugNum
+### -field PlugNum
 
 On output, the plug number. 
 
 
-#### - hPlug
+### -field hPlug
 
 On output, the handle of the created plug
 

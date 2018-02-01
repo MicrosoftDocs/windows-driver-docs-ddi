@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30ce30db-e030-43c3-bf8d-2f6ef86087ab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_WWNTYPE, HBA_wwntype enumeration [Storage Devices], HBA_wwntype, hbaapi/NODE_WWN, storage.hba_wwntype, PORT_WWN, structs-Fibre_d6003dc8-cbef-437b-bb14-353416b04417.xml, hbaapi/HBA_wwntype, NODE_WWN, HBA_WWNTYPE enumeration [Storage Devices], hbaapi/PORT_WWN
+ms.keywords: HBA_wwntype enumeration [Storage Devices], PORT_WWN, hbaapi/HBA_wwntype, hbaapi/PORT_WWN, HBA_WWNTYPE enumeration [Storage Devices], hbaapi/NODE_WWN, NODE_WWN, HBA_WWNTYPE, structs-Fibre_d6003dc8-cbef-437b-bb14-353416b04417.xml, HBA_wwntype, storage.hba_wwntype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum HBA_wwntype {
 
 
 
-#### - NODE_WWN
+### -field NODE_WWN
 
 Indicates that the world wide name specifies a node..
 
 
-#### - PORT_WWN
+### -field PORT_WWN
 
 Indicates that the world wide name specifies a port. 
 

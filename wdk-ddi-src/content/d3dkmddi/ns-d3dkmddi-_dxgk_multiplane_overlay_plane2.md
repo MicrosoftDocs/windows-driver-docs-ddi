@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31A1EAFB-FA48-432D-963E-EA907B43F08A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_PLANE2, display.dxgk_multiplane_overlay_plane2, DXGK_MULTIPLANE_OVERLAY_PLANE2, DXGK_MULTIPLANE_OVERLAY_PLANE2 structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE2"
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE2, _DXGK_MULTIPLANE_OVERLAY_PLANE2, display.dxgk_multiplane_overlay_plane2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE2, DXGK_MULTIPLANE_OVERLAY_PLANE2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE2 {
 
 
 
-#### - LayerIndex
+### -field LayerIndex
 
 The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
 
 
-#### - Enabled
+### -field Enabled
 
 Indicates whether the overlay plane specified by <b>LayerIndex</b> is enabled for display.
 
 
-#### - AllocationSegment
+### -field AllocationSegment
 
 The identifier of a segment that data is read from.
 
 
-#### - AllocationAddress
+### -field AllocationAddress
 
 A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address within the segment that <b>AllocationSegment</b> specifies, where the data is read.
 
 
-#### - hAllocation
+### -field hAllocation
 
 A handle to the allocation to be displayed on the overlay plane.
 
 
-#### - PlaneAttributes
+### -field PlaneAttributes
 
 A structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> that specifies overlay plane attributes.
 

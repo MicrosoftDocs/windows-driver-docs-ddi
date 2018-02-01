@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2f996b1-0c1a-4ad5-a4c4-5d84ca94c5a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlRemoveUnicodePrefix routine [Installable File System Drivers], ifsk.rtlremoveunicodeprefix, RtlRemoveUnicodePrefix, rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml, ntifs/RtlRemoveUnicodePrefix
+ms.keywords: RtlRemoveUnicodePrefix, rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml, ifsk.rtlremoveunicodeprefix, RtlRemoveUnicodePrefix routine [Installable File System Drivers], ntifs/RtlRemoveUnicodePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID RtlRemoveUnicodePrefix(
 
 
 
-#### - PrefixTable [in]
+### -param PrefixTable [in]
 
 Pointer to the prefix table. The table must have been initialized by calling <a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>.
 
 
-#### - PrefixTableEntry [in]
+### -param PrefixTableEntry [in]
 
 Pointer to the prefix table element to be deleted. 
 
@@ -98,13 +98,13 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
 
 <a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
 
 <a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
 
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
 
  
 

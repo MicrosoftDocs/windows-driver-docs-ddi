@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2C51BB44-3204-4EE8-9C86-605698BD58C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SP_ROW_MAJOR, d3d12umddi/D3D12DDI_SP_ROW_MAJOR, display.d3d12ddi_swizzle_pattern, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], D3D12DDI_SWIZZLE_PATTERN
+ms.keywords: D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], display.d3d12ddi_swizzle_pattern, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, d3d12umddi/D3D12DDI_SP_ROW_MAJOR, d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SP_64KB_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SP_ROW_MAJOR, D3D12DDI_SWIZZLE_PATTERN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum D3D12DDI_SWIZZLE_PATTERN {
 
 
 
-#### - D3D12DDI_SP_ROW_MAJOR
+### -field D3D12DDI_SP_ROW_MAJOR
 
 A row major swizzle pattern.
 
 
-#### - D3D12DDI_SP_64KB_STANDARD_SWIZZLE
+### -field D3D12DDI_SP_64KB_STANDARD_SWIZZLE
 
 A 64 KB standard swizzle pattern.
 
 
-#### - D3D12DDI_SP_DEVICE_DEPENDENT_0
+### -field D3D12DDI_SP_DEVICE_DEPENDENT_0
 
 A device dependant swizzle pattern. 
 

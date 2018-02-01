@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f90732ab-3756-46e2-8a15-e94ff82b3548
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcollectiongetlastitem, wdfcollection/WdfCollectionGetLastItem, WdfCollectionGetLastItem method, wdf.wdfcollectiongetlastitem, DFCollectionObjectRef_1c6d4bbf-6d37-4b27-8421-df1ce61888ef.xml, WdfCollectionGetLastItem, PFN_WDFCOLLECTIONGETLASTITEM
+ms.keywords: WdfCollectionGetLastItem method, WdfCollectionGetLastItem, DFCollectionObjectRef_1c6d4bbf-6d37-4b27-8421-df1ce61888ef.xml, wdf.wdfcollectiongetlastitem, wdfcollection/WdfCollectionGetLastItem, PFN_WDFCOLLECTIONGETLASTITEM, kmdf.wdfcollectiongetlastitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFOBJECT WdfCollectionGetLastItem(
 
 
 
-#### - Collection [in]
+### -param Collection [in]
 
 A handle to a collection object.
 

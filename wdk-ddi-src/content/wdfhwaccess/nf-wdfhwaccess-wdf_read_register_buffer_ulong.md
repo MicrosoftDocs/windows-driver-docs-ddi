@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 249D8FCF-6B63-467B-AEAA-BCF4900CFA48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_read_register_buffer_ulong, WDF_READ_REGISTER_BUFFER_ULONG function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG, WDF_READ_REGISTER_BUFFER_ULONG
+ms.keywords: WDF_READ_REGISTER_BUFFER_ULONG, wdf.wdf_read_register_buffer_ulong, WDF_READ_REGISTER_BUFFER_ULONG function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WDF_READ_REGISTER_BUFFER_ULONG(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a buffer into which an array of ULONG values is read.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to be read into the buffer.
 

@@ -74,41 +74,29 @@ VOID APIENTRY* TiledResourceBarrier(
 
 
 
-#### - hDevice
+### -param hDevice
 
 A handle to the display device (graphics context).
 
 
-#### - TiledResourceAccessBeforeBarrierHandleType
+### -param TiledResourceAccessBeforeBarrierHandleType
 
 A handle to the tiled resource.
 
 
-#### - *hTiledResourceAccessBeforeBarrier [in, optional]
+### -param *hTiledResourceAccessBeforeBarrier [in, optional]
 
 A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must complete before the access operations on the object that <i>hTiledResourceAccessAfterBarrier</i> specifies.
 
 
 
 
-#### - TiledResourceAccessAfterBarrierHandleType
+### -param TiledResourceAccessAfterBarrierHandleType
 
 The <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a> handle type of the resources pointed to by the <i>hTiledResourceAccessBeforeBarrier</i> and <i>hTiledResourceAccessAfterBarrier</i> parameters.
 
 
-#### - *hTiledResourceAccessAfterBarrier [in, optional]
-
-A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must begin after the access operations on the object that <i>hTiledResourceAccessBeforeBarrier</i> specifies.
-
-
-#### - hTiledResourceAccessBeforeBarrier [in, optional]
-
-A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must complete before the access operations on the object that <i>hTiledResourceAccessAfterBarrier</i> specifies.
-
-
-
-
-#### - hTiledResourceAccessAfterBarrier [in, optional]
+### -param *hTiledResourceAccessAfterBarrier [in, optional]
 
 A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must begin after the access operations on the object that <i>hTiledResourceAccessBeforeBarrier</i> specifies.
 

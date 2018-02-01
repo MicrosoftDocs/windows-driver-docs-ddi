@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 95b80298-a3b4-416b-8744-88873ac30037
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSDEVICE, KSDEVICE structure [Streaming Media Devices], PKSDEVICE structure pointer [Streaming Media Devices], avstruct_0f140861-d58a-48cf-9bac-679acbd30d02.xml, PKSDEVICE, _KSDEVICE, *PKSDEVICE, stream.ksdevice, KSDEVICE, ks/KSDEVICE
+ms.keywords: KSDEVICE, ks/KSDEVICE, KSDEVICE structure [Streaming Media Devices], stream.ksdevice, ks/PKSDEVICE, _KSDEVICE, *PKSDEVICE, avstruct_0f140861-d58a-48cf-9bac-679acbd30d02.xml, PKSDEVICE structure pointer [Streaming Media Devices], PKSDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,11 +76,6 @@ typedef struct _KSDEVICE {
 
 
 
-#### - Descriptor
-
-A pointer to a <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> structure that describes the characteristics of the device and the static filters supported by it.
-
-
 #### - Bag
 
 This member specifies the KSOBJECT_BAG (equivalent to type PVOID) associated with the device. See <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>.
@@ -91,19 +86,29 @@ This member specifies the KSOBJECT_BAG (equivalent to type PVOID) associated wit
 A pointer to a memory location that contains context information for the device. AVStream stores a pointer to a device extension in this member for minidrivers that allocate a device extension in <a href="..\ks\nc-ks-pfnksdevicepnpstart.md">AVStrMiniDeviceStart</a>. Memory allocated for context should be placed in the object bag using <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>. <b>Context</b> is initialized to <b>NULL</b> at create time.
 
 
+#### - Descriptor
+
+A pointer to a <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> structure that describes the characteristics of the device and the static filters supported by it.
+
+
+#### - DevicePowerState
+
+A DEVICE_POWER_STATE-typed value that indicates the current power state of the device. DEVICE_POWER_STATE values are defined in <i>wdm.h</i>.
+
+
 #### - FunctionalDeviceObject
 
 A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that is the WDM functional device object for the device being described.
 
 
-#### - PhysicalDeviceObject
-
-A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that is the WDM physical device object for the device being described.
-
-
 #### - NextDeviceObject
 
 A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that is the next device in the driver stack as determined by <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>.
+
+
+#### - PhysicalDeviceObject
+
+A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that is the WDM physical device object for the device being described.
 
 
 #### - Started
@@ -114,11 +119,6 @@ This member indicates whether this particular device has been started or not. If
 #### - SystemPowerState
 
 A SYSTEM_POWER_STATE-typed value that indicates the current power state of the system. SYSTEM_POWER_STATE values are defined in <i>wdm.h</i>.
-
-
-#### - DevicePowerState
-
-A DEVICE_POWER_STATE-typed value that indicates the current power state of the device. DEVICE_POWER_STATE values are defined in <i>wdm.h</i>.
 
 
 ## -remarks
@@ -132,19 +132,19 @@ As mentioned above, <b>Context</b> is initialized to <b>NULL</b> at create time.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 <a href="..\ks\nf-ks-ksgetdevicefordeviceobject.md">KsGetDeviceForDeviceObject</a>
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53e5e234-c256-4581-b109-307f2f17522f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortReleaseRequestSenseIrb, atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, storage.ataportreleaserequestsenseirb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], AtaPortReleaseRequestSenseIrb
+ms.keywords: AtaPortReleaseRequestSenseIrb routine [Storage Devices], AtaPortReleaseRequestSenseIrb, storage.ataportreleaserequestsenseirb, atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, irb/AtaPortReleaseRequestSenseIrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID AtaPortReleaseRequestSenseIrb(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-#### - Irb [in]
+### -param Irb [in]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the request sense IRB.
 
@@ -99,9 +99,9 @@ The miniport driver must call <b>AtaPortReleaseRequestSenseIrb</b> for every all
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportbuildrequestsenseirb.md">AtaPortBuildRequestSenseIrb</a>
-
 <a href="..\irb\nf-irb-ataportcompleterequest.md">AtaPortCompleteRequest</a>
+
+<a href="..\irb\nf-irb-ataportbuildrequestsenseirb.md">AtaPortBuildRequestSenseIrb</a>
 
  
 

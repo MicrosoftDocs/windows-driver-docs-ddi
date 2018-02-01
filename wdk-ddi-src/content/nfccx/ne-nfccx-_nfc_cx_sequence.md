@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SequencePreRfDiscStop, nfccx/SequencePreRfDiscStart, SequenceMaximum, SequencePreRecovery, SequenceNfceeDiscComplete, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceShutdownComplete, nfccx/SequencePreShutdown, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreInit, SequenceRfDiscStopComplete, nfccx/SequenceRecoveryComplete, SequenceRfDiscStartComplete, nfccx/SequencePreNfceeDisc, SequencePreNfceeDisc, _NFC_CX_SEQUENCE, nfccx/SequenceRfDiscStartComplete, nfpdrivers.nfc_cx_sequence, *PNFC_CX_SEQUENCE, SequenceShutdownComplete, SequenceInitComplete, nfccx/SequenceInitComplete, PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE, SequencePreRfDiscStart, nfccx/SequencePreRecovery, SequenceRecoveryComplete, nfccx/SequenceMaximum, SequencePreShutdown, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], SequencePreInit, nfccx/SequencePreRfDiscStop, nfccx/SequenceRfDiscStopComplete
+ms.keywords: SequencePreRfDiscStart, SequencePreNfceeDisc, SequencePreShutdown, SequencePreRecovery, _NFC_CX_SEQUENCE, nfccx/SequencePreRfDiscStart, nfccx/SequenceInitComplete, nfccx/SequencePreInit, NFC_CX_SEQUENCE, SequenceRecoveryComplete, SequenceRfDiscStartComplete, nfccx/SequenceRfDiscStopComplete, PNFC_CX_SEQUENCE, nfccx/NFC_CX_SEQUENCE, nfpdrivers.nfc_cx_sequence, SequenceInitComplete, SequencePreRfDiscStop, *PNFC_CX_SEQUENCE, SequenceRfDiscStopComplete, SequenceShutdownComplete, SequenceNfceeDiscComplete, nfccx/SequenceNfceeDiscComplete, SequencePreInit, nfccx/SequenceRfDiscStartComplete, nfccx/SequencePreRfDiscStop, nfccx/SequencePreRecovery, nfccx/SequencePreNfceeDisc, nfccx/SequenceRecoveryComplete, SequenceMaximum, nfccx/SequenceMaximum, nfccx/SequencePreShutdown, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], nfccx/SequenceShutdownComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -79,75 +79,75 @@ typedef enum _NFC_CX_SEQUENCE {
 
 
 
-#### - SequencePreInit
+### -field SequencePreInit
 
 This sequence is invoked by CX during the idle to init state transition, that is, prior to start of initialization by NFC CX. No NCI commands including CORE_RESET_CMD have been sent to the NFC controller by NFC CX. In this sequence, the client can invoke any non-NCI command. NCI commands should not be sent to the controller because neither CORE_RESET_CMD nor CORE_INIT_CMD has been sent to the controller.
 
 
-#### - SequenceInitComplete
+### -field SequenceInitComplete
 
 This sequence is invoked by CX during the idle to init state transition, that is, prior to start of initialization by NFC CX. No NCI commands including CORE_RESET_CMD has been sent to the NFC controller by NFC CX. In this sequence, the client can invoke any non-NCI command. NCI commands should not be sent to the controller since neither CORE_RESET_CMD nor CORE_INIT_CMD has been sent to the controller.
 
 
-#### - SequencePreRfDiscStart
+### -field SequencePreRfDiscStart
 
 This sequence is invoked by CX prior to start of RF discovery i.e. through RF_DISCOVER_CMD. The client driver can use this opportunity to perform any related RF configuration including any optimizations to the discovery loop.
 
 
-#### - SequenceRfDiscStartComplete
+### -field SequenceRfDiscStartComplete
 
 This sequence is invoked by CX immediately after the start of RF discovery. Any configuration post-discovery start can be supported through this extensibility point.
 
 
-#### - SequencePreRfDiscStop
+### -field SequencePreRfDiscStop
 
 This sequence is invoked by CX prior to stopping the RF discovery loop.
 
 
-#### - SequenceRfDiscStopComplete
+### -field SequenceRfDiscStopComplete
 
 This sequence is invoked immediately after discovery loop is stopped. The client driver can use this extensibility point to enable any standby mode configuration.
 
 
-#### - SequencePreNfceeDisc
+### -field SequencePreNfceeDisc
 
 This sequence is invoked by CX prior to start of NFCEE discovery. The NFCEE discovery happens with the discovery loop deactivated. The client driver can use this sequence to enable any internal NFC-NFCEE interfaces which could have been disabled post-initialization for power optimizations. 
 
 
-#### - SequenceNfceeDiscComplete
+### -field SequenceNfceeDiscComplete
 
 This sequence is invoked immediately post-NFCEE discovery operation.
 
 
-#### - SequencePreShutdown
+### -field SequencePreShutdown
 
 This sequence is invoked prior to start of shutdown.
 
 
-#### - SequenceShutdownComplete
+### -field SequenceShutdownComplete
 
 This sequence is invoked by CX after shutdown sequence is complete. The client driver can clean up any NCI state maintained.
 
 
-#### - SequencePreRecovery
+### -field SequencePreRecovery
 
 This sequence is invoked by CX if it needs to perform a recovery sequence due to a fatal failure. The client driver can use this sequence to capture RAM dumps for diagnostic purposes.
 
 
-#### - SequenceRecoveryComplete
+### -field SequenceRecoveryComplete
 
 This sequence is invoked by the CX after the completion of the recovery sequence and when the driver is back to the work-state.
 
 
-#### - SequenceMaximum
+### -field SequenceMaximum
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

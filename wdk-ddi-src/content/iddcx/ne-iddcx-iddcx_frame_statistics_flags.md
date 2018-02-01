@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 85ae47d8-228c-4fff-9be0-bf56868b9319
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_FRAME_STATISTICS_FLAGS, IDDCX_FRAME_STATISTICS_FLAGS enumeration [Display Devices], iddcx/IDDCX_FRAME_STATISTICS_FLAGS_NONE, IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY, display.iddcx_frame_statistics_flags, IDDCX_FRAME_STATISTICS_FLAGS_NONE, iddcx/IDDCX_FRAME_STATISTICS_FLAGS, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
+ms.keywords: IDDCX_FRAME_STATISTICS_FLAGS, iddcx/IDDCX_FRAME_STATISTICS_FLAGS, display.iddcx_frame_statistics_flags, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY, IDDCX_FRAME_STATISTICS_FLAGS enumeration [Display Devices], IDDCX_FRAME_STATISTICS_FLAGS_NONE, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_NONE, IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,14 +70,14 @@ typedef enum _IDDCX_FRAME_STATISTICS_FLAGS {
 
 
 
-#### - IDDCX_FRAME_STATISTICS_FLAGS_NONE
+### -field IDDCX_FRAME_STATISTICS_FLAGS_NONE
 
 
                         
                     Indicates that there are no alterations to the frame.
 
 
-#### - IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
+### -field IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
 
 
                         If set indicates that the driver reduced the color fidelity of the desktop image while processing and transmitting this frame.

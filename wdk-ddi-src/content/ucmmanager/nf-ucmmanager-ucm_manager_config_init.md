@@ -68,7 +68,7 @@ FORCEINLINE void UCM_MANAGER_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a> structure to initialize.
 

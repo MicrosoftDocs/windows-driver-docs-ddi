@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, KsAllocateDeviceHeader function [Streaming Media Devices], KsAllocateDeviceHeader, stream.ksallocatedeviceheader, ks/KsAllocateDeviceHeader
+ms.keywords: stream.ksallocatedeviceheader, KsAllocateDeviceHeader function [Streaming Media Devices], KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, ks/KsAllocateDeviceHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsAllocateDeviceHeader(
 
 
 
-#### - Header [out]
+### -param Header [out]
 
 Points to the location in which to return a pointer to the initialized header.
 
 
-#### - ItemsCount [in]
+### -param ItemsCount [in]
 
 Specifies the number of subitems in the <i>ItemsList</i>. This should be zero if an <i>ItemsList</i> is not passed.
 
 
-#### - ItemsList [in, optional]
+### -param ItemsList [in, optional]
 
 Optional. Points to a KSOBJECT_CREATE_ITEM structure for each subitem. If there are no subitems, this value should be <b>NULL</b> and <i>ItemsCount</i> should be zero.
 
@@ -119,9 +119,9 @@ createBuffer = (PKSOBJECT_CREATE_ITEM)
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
-
 <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+
+<a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
 
  
 

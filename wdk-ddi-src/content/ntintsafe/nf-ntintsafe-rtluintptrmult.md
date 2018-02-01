@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E484AB83-DEA6-4FC7-9896-26984D998661
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrmult, ntintsafe/RtlUIntPtrMult, RtlUIntPtrMult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtluintptrmult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrMult, RtlUIntPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlUIntPtrMult(
 
 
 
-#### - uMultiplicand [in]
+### -param uMultiplicand [in]
 
 The value to be multiplied by <i>uMultiplier</i>.
 
 
-#### - uMultiplier [in]
+### -param uMultiplier [in]
 
 The value by which to multiply <i>uMultiplicand</i>.
 
 
-#### - puResult [out]
+### -param puResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 803f766a-e02f-4b9c-bfe0-6197e0f2855c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: TranslateVirtualToPhysical function [Windows Debugging], WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, debugger.translatevirtualtophysical, wdbgexts/TranslateVirtualToPhysical, TranslateVirtualToPhysical
+ms.keywords: debugger.translatevirtualtophysical, TranslateVirtualToPhysical, wdbgexts/TranslateVirtualToPhysical, TranslateVirtualToPhysical function [Windows Debugging], WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ __inline BOOL TranslateVirtualToPhysical(
 
 
 
-#### - Virtual
+### -param Virtual
 
 Specifies the virtual memory address to translate.
 
 
-#### - Physical
+### -param Physical
 
 Receives the physical memory address.
 

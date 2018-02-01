@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd069b0c-9af3-4442-aba0-1d81465e7eb0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, display.dxgkmdt_opm_set_hdcp_srm_parameters, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
+ms.keywords: d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, display.dxgkmdt_opm_set_hdcp_srm_parameters, DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,16 +67,16 @@ typedef struct _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS {
 
 
 
-#### - ulSRMVersion
+### -field ulSRMVersion
 
 The version number of an HDCP SRM. The least significant bits (bits 0 through 15) contain the SRM's version number in little-endian format. The SRM's version number is stored in the SRM's SRM version field in little-endian format. For more information about the SRM's SRM version field, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
 
  
 

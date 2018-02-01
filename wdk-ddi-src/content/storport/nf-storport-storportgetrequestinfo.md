@@ -72,17 +72,17 @@ ULONG StorPortGetRequestInfo(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 A pointer to the SRB to be queried.
 
 
-#### - RequestInfo [out]
+### -param RequestInfo [out]
 
 A pointer to a caller-supplied <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> structure.
 

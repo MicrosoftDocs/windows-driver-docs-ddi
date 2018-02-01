@@ -71,7 +71,7 @@ VOID HwStorCompleteServiceIrp(
 
 
 
-#### - DeviceExtension
+### -param DeviceExtension
 
 A pointer to the virtual miniport driver's per-adapter storage area.
 
@@ -106,9 +106,9 @@ HW_COMPLETE_SERVICE_IRP (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
+
+<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
 
  
 

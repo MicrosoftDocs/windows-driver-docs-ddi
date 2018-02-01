@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwDuplicateToken function [Kernel-Mode Driver Architecture], ZwDuplicateToken, NtDuplicateToken, kernel.zwduplicatetoken, ntifs/NtDuplicateToken, k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, ntifs/ZwDuplicateToken
+ms.keywords: ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, ZwDuplicateToken, ntifs/NtDuplicateToken, kernel.zwduplicatetoken, ntifs/ZwDuplicateToken, NtDuplicateToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS ZwDuplicateToken(
 
 
 
-#### - ExistingTokenHandle [in]
+### -param ExistingTokenHandle [in]
 
 A handle to an existing access token that was opened with the TOKEN_DUPLICATE access right. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Bitmask that specifies the requested access rights for the new token. <b>ZwDuplicateToken</b> compares the requested access rights with the existing token's discretionary access control list (DACL) to determine which rights are granted or denied to the new token. To request the same access rights as the existing token, specify zero. To request all access rights that are valid for the caller, specify MAXIMUM_ALLOWED. This parameter is optional and can either be zero, MAXIMUM_ALLOWED, or a bitwise OR combination of one or more of the following values:
 <table>
@@ -321,7 +321,7 @@ Combines all possible token access permissions for a token.
 For additional information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91036">Access Rights for Access-Token Objects</a> in the Microsoft Windows SDK. Note that access tokens do not support the SYNCHRONIZE right.
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that describes the requested properties for the new token. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. If the <i>ObjectAttributes</i> parameter is <b>NULL</b> or if the <b>SecurityDescriptor</b> member of the structure pointed to by the <i>ObjectAttributes</i> parameter is <b>NULL</b>, the new token receives a default security descriptor and the new token handle cannot be inherited. In that case, this default security descriptor is created from the user group, primary group, and DACL information that is stored in the caller's token.
 
@@ -341,12 +341,12 @@ If the existing token is a primary token and no impersonation level information 
 </li>
 </ul>
 
-#### - EffectiveOnly [in]
+### -param EffectiveOnly [in]
 
 A Boolean value that indicates whether the entire existing token should be duplicated into the new token or just the effective (currently enabled) part of the token. If set to <b>TRUE</b>, only the currently enabled parts of the source token will be duplicated. If set to <b>FALSE</b>, the entire existing token will be duplicated. This provides a means for a caller of a protected subsystem to limit which optional groups and privileges are made available to the protected subsystem. For example, if <i>EffectiveOnly</i> is <b>TRUE</b>, the caller could duplicate a token but remove the Administrators group and the SeTcbPrivilege right. The resulting token could then be passed to a child process (<a href="http://go.microsoft.com/fwlink/p/?linkid=91041">CreateProcessAsUser</a>), which would restrict what the child process can do. This parameter is required.
 
 
-#### - TokenType [in]
+### -param TokenType [in]
 
 Specifies one of the following values from the <a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a> enumeration.
 <table>
@@ -379,7 +379,7 @@ The new token is an impersonation token. If the existing token is an impersonati
 The <i>TokenType</i> parameter is required and cannot be <b>NULL</b>.
 
 
-#### - NewTokenHandle [out]
+### -param NewTokenHandle [out]
 
 A pointer to a caller-allocated variable, of type HANDLE, that receives a handle to the new token. This parameter is required and cannot be <b>NULL</b>.
 
@@ -478,13 +478,13 @@ When you have finished using the new token, call the <a href="..\wdm\nf-wdm-zwcl
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
  
 

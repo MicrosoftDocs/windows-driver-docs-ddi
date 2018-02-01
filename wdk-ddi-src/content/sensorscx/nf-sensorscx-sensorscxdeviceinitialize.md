@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F6F758AC-5C8C-4226-B906-972C5BCD7A3E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorscx/SensorsCxDeviceInitialize, SensorsCxDeviceInitialize, sensors.sensorscxdeviceinitialize, SensorsCxDeviceInitialize function [Sensor Devices]
+ms.keywords: SensorsCxDeviceInitialize, sensors.sensorscxdeviceinitialize, SensorsCxDeviceInitialize function [Sensor Devices], sensorscx/SensorsCxDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ FORCEINLINE NTSTATUS SensorsCxDeviceInitialize(
 
 
 
-#### - FxDevice [in]
+### -param FxDevice [in]
 
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
 
-#### - pSensorConfig [in]
+### -param pSensorConfig [in]
 
 A list of functions that the driver implements. For more information, see <a href="..\sensorscx\ns-sensorscx-_sensor_controller_config.md">SENSOR_CONTROLLER_CONFIG</a>.
 

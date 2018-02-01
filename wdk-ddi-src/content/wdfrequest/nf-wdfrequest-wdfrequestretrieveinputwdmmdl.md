@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8046d9e4-d4a2-4aeb-92b2-a48277af8b41
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml, wdfrequest/WdfRequestRetrieveInputWdmMdl, PFN_WDFREQUESTRETRIEVEINPUTWDMMDL, kmdf.wdfrequestretrieveinputwdmmdl, WdfRequestRetrieveInputWdmMdl method, WdfRequestRetrieveInputWdmMdl, wdf.wdfrequestretrieveinputwdmmdl
+ms.keywords: WdfRequestRetrieveInputWdmMdl method, DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml, kmdf.wdfrequestretrieveinputwdmmdl, WdfRequestRetrieveInputWdmMdl, wdf.wdfrequestretrieveinputwdmmdl, wdfrequest/WdfRequestRetrieveInputWdmMdl, PFN_WDFREQUESTRETRIEVEINPUTWDMMDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfRequestRetrieveInputWdmMdl(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object. 
 
 
-#### - Mdl [out]
+### -param Mdl [out]
 
 A pointer to a location that receives a pointer to an MDL.
 

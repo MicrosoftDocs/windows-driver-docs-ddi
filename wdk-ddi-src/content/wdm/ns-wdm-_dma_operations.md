@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b4a5d830-252b-410e-be2c-390371af971c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DMA_OPERATIONS, wdm/PDMA_OPERATIONS, PDMA_OPERATIONS, DMA_OPERATIONS structure [Kernel-Mode Driver Architecture], *PDMA_OPERATIONS, PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], DMA_OPERATIONS, kernel.dma_operations, _DMA_OPERATIONS, kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml
+ms.keywords: DMA_OPERATIONS structure [Kernel-Mode Driver Architecture], kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml, DMA_OPERATIONS, _DMA_OPERATIONS, PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], kernel.dma_operations, wdm/PDMA_OPERATIONS, wdm/DMA_OPERATIONS, PDMA_OPERATIONS, *PDMA_OPERATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,147 +96,147 @@ typedef struct _DMA_OPERATIONS {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this <b>DMA_OPERATIONS</b> structure.
 
 
-#### - PutDmaAdapter
+### -field PutDmaAdapter
 
 A pointer to a system-defined routine to free a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. For more information, see <a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>.
 
 
-#### - AllocateCommonBuffer
+### -field AllocateCommonBuffer
 
 A pointer to a system-defined routine to allocate a physically contiguous DMA buffer. For more information, see <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>.
 
 
-#### - FreeCommonBuffer
+### -field FreeCommonBuffer
 
 A pointer to a system-defined routine to free a physically contiguous DMA buffer previously allocated by <b>AllocateCommonBuffer</b>. For more information, see <a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>.
 
 
-#### - AllocateAdapterChannel
+### -field AllocateAdapterChannel
 
 A pointer to a system-defined routine to allocate a channel for DMA operations. For more information, see <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>.
 
 
-#### - FlushAdapterBuffers
+### -field FlushAdapterBuffers
 
 A pointer to a system-defined routine to flush data from the system or bus-master adapter's internal cache after a DMA operation. For more information, see <a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>.
 
 
-#### - FreeAdapterChannel
+### -field FreeAdapterChannel
 
 A pointer to a system-defined routine to free a channel previously allocated for DMA operations by <b>AllocateAdapterChannel</b>. For more information, see <a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>.
 
 
-#### - FreeMapRegisters
+### -field FreeMapRegisters
 
 A pointer to a system-defined routine to free map registers allocated for DMA operations. For more information, see <a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>.
 
 
-#### - MapTransfer
+### -field MapTransfer
 
 A pointer to a system-defined routine to begin a DMA operation. For more information, see <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>.
 
 
-#### - GetDmaAlignment
+### -field GetDmaAlignment
 
 A pointer to a system-defined routine to obtain the DMA alignment requirements of the controller. For more information, see <a href="..\wdm\nc-wdm-pget_dma_alignment.md">GetDmaAlignment</a>.
 
 
-#### - ReadDmaCounter
+### -field ReadDmaCounter
 
 A pointer to a system-defined routine to obtain the current transfer count for a DMA operation. For more information, see <a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>.
 
 
-#### - GetScatterGatherList
+### -field GetScatterGatherList
 
 A pointer to a system-defined routine that allocates map registers and creates a scatter/gather list for DMA. For more information, see <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>.
 
 
-#### - PutScatterGatherList
+### -field PutScatterGatherList
 
 A pointer to a system-defined routine that frees map registers and a scatter/gather list after a DMA operation is complete. For more information, see <a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>.
 
 
-#### - CalculateScatterGatherList
+### -field CalculateScatterGatherList
 
 A pointer to a system-defined routine that determines the buffer size needed to hold the scatter/gather list that describes an I/O data  buffer. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>.
 
 
-#### - BuildScatterGatherList
+### -field BuildScatterGatherList
 
 A pointer to a system-defined routine that allocates map registers and creates a scatter/gather list for DMA in a driver-supplied buffer. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>.
 
 
-#### - BuildMdlFromScatterGatherList
+### -field BuildMdlFromScatterGatherList
 
 A pointer to a system-defined routine that builds an MDL corresponding to a scatter/gather list. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md">BuildMdlFromScatterGatherList</a>.
 
 
-#### - GetDmaAdapterInfo
+### -field GetDmaAdapterInfo
 
 A pointer to a system-defined routine that describes the capabilities of a bus-master DMA device or a system DMA controller. <b>GetDmaAdapterInfo</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>.
 
 
-#### - GetDmaTransferInfo
+### -field GetDmaTransferInfo
 
 A pointer to a system-defined routine that describes the allocation requirements for a scatter/gather list. This routine replaces <a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>. <b>GetDmaTransferInfo</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>.
 
 
-#### - InitializeDmaTransferContext
+### -field InitializeDmaTransferContext
 
 A pointer to a system-defined routine that initializes an opaque DMA transfer context. The operating system stores the internal status of a DMA transfer in this context. <b>InitializeDmaTransferContext</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>.
 
 
-#### - AllocateCommonBufferEx
+### -field AllocateCommonBufferEx
 
 A pointer to a system-defined routine that allocates memory for a common buffer and maps this memory so that it can accessed both by the processor and by a DMA device. <b>AllocateCommonBufferEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pallocate_common_buffer_ex.md">AllocateCommonBufferEx</a>.
 
 
-#### - AllocateAdapterChannelEx
+### -field AllocateAdapterChannelEx
 
 A pointer to a system-defined routine that allocates the resources required for a DMA transfer and then calls the driver-supplied <i>AdapterControl</i> routine to initiate the DMA transfer. <b>AllocateAdapterChannelEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>.
 
 
-#### - ConfigureAdapterChannel
+### -field ConfigureAdapterChannel
 
 A pointer to a system-defined routine enables a custom function that is implemented by the DMA controller. <b>ConfigureAdapterChannel</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pconfigure_adapter_channel.md">ConfigureAdapterChannel</a>.
 
 
-#### - CancelAdapterChannel
+### -field CancelAdapterChannel
 
 A pointer to a system-defined routine that tries to cancel a pending request to allocate a DMA channel. <b>CancelAdapterChannel</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>.
 
 
-#### - MapTransferEx
+### -field MapTransferEx
 
 A pointer to a system-defined routine that sets up map registers to map the physical addresses in a scatter/gather list to the logical addresses that are required to do a DMA transfer. <b>MapTransferEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>.
 
 
-#### - GetScatterGatherListEx
+### -field GetScatterGatherListEx
 
 A pointer to a system-defined routine that   allocates resources required for a DMA transfer, builds a scatter/gather list, and then calls the driver-supplied <a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a> routine to initiate the DMA transfer. <b>GetScatterGatherListEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>. This routine is a wrapper of <b>AllocateAdapterChannelEx</b> and <b>MapTransferEx</b>.
 
 
-#### - BuildScatterGatherListEx
+### -field BuildScatterGatherListEx
 
 A pointer to a system-defined routine that   builds a scatter/gather list in a caller-allocated buffer, and then calls the driver-supplied <i>AdapterListControl</i> routine to initiate the DMA transfer. <b>BuildScatterGatherListEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>.
 
 
-#### - FlushAdapterBuffersEx
+### -field FlushAdapterBuffersEx
 
 A pointer to a system-defined routine that  flushes any data that remains in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer. For a device that uses a system DMA controller, this routine cancels the current DMA transfer on the controller if the transfer is not complete. <b>FlushAdapterBuffersEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>.
 
 
-#### - FreeAdapterObject
+### -field FreeAdapterObject
 
 A pointer to a system-defined routine that releases the specified adapter object after a driver has completed all DMA operations. <b>FreeAdapterObject</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pfree_adapter_object.md">FreeAdapterObject</a>.
 
 
-#### - CancelMappedTransfer
+### -field CancelMappedTransfer
 
 A pointer to a system-defined routine that cancels a mapped transfer. <b>CancelMappedTransfer</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>.
 
@@ -276,65 +276,65 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 
-<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
 
-<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
 
 <a href="..\wdm\nc-wdm-pallocate_common_buffer_ex.md">AllocateCommonBufferEx</a>
 
 <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
 
-<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
-
-<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
-
-<a href="..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md">BuildMdlFromScatterGatherList</a>
-
-<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
-
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
-
-<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
-
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 <a href="..\wdm\nc-wdm-pget_dma_alignment.md">GetDmaAlignment</a>
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
-
-<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
+<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
 
 <a href="..\wdm\nc-wdm-pconfigure_adapter_channel.md">ConfigureAdapterChannel</a>
 
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
 
-<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+
+<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
+
+<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 <a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
 
+<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
 <a href="..\wdm\nc-wdm-pfree_adapter_object.md">FreeAdapterObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
-
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 
 <a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
+<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
+
+<a href="..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md">BuildMdlFromScatterGatherList</a>
+
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+
+<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
+
+<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
+
+<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
 
  
 

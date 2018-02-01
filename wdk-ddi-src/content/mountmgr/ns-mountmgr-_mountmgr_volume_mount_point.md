@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2a267992-b4d3-49e1-bb80-3849220f0d1f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices], *PMOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml, mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point
+ms.keywords: "*PMOUNTMGR_VOLUME_MOUNT_POINT, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml, _MOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point, mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _MOUNTMGR_VOLUME_MOUNT_POINT {
 
 
 
-#### - SourceVolumeNameOffset
+### -field SourceVolumeNameOffset
 
 Contains an offset, in bytes, into the output buffer where the name of the mount point is located. 
 
 
-#### - SourceVolumeNameLength
+### -field SourceVolumeNameLength
 
 Contains the length, in bytes, of the mount point name. 
 
 
-#### - TargetVolumeNameOffset
+### -field TargetVolumeNameOffset
 
 Contains an offset, in bytes, into the output buffer where the unique (persistent) volume name of the target device is located. 
 
 
-#### - TargetVolumeNameLength
+### -field TargetVolumeNameLength
 
 Contains the length, in bytes, of the target name. 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1500E2C2-240F-4087-9275-9FD4170B8BED
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iportclsruntimepower_registerpowercontrolcallback, IPortClsRuntimePower, portcls/IPortClsRuntimePower::RegisterPowerControlCallback, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method, RegisterPowerControlCallback, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface
+ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, portcls/IPortClsRuntimePower::RegisterPowerControlCallback, audio.iportclsruntimepower_registerpowercontrolcallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,33 +69,17 @@ NTSTATUS RegisterPowerControlCallback(
 
 
 
-### -param _DeviceObject
-
-
-
-
-### -param _Callback
-
-
-
-
-### -param _Context
-
-
-
-
-
-#### - DeviceObject [in]
+### -param _DeviceObject [in]
 
 The device object.
 
 
-#### - Callback [in]
+### -param _Callback [in]
 
 The callback object.
 
 
-#### - Context [in, optional]
+### -param _Context [in, optional]
 
 The callback context.
 

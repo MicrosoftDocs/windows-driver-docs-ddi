@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2394ce-128e-46a2-8688-a71851af06cf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtlcmdecodememioresource, RtlCmDecodeMemIoResource, k109_da737a74-2fce-4731-b24d-9014272991f1.xml
+ms.keywords: kernel.rtlcmdecodememioresource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_da737a74-2fce-4731-b24d-9014272991f1.xml, wdm/RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONGLONG RtlCmDecodeMemIoResource(
 
 
 
-#### - Descriptor [in]
+### -param Descriptor [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to provide the starting address and length for.
 
 
-#### - Start [out, optional]
+### -param Start [out, optional]
 
 A pointer to a variable that receives the starting address of the range of memory or I/O port addresses.
 
@@ -95,9 +95,9 @@ The <b>Type</b> member of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure mu
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

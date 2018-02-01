@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c405771c-726f-4003-b3c6-f063dd74187e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsChargePoolQuota routine [Installable File System Drivers], ifsk.pschargepoolquota, ntifs/PsChargePoolQuota, psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml, PsChargePoolQuota
+ms.keywords: psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml, ntifs/PsChargePoolQuota, PsChargePoolQuota, ifsk.pschargepoolquota, PsChargePoolQuota routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID PsChargePoolQuota(
 
 
 
-#### - Process [in]
+### -param Process [in]
 
 Pointer to the process whose quota is to be charged.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Type of pool quota to charge, which can be one of the following: 
 <ul>
@@ -87,7 +87,7 @@ Type of pool quota to charge, which can be one of the following:
 <b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
 
 
-#### - Amount [in]
+### -param Amount [in]
 
 Number of bytes to charge against the pool quota for this process. 
 

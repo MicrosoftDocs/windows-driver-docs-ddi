@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DB5FCF40-77C2-4741-9E6B-77A9CD98E29A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PlayGdiScriptOnPrinterIC function [Print Devices], print.playgdiscriptonprinteric, PlayGdiScriptOnPrinterIC, winsplp/PlayGdiScriptOnPrinterIC
+ms.keywords: PlayGdiScriptOnPrinterIC function [Print Devices], winsplp/PlayGdiScriptOnPrinterIC, PlayGdiScriptOnPrinterIC, print.playgdiscriptonprinteric
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,26 +73,26 @@ BOOL WINAPI PlayGdiScriptOnPrinterIC(
 
 
 
-#### - hPrinterIC [in]
+### -param hPrinterIC [in]
 
 
 
-#### - pIn [in]
+### -param pIn [in]
 
 
 
-#### - cIn [in]
+### -param cIn [in]
 
 
 
-#### - pOut [out]
+### -param pOut [out]
 
 
 
-#### - cOut [in]
+### -param cOut [in]
 
 
 
-#### - ul [in]
+### -param ul [in]
 
 

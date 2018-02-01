@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e429a48-4e86-4673-aa32-85b640e2f64f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDefaultAddEventHandler, avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, ks/KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices], stream.ksdefaultaddeventhandler
+ms.keywords: KsDefaultAddEventHandler function [Streaming Media Devices], avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, stream.ksdefaultaddeventhandler, ks/KsDefaultAddEventHandler, KsDefaultAddEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS KsDefaultAddEventHandler(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 The event <a href="..\wdm\ns-wdm-_irp.md">IRP</a>. This contains the object into which the event is inserted.
 
 
-#### - EventData [in]
+### -param EventData [in]
 
 A pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that describes an event notification method.
 
 
-#### - EventEntry [in, out]
+### -param EventEntry [in, out]
 
 The event entry that is to be inserted into the object's event list. The object is determined by <i>Irp</i>.
 
@@ -103,15 +103,15 @@ This is functionally equivalent to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEven
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
+<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
 
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
  
 

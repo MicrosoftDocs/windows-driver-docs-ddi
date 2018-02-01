@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cda3bfc6-7bdb-4b5a-8845-9a2ca1cc8014
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.channel_config_results, CHANNEL_CONFIG_RESULTS, bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, bthddi/CHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS, bthddi/PCHANNEL_CONFIG_RESULTS
+ms.keywords: PCHANNEL_CONFIG_RESULTS, bltooth.channel_config_results, bthddi/PCHANNEL_CONFIG_RESULTS, bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, bthddi/CHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,15 +69,15 @@ typedef struct _CHANNEL_CONFIG_RESULTS {
 
 
 
-#### - Params
+### -field Params
 
 A 
-     <mshelp:link keywords="bltooth.channel_config_parameters" tabindex="0"><b>
-     CHANNEL_CONFIG_PARAMETERS</b></mshelp:link> structure that contains the parameters for the specified direction of
+     <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">
+     CHANNEL_CONFIG_PARAMETERS</a> structure that contains the parameters for the specified direction of
      the channel.
 
 
-#### - ExtraOptionsBufferSize
+### -field ExtraOptionsBufferSize
 
 The size, in bytes, required in the buffer to retrieve the current extra options for the specified
      direction.

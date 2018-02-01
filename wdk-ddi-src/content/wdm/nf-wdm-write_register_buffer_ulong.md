@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dae9cc3d-b793-4f2a-99a6-1f77af396110
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_9ef495b2-fe86-484a-bec2-5390df6ee246.xml, WRITE_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], kernel.write_register_buffer_ulong, wdm/WRITE_REGISTER_BUFFER_ULONG, WRITE_REGISTER_BUFFER_ULONG
+ms.keywords: WRITE_REGISTER_BUFFER_ULONG, kernel.write_register_buffer_ulong, k103_9ef495b2-fe86-484a-bec2-5390df6ee246.xml, wdm/WRITE_REGISTER_BUFFER_ULONG, WRITE_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID WRITE_REGISTER_BUFFER_ULONG(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer from which an array of ULONG values is to be written.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to be written to the register. 
 

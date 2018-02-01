@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a0f0fdbc-089c-4bfb-ba5f-eaff6042621c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netdma/NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netvista.netdmapnpeventnotify
+ms.keywords: netvista.netdmapnpeventnotify, NetDmaPnPEventNotify, netdma/NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,15 +71,15 @@ VOID NetDmaPnPEventNotify(
 
 
 
-#### - NetDmaProviderHandle [in]
+### -param NetDmaProviderHandle [in]
 
 A handle that identifies a DMA provider. A DMA provider driver receives this handle from the
      NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
-#### - PnPEvent [in]
+### -param PnPEvent [in]
 
 A pointer to a 
      <a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a> structure
@@ -112,9 +112,9 @@ A NetDMA provider driver calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a>
-
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+<a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a>
 
  
 

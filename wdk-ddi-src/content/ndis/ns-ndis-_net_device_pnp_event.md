@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79298332-2d34-4ef3-ad43-5d218e3f6612
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NET_DEVICE_PNP_EVENT, *PNET_DEVICE_PNP_EVENT, _NET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], ndis/PNET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT, netvista.net_device_pnp_event, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], NET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml
+ms.keywords: PNET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, ndis/PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], netvista.net_device_pnp_event, _NET_DEVICE_PNP_EVENT, *PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], ndis/NET_DEVICE_PNP_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _NET_DEVICE_PNP_EVENT {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -84,19 +84,24 @@ The
      <b>Size</b> member to <b>NDIS_SIZEOF_NET_DEVICE_PNP_EVENT_REVISION_1</b>.
 
 
-#### - PortNumber
+### -field PortNumber
 
 The source port of the PnP event notification. If the status indication is not specific to a port,
      
      <b>PortNumber</b> is zero.
 
 
-#### - DevicePnPEvent
+### -field DevicePnPEvent
 
 An event code that describes the PnP event as one of the following: 
      
 
 
+
+
+#### NdisDevicePnPEventPowerProfileChanged
+
+The power profile of the host system has changed.
 
 
 #### NdisDevicePnPEventSurpriseRemoved
@@ -105,12 +110,7 @@ The network interface card (NIC) has been unexpectedly removed from the
        computer. For more information, see <a href="https://msdn.microsoft.com/afd94749-8f2a-4cce-a646-1f616a845a0e">Handling the Surprise Removal of a NIC</a>.
 
 
-#### NdisDevicePnPEventPowerProfileChanged
-
-The power profile of the host system has changed.
-
-
-#### - InformationBuffer
+### -field InformationBuffer
 
 A pointer to a buffer. If NDIS sets the 
      <b>DevicePnPEvent</b> member to 
@@ -126,23 +126,23 @@ If NDIS sets
      <b>InformationBuffer</b> is <b>NULL</b>.
 
 
-#### NdisPowerProfileBattery
-
-The host system is running on battery power.
-
-
 #### NdisPowerProfileAcOnline
 
 The host system is running on AC power.
 
 
-#### - InformationBufferLength
+#### NdisPowerProfileBattery
+
+The host system is running on battery power.
+
+
+### -field InformationBufferLength
 
 The length, in bytes, of the buffer in the 
      <b>InformationBuffer</b> member.
 
 
-#### - NdisReserved
+### -field NdisReserved
 
 Reserved for NDIS.
 
@@ -152,10 +152,10 @@ Reserved for NDIS.
 
 To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DEVICE_PNP_EVENT</b> structure
     to the 
-    <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-    MiniportDevicePnPEventNotify</i></mshelp:link> or 
-    <mshelp:link keywords="netvista.filterdevicepnpeventnotify" tabindex="0"><i>
-    FilterDevicePnPEventNotify</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+    MiniportDevicePnPEventNotify</a> or 
+    <a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">
+    FilterDevicePnPEventNotify</a> function.
 
 
 
@@ -163,10 +163,10 @@ To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DE
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
 
-<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-   MiniportDevicePnPEventNotify</i></mshelp:link>
+<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
 
  
 

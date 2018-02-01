@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype, _LineDisplayMarqueeTypeType, pointofservicecommontypes/LineDisplayMarqueeTypeType, pointofservicecommontypes/PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, PLineDisplayMarqueeTypeType, pointofservicecommontypes/, LineDisplayMarqueeTypeType enumeration
+ms.keywords: LineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, pointofservicecommontypes/LineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType, _LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, pointofservicecommontypes/, pos.linedisplaymarqueetypetype, pointofservicecommontypes/PLineDisplayMarqueeTypeType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

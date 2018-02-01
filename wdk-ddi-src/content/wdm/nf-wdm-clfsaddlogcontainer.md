@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05ab9817-3f49-4ab5-b35d-1c89f5fe6e44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsAddLogContainer, kernel.clfsaddlogcontainer, wdm/ClfsAddLogContainer, ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml
+ms.keywords: Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml, wdm/ClfsAddLogContainer, ClfsAddLogContainer, ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], kernel.clfsaddlogcontainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS ClfsAddLogContainer(
 
 
 
-#### - plfoLog [in]
+### -param plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the log to which the container will be added. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
-#### - pcbContainer [in]
+### -param pcbContainer [in]
 
 A pointer to a ULONGLONG-typed variable. The role of this parameter depends on whether the log currently has at least one container.
 <ul>
@@ -94,7 +94,7 @@ If the log currently has at least one container and this parameter is a valid po
 </li>
 </ul>
 
-#### - puszContainerPath [in]
+### -param puszContainerPath [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the path name for the new container. The path can be absolute or relative to the location of the base log file. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\").
 

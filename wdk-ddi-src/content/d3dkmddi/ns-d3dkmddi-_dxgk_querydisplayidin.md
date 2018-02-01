@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin, DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN
+ms.keywords: DXGK_QUERYDISPLAYIDIN structure [Display Devices], d3dkmddi/DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin, _DXGK_QUERYDISPLAYIDIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DXGK_QUERYDISPLAYIDIN {
 
 
 
-#### - TargetId
+### -field TargetId
 
 The ID being queried.
 

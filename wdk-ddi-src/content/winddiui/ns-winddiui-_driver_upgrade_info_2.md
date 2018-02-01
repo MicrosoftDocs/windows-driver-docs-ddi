@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 691554c5-5c99-40f0-b0d6-3556e004dd30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_interface-graphics_3db7d8d4-1f0c-4b76-9e22-bc55aac9b6c7.xml, DRIVER_UPGRADE_INFO_2 structure [Print Devices], winddiui/PDRIVER_UPGRADE_INFO_2, PDRIVER_UPGRADE_INFO_2, PDRIVER_UPGRADE_INFO_2 structure pointer [Print Devices], DRIVER_UPGRADE_INFO_2, *PDRIVER_UPGRADE_INFO_2, _DRIVER_UPGRADE_INFO_2, winddiui/DRIVER_UPGRADE_INFO_2, print.driver_upgrade_info_2
+ms.keywords: "*PDRIVER_UPGRADE_INFO_2, print.driver_upgrade_info_2, winddiui/PDRIVER_UPGRADE_INFO_2, winddiui/DRIVER_UPGRADE_INFO_2, _DRIVER_UPGRADE_INFO_2, PDRIVER_UPGRADE_INFO_2 structure pointer [Print Devices], DRIVER_UPGRADE_INFO_2, print_interface-graphics_3db7d8d4-1f0c-4b76-9e22-bc55aac9b6c7.xml, DRIVER_UPGRADE_INFO_2 structure [Print Devices], PDRIVER_UPGRADE_INFO_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,17 +80,17 @@ typedef struct _DRIVER_UPGRADE_INFO_2 {
 
 
 
-#### - pPrinterName
+### -field pPrinterName
 
 Pointer to a NULL-terminated string that specifies the name of the printer. For more information, see the Remarks section.
 
 
-#### - pOldDriverDirectory
+### -field pOldDriverDirectory
 
 Pointer to a NULL-terminated string that specifies the local directory in which the old printer driver files can be found.
 
 
-#### - cVersion
+### -field cVersion
 
 Specifies the operating system version for which the driver was written. 
 <table>
@@ -141,52 +141,52 @@ Windows 2000 and later
 </table> 
 
 
-#### - pName
+### -field pName
 
 Pointer to a NULL-terminated string that specifies the name of the driver (for example, "QMS 810"). For more information, see the Remarks section.
 
 
-#### - pEnvironment
+### -field pEnvironment
 
 Pointer to a NULL-terminated string that specifies the environment for which the driver was written (for example, "Windows NT x86" or "Windows Itanium").
 
 
-#### - pDriverPath
+### -field pDriverPath
 
 Pointer to a NULL-terminated string that specifies a file name or full path and file name for the file that contains the device driver (for example, "pscript.dll").
 
 
-#### - pDataFile
+### -field pDataFile
 
 Pointer to a NULL-terminated string that specifies a file name or a full path and file name for the file that contains driver data (for example, "qms810.ppd").
 
 
-#### - pConfigFile
+### -field pConfigFile
 
 Pointer to a NULL-terminated string that specifies a file name or a full path and file name for the device driver's configuration dynamic-link library (for example, "pscrptui.dll"). 
 
 
-#### - pHelpFile
+### -field pHelpFile
 
 Pointer to a null-terminated string that specifies a file name or a full path and file name for the device driver's help file.
 
 
-#### - pDependentFiles
+### -field pDependentFiles
 
 Pointer to a NULL-terminated string that specifies the files the driver depends on. Each file name in the string is also terminated with a null character (for example, "pscript.dll\0qms810.ppd\0pscrptui.dll\0pscrptui.hlp\0pstest.txt\0\0").
 
 
-#### - pMonitorName
+### -field pMonitorName
 
 Pointer to a NULL-terminated string that specifies a language monitor (for example, "PJL monitor"). This member can be <b>NULL</b> and should be specified as non-<b>NULL</b> only for printers capable of bidirectional communication.
 
 
-#### - pDefaultDataType
+### -field pDefaultDataType
 
 Pointer to a NULL-terminated string that specifies the default data type of the print job (for example, "EMF"). 
 
 
-#### - pszzPreviousNames
+### -field pszzPreviousNames
 
 Pointer to a NULL-terminated string that specifies any previous printer driver names that are compatible with this driver (for example, "OldName1\0OldName2\0\0").
 
@@ -202,9 +202,9 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
-
 <a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
+
+<a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
 
  
 

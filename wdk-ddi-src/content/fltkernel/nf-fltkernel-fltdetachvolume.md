@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 889750fc-69a9-4fe6-8905-6a7edc5c04fb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltDetachVolume function [Installable File System Drivers], FltDetachVolume, ifsk.fltdetachvolume, FltApiRef_a_to_d_2f7a4638-6f6d-4ac6-97b6-d547d64b56b6.xml, fltkernel/FltDetachVolume
+ms.keywords: FltDetachVolume, FltDetachVolume function [Installable File System Drivers], fltkernel/FltDetachVolume, FltApiRef_a_to_d_2f7a4638-6f6d-4ac6-97b6-d547d64b56b6.xml, ifsk.fltdetachvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS FltDetachVolume(
 
 
 
-#### - Filter [in, out]
+### -param Filter [in, out]
 
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - Volume [in, out]
+### -param Volume [in, out]
 
 Opaque volume pointer for the volume where the instance is attached. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - InstanceName [in, optional]
+### -param InstanceName [in, optional]
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the instance name for the instance to be removed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the highest matching instance is removed. 
 
@@ -133,13 +133,13 @@ To compare the altitudes of two minifilter driver instances attached to the same
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fbdf6e86-35a1-48a8-966a-0e5472466da2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnLess, wdm/ClfsLsnLess, kernel.clfslsnless, Clfs_5e0196f1-8244-4cf9-aa36-7359e52ff43b.xml, ClfsLsnLess routine [Kernel-Mode Driver Architecture]
+ms.keywords: Clfs_5e0196f1-8244-4cf9-aa36-7359e52ff43b.xml, wdm/ClfsLsnLess, kernel.clfslsnless, ClfsLsnLess, ClfsLsnLess routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ BOOLEAN ClfsLsnLess(
 
 
 
-#### - plsn1 [in]
+### -param plsn1 [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
 
 
-#### - plsn2 [in]
+### -param plsn2 [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the other LSN to be compared.
 
@@ -100,11 +100,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
+<a href="..\wdm\nf-wdm-clfslsngreater.md">ClfsLsnGreater</a>
 
 <a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
 
-<a href="..\wdm\nf-wdm-clfslsngreater.md">ClfsLsnGreater</a>
+<a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DFFDDF13-B8C7-4AB0-B2C9-9F34D19B21AE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], pepfx/PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, PPEP_WORK_ACPI_NOTIFY, _PEP_WORK_ACPI_NOTIFY
+ms.keywords: pepfx/PEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PEP_WORK_ACPI_NOTIFY {
 
 
 
-#### - DeviceHandle
+### -field DeviceHandle
 
 A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) during the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification in which the PEP elected to provide ACPI services for the device.
 
 
-#### - NotifyCode
+### -field NotifyCode
 
 The Notify code. For a list of Notify codes and their meanings, see section 5.6.6, "Device Object Notifications", of the Advanced Configuration and Power Interface Specification, Revision 5.0 (<a href="http://www.acpi.info">ACPI 5.0 specification</a>).
 

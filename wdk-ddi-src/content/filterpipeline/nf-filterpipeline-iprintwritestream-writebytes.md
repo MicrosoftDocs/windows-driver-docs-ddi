@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d47c836e-a291-4cc2-9688-82526f8bfb8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, print.iprintwritestream_writebytes, WriteBytes method [Print Devices], IPrintWriteStream interface, IPrintWriteStream interface [Print Devices], WriteBytes method, IPrintWriteStream::WriteBytes, WriteBytes method [Print Devices], filterpipeline/IPrintWriteStream::WriteBytes, IPrintWriteStream, WriteBytes
+ms.keywords: print.iprintwritestream_writebytes, WriteBytes method [Print Devices], IPrintWriteStream interface, WriteBytes, IPrintWriteStream::WriteBytes, filterpipeline/IPrintWriteStream::WriteBytes, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, WriteBytes method [Print Devices], IPrintWriteStream interface [Print Devices], WriteBytes method, IPrintWriteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT WriteBytes(
 
 
 
-#### - pvBuffer [in]
+### -param pvBuffer [in]
 
 A pointer to the buffer that the bytes will be written from.
 
 
-#### - cbBuffer [in]
+### -param cbBuffer [in]
 
 The size of the buffer to be read from.
 
 
-#### - pcbWritten [out]
+### -param pcbWritten [out]
 
 A pointer to the number of bytes actually written. 
 

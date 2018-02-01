@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDeviceEventComplete, buses.ufxdeviceeventcomplete, ufxclient/UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses]
+ms.keywords: UfxDeviceEventComplete method [Buses], ufxclient/UfxDeviceEventComplete, UfxDeviceEventComplete, buses.ufxdeviceeventcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID UfxDeviceEventComplete(
 
 
 
-#### - UfxDevice [in]
+### -param UfxDevice [in]
 
 A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-#### - Status [in]
+### -param Status [in]
 
 Status of the event being completed.
 

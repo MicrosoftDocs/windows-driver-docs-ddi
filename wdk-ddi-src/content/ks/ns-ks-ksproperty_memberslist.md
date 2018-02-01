@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2354da98-8663-4758-add7-3ac4350f563c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_MEMBERSLIST structure [Streaming Media Devices], ks/PKSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST, stream.ksproperty_memberslist, ks/KSPROPERTY_MEMBERSLIST, PKSPROPERTY_MEMBERSLIST structure pointer [Streaming Media Devices], PKSPROPERTY_MEMBERSLIST, *PKSPROPERTY_MEMBERSLIST, ks-struct_44a818f7-bffd-4aa5-aa30-b6376c0593ca.xml
+ms.keywords: ks/PKSPROPERTY_MEMBERSLIST, stream.ksproperty_memberslist, ks-struct_44a818f7-bffd-4aa5-aa30-b6376c0593ca.xml, PKSPROPERTY_MEMBERSLIST structure pointer [Streaming Media Devices], KSPROPERTY_MEMBERSLIST structure [Streaming Media Devices], KSPROPERTY_MEMBERSLIST, ks/KSPROPERTY_MEMBERSLIST, PKSPROPERTY_MEMBERSLIST, *PKSPROPERTY_MEMBERSLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - MembersHeader
+### -field MembersHeader
 
 Indicates a structure of type <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a> that specifies the size and type of information contained in the <b>Members</b> array.
 
 
-#### - Members
+### -field Members
 
 Points to an array of entries that specify legal values or ranges for a property. Each entry describes a value or a set of a values.
 
@@ -91,21 +91,21 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
-
-<a href="..\ks\ns-ks-ksproperty_stepping_longlong.md">KSPROPERTY_STEPPING_LONGLONG</a>
-
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
-<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
-
-<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
+<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
 
 <a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
+
+<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+
+<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
+
+<a href="..\ks\ns-ks-ksproperty_stepping_longlong.md">KSPROPERTY_STEPPING_LONGLONG</a>
 
  
 

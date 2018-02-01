@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c4b8220a-bd54-4e41-a00e-3750a3f03cae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdasup/BdaFilterFactoryUpdateCacheData, stream.bdafilterfactoryupdatecachedata, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices], bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, BdaFilterFactoryUpdateCacheData
+ms.keywords: bdasup/BdaFilterFactoryUpdateCacheData, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices], BdaFilterFactoryUpdateCacheData, bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, stream.bdafilterfactoryupdatecachedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS BdaFilterFactoryUpdateCacheData(
 
 
 
-#### - pFilterFactory [in]
+### -param pFilterFactory [in]
 
 Points to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to update the pin data cache.
 
@@ -105,11 +105,11 @@ The <a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNo
 
 <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
+<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
+
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
 
  
 

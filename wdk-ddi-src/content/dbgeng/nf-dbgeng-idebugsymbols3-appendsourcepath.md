@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b82c2206-b81d-4ebf-a8fd-c08d7f57ffc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::AppendSourcePath, IDebugSymbols::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::AppendSourcePath, AppendSourcePath, IDebugSymbols2::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols interface, AppendSourcePath method [Windows Debugging], dbgeng/IDebugSymbols2::AppendSourcePath, IDebugSymbols2 interface [Windows Debugging], AppendSourcePath method, debugger.appendsourcepath, IDebugSymbols3 interface [Windows Debugging], AppendSourcePath method, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], AppendSourcePath method, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, dbgeng/IDebugSymbols::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: AppendSourcePath method [Windows Debugging], AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::AppendSourcePath, dbgeng/IDebugSymbols3::AppendSourcePath, debugger.appendsourcepath, IDebugSymbols2 interface [Windows Debugging], AppendSourcePath method, dbgeng/IDebugSymbols2::AppendSourcePath, IDebugSymbols3::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::AppendSourcePath, IDebugSymbols3 interface [Windows Debugging], AppendSourcePath method, IDebugSymbols::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], AppendSourcePath method, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT AppendSourcePath(
 
 
 
-#### - Addition [in]
+### -param Addition [in]
 
 Specifies the directories to append to the source path.  This is a string that contains source path elements separated by semicolons (;).  Each source path element can specify either a directory or a source server.
 
@@ -110,17 +110,17 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
  
 

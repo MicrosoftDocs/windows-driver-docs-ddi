@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8c1dee9-515f-4844-aa3e-8deab660bd33
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUnregisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_92c44631-4032-4538-bc1b-6463c3ae3c76.xml, kernel.iounregistercontainernotification, wdm/IoUnregisterContainerNotification, IoUnregisterContainerNotification
+ms.keywords: k104_92c44631-4032-4538-bc1b-6463c3ae3c76.xml, kernel.iounregistercontainernotification, wdm/IoUnregisterContainerNotification, IoUnregisterContainerNotification, IoUnregisterContainerNotification routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoUnregisterContainerNotification(
 
 
 
-#### - CallbackRegistration [in]
+### -param CallbackRegistration [in]
 
 A pointer to a callback registration object that was created by a previous call to <b>IoRegisterContainerNotification</b>.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f21ba9f4-9571-4918-8f10-97bd308c69f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/USB_BUS_INTERFACE_USBDI_V0, _USB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0, buses.usb_bus_interface_usbdi_v0, usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml, USB_BUS_INTERFACE_USBDI_V0 structure [Buses], USB_BUS_INTERFACE_USBDI_V0"
+ms.keywords: PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], PUSB_BUS_INTERFACE_USBDI_V0, usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml, _USB_BUS_INTERFACE_USBDI_V0, usbbusif/USB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0, *PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, buses.usb_bus_interface_usbdi_v0, USB_BUS_INTERFACE_USBDI_V0 structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,12 +76,12 @@ typedef struct _USB_BUS_INTERFACE_USBDI_V0 {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size in bytes of the buffer that holds the interface pointers. 
 
 
-#### - Version
+### -field Version
 
 Indicates, on input, the version of the interface. This member should have one of the following values:
 <table>
@@ -132,37 +132,37 @@ Version 3 of the interface.
 </table> 
 
 
-#### - BusContext
+### -field BusContext
 
 Contains information that describes the USB bus and the USB bus driver that exposes this interface. This is an opaque entity that the caller must pass to the interface routines. 
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
-#### - GetUSBDIVersion
+### -field GetUSBDIVersion
 
 Pointer to a routine that returns the USB interface version number, the version number of USB specification that defines the interface, along with host controller capabilities information. This routine returns the highest USBDI interface version that is supported by the port driver. For more information about this routine, see <a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>. 
 
 
-#### - QueryBusTime
+### -field QueryBusTime
 
 Pointer to a routine that returns the current 32-bit USB frame number. This routine replaces the <b>USBD_QueryBusTime</b> function provided by usbd.sys. For more information about this routine, see <a href="https://msdn.microsoft.com/6a0a1953-070d-4335-a906-4ca3fe8a04e1">QueryBusTime</a>.
 
 
-#### - SubmitIsoOutUrb
+### -field SubmitIsoOutUrb
 
 Reserved. Do not use.
 
 
-#### - QueryBusInformation
+### -field QueryBusInformation
 
 Pointer to a routine that returns information about the bus. The information that is returned depends on the value of the <b>Level </b>member. If <b>Level</b> is 0, this routine returns bus bandwidth information. If <b>Level</b> is 1, it returns bus bandwidth information and the host controller's symbolic name. This routine replaces the <b>USBD_QueryBusInformation</b> function provided by usbd.sys. For more information about this routine, see <a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a>. 
 

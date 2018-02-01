@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 491b99c6-5531-4d24-83a4-c404b58d111c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfstringcreate, DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, WdfStringCreate, WdfStringCreate method, wdfstring/WdfStringCreate, kmdf.wdfstringcreate, PFN_WDFSTRINGCREATE
+ms.keywords: WdfStringCreate, PFN_WDFSTRINGCREATE, kmdf.wdfstringcreate, wdfstring/WdfStringCreate, WdfStringCreate method, DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, wdf.wdfstringcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfStringCreate(
 
 
 
-#### - UnicodeString [in, optional]
+### -param UnicodeString [in, optional]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a Unicode string constant. The framework copies the string to the new framework string object. This pointer is optional and can be <b>NULL</b>.
 
 
-#### - StringAttributes [in, optional]
+### -param StringAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new string object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - String [out]
+### -param String [out]
 
 A pointer to a location that receives a handle to the new string object.
 
@@ -156,11 +156,11 @@ For more information about framework string objects, see <a href="https://docs.m
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

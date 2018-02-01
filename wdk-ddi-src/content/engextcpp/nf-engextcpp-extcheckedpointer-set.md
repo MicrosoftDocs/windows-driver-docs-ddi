@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtBuffer::Set, Set, ExtCheckedPointer::Set, ExtRemoteTyped class [Windows Debugging], Set method, debugger.extremotetyped_set_bool, Set method [Windows Debugging], ExtRemoteTyped class, ExtBuffer, Set method [Windows Debugging], ExtCheckedPointer
+ms.keywords: ExtBuffer, ExtCheckedPointer::Set, Set, ExtBuffer::Set, Set method [Windows Debugging], ExtCheckedPointer, Set method [Windows Debugging], ExtRemoteTyped class, debugger.extremotetyped_set_bool, ExtRemoteTyped class [Windows Debugging], Set method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,14 +76,14 @@ void Set(
 
 
 
+#### - Offset [in]
+
+Specifies the location of the data in the target's memory.
+
+
 #### - PtrTo [in]
 
 Specifies whether or not to set the <b>ExtRemoteTyped</b> instance to the specified typed data, or to a pointer to the specified typed data.  If <i>PtrTo</i> is <code>true</code>, the <b>ExtRemoteTyped</b> instance will be a pointer to the typed data.
-
-
-#### - TypeModBase [in]
-
-The base address of the module to which the type belongs.
 
 
 #### - TypeId [in]
@@ -91,9 +91,9 @@ The base address of the module to which the type belongs.
 The type ID of the type.
 
 
-#### - Offset [in]
+#### - TypeModBase [in]
 
-Specifies the location of the data in the target's memory.
+The base address of the module to which the type belongs.
 
 
 ## -returns
@@ -105,17 +105,17 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544384">ExtRemoteTyped::SetPrint</a>
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR, ULONG64)</a>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR)</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR, ULONG64, bool)</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR, ULONG64, bool)</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set (PCSTR)</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544384">ExtRemoteTyped::SetPrint</a>
 
  
 

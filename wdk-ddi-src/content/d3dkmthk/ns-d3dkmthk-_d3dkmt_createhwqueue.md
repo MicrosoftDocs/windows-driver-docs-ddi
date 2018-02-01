@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_createhwqueue, d3dkmthk/D3DKMT_CREATEHWQUEUE, _D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE structure [Display Devices]
+ms.keywords: D3DKMT_CREATEHWQUEUE structure [Display Devices], d3dkmthk/D3DKMT_CREATEHWQUEUE, display.d3dkmt_createhwqueue, D3DKMT_CREATEHWQUEUE, _D3DKMT_CREATEHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,44 +74,44 @@ typedef struct _D3DKMT_CREATEHWQUEUE {
 
 
 
-#### - hHwContext
+### -field hHwContext
 
 Handle to the hardware context the queue is associated with.
 
 
 
-#### - Flags
+### -field Flags
 
 Hardware queue creation flags.
 
 
 
-#### - PrivateDriverDataSize
+### -field PrivateDriverDataSize
 
 Size of private driver data.
 
 
-#### - pPrivateDriverData
+### -field pPrivateDriverData
 
 Private driver data.
 
 
-#### - hHwQueue
+### -field hHwQueue
 
 Handle to the hardware queue object to submit work to.
 
 
-#### - hHwQueueProgressFence
+### -field hHwQueueProgressFence
 
 Handle to the monitored fence object used to monitor the queue progress.
 
 
-#### - HwQueueProgressFenceCPUVirtualAddress
+### -field HwQueueProgressFenceCPUVirtualAddress
 
 Read-only mapping of the queue progress fence value for the CPU.
 
 
-#### - HwQueueProgressFenceGPUVirtualAddress
+### -field HwQueueProgressFenceGPUVirtualAddress
 
 Read/write mapping of the queue progress fence value for the GPU.
 

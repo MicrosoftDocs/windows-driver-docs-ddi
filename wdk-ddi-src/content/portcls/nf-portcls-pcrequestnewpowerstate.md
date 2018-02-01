@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fbe2c665-a7e8-43e4-95e5-a7e87521e163
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcRequestNewPowerState, portcls/PcRequestNewPowerState, audio.pcrequestnewpowerstate, PcRequestNewPowerState function [Audio Devices], audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml
+ms.keywords: audio.pcrequestnewpowerstate, PcRequestNewPowerState, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS PcRequestNewPowerState(
 
 
 
-#### - pDeviceObject [in]
+### -param pDeviceObject [in]
 
 Pointer to the adapter's <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">functional device object (FDO)</a>. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-#### - RequestedNewState [in]
+### -param RequestedNewState [in]
 
 Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
 

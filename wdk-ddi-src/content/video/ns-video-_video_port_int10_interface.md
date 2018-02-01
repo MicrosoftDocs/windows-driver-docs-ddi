@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 551b2255-c221-4a95-a812-dec34f09438b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_INT10_INTERFACE structure [Display Devices], PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, video/VIDEO_PORT_INT10_INTERFACE, video/PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE, display.video_port_int10_interface, *PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, _VIDEO_PORT_INT10_INTERFACE
+ms.keywords: PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE, Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, _VIDEO_PORT_INT10_INTERFACE, *PVIDEO_PORT_INT10_INTERFACE, video/VIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], VIDEO_PORT_INT10_INTERFACE structure [Display Devices], display.video_port_int10_interface, video/PVIDEO_PORT_INT10_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ typedef struct _VIDEO_PORT_INT10_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size in bytes of this structure.
 
 
-#### - Version
+### -field Version
 
 Specifies the version of the interface to be returned by the video port driver. The current interface version is defined in <i>video.h</i> and has the form VIDEO_PORT_INT10_INTERFACE_<i>N</i>.
 
 
-#### - Context
+### -field Context
 
 Pointer to a video port driver-defined context for the interface.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to the video port driver-implemented reference routine for this interface.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to the video port driver-implemented dereference routine for this interface.
 
 
-#### - Int10AllocateBuffer
+### -field Int10AllocateBuffer
 
 Pointer to the video port driver-implemented <a href="..\video\nc-video-pint10_allocate_buffer.md">Int10AllocateBuffer</a> routine.
 
 
-#### - Int10FreeBuffer
+### -field Int10FreeBuffer
 
 Pointer to the video port driver-implemented <a href="..\video\nc-video-pint10_free_buffer.md">Int10FreeBuffer</a> routine.
 
 
-#### - Int10ReadMemory
+### -field Int10ReadMemory
 
 Pointer to the video port driver-implemented <a href="..\video\nc-video-pint10_read_memory.md">Int10ReadMemory</a> routine.
 
 
-#### - Int10WriteMemory
+### -field Int10WriteMemory
 
 Pointer to the video port driver-implemented <a href="..\video\nc-video-pint10_write_memory.md">Int10WriteMemory</a> routine.
 
 
-#### - Int10CallBios
+### -field Int10CallBios
 
 Pointer to the video port driver-implemented <a href="..\video\nc-video-pint10_call_bios.md">Int10CallBios</a> routine.
 

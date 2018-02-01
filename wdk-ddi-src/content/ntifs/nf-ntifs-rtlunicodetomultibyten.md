@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e50199d2-948d-4572-8688-89d92961f85b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlunicodetomultibyten, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml, RtlUnicodeToMultiByteN, ntifs/RtlUnicodeToMultiByteN, RtlUnicodeToMultiByteN routine [Installable File System Drivers]
+ms.keywords: RtlUnicodeToMultiByteN, ntifs/RtlUnicodeToMultiByteN, RtlUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlunicodetomultibyten, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS RtlUnicodeToMultiByteN(
 
 
 
-#### - MultiByteString [out]
+### -param MultiByteString [out]
 
 Pointer to a caller-allocated buffer to receive the translated string. <i>MultiByteString </i>buffer must not overlap with <i>UnicodeString </i>buffer.
 
 
-#### - MaxBytesInMultiByteString [in]
+### -param MaxBytesInMultiByteString [in]
 
 Maximum number of bytes to be written to <i>MultiByteString</i>. If this value causes the translated string to be truncated, <b>RtlUnicodeToMultiByteN</b> does not return an error status. 
 
 
-#### - BytesInMultiByteString [out, optional]
+### -param BytesInMultiByteString [out, optional]
 
 Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - UnicodeString [in]
+### -param UnicodeString [in]
 
 Pointer to the Unicode source string to be translated. 
 
 
-#### - BytesInUnicodeString [in]
+### -param BytesInUnicodeString [in]
 
 Size, in bytes, of the string at <i>UnicodeString</i>. 
 
@@ -120,11 +120,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a>
+
 <a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
 
 <a href="..\ntifs\nf-ntifs-rtlunicodetomultibytesize.md">RtlUnicodeToMultiByteSize</a>
-
-<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a>
 
  
 

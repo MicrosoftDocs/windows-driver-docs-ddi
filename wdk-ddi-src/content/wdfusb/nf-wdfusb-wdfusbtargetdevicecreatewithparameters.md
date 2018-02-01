@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E93A944E-81D5-4059-ADA6-2760A091C30B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters, kmdf.wdfusbtargetdevicecreatewithparameters, WdfUsbTargetDeviceCreateWithParameters method, kmdf.wdfusbtargetdevicecreatewithconfig
+ms.keywords: kmdf.wdfusbtargetdevicecreatewithconfig, WdfUsbTargetDeviceCreateWithParameters method, WdfUsbTargetDeviceCreateWithParameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,22 +79,22 @@ NTSTATUS WdfUsbTargetDeviceCreateWithParameters(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Config [in]
+### -param Config [in]
 
 A pointer to a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a> structure that contains configuration information for the framework USB device object.
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a caller-supplied <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new framework USB device object. (The structure's <b>ParentObject</b> member must be NULL.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - UsbDevice [out]
+### -param UsbDevice [out]
 
 A pointer to a location that receives a handle to the new framework USB device object.
 
@@ -187,9 +187,9 @@ If you call this method from a UMDF driver, you must specify the <b>UmdfDispatch
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreate.md">WdfUsbTargetDeviceCreate</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md">WDF_USB_DEVICE_CREATE_CONFIG_INIT</a>
-
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md">WDF_USB_DEVICE_CREATE_CONFIG_INIT</a>
 
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
 

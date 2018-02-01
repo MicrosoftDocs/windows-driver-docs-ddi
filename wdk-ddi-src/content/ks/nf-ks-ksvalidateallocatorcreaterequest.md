@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9275257b-50d8-4272-b340-4344644b3e15
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml, stream.ksvalidateallocatorcreaterequest, KsValidateAllocatorCreateRequest, ks/KsValidateAllocatorCreateRequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices]
+ms.keywords: KsValidateAllocatorCreateRequest, ks/KsValidateAllocatorCreateRequest, stream.ksvalidateallocatorcreaterequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices], ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsValidateAllocatorCreateRequest(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP with the IRP_MJ_CREATE request being validated.
 
 
-#### - AllocatorFraming [out]
+### -param AllocatorFraming [out]
 
 Caller-defined pointer that on successful completion contains an address to the framing structure supplied with the request.
 

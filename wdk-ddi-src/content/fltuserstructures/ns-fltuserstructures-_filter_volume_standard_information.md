@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 51f2f837-7d67-4a9d-a365-d9d1b24977e5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILTER_VOLUME_STANDARD_INFORMATION, FltSystemStructures_cf6b475f-0334-4d11-8449-f66c611011bf.xml, FILTER_VOLUME_STANDARD_INFORMATION structure [Installable File System Drivers], _FILTER_VOLUME_STANDARD_INFORMATION, fltuserstructures/FILTER_VOLUME_STANDARD_INFORMATION, *PFILTER_VOLUME_STANDARD_INFORMATION, PFILTER_VOLUME_STANDARD_INFORMATION structure pointer [Installable File System Drivers], fltuserstructures/PFILTER_VOLUME_STANDARD_INFORMATION, ifsk.filter_volume_standard_information, PFILTER_VOLUME_STANDARD_INFORMATION
+ms.keywords: "_FILTER_VOLUME_STANDARD_INFORMATION, FltSystemStructures_cf6b475f-0334-4d11-8449-f66c611011bf.xml, fltuserstructures/FILTER_VOLUME_STANDARD_INFORMATION, PFILTER_VOLUME_STANDARD_INFORMATION structure pointer [Installable File System Drivers], FILTER_VOLUME_STANDARD_INFORMATION, ifsk.filter_volume_standard_information, fltuserstructures/PFILTER_VOLUME_STANDARD_INFORMATION, *PFILTER_VOLUME_STANDARD_INFORMATION, PFILTER_VOLUME_STANDARD_INFORMATION, FILTER_VOLUME_STANDARD_INFORMATION structure [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _FILTER_VOLUME_STANDARD_INFORMATION {
 
 
 
-#### - NextEntryOffset
+### -field NextEntryOffset
 
 Read-only offset, in bytes, of the next FILTER_VOLUME_STANDARD_INFORMATION structure if multiple structures are present in the buffer. This member is zero if no other structures follow this one.
 
 
-#### - Flags
+### -field Flags
 
 A read-only bitmask of system-defined flags that describe attributes of the volume. The following are valid flag values.
 <table>
@@ -98,22 +98,22 @@ The volume in not currently attached to a storage stack.
 </table> 
 
 
-#### - FrameID
+### -field FrameID
 
 Read-only member used to identify the filter manager frame that the volume is in.
 
 
-#### - FileSystemType
+### -field FileSystemType
 
 Read-only member used to identify the type of file system being used on the volume.  The possible values for this member are listed in <a href="..\fltuserstructures\ne-fltuserstructures-_flt_filesystem_type.md">FLT_FILESYSTEM_TYPE</a>.
 
 
-#### - FilterVolumeNameLength
+### -field FilterVolumeNameLength
 
 Read-only length, in bytes, of the volume name.
 
 
-#### - FilterVolumeName
+### -field FilterVolumeName
 
 Read-only name of the volume of <b>FilterVolumeNameLength</b> length.  This Unicode string is not NULL-terminated.
 
@@ -131,17 +131,17 @@ A FILTER_VOLUME_STANDARD_INFORMATION structure can be allocated from paged or no
 
 ## -see-also
 
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_basic_information.md">FILTER_VOLUME_BASIC_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a>
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_basic_information.md">FILTER_VOLUME_BASIC_INFORMATION</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
 
  
 

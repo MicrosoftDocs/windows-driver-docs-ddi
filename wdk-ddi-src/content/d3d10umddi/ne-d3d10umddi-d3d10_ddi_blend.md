@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 719cd6b3-4f48-4b26-95fe-6f5faac56c06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_BLEND_INV_DEST_ALPHA, D3D10_DDI_BLEND_INV_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_INVBLEND_FACTOR, D3D10_DDI_BLEND_DEST_ALPHA, D3D10_DDI_BLEND_INV_SRC1_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INV_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_ALPHA, D3D10_DDI_BLEND_SRC_COLOR, D3D10_DDI_BLEND_ZERO, d3d10umddi/D3D10_DDI_BLEND_DEST_ALPHA, d3d10umddi/D3D10_DDI_BLEND, D3D10_DDI_BLEND_BLEND_FACTOR, D3D10_DDI_BLEND, UMDisplayDriver_Dx10param_Structs_de092af6-e6a8-4772-af32-b92d2afcea79.xml, D3D10_DDI_BLEND_INV_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_SRC_COLOR, D3D10_DDI_BLEND_INV_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_SRC1_ALPHA, D3D10_DDI_BLEND_ONE, d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHASAT, d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_ZERO, D3D10_DDI_BLEND_DEST_COLOR, display.d3d10_ddi_blend, D3D10_DDI_BLEND_INVBLEND_FACTOR, D3D10_DDI_BLEND_SRC_ALPHASAT, D3D10_DDI_BLEND_INV_DEST_ALPHA, D3D10_DDI_BLEND_SRC1_COLOR, D3D10_DDI_BLEND_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_ALPHA, d3d10umddi/D3D10_DDI_BLEND_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_ONE, d3d10umddi/D3D10_DDI_BLEND_BLEND_FACTOR, D3D10_DDI_BLEND_SRC1_ALPHA, D3D10_DDI_BLEND_INV_SRC_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_COLOR, D3D10_DDI_BLEND enumeration [Display Devices]
+ms.keywords: D3D10_DDI_BLEND_SRC_COLOR, D3D10_DDI_BLEND_SRC_ALPHASAT, UMDisplayDriver_Dx10param_Structs_de092af6-e6a8-4772-af32-b92d2afcea79.xml, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_COLOR, D3D10_DDI_BLEND_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_DEST_ALPHA, D3D10_DDI_BLEND_SRC_ALPHA, D3D10_DDI_BLEND enumeration [Display Devices], d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHASAT, D3D10_DDI_BLEND_INV_DEST_ALPHA, D3D10_DDI_BLEND_INV_SRC_COLOR, D3D10_DDI_BLEND_ONE, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_COLOR, D3D10_DDI_BLEND_INV_DEST_COLOR, D3D10_DDI_BLEND_INV_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_DEST_ALPHA, d3d10umddi/D3D10_DDI_BLEND_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_ZERO, d3d10umddi/D3D10_DDI_BLEND, display.d3d10_ddi_blend, D3D10_DDI_BLEND_DEST_ALPHA, d3d10umddi/D3D10_DDI_BLEND_BLEND_FACTOR, d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHA, D3D10_DDI_BLEND_INV_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_SRC_COLOR, D3D10_DDI_BLEND_ZERO, D3D10_DDI_BLEND, D3D10_DDI_BLEND_SRC1_COLOR, D3D10_DDI_BLEND_INVBLEND_FACTOR, D3D10_DDI_BLEND_BLEND_FACTOR, d3d10umddi/D3D10_DDI_BLEND_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_SRC1_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INVBLEND_FACTOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_ONE, D3D10_DDI_BLEND_INV_SRC1_ALPHA, D3D10_DDI_BLEND_SRC1_ALPHA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,91 +83,91 @@ typedef enum D3D10_DDI_BLEND {
 
 
 
-#### - D3D10_DDI_BLEND_ZERO
+### -field D3D10_DDI_BLEND_ZERO
 
 Blend factor is (0, 0, 0, 0).
 
 
-#### - D3D10_DDI_BLEND_ONE
+### -field D3D10_DDI_BLEND_ONE
 
 Blend factor is (1, 1, 1, 1).
 
 
-#### - D3D10_DDI_BLEND_SRC_COLOR
+### -field D3D10_DDI_BLEND_SRC_COLOR
 
 Blend factor is (Rₛ,Gₛ,Bₛ,Aₛ).
 
 
-#### - D3D10_DDI_BLEND_INV_SRC_COLOR
+### -field D3D10_DDI_BLEND_INV_SRC_COLOR
 
 Blend factor is (1 - Rₛ, 1 - Gₛ, 1 - Bₛ, 1 - Aₛ). 
 
 
-#### - D3D10_DDI_BLEND_SRC_ALPHA
+### -field D3D10_DDI_BLEND_SRC_ALPHA
 
 Blend factor is (Aₛ, Aₛ, Aₛ, Aₛ). 
 
 
-#### - D3D10_DDI_BLEND_INV_SRC_ALPHA
+### -field D3D10_DDI_BLEND_INV_SRC_ALPHA
 
 Blend factor is ( 1 - Aₛ, 1 - Aₛ, 1 - Aₛ, 1 - Aₛ). 
 
 
-#### - D3D10_DDI_BLEND_DEST_ALPHA
+### -field D3D10_DDI_BLEND_DEST_ALPHA
 
 
       Blend factor is (A<sub>d</sub>, A<sub>d</sub>, A<sub>d</sub>, A<sub>d</sub>) of the current render target that is being blended. 
      
 
 
-#### - D3D10_DDI_BLEND_INV_DEST_ALPHA
+### -field D3D10_DDI_BLEND_INV_DEST_ALPHA
 
 Blend factor is (1 - A<sub>d</sub>, 1 - A<sub>d</sub>, 1 - A<sub>d</sub>, 1 - A<sub>d</sub>) of the current render target that is being blended. 
 
 
-#### - D3D10_DDI_BLEND_DEST_COLOR
+### -field D3D10_DDI_BLEND_DEST_COLOR
 
 Blend factor is (R<sub>d</sub>, G<sub>d</sub>, B<sub>d</sub>, A<sub>d</sub>) of the current render target that is being blended. 
 
 
-#### - D3D10_DDI_BLEND_INV_DEST_COLOR
+### -field D3D10_DDI_BLEND_INV_DEST_COLOR
 
 Blend factor is (1 - R<sub>d</sub>, 1 - G<sub>d</sub>, 1 - B<sub>d</sub>, 1 - A<sub>d</sub>) of the current render target that is being blended.
 
 
-#### - D3D10_DDI_BLEND_SRC_ALPHASAT
+### -field D3D10_DDI_BLEND_SRC_ALPHASAT
 
 Blend factor is (f, f, f, 1); f = min(A, 1 - A<sub>d</sub>). 
 
 
-#### - D3D10_DDI_BLEND_BLEND_FACTOR
+### -field D3D10_DDI_BLEND_BLEND_FACTOR
 
 
       Constant color-blending factor that the frame-buffer blender uses.
      
 
 
-#### - D3D10_DDI_BLEND_INVBLEND_FACTOR
+### -field D3D10_DDI_BLEND_INVBLEND_FACTOR
 
 Inverted constant color-blending factor that the frame-buffer blender uses.
 
 
-#### - D3D10_DDI_BLEND_SRC1_COLOR
+### -field D3D10_DDI_BLEND_SRC1_COLOR
 
 Blend factor is the red, green, and blue (RGB) components of a pixel shader output register (PS output o1.rgb). 
 
 
-#### - D3D10_DDI_BLEND_INV_SRC1_COLOR
+### -field D3D10_DDI_BLEND_INV_SRC1_COLOR
 
 Blend factor is the inversion of the RGB components of a pixel shader output register (1.0f - PS output o1.rgb). 
 
 
-#### - D3D10_DDI_BLEND_SRC1_ALPHA
+### -field D3D10_DDI_BLEND_SRC1_ALPHA
 
 Blend factor is the alpha component of a pixel shader output register (PS output o1.a). 
 
 
-#### - D3D10_DDI_BLEND_INV_SRC1_ALPHA
+### -field D3D10_DDI_BLEND_INV_SRC1_ALPHA
 
 Blend factor is the inversion of the alpha component of a pixel shader output register (1.0f - PS output o1.a). 
 

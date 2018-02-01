@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortValidateRange, storage.storportvalidaterange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml, StorPortValidateRange routine [Storage Devices], StorPortValidateRange
+ms.keywords: StorPortValidateRange routine [Storage Devices], storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml, storport/StorPortValidateRange, StorPortValidateRange, storage.storportvalidaterange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ STORPORT_API BOOLEAN StorPortValidateRange(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - BusType [in]
+### -param BusType [in]
 
 Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566356">STORAGE_BUS_TYPE</a> that indicates the bus type. 
 
@@ -89,17 +89,17 @@ Contains a value of type <a href="https://msdn.microsoft.com/library/windows/har
 TBD
 
 
-#### - IoAddress [in]
+### -param IoAddress [in]
 
 Contains the beginning address of the range of addresses to be validated. 
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Contains the length in bytes of the range of addresses to be validated. 
 
 
-#### - InIoSpace [in]
+### -param InIoSpace [in]
 
 Indicates, when <b>TRUE</b>, that the address range is in I/O space. If <b>FALSE</b>, the address is in memory space. 
 

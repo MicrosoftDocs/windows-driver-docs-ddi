@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9C4800E6-0F5F-4895-AD19-635C7F784462
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback, SendMessage, SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface, image.iwiaminidrvtransfercallback_sendmessage, IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage, IWiaMiniDrvTransferCallback::SendMessage
+ms.keywords: IWiaMiniDrvTransferCallback::SendMessage, image.iwiaminidrvtransfercallback_sendmessage, SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface, SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method, IWiaMiniDrvTransferCallback, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage, SendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT SendMessage(
 
 
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
 
-#### - pWiaTransferParams [in]
+### -param pWiaTransferParams [in]
 
 Pointer to a <b>WiaTransferParams</b> object.
 
@@ -97,11 +97,11 @@ When the current transfer sequence is cancelled, the <b>SendMessage</b> method r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>
+<a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
 
  
 

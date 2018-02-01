@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: B81F5D71-9928-412C-8199-787E71CE2638
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_AGNSS_INJECT structure [Sensor Devices], PGNSS_AGNSS_INJECT structure pointer [Sensor Devices], PGNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT, sensors.gnss_agnss_inject, gnssdriver/PGNSS_AGNSS_INJECT, gnssdriver/GNSS_AGNSS_INJECT
+ms.keywords: GNSS_AGNSS_INJECT, gnssdriver/PGNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT structure [Sensor Devices], PGNSS_AGNSS_INJECT, PGNSS_AGNSS_INJECT structure pointer [Sensor Devices], sensors.gnss_agnss_inject, gnssdriver/GNSS_AGNSS_INJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,49 +77,49 @@ typedef struct {
 
 
 
-#### - Time
+### -field Time
 
 
 <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injecttime.md">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
 
 
-#### - Position
+### -field Position
 
 
 <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectposition.md">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
 
 
-#### - BlobData
+### -field BlobData
 
 
 <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectblob.md">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - InjectionType
+### -field InjectionType
 
 Indicates the specific type of AGNSS injection. 
 
 Depending on the type, the driver must access the specific data element of the structure. For example, if the type is GNSS_AGNSS_PositionInjection, use the Position element.
 
 
-#### - InjectionStatus
+### -field InjectionStatus
 
 Indicates whether any error was encountered in gathering the needed injection data. 
 
 The driver must ignore the injection if this field does not indicate success.
 
 
-#### - InjectionDataSize
+### -field InjectionDataSize
 
 Size of the injection data.
 

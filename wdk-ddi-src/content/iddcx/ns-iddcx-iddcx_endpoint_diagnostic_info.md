@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70be09ed-5633-464b-b311-f671efe83a54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], IDDCX_ENDPOINT_DIAGNOSTIC_INFO, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO, display.iddcx_endpoint_diagnostic_info
+ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], display.iddcx_endpoint_diagnostic_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,56 +74,56 @@ typedef struct IDDCX_ENDPOINT_DIAGNOSTIC_INFO {
 
 
 
-#### - Size
+### -field Size
 
 
                      
                  Total size of the structure.
 
 
-#### - TransmissionType
+### -field TransmissionType
 
 
                      Describes the type of link the video data is being transmitted over.
                  
 
 
-#### - pEndPointFriendlyName
+### -field pEndPointFriendlyName
 
 
                      The friendly name of the endpoint, if one exists. This is applicable if the user can give the device a name and is NULL if a friendly name does not exist.
                  
 
 
-#### - pEndPointModelName
+### -field pEndPointModelName
 
 
                      The model name of the endpoint. Must be a non-empty string.
                  
 
 
-#### - pEndPointManufacturerName
+### -field pEndPointManufacturerName
 
 
                      The manufacture name of the endpoint. Must be a non-empty string.
                  
 
 
-#### - pHardwareVersion
+### -field pHardwareVersion
 
 
                      Pointer to version info for the endpoint hardware.
                  
 
 
-#### - pFirmwareVersion
+### -field pFirmwareVersion
 
 
                      Pointer to version info for the endpoint firmware.
                  
 
 
-#### - GammaSupport
+### -field GammaSupport
 
 
                      Indicates how gamma is implemented.

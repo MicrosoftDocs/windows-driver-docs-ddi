@@ -78,7 +78,7 @@ VOID ProtocolClCloseCallComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies the final status of the client's request to close this call, which can be one of the
      following:
@@ -101,7 +101,7 @@ The call manager failed the request to close the call for some CM-determined rea
        the client.
 
 
-#### - ProtocolVcContext [in]
+### -param ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area This is the handle that the client
      originally passed to NDIS with 
@@ -110,7 +110,7 @@ Specifies the handle to the client's per-VC context area This is the handle that
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - ProtocolPartyContext [in, optional]
+### -param ProtocolPartyContext [in, optional]
 
 Specifies the handle to the client's per-party context area for the last remaining party on the
      client-created VC representing a multipoint connection. Otherwise, this parameter is <b>NULL</b>.
@@ -150,8 +150,8 @@ Reinitialize its per-VC context area and reuse its VC to make another connection
     <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function. The
     call manager can even dispatch another incoming call on the VC that it created, thereby causing a call to
     the client's 
-    <mshelp:link keywords="netvista.protocolclincomingcall" tabindex="0"><i>
-    ProtocolClIncomingCall</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+    ProtocolClIncomingCall</a> function.
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolClCloseCallComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolClCloseCallComplete</i> function that is named "MyClCloseCallComplete", use the <b>PROTOCOL_CL_CLOSE_CALL_COMPLETE</b> type as shown in this code example:
@@ -189,9 +189,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 <a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
 
@@ -203,7 +201,9 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
  
 

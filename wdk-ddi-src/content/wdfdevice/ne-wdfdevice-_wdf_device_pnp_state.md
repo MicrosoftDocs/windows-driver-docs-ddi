@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b907a1ca-d9ef-45e9-9e1b-26e58e3e1e07
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevStatePnpEjectedWaitingForRemove, wdfdevice/WdfDevStatePnpFailedPowerPolicyRemoved, wdfdevice/PWDF_DEVICE_PNP_STATE, WdfDevStatePnpRemoved, wdfdevice/WdfDevStatePnpRemovedPdoSurpriseRemoved, wdfdevice/WdfDevStatePnpStartedCancelRemove, WdfDevStatePnpObjectCreated, wdfdevice/WdfDevStatePnpInvalid, WdfDevStatePnpFailedIoStarting, wdfdevice/WdfDevStatePnpInit, WdfDevStatePnpQueryStopPending, wdfdevice/WdfDevStatePnpRemovedPdoWait, wdfdevice/WdfDevStatePnpStartedStopping, wdf.wdf_device_pnp_state, WDF_DEVICE_PNP_STATE, WdfDevStatePnpFailedWaitForRemove, WdfDevStatePnpInit, WdfDevStatePnpEjectFailed, wdfdevice/WdfDevStatePnpEjectFailed, wdfdevice/WdfDevStatePnpCheckForDevicePresence, WdfDevStatePnpStopped, WdfDevStatePnpFailed, WdfDevStatePnpFailedOwnHardware, wdfdevice/WdfDevStatePnpFailedIoStarting, wdfdevice/WdfDevStatePnpNull, wdfdevice/WdfDevStatePnpFailedSurpriseRemoved, wdfdevice/WdfDevStatePnpQueryRemoveEnsureDeviceAwake, WdfDevStatePnpRestartHardwareAvailable, WdfDevStatePnpStartedCancelRemove, WdfDevStatePnpSurpriseRemove, WDF_DEVICE_PNP_STATE enumeration, WdfDevStatePnpEnableInterfaces, WdfDevStatePnpQueriedSurpriseRemove, wdfdevice/WdfDevStatePnpFinal, WdfDevStatePnpCheckForDevicePresence, wdfdevice/WdfDevStatePnpStartingFromStopped, WdfDevStatePnpQueryRemovePending, wdfdevice/WdfDevStatePnpStoppedWaitForStartCompletion, wdfdevice/WdfDevStatePnpQueryRemovePending, WdfDevStatePnpQueryCanceled, wdfdevice/WdfDevStatePnpFailedStarted, WdfDevStatePnpQueriedRemoving, PWDF_DEVICE_PNP_STATE enumeration pointer, wdfdevice/WdfDevStatePnpRemovedChildrenRemoved, WdfDevStatePnpQueryStopStaticCheck, wdfdevice/WdfDevStatePnpFailedWaitForRemove, wdfdevice/WDF_DEVICE_PNP_STATE, WdfDevStatePnpStarted, wdfdevice/WdfDevStatePnpQueryCanceled, WdfDevStatePnpRestart, WdfDevStatePnpRemovedWaitForChildren, WdfDevStatePnpRestartReleaseHardware, WdfDevStatePnpRemovedChildrenRemoved, WdfDevStatePnpRestarting, wdfdevice/WdfDevStatePnpStartedRemoving, wdfdevice/WdfDevStatePnpFailedOwnHardware, wdfdevice/WdfDevStatePnpSurpriseRemoveIoStarted, wdfdevice/WdfDevStatePnpPdoRestart, WdfDevStatePnpQueryRemoveStaticCheck, WdfDevStatePnpQueryStopEnsureDeviceAwake, kmdf.wdf_device_pnp_state, WdfDevStatePnpFailedStarted, wdfdevice/WdfDevStatePnpQueriedRemoving, WdfDevStatePnpFinal, wdfdevice/WdfDevStatePnpRestarting, wdfdevice/WdfDevStatePnpRemovingDisableInterfaces, WdfDevStatePnpRemovedPdoWait, WdfDevStatePnpQueryRemoveAskDriver, wdfdevice/WdfDevStatePnpQueryStopAskDriver, wdfdevice/WdfDevStatePnpQueriedSurpriseRemove, WdfDevStatePnpFailedInit, WdfDevStatePnpPdoRestart, wdfdevice/WdfDevStatePnpRestart, WdfDevStatePnpPdoInitFailed, wdfdevice/WdfDevStatePnpStopped, wdfdevice/WdfDevStatePnpQueryStopEnsureDeviceAwake, wdfdevice/WdfDevStatePnpHardwareAvailablePowerPolicyFailed, WdfDevStatePnpHardwareAvailablePowerPolicyFailed, wdfdevice/WdfDevStatePnpInitQueryRemoveCanceled, wdfdevice/WdfDevStatePnpQueryRemoveAskDriver, wdfdevice/WdfDevStatePnpRestartReleaseHardware, *PWDF_DEVICE_PNP_STATE, wdfdevice/WdfDevStatePnpQueryStopStaticCheck, WdfDevStatePnpFdoRemoved, WdfDevStatePnpStartedRemoving, wdfdevice/WdfDevStatePnpInitQueryRemove, wdfdevice/WdfDevStatePnpEjectHardware, WdfDevStatePnpStoppedWaitForStartCompletion, wdfdevice/WdfDevStatePnpSurpriseRemove, WdfDevStatePnpInitQueryRemove, WdfDevStatePnpStartingFromStopped, WdfDevStatePnpRemovedPdoSurpriseRemoved, wdfdevice/WdfDevStatePnpFdoRemoved, wdfdevice/WdfDevStatePnpFailedInit, wdfdevice/WdfDevStatePnpObjectCreated, WdfDevStatePnpQueryStopAskDriver, WdfDevStatePnpEjectHardware, wdfdevice/WdfDevStatePnpQueryRemoveStaticCheck, wdfdevice/WdfDevStatePnpQueryStopPending, wdfdevice/WdfDevStatePnpStarted, WdfDevStatePnpHardwareAvailable, WdfDevStatePnpQueryRemoveEnsureDeviceAwake, PWDF_DEVICE_PNP_STATE, wdfdevice/WdfDevStatePnpEjectedWaitingForRemove, wdfdevice/WdfDevStatePnpFailed, WdfDevStatePnpRemovingDisableInterfaces, WdfDevStatePnpFailedSurpriseRemoved, wdfdevice/WdfDevStatePnpPdoInitFailed, WdfDevStatePnpFailedPowerPolicyRemoved, WdfDevStatePnpPdoRemoved, wdfdevice/WdfDevStatePnpStartedCancelStop, WdfDevStatePnpInitQueryRemoveCanceled, wdfdevice/WdfDevStatePnpRemovedWaitForChildren, wdfdevice/WdfDevStatePnpFailedPowerDown, _WDF_DEVICE_PNP_STATE, WdfDevStatePnpInitSurpriseRemoved, wdfdevice/WdfDevStatePnpHardwareAvailable, WdfDevStatePnpInitStarting, WdfDevStatePnpStartedStopping, wdfdevice/WdfDevStatePnpRemoved, wdfdevice/WdfDevStatePnpInitSurpriseRemoved, WdfDevStatePnpSurpriseRemoveIoStarted, wdfdevice/WdfDevStatePnpInitStarting, WdfDevStatePnpInvalid, wdfdevice/WdfDevStatePnpEnableInterfaces, WdfDevStatePnpFailedPowerDown, WdfDevStatePnpStartedCancelStop, DFDeviceObjectGeneralRef_e9aab8ea-3d0c-44f3-bad9-cd21c6f1bd28.xml, wdfdevice/WdfDevStatePnpPdoRemoved, wdfdevice/WdfDevStatePnpRestartHardwareAvailable, WdfDevStatePnpNull
+ms.keywords: wdfdevice/WdfDevStatePnpFailedOwnHardware, WdfDevStatePnpHardwareAvailable, wdfdevice/WdfDevStatePnpInitQueryRemoveCanceled, WdfDevStatePnpPdoInitFailed, wdfdevice/WdfDevStatePnpFailedSurpriseRemoved, DFDeviceObjectGeneralRef_e9aab8ea-3d0c-44f3-bad9-cd21c6f1bd28.xml, WdfDevStatePnpRemovingDisableInterfaces, wdfdevice/WdfDevStatePnpQueryStopAskDriver, WdfDevStatePnpStartedStopping, wdfdevice/WdfDevStatePnpRemovingDisableInterfaces, wdfdevice/WdfDevStatePnpStartedRemoving, wdfdevice/WdfDevStatePnpRemoved, WdfDevStatePnpRemovedChildrenRemoved, WDF_DEVICE_PNP_STATE, WdfDevStatePnpRemoved, wdfdevice/WdfDevStatePnpQueryStopEnsureDeviceAwake, wdfdevice/WdfDevStatePnpInvalid, WdfDevStatePnpFailedPowerDown, wdfdevice/WdfDevStatePnpStartedCancelStop, wdfdevice/WdfDevStatePnpEjectFailed, wdfdevice/WdfDevStatePnpQueryStopPending, WdfDevStatePnpQueryRemoveAskDriver, wdfdevice/WdfDevStatePnpEjectedWaitingForRemove, PWDF_DEVICE_PNP_STATE enumeration pointer, wdfdevice/WdfDevStatePnpFailedIoStarting, WdfDevStatePnpFailedOwnHardware, wdfdevice/WdfDevStatePnpRemovedChildrenRemoved, WdfDevStatePnpStartingFromStopped, wdfdevice/WdfDevStatePnpHardwareAvailable, WdfDevStatePnpInit, wdf.wdf_device_pnp_state, WdfDevStatePnpRemovedWaitForChildren, wdfdevice/WdfDevStatePnpFailedPowerDown, wdfdevice/PWDF_DEVICE_PNP_STATE, wdfdevice/WdfDevStatePnpPdoRestart, wdfdevice/WdfDevStatePnpQueriedRemoving, wdfdevice/WdfDevStatePnpStartedCancelRemove, WdfDevStatePnpEjectHardware, WDF_DEVICE_PNP_STATE enumeration, WdfDevStatePnpFailedInit, wdfdevice/WdfDevStatePnpRestartReleaseHardware, WdfDevStatePnpEjectedWaitingForRemove, WdfDevStatePnpStopped, wdfdevice/WdfDevStatePnpStoppedWaitForStartCompletion, wdfdevice/WdfDevStatePnpRemovedPdoWait, WdfDevStatePnpFailedStarted, WdfDevStatePnpInvalid, wdfdevice/WdfDevStatePnpRestart, WdfDevStatePnpFailedIoStarting, wdfdevice/WdfDevStatePnpFailedPowerPolicyRemoved, wdfdevice/WdfDevStatePnpPdoInitFailed, wdfdevice/WdfDevStatePnpFailed, WdfDevStatePnpObjectCreated, kmdf.wdf_device_pnp_state, WdfDevStatePnpQueryRemoveEnsureDeviceAwake, WdfDevStatePnpFailed, wdfdevice/WdfDevStatePnpNull, wdfdevice/WdfDevStatePnpQueryRemovePending, PWDF_DEVICE_PNP_STATE, wdfdevice/WdfDevStatePnpHardwareAvailablePowerPolicyFailed, wdfdevice/WdfDevStatePnpStarted, wdfdevice/WdfDevStatePnpFailedStarted, wdfdevice/WdfDevStatePnpQueryRemoveStaticCheck, wdfdevice/WdfDevStatePnpQueryRemoveAskDriver, WdfDevStatePnpFailedSurpriseRemoved, wdfdevice/WdfDevStatePnpEjectHardware, WdfDevStatePnpStoppedWaitForStartCompletion, wdfdevice/WdfDevStatePnpStartedStopping, WdfDevStatePnpHardwareAvailablePowerPolicyFailed, WdfDevStatePnpQueryStopStaticCheck, WdfDevStatePnpStartedRemoving, WdfDevStatePnpInitQueryRemove, wdfdevice/WDF_DEVICE_PNP_STATE, WdfDevStatePnpFailedWaitForRemove, WdfDevStatePnpRemovedPdoWait, WdfDevStatePnpNull, WdfDevStatePnpRestart, wdfdevice/WdfDevStatePnpCheckForDevicePresence, WdfDevStatePnpCheckForDevicePresence, WdfDevStatePnpPdoRemoved, wdfdevice/WdfDevStatePnpRestartHardwareAvailable, WdfDevStatePnpInitQueryRemoveCanceled, wdfdevice/WdfDevStatePnpRemovedPdoSurpriseRemoved, WdfDevStatePnpInitStarting, wdfdevice/WdfDevStatePnpRestarting, *PWDF_DEVICE_PNP_STATE, wdfdevice/WdfDevStatePnpObjectCreated, WdfDevStatePnpRestartReleaseHardware, wdfdevice/WdfDevStatePnpQueryStopStaticCheck, wdfdevice/WdfDevStatePnpQueryRemoveEnsureDeviceAwake, wdfdevice/WdfDevStatePnpFinal, WdfDevStatePnpEnableInterfaces, WdfDevStatePnpRestartHardwareAvailable, wdfdevice/WdfDevStatePnpInit, wdfdevice/WdfDevStatePnpRemovedWaitForChildren, wdfdevice/WdfDevStatePnpFdoRemoved, WdfDevStatePnpQueryRemoveStaticCheck, WdfDevStatePnpStartedCancelRemove, WdfDevStatePnpQueryStopAskDriver, WdfDevStatePnpFinal, WdfDevStatePnpQueryStopEnsureDeviceAwake, _WDF_DEVICE_PNP_STATE, wdfdevice/WdfDevStatePnpEnableInterfaces, wdfdevice/WdfDevStatePnpFailedInit, WdfDevStatePnpRestarting, wdfdevice/WdfDevStatePnpStopped, WdfDevStatePnpQueriedRemoving, wdfdevice/WdfDevStatePnpSurpriseRemoveIoStarted, wdfdevice/WdfDevStatePnpInitSurpriseRemoved, WdfDevStatePnpRemovedPdoSurpriseRemoved, wdfdevice/WdfDevStatePnpInitStarting, WdfDevStatePnpSurpriseRemove, WdfDevStatePnpQueriedSurpriseRemove, wdfdevice/WdfDevStatePnpPdoRemoved, wdfdevice/WdfDevStatePnpQueriedSurpriseRemove, WdfDevStatePnpQueryCanceled, WdfDevStatePnpStartedCancelStop, WdfDevStatePnpQueryRemovePending, wdfdevice/WdfDevStatePnpFailedWaitForRemove, wdfdevice/WdfDevStatePnpSurpriseRemove, WdfDevStatePnpPdoRestart, wdfdevice/WdfDevStatePnpStartingFromStopped, WdfDevStatePnpSurpriseRemoveIoStarted, WdfDevStatePnpStarted, WdfDevStatePnpFdoRemoved, wdfdevice/WdfDevStatePnpQueryCanceled, wdfdevice/WdfDevStatePnpInitQueryRemove, WdfDevStatePnpQueryStopPending, WdfDevStatePnpInitSurpriseRemoved, WdfDevStatePnpFailedPowerPolicyRemoved, WdfDevStatePnpEjectFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -129,243 +129,243 @@ typedef enum _WDF_DEVICE_PNP_STATE {
 
 
 
-#### - WdfDevStatePnpInvalid
+### -field WdfDevStatePnpInvalid
 
 
 
-#### - WdfDevStatePnpObjectCreated
+### -field WdfDevStatePnpObjectCreated
 
 
 
-#### - WdfDevStatePnpCheckForDevicePresence
+### -field WdfDevStatePnpCheckForDevicePresence
 
 
 
-#### - WdfDevStatePnpEjectFailed
+### -field WdfDevStatePnpEjectFailed
 
 
 
-#### - WdfDevStatePnpEjectHardware
+### -field WdfDevStatePnpEjectHardware
 
 
 
-#### - WdfDevStatePnpEjectedWaitingForRemove
+### -field WdfDevStatePnpEjectedWaitingForRemove
 
 
 
-#### - WdfDevStatePnpInit
+### -field WdfDevStatePnpInit
 
 
 
-#### - WdfDevStatePnpInitStarting
+### -field WdfDevStatePnpInitStarting
 
 
 
-#### - WdfDevStatePnpInitSurpriseRemoved
+### -field WdfDevStatePnpInitSurpriseRemoved
 
 
 
-#### - WdfDevStatePnpHardwareAvailable
+### -field WdfDevStatePnpHardwareAvailable
 
 
 
-#### - WdfDevStatePnpEnableInterfaces
+### -field WdfDevStatePnpEnableInterfaces
 
 
 
-#### - WdfDevStatePnpHardwareAvailablePowerPolicyFailed
+### -field WdfDevStatePnpHardwareAvailablePowerPolicyFailed
 
 
 
-#### - WdfDevStatePnpQueryRemoveAskDriver
+### -field WdfDevStatePnpQueryRemoveAskDriver
 
 
 
-#### - WdfDevStatePnpQueryRemovePending
+### -field WdfDevStatePnpQueryRemovePending
 
 
 
-#### - WdfDevStatePnpQueryRemoveStaticCheck
+### -field WdfDevStatePnpQueryRemoveStaticCheck
 
 
 
-#### - WdfDevStatePnpQueriedRemoving
+### -field WdfDevStatePnpQueriedRemoving
 
 
 
-#### - WdfDevStatePnpQueryStopAskDriver
+### -field WdfDevStatePnpQueryStopAskDriver
 
 
 
-#### - WdfDevStatePnpQueryStopPending
+### -field WdfDevStatePnpQueryStopPending
 
 
 
-#### - WdfDevStatePnpQueryStopStaticCheck
+### -field WdfDevStatePnpQueryStopStaticCheck
 
 
 
-#### - WdfDevStatePnpQueryCanceled
+### -field WdfDevStatePnpQueryCanceled
 
 
 
-#### - WdfDevStatePnpRemoved
+### -field WdfDevStatePnpRemoved
 
 
 
-#### - WdfDevStatePnpPdoRemoved
+### -field WdfDevStatePnpPdoRemoved
 
 
 
-#### - WdfDevStatePnpRemovedPdoWait
+### -field WdfDevStatePnpRemovedPdoWait
 
 
 
-#### - WdfDevStatePnpRemovedPdoSurpriseRemoved
+### -field WdfDevStatePnpRemovedPdoSurpriseRemoved
 
 
 
-#### - WdfDevStatePnpRemovingDisableInterfaces
+### -field WdfDevStatePnpRemovingDisableInterfaces
 
 
 
-#### - WdfDevStatePnpRestarting
+### -field WdfDevStatePnpRestarting
 
 
 
-#### - WdfDevStatePnpStarted
+### -field WdfDevStatePnpStarted
 
 
 
-#### - WdfDevStatePnpStartedCancelStop
+### -field WdfDevStatePnpStartedCancelStop
 
 
 
-#### - WdfDevStatePnpStartedCancelRemove
+### -field WdfDevStatePnpStartedCancelRemove
 
 
 
-#### - WdfDevStatePnpStartedRemoving
+### -field WdfDevStatePnpStartedRemoving
 
 
 
-#### - WdfDevStatePnpStartingFromStopped
+### -field WdfDevStatePnpStartingFromStopped
 
 
 
-#### - WdfDevStatePnpStopped
+### -field WdfDevStatePnpStopped
 
 
 
-#### - WdfDevStatePnpStoppedWaitForStartCompletion
+### -field WdfDevStatePnpStoppedWaitForStartCompletion
 
 
 
-#### - WdfDevStatePnpStartedStopping
+### -field WdfDevStatePnpStartedStopping
 
 
 
-#### - WdfDevStatePnpSurpriseRemove
+### -field WdfDevStatePnpSurpriseRemove
 
 
 
-#### - WdfDevStatePnpInitQueryRemove
+### -field WdfDevStatePnpInitQueryRemove
 
 
 
-#### - WdfDevStatePnpInitQueryRemoveCanceled
+### -field WdfDevStatePnpInitQueryRemoveCanceled
 
 
 
-#### - WdfDevStatePnpFdoRemoved
+### -field WdfDevStatePnpFdoRemoved
 
 
 
-#### - WdfDevStatePnpRemovedWaitForChildren
+### -field WdfDevStatePnpRemovedWaitForChildren
 
 
 
-#### - WdfDevStatePnpQueriedSurpriseRemove
+### -field WdfDevStatePnpQueriedSurpriseRemove
 
 
 
-#### - WdfDevStatePnpSurpriseRemoveIoStarted
+### -field WdfDevStatePnpSurpriseRemoveIoStarted
 
 
 
-#### - WdfDevStatePnpFailedPowerDown
+### -field WdfDevStatePnpFailedPowerDown
 
 
 
-#### - WdfDevStatePnpFailedIoStarting
+### -field WdfDevStatePnpFailedIoStarting
 
 
 
-#### - WdfDevStatePnpFailedOwnHardware
+### -field WdfDevStatePnpFailedOwnHardware
 
 
 
-#### - WdfDevStatePnpFailed
+### -field WdfDevStatePnpFailed
 
 
 
-#### - WdfDevStatePnpFailedSurpriseRemoved
+### -field WdfDevStatePnpFailedSurpriseRemoved
 
 
 
-#### - WdfDevStatePnpFailedStarted
+### -field WdfDevStatePnpFailedStarted
 
 
 
-#### - WdfDevStatePnpFailedWaitForRemove
+### -field WdfDevStatePnpFailedWaitForRemove
 
 
 
-#### - WdfDevStatePnpFailedInit
+### -field WdfDevStatePnpFailedInit
 
 
 
-#### - WdfDevStatePnpPdoInitFailed
+### -field WdfDevStatePnpPdoInitFailed
 
 
 
-#### - WdfDevStatePnpRestart
+### -field WdfDevStatePnpRestart
 
 
 
-#### - WdfDevStatePnpRestartReleaseHardware
+### -field WdfDevStatePnpRestartReleaseHardware
 
 
 
-#### - WdfDevStatePnpRestartHardwareAvailable
+### -field WdfDevStatePnpRestartHardwareAvailable
 
 
 
-#### - WdfDevStatePnpPdoRestart
+### -field WdfDevStatePnpPdoRestart
 
 
 
-#### - WdfDevStatePnpFinal
+### -field WdfDevStatePnpFinal
 
 
 
-#### - WdfDevStatePnpRemovedChildrenRemoved
+### -field WdfDevStatePnpRemovedChildrenRemoved
 
 
 
-#### - WdfDevStatePnpQueryRemoveEnsureDeviceAwake
+### -field WdfDevStatePnpQueryRemoveEnsureDeviceAwake
 
 
 
-#### - WdfDevStatePnpQueryStopEnsureDeviceAwake
+### -field WdfDevStatePnpQueryStopEnsureDeviceAwake
 
 
 
-#### - WdfDevStatePnpFailedPowerPolicyRemoved
+### -field WdfDevStatePnpFailedPowerPolicyRemoved
 
 
 
-#### - WdfDevStatePnpNull
+### -field WdfDevStatePnpNull
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33890582-5eba-4cc1-a0d9-ec07f18da453
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_sendrcv_ref_11bdd96b-0ba8-475a-ba6e-03492e2993d7.xml, netvista.ndismsendnetbufferlistscomplete, NdisMSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], NdisMSendNetBufferListsComplete, ndis/NdisMSendNetBufferListsComplete
+ms.keywords: NdisMSendNetBufferListsComplete, NdisMSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMSendNetBufferListsComplete, ndis_sendrcv_ref_11bdd96b-0ba8-475a-ba6e-03492e2993d7.xml, netvista.ndismsendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,11 +73,11 @@ VOID NdisMSendNetBufferListsComplete(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 The miniport handle that NDIS passed to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param NetBufferList
@@ -85,7 +85,7 @@ The miniport handle that NDIS passed to the
 TBD
 
 
-#### - SendCompleteFlags [in]
+### -param SendCompleteFlags [in]
 
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates
@@ -97,8 +97,8 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 
 A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the
      NET_BUFFER_LIST structures in previous calls to its 
-     <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-     MiniportSendNetBufferLists</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+     MiniportSendNetBufferLists</a> function.
 
 
 ## -returns
@@ -113,8 +113,8 @@ None
 
 A miniport driver calls 
     <b>NdisMSendNetBufferListsComplete</b> to complete send requests that NDIS made to the driver's 
-    <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-    MiniportSendNetBufferLists</i></mshelp:link> function. The miniport driver specifies a linked list of 
+    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    MiniportSendNetBufferLists</a> function. The miniport driver specifies a linked list of 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are
     associated with the completed send requests. While the status of the send requests is pending, the
     miniport driver retains ownership of the NET_BUFFER_LIST structures and all the protocol-allocated
@@ -122,8 +122,8 @@ A miniport driver calls
 
 After a miniport driver calls 
     <b>NdisMSendNetBufferListsComplete</b>, NDIS calls the 
-    <mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><b>
-    ProtocolSendNetBufferListsComplete</b></mshelp:link> function of the driver that called the 
+    <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+    ProtocolSendNetBufferListsComplete</a> function of the driver that called the 
     <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a> function to
     initiate the send request.
 
@@ -148,17 +148,17 @@ A miniport driver's call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
 <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

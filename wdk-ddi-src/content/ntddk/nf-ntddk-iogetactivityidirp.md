@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoGetActivityIdIrp, IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp
+ms.keywords: IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, IoGetActivityIdIrp, ntddk/IoGetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoGetActivityIdIrp(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 The IRP from which to retrieve the activity ID.
 
 
-#### - Guid [out]
+### -param Guid [out]
 
 A pointer to a location  to store the retrieved GUID.
 

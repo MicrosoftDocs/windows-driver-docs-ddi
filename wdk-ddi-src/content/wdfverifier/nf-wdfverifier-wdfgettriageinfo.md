@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F6B1DC49-B691-45E4-8DE9-ADCD73D90ADE
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfverifier/WdfGetTriageInfo, kmdf.wdfgettriageinfo, WdfGetTriageInfo, WdfGetTriageInfo function, wdf.wdfgettriageinfo
+ms.keywords: wdfverifier/WdfGetTriageInfo, WdfGetTriageInfo function, WdfGetTriageInfo, kmdf.wdfgettriageinfo, wdf.wdfgettriageinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

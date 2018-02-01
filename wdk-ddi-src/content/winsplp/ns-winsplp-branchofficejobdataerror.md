@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 947C508E-2EB9-451D-AA8D-DCDDE27DEBE6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BranchOfficeJobDataError structure [Print Devices], PBranchOfficeJobDataError structure pointer [Print Devices], print.branchofficejobdataerror, winsplp/PBranchOfficeJobDataError, PBranchOfficeJobDataError, BranchOfficeJobDataError, *PBranchOfficeJobDataError, winsplp/BranchOfficeJobDataError
+ms.keywords: BranchOfficeJobDataError, PBranchOfficeJobDataError, *PBranchOfficeJobDataError, BranchOfficeJobDataError structure [Print Devices], print.branchofficejobdataerror, winsplp/BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,62 +79,62 @@ typedef struct {
 
 
 
-#### - LastError
+### -field LastError
 
 Specifies the LastError at the time the event was logged.
 
 
-#### - pDocumentName
+### -field pDocumentName
 
 Specifies the name of the printed document.
 
 
-#### - pUserName
+### -field pUserName
 
 Specifies the user who submitted the job.
 
 
-#### - pPrinterName
+### -field pPrinterName
 
 Specifies the name of the print connection.
 
 
-#### - pDataType
+### -field pDataType
 
 Specifies the data type of the job.
 
 
-#### - TotalSize
+### -field TotalSize
 
 Specifies the 64-bit size of the job.
 
 
-#### - PrintedSize
+### -field PrintedSize
 
 Specifies the 64-bit size of the job.
 
 
-#### - TotalPages
+### -field TotalPages
 
 Specifies the total number of pages in the job.
 
 
-#### - PrintedPages
+### -field PrintedPages
 
 Specifies the number of pages currently printed.
 
 
-#### - pMachineName
+### -field pMachineName
 
 Specifies the name of the client machine printing the job.
 
 
-#### - pJobError
+### -field pJobError
 
 Specifies the failure code for a JOB_ERROR event.
 
 
-#### - pErrorDescription
+### -field pErrorDescription
 
 Specifies the text description of the error, if available.
 

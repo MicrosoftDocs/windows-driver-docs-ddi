@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 804D53F2-0F92-4262-A4C8-D171A5E69BFC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxGetActivity, SerCxGetActivity, serports.sercxgetactivity, SerCxGetActivity method [Serial Ports]
+ms.keywords: SerCxGetActivity method [Serial Ports], serports.sercxgetactivity, 1/SerCxGetActivity, SerCxGetActivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID SerCxGetActivity(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - Activity [in, out]
+### -param Activity [in, out]
 
 A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a> structure. The caller must have previously called the <a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a> function to initialize this structure before its initial use. Thereafter, each <b>SerCxGetActivity</b> call updates the contents of this structure to track the work items that are ready to be processed by the controller driver.
 
@@ -101,15 +101,15 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-
-<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
+<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
 <a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
 
-<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
+<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+
+<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
 
  
 

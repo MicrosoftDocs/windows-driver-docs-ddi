@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDevicePortDetectComplete, buses.ufxdeviceportdetectcomplete, ufxclient/UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses]
+ms.keywords: ufxclient/UfxDevicePortDetectComplete, UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID UfxDevicePortDetectComplete(
 
 
 
-#### - UfxDevice [in]
+### -param UfxDevice [in]
 
 A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-#### - PortType [in]
+### -param PortType [in]
 
 Contains an enumeration value of type <a href="..\usbfnbase\ne-usbfnbase-_usbfn_port_type.md">USBFN_PORT_TYPE</a>.
 

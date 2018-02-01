@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B1599F21-D6DD-497D-9CD8-6C637ABAA33A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Completed, print.iprintschemaasyncoperationevent_completed, IPrintSchemaAsyncOperationEvent interface [Print Devices], Completed method, Completed method [Print Devices], Completed method [Print Devices], IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent::Completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed
+ms.keywords: IPrintSchemaAsyncOperationEvent::Completed, Completed method [Print Devices], print.iprintschemaasyncoperationevent_completed, Completed, Completed method [Print Devices], IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices], Completed method, IPrintSchemaAsyncOperationEvent, printerextension/IPrintSchemaAsyncOperationEvent::Completed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT Completed(
 
 
 
-#### - pTicket [in]
+### -param pTicket [in]
 
 The print ticket.
 
 
-#### - hrOperation [in]
+### -param hrOperation [in]
 
 The result of the completed operation.
 

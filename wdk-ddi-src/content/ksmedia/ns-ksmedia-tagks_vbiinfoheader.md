@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4424be3a-6e73-449c-b5fb-5cbc1109490d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_vbiinfoheader, KS_VBIINFOHEADER structure [Streaming Media Devices], vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml, PKS_VBIINFOHEADER, PKS_VBIINFOHEADER structure pointer [Streaming Media Devices], tagKS_VBIINFOHEADER, ksmedia/PKS_VBIINFOHEADER, ksmedia/KS_VBIINFOHEADER, KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
+ms.keywords: PKS_VBIINFOHEADER, tagKS_VBIINFOHEADER, KS_VBIINFOHEADER, vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml, ksmedia/KS_VBIINFOHEADER, stream.ks_vbiinfoheader, KS_VBIINFOHEADER structure [Streaming Media Devices], ksmedia/PKS_VBIINFOHEADER, *PKS_VBIINFOHEADER, PKS_VBIINFOHEADER structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct tagKS_VBIINFOHEADER {
 
 
 
-#### - StartLine
+### -field StartLine
 
 Specifies the line number of the first digitized VBI line.
 
 
-#### - EndLine
+### -field EndLine
 
 Specifies the line number of the last digitized VBI line.
 
 
-#### - SamplingFrequency
+### -field SamplingFrequency
 
 Specifies the sampling frequency in hertz (Hz).
 
 
-#### - MinLineStartTime
+### -field MinLineStartTime
 
 Specifies the shortest possible interval from the leading edge of H-sync in 10-nanosecond units (that is, in hundredths of microseconds).
 
 
-#### - MaxLineStartTime
+### -field MaxLineStartTime
 
 Specifies the longest possible interval from the leading edge of H-sync in 10-nanosecond units (that is, in hundredths of microseconds).
 
 
-#### - ActualLineStartTime
+### -field ActualLineStartTime
 
 Specifies the actual starting point of VBI digitization from the leading edge of H-sync in 10-nanosecond units (that is, in hundredths of microseconds).
 
 
-#### - ActualLineEndTime
+### -field ActualLineEndTime
 
 Specifies the actual ending point for VBI digitization from the leading edge of H-sync in 10-nanosecond units (that is, in hundredths of microseconds).
 
 
-#### - VideoStandard
+### -field VideoStandard
 
 Specifies one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
 
 
-#### - SamplesPerLine
+### -field SamplesPerLine
 
 Specifies the number of samples digitized per video line.
 
 
-#### - StrideInBytes
+### -field StrideInBytes
 
 Specifies the stride in bytes between the first sample on a given line and the first sample on the next line. This value can be larger than <b>SamplesPerLine</b>.
 
 
-#### - BufferSize
+### -field BufferSize
 
 Specifies the size in bytes of the buffer to store the entire digitized VBI signal.
 

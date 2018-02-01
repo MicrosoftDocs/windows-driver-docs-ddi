@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PEXTTEXTMETRIC structure pointer [Print Devices], prntfont/PEXTTEXTMETRIC, _EXTTEXTMETRIC, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, prntfont/EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, print.exttextmetric, *PEXTTEXTMETRIC, EXTTEXTMETRIC
+ms.keywords: print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, EXTTEXTMETRIC structure [Print Devices], _EXTTEXTMETRIC, EXTTEXTMETRIC, print.exttextmetric, *PEXTTEXTMETRIC, prntfont/EXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC, PEXTTEXTMETRIC, PEXTTEXTMETRIC structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,17 +93,17 @@ typedef struct _EXTTEXTMETRIC {
 
 
 
-#### - emSize
+### -field emSize
 
 Specifies the size of the structure, in bytes.
 
 
-#### - emPointSize
+### -field emPointSize
 
 Specifies the nominal point size of this font, in twips (1/20 of a point, or 1/1440 inch). This is the intended size of the font; the actual size may differ slightly depending on the resolution of the device.
 
 
-#### - emOrientation
+### -field emOrientation
 
 Specifies the orientation of the font. The <b>emOrientation</b> member can be any of the following values: 
 <table>
@@ -144,12 +144,12 @@ Landscape orientation
 </table> 
 
 
-#### - emMasterHeight
+### -field emMasterHeight
 
 Specifies the font size, in device units, for which the values in this font's extent table are exact.
 
 
-#### - emMinScale
+### -field emMinScale
 
 Specifies the minimum valid point size for this font. The following equation illustrates how the minimum point size is determined:
 <div class="code"><span codelanguage=""><table>
@@ -164,7 +164,7 @@ Specifies the minimum valid point size for this font. The following equation ill
 </table></span></div>The value 72 represents the number of points per inch. The <i>dfVertRes</i> value is the number of dots per inch.
 
 
-#### - emMaxScale
+### -field emMaxScale
 
 Specifies the maximum valid point size for this font. The following equation illustrates how the maximum point size is determined:
 <div class="code"><span codelanguage=""><table>
@@ -179,102 +179,102 @@ Specifies the maximum valid point size for this font. The following equation ill
 </table></span></div>The value 72 represents the number of points per inch. The <i>dfVertRes</i> value is the number of dots per inch.
 
 
-#### - emMasterUnits
+### -field emMasterUnits
 
 Specifies the integral number of units per em, where an em equals the value of the <b>emMasterHeight</b> member. (That is, <b>emMasterUnits</b> is <b>emMasterHeight</b> expressed in font units instead of device units.)
 
 
-#### - emCapHeight
+### -field emCapHeight
 
 Specifies the height, in font units, of uppercase characters in the font. Typically, this is the height of uppercase H.
 
 
-#### - emXHeight
+### -field emXHeight
 
 Specifies the height, in font units, of lowercase characters in the font. Typically, this is the height of lowercase x.
 
 
-#### - emLowerCaseAscent
+### -field emLowerCaseAscent
 
 Specifies the distance, in font units, that the ascender of lowercase letters extends above the base line. Typically, this is the height of lowercase d.
 
 
-#### - emLowerCaseDescent
+### -field emLowerCaseDescent
 
 Specifies the distance, in font units, that the descender of lowercase letters extends below the base line. Typically, this is specified for the descender of lowercase p.
 
 
-#### - emSlant
+### -field emSlant
 
 For an italic or slanted font, specifies the angle of the slant measured in tenths of a degree clockwise from the upright version of the font.
 
 
-#### - emSuperScript
+### -field emSuperScript
 
 Specifies the recommended amount, in font units, to offset superscript characters from the base line. This is typically a negative value.
 
 
-#### - emSubScript
+### -field emSubScript
 
 Specifies the recommended amount, in font units, to offset subscript characters from the base line. This is typically a positive value.
 
 
-#### - emSuperScriptSize
+### -field emSuperScriptSize
 
 Specifies the recommended size, in font units, of superscript characters for this font.
 
 
-#### - emSubScriptSize
+### -field emSubScriptSize
 
 Specifies the recommended size, in font units, of subscript characters for this font.
 
 
-#### - emUnderlineOffset
+### -field emUnderlineOffset
 
 Specifies the offset, in font units, downward from the base line, where the top of a single underline bar should appear.
 
 
-#### - emUnderlineWidth
+### -field emUnderlineWidth
 
 Specifies the thickness, in font units, of the underline bar.
 
 
-#### - emDoubleUpperUnderlineOffset
+### -field emDoubleUpperUnderlineOffset
 
 Specifies the offset, in font units, downward from the base line, where the top of the upper double-underline bar should appear.
 
 
-#### - emDoubleLowerUnderlineOffset
+### -field emDoubleLowerUnderlineOffset
 
 Specifies the offset, in font units, downward from the base line, where the top of the lower double-underline bar should appear.
 
 
-#### - emDoubleUpperUnderlineWidth
+### -field emDoubleUpperUnderlineWidth
 
 Specifies the thickness, in font units, of the upper underline bar.
 
 
-#### - emDoubleLowerUnderlineWidth
+### -field emDoubleLowerUnderlineWidth
 
 Specifies the thickness, in font units, of the lower underline bar.
 
 
-#### - emStrikeOutOffset
+### -field emStrikeOutOffset
 
 Specifies the offset, in font units, upward from the base line, where the top of a strikeout bar should appear.
 
 
-#### - emStrikeOutWidth
+### -field emStrikeOutWidth
 
 Specifies the thickness, in font units, of the strikeout bar.
 
 
-#### - emKernPairs
+### -field emKernPairs
 
 Specifies the number of character kerning pairs defined for this font.
 
 
-#### - emKernTracks
+### -field emKernTracks
 
 Specifies the number of kerning tracks defined for this font.
 

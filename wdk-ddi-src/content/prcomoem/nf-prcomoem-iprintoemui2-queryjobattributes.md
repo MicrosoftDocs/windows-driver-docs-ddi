@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cb510aa6-7156-4b02-bab1-6951becbc1a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: QueryJobAttributes method [Print Devices], print.iprintoemui2_queryjobattributes, IPrintOemUI2::QueryJobAttributes, QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, QueryJobAttributes, IPrintOemUI2, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, IPrintOemUI2 interface [Print Devices], QueryJobAttributes method, prcomoem/IPrintOemUI2::QueryJobAttributes
+ms.keywords: QueryJobAttributes method [Print Devices], prcomoem/IPrintOemUI2::QueryJobAttributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, IPrintOemUI2, QueryJobAttributes, IPrintOemUI2::QueryJobAttributes, print.iprintoemui2_queryjobattributes, QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices], QueryJobAttributes method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT QueryJobAttributes(
 
 
 
-#### - hPrinter
+### -param hPrinter
 
 Specifies the caller-supplied printer handle.
 
 
-#### - pDevmode
+### -param pDevmode
 
 Pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 
 
-#### - dwLevel
+### -param dwLevel
 
 Specifies a caller-supplied value indicating the type of structure pointed to by <i>lpAttributeInfo</i>, as indicated in the following table.
 <table>
@@ -142,7 +142,7 @@ Specifies a caller-supplied value indicating the type of structure pointed to by
 Note that if this method changes any dwDrv<i>Xxx</i> member of the ATTRIBUTE_INFO_<i>N</i> structures, the spooler assumes that the plug-in is able to support the behavior represented by that member.
 
 
-#### - lpAttributeInfo
+### -param lpAttributeInfo
 
 Pointer to a memory location that receives the address of a structure of the type identified by <i>dwLevel</i>.
 
@@ -165,17 +165,17 @@ See <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttrib
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
-
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
 <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
 
  
 

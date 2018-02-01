@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88bd9cc7-6769-4fdf-b149-2193d765fc6c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceWdmGetPhysicalDevice, DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, WdfDeviceWdmGetPhysicalDevice, kmdf.wdfdevicewdmgetphysicaldevice, PFN_WDFDEVICEWDMGETPHYSICALDEVICE, wdf.wdfdevicewdmgetphysicaldevice, WdfDeviceWdmGetPhysicalDevice method
+ms.keywords: WdfDeviceWdmGetPhysicalDevice, DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, wdf.wdfdevicewdmgetphysicaldevice, kmdf.wdfdevicewdmgetphysicaldevice, wdfdevice/WdfDeviceWdmGetPhysicalDevice, WdfDeviceWdmGetPhysicalDevice method, PFN_WDFDEVICEWDMGETPHYSICALDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PDEVICE_OBJECT WdfDeviceWdmGetPhysicalDevice(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 

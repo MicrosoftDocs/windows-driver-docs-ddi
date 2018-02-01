@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: A9B303C7-868D-47EB-8279-9F655F58630C
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthxddi/ScoSupportHCI, bthxddi/ScoSupportNone, ScoSupportHCI, ScoSupportHCIBypass, bthxddi/ScoSupportHCIBypass, ScoSupportNone, BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT, bltooth.bthx_sco_support, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], bthxddi/BTHX_SCO_SUPPORT, _BTHX_SCO_SUPPORT
+ms.keywords: "_BTHX_SCO_SUPPORT, bthxddi/BTHX_SCO_SUPPORT, bltooth.bthx_sco_support, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], ScoSupportHCI, ScoSupportHCIBypass, BTHX_SCO_SUPPORT, bthxddi/ScoSupportNone, ScoSupportNone, *PBTHX_SCO_SUPPORT, bthxddi/ScoSupportHCIBypass, bthxddi/ScoSupportHCI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _BTHX_SCO_SUPPORT {
 
 
 
-#### - ScoSupportNone
+### -field ScoSupportNone
 
 SCO is not supported.
 
 
-#### - ScoSupportHCI
+### -field ScoSupportHCI
 
 SCO data passes through the HCI layer (stack).
 
 
-#### - ScoSupportHCIBypass
+### -field ScoSupportHCIBypass
 
 SCO data does not pass through the HCI layer but through a sideband mechanism like an I2S channel.
 

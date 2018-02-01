@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetFactory::CreateUsbTargetDevice, IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, CreateUsbTargetDevice method, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, IWDFUsbTargetFactory, CreateUsbTargetDevice, umdf.iwdfusbtargetfactory_createusbtargetdevice, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, wdf.iwdfusbtargetfactory_createusbtargetdevice
+ms.keywords: IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, IWDFUsbTargetFactory, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, umdf.iwdfusbtargetfactory_createusbtargetdevice, IWDFUsbTargetFactory::CreateUsbTargetDevice, CreateUsbTargetDevice, wdf.iwdfusbtargetfactory_createusbtargetdevice, CreateUsbTargetDevice method, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT CreateUsbTargetDevice(
 
 
 
-#### - ppDevice [out]
+### -param ppDevice [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a> interface for the USB target device object.
 
@@ -135,15 +135,15 @@ If the file object that is associated with the created I/O target object is requ
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
 
  
 

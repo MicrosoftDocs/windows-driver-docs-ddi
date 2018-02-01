@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0C95831F-2E20-461C-8478-9A40C1F063E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/UcxUsbDeviceRemoteWakeNotification, UcxUsbDeviceRemoteWakeNotification, buses._ucxusbdeviceremotewakenotification, UcxUsbDeviceRemoteWakeNotification method [Buses]
+ms.keywords: ucxusbdevice/UcxUsbDeviceRemoteWakeNotification, buses._ucxusbdeviceremotewakenotification, UcxUsbDeviceRemoteWakeNotification method [Buses], UcxUsbDeviceRemoteWakeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void UcxUsbDeviceRemoteWakeNotification(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to the USB device object for which the remote wake is received. The client driver retrieved the handle in a previous call to <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>.
 
 
-#### - Interface [in]
+### -param Interface [in]
 
 The interface number that sent the remote wake notification.
 

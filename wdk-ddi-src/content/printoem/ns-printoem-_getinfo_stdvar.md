@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9f2ae88c-34a4-46b3-9571-5f2f023b7d6b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, printoem/GETINFO_STDVAR, _GETINFO_STDVAR, PGETINFO_STDVAR, GETINFO_STDVAR structure [Print Devices], *PGETINFO_STDVAR, GETINFO_STDVAR, print.getinfo_stdvar
+ms.keywords: print.getinfo_stdvar, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, GETINFO_STDVAR structure [Print Devices], _GETINFO_STDVAR, *PGETINFO_STDVAR, GETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], printoem/PGETINFO_STDVAR, PGETINFO_STDVAR, printoem/GETINFO_STDVAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,7 @@ typedef struct _GETINFO_STDVAR {
  
 
 
-#### - StdVar
+### -field StdVar
 
 Is an array specifying standard variable indexes and values. Each array element contains two members: a <b>dwStdVarID</b> member and an <b>lStdVariable</b> member.
 
@@ -246,12 +246,12 @@ Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 Specifies the current value of the specified standard variable. Supplied by Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size, in bytes, of the GETINFO_STDVAR structure. Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
 
-#### - dwNumOfVariable
+### -field dwNumOfVariable
 
 
 

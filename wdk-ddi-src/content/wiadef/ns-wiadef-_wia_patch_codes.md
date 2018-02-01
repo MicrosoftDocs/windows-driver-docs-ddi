@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIA_PATCH_CODES, image.wia_patch_codes, _WIA_PATCH_CODES, wiadef/WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices]
+ms.keywords: image.wia_patch_codes, _WIA_PATCH_CODES, WIA_PATCH_CODES, wiadef/WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _WIA_PATCH_CODES {
 
 
 
-#### - Tag
+### -field Tag
 
 Must be the literal 'WBAT', 4 single byte ASCII characters. 
 
 
-#### - Version
+### -field Version
 
 Must be the value 0x00010000 (Version 1.0).
 
 
-#### - Size
+### -field Size
 
 The complete size of this <b>WIA_PATCH_CODES</b> header structure, in bytes, including the complete size of the <a href="..\wiadef\ns-wiadef-_wia_patch_code_info.md">WIA_PATCH_CODES_INFO</a> list.
 
 
-#### - Count
+### -field Count
 
 Specifies the number of <a href="..\wiadef\ns-wiadef-_wia_patch_code_info.md">WIA_PATCH_CODES_INFO</a> elements in the PatchCodes sequence.
 
 
-#### - PatchCodes
+### -field PatchCodes
 
 Placeholder for a sequence of <b>Count</b> contiguous <a href="..\wiadef\ns-wiadef-_wia_patch_code_info.md">WIA_PATCH_CODES_INFO</a> structures.
 

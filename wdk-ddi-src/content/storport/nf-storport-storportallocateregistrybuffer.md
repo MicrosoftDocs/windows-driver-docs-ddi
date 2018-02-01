@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8d03a63-4b6a-4e84-994b-0e205401e531
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAllocateRegistryBuffer routine [Storage Devices], storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, storage.storportallocateregistrybuffer, StorPortAllocateRegistryBuffer, storport/StorPortAllocateRegistryBuffer
+ms.keywords: StorPortAllocateRegistryBuffer routine [Storage Devices], storport/StorPortAllocateRegistryBuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, StorPortAllocateRegistryBuffer, storage.storportallocateregistrybuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ STORPORT_API PUCHAR StorPortAllocateRegistryBuffer(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Pointer to a long that indicates, on input, the length in bytes of the registry buffer that the caller requires. On output, <i>Length</i> is updated to reflect the actual size in bytes of the buffer that was allocated. 
 

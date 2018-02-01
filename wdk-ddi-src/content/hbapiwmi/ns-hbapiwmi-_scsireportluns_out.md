@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 93663b88-e750-4280-b5c1-798cc0f848b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsireportluns_out2, structs-Fibre_3c117d4b-f151-45af-84bb-ef6f800967aa.xml, hbapiwmi/PScsiReportLuns_OUT, *PScsiReportLuns_OUT, PScsiReportLuns_OUT, hbapiwmi/ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], PScsiReportLuns_OUT structure pointer [Storage Devices], _ScsiReportLuns_OUT, ScsiReportLuns_OUT
+ms.keywords: hbapiwmi/ScsiReportLuns_OUT, PScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], structs-Fibre_3c117d4b-f151-45af-84bb-ef6f800967aa.xml, ScsiReportLuns_OUT, *PScsiReportLuns_OUT, _ScsiReportLuns_OUT, hbapiwmi/PScsiReportLuns_OUT, storage.scsireportluns_out2, PScsiReportLuns_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _ScsiReportLuns_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation. 
 
 
-#### - ResponseBufferSize
+### -field ResponseBufferSize
 
 Indicates the size in bytes of the buffer that will hold the results of the inquiry command. 
 
 
-#### - SenseBufferSize
+### -field SenseBufferSize
 
 Indicates the size in bytes of the buffer that will hold the SCSI sense data that results from the inquiry command. 
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 Contains the status of the SCSI report LUNs command. 
 
 
-#### - ResponseBuffer
+### -field ResponseBuffer
 
 Contains the results of the SCSI report LUNs command. 
 

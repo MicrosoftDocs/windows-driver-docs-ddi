@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2C47165D-9D04-46C8-A1EC-04E6F32AE516
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cmp_set_plug, 61883/CMP_SET_PLUG, PCMP_SET_PLUG structure pointer [Buses], PCMP_SET_PLUG, 61883/PCMP_SET_PLUG, CMP_SET_PLUG, *PCMP_SET_PLUG, _CMP_SET_PLUG, CMP_SET_PLUG structure [Buses]
+ms.keywords: 61883/CMP_SET_PLUG, PCMP_SET_PLUG, IEEE.cmp_set_plug, _CMP_SET_PLUG, 61883/PCMP_SET_PLUG, CMP_SET_PLUG, PCMP_SET_PLUG structure pointer [Buses], CMP_SET_PLUG structure [Buses], *PCMP_SET_PLUG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _CMP_SET_PLUG {
 
 
 
-#### - hPlug
+### -field hPlug
 
 On input, a handle to the plug.
 
 
-#### - Pcr
+### -field Pcr
 
 On input, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a> structure that contains settings for the plug.
 

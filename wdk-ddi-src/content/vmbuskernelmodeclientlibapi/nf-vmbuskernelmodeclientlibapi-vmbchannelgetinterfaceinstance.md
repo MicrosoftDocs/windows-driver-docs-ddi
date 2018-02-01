@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BEE9581A-5FC4-4C5B-B428-B782E59720C3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelGetInterfaceInstance, vmbuskernelmodeclientlibapi/VmbChannelGetInterfaceInstance, netvista.vmbchannelgetinterfaceinstance, VmbChannelGetInterfaceInstance function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelGetInterfaceInstance function [Network Drivers Starting with Windows Vista], netvista.vmbchannelgetinterfaceinstance, vmbuskernelmodeclientlibapi/VmbChannelGetInterfaceInstance, VmbChannelGetInterfaceInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID VmbChannelGetInterfaceInstance(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The channel for which to get an instance.
 
 
-#### - InterfaceInstance [out]
+### -param InterfaceInstance [out]
 
 A pointer to a GUID, which is the interface instance
 of the channel.

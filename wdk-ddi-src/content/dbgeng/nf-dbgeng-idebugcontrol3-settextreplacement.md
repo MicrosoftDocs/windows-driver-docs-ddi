@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 00c82e73-5649-403b-9f07-81bdd2f6c756
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, dbgeng/IDebugControl3::SetTextReplacement, IDebugControl3::SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, debugger.settextreplacement, IDebugControl3, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, SetTextReplacement, IDebugControl2::SetTextReplacement, dbgeng/IDebugControl2::SetTextReplacement, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, SetTextReplacement method [Windows Debugging]
+ms.keywords: SetTextReplacement method [Windows Debugging], IDebugControl3::SetTextReplacement, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, dbgeng/IDebugControl3::SetTextReplacement, IDebugControl3, IDebugControl2::SetTextReplacement, dbgeng/IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, debugger.settextreplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, IDebugControl2 interface [Windows Debugging], SetTextReplacement method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetTextReplacement(
 
 
 
-#### - SrcText [in]
+### -param SrcText [in]
 
 Specifies the name of the user-named alias.  The <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> makes a copy of this string.  If <i>SrcText</i> is the same as the name of an automatic alias, the automatic alias is hidden by the new user-named alias.
 
 
-#### - DstText [in, optional]
+### -param DstText [in, optional]
 
 Specifies the value of the user-named alias.  The debugger engine makes a copy of this string.  If <i>DstText</i> is <b>NULL</b>, the user-named alias is removed.
 
@@ -118,21 +118,21 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
 <a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxPowerControl, StorPortPoFxPowerControl, storage.storportpofxpowercontrol, StorPortPoFxPowerControl routine [Storage Devices]
+ms.keywords: storport/StorPortPoFxPowerControl, storage.storportpofxpowercontrol, StorPortPoFxPowerControl routine [Storage Devices], StorPortPoFxPowerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ ULONG StorPortPoFxPowerControl(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
 
@@ -85,32 +85,32 @@ A pointer to the hardware device extension for the host bus adapter (HBA). This 
 TBD
 
 
-#### - PowerControlCode [in]
+### -param PowerControlCode [in]
 
 A pointer to the power control code. This code is a GUID value that specifies the requested operation.
 
 
-#### - InBuffer [in, optional]
+### -param InBuffer [in, optional]
 
 A pointer to a caller-allocated buffer that contains the input data for the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>InBuffer</i> parameter is optional and can be specified as NULL if the specified operation requires no input data.
 
 
-#### - InBufferSize [in]
+### -param InBufferSize [in]
 
 The size, in bytes, of the input buffer that is pointed to by the <i>InBuffer</i> parameter. If <i>InBuffer</i> is NULL, set <i>InBufferSize</i> to zero.
 
 
-#### - OutBuffer [out, optional]
+### -param OutBuffer [out, optional]
 
 A pointer to a caller-allocated buffer that is to contain the output data from the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>OutBuffer</i> parameter is optional and can be specified as NULL if the specified operation produces no output data.
 
 
-#### - OutBufferSize [in]
+### -param OutBufferSize [in]
 
 The size, in bytes, of the output buffer that is pointed to by the <i>OutBuffer</i> parameter. If <i>OutBuffer</i> is NULL, set <i>OutBufferSize</i> to zero.
 
 
-#### - BytesReturned [out, optional]
+### -param BytesReturned [out, optional]
 
 A pointer to a location into which the routine writes the number of bytes of data that were written to the buffer that is pointed to by <i>OutBuffer</i>. The number of bytes written will be less than or equal to <i>OutBufferSize</i>. This parameter is optional and can be specified as <b>NULL</b> if the caller does not need to know how many bytes were written to the output buffer.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a8c7eb0d-792f-4a6c-af47-bb4558feb790
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DocumentPropertySheets method [Print Devices], DocumentPropertySheets method [Print Devices], IPrintOemUI interface, IPrintOemUI, IPrintOemUI interface [Print Devices], DocumentPropertySheets method, prcomoem/IPrintOemUI::DocumentPropertySheets, IPrintOemUI::DocumentPropertySheets, DocumentPropertySheets, print.iprintoemui_documentpropertysheets, print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml
+ms.keywords: DocumentPropertySheets method [Print Devices], DocumentPropertySheets method [Print Devices], IPrintOemUI interface, print.iprintoemui_documentpropertysheets, IPrintOemUI::DocumentPropertySheets, DocumentPropertySheets, IPrintOemUI, IPrintOemUI interface [Print Devices], DocumentPropertySheets method, prcomoem/IPrintOemUI::DocumentPropertySheets, print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT DocumentPropertySheets(
 
 
 
-#### - pPSUIInfo
+### -param pPSUIInfo
 
 Caller-supplied pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure.
 
 
-#### - lParam
+### -param lParam
 
 Caller-supplied value that depends on the reason value in <i>pPSUIInfo</i>--&gt;<b>Reason</b>. The reason value can be one of the following constants, which are defined in compstui.h. For more information about these constants, see the Remarks section and <i>lParam</i> parameter description in the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> function type.
 
@@ -117,9 +117,9 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
-
 <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 

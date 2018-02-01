@@ -81,57 +81,57 @@ NTSTATUS MapTransferEx(
 
 
 
-#### - DmaAdapter [in]
+### -param DmaAdapter [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine.
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 A pointer to an MDL chain that describes the physical page layout for a collection of locked-down buffers in virtual memory. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters. For more information about MDL chains, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
 
-#### - MapRegisterBase [in]
+### -param MapRegisterBase [in]
 
 A handle to the map registers that are allocated for the adapter object. The caller previously obtained this handle from the <a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a> routine.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 A byte offset from the start of the memory that is described by the MDL chain. This offset specifies the start of the I/O data buffer that is used for the DMA transfer. If a scatter/gather list is supplied to the caller, this offset determines the starting address of the first buffer fragment in the list. If the MDLs in the MDL chain describe a total of N bytes of memory, valid values of <i>Offset</i> are in the range 0 to N–1. For more information, see Remarks.
 
 
-#### - DeviceOffset [in]
+### -param DeviceOffset [in]
 
 The byte offset of the target device's data register or FIFO from the device's base address.  This parameter applies to devices that have multiple FIFOs that can be accessed by a system DMA controller. This parameter is used only for system DMA transfers. For bus-master transfers, set this parameter to zero.
 
 
-#### - Length [in, out]
+### -param Length [in, out]
 
 A pointer to a variable that contains the length, in bytes, of the I/O data buffer that is used for the DMA transfer. On entry, this variable contains the length requested by the calling driver. Before returning, the routine writes the actual length of the mapped buffer to this variable. The value of *<i>Length</i> on return from <b>MapTransferEx</b> indicates how many bytes were mapped. If the number of map registers and the scatter/gather buffer size are sufficient to map the entire length requested by the caller, the input and output values of *<i>Length</i> are identical. If the MDLs in the MDL chain describe a total of N bytes of memory, valid values of *<i>Length</i> are in the range 0 to N–<i>Offset</i>.
 
 
-#### - WriteToDevice [in]
+### -param WriteToDevice [in]
 
 The direction of the DMA transfer. Set this parameter to <b>TRUE</b> for a write operation, which transfers data to the device from memory. Set this parameter to <b>FALSE</b> for a read operation, which transfers data from the device to memory.
 
 
-#### - ScatterGatherBuffer [out, optional]
+### -param ScatterGatherBuffer [out, optional]
 
 A pointer to a caller-allocated buffer into which the routine writes the scatter/gather list for the DMA transfer. This list begins with a <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure, which is immediately followed by a <b>SCATTER_GATHER_ELEMENT</b> array. For a driver that uses a bus-master DMA device, <i>ScatterGatherBuffer</i> is a required parameter. For a driver that uses a system DMA controller, the <i>ScatterGatherBuffer</i> parameter is optional and can be <b>NULL</b>. For more information, see Remarks.
 
 
-#### - ScatterGatherBufferLength [in]
+### -param ScatterGatherBufferLength [in]
 
 The size, in bytes, of the buffer that the <i>ScatterGatherBuffer</i> parameter points to. The allocated buffer size must be large enough to contain the scatter/gather list, plus internal data that the operating system stores in this buffer. To determine the required buffer size, call the <a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a> or <a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a> routine. If <i>ScatterGatherBuffer</i> is <b>NULL</b>, set <i>ScatterGatherBufferLength</i> to zero.
 
 
-#### - DmaCompletionRoutine [in, optional]
+### -param DmaCompletionRoutine [in, optional]
 
 A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a> routine to be called when the DMA transfer completes. This routine is called if the target device uses a system DMA controller that generates a DMA-completion interrupt. The <i>DmaCompletionRoutine</i> routine is called at DISPATCH_LEVEL after the DMA transfer completes. For a system DMA adapter, this parameter is optional and can be <b>NULL</b>. For a bus-master adapter, set this parameter to <b>NULL</b>.
 
 
-#### - CompletionContext [in, optional]
+### -param CompletionContext [in, optional]
 
 The driver-determined context for the <i>DmaCompletionRoutine</i> routine. This context is supplied as the  <i>CompletionContext</i> parameter to the <i>DmaCompletionRoutine</i> routine. If the <i>DmaCompletionRoutine</i> parameter is <b>NULL</b>, set <i>CompletionContext</i> to <b>NULL</b>.
 
@@ -248,23 +248,23 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
-
 <a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
 <a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
 
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
 <a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a23fae8-7142-48a1-871e-1fa3a6d8e112
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_sendflash, RIL_SendFlash, rilapi/RIL_SendFlash, RIL_SendFlash method [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapi/RIL_SendFlash, netvista.ril_sendflash, RIL_SendFlash, RIL_SendFlash method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_SendFlash(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - lpraRilAddress
+### -param lpraRilAddress
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e4ca8ea-52c1-462e-bf02-cc82e9ab2be2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsSynchronousIoControlDevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, KsSynchronousIoControlDevice function [Streaming Media Devices], KsSynchronousIoControlDevice, stream.kssynchronousiocontroldevice
+ms.keywords: stream.kssynchronousiocontroldevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, KsSynchronousIoControlDevice function [Streaming Media Devices], KsSynchronousIoControlDevice, ks/KsSynchronousIoControlDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ NTSTATUS KsSynchronousIoControlDevice(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Indicates the file object to fill in the first stack location with.
 
@@ -85,32 +85,32 @@ Indicates the file object to fill in the first stack location with.
 TBD
 
 
-#### - IoControl [in]
+### -param IoControl [in]
 
 Specifies the I/O control to send.
 
 
-#### - InBuffer [in]
+### -param InBuffer [in]
 
 Points to the device input buffer.
 
 
-#### - InSize [in]
+### -param InSize [in]
 
 Specifies the size in bytes of the device input buffer.
 
 
-#### - OutBuffer [out]
+### -param OutBuffer [out]
 
 Points to the device output buffer.
 
 
-#### - OutSize [in]
+### -param OutSize [in]
 
 Specifies the size in bytes of the device output buffer.
 
 
-#### - BytesReturned [out]
+### -param BytesReturned [out]
 
 Points to the place in which to put the number of bytes returned.
 

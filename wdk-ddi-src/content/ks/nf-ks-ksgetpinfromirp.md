@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96176a33-0721-4a4d-ba1b-131e25fc2306
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGetPinFromIrp, avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, KsGetPinFromIrp, stream.ksgetpinfromirp, KsGetPinFromIrp function [Streaming Media Devices]
+ms.keywords: ks/KsGetPinFromIrp, avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, KsGetPinFromIrp function [Streaming Media Devices], stream.ksgetpinfromirp, KsGetPinFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PKSPIN KsGetPinFromIrp(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> for which to return the associated pin.
 
@@ -89,15 +89,15 @@ Currently, IRPs associated with topology nodes cannot be queried for associated 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
-
-<a href="..\ks\nf-ks-ksgetfilterfromirp.md">KsGetFilterFromIrp</a>
-
 <a href="..\ks\nf-ks-ksgetnodeidfromirp.md">KsGetNodeIdFromIrp</a>
+
+<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
-<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+<a href="..\ks\nf-ks-ksgetfilterfromirp.md">KsGetFilterFromIrp</a>
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
 
 <a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
 

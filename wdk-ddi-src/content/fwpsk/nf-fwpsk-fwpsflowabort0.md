@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 029dd387-498f-4402-9e61-a46688294949
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsFlowAbort0, FwpsFlowAbort0, netvista.fwpsflowabort0, FwpsFlowAbort0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsFlowAbort0, fwpsk/FwpsFlowAbort0, netvista.fwpsflowabort0, FwpsFlowAbort0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NTSTATUS NTAPI FwpsFlowAbort0(
 
 
 
-#### - flowId [in]
+### -param flowId [in]
 
 A run-time identifier that specifies the data flow that is being aborted. The run-time identifier for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE metadata value that the filter engine provided to the callout driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 
@@ -126,9 +126,9 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
  
 

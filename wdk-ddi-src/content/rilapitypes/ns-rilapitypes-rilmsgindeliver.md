@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1565ee10-044f-4557-8a49-777eae7c44e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGINDELIVER, netvista.rilmsgindeliver_2, rilapitypes/RILMSGINDELIVER, *LPRILMSGINDELIVER, RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], *LPRILMSGINDELIVER, rilapitypes/RILMSGINDELIVER, RILMSGINDELIVER, netvista.rilmsgindeliver_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,38 +76,38 @@ typedef struct _RILMSGINDELIVER {
 
 
 
-#### - raOrigAddress
+### -field raOrigAddress
 
 
 
-#### - dwProtocolID
+### -field dwProtocolID
 
 
 
-#### - rmdDataCoding
+### -field rmdDataCoding
 
 
 
-#### - stSCReceiveTime
+### -field stSCReceiveTime
 
 
 
-#### - dwMsgID
+### -field dwMsgID
 
 
 
-#### - cbHdrLength
+### -field cbHdrLength
 
 
 
-#### - cchMsgLength
+### -field cchMsgLength
 
 
 
-#### - rgbHdr
+### -field rgbHdr
 
 
 
-#### - rgbMsg
+### -field rgbMsg
 
 

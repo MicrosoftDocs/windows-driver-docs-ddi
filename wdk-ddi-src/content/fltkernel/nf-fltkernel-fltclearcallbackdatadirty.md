@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c53ec6e5-83f8-4262-b832-1a206e6652e6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltClearCallbackDataDirty routine [Installable File System Drivers], FltApiRef_a_to_d_04cd5e96-3277-4afa-b3cb-07c0f418fe42.xml, FltClearCallbackDataDirty, fltkernel/FltClearCallbackDataDirty, ifsk.fltclearcallbackdatadirty
+ms.keywords: FltClearCallbackDataDirty, ifsk.fltclearcallbackdatadirty, fltkernel/FltClearCallbackDataDirty, FltApiRef_a_to_d_04cd5e96-3277-4afa-b3cb-07c0f418fe42.xml, FltClearCallbackDataDirty routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID FltClearCallbackDataDirty(
 
 
 
-#### - Data [in, out]
+### -param Data [in, out]
 
 A pointer to a callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure. 
 
@@ -90,9 +90,9 @@ To test a callback data structure's FLTFL_CALLBACK_DATA_DIRTY flag, call <a href
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltiscallbackdatadirty.md">FltIsCallbackDataDirty</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltiscallbackdatadirty.md">FltIsCallbackDataDirty</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
 

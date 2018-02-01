@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TRANSPORTSTATUS structure [Streaming Media Devices], tagTRANSPORTSTATUS, TRANSPORTSTATUS, *PTRANSPORTSTATUS, PTRANSPORTSTATUS, stream.transportstatus, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml, ksmedia/TRANSPORTSTATUS, ksmedia/PTRANSPORTSTATUS
+ms.keywords: ksmedia/PTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, stream.transportstatus, *PTRANSPORTSTATUS, tagTRANSPORTSTATUS, TRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml, PTRANSPORTSTATUS, TRANSPORTSTATUS structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,67 +79,67 @@ typedef struct tagTRANSPORTSTATUS {
 
 
 
-#### - Mode
+### -field Mode
 
 Specifies the ED_MODE_Xxx.
 
 
-#### - LastError
+### -field LastError
 
 Specifies the last error.
 
 
-#### - RecordInhibit
+### -field RecordInhibit
 
 Specifies if recording is inhibited. <b>TRUE</b> if recording is prevented, <b>FALSE</b> otherwise.
 
 
-#### - ServoLock
+### -field ServoLock
 
 Indicates the servo lock.
 
 
-#### - MediaPresent
+### -field MediaPresent
 
 Specifies if media is present.
 
 
-#### - MediaLength
+### -field MediaLength
 
 Specifies the length of the media.
 
 
-#### - MediaSize
+### -field MediaSize
 
 Specifies the size of the media.
 
 
-#### - MediaTrackCount
+### -field MediaTrackCount
 
 Indicates the media track count.
 
 
-#### - MediaTrackLength
+### -field MediaTrackLength
 
 Specifies the media track length.
 
 
-#### - MediaTrackSide
+### -field MediaTrackSide
 
 Indicates the media track size.
 
 
-#### - MediaType
+### -field MediaType
 
 Indicates the type of media.
 
 
-#### - LinkMode
+### -field LinkMode
 
 Indicates linked mode. <b>TRUE</b> if linked, <b>FALSE</b> otherwise.
 
 
-#### - NotifyOn
+### -field NotifyOn
 
 Specifies event notification. <b>TRUE</b> enables event notification, <b>FALSE</b> disables event notification.
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 9dafa65f-26f6-42a6-a125-013c61a66ccc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whea.whea_pshed_plugin_registration_packet, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+ms.keywords: PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], whea.whea_pshed_plugin_registration_packet, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml, _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET {
 
 
 
-#### - Length
+### -field Length
 
 The size, in bytes, of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
 
-#### - Version
+### -field Version
 
 The version of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure. PSHED plug-ins must set this member to WHEA_PLUGIN_REGISTRATION_PACKET_VERSION.
 
 
-#### - Context
+### -field Context
 
 A PSHED plug-in-supplied context area that is passed to the PSHED plug-in's callback functions.
 
 
-#### - FunctionalAreaMask
+### -field FunctionalAreaMask
 
 A bit-wise OR'ed combination of flags that specifies the functional areas in which the PSHED plug-in participates. Possible flags are:
 
@@ -99,24 +99,9 @@ A bit-wise OR'ed combination of flags that specifies the functional areas in whi
 The PSHED plug-in participates in error source discovery.
 
 
-#### PshedFAErrorSourceControl
-
-The PSHED plug-in participates in error source control.
-
-
-#### PshedFAErrorRecordPersistence
-
-The PSHED plug-in participates in error record persistence.
-
-
 #### PshedFAErrorInfoRetrieval
 
 The PSHED plug-in participates in error information retrieval.
-
-
-#### PshedFAErrorRecovery
-
-The PSHED plug-in participates in error recovery.
 
 
 #### PshedFAErrorInjection
@@ -124,12 +109,27 @@ The PSHED plug-in participates in error recovery.
 The PSHED plug-in participates in error injection.
 
 
-#### - Reserved
+#### PshedFAErrorRecordPersistence
+
+The PSHED plug-in participates in error record persistence.
+
+
+#### PshedFAErrorRecovery
+
+The PSHED plug-in participates in error recovery.
+
+
+#### PshedFAErrorSourceControl
+
+The PSHED plug-in participates in error source control.
+
+
+### -field Reserved
 
 Reserved for system use. PSHED plug-ins should set this member to zero.
 
 
-#### - Callbacks
+### -field Callbacks
 
 A <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_callbacks.md">WHEA_PSHED_PLUGIN_CALLBACKS</a> structure that describes the callback functions for the PSHED plug-in.
 

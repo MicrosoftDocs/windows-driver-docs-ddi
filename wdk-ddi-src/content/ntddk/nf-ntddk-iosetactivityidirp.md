@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81D3BE8C-D6E0-47E2-959C-3834988E4C61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoSetActivityIdIrp, IoSetActivityIdIrp, kernel.iosetactivityidirp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], IoSetActivityIdIrp, kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoSetActivityIdIrp(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 The IRP to associate the activity ID with.
 
 
-#### - Guid [in, optional]
+### -param Guid [in, optional]
 
 A pointer to the GUID that represents the ID to store in the IRP.  If NULL, IoSetActivityIdIrp attempts to retrieve the activity ID from the current thread if it was the thread that originally issued the request.
 

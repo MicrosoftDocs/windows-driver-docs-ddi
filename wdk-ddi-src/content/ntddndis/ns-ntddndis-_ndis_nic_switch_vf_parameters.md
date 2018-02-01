@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e75bb9a-e266-4321-8862-4bdfab300421
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS, _NDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, *PNDIS_NIC_SWITCH_VF_PARAMETERS, _NDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _NDIS_NIC_SWITCH_VF_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -93,12 +93,12 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_PARAMETERS_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
 
 
-#### - SwitchId
+### -field SwitchId
 
 An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. This value identifies the network adapter switch on which the VF is allocated.
 
@@ -107,21 +107,21 @@ The switch identifier is an integer between zero and the number of switches that
 
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
 
-#### - VMName
+### -field VMName
 
 An NDIS_VM_NAME value that specifies the internal name of the Hyper-V child partition that is attached to the VF.
 
 
 <div class="alert"><b>Note</b>  The Hyper-V child partition is also known as a virtual machine (VM).</div><div> </div>
 
-#### - VMFriendlyName
+### -field VMFriendlyName
 
 An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V child partition that is attached to the VF. This member contains the user-friendly description of the partition.
 
 
 
 
-#### - NicName
+### -field NicName
 
 An NDIS_SWITCH_NIC_NAME value that specifies the name of the virtual machine (VM)  network adapter. This member contains the user-friendly description of the network adapter.
 
@@ -132,27 +132,27 @@ The VM network adapter is a virtual device that is exposed in the guest operatin
 For more information about the VF data path, see <a href="https://msdn.microsoft.com/0DC2327E-3A58-46BC-A3D6-3AFD24ABC901">SR-IOV VF Data Path</a>.
 
 
-#### - MacAddressLength
+### -field MacAddressLength
 
 A USHORT value that specifies the length of the <b>PermanentMacAddress</b> and <b>CurrentMacAddress</b> members.
 
 
-#### - PermanentMacAddress
+### -field PermanentMacAddress
 
 The permanent MAC address of the VF. This is the permanent MAC address for the VF network adapter that is exposed in the guest operating system.
 
 
-#### - CurrentMacAddress
+### -field CurrentMacAddress
 
 The current MAC address of the VF. This is the current MAC address for the VF network adapter that is exposed in the guest operating system.
 
 
-#### - VFId
+### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
 
 
-#### - RequestorId
+### -field RequestorId
 
 An NDIS_VF_RID that specifies the PCI Express (PCIe) Requestor ID (RID) of the VF.
 
@@ -168,9 +168,9 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451824">OID_NIC_SWITCH_VF_PARAMETERS</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451824">OID_NIC_SWITCH_VF_PARAMETERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 

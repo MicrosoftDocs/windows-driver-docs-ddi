@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5dd82086-d39c-4ebc-9e2a-73ef504f873c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeInitializeDpc, k105_069c115c-3a05-442e-8fc4-56dcb635a473.xml, KeInitializeDpc routine [Kernel-Mode Driver Architecture], kernel.keinitializedpc, KeInitializeDpc
+ms.keywords: KeInitializeDpc, k105_069c115c-3a05-442e-8fc4-56dcb635a473.xml, KeInitializeDpc routine [Kernel-Mode Driver Architecture], kernel.keinitializedpc, wdm/KeInitializeDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID KeInitializeDpc(
 
 
 
-#### - Dpc [out]
+### -param Dpc [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
 
 
-#### - DeferredRoutine [in]
+### -param DeferredRoutine [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> routine to associate with the DPC.
 
 
-#### - DeferredContext [in, optional]
+### -param DeferredContext [in, optional]
 
 Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>. 
 
@@ -103,11 +103,11 @@ Storage for the DPC object must be resident: in the device extension of a driver
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
-
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 <a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d5dd27f-8d0e-46e8-adbd-139db322cf6e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MIRACAST_WFD_CONNECTION_STATS structure [Display Devices], netdispumdddi/MIRACAST_WFD_CONNECTION_STATS, display.miracast_wfd_connection_stats, MIRACAST_WFD_CONNECTION_STATS
+ms.keywords: netdispumdddi/MIRACAST_WFD_CONNECTION_STATS, display.miracast_wfd_connection_stats, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices], MIRACAST_WFD_CONNECTION_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - CurrentBitRate
+### -field CurrentBitRate
 
 The bit rate, in bits per second, that the operating system recommends that the audio/video encoder uses.
 
 
-#### - LocalMaxBitRate
+### -field LocalMaxBitRate
 
 The maximum bit rate, in bits per second, that the local Wi-Fi Direct hardware can support.
 
 
-#### - RemoteMaxBitRate
+### -field RemoteMaxBitRate
 
 The maximum bit rate, in bits per second, that the Miracast sink hardware can support.
 

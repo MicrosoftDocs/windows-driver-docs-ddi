@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ed96b2ec-95ea-47a6-a3b0-f4d018e0c8e2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlRunOnceBeginInitialize, ntddk/RtlRunOnceBeginInitialize, k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml, kernel.rtlrunoncebegininitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlrunoncebegininitialize, k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml, ntddk/RtlRunOnceBeginInitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], RtlRunOnceBeginInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RtlRunOnceBeginInitialize(
 
 
 
-#### - RunOnce [in, out]
+### -param RunOnce [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a> one-time initialization structure.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Drivers can optionally specify one or more of the following flags:
 
@@ -91,7 +91,7 @@ Perform initialization asynchronously. The driver can perform multiple completio
 Do not begin initialization, but check to determine if initialization has already occurred. If <b>RtlRunOnceBeginInitialize</b> returns STATUS_SUCCESS, the initialization succeeded, and *<i>Context</i> contains the initialized data. 
 
 
-#### - Context [out]
+### -param Context [out]
 
 Specifies a pointer to a PVOID variable that receives the initialized data. The value of *<i>Context</i> is valid only when the routine returns STATUS_SUCCESS.
 
@@ -140,15 +140,15 @@ Drivers can alternatively perform one-time initialization by calling <a href="..
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
-
 <a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
+<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
 
 <a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
 
-<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
  
 

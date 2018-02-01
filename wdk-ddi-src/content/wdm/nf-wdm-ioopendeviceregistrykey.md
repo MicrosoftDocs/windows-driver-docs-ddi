@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3b67c73-446b-42a8-bc41-2ca42fde3513
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], wdm/IoOpenDeviceRegistryKey
+ms.keywords: IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], IoOpenDeviceRegistryKey, k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, wdm/IoOpenDeviceRegistryKey, kernel.ioopendeviceregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,18 +71,23 @@ NTSTATUS IoOpenDeviceRegistryKey(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the PDO of the device instance for which the registry key is to be opened.
 
 
-#### - DevInstKeyType [in]
+### -param DevInstKeyType [in]
 
 Specifies flags indicating whether to open a device-specific hardware key or a driver-specific software key. The flags also indicate whether the key is relative to the current hardware profile. For more information about hardware and software keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Keys for Drivers</a>.
 
 The flags are defined as follows:
 
 
+
+
+#### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
+
+Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. 
 
 
 #### PLUGPLAY_REGKEY_DEVICE
@@ -95,17 +100,12 @@ Open the <b>Device Parameters</b> subkey under the device's <a href="https://msd
 Open a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> for storing driver-specific information. This flag cannot be specified with PLUGPLAY_REGKEY_DEVICE.
 
 
-#### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
-
-Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. 
-
-
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the access the caller needs to the key. See the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine for a description of each KEY_<i>XXX</i> access right.
 
 
-#### - DevInstRegKey [out]
+### -param DevInstRegKey [out]
 
 Pointer to a caller-allocated buffer that, on successful return, contains a handle to the requested registry key. 
 
@@ -162,9 +162,9 @@ Callers of <b>IoOpenDeviceRegistryKey</b> must be running at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

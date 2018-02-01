@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 52ac1410-8f8f-405a-9c81-a534c3cfbf51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeStackAttachProcess routine [Installable File System Drivers], keref_de4fc228-753f-4077-8372-e5330c96d317.xml, KeStackAttachProcess, ntifs/KeStackAttachProcess, ifsk.kestackattachprocess
+ms.keywords: KeStackAttachProcess, keref_de4fc228-753f-4077-8372-e5330c96d317.xml, KeStackAttachProcess routine [Installable File System Drivers], ntifs/KeStackAttachProcess, ifsk.kestackattachprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID KeStackAttachProcess(
 TBD
 
 
-#### - ApcState [out]
+### -param ApcState [out]
 
 An opaque pointer to a KAPC_STATE structure. The caller must allocate storage for this structure either from nonpaged pool or from the caller's own thread stack. 
 
@@ -114,21 +114,21 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
-
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
-
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
 
 <a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
+
+<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
 
-<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSRBEX_DATA_PNP structure pointer [Storage Devices], StorSupriseRemoval, storport/PSRBEX_DATA_PNP, storage.srbex_data_pnp, SRBEX_DATA_PNP, StorStopDevice, StorQueryResourceRequirements, *PSRBEX_DATA_PNP, StorRemoveDevice, _SRBEX_DATA_PNP, storport/SRBEX_DATA_PNP, StorQueryCapabilities, StorFilterResourceRequirements, PSRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorStartDevice
+ms.keywords: StorStartDevice, storport/PSRBEX_DATA_PNP, StorStopDevice, *PSRBEX_DATA_PNP, StorQueryCapabilities, storage.srbex_data_pnp, PSRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], StorRemoveDevice, StorFilterResourceRequirements, StorSupriseRemoval, _SRBEX_DATA_PNP, storport/SRBEX_DATA_PNP, StorQueryResourceRequirements, SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,27 +74,27 @@ typedef struct _SRBEX_DATA_PNP {
 
 
 
-#### - Type
+### -field Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypePnp</b>.
 
 
-#### - Length
+### -field Length
 
 Length of the data in this structure starting with the <b>PnPSubFunction</b> member. Set to SRBEX_DATA_PNP_LENGTH.
 
 
-#### - PnPSubFunction
+### -field PnPSubFunction
 
 This member is not currently used. Set to 0.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved. Set to 0.
 
 
-#### - PnPAction
+### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
 <table>
@@ -182,12 +182,12 @@ Surprise Removal of the device. This value is available starting with Windows 7
 </table> 
 
 
-#### - SrbPnPFlags
+### -field SrbPnPFlags
 
 Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved. Set to 0.
 

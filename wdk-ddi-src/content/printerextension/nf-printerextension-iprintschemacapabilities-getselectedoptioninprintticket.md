@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface, print.iprintschemacapabilities_getselectedoptioninprintticket
+ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, GetSelectedOptionInPrintTicket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities, print.iprintschemacapabilities_getselectedoptioninprintticket, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetSelectedOptionInPrintTicket(
 
 
 
-#### - pFeature [in]
+### -param pFeature [in]
 
 The specified feature.
 
 
-#### - ppOption [out, retval]
+### -param ppOption [out, retval]
 
 The returned option.
 

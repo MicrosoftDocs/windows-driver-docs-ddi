@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestTypeNoFormat, wudfddi_types/WDF_REQUEST_TYPE, wudfddi_types/WdfRequestRead, WdfRequestRead, WDF_REQUEST_TYPE, wudfddi_types/WdfRequestUsb, WdfRequestCleanup, WdfRequestQueryInformation, WdfRequestUndefined, WdfRequestFlushBuffers, wudfddi_types/WdfRequestWrite, _WDF_REQUEST_TYPE, WdfRequestInternalIoctl, WdfRequestClose, WdfRequestCreate, WdfRequestUsb, umdf.wdf_request_type__umdf_, wudfddi_types/WdfRequestOther, wdf.wdf_request_type__umdf_, WdfRequestMaximum, *PWDF_REQUEST_TYPE, WdfRequestOther, WdfRequestDeviceIoControl, wudfddi_types/WdfRequestInternalIoctl, wudfddi_types/WdfRequestCleanup, wudfddi_types/WdfRequestDeviceIoControl, wudfddi_types/WdfRequestFlushBuffers, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestSetInformation, WdfRequestWrite, WdfRequestTypeNoFormat, wudfddi_types/WdfRequestMaximum, WdfRequestSetInformation, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, wudfddi_types/WdfRequestClose, WDF_REQUEST_TYPE enumeration
+ms.keywords: WdfRequestCleanup, WdfRequestUsb, wudfddi_types/WdfRequestMaximum, WdfRequestQueryInformation, WdfRequestRead, WdfRequestSetInformation, umdf.wdf_request_type__umdf_, wudfddi_types/WdfRequestRead, WdfRequestWrite, wdf.wdf_request_type__umdf_, WdfRequestTypeNoFormat, WdfRequestMaximum, wudfddi_types/WdfRequestClose, WdfRequestFlushBuffers, WdfRequestDeviceIoControl, wudfddi_types/WdfRequestUsb, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, WdfRequestCreate, WDF_REQUEST_TYPE enumeration, WdfRequestUndefined, wudfddi_types/WdfRequestTypeNoFormat, WdfRequestOther, wudfddi_types/WDF_REQUEST_TYPE, wudfddi_types/WdfRequestDeviceIoControl, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestSetInformation, wudfddi_types/WdfRequestFlushBuffers, _WDF_REQUEST_TYPE, WdfRequestClose, WDF_REQUEST_TYPE, wudfddi_types/WdfRequestCleanup, wudfddi_types/WdfRequestOther, *PWDF_REQUEST_TYPE, WdfRequestInternalIoctl, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestInternalIoctl, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -85,77 +85,77 @@ typedef enum _WDF_REQUEST_TYPE {
 
 
 
-#### - WdfRequestUndefined
+### -field WdfRequestUndefined
 
 The type of the request object is undefined.
 
 
-#### - WdfRequestCreate
+### -field WdfRequestCreate
 
 The request object represents a file creation request. The driver receives this type of request object when an application opens a device by calling the Microsoft Win32 <b>CreateFile</b> function. The framework delivers this type of request, along with a newly created file object (<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>), to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function. The new file object represents the HANDLE-typed file handle that the Win32 <b>CreateFile</b> returns. 
 
 
-#### - WdfRequestCleanup
+### -field WdfRequestCleanup
 
  The request object represents a file cleanup request. The driver receives this type of request object after an application's call to the Win32 <b>CloseHandle</b> function closes the last handle to a file object, but possibly before all of the file's outstanding I/O requests have been completed or canceled. The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a> callback function. (Also see <b>WdfRequestClose</b>.)
 
 
-#### - WdfRequestRead
+### -field WdfRequestRead
 
 The request object represents a read request. This driver receives this type of I/O request when an application calls the Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function. The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a> callback function.
 
 
-#### - WdfRequestWrite
+### -field WdfRequestWrite
 
 The request object represents a write request. This driver receives this type of I/O request when an application calls the Win32 <b>WriteFile</b> or <b>WriteFileEx</b> function. The framework delivers this type of request to  the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a> callback function.
 
 
-#### - WdfRequestDeviceIoControl
+### -field WdfRequestDeviceIoControl
 
 The request object represents a device I/O control request. This driver receives this type of I/O request when an application calls the Win32 <b>DeviceIoControl</b> function. The framework delivers this type of request to  the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a> callback function.
 
 
-#### - WdfRequestClose
+### -field WdfRequestClose
 
 The request object represents a file close request.  The driver receives this type of request object after an application's call to the Win32 <b>CloseHandle</b> function closes the last handle to a file object, and after all of the file's outstanding I/O requests have been completed or canceled.  The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a> callback function. (Also see <b>WdfRequestCleanup</b>.)
 
 
-#### - WdfRequestUsb
+### -field WdfRequestUsb
 
 The request object was sent to a USB port. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560296">IWDFRequestCompletionParams::GetCompletedRequestType</a> method can return this value. 
 
 
-#### - WdfRequestOther
+### -field WdfRequestOther
 
 This value is reserved for internal use only.
 
 
-#### - WdfRequestInternalIoctl
+### -field WdfRequestInternalIoctl
 
 This value is reserved for internal use only.
 
 
-#### - WdfRequestTypeNoFormat
+### -field WdfRequestTypeNoFormat
 
 The request object's type has not been specified.
 
 
-#### - WdfRequestFlushBuffers
+### -field WdfRequestFlushBuffers
 
 The request object represents a request to flush cached buffers. The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. 
 
 
-#### - WdfRequestQueryInformation
+### -field WdfRequestQueryInformation
 
 The request object represents a request to obtain information about a file. The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. 
 
 
-#### - WdfRequestSetInformation
+### -field WdfRequestSetInformation
 
 The request object represents a request to set information about a file. The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. 
 
 
-#### - WdfRequestMaximum
+### -field WdfRequestMaximum
 
 The maximum value for the enumeration is exceeded.
 
@@ -171,19 +171,19 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
 
  
 

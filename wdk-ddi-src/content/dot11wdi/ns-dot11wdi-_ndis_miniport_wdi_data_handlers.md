@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DBDB5F08-9988-4D9B-A731-DA65BBA67813
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_wdi_data_handlers, PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS
+ms.keywords: dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, _NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_wdi_data_handlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,7 +91,7 @@ typedef struct _NDIS_MINIPORT_WDI_DATA_HANDLERS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -112,122 +112,122 @@ Set the
         <b>Size</b> member to NDIS_SIZEOF_MINIPORT_WDI_DATA_HANDLERS_REVISION_1.
 
 
-#### - TxAbortHandler
+### -field TxAbortHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a> handler function.
 
 
-#### - TxTargetDescInitHandler
+### -field TxTargetDescInitHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_target_desc_init.md">MiniportWdiTxTargetDescInit</a> handler function.
 
 
-#### - TxTargetDescDeInitHandler
+### -field TxTargetDescDeInitHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_target_desc_deinit.md">MiniportWdiTxTargetDescDeInit</a> handler function.
 
 
-#### - TxDataSendHandler
+### -field TxDataSendHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_data_send.md">MiniportWdiTxDataSend</a> handler function.
 
 
-#### - TxTalSendHandler
+### -field TxTalSendHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_send.md">MiniportWdiTxTalSend</a> handler function.
 
 
-#### - TxTalSendCompleteHandler
+### -field TxTalSendCompleteHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_send_complete.md">MiniportWdiTxTalSendComplete</a> handler function.
 
 
-#### - TxTalQueueInOrderHandler
+### -field TxTalQueueInOrderHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_queue_in_order.md">MiniportWdiTxTalQueueInOrder</a> handler function.
 
 
-#### - TxPeerBacklogHandler
+### -field TxPeerBacklogHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_peer_backlog.md">MiniportWdiTxPeerBacklog</a> handler function.
 
 
-#### - RxStopHandler
+### -field RxStopHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_stop.md">MiniportWdiRxStop</a> handler function.
 
 
-#### - RxFlushHandler
+### -field RxFlushHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_flush.md">MiniportWdiRxFlush</a> handler function.
 
 
-#### - RxRestartHandler
+### -field RxRestartHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_restart.md">MiniportWdiRxRestart</a> handler function.
 
 
-#### - RxGetMpdusHandler
+### -field RxGetMpdusHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_get_mpdus.md">MiniportWdiRxGetMpdus</a> handler function.
 
 
-#### - RxReturnFramesHandler
+### -field RxReturnFramesHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_return_frames.md">MiniportWdiRxReturnFrames</a> handler function.
 
 
-#### - RxResumeHandler
+### -field RxResumeHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_resume.md">MiniportWdiRxResume</a> handler function.
 
 
-#### - RxThrottleHandler
+### -field RxThrottleHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_throttle.md">MiniportWdiRxThrottle</a> handler function.
 
 
-#### - RxPpduRssiHandler
+### -field RxPpduRssiHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_ppdu_rssi.md">MiniportWdiRxPpduRssi</a> handler function.
 
 
-#### - TalTxRxStartHandler
+### -field TalTxRxStartHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_start.md">MiniportWdiTalTxRxStart</a> handler function.
 
 
-#### - TalTxRxStopHandler
+### -field TalTxRxStopHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_stop.md">MiniportWdiTalTxRxStop</a> handler function.
 
 
-#### - TalTxRxAddPortHandler
+### -field TalTxRxAddPortHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_add_port.md">MiniportWdiTalTxRxAddPort</a> handler function.
 
 
-#### - TalTxRxDeletePortHandler
+### -field TalTxRxDeletePortHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_delete_port.md">MiniportWdiTalTxRxDeletePort</a> handler function.
 
 
-#### - TalTxRxSetPortOpModeHandler
+### -field TalTxRxSetPortOpModeHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_set_port_opmode.md">MiniportWdiTalTxRxSetPortOpMode</a> handler function.
 
 
-#### - TalTxRxResetPortHandler
+### -field TalTxRxResetPortHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_reset_port.md">MiniportWdiTalTxRxResetPort</a> handler function.
 
 
-#### - TalTxRxPeerConfigHandler
+### -field TalTxRxPeerConfigHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_peer_config.md">MiniportWdiTalTxRxPeerConfig</a> handler function.
 
 
-#### - TalTxRxPeerDeleteConfirmHandler
+### -field TalTxRxPeerDeleteConfirmHandler
 
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_peer_delete_confirm.md">MiniportWdiTalTxRxPeerDeleteConfirm</a> handler function.
 

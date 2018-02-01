@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 853c4e73-b571-4b68-8690-bbef7a726c8e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTShareObjects, D3DKMTShareObjects, display.d3dkmtshareobjects, D3DKMTShareObjects function [Display Devices]
+ms.keywords: D3DKMTShareObjects function [Display Devices], D3DKMTShareObjects, display.d3dkmtshareobjects, d3dkmthk/D3DKMTShareObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,31 +74,31 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTShareObjects(
 
 
 
-#### - cObjects [in]
+### -param cObjects [in]
 
 The number of resource objects specified by the <i>hObjects</i> parameter.
 
 The number of resource objects must be ≤<b>D3DKMT_MAX_OBJECTS_PER_HANDLE</b>.
 
 
-#### - hObjects [in]
+### -param hObjects [in]
 
 A pointer to an array of local kernel-mode handles that specify the resource objects to be shared.
 
 For more information on using <i>hObjects</i>, see the Remarks section.
 
 
-#### - pObjectAttributes [in]
+### -param pObjectAttributes [in]
 
 A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the  resource objects.
 
 
-#### - dwDesiredAccess [in]
+### -param dwDesiredAccess [in]
 
 Specifies read and write access for the resource.
 
 
-#### - phSharedNtHandle [out]
+### -param phSharedNtHandle [out]
 
 A pointer to a shared NT handle  that specifies the resource objects.
 
@@ -121,15 +121,15 @@ This function must specify handles through the <i>hObjects</i> parameter only to
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a>
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8328c1b1-e72d-4e34-b69e-e02b3f5850bf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKS_COLCON, stream.ks_colcon, ksmedia/PKS_COLCON, KS_COLCON, _KS_COLCON, PKS_COLCON structure pointer [Streaming Media Devices], dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml, PKS_COLCON, KS_COLCON structure [Streaming Media Devices], ksmedia/KS_COLCON"
+ms.keywords: PKS_COLCON structure pointer [Streaming Media Devices], dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml, stream.ks_colcon, ksmedia/KS_COLCON, KS_COLCON structure [Streaming Media Devices], ksmedia/PKS_COLCON, _KS_COLCON, PKS_COLCON, KS_COLCON, *PKS_COLCON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _KS_COLCON {
 
 
 
-#### - emph1col
+### -field emph1col
 
 Indicates 
 
 
-#### - emph2col
+### -field emph2col
 
 Indicates 
 
 
-#### - backcol
+### -field backcol
 
 Indicates 
 
 
-#### - patcol
+### -field patcol
 
 Indicates 
 
 
-#### - emph1con
+### -field emph1con
 
 Indicates 
 
 
-#### - emph2con
+### -field emph2con
 
 Indicates 
 
 
-#### - backcon
+### -field backcon
 
 Indicates 
 
 
-#### - patcon
+### -field patcon
 
 Indicates 
 

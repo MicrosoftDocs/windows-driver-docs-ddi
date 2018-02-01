@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2d07e6a3-b560-4d9b-aece-0368d5929867
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetStackTrace method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetStackTrace method, dbgeng/IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging], GetStackTrace method, dbgeng/IDebugControl::GetStackTrace, IDebugControl3, dbgeng/IDebugControl3::GetStackTrace, IDebugControl::GetStackTrace, IDebugControl2::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, GetStackTrace method [Windows Debugging], IDebugControl interface, debugger.getstacktrace, IDebugControl interface [Windows Debugging], GetStackTrace method, GetStackTrace method [Windows Debugging], IDebugControl3::GetStackTrace, GetStackTrace, GetStackTrace method [Windows Debugging], IDebugControl3 interface
+ms.keywords: GetStackTrace method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetStackTrace, IDebugControl::GetStackTrace, dbgeng/IDebugControl3::GetStackTrace, IDebugControl2 interface [Windows Debugging], GetStackTrace method, dbgeng/IDebugControl2::GetStackTrace, GetStackTrace method [Windows Debugging], IDebugControl3 interface, GetStackTrace method [Windows Debugging], IDebugControl interface, IDebugControl3, IDebugControl3::GetStackTrace, GetStackTrace method [Windows Debugging], IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, IDebugControl3 interface [Windows Debugging], GetStackTrace method, debugger.getstacktrace, dbgeng/IDebugControl::GetStackTrace, GetStackTrace, IDebugControl interface [Windows Debugging], GetStackTrace method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,22 +74,22 @@ HRESULT GetStackTrace(
 
 
 
-#### - FrameOffset [in]
+### -param FrameOffset [in]
 
 Specifies the location of the stack frame at the top of the stack.  If <i>FrameOffset</i> is set to zero, the current frame pointer is used instead.
 
 
-#### - StackOffset [in]
+### -param StackOffset [in]
 
 Specifies the location of the current stack.  If <i>StackOffset</i> is set to zero, the current stack pointer is used instead.
 
 
-#### - InstructionOffset [in]
+### -param InstructionOffset [in]
 
 Specifies the location of the instruction of interest for the function that is represented by the stack frame at the top of the stack.  If <i>InstructionOffset</i> is set to zero, the current instruction is used instead.
 
 
-#### - Frames [out]
+### -param Frames [out]
 
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.
 
@@ -99,7 +99,7 @@ Receives the stack frames.  The number of elements this array holds is <i>FrameS
 
 
 
-#### - FramesFilled [out, optional]
+### -param FramesFilled [out, optional]
 
 Receives the number of frames that were placed in the array <i>Frames</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
 
@@ -153,25 +153,25 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
-
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
 
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
  
 

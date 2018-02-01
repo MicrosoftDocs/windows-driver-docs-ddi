@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: C87385E0-7B3F-44DA-90D0-E644C58AB375
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO.gpio_clx_registerclient, GPIO_CLX_RegisterClient, gpioclx/GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports]
+ms.keywords: GPIO.gpio_clx_registerclient, gpioclx/GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS GPIO_CLX_RegisterClient(
 
 
 
-#### - Driver [in]
+### -param Driver [in]
 
 A WDFDRIVER handle to the framework driver object for the GPIO controller driver.
 
 
-#### - RegistrationPacket [in, out]
+### -param RegistrationPacket [in, out]
 
 A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a> structure that contains the caller's registration information. This structure contains pointers to the event callback functions that the GPIO controller driver implements. Additionally, this structure specifies the size of the device context that the GPIO controller driver requires for its internal configuration data and state information.
 
 
-#### - RegistryPath [in]
+### -param RegistryPath [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path name of the registry key for the  GPIO controller driver. This parameter should be the registry path name that was passed to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about driver registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Trees for Devices and Drivers</a>.
 
@@ -142,13 +142,13 @@ Later, just before the GPIO controller driver unloads, the driver calls the <a h
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439498">GPIO_CLX_UnregisterClient</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

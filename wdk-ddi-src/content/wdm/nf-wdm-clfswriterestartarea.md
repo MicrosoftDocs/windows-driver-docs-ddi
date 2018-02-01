@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsWriteRestartArea, ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], ClfsWriteRestartArea, Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml, kernel.clfswriterestartarea
+ms.keywords: ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml, ClfsWriteRestartArea, kernel.clfswriterestartarea, wdm/ClfsWriteRestartArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ NTSTATUS ClfsWriteRestartArea(
 
 
 
-#### - pvMarshalContext [in, out]
+### -param pvMarshalContext [in, out]
 
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
-#### - pvRestartBuffer [in]
+### -param pvRestartBuffer [in]
 
 A pointer to a buffer that contains the data for the restart record.
 
 
-#### - cbRestartBuffer [in]
+### -param cbRestartBuffer [in]
 
 The size, in bytes, of the buffer pointed to by <i>pvRestartBuffer</i>. This is the size of the restart data.
 
 
-#### - plsnBase [in, optional]
+### -param plsnBase [in, optional]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that specifies a new base LSN for the stream. If this parameter is <b>NULL</b>, the base LSN is not changed.
 
 
-#### - fFlags [in]
+### -param fFlags [in]
 
 This parameter must be one of the following values.
 <table>
@@ -126,12 +126,12 @@ The restart record is placed in previously reserved space in an I/O block. The n
 </table> 
 
 
-#### - pcbWritten [out, optional]
+### -param pcbWritten [out, optional]
 
 A pointer to a ULONG-typed variable that receives the number of bytes actually forced to stable storage. This parameter can be <b>NULL</b>.
 
 
-#### - plsnNext [out, optional]
+### -param plsnNext [out, optional]
 
 A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the newly written restart record.
 
@@ -164,11 +164,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
 
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
 
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
  
 

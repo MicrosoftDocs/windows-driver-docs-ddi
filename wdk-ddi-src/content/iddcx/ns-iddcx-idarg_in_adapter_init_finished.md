@@ -68,7 +68,7 @@ typedef struct IDARG_IN_ADAPTER_INIT_FINISHED {
 
 
 
-#### - AdapterInitStatus
+### -field AdapterInitStatus
 
 
                      The initialization status of the adapter.

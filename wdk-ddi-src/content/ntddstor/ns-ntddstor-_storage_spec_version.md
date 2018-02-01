@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], storage.storage_spec_version, STORAGE_SPEC_VERSION union [Storage Devices], STORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, _STORAGE_SPEC_VERSION, ntddstor/STORAGE_SPEC_VERSION"
+ms.keywords: "_STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], *PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], storage.storage_spec_version, ntddstor/STORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,19 +77,9 @@ typedef union _STORAGE_SPEC_VERSION {
 
 
 
-#### - DUMMYSTRUCTNAME
+### -field DUMMYSTRUCTNAME
 
 The major and minor version of the storage specification.
-
-
-#### MinorVersion
-
-The minor version of the storage specification.
-
-
-#### MajorVersion
-
-The major version of the storage specification.
 
 
 ### -field DUMMYSTRUCTNAME.MinorVersion
@@ -97,29 +87,9 @@ The major version of the storage specification.
 The minor version of the storage specification.
 
 
-#### MinorVersion.DUMMYSTRUCTNAME
-
-The minor and sub-minor version of the storage specification.
-
-
-#### MinorVersion.AsUshort
-
-The combination of the <b>Minor</b> and <b>SubMinor</b> versions of the storage specification.
-
-
 ### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME
 
 The minor and sub-minor version of the storage specification.
-
-
-#### MinorVersion.DUMMYSTRUCTNAME.SubMinor
-
-The sub-minor version of the storage specification.
-
-
-#### MinorVersion.DUMMYSTRUCTNAME.Minor
-
-The minor version of the storage specification.
 
 
 ### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME.SubMinor
@@ -142,7 +112,7 @@ The combination of the <b>Minor</b> and <b>SubMinor</b> versions of the storage 
 The major version of the storage specification.
 
 
-#### - AsUlong
+### -field AsUlong
 
 The combination of the <b>MajorVersion</b> and <b>MinorVersion</b> versions of the storage specification.
 

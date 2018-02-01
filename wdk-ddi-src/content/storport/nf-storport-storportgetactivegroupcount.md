@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 640dd836-a5f9-4a88-b2a3-038a66a50868
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetactivegroupcount, StorPortGetActiveGroupCount routine [Storage Devices], storport/StorPortGetActiveGroupCount, storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml, StorPortGetActiveGroupCount
+ms.keywords: storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml, StorPortGetActiveGroupCount, StorPortGetActiveGroupCount routine [Storage Devices], storage.storportgetactivegroupcount, storport/StorPortGetActiveGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG StorPortGetActiveGroupCount(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - NumberGroups [out]
+### -param NumberGroups [out]
 
 A pointer to a variable that holds the number of groups.
 

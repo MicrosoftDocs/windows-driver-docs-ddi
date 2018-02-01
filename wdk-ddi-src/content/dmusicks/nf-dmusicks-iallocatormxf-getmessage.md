@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d5b56926-bcfb-4411-b24d-cc0758852510
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAllocatorMXF, audio.iallocatormxf_getmessage, IAllocatorMXF::GetMessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, GetMessage, GetMessage method [Audio Devices], IAllocatorMXF interface, GetMessage method [Audio Devices], IAllocatorMXF interface [Audio Devices], GetMessage method, dmusicks/IAllocatorMXF::GetMessage
+ms.keywords: IAllocatorMXF::GetMessage, IAllocatorMXF interface [Audio Devices], GetMessage method, GetMessage method [Audio Devices], IAllocatorMXF interface, GetMessage method [Audio Devices], GetMessage, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, IAllocatorMXF, dmusicks/IAllocatorMXF::GetMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS GetMessage(
 
 
 
-#### - ppDMKEvt [out]
+### -param ppDMKEvt [out]
 
 Output pointer for the MIDI event. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the event structure being retrieved from the allocator. The structure itself is empty (zeroed by the allocator).
 
@@ -94,9 +94,9 @@ For more information about the allocator, see <a href="https://msdn.microsoft.co
 
 <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
-
 <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
  
 

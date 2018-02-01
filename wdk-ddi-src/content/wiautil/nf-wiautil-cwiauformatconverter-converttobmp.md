@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9ac85fe9-bc44-4a70-9619-bb13e878bb49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ConvertToBmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, CWiauFormatConverter::ConvertToBmp, CWiauFormatConverter, image.cwiauformatconverter_converttobmp, wiautil/CWiauFormatConverter::ConvertToBmp, ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method, ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface
+ms.keywords: ConvertToBmp, image.cwiauformatconverter_converttobmp, wiautil/CWiauFormatConverter::ConvertToBmp, CWiauFormatConverter::ConvertToBmp, ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method, ConvertToBmp method [Imaging Devices], CWiauFormatConverter, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,27 +74,27 @@ HRESULT ConvertToBmp(
 
 
 
-#### - pSource
+### -param pSource
 
 Points to the memory location containing the first byte of the source image.
 
 
-#### - iSourceSize
+### -param iSourceSize
 
 Specifies the size, in bytes, of the source image.
 
 
-#### - ppDest
+### -param ppDest
 
 Pointer to a memory location that receives the address of the resulting image.
 
 
-#### - piDestSize
+### -param piDestSize
 
 Pointer to a memory location that receives the size, in bytes, of the resulting image.
 
 
-#### - pBmpImageInfo
+### -param pBmpImageInfo
 
 Pointer to a <a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a> structure that receives information about the resulting image.
 
@@ -128,9 +128,9 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540379">CWiauFormatConverter::IsFormatSupported</a>
 
-<a href="..\wiautil\ne-wiautil-skip_amount.md">SKIP_AMOUNT</a>
-
 <a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
+
+<a href="..\wiautil\ne-wiautil-skip_amount.md">SKIP_AMOUNT</a>
 
 <a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
 

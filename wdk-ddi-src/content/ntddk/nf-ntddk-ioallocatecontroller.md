@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfeec8b1-48fb-420e-b602-699a5f2d659a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioallocatecontroller, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, IoAllocateController routine [Kernel-Mode Driver Architecture], IoAllocateController, ntddk/IoAllocateController
+ms.keywords: ntddk/IoAllocateController, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, kernel.ioallocatecontroller, IoAllocateController routine [Kernel-Mode Driver Architecture], IoAllocateController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID IoAllocateController(
 
 
 
-#### - ControllerObject [in]
+### -param ControllerObject [in]
 
 Pointer to a driver-created controller object, usually representing a physical controller to be allocated for an I/O operation on an attached device.
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object, representing the target device of the current IRP.
 
 
-#### - ExecutionRoutine [in]
+### -param ExecutionRoutine [in]
 
 Pointer to the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a> routine.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Pointer to a driver-determined context, passed to the driver's <i>ControllerControl</i> routine when it is called. 
 
@@ -108,13 +108,13 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
-
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+
+<a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
 
  
 

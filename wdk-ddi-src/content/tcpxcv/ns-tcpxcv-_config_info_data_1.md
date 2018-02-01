@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: abf484e4-6a11-4727-b195-5eaf6683113e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, tcpxcv/PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1 structure [Print Devices], print.config_info_data_1, PCONFIG_INFO_DATA_1 structure pointer [Print Devices], *PCONFIG_INFO_DATA_1, _CONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1, tcpxcv/CONFIG_INFO_DATA_1
+ms.keywords: "_CONFIG_INFO_DATA_1, print.config_info_data_1, tcpxcv/CONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1 structure pointer [Print Devices], tcpxcv/PCONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1, *PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1 structure [Print Devices], CONFIG_INFO_DATA_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _CONFIG_INFO_DATA_1 {
 
 
 
-#### - Reserved
+### -field Reserved
 
 Is reserved for system use. This member should be set to a zero-length string.
 
 
-#### - dwVersion
+### -field dwVersion
 
 Specifies the version of the PORT_DATA_1 structure (currently equal to 1) that will contain the configuration information.
 

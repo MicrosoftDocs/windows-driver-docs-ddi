@@ -70,7 +70,7 @@ VOID APIENTRY CALLBACK * pfnShaderCacheAddRefCb(
 
 
 
-#### - hCacheSession [in]
+### -param hCacheSession [in]
 
 The handler of a cache session.
 

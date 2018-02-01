@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f400ab05-aea9-4154-a725-5b23a6dc06b6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, GetMyDevicePortName method [Imaging Devices], IStiDeviceControl::GetMyDevicePortName, GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_getmydeviceportname, stiusd/IStiDeviceControl::GetMyDevicePortName, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, GetMyDevicePortName, IStiDeviceControl
+ms.keywords: image.istidevicecontrol_getmydeviceportname, GetMyDevicePortName, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, stiusd/IStiDeviceControl::GetMyDevicePortName, GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, IStiDeviceControl, GetMyDevicePortName method [Imaging Devices], IStiDeviceControl::GetMyDevicePortName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetMyDevicePortName(
 
 
 
-#### - lpszDevicePath
+### -param lpszDevicePath
 
 Caller-supplied pointer to a buffer to receive the device's port name.
 
 
-#### - cwDevicePathSize
+### -param cwDevicePathSize
 
 Caller-supplied number of characters (of type TCHAR) in the buffer pointed to by <i>lpszDevicePath</i>.
 

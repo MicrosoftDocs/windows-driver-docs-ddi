@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY CreateDevice(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
  A handle that identifies the graphics adapter. 
 
@@ -137,11 +137,11 @@ When the Direct3D runtime calls <b>CreateDevice</b> to create a device, the runt
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
 
  
 

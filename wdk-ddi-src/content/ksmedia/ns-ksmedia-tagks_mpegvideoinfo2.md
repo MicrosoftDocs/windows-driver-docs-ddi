@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 735bff90-7406-4fe8-87d5-de3aa48fbcd0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_MPEGVIDEOINFO2, tagKS_MPEGVIDEOINFO2, stream.ks_mpegvideoinfo2, PKS_MPEGVIDEOINFO2, vidcapstruct_decbdb49-a4a2-44d6-a005-bd3cbe0df02e.xml, *PKS_MPEGVIDEOINFO2, PKS_MPEGVIDEOINFO2 structure pointer [Streaming Media Devices], ksmedia/PKS_MPEGVIDEOINFO2, KS_MPEGVIDEOINFO2, KS_MPEGVIDEOINFO2 structure [Streaming Media Devices]
+ms.keywords: KS_MPEGVIDEOINFO2 structure [Streaming Media Devices], ksmedia/KS_MPEGVIDEOINFO2, PKS_MPEGVIDEOINFO2 structure pointer [Streaming Media Devices], ksmedia/PKS_MPEGVIDEOINFO2, vidcapstruct_decbdb49-a4a2-44d6-a005-bd3cbe0df02e.xml, PKS_MPEGVIDEOINFO2, tagKS_MPEGVIDEOINFO2, stream.ks_mpegvideoinfo2, *PKS_MPEGVIDEOINFO2, KS_MPEGVIDEOINFO2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct tagKS_MPEGVIDEOINFO2 {
 
 
 
-#### - hdr
+### -field hdr
 
 Specifies a <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a> structure that describes the details of the video stream.
 
 
-#### - dwStartTimeCode
+### -field dwStartTimeCode
 
 A 25-bit "group-of-pictures" time code at the start of data (not used for DVD).
 
 
-#### - cbSequenceHeader
+### -field cbSequenceHeader
 
 The length of the <b>bSequenceHeader</b> member, in bytes (zero for DVD).
 
 
-#### - dwProfile
+### -field dwProfile
 
 Specifies the MPEG-2 profile. This member must be one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_mpeg2profile.md">KS_MPEG2Profile</a> enumeration.
 
 
-#### - dwLevel
+### -field dwLevel
 
 Specifies the MPEG-2 level. This member must be one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_mpeg2level.md">KS_MPEG2Level</a> enumeration.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Specifies the flags that indicate preferences. This member can be set to one or more (logical OR) values that are defined in <i>ksmedia.h</i>.
 <table>
@@ -199,7 +199,7 @@ If set, the PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 </table> 
 
 
-#### - bSequenceHeader
+### -field bSequenceHeader
 
 The length of the <b>bSequenceHeader</b> member, in bytes (zero for DVD).
 

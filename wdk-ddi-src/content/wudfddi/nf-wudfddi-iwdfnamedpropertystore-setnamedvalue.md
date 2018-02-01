@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1fd075c9-7d0e-4670-bac0-b7b8ba0a714f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetNamedValue method, IWDFNamedPropertyStore interface, umdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue method, wudfddi/IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore interface, SetNamedValue method, wdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue, IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml
+ms.keywords: IWDFNamedPropertyStore::SetNamedValue, wudfddi/IWDFNamedPropertyStore::SetNamedValue, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, wdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue method, umdf.iwdfnamedpropertystore_setnamedvalue, IWDFNamedPropertyStore, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue, IWDFNamedPropertyStore interface, SetNamedValue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT SetNamedValue(
 
 
 
-#### - pszName [in]
+### -param pszName [in]
 
 A pointer to a null-terminated string that contains the name of the property.
 
 
-#### - pv [in]
+### -param pv [in]
 
 A pointer to the value that the property is set to. 
 

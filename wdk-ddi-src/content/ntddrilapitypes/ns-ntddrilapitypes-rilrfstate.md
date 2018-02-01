@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7eb78864-d20c-4993-8b33-63096bf971fa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRFSTATE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRFSTATE, RILRFSTATE, netvista.rilrfstate, *LPRILRFSTATE
+ms.keywords: "*LPRILRFSTATE, RILRFSTATE, RILRFSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilrfstate, ntddrilapitypes/RILRFSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILRFSTATE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwRFState
+### -field dwRFState
 
 
 
-#### - dwRFDataSize
+### -field dwRFDataSize
 
 
 
-#### - bRFData
+### -field bRFData
 
 

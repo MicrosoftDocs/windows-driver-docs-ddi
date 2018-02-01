@@ -74,7 +74,7 @@ void NdisPDClearReceiveFilter(
 
 
 
-#### - FilterHandle [in]
+### -param FilterHandle [in]
 
 A handle to a PD platform filter.
 

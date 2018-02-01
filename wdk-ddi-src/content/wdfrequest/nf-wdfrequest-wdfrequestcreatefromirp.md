@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7fc67320-6943-4e39-8474-28c24265eae2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestcreatefromirp, wdf.wdfrequestcreatefromirp, WdfRequestCreateFromIrp, DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, wdfrequest/WdfRequestCreateFromIrp, PFN_WDFREQUESTCREATEFROMIRP, WdfRequestCreateFromIrp method
+ms.keywords: WdfRequestCreateFromIrp method, kmdf.wdfrequestcreatefromirp, WdfRequestCreateFromIrp, wdfrequest/WdfRequestCreateFromIrp, DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, PFN_WDFREQUESTCREATEFROMIRP, wdf.wdfrequestcreatefromirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfRequestCreateFromIrp(
 
 
 
-#### - RequestAttributes [in, optional]
+### -param RequestAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the request object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that contains a WDM I/O request packet.
 
 
-#### - RequestFreesIrp [in]
+### -param RequestFreesIrp [in]
 
 A Boolean value that, if <b>TRUE</b>, indicates that the framework removes the IRP when the request handle is destroyed. If <b>FALSE</b>, the driver must call <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a> to remove the IRP, using the steps that the following Examples section demonstrates.
 
 
-#### - Request [out]
+### -param Request [out]
 
 A pointer to a location that receives a handle to a framework request object. 
 
@@ -125,17 +125,17 @@ Framework-based drivers must not use the <b>Tail.Overlay.DriverContext</b> membe
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
 <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
 
  
 

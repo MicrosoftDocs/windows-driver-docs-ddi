@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33c9523e-3195-456f-8e17-b9539475bc67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanAuthProtocolMax, PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanAuthProtocolNone, WwanAuthProtocolChap, netvista.wwan_auth_protocol, wwan/WWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolMsChapV2, WwanAuthProtocolMsChapV2, PWWAN_AUTH_PROTOCOL, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, wwan/WwanAuthProtocolChap, WwanAuthProtocolNone, _WWAN_AUTH_PROTOCOL, WWAN_AUTH_PROTOCOL, WwanAuthProtocolPap, wwan/WwanAuthProtocolPap, wwan/WwanAuthProtocolMax, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL
+ms.keywords: WwanAuthProtocolMsChapV2, WwanAuthProtocolMax, wwan/WwanAuthProtocolPap, wwan/WwanAuthProtocolChap, *PWWAN_AUTH_PROTOCOL, _WWAN_AUTH_PROTOCOL, WwanAuthProtocolNone, PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_PROTOCOL, netvista.wwan_auth_protocol, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, wwan/WwanAuthProtocolMax, wwan/WwanAuthProtocolNone, WwanAuthProtocolPap, wwan/WwanAuthProtocolMsChapV2, WwanAuthProtocolChap, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], PWWAN_AUTH_PROTOCOL, WWAN_AUTH_PROTOCOL, wwan/WWAN_AUTH_PROTOCOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WWAN_AUTH_PROTOCOL {
 
 
 
-#### - WwanAuthProtocolNone
+### -field WwanAuthProtocolNone
 
 No authentication protocol.
 
 
-#### - WwanAuthProtocolPap
+### -field WwanAuthProtocolPap
 
 Unencrypted password authentication.
 
 
-#### - WwanAuthProtocolChap
+### -field WwanAuthProtocolChap
 
 Use the Challenge Handshake Authentication Protocol (CHAP).
 
 
-#### - WwanAuthProtocolMsChapV2
+### -field WwanAuthProtocolMsChapV2
 
 Use the Microsoft Challenge Handshake Authentication Protocol (CHAP) v2.0.
 
@@ -97,7 +97,7 @@ Use the Microsoft Challenge Handshake Authentication Protocol (CHAP) v2.0.
 
 
 
-#### - WwanAuthProtocolMax
+### -field WwanAuthProtocolMax
 
 The total number of supported authentication protocols.
 

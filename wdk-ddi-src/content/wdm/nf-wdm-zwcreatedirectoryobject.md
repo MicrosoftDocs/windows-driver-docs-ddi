@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45e4a08d-9615-410a-8f78-a8157802813f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwCreateDirectoryObject, NtCreateDirectoryObject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture], kernel.zwcreatedirectoryobject, ZwCreateDirectoryObject, wdm/NtCreateDirectoryObject, k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml
+ms.keywords: k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, NtCreateDirectoryObject, wdm/NtCreateDirectoryObject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture], ZwCreateDirectoryObject, wdm/ZwCreateDirectoryObject, kernel.zwcreatedirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS ZwCreateDirectoryObject(
 
 
 
-#### - DirectoryHandle [out]
+### -param DirectoryHandle [out]
 
 Pointer to a HANDLE variable that receives a handle to the object directory.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify one or more of the following access rights, which are specific to object directories:
 <table>
@@ -137,7 +137,7 @@ All of the preceding types
 </table> 
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that contains the object's attributes, which you must have already initialized by calling <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. 
 
@@ -167,11 +167,11 @@ Note that the system does <u>not</u> use object directory objects to represent f
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ae1c84e-119a-4649-b3f0-eafbb044dd91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_VideoLighting_Unknown, DXVADDI_VideoLighting_dark, d3dumddi/DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLighting_dim, d3dumddi/DXVADDI_VideoLighting_dark, d3dumddi/DXVADDI_VideoLighting_Unknown, DXVADDI_VideoLighting_office, DXVADDI_VideoLighting_dim, DXVADDI_VIDEOLIGHTING, _DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLighting_bright, DXVADDI_VideoLighting_bright, DXVADDI_VIDEOLIGHTING enumeration [Display Devices], DXVA2_Structs_63ea0b3a-8eef-4960-b3a5-2587eae26917.xml, display.dxvaddi_videolighting, d3dumddi/DXVADDI_VideoLighting_office, DXVADDI_VideoLightingMask, d3dumddi/DXVADDI_VideoLightingMask
+ms.keywords: DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLightingMask, DXVADDI_VIDEOLIGHTING enumeration [Display Devices], DXVADDI_VideoLighting_bright, d3dumddi/DXVADDI_VideoLighting_dim, d3dumddi/DXVADDI_VideoLighting_bright, DXVADDI_VideoLighting_dark, DXVA2_Structs_63ea0b3a-8eef-4960-b3a5-2587eae26917.xml, _DXVADDI_VIDEOLIGHTING, DXVADDI_VideoLighting_office, d3dumddi/DXVADDI_VideoLighting_office, DXVADDI_VideoLighting_dim, DXVADDI_VideoLighting_Unknown, d3dumddi/DXVADDI_VideoLighting_dark, DXVADDI_VideoLightingMask, display.dxvaddi_videolighting, d3dumddi/DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLighting_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _DXVADDI_VIDEOLIGHTING {
 
 
 
-#### - DXVADDI_VideoLightingMask
+### -field DXVADDI_VideoLightingMask
 
 The video lighting mask. The first 4 (0x0F) bits of a DWORD can be used to specify video lighting.
 
 
-#### - DXVADDI_VideoLighting_Unknown
+### -field DXVADDI_VideoLighting_Unknown
 
 The video lighting condition is not specified. The default is dim.
 
 
-#### - DXVADDI_VideoLighting_bright
+### -field DXVADDI_VideoLighting_bright
 
 A bright light for viewing video (for example, outside lighting conditions).
 
 
-#### - DXVADDI_VideoLighting_office
+### -field DXVADDI_VideoLighting_office
 
 A medium brightness light for viewing video (for example, lighting conditions in home offices).
 
 
-#### - DXVADDI_VideoLighting_dim
+### -field DXVADDI_VideoLighting_dim
 
 A dim light for viewing video (for example, low-level lighting in a living room while watching television). 
 
 
-#### - DXVADDI_VideoLighting_dark
+### -field DXVADDI_VideoLighting_dark
 
 Near-darkness for viewing video (for example, movie-theatre lighting).
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f18f937-e749-414d-aa21-96c6ab02982b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_POWER_MODE, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, dot11_power_mode_active, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_POWER_MODE, windot11/DOT11_POWER_MODE, windot11/dot11_power_mode_powersave, windot11/dot11_power_mode_active, dot11_power_mode_powersave, windot11/dot11_power_mode_unknown, PDOT11_POWER_MODE, dot11_power_mode_unknown, windot11/PDOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], _DOT11_POWER_MODE, netvista.dot11_power_mode"
+ms.keywords: "*PDOT11_POWER_MODE, DOT11_POWER_MODE, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_power_mode_unknown, dot11_power_mode_active, PDOT11_POWER_MODE, windot11/PDOT11_POWER_MODE, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, _DOT11_POWER_MODE, windot11/dot11_power_mode_active, dot11_power_mode_unknown, dot11_power_mode_powersave, windot11/dot11_power_mode_powersave, windot11/DOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], netvista.dot11_power_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ typedef enum _DOT11_POWER_MODE {
 
 
 
-#### - dot11_power_mode_unknown
+### -field dot11_power_mode_unknown
 
 Specifies an undefined or uninitialized power mode.
 
 
-#### - dot11_power_mode_active
+### -field dot11_power_mode_active
 
 Specifies an active power mode in which the PHY is always turned on.
 
 
-#### - dot11_power_mode_powersave
+### -field dot11_power_mode_powersave
 
 Specifies a power-save mode in which the PHY is periodically turned off.
 

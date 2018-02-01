@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1e72578c-9359-4275-a4f2-2b5ae4dbf2b7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::StartProcessServerWide, debugger.startprocessserverwide, IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, IDebugClient5::StartProcessServerWide, IDebugClient5, StartProcessServerWide method [Windows Debugging], StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, StartProcessServerWide
+ms.keywords: dbgeng/IDebugClient5::StartProcessServerWide, StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::StartProcessServerWide, StartProcessServerWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, StartProcessServerWide, debugger.startprocessserverwide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT StartProcessServerWide(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the class of the targets that will be available through the process server.  This must be set to DEBUG_CLASS_USER_WINDOWS.
 
 
-#### - Options [in]
+### -param Options [in]
 
 Specifies the connections options for this process server.  These are the same options given to the <b>-t</b> option of the DbgSrv command line.  For details on the syntax of this string, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537832">Activating a Process Server</a>.
 
 
-#### - Reserved [in, optional]
+### -param Reserved [in, optional]
 
 Set to <b>NULL</b>.
 
@@ -121,13 +121,13 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
 

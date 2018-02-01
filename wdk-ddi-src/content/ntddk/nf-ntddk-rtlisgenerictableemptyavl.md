@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9190DA2F-5530-4427-862F-00434DD9C950
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsGenericTableEmptyAvl, ifsk.rtlisgenerictableemptyavl, ntddk/RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlisgenerictableemptyavl, RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers], ntddk/RtlIsGenericTableEmptyAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN RtlIsGenericTableEmptyAvl(
 
 
 
-#### - Table [in]
+### -param Table [in]
 
 Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlIsGenericTableEmptyAvl</b>.
 

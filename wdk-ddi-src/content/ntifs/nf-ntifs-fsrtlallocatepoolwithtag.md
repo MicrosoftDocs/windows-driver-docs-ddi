@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a9ea59d1-1d51-4332-b497-7d2b7f39e686
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAllocatePoolWithTag routine [Installable File System Drivers], ntifs/FsRtlAllocatePoolWithTag, ifsk.fsrtlallocatepoolwithtag, FsRtlAllocatePoolWithTag, fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml
+ms.keywords: fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, ntifs/FsRtlAllocatePoolWithTag, FsRtlAllocatePoolWithTag, FsRtlAllocatePoolWithTag routine [Installable File System Drivers], ifsk.fsrtlallocatepoolwithtag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,7 +69,7 @@ PVOID FsRtlAllocatePoolWithTag(
 
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Type of pool to allocate. One of the following:
 
@@ -83,12 +83,12 @@ Type of pool to allocate. One of the following:
 
 <div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div><div> </div>
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Number of bytes to allocate. This parameter is required and cannot be zero. 
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Specifies the pool tag for the allocated memory. Drivers normally specify the pool tag as a string of one to four 7-bit ASCII characters, delimited by single quotation marks (for example, 'abcd'). This parameter is required and cannot be zero. 
 
@@ -108,9 +108,9 @@ Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL &lt;= DISPATC
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
  
 

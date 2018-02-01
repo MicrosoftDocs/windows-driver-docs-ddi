@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 28bb26bd-7259-4664-8092-6b9a917c1a91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetsystemaddress, storport/StorPortGetSystemAddress, StorPortGetSystemAddress routine [Storage Devices], storprt_6e6713c8-a235-43b8-a325-2d4b8fca8f35.xml, StorPortGetSystemAddress
+ms.keywords: storprt_6e6713c8-a235-43b8-a325-2d4b8fca8f35.xml, storport/StorPortGetSystemAddress, StorPortGetSystemAddress routine [Storage Devices], StorPortGetSystemAddress, storage.storportgetsystemaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortGetSystemAddress(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 A pointer to a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure.
 
 
-#### - SystemAddress [out]
+### -param SystemAddress [out]
 
 A pointer to receive the virtual address of the data buffer.
 
@@ -167,9 +167,9 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4142380-1596-49dc-a18d-ac5c3cef73fe
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT, *PMOUNTMGR_MOUNT_POINT, PMOUNTMGR_MOUNT_POINT structure pointer [Storage Devices], mountmgr/MOUNTMGR_MOUNT_POINT, mountmgr/PMOUNTMGR_MOUNT_POINT, structs-mntmgr_88136173-0786-4d4e-80b7-77f523e8d125.xml, PMOUNTMGR_MOUNT_POINT, storage.mountmgr_mount_point, MOUNTMGR_MOUNT_POINT structure [Storage Devices]"
+ms.keywords: MOUNTMGR_MOUNT_POINT, mountmgr/MOUNTMGR_MOUNT_POINT, structs-mntmgr_88136173-0786-4d4e-80b7-77f523e8d125.xml, mountmgr/PMOUNTMGR_MOUNT_POINT, _MOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_MOUNT_POINT, storage.mountmgr_mount_point, *PMOUNTMGR_MOUNT_POINT, PMOUNTMGR_MOUNT_POINT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _MOUNTMGR_MOUNT_POINT {
 
 
 
-#### - SymbolicLinkNameOffset
+### -field SymbolicLinkNameOffset
 
 Contains an offset, in bytes, into the output buffer where the symbolic link is located.
 
 
-#### - SymbolicLinkNameLength
+### -field SymbolicLinkNameLength
 
 Contains the length, in bytes, of the symbolic link. 
 
@@ -87,12 +87,12 @@ Contains the length, in bytes, of the symbolic link.
  
 
 
-#### - UniqueIdOffset
+### -field UniqueIdOffset
 
 Contains an offset, in bytes, into the output buffer where the unique ID is located. 
 
 
-#### - UniqueIdLength
+### -field UniqueIdLength
 
 Contains the length, in bytes, of the unique ID. 
 
@@ -102,12 +102,12 @@ Contains the length, in bytes, of the unique ID.
  
 
 
-#### - DeviceNameOffset
+### -field DeviceNameOffset
 
 Contains an offset, in bytes, into the output buffer where the nonpersistent device name is located. 
 
 
-#### - DeviceNameLength
+### -field DeviceNameLength
 
 Contains the length, in bytes, of the nonpersistent device name. 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 07005D52-E851-4AE8-95D8-ED8E26C43DC6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/PDEBUG_READ_USER_MINIDUMP_STREAM, _DEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM structure [Windows Debugging], dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM, debugger.debug_read_user_minidump_stream, PDEBUG_READ_USER_MINIDUMP_STREAM, PDEBUG_READ_USER_MINIDUMP_STREAM structure pointer [Windows Debugging]
+ms.keywords: PDEBUG_READ_USER_MINIDUMP_STREAM structure pointer [Windows Debugging], PDEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/PDEBUG_READ_USER_MINIDUMP_STREAM, debugger.debug_read_user_minidump_stream, _DEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM structure [Windows Debugging], *PDEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM {
 
 
 
-#### - StreamType
+### -field StreamType
 
 The type of stream.
 
 
-#### - Flags
+### -field Flags
 
 Flags.
 
 
-#### - Offset
+### -field Offset
 
 The offset of stream.
 
 
-#### - Buffer
+### -field Buffer
 
 Specifies the beginning of the buffer to read.
 
 
-#### - BufferSize
+### -field BufferSize
 
 Specifies the length of the buffer to read.
 
 
-#### - BufferUsed
+### -field BufferUsed
 
 The buffer used value.
 

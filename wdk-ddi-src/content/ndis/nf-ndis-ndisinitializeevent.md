@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f7eac7e-f512-4446-a83b-92d313c14420
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, netvista.ndisinitializeevent, NdisInitializeEvent, NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeEvent
+ms.keywords: NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, ndis/NdisInitializeEvent, NdisInitializeEvent, netvista.ndisinitializeevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID NdisInitializeEvent(
 
 
 
-#### - Event [out]
+### -param Event [out]
 
 A pointer to caller-supplied storage for the event object, which is opaque to drivers.
 
@@ -89,8 +89,8 @@ The
     <b>NdisInitializeEvent</b> function creates an event object that has an event type of 
     <b>NotificationEvent</b> and an initial state of 
     <i>not-signaled</i>. For more information about notification events, see 
-    <mshelp:link keywords="kernel.defining_and_using_an_event_object" tabindex="0">Defining and Using an Event
-    Object</mshelp:link>.
+    <a href="https://msdn.microsoft.com/4b7807f0-bbea-4402-b028-9ac73724717f">Defining and Using an Event
+    Object</a>.
 
 The 
     <i>Event</i> pointer passed to 
@@ -106,13 +106,13 @@ While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
-
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
  
 

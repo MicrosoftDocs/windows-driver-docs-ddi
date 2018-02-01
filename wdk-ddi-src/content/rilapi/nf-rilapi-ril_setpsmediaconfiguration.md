@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66fa9900-0195-4ec0-b181-6f791247422c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetPSMediaConfiguration, RIL_SetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetPSMediaConfiguration, netvista.ril_setpsmediaconfiguration
+ms.keywords: netvista.ril_setpsmediaconfiguration, RIL_SetPSMediaConfiguration, rilapi/RIL_SetPSMediaConfiguration, RIL_SetPSMediaConfiguration method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_SetPSMediaConfiguration(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - pConfigurationSet
+### -param pConfigurationSet
 
 
 

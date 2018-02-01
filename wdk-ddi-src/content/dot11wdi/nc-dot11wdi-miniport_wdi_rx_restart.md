@@ -75,12 +75,12 @@ VOID MiniportWdiRxRestart(
 
 
 
-#### - MiniportTalTxRxContext [in]
+### -param MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-#### - PortId [in]
+### -param PortId [in]
 
 The port ID.
 

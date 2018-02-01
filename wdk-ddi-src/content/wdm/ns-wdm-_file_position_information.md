@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04f01faf-599e-4c62-82ce-c147b4820c8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION, wdm/PFILE_POSITION_INFORMATION, _FILE_POSITION_INFORMATION, wdm/FILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.file_position_information, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, *PFILE_POSITION_INFORMATION
+ms.keywords: kernel.file_position_information, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION, wdm/FILE_POSITION_INFORMATION, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, wdm/PFILE_POSITION_INFORMATION, _FILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _FILE_POSITION_INFORMATION {
 
 
 
-#### - CurrentByteOffset
+### -field CurrentByteOffset
 
 The byte offset of the current file pointer.
 
@@ -84,9 +84,9 @@ If the file was opened or created with the FILE_NO_INTERMEDIATE_BUFFERING option
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
  
 

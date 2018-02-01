@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 278f4fff-6e71-4544-8838-90f659c5029e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortLogError routine [Storage Devices], storage.scsiportlogerror, ScsiPortLogError, scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, srb/ScsiPortLogError
+ms.keywords: srb/ScsiPortLogError, ScsiPortLogError, storage.scsiportlogerror, ScsiPortLogError routine [Storage Devices], scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ VOID ScsiPortLogError(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
@@ -85,22 +85,22 @@ Pointer to the hardware device extension. This is a per-HBA storage area that th
 TBD
 
 
-#### - PathId [in]
+### -param PathId [in]
 
 Identifies the SCSI bus.
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 Identifies the target controller or device on the bus.
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Identifies the logical unit number of the target device.
 
 
-#### - ErrorCode [in]
+### -param ErrorCode [in]
 
 Specifies an error code indicating one of the following values as the type of error.
 <table>
@@ -211,7 +211,7 @@ Indicates that a target disconnected unexpectedly.
 </table> 
 
 
-#### - UniqueId [in]
+### -param UniqueId [in]
 
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
 

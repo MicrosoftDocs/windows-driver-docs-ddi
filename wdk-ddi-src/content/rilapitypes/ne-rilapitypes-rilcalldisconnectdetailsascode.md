@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d5dfc37-682e-41a0-9c61-76ae8f70b154
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode_2, rilapitypes/RIL_CD_L2, RIL_CD_L3, rilapitypes/RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CD_L3, RIL_CD_L2, rilapitypes/RIL_CD_LAYER_MAX, RILCALLDISCONNECTDETAILSASCODE
+ms.keywords: rilapitypes/RIL_CD_L2, RIL_CD_L2, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RILCALLDISCONNECTDETAILSASCODE, RIL_CD_LAYER_MAX, rilapitypes/RIL_CD_LAYER_MAX, rilapitypes/RIL_CD_L3, RIL_CD_L3, netvista.rilcalldisconnectdetailsascode_2, rilapitypes/RILCALLDISCONNECTDETAILSASCODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,14 +74,14 @@ typedef enum _RILCALLDISCONNECTDETAILSASCODE {
 
 
 
-#### - RIL_CD_L2
+### -field RIL_CD_L2
 
 
 
-#### - RIL_CD_L3
+### -field RIL_CD_L3
 
 
 
-#### - RIL_CD_LAYER_MAX
+### -field RIL_CD_LAYER_MAX
 
 

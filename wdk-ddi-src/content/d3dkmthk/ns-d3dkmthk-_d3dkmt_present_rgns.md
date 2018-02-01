@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90ae3382-0a2d-46cf-89e6-2148f0cbfc83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_PRESENT_RGNS structure [Display Devices], d3dkmthk/D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS, _D3DKMT_PRESENT_RGNS, display.d3dkmt_present_rgns
+ms.keywords: display.d3dkmt_present_rgns, _D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS structure [Display Devices], d3dkmthk/D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_PRESENT_RGNS {
 
 
 
-#### - DirtyRectCount
+### -field DirtyRectCount
 
 The number of dirty rectangles.
 
 
-#### - pDirtyRects
+### -field pDirtyRects
 
 A pointer to an array of dirty rectangles (<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>s).
 
 
-#### - MoveRectCount
+### -field MoveRectCount
 
 The number of move rectangles.
 
 
-#### - pMoveRects
+### -field pMoveRects
 
 A pointer to an array of move rectangles (<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>s).
 

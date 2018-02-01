@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_settargetcontenttype, PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], _DXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE
+ms.keywords: PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], display.dxgkarg_settargetcontenttype, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE, _DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _DXGKARG_SETTARGETCONTENTTYPE {
 
 
 
-#### - TargetId
+### -field TargetId
 
 The identifier of a display adapter's video present target.
 
 
-#### - ContentType
+### -field ContentType
 
 A D3DKMDT_VIDPN_PRESENT_PATH_CONTENT value indicating the type of content being presented on the target id for which the driver should optimize.
 

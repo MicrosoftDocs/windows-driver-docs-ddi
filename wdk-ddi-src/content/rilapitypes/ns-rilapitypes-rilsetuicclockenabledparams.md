@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c29aa1f0-d274-4782-9b56-31a84e2686e4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETUICCLOCKENABLEDPARAMS, netvista.rilsetuicclockenabledparams_2, RILSETUICCLOCKENABLEDPARAMS
+ms.keywords: netvista.rilsetuicclockenabledparams_2, rilapitypes/RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS, *LPRILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILSETUICCLOCKENABLEDPARAMS {
 
 
 
-#### - lockCredential
+### -field lockCredential
 
 
 
-#### - fEnable
+### -field fEnable
 
 

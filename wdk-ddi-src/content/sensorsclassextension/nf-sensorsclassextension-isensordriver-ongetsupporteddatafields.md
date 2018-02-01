@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields, sensors.isensordriver_ongetsupporteddatafields
+ms.keywords: OnGetSupportedDataFields method [Sensor Devices], ISensorDriver, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, sensors.isensordriver_ongetsupporteddatafields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT OnGetSupportedDataFields(
 
 
 
-#### - pwszSensorID
+### -param pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting the data fields list.
 
 
-#### - ppSupportedDataFields
+### -param ppSupportedDataFields
 
 Address of an IPortableDeviceKeyCollection pointer that receives the list of PROPERTYKEY values that represent the supported data fields.
 

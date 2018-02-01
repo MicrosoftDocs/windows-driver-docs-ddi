@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ACC0C800-B6E3-4EF2-846C-63BF4564D0FD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices], display.dxgkarg_mapcpuhostaperture"
+ms.keywords: "_DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices], DXGKARG_MAPCPUHOSTAPERTURE, display.dxgkarg_mapcpuhostaperture"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _DXGKARG_MAPCPUHOSTAPERTURE {
 
 
 
-#### - hAllocation
+### -field hAllocation
 
 Specifies the allocation handle, associated with the allocation being mapped. This is the handle, returned by the kernel mode driver from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> or passed in <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>. This parameter will be <b>NULL</b> for implicit allocations, such as a page table.
 
 
-#### - SegmentId
+### -field SegmentId
 
 Specifies the segment identifier of the segment being accessed.
 
 
-#### - PhysicalAdapterIndex
+### -field PhysicalAdapterIndex
 
 A zero-based physical adapter index in a linked display adapter link.
 The page size is equal to the segment page size, reported in <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>.
@@ -90,17 +90,17 @@ The page size is equal to the segment page size, reported in <a href="..\d3dkmdd
 <div class="alert"><b>Note</b>  The allocation itself might be aligned on 4KB page boundary. When the segment page size is 64 KB, CPU host aperture in this case will map more than the allocation size.
 </div><div> </div>
 
-#### - NumberOfPages
+### -field NumberOfPages
 
 Specifies the number of pages being mapped.
 
 
-#### - pCpuHostAperturePages
+### -field pCpuHostAperturePages
 
 Array of CPU Host Aperture pages to map. This is an array of page indices from the start of the CPU host aperture physical address.
 
 
-#### - pMemorySegmentPages
+### -field pMemorySegmentPages
 
 MDL-style array of page indices to the allocation pages that need to be mapped into the CPU host aperture. The page indexes starting from 0. 
 

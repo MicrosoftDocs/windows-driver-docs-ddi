@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], D3DKMT_DESTROYDCFROMMEMORY, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, display.d3dkmt_destroydcfrommemory"
+ms.keywords: display.d3dkmt_destroydcfrommemory, OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY, _D3DKMT_DESTROYDCFROMMEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_DESTROYDCFROMMEMORY {
 
 
 
-#### - hDc
+### -field hDc
 
 [in] A handle to the display context. 
 
 
-#### - hBitmap
+### -field hBitmap
 
 [in] A handle to a bitmap that is related to the display context. 
 

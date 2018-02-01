@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 083cf25d-7436-4c4e-b29a-c9a2702b136d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreturnnetbufferlists, filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFReturnNetBufferLists, NdisFReturnNetBufferLists
+ms.keywords: netvista.ndisfreturnnetbufferlists, filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, NdisFReturnNetBufferLists, ndis/NdisFReturnNetBufferLists, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ VOID NdisFReturnNetBufferLists(
 
 
 
-#### - NdisFilterHandle [in]
+### -param NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - NetBufferLists [in]
+### -param NetBufferLists [in]
 
 A pointer to a linked list of NET_BUFFER_LIST structures that are to be returned to the underlying
      driver. The linked list can contain NET_BUFFER_LIST structures from multiple previous calls to the 
-     <mshelp:link keywords="netvista.filterreceivenetbufferlists" tabindex="0"><i>
-     FilterReceiveNetBufferLists</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
+     FilterReceiveNetBufferLists</a> function.
 
 
-#### - ReturnFlags [in]
+### -param ReturnFlags [in]
 
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero.This function supports the following flags: 
@@ -122,8 +122,8 @@ None
 
 If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
     <i>ReceiveFlags</i> parameter that NDIS passed to the 
-    <mshelp:link keywords="netvista.filterreceivenetbufferlists" tabindex="0"><i>
-    FilterReceiveNetBufferLists</i></mshelp:link> function was not set, the filter driver must call the 
+    <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
+    FilterReceiveNetBufferLists</a> function was not set, the filter driver must call the 
     <b>NdisFReturnNetBufferLists</b> function to return the 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and associated
     data. After the filter driver calls 
@@ -133,13 +133,13 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
 
  
 

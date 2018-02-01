@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortLogTelemetry, storage.storportlogtelemetry, StorPortLogTelemetry routine [Storage Devices], StorPortLogTelemetry
+ms.keywords: storage.storportlogtelemetry, storport/StorPortLogTelemetry, StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortLogTelemetry(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - StorAddress [in, optional]
+### -param StorAddress [in, optional]
 
 The storage unit device address. This parameter is NULL for adapter devices.
 
 
-#### - Event [in]
+### -param Event [in]
 
 Pointer to the <a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a> structure that contains the telemetry data payload.
 

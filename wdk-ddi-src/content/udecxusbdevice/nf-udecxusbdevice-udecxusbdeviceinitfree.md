@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceInitFree, buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses]
+ms.keywords: UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ void UdecxUsbDeviceInitFree(
 
 
 
-#### - UdecxUsbDeviceInit [in, out]
+### -param UdecxUsbDeviceInit [in, out]
 
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
 

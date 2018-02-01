@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ED85628-E5EA-4D51-97B0-383C606CCC42
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG, wdf.wdf_read_port_buffer_ulong, WDF_READ_PORT_BUFFER_ULONG function, WDF_READ_PORT_BUFFER_ULONG
+ms.keywords: WDF_READ_PORT_BUFFER_ULONG, wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG, WDF_READ_PORT_BUFFER_ULONG function, wdf.wdf_read_port_buffer_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WDF_READ_PORT_BUFFER_ULONG(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a buffer into which an array of ULONG values is read.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to be read into the buffer.
 

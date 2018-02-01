@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 79e56363-1098-42bb-8e6a-c4b4c76e7e7c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlInitializeExtraCreateParameterList, ifsk.fsrtlinitializeextracreateparameterlist, FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml, FsRtlInitializeExtraCreateParameterList
+ms.keywords: FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], FsRtlInitializeExtraCreateParameterList, ifsk.fsrtlinitializeextracreateparameterlist, ntifs/FsRtlInitializeExtraCreateParameterList, fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS FsRtlInitializeExtraCreateParameterList(
 
 
 
-#### - EcpList [in, out]
+### -param EcpList [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a> structure to initialize. 
 

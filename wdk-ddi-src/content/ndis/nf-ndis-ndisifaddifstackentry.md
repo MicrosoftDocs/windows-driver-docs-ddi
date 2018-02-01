@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6927bcdf-e2b5-4a60-8f71-a977f3a1c120
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIfAddIfStackEntry, NdisIfAddIfStackEntry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], netvista.ndisifaddifstackentry
+ms.keywords: net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, ndis/NdisIfAddIfStackEntry, netvista.ndisifaddifstackentry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], NdisIfAddIfStackEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,13 +71,13 @@ NDIS_STATUS NdisIfAddIfStackEntry(
 
 
 
-#### - HigherLayerIfIndex [in]
+### -param HigherLayerIfIndex [in]
 
 The network interface index for the interface that should be higher in the interface stack
      table.
 
 
-#### - LowerLayerIfIndex [in]
+### -param LowerLayerIfIndex [in]
 
 The network interface index for the interface that should be lower in the interface stack
      table.
@@ -145,8 +145,8 @@ NDIS maintains an interface stack table (<i>ifStackTable</i> from
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
     the 
     <b>NdisIfAddIfStackEntry</b> and 
-    <mshelp:link keywords="netvista.ndisifdeleteifstackentry" tabindex="0"><b>
-    NdisIfDeleteIfStackEntry</b></mshelp:link> functions to add and delete entries in this table.
+    <a href="..\ndis\nf-ndis-ndisifdeleteifstackentry.md">
+    NdisIfDeleteIfStackEntry</a> functions to add and delete entries in this table.
 
 Any driver that can provide the information about the stack order relationship between two interfaces
     should call 

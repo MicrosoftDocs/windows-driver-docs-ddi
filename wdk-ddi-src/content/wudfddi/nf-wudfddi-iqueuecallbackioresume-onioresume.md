@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d34f6e2c-4227-41bb-a1c0-f6206daa700b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnIoResume, wdf.iqueuecallbackioresume_onioresume, OnIoResume method, IQueueCallbackIoResume interface, OnIoResume method, IQueueCallbackIoResume::OnIoResume, umdf.iqueuecallbackioresume_onioresume, IQueueCallbackIoResume, UMDFQueueObjectRef_fd16ca4e-eccf-49a2-a7f5-bce7e7931a77.xml, wudfddi/IQueueCallbackIoResume::OnIoResume, IQueueCallbackIoResume interface, OnIoResume method
+ms.keywords: IQueueCallbackIoResume interface, OnIoResume method, OnIoResume method, OnIoResume, wdf.iqueuecallbackioresume_onioresume, IQueueCallbackIoResume::OnIoResume, OnIoResume method, IQueueCallbackIoResume interface, UMDFQueueObjectRef_fd16ca4e-eccf-49a2-a7f5-bce7e7931a77.xml, umdf.iqueuecallbackioresume_onioresume, wudfddi/IQueueCallbackIoResume::OnIoResume, IQueueCallbackIoResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ void OnIoResume(
 
 
 
-#### - pWdfQueue [in]
+### -param pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that processing of the I/O request is resumed from. 
 
 
-#### - pWdfRequest [in]
+### -param pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object that is resumed. 
 
@@ -97,13 +97,13 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md"
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md">IQueueCallbackIoResume</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md">IQueueCallbackIoResume</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C51D645B-5DF2-4F23-904B-AB56F97520CB
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpddi/PHIDP_DEVICE_DESC, hidpddi/HIDP_DEVICE_DESC, HIDP_DEVICE_DESC, PHIDP_DEVICE_DESC structure pointer [Human Input Devices], _HIDP_DEVICE_DESC, hid.hidp_device_desc, PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], *PHIDP_DEVICE_DESC
+ms.keywords: hidpddi/PHIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], _HIDP_DEVICE_DESC, HIDP_DEVICE_DESC, PHIDP_DEVICE_DESC, hid.hidp_device_desc, hidpddi/HIDP_DEVICE_DESC, PHIDP_DEVICE_DESC structure pointer [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _HIDP_DEVICE_DESC {
 
 
 
-#### - CollectionDesc
+### -field CollectionDesc
 
 An array of  <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> structure that contains the collection descriptors.
 
 
-#### - CollectionDescLength
+### -field CollectionDescLength
 
 The number of elements in the array of the collection descriptors.
 
 
-#### - ReportIDs
+### -field ReportIDs
 
 An array of <a href="..\hidpddi\ns-hidpddi-_hidp_report_ids.md">HIDP_REPORT_IDS</a> structures report ID information for a report descriptor. 
 
 
-#### - ReportIDsLength
+### -field ReportIDsLength
 
 The number of elements in the length of the array of report IDs.
 
 
-#### - Dbg
+### -field Dbg
 
 A <a href="..\hidpddi\ns-hidpddi-_hidp_getcoldesc_dbg.md">HIDP_GETCOLDESC_DBG</a> structure that contains the error code indicating the failure in parsing the report 
                                       descriptor.

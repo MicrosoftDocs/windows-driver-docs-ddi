@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7E0C1140-35AA-424F-8229-21B4F4E1EBDF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], IPortClsEtwHelper interface, MiniportWriteEtwEvent, IPortClsEtwHelper, MiniportWriteEtwEvent method [Audio Devices], audio.iportclsetwhelper_miniportwriteetwevent, IPortClsEtwHelper interface [Audio Devices], MiniportWriteEtwEvent method, portcls/IPortClsEtwHelper::MiniportWriteEtwEvent
+ms.keywords: IPortClsEtwHelper::MiniportWriteEtwEvent, audio.iportclsetwhelper_miniportwriteetwevent, MiniportWriteEtwEvent method [Audio Devices], portcls/IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], IPortClsEtwHelper interface, IPortClsEtwHelper interface [Audio Devices], MiniportWriteEtwEvent method, IPortClsEtwHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ NTSTATUS MiniportWriteEtwEvent(
 
 
 
-#### - miniportEventType [in]
+### -param miniportEventType [in]
 
 An <a href="..\portcls\ne-portcls-epcminiportengineevent.md">EPcMiniportEngineEvent</a> enumerated value that provides additional error information for reporting glitching errors.
 
 
-#### - pvData1 [in]
+### -param pvData1 [in]
 
 Data parameter.
 
 
-#### - pvData2 [in]
+### -param pvData2 [in]
 
 Data parameter.
 
 
-#### - ulData3 [in]
+### -param ulData3 [in]
 
 Data parameter.
 
 
-#### - ulData4 [in]
+### -param ulData4 [in]
 
 Data parameter.
 
@@ -105,9 +105,9 @@ Data parameter.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsetwhelper.md">IPortClsEtwHelper</a>
-
 <a href="..\portcls\ne-portcls-epcminiportengineevent.md">EPcMiniportEngineEvent</a>
+
+<a href="..\portcls\nn-portcls-iportclsetwhelper.md">IPortClsEtwHelper</a>
 
  
 

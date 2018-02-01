@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, _tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices]"
+ms.keywords: "*PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], _tagKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], KSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, ksmedia/KSJACK_SINK_INFORMATION, audio.ksjack_sink_information, ksmedia/PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,42 +75,42 @@ typedef struct _tagKSJACK_SINK_INFORMATION {
 
 
 
-#### - ConnType
+### -field ConnType
 
 Specifies the connection type of the sink. This parameter is an enumeration of type <a href="http://go.microsoft.com/fwlink/p/?linkid=143848">KSJACK_SINK_CONNECTIONTYPE</a>. 
 
 
-#### - ManufacturerId
+### -field ManufacturerId
 
 Specifies the sink manufacturer ID.
 
 
-#### - ProductId
+### -field ProductId
 
 Specifies the sink product ID.
 
 
-#### - AudioLatency
+### -field AudioLatency
 
 Specifies the sink audio latency.
 
 
-#### - HDCPCapable
+### -field HDCPCapable
 
 Specifies that this jack sink provides support for High-bandwidth Digital Content Protection (HDCP).
 
 
-#### - AICapable
+### -field AICapable
 
 Specifies that this jack sink provides support for the following data packet types: audio content protection (ACP), international standard recording code-1 (ISRC1), and ISRC2.
 
 
-#### - SinkDescriptionLength
+### -field SinkDescriptionLength
 
 Specifies the length of the <b>SinkDescription</b>[] member.
 
 
-#### - SinkDescription
+### -field SinkDescription
 
 Specifies a string that contains the sink name, which must be NULL-terminated. The maximum length is defined by the MAX_SINK_DESCRIPTION_NAME_LENGTH constant (31  characters, plus a terminating <b>NULL</b>).
 

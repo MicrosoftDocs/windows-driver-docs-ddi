@@ -75,27 +75,27 @@ VOID PowerCompletion(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the target <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for the completed power IRP.
 
 
-#### - MinorFunction [in]
+### -param MinorFunction [in]
 
 Specifies the minor function code in the power IRP. For more information, see the list of supported <b>IRP_MN_<i>XXX</i></b> codes in the Remarks section.
 
 
-#### - PowerState [in]
+### -param PowerState [in]
 
 Specifies the <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> or <a href="https://msdn.microsoft.com/bb30bc89-d1f2-4cb3-bcfb-fb76c69dba27">system power state</a> that was passed to the <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a> routine.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to the context that was passed to <b>PoRequestPowerIrp</b>.
 
 
-#### - IoStatus [in]
+### -param IoStatus [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the completed IRP.
 
@@ -123,21 +123,21 @@ In Windows 2000 and later versions of Windows, the <i>PowerCompletion</i> routi
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>
 
 <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
  
 

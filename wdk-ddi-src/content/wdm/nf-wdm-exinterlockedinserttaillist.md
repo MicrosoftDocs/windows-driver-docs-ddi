@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd322d64-4005-426c-b3ce-0fe8f6ce868e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, wdm/ExInterlockedInsertTailList, kernel.exinterlockedinserttaillist, ExInterlockedInsertTailList, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture], ExInterlockedInsertTailList, k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, wdm/ExInterlockedInsertTailList, kernel.exinterlockedinserttaillist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ PLIST_ENTRY ExInterlockedInsertTailList(
 
 
 
-#### - ListHead [in, out]
+### -param ListHead [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that serves as the list header.
 
 
-#### - ListEntry [in, out]
+### -param ListEntry [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that represents the entry to be inserted into the list.
 
 
-#### - Lock [in, out]
+### -param Lock [in, out]
 
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
@@ -105,11 +105,11 @@ The <b>ExInterlockedInsertTailList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 

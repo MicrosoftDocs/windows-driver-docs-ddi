@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8377EE4-A7A1-4063-A7DC-53D0D8C6E0C3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFFDOINITQUERYPROPERTYEX, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, WdfFdoInitQueryPropertyEx
+ms.keywords: WdfFdoInitQueryPropertyEx method, PFN_WDFFDOINITQUERYPROPERTYEX, wdf.wdffdoinitquerypropertyex, WdfFdoInitQueryPropertyEx, wdffdo/WdfFdoInitQueryPropertyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,27 +78,27 @@ NTSTATUS WdfFdoInitQueryPropertyEx(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
 
 
-#### - DeviceProperty [in]
+### -param DeviceProperty [in]
 
 A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to be retrieved.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer</i>.
 
 
-#### - PropertyBuffer [out]
+### -param PropertyBuffer [out]
 
 A caller-supplied pointer to a caller-allocated buffer that receives the requested information. The pointer can be <b>NULL</b> if the <i>BufferLength</i> parameter is zero.
 
 
-#### - ResultLength [out]
+### -param ResultLength [out]
 
 A caller-supplied location that, on return, contains the 
                   size, in bytes, of the information that the method stored in 
@@ -107,7 +107,7 @@ A caller-supplied location that, on return, contains the
                   buffer size.
 
 
-#### - Type [out]
+### -param Type [out]
 
 A pointer to a <b>DEVPROPTYPE</b> variable that, on return, contains the property type value
                   of the property 

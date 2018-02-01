@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e5360f75-53cf-4025-9a1c-665c098329dd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_XPF_MC_BANK_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_xpf_mc_bank_descriptor, _WHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR, whearef_9f1970bd-6dbf-4104-9525-2018ab2f766e.xml, ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR structure pointer [WHEA Drivers and Applications]
+ms.keywords: WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR structure pointer [WHEA Drivers and Applications], _WHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR, whearef_9f1970bd-6dbf-4104-9525-2018ab2f766e.xml, PWHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR, whea.whea_xpf_mc_bank_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,21 +75,26 @@ typedef struct _WHEA_XPF_MC_BANK_DESCRIPTOR {
 
 
 
-#### - BankNumber
+### -field BankNumber
 
 The processor machine check register bank number.
 
 
-#### - ClearOnInitialization
+### -field ClearOnInitialization
 
 A Boolean value that indicates that the status registers for the bank are to be cleared by the operating system during initialization.
 
 
-#### - StatusDataFormat
+### -field StatusDataFormat
 
 The format of the data in the register bank's status register. Possible values are:
 
 
+
+
+#### WHEA_XPF_MC_BANK_STATUSFORMAT_AMD64MCA
+
+AMD64 machine check architecture.
 
 
 #### WHEA_XPF_MC_BANK_STATUSFORMAT_IA32MCA
@@ -102,12 +107,7 @@ IA32 machine check architecture.
 Intel64 machine check architecture.
 
 
-#### WHEA_XPF_MC_BANK_STATUSFORMAT_AMD64MCA
-
-AMD64 machine check architecture.
-
-
-#### - Flags
+### -field Flags
 
 An XPF_MC_BANK_FLAGS union that indicates which of the members of the WHEA_XPF_MC_BANK_DESCRIPTOR structure can be written to by the operating system. The XPF_MC_BANK_FLAGS union is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -129,6 +129,11 @@ An XPF_MC_BANK_FLAGS union that indicates which of the members of the WHEA_XPF_M
 </table></span></div>
 
 
+#### AsUCHAR
+
+A UCHAR representation of contents of the XPF_MC_BANK_FLAGS union.
+
+
 #### ClearOnInitializationRW
 
 A single bit that indicates that the operating system can write to the <b>ClearOnInitialization</b> member of the WHEA_XPF_MC_BANK_DESCRIPTOR structure.
@@ -144,32 +149,27 @@ A single bit that indicates that the operating system can write to the <b>Contro
 Reserved for system use.
 
 
-#### AsUCHAR
-
-A UCHAR representation of contents of the XPF_MC_BANK_FLAGS union.
-
-
-#### - ControlMsr
+### -field ControlMsr
 
 The model-specific register address of the register bank's IA32_MCi_CTL register. For more information about the IA32_MCi_CTL register, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 
-#### - StatusMsr
+### -field StatusMsr
 
 The model-specific register address of the register bank's IA32_MCi_STATUS register. For more information about the IA32_MCi_STATUS register, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 
-#### - AddressMsr
+### -field AddressMsr
 
 The model-specific register address of the register bank's IA32_MCi_ADDR register. For more information about the IA32_MCi_ADDR register, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 
-#### - MiscMsr
+### -field MiscMsr
 
 The model-specific register address of the register bank's IA32_MCi_MISC register. For more information about the IA32_MCi_MISC register, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 
-#### - ControlData
+### -field ControlData
 
 The value that the operating system writes to the register bank's control register during initialization.
 
@@ -183,9 +183,9 @@ An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the <a href="
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a>
 
  
 

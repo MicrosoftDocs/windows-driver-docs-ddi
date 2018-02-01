@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1ecf4536-9669-4437-8919-3c7b0e4a9183
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml, ifsk.iocreatestreamfileobjectex, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ntifs/IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx
+ms.keywords: ntifs/IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex, IoCreateStreamFileObjectEx, ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PFILE_OBJECT IoCreateStreamFileObjectEx(
 
 
 
-#### - FileObject [in, optional]
+### -param FileObject [in, optional]
 
 Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - DeviceObject [in, optional]
+### -param DeviceObject [in, optional]
 
 Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>. 
 
 
-#### - FileHandle [out, optional]
+### -param FileHandle [out, optional]
 
 A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>. 
 
@@ -110,17 +110,17 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx</b> raises a 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 <a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

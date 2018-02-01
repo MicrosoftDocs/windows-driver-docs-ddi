@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: de2a908a-a032-4b61-963e-e5028ccdba11
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_uncorrectable_error_severity, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
+ms.keywords: wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PCI.pci_express_uncorrectable_error_severity, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,72 +92,72 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
 
 ### -field DUMMYSTRUCTNAME.Undefined
 
- 
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved1
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.DataLinkProtocolError
 
- 
+A single bit that indicates that a reported data link protocol error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.SurpriseDownError
 
- 
+A single bit that indicates that a reported surprise down error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved2
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.PoisonedTLP
 
- 
+A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.FlowControlProtocolError
 
- 
+A single bit that indicates that a reported flow control protocol error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.CompletionTimeout
 
- 
+A single bit that indicates that a reported completion timeout is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.CompleterAbort
 
- 
+A single bit that indicates that a reported completer abort is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.UnexpectedCompletion
 
- 
+A single bit that indicates that a reported unexpected completion is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.ReceiverOverflow
 
- 
+A single bit that indicates that a reported receiver overflow is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.MalformedTLP
 
- 
+A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.ECRCError
 
- 
+A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.UnsupportedRequestError
 
- 
+A single bit that indicates that a reported unsupported request error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.AcsViolation
@@ -187,87 +187,12 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
 
 ### -field DUMMYSTRUCTNAME.Reserved3
 
- 
+Reserved.
 
 
-#### - AsULONG
+### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
-
-
-#### - Undefined
-
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that a reported data link protocol error is a fatal error.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that a reported surprise down error is a fatal error.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that a reported flow control protocol error is a fatal error.
-
-
-#### - CompletionTimeout
-
-A single bit that indicates that a reported completion timeout is a fatal error.
-
-
-#### - CompleterAbort
-
-A single bit that indicates that a reported completer abort is a fatal error.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that a reported unexpected completion is a fatal error.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that a reported receiver overflow is a fatal error.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
-
-
-#### - ECRCError
-
-A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
-
-
-#### - UnsupportedRequestError
-
-A single bit that indicates that a reported unsupported request error is a fatal error.
-
-
-#### - Reserved3
-
-Reserved.
 
 
 ## -remarks
@@ -283,9 +208,9 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a href
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
  
 

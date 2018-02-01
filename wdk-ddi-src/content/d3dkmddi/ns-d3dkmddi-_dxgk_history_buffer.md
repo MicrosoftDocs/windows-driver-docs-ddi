@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_history_buffer, d3dkmddi/DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER, _DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices]
+ms.keywords: display.dxgk_history_buffer, DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], d3dkmddi/DXGK_HISTORY_BUFFER, _DXGK_HISTORY_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGK_HISTORY_BUFFER {
 
 
 
-#### - Header
+### -field Header
 
 A pointer to  a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a> structure that contains history buffer header info.
 
 
-#### - DriverPrivateData
+### -field DriverPrivateData
 
 An array that marks the beginning of the optional driver data and timestamp entries. See Remarks for more info.
 
@@ -93,9 +93,9 @@ The driver specifies the precision of time stamps with the <a href="..\d3dkmddi\
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
 
  
 

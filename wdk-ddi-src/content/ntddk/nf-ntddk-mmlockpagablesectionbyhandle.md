@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d2e50d98-1c25-4ed6-98eb-0fb7e71fda55
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmlockpagablesectionbyhandle, k106_9c5e1e9c-8382-4082-a3ac-5985224c8b2a.xml, MmLockPagableSectionByHandle, ntddk/MmLockPagableSectionByHandle, MmLockPagableSectionByHandle routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/MmLockPagableSectionByHandle, k106_9c5e1e9c-8382-4082-a3ac-5985224c8b2a.xml, MmLockPagableSectionByHandle, kernel.mmlockpagablesectionbyhandle, MmLockPagableSectionByHandle routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID MmLockPagableSectionByHandle(
 
 
 
-#### - ImageSectionHandle [in]
+### -param ImageSectionHandle [in]
 
 The handle to a pageable code or data section. The caller obtained this handle from a previous call to the <a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a> or <a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a> routine.
 
@@ -102,15 +102,15 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 <a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
 
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
 
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
 <a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 

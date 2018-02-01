@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, ObRegisterCallbacks, kernel.obregistercallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], wdm/ObRegisterCallbacks
+ms.keywords: wdm/ObRegisterCallbacks, k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS ObRegisterCallbacks(
 TBD
 
 
-#### - RegistrationHandle [out]
+### -param RegistrationHandle [out]
 
 A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks. 
 

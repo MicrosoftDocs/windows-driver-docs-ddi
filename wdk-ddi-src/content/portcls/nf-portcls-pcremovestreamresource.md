@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D923DA5C-0169-475D-8C0C-6A99EB06ECE0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcRemoveStreamResource, audio.pcremovestreamresource, PcRemoveStreamResource function [Audio Devices], PcRemoveStreamResource
+ms.keywords: PcRemoveStreamResource function [Audio Devices], portcls/PcRemoveStreamResource, PcRemoveStreamResource, audio.pcremovestreamresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS  PcRemoveStreamResource(
 
 
 
-#### - ResourceHandle [in]
+### -param ResourceHandle [in]
 
 PCSTREAMRESOURCE– Resource handle returned by PcAddStreamResource.  
 For more information, see <a href="..\portcls\nf-portcls-pcaddstreamresource.md">PcAddStreamResource</a> and <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>.  

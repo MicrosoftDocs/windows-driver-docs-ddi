@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PUFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], ufs/PUFS_GEOMETRY_DESCRIPTOR, storage.ufs_geometry_descriptor
+ms.keywords: PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], ufs/PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], storage.ufs_geometry_descriptor, PUFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,34 +101,34 @@ typedef struct _UFS_GEOMETRY_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 Specifies the length of the descriptor.
 
 
-#### - bDescriptorIDN
+### -field bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of<b> UFS_DESC_GEOMETRY_IDN</b>.
 
 
 
 
-#### - bMediaTechnology
+### -field bMediaTechnology
 
 Reserved for future use.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for future use.
 
 
-#### - qTotalRawDeviceCapacity
+### -field qTotalRawDeviceCapacity
 
 Specifies the total raw device capacity. Expressed in units of 512 bytes.
 
 
-#### - bMaxNumberLU
+### -field bMaxNumberLU
 
 Specifies the maximum number of logical unit(s) supported by the UFS (Universal Flash Storage). Contains one of the following values:
 <table>
@@ -151,48 +151,48 @@ Specifies the maximum number of logical unit(s) supported by the UFS (Universal 
 </table> 
 
 
-#### - dSegmentSize
+### -field dSegmentSize
 
 Specifies the segment size of the device in units of 512 bytes.
 
 
-#### - bAllocationUnitSize
+### -field bAllocationUnitSize
 
 Specifies the allocation unit size in number of segments.
 
 
-#### - bMinAddrBlockSize
+### -field bMinAddrBlockSize
 
 Specifies the minimum addressable block size in units of 512 bytes. The minium size is 4 KB or a value of 0x08.
 
 
-#### - bOptimalReadBlockSize
+### -field bOptimalReadBlockSize
 
 Specifies the optimal read block size in units of 512 bytes.
 
 
-#### - bOptimalWriteBlockSize
+### -field bOptimalWriteBlockSize
 
 Specifies the optimal write block size in units of 512 bytes. <b>bOptimalWriteBlockSize</b> is equal to or greater than <b>bMinAddrBlockSize</b>.
 
 
-#### - bMaxInBufferSize
+### -field bMaxInBufferSize
 
 Specifies the max size of the data-in buffer in units of 512 bytes. The minium size is 4 KB or a value of 0x08.
 
 
-#### - bMaxOutBufferSize
+### -field bMaxOutBufferSize
 
 Specifies the max size of the data-out buffer in units of 512 bytes. The minium size is 4 KB or a value of 0x08.
 
 
-#### - bRPMB_ReadWriteSize
+### -field bRPMB_ReadWriteSize
 
 Specifies the maximum number of Replay Protected Memory Block (RPMB) frames allowed in Security Protocol In and Security
 Protocol Out. Each frame is 256-bytes. 
 
 
-#### - bDynamicCapacityResourcePolicy
+### -field bDynamicCapacityResourcePolicy
 
 Specifies a device's spare blocks
 resource management policy. Contains one of the following values:
@@ -214,7 +214,7 @@ per memory type.</td>
 </table> 
 
 
-#### - bDataOrdering
+### -field bDataOrdering
 
 Specifies if a device supports out-of-order data transfer. Contains one of the following values:
 <table>
@@ -237,24 +237,24 @@ Specifies if a device supports out-of-order data transfer. Contains one of the f
 </table> 
 
 
-#### - bMaxContexIDNumber
+### -field bMaxContexIDNumber
 
 Specifies the max number of contexts supported by a device. This number must be greater than 5.
 
 
-#### - bSysDataTagUnitSize
+### -field bSysDataTagUnitSize
 
 Specifies the system data tag
 unit size.
 
 
-#### - bSysDataTagResSize
+### -field bSysDataTagResSize
 
 Specifies the maximum size in bytes allocated by
 the device to handle system data.
 
 
-#### - bSupportedSecRTypes
+### -field bSupportedSecRTypes
 
 Specifies the supported Secure Removal types. The first 3 bits of the variable are flags that represent different supported Secure Removal types. 
 <table>
@@ -290,7 +290,7 @@ mechanism.</td>
 </table> 
 
 
-#### - wSupportedMemoryTypes
+### -field wSupportedMemoryTypes
 
 Specifies the supported memory types in a bitmap.
 <table>
@@ -337,76 +337,76 @@ Specifies the supported memory types in a bitmap.
 </table> 
 
 
-#### - dSystemCodeMaxNAllocU
+### -field dSystemCodeMaxNAllocU
 
 Specifies the maximum number of allocation units for the System Code for a device.
 
 
-#### - wSystemCodeCapAdjFac
+### -field wSystemCodeCapAdjFac
 
 Species the Capacity Adjustment Factor for the System Code
 memory type.
 
 
-#### - dNonPersistMaxNAllocU
+### -field dNonPersistMaxNAllocU
 
 Species the maximum number of Allocation Units for a non-persistent memory type.
 
 
-#### - wNonPersistCapAdjFac
+### -field wNonPersistCapAdjFac
 
 Specifies the capacity adjustment factor for the non-persistent memory type.
 
 
-#### - dEnhanced1MaxNAllocU
+### -field dEnhanced1MaxNAllocU
 
 specifies the max number of Allocation Units for the enhanced
 memory type 1.
 
 
-#### - wEnhanced1CapAdjFac
+### -field wEnhanced1CapAdjFac
 
 specifies the Capacity Adjustment Factor for the enhanced
 memory type 1.
 
 
-#### - dEnhanced2MaxNAllocU
+### -field dEnhanced2MaxNAllocU
 
 specifies the max number of Allocation Units for the enhanced
 memory type 2.
 
 
-#### - wEnhanced2CapAdjFac
+### -field wEnhanced2CapAdjFac
 
 specifies the Capacity Adjustment Factor for the enhanced
 memory type 2.
 
 
-#### - dEnhanced3MaxNAllocU
+### -field dEnhanced3MaxNAllocU
 
 specifies the max number of Allocation Units for the enhanced
 memory type 3.
 
 
-#### - wEnhanced3CapAdjFac
+### -field wEnhanced3CapAdjFac
 
 specifies the Capacity Adjustment Factor for the enhanced
 memory type 3.
 
 
-#### - dEnhanced4MaxNAllocU
+### -field dEnhanced4MaxNAllocU
 
 specifies the max number of Allocation Units for the enhanced
 memory type 4.
 
 
-#### - wEnhanced4CapAdjFac
+### -field wEnhanced4CapAdjFac
 
 specifies the Capacity Adjustment Factor for the enhanced
 memory type 4.
 
 
-#### - dOptimalLogicalBlockSize
+### -field dOptimalLogicalBlockSize
 
 Specifies the optimal logical block size.
 

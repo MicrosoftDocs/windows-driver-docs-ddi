@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4b11ff8-cafc-456c-b274-e47b85ac77d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSBUFFER_ITEM, *PKSBUFFER_ITEM, stream.ksbuffer_item, ks/KSBUFFER_ITEM, KSBUFFER_ITEM structure [Streaming Media Devices], PKSBUFFER_ITEM structure pointer [Streaming Media Devices], ks/PKSBUFFER_ITEM, PKSBUFFER_ITEM, ks-struct_6c2444cb-9f6c-4ab7-ab79-ae969705db59.xml
+ms.keywords: ks/PKSBUFFER_ITEM, KSBUFFER_ITEM, ks/KSBUFFER_ITEM, ks-struct_6c2444cb-9f6c-4ab7-ab79-ae969705db59.xml, PKSBUFFER_ITEM, KSBUFFER_ITEM structure [Streaming Media Devices], *PKSBUFFER_ITEM, PKSBUFFER_ITEM structure pointer [Streaming Media Devices], stream.ksbuffer_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - DpcItem
+### -field DpcItem
 
 A structure of type <a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>. May be used by internal DPCs; do not use for data buffering.
 
 
-#### - BufferList
+### -field BufferList
 
 Specifies the head of a list of pool allocated buffers that are created by calls to <a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a> for events that have buffering enabled.
 
@@ -87,9 +87,9 @@ KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
-
 <a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a>
+
+<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0227751d-739b-4e0c-84bd-9135f117ec9b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml, IoAttachDevice routine [Kernel-Mode Driver Architecture], wdm/IoAttachDevice, kernel.ioattachdevice, IoAttachDevice
+ms.keywords: IoAttachDevice routine [Kernel-Mode Driver Architecture], wdm/IoAttachDevice, IoAttachDevice, kernel.ioattachdevice, k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS IoAttachDevice(
 
 
 
-#### - SourceDevice [in]
+### -param SourceDevice [in]
 
 Pointer to the caller-created device object.
 
 
-#### - TargetDevice [in]
+### -param TargetDevice [in]
 
 Pointer to a buffer containing the name of the device object to which the specified <i>SourceDevice</i> is to be attached.
 
 
-#### - AttachedDevice [out]
+### -param AttachedDevice [out]
 
 Pointer to caller-allocated storage for a pointer. On return, contains a pointer to the target device object if the attachment succeeds.
 
@@ -110,15 +110,15 @@ This routine sets the <b>AlignmentRequirement</b> in <i>SourceDevice</i> to the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
-
 <a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
 
 <a href="..\ntddk\nf-ntddk-ioattachdevicetodevicestacksafe.md">IoAttachDeviceToDeviceStackSafe</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 

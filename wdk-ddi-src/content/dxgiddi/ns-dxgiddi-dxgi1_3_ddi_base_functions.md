@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F857BA54-A572-4376-83F3-573F90033261
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI1_3_DDI_BASE_FUNCTIONS, DXGI1_3_DDI_BASE_FUNCTIONS structure [Display Devices], dxgiddi/DXGI1_3_DDI_BASE_FUNCTIONS, display.dxgi1_3_ddi_base_functions
+ms.keywords: dxgiddi/DXGI1_3_DDI_BASE_FUNCTIONS, DXGI1_3_DDI_BASE_FUNCTIONS structure [Display Devices], DXGI1_3_DDI_BASE_FUNCTIONS, display.dxgi1_3_ddi_base_functions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,57 +84,57 @@ typedef struct DXGI1_3_DDI_BASE_FUNCTIONS {
 
 
 
-#### - pfnPresent
+### -field pfnPresent
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a> function.
 
 
-#### - pfnGetGammaCaps
+### -field pfnGetGammaCaps
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a> function.
 
 
-#### - pfnSetDisplayMode
+### -field pfnSetDisplayMode
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a> function.
 
 
-#### - pfnSetResourcePriority
+### -field pfnSetResourcePriority
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a> function.
 
 
-#### - pfnQueryResourceResidency
+### -field pfnQueryResourceResidency
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a> function.
 
 
-#### - pfnRotateResourceIdentities
+### -field pfnRotateResourceIdentities
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569514">RotateResourceIdentitiesDXGI</a> function.
 
 
-#### - pfnBlt
+### -field pfnBlt
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a> function.
 
 
-#### - pfnResolveSharedResource
+### -field pfnResolveSharedResource
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569488">ResolveSharedResourceDXGI</a> function.
 
 
-#### - pfnBlt1
+### -field pfnBlt1
 
 A pointer to the driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406235">Blt1DXGI</a> function.
 
 
-#### - pfnOfferResources
+### -field pfnOfferResources
 
 A pointer to the driver's <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a> function.
 
 
-#### - pfnReclaimResources
+### -field pfnReclaimResources
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a> function.
 
@@ -144,12 +144,12 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A
  
 
 
-#### - pfnGetMultiplaneOverlayGroupCaps
+### -field pfnGetMultiplaneOverlayGroupCaps
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn265494">pfnGetMultiplaneOverlayGroupCaps</a> function.
 
 
-#### - pfnReserved1
+### -field pfnReserved1
 
 Reserved for system use.
 
@@ -159,17 +159,17 @@ Reserved for system use.
  
 
 
-#### - pfnReserved2
+### -field pfnReserved2
 
 Reserved for system use.
 
 
-#### - pfnPresent1
+### -field pfnPresent1
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function.
 
 
-#### - pfnCheckPresentDurationSupport
+### -field pfnCheckPresentDurationSupport
 
 A pointer to the driver's <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_checkpresentdurationsupport.md">pfnCheckPresentDurationSupport(DXGI)</a> function.
 
@@ -193,15 +193,15 @@ For more info on how to use this structure, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi1_2_ddi_base_functions.md">DXGI1_2_DDI_BASE_FUNCTIONS</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi1_2_ddi_base_functions.md">DXGI1_2_DDI_BASE_FUNCTIONS</a>
 
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
  
 

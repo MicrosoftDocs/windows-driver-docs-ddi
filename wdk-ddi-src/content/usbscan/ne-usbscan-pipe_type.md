@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ae3077a3-01a8-4578-9a26-b8b14ec51a7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: usbscan/PIPE_TYPE, WRITE_DATA_PIPE, READ_DATA_PIPE, usbscan/EVENT_PIPE, ALL_PIPE, usbscan/ALL_PIPE, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, PIPE_TYPE, image.pipe_type, usbscan/WRITE_DATA_PIPE, PIPE_TYPE enumeration [Imaging Devices], EVENT_PIPE, usbscan/READ_DATA_PIPE
+ms.keywords: WRITE_DATA_PIPE, usbscan/READ_DATA_PIPE, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, PIPE_TYPE, usbscan/PIPE_TYPE, usbscan/EVENT_PIPE, PIPE_TYPE enumeration [Imaging Devices], EVENT_PIPE, READ_DATA_PIPE, usbscan/WRITE_DATA_PIPE, ALL_PIPE, usbscan/ALL_PIPE, image.pipe_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum  {
 
 
 
-#### - EVENT_PIPE
+### -field EVENT_PIPE
 
 The operation should be performed on the interrupt pipe.
 
 
-#### - READ_DATA_PIPE
+### -field READ_DATA_PIPE
 
 The operation should be performed on the bulk IN pipe.
 
 
-#### - WRITE_DATA_PIPE
+### -field WRITE_DATA_PIPE
 
 The operation should be performed on the bulk OUT pipe.
 
 
-#### - ALL_PIPE
+### -field ALL_PIPE
 
 The operation should be performed on <i>all</i> transfer pipes (not just the pipes associated with the device handle supplied to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>).
 

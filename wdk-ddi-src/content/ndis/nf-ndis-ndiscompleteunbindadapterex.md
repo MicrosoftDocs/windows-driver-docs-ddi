@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a1daad4-d4b7-4950-be58-73612949fba9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml, NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], netvista.ndiscompleteunbindadapterex, ndis/NdisCompleteUnbindAdapterEx
+ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml, netvista.ndiscompleteunbindadapterex, ndis/NdisCompleteUnbindAdapterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisCompleteUnbindAdapterEx(
 
 
 
-#### - UnbindContext [in]
+### -param UnbindContext [in]
 
 The handle that NDIS passed to the 
      <i>UnbindContext</i> parameter of the 
@@ -89,8 +89,8 @@ None
 
 
 When a protocol driver returns NDIS_STATUS_PENDING from its 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> function, that driver must call 
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> function, that driver must call 
     <b>NdisCompleteUnbindAdapterEx</b> after the unbind operation is completed.
 
 When the driver calls 
@@ -108,11 +108,11 @@ On return from
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
  
 

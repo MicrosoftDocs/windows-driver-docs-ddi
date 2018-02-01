@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 53efddbc-0e65-487c-b406-c7d093ca5667
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], PCI.pci_express_error_source_id, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID"
+ms.keywords: "_PCI_EXPRESS_ERROR_SOURCE_ID, pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID, PCI.pci_express_error_source_id, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,67 +83,37 @@ typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
 
 ### -field DUMMYSTRUCTNAME.CorrectableSourceIdFun
 
- 
+The function number of the requester that reported the first correctable error.
 
 
 ### -field DUMMYSTRUCTNAME.CorrectableSourceIdDev
 
- 
+The device number of the requester that reported the first correctable error.
 
 
 ### -field DUMMYSTRUCTNAME.CorrectableSourceIdBus
 
- 
+The bus number of the requester that reported the first correctable error.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableSourceIdFun
 
- 
+The function number of the requester that reported the first uncorrectable error.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableSourceIdDev
 
- 
+The device number of the requester that reported the first uncorrectable error.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableSourceIdBus
 
- 
+The bus number of the requester that reported the first uncorrectable error.
 
 
-#### - AsULONG
+### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_ERROR_SOURCE_ID structure.
-
-
-#### - CorrectableSourceIdFun
-
-The function number of the requester that reported the first correctable error.
-
-
-#### - CorrectableSourceIdDev
-
-The device number of the requester that reported the first correctable error.
-
-
-#### - CorrectableSourceIdBus
-
-The bus number of the requester that reported the first correctable error.
-
-
-#### - UncorrectableSourceIdFun
-
-The function number of the requester that reported the first uncorrectable error.
-
-
-#### - UncorrectableSourceIdDev
-
-The device number of the requester that reported the first uncorrectable error.
-
-
-#### - UncorrectableSourceIdBus
-
-The bus number of the requester that reported the first uncorrectable error.
 
 
 ## -remarks

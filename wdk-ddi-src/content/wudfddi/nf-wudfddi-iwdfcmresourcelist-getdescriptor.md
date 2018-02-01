@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFCmResourceList::GetDescriptor, IWDFCmResourceList, IWDFCmResourceList interface, GetDescriptor method, GetDescriptor method, GetDescriptor, wudfddi/IWDFCmResourceList::GetDescriptor, wdf.iwdfcmresourcelist_getdescriptor, umdf.iwdfcmresourcelist_getdescriptor, GetDescriptor method, IWDFCmResourceList interface
+ms.keywords: IWDFCmResourceList::GetDescriptor, GetDescriptor, IWDFCmResourceList interface, GetDescriptor method, wudfddi/IWDFCmResourceList::GetDescriptor, wdf.iwdfcmresourcelist_getdescriptor, GetDescriptor method, IWDFCmResourceList interface, umdf.iwdfcmresourcelist_getdescriptor, IWDFCmResourceList, GetDescriptor method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ PCM_PARTIAL_RESOURCE_DESCRIPTOR GetDescriptor(
 
 
 
-#### - Index
+### -param Index
 
 A zero-based index into the logical configuration that is contained in this interface's resource list.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61C425CB-4900-4EB2-8D33-FF235BC03929
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDK_ADAPTER_DISPATCH, ndkpi/NDK_ADAPTER_DISPATCH, NDK_ADAPTER_DISPATCH structure [Network Drivers Starting with Windows Vista], netvista.ndk_adapter_dispatch, PNDK_ADAPTER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_ADAPTER_DISPATCH, PNDK_ADAPTER_DISPATCH, _NDK_ADAPTER_DISPATCH
+ms.keywords: "_NDK_ADAPTER_DISPATCH, PNDK_ADAPTER_DISPATCH, PNDK_ADAPTER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_ADAPTER_DISPATCH, ndkpi/NDK_ADAPTER_DISPATCH, NDK_ADAPTER_DISPATCH structure [Network Drivers Starting with Windows Vista], ndkpi/PNDK_ADAPTER_DISPATCH, netvista.ndk_adapter_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _NDK_ADAPTER_DISPATCH {
 
 
 
-#### - NdkQueryExtension
+### -field NdkQueryExtension
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
-#### - NdkQueryAdapterInfo
+### -field NdkQueryAdapterInfo
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_adapter_info.md">NDK_FN_QUERY_ADAPTER_INFO</a> dispatch function.
 
 
-#### - NdkCreateCq
+### -field NdkCreateCq
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a> dispatch function.
 
 
-#### - NdkCreatePd
+### -field NdkCreatePd
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_pd.md">NDK_FN_CREATE_PD</a> dispatch function.
 
 
-#### - NdkCreateSharedEndpoint
+### -field NdkCreateSharedEndpoint
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_shared_endpoint.md">NDK_FN_CREATE_SHARED_ENDPOINT</a> dispatch function.
 
 
-#### - NdkCreateConnector
+### -field NdkCreateConnector
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a> dispatch function.
 
 
-#### - NdkCreateListener
+### -field NdkCreateListener
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a> dispatch function.
 
 
-#### - NdkBuildLAM
+### -field NdkBuildLAM
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a> dispatch function.
 
 
-#### - NdkReleaseLAM
+### -field NdkReleaseLAM
 
 The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a> dispatch function.
 
@@ -131,19 +131,19 @@ The <b>NDK_ADAPTER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-nd
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_shared_endpoint.md">NDK_FN_CREATE_SHARED_ENDPOINT</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_shared_endpoint.md">NDK_FN_CREATE_SHARED_ENDPOINT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_adapter_info.md">NDK_FN_QUERY_ADAPTER_INFO</a>
 

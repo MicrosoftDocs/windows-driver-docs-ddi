@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveActivityId, IWDFIoRequest3 interface, RetrieveActivityId method, umdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId, IWDFIoRequest3, wdf.iwdfiorequest3_retrieveactivityid, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId method, RetrieveActivityId method, IWDFIoRequest3 interface
+ms.keywords: RetrieveActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3 interface, RetrieveActivityId method, wudfddi/IWDFIoRequest3::RetrieveActivityId, IWDFIoRequest3, RetrieveActivityId, RetrieveActivityId method, IWDFIoRequest3::RetrieveActivityId, wdf.iwdfiorequest3_retrieveactivityid, umdf.iwdfiorequest3_retrieveactivityid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,7 +72,7 @@ HRESULT RetrieveActivityId(
 
 
 
-#### - ActivityId [out]
+### -param ActivityId [out]
 
 A pointer to a location to store the retrieved GUID.
 

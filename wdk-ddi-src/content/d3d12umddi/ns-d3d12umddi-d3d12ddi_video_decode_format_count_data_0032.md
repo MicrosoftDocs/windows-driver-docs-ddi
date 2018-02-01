@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d28fe10-1dfc-4017-9ab0-d8b8e2d45448
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, display.d3d12ddi-video-decode-format-count-data-0032
+ms.keywords: display.d3d12ddi-video-decode-format-count-data-0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 {
 
 
 
-#### - NodeIndex
+### -field NodeIndex
 
 Node index.
 
 
-#### - Configuration
+### -field Configuration
 
 Configuration.
 
 
-#### - FormatCount
+### -field FormatCount
 
 Format count.
 

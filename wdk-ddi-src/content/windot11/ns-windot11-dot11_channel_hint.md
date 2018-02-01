@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B3E395C3-C642-4A5E-9005-88323A80F90E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_CHANNEL_HINT, netvista.dot11_channel_hint, *PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT
+ms.keywords: netvista.dot11_channel_hint, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], *PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT, windot11/DOT11_CHANNEL_HINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _DOT11_CHANNEL_HINT {
 
 
 
-#### - Dot11PhyType
+### -field Dot11PhyType
 
 The 802.11 PHY and media type.
 
 
-#### - uChannelNumber
+### -field uChannelNumber
 
 Channel number.
 

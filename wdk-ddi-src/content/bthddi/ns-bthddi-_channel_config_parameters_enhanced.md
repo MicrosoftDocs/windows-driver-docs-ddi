@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 4C28FD6E-A1DD-4887-95B0-6028ECA18204
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: CHANNEL_CONFIG_PARAMETERS_ENHANCED structure [Bluetooth Devices], CHANNEL_CONFIG_PARAMETERS_ENHANCED, bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED, PCHANNEL_CONFIG_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], bltooth.channel_config_parameters_enhanced, PCHANNEL_CONFIG_PARAMETERS_ENHANCED, bthddi/PCHANNEL_CONFIG_PARAMETERS_ENHANCED, _CHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED
+ms.keywords: PCHANNEL_CONFIG_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], bthddi/PCHANNEL_CONFIG_PARAMETERS_ENHANCED, bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED structure [Bluetooth Devices], _CHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED, bltooth.channel_config_parameters_enhanced, PCHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct _CHANNEL_CONFIG_PARAMETERS_ENHANCED {
 
 
 
-#### - Flags
+### -field Flags
 
 Combination of CFG_XXX flags.
 
 
-#### - Mtu
+### -field Mtu
 
 MTU for the direction.
 
 
-#### - FlushTO
+### -field FlushTO
 
 Flush timeout for the direction
 
 
-#### - NumExtraOptions
+### -field NumExtraOptions
 
 Number of elements in the ExtraOptions array
 
 
-#### - ExtraOptions
+### -field ExtraOptions
 
 Array of extra options
 
 
-#### - Flow
+### -field Flow
 
 QOS for the direction
 
 
-#### - RetransmissionAndFlow
+### -field RetransmissionAndFlow
 
 Retransmission and flow for the direction
 
 
-#### - Fcs
+### -field Fcs
 
 Frame check sequence
 
 
-#### - ExtendedFlowSpec
+### -field ExtendedFlowSpec
 
 Extended flow specification for the L2CAP channel. This member is reserved. Do not use.
 
 
-#### - ExtendedWindowSize
+### -field ExtendedWindowSize
 
 Extended window size. This member is reserved. Do not use.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 485583b2-2736-4ecf-b58c-65b4d4f47a20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREGISTRYREMOVEVALUE, wdfregistry/WdfRegistryRemoveValue, kmdf.wdfregistryremovevalue, DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, wdf.wdfregistryremovevalue, WdfRegistryRemoveValue, WdfRegistryRemoveValue method
+ms.keywords: WdfRegistryRemoveValue method, PFN_WDFREGISTRYREMOVEVALUE, WdfRegistryRemoveValue, wdfregistry/WdfRegistryRemoveValue, DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, kmdf.wdfregistryremovevalue, wdf.wdfregistryremovevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfRegistryRemoveValue(
 
 
 
-#### - Key [in]
+### -param Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a value name. 
 

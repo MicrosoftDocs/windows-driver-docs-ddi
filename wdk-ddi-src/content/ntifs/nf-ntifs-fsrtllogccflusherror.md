@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlLogCcFlushError, FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, FsRtlLogCcFlushError routine [Installable File System Drivers], ifsk.fsrtllogccflusherror
+ms.keywords: fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, FsRtlLogCcFlushError routine [Installable File System Drivers], ifsk.fsrtllogccflusherror, FsRtlLogCcFlushError, ntifs/FsRtlLogCcFlushError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS FsRtlLogCcFlushError(
 
 
 
-#### - FileName [in]
+### -param FileName [in]
 
 The name of the file that could not be flushed.
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the device object that this log entry should be filed against.
 
 
-#### - SectionObjectPointer [in]
+### -param SectionObjectPointer [in]
 
 A pointer to the section object for the file on which the flush failed.
 
 
-#### - FlushError [in]
+### -param FlushError [in]
 
 The error returned by the call to <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A value of 0 or a bitwise combination of one or more of the following flags:
 <table>
@@ -144,11 +144,11 @@ If the error is fatal, the routine increments the lost delayed write counter in 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
 
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
-<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
  
 

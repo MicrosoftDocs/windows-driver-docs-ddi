@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9182084b-ea11-48e4-acb5-06a8375d05bf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtllookupelementgenerictable, ntddk/RtlLookupElementGenericTable, RtlLookupElementGenericTable, RtlLookupElementGenericTable routine [Installable File System Drivers], rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml
+ms.keywords: RtlLookupElementGenericTable routine [Installable File System Drivers], ifsk.rtllookupelementgenerictable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml, RtlLookupElementGenericTable, ntddk/RtlLookupElementGenericTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PVOID RtlLookupElementGenericTable(
 
 
 
-#### - Table [in]
+### -param Table [in]
 
 Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlInitializeGenericTable</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A buffer of search data to pass to the <i>CompareRoutine</i> that was registered when <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a> initialized the generic table. For more information, see the description of <b>RtlInitializeGenericTable</b>.
 
@@ -113,11 +113,11 @@ The caller-supplied <i>CompareRoutine</i> contains pageable code.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
 
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
  
 

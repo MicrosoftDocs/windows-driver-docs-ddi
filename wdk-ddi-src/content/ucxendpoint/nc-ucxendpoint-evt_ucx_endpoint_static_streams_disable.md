@@ -79,12 +79,12 @@ typedef EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE PEVT_UCX_ENDPOINT_STATIC_STREAMS
 
 
 
-#### - UcxStaticStreams [in]
+### -param UcxStaticStreams [in]
 
 A handle to a UCX object that represents the static streams.
 
 
-#### - Request [in]
+### -param Request [in]
 
 Contains the URB for the <b>URB_FUNCTION_CLOSE_STATIC_STREAMS</b>.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61540bd2-8496-4972-854c-968b53c90788
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitfree, WdfDeviceInitFree, PFN_WDFDEVICEINITFREE, wdfdevice/WdfDeviceInitFree, kmdf.wdfdeviceinitfree, WdfDeviceInitFree method, DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml
+ms.keywords: DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml, wdfdevice/WdfDeviceInitFree, kmdf.wdfdeviceinitfree, WdfDeviceInitFree method, WdfDeviceInitFree, PFN_WDFDEVICEINITFREE, wdf.wdfdeviceinitfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID WdfDeviceInitFree(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 

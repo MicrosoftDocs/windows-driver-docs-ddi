@@ -72,12 +72,12 @@ NTSTATUS CamStopCapture(
 
 
 
-#### - BusDeviceObject
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-#### - DeviceContext
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
@@ -102,9 +102,9 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_stop_capture_routine_ex.md">CamStopCaptureEx</a>
-
 <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_stop_capture_routine_ex.md">CamStopCaptureEx</a>
 
  
 

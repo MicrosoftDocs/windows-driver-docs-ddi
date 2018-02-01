@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DA9C020F-18E7-4C6C-AEBB-81B099C80CD0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PO_FX_COMPONENT_PERF_INFO, *PPO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], wdm/PPO_FX_COMPONENT_PERF_INFO, _PO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], kernel.po_fx_component_perf_info
+ms.keywords: "*PPO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], kernel.po_fx_component_perf_info, wdm/PPO_FX_COMPONENT_PERF_INFO, _PO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO, wdm/PO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_PERF_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _PO_FX_COMPONENT_PERF_INFO {
 
 
 
-#### - PerfStateSetsCount
+### -field PerfStateSetsCount
 
 The number of elements in the array <b>PerfStateSets</b> array.
 
 
-#### - PerfStateSets
+### -field PerfStateSets
 
 This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> elements. Each  <b>PO_FX_COMPONENT_PERF_SET</b> represents one set of supported performance states for a component. If the array contains more than one element, the additional elements immediately follow the first element.
 
@@ -92,9 +92,9 @@ Most drivers are expected to define a single set of performance states per compo
 
 <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939352">Component-Level Performance State Management</a>
-
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939352">Component-Level Performance State Management</a>
 
  
 

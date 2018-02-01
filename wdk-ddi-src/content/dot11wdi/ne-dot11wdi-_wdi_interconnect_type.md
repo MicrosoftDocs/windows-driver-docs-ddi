@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58cb1ead-94a1-4587-bb2a-7b8e23f42eeb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_INTERCONNECT_TYPE, netvista.wifi_interconnect_type, netvista.wdi_interconnect_type, WDI_INTERCONNECT_UNKNOWN, dot11wdi/WDI_INTERCONNECT_TYPE, WDI_INTERCONNECT_MESSAGE_BASED, dot11wdi/WDI_INTERCONNECT_UNKNOWN, _WDI_INTERCONNECT_TYPE, WDI_INTERCONNECT_MEMORY_MAPPED, dot11wdi/WDI_INTERCONNECT_MESSAGE_BASED, dot11wdi/WDI_INTERCONNECT_MEMORY_MAPPED, WDI_INTERCONNECT_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: WDI_INTERCONNECT_UNKNOWN, dot11wdi/WDI_INTERCONNECT_TYPE, dot11wdi/WDI_INTERCONNECT_MESSAGE_BASED, WDI_INTERCONNECT_TYPE, netvista.wifi_interconnect_type, WDI_INTERCONNECT_MESSAGE_BASED, dot11wdi/WDI_INTERCONNECT_UNKNOWN, WDI_INTERCONNECT_TYPE enumeration [Network Drivers Starting with Windows Vista], _WDI_INTERCONNECT_TYPE, netvista.wdi_interconnect_type, dot11wdi/WDI_INTERCONNECT_MEMORY_MAPPED, WDI_INTERCONNECT_MEMORY_MAPPED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _WDI_INTERCONNECT_TYPE {
 
 
 
-#### - WDI_INTERCONNECT_MEMORY_MAPPED
+### -field WDI_INTERCONNECT_MEMORY_MAPPED
 
 Target can access system memory (for example, PCI-based interconnect).
 
 
-#### - WDI_INTERCONNECT_MESSAGE_BASED
+### -field WDI_INTERCONNECT_MESSAGE_BASED
 
 Message based interconnect (for example, USB or SDIO).
 
 
-#### - WDI_INTERCONNECT_UNKNOWN
+### -field WDI_INTERCONNECT_UNKNOWN
 
 Unspecified interconnect type.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d013aeb9-43a9-460f-a670-5b7bc9d3753d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortLogError function [Display Devices], video/VideoPortLogError, VideoPortLogError, VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror
+ms.keywords: VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, VideoPortLogError function [Display Devices], VideoPortLogError, video/VideoPortLogError, display.videoportlogerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID VideoPortLogError(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
@@ -81,12 +81,12 @@ Pointer to the miniport driver's device extension.
 TBD
 
 
-#### - ErrorCode
+### -param ErrorCode
 
 Specifies a miniport driver-defined error code that indicates the type of hardware error.
 
 
-#### - UniqueId
+### -param UniqueId
 
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected; for others, it is a value returned by the hardware.
 

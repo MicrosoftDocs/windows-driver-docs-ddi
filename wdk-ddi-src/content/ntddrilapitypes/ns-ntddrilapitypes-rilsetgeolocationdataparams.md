@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7736c8d6-731e-4322-aade-ecd23a4fedde
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSETGEOLOCATIONDATAPARAMS, netvista.rilsetgeolocationdataparams, ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], RILSETGEOLOCATIONDATAPARAMS, ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS, netvista.rilsetgeolocationdataparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILSETGEOLOCATIONDATAPARAMS {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - locationInfo
+### -field locationInfo
 
 

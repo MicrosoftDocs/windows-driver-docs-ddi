@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16e1b0cb-8543-4700-8f8c-d7301c6de622
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, wdf.wdf_memory_descriptor_init_buffer, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, kmdf.wdf_memory_descriptor_init_buffer
+ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, kmdf.wdf_memory_descriptor_init_buffer, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, wdf.wdf_memory_descriptor_init_buffer, DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
 
 
 
-#### - Descriptor [out]
+### -param Descriptor [out]
 
 A pointer to a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a memory buffer.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 The size, in bytes, of the memory buffer that <i>Buffer</i> points to.
 
@@ -105,9 +105,9 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</b> function zeros the specified <a hre
 
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>
 
-<a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_mdl.md">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>
+
+<a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
 
  
 

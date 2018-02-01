@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 82864db1-ee0a-4d41-a516-4e04befd2e89
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosPropertyId, BarcodeScannerCapabilities, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, MagneticStripeReaderDeviceAuthenticationProtocol, MagneticStripeReaderTracksToRead, _PosPropertyId, BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/MagneticStripeReaderCapabilities, pointofservicedriverinterface/IsDisabledOnDataReceived, MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, pointofservicedriverinterface/BarcodeScannerActiveProfile, MagneticStripeReaderIsDecodeDataEnabled, MagneticStripeReaderCapabilities, pointofservicedriverinterface/BarcodeScannerCapabilities, BarcodeScannerActiveSymbologies, MagneticStripeReaderIsDeviceAuthenticated, IsEnabled, IsDisabledOnDataReceived, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, pointofservicedriverinterface/IsEnabled, PosPropertyId enumeration, MagneticStripeReaderErrorReportingType, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, BarcodeScannerActiveProfile, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, pos.pospropertyid, PosPropertyId, BarcodeScannerSupportedProfiles, pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, MagneticStripeReaderDataEncryptionAlgorithm, MagneticStripeReaderIsTransmitSentinelsEnabled
+ms.keywords: PosPropertyId, pointofservicedriverinterface/MagneticStripeReaderCapabilities, MagneticStripeReaderCapabilities, pos.pospropertyid, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, MagneticStripeReaderIsDeviceAuthenticated, MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/IsEnabled, BarcodeScannerActiveProfile, pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, MagneticStripeReaderIsTransmitSentinelsEnabled, pointofservicedriverinterface/BarcodeScannerCapabilities, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, pointofservicedriverinterface/IsDisabledOnDataReceived, BarcodeScannerCapabilities, MagneticStripeReaderTracksToRead, BarcodeScannerActiveSymbologies, pointofservicedriverinterface/BarcodeScannerActiveProfile, MagneticStripeReaderDataEncryptionAlgorithm, MagneticStripeReaderErrorReportingType, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, BarcodeScannerSupportedProfiles, _PosPropertyId, pointofservicedriverinterface/PosPropertyId, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, IsDisabledOnDataReceived, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, MagneticStripeReaderDeviceAuthenticationProtocol, MagneticStripeReaderIsDecodeDataEnabled, BarcodeScannerSupportedSymbologies, IsEnabled, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, PosPropertyId enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -83,12 +83,12 @@ typedef enum _PosPropertyId {
 
 
 
-#### - IsEnabled
+### -field IsEnabled
 
 Indicates whether the device is enabled. An enabled device is expected to be powered on and fully functional. In a disabled state, the device is not expected to generate input and can be powered down. (Read/Write).
 
 
-#### - IsDisabledOnDataReceived
+### -field IsDisabledOnDataReceived
 
 Indicates whether to disable the device after each scan event. This allows the hardware to enter an idle power-saving mode as frequently as possible. (Read/Write).
 
@@ -97,77 +97,77 @@ Indicates whether to disable the device after each scan event. This allows the h
 
 
 
-#### - BarcodeScannerIsDecodeDataEnabled
+### -field BarcodeScannerIsDecodeDataEnabled
 
 When set to <b>TRUE</b>, the driver must return decoded bar code data in the form of <b>ScanDataLabel</b> in addition to <b>ScanData</b> when raising a data received event. Decoded barcode data typically only contains data from the scanner with header information, scanner generated symbol character, and length identification removed. (Read/Write).
 
 
-#### - BarcodeScannerCapabilities
+### -field BarcodeScannerCapabilities
 
 Contains information about what functionality the barcode scanner supports. For example, a barcode scanner may support imaging and standard power reporting but not statistics updating and reporting. For more information about the values for barcode capabilities, see <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posbarcodescannercapabilitiestype.md">PosBarcodeScannerCapabilitiesType</a>. (Read-only).
 
 
-#### - BarcodeScannerSupportedSymbologies
+### -field BarcodeScannerSupportedSymbologies
 
 Contains an array representing the complete list of symbologies that the barcode scanner is capable of reading. Also returns the number of bytes required for the array of symbologies. For symbology definitions, see <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_barcodesymbology.md">BarcodeSymbology</a>. (Read-only).
 
 
-#### - BarcodeScannerActiveSymbologies
+### -field BarcodeScannerActiveSymbologies
 
 Indicates the symbologies that the barcode scanner is actively handling. (Write-only). For symbology definitions, see <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_barcodesymbology.md">BarcodeSymbology</a>.
 
 
-#### - BarcodeScannerSupportedProfiles
+### -field BarcodeScannerSupportedProfiles
 
 Returns the list of supported driver-defined device configuration profiles. (Read-only).
 
 
-#### - BarcodeScannerActiveProfile
+### -field BarcodeScannerActiveProfile
 
 Sets the active device configuration profile. Configure the driver using one of the driver- or manufacturer-defined profiles in the list returned by the <b>BarcodeScannerSupportedProfiles</b> property. (Write-Only). For example, you may have one profile for warehouse staff and another profile for the sales department. Each profile is expected to configure the device based on the driver or manufacturer definition.
 
 
-#### - MagneticStripeReaderIsDecodeDataEnabled
+### -field MagneticStripeReaderIsDecodeDataEnabled
 
 Indicates whether to provide raw or decoded data from the most recently swiped card. If decoded data is provided to the application, set to <b>true</b>; otherwise, set to <b>false</b>. (Read/write).
 
 
-#### - MagneticStripeReaderCapabilities
+### -field MagneticStripeReaderCapabilities
 
 Returns a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posmagneticstripereadercapabilitiestype.md">PosMagneticStripeReaderCapabilitiesType</a> that describes the capabilities of the MSR. (Read-Only).
 
 
-#### - MagneticStripeReaderSupportedCardTypes
+### -field MagneticStripeReaderSupportedCardTypes
 
 Returns an array of <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrcardtype.md">MsrCardType</a>s supported by the MSR. (Read-only).
 
 
-#### - MagneticStripeReaderDeviceAuthenticationProtocol
+### -field MagneticStripeReaderDeviceAuthenticationProtocol
 
 The driver must return a <a href="https://msdn.microsoft.com/6f06d03e-001e-4340-9b96-8e3654be5c1a">MsrAuthenticationProtocolType</a> that describes the device authentication protocol supported by the MSR. (Read-only).
 
 
-#### - MagneticStripeReaderErrorReportingType
+### -field MagneticStripeReaderErrorReportingType
 
 Specifies the level of error reporting that the MSR supports. For more information about the values for error reporting levels, see <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrerrorreportingtype.md">MsrErrorReportingType</a>. (Read/write).
 
 
-#### - MagneticStripeReaderTracksToRead
+### -field MagneticStripeReaderTracksToRead
 
 Specifies which tracks the application will receive following a card swipe. Does not indicate the capability of the device hardware; instead, it is an application-configurable property representing the tracks to be read. For more information about track values, see <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrtrackids.md">MsrTrackIds</a>. (Read/write).
 
 
-#### - MagneticStripeReaderIsTransmitSentinelsEnabled
+### -field MagneticStripeReaderIsTransmitSentinelsEnabled
 
 Indicates whether the track data contains start and end sentinel values. (Read/write).
 
 
-#### - MagneticStripeReaderIsDeviceAuthenticated
+### -field MagneticStripeReaderIsDeviceAuthenticated
 
 Indicates whether the device is authenticated. (Read-only).
 
 
-#### - MagneticStripeReaderDataEncryptionAlgorithm
+### -field MagneticStripeReaderDataEncryptionAlgorithm
 
 Specifies the <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrdataencryption.md">MsrDataEncryption</a> that will be used to encrypt the track data. (Read/write).
 
@@ -535,9 +535,9 @@ Specifies the <a href="..\pointofservicedriverinterface\ne-pointofservicedriveri
 
 ## -see-also
 
-<a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
-
 <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>
+
+<a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
 
  
 

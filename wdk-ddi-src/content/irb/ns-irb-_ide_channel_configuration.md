@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1ca9a198-ac6b-4837-9503-68eb7ca36527
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, _IDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml, storage.ide_channel_configuration, PIDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], *PIDE_CHANNEL_CONFIGURATION
+ms.keywords: structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml, *PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], storage.ide_channel_configuration, _IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], PIDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, irb/PIDE_CHANNEL_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,17 +76,17 @@ typedef struct _IDE_CHANNEL_CONFIGURATION {
 
 
 
-#### - Version
+### -field Version
 
 The port driver sets this member to sizeof(IDE_CHANNEL_CONFIGURATION). The miniport driver should verify that the version is greater than or equal to the one it is using.
 
 
-#### - ChannelNumber
+### -field ChannelNumber
 
 The port driver sets this field to the number assigned for this channel. For non-native mode controllers, the primary channel will always be assigned 0 and the secondary channel will always be assigned 1.
 
 
-#### - SupportedAdvances
+### -field SupportedAdvances
 
 
 
@@ -94,7 +94,7 @@ The port driver sets this field to the number assigned for this channel. For non
 
 
 
-#### - ChannelMode
+### -field ChannelMode
 
 The port driver sets this field to inform the ATA miniport which mode it is running at. There are three possible modes:
 <table>
@@ -135,31 +135,31 @@ Similar to the IdeModeNormal, this indicates the ATA miniport must take extra st
 </table> 
 
 
-#### - ChannelResources
+### -field ChannelResources
 
 The port driver uses this pointer to pass miniport hardware resources to be used to access the HBA on a PCI bus.
 
 
-#### - NumberOfOverlappedRequests
+### -field NumberOfOverlappedRequests
 
 The miniport driver should set this field to the number of requests the channel can handle at a time. By default, the port driver sets this to 1.
 
 
-#### - MaxTargetId
+### -field MaxTargetId
 
 The miniport should set this member to the maximum target ID supported on this channel. Typically, this is 1 less than the maximum number of devices supported on the channel. By default, the port driver sets this is set to 1 to indicate that 2 devices are supported on a channel.
 
 
-#### - SyncWithIsr
+### -field SyncWithIsr
 
 Indicates support for unsynchronized I/O processing in the miniport driver. The miniport driver must set this member to <b>TRUE</b>.
 
 
-#### - SupportsWmi
+### -field SupportsWmi
 
 Indicates support for WMI. The miniport driver must set this member to <b>TRUE</b>.
 
 
-#### - AdvancedChannelConfiguration
+### -field AdvancedChannelConfiguration
 
 

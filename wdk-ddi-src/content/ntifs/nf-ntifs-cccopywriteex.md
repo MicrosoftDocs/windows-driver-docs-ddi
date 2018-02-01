@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A8945F1C-56CF-494F-9E50-11C7A713E5F0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/CcCopyWriteEx, ifsk.cccopywriteex, CcCopyWriteEx routine [Installable File System Drivers], CcCopyWriteEx
+ms.keywords: CcCopyWriteEx routine [Installable File System Drivers], ntifs/CcCopyWriteEx, CcCopyWriteEx, ifsk.cccopywriteex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,32 +72,32 @@ BOOLEAN CcCopyWriteEx(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for the cached file to which the data is to be written.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length in bytes of the data to be written.
 
 
-#### - Wait [in]
+### -param Wait [in]
 
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the buffer from which the data is to be copied.
 
 
-#### - IoIssuerThread [in]
+### -param IoIssuerThread [in]
 
 The thread issuing the write request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 

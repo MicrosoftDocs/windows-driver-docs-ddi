@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 371f494c-abd2-43c8-ab06-749144762b01
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_INPUT, display.d3d11_1ddi_video_input, D3D11_1DDI_VIDEO_INPUT, D3D11_1DDI_VIDEO_INPUT structure [Display Devices]
+ms.keywords: display.d3d11_1ddi_video_input, D3D11_1DDI_VIDEO_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_INPUT, D3D11_1DDI_VIDEO_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D11_1DDI_VIDEO_INPUT {
 
 
 
-#### - Relocate
+### -field Relocate
 
 Reserved for system use. Do not use in your driver.
 
 
-#### - p11VideoDeviceFuncs
+### -field p11VideoDeviceFuncs
 
 Reserved for system use. Do not use in your driver.
 

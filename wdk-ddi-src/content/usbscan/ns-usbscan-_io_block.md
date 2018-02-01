@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: aa1ccffc-c742-415d-8b72-fef247dff03c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_94187a6f-5c01-4d4a-a852-469f93d891b9.xml, *PIO_BLOCK, PIO_BLOCK, usbscan/PIO_BLOCK, IO_BLOCK structure [Imaging Devices], IO_BLOCK, PIO_BLOCK structure pointer [Imaging Devices], _IO_BLOCK, image.io_block, usbscan/IO_BLOCK
+ms.keywords: usbscan/IO_BLOCK, PIO_BLOCK, _IO_BLOCK, stifnc_94187a6f-5c01-4d4a-a852-469f93d891b9.xml, usbscan/PIO_BLOCK, image.io_block, *PIO_BLOCK, IO_BLOCK, PIO_BLOCK structure pointer [Imaging Devices], IO_BLOCK structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _IO_BLOCK {
 
 
 
-#### - uOffset
+### -field uOffset
 
 Used as the <b>Value</b> field of a USB Device Request.
 
 
-#### - uLength
+### -field uLength
 
 Length of the buffer to transfer.
 
 
-#### - pbyData
+### -field pbyData
 
 Pointer to a data buffer with a length of <b>uLength</b>.
 
 
-#### - uIndex
+### -field uIndex
 
 Used as the <b>Index</b> field of a USB Device Request.
 

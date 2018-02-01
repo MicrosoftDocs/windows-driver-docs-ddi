@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b563e080-32ab-47b7-94f4-1d3dd19f3311
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintreadstream_seek, Seek method [Print Devices], IPrintReadStream interface, Seek method [Print Devices], IPrintReadStream::Seek, filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, IPrintReadStream, filterpipeline/IPrintReadStream::Seek, Seek, IPrintReadStream interface [Print Devices], Seek method
+ms.keywords: Seek method [Print Devices], IPrintReadStream interface, print.iprintreadstream_seek, IPrintReadStream::Seek, filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, Seek method [Print Devices], IPrintReadStream, IPrintReadStream interface [Print Devices], Seek method, Seek, filterpipeline/IPrintReadStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT Seek(
 
 
 
-#### - dlibMove [in]
+### -param dlibMove [in]
 
 The displacement that is added to the location that <i>dwOrigin</i> specifies.
 
 
-#### - dwOrigin [in]
+### -param dwOrigin [in]
 
 The origin for the displacement that <i>dlibMove</i> specifies. The origin can be the beginning of the file (STREAM_SEEK_SET), the current seek pointer (STREAM_SEEK_CUR), or the end of the file (STREAM_SEEK_END). 
 
 
-#### - plibNewPosition [out]
+### -param plibNewPosition [out]
 
 A pointer to the location where <code>Seek</code> writes the value of the new seek pointer from the beginning of the stream. 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.memory_region, storport/PMEMORY_REGION, MEMORY_REGION, *PMEMORY_REGION, PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], MEMORY_REGION structure [Storage Devices], structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml, _MEMORY_REGION, storport/MEMORY_REGION
+ms.keywords: MEMORY_REGION structure [Storage Devices], storage.memory_region, MEMORY_REGION, PMEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml, _MEMORY_REGION, *PMEMORY_REGION, storport/MEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], storport/PMEMORY_REGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _MEMORY_REGION {
 
 
 
-#### - VirtualBase
+### -field VirtualBase
 
 The beginning virtual address of the memory region.
 
 
-#### - PhysicalBase
+### -field PhysicalBase
 
 The beginning physical address of the memory region.
 
 
-#### - Length
+### -field Length
 
 The size, in bytes, of the memory region.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 36f14936-8cc6-4488-aa0f-343e4fbb84e3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kssettargetstate, ks/KsSetTargetState, KsSetTargetState, KsSetTargetState function [Streaming Media Devices], ksfunc_7e05a5c0-2c82-4b20-a199-3955c61c6e40.xml
+ms.keywords: KsSetTargetState, ksfunc_7e05a5c0-2c82-4b20-a199-3955c61c6e40.xml, ks/KsSetTargetState, KsSetTargetState function [Streaming Media Devices], stream.kssettargetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID KsSetTargetState(
 
 
 
-#### - Header [in]
+### -param Header [in]
 
 Points to a header previously allocated by <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>.
 
 
-#### - TargetState [in]
+### -param TargetState [in]
 
 Contains the new state of the target associated with this object header. This may be either KSTARGET_STATE_DISABLED or KSTARGET_STATE_ENABLED.
 

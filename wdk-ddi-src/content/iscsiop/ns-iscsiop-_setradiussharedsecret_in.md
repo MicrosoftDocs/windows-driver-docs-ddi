@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 948475eb-0670-4fab-b831-2fdb3ec86032
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetRADIUSSharedSecret_IN structure [Storage Devices], iscsiop/PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, storage.setradiussharedsecret_in, SetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN, _SetRADIUSSharedSecret_IN, iscsiop/SetRADIUSSharedSecret_IN
+ms.keywords: SetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], PSetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, SetRADIUSSharedSecret_IN structure [Storage Devices], _SetRADIUSSharedSecret_IN, iscsiop/PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, *PSetRADIUSSharedSecret_IN, iscsiop/SetRADIUSSharedSecret_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SetRADIUSSharedSecret_IN {
 
 
 
-#### - SharedSecretSize
+### -field SharedSecretSize
 
 The size, in bytes, of the shared secret.
 
 
-#### - SharedSecret
+### -field SharedSecret
 
 The shared secret.
 

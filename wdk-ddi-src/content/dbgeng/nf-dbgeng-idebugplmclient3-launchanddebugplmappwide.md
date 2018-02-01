@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F3DD5912-46E5-43E5-A920-940FC8FCD83F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: LaunchAndDebugPlmAppWide, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], LaunchAndDebugPlmAppWide method, debugger.idebugplmclient3_launchanddebugplmappwide, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3, IDebugPlmClient3::LaunchAndDebugPlmAppWide
+ms.keywords: IDebugPlmClient3, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3::LaunchAndDebugPlmAppWide, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging], LaunchAndDebugPlmAppWide method, debugger.idebugplmclient3_launchanddebugplmappwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT LaunchAndDebugPlmAppWide(
 
 
 
-#### - Server [in]
+### -param Server [in]
 
 The server of the application.
 
 
-#### - PackageFullName [in]
+### -param PackageFullName [in]
 
 A pointer to the package name.
 
 
-#### - AppName [in]
+### -param AppName [in]
 
 A pointer to the application name. 
 
 
-#### - Arguments [in]
+### -param Arguments [in]
 
 A pointer to an arguments string. 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 086d95a3-1b3a-4e09-9a39-e1972e0e306c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_PRESENT structure [Display Devices], d3dumddi/D3DDDICB_PRESENT, D3DDDICB_PRESENT, display.d3dddicb_present, _D3DDDICB_PRESENT, D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml
+ms.keywords: d3dumddi/D3DDDICB_PRESENT, _D3DDDICB_PRESENT, D3DDDICB_PRESENT structure [Display Devices], D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml, display.d3dddicb_present, D3DDDICB_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DDDICB_PRESENT {
 
 
 
-#### - hSrcAllocation
+### -field hSrcAllocation
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns this handle. Therefore, the user-mode display driver should use this handle to copy content from.
 
 
-#### - hDstAllocation
+### -field hDstAllocation
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the destination allocation. <b>hDstAllocation</b> can be zero if the destination is unknown; kernel mode will determine the destination just before DMA of the hardware command stream to the graphics processor.
 
 
-#### - hContext
+### -field hContext
 
 [in] A handle to the context that the driver submits the copy operation to. The user-mode display driver previously created this context by calling the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function. 
 
 
-#### - BroadcastContextCount
+### -field BroadcastContextCount
 
 [in] The number of additional contexts in the array that the <b>BroadcastContext</b> member specifies.
 
 
-#### - BroadcastContext
+### -field BroadcastContext
 
 [in] An array of handles to the additional contexts to broadcast the current present operation to. The D3DDDI_MAX_BROADCAST_CONTEXT constant, which is defined as 64, defines the maximum number of additional contexts that the user-mode display driver can broadcast the current present operation to. 
 

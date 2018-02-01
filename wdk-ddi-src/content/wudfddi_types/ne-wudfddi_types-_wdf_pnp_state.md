@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f17a6d52-5f68-470c-9f45-6a175e0fbf01
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPnpStateInvalid, umdf.wdf_pnp_state, wdf.wdf_pnp_state, WdfPnpStateDisabled, wudfddi_types/WdfPnpStateResourcesChanged, WdfPnpStateResourcesChanged, WdfPnpStateMaximum, WDF_PNP_STATE enumeration, WdfPnpStateDontDisplayInUI, WDF_PNP_STATE, WdfPnpStateRemoved, _WDF_PNP_STATE, wudfddi_types/WDF_PNP_STATE, wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateMaximum, WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateRemoved, wudfddi_types/WdfPnpStateInvalid, WdfPnpStateFailed, wudfddi_types/WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateFailed, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml
+ms.keywords: WdfPnpStateResourcesChanged, WDF_PNP_STATE enumeration, wudfddi_types/WdfPnpStateInvalid, umdf.wdf_pnp_state, wdf.wdf_pnp_state, WdfPnpStateRemoved, WdfPnpStateDisabled, WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateMaximum, wudfddi_types/WdfPnpStateResourcesChanged, wudfddi_types/WdfPnpStateNotDisableable, WdfPnpStateInvalid, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, WDF_PNP_STATE, WdfPnpStateMaximum, WdfPnpStateNotDisableable, _WDF_PNP_STATE, WdfPnpStateFailed, wudfddi_types/WdfPnpStateRemoved, wudfddi_types/WDF_PNP_STATE, wudfddi_types/WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,42 +77,42 @@ typedef enum _WDF_PNP_STATE {
 
 
 
-#### - WdfPnpStateInvalid
+### -field WdfPnpStateInvalid
 
 The PnP state for the device is invalid.
 
 
-#### - WdfPnpStateDisabled
+### -field WdfPnpStateDisabled
 
 The device is disabled.
 
 
-#### - WdfPnpStateFailed
+### -field WdfPnpStateFailed
 
 The device is present but has failed.
 
 
-#### - WdfPnpStateRemoved
+### -field WdfPnpStateRemoved
 
 The device has been removed. 
 
 
-#### - WdfPnpStateResourcesChanged
+### -field WdfPnpStateResourcesChanged
 
 The device's resource requirements have changed.
 
 
-#### - WdfPnpStateDontDisplayInUI
+### -field WdfPnpStateDontDisplayInUI
 
 The device is hidden (not displayed) in Device Manager.
 
 
-#### - WdfPnpStateNotDisableable
+### -field WdfPnpStateNotDisableable
 
 The device cannot be disabled.
 
 
-#### - WdfPnpStateMaximum
+### -field WdfPnpStateMaximum
 
 Valid enumeration values were exceeded.
 

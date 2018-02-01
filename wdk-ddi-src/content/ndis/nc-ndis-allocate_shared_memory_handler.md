@@ -74,24 +74,24 @@ NDIS_STATUS NetAllocateSharedMemory(
 
 
 
-#### - ProviderContext [in]
+### -param ProviderContext [in]
 
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
-     <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
-#### - SharedMemoryParameters [in]
+### -param SharedMemoryParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_shared_memory_parameters" tabindex="0"><b>
-     NDIS_SHARED_MEMORY_PARAMETERS</b></mshelp:link> structure that defines the requested attributes for the shared
+     <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">
+     NDIS_SHARED_MEMORY_PARAMETERS</a> structure that defines the requested attributes for the shared
      memory.
 
 
-#### - pSharedMemoryProviderContext [in, out]
+### -param pSharedMemoryProviderContext [in, out]
 
 A pointer to a handle for a shared memory context area. The shared memory provider provides a
      handle that identifies the shared memory that it allocated.
@@ -159,24 +159,24 @@ The operation failed for unspecified reasons.
 
 NDIS calls the 
     <i>NetAllocateSharedMemory</i> function of a shared memory provider when a driver calls the 
-    <mshelp:link keywords="netvista.ndisallocatesharedmemory" tabindex="0"><b>
-    NdisAllocateSharedMemory</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">
+    NdisAllocateSharedMemory</a> function.
 
 The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HANDLER) for 
     <i>NetAllocateSharedMemory</i> in the 
-    <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
+
 <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
  
 

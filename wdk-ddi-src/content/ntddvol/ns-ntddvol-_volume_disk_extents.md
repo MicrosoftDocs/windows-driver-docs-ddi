@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 227846c2-8794-4859-89af-c139ead32143
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS, storage.volume_disk_extents, PVOLUME_DISK_EXTENTS structure pointer [Storage Devices], ntddvol/PVOLUME_DISK_EXTENTS, structs-volumemgr_148847d4-324c-4767-8247-7d286e496d42.xml, VOLUME_DISK_EXTENTS structure [Storage Devices], ntddvol/VOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS"
+ms.keywords: PVOLUME_DISK_EXTENTS, storage.volume_disk_extents, structs-volumemgr_148847d4-324c-4767-8247-7d286e496d42.xml, *PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS structure pointer [Storage Devices], VOLUME_DISK_EXTENTS, ntddvol/VOLUME_DISK_EXTENTS, _VOLUME_DISK_EXTENTS, ntddvol/PVOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,23 +68,23 @@ typedef struct _VOLUME_DISK_EXTENTS {
 
 
 
-#### - NumberOfDiskExtents
+### -field NumberOfDiskExtents
 
 Indicates the number of extents that comprise the volume, which can span multiple disks. 
 
 
-#### - Extents
+### -field Extents
 
 Indicates the number of extents that comprise the volume, which can span multiple disks. 
 
 
 ## -see-also
 
+<a href="..\ntddvol\ni-ntddvol-ioctl_volume_get_volume_disk_extents.md">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+
 <a href="..\ntddvol\ns-ntddvol-_disk_extent.md">DISK_EXTENT</a>
 
 disk extent
-
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_get_volume_disk_extents.md">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
 
  
 

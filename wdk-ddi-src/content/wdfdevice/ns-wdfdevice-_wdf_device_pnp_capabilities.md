@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0857e32e-9962-44ca-9d61-b98b09073c16
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, kmdf.wdf_device_pnp_capabilities, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, _WDF_DEVICE_PNP_CAPABILITIES, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES, wdf.wdf_device_pnp_capabilities, WDF_DEVICE_PNP_CAPABILITIES structure
+ms.keywords: "_WDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, wdf.wdf_device_pnp_capabilities, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, WDF_DEVICE_PNP_CAPABILITIES structure, PWDF_DEVICE_PNP_CAPABILITIES, kmdf.wdf_device_pnp_capabilities, WDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,57 +81,57 @@ typedef struct _WDF_DEVICE_PNP_CAPABILITIES {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - LockSupported
+### -field LockSupported
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can be locked in its slot to prevent ejection. (This capability disables ejecting a device from its slot, not ejecting media from a device.) For more information about WDF_TRI_STATE-typed values, see the following Remarks section.  
 
 
-#### - EjectSupported
+### -field EjectSupported
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the device can be ejected from its slot. (This capability enables ejecting a device from its slot, not ejecting media from a device.) 
 
 
-#### - Removable
+### -field Removable
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the device can be removed while the system is running. If <b>Removable</b> is set to <b>WdfTrue</b> and <b>SurpriseRemovalOK</b> is set to <b>WdfFalse</b>, users should use the system's Unplug or Eject Hardware program.
 
 
-#### - DockDevice
+### -field DockDevice
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the device is a docking station.
 
 
-#### - UniqueID
+### -field UniqueID
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the device's instance ID is unique to the entire system. If <b>UniqueID</b> is set to <b>WdfFalse</b>, the instance ID is unique only to the device's bus. For more information about instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
-#### - SilentInstall
+### -field SilentInstall
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that Device Manager should not display dialog boxes during installation of the device.
 
 
-#### - SurpriseRemovalOK
+### -field SurpriseRemovalOK
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b> (and if <b>Removable</b> is also set to <b>WdfTrue</b>), that users can remove the device without using the system's Unplug or Eject Hardware program.
 
 
-#### - HardwareDisabled
+### -field HardwareDisabled
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that the device is disabled.
 
 
-#### - NoDisplayInUI
+### -field NoDisplayInUI
 
 A WDF_TRI_STATE-typed value that indicates, if set to <b>WdfTrue</b>, that Device Manager should not display the device.
 
 
-#### - Address
+### -field Address
 
 An address that indicates where the device is located on its bus. 
 
@@ -182,7 +182,7 @@ The target ID.
 The port number.
 
 
-#### - UINumber
+### -field UINumber
 
 A number that is associated with the device and can be displayed in user interfaces. This number is typically a user-perceived slot number, such as a number printed next to the slot on the board or some other number that helps the user locate the device. If <b>UINumber</b> is unknown, or if supplying a number would not assist the user in identifying the device's location, the driver sets this value to -1.
 

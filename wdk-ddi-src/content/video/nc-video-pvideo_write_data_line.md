@@ -72,12 +72,12 @@ VOID WriteDataLine(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the video miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-#### - Data
+### -param Data
 
 Supplies a value that specifies whether to set the serial data line to high or low. A value of 0 specifies that the data line should be set to low, and a value of 1 specifies that the data line should be set to high.
 
@@ -98,17 +98,17 @@ None
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
-
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
 <a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
 
 <a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
  
 

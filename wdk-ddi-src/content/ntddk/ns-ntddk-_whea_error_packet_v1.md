@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 66189a9a-241f-4457-87cd-d5d583a46f14
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET_V1, *PWHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET, PWHEA_ERROR_PACKET_V1, *PWHEA_ERROR_PACKET, whea.whea_error_packet_v1, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml, _WHEA_ERROR_PACKET_V1, ntddk/PWHEA_ERROR_PACKET_V1, ntddk/WHEA_ERROR_PACKET_V1
+ms.keywords: WHEA_ERROR_PACKET_V1, *PWHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], ntddk/PWHEA_ERROR_PACKET_V1, *PWHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET, whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml, ntddk/WHEA_ERROR_PACKET_V1, whea.whea_error_packet_v1, PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], PWHEA_ERROR_PACKET_V1, _WHEA_ERROR_PACKET_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,39 +90,9 @@ typedef struct _WHEA_ERROR_PACKET_V1 {
 
 
 
-#### - u
+### -field u
 
 A union consisting of the following members:
-
-
-#### ProcessorError
-
-A <a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure that describes processor error data. This member is used only when the <b>ErrorType</b> member is set to <b>WheaErrTypeProcessor</b>. 
-
-
-#### MemoryError
-
-A <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a> structure that describes memory error data. This member is used only when the <b>ErrorType</b> member is set to <b>WheaErrTypeMemory</b>. 
-
-
-#### NmiError
-
-A <a href="..\ntddk\ns-ntddk-_whea_nmi_error_section.md">WHEA_NMI_ERROR_SECTION</a> structure that describes nonmaskable interrupt (NMI) error data. This member is used only when the <b>ErrorType</b> member is set to <b>WheaErrTypeNMI</b>. 
-
-
-#### PciExpressError
-
-A <a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure that describes PCI Express (PCIe) error data. This member is used only when the <b>ErrorType</b> member is set to <b>WheaErrTypePCIExpress</b>. 
-
-
-#### PciXBusError
-
-A <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a> structure that describes PCI or PCI-X bus error data. This member is used only when the <b>ErrorType</b> member is set to <b>WheaErrTypePCIXBus</b>. 
-
-
-#### PciXDeviceError
-
-A <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure that describes PCI or PCI-X device error data. This member is used only when the <b>ErrorType</b> member is set to <b>WheaErrTypePCIXDevice</b>. 
 
 
 ### -field u.ProcessorError
@@ -155,82 +125,82 @@ A <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_
 A <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure that describes PCI or PCI-X device error data. This member is used only when the <b>ErrorType</b> member is set to <b>WheaErrTypePCIXDevice</b>. 
 
 
-#### - Signature
+### -field Signature
 
 The signature of the hardware error packet. This member contains the value WHEA_ERROR_PACKET_V1_SIGNATURE.
 
 
-#### - Flags
+### -field Flags
 
 A <a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a> union that describes the error condition. 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of the hardware error packet, including the raw data.
 
 
-#### - RawDataLength
+### -field RawDataLength
 
 The length, in bytes, of the data that is contained in the <b>RawData</b> member.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for system use.
 
 
-#### - Context
+### -field Context
 
 Reserved for system use.
 
 
-#### - ErrorType
+### -field ErrorType
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>-typed value that indicates the type of hardware component that reported the hardware error.
 
 
-#### - ErrorSeverity
+### -field ErrorSeverity
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition.
 
 
-#### - ErrorSourceId
+### -field ErrorSourceId
 
 The identifier of the error source that reported the hardware error.
 
 
-#### - ErrorSourceType
+### -field ErrorSourceType
 
 A <a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>-typed value that indicates the type of error source that reported the hardware error.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved for system use.
 
 
-#### - Version
+### -field Version
 
 The version of the WHEA_ERROR_PACKET_V1 structure. This member contains the value WHEA_ERROR_PKT_V1VERSION.
 
 
-#### - Cpu
+### -field Cpu
 
 Reserved for system use.
 
 
-#### - RawDataFormat
+### -field RawDataFormat
 
 A <a href="..\ntddk\ne-ntddk-_whea_raw_data_format.md">WHEA_RAW_DATA_FORMAT</a>-typed value that indicates the format of the hardware error information that is contained in the <b>RawData</b> data buffer.
 
 
-#### - RawDataOffset
+### -field RawDataOffset
 
 An offset, in bytes, from the beginning of the <b>RawData</b> data buffer where a PSHED plug-in can add supplementary platform-specific error information to the hardware error packet. The amount of supplementary information that can be added to the hardware error packet is limited by the total size of the packet as specified in the <b>Size</b> member.
 
 
-#### - RawData
+### -field RawData
 
 A variable-sized data buffer that contains the raw hardware error information from the error source's status registers. The format of the hardware error data is specified by the <b>RawDataFormat</b> member.
 
@@ -258,33 +228,33 @@ The WHEA_ERROR_PACKET_V1 structure describes the error data that is contained in
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_whea_raw_data_format.md">WHEA_RAW_DATA_FORMAT</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_nmi_error_section.md">WHEA_NMI_ERROR_SECTION</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_packet_v2.md">WHEA_ERROR_PACKET_V2</a>
 
 <a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
-
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
-
-<a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>
+<a href="..\ntddk\ne-ntddk-_whea_raw_data_format.md">WHEA_RAW_DATA_FORMAT</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_nmi_error_section.md">WHEA_NMI_ERROR_SECTION</a>
+<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
 
-<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
+<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
  
 

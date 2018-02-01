@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2adf102b-52aa-40e4-b3de-9189803339bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], PDOT11_PHY_FRAME_STATISTICS, Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, windot11/PDOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_frame_statistics, DOT11_PHY_FRAME_STATISTICS, windot11/DOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS
+ms.keywords: "*PDOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS, Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, DOT11_PHY_FRAME_STATISTICS, windot11/DOT11_PHY_FRAME_STATISTICS, windot11/PDOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], netvista.dot11_phy_frame_statistics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,19 +86,19 @@ typedef struct DOT11_PHY_FRAME_STATISTICS {
 
 
 
-#### - ullTransmittedFrameCount
+### -field ullTransmittedFrameCount
 
 The number of MSDU packets and MMPDU frames that the IEEE PHY layer of the 802.11 station has
      successfully transmitted.
 
 
-#### - ullMulticastTransmittedFrameCount
+### -field ullMulticastTransmittedFrameCount
 
 The number of multicast or broadcast MSDU packets and MMPDU frames that the IEEE PHY layer of the
      802.11 station has successfully transmitted.
 
 
-#### - ullFailedCount
+### -field ullFailedCount
 
 The number of MSDU packets and MMPDU frames that the 802.11 station failed to transmit after
      exceeding the retry limits defined by the 802.11 IEEE 
@@ -108,13 +108,13 @@ The number of MSDU packets and MMPDU frames that the 802.11 station failed to tr
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569380">OID_DOT11_LONG_RETRY_LIMIT</a>.
 
 
-#### - ullRetryCount
+### -field ullRetryCount
 
 The number of MSDU packets and MMPDU frames that the 802.11 station successfully transmitted after
      one or more attempts.
 
 
-#### - ullMultipleRetryCount
+### -field ullMultipleRetryCount
 
 The number of MSDU packets and MMPDU frames that the 802.11 station successfully transmitted after
      more than one retransmission attempt. 
@@ -124,40 +124,40 @@ For MSDU packets, the miniport driver must increment this counter for each packe
      transmitted successfully after one or more of its MPDU fragments required retransmission.
 
 
-#### - ullMaxTXLifetimeExceededCount
+### -field ullMaxTXLifetimeExceededCount
 
 The number of MSDU packets and MMPDU frames that the 802.11 station failed to transmit because of
      a timeout as defined by the IEEE 802.11 
      <b>dot11MaxTransmitMSDULifetime</b> MIB object. For more information about this MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_max_transmit_msdu_lifetime" tabindex="0">
-     OID_DOT11_MAX_TRANSMIT_MSDU_LIFETIME</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-max-transmit-msdu-lifetime">
+     OID_DOT11_MAX_TRANSMIT_MSDU_LIFETIME</a>.
 
 
-#### - ullTransmittedFragmentCount
+### -field ullTransmittedFragmentCount
 
 The number of MPDU frames that the 802.11 station transmitted and acknowledged through a received
      802.11 ACK frame.
 
 
-#### - ullRTSSuccessCount
+### -field ullRTSSuccessCount
 
 The number of times that the 802.11 station received a Clear To Send (CTS) frame in response to a
      Request To Send (RTS) frame.
 
 
-#### - ullRTSFailureCount
+### -field ullRTSFailureCount
 
 The number of times that the 802.11 station did not receive a CTS frame in response to an RTS
      frame.
 
 
-#### - ullACKFailureCount
+### -field ullACKFailureCount
 
 The number of times that the 802.11 station expected and did not receive an Acknowledgement (ACK)
      frame.
 
 
-#### - ullReceivedFrameCount
+### -field ullReceivedFrameCount
 
 The total number of MSDU packets and MMPDU frames that the 802.11 station has successfully
      received.
@@ -172,7 +172,7 @@ This counter is optional. If the NIC does not support this counter, the miniport
      this member to DOT11_STATISTICS_UNKNOWN.
 
 
-#### - ullMulticastReceivedFrameCount
+### -field ullMulticastReceivedFrameCount
 
 The number of multicast or broadcast MSDU packets and MMPDU frames that the 802.11 station has
      successfully received.
@@ -187,7 +187,7 @@ This counter is optional. If the NIC does not support this counter, the miniport
      this member to DOT11_STATISTICS_UNKNOWN.
 
 
-#### - ullPromiscuousReceivedFrameCount
+### -field ullPromiscuousReceivedFrameCount
 
 The number of MSDU packets or MMPDU frames received by the 802.11 station when a promiscuous
      packet filter is enabled. For more information about packet filters, see 
@@ -212,27 +212,27 @@ Multicast or broadcast MSDU packets or MMPDU frames with a destination MAC addre
 </li>
 </ul>
 
-#### - ullMaxRXLifetimeExceededCount
+### -field ullMaxRXLifetimeExceededCount
 
 The number if MSDU packets and MMPDU frames that the 802.11 station discarded because of a timeout
      as defined by the IEEE 802.11 
      <b>dot11MaxReceiveLifetime</b> MIB object. For more information about this MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_max_receive_lifetime" tabindex="0">
-     OID_DOT11_MAX_RECEIVE_LIFETIME</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-max-receive-lifetime">
+     OID_DOT11_MAX_RECEIVE_LIFETIME</a>.
 
 
-#### - ullFrameDuplicateCount
+### -field ullFrameDuplicateCount
 
 The number of duplicate MPDU frames that the 802.11 station received. The 802.11 station
      determines duplicate frames through the Sequence Control field of the 802.11 MAC header.
 
 
-#### - ullReceivedFragmentCount
+### -field ullReceivedFragmentCount
 
 The number of MPDU frames received by the 802.11 station for MSDU packets or MMPDU frames.
 
 
-#### - ullPromiscuousReceivedFragmentCount
+### -field ullPromiscuousReceivedFragmentCount
 
 The number of MPDU frames received by the 802.11 station for MSDU packets or MMPDU frames when a
      promiscuous packet filter was enabled. For more information about packet filters, see 
@@ -257,7 +257,7 @@ Multicast or broadcast MPDU frames with a destination MAC address that matches a
 </li>
 </ul>
 
-#### - ullFCSErrorCount
+### -field ullFCSErrorCount
 
 The number of MPDU frames that the 802.11 station received with FCS errors.
 
@@ -285,14 +285,14 @@ The members of this structure are used to record PHY-level statistics for:
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
+
 <a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
 
-<a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
-
-<mshelp:link keywords="netvista.extensible_station_phy_statistics" tabindex="0">Extensible Station PHY
-   Statistics</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
+   Statistics</a>
 
  
 

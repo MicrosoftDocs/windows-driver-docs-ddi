@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0a101b59-c610-4158-97a8-002222a94309
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, GdiGetPageCount function [Print Devices], winppi/GdiGetPageCount, print.gdigetpagecount, GdiGetPageCount
+ms.keywords: print.gdigetpagecount, gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, winppi/GdiGetPageCount, GdiGetPageCount function [Print Devices], GdiGetPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ DWORD GdiGetPageCount(
 
 
 
-#### - SpoolFileHandle
+### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 

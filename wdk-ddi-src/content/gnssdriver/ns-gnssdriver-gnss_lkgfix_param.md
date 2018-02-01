@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: AE4F03D6-A3A7-40DD-9DD9-D9B8F25FD567
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_LKGFIX_PARAM, gnssdriver/PGNSS_LKGFIX_PARAM, PGNSS_LKGFIX_PARAM structure pointer [Sensor Devices], *PGNSS_LKGFIX_PARAM, PGNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM structure [Sensor Devices], sensors.gnss_lkgfix_param, GNSS_LKGFIX_PARAM
+ms.keywords: gnssdriver/GNSS_LKGFIX_PARAM, sensors.gnss_lkgfix_param, gnssdriver/PGNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM structure [Sensor Devices], *PGNSS_LKGFIX_PARAM, PGNSS_LKGFIX_PARAM structure pointer [Sensor Devices], PGNSS_LKGFIX_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 

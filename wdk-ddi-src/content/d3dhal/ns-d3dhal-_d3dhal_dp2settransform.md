@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7905f5bd-15f5-4b4f-bc00-91acb2371dc0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2SETTRANSFORM, D3DHAL_DP2SETTRANSFORM structure [Display Devices], *LPD3DHAL_DP2SETTRANSFORM, D3DHAL_DP2SETTRANSFORM, d3dhal/D3DHAL_DP2SETTRANSFORM, LPD3DHAL_DP2SETTRANSFORM structure pointer [Display Devices], display.d3dhal_dp2settransform, d3dhal/LPD3DHAL_DP2SETTRANSFORM, d3dstrct_0392a6fc-4098-4c82-92fa-5684be9fa195.xml, _D3DHAL_DP2SETTRANSFORM
+ms.keywords: "_D3DHAL_DP2SETTRANSFORM, LPD3DHAL_DP2SETTRANSFORM, d3dhal/D3DHAL_DP2SETTRANSFORM, *LPD3DHAL_DP2SETTRANSFORM, display.d3dhal_dp2settransform, LPD3DHAL_DP2SETTRANSFORM structure pointer [Display Devices], D3DHAL_DP2SETTRANSFORM structure [Display Devices], d3dstrct_0392a6fc-4098-4c82-92fa-5684be9fa195.xml, D3DHAL_DP2SETTRANSFORM, d3dhal/LPD3DHAL_DP2SETTRANSFORM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _D3DHAL_DP2SETTRANSFORM {
 
 
 
-#### - xfrmType
+### -field xfrmType
 
 Specifies the type of transform being done.
 <table>
@@ -109,7 +109,7 @@ Specifies a world transformation.
 </table> 
 
 
-#### - matrix
+### -field matrix
 
 Specifies the matrix used to perform the transform. 
 
@@ -123,9 +123,9 @@ This structure is used with hardware transform and lighting and is used by the D
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2multiplytransform.md">D3DHAL_DP2MULTIPLYTRANSFORM</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

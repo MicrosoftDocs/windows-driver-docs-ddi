@@ -78,27 +78,27 @@ NTSTATUS WSKAPI * WskSendTo(
 
 
 
-#### - Socket [in]
+### -param Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket over which to send the datagram.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to an initialized 
      <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that describes the data buffer
      that contains the datagram that is being sent over the socket.
 
 
-#### - Flags
+### -param Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
 
-#### - RemoteAddress [in, optional]
+### -param RemoteAddress [in, optional]
 
 A pointer to a structure that specifies the remote transport address to which to send the
      datagram. This pointer must be a pointer to the specific SOCKADDR structure type that corresponds to the
@@ -111,22 +111,22 @@ If the WSK application has set either a fixed remote transport address or a fixe
      non-<b>NULL</b>, the datagram is sent to the specified remote transport address.
 
 For more information about setting a fixed remote transport address for a datagram socket, see 
-     <mshelp:link keywords="netvista.sio_wsk_set_remote_address" tabindex="0"><b>
-     SIO_WSK_SET_REMOTE_ADDRESS</b></mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">
+     SIO_WSK_SET_REMOTE_ADDRESS</a>.
 
 For more information about setting a fixed destination transport address for a datagram socket, see 
-     <mshelp:link keywords="netvista.sio_wsk_set_sendto_address" tabindex="0"><b>
-     SIO_WSK_SET_SENDTO_ADDRESS</b></mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570821">
+     SIO_WSK_SET_SENDTO_ADDRESS</a>.
 
 
-#### - ControlInfoLength [in]
+### -param ControlInfoLength [in]
 
 The number of bytes of data in the buffer that is pointed to by the 
      <i>ControlInfo</i> parameter. If there is no control information associated with the datagram, the 
      <i>ControlInfoLength</i> parameter must be zero.
 
 
-#### - ControlInfo [in, optional]
+### -param ControlInfo [in, optional]
 
 A pointer to a buffer that contains control information that is associated with the datagram that
      is being sent. The control information data consists of one or more control data objects, each of which
@@ -135,12 +135,12 @@ A pointer to a buffer that contains control information that is associated with 
      information that is associated with the datagram, this parameter should be <b>NULL</b>.
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
 
 
 ## -returns
@@ -233,24 +233,24 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c02be0a4-f82a-4895-bbae-21f6ffdc5466
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetActualProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl3, dbgeng/IDebugControl::GetActualProcessorType, IDebugControl3::GetActualProcessorType, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, dbgeng/IDebugControl3::GetActualProcessorType, GetActualProcessorType method [Windows Debugging], dbgeng/IDebugControl2::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl3 interface [Windows Debugging], GetActualProcessorType method, IDebugControl2 interface [Windows Debugging], GetActualProcessorType method, GetActualProcessorType, debugger.getactualprocessortype, IDebugControl interface [Windows Debugging], GetActualProcessorType method, GetActualProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetActualProcessorType, GetActualProcessorType method [Windows Debugging], IDebugControl interface
+ms.keywords: GetActualProcessorType method [Windows Debugging], GetActualProcessorType, IDebugControl3 interface [Windows Debugging], GetActualProcessorType method, IDebugControl3::GetActualProcessorType, dbgeng/IDebugControl3::GetActualProcessorType, GetActualProcessorType method [Windows Debugging], IDebugControl interface, GetActualProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetActualProcessorType, dbgeng/IDebugControl2::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetActualProcessorType method, dbgeng/IDebugControl::GetActualProcessorType, GetActualProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, IDebugControl interface [Windows Debugging], GetActualProcessorType method, debugger.getactualprocessortype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetActualProcessorType(
 
 
 
-#### - Type [out]
+### -param Type [out]
 
 Receives the type of the processor.  The processor types are listed in the following table.     
 <table>
@@ -163,15 +163,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546670">GetExecutingProcessorType</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546595">GetEffectiveProcessorType</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546670">GetExecutingProcessorType</a>
 
  
 

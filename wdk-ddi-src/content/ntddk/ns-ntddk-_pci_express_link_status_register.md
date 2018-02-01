@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c3431e89-4a47-44e6-98d8-eae444ea1915
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], *PPCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER, PCI.pci_express_link_status_register, PPCI_EXPRESS_LINK_STATUS_REGISTER, _PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml
+ms.keywords: PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, PPCI_EXPRESS_LINK_STATUS_REGISTER, PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml, _PCI_EXPRESS_LINK_STATUS_REGISTER, *PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], PCI.pci_express_link_status_register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,46 +83,6 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.LinkSpeed
 
- 
-
-
-### -field DUMMYSTRUCTNAME.LinkWidth
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Undefined
-
- 
-
-
-### -field DUMMYSTRUCTNAME.LinkTraining
-
- 
-
-
-### -field DUMMYSTRUCTNAME.SlotClockConfig
-
- 
-
-
-### -field DUMMYSTRUCTNAME.DataLinkLayerActive
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Rsvd
-
- 
-
-
-#### - AsUSHORT
-
-A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER structure.
-
-
-#### - LinkSpeed
-
 The negotiated link speed of the PCIe link.  Possible values are:
 <table>
 <tr>
@@ -144,7 +104,7 @@ The negotiated link speed of the PCIe link.  Possible values are:
 </table> 
 
 
-#### - LinkWidth
+### -field DUMMYSTRUCTNAME.LinkWidth
 
 The negotiated link width (number of lanes) of the PCIe link. Possible values are:
 <table>
@@ -187,29 +147,34 @@ The negotiated link width (number of lanes) of the PCIe link. Possible values ar
 </table> 
 
 
-#### - Undefined
+### -field DUMMYSTRUCTNAME.Undefined
 
 Reserved. Device drivers and other system software should ignore any value read from this bit.
 
 
-#### - LinkTraining
+### -field DUMMYSTRUCTNAME.LinkTraining
 
 A single bit that indicates that the link is in the configuration or recovery state, or that a 1 was written to the retrain link bit of the PCIe link control register and the training has not yet begun. This member is not applicable to endpoint devices and upstream ports of switches.
 
 
-#### - SlotClockConfig
+### -field DUMMYSTRUCTNAME.SlotClockConfig
 
 A single bit that indicates that the component uses the same physical reference clock that the hardware platform provides on the PCIe slot connector. If this bit is clear, the component uses an independent clock irrespective of the presence of a reference clock on the PCIe slot connector.
 
 
-#### - DataLinkLayerActive
+### -field DUMMYSTRUCTNAME.DataLinkLayerActive
 
 A single bit that indicates that the data link control and management state machine is in the data link active state.
 
 
-#### - Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
+
+
+### -field AsUSHORT
+
+A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER structure.
 
 
 ## -remarks

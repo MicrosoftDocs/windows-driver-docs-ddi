@@ -79,22 +79,22 @@ VOID HwStorStateChange(
 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>.
 
 
-#### - AddressType [in]
+### -param AddressType [in]
 
 The type of the address in <i>Address</i>.
 
 
-#### - Address [in]
+### -param Address [in]
 
-A pointer to a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure for the entity whose state change was processed.
+A pointer to a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure for the entity whose state change was processed.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The processing status for the state change notification.
 
@@ -145,7 +145,7 @@ HW_STATE_CHANGE (
 
 <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>
 
-<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
  
 

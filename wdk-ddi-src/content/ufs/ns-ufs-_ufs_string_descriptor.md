@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ufs/UFS_STRING_DESCRIPTOR, _UFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, UFS_STRING_DESCRIPTOR structure [Storage Devices], PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, ufs/PUFS_STRING_DESCRIPTOR
+ms.keywords: "_UFS_STRING_DESCRIPTOR, ufs/PUFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], *PUFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _UFS_STRING_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-#### - bDescriptorIDN
+### -field bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_STRING_IDN</b>.
 
 
-#### - String
+### -field String
 
 Contains either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string.
 

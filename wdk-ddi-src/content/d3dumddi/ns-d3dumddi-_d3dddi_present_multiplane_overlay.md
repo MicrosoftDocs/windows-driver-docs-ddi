@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45db9dbb-d1e1-4ed3-bf4d-99b6ac7542ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, display.d3dddi_present_multiplane_overlay
+ms.keywords: d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY, display.d3dddi_present_multiplane_overlay, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], D3DDDI_PRESENT_MULTIPLANE_OVERLAY, _D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DDDI_PRESENT_MULTIPLANE_OVERLAY {
 
 
 
-#### - LayerIndex
+### -field LayerIndex
 
 The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
 
 
-#### - Enabled
+### -field Enabled
 
 Indicates if the overlay plane specified by <b>LayerIndex</b> is enabled for display.
 
 
-#### - hResource
+### -field hResource
 
 A handle to the resource that is displayed by using the overlay plane.
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the subresource, or surface, on which an overlay plane is to be displayed.
 
 
-#### - PlaneAttributes
+### -field PlaneAttributes
 
 A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
 

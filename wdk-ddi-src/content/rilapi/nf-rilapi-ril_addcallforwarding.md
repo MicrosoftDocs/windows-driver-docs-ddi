@@ -74,23 +74,23 @@ HRESULT  RIL_AddCallForwarding(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - dwReason
+### -param dwReason
 
 
 
-#### - lpSettings
+### -param lpSettings
 
 
 

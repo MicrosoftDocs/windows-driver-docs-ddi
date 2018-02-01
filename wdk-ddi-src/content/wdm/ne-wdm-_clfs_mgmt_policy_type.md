@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50e31ff1-07f2-4781-81f2-8db6e3cf9cc6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtPolicyGrowthRate, CLFS_MGMT_POLICY_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyMaximumSize, wdm/ClfsMgmtPolicyLogTail, wdm/ClfsMgmtPolicyMinimumSize, _CLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyNewContainerSuffix, wdm/ClfsMgmtPolicyNewContainerSize, wdm/ClfsMgmtPolicyGrowthRate, wdm/ClfsMgmtPolicyInvalid, wdm/ClfsMgmtPolicyAutoGrow, ClfsMgmtPolicyNewContainerSize, PCLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyLogTail, CLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyAutoGrow, wdm/ClfsMgmtPolicyNewContainerPrefix, wdm/ClfsMgmtPolicyAutoShrink, kernel.clfs_mgmt_policy_type, ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyNewContainerPrefix, ClfsMgmtPolicyMinimumSize, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Kernel-Mode Driver Architecture], sysenum_bae8275b-5f70-40fb-ae14-f803eaeb0a42.xml, wdm/CLFS_MGMT_POLICY_TYPE, wdm/PCLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyInvalid, *PCLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyNewContainerSuffix, wdm/ClfsMgmtPolicyMaximumSize
+ms.keywords: ClfsMgmtPolicyGrowthRate, ClfsMgmtPolicyNewContainerPrefix, ClfsMgmtPolicyLogTail, ClfsMgmtPolicyNewContainerExtension, wdm/ClfsMgmtPolicyMaximumSize, wdm/PCLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyNewContainerSize, ClfsMgmtPolicyNewContainerSize, wdm/CLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyNewContainerSuffix, wdm/ClfsMgmtPolicyNewContainerExtension, PCLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyLogTail, CLFS_MGMT_POLICY_TYPE enumeration [Kernel-Mode Driver Architecture], ClfsMgmtPolicyInvalid, CLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyMaximumSize, wdm/ClfsMgmtPolicyMinimumSize, wdm/ClfsMgmtPolicyAutoGrow, kernel.clfs_mgmt_policy_type, wdm/ClfsMgmtPolicyAutoShrink, wdm/ClfsMgmtPolicyGrowthRate, _CLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyNewContainerSuffix, wdm/ClfsMgmtPolicyInvalid, *PCLFS_MGMT_POLICY_TYPE, sysenum_bae8275b-5f70-40fb-ae14-f803eaeb0a42.xml, ClfsMgmtPolicyMinimumSize, ClfsMgmtPolicyAutoGrow, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/ClfsMgmtPolicyNewContainerPrefix, ClfsMgmtPolicyAutoShrink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,57 +78,57 @@ typedef enum _CLFS_MGMT_POLICY_TYPE {
 
 
 
-#### - ClfsMgmtPolicyMaximumSize
+### -field ClfsMgmtPolicyMaximumSize
 
 Indicates a policy that specifies the maximum size of a log. 
 
 
-#### - ClfsMgmtPolicyMinimumSize
+### -field ClfsMgmtPolicyMinimumSize
 
 Indicates a policy that specifies the minimum size of a log. 
 
 
-#### - ClfsMgmtPolicyNewContainerSize
+### -field ClfsMgmtPolicyNewContainerSize
 
 Indicates a policy that specifies the size of new containers that are created.
 
 
-#### - ClfsMgmtPolicyGrowthRate
+### -field ClfsMgmtPolicyGrowthRate
 
 Indicates a policy that specifies how many new containers will be added to the log each time the log grows.
 
 
-#### - ClfsMgmtPolicyLogTail
+### -field ClfsMgmtPolicyLogTail
 
 Indicates a policy that specifies how much free space will be requested when a client is notified to move its log tail. 
 
 
-#### - ClfsMgmtPolicyAutoShrink
+### -field ClfsMgmtPolicyAutoShrink
 
 Indicates a policy that specifies when the log will shrink based on the percentage of the log that is free.
 
 
-#### - ClfsMgmtPolicyAutoGrow
+### -field ClfsMgmtPolicyAutoGrow
 
 Indicates a policy that specifies whether the log should grow when fewer than two containers are free.
 
 
-#### - ClfsMgmtPolicyNewContainerPrefix
+### -field ClfsMgmtPolicyNewContainerPrefix
 
 Indicates a policy that specifies a prefix for the file name of each container, as well as the full path to the directory where the containers will be placed.
 
 
-#### - ClfsMgmtPolicyNewContainerSuffix
+### -field ClfsMgmtPolicyNewContainerSuffix
 
 Indicates a policy that specifies a number to use as the starting suffix for container file names.
 
 
-#### - ClfsMgmtPolicyNewContainerExtension
+### -field ClfsMgmtPolicyNewContainerExtension
 
 Indicates a policy that specifies an extension for the file name of each container.
 
 
-#### - ClfsMgmtPolicyInvalid
+### -field ClfsMgmtPolicyInvalid
 
 Reserved for internal use.
 

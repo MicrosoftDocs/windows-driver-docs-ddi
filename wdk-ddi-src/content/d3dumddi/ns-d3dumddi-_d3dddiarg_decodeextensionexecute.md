@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 10c69928-a12f-4583-a3cc-7c4a81da4b03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_DECODEEXTENSIONEXECUTE, D3DDDIARG_DECODEEXTENSIONEXECUTE, display.d3dddiarg_decodeextensionexecute, D3DDDIARG_DECODEEXTENSIONEXECUTE structure [Display Devices], _D3DDDIARG_DECODEEXTENSIONEXECUTE, UMDisplayDriver_param_Structs_f1b48d7e-6774-465e-99fd-29aaaf0726e1.xml
+ms.keywords: display.d3dddiarg_decodeextensionexecute, D3DDDIARG_DECODEEXTENSIONEXECUTE structure [Display Devices], _D3DDDIARG_DECODEEXTENSIONEXECUTE, D3DDDIARG_DECODEEXTENSIONEXECUTE, UMDisplayDriver_param_Structs_f1b48d7e-6774-465e-99fd-29aaaf0726e1.xml, d3dumddi/D3DDDIARG_DECODEEXTENSIONEXECUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _D3DDDIARG_DECODEEXTENSIONEXECUTE {
 
 
 
-#### - hDecode
+### -field hDecode
 
 [in] A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a> function.
 
 
-#### - Function
+### -field Function
 
 [in] A specific decode operation to perform. The possible values for this member are defined by the nonstandard decode device.
 
 
-#### - pPrivateInput
+### -field pPrivateInput
 
 [in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the decode operation.
 
 
-#### - pPrivateOutput
+### -field pPrivateOutput
 
 [out] A pointer to a DXVADDI_PRIVATEDATA structure that contains data about the decode operation that the driver returns.
 
 
-#### - NumBuffers
+### -field NumBuffers
 
 [in] The number of buffers in the list that is pointed to by <b>pBuffers</b>.
 
 
-#### - pBuffers
+### -field pBuffers
 
 
       [in] A pointer to a list of <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatebuffer.md">DXVADDI_PRIVATEBUFFER</a> structures that describe private buffers that a nonstandard decoder uses to perform a decode operation.
@@ -106,13 +106,13 @@ typedef struct _D3DDDIARG_DECODEEXTENSIONEXECUTE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeextensionexecute.md">DecodeExtensionExecute</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeextensionexecute.md">DecodeExtensionExecute</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatebuffer.md">DXVADDI_PRIVATEBUFFER</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FE12CFAB-3936-4453-88B5-A4CF0CA51E1A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, display.dxgi_ddi_arg_checkpresentdurationsupport, _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT
+ms.keywords: "_DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, display.dxgi_ddi_arg_checkpresentdurationsupport, DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,29 +71,29 @@ typedef struct _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT {
 
 
 
-#### - hDevice
+### -field hDevice
 
 A handle to the display device (graphics context) on which the driver performs the presentation. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 The zero-based video present network (VidPN) source identification number of the input for which the hardware support is queried.
 
 
-#### - DesiredPresentDuration
+### -field DesiredPresentDuration
 
 The desired duration of a single present operation, in units of 100 nanoseconds.
 
 
-#### - ClosestSmallerDuration
+### -field ClosestSmallerDuration
 
 The smallest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≤ <b>DesiredPresentDuration</b>.
 
 See Remarks for more limitations on this value.
 
 
-#### - ClosestLargerDuration
+### -field ClosestLargerDuration
 
 [out] The largest supported desired duration of a single present operation on the given VidPN source, in units of 100 nanoseconds. The value must be ≥ <b>DesiredPresentDuration</b>.
 
@@ -113,11 +113,11 @@ The difference between <b>DesiredPresentDuration</b> and <b>ClosestSmallerDurati
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
 <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_checkpresentdurationsupport.md">pfnCheckPresentDurationSupport(DXGI)</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
  
 

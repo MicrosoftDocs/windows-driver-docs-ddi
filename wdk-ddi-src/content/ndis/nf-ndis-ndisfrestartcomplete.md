@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 84685763-e7d8-4184-afa3-83efb4a0d3d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFRestartComplete, ndis/NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfrestartcomplete, filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml
+ms.keywords: NdisFRestartComplete function [Network Drivers Starting with Windows Vista], NdisFRestartComplete, netvista.ndisfrestartcomplete, ndis/NdisFRestartComplete, filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,29 +72,19 @@ VOID NdisFRestartComplete(
 
 
 
-#### - NdisFilterHandle [in]
+### -param NdisFilterHandle [in]
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The final status of the restart operation. The following status values are supported:
      
 
 
-
-
-#### NDIS_STATUS_SUCCESS
-
-The driver successfully restarted the flow of network data.
-
-
-#### NDIS_STATUS_RESOURCES
-
-The restart failed because of insufficient resources.
 
 
 #### NDIS_STATUS_FAILURE
@@ -103,6 +93,16 @@ The driver indicates NDIS_STATUS_FAILURE if none of the preceding values applies
        should call the 
        <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a> function
        together with parameters that specify the reason for the failure.
+
+
+#### NDIS_STATUS_RESOURCES
+
+The restart failed because of insufficient resources.
+
+
+#### NDIS_STATUS_SUCCESS
+
+The driver successfully restarted the flow of network data.
 
 
 ## -returns
@@ -133,11 +133,11 @@ A filter driver can resume indicating received network data immediately after ND
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
  
 

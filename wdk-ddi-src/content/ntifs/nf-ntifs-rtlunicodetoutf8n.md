@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fdbb5d74-25d5-4920-849c-8d4adce1d216
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeToUTF8N, kernel.rtlunicodetoutf8n, RtlUnicodeToUTF8N
+ms.keywords: wdm/RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, kernel.rtlunicodetoutf8n, RtlUnicodeToUTF8N
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS RtlUnicodeToUTF8N(
 
 
 
-#### - UTF8StringDestination [out]
+### -param UTF8StringDestination [out]
 
 A pointer to a caller-allocated destination buffer into which the routine writes the UTF-8 output string. If this parameter is <b>NULL</b>, the routine writes the required size of the output buffer to *<i>UTF8StringActualByteCount</i>. 
 
 
-#### - UTF8StringMaxByteCount [in]
+### -param UTF8StringMaxByteCount [in]
 
 Specifies the maximum number of bytes that the routine can write to the buffer that <i>UTF8StringDestination</i> points to. If <i>UTF8StringDestination</i> = <b>NULL</b>, set <i>UTF8StringMaxByteCount</i> = 0. 
 
 
-#### - UTF8StringActualByteCount [out]
+### -param UTF8StringActualByteCount [out]
 
 A pointer to a location into which the routine writes the actual number of bytes that it has written to the buffer that <i>UTF8StringDestination</i> points to. If <i>UTF8StringDestination</i> is non-<b>NULL</b>, this count never exceeds the value of <i>UTF8StringMaxByteCount</i>. If <i>UTF8StringDestination</i> is <b>NULL</b>, this count is the number of bytes that are required to contain the entire output string. 
 
 
-#### - UnicodeStringSource [in]
+### -param UnicodeStringSource [in]
 
 A pointer to the Unicode source string.
 
 
-#### - UnicodeStringByteCount [in]
+### -param UnicodeStringByteCount [in]
 
 Specifies the number of bytes in the Unicode source string that the <i>UnicodeStringSource</i> parameter points to. 
 

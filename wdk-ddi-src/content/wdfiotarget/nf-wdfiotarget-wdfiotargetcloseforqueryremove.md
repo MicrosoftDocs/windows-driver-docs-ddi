@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5fa93ac6-8aee-4248-b0a6-ab82bc5486bf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetCloseForQueryRemove, wdf.wdfiotargetcloseforqueryremove, kmdf.wdfiotargetcloseforqueryremove, WdfIoTargetCloseForQueryRemove method, WdfIoTargetCloseForQueryRemove, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, PFN_WDFIOTARGETCLOSEFORQUERYREMOVE
+ms.keywords: kmdf.wdfiotargetcloseforqueryremove, WdfIoTargetCloseForQueryRemove, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, wdf.wdfiotargetcloseforqueryremove, WdfIoTargetCloseForQueryRemove method, PFN_WDFIOTARGETCLOSEFORQUERYREMOVE, wdfiotarget/WdfIoTargetCloseForQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfIoTargetCloseForQueryRemove(
 
 
 
-#### - IoTarget [in]
+### -param IoTarget [in]
 
 A handle to a remote I/O target object that was obtained from a previous call to <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>.
 

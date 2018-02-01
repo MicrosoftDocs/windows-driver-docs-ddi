@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1149547D-9165-42AA-B12A-5C7681A8EAC1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_MAPPING_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG, display.d3dwddm1_3ddi_tile_mapping_flag, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE
+ms.keywords: D3DWDDM1_3DDI_TILE_MAPPING_FLAG, D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, display.d3dwddm1_3ddi_tile_mapping_flag, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,7 +68,7 @@ enum D3DWDDM1_3DDI_TILE_MAPPING_FLAG {
 
 
 
-#### - D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE
+### -field D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE
 
 Previously submitted commands to the 
 device that may still be executing do not reference any of the tile region being updated.

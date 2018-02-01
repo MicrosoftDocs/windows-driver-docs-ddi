@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_BUILDPAGINGBUFFER, DXGK_BUILDPAGINGBUFFER_OPERATION, DXGKARG_BUILDPAGINGBUFFER, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, display.dxgkarg_buildpagingbuffer, *IN_PDXGKARG_BUILDPAGINGBUFFER"
+ms.keywords: DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], *IN_PDXGKARG_BUILDPAGINGBUFFER, _DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, DXGK_BUILDPAGINGBUFFER_OPERATION, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -190,73 +190,14 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 
 
 
-#### - Transfer
+### -field Transfer
 
 [in] A structure that describes the transfer operation.
 
 
-#### hAllocation
-
-[in] A handle to the allocation that the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function previously returned in the <b>hAllocation</b> member of a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure, which is part of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure's <b>pAllocationInfo</b> member. The allocation handle points to a buffer that contains private driver data for the transfer.
-
-
-#### TransferOffset
-
-[in] The offset, in bytes, of the first page within the allocation that is transferred. This offset is applied only to a location that a segment location describes. This offset does not apply to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> description of a memory range. If the driver requires more than one paging buffer to complete the transfer (that is, the driver returns STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER from its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function), <b>TransferOffset</b> is the same for each call to <i>DxgkDdiBuildPagingBuffer</i> for this transfer.
-
-
-#### TransferSize
-
-[in] The size, in bytes, of the memory information to transfer.
-
-
-#### Source
-
-[in] A structure that describes the source allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the source (<b>pMdl</b>).
-
-
-#### Destination
-
-[in] A structure that describes the destination allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
-
-
-#### Flags
-
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a> structure that identifies, in bit-field flags, the type of special-lock-transfer operation to perform.
-
-
-#### MdlOffset
-
-[in] The offset, in system memory pages, within the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that the <b>pMdl</b> member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a> function as follows. 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MmGetMdlPfnArray(pMdl)[MdlOffset];</pre>
-</td>
-</tr>
-</table></span></div>
-
 ### -field Transfer.Source
 
 [in] A structure that describes the source allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the source (<b>pMdl</b>).
-
-
-#### Source.SegmentId
-
-[in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
-
-
-#### Source.SegmentAddress
-
-[in] The source segment address, if the <b>SegmentId</b> member of <b>Source</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
-
-
-#### Source.pMdl
-
-[in] A pointer to a buffer that contains the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the system memory pages for the source, if the <b>SegmentId</b> member of <b>Source</b> is zero.
 
 
 ### -field Transfer.Source.SegmentAddress
@@ -277,21 +218,6 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 ### -field Transfer.Destination
 
 [in] A structure that describes the destination allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
-
-
-#### Destination.SegmentId
-
-[in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
-
-
-#### Destination.SegmentAddress
-
-[in] The destination segment address, if the <b>SegmentId</b> member of <b>Destination</b> is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
-
-
-#### Destination.pMdl
-
-[in] A pointer to a buffer that contains the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
 
 
 ### -field Transfer.Destination.SegmentAddress
@@ -343,44 +269,14 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 </tr>
 </table></span></div>
 
-#### - Fill
+### -field Fill
 
 [in] A structure that describes the fill operation.
-
-
-#### hAllocation
-
-[in] A handle to the allocation that contains content to fill.
-
-
-#### FillSize
-
-[in] The size, in bytes, of the memory information to fill.
-
-
-#### FillPattern
-
-[in] The pattern to fill the destination with. The video memory manager uses this information to initialize video memory to a specific pattern when an allocation without content is first paged in. In this case, no source exists for the fill request—only a destination exists.
-
-
-#### Destination
-
-[in] A structure that describes the destination allocation for the fill operation.
 
 
 ### -field Fill.Destination
 
 [in] A structure that describes the destination allocation for the fill operation.
-
-
-#### Destination.SegmentId
-
-[in] The identifier of a segment within the destination allocation.
-
-
-#### Destination.SegmentAddress
-
-[in] The destination segment address. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
 
 ### -field Fill.Destination.SegmentId
@@ -408,29 +304,9 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 [in] The pattern to fill the destination with. The video memory manager uses this information to initialize video memory to a specific pattern when an allocation without content is first paged in. In this case, no source exists for the fill request—only a destination exists.
 
 
-#### - DiscardContent
+### -field DiscardContent
 
 [in] A structure that describes the discard-content operation.
-
-
-#### hAllocation
-
-[in] A handle to the allocation that contains content to discard.
-
-
-#### Flags
-
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_discardcontentflags.md">DXGK_DISCARDCONTENTFLAGS</a> structure that identifies, in bit-field flags, the type of discard-content operation to perform.
-
-
-#### SegmentId
-
-[in] The identifier of a segment within the allocation to discard content from.
-
-
-#### SegmentAddress
-
-[in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the segment address. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>. This location is where content is discarded from.
 
 
 ### -field DiscardContent.hAllocation
@@ -453,19 +329,9 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 [in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the segment address. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>. This location is where content is discarded from.
 
 
-#### - ReadPhysical
+### -field ReadPhysical
 
 [in] A structure that describes the read-physical operation.
-
-
-#### SegmentId
-
-[in] The identifier of a segment that data is read from.
-
-
-#### PhysicalAddress
-
-[in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is read.
 
 
 ### -field ReadPhysical.SegmentId
@@ -478,19 +344,9 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 [in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is read.
 
 
-#### - WritePhysical
+### -field WritePhysical
 
 [in] A structure that describes the write-physical operation.
-
-
-#### SegmentId
-
-[in] The identifier of a segment to which data is written.
-
-
-#### PhysicalAddress
-
-[in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is written.
 
 
 ### -field WritePhysical.SegmentId
@@ -503,65 +359,10 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 [in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is written.
 
 
-#### - MapApertureSegment
+### -field MapApertureSegment
 
 [in] A structure that describes the map-aperture-segment operation.
 
-
-#### hDevice
-
-[in] A handle to the device that owns the allocation that <b>hAllocation</b> specifies that is mapped into the aperture segment that <b>SegmentId</b> specifies. 
-
-For a shared allocation, <b>hDevice</b> is set to the device that the video memory manager determined to be the owner of the allocation.
-
-<b>hDevice</b> is <b>NULL</b> for the primary allocation. 
-
-
-#### hAllocation
-
-[in] A handle to the allocation that is mapped into the aperture segment that <b>SegmentId</b> specifies. 
-
-<b>hAllocation</b> is <b>NULL</b> when a DMA buffer is mapped into the aperture segment because DMA buffers are not explicitly created by the driver.
-
-
-#### SegmentId
-
-[in] The identifier of an aperture segment to configure.
-
-
-#### OffsetInPages
-
-[in] The offset, in pages, from the beginning of the segment to the first pages to map.
-
-
-#### NumberOfPages
-
-[in] The number of pages to map.
-
-
-#### pMdl
-
-[in] A pointer to a buffer that contains the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the physical system memory pages to map into the aperture segment.
-
-
-#### Flags
-
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a> structure that identifies, in bit-field flags, the type of map-aperture-segment operation to perform.
-
-
-#### MdlOffset
-
-[in] The offset, in system memory pages, within the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that the <b>pMdl</b> member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a> function as follows. 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MmGetMdlPfnArray(pMdl)[MdlOffset];</pre>
-</td>
-</tr>
-</table></span></div>
 
 ### -field MapApertureSegment.hDevice
 
@@ -618,45 +419,9 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 </tr>
 </table></span></div>
 
-#### - UnmapApertureSegment
+### -field UnmapApertureSegment
 
 [in] A structure that describes the unmap-aperture-segment operation.
-
-
-#### hDevice
-
-[in] A handle to the device that owns the allocation that <b>hAllocation</b> specifies that is unmapped from the aperture segment that <b>SegmentId</b> specifies. 
-
-For a shared allocation, <b>hDevice</b> is set to the device that the video memory manager determined to be the owner of the allocation. 
-
-<b>hDevice</b> is <b>NULL</b> for the primary allocation. 
-
-
-#### hAllocation
-
-[in] A handle to the allocation that is unmapped from the aperture segment that <b>SegmentId</b> specifies. 
-
-<b>hAllocation</b> is <b>NULL</b> when a DMA buffer is unmapped from the aperture segment because DMA buffers are not explicitly created by the driver.
-
-
-#### SegmentId
-
-[in] The identifier of an aperture segment to configure.
-
-
-#### OffsetInPages
-
-[in] The offset, in pages, from the beginning of the segment to the first pages to unmap.
-
-
-#### NumberOfPages
-
-[in] The number of pages to unmap.
-
-
-#### DummyPage
-
-[in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address of the placeholder page where the driver should map the range that is unmapped.
 
 
 ### -field UnmapApertureSegment.hDevice
@@ -695,59 +460,14 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 [in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address of the placeholder page where the driver should map the range that is unmapped.
 
 
-#### - SpecialLockTransfer
+### -field SpecialLockTransfer
 
 [in] A structure that describes the special-lock-transfer operation.
-
-
-#### hAllocation
-
-[in] A handle to the allocation that the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function previously returned in the <b>hAllocation</b> member of a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure, which is part of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure's <b>pAllocationInfo</b> member. The allocation handle points to a buffer that contains private driver data for the special-lock transfer.
-
-
-#### TransferOffset
-
-[in] The offset, in bytes, of the first page within the allocation that is transferred. This offset is applied only to a location that a segment location describes. This offset does not apply to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> description of a memory range. If the driver requires more than one paging buffer to complete the transfer (that is, the driver returns STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER from its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function), <b>TransferOffset</b> is the same for each call to <i>DxgkDdiBuildPagingBuffer</i> for this transfer.
-
-
-#### TransferSize
-
-[in] The size, in bytes, of the memory information to transfer.
-
-
-#### Source
-
-[in] A structure that describes the source allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the source (<b>pMdl</b>).
-
-
-#### Destination
-
-[in] A structure that describes the destination allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
-
-
-#### Flags
-
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a> structure that identifies, in bit-field flags, the type of special-lock-transfer operation to perform.
-
-
-#### SwizzlingRangeId
-
-[in] A UINT value that identifies the swizzling range.
-
-
-#### SwizzlingRangeData
-
-[in] A UINT value that specifies swizzling range data.
 
 
 ### -field SpecialLockTransfer.Source
 
 [in] A structure that describes the source allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the source (<b>pMdl</b>).
-
-
-#### Source.SegmentId
-
-[in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
 
 
 #### Source.(unnamed union)
@@ -783,11 +503,6 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 ### -field SpecialLockTransfer.Destination
 
 [in] A structure that describes the destination allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
-
-
-#### Destination.SegmentId
-
-[in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
 
 #### Destination.(unnamed union)
@@ -850,7 +565,7 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 [in] A UINT value that specifies swizzling range data.
 
 
-#### - InitContextResource
+### -field InitContextResource
 
 [in] A structure that describes the context initialization operation.
 
@@ -858,26 +573,9 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 Supported beginning with Windows 8.
 
 
-#### hAllocation
-
-[in] A handle to the context allocation that was created when the driver called <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>. The handle to this allocation is returned in the <b>hAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure. The driver passes a pointer to this structure in the 
-
-<i>ContextAllocation</i> parameter when it calls <b>DxgkCbCreateContextAllocation</b>.
-
-
-#### Destination
-
-[in] A structure that describes the destination context allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination context allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
-
-
 ### -field InitContextResource.Destination
 
 [in] A structure that describes the destination context allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination context allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
-
-
-#### Destination.SegmentId
-
-[in] The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
 
 #### Destination.(unnamed union)
@@ -893,13 +591,6 @@ Supported beginning with Windows 8.
 #### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
-
-
-#### Destination.VirtualAddress
-
-[in] The virtual address of the destination context allocation. This address is valid during the lifetime of the context allocation.
-
-Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
 
 
 ### -field InitContextResource.Destination.SegmentAddress
@@ -936,12 +627,7 @@ Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware
 <i>ContextAllocation</i> parameter when it calls <b>DxgkCbCreateContextAllocation</b>.
 
 
-#### - Reserved
-
-This member is reserved and should not be used.
-
-
-#### Reserved
+### -field Reserved
 
 This member is reserved and should not be used.
 
@@ -951,37 +637,37 @@ This member is reserved and should not be used.
 This member is reserved and should not be used.
 
 
-#### - TransferVirtual
+### -field TransferVirtual
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
 
 
-#### - FillVirtual
+### -field FillVirtual
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a> structure that describes the operation used to fill an allocation with a pattern. 
 
 
-#### - UpdatePageTable
+### -field UpdatePageTable
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
 
 
-#### - FlushTlb
+### -field FlushTlb
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a> structure that describes the operation used to flush the translation look-aside buffers. 
 
 
-#### - CopyPageTableEntries
+### -field CopyPageTableEntries
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
 
 
-#### - UpdateContextAllocation
+### -field UpdateContextAllocation
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a> structure that describes the operation used to update the content of a context or device allocation.
 
 
-#### - NotifyResidency
+### -field NotifyResidency
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
 
@@ -991,42 +677,42 @@ A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">D
  
 
 
-#### - pDmaBuffer
+### -field pDmaBuffer
 
 [in/out] A virtual address to the first available byte in the paging buffer. When the driver is first called with a new paging buffer, this virtual address is aligned on 4 KB. The driver tightly packs operations in the paging buffer until the paging buffer is full and then uses a new paging buffer. Therefore, if the graphics processing unit (GPU) requires a specific alignment for a paging-buffer submission, the driver should enforce this alignment by padding the operations that it writes to the paging buffer. Before the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function returns, the driver should update <b>pDmaBuffer</b> to point past the last byte that is written to the paging buffer. 
 
 
-#### - DmaSize
+### -field DmaSize
 
 [in/out] The size, in bytes, of the paging buffer that <b>pDmaBuffer</b> specifies.
 
 
-#### - pDmaBufferPrivateData
+### -field pDmaBufferPrivateData
 
 [in/out] A pointer to a driver-resident private data structure that is associated with the direct memory access (DMA) buffer (that is, paging buffer) that <b>pDmaBuffer</b> specifies.
 
 
-#### - DmaBufferPrivateDataSize
+### -field DmaBufferPrivateDataSize
 
 [in/out] The number of bytes that remain in the private data structure that <b>pDmaBufferPrivateData</b> points to for the current operation.
 
 
-#### - Operation
+### -field Operation
 
 [in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md">DXGK_BUILDPAGINGBUFFER_OPERATION</a>-typed value that indicates the type of memory operation to perform. 
 
 
-#### - MultipassOffset
+### -field MultipassOffset
 
 [in/out] A UINT value that specifies the progress of the paging operation if multiple paging buffers are required. The driver sets this value to indicate a split into multiple paging buffers for more than one transfer operation. For example, the driver can store the page number that was last transferred for a paged-based transfer. 
 
 
-#### - hSystemContext
+### -field hSystemContext
 
 [in] A handle to the system context for the paging operation.
 
 
-#### - DmaBufferGpuVirtualAddress
+### -field DmaBufferGpuVirtualAddress
 
 
 
@@ -1045,43 +731,43 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_discardcontentflags.md">DXGK_DISCARDCONTENTFLAGS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_discardcontentflags.md">DXGK_DISCARDCONTENTFLAGS</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a>
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
 
  
 

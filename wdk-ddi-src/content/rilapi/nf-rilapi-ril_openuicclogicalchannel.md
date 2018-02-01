@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e77d55d-62f5-450c-9d9a-41acfece84c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_OpenUiccLogicalChannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, rilapi/RIL_OpenUiccLogicalChannel
+ms.keywords: RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], rilapi/RIL_OpenUiccLogicalChannel, netvista.ril_openuicclogicalchannel, RIL_OpenUiccLogicalChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,31 +76,31 @@ HRESULT  RIL_OpenUiccLogicalChannel(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwSlotIndex
+### -param dwSlotIndex
 
 
 
-#### - dwChannelGroup
+### -param dwChannelGroup
 
 
 
-#### - dwAppIdLength
+### -param dwAppIdLength
 
 
 
-#### - pbAppId
+### -param pbAppId
 
 
 
-#### - dwSelectP2Arg
+### -param dwSelectP2Arg
 
 
 

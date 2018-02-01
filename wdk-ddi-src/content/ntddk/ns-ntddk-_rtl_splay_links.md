@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b035b101-2667-4962-ae49-781ddd30e0be
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers], othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml, RTL_SPLAY_LINKS structure [Installable File System Drivers], ifsk.rtl_splay_links, _RTL_SPLAY_LINKS, ntddk/RTL_SPLAY_LINKS, *PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS, RTL_SPLAY_LINKS
+ms.keywords: RTL_SPLAY_LINKS, ntddk/PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS, othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml, ntddk/RTL_SPLAY_LINKS, RTL_SPLAY_LINKS structure [Installable File System Drivers], ifsk.rtl_splay_links, _RTL_SPLAY_LINKS, *PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _RTL_SPLAY_LINKS {
 
 
 
-#### - Parent
+### -field Parent
 
 An opaque pointer to the parent node for this node.  If only one node in the splay link tree exists, the value of this member is <b>NULL</b>.
 
 
-#### - LeftChild
+### -field LeftChild
 
 An opaque pointer to the left child node for this node.  If no left-child node exists, the value of this member is <b>NULL</b>.
 
@@ -84,7 +84,7 @@ An opaque pointer to the left child node for this node.  If no left-child node e
  
 
 
-#### - RightChild
+### -field RightChild
 
 An opaque pointer to the right child node for this node.  If no right-child node exists, the value of this member is <b>NULL</b>.
 
@@ -118,17 +118,17 @@ Call <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a> with the address of th
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
-
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
-
 <a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
 
 <a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
  
 

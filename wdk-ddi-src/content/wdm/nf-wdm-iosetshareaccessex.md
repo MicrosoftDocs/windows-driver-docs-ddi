@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4DCC4A37-0099-4C6F-B00D-B6CAA7D1EC68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iosetshareaccessex, wdm/IoSetShareAccessEx, IoSetShareAccessEx routine [Kernel-Mode Driver Architecture], IoSetShareAccessEx
+ms.keywords: wdm/IoSetShareAccessEx, kernel.iosetshareaccessex, IoSetShareAccessEx, IoSetShareAccessEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ VOID IoSetShareAccessEx(
 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the type of access requested for the file object. See <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a> for a complete list of system-defined <i>DesiredAccess</i> flags.
 
 
-#### - DesiredShareAccess [in]
+### -param DesiredShareAccess [in]
 
 Specifies the type of share access to be set for the file object. This value can be zero, or any combination of the following flags:
 
@@ -89,17 +89,17 @@ FILE_SHARE_WRITE
 FILE_SHARE_DELETE
 
 
-#### - FileObject [in, out]
+### -param FileObject [in, out]
 
 A pointer to the file object whose share access is being set or reset.
 
 
-#### - ShareAccess [out]
+### -param ShareAccess [out]
 
 A pointer to the <b>SHARE_ACCESS</b> structure that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
-#### - WritePermission [in, optional]
+### -param WritePermission [in, optional]
 
 A pointer to the value that specifies whether the file object has write permission. This value is <b>TRUE</b> if the share has write permission; otherwise, it is <b>FALSE</b>. If  the value is <b>FALSE</b>  and the caller attempts to take exclusive read access, the write permission is downgraded to FILE_SHARE_READ.
 
@@ -113,9 +113,9 @@ None.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
  
 

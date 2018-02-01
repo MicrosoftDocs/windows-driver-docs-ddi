@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: f166ced5-2d63-4e35-af77-78ca80c888d7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: VENDOR_ATTR, smartcrd.vendor_attr, PVENDOR_ATTR, scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml, _VENDOR_ATTR, *PVENDOR_ATTR, smclib/PVENDOR_ATTR, smclib/VENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], PVENDOR_ATTR structure pointer [Smart Card Reader Devices]
+ms.keywords: scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml, VENDOR_ATTR, smartcrd.vendor_attr, smclib/VENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], PVENDOR_ATTR structure pointer [Smart Card Reader Devices], *PVENDOR_ATTR, PVENDOR_ATTR, _VENDOR_ATTR, smclib/PVENDOR_ATTR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,22 +86,12 @@ typedef struct _VENDOR_ATTR {
 
 
 
-#### - VendorName
+### -field VendorName
 
 
       A structure with the following members:
       
      
-
-
-#### Length
-
-Contains the ANSI-coded name of the vendor. Because a length field is provided, no terminating <b>NULL</b> character is necessary. This member is required. 
-
-
-#### Buffer
-
-Contains the length of the ANSI-coded name of the vendor. This member is required. 
 
 
 ### -field VendorName.Length
@@ -114,23 +104,12 @@ Contains the ANSI-coded name of the vendor. Because a length field is provided, 
 Contains the length of the ANSI-coded name of the vendor. This member is required. 
 
 
-#### - IfdType
+### -field IfdType
 
 
       A structure with the following members:
       
      
-
-
-#### Length
-
-Contains the length of the ANSI-coded designation of the reader. This member is required. 
-
-
-#### Buffer
-
-Contains the ANSI-coded reader name. This member is required. 
-
 
 
 ### -field IfdType.Length
@@ -144,27 +123,12 @@ Contains the ANSI-coded reader name. This member is required.
 
 
 
-#### - IfdVersion
+### -field IfdVersion
 
 
       A structure with the following members:
       
      
-
-
-#### BuildNumber
-
-Contains the build number of the reader driver. This member can be used for support purposes and should be maintained only if the reader allows the value to be queried. This member is optional. 
-
-
-#### VersionMinor
-
-Contains the minor version number of the reader driver. This member can be used for support purposes and should be maintained only if the reader allows the value to be queried. This member is optional. 
-
-
-#### VersionMajor
-
-Contains the major version number of the reader driver. This member can be used for support purposes and should be maintained only if the reader allows the value to be queried. This member is optional. 
 
 
 ### -field IfdVersion.BuildNumber
@@ -182,22 +146,12 @@ Contains the minor version number of the reader driver. This member can be used 
 Contains the major version number of the reader driver. This member can be used for support purposes and should be maintained only if the reader allows the value to be queried. This member is optional. 
 
 
-#### - IfdSerialNo
+### -field IfdSerialNo
 
 
       A structure with the following members:
       
      
-
-
-#### Length
-
-Contains the length of the serial number, in bytes, of the connected reader. 
-
-
-#### Buffer
-
-A pointer to the serial number of the connected reader. This field should only be maintained if the reader allows the serial number to be queried. This member is optional. 
 
 
 ### -field IfdSerialNo.Length
@@ -210,12 +164,12 @@ Contains the length of the serial number, in bytes, of the connected reader.
 A pointer to the serial number of the connected reader. This field should only be maintained if the reader allows the serial number to be queried. This member is optional. 
 
 
-#### - UnitNo
+### -field UnitNo
 
 Contains the zero-based number of this unit. Because you can have more than one reader of this kind installed, <b>UnitNo</b> can distinguish the readers. This member is required. 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use. 
 

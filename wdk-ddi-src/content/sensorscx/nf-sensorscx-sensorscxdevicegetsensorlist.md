@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: C1CA7DE4-A54A-478F-9F83-585B528EF345
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensorscxdevicegetsensorlist, Syntax function [Sensor Devices], sensorscx/Syntax, Syntax, SensorsCxDeviceGetSensorList
+ms.keywords: SensorsCxDeviceGetSensorList, Syntax function [Sensor Devices], Syntax, sensorscx/Syntax, sensors.sensorscxdevicegetsensorlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ FORCEINLINE NTSTATUS Syntax(
 
 
 
-#### - FxDevice [in]
+### -param FxDevice [in]
 
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
 
-#### - pSensorList [out]
+### -param pSensorList [out]
 
 A list of sensor instances.
 
 
-#### - pListCount [in, out]
+### -param pListCount [in, out]
 
 The number of SENSOROBJECTS in pSensorInstanceList.
 

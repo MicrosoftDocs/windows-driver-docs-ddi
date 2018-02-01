@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7f4370e-75db-4238-8e23-9e48028a03f5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], wdm/IoInitializeWorkItem, kernel.ioinitializeworkitem, k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml
+ms.keywords: k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], kernel.ioinitializeworkitem, wdm/IoInitializeWorkItem, IoInitializeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID IoInitializeWorkItem(
 
 
 
-#### - IoObject [in]
+### -param IoObject [in]
 
 Pointer to the caller's driver object or to one of the caller's device objects. If the caller will later pass the work item to <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>, <i>IoObject</i> must point to a device object.
 
 
-#### - IoWorkItem [in]
+### -param IoWorkItem [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure to initialize.
 
@@ -105,15 +105,15 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
-
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>
 
 <a href="..\wdm\nf-wdm-iouninitializeworkitem.md">IoUninitializeWorkItem</a>
 
-<a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>
+<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 
  
 

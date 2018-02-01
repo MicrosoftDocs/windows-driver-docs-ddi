@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush::FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush, FlushData method [Print Devices], FlushData method [Print Devices], IPrintWriteStreamFlush interface, IPrintWriteStreamFlush interface [Print Devices], FlushData method, FlushData
+ms.keywords: IPrintWriteStreamFlush, filterpipeline/IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush interface [Print Devices], FlushData method, FlushData method [Print Devices], FlushData method [Print Devices], IPrintWriteStreamFlush interface, print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush::FlushData, FlushData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

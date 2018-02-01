@@ -73,7 +73,7 @@ DWORD WINAPI * Dot11ExtProcessOneXPacket(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -81,13 +81,13 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-#### - dwInPacketSize [in]
+### -param dwInPacketSize [in]
 
 The length, in bytes, of the packet data within the buffer that is referenced by the 
      <i>pvInPacket</i> parameter.
 
 
-#### - pvInPacket [in]
+### -param pvInPacket [in]
 
 The EAPOL packet received from the AP. The 
      <i>pvInPacket</i> parameter must reference the EAPOL packet starting from the packet type field in the
@@ -123,24 +123,24 @@ While the 802.1X authentication operation is pending, the IHV Extensions DLL for
     forward these to the operating system.</div><div> </div>For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2001 standard.
 
 For more information about using the 802.1X module for authentication, see 
-    <mshelp:link keywords="netvista.interface_to_the_native_802_11_802_1x_module" tabindex="0">Interface to the Native
-    802.11 802.1X Module</mshelp:link>
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    802.11 802.1X Module</a>
 
 
 
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
 
  
 

@@ -73,12 +73,12 @@ BOOLEAN InterruptMessageService(
 
 
 
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure for the interrupt. The driver received this pointer in the call to the <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> routine that registered the driver's <i>InterruptMessageService</i> routine.
 
 
-#### - ServiceContext [in]
+### -param ServiceContext [in]
 
 The <i>ServiceContext</i> value that the driver passed to <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> when the <i>InterruptMessageService</i> routine was registered.
 
@@ -119,11 +119,11 @@ An <i>InterruptMessageService</i> executes at an IRQL greater than or equal to t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
-
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
 
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
+<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
  
 

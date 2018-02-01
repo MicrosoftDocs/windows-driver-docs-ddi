@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, IDebugSymbolGroup2, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.outputastypewide, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method
+ms.keywords: IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide, OutputAsTypeWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT OutputAsTypeWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 The index of the entry in this symbol group.  The <i>index</i> of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-#### - Type [in]
+### -param Type [in]
 
 The name of the type of the symbol that you want.  If the name begins with an exclamation mark (<b>!</b>), the name is treated as an extension.  For more information about how to use an extension as a type, see the Remarks section.
 
@@ -116,11 +116,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

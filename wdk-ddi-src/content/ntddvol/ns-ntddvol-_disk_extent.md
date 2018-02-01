@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml, ntddvol/DISK_EXTENT, _DISK_EXTENT, DISK_EXTENT structure [Storage Devices], PDISK_EXTENT, *PDISK_EXTENT, storage.disk_extent, PDISK_EXTENT structure pointer [Storage Devices], ntddvol/PDISK_EXTENT, DISK_EXTENT
+ms.keywords: storage.disk_extent, ntddvol/DISK_EXTENT, ntddvol/PDISK_EXTENT, PDISK_EXTENT, DISK_EXTENT, *PDISK_EXTENT, _DISK_EXTENT, DISK_EXTENT structure [Storage Devices], structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml, PDISK_EXTENT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DISK_EXTENT {
 
 
 
-#### - DiskNumber
+### -field DiskNumber
 
 Specifies the number of the disk that contains this extent. This is the same disk number that is used to construct the name of the disk (for example, <i>PhysicalDriveX</i> or <i>HarddiskX</i>, where X is the disk number).
 
 
-#### - StartingOffset
+### -field StartingOffset
 
 Specifies the offset, in bytes, from the beginning of the disk.
 
 
-#### - ExtentLength
+### -field ExtentLength
 
 Specifies the number of bytes of this extent.
 

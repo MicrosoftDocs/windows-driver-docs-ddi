@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2cfe935f-eba4-48aa-869d-6381ca038e70
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT structure [Storage Devices], _SetTunnelModeOuterAddress_OUT, storage.settunnelmodeouteraddress_out, structs-iSCSI_918f9bb3-ee9f-41d3-8e9e-c18a673a4302.xml, PSetTunnelModeOuterAddress_OUT structure pointer [Storage Devices], PSetTunnelModeOuterAddress_OUT, iscsiop/PSetTunnelModeOuterAddress_OUT
+ms.keywords: structs-iSCSI_918f9bb3-ee9f-41d3-8e9e-c18a673a4302.xml, SetTunnelModeOuterAddress_OUT structure [Storage Devices], *PSetTunnelModeOuterAddress_OUT, iscsiop/SetTunnelModeOuterAddress_OUT, iscsiop/PSetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT, _SetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT structure pointer [Storage Devices], storage.settunnelmodeouteraddress_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetTunnelModeOuterAddress_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output, the status of the <b>SetTunnelModeOuterAddress</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 

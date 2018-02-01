@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 636cf517-5ab0-4709-8026-b51425c81118
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcregisterphysicalconnectionfromexternal, portcls/PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml
+ms.keywords: audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, audio.pcregisterphysicalconnectionfromexternal, portcls/PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS PcRegisterPhysicalConnectionFromExternal(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object for the device. This is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-#### - FromString [in]
+### -param FromString [in]
 
 Pointer to a null-terminated Unicode string containing the symbolic link name of the external filter that supplies the connection's source pin.
 
 
-#### - FromPin [in]
+### -param FromPin [in]
 
 Specifies a pin ID. This parameter identifies the source (output) pin on the external filter named by <i>FromString</i>.
 
 
-#### - ToUnknown [in]
+### -param ToUnknown [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of a port driver object. The port driver object that is associated with <i>ToUnknown</i> is bound to the subdevice that supplies the connection's data sink (input) pin.
 
 
-#### - ToPin [in]
+### -param ToPin [in]
 
 Specifies a pin ID. This parameter identifies the sink (input) pin on the filter that is associated with the <i>ToUnknown</i> interface.
 
@@ -121,17 +121,17 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537027">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal</a>
+
 <a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 <a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537027">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal</a>
 
  
 

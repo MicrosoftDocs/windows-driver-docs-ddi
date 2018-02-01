@@ -100,6 +100,30 @@ VOID APIENTRY* pfnVideoProcessorSetStreamLumaKey(
 
 
 
+#### - Enable [in]
+
+If <b>TRUE</b>, the luma key is enabled on the specified input stream of the video processor.
+
+
+#### - Lower [in]
+
+The lower bound for the luma key. The valid range is from zero to one. 
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
+
+</div><div> </div>
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - Upper [in]
+
+The upper bound for the luma key. The valid range is from zero to one. 
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
+
+</div><div> </div>
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -113,30 +137,6 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, the luma key is enabled on the specified input stream of the video processor.
-
-
-#### - Lower [in]
-
-The lower bound for the luma key. The valid range is from zero to one. 
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
-
-</div><div> </div>
-
-#### - Upper [in]
-
-The upper bound for the luma key. The valid range is from zero to one. 
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
-
-</div><div> </div>
 
 ## -returns
 
@@ -166,9 +166,9 @@ The driver reports its ability to support stereo alpha blending for an input str
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 

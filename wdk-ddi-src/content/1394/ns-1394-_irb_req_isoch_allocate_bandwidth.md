@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 68118E69-5644-4FE4-A75B-CE0FC427BA06
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.irb_req_isoch_allocate_bandwidth, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, 1394/IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
+ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH structure [Buses], IEEE.irb_req_isoch_allocate_bandwidth, _IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH {
 
 
 
-#### - nMaxBytesPerFrameRequested
+### -field nMaxBytesPerFrameRequested
 
 Specifies the bandwidth requested, in bytes per isochronous frame. If the host controller is configured to strip away the packet headers, the device driver does not need to include the packet header size in the number of bytes requested. The driver also does not need to round the value up to the nearest quadlet.
 
 
-#### - fulSpeed
+### -field fulSpeed
 
 Specifies the connection speed to use in allocating bandwidth. The possible speed values are SPEED_FLAGS_xxx, where xxx is the (approximate) transfer rate in megabits per second. Existing hardware supports transfer rates of 100, 200, and 400 Mb/sec.
 <table>
@@ -118,22 +118,22 @@ SPEED_FLAGS_400
 </table> 
 <div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div><div> </div>
 
-#### - hBandwidth
+### -field hBandwidth
 
 Specifies the handle to use to refer to the bandwidth resource. The caller can set the IRB_FLAG_ALLOW_REMOTE_FREE flag in <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537350">IRB</a> structure to indicate that the system should free the memory allocated for this handle. If caller does not set this flag, then caller will have to free the bandwidth handle. 
 
 
-#### - BytesPerFrameAvailable
+### -field BytesPerFrameAvailable
 
 Specifies the bytes per frame that are available after the allocation attempt. Drivers should not rely on this bandwidth being available, since another device may allocate or deallocate bandwidth at any time. The bus driver fills in this member, even if the request fails.
 
 
-#### - SpeedSelected
+### -field SpeedSelected
 
 Specifies the actual speed selected in allocating bandwidth. The value is one of SPEED_FLAGS_xxx (see the <b>fulSpeed</b> member description above).
 <div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div><div> </div>
 
-#### - nBandwidthUnitsRequired
+### -field nBandwidthUnitsRequired
 
 This is a pre-calculated value.
 

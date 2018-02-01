@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7C9E1D94-BF59-4302-BEE8-24546C8AE7E6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: STREAM_BUFFER_TYPE enumeration [Streaming Media Devices], STREAM_BUFFER_TYPE, DmaBuffer, PerRequestExtension, strmini/DmaBuffer, strmini/STREAM_BUFFER_TYPE, strmini/PerRequestExtension, stream.stream_buffer_type, SRBDataBuffer, strmini/SRBDataBuffer
+ms.keywords: strmini/DmaBuffer, strmini/PerRequestExtension, strmini/SRBDataBuffer, STREAM_BUFFER_TYPE, DmaBuffer, PerRequestExtension, stream.stream_buffer_type, strmini/STREAM_BUFFER_TYPE, SRBDataBuffer, STREAM_BUFFER_TYPE enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum  {
 
 
 
-#### - PerRequestExtension
+### -field PerRequestExtension
 
 Indicates the physical address of the SRB extension.
 
 
-#### - DmaBuffer
+### -field DmaBuffer
 
 Indicates the physical address of the DMA buffer.
 
 
-#### - SRBDataBuffer
+### -field SRBDataBuffer
 
 Indicates the physical address of a data buffer.
 

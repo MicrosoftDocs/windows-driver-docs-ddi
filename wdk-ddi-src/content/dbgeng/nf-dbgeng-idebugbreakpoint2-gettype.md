@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2, IDebugBreakpoint::GetType, dbgeng/IDebugBreakpoint::GetType, GetType method [Windows Debugging], IDebugBreakpoint2::GetType, IDebugBreakpoint interface [Windows Debugging], GetType method, GetType, GetType method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], GetType method, dbgeng/IDebugBreakpoint2::GetType, debugger.gettype, GetType method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_3305c400-f816-463b-a643-4495bf546460.xml
+ms.keywords: dbgeng/IDebugBreakpoint::GetType, ComOther_3305c400-f816-463b-a643-4495bf546460.xml, IDebugBreakpoint2::GetType, debugger.gettype, GetType method [Windows Debugging], IDebugBreakpoint2, GetType, GetType method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::GetType, IDebugBreakpoint::GetType, GetType method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging], GetType method, IDebugBreakpoint2 interface [Windows Debugging], GetType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetType(
 
 
 
-#### - BreakType [out]
+### -param BreakType [out]
 
 The type of the breakpoint.  The type can be one of the following  values.
 <table>
@@ -100,7 +100,7 @@ Processor breakpoint
 </table> 
 
 
-#### - ProcType [out]
+### -param ProcType [out]
 
 The type of the processor that the breakpoint is set for.
 

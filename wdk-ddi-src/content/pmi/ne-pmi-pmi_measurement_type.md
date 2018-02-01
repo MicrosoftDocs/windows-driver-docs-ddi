@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 7a075d95-3bc6-4869-bcd6-1bce6df43384
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, pmi/PmiMeasurementTypeMax, PmiMeasurementTypeOutput, pmi/PmiMeasurementTypeOutput, PmiMeasurementTypeMax, powermeter.pmi_measurement_type, PmiMeasurementTypeInput, PMI_MEASUREMENT_TYPE, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput
+ms.keywords: pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeOutput, PmiMeasurementTypeMax, pmi/PmiMeasurementTypeMax, pmi/PMI_MEASUREMENT_TYPE, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, powermeter.pmi_measurement_type, PMI_MEASUREMENT_TYPE, PmiMeasurementTypeOutput, PmiMeasurementTypeInput, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - PmiMeasurementTypeInput
+### -field PmiMeasurementTypeInput
 
 The PMI measurement data is based on input power.
 
 
-#### - PmiMeasurementTypeOutput
+### -field PmiMeasurementTypeOutput
 
 The PMI measurement data is based on output power.
 
 
-#### - PmiMeasurementTypeMax
+### -field PmiMeasurementTypeMax
 
 The maximum types of PMI measurement data.
 

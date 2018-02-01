@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a980fe92-ccd9-4a23-b324-ae8ef4e10345
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceInterfaces, kernel.iogetdeviceinterfaces, k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml
+ms.keywords: kernel.iogetdeviceinterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, IoGetDeviceInterfaces, wdm/IoGetDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS IoGetDeviceInterfaces(
 
 
 
-#### - InterfaceClassGuid [in]
+### -param InterfaceClassGuid [in]
 
 Pointer to a class GUID specifying the device interface class. The GUIDs for a class should be in a device-specific header file. 
 
 
-#### - PhysicalDeviceObject [in, optional]
+### -param PhysicalDeviceObject [in, optional]
 
 Pointer to an optional PDO that narrows the search to only the device interface instances of the device represented by the PDO. 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies flags that modify the search for device interfaces. Only one flag is currently defined, and is described in the following table.
 <table>
@@ -106,9 +106,9 @@ When searching for a device that supports a particular interface class, the call
 A driver typically sets the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag to locate disabled interface instances that the driver must enable. For example, the class installer for the device might have been directed by the INF file to register one or more interface instances for the device. The interface instances would be registered but are not usable until they are enabled by the driver (using <a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>). To narrow the list of interface instances returned to only those exposed by a given device, a driver can specify a <i>PhysicalDeviceObject</i>.
 
 
-#### - SymbolicLinkList [out]
+### -param SymbolicLinkList [out]
 
-A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine) when it is no longer needed.
+A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine) when it is no longer needed.
 
 If no device interface instances match the search criteria, this routine returns STATUS_SUCCESS and the string contains a single NULL character.
 
@@ -162,13 +162,13 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
-
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
  
 

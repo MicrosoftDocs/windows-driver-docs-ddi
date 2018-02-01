@@ -72,17 +72,17 @@ BOOLEAN IdeHwControl(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension.
 
 
-#### - ControlAction [in]
+### -param ControlAction [in]
 
 Contains an enumerator value of type <a href="..\irb\ne-irb-ide_control_action.md">IDE_CONTROL_ACTION</a> that indicates the control action to perform. 
 
 
-#### - Parameters [in, out]
+### -param Parameters [in, out]
 
 A pointer to a buffer that contains the parameters that are associated with the control action. This parameter can have one of the values in the following table.
 <table>

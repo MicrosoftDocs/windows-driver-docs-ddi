@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ff96ea2b-a1f9-417c-98e6-fbf9cc9f6827
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, wdf.wdfobjectdereferenceactual, WdfObjectDereferenceActual, wdfobject/WdfObjectDereferenceActual, kmdf.wdfobjectdereferenceactual, WdfObjectDereferenceActual method
+ms.keywords: wdf.wdfobjectdereferenceactual, wdfobject/WdfObjectDereferenceActual, WdfObjectDereferenceActual method, kmdf.wdfobjectdereferenceactual, WdfObjectDereferenceActual, DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ VOID WdfObjectDereferenceActual(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle to a framework object.
 
 
-#### - Tag [in, optional]
+### -param Tag [in, optional]
 
 A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>.
 
 
-#### - Line [in]
+### -param Line [in]
 
 A numeric value that represents a line number in a driver source file.
 
 
-#### - File [in, optional]
+### -param File [in, optional]
 
 A pointer to a null-terminated constant character string that represents the name of a driver source file. This parameter is optional and can be <b>NULL</b>.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4522a7d0-d297-4668-bb4e-e4ceae18f52a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/UsbdPipeTypeBulk, _USBD_PIPE_TYPE, usb/USBD_PIPE_TYPE, buses.usbd_pipe_type, UsbdPipeTypeBulk, UsbdPipeTypeIsochronous, UsbdPipeTypeInterrupt, usb/UsbdPipeTypeInterrupt, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, usb/UsbdPipeTypeIsochronous, USBD_PIPE_TYPE, usb/UsbdPipeTypeControl, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeControl
+ms.keywords: usb/UsbdPipeTypeControl, buses.usbd_pipe_type, UsbdPipeTypeIsochronous, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeControl, _USBD_PIPE_TYPE, UsbdPipeTypeBulk, usb/UsbdPipeTypeBulk, usb/UsbdPipeTypeInterrupt, usb/USBD_PIPE_TYPE, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, USBD_PIPE_TYPE, UsbdPipeTypeInterrupt, usb/UsbdPipeTypeIsochronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _USBD_PIPE_TYPE {
 
 
 
-#### - UsbdPipeTypeControl
+### -field UsbdPipeTypeControl
 
 Indicates that the pipe is a control pipe. 
 
 
-#### - UsbdPipeTypeIsochronous
+### -field UsbdPipeTypeIsochronous
 
 Indicates that the pipe is an isochronous transfer pipe.
 
 
-#### - UsbdPipeTypeBulk
+### -field UsbdPipeTypeBulk
 
 Indicates that the pipe is a bulk transfer pipe. 
 
 
-#### - UsbdPipeTypeInterrupt
+### -field UsbdPipeTypeInterrupt
 
 Indicates that the pipe is a interrupt pipe. 
 

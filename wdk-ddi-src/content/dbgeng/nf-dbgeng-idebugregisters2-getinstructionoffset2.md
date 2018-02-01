@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c5757dbb-16bf-46f9-836f-5a94089bbb1e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, debugger.getinstructionoffset2, IDebugRegisters2::GetInstructionOffset2, dbgeng/IDebugRegisters2::GetInstructionOffset2, GetInstructionOffset2
+ms.keywords: GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset2, GetInstructionOffset2 method [Windows Debugging], IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, dbgeng/IDebugRegisters2::GetInstructionOffset2, IDebugRegisters2, IDebugRegisters2::GetInstructionOffset2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, debugger.getinstructionoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetInstructionOffset2(
 
 
 
-#### - Source [in]
+### -param Source [in]
 
 Specifies the register source to query.
 
@@ -113,7 +113,7 @@ Fetch register information from the current scope's register context.
 </table> 
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the location in the process's virtual address space of the current instruction of the current thread.
 

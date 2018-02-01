@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 953154eb-e6f3-4013-a68f-1a358953c7ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/TCP_OFFLOAD_STATE_CACHED, netvista.tcp_offload_state_cached, PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml, _TCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_CACHED
+ms.keywords: "_TCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml, netvista.tcp_offload_state_cached, *PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], ndischimney/TCP_OFFLOAD_STATE_CACHED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _TCP_OFFLOAD_STATE_CACHED {
 
 
 
-#### - Header
+### -field Header
 
 An 
      <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
@@ -92,7 +92,7 @@ An
      <b>Header</b> is reserved.
 
 
-#### - Flags
+### -field Flags
 
 A bitmask that can be set to zero or any of the following flags, combined with bitwise OR: 
      
@@ -107,13 +107,6 @@ The host stack sets this flag to enable the keepalive option on the connection. 
        keepalive option, see RFC 1122.
 
 
-#### TCP_FLAG_NAGLING_ENABLED
-
-The host stack sets this flag to enable the Nagle algorithm on the connection. The host stack
-       clears this flag to disable the Nagle algorithm on the connection. For more information about the
-       Nagle algorithm, see RFC 896.
-
-
 #### TCP_FLAG_KEEP_ALIVE_RESTART
 
 The host stack sets this flag to cause the offload target to reset its keepalive timer to
@@ -126,6 +119,13 @@ The host stack sets this flag to cause the offload target to reset the TotalRT v
        TCP delegated state for the connection to zero.
 
 
+#### TCP_FLAG_NAGLING_ENABLED
+
+The host stack sets this flag to enable the Nagle algorithm on the connection. The host stack
+       clears this flag to disable the Nagle algorithm on the connection. For more information about the
+       Nagle algorithm, see RFC 896.
+
+
 #### TCP_FLAG_UPDATE_RCV_WND
 
 The host stack sets this flag to indicate that the default receive window size (InitialRcvWnd in
@@ -134,17 +134,17 @@ The host stack sets this flag to indicate that the default receive window size (
        the offload target must advertise a new receive window size to the peer.
 
 
-#### - InitialRcvWnd
+### -field InitialRcvWnd
 
 The default receive window (from socket option SO_RCVBUF).
 
 
-#### - RcvIndicationSize
+### -field RcvIndicationSize
 
 When non-<b>NULL</b>, the optimum number of data bytes that the offload target should supply in a single
      call to the 
-     <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-     NdisTcpOffloadReceiveHandler</b></mshelp:link> function. This number, which is typically between tens and hundreds
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     NdisTcpOffloadReceiveHandler</a> function. This number, which is typically between tens and hundreds
      of bytes, is a suggestion--not a requirement. The offload target can indicate more or less than 
      <b>RcvIndicationSize</b> data bytes. However, for optimum performance, the offload target should indicate
      
@@ -159,33 +159,33 @@ When <b>NULL</b>,
      <i>NdisTcpOffloadReceiveHandler</i> function.
 
 
-#### - KaProbeCount
+### -field KaProbeCount
 
 The number of keepalive probes that the offload target should send to determine whether a TCP
      connection is intact (see RFC 1122).
 
 
-#### - KaTimeout
+### -field KaTimeout
 
 This member specifies, in clock ticks, the timeout interval for inactivity before sending a
      keepalive probe (see RFC 1122).
 
 
-#### - KaInterval
+### -field KaInterval
 
 This member specifies, in clock ticks, the timeout after which to retransmit a keepalive frame if
      no response is received to a keepalive probe (see RFC 1122).
 
 
-#### - MaxRT
+### -field MaxRT
 
 This member specifies, in clock ticks, the maximum time that the offload target should spend
      retransmitting a segment. If the value of 
      <b>MaxRT</b> is non-zero, 
      <b>MaxRT</b> overrides 
      <b>TcpMaximumRetransmissions</b> in the 
-     <mshelp:link keywords="netvista.ndis_task_tcp_connection_offload" tabindex="0"><b>
-     NDIS_TASK_TCP_CONNECTION_OFFLOAD</b></mshelp:link> structure. The default value for is 
+     <a href="https://msdn.microsoft.com/d8c9fdf9-47aa-4492-b20a-4a53de191d97">
+     NDIS_TASK_TCP_CONNECTION_OFFLOAD</a> structure. The default value for is 
      <b>MaxRT</b> is zero, which means that 
      <b>TcpMaximumRetransmissions</b> sets the maximum number of times that the offload target should
      retransmit a segment on a TCP connection. If the value of 
@@ -196,7 +196,7 @@ This member specifies, in clock ticks, the maximum time that the offload target 
      the current TCP segment.
 
 
-#### - FlowLabel
+### -field FlowLabel
 
 This member marks host-labeled packets for special handling by intervening routers--for example,
      nondefault QoS or "real-time" service (see RFC 2460). This variable is set through a socket option and
@@ -204,7 +204,7 @@ This member marks host-labeled packets for special handling by intervening route
      connection is over IPv6.
 
 
-#### - TtlOrHopLimit
+### -field TtlOrHopLimit
 
 If the TCP connection is over IPv4, then this member specifies the time to live (see RFC 791).
      This variable is set through a socket option and can vary during the lifetime of the TCP connection. 
@@ -215,7 +215,7 @@ If the TCP connection is over IPv6, then this member specifies the number of rou
      lifetime of the TCP connection.
 
 
-#### - TosOrTrafficClass
+### -field TosOrTrafficClass
 
 If the TCP connection is over IPv4, then this member specifies the type of service for routing a
      packet (see RFC 2474). This variable is set through a socket option and can vary during the lifetime of
@@ -228,7 +228,7 @@ If the TCP connection is over IPv6, then this member prioritizes values for pack
      connection.
 
 
-#### - UserPriority
+### -field UserPriority
 
 A 3-bit priority value. If the offload target supports 802.1p packet information, it must insert
      this priority value into the 
@@ -236,8 +236,8 @@ A 3-bit priority value. If the offload target supports 802.1p packet information
      on the offloaded TCP connection. If the offload target does not support 802.1p packet information, it
      should ignore 
      <b>UserPriority</b> . For more information about supporting 802.1p packet information, see 
-     <mshelp:link keywords="netvista.802_1q_and_802_1p_processing_on_an_offloaded_tcp_connection" tabindex="0">802.1Q
-     and 802.1p Processing on an Offloaded TCP Connection</mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570937">802.1Q
+     and 802.1p Processing on an Offloaded TCP Connection</a>.
 
 
 ## -remarks
@@ -250,8 +250,8 @@ Cached variables are owned and maintained by the host stack. An offload target m
     <a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a> function.
     When the host stack terminates the offload of one or more state objects by causing NDIS to call the
     offload target's 
-    <mshelp:link keywords="netvista.miniportterminateoffload" tabindex="0"><i>
-    MiniportTerminateOffload</i></mshelp:link> function, the offload target does not return the value of offloaded
+    <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">
+    MiniportTerminateOffload</a> function, the offload target does not return the value of offloaded
     constant variables to the host stack.
 
 Note that if an offloaded TCP connection's TCP_FLAG_MAX_RT_RESTART flag is set, the offload target
@@ -268,8 +268,8 @@ Reset that connection's delegated KeepaliveTimeoutDelta variable when the host s
 
 </li>
 </ul>When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associated with an 
-    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure, which contains a header that is formatted as an 
+    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The 
     <b>Revision</b> member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of
     the TCP_OFFLOAD_STATE_CACHED structure.
@@ -278,17 +278,17 @@ Reset that connection's delegated KeepaliveTimeoutDelta variable when the host s
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
  
 

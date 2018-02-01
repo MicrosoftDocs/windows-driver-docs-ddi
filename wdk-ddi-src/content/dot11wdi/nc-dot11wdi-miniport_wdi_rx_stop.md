@@ -80,22 +80,17 @@ VOID MiniportWdiRxStop(
 
 
 
-#### - MiniportTalTxRxContext [in]
+### -param MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-#### - PortId [in]
+### -param PortId [in]
 
 The port ID.
 
 
-#### - *pWifiStatus [out]
-
-Status from the IHV miniport. A success status indicates that the operation completion synchronously.  A pending status indicates that the stop will be asynchronously confirmed.
-
-
-#### - pWifiStatus [out]
+### -param *pWifiStatus [out]
 
 Status from the IHV miniport. A success status indicates that the operation completion synchronously.  A pending status indicates that the stop will be asynchronously confirmed.
 

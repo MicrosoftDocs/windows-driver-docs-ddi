@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceFileInformationWide, IDebugAdvanced3::GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], debugger.getsourcefileinformationwide, IDebugAdvanced3, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface
+ms.keywords: debugger.getsourcefileinformationwide, IDebugAdvanced3, GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, GetSourceFileInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, GetSourceFileInformationWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ HRESULT GetSourceFileInformationWide(
 
 
 
-#### - Which [in]
+### -param Which [in]
 
 Specifies the piece of information to return.  The <i>Which</i> parameter can take one of the values in the following table.
 
@@ -90,32 +90,32 @@ Returns a token representing the specified source file on a source server.  This
 Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string. 
 
 
-#### - SourceFile [in]
+### -param SourceFile [in]
 
 Specifies the source file whose information is being requested.  The source file is looked up on all the source servers in the source path. 
 
 
-#### - Arg64 [in]
+### -param Arg64 [in]
 
 Specifies a 64-bit argument.  The value of <i>Which</i> specifies the module whose symbol token is requested.  Regardless of the value of <i>Which</i>, <i>Arg64</i> is a location within the memory allocation of the module.  
 
 
-#### - Arg32 [in]
+### -param Arg32 [in]
 
 Specifies a 32-bit argument.  This parameter is currently unused.   
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the requested symbol information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the <i>Buffer</i> buffer. If <i>Buffer</i> is <b>NULL</b>, <i>BufferSize</i> must also be <b>NULL</b>.
 
 
-#### - InfoSize [out, optional]
+### -param InfoSize [out, optional]
 
 Specifies the size in bytes of the information returned to the <i>Buffer</i> buffer. This parameter can be NULL if the data is not required.
 

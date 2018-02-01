@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 954498b6-f611-4c88-99e1-a1812d512866
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, kernel.rtlinitstring, wdm/RtlInitString, RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlInitString, kernel.rtlinitstring, k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, RtlInitString routine [Kernel-Mode Driver Architecture], wdm/RtlInitString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID RtlInitString(
 
 
 
-#### - DestinationString [out]
+### -param DestinationString [out]
 
 A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure.
 
 
-#### - SourceString [in, optional]
+### -param SourceString [in, optional]
 
 A pointer to a null-terminated character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
 

@@ -74,12 +74,12 @@ void EvtRequestImpersonate(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object that represents the I/O request that requires impersonation.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to a context that was previously supplied in the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestimpersonate.md">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required. 
 

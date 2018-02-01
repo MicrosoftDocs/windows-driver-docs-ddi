@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54168476-1C55-4343-858C-7FBA863D35D0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, storage.receive_token_information_response_header, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure [Storage Devices], scsi/PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, *PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure pointer [Storage Devices]
+ms.keywords: PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, storage.receive_token_information_response_header, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure [Storage Devices], RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure pointer [Storage Devices], *PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, scsi/PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER {
 
 
 
-#### - TokenDescriptorsLength
+### -field TokenDescriptorsLength
 
 The length, in bytes, of the <b>TokenDescriptor</b> member.
 
 
-#### - TokenDescriptor
+### -field TokenDescriptor
 
 The data containing a token created as the offload read ROD.
 
@@ -90,9 +90,9 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
-
 <a href="..\scsi\ns-scsi-receive_token_information_header.md">RECEIVE_TOKEN_INFORMATION_HEADER</a>
+
+<a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
 
  
 

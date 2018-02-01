@@ -77,32 +77,27 @@ VOID NdisWdiTxDequeueIndication(
 
 
 
-#### - NdisMiniportDataPathHandle [in]
+### -param NdisMiniportDataPathHandle [in]
 
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
 
 
-#### - Quantum [in]
+### -param Quantum [in]
 
 The quantum. For more information, see the <i>Host - target TX transfer scheduling</i> section in <a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>.
 
 
-#### - MaxNumFrames [in]
+### -param MaxNumFrames [in]
 
 Maximum frame count.
 
 
-#### - Credit [in]
+### -param Credit [in]
 
 Credit value. For more information, see <i>The target-credit scheme and the pause/resume mechanism</i> section in <a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>.
 
 
-#### - *ppNBL [out]
-
-Pointer to a pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain dequeued by WDI.
-
-
-#### - ppNBL [out]
+### -param *ppNBL [out]
 
 Pointer to a pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain dequeued by WDI.
 
@@ -134,13 +129,13 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
 
 <a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
 

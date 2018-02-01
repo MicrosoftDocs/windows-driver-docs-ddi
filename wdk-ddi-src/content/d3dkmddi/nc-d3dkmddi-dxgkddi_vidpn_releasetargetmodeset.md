@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnReleaseTargetModeSet(
 
 
 
-#### - hVidPn [in]
+### -param hVidPn [in]
 
 [in] A handle to a VidPN object that contains the target mode set object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a>, or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>.
 
 
-#### - hVidPnTargetModeSet [in]
+### -param hVidPnTargetModeSet [in]
 
 [in] The handle to be released.
 

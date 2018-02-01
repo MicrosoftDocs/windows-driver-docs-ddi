@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a2b3bdd-4955-4293-b4e7-65da20b0d369
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], RIL_RESULT_ERROR, ntddrilapitypes/RIL_RESULT_ERROR, netvista.rilfunctionresults, ntddrilapitypes/RILFUNCTIONRESULTS, RILFUNCTIONRESULTS
+ms.keywords: RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], RIL_RESULT_ERROR, netvista.rilfunctionresults, RILFUNCTIONRESULTS, ntddrilapitypes/RIL_RESULT_ERROR, ntddrilapitypes/RILFUNCTIONRESULTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,6 +71,6 @@ typedef enum _RILFUNCTIONRESULTS {
 
 
 
-#### - RIL_RESULT_ERROR
+### -field RIL_RESULT_ERROR
 
 

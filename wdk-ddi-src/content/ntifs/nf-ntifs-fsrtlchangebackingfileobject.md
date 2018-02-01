@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3ef4644-8e17-4f67-ba7f-61d62c534c26
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlChangeBackingFileObject, fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, FsRtlChangeBackingFileObject routine [Installable File System Drivers], ifsk.fsrtlchangebackingfileobject, ntifs/FsRtlChangeBackingFileObject
+ms.keywords: FsRtlChangeBackingFileObject, fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, ifsk.fsrtlchangebackingfileobject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], ntifs/FsRtlChangeBackingFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS FsRtlChangeBackingFileObject(
 
 
 
-#### - CurrentFileObject [in, optional]
+### -param CurrentFileObject [in, optional]
 
 The current file object. If this object does not belong to the stream, the operation fails.
 
 
-#### - NewFileObject [in]
+### -param NewFileObject [in]
 
 The new file object.
 
 
-#### - ChangeBackingType [in]
+### -param ChangeBackingType [in]
 
 An <a href="..\ntifs\ne-ntifs-_fsrtl_change_backing_type.md">FSRTL_CHANGE_BACKING_TYPE</a> enumeration value that indicates which internal memory area the new file object will designate.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Reserved for future use.
 

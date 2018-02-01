@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b0c6f733-2d8b-4140-bb2a-2a28212d3e69
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_FS_VOLUME_INFORMATION, ntddk/PFILE_FS_VOLUME_INFORMATION, *PFILE_FS_VOLUME_INFORMATION, fileinformationstructures_97bfe785-4c25-4402-91be-0fd2bda36c5d.xml, ntddk/FILE_FS_VOLUME_INFORMATION, FILE_FS_VOLUME_INFORMATION structure [Installable File System Drivers], PFILE_FS_VOLUME_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_VOLUME_INFORMATION, FILE_FS_VOLUME_INFORMATION, ifsk.file_fs_volume_information
+ms.keywords: ntddk/FILE_FS_VOLUME_INFORMATION, FILE_FS_VOLUME_INFORMATION, PFILE_FS_VOLUME_INFORMATION structure pointer [Installable File System Drivers], FILE_FS_VOLUME_INFORMATION structure [Installable File System Drivers], *PFILE_FS_VOLUME_INFORMATION, ntddk/PFILE_FS_VOLUME_INFORMATION, ifsk.file_fs_volume_information, PFILE_FS_VOLUME_INFORMATION, fileinformationstructures_97bfe785-4c25-4402-91be-0fd2bda36c5d.xml, _FILE_FS_VOLUME_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _FILE_FS_VOLUME_INFORMATION {
 
 
 
-#### - VolumeCreationTime
+### -field VolumeCreationTime
 
 Time when the volume was created. 
 
 
-#### - VolumeSerialNumber
+### -field VolumeSerialNumber
 
 Serial number of the volume. 
 
 
-#### - VolumeLabelLength
+### -field VolumeLabelLength
 
 Length, in bytes, of the name of the volume. 
 
 
-#### - SupportsObjects
+### -field SupportsObjects
 
 <b>TRUE</b> if the file system supports object-oriented file system objects, <b>FALSE</b> otherwise. 
 
 
-#### - VolumeLabel
+### -field VolumeLabel
 
 Name of the volume. 
 
@@ -123,9 +123,9 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
  
 

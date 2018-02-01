@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bae613e1-c450-4bc0-9370-a7eb8438ae23
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_DVDCOPY_BUSKEY, stream.ks_dvdcopy_buskey, KS_DVDCOPY_BUSKEY, *PKS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], PKS_DVDCOPY_BUSKEY, dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, _KS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices], ksmedia/KS_DVDCOPY_BUSKEY
+ms.keywords: ksmedia/PKS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, KS_DVDCOPY_BUSKEY, stream.ks_dvdcopy_buskey, PKS_DVDCOPY_BUSKEY, ksmedia/KS_DVDCOPY_BUSKEY, *PKS_DVDCOPY_BUSKEY, _KS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _KS_DVDCOPY_BUSKEY {
 
 
 
-#### - BusKey
+### -field BusKey
 
 Specifies the DVD decoder minidriver's bus key.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Do not use.
 
@@ -89,9 +89,9 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565142">KSPROPERTY_DVDCOPY_DEC_KEY2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565145">KSPROPERTY_DVDCOPY_DVD_KEY1</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565142">KSPROPERTY_DVDCOPY_DEC_KEY2</a>
 
  
 

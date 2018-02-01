@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 94dc33f4-06ad-4b36-9150-6fb7d491a247
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCopyReceiveNetBufferListInfo, ndis/NdisCopyReceiveNetBufferListInfo, NdisCopyReceiveNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_c7980afc-64b0-4dc4-812e-1a89254df50a.xml, netvista.ndiscopyreceivenetbufferlistinfo
+ms.keywords: netvista.ndiscopyreceivenetbufferlistinfo, ndis/NdisCopyReceiveNetBufferListInfo, NdisCopyReceiveNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_c7980afc-64b0-4dc4-812e-1a89254df50a.xml, NdisCopyReceiveNetBufferListInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID NdisCopyReceiveNetBufferListInfo(
 
 
 
-#### - DestNetBufferList [in]
+### -param DestNetBufferList [in]
 
 A pointer to the destination <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
 
 
-#### - SrcNetBufferList [in]
+### -param SrcNetBufferList [in]
 
 A pointer to the source <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
 
@@ -100,8 +100,8 @@ When an intermediate driver or filter driver gets receive indications from an un
     information, to the new structure.
 
 To copy the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> information on the send path, use the 
-    <mshelp:link keywords="netvista.ndiscopysendnetbufferlistinfo" tabindex="0"><b>
-    NdisCopySendNetBufferListInfo</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndiscopysendnetbufferlistinfo.md">
+    NdisCopySendNetBufferListInfo</a> function.
 
 The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> items are copied in a call to <b>NdisCopyReceiveNetBufferListInfo</b>:
 <table>
@@ -163,10 +163,10 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscopysendnetbufferlistinfo" tabindex="0"><b>
-    NdisCopySendNetBufferListInfo</b></mshelp:link>
-
 <a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
+
+<a href="..\ndis\nf-ndis-ndiscopysendnetbufferlistinfo.md">
+    NdisCopySendNetBufferListInfo</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4FCFC48A-97BC-48E0-BBA7-F9E8B8A7588A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAllocateTimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], kernel.exallocatetimer, wdm/ExAllocateTimer
+ms.keywords: kernel.exallocatetimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], ExAllocateTimer, wdm/ExAllocateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ PEX_TIMER ExAllocateTimer(
 
 
 
-#### - Callback [in, optional]
+### -param Callback [in, optional]
 
 A pointer to a driver-implemented <a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a> callback routine. The operating system calls this routine when the timer expires. This parameter is optional and can be <b>NULL</b> if no callback routine is needed.
 
 
-#### - CallbackContext [in, optional]
+### -param CallbackContext [in, optional]
 
 A context value for the callback routine pointed to by the <i>Callback</i> parameter. The operating system passes this value as a parameter to the <i>ExTimerCallback</i> callback routine, if one is specified. This parameter is typically a pointer to a caller-defined structure that contains context information used by the callback routine. This parameter is optional and can be set to <b>NULL</b> if no context information is needed.
 
 
-#### - Attributes [in]
+### -param Attributes [in]
 
 The timer attributes. Set this parameter to zero or to the bitwise-OR of one or more of the following timer flag bits.
 <table>
@@ -138,15 +138,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
+
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 <a href="..\wdm\nf-wdm-excanceltimer.md">ExCancelTimer</a>
-
-<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
-
-<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
 
  
 

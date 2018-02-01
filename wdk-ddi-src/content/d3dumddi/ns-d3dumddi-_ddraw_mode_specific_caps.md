@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4434e2cb-af36-446b-b84e-f303ba315cd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DDRAW_MODE_SPECIFIC_CAPS, DDRAW_MODE_SPECIFIC_CAPS structure [Display Devices], DDRAW_MODE_SPECIFIC_CAPS, D3D_other_Structs_21634851-4693-46c9-b742-f2001e63f349.xml, _DDRAW_MODE_SPECIFIC_CAPS, display.ddraw_mode_specific_caps
+ms.keywords: DDRAW_MODE_SPECIFIC_CAPS structure [Display Devices], D3D_other_Structs_21634851-4693-46c9-b742-f2001e63f349.xml, DDRAW_MODE_SPECIFIC_CAPS, display.ddraw_mode_specific_caps, d3dumddi/DDRAW_MODE_SPECIFIC_CAPS, _DDRAW_MODE_SPECIFIC_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _DDRAW_MODE_SPECIFIC_CAPS {
 
 
 
-#### - Head
+### -field Head
 
 [in] The display device (head) on the multiple-head graphics card to retrieve capabilities about.
 
 
-#### - Caps
+### -field Caps
 
 [out] A valid bitwise OR of the following general capability bits that the driver supports.
 <table>
@@ -159,7 +159,7 @@ The driver supports color-control settings for an overlay. For information about
 </table> 
 
 
-#### - CKeyCaps
+### -field CKeyCaps
 
 [out] A valid bitwise OR of the following color key capability bits that the driver supports.
 <table>
@@ -230,7 +230,7 @@ Overlaying operations that use the color key for the source with this overlay su
 </table> 
 
 
-#### - FxCaps
+### -field FxCaps
 
 [out] A valid bitwise OR of the following effects capability bits that the driver supports.
 <table>
@@ -311,17 +311,17 @@ Deinterlacing of an overlay surface can be performed.
 </table> 
 
 
-#### - MaxVisibleOverlays
+### -field MaxVisibleOverlays
 
 [out] The maximum number of visible overlays.
 
 
-#### - MinOverlayStretch
+### -field MinOverlayStretch
 
 [out] The minimum overlay stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300. The display driver must set the minimum factor to the actual minimum to which the graphics hardware can shrink the overlay. If the graphics hardware has no minimum limitation, set <b>MinOverlayStretch</b> to 1.
 
 
-#### - MaxOverlayStretch
+### -field MaxOverlayStretch
 
 [out] The maximum overlay stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300. The display driver must set the maximum factor to the actual maximum to which the graphics hardware can stretch the overlay. If the graphics hardware has no maximum limitation, set <b>MaxOverlayStretch</b> to 32000.
 
@@ -335,11 +335,11 @@ Capabilities can change between heads of a multiple-headed graphics card and can
 
 ## -see-also
 
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
  
 

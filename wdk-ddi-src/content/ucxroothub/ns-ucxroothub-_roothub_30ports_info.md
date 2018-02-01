@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2E727D84-193C-45AA-AEC4-75B72BB23FC9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ROOTHUB_30PORTS_INFO structure [Buses], ROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO, buses._roothub_30ports_info, _ROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO structure pointer [Buses], ucxroothub/P_ROOTHUB_30PORTS_INFO, ucxroothub/_ROOTHUB_30PORTS_INFO, *PROOTHUB_30PORTS_INFO
+ms.keywords: "*PROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO, ucxroothub/P_ROOTHUB_30PORTS_INFO, ucxroothub/_ROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO structure pointer [Buses], ROOTHUB_30PORTS_INFO, buses._roothub_30ports_info, ROOTHUB_30PORTS_INFO structure [Buses], _ROOTHUB_30PORTS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _ROOTHUB_30PORTS_INFO {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of this structure.
 
 
-#### - NumberOfPorts
+### -field NumberOfPorts
 
 Number of USB 3.0 root hub ports.
 
 
-#### - PortInfoSize
+### -field PortInfoSize
 
 The size of the <a href="..\ucxroothub\ns-ucxroothub-_roothub_30port_info.md">ROOTHUB_30PORT_INFO</a> array.
 
 
-#### - PortInfoArray
+### -field PortInfoArray
 
 A pointer to an array of  <a href="..\ucxroothub\ns-ucxroothub-_roothub_30port_info.md">ROOTHUB_30PORT_INFO</a> structures.
 

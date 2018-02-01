@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], wdm/KeQueryTotalCycleTimeThread
+ms.keywords: kernel.kequerytotalcycletimethread_, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], wdm/KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ ULONG64 KeQueryTotalCycleTimeThread (
 
 
 
-#### - Thread [in, out]
+### -param Thread [in, out]
 
 A pointer to a dispatcher object of type KTHREAD.
 
 
-#### - CycleTimeStamp [out]
+### -param CycleTimeStamp [out]
 
 A pointer to the cycle counter value at the time of the query.
 

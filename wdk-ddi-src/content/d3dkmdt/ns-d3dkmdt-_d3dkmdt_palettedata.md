@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 81ff56bb-84e5-4556-a0bf-32164b938622
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_PALETTEDATA structure [Display Devices], _D3DKMDT_PALETTEDATA, DmStructs_83e6b2ae-dd44-4a21-bca5-6009af1f4ced.xml, D3DKMDT_PALETTEDATA, d3dkmdt/D3DKMDT_PALETTEDATA, display.d3dkmdt_palettedata
+ms.keywords: D3DKMDT_PALETTEDATA, display.d3dkmdt_palettedata, D3DKMDT_PALETTEDATA structure [Display Devices], d3dkmdt/D3DKMDT_PALETTEDATA, _D3DKMDT_PALETTEDATA, DmStructs_83e6b2ae-dd44-4a21-bca5-6009af1f4ced.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _D3DKMDT_PALETTEDATA {
 
 
 
-#### - Red
+### -field Red
 
 An 8-bit value for the red portion of the color registers.
 
 
-#### - Green
+### -field Green
 
 An 8-bit value for the green portion of the color registers.
 
 
-#### - Blue
+### -field Blue
 
 An 8-bit value for the blue portion of the color registers.
 
 
-#### - Unused
+### -field Unused
 
 An unused portion of the display.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a>
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkarg_setpalette.md">DXGKARG_SETPALETTE</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a>
 
  
 

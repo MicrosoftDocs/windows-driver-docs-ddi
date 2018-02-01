@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b7574112-2cac-4bec-9039-9afeef4d2f51
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, display.d3d12ddiarg-create-crypto-session-policy-0030, d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], display.d3d12ddiarg-create-crypto-session-policy-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 {
 
 
 
-#### - pKeyInfo
+### -field pKeyInfo
 
 The key info.
 
 
-#### - KeyInfoSize
+### -field KeyInfoSize
 
 The key info size.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6efee74e-9e82-4631-8360-19061b0c015d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_discard, D3DDDIARG_DISCARD structure [Display Devices], _D3DDDIARG_DISCARD, D3DDDIARG_DISCARD, d3dumddi/D3DDDIARG_DISCARD
+ms.keywords: D3DDDIARG_DISCARD, d3dumddi/D3DDDIARG_DISCARD, D3DDDIARG_DISCARD structure [Display Devices], display.d3dddiarg_discard, _D3DDDIARG_DISCARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DDDIARG_DISCARD {
 
 
 
-#### - hResource
+### -field hResource
 
 A handle to the resource in which subresources are to be discarded.
 
 
-#### - FirstSubResource
+### -field FirstSubResource
 
 The index of the first subresource to be discarded.
 
 
-#### - NumSubResources
+### -field NumSubResources
 
 The number of subresources to be discarded.
 
 
-#### - pRects
+### -field pRects
 
 An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a> function discards the entire surface.
 
 
-#### - NumRects
+### -field NumRects
 
 The number of rectangles in the array that the  <b>pRects</b> member specifies.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4C07239D-89AE-4A9F-B7EB-CFFE6D47F10B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._usbdevice_reset, ucxusbdevice/_USBDEVICE_RESET, ucxusbdevice/P_USBDEVICE_RESET, P_USBDEVICE_RESET, _USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], P_USBDEVICE_RESET structure pointer [Buses], USBDEVICE_RESET, *PUSBDEVICE_RESET
+ms.keywords: ucxusbdevice/_USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], P_USBDEVICE_RESET, P_USBDEVICE_RESET structure pointer [Buses], *PUSBDEVICE_RESET, USBDEVICE_RESET, ucxusbdevice/P_USBDEVICE_RESET, _USBDEVICE_RESET, buses._usbdevice_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,22 +75,22 @@ typedef struct _USBDEVICE_RESET {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
-#### - DefaultEndpoint
+### -field DefaultEndpoint
 
 The default endpoint for the USB hub or device.
 
 
-#### - EndpointsToDisableCount
+### -field EndpointsToDisableCount
 
 The number of endpoints to disable. 
 
 
-#### - EndpointsToDisable
+### -field EndpointsToDisable
 
 A pointer to an array of handles to endpoints to disable. 
 

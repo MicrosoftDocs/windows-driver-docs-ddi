@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 39a609f3-8f79-4a8b-9d29-0cfe09070f2b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, GetTextReplacementWide, IDebugControl4::GetTextReplacementWide, IDebugControl4, GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, debugger.gettextreplacementwide, dbgeng/IDebugControl4::GetTextReplacementWide
+ms.keywords: GetTextReplacementWide method [Windows Debugging], debugger.gettextreplacementwide, GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, IDebugControl4::GetTextReplacementWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,42 +74,42 @@ HRESULT GetTextReplacementWide(
 
 
 
-#### - SrcText [in, optional]
+### -param SrcText [in, optional]
 
 Specifies the name of the alias.  The engine first searches the user-named aliases for one with this name. Then, if no match is found, the automatic aliases are searched.  If <i>SrcText</i> is <b>NULL</b>, <i>Index</i> is used to specify the alias.
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of an alias.  The indexes of the user-named aliases come before the indexes of the automatic aliases.  <i>Index</i> is only used if <i>SrcText</i> is <b>NULL</b>.  <i>Index</i> can be used along with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a> to iterate over all the user-named and automatic aliases.
 
 
-#### - SrcBuffer [out, optional]
+### -param SrcBuffer [out, optional]
 
 Receives the name of the alias.  This is the name specified in <i>SrcText</i>, if <i>SrcText</i> is not <b>NULL</b>.  If <i>SrcBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - SrcBufferSize [in]
+### -param SrcBufferSize [in]
 
 Specifies the size, in characters, of the <i>SrcBuffer</i> buffer.
 
 
-#### - SrcSize [out, optional]
+### -param SrcSize [out, optional]
 
 Receives the size, in characters, of the name of the alias.  If <i>SrcSize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - DstBuffer [out, optional]
+### -param DstBuffer [out, optional]
 
 Receives the value of the alias specified by <i>SrcText</i> and <i>Index</i>.  If <i>DstBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - DstBufferSize [in]
+### -param DstBufferSize [in]
 
 Specifies the size, in characters, of the <i>DstBuffer</i> buffer.
 
 
-#### - DstSize [out, optional]
+### -param DstSize [out, optional]
 
 Receives the size, in characters, of the value of the alias.  If <i>DstSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -149,17 +149,17 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
 
  
 

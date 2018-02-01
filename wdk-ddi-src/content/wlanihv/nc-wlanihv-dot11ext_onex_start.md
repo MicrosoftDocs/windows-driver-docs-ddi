@@ -72,7 +72,7 @@ DWORD WINAPI * Dot11ExtStartOneX(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -120,8 +120,8 @@ When the
     <b>Dot11ExtStartOneX</b> function is called, the operating system sends an EAP
     over LAN (EAPOL) Start packet to the AP. If the AP fails to respond after three transmissions of the
     EAPOL-Start packet, the operating system fails the 802.1X authentication operation and calls the 
-    <mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-    Dot11ExtIhvOneXIndicateResult</i></mshelp:link> IHV Handler function. For more information about the EAPOL-Start
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+    Dot11ExtIhvOneXIndicateResult</a> IHV Handler function. For more information about the EAPOL-Start
     packet, refer to Clause 7.5 and Clause 8.4.2 of the IEEE 802.1X-1999 standard.
 
 After the 802.1X authentication operation is initiated, the IHV Extensions DLL must follow these
@@ -143,8 +143,8 @@ For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2
 </li>
 <li>
 When the 802.1X authentication operation is completed, the operating system calls the 
-      <mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-      Dot11ExtIhvOneXIndicateResult</i></mshelp:link> IHV Handler function to indicate that authorization is in
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+      Dot11ExtIhvOneXIndicateResult</a> IHV Handler function to indicate that authorization is in
       progress.
 
 </li>
@@ -154,29 +154,29 @@ The IHV Extensions DLL can cancel the 802.1X authentication operation by calling
 
 </li>
 </ul>For more information about using the 802.1X module for authentication, see 
-    <mshelp:link keywords="netvista.interface_to_the_native_802_11_802_1x_module" tabindex="0">Interface to the Native
-    802.11 802.1X Module</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    802.11 802.1X Module</a>.
 
 
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
-   Dot11ExtPostAssociateCompletion</b></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+   Dot11ExtPostAssociateCompletion</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06b07b50-577c-4762-aea6-38bd1ada8973
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER, storage.nv_feature_parameter, PNV_FEATURE_PARAMETER, *PNV_FEATURE_PARAMETER, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml, _NV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices], PNV_FEATURE_PARAMETER structure pointer [Storage Devices], ntddscsi/NV_FEATURE_PARAMETER
+ms.keywords: ntddscsi/NV_FEATURE_PARAMETER, storage.nv_feature_parameter, PNV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], NV_FEATURE_PARAMETER, *PNV_FEATURE_PARAMETER, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml, _NV_FEATURE_PARAMETER, ntddscsi/PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,52 +78,52 @@ typedef struct _NV_FEATURE_PARAMETER {
 
 
 
-#### - NVPowerModeEnabled
+### -field NVPowerModeEnabled
 
 Taken from word 214, bit 0 of the IDENTIFY DEVICE data, a value of one means the NV Cache Power Mode feature set is enabled.
 
 
-#### - NVParameterReserv1
+### -field NVParameterReserv1
 
 Reserved for future use.
 
 
-#### - NVCmdEnabled
+### -field NVCmdEnabled
 
 Taken from word 214, bit 4 of the IDENTIFY DEVICE data, a value of one means the NV Cache feature set is enabled.
 
 
-#### - NVParameterReserv2
+### -field NVParameterReserv2
 
 Reserved for future use.
 
 
-#### - NVPowerModeVer
+### -field NVPowerModeVer
 
 Taken from word 214, bits 8 through 11 of the IDENTIFY DEVICE data, this field contains the NV Cache Power Mode feature set version.
 
 
-#### - NVCmdVer
+### -field NVCmdVer
 
 Taken from word 214, bits 12 through 15 of the IDENTIFY DEVICE data, this field contains the NV Cache feature set version.
 
 
-#### - NVSize
+### -field NVSize
 
 Taken from words 215 and 216 of the IDENTIFY DEVICE data, this field contains the NV Cache Size, in logical blocks.
 
 
-#### - NVReadSpeed
+### -field NVReadSpeed
 
 Taken from word 217 of the IDENTIFY DEVICE data, this field contains the NV Cache Read Transfer Speed, in megabytes per second (MB/s).
 
 
-#### - NVWrtSpeed
+### -field NVWrtSpeed
 
 Taken from word 218 of the IDENTIFY DEVICE data, this field contains the NV Cache Write Transfer Speed, in megabytes per second (MB/s).
 
 
-#### - DeviceSpinUpTime
+### -field DeviceSpinUpTime
 
 Taken from word 219, bits 0 through 7 of the IDENTIFY DEVICE data, this field contains the device's estimated time to spin up, in seconds.
 

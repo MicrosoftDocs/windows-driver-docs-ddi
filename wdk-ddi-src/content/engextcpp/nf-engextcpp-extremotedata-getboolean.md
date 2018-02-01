@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7a580683-ae56-4566-95b4-b4d42ae0e1ab
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData::GetBoolean, GetBoolean method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetBoolean method, debugger.extremotedata_getboolean, ExtRemoteData, GetBoolean method [Windows Debugging], EngExtCpp_Ref_791b0934-9cb7-430a-8b80-d7fe4f458f49.xml, GetBoolean
+ms.keywords: ExtRemoteData, ExtRemoteData::GetBoolean, GetBoolean method [Windows Debugging], ExtRemoteData class, GetBoolean, EngExtCpp_Ref_791b0934-9cb7-430a-8b80-d7fe4f458f49.xml, ExtRemoteData class [Windows Debugging], GetBoolean method, GetBoolean method [Windows Debugging], debugger.extremotedata_getboolean
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,11 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544081">ExtRemoteData::GetW32Bool</a>
+
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544081">ExtRemoteData::GetW32Bool</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544050">ExtRemoteData::GetStdBool</a>
 

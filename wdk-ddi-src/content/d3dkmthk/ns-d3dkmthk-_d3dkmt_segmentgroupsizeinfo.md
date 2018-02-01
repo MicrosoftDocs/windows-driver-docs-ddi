@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D9D8179-AA55-409B-A733-7346EC06391B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices], display.d3dkmt_segmentgroupsizeinfo, _D3DKMT_SEGMENTGROUPSIZEINFO, d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO
+ms.keywords: D3DKMT_SEGMENTGROUPSIZEINFO, _D3DKMT_SEGMENTGROUPSIZEINFO, d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, display.d3dkmt_segmentgroupsizeinfo, D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DKMT_SEGMENTGROUPSIZEINFO {
 
 
 
-#### - PhysicalAdapterIndex
+### -field PhysicalAdapterIndex
 
 An index to the physical adapter.
 
 
-#### - LegacyInfo
+### -field LegacyInfo
 
 Legacy segment size info.
 
 
-#### - LocalMemory
+### -field LocalMemory
 
 The size of local memory.
 
 
-#### - NonLocalMemory
+### -field NonLocalMemory
 
 The size of non-local memory.
 
 
-#### - NonBudgetMemory
+### -field NonBudgetMemory
 
 The size of non-budget memory.
 

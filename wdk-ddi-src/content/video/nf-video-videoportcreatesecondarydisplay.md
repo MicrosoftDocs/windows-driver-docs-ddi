@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 49dc9ed8-a506-475e-910f-5dce2ad9b168
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportcreatesecondarydisplay, video/VideoPortCreateSecondaryDisplay, VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPortCreateSecondaryDisplay
+ms.keywords: VideoPortCreateSecondaryDisplay, VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, display.videoportcreatesecondarydisplay, video/VideoPortCreateSecondaryDisplay, VideoPortCreateSecondaryDisplay function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VP_STATUS VideoPortCreateSecondaryDisplay(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension. This is the hardware extension for the device that wants to create additional display device objects.
 
 
-#### - SecondaryDeviceExtension [in, out]
+### -param SecondaryDeviceExtension [in, out]
 
 Pointer to the location in which to store the hardware device extension for the secondary display device.
 
 
-#### - ulFlag [in]
+### -param ulFlag [in]
 
 Is a set of attributes for the secondary display device. This parameter is restricted to the following value:
 <table>

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51e520db-fbec-4c6b-a23c-4d401de9ae63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_PRIVATEDATA, _DXVADDI_PRIVATEDATA, DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, d3dumddi/DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA structure [Display Devices], display.dxvaddi_privatedata
+ms.keywords: display.dxvaddi_privatedata, DXVADDI_PRIVATEDATA, _DXVADDI_PRIVATEDATA, DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, DXVADDI_PRIVATEDATA structure [Display Devices], d3dumddi/DXVADDI_PRIVATEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct _DXVADDI_PRIVATEDATA {
 
 
 
-#### - pData
+### -field pData
 
 [in] A pointer to a buffer that contains decoder data.
 
 
-#### - DataSize
+### -field DataSize
 
 [in] The size, in bytes, of the buffer that is pointed to by <b>pData</b>.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeextensionexecute.md">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdecodedevice.md">D3DDDIARG_CREATEDECODEDEVICE</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeextensionexecute.md">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45001da1-5fe3-4383-8da7-31e3ee115c1f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, netvista.ndis_shared_memory_provider_characteristics, ndis/PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, *PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_0cb54ab1-d469-4fa0-833a-eb17e1441e76.xml, PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_shared_memory_ref_0cb54ab1-d469-4fa0-833a-eb17e1441e76.xml, *PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, netvista.ndis_shared_memory_provider_characteristics, _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,12 +83,12 @@ The
      <b>Size</b> member to NDIS_SIZEOF_SHARED_MEMORY_PROVIDER_CHARACTERISTICS_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for NDIS.
 
 
-#### - ProviderContext
+### -field ProviderContext
 
 An NDIS_HANDLE to a block of driver-allocated context information that stores information about
      the provider. NDIS passes the context information in calls to 
@@ -96,14 +96,14 @@ An NDIS_HANDLE to a block of driver-allocated context information that stores in
      <i>ProviderContext</i> parameter.
 
 
-#### - AllocateSharedMemoryHandler
+### -field AllocateSharedMemoryHandler
 
 An entry point for the 
-     <mshelp:link keywords="netvista.netallocatesharedmemory" tabindex="0"><b>
-     NetAllocateSharedMemory</b></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">
+     NetAllocateSharedMemory</a> function.
 
 
-#### - FreeSharedMemoryHandler
+### -field FreeSharedMemoryHandler
 
 An entry point for the 
      <a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a> function.
@@ -114,8 +114,8 @@ An entry point for the
 
 To specify entry points for shared memory services, an NDIS driver initializes an
     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure and passes it to the 
-    <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-    NdisSetOptionalHandlers</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+    NdisSetOptionalHandlers</a> function.
 
 
 

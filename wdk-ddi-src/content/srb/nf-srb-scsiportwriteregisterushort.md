@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a6ed2bb8-e62c-4566-9b61-6acac68e8309
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWriteRegisterUshort routine [Storage Devices], srb/ScsiPortWriteRegisterUshort, storage.scsiportwriteregisterushort, ScsiPortWriteRegisterUshort, scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml
+ms.keywords: storage.scsiportwriteregisterushort, ScsiPortWriteRegisterUshort, scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, ScsiPortWriteRegisterUshort routine [Storage Devices], srb/ScsiPortWriteRegisterUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID ScsiPortWriteRegisterUshort(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the value to be written to the HBA's register.
 

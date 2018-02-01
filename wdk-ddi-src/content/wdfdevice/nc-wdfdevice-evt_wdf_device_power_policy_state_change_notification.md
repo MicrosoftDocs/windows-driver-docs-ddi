@@ -74,12 +74,12 @@ VOID EvtDevicePowerPolicyStateChange(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - NotificationData [in]
+### -param NotificationData [in]
 
 A pointer to a framework-supplied <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a> structure that identifies the state machine's old and new states.
 

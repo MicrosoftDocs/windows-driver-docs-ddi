@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1c2c103b-41a4-48e8-8232-01719c562d62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMRealizeBrush, printoem/OEMRealizeBrush, OEMRealizeBrush function [Print Devices], print_unidrv-pscript_rendering_ab4f8635-9dda-4f08-b4f9-d70681ec532e.xml, print.oemrealizebrush
+ms.keywords: print_unidrv-pscript_rendering_ab4f8635-9dda-4f08-b4f9-d70681ec532e.xml, OEMRealizeBrush function [Print Devices], print.oemrealizebrush, OEMRealizeBrush, printoem/OEMRealizeBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,26 +73,26 @@ BOOL APIENTRY OEMRealizeBrush(
 
 
 
-#### - pbo
+### -param pbo
 
 
 
-#### - psoTarget
+### -param psoTarget
 
 
 
-#### - psoPattern
+### -param psoPattern
 
 
 
-#### - psoMask
+### -param psoMask
 
 
 
-#### - pxlo
+### -param pxlo
 
 
 
-#### - iHatch
+### -param iHatch
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, wdfrequest/WdfRequestRetrieveOutputBuffer, kmdf.wdfrequestretrieveoutputbuffer, WdfRequestRetrieveOutputBuffer, PFN_WDFREQUESTRETRIEVEOUTPUTBUFFER, wdf.wdfrequestretrieveoutputbuffer, WdfRequestRetrieveOutputBuffer method
+ms.keywords: wdfrequest/WdfRequestRetrieveOutputBuffer, kmdf.wdfrequestretrieveoutputbuffer, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, WdfRequestRetrieveOutputBuffer, wdf.wdfrequestretrieveoutputbuffer, PFN_WDFREQUESTRETRIEVEOUTPUTBUFFER, WdfRequestRetrieveOutputBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfRequestRetrieveOutputBuffer(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object. 
 
 
-#### - MinimumRequiredSize [in]
+### -param MinimumRequiredSize [in]
 
 The minimum buffer size, in bytes, that the driver needs to process the I/O request.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a location that receives the buffer's address.
 
 
-#### - Length [out, optional]
+### -param Length [out, optional]
 
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 

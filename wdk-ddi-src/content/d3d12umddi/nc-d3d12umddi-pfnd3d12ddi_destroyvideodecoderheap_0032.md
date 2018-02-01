@@ -68,12 +68,12 @@ VOID APIENTRY* PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - hDrvVideoDecoderHeap
+### -param hDrvVideoDecoderHeap
 
 The video decoder heap.
 

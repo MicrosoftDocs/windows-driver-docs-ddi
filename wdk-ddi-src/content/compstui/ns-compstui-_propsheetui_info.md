@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/PROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], _PROPSHEETUI_INFO, PROPSHEETUI_INFO structure [Print Devices], print.propsheetui_info, PPROPSHEETUI_INFO, PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, *PPROPSHEETUI_INFO
+ms.keywords: "*PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], compstui/PPROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, PPROPSHEETUI_INFO, PROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, _PROPSHEETUI_INFO, print.propsheetui_info, PROPSHEETUI_INFO structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,17 +75,17 @@ typedef struct _PROPSHEETUI_INFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 CPSUI-supplied size, in bytes, of the PROPSHEETUI_INFO structure.
 
 
-#### - Version
+### -field Version
 
 CPSUI-supplied version number of the PROPSHEETUI_INFO structure. The current version number is defined by PROPSHEETUI_INFO_VERSION in compstui.h.
 
 
-#### - Flags
+### -field Flags
 
 CPSUI-supplied bit flags. The following flag is defined:
 <table>
@@ -106,7 +106,7 @@ If set, the calling application uses Unicode characters.
 </table> 
 
 
-#### - Reason
+### -field Reason
 
 CPSUI-supplied constant specifying the action to be performed on the property sheet by the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed function to which the PROPSHEETUI_INFO structure was passed. One of the following constants will be supplied:
 <ul>
@@ -133,29 +133,29 @@ PROPSHEETUI_REASON_SET_RESULT
 </ul>For information about the meaning of each constant, see the Remarks section of the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> description.
 
 
-#### - hComPropSheet
+### -field hComPropSheet
 
 CPSUI-supplied handle to a property sheet <a href="https://msdn.microsoft.com/b4c40c15-df16-4af0-81c8-9e70d26ba598">group parent</a>. This handle can be passed to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
 
 
-#### - pfnComPropSheet
+### -field pfnComPropSheet
 
 Address of CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
 
 
-#### - lParamInit
+### -field lParamInit
 
 Value received as the <i>lParam</i> parameter for the associated PFNPROPSHEETUI-typed function, when the function was first called with a <b>Reason</b> of PROPSHEETUI_REASON_INIT. For information about what this value can be, see the description of <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>.
 
 This value is supplied by CPSUI, and is valid for all <b>Reason</b> values.
 
 
-#### - UserData
+### -field UserData
 
 Optional, private value or pointer supplied by the associated <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed function, initially set to zero by CPSUI. If the function stores a value in <b>UserData</b>, then for subsequent calls to the function, the stored value or pointer is unchanged unless changed by the function.
 
 
-#### - Result
+### -field Result
 
 Result value supplied by the associated <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed function, initially set to zero by CPSUI. If the function stores a result value in <b>Result</b>, then for subsequent calls to the function, the stored value is unchanged unless changed by the function.
 

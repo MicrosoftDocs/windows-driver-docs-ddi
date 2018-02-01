@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CE5C2999-37D7-4702-B94D-E3131AE34E78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterExtensionRequest interface [Print Devices], Cancel method, IPrinterExtensionRequest, print.iprinterextensionrequest_cancel, Cancel method [Print Devices], Cancel method [Print Devices], IPrinterExtensionRequest interface, Cancel, IPrinterExtensionRequest::Cancel, printerextension/IPrinterExtensionRequest::Cancel
+ms.keywords: print.iprinterextensionrequest_cancel, IPrinterExtensionRequest, Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface, printerextension/IPrinterExtensionRequest::Cancel, IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface [Print Devices], Cancel method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ HRESULT Cancel(
 
 
 
-#### - bstrLogMessage [in]
+### -param bstrLogMessage [in]
 
 The log message.
 

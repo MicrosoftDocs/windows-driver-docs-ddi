@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReuseIrp, k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, IoReuseIrp routine [Kernel-Mode Driver Architecture], kernel.ioreuseirp, wdm/IoReuseIrp
+ms.keywords: wdm/IoReuseIrp, k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], kernel.ioreuseirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID IoReuseIrp(
 
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 Pointer to the IRP to be reinitialized for reuse. 
 
@@ -105,9 +105,9 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
-
 <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+
+<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 

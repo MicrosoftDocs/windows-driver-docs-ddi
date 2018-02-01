@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SE_TOKEN_USER, PSE_TOKEN_USER, ntifs/PSE_TOKEN_USER, SE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], _SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], ifsk.se_token_user
+ms.keywords: ntifs/SE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], ntifs/PSE_TOKEN_USER, _SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], ifsk.se_token_user, SE_TOKEN_USER, PSE_TOKEN_USER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,12 +81,12 @@ typedef struct _SE_TOKEN_USER {
 
 ### -field DUMMYUNIONNAME.TokenUser
 
- 
+Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
 
 
 ### -field DUMMYUNIONNAME.User
 
- 
+Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
 
 
 ### -field DUMMYUNIONNAME2
@@ -96,31 +96,10 @@ typedef struct _SE_TOKEN_USER {
 
 ### -field DUMMYUNIONNAME2.Sid
 
- 
-
-
-### -field DUMMYUNIONNAME2.Buffer
-
- 
-
-
-
-#### - TokenUser
-
-Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
-
-
-#### - User
-
-Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
-
-
-#### - Sid
-
 Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
 
 
-#### - Buffer
+### -field DUMMYUNIONNAME2.Buffer
 
 Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
 

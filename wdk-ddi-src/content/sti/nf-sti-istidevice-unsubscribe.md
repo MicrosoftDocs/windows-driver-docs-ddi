@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ee0bfafa-9f4b-4b4a-8b26-4bab81253500
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UnSubscribe method [Imaging Devices], sti/IStiDevice::UnSubscribe, IStiDevice interface [Imaging Devices], UnSubscribe method, UnSubscribe method [Imaging Devices], IStiDevice interface, IStiDevice::UnSubscribe, image.istidevice_unsubscribe, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml, UnSubscribe, IStiDevice
+ms.keywords: IStiDevice interface [Imaging Devices], UnSubscribe method, image.istidevice_unsubscribe, IStiDevice::UnSubscribe, IStiDevice, UnSubscribe method [Imaging Devices], sti/IStiDevice::UnSubscribe, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml, UnSubscribe method [Imaging Devices], IStiDevice interface, UnSubscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 92DDF65E-4B5B-443A-9C90-3B1BB2DD3CAF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], buses.composite_driver_capabilities_init, usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT
+ms.keywords: buses.composite_driver_capabilities_init, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ void COMPOSITE_DEVICE_CAPABILITIES_INIT(
 
 
 
-#### - CapabilityFlags
+### -param CapabilityFlags
 
  A pointer to a caller-allocated <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a> structure to be initialized. The macro sets the <b>CompositeDriverCapabilityFunctionSuspend</b>
 member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 0.
@@ -86,9 +86,9 @@ This routine does not return a value.
 
 <a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
-
 <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
 
  
 

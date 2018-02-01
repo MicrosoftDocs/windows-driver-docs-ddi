@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 47F535C0-57C7-407B-B47B-188EB6434F2E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetWriteStream method [Print Devices], GetWriteStream method [Print Devices], IPrinterPropertyBag interface, print.iprinterpropertybag_getwritestream, GetWriteStream, IPrinterPropertyBag::GetWriteStream, IPrinterPropertyBag interface [Print Devices], GetWriteStream method, printerextension/IPrinterPropertyBag::GetWriteStream, IPrinterPropertyBag
+ms.keywords: GetWriteStream method [Print Devices], IPrinterPropertyBag interface, GetWriteStream, IPrinterPropertyBag, IPrinterPropertyBag::GetWriteStream, GetWriteStream method [Print Devices], printerextension/IPrinterPropertyBag::GetWriteStream, print.iprinterpropertybag_getwritestream, IPrinterPropertyBag interface [Print Devices], GetWriteStream method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetWriteStream(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The property to write.
 

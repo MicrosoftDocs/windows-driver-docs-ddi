@@ -74,22 +74,22 @@ NTSTATUS NdkCreateMr(
 
 
 
-#### - *pNdkPd [in]
+### -param *pNdkPd [in]
 
 A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
 
 
-#### - FastRegister [in]
+### -param FastRegister [in]
 
 If TRUE, MR is for fast-register only. Otherwise, MR is for normal register only.
 
 
-#### - CreateCompletion [in]
+### -param CreateCompletion [in]
 
 A pointer to an <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
-#### - RequestContext [in, optional]
+### -param RequestContext [in, optional]
 
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
@@ -97,11 +97,6 @@ A context value that the NDK provider passes back to the <i>NdkCreateCompletion<
 #### - **ppNdkMr
 
 A pointer to the created MR object (<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>) is returned in this location if request succeeds without returning <b>STATUS_PENDING</b>. If <i>NdkCreateMr</i> returns <b>STATUS_PENDING</b>, this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
-
-
-#### - pNdkPd [in]
-
-A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
 
 
 #### - ppNdkMr
@@ -179,13 +174,13 @@ The <i>NdkCreateMr</i> function creates an NDK memory region (MR) object that ca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
  
 

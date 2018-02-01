@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 33e66fa0-53d6-400a-a03b-6d7b3fd01ace
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSQUALITY_MANAGER, ks/KSQUALITY_MANAGER, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml, KSQUALITY_MANAGER, stream.ksquality_manager, KSQUALITY_MANAGER structure [Streaming Media Devices], *PKSQUALITY_MANAGER, ks/PKSQUALITY_MANAGER
+ms.keywords: "*PKSQUALITY_MANAGER, KSQUALITY_MANAGER, ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml, PKSQUALITY_MANAGER, ks/PKSQUALITY_MANAGER, stream.ksquality_manager, ks/KSQUALITY_MANAGER, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], KSQUALITY_MANAGER structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - QualityManager
+### -field QualityManager
 
 Specifies a handle to the quality manager sink receiving the <a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a> complaint structures.
 
 
-#### - Context
+### -field Context
 
 Specifies the context parameter to use when reporting quality problems. The context is used by the quality manager to distinguish between various clients that can send complaints to the same file object.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6fce78f7-a23e-4651-b6d8-b3d5387ccc27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.vram_surface_info, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], ksmedia/PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], ksmedia/VRAM_SURFACE_INFO
+ms.keywords: "*PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], ksmedia/PVRAM_SURFACE_INFO, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, stream.vram_surface_info, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], ksmedia/VRAM_SURFACE_INFO, VRAM_SURFACE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct {
 
 
 
-#### - hSurface
+### -field hSurface
 
 A pointer to a kernel-mode handle that identifies the VRAM surface.
 
 
-#### - VramPhysicalAddress
+### -field VramPhysicalAddress
 
 This member contains the physical address of the surface in display memory. The minidriver fills in this member in the handler for <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a>.
 
 
-#### - cbCaptured
+### -field cbCaptured
 
 This member specifies the number of bytes copied into the VRAM surface. The minidriver sets this value.
 
 
-#### - dwWidth
+### -field dwWidth
 
 This member specifies the width of the video data in pixels. The minidriver sets this value.
 
 
-#### - dwHeight
+### -field dwHeight
 
 This member specifies the height of the video data, in pixels. The minidriver sets this value.
 
 
-#### - dwLinearSize
+### -field dwLinearSize
 
 This member specifies the linear size, in bytes, of a nonrectangular surface. The minidriver sets this value.
 
 
-#### - lPitch
+### -field lPitch
 
 This member specifies the pitch of the surface; that is, the distance, in bytes, to the start of the next line. This is also known as the <i>stride</i> of the surface. The minidriver sets this value.
 
 
-#### - ullReserved
+### -field ullReserved
 
 The minidriver can use this member to store information about the surface as it handles a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> request. Use caution, however; this structure does not persist across <a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a> calls.
 

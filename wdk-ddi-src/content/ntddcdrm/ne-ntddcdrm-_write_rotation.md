@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3569e38-cb56-4e33-baba-c479fc4368da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CdromDefaultRotation, CdromCAVRotation, ntddcdrm/CdromCAVRotation, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml, WRITE_ROTATION, WRITE_ROTATION enumeration [Storage Devices], ntddcdrm/WRITE_ROTATION, PWRITE_ROTATION, storage.write_rotation, PWRITE_ROTATION enumeration pointer [Storage Devices], ntddcdrm/CdromDefaultRotation, *PWRITE_ROTATION, _WRITE_ROTATION, ntddcdrm/PWRITE_ROTATION
+ms.keywords: storage.write_rotation, PWRITE_ROTATION enumeration pointer [Storage Devices], WRITE_ROTATION enumeration [Storage Devices], CdromDefaultRotation, PWRITE_ROTATION, ntddcdrm/CdromDefaultRotation, WRITE_ROTATION, ntddcdrm/WRITE_ROTATION, ntddcdrm/CdromCAVRotation, *PWRITE_ROTATION, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml, _WRITE_ROTATION, ntddcdrm/PWRITE_ROTATION, CdromCAVRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _WRITE_ROTATION {
 
 
 
-#### - CdromDefaultRotation
+### -field CdromDefaultRotation
 
 The CD-ROM drive uses the (default) constant linear velocity (CLV) method when it writes to a CD.
 
 
-#### - CdromCAVRotation
+### -field CdromCAVRotation
 
 The CD-ROM drive uses the (default) constant angular velocity (CAV) method when it writes to a CD.
 

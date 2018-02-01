@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a572398c-1755-4fc6-844b-85059d4d02cb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlmupgetprovideridfromname, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], FsRtlMupGetProviderIdFromName, fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, ntifs/FsRtlMupGetProviderIdFromName
+ms.keywords: ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName, fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlMupGetProviderIdFromName(
 
 
 
-#### - pProviderName [in]
+### -param pProviderName [in]
 
 A pointer to a Unicode string that contains the device name of the network redirector.
 
 
-#### - pProviderId [out]
+### -param pProviderId [out]
 
 A pointer to a ULONG32-typed variable that receives the provider identifier of the network redirector.
 

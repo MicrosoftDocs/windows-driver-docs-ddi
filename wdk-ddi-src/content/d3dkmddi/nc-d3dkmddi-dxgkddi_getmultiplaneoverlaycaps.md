@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_GETMULTIPLANEOVERLAYCAPS(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 Identifies the adapter containing the overlay hardware.
 
 
-#### - pGetMultiPlaneOverlayCaps [in]
+### -param pGetMultiPlaneOverlayCaps [in]
 
 A pointer to a DXGKARG_GETMULTIPLANEOVERLAYCAPS structure that receives the driver capabilities.
 

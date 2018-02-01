@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ac3ec079-61a5-42fe-a1c0-b7626e5f32d2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PScsiInquiry_OUT, ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], _ScsiInquiry_OUT, storage.scsiinquiry_out, PScsiInquiry_OUT structure pointer [Storage Devices], PScsiInquiry_OUT, structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml, *PScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT
+ms.keywords: PScsiInquiry_OUT, storage.scsiinquiry_out, PScsiInquiry_OUT structure pointer [Storage Devices], *PScsiInquiry_OUT, ScsiInquiry_OUT, _ScsiInquiry_OUT, iscsiop/PScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], iscsiop/ScsiInquiry_OUT, structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _ScsiInquiry_OUT {
 
 
 
-#### - Status
+### -field Status
 
 The status of the <b>ScsiInquiry</b> operation. This member will contain 0 if the INQUIRY operation succeeds and ISDSC_SCSI_REQUEST_FAILED if the operation fails. If the INQUIRY operation fails, <b>ScsiStatus</b> will contain the SCSI status of the SCSI command. SCSI status qualifiers are documented in the <i>SCSI Primary Commands</i> specification. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
 
-#### - ResponseBufferSize
+### -field ResponseBufferSize
 
 The response buffer size, in bytes<i>.</i>
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 The status of the SCSI INQUIRY command.
 
 
-#### - SenseBuffer
+### -field SenseBuffer
 
 A buffer that holds the SCSI sense data that the SCSI INQUIRY command received.
 
 
-#### - ResponseBuffer
+### -field ResponseBuffer
 
 A buffer that holds the response data that the SCSI INQUIRY command received. 
 
@@ -107,7 +107,7 @@ You must implement this method.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_in.md">ScsiInquiry_IN</a>
+<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_in.md">ScsiInquiry_IN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
 

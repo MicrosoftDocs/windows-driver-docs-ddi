@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: F7E283BB-B714-4CD4-AFF4-EFB62D82791D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PCIP_ATTACH_FRAME, _CIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], 61883/CIP_ATTACH_FRAME, CIP_ATTACH_FRAME, IEEE.cip_attach_frame, 61883/PCIP_ATTACH_FRAME, PCIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses]"
+ms.keywords: 61883/CIP_ATTACH_FRAME, *PCIP_ATTACH_FRAME, IEEE.cip_attach_frame, 61883/PCIP_ATTACH_FRAME, _CIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], PCIP_ATTACH_FRAME, CIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _CIP_ATTACH_FRAME {
 
 
 
-#### - hConnect
+### -field hConnect
 
 A handle to the connection.
 
 
-#### - FrameLength
+### -field FrameLength
 
 The length of the frame in bytes. The total frame length must be evenly divisible by the value in <b>SourceLength</b>.
 
 
-#### - SourceLength
+### -field SourceLength
 
 The length of the source packets, in bytes. The source length must be evenly divisible into the frame length.
 
 
-#### - Frame
+### -field Frame
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure that contains information about the frame and a data buffer to be sent or filled.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 820e7667-3adf-49c9-ab44-303f6ea7f4b2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2pixelshader, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, D3DHAL_DP2PIXELSHADER structure [Display Devices], LPD3DHAL_DP2PIXELSHADER, _D3DHAL_DP2PIXELSHADER, *LPD3DHAL_DP2PIXELSHADER, d3dhal/D3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], D3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER
+ms.keywords: LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], d3dhal/D3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER, _D3DHAL_DP2PIXELSHADER, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, D3DHAL_DP2PIXELSHADER, display.d3dhal_dp2pixelshader, D3DHAL_DP2PIXELSHADER structure [Display Devices], *LPD3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _D3DHAL_DP2PIXELSHADER {
 
 
 
-#### - dwHandle
+### -field dwHandle
 
 Specifies the handle to the pixel shader that is assigned by the runtime. For delete requests, the handle is guaranteed to be subzero. For set requests, the handle can be zero. If set to zero, the driver should reset any programmable pixel state and revert to fixed function pixel processing behavior (for example, by using render states).
 
@@ -87,9 +87,9 @@ When switching between programmable shaders, any constant register that has a va
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setpixelshaderconst.md">D3DHAL_DP2SETPIXELSHADERCONST</a>
 

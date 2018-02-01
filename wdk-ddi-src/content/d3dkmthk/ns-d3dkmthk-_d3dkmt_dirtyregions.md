@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53565c01-9e6f-4ade-8c4a-2a4dbe7d48c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_DIRTYREGIONS, d3dkmthk/D3DKMT_DIRTYREGIONS, D3DKMT_DIRTYREGIONS structure [Display Devices], OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml, D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions"
+ms.keywords: "_D3DKMT_DIRTYREGIONS, D3DKMT_DIRTYREGIONS structure [Display Devices], OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml, D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions, d3dkmthk/D3DKMT_DIRTYREGIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_DIRTYREGIONS {
 
 
 
-#### - NumRects
+### -field NumRects
 
 [in] The number of dirty regions in the array that the <b>Rects</b> member specifies. 
 
 
-#### - Rects
+### -field Rects
 
 [in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures that specifies the dirty regions of a surface.
 

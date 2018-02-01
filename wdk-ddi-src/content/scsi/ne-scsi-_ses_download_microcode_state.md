@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5edff312-8373-4d36-b93c-c35fe8c2996a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATE, scsi/SES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateNoneInProgress, SesDownloadMcStateNoneInProgress, scsi/PSES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingActivation, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], scsi/SesDownloadMcStateInProgress, _SES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices], scsi/SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateCompletedPendingReset, SesDownloadMcStateInProgress, SesDownloadMcStateCompletedPendingReset, storage.ses_download_microcode_state, PSES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingActivation"
+ms.keywords: scsi/SesDownloadMcStateCompletedPendingActivation, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], scsi/PSES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices], scsi/SesDownloadMcStateNoneInProgress, SesDownloadMcStateCompletedPendingActivation, PSES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE, scsi/SES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingReset, storage.ses_download_microcode_state, SesDownloadMcStateInProgress, SesDownloadMcStateNoneInProgress, scsi/SesDownloadMcStateCompletedPendingReset, scsi/SesDownloadMcStateInProgress, _SES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateCompletedPendingPowerOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _SES_DOWNLOAD_MICROCODE_STATE {
 
 
 
-#### - SesDownloadMcStateNoneInProgress
+### -field SesDownloadMcStateNoneInProgress
 
 Specifies no microcode download operation is in progress.
 
 
-#### - SesDownloadMcStateInProgress
+### -field SesDownloadMcStateInProgress
 
 Specifies a microcode download operation is in progress.
 
 
-#### - SesDownloadMcStateCompletedPendingReset
+### -field SesDownloadMcStateCompletedPendingReset
 
 Specifies a microcode download operations completed and is waiting for a hard reset.
 
 
-#### - SesDownloadMcStateCompletedPendingPowerOn
+### -field SesDownloadMcStateCompletedPendingPowerOn
 
 Specifies a microcode download operations completed and is waiting for a power on.
 
 
-#### - SesDownloadMcStateCompletedPendingActivation
+### -field SesDownloadMcStateCompletedPendingActivation
 
 Specifies a microcode download operations completed and is waiting for activation.
 

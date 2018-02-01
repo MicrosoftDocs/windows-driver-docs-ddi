@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 40104e1f-b936-430b-9e8c-28738579f4c7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: sti/STI_DEVICE_STATUS, image.sti_device_status, STI_DEVICE_STATUS structure [Imaging Devices], STI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml, _STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS, sti/PSTI_DEVICE_STATUS
+ms.keywords: STI_DEVICE_STATUS structure [Imaging Devices], image.sti_device_status, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], sti/PSTI_DEVICE_STATUS, sti/STI_DEVICE_STATUS, _STI_DEVICE_STATUS, PSTI_DEVICE_STATUS, stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml, *PSTI_DEVICE_STATUS, STI_DEVICE_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,12 +73,12 @@ typedef struct _STI_DEVICE_STATUS {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Caller-supplied size, in bytes, of the STI_DEVICE_STATUS structure.
 
 
-#### - StatusMask
+### -field StatusMask
 
 One or more caller-supplied bit flags, indicating the type of status information being requested. The following flags are defined:
 <table>
@@ -109,7 +109,7 @@ The driver should fill in the <b>dwOnlineState</b> member.
 </table> 
 
 
-#### - dwOnlineState
+### -field dwOnlineState
 
 Bit flags indicating the device's current status. The following flags are defined in <i>Sti.h</i>.
 
@@ -214,12 +214,12 @@ The device requires user intervention.
 The device is warming up.
 
 
-#### - dwHardwareStatusCode
+### -field dwHardwareStatusCode
 
 Optional device-specific, vendor-defined value.
 
 
-#### - dwEventHandlingState
+### -field dwEventHandlingState
 
 Contains bit flags indicating event status. The following flags are defined in <i>Sti.h</i>.
 
@@ -245,7 +245,7 @@ A device event has occurred.
 <i>Not used</i>.
 
 
-#### - dwPollingInterval
+### -field dwPollingInterval
 
 Time value, in milliseconds, indicating how often the device should be polled, if polling is required.
 

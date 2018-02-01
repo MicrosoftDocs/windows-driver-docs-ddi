@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], iscsimgt/MSiSCSI_QueryLBPolicy, _MSiSCSI_QueryLBPolicy
+ms.keywords: iscsimgt/PMSiSCSI_QueryLBPolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, MSiSCSI_QueryLBPolicy structure [Storage Devices], _MSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, iscsimgt/MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], PMSiSCSI_QueryLBPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _MSiSCSI_QueryLBPolicy {
 
 
 
-#### - UniqueAdapterId
+### -field UniqueAdapterId
 
 This is a unique connection identifier that the initiator uses to identify a connection. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for Microsoft use only.
 
 
-#### - SessionCount
+### -field SessionCount
 
 This specifies the number of active sessions for this adapater ID.
 
 
-#### - LoadBalancePolicies
+### -field LoadBalancePolicies
 
 This is an enumeration that contains information required to set the load balance policy. For more information about how to set the load balance policy, see <a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>. There will be as many of these structures as the number of sessions available for this adapter.
 
@@ -99,11 +99,11 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
 
  
 

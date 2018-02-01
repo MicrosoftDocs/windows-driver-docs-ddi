@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c4ed9551-3dc8-4f76-9bcb-26030f76c244
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortMoveMemory routine [Storage Devices], srb/ScsiPortMoveMemory, storage.scsiportmovememory, scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, ScsiPortMoveMemory
+ms.keywords: srb/ScsiPortMoveMemory, ScsiPortMoveMemory, storage.scsiportmovememory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortMoveMemory(
 
 
 
-#### - WriteBuffer [in]
+### -param WriteBuffer [in]
 
 Pointer to the destination buffer.
 
 
-#### - ReadBuffer [in]
+### -param ReadBuffer [in]
 
 Pointer to the source buffer.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies how many bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>.
 

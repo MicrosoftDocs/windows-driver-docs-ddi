@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_queryresidency, D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, D3DDDICB_QUERYRESIDENCY structure [Display Devices], _D3DDDICB_QUERYRESIDENCY
+ms.keywords: display.d3dddicb_queryresidency, D3DDDICB_QUERYRESIDENCY structure [Display Devices], d3dumddi/D3DDDICB_QUERYRESIDENCY, _D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY, D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,26 +70,26 @@ typedef struct _D3DDDICB_QUERYRESIDENCY {
 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to a resource whose residency is queried. If the user-mode display driver uses the array in the <b>HandleList</b> member to query for residency, it sets <b>hResource</b> to <b>NULL</b>.
 
 If <b>hResource</b> is non-<b>NULL</b>, all allocations that belong to the resource are queried, and the result is returned in the first element of the array that <b>pResidencyStatus</b> points to. The residency status of a resource is equal to the lowest residency status of all allocations that belong to the resource.
 
 
-#### - NumAllocations
+### -field NumAllocations
 
 [in] The number of allocations in the <b>HandleList</b> array. If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, it must set <b>NumAllocations</b> to zero.
 
 
-#### - HandleList
+### -field HandleList
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to query for residency.
 
 If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, it must set <b>HandleList</b> to <b>NULL</b>. 
 
 
-#### - pResidencyStatus
+### -field pResidencyStatus
 
 [out] A pointer to an array of D3DDDI_RESIDENCYSTATUS values. If the <b>hResource</b> member is non-<b>NULL</b>, the array contains a single element and receives one of the following value to indicate the residency status of the resource. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>NumAllocations</b> member, and each element receives one of the following values to indicate the residency status of the corresponding allocation in the array that is specified by <b>HandleList</b>. 
 <table>

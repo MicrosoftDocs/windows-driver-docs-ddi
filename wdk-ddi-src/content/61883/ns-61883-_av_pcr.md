@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: f6d3f95b-7484-4a6b-9b7e-69f6172b7a12
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AV_PCR structure [Buses], 61883_structures_d8602c71-aca5-427d-a8bf-d1da914ebacc.xml, AV_PCR, 61883/AV_PCR, PAV_PCR, *PAV_PCR, _AV_PCR, PAV_PCR structure pointer [Buses], IEEE.av_pcr, 61883/PAV_PCR
+ms.keywords: "_AV_PCR, 61883/AV_PCR, AV_PCR structure [Buses], *PAV_PCR, AV_PCR, IEEE.av_pcr, 61883/PAV_PCR, PAV_PCR structure pointer [Buses], 61883_structures_d8602c71-aca5-427d-a8bf-d1da914ebacc.xml, PAV_PCR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,26 +71,26 @@ typedef struct _AV_PCR {
 
 
 
-#### - oPCR
+### -field oPCR
 
 Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537441">OPCR</a> structure that contains initialization values for an output plug. 
 
 
-#### - iPCR
+### -field iPCR
 
 Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537348">IPCR</a> structure that contains initialization values for an input plug.
 
 
-#### - ulongData
+### -field ulongData
 
 Reserved for internal use.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536995">Av61883_SetPlug</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>
 
  
 

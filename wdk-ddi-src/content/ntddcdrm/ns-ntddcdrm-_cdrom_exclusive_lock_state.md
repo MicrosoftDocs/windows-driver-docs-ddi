@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea5e60d9-d167-4ad9-bef4-2ebb6c63184d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/PCDROM_EXCLUSIVE_LOCK_STATE, PCDROM_EXCLUSIVE_LOCK_STATE, CDROM_EXCLUSIVE_LOCK_STATE, structs-CD-ROM_eeca8064-e141-4398-819e-451a80aca4c3.xml, _CDROM_EXCLUSIVE_LOCK_STATE, storage.cdrom_exclusive_lock_state, PCDROM_EXCLUSIVE_LOCK_STATE structure pointer [Storage Devices], *PCDROM_EXCLUSIVE_LOCK_STATE, CDROM_EXCLUSIVE_LOCK_STATE structure [Storage Devices]
+ms.keywords: "*PCDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/CDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/PCDROM_EXCLUSIVE_LOCK_STATE, PCDROM_EXCLUSIVE_LOCK_STATE structure pointer [Storage Devices], CDROM_EXCLUSIVE_LOCK_STATE, storage.cdrom_exclusive_lock_state, PCDROM_EXCLUSIVE_LOCK_STATE, structs-CD-ROM_eeca8064-e141-4398-819e-451a80aca4c3.xml, CDROM_EXCLUSIVE_LOCK_STATE structure [Storage Devices], _CDROM_EXCLUSIVE_LOCK_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _CDROM_EXCLUSIVE_LOCK_STATE {
 
 
 
-#### - LockState
+### -field LockState
 
 A Boolean value that indicates whether the CD-ROM device is locked for exclusive access. If <b>TRUE</b>, the device is locked. If <b>FALSE</b>, the device is not locked.
 
 
-#### - CallerName
+### -field CallerName
 
 A <b>NULL</b>-terminated string that identifies the application or system component that has a lock on the CD-ROM device. The length of the string must be less than or equal to CDROM_EXCLUSIVE_CALLER_LENGTH bytes, including the <b>NULL</b> character at the end of the string. The string must contain alphanumerics (A - Z, a - z, 0 - 9), spaces, periods, commas, colons (:), semi-colons (;), hyphens (-), and underscores (_).
 

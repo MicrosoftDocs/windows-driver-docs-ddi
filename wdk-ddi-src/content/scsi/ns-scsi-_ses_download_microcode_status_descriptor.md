@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af686e7a-9426-4151-8ac4-d95ae1689b4c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ses_download_microcode_status_descriptor, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices], PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ms.keywords: PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices], *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, storage.ses_download_microcode_status_descriptor, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,18 +75,18 @@ typedef struct _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR {
 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for future use.
 
 
-#### - SubEnclosureId
+### -field SubEnclosureId
 
 Specifies the subenclosure to which the download microcode
 status descriptor applies to.
 
 
-#### - Status
+### -field Status
 
  Specifies the status of download microcode
 operations for the subenclosure. After reporting a code indicating completion, the
@@ -322,31 +322,31 @@ Vendor Specific
 </table> 
 
 
-#### - AdditionalStatus
+### -field AdditionalStatus
 
 Provides an additional status value for certain
 values of <i>Status</i> .
 
 
-#### - MaximumImageSize
+### -field MaximumImageSize
 
 Indicates the maximum size in bytes of the
 microcode image that the enclosure services process accepts. The image may be delivered using one or
 more <a href="https://msdn.microsoft.com/09c2746f-cfe4-41dc-82ce-0b7e0c348897">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved for future use.
 
 
-#### - ExpectedBufferId
+### -field ExpectedBufferId
 
 Indicates the next value that the
 enclosure services process expects in the <i>BufferId</i> field in <a href="https://msdn.microsoft.com/09c2746f-cfe4-41dc-82ce-0b7e0c348897">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
 
 
-#### - ExpectedBufferOffset
+### -field ExpectedBufferOffset
 
 Indicates the next value that the
 enclosure services process expects in the <i>BufferOffset</i> field in <a href="https://msdn.microsoft.com/09c2746f-cfe4-41dc-82ce-0b7e0c348897">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>. If the enclosure services process accepts arbitrary <i>BufferOffset</i> values, then it shall set <i>ExpectedBufferOffset</i> to 0xFFFFFFFF.

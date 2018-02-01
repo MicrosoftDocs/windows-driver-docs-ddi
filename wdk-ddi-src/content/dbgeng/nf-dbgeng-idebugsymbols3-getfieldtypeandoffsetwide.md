@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b4e38b33-2f23-4439-b0bc-ab3524e5180e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldTypeAndOffsetWide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide, IDebugSymbols3::GetFieldTypeAndOffsetWide, GetFieldTypeAndOffsetWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffsetWide method, GetFieldTypeAndOffsetWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetFieldTypeAndOffsetWide method [Windows Debugging], GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffsetWide method, GetFieldTypeAndOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldTypeAndOffsetWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT GetFieldTypeAndOffsetWide(
 
 
 
-#### - Module [in]
+### -param Module [in]
 
 Specifies the module containing the types of both the container and the field.
 
 
-#### - ContainerTypeId [in]
+### -param ContainerTypeId [in]
 
 Specifies the type ID for the container's type.  Examples of containers include structures, unions, and classes.
 
 
-#### - Field [in]
+### -param Field [in]
 
 Specifies the name of the field whose type and offset are requested.  Subfields may be specified by using a dot-separated path.
 
 
-#### - FieldTypeId [out, optional]
+### -param FieldTypeId [out, optional]
 
 Receives the type ID of the field.
 
 
-#### - Offset [out, optional]
+### -param Offset [out, optional]
 
 Receives the offset of the field <i>Field</i> from the base memory location of an instance of the container.
 
@@ -142,11 +142,11 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
 
  
 

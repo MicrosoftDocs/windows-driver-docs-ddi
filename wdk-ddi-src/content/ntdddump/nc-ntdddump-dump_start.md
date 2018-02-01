@@ -70,7 +70,7 @@ NTSTATUS Dump_Start(
 
 
 
-#### - FilterExtension [in]
+### -param FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 

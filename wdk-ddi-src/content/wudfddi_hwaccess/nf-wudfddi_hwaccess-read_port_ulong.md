@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2B507B58-8CD0-4D66-93E9-FF67D7246F3C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.read_port_ulong, READ_PORT_ULONG, wudfddi_hwaccess/READ_PORT_ULONG, READ_PORT_ULONG function, wdf.read_port_ulong
+ms.keywords: READ_PORT_ULONG function, wdf.read_port_ulong, READ_PORT_ULONG, umdf.read_port_ulong, wudfddi_hwaccess/READ_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ ULONG READ_PORT_ULONG(
 
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space.
 

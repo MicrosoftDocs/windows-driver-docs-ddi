@@ -79,47 +79,47 @@ ULONG CamProcessUSBPacket(
 
 
 
-#### - BusDeviceObject
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-#### - DeviceContext
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-#### - CurrentFrameContext
+### -param CurrentFrameContext
 
 Pointer to the minidriver's frame context.
 
 
-#### - SyncPacket
+### -param SyncPacket
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the sync pipe. This value is <b>NULL</b> if the interface has only one pipe.
 
 
-#### - SyncBuffer
+### -param SyncBuffer
 
 Pointer to the data for the <i>SyncPacket.</i>
 
 
-#### - DataPacket
+### -param DataPacket
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the data pipe.
 
 
-#### - DataBuffer
+### -param DataBuffer
 
 Pointer to <i>DataPacket.</i>
 
 
-#### - FrameComplete
+### -param FrameComplete
 
 Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether this is the first data packet for a new video frame. Set to <b>TRUE</b> if this is the first data packet for a new video frame.
 
 
-#### - NextFrameIsStill
+### -param NextFrameIsStill
 
 Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether the next frame is a still frame or not. This value should be set to <b>FALSE</b> if the video stream is providing a live image or <b>TRUE</b> if the next frame is a still image or an image capture stream.
 
@@ -144,11 +144,11 @@ This function is optional.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
-
 <a href="..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine_ex.md">CamProcessUSBPacketEx</a>
 
 <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
+
+<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
  
 

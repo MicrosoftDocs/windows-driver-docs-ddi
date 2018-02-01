@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Write, D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress, NoAccess, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, Zero, Execute
+ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress, Execute, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Zero, Write, NoAccess, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,26 +79,26 @@ typedef struct D3DDDI_MAPGPUVIRTUALADDRESS {
 
 
 
-#### - hPagingQueue
+### -field hPagingQueue
 
 A handle for the device paging queue, used for the operation.
 
 
-#### - BaseAddress
+### -field BaseAddress
 
 (Optional) If non-<b>NULL</b>, the video memory manager will attempt to use this address as the base address for the mapping. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, it must belong to a range, previously obtained by calling <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a> or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>. 
 The <b>BaseAddress</b> value is in bytes and must be aligned to CPU page boundary.
 If <b>NULL</b> is specified, the video memory manager will pick the base address for the allocation within the specified <b>MinimumAddress</b> and <b>MaximumAddress</b>.
 
 
-#### - MinimumAddress
+### -field MinimumAddress
 
 (Optional) Specifies the minimum GPU virtual address to consider for the mapped range. 
 The <b>MinimumAddress</b> value is in bytes and must be aligned to 4KB page. 
 This parameter is ignored when <b>BaseAddress</b> != <b>NULL.</b>
 
 
-#### - MaximumAddress
+### -field MaximumAddress
 
 
 (Optional) Specifies the maximum GPU virtual address to consider for the mapped range. the video memory manager will guarantee that <b>BaseAddress</b>+<b>Size</b> &lt;= <b>MaximumAddress</b>. If this is set to <b>NULL</b> the video memory manager will not apply any limit.
@@ -107,22 +107,22 @@ This parameter is ignored when <b>BaseAddress</b> != NULL.
 
 
 
-#### - hAllocation
+### -field hAllocation
 
 Handle to the allocation being mapped into the GPU virtual address space. Must be <b>NULL</b> when <b>Protection.NoAccess</b> or <b>Protection.Zero</b> is specified.
 
 
-#### - OffsetInPages
+### -field OffsetInPages
 
 Specifies the offset, in 4KB, to the starting page within the specified allocation that must be mapped.
 
 
-#### - SizeInPages
+### -field SizeInPages
 
 Specifies the size of the range to map in 4KB pages.
 
 
-#### - Protection
+### -field Protection
 
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a> structure that specifies the protection on the GPU virtual address that is mapped.
@@ -175,27 +175,27 @@ The pages will be put to the Zero state (<b>hAllocation</b> must be <b>NULL</b>)
 </table> 
 
 
-#### - DriverProtection
+### -field DriverProtection
 
 Specifies a driver specific 64bits protection value associated with the VA range being allocated. The specified driver protection will be used in call to <a href="https://msdn.microsoft.com/08328e82-d1cc-4c50-bc96-7382232676ab">DxgkDdiUpdatePageTable</a> for page table entries corresponding to this virtual address range.
 
 
-#### - Reserved0
+### -field Reserved0
 
 This member is reserved and should be set to zero.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved and should be set to zero.
 
 
-#### - VirtualAddress
+### -field VirtualAddress
 
 The virtual address assigned to the allocation.
 
 
-#### - PagingFenceValue
+### -field PagingFenceValue
 
 Represents the device paging fence value that the video memory manager will signal when the map operation completes on the GPU.
 The user mode driver must ensure that this fence is retired or explicitly wait on either the CPU or the GPU on that fence before allowing the GPU to access the mapped range or an unrecoverable fault may occur.
@@ -204,13 +204,13 @@ A zero fence value might be returned, meaning that the operation is already comp
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
 
 <a href="https://msdn.microsoft.com/08328e82-d1cc-4c50-bc96-7382232676ab">DxgkDdiUpdatePageTable</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
 
  
 

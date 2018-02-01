@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff70685f-f3cf-49c0-bb0b-02e561feeac3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_e2f251c9-d2a0-4b33-91d8-2d700eb4253e.xml, AtaPortReadPortBufferUlong, irb/AtaPortReadPortBufferUlong, AtaPortReadPortBufferUlong routine [Storage Devices], storage.ataportreadportbufferulong
+ms.keywords: atartns_e2f251c9-d2a0-4b33-91d8-2d700eb4253e.xml, irb/AtaPortReadPortBufferUlong, AtaPortReadPortBufferUlong, storage.ataportreadportbufferulong, AtaPortReadPortBufferUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID AtaPortReadPortBufferUlong(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the destination buffer.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of ULONG values to read from the HBA.
 
@@ -96,11 +96,11 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-
 <a href="..\irb\nf-irb-ataportreadportbufferuchar.md">AtaPortReadPortBufferUchar</a>
 
 <a href="..\irb\nf-irb-ataportreadportbufferushort.md">AtaPortReadPortBufferUshort</a>
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
  
 

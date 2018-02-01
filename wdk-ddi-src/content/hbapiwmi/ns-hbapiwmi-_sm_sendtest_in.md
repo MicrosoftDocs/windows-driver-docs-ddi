@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5bb0620e-b271-4af6-b528-b904910b8a6c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SM_SendTEST_IN, hbapiwmi/SM_SendTEST_IN, SM_SendTEST_IN structure [Storage Devices], storage.sm_sendtest_in, PSM_SendTEST_IN structure pointer [Storage Devices], SM_SendTEST_IN, *PSM_SendTEST_IN, hbapiwmi/PSM_SendTEST_IN, PSM_SendTEST_IN, structs-Fibre_6d12c9e2-88bd-4803-893a-bb4e54604fad.xml"
+ms.keywords: PSM_SendTEST_IN structure pointer [Storage Devices], SM_SendTEST_IN structure [Storage Devices], hbapiwmi/PSM_SendTEST_IN, PSM_SendTEST_IN, structs-Fibre_6d12c9e2-88bd-4803-893a-bb4e54604fad.xml, hbapiwmi/SM_SendTEST_IN, _SM_SendTEST_IN, *PSM_SendTEST_IN, SM_SendTEST_IN, storage.sm_sendtest_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _SM_SendTEST_IN {
 
 
 
-#### - HbaPortWWN
+### -field HbaPortWWN
 
 The local HBA port worldwide name (WWN).
 
 
-#### - DestWWN
+### -field DestWWN
 
 The remote HBA port worldwide name (WWN) to which the command will be sent.
 
 
-#### - DestFCID
+### -field DestFCID
 
 The address identifier of the remote port.
 
 
-#### - ReqBufferSize
+### -field ReqBufferSize
 
 The request buffer size.
 
 
-#### - ReqBuffer
+### -field ReqBuffer
 
 The request buffer data.
 

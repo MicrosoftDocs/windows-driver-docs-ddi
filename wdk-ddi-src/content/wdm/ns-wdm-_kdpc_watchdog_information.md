@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b0d3fd8-0952-4cfa-81e1-255145fd27dd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PKDPC_WATCHDOG_INFORMATION, kernel.dpc_watchdog_information, wdm/KDPC_WATCHDOG_INFORMATION, *PKDPC_WATCHDOG_INFORMATION, kstruct_a_22042f11-ce6d-481a-949a-d6370ab442ad.xml, _KDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION structure [Kernel-Mode Driver Architecture], PKDPC_WATCHDOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PKDPC_WATCHDOG_INFORMATION
+ms.keywords: kstruct_a_22042f11-ce6d-481a-949a-d6370ab442ad.xml, KDPC_WATCHDOG_INFORMATION structure [Kernel-Mode Driver Architecture], _KDPC_WATCHDOG_INFORMATION, wdm/PKDPC_WATCHDOG_INFORMATION, PKDPC_WATCHDOG_INFORMATION, *PKDPC_WATCHDOG_INFORMATION, wdm/KDPC_WATCHDOG_INFORMATION, kernel.dpc_watchdog_information, PKDPC_WATCHDOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], KDPC_WATCHDOG_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _KDPC_WATCHDOG_INFORMATION {
 
 
 
-#### - DpcTimeLimit
+### -field DpcTimeLimit
 
 Time limit for a single, current deferred procedure call. If DPC time-out has been disabled, this value is set to 0.
 
 
-#### - DpcTimeCount
+### -field DpcTimeCount
 
 Time remaining for the current deferred procedure call, if DPC time-out has been enabled.
 
 
-#### - DpcWatchdogLimit
+### -field DpcWatchdogLimit
 
 Total time limit permitted for a sequence of deferred procedure calls. If DPC watchdog has been disabled, this value is set to zero.
 
 
-#### - DpcWatchdogCount
+### -field DpcWatchdogCount
 
 Time value remaining for the current sequence of deferred procedure calls, if enabled.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3013da9-8db4-4346-9be8-77b2c6de3f59
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVADDI_VALUERANGE, d3dumddi/DXVADDI_VALUERANGE, DXVADDI_VALUERANGE structure [Display Devices], display.dxvaddi_valuerange, DXVADDI_VALUERANGE, DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml"
+ms.keywords: display.dxvaddi_valuerange, DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml, DXVADDI_VALUERANGE, DXVADDI_VALUERANGE structure [Display Devices], d3dumddi/DXVADDI_VALUERANGE, _DXVADDI_VALUERANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,35 +70,35 @@ typedef struct _DXVADDI_VALUERANGE {
 
 
 
-#### - MinValue
+### -field MinValue
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the minimum value that is allowed for a given property.
 
 
-#### - MaxValue
+### -field MaxValue
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the maximum value that is allowed for a given property.
 
 
-#### - DefaultValue
+### -field DefaultValue
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the default value for a given property.
 
 
-#### - StepSize
+### -field StepSize
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the step size increment for a given property.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_queryprocampinput.md">DXVADDI_QUERYPROCAMPINPUT</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 

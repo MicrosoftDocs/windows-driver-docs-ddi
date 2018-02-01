@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad88382b-bfb0-46c4-9db7-9adb1ee074a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGSMKIND, ntddrilapitypes/RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_GPRS, RIL_GSMKIND_EDGE, RIL_GSMKIND_MAX, RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX, ntddrilapitypes/RILGSMKIND, netvista.rilgsmkind, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GSMKIND_GPRS, RILGSMKIND, netvista.rilgsmkind, ntddrilapitypes/RILGSMKIND, ntddrilapitypes/RIL_GSMKIND_EDGE, RIL_GSMKIND_MAX, RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILGSMKIND {
 
 
 
-#### - RIL_GSMKIND_GPRS
+### -field RIL_GSMKIND_GPRS
 
 
 
-#### - RIL_GSMKIND_EDGE
+### -field RIL_GSMKIND_EDGE
 
 
 
-#### - RIL_GSMKIND_MAX
+### -field RIL_GSMKIND_MAX
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml, RtlStringCchPrintfW, RtlStringCchPrintf, kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchPrintfA, RtlStringCchPrintfA
+ms.keywords: ntstrsafe/RtlStringCchPrintfA, RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfW, RtlStringCchPrintfW, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml, RtlStringCchPrintf, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS RtlStringCchPrintfW(
 
 
 
-#### - pszDest [out]
+### -param pszDest [out]
 
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list.
 
 
-#### - cchDest [in]
+### -param cchDest [in]
 
 The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is <b>NTSTRSAFE_MAX_CCH</b>. 
 
 
-#### - pszFormat [in]
+### -param pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/en-us/library/56e442dc.aspx">formatting directives</a>.
 
@@ -223,9 +223,9 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to h
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
 
  
 

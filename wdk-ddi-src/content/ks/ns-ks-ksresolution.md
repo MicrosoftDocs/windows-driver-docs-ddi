@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fbd6222c-6d54-4e2a-aa5b-8051f0838886
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSRESOLUTION structure pointer [Streaming Media Devices], KSRESOLUTION structure [Streaming Media Devices], *PKSRESOLUTION, ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, KSRESOLUTION, ks/KSRESOLUTION, ks/PKSRESOLUTION, stream.ksresolution, PKSRESOLUTION
+ms.keywords: stream.ksresolution, PKSRESOLUTION, KSRESOLUTION, ks/PKSRESOLUTION, KSRESOLUTION structure [Streaming Media Devices], ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, *PKSRESOLUTION, ks/KSRESOLUTION, PKSRESOLUTION structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - Granularity
+### -field Granularity
 
 Specifies the increment granularity of the clock in 100-nanosecond units, where 1 is the best.
 
 
-#### - Error
+### -field Error
 
 Specifies the +/- notification error of the clock in 100-nanosecond units, where 0 is the best, meaning the event notification granularity is as good as the increment granularity.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 411246a5-9486-4194-9fb1-4ec0ba1dd47b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_87da73df-e65e-4c01-8294-1201215a8d7c.xml, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, display.dxvahdddi_blt_state_output_color_space_data, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+ms.keywords: DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVA2_Structs_87da73df-e65e-4c01-8294-1201215a8d7c.xml, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, display.dxvahdddi_blt_state_output_color_space_data, d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,35 +77,35 @@ typedef struct _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA {
 
 
 
-#### - Usage
+### -field Usage
 
 [in] A UINT value that specifies whether the decode device should perform video playback (for example, presenting to the screen) or video processing (for example, video editing or authoring). The driver can perform the optimal color conversion based on the output device context. The default value is zero, which indicates video playback.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001). 
 
 
-#### - RGB_Range
+### -field RGB_Range
 
 [in] A UINT value that specifies whether the output is full range RGB (that is, 0 to 255) or limited range RGB (that is, 16 to 235). The default value is zero, which indicates full range RGB.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002). 
 
 
-#### - YCbCr_Matrix
+### -field YCbCr_Matrix
 
 [in] A UINT value that specifies whether the output is BT.601 (for standard digital television) or BT.709 (for high-definition television). The default value is zero, which indicates BT.601. 
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-#### - YCbCr_xvYCC
+### -field YCbCr_xvYCC
 
 [in] A UINT value that specifies whether the output is conventional YCbCr or extended YCbCr (xvYCC). The default is zero, which indicates conventional YCbCr. 
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
-#### - Nominal_Range
+### -field Nominal_Range
 
 [in] A UINT value that specifies that the luminance range of YUV data is described by the <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_nominal_range.md">DXVAHDDDI_NOMINAL_RANGE</a> enumeration. The default is zero, which indicates the studio luminance range of 16 to 255, inclusive [16, 235].
 
@@ -116,14 +116,14 @@ Setting this member is equivalent to setting the fifth and sixth bits of the 32-
 Supported starting with Windows 8.1.
 
 
-#### - Reserved
+### -field Reserved
 
 [in] Reserved. Must be zero.
 
 This member is equivalent to the remaining 26 bits (0xFFFFFFC0) of the 32-bit <b>Value</b> member.
 
 
-#### - Value
+### -field Value
 
 [in] A 32-bit value that describes the color space of the output. 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ca3358-7740-4eda-ab7c-f4b8a88389c2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ReadPhysical, WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, ReadPhysical function [Windows Debugging], ReadPhysical, debugger.readphysical
+ms.keywords: debugger.readphysical, WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, ReadPhysical, wdbgexts/ReadPhysical, ReadPhysical function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ __inline VOID ReadPhysical(
 
 
 
-#### - address
+### -param address
 
 Specifies the physical address to read.
 
 
-#### - buf
+### -param buf
 
 Specifies the address of an array of bytes to hold the data that is read.
 
 
-#### - size
+### -param size
 
 Specifies the number of bytes to read. 
 
 
-#### - sizer
+### -param sizer
 
 Receives the number of bytes actually read.
 

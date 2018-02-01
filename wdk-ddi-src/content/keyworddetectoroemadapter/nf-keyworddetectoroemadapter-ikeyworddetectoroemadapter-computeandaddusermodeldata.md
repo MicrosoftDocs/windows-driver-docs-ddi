@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4E810EAD-3864-44C1-9845-60DAB288BB48
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IKeywordDetectorOemAdapter, ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices], ComputeAndAddUserModelData method, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
+ms.keywords: audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, IKeywordDetectorOemAdapter, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices], ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface, ComputeAndAddUserModelData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT ComputeAndAddUserModelData(
 
 
 
-#### - ModelData [in]
+### -param ModelData [in]
 
 A pointer to the <b>IStream</b> object bound to model data. It is modified by this call.
 
 
-#### - KeywordSelector [in]
+### -param KeywordSelector [in]
 
 A <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a> struct that uniquely identifies this model.
 
 
-#### - KeywordEndBytePos [in]
+### -param KeywordEndBytePos [in]
 
 Indicates the end of the keyword in the UserRecording.
 
 
-#### - UserRecordings [in]
+### -param UserRecordings [in]
 
 A pointer to an array of pointers to the previously verified user recordings of the keyword.
 
 
-#### - NumUserRecordings [in]
+### -param NumUserRecordings [in]
 
 The number of recordings.
 
@@ -155,9 +155,9 @@ The processing was unable to complete.
 
 ## -see-also
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-
 <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
  
 

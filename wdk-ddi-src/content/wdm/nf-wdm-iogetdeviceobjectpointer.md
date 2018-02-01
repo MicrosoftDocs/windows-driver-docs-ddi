@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aeb088f3-92c3-4619-9c3b-756bd70307e7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetdeviceobjectpointer, k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, IoGetDeviceObjectPointer, IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceObjectPointer
+ms.keywords: IoGetDeviceObjectPointer, k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceObjectPointer, kernel.iogetdeviceobjectpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS IoGetDeviceObjectPointer(
 
 
 
-#### - ObjectName [in]
+### -param ObjectName [in]
 
 Pointer to a buffer that contains a Unicode string that is the name of the device object.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the desired access. Usually <i>DesiredAccess</i> is FILE_READ_DATA. Infrequently, the FILE_WRITE_DATA, or FILE_ALL_ACCESS access rights are specified.
 
 
-#### - FileObject [out]
+### -param FileObject [out]
 
 Pointer to the file object that represents the corresponding device object to user-mode code if the call is successful.
 
 
-#### - DeviceObject [out]
+### -param DeviceObject [out]
 
 Pointer to the device object that represents the named logical, virtual, or physical device if the call is successful.
 
@@ -125,21 +125,21 @@ Callers of <b>IoGetDeviceObjectPointer</b> must be running at IRQL = PASSIVE_LEV
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

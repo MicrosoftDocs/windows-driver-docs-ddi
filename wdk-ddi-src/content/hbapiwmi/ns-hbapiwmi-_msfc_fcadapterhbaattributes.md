@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5efe0ede-b55f-499e-9f95-66652cd8a872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/MSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes structure [Storage Devices], storage.msfc_fcadapterhbaattributes, structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml, PMSFC_FCAdapterHBAAttributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices], _MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes, hbapiwmi/PMSFC_FCAdapterHBAAttributes
+ms.keywords: MSFC_FCAdapterHBAAttributes structure [Storage Devices], PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes, hbapiwmi/PMSFC_FCAdapterHBAAttributes, _MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes, structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml, storage.msfc_fcadapterhbaattributes, hbapiwmi/MSFC_FCAdapterHBAAttributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,91 +82,91 @@ typedef struct _MSFC_FCAdapterHBAAttributes {
 
 
 
-#### - UniqueAdapterId
+### -field UniqueAdapterId
 
 Indicates the unique adapter ID. 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-#### - NodeWWN
+### -field NodeWWN
 
 Contains the 64 bit world-wide name that indicates the node name of the HBA. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-#### - VendorSpecificID
+### -field VendorSpecificID
 
 Indicates a vendor-specific ID.
 
 
-#### - NumberOfPorts
+### -field NumberOfPorts
 
 Indicates the number of ports on the HBA. 
 
 
-#### - Manufacturer
+### -field Manufacturer
 
 Contains an ASCII string that is 64 bytes or fewer in length and that identifies the name of the manufacturer of the HBA.
 
 
-#### - SerialNumber
+### -field SerialNumber
 
 Contains an ASCII string that is 64 bytes or fewer in length and that identifies the serial number of the HBA.
 
 
-#### - Model
+### -field Model
 
 Contains an ASCII string that is 256 bytes or fewer in length and that identifies the vendor-specific name of the HBA model.
 
 
-#### - ModelDescription
+### -field ModelDescription
 
 Contains an ASCII string that is 256 bytes or fewer in length and that indicates the model description. 
 
 
-#### - NodeSymbolicName
+### -field NodeSymbolicName
 
 Contains an ASCII string that is 256 bytes or fewer in length and that indicates the symbolic name for the fibre channel node. 
 
 
-#### - HardwareVersion
+### -field HardwareVersion
 
 Contains an ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific hardware revision level of the HBA.
 
 
-#### - DriverVersion
+### -field DriverVersion
 
 Contains an ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific version of the HBA miniport driver. 
 
 
-#### - OptionROMVersion
+### -field OptionROMVersion
 
 Contains an ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific option ROM or BIOS version of the HBA.
 
 
-#### - FirmwareVersion
+### -field FirmwareVersion
 
 Contains an ASCII string that is 256 bytes or fewer in length and that indicates the vendor-specific firmware version of the HBA.
 
 
-#### - DriverName
+### -field DriverName
 
 Contains an ASCII string that is 256 bytes or fewer in length and that indicates the file name for the driver binary file. 
 
 
-#### - MfgDomain
+### -field MfgDomain
 
 Contains the name of the HBA manufacturer. 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562497">MSFC_FCAdapterHBAAttributes WMI Class</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

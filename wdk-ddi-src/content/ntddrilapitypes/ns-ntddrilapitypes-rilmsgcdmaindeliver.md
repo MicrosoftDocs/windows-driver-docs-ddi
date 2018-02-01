@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fdff17ac-2ffd-45b0-8f01-a21af1ffa9d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, netvista.rilmsgcdmaindeliver, *LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RILMSGCDMAINDELIVER, netvista.rilmsgcdmaindeliver, RILMSGCDMAINDELIVER, *LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,94 +89,94 @@ typedef struct _RILMSGCDMAINDELIVER {
 
 
 
-#### - raOrigAddress
+### -field raOrigAddress
 
 
 
-#### - rsaOrigSubaddr
+### -field rsaOrigSubaddr
 
 
 
-#### - stSCReceiveTime
+### -field stSCReceiveTime
 
 
 
-#### - stValidityPeriodAbs
+### -field stValidityPeriodAbs
 
 
 
-#### - stValidityPeriodRel
+### -field stValidityPeriodRel
 
 
 
-#### - stDeferredDelTimeAbs
+### -field stDeferredDelTimeAbs
 
 
 
-#### - stDeferredDelTimeRel
+### -field stDeferredDelTimeRel
 
 
 
-#### - dwNumMsgs
+### -field dwNumMsgs
 
 
 
-#### - raCallBackNumber
+### -field raCallBackNumber
 
 
 
-#### - dwMsgPriority
+### -field dwMsgPriority
 
 
 
-#### - dwAlertOnMsgDelivery
+### -field dwAlertOnMsgDelivery
 
 
 
-#### - dwMsgPrivacy
+### -field dwMsgPrivacy
 
 
 
-#### - bUserAckRequest
+### -field bUserAckRequest
 
 
 
-#### - dwMsgDisplayMode
+### -field dwMsgDisplayMode
 
 
 
-#### - dwTeleservice
+### -field dwTeleservice
 
 
 
-#### - dwServiceID
+### -field dwServiceID
 
 
 
-#### - dwMsgID
+### -field dwMsgID
 
 
 
-#### - dwMsgLang
+### -field dwMsgLang
 
 
 
-#### - dwMsgEncoding
+### -field dwMsgEncoding
 
 
 
-#### - cbHdrLength
+### -field cbHdrLength
 
 
 
-#### - cchMsgLength
+### -field cchMsgLength
 
 
 
-#### - rgbHdr
+### -field rgbHdr
 
 
 
-#### - rgbMsg
+### -field rgbMsg
 
 

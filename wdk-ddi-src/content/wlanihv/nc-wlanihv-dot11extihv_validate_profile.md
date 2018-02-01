@@ -78,7 +78,7 @@ DWORD APIENTRY Dot11ExtIhvValidateProfile(
 
 
 
-#### - hIhvExtAdapter [in, optional]
+### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -86,31 +86,31 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-#### - pIhvProfileParams [in, optional]
+### -param pIhvProfileParams [in, optional]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_profile_params" tabindex="0"><b>
-     DOT11EXT_IHV_PROFILE_PARAMS</b></mshelp:link> structure. This structure defines the attributes of the basic service
+     <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
+     DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
 
 
-#### - pIhvConnProfile [in]
+### -param pIhvConnProfile [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
-     DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link> structure that contains connectivity settings for the IHV
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+     DOT11EXT_IHV_CONNECTIVITY_PROFILE</a> structure that contains connectivity settings for the IHV
      profile.
 
 
-#### - pIhvSecProfile [in]
+### -param pIhvSecProfile [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_security_profile" tabindex="0"><b>
-     DOT11EXT_IHV_SECURITY_PROFILE</b></mshelp:link> structure that contains security settings for the IHV
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">
+     DOT11EXT_IHV_SECURITY_PROFILE</a> structure that contains security settings for the IHV
      profile.
 
 
-#### - pdwReasonCode [out]
+### -param pdwReasonCode [out]
 
 A pointer to a DWORD value, which provides additional information for the return value of the 
      <i>Dot11ExtIhvValidateProfile</i> function. The IHV Extensions DLL must set *
@@ -179,14 +179,14 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 
 ## -see-also
 
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
 
-<mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
-   DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
  
 

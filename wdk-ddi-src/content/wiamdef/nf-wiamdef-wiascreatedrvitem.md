@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc91133a-ae6a-447a-8519-65fbe2929521
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasCreateDrvItem function [Imaging Devices], wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml, image.wiascreatedrvitem
+ms.keywords: wiamdef/wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml, wiasCreateDrvItem, image.wiascreatedrvitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,37 +74,37 @@ HRESULT _stdcall wiasCreateDrvItem(
 
 
 
-#### - lObjectFlags
+### -param lObjectFlags
 
 Specifies the object item type, which must be WiaItemTypeFolder or WiaItemTypeFile (possibly the bitwise OR of these). These flags are described in the Microsoft Windows SDK documentation.
 
 
-#### - bstrItemName
+### -param bstrItemName
 
 Specifies a string that contains the item name without path information.
 
 
-#### - bstrFullItemName
+### -param bstrFullItemName
 
 Specifies a string that contains the item name with path information.
 
 
-#### - pIMiniDrv [in, out]
+### -param pIMiniDrv [in, out]
 
 Pointer to the <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv Interface</a> of the current minidriver.
 
 
-#### - cbDevSpecContext
+### -param cbDevSpecContext
 
 Specifies the size in bytes of the device specific context.
 
 
-#### - ppDevSpecContext [out]
+### -param ppDevSpecContext [out]
 
 Pointer to a memory location that receives the address of the device specific context. Set this to <b>NULL</b> if the information is not needed.
 
 
-#### - ppIWiaDrvItem [out]
+### -param ppIWiaDrvItem [out]
 
 Pointer to a memory location that receives the address of an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a> for the newly created <b>IWiaDrvItem</b> object.
 

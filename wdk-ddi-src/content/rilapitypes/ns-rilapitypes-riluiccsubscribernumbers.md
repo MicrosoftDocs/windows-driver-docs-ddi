@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILUMTSMRL, netvista.riluiccsubscribernumbers, *LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], RILUICCSUBSCRIBERNUMBERS
+ms.keywords: netvista.riluiccsubscribernumbers, RILUICCSUBSCRIBERNUMBERS, rilapitypes/RILUMTSMRL, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], *LPRILUICCSUBSCRIBERNUMBERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ struct RILUMTSMRL {
 
 
 
-#### - cbSize
+### -field cbSize
 
 The size of the structure in bytes.
 
 
-#### - dwNumSubscribers
+### -field dwNumSubscribers
 
 The number of subscribers.
 
 
-#### - rsiInfo
+### -field rsiInfo
 
 Array of <a href="..\rilapitypes\ns-rilapitypes-rilsubscriberinfo.md">RILSUBSCRIBERINFO</a>, each of which specifies a phone number assigned to the user as defined below. Although statically declared as a one-element array, the actual length is dwNumSubscribers.
 

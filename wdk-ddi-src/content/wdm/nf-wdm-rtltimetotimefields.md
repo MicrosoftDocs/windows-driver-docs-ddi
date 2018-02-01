@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 128fe592-8dc1-46cf-8aa6-0f3de0896cc5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlTimeToTimeFields, wdm/RtlTimeToTimeFields, k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, kernel.rtltimetotimefields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/RtlTimeToTimeFields, kernel.rtltimetotimefields, RtlTimeToTimeFields, k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID RtlTimeToTimeFields(
 
 
 
-#### - Time [in]
+### -param Time [in]
 
 Pointer to a buffer containing the absolute system time as a large integer, accurate to 100-nanosecond resolution.
 
 
-#### - TimeFields [out]
+### -param TimeFields [out]
 
 Pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<b>TIME_FIELDS</b>), to contain the returned information. 
 
@@ -96,13 +96,13 @@ Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-
 <a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
 
 <a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
  
 

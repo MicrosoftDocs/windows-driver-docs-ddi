@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], stream.ksgateinitializeor, KsGateInitializeOr
+ms.keywords: KsGateInitializeOr function [Streaming Media Devices], stream.ksgateinitializeor, ks/KsGateInitializeOr, KsGateInitializeOr, avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ void __inline KsGateInitializeOr(
 
 
 
-#### - OrGate [in]
+### -param OrGate [in]
 
 A pointer to the KSGATE structure to initialize as a new OR gate.
 
 
-#### - NextAndGate [in, optional]
+### -param NextAndGate [in, optional]
 
 A pointer to an existing KSGATE structure to which <i>OrGate</i> attaches. Optional.
 
@@ -96,11 +96,11 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 

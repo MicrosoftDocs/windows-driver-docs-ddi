@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 85012fde-fc8b-4728-be5f-6acf502de9bc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension, ExtExtension::OnSessionAccessible, EngExtCpp_Ref_88df5a39-051b-4d84-840e-8caf5414a0e6.xml, OnSessionAccessible method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], OnSessionAccessible method, OnSessionAccessible method [Windows Debugging], OnSessionAccessible, debugger.onsessionaccessible
+ms.keywords: OnSessionAccessible, ExtExtension::OnSessionAccessible, OnSessionAccessible method [Windows Debugging], ExtExtension class, ExtExtension, debugger.onsessionaccessible, OnSessionAccessible method [Windows Debugging], ExtExtension class [Windows Debugging], OnSessionAccessible method, EngExtCpp_Ref_88df5a39-051b-4d84-840e-8caf5414a0e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ virtual void OnSessionAccessible(
 
 
 
-#### - Argument [in]
+### -param Argument [in]
 
 Set to zero. (Reserved for future use).
 
@@ -90,13 +90,13 @@ This method is called when a target is suspended and, if the session is already 
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninaccessible.md">OnSessionInaccessible</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessionactive.md">OnSessionActive</a>
+<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninaccessible.md">OnSessionInaccessible</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+<a href="..\engextcpp\nf-engextcpp-extextension-onsessionactive.md">OnSessionActive</a>
 
  
 

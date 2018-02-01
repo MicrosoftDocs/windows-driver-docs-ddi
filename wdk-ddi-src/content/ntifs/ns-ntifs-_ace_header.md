@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f5f39310-8b15-4d6b-a985-3f25522a16b1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/ACE_HEADER, ntifs/PACE_HEADER, PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml, *PACE_HEADER, ACE_HEADER, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER structure pointer [Installable File System Drivers], ifsk.ace_header, _ACE_HEADER
+ms.keywords: PACE_HEADER structure pointer [Installable File System Drivers], ntifs/PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml, ACE_HEADER structure [Installable File System Drivers], ACE_HEADER, PACE_HEADER, ntifs/ACE_HEADER, _ACE_HEADER, ifsk.ace_header, *PACE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _ACE_HEADER {
 
 
 
-#### - AceType
+### -field AceType
 
 ACE type. This member can be one of the following values: 
 <table>
@@ -110,7 +110,7 @@ System-audit ACE that uses the SYSTEM_AUDIT_ACE structure.
 </table> 
 
 
-#### - AceFlags
+### -field AceFlags
 
 Set of ACE type-specific control flags. This member can be a combination of the following values: 
 <table>
@@ -195,7 +195,7 @@ Used with system-audit ACEs in a SACL to generate audit messages for successful 
 </table> 
 
 
-#### - AceSize
+### -field AceSize
 
 Size, in bytes, of the ACE. 
 
@@ -211,9 +211,9 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
 <a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
@@ -221,7 +221,7 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 <a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
  
 

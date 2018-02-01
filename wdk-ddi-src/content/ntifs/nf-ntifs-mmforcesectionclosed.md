@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aa598c4b-e840-41cb-81a3-719a5b1ee48b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmForceSectionClosed routine [Installable File System Drivers], ntifs/MmForceSectionClosed, MmForceSectionClosed, ifsk.mmforcesectionclosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml
+ms.keywords: ntifs/MmForceSectionClosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml, MmForceSectionClosed routine [Installable File System Drivers], ifsk.mmforcesectionclosed, MmForceSectionClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN MmForceSectionClosed(
 
 
 
-#### - SectionObjectPointer [in]
+### -param SectionObjectPointer [in]
 
 A pointer to a structure that contains the file object's section object pointers.
 
 
-#### - DelayClose [in]
+### -param DelayClose [in]
 
 A Boolean value that specifies whether the section is subsequently deleted if <b>MmForceSectionClosed</b> cannot delete the section synchronously (that is, prior to <b>MmForceSectionClosed</b> returning). 
 

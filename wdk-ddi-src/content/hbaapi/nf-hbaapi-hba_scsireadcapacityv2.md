@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8347e1ef-1285-43a9-bea7-a9a59ec0dfd0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ScsiReadCapacityV2, fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml, storage.hba_scsireadcapacityv2, hbaapi/HBA_ScsiReadCapacityV2, HBA_ScsiReadCapacityV2 routine [Storage Devices]
+ms.keywords: storage.hba_scsireadcapacityv2, HBA_ScsiReadCapacityV2 routine [Storage Devices], HBA_ScsiReadCapacityV2, hbaapi/HBA_ScsiReadCapacityV2, fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ HBA_STATUS HBA_API HBA_ScsiReadCapacityV2(
 
 
 
-#### - HbaHandle [in]
+### -param HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI read capacity command is sent.
 
 
-#### - HbaPortWWN [in]
+### -param HbaPortWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the SCSI inquiry command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
@@ -95,27 +95,27 @@ TBD
 TBD
 
 
-#### - pRespBuffer [out]
+### -param pRespBuffer [out]
 
 Pointer to a buffer that receives the output data of the SCSI read capacity command.
 
 
-#### - pRespBufferSize [in, out]
+### -param pRespBufferSize [in, out]
 
 Indicates the size, in bytes, of the buffer at <i>pRespBuffer</i>.
 
 
-#### - pScsiStatus [out]
+### -param pScsiStatus [out]
 
 Pointer to a buffer that receives the SCSI status data. 
 
 
-#### - pSenseBuffer [out]
+### -param pSenseBuffer [out]
 
 Pointer to a buffer that receives the SCSI sense data.
 
 
-#### - pSenseBufferSize [in, out]
+### -param pSenseBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned.
 
@@ -211,9 +211,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

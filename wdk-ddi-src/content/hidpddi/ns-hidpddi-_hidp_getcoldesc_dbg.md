@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 65EEEDED-14FE-4275-9314-276E544427DE
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_getcoldesc_dbg, hidpddi/PHIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG, _HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], HIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], hidpddi/HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG
+ms.keywords: hidpddi/HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG, _HIDP_GETCOLDESC_DBG, hid.hidp_getcoldesc_dbg, PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], hidpddi/PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], *PHIDP_GETCOLDESC_DBG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _HIDP_GETCOLDESC_DBG {
 
 
 
-#### - BreakOffset
+### -field BreakOffset
 
 The byte offset in the report descriptor where the parsing error occurred.
 
 
-#### - ErrorCode
+### -field ErrorCode
 
 Indicates the parsing error, if it’s not HIDP_GETCOLDESC_SUCCESS.
 
@@ -83,7 +83,7 @@ All possible values are defined in hidpddi.h, from HIDP_GETCOLDESC_SUCCESS to th
 
 
 
-#### - Args
+### -field Args
 
 Error-specific arguments. These are described as comments in the possible values for <b>ErrorCode</b> in hidpddi.h.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fe3443e7-0dc9-4c91-88ab-b05bac19516d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_GETOVERLAYSTATE, D3DKMT_GETOVERLAYSTATE structure [Display Devices], d3dkmthk/D3DKMT_GETOVERLAYSTATE, OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, display.d3dkmt_getoverlaystate, D3DKMT_GETOVERLAYSTATE"
+ms.keywords: d3dkmthk/D3DKMT_GETOVERLAYSTATE, D3DKMT_GETOVERLAYSTATE structure [Display Devices], _D3DKMT_GETOVERLAYSTATE, OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, display.d3dkmt_getoverlaystate, D3DKMT_GETOVERLAYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_GETOVERLAYSTATE {
 
 
 
-#### - hDevice
+### -field hDevice
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device that the overlay is associated with.
 
 
-#### - hOverlay
+### -field hOverlay
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the create-overlay function and that identifies the kernel-mode overlay object to retrieve status about. 
 
 
-#### - OverlayEnabled
+### -field OverlayEnabled
 
 [out] A Boolean variable that receives <b>TRUE</b> if the overlay is enabled and <b>FALSE</b> if the overlay is disabled. 
 

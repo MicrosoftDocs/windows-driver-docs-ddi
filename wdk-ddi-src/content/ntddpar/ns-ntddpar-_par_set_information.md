@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 05e889b1-4b18-4122-9332-69778017e15c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddpar/PPAR_SET_INFORMATION, parports.par_set_information, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, ntddpar/PAR_SET_INFORMATION, *PPAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], PAR_SET_INFORMATION, PPAR_SET_INFORMATION, _PAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports]
+ms.keywords: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, PAR_SET_INFORMATION structure [Parallel Ports], _PAR_SET_INFORMATION, parports.par_set_information, PPAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], ntddpar/PPAR_SET_INFORMATION, ntddpar/PAR_SET_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PAR_SET_INFORMATION {
 
 
 
-#### - Init
+### -field Init
 
 Specifies the operating status of the parallel port. Must be set to PARALLEL_INIT.
 
@@ -81,11 +81,11 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_info
 
 ## -see-also
 
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
+
 <a href="..\ntddpar\ns-ntddpar-_par_query_information.md">PAR_QUERY_INFORMATION</a>
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
-
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
 
  
 

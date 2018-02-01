@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6335df5-81d9-4a00-8e97-0ebebb987d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VPOSVERSIONINFO, _VPOSVERSIONINFO, PVPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], video/PVPOSVERSIONINFO, PVPOSVERSIONINFO structure pointer [Display Devices], video/VPOSVERSIONINFO, Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, display.vposversioninfo, *PVPOSVERSIONINFO
+ms.keywords: video/PVPOSVERSIONINFO, VPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], PVPOSVERSIONINFO structure pointer [Display Devices], Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, *PVPOSVERSIONINFO, PVPOSVERSIONINFO, _VPOSVERSIONINFO, video/VPOSVERSIONINFO, display.vposversioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _VPOSVERSIONINFO {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size, in bytes, of the VPOSVERSIONINFO structure.
 
 
-#### - MajorVersion
+### -field MajorVersion
 
 Specifies the major version number of the operating system. For example, for Windows 2000, the major version number is five. For Windows XP, the major version number is six.
 
 
-#### - MinorVersion
+### -field MinorVersion
 
 Specifies the minor version number of the operating system. For example, for Windows 2000, the minor version number is zero.
 
 
-#### - BuildNumber
+### -field BuildNumber
 
 Specifies the build number of the operating system.
 
 
-#### - ServicePackMajor
+### -field ServicePackMajor
 
 Specifies the major version number of the latest Service Pack installed on the operating system. For example, for Service Pack 3, the major version number is three.
 
 
-#### - ServicePackMinor
+### -field ServicePackMinor
 
 Specifies the minor version number of the latest Service Pack installed on the operating system. For example, for Service Pack 3, the minor version number is zero.
 

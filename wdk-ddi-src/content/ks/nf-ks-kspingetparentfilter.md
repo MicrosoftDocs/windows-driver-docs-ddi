@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: adbd1e83-37f0-4e0c-92e3-92c6c79eb24f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetParentFilter, avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, KsPinGetParentFilter function [Streaming Media Devices], stream.kspingetparentfilter, ks/KsPinGetParentFilter
+ms.keywords: KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], ks/KsPinGetParentFilter, avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, stream.kspingetparentfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PKSFILTER KsPinGetParentFilter(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> for which to return the parent filter.
 

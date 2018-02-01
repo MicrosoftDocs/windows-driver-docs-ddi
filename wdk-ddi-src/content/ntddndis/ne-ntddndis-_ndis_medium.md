@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisMediumLoopback, NdisMediumCoWan, NdisMediumMax, ntddndis/NdisMediumMax, NdisMediumNative802_11, ntddndis/PNDIS_MEDIUM, NDIS_MEDIUM, NdisMedium802_3, ntddndis/NdisMediumCoWan, *PNDIS_MEDIUM, _NDIS_MEDIUM, NdisMediumIP, ntddndis/NdisMedium1394, ntddndis/NDIS_MEDIUM, NdisMediumLoopback, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumDix, ntddndis/NdisMedium802_3, ntddndis/NdisMediumIrda, ntddndis/NdisMediumNative802_11, ntddndis/NdisMediumIP, NdisMediumTunnel, NdisMediumArcnetRaw, NdisMediumBpc, NdisMedium1394, NdisMediumFddi, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NdisMediumLocalTalk, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisMediumLocalTalk, NdisMediumWirelessWan, ntddndis/NdisMediumWirelessWan, NdisMediumDix, NdisMediumInfiniBand, ntddndis/NdisMediumWan, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumFddi, NdisMediumAtm, netvista.ndis_medium, ntddndis/NdisMedium802_5, ntddndis/NdisMediumBpc, NdisMediumArcnet878_2, ntddndis/NdisMediumAtm, ntddndis/NdisMediumArcnet878_2, NdisMediumIrda, NdisMediumWan, NdisMedium802_5, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_MEDIUM
+ms.keywords: NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], NdisMediumInfiniBand, NdisMediumCoWan, ntddndis/NdisMediumDix, ntddndis/NdisMediumIP, NdisMedium802_3, NdisMediumWirelessWan, ntddndis/NdisMediumAtm, ntddndis/NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, ntddndis/NdisMediumWirelessWan, ntddndis/NdisMediumIrda, ntddndis/NdisMediumNative802_11, ntddndis/NdisMediumMax, *PNDIS_MEDIUM, NdisMediumBpc, ntddndis/NdisMediumLoopback, NDIS_MEDIUM, ntddndis/NdisMedium1394, NdisMediumIrda, ntddndis/NdisMedium802_5, netvista.ndis_medium, ntddndis/NdisMediumLocalTalk, ntddndis/NdisMediumFddi, _NDIS_MEDIUM, NdisMediumFddi, ntddndis/PNDIS_MEDIUM, PNDIS_MEDIUM, ntddndis/NdisMediumInfiniBand, NdisMediumWan, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NdisMedium802_5, NdisMediumDix, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumArcnetRaw, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], NdisMediumMax, ntddndis/NdisMediumBpc, NdisMediumIP, NdisMedium1394, NdisMediumLoopback, NdisMediumArcnet878_2, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumWan, NdisMediumTunnel, ntddndis/NdisMedium802_3, NdisMediumNative802_11, ntddndis/NDIS_MEDIUM, NdisMediumLocalTalk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,49 +90,49 @@ typedef enum _NDIS_MEDIUM {
 
 
 
-#### - NdisMedium802_3
+### -field NdisMedium802_3
 
 Specifies an Ethernet (802.3) network.
 
 
-#### - NdisMedium802_5
+### -field NdisMedium802_5
 
 Specifies a Token Ring (802.5) network.
 <div class="alert"><b>Note</b>   Not supported in Windows 8 or later.</div><div> </div>
 
-#### - NdisMediumFddi
+### -field NdisMediumFddi
 
 Specifies a Fiber Distributed Data Interface (FDDI) network.
 <div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
-#### - NdisMediumWan
+### -field NdisMediumWan
 
 Specifies a wide area network. This type covers various forms of point-to-point and WAN NICs, as
      well as variant address/header formats that must be negotiated between the protocol driver and the
      underlying driver after the binding is established.
 
 
-#### - NdisMediumLocalTalk
+### -field NdisMediumLocalTalk
 
 Specifies a LocalTalk network.
 
 
-#### - NdisMediumDix
+### -field NdisMediumDix
 
 Specifies an Ethernet network for which the drivers use the DIX Ethernet header format.
 
 
-#### - NdisMediumArcnetRaw
+### -field NdisMediumArcnetRaw
 
 Specifies an ARCNET network.
 <div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
-#### - NdisMediumArcnet878_2
+### -field NdisMediumArcnet878_2
 
 Specifies an ARCNET (878.2) network.
 <div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
-#### - NdisMediumAtm
+### -field NdisMediumAtm
 
 Specifies an ATM network. Connection-oriented client protocol drivers can bind themselves to an
      underlying miniport driver that returns this value. Otherwise, legacy protocol drivers bind themselves
@@ -142,7 +142,7 @@ Specifies an ATM network. Connection-oriented client protocol drivers can bind t
      administrator.
 
 
-#### - NdisMediumWirelessWan
+### -field NdisMediumWirelessWan
 
 Specifies a wireless network. NDIS 5.X miniport drivers that support wireless LAN (WLAN) or
      wireless WAN (WWAN) packets declare their medium as 
@@ -156,42 +156,42 @@ Specifies a wireless network. NDIS 5.X miniport drivers that support wireless LA
 
 
 
-#### - NdisMediumIrda
+### -field NdisMediumIrda
 
 Specifies an infrared (IrDA) network.
 
 
-#### - NdisMediumBpc
+### -field NdisMediumBpc
 
 Specifies a broadcast PC network.
 
 
-#### - NdisMediumCoWan
+### -field NdisMediumCoWan
 
 Specifies a wide area network in a connection-oriented environment.
 
 
-#### - NdisMedium1394
+### -field NdisMedium1394
 
 Specifies an IEEE 1394 (fire wire) network. 
 <div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
-#### - NdisMediumInfiniBand
+### -field NdisMediumInfiniBand
 
 Specifies an InfiniBand network.
 
 
-#### - NdisMediumTunnel
+### -field NdisMediumTunnel
 
 Specifies a tunnel network.
 
 
-#### - NdisMediumNative802_11
+### -field NdisMediumNative802_11
 
 Specifies a native IEEE 802.11 network.
 
 
-#### - NdisMediumLoopback
+### -field NdisMediumLoopback
 
 Specifies an NDIS loopback network.
 
@@ -200,12 +200,12 @@ Specifies an NDIS loopback network.
 
 
 
-#### - NdisMediumIP
+### -field NdisMediumIP
 
 Specifies a generic medium that is capable of sending and receiving raw IP packets.
 
 
-#### - NdisMediumMax
+### -field NdisMediumMax
 
 A maximum value for testing purposes.
 

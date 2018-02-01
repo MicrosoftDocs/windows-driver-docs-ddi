@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5BB089B8-4384-450D-BC81-9D9D068CF4EB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.dma_adapter_info_v1, DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/PDMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1, _DMA_ADAPTER_INFO_V1, wdm/DMA_ADAPTER_INFO_V1
+ms.keywords: PDMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], DMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, _DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1, wdm/DMA_ADAPTER_INFO_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,27 +75,27 @@ typedef struct _DMA_ADAPTER_INFO_V1 {
 
 
 
-#### - ReadDmaCounterAvailable
+### -field ReadDmaCounterAvailable
 
 Whether the counter value in each DMA channel can be read. This member is <b>TRUE</b> if the counter can be read, and is <b>FALSE</b> if it cannot be read.
 
 
-#### - ScatterGatherLimit
+### -field ScatterGatherLimit
 
 The maximum number of elements in a scatter/gather list that the DMA controller can process in a single scatter/gather DMA transfer.
 
 
-#### - DmaAddressWidth
+### -field DmaAddressWidth
 
 The memory address width, in bits, of the DMA controller. The width is expressed as the number of bits in a DMA address. If the DMA address width is less than the memory address width, the platform hardware drives the remaining, high-order memory address bits to zero during a DMA transfer.
 
 
-#### - Flags
+### -field Flags
 
 A set of flags that describe the capabilities of the DMA adapter. No flags are currently defined for this member.
 
 
-#### - MinimumTransferUnit
+### -field MinimumTransferUnit
 
 The size, in bytes, of the minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit.
 

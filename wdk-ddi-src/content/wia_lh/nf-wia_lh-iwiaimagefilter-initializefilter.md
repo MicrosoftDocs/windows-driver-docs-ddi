@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 03e359aa-4745-4961-a342-79f725468aab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: InitializeFilter method [Imaging Devices], image.iwiaimagefilter_initializefilter, InitializeFilter method [Imaging Devices], IWiaImageFilter interface, IWiaImageFilter::InitializeFilter, IWiaImageFilter, wia_lh/IWiaImageFilter::InitializeFilter, IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, InitializeFilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method
+ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, wia_lh/IWiaImageFilter::InitializeFilter, IWiaImageFilter, InitializeFilter, IWiaImageFilter::InitializeFilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, InitializeFilter method [Imaging Devices], IWiaImageFilter interface, InitializeFilter method [Imaging Devices], image.iwiaimagefilter_initializefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT InitializeFilter(
 
 
 
-#### - pWiaItem2 [in]
+### -param pWiaItem2 [in]
 
 Points to the <b>IWiaItem2</b> item that the image acquisition was initiated for by the application. In the case of <b>IWiaTransfer::Download</b>, it is the WIA item from which we obtained the <b>IWiaTransfer</b> interface, and in the case of the Preview component, it is the item that we pass into the <b>IWiaPreview::GetNewPreview</b> method.
 
 
-#### - pWiaTransferCallback [in]
+### -param pWiaTransferCallback [in]
 
 Points to a <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback</a> interface. The IWiaTransferCallback interface is the application's callback interface, which is passed to <b>IWiaTransfer::Download</b> and <b>IWiaPreview::GetNewPreview</b>. 
 

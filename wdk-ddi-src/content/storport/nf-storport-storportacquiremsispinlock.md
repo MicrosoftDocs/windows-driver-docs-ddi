@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8aa5a8a6-2024-4b3e-a500-5a484d937a62
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml, StorPortAcquireMSISpinLock, StorPortAcquireMSISpinLock routine [Storage Devices], storport/StorPortAcquireMSISpinLock, storage.storportacquiremsispinlock
+ms.keywords: storport/StorPortAcquireMSISpinLock, storage.storportacquiremsispinlock, StorPortAcquireMSISpinLock routine [Storage Devices], StorPortAcquireMSISpinLock, storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ ULONG StorPortAcquireMSISpinLock(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
@@ -80,7 +80,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 TBD
 
 
-#### - OldIrql [in]
+### -param OldIrql [in]
 
 A pointer to the storage for the original IRQL value to be used in a subsequent call to <a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a>.
 
@@ -147,11 +147,11 @@ When a miniport needs to synchronize with all messages, it can use one call to <
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a>
+<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+<a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a>
 
  
 

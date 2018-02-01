@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistrychannelsubkeywrite, atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite
+ms.keywords: irb/AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, storage.ataportregistrychannelsubkeywrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN __inline AtaPortRegistryChannelSubkeyWrite(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-#### - ControllerNumber [in]
+### -param ControllerNumber [in]
 
 Contains the controller number. 
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 Contains the name of the registry value to write to. 
 
 
-#### - ValueType [in]
+### -param ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
 <table>
@@ -128,7 +128,7 @@ A null-terminated, Unicode string.
 </table> 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the source buffer that contains the data to be written to the registry. 
 
@@ -164,13 +164,13 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyWrite</b> either du
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeywritedeferred.md">AtaPortRegistryChannelSubKeyWriteDeferred</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeyread.md">AtaPortRegistryChannelSubKeyRead</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeyread.md">AtaPortRegistryChannelSubKeyRead</a>
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeywritedeferred.md">AtaPortRegistryChannelSubKeyWriteDeferred</a>
 
  
 

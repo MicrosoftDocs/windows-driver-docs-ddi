@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCDROM_TOC, ntddcdrm/PCDROM_TOC, CDROM_TOC structure [Storage Devices], PCDROM_TOC structure pointer [Storage Devices], PCDROM_TOC, ntddcdrm/CDROM_TOC, _CDROM_TOC, storage.cdrom_toc, CDROM_TOC, structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml"
+ms.keywords: ntddcdrm/PCDROM_TOC, ntddcdrm/CDROM_TOC, PCDROM_TOC, *PCDROM_TOC, _CDROM_TOC, CDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml, storage.cdrom_toc, CDROM_TOC structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _CDROM_TOC {
 
 
 
-#### - Length
+### -field Length
 
 Indicates the length, in bytes, of the table of contents data. This length value does not include the length of the <b>Length </b>member itself. 
 
 
-#### - FirstTrack
+### -field FirstTrack
 
 Indicates the first track number of the table of contents of the first complete session. 
 
 
-#### - LastTrack
+### -field LastTrack
 
 Indicates the last track number of the table of contents of the last complete session.
 
 
-#### - TrackData
+### -field TrackData
 
 Pointer to an array of structures of type <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a> that contain table of contents information for all the sessions on the disc.
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 37084f3a-f57e-45bb-a364-157b3d155394
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_HIDP_VALUE_CAPS, PHIDP_VALUE_CAPS structure pointer [Human Input Devices], HIDP_VALUE_CAPS structure [Human Input Devices], hidpi/PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS, PHIDP_VALUE_CAPS, hid.hidp_value_caps, hidpi/HIDP_VALUE_CAPS, hidstrct_cbe30aff-5a6a-40d4-9621-b8d93ebb1948.xml, *PHIDP_VALUE_CAPS"
+ms.keywords: hidpi/PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS structure [Human Input Devices], hidpi/HIDP_VALUE_CAPS, hidstrct_cbe30aff-5a6a-40d4-9621-b8d93ebb1948.xml, _HIDP_VALUE_CAPS, *PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS, PHIDP_VALUE_CAPS, hid.hidp_value_caps, PHIDP_VALUE_CAPS structure pointer [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,51 +110,10 @@ typedef struct _HIDP_VALUE_CAPS {
 
 
 
-#### - Range
+### -field Range
 
 Specifies, if <b>IsRange</b> is <b>TRUE</b>, information about a usage range. Otherwise, if <b>IsRange</b> is <b>FALSE</b>, <b>NotRange</b> contains information about a single usage. 
 
-
-
-#### UsageMin
-
-Indicates the inclusive lower bound of usage range whose inclusive upper bound is specified by <b>Range.UsageMax</b>.
-
-
-#### UsageMax
-
-Indicates the inclusive upper bound of a usage range whose inclusive lower bound is indicated by <b>Range.UsageMin</b>.
-
-
-#### StringMin
-
-Indicates the inclusive lower bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive upper bound is indicated by <b>Range.StringMax</b>.
-
-
-
-#### StringMax
-
-Indicates the inclusive upper bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive lower bound is indicated by <b>Range.StringMin</b>.
-
-
-#### DesignatorMin
-
-Indicates the inclusive lower bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMax</b>.
-
-
-#### DesignatorMax
-
-Indicates the inclusive upper bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMin</b>.
-
-
-#### DataIndexMin
-
-Indicates the inclusive lower bound of a sequential range of <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data indices</a> that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
-
-
-#### DataIndexMax
-
-Indicates the inclusive upper bound of a sequential range of data indices that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
 
 
 ### -field Range.UsageMin
@@ -198,49 +157,9 @@ Indicates the inclusive lower bound of a sequential range of <a href="https://ms
 Indicates the inclusive upper bound of a sequential range of data indices that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
 
 
-#### - NotRange
+### -field NotRange
 
 Specifies, if <b>IsRange</b> is <b>FALSE</b>, information about a single usage. Otherwise, if <b>IsRange</b> is <b>TRUE</b>, <b>Range</b> contains information about a usage range.
-
-
-#### Usage
-
-Indicates a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage ID</a>.
-
-
-#### Reserved1
-
-Reserved for internal system use.
-
-
-#### StringIndex
-
-Indicates a string descriptor ID for the usage specified by <b>NotRange.Usage</b>.
-
-
-#### Reserved2
-
-Reserved for internal system use.
-
-
-#### DesignatorIndex
-
-Indicates a designator ID for the usage specified by <b>NotRange.Usage</b>.
-
-
-#### Reserved3
-
-Reserved for internal system use.
-
-
-#### DataIndex
-
-Indicates the data index of the usage specified by <b>NotRange.Usage</b>.
-
-
-#### Reserved4
-
-Reserved for internal system use.
 
 
 ### -field NotRange.Reserved1
@@ -283,112 +202,112 @@ Indicates the data index of the usage specified by <b>NotRange.Usage</b>.
 Reserved for internal system use.
 
 
-#### - UsagePage
+### -field UsagePage
 
 Specifies the usage page of the usage or usage range.
 
 
-#### - ReportID
+### -field ReportID
 
 Specifies the report ID of the HID report that contains the usage or usage range.
 
 
-#### - IsAlias
+### -field IsAlias
 
 Indicates, if <b>TRUE</b>, that the usage is member of a set of aliased usages. Otherwise, if <b>IsAlias</b> is <b>FALSE</b>, the value has only one usage.
 
 
-#### - BitField
+### -field BitField
 
 Contains the data fields (one or two bytes) associated with an input, output, or feature main item.
 
 
-#### - LinkCollection
+### -field LinkCollection
 
 Specifies the index of the <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> in a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> link collection array that contains the usage or usage range. If <b>LinkCollection</b> is zero, the usage or usage range is contained in the top-level collection.
 
 
-#### - LinkUsage
+### -field LinkUsage
 
 Specifies the usage of the link collection that contains the usage or usage range. If <b>LinkCollection</b> is zero, <b>LinkUsage</b> specifies the usage of the top-level collection.
 
 
-#### - LinkUsagePage
+### -field LinkUsagePage
 
 Specifies the usage page of the link collection that contains the usage or usage range. If <b>LinkCollection</b> is zero, <b>LinkUsagePage</b> specifies the usage page of the top-level collection.
 
 
-#### - IsRange
+### -field IsRange
 
 Specifies, if <b>TRUE</b>, that the structure describes a usage range. Otherwise, if <b>IsRange</b> is <b>FALSE</b>, the structure describes a single usage.
 
 
-#### - IsStringRange
+### -field IsStringRange
 
 Specifies, if <b>TRUE</b>, that the usage or usage range has a set of string descriptors. Otherwise, if <b>IsStringRange</b> is <b>FALSE</b>, the usage or usage range has zero or one string descriptor.
 
 
-#### - IsDesignatorRange
+### -field IsDesignatorRange
 
 Specifies, if <b>TRUE</b>, that the usage or usage range has a set of designators. Otherwise, if <b>IsDesignatorRange</b> is <b>FALSE</b>, the usage or usage range has zero or one designator.
 
 
-#### - IsAbsolute
+### -field IsAbsolute
 
 Specifies, if <b>TRUE</b>, that the usage or usage range provides absolute data. Otherwise, if <b>IsAbsolute</b> is <b>FALSE</b>, the value is the change in state from the previous value.
 
 
-#### - HasNull
+### -field HasNull
 
 Specifies, if <b>TRUE</b>, that the usage supports a <b>NULL</b> value, which indicates that the data is not valid and should be ignored. Otherwise, if <b>HasNull</b> is <b>FALSE</b>, the usage does not have a <b>NULL</b> value.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for internal system use.
 
 
-#### - BitSize
+### -field BitSize
 
 Specifies the size, in bits, of a usage's data field in a report. If <b>ReportCount</b> is greater than one, each usage has a separate data field of this size.
 
 
-#### - ReportCount
+### -field ReportCount
 
 Specifies the number of usages that this structure describes.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved for internal system use.
 
 
-#### - UnitsExp
+### -field UnitsExp
 
 Specifies the usage's exponent, as described by the USB HID standard.
 
 
-#### - Units
+### -field Units
 
 Specifies the usage's units, as described by the USB HID Standard.
 
 
-#### - LogicalMin
+### -field LogicalMin
 
 Specifies a usage's signed lower bound.
 
 
-#### - LogicalMax
+### -field LogicalMax
 
 Specifies a usage's signed upper bound.
 
 
-#### - PhysicalMin
+### -field PhysicalMin
 
 Specifies a usage's signed lower bound after scaling is applied to the logical minimum value.
 
 
-#### - PhysicalMax
+### -field PhysicalMax
 
 Specifies a usage's signed upper bound after scaling is applied to the logical maximum value.
 
@@ -404,21 +323,21 @@ For information about the capabilities of HID control values, see <a href="https
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
-
-<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
 
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
 
  
 

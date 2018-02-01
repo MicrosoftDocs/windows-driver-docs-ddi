@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRT interface [Audio Devices], Init method, IMiniportWaveRT, Init method [Audio Devices], Init, audio.iminiportwavert_init, IMiniportWaveRT::Init, portcls/IMiniportWaveRT::Init, Init method [Audio Devices], IMiniportWaveRT interface, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml
+ms.keywords: audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, IMiniportWaveRT interface [Audio Devices], Init method, IMiniportWaveRT, Init, Init method [Audio Devices], IMiniportWaveRT interface, Init method [Audio Devices], IMiniportWaveRT::Init, audio.iminiportwavert_init, portcls/IMiniportWaveRT::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS Init(
 
 
 
-#### - UnknownAdapter [in]
+### -param UnknownAdapter [in]
 
 Pointer to the <b>IUnknown</b> interface of the adapter driver object whose miniport driver object is being initialized.
 
 
-#### - ResourceList [in]
+### -param ResourceList [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> interface of a resource-list object. This object specifies the list of hardware resources that the adapter driver has allocated to the miniport driver. The WaveRT port driver can examine the contents of the resource list, but it does not modify the list.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a> interface of the WaveRT port driver. The caller specifies a valid, non-NULL pointer value for this parameter.
 
@@ -100,9 +100,9 @@ For more information about the <i>ResourceList</i> parameter, see the <a href="h
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
-
 <a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
 
  
 

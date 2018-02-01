@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwcreatefile, NtCreateFile, wdm/ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, wdm/NtCreateFile, ZwCreateFile
+ms.keywords: NtCreateFile, k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, wdm/NtCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], wdm/ZwCreateFile, ZwCreateFile, kernel.zwcreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,12 +79,12 @@ NTSTATUS ZwCreateFile(
 
 
 
-#### - FileHandle [out]
+### -param FileHandle [out]
 
 A pointer to a HANDLE variable that receives a handle to the file.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
 <table>
@@ -254,12 +254,12 @@ Traverse the directory, in other words, include the directory in the path of a f
 For more information about access rights, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation. In particular, the <b>Information</b> member receives one of the following values:
 <ul>
@@ -289,17 +289,17 @@ FILE_DOES_NOT_EXIST
 </li>
 </ul>
 
-#### - AllocationSize [in, optional]
+### -param AllocationSize [in, optional]
 
 A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If <i>AllocationSize</i> is <b>NULL</b>, no allocation size is specified. If no file is created or overwritten, <i>AllocationSize</i> is ignored.
 
 
-#### - FileAttributes [in]
+### -param FileAttributes [in]
 
 Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_<i>XXX</i> flags, see the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, <i>FileAttributes</i> is ignored.
 
 
-#### - ShareAccess [in]
+### -param ShareAccess [in]
 
 Type of share access, which is specified as zero or any combination of the following flags.
 <table>
@@ -342,7 +342,7 @@ Delete the file
 Device and intermediate drivers usually set <i>ShareAccess</i> to zero, which gives the caller exclusive access to the open file.
 
 
-#### - CreateDisposition [in]
+### -param CreateDisposition [in]
 
 Specifies the action to perform if the file does or does not exist. <i>CreateDisposition</i> can be one of the values in the following table.
 <table>
@@ -438,7 +438,7 @@ Create the file.
 </table> 
 
 
-#### - CreateOptions [in]
+### -param CreateOptions [in]
 
 Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
 <table>
@@ -656,12 +656,12 @@ The client opening the file or device is session aware and per session access is
 </table> 
 
 
-#### - EaBuffer [in, optional]
+### -param EaBuffer [in, optional]
 
 For device and intermediate drivers, this parameter must be a <b>NULL</b> pointer.
 
 
-#### - EaLength [in]
+### -param EaLength [in]
 
 For device and intermediate drivers, this parameter must be zero.
 
@@ -794,27 +794,27 @@ Callers of <b>ZwCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a hr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
 
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

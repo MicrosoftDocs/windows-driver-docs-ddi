@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fa9a5078-d254-4b4a-bbfb-256491beff5f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsAleEndpointGetById0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], netvista.fwpsaleendpointgetbyid0, FwpsAleEndpointGetById0
+ms.keywords: FwpsAleEndpointGetById0, netvista.fwpsaleendpointgetbyid0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml, fwpsk/FwpsAleEndpointGetById0, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,23 +72,23 @@ NTSTATUS NTAPI FwpsAleEndpointGetById0(
 
 
 
-#### - engineHandle [in]
+### -param engineHandle [in]
 
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
 
 
-#### - endpointId [in]
+### -param endpointId [in]
 
 The unique endpoint identifier.
 
 
-#### - properties [out]
+### -param properties [out]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.fwps_ale_endpoint_properties0" tabindex="0"><b>
-     FWPS_ALE_ENDPOINT_PROPERTIES0</b></mshelp:link> structure that contains the properties of the endpoint.
+     <a href="https://msdn.microsoft.com/1dd5dbd1-b7a7-45a3-8cab-ea62c7eff35b">
+     FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure that contains the properties of the endpoint.
 
 
 ## -returns
@@ -129,11 +129,11 @@ An error occurred.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+   FwpsAleEndpointGetSecurityInfo0</a>
 
-<mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
 

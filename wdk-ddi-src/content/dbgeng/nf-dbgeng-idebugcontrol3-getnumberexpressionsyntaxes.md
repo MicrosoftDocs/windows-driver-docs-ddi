@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb96dd47-300a-49b7-b3c3-ee3bcb6662ba
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, debugger.getnumberexpressionsyntaxes, IDebugControl3::GetNumberExpressionSyntaxes, GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes, GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3, GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, GetNumberExpressionSyntaxes method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetNumberExpressionSyntaxes(
 
 
 
-#### - Number [out]
+### -param Number [out]
 
 Receives the number of expression syntaxes.
 
@@ -98,13 +98,13 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546708">GetExpressionSyntaxNames</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546708">GetExpressionSyntaxNames</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
  
 

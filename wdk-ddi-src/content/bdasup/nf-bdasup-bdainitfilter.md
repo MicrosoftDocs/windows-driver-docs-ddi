@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d6f5c6e5-d944-42a6-bfc2-decc7606cba1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaInitFilter function [Streaming Media Devices], bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml, stream.bdainitfilter, BdaInitFilter, bdasup/BdaInitFilter
+ms.keywords: BdaInitFilter, bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml, BdaInitFilter function [Streaming Media Devices], stream.bdainitfilter, bdasup/BdaInitFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS BdaInitFilter(
 
 
 
-#### - pKSFilter [in]
+### -param pKSFilter [in]
 
 Points to the filter in which to initialize the BDA filter context.
 
 
-#### - pBdaFilterTemplate [in]
+### -param pBdaFilterTemplate [in]
 
 Points to a <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a> structure that describes the filter template for the BDA device. To determine topology for and configure the initialized filter, the network provider uses information referenced in this BDA_FILTER_TEMPLATE structure. 
 
@@ -97,13 +97,13 @@ When a BDA minidriver calls <b>BdaInitFilter</b>, the BDA support driver (<i>Bda
 
 ## -see-also
 
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
 <a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
 
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
-
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
  
 

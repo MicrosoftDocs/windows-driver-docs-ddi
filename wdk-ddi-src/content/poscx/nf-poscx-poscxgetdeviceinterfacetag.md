@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: CF54D922-8EEE-41CE-8CFC-0628756117BE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxGetDeviceInterfaceTag, pos.poscxgetdeviceinterfacetag, PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag function
+ms.keywords: PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag function, poscx/PosCxGetDeviceInterfaceTag, pos.poscxgetdeviceinterfacetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG PosCxGetDeviceInterfaceTag(
 
 
 
-#### - fileObject [in]
+### -param fileObject [in]
 
       A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>.
 

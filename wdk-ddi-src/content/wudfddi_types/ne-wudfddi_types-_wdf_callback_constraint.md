@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfLevelReserved, wudfddi_types/WdfDeviceLevel, wdf.wdf_callback_constraint, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WdfLevelReserved, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, _WDF_CALLBACK_CONSTRAINT, WDF_CALLBACK_CONSTRAINT, None, wudfddi_types/None, WdfDeviceLevel
+ms.keywords: wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WdfDeviceLevel, WDF_CALLBACK_CONSTRAINT, None, wudfddi_types/None, _WDF_CALLBACK_CONSTRAINT, wudfddi_types/WdfDeviceLevel, wudfddi_types/WdfLevelReserved, wdf.wdf_callback_constraint, WdfLevelReserved, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _WDF_CALLBACK_CONSTRAINT {
 
 
 
-#### - None
+### -field None
 
 No callback functions into the driver are synchronized.  The driver must handle all synchronization.
 
 
-#### - WdfDeviceLevel
+### -field WdfDeviceLevel
 
 All callback functions into the driver that are associated with the device are synchronized, including all callback functions that are associated with I/O queues. Only one event handler that is associated with the device can run at any given time.
 
 
-#### - WdfLevelReserved
+### -field WdfLevelReserved
 
 Reserved.
 

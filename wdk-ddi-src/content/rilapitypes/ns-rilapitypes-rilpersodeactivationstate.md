@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fb8950ef-7e46-45eb-b23f-5431488e1954
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILPERSODEACTIVATIONSTATE, netvista.rilpersodeactivationstate_2, rilapitypes/RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: netvista.rilpersodeactivationstate_2, RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista], *LPRILPERSODEACTIVATIONSTATE, rilapitypes/RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _RILPERSODEACTIVATIONSTATE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwDePersoState
+### -field dwDePersoState
 
 
 
-#### - dwNumCKAttemptsLeft
+### -field dwNumCKAttemptsLeft
 
 
 
-#### - dwNumPUKAttemptsLeft
+### -field dwNumPUKAttemptsLeft
 
 

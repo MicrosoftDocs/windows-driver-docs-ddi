@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: A3111B9C-319F-4560-B5A9-5CA6523AD935
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpioclx/GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_query_active_interrupts_parameters, GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], *PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, _GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports]
+ms.keywords: PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_query_active_interrupts_parameters, gpioclx/PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, _GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS {
 
 
 
-#### - BankId
+### -field BankId
 
 The identifier for the bank of GPIO pins that contains the interrupts to query. If N is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to N–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
 
 
-#### - EnabledMask
+### -field EnabledMask
 
 A ULONG64 variable to which the GPIO controller driver writes a 64-bit mask to indicate which interrupt pins are enabled in the specified bank. A bit in the mask that is set to 1 identifies a pin that is configured as an interrupt and that is enabled. All other bits in the mask are 0. If N is the number of pins in this bank, the pins are numbered 0 to N–1. Bit 0 (the least significant bit) in the mask represents pin 0, bit 1 represents pin 1, and so on.
 
 
-#### - ActiveMask
+### -field ActiveMask
 
 A ULONG64 variable to which the GPIO controller driver writes a 64-bit mask to indicate which interrupt pins are active in the specified bank. A bit in the mask that is set to 1 identifies a pin that is configured as an interrupt and that is active. All other bits in the mask are 0.
 
@@ -95,9 +95,9 @@ The <i>QueryActiveParameters</i> parameter of the <a href="https://msdn.microsof
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
  
 

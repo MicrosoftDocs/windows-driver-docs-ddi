@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], DEVICE_POWER_DESCRIPTOR structure [Storage Devices], _DEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR
+ms.keywords: PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], storage.device_power_descriptor, PDEVICE_POWER_DESCRIPTOR, ntddstor/PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], ntddstor/DEVICE_POWER_DESCRIPTOR, _DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,56 +78,56 @@ typedef struct _DEVICE_POWER_DESCRIPTOR {
 
 
 
-#### - Version
+### -field Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to 
       the structure.
 
 
-#### - Size
+### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
 
 
-#### - DeviceAttentionSupported
+### -field DeviceAttentionSupported
 
 <b>True</b> if device attention is supported. Otherwise, <b>False</b>.
 
 
-#### - AsynchronousNotificationSupported
+### -field AsynchronousNotificationSupported
 
 <b>True</b> if the device supports asynchronous notifications, delivered via 
       <b>IOCTL_STORAGE_EVENT_NOTIFICATION</b>. Otherwise, <b>False</b>
 
 
-#### - IdlePowerManagementEnabled
+### -field IdlePowerManagementEnabled
 
 <b>True</b> if the device has been registered for runtime idle power management. Otherwise, <b>False</b>
 
 
-#### - D3ColdEnabled
+### -field D3ColdEnabled
 
 <b>True</b> if the device will be powered off when put into the D3 power state. Otherwise, <b>False</b>
 
 
-#### - D3ColdSupported
+### -field D3ColdSupported
 
 <b>True</b> if the platform supports <b>D3ColdEnabled</b> for this device. Otherwise, 
       <b>False</b>.
 
 
-#### - NoVerifyDuringIdlePower
+### -field NoVerifyDuringIdlePower
 
 <b>True</b> if the device requires no verification during idle power transitions. Otherwise, <b>False</b>
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - IdleTimeoutInMS
+### -field IdleTimeoutInMS
 
 The idle timeout value in milliseconds. This member is ignored unless 
       <b>IdlePowerManagementEnabled</b> is true.

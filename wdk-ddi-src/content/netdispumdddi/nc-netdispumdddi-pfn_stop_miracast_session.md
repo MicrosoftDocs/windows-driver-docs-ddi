@@ -70,7 +70,7 @@ VOID StopMiracastSession(
 
 
 
-#### - pMiracastContext [in]
+### -param pMiracastContext [in]
 
 A pointer to a context associated with a display adapter.
 
@@ -100,9 +100,9 @@ When this function is called, the Miracast user-mode driver should follow these 
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
-
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
  
 

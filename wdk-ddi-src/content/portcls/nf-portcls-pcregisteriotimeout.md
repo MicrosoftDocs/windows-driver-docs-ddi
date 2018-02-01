@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9cd7c366-1745-45b0-b9e9-87a259110621
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, PcRegisterIoTimeout function [Audio Devices], PcRegisterIoTimeout, portcls/PcRegisterIoTimeout, audio.pcregisteriotimeout
+ms.keywords: audio.pcregisteriotimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, PcRegisterIoTimeout function [Audio Devices], PcRegisterIoTimeout, portcls/PcRegisterIoTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS PcRegisterIoTimeout(
 
 
 
-#### - pDeviceObject [in]
+### -param pDeviceObject [in]
 
 Pointer to a device object representing a device on which I/O operations can time out. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. When calling the I/O-timer callback routine, the port class driver passes this pointer as the first of two call parameters. For more information, see the following Remarks section.
 
 
-#### - pTimerRoutine [in]
+### -param pTimerRoutine [in]
 
 Pointer to the driver-supplied I/O-timer callback routine. For more information, see the following Remarks section.
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 Pointer to the driver-specific context. When calling the I/O-timer callback routine, the port class driver passes this pointer as the second of two call parameters. For more information, see the following Remarks section.
 
@@ -155,9 +155,9 @@ The <i>pTimerRoutine </i>parameter is of type PIO_TIMER_ROUTINE, which is define
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcunregisteriotimeout.md">PcUnregisterIoTimeout</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\portcls\nf-portcls-pcunregisteriotimeout.md">PcUnregisterIoTimeout</a>
 
  
 

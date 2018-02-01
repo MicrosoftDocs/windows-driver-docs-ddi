@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f65c2974-4bf4-4948-ac07-527e69c96303
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, netvista.ndisiminitializedeviceinstanceex, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], NdisIMInitializeDeviceInstanceEx, ndis/NdisIMInitializeDeviceInstanceEx
+ms.keywords: NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], netvista.ndisiminitializedeviceinstanceex, NdisIMInitializeDeviceInstanceEx, ndis/NdisIMInitializeDeviceInstanceEx, intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,15 +73,15 @@ NDIS_STATUS NdisIMInitializeDeviceInstanceEx(
 
 
 
-#### - DriverHandle [in]
+### -param DriverHandle [in]
 
 The miniport driver handle that the 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> function returns at 
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> function returns at 
      <i>NdisMiniportDriverHandle</i> .
 
 
-#### - DriverInstance [in]
+### -param DriverInstance [in]
 
 A pointer to an NDIS_STRING type that describes a caller-initialized counted string in the
      system-default character set. The string contains the name of the registry key in which the driver
@@ -91,7 +91,7 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 
-#### - DeviceContext [in, optional]
+### -param DeviceContext [in, optional]
 
 A pointer to caller-supplied memory to be set up with driver-defined device context information
      about the virtual miniport, which still higher level protocol drivers that subsequently bind themselves
@@ -172,8 +172,8 @@ The call to
     <i>MiniportInitializeEx</i> for the virtual miniport that is referenced in a call to 
     <b>NdisIMInitializeDeviceInstanceEx</b> and the intermediate driver no longer requires the virtual
     miniport, the intermediate driver should call the 
-    <mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
-    NdisIMCancelInitializeDeviceInstance</b></mshelp:link> function to cancel the initialization of the virtual miniport.
+    <a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+    NdisIMCancelInitializeDeviceInstance</a> function to cancel the initialization of the virtual miniport.
     For example, suppose that an intermediate driver creates a virtual miniport in response to a successful
     binding to an underlying miniport adapter. If that binding is removed before NDIS calls 
     <i>MiniportInitializeEx</i>, the intermediate driver should call 
@@ -181,8 +181,8 @@ The call to
 
 <i>MiniportInitializeEx</i> allocates any resources that the driver requires to carry out network I/O
     operations, such as calling the 
-    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link> function, and to initialize the driver's virtual miniport to an
+    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a> function, and to initialize the driver's virtual miniport to an
     operational state. Then, higher-level protocol drivers can bind themselves to its virtual miniport when
     the intermediate driver's initialization is completed successfully.
 
@@ -191,52 +191,52 @@ After
     contain any intermediate-driver-defined data that subsequently enables all higher-level protocol drivers
     that are bound to the same virtual miniport to access information in that context area. Such a
     higher-level protocol driver can query the intermediate-driver-supplied device context with the 
-    <mshelp:link keywords="netvista.ndisimgetbindingcontext" tabindex="0"><b>
-    NdisIMGetBindingContext</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">
+    NdisIMGetBindingContext</a> function.
 
 Before NDIS calls an intermediate driver's 
     <i>MiniportInitializeEx</i> function, the driver can call 
-    <mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
-    NdisIMCancelInitializeDeviceInstance</b></mshelp:link> to cancel the initialization operation.
+    <a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+    NdisIMCancelInitializeDeviceInstance</a> to cancel the initialization operation.
 
 After NDIS calls an intermediate driver's 
     <i>MiniportInitializeEx</i> function, the driver must call 
-    <mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
-    NdisIMDeInitializeDeviceInstance</b></mshelp:link> to reverse the initialization operation.
+    <a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
+    NdisIMDeInitializeDeviceInstance</a> to reverse the initialization operation.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
-   NdisIMDeInitializeDeviceInstance</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
 <a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
 
-<mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
-   NdisIMCancelInitializeDeviceInstance</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+   NdisIMCancelInitializeDeviceInstance</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
+   NdisIMDeInitializeDeviceInstance</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

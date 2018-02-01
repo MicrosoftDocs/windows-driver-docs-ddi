@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 28a94e25-9beb-46a1-9e9d-9fe4823372be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PMESSAGEBOX_PARAMS, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml, MESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], winsplp/PMESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS structure pointer [Print Devices], *PMESSAGEBOX_PARAMS, winsplp/MESSAGEBOX_PARAMS, print.messagebox_params
+ms.keywords: PMESSAGEBOX_PARAMS, *PMESSAGEBOX_PARAMS, print.messagebox_params, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml, PMESSAGEBOX_PARAMS structure pointer [Print Devices], winsplp/MESSAGEBOX_PARAMS, winsplp/PMESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], MESSAGEBOX_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Specifies the size, in bytes, of this structure.
 
 
-#### - pTitle
+### -field pTitle
 
 Pointer to a null-terminated string that is used in the title bar of the message box.
 
 
-#### - pMessage
+### -field pMessage
 
 Pointer to a null-terminated string that contains the message to display.
 
 
-#### - Style
+### -field Style
 
 Specifies the contents and behavior of the message box. For a complete list of the values to which this member can be set, see the description of the <b>MessageBox</b> function in the Microsoft Windows SDK documentation.
 
 
-#### - dwTimeout
+### -field dwTimeout
 
 Specifies the time, in seconds, to wait for the user's response, provided that the <b>bWait</b> member is <b>TRUE</b>.
 
 
-#### - bWait
+### -field bWait
 
 Specifies whether the <b>SplPromptUIInUsersSession</b> function should wait for a user's response. If <b>bWait</b> is <b>TRUE</b>, <b>SplPromptUIInUsersSession</b> does not return until either the user responds or the time-out interval elapses. If <b>dwTimeout</b> is zero, <b>SplPromptUIInUsersSession</b> does not return until the user responds. If <b>bWait</b> is <b>FALSE</b>, the function returns immediately with *<i>pResponse</i> set to IDASYNC. 
 

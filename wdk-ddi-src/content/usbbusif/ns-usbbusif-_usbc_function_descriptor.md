@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 43ac738b-7837-4183-ad06-5c35a2af38ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbbusif/USBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], *PUSBC_FUNCTION_DESCRIPTOR, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR structure [Buses], PUSBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml, _USBC_FUNCTION_DESCRIPTOR, buses.usbc_function_descriptor
+ms.keywords: "*PUSBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR structure [Buses], usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], buses.usbc_function_descriptor, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR, _USBC_FUNCTION_DESCRIPTOR, usbbusif/USBC_FUNCTION_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,42 +75,42 @@ typedef struct _USBC_FUNCTION_DESCRIPTOR {
 
 
 
-#### - FunctionNumber
+### -field FunctionNumber
 
 The zero-based index of the interface collection.
 
 
-#### - NumberOfInterfaces
+### -field NumberOfInterfaces
 
 The number of interfaces in the interface collection.
 
 
-#### - InterfaceDescriptorList
+### -field InterfaceDescriptorList
 
 An array of pointers to <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>-type structures that describe the interfaces in the interface collection.
 
 
-#### - HardwareId
+### -field HardwareId
 
 The hardware identifier of the interface collection.
 
 
-#### - CompatibleId
+### -field CompatibleId
 
 The compatible identifier of the interface collection.
 
 
-#### - FunctionDescription
+### -field FunctionDescription
 
 A description of the interface collection in human-readable text.
 
 
-#### - FunctionFlags
+### -field FunctionFlags
 
 Vendor-defined flags that describe the interface collection.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
@@ -124,9 +124,9 @@ For information on how to use user-defined callback routines to provide a custom
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

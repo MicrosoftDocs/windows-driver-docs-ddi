@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cfe0673c-1dcb-4c4e-9ec4-8d9f27919c85
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/PCHANGER_SEND_VOLUME_TAG_INFORMATION, _CHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure [Storage Devices], PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer [Storage Devices], structs-changer_3f8d7f13-bf38-41fe-aa74-bbd9083bbbb6.xml, *PCHANGER_SEND_VOLUME_TAG_INFORMATION, storage.changer_send_volume_tag_information
+ms.keywords: structs-changer_3f8d7f13-bf38-41fe-aa74-bbd9083bbbb6.xml, CHANGER_SEND_VOLUME_TAG_INFORMATION structure [Storage Devices], ntddchgr/CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer [Storage Devices], _CHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION, storage.changer_send_volume_tag_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _CHANGER_SEND_VOLUME_TAG_INFORMATION {
 
 
 
-#### - StartingElement
+### -field StartingElement
 
 Describes the first element of the range to search for or to set in a structure of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>. 
 
 
-#### - ActionCode
+### -field ActionCode
 
 Indicates the operation to perform. The <b>Features0</b> member of <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a> indicates whether the changer supports a particular category of operation:
 <ul>
@@ -96,18 +96,18 @@ Undefined operations clear previously defined volume tag information for a singl
 </li>
 </ul>
 
-#### - VolumeIDTemplate
+### -field VolumeIDTemplate
 
 Specifies the template to be used by the device to search for volume IDs. For a translate operation, the template can include the wildcard characters, asterisk (*) and question mark (?), to search for volumes that match the template. For other operations, the template specifies a single volume. 
 
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
-
 <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
 
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 

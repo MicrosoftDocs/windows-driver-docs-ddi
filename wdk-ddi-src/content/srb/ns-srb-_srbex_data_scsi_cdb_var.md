@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8D3BD2E0-02EA-4745-AA1C-86D829E6BA81
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSRBEX_DATA_SCSI_CDB_VAR, SRBEX_DATA_SCSI_CDB_VAR structure [Storage Devices], *PSRBEX_DATA_SCSI_CDB_VAR, storage.srbex_data_scsi_cdb_var, PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB_VAR, storport/SRBEX_DATA_SCSI_CDB_VAR, _SRBEX_DATA_SCSI_CDB_VAR
+ms.keywords: SRBEX_DATA_SCSI_CDB_VAR structure [Storage Devices], PSRBEX_DATA_SCSI_CDB_VAR structure pointer [Storage Devices], *PSRBEX_DATA_SCSI_CDB_VAR, _SRBEX_DATA_SCSI_CDB_VAR, storport/PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR, storage.srbex_data_scsi_cdb_var, SRBEX_DATA_SCSI_CDB_VAR, storport/SRBEX_DATA_SCSI_CDB_VAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _SRBEX_DATA_SCSI_CDB_VAR {
 
 
 
-#### - Type
+### -field Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypeScsiCdbVar</b>.
 
 
-#### - Length
+### -field Length
 
 Length of the data in this structure starting with the <b>ScsiStatus</b> member. This value ranges between SRBEX_DATA_SCSI_CDB_VAR_LENGTH_MIN and SRBEX_DATA_SCSI_CDB_VAR_LENGTH_MAX.
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 The SCSI status code returned for the submitted SRB.
 
 
-#### - SenseInfoBufferLength
+### -field SenseInfoBufferLength
 
 The length of the sense information returned in the buffer pointed to by <b>SenseInfoBuffer</b>.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved. Contains zeros.
 
 
-#### - CdbLength
+### -field CdbLength
 
 The length of the CDB data, in bytes, of the <b>Cdb</b> array.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved. Contains zeros.
 
 
-#### - SenseInfoBuffer
+### -field SenseInfoBuffer
 
 A pointer to a buffer containing any returned sense information.
 
 
-#### - Cdb
+### -field Cdb
 
 A variable length array containing the CDB buffer.
 

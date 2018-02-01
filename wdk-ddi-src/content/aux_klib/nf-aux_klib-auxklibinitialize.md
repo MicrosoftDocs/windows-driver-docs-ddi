@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7e15cbe1-17f7-4df7-9273-9a365d309d03
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.auxklibinitialize, AuxKlibInitialize, aux_klib/AuxKlibInitialize, AuxKlibInitialize routine [Kernel-Mode Driver Architecture], aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml
+ms.keywords: aux_klib/AuxKlibInitialize, AuxKlibInitialize, aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, AuxKlibInitialize routine [Kernel-Mode Driver Architecture], kernel.auxklibinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

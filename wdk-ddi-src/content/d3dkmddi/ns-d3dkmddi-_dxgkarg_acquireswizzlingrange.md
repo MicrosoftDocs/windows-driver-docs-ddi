@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 865f4d08-f2b3-4922-956f-2c49aa4e68b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_acquireswizzlingrange, d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE, *INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, _DXGKARG_ACQUIRESWIZZLINGRANGE, DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml, DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], DXGKARG_ACQUIRESWIZZLINGRANGE
+ms.keywords: "*INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, _DXGKARG_ACQUIRESWIZZLINGRANGE, DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml, display.dxgkarg_acquireswizzlingrange, DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,43 +72,43 @@ typedef struct _DXGKARG_ACQUIRESWIZZLINGRANGE {
 
 
 
-#### - hAllocation
+### -field hAllocation
 
 [in] A handle to the allocation that the display miniport driver assigned and that is returned through its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function.
 
 
-#### - PrivateDriverData
+### -field PrivateDriverData
 
 [in] A UINT value of private data that the user-mode display driver sends when it calls the Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function. The private data should be an index that lets the display miniport driver determine the accessible part of the allocation (for example, the MIP level). This member should not contain a pointer.
 
 
-#### - RangeId
+### -field RangeId
 
 [in] The zero-based identifier of the swizzling range that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function programs.
 
 
-#### - SegmentId
+### -field SegmentId
 
 [in] The identifier of a segment in which the allocation is currently paged.
 
 
-#### - RangeSize
+### -field RangeSize
 
 [in] The size, in bytes, of the range to acquire. This range size is identical to the size of the allocation that <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> acquires a range for. The driver can modify the value in <b>RangeSize</b> when the <b>UseAlternateVA</b> bit-field flag is specified in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a> structure in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function. If the <b>UseAlternateVA</b> flag is not specified, the driver cannot change <b>RangeSize</b>.
 
 
-#### - CPUTranslatedAddress
+### -field CPUTranslatedAddress
 
 [in/out] The base physical address where the CPU should map the allocation. The display miniport driver must set this information when a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function succeeds. 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
 

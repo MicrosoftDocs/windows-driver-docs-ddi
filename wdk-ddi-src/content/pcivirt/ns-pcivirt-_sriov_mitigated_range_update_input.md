@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: ae4936ac-9794-4854-81ec-2139b3ce4c3c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], *PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT, PCI.sriov_mitigated_range_update_input, _SRIOV_MITIGATED_RANGE_UPDATE_INPUT
+ms.keywords: pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT, *PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], PCI.sriov_mitigated_range_update_input, SRIOV_MITIGATED_RANGE_UPDATE_INPUT, _SRIOV_MITIGATED_RANGE_UPDATE_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SRIOV_MITIGATED_RANGE_UPDATE_INPUT {
 
 
 
-#### - VfIndex
+### -field VfIndex
 
 Zero-based index of the virtual function from the first virtual function exposed by this physical function.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0c9bf43d-9342-4d60-86d2-7388a4a80160
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmIsTransactionActive routine [Kernel-Mode Driver Architecture], kernel.tmistransactionactive, wdm/TmIsTransactionActive, ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, TmIsTransactionActive
+ms.keywords: TmIsTransactionActive, wdm/TmIsTransactionActive, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, kernel.tmistransactionactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ BOOLEAN TmIsTransactionActive(
 
 
 
-#### - Transaction [in]
+### -param Transaction [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a> provided.
 
@@ -93,11 +93,11 @@ For more information about <b>TmIsTransactionActive</b>, and for information abo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
  
 

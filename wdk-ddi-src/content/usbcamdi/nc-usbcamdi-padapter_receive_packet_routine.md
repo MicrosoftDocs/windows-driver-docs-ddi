@@ -68,7 +68,7 @@ VOID AdapterReceivePacket(
 
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 Specifies the SRB to be processed by the camera minidriver.
 

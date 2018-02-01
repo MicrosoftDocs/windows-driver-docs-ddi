@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], kernel.object_attributes, OBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES, wudfwdm/OBJECT_ATTRIBUTES, _OBJECT_ATTRIBUTES, *POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml
+ms.keywords: kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, *POBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES, wudfwdm/OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], OBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], kernel.object_attributes, _OBJECT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,22 +73,22 @@ typedef struct _OBJECT_ATTRIBUTES {
 
 
 
-#### - Length
+### -field Length
 
 The number of bytes of data contained in this structure. The <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
 
 
-#### - RootDirectory
+### -field RootDirectory
 
 Optional handle to the root object directory for the path name specified by the <b>ObjectName</b> member. If <b>RootDirectory</b> is <b>NULL</b>, <b>ObjectName</b> must point to a fully qualified object name that includes the full path to the target object. If <b>RootDirectory</b> is non-<b>NULL</b>, <b>ObjectName</b> specifies an object name relative to the <b>RootDirectory</b> directory. The <b>RootDirectory</b> handle can refer to a file system directory or an object directory in the object manager namespace.
 
 
-#### - ObjectName
+### -field ObjectName
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</a> that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
 
 
-#### - Attributes
+### -field Attributes
 
 Bitmask of flags that specify object handle attributes. This member can contain one or more of the flags in the following table.
 <table>
@@ -191,12 +191,12 @@ Reserved.
 </table> 
 
 
-#### - SecurityDescriptor
+### -field SecurityDescriptor
 
 Specifies a security descriptor (<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
 
 
-#### - SecurityQualityOfService
+### -field SecurityQualityOfService
 
 Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro sets this member to <b>NULL</b>.
 
@@ -216,25 +216,25 @@ Driver routines that run in a process context other than that of the system proc
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
  
 

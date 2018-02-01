@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, portcls/IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement::QueryDeviceCapabilities, audio.iadapterpowermanagement_querydevicecapabilities, IAdapterPowerManagement, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, QueryDeviceCapabilities
+ms.keywords: QueryDeviceCapabilities method [Audio Devices], portcls/IAdapterPowerManagement::QueryDeviceCapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, audio.iadapterpowermanagement_querydevicecapabilities, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, IAdapterPowerManagement::QueryDeviceCapabilities, IAdapterPowerManagement, QueryDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS QueryDeviceCapabilities(
 
 
 
-#### - PowerDeviceCaps [in]
+### -param PowerDeviceCaps [in]
 
 Pointer to a <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a> structure specifying the device's capabilities
 
@@ -112,9 +112,9 @@ In order to change the mappings between system power states and device power sta
 
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
 
-<a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
-
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+<a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
 

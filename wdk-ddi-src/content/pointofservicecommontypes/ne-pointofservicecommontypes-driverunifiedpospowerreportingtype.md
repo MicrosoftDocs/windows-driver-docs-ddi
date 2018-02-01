@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: e0263969-1c6a-4805-a647-d4b9df83ef71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DriverUnifiedPosPowerReportingType, UnknownPowerReportingType, pointofservicecommontypes/Standard, DriverUnifiedPosPowerReportingType enumeration, pointofservicecommontypes/UnknownPowerReportingType, Standard, pos.unifiedpospowerreportingtype, Advanced, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Advanced
+ms.keywords: UnknownPowerReportingType, pointofservicecommontypes/Standard, Standard, Advanced, pointofservicecommontypes/UnknownPowerReportingType, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pos.unifiedpospowerreportingtype, DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Advanced, DriverUnifiedPosPowerReportingType enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DriverUnifiedPosPowerReportingType {
 
 
 
-#### - UnknownPowerReportingType
+### -field UnknownPowerReportingType
 
 The power reporting type is not known.
 
 
-#### - Standard
+### -field Standard
 
 The device supports the standard power reporting type.
 
 
-#### - Advanced
+### -field Advanced
 
 The device supports the advanced power reporting type.
 

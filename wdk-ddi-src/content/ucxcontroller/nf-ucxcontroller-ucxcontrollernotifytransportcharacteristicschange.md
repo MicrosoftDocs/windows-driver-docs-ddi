@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerNotifyTransportCharacteristicsChange, buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses]
+ms.keywords: ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], UcxControllerNotifyTransportCharacteristicsChange, buses.ucxcontrollernotifytransportcharacteristicschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ void UcxControllerNotifyTransportCharacteristicsChange(
 TBD
 
 
-#### - UcxControllerTransportCharacteristics [out]
+### -param UcxControllerTransportCharacteristics [out]
 
 A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transport_characteristics.md">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that contains the updated transport characteristics.
 

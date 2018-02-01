@@ -71,17 +71,17 @@ NTSTATUS SdpValidateStream(
 
 
 
-#### - Stream
+### -param Stream
 
 A pointer to the raw SDP stream to be validated.
 
 
-#### - Size
+### -param Size
 
 An unsigned long integer that indicates the size of the SDP stream to be validated.
 
 
-#### - ErrorByte
+### -param ErrorByte
 
 A pointer to a variable that receives the address of the first byte in the SDP record that
      contains an error. The address is absolute.
@@ -113,8 +113,8 @@ Bluetooth profile drivers should use this function to validate all SDP streams f
     Other SDP functions might not perform complete data validation.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
-    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f918bc4-d2d0-4d5b-93c8-89f02c81a701
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml, IWDFIoRequest2 interface, GetRequestorMode method, GetRequestorMode, umdf.iwdfiorequest2_getrequestormode, IWDFIoRequest2::GetRequestorMode, wdf.iwdfiorequest2_getrequestormode, wudfddi/IWDFIoRequest2::GetRequestorMode, IWDFIoRequest2, GetRequestorMode method, IWDFIoRequest2 interface, GetRequestorMode method
+ms.keywords: wdf.iwdfiorequest2_getrequestormode, GetRequestorMode method, IWDFIoRequest2 interface, IWDFIoRequest2, GetRequestorMode method, wudfddi/IWDFIoRequest2::GetRequestorMode, UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml, umdf.iwdfiorequest2_getrequestormode, GetRequestorMode, IWDFIoRequest2::GetRequestorMode, IWDFIoRequest2 interface, GetRequestorMode method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

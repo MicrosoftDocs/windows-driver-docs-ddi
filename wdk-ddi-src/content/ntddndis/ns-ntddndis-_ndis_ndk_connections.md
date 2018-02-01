@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_ndk_connections, PNDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS, _NDIS_NDK_CONNECTIONS, ntddndis/NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CONNECTIONS
+ms.keywords: NDIS_NDK_CONNECTIONS, ntddndis/NDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, PNDIS_NDK_CONNECTIONS, _NDIS_NDK_CONNECTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_NDK_CONNECTIONS {
 
 
 
-#### - Header
+### -field Header
 
 An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CONNECTIONS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 <ul>
@@ -84,17 +84,17 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</
  
 
 
-#### - Count
+### -field Count
 
 The number of elements in the connection array that is passed in the <b>Connections</b> member. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a> structure. 
 
 
-#### - NDConnectionsMappedtoTCPConnections
+### -field NDConnectionsMappedtoTCPConnections
 
 A BOOLEAN value that specifies how the connections are mapped. If the RDMA technology for the NDK provider requires the provider to map ND connections to TCP connections, the NDK provider must set the <b>NDConnectionsMappedtoTCPConnections</b> member to TRUE. Otherwise, <b>NDConnectionsMappedtoTCPConnections</b> is FALSE.
 
 
-#### - Connections
+### -field Connections
 
 A variable-sized array of <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a> structures where the size of the array is determined by the number of connections being returned. The <b>Count</b> member  specifies the number of elements in the connection array. 
 
@@ -122,11 +122,11 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a>
 
  
 

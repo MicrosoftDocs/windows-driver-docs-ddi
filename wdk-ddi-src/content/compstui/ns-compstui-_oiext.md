@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/POIEXT, OIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext, POIEXT structure pointer [Print Devices], _OIEXT, *POIEXT, OIEXT structure [Print Devices], POIEXT, compstui/OIEXT
+ms.keywords: POIEXT structure pointer [Print Devices], compstui/POIEXT, OIEXT, *POIEXT, print.oiext, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, compstui/OIEXT, _OIEXT, POIEXT, OIEXT structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _OIEXT {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Size, in bytes, of the OIEXT structure.
 
 
-#### - Flags
+### -field Flags
 
 Can contain the following bit flag:
 <table>
@@ -101,17 +101,17 @@ CPSUI does not check this flag if <b>pHelpFile</b> specifies a resource ID.
 </table> 
 
 
-#### - hInstCaller
+### -field hInstCaller
 
 Instance handle to a DLL containing string and icon resources belonging to the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a>, <a href="..\compstui\ns-compstui-_opttype.md">OPTTYPE</a>, and <a href="..\compstui\ns-compstui-_optparam.md">OPTPARAM</a> structures associated with the OIEXT structure. If <b>NULL</b>, CPSUI obtains resources from the DLL identified by the <b>hInstCaller</b> member of a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 
-#### - pHelpFile
+### -field pHelpFile
 
 Pointer to a NULL-terminated string representing a path to a help file containing help information for the option. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero. If <b>NULL</b>, CPSUI uses the help file identified by the <b>pHelpFile</b> member of a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
 
 
-#### - dwReserved
+### -field dwReserved
 
 Reserved, must be initialized to zero.
 

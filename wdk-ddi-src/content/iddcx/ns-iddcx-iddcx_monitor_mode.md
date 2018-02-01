@@ -70,21 +70,21 @@ typedef struct IDDCX_MONITOR_MODE {
 
 
 
-#### - Size
+### -field Size
 
 
                      Total size of the structure.
                  
 
 
-#### - Origin
+### -field Origin
 
 
                      Where the driver derived this mode from.
                  
 
 
-#### - MonitorVideoSignalInfo
+### -field MonitorVideoSignalInfo
 
 
                      This is the details of the Monitor mode.

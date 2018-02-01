@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66878652-be29-479f-8e00-a9d8ab1b0db7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2::SetDataParameters, debugger.setdataparameters, dbgeng/IDebugBreakpoint::SetDataParameters, SetDataParameters method [Windows Debugging], ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, dbgeng/IDebugBreakpoint2::SetDataParameters, SetDataParameters, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::SetDataParameters, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method
+ms.keywords: IDebugBreakpoint::SetDataParameters, SetDataParameters, debugger.setdataparameters, dbgeng/IDebugBreakpoint::SetDataParameters, IDebugBreakpoint2, SetDataParameters method [Windows Debugging], ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, dbgeng/IDebugBreakpoint2::SetDataParameters, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::SetDataParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT SetDataParameters(
 
 
 
-#### - Size [in]
+### -param Size [in]
 
 The size, in bytes, of the memory block whose access triggers the breakpoint.  For more information about restrictions on the value of <i>Size</i> based on the processor type, see <a href="https://msdn.microsoft.com/ed702f01-2a30-4ffb-a804-167cf3b19936">Valid Parameters for Processor Breakpoints</a>.
 
 
-#### - AccessType [in]
+### -param AccessType [in]
 
 The type of access that triggers the breakpoint. For a list of possible value, see <a href="https://msdn.microsoft.com/ed702f01-2a30-4ffb-a804-167cf3b19936">Valid Parameters for Processor Breakpoints</a>.
 

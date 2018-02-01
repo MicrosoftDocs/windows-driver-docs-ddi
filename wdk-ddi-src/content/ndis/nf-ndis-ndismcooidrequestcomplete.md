@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18242351-3dec-40df-b112-2335253903d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisMCoOidRequestComplete, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, ndis/NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete
+ms.keywords: netvista.ndismcooidrequestcomplete, ndis/NdisMCoOidRequestComplete, NdisMCoOidRequestComplete, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ VOID NdisMCoOidRequestComplete(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 A miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param NdisMiniportVcHandle
@@ -93,7 +93,7 @@ TBD
 TBD
 
 
-#### - Status [in]
+### -param Status [in]
 
 The final status of the request operation, either NDIS_STATUS_SUCCESS,
      NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> value 
@@ -116,8 +116,8 @@ A handle that identifies the virtual connection (VC). The miniport driver obtain
 A pointer to a buffer that is formatted as an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The miniport
      driver obtained this pointer as an input parameter to its 
-     <mshelp:link keywords="netvista.miniportcooidrequest" tabindex="0"><i>
-     MiniportCoOidRequest</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">
+     MiniportCoOidRequest</a> function.
 
 
 ## -returns
@@ -137,26 +137,26 @@ A CoNDIS miniport driver that returns NDIS_STATUS_PENDING from its
 
 A call to 
     <b>NdisMCoOidRequestComplete</b> causes a call to the 
-    <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-    ProtocolCoOidRequestComplete</i></mshelp:link> function of the overlying driver that called the 
+    <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+    ProtocolCoOidRequestComplete</a> function of the overlying driver that called the 
     <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
 
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

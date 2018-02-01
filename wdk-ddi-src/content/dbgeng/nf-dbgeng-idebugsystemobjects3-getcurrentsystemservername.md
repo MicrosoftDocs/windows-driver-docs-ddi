@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4E06AFD0-42D3-479F-B285-34919826F750
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetCurrentSystemServerName, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method, debugger.idebugsystemobjects3_getcurrentsystemservername, GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, IDebugSystemObjects3, GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface
+ms.keywords: GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method, IDebugSystemObjects3, GetCurrentSystemServerName, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3::GetCurrentSystemServerName, debugger.idebugsystemobjects3_getcurrentsystemservername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetCurrentSystemServerName(
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to an output buffer.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size of the buffer.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 A pointer to the name size. 
 
@@ -110,9 +110,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 77fc58fd-1bcf-4a68-b083-fa2bfa3ac312
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasReadPropLong function [Imaging Devices], wiamdef/wiasReadPropLong, wiasReadPropLong, wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, image.wiasreadproplong
+ms.keywords: wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, image.wiasreadproplong, wiasReadPropLong function [Imaging Devices], wiamdef/wiasReadPropLong, wiasReadPropLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasReadPropLong(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - propid
+### -param propid
 
 Specifies the property identifier.
 
 
-#### - plVal [out]
+### -param plVal [out]
 
 Pointer to a memory location that receives the value of the property.
 
 
-#### - plValOld [out, optional]
+### -param plValOld [out, optional]
 
 Pointer to a memory location that receives the property's previous value. If this information is not needed, set this parameter to <b>NULL</b>.
 
 
-#### - bMustExist
+### -param bMustExist
 
 Indicates whether the property must exist. If set to <b>TRUE</b>, the property must exist, if set to <b>FALSE</b>, the property does not have to exist.
 
@@ -106,13 +106,13 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
 

@@ -72,7 +72,7 @@ typedef EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCH
 
 
 
-#### - MonitorObject [in]
+### -param MonitorObject [in]
 
 
                     

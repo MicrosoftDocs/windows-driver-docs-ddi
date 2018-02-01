@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], NdisMAllocateSharedMemory
+ms.keywords: miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, ndis/NdisMAllocateSharedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,23 +73,23 @@ VOID NdisMAllocateSharedMemory(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 Specifies the handle input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the number of bytes to allocate.
 
 
-#### - Cached [in]
+### -param Cached [in]
 
 This parameter is ignored (cached memory is always used on x86 and x64 systems).
 
 
-#### - VirtualAddress [out]
+### -param VirtualAddress [out]
 
 Pointer to a caller-supplied variable in which this function returns the base virtual address of
      the allocation for use by the miniport driver. If 
@@ -97,7 +97,7 @@ Pointer to a caller-supplied variable in which this function returns the base vi
      was allocated.
 
 
-#### - PhysicalAddress [out]
+### -param PhysicalAddress [out]
 
 Pointer to a caller-supplied variable in which this function returns a physical address, suitable
      for use by the NIC, that corresponds to that returned at 
@@ -159,15 +159,15 @@ On the other hand, calling
 
 </li>
 </ul>A miniport driver that supplies a 
-    <mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-    MiniportSharedMemoryAllocateComplete</i></mshelp:link> function has considerably more flexibility in resolving the
+    <a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+    MiniportSharedMemoryAllocateComplete</a> function has considerably more flexibility in resolving the
     preceding performance versus size dilemma. 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> should allocate only enough shared memory with 
     <b>NdisMAllocateSharedMemory</b> for a moderate demand for network transfer operations through the NIC if
     the driver has a 
     <i>MiniportSharedMemoryAllocateComplete</i> function. Such a miniport driver can call 
-    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> dynamically to allocate more shared memory in periods of heavier
+    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    NdisMAllocateSharedMemoryAsyncEx</a> dynamically to allocate more shared memory in periods of heavier
     transfer demand on a NIC. When the high demand for transfers subsides, such a driver calls 
     <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a> to release the
     additional memory it allocated. Note that only bus-master DMA NICs can call 
@@ -209,8 +209,8 @@ If its call to
     resources it has already allocated and fail initialization.
 
 If the miniport driver subsequently indicates receives with 
-    <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>, it must allocate some number of buffer descriptors from buffer
+    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    NdisMIndicateReceiveNetBufferLists</a>, it must allocate some number of buffer descriptors from buffer
     pool that map the NIC's receive buffers in the shared memory block.
 
 If the allocated memory is cached and, therefore, needs to be flushed on transfers, the miniport
@@ -221,8 +221,8 @@ If the allocated memory is cached and, therefore, needs to be flushed on transfe
     to perform such a flush.
 
 If a miniport driver calls 
-    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> or 
+    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    NdisMAllocateSharedMemoryAsyncEx</a> or 
     <b>NdisMAllocateSharedMemory</b>, it must release all outstanding allocations with one or more calls to 
     <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a> when a NIC is
     removed, that is, when its 
@@ -236,28 +236,28 @@ If a miniport driver calls
 
 <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
 
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
+
 <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
 
 <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
-<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
-
 <a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
 
 <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
  
 

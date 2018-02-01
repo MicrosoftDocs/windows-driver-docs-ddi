@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 75ffe04a-4d77-4486-8fc7-35b0b6144b99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDEV_USE_TRUE_COLOR, print.pdev_use_true_color, printoem/PDEV_USE_TRUE_COLOR, PDEV_USE_TRUE_COLOR structure [Print Devices], _PDEV_USE_TRUE_COLOR, print_unidrv-pscript_rendering_bac188d1-ddd5-44e6-b2f1-7c617d6c4b6f.xml
+ms.keywords: PDEV_USE_TRUE_COLOR, _PDEV_USE_TRUE_COLOR, PDEV_USE_TRUE_COLOR structure [Print Devices], print_unidrv-pscript_rendering_bac188d1-ddd5-44e6-b2f1-7c617d6c4b6f.xml, printoem/PDEV_USE_TRUE_COLOR, print.pdev_use_true_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _PDEV_USE_TRUE_COLOR {
 
 
 
-#### - bUseTrueColor
+### -field bUseTrueColor
 
 Specifies whether the PostScript output should be in color mode or in monochrome/grayscale mode. If <b>TRUE</b>, output is in color. If <b>FALSE</b>, output is monochrome/grayscale.
 

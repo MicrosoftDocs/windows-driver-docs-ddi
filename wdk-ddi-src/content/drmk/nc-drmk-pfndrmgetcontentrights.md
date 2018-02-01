@@ -73,12 +73,12 @@ typedef PFNDRMGETCONTENTRIGHTS DRMGetContentRights;
 
 
 
-#### - ContentId [in]
+### -param ContentId [in]
 
 This parameter is reserved for system use.
 
 
-#### - DrmRights [out]
+### -param DrmRights [out]
 
 This parameter is reserved for system use.
 

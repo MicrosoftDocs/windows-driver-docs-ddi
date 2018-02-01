@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 245d35a1-e877-4446-a0da-e50ece3656b1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PIO_ALLOCATION_ACTION, wdm/KeepObject, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, _IO_ALLOCATION_ACTION, wdm/IO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION, KeepObject, wdm/PIO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture], DeallocateObject, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture], DeallocateObjectKeepRegisters, wdm/DeallocateObjectKeepRegisters, wdm/DeallocateObject, kernel.io_allocation_action, PIO_ALLOCATION_ACTION"
+ms.keywords: wdm/PIO_ALLOCATION_ACTION, wdm/DeallocateObject, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, wdm/IO_ALLOCATION_ACTION, wdm/KeepObject, PIO_ALLOCATION_ACTION, wdm/DeallocateObjectKeepRegisters, DeallocateObject, DeallocateObjectKeepRegisters, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture], _IO_ALLOCATION_ACTION, kernel.io_allocation_action, KeepObject, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture], *PIO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _IO_ALLOCATION_ACTION {
 
 
 
-#### - KeepObject
+### -field KeepObject
 
 Indicates that you want the driver to retain ownership of the adapter or controller object.
 
 
-#### - DeallocateObject
+### -field DeallocateObject
 
 Indicates that you do not want the driver to retain ownership of the adapter or controller object.
 
 
-#### - DeallocateObjectKeepRegisters
+### -field DeallocateObjectKeepRegisters
 
 <u>For adapter objects only.</u> Indicates that you do not want the driver to retain ownership of the adapter object, but you do want the driver to retain ownership of the allocated map registers. 
 

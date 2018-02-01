@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3 interface, ReadFromHardware method, wudfddi/IWDFDevice3::ReadFromHardware, wdf.iwdfdevice3_readfromhardware, ReadFromHardware method, umdf.iwdfdevice3_readfromhardware, ReadFromHardware, IWDFDevice3, ReadFromHardware method, IWDFDevice3 interface, IWDFDevice3::ReadFromHardware
+ms.keywords: IWDFDevice3 interface, ReadFromHardware method, wdf.iwdfdevice3_readfromhardware, ReadFromHardware method, IWDFDevice3 interface, IWDFDevice3::ReadFromHardware, ReadFromHardware method, wudfddi/IWDFDevice3::ReadFromHardware, IWDFDevice3, ReadFromHardware, umdf.iwdfdevice3_readfromhardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,23 +74,23 @@ SIZE_T ReadFromHardware(
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 
 
-#### - Size [in]
+### -param Size [in]
 
 
 
-#### - Address [in]
+### -param Address [in]
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 
 
-#### - Count [in, optional]
+### -param Count [in, optional]
 
 
 

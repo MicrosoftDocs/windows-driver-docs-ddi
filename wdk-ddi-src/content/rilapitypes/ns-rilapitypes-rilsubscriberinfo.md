@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b05a38c6-afc5-4dc1-8e51-ecf9d47e144e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsubscriberinfo, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO, rilapitypes/RILSUBSCRIBERINFO
+ms.keywords: rilapitypes/RILSUBSCRIBERINFO, RILSUBSCRIBERINFO, netvista.rilsubscriberinfo, *LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ struct RILSUBSCRIBERINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 The size of the structure in bytes.
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilsubscriberinfoparammask.md">RILSUBSCRIBERINFOPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - raAddress
+### -field raAddress
 
 Phone number of the subscriber line, of type <a href="..\rilapitypes\ne-rilapitypes-riladdresstype.md">RILADDRESSTYPE</a>.
 
 
-#### - wszDescription
+### -field wszDescription
 
 Text description of the subscriber line.
 
 
-#### - dwService
+### -field dwService
 
 Specifies the service related to the subscriber phone number, of type <a href="..\rilapitypes\ne-rilapitypes-rilsubscriberinfoservice.md">RILSUBSCRIBERINFOSERVICE</a>.
 

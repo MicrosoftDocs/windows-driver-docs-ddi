@@ -71,19 +71,14 @@ VOID  DriverNotificationRoutine(
 
 
 
-#### - *DeviceObject [in]
+### -param *DeviceObject [in]
 
 A pointer to a file system device object for which the notification was called.
 
 
-#### - FsActive [in]
+### -param FsActive [in]
 
 A Boolean value that indicates whether the file system has registered (TRUE) or unregistered (FALSE) itself as an active file system.
-
-
-#### - DeviceObject [in]
-
-A pointer to a file system device object for which the notification was called.
 
 
 ## -returns
@@ -102,13 +97,13 @@ You must declare the callback function by using the <i>DRIVER_FS_NOTIFICATION</i
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
-
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangemountaware.md">IoRegisterFsRegistrationChangeMountAware</a>
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
 
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangemountaware.md">IoRegisterFsRegistrationChangeMountAware</a>
 
  
 

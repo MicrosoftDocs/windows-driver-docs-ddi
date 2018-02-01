@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c67c15a4-3dbf-4317-b6d5-e52f426e7619
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], IPrintCoreHelperPS interface, print.iprintcorehelperps_enumfeatures, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], EnumFeatures method, EnumFeatures method [Print Devices], print_unidrv-pscript_allplugins_06a6f78b-fa5d-496e-b276-f32bba7c2502.xml, IPrintCoreHelperPS::EnumFeatures, prcomoem/IPrintCoreHelperPS::EnumFeatures
+ms.keywords: EnumFeatures method [Print Devices], IPrintCoreHelperPS interface, print.iprintcorehelperps_enumfeatures, IPrintCoreHelperPS interface [Print Devices], EnumFeatures method, IPrintCoreHelperPS::EnumFeatures, print_unidrv-pscript_allplugins_06a6f78b-fa5d-496e-b276-f32bba7c2502.xml, prcomoem/IPrintCoreHelperPS::EnumFeatures, IPrintCoreHelperPS, EnumFeatures, EnumFeatures method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ STDMETHOD EnumFeatures(
 
 
 
-#### - pFeatureList [out]
+### -param pFeatureList [out]
 
 A pointer to an array of ANSI character strings that contain all of the features that are available for the current device. The final array element is indicated by a <b>NULL</b> string.
 
 
-#### - pdwNumFeatures [out]
+### -param pdwNumFeatures [out]
 
 A pointer to a variable that receives the number of feature keywords in the array that is pointed to by the <i>pFeatureList</i> parameter.
 

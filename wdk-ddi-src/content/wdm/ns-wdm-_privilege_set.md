@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d5c8c4f-78f4-4e98-9e76-a9896b5c9124
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PRIVILEGE_SET, wdm/PPRIVILEGE_SET, PRIVILEGE_SET structure [Kernel-Mode Driver Architecture], PPRIVILEGE_SET, PRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, kernel.privilege_set, wdm/PNP_BUS_INFORMATION, *PPRIVILEGE_SET"
+ms.keywords: PRIVILEGE_SET, PRIVILEGE_SET structure [Kernel-Mode Driver Architecture], kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, wdm/PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], wdm/PNP_BUS_INFORMATION, *PPRIVILEGE_SET, PPRIVILEGE_SET, _PRIVILEGE_SET, kernel.privilege_set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

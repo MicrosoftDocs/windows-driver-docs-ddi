@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D58AB46A-0D87-45B5-8C58-E99ED0F906D2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltaddopenreparseentry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, FltAddOpenReparseEntry
+ms.keywords: FltAddOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, ifsk.fltaddopenreparseentry, FltAddOpenReparseEntry routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltAddOpenReparseEntry(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 The filter to reference.
 
 
-#### - Data [in]
+### -param Data [in]
 
 The create operation to attach open reparse information to.
 
 
-#### - OpenReparseEntry [in]
+### -param OpenReparseEntry [in]
 
 The open reparse information to add, of type <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a>.
 

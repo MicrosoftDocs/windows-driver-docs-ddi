@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68fbaa04-ca7a-46b4-a7ca-c3d44443c2af
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORREAD, kmdf.wdfrequestprobeandlockuserbufferforread, WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, wdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead
+ms.keywords: PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORREAD, wdf.wdfrequestprobeandlockuserbufferforread, WdfRequestProbeAndLockUserBufferForRead, DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, wdfrequest/WdfRequestProbeAndLockUserBufferForRead, kmdf.wdfrequestprobeandlockuserbufferforread, WdfRequestProbeAndLockUserBufferForRead method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ NTSTATUS WdfRequestProbeAndLockUserBufferForRead(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the request's input buffer. For more information, see the following Remarks section.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length, in bytes, of the request's input buffer.
 
 
-#### - MemoryObject [out]
+### -param MemoryObject [out]
 
 A pointer to a location that receives a handle to a framework memory object that represents the user input buffer.
 

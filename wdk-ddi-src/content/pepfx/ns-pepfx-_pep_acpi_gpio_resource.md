@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1B8AD1A9-9EB0-49A8-B791-0453C768A974
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_ACPI_GPIO_RESOURCE, _PEP_ACPI_GPIO_RESOURCE, kernel.pep_acpi_gpio_resource, PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], PEP_ACPI_GPIO_RESOURCE, *PPEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE, pepfx/PEP_ACPI_GPIO_RESOURCE
+ms.keywords: pepfx/PEP_ACPI_GPIO_RESOURCE, _PEP_ACPI_GPIO_RESOURCE, pepfx/PPEP_ACPI_GPIO_RESOURCE, *PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE, kernel.pep_acpi_gpio_resource, PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,85 +80,85 @@ typedef struct _PEP_ACPI_GPIO_RESOURCE {
 
 
 
-#### - Type
+### -field Type
 
 A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
 
 
-#### - Flags
+### -field Flags
 
 A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
 
 
-#### - InterruptType
+### -field InterruptType
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
-#### - InterruptPolarity
+### -field InterruptPolarity
 
 A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
 
-#### - PinConfig
+### -field PinConfig
 
 A <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
-#### - IoRestrictionType
+### -field IoRestrictionType
 
 A <a href="..\pepfx\ne-pepfx-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a> enumeration value that identifies the type of IO that the pin supports.
 
 
-#### - DriveStrength
+### -field DriveStrength
 
 Specifies the output drive capability of the pin, in hundredths of milliamperes. 
 
 
-#### - DebounceTimeout
+### -field DebounceTimeout
 
 Specifies the hardware debounce wait time, in hundredths of milliseconds.
 
 
-#### - PinTable
+### -field PinTable
 
 A list of pin numbers on the resource that are described by this descriptor. 
 
 
-#### - PinCount
+### -field PinCount
 
 The number of pins in <b>PinTable</b>.
 
 
-#### - ResourceSourceIndex
+### -field ResourceSourceIndex
 
 This member is always zero.
 
 
-#### - ResourceSourceName
+### -field ResourceSourceName
 
 This member is always set to "ResourceConsumer."
 
 
-#### - VendorData
+### -field VendorData
 
 A pointer to a raw data buffer containing vendor-defined byte data to be decoded by the OS driver. 
 
 
-#### - VendorDataLength
+### -field VendorDataLength
 
 The size of the <b>VendorData</b> buffer.
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a>
-
 <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
+<a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a>
 
 <a href="..\pepfx\ne-pepfx-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a>
+
+<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
 
 <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 

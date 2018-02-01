@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7EE6D8AE-E001-4BC9-A617-682202A297E7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceFunctionSuspendedCanWake, _UDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/PUDECX_USB_DEVICE_FUNCTION_POWER, buses.udecx_usb_device_function_power, UDECX_USB_DEVICE_FUNCTION_POWER enumeration [Buses], udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCanWake, UdecxUsbDeviceFunctionNotSuspended, udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCannotWake, PUDECX_USB_DEVICE_FUNCTION_POWER enumeration pointer [Buses], UDECX_USB_DEVICE_FUNCTION_POWER, PUDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionNotSuspended, UdecxUsbDeviceFunctionSuspendedCannotWake
+ms.keywords: PUDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER, UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCannotWake, UdecxUsbDeviceFunctionSuspendedCanWake, _UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCanWake, udecxusbdevice/PUDECX_USB_DEVICE_FUNCTION_POWER, UdecxUsbDeviceFunctionSuspendedCannotWake, udecxusbdevice/UdecxUsbDeviceFunctionNotSuspended, buses.udecx_usb_device_function_power, UdecxUsbDeviceFunctionNotSuspended, UDECX_USB_DEVICE_FUNCTION_POWER enumeration [Buses], PUDECX_USB_DEVICE_FUNCTION_POWER enumeration pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _UDECX_USB_DEVICE_FUNCTION_POWER {
 
 
 
-#### - UdecxUsbDeviceFunctionNotSuspended
+### -field UdecxUsbDeviceFunctionNotSuspended
 
 The USB interface cannot enter function suspend. 
 
 
-#### - UdecxUsbDeviceFunctionSuspendedCannotWake
+### -field UdecxUsbDeviceFunctionSuspendedCannotWake
 
 The USB interface cannot send a wake signal to the host controller.
 
 
-#### - UdecxUsbDeviceFunctionSuspendedCanWake
+### -field UdecxUsbDeviceFunctionSuspendedCanWake
 
 The USB interface can send a wake signal to the host controller when the function is in suspend state.
 

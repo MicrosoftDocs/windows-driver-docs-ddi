@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 822819CE-DF40-4AFD-966A-DA5C433646D7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, display.d3dwddm1_3ddi_d3d11_options_data1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices]
+ms.keywords: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices], display.d3dwddm1_3ddi_d3d11_options_data1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 {
 
 
 
-#### - TiledResourcesSupportFlags
+### -field TiledResourcesSupportFlags
 
 A value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tiled_resources_support_flag.md">D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG</a> enumeration that indicates the level of support  for tiled resources.
 

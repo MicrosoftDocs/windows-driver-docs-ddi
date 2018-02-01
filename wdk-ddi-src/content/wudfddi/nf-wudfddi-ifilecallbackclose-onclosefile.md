@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ca3bd7af-b270-497e-a90a-6d79ce66d968
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnCloseFile method, OnCloseFile, wdf.ifilecallbackclose_onclosefile, umdf.ifilecallbackclose_onclosefile, OnCloseFile method, IFileCallbackClose interface, IFileCallbackClose, IFileCallbackClose interface, OnCloseFile method, wudfddi/IFileCallbackClose::OnCloseFile, IFileCallbackClose::OnCloseFile, UMDFFileObjectRef_8aa60206-80e0-4c49-b2fd-c79f5e703c18.xml
+ms.keywords: IFileCallbackClose::OnCloseFile, OnCloseFile method, IFileCallbackClose interface, OnCloseFile method, wdf.ifilecallbackclose_onclosefile, IFileCallbackClose interface, OnCloseFile method, UMDFFileObjectRef_8aa60206-80e0-4c49-b2fd-c79f5e703c18.xml, IFileCallbackClose, OnCloseFile, umdf.ifilecallbackclose_onclosefile, wudfddi/IFileCallbackClose::OnCloseFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void OnCloseFile(
 
 
 
-#### - pWdfFileObject [in]
+### -param pWdfFileObject [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is associated with the device. 
 
@@ -95,9 +95,9 @@ For information about when the framework calls <b>OnCloseFile</b>, see <a href="
 
 <a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
  
 

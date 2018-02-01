@@ -94,11 +94,6 @@ HRESULT APIENTRY* PFND3D12DDI_CREATE_PIPELINE_STATE_0033(
 The hardware device being processed.
 
 
-#### - d3d12ddiarg_create_pipeline_state_0033 [in]
-
-The arguments used to create a pipeline state.
-
-
 #### - d3d12ddi_hpipelinestate
 
 Used to create a pipeline state.
@@ -107,6 +102,11 @@ Used to create a pipeline state.
 #### - d3d12ddi_hrtpipelinestate
 
 Used to create a pipeline state.
+
+
+#### - d3d12ddiarg_create_pipeline_state_0033 [in]
+
+The arguments used to create a pipeline state.
 
 
 ## -returns

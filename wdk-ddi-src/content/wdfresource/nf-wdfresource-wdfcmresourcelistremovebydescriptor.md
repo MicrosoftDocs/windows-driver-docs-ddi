@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 532b56c9-6c24-4737-b1d6-e44802a898e3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcmresourcelistremovebydescriptor, wdf.wdfcmresourcelistremovebydescriptor, PFN_WDFCMRESOURCELISTREMOVEBYDESCRIPTOR, wdfresource/WdfCmResourceListRemoveByDescriptor, WdfCmResourceListRemoveByDescriptor, DFResourceObjectRef_14bc7eb5-5cf4-49ae-83da-144ba0c9adea.xml, WdfCmResourceListRemoveByDescriptor method
+ms.keywords: DFResourceObjectRef_14bc7eb5-5cf4-49ae-83da-144ba0c9adea.xml, kmdf.wdfcmresourcelistremovebydescriptor, WdfCmResourceListRemoveByDescriptor, PFN_WDFCMRESOURCELISTREMOVEBYDESCRIPTOR, WdfCmResourceListRemoveByDescriptor method, wdfresource/WdfCmResourceListRemoveByDescriptor, wdf.wdfcmresourcelistremovebydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfCmResourceListRemoveByDescriptor(
 
 
 
-#### - List [in]
+### -param List [in]
 
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-#### - Descriptor [in]
+### -param Descriptor [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
@@ -106,9 +106,9 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistremove.md">WdfCmResourceListRemove</a>
-
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistremove.md">WdfCmResourceListRemove</a>
 
  
 

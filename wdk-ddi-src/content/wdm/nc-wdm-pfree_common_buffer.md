@@ -75,27 +75,27 @@ VOID FreeCommonBuffer(
 
 
 
-#### - DmaAdapter [in]
+### -param DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the number of bytes to deallocate.
 
 
-#### - LogicalAddress [in]
+### -param LogicalAddress [in]
 
 Specifies the logical address of the allocated memory range.
 
 
-#### - VirtualAddress [in]
+### -param VirtualAddress [in]
 
 Pointer to the corresponding virtual address of the allocated memory range.
 
 
-#### - CacheEnabled [in]
+### -param CacheEnabled [in]
 
 Indicates whether the allocated memory is cached.
 
@@ -121,13 +121,13 @@ To release a common buffer, a driver calls <b>FreeCommonBuffer</b> to unmap both
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
  
 

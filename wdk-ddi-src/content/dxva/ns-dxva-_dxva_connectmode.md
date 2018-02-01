@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84520745-c99d-4495-a7c4-514d5e6cd27e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_ConnectMode, _DXVA_ConnectMode, *LPDXVA_ConnectMode, dxva/DXVA_ConnectMode, dxva/LPDXVA_ConnectMode, display.dxva_connectmode, LPDXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml, LPDXVA_ConnectMode structure pointer [Display Devices], DXVA_ConnectMode structure [Display Devices]
+ms.keywords: LPDXVA_ConnectMode structure pointer [Display Devices], LPDXVA_ConnectMode, dxva/DXVA_ConnectMode, DXVA_ConnectMode, *LPDXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], _DXVA_ConnectMode, display.dxva_connectmode, dxva/LPDXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXVA_ConnectMode {
 
 
 
-#### - guidMode
+### -field guidMode
 
 Specifies the GUID associated with the <a href="https://msdn.microsoft.com/043d5867-d761-47eb-99de-5022a9ee6e7f">restricted profile</a> to be used. 
 
 
-#### - wRestrictedMode
+### -field wRestrictedMode
 
 Specifies the numeric identifier of the restricted profile to be used. 
 

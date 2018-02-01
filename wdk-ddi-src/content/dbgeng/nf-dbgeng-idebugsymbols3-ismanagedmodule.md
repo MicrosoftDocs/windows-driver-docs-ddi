@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AECBA6E8-B030-4418-A561-9E48B4880D15
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, debugger.idebugsymbols3_ismanagedmodule, IDebugSymbols3::IsManagedModule, dbgeng/IDebugSymbols3::IsManagedModule, IsManagedModule, IDebugSymbols3, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, IsManagedModule method [Windows Debugging]
+ms.keywords: dbgeng/IDebugSymbols3::IsManagedModule, IDebugSymbols3::IsManagedModule, debugger.idebugsymbols3_ismanagedmodule, IsManagedModule, IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, IDebugSymbols3, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, IsManagedModule method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT IsManagedModule(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 The index of a module.
 
 
-#### - Base [in]
+### -param Base [in]
 
 The base of the module.
 

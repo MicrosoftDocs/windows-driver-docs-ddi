@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], DXGKARG_COLLECTDBGINFO_EXT, DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, display.dxgkarg_collectdbginfo_ext, _DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT
+ms.keywords: "_DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, DXGKARG_COLLECTDBGINFO_EXT, display.dxgkarg_collectdbginfo_ext, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,51 +74,51 @@ typedef struct _DXGKARG_COLLECTDBGINFO_EXT {
 
 
 
-#### - BucketingKey
+### -field BucketingKey
 
 [out] The optional integer key for Microsoft Online Crash Analysis (OCA) bucketing (that is, the categorizing of minidumps). 
 
 
-#### - CurrentDmaBufferOffset
+### -field CurrentDmaBufferOffset
 
 [out] The optional execution offset into the current DMA buffer. The operating system uses the offset to optimize DMA data collection.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved for future use.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved for future use.
 
 
-#### - Reserved4
+### -field Reserved4
 
 Reserved for future use.
 
 
-#### - Reserved5
+### -field Reserved5
 
 Reserved for future use.
 
 
-#### - Reserved6
+### -field Reserved6
 
 Reserved for future use.
 
 
-#### - Reserved7
+### -field Reserved7
 
 Reserved for future use.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
 
  
 

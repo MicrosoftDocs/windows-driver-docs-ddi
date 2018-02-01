@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CREATE_DISK structure [Storage Devices], CREATE_DISK, PCREATE_DISK, _CREATE_DISK, ntdddisk/CREATE_DISK, ntdddisk/PCREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, PCREATE_DISK structure pointer [Storage Devices], storage.create_disk, *PCREATE_DISK
+ms.keywords: CREATE_DISK structure [Storage Devices], structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, ntdddisk/CREATE_DISK, PCREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], CREATE_DISK, *PCREATE_DISK, ntdddisk/PCREATE_DISK, storage.create_disk, _CREATE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,38 +78,28 @@ typedef struct _CREATE_DISK {
 
 ### -field DUMMYUNIONNAME.Mbr
 
- 
+Contains the signature used to initialize an MBR-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>.
 
 
 ### -field DUMMYUNIONNAME.Gpt
 
- 
+Contains data used to initialize a GPT-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>. 
 
 
-#### - PartitionStyle
+### -field PartitionStyle
 
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table to use when formatting the disk.
 
 
-#### - Mbr
-
-Contains the signature used to initialize an MBR-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>.
-
-
-#### - Gpt
-
-Contains data used to initialize a GPT-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>. 
-
-
 ## -see-also
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
 
  
 

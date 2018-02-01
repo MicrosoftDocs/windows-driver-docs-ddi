@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d5c6d7d2-fe14-49d5-9e81-3a425a4cf1b3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchCopyW, ntstrsafe/RtlStringCchCopyA, safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml, ntstrsafe/RtlStringCchCopyW, RtlStringCchCopy, RtlStringCchCopyA, kernel.rtlstringcchcopy, RtlStringCchCopyW function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlStringCchCopyW, ntstrsafe/RtlStringCchCopyW, RtlStringCchCopy, kernel.rtlstringcchcopy, safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml, RtlStringCchCopyA, RtlStringCchCopyW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCopyA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS RtlStringCchCopyW(
 
 
 
-#### - pszDest [out]
+### -param pszDest [out]
 
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character.
 
 
-#### - cchDest [in]
+### -param cchDest [in]
 
 The size, in characters, of the destination buffer. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. 
 
 
-#### - pszSrc [in]
+### -param pszSrc [in]
 
 A pointer to a caller-supplied, null-terminated string.
 

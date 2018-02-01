@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 29ccd7e6-60eb-4a8e-9a71-9fbed4b2bdcf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni::DrvGetDriverSetting, IPrintOemDriverUni interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting, print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni interface, print.iprintoemdriveruni_drvgetdriversetting, DrvGetDriverSetting method [Print Devices]
+ms.keywords: DrvGetDriverSetting method [Print Devices], print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml, IPrintOemDriverUni interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUni::DrvGetDriverSetting, DrvGetDriverSetting, print.iprintoemdriveruni_drvgetdriversetting, IPrintOemDriverUni, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT DrvGetDriverSetting(
 
 
 
-#### - pdriverobj
+### -param pdriverobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - Feature
+### -param Feature
 
 Caller supplied value identifying the printer feature for which option settings will be returned. This can be either a string pointer or a constant, as described in the following Remarks section.
 
 
-#### - pOutput
+### -param pOutput
 
 Caller-supplied pointer to a buffer to receive the specified information.
 
 
-#### - cbSize
+### -param cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutput</i>.
 
 
-#### - pcbNeeded
+### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the minimum buffer size required to contain the requested information.
 
 
-#### - pdwOptionsReturned
+### -param pdwOptionsReturned
 
 Caller-supplied pointer to a location to receive the number of option strings placed in <i>pOutput</i>.
 

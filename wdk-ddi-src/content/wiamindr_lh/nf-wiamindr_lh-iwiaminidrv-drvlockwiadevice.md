@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 674e0a65-1763-41b0-896b-2ef9debc32a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, image.iwiaminidrv_drvlockwiadevice, drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, drvLockWiaDevice method [Imaging Devices], MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice, image.iwiaminidrv_drvlockwiadevice, drvLockWiaDevice method [Imaging Devices], drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,14 +86,14 @@ HRESULT drvLockWiaDevice(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is currently unused. 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]

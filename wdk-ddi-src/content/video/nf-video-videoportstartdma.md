@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb78e871-6177-4141-b713-25a39c928701
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, VideoPortStartDma function [Display Devices], video/VideoPortStartDma, VideoPortStartDma
+ms.keywords: VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, VideoPortStartDma function [Display Devices], VideoPortStartDma, video/VideoPortStartDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ VP_STATUS VideoPortStartDma(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - VpDmaAdapter [in]
+### -param VpDmaAdapter [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure is returned from a call to <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>.
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> that describes the buffer. This pointer is returned from a call to the video port driver's <a href="..\video\nf-video-videoportlockbuffer.md">VideoPortLockBuffer</a> function.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the byte offset in the buffer at which the DMA operation begins. The <i>Mdl</i> parameter describes this buffer.
 
 
-#### - pLength [in, out]
+### -param pLength [in, out]
 
 Pointer to a variable that specifies the requested transfer size, in bytes, and that will receive the actual size to be transferred. The variable will be updated when either of the following events occurs: <b>VideoPortStartDma</b> returns or <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a> is called. It is therefore safe to read this variable from within <i>HwVidExecuteDma</i> even before <b>VideoPortStartDma</b> returns.
 
 
-#### - ExecuteDmaRoutine [in]
+### -param ExecuteDmaRoutine [in]
 
 Pointer to a miniport driver-supplied <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a> callback routine. <b>VideoPortStartDma</b> calls this routine to program the hardware registers and start the actual DMA operation.
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to the driver-determined context to be passed to the miniport driver's <i>HwVidExecuteDma</i> callback routine. Since the <i>HwVidExecuteDma</i> callback routine runs at DISPATCH_LEVEL, the data that <i>Context</i> points to should be in nonpaged memory.
 
 
-#### - WriteToDevice [in]
+### -param WriteToDevice [in]
 
 Specifies the direction of the DMA transfer. A value of <b>TRUE</b> denotes a transfer from the buffer to the device, and a value of <b>FALSE</b> denotes a transfer from the device to the buffer.
 
@@ -173,13 +173,13 @@ Calls the video miniport driver's <a href="..\video\nc-video-pexecute_dma.md">Hw
 
 ## -see-also
 
-<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
-
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
+<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 
-<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
+<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
+
+<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
 
  
 

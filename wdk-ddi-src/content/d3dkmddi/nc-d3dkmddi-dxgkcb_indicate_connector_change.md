@@ -67,7 +67,7 @@ NTSTATUS APIENTRY *DXGKCB_INDICATE_CONNECTOR_CHANGE(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 A handle that identifies the adapter.
 

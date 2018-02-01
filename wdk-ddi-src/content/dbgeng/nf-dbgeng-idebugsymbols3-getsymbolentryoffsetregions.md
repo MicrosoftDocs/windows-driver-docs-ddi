@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 986774F6-5256-4703-990A-EAB4AB09AF55
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method
+ms.keywords: GetSymbolEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, IDebugSymbols3::GetSymbolEntryOffsetRegions, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, debugger.idebugsymbols3_getsymbolentryoffsetregions, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT GetSymbolEntryOffsetRegions(
 
 
 
-#### - Id [in]
+### -param Id [in]
 
 The ID of a module as a pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure. 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bit-set that contains options that affect the behavior of this method. 
 
 
-#### - Regions [out]
+### -param Regions [out]
 
 The memory regions associated with the symbol. 
 
 
-#### - RegionsCount [in]
+### -param RegionsCount [in]
 
 The number of regions associated with the symbol.
 
 
-#### - RegionsAvail [out, optional]
+### -param RegionsAvail [out, optional]
 
 A pointer to the number of regions available to the symbol. 
 
@@ -113,9 +113,9 @@ The quality of information returned is highly
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92">IDebugSymbols3::GetSourceEntryOffsetRegions</a>
-
 <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
+
+<a href="https://msdn.microsoft.com/A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92">IDebugSymbols3::GetSourceEntryOffsetRegions</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

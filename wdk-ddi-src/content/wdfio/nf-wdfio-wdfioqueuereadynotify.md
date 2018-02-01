@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d48dce1-252f-4dc2-85a8-6c25e99ce0ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, WdfIoQueueReadyNotify method, wdfio/WdfIoQueueReadyNotify, kmdf.wdfioqueuereadynotify, WdfIoQueueReadyNotify, PFN_WDFIOQUEUEREADYNOTIFY, wdf.wdfioqueuereadynotify
+ms.keywords: wdfio/WdfIoQueueReadyNotify, DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, kmdf.wdfioqueuereadynotify, WdfIoQueueReadyNotify, WdfIoQueueReadyNotify method, PFN_WDFIOQUEUEREADYNOTIFY, wdf.wdfioqueuereadynotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfIoQueueReadyNotify(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 
 
-#### - QueueReady [in, optional]
+### -param QueueReady [in, optional]
 
 A pointer to a driver-supplied <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function, if the driver is registering for ready notification, or <b>NULL</b> if the driver is deregistering. 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function, if the driver is registering for ready notification, or <b>NULL</b> if the driver is deregistering. 
 
@@ -166,11 +166,11 @@ For more information about the <b>WdfIoQueueReadyNotify</b> method, see <a href=
 
 ## -see-also
 
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
 <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
-
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
 

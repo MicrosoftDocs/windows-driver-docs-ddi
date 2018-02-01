@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6182898d-d7c0-4ff2-b222-d83bd00cd1ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorSetupHardwareCursor method [Display Devices], iddcx/IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor, display.iddcxmonitorsetuphardwarecursor
+ms.keywords: IddCxMonitorSetupHardwareCursor method [Display Devices], iddcx/IddCxMonitorSetupHardwareCursor, display.iddcxmonitorsetuphardwarecursor, IddCxMonitorSetupHardwareCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS IddCxMonitorSetupHardwareCursor(
 
 
 
-#### - MonitorObject [in]
+### -param MonitorObject [in]
 
 The handle the OS provided to identify the monitor
 
 
-#### - pInArgs [in]
+### -param pInArgs [in]
 
 Input arguments of function
 

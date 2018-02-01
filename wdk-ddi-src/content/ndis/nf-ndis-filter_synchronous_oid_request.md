@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AC84B27B-6FBF-429D-A8FA-F3C8F583F738
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], netvista.filter_synchronous_oid_request, FILTER_SYNCHRONOUS_OID_REQUEST, ndis/FilterSynchronousOidRequest, FilterSynchronousOidRequest
+ms.keywords: FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], FilterSynchronousOidRequest, netvista.filter_synchronous_oid_request, FILTER_SYNCHRONOUS_OID_REQUEST, ndis/FilterSynchronousOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NDIS_STATUS FilterSynchronousOidRequest(
 
 
 
-#### - FilterModuleContext
+### -param FilterModuleContext
 
 Reserved.
 
 
-#### - OidRequest [in, out]
+### -param OidRequest [in, out]
 
 Reserved.
 
 
-#### - CallContext [out]
+### -param CallContext [out]
 
 Reserved.
 

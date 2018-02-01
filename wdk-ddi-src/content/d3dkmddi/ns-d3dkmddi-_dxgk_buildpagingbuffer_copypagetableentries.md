@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 627FB3E6-3C5D-4104-B129-08D3EC0B963E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, display.dxgk_buildpagingbuffer_copypagetableentries, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices]"
+ms.keywords: "_DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices], DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, display.dxgk_buildpagingbuffer_copypagetableentries, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES {
 
 
 
-#### - NumRanges
+### -field NumRanges
 
 The number of elements in the <b>pRanges</b> array.
 
 
-#### - pRanges
+### -field pRanges
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range.md">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a> structure describing each range of page table entries to copy.
 

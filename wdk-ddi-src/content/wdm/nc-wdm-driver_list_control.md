@@ -74,22 +74,22 @@ VOID AdapterListControl(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Caller-supplied pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that describes the I/O operation, if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine. Otherwise, not used.
 
 
-#### - ScatterGather [in]
+### -param ScatterGather [in]
 
 Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure describing scatter/gather regions.
 
 
-#### - Context [in]
+### -param Context [in]
 
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>. 
 

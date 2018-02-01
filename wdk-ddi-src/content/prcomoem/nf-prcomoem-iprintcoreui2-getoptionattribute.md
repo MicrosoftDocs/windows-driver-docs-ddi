@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cf5420fb-3414-47a7-a53d-3d109589b64d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml, print.iprintcoreui2_getoptionattribute, IPrintCoreUI2, GetOptionAttribute method [Print Devices], GetOptionAttribute, IPrintCoreUI2 interface [Print Devices], GetOptionAttribute method, prcomoem/IPrintCoreUI2::GetOptionAttribute, GetOptionAttribute method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::GetOptionAttribute
+ms.keywords: prcomoem/IPrintCoreUI2::GetOptionAttribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml, IPrintCoreUI2::GetOptionAttribute, GetOptionAttribute, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptionAttribute method, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCoreUI2 interface, print.iprintcoreui2_getoptionattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,47 +76,47 @@ HRESULT GetOptionAttribute(
 
 
 
-#### - poemuiobj [in]
+### -param poemuiobj [in]
 
 Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-#### - pszFeatureKeyword [in]
+### -param pszFeatureKeyword [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single feature keyword to query for. 
 
 
-#### - pszOptionKeyword [in]
+### -param pszOptionKeyword [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single option keyword to query for. This value can be obtained from a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>. 
 
 
-#### - pszAttribute [in]
+### -param pszAttribute [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported attribute names for the option, as opposed to specifying a specific attribute name for the option.
 
 
-#### - pdwDataType [out]
+### -param pdwDataType [out]
 
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration.
 
 
-#### - pbData [out]
+### -param pbData [out]
 
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
@@ -199,11 +199,11 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
+
+<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
 

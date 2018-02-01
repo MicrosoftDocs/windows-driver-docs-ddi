@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 36a0ca45-2601-4b7f-9f2b-35e2a7047520
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], whea.wheafindnexterrorrecordsection, ntddk/WheaFindNextErrorRecordSection, WheaFindNextErrorRecordSection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml
+ms.keywords: WheaFindNextErrorRecordSection, whea.wheafindnexterrorrecordsection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindNextErrorRecordSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,24 +70,24 @@ NTSTATUS WheaFindNextErrorRecordSection(
 
 
 
-#### - Record [in]
+### -param Record [in]
 
 A pointer to a WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a> that is formatted as a <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure.
 
 
-#### - Context [in, out]
+### -param Context [in, out]
 
 A pointer to a ULONG variable that maintains the current state of the search. 
 <div class="alert"><b>Note</b>  This variable must be initialized to zero before the first call to the <b>WheaFindNextErrorRecordSection </b>function<b>.</b></div><div> </div>
 
-#### - SectionDescriptor [out]
+### -param SectionDescriptor [out]
 
 The address of a <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> pointer. 
 
 If the <b>WheaFindNextErrorRecordSection </b>function locates the next WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure within the specified WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>, the function sets the <i>SectionDescriptor </i>parameter to the address of that structure within the specified WHEA error record.
 
 
-#### - SectionData [out, optional]
+### -param SectionData [out, optional]
 
 The address of a PVOID pointer.
 
@@ -154,13 +154,13 @@ The format of the hardware error data depends upon the <b>SectionType </b>member
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
  
 

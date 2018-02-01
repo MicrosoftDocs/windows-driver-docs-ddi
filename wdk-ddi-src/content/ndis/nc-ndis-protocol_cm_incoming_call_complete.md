@@ -53,8 +53,8 @@ The
   <i>ProtocolCmIncomingCallComplete</i> function is required. When NDIS calls this function, 
   <i>ProtocolCmIncomingCallComplete</i> indicates to the call manager that the connection-oriented client has
   finished processing of an incoming call offer that the call manager previously dispatched through 
-  <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
-  NdisCmDispatchIncomingCall</b></mshelp:link>.
+  <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+  NdisCmDispatchIncomingCall</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_INCOMING_CALL_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
@@ -78,20 +78,20 @@ VOID ProtocolCmIncomingCallComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Indicates the final status of the operation to dispatch an incoming call to a connection-oriented
      client.
 
 
-#### - CallMgrVcContext [in]
+### -param CallMgrVcContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle from its 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - CallParameters [in]
+### -param CallParameters [in]
 
 Pointer to the call parameters as specified by the call manager in the call to 
      <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>.
@@ -157,11 +157,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
  
 

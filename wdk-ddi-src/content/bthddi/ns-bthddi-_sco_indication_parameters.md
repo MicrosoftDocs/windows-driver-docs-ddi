@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2d3ae219-8a40-476c-b8eb-94f4c0566527
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], *PSCO_INDICATION_PARAMETERS, _SCO_INDICATION_PARAMETERS, bthddi/SCO_INDICATION_PARAMETERS, bltooth.sco_indication_parameters, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, bthddi/PSCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices]
+ms.keywords: "_SCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], PSCO_INDICATION_PARAMETERS, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, bthddi/SCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], bthddi/PSCO_INDICATION_PARAMETERS, bltooth.sco_indication_parameters, SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,24 +80,12 @@ typedef struct _SCO_INDICATION_PARAMETERS {
 
 
 
-#### - Parameters
+### -field Parameters
 
 
 
 #### 
 
-
-
-#### Connect
-
-The structure that contains parameters for the 
-      <b>ScoIndicationRemoteConnectSCO_INDICATION_CODE</b> event.
-
-
-#### Disconnect
-
-The structure that contains parameters for the 
-      <b>ScoIndicationRemoteDisconnectSCO_INDICATION_CODE</b> event.
 
 
 ### -field Parameters.Connect
@@ -106,21 +94,9 @@ The structure that contains parameters for the
       <b>ScoIndicationRemoteConnectSCO_INDICATION_CODE</b> event.
 
 
-#### Connect.Request
-
-The structure that contains the parameters for the SCO connection request.
-
-
 ### -field Parameters.Connect.Request
 
 The structure that contains the parameters for the SCO connection request.
-
-
-#### Connect.Request.LinkType
-
-A value from the 
-        <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> enumeration that indicates the
-        type of incoming connection.
 
 
 ### -field Parameters.Connect.Request.LinkType
@@ -134,20 +110,6 @@ A value from the
 
 The structure that contains parameters for the 
       <b>ScoIndicationRemoteDisconnectSCO_INDICATION_CODE</b> event.
-
-
-#### Disconnect.Reason
-
-A 
-       <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a> value that
-       indicates why the SCO connection was terminated.
-
-
-#### Disconnect.CloseNow
-
-A Boolean value that a profile driver can set to indicate whether the SCO connection to the
-       remote device will be closed. If the connection is to be closed, the value is <b>TRUE</b>. Otherwise, the
-       value is <b>FALSE</b>.
 
 
 ### -field Parameters.Disconnect.Reason
@@ -164,13 +126,13 @@ A Boolean value that a profile driver can set to indicate whether the SCO connec
        value is <b>FALSE</b>.
 
 
-#### - ConnectionHandle
+### -field ConnectionHandle
 
 A connection handle to the remote device. This handle is only valid for notifications that arrive
      over an established SCO connection.
 
 
-#### - BtAddress
+### -field BtAddress
 
 The Bluetooth address of the remote device.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B073D354-14FB-477E-BBD7-8BD282696EF4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetGfxState method, IMiniportAudioEngineNode::SetGfxState, IMiniportAudioEngineNode, SetGfxState, portcls/IMiniportAudioEngineNode::SetGfxState, SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setgfxstate
+ms.keywords: SetGfxState, IMiniportAudioEngineNode interface [Audio Devices], SetGfxState method, portcls/IMiniportAudioEngineNode::SetGfxState, SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::SetGfxState, audio.iminiportaudioenginenode_setgfxstate, IMiniportAudioEngineNode, SetGfxState method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ NTSTATUS SetGfxState(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID of the GFX node.
 
 
-#### - bEnable [in]
+### -param bEnable [in]
 
 The state of the GFX node.
 

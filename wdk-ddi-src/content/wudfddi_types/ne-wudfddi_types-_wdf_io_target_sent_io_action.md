@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9cdcf964-9f2d-437f-8693-de5bb4bb9895
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoMaximum, WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoUndefined, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetSentIoUndefined, WdfIoTargetCancelSentIo, WdfIoTargetWaitForSentIoToComplete, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WdfIoTargetSentIoMaximum, WDF_IO_TARGET_SENT_IO_ACTION enumeration, WdfIoTargetLeaveSentIoPending, umdf.wdf_io_target_sent_io_action__umdf_, wdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WdfIoTargetCancelSentIo, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml"
+ms.keywords: wudfddi_types/WdfIoTargetSentIoMaximum, WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, WdfIoTargetSentIoUndefined, WdfIoTargetSentIoMaximum, WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WdfIoTargetSentIoUndefined, wdf.wdf_io_target_sent_io_action__umdf_, WdfIoTargetLeaveSentIoPending, _WDF_IO_TARGET_SENT_IO_ACTION, umdf.wdf_io_target_sent_io_action__umdf_, WdfIoTargetWaitForSentIoToComplete, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, WDF_IO_TARGET_SENT_IO_ACTION enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,27 +75,27 @@ typedef enum _WDF_IO_TARGET_SENT_IO_ACTION {
 
 
 
-#### - WdfIoTargetSentIoUndefined
+### -field WdfIoTargetSentIoUndefined
 
 Reservied for system use.
 
 
-#### - WdfIoTargetCancelSentIo
+### -field WdfIoTargetCancelSentIo
 
 Before the framework stops the I/O target, it will attempt to cancel I/O requests that are in the I/O target's queue. The framework cancels all of the target queue's I/O requests before <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> returns.
 
 
-#### - WdfIoTargetWaitForSentIoToComplete
+### -field WdfIoTargetWaitForSentIoToComplete
 
 Before the framework stops the I/O target, it will wait for I/O requests that are in the I/O target's queue to be completed. The framework completes all of the target queue's I/O requests, and calls each request's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> callback function, before <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> returns.
 
 
-#### - WdfIoTargetLeaveSentIoPending
+### -field WdfIoTargetLeaveSentIoPending
 
 The framework will leave I/O requests in the I/O target's queue. The requests remain in the target's queue until the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560280">IWDFRemoteTarget::Start</a> or the device is removed.
 
 
-#### - WdfIoTargetSentIoMaximum
+### -field WdfIoTargetSentIoMaximum
 
 Valid enumeration values were exceeded.
 

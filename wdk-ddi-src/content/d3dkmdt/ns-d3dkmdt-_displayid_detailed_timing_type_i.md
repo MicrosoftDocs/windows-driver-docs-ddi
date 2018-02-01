@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.displayid_detailed_timing_type_i, DISPLAYID_DETAILED_TIMING_TYPE_I, _DISPLAYID_DETAILED_TIMING_TYPE_I, DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I
+ms.keywords: d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, display.displayid_detailed_timing_type_i, _DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,84 +88,84 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 
 
 
-#### - PixelClock
+### -field PixelClock
 
 [in] The display pixel clock rate, in units of 10 KHz. Clock rate must be between 1 MHz and 10 GHz, inclusive.
 
 
-#### - AspectRatio
+### -field AspectRatio
 
 [in] The display aspect ratio, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
 
 
-#### - Reserved
+### -field Reserved
 
 [in] Reserved for system use.
 
 
-#### - ScanningType
+### -field ScanningType
 
 [in] The frame scanning type. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
 
 
-#### - StereoMode
+### -field StereoMode
 
 [in] The display stereo vision mode. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
 
 
-#### - PreferredTiming
+### -field PreferredTiming
 
 
        [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
       
 
 
-#### - HorizontalFrontPorch
+### -field HorizontalFrontPorch
 
 [in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
 
 
-#### - HorizontalSyncPolarity
+### -field HorizontalSyncPolarity
 
 [in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
 
-#### - VerticalFrontPorch
+### -field VerticalFrontPorch
 
 [in] The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
 
 
-#### - VerticalSyncPolarity
+### -field VerticalSyncPolarity
 
 [in] The vertical sync polarity. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
 
-#### - HorizontalActivePixels
+### -field HorizontalActivePixels
 
 [in] The number of active pixels in the horizontal direction.
 
 
-#### - HorizontalBlankPixels
+### -field HorizontalBlankPixels
 
 [in] The number of blank pixels in the horizontal direction.
 
 
-#### - HorizontalSyncWidth
+### -field HorizontalSyncWidth
 
 [in] The horizontal sync interval, in pixels.
 
 
-#### - VerticalActiveLines
+### -field VerticalActiveLines
 
 [in] The number of active scan lines.
 
 
-#### - VerticalBlankLines
+### -field VerticalBlankLines
 
 [in] The number of blank scan lines.
 
 
-#### - VerticalSyncWidth
+### -field VerticalSyncWidth
 
 [in] The vertical sync interval, in number of lines.
 
@@ -183,13 +183,13 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
 
  
 

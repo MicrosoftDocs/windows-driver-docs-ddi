@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0B3B53F8-2D1E-430B-9C51-E35465899811
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_coordinated_idle_state, pepfx/PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE, _PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_COORDINATED_IDLE_STATE
+ms.keywords: kernel.pep_coordinated_idle_state, *PPEP_COORDINATED_IDLE_STATE, pepfx/PEP_COORDINATED_IDLE_STATE, _PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, pepfx/PPEP_COORDINATED_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _PEP_COORDINATED_IDLE_STATE {
 
 
 
-#### - Latency
+### -field Latency
 
 The latency of waking from this idle state, in 100ns units.
 
 
-#### - BreakEvenDuration
+### -field BreakEvenDuration
 
 Supplies the minimum time the state must be entered to amortize the cost of entering/exiting the state. Idle durations longer than this period should save power when compared to entering a lighter state for the same period.
 
 
-#### - DependencyCount
+### -field DependencyCount
 
 Supplies the number of dependencies this coordinated state has on other coordinated states or on processors.
 
 
-#### - MaximumDependencySize
+### -field MaximumDependencySize
 
 Supplies the maximum size of a single dependency.
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE structure</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186776">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE structure</a>
 
  
 

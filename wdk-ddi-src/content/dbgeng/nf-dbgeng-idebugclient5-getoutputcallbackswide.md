@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b93f756b-50b1-450f-8d70-5d1633b61fcf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getoutputcallbackswide, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetOutputCallbacksWide, IDebugClient5, dbgeng/IDebugClient5::GetOutputCallbacksWide, GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method
+ms.keywords: GetOutputCallbacksWide method [Windows Debugging], dbgeng/IDebugClient5::GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method, IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide, GetOutputCallbacksWide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetOutputCallbacksWide(
 
 
 
-#### - Callbacks [out]
+### -param Callbacks [out]
 
 Receives an interface pointer to the <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> object registered with the client.
 

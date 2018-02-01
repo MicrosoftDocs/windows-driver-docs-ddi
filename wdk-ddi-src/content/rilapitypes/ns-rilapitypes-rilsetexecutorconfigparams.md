@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8dcfd30-e7fc-45ab-b407-a0719f624c8e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILSETEXECUTORCONFIGPARAMS, netvista.rilsetexecutorconfigparams_2, RILSETEXECUTORCONFIGPARAMS, rilapitypes/RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSETEXECUTORCONFIGPARAMS, *LPRILSETEXECUTORCONFIGPARAMS, netvista.rilsetexecutorconfigparams_2, RILSETEXECUTORCONFIGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILSETEXECUTORCONFIGPARAMS {
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - rilExecutorConfig
+### -field rilExecutorConfig
 
 

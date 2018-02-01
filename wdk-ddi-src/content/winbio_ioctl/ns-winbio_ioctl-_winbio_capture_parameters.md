@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 60f35000-c62d-4d1b-8592-862c2d74b7a2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PWINBIO_CAPTURE_PARAMETERS, biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, PWINBIO_CAPTURE_PARAMETERS, _WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], biometric.winbio_capture_parameters, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], winbio_ioctl/WINBIO_CAPTURE_PARAMETERS"
+ms.keywords: biometric.winbio_capture_parameters, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], PWINBIO_CAPTURE_PARAMETERS, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, *PWINBIO_CAPTURE_PARAMETERS, _WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _WINBIO_CAPTURE_PARAMETERS {
 
 
 
-#### - PayloadSize
+### -field PayloadSize
 
 The total size of the payload.
 
 
-#### - Purpose
+### -field Purpose
 
 A WINBIO_BIR_PURPOSE purpose, that specifies how captured data is to be used, and as a result, how it should be optimized.  Some sensors will go into a different mode depending on the reason for the data capture.
 
@@ -99,17 +99,17 @@ The following code example shows the possible bitmask values for WINBIO_BIR_PURP
 </tr>
 </table></span></div>
 
-#### - Format
+### -field Format
 
 Specifies the <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> format of the data to be returned.
 
 
-#### - VendorFormat
+### -field VendorFormat
 
 An optional WINBIO_UUID vendor GUID.  This indicates the preferred format of the vendor-specific data in the BIR.
 
 
-#### - Flags
+### -field Flags
 
 Specifies the WINBIO_BIR_DATA_FLAGS level of processing and other attributes for the data to be returned.  If format owner and type are the Windows standard, this must be WINBIO_DATA_FLAG_RAW.
 

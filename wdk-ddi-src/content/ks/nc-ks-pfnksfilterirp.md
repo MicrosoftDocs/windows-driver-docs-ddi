@@ -79,12 +79,12 @@ NTSTATUS MyAVStrMiniFilterIRPHandler(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the IRP for <i>Filter</i>.
 
@@ -143,9 +143,9 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
-
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
+
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 

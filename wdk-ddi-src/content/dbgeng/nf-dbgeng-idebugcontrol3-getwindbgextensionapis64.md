@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 01b34b26-2835-4a58-abf3-190da63d25eb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl interface, IDebugControl3, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis64 method, GetWindbgExtensionApis64, dbgeng/IDebugControl3::GetWindbgExtensionApis64, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis64 method, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetWindbgExtensionApis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, dbgeng/IDebugControl2::GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], debugger.getwindbgextensionapis64, IDebugControl::GetWindbgExtensionApis64, IDebugControl3::GetWindbgExtensionApis64
+ms.keywords: IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis64 method, debugger.getwindbgextensionapis64, GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl::GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl3, dbgeng/IDebugControl::GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl3 interface, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, dbgeng/IDebugControl3::GetWindbgExtensionApis64, dbgeng/IDebugControl2::GetWindbgExtensionApis64, IDebugControl3::GetWindbgExtensionApis64, IDebugControl2::GetWindbgExtensionApis64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetWindbgExtensionApis64(
 
 
 
-#### - Api [in, out]
+### -param Api [in, out]
 
 Receives a WINDBG_EXTENSION_APIS64 structure.  This structure contains the functions used by the WdbgExts API.  The <b>nSize</b> member of this structure must be set to the size of the structure before it is passed to this method.
 

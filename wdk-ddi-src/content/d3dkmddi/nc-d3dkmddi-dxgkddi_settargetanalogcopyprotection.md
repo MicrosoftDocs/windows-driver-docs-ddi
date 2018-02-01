@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_SETTARGETANALOGCOPYPROTECTION(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 Identifies the adapter.
 
 
-#### - pSetTargetAnalogCopyProtectionArg [in]
+### -param pSetTargetAnalogCopyProtectionArg [in]
 
 A pointer to a DXGKARG_SETTARGETANALOGCOPYPROTECTION structure that provides the target id and the analog content protection parameters being requested.
 

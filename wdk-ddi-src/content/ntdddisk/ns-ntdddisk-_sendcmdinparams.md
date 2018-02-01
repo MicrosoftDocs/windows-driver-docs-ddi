@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4c02da7e-2d93-4e0c-9666-acb380c6d39a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SENDCMDINPARAMS structure [Storage Devices], ntdddisk/LPSENDCMDINPARAMS, storage.sendcmdinparams, PSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml, *LPSENDCMDINPARAMS, PSENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], _SENDCMDINPARAMS, LPSENDCMDINPARAMS, ntdddisk/SENDCMDINPARAMS, *PSENDCMDINPARAMS
+ms.keywords: structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml, storage.sendcmdinparams, ntdddisk/SENDCMDINPARAMS, *LPSENDCMDINPARAMS, *PSENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], PSENDCMDINPARAMS, _SENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices], LPSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, LPSENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _SENDCMDINPARAMS {
 
 
 
-#### - cBufferSize
+### -field cBufferSize
 
 Contains the buffer size, in bytes.
 
 
-#### - irDriveRegs
+### -field irDriveRegs
 
 Contains a <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a> structure used to report the contents of the IDE controller registers.
 
 
-#### - bDriveNumber
+### -field bDriveNumber
 
 The <b>bDriveNumber</b> member is opaque. Do not use it. The operating system ignores this member, because the physical drive that receives the request depends on the handle that the caller uses when making the request.
 
 
-#### - bReserved
+### -field bReserved
 
 Reserved. 
 
 
-#### - dwReserved
+### -field dwReserved
 
 Reserved. 
 
 
-#### - bBuffer
+### -field bBuffer
 
 Pointer to the input buffer. 
 
@@ -113,11 +113,11 @@ The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
 
  
 

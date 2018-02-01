@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a700979e-aee4-4bce-8f98-b44b864fbb43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsQueueWorkItem, KsQueueWorkItem function [Streaming Media Devices], stream.ksqueueworkitem, KsQueueWorkItem, ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml
+ms.keywords: KsQueueWorkItem, ks/KsQueueWorkItem, ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml, KsQueueWorkItem function [Streaming Media Devices], stream.ksqueueworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsQueueWorkItem(
 
 
 
-#### - Worker [in]
+### -param Worker [in]
 
 Specifies the previously allocated worker.
 
 
-#### - WorkItem [in]
+### -param WorkItem [in]
 
 Specifies the initialized work item to queue. This work item is only associated with the worker as long as the worker is on a queue. The work item must have been initialized by <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>.
 

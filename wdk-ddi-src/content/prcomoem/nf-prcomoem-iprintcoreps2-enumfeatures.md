@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintcoreps2_enumfeatures, IPrintCorePS2, IPrintCorePS2::EnumFeatures, EnumFeatures, EnumFeatures method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml, EnumFeatures method [Print Devices], IPrintCorePS2 interface [Print Devices], EnumFeatures method, prcomoem/IPrintCorePS2::EnumFeatures
+ms.keywords: EnumFeatures method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumFeatures method, IPrintCorePS2::EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml, print.iprintcoreps2_enumfeatures, EnumFeatures, EnumFeatures method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,29 +72,29 @@ HRESULT EnumFeatures(
 
 
 
-#### - pdevobj [in]
+### -param pdevobj [in]
 
 Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-#### - pmszFeatureList [out]
+### -param pmszFeatureList [out]
 
 Pointer to a caller-supplied buffer that receives a null-delimited list of feature keywords in MULTI_SZ format. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the feature list without having the list filled in.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureList</i>.
 
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
@@ -173,9 +173,9 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], ntdddisk/FORMAT_PARAMETERS, storage.format_parameters, PFORMAT_PARAMETERS structure pointer [Storage Devices], FORMAT_PARAMETERS, PFORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, _FORMAT_PARAMETERS"
+ms.keywords: ntdddisk/PFORMAT_PARAMETERS, FORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, storage.format_parameters, *PFORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], _FORMAT_PARAMETERS, PFORMAT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,36 +71,36 @@ typedef struct _FORMAT_PARAMETERS {
 
 
 
-#### - MediaType
+### -field MediaType
 
 Indicates format information, such as the disk size and the number of bytes per sector. For a list of the values that can be assigned to this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>. 
 
 
-#### - StartCylinderNumber
+### -field StartCylinderNumber
 
 Indicates the number of the cylinder where the formatting should begin. 
 
 
-#### - EndCylinderNumber
+### -field EndCylinderNumber
 
 Indicates the number of the cylinder where the formatting should end. 
 
 
-#### - StartHeadNumber
+### -field StartHeadNumber
 
 Indicates the number of the head where the formatting should begin. 
 
 
-#### - EndHeadNumber
+### -field EndHeadNumber
 
 Indicates the number of the head where the formatting should end. 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>
 
  
 

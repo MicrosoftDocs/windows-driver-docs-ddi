@@ -79,7 +79,7 @@ HRESULT APIENTRY* RetrieveSubObject(D3D11_1)(
 
 
 
-#### - SubDeviceID [in]
+### -param SubDeviceID [in]
 
 The function table being retrieved, with the following possible values.
 <table>
@@ -114,22 +114,22 @@ Supported starting with WDDM 2.0.
 </table> 
 
 
-#### - ParamSize [in]
+### -param ParamSize [in]
 
 The size, in bytes, of an input parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
-#### - *pParams [in]
+### -param *pParams [in]
 
 A pointer to an input parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
-#### - OutputParamSize [in]
+### -param OutputParamSize [in]
 
 The size, in bytes, of an output parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
-#### - *pOutputParamsBuffer [out]
+### -param *pOutputParamsBuffer [out]
 
 A pointer to an output parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
@@ -139,16 +139,6 @@ A pointer to an output parameter structure that is described by the <i>SubDevice
 A handle to the display device (graphics context).
 
 
-
-
-#### - pParams [in]
-
-A pointer to an input parameter structure that is described by the <i>SubDeviceID</i> parameter.
-
-
-#### - pOutputParamsBuffer [out]
-
-A pointer to an output parameter structure that is described by the <i>SubDeviceID</i> parameter.
 
 
 ## -returns
@@ -172,11 +162,11 @@ This function is free-threaded.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md">D3D11_1DDI_VIDEODEVICEFUNCS</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs.md">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md">D3D11_1DDI_VIDEODEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice</a>
 
  
 

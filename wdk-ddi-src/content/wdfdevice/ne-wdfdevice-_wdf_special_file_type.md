@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3879570f-e083-4eaf-aa5b-9b78d8f826c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfSpecialFileBoot, wdfdevice/WdfSpecialFileUndefined, wdfdevice/WdfSpecialFileDump, WDF_SPECIAL_FILE_TYPE enumeration, _WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, PWDF_SPECIAL_FILE_TYPE, WdfSpecialFileDump, WdfSpecialFilePaging, wdf.wdf_special_file_type, WdfSpecialFileMax, wdfdevice/WdfSpecialFileHibernation, wdfdevice/WDF_SPECIAL_FILE_TYPE, kmdf.wdf_special_file_type, wdfdevice/WdfSpecialFileBoot, WdfSpecialFileHibernation, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileMax, WDF_SPECIAL_FILE_TYPE, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, *PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFilePaging, WdfSpecialFileUndefined
+ms.keywords: WDF_SPECIAL_FILE_TYPE enumeration, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileMax, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, wdfdevice/WdfSpecialFileUndefined, _WDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE, WdfSpecialFileMax, WdfSpecialFileDump, PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileDump, wdf.wdf_special_file_type, wdfdevice/WdfSpecialFileHibernation, WdfSpecialFileUndefined, wdfdevice/WdfSpecialFilePaging, PWDF_SPECIAL_FILE_TYPE enumeration pointer, kmdf.wdf_special_file_type, WdfSpecialFileBoot, wdfdevice/WdfSpecialFileBoot, WdfSpecialFilePaging, WdfSpecialFileHibernation, *PWDF_SPECIAL_FILE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,32 +75,32 @@ typedef enum _WDF_SPECIAL_FILE_TYPE {
 
 
 
-#### - WdfSpecialFileUndefined
+### -field WdfSpecialFileUndefined
 
 For internal use only.
 
 
-#### - WdfSpecialFilePaging
+### -field WdfSpecialFilePaging
 
 The device supports paging files.
 
 
-#### - WdfSpecialFileHibernation
+### -field WdfSpecialFileHibernation
 
 The device supports hibernation files.
 
 
-#### - WdfSpecialFileDump
+### -field WdfSpecialFileDump
 
 The device supports dump files.
 
 
-#### - WdfSpecialFileBoot
+### -field WdfSpecialFileBoot
 
 The device supports boot files. This constant is available in version 1.11 and later versions of KMDF.
 
 
-#### - WdfSpecialFileMax
+### -field WdfSpecialFileMax
 
 For internal use only.
 

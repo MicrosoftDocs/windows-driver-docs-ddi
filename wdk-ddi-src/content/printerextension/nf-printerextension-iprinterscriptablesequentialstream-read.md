@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Read method [Print Devices], IPrinterScriptableSequentialStream::Read, IPrinterScriptableSequentialStream interface [Print Devices], Read method, printerextension/IPrinterScriptableSequentialStream::Read, print.iprinterscriptablesequentialstream_read, Read method [Print Devices], IPrinterScriptableSequentialStream interface, IPrinterScriptableSequentialStream, Read
+ms.keywords: Read method [Print Devices], IPrinterScriptableSequentialStream::Read, Read, IPrinterScriptableSequentialStream interface [Print Devices], Read method, printerextension/IPrinterScriptableSequentialStream::Read, print.iprinterscriptablesequentialstream_read, IPrinterScriptableSequentialStream, Read method [Print Devices], IPrinterScriptableSequentialStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT Read(
 
 
 
-#### - cbRead [in]
+### -param cbRead [in]
 
 The number of bytes to read.
 

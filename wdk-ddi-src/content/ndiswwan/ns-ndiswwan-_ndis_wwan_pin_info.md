@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 432e1d25-b7f4-4897-99dc-27ea14c851e2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_pin_info, ndiswwan/PNDIS_WWAN_PIN_INFO, ndiswwan/NDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO, _NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9095fdd7-5593-439c-897a-1def216d3374.xml
+ms.keywords: "_NDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_pin_info, PNDIS_WWAN_PIN_INFO, WwanRef_9095fdd7-5593-439c-897a-1def216d3374.xml, NDIS_WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO, ndiswwan/NDIS_WWAN_PIN_INFO, ndiswwan/PNDIS_WWAN_PIN_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_PIN_INFO {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_PIN_INFO structure. The
      MB Service sets the header with the values that are shown in the following table when it sends the data
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of the PIN info operation. The following table shows the possible values for this
      member.
@@ -215,7 +215,7 @@ The operation failed because a
 </table> 
 
 
-#### - PinInfo
+### -field PinInfo
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a> object that represents the type
@@ -224,9 +224,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
 
  
 

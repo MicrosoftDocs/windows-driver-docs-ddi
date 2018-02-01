@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxProgressReceive, SerCxProgressReceive, serports.sercxprogressreceive, SerCxProgressReceive method [Serial Ports]
+ms.keywords: SerCxProgressReceive method [Serial Ports], 1/SerCxProgressReceive, serports.sercxprogressreceive, SerCxProgressReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS SerCxProgressReceive(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - BytesReceived [in]
+### -param BytesReceived [in]
 
 The number of bytes of data that the caller loaded into the receive buffer that was obtained by the latest call to the <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a> method.
 
 
-#### - ReceiveStatus [in]
+### -param ReceiveStatus [in]
 
 The current status of the receive operation. Set this parameter to one of the following values:
 <ul>

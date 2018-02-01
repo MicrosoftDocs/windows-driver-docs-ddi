@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2::GetId, IDebugBreakpoint2, GetId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetId, debugger.getid, GetId, GetId method [Windows Debugging], dbgeng/IDebugBreakpoint::GetId, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, IDebugBreakpoint2 interface [Windows Debugging], GetId method, GetId method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetId, IDebugBreakpoint interface [Windows Debugging], GetId method
+ms.keywords: GetId method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetId method, IDebugBreakpoint::GetId, IDebugBreakpoint2, GetId, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, dbgeng/IDebugBreakpoint::GetId, IDebugBreakpoint2 interface [Windows Debugging], GetId method, debugger.getid, dbgeng/IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetId(
 
 
 
-#### - Id [out]
+### -param Id [out]
 
 The breakpoint ID.
 

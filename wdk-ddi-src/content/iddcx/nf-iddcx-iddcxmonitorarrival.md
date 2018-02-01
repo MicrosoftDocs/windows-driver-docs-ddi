@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e73a8111-9e54-4040-a38a-441948e10212
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxMonitorArrival, display.iddcxmonitorarrival, IddCxMonitorArrival method [Display Devices], IddCxMonitorArrival
+ms.keywords: iddcx/IddCxMonitorArrival, IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS IddCxMonitorArrival(
 
 
 
-#### - AdapterObject [in]
+### -param AdapterObject [in]
 
 The adapter object that is hosting the newly arrived monitor
 
 
-#### - pOutArgs [out]
+### -param pOutArgs [out]
 
 Output arguments to the function
 

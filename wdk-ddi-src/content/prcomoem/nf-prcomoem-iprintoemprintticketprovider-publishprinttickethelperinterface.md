@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, print.iprintoemprintticketprovider_publishprinttickethelperinterface
+ms.keywords: IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], print.iprintoemprintticketprovider_publishprinttickethelperinterface, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, PublishPrintTicketHelperInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT PublishPrintTicketHelperInterface(
 
 
 
-#### - pHelper [in]
+### -param pHelper [in]
 
 A pointer to an <b>IUnknown</b> interface, which should be cast to one of the following interfaces: For Unidrv plug-ins, the print ticket helper interface is <b>IPrintCoreHelperUni</b>; for Pscript5 plug-ins, the print ticket helper interface is <b>IPrintCoreHelperPS</b>.
 

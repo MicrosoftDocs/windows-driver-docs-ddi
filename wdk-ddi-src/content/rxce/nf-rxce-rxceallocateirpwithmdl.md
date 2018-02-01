@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxceallocateirpwithmdl, rxce/RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml, RxCeAllocateIrpWithMDL function [Installable File System Drivers]
+ms.keywords: RxCeAllocateIrpWithMDL, rxce/RxCeAllocateIrpWithMDL, ifsk.rxceallocateirpwithmdl, RxCeAllocateIrpWithMDL function [Installable File System Drivers], rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ PIRP RxCeAllocateIrpWithMDL(
 
 
 
-#### - StackSize [in]
+### -param StackSize [in]
 
 The stack size to allocate for the IRP. 
 
 
-#### - ChargeQuota [in]
+### -param ChargeQuota [in]
 
 This parameter should be set to <b>FALSE</b> by intermediate drivers. This can be set to <b>TRUE</b> only by highest-level drivers that are called in the context of the thread that originates the I/O request for which the driver is allocating another IRP. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to the buffer that contains the memory descriptor list to be associated with this IRP.
 
@@ -105,9 +105,9 @@ An IRP allocated with an associated memory descriptor list allocated with <b>RxC
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
 <a href="..\rxce\nf-rxce-rxcefreeirp.md">RxCeFreeIrp</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
  
 

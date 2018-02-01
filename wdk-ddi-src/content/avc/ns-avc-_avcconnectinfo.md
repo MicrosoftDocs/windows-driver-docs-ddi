@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed6e01f0-fa30-4a42-8271-70afb2fde8c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PAVCCONNECTINFO, stream.avcconnectinfo, AVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, _AVCCONNECTINFO, avc/PAVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], PAVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], avc/AVCCONNECTINFO"
+ms.keywords: PAVCCONNECTINFO structure pointer [Streaming Media Devices], AVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], PAVCCONNECTINFO, avc/PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, *PAVCCONNECTINFO, avc/AVCCONNECTINFO, stream.avcconnectinfo, _AVCCONNECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _AVCCONNECTINFO {
 
 
 
-#### - DeviceID
+### -field DeviceID
 
 A GUID representing the unit as a whole. All subunits within the same unit share the same GUID. No two units share the same GUID.
 
 
-#### - SubunitAddress
+### -field SubunitAddress
 
 The encoded subunit type and subunit ID of the subunit.
 
 
-#### - SubunitPlugNumber
+### -field SubunitPlugNumber
 
 The plug number (within the subunit) described by the AVCPRECONNECTINFO structure.
 
 
-#### - DataFlow
+### -field DataFlow
 
 The direction of data flow on this subunit plug. Destination plugs have KSPIN_DATAFLOW_IN; source plugs have KSPIN_DATAFLOW_OUT.
 
 
-#### - hPlug
+### -field hPlug
 
 A plug handle obtained from <i>61883.sys</i> by the intersect handler according to the bit flags set in the associated AVCPRECONNECTINFO structure for this pin. If the proposed connection is between two subunits within the same unit, this value is <b>NULL</b>.
 
 
-#### - UnitPlugNumber
+### -field UnitPlugNumber
 
 The plug number (within the subunit) described by the AVCPRECONNECTINFO structure.
 

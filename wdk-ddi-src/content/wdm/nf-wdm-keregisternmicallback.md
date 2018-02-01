@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46e666a6-be4c-40fb-b9e1-00ced9fb4d05
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keregisternmicallback, wdm/KeRegisterNmiCallback, k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], KeRegisterNmiCallback
+ms.keywords: k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, KeRegisterNmiCallback, kernel.keregisternmicallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], wdm/KeRegisterNmiCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ PVOID KeRegisterNmiCallback(
 
 
 
-#### - CallbackRoutine [in]
+### -param CallbackRoutine [in]
 
 Pointer to a function of the form:
 <div class="code"><span codelanguage=""><table>
@@ -87,7 +87,7 @@ Pointer to a function of the form:
 </tr>
 </table></span></div>
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCallback</i> when it is called.
 

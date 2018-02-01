@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 068232d3-b160-4090-b72c-63d9a31c1567
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], NdisMUnmapIoSpace, miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, netvista.ndismunmapiospace, ndis/NdisMUnmapIoSpace
+ms.keywords: miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, netvista.ndismunmapiospace, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], NdisMUnmapIoSpace, ndis/NdisMUnmapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ VOID NdisMUnmapIoSpace(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 Specifies the handle originally input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - VirtualAddress [in]
+### -param VirtualAddress [in]
 
 Specifies the base virtual address for the mapped range that was returned by 
      <b>NdisMMapIoSpace</b>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the number of bytes in the range that was mapped with 
      <b>NdisMMapIoSpace</b>.
@@ -118,11 +118,11 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
 <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

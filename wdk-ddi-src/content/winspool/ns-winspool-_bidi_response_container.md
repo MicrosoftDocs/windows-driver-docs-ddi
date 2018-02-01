@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 26924dd2-ac67-408c-87e0-5cfb3281fe75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_RESPONSE_CONTAINER structure [Print Devices], LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], LPBIDI_RESPONSE_CONTAINER, winspool/LPBIDI_RESPONSE_CONTAINER, print.bidi_response_container, spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, BIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, _BIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], winspool/BIDI_RESPONSE_CONTAINER, winspool/PBIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER
+ms.keywords: PBIDI_RESPONSE_CONTAINER, _BIDI_RESPONSE_CONTAINER, winspool/LPBIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], winspool/PBIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER, spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, winspool/BIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, print.bidi_response_container, BIDI_RESPONSE_CONTAINER structure [Print Devices], PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _BIDI_RESPONSE_CONTAINER {
 
 
 
-#### - Version
+### -field Version
 
 Specifies the version of the bidi API Schema, which is currently 1.
 
 
-#### - Flags
+### -field Flags
 
 Is a set of flags reserved for system use. This must be zero.
 
 
-#### - Count
+### -field Count
 
 Specifies the number of responses in the <b>aData</b> member.
 
 
-#### - aData
+### -field aData
 
 Is an array of <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a> structures, each containing a single bidi response.
 

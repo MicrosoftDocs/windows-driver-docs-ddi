@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: bidispl/IBidiSpl::IBidiSpl::MultiSendRecv, IBidiSpl::MultiSendRecv method [Print Devices], IBidiSpl::MultiSendRecv method [Print Devices], IBidiSpl interface, IBidiSpl interface [Print Devices], IBidiSpl::MultiSendRecv method, IBidiSpl::IBidiSpl::MultiSendRecv, IBidiSpl, MultiSendRecv, IBidiSpl::MultiSendRecv, print.ibidispl_ibidispl__multisendrecv, gdi.ibidispl_ibidispl__multisendrecv, _win32_IBidiSpl_MultiSendRecv
+ms.keywords: IBidiSpl, IBidiSpl::MultiSendRecv method [Print Devices], MultiSendRecv, IBidiSpl interface [Print Devices], IBidiSpl::MultiSendRecv method, gdi.ibidispl_ibidispl__multisendrecv, _win32_IBidiSpl_MultiSendRecv, print.ibidispl_ibidispl__multisendrecv, IBidiSpl::MultiSendRecv, IBidiSpl::MultiSendRecv method [Print Devices], IBidiSpl interface, bidispl/IBidiSpl::IBidiSpl::MultiSendRecv, IBidiSpl::IBidiSpl::MultiSendRecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT IBidiSpl::MultiSendRecv(
 
 
 
-#### - pszAction [in]
+### -param pszAction [in]
 
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
 <table>
@@ -100,7 +100,7 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
 </table> 
 
 
-#### - pRequestContainer [in]
+### -param pRequestContainer [in]
 
 A pointer to the list of bidi requests.
 

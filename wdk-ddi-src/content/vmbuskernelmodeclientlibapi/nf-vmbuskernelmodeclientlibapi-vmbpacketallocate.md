@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F121A7BC-5504-4CF5-8C8A-0568D6C4F77F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbpacketallocate, VmbPacketAllocate, VmbPacketAllocate function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketAllocate
+ms.keywords: vmbuskernelmodeclientlibapi/VmbPacketAllocate, netvista.vmbpacketallocate, VmbPacketAllocate function [Network Drivers Starting with Windows Vista], VmbPacketAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VMBPACKET VmbPacketAllocate(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel.  
 

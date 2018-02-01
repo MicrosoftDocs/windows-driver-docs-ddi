@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MaximumWorkQueue, WORK_QUEUE_TYPE, wdm/WORK_QUEUE_TYPE, RealTimeWorkQueue, wdm/CustomPriorityWorkQueue, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/DelayedWorkQueue, _WORK_QUEUE_TYPE, wdm/MaximumWorkQueue, wdm/NormalWorkQueue, SuperCriticalWorkQueue, CriticalWorkQueue, NormalWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, HyperCriticalWorkQueue, BackgroundWorkQueue, wdm/SuperCriticalWorkQueue, wdm/HyperCriticalWorkQueue, kernel.work_queue_type, wdm/CriticalWorkQueue, DelayedWorkQueue, wdm/RealTimeWorkQueue, wdm/BackgroundWorkQueue, CustomPriorityWorkQueue
+ms.keywords: wdm/WORK_QUEUE_TYPE, wdm/BackgroundWorkQueue, WORK_QUEUE_TYPE, kernel.work_queue_type, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], RealTimeWorkQueue, wdm/DelayedWorkQueue, NormalWorkQueue, wdm/SuperCriticalWorkQueue, CustomPriorityWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, _WORK_QUEUE_TYPE, CriticalWorkQueue, SuperCriticalWorkQueue, BackgroundWorkQueue, wdm/CustomPriorityWorkQueue, wdm/CriticalWorkQueue, wdm/MaximumWorkQueue, MaximumWorkQueue, DelayedWorkQueue, wdm/NormalWorkQueue, HyperCriticalWorkQueue, wdm/HyperCriticalWorkQueue, wdm/RealTimeWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,47 +76,47 @@ typedef enum _WORK_QUEUE_TYPE {
 
 
 
-#### - CriticalWorkQueue
+### -field CriticalWorkQueue
 
 Indicates a real-time system worker thread. The assigned priority level is 13.
 
 
-#### - DelayedWorkQueue
+### -field DelayedWorkQueue
 
 Indicates an ordinary worker thread. The assigned priority level is 12.
 
 
-#### - HyperCriticalWorkQueue
+### -field HyperCriticalWorkQueue
 
 System  priority level. The assigned priority level is 15.
 
 
-#### - NormalWorkQueue
+### -field NormalWorkQueue
 
 System priority level. The assigned priority level is 8
 
 
-#### - BackgroundWorkQueue
+### -field BackgroundWorkQueue
 
 System priority level. The assigned priority level is 7.
 
 
-#### - RealTimeWorkQueue
+### -field RealTimeWorkQueue
 
 System  priority level. The assigned priority level is18.
 
 
-#### - SuperCriticalWorkQueue
+### -field SuperCriticalWorkQueue
 
 System  priority level. The assigned priority level is 14.
 
 
-#### - MaximumWorkQueue
+### -field MaximumWorkQueue
 
 System  priority maximum. No priority level assigned.
 
 
-#### - CustomPriorityWorkQueue
+### -field CustomPriorityWorkQueue
 
 The queue has a custom priority level assigned by the caller. The <b>CustomPriorityWorkQueue</b> value is the base priority level for the custom priority queue. Work items are queued at a particular priority by setting <i>QueueType</i> to <b>CustomPriorityWorkQueue</b> + <i>Priority</i> where <i>Priority</i> is the <b>KPRIORITY</b> value for the work item.
 
@@ -139,9 +139,9 @@ For more information about system worker threads, see <a href="https://msdn.micr
 
 <a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn683917">IoTryQueueWorkItem</a>
-
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn683917">IoTryQueueWorkItem</a>
 
  
 

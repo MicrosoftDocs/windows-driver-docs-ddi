@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33c10139-7a9a-41b1-a3c4-e3692be9a34a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtdestroycontext, D3DKMTDestroyContext function [Display Devices], d3dkmthk/D3DKMTDestroyContext, OpenGL_Functions_f7a43a18-cb8c-4b76-8123-d5eeda18d6cb.xml, D3DKMTDestroyContext
+ms.keywords: D3DKMTDestroyContext, display.d3dkmtdestroycontext, OpenGL_Functions_f7a43a18-cb8c-4b76-8123-d5eeda18d6cb.xml, D3DKMTDestroyContext function [Display Devices], d3dkmthk/D3DKMTDestroyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

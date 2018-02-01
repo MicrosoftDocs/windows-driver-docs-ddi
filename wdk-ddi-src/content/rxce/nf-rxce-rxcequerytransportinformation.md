@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, rxce/RxCeQueryTransportInformation
+ms.keywords: rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], RxCeQueryTransportInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS RxCeQueryTransportInformation(
 
 
 
-#### - pTransport
+### -param pTransport
 
 A pointer to the transport.
 
 
-#### - pTransportInformation
+### -param pTransportInformation
 
 A pointer to the caller-supplied buffer for returning information. 
 

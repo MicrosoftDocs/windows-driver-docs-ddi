@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, storage.scsiportgetlogicalunit, srb/ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit routine [Storage Devices]
+ms.keywords: ScsiPortGetLogicalUnit routine [Storage Devices], srb/ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit, scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ PVOID ScsiPortGetLogicalUnit(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - PathId [in]
+### -param PathId [in]
 
 Identifies the SCSI bus.
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 Identifies the target controller or device on the bus.
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Identifies the logical unit number of the target device.
 
@@ -112,13 +112,13 @@ The operating system-specific port driver can consider a logical unit to be none
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
-<a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
 <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 598044D9-8B99-453C-96FE-9B04C980BB3A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_DEVICE_RESET_TYPE, DEVICE_RESET_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/DEVICE_RESET_TYPE, PlatformLevelDeviceReset, wdm/PlatformLevelDeviceReset, DEVICE_RESET_TYPE, wdm/FunctionLevelDeviceReset, kernel.device_reset_type, FunctionLevelDeviceReset"
+ms.keywords: wdm/DEVICE_RESET_TYPE, DEVICE_RESET_TYPE, wdm/FunctionLevelDeviceReset, PlatformLevelDeviceReset, DEVICE_RESET_TYPE enumeration [Kernel-Mode Driver Architecture], FunctionLevelDeviceReset, wdm/PlatformLevelDeviceReset, kernel.device_reset_type, _DEVICE_RESET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,23 +69,23 @@ typedef enum _DEVICE_RESET_TYPE {
 
 
 
-#### - FunctionLevelDeviceReset
+### -field FunctionLevelDeviceReset
 
 A function-level device reset, which is restricted to a specific device.
 
 
-#### - PlatformLevelDeviceReset
+### -field PlatformLevelDeviceReset
 
 A platform-level device reset, which affects a specific device and all other devices that are connected to it via the same power rail or reset line.
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_reset_interface_standard.md">DEVICE_RESET_INTERFACE_STANDARD</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
-
-<a href="..\wdm\ns-wdm-_device_reset_interface_standard.md">DEVICE_RESET_INTERFACE_STANDARD</a>
 
  
 

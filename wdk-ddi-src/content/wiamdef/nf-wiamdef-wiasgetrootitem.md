@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 09885782-2293-49a3-af48-6450dbc6a24e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetRootItem function [Imaging Devices], wiasGetRootItem, image.wiasgetrootitem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiamdef/wiasGetRootItem
+ms.keywords: image.wiasgetrootitem, wiamdef/wiasGetRootItem, wiasGetRootItem, wiasGetRootItem function [Imaging Devices], wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ HRESULT _stdcall wiasGetRootItem(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - ppWiasContext [out]
+### -param ppWiasContext [out]
 
 Pointer to a memory location that receives the address of the WIA item's root item context.
 

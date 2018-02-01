@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 518cd3bb-86a8-4960-b140-fabb78fa3519
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usb_bus_information_level_1, USB_BUS_INFORMATION_LEVEL_1 structure [Buses], PUSB_BUS_INFORMATION_LEVEL_1 structure pointer [Buses], usbbusif/PUSB_BUS_INFORMATION_LEVEL_1, usbstrct_44c7c910-aa13-492b-b81e-79faa501f1f9.xml, PUSB_BUS_INFORMATION_LEVEL_1, *PUSB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1, usbbusif/USB_BUS_INFORMATION_LEVEL_1, _USB_BUS_INFORMATION_LEVEL_1
+ms.keywords: buses.usb_bus_information_level_1, _USB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1 structure [Buses], USB_BUS_INFORMATION_LEVEL_1, usbstrct_44c7c910-aa13-492b-b81e-79faa501f1f9.xml, usbbusif/PUSB_BUS_INFORMATION_LEVEL_1, *PUSB_BUS_INFORMATION_LEVEL_1, PUSB_BUS_INFORMATION_LEVEL_1 structure pointer [Buses], PUSB_BUS_INFORMATION_LEVEL_1, usbbusif/USB_BUS_INFORMATION_LEVEL_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _USB_BUS_INFORMATION_LEVEL_1 {
 
 
 
-#### - TotalBandwidth
+### -field TotalBandwidth
 
 Specifies the total bandwidth, in bits per second, available on the bus. 
 
 
-#### - ConsumedBandwidth
+### -field ConsumedBandwidth
 
 Specifies the mean bandwidth already in use, in bits per second. 
 
 
-#### - ControllerNameLength
+### -field ControllerNameLength
 
 Specifies the length of symbolic name for the host controller, in Unicode.
 
 
-#### - ControllerNameUnicodeString
+### -field ControllerNameUnicodeString
 
 Specifies the symbolic name for the host controller, in Unicode. 
 

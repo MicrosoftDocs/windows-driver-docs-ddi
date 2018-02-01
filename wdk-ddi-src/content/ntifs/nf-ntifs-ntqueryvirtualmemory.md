@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/NtQueryVirtualMemory, NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory, ZwQueryVirtualMemory, kernel.zwqueryvirtualmemory
+ms.keywords: kernel.zwqueryvirtualmemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], ZwQueryVirtualMemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory, NtQueryVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,40 +75,40 @@ NTSTATUS ZwQueryVirtualMemory(
 
 
 
-#### - ProcessHandle [in]
+### -param ProcessHandle [in]
 
 A handle for the process in whose context the pages to be queried reside. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a> macro to specify the current process.
 
 
 
 
-#### - BaseAddress [in, optional]
+### -param BaseAddress [in, optional]
 
 The base address of the region of pages to be
                   queried. This value is rounded down to the next host-page-
                   address boundary.
 
 
-#### - MemoryInformationClass [in]
+### -param MemoryInformationClass [in]
 
 The memory information class about which
                              to retrieve information. Currently, the only supported <a href="..\ntifs\ne-ntifs-_memory_information_class.md">MEMORY_INFORMATION_CLASS</a> value is <b>MemoryBasicInformation</b>.
 
 
-#### - MemoryInformation [out]
+### -param MemoryInformation [out]
 
 A pointer to a buffer that receives the specified
                         information.  The format and content of the buffer
                         depend on the specified information class specified in the <i>MemoryInformationClass</i> parameter. When the value <b>MemoryBasicInformation</b> is passed to <i>MemoryInformationClass</i>, the <i>MemoryInformationClass</i> parameter value is a <a href="..\ntifs\ns-ntifs-_memory_basic_information.md">MEMORY_BASIC_INFORMATION</a>. 
 
 
-#### - MemoryInformationLength [in]
+### -param MemoryInformationLength [in]
 
 Specifies the length in bytes of
                               the memory information buffer.
 
 
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 An optional pointer which, if specified, receives the
                    number of bytes placed in the memory information buffer.
@@ -196,9 +196,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
 
  
 

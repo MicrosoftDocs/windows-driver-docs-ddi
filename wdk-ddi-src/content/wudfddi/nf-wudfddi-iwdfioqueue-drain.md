@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0356e8a7-de44-4b0f-9067-ca3bb04260d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Drain, wdf.iwdfioqueue_drain, IWDFIoQueue interface, Drain method, Drain method, wudfddi/IWDFIoQueue::Drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, Drain method, IWDFIoQueue interface, umdf.iwdfioqueue_drain, IWDFIoQueue, IWDFIoQueue::Drain
+ms.keywords: Drain method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::Drain, Drain, Drain method, IWDFIoQueue, wdf.iwdfioqueue_drain, IWDFIoQueue interface, Drain method, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, IWDFIoQueue::Drain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void Drain(
 
 
 
-#### - pDrainComplete [in, optional]
+### -param pDrainComplete [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a> interface whose method the framework calls to deliver queue state to the driver. The framework calls the method after all requests are completed or canceled and the queue is empty. This parameter is optional and can be <b>NULL</b>.
 
@@ -109,9 +109,9 @@ A driver should ensure that only one of the following methods is in progress at 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 

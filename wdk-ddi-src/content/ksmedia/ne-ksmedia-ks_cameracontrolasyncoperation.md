@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0ca676d9-5047-451a-abbb-2692cc2d69f6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_CAMERACONTROL_ASYNC_RESET, stream.ks_cameracontrolasyncoperation, ksmedia/KS_CameraControlAsyncOperation, ksmedia/KS_CAMERACONTROL_ASYNC_START, ksmedia/KS_CAMERACONTROL_ASYNC_STOP, KS_CAMERACONTROL_ASYNC_START, KS_CAMERACONTROL_ASYNC_STOP, KS_CameraControlAsyncOperation enumeration [Streaming Media Devices], KS_CameraControlAsyncOperation, ksmedia/KS_CAMERACONTROL_ASYNC_RESET
+ms.keywords: ksmedia/KS_CameraControlAsyncOperation, KS_CAMERACONTROL_ASYNC_RESET, KS_CAMERACONTROL_ASYNC_STOP, stream.ks_cameracontrolasyncoperation, KS_CameraControlAsyncOperation, KS_CAMERACONTROL_ASYNC_START, ksmedia/KS_CAMERACONTROL_ASYNC_STOP, ksmedia/KS_CAMERACONTROL_ASYNC_RESET, ksmedia/KS_CAMERACONTROL_ASYNC_START, KS_CameraControlAsyncOperation enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - KS_CAMERACONTROL_ASYNC_START
+### -field KS_CAMERACONTROL_ASYNC_START
 
 Initiate an asynchronous camera control operation.
 
 
-#### - KS_CAMERACONTROL_ASYNC_STOP
+### -field KS_CAMERACONTROL_ASYNC_STOP
 
 Stop the requested asynchronous camera control operation and maintain current camera control settings, including the lens focus.
 
 
-#### - KS_CAMERACONTROL_ASYNC_RESET
+### -field KS_CAMERACONTROL_ASYNC_RESET
 
 Stop the requested asynchronous camera control operation and reset the lens focus to infinity.
 

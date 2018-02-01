@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c2a9bd35-ce3a-4640-9982-b470e98b4692
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaudbglegacyerror, wiautil/wiauDbgLegacyError, wiauFncs_03e81269-0a09-42c4-8d0d-1f808e6ef69e.xml, wiauDbgLegacyError function [Imaging Devices], wiauDbgLegacyError
+ms.keywords: wiauFncs_03e81269-0a09-42c4-8d0d-1f808e6ef69e.xml, wiauDbgLegacyError, image.wiaudbglegacyerror, wiautil/wiauDbgLegacyError, wiauDbgLegacyError function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

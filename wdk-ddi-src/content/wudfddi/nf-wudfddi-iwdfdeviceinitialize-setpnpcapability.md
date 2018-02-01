@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82892740-12f6-469b-a65c-6905d32c0b0d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdeviceinitialize_setpnpcapability, IWDFDeviceInitialize::SetPnpCapability, wdf.iwdfdeviceinitialize_setpnpcapability, UMDFDeviceObjectRef_516aeba5-c0c2-40a0-a9e6-d1a983835a94.xml, IWDFDeviceInitialize interface, SetPnpCapability method, SetPnpCapability, SetPnpCapability method, SetPnpCapability method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize::SetPnpCapability
+ms.keywords: IWDFDeviceInitialize::SetPnpCapability, wudfddi/IWDFDeviceInitialize::SetPnpCapability, IWDFDeviceInitialize, SetPnpCapability method, IWDFDeviceInitialize interface, umdf.iwdfdeviceinitialize_setpnpcapability, wdf.iwdfdeviceinitialize_setpnpcapability, IWDFDeviceInitialize interface, SetPnpCapability method, SetPnpCapability, SetPnpCapability method, UMDFDeviceObjectRef_516aeba5-c0c2-40a0-a9e6-d1a983835a94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ void SetPnpCapability(
 
 
 
-#### - Capability [in]
+### -param Capability [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to set. 
 
 
-#### - Value [in]
+### -param Value [in]
 
 A WDF_TRI_STATE-typed value that identifies how to set the PnP capability that is specified by <i>Capability</i>. The following table shows the possible values.
 <table>

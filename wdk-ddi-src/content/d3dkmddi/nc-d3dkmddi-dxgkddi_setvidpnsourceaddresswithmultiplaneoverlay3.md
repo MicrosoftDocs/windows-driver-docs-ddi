@@ -68,12 +68,12 @@ NTSTATUS APIENTRY DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 Identifies the adapter containing the overlay hardware.
 
 
-#### - pSetVidPnSourceAddressWithMultiPlaneOverlay [in]
+### -param pSetVidPnSourceAddressWithMultiPlaneOverlay [in]
 
 A pointer to a DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 structure that describes the surfaces and display options to present.
 

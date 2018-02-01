@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 77c2515b-f20a-47ac-9564-9eab009cf625
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: DirectoryNotifyInformation, wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyExtendedInformation, *PDIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyInformation, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DIRECTORY_NOTIFY_INFORMATION_CLASS, ifsk._directory_notify_information_class, DirectoryNotifyExtendedInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS
+ms.keywords: wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyExtendedInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS, ifsk._directory_notify_information_class, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DirectoryNotifyInformation, wdm/DirectoryNotifyInformation, *PDIRECTORY_NOTIFY_INFORMATION_CLASS, DirectoryNotifyExtendedInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,12 +71,12 @@ typedef enum _DIRECTORY_NOTIFY_INFORMATION_CLASS {
 
 
 
-#### - DirectoryNotifyInformation
+### -field DirectoryNotifyInformation
 
 A <b>FILE_NOTIFY_INFORMATION </b>structure.
 
 
-#### - DirectoryNotifyExtendedInformation
+### -field DirectoryNotifyExtendedInformation
 
 A <b>FILE_NOTIFY_EXTENDED_INFORMATION</b> structure.
 

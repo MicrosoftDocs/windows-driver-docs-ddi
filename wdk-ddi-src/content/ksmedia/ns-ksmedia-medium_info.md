@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/MEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], PMEDIUM_INFO, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml, stream.medium_info, MEDIUM_INFO, ksmedia/PMEDIUM_INFO, *PMEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices]
+ms.keywords: MEDIUM_INFO structure [Streaming Media Devices], PMEDIUM_INFO structure pointer [Streaming Media Devices], ksmedia/MEDIUM_INFO, stream.medium_info, PMEDIUM_INFO, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml, *PMEDIUM_INFO, ksmedia/PMEDIUM_INFO, MEDIUM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct {
 
 
 
-#### - MediaPresent
+### -field MediaPresent
 
 Specifies if media is present in the external device. <b>TRUE</b> if media is loaded, <b>FALSE</b> otherwise.
 
 
-#### - MediaType
+### -field MediaType
 
 Indicates the type of the media loaded in an external device.
 <table>
@@ -115,7 +115,7 @@ Hi-8 cassette
 </table> 
 
 
-#### - RecordInhibit
+### -field RecordInhibit
 
 Specifies if recording is inhibited on the media. <b>TRUE</b> if recording onto the media is inhibited, <b>FALSE</b> otherwise.
 

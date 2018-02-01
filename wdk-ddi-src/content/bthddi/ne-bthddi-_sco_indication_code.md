@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_SCO_INDICATION_CODE, bthddi/ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteDisconnect, PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, bltooth.sco_indication_code, bthddi/PSCO_INDICATION_CODE, ScoIndicationRemoteDisconnect, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, SCO_INDICATION_CODE enumeration [Bluetooth Devices], ScoIndicationReleaseReference, SCO_INDICATION_CODE, bthddi/ScoIndicationReleaseReference, ScoIndicationAddReference, *PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], bthddi/ScoIndicationAddReference, ScoIndicationRemoteConnect"
+ms.keywords: bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, *PSCO_INDICATION_CODE, SCO_INDICATION_CODE, ScoIndicationRemoteDisconnect, bthddi/ScoIndicationRemoteConnect, bthddi/PSCO_INDICATION_CODE, ScoIndicationAddReference, bthddi/ScoIndicationRemoteDisconnect, _SCO_INDICATION_CODE, bthddi/ScoIndicationReleaseReference, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], bthddi/SCO_INDICATION_CODE, SCO_INDICATION_CODE enumeration [Bluetooth Devices], PSCO_INDICATION_CODE, bltooth.sco_indication_code, bthddi/ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,27 +73,27 @@ typedef enum _SCO_INDICATION_CODE {
 
 
 
-#### - ScoIndicationAddReference
+### -field ScoIndicationAddReference
 
 This value indicates that the profile driver should add one reference to its device object.
 
 
-#### - ScoIndicationReleaseReference
+### -field ScoIndicationReleaseReference
 
 This value indicates that the profile driver can release one reference to its device
      object.
 
 
-#### - ScoIndicationRemoteConnect
+### -field ScoIndicationRemoteConnect
 
 This value indicates to a profile driver that a remote device is trying to connect to the local
      radio. Profile drivers accept or reject this request by 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <mshelp:link keywords="bltooth.brb_sco_open_channel_response" tabindex="0"><b>
-     BRB_SCO_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
+     <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
+     BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
 
 
-#### - ScoIndicationRemoteDisconnect
+### -field ScoIndicationRemoteDisconnect
 
 This value indicates to a profile driver that a remote device is disconnecting from the local
      radio.
@@ -101,11 +101,11 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
  
 

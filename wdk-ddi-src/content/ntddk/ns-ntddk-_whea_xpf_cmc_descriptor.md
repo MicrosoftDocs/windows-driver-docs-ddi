@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d5eb2e20-9a11-4dae-9aa7-6e3799f0027f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_XPF_CMC_DESCRIPTOR, WHEA_XPF_CMC_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_CMC_DESCRIPTOR, whea.whea_xpf_cmc_descriptor, ntddk/WHEA_XPF_CMC_DESCRIPTOR, PWHEA_XPF_CMC_DESCRIPTOR structure pointer [WHEA Drivers and Applications], PWHEA_XPF_CMC_DESCRIPTOR, *PWHEA_XPF_CMC_DESCRIPTOR, ntddk/PWHEA_XPF_CMC_DESCRIPTOR, whearef_a14dc817-f689-492c-8993-1a5c9869a6c6.xml
+ms.keywords: WHEA_XPF_CMC_DESCRIPTOR, *PWHEA_XPF_CMC_DESCRIPTOR, ntddk/WHEA_XPF_CMC_DESCRIPTOR, _WHEA_XPF_CMC_DESCRIPTOR, PWHEA_XPF_CMC_DESCRIPTOR, ntddk/PWHEA_XPF_CMC_DESCRIPTOR, WHEA_XPF_CMC_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_XPF_CMC_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whea.whea_xpf_cmc_descriptor, whearef_a14dc817-f689-492c-8993-1a5c9869a6c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _WHEA_XPF_CMC_DESCRIPTOR {
 
 
 
-#### - Type
+### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_XPFCMC.
 
 
-#### - Enabled
+### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
 
-#### - NumberOfBanks
+### -field NumberOfBanks
 
 The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Notify
+### -field Notify
 
 A <a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
 
 
-#### - Banks
+### -field Banks
 
 An array of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
 
@@ -111,11 +111,11 @@ A WHEA_XPF_CMC_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
  
 

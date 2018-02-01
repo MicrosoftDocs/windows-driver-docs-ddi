@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab9f98d3-1792-43be-b838-f9dd3953889c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisPMProtocolOffloadIdMaximum, miniport_power_management_ref_5fcdc741-9efa-48ff-8b03-017859bf80c0.xml, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffload80211RSNRekey, _NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffloadIdMaximum, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffloadIdIPv6NS, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdIPv6NS, NDIS_PM_PROTOCOL_OFFLOAD_TYPE, netvista.ndis_pm_protocol_offload_type, NdisPMProtocolOffloadIdUnspecified, ntddndis/NdisPMProtocolOffloadIdIPv4ARP, NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisPMProtocolOffloadIdUnspecified, ntddndis/NdisPMProtocolOffload80211RSNRekey
+ms.keywords: ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdUnspecified, NdisPMProtocolOffloadIdIPv6NS, ntddndis/NdisPMProtocolOffloadIdIPv6NS, ntddndis/NdisPMProtocolOffloadIdMaximum, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffload80211RSNRekey, NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD_TYPE, *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffloadIdMaximum, NdisPMProtocolOffloadIdUnspecified, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], miniport_power_management_ref_5fcdc741-9efa-48ff-8b03-017859bf80c0.xml, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffload80211RSNRekey, netvista.ndis_pm_protocol_offload_type, NdisPMProtocolOffloadIdIPv4ARP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,34 +72,34 @@ typedef enum _NDIS_PM_PROTOCOL_OFFLOAD_TYPE {
 
 
 
-#### - NdisPMProtocolOffloadIdUnspecified
+### -field NdisPMProtocolOffloadIdUnspecified
 
 The offloaded protocol is not specified.
 
 
-#### - NdisPMProtocolOffloadIdIPv4ARP
+### -field NdisPMProtocolOffloadIdIPv4ARP
 
 An IPv4 ARP protocol offload. The parameters for this protocol offload type are specified in the 
      <b>IPv4ARPParameters</b> member of the 
-     <mshelp:link keywords="netvista.ndis_pm_protocol_offload" tabindex="0"><b>
-     NDIS_PM_PROTOCOL_OFFLOAD</b></mshelp:link> structure.
+     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">
+     NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
-#### - NdisPMProtocolOffloadIdIPv6NS
+### -field NdisPMProtocolOffloadIdIPv6NS
 
 An IPv6 Neighbor Solicitation (NS) protocol offload. The parameters for this protocol offload type
      are specified in the 
      <b>IPv6NSParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
-#### - NdisPMProtocolOffload80211RSNRekey
+### -field NdisPMProtocolOffload80211RSNRekey
 
 An IEEE 802.11i Robust Security Network (RSN) 4-way and 2-way handshake protocol offload. This
      protocol offload type is specified in the 
      <b>Dot11RSNRekeyParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
-#### - NdisPMProtocolOffloadIdMaximum
+### -field NdisPMProtocolOffloadIdMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -110,8 +110,8 @@ The maximum value for this enumeration. This value might change in future versio
 
 The <b>NDIS_PM_PROTOCOL_OFFLOAD_TYPE</b> enumeration is used in the 
     <b>ProtocolOffloadType</b> member of the 
-    <mshelp:link keywords="netvista.ndis_pm_protocol_offload" tabindex="0"><b>
-    NDIS_PM_PROTOCOL_OFFLOAD</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">
+    NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
 

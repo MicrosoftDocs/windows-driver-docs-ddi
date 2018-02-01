@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81a205cd-a641-4f85-a217-7febf203b62d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetTimer routine [Kernel-Mode Driver Architecture], wdm/KeSetTimer, KeSetTimer, k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, kernel.kesettimer
+ms.keywords: kernel.kesettimer, KeSetTimer, k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, wdm/KeSetTimer, KeSetTimer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOLEAN KeSetTimer(
 
 
 
-#### - Timer [in, out]
+### -param Timer [in, out]
 
 Pointer to a timer object that was initialized with <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a> or <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>.
 
 
-#### - DueTime [in]
+### -param DueTime [in]
 
 Specifies the absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
 
-#### - Dpc [in, optional]
+### -param Dpc [in, optional]
 
 Pointer to a DPC object that was initialized by <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>. This parameter is optional. 
 
@@ -127,21 +127,21 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
  
 

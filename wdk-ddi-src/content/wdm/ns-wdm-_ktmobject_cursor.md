@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR, _KTMOBJECT_CURSOR, kernel.ktmobject_cursor, wdm/PKTMOBJECT_CURSOR, wdm/KTMOBJECT_CURSOR, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml
+ms.keywords: KTMOBJECT_CURSOR, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], wdm/PKTMOBJECT_CURSOR, kernel.ktmobject_cursor, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], _KTMOBJECT_CURSOR, wdm/KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _KTMOBJECT_CURSOR {
 
 
 
-#### - LastQuery
+### -field LastQuery
 
 After <b>ZwEnumerateTransactionObject</b> returns, this member contains the GUID of the last object that <b>ZwEnumerateTransactionObject</b> enumerated. Before it calls <b>ZwEnumerateTransactionObject</b> the first time, the caller must set this value to zero.
 
 
-#### - ObjectIdCount
+### -field ObjectIdCount
 
 After <b>ZwEnumerateTransactionObject</b> returns, this member contains the number of GUIDs that the <b>ObjectIds</b> array contains.
 
 
-#### - ObjectIds
+### -field ObjectIds
 
 A caller-allocated array of GUID-typed elements. After <b>ZwEnumerateTransactionObject</b> returns, this array contains GUIDs that identify enumerated objects.
 

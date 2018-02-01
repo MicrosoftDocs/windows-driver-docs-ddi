@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f92aebbf-f163-45fa-ad8e-c13a36f08458
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setvideoprocessrendertarget, _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, d3dumddi/D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, UMDisplayDriver_param_Structs_8a00fe2d-be28-4577-831f-45fbdcfbbb1d.xml, D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure [Display Devices]
+ms.keywords: "_D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, d3dumddi/D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, UMDisplayDriver_param_Structs_8a00fe2d-be28-4577-831f-45fbdcfbbb1d.xml, display.d3dddiarg_setvideoprocessrendertarget, D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
 
 
 
-#### - hVideoProcess
+### -field hVideoProcess
 
 [in] A handle to the Microsoft DirectX Video Acceleration (DirectX VA) video processing device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function.
 
 
-#### - hRenderTarget
+### -field hRenderTarget
 
 [in] A handle to the render target surface for video processing.
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] An index into the resource for the render target surface.
 

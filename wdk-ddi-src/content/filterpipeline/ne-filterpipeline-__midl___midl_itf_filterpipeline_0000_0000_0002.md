@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline/EXpsFontOptions, filterpipeline/Font_Obfusticate, EXpsFontOptions enumeration [Print Devices], filterpipeline/Font_Normal, EXpsFontOptions, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, Font_Normal, Font_Obfusticate, print.expsfontoptions
+ms.keywords: Font_Obfusticate, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, EXpsFontOptions enumeration [Print Devices], filterpipeline/Font_Normal, print.expsfontoptions, Font_Normal, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, filterpipeline/EXpsFontOptions, EXpsFontOptions, filterpipeline/Font_Obfusticate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum  {
 
 
 
-#### - Font_Normal
+### -field Font_Normal
 
 The font code is human-readable.
 
 
-#### - Font_Obfusticate
+### -field Font_Obfusticate
 
 The font code is obfusticated (that is, the internal structure of the font is scrambled in such a way to prevent someone from understaning how the structure works).
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS, Flags.GpuMmuSupported, _DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.IoMmuSupported
+ms.keywords: Flags.VPRPagingContextRequired, DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, _DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps, Flags.IoMmuSupported, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, Flags.MovePagingSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _DXGK_PHYSICALADAPTERCAPS {
 
 
 
-#### - NumExecutionNodes
+### -field NumExecutionNodes
 
 The number of execution nodes in the physical adapter.
 
 
-#### - PagingNodeIndex
+### -field PagingNodeIndex
 
 Index of the paging node for the physical adapter.
 
 
-#### - DxgkPhysicalAdapterHandle
+### -field DxgkPhysicalAdapterHandle
 
 Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::DeviceHandle</b> in <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>. 
 
 
-#### - Flags
+### -field Flags
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ The adapter requires the index of the VPR paging node.
 </table> 
 
 
-#### - VPRPagingNode
+### -field VPRPagingNode
 
 Index of the node to be used for move paging in  the VPR.
 

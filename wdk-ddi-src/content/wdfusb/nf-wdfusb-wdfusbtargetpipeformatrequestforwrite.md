@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cf880701-d1e9-4bda-8d6c-35f35b707e9b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetpipeformatrequestforwrite, WdfUsbTargetPipeFormatRequestForWrite, DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, WdfUsbTargetPipeFormatRequestForWrite method, wdfusb/WdfUsbTargetPipeFormatRequestForWrite, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORWRITE, wdf.wdfusbtargetpipeformatrequestforwrite
+ms.keywords: kmdf.wdfusbtargetpipeformatrequestforwrite, WdfUsbTargetPipeFormatRequestForWrite, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORWRITE, wdf.wdfusbtargetpipeformatrequestforwrite, WdfUsbTargetPipeFormatRequestForWrite method, wdfusb/WdfUsbTargetPipeFormatRequestForWrite, DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfUsbTargetPipeFormatRequestForWrite(
 
 
 
-#### - Pipe [in]
+### -param Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object. For more information, see the following Remarks section.
 
 
-#### - WriteMemory [in, optional]
+### -param WriteMemory [in, optional]
 
 A handle to a framework memory object. This object represents a buffer that contains data that will be sent to the pipe. For more information about this buffer, see the following Remarks section.
 
 
-#### - WriteOffset [in, optional]
+### -param WriteOffset [in, optional]
 
 A pointer to a caller-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the write buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the buffer, and the transfer size is the buffer size.
 

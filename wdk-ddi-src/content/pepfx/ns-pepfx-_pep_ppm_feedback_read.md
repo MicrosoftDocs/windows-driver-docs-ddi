@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9D5787B8-CEF4-49AA-B7C6-C200AC95A280
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PPM_FEEDBACK_READ, _PEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ, kernel.pep_ppm_feedback_read, PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pep_ppm_feedback_read, PEP_PPM_FEEDBACK_READ, _PEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture], PPEP_PPM_FEEDBACK_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,7 +89,7 @@ typedef struct _PEP_PPM_FEEDBACK_READ {
  
 
 
-#### - CounterIndex
+### -field CounterIndex
 
 [in] The index that identifies which processor performance feedback counter to read. If the platform extension plug-in (PEP) supports N counters for this processor, counter indexes range from 0 to N-1. The PEP previously supplied the number of supported counters in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
 
@@ -99,14 +99,14 @@ typedef struct _PEP_PPM_FEEDBACK_READ {
 Either an instantaneous counter value, if the counter generates an instantaneous value, or both relative and accumulated counter values, if the counter hardware generates a relative value. For more information, see Remarks.
 
 
-#### InstantaneousValue
-
-[out] The current instantaneous value read from the counter, if the counter generates an instantaneous value.
-
-
 #### ( unnamed struct )
 
 The nominal accumulated count and actual count, if the counter hardware generates a relative value.
+
+
+#### ActualCount
+
+[out] The actual value read from the counter.
 
 
 #### NominalCount
@@ -114,9 +114,9 @@ The nominal accumulated count and actual count, if the counter hardware generate
 [out] The nominal accumulated value of the counter. The accumulated value is the sum of all actual values that have so far been read from the counter hardware.
 
 
-#### ActualCount
+#### InstantaneousValue
 
-[out] The actual value read from the counter.
+[out] The current instantaneous value read from the counter, if the counter generates an instantaneous value.
 
 
 ## -remarks

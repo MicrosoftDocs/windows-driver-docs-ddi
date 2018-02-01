@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d297d917-fc49-454a-aacd-4db0ac7a09c2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_COMMITVIDPN structure [Display Devices], DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml, _DXGKARG_COMMITVIDPN, DXGKARG_COMMITVIDPN, display.dxgkarg_commitvidpn, d3dkmddi/DXGKARG_COMMITVIDPN
+ms.keywords: display.dxgkarg_commitvidpn, DXGKARG_COMMITVIDPN, d3dkmddi/DXGKARG_COMMITVIDPN, _DXGKARG_COMMITVIDPN, DXGKARG_COMMITVIDPN structure [Display Devices], DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGKARG_COMMITVIDPN {
 
 
 
-#### - hFunctionalVidPn
+### -field hFunctionalVidPn
 
 A handle to a functional VidPN object that is to be made active on the display adapter.
 
 
-#### - AffectedVidPnSourceId
+### -field AffectedVidPnSourceId
 
 The constant D3DDDI_ID_ALL or the identifier of a particular video present source in the VidPN. If this member is a source identifier, <i>DxgkDdiCommitVidPn</i> updates only the modes of the video present paths that originate at that source -- <i>DxgkDdiCommitVidPn</i> does not have to inspect paths that originate from other sources, because those paths are the same in the new VidPN as they are in the currently active VidPN.  If this member is equal to D3DDDI_ID_ALL, <i>DxgkDdiCommitVidPn</i> must inspect and update the entire VidPN as a single transaction; that is, the entire new VidPN must be made active or the entire current VidPN must remain active.
 
 
-#### - MonitorConnectivityChecks
+### -field MonitorConnectivityChecks
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks.md">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a> enumerator (<b>D3DKMDT_MCC_IGNORE</b> or <b>D3DKMDT_MCC_ENFORCE</b>) that specifies whether to verify that video outputs in the new topology have monitors connected. If this member is equal to <b>D3DKMDT_MCC_ENFORCE</b> and one of the video outputs in the new VidPN's topology does not have a monitor connected, <i>DxgkDdiCommitVidPn</i> must leave the currently active VidPN in place and return STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY. If this member is equal to D3DKMDT_MCC_IGNORE, <i>DxgkDdiCommitVidPn</i> can make the new VidPN active without checking to see whether any video outputs have monitors connected.
 
 
-#### - hPrimaryAllocation
+### -field hPrimaryAllocation
 
 A handle to the primary allocation associated with the video present source identified by <i>AffectedVidPnSourceId</i>.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn_flags.md">DXGKARG_COMMITVIDPN_FLAGS</a> structure that identifies details about a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function.
 

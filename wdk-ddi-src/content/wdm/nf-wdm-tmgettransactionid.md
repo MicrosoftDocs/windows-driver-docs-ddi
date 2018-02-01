@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8ff4dd86-d828-4e1d-bde5-ab312187a8d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmGetTransactionId routine [Kernel-Mode Driver Architecture], wdm/TmGetTransactionId, kernel.tmgettransactionid, ktm_ref_cbb12580-5399-4d81-ab6c-9d0235208681.xml, TmGetTransactionId
+ms.keywords: TmGetTransactionId routine [Kernel-Mode Driver Architecture], TmGetTransactionId, wdm/TmGetTransactionId, ktm_ref_cbb12580-5399-4d81-ab6c-9d0235208681.xml, kernel.tmgettransactionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID TmGetTransactionId(
 
 
 
-#### - Transaction [in]
+### -param Transaction [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a> provided.
 
 
-#### - TransactionId [out]
+### -param TransactionId [out]
 
 A pointer to a location that receives the transaction object's UOW identifier.
 
@@ -97,13 +97,13 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
-
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
  
 

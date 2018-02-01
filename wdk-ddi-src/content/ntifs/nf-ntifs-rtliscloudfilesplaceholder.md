@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9FF2EC69-0844-4FD7-A2BC-F16C42922212
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlIsCloudFilesPlaceholder, ifsk.rtliscloudfilesplaceholder, RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], RtlIsCloudFilesPlaceholder
+ms.keywords: RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ifsk.rtliscloudfilesplaceholder, RtlIsCloudFilesPlaceholder, ntifs/RtlIsCloudFilesPlaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN RtlIsCloudFilesPlaceholder(
 
 
 
-#### - FileAttributes [in]
+### -param FileAttributes [in]
 
 Specifies the attributes of a file or directory.
 
 
-#### - ReparseTag [in]
+### -param ReparseTag [in]
 
 The ReparseTag or EaSize of a file or directory.
 

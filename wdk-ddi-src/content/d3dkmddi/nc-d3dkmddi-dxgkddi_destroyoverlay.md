@@ -70,7 +70,7 @@ NTSTATUS APIENTRY DxgkDdiDestroyOverlay(
 
 
 
-#### - hOverlay [in]
+### -param hOverlay [in]
 
 [in] A handle to the overlay to destroy. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a> structure. 
 

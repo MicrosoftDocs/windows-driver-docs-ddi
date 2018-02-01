@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d52d985c-3ebc-45a0-8073-ac26c77441c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], NdisAdjustMdlLength, netvista.ndisadjustmdllength, ndis/NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml
+ms.keywords: netvista.ndisadjustmdllength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, NdisAdjustMdlLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,24 +69,12 @@ VOID NdisAdjustMdlLength(
 
 
 
-### -param _Mdl
-
-TBD
-
-
-### -param _Length
-
-TBD
-
-
-
-
-#### - Mdl [in]
+### -param _Mdl [in]
 
 A pointer to a memory descriptor list (MDL).
 
 
-#### - Length [in]
+### -param _Length [in]
 
 The number of bytes of data that the MDL describes.
 
@@ -126,9 +114,9 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
-
 <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+
+<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
 
  
 

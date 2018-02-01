@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd8e989a-1030-4f37-bb39-38974764ccb2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_CORE structure pointer [Storage Devices], *PFEATURE_DATA_CORE, PFEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], ntddmmc/PFEATURE_DATA_CORE, FEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE, _FEATURE_DATA_CORE, storage.feature_data_core, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml
+ms.keywords: ntddmmc/PFEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE, FEATURE_DATA_CORE, *PFEATURE_DATA_CORE, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml, FEATURE_DATA_CORE structure [Storage Devices], _FEATURE_DATA_CORE, PFEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], storage.feature_data_core
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,29 +72,29 @@ typedef struct _FEATURE_DATA_CORE {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - PhysicalInterface
+### -field PhysicalInterface
 
 Must be set to the current communication path between initiator and device, as defined in the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. The bytes of this array are arranged in big-endian order. <b>PhysicalInterface</b>[0] contains the most significant byte, and <b>PhysicalInterface</b>[3] contains the least significant byte.
 
 
-#### - DeviceBusyEvent
+### -field DeviceBusyEvent
 
 
 
-#### - INQUIRY2
+### -field INQUIRY2
 
 
 
-#### - Reserved1
+### -field Reserved1
 
 
 
-#### - Reserved2
+### -field Reserved2
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ec10c10e-4604-47fc-a2e7-4df9d90acf0b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], stream.ksvalidateclockcreaterequest, KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml
+ms.keywords: ks/KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, stream.ksvalidateclockcreaterequest, KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NTSTATUS KsValidateClockCreateRequest(
 TBD
 
 
-#### - ClockCreate [out]
+### -param ClockCreate [out]
 
 Specifies the clock create structure pointer passed to the create request.
 

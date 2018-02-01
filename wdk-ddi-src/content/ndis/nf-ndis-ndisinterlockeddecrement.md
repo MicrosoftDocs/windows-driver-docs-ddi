@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf425cd6-88e6-479f-a5c7-364ae896145d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], NdisInterlockedDecrement, netvista.ndisinterlockeddecrement, ndis/NdisInterlockedDecrement
+ms.keywords: netvista.ndisinterlockeddecrement, NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,7 +70,7 @@ LONG NdisInterlockedDecrement(
 
 
 
-#### - Addend [in]
+### -param Addend [in]
 
 A pointer to the variable to be decremented.
 

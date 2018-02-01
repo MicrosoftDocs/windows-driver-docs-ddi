@@ -72,7 +72,7 @@ VOID NetFreeMdl(
 
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 A pointer to the MDL that is to be freed.
 
@@ -90,8 +90,8 @@ None
 If the NDIS driver specifies an entry point for the 
     <i>NetFreeMdl</i> function at the 
     <i>FreeMdl</i> parameter of the 
-    <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-    NdisAdvanceNetBufferDataStart</b></mshelp:link> function, NDIS calls 
+    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    NdisAdvanceNetBufferDataStart</a> function, NDIS calls 
     <i>NetFreeMdl</i> to free an MDL and memory.
 
 <i>NetFreeMdl</i> frees the MDL and memory that were allocated by the 
@@ -108,8 +108,8 @@ NDIS calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
 
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86b0510b-54ed-463e-b5d4-a34b0a98c00e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFOGSM, rilapitypes/RILPOSITIONINFOGSM, *LPRILPOSITIONINFOGSM, netvista.rilpositioninfogsm
+ms.keywords: RILPOSITIONINFOGSM, rilapitypes/RILPOSITIONINFOGSM, netvista.rilpositioninfogsm, *LPRILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ struct RILPOSITIONINFOGSM {
 
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfogsmparammask.md">RILPOSITIONINFOGSMPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - dwMobileCountryCode
+### -field dwMobileCountryCode
 
 Mobile country code (0...999)
 
 
-#### - dwMobileNetworkCode
+### -field dwMobileNetworkCode
 
 Mobile Network Code (0...999)
 
 
-#### - dwLocationAreaCode
+### -field dwLocationAreaCode
 
 Location Area Code (0…65535)
 
 
-#### - dwCellID
+### -field dwCellID
 
 Cell ID (0...65535)
 
 
-#### - dwTimingAdvance
+### -field dwTimingAdvance
 
 Timing Advance (0...255) in bit periods, where a bit period is 48/13µs
 
 
-#### - dwARFCN
+### -field dwARFCN
 
 Absolute radio frequency channel number of serving cell (0...1023)
 
 
-#### - dwBaseStationID
+### -field dwBaseStationID
 
 Radio base station ID of serving cell (0..63)
 
 
-#### - dwRxLevel
+### -field dwRxLevel
 
 Received signal strength of serving cell (0...63) where:
 

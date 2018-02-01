@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8f0e47c-4d06-445f-a6dd-9bd80fc490bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortGetSrb, srb/ScsiPortGetSrb, ScsiPortGetSrb routine [Storage Devices], scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml, storage.scsiportgetsrb
+ms.keywords: ScsiPortGetSrb, storage.scsiportgetsrb, srb/ScsiPortGetSrb, ScsiPortGetSrb routine [Storage Devices], scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ PSCSI_REQUEST_BLOCK ScsiPortGetSrb(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area.
 
 
-#### - PathId [in]
+### -param PathId [in]
 
 Identifies the SCSI bus.
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 Identifies the target controller or device on the bus.
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Identifies the logical unit number of the target device.
 
 
-#### - QueueTag [in]
+### -param QueueTag [in]
 
 Specifies the queue tag if the miniport driver handles tagged requests; SP_UNTAGGED indicates that the request is not tagged.
 

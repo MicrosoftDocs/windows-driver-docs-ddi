@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bce1a41a-03fa-4f41-aeba-e18c85b07e00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdasup/BdaCreateFilterFactory, bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices], stream.bdacreatefilterfactory
+ms.keywords: stream.bdacreatefilterfactory, bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, BdaCreateFilterFactory, bdasup/BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS BdaCreateFilterFactory(
 
 
 
-#### - pKSDevice [in]
+### -param pKSDevice [in]
 
 Points to the BDA device to which to add the filter factory with associated BDA template topology.
 
 
-#### - pFilterDescriptor [in]
+### -param pFilterDescriptor [in]
 
 Points to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes a filter for the BDA device. Note that not all of the template pin and node types may be exposed as pin and node factories when the filter is first initialized. 
 
 
-#### - pBdaFilterTemplate [in]
+### -param pBdaFilterTemplate [in]
 
 Points to a <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a> structure that describes a BDA template topology. 
 
@@ -121,21 +121,21 @@ A BDA minidriver calls the <b>BdaCreateFilterFactory</b> function to add a filte
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
-
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactoryex.md">BdaCreateFilterFactoryEx</a>
-
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+<a href="..\bdasup\nf-bdasup-bdacreatefilterfactoryex.md">BdaCreateFilterFactoryEx</a>
 
  
 

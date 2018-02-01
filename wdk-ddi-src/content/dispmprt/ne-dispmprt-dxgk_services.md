@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8853e0f8-1dd0-4cb5-8dbf-c1d4e62bb0ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxgkServicesSPB, DxgkServicesTimedOperation, dispmprt/DxgkServicesTimedOperation, dispmprt/DxgkServicesSPB, dispmprt/DxgkServicesBDD, dispmprt/DxgkServicesFirmwareTable, dispmprt/DXGK_SERVICES, DXGK_SERVICES, DxgkServicesAgp, DxgkServicesDebugReport, DXGK_SERVICES enumeration [Display Devices], DxgkServicesFirmwareTable, DxgkServicesBDD, dispmprt/DxgkServicesAgp, DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, display.dxgk_services, dispmprt/DxgkServicesDebugReport
+ms.keywords: DxgkServicesDebugReport, DxgkServicesTimedOperation, DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, DXGK_SERVICES enumeration [Display Devices], DxgkServicesSPB, dispmprt/DxgkServicesSPB, DxgkServicesAgp, dispmprt/DxgkServicesFirmwareTable, DXGK_SERVICES, dispmprt/DxgkServicesAgp, dispmprt/DXGK_SERVICES, dispmprt/DxgkServicesTimedOperation, DxgkServicesBDD, display.dxgk_services, DxgkServicesFirmwareTable, dispmprt/DxgkServicesBDD, dispmprt/DxgkServicesDebugReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,36 +72,36 @@ typedef enum  {
 
 
 
-#### - DxgkServicesAgp
+### -field DxgkServicesAgp
 
 Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>.
 
 
-#### - DxgkServicesDebugReport
+### -field DxgkServicesDebugReport
 
 Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report interface</a>.
 
 
-#### - DxgkServicesTimedOperation
+### -field DxgkServicesTimedOperation
 
 Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation interface</a>.
 
 
-#### - DxgkServicesSPB
+### -field DxgkServicesSPB
 
 Indicates the <a href="https://msdn.microsoft.com/D525A961-339D-414B-B40F-14AD9AEA51C5">Simple  Peripheral Bus (SPB) Interface</a>.
 
 Supported starting with Windows 8.
 
 
-#### - DxgkServicesBDD
+### -field DxgkServicesBDD
 
 Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.
 
 
-#### - DxgkServicesFirmwareTable
+### -field DxgkServicesFirmwareTable
 
 Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/jj647606">System Firmware Table Interface</a>.
 

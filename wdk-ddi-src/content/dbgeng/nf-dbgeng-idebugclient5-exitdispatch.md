@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c4db90d9-d6d3-4bab-ac3a-6b94b0818f53
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExitDispatch method [Windows Debugging], IDebugClient4 interface, ExitDispatch method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], ExitDispatch method, IDebugClient interface [Windows Debugging], ExitDispatch method, dbgeng/IDebugClient4::ExitDispatch, IDebugClient3::ExitDispatch, IDebugClient2::ExitDispatch, dbgeng/IDebugClient3::ExitDispatch, debugger.exitdispatch, IDebugClient5, ExitDispatch method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], ExitDispatch method, ExitDispatch method [Windows Debugging], IDebugClient3 interface, IDebugClient2 interface [Windows Debugging], ExitDispatch method, IDebugClient_5c4cc320-694e-481a-814d-a77653548f7d.xml, ExitDispatch, IDebugClient4::ExitDispatch, dbgeng/IDebugClient2::ExitDispatch, IDebugClient5 interface [Windows Debugging], ExitDispatch method, IDebugClient::ExitDispatch, ExitDispatch method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::ExitDispatch, ExitDispatch method [Windows Debugging], IDebugClient5::ExitDispatch, dbgeng/IDebugClient::ExitDispatch
+ms.keywords: ExitDispatch method [Windows Debugging], IDebugClient3::ExitDispatch, IDebugClient2 interface [Windows Debugging], ExitDispatch method, IDebugClient interface [Windows Debugging], ExitDispatch method, debugger.exitdispatch, dbgeng/IDebugClient3::ExitDispatch, ExitDispatch method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient5::ExitDispatch, IDebugClient3 interface [Windows Debugging], ExitDispatch method, IDebugClient5 interface [Windows Debugging], ExitDispatch method, ExitDispatch method [Windows Debugging], IDebugClient4 interface, ExitDispatch method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient2::ExitDispatch, ExitDispatch method [Windows Debugging], IDebugClient5 interface, IDebugClient5::ExitDispatch, IDebugClient4 interface [Windows Debugging], ExitDispatch method, IDebugClient::ExitDispatch, ExitDispatch, ExitDispatch method [Windows Debugging], IDebugClient2 interface, IDebugClient2::ExitDispatch, dbgeng/IDebugClient4::ExitDispatch, IDebugClient4::ExitDispatch, dbgeng/IDebugClient::ExitDispatch, IDebugClient5, IDebugClient_5c4cc320-694e-481a-814d-a77653548f7d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT ExitDispatch(
 
 
 
-#### - Client [in]
+### -param Client [in]
 
 Specifies the client whose <a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a> method should return.
 
@@ -113,17 +113,17 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

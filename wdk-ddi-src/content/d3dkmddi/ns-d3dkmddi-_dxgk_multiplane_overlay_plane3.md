@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2C524702-A819-4B91-B236-E00B2820813C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_multiplane_overlay_plane3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3, _DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3 structure [Display Devices]
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3 structure [Display Devices], display.dxgk_multiplane_overlay_plane3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE3, _DXGK_MULTIPLANE_OVERLAY_PLANE3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,27 +77,27 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE3 {
 
 
 
-#### - LayerIndex
+### -field LayerIndex
 
 The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
 
 
-#### - PresentId
+### -field PresentId
 
 A 64 bit per-plane identifier used by the driver to report completion of the overlay command.
 
 
-#### - InputFlags
+### -field InputFlags
 
 A DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure that identifies any plane specific display operations to perform.
 
 
-#### - OutputFlags
+### -field OutputFlags
 
 A DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure containing status returned by the driver.
 
 
-#### - MaxImmediateFlipLine
+### -field MaxImmediateFlipLine
 
 The display line delineating whether a VSYNC flip should be promoted to an immediate flip, where line 0 corresponds to the first active pixel of the frame. This value is ignored for non-VSYNC flips.
 
@@ -119,7 +119,7 @@ When a VSYNC flip is promoted to an immediate flip, the driver should set DXGK_P
 
 
 
-#### - ContextCount
+### -field ContextCount
 
 The number of contexts in the array that the Context member specifies.
 
@@ -129,17 +129,17 @@ The number of contexts in the array that the Context member specifies.
  
 
 
-#### - DriverPrivateDataSize
+### -field DriverPrivateDataSize
 
 The size of the private driver data.
 
 
-#### - pDriverPrivateData
+### -field pDriverPrivateData
 
 Private driver data.
 
 
-#### - PlaneAttributes
+### -field PlaneAttributes
 
 A structure of type DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 that specifies overlay plane attributes.
 

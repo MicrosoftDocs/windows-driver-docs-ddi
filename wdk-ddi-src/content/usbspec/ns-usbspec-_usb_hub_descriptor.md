@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6f5521f4-44da-4470-b649-d98c1d4e4891
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbspec/PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], USB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR, usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml, buses.usb_hub_descriptor, usbspec/USB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], _USB_HUB_DESCRIPTOR
+ms.keywords: usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml, usbspec/USB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], _USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], PUSB_HUB_DESCRIPTOR, usbspec/PUSB_HUB_DESCRIPTOR, buses.usb_hub_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _USB_HUB_DESCRIPTOR {
 
 
 
-#### - bDescriptorLength
+### -field bDescriptorLength
 
 The length, in bytes, of the descriptor.
 
 
-#### - bDescriptorType
+### -field bDescriptorType
 
 The descriptor type. For hub descriptors, this value should be 0x29.
 
 
-#### - bNumberOfPorts
+### -field bNumberOfPorts
 
 The number of ports on the hub.
 
 
-#### - wHubCharacteristics
+### -field wHubCharacteristics
 
 The hub characteristics. For more information about this member, see Universal Serial Bus Specification.
 
 
-#### - bPowerOnToPowerGood
+### -field bPowerOnToPowerGood
 
 The time, in 2-millisecond intervals, that it takes the device to turn on completely. For more information about this member, see Universal Serial Bus Specification.
 
 
-#### - bHubControlCurrent
+### -field bHubControlCurrent
 
 The maximum current requirements, in milliamperes, of the controller component of the hub.
 
 
-#### - bRemoveAndPowerMask
+### -field bRemoveAndPowerMask
 
 Not currently implemented. Do not use this member. 
 

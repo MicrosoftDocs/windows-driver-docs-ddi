@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61cee8ef-1070-46d4-a541-94a9f09b593b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml, FwpsInjectionHandleCreate0
+ms.keywords: netvista.fwpsinjectionhandlecreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], FwpsInjectionHandleCreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml, fwpsk/FwpsInjectionHandleCreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS NTAPI FwpsInjectionHandleCreate0(
 
 
 
-#### - addressFamily [in, optional]
+### -param addressFamily [in, optional]
 
 The address family for which the injection handle is being created. This can be one of the
      following address families:
@@ -87,11 +87,6 @@ For transport, stream, and forward injections, this parameter is optional and ca
      Ws2def.h.
 
 
-#### AF_UNSPEC
-
-The address family is unspecified.
-
-
 #### AF_INET
 
 The IPv4 address family.
@@ -102,7 +97,12 @@ The IPv4 address family.
 The IPv6 address family.
 
 
-#### - flags [in]
+#### AF_UNSPEC
+
+The address family is unspecified.
+
+
+### -param flags [in]
 
 A flag value set by a callout driver to indicate the type of data to be injected. This flag can have
      one or more of the following values: 
@@ -118,36 +118,36 @@ A flag value set by a callout driver to indicate the type of data to be injected
 #### FWPS_INJECTION_TYPE_FORWARD
 
 Packet data will be injected by calling the 
-       <mshelp:link keywords="netvista.fwpsinjectforwardasync0" tabindex="0"><b>
-       FwpsInjectForwardAsync0</b></mshelp:link> function.
+       <a href="..\fwpsk\nf-fwpsk-fwpsinjectforwardasync0.md">
+       FwpsInjectForwardAsync0</a> function.
 
 
 #### FWPS_INJECTION_TYPE_NETWORK
 
 Network data will be injected by calling either the 
-       <mshelp:link keywords="netvista.fwpsinjectnetworkreceiveasync0" tabindex="0"><b>
-       FwpsInjectNetworkReceiveAsync0</b></mshelp:link> function or the 
-       <mshelp:link keywords="netvista.fwpsinjectnetworksendasync0" tabindex="0"><b>
-       FwpsInjectNetworkSendAsync0</b></mshelp:link> function.
+       <a href="..\fwpsk\nf-fwpsk-fwpsinjectnetworkreceiveasync0.md">
+       FwpsInjectNetworkReceiveAsync0</a> function or the 
+       <a href="..\fwpsk\nf-fwpsk-fwpsinjectnetworksendasync0.md">
+       FwpsInjectNetworkSendAsync0</a> function.
 
 
 #### FWPS_INJECTION_TYPE_STREAM
 
 Stream data will be injected by calling the 
-       <mshelp:link keywords="netvista.fwpsstreaminjectasync0" tabindex="0"><b>
-       FwpsStreamInjectAsync0</b></mshelp:link> function.
+       <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">
+       FwpsStreamInjectAsync0</a> function.
 
 
 #### FWPS_INJECTION_TYPE_TRANSPORT
 
 Transport data will be injected by calling either the 
-       <mshelp:link keywords="netvista.fwpsinjecttransportreceiveasync0" tabindex="0"><b>
-       FwpsInjectTransportReceiveAsync0</b></mshelp:link> function or the 
-       <mshelp:link keywords="netvista.fwpsinjecttransportsendasync0" tabindex="0"><b>
-       FwpsInjectTransportSendAsync0</b></mshelp:link> function.
+       <a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportreceiveasync0.md">
+       FwpsInjectTransportReceiveAsync0</a> function or the 
+       <a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync0.md">
+       FwpsInjectTransportSendAsync0</a> function.
 
 
-#### - injectionHandle [out]
+### -param injectionHandle [out]
 
 A pointer to a variable that receives the handle.
 
@@ -207,10 +207,10 @@ A callout driver calls the
     <b>FwpsInjectionHandleCreate0</b> function to create a handle that can be used for injecting packet or
     stream data into the TCP/IP network stack and to query the packet injection state. A callout driver
     passes the created handle to the 
-    <mshelp:link keywords="netvista.packet_injection_functions" tabindex="0">packet injection
-    functions</mshelp:link> and 
-    <mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
-    FwpsQueryPacketInjectionState0</b></mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection
+    functions</a> and 
+    <a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
+    FwpsQueryPacketInjectionState0</a>.
 
 After a callout driver has finished using an injection handle, it must call the 
     <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a> function to destroy the handle. If pending injections have not yet
@@ -228,8 +228,8 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
 
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
-<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
-   FwpsQueryPacketInjectionState0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
+   FwpsQueryPacketInjectionState0</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 

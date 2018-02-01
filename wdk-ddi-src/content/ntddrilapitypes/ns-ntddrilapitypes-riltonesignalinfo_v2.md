@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0c40d65-d290-4fae-9fa7-57a9bf047f13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILTONESIGNALINFO, RILTONESIGNALINFO_V2, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v2, ntddrilapitypes/RILTONESIGNALINFO_V2, RILTONESIGNALINFO"
+ms.keywords: RILTONESIGNALINFO, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v2, *LPRILTONESIGNALINFO_V2, ntddrilapitypes/RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2, *LPRILTONESIGNALINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,26 +72,26 @@ typedef struct _RILTONESIGNALINFO_V2 {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwGPPTone
+### -field dwGPPTone
 
 
 
-#### - dwGPP2Tone
+### -field dwGPP2Tone
 
 
 
-#### - dwGPP2IsdnAlerting
+### -field dwGPP2IsdnAlerting
 
 

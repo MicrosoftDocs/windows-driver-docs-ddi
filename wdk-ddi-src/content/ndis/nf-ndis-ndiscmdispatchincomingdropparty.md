@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, netvista.ndiscmdispatchincomingdropparty, NdisCmDispatchIncomingDropParty, ndis/NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista]
+ms.keywords: condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], ndis/NdisCmDispatchIncomingDropParty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,26 +73,26 @@ VOID NdisCmDispatchIncomingDropParty(
 
 
 
-#### - DropStatus [in]
+### -param DropStatus [in]
 
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
      simply requested that its connection be closed.
 
 
-#### - NdisPartyHandle [in]
+### -param NdisPartyHandle [in]
 
 Specifies the handle that identifies the party to be dropped from the multipoint VC, which must
      have other parties that are still connected.
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 Pointer to a caller-allocated resident buffer containing additional protocol-specific data
      received from the remote party, if any. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
@@ -109,8 +109,8 @@ None
 
 
 In the course of normal network operations, a stand-alone call manager's 
-    <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-    ProtocolCoReceiveNetBufferLists</i></mshelp:link> function calls 
+    <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+    ProtocolCoReceiveNetBufferLists</a> function calls 
     <b>NdisCmDispatchIncomingDropParty</b> with the 
     <i>CloseStatus</i> set to NDIS_STATUS_SUCCESS because a remote client on a multipoint connection has
     called 
@@ -124,13 +124,13 @@ However, a call manager also can call
 
 A call to 
     <b>NdisCmDispatchIncomingDropParty</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
-    ProtocolClIncomingDropParty</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+    ProtocolClIncomingDropParty</a> function.
 
 If the 
     <i>NdisPartyHandle</i> identifies the last remaining party on the given VC, the CM calls 
-    <mshelp:link keywords="netvista.ndiscmdispatchincomingclosecall" tabindex="0"><b>
-    NdisCmDispatchIncomingCloseCall</b></mshelp:link>, rather than 
+    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+    NdisCmDispatchIncomingCloseCall</a>, rather than 
     <b>NdisCmDispatchIncomingDropParty</b>.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
@@ -142,18 +142,18 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismcmdispatchincomingdropparty" tabindex="0"><b>
-   NdisMCmDispatchIncomingDropParty</b></mshelp:link>
-
-<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
-
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
-<mshelp:link keywords="netvista.ndiscmdispatchincomingclosecall" tabindex="0"><b>
-   NdisCmDispatchIncomingCloseCall</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+   NdisCmDispatchIncomingCloseCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
+   NdisMCmDispatchIncomingDropParty</a>
 
  
 

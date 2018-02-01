@@ -74,7 +74,7 @@ typedef EVT_UCX_ENDPOINT_START PEVT_UCX_ENDPOINT_START;
 
 
 
-#### - UcxController [in]
+### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 

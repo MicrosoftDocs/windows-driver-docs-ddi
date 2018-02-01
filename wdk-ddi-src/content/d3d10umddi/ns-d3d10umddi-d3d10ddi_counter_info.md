@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fda3d4a2-4c1a-454d-bcb0-4174699c5bb8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDI_COUNTER_INFO structure [Display Devices], D3D10DDI_COUNTER_INFO, display.d3d10ddi_counter_info, d3d10umddi/D3D10DDI_COUNTER_INFO, UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml
+ms.keywords: display.d3d10ddi_counter_info, D3D10DDI_COUNTER_INFO structure [Display Devices], d3d10umddi/D3D10DDI_COUNTER_INFO, D3D10DDI_COUNTER_INFO, UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D10DDI_COUNTER_INFO {
 
 
 
-#### - LastDeviceDependentCounter
+### -field LastDeviceDependentCounter
 
 [out] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the largest device-dependent counter identifier that the device supports. If none are supported, the user-mode display driver must set the value to 0; otherwise, the driver sets the value to greater than or equal to D3D10DDI_COUNTER_DEVICE_DEPENDENT_0 (0x40000000). 
 
 
-#### - NumSimultaneousCounters
+### -field NumSimultaneousCounters
 
 [out] The number of simultaneously active counters that the driver supports. 
 
 
-#### - NumDetectableParallelUnits
+### -field NumDetectableParallelUnits
 
 [out] The number of detectable parallel units that the counters can identify. Valid values are from 1 through 4.
 

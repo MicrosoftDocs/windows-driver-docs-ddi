@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb6a50b4-275f-42c9-8121-17677971ebb2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2, GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], debugger.getindexbynamewide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetIndexByNameWide
+ms.keywords: IDebugRegisters2::GetIndexByNameWide, dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, debugger.getindexbynamewide, IDebugRegisters2, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide method [Windows Debugging], GetIndexByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetIndexByNameWide(
 
 
 
-#### - Name [in]
+### -param Name [in]
 
 Specifies the name of the register whose index is requested.
 
 
-#### - Index [out]
+### -param Index [out]
 
 Receives the index of the register.
 

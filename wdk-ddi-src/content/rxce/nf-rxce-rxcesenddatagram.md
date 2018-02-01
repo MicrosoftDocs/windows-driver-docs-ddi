@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeSendDatagram function [Installable File System Drivers], rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, RxCeSendDatagram, rxce/RxCeSendDatagram, ifsk.rxcesenddatagram
+ms.keywords: ifsk.rxcesenddatagram, rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,7 +79,7 @@ NTSTATUS RxCeSendDatagram(
 TBD
 
 
-#### - pConnectionInformation [in]
+### -param pConnectionInformation [in]
 
 A pointer to connection information that contains the remote address.
 
@@ -89,29 +89,19 @@ A pointer to connection information that contains the remote address.
 TBD
 
 
-#### - pMdl [in]
+### -param pMdl [in]
 
 A pointer to the buffer to be sent.
 
 
-#### - SendLength [in]
+### -param SendLength [in]
 
 The length of data to be sent.
 
 
-#### - pCompletionContext [in]
+### -param pCompletionContext [in]
 
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
-
-
-#### - pTransport [in]
-
-A pointer to the transport along which the TSDU is to be sent.
-
-
-#### - pAddress [in]
-
-A pointer to the local transport address.
 
 
 #### - Options [in]
@@ -131,6 +121,16 @@ Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only porti
 Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
 
 Note that the RXCE_SEND_SYNCHRONOUS option is disregarded for sending datagrams because the underlying transports do not block on datagram sends.
+
+
+#### - pAddress [in]
+
+A pointer to the local transport address.
+
+
+#### - pTransport [in]
+
+A pointer to the transport along which the TSDU is to be sent.
 
 
 ## -returns
@@ -187,9 +187,9 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
-<a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+<a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
 
  
 

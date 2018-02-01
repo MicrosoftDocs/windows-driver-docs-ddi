@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags, _D3DDDICB_LOCK2FLAGS
+ms.keywords: d3dukmdt/D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], _D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,21 +74,21 @@ typedef struct _D3DDDICB_LOCK2FLAGS {
 
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and must be zero.
 
 
-#### - Value
+### -field Value
 
 This member must be zero.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>
 
  
 

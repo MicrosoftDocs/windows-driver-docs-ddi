@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress, _D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS
+ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress, D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,23 +81,8 @@ typedef struct _D3DDDICB_UPDATEGPUVIRTUALADDRESS {
 
 
 
-#### - Flags
+### -field Flags
 
-
-
-#### DoNotWait
-
-When set to 1, there will be no wait for the sync objects before executing the operations.
-
-
-#### Reserved
-
-This member is reserved and should be set to zero.
-
-
-#### Value
-
-The consolidated value of the <b>Flags</b> union.
 
 
 ### -field Flags.DoNotWait
@@ -115,47 +100,47 @@ This member is reserved and should be set to zero.
 The consolidated value of the <b>Flags</b> union.
 
 
-#### - hContext
+### -field hContext
 
 Specifies the context against which the map operation will be synchronized against. This also determines which kernel context the map operation will be executed against. In an linked display adapter configuration <b>hContext</b> defines a physical GPU, whose page tables are modified.
 
 
-#### - hFenceObject
+### -field hFenceObject
 
 Specifies the monitored fence object to use for synchronization. This should typically be set to the monitored fence used by the user mode driver to track progress of <b>hContext</b>. 
 
 
-#### - NumOperations
+### -field NumOperations
 
 Specifies the number of operations in the <b>Operations</b> array. 
 
 
-#### - Operations
+### -field Operations
 
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a> array of operations to perform on the GPU virtual address space.
 
 
-#### - Reserved0
+### -field Reserved0
 
 This member is reserved and should be set to zero.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved and should be set to zero.
 
 
-#### - FenceValue
+### -field FenceValue
 
 Specifies the <b>FenceValue</b> for <b>hFenceObject</b> that the <i>Map</i> operation should wait on (unless <b>DoNotWait</b> is 1). When the <i>Map</i> operation completes, the fence object will signal <b>hFenceObject</b> with <b>FenceValue</b>+1.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
 
  
 

@@ -71,17 +71,12 @@ NTSTATUS PnpGetLocationString(
 
 
 
-#### - Context [in, out]
+### -param Context [in, out]
 
 A pointer to interface-specific context information.  The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a> structure.
 
 
-#### - *LocationStrings [out]
-
-A pointer to a sequence of null-terminated Unicode strings, that is terminated by another zero. Each string serves as a location string for the device. Drivers typically return a single string.
-
-
-#### - LocationStrings [out]
+### -param *LocationStrings [out]
 
 A pointer to a sequence of null-terminated Unicode strings, that is terminated by another zero. Each string serves as a location string for the device. Drivers typically return a single string.
 
@@ -104,7 +99,7 @@ The routine must return a string that is unique to the device relative to its bu
 
 By convention, the location string takes the form <i>ServiceName(BusSpecificLocation)</i>. For example, PCI devices use PCI(<i>XXYY</i>), where <i>XX</i> is the device number, and <i>YY</i> is the function number.
 
-The <i>PnpGetLocationString</i> routine calls a routine such as <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> to allocate the memory for the location string. The caller is responsible for calling the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine to free the memory pointed to by <i>LocationStrings</i> when the location string is no longer needed.
+The <i>PnpGetLocationString</i> routine calls a routine such as <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> to allocate the memory for the location string. The caller is responsible for calling the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine to free the memory pointed to by <i>LocationStrings</i> when the location string is no longer needed.
 
 
 
@@ -112,9 +107,9 @@ The <i>PnpGetLocationString</i> routine calls a routine such as <a href="..\wdm\
 
 <a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a>
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
  
 

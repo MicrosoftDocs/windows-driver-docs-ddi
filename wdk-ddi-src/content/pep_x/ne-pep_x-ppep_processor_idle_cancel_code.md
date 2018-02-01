@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6112360C-B74F-4A77-8DE5-3EF1AAF49533
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PepIdleCancelWorkPending, PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelNoCState, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], PepIdleCancelNoCState, pep_x/PepIdleCancelMax, *PPEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, PepIdleCancelWorkPending, kernel.pep_processor_idle_cancel_code, PepIdleCancelDependencyCheckFailed, PepIdleCancelMax, pep_x/PepIdleCancelDependencyCheckFailed
+ms.keywords: pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelMax, PepIdleCancelNoCState, *PPEP_PROCESSOR_IDLE_CANCEL_CODE, kernel.pep_processor_idle_cancel_code, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelWorkPending, PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelNoCState, PepIdleCancelMax, PepIdleCancelWorkPending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _PEP_PROCESSOR_IDLE_CANCEL_CODE {
 
 
 
-#### - PepIdleCancelWorkPending
+### -field PepIdleCancelWorkPending
 
 The processor has pending work that prevents it from entering the selected idle state.
 
 
-#### - PepIdleCancelDependencyCheckFailed
+### -field PepIdleCancelDependencyCheckFailed
 
 The processor can enter the selected idle state only after one or more secondary processors have entered their corresponding idle states, but not all of these secondary processors have entered the correct idle states.
 
 
-#### - PepIdleCancelNoCState
+### -field PepIdleCancelNoCState
 
 The selected idle state corresponds to a C-state that is not supported. The PEP previously received a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification that supplied a list of the supported C-states for this processor.
 
 
-#### - PepIdleCancelMax
+### -field PepIdleCancelMax
 
 Reserved for use by the operating system.
 
@@ -99,9 +99,9 @@ The <b>CancelCode</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_can
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
-
 <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_cancel.md">PEP_PPM_IDLE_CANCEL</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
 
  
 

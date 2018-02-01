@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57505700-9775-4dac-a106-951da0744631
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kepulseevent, KePulseEvent routine [Kernel-Mode Driver Architecture], ntddk/KePulseEvent, k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, KePulseEvent
+ms.keywords: k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, KePulseEvent, ntddk/KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], kernel.kepulseevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ LONG KePulseEvent(
 
 
 
-#### - Event [in, out]
+### -param Event [in, out]
 
 A pointer to a dispatcher object of type KEVENT. 
 
 
-#### - Increment [in]
+### -param Increment [in]
 
 Specifies the priority increment that is to be applied if setting the event causes a wait to be satisfied.
 
 
-#### - Wait [in]
+### -param Wait [in]
 
 Specifies a Boolean value that signifies whether the call to <b>KePulseEvent</b> will be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KePulseEvent</b> call is immediately followed by a call to <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
 
@@ -113,17 +113,17 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 <a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
  
 

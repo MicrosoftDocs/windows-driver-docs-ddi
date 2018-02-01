@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8a81d7e-abab-4343-a044-ac9dd913c7f2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], wsk/WskQueryProviderCharacteristics, WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml, netvista.wskqueryprovidercharacteristics
+ms.keywords: WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], wsk/WskQueryProviderCharacteristics, netvista.wskqueryprovidercharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,14 +72,14 @@ NTSTATUS WskQueryProviderCharacteristics(
 
 
 
-#### - WskRegistration [in]
+### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
      <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK
      application's registration instance.
 
 
-#### - WskProviderCharacteristics [out]
+### -param WskProviderCharacteristics [out]
 
 A pointer to the range of WSK NPI versions supported by the WSK subsystem.
 

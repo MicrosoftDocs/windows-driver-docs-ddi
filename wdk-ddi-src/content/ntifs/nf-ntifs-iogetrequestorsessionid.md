@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e13cf62-d71e-4878-becd-d34beb2f59b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, IoGetRequestorSessionId routine [Installable File System Drivers], ntifs/IoGetRequestorSessionId, IoGetRequestorSessionId, ifsk.iogetrequestorsessionid
+ms.keywords: ifsk.iogetrequestorsessionid, ntifs/IoGetRequestorSessionId, IoGetRequestorSessionId routine [Installable File System Drivers], ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, IoGetRequestorSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS IoGetRequestorSessionId(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the I/O request packet (IRP) for the I/O operation. 
 
 
-#### - pSessionId [out]
+### -param pSessionId [out]
 
 A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call to <a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a> fails, this variable is set to -1.
 
@@ -88,9 +88,9 @@ A pointer to a caller-allocated variable that receives the session ID for the pr
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
-
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a>
+
+<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
 
  
 

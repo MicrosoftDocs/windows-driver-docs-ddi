@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe interface, SetPipePolicy method, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, wudfusb/IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, IWDFUsbTargetPipe, SetPipePolicy, SetPipePolicy method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_setpipepolicy, umdf.iwdfusbtargetpipe_setpipepolicy, IWDFUsbTargetPipe::SetPipePolicy
+ms.keywords: IWDFUsbTargetPipe, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, SetPipePolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_setpipepolicy, IWDFUsbTargetPipe::SetPipePolicy, IWDFUsbTargetPipe interface, SetPipePolicy method, SetPipePolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT SetPipePolicy(
 
 
 
-#### - PolicyType [in]
+### -param PolicyType [in]
 
 The type of WinUsb pipe policy that the UMDF driver sets.
 
 
-#### - ValueLength [in]
+### -param ValueLength [in]
 
 The size, in bytes, of the buffer that <b>SetPipePolicy</b> supplies for <i>Value</i>.
 
 
-#### - Value [in]
+### -param Value [in]
 
 A pointer to the buffer that contains the WinUsb pipe policy.
 
@@ -150,9 +150,9 @@ The <b>SetPipePolicy</b> method generates a UMDF request and synchronously sends
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560418">IWDFUsbTargetPipe::RetrievePipePolicy</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 

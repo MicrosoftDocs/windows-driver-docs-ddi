@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 373788d8-4963-4319-82ae-3a0675c9fff4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.file_fs_attribute_information, FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, _FILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_FS_ATTRIBUTE_INFORMATION
+ms.keywords: ntifs/FILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], _FILE_FS_ATTRIBUTE_INFORMATION, ifsk.file_fs_attribute_information, *PFILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, FILE_FS_ATTRIBUTE_INFORMATION, ntifs/PFILE_FS_ATTRIBUTE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _FILE_FS_ATTRIBUTE_INFORMATION {
 
 
 
-#### - FileSystemAttributes
+### -field FileSystemAttributes
 
 Bitmask of flags specifying attributes of the specified file system, as a compatible combination of the 
        following flags.
@@ -226,18 +226,18 @@ The file system supports per-user quotas.
 </table> 
 
 
-#### - MaximumComponentNameLength
+### -field MaximumComponentNameLength
 
 Maximum file name component length, in bytes, supported by the specified file system. A file name component 
       is that portion of a file name between backslashes.
 
 
-#### - FileSystemNameLength
+### -field FileSystemNameLength
 
 Length, in bytes, of the file system name.
 
 
-#### - FileSystemName
+### -field FileSystemName
 
 File system name.
 
@@ -281,13 +281,13 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
  
 

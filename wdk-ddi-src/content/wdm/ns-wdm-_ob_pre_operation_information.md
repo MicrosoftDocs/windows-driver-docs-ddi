@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fe0f1aa-cf9f-4b45-8c34-a6d810fd461a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ob_pre_operation_information, kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, wdm/OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION, wdm/POB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION
+ms.keywords: wdm/OB_PRE_OPERATION_INFORMATION, _OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION, kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, OB_PRE_OPERATION_INFORMATION, wdm/POB_PRE_OPERATION_INFORMATION, kernel.ob_pre_operation_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,22 +79,22 @@ typedef struct _OB_PRE_OPERATION_INFORMATION {
 
 
 
-#### - KernelHandle
+### -field KernelHandle
 
 A bit that specifies whether the handle is a kernel handle. If this member is <b>TRUE</b>, the handle is a kernel handle. Otherwise, this handle is not a kernel handle.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Flags
+### -field Flags
 
 Reserved. Use the <b>KernelHandle</b> member instead.
 
 
-#### - Operation
+### -field Operation
 
 The type of handle operation. This member might be one of the following values:
 
@@ -111,31 +111,31 @@ A new handle to a process or thread will be opened. Use <b>Parameters-&gt;Create
 A process or thread handle will be duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
 
 
-#### - Object
+### -field Object
 
 A pointer to the process or thread object that is the target of the handle operation.
 
 
-#### - ObjectType
+### -field ObjectType
 
 A pointer to the object type of the object. This member is <b>PsProcessType</b> for a process or <b>PsThreadType</b> for a thread.
 
 
-#### - CallContext
+### -field CallContext
 
 A pointer to driver-specific context information for the operation. By default, the Filter Manager sets this member to <b>NULL</b>, but the <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a> routine can reset the <b>CallContext</b> member in a driver-specific manner. The Filter Manager passes this value to the matching <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a> routine.
 
 
-#### - Parameters
+### -field Parameters
 
 A pointer to an <a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid.
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 <a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a>
 

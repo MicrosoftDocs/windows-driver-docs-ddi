@@ -69,17 +69,17 @@ NTSTATUS IoReplaceFileObjectName(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to the file object whose file name is being replaced. 
 
 
-#### - NewFileName [in]
+### -param NewFileName [in]
 
 Pointer to the string buffer for the new name for the file object.
 
 
-#### - FileNameLength [in]
+### -param FileNameLength [in]
 
 Length, in bytes, of the new name for the file object. 
 

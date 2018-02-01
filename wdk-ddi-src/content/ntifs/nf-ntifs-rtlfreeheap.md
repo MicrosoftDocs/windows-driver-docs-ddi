@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5e8b6bd7-71e7-45ad-985c-fe197693ce05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlfreeheap, rtlref_02e7cb93-ec45-41c9-8e58-72c221cece37.xml, RtlFreeHeap, RtlFreeHeap routine [Installable File System Drivers], ntifs/RtlFreeHeap
+ms.keywords: RtlFreeHeap, RtlFreeHeap routine [Installable File System Drivers], rtlref_02e7cb93-ec45-41c9-8e58-72c221cece37.xml, ntifs/RtlFreeHeap, ifsk.rtlfreeheap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN RtlFreeHeap(
 
 
 
-#### - HeapHandle [in]
+### -param HeapHandle [in]
 
 A handle for the heap whose memory block is to be freed. This parameter is a handle returned by <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>. 
 
 
-#### - Flags [in, optional]
+### -param Flags [in, optional]
 
 A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the <i>Flags</i> parameter when the heap was created by <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>. 
 <table>
@@ -122,9 +122,9 @@ A pointer to the memory block to free. This pointer is returned by <a href="..\n
 
 <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
-
 <a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
 
  
 

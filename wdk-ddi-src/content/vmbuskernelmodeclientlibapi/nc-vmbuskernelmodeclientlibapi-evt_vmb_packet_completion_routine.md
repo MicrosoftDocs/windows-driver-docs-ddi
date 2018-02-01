@@ -79,24 +79,24 @@ typedef EVT_VMB_PACKET_COMPLETION_ROUTINE PFN_VMB_PACKET_COMPLETION_ROUTINE;
 
 
 
-#### - Packet [in]
+### -param Packet [in]
 
 The packet that is completed.
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 A status code.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A buffer that contains the completion response from the opposite endpoint, if any.
 
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 Length of the <i>Buffer</i> parameter, in bytes.
 

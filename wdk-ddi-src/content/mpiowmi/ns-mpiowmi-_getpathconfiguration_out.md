@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 055db46e-59fc-4eb9-93d7-16d680495220
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: GetPathConfiguration_OUT, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, _GetPathConfiguration_OUT, PGetPathConfiguration_OUT structure pointer [Storage Devices], GetPathConfiguration_OUT structure [Storage Devices], mpiowmi/GetPathConfiguration_OUT, storage.getpathconfiguration_out, PGetPathConfiguration_OUT, mpiowmi/PGetPathConfiguration_OUT, *PGetPathConfiguration_OUT
+ms.keywords: mpiowmi/GetPathConfiguration_OUT, PGetPathConfiguration_OUT, *PGetPathConfiguration_OUT, GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], PGetPathConfiguration_OUT structure pointer [Storage Devices], _GetPathConfiguration_OUT, storage.getpathconfiguration_out, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, mpiowmi/PGetPathConfiguration_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _GetPathConfiguration_OUT {
 
 
 
-#### - EntryCount
+### -field EntryCount
 
 A 32-bitfield that indicates the number of entries contained in the array of SCSI addresses.
 
 
-#### - Address
+### -field Address
 
 An array that returns information about the SCSI addresses. The number of elements in the array is given by EntryCount and each element of the array represents an instance of an SCSI_ADDR structure.
 

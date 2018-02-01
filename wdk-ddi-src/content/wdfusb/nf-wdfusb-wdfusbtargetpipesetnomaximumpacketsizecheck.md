@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 552eaf46-1710-4df5-bdc3-0fa7ce3adf54
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdf.wdfusbtargetpipesetnomaximumpacketsizecheck, DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, PFN_WDFUSBTARGETPIPESETNOMAXIMUMPACKETSIZECHECK, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
+ms.keywords: WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, PFN_WDFUSBTARGETPIPESETNOMAXIMUMPACKETSIZECHECK, DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdf.wdfusbtargetpipesetnomaximumpacketsizecheck, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method, wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfUsbTargetPipeSetNoMaximumPacketSizeCheck(
 
 
 
-#### - Pipe [in]
+### -param Pipe [in]
 
 A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
@@ -100,9 +100,9 @@ For more information about the <b>WdfUsbTargetPipeSetNoMaximumPacketSizeCheck</b
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
  
 

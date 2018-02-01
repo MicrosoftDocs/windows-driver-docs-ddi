@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 296ed752-ddb6-41db-957f-606acc53b3b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWTRIPATCH structure [Display Devices], D3DDDIARG_DRAWTRIPATCH, display.d3dddiarg_drawtripatch, d3dumddi/D3DDDIARG_DRAWTRIPATCH, UMDisplayDriver_param_Structs_e4f18b26-f2ae-46e2-af49-6ae55f79b2be.xml, _D3DDDIARG_DRAWTRIPATCH
+ms.keywords: display.d3dddiarg_drawtripatch, UMDisplayDriver_param_Structs_e4f18b26-f2ae-46e2-af49-6ae55f79b2be.xml, d3dumddi/D3DDDIARG_DRAWTRIPATCH, _D3DDDIARG_DRAWTRIPATCH, D3DDDIARG_DRAWTRIPATCH structure [Display Devices], D3DDDIARG_DRAWTRIPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDIARG_DRAWTRIPATCH {
 
 
 
-#### - Handle
+### -field Handle
 
 [in] The handle to the patch surface.
 

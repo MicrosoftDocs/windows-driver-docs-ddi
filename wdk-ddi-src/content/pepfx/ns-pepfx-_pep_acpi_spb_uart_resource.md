@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_SPB_UART_RESOURCE, 3, PEP_ACPI_SPB_UART_RESOURCE, 6, 5, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_UART_RESOURCE, pepfx/PEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, 4, kernel.pep_acpi_spb_uart_resource, 7, 0, 1, 2
+ms.keywords: PEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], 5, _PEP_ACPI_SPB_UART_RESOURCE, 0, kernel.pep_acpi_spb_uart_resource, 1, 2, PPEP_ACPI_SPB_UART_RESOURCE, 6, 7, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], *PPEP_ACPI_SPB_UART_RESOURCE, pepfx/PEP_ACPI_SPB_UART_RESOURCE, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, 3, 4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _PEP_ACPI_SPB_UART_RESOURCE {
 
 
 
-#### - SpbCommon
+### -field SpbCommon
 
 A <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
 
 
-#### - BaudRate
+### -field BaudRate
 
 The baud rate of the connection.
 
 
-#### - RxBufferSize
+### -field RxBufferSize
 
 The maximum receive buffer size, in bytes, that is supported by this connection.
 
 
-#### - TxBufferSize
+### -field TxBufferSize
 
 The maximum transmit buffer size, in bytes, that is supported by this connection.
 
 
-#### - Parity
+### -field Parity
 
 Indicates the parity of the connection.
 <table>
@@ -158,7 +158,7 @@ Space
 </table> 
 
 
-#### - LinesInUse
+### -field LinesInUse
 
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
 <table>

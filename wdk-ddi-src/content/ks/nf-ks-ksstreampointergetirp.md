@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ed4ed2f-66be-4429-b2d6-2d9d3f9bcf3e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreampointergetirp, KsStreamPointerGetIrp function [Streaming Media Devices], KsStreamPointerGetIrp, ks/KsStreamPointerGetIrp, avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml
+ms.keywords: KsStreamPointerGetIrp, KsStreamPointerGetIrp function [Streaming Media Devices], stream.ksstreampointergetirp, avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, ks/KsStreamPointerGetIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ PIRP KsStreamPointerGetIrp(
 
 
 
-#### - StreamPointer [in]
+### -param StreamPointer [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that references the frame for which the associated IRP is returned.
 
 
-#### - FirstFrameInIrp [out, optional]
+### -param FirstFrameInIrp [out, optional]
 
 A pointer to a caller-supplied BOOLEAN value set to <b>TRUE</b> on return if the frame referenced by <i>StreamPointer</i> is the first frame in the returned IRP and <b>FALSE</b> if not. If <b>NULL</b>, AVStream does not test this condition.
 
 
-#### - LastFrameInIrp [out, optional]
+### -param LastFrameInIrp [out, optional]
 
 A pointer to a caller-supplied BOOLEAN value set to <b>TRUE</b> if the frame referenced by the stream pointer is the last frame in the returned IRP and <b>FALSE</b> if not. If <b>NULL</b>, AVStream does not test this condition.
 
@@ -107,9 +107,9 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-
 <a href="..\ks\nf-ks-ksstreampointergetmdl.md">KsStreamPointerGetMdl</a>
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
  
 

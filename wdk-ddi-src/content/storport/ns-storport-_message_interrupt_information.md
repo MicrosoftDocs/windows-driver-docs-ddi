@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.message_interrupt_information, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, storport/PMESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], storport/MESSAGE_INTERRUPT_INFORMATION, _MESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION
+ms.keywords: MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION, storport/MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], _MESSAGE_INTERRUPT_INFORMATION, storage.message_interrupt_information, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], PMESSAGE_INTERRUPT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct _MESSAGE_INTERRUPT_INFORMATION {
 
 
 
-#### - MessageId
+### -field MessageId
 
 An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes. 
 
 
-#### - MessageData
+### -field MessageData
 
 The data associated with the message. 
 
 
-#### - MessageAddress
+### -field MessageAddress
 
 The physical address associated with the message. 
 
 
-#### - InterruptVector
+### -field InterruptVector
 
 The interrupt vector associated with the message. 
 
 
-#### - InterruptLevel
+### -field InterruptLevel
 
 The interrupt level associated with the message. 
 
 
-#### - InterruptMode
+### -field InterruptMode
 
 A value of type <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
 

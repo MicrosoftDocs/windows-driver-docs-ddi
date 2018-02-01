@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4ad768c9-211d-4370-b6d3-6d88b223fe48
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksregisterfilterwithnokspins, KsRegisterFilterWithNoKSPins, ks/KsRegisterFilterWithNoKSPins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices], avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml
+ms.keywords: ks/KsRegisterFilterWithNoKSPins, KsRegisterFilterWithNoKSPins, avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml, stream.ksregisterfilterwithnokspins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS KsRegisterFilterWithNoKSPins(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure corresponding to the device to which to register the filter.
 
 
-#### - InterfaceClassGUID [in]
+### -param InterfaceClassGUID [in]
 
 A pointer to the GUID representing the class to register. For instance, this would point to KSCATEGORY_TVTUNER for a TvTuner filter.
 
 
-#### - PinCount [in]
+### -param PinCount [in]
 
 The count of the number of pins on the filter.
 
 
-#### - PinDirection [in]
+### -param PinDirection [in]
 
 A pointer to the first element of an array of Boolean values indicating pin direction for each pin on the filter. Output pins are <b>TRUE</b>; input pins are <b>FALSE</b>. This array must be <i>PinCount</i> in length.
 
 
-#### - MediumList [in]
+### -param MediumList [in]
 
 A pointer to the first element of an array of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structures defining the mediums for each pin on the filter. This array must be <i>PinCount</i> in length.
 
 
-#### - CategoryList [in, optional]
+### -param CategoryList [in, optional]
 
 A pointer to the first element of an array of GUIDs defining the categories for each pin on the filter. If this parameter is present, it must be <i>PinCount</i> in length.
 
@@ -125,13 +125,13 @@ For more information, see <a href="https://msdn.microsoft.com/fd436406-311b-4537
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterfactoryupdatecachedata.md">KsFilterFactoryUpdateCacheData</a>
-
 <a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\ks\nf-ks-ksfilterfactoryupdatecachedata.md">KsFilterFactoryUpdateCacheData</a>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

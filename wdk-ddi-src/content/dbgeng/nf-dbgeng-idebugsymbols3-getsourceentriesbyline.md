@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ab63fe-0c59-480c-a333-a9b14d83ad68
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLine method, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, debugger.getsourceentriesbyline, GetSourceEntriesByLine, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3, IDebugSymbols3::GetSourceEntriesByLine
+ms.keywords: IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3 interface, debugger.getsourceentriesbyline, GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine, IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLine method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetSourceEntriesByLine(
 
 
 
-#### - Line [in]
+### -param Line [in]
 
 Specifies the line in the source file for which to query.  The number for the first line is <b>1</b>.
 
 
-#### - File [in]
+### -param File [in]
 
 Specifies the source file.  The symbols for each module in the target are queried for this file.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies bit flags that control the behavior of this method.  <i>Flags</i> can be any combination of values from the following table.
 <table>
@@ -137,12 +137,12 @@ Only return at most one result.  If DEBUG_GSEL_ALLOW_LOWER or DEBUG_GSEL_ALLOW_H
 To use the default set of flags, set <i>Flags</i> to DEBUG_GSEL_DEFAULT.  This has all the flags in the previous table turned off.
 
 
-#### - Entries [out, optional]
+### -param Entries [out, optional]
 
 Receives the locations in the target's memory that correspond to the source lines queried for.  Each entry in this array is of type <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> and contains the source line number along with a location in the target's memory.
 
 
-#### - EntriesCount [in]
+### -param EntriesCount [in]
 
 Specifies the number of entries in the <i>Entries</i> array.
 
@@ -215,11 +215,11 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
 
  
 

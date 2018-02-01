@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5ec761f-fc20-4baf-a012-c32356644a6c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_MDT_OTHER, D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, display.d3dkmdt_monitor_descriptor_type, DmEnums_9d9ed4df-33cf-403a-96dd-c0745426daf1.xml, D3DKMDT_MONITOR_DESCRIPTOR_TYPE, D3DKMDT_MDT_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR_TYPE, _D3DKMDT_MONITOR_DESCRIPTOR_TYPE, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, d3dkmdt/D3DKMDT_MDT_UNINITIALIZED, D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration [Display Devices], d3dkmdt/D3DKMDT_MDT_OTHER, D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP
+ms.keywords: d3dkmdt/D3DKMDT_MDT_UNINITIALIZED, D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, _D3DKMDT_MONITOR_DESCRIPTOR_TYPE, D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration [Display Devices], d3dkmdt/D3DKMDT_MDT_OTHER, D3DKMDT_MDT_OTHER, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR_TYPE, DmEnums_9d9ed4df-33cf-403a-96dd-c0745426daf1.xml, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, D3DKMDT_MDT_UNINITIALIZED, D3DKMDT_MONITOR_DESCRIPTOR_TYPE, display.d3dkmdt_monitor_descriptor_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _D3DKMDT_MONITOR_DESCRIPTOR_TYPE {
 
 
 
-#### - D3DKMDT_MDT_UNINITIALIZED
+### -field D3DKMDT_MDT_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_MONITOR_DESCRIPTOR_TYPE has not yet been assigned a meaningful value.
 
 
-#### - D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK
+### -field D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK
 
 Indicates that the descriptor is an Extended Display Identification Data (EDID) base block.
 
 
-#### - D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP
+### -field D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP
 
 Indicates that the descriptor is an EDID block map.
 
 
-#### - D3DKMDT_MDT_OTHER
+### -field D3DKMDT_MDT_OTHER
 
 Indicates that the descriptor has a type other than those indicated by the previous values of this enumeration.
 

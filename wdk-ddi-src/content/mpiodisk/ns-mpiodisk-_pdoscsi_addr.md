@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ad31cff9-06bd-4c3a-b1e1-5a82cc6b48a2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_PDOSCSI_ADDR, PDOSCSI_ADDR, mpiodisk/PPDOSCSI_ADDR, PPDOSCSI_ADDR, PPDOSCSI_ADDR structure pointer [Storage Devices], *PPDOSCSI_ADDR, mpiodisk/PDOSCSI_ADDR, storage.pdoscsi_addr, PDOSCSI_ADDR structure [Storage Devices], structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml"
+ms.keywords: mpiodisk/PPDOSCSI_ADDR, PDOSCSI_ADDR structure [Storage Devices], structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml, PPDOSCSI_ADDR structure pointer [Storage Devices], *PPDOSCSI_ADDR, PPDOSCSI_ADDR, storage.pdoscsi_addr, mpiodisk/PDOSCSI_ADDR, _PDOSCSI_ADDR, PDOSCSI_ADDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PDOSCSI_ADDR {
 
 
 
-#### - PortNumber
+### -field PortNumber
 
 An unsigned 8-bitfield that represents the PortNumber as defined by the SCSI_ADDRESS structure in <i>Ntddscsi.h</i>.
 
 
-#### - ScsiPathId
+### -field ScsiPathId
 
 An unsigned 8-bitfield that represents the PathId as defined by the SCSI_ADDRESS structure in <i>Ntddscsi.h</i>.
 
 
-#### - TargetId
+### -field TargetId
 
 An unsigned 8-bitfield that represents the TargetId as defined by the SCSI_ADDRESS structure in <i>Ntddscsi.h</i>.
 
 
-#### - Lun
+### -field Lun
 
 An unsigned 8-bitfield that represents the Lun as defined by the SCSI_ADDRESS structure in <i>Ntddscsi.h</i>.
 

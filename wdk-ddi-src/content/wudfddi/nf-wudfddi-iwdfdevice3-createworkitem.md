@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B34EABF4-C659-4DB4-AEC6-94F544D79221
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CreateWorkItem, wudfddi/IWDFDevice3::CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface, CreateWorkItem method, IWDFDevice3::CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface, umdf.iwdfdevice3_createworkitem, wdf.iwdfdevice3_createworkitem, IWDFDevice3
+ms.keywords: wdf.iwdfdevice3_createworkitem, IWDFDevice3::CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface, wudfddi/IWDFDevice3::CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface, CreateWorkItem method, CreateWorkItem, umdf.iwdfdevice3_createworkitem, IWDFDevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT CreateWorkItem(
 
 
 
-#### - pConfig [in]
+### -param pConfig [in]
 
 A pointer to a caller-allocated <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure that the driver must have already initialized by calling <a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>.
 
 
-#### - pParentObject [in, optional]
+### -param pParentObject [in, optional]
 
 A pointer to the parent object interface or NULL.
 
 
-#### - ppWorkItem [out]
+### -param ppWorkItem [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a> interface for the new WorkItem object.
 

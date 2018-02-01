@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21604988-ed1a-419b-b002-ab975e8921ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_MSONEX_RESULT_PARAMS, Native_802.11_data_types_52bdb8c1-36cc-43a0-9156-397c3a8549b3.xml, netvista.dot11_msonex_result_params, PDOT11_MSONEX_RESULT_PARAMS, wlanihv/PDOT11_MSONEX_RESULT_PARAMS, *PDOT11_MSONEX_RESULT_PARAMS, DOT11_MSONEX_RESULT_PARAMS structure [Network Drivers Starting with Windows Vista], PDOT11_MSONEX_RESULT_PARAMS structure pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11_MSONEX_RESULT_PARAMS, DOT11_MSONEX_RESULT_PARAMS"
+ms.keywords: Native_802.11_data_types_52bdb8c1-36cc-43a0-9156-397c3a8549b3.xml, netvista.dot11_msonex_result_params, PDOT11_MSONEX_RESULT_PARAMS, wlanihv/DOT11_MSONEX_RESULT_PARAMS, _DOT11_MSONEX_RESULT_PARAMS, PDOT11_MSONEX_RESULT_PARAMS structure pointer [Network Drivers Starting with Windows Vista], DOT11_MSONEX_RESULT_PARAMS structure [Network Drivers Starting with Windows Vista], DOT11_MSONEX_RESULT_PARAMS, *PDOT11_MSONEX_RESULT_PARAMS, wlanihv/PDOT11_MSONEX_RESULT_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,21 +74,21 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
 
 
 
-#### - Dot11OnexAuthStatus
+### -field Dot11OnexAuthStatus
 
 A 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569845">ONEX_AUTH_STATUS</a> type that specifies the
       authorization status of the 802.1X exchange.
 
 
-#### - Dot11OneXReasonCode
+### -field Dot11OneXReasonCode
 
 A 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569846">ONEX_REASON_CODE</a> type that specifies the
       reason code of the 802.1X exchange.
 
 
-#### - pbMPPESendKey
+### -field pbMPPESendKey
 
 A pointer to a Microsoft Point-to-Point Encryption (MPPE) Send-Key. This key is encrypted and
      should be decrypted by calling the 
@@ -105,12 +105,12 @@ A pointer to a Microsoft Point-to-Point Encryption (MPPE) Send-Key. This key is 
  
 
 
-#### - dwMPPESendKeyLen
+### -field dwMPPESendKeyLen
 
 The size, in bytes, of the MPPE Send-Key.
 
 
-#### - pbMPPERecvKey
+### -field pbMPPERecvKey
 
 A pointer to a Microsoft Point-to-Point Encryption (MPPE) Receive-Key. This key is encrypted and
      should be decrypted by calling the 
@@ -127,12 +127,12 @@ A pointer to a Microsoft Point-to-Point Encryption (MPPE) Receive-Key. This key 
  
 
 
-#### - dwMPPERecvKeyLen
+### -field dwMPPERecvKeyLen
 
 The size, in bytes, of the MPPE Receive-Key.
 
 
-#### - pDot11EapResult
+### -field pDot11EapResult
 
 A pointer to a 
      <a href="..\wlanihv\ns-wlanihv-_dot11_eap_result.md">DOT11_EAP_RESULT</a> structure that contains

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kederegisternmicallback, wdm/KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, KeDeregisterNmiCallback
+ms.keywords: wdm/KeDeregisterNmiCallback, kernel.kederegisternmicallback, k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KeDeregisterNmiCallback(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Specifies the value returned by <a href="..\wdm\nf-wdm-keregisternmicallback.md">KeRegisterNmiCallback</a> when the NMI callback was registered. 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F2870421-2A6F-4E63-AC91-E251E0B67C06
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavertoutputstream_getpacketcount, IMiniportWaveRTOutputStream, GetPacketCount, portcls/IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices], GetPacketCount method
+ms.keywords: GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream interface, portcls/IMiniportWaveRTOutputStream::GetPacketCount, IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream interface [Audio Devices], GetPacketCount method, GetPacketCount, audio.iminiportwavertoutputstream_getpacketcount, IMiniportWaveRTOutputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS GetPacketCount(
 
 
 
-#### - pPacketCount [out]
+### -param pPacketCount [out]
 
 pPacketCount returns the number of packets completely transferred from the WaveRT buffer into hardware. 
 

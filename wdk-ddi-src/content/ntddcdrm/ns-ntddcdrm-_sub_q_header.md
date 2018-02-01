@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ee3657d-acdd-4d3f-9cff-eb4a494429b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices], ntddcdrm/SUB_Q_HEADER, SUB_Q_HEADER, storage.sub_q_header, PSUB_Q_HEADER structure pointer [Storage Devices], PSUB_Q_HEADER, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml, _SUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER"
+ms.keywords: ntddcdrm/SUB_Q_HEADER, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml, SUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER, PSUB_Q_HEADER structure pointer [Storage Devices], PSUB_Q_HEADER, *PSUB_Q_HEADER, _SUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices], storage.sub_q_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _SUB_Q_HEADER {
 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - AudioStatus
+### -field AudioStatus
 
 Reports the audio status with one of the following flags:
 
@@ -91,14 +91,19 @@ Reports the audio status with one of the following flags:
 
 
 
+#### AUDIO_STATUS_IN_PROGRESS
+
+Audio play operation is in progress.
+
+
 #### AUDIO_STATUS_NOT_SUPPORTED
 
 Audio status byte not supported or not valid.
 
 
-#### AUDIO_STATUS_IN_PROGRESS
+#### AUDIO_STATUS_NO_STATUS
 
-Audio play operation is in progress.
+No current audio status to return.
 
 
 #### AUDIO_STATUS_PAUSED
@@ -116,23 +121,18 @@ Audio play operation completed successfully.
 Audio play operation stopped due to error.
 
 
-#### AUDIO_STATUS_NO_STATUS
-
-No current audio status to return.
-
-
-#### - DataLength
+### -field DataLength
 
 Gives the length of Q subchannel data that follows this header structure. The bytes in this array are arranged in big-endian order. <b>DataLength</b>[0] contains the most significant byte, and <b>DataLength</b>[1] contains the least significant byte. 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
 
  
 

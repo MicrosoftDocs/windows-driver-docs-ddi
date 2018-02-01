@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ca0eef79-d990-4a82-b2d6-a51e3790cfc2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_PROCINFO_VALIDBITS, *PWHEA_XPF_PROCINFO_VALIDBITS, whearef_6ebbdab8-0590-4479-a8ab-ea9bacf69399.xml, WHEA_XPF_PROCINFO_VALIDBITS union [WHEA Drivers and Applications], WHEA_XPF_PROCINFO_VALIDBITS, ntddk/PWHEA_XPF_PROCINFO_VALIDBITS, _WHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS union pointer [WHEA Drivers and Applications], whea.whea_xpf_procinfo_validbits, ntddk/WHEA_XPF_PROCINFO_VALIDBITS
+ms.keywords: ntddk/WHEA_XPF_PROCINFO_VALIDBITS, ntddk/PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS, whea.whea_xpf_procinfo_validbits, whearef_6ebbdab8-0590-4479-a8ab-ea9bacf69399.xml, WHEA_XPF_PROCINFO_VALIDBITS, *PWHEA_XPF_PROCINFO_VALIDBITS, _WHEA_XPF_PROCINFO_VALIDBITS, WHEA_XPF_PROCINFO_VALIDBITS union [WHEA Drivers and Applications], PWHEA_XPF_PROCINFO_VALIDBITS union pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,67 +82,37 @@ typedef union _WHEA_XPF_PROCINFO_VALIDBITS {
 
 ### -field DUMMYSTRUCTNAME.CheckInfo
 
- 
+A single bit that indicates that the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.TargetId
 
- 
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.RequesterId
 
- 
+A single bit that indicates that the <b>RequesterId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.ResponderId
 
- 
+A single bit that indicates that the <b>ResponderId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.InstructionPointer
 
- 
+A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved for system use.
 
 
-#### - ValidBits
+### -field ValidBits
 
 A ULONGLONG representation of the contents of the WHEA_XPF_PROCINFO_VALIDBITS union.
-
-
-#### - CheckInfo
-
-A single bit that indicates that the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
-
-
-#### - TargetId
-
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
-
-
-#### - RequesterId
-
-A single bit that indicates that the <b>RequesterId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
-
-
-#### - ResponderId
-
-A single bit that indicates that the <b>ResponderId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
-
-
-#### - InstructionPointer
-
-A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
-
-
-#### - Reserved
-
-Reserved for system use.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 46f39e36-8915-4ccf-97ef-45dbacdfbe0a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.drvdevicepropertysheets, print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, DrvDevicePropertySheets, winddiui/DrvDevicePropertySheets, DrvDevicePropertySheets function [Print Devices]
+ms.keywords: DrvDevicePropertySheets, DrvDevicePropertySheets function [Print Devices], winddiui/DrvDevicePropertySheets, print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, print.drvdevicepropertysheets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ LONG DrvDevicePropertySheets(
 
 
 
-#### - pPSUIInfo [in, optional]
+### -param pPSUIInfo [in, optional]
 
 Caller-supplied pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure.
 
 
-#### - lParam
+### -param lParam
 
 Caller-supplied integer value that is dependent on the contents of the <b>Reason</b> member of the PROPSHEETUI_INFO structure, as listed in the following table.
 <table>

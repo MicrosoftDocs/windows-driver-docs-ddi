@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a178ef0-0741-4b0c-a688-cae3923135ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml, display.d3dddiarg_setstreamsource, D3DDDIARG_SETSTREAMSOURCE, _D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], d3dumddi/D3DDDIARG_SETSTREAMSOURCE
+ms.keywords: display.d3dddiarg_setstreamsource, UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], d3dumddi/D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE, _D3DDDIARG_SETSTREAMSOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct _D3DDDIARG_SETSTREAMSOURCE {
 
 
 
-#### - Stream
+### -field Stream
 
 [in] The stream to bind, which is a value between zero and the maximum number of streams that are specified by the driver.
 
 
-#### - hVertexBuffer
+### -field hVertexBuffer
 
 [in] A handle to the vertex buffer. If this member is zero, the stream should no longer be bound to a vertex buffer.
 
 
-#### - Offset
+### -field Offset
 
 [in] The offset in bytes into the stream. 
 
 The <b>Offset</b> value must be DWORD-aligned.
 
 
-#### - Stride
+### -field Stride
 
 [in] The size, in bytes, from one vertex to the next vertex. If <b>Stride</b> is set to zero, all of the vertices receive the same data for processing. 
 

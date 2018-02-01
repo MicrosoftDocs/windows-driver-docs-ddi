@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0952f6ab-6d57-4ded-b167-74a7ace47961
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDeleteEvent, video/VideoPortDeleteEvent, VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, VideoPortDeleteEvent function [Display Devices], display.videoportdeleteevent
+ms.keywords: VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, video/VideoPortDeleteEvent, VideoPortDeleteEvent function [Display Devices], VideoPortDeleteEvent, display.videoportdeleteevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VP_STATUS VideoPortDeleteEvent(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - pEvent [in]
+### -param pEvent [in]
 
 Pointer to the event object to be deleted.
 
@@ -95,9 +95,9 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
-
 <a href="..\video\nf-video-videoportcreateevent.md">VideoPortCreateEvent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
 
  
 

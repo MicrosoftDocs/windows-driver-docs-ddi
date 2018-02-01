@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5BC38128-8866-48C9-B5C5-4D6B6DB793E0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, display.d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling, D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING structure [Display Devices], D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING
+ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING structure [Display Devices], display.d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling, d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING {
 
 
 
-#### - pInputDesc
+### -field pInputDesc
 
 Contains the decode profile used and the resolution and format of the reference frames.  This is the resolution/format to be downsampled (e.g. 4K, DXGI_FORMAT_P010).
 
 
-#### - InputColorSpace
+### -field InputColorSpace
 
 Contains the color space information of the reference frame data.
 
 
-#### - pInputConfig
+### -field pInputConfig
 
 Contains the configuration data associated with the decode profile.
 
 
-#### - pFrameRate
+### -field pFrameRate
 
 Contains the frame rate of the video content.
 
 
-#### - pOutputDesc
+### -field pOutputDesc
 
 The driver returns the recommended resolution and the format of the output/display frames.  
 
@@ -100,7 +100,7 @@ The driver returns the recommended resolution and the format of the output/displ
 <div class="alert"><b>Note</b>  The decode profile (<b>Guid</b>) member of <b>pOutputDesc</b> can be ignored.
 </div><div> </div>
 
-#### - OutputColorSpace
+### -field OutputColorSpace
 
 The driver returns the recommended color space information of the display frame data.
 

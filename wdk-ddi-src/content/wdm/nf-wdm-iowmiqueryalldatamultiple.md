@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 660ed1ad-3aad-44a9-9523-e167f84fe9d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, wdm/IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple, kernel.iowmiqueryalldatamultiple, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], kernel.iowmiqueryalldatamultiple, wdm/IoWMIQueryAllDataMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS IoWMIQueryAllDataMultiple(
 
 
 
-#### - DataBlockObjectList [in]
+### -param DataBlockObjectList [in]
 
 Pointer to an array of pointers to WMI data block objects. The caller opens a data block object for each WMI class with the <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a> routine. Each object must be opened with the WMIGUID_QUERY access right.
 
 
-#### - ObjectCount [in]
+### -param ObjectCount [in]
 
 Specifies the number of entries in the array passed in the <i>DataBlockObjectList</i> parameter.
 
 
-#### - InOutBufferSize [in, out]
+### -param InOutBufferSize [in, out]
 
 Pointer to a memory location that specifies the size of the buffer passed in the <i>OutBuffer</i> parameter. If the routine succeeds, it updates the memory location to specify the number of bytes actually stored in <i>OutBuffer</i>. If the routine fails with status code of STATUS_BUFFER_TOO_SMALL, it returns the number of bytes required to return the data.
 
 
-#### - OutBuffer [out, optional]
+### -param OutBuffer [out, optional]
 
 Pointer to the buffer where the routine returns the WMI data. The routine returns a sequence of variable-sized <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a> structures, one for each set of returned data blocks. The <b>WnodeHeader.Linkage</b> member of each <b>WNODE_ALL_DATA</b> structure contains the offset from the beginning of the current <b>WNODE_ALL_DATA</b> to the beginning of the next <b>WNODE_ALL_DATA</b>. The final block in the chain has <b>WnodeHeader.Linkage</b> set to zero. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool. 
 
@@ -139,11 +139,11 @@ To query a single WMI class, use <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">Io
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
 
 <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
+
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
  
 

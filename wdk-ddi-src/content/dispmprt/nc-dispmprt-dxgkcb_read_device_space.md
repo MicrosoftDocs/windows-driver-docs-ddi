@@ -75,12 +75,12 @@ NTSTATUS DxgkCbReadDeviceSpace(
 
 
 
-#### - DeviceHandle [in]
+### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-#### - DataType [in]
+### -param DataType [in]
 
 The type of read transaction to be performed. This parameter must be one of the following values, which are defined in <i>Dispmprt.h</i>.
 
@@ -107,22 +107,22 @@ Read from the configuration space of a memory controller hub that is a peer to t
 Read from the display adapter's expansion ROM.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a caller-allocated buffer that receives the data read from the configuration space or ROM.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 The offset, into the configuration space or the expansion ROM, at which the read transaction begins.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to be read.
 
 
-#### - BytesRead [out]
+### -param BytesRead [out]
 
 A pointer to a ULONG-typed variable that receives the number of bytes actually read.
 

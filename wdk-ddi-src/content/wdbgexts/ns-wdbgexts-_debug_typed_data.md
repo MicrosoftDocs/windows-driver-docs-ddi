@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_TYPED_DATA structure pointer [Windows Debugging], debugger.debug_typed_data, DEBUG_TYPED_DATA structure [Windows Debugging], PDEBUG_TYPED_DATA, wdbgexts/PDEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA, _DEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA
+ms.keywords: DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], PDEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, _DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA, debugger.debug_typed_data, wdbgexts/PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,32 +78,32 @@ typedef struct _DEBUG_TYPED_DATA {
 
 
 
-#### - ModBase
+### -field ModBase
 
 The base address of the module, in the target's virtual address space, that contains the typed data.
 
 
-#### - Offset
+### -field Offset
 
 The location of the typed data in the target's memory. <b>Offset</b> is a virtual memory address unless there are flags present in <b>Flags</b> that specify that <b>Offset</b> is a physical memory address.
 
 
-#### - EngineHandle
+### -field EngineHandle
 
 Set to zero.
 
 
-#### - Data
+### -field Data
 
 The data cast to a ULONG64. If <b>Flags</b> does not contain the DEBUG_TYPED_DATA_IS_IN_MEMORY flag, the data is not available and <b>Data</b> is set to zero.
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of the data.
 
 
-#### - Flags
+### -field Flags
 
 The flags describing the target's memory in which the data resides. The following bit flags can be set.
 <table>
@@ -164,29 +164,29 @@ DEBUG_TYPED_DATA_PHYSICAL_WRITE_COMBINED
 </table> 
 
 
-#### - TypeId
+### -field TypeId
 
 The type ID for the data's type.
 
 
-#### - BaseTypeId
+### -field BaseTypeId
 
 For generated types, the type ID of the type on which the data's type is based. For example, if the typed data represents a pointer (or an array), <b>BaseTypeId</b> is the type of the object pointed to (or held in the array).
 
 For other types, <b>BaseTypeId</b> is the same as <b>TypeId</b>.
 
 
-#### - Tag
+### -field Tag
 
 The symbol tag of the typed data. This is a value from the <b>SymTagEnum</b> enumeration. For descriptions of the values, see the DbgHelp API documentation.
 
 
-#### - Register
+### -field Register
 
 The index of the processor's register containing the data, or zero if the data is not contained in a register.  (Note that the zero value can represent either that the data is not in a register or that it is in the register whose index is zero.) 
 
 
-#### - Internal
+### -field Internal
 
 Internal <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> data.
 
@@ -203,9 +203,9 @@ There is one exception to the preceding rule: the <b>EXT_TDOP_SET_FROM_TYPE_ID_A
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
  
 

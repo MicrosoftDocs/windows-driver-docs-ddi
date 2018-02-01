@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a5d8f8c-4924-4ae0-a7b2-8d2b04a49a9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_d43fb5ec-043b-4378-8bdb-aaf80a616150.xml, KSPROPERTY_MEMBERSHEADER structure [Streaming Media Devices], ks/KSPROPERTY_MEMBERSHEADER, stream.ksproperty_membersheader, PKSPROPERTY_MEMBERSHEADER, *PKSPROPERTY_MEMBERSHEADER, PKSPROPERTY_MEMBERSHEADER structure pointer [Streaming Media Devices], ks/PKSPROPERTY_MEMBERSHEADER, KSPROPERTY_MEMBERSHEADER
+ms.keywords: PKSPROPERTY_MEMBERSHEADER structure pointer [Streaming Media Devices], KSPROPERTY_MEMBERSHEADER, PKSPROPERTY_MEMBERSHEADER, ks-struct_d43fb5ec-043b-4378-8bdb-aaf80a616150.xml, KSPROPERTY_MEMBERSHEADER structure [Streaming Media Devices], *PKSPROPERTY_MEMBERSHEADER, ks/KSPROPERTY_MEMBERSHEADER, ks/PKSPROPERTY_MEMBERSHEADER, stream.ksproperty_membersheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct {
 
 
 
-#### - MembersFlags
+### -field MembersFlags
 
 Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the <b>PropTypeSet</b> member of the <a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a> structure. The number of range pairs is determined by <b>MembersCount</b>. This should be one of the values listed in the following table.
 <table>
@@ -116,17 +116,17 @@ Each entry in the members array is a single value.
 </table> 
 
 
-#### - MembersSize
+### -field MembersSize
 
 Specifies the size, in bytes, of an individual array element.
 
 
-#### - MembersCount
+### -field MembersCount
 
 Specifies the number of entries in the members array.
 
 
-#### - Flags
+### -field Flags
 
 Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the <b>PropTypeSet</b> member of the <a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a> structure. The number of range pairs is determined by <b>MembersCount</b>. This should be one of the values listed in the following table.
 <table>
@@ -187,19 +187,19 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="..\ks\ns
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_stepping_longlong.md">KSPROPERTY_STEPPING_LONGLONG</a>
-
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
-
-<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 <a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
 
-<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
+<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
 
 <a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
+
+<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
+
+<a href="..\ks\ns-ks-ksproperty_stepping_longlong.md">KSPROPERTY_STEPPING_LONGLONG</a>
 
  
 

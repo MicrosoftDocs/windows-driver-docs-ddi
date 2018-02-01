@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_createcontextallocationflags, _DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices]
+ms.keywords: DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags, _DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DXGK_CREATECONTEXTALLOCATIONFLAGS {
 
 
 
-#### - SharedAcrossContexts
+### -field SharedAcrossContexts
 
 [in] A UINT value that specifies the association of the context.
 
@@ -89,13 +89,13 @@ If <b>SharedAcrossContexts</b> is set to zero, the allocation is associated with
  
 
 
-#### - Reserved
+### -field Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the most significant 31 bits (0xFFFFFFFE) to zeros.
 
 
 
-#### - Value
+### -field Value
 
 [in] A 32-bit value that specifies the context allocation flags.
 

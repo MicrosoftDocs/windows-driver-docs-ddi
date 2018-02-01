@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DevQueryPrintEx, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, DevQueryPrintEx function [Print Devices], print.devqueryprintex, winddiui/DevQueryPrintEx
+ms.keywords: print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, DevQueryPrintEx, winddiui/DevQueryPrintEx, DevQueryPrintEx function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOL DevQueryPrintEx(
 
 
 
-#### - pDQPInfo [in, out]
+### -param pDQPInfo [in, out]
 
 Caller-supplied pointer to a <a href="..\winddiui\ns-winddiui-_devqueryprint_info.md">DEVQUERYPRINT_INFO</a> structure.
 

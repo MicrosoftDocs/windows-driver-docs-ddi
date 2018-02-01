@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3676476d-babe-4d68-995b-b7068a587bbc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_vidpn_present_path, DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices], _D3DKMDT_VIDPN_PRESENT_PATH
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices], d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, _D3DKMDT_VIDPN_PRESENT_PATH, DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, display.d3dkmdt_vidpn_present_path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _D3DKMDT_VIDPN_PRESENT_PATH {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 The identifier of the path's video present source.
 
 
-#### - VidPnTargetId
+### -field VidPnTargetId
 
 The identifier of the path's video present target.
 
 
-#### - ImportanceOrdinal
+### -field ImportanceOrdinal
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_importance.md">D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE</a> enumerator that specifies the importance of the path relative to other paths. For example, the path presenting the primary view might have higher importance than other paths so that it will be assigned the best source and target mode sets. Path importance ordinal numbers are unique within a given video present network (VidPN) topology. 
 
 
-#### - ContentTransformation
+### -field ContentTransformation
 
  A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> enumerator that indicates the transformation applied to the content presented on the video present path.
 
 
-#### - VisibleFromActiveTLOffset
+### -field VisibleFromActiveTLOffset
 
 A D3DKMDT_2DOFFSET structure that contains the offset, in pixels, from the top-left corner of the video signal's active pixels to the top-left corner of the monitor's visible pixels. The D3DKMDT_2DOFFSET data type is defined in <i>D3dkmdt.h</i> as a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_2dregion.md">D3DKMDT_2DREGION</a> structure.
 
 
-#### - VisibleFromActiveBROffset
+### -field VisibleFromActiveBROffset
 
 A D3DKMDT_2DOFFSET structure that contains the offset, in pixels, from the lower-right corner of the video signal's active pixels to the lower-right corner of the monitor's visible pixels.
 
 
-#### - VidPnTargetColorBasis
+### -field VidPnTargetColorBasis
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_color_basis.md">D3DKMDT_COLOR_BASIS</a> enumerator that specifies the color basis used by the path's video present target.
 
 
-#### - VidPnTargetColorCoeffDynamicRanges
+### -field VidPnTargetColorCoeffDynamicRanges
 
 A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_color_coeff_dynamic_ranges.md">D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES</a> structure that specifies a range for each channel in the color basis used by the path's video present target.
 
 
-#### - Content
+### -field Content
 
 A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_content.md">D3DKMDT_VIDPN_PRESENT_PATH_CONTENT</a> enumeration that indicates the type of content, graphics or video, displayed by the path.
 
 
-#### - CopyProtection
+### -field CopyProtection
 
 A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection.md">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure that describes the copy protection supported by, and currently active on, the path.
 
 
-#### - GammaRamp
+### -field GammaRamp
 
 A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gamma_ramp.md">D3DKMDT_GAMMA_RAMP</a> structure that contains a description of a gamma lookup table and a pointer to the lookup table.
 

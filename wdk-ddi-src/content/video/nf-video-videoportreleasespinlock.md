@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ce2006e-e66c-4b2d-8d26-2eba8d8e2864
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReleaseSpinLock function [Display Devices], VideoPortReleaseSpinLock, display.videoportreleasespinlock, VideoPort_Functions_43cceda5-f5eb-4567-97f5-d53d0bf93c0b.xml, video/VideoPortReleaseSpinLock
+ms.keywords: display.videoportreleasespinlock, VideoPortReleaseSpinLock function [Display Devices], video/VideoPortReleaseSpinLock, VideoPort_Functions_43cceda5-f5eb-4567-97f5-d53d0bf93c0b.xml, VideoPortReleaseSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID VideoPortReleaseSpinLock(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
@@ -80,7 +80,7 @@ Pointer to the miniport driver's device extension.
 TBD
 
 
-#### - NewIrql [in]
+### -param NewIrql [in]
 
 Specifies the IRQL to be restored.
 

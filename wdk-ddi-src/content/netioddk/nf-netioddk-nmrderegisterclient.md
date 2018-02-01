@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64fff189-392e-42c3-8d9a-0d6daa07d2f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.nmrderegisterclient, NmrDeregisterClient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml, netioddk/NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista]
+ms.keywords: nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml, netvista.nmrderegisterclient, NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS NmrDeregisterClient(
 
 
 
-#### - NmrClientHandle [in]
+### -param NmrClientHandle [in]
 
 A handle used by the NMR to represent the registration of the client module. The NMR returns this
      handle to the client module when the client module calls the 
@@ -94,8 +94,8 @@ The
 </td>
 <td width="60%">
 The NMR initiated the deregistration of the client module. The client module must call the 
-       <mshelp:link keywords="netvista.nmrwaitforclientderegistercomplete" tabindex="0"><b>
-       NmrWaitForClientDeregisterComplete</b></mshelp:link> function to wait until the deregistration is complete before
+       <a href="..\netioddk\nf-netioddk-nmrwaitforclientderegistercomplete.md">
+       NmrWaitForClientDeregisterComplete</a> function to wait until the deregistration is complete before
        the client module can be unloaded.
 
 </td>
@@ -134,8 +134,8 @@ A client module typically calls the
     provider modules to which it is attached before the client module is unloaded from the system. After
     calling the 
     <b>NmrDeregisterClient</b> function, a client module must call the 
-    <mshelp:link keywords="netvista.nmrwaitforclientderegistercomplete" tabindex="0"><b>
-    NmrWaitForClientDeregisterComplete</b></mshelp:link> function to wait for the deregistration to complete before the
+    <a href="..\netioddk\nf-netioddk-nmrwaitforclientderegistercomplete.md">
+    NmrWaitForClientDeregisterComplete</a> function to wait for the deregistration to complete before the
     client module can be unloaded. A client module must not return from a call to its 
     <b>Unload</b> function until after deregistration is
     complete.
@@ -154,18 +154,18 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
-
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
-<mshelp:link keywords="netvista.nmrwaitforclientderegistercomplete" tabindex="0"><b>
-   NmrWaitForClientDeregisterComplete</b></mshelp:link>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
 
-<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
+<a href="..\netioddk\nf-netioddk-nmrwaitforclientderegistercomplete.md">
+   NmrWaitForClientDeregisterComplete</a>
+
+<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
  
 

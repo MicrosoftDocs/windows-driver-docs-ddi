@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5f735c98-26a6-4644-9fd4-b832ac9379c2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisupcaseunicodestring, NdisUpcaseUnicodeString macro [Network Drivers Starting with Windows Vista], NdisUpcaseUnicodeString, ndis_string_ref_79578398-7b4c-4741-a39b-5e5e30b2f4b3.xml, ndis/NdisUpcaseUnicodeString
+ms.keywords: ndis_string_ref_79578398-7b4c-4741-a39b-5e5e30b2f4b3.xml, netvista.ndisupcaseunicodestring, NdisUpcaseUnicodeString, NdisUpcaseUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisUpcaseUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,11 +95,11 @@ A pointer to the source Unicode string to be converted to upper case.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

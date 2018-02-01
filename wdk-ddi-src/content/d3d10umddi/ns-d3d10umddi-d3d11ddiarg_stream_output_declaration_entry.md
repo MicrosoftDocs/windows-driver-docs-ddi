@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 336bfc9d-325b-4ff1-8d6b-ec2ef4158cb9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d11ddiarg_stream_output_declaration_entry, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c3324903-51b0-4679-ad77-b24cb5619bef.xml
+ms.keywords: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], display.d3d11ddiarg_stream_output_declaration_entry, UMDisplayDriver_Dx11param_Structs_c3324903-51b0-4679-ad77-b24cb5619bef.xml, d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY {
 
 
 
-#### - Stream
+### -field Stream
 
 [in] The stream to output from, which is a value between zero and the maximum number of streams that are specified by the driver. 
 
 
-#### - OutputSlot
+### -field OutputSlot
 
 [in] The number of the slot for the portion of the stream output. 
 
 
-#### - RegisterIndex
+### -field RegisterIndex
 
 [in] The number of the register for the portion of the stream output. 
 
 
-#### - RegisterMask
+### -field RegisterMask
 
 [in] The xyzw register mask for the portion of the stream output. That is, the four least significant bits (LSBs) of the mask represent xyzw respectively. 
 

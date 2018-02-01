@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9006f74f-4033-4f07-816c-380d6d8b3a2d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DeviceGeneralFailure, DeviceNotEnoughPower, _USB_CONNECTION_STATUS, usbioctl/DeviceNotEnoughPower, usbioctl/DeviceHubNestedTooDeeply, buses.usb_connection_status, usbioctl/DeviceInLegacyHub, USB_CONNECTION_STATUS enumeration [Buses], DeviceEnumerating, DeviceNotEnoughBandwidth, DeviceReset, usbioctl/DeviceReset, usbioctl/DeviceEnumerating, usbioctl/DeviceConnected, DeviceHubNestedTooDeeply, usbioctl/DeviceGeneralFailure, DeviceConnected, usbioctl/DeviceFailedEnumeration, NoDeviceConnected, DeviceCausedOvercurrent, PUSB_CONNECTION_STATUS enumeration pointer [Buses], USB_CONNECTION_STATUS, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/DeviceNotEnoughBandwidth, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, DeviceFailedEnumeration, usbioctl/USB_CONNECTION_STATUS, usbioctl/NoDeviceConnected, *PUSB_CONNECTION_STATUS, usbioctl/DeviceCausedOvercurrent, PUSB_CONNECTION_STATUS, DeviceInLegacyHub
+ms.keywords: usbioctl/DeviceHubNestedTooDeeply, usbioctl/DeviceInLegacyHub, DeviceHubNestedTooDeeply, USB_CONNECTION_STATUS enumeration [Buses], USB_CONNECTION_STATUS, _USB_CONNECTION_STATUS, usbioctl/DeviceReset, usbioctl/DeviceGeneralFailure, DeviceGeneralFailure, DeviceEnumerating, NoDeviceConnected, usbioctl/DeviceNotEnoughPower, buses.usb_connection_status, usbioctl/PUSB_CONNECTION_STATUS, DeviceConnected, DeviceNotEnoughBandwidth, PUSB_CONNECTION_STATUS, usbioctl/NoDeviceConnected, DeviceCausedOvercurrent, DeviceReset, PUSB_CONNECTION_STATUS enumeration pointer [Buses], usbioctl/DeviceNotEnoughBandwidth, *PUSB_CONNECTION_STATUS, usbioctl/DeviceConnected, usbioctl/DeviceFailedEnumeration, DeviceNotEnoughPower, usbioctl/USB_CONNECTION_STATUS, DeviceInLegacyHub, usbioctl/DeviceEnumerating, usbioctl/DeviceCausedOvercurrent, DeviceFailedEnumeration, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,59 +78,59 @@ typedef enum _USB_CONNECTION_STATUS {
 
 
 
-#### - NoDeviceConnected
+### -field NoDeviceConnected
 
 Indicates that there is no device connected to the port.
 
 
-#### - DeviceConnected
+### -field DeviceConnected
 
 Indicates that a device was successfully connected to the port.
 
 
-#### - DeviceFailedEnumeration
+### -field DeviceFailedEnumeration
 
 Indicates that an attempt was made to connect a device to the port, but the enumeration of the device failed.
 
 
-#### - DeviceGeneralFailure
+### -field DeviceGeneralFailure
 
 Indicates that an attempt was made to connect a device to the port, but the connection failed for unspecified reasons.
 
 
-#### - DeviceCausedOvercurrent
+### -field DeviceCausedOvercurrent
 
 Indicates that an attempt was made to connect a device to the port, but the attempt failed because of an overcurrent condition.
 
 
-#### - DeviceNotEnoughPower
+### -field DeviceNotEnoughPower
 
 Indicates that an attempt was made to connect a device to the port, but there was not enough power to drive the device, and the connection failed.
 
 
-#### - DeviceNotEnoughBandwidth
+### -field DeviceNotEnoughBandwidth
 
 Indicates that an attempt was made to connect a device to the port, but there was not enough bandwidth available for the device to function properly, and the connection failed.
 
 
-#### - DeviceHubNestedTooDeeply
+### -field DeviceHubNestedTooDeeply
 
 Indicates that an attempt was made to connect a device to the port, but the nesting of USB hubs was too deep, so the connection failed. 
 
 
-#### - DeviceInLegacyHub
+### -field DeviceInLegacyHub
 
 Indicates that an attempt was made to connect a device to the port of an unsupported legacy hub, and the connection failed.
 
 
-#### - DeviceEnumerating
+### -field DeviceEnumerating
 
 Indicates that a device connected to the port is currently being enumerated.  
 
 <b>Note</b>  This constant is supported in Windows Vista and later operating systems.
 
 
-#### - DeviceReset
+### -field DeviceReset
 
 Indicates that device connected to the port is currently being reset.  
 
@@ -146,11 +146,11 @@ The USB bus driver reports connection status in a <a href="..\usbioctl\ns-usbioc
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
  
 

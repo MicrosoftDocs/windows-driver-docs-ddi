@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 164379fa-15fb-4ab7-9cf8-8403f92d7a42
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_fd5726b9-b4fe-470a-9e43-65148a60808b.xml, _SM_GetTargetMapping_OUT, *PSM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT, hbapiwmi/PSM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT structure [Storage Devices], hbapiwmi/SM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT structure pointer [Storage Devices], storage.sm_gettargetmapping_out
+ms.keywords: storage.sm_gettargetmapping_out, hbapiwmi/PSM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT structure pointer [Storage Devices], *PSM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT, _SM_GetTargetMapping_OUT, structs-Fibre_fd5726b9-b4fe-470a-9e43-65148a60808b.xml, hbapiwmi/SM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SM_GetTargetMapping_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-#### - TotalEntryCount
+### -field TotalEntryCount
 
 The total number of persistent bindings that are associated with the HBA.
 
 
-#### - OutEntryCount
+### -field OutEntryCount
 
 The total number of mappings that are retrieved. This value will be less than or equal to TotalEntryCount.
 
 
-#### - Entry
+### -field Entry
 
 An array of structures of type SMHBA_SCSIENTRY that describes an HBA's bindings between the operating system and the SAS identifiers.
 

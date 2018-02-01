@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: aa7af210-fb5e-49a1-911f-cb1e90c2ac26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.msrcardtype, MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Aamva, pointofservicedriverinterface/MsrCardType, MsrCardType_Aamva, _MsrCardType, MsrCardType_Unknown, pointofservicedriverinterface/MsrCardType_Bank, MsrCardType_Bank, pointofservicedriverinterface/MsrCardType_Unknown, pointofservicedriverinterface/MsrCardType_ExtendedBase, MsrCardType enumeration, MsrCardType
+ms.keywords: pointofservicedriverinterface/MsrCardType_Aamva, MsrCardType_Bank, _MsrCardType, pos.msrcardtype, pointofservicedriverinterface/MsrCardType_Bank, pointofservicedriverinterface/MsrCardType, pointofservicedriverinterface/MsrCardType_ExtendedBase, MsrCardType_Aamva, MsrCardType, MsrCardType_Unknown, MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Unknown, MsrCardType enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _MsrCardType {
 
 
 
-#### - MsrCardType_Unknown
+### -field MsrCardType_Unknown
 
 Unknown card type.
 
 
-#### - MsrCardType_Bank
+### -field MsrCardType_Bank
 
 Bank card.
 
 
-#### - MsrCardType_Aamva
+### -field MsrCardType_Aamva
 
 American Association of Motor Vehicle Administrators (AAMVA) card.
 
 
-#### - MsrCardType_ExtendedBase
+### -field MsrCardType_ExtendedBase
 
 Vendor-specific card.
 

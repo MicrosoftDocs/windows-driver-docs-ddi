@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b76acae1-3c37-4095-bf8b-1785dc90f378
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, IWDFObject, IWDFObject::RetrieveContext, umdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext, wdf.iwdfobject_retrievecontext, RetrieveContext method, IWDFObject interface, IWDFObject interface, RetrieveContext method, RetrieveContext method, RetrieveContext
+ms.keywords: umdf.iwdfobject_retrievecontext, IWDFObject::RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, RetrieveContext method, IWDFObject, RetrieveContext method, IWDFObject interface, wudfddi/IWDFObject::RetrieveContext, IWDFObject interface, RetrieveContext method, wdf.iwdfobject_retrievecontext, RetrieveContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT RetrieveContext(
 
 
 
-#### - ppvContext [out]
+### -param ppvContext [out]
 
 A pointer to a buffer that receives a pointer to the previously registered context. 
 
@@ -93,9 +93,9 @@ Because the context is not a Component Object Model (COM) interface, the driver 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558957">IWDFIoQueue::GetDevice</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558957">IWDFIoQueue::GetDevice</a>
 
  
 

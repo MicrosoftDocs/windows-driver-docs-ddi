@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 493E6C55-DC3B-4160-9642-BDABADD575B8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::GetReadStream, printerextension/IPrinterScriptablePropertyBag::GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getreadstream, IPrinterScriptablePropertyBag interface [Print Devices], GetReadStream method, GetReadStream
+ms.keywords: IPrinterScriptablePropertyBag::GetReadStream, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetReadStream method, GetReadStream method [Print Devices], printerextension/IPrinterScriptablePropertyBag::GetReadStream, GetReadStream, GetReadStream method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getreadstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetReadStream(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The property to read.
 
 
-#### - ppStream [out, retval]
+### -param ppStream [out, retval]
 
         The returned stream.
 
@@ -97,9 +97,9 @@ A call to <b>GetReadStream</b> will throw an exception, if the specified propert
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
 
  
 

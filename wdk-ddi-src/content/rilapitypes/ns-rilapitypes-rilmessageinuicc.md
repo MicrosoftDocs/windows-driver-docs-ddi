@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a956b25-1cf5-4a51-bc60-c4a7a7f70e2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMESSAGEINUICC, netvista.rilmessageinuicc_2, *LPRILMESSAGEINUICC, rilapitypes/RILMESSAGEINUICC, RILMESSAGEINUICC structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILMESSAGEINUICC, rilapitypes/RILMESSAGEINUICC, netvista.rilmessageinuicc_2, RILMESSAGEINUICC structure [Network Drivers Starting with Windows Vista], *LPRILMESSAGEINUICC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,18 @@ typedef struct _RILMESSAGEINUICC {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - hUiccApp
+### -field hUiccApp
 
 
 
-#### - dwIndex
+### -field dwIndex
 
 

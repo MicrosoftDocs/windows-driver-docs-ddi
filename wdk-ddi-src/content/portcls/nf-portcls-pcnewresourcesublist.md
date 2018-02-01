@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcnewresourcesublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, PcNewResourceSublist, portcls/PcNewResourceSublist, PcNewResourceSublist function [Audio Devices]
+ms.keywords: portcls/PcNewResourceSublist, audio.pcnewresourcesublist, PcNewResourceSublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, PcNewResourceSublist function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS PcNewResourceSublist(
 
 
 
-#### - OutResourceList [out]
+### -param OutResourceList [out]
 
 Output pointer to the resource-list object that this function creates. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-#### - OuterUnknown [in, optional]
+### -param OuterUnknown [in, optional]
 
 Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value.
 
 
-#### - ParentList [in]
+### -param ParentList [in]
 
 Pointer to the resource list from which the child list will be created. The resource list has an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> interface.
 
 
-#### - MaximumEntries [in]
+### -param MaximumEntries [in]
 
 Specifies the maximum number of entries that will be added to the resource list.
 
@@ -119,9 +119,9 @@ The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameter
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536981">IResourceList::AddEntryFromParent</a>
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
  
 

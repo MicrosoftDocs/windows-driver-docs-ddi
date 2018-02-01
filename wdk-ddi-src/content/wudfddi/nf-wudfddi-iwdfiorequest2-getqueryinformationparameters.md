@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetQueryInformationParameters method, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, wdf.iwdfiorequest2_getqueryinformationparameters, umdf.iwdfiorequest2_getqueryinformationparameters, IWDFIoRequest2, GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, GetQueryInformationParameters method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, GetQueryInformationParameters method, IWDFIoRequest2::GetQueryInformationParameters
+ms.keywords: IWDFIoRequest2::GetQueryInformationParameters, GetQueryInformationParameters method, IWDFIoRequest2 interface, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, IWDFIoRequest2, GetQueryInformationParameters method, IWDFIoRequest2 interface, GetQueryInformationParameters method, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, GetQueryInformationParameters, umdf.iwdfiorequest2_getqueryinformationparameters, wdf.iwdfiorequest2_getqueryinformationparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ void GetQueryInformationParameters(
 
 
 
-#### - pInformationClass [out, optional]
+### -param pInformationClass [out, optional]
 
 A pointer to a driver-allocated variable that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
 
 
-#### - pSizeInBytes [out, optional]
+### -param pSizeInBytes [out, optional]
 
 A pointer to a driver-allocated variable that receives the size, in bytes, of the file information. This pointer is optional and can be <b>NULL</b>.
 

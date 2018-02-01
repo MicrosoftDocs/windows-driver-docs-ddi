@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0859f3f-0acc-45b7-99b2-ef420cd06565
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReleaseRWLock, ndis_processor_group_ref_bbc47204-3cf6-4154-bafc-23c14cff452b.xml, netvista.ndisreleaserwlock, ndis/NdisReleaseRWLock, NdisReleaseRWLock function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisReleaseRWLock function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_bbc47204-3cf6-4154-bafc-23c14cff452b.xml, netvista.ndisreleaserwlock, ndis/NdisReleaseRWLock, NdisReleaseRWLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ VOID NdisReleaseRWLock(
 
 
 
-#### - Lock [in]
+### -param Lock [in]
 
 A pointer to an opaque 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> variable that represents a
@@ -79,7 +79,7 @@ A pointer to an opaque
      non-ISR driver threads.
 
 
-#### - LockState [in]
+### -param LockState [in]
 
 A pointer to an opaque 
      <a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a> variable that tracks the state
@@ -102,8 +102,8 @@ NDIS drivers call the
     <b>NdisReleaseRWLock</b> function to release a read/write lock that was previously obtained by calling the
     
     <a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a> or 
-    <mshelp:link keywords="netvista.ndisacquirerwlockwrite" tabindex="0"><b>
-    NdisAcquireRWLockWrite</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">
+    NdisAcquireRWLockWrite</a> function.
 
 A driver must obtain a read/write lock before the driver can call 
     <b>NdisReleaseRWLock</b>. Each call to obtain a lock requires a reciprocal call to 
@@ -118,11 +118,11 @@ The acquisition of an <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
 
 <a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
-<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
 <a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
 

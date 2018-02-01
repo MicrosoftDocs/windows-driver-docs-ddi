@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6b87483f-8d5e-4e1d-839d-2271990dcbaa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlInitializeSid, RtlInitializeSid routine [Installable File System Drivers], rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml, ifsk.rtlinitializesid, RtlInitializeSid
+ms.keywords: ifsk.rtlinitializesid, RtlInitializeSid, ntifs/RtlInitializeSid, rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml, RtlInitializeSid routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlInitializeSid(
 
 
 
-#### - Sid [out]
+### -param Sid [out]
 
 Pointer to a caller-allocated SID structure to be initialized. 
 
 
-#### - IdentifierAuthority [in]
+### -param IdentifierAuthority [in]
 
 Pointer to an SID_IDENTIFIER_AUTHORITY structure to set in the SID structure. 
 
 
-#### - SubAuthorityCount [in]
+### -param SubAuthorityCount [in]
 
 Number of subauthorities to set in the SID. Subauthority values must be set separately, as described in the following Remarks section. 
 

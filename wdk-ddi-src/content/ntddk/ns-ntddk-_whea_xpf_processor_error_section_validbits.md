@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: f6b18ffa-f784-4382-9861-4d92e2071ebf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, whearef_cd965099-c110-4ff6-993e-c4ccab88cd80.xml, WHEA_XPF_PROCESSOR_ERROR_VALIDBITS, WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, *PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, ntddk/WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, *PWHEA_XPF_PROCESSOR_ERROR_VALIDBITS, PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], whea.whea_xpf_processor_error_section_validbits, PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
+ms.keywords: "_WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, WHEA_XPF_PROCESSOR_ERROR_VALIDBITS, *PWHEA_XPF_PROCESSOR_ERROR_VALIDBITS, whea.whea_xpf_processor_error_section_validbits, WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, whearef_cd965099-c110-4ff6-993e-c4ccab88cd80.xml, ntddk/PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, *PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], ntddk/WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,59 +79,34 @@ typedef union _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS {
  
 
 
-### -field DUMMYSTRUCTNAME.LocalAPICId
+##### - DUMMYSTRUCTNAME.LocalAPICId
 
- 
-
-
-### -field DUMMYSTRUCTNAME.CpuId
-
- 
+A single bit that indicates that the <b>LocalAPICId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.ProcInfoCount
+##### - DUMMYSTRUCTNAME.CpuId
 
- 
-
-
-### -field DUMMYSTRUCTNAME.ContextInfoCount
-
- 
+A single bit that indicates that the <b>CpuId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.Reserved
+##### - DUMMYSTRUCTNAME.ProcInfoCount
 
- 
+The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+
+
+##### - DUMMYSTRUCTNAME.ContextInfoCount
+
+The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+
+
+##### - DUMMYSTRUCTNAME.Reserved
+
+Reserved for system use.
 
 
 #### - ValidBits
 
 A ULONGLONG representation of the contents of the WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union.
-
-
-#### - LocalAPICId
-
-A single bit that indicates that the <b>LocalAPICId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
-
-
-#### - CpuId
-
-A single bit that indicates that the <b>CpuId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
-
-
-#### - ProcInfoCount
-
-The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
-
-
-#### - ContextInfoCount
-
-The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
-
-
-#### - Reserved
-
-Reserved for system use.
 
 
 ## -remarks
@@ -143,9 +118,9 @@ A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the <a hr
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
 <a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
 

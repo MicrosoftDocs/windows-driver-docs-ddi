@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e78da3d-7a37-41f9-bfa6-db2e83581769
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, wdm/RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], RtlSetBit, kernel.rtlsetbit
+ms.keywords: RtlSetBit, k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, kernel.rtlsetbit, RtlSetBit routine [Kernel-Mode Driver Architecture], wdm/RtlSetBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID RtlSetBit(
 
 
 
-#### - BitMapHeader [in]
+### -param BitMapHeader [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine. 
 
 
-#### - BitNumber [in]
+### -param BitNumber [in]
 
 Specifies the zero-based index of the bit within the bitmap. The routine sets this bit to one.
 

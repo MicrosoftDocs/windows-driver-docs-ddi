@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxurb/UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket, buses.udecxurbretrievecontrolsetuppacket, UdecxUrbRetrieveControlSetupPacket function [Buses]
+ms.keywords: udecxurb/UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, UdecxUrbRetrieveControlSetupPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ FORCEINLINE NTSTATUS UdecxUrbRetrieveControlSetupPacket(
 
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object that represents the request containing the setup packet.
 
 
-#### - SetupPacket [out]
+### -param SetupPacket [out]
 
 A <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure that receives a setup packet describing the USB control transfer.
 

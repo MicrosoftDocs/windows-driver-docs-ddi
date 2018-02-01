@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be8867e4-42be-4f11-bf4b-1b0fd29daa06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS, DFCoinstallerRef_71021229-7902-4d6a-a5f3-c9763860c7bf.xml, _WDF_COINSTALLER_INSTALL_OPTIONS, kmdf.wdf_coinstaller_install_options, wdfinstaller/PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS structure, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS structure pointer, wdf.wdf_coinstaller_install_options
+ms.keywords: wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS, wdfinstaller/PWDF_COINSTALLER_INSTALL_OPTIONS, _WDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS structure, WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS structure pointer, DFCoinstallerRef_71021229-7902-4d6a-a5f3-c9763860c7bf.xml, kmdf.wdf_coinstaller_install_options, wdf.wdf_coinstaller_install_options
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _WDF_COINSTALLER_INSTALL_OPTIONS {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - ShowRebootPrompt
+### -field ShowRebootPrompt
 
 A Boolean value. If this value is <b>TRUE</b>, and if the co-installer determines that the computer must be restarted to complete the driver installation, <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstallex.md">WdfPreDeviceInstallEx</a> informs the Plug and Play (PnP) manager, and the PnP manager prompts the user that a restart is necessary.  
 

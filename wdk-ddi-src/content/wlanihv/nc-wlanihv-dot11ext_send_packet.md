@@ -73,7 +73,7 @@ DWORD WINAPI * Dot11ExtSendPacket(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the 
@@ -81,27 +81,27 @@ The handle used by the operating system to reference the WLAN adapter. This hand
      Handler function.
 
 
-#### - uPacketLen [in]
+### -param uPacketLen [in]
 
 The length, in bytes, of the caller-allocated buffer referenced by the 
      <i>pvPacket</i> parameter.
 
 
-#### - pvPacket [in]
+### -param pvPacket [in]
 
 A pointer to a caller-allocated buffer that contains the data to be transmitted, as described in
      the Remarks section.
 
 
-#### - hSendCompletion [in, optional]
+### -param hSendCompletion [in, optional]
 
 A handle value that uniquely identifies the send packet. 
      
 
 When the WLAN adapter completes the send operation, the operating system notifies the IHV Extensions
      DLL through a call to the 
-     <mshelp:link keywords="netvista.dot11extihvsendpacketcompletion" tabindex="0"><i>
-     Dot11ExtIhvSendPacketCompletion</i></mshelp:link> IHV Handler function. When making this call, the operating system
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
+     Dot11ExtIhvSendPacketCompletion</a> IHV Handler function. When making this call, the operating system
      passes the handle value of the packet through the 
      <i>hSendCompletion</i> parameter.
 
@@ -126,8 +126,8 @@ The packet sent through a call of the
       <b>Dot11ExtSendPacket</b> function will complete asynchronously. The IHV
       Extensions DLL must not free the memory referenced by the 
       <i>pvPacket</i> parameter until the 
-      <mshelp:link keywords="netvista.dot11extihvsendpacketcompletion" tabindex="0"><i>
-      Dot11ExtIhvSendPacketCompletion</i></mshelp:link> IHV Handler function is called with the same handle value as the 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
+      Dot11ExtIhvSendPacketCompletion</a> IHV Handler function is called with the same handle value as the 
       <i>hSendCompletion</i> parameter.
 
 </li>
@@ -139,16 +139,16 @@ The IHV Extensions DLL must set the
 
 </li>
 </ul>For more information about the IHV Handler functions, see 
-    <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-    Functions</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    Functions</a>.
 
 The buffer pointed to by 
     <i>pvPacket</i> should contain the following packet data, specified in network byte order:
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in 
-      <mshelp:link keywords="netvista.802_11_mac_header_management" tabindex="0">802.11 MAC Header
-      Management</mshelp:link>
+      <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header
+      Management</a>
 
 
 </li>
@@ -166,13 +166,13 @@ Payload
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvsendpacketcompletion" tabindex="0"><i>
-   Dot11ExtIhvSendPacketCompletion</i></mshelp:link>
-
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
+   Dot11ExtIhvSendPacketCompletion</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 

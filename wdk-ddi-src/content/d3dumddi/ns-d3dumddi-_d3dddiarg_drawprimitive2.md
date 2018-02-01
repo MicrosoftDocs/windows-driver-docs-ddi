@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb9668a8-54b5-4d07-8682-af2b593308a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWPRIMITIVE2 structure [Display Devices], _D3DDDIARG_DRAWPRIMITIVE2, display.d3dddiarg_drawprimitive2, d3dumddi/D3DDDIARG_DRAWPRIMITIVE2, UMDisplayDriver_param_Structs_76f6de24-fe57-4907-a84a-692ab80e2dab.xml, D3DDDIARG_DRAWPRIMITIVE2
+ms.keywords: "_D3DDDIARG_DRAWPRIMITIVE2, D3DDDIARG_DRAWPRIMITIVE2 structure [Display Devices], D3DDDIARG_DRAWPRIMITIVE2, d3dumddi/D3DDDIARG_DRAWPRIMITIVE2, UMDisplayDriver_param_Structs_76f6de24-fe57-4907-a84a-692ab80e2dab.xml, display.d3dddiarg_drawprimitive2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDIARG_DRAWPRIMITIVE2 {
 
 
 
-#### - PrimitiveType
+### -field PrimitiveType
 
 [in] A D3DPRIMITIVETYPE-typed value that indicates the type of primitive to draw. This member can be one of the following values: D3DPT_POINTLIST, D3DPT_LINELIST, D3DPT_LINESTRIP, D3DPT_TRIANGLELIST, D3DPT_TRIANGLESTRIP, or D3DPT_TRIANGLEFAN. For more information about D3DPRIMITIVETYPE, see the Microsoft Windows SDK documentation.
 
 
-#### - FirstVertexOffset
+### -field FirstVertexOffset
 
 [in] The offset, in bytes, in stream zero of the vertex data. This member differs from the <b>VStart</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a> structure that is used with the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a> function. In <b>VStart</b>, the start of the vertex data in the vertex stream is specified by a vertex index rather than an actual byte offset.
 
 
-#### - PrimitiveCount
+### -field PrimitiveCount
 
 [in] The number of triangles, lines, or points to draw for the given primitive. 
 

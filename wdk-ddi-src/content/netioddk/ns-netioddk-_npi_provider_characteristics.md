@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a83220e8-496c-4b83-b774-88ab1f017e8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNPI_PROVIDER_CHARACTERISTICS, NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NPI_PROVIDER_CHARACTERISTICS, netvista.npi_provider_characteristics, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml, NPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netioddk/NPI_PROVIDER_CHARACTERISTICS, netioddk/PNPI_PROVIDER_CHARACTERISTICS
+ms.keywords: netioddk/NPI_PROVIDER_CHARACTERISTICS, _NPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml, NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], netioddk/PNPI_PROVIDER_CHARACTERISTICS, netvista.npi_provider_characteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,36 +72,36 @@ typedef struct _NPI_PROVIDER_CHARACTERISTICS {
 
 
 
-#### - Version
+### -field Version
 
 The version of the NMR with which the provider is registering. A provider module should set this
      member to zero.
 
 
-#### - Length
+### -field Length
 
 The size, in bytes, of the NPI_PROVIDER_CHARACTERISTICS structure.
 
 
-#### - ProviderAttachClient
+### -field ProviderAttachClient
 
 A pointer to the provider module's 
      <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a> callback
      function.
 
 
-#### - ProviderDetachClient
+### -field ProviderDetachClient
 
 A pointer to the provider module's 
      <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a> callback
      function.
 
 
-#### - ProviderCleanupBindingContext
+### -field ProviderCleanupBindingContext
 
 A pointer to the provider module's 
-     <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-     ProviderCleanupBindingContext</i></mshelp:link> callback function. If the provider module does not dynamically
+     <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+     ProviderCleanupBindingContext</a> callback function. If the provider module does not dynamically
      allocate the memory for its binding context and no other cleanup of its binding context is required,
      then the provider module does not need to implement a 
      <i>
@@ -110,11 +110,11 @@ A pointer to the provider module's
      ProviderCleanupBindingContext</i> callback function, then this member must be set to <b>NULL</b>.
 
 
-#### - ProviderRegistrationInstance
+### -field ProviderRegistrationInstance
 
 An 
-     <mshelp:link keywords="netvista.npi_registration_instance" tabindex="0"><b>
-     NPI_REGISTRATION_INSTANCE</b></mshelp:link> structure that specifies the identity of the provider module and the 
+     <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">
+     NPI_REGISTRATION_INSTANCE</a> structure that specifies the identity of the provider module and the 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which it is
      registering.
 
@@ -133,16 +133,16 @@ A provider module must make sure that this structure remains valid and resident 
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
-
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+   ProviderCleanupBindingContext</a>
 
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
-<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-   ProviderCleanupBindingContext</i></mshelp:link>
-
 <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
+<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
+
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
  
 

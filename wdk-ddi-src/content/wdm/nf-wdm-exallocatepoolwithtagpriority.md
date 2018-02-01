@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 33087a37-e6fc-4b21-aa9e-e4617eeccd29
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exallocatepoolwithtagpriority, k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], ExAllocatePoolWithTagPriority, wdm/ExAllocatePoolWithTagPriority
+ms.keywords: kernel.exallocatepoolwithtagpriority, k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, wdm/ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], ExAllocatePoolWithTagPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PVOID ExAllocatePoolWithTagPriority(
 
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 The type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>.
 
@@ -80,17 +80,17 @@ You can modify the <i>PoolType</i> value by bitwise-ORing this value with the PO
 Similarly, you can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out  quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available starting with Windows XP.
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 The number of bytes to allocate.
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 The pool tag to use for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
-#### - Priority [in]
+### -param Priority [in]
 
 The priority of this request. Set this parameter to one of the following <b>EX_POOL_PRIORITY</b> enumeration values.
 <table>
@@ -156,9 +156,9 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
  
 

@@ -69,24 +69,19 @@ HRESULT APIENTRY* PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - *pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to open a protected resource session.
 
 
-#### - hDrvProtectedResourceSession
+### -param hDrvProtectedResourceSession
 
 The protected resource session.
-
-
-#### - pArgs [in]
-
-The arguments used to open a protected resource session.
 
 
 ## -returns

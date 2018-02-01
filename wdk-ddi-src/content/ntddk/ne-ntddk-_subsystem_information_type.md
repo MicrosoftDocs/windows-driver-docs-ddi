@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/SubsystemInformationTypeWin32, _SUBSYSTEM_INFORMATION_TYPE, ntddk/SUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWin32, *PSUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, SubsystemInformationTypeWSL, ntddk/MaxSubsystemInformationType, ntddk/SubsystemInformationTypeWSL
+ms.keywords: "*PSUBSYSTEM_INFORMATION_TYPE, _SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWSL, SubsystemInformationTypeWin32, ntddk/SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32, kernel.subsystem_information_type, MaxSubsystemInformationType, ntddk/MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, ntddk/SUBSYSTEM_INFORMATION_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _SUBSYSTEM_INFORMATION_TYPE {
 
 
 
-#### - SubsystemInformationTypeWin32
+### -field SubsystemInformationTypeWin32
 
 The subsystem type for the process or thread is Win32.
 
 
-#### - SubsystemInformationTypeWSL
+### -field SubsystemInformationTypeWSL
 
 The subsystem type for the process or thread is Windows Subsystem for Linux (WSL). For this process, these members of  the <a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a> structure are set as follows:
 <ul>
@@ -84,7 +84,7 @@ The subsystem type for the process or thread is Windows Subsystem for Linux (WSL
 </ul> The preceding member values may be NULL.
 
 
-#### - MaxSubsystemInformationType
+### -field MaxSubsystemInformationType
 
 Reserved.
 

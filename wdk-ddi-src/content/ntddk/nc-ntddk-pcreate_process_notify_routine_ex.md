@@ -76,12 +76,12 @@ void SetCreateProcessNotifyRoutineEx(
 
 
 
-#### - ProcessId [in]
+### -param ProcessId [in]
 
 The process ID of the process.
 
 
-#### - CreateInfo [in, out, optional]
+### -param CreateInfo [in, out, optional]
 
 A pointer to a <a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a> structure that contains information about the new process. 
 

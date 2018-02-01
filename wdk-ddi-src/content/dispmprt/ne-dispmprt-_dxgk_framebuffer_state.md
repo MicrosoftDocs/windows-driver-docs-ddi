@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 911E04E4-A9B9-4354-8EAB-CEEF87D56852
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/DXGK_FRAMEBUFFER_STATE, DXGK_FRAMEBUFFER_STATE, _DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateUnknown, FrameBufferStateInitializedByDriver, FrameBufferStateInitializedByFirmware, dispmprt/FrameBufferStateInitializedByFirmware, FrameBufferStateUnknown, dispmprt/FrameBufferStateInitializedByDriver, display.dxgk_framebuffer_state, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices]
+ms.keywords: DXGK_FRAMEBUFFER_STATE, dispmprt/DXGK_FRAMEBUFFER_STATE, FrameBufferStateInitializedByDriver, FrameBufferStateUnknown, FrameBufferStateInitializedByFirmware, _DXGK_FRAMEBUFFER_STATE, display.dxgk_framebuffer_state, dispmprt/FrameBufferStateInitializedByFirmware, dispmprt/FrameBufferStateUnknown, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices], dispmprt/FrameBufferStateInitializedByDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DXGK_FRAMEBUFFER_STATE {
 
 
 
-#### - FrameBufferStateUnknown
+### -field FrameBufferStateUnknown
 
 Value indicating that the OS has insufficient information to report the frame buffer state.
 
 
-#### - FrameBufferStateInitializedByFirmware
+### -field FrameBufferStateInitializedByFirmware
 
 Value indicating that the frame buffer was initialized using either UEFI or VBIOS.
 
 
-#### - FrameBufferStateInitializedByDriver
+### -field FrameBufferStateInitializedByDriver
 
 Value indicating that the hardware specific driver last initialized the frame buffer when the previous driver was stopped.  Note, the driver which initialized the frame buffer may not be the same version as is currently running if the driver has been updated. 
 

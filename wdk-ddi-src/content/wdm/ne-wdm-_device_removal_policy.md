@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 51d1f0f5-4ca1-4ea6-8561-117240551355
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_DEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectOrderlyRemoval, kernel.device_removal_policy, RemovalPolicyExpectSurpriseRemoval, PDEVICE_REMOVAL_POLICY, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], DEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture], wdm/DEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectSurpriseRemoval, wdm/PDEVICE_REMOVAL_POLICY, RemovalPolicyExpectNoRemoval, RemovalPolicyExpectOrderlyRemoval, *PDEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectNoRemoval, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml"
+ms.keywords: kernel.device_removal_policy, DEVICE_REMOVAL_POLICY, RemovalPolicyExpectNoRemoval, _DEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectSurpriseRemoval, *PDEVICE_REMOVAL_POLICY, wdm/DEVICE_REMOVAL_POLICY, wdm/PDEVICE_REMOVAL_POLICY, RemovalPolicyExpectSurpriseRemoval, wdm/RemovalPolicyExpectNoRemoval, RemovalPolicyExpectOrderlyRemoval, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], PDEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectOrderlyRemoval, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _DEVICE_REMOVAL_POLICY {
 
 
 
-#### - RemovalPolicyExpectNoRemoval
+### -field RemovalPolicyExpectNoRemoval
 
 The device is not typically removed.
 
 
-#### - RemovalPolicyExpectOrderlyRemoval
+### -field RemovalPolicyExpectOrderlyRemoval
 
 The device is typically removed in an orderly fashion. (Before the device is removed, the Plug and Play [PnP] manager sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a> request to the device's driver.)
 
 
-#### - RemovalPolicyExpectSurpriseRemoval
+### -field RemovalPolicyExpectSurpriseRemoval
 
 The device can be removed suddenly. (The driver receives no advance warning that the device will be removed. The Plug and Play [PnP] manager sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a> request when the device is removed.) 
 
@@ -94,11 +94,11 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
  
 

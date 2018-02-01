@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 93071B7B-74D8-44A2-984D-A6BABFC07BA3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS structure [Buses], ucxendpoint/_UCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS, _UCX_ENDPOINT_EVENT_CALLBACKS, buses._ucx_endpoint_event_callbacks, UCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], *PUCX_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/P_UCX_ENDPOINT_EVENT_CALLBACKS
+ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS, *PUCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS, UCX_ENDPOINT_EVENT_CALLBACKS structure [Buses], buses._ucx_endpoint_event_callbacks, _UCX_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/P_UCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,71 +79,71 @@ typedef struct _UCX_ENDPOINT_EVENT_CALLBACKS {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of the structure.
 
 
-#### - EvtEndpointPurge
+### -field EvtEndpointPurge
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_purge.md">EVT_UCX_ENDPOINT_PURGE</a> callback function.
 
 
-#### - EvtEndpointStart
+### -field EvtEndpointStart
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_start.md">EVT_UCX_ENDPOINT_START</a> callback function.
 
 
-#### - EvtEndpointAbort
+### -field EvtEndpointAbort
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_abort.md">EVT_UCX_ENDPOINT_ABORT</a> callback function.
 
 
-#### - EvtEndpointReset
+### -field EvtEndpointReset
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_reset.md">EVT_UCX_ENDPOINT_RESET</a> callback function.
 
 
-#### - EvtEndpointOkToCancelTransfers
+### -field EvtEndpointOkToCancelTransfers
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_ok_to_cancel_transfers.md">EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS</a> callback function.
 
 
-#### - EvtEndpointStaticStreamsAdd
+### -field EvtEndpointStaticStreamsAdd
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> callback function.
 
 
-#### - EvtEndpointStaticStreamsEnable
+### -field EvtEndpointStaticStreamsEnable
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_enable.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE</a> callback function.
 
 
-#### - EvtEndpointStaticStreamsDisable
+### -field EvtEndpointStaticStreamsDisable
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_disable.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE</a> callback function.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Do not use.
 
 
-#### - EvtEndpointGetIsochTransferPathDelays
+### -field EvtEndpointGetIsochTransferPathDelays
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_get_isoch_transfer_path_delays.md">EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS</a> callback function.
 
 
-#### - EvtEndpointSetCharacteristic
+### -field EvtEndpointSetCharacteristic
 
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a> callback function.
 
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointinitseteventcallbacks.md">UcxEndpointInitSetEventCallbacks</a>
-
 <a href="..\ucxendpoint\nf-ucxendpoint-ucx_endpoint_event_callbacks_init.md">UCX_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointinitseteventcallbacks.md">UcxEndpointInitSetEventCallbacks</a>
 
  
 

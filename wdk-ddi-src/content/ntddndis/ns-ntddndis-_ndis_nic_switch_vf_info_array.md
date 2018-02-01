@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e772eafe-e0c7-4d98-8a9e-7eb56cface37
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_nic_switch_vf_info_array, NDIS_NIC_SWITCH_VF_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_VF_INFO_ARRAY, PNDIS_NIC_SWITCH_VF_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_VF_INFO_ARRAY, PNDIS_NIC_SWITCH_VF_INFO_ARRAY, NDIS_NIC_SWITCH_VF_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_VF_INFO_ARRAY
+ms.keywords: PNDIS_NIC_SWITCH_VF_INFO_ARRAY, PNDIS_NIC_SWITCH_VF_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_vf_info_array, *PNDIS_NIC_SWITCH_VF_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_VF_INFO_ARRAY, _NDIS_NIC_SWITCH_VF_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_VF_INFO_ARRAY, NDIS_NIC_SWITCH_VF_INFO_ARRAY, NDIS_NIC_SWITCH_VF_INFO_ARRAY structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_NIC_SWITCH_VF_INFO_ARRAY {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -88,7 +88,7 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_INFO_ARRAY_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A ULONG value that contains a bitwise OR of the following flags: 
 
@@ -102,26 +102,26 @@ If the Flags member is set to zero, the miniport driver must return an array of 
 If this flag is set, the miniport driver must only return an array of <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info.md">NDIS_NIC_SWITCH_VF_INFO</a> structures for VFs that have been allocated on the network adapter switch specified by the <b>SwitchId</b> member.  For more information, see the Remarks section.
 
 
-#### - SwitchId
+### -field SwitchId
 
 An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. The switch identifier is an integer between zero and the number of switches that the network adapter supports. An NDIS_DEFAULT_SWITCH_ID value indicates the default network adapter switch.
 
 
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, the SR-IOV interface only supports the default network adapter switch that is created on the network adapter. Therefore, this member must always be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
 
-#### - FirstElementOffset
+### -field FirstElementOffset
 
 A ULONG value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info.md">NDIS_NIC_SWITCH_VF_INFO</a> structure.
 
 
 <div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div><div> </div>
 
-#### - NumElements
+### -field NumElements
 
 A ULONG value that specifies the number of elements that follow the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure. 
 
 
-#### - ElementSize
+### -field ElementSize
 
 A ULONG value that specifies the size, in bytes, of each element that follow the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure.
 
@@ -138,11 +138,11 @@ NDIS returns an <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure when it handles a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451820">OID_NIC_SWITCH_ENUM_VFS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info.md">NDIS_NIC_SWITCH_VF_INFO</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info.md">NDIS_NIC_SWITCH_VF_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451820">OID_NIC_SWITCH_ENUM_VFS</a>
 
 <b></b>
 

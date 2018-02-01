@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b4a7932-7371-48d2-95fb-1c3e3ca170be
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfilterregisterpowercallbacks, avfunc_7c5322b7-f7e2-4641-b466-06f5d9ebfc34.xml, KsFilterRegisterPowerCallbacks function [Streaming Media Devices], KsFilterRegisterPowerCallbacks, ks/KsFilterRegisterPowerCallbacks
+ms.keywords: KsFilterRegisterPowerCallbacks function [Streaming Media Devices], KsFilterRegisterPowerCallbacks, stream.ksfilterregisterpowercallbacks, avfunc_7c5322b7-f7e2-4641-b466-06f5d9ebfc34.xml, ks/KsFilterRegisterPowerCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ void KsFilterRegisterPowerCallbacks(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to register power callbacks. In order to receive power notification messages, <i>Filter</i> must be filter-centric.
 
 
-#### - Sleep [in, optional]
+### -param Sleep [in, optional]
 
 A pointer to a function that handles sleep requests for the device. If <b>NULL</b>, no sleep callback is registered. For more information, see the Remarks section below.
 
 
-#### - Wake [in, optional]
+### -param Wake [in, optional]
 
 A pointer to a function that handles wake requests for the device. If <b>NULL</b>, no wake callback is specified. For more information, see the Remarks section below.
 

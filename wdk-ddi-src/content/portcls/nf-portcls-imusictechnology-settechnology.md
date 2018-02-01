@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetTechnology, audio.imusictechnology_settechnology, IMusicTechnology interface [Audio Devices], SetTechnology method, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology, IMusicTechnology, IMusicTechnology::SetTechnology, SetTechnology method [Audio Devices], IMusicTechnology interface, SetTechnology method [Audio Devices]
+ms.keywords: audio.imusictechnology_settechnology, portcls/IMusicTechnology::SetTechnology, SetTechnology method [Audio Devices], IMusicTechnology interface, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, IMusicTechnology::SetTechnology, SetTechnology method [Audio Devices], SetTechnology, IMusicTechnology interface [Audio Devices], SetTechnology method, IMusicTechnology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS SetTechnology(
 
 
 
-#### - Technology [in]
+### -param Technology [in]
 
 Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a> structure.
 
@@ -148,9 +148,9 @@ For more information, see <a href="https://msdn.microsoft.com/3b7c2907-e67f-458e
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-imusictechnology.md">IMusicTechnology</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a>
+
+<a href="..\portcls\nn-portcls-imusictechnology.md">IMusicTechnology</a>
 
  
 

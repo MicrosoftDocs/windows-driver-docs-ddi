@@ -72,12 +72,12 @@ void SdpByteSwapUint128(
 
 
 
-#### - pInUint128
+### -param pInUint128
 
 A pointer to an unsigned 128-bit integer for which to reverse the byte order.
 
 
-#### - pOutUint128
+### -param pOutUint128
 
 A pointer to a variable that receives the converted 128-bit integer.
 

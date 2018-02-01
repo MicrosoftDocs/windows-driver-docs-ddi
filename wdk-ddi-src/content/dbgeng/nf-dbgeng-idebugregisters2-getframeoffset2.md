@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0ab18ea-4447-4eee-bdf3-d251d4d4952f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2::GetFrameOffset2, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, IDebugRegisters2, debugger.getframeoffset2, GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetFrameOffset2, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, dbgeng/IDebugRegisters2::GetFrameOffset2, GetFrameOffset2 method [Windows Debugging]
+ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, IDebugRegisters2::GetFrameOffset2, GetFrameOffset2, debugger.getframeoffset2, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, IDebugRegisters2, dbgeng/IDebugRegisters2::GetFrameOffset2, GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetFrameOffset2 method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetFrameOffset2(
 
 
 
-#### - Source [in]
+### -param Source [in]
 
 Specifies the register source to query.
 
@@ -116,7 +116,7 @@ Fetch register information from the current scope's register context.
 </table> 
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 The location in the process's virtual address space of the stack frame for the current function.
 
@@ -158,9 +158,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546806">GetFrameOffset</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
  
 

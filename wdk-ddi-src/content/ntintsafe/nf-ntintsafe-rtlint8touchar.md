@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8BF45A-D968-4C9F-8C38-65B39665496B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlInt8ToUChar, kernel.rtlint8touchar, RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlint8touchar, RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8ToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlInt8ToUChar(
 
 
 
-#### - i8Operand [in]
+### -param i8Operand [in]
 
 The value to be converted.
 
 
-#### - pch [out]
+### -param pch [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

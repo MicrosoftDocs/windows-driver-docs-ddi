@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F0D3F9C4-3305-42A8-A484-5300DB658C0B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, windot11/DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, netvista.dot11_received_go_negotiation_request_parameters, _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS
+ms.keywords: netvista.dot11_received_go_negotiation_request_parameters, _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -96,27 +96,27 @@ The type, revision, and size of the <b>DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PAR
 </table> 
 
 
-#### - PeerDeviceAddress
+### -field PeerDeviceAddress
 
 The Peer-to-Peer (P2P) device address of the Wi-Fi Direct (WFD) device that sent the GO negotiation request.
 
 
-#### - DialogToken
+### -field DialogToken
 
 The dialog token received in the GO negotiation request packet.
 
 
-#### - RequestContext
+### -field RequestContext
 
 The context data from the miniport driver. The system sends this context with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451805">OID_DOT11_WFD_SEND_GO_NEGOTIATION_RESPONSE</a> request.
 
 
-#### - uIEsOffset
+### -field uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) received in the GO negotiation request packet. This offset is from the start of the buffer that contains this structure.
 
 
-#### - uIEsLength
+### -field uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 

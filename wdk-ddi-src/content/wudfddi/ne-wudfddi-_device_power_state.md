@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PDEVICE_POWER_STATE, wudfddi/DEVICE_POWER_STATE, DEVICE_POWER_STATE, wudfddi/PowerDeviceD3, umdf.device_power_state, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, DEVICE_POWER_STATE enumeration, PowerDeviceMaximum, wudfddi/PowerDeviceMaximum, PowerDeviceUnspecified, PowerDeviceD1, PowerDeviceD3, wudfddi/PowerDeviceUnspecified, PowerDeviceD0, wudfddi/PowerDeviceD2, PDEVICE_POWER_STATE, wdf.device_power_state, _DEVICE_POWER_STATE, wudfddi/PowerDeviceD0, wudfddi/PowerDeviceD1, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PDEVICE_POWER_STATE, PowerDeviceD2"
+ms.keywords: wudfddi/DEVICE_POWER_STATE, *PDEVICE_POWER_STATE, wudfddi/PowerDeviceUnspecified, PowerDeviceD3, PowerDeviceMaximum, wudfddi/PowerDeviceD2, PowerDeviceUnspecified, wudfddi/PowerDeviceD0, wdf.device_power_state, wudfddi/PowerDeviceMaximum, umdf.device_power_state, PowerDeviceD2, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PDEVICE_POWER_STATE, wudfddi/PowerDeviceD3, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, DEVICE_POWER_STATE, PowerDeviceD0, DEVICE_POWER_STATE enumeration, PDEVICE_POWER_STATE, _DEVICE_POWER_STATE, wudfddi/PowerDeviceD1, PowerDeviceD1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,32 +75,32 @@ typedef enum _DEVICE_POWER_STATE {
 
 
 
-#### - PowerDeviceUnspecified
+### -field PowerDeviceUnspecified
 
 The device power state is unspecified.
 
 
-#### - PowerDeviceD0
+### -field PowerDeviceD0
 
 The device's working (D0) state. This is the device's highest power state.
 
 
-#### - PowerDeviceD1
+### -field PowerDeviceD1
 
 The device's D1 <a href="https://msdn.microsoft.com/f594a63f-10ce-439d-abe3-d342555d98f0">sleeping state</a>.
 
 
-#### - PowerDeviceD2
+### -field PowerDeviceD2
 
 The device's D2 sleeping state.
 
 
-#### - PowerDeviceD3
+### -field PowerDeviceD3
 
 The device's D3 sleeping state.
 
 
-#### - PowerDeviceMaximum
+### -field PowerDeviceMaximum
 
 For system use only.
 
@@ -114,9 +114,9 @@ The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
  
 

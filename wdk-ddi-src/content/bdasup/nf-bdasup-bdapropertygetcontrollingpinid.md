@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3d4d4124-9c52-42f5-bc31-b924d9c15c36
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bdapropertygetcontrollingpinid, bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml, BdaPropertyGetControllingPinId, bdasup/BdaPropertyGetControllingPinId, BdaPropertyGetControllingPinId function [Streaming Media Devices]
+ms.keywords: stream.bdapropertygetcontrollingpinid, BdaPropertyGetControllingPinId function [Streaming Media Devices], BdaPropertyGetControllingPinId, bdasup/BdaPropertyGetControllingPinId, bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ NTSTATUS BdaPropertyGetControllingPinId(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to retrieve the controlling pin for a node. The BDA minidriver receives this IRP with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564303">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a> request.
 
@@ -80,7 +80,7 @@ Points to the IRP for the request to retrieve the controlling pin for a node. Th
 TBD
 
 
-#### - pulControllingPinId [out, optional]
+### -param pulControllingPinId [out, optional]
 
 Points to a variable that receives the identifier of the controlling pin for a node. 
 
@@ -108,9 +108,9 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564303">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a>
-
 <a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564303">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a>
 
  
 

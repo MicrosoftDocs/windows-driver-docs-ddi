@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 897C74A3-041D-487E-8891-7161B76ABAA1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], scsi/POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], storage.populate_token_header, POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER"
+ms.keywords: PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], scsi/POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER, storage.populate_token_header, POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,42 +75,42 @@ typedef struct _POPULATE_TOKEN_HEADER {
 
 
 
-#### - PopulateTokenDataLength
+### -field PopulateTokenDataLength
 
 The length of this structure beginning with the <i>Immediate</i> parameter and include all of the elements of the <b>BlockDeviceRangeDescriptor</b> array.
 
 
-#### - Immediate
+### -field Immediate
 
 If set, the status of the POPULATE TOKEN command is returned immediately after receipt and validation of the range descriptors. Otherwise, status is returned after all command processing is complete.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved bits.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 
 
-#### - InactivityTimeout
+### -field InactivityTimeout
 
 The timeout duration for which the copy provider waits for the next command using the token created for this representation of data (ROD). The validity of the token created  for the ROD described by this structure expires at this timeout value.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved.
 
 
-#### - BlockDeviceRangeDescriptorListLength
+### -field BlockDeviceRangeDescriptorListLength
 
 The length, in bytes, for all  of the <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
 
 
-#### - BlockDeviceRangeDescriptor
+### -field BlockDeviceRangeDescriptor
 
 An array of <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the logical blocks representing the file being read from the LUN.
 

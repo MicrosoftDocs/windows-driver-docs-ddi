@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4072183a-36b5-4a77-a1a5-95b97950b01a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGPPCAUSE, ntddrilapitypes/RILGPPCAUSE, *LPRILGPPCAUSE, RILGPPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgppcause
+ms.keywords: RILGPPCAUSE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGPPCAUSE, *LPRILGPPCAUSE, RILGPPCAUSE, netvista.rilgppcause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,10 +68,10 @@ typedef struct _RILGPPCAUSE {
 
 
 
-#### - dwLocation
+### -field dwLocation
 
 
 
-#### - dwCauseValue
+### -field dwCauseValue
 
 

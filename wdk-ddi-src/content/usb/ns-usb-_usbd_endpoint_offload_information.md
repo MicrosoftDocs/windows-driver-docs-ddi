@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F2A8E966-269E-447F-9467-EB2E877FFAA2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ENDPOINT_OFFLOAD_INFORMATION, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses]
+ms.keywords: usb/USBD_ENDPOINT_OFFLOAD_INFORMATION, _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,57 +87,57 @@ typedef struct _USBD_ENDPOINT_OFFLOAD_INFORMATION {
 
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - EndpointAddress
+### -field EndpointAddress
 
 Specifies the USB-defined endpoint address. 
 
 
-#### - ResourceId
+### -field ResourceId
 
 The resource identifier.
 
 
-#### - Mode
+### -field Mode
 
 A <a href="..\usb\ne-usb-_usbd_endpoint_offload_mode.md">USBD_ENDPOINT_OFFLOAD_MODE</a>-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
 
 
-#### - RootHubPortNumber
+### -field RootHubPortNumber
 
 The port number of the root hub.
 
 
-#### - RouteString
+### -field RouteString
 
 The route string.
 
 
-#### - Speed
+### -field Speed
 
 The route string.
 
 
-#### - UsbDeviceAddress
+### -field UsbDeviceAddress
 
 The USB device address.
 
 
-#### - SlotId
+### -field SlotId
 
 The slot identifier.
 
 
-#### - MultiTT
+### -field MultiTT
 
 Transaction Translator (TT) hub. 
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved.
 
@@ -202,13 +202,6 @@ The virtual address of the current segment of the transfer data.
 The virtual address of the current segment of the transfer data.
 
 
-#### - size_t
-
-The size of the requested data.
-
-The size of the requested data.
-
-
 #### - ULONG
 
 The cycle state of the transfer.
@@ -217,4 +210,11 @@ Reserved message for endpoint offload mode.
 
 
 The cycle state of the transfer.
+
+
+#### - size_t
+
+The size of the requested data.
+
+The size of the requested data.
 

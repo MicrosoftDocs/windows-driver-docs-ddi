@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56B9C623-2038-4DD3-AA1B-D9A6E47E06C1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketGetPointer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketGetPointer, netvista.vmbpacketgetpointer, VmbPacketGetPointer
+ms.keywords: VmbPacketGetPointer function [Network Drivers Starting with Windows Vista], VmbPacketGetPointer, vmbuskernelmodeclientlibapi/VmbPacketGetPointer, netvista.vmbpacketgetpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ PVOID VmbPacketGetPointer(
 
 
 
-#### - PacketObject [in]
+### -param PacketObject [in]
 
 The handle of a packet object.
 

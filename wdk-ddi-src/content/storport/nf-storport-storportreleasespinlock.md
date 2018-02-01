@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed91d41a-575d-4b26-a7e0-f3ce43db76b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml, StorPortReleaseSpinLock, storage.storportreleasespinlock, storport/StorPortReleaseSpinLock, StorPortReleaseSpinLock routine [Storage Devices]
+ms.keywords: StorPortReleaseSpinLock routine [Storage Devices], storport/StorPortReleaseSpinLock, StorPortReleaseSpinLock, storage.storportreleasespinlock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ VOID StorPortReleaseSpinLock(
 TBD
 
 
-#### - LockHandle [in, out]
+### -param LockHandle [in, out]
 
 Pointer to a lock handle returned by <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>.
 

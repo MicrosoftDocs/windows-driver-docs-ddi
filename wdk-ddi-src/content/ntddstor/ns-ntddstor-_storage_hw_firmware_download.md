@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EFF4688D-E5B2-4F4C-837D-D536F9244AB6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/PSTORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Storage Devices], storage.storage_hw_firmware_download, _STORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Storage Devices], *PSTORAGE_HW_FIRMWARE_DOWNLOAD
+ms.keywords: ntddstor/PSTORAGE_HW_FIRMWARE_DOWNLOAD, storage.storage_hw_firmware_download, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Storage Devices], PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD, _STORAGE_HW_FIRMWARE_DOWNLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _STORAGE_HW_FIRMWARE_DOWNLOAD {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_DOWNLOAD).
 
 
-#### - Size
+### -field Size
 
 The size of this structure and the download image buffer.
 
 
-#### - Flags
+### -field Flags
 
 Flags associated with this download. The following are valid flags that this member can hold.
 <table>
@@ -103,27 +103,27 @@ Flags associated with this download. The following are valid flags that this mem
 </table> 
 
 
-#### - Slot
+### -field Slot
 
 The slot number that the firmware image will be downloaded to.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
 
-#### - Offset
+### -field Offset
 
 The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
-#### - BufferSize
+### -field BufferSize
 
 The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
-#### - ImageBuffer
+### -field ImageBuffer
 
 The firmware image file.
 

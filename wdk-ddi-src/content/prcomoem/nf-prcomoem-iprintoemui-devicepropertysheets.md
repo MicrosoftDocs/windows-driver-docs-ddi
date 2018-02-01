@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7d782f53-2409-416d-a3be-dad932c440a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DevicePropertySheets method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml, IPrintOemUI::DevicePropertySheets, DevicePropertySheets, IPrintOemUI, DevicePropertySheets method [Print Devices], IPrintOemUI interface [Print Devices], DevicePropertySheets method, print.iprintoemui_devicepropertysheets, prcomoem/IPrintOemUI::DevicePropertySheets
+ms.keywords: DevicePropertySheets method [Print Devices], IPrintOemUI::DevicePropertySheets, IPrintOemUI interface [Print Devices], DevicePropertySheets method, print.iprintoemui_devicepropertysheets, prcomoem/IPrintOemUI::DevicePropertySheets, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml, IPrintOemUI, DevicePropertySheets method [Print Devices], IPrintOemUI interface, DevicePropertySheets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT DevicePropertySheets(
 
 
 
-#### - pPSUIInfo
+### -param pPSUIInfo
 
 Caller-supplied pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure.
 
 
-#### - lParam
+### -param lParam
 
 Caller-supplied value that depends on the reason value in <i>pPSUIInfo</i>--&gt;<b>Reason</b>. The reason value can be one of the following constants, which are defined in compstui.h. For more information about these constants, see the Remarks section and <i>lParam</i> parameter description in the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> function type.
 
@@ -117,11 +117,11 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
+<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
-
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
 
  
 

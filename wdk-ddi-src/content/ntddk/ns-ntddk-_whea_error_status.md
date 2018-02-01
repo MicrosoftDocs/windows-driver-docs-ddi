@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 5b11112b-e900-4894-a9ce-6895a4fa1956
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_ERROR_STATUS, whea.whea_error_status, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], _WHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, PWHEA_ERROR_STATUS
+ms.keywords: ntddk/PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS, whea.whea_error_status, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml, PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, _WHEA_ERROR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,199 +86,149 @@ typedef union _WHEA_ERROR_STATUS {
 
 ### -field DUMMYSTRUCTNAME.Reserved1
 
- 
-
-
-### -field DUMMYSTRUCTNAME.ErrorType
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Address
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Control
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Data
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Responder
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Requester
-
- 
-
-
-### -field DUMMYSTRUCTNAME.FirstError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Overflow
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Reserved2
-
- 
-
-
-#### - ErrorStatus
-
-A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
-
-
-#### - Reserved1
-
 Reserved for system use.
 
 
-#### - ErrorType
+### -field DUMMYSTRUCTNAME.ErrorType
 
 The type of hardware error that occurred. Possible values are:
 
 
 
 
-#### ERRTYP_INTERNAL
-
-An error internal to the component.
-
-
-#### ERRTYP_BUS
-
-A bus error.
-
-
-#### ERRTYP_MEM
-
-A memory error.
-
-
-#### ERRTYP_TLB
-
-A translation lookaside buffer error.
-
-
-#### ERRTYP_CACHE
-
-A cache error.
-
-
-#### ERRTYP_FUNCTION
-
-An error in one or more functional units.
-
-
-#### ERRTYP_SELFTEST
-
-The component failed self test.
-
-
-#### ERRTYP_FLOW
-
-An overflow or underflow of a queue that is internal to the component.
-
-
-#### ERRTYP_MAP
-
-The virtual address was not found on IO-TLB or IO-PDIR.
-
-
-#### ERRTYP_IMPROPER
-
-An improper access error.
-
-
-#### ERRTYP_UNIMPL
-
-An access to a memory address that is not mapped to any component.
-
-
-#### ERRTYP_LOSSOFLOCKSTEP
-
-A loss of lockstep.
-
-
-#### ERRTYP_RESPONSE
-
-A response was received that was not associated with a request.
-
-
-#### ERRTYP_PARITY
-
-A bus parity error.
-
-
-#### ERRTYP_PROTOCOL
-
-A bus protocol error.
-
-
-#### ERRTYP_PATHERROR
-
-A bus path error.
-
-
-#### ERRTYP_TIMEOUT
-
-A bus timeout error.
-
-
-#### ERRTYP_POISONED
-
-A read operation was issued to data that has been corrupted.
-
-
-#### - Address
+### -field DUMMYSTRUCTNAME.Address
 
 A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
 
 
-#### - Control
+### -field DUMMYSTRUCTNAME.Control
 
 A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
 
 
-#### - Data
+### -field DUMMYSTRUCTNAME.Data
 
 A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
 
 
-#### - Responder
+### -field DUMMYSTRUCTNAME.Responder
 
 A single bit that indicates that the error was detected by the responder of the transaction.
 
 
-#### - Requester
+### -field DUMMYSTRUCTNAME.Requester
 
 A single bit that indicates that the error was detected by the requester of the transaction.
 
 
-#### - FirstError
+### -field DUMMYSTRUCTNAME.FirstError
 
 A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
 
 
-#### - Overflow
+### -field DUMMYSTRUCTNAME.Overflow
 
 A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
 
 
-#### - Reserved2
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved for system use.
+
+
+### -field ErrorStatus
+
+A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
+
+
+##### - ErrorType.ERRTYP_BUS
+
+A bus error.
+
+
+##### - ErrorType.ERRTYP_CACHE
+
+A cache error.
+
+
+##### - ErrorType.ERRTYP_FLOW
+
+An overflow or underflow of a queue that is internal to the component.
+
+
+##### - ErrorType.ERRTYP_FUNCTION
+
+An error in one or more functional units.
+
+
+##### - ErrorType.ERRTYP_IMPROPER
+
+An improper access error.
+
+
+##### - ErrorType.ERRTYP_INTERNAL
+
+An error internal to the component.
+
+
+##### - ErrorType.ERRTYP_LOSSOFLOCKSTEP
+
+A loss of lockstep.
+
+
+##### - ErrorType.ERRTYP_MAP
+
+The virtual address was not found on IO-TLB or IO-PDIR.
+
+
+##### - ErrorType.ERRTYP_MEM
+
+A memory error.
+
+
+##### - ErrorType.ERRTYP_PARITY
+
+A bus parity error.
+
+
+##### - ErrorType.ERRTYP_PATHERROR
+
+A bus path error.
+
+
+##### - ErrorType.ERRTYP_POISONED
+
+A read operation was issued to data that has been corrupted.
+
+
+##### - ErrorType.ERRTYP_PROTOCOL
+
+A bus protocol error.
+
+
+##### - ErrorType.ERRTYP_RESPONSE
+
+A response was received that was not associated with a request.
+
+
+##### - ErrorType.ERRTYP_SELFTEST
+
+The component failed self test.
+
+
+##### - ErrorType.ERRTYP_TIMEOUT
+
+A bus timeout error.
+
+
+##### - ErrorType.ERRTYP_TLB
+
+A translation lookaside buffer error.
+
+
+##### - ErrorType.ERRTYP_UNIMPL
+
+An access to a memory address that is not mapped to any component.
 
 
 ## -remarks

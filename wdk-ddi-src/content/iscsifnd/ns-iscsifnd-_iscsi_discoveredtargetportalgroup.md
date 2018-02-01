@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5c90dbc2-f42a-4c04-8c77-0ef3a712416c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_DiscoveredTargetPortalGroup structure pointer [Storage Devices], iscsifnd/PISCSI_DiscoveredTargetPortalGroup, _ISCSI_DiscoveredTargetPortalGroup, structs-iSCSI_aa46b46a-73cf-4d06-a5ff-9abc5794f965.xml, PISCSI_DiscoveredTargetPortalGroup, ISCSI_DiscoveredTargetPortalGroup, ISCSI_DiscoveredTargetPortalGroup structure [Storage Devices], *PISCSI_DiscoveredTargetPortalGroup, storage.iscsi_discoveredtargetportalgroup, iscsifnd/ISCSI_DiscoveredTargetPortalGroup
+ms.keywords: ISCSI_DiscoveredTargetPortalGroup, PISCSI_DiscoveredTargetPortalGroup, structs-iSCSI_aa46b46a-73cf-4d06-a5ff-9abc5794f965.xml, ISCSI_DiscoveredTargetPortalGroup structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTargetPortalGroup, PISCSI_DiscoveredTargetPortalGroup structure pointer [Storage Devices], storage.iscsi_discoveredtargetportalgroup, _ISCSI_DiscoveredTargetPortalGroup, iscsifnd/ISCSI_DiscoveredTargetPortalGroup, *PISCSI_DiscoveredTargetPortalGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _ISCSI_DiscoveredTargetPortalGroup {
 
 
 
-#### - PortalCount
+### -field PortalCount
 
 The number of portals in the group. 
 
 
-#### - Portals
+### -field Portals
 
 An array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a> structures, which describe target portals. 
 
@@ -89,9 +89,9 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup2.md">ISCSI_DiscoveredTargetPortalGroup2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561523">ISCSI_DiscoveredTargetPortalGroup WMI Class</a>
+
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup2.md">ISCSI_DiscoveredTargetPortalGroup2</a>
 
  
 

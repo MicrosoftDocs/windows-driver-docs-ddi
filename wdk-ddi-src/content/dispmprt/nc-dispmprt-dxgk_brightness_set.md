@@ -71,12 +71,12 @@ NTSTATUS* DxgkDdiSetBrightness(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-#### - Brightness [in]
+### -param Brightness [in]
 
 The brightness level value to set.
 

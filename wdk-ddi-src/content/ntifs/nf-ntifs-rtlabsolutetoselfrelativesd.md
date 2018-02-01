@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e6247856-5abf-44ea-afe8-9be3f61271a4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlAbsoluteToSelfRelativeSD, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers], rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml, ifsk.rtlabsolutetoselfrelativesd, RtlAbsoluteToSelfRelativeSD
+ms.keywords: RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers], ntifs/RtlAbsoluteToSelfRelativeSD, ifsk.rtlabsolutetoselfrelativesd, rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml, RtlAbsoluteToSelfRelativeSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS RtlAbsoluteToSelfRelativeSD(
 
 
 
-#### - AbsoluteSecurityDescriptor [in]
+### -param AbsoluteSecurityDescriptor [in]
 
 Pointer to a caller-allocated buffer that contains a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure in absolute format. <b>RtlAbsoluteToSelfRelativeSD</b> creates a version of this security descriptor in self-relative format without modifying the original. 
 
 
-#### - SelfRelativeSecurityDescriptor [out]
+### -param SelfRelativeSecurityDescriptor [out]
 
 Pointer to a caller-allocated buffer that receives a security descriptor in self-relative format. 
 
 
-#### - BufferLength [in, out]
+### -param BufferLength [in, out]
 
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>SelfRelativeSecurityDescriptor</i> parameter. If the buffer is not large enough to hold the security descriptor, <b>RtlAbsoluteToSelfRelativeSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size. 
 
@@ -133,19 +133,19 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
  
 

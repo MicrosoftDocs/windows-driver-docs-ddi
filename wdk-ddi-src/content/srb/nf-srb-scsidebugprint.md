@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bbf3ea14-1802-4433-9043-73bfc0c447bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiDebugPrint, scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, srb/ScsiDebugPrint, ScsiDebugPrint routine [Storage Devices], storage.scsidebugprint
+ms.keywords: scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, ScsiDebugPrint routine [Storage Devices], storage.scsidebugprint, srb/ScsiDebugPrint, ScsiDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ VOID ScsiDebugPrint(
 
 
 
-#### - DebugPrintLevel
+### -param DebugPrintLevel
 
 Contains a value between 0 and 3 that specifies the amount of verbosity. A value of 3 signifies the highest level of verbosity. A value of 0 signifies the lowest level. <b>ScsiDebugPrint</b> will print the message pointed to by <i>DebugMessage</i>, together with other debugging information. For information about how the meaning of <i>DebugPrintLevel </i>has changed in Windows XP and later operating systems, see the remarks section.  
 
 
-#### - DebugMessage
+### -param DebugMessage
 
 Pointer to the message to be printed. 
 

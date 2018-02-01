@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d9fe5fec-75e3-4ea6-a4ac-16756fa8dc38
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/IPSEC_OFFLOAD_V2_UPDATE_SA, PIPSEC_OFFLOAD_V2_UPDATE_SA structure pointer [Network Drivers Starting with Windows Vista], task_offload_IPsecv2_ref_2a34fbb7-fa5d-49f3-844c-c5e8df229a54.xml, _IPSEC_OFFLOAD_V2_UPDATE_SA, PIPSEC_OFFLOAD_V2_UPDATE_SA, *PIPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA structure [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_UPDATE_SA, ndis/PIPSEC_OFFLOAD_V2_UPDATE_SA, netvista.ipsec_offload_v2_update_sa
+ms.keywords: "*PIPSEC_OFFLOAD_V2_UPDATE_SA, PIPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA structure [Network Drivers Starting with Windows Vista], ndis/IPSEC_OFFLOAD_V2_UPDATE_SA, _IPSEC_OFFLOAD_V2_UPDATE_SA, task_offload_IPsecv2_ref_2a34fbb7-fa5d-49f3-844c-c5e8df229a54.xml, PIPSEC_OFFLOAD_V2_UPDATE_SA structure pointer [Network Drivers Starting with Windows Vista], netvista.ipsec_offload_v2_update_sa, ndis/PIPSEC_OFFLOAD_V2_UPDATE_SA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct _IPSEC_OFFLOAD_V2_UPDATE_SA {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -86,25 +86,25 @@ The
      <b>Size</b> member to NDIS_SIZEOF_IPSEC_OFFLOAD_V2_UPDATE_SA_REVISION_1.
 
 
-#### - OffloadHandle
+### -field OffloadHandle
 
 An NDIS handle that identifies the SA. The miniport driver provided this handle in response to an 
      OID set request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>.
 
 
-#### - Operation
+### -field Operation
 
 The IPsec operation for which the SA is to be used. The 
-     <mshelp:link keywords="netvista.ipsec_offload_v2_operation" tabindex="0"><b>
-     IPSEC_OFFLOAD_V2_OPERATION</b></mshelp:link> enumeration defines the supported operations.
+     <a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">
+     IPSEC_OFFLOAD_V2_OPERATION</a> enumeration defines the supported operations.
 
 
-#### - Spi
+### -field Spi
 
 A 32 bit security parameters index (SPI) for the SA.
 
 
-#### - SequenceNumberHighOrder
+### -field SequenceNumberHighOrder
 
 The high-order bit of an IPsec sequence number. This bit is not included in the IPsec
      header.
@@ -116,22 +116,22 @@ The high-order bit of an IPsec sequence number. This bit is not included in the 
 The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointer to the next
     IPSEC_OFFLOAD_V2_UPDATE_SA structure in a linked list. The IPSEC_OFFLOAD_V2_UPDATE_SA structure is used
     with the 
-    <mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_update_sa" tabindex="0">
-    OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</mshelp:link> OID.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+    OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a> OID.
 
 
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
-
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</mshelp:link>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_update_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
+
+<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
 
  
 

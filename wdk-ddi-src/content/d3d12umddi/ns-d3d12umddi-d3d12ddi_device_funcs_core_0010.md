@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87B4873E-DD44-47E9-8E6A-5BA91218188F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_device_funcs_core_0010, D3D12DDI_DEVICE_FUNCS_CORE_0010, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0010, D3D12DDI_DEVICE_FUNCS_CORE_0010 structure [Display Devices]
+ms.keywords: display.d3d12ddi_device_funcs_core_0010, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0010, D3D12DDI_DEVICE_FUNCS_CORE_0010, D3D12DDI_DEVICE_FUNCS_CORE_0010 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -157,457 +157,457 @@ typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0010 {
 
 
 
-#### - pfnCheckFormatSupport
+### -field pfnCheckFormatSupport
 
 A function that checks format support.
 
 
-#### - pfnCheckMultisampleQualityLevels
+### -field pfnCheckMultisampleQualityLevels
 
 A function that checks multi-sample quality levels. 
 
 
-#### - pfnGetMipPacking
+### -field pfnGetMipPacking
 
 A function that gets MIP packing.
 
 
-#### - pfnCalcPrivateElementLayoutSize
+### -field pfnCalcPrivateElementLayoutSize
 
 A function that calculates layout size for a private element. 
 
 
-#### - pfnCreateElementLayout
+### -field pfnCreateElementLayout
 
 A function that creates an element layout. 
 
 
-#### - pfnDestroyElementLayout
+### -field pfnDestroyElementLayout
 
 A function that destroys an element layout.
 
 
-#### - pfnCalcPrivateBlendStateSize
+### -field pfnCalcPrivateBlendStateSize
 
 A function that calculates the size of a private blend state.
 
 
-#### - pfnCreateBlendState
+### -field pfnCreateBlendState
 
 A function that creates a blend state.
 
 
-#### - pfnDestroyBlendState
+### -field pfnDestroyBlendState
 
 A function that destroys a blend state.
 
 
-#### - pfnCalcPrivateDepthStencilStateSize
+### -field pfnCalcPrivateDepthStencilStateSize
 
 A function that calculates the size of the state of a private depth stencil. 
 
 
-#### - pfnCreateDepthStencilState
+### -field pfnCreateDepthStencilState
 
 A function that creates a depth stencil state.
 
 
-#### - pfnDestroyDepthStencilState
+### -field pfnDestroyDepthStencilState
 
 A function that destroys a depth stencil state.
 
 
-#### - pfnCalcPrivateRasterizerStateSize
+### -field pfnCalcPrivateRasterizerStateSize
 
 A function that calculates the size of a private rasterizer state. 
 
 
-#### - pfnCreateRasterizerState
+### -field pfnCreateRasterizerState
 
 A function that creates a rasterizer state.
 
 
-#### - pfnDestroyRasterizerState
+### -field pfnDestroyRasterizerState
 
 A function that destroys a rasterizer state.
 
 
-#### - pfnCalcPrivateShaderSize
+### -field pfnCalcPrivateShaderSize
 
 A function that calculates the size of a private shader. 
 
 
-#### - pfnCreateVertexShader
+### -field pfnCreateVertexShader
 
 A function that creates a vertex shader. 
 
 
-#### - pfnCreatePixelShader
+### -field pfnCreatePixelShader
 
 A function that creates a shader.
 
 
-#### - pfnCreateGeometryShader
+### -field pfnCreateGeometryShader
 
 A function that creates a geometry shader.
 
 
-#### - pfnCreateComputeShader
+### -field pfnCreateComputeShader
 
 A function that creates a compute shader. 
 
 
-#### - pfnCalcPrivateGeometryShaderWithStreamOutput
+### -field pfnCalcPrivateGeometryShaderWithStreamOutput
 
 A function that calculates a private geometry shader with stream output. 
 
 
-#### - pfnCreateGeometryShaderWithStreamOutput
+### -field pfnCreateGeometryShaderWithStreamOutput
 
 A function that creates a private geometry shader with stream output. 
 
 
-#### - pfnCalcPrivateTessellationShaderSize
+### -field pfnCalcPrivateTessellationShaderSize
 
 A function that creates private tessellation shader size. 
 
 
-#### - pfnCreateHullShader
+### -field pfnCreateHullShader
 
 A function that creates a hull shader.
 
 
-#### - pfnCreateDomainShader
+### -field pfnCreateDomainShader
 
 A function that creates a domain shader.
 
 
-#### - pfnDestroyShader
+### -field pfnDestroyShader
 
 A function that destroys a shader.
 
 
-#### - pfnCalcPrivateCommandQueueSize
+### -field pfnCalcPrivateCommandQueueSize
 
 A function that calculates the size of a private queue.
 
 
-#### - pfnCreateCommandQueue
+### -field pfnCreateCommandQueue
 
 A function that creates a command queue.
 
 
-#### - pfnDestroyCommandQueue
+### -field pfnDestroyCommandQueue
 
 A function that destroys a command queue.
 
 
-#### - pfnCalcPrivateCommandAllocatorSize
+### -field pfnCalcPrivateCommandAllocatorSize
 
 A function that calculates the size of a private command allocator.
 
 
-#### - pfnCreateCommandAllocator
+### -field pfnCreateCommandAllocator
 
 A function that creates a command allocator.
 
 
-#### - pfnDestroyCommandAllocator
+### -field pfnDestroyCommandAllocator
 
 A function that destroys a command allocator. 
 
 
-#### - pfnResetCommandAllocator
+### -field pfnResetCommandAllocator
 
 A function that resets a command allocator. 
 
 
-#### - pfnCalcPrivatePipelineStateSize
+### -field pfnCalcPrivatePipelineStateSize
 
 A function that calculate the size of a private pipeline state.
 
 
-#### - pfnCreatePipelineState
+### -field pfnCreatePipelineState
 
 A function that crates a pipeline state.
 
 
-#### - pfnDestroyPipelineState
+### -field pfnDestroyPipelineState
 
 A function that destroys a pipeline state.
 
 
-#### - pfnCalcPrivateCommandListSize
+### -field pfnCalcPrivateCommandListSize
 
 A function that calculate the size of a private command list.
 
 
-#### - pfnCreateCommandList
+### -field pfnCreateCommandList
 
 A function that creates a command list.
 
 
-#### - pfnDestroyCommandList
+### -field pfnDestroyCommandList
 
 A function that destroys a command list. 
 
 
-#### - pfnCalcPrivateFenceSize
+### -field pfnCalcPrivateFenceSize
 
 A function that calculates a private fence size. 
 
 
-#### - pfnCreateFence
+### -field pfnCreateFence
 
 A function that creates a fence.
 
 
-#### - pfnDestroyFence
+### -field pfnDestroyFence
 
 A function that destroys a fence. 
 
 
-#### - pfnCalcPrivateDescriptorHeapSize
+### -field pfnCalcPrivateDescriptorHeapSize
 
 A function that calculates the size of a private descriptor heap.
 
 
-#### - pfnCreateDescriptorHeap
+### -field pfnCreateDescriptorHeap
 
 A function that creates a descriptor heap.
 
 
-#### - pfnDestroyDescriptorHeap
+### -field pfnDestroyDescriptorHeap
 
 A function that destroys a descriptor heap. 
 
 
-#### - pfnGetDescriptorSizeInBytes
+### -field pfnGetDescriptorSizeInBytes
 
 A function that gets the descriptor size, in bytes.
 
 
-#### - pfnGetCPUDescriptorHandleForHeapStart
+### -field pfnGetCPUDescriptorHandleForHeapStart
 
 A function that gets a CPU descriptor handle. 
 
 
-#### - pfnGetGPUDescriptorHandleForHeapStart
+### -field pfnGetGPUDescriptorHandleForHeapStart
 
 A function that gets a GPU descriptor handle.
 
 
-#### - pfnCreateShaderResourceView
+### -field pfnCreateShaderResourceView
 
 A function that creates a shader resource view. 
 
 
-#### - pfnCreateConstantBufferView
+### -field pfnCreateConstantBufferView
 
 A function that creates a constant buffer view. 
 
 
-#### - pfnCreateSampler
+### -field pfnCreateSampler
 
 A function that creates a sampler.
 
 
-#### - pfnCreateUnorderedAccessView
+### -field pfnCreateUnorderedAccessView
 
 A function that creates an unordered access view. 
 
 
-#### - pfnCreateRenderTargetView
+### -field pfnCreateRenderTargetView
 
 A function that creates a render target view. 
 
 
-#### - pfnCreateDepthStencilView
+### -field pfnCreateDepthStencilView
 
 A function that creates a depth stencil view. 
 
 
-#### - pfnCalcPrivateRootSignatureSize
+### -field pfnCalcPrivateRootSignatureSize
 
 A function that calculates the size of a private root signature. 
 
 
-#### - pfnCreateRootSignature
+### -field pfnCreateRootSignature
 
 A function that creates a root signature. 
 
 
-#### - pfnDestroyRootSignature
+### -field pfnDestroyRootSignature
 
 A function that destroys a root signature. 
 
 
-#### - pfnMapHeap
+### -field pfnMapHeap
 
 A function that maps a heap.
 
 
-#### - pfnUnmapHeap
+### -field pfnUnmapHeap
 
 A function that unmaps a heap.
 
 
-#### - pfnCalcPrivateHeapAndResourceSizes
+### -field pfnCalcPrivateHeapAndResourceSizes
 
 A function that calculates sizes for private heap and resource. 
 
 
-#### - pfnCreateHeapAndResource
+### -field pfnCreateHeapAndResource
 
 A function that create a heap and resource. 
 
 
-#### - pfnDestroyHeapAndResource
+### -field pfnDestroyHeapAndResource
 
 A function that destroys a heap and resource. 
 
 
-#### - pfnMakeResident
+### -field pfnMakeResident
 
 A function that makes a resident. 
 
 
-#### - pfnEvict
+### -field pfnEvict
 
 A function that evicts. 
 
 
-#### - pfnCalcPrivateOpenedHeapAndResourceSizes
+### -field pfnCalcPrivateOpenedHeapAndResourceSizes
 
 A function that calculates sizes for private opened heap and resources. 
 
 
-#### - pfnOpenHeapAndResource
+### -field pfnOpenHeapAndResource
 
 A function that opens a heap and resource. 
 
 
-#### - pfnCopyDescriptors
+### -field pfnCopyDescriptors
 
 A function that copies descriptors. 
 
 
-#### - pfnCopyDescriptorsSimple
+### -field pfnCopyDescriptorsSimple
 
 A function that does a simple copy of descriptors. 
 
 
-#### - pfnCalcPrivateQueryHeapSize
+### -field pfnCalcPrivateQueryHeapSize
 
 A function that calculates the size of a private query heap.
 
 
-#### - pfnCreateQueryHeap
+### -field pfnCreateQueryHeap
 
 A function that creates a query heap.
 
 
-#### - pfnDestroyQueryHeap
+### -field pfnDestroyQueryHeap
 
 A function that destroys a query heap. 
 
 
-#### - pfnCalcPrivateCommandSignatureSize
+### -field pfnCalcPrivateCommandSignatureSize
 
 A function that calculates the size of a private command signature. 
 
 
-#### - pfnCreateCommandSignature
+### -field pfnCreateCommandSignature
 
 A function that creates a command signature. 
 
 
-#### - pfnDestroyCommandSignature
+### -field pfnDestroyCommandSignature
 
 A function that destroys a command signature. 
 
 
-#### - pfnCheckResourceVirtualAddress
+### -field pfnCheckResourceVirtualAddress
 
 A function that checks the virtual address of a resource.
 
 
-#### - pfnCheckResourceAllocationInfo
+### -field pfnCheckResourceAllocationInfo
 
 A function that checks allocation information of a resource.
 
 
-#### - pfnCheckSubresourceInfo
+### -field pfnCheckSubresourceInfo
 
 A function that checks information of a subresource. 
 
 
-#### - pfnCheckExistingResourceAllocationInfo
+### -field pfnCheckExistingResourceAllocationInfo
 
 A function that checks allocation information of an existing resource.
 
 
-#### - pfnOfferResources
+### -field pfnOfferResources
 
 A function that offers resources.
 
 
-#### - pfnReclaimResources
+### -field pfnReclaimResources
 
 A function that reclaims resources. 
 
 
-#### - pfnGetImplicitPhysicalAdapterMask
+### -field pfnGetImplicitPhysicalAdapterMask
 
 A function that gets an implicit physical adapter mask.
 
 
-#### - pfnGetPresentPrivateDriverDataSize
+### -field pfnGetPresentPrivateDriverDataSize
 
 A function that gets the present size of private driver data. 
 
 
-#### - pfnQueryNodeMap
+### -field pfnQueryNodeMap
 
 A function that queries a node map.
 
 
-#### - pfnRetrieveShaderComment
+### -field pfnRetrieveShaderComment
 
 A function that retrieves a shader comment. 
 
 
-#### - pfnCheckResourceAllocationHandle
+### -field pfnCheckResourceAllocationHandle
 
 A function that checks a resource allocation handle. 
 
 
-#### - pfnCalcPrivatePipelineLibrarySize
+### -field pfnCalcPrivatePipelineLibrarySize
 
 A function that calculates the size of a private pipeline library.
 
 
-#### - pfnCreatePipelineLibrary
+### -field pfnCreatePipelineLibrary
 
 A function that creates a pipeline library.
 
 
-#### - pfnDestroyPipelineLibrary
+### -field pfnDestroyPipelineLibrary
 
 A function that destroys a pipeline library.
 
 
-#### - pfnAddPipelineStateToLibrary
+### -field pfnAddPipelineStateToLibrary
 
 A function that adds pipeline state to a library.
 
 
-#### - pfnCalcSerializedLibrarySize
+### -field pfnCalcSerializedLibrarySize
 
 A function that calculates the size of a serialized library.
 
 
-#### - pfnSerializeLibrary
+### -field pfnSerializeLibrary
 
 A function that serializes a library. 
 

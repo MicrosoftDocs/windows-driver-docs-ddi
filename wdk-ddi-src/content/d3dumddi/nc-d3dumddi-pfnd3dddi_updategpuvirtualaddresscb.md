@@ -76,7 +76,7 @@ HRESULT APIENTRY CALLBACK* pfnUpdateGpuVirtualAddressCb(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device.
 

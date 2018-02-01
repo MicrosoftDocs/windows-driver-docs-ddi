@@ -70,7 +70,7 @@ VOID ExpandedStackCall(
 
 
 
-#### - Parameter [in, optional]
+### -param Parameter [in, optional]
 
 The value passed to the <a href="..\ntddk\nf-ntddk-keexpandkernelstackandcallout.md">KeExpandKernelStackAndCallout</a> routine that executed <i>ExpandedStackCall</i>.
 

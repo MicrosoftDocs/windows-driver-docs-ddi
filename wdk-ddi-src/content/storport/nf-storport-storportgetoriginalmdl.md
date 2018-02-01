@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 48042e9d-ed83-4326-931d-ded753deb1a7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml, StorPortGetOriginalMdl, storage.storportgetoriginalmdl
+ms.keywords: storport/StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], StorPortGetOriginalMdl, storage.storportgetoriginalmdl, storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortGetOriginalMdl(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 A pointer to a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure.
 
 
-#### - Mdl [out]
+### -param Mdl [out]
 
 A pointer to receive the MDL.
 
@@ -140,11 +140,11 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
 <a href="..\storport\nf-storport-storportgetsystemaddress.md">StorPortGetSystemAddress</a>
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
  
 

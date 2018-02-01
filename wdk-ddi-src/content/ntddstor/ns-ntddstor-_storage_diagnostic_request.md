@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BAC83B5C-4F14-430D-9CEF-46812FC4DFED
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request, *PSTORAGE_DIAGNOSTIC_REQUEST, ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], ntddstor/STORAGE_DIAGNOSTIC_REQUEST, _STORAGE_DIAGNOSTIC_REQUEST
+ms.keywords: "_STORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request, PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], PSTORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], ntddstor/STORAGE_DIAGNOSTIC_REQUEST, *PSTORAGE_DIAGNOSTIC_REQUEST, ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _STORAGE_DIAGNOSTIC_REQUEST {
 
 
 
-#### - Version
+### -field Version
 
 Version of this structure.
 
 
-#### - Size
+### -field Size
 
 Specifies the whole size of the structure and the associated data buffer.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
 
-#### - TargetType
+### -field TargetType
 
 Specifies the request target type. See definitions for <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
 
 
-#### - Level
+### -field Level
 
 Specifies the Diagnostic level. See definitions for <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>.
 

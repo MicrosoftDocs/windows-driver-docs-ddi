@@ -75,57 +75,32 @@ VOID APIENTRY* pfnGetCryptoSessionPrivateDataSize(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-#### - *pCryptoType [in]
+### -param *pCryptoType [in]
 
 Indicates the crypto type for which the private input and output size is queried.
 
 
-#### - *pDecoderProfile [in, optional]
+### -param *pDecoderProfile [in, optional]
 
 Indicates the decoder profile for which the private input and output size is queried.
 
 
-#### - *pKeyExchangeType [in]
+### -param *pKeyExchangeType [in]
 
 Indicates the key exchange type for which the private input and output size is queried.
 
 
-#### - *pPrivateInputSize [out]
+### -param *pPrivateInputSize [out]
 
 Returns the size of private data that the driver needs for input commands.
 
 
-#### - *pPrivateOutputSize [out]
-
-Returns the size of private data that the driver needs for output commands.
-
-
-#### - pCryptoType [in]
-
-Indicates the crypto type for which the private input and output size is queried.
-
-
-#### - pDecoderProfile [in, optional]
-
-Indicates the decoder profile for which the private input and output size is queried.
-
-
-#### - pKeyExchangeType [in]
-
-Indicates the key exchange type for which the private input and output size is queried.
-
-
-#### - pPrivateInputSize [out]
-
-Returns the size of private data that the driver needs for input commands.
-
-
-#### - pPrivateOutputSize [out]
+### -param *pPrivateOutputSize [out]
 
 Returns the size of private data that the driver needs for output commands.
 

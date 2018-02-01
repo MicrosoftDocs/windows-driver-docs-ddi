@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EBB89BDA-6249-4D0F-A0EE-7074DDAFFFC1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdkOperationTypeBind, NdkOperationTypeFastRegister, NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeFastRegister, _NDK_OPERATION_TYPE, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeRead, ndkpi/NdkOperationTypeBind, NdkOperationTypeWrite, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeRead, NdkOperationTypeReceive, ndkpi/NDK_OPERATION_TYPE, NDK_OPERATION_TYPE, NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeWrite, netvista.ndk_operation_type, NdkOperationTypeSend
+ms.keywords: NdkOperationTypeRead, NdkOperationTypeFastRegister, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeReceive, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeFastRegister, NdkOperationTypeReceive, NdkOperationTypeWrite, ndkpi/NdkOperationTypeBind, NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeInvalidate, _NDK_OPERATION_TYPE, netvista.ndk_operation_type, NDK_OPERATION_TYPE, NdkOperationTypeSend, NdkOperationTypeBind, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _NDK_OPERATION_TYPE {
 
 
 
-#### - NdkOperationTypeReceive
+### -field NdkOperationTypeReceive
 
 An <i>NdkReceive</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>) operation.
 
 
-#### - NdkOperationTypeReceiveAndInvalidate
+### -field NdkOperationTypeReceiveAndInvalidate
 
 An <i>NdkSendAndInvalidate</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_send_and_invalidate.md">NDK_FN_SEND_AND_INVALIDATE</a>) operation.
 
 
-#### - NdkOperationTypeSend
+### -field NdkOperationTypeSend
 
 An <i>NdkSend</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_send.md">NDK_FN_SEND</a>) operation.
 
 
-#### - NdkOperationTypeFastRegister
+### -field NdkOperationTypeFastRegister
 
 An <i>NdkFastRegister</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a>) operation.
 
 
-#### - NdkOperationTypeBind
+### -field NdkOperationTypeBind
 
 An <i>NdkBind</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>)  operation.
 
 
-#### - NdkOperationTypeInvalidate
+### -field NdkOperationTypeInvalidate
 
 An <i>NdkInvalidate</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>) operation.
 
 
-#### - NdkOperationTypeRead
+### -field NdkOperationTypeRead
 
 An <i>NdkRead</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_read.md">NDK_FN_READ</a>) operation.
 
 
-#### - NdkOperationTypeWrite
+### -field NdkOperationTypeWrite
 
 An <i>NdkWrite</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>) operation.
 

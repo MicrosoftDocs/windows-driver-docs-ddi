@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 9DEEB369-8B9E-40AA-9531-6B8138E5668F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hpmi/PHPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES, hpmi/HPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES structure [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], _HPMI_QUERY_CAPABILITIES, powermeter.hpmi_query_capabilities, HPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES
+ms.keywords: "_HPMI_QUERY_CAPABILITIES, hpmi/PHPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], hpmi/HPMI_QUERY_CAPABILITIES, powermeter.hpmi_query_capabilities, HPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES structure [Power Metering and Budgeting Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,16 +69,16 @@ typedef struct _HPMI_QUERY_CAPABILITIES {
 
 
 
-#### - Version
+### -field Version
 
 Set to HPMI_QUERY_CAPABILITIES_VERSION_1.  
 
 
 ## -see-also
 
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_query_capabilities.md">IOCTL_HPMI_QUERY_CAPABILITIES</a>
-
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+
+<a href="..\hpmi\ni-hpmi-ioctl_hpmi_query_capabilities.md">IOCTL_HPMI_QUERY_CAPABILITIES</a>
 
 <a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
 

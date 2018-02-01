@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 59663F6C-5C8E-4403-8097-7E6D9A075A60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_CONNECTOR_PD_CONFIG_INIT, ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], buses.ucm_connector_pd_config_init
+ms.keywords: UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT, buses.ucm_connector_pd_config_init, UCM_CONNECTOR_PD_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ FORCEINLINE void UCM_CONNECTOR_PD_CONFIG_INIT(
 
 
 
-#### - Config [out]
+### -param Config [out]
 
 Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a> structure to initialize.
 
 
-#### - SupportedPowerRoles [in]
+### -param SupportedPowerRoles [in]
 
 A bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed flags.
 

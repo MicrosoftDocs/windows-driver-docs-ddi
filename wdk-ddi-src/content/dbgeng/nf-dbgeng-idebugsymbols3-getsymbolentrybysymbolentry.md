@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 39AD3C10-C6E8-463F-BDDE-5941CB4B2830
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryBySymbolEntry, GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolEntryBySymbolEntry, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryBySymbolEntry method, GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3, debugger.idebugsymbols3_getsymbolentrybysymbolentry, IDebugSymbols3::GetSymbolEntryBySymbolEntry
+ms.keywords: GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolEntryBySymbolEntry, GetSymbolEntryBySymbolEntry, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryBySymbolEntry method, IDebugSymbols3::GetSymbolEntryBySymbolEntry, debugger.idebugsymbols3_getsymbolentrybysymbolentry, GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetSymbolEntryBySymbolEntry(
 
 
 
-#### - FromId [in]
+### -param FromId [in]
 
 A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure as the input ID.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bit-set that contains options that affect the behavior of this method. 
 
 
-#### - ToId [out]
+### -param ToId [out]
 
 A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure as the output ID.
 

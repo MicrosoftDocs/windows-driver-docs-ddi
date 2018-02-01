@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D172D39-0D28-4950-B428-330D5B4D0654
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress function, wdf.wdfdevicegethardwareregistermappedaddress, WdfDeviceGetHardwareRegisterMappedAddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress, PFN_WDFDEVICEGETHARDWAREREGISTERMAPPEDADDRESS
+ms.keywords: PFN_WDFDEVICEGETHARDWAREREGISTERMAPPEDADDRESS, WdfDeviceGetHardwareRegisterMappedAddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress, wdf.wdfdevicegethardwareregistermappedaddress, WdfDeviceGetHardwareRegisterMappedAddress function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ PVOID WdfDeviceGetHardwareRegisterMappedAddress(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - PseudoBaseAddress [in]
+### -param PseudoBaseAddress [in]
 
 The address of a location that receives a pointer to the pseudo base address.
 

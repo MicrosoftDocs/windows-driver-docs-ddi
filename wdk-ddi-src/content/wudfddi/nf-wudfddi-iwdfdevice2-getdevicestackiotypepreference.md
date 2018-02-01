@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetDeviceStackIoTypePreference method, IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, umdf.iwdfdevice2_getdevicestackiotypepreference, GetDeviceStackIoTypePreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, wdf.iwdfdevice2_getdevicestackiotypepreference
+ms.keywords: IWDFDevice2 interface, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference, GetDeviceStackIoTypePreference method, wdf.iwdfdevice2_getdevicestackiotypepreference, IWDFDevice2::GetDeviceStackIoTypePreference, umdf.iwdfdevice2_getdevicestackiotypepreference, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ void GetDeviceStackIoTypePreference(
 
 
 
-#### - ReadWritePreference [out]
+### -param ReadWritePreference [out]
 
 A pointer to a driver-allocated location that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed value. This value identifies the buffer access method that the framework is using for a device's read and write requests.
 
 
-#### - IoControlPreference [out]
+### -param IoControlPreference [out]
 
 A pointer to a driver-allocated location that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed value. This value that identifies the buffer access method that the framework is using for a device's I/O control requests.
 
@@ -99,9 +99,9 @@ For more information about how the framework chooses a buffer access method, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
  
 

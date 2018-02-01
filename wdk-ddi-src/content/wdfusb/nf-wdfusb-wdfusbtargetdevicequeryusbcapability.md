@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B6C3E94F-AFC9-45EC-91F1-F0E3586DBDA1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetdevicequeryusbcapability, WdfUsbTargetDeviceQueryUsbCapability method, PFN_WDFUSBTARGETDEVICEQUERYUSBCAPABILITY, wdfusb/WdfUsbTargetDeviceQueryUsbCapability, kmdf.wdfusbtargetdevicequeryusbcapability, WdfUsbTargetDeviceQueryUsbCapability
+ms.keywords: PFN_WDFUSBTARGETDEVICEQUERYUSBCAPABILITY, wdfusb/WdfUsbTargetDeviceQueryUsbCapability, kmdf.wdfusbtargetdevicequeryusbcapability, wdf.wdfusbtargetdevicequeryusbcapability, WdfUsbTargetDeviceQueryUsbCapability, WdfUsbTargetDeviceQueryUsbCapability method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,12 +78,12 @@ NTSTATUS WdfUsbTargetDeviceQueryUsbCapability(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object.
 
 
-#### - CapabilityType [in]
+### -param CapabilityType [in]
 
 A pointer to a GUID that represents the capability about which the client driver wants to retrieve information. The possible  <i>PGUID</i>  values are  as follows:
 <ul>
@@ -98,18 +98,18 @@ A pointer to a GUID that represents the capability about which the client driver
 </ul>See more information in Remarks.
 
 
-#### - CapabilityBufferLength [in]
+### -param CapabilityBufferLength [in]
 
 Length, in bytes, of the buffer pointed to by <i>CapabilityBuffer</i>.
 
 
-#### - CapabilityBuffer [out, optional]
+### -param CapabilityBuffer [out, optional]
 
 A pointer to a caller-allocated buffer to receive the requested USB capability. This parameter is optional. If 
                        <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a> routine.
 
 
-#### - ResultLength [out, optional]
+### -param ResultLength [out, optional]
 
 A pointer to a location containing the size, in bytes, of the returned capability. This parameter is optional.
 
@@ -268,9 +268,9 @@ This GUID applies to KMDF and UMDF drivers.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
 
  
 

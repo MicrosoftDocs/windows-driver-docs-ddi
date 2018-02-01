@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e466815-aef4-4602-b3cf-66b47b2e3f3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], KsDefaultDeviceIoCompletion, stream.ksdefaultdeviceiocompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml
+ms.keywords: KsDefaultDeviceIoCompletion function [Streaming Media Devices], ks/KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, stream.ksdefaultdeviceiocompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS KsDefaultDeviceIoCompletion(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Specifies the device object dispatched to.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP to return a default response to.
 

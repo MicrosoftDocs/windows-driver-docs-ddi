@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B9E64163-B338-49C9-8167-C36B110AB710
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NLSTABLEINFO, ntnls/NLSTABLEINFO, kernel.nlstableinfo, *PNLSTABLEINFO, ntnls/PNLSTABLEINFO, NLSTABLEINFO structure [Kernel-Mode Driver Architecture], _NLSTABLEINFO, PNLSTABLEINFO, PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], ntnls/PNLSTABLEINFO, PNLSTABLEINFO, _NLSTABLEINFO, *PNLSTABLEINFO, NLSTABLEINFO, kernel.nlstableinfo, ntnls/NLSTABLEINFO, NLSTABLEINFO structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _NLSTABLEINFO {
 
 
 
-#### - OemTableInfo
+### -field OemTableInfo
 
 Specifies OEM table.
 
 
-#### - AnsiTableInfo
+### -field AnsiTableInfo
 
 Specifies an ANSI table. 
 
 
-#### - UpperCaseTable
+### -field UpperCaseTable
 
 Specifies an 844 format uppercase table.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices]"
+ms.keywords: DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin, _DXGK_QUERYGPUMMUCAPSIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _DXGK_QUERYGPUMMUCAPSIN {
 
 
 
-#### - PhysicalAdapterIndex
+### -field PhysicalAdapterIndex
 
 A zero-based physical adapter index (engine ordinal) for which the data is queried.
 

@@ -70,16 +70,16 @@ The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP re
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <mshelp:link keywords="bltooth.bth_sdp_service_search_request" tabindex="0"><b>
-      BTH_SDP_SERVICE_SEARCH_REQUEST</b></mshelp:link> structure that specifies the connection handle to the remote SDP
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure that specifies the connection handle to the remote SDP
       server and an array of GUIDs to search for.
 
 
 ### -input-buffer-length
 
 The length of a 
-      <mshelp:link keywords="bltooth.bth_sdp_service_search_request" tabindex="0"><b>
-      BTH_SDP_SERVICE_SEARCH_REQUEST</b></mshelp:link> structure/
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure/
 
 
 ### -output-buffer

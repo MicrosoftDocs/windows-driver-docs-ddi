@@ -73,7 +73,7 @@ NDIS_STATUS ProtocolCmCloseAf(
 
 
 
-#### - CallMgrAfContext [in]
+### -param CallMgrAfContext [in]
 
 Specifies the handle to the call manager's per-AF context area, originally supplied to NDIS by the
      call manager's 
@@ -111,8 +111,8 @@ Indicates that the call manager has successfully released or deactivated any res
 <td width="60%">
 Indicates that the request to close the open instance of the address family will be completed
        asynchronously. The call manager must call 
-       <mshelp:link keywords="netvista.ndiscmcloseaddressfamilycomplete" tabindex="0"><b>
-       NdisCmCloseAddressFamilyComplete</b></mshelp:link> when all such operations have been completed.
+       <a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+       NdisCmCloseAddressFamilyComplete</a> when all such operations have been completed.
 
 </td>
 </tr>
@@ -141,8 +141,8 @@ The call manager can fail the request with NDIS_STATUS_NOT_ACCEPTED.
 The call manager can return NDIS_STATUS_PENDING. After the client has closed all calls and
       deregistered all SAPs, the call manager can then close the address family and call 
       <b>NdisCmCloseAddressFamilyComplete</b> or 
-      <mshelp:link keywords="netvista.ndismcmcloseaddressfamilycomplete" tabindex="0"><b>
-      NdisMCmCloseAddressFamilyComplete</b></mshelp:link> to notify the client. This is the preferred response.
+      <a href="..\ndis\nf-ndis-ndismcmcloseaddressfamilycomplete.md">
+      NdisMCmCloseAddressFamilyComplete</a> to notify the client. This is the preferred response.
 
 </li>
 </ul><h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolCmCloseAf</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
@@ -180,8 +180,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscmcloseaddressfamilycomplete" tabindex="0"><b>
-   NdisCmCloseAddressFamilyComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+   NdisCmCloseAddressFamilyComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 

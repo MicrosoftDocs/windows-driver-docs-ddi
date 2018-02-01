@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2769eb2c-33e2-4e3f-a1bf-1ebc9213b224
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlRunOnceExecuteOnce, k109_c1729bff-038f-4714-b422-1b97dd5a9c19.xml, kernel.rtlrunonceexecuteonce, ntddk/RtlRunOnceExecuteOnce, RtlRunOnceExecuteOnce function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlrunonceexecuteonce, RtlRunOnceExecuteOnce, ntddk/RtlRunOnceExecuteOnce, k109_c1729bff-038f-4714-b422-1b97dd5a9c19.xml, RtlRunOnceExecuteOnce function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ NTSTATUS RtlRunOnceExecuteOnce(
 
 
 
-#### - RunOnce [in, out]
+### -param RunOnce [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a> one-time initialization structure.
 
 
-#### - InitFn [in]
+### -param InitFn [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a> routine.
 
 
-#### - Context [out]
+### -param Context [out]
 
 A pointer to a PVOID variable that receives the initialized data.
 
 
-#### - Parameter [in, out]
+### -param Parameter [in, out]
 
 The value to pass as the <i>Parameter</i> parameter to the <i>RunOnceInitialization</i> routine.
 
@@ -108,15 +108,15 @@ For the first call to <b>RtlRunOnceExecuteOnce</b> for a particular <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
+<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
 
 <a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
+<a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
-
-<a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
 
  
 

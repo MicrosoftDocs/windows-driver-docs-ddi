@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0fa761c-8e28-4067-ae9e-d39e2853fb05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], *LPRILNETWORKCODE, RILNETWORKCODE, rilapitypes/RILNETWORKCODE, netvista.rilnetworkcode
+ms.keywords: RILNETWORKCODE, rilapitypes/RILNETWORKCODE, *LPRILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], netvista.rilnetworkcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,42 +75,42 @@ struct RILNETWORKCODE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 The size of the structure in bytes.
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilnetworkcodeparammask.md">RILNETWORKCODEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 This field is unused.
 
 
-#### - dwMCC
+### -field dwMCC
 
 Mobile Country Code, if applicable. For RIL_SYSTEMTYPE_1XRTT and RIL_SYSTEMTYPE_EVDO it is network-dependent whether this value is available; further, the MCC provided by some 3GPP2 networks may not be accurate.
 
 
-#### - dwMNC
+### -field dwMNC
 
 Mobile Network Code. For RIL_SYSTEMTYPE_1XRTT and RIL_SYSTEMTYPE_EVDO it is network-dependent whether this value is available; further, the MCC provided by some 3GPP2 networks may not be accurate.
 
 
-#### - dwSID
+### -field dwSID
 
 System ID, if applicable. This is available only for RIL_SYSTEMTYPE_1XRTT.
 
 
-#### - dwNID
+### -field dwNID
 
 Network ID, if applicable. This is available only for RIL_SYSTEMTYPE_1XRTT.
 
 
-#### - dwRI
+### -field dwRI
 
 Roaming indicator, if applicable. This is available only for RIL_SYSTEMTYPE_1XRTT and RIL_SYSTEMTYPE_EVDO.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 53e03b1d-0995-43cf-945a-22834a9e8240
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGateAddOffInputToAnd, stream.ksgateaddoffinputtoand, KsGateAddOffInputToAnd, KsGateAddOffInputToAnd function [Streaming Media Devices], avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml
+ms.keywords: KsGateAddOffInputToAnd, stream.ksgateaddoffinputtoand, avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, KsGateAddOffInputToAnd function [Streaming Media Devices], ks/KsGateAddOffInputToAnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ void __inline KsGateAddOffInputToAnd(
 
 
 
-#### - AndGate [in]
+### -param AndGate [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representing the AND gate to which to add a new OFF input.
 
@@ -92,15 +92,15 @@ This function should only be used on gates that were specifically created as AND
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 <a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
 
-<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
-
 <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
 
  
 

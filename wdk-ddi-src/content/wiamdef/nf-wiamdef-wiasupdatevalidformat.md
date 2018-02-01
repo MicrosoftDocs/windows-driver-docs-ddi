@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 04e66f34-3771-4b09-b546-f814e4b41906
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml, image.wiasupdatevalidformat, wiasUpdateValidFormat function [Imaging Devices], wiasUpdateValidFormat, wiamdef/wiasUpdateValidFormat
+ms.keywords: wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml, wiamdef/wiasUpdateValidFormat, wiasUpdateValidFormat function [Imaging Devices], wiasUpdateValidFormat, image.wiasupdatevalidformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ HRESULT _stdcall wiasUpdateValidFormat(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure containing a property context.
 
 
-#### - pIMiniDrv [in]
+### -param pIMiniDrv [in]
 
 Pointer to the <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv Interface</a> of the current minidriver.
 

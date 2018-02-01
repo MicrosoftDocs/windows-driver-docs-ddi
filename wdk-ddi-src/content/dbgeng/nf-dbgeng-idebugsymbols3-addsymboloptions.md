@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 952b4a7b-2713-4d7a-b70e-4fd1867bc096
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2::AddSymbolOptions, IDebugSymbols::AddSymbolOptions, IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, dbgeng/IDebugSymbols::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], dbgeng/IDebugSymbols3::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, AddSymbolOptions, debugger.addsymboloptions, IDebugSymbols3::AddSymbolOptions, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, dbgeng/IDebugSymbols2::AddSymbolOptions
+ms.keywords: IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, AddSymbolOptions, debugger.addsymboloptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, IDebugSymbols3, AddSymbolOptions method [Windows Debugging], AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, dbgeng/IDebugSymbols::AddSymbolOptions, dbgeng/IDebugSymbols2::AddSymbolOptions, IDebugSymbols2::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT AddSymbolOptions(
 
 
 
-#### - Options [in]
+### -param Options [in]
 
 Specifies the symbol options to turns on.  <i>Options</i> is a bit-set that will be ORed with the existing symbol options.  For a description of the bit flags, see <a href="https://msdn.microsoft.com/4a501ea3-431c-4c11-8826-154eb8799a64">Setting Symbol Options</a>.
 
@@ -110,17 +110,17 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
 
  
 

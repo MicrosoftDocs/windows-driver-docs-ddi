@@ -74,12 +74,12 @@ typedef EVT_UCX_ROOTHUB_INTERRUPT_TX PEVT_UCX_ROOTHUB_INTERRUPT_TX;
 
 
 
-#### - UcxRootHub [in]
+### -param UcxRootHub [in]
 
 A handle to a UCX object that represents the root hub.
 
 
-#### - Request [in]
+### -param Request [in]
 
 Contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the root hub interrupt transfer request.
 

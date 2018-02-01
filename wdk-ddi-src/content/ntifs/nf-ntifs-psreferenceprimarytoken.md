@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ff1add9-4b9e-42dd-b3e2-53d891788d43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsReferencePrimaryToken routine [Installable File System Drivers], ntifs/PsReferencePrimaryToken, PsReferencePrimaryToken, ifsk.psreferenceprimarytoken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml
+ms.keywords: ntifs/PsReferencePrimaryToken, PsReferencePrimaryToken routine [Installable File System Drivers], PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml, ifsk.psreferenceprimarytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PACCESS_TOKEN PsReferencePrimaryToken(
 
 
 
-#### - Process [in, out]
+### -param Process [in, out]
 
 Pointer to the process whose primary token's reference count is to be incremented.
 
@@ -102,11 +102,11 @@ This routine is available starting with Microsoft Windows 2000.
 
 <a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
  
 

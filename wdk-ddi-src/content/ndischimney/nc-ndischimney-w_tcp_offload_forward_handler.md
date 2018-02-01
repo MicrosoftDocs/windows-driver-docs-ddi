@@ -76,18 +76,18 @@ NDIS_STATUS MiniportTcpOffloadForward(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-     NdisMSetMiniportAttributes</b></mshelp:link> from its 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     NdisMSetMiniportAttributes</a> from its 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
-#### - MiniportOffloadContext [in]
+### -param MiniportOffloadContext [in]
 
 A pointer to a memory location that contains a PVOID value. This PVOID value references the
      miniport offload context that contains the state object for the TCP connection for which the TCP
@@ -95,7 +95,7 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
      connection state object.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
@@ -114,8 +114,8 @@ A pointer to a
 
 NDIS_STATUS_PENDING is the only allowable return value. An offload target always completes a
      forward request asynchronously by calling the 
-     <mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-     NdisTcpOffloadForwardComplete</b></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+     NdisTcpOffloadForwardComplete</a> function.
 
 
 
@@ -168,22 +168,22 @@ When forwarding TCP segments, the host stack transfers one TCP segment per NET_B
 The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS passes to the 
     <i>MiniportTcpOffloadForward</i> function. The offload target owns these resources until it passes them to
     the 
-    <mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-    NdisTcpOffloadForwardComplete</b></mshelp:link> function. While it owns these resources, the offload target is free
+    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+    NdisTcpOffloadForwardComplete</a> function. While it owns these resources, the offload target is free
     to queue them for processing.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-   NdisTcpOffloadForwardComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+   NdisTcpOffloadForwardComplete</a>
 
  
 

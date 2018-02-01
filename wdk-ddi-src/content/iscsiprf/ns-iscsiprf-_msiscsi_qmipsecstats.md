@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 265ed956-1065-44be-ac8e-94bab2e4e8b8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiprf/PMSiSCSI_QMIPSECStats, PMSiSCSI_QMIPSECStats, MSiSCSI_QMIPSECStats, structs-iSCSI_979ce8ac-35be-4ac1-930a-6614053fc805.xml, MSiSCSI_QMIPSECStats structure [Storage Devices], *PMSiSCSI_QMIPSECStats, storage.msiscsi_qmipsecstats, PMSiSCSI_QMIPSECStats structure pointer [Storage Devices], _MSiSCSI_QMIPSECStats, iscsiprf/MSiSCSI_QMIPSECStats
+ms.keywords: MSiSCSI_QMIPSECStats, _MSiSCSI_QMIPSECStats, iscsiprf/PMSiSCSI_QMIPSECStats, structs-iSCSI_979ce8ac-35be-4ac1-930a-6614053fc805.xml, storage.msiscsi_qmipsecstats, *PMSiSCSI_QMIPSECStats, MSiSCSI_QMIPSECStats structure [Storage Devices], PMSiSCSI_QMIPSECStats structure pointer [Storage Devices], PMSiSCSI_QMIPSECStats, iscsiprf/MSiSCSI_QMIPSECStats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,92 +84,92 @@ typedef struct _MSiSCSI_QMIPSECStats {
 
 
 
-#### - ActiveSA
+### -field ActiveSA
 
 The number of active IPsec security associations (SAs). 
 
 
-#### - PendingKeyOperations
+### -field PendingKeyOperations
 
 The number of IPsec key operations that are in progress. 
 
 
-#### - KeyAdditions
+### -field KeyAdditions
 
 The number of successful IPsec SA negotiations. 
 
 
-#### - KeyDeletions
+### -field KeyDeletions
 
 The number of IPsec SA key deletions. 
 
 
-#### - ReKeys
+### -field ReKeys
 
 The number of re-key operations for IPsec SAs. 
 
 
-#### - ActiveTunnels
+### -field ActiveTunnels
 
 The number of active IPsec tunnels. 
 
 
-#### - BadSPIPackets
+### -field BadSPIPackets
 
 The number of packets for which the security parameters index (SPI) was incorrect.
 
 
-#### - PacketsNotDecrypted
+### -field PacketsNotDecrypted
 
 The number of failed decryption packets. 
 
 
-#### - PacketsNotAuthenticated
+### -field PacketsNotAuthenticated
 
 The number of packets for which data could not be verified.
 
 
-#### - PacketsWithReplayDetection
+### -field PacketsWithReplayDetection
 
 The number of packets that contained a valid sequence number field.
 
 
-#### - ConfidentialBytesSent
+### -field ConfidentialBytesSent
 
 The number of bytes that are sent by using the encapsulating security payload (ESP) protocol.
 
 
-#### - ConfidentialBytesReceived
+### -field ConfidentialBytesReceived
 
 The number of bytes that are received by using the ESP protocol.
 
 
-#### - AuthenticatedBytesSent
+### -field AuthenticatedBytesSent
 
 The number of bytes that are sent by using the authentication header (AH) protocol.
 
 
-#### - AuthenticatedBytesReceived
+### -field AuthenticatedBytesReceived
 
 The number of bytes that are received by using the AH protocol.
 
 
-#### - TransportBytesSent
+### -field TransportBytesSent
 
 The number of bytes that are sent by using the IPsec protocol. 
 
 
-#### - TransportBytesReceived
+### -field TransportBytesReceived
 
 The number of bytes that are received by using the IPsec protocol. 
 
 
-#### - TunnelBytesSent
+### -field TunnelBytesSent
 
 The number of bytes that are sent by using the IPsec tunnel mode.
 
 
-#### - TunnelBytesReceived
+### -field TunnelBytesReceived
 
 The number of bytes that are received by using the IPsec tunnel mode.
 

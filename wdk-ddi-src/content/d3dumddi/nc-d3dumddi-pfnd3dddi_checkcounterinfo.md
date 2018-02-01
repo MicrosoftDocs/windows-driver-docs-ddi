@@ -71,7 +71,7 @@ VOID APIENTRY* pfnCheckCounterInfo(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 

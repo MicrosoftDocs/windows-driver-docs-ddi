@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, ObUnRegisterCallbacks, wdm/ObUnRegisterCallbacks
+ms.keywords: k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, wdm/ObUnRegisterCallbacks, kernel.obunregistercallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObUnRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ObUnRegisterCallbacks(
 
 
 
-#### - RegistrationHandle [in]
+### -param RegistrationHandle [in]
 
 A value that identifies the set of callback routines to unregister. The <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine provides this value when it originally registered the callback routines.
 

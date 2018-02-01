@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67909e35-fae2-40b7-b39f-58576e932332
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml, print.routerunregisterforprintasyncnotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices], RouterUnregisterForPrintAsyncNotifications, prnasntp/RouterUnregisterForPrintAsyncNotifications
+ms.keywords: RouterUnregisterForPrintAsyncNotifications, prnasntp/RouterUnregisterForPrintAsyncNotifications, spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml, print.routerunregisterforprintasyncnotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ HRESULT RouterUnregisterForPrintAsyncNotifications(
 
 
 
-#### - hNotify [in]
+### -param hNotify [in]
 
 The registration handle returned by the <a href="..\prnasntp\nf-prnasntp-routerregisterforprintasyncnotifications.md">RouterRegisterForPrintAsyncNotifications</a> function.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fecefdbc-3036-4991-900c-203ae8be254b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POEM_DMEXTRAHEADER, printoem/POEM_DMEXTRAHEADER, _OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER, printoem/OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER structure [Print Devices], print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml, print.oem_dmextraheader, POEM_DMEXTRAHEADER structure pointer [Print Devices]
+ms.keywords: "*POEM_DMEXTRAHEADER, _OEM_DMEXTRAHEADER, printoem/OEM_DMEXTRAHEADER, printoem/POEM_DMEXTRAHEADER, print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml, POEM_DMEXTRAHEADER structure pointer [Print Devices], print.oem_dmextraheader, POEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _OEM_DMEXTRAHEADER {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Total size, in bytes, of the added private DEVMODEW structure members, including the bytes contained in the OEM_DMEXTRAHEADER structure.
 
 
-#### - dwSignature
+### -field dwSignature
 
 Unique signature value that the plug-in also returns when its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a> method receives the OEMGI_GETSIGNATURE flag.
 
 
-#### - dwVersion
+### -field dwVersion
 
 Version number of the user interface plug-in that is defining the private DEVMODEW structure members. The version format is developer-defined.
 

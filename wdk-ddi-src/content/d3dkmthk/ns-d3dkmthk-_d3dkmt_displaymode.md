@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04d3d4bd-3926-43bf-b64e-0ba0c2589a54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_DISPLAYMODE, d3dkmthk/D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], display.d3dkmt_displaymode, OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, D3DKMT_DISPLAYMODE"
+ms.keywords: display.d3dkmt_displaymode, OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], _D3DKMT_DISPLAYMODE, d3dkmthk/D3DKMT_DISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,66 +75,66 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 
 
-#### - Width
+### -field Width
 
 [out] The screen width of the display mode, in pixels.
 
 
-#### - Height
+### -field Height
 
 [out] The screen height of the display mode, in pixels.
 
 
-#### - Format
+### -field Format
 
 [out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the display mode.
 
 
-#### - IntegerRefreshRate
+### -field IntegerRefreshRate
 
 [out] A UINT value that indicates the refresh rate of the display mode. 
 
 
-#### - RefreshRate
+### -field RefreshRate
 
 [out] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a> structure that indicates the refresh rate of the display mode. 
 
 
-#### - ScanLineOrdering
+### -field ScanLineOrdering
 
 [out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>-typed value that indicates how scan lines are ordered in the display mode.
 
 
-#### - DisplayOrientation
+### -field DisplayOrientation
 
 [out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>-typed value that identifies the orientation of the display mode.
 
 
-#### - DisplayFixedOutput
+### -field DisplayFixedOutput
 
 [out] The fixed output of the display mode.
 
 
-#### - Flags
+### -field Flags
 
 [out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a> structure that indicates information about the display mode.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a>
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdisplaymodelist.md">D3DKMTGetDisplayModeList</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdisplaymodelist.md">D3DKMTGetDisplayModeList</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
 
  
 

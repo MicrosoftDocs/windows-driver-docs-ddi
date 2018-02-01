@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B0E9DABD-0D5B-4F5D-8CB0-470AC126F9C0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, storage.device_dsm_offload_write_parameters, ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure [Storage Devices], ntddstor/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
+ms.keywords: storage.device_dsm_offload_write_parameters, ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS {
 
 
 
-#### - Flags
+### -field Flags
 
 Not used.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - TokenOffset
+### -field TokenOffset
 
 The offset, in bytes, within the data block specified by <b>Token</b> to begin writing from.
 
 
-#### - Token
+### -field Token
 
 The unique identifier of the data block to write from.
 

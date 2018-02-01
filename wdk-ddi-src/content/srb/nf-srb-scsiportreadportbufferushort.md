@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b218785c-170e-4a30-99c9-0db8705b7f5d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadPortBufferUshort routine [Storage Devices], ScsiPortReadPortBufferUshort, storage.scsiportreadportbufferushort, srb/ScsiPortReadPortBufferUshort, scsiprt_27acea07-f416-4fa1-894d-6bb38c020f6b.xml
+ms.keywords: storage.scsiportreadportbufferushort, ScsiPortReadPortBufferUshort routine [Storage Devices], srb/ScsiPortReadPortBufferUshort, ScsiPortReadPortBufferUshort, scsiprt_27acea07-f416-4fa1-894d-6bb38c020f6b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortReadPortBufferUshort(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to the buffer.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of USHORT values to read from the HBA.
 

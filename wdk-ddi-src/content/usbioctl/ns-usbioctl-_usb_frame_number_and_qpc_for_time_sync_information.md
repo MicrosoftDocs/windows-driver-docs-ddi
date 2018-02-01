@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F602B738-4D04-4A75-BE69-CFEC4F76904C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION structure [Buses], *PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, usbioctl/PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], _USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, buses.usb_frame_number_and_qpc_for_time_sync_information
+ms.keywords: "_USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], *PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION structure [Buses], usbioctl/USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, buses.usb_frame_number_and_qpc_for_time_sync_information, USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, usbioctl/PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,46 +78,46 @@ typedef struct _USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION {
 
 
 
-#### - TimeTrackingHandle
+### -field TimeTrackingHandle
 
 The time racking handle received in the previous <a href="..\usbioctl\ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync.md">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
 
 
-#### - InputFrameNumber
+### -field InputFrameNumber
 
 A 32-bit USB bus frame number. 
 
 
-#### - InputMicroFrameNumber
+### -field InputMicroFrameNumber
 
 A 3-bit value received from the hardware. 
 
 
-#### - QueryPerformanceCounterAtInputFrameOrMicroFrame
+### -field QueryPerformanceCounterAtInputFrameOrMicroFrame
 
 A value predicted by the USB driver stack that represents the system QPC value at the beginning of the frame and microframe represented by the <b>InputFrameNumber</b> and <b>InputMicroFrameNumber</b> input values.  
 
 
 
 
-#### - QueryPerformanceCounterFrequency
+### -field QueryPerformanceCounterFrequency
 
 The current performance-counter frequency, in counts per second.
 
 
-#### - PredictedAccuracyInMicroSeconds
+### -field PredictedAccuracyInMicroSeconds
 
 A value that represents the accuracy of the predicted QPC value in micro seconds. 
 
 
 
 
-#### - CurrentGenerationID
+### -field CurrentGenerationID
 
 An identifier for this request of time synchronization. 
 
 
-#### - CurrentQueryPerformanceCounter
+### -field CurrentQueryPerformanceCounter
 
 Current QPC value captured that is synchronized with the bus frame numbers represented by <b>CurrentHardwareFrameNumber</b>, <b>CurrentHardwareMicroFrameNumber</b> and <b>CurrentUSBFrameNumber</b>. 
 
@@ -127,21 +127,21 @@ Current QPC value captured that is synchronized with the bus frame numbers repre
 
 
 
-#### - CurrentHardwareFrameNumber
+### -field CurrentHardwareFrameNumber
 
 A 1-bit value of the current hardware frame number that is directly read  from the MFINDEX register. 
 
 
 
 
-#### - CurrentHardwareMicroFrameNumber
+### -field CurrentHardwareMicroFrameNumber
 
 A 3-bit value of the current hardware micro frame number that is  directly read from the MFINDEX register. 
 
 
 
 
-#### - CurrentUSBFrameNumber
+### -field CurrentUSBFrameNumber
 
 A 32-bit USB frame number value returned by <a href="..\usb\ns-usb-_urb_get_current_frame_number.md">_URB_GET_CURRENT_FRAME_NUMBER</a>.
 

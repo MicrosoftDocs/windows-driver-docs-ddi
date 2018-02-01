@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9891e360-ca09-4ebb-8cf4-d08b3456910c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetNameCount method, IWDFNamedPropertyStore interface, GetNameCount method, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, umdf.iwdfnamedpropertystore_getnamecount, wdf.iwdfnamedpropertystore_getnamecount, IWDFNamedPropertyStore::GetNameCount, GetNameCount method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore, GetNameCount, wudfddi/IWDFNamedPropertyStore::GetNameCount
+ms.keywords: GetNameCount method, GetNameCount, wudfddi/IWDFNamedPropertyStore::GetNameCount, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, GetNameCount method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::GetNameCount, wdf.iwdfnamedpropertystore_getnamecount, umdf.iwdfnamedpropertystore_getnamecount, IWDFNamedPropertyStore interface, GetNameCount method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT GetNameCount(
 
 
 
-#### - pdwCount [out]
+### -param pdwCount [out]
 
 A pointer to a variable that receives the number of properties in the property store. 
 

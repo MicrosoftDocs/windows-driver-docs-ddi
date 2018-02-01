@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7ec7d9a4-3c6f-4b67-abbb-1e0dcbf6fb90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CmRegisterCallbackEx, kernel.cmregistercallbackex, ConfigMgrRef_60ae8a2c-45c7-4b5e-ae19-916402b47903.xml, CmRegisterCallbackEx routine [Kernel-Mode Driver Architecture], wdm/CmRegisterCallbackEx
+ms.keywords: CmRegisterCallbackEx routine [Kernel-Mode Driver Architecture], kernel.cmregistercallbackex, CmRegisterCallbackEx, wdm/CmRegisterCallbackEx, ConfigMgrRef_60ae8a2c-45c7-4b5e-ae19-916402b47903.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS CmRegisterCallbackEx(
 
 
 
-#### - Function [in]
+### -param Function [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine to register.
 
 
-#### - Altitude [in]
+### -param Altitude [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure. This structure must contain a string that represents the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/load-order-groups-and-altitudes-for-minifilter-drivers">altitude</a> of the calling <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/file-system-minifilter-drivers">minifilter driver</a>. For more information, see Remarks.
 
 
-#### - Driver [in]
+### -param Driver [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure that represents the driver.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A driver-defined value that the configuration manager will pass as the <i>CallbackContext</i> parameter to the <i>RegistryCallback</i> routine.
 
 
-#### - Cookie [out]
+### -param Cookie [out]
 
 A pointer to a LARGE_INTEGER variable that receives the value that identifies the callback routine. When you unregister the callback routine, pass this value as the <i>Cookie</i> parameter to <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>.
 
 
-#### - Reserved
+### -param Reserved
 
 This parameter is reserved for future use.
 
@@ -155,13 +155,13 @@ For more information about <b>CmRegisterCallbackEx</b> and filtering registry op
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+<a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
+
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 

@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: cb2236f6-409a-4352-a02b-f7763e986d1f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric_ref_44bbda1a-1b9b-42d3-9034-9d0c3c4bac88.xml, winbio_ioctl/PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS structure pointer [Biometric Devices], WINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS, WINBIO_SUPPORTED_ALGORITHMS structure [Biometric Devices], _WINBIO_SUPPORTED_ALGORITHMS, winbio_ioctl/WINBIO_SUPPORTED_ALGORITHMS, *PWINBIO_SUPPORTED_ALGORITHMS, biometric.winbio_supported_algorithms
+ms.keywords: PWINBIO_SUPPORTED_ALGORITHMS, WINBIO_SUPPORTED_ALGORITHMS, biometric.winbio_supported_algorithms, *PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS structure pointer [Biometric Devices], WINBIO_SUPPORTED_ALGORITHMS structure [Biometric Devices], _WINBIO_SUPPORTED_ALGORITHMS, winbio_ioctl/PWINBIO_SUPPORTED_ALGORITHMS, biometric_ref_44bbda1a-1b9b-42d3-9034-9d0c3c4bac88.xml, winbio_ioctl/WINBIO_SUPPORTED_ALGORITHMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _WINBIO_SUPPORTED_ALGORITHMS {
 
 
 
-#### - PayloadSize
+### -field PayloadSize
 
 Specifies the total size of the payload, which includes the fixed length structure and any variable data at the end.
 
 
-#### - WinBioHresult
+### -field WinBioHresult
 
 Specifies the HRESULT status of the I/O operation.
 
 
-#### - NumberOfAlgorithms
+### -field NumberOfAlgorithms
 
 Specifies the number of algorithms in the data block.
 
 
-#### - AlgorithmData
+### -field AlgorithmData
 
 Specifies a structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a> that contains NULL-terminated UTF-8 OID strings that represent the algorithms supported by the device.
 

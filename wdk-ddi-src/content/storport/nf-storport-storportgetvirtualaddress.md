@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b7091dea-8a29-4ad3-a478-29bc28fd57ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml, StorPortGetVirtualAddress routine [Storage Devices], StorPortGetVirtualAddress, storport/StorPortGetVirtualAddress, storage.storportgetvirtualaddress
+ms.keywords: storport/StorPortGetVirtualAddress, storage.storportgetvirtualaddress, storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml, StorPortGetVirtualAddress, StorPortGetVirtualAddress routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ STORPORT_API PVOID StorPortGetVirtualAddress(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - PhysicalAddress [in]
+### -param PhysicalAddress [in]
 
 Specifies the physical address to be mapped. This value must have been returned by <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> and must be from an uncached device extension or SRB extension.
 

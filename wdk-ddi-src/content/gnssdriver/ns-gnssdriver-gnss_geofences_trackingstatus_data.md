@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 65E59305-B1D9-4255-926A-A72F3B4887AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_GEOFENCES_TRACKINGSTATUS_DATA structure pointer [Sensor Devices], sensors.gnss_geofences_trackingstatus_data, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure [Sensor Devices], gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA, PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA
+ms.keywords: GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure [Sensor Devices], sensors.gnss_geofences_trackingstatus_data, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, PGNSS_GEOFENCES_TRACKINGSTATUS_DATA structure pointer [Sensor Devices], PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,24 +71,24 @@ typedef struct _GNSS_GEOFENCES_TRACKINGSTATUS_DATA {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - Status
+### -field Status
 
 A failure code indicates that the GNSS engine is unable to track the geofences (due to bad signal conditions or other transient errors).
 
 A success code indicates that the GNSS engine was previously unable to track geofences, and is now able to track them.
 
 
-#### - StatusTimeStamp
+### -field StatusTimeStamp
 
 The UTC time of this status.
 

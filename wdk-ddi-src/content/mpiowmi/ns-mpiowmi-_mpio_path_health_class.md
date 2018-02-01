@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13be9014-e1ce-4b08-a264-c2828e8632ae
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.mpio_path_health_class, MPIO_PATH_HEALTH_CLASS, mpiowmi/PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], PMPIO_PATH_HEALTH_CLASS, *PMPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], _MPIO_PATH_HEALTH_CLASS, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml
+ms.keywords: structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml, _MPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS, mpiowmi/PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], storage.mpio_path_health_class, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], *PMPIO_PATH_HEALTH_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,82 +82,82 @@ typedef struct _MPIO_PATH_HEALTH_CLASS {
 
 
 
-#### - PathId
+### -field PathId
 
 An unsigned 64-bitfield that represents an identifier that is assigned to a particular path.
 
 
-#### - NumberReads
+### -field NumberReads
 
 An unsigned 64-bitfield that specifies the number of read requests that are serviced by the specified path identifier.
 
 
-#### - NumberWrites
+### -field NumberWrites
 
 An unsigned 64-bitfield that specifies the number of write requests that are serviced by the specified path identifier.
 
 
-#### - NumberBytesRead
+### -field NumberBytesRead
 
 An unsigned 64-bitfield that specifies the total number of bytes that are read through the specified path identifier.
 
 
-#### - NumberBytesWritten
+### -field NumberBytesWritten
 
 An unsigned 64-bitfield that specifies the total number of bytes that are written through the specified path identifier.
 
 
-#### - NumberRetries
+### -field NumberRetries
 
 An unsigned 64-bitfield that specifies the total number of retries by using the specified path identifier.
 
 
-#### - NumberIoErrors
+### -field NumberIoErrors
 
 An unsigned 64-bitfield that specifies the total number of I/O errors that are encountered through the specified path identifier.
 
 
-#### - CreateTime
+### -field CreateTime
 
 A 64-bit integer that specifies the system time when this instance was created and exposed.
 
 
-#### - FailTime
+### -field FailTime
 
 A 64-bit integer that specifies the system time when the path that is associated with this path ID was removed.
 
 
-#### - PathOffline
+### -field PathOffline
 
 A Boolean field that indicates whether the path that is associated with this path ID is removed.
 
 
-#### - NumberReadsWrap
+### -field NumberReadsWrap
 
 An unsigned character field that specifies the total number of times that the <i>NumberReads</i> parameter has rolled around to zero.
 
 
-#### - NumberWritesWrap
+### -field NumberWritesWrap
 
 An unsigned character field that specifies the total number of times that the <i>NumberWrites</i> parameter has rolled around to zero.
 
 
-#### - NumberBytesReadWrap
+### -field NumberBytesReadWrap
 
 An unsigned character field that specifies the total number of times the <i>NumberBytesRead</i> parameter has rolled around to zero.
 
 
-#### - NumberBytesWrittenWrap
+### -field NumberBytesWrittenWrap
 
 An unsigned character field that specifies the total number of times that the <i>NumberBytesWritten</i> parameter has rolled around to zero.
 
 
-#### - OutstandingRequests
+### -field OutstandingRequests
 
 An unsigned character field that specifies the total number of outstanding requests.
 
 
-#### - Pad
+### -field Pad
 
 Should be zero.
 

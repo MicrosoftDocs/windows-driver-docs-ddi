@@ -82,7 +82,7 @@ VOID APIENTRY SoSetTargets(
 
 
 
-#### - ClearTargets [in]
+### -param ClearTargets [in]
 
  The number of handles to stream output target resources that represents the difference between the previous number of stream output target resources (before the Microsoft Direct3D runtime calls <i>SoSetTargets</i>) and the new number of stream output target resources.
 
@@ -96,24 +96,24 @@ Note that the number that i<i>ClearTargets</i> specifies is only an optimization
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - SOTargets [in]
 
  The number of elements in the array that <i>phResource</i> specifies. 
 
 
-#### - phResource [in]
+#### - hDevice [in]
 
- An array of handles to the stream output target resources to set. Note that some handle values can be <b>NULL</b>. 
+ A handle to the display device (graphics context).
 
 
 #### - pOffsets [in]
 
  An array of offsets, in bytes, into the stream output target resources in the array that <i>phResource</i> specifies. 
+
+
+#### - phResource [in]
+
+ An array of handles to the stream output target resources to set. Note that some handle values can be <b>NULL</b>. 
 
 
 ## -returns
@@ -136,9 +136,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

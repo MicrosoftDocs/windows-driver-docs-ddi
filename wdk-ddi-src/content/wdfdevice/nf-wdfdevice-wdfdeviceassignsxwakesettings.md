@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af25d03f-32c5-4e2c-930f-1b905edc566b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceAssignSxWakeSettings method, DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, wdfdevice/WdfDeviceAssignSxWakeSettings, kmdf.wdfdeviceassignsxwakesettings, wdf.wdfdeviceassignsxwakesettings, PFN_WDFDEVICEASSIGNSXWAKESETTINGS, WdfDeviceAssignSxWakeSettings
+ms.keywords: WdfDeviceAssignSxWakeSettings, wdfdevice/WdfDeviceAssignSxWakeSettings, DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, WdfDeviceAssignSxWakeSettings method, kmdf.wdfdeviceassignsxwakesettings, PFN_WDFDEVICEASSIGNSXWAKESETTINGS, wdf.wdfdeviceassignsxwakesettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfDeviceAssignSxWakeSettings(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Settings [in]
+### -param Settings [in]
 
 A pointer to a caller-supplied <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure. 
 
@@ -156,9 +156,9 @@ For more information, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
 
  
 

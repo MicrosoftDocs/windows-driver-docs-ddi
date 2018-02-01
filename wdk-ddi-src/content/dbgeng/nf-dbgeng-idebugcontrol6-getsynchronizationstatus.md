@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 94DD7FBF-2D4F-4DD9-A49E-A9FA494BF995
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, GetSynchronizationStatus, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, IDebugControl6::GetSynchronizationStatus, IDebugControl6, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus, GetSynchronizationStatus method [Windows Debugging]
+ms.keywords: GetSynchronizationStatus method [Windows Debugging], debugger.idebugcontrol6_getsynchronizationstatus, dbgeng/IDebugControl6::GetSynchronizationStatus, IDebugControl6::GetSynchronizationStatus, GetSynchronizationStatus, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, IDebugControl6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetSynchronizationStatus(
 
 
 
-#### - SendsAttempted [out]
+### -param SendsAttempted [out]
 
 The number of packet sends that have been attempted by the current debugger-engine kernel transport mechanism. This number will be incremented if engine did not receive a packet "ACK" for the last packet sent by the engine to the target.
 
 
-#### - SecondsSinceLastResponse [out]
+### -param SecondsSinceLastResponse [out]
 
 The number of seconds since the last response.
 
@@ -111,9 +111,9 @@ When the client object connects to a session, the most recent output from the se
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
 
  
 

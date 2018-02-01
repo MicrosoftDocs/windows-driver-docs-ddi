@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e016793-8c31-4349-a8f5-e5a0cb3b353e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_setcontextinprocessschedulingpriority, _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+ms.keywords: "_D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_setcontextinprocessschedulingpriority, d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY {
 
 
 
-#### - hContext
+### -field hContext
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the device context that scheduling priority is set on.
 
 
-#### - Priority
+### -field Priority
 
 [in] The priority level to set for the device context relative to other device contexts within the same process. 
 

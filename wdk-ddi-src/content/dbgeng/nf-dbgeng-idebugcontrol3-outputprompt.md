@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 463d6fbd-cbe4-4de1-a01a-52a5002f24b8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl2 interface [Windows Debugging], OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, IDebugControl interface [Windows Debugging], OutputPrompt method, OutputPrompt method [Windows Debugging], dbgeng/IDebugControl::OutputPrompt, IDebugControl3 interface [Windows Debugging], OutputPrompt method, debugger.outputprompt, OutputPrompt method [Windows Debugging], IDebugControl2 interface, OutputPrompt, dbgeng/IDebugControl2::OutputPrompt, IDebugControl2::OutputPrompt, OutputPrompt method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::OutputPrompt, OutputPrompt method [Windows Debugging], IDebugControl interface
+ms.keywords: dbgeng/IDebugControl3::OutputPrompt, IDebugControl3::OutputPrompt, IDebugControl3 interface [Windows Debugging], OutputPrompt method, IDebugControl2 interface [Windows Debugging], OutputPrompt method, dbgeng/IDebugControl::OutputPrompt, IDebugControl::OutputPrompt, OutputPrompt method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::OutputPrompt, IDebugControl3, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, OutputPrompt, OutputPrompt method [Windows Debugging], IDebugControl interface, IDebugControl2::OutputPrompt, OutputPrompt method [Windows Debugging], debugger.outputprompt, IDebugControl interface [Windows Debugging], OutputPrompt method, OutputPrompt method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT OutputPrompt(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies an output control that determines which of the client's output callbacks will receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-#### - Format [in, optional]
+### -param Format [in, optional]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -306,19 +306,19 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e1f33307-1bb0-4cdd-aa47-954f6e551582
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, DXGK_AVIR_UNINITIALIZED, DXGK_AVIR_HOTKEY, DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration [Display Devices], d3dkmddi/DXGK_AVIR_HOTKEY, d3dkmddi/DXGK_AVIR_USERMODE, d3dkmddi/DXGK_AVIR_UNINITIALIZED, _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, d3dkmddi/DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, DXGK_AVIR_USERMODE, DmEnums_9a263431-3cae-4e33-a2f0-310ec88c1343.xml, display.dxgk_active_vidpn_invalidation_reason
+ms.keywords: d3dkmddi/DXGK_AVIR_USERMODE, DXGK_AVIR_USERMODE, d3dkmddi/DXGK_AVIR_UNINITIALIZED, DmEnums_9a263431-3cae-4e33-a2f0-310ec88c1343.xml, _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration [Display Devices], d3dkmddi/DXGK_AVIR_HOTKEY, display.dxgk_active_vidpn_invalidation_reason, DXGK_AVIR_HOTKEY, DXGK_AVIR_UNINITIALIZED, d3dkmddi/DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON {
 
 
 
-#### - DXGK_AVIR_UNINITIALIZED
+### -field DXGK_AVIR_UNINITIALIZED
 
 Indicates that a variable of type DXGK_ACTIVE_VIDPN_INVALIDATION_REASON has not yet been assigned a meaningful value. 
 
 
-#### - DXGK_AVIR_HOTKEY
+### -field DXGK_AVIR_HOTKEY
 
 Indicates that the user pressed a keyboard shortcut to change the set of monitors (or other display devices) being used to display the desktop. 
 
 
-#### - DXGK_AVIR_USERMODE
+### -field DXGK_AVIR_USERMODE
 
 Indicates that a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateactivevidpn.md">D3DKMTInvalidateActiveVidPn</a> function has been made in user mode.
 

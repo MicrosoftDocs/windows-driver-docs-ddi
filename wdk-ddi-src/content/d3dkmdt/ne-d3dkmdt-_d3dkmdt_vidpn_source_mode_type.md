@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2a48cf2-f595-4f78-b779-416d324e90d7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE_TYPE, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, D3DKMDT_RMT_GRAPHICS_STEREO, D3DKMDT_RMT_UNINITIALIZED, display.d3dkmdt_vidpn_source_mode_type, D3DKMDT_RMT_GRAPHICS, DmEnums_602e0ab4-4fea-489f-8f2e-c8cf9534caa8.xml, D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, d3dkmdt/D3DKMDT_RMT_GRAPHICS, D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration [Display Devices], D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_UNINITIALIZED
+ms.keywords: D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, D3DKMDT_VIDPN_SOURCE_MODE_TYPE, DmEnums_602e0ab4-4fea-489f-8f2e-c8cf9534caa8.xml, display.d3dkmdt_vidpn_source_mode_type, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_RMT_GRAPHICS, D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, D3DKMDT_RMT_UNINITIALIZED, _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_UNINITIALIZED, D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration [Display Devices], d3dkmdt/D3DKMDT_RMT_GRAPHICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,29 +71,29 @@ typedef enum _D3DKMDT_VIDPN_SOURCE_MODE_TYPE {
 
 
 
-#### - D3DKMDT_RMT_UNINITIALIZED
+### -field D3DKMDT_RMT_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_VIDPN_SOURCE_MODE_TYPE has not yet been assigned a meaningful value.
 
 
-#### - D3DKMDT_RMT_GRAPHICS
+### -field D3DKMDT_RMT_GRAPHICS
 
 Indicates that the VidPN source mode is a graphics mode.
 
 
-#### - D3DKMDT_RMT_TEXT
+### -field D3DKMDT_RMT_TEXT
 
 Indicates that the VidPN source mode is a text mode.
 
 
-#### - D3DKMDT_RMT_GRAPHICS_STEREO
+### -field D3DKMDT_RMT_GRAPHICS_STEREO
 
 Available beginning with Windows 8.
 
 Indicates that the VidPN source mode is stereo, and the allocation can only be scanned by the display miniport driver as both left and right channels.
 
 
-#### - D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN
+### -field D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN
 
 Available beginning with Windows 8.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportquerysystemtime, ScsiPortQuerySystemTime routine [Storage Devices], ScsiPortQuerySystemTime, scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime
+ms.keywords: ScsiPortQuerySystemTime, scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, ScsiPortQuerySystemTime routine [Storage Devices], srb/ScsiPortQuerySystemTime, storage.scsiportquerysystemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID ScsiPortQuerySystemTime(
 
 
 
-#### - CurrentTime [out]
+### -param CurrentTime [out]
 
 Pointer to the current time, on return. 
 

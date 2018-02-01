@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d25f2fb-be77-480f-b07c-294ab8a4272e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetDeviceBase routine [Storage Devices], storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml, storage.storportgetdevicebase, storport/StorPortGetDeviceBase, StorPortGetDeviceBase
+ms.keywords: StorPortGetDeviceBase, storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml, storport/StorPortGetDeviceBase, storage.storportgetdevicebase, StorPortGetDeviceBase routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,32 +74,32 @@ STORPORT_API PVOID StorPortGetDeviceBase(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - BusType [in]
+### -param BusType [in]
 
 Specifies the interface type of the I/O bus on which the HBA is connected. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from the <b>AdapterInterfaceType</b> member of the input <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
 
 
-#### - SystemIoBusNumber [in]
+### -param SystemIoBusNumber [in]
 
 Specifies the system-assigned number of the I/O bus on which the HBA is connected. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from the <b>SystemIoBusNumber</b> member of the input <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
 
 
-#### - IoAddress [in]
+### -param IoAddress [in]
 
 Specifies the bus-relative base address of a range used by the HBA. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from one of the <b>AccessRanges</b> elements in the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> if the port driver supplies range-configuration information. Otherwise, this address can be a value returned by <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a> or a miniport driver-supplied default value. Avoid using a base address of zero because its successful return status can conflict with the error status (<b>NULL</b>).
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies the size in bytes of the range that the mapping should cover. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value of this parameter from the same <b>AccessRanges</b> element as <i>IoAddress</i> if the port driver supplies range configuration information. Otherwise, this value can be returned by <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a> or a miniport driver-supplied default. In any case, the driver must not access the hardware outside of the returned, mapped range.
 
 
-#### - InIoSpace [in]
+### -param InIoSpace [in]
 
 TRUE indicates the range to be mapped is in I/O space, and the miniport driver will pass mapped addresses in this range to the Storport <i>port</i> read/write routines to communicate with the HBA. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value of this parameter from the same <b>AccessRanges</b> element as <i>IoAddress</i>. Note that a miniport driver <i>must invert</i> the value of the <b>InMemorySpace</b> member in an ACCESS_RANGE-type element before it is passed to <b>StorPortGetDeviceBase</b> as the <i>InIoSpace</i> argument. <b>FALSE</b> indicates that the range to be mapped is in memory space. 
 

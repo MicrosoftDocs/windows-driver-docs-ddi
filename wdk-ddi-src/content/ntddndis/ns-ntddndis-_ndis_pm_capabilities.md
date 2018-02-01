@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PM_CAPABILITIES, _NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES, netvista.ndis_pm_capabilities, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, _NDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES, ntddndis/NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES, netvista.ndis_pm_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,20 +83,13 @@ typedef struct _NDIS_PM_CAPABILITIES {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_PM_CAPABILITIES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_CAPABILITIES</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
 
-
-
-#### NDIS_PM_CAPABILITIES_REVISION_2
-
-Added various changes for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
 
 
 #### NDIS_PM_CAPABILITIES_REVISION_1
@@ -106,13 +99,27 @@ Original version for NDIS 6.20.
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_1.
 
 
-#### - Flags
+#### NDIS_PM_CAPABILITIES_REVISION_2
+
+Added various changes for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
+
+
+### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. For NDIS 6.20, this member is reserved for NDIS.
 
 Starting with NDIS 6.30, the following flags are defined:
 
 
+
+
+#### NDIS_PM_SELECTIVE_SUSPEND_SUPPORTED
+
+If this flag is set, the miniport driver supports NDIS selective suspend for network adapters. 
+
+For more information about this power management capability, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451659">NDIS Selective Suspend</a>.
 
 
 #### NDIS_PM_WAKE_PACKET_INDICATION_SUPPORTED
@@ -136,14 +143,7 @@ The miniport driver must be able to issue an <a href="https://msdn.microsoft.com
 </ul>For more information about this power management capability, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439831">NDIS Wake Reason Status Indications</a>.
 
 
-#### NDIS_PM_SELECTIVE_SUSPEND_SUPPORTED
-
-If this flag is set, the miniport driver supports NDIS selective suspend for network adapters. 
-
-For more information about this power management capability, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451659">NDIS Selective Suspend</a>.
-
-
-#### - SupportedWoLPacketPatterns
+### -field SupportedWoLPacketPatterns
 
 A ULONG value that contains a bitwise OR of flags that specify the wake-on-LAN (WOL) patterns that
      a network adapter supports. Miniport drivers use these flags to advertise packet based WOL patterns that a network adapter
@@ -163,23 +163,10 @@ The network adapter can generate a wake-up event when it receives a packet that 
        configured bitmap pattern.
 
 
-#### NDIS_PM_WOL_MAGIC_PACKET_SUPPORTED
+#### NDIS_PM_WOL_EAPOL_REQUEST_ID_MESSAGE_SUPPORTED
 
-The network adapter can generate a wake-up event when it receives a WOL magic packet. A 
-       <i>magic packet</i> contains within its payload a string of six bytes with a value of 0xFF, followed
-       immediately by 16 contiguous copies of the receiving network adapter's Ethernet address.
-
-
-#### NDIS_PM_WOL_IPV4_TCP_SYN_SUPPORTED
-
-The network adapter can generate a wake-up event when it receives an IPv4 TCP SYN packet.
-       Remote hosts send TCP SYN packets to initiate a TCP connection to the local computer.
-
-
-#### NDIS_PM_WOL_IPV6_TCP_SYN_SUPPORTED
-
-The network adapter can generate a wake-up event when it receives an IPv6 TCP SYN
-       packet.
+The network adapter can generate a wake-up event when it receives an EAPOL request identifier
+       message.
 
 
 #### NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_SUPPORTED
@@ -212,6 +199,12 @@ A value from the incoming packet in the location that is specified by the WOL pa
 <div class="alert"><b>Note</b>  Wildcard values that are enabled by this flag can include unspecified IPv4
         source and destination addresses, as well as unspecified source and destination ports.</div><div> </div>
 
+#### NDIS_PM_WOL_IPV4_TCP_SYN_SUPPORTED
+
+The network adapter can generate a wake-up event when it receives an IPv4 TCP SYN packet.
+       Remote hosts send TCP SYN packets to initiate a TCP connection to the local computer.
+
+
 #### NDIS_PM_WOL_IPV6_DEST_ADDR_WILDCARD_SUPPORTED
 
 If this flag is set, the network adapter supports as 
@@ -242,13 +235,20 @@ A value from the incoming packet in the location that is specified by the WOL pa
 <div class="alert"><b>Note</b>  Wildcard values that are enabled by this flag can include unspecified IPv6
         source and destination addresses, as well as unspecified source and destination ports.</div><div> </div>
 
-#### NDIS_PM_WOL_EAPOL_REQUEST_ID_MESSAGE_SUPPORTED
+#### NDIS_PM_WOL_IPV6_TCP_SYN_SUPPORTED
 
-The network adapter can generate a wake-up event when it receives an EAPOL request identifier
-       message.
+The network adapter can generate a wake-up event when it receives an IPv6 TCP SYN
+       packet.
 
 
-#### - NumTotalWoLPatterns
+#### NDIS_PM_WOL_MAGIC_PACKET_SUPPORTED
+
+The network adapter can generate a wake-up event when it receives a WOL magic packet. A 
+       <i>magic packet</i> contains within its payload a string of six bytes with a value of 0xFF, followed
+       immediately by 16 contiguous copies of the receiving network adapter's Ethernet address.
+
+
+### -field NumTotalWoLPatterns
 
 A <b>ULONG</b> value that contains the total number of WOL patterns that a network adapter supports. This is the sum of "number of
       supported WOL protocol patterns" and "number of supported WOL bitmap patterns."
@@ -260,25 +260,25 @@ For example, if  your driver supports 8 flexible bitmap patterns, IPv4 TCP SYN (
      <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>.
 
 
-#### - MaxWoLPatternSize
+### -field MaxWoLPatternSize
 
 A ULONG value that contains the maximum number of bytes that can be compared with a
      pattern.
 
 
-#### - MaxWoLPatternOffset
+### -field MaxWoLPatternOffset
 
 A ULONG value that contains the number of bytes in a packet that can be examined, starting at
      the beginning of the MAC header.
 
 
-#### - MaxWoLPacketSaveBuffer
+### -field MaxWoLPacketSaveBuffer
 
 A ULONG value that contains the number of bytes of a WOL packet that a miniport driver can save to
      a buffer and indicate up the driver stack. This value must be less than or equal to the size, in bytes, of the maximum transmission unit (MTU)  for the network media. The driver reports the MTU size through OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>.
 <div class="alert"><b>Note</b>  This member is ignored in NDIS 6.20 and earlier versions of NDIS. Starting with NDIS 6.30, this member must contain a nonzero value if the NDIS_PM_WAKE_PACKET_INDICATION_SUPPORTED flag is set in the <b>Flags</b> member.</div><div> </div>
 
-#### - SupportedProtocolOffloads
+### -field SupportedProtocolOffloads
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the protocol offload features that
      a network adapter supports. Miniport drivers use these flags to report the low power protocol offload capabilities
@@ -286,6 +286,12 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the
      
 
 
+
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_80211_RSN_REKEY_SUPPORTED
+
+The network adapter can respond to IEEE 802.11i Robust Security Network (RSN) re-key requests
+       while it is in a low power state.
 
 
 #### NDIS_PM_PROTOCOL_OFFLOAD_ARP_SUPPORTED
@@ -306,24 +312,18 @@ If this bit is set, the network adapter can respond to IPv6 Neighbor Solicitatio
 For more information about IPv6 NS messages, see <a href="http://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
 
 
-#### NDIS_PM_PROTOCOL_OFFLOAD_80211_RSN_REKEY_SUPPORTED
-
-The network adapter can respond to IEEE 802.11i Robust Security Network (RSN) re-key requests
-       while it is in a low power state.
-
-
-#### - NumArpOffloadIPv4Addresses
+### -field NumArpOffloadIPv4Addresses
 
 A <b>ULONG</b> value that contains the number of IPv4 addresses that the adapter supports for ARP
      offload.
 
 
-#### - NumNSOffloadIPv6Addresses
+### -field NumNSOffloadIPv6Addresses
 
 A <b>ULONG</b> value that contains the number of IPv6 NS offload requests that the adapter supports. This should be at least 2.
 <div class="alert"><b>Note</b>  Despite its name, the <b>NumNSOffloadIPv6Addresses</b> contains the number of supported requests, not addresses.</div><div> </div>
 
-#### - MinMagicPacketWakeUp
+### -field MinMagicPacketWakeUp
 
 Specifies the lowest device power state from which a network adapter can signal a wake-up event on receipt of
      a magic packet. A 
@@ -334,11 +334,6 @@ Specifies the lowest device power state from which a network adapter can signal 
 
 
 
-
-#### NdisDeviceStateUnspecified
-
-The network adapter does not support magic packet wake-ups.
-<div class="alert"><b>Note</b>  If the <b>MinMagicPacketWakeUp</b> member is set to this value, the NDIS_PM_WOL_MAGIC_PACKET_SUPPORTED flag must not be set in the <b>SupportedWoLPacketPatterns</b> member.</div><div> </div>
 
 #### NdisDeviceStateD0
 
@@ -361,7 +356,12 @@ The network adapter can signal a magic packet wake-up from a device state of D2.
 The network adapter can signal a magic packet wake-up from a device power state  of D3.
 
 
-#### - MinPatternWakeUp
+#### NdisDeviceStateUnspecified
+
+The network adapter does not support magic packet wake-ups.
+<div class="alert"><b>Note</b>  If the <b>MinMagicPacketWakeUp</b> member is set to this value, the NDIS_PM_WOL_MAGIC_PACKET_SUPPORTED flag must not be set in the <b>SupportedWoLPacketPatterns</b> member.</div><div> </div>
+
+### -field MinPatternWakeUp
 
 Specifies the lowest device power state from which a network adapter can signal a wake-up event on receipt of
      a network frame that contains a pattern that is specified by the protocol driver. The power state is
@@ -370,11 +370,6 @@ Specifies the lowest device power state from which a network adapter can signal 
 
 
 
-
-#### NdisDeviceStateUnspecified
-
-The network adapter does not support pattern-match wake-ups.
-<div class="alert"><b>Note</b>  If the <b>MinPatternWakeUp</b> member is set to this value, only the NDIS_PM_WOL_MAGIC_PACKET_SUPPORTED flag can be set in the <b>SupportedWoLPacketPatterns </b> member.</div><div> </div>
 
 #### NdisDeviceStateD0
 
@@ -397,7 +392,12 @@ The network adapter can signal a pattern-match wake-up from a device power state
 The network adapter can signal a pattern-match wake-up from a device power state of D3.
 
 
-#### - MinLinkChangeWakeUp
+#### NdisDeviceStateUnspecified
+
+The network adapter does not support pattern-match wake-ups.
+<div class="alert"><b>Note</b>  If the <b>MinPatternWakeUp</b> member is set to this value, only the NDIS_PM_WOL_MAGIC_PACKET_SUPPORTED flag can be set in the <b>SupportedWoLPacketPatterns </b> member.</div><div> </div>
+
+### -field MinLinkChangeWakeUp
 
 Starting with NDIS 6.20, this member specifies the lowest device power state from which a network adapter can signal a wake-up event when the link
      state changes from media disconnected to media connected. 
@@ -410,11 +410,6 @@ The power state is specified as one of the
 
 
 
-
-#### NdisDeviceStateUnspecified
-
-The network adapter does not support link change wake-ups.
-<div class="alert"><b>Note</b>  If the <b>MinLinkChangeWakeUp</b> member is set to this value, the<b>SupportedWakeUpEvents</b> member must be set to zero.</div><div> </div>
 
 #### NdisDeviceStateD0
 
@@ -437,7 +432,12 @@ The network adapter can signal a link change wake-up from a device power state o
 The network adapter can signal a link change wake-up from a device power state of D3.
 
 
-#### - SupportedWakeUpEvents
+#### NdisDeviceStateUnspecified
+
+The network adapter does not support link change wake-ups.
+<div class="alert"><b>Note</b>  If the <b>MinLinkChangeWakeUp</b> member is set to this value, the<b>SupportedWakeUpEvents</b> member must be set to zero.</div><div> </div>
+
+### -field SupportedWakeUpEvents
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. These flags specify the   media-independent wake-up events that a network adapter supports. 
      These events are not specific to media type.
@@ -457,7 +457,7 @@ If this flag is set, the network adapter can generate a wake-up event when it be
 If this flag is set, the network adapter can generate a wake-up event when it becomes disconnected to the networking interface.
 
 
-#### - MediaSpecificWakeUpEvents
+### -field MediaSpecificWakeUpEvents
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. These flags specify the media-specific wake-up events that a network adapter supports. 
      
@@ -467,11 +467,9 @@ Starting with NDIS 6.30, the following flags are defined:
 
 
 
-#### NDIS_WLAN_WAKE_ON_NLO_DISCOVERY_SUPPORTED
+#### NDIS_WLAN_WAKE_ON_4WAY_HANDSHAKE_REQUEST_SUPPORTED
 
-If this flag is set, the 802.11 network adapter can generate a wake-up event if it detects a service set identifier (SSID) that was specified through a network list offload (NLO). 
-
-For more information about NLO, see <a href="https://msdn.microsoft.com/528838AA-4002-4923-A71B-37ADEE9B8D07">Wi-Fi Network List Offload</a>.
+If this flag is set, the 802.11 network adapter can generate a wake-up event if it receives the first frame of the IEEE 802.11i RSN 4-way handshake with the AP. This handshake is performed when the adapter authenticates with the AP.
 
 
 #### NDIS_WLAN_WAKE_ON_AP_ASSOCIATION_LOST_SUPPORTED
@@ -484,9 +482,11 @@ If this flag is set, the 802.11 network adapter can generate a wake-up event if 
 If this flag is set, the 802.11 network adapter can generate a wake-up event if it encounters an error during the IEEE 802.11i RSN group transient key (GTK) handshake with the AP.
 
 
-#### NDIS_WLAN_WAKE_ON_4WAY_HANDSHAKE_REQUEST_SUPPORTED
+#### NDIS_WLAN_WAKE_ON_NLO_DISCOVERY_SUPPORTED
 
-If this flag is set, the 802.11 network adapter can generate a wake-up event if it receives the first frame of the IEEE 802.11i RSN 4-way handshake with the AP. This handshake is performed when the adapter authenticates with the AP.
+If this flag is set, the 802.11 network adapter can generate a wake-up event if it detects a service set identifier (SSID) that was specified through a network list offload (NLO). 
+
+For more information about NLO, see <a href="https://msdn.microsoft.com/528838AA-4002-4923-A71B-37ADEE9B8D07">Wi-Fi Network List Offload</a>.
 
 
 #### NDIS_WWAN_WAKE_ON_REGISTER_STATE_SUPPORTED
@@ -509,12 +509,12 @@ If this flag is set, the MB network adapter can generate a wake-up event if it r
 
 The <b>NDIS_PM_CAPABILITIES</b> structure is used in the 
     <b>PowerManagementCapabilitiesEx</b> member of the 
-    <mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
-    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link> and 
+    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> and 
     <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structures and in
     the 
-    <mshelp:link keywords="netvista.ndis_status_pm_capabilities_change" tabindex="0"><b>
-    NDIS_STATUS_PM_CAPABILITIES_CHANGE</b></mshelp:link> status indication.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
+    NDIS_STATUS_PM_CAPABILITIES_CHANGE</a> status indication.
 
 During miniport initialization, the miniport driver initializes an <b>NDIS_PM_CAPABILITIES</b> structure with
     the power management capabilities of the network adapter hardware. The miniport driver then sets the 
@@ -538,23 +538,23 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
+   NDIS_STATUS_PM_CAPABILITIES_CHANGE</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+
 <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
 
-<mshelp:link keywords="netvista.ndis_status_pm_capabilities_change" tabindex="0"><b>
-   NDIS_STATUS_PM_CAPABILITIES_CHANGE</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
  
 

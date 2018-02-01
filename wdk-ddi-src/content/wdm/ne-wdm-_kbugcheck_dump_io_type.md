@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KBUGCHECK_DUMP_IO_TYPE, KbDumpIoSecondaryData, _KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoInvalid, KbDumpIoBody, wdm/KbDumpIoBody, kernel.kbugcheck_dump_io_type, KbDumpIoInvalid, KbDumpIoHeader, wdm/KbDumpIoComplete, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/KbDumpIoSecondaryData, KbDumpIoComplete, wdm/KbDumpIoHeader
+ms.keywords: wdm/KbDumpIoComplete, KbDumpIoInvalid, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, kernel.kbugcheck_dump_io_type, wdm/KbDumpIoHeader, wdm/KbDumpIoBody, KbDumpIoComplete, KbDumpIoSecondaryData, KbDumpIoHeader, wdm/KbDumpIoSecondaryData, wdm/KbDumpIoInvalid, _KBUGCHECK_DUMP_IO_TYPE, KbDumpIoBody, wdm/KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _KBUGCHECK_DUMP_IO_TYPE {
 
 
 
-#### - KbDumpIoInvalid
+### -field KbDumpIoInvalid
 
 Reserved for system use. Do not use.
 
 
-#### - KbDumpIoHeader
+### -field KbDumpIoHeader
 
 Specifies that crash dump data is header information.
 
 
-#### - KbDumpIoBody
+### -field KbDumpIoBody
 
 Specifies that the crash dump data is part of the main body of the crash dump, such as the memory state at the time of the bug check.
 
 
-#### - KbDumpIoSecondaryData
+### -field KbDumpIoSecondaryData
 
 Specifies that the crash dump data is data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a> routine.
 
 
-#### - KbDumpIoComplete
+### -field KbDumpIoComplete
 
 Specifies that the crash dump data has been completely written.
 
@@ -108,11 +108,11 @@ For more information about how this enumeration type is used, see <a href="https
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 <a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
  
 

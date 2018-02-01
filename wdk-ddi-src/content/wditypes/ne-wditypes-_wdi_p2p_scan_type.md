@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 717847D7-D7D9-4FEE-B3DC-14B0404FA937
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE enumeration [Device and Driver Installation], WDI_P2P_SCAN_TYPE_PASSIVE, _WDI_P2P_SCAN_TYPE, wditypes/WDI_P2P_SCAN_TYPE_PASSIVE, netvista.wifi_p2p_scan_type, WDI_P2P_SCAN_TYPE_AUTO, WDI_P2P_SCAN_TYPE_ACTIVE, wditypes/WDI_P2P_SCAN_TYPE_AUTO, wditypes/WDI_P2P_SCAN_TYPE, netvista.wdi_p2p_scan_type, WDI_P2P_SCAN_TYPE
+ms.keywords: wditypes/WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE_PASSIVE, WDI_P2P_SCAN_TYPE, wditypes/WDI_P2P_SCAN_TYPE, WDI_P2P_SCAN_TYPE_AUTO, netvista.wifi_p2p_scan_type, _WDI_P2P_SCAN_TYPE, wditypes/WDI_P2P_SCAN_TYPE_AUTO, WDI_P2P_SCAN_TYPE enumeration [Device and Driver Installation], wditypes/WDI_P2P_SCAN_TYPE_PASSIVE, netvista.wdi_p2p_scan_type, WDI_P2P_SCAN_TYPE_ACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _WDI_P2P_SCAN_TYPE {
 
 
 
-#### - WDI_P2P_SCAN_TYPE_ACTIVE
+### -field WDI_P2P_SCAN_TYPE_ACTIVE
 
 Use active scanning during device discovery. Even for active scans, the port must follow regulatory restrictions on the channel and must not scan on channels that would need a passive scan.
 
 
-#### - WDI_P2P_SCAN_TYPE_PASSIVE
+### -field WDI_P2P_SCAN_TYPE_PASSIVE
 
 Use passive scanning during device discovery.
 
 
-#### - WDI_P2P_SCAN_TYPE_AUTO
+### -field WDI_P2P_SCAN_TYPE_AUTO
 
 Adapter determines scan type during device discovery. It should prefer using Active scans when possible. This is the default scan type setting.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltRegisterForDataScan routine [Installable File System Drivers], ifsk.fltregisterfordatascan, FltRegisterForDataScan, fltkernel/FltRegisterForDataScan
+ms.keywords: FltRegisterForDataScan, fltkernel/FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], ifsk.fltregisterfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS FltRegisterForDataScan(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 An opaque instance pointer for the minifilter driver instance to register for data scanning.
 
@@ -105,13 +105,13 @@ If <b>STATUS_NOT_SUPPORTED</b> is returned by <b>FltRegisterForDataScan</b>, a m
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlcreatesectionfordatascan.md">FsRtlCreateSectionForDataScan</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
 
  
 

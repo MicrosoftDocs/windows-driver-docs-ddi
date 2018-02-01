@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnReleaseDescriptorInfo(
 
 
 
-#### - hMonitorDescriptorSet [in]
+### -param hMonitorDescriptorSet [in]
 
 A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset.md">pfnGetMonitorDescriptorSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
-#### - pMonitorDescriptorInfo [in]
+### -param pMonitorDescriptorInfo [in]
 
 A pointer to the D3DKMDT_MONITOR_DESCRIPTOR structure to be released.
 

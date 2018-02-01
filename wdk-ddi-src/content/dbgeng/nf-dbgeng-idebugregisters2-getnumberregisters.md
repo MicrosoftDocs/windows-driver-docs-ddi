@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 51c521fc-e89c-49c9-8110-de31af3bed83
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, GetNumberRegisters method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetNumberRegisters, IDebugRegisters2, debugger.getnumberregisters, GetNumberRegisters method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters::GetNumberRegisters, IDebugRegisters2::GetNumberRegisters, GetNumberRegisters, IDebugRegisters2 interface [Windows Debugging], GetNumberRegisters method, GetNumberRegisters method [Windows Debugging], dbgeng/IDebugRegisters2::GetNumberRegisters
+ms.keywords: IDebugRegisters2::GetNumberRegisters, GetNumberRegisters method [Windows Debugging], GetNumberRegisters, GetNumberRegisters method [Windows Debugging], IDebugRegisters2 interface, GetNumberRegisters method [Windows Debugging], IDebugRegisters interface, debugger.getnumberregisters, IDebugRegisters2 interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2, IDebugRegisters::GetNumberRegisters, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, IDebugRegisters interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetNumberRegisters(
 
 
 
-#### - Number [out]
+### -param Number [out]
 
 Receives the number of registers on the target's computer.
 

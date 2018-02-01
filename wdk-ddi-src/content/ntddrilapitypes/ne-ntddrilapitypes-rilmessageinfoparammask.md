@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70e0f22c-14d4-43e6-bfb6-66523706ba52
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_MI_MESSAGE, ntddrilapitypes/RILMESSAGEINFOPARAMMASK, RIL_PARAM_MI_STATUS, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_MI_ALL, netvista.rilmessageinfoparammask, RIL_PARAM_MI_ALL, ntddrilapitypes/RIL_PARAM_MI_STATUS, RIL_PARAM_MI_MESSAGE, RILMESSAGEINFOPARAMMASK
+ms.keywords: RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MI_ALL, RIL_PARAM_MI_MESSAGE, ntddrilapitypes/RIL_PARAM_MI_MESSAGE, RILMESSAGEINFOPARAMMASK, RIL_PARAM_MI_STATUS, netvista.rilmessageinfoparammask, ntddrilapitypes/RIL_PARAM_MI_STATUS, ntddrilapitypes/RILMESSAGEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MI_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILMESSAGEINFOPARAMMASK {
 
 
 
-#### - RIL_PARAM_MI_STATUS
+### -field RIL_PARAM_MI_STATUS
 
 
 
-#### - RIL_PARAM_MI_MESSAGE
+### -field RIL_PARAM_MI_MESSAGE
 
 
 
-#### - RIL_PARAM_MI_ALL
+### -field RIL_PARAM_MI_ALL
 
 

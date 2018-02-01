@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SyncToMaster method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus::SyncToMaster, audio.isynthsinkdmus_synctomaster, ISynthSinkDMus, SyncToMaster, SyncToMaster method [Audio Devices], dmusicks/ISynthSinkDMus::SyncToMaster, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml
+ms.keywords: dmusicks/ISynthSinkDMus::SyncToMaster, SyncToMaster method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus::SyncToMaster, SyncToMaster, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, audio.isynthsinkdmus_synctomaster, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, ISynthSinkDMus, SyncToMaster method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ NTSTATUS SyncToMaster(
 
 
 
-#### - fStart [in]
+### -param fStart [in]
 
 Specifies whether the sample clock is to be reset to zero with this reference time. If <b>TRUE</b>, the sample clock must be reset to zero at time <i>rtTime</i>. If <b>FALSE</b>, the sample clock is not reset.
 
@@ -101,9 +101,9 @@ Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMast
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
  
 

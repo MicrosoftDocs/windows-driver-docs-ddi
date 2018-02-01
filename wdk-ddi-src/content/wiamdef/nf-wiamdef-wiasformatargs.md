@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 409c4ff6-3a0e-408a-879d-2875ac245fb8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFormatArgs, wiasFormatArgs function [Imaging Devices], image.wiasformatargs, wiamdef/wiasFormatArgs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml
+ms.keywords: wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, image.wiasformatargs, wiasFormatArgs function [Imaging Devices], wiamdef/wiasFormatArgs, wiasFormatArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

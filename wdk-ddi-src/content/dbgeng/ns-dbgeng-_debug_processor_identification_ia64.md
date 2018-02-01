@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8827D989-EB59-4474-97D8-9CD9BF24FCC1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "_DEBUG_PROCESSOR_IDENTIFICATION_IA64, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_IA64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_IA64, DEBUG_PROCESSOR_IDENTIFICATION_IA64, debugger.debug_processor_identification_ia64, PDEBUG_PROCESSOR_IDENTIFICATION_IA64, *PDEBUG_PROCESSOR_IDENTIFICATION_IA64, PDEBUG_PROCESSOR_IDENTIFICATION_IA64 structure pointer [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_IA64 structure [Windows Debugging]"
+ms.keywords: debugger.debug_processor_identification_ia64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_IA64, DEBUG_PROCESSOR_IDENTIFICATION_IA64, *PDEBUG_PROCESSOR_IDENTIFICATION_IA64, PDEBUG_PROCESSOR_IDENTIFICATION_IA64, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_IA64, PDEBUG_PROCESSOR_IDENTIFICATION_IA64 structure pointer [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_IA64 structure [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_IA64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DEBUG_PROCESSOR_IDENTIFICATION_IA64 {
 
 
 
-#### - Model
+### -field Model
 
 The model of the processor.
 
 
-#### - Revision
+### -field Revision
 
 The revision of the processor.
 
 
-#### - Family
+### -field Family
 
 The family of the processor.
 
 
-#### - ArchRev
+### -field ArchRev
 
 The architecture revision of the processor.
 
 
-#### - VendorString
+### -field VendorString
 
 A vendor specified string.
 

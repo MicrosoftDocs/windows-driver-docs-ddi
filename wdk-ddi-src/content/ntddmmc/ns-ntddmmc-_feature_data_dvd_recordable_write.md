@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13a816f9-c41a-49f1-ac79-98106f4630d4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_c7d92388-964e-4db2-803a-1a7c10c45cc0.xml, PFEATURE_DATA_DVD_RECORDABLE_WRITE structure pointer [Storage Devices], _FEATURE_DATA_DVD_RECORDABLE_WRITE, storage.feature_data_dvd_recordable_write, ntddmmc/PFEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/FEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE structure [Storage Devices], PFEATURE_DATA_DVD_RECORDABLE_WRITE
+ms.keywords: FEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/PFEATURE_DATA_DVD_RECORDABLE_WRITE, PFEATURE_DATA_DVD_RECORDABLE_WRITE structure pointer [Storage Devices], FEATURE_DATA_DVD_RECORDABLE_WRITE structure [Storage Devices], _FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/FEATURE_DATA_DVD_RECORDABLE_WRITE, structs-CD-ROM_c7d92388-964e-4db2-803a-1a7c10c45cc0.xml, PFEATURE_DATA_DVD_RECORDABLE_WRITE, storage.feature_data_dvd_recordable_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,45 +75,45 @@ typedef struct _FEATURE_DATA_DVD_RECORDABLE_WRITE {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - DVD_RW
+### -field DVD_RW
 
 Indicates, when set to 1, that the device supports writing and erasing on DVD-RW media. For more information about this feature see the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. 
 
 
-#### - TestWrite
+### -field TestWrite
 
 Indicates, when set to 1, that the device is capable of performing test writes. When set to zero, the device cannot perform test writes. 
 
 
-#### - RDualLayer
+### -field RDualLayer
 
 
 
-#### - Reserved02
+### -field Reserved02
 
 
 
-#### - BufferUnderrunFree
+### -field BufferUnderrunFree
 
 Indicates, when set to 1, that the device can perform under-run-free recording. 
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved. 
 
 
-#### - Reserved4
+### -field Reserved4
 
 Reserved. 
 

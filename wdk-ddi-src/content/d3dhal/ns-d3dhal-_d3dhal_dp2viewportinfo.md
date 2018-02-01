@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df46a37e-fed6-4738-8794-6611e9c758cb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/LPD3DHAL_DP2VIEWPORTINFO, display.d3dhal_dp2viewportinfo, _D3DHAL_DP2VIEWPORTINFO, D3DHAL_DP2VIEWPORTINFO structure [Display Devices], *LPD3DHAL_DP2VIEWPORTINFO, LPD3DHAL_DP2VIEWPORTINFO, d3dhal/D3DHAL_DP2VIEWPORTINFO, LPD3DHAL_DP2VIEWPORTINFO structure pointer [Display Devices], d3dstrct_7a7ca4d1-eb1a-4342-9ce9-f4b276191da5.xml, D3DHAL_DP2VIEWPORTINFO
+ms.keywords: d3dhal/D3DHAL_DP2VIEWPORTINFO, D3DHAL_DP2VIEWPORTINFO, display.d3dhal_dp2viewportinfo, _D3DHAL_DP2VIEWPORTINFO, d3dhal/LPD3DHAL_DP2VIEWPORTINFO, d3dstrct_7a7ca4d1-eb1a-4342-9ce9-f4b276191da5.xml, D3DHAL_DP2VIEWPORTINFO structure [Display Devices], LPD3DHAL_DP2VIEWPORTINFO structure pointer [Display Devices], LPD3DHAL_DP2VIEWPORTINFO, *LPD3DHAL_DP2VIEWPORTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,20 +70,20 @@ typedef struct _D3DHAL_DP2VIEWPORTINFO {
 
 
 
-#### - dwX
+### -field dwX
 
 
 
-#### - dwY
+### -field dwY
 
 Specify the location, in screen coordinates, of the upper-left corner of the subrectangle.
 
 
-#### - dwWidth
+### -field dwWidth
 
 
 
-#### - dwHeight
+### -field dwHeight
 
 Specify the width and height, respectively, of the subrectangle where the application is rendering. These members are specified in screen coordinates.
 
@@ -103,11 +103,11 @@ Subguard-band drivers should ignore and skip over these instructions and continu
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 D3DDP2OP_VIEWPORTINFO
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

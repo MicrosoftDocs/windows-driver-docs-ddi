@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8320d4d1-f282-4977-96e7-de6f63d86ec4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml, ntifs/PsDereferenceImpersonationToken, PsDereferenceImpersonationToken, PsDereferenceImpersonationToken routine [Installable File System Drivers], ifsk.psdereferenceimpersonationtoken
+ms.keywords: PsDereferenceImpersonationToken, psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml, PsDereferenceImpersonationToken routine [Installable File System Drivers], ntifs/PsDereferenceImpersonationToken, ifsk.psdereferenceimpersonationtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID PsDereferenceImpersonationToken(
 
 
 
-#### - ImpersonationToken [in]
+### -param ImpersonationToken [in]
 
 Pointer to the impersonation token whose reference count is to be decremented. If this is a <b>NULL</b> pointer, <b>PsDereferenceImpersonationToken</b> does nothing.
 

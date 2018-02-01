@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b1d9ce90-9926-4ff8-a5bb-54c1a88d84dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], NdisMCmCreateVc, netvista.ndismcmcreatevc, condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, ndis/NdisMCmCreateVc
+ms.keywords: condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, NdisMCmCreateVc, ndis/NdisMCmCreateVc, NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], netvista.ndismcmcreatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,20 +72,20 @@ NDIS_STATUS NdisMCmCreateVc(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 Specifies the NDIS-supplied handle originally input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - NdisAfHandle [in]
+### -param NdisAfHandle [in]
 
 Specifies the handle that identifies the client that is the target of an incoming call. The MCM
      driver obtained this handle as an input parameter to its 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
 
 
-#### - MiniportVcContext [in]
+### -param MiniportVcContext [in]
 
 Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
      state for this VC. NDIS passes this handle back to the MCM driver in all subsequent calls concerning
@@ -93,7 +93,7 @@ Specifies the handle to a caller-supplied resident context area in which the MCM
      <b>NdisMCmCreateVc</b> succeeds.
 
 
-#### - NdisVcHandle [out]
+### -param NdisVcHandle [out]
 
 Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> before 
      <b>NdisMCmCreateVc</b> is called. On return from a successful call, this variable has been set to an
@@ -191,8 +191,8 @@ When an MCM driver processes the offer of an incoming call directed to one of it
     <b>NdisMCmCreateVc</b> succeeds, the MCM driver can proceed in notifying the appropriate client, passing
     the returned value at 
     <i>NdisVcHandle</i> to 
-    <mshelp:link keywords="netvista.ndismcmdispatchincomingcall" tabindex="0"><b>
-    NdisMCmDispatchIncomingCall</b></mshelp:link>.
+    <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">
+    NdisMCmDispatchIncomingCall</a>.
 
 The driver writer determines whether an MCM driver has an (internal) 
     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function that the
@@ -207,22 +207,22 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
 <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-
 <a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
  
 

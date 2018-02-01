@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_EVENT structure pointer [Sensor Devices], GNSS_EVENT, *PGNSS_EVENT, PGNSS_EVENT, sensors.gnss_event, gnssdriver/PGNSS_EVENT, gnssdriver/GNSS_EVENT, GNSS_EVENT structure [Sensor Devices]
+ms.keywords: GNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], GNSS_EVENT structure [Sensor Devices], *PGNSS_EVENT, PGNSS_EVENT, sensors.gnss_event, gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,47 +83,47 @@ typedef struct {
 
 
 
-#### - FixData
+### -field FixData
 
 This structure is filled if EventType is GNSS_Fix_Available.
 
 
-#### - AgnssRequest
+### -field AgnssRequest
 
 This structure is filled if EventType is GNSS_Require_Agnss.
 
 
-#### - NiRequest
+### -field NiRequest
 
 This structure is filled if EventType is GNSS_Event_Ni.
 
 
-#### - ErrorInformation
+### -field ErrorInformation
 
 This structure is filled if EventType is GNSS_Error.
 
 
-#### - NmeaData
+### -field NmeaData
 
 This structure is filled if EventType is GNSS_Event_NmeaData.
 
 
-#### - GeofenceAlertData
+### -field GeofenceAlertData
 
 This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
 
 
-#### - BreadcrumbAlertData
+### -field BreadcrumbAlertData
 
 This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 
 
-#### - GeofencesTrackingStatus
+### -field GeofencesTrackingStatus
 
 This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
 
 
-#### - DriverRequestData
+### -field DriverRequestData
 
 This structure is filled if EventType is GNSS_Event_DriverRequest.
 
@@ -133,24 +133,24 @@ This structure is filled if EventType is GNSS_Event_DriverRequest.
  
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - EventType
+### -field EventType
 
 Event type.
 
 Depending on the event type, a specific data element of the union will be filled.
 
 
-#### - EventDataSize
+### -field EventDataSize
 
 The size of the event data union contained in this event.
 
@@ -163,14 +163,14 @@ The GNSS driver must fill in appropriate size to avoid excessive data-copy betwe
 
 
 
-#### - Unused[512]
-
-Padding buffer.
-
-
 #### - CustomData[ANYSIZE_ARRAY]
 
 Custom data field.
+
+
+#### - Unused[512]
+
+Padding buffer.
 
 
 ## -remarks

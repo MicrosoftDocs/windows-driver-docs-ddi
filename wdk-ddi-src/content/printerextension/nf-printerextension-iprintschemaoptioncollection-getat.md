@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B77297BF-09F7-46BD-A75F-D36E5E233E05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaOptionCollection interface [Print Devices], GetAt method, IPrintSchemaOptionCollection, GetAt method [Print Devices], IPrintSchemaOptionCollection interface, GetAt, IPrintSchemaOptionCollection::GetAt, printerextension/IPrintSchemaOptionCollection::GetAt, GetAt method [Print Devices], print.iprintschemaoptioncollection_getat
+ms.keywords: IPrintSchemaOptionCollection::GetAt, GetAt method [Print Devices], IPrintSchemaOptionCollection interface, print.iprintschemaoptioncollection_getat, IPrintSchemaOptionCollection interface [Print Devices], GetAt method, IPrintSchemaOptionCollection, printerextension/IPrintSchemaOptionCollection::GetAt, GetAt, GetAt method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetAt(
 
 
 
-#### - ulIndex [in]
+### -param ulIndex [in]
 
 Index of the <b>IPrintSchemaOption</b> object within the collection.
 
 
-#### - ppOption [out, retval, optional]
+### -param ppOption [out, retval, optional]
 
 Pointer to an <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> object.
 
@@ -88,9 +88,9 @@ Returns an <b>HRESULT</b> value. If the method call was not successful,  it retu
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoptioncollection.md">IPrintSchemaOptionCollection</a>
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+<a href="..\printerextension\nn-printerextension-iprintschemaoptioncollection.md">IPrintSchemaOptionCollection</a>
 
  
 

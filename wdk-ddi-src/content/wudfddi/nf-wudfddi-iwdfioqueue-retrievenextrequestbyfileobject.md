@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 136b7582-b974-44fb-8026-e9678ae6623c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveNextRequestByFileObject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, IWDFIoQueue, wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, RetrieveNextRequestByFileObject method
+ms.keywords: RetrieveNextRequestByFileObject method, RetrieveNextRequestByFileObject, IWDFIoQueue::RetrieveNextRequestByFileObject, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, umdf.iwdfioqueue_retrievenextrequestbyfileobject, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, IWDFIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,7 @@ HRESULT RetrieveNextRequestByFileObject(
 
 
 
-#### - ppRequest [out]
+### -param ppRequest [out]
 
 A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the next request object whose file object matches the supplied file object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
@@ -156,13 +156,13 @@ If multiple I/O requests whose file objects match the file object that the <i>pF
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 

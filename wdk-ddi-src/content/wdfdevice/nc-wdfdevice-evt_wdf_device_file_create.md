@@ -75,17 +75,17 @@ VOID EvtDeviceFileCreate(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object that represents a file creation request.
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A handle to a framework file object that describes a file that is being opened for the specified request. This parameter is <b>NULL</b> if the driver has specified <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WdfFileObjectNotRequired</a> for the <b>FileObjectClass </b>member of the <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
 

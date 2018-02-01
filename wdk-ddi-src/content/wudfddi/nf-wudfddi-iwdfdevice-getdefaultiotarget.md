@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, GetDefaultIoTarget method, IWDFDevice interface, GetDefaultIoTarget method, IWDFDevice, wdf.iwdfdevice_getdefaultiotarget, umdf.iwdfdevice_getdefaultiotarget, GetDefaultIoTarget, IWDFDevice::GetDefaultIoTarget, wudfddi/IWDFDevice::GetDefaultIoTarget, GetDefaultIoTarget method, IWDFDevice interface
+ms.keywords: GetDefaultIoTarget method, IWDFDevice interface, IWDFDevice::GetDefaultIoTarget, wudfddi/IWDFDevice::GetDefaultIoTarget, wdf.iwdfdevice_getdefaultiotarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, IWDFDevice interface, GetDefaultIoTarget method, IWDFDevice, GetDefaultIoTarget, umdf.iwdfdevice_getdefaultiotarget, GetDefaultIoTarget method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetDefaultIoTarget(
 
 
 
-#### - ppWdfIoTarget [out]
+### -param ppWdfIoTarget [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface for the default I/O target object.
 
@@ -91,9 +91,9 @@ For more information, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

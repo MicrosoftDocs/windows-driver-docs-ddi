@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ufxdevicenotifyhardwareready, UfxDeviceNotifyHardwareReady, ufxclient/UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses]
+ms.keywords: UfxDeviceNotifyHardwareReady method [Buses], UfxDeviceNotifyHardwareReady, ufxclient/UfxDeviceNotifyHardwareReady, buses.ufxdevicenotifyhardwareready
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID UfxDeviceNotifyHardwareReady(
 
 
 
-#### - UfxDevice [in]
+### -param UfxDevice [in]
 
 A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 

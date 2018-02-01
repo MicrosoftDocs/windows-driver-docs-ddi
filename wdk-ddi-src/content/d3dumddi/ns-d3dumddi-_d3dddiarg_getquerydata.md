@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98c6ada1-89a4-4cbd-bb6c-98c190fa15d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_getquerydata, D3DDDIARG_GETQUERYDATA structure [Display Devices], _D3DDDIARG_GETQUERYDATA, d3dumddi/D3DDDIARG_GETQUERYDATA, UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, D3DDDIARG_GETQUERYDATA
+ms.keywords: "_D3DDDIARG_GETQUERYDATA, display.d3dddiarg_getquerydata, d3dumddi/D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA structure [Display Devices], UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct _D3DDDIARG_GETQUERYDATA {
 
 
 
-#### - hQuery
+### -field hQuery
 
 [in] The handle to the query that was created by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function.
 
 
-#### - pData
+### -field pData
 
 [out] A pointer to a buffer that the driver fills with data that is related to a query, if the query type is one that requires data. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
  
 

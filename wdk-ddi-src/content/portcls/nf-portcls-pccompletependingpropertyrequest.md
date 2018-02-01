@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcCompletePendingPropertyRequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, PcCompletePendingPropertyRequest, audio.pccompletependingpropertyrequest, PcCompletePendingPropertyRequest function [Audio Devices]
+ms.keywords: audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, PcCompletePendingPropertyRequest function [Audio Devices], portcls/PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest, audio.pccompletependingpropertyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS PcCompletePendingPropertyRequest(
 
 
 
-#### - PropertyRequest [in]
+### -param PropertyRequest [in]
 
 Pointer to the property request that was passed to the property handler. The request is a structure of type <a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>.
 
 
-#### - NtStatus [in]
+### -param NtStatus [in]
 
 Specifies the completion status of the request. See the list of NTSTATUS values defined in header file ntstatus.h.
 
@@ -97,9 +97,9 @@ The driver should call <b>PcCompletePendingPropertyRequest</b> only when the req
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
-
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
 
  
 

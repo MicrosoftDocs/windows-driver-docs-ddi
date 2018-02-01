@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationInvalid, wdfdevice/StateNotificationLeaveState, wdfdevice/StateNotificationPostProcessState, StateNotificationLeaveState, wdfdevice/StateNotificationEnterState, StateNotificationAllStates, wdfdevice/StateNotificationAllStates, kmdf.wdf_state_notification_type, StateNotificationInvalid, StateNotificationEnterState, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, _WDF_STATE_NOTIFICATION_TYPE, WDF_STATE_NOTIFICATION_TYPE, wdf.wdf_state_notification_type, WDF_STATE_NOTIFICATION_TYPE enumeration, StateNotificationPostProcessState
+ms.keywords: StateNotificationInvalid, kmdf.wdf_state_notification_type, wdf.wdf_state_notification_type, StateNotificationAllStates, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, StateNotificationEnterState, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, wdfdevice/StateNotificationPostProcessState, _WDF_STATE_NOTIFICATION_TYPE, StateNotificationLeaveState, wdfdevice/StateNotificationAllStates, WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationEnterState, wdfdevice/StateNotificationLeaveState, wdfdevice/StateNotificationInvalid, StateNotificationPostProcessState, WDF_STATE_NOTIFICATION_TYPE enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,27 +74,27 @@ typedef enum _WDF_STATE_NOTIFICATION_TYPE {
 
 
 
-#### - StateNotificationInvalid
+### -field StateNotificationInvalid
 
 For internal use only.
 
 
-#### - StateNotificationEnterState
+### -field StateNotificationEnterState
 
 The driver is notified immediately before a device's Plug and Play, power, or power policy state machine enters a specified state.
 
 
-#### - StateNotificationPostProcessState
+### -field StateNotificationPostProcessState
 
 The driver is notified immediately after a device's Plug and Play, power, or power policy state machine enters a specified state.
 
 
-#### - StateNotificationLeaveState
+### -field StateNotificationLeaveState
 
 The driver is notified immediately before a device's Plug and Play, power, or power policy state machine leaves a specified state.
 
 
-#### - StateNotificationAllStates
+### -field StateNotificationAllStates
 
 The driver receives enter-state, postprocess-state, and leave-state notifications.
 
@@ -147,9 +147,9 @@ Calls state <i>b</i>'s postprocess-state notification callback function.
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
-
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
 
  
 

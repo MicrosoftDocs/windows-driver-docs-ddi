@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 92b9b22a-0fe7-4c95-a4fc-5f5f5558b4cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: mrx/RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers], RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml, ifsk.rxfsddispatch
+ms.keywords: RxFsdDispatch, ifsk.rxfsddispatch, mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml, RxFsdDispatch routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RxFsdDispatch(
 
 
 
-#### - RxDeviceObject [in]
+### -param RxDeviceObject [in]
 
 A pointer to the RDBSS device object for this network mini-redirector.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the I/O request packet being processed.
 

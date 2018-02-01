@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: e9d78c80-e6cf-49af-89de-6df8ea871796
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PPARALLEL_CHIP_MODE, parallel/PARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE structure [Parallel Ports], parports.parallel_chip_mode, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], _PARALLEL_CHIP_MODE, parallel/PPARALLEL_CHIP_MODE, PPARALLEL_CHIP_MODE"
+ms.keywords: parallel/PARALLEL_CHIP_MODE, parallel/PPARALLEL_CHIP_MODE, *PPARALLEL_CHIP_MODE, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], parports.parallel_chip_mode, PPARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE, _PARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE structure [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PARALLEL_CHIP_MODE {
 
 
 
-#### - ModeFlags
+### -field ModeFlags
 
 Specifies an operating mode of a parallel port, either an enhanced parallel port (EPP) mode or an extended capabilities port (ECP) mode.
 
 
-#### - success
+### -field success
 
 Not used.
 
@@ -87,17 +87,17 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
-
-<a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
-
-<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
-
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_clear_chip_mode.md">IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
 
+<a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
+
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
+
+<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
 
  
 

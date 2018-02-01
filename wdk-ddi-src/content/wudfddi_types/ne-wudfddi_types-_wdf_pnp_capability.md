@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapDockDevice, WdfPnpCapRemovable, WdfPnpCapInvalid, wudfddi_types/WdfPnpCapLockSupported, wudfddi_types/WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, WdfPnpCapMaximum, WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapEjectSupported, wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapSurpriseRemovalOk, WDF_PNP_CAPABILITY enumeration, _WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapMaximum, wdf.wdf_pnp_capability, WdfPnpCapDockDevice, WdfPnpCapNoDisplayInUI, WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapInvalid, WdfPnpCapEjectSupported
+ms.keywords: wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapInvalid, umdf.wdf_pnp_capability, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapMaximum, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, _WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapNoDisplayInUI, WdfPnpCapRemovable, wudfddi_types/WdfPnpCapLockSupported, WdfPnpCapEjectSupported, WdfPnpCapNoDisplayInUI, wdf.wdf_pnp_capability, wudfddi_types/WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapDockDevice, WdfPnpCapMaximum, WdfPnpCapInvalid, WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapEjectSupported, WdfPnpCapLockSupported, WDF_PNP_CAPABILITY, WDF_PNP_CAPABILITY enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,42 +77,42 @@ typedef enum _WDF_PNP_CAPABILITY {
 
 
 
-#### - WdfPnpCapInvalid
+### -field WdfPnpCapInvalid
 
 Indicates whether PnP capabilities of the device are invalid.
 
 
-#### - WdfPnpCapLockSupported
+### -field WdfPnpCapLockSupported
 
 Indicates whether the device can be locked in its slot to prevent ejection. (Setting this capability disables ejecting a device from its slot and does not disable ejecting media from a device.) 
 
 
-#### - WdfPnpCapEjectSupported
+### -field WdfPnpCapEjectSupported
 
 Indicates whether the device can be ejected from its slot. (Setting this capability enables ejecting a device from its slot and does not enable ejecting media from a device.) 
 
 
-#### - WdfPnpCapRemovable
+### -field WdfPnpCapRemovable
 
 Indicates whether the device can be removed while the computer is running. If <b>WdfPnpCapRemovable</b> is set to <b>WdfTrue</b> and <b>WdfPnpCapSurpriseRemovalOk</b> is set to <b>WdfFalse</b>, users should use the system's Unplug or Eject Hardware application. 
 
 
-#### - WdfPnpCapDockDevice
+### -field WdfPnpCapDockDevice
 
 Indicates whether the device is a docking station. 
 
 
-#### - WdfPnpCapSurpriseRemovalOk
+### -field WdfPnpCapSurpriseRemovalOk
 
 Indicates whether users can remove the device without using the computer's Unplug or Eject Hardware application.
 
 
-#### - WdfPnpCapNoDisplayInUI
+### -field WdfPnpCapNoDisplayInUI
 
 Indicates whether the device can be hidden (not displayed) in Device Manager.
 
 
-#### - WdfPnpCapMaximum
+### -field WdfPnpCapMaximum
 
 Valid enumeration values were exceeded.
 
@@ -126,9 +126,9 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
 
  
 

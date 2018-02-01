@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55a9c9e0-24e2-436f-9132-77ae1bab7c2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_SUPPORTED_ANTENNA, netvista.dot11_supported_antenna, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_ANTENNA, _DOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, windot11/DOT11_SUPPORTED_ANTENNA, PDOT11_SUPPORTED_ANTENNA"
+ms.keywords: "*PDOT11_SUPPORTED_ANTENNA, PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, windot11/DOT11_SUPPORTED_ANTENNA, netvista.dot11_supported_antenna, PDOT11_SUPPORTED_ANTENNA, _DOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, windot11/PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -51,8 +51,8 @@ req.product: Windows 10 or later.
 
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_SUPPORTED_ANTENNA structure defines an antenna entry in a 
-  <mshelp:link keywords="netvista.dot11_supported_antenna_list" tabindex="0"><b>
-  DOT11_SUPPORTED_ANTENNA_LIST</b></mshelp:link> structure.
+  <a href="..\windot11\ns-windot11-_dot11_supported_antenna_list.md">
+  DOT11_SUPPORTED_ANTENNA_LIST</a> structure.
 
 
 ## -syntax
@@ -71,12 +71,12 @@ typedef struct _DOT11_SUPPORTED_ANTENNA {
 
 
 
-#### - uAntennaListIndex
+### -field uAntennaListIndex
 
 A value, from 1 through 255, that uniquely identifies the antenna.
 
 
-#### - bSupportedAntenna
+### -field bSupportedAntenna
 
 A Boolean value that indicates, if <b>TRUE</b>, that the antenna referenced by the 
      <b>uAntennaListIndex</b> value supports transmit and receive operations.
@@ -96,11 +96,11 @@ The meaning of the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
 
 <a href="..\windot11\ns-windot11-_dot11_supported_antenna_list.md">DOT11_SUPPORTED_ANTENNA_LIST</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 6AB1BB0A-B350-44D7-B0D0-9A19FD6DEE19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxOpen, PosCxOpen, PosCxOpen function, pos.poscxopen
+ms.keywords: poscx/PosCxOpen, pos.poscxopen, PosCxOpen function, PosCxOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS PosCxOpen(
 
 
 
-#### - device [in]
+### -param device [in]
 
 A handle to a framework device object that represents the device.
 
 
-#### - fileObject [in]
+### -param fileObject [in]
 
 A handle to a framework file object that identifies the caller associated with the open instance.
 
 
-#### - deviceInterfaceTag [in]
+### -param deviceInterfaceTag [in]
 
 An identifier used to specify the caller's device interface in a multi-function device.  For a single-interface device, this value should be 0.
 

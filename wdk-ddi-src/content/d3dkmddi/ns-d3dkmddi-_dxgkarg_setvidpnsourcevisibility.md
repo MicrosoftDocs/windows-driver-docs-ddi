@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 073fbcc4-57d8-4709-9605-a3440b5e8e17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], display.dxgkarg_setvidpnsourcevisibility, DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml, d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY"
+ms.keywords: DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY, _DXGKARG_SETVIDPNSOURCEVISIBILITY, DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml, display.dxgkarg_setvidpnsourcevisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGKARG_SETVIDPNSOURCEVISIBILITY {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 An integer that identifies a video present source on the display adapter.
 
 
-#### - Visible
+### -field Visible
 
 A Boolean value that specifies whether the video output codec associated with the source must start scanning or stop scanning the source's primary surface. If <b>Visible</b> is <b>TRUE</b>, the codec must start scanning. 
 

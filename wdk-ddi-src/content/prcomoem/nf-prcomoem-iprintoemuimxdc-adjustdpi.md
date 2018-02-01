@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemUIMXDC::AdjustDPI, AdjustDPI method [Print Devices], AdjustDPI, IPrintOemUIMXDC::AdjustDPI, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml, IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, IPrintOemUIMXDC, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, print.iprintoemuimxdc_adjustdpi
+ms.keywords: IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, AdjustDPI, IPrintOemUIMXDC::AdjustDPI, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml, print.iprintoemuimxdc_adjustdpi, IPrintOemUIMXDC, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, AdjustDPI method [Print Devices], prcomoem/IPrintOemUIMXDC::AdjustDPI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT AdjustDPI(
 
 
 
-#### - hPrinter
+### -param hPrinter
 
 A handle to the printer that is currently being queried.
 
 
-#### - cbDevMode
+### -param cbDevMode
 
 The size of the <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODE</a> structure, including appended data.
 
 
-#### - pDevMode
+### -param pDevMode
 
 A pointer to the DEVMODE structure that contains the current device settings.
 
 
-#### - cbOEMDM
+### -param cbOEMDM
 
 The number of bytes in the vendor-provided section of the DEVMODE structure.
 
 
-#### - pOEMDM
+### -param pOEMDM
 
 A pointer to the data that is contained in the vendor portion of the DEVMODE structure that <i>pDevMode</i> points to.
 
 
-#### - pDPI
+### -param pDPI
 
 A pointer to the current resolution, in dots per inch (DPI), assuming square pixels. If this parameter is configured, its returned value must be a positive integer.
 

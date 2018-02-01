@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff9008d7-1de9-4414-8197-2710fd11747e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], SetEngineOptions method, IDebugControl3::SetEngineOptions, dbgeng/IDebugControl3::SetEngineOptions, IDebugControl2 interface [Windows Debugging], SetEngineOptions method, debugger.setengineoptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, dbgeng/IDebugControl::SetEngineOptions, IDebugControl3, SetEngineOptions method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::SetEngineOptions, IDebugControl3 interface [Windows Debugging], SetEngineOptions method, IDebugControl2::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl3 interface, SetEngineOptions, IDebugControl::SetEngineOptions, SetEngineOptions method [Windows Debugging]
+ms.keywords: SetEngineOptions method [Windows Debugging], IDebugControl3 interface, SetEngineOptions method [Windows Debugging], IDebugControl::SetEngineOptions, debugger.setengineoptions, dbgeng/IDebugControl2::SetEngineOptions, IDebugControl2 interface [Windows Debugging], SetEngineOptions method, dbgeng/IDebugControl3::SetEngineOptions, IDebugControl3, IDebugControl interface [Windows Debugging], SetEngineOptions method, dbgeng/IDebugControl::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, SetEngineOptions, IDebugControl3 interface [Windows Debugging], SetEngineOptions method, IDebugControl2::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl interface, IDebugControl3::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT SetEngineOptions(
 
 
 
-#### - Options [in]
+### -param Options [in]
 
 Specifies the engine's new options.  <i>Options</i> is a bit-set; it will replace the existing symbol options.  For a description of the engine options, see Remarks.
 
@@ -344,17 +344,17 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
  
 

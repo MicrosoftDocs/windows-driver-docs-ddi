@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3758f32-daa9-4795-9a79-694b02da43cd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlFillMemoryUlong, RtlFillMemoryUlong, RtlFillMemoryUlong routine [Installable File System Drivers], ifsk.rtlfillmemoryulong, rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml
+ms.keywords: ifsk.rtlfillmemoryulong, RtlFillMemoryUlong, RtlFillMemoryUlong routine [Installable File System Drivers], ntifs/RtlFillMemoryUlong, rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID RtlFillMemoryUlong(
 
 
 
-#### - Destination [out]
+### -param Destination [out]
 
 Pointer to a block of memory to be filled. Must be ULONG-aligned.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Length in bytes of the memory to fill. Must be a multiple of <b>sizeof(</b>ULONG<b>)</b>. (Note: SIZE_T is defined in <i>basetsd.h</i>.)
 
 
-#### - Pattern [in]
+### -param Pattern [in]
 
 ULONG value with which to fill the memory block. 
 
@@ -102,9 +102,9 @@ For more information about managing buffered data and initializing driver-alloca
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
-
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+
+<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
 
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 

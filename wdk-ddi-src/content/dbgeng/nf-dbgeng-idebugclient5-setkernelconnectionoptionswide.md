@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, SetKernelConnectionOptionsWide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, SetKernelConnectionOptionsWide method [Windows Debugging], debugger.setkernelconnectionoptionswide
+ms.keywords: debugger.setkernelconnectionoptionswide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, IDebugClient5::SetKernelConnectionOptionsWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT SetKernelConnectionOptionsWide(
 
 
 
-#### - Options [in]
+### -param Options [in]
 
 Specifies the connection options to update.  The possible values are:
 <table>
@@ -144,9 +144,9 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
  
 

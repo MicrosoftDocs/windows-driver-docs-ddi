@@ -75,8 +75,9 @@ NTSTATUS SetDmaEngineState(
 
 
 
-### -param _context
+### -param _context [in]
 
+Specifies the context value from the <b>Context</b> member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
 
 ### -param StreamState
@@ -94,9 +95,14 @@ NTSTATUS SetDmaEngineState(
 
 
 
-#### - context [in]
+#### - handles [in]
 
-Specifies the context value from the <b>Context</b> member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
+Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
+
+
+#### - numberOfHandles [in]
+
+Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
 
 
 #### - streamState [in]
@@ -120,16 +126,6 @@ Specifies the new stream state. Set this parameter to one of the following HDAUD
 
 </li>
 </ul>In the current implementation, <b>PauseState</b> and <b>StopState</b> represent the same hardware state.
-
-
-#### - numberOfHandles [in]
-
-Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
-
-
-#### - handles [in]
-
-Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
 
 
 ## -returns
@@ -213,15 +209,15 @@ From a paused or stopped state, the stream state can change directly to either R
 
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
-
 <a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
 
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536720">IMiniportWaveCyclicStream::SetState</a>
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
  
 

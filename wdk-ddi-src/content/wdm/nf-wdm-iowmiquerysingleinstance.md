@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 742535da-4726-4320-88ec-f6752ad02fb3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIQuerySingleInstance, k104_ef4cfbd8-cca3-4ec0-99cd-3715c2ddf52f.xml, kernel.iowmiquerysingleinstance, wdm/IoWMIQuerySingleInstance, IoWMIQuerySingleInstance routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoWMIQuerySingleInstance, k104_ef4cfbd8-cca3-4ec0-99cd-3715c2ddf52f.xml, kernel.iowmiquerysingleinstance, IoWMIQuerySingleInstance routine [Kernel-Mode Driver Architecture], wdm/IoWMIQuerySingleInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS IoWMIQuerySingleInstance(
 
 
 
-#### - DataBlockObject [in]
+### -param DataBlockObject [in]
 
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_QUERY access right.
 
 
-#### - InstanceName [in]
+### -param InstanceName [in]
 
 Specifies the name of the instance of the data block. This value corresponds to the value of the <b>InstanceName</b> property for the block.
 
 
-#### - InOutBufferSize [in, out]
+### -param InOutBufferSize [in, out]
 
 Pointer to a memory location that specifies the size of the buffer passed in the <i>OutBuffer</i> parameter. If the routine succeeds, it updates the memory location to specify the number of bytes actually stored in <i>OutBuffer</i>. If the routine fails with status code of STATUS_BUFFER_TOO_SMALL, it returns the number of bytes required to return the data.
 
 
-#### - OutBuffer [out, optional]
+### -param OutBuffer [out, optional]
 
 Pointer to the buffer where the routine returns the WMI data. The routine returns a variable-sized <a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a> structure. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool.
 
@@ -159,13 +159,13 @@ To query for multiple WMI classes and instance names, use the <a href="..\wdm\nf
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
 
 <a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
 
-<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
  
 

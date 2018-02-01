@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequestCompletionParams interface, GetReadParameters method, GetReadParameters method, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, wdf.iwdfiorequestcompletionparams_getreadparameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams::GetReadParameters, GetReadParameters, umdf.iwdfiorequestcompletionparams_getreadparameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml
+ms.keywords: wdf.iwdfiorequestcompletionparams_getreadparameters, IWDFIoRequestCompletionParams, GetReadParameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, umdf.iwdfiorequestcompletionparams_getreadparameters, IWDFIoRequestCompletionParams::GetReadParameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, IWDFIoRequestCompletionParams interface, GetReadParameters method, GetReadParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,21 +72,21 @@ void  GetReadParameters(
 
 
 
-#### - ppReadMemory [out]
+### -param ppReadMemory [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the read buffer for the completion of the read request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-#### - pBytesRead [out]
+### -param pBytesRead [out]
 
 A pointer to a variable that receives the size, in bytes, of the read buffer for the completion of the read request.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-#### - pReadMemoryOffset [out]
+### -param pReadMemoryOffset [out]
 
 A pointer to a variable that receives the offset, in bytes, into the read buffer for the completion of the read request.
 

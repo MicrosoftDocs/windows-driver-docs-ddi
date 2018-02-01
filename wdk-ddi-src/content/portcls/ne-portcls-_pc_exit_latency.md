@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9D1DA7D6-4200-4B5A-9EA5-0455DF56D6D8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcExitLatencyFast, audio.pc_exit_latency, _PC_EXIT_LATENCY, portcls/PcExitLatencyInstant, PcExitLatencyFast, portcls/PcExitLatencyResponsive, *PPC_EXIT_LATENCY, PC_EXIT_LATENCY, PcExitLatencyInstant, portcls/PC_EXIT_LATENCY, PcExitLatencyResponsive, PC_EXIT_LATENCY enumeration [Audio Devices]
+ms.keywords: PcExitLatencyResponsive, portcls/PC_EXIT_LATENCY, audio.pc_exit_latency, *PPC_EXIT_LATENCY, PcExitLatencyFast, portcls/PcExitLatencyFast, PcExitLatencyInstant, portcls/PcExitLatencyResponsive, PC_EXIT_LATENCY enumeration [Audio Devices], _PC_EXIT_LATENCY, portcls/PcExitLatencyInstant, PC_EXIT_LATENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _PC_EXIT_LATENCY {
 
 
 
-#### - PcExitLatencyInstant
+### -field PcExitLatencyInstant
 
 Indicates a 0-millisecond latency. This means "Do not power down" and it  will only be sent when a device is in the D0 state.
 
 
-#### - PcExitLatencyFast
+### -field PcExitLatencyFast
 
 Indicates a 35-millisecond resume latency.
 
 
-#### - PcExitLatencyResponsive
+### -field PcExitLatencyResponsive
 
 Indicates a 300-millisecond resume latency.
 

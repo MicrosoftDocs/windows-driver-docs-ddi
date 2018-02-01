@@ -74,12 +74,12 @@ VOID EvtIoQueueState(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to an I/O queue object.
 
 
-#### - Context [in]
+### -param Context [in]
 
 Driver-defined context information that the driver specified when it registered the <i>EvtIoQueueState</i> callback function.
 
@@ -106,13 +106,13 @@ If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuereadynotify.md">WdfIoQueueReadyNotify</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e448ddfc-ae5a-4eb8-a39c-e46771278081
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_ERROR_INFOW, STI_ERROR_INFO, STI_ERROR_INFOW, *PSTI_ERROR_INFOW, PSTI_ERROR_INFO structure pointer [Imaging Devices], sti/PSTI_ERROR_INFO, *PSTI_ERROR_INFO, image.sti_error_info, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml, PSTI_ERROR_INFO, sti/STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices]"
+ms.keywords: PSTI_ERROR_INFO structure pointer [Imaging Devices], stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml, sti/PSTI_ERROR_INFO, *PSTI_ERROR_INFO, STI_ERROR_INFO, _ERROR_INFOW, STI_ERROR_INFO structure [Imaging Devices], image.sti_error_info, STI_ERROR_INFOW, sti/STI_ERROR_INFO, PSTI_ERROR_INFO, *PSTI_ERROR_INFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _ERROR_INFO {
 
 
 
-#### - dwSize
+### -field dwSize
 
 Caller-supplied size, in bytes, of the STI_ERROR_INFO structure.
 
 
-#### - dwGenericError
+### -field dwGenericError
 
 Win32 error code.
 
 
-#### - dwVendorError
+### -field dwVendorError
 
 Optional, vendor-specific error code.
 
 
-#### - szExtendedErrorText
+### -field szExtendedErrorText
 
 Optional character array containing a text string describing the error.
 

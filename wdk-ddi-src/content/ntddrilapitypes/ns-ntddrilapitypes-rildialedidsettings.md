@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e68ed118-76c7-44ff-a10f-dc64f1ce2d0e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILDIALEDIDSETTINGS, *LPRILDIALEDIDSETTINGS, netvista.rildialedidsettings, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], RILDIALEDIDSETTINGS
+ms.keywords: RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings, ntddrilapitypes/RILDIALEDIDSETTINGS, *LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILDIALEDIDSETTINGS {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwStatus
+### -field dwStatus
 
 
 
-#### - dwProvisioning
+### -field dwProvisioning
 
 

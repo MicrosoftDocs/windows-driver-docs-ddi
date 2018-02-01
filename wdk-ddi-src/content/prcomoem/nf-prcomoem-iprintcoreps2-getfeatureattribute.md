@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a87da8a-a495-4451-a6f3-1261efda09f3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, print.iprintcoreps2_getfeatureattribute, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml, GetFeatureAttribute method [Print Devices], IPrintCorePS2::GetFeatureAttribute, GetFeatureAttribute, prcomoem/IPrintCorePS2::GetFeatureAttribute
+ms.keywords: IPrintCorePS2, print.iprintcoreps2_getfeatureattribute, GetFeatureAttribute, GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2::GetFeatureAttribute, prcomoem/IPrintCorePS2::GetFeatureAttribute, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,42 +75,42 @@ HRESULT GetFeatureAttribute(
 
 
 
-#### - pdevobj [in]
+### -param pdevobj [in]
 
 Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-#### - pszFeatureKeyword [in]
+### -param pszFeatureKeyword [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single feature keyword to query for. This value can be obtained from a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>.
 
 
-#### - pszAttribute [in]
+### -param pszAttribute [in]
 
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported feature attribute names, as opposed to specifying a specific feature attribute name.
 
 
-#### - pdwDataType [out]
+### -param pdwDataType [out]
 
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
 
-#### - pbData [out]
+### -param pbData [out]
 
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
@@ -193,13 +193,13 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
 
  
 

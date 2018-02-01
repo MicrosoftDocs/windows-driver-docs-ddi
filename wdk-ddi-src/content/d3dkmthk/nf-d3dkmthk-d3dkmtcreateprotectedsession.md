@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f6967f07-564b-4730-9950-4703b541165b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession method [Display Devices], display.d3dkmtcreateprotectedsession
+ms.keywords: d3dkmthk/D3DKMTCreateProtectedSession, display.d3dkmtcreateprotectedsession, D3DKMTCreateProtectedSession method [Display Devices], D3DKMTCreateProtectedSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

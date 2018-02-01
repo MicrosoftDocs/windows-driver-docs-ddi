@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62516178-11F9-43F3-A70D-42C8FDDAE2DB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], netvista.wwan_get_visible_providers, wwan/PWWAN_GET_VISIBLE_PROVIDERS, *PWWAN_GET_VISIBLE_PROVIDERS, wwan/WWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS, WWAN_GET_VISIBLE_PROVIDERS
+ms.keywords: "_WWAN_GET_VISIBLE_PROVIDERS, wwan/WWAN_GET_VISIBLE_PROVIDERS, *PWWAN_GET_VISIBLE_PROVIDERS, netvista.wwan_get_visible_providers, PWWAN_GET_VISIBLE_PROVIDERS, WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_GET_VISIBLE_PROVIDERS, WWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _WWAN_GET_VISIBLE_PROVIDERS {
 
 
 
-#### - Action
+### -field Action
 
 Provides information about the type of visible providers to return. The following values are defined:
 <table></table> 

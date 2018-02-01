@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6EA01AE7-E5D5-4182-862D-2901185C2BF8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportaudioenginenode_getdeviceformat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetDeviceFormat, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method, GetDeviceFormat method [Audio Devices], GetDeviceFormat, portcls/IMiniportAudioEngineNode::GetDeviceFormat
+ms.keywords: GetDeviceFormat, portcls/IMiniportAudioEngineNode::GetDeviceFormat, audio.iminiportaudioenginenode_getdeviceformat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetDeviceFormat, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS GetDeviceFormat(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID of the device node.
 
 
-#### - pFormat [out]
+### -param pFormat [out]
 
 A structure of type  <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format for the device.
 
 
-#### - ulBufferSize [in]
+### -param ulBufferSize [in]
 
 The audio data buffer size.
 

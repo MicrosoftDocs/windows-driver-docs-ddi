@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5B7C4107-1724-473C-8F36-C345A056F3DC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldUndefined, netvista.ndis_ipv4_header_field, _NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldProtocol, NDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldMaximum, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldUndefined, ntddndis/NdisIPv4HeaderFieldMaximum, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldProtocol
+ms.keywords: NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_ipv4_header_field, ntddndis/NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldUndefined, NdisIPv4HeaderFieldUndefined, *PNDIS_IPV4_HEADER_FIELD, _NDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldProtocol, PNDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldMaximum, NDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldMaximum, ntddndis/NdisIPv4HeaderFieldProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _NDIS_IPV4_HEADER_FIELD {
 
 
 
-#### - NdisIPv4HeaderFieldUndefined
+### -field NdisIPv4HeaderFieldUndefined
 
 An undefined IPV4 header field.
 
 
-#### - NdisIPv4HeaderFieldProtocol
+### -field NdisIPv4HeaderFieldProtocol
 
 The IPv4 protocol field.
 
 
-#### - NdisIPv4HeaderFieldMaximum
+### -field NdisIPv4HeaderFieldMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -89,15 +89,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The <b>NDIS_IPV4_HEADER_FIELD</b> enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
 
  
 

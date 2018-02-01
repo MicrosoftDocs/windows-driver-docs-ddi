@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f2285bb-be70-4496-905d-89106bf3712a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_CO_CLIENT_OPTIONAL_HANDLERS, PNDIS_CO_CLIENT_OPTIONAL_HANDLERS, condis_structures_ref_63c453a1-6ad8-4d31-93ff-340dba8433db.xml, _NDIS_CO_CLIENT_OPTIONAL_HANDLERS, ndis/PNDIS_CO_CLIENT_OPTIONAL_HANDLERS, NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_CO_CLIENT_OPTIONAL_HANDLERS, PNDIS_CO_CLIENT_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_CO_CLIENT_OPTIONAL_HANDLERS, netvista.ndis_co_client_optional_handlers
+ms.keywords: ndis/NDIS_CO_CLIENT_OPTIONAL_HANDLERS, PNDIS_CO_CLIENT_OPTIONAL_HANDLERS, netvista.ndis_co_client_optional_handlers, condis_structures_ref_63c453a1-6ad8-4d31-93ff-340dba8433db.xml, PNDIS_CO_CLIENT_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_CO_CLIENT_OPTIONAL_HANDLERS, *PNDIS_CO_CLIENT_OPTIONAL_HANDLERS, _NDIS_CO_CLIENT_OPTIONAL_HANDLERS, NDIS_CO_CLIENT_OPTIONAL_HANDLERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -51,8 +51,8 @@ req.typenames: "*PNDIS_CO_CLIENT_OPTIONAL_HANDLERS, NDIS_CO_CLIENT_OPTIONAL_HAND
 
 The NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure specifies entry points for CoNDIS client 
   <i>ProtocolXxx</i> functions for the protocol driver that passes this structure to the 
-  <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-  NdisSetOptionalHandlers</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+  NdisSetOptionalHandlers</a> function.
 
 
 ## -syntax
@@ -90,7 +90,7 @@ typedef struct _NDIS_CO_CLIENT_OPTIONAL_HANDLERS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -102,148 +102,148 @@ The
      <b>Size</b> member to NDIS_SIZEOF_CO_CLIENT_OPTIONAL_HANDLERS_REVISION_1.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for NDIS.
 
 
-#### - ClCreateVcHandler
+### -field ClCreateVcHandler
 
 The entry point of the caller's 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - ClDeleteVcHandler
+### -field ClDeleteVcHandler
 
 The entry point of the caller's 
      <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function.
 
 
-#### - ClOidRequestHandler
+### -field ClOidRequestHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcooidrequest" tabindex="0"><i>
-     ProtocolCoOidRequest</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">
+     ProtocolCoOidRequest</a> function.
 
 
-#### - ClOidRequestCompleteHandler
-
-The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-     ProtocolCoOidRequestComplete</i></mshelp:link> function.
-
-
-#### - ClOpenAfCompleteHandlerEx
+### -field ClOidRequestCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclopenafcompleteex" tabindex="0"><i>
-     ProtocolClOpenAfCompleteEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+     ProtocolCoOidRequestComplete</a> function.
 
 
-#### - ClCloseAfCompleteHandler
-
-The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclcloseafcomplete" tabindex="0"><i>
-     ProtocolClCloseAfComplete</i></mshelp:link> function.
-
-
-#### - ClRegisterSapCompleteHandler
+### -field ClOpenAfCompleteHandlerEx
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclregistersapcomplete" tabindex="0"><i>
-     ProtocolClRegisterSapComplete</i></mshelp:link> function. A client uses this function to accept incoming calls from
+     <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+     ProtocolClOpenAfCompleteEx</a> function.
+
+
+### -field ClCloseAfCompleteHandler
+
+The entry point of the caller's 
+     <a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">
+     ProtocolClCloseAfComplete</a> function.
+
+
+### -field ClRegisterSapCompleteHandler
+
+The entry point of the caller's 
+     <a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+     ProtocolClRegisterSapComplete</a> function. A client uses this function to accept incoming calls from
      remote machines.
 
 
-#### - ClDeregisterSapCompleteHandler
+### -field ClDeregisterSapCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
-     ProtocolClDeregisterSapComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+     ProtocolClDeregisterSapComplete</a> function.
 
 
-#### - ClMakeCallCompleteHandler
+### -field ClMakeCallCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclmakecallcomplete" tabindex="0"><i>
-     ProtocolClMakeCallComplete</i></mshelp:link> function. A client uses this function to make outgoing calls to remote
+     <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">
+     ProtocolClMakeCallComplete</a> function. A client uses this function to make outgoing calls to remote
      machines.
 
 
-#### - ClModifyCallQoSCompleteHandler
+### -field ClModifyCallQoSCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
-     ProtocolClModifyCallQoSComplete</i></mshelp:link> function. A client uses this function to dynamically make changes
+     <a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+     ProtocolClModifyCallQoSComplete</a> function. A client uses this function to dynamically make changes
      in the quality of service (QoS) on an established virtual connection (VC) or to negotiate with the call
      manager to establish the QoS when the client sets up an incoming call.
 
 
-#### - ClCloseCallCompleteHandler
+### -field ClCloseCallCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclclosecallcomplete" tabindex="0"><i>
-     ProtocolClCloseCallComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">
+     ProtocolClCloseCallComplete</a> function.
 
 
-#### - ClAddPartyCompleteHandler
+### -field ClAddPartyCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcladdpartycomplete" tabindex="0"><i>
-     ProtocolClAddPartyComplete</i></mshelp:link> function. A client uses this function to establish point-to-multipoint
+     <a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">
+     ProtocolClAddPartyComplete</a> function. A client uses this function to establish point-to-multipoint
      VCs for outgoing calls to remote machines.
 
 
-#### - ClDropPartyCompleteHandler
+### -field ClDropPartyCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcldroppartycomplete" tabindex="0"><i>
-     ProtocolClDropPartyComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">
+     ProtocolClDropPartyComplete</a> function.
 
 
-#### - ClIncomingCallHandler
+### -field ClIncomingCallHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclincomingcall" tabindex="0"><i>
-     ProtocolClIncomingCall</i></mshelp:link> function. A client uses this function to accept incoming calls from remote
+     <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+     ProtocolClIncomingCall</a> function. A client uses this function to accept incoming calls from remote
      machines.
 
 
-#### - ClIncomingCallQoSChangeHandler
+### -field ClIncomingCallQoSChangeHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclincomingcallqoschange" tabindex="0"><i>
-     ProtocolClIncomingCallQoSChange</i></mshelp:link> function. A client uses this function to accept incoming calls
+     <a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
+     ProtocolClIncomingCallQoSChange</a> function. A client uses this function to accept incoming calls
      from remote machines on which the sending client can dynamically change the QoS.
 
 
-#### - ClIncomingCloseCallHandler
+### -field ClIncomingCloseCallHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclincomingclosecall" tabindex="0"><i>
-     ProtocolClIncomingCloseCall</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+     ProtocolClIncomingCloseCall</a> function.
 
 
-#### - ClIncomingDropPartyHandler
-
-The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
-     ProtocolClIncomingDropParty</i></mshelp:link> function.
-
-
-#### - ClCallConnectedHandler
+### -field ClIncomingDropPartyHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclcallconnected" tabindex="0"><i>
-     ProtocolClCallConnected</i></mshelp:link> function. A client uses this function to accept incoming calls from remote
+     <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+     ProtocolClIncomingDropParty</a> function.
+
+
+### -field ClCallConnectedHandler
+
+The entry point of the caller's 
+     <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">
+     ProtocolClCallConnected</a> function. A client uses this function to accept incoming calls from remote
      machines.
 
 
-#### - ClNotifyCloseAfHandler
+### -field ClNotifyCloseAfHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolclnotifycloseaf" tabindex="0"><i>
-     ProtocolClNotifyCloseAf</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">
+     ProtocolClNotifyCloseAf</a> function.
 
 
 ## -remarks
@@ -251,8 +251,8 @@ The entry point of the caller's
 
 To specify entry points as a CoNDIS client, a protocol driver initializes an
     NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure and passes it to the 
-    <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-    NdisSetOptionalHandlers</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+    NdisSetOptionalHandlers</a> function.
 
 The client calls 
     <b>NdisSetOptionalHandlers</b> from the 
@@ -268,54 +268,54 @@ The client calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<mshelp:link keywords="netvista.protocolclincomingcallqoschange" tabindex="0"><i>
-   ProtocolClIncomingCallQoSChange</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+   ProtocolClModifyCallQoSComplete</a>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
-
-<mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
-   ProtocolClModifyCallQoSComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-<mshelp:link keywords="netvista.protocolclregistersapcomplete" tabindex="0"><i>
-   ProtocolClRegisterSapComplete</i></mshelp:link>
-
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
+   ProtocolClIncomingCallQoSChange</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+   ProtocolClRegisterSapComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+   ProtocolClDeregisterSapComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
-<mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
-   ProtocolClDeregisterSapComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
  
 

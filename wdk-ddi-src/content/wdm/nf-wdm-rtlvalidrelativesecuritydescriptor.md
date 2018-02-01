@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1fb993f0-4289-4406-8a56-47b12c73f4e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], RtlValidRelativeSecurityDescriptor, k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml, wdm/RtlValidRelativeSecurityDescriptor, kernel.rtlvalidrelativesecuritydescriptor
+ms.keywords: kernel.rtlvalidrelativesecuritydescriptor, k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml, RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], wdm/RtlValidRelativeSecurityDescriptor, RtlValidRelativeSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ BOOLEAN RtlValidRelativeSecurityDescriptor(
 
 
 
-#### - SecurityDescriptorInput [in]
+### -param SecurityDescriptorInput [in]
 
 A pointer to the buffer that contains the security descriptor in self-relative format. The buffer must begin with a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure, which is followed by the rest of the security descriptor data.
 
 
-#### - SecurityDescriptorLength [in]
+### -param SecurityDescriptorLength [in]
 
 The size of the <i>SecurityDescriptorInput</i> structure. 
 
 
-#### - RequiredInformation [in]
+### -param RequiredInformation [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value that specifies the information that is required to be contained in the security descriptor. 
 
@@ -101,11 +101,11 @@ To check the validity of a security descriptor in absolute format, use <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
  
 

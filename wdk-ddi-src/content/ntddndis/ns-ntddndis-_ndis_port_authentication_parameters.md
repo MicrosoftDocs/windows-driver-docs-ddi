@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c411d9e-1064-4278-9870-0546891d4743
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS, *PNDIS_PORT_AUTHENTICATION_PARAMETERS, netvista.ndis_port_authentication_parameters, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml, PNDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PORT_AUTHENTICATION_PARAMETERS, netvista.ndis_port_authentication_parameters, ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS, *PNDIS_PORT_AUTHENTICATION_PARAMETERS, ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_PORT_AUTHENTICATION_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,18 +83,13 @@ The
      <b>Size</b> member to NDIS_SIZEOF_PORT_AUTHENTICATION_PARAMETERS_REVISION_1.
 
 
-#### - SendControlState
+### -field SendControlState
 
 The control state of the port that the miniport adapter should use for send operations. This
      member must contain one of the following values:
      
 
 
-
-
-#### NdisPortControlStateUnknown
-
-The port's control state for send operations is unknown.
 
 
 #### NdisPortControlStateControlled
@@ -109,18 +104,18 @@ The port is in an uncontrolled state for send operations. That is, the port does
        authorization.
 
 
-#### - RcvControlState
+#### NdisPortControlStateUnknown
+
+The port's control state for send operations is unknown.
+
+
+### -field RcvControlState
 
 The control state of the port that the miniport adapter should use for receive operations. This
      member must contain one of the following values:
      
 
 
-
-
-#### NdisPortControlStateUnknown
-
-The port's control state for receive operations is unknown.
 
 
 #### NdisPortControlStateControlled
@@ -135,7 +130,12 @@ The port is in an uncontrolled state for receive operations. That is, the port d
        authorization.
 
 
-#### - SendAuthorizationState
+#### NdisPortControlStateUnknown
+
+The port's control state for receive operations is unknown.
+
+
+### -field SendAuthorizationState
 
 The authorization state of the port that the miniport adapter should use for send operations.
      Ignore this member if the 
@@ -158,17 +158,17 @@ The port's authorization state for send operations is unknown.
 The port is authorized for send operations.
 
 
-#### NdisPortUnauthorized
-
-The port is not authorized for send operations.
-
-
 #### NdisPortReauthorizing
 
 The port is re-authorizing for send operations.
 
 
-#### - RcvAuthorizationState
+#### NdisPortUnauthorized
+
+The port is not authorized for send operations.
+
+
+### -field RcvAuthorizationState
 
 The authorization state of the port that the miniport adapter should use for receive operations.
      Ignore this member if the 
@@ -191,32 +191,32 @@ The port's authorization state for receive operations is unknown.
 The port is authorized for receive operations.
 
 
-#### NdisPortUnauthorized
-
-The port is not authorized for receive operations.
-
-
 #### NdisPortReauthorizing
 
 The port is re-authorizing for receive operations.
+
+
+#### NdisPortUnauthorized
+
+The port is not authorized for receive operations.
 
 
 ## -remarks
 
 
 The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in 
-    <mshelp:link keywords="netvista.oid_gen_port_authentication_parameters" tabindex="0">
-    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</mshelp:link> OID requests to specify the current authentication state of
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a> OID requests to specify the current authentication state of
     an NDIS port.
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
+   OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.oid_gen_port_authentication_parameters" tabindex="0">
-   OID_GEN_PORT_AUTHENTICATION_PARAMETERS</mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

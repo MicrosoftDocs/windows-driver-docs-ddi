@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F3F2DE77-9FC5-4AC1-B857-51B51557108E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, display.d3dkmt_composition_presenthistorytoken, d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
+ms.keywords: display.d3dkmt_composition_presenthistorytoken, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure [Display Devices], d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN {
 
 
 
-#### - hPrivateData
+### -field hPrivateData
 
 A driver-resident private data structure that identifies a composition swap chain present-history operation.
 

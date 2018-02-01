@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b8ccd6f0-d1bf-430f-bffb-dd161793096f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx11param_Structs_6d47bf5d-d3ef-4187-83a0-95d5c3c62413.xml, d3d10umddi/D3D10_2DDI_ADAPTERFUNCS, D3D10_2DDI_ADAPTERFUNCS structure [Display Devices], display.d3d10_2ddi_adapterfuncs, D3D10_2DDI_ADAPTERFUNCS
+ms.keywords: D3D10_2DDI_ADAPTERFUNCS structure [Display Devices], d3d10umddi/D3D10_2DDI_ADAPTERFUNCS, D3D10_2DDI_ADAPTERFUNCS, display.d3d10_2ddi_adapterfuncs, UMDisplayDriver_Dx11param_Structs_6d47bf5d-d3ef-4187-83a0-95d5c3c62413.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,46 +71,46 @@ typedef struct D3D10_2DDI_ADAPTERFUNCS {
 
 
 
-#### - pfnCalcPrivateDeviceSize
+### -field pfnCalcPrivateDeviceSize
 
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatedevicesize.md">CalcPrivateDeviceSize</a> function that specifies the size of a memory block that the user-mode display driver requires from the Microsoft Direct3D runtime to store frequently-accessed data.
 
 
-#### - pfnCreateDevice
+### -field pfnCreateDevice
 
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function that creates a representation of a display device that handles a collection of rendering state.
 
 
-#### - pfnCloseAdapter
+### -field pfnCloseAdapter
 
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_closeadapter.md">CloseAdapter(D3D10)</a> function that releases resources for a graphics adapter object.
 
 
-#### - pfnGetSupportedVersions
+### -field pfnGetSupportedVersions
 
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getsupportedversions.md">GetSupportedVersions</a> function that retrieves the version of the operating system that the driver supports and the hardware capabilities that are available (for example, Direct3D version 10.0, Direct3D version 10.1, and so on).
 
 
-#### - pfnGetCaps
+### -field pfnGetCaps
 
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a> function that queries for capabilities of the graphics hardware. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getsupportedversions.md">GetSupportedVersions</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_closeadapter.md">CloseAdapter(D3D10)</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_closeadapter.md">CloseAdapter(D3D10)</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getsupportedversions.md">GetSupportedVersions</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatedevicesize.md">CalcPrivateDeviceSize</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10</a>
 
  
 

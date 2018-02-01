@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_IsInterfaceVersionSupported routine [Buses], buses.usbd_isusbdinterfaceversionsupported, USBD_IsInterfaceVersionSupported, usbdlib/USBD_IsInterfaceVersionSupported
+ms.keywords: buses.usbd_isusbdinterfaceversionsupported, usbdlib/USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported routine [Buses], USBD_IsInterfaceVersionSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ BOOLEAN USBD_IsInterfaceVersionSupported(
 
 
 
-#### - USBDHandle [in]
+### -param USBDHandle [in]
 
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
 
-#### - USBDInterfaceVersion [in]
+### -param USBDInterfaceVersion [in]
 
 A 	LONG value that represents the USBD interface version to check against the USB driver stack. Possible values include  USBD_INTERFACE_VERSION_602 or USBD_INTERFACE_VERSION_600. For more information, see Remarks.
 

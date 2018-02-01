@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 877C6641-30F9-44BC-9286-3B1D880482C9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWUDF_WORKITEM_CONFIG, wudfworkitem/PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, *PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG structure pointer, wdf.wudf_workitem_config, umdf.wudf_workitem_config, wudfworkitem/WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG, _WUDF_WORKITEM_CONFIG
+ms.keywords: PWUDF_WORKITEM_CONFIG structure pointer, wudfworkitem/PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, umdf.wudf_workitem_config, wudfworkitem/WUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, _WUDF_WORKITEM_CONFIG, wdf.wudf_workitem_config, *PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,17 +74,17 @@ typedef struct _WUDF_WORKITEM_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - OnWorkItemFunc
+### -field OnWorkItemFunc
 
 The address of an <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function.
 
 
-#### - AutomaticSerialization
+### -field AutomaticSerialization
 
 A Boolean value that, if TRUE, indicates that the framework will synchronize execution of the <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function with callback functions from other objects that are underneath the work-item object's parent object. If FALSE, the framework does not synchronize execution of the <i>OnWorkItem</i> callback function.
 

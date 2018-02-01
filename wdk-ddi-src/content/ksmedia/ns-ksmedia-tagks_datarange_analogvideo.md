@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e89e9108-28a1-46ac-8694-047a656dcb74
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_DATARANGE_ANALOGVIDEO, vidcapstruct_43f72b11-2ac7-4b68-b595-c37022d956c7.xml, *PKS_DATARANGE_ANALOGVIDEO, tagKS_DATARANGE_ANALOGVIDEO, stream.ks_datarange_analogvideo, PKS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO structure [Streaming Media Devices], PKS_DATARANGE_ANALOGVIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO
+ms.keywords: "*PKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO structure pointer [Streaming Media Devices], tagKS_DATARANGE_ANALOGVIDEO, vidcapstruct_43f72b11-2ac7-4b68-b595-c37022d956c7.xml, ksmedia/PKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO, ksmedia/KS_DATARANGE_ANALOGVIDEO, stream.ks_datarange_analogvideo, KS_DATARANGE_ANALOGVIDEO structure [Streaming Media Devices], KS_DATARANGE_ANALOGVIDEO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct tagKS_DATARANGE_ANALOGVIDEO {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the major identifier for the format.
 
 
-#### - AnalogVideoInfo
+### -field AnalogVideoInfo
 
 Specifies the details of the analog video stream. 
 

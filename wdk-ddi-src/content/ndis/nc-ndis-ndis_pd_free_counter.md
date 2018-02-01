@@ -74,7 +74,7 @@ void NdisPDFreeCounter(
 
 
 
-#### - CounterHandle [in]
+### -param CounterHandle [in]
 
 A counter handle that the miniport driver allocated in its <a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a> function.
 

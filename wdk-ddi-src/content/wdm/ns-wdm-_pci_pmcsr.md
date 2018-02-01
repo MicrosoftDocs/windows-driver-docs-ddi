@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 5c4bf4c0-c36f-4779-a012-6364c94f37a1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_PMCSR structure [Buses], wdm/PPCI_PMCSR, PPCI_PMCSR, PCI_PMCSR, PCI.pci_pmcsr, _PCI_PMCSR, *PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], wdm/PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml
+ms.keywords: wdm/PPCI_PMCSR, _PCI_PMCSR, PCI_PMCSR structure [Buses], PCI_PMCSR, wdm/PCI_PMCSR, PPCI_PMCSR structure pointer [Buses], PPCI_PMCSR, *PPCI_PMCSR, PCI.pci_pmcsr, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _PCI_PMCSR {
 
 
 
-#### - PowerState
+### -field PowerState
 
 Indicates the power state of the device. This member can have the following values:
 <table>
@@ -126,7 +126,7 @@ Indicates that the device is in D3.
 For more information about the power state register, see the <i>PCI Power Management Specification</i>. 
 
 
-#### - Rsvd1
+### -field Rsvd1
 
 Reserved. 
 
@@ -141,22 +141,22 @@ Reserved.
  
 
 
-#### - PMEEnable
+### -field PMEEnable
 
 Indicates, when 1, that the device is enabled to assert the PME signal. When 0, the device is not enabled to assert the PME signal. For more information about the meaning of the PME Enable bit, see the <i>PCI Power Management Specification</i>. 
 
 
-#### - DataSelect
+### -field DataSelect
 
 Indicates which data is to be reported through the data register. For more information about the values that this member can hold, see the <i>PCI Power Management Specification</i>. 
 
 
-#### - DataScale
+### -field DataScale
 
 Indicates the scaling factor used to interpret the value of the data register. For more information about the values that this member can hold, see the <i>PCI Power Management Specification</i>. 
 
 
-#### - PMEStatus
+### -field PMEStatus
 
 Contains a one-bit value (either 0 or 1) that reports the value of the PMEStatus bit in the power management register. For more information about the values that this member can hold, see the <i>PCI Power Management Specification</i>. 
 

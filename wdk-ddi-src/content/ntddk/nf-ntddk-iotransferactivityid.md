@@ -68,12 +68,12 @@ void IoTransferActivityId(
 
 
 
-#### - ActivityId [in]
+### -param ActivityId [in]
 
 The source activity ID.
 
 
-#### - RelatedActivityId [in]
+### -param RelatedActivityId [in]
 
 The new activity ID to be transferred from the source activity ID.
 

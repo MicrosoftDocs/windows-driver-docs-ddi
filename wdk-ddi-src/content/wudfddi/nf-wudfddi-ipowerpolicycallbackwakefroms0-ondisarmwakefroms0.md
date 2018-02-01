@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04c1eecd-c87f-45c5-be7b-0fbd8e114594
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, IPowerPolicyCallbackWakeFromS0 interface, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0, wdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, UMDFDeviceObjectRef_f12fda31-6979-43bf-af04-e46814728ed4.xml
+ms.keywords: UMDFDeviceObjectRef_f12fda31-6979-43bf-af04-e46814728ed4.xml, IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, OnDisarmWakeFromS0, umdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, OnDisarmWakeFromS0 method, wdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, OnDisarmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, OnDisarmWakeFromS0 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void OnDisarmWakeFromS0(
 
 
 
-#### - pWdfDevice [in]
+### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
@@ -99,9 +99,9 @@ For more information about this callback function, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556817">IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0</a>
-
 <a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefroms0.md">IPowerPolicyCallbackWakeFromS0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556817">IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556822">IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8653fac0-8b2f-4e77-9588-2854ae168c1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml, FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], netvista.fwpsclassifyoptionset0, fwpsk/FwpsClassifyOptionSet0
+ms.keywords: FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml, netvista.fwpsclassifyoptionset0, fwpsk/FwpsClassifyOptionSet0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,14 +73,14 @@ NTSTATUS NTAPI FwpsClassifyOptionSet0(
 
 
 
-#### - inMetadataValues [in]
+### -param inMetadataValues [in]
 
 A pointer to an 
      <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer that is being filtered.
 
 
-#### - option [in]
+### -param option [in]
 
 An 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a> enumeration
@@ -89,7 +89,7 @@ An
      time-out values. For more information, see Remarks.
 
 
-#### - newValue [in]
+### -param newValue [in]
 
 A pointer to an array of 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structures. Each structure in the
@@ -127,8 +127,8 @@ The function completed successfully.
 <td width="60%">
 The 
        <i>option</i> parameter does not match any of the values in the 
-       <mshelp:link keywords="netvista.fwp_classify_option_type" tabindex="0"><b>
-       FWP_CLASSIFY_OPTION_TYPE</b></mshelp:link> enumeration.
+       <a href="https://msdn.microsoft.com/4731b03d-4c51-414b-a07d-0957b9a04db2">
+       FWP_CLASSIFY_OPTION_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -295,18 +295,18 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
-
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
 
  
 

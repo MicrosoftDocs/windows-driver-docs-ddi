@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IInterruptSync, audio.iinterruptsync_registerserviceroutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, portcls/IInterruptSync::RegisterServiceRoutine, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, RegisterServiceRoutine method [Audio Devices], IInterruptSync::RegisterServiceRoutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml
+ms.keywords: IInterruptSync::RegisterServiceRoutine, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, audio.iinterruptsync_registerserviceroutine, portcls/IInterruptSync::RegisterServiceRoutine, IInterruptSync, RegisterServiceRoutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS RegisterServiceRoutine(
 
 
 
-#### - Routine [in]
+### -param Routine [in]
 
 Pointer to the routine that is to be called. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>).
 
 
-#### - DynamicContext [in]
+### -param DynamicContext [in]
 
 Specifies a context value that is passed to the routine when it is called.
 
 
-#### - First [in]
+### -param First [in]
 
 Specifies whether the routine is added at the head or tail of the list of ISRs. If <b>TRUE</b>, the routine is added at the head of the list. If <b>FALSE</b>, it is added at the tail.
 

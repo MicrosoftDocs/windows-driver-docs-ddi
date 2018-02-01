@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, IPortEvents interface [Audio Devices], GenerateEventList method, GenerateEventList method [Audio Devices], IPortEvents interface, IPortEvents, portcls/IPortEvents::GenerateEventList, IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, GenerateEventList method [Audio Devices], GenerateEventList
+ms.keywords: IPortEvents::GenerateEventList, IPortEvents interface [Audio Devices], GenerateEventList method, GenerateEventList, GenerateEventList method [Audio Devices], IPortEvents interface, GenerateEventList method [Audio Devices], audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, IPortEvents, portcls/IPortEvents::GenerateEventList, audio.iportevents_generateeventlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ void GenerateEventList(
 
 
 
-#### - Set [in, optional]
+### -param Set [in, optional]
 
 Identifies the event set that the event belongs to. This parameter is a pointer to a GUID. <i>Set</i> is an optional parameter. A <i>Set</i> value of <b>NULL</b> is a wild card that matches all event-set GUIDs in the list. Otherwise, only event entries with matching event-set GUIDs are signaled.
 
 
-#### - EventId [in]
+### -param EventId [in]
 
 Specifies an event ID. This parameter specifies the index of the event in the event set. If an event set contains <i>n</i> events, valid event IDs are in the range 0 to <i>n</i>-1. Only event entries with matching event IDs are signaled.
 
 
-#### - PinEvent [in]
+### -param PinEvent [in]
 
 Specifies whether <i>PinId</i> should be used in qualifying which event entries to signal. If <i>PinEvent</i> is <b>FALSE</b>, <i>PinId</i> is treated as a wild card that matches all pin IDs in the list.
 
 
-#### - PinId [in]
+### -param PinId [in]
 
 Specifies the pin ID of the event to be signaled. If <i>PinEvent</i> is <b>TRUE</b>, then only event entries with matching pin IDs are signaled.
 
 
-#### - NodeEvent [in]
+### -param NodeEvent [in]
 
 Indicates whether <i>NodeId</i> should be used in qualifying which event entries to signal. If <i>NodeEvent</i> is <b>FALSE</b>, <i>NodeId</i> is treated as a wild card that matches all node IDs in the list.
 
 
-#### - NodeId [in]
+### -param NodeId [in]
 
 Specifies the node ID of the event to be signaled. If <i>NodeEvent</i> is <b>TRUE</b>, then only event entries with matching node IDs are signaled.
 

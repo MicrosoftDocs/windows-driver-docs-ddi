@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DebugCreateEx, debugger.debugcreateex, dbgeng/DebugCreateEx, DebugCreateEx function [Windows Debugging]
+ms.keywords: debugger.debugcreateex, DebugCreateEx function [Windows Debugging], DebugCreateEx, dbgeng/DebugCreateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ HRESULT DebugCreateEx(
 
 
 
-#### - InterfaceId [in]
+### -param InterfaceId [in]
 
 Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560088">Using Client Objects</a>.
 
 
-#### - DbgEngOptions [in]
+### -param DbgEngOptions [in]
 
 Supplies debugger option flags.
 
 
-#### - Interface [out]
+### -param Interface [out]
 
 Receives an interface pointer for the new client.  The type of this interface is specified by <i>InterfaceId</i>.
 
@@ -130,9 +130,9 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
 
  
 

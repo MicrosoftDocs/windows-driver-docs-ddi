@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 97a8822f-ed0c-43ae-8b4e-08642558773d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_getextendedattributes, HidP_GetExtendedAttributes routine [Human Input Devices], HidP_GetExtendedAttributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hidpi/HidP_GetExtendedAttributes
+ms.keywords: hid.hidp_getextendedattributes, HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices], hidpi/HidP_GetExtendedAttributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS __stdcall HidP_GetExtendedAttributes(
 
 
 
-#### - ReportType [in]
+### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report associated with the HID control specified by <i>DataIndex</i>.
 
 
-#### - DataIndex [in]
+### -param DataIndex [in]
 
 Specifies the <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data index</a> of the HID control.
 
 
-#### - PreparsedData [in]
+### -param PreparsedData [in]
 
 Specifies the <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a> for the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> that contains the specified control.
 
 
-#### - Attributes [out]
+### -param Attributes [out]
 
 Pointer to a caller-allocated buffer that the routine uses to return the extended attributes of the control specified by <i>DataIndex</i>.
 
 
-#### - LengthAttributes [in, out]
+### -param LengthAttributes [in, out]
 
 Specifies the size, in bytes, of the <i>Attributes</i> buffer (which must be greater than or equal to sizeof(HIDP_EXTENDED_ATTRIBUTES).
 

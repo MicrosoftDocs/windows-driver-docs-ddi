@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2ed2196f-a966-4766-9acd-f0beca20ed26
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_COMMAND_HEADER, PBTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER structure [Bluetooth Devices], bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml, bthioctl/BTH_COMMAND_HEADER, bltooth.bth_command_header, _BTH_COMMAND_HEADER, PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices]
+ms.keywords: BTH_COMMAND_HEADER structure [Bluetooth Devices], bthioctl/BTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER, _BTH_COMMAND_HEADER, bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml, PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices], PBTH_COMMAND_HEADER, bltooth.bth_command_header, BTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _BTH_COMMAND_HEADER {
 
 
 
-#### - OpCode
+### -field OpCode
 
 A USHORT value that specifies the operation code for the command.
 
 
-#### - TotalParameterLength
+### -field TotalParameterLength
 
 The size, in bytes, of the command payload, which is the data that follows the BTH_COMMAND_HEADER
      structure.
@@ -85,19 +85,19 @@ The size, in bytes, of the command payload, which is the data that follows the B
 
 The BTH_COMMAND_HEADER structure specifies header information in the 
     <b>HciHeader</b> member of the 
-    <mshelp:link keywords="bltooth.bth_vendor_specific_command" tabindex="0"><b>
-    BTH_VENDOR_SPECIFIC_COMMAND</b></mshelp:link> structure. It also provides the header information for the output of
+    <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">
+    BTH_VENDOR_SPECIFIC_COMMAND</a> structure. It also provides the header information for the output of
     the 
-    <mshelp:link keywords="bltooth.ioctl_bth_hci_vendor_command" tabindex="0"><b>
-    IOCTL_BTH_HCI_VENDOR_COMMAND</b></mshelp:link> IOCTL.
+    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">
+    IOCTL_BTH_HCI_VENDOR_COMMAND</a> IOCTL.
 
 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
+
+<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
 
  
 

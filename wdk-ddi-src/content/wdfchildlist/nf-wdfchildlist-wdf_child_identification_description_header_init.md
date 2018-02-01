@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c0d7abf-05e3-45fc-b5a4-db6f79a94a87
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, kmdf.wdf_child_identification_description_header_init, wdf.wdf_child_identification_description_header_init, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, DFDeviceObjectChildListRef_dbb576dd-7020-4c96-8f3a-568fd58f6cf5.xml
+ms.keywords: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, DFDeviceObjectChildListRef_dbb576dd-7020-4c96-8f3a-568fd58f6cf5.xml, wdf.wdf_child_identification_description_header_init, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function, kmdf.wdf_child_identification_description_header_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
 
 
 
-#### - Header [out]
+### -param Header [out]
 
 A pointer to a driver-allocated WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure.
 
 
-#### - IdentificationDescriptionSize [in]
+### -param IdentificationDescriptionSize [in]
 
 The size, in bytes, of a driver-defined structure that contains device identification information. For more information about specifying the size value, see <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>. 
 

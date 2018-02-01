@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInvokeAcpiMethod, storport/StorPortInvokeAcpiMethod, storage.storportinvokeacpimethod, StorPortInvokeAcpiMethod routine [Storage Devices]
+ms.keywords: storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices], StorPortInvokeAcpiMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ ULONG StorPortInvokeAcpiMethod(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Address [in, optional]
+### -param Address [in, optional]
 
 The address of the target device. This parameter is optional. If <i>Address</i> is set to <b>NULL</b>, the adapter is the target.
 
 
-#### - MethodName [in]
+### -param MethodName [in]
 
 A four-byte name for the ACPI method. For example, ((ULONG) 'DDS_') would name the _SDD, or 'Set Device Data',  ACPI method for an AHCI controller.
 
 
-#### - InputBuffer [in, optional]
+### -param InputBuffer [in, optional]
 
 A pointer to the input data to the method.
 
 
-#### - InputBufferLength [in]
+### -param InputBufferLength [in]
 
 The length, in bytes, of the buffer in <i>InputBuffer</i>.
 
 
-#### - OutputBuffer [in, optional]
+### -param OutputBuffer [in, optional]
 
 A pointer to the output data from the method.
 
 
-#### - OutputBufferLength [in]
+### -param OutputBufferLength [in]
 
 The length, in bytes, of the buffer in <i>OutputBuffer</i>.
 
 
-#### - BytesReturned [out, optional]
+### -param BytesReturned [out, optional]
 
 A pointer to the length, in bytes, of the data returned in <i>OutputBuffer</i>.
 

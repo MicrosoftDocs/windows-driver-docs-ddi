@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4eb909fe-7ba2-4208-b713-54252022a5cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml, *PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2
+ms.keywords: KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml, PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, *PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct tagKS_VIDEOINFOHEADER2 {
 
 
 
-#### - dwControlFlags
+### -field dwControlFlags
 
 In operating systems prior to Windows Vista, this member was named <b>dwReserved1</b> and was required to be zero. In Windows Vista, <b>dwReserved1</b> was combined in a union with a new member named <b>dwControlFlags</b>. If used, <b>dwControlFlags</b> contains a bitwise OR of the flags in the following table.
 <table>
@@ -140,37 +140,37 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of th
 See the Remarks section later in this topic for more information about <b>dwControlFlags</b>.
 
 
-#### - dwReserved1
+### -field dwReserved1
 
 This member is for backward compatibility. See <b>dwControlFlags </b>for more information.
 
 
-#### - rcSource
+### -field rcSource
 
 Specifies a clipping rectangle that selects the portion of the active video signal to use. 
 
 
-#### - rcTarget
+### -field rcTarget
 
 Specifies a rectangle that indicates what part of the target buffer to use.
 
 
-#### - dwBitRate
+### -field dwBitRate
 
 Specifies a value that indicates the video stream's appropriate data rate, in bits per second.
 
 
-#### - dwBitErrorRate
+### -field dwBitErrorRate
 
 Specifies a value that indicates the video stream's data error rate, in bit errors per second.
 
 
-#### - AvgTimePerFrame
+### -field AvgTimePerFrame
 
 Specifies the average time per frame, in 100-nanosecond units.
 
 
-#### - dwInterlaceFlags
+### -field dwInterlaceFlags
 
 Specifies interlace information. Undefined flags must be set to zero, or the connection may be rejected. This member can be set to one or more (logical OR) values that are defined in <i>ksmedia.h</i>:
 <table>
@@ -311,27 +311,27 @@ Invalid for video capture.
 </table> 
 
 
-#### - dwCopyProtectFlags
+### -field dwCopyProtectFlags
 
 Specifies a KSCOPYPROTECTRestrictDuplication value (0x00000001) to indicate if duplication of a stream should be restricted. If undefined, specify zero or the connection will be rejected.
 
 
-#### - dwPictAspectRatioX
+### -field dwPictAspectRatioX
 
 Specifies the <i>x</i> dimension of the picture-aspect ratio (for example, 16 for a 16 × 9 display). The value is expressed in inches-by-inches, not pixels-by-pixels.
 
 
-#### - dwPictAspectRatioY
+### -field dwPictAspectRatioY
 
 Specifies the <i>y</i> dimension of the picture aspect ratio (for example, 9 for 16 × 9 display). The value is expressed in inches-by-inches, not pixels-by-pixels.
 
 
-#### - dwReserved2
+### -field dwReserved2
 
 Reserved for system use. Must be set to zero or the connection will be rejected.
 
 
-#### - bmiHeader
+### -field bmiHeader
 
 Indicates a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
 
@@ -357,9 +357,9 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> memb
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagks_datarange_video2.md">KS_DATARANGE_VIDEO2</a>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 

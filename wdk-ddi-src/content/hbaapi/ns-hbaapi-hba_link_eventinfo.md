@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: be682bc7-61cb-40bd-920d-bc2224d6e426
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_LINK_EVENTINFO structure [Storage Devices], hbaapi/HBA_Link_EventInfo, storage.hba_link_eventinfo, HBA_Link_EventInfo, PHBA_LINK_EVENTINFO structure pointer [Storage Devices], HBA_LINK_EVENTINFO, hbaapi/PHBA_LINK_EVENTINFO, *PHBA_LINK_EVENTINFO, structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml, HBA_Link_EventInfo structure [Storage Devices], PHBA_LINK_EVENTINFO
+ms.keywords: hbaapi/PHBA_LINK_EVENTINFO, storage.hba_link_eventinfo, PHBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO, HBA_Link_EventInfo structure [Storage Devices], hbaapi/HBA_Link_EventInfo, structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml, PHBA_LINK_EVENTINFO structure pointer [Storage Devices], HBA_Link_EventInfo, *PHBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct HBA_Link_EventInfo {
 
 
 
-#### - PortFcId
+### -field PortFcId
 
 Indicates the port of type Nx_Port through which the event occurred. For a definition of Nx_Port, see the T11 committee's <i>Fibre Channel HBA API</i>.specification.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
+
+<a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a>
 
 <a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
 

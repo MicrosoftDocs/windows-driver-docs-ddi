@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storport/StorPortRegistryRead, storage.storportregistryread, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
+ms.keywords: storage.storportregistryread, StorPortRegistryRead routine [Storage Devices], storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml, storport/StorPortRegistryRead, StorPortRegistryRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ BOOLEAN StorPortRegistryRead(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
-#### - ValueName
+### -param ValueName
 
 Pointer to a UCHAR that specifies the registry value name whose content is to be read. 
 
 
-#### - Global
+### -param Global
 
 Indicates, when nonzero, that the port driver reads the contents of the registry value specified by <i>ValueName</i> under the Parameters\Device subkey. The values under the Device key apply to all adapters in the system. When <i>Global</i> is zero, the port driver reads the contents of the registry value specified by <i>ValueName</i> under the Parameters\Device(d) subkey, where (d) is a decimal value that corresponds to the port number of a particular adapter. In this case, the data retrieved is adapter-specific. 
 
 
-#### - Type
+### -param Type
 
 Indicates the data type of registry value. This parameter must have one of the values in the following table.
 <table>
@@ -242,12 +242,12 @@ Indicates that the registry value contains a 64-bit number. This is the same dat
 </table> 
 
 
-#### - Buffer
+### -param Buffer
 
 Pointer to the buffer where the retrieved registry information is to be reported. 
 
 
-#### - BufferLength
+### -param BufferLength
 
 Pointer to a ULONG that contains the size, in bytes, of the registry data returned. 
 

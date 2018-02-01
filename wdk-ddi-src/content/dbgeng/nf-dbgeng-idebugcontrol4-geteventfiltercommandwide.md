@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a565627a-4a70-4255-9a88-c39a3db11d25
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, debugger.geteventfiltercommandwide, GetEventFilterCommandWide, dbgeng/IDebugControl4::GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], IDebugControl4::GetEventFilterCommandWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventFilterCommandWide method
+ms.keywords: debugger.geteventfiltercommandwide, GetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetEventFilterCommandWide method, dbgeng/IDebugControl4::GetEventFilterCommandWide, GetEventFilterCommandWide, IDebugControl4::GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetEventFilterCommandWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the event filter.  <i>Index</i> can take any value between zero and one less than the total number of event filters returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547899">GetNumberEventFilters</a> (inclusive).  For more information about the index of the filters, see Index and Exception Code.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the debugger command that the engine will execute when the event occurs.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-#### - CommandSize [out, optional]
+### -param CommandSize [out, optional]
 
 Receives the size in characters of the command.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -123,13 +123,13 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
-
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
 
  
 

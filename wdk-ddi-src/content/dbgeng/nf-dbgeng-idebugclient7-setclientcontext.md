@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient7 interface [Windows Debugging], SetClientContext method, dbgeng/IDebugClient7::SetClientContext, IDebugClient7, SetClientContext method [Windows Debugging], IDebugClient7 interface, SetClientContext method [Windows Debugging], IDebugClient7::SetClientContext, SetClientContext, debugger.idebugclient7_setclientcontext
+ms.keywords: IDebugClient7 interface [Windows Debugging], SetClientContext method, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext, SetClientContext method [Windows Debugging], IDebugClient7 interface, SetClientContext method [Windows Debugging], IDebugClient7::SetClientContext, IDebugClient7, SetClientContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SetClientContext(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 The <b>SetClientContext</b> method is reserved for internal use.
 
 
-#### - ContextSize [in]
+### -param ContextSize [in]
 
 The <b>SetClientContext</b> method is reserved for internal use.
 

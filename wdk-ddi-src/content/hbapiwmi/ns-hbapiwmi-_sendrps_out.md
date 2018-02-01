@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SendRPS_OUT, _SendRPS_OUT, hbapiwmi/SendRPS_OUT, SendRPS_OUT structure [Storage Devices], *PSendRPS_OUT, storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml
+ms.keywords: SendRPS_OUT, *PSendRPS_OUT, hbapiwmi/SendRPS_OUT, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml, _SendRPS_OUT, SendRPS_OUT structure [Storage Devices], storage.sendrps_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ struct SendRPS_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-#### - TotalRspBufferSize
+### -field TotalRspBufferSize
 
 Contains the size in bytes of the results of the RPS command. 
 
 
-#### - ActualRspBufferSize
+### -field ActualRspBufferSize
 
 Contains the size in bytes of the data that was actually retrieved. 
 
 
-#### - RspBuffer
+### -field RspBuffer
 
 Contains the results of the RPS command. 
 

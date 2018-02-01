@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation, KeQueryDpcWatchdogInformation, wdm/KeQueryDpcWatchdogInformation
+ms.keywords: KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], wdm/KeQueryDpcWatchdogInformation, k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, KeQueryDpcWatchdogInformation, kernel.kequerydpcwatchdoginformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KeQueryDpcWatchdogInformation(
 
 
 
-#### - WatchdogInformation [out]
+### -param WatchdogInformation [out]
 
 A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_kdpc_watchdog_information.md">KDPC_WATCHDOG_INFORMATION</a> structure. The routine writes the current DPC watchdog timer values to this structure.
 

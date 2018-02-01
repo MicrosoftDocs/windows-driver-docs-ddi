@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: E87C7AA7-A48A-4569-ADD5-9DC143F919B6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: FILE_BYTE_ALIGNMENT, FILE_LONG_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure [Audio Devices], FILE_WORD_ALIGNMENT, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_32_BYTE_ALIGNMENT, FILE_OCTA_ALIGNMENT, FILE_128_BYTE_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_QUAD_ALIGNMENT, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_512_BYTE_ALIGNMENT, PKSAUDIO_PACKETSIZE_CONSTRAINTS2, _KSAUDIO_PACKETSIZE_CONSTRAINTS2, KSAUDIO_PACKETSIZE_CONSTRAINTS2, PKSAUDIO_PACKETSIZE_CONSTRAINTS2 structure pointer [Audio Devices], audio.ksaudio_packetsize_constraints2
+ms.keywords: ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS2, KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure [Audio Devices], FILE_QUAD_ALIGNMENT, FILE_128_BYTE_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_WORD_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, FILE_32_BYTE_ALIGNMENT, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_OCTA_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_LONG_ALIGNMENT, _KSAUDIO_PACKETSIZE_CONSTRAINTS2, PKSAUDIO_PACKETSIZE_CONSTRAINTS2, PKSAUDIO_PACKETSIZE_CONSTRAINTS2 structure pointer [Audio Devices], FILE_512_BYTE_ALIGNMENT, audio.ksaudio_packetsize_constraints2, FILE_BYTE_ALIGNMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,43 +72,15 @@ typedef struct _KSAUDIO_PACKETSIZE_CONSTRAINTS2 {
 
 
 
-#### - MinPacketPeriodInHns
+### -field MinPacketPeriodInHns
 
 The absolute minimum processing period supported by the driver expressed in hundred-nanosecond (HNS) units. This value can be 0 if the driver has no specific minimum processing period.
 
 
-#### - PacketSizeFileAlignment
+### -field PacketSizeFileAlignment
 
 The byte size alignment requirement. Use one of these defined file alignment values:
 <a id="FILE_BYTE_ALIGNMENT"></a><a id="file_byte_alignment"></a>
-
-#### FILE_BYTE_ALIGNMENT
-
-<a id="FILE_WORD_ALIGNMENT"></a><a id="file_word_alignment"></a>
-
-#### FILE_WORD_ALIGNMENT
-
-<a id="FILE_LONG_ALIGNMENT"></a><a id="file_long_alignment"></a>
-
-#### FILE_LONG_ALIGNMENT
-
-<a id="FILE_QUAD_ALIGNMENT"></a><a id="file_quad_alignment"></a>
-
-#### FILE_QUAD_ALIGNMENT
-
-<a id="FILE_OCTA_ALIGNMENT"></a><a id="file_octa_alignment"></a>
-
-#### FILE_OCTA_ALIGNMENT
-
-<a id="FILE_32_BYTE_ALIGNMENT"></a><a id="file_32_byte_alignment"></a>
-
-#### FILE_32_BYTE_ALIGNMENT
-
-<a id="FILE_64_BYTE_ALIGNMENT"></a><a id="file_64_byte_alignment"></a>
-
-#### FILE_64_BYTE_ALIGNMENT
-
-<a id="FILE_128_BYTE_ALIGNMENT"></a><a id="file_128_byte_alignment"></a>
 
 #### FILE_128_BYTE_ALIGNMENT
 
@@ -118,22 +90,50 @@ The byte size alignment requirement. Use one of these defined file alignment val
 
 <a id="FILE_512_BYTE_ALIGNMENT"></a><a id="file_512_byte_alignment"></a>
 
+#### FILE_32_BYTE_ALIGNMENT
+
+<a id="FILE_64_BYTE_ALIGNMENT"></a><a id="file_64_byte_alignment"></a>
+
 #### FILE_512_BYTE_ALIGNMENT
 
 
 
-#### - MaxPacketSizeInBytes
+#### FILE_64_BYTE_ALIGNMENT
+
+<a id="FILE_128_BYTE_ALIGNMENT"></a><a id="file_128_byte_alignment"></a>
+
+#### FILE_BYTE_ALIGNMENT
+
+<a id="FILE_WORD_ALIGNMENT"></a><a id="file_word_alignment"></a>
+
+#### FILE_LONG_ALIGNMENT
+
+<a id="FILE_QUAD_ALIGNMENT"></a><a id="file_quad_alignment"></a>
+
+#### FILE_OCTA_ALIGNMENT
+
+<a id="FILE_32_BYTE_ALIGNMENT"></a><a id="file_32_byte_alignment"></a>
+
+#### FILE_QUAD_ALIGNMENT
+
+<a id="FILE_OCTA_ALIGNMENT"></a><a id="file_octa_alignment"></a>
+
+#### FILE_WORD_ALIGNMENT
+
+<a id="FILE_LONG_ALIGNMENT"></a><a id="file_long_alignment"></a>
+
+### -field MaxPacketSizeInBytes
 
 The absolute maximum packet size supported by the driver in bytes. This can be zero if the driver has no specific maximum packet size. This size should at least be large enough to support 10 ms buffer of any format supported by the pin. This size should also be greater or equal to MinPacketSize constraints. 
 
 
 
-#### - NumProcessingModeConstraints
+### -field NumProcessingModeConstraints
 
 The number of additional constraints for specific processing modes. This value can be 0.
 
 
-#### - ProcessingModeConstraints
+### -field ProcessingModeConstraints
 
 An array of 0 or more processing mode constraints. 
 

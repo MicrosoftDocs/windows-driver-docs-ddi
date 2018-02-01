@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b3d3c5d-c34c-4ed8-bf62-1d885442ee1e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/GetPresharedKeyForId_IN, iscsiop/PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN, _GetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, *PGetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], GetPresharedKeyForId_IN structure [Storage Devices], structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml, PGetPresharedKeyForId_IN
+ms.keywords: structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml, iscsiop/GetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN, _GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, PGetPresharedKeyForId_IN structure pointer [Storage Devices], GetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices], iscsiop/PGetPresharedKeyForId_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _GetPresharedKeyForId_IN {
 
 
 
-#### - PortNumber
+### -field PortNumber
 
 The number of the port that the connection was made through. A value of -1 indicates that the connection can be made through any available port.
 
 
-#### - IdType
+### -field IdType
 
 The type of identifier that the initiator puts in the Internet Key Exchange (IKE) identification payload to identify itself to the target. 
 <table>
@@ -126,12 +126,12 @@ The initiator identifies itself to the target during the key exchange with a sin
 </table> 
 
 
-#### - IdSize
+### -field IdSize
 
 The size, in bytes, of the identifier in <b>Id</b><i>.</i>
 
 
-#### - Id
+### -field Id
 
 The identifier that the initiator uses to identify itself to the target during key exchange. 
 

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 7516B493-F86E-44C5-ABCD-450B6F66AA15
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PNP_SERIAL_BUS_DESCRIPTOR, reshub/PPNP_SERIAL_BUS_DESCRIPTOR, _PNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], *PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses], reshub/PNP_SERIAL_BUS_DESCRIPTOR, SPB.pnp_serial_bus_descriptor
+ms.keywords: "_PNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses], PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], reshub/PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR, *PPNP_SERIAL_BUS_DESCRIPTOR, SPB.pnp_serial_bus_descriptor, reshub/PNP_SERIAL_BUS_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _PNP_SERIAL_BUS_DESCRIPTOR {
 
 
 
-#### - Tag
+### -field Tag
 
 The serial bus type. This member is set to 0x8e for a serial bus (I2C, SPI, or UART) connection. For more information, see the description of the serial bus connection descriptor in revision 5.0 of the the Advanced Configuration and Power Interface Specification (ACPI 5.0) at the <a href="http://www.acpi.info">ACPI</a> website.
 
 
-#### - Length
+### -field Length
 
 The length, in bytes, of the serial bus connection descriptor. To be consistent with the ACPI 5.0 specification, the byte count in the <b>Length</b> member of the <b>PNP_SERIAL_BUS_DESCRIPTOR</b> structure equals the structure size, minus the three bytes in the <b>Tag</b> and <b>Length</b> members at the start of the structure, plus the number of bytes of bus-type-specific data and Resource Source string that follow the structure. The Resource Source string, which is a required field, has a minimum size of two bytes (for a one-character Resource Source name and a terminating null). Thus, the minimum valid <b>Length</b> value is 11. For more information, see the ACPI 5.0 specification.
 
 
-#### - RevisionId
+### -field RevisionId
 
 The revision ID of the serial bus connection descriptor. This member is set to the SERIAL_BUS_DESCRIPTOR_REVISION constant, which is defined in the Reshub.h header file.
 
 
-#### - ResourceSourceIndex
+### -field ResourceSourceIndex
 
 Reserved for future use. This member is unused and set to zero.
 
 
-#### - SerialBusType
+### -field SerialBusType
 
 The serial bus type. This member is set to 1 (for I2C), 2 (for SPI), or 3 (for UART). Other values are either reserved for future use, or are defined by the hardware vendor. For more information, see the ACPI 5.0 specification.
 
 
-#### - GeneralFlags
+### -field GeneralFlags
 
 Flags that are common to all serial bus types. Bit 0 is the slave-mode flag. If this bit is set to 1, the communication of this connection is initiated by the bus controller; otherwise, the communication is initiated by the target device. Bit 1 is the consumer/producer flag, and is always set to 1. No other flag bits are currently defined. For more information, see the ACPI 5.0 specification.
 
 
-#### - TypeSpecificFlags
+### -field TypeSpecificFlags
 
 Flags that are specific to the serial bus type. For an I2C bus, bit 0 is set if the connection uses 10-bit addresses; otherwise, the connection uses 7-bit addresses. No other flag bits are currently defined for I2C. For more information, see the ACPI 5.0 specification.
 
 
-#### - TypeSpecificRevisionId
+### -field TypeSpecificRevisionId
 
 The revision ID of the variant of this structure that is used for the serial bus type (I2C, SPI, and UART) that is specified by the <b>Tag</b> member. Each serial bus type extends the <b>PNP_SERIAL_BUS_DESCRIPTOR</b> structure by adding fields that are specific to the bus type. For more information, see the ACPI 5.0 specification.
 
 
-#### - TypeDataLength
+### -field TypeDataLength
 
 The length, in bytes, of the bus-type-specific data that follows the <b>PNP_SERIAL_BUS_DESCRIPTOR</b> structure. This length value includes the data between the end of the <b>TypeDataLength</b> member and the start of the Resource Source string, but does not include the Resource Source string. For more information, see the ACPI 5.0 specification.
 

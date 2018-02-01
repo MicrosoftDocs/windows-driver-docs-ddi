@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5b46e7d9-fbb0-4e55-b1f5-d9d0f1dd1f2c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_c_1b3b2976-9298-4d7d-a3d7-b0c8d303d29a.xml, KEY_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.key_name_information, ntddk/PKEY_NAME_INFORMATION, ntddk/KEY_NAME_INFORMATION, *PKEY_NAME_INFORMATION, PKEY_NAME_INFORMATION, KEY_NAME_INFORMATION, PKEY_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_NAME_INFORMATION
+ms.keywords: "_KEY_NAME_INFORMATION, KEY_NAME_INFORMATION, PKEY_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PKEY_NAME_INFORMATION, ntddk/PKEY_NAME_INFORMATION, kstruct_c_1b3b2976-9298-4d7d-a3d7-b0c8d303d29a.xml, kernel.key_name_information, KEY_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], ntddk/KEY_NAME_INFORMATION, *PKEY_NAME_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _KEY_NAME_INFORMATION {
 
 
 
-#### - NameLength
+### -field NameLength
 
 The size, in bytes, of the key name string in the <b>Name</b> array.
 
 
-#### - Name
+### -field Name
 
 An array of wide characters that contains the name of the key. This character string is <u>not</u> null-terminated. Only the first element in this array is included in the <b>KEY_NAME_INFORMATION</b> structure definition. The storage for the remaining elements in the array immediately follows this element.
 
@@ -87,17 +87,17 @@ The <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routine uses the <b>KEY
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
-
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
 
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
  
 

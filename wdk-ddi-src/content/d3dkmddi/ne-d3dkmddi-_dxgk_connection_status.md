@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ConnectionStatusUninitialized, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/LinkConfigurationSucceeded, DXGK_CONNECTION_STATUS enumeration [Display Devices], d3dkmddi/LinkConfigurationFailed, d3dkmddi/TargetStatusJoined, d3dkmddi/LinkConfigurationStarted, d3dkmddi/MonitorStatusConnected, MonitorStatusConnected, display.dxgk_connection_status, MonitorStatusUnknown, LinkConfigurationFailed, d3dkmddi/TargetStatusConnected, d3dkmddi/TargetStatusDisconnected, TargetStatusJoined, d3dkmddi/ConnectionStatusUninitialized, MonitorStatusDisconnected, LinkConfigurationStarted, d3dkmddi/MonitorStatusUnknown, d3dkmddi/MonitorStatusDisconnected, LinkConfigurationSucceeded, _DXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS, TargetStatusConnected, *PDXGK_CONNECTION_STATUS, TargetStatusDisconnected
+ms.keywords: MonitorStatusConnected, TargetStatusDisconnected, d3dkmddi/TargetStatusConnected, d3dkmddi/TargetStatusJoined, _DXGK_CONNECTION_STATUS, d3dkmddi/MonitorStatusConnected, d3dkmddi/TargetStatusDisconnected, d3dkmddi/DXGK_CONNECTION_STATUS, display.dxgk_connection_status, LinkConfigurationSucceeded, LinkConfigurationStarted, d3dkmddi/LinkConfigurationStarted, ConnectionStatusUninitialized, d3dkmddi/MonitorStatusDisconnected, MonitorStatusDisconnected, d3dkmddi/ConnectionStatusUninitialized, TargetStatusJoined, d3dkmddi/MonitorStatusUnknown, d3dkmddi/LinkConfigurationSucceeded, *PDXGK_CONNECTION_STATUS, MonitorStatusUnknown, LinkConfigurationFailed, d3dkmddi/LinkConfigurationFailed, DXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS enumeration [Display Devices], TargetStatusConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,42 +76,42 @@ typedef enum _DXGK_CONNECTION_STATUS {
 
 
 
-#### - ConnectionStatusUninitialized
+### -field ConnectionStatusUninitialized
 
 Indicates that a variable of type DXGK_CONNECTION_STATUS has not yet been assigned a meaningful value.
 
 
-#### - TargetStatusDisconnected
+### -field TargetStatusDisconnected
 
 Indicates that a target has been disconnected.  This implies that any other targets or monitors which are connected via this target have also been removed.  The implied removals do not need to be reported to the OS separately as the OS will comprehend that they have also been removed.  For joined targets, even though each constituent target must be reported, the disconnect is identified by the target which has gone away so only one report is required.
 
 
-#### - TargetStatusConnected
+### -field TargetStatusConnected
 
 Indicates that a new target has been detected.  The new target is downstream, a child, of the original target.  The new target Id must be unique.
 
 
-#### - TargetStatusJoined
+### -field TargetStatusJoined
 
 Indicates that a new target has been detected and that multiple targets are being joined together to form this new target.  Each target being joined together must be indicated to the OS with a DXGK_CONNECTION_CHANGE and all target join indications for a new target must be indicated within a single batch.
 
 
-#### - MonitorStatusDisconnected
+### -field MonitorStatusDisconnected
 
 Indicates that the monitor has been disconnected.
 
 
-#### - MonitorStatusUnknown
+### -field MonitorStatusUnknown
 
 Indicates that the driver cannot detect if a monitor is connected to the target and that the driver can support sending a valid timing to the target.  This is only valid for analog targets.
 
 
-#### - MonitorStatusConnected
+### -field MonitorStatusConnected
 
 Indicates that a monitor has been detected.
 
 
-#### - LinkConfigurationStarted
+### -field LinkConfigurationStarted
 
 Indicates that link configuration  is occurring on the specified target.  
 
@@ -120,12 +120,12 @@ If the target was enabled, then scan-out of pixels has stopped and any pending v
 If the target was not enabled, then there is no impact on this target.  Any targets daisy-chained downstream from the specified target need to be notified to the OS as in configuration separately. Although the OS comprehends daisy-chaining, configuration is link generic so the OS does not attempt to infer the link configuration status of downstream devices.
 
 
-#### - LinkConfigurationFailed
+### -field LinkConfigurationFailed
 
 Indicates that link configuration has failed so the OS will need to retry SetTimingsFromVidPn after re-enumerating co-functional timings in order to find out the timings available based on the now completed configuration.
 
 
-#### - LinkConfigurationSucceeded
+### -field LinkConfigurationSucceeded
 
 Indicates that link configuration has completed successfully and that the requested display timing is active.
 

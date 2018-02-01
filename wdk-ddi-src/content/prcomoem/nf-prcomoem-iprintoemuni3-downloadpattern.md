@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7604a6df-c73a-4114-916f-1e777a323731
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemuni3_downloadpattern, IPrintOemUni3, DownloadPattern, IPrintOemUni3 interface [Print Devices], DownloadPattern method, prcomoem/IPrintOemUni3::DownloadPattern, IPrintOemUni3::DownloadPattern, DownloadPattern method [Print Devices], print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, DownloadPattern method [Print Devices], IPrintOemUni3 interface
+ms.keywords: prcomoem/IPrintOemUni3::DownloadPattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, print.iprintoemuni3_downloadpattern, DownloadPattern method [Print Devices], IPrintOemUni3, DownloadPattern, DownloadPattern method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices], DownloadPattern method, IPrintOemUni3::DownloadPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT DownloadPattern(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 A pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - psoPattern
+### -param psoPattern
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that contains the pattern to download.
 
 
-#### - lPatternID
+### -param lPatternID
 
 The ID of the pattern to download.
 

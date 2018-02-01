@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 29ed998c-d833-496f-a728-0eef2cd49ae6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.whea_error_record, _WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml, ntddk/PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], *PWHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications]
+ms.keywords: whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml, *PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD, whea.whea_error_record, PWHEA_ERROR_RECORD, _WHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], ntddk/PWHEA_ERROR_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _WHEA_ERROR_RECORD {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> structure that describes general information about the hardware error condition.
 
 
-#### - SectionDescriptor
+### -field SectionDescriptor
 
 A variable sized array of <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe each of the sections of error information that are contained in the error record. The number of structures in the array is specified by the <b>Header.SectionCount</b> member of the WHEA_ERROR_RECORD structure.
 

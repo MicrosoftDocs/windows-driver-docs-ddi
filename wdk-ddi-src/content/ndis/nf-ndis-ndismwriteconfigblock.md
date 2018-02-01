@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMWriteConfigBlock, NdisMWriteConfigBlock, netvista.ndismwriteconfigblock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismwriteconfigblock, ndis/NdisMWriteConfigBlock, NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,25 +71,25 @@ NDIS_STATUS NdisMWriteConfigBlock(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - BlockId [in]
+### -param BlockId [in]
 
 A ULONG value that specifies the identifier of the configuration block to be written to. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the miniport drivers for the PF and VF on the network adapter.
 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a caller-allocated buffer that contains the configuration data to be written.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to write to the configuration block.
 

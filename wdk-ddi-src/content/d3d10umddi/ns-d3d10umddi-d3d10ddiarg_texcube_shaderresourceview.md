@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef45c368-37b9-4208-81d3-1ecab81268b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_69378946-808a-4eb0-bca1-25bd4780405d.xml, D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10ddiarg_texcube_shaderresourceview, d3d10umddi/D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW
+ms.keywords: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, d3d10umddi/D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_69378946-808a-4eb0-bca1-25bd4780405d.xml, display.d3d10ddiarg_texcube_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW {
 
 
 
-#### - MostDetailedMip
+### -field MostDetailedMip
 
 [in] The identifier of the most detailed MIP-map. 
 
 
-#### - MipLevels
+### -field MipLevels
 
 [in] The number of MIP-map levels for the texture. 
 

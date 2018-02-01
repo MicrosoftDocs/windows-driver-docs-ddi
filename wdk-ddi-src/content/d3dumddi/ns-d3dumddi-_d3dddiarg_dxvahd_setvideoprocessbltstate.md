@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebcd58d7-f0b3-43ea-b08f-f0c2618902d7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, UMDisplayDriver_param_Structs_fd02ddf9-535d-4c4b-a6fe-6c765170e6f9.xml, D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure [Display Devices], d3dumddi/D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, display.d3dddiarg_dxvahd_setvideoprocessbltstate, D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE"
+ms.keywords: D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, _D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, display.d3dddiarg_dxvahd_setvideoprocessbltstate, D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure [Display Devices], d3dumddi/D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, UMDisplayDriver_param_Structs_fd02ddf9-535d-4c4b-a6fe-6c765170e6f9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE {
 
 
 
-#### - hVideoProcessor
+### -field hVideoProcessor
 
 [in] A handle to the video processor whose bitblt state is changed.
 
 
-#### - State
+### -field State
 
 [in] A <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_blt_state.md">DXVAHDDDI_BLT_STATE</a>-typed value that indicates the type of bitblt to set.
 
 
-#### - DataSize
+### -field DataSize
 
 [in] The size, in bytes, of the data that is used to change the bitblt state.
 
 
-#### - pData
+### -field pData
 
 [in] A pointer to the data that is used to change the bitblt state. For more information about the types of data that <b>pData</b> can point to, see the values of the <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_blt_state.md">DXVAHDDDI_BLT_STATE</a> enumeration. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
-
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_blt_state.md">DXVAHDDDI_BLT_STATE</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
 
  
 

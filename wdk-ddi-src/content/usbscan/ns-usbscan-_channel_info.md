@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1f1cb952-9a63-461f-b70f-4cc41b8d88f8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PCHANNEL_INFO, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, CHANNEL_INFO, _CHANNEL_INFO, PCHANNEL_INFO structure pointer [Imaging Devices], usbscan/CHANNEL_INFO, image.channel_info, usbscan/PCHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices], *PCHANNEL_INFO
+ms.keywords: CHANNEL_INFO, _CHANNEL_INFO, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, usbscan/PCHANNEL_INFO, PCHANNEL_INFO, image.channel_info, CHANNEL_INFO structure [Imaging Devices], *PCHANNEL_INFO, usbscan/CHANNEL_INFO, PCHANNEL_INFO structure pointer [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _CHANNEL_INFO {
 
 
 
-#### - EventChannelSize
+### -field EventChannelSize
 
 Maximum packet size for the interrupt transfer pipe.
 
 
-#### - uReadDataAlignment
+### -field uReadDataAlignment
 
 Maximum packet size for the bulk IN transfer pipe.
 
 
-#### - uWriteDataAlignment
+### -field uWriteDataAlignment
 
 Maximum packet size for the bulk OUT transfer pipe.
 

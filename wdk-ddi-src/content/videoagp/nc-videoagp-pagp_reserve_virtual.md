@@ -74,27 +74,22 @@ PVOID APIENTRY AgpReserveVirtual(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - ProcessHandle [in]
+### -param ProcessHandle [in]
 
 Handle of the process in which to reserve the virtual address range. If <b>ProcessHandle</b> is 0, then the virtual address range is allocated in system space.
 
 
-#### - PhysicalReserveContext [in]
+### -param PhysicalReserveContext [in]
 
 Is the context handle that identifies the reserved physical address range with which to associate the virtual memory reservation. This context was obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
 
 
-#### - *VirtualReserveContext [out]
-
-Is the location in which the video port driver writes a context handle that identifies the reserved virtual memory.
-
-
-#### - VirtualReserveContext [out]
+### -param *VirtualReserveContext [out]
 
 Is the location in which the video port driver writes a context handle that identifies the reserved virtual memory.
 
@@ -123,11 +118,11 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_vi
 
 ## -see-also
 
+<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
+
 <a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
 
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
-
-<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
 
 <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 37f624b8-3b15-41ee-9670-84287c3e10e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, filterpipeline/IPartDiscardControl::GetDiscardProperties, print.ipartdiscardcontrol_getdiscardproperties, IPartDiscardControl interface [Print Devices], GetDiscardProperties method, IPartDiscardControl, IPartDiscardControl::GetDiscardProperties, GetDiscardProperties, GetDiscardProperties method [Print Devices], IPartDiscardControl interface, GetDiscardProperties method [Print Devices]
+ms.keywords: IPartDiscardControl::GetDiscardProperties, GetDiscardProperties, print.ipartdiscardcontrol_getdiscardproperties, filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, IPartDiscardControl, filterpipeline/IPartDiscardControl::GetDiscardProperties, IPartDiscardControl interface [Print Devices], GetDiscardProperties method, GetDiscardProperties method [Print Devices], IPartDiscardControl interface, GetDiscardProperties method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT GetDiscardProperties(
 
 
 
-#### - uriSentinelPage [out]
+### -param uriSentinelPage [out]
 
 The URI of the first fixed page that no longer needs the identified resource to be processed. 
 
 
-#### - uriPartToDiscard [out]
+### -param uriPartToDiscard [out]
 
 The URI of the resource that the consumer can discard.
 

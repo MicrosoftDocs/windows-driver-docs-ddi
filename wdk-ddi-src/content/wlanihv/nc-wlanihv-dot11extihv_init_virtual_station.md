@@ -74,17 +74,17 @@ DWORD APIENTRY Dot11ExtIhvInitVirtualStation(
 
 
 
-#### - pDot11ExtVSAPI [in]
+### -param pDot11ExtVSAPI [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_virtual_station_apis" tabindex="0"><b>
-     DOT11EXT_VIRTUAL_STATION_APIS</b></mshelp:link> structure, which contains the addresses of the IHV Extensibility
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_apis.md">
+     DOT11EXT_VIRTUAL_STATION_APIS</a> structure, which contains the addresses of the IHV Extensibility
      virtual station functions that are supported by the operating system. The operating system formats this
      parameter with the function addresses before making a call to the 
      <i>Dot11ExtIhvInitVirtualStation</i> function.
 
 
-#### - pvReserved
+### -param pvReserved
 
 This parameter is reserved for use by the operating system and should be <b>NULL</b>.
 
@@ -107,8 +107,8 @@ The operating system calls the
     <i>Dot11ExtIhvInitVirtualStation</i> function immediately after it calls the 
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a> function,
     but before it calls the 
-    <mshelp:link keywords="netvista.dot11extihvinitadapter" tabindex="0"><i>
-    Dot11ExtIhvInitAdapter</i></mshelp:link> function.
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
+    Dot11ExtIhvInitAdapter</a> function.
 
 In response to a call to 
     <i>Dot11ExtIhvInitVirtualStation</i>, the IHV Extensions DLL can initialize its internal data structures
@@ -143,9 +143,9 @@ The
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a>
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
 
  
 

@@ -74,32 +74,27 @@ VOID APIENTRY* CheckMultisampleQualityLevels(
 
 
 
-#### - hDevice
+### -param hDevice
 
 A handle to the display device (graphics context).
 
 
-#### - Format
+### -param Format
 
 A value of type <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> that indicates the render-target format that the check is performed for.
 
 
-#### - SampleCount
+### -param SampleCount
 
 The number of samples to retrieve the quality levels for. 
 
 
-#### - Flags
+### -param Flags
 
 A combination of <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a> values that are combined by using a bitwise <b>OR</b> operation.
 
 
-#### - *pNumQualityLevels [out]
-
-A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples.
-
-
-#### - pNumQualityLevels [out]
+### -param *pNumQualityLevels [out]
 
 A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples.
 
@@ -128,13 +123,13 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkmultisamplequalitylevels.md">CheckMultisampleQualityLevels</a>
-
 <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkmultisamplequalitylevels.md">CheckMultisampleQualityLevels</a>
 
  
 

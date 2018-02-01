@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d35ed3e-d14f-43ad-9c11-38aa37e76492
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ioinitializedrivercreatecontext, IoInitializeDriverCreateContext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, ntddk/IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers]
+ms.keywords: IoInitializeDriverCreateContext, ntddk/IoInitializeDriverCreateContext, ifsk.ioinitializedrivercreatecontext, IoInitializeDriverCreateContext routine [Installable File System Drivers], ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID IoInitializeDriverCreateContext(
 
 
 
-#### - DriverContext
+### -param DriverContext
 
 A pointer to a caller-allocated variable of type IO_DRIVER_CREATE_CONTEXT.
 

@@ -90,14 +90,14 @@ A handle to the display device (graphics context).
 
 
 
-#### - pDecodeDesc [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
-
-
 #### - pBufferTypeCount [out]
 
 A pointer to a UINT value that specifies the maximum number of buffer types that the driver supports for the specified video decoder operation.
+
+
+#### - pDecodeDesc [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
 
 
 ## -returns

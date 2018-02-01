@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F5CA04FD-5E2A-4C68-97CF-F3D425A958AA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], display.dxgk_display_ownership_flags, _DXGK_DISPLAY_OWNERSHIP_FLAGS"
+ms.keywords: dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS, _DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], *PDXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _DXGK_DISPLAY_OWNERSHIP_FLAGS {
 
 
 
-#### - FrameBufferState
+### -field FrameBufferState
 
 Value indicating the state of the frame buffer.  See definition of DXGK_FRAMEBUFFER_STATE enum for details.  
 
 
-#### - Value
+### -field Value
 
 The value used to operate over the combined bitfields.
 

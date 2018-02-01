@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 416c4de2-f200-491a-a319-fb0a4fd86f86
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetSpecificFilterArgumentWide, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, IDebugControl4 interface [Windows Debugging], SetSpecificFilterArgumentWide method, IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4, SetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, debugger.setspecificfilterargumentwide
+ms.keywords: IDebugControl4::SetSpecificFilterArgumentWide, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], debugger.setspecificfilterargumentwide, IDebugControl4 interface [Windows Debugging], SetSpecificFilterArgumentWide method, SetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, SetSpecificFilterArgumentWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SetSpecificFilterArgumentWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the specific filter whose argument will be set.  <i>Index</i> must be the index of a specific filter that has an argument.
 
 
-#### - Argument [in]
+### -param Argument [in]
 
 Specifies the argument for the specific filter.  The interpretation of this argument depends on the specific filter.
 
@@ -122,9 +122,9 @@ For a list of specific filters that have argument and the interpretation of thos
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548386">GetSpecificFilterArgument</a>
-
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548386">GetSpecificFilterArgument</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 

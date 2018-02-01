@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 58af1872-23bf-44f2-9ef4-271f0ddef5d5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/SetInitiatorNodeName_IN, SetInitiatorNodeName_IN, SetInitiatorNodeName_IN structure [Storage Devices], PSetInitiatorNodeName_IN structure pointer [Storage Devices], _SetInitiatorNodeName_IN, structs-iSCSI_fac4e524-8266-4135-9211-564d1ea2a952.xml, PSetInitiatorNodeName_IN, storage.setinitiatornodename_in, iscsiop/PSetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN
+ms.keywords: SetInitiatorNodeName_IN structure [Storage Devices], _SetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN, iscsiop/SetInitiatorNodeName_IN, SetInitiatorNodeName_IN, iscsiop/PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN structure pointer [Storage Devices], structs-iSCSI_fac4e524-8266-4135-9211-564d1ea2a952.xml, storage.setinitiatornodename_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetInitiatorNodeName_IN {
 
 
 
-#### - CreatedInitiatorName
+### -field CreatedInitiatorName
 
 The new initiator name.
 

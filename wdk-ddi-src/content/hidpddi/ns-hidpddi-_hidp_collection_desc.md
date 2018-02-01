@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4B044635-1088-4CED-87C7-4385E565A54A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], *PHIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], _HIDP_COLLECTION_DESC, hid.hidp_collection_desc, hidpddi/HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC
+ms.keywords: HIDP_COLLECTION_DESC structure [Human Input Devices], _HIDP_COLLECTION_DESC, hid.hidp_collection_desc, PHIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC, hidpddi/HIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], HIDP_COLLECTION_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _HIDP_COLLECTION_DESC {
 
 
 
-#### - UsagePage
+### -field UsagePage
 
 Specifies the usage page of the usage ID specified by <b>Usage</b>.
 
 
-#### - Usage
+### -field Usage
 
 Indicates a usage ID.
 
 
-#### - CollectionNumber
+### -field CollectionNumber
 
 The index of the collection in the array of  <b>HIDP_COLLECTION_DESC</b> structure. This is a 1-based value.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for internal system use. Must be 0.
 
 
-#### - InputLength
+### -field InputLength
 
 The maximum length of an input report of this collection.
 
 
-#### - OutputLength
+### -field OutputLength
 
 The maximum length of an output report of this collection.
 
 
-#### - FeatureLength
+### -field FeatureLength
 
 The maximum length of a feature report of this collection.
 
 
-#### - PreparsedDataLength
+### -field PreparsedDataLength
 
 The length of the preparsed data pointed to by <i>PreparsedData</i>.
 
 
-#### - PreparsedData
+### -field PreparsedData
 
 A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
 

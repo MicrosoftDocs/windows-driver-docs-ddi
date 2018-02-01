@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml, *PTCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, _TCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_DELEGATED
+ms.keywords: PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_DELEGATED, _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,24 +109,9 @@ typedef struct _TCP_OFFLOAD_STATE_DELEGATED {
 
 
 
-#### - KeepAlive
+### -field KeepAlive
 
 This member is a union that consists of the following members:
-
-
-#### ProbeCount
-
-The number of keepalive probes that have been sent that have not received a response (see RFC
-      1122).
-
-
-#### TimeoutDelta
-
-The time remaining, in clock ticks, until the next keepalive timeout (see RFC 1122). Note that a
-      value of -1 immediately after the TCP connection was offloaded indicates that the keepalive timer was
-      not running when the connection was offloaded. If the offload target's keepalive timer is not running,
-      the offload target should return -1 in this member when responding to a call to the
-      MiniportQueryOffload function or the MiniportTerminateOffload function.
 
 
 ### -field KeepAlive.ProbeCount
@@ -144,24 +129,9 @@ The time remaining, in clock ticks, until the next keepalive timeout (see RFC 11
       MiniportQueryOffload function or the MiniportTerminateOffload function.
 
 
-#### - Retransmit
+### -field Retransmit
 
 This member is a union that consists of the following members:
-
-
-#### Count
-
-The number of retransmits that have been sent (see RFC 2581).
-
-
-#### TimeoutDelta
-
-The time, in clock ticks, remaining until the next retransmit timeout (see RFC 2581). Note that a
-      value of -1 immediately after the TCP connection was offloaded indicates that the retransmit timer was
-      not running when the connection was offloaded. The retransmit timer was not running because there was
-      no outstanding send data on the connection when the connection was offloaded. If the offload target's
-      retransmit timer is not running, the offload target should return -1 in this member when responding to
-      a call to the MiniportQueryOffload function or the MiniportTerminateOffload function.
 
 
 ### -field Retransmit.Count
@@ -179,14 +149,14 @@ The time, in clock ticks, remaining until the next retransmit timeout (see RFC 2
       a call to the MiniportQueryOffload function or the MiniportTerminateOffload function.
 
 
-#### - SendDataHead
+### -field SendDataHead
 
 A pointer to a 
        <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This
        NET_BUFFER_LIST structure is in the linked list that is pointed to by the 
        <b>NetBufferListChain</b> member of the 
-       <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that immediately precedes the
+       <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that immediately precedes the
        TCP_OFFLOAD_STATE_DELEGATED structure. If the 
        <b>NetBufferListChain</b> pointer is <b>NULL</b>, 
        <b>SendDataHead</b> is not significant.
@@ -202,7 +172,7 @@ This variable is used only in an initiate offload or terminate offload operation
        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload Operation</a>.
 
 
-#### - SendDataTail
+### -field SendDataTail
 
 A pointer to a 
        <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This
@@ -217,14 +187,14 @@ The SendDataTail pointer points to the last NET_BUFFER_LIST structure whose NET_
 
 This variable is used only in an initiate offload or terminate offload operation. For more
        information about how this variable is used, see 
-       <mshelp:link keywords="netvista.handling_outstanding_send_data_during_and_after_an_offload_operation" tabindex="0">Handling Outstanding Send Data During and After an Offload
-       Operation</mshelp:link> and 
-       <mshelp:link keywords="netvista.handling_outstanding_send_data_during_a_terminate_offload_operation" tabindex="0">Handling Outstanding Send Data During a Terminate Offload
-       Operation</mshelp:link>
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload
+       Operation</a> and 
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload
+       Operation</a>
 
 
 
-#### - SendBacklogSize
+### -field SendBacklogSize
 
 The offload target specifies this value to indicate the number of data bytes that the host stack
        should have outstanding at the offload target for optimum performance. (This is the number of send
@@ -238,8 +208,8 @@ The offload target specifies this value to indicate the number of data bytes tha
 
 The host stack can query the TCP delegated state for the connection to obtain the send backlog
        size. In addition, the offload target can indicate a change in the send backlog size by calling the 
-       <mshelp:link keywords="netvista.ndistcpoffloadeventhandler" tabindex="0"><b>
-       NdisTcpOffloadEventHandler</b></mshelp:link> function.
+       <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+       NdisTcpOffloadEventHandler</a> function.
 
 If the offload target does not support the send-backlog-size feature, it must write a value of
        0xFFFFFFFF to 
@@ -247,7 +217,7 @@ If the offload target does not support the send-backlog-size feature, it must wr
        <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
 
 
-#### - BufferedData
+### -field BufferedData
 
 A pointer to buffered receive data. The host stack can pass such data to the offload target when
       offloading a TCP connection. (For more information, see 
@@ -257,7 +227,7 @@ A pointer to buffered receive data. The host stack can pass such data to the off
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
 
 
-#### - ReceiveBacklogSize
+### -field ReceiveBacklogSize
 
 The offload target specifies this value to indicate the number of receive data bytes that are
       buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
@@ -270,7 +240,7 @@ If the offload target does not support the receive backlog size feature, it shou
       <b>ReceiveBacklogSize</b> .
 
 
-#### - Header
+### -field Header
 
 An 
      <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
@@ -281,7 +251,7 @@ An
      <b>Header</b> is reserved.
 
 
-#### - State
+### -field State
 
 The current state of the TCP connection (see RFC 793) as one of the following
      TCP_OFFLOAD_CONNECTION_STATE values:
@@ -301,25 +271,19 @@ The current state of the TCP connection (see RFC 793) as one of the following
      connection regardless of the connection state.
 
 
+#### TcpConnectionCloseWait
+
+Waiting for a connection termination request from the local user.
+
+
 #### TcpConnectionClosed
 
 No connection state.
 
 
-#### TcpConnectionListen
+#### TcpConnectionClosing
 
-Waiting for a connection request from any remote TCP and port.
-
-
-#### TcpConnectionSynSent
-
-Waiting for a matching connection request after having sent a connection request.
-
-
-#### TcpConnectionSynRcvd
-
-Waiting for a confirming connection request acknowledgment after having both received and sent a
-       connection request.
+Waiting for a connection termination request acknowledgment from the remote TCP.
 
 
 #### TcpConnectionEstablished
@@ -339,20 +303,26 @@ Waiting for a connection termination request from the remote TCP, or an acknowle
 Waiting for a connection termination request from the remote TCP.
 
 
-#### TcpConnectionCloseWait
-
-Waiting for a connection termination request from the local user.
-
-
-#### TcpConnectionClosing
-
-Waiting for a connection termination request acknowledgment from the remote TCP.
-
-
 #### TcpConnectionLastAck
 
 Waiting for an acknowledgment of the connection termination request previously sent to the
        remote TCP, which includes an acknowledgment of its connection termination request.
+
+
+#### TcpConnectionListen
+
+Waiting for a connection request from any remote TCP and port.
+
+
+#### TcpConnectionSynRcvd
+
+Waiting for a confirming connection request acknowledgment after having both received and sent a
+       connection request.
+
+
+#### TcpConnectionSynSent
+
+Waiting for a matching connection request after having sent a connection request.
 
 
 #### TcpConnectionTimeWait
@@ -361,99 +331,99 @@ Waiting for enough time to pass to ensure that the remote TCP received the ackno
        connection termination request.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for system use.
 
 
-#### - RcvNxt
+### -field RcvNxt
 
 The sequence number for the next receive segment (see RCV.NEXT in RFC 793).
 
 
-#### - RcvWnd
+### -field RcvWnd
 
 The receive window size, in bytes (see RCV.WND in RFC 793).
 
 
-#### - SndUna
+### -field SndUna
 
 The sequence number for the first byte of unacknowledged data (see SND.UNA in RFC 793). For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
 
 
-#### - SndNxt
+### -field SndNxt
 
 The sequence number for the next byte to send on the connection (see SND.NXT in RFC 793). For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
 
 
-#### - SndMax
+### -field SndMax
 
 The maximum sequence number that has been sent on the connection. For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
 
 
-#### - SndWnd
+### -field SndWnd
 
 The send window size, in bytes (see SND.WND in RFC 793).
 
 
-#### - MaxSndWnd
+### -field MaxSndWnd
 
 The maximum send window size, in bytes (see RFC 813).
 
 
-#### - SendWL1
+### -field SendWL1
 
 The segment sequence number used for the last window update (see SND.WL1 in RFC 793).
 
 
-#### - CWnd
+### -field CWnd
 
 The congestion window size, in bytes (see cwnd in RFC 2581).
 
 
-#### - SsThresh
+### -field SsThresh
 
 The slow start threshold, in bytes (see ssthresh in RFC 2581).
 
 
-#### - SRtt
+### -field SRtt
 
 The smoothed round-trip time, in clock ticks (see SRTT in RFCs 793 and 2988). Maintained on a per
      connection basis because it takes into account path, host, and sometimes application behavior.
 
 
-#### - RttVar
+### -field RttVar
 
 The round trip time variation, in clock ticks (see RTTVAR in RFC 2988).
 
 
-#### - TsRecent
+### -field TsRecent
 
 The timestamp value to send in the next ACK (see TS.Recent in RFC 1323)
 
 
-#### - TsRecentAge
+### -field TsRecentAge
 
 The length of time, in clock ticks, since the most recent timestamp was received (see RFC
      1323).
 
 
-#### - TsTime
+### -field TsTime
 
 The current value of the adjusted timestamp.
 
 
-#### - TotalRT
+### -field TotalRT
 
 The total time, in clock ticks, that has been spent retransmitting the current TCP segment.
 
 
-#### - DupAckCount
+### -field DupAckCount
 
 The number of ACKs that have been accepted for the same sequence number (see RFC 1323).
 
 
-#### - SndWndProbeCount
+### -field SndWndProbeCount
 
 The current send window probe round. For a description of the send window probe round, see 
      <a href="https://msdn.microsoft.com/b45f5fd7-e80b-4718-9889-9839fa61845a">Persist Timer</a>.
@@ -477,13 +447,13 @@ The host stack provides initial values for the TCP delegated variables when it o
     <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a> function.
     When the host stack terminates the offload of the TCP connection state object by causing NDIS to call the
     offload target's 
-    <mshelp:link keywords="netvista.miniportterminateoffload" tabindex="0"><i>
-    MiniportTerminateOffload</i></mshelp:link> function, the offload target passes the value of the TCP delegated
+    <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">
+    MiniportTerminateOffload</a> function, the offload target passes the value of the TCP delegated
     variables in the terminated TCP connection state object back to the host stack.
 
 When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is associated with an 
-    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure, which contains a header that is formatted as an 
+    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The
     Revision member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of the
     TCP_OFFLOAD_STATE_DELEGATED structure.
@@ -492,17 +462,17 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0327bdc0-e4a4-4c2f-a9b9-5854e3330068
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiwmi_enable_disable_control, ScsiWmiEventControl, ScsiWmiDataBlockControl, scsiwmi/ScsiWmiEventControl, scsiwmi/ScsiWmiDataBlockControl, SCSIWMI_ENABLE_DISABLE_CONTROL, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml
+ms.keywords: ScsiWmiEventControl, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml, scsiwmi/ScsiWmiDataBlockControl, SCSIWMI_ENABLE_DISABLE_CONTROL, scsiwmi/ScsiWmiEventControl, ScsiWmiDataBlockControl, storage.scsiwmi_enable_disable_control, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,21 +69,21 @@ typedef enum  {
 
 
 
-#### - ScsiWmiEventControl
+### -field ScsiWmiEventControl
 
 Indicates that a WMI event is to be enabled or disabled. 
 
 
-#### - ScsiWmiDataBlockControl
+### -field ScsiWmiDataBlockControl
 
 Indicates that a data collection for a block is to be enabled or disabled.  
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557338">HwScsiWmiFunctionControl</a>
-
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557338">HwScsiWmiFunctionControl</a>
 
  
 

@@ -75,38 +75,38 @@ typedef struct _RILCALLMODIFICATIONINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwID
+### -field dwID
 
 
 
-#### - dwModificationType
+### -field dwModificationType
 
 
 
-#### - dwOldCallType
+### -field dwOldCallType
 
 
 
-#### - dwNewCallType
+### -field dwNewCallType
 
 
 
-#### - raAddress
+### -field raAddress
 
 
 
-#### - aiIdentifier
+### -field aiIdentifier
 
 

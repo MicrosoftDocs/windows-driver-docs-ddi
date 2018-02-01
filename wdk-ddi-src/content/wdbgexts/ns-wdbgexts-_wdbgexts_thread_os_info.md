@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5cd1ba71-af2f-4662-b37d-88f4e4aa7624
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], wdbgexts/PWDBGEXTS_THREAD_OS_INFO, wdbgexts/WDBGEXTS_THREAD_OS_INFO, WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, debugger.ig_get_thread_os_info, PWDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO, _WDBGEXTS_THREAD_OS_INFO
+ms.keywords: wdbgexts/PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, wdbgexts/WDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO, _WDBGEXTS_THREAD_OS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ typedef struct _WDBGEXTS_THREAD_OS_INFO {
 
 
 
-#### - ThreadId
+### -field ThreadId
 
 Specifies the operating system thread ID (within the current process) for the thread whose information is being requested.
 
 
-#### - ExitStatus
+### -field ExitStatus
 
 Receives the exit code of the thread.  If the thread is still running or the exit code is not known, <b>ExitStatus</b> will be set to STILL_ACTIVE.
 
 
-#### - PriorityClass
+### -field PriorityClass
 
 Receives the priority class of the thread.  The priority classes are defined by the constants <i>XXX</i>_PRIORITY_CLASS in WinBase.h.  See the Platform SDK for more information about thread priority classes.  If the priority class is not know, <b>PriorityClass</b> will be set to zero.
 
 
-#### - Priority
+### -field Priority
 
 Receives the priority of the thread relative to the priority class.  Some thread priorities are defined by the constants THREAD_PRIORITY_<i>XXX</i> in WinBase.h.  See the Platform SDK for more information about thread priorities.  If the priority is not known, <b>Priority</b> will be set to THREAD_PRIORITY_NORMAL.
 
 
-#### - CreateTime
+### -field CreateTime
 
 Receives the creation time of the thread.
 
 
-#### - ExitTime
+### -field ExitTime
 
 Receives the exit time of the thread.  If the thread has not exited, <b>ExitTime</b> is undefined.
 
 
-#### - KernelTime
+### -field KernelTime
 
 Receives the amount of time that the thread has executed in kernel mode.
 
 
-#### - UserTime
+### -field UserTime
 
 Receives the amount of time that the thread has executed in user-mode.
 
 
-#### - StartOffset
+### -field StartOffset
 
 Receives the starting address of the thread.  If the starting address is not known, <b>StartOffset</b> will be set to zero.
 
 
-#### - Affinity
+### -field Affinity
 
 Receives the thread affinity mask for the thread in a symmetric multiprocessor (SMP) computer.  See the Platform SDK for more information about the thread affinity mask.  If the affinity mask is not known, <b>Affinity</b> is set to zero.
 

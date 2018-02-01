@@ -72,7 +72,7 @@ DWORD APIENTRY Dot11ExtIhvAdapterReset(
 
 
 
-#### - hIhvExtAdapter [in, optional]
+### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
      specified through a previous call to the 

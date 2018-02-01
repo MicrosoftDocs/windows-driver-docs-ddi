@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cee6b2dd-e79b-4372-8371-c57fe950de88
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
+ms.keywords: printoem/OEMQueryFont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, print.oemqueryfont, OEMQueryFont function [Print Devices], OEMQueryFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,18 +71,18 @@ PIFIMETRICS APIENTRY OEMQueryFont(
 
 
 
-#### - dhpdev
+### -param dhpdev
 
 
 
-#### - iFile
+### -param iFile
 
 
 
-#### - iFace
+### -param iFace
 
 
 
-#### - pid
+### -param pid
 
 

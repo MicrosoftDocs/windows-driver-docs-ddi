@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3417648-f9f9-402f-b3a3-d09c0b7e5fdd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SetInitiatorNodeName_OUT, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml, storage.setinitiatornodename_out, iscsiop/SetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], SetInitiatorNodeName_OUT structure [Storage Devices], iscsiop/PSetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT"
+ms.keywords: iscsiop/PSetInitiatorNodeName_OUT, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], SetInitiatorNodeName_OUT, iscsiop/SetInitiatorNodeName_OUT, _SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices], storage.setinitiatornodename_out, *PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetInitiatorNodeName_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output, the status of the <b>SetInitiatorNodeName</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 

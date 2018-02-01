@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 28aef1bd-915a-4f05-a4b0-bec63ddfdfb5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_MSDU, dot11wdi/WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_PAYLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wifi_frame_payload_type, netvista.wdi_frame_payload_type, WDI_FRAME_MSDU, WDI_FRAME_PAYLOAD_TYPE, _WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_MSDU_FRAGMENT
+ms.keywords: WDI_FRAME_MSDU_FRAGMENT, _WDI_FRAME_PAYLOAD_TYPE, dot11wdi/WDI_FRAME_MSDU, WDI_FRAME_PAYLOAD_TYPE, netvista.wifi_frame_payload_type, dot11wdi/WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_PAYLOAD_TYPE, netvista.wdi_frame_payload_type, WDI_FRAME_PAYLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_FRAME_MSDU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _WDI_FRAME_PAYLOAD_TYPE {
 
 
 
-#### - WDI_FRAME_MSDU
+### -field WDI_FRAME_MSDU
 
 MAC service data unit (MSDU).
 
 
-#### - WDI_FRAME_MSDU_FRAGMENT
+### -field WDI_FRAME_MSDU_FRAGMENT
 
 MAC service data unit (MSDU) fragment.
 

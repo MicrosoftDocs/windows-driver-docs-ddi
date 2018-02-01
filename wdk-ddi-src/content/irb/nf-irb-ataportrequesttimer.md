@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b057ae2e-53ae-4da9-8668-1ebca3c80998
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortRequestTimer routine [Storage Devices], atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, AtaPortRequestTimer, storage.ataportrequesttimer, irb/AtaPortRequestTimer
+ms.keywords: storage.ataportrequesttimer, irb/AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], AtaPortRequestTimer, atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ BOOLEAN __inline AtaPortRequestTimer(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
@@ -79,7 +79,7 @@ A pointer to the channel extension.
 TBD
 
 
-#### - TimerValue [in]
+### -param TimerValue [in]
 
 Time interval in units of microseconds.
 

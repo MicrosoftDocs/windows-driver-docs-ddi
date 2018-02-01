@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 512e66f6-d91f-4351-ba55-02ae3e84102e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml, PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], *PAddRADIUSServer_OUT, AddRADIUSServer_OUT, iscsiop/AddRADIUSServer_OUT, storage.addradiusserver_out, iscsiop/PAddRADIUSServer_OUT"
+ms.keywords: "*PAddRADIUSServer_OUT, storage.addradiusserver_out, PAddRADIUSServer_OUT, iscsiop/AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], _AddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], iscsiop/PAddRADIUSServer_OUT, structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml, AddRADIUSServer_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _AddRADIUSServer_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output from <b>AddRADIUSServer</b>, the status of the <b>AddRADIUSServer</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
@@ -81,11 +81,11 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 <a href="..\iscsiop\ns-iscsiop-_addradiusserver_in.md">AddRADIUSServer_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 

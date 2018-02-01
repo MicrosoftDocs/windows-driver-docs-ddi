@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlDissectName, fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlDissectName, fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], ifsk.fsrtldissectname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID FsRtlDissectName(
 
 
 
-#### - Path [in]
+### -param Path [in]
 
 Pathname string to be parsed.
 
 
-#### - FirstName [out]
+### -param FirstName [out]
 
 Pointer to the first file name in the pathname string. 
 
 
-#### - RemainingName [out]
+### -param RemainingName [out]
 
 Pointer to the remaining unparsed portion of the pathname string.
 

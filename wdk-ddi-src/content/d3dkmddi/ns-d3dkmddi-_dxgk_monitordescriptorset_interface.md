@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac492a44-f14e-4b66-9ec1-4f1b04806646
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MONITORDESCRIPTORSET_INTERFACE structure [Display Devices], d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE, display.dxgk_monitordescriptorset_interface, _DXGK_MONITORDESCRIPTORSET_INTERFACE, DmStructs_da0cca60-6df0-480b-8e02-0affe5eb5cfd.xml, DXGK_MONITORDESCRIPTORSET_INTERFACE
+ms.keywords: d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE, _DXGK_MONITORDESCRIPTORSET_INTERFACE, DXGK_MONITORDESCRIPTORSET_INTERFACE, display.dxgk_monitordescriptorset_interface, DXGK_MONITORDESCRIPTORSET_INTERFACE structure [Display Devices], DmStructs_da0cca60-6df0-480b-8e02-0affe5eb5cfd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGK_MONITORDESCRIPTORSET_INTERFACE {
 
 
 
-#### - pfnGetNumDescriptors
+### -field pfnGetNumDescriptors
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_getnumdescriptors.md">pfnGetNumDescriptors</a> function. 
 
 
-#### - pfnAcquireFirstDescriptorInfo
+### -field pfnAcquireFirstDescriptorInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirefirstdescriptorinfo.md">pfnAcquireFirstDescriptorInfo</a> function.
 
 
-#### - pfnAcquireNextDescriptorInfo
+### -field pfnAcquireNextDescriptorInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirenextdescriptorinfo.md">pfnAcquireNextDescriptorInfo</a> function. 
 
 
-#### - pfnReleaseDescriptorInfo
+### -field pfnReleaseDescriptorInfo
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_releasedescriptorinfo.md">pfnReleaseDescriptorInfo</a> function. 
 

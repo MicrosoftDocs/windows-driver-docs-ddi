@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrClientAttachProvider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, netvista.nmrclientattachprovider, netioddk/NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista]
+ms.keywords: nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, NmrClientAttachProvider, netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS NmrClientAttachProvider(
 
 
 
-#### - NmrBindingHandle [in]
+### -param NmrBindingHandle [in]
 
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
@@ -81,7 +81,7 @@ A handle used by the NMR to represent the binding between the client module and 
      function.
 
 
-#### - ClientBindingContext [in]
+### -param ClientBindingContext [in]
 
 A pointer to a caller-supplied context for the binding between the client module and the provider
      module. The client module uses this context to keep track of the state of the binding. The contents of
@@ -92,7 +92,7 @@ A pointer to a caller-supplied context for the binding between the client module
      valid and resident in memory as long as the provider module is attached to the client module.
 
 
-#### - ClientDispatch [in]
+### -param ClientDispatch [in]
 
 A pointer to a constant structure that contains the dispatch table of 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
@@ -103,7 +103,7 @@ A pointer to a constant structure that contains the dispatch table of
      dispatch table structure, the client module must set this parameter to <b>NULL</b>.
 
 
-#### - ProviderBindingContext [out]
+### -param ProviderBindingContext [out]
 
 A pointer to a variable that receives a pointer to the provider module's context for the binding
      between the client module and the provider module. The provider module uses this context to keep track
@@ -114,7 +114,7 @@ A pointer to a variable that receives a pointer to the provider module's context
      provider module's binding context.
 
 
-#### - ProviderDispatch [out]
+### -param ProviderDispatch [out]
 
 A pointer to a variable that receives a pointer to a structure that contains the dispatch table of
      
@@ -196,8 +196,8 @@ If the
     <b>NmrClientAttachProvider</b> function returns STATUS_SUCCESS and the client module dynamically allocated
     the memory for its binding context, the client module should free that allocated memory when the NMR
     calls the client module's 
-    <mshelp:link keywords="netvista.clientcleanupbindingcontext" tabindex="0"><i>
-    ClientCleanupBindingContext</i></mshelp:link> callback function after the client module and provider module are
+    <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">
+    ClientCleanupBindingContext</a> callback function after the client module and provider module are
     detached from each other.
 
 If the 
@@ -211,11 +211,11 @@ If the
 
 ## -see-also
 
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
 
 <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
-
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
  
 

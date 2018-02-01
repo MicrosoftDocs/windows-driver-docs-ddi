@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 93BAAF88-3F82-4E32-B403-4028ECF21F9A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSPIN_MDL_CACHING_NOTIFICATION, ks/KSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION structure [Streaming Media Devices], stream.kspin_mdl_caching_notification, *PKSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION, PKSPIN_MDL_CACHING_NOTIFICATION structure pointer [Streaming Media Devices], PKSPIN_MDL_CACHING_NOTIFICATION
+ms.keywords: PKSPIN_MDL_CACHING_NOTIFICATION structure pointer [Streaming Media Devices], stream.kspin_mdl_caching_notification, ks/KSPIN_MDL_CACHING_NOTIFICATION, *PKSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION structure [Streaming Media Devices], PKSPIN_MDL_CACHING_NOTIFICATION, ks/PKSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - Event
+### -field Event
 
 This member is used internally by the operating system.
 
 
-#### - Buffer
+### -field Buffer
 
 This member is used internally by the operating system.
 

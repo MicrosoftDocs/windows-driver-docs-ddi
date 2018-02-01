@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6d96a82-f744-4663-8373-886f4245c106
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml, DOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST, *PDOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_CIPHER_ALGORITHM_LIST, windot11/PDOT11_CIPHER_ALGORITHM_LIST, netvista.dot11_cipher_algorithm_list
+ms.keywords: PDOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGORITHM_LIST, netvista.dot11_cipher_algorithm_list, windot11/PDOT11_CIPHER_ALGORITHM_LIST, windot11/DOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_CIPHER_ALGORITHM_LIST, Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct DOT11_CIPHER_ALGORITHM_LIST {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_CIPHER_ALGORITHM_LIST structure. This member is
      formatted as an 
@@ -89,11 +89,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_CIPHER_ALGORITHM_LIST_REVISION_1.
@@ -105,19 +100,24 @@ This member must be set to
        sizeof(DOT11_CIPHER_ALGORITHM_LIST).
 
 
-#### - uNumOfEntries
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uNumOfEntries
 
 The number of entries in the 
      <b>AlgorithmIds</b> array.
 
 
-#### - uTotalNumOfEntries
+### -field uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>AlgorithmIds</b> array can contain.
 
 
-#### - AlgorithmIds
+### -field AlgorithmIds
 
 The cipher algorithm, which is defined by a 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> enumerator
@@ -132,10 +132,10 @@ The list of cipher algorithms is sorted by preference.
 
 
 A miniport driver returns the DOT11_CIPHER_ALGORITHM_LIST structure when it is queried by either 
-    <mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link> or 
-    <mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
 
 When these OIDs are queried, the miniport driver must verify that the 
     <b>InformationBuffer</b> member of the 
@@ -203,15 +203,15 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
  
 

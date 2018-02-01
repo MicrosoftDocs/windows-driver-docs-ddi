@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a8610e4-22d5-4732-b4be-846449acb5b1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcx_adapter_caps, IDDCX_ADAPTER_CAPS structure [Display Devices], IDDCX_ADAPTER_CAPS, iddcx/IDDCX_ADAPTER_CAPS
+ms.keywords: IDDCX_ADAPTER_CAPS, iddcx/IDDCX_ADAPTER_CAPS, display.iddcx_adapter_caps, IDDCX_ADAPTER_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,20 +73,20 @@ typedef struct IDDCX_ADAPTER_CAPS {
 
 
 
-#### - Size
+### -field Size
 
 
                      Total size of the structure
                  
 
 
-#### - Flags
+### -field Flags
 
 
                      Adapter flags utilized by the driver.
 
 
-#### - MaxDisplayPipelineRate
+### -field MaxDisplayPipelineRate
 
 
                       This value represents the total display bandwidth for the adapter. Each mode the driver reports to the OS also has a display pipeline rate associated with it and the OS ensures that the combined display pipeline rate of all the active modes will never exceed this value. The driver decides how many units it uses.
@@ -94,18 +94,18 @@ typedef struct IDDCX_ADAPTER_CAPS {
                  
 
 
-#### - MaxMonitorsSupported
+### -field MaxMonitorsSupported
 
 
                      Indicates the maximum number of monitors that can be connected at the same time.
 
 
-#### - EndPointDiagnostics
+### -field EndPointDiagnostics
 
 Endpoint diagnostics information. None of this is used for runtime OS decision, but it is used for telemetry.
 
 
-#### - StaticDesktopReencodeFrameCount
+### -field StaticDesktopReencodeFrameCount
 
 
                      The number of frames to request after the desktop goes idle if the driver's encoder requires multiple frames to continue improving quality.

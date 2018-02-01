@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e5e2061f-5133-4645-8e07-659f08473a51
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetUshort method [Windows Debugging], EngExtCpp_Ref_5429785d-2f76-434d-96c6-4fa7298aa32e.xml, ExtRemoteData class [Windows Debugging], GetUshort method, ExtRemoteData::GetUshort, debugger.extremotedata_getushort, ExtRemoteData, GetUshort, GetUshort method [Windows Debugging], ExtRemoteData class
+ms.keywords: ExtRemoteData, debugger.extremotedata_getushort, GetUshort method [Windows Debugging], ExtRemoteData::GetUshort, EngExtCpp_Ref_5429785d-2f76-434d-96c6-4fa7298aa32e.xml, GetUshort, GetUshort method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetUshort method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

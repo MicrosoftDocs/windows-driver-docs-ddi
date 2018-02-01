@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd0bbd6e-bb23-4d0c-9cac-9bb7657876a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTarget interface, FormatRequestForIoctl method, wdf.iwdfiotarget_formatrequestforioctl, wudfddi/IWDFIoTarget::FormatRequestForIoctl, FormatRequestForIoctl, IWDFIoTarget, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, IWDFIoTarget::FormatRequestForIoctl, FormatRequestForIoctl method, umdf.iwdfiotarget_formatrequestforioctl, FormatRequestForIoctl method, IWDFIoTarget interface
+ms.keywords: FormatRequestForIoctl, IWDFIoTarget, FormatRequestForIoctl method, IWDFIoTarget interface, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, IWDFIoTarget::FormatRequestForIoctl, FormatRequestForIoctl method, wdf.iwdfiotarget_formatrequestforioctl, IWDFIoTarget interface, FormatRequestForIoctl method, wudfddi/IWDFIoTarget::FormatRequestForIoctl, umdf.iwdfiotarget_formatrequestforioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,37 +76,37 @@ HRESULT FormatRequestForIoctl(
 
 
 
-#### - pRequest [in]
+### -param pRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the request object to format. 
 
 
-#### - IoctlCode [in]
+### -param IoctlCode [in]
 
 A control code that identifies a specific operation to perform.
 
 
-#### - pFile [in, optional]
+### -param pFile [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is associated with the I/O control request. For the default I/O target, this parameter must be non-NULL.
 
 
-#### - pInputMemory [in, optional]
+### -param pInputMemory [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface that is used to access the input buffer for the request. This parameter is optional.
 
 
-#### - pInputMemoryOffset [in, optional]
+### -param pInputMemoryOffset [in, optional]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes the input memory offset for the request. This parameter is optional.
 
 
-#### - pOutputMemory [in, optional]
+### -param pOutputMemory [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface that is used to access the output buffer for the request. This parameter is optional.
 
 
-#### - pOutputMemoryOffset [in, optional]
+### -param pOutputMemoryOffset [in, optional]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes the output memory offset for the request. This parameter is optional.
 
@@ -120,15 +120,15 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
  
 

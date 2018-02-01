@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CFA0C474-129A-4A05-B426-520B96C318D8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001
+ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 {
 
 
 
-#### - DeviceDependentLayoutCount
+### -field DeviceDependentLayoutCount
 
 A device dependent layout count. This must be the number of device-dependent layouts supported by the adapter. 
 
 
-#### - DeviceDependentSwizzleCount
+### -field DeviceDependentSwizzleCount
 
 A device dependent swizzle count. This must be the number of device-dependent swizzle patterns supported by the adapter. 
 
 
-#### - Supports64KStandardSwizzle
+### -field Supports64KStandardSwizzle
 
 Whether the texture layout supports 64K standard swizzle.
 

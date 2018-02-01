@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, GetSourceFileLineOffsetsWide method [Windows Debugging], debugger.getsourcefilelineoffsetswide, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceFileLineOffsetsWide, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, IDebugSymbols3
+ms.keywords: IDebugSymbols3::GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetSourceFileLineOffsetsWide(
 
 
 
-#### - File [in]
+### -param File [in]
 
 Specifies the name of the file whose lines will be turned into locations in the target's memory.  The symbols for each module in the target are queried for this file.  If the file is not located, the path is dropped and the symbols are queried again.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the locations in the target's memory that correspond to the lines of the source code.  The first entry returned to this array corresponds to the first line of the file, so that <code>Buffer[i]</code> contains the location for line <code>i+1</code>.  If no symbol information is available for a line, the corresponding entry in <i>Buffer</i> is set to DEBUG_INVALID_OFFSET.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferLines [in]
+### -param BufferLines [in]
 
 Specifies the number of PULONG64 objects that the <i>Buffer</i> array can hold.
 
 
-#### - FileLines [out, optional]
+### -param FileLines [out, optional]
 
 Receives the number of lines in the source file specified by <i>File</i>.
 
@@ -134,9 +134,9 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

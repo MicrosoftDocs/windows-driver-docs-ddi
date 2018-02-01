@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1243f679-76c3-4d2e-8d57-b9d652b21a05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, print.iprintoemprintticketprovider_convertprinttickettodevmode, IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, ConvertPrintTicketToDevMode method [Print Devices], ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode
+ms.keywords: print.iprintoemprintticketprovider_convertprinttickettodevmode, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider, ConvertPrintTicketToDevMode, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT ConvertPrintTicketToDevMode(
 
 
 
-#### - pPrintTicket [in]
+### -param pPrintTicket [in]
 
 A pointer to the input print ticket.
 
 
-#### - cbDevmode [in]
+### -param cbDevmode [in]
 
 The size, in bytes, of the input <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. This size includes both the public and private sections of the DEVMODEW structure. 
 
 
-#### - pDevmode [in, out]
+### -param pDevmode [in, out]
 
 A pointer to the input DEVMODEW structure. When <code>IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</code> returns, the plug-in's private DEVMODEW structure will contain information that was obtained from the print ticket.
 
 
-#### - cbDrvPrivateSize [in]
+### -param cbDrvPrivateSize [in]
 
 The size, in bytes, of the plug-in's private DEVMODEW structure. 
 
 
-#### - pPrivateDevmode [in]
+### -param pPrivateDevmode [in]
 
 A pointer to the plug-in's private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
 

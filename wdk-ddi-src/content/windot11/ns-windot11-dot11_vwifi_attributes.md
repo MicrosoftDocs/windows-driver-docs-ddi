@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46eee6ea-8259-4036-b1c4-f0eef6587879
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_ATTRIBUTES, windot11/PDOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES, windot11/DOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, netvista.dot11_vwifi_attributes
+ms.keywords: PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_VWIFI_ATTRIBUTES, windot11/DOT11_VWIFI_ATTRIBUTES, Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, netvista.dot11_vwifi_attributes, PDOT11_VWIFI_ATTRIBUTES, windot11/PDOT11_VWIFI_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct DOT11_VWIFI_ATTRIBUTES {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_VWIFI_ATTRIBUTES structure. This member is formatted as
      an 
@@ -87,11 +87,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_VWIFI_ATTRIBUTES_REVISION_1.
@@ -103,7 +98,12 @@ This member must be set to
        sizeof(DOT11_VWIFI_ATTRIBUTES).
 
 
-#### - uTotalNumOfEntries
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uTotalNumOfEntries
 
 The maximum number of entries that the 
      <b>Combinations</b> array can contain.
@@ -124,21 +124,21 @@ The maximum number of entries that the
  
 
 
-#### - Combinations
+### -field Combinations
 
 The list of supported combinations of 802.11 MAC entities that an 802.11 miniport driver can
      simultaneously support when it is virtualized. Each entry in this list is specified through an array of 
-     <a href="..\windot11\ns-windot11-_dot11_vwifi_combination.md">DOT11_VWIFI_COMBINATION</a>,  <mshelp:link keywords="netvista.dot11_vwifi_combination_v2" tabindex="0"><b>
-     DOT11_VWIFI_COMBINATION_V2</b></mshelp:link>, or <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a> structures.
+     <a href="..\windot11\ns-windot11-_dot11_vwifi_combination.md">DOT11_VWIFI_COMBINATION</a>,  <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v2.md">
+     DOT11_VWIFI_COMBINATION_V2</a>, or <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a> structures.
 
 
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v2.md">DOT11_VWIFI_COMBINATION_V2</a>
-
 <a href="..\windot11\ns-windot11-_dot11_vwifi_combination.md">DOT11_VWIFI_COMBINATION</a>
+
+<a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v2.md">DOT11_VWIFI_COMBINATION_V2</a>
 
  
 

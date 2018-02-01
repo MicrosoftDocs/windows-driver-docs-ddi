@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a83c6eb9-a29a-4695-99d3-168dff68c4a2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveCyclic::NewStream, IMiniportWaveCyclic interface [Audio Devices], NewStream method, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, NewStream method [Audio Devices], IMiniportWaveCyclic interface, IMiniportWaveCyclic, NewStream, portcls/IMiniportWaveCyclic::NewStream, NewStream method [Audio Devices], audio.iminiportwavecyclic_newstream
+ms.keywords: IMiniportWaveCyclic::NewStream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, portcls/IMiniportWaveCyclic::NewStream, IMiniportWaveCyclic, IMiniportWaveCyclic interface [Audio Devices], NewStream method, NewStream method [Audio Devices], IMiniportWaveCyclic interface, audio.iminiportwavecyclic_newstream, NewStream method [Audio Devices], NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,42 +74,42 @@ NTSTATUS NewStream(
 
 
 
-#### - Stream [out]
+### -param Stream [out]
 
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a> interface. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-#### - OuterUnknown [in, optional]
+### -param OuterUnknown [in, optional]
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration.
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 Number of the pin that is to be opened. If the WaveCyclic miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid values for parameter <i>Pin</i> are in the range 0 to <i>n</i>-1.
 
 
-#### - Capture [in]
+### -param Capture [in]
 
 Specifies whether to create a capture stream or a render stream. This parameter is <b>TRUE</b> for a capture (input) channel, and <b>FALSE</b> for a playback (output) channel.
 
 
-#### - DataFormat [in]
+### -param DataFormat [in]
 
 Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure indicating the format to use for this instance.
 
 
-#### - DmaChannel [out]
+### -param DmaChannel [out]
 
 Output pointer to the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> interface of the miniport driver's DMA-channel object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter. For more information, see the following Remarks section.
 
 
-#### - ServiceGroup [out]
+### -param ServiceGroup [out]
 
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
@@ -158,17 +158,17 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
 
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 

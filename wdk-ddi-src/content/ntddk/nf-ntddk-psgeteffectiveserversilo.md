@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60FCFF5B-4040-423F-A9B6-2DFE7DDD9DD0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetEffectiveServerSilo, PsGetEffectiveServerSilo, kernel.psgeteffectiveserversilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture], ntddk/PsGetEffectiveServerSilo, PsGetEffectiveServerSilo, kernel.psgeteffectiveserversilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PESILO PsGetEffectiveServerSilo(
 
 
 
-#### - Silo [in]
+### -param Silo [in]
 
  A pointer to a silo.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 168AC5F4-652B-405C-BE41-CD416A66FB74
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/SRBEX_DATA_SCSI_CDB16, storport/PSRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], _SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], PSRBEX_DATA_SCSI_CDB16, storage.srbex_data_scsi_cdb16, SRBEX_DATA_SCSI_CDB16
+ms.keywords: SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], storage.srbex_data_scsi_cdb16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], PSRBEX_DATA_SCSI_CDB16, _SRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16, storport/SRBEX_DATA_SCSI_CDB16, storport/PSRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _SRBEX_DATA_SCSI_CDB16 {
 
 
 
-#### - Type
+### -field Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypeScsiCdb16</b>.
 
 
-#### - Length
+### -field Length
 
 Length of the data in this structure, in bytes, starting with the <b>ScsiStatus</b> member. Set to SRBEX_DATA_SCSI_CDB16_LENGTH.
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 The SCSI status code returned for the submitted SRB.
 
 
-#### - SenseInfoBufferLength
+### -field SenseInfoBufferLength
 
 The length of the sense information returned in the buffer pointed to by <b>SenseInfoBuffer</b>.
 
 
-#### - CdbLength
+### -field CdbLength
 
 The length of the CDB data, in bytes, of the <b>Cdb</b> array.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved. Set to 0.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved. Set to 0.
 
 
-#### - SenseInfoBuffer
+### -field SenseInfoBuffer
 
 A pointer to a buffer containing any returned sense information.
 
 
-#### - Cdb
+### -field Cdb
 
 The 16-byte CDB buffer.
 

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], SPB.spbcontrollersetioothercallback, spbcx/SpbControllerSetIoOtherCallback
+ms.keywords: SpbControllerSetIoOtherCallback, spbcx/SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], SPB.spbcontrollersetioothercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID SpbControllerSetIoOtherCallback(
 
 
 
-#### - FxDevice [in]
+### -param FxDevice [in]
 
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
 
-#### - EvtSpbControllerIoOther [in]
+### -param EvtSpbControllerIoOther [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a> callback function. The SPB controller driver implements this function. The SPB framework extension (SpbCx) calls this function to pass an I/O control request to the controller driver. For more information about the type of I/O requests that are passed to this function, see the following Remarks section.
 
 
-#### - EvtIoInCallerContext [in, optional]
+### -param EvtIoInCallerContext [in, optional]
 
 A pointer to an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function that is called when an I/O control request first arrives at the controller's I/O queue, and the request contains an IOCTL code that the SPB framework extension (SpbCx) does not recognize. This callback runs in the process context of the request originator, and can preprocess requests that will later be processed by the <i>EvtSpbControllerIoOther</i> callback. This parameter is optional and can be specified as NULL if no such preprocessing is required. For more information, see the following Remarks section.
 
@@ -112,9 +112,9 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a>
 
 <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
 

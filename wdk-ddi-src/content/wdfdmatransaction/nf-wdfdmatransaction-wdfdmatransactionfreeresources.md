@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F35F80E7-E1B6-4219-96AF-687E0014CCB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionFreeResources method, wdf.wdfdmatransactionfreeresources, PFN_WDFDMATRANSACTIONFREERESOURCES, WdfDmaTransactionFreeResources, kmdf.wdfdmatransactionfreeresources, wdfdmatransaction/WdfDmaTransactionFreeResources
+ms.keywords: kmdf.wdfdmatransactionfreeresources, PFN_WDFDMATRANSACTIONFREERESOURCES, wdfdmatransaction/WdfDmaTransactionFreeResources, WdfDmaTransactionFreeResources, wdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ void WdfDmaTransactionFreeResources(
 
 
 
-#### - DmaTransaction [in]
+### -param DmaTransaction [in]
 
 A handle to the DMA transaction object that the driver provided in a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>.
 

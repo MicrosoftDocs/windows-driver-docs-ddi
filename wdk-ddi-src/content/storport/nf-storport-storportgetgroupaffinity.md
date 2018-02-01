@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eec0c985-fb59-4190-afb8-5eb62ac1edea
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetGroupAffinity, StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml, storage.storportgetgroupaffinity, StorPortGetGroupAffinity routine [Storage Devices]
+ms.keywords: storport/StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml, storage.storportgetgroupaffinity, StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortGetGroupAffinity(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - GroupNumber [in]
+### -param GroupNumber [in]
 
 The group from which to return the processor mask.
 
 
-#### - GroupAffinityMask [out]
+### -param GroupAffinityMask [out]
 
 A pointer to a variable that holds the affinity mask of the given group.
 

@@ -71,7 +71,7 @@ DWORD WINAPI * Dot11ExtSendNotification(
 
 
 
-#### - hDot11SvcHandle [in, optional]
+### -param hDot11SvcHandle [in, optional]
 
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the 
@@ -79,7 +79,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-#### - pNotificationData [in]
+### -param pNotificationData [in]
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557044">L2_NOTIFICATION_DATA</a> structure.

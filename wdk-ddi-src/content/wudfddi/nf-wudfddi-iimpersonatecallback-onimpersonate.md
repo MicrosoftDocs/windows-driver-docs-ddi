@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnImpersonate method, IImpersonateCallback interface, umdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate, IImpersonateCallback::OnImpersonate, OnImpersonate method, OnImpersonate, IImpersonateCallback interface, OnImpersonate method, IImpersonateCallback, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, wdf.iimpersonatecallback_onimpersonate
+ms.keywords: wudfddi/IImpersonateCallback::OnImpersonate, wdf.iimpersonatecallback_onimpersonate, OnImpersonate method, IImpersonateCallback interface, umdf.iimpersonatecallback_onimpersonate, IImpersonateCallback::OnImpersonate, IImpersonateCallback, IImpersonateCallback interface, OnImpersonate method, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, OnImpersonate method, OnImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void OnImpersonate(
 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to a context that was previously supplied in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a> method. This parameter is optional and can be <b>NULL</b> if a context is not required. 
 
@@ -97,9 +97,9 @@ For more information about how UMDF and UMDF drivers handle impersonation, see <
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
+<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
 
  
 

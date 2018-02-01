@@ -74,22 +74,22 @@ VOID ClfsLogGrowthCompleteCallback(
 
 
 
-#### - LogFile [in]
+### -param LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose log has finished growing.
 
 
-#### - OperationStatus [in]
+### -param OperationStatus [in]
 
 The status of the client's earlier request to handle a log file full condition. This will be either STATUS_SUCCESS or an error status that indicates the reason that the request could not be completed successfully.
 
 
-#### - LogIsPinned [in]
+### -param LogIsPinned [in]
 
 If <b>TRUE</b>, specifies that the log tail is currently pinned;  <b>FALSE</b> if the log tail is not pinned.
 
 
-#### - ClientData [in]
+### -param ClientData [in]
 
 A pointer to client-supplied information.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IBidiRequest::GetResult method [Print Devices], IBidiRequest interface, bidispl/IBidiRequest::IBidiRequest::GetResult, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, IBidiRequest::IBidiRequest::GetResult, IBidiRequest interface [Print Devices], IBidiRequest::GetResult method, IBidiRequest, gdi.ibidirequest_ibidirequest__getresult, IBidiRequest::GetResult method [Print Devices], GetResult, print.ibidirequest_ibidirequest__getresult
+ms.keywords: bidispl/IBidiRequest::IBidiRequest::GetResult, IBidiRequest::IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, IBidiRequest::GetResult method [Print Devices], GetResult, IBidiRequest::GetResult, IBidiRequest, IBidiRequest::GetResult method [Print Devices], IBidiRequest interface, print.ibidirequest_ibidirequest__getresult, IBidiRequest interface [Print Devices], IBidiRequest::GetResult method, gdi.ibidirequest_ibidirequest__getresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT IBidiRequest::GetResult(
 
 
 
-#### - phr [out]
+### -param phr [out]
 
 Pointer to a variable that specifies the status of the bidi request.
 

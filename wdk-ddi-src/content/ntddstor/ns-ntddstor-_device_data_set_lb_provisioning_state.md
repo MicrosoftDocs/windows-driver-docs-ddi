@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state, _DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, _DEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], DEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _DEVICE_DATA_SET_LB_PROVISIONING_STATE {
 
 
 
-#### - Size
+### -field Size
 
 The size of this structure, including the slab allocation bitmap, in bytes.
 
 
-#### - Version
+### -field Version
 
 The version of this structure.
 
 
-#### - SlabSizeInBytes
+### -field SlabSizeInBytes
 
 The size, in bytes, of a slab.
 
 
-#### - SlabOffsetDeltaInBytes
+### -field SlabOffsetDeltaInBytes
 
 The difference, in bytes, from the offset specified in the data set range to the starting slab position.
 
 
-#### - SlabAllocationBitMapBitCount
+### -field SlabAllocationBitMapBitCount
 
 The number of bits  in the allocation bitmap mapping  slabs for the data set range.
 
 
-#### - SlabAllocationBitMapLength
+### -field SlabAllocationBitMapLength
 
 The number of <b>ULONG</b> array values containing the slab allocation bitmap.
 
 
-#### - SlabAllocationBitMap
+### -field SlabAllocationBitMap
 
 A bitmap of slab allocations.
 
@@ -129,13 +129,13 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
-
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a339457-77df-480b-adb8-9406507ec8d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsFlowAssociateContext0, netvista.fwpsflowassociatecontext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml, fwpsk/FwpsFlowAssociateContext0
+ms.keywords: FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAssociateContext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml, netvista.fwpsflowassociatecontext0, FwpsFlowAssociateContext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS NTAPI FwpsFlowAssociateContext0(
 
 
 
-#### - flowId [in]
+### -param flowId [in]
 
 A run-time identifier that specifies the data flow with which to associate the context. The
      run-time identifier for a data flow is provided to a callout driver through the
@@ -81,15 +81,15 @@ A run-time identifier that specifies the data flow with which to associate the c
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
 
 
-#### - layerId [in]
+### -param layerId [in]
 
 The run-time identifier for the filtering layer with which the context is being associated. The context will be associated only with the specified filtering layer. For
      more information, see 
-     <mshelp:link keywords="netvista.run_time_filtering_layer_identifiers" tabindex="0">Run-time Filtering Layer
-     Identifiers</mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">Run-time Filtering Layer
+     Identifiers</a>.
 
 
-#### - calloutId [in]
+### -param calloutId [in]
 
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called the 
@@ -98,7 +98,7 @@ The run-time identifier for the callout in the filter engine. This identifier wa
      register the callout with the filter engine.
 
 
-#### - flowContext [in]
+### -param flowContext [in]
 
 The callout driver-defined context to be associated with the data flow. This parameter must not be
      zero. This context is opaque to the filter engine.
@@ -197,21 +197,21 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-
 <a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 985A7725-1EE1-4419-B8BE-FEE2306E93A7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: urstypes/UrsHardwareEventIdFloat, urstypes/UrsHardwareEventNone, urstypes/UrsHardwareEventPortTypeDfp, urstypes/URS_HARDWARE_EVENT, urstypes/UrsHardwareEventDetach, UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventPortTypeUfp, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT enumeration [Buses], URS_HARDWARE_EVENT enumeration [Buses], urstypes/UrsHardwareEventIdGround, _URS_HARDWARE_EVENT, UrsHardwareEventDetach, buses.urs_hardware_event, UrsHardwareEventPortTypeUfp, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, UrsHardwareEventIdFloat, URS_HARDWARE_EVENT, UrsHardwareEventIdGround, UrsHardwareEventNone
+ms.keywords: UrsHardwareEventPortTypeUfp, urstypes/UrsHardwareEventNone, urstypes/UrsHardwareEventPortTypeUfp, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT, _URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, UrsHardwareEventNone, UrsHardwareEventIdFloat, URS_HARDWARE_EVENT enumeration [Buses], urstypes/UrsHardwareEventIdFloat, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT enumeration [Buses], UrsHardwareEventIdGround, buses.urs_hardware_event, UrsHardwareEventPortTypeDfp, UrsHardwareEventDetach, urstypes/UrsHardwareEventDetach, urstypes/UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventIdGround, urstypes/URS_HARDWARE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _URS_HARDWARE_EVENT {
 
 
 
-#### - UrsHardwareEventNone
+### -field UrsHardwareEventNone
 
 Internal use only. 
 
 
-#### - UrsHardwareEventDetach
+### -field UrsHardwareEventDetach
 
 A detach event occurred on a port of a USB Type-C system. 
 
 
-#### - UrsHardwareEventIdGround
+### -field UrsHardwareEventIdGround
 
 This event indicates that the ID pin is grounded.
 
 
-#### - UrsHardwareEventIdFloat
+### -field UrsHardwareEventIdFloat
 
 This event indicates that the ID pin is floating.
 
 
-#### - UrsHardwareEventPortTypeDfp
+### -field UrsHardwareEventPortTypeDfp
 
 The Type-C connector has resolved to DFP. Not to be used directly by the URS client driver.
 
 
-#### - UrsHardwareEventPortTypeUfp
+### -field UrsHardwareEventPortTypeUfp
 
 The Type-C connector has resolved to UFP. Not to be used directly by the URS client driver.
 

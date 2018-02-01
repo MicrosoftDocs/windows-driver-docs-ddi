@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbc49675-93d1-4ea2-9a3d-b72d76521de7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPowerNotify, PowerChangeNotify, audio.ipowernotify_powerchangenotify, portcls/IPowerNotify::PowerChangeNotify, PowerChangeNotify method [Audio Devices], IPowerNotify interface, PowerChangeNotify method [Audio Devices], IPowerNotify interface [Audio Devices], PowerChangeNotify method, IPowerNotify::PowerChangeNotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml
+ms.keywords: PowerChangeNotify, IPowerNotify, audio.ipowernotify_powerchangenotify, PowerChangeNotify method [Audio Devices], IPowerNotify interface [Audio Devices], PowerChangeNotify method, portcls/IPowerNotify::PowerChangeNotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, IPowerNotify::PowerChangeNotify, PowerChangeNotify method [Audio Devices], IPowerNotify interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ void PowerChangeNotify(
 
 
 
-#### - PowerState [in]
+### -param PowerState [in]
 
 Specifies the current power state. This parameter is a union of type POWER_STATE. The new power state (<i>PowerState</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>.
 

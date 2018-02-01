@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCreateSystemThread routine [Kernel-Mode Driver Architecture], wdm/IoCreateSystemThread, IoCreateSystemThread, kernel.iocreatesystemthread
+ms.keywords: wdm/IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, IoCreateSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ NTSTATUS IoCreateSystemThread(
 
 
 
-#### - IoObject [in, out]
+### -param IoObject [in, out]
 
 A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> or <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> to associate with          the created thread. <b>IoCreateSystemThread</b> takes a counted reference to this object. The I/O manager later releases this reference when the thread exits. For more information, see Remarks.
 
 
-#### - ThreadHandle [out]
+### -param ThreadHandle [out]
 
 A pointer to a variable to which the routine writes the kernel handle for the created thread. When the handle is no longer needed, the driver must close the handle by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the types of access the caller requests to the created thread.
 
 
-#### - ObjectAttributes [in, optional]
+### -param ObjectAttributes [in, optional]
 
 A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the thread object's attributes. The OBJ_PERMANENT, OBJ_EXCLUSIVE, and OBJ_OPENIF attributes are not valid attributes for a thread object. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute in the <b>OBJECT_ATTRIBUTES</b> structure.
 
 
-#### - ProcessHandle [in, optional]
+### -param ProcessHandle [in, optional]
 
 An open handle for the process in whose address space the created thread is to run. The caller's thread must have PROCESS_CREATE_THREAD access to this process. If this parameter is <b>NULL</b>, the thread will be created in the initial system process. This parameter should be <b>NULL</b> for a driver-created thread. Use the <b>NtCurrentProcess</b> macro, defined in the Wdm.h header file, to specify the current process.
 
 
-#### - ClientId [out, optional]
+### -param ClientId [out, optional]
 
 A pointer to a structure to which the routine writes the client identifier for the created thread. This parameter should be <b>NULL</b> for a driver-created thread.
 
 
-#### - StartRoutine [in]
+### -param StartRoutine [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a> routine that is the entry point for the created thread.
 
 
-#### - StartContext [in, optional]
+### -param StartContext [in, optional]
 
 A context pointer that is passed as the <i>StartContext</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a> routine when the created thread starts to run.
 
@@ -191,23 +191,23 @@ In contrast to a system thread that is created by the <a href="..\wdm\nf-wdm-psc
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
  
 

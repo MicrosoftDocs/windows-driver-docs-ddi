@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9107fa7b-b061-4505-aef7-be04587a4199
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerClassDeviceControl, storage.changerclassdevicecontrol, ChangerClassDeviceControl routine [Storage Devices], chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml, mcd/ChangerClassDeviceControl
+ms.keywords: ChangerClassDeviceControl routine [Storage Devices], storage.changerclassdevicecontrol, chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml, mcd/ChangerClassDeviceControl, ChangerClassDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS ChangerClassDeviceControl(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object of the device. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the I/O request packet (IRP) that initiated the device control operation. 
 

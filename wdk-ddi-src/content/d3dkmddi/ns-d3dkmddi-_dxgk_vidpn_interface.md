@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ddd110c-2521-4df6-a936-e702a0f15312
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_VIDPN_INTERFACE, DXGK_VIDPN_INTERFACE, display.dxgk_vidpn_interface, DXGK_VIDPN_INTERFACE structure [Display Devices], DmStructs_0fb940db-3ede-4eac-938b-89e34a9b337d.xml, _DXGK_VIDPN_INTERFACE
+ms.keywords: "_DXGK_VIDPN_INTERFACE, DmStructs_0fb940db-3ede-4eac-938b-89e34a9b337d.xml, DXGK_VIDPN_INTERFACE, d3dkmddi/DXGK_VIDPN_INTERFACE, DXGK_VIDPN_INTERFACE structure [Display Devices], display.dxgk_vidpn_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _DXGK_VIDPN_INTERFACE {
 
 
 
-#### - Version
+### -field Version
 
 A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_vidpn_interface_version.md">DXGK_VIDPN_INTERFACE_VERSION</a> enumerator that specifies the version of the interface.
 
 
-#### - pfnGetTopology
+### -field pfnGetTopology
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_gettopology.md">pfnGetTopology</a> function.
 
 
-#### - pfnAcquireSourceModeSet
+### -field pfnAcquireSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset.md">pfnAcquireSourceModeSet</a> function.
 
 
-#### - pfnReleaseSourceModeSet
+### -field pfnReleaseSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_releasesourcemodeset.md">pfnReleaseSourceModeSet</a> function.
 
 
-#### - pfnCreateNewSourceModeSet
+### -field pfnCreateNewSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset.md">pfnCreateNewSourceModeSet</a> function.
 
 
-#### - pfnAssignSourceModeSet
+### -field pfnAssignSourceModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_assignsourcemodeset.md">pfnAssignSourceModeSet</a> function.
 
 
-#### - pfnAssignMultisamplingMethodSet
+### -field pfnAssignMultisamplingMethodSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_assignmultisamplingmethodset.md">pfnAssignMultisamplingMethodSet</a> function.
 
 
-#### - pfnAcquireTargetModeSet
+### -field pfnAcquireTargetModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a> function.
 
 
-#### - pfnReleaseTargetModeSet
+### -field pfnReleaseTargetModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_releasetargetmodeset.md">pfnReleaseTargetModeSet</a> function.
 
 
-#### - pfnCreateNewTargetModeSet
+### -field pfnCreateNewTargetModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewtargetmodeset.md">pfnCreateNewTargetModeSet</a> function.
 
 
-#### - pfnAssignTargetModeSet
+### -field pfnAssignTargetModeSet
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_assigntargetmodeset.md">pfnAssignTargetModeSet</a> function.
 

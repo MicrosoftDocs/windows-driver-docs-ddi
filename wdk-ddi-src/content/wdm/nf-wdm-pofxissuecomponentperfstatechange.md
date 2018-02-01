@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DBB4747B-F6CF-4842-988C-6FAA9C552EA9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange, kernel.pofxissuecomponentperfstatechange, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_ASYNC_ONLY
+ms.keywords: PoFxIssueComponentPerfStateChange, wdm/PoFxIssueComponentPerfStateChange, kernel.pofxissuecomponentperfstatechange, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_ASYNC_ONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ VOID PoFxIssueComponentPerfStateChange(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 The flags that modify the behavior of the performance state change operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
@@ -113,17 +113,17 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 </table> 
 
 
-#### - Component [in]
+### -param Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-#### - PerfChange [in]
+### -param PerfChange [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_po_fx_perf_state_change.md">PO_FX_PERF_STATE_CHANGE</a> structure that represents the new performance state of the component.
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to the context for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a> callback routine. This parameter is optional. It is provided so that a driver or device context can be passed to the callback routine. If this parameter is not used, it must be set to NULL.
 
@@ -157,15 +157,15 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
-
 <a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
 
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
  
 

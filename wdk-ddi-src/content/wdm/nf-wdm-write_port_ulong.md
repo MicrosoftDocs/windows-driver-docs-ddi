@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fe7c8a20-dadb-4c8d-b208-8fbbf8c719a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WRITE_PORT_ULONG routine [Kernel-Mode Driver Architecture], k103_3cc5c915-f77f-4cec-af7c-bee345e2137a.xml, kernel.write_port_ulong, WRITE_PORT_ULONG, wdm/WRITE_PORT_ULONG
+ms.keywords: kernel.write_port_ulong, k103_3cc5c915-f77f-4cec-af7c-bee345e2137a.xml, WRITE_PORT_ULONG routine [Kernel-Mode Driver Architecture], wdm/WRITE_PORT_ULONG, WRITE_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ The <b>WRITE_PORT_ULONG</b> routine writes a ULONG value to the specified port a
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a ULONG value to be written to the port. 
 

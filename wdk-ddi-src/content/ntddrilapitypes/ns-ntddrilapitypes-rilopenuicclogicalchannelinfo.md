@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5001f623-5b53-4ae7-9b5b-dc3bd5bdcc70
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], RILOPENUICCLOGICALCHANNELINFO, netvista.rilopenuicclogicalchannelinfo, *LPRILOPENUICCLOGICALCHANNELINFO
+ms.keywords: netvista.rilopenuicclogicalchannelinfo, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO, ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILOPENUICCLOGICALCHANNELINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwChannelId
+### -field dwChannelId
 
 
 
-#### - dwSelectResponseLength
+### -field dwSelectResponseLength
 
 
 
-#### - bSelectResponse
+### -field bSelectResponse
 
 

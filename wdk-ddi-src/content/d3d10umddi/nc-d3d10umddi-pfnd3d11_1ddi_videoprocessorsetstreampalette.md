@@ -95,6 +95,16 @@ VOID APIENTRY* pfnVideoProcessorSetStreamPalette(
 
 
 
+#### - Count [in]
+
+The number of elements in the array that is referenced by the <i>pEntries</i> parameter.
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -107,16 +117,6 @@ A handle to the display device (graphics context).
 A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
 
 
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - Count [in]
-
-The number of elements in the array that is referenced by the <i>pEntries</i> parameter.
 
 
 #### - pEntries [in]
@@ -149,9 +149,9 @@ The driver reports its ability to support palettized color formats in the <a hre
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 

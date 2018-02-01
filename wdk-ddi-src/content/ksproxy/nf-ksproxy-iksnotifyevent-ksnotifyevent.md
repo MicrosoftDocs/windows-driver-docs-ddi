@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsNotifyEvent, stream.iksnotifyevent_ksnotifyevent, KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface, ksproxy/IKsNotifyEvent::KsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, IKsNotifyEvent::KsNotifyEvent, IKsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml
+ms.keywords: ksproxy/IKsNotifyEvent::KsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, IKsNotifyEvent, KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, stream.iksnotifyevent_ksnotifyevent, IKsNotifyEvent::KsNotifyEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT KsNotifyEvent(
 
 
 
-#### - Event [in]
+### -param Event [in]
 
 Identifies the type of DirectShow event. 
 
 
-#### - lParam1 [in]
+### -param lParam1 [in]
 
 Specifies the first data parameter for the event.
 
 
-#### - lParam2 [in]
+### -param lParam2 [in]
 
 Specifies the second data parameter for the event.
 

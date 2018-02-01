@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, storage.removepersistentlogin_out, _RemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], PRemovePersistentLogin_OUT structure pointer [Storage Devices], iscsiop/RemovePersistentLogin_OUT, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT
+ms.keywords: RemovePersistentLogin_OUT, storage.removepersistentlogin_out, PRemovePersistentLogin_OUT structure pointer [Storage Devices], _RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], *PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _RemovePersistentLogin_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output from <b>RemovePersistentLogin</b>, the status of the operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 

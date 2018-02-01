@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 057b548a-d9e4-4db4-b34f-d867b7be3971
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, image.scan, wiamicro/Scan, Scan, Scan function [Imaging Devices]
+ms.keywords: Scan function [Imaging Devices], Scan, image.scan, MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, wiamicro/Scan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ WIAMICRO_API HRESULT Scan(
 
 
 
-#### - pScanInfo [in, out]
+### -param pScanInfo [in, out]
 
 Specifies the <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure that represents the microdriver's settings. This is stored by the WIA Flatbed driver to guarantee that the settings between the microdriver and the WIA Flatbed driver are synchronized. 
 
 
-#### - lPhase
+### -param lPhase
 
 Specifies the scan phase requested. This parameter can be set to one of the following values.
 <table>
@@ -120,12 +120,12 @@ The data returned from this function should be in raw format without any header.
 </table> 
 
 
-#### - pBuffer [out]
+### -param pBuffer [out]
 
 Specifies the buffer that will be filled with scanned data by the microdriver. This buffer is allocated by the WIA Flatbed Driver and is guaranteed to be at least <i>lLength</i> bytes in length.
 
 
-#### - lLength
+### -param lLength
 
 Specifies the requested amount of data that will be scanned. The microdriver must never overfill the buffer pointed to by <i>pBuffer</i>.
 
@@ -150,11 +150,11 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
+<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
  
 

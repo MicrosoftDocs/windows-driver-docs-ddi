@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2d2e5d13-56ca-452c-86fd-4a48b11d53ab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SMS_SEND, PWWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_SEND, WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_SEND, *PWWAN_SMS_SEND, wwan/PWWAN_SMS_SEND, WwanRef_5212cb88-8eeb-4aef-8ecd-8a0634db962c.xml, _WWAN_SMS_SEND, netvista.wwan_sms_send
+ms.keywords: PWWAN_SMS_SEND, netvista.wwan_sms_send, wwan/PWWAN_SMS_SEND, *PWWAN_SMS_SEND, WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], WwanRef_5212cb88-8eeb-4aef-8ecd-8a0634db962c.xml, WWAN_SMS_SEND, PWWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_SEND, _WWAN_SMS_SEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,75 +72,9 @@ typedef struct _WWAN_SMS_SEND {
 
 
 
-#### - u
+### -field u
 
 Container union for the different SMS formats.
-
-
-#### Pdu
-
-Short message data types to be used depending on the value of 
-      <b>SmsFormat</b> as shown in the following table.
-      
-<table>
-<tr>
-<th>SmsFormat</th>
-<th>Member to use</th>
-</tr>
-<tr>
-<td>
-WwanSmsFormatPdu
-
-</td>
-<td>
-Pdu
-
-</td>
-</tr>
-<tr>
-<td>
-WwanSmsFormatCdma
-
-</td>
-<td>
-Cdma
-
-</td>
-</tr>
-</table> 
-
-
-#### Cdma
-
-Short message data types to be used depending on the value of 
-      <b>SmsFormat</b> as shown in the following table.
-      
-<table>
-<tr>
-<th>SmsFormat</th>
-<th>Member to use</th>
-</tr>
-<tr>
-<td>
-WwanSmsFormatPdu
-
-</td>
-<td>
-Pdu
-
-</td>
-</tr>
-<tr>
-<td>
-WwanSmsFormatCdma
-
-</td>
-<td>
-Cdma
-
-</td>
-</tr>
-</table> 
 
 
 ### -field u.Pdu
@@ -209,18 +143,18 @@ Cdma
 </table> 
 
 
-#### - SmsFormat
+### -field SmsFormat
 
 The format of the SMS text message.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_send_pdu.md">WWAN_SMS_SEND_PDU</a>
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_send.md">NDIS_WWAN_SMS_SEND</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_pdu.md">WWAN_SMS_SEND_PDU</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 23be30ba-3999-4e40-b0c5-30f0b37ff8c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetMsgMemoryStatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsgmemorystatus, RIL_SetMsgMemoryStatus
+ms.keywords: RIL_SetMsgMemoryStatus, netvista.ril_setmsgmemorystatus, rilapi/RIL_SetMsgMemoryStatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_SetMsgMemoryStatus(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - bMsgMemoryFull
+### -param bMsgMemoryFull
 
 
 

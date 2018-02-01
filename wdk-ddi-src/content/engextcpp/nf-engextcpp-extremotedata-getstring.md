@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff0aa7a7-1efd-4d55-8865-f36c039b27a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotedata_getstring, GetString method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetString method, GetString, EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, GetString method [Windows Debugging], ExtRemoteData, ExtRemoteData::GetString
+ms.keywords: GetString method [Windows Debugging], EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetString method, GetString method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_getstring, ExtRemoteData::GetString, GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ PTSTR GetString(
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Receives the null-terminated string read from the target.  The type of <i>Buffer</i> must be the same as the type of the string on the target.  If the string is a Unicode string, the type of <i>Buffer</i> must be PWSTR.  If the string is a multibyte string, the type of <i>Buffer</i> must be PSTR.
 <div class="alert"><b>Note</b>   the remainder of the <i>Buffer</i> buffer, after the string, can be overwritten by this method.</div><div> </div>
 
-#### - BufferChars [in]
+### -param BufferChars [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - MaxChars [in]
+### -param MaxChars [in]
 
 Specifies the maximum number of characters to read from the target.
 
 
-#### - MustFit [in]
+### -param MustFit [in]
 
 Specifies what happens if the string is larger than <i>BufferChars</i> characters.  If <i>MustFit</i> is <code>true</code> and the string is larger than <i>BufferChars</i> characters, an <b>ExtRemoteException</b> will be thrown.  If <i>MustFit</i> is <code>false</code> and the string is larger than <i>BufferChars</i> characters, the string will be truncated and null-terminated to fit inside the <i>Buffer</i> buffer.
 
@@ -112,9 +112,9 @@ This method can only be used if the region represented by the <a href="..\engext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544088">ExtRemoteData::ReadBuffer</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544088">ExtRemoteData::ReadBuffer</a>
 
  
 

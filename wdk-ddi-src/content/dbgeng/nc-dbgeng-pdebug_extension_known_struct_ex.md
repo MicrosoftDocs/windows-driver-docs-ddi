@@ -74,32 +74,32 @@ The <i>DebugExtensionKnownStructEx</i> callback function is called by extensions
 
 
 
-#### - Client [in]
+### -param Client [in]
 
 A debug client.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 An offset.
 
 
-#### - TypeName [in, optional]
+### -param TypeName [in, optional]
 
 The name of a type.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 An output buffer.
 
 
-#### - BufferChars [in, out, optional]
+### -param BufferChars [in, out, optional]
 
 A pointer to the length of the output buffer. 
 

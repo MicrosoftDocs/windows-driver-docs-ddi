@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], *PSTORAGE_TEMPERATURE_THRESHOLD, _STORAGE_TEMPERATURE_THRESHOLD, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], storage.storage_temperature_threshold
+ms.keywords: ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], *PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], PSTORAGE_TEMPERATURE_THRESHOLD, _STORAGE_TEMPERATURE_THRESHOLD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _STORAGE_TEMPERATURE_THRESHOLD {
 
 
 
-#### - Version
+### -field Version
 
 The version of the structure.
 
 
-#### - Size
+### -field Size
 
 The size of this structure. This should be set to sizeof(<b>STORAGE_TEMPERATURE_THRESHOLD</b>).
 
 
-#### - Flags
+### -field Flags
 
 Flags set for this request. The following are valid flags.
 <table>
@@ -98,22 +98,22 @@ Flags set for this request. The following are valid flags.
 </table> 
 
 
-#### - Index
+### -field Index
 
 Identifies the instance of temperature information. Starts from 0. Index 0 may indicate a composite value.
 
 
-#### - Threshold
+### -field Threshold
 
 A signed value that indicates the temperature of the threshold, in degrees Celsius.
 
 
-#### - OverThreshold
+### -field OverThreshold
 
 Indicates if the <i>Threshold</i> specifies the over or under temperature threshold. If <b>true</b>, set the <b>OverThreshold</b> temperature value of the device; otherwise, set the <b>UnderThreshold</b> temperature value. 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
@@ -124,9 +124,9 @@ Reserved for future use.
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
  
 

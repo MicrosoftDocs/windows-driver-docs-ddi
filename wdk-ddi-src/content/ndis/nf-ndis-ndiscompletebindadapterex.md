@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, ndis/NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], NdisCompleteBindAdapterEx
+ms.keywords: protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], netvista.ndiscompletebindadapterex, NdisCompleteBindAdapterEx, ndis/NdisCompleteBindAdapterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ VOID NdisCompleteBindAdapterEx(
 TBD
 
 
-#### - Status [in]
+### -param Status [in]
 
 The final status of the completed bind operation. This parameter can be one of the following
      values:
@@ -103,8 +103,8 @@ The protocol driver's attempt to set up a binding failed or the protocol driver 
 
 The handle that NDIS passed to the 
      <i>BindContext</i> parameter of the 
-     <mshelp:link keywords="netvista.protocolbindadapterex" tabindex="0"><i>
-     ProtocolBindAdapterEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+     ProtocolBindAdapterEx</a> function.
 
 
 ## -returns
@@ -131,9 +131,9 @@ If the open operation was successful, the protocol driver is ready to accept rec
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT, _D3DKMT_WAITFORVERTICALBLANKEVENT, display.d3dkmt_waitforverticalblankevent, OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices]
+ms.keywords: OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], display.d3dkmt_waitforverticalblankevent, D3DKMT_WAITFORVERTICALBLANKEVENT, _D3DKMT_WAITFORVERTICALBLANKEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
 
 
 
-#### - hAdapter
+### -field hAdapter
 
 [in] A handle to the adapter.
 
 
-#### - hDevice
+### -field hDevice
 
 [in] A handle to the display device. This member is optionally specified. However, if the OpenGL ICD specifies the display device, the kernel is given more optimization opportunities with regard to power usage. 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the VidPN source. 
 

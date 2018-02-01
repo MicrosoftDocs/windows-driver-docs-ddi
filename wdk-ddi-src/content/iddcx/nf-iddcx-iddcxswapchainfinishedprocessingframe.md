@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 46c4a592-b3d4-479d-b5db-06202b5be290
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxSwapChainFinishedProcessingFrame, display.iddcxswapchainfinishedprocessingframe, IddCxSwapChainFinishedProcessingFrame method [Display Devices], IddCxSwapChainFinishedProcessingFrame
+ms.keywords: IddCxSwapChainFinishedProcessingFrame method [Display Devices], display.iddcxswapchainfinishedprocessingframe, iddcx/IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ HRESULT IddCxSwapChainFinishedProcessingFrame(
 
 
 
-#### - SwapChainObject [in]
+### -param SwapChainObject [in]
 
 The swap-chain object whose current frame is being queried.
 

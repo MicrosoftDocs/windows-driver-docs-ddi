@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml, storport/StorPortWriteRegisterBufferUshort, storage.storportwriteregisterbufferushort, StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort routine [Storage Devices]
+ms.keywords: StorPortWriteRegisterBufferUshort routine [Storage Devices], storport/StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort, storage.storportwriteregisterbufferushort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ STORPORT_API VOID StorPortWriteRegisterBufferUshort(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory space range that was returned by <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>. 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer containing the data to be written.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of USHORT values to be transferred to the HBA.
 

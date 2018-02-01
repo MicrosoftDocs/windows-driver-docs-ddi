@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3f5fac9-013c-4739-a29e-c781b34e5289
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_NOMINALRANGE, DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, d3dumddi/DXVADDI_NominalRange_Normal, d3dumddi/DXVADDI_NOMINALRANGE, DXVADDI_NominalRangeMask, DXVADDI_NominalRange_0_255, d3dumddi/DXVADDI_NominalRangeMask, DXVADDI_NominalRange_Unknown, DXVADDI_NOMINALRANGE enumeration [Display Devices], DXVADDI_NominalRange_48_208, d3dumddi/DXVADDI_NominalRange_Unknown, DXVADDI_NominalRange_Normal, display.dxvaddi_nominalrange, d3dumddi/DXVADDI_NominalRange_0_255, _DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NominalRange_Wide, d3dumddi/DXVADDI_NominalRange_16_235, d3dumddi/DXVADDI_NominalRange_48_208, DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_Wide
+ms.keywords: d3dumddi/DXVADDI_NominalRange_Unknown, DXVADDI_NominalRange_Unknown, DXVADDI_NominalRange_0_255, DXVADDI_NominalRange_48_208, d3dumddi/DXVADDI_NominalRange_Normal, d3dumddi/DXVADDI_NOMINALRANGE, display.dxvaddi_nominalrange, DXVADDI_NominalRange_Wide, d3dumddi/DXVADDI_NominalRange_48_208, DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, _DXVADDI_NOMINALRANGE, DXVADDI_NOMINALRANGE enumeration [Display Devices], DXVADDI_NominalRangeMask, d3dumddi/DXVADDI_NominalRange_Wide, DXVADDI_NominalRange_16_235, d3dumddi/DXVADDI_NominalRange_0_255, d3dumddi/DXVADDI_NominalRange_16_235, DXVADDI_NOMINALRANGE, DXVADDI_NominalRange_Normal, d3dumddi/DXVADDI_NominalRangeMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,37 +73,37 @@ typedef enum _DXVADDI_NOMINALRANGE {
 
 
 
-#### - DXVADDI_NominalRangeMask
+### -field DXVADDI_NominalRangeMask
 
 The nominal range mask. The first 3 (0x07) bits of a DWORD can be used to specify nominal range.
 
 
-#### - DXVADDI_NominalRange_Unknown
+### -field DXVADDI_NominalRange_Unknown
 
 The nominal range is not specified.
 
 
-#### - DXVADDI_NominalRange_Normal
+### -field DXVADDI_NominalRange_Normal
 
 Normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
 
 
-#### - DXVADDI_NominalRange_Wide
+### -field DXVADDI_NominalRange_Wide
 
 Normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
 
 
-#### - DXVADDI_NominalRange_0_255
+### -field DXVADDI_NominalRange_0_255
 
 Normalized chroma [0..1] maps explicitly to [0..255] (8bit).
 
 
-#### - DXVADDI_NominalRange_16_235
+### -field DXVADDI_NominalRange_16_235
 
 Normalized chroma [0..1] maps explicitly to [16..235] (8bit).
 
 
-#### - DXVADDI_NominalRange_48_208
+### -field DXVADDI_NominalRange_48_208
 
 Normalized chroma [0..1] maps explicitly to [48..208] (8bit).
 

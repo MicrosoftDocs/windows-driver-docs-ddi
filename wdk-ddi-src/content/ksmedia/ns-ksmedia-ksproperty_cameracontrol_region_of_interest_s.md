@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a488d9f-1e34-4482-a2a8-7c160b00766c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_EXPOSURE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_FOCUS, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONVERGEMODE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, ksmedia/PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_AUTO, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_WB, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, stream.ksproperty_cameracontrol_region_of_interest_s, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_ASYNC
+ms.keywords: ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure [Streaming Media Devices], stream.ksproperty_cameracontrol_region_of_interest_s, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_ASYNC, ksmedia/PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_FOCUS, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_EXPOSURE, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_WB, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONVERGEMODE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_MANUAL, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct {
 
 
 
-#### - Capabilities
+### -field Capabilities
 
 Indicates whether the device and driver support setting the region of interest automatically or manually. This member a bitwise <b>OR</b> of these possible values:
 <table>
@@ -117,7 +117,7 @@ This capability is available starting with Windows 8.1.
 </table> 
 
 
-#### - Configuration
+### -field Configuration
 
 Configuration flags for control operations for the region. This is a bitwise OR combination of the following values.
 
@@ -170,7 +170,7 @@ Enable convergence of objects in the region
 </table> 
 
 
-#### - FocusRect
+### -field FocusRect
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows apps.
 
@@ -179,21 +179,21 @@ If <b>FocusRect</b> is not a valid value, or if all members of the <a href="http
 The rectangle's coordinates are with respect to the preview video resolution.
 
 
-#### - AutoFocusLock
+### -field AutoFocusLock
 
 If <b>TRUE</b>, the device should lock the focus to the current value.
 
 This member should be ignored if <b>FocusRect</b> is not a valid value.
 
 
-#### - AutoExposureLock
+### -field AutoExposureLock
 
 If <b>TRUE</b>, the device should lock the exposure to the current value.
 
 This member should be ignored if <b>FocusRect</b> is not a valid value.
 
 
-#### - AutoWhitebalanceLock
+### -field AutoWhitebalanceLock
 
 If <b>TRUE</b>, the device should lock the white balance setting to the current value.
 

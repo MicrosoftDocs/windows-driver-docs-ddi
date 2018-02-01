@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, winddiui/DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, DrvSplDeviceCaps
+ms.keywords: DrvSplDeviceCaps function [Print Devices], winddiui/DrvSplDeviceCaps, DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, print.drvspldevicecaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ DWORD DrvSplDeviceCaps(
 
 
 
-#### - hPrinter
+### -param hPrinter
 
 Caller-supplied handle to the printer.
 
@@ -102,11 +102,6 @@ TBD
 
 TBD
 
-
-
-#### - pwDeviceName [in]
-
-Caller-supplied pointer to a Unicode string that contains the printer name.
 
 
 #### - DeviceCap
@@ -148,11 +143,6 @@ If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of
 </table> 
 
 
-#### - pvOutput [out, optional]
-
-Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
-
-
 #### - cchBuf
 
 Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
@@ -161,6 +151,16 @@ Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput
 #### - pDM [in, optional]
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
+
+
+#### - pvOutput [out, optional]
+
+Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
+
+
+#### - pwDeviceName [in]
+
+Caller-supplied pointer to a Unicode string that contains the printer name.
 
 
 ## -returns

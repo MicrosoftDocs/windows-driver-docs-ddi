@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb2d56a0-37f4-48bc-8b56-e5250f0f7443
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxPurgeRelatedFobxs, RxPurgeRelatedFobxs function [Installable File System Drivers], ifsk.rxpurgerelatedfobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, scavengr/RxPurgeRelatedFobxs
+ms.keywords: ifsk.rxpurgerelatedfobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, RxPurgeRelatedFobxs, scavengr/RxPurgeRelatedFobxs, RxPurgeRelatedFobxs function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS RxPurgeRelatedFobxs(
 
 
 
-#### - NetRoot
+### -param NetRoot
 
 A pointer to the NET_ROOT structure for which the FOBX structures need to be purged.
 
 
-#### - RxContext
+### -param RxContext
 
 A pointer to the RX_CONTEXT structure.
 
@@ -86,7 +86,7 @@ A pointer to the RX_CONTEXT structure.
 TBD
 
 
-#### - PurgingFcb
+### -param PurgingFcb
 
 A pointer to the FCB structure for which purging should occur.
 
@@ -137,13 +137,13 @@ If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the sam
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
+<a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
 
-<a href="..\rxprocs\nf-rxprocs-rxscavengeallfobxs.md">RxScavengeAllFobxs</a>
+<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
 
 <a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
 
-<a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
+<a href="..\rxprocs\nf-rxprocs-rxscavengeallfobxs.md">RxScavengeAllFobxs</a>
 
  
 

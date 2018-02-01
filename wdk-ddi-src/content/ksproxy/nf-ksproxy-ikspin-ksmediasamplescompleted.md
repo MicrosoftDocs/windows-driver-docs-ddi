@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, KsMediaSamplesCompleted, ksproxy/IKsPin::KsMediaSamplesCompleted, IKsPin, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, stream.ikspin_ksmediasamplescompleted, IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface
+ms.keywords: KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin::KsMediaSamplesCompleted, ksproxy/IKsPin::KsMediaSamplesCompleted, stream.ikspin_ksmediasamplescompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, IKsPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT KsMediaSamplesCompleted(
 
 
 
-#### - StreamSegment [in]
+### -param StreamSegment [in]
 
 Pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a> structure that contains header information for a completed stream segment. 
 
@@ -90,11 +90,11 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
 
  
 

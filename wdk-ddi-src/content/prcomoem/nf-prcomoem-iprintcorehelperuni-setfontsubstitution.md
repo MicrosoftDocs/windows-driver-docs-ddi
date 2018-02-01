@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 73afb4e9-23c7-473c-937f-045bf5e332f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, IPrintCoreHelperUni, SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices], SetFontSubstitution method, SetFontSubstitution, IPrintCoreHelperUni::SetFontSubstitution, print.iprintcorehelperuni_setfontsubstitution, SetFontSubstitution method [Print Devices]
+ms.keywords: SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface [Print Devices], SetFontSubstitution method, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, SetFontSubstitution, print.iprintcorehelperuni_setfontsubstitution, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml, SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni::SetFontSubstitution, IPrintCoreHelperUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ STDMETHOD SetFontSubstitution(
 
 
 
-#### - pszTrueTypeFontName [in]
+### -param pszTrueTypeFontName [in]
 
 A pointer to a null-terminated Unicode string that contains a valid TrueType font name. This parameter must not be <b>NULL</b>.
 
 
-#### - pszDevFontName [in]
+### -param pszDevFontName [in]
 
 A pointer to a null-terminated Unicode string that contains the name of the device font. 
 

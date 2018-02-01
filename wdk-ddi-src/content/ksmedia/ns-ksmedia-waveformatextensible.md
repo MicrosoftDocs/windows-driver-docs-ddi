@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WAVEFORMATEXTENSIBLE structure [Audio Devices], ksmedia/WAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE, audio.waveformatextensible, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], *PWAVEFORMATEXTENSIBLE, aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, ksmedia/PWAVEFORMATEXTENSIBLE
+ms.keywords: audio.waveformatextensible, WAVEFORMATEXTENSIBLE structure [Audio Devices], WAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], ksmedia/WAVEFORMATEXTENSIBLE, aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, ksmedia/PWAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,23 +74,8 @@ typedef struct {
 
 
 
-#### - Samples
+### -field Samples
 
-
-
-#### wValidBitsPerSample
-
-Specifies the precision of the sample in bits. The value of this member should be less than or equal to the container size specified in the <b>Format</b>.<b>wBitsPerSample</b> member. For more information, see the following Remarks section.
-
-
-#### wSamplesPerBlock
-
-Specifies the number of samples contained in one compressed block. This value is useful for estimating buffer requirements for compressed formats that have a fixed number of samples within each block. Set this member to zero if each block of compressed audio data contains a variable number of samples. In this case, buffer-estimation and buffer-position information must be obtained in other ways.
-
-
-#### wReserved
-
-Reserved for internal use by operating system. Initialize to zero.
 
 
 ### -field Samples.wValidBitsPerSample
@@ -108,17 +93,17 @@ Specifies the number of samples contained in one compressed block. This value is
 Reserved for internal use by operating system. Initialize to zero.
 
 
-#### - Format
+### -field Format
 
 Specifies the stream's wave-data format. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>. The <b>wFormat</b> member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The <b>wBitsPerSample</b> member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and <b>wBitsPerSample</b> must be a multiple of eight.
 
 
-#### - dwChannelMask
+### -field dwChannelMask
 
 Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the <b>ActiveSpeakerPositions</b> member of the <a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a> structure. For more information, see the following Remarks section.
 
 
-#### - SubFormat
+### -field SubFormat
 
 Specifies the subformat. For more information, see the following Remarks section.
 

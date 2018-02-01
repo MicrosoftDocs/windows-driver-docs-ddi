@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 288a7b44-b842-41f8-8ece-d14a709b0717
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_voice_class, WwanVoiceClassNoVoice, WwanVoiceClassUnknown, wwan/WwanVoiceClassMax, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, wwan/WWAN_VOICE_CLASS, _WWAN_VOICE_CLASS, wwan/PWWAN_VOICE_CLASS, wwan/WwanVoiceClassSimultaneousVoiceData, PWWAN_VOICE_CLASS, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/WwanVoiceClassSeparateVoiceData, WwanVoiceClassSimultaneousVoiceData, *PWWAN_VOICE_CLASS, WwanVoiceClassSeparateVoiceData, WWAN_VOICE_CLASS, wwan/WwanVoiceClassNoVoice, WwanVoiceClassMax, wwan/WwanVoiceClassUnknown
+ms.keywords: WwanVoiceClassUnknown, PWWAN_VOICE_CLASS, WwanVoiceClassNoVoice, WwanVoiceClassSeparateVoiceData, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_VOICE_CLASS, WWAN_VOICE_CLASS, wwan/WwanVoiceClassSimultaneousVoiceData, wwan/WwanVoiceClassNoVoice, wwan/WWAN_VOICE_CLASS, wwan/PWWAN_VOICE_CLASS, WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, *PWWAN_VOICE_CLASS, wwan/WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassUnknown, wwan/WwanVoiceClassMax, netvista.wwan_voice_class, WwanVoiceClassMax, WwanVoiceClassSimultaneousVoiceData, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,27 +73,27 @@ typedef enum _WWAN_VOICE_CLASS {
 
 
 
-#### - WwanVoiceClassUnknown
+### -field WwanVoiceClassUnknown
 
 The device uses an unknown method to support voice connections.
 
 
-#### - WwanVoiceClassNoVoice
+### -field WwanVoiceClassNoVoice
 
 The device does not support voice connections.
 
 
-#### - WwanVoiceClassSeparateVoiceData
+### -field WwanVoiceClassSeparateVoiceData
 
 The device supports separate voice and data connections.
 
 
-#### - WwanVoiceClassSimultaneousVoiceData
+### -field WwanVoiceClassSimultaneousVoiceData
 
 The device supports simultaneous voice and data connections.
 
 
-#### - WwanVoiceClassMax
+### -field WwanVoiceClassMax
 
 The total number of supported cellular voice classes.
 

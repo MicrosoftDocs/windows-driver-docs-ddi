@@ -72,17 +72,17 @@ NTSTATUS KStrMethodHandler(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP that contains the method request.
 
 
-#### - Request [in]
+### -param Request [in]
 
 Specifies an aligned copy of the method parameter. This is typically a pointer to a <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a> structure.
 
 
-#### - Data [in, out]
+### -param Data [in, out]
 
 Specifies an aligned copy of the method data parameter or the system address of the original data parameter, depending on the flag that was specified in the <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a> structure for the method.
 
@@ -140,11 +140,11 @@ The following code snippet shows an example of an implementation of a method han
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
 <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 

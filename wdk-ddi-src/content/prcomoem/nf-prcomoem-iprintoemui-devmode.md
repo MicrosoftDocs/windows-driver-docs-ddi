@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: decc76c4-1973-41c5-9091-6dc5b9ccd30d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUI interface [Print Devices], DevMode method, DevMode, IPrintOemUI, DevMode method [Print Devices], print_unidrv-pscript_ui_3d5344ac-bacd-499b-87f7-c8e1b7f0e174.xml, print.iprintoemui_devmode, IPrintOemUI::DevMode, prcomoem/IPrintOemUI::DevMode, DevMode method [Print Devices], IPrintOemUI interface
+ms.keywords: print.iprintoemui_devmode, IPrintOemUI interface [Print Devices], DevMode method, IPrintOemUI::DevMode, prcomoem/IPrintOemUI::DevMode, DevMode, DevMode method [Print Devices], print_unidrv-pscript_ui_3d5344ac-bacd-499b-87f7-c8e1b7f0e174.xml, IPrintOemUI, DevMode method [Print Devices], IPrintOemUI interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ STDMETHOD DevMode(
 
 
 
-#### - dwMode
+### -param dwMode
 
 Caller-supplied constant. See the following Remarks section.
 
 
-#### - pOemDMParam
+### -param pOemDMParam
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemdmparam.md">OEMDMPARAM</a> structure.
 
@@ -140,9 +140,9 @@ The <code>IPrintOemUI::DevMode</code> method must perform the operation indicate
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a>
 
  
 

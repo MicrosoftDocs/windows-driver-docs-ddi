@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f7a08e0e-cbb1-4ec5-96c6-dade9d298d0a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSendSRL_OUT, SendSRL_OUT, *PSendSRL_OUT, hbapiwmi/SendSRL_OUT, storage.sendsrl_out, PSendSRL_OUT structure pointer [Storage Devices], SendSRL_OUT structure [Storage Devices], _SendSRL_OUT, PSendSRL_OUT, structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml
+ms.keywords: structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml, _SendSRL_OUT, hbapiwmi/SendSRL_OUT, PSendSRL_OUT, SendSRL_OUT, PSendSRL_OUT structure pointer [Storage Devices], SendSRL_OUT structure [Storage Devices], *PSendSRL_OUT, hbapiwmi/PSendSRL_OUT, storage.sendsrl_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendSRL_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-#### - TotalRspBufferSize
+### -field TotalRspBufferSize
 
 Contains the size in bytes of the results of the SRL command. 
 
 
-#### - ActualRspBufferSize
+### -field ActualRspBufferSize
 
 Contains the size in bytes of the data that was actually retrieved. 
 
 
-#### - RspBuffer
+### -field RspBuffer
 
 Contains the results of the SRL command. 
 

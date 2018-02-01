@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2185a1c0-e952-4dbd-b1a9-82339e417774
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgFlags function [Imaging Devices], wiauDbgFlags, wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml, wiautil/wiauDbgFlags, image.wiaudbgflags
+ms.keywords: wiauDbgFlags, wiauDbgFlags function [Imaging Devices], wiautil/wiauDbgFlags, wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml, image.wiaudbgflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ inline void __stdcall wiauDbgFlags(
 
 
 
-#### - flags
+### -param flags
 
 Is a set of flags that control which information is placed in the log file or displayed in the debugger. See the <i>flags</i> parameter of <a href="..\wiautil\nf-wiautil-wiaudbgsetflags.md">wiauDbgSetFlags</a> for a list of the flag values.
 
 
-#### - prefix
+### -param prefix
 
 Pointer to a string containing a prefix (such as "ERROR " or "WARN ").
 
 
-#### - fname
+### -param fname
 
 Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgDump</b> is inserted.
 

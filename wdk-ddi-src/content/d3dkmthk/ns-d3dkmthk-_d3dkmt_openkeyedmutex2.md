@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7d746cac-42fd-4fb3-9384-ea690c2235f8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_OPENKEYEDMUTEX2, d3dkmthk/D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices], display.d3dkmt_openkeyedmutex2"
+ms.keywords: D3DKMT_OPENKEYEDMUTEX2, _D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices], d3dkmthk/D3DKMT_OPENKEYEDMUTEX2, display.d3dkmt_openkeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX2 {
 
 
 
-#### - hSharedHandle
+### -field hSharedHandle
 
 [in] A D3DKMT_HANDLE data type that represents a global handle to a keyed mutex.
 
 
-#### - hKeyedMutex
+### -field hKeyedMutex
 
 [out] A D3DKMT_HANDLE data type that represents a handle to the keyed mutex in this process.
 
 
-#### - pPrivateRuntimeData
+### -field pPrivateRuntimeData
 
 [in] A buffer that contains initial private data. This buffer is copied only if the keyed mutex does not already have private data.
 
 
-#### - PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize
 
 [in] The size, in bytes, of the <b>pPrivateRuntimeData</b> member.
 

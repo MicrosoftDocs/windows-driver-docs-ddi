@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.islistempty, wdm/IsListEmpty, IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml
+ms.keywords: IsListEmpty, kernel.islistempty, k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, wdm/IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN IsListEmpty(
 
 
 
-#### - ListHead [in]
+### -param ListHead [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that represents the head of the list. 
 
@@ -95,11 +95,11 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
 
 <a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
-
 <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
  
 

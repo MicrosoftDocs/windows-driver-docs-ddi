@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/PDXGK_SPB_INTERFACE, _DXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], dispmprt/DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices]
+ms.keywords: dispmprt/DXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], *PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], display.dxgk_spb_interface, dispmprt/PDXGK_SPB_INTERFACE, _DXGK_SPB_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,67 +110,67 @@ typedef struct _DXGK_SPB_INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Version
+### -field Version
 
 The version number of the SPB interface. Version number constants are defined in Dispmprt.h (for example, DXGK_SPB_INTERFACE_VERSION_1).
 
 
-#### - Context
+### -field Context
 
 A pointer to a context that is provided by the display miniport driver.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display miniport driver.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display miniport driver.
 
 
-#### - OpenSpbResource
+### -field OpenSpbResource
 
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a> function.
 
 
-#### - CloseSpbResource
+### -field CloseSpbResource
 
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a> function.
 
 
-#### - ReadSpbResource
+### -field ReadSpbResource
 
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a> function.
 
 
-#### - WriteSpbResource
+### -field WriteSpbResource
 
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a> function.
 
 
-#### - SpbResourceIoControl
+### -field SpbResourceIoControl
 
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a> function.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
 
  
 

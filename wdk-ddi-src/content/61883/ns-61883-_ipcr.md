@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 81c89fbc-5d58-4983-b591-765a7818b932
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PIPCR, 61883/IPCR, IPCR structure [Buses], 61883/PIPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, IPCR, PIPCR structure pointer [Buses], _IPCR, *PIPCR, IEEE.ipcr
+ms.keywords: 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, IPCR structure [Buses], *PIPCR, IPCR, 61883/PIPCR, PIPCR structure pointer [Buses], _IPCR, 61883/IPCR, IEEE.ipcr, PIPCR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _IPCR {
 
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved. 
 
 
-#### - Channel
+### -field Channel
 
 Indicates the channel number that the input plug shall use to transmit the isochronous data flow, for a suspended input plug. For an active input plug it indicates the actual channel number that the input plug uses to transmit the isochronous data flow. For an unconnected input plug it has no meaning.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - PPCCounter
+### -field PPCCounter
 
 Indicates the number of point-to-point connections to the input plug. 
 
 
-#### - BCCCounter
+### -field BCCCounter
 
 Indicates, when one, that there is a broadcast-in connection to the input plug. When zero it indicates that there is no connection. 
 
 
-#### - OnLine
+### -field OnLine
 
 Indicates, when one, that the corresponding input plug is on-line. When zero it indicates that the input plug is off-line.
 

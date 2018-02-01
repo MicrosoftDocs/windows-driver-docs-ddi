@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerSetFailed method [Buses], ucxcontroller/UcxControllerSetFailed, UcxControllerSetFailed, buses._ucxcontrollersetfailed
+ms.keywords: UcxControllerSetFailed, ucxcontroller/UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void UcxControllerSetFailed(
 
 
 
-#### - Controller [in]
+### -param Controller [in]
 
 A handle to the controller object. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>.
 

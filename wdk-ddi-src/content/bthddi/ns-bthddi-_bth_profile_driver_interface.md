@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d4aa5fa9-966c-49c5-b41c-ca963a201e21
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE structure [Bluetooth Devices], PBTH_PROFILE_DRIVER_INTERFACE structure pointer [Bluetooth Devices], _BTH_PROFILE_DRIVER_INTERFACE, *PBTH_PROFILE_DRIVER_INTERFACE, bth_structs_0df6b87d-3846-49ed-9614-e83f2e828e7d.xml, bthddi/BTH_PROFILE_DRIVER_INTERFACE, bltooth.bth_profile_driver_interface, bthddi/PBTH_PROFILE_DRIVER_INTERFACE
+ms.keywords: BTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE structure pointer [Bluetooth Devices], *PBTH_PROFILE_DRIVER_INTERFACE, bltooth.bth_profile_driver_interface, bthddi/PBTH_PROFILE_DRIVER_INTERFACE, bth_structs_0df6b87d-3846-49ed-9614-e83f2e828e7d.xml, BTH_PROFILE_DRIVER_INTERFACE structure [Bluetooth Devices], _BTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE, bthddi/BTH_PROFILE_DRIVER_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _BTH_PROFILE_DRIVER_INTERFACE {
 
 
 
-#### - Interface
+### -field Interface
 
 A structure that describes the 
      <b>BTH_PROFILE_DRIVER_INTERFACE</b> interface for use by profile drivers. For more information about this
@@ -81,35 +81,35 @@ A structure that describes the
      <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
 
 
-#### - BthAllocateBrb
+### -field BthAllocateBrb
 
 Pointer to the 
      <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a> function.
 
 
-#### - BthFreeBrb
+### -field BthFreeBrb
 
 Pointer to the 
      <a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a> function.
 
 
-#### - BthInitializeBrb
+### -field BthInitializeBrb
 
 Pointer to the 
      <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a> function.
 
 
-#### - BthReuseBrb
+### -field BthReuseBrb
 
 Pointer to the 
      <a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a> function.
 
 
-#### - IsBluetoothVersionAvailable
+### -field IsBluetoothVersionAvailable
 
 Pointer to the 
-     <mshelp:link keywords="bltooth.isbluetoothversionavailable" tabindex="0"><b>
-     IsBluetoothVersionAvailable</b></mshelp:link> function.
+     <a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">
+     IsBluetoothVersionAvailable</a> function.
 
 
 ## -remarks
@@ -126,15 +126,15 @@ All the members of this structure, other than the
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
-<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
 
 <a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
 
-<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
 
 <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 

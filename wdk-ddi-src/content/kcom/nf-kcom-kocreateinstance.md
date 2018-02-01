@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, stream.kocreateinstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, KoCreateInstance
+ms.keywords: KoCreateInstance function [Streaming Media Devices], KoCreateInstance, stream.kocreateinstance, kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ NTSTATUS KoCreateInstance(
 
 
 
-#### - ClassId [in]
+### -param ClassId [in]
 
 The CLSID of the object to create an instance of.
 
 
-#### - UnkOuter [in, optional]
+### -param UnkOuter [in, optional]
 
 The outer unknown object to pass to the new instance.
 
 
-#### - ClsContext [in]
+### -param ClsContext [in]
 
 The context in which to create the instance. This must be CLSCTX_KERNEL_SERVER.
 
 
-#### - InterfaceId [in]
+### -param InterfaceId [in]
 
 Reference to the identifier of the interface that will communicate with the object.
 
 
-#### - Interface [out]
+### -param Interface [out]
 
 Address of the pointer variable that receives the new interface pointer specified in <i>InterfaceId</i>.
 

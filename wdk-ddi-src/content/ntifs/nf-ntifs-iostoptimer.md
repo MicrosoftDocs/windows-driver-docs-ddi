@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b903046-8f96-4299-94e7-85900be1bbd4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoStopTimer, k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, IoStopTimer routine [Kernel-Mode Driver Architecture], kernel.iostoptimer, IoStopTimer
+ms.keywords: IoStopTimer, k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, wdm/IoStopTimer, IoStopTimer routine [Kernel-Mode Driver Architecture], kernel.iostoptimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID IoStopTimer(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object with which the <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is associated.
 
@@ -90,9 +90,9 @@ Do not call <b>IoStopTimer</b> from within the <i>IoTimer</i> routine.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
-
 <a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
+
+<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
 
  
 

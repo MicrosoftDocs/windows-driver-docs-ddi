@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, *PDISK_INT13_INFO, PDISK_INT13_INFO, DISK_INT13_INFO, _DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO structure pointer [Storage Devices], storage.disk_int13_info
+ms.keywords: ntdddisk/DISK_INT13_INFO, PDISK_INT13_INFO, *PDISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], ntdddisk/PDISK_INT13_INFO, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, _DISK_INT13_INFO, DISK_INT13_INFO, storage.disk_int13_info, PDISK_INT13_INFO structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DISK_INT13_INFO {
 
 
 
-#### - DriveSelect
+### -field DriveSelect
 
 Corresponds to the Device/Head register defined in the <i>AT Attachment (ATA)</i> specification. When zero, the fourth bit of this register indicates that drive zero is selected. When 1, it indicates that drive one is selected. The values of bits 0, 1, 2, 3, and 6 depend on the command in the command register. Bits 5 and 7 are no longer used. For more information about the values that the Device/Head register can hold, see the ATA specification.
 
 
-#### - MaxCylinders
+### -field MaxCylinders
 
 Indicates the maximum number of cylinders on the disk. 
 
 
-#### - SectorsPerTrack
+### -field SectorsPerTrack
 
 Indicates the number of sectors per track. 
 
 
-#### - MaxHeads
+### -field MaxHeads
 
 Indicates the maximum number of disk heads. 
 
 
-#### - NumberDrives
+### -field NumberDrives
 
 Indicates the number of drives. 
 

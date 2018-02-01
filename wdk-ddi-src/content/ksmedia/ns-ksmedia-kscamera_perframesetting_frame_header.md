@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 59A52F4B-D987-420D-BF83-1375354C6D6A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER, PKSCAMERA_PERFRAMESETTING_FRAME_HEADER structure pointer [Streaming Media Devices], stream.kscamera_perframesetting_frame_header, *PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_FRAME_HEADER
+ms.keywords: "*PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, stream.kscamera_perframesetting_frame_header, ksmedia/KSCAMERA_PERFRAMESETTING_FRAME_HEADER, PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, PKSCAMERA_PERFRAMESETTING_FRAME_HEADER structure pointer [Streaming Media Devices], KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 The size of this header, all the item headers, value payloads, custom items, and custom data for this frame.
 
 
-#### - Id
+### -field Id
 
 The frame ID in the range of 0 and KSCAMERA_PERFRAMESETTING_HEADER.FrameCount - 1.
 
 
-#### - ItemCount
+### -field ItemCount
 
 The number of item settings for this frame. The value 0 indicates using global settings for this frame.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 

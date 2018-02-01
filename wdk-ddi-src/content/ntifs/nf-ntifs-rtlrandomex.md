@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlRandomEx, ifsk.rtlrandomex, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml, RtlRandomEx, RtlRandomEx routine [Installable File System Drivers]
+ms.keywords: ntifs/RtlRandomEx, RtlRandomEx, ifsk.rtlrandomex, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml, RtlRandomEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ ULONG RtlRandomEx(
 
 
 
-#### - Seed [in, out]
+### -param Seed [in, out]
 
 Unsigned long value from which to generate a random number. 
 

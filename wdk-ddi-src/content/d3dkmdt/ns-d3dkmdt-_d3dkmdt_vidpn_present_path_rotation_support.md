@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f60cd2cf-23b6-4fed-8548-d0483fb17fe1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_vidpn_present_path_rotation_support, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT structure [Display Devices], D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, DmStructs_a078867c-e6a4-4bbf-afb6-244b210a5671.xml
+ms.keywords: display.d3dkmdt_vidpn_present_path_rotation_support, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, DmStructs_a078867c-e6a4-4bbf-afb6-244b210a5671.xml, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT structure [Display Devices], _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,48 +76,48 @@ typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT {
 
 
 
-#### - Identity
+### -field Identity
 
 The path is capable of displaying content with no rotation.
 
 
-#### - Rotate90
+### -field Rotate90
 
 The path is capable of displaying content that is rotated 90 degrees.
 
 
-#### - Rotate180
+### -field Rotate180
 
 The path is capable of displaying content that is rotated 180 degrees.
 
 
-#### - Rotate270
+### -field Rotate270
 
 The path is capable of displaying content that is rotated 270 degrees.
 
 
-#### - Offset0
+### -field Offset0
 
 The path adds no rotational offset. For more info, see <a href="https://msdn.microsoft.com/0c9bdd42-aeaf-4cc8-a979-9ed8eeda3811">Clone-mode requirements starting with Windows 8.1 Update</a>.
 
 Supported starting with Windows 8.1 Update.
 
 
-#### - Offset90
+### -field Offset90
 
 The path adds a rotational offset of 90 degrees. For more info, see <a href="https://msdn.microsoft.com/0c9bdd42-aeaf-4cc8-a979-9ed8eeda3811">Clone-mode requirements starting with Windows 8.1 Update</a>.
 
 Supported starting with Windows 8.1 Update.
 
 
-#### - Offset180
+### -field Offset180
 
 The path adds a rotational offset of 180 degrees. For more info, see <a href="https://msdn.microsoft.com/0c9bdd42-aeaf-4cc8-a979-9ed8eeda3811">Clone-mode requirements starting with Windows 8.1 Update</a>.
 
 Supported starting with Windows 8.1 Update.
 
 
-#### - Offset270
+### -field Offset270
 
 The path adds a rotational offset of 270 degrees. For more info, see <a href="https://msdn.microsoft.com/0c9bdd42-aeaf-4cc8-a979-9ed8eeda3811">Clone-mode requirements starting with Windows 8.1 Update</a>.
 

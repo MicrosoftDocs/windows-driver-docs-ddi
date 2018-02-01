@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan, FltCloseSectionForDataScan routine [Installable File System Drivers], FltCloseSectionForDataScan
+ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS FltCloseSectionForDataScan(
 
 
 
-#### - SectionContext [in]
+### -param SectionContext [in]
 
 A pointer to the section context to close. 
 

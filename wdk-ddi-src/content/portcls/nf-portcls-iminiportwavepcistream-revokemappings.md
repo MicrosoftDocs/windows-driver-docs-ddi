@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices], IMiniportWavePciStream, RevokeMappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, portcls/IMiniportWavePciStream::RevokeMappings, audio.iminiportwavepcistream_revokemappings
+ms.keywords: portcls/IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream, RevokeMappings, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS RevokeMappings(
 
 
 
-#### - FirstTag [in]
+### -param FirstTag [in]
 
 Specifies the tag value that identifies the first mapping that is being revoked.
 
 
-#### - LastTag [in]
+### -param LastTag [in]
 
 Specifies the tag value that identifies the last mapping that is being revoked.
 
 
-#### - MappingsRevoked [out]
+### -param MappingsRevoked [out]
 
 Output pointer for the count of revoked mappings. This parameter points to a ULONG variable into which the method writes the number of mappings actually revoked by the call. This number excludes any mappings in the range <i>FirstTag</i> to <i>LastTag</i> that the miniport driver has already released. Due to synchronization issues, some of the mappings in the range might be released between the time that the port driver determines the list of mappings to be revoked and the call to <code>RevokeMappings</code>. For more information, see the following Remarks section.
 
@@ -116,17 +116,17 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
 
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5ab82378-ff12-46cc-814b-dc533db15a37
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaupropinpropspec, wiautil/wiauPropInPropSpec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, wiauPropInPropSpec, wiauPropInPropSpec function [Imaging Devices]
+ms.keywords: wiauPropInPropSpec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, wiauPropInPropSpec function [Imaging Devices], image.wiaupropinpropspec, wiautil/wiauPropInPropSpec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ BOOL _stdcall wiauPropInPropSpec(
 
 
 
-#### - NumPropSpecs
+### -param NumPropSpecs
 
 Specifies the number of property specification IDs in the array pointed to by <i>pPropSpecs</i>.
 
 
-#### - pPropSpecs [in]
+### -param pPropSpecs [in]
 
 Points to the first element of the property specification ID array.
 
 
-#### - PropId
+### -param PropId
 
 Specifies the property specification ID to search for in the array pointed to by <i>pPropSpecs</i>.
 

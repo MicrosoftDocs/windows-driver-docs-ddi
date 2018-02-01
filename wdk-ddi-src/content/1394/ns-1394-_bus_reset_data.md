@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.bus_reset_data, PBUS_RESET_DATA structure pointer [Buses], 1394/BUS_RESET_DATA, *PBUS_RESET_DATA, BUS_RESET_DATA, _BUS_RESET_DATA, PBUS_RESET_DATA, BUS_RESET_DATA structure [Buses], 1394/PBUS_RESET_DATA
+ms.keywords: "_BUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], PBUS_RESET_DATA structure pointer [Buses], 1394/BUS_RESET_DATA, PBUS_RESET_DATA, *PBUS_RESET_DATA, IEEE.bus_reset_data, 1394/PBUS_RESET_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _BUS_RESET_DATA {
 
 
 
-#### - ResetContext
+### -field ResetContext
 
 Pointer to a client driver-defined context when a bus reset occurs. The argument that is specified in the <b>u.BusResetNotification.ResetContext</b> parameter when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537638">REQUEST_BUS_RESET_NOTIFICATION</a> request is sent.
 
 
-#### - GenerationCount
+### -field GenerationCount
 
 The current generation of the 1394 bus.
 
 
-#### - DeviceNodeId
+### -field DeviceNodeId
 
 The 1394 address for the device.
 
 
-#### - LocalNodeId
+### -field LocalNodeId
 
 The 1394 address for the local host.
 
 
-#### - SpeedToNode
+### -field SpeedToNode
 
 The negotiated speed to the device. The possible values are as follows:
 <table>

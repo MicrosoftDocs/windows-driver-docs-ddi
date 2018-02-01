@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsAlignReservedLog, kernel.clfsalignreservedlog, wdm/ClfsAlignReservedLog, Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, wdm/ClfsAlignReservedLog, ClfsAlignReservedLog, kernel.clfsalignreservedlog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ NTSTATUS  ClfsAlignReservedLog(
 
 
 
-#### - pvMarshalContext [in]
+### -param pvMarshalContext [in]
 
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
-#### - cRecords [in]
+### -param cRecords [in]
 
 The number of elements in the array pointed to by <i>rgcbReservation</i>.
 
 
-#### - rgcbReservation [in]
+### -param rgcbReservation [in]
 
 A pointer to an array of LONGLONG-typed variables that supplies a list of record sizes (in bytes).
 
 
-#### - pcbAlignReservation [out]
+### -param pcbAlignReservation [out]
 
 A pointer to a LONGLONG-typed variable that receives the size, in bytes, of the required reservation.
 

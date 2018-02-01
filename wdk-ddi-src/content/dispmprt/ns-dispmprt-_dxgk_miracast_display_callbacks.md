@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C60F03A1-AD90-43C7-99DF-5EC45151D1F5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/PDXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS structure pointer [Display Devices], *PDXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS structure [Display Devices], dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS, display.dxgk_miracast_display_callbacks, DXGK_MIRACAST_DISPLAY_CALLBACKS"
+ms.keywords: display.dxgk_miracast_display_callbacks, dispmprt/PDXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS structure pointer [Display Devices], *PDXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS structure [Display Devices], PDXGK_MIRACAST_DISPLAY_CALLBACKS, _DXGK_MIRACAST_DISPLAY_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGK_MIRACAST_DISPLAY_CALLBACKS {
 
 
 
-#### - MiracastHandle
+### -field MiracastHandle
 
 A driver-supplied handle to the Miracast display device.
 
 
-#### - DxgkCbMiracastSendMessage
+### -field DxgkCbMiracastSendMessage
 
 A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a> function.
 
 
-#### - DxgkCbReportChunkInfo
+### -field DxgkCbReportChunkInfo
 
 A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_report_chunk_info.md">DxgkCbReportChunkInfo</a> function.
 

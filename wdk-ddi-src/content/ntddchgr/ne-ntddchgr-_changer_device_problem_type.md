@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2ba267ad-cfd7-4a19-9ecb-16be9187406a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddchgr/DeviceProblemTargetFailure, DeviceProblemNone, ntddchgr/DeviceProblemNone, DeviceProblemCHMZeroError, PCHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMZeroError, ntddchgr/DeviceProblemCHMError, DeviceProblemPositionError, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemCHMMoveError, ntddchgr/DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemGripperError, DeviceProblemTargetFailure, DeviceProblemCalibrationError, CHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemHardware, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemSensorError, DeviceProblemSensorError, ntddchgr/DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemHardware, DeviceProblemCHMError, DeviceProblemDoorOpen, ntddchgr/DeviceProblemCalibrationError, storage.changer_device_problem_type, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, DeviceProblemCartridgeInsertError, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemDoorOpen, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemDriveError, ntddchgr/DeviceProblemPositionError, *PCHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMMoveError, DeviceProblemGripperError, DeviceProblemDriveError
+ms.keywords: "*PCHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCartridgeInsertError, DeviceProblemHardware, DeviceProblemCHMZeroError, ntddchgr/DeviceProblemPositionError, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, storage.changer_device_problem_type, ntddchgr/DeviceProblemSensorError, _CHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCartridgeInsertError, CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemDoorOpen, ntddchgr/DeviceProblemHardware, DeviceProblemDriveError, DeviceProblemCHMError, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemDriveError, DeviceProblemCalibrationError, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMZeroError, DeviceProblemTargetFailure, DeviceProblemGripperError, ntddchgr/DeviceProblemCalibrationError, ntddchgr/DeviceProblemGripperError, PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemPositionError, ntddchgr/DeviceProblemCHMMoveError, DeviceProblemDoorOpen, ntddchgr/DeviceProblemTargetFailure, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], DeviceProblemSensorError, ntddchgr/DeviceProblemCHMError, DeviceProblemNone, ntddchgr/DeviceProblemNone, DeviceProblemCHMMoveError"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,81 +80,81 @@ typedef enum _CHANGER_DEVICE_PROBLEM_TYPE {
 
 
 
-#### - DeviceProblemNone
+### -field DeviceProblemNone
 
 Indicates the device has no problem.
 
 
-#### - DeviceProblemHardware
+### -field DeviceProblemHardware
 
 Indicates the device has had a hardware error.
 
 
-#### - DeviceProblemCHMError
+### -field DeviceProblemCHMError
 
 Indicates the Cartridge Handling Mechanism (CHM) has some problem.
 
 
-#### - DeviceProblemDoorOpen
+### -field DeviceProblemDoorOpen
 
 Indicates the changer's door is open.
 
 
-#### - DeviceProblemCalibrationError
+### -field DeviceProblemCalibrationError
 
 Indicates the changer has a calibration problem.
 
 
-#### - DeviceProblemTargetFailure
+### -field DeviceProblemTargetFailure
 
 Indicates a target failure has occurred.
 
 
-#### - DeviceProblemCHMMoveError
+### -field DeviceProblemCHMMoveError
 
 Indicates the CHM is blocked and cannot move. 
 
 
-#### - DeviceProblemCHMZeroError
+### -field DeviceProblemCHMZeroError
 
 Indicates the CHM could not define zero on one or more of its axis.
 
 
-#### - DeviceProblemCartridgeInsertError
+### -field DeviceProblemCartridgeInsertError
 
 Indicates an error occurred while loading a cartridge in the drive.
 
 
-#### - DeviceProblemPositionError
+### -field DeviceProblemPositionError
 
 Indicates the CHM has a problem positioning itself to some point.
 
 
-#### - DeviceProblemSensorError
+### -field DeviceProblemSensorError
 
 Indicates the device's sensors are malfunctioning.
 
 
-#### - DeviceProblemCartridgeEjectError
+### -field DeviceProblemCartridgeEjectError
 
 Indicates an error occurred while unloading a cartridge.
 
 
-#### - DeviceProblemGripperError
+### -field DeviceProblemGripperError
 
 Indicates the media gripper has a problem.
 
 
-#### - DeviceProblemDriveError
+### -field DeviceProblemDriveError
 
 Indicates the changer's drive is malfunctioning.
 
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
-
 <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
+
+<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
 
  
 

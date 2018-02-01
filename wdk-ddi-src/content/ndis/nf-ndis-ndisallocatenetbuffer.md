@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b10c5a4b-fb43-4880-9641-ff2dcf0e5cb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatenetbuffer, NdisAllocateNetBuffer, ndis/NdisAllocateNetBuffer, NdisAllocateNetBuffer function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_2c90427d-c174-48fa-b588-d48e5c099331.xml
+ms.keywords: ndis/NdisAllocateNetBuffer, NdisAllocateNetBuffer function [Network Drivers Starting with Windows Vista], netvista.ndisallocatenetbuffer, NdisAllocateNetBuffer, ndis_netbuf_functions_ref_2c90427d-c174-48fa-b588-d48e5c099331.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,20 +74,20 @@ PNET_BUFFER NdisAllocateNetBuffer(
 
 
 
-#### - PoolHandle [in]
+### -param PoolHandle [in]
 
 A <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure pool handle that was previously returned from a call to 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferpool" tabindex="0"><b>
-     NdisAllocateNetBufferPool</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">
+     NdisAllocateNetBufferPool</a>.
 
 
-#### - MdlChain [in, optional]
+### -param MdlChain [in, optional]
 
 A pointer to an MDL chain that NDIS uses to initialize the new <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. 
      <i>MdlChain</i> can be <b>NULL</b>.
 
 
-#### - DataOffset [in]
+### -param DataOffset [in]
 
 The initial offset, in bytes, from the start of the buffer to the start of the 
      <i>used data space</i> in the MDL chain. Data space ahead of this offset is 
@@ -97,7 +97,7 @@ The initial offset, in bytes, from the start of the buffer to the start of the
      <i>DataOffset</i> must be 0.
 
 
-#### - DataLength [in]
+### -param DataLength [in]
 
 The length of the 
      <i>used data space</i>, in bytes, in the MDL chain. If 
@@ -158,13 +158,13 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
-
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
 
  
 

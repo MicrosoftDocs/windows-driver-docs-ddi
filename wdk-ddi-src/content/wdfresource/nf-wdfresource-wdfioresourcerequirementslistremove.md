@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3668aa5a-1cb4-4ee1-91bd-bf2f3fa30622
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioresourcerequirementslistremove, kmdf.wdfioresourcerequirementslistremove, PFN_WDFIORESOURCEREQUIREMENTSLISTREMOVE, DFResourceObjectRef_7f7c29e8-231a-48ec-b4e3-01989ad994b0.xml, wdfresource/WdfIoResourceRequirementsListRemove, WdfIoResourceRequirementsListRemove method, WdfIoResourceRequirementsListRemove
+ms.keywords: wdfresource/WdfIoResourceRequirementsListRemove, WdfIoResourceRequirementsListRemove method, kmdf.wdfioresourcerequirementslistremove, wdf.wdfioresourcerequirementslistremove, PFN_WDFIORESOURCEREQUIREMENTSLISTREMOVE, WdfIoResourceRequirementsListRemove, DFResourceObjectRef_7f7c29e8-231a-48ec-b4e3-01989ad994b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfIoResourceRequirementsListRemove(
 
 
 
-#### - RequirementsList [in]
+### -param RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based value that is used as an index into the resource requirements list that <i>RequirementsList</i> specifies. 
 

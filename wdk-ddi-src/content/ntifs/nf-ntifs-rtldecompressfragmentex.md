@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A4FE108D-85CE-4F6A-A17A-E81684764FD3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlDecompressFragmentEx routine [Installable File System Drivers], RtlDecompressFragmentEx, ntifs/RtlDecompressFragmentEx, ifsk.rtldecompressfragmentex
+ms.keywords: ntifs/RtlDecompressFragmentEx, ifsk.rtldecompressfragmentex, RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ NTSTATUS RtlDecompressFragmentEx(
 
 
 
-#### - CompressionFormat [in]
+### -param CompressionFormat [in]
 
 Bitmask specifying the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows:
 <table>
@@ -116,42 +116,42 @@ Specifies that compression should be performed. This value is required.
 </table> 
 
 
-#### - UncompressedFragment [out]
+### -param UncompressedFragment [out]
 
 Pointer to a caller-allocated buffer (allocated from paged or non-paged pool) receiving the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - UncompressedFragmentSize [in]
+### -param UncompressedFragmentSize [in]
 
 The size, in bytes, of the <i>UncompressedFragment</i> buffer.
 
 
-#### - CompressedBuffer [in]
+### -param CompressedBuffer [in]
 
 A pointer to the buffer containing the data to decompress. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - CompressedBufferSize [in]
+### -param CompressedBufferSize [in]
 
 The size, in bytes, of the <i>CompressedBuffer</i> buffer.
 
 
-#### - FragmentOffset [in]
+### -param FragmentOffset [in]
 
 The zero-based offset, in bytes, where the uncompressed fragment is being extract from. This offset value is the position within the original uncompressed buffer.
 
 
-#### - UncompressedChunkSize [in]
+### -param UncompressedChunkSize [in]
 
 The size, in bytes, of each chunk within the compression buffer.  Valid values are 512, 1024, 2048 and 4096.
 
 
-#### - FinalUncompressedSize [out]
+### -param FinalUncompressedSize [out]
 
 A pointer to a caller-allocated variable which receives the size, in bytes, of the decompressed data stored in <i>UncompressedFragment</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-#### - WorkSpace [in]
+### -param WorkSpace [in]
 
 A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressFragmentEx</b> function during decompression. Use the <a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
@@ -221,17 +221,17 @@ An invalid compression format was specified via the <i>CompressionFormat</i> par
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
-
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 
 <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
  
 

@@ -74,27 +74,27 @@ NTSTATUS KeyboardInitializationRoutine(
 
 
 
-#### - InitializationContext [in]
+### -param InitializationContext [in]
 
 Pointer to the filter device object of the driver that supplies the callback.
 
 
-#### - SynchFuncContext [in]
+### -param SynchFuncContext [in]
 
 Pointer to the context for the callbacks that are pointed to by <i>ReadPort</i> and <i>Writeport.</i>
 
 
-#### - ReadPort [in]
+### -param ReadPort [in]
 
 Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a> callback that reads from the port.
 
 
-#### - WritePort [in]
+### -param WritePort [in]
 
 Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a> callback that writes to the port.
 
 
-#### - TurnTranslationOn [out]
+### -param TurnTranslationOn [out]
 
 Specifies whether to turn translation on or off. If <i>TranslationOn</i> is <b>TRUE</b>, translation is turned on; otherwise, translation is turned off.
 

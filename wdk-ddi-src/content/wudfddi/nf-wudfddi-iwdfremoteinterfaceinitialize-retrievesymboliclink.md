@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize, RetrieveSymbolicLink method, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink
+ms.keywords: RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT RetrieveSymbolicLink(
 
 
 
-#### - pSymbolicLink [out, optional]
+### -param pSymbolicLink [out, optional]
 
 A pointer to a buffer that receives a <b>null</b>-terminated Unicode character string that represents the symbolic link name. Set this pointer to <b>NULL</b> to obtain the required buffer size.
 
 
-#### - pdwSymbolicLinkLengthInChars [in, out]
+### -param pdwSymbolicLinkLengthInChars [in, out]
 
 A pointer to a caller-allocated location. On input, this location must contain the caller-supplied length of the buffer that <i>pSymbolicLink</i> points to. On output, the location receives the length, in characters, of the symbolic link name, including the <b>NULL</b> terminating character.
 
@@ -132,9 +132,9 @@ Call <b>RetrieveSymbolicLink</b> again, and set the <i>pSymbolicLink</i> paramet
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560238">IWDFRemoteInterfaceInitialize::GetInterfaceGuid</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560238">IWDFRemoteInterfaceInitialize::GetInterfaceGuid</a>
 
  
 

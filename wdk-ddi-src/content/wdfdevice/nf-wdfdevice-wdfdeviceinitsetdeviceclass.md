@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c87a8368-3804-4a07-92c8-65a453d0808f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetDeviceClass method, wdfdevice/WdfDeviceInitSetDeviceClass, wdf.wdfdeviceinitsetdeviceclass, WdfDeviceInitSetDeviceClass, kmdf.wdfdeviceinitsetdeviceclass, DFDeviceObjectGeneralRef_9c2c2390-3dcc-40f4-ba43-16c8988dbfae.xml
+ms.keywords: wdf.wdfdeviceinitsetdeviceclass, WdfDeviceInitSetDeviceClass method, kmdf.wdfdeviceinitsetdeviceclass, WdfDeviceInitSetDeviceClass, wdfdevice/WdfDeviceInitSetDeviceClass, DFDeviceObjectGeneralRef_9c2c2390-3dcc-40f4-ba43-16c8988dbfae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID WdfDeviceInitSetDeviceClass(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - DeviceClassGuid [in]
+### -param DeviceClassGuid [in]
 
 Pointer to a GUID that identifies a section of the registry containing possible overrides for the <i>DefaultSDDLString</i>, <i>DeviceType</i>, <i>DeviceCharacteristics</i>, and <i>Exclusive</i> parameters.
 <div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div><div> </div>

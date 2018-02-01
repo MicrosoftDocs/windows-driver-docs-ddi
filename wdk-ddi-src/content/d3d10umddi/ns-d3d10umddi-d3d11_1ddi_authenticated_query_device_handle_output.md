@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3433fb92-b7e1-48c4-bd0b-98b794b3f454
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT structure [Display Devices], display.d3d11_1ddi_authenticated_query_device_handle_output, D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
+ms.keywords: display.d3d11_1ddi_authenticated_query_device_handle_output, D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT {
 
 
 
-#### - Output
+### -field Output
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a> structure that contains a Message Authentication Code (MAC) and other data.
 
 
-#### - DeviceHandle
+### -field DeviceHandle
 
 A handle to the device.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 17E98D35-8C63-4EEC-B8DD-896FA2B084A8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ConnectModeOutput, gpioclx/ConnectModeMaximum, ConnectModeInput, GPIO.gpio_connect_io_pins_mode, ConnectModeMaximum, gpioclx/ConnectModeInvalid, gpioclx/ConnectModeOutput, *PGPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], gpioclx/GPIO_CONNECT_IO_PINS_MODE, _GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, ConnectModeInvalid, GPIO_CONNECT_IO_PINS_MODE
+ms.keywords: "_GPIO_CONNECT_IO_PINS_MODE, GPIO.gpio_connect_io_pins_mode, GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, ConnectModeInput, gpioclx/GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeMaximum, ConnectModeOutput, ConnectModeInvalid, gpioclx/ConnectModeOutput, gpioclx/ConnectModeInvalid, *PGPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], ConnectModeMaximum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _GPIO_CONNECT_IO_PINS_MODE {
 
 
 
-#### - ConnectModeInvalid
+### -field ConnectModeInvalid
 
 The connection mode (input or output) for this set of GPIO pins is uninitialized.
 
 
-#### - ConnectModeInput
+### -field ConnectModeInput
 
 This set of GPIO pins is configured as data inputs.
 
 
-#### - ConnectModeOutput
+### -field ConnectModeOutput
 
 This set of GPIO pins is configured as data outputs.
 
 
-#### - ConnectModeMaximum
+### -field ConnectModeMaximum
 
 The maximum value in the enumeration.
 
@@ -101,11 +101,11 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406487">IOCTL_GPIO_WRITE_PINS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406483">IOCTL_GPIO_READ_PINS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439502">GPIO_CONNECT_IO_PINS_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406487">IOCTL_GPIO_WRITE_PINS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 38e22922-d9de-4dfd-9da9-c131b789f5d6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetGetState, WdfIoTargetGetState method, DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, PFN_WDFIOTARGETGETSTATE, wdf.wdfiotargetgetstate, kmdf.wdfiotargetgetstate, WdfIoTargetGetState
+ms.keywords: WdfIoTargetGetState, kmdf.wdfiotargetgetstate, PFN_WDFIOTARGETGETSTATE, wdfiotarget/WdfIoTargetGetState, DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, WdfIoTargetGetState method, wdf.wdfiotargetgetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDF_IO_TARGET_STATE WdfIoTargetGetState(
 
 
 
-#### - IoTarget [in]
+### -param IoTarget [in]
 
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a> or <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a> or from a method that a specialized I/O target supplies.
 

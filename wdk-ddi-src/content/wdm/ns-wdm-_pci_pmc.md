@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_PCI_PMC, *PPCI_PMC, PPCI_PMC structure pointer [Buses], PPCI_PMC, PCI.pci_pmc, wdm/PPCI_PMC, wdm/PCI_PMC, PCI_PMC structure [Buses], PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml"
+ms.keywords: "*PPCI_PMC, PPCI_PMC structure pointer [Buses], wdm/PCI_PMC, _PCI_PMC, PCI_PMC, PCI.pci_pmc, PPCI_PMC, PCI_PMC structure [Buses], wdm/PPCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,48 +82,8 @@ typedef struct _PCI_PMC {
 
 
 
-#### - Support
+### -field Support
 
-
-
-#### Rsvd2
-
-Reserved. 
-
-
-#### D1
-
-Reserved. 
-
-
-#### D2
-
-Reserved. 
-
-
-#### PMED0
-
-Indicates that the device can assert the PME signal from D0. 
-
-
-#### PMED1
-
-Indicates that the device can assert the PME signal from D1. 
-
-
-#### PMED2
-
-Indicates that the device can assert the PME signal from D2. 
-
-
-#### PMED3Hot
-
-Indicates that the device can assert the PME signal from D3. 
-
-
-#### PMED3Cold
-
-Indicates that the device can assert the PME signal from D3. 
 
 
 ### -field Support.Rsvd2
@@ -171,27 +131,27 @@ Indicates that the device can assert the PME signal from D3.
  
 
 
-#### - Version
+### -field Version
 
 Contains a 3-bit integer that indicates the version of the <i>PCI Power Management Interface Specification </i>that the device complies with. For a list of values that can be assigned to this member, see the <i>PCI Local Bus Specification</i>. 
 
 
-#### - PMEClock
+### -field PMEClock
 
 Indicates, when 1, that the device relies on the presence of the PCI clock for operation of the PME signal. When this member is a "0", no PCI clock is required to generate the PME signal. 
 
 
-#### - Rsvd1
+### -field Rsvd1
 
 Reserved. 
 
 
-#### - DeviceSpecificInitialization
+### -field DeviceSpecificInitialization
 
 Indicates when 1 that the device requires a special initialization. For more information about this value, see the <i>PCI Local Bus Specification</i>.
 
 
-#### - Rsvd2
+### -field Rsvd2
 
 Reserved. 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 528f5bfb-a84d-48e5-a74d-8f7bcee6d4cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetExecutorConfig method [Network Drivers Starting with Windows Vista], RIL_SetExecutorConfig, rilapi/RIL_SetExecutorConfig, netvista.ril_setexecutorconfig
+ms.keywords: RIL_SetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorconfig, RIL_SetExecutorConfig, rilapi/RIL_SetExecutorConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_SetExecutorConfig(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - lpRilExecutorConfig
+### -param lpRilExecutorConfig
 
 
 

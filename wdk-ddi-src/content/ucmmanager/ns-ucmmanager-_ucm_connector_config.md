@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 8FE8B7E2-1CC0-4540-86D5-A09BA249D62A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/UCM_CONNECTOR_CONFIG, buses.ucm_connector_config, PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG, *PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses], ucmmanager/PUCM_CONNECTOR_CONFIG, _UCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses]
+ms.keywords: ucmmanager/UCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses], ucmmanager/PUCM_CONNECTOR_CONFIG, *PUCM_CONNECTOR_CONFIG, buses.ucm_connector_config, PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG, _UCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct _UCM_CONNECTOR_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 Size of the <b>UCM_CONNECTOR_CONFIG</b> structure. 
 
 
-#### - ConnectorId
+### -field ConnectorId
 
 Connector identifier. 
 
 
-#### - TypeCConfig
+### -field TypeCConfig
 
 A pointer to an initialized <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_config.md">UCM_CONNECTOR_TYPEC_CONFIG</a> structure that contains the configuration options for the connector. 
 

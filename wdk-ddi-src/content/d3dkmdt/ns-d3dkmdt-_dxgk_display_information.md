@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e6902724-a81b-4a06-8089-a8e98392dc78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_DISPLAY_INFORMATION, *PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION structure [Display Devices], display.dxgk_display_information, d3dkmdt/PDXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION structure pointer [Display Devices], _DXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION
+ms.keywords: d3dkmdt/DXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION structure pointer [Display Devices], *PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION structure [Display Devices], PDXGK_DISPLAY_INFORMATION, _DXGK_DISPLAY_INFORMATION, d3dkmdt/PDXGK_DISPLAY_INFORMATION, display.dxgk_display_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _DXGK_DISPLAY_INFORMATION {
 
 
 
-#### - Width
+### -field Width
 
 A UINT value that specifies the width of the current display mode in units of pixels.
 
 
-#### - Height
+### -field Height
 
 A UINT value that specifies the height of the current display mode  in units of pixels.
 
 
-#### - Pitch
+### -field Pitch
 
 A UINT value that specifies the total number of bytes contained in one screen line.
 
 
-#### - ColorFormat
+### -field ColorFormat
 
 A value of type <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> that indicates the pixel color format of the current display mode. The driver does not have to support all color formats in the <b>D3DDDIFORMAT</b> structure. For more information on formats that must be supported, see <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> and <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>.
 
 
-#### - PhysicAddress
+### -field PhysicAddress
 
 The physical start address of the frame buffer for the current display mode.
 
 
-#### - TargetId
+### -field TargetId
 
 An integer value that specifies the identifier of the video present target on the display adapter that the display device is connected to.
 
 
-#### - AcpiId
+### -field AcpiId
 
 A ULONG value that specifies the ACPI identifier of the video present target specified by the <b>TargetId</b> member.
 <div class="alert"><b>Note</b>  If the video present target is not an ACPI device, this member must be set to zero.</div><div> </div>
@@ -119,9 +119,9 @@ For more information on the use of the members of <b>DXGK_DISPLAY_INFORMATION</b
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
-
 <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
  
 

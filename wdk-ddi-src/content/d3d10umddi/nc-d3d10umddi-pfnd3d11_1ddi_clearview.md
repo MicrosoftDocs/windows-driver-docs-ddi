@@ -75,7 +75,7 @@ VOID APIENTRY* ClearView(
 
 
 
-#### - hDevice
+### -param hDevice
 
 A handle to the display device (graphics context).
 
@@ -84,7 +84,7 @@ A handle to the display device (graphics context).
 
 
 
-#### - *hView
+### -param *hView
 
 A pointer to the resource view to clear.
 
@@ -93,14 +93,19 @@ A pointer to the resource view to clear.
 
 
 
-#### - *pRect [in]
+### -param *pRect [in]
 
 An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <i>ClearView</i> clears the entire surface.
 
 
-#### - NumRects
+### -param NumRects
 
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
+
+
+#### - Color
+
+A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
 
 
 #### - HandleType
@@ -111,21 +116,6 @@ A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3
 <li><b>D3D11DDI_HT_UNORDEREDACCESSVIEW</b></li>
 <li>Any <b>D3D11_1DDI_HT_VIDEOXXX</b> type</li>
 </ul>
-
-#### - hView
-
-A pointer to the resource view to clear.
-
-
-#### - Color
-
-A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
-
-
-#### - pRect [in]
-
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <i>ClearView</i> clears the entire surface.
-
 
 ## -returns
 
@@ -179,9 +169,9 @@ However, video views of a video surface (such as views provided to the <a href="
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
 
  
 

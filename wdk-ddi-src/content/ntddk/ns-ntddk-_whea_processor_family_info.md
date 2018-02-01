@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO, _WHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, ntddk/WHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications], ntddk/PWHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info
+ms.keywords: ntddk/PWHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, PWHEA_PROCESSOR_FAMILY_INFO, _WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], ntddk/WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,97 +85,52 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
 
 ### -field DUMMYSTRUCTNAME.Stepping
 
- 
+The stepping of the processor.
 
 
 ### -field DUMMYSTRUCTNAME.Model
 
- 
+The processor model identifier.
 
 
 ### -field DUMMYSTRUCTNAME.Family
 
- 
+The processor family identifier.
 
 
 ### -field DUMMYSTRUCTNAME.ProcessorType
 
- 
+The processor type identifier.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved1
 
- 
+Reserved for system use.
 
 
 ### -field DUMMYSTRUCTNAME.ExtendedModel
 
- 
+The extended processor model identifier.
 
 
 ### -field DUMMYSTRUCTNAME.ExtendedFamily
 
- 
+The extended processor family identifier.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved2
 
- 
+Reserved for system use.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved3
 
- 
+Reserved for system use.
 
 
-#### - AsULONGLONG
+### -field AsULONGLONG
 
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
-
-
-#### - Stepping
-
-The stepping of the processor.
-
-
-#### - Model
-
-The processor model identifier.
-
-
-#### - Family
-
-The processor family identifier.
-
-
-#### - ProcessorType
-
-The processor type identifier.
-
-
-#### - Reserved1
-
-Reserved for system use.
-
-
-#### - ExtendedModel
-
-The extended processor model identifier.
-
-
-#### - ExtendedFamily
-
-The extended processor family identifier.
-
-
-#### - Reserved2
-
-Reserved for system use.
-
-
-#### - Reserved3
-
-Reserved for system use.
 
 
 ## -remarks

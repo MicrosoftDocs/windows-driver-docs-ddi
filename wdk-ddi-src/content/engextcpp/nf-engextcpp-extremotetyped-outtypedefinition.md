@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, OutTypeDefinition, debugger.extremotetyped_outtypedefinition, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped::OutTypeDefinition, ExtRemoteTyped
+ms.keywords: OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, ExtRemoteTyped, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition, debugger.extremotetyped_outtypedefinition, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

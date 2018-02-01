@@ -72,17 +72,17 @@ BOOLEAN IdeHwInitialize(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the miniport driver per channel device extension.
 
 
-#### - DeviceParameters [in, out]
+### -param DeviceParameters [in, out]
 
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a> that identifies the device to configure and the device parameters with which to configure the device.
 
 
-#### - IdentifyData [in]
+### -param IdentifyData [in]
 
 A pointer to a structure of type <a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a> that contains the identify data that is returned by the device.
 
@@ -103,9 +103,9 @@ After the miniport driver enumerates the devices on a channel, it calls the <b><
 
 ## -see-also
 
-<a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
-
 <a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a>
+
+<a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
 
  
 

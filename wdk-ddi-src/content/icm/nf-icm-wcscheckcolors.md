@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.wcscheckcolors, WcsCheckColors function [Print Devices], colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, icm/WcsCheckColors, WcsCheckColors
+ms.keywords: WcsCheckColors, colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, icm/WcsCheckColors, print.wcscheckcolors, WcsCheckColors function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,37 +73,37 @@ BOOL WcsCheckColors(
 
 
 
-#### - hColorTransform [in]
+### -param hColorTransform [in]
 
 A handle to the WCS color transform to use.
 
 
-#### - nColors [in]
+### -param nColors [in]
 
 The number of elements in the array pointed to by <i>pInputData</i> and <i>paResult</i>.
 
 
-#### - nInputChannels [in]
+### -param nInputChannels [in]
 
 The number of channels per element in the array pointed to by <i>pInputData</i>.
 
 
-#### - cdtInput [in]
+### -param cdtInput [in]
 
 The input COLORDATATYPE color data type.
 
 
-#### - cbInput [in]
+### -param cbInput [in]
 
 The buffer size of <i>pInputData</i>.
 
 
-#### - pInputData [in]
+### -param pInputData [in]
 
 A pointer to an array of input colors. Colors in this array correspond to the color space of the source profile.
 
 
-#### - paResult [out]
+### -param paResult [out]
 
 A pointer to an array of <i>nColors</i> bytes that receives the results of the test.
 

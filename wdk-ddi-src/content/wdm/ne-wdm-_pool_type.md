@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3dd0c74-3835-4f03-8b62-08954baaffe7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NonPagedPoolMustSucceedSession, wdm/NonPagedPoolMustSucceedSession, wdm/NonPagedPoolNx, wdm/NonPagedPoolBaseCacheAligned, wdm/NonPagedPoolNxCacheAligned, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/NonPagedPoolBase, wdm/NonPagedPoolCacheAlignedMustS, NonPagedPoolBaseMustSucceed, wdm/NonPagedPool, PagedPoolSession, wdm/POOL_TYPE, NonPagedPoolSessionNx, wdm/NonPagedPoolSessionNx, MaxPoolType, NonPagedPoolNx, wdm/PagedPoolCacheAligned, wdm/PagedPoolSession, NonPagedPoolCacheAlignedMustS, PagedPool, NonPagedPoolBaseCacheAligned, NonPagedPoolCacheAligned, wdm/PagedPool, wdm/NonPagedPoolBaseMustSucceed, POOL_TYPE, NonPagedPool, wdm/NonPagedPoolExecute, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolCacheAligned, DontUseThisTypeSession, NonPagedPoolMustSucceed, NonPagedPoolBase, DontUseThisType, wdm/NonPagedPoolSession, NonPagedPoolCacheAlignedSession, wdm/DontUseThisType, NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolCacheAlignedMustSSession, _POOL_TYPE, wdm/PagedPoolCacheAlignedSession, wdm/MaxPoolType, wdm/DontUseThisTypeSession, PagedPoolCacheAligned, NonPagedPoolNxCacheAligned, NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolCacheAlignedSession, kernel.pool_type, wdm/NonPagedPoolMustSucceed, PagedPoolCacheAlignedSession, NonPagedPoolExecute, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, NonPagedPoolSession
+ms.keywords: wdm/PagedPoolCacheAlignedSession, NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolMustSucceedSession, wdm/NonPagedPoolBase, NonPagedPoolCacheAlignedMustS, wdm/DontUseThisTypeSession, wdm/PagedPoolCacheAligned, wdm/NonPagedPoolSession, NonPagedPoolSessionNx, NonPagedPoolExecute, wdm/MaxPoolType, wdm/NonPagedPoolCacheAlignedSession, PagedPool, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/NonPagedPoolMustSucceed, MaxPoolType, NonPagedPoolCacheAlignedSession, _POOL_TYPE, kernel.pool_type, NonPagedPoolBase, NonPagedPoolMustSucceed, wdm/PagedPoolSession, wdm/DontUseThisType, NonPagedPoolCacheAligned, NonPagedPoolSession, wdm/NonPagedPoolNxCacheAligned, NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolBaseMustSucceed, wdm/NonPagedPoolSessionNx, NonPagedPool, PagedPoolCacheAligned, wdm/NonPagedPool, PagedPoolSession, wdm/NonPagedPoolCacheAlignedMustS, wdm/NonPagedPoolCacheAligned, NonPagedPoolBaseMustSucceed, wdm/PagedPool, DontUseThisType, wdm/NonPagedPoolBaseCacheAligned, wdm/NonPagedPoolMustSucceedSession, wdm/POOL_TYPE, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolExecute, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], NonPagedPoolBaseCacheAligned, POOL_TYPE, DontUseThisTypeSession, PagedPoolCacheAlignedSession, NonPagedPoolNxCacheAligned, wdm/NonPagedPoolNx, NonPagedPoolNx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,7 +90,7 @@ typedef enum _POOL_TYPE {
 
 
 
-#### - NonPagedPool
+### -field NonPagedPool
 
 <i>Nonpaged pool</i>, which is nonpageable system memory. Nonpaged pool can be accessed from any IRQL, but it is a scarce resource and drivers should allocate it only when necessary.
 
@@ -99,137 +99,137 @@ System memory allocated with the <b>NonPagedPool</b> pool type is executable. Fo
 Starting with Windows 8, drivers should allocate most or all of their nonpaged memory from the no-execute (NX) nonpaged pool instead of the executable nonpaged pool. For more information, see the description of the <b>NonPagedPoolNx</b> pool type.
 
 
-#### - NonPagedPoolExecute
+### -field NonPagedPoolExecute
 
 Starting with Windows 8, <b>NonPagedPoolExecute</b> is an alternate name for the <b>NonPagedPool</b> value. This value indicates that the allocated memory is to be nonpaged and executable—that is, instruction execution is enabled in this memory. To port a driver from an earlier version of Windows, you should typically replace all or most instances of the <b>NonPagedPool</b> name in the driver source code with <b>NonPagedPoolNx</b>. Avoid replacing instances of the <b>NonPagedPool</b> name with <b>NonPagedPoolExecute</b> except in cases in which executable memory is explicitly required. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh920391">No-Execute (NX) Nonpaged Pool</a>.
 
 
-#### - PagedPool
+### -field PagedPool
 
 <i>Paged pool</i>, which is pageable system memory. Paged pool can only be allocated and accessed at IRQL &lt; DISPATCH_LEVEL.
 
 
-#### - NonPagedPoolMustSucceed
+### -field NonPagedPoolMustSucceed
 
 This value is <u>for internal use only</u>, and is allowed only during system startup. Drivers must not specify this value at times other than system startup, because a "must succeed" request crashes the system if the requested memory size is unavailable.
 
 
-#### - DontUseThisType
+### -field DontUseThisType
 
 Reserved for system use.
 
 
-#### - NonPagedPoolCacheAligned
+### -field NonPagedPoolCacheAligned
 
 Nonpaged pool, aligned on processor cache boundaries. This value is <u>for internal use only</u>.
 
 
-#### - PagedPoolCacheAligned
+### -field PagedPoolCacheAligned
 
 Paged pool, aligned on processor cache boundaries. This value is <u>for internal use only</u>.
 
 
-#### - NonPagedPoolCacheAlignedMustS
+### -field NonPagedPoolCacheAlignedMustS
 
 This value is <u>for internal use only</u>, and is allowed only during system startup. It is the cache-aligned equivalent of <b>NonPagedPoolMustSucceed</b>.
 
 
-#### - MaxPoolType
+### -field MaxPoolType
 
 Reserved for system use.
 
 
-#### - NonPagedPoolBase
+### -field NonPagedPoolBase
 
 Reserved for system use.
 
 
-#### - NonPagedPoolBaseMustSucceed
+### -field NonPagedPoolBaseMustSucceed
 
 Reserved for system use.
 
 
-#### - NonPagedPoolBaseCacheAligned
+### -field NonPagedPoolBaseCacheAligned
 
 Reserved for system use.
 
 
-#### - NonPagedPoolBaseCacheAlignedMustS
+### -field NonPagedPoolBaseCacheAlignedMustS
 
 Reserved for system use.
 
 
-#### - NonPagedPoolSession
+### -field NonPagedPoolSession
 
 Deprecated. Do not use.
 
 
-#### - PagedPoolSession
+### -field PagedPoolSession
 
 Deprecated. Do not use.
 
 
-#### - NonPagedPoolMustSucceedSession
+### -field NonPagedPoolMustSucceedSession
 
 Deprecated. Do not use.
 
 
-#### - DontUseThisTypeSession
+### -field DontUseThisTypeSession
 
 Deprecated. Do not use.
 
 
-#### - NonPagedPoolCacheAlignedSession
+### -field NonPagedPoolCacheAlignedSession
 
 Deprecated. Do not use.
 
 
-#### - PagedPoolCacheAlignedSession
+### -field PagedPoolCacheAlignedSession
 
 Deprecated. Do not use.
 
 
-#### - NonPagedPoolCacheAlignedMustSSession
+### -field NonPagedPoolCacheAlignedMustSSession
 
 Deprecated. Do not use.
 
 
-#### - NonPagedPoolNx
+### -field NonPagedPoolNx
 
 <i>No-execute</i> (NX) nonpaged pool. This pool type is available starting with Windows 8. In contrast to the nonpaged pool designated by <b>NonPagedPool</b>, which allocates executable memory, the NX nonpaged pool  allocates memory in which instruction execution is disabled. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh920391">No-Execute (NX) Nonpaged Pool</a>.
 
 Nonpaged pool can be accessed from any IRQL, but it is a scarce resource and drivers should allocate it only when necessary.
 
 
-#### - NonPagedPoolNxCacheAligned
+### -field NonPagedPoolNxCacheAligned
 
 NX nonpaged pool, aligned on processor cache boundaries. This value is reserved for exclusive use by the operating system.
 
 
-#### - NonPagedPoolSessionNx
+### -field NonPagedPoolSessionNx
 
 Reserved for exclusive use by the operating system.
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
-
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
 
 <a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
 
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
 
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
+
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
  
 

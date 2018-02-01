@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ntifs/FsRtlOplockBreakH, ifsk.fsrtloplockbreakh, FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers]
+ms.keywords: FsRtlOplockBreakH, ifsk.fsrtloplockbreakh, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ntifs/FsRtlOplockBreakH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS FsRtlOplockBreakH(
 
 
 
-#### - Oplock [in]
+### -param Oplock [in]
 
 An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to the IRP for the I/O operation. 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of <b>FsRtlOplockBreakH</b>. The <i>Flags</i> parameter has the following options:
 
@@ -101,12 +101,12 @@ Supported in Windows 7 and later versions.
 Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
 
 
-#### - CompletionRoutine [in, optional]
+### -param CompletionRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
@@ -139,7 +139,7 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 A pointer to the IRP for the I/O operation. 
 
 
-#### - PostIrpRoutine [in, optional]
+### -param PostIrpRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d9ca4b9d-dacc-4164-9198-a71a771b145b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoOpenDeviceInterfaceRegistryKey, wdm/IoOpenDeviceInterfaceRegistryKey, IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture], k104_39651647-aa61-4670-b09d-7aaabaae4603.xml, kernel.ioopendeviceinterfaceregistrykey
+ms.keywords: wdm/IoOpenDeviceInterfaceRegistryKey, k104_39651647-aa61-4670-b09d-7aaabaae4603.xml, kernel.ioopendeviceinterfaceregistrykey, IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture], IoOpenDeviceInterfaceRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS IoOpenDeviceInterfaceRegistryKey(
 
 
 
-#### - SymbolicLinkName [in]
+### -param SymbolicLinkName [in]
 
 Pointer to a string identifying the device interface instance. This string was obtained from a previous call to <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>, <a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>, or <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>. 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the access the caller requires to the key, such as KEY_READ, KEY_WRITE, or KEY_ALL_ACCESS. See <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> for a description of each KEY_<i>XXX</i> access right. 
 
 
-#### - DeviceInterfaceKey [out]
+### -param DeviceInterfaceKey [out]
 
 Pointer to a returned handle to the requested registry key if the call is successful. 
 
@@ -144,15 +144,15 @@ Callers of <b>IoOpenDeviceInterfaceRegistryKey</b> must be running at IRQL = PAS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
 <a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

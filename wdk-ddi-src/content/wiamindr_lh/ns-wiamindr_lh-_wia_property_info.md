@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9ab9edb8-aa37-4c28-81c9-3e41751f14ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/PWIA_PROPERTY_INFO, WIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, _WIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], image.wia_property_info, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml, WIA_PROPERTY_INFO structure [Imaging Devices], *PWIA_PROPERTY_INFO
+ms.keywords: PWIA_PROPERTY_INFO structure pointer [Imaging Devices], *PWIA_PROPERTY_INFO, _WIA_PROPERTY_INFO, wiamindr_lh/PWIA_PROPERTY_INFO, image.wia_property_info, PWIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml, WIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,92 +110,8 @@ typedef struct _WIA_PROPERTY_INFO {
 
 
 
-#### - ValidVal
+### -field ValidVal
 
-
-
-#### Range
-
-Is a structure that is filled when the property's valid values are specified by a range of integer values. This structure contains the following members:
-
-<b>Min</b>, which indicates the minimum value of the property.
-
-<b>Max</b>, which indicates the maximum value of the property.
-
-<b>Nom</b>, which indicates the property's nominal value.
-
-<b>Inc</b>, which indicates the increment value that can be used.
-
-
-#### RangeFloat
-
-Is a structure that is filled when the property's valid values are specified by a range of floating-point values and the property type is a <b>float</b> or <b>double</b>. This structure contains the following members:
-
-<b>Min</b>, which indicates the minimum value of the property.
-
-<b>Max</b>, which indicates the maximum value of the property.
-
-<b>Nom</b>, which indicates the property's nominal value.
-
-<b>Inc</b>, which indicates the increment value that can be used. 
-
-
-#### List
-
-Is a structure that is filled when the property's valid values are specified by a list of integer values. This structure contains the following members:
-
-<b>cNumList</b>, which indicates the number of elements in the array of valid values to which <b>pList</b> points.
-
-<b>Nom</b>, which indicates the nominal value of the property.
-
-<b>pList</b>, which is an array of valid values the property can be set to.
-
-
-#### ListFloat
-
-Is a structure that is filled when the property's valid values are specified by a list of floating-point values. This structure contains the following members:
-
-<b>cNumList</b>, which indicates the number of elements in the array of valid values to which <b>pList</b> points.
-
-<b>Nom</b>, which indicates the nominal value of the property.
-
-<b>pList</b>, which is an array of valid values the property can be set to.
-
-
-#### ListGuid
-
-Is a structure that is filled when the property's valid values are specified by a list of GUIDs. This structure contains the following members:
-
-<b>cNumList</b>, which indicates the number of elements in the array of valid values to which <b>pList</b> points.
-
-<b>Nom</b>, which indicates the nominal value of the property.
-
-<b>pList</b>, which is an array of valid values the property can be set to. 
-
-
-#### ListBStr
-
-Is a structure that is filled when the property's valid values are specified by a list of strings. This structure contains the following members:
-
-<b>cNumList</b>, which indicates the number of elements in the array of valid values to which <b>pList</b> points.
-
-<b>Nom</b>, which indicates the nominal value of the property.
-
-<b>pList</b>, which is an array of valid values the property can be set to.
-
-
-#### Flag
-
-Is a structure that is filled when the property's valid values are specified by a bitset of flags. This structure contains the following members:
-
-<b>Nom</b>, which indicates the nominal value of the property.
-
-<b>ValidBits</b>, which is a mask indicating which bit values can be set. This member should be a bitwise OR of all possible user-defined flag values.
-
-
-#### None
-
-Is a structure that is filled when the property's valid values are not given in a list, range, or bitset. This structure contains a member named <b>Dummy</b>, which indicates the property is of type NONE. 
 
 
 ### -field ValidVal.Range
@@ -397,12 +313,12 @@ Is a structure that is filled when the property's valid values are not given in 
  
 
 
-#### - lAccessFlags
+### -field lAccessFlags
 
 Specifies the access and property attribute flags for a property. See the Microsoft Windows SDK documentation for a list of WIA property attribute flags. 
 
 
-#### - vt
+### -field vt
 
 Specifies the variant data type for the property. This member, which can be one of the following, controls which structure member of the <b>ValidValunion</b> is valid:
 

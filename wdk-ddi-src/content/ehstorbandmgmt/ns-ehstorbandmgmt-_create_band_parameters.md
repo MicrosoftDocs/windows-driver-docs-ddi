@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], *PCREATE_BAND_PARAMETERS, storage.create_band_parameters, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], ehstorbandmgmt/CREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS"
+ms.keywords: ehstorbandmgmt/CREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, storage.create_band_parameters, *PCREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS, _CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], ehstorbandmgmt/PCREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,12 +71,12 @@ typedef struct _CREATE_BAND_PARAMETERS {
 
 
 
-#### - StructSize
+### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(CREATE_BAND_PARAMETERS).
 
 
-#### - Flags
+### -field Flags
 
 Band creation flags. This value is a bitwise OR combination of the following.
 <table>
@@ -97,17 +97,17 @@ The authentication key for this band is cached, which allows automation of later
 </table> 
 
 
-#### - BandLocationInfoOffset
+### -field BandLocationInfoOffset
 
 The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a> structure. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>.
 
 
-#### - BandSecurityInfoOffset
+### -field BandSecurityInfoOffset
 
 The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a> structure. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>. If this value is 0, meaning band security info is not present, key manager metadata for the band is set to all zeros. Also, when this member is 0, the read and write lock states default to PERSISTANT_UNLOCK.
 
 
-#### - AuthKeyOffset
+### -field AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure that contains the authorization key for the new band. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 <div class="code"><span codelanguage=""><table>
@@ -128,14 +128,14 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure that contains the author
 To assign a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-#### KeySize
-
-The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
-
-
 #### Key
 
 A variable length byte array that contains the key data.
+
+
+#### KeySize
+
+The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
 ## -remarks

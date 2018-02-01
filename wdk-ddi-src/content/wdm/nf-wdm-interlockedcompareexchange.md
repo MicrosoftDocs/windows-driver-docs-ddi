@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange
+ms.keywords: k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], wdm/InterlockedCompareExchange, kernel.interlockedcompareexchange, InterlockedCompareExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,7 @@ LONG InterlockedCompareExchange(
 
 
 
-#### - Destination [in, out]
+### -param Destination [in, out]
 
 A pointer to the input value that is compared with the value of <i>Comparand</i>.
 
@@ -91,14 +91,14 @@ TBD
 
 
 
-#### - Exchange [in]
-
-Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
-
-
 #### - Comparand [in]
 
 Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
+
+
+#### - Exchange [in]
+
+Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
 
 
 ## -returns
@@ -125,15 +125,15 @@ Interlocked operations cannot be used on non-cached memory.
 
 <a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
 
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
-
 <a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
 
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
 
  
 

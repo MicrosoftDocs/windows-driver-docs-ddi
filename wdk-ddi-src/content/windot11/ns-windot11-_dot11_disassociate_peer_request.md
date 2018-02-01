@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aa47c030-dcd4-451b-8a4b-03ac566bb394
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_DISASSOCIATE_PEER_REQUEST, windot11/PDOT11_DISASSOCIATE_PEER_REQUEST, netvista.dot11_disassociate_peer_request, DOT11_DISASSOCIATE_PEER_REQUEST, Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml, _DOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_DISASSOCIATE_PEER_REQUEST, PDOT11_DISASSOCIATE_PEER_REQUEST
+ms.keywords: netvista.dot11_disassociate_peer_request, PDOT11_DISASSOCIATE_PEER_REQUEST, windot11/PDOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST, windot11/DOT11_DISASSOCIATE_PEER_REQUEST, *PDOT11_DISASSOCIATE_PEER_REQUEST, Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml, PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], _DOT11_DISASSOCIATE_PEER_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _DOT11_DISASSOCIATE_PEER_REQUEST {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_DISASSOCIATE_PEER_REQUEST structure. This member is
      formatted as an 
@@ -87,11 +87,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_DISASSOCIATE_PEER_REQUEST_REVISION_1.
@@ -103,7 +98,12 @@ This member must be set to
        <b>sizeof</b>(DOT11_DISASSOCIATE_PEER_REQUEST).
 
 
-#### - PeerMacAddr
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field PeerMacAddr
 
 The media access control (MAC) address of the peer station that the 802.11 station is to
      disassociate from. If 
@@ -113,7 +113,7 @@ The media access control (MAC) address of the peer station that the 802.11 stati
      specific station.
 
 
-#### - usReason
+### -field usReason
 
 A USHORT value that specifies the reason code field in the disassociation frame that is sent by
      the 802.11 miniport driver.
@@ -123,8 +123,8 @@ A USHORT value that specifies the reason code field in the disassociation frame 
 
 
 This structure is used with 
-    <mshelp:link keywords="netvista.oid_dot11_disassociate_peer_request" tabindex="0">
-    OID_DOT11_DISASSOCIATE_PEER_REQUEST</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
+    OID_DOT11_DISASSOCIATE_PEER_REQUEST</a>.
 
 
 
@@ -132,8 +132,8 @@ This structure is used with
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.oid_dot11_disassociate_peer_request" tabindex="0">
-   OID_DOT11_DISASSOCIATE_PEER_REQUEST</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
+   OID_DOT11_DISASSOCIATE_PEER_REQUEST</a>
 
  
 

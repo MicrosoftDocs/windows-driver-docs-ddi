@@ -72,17 +72,17 @@ NTSTATUS SynchWritePort(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to a context supplied by I8042prt. 
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies the UCHAR value to write to an i8042 port.
 
 
-#### - WaitForACK [in]
+### -param WaitForACK [in]
 
 Specifies, if <b>TRUE</b>, that the routine waits until the write is acknowledged by the i8042 port. Otherwise, the routine returns without waiting for an acknowledgment from the port.
 

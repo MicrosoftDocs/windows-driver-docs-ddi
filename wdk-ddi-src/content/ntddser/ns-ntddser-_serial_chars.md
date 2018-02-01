@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PSERIAL_CHARS, _SERIAL_CHARS, PSERIAL_CHARS, SERIAL_CHARS, ntddser/SERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports], SERIAL_CHARS structure [Serial Ports], ntddser/PSERIAL_CHARS, serports.serial_chars"
+ms.keywords: SERIAL_CHARS, _SERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], ntddser/PSERIAL_CHARS, PSERIAL_CHARS, ntddser/SERIAL_CHARS, serports.serial_chars, *PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _SERIAL_CHARS {
 
 
 
-#### - EofChar
+### -field EofChar
 
 The EOF (end of file) character. Receipt of this character marks the end of the input stream.
 
 
-#### - ErrorChar
+### -field ErrorChar
 
 The parity error replacement character. Bytes received with parity errors are replaced by this character.
 
 
-#### - BreakChar
+### -field BreakChar
 
 The break character. Receipt of this character indicates that a break (temporary pause) occurred in the input stream.
 
 
-#### - EventChar
+### -field EventChar
 
 The event character. Receipt of this character signals a serial communication event if the SERIAL_EV_RXFLAG flag bit is set in the current wait mask. The wait mask is set by the <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a> request. The <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a> request initiates a wait for the events in the wait mask.
 
 
-#### - XonChar
+### -field XonChar
 
 The XON (transmit on) character to use for both transmit and receive operations. The XON and XOFF characters are used for software flow control.
 
 
-#### - XoffChar
+### -field XoffChar
 
 The XOFF (transmit off) character to use for both transmit and receive operations.
 
@@ -113,9 +113,9 @@ An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to t
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 

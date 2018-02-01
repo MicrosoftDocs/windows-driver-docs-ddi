@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b92072a6-fa6e-4b8d-83c3-b2844443f5c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStopSynchronously, DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, kmdf.wdfioqueuestopsynchronously, wdf.wdfioqueuestopsynchronously, PFN_WDFIOQUEUESTOPSYNCHRONOUSLY, wdfio/WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method
+ms.keywords: WdfIoQueueStopSynchronously method, DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, wdfio/WdfIoQueueStopSynchronously, kmdf.wdfioqueuestopsynchronously, WdfIoQueueStopSynchronously, PFN_WDFIOQUEUESTOPSYNCHRONOUSLY, wdf.wdfioqueuestopsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfIoQueueStopSynchronously(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 

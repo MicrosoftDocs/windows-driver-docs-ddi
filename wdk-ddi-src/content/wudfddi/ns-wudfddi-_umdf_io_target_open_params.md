@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee8c3585-4e27-4b53-99d8-0af0c5a0099d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDF_IO_TARGET_OPEN_PARAMS structure, umdf.umdf_io_target_open_params, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, UMDF_IO_TARGET_OPEN_PARAMS, _UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, wdf.umdf_io_target_open_params, PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS
+ms.keywords: wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS, umdf.umdf_io_target_open_params, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, UMDF_IO_TARGET_OPEN_PARAMS structure, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, _UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS, wdf.umdf_io_target_open_params, UMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,17 @@ typedef struct _UMDF_IO_TARGET_OPEN_PARAMS {
 
 
 
-#### - dwShareMode
+### -field dwShareMode
 
 The type of sharing to allow for the file. For more information about this member, see the <i>dwShareMode</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
-#### - dwCreationDisposition
+### -field dwCreationDisposition
 
 The action to take if the file already exists. For more information about this member, see the <i>dwCreationDisposition</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
-#### - dwFlagsAndAttributes
+### -field dwFlagsAndAttributes
 
 Additional flags and attributes for the file. For more information about this member, see the <i>dwFlagsAndAttributes</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 

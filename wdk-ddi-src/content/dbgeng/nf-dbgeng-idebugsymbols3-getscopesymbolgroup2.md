@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2bc0cd81-db9b-4646-838b-0e66c0667202
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3::GetScopeSymbolGroup2, debugger.getscopesymbolgroup2, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup2 method, GetScopeSymbolGroup2, IDebugSymbols3, GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetScopeSymbolGroup2 method [Windows Debugging], GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup2 method, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, GetScopeSymbolGroup2, IDebugSymbols3, debugger.getscopesymbolgroup2, IDebugSymbols3::GetScopeSymbolGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetScopeSymbolGroup2(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bit-set used to determine which symbols to include in the symbol group.  To include all symbols, set <i>Flags</i> to DEBUG_SCOPE_GROUP_ALL.  The following bit-flags determine which symbols are included.
 <table>
@@ -100,12 +100,12 @@ Include the local variables for the current scope.
 </table> 
 
 
-#### - Update [in, optional]
+### -param Update [in, optional]
 
 Specifies a previously created symbol group that will be updated to reflect the current scope.  If <i>Update</i> is <b>NULL</b>, a new symbol group interface object is created.
 
 
-#### - Symbols [out]
+### -param Symbols [out]
 
 Receives the symbol group interface object for the current scope.  For details on this interface, see <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
@@ -148,9 +148,9 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
  
 

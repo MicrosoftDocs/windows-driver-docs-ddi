@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bdd43d7d-a526-4a3a-81fc-561ae99d467e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilradioconfiguration_2, *LPRILRADIOCONFIGURATION, RILRADIOCONFIGURATION, RILRADIOCONFIGURATION structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRADIOCONFIGURATION
+ms.keywords: rilapitypes/RILRADIOCONFIGURATION, RILRADIOCONFIGURATION, netvista.rilradioconfiguration_2, *LPRILRADIOCONFIGURATION, RILRADIOCONFIGURATION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct _RILRADIOCONFIGURATION {
 
 
 
-#### - dwConfigId
+### -field dwConfigId
 
 
 
-#### - dwRadioType
+### -field dwRadioType
 
 
 
-#### - dwSystemTypes
+### -field dwSystemTypes
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WcsEnumColorProfiles function [Print Devices], print.wcsenumcolorprofiles, WcsEnumColorProfiles, colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, icm/WcsEnumColorProfiles
+ms.keywords: icm/WcsEnumColorProfiles, print.wcsenumcolorprofiles, WcsEnumColorProfiles function [Print Devices], WcsEnumColorProfiles, colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ BOOL WcsEnumColorProfiles(
 TBD
 
 
-#### - pEnumRecord [in]
+### -param pEnumRecord [in]
 
 A pointer to a structure that specifies the enumeration criteria.
 
 
-#### - pBuffer [out]
+### -param pBuffer [out]
 
 A pointer to a buffer in which the profile names are to be enumerated. A MULTI_SZ string that consists of profile names that satisfy the criteria specified in <i>*pEnumRecord</i> will be placed in this buffer.
 
 
-#### - dwSize [in]
+### -param dwSize [in]
 
 A variable that contains the size, in bytes, of the buffer pointed to by <i>pBuffer</i>. See Remarks.
 
 
-#### - pnProfiles [out, optional]
+### -param pnProfiles [out, optional]
 
 An optional pointer to a variable that receives the number of profile names actually copied to the buffer pointed to by <i>pBuffer</i>. Can be <b>NULL</b> if this information is not needed.
 

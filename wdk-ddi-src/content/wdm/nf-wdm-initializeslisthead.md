@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 258addec-7231-494c-aa70-5966e9a57132
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/InitializeSListHead, InitializeSListHead routine [Kernel-Mode Driver Architecture], k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, kernel.exinitializeslisthead, InitializeSListHead, ExInitializeSListHead
+ms.keywords: kernel.exinitializeslisthead, k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, ExInitializeSListHead, InitializeSListHead routine [Kernel-Mode Driver Architecture], wdm/InitializeSListHead, InitializeSListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID InitializeSListHead(
 
 
 
-#### - SListHead [in]
+### -param SListHead [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure to initialize. The structure must be 16-byte aligned on 64-bit platforms. 
 
@@ -93,15 +93,15 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
-
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 <a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
 

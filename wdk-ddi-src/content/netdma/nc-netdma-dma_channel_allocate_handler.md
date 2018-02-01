@@ -76,37 +76,29 @@ NTSTATUS ProviderAllocateDmaChannel(
 
 
 
-#### - ProviderContext [in]
+### -param ProviderContext [in]
 
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
-#### - ChannelParameters [in]
+### -param ChannelParameters [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-     NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure that defines the configuration parameters for the DMA
+     <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+     NET_DMA_CHANNEL_PARAMETERS</a> structure that defines the configuration parameters for the DMA
      channel.
 
 
-#### - NetDmaChannelHandle [in]
+### -param NetDmaChannelHandle [in]
 
 A handle that identifies the DMA channel. Provider drivers pass this handle to 
      <b>NetDma<i>Xxx</i></b> functions to identify the DMA channel.
 
 
-#### - *pProviderChannelContext [out]
-
-A pointer to a value that is a pointer to a DMA provider's context area for the DMA channel. The
-     DMA provider driver allocates this context area before returning from 
-     <i>ProviderAllocateDmaChannel</i>. NetDMA passes the context area pointer to 
-     <i>ProviderXxx</i> functions that require a provider channel context.
-
-
-#### - pProviderChannelContext [out]
+### -param *pProviderChannelContext [out]
 
 A pointer to a value that is a pointer to a DMA provider's context area for the DMA channel. The
      DMA provider driver allocates this context area before returning from 
@@ -170,12 +162,12 @@ The NetDMA interface calls a DMA provider driver's
 The DMA provider driver attempts to allocate a DMA channel with an interrupt CPU affinity that matches
     a bit that is specified in the 
     <b>ProcessorAffinityMask</b> member of the 
-    <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-    NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure at the 
+    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    NET_DMA_CHANNEL_PARAMETERS</a> structure at the 
     <i>ChannelParameters</i> parameter. If MSI-X is not supported or MSI-X is supported but a DMA channel with
     a matching interrupt CPU affinity is not available, the DMA provider driver allocates any available DMA
     channel and calls the 
-    <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> routine to
+    <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> routine to
     set the target CPU of the interrupt DPC to match one of the specified affinity mask bits.
 
 The DMA provider always driver returns the CPU number that it associated with the interrupt DPC for
@@ -204,13 +196,13 @@ NetDMA calls
 
 ## -see-also
 
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
 <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
 
-<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
-
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
-
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
  
 

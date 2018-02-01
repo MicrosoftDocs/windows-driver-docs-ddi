@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96dd78f1-8b71-4707-8b66-20d80c198f81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoMakeAssociatedIrp routine [Kernel-Mode Driver Architecture], ntddk/IoMakeAssociatedIrp, k104_35615730-15a8-4959-8c4d-8e9b4a186e10.xml, kernel.iomakeassociatedirp, IoMakeAssociatedIrp
+ms.keywords: k104_35615730-15a8-4959-8c4d-8e9b4a186e10.xml, IoMakeAssociatedIrp routine [Kernel-Mode Driver Architecture], kernel.iomakeassociatedirp, IoMakeAssociatedIrp, ntddk/IoMakeAssociatedIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PIRP IoMakeAssociatedIrp(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the master IRP that was input to a highest-level driver's Dispatch routine.
 
 
-#### - StackSize [in]
+### -param StackSize [in]
 
 Specifies the number of stack locations to be allocated for the associated IRP. The value must be at least equal to the <i>StackSize</i> of the next-lower driver's device object, but the associated IRP can have an additional stack location for the caller. 
 
@@ -98,17 +98,17 @@ Only the master IRP is associated with a thread; associated IRPs are not. For th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
 
 <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

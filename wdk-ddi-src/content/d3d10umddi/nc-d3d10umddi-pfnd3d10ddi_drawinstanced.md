@@ -85,19 +85,14 @@ VOID APIENTRY DrawInstanced(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - VertexCountPerInstance [in]
-
- The number of vertices per instance of the buffer that vertices are read from to draw the primitives. 
-
-
 #### - InstanceCount [in]
 
  The number of instances of the buffer that vertices are read from to draw the primitives. 
+
+
+#### - StartInstanceLocation [in]
+
+ The first instance of the buffer that vertices are read from to draw the primitives. 
 
 
 #### - StartVertexLocation [in]
@@ -105,9 +100,14 @@ VOID APIENTRY DrawInstanced(
  The first vertex in the buffer that vertices are read from to draw the primitives. 
 
 
-#### - StartInstanceLocation [in]
+#### - VertexCountPerInstance [in]
 
- The first instance of the buffer that vertices are read from to draw the primitives. 
+ The number of vertices per instance of the buffer that vertices are read from to draw the primitives. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 ## -returns
@@ -128,9 +128,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

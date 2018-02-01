@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f6d2034a-0906-42ea-a4bd-9cdb1b36c5cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FindFirstPrinterChangeNotification, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification function [Print Devices], winspool/FindFirstPrinterChangeNotification, spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml
+ms.keywords: FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, FindFirstPrinterChangeNotification function [Print Devices], print.findfirstprinterchangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ BOOL FindFirstPrinterChangeNotification(
 
 
 
-#### - hPrinter
+### -param hPrinter
 
 Caller-supplied printer handle, identifying the printer for which event notification is being requested. This handle must have been previously obtained from OpenPrinter (described in the Microsoft Windows SDK documentation).
 
@@ -86,12 +86,12 @@ Caller-supplied printer handle, identifying the printer for which event notifica
 TBD
 
 
-#### - fdwOptions
+### -param fdwOptions
 
 Not used.
 
 
-#### - pPrinterNotifyOptions
+### -param pPrinterNotifyOptions
 
 Caller-supplied pointer to a PRINTER_NOTIFY_OPTIONS structure (described in the Windows SDK documentation).
 
@@ -104,6 +104,11 @@ One or more caller-supplied PRINTER_CHANGE-prefixed flags. For more information,
 #### - hNotify
 
 Caller-supplied notification handle. This handle must be saved and used as input to <a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a> and <a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>.
+
+
+#### - pPrinterNotifyInit
+
+Not used.
 
 
 #### - pfdwStatus
@@ -122,6 +127,11 @@ Caller-supplied pointer to a location to receive provider-specified flags. The f
 If set, the print provider supplies print change notifications, by either the polling or the change notification method. (The notification method is identified by the PRINTER_NOTIFY_STATUS_POLL flag.)
 
 
+#### PRINTER_NOTIFY_STATUS_INFO
+
+Not used.
+
+
 #### PRINTER_NOTIFY_STATUS_POLL
 
 If set, the print application must poll to detect printer changes.
@@ -129,16 +139,6 @@ If set, the print application must poll to detect printer changes.
 If clear, the print provider notifies the spooler of changes by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>.
 
 (See the following Remarks section.)
-
-
-#### PRINTER_NOTIFY_STATUS_INFO
-
-Not used.
-
-
-#### - pPrinterNotifyInit
-
-Not used.
 
 
 ## -returns
@@ -167,9 +167,9 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a>
-
 <a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>
+
+<a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
 

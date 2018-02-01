@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d9d7327f-a413-4828-b204-e08198d0fe9e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SYNTHCAPS structure [Audio Devices], aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, SYNTHCAPS, dmusprop/PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], PSYNTHCAPS, *PSYNTHCAPS, dmusprop/SYNTHCAPS, audio.synthcaps, _SYNTHCAPS
+ms.keywords: aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, SYNTHCAPS structure [Audio Devices], audio.synthcaps, dmusprop/SYNTHCAPS, _SYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], PSYNTHCAPS, dmusprop/PSYNTHCAPS, SYNTHCAPS, *PSYNTHCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,12 +74,12 @@ typedef struct _SYNTHCAPS {
 
 
 
-#### - Guid
+### -field Guid
 
 Specifies the class ID for the synthesizer's miniport driver interface.
 
 
-#### - Flags
+### -field Flags
 
 Specifies the general capabilities of the driver. This member is a bitfield whose value is either zero or the bitwise OR of one or more of the following flag bits:
 
@@ -91,19 +91,14 @@ Specifies the general capabilities of the driver. This member is a bitfield whos
 The driver supports downloadable sample collections (DLS Level 1).
 
 
+#### SYNTH_PC_DLS2
+
+The driver supports downloadable sample collections (DLS Level 2).
+
+
 #### SYNTH_PC_EXTERNAL
 
 The synth represents a connection to external hardware.
-
-
-#### SYNTH_PC_SOFTWARESYNTH
-
-The driver implements a software synthesizer.
-
-
-#### SYNTH_PC_MEMORYSIZEFIXED
-
-The memory size given in the <b>MemorySize</b> member is valid and represents the maximum amount of sample memory in bytes. This flag is typically set when the sample memory is not system memory.
 
 
 #### SYNTH_PC_GMINHARDWARE
@@ -116,14 +111,19 @@ The synth supports the General MIDI sound set in hardware.
 The synth supports the Roland GS sound set in hardware.
 
 
+#### SYNTH_PC_MEMORYSIZEFIXED
+
+The memory size given in the <b>MemorySize</b> member is valid and represents the maximum amount of sample memory in bytes. This flag is typically set when the sample memory is not system memory.
+
+
 #### SYNTH_PC_REVERB
 
 The synth supports reverb.
 
 
-#### SYNTH_PC_DLS2
+#### SYNTH_PC_SOFTWARESYNTH
 
-The driver supports downloadable sample collections (DLS Level 2).
+The driver implements a software synthesizer.
 
 
 #### SYNTH_PC_SYSTEMMEMORY
@@ -131,38 +131,33 @@ The driver supports downloadable sample collections (DLS Level 2).
 The synth can use system memory.
 
 
-#### - MemorySize
+### -field MemorySize
 
 Specifies the amount of sample memory on the device (in bytes). This field should contain the value SYNTH_PC_SYSTEMMEMORY if the device uses system memory for sample memory with no limitation on the amount of memory allocated.
 
 
-#### - MaxChannelGroups
+### -field MaxChannelGroups
 
 Specifies the maximum number of channel groups this driver supports. Each channel group represents a set of 16 MIDI channels and has associated with it all the state that a MIDI hardware device would keep, which includes DLS, GM, GS, XG, or other mode information. DLS downloads, however, are per-driver and can be used by any of the channel groups. This prevents wasting memory by downloading several copies of the same DLS sample, one per channel group.
 
 
-#### - MaxVoices
+### -field MaxVoices
 
 Specifies the maximum number of voices that the rendering device supports. If the property handler is unable to provide a valid number for this member, it should set the member to (ULONG)-1.
 
 
-#### - MaxAudioChannels
+### -field MaxAudioChannels
 
 Specifies the maximum number of audio channels that the rendering device supports. If the property handler is unable to provide a valid number for this member, it should set the member to (ULONG)-1.
 
 
-#### - EffectFlags
+### -field EffectFlags
 
 Specifies the effects that the rendering device is capable of producing. This member is a bitfield whose value is either zero or the bitwise OR of the following flag bits:
 
 
 
 If the device supports none of these capabilities, set this member to SYNTH_EFFECT_NONE (zero).
-
-
-#### SYNTH_EFFECT_REVERB
-
-Rendering device can produce reverb effect.
 
 
 #### SYNTH_EFFECT_CHORUS
@@ -175,7 +170,12 @@ Rendering device can produce chorus effect.
 Rendering device can produce delay effect.
 
 
-#### - Description
+#### SYNTH_EFFECT_REVERB
+
+Rendering device can produce reverb effect.
+
+
+### -field Description
 
 Contains a text description of the device. This member is a WCHAR array containing a null-terminated string (for example, "Microsoft MPU-401").
 

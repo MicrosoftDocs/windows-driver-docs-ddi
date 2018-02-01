@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5939b967-bbc7-42e3-af90-a1c20698a934
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo_2, *LPRILCBGWLCONFIGINFO
+ms.keywords: "*LPRILCBGWLCONFIGINFO, rilapitypes/RILCBGWLCONFIGINFO, netvista.rilcbgwlconfiginfo_2, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], RILCBGWLCONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILCBGWLCONFIGINFO {
 
 
 
-#### - fAccept
+### -field fAccept
 
 
 
-#### - rgrrBroadcastMsgID
+### -field rgrrBroadcastMsgID
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f92d1f63-4361-4775-88f8-be1c9bf781ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-disk_3ad908b7-8f42-4a06-914e-92b631cc1a56.xml, _DISK_GEOMETRY, DISK_GEOMETRY structure [Storage Devices], PDISK_GEOMETRY structure pointer [Storage Devices], PDISK_GEOMETRY, ntdddisk/DISK_GEOMETRY, storage.disk_geometry, ntdddisk/PDISK_GEOMETRY, *PDISK_GEOMETRY, DISK_GEOMETRY
+ms.keywords: ntdddisk/PDISK_GEOMETRY, structs-disk_3ad908b7-8f42-4a06-914e-92b631cc1a56.xml, PDISK_GEOMETRY structure pointer [Storage Devices], *PDISK_GEOMETRY, DISK_GEOMETRY structure [Storage Devices], ntdddisk/DISK_GEOMETRY, storage.disk_geometry, PDISK_GEOMETRY, DISK_GEOMETRY, _DISK_GEOMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DISK_GEOMETRY {
 
 
 
-#### - Cylinders
+### -field Cylinders
 
 Indicates the number of cylinders on the disk device.
 
 
-#### - MediaType
+### -field MediaType
 
 Indicates the type of disk. The enumeration <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a> lists the values that can be assigned to this member. 
 
 
-#### - TracksPerCylinder
+### -field TracksPerCylinder
 
 Indicates the number of tracks in a cylinder.
 
 
-#### - SectorsPerTrack
+### -field SectorsPerTrack
 
 Indicates the number of sectors in each track.
 
 
-#### - BytesPerSector
+### -field BytesPerSector
 
 Indicates the number of bytes in a disk sector.
 
@@ -111,9 +111,9 @@ Indicates the number of bytes in a disk sector.
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
 
  
 

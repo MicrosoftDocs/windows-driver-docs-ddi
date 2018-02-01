@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1652bc1-e15d-4018-8f4c-2514958ffd27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallrttcap_2, RILCALLRTTCAP, *LPRILCALLRTTCAP, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLRTTCAP
+ms.keywords: RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLRTTCAP, *LPRILCALLRTTCAP, netvista.rilcallrttcap_2, RILCALLRTTCAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILCALLRTTCAP {
 
 
 
-#### - dwLocalRTTCap
+### -field dwLocalRTTCap
 
 
 
-#### - dwPeerRTTCap
+### -field dwPeerRTTCap
 
 

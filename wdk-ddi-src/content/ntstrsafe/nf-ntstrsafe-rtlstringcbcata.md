@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1034384f-6295-42ca-bf78-47c383417500
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbCatA, kernel.rtlstringcbcat, ntstrsafe/RtlStringCbCatW, RtlStringCbCatA, RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], RtlStringCbCat, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml
+ms.keywords: RtlStringCbCatA, RtlStringCbCatW, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml, ntstrsafe/RtlStringCbCatW, RtlStringCbCat, kernel.rtlstringcbcat, RtlStringCbCatW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS RtlStringCbCatW(
 
 
 
-#### - pszDest [in, out]
+### -param pszDest [in, out]
 
 A pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i> and terminated with a null character. 
 
 
-#### - cbDest [in]
+### -param cbDest [in]
 
 The size of the destination buffer, in bytes. The destination buffer must be large enough to include the concatenated strings and the terminating null character. 
 
@@ -86,7 +86,7 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(W
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char).
 
 
-#### - pszSrc [in]
+### -param pszSrc [in]
 
 A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>.
 
@@ -207,9 +207,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatexw.md">RtlStringCbCatEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 

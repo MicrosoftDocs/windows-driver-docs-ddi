@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5d860c5c-e29e-4ea2-b6f7-bcaab0d4584d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_592bfe23-7135-4118-9acf-6783691c55ea.xml, swenum/KsGetBusEnumParentFDOFromChildPDO, KsGetBusEnumParentFDOFromChildPDO function [Streaming Media Devices], KsGetBusEnumParentFDOFromChildPDO, stream.ksgetbusenumparentfdofromchildpdo
+ms.keywords: ksfunc_592bfe23-7135-4118-9acf-6783691c55ea.xml, stream.ksgetbusenumparentfdofromchildpdo, KsGetBusEnumParentFDOFromChildPDO, swenum/KsGetBusEnumParentFDOFromChildPDO, KsGetBusEnumParentFDOFromChildPDO function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS KsGetBusEnumParentFDOFromChildPDO(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the child's PDO.
 
 
-#### - FunctionalDeviceObject [out]
+### -param FunctionalDeviceObject [out]
 
 Pointer to the device object to receive the parent's FDO.
 

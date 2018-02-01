@@ -71,19 +71,14 @@ SIZE_T APIENTRY* CalcPrivateCryptoSessionSize(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - *pCreateData [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createcryptosession.md">D3D11_1DDIARG_CREATECRYPTOSESSION</a> structure that describes the cryptographic session.
-
-
-#### - pCreateData [in]
+### -param *pCreateData [in]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createcryptosession.md">D3D11_1DDIARG_CREATECRYPTOSESSION</a> structure that describes the cryptographic session.
 

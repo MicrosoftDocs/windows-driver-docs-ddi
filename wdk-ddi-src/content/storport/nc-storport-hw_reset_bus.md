@@ -72,12 +72,12 @@ BOOLEAN HwStorResetBus(
 
 
 
-#### - DeviceExtension
+### -param DeviceExtension
 
 A pointer to the miniport driver's per HBA storage area. 
 
 
-#### - PathId
+### -param PathId
 
 Identifies the SCSI bus to be reset. 
 

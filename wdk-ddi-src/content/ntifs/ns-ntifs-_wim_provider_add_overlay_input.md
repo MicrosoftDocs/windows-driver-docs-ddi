@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 75C95941-367D-4A7F-A121-AF2BF9EFE28E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PWIM_PROVIDER_ADD_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_BOOT_NOT_OS_WIM, WIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/WIM_PROVIDER_ADD_OVERLAY_INPUT, ifsk.wim_provider_add_overlay_input, WIM_BOOT_OS_WIM, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], PWIM_PROVIDER_ADD_OVERLAY_INPUT, _WIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT"
+ms.keywords: ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], ntifs/WIM_PROVIDER_ADD_OVERLAY_INPUT, WIM_PROVIDER_ADD_OVERLAY_INPUT, *PWIM_PROVIDER_ADD_OVERLAY_INPUT, _WIM_PROVIDER_ADD_OVERLAY_INPUT, WIM_BOOT_OS_WIM, PWIM_PROVIDER_ADD_OVERLAY_INPUT, ifsk.wim_provider_add_overlay_input, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_BOOT_NOT_OS_WIM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _WIM_PROVIDER_ADD_OVERLAY_INPUT {
 
 
 
-#### - WimType
+### -field WimType
 
 The type of WIM file set as a backing source. The WIM file type is set to one of the following values.
 <table>
@@ -101,17 +101,17 @@ The WIM file contains non-operating system files.
 </table> 
 
 
-#### - WimIndex
+### -field WimIndex
 
 The index of the image in the WIM file whose filename is specified at <b>WimFileNameOffset</b>.
 
 
-#### - WimFileNameOffset
+### -field WimFileNameOffset
 
 The offset, in bytes, from the beginning of this structure of the file name for the WIM file to add as a backing source. The file name is a string of <b>WCHAR</b> character values.
 
 
-#### - WimFileNameLength
+### -field WimFileNameLength
 
 The length, in bytes, of the file name at found at  <b>WimFileNameOffset</b>.
 
@@ -127,13 +127,13 @@ The WIM file name includes a terminating NULL character. <b>WimFileNameLength</b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632437">FSCTL_ADD_OVERLAY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632437">FSCTL_ADD_OVERLAY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6d89426-54d3-4f90-8687-c60e515b4d62
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_DEVICE_DESCRIPTOR, dispmprt/DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices], PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], PDXGK_DEVICE_DESCRIPTOR, _DXGK_DEVICE_DESCRIPTOR, display.dxgk_device_descriptor, *PDXGK_DEVICE_DESCRIPTOR, DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml
+ms.keywords: DXGK_DEVICE_DESCRIPTOR, dispmprt/DXGK_DEVICE_DESCRIPTOR, _DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices], display.dxgk_device_descriptor, PDXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], dispmprt/PDXGK_DEVICE_DESCRIPTOR, DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _DXGK_DEVICE_DESCRIPTOR {
 
 
 
-#### - DescriptorOffset
+### -field DescriptorOffset
 
 An integer that indicates an offset, in bytes, into the EDID. This member specifies the beginning of the requested data. 
 
 
-#### - DescriptorLength
+### -field DescriptorLength
 
 An integer that indicates the length, in bytes, of the buffer pointed to by <b>DescriptorBuffer</b>.
 
 
-#### - DescriptorBuffer
+### -field DescriptorBuffer
 
 A pointer to a buffer that receives all or a portion of the monitor's EDID. This buffer is allocated by the display port driver and filled in by the display miniport driver. The display miniport driver must not write more than <b>DescriptorLength</b> bytes to this buffer.
 
@@ -93,9 +93,9 @@ The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="..
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_generic_descriptor.md">DXGK_GENERIC_DESCRIPTOR</a>
 

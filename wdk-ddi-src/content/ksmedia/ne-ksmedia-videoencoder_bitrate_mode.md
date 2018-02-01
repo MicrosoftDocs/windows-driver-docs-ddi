@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/VariableBitRateAverage, ksmedia/VariableBitRatePeak, VariableBitRateAverage, stream.videoencoder_bitrate_mode, ConstantBitRate, VIDEOENCODER_BITRATE_MODE, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, VariableBitRatePeak, ksmedia/VIDEOENCODER_BITRATE_MODE, ksmedia/ConstantBitRate, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices]
+ms.keywords: ksmedia/VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE, ksmedia/VariableBitRatePeak, ksmedia/ConstantBitRate, stream.videoencoder_bitrate_mode, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/VariableBitRateAverage, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], VariableBitRateAverage, ConstantBitRate, VariableBitRatePeak
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,20 +69,20 @@ typedef enum  {
 
 
 
-#### - ConstantBitRate
+### -field ConstantBitRate
 
 
       Specifies that the encoding bit rate is constant. 
 
 
 
-#### - VariableBitRateAverage
+### -field VariableBitRateAverage
 
 Specifies that the encoding bit rate is variable, with the specified bit rate used as a guaranteed average over a specified window. The default window size is considered to be 5 minutes. That is, this guarantees that the average bit rate over the window period (5 minutes) will not exceed that specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>. 
 
 
 
-#### - VariableBitRatePeak
+### -field VariableBitRatePeak
 
 Specifies that the encoding bit rate is variable with the specified bit rate used as an average with a peak not to exceed the specified peak bit rate over a specified window. The default window size is considered to be 500ms (classically one GOP). That is, this bit rate is "constant quality" − the bit rate is expected to average around <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a> but may spike above this. It cannot exceed the bit rate specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>.
 
@@ -98,11 +98,11 @@ When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsof
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559524">ENCAPIPARAM_BITRATE_MODE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
 
  
 

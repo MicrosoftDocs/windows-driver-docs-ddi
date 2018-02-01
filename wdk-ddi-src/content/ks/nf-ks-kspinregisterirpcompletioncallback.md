@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d2872ea2-565b-47db-8054-876fd3c8fc4d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, ks/KsPinRegisterIrpCompletionCallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], KsPinRegisterIrpCompletionCallback, stream.kspinregisterirpcompletioncallback
+ms.keywords: avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], ks/KsPinRegisterIrpCompletionCallback, stream.kspinregisterirpcompletioncallback, KsPinRegisterIrpCompletionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ void KsPinRegisterIrpCompletionCallback(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to register a completion callback.
 
 
-#### - IrpCompletion [in]
+### -param IrpCompletion [in]
 
 This parameter supplies the address of a <a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a> routine to be called when an IRP completes its traversal of the circuit and is about to be recycled or retired.
 
@@ -101,15 +101,15 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+<a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-<a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 <a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5DD3EC13-5DDD-4640-A841-00576F74429A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProc interface [Imaging Devices], ~CWiaLogProc method, CWiaLogProc::~CWiaLogProc, ~CWiaLogProc, image.cwialogproc__cwialogproc, ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface, wiamdef/CWiaLogProc::~CWiaLogProc, CWiaLogProc, ~CWiaLogProc method [Imaging Devices]
+ms.keywords: CWiaLogProc::~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc, CWiaLogProc interface [Imaging Devices], ~CWiaLogProc method, ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface, image.cwialogproc__cwialogproc, CWiaLogProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

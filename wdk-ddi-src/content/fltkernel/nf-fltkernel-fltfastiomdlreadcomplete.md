@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMdlReadCompleteDev routine [Installable File System Drivers], FltFastIoMdlReadComplete, ifsk.fltfastiomdlreadcomplete, fltkernel/FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev
+ms.keywords: ifsk.fltfastiomdlreadcomplete, FsRtlMdlReadCompleteDev, FltFastIoMdlReadComplete, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN FsRtlMdlReadCompleteDev(
 
 
 
-#### - InitiatingInstance
+### -param InitiatingInstance
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to the file object.
 
 
-#### - MdlChain [in]
+### -param MdlChain [in]
 
 On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
 

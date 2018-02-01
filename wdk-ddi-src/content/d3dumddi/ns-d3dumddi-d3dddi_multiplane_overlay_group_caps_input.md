@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0AF66863-A1C0-4BCF-A677-BAF7F2961390
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_multiplane_overlay_group_caps_input, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure pointer [Display Devices], PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
+ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure [Display Devices], display.d3dddi_multiplane_overlay_group_caps_input, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure pointer [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 [in] The zero-based video present network (VidPN) source identification number of the input for which the capabilities are queried.
 
 
-#### - GroupIndex
+### -field GroupIndex
 
 [in] The index of the overlay capability group for which capabilities are queried. This value is always between zero and (<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_caps.md">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>.<b>NumCapabilityGroups</b> – 1).
 

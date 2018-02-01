@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28509e28-0e81-4531-947c-9ce452564682
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoTarget2::FormatRequestForFlush, IWDFIoTarget2::FormatRequestForFlush, FormatRequestForFlush method, IWDFIoTarget2 interface, IWDFIoTarget2 interface, FormatRequestForFlush method, IWDFIoTarget2, umdf.iwdfiotarget2_formatrequestforflush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, FormatRequestForFlush, FormatRequestForFlush method, wdf.iwdfiotarget2_formatrequestforflush
+ms.keywords: IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForFlush method, FormatRequestForFlush, wdf.iwdfiotarget2_formatrequestforflush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, FormatRequestForFlush method, IWDFIoTarget2::FormatRequestForFlush, wudfddi/IWDFIoTarget2::FormatRequestForFlush, FormatRequestForFlush method, IWDFIoTarget2 interface, umdf.iwdfiotarget2_formatrequestforflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT FormatRequestForFlush(
 
 
 
-#### - pRequest [in]
+### -param pRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface of the request object that represents the I/O request. 
 
 
-#### - pFile [in, optional]
+### -param pFile [in, optional]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is optional and can be <b>NULL</b>, but it is required for the default I/O target.
 
@@ -118,11 +118,11 @@ Use the <b>FormatRequestForFlush</b> method, followed by the <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
 
  
 

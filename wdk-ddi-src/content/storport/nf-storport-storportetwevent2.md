@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A390D684-C675-4140-8E8E-8330FB3192E4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorportEtwEventOpcodeResume, StorportEtwLevelCritical, StorportEtwEventOpcodeStart, StorPortEtwEvent2, storport/StorPortEtwEvent2, StorportEtwEventOpcodeExtension, StorportEtwLevelVerbose, StorportEtwLevelLogAlways, StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeReply, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwLevelInformational, STORPORT_ETW_EVENT_KEYWORD_POWER, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwEventOpcodeStop, storage.storportetwevent2, StorportEtwEventOpcodeInfo, StorportEtwLevelWarning, StorportEtwEventOpcodeSuspend, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwLevelError, StorportEtwEventOpcodeReceive, StorPortEtwEvent2 routine [Storage Devices]
+ms.keywords: storport/StorPortEtwEvent2, StorportEtwLevelWarning, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeStart, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwLevelCritical, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeReply, StorPortEtwEvent2, StorportEtwLevelLogAlways, StorportEtwEventOpcodeExtension, StorportEtwLevelError, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwLevelInformational, StorportEtwEventOpcodeDC_Start, StorPortEtwEvent2 routine [Storage Devices], storage.storportetwevent2, StorportEtwEventOpcodeStop, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwLevelVerbose, StorportEtwEventOpcodeReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,27 +79,27 @@ ULONG StorPortEtwEvent2(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Address [in, optional]
+### -param Address [in, optional]
 
 The storage unit device address. This parameter is NULL for adapter devices.
 
 
-#### - EventId [in]
+### -param EventId [in]
 
 A miniport defined identifier for the ETW event.
 
 
-#### - EventDescription [in]
+### -param EventDescription [in]
 
 The description text for the event. This text string must be &lt;= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
 
 
-#### - EventKeywords [in]
+### -param EventKeywords [in]
 
 Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
 <table>
@@ -150,7 +150,7 @@ The event is related to device enumeration.
 </table> 
 
 
-#### - EventLevel [in]
+### -param EventLevel [in]
 
 The event level. This value can indicate the importance or severity of the event. This is one of the following values.
 <table>
@@ -221,7 +221,7 @@ Verbose event information provided.
 </table> 
 
 
-#### - EventOpcode [in]
+### -param EventOpcode [in]
 
 The operational nature of the event. This is one of the following values.
 <table>
@@ -332,27 +332,27 @@ Device or unit is  suspended pending completion of another operation.
 </table> 
 
 
-#### - Srb [in, optional]
+### -param Srb [in, optional]
 
 A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
 
 
-#### - Parameter1Name [in, optional]
+### -param Parameter1Name [in, optional]
 
 A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-#### - Parameter1Value [in]
+### -param Parameter1Value [in]
 
 The value for parameter 1.
 
 
-#### - Parameter2Name [in, optional]
+### -param Parameter2Name [in, optional]
 
 A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-#### - Parameter2Value [in]
+### -param Parameter2Value [in]
 
 The value for parameter 2.
 
@@ -426,9 +426,9 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
-
 <a href="..\storport\nf-storport-storportetwevent8.md">StorPortEtwEvent8</a>
+
+<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
 
  
 

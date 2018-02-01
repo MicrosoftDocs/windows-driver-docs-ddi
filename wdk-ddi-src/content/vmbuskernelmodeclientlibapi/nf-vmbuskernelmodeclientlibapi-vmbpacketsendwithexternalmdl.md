@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketSendWithExternalMdl, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, netvista.vmbpacketsendwithexternalmdl, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl
+ms.keywords: vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsendwithexternalmdl, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSendWithExternalMdl, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,43 +79,43 @@ NTSTATUS
 
 
 
-#### - PacketObject [in]
+### -param PacketObject [in]
 
 A handle to the VMBus packet object.
 
 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A buffer that contains the command packet that is sent
 through the VMBus ring buffer.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 The length, in bytes, of the buffer in the <i>Buffer</i> parameter. 
 
 
-#### - ExternalDataMdl [in]
+### -param ExternalDataMdl [in]
 
  An MDL that describes a data buffer associated with     the packet. 
 
 
-#### - MdlOffset [in]
+### -param MdlOffset [in]
 
 The offset from the buffer described by the MDL where the
 data starts.
 
 
 
-#### - MdlLength [in]
+### -param MdlLength [in]
 
 The length of the sub-buffer to send. Use 0 for the entire     MDL.
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
   Flags. The following are pertinent flags:
 

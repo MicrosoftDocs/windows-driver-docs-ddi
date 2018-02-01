@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERIALPERF_STATS, PSERIALPERF_STATS, *PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, _SERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], ntddser/PSERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], serports.serialperf_stats
+ms.keywords: PSERIALPERF_STATS structure pointer [Serial Ports], ntddser/PSERIALPERF_STATS, serports.serialperf_stats, _SERIALPERF_STATS, PSERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], SERIALPERF_STATS, ntddser/SERIALPERF_STATS, *PSERIALPERF_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _SERIALPERF_STATS {
 
 
 
-#### - ReceivedCount
+### -field ReceivedCount
 
 The number of characters received since either the serial port was opened or the last <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request was processed.
 
 
-#### - TransmittedCount
+### -field TransmittedCount
 
 The number of characters transmitted since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-#### - FrameErrorCount
+### -field FrameErrorCount
 
 The number of frame errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-#### - SerialOverrunErrorCount
+### -field SerialOverrunErrorCount
 
 The number of serial overrun errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-#### - BufferOverrunErrorCount
+### -field BufferOverrunErrorCount
 
 The number of buffer overrun errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
 
-#### - ParityErrorCount
+### -field ParityErrorCount
 
 The number of parity errors detected since either the serial port was opened or the last <b>IOCTL_SERIAL_CLEAR_STATS</b> request was processed.
 
@@ -113,9 +113,9 @@ To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntdd
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storduid/DuidSubIdMatch, DuidErrorMaximum, storduid/DuidNoMatch, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidDeviceIdDescSize, DUID_MATCH_STATUS enumeration [Storage Devices], DuidSubIdMatch, storduid/DuidErrorInvalidDeviceDescSize, DuidErrorMissingDuid, storduid/DuidErrorMissingDuid, DuidErrorVersionMismatch, DUID_MATCH_STATUS, DuidErrorGeneral, storduid/DuidExactMatch, storduid/DuidErrorMaximum, storduid/DuidErrorInvalidLayoutSigVersion, _DUID_MATCH_STATUS, DuidErrorInvalidDeviceIdDescSize, storage.duid_match_status, DuidErrorInvalidDeviceDescSize, storduid/DuidErrorVersionMismatch, DuidErrorInvalidLayoutSigVersion, DuidErrorInvalidDuid, storduid/DuidErrorInvalidDuid, storduid/DUID_MATCH_STATUS, DuidExactMatch, storduid/DuidErrorGeneral, DuidNoMatch, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, storduid/DuidErrorInvalidLayoutSigSize
+ms.keywords: storduid/DuidErrorMaximum, DuidNoMatch, storduid/DuidExactMatch, storduid/DuidNoMatch, storduid/DuidErrorGeneral, storduid/DuidSubIdMatch, storduid/DuidErrorInvalidDeviceIdDescSize, storduid/DuidErrorInvalidDuid, _DUID_MATCH_STATUS, DuidErrorInvalidDeviceDescSize, DuidErrorInvalidDuid, storage.duid_match_status, DUID_MATCH_STATUS enumeration [Storage Devices], DuidSubIdMatch, DuidErrorInvalidDeviceIdDescSize, DuidErrorVersionMismatch, DuidErrorGeneral, DuidExactMatch, storduid/DuidErrorMissingDuid, storduid/DuidErrorInvalidDeviceDescSize, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, storduid/DuidErrorVersionMismatch, DuidErrorInvalidLayoutSigVersion, DuidErrorMissingDuid, DuidErrorMaximum, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidLayoutSigVersion, storduid/DUID_MATCH_STATUS, storduid/DuidErrorInvalidLayoutSigSize, DUID_MATCH_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -79,71 +79,71 @@ typedef enum _DUID_MATCH_STATUS {
 
 
 
-#### - DuidExactMatch
+### -field DuidExactMatch
 
 All fields in the two Device Unique Identifiers (DUIDs) match exactly.
 
 
-#### - DuidSubIdMatch
+### -field DuidSubIdMatch
 
 Either the serial number or one of the unique sub-IDs matches. The two DUIDs probably represent the same device.
 
 
-#### - DuidNoMatch
+### -field DuidNoMatch
 
 None of the sub-IDs match in page 83h of the vital product data (VPD). None of the non-VPD data matches.
 
 
-#### - DuidErrorGeneral
+### -field DuidErrorGeneral
 
 An error occurred for an unspecified cause.
 
 
-#### - DuidErrorMissingDuid
+### -field DuidErrorMissingDuid
 
 One of the two DUIDs to compare is missing.
 
 
-#### - DuidErrorVersionMismatch
+### -field DuidErrorVersionMismatch
 
 The two DUIDs to compare do not have the same version.
 
 
-#### - DuidErrorInvalidDuid
+### -field DuidErrorInvalidDuid
 
 At least one of the two DUIDs to compare is invalid.
 
 
-#### - DuidErrorInvalidDeviceIdDescSize
+### -field DuidErrorInvalidDeviceIdDescSize
 
 At least one of the two DUIDs to compare contains an invalid device ID descriptor (<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>). This descriptor reports VPD data.
 
 
-#### - DuidErrorInvalidDeviceDescSize
+### -field DuidErrorInvalidDeviceDescSize
 
 At least one of the two DUIDs to compare contains an invalid device descriptor (<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>). This descriptor reports non-VPD inquiry data..
 
 
-#### - DuidErrorInvalidLayoutSigSize
+### -field DuidErrorInvalidLayoutSigSize
 
 At least one of the two DUIDs to compare contains an invalid drive layout signature size.
 
 
-#### - DuidErrorInvalidLayoutSigVersion
+### -field DuidErrorInvalidLayoutSigVersion
 
 At least one of the two DUIDs to compare contains an invalid drive layout signature.
 
 
-#### - DuidErrorMaximum
+### -field DuidErrorMaximum
 
 This value delimits the upper limit of the enumeration values in this enumeration. This value allows a DUID consumer to create a loop that tests for all valid error values that the <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a> routine returns. As new identifier data is added to future versions of the DUID, new error values will specify which parts of the DUID are not well-formed.
 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
 <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a>
 

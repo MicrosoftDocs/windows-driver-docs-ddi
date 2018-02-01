@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b72e3b7d-000b-4827-aa06-699a0bcc1840
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortInterlockedDecrement, video/VideoPortInterlockedDecrement, display.videoportinterlockeddecrement, VideoPortInterlockedDecrement function [Display Devices], VideoPort_Functions_907ed72b-de68-432d-a9e4-b7c072628f9a.xml
+ms.keywords: VideoPort_Functions_907ed72b-de68-432d-a9e4-b7c072628f9a.xml, VideoPortInterlockedDecrement function [Display Devices], video/VideoPortInterlockedDecrement, display.videoportinterlockeddecrement, VideoPortInterlockedDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ LONG FASTCALL VideoPortInterlockedDecrement(
 
 
 
-#### - Addend [in]
+### -param Addend [in]
 
 Pointer to the variable to be decremented.
 

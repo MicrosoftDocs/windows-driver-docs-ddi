@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ExtDeviceMode, winspool/ExtDeviceMode, print.extdevicemode, ExtDeviceMode function [Print Devices], spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml
+ms.keywords: ExtDeviceMode, ExtDeviceMode function [Print Devices], print.extdevicemode, winspool/ExtDeviceMode, spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,46 +77,46 @@ LONG ExtDeviceMode(
 
 
 
-#### - hWnd [in, optional]
+### -param hWnd [in, optional]
 
 Handle to the parent window for the printer-configuration property sheet.
 
 
-#### - hInst [in, optional]
+### -param hInst [in, optional]
 
 
       Not used. Handle to the module instance of the device driver. 
 
 
-#### - pDevModeOutput [in, out]
+### -param pDevModeOutput [in, out]
 
 Pointer to the DEVMODE structure that receives the printer configuration data supplied in the buffer pointed to by the <i>pDevModeInput</i> parameter. 
 
 
-#### - pDeviceName [in, optional]
+### -param pDeviceName [in, optional]
 
 Pointer to a NULL-terminated string that contains the name of the device for which the printer configuration property sheet is displayed.
 
 
-#### - pPort [in, optional]
+### -param pPort [in, optional]
 
 Pointer to a NULL-terminated string that contains the name of the port to which the device is connected, such as LPT1.
 
 
-#### - pDevModeInput [in, optional]
+### -param pDevModeInput [in, optional]
 
 Pointer to the DEVMODE structure that the operating system uses to initialize the property sheet fields. 
 
 This parameter is used only if the DM_IN_BUFFER flag is set in the <i>fMode</i> parameter. If DM_IN_BUFFER is not set, the operating system uses the printer's default DEVMODE structure.
 
 
-#### - pProfile [in, optional]
+### -param pProfile [in, optional]
 
 
       Not used. Pointer to a NULL-terminated string that contains the name of the initialization file in which initialization information is recorded and read from. 
 
 
-#### - fMode
+### -param fMode
 
 Specifies the operations that the function performs. If this parameter is zero, the <b>ExtDeviceMode</b> function returns the number of bytes required by the printer driver's DEVMODE structure. Otherwise, this parameter can be set to one or more of the following flag values.
 <table>

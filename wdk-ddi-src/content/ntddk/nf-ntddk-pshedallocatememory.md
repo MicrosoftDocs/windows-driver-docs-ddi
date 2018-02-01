@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e489601e-b016-4681-97a0-78f42004909f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PshedAllocateMemory, whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml, ntddk/PshedAllocateMemory, PshedAllocateMemory function [WHEA Drivers and Applications], whea.pshedallocatememory
+ms.keywords: PshedAllocateMemory function [WHEA Drivers and Applications], PshedAllocateMemory, whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml, whea.pshedallocatememory, ntddk/PshedAllocateMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PVOID PshedAllocateMemory(
 
 
 
-#### - Size [in]
+### -param Size [in]
 
 The size, in bytes, of the block of memory being allocated.
 

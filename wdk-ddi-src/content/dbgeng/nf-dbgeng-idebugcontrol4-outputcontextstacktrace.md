@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: da3d19ab-258d-4214-8674-b35fec06534b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputContextStackTrace method [Windows Debugging], debugger.outputcontextstacktrace, OutputContextStackTrace, IDebugControl4::OutputContextStackTrace, OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, dbgeng/IDebugControl4::OutputContextStackTrace, IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method
+ms.keywords: IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace, dbgeng/IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method, OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, OutputContextStackTrace method [Windows Debugging], IDebugControl4, OutputContextStackTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT OutputContextStackTrace(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies where to send the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-#### - Frames [in]
+### -param Frames [in]
 
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frame is used.
 
 
-#### - FramesSize [in]
+### -param FramesSize [in]
 
 Specifies the number of frames to output.
 
 
-#### - FrameContexts [in]
+### -param FrameContexts [in]
 
 Specifies the register context for each frame in the stack.  The entries in this array correspond to the entries in the <i>Frames</i> array.  The type of the thread context is the CONTEXT structure for the target's effective processor.
 
 
-#### - FrameContextsSize [in]
+### -param FrameContextsSize [in]
 
 Specifies the size, in bytes, of the memory pointed to by <i>FrameContexts</i>.  The number of stack frames must equal the number of contexts, and <i>FrameContextsSize</i> must equal <i>FramesSize</i> multiplied by <i>FrameContextsEntrySize</i>.
 
 
-#### - FrameContextsEntrySize [in]
+### -param FrameContextsEntrySize [in]
 
 Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 <table>
@@ -257,13 +257,13 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
 
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
  
 

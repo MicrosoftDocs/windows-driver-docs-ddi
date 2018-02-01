@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6a7ca8-83aa-41fe-92f5-6598464d9803
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, AddTarget_IN structure [Storage Devices], AddTarget_IN, hbapiwmi/AddTarget_IN, PAddTarget_IN, PAddTarget_IN structure pointer [Storage Devices], storage.addtarget_in, *PAddTarget_IN, _AddTarget_IN, hbapiwmi/PAddTarget_IN
+ms.keywords: AddTarget_IN structure [Storage Devices], PAddTarget_IN structure pointer [Storage Devices], _AddTarget_IN, hbapiwmi/PAddTarget_IN, hbapiwmi/AddTarget_IN, AddTarget_IN, PAddTarget_IN, *PAddTarget_IN, storage.addtarget_in, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _AddTarget_IN {
 
 
 
-#### - HbaPortWWN
+### -field HbaPortWWN
 
 Contains the worldwide name of the local port whose events the WMI client will receive. 
 
 
-#### - DiscoveredPortWWN
+### -field DiscoveredPortWWN
 
 Contains a worldwide name that specifies the discovered target whose events the WMI client will receive.
 
 
-#### - AllTargets
+### -field AllTargets
 
 Indicates the scope of the target events to report. If this member is zero, the WMI client will receive events associated with the port that is indicated by <i>DiscoveredPortWWN</i>. If this member is nonzero, the WMI client will all events associated with all currently discovered targets as well as targets that are discovered in the future. 
 

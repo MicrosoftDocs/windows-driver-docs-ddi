@@ -72,12 +72,12 @@ NTSTATUS APIENTRY USBCAMD_SetVideoFormat(
 
 
 
-#### - DeviceContext [in]
+### -param DeviceContext [in]
 
 Pointer to device-specific context.
 
 
-#### - pSrb [in]
+### -param pSrb [in]
 
 Pointer to a stream request block (SRB).
 
@@ -134,9 +134,9 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
-
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
 
  
 

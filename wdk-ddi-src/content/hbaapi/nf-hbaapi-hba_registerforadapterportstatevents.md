@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82598ba4-6e01-44eb-9359-4b85e8f7980c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RegisterForAdapterPortStatEvents, storage.hba_registerforadapterportstatevents, fibreHBA_rtns_38f8ecc4-4c08-4707-98f1-076602ecae27.xml, hbaapi/HBA_RegisterForAdapterPortStatEvents, HBA_RegisterForAdapterPortStatEvents routine [Storage Devices]
+ms.keywords: HBA_RegisterForAdapterPortStatEvents routine [Storage Devices], hbaapi/HBA_RegisterForAdapterPortStatEvents, HBA_RegisterForAdapterPortStatEvents, storage.hba_registerforadapterportstatevents, fibreHBA_rtns_38f8ecc4-4c08-4707-98f1-076602ecae27.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ HBA_STATUS HBA_API HBA_RegisterForAdapterPortStatEvents(
 
 
 
-#### - callback
+### -param callback
 
 Pointer to a callback routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557117">HBA_PORTSTAT_CALLBACK</a> that is called when an adapter is added to the system.
 
@@ -88,17 +88,17 @@ TBD
 TBD
 
 
-#### - PortWWN
+### -param PortWWN
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the HBA port from which port events are reported. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 
-#### - stats
+### -param stats
 
 Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a> that, on input, holds the statistical levels that determine when port statistics events are generated. On output, this member holds statistical data gathered for the port referenced by <i>PortWWN. </i>
 
 
-#### - statType
+### -param statType
 
 Holds a value that indicates the mechanism used to trigger port statistics events. If the value is HBA_EVENT_PORT_STAT_THRESHOLD, then each non-NULL member of the HBA_PortStatistics structure pointed to by <i>stats </i>will indicate the threshold at which an event is generated for that particular statistical parameter. For example, if the <b>TxWords</b> member of the HBA_PortStatistics structure holds a value of 1,000,000, then an event will be generated once 1,000,000 words have been transmitted.
 
@@ -111,9 +111,9 @@ TBD
 
 
 
-#### - userData
+#### - callbackHandle
 
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+Pointer to an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 #### - handle
@@ -121,9 +121,9 @@ Pointer to a buffer that is passed to the callback routine with each event. This
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
-#### - callbackHandle
+#### - userData
 
-Pointer to an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns
@@ -185,13 +185,13 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557117">HBA_PORTSTAT_CALLBACK</a>
 
 <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

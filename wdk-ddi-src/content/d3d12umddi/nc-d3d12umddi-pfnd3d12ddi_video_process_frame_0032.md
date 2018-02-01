@@ -71,39 +71,29 @@ VOID APIENTRY* PFND3D12DDI_VIDEO_PROCESS_FRAME_0032(
 
 
 
-#### - hDrvCommandList
+### -param hDrvCommandList
 
 The command list.
 
 
-#### - hDrvVideoProcessor
+### -param hDrvVideoProcessor
 
 The video processor.
 
 
-#### - *pOutputParameters
+### -param *pOutputParameters
 
 The output arguments for the video process.
 
 
-#### - *pInputStreamParameters
+### -param *pInputStreamParameters
 
 The input arguments for the video process.
 
 
-#### - NumInputStreams
+### -param NumInputStreams
 
 The number of input streams.
-
-
-#### - pOutputParameters
-
-The output arguments for the video process.
-
-
-#### - pInputStreamParameters
-
-The input arguments for the video process.
 
 
 ## -returns

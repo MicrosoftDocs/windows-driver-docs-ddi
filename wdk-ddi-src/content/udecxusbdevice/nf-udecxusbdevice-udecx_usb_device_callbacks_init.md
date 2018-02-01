@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: ACBF5E07-9F36-4DF9-B72B-1BF159CE27A7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT, buses.udecx_usb_device_callbacks_init, UDECX_USB_DEVICE_CALLBACKS_INIT method [Buses], UDECX_USB_DEVICE_CALLBACKS_INIT
+ms.keywords: UDECX_USB_DEVICE_CALLBACKS_INIT method [Buses], UDECX_USB_DEVICE_CALLBACKS_INIT, udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT, buses.udecx_usb_device_callbacks_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ FORCEINLINE void UDECX_USB_DEVICE_CALLBACKS_INIT(
 
 
 
-#### - Callbacks [out]
+### -param Callbacks [out]
 
 A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_state_change_callbacks.md">UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS</a> structure to initialize.
 

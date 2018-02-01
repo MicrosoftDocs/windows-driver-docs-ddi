@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 66e794e6-ded0-41b1-b52b-d886bb58a4ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreHelperPS::GetOptionAttribute, print.iprintcorehelperps_getoptionattribute, GetOptionAttribute method [Print Devices], GetOptionAttribute, prcomoem/IPrintCoreHelperPS::GetOptionAttribute, IPrintCoreHelperPS, print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml, IPrintCoreHelperPS interface [Print Devices], GetOptionAttribute method, GetOptionAttribute method [Print Devices], IPrintCoreHelperPS interface
+ms.keywords: prcomoem/IPrintCoreHelperPS::GetOptionAttribute, IPrintCoreHelperPS::GetOptionAttribute, print.iprintcorehelperps_getoptionattribute, GetOptionAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices], GetOptionAttribute method, GetOptionAttribute, GetOptionAttribute method [Print Devices], IPrintCoreHelperPS, print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ HRESULT GetOptionAttribute(
 
 
 
-#### - pszFeatureKeyword [in]
+### -param pszFeatureKeyword [in]
 
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the feature keyword to query for. 
 
 
-#### - pszOptionKeyword [in]
+### -param pszOptionKeyword [in]
 
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the option keyword to query for. This value can be obtained from a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>.
 
 
-#### - pszAttribute [in]
+### -param pszAttribute [in]
 
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported attribute names for the option instead of specifying a specific attribute name for the option.
 
 
-#### - pdwDataType [out]
+### -param pdwDataType [out]
 
 A pointer to a variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration type, which is defined in printoem.h.
 
@@ -98,7 +98,7 @@ A pointer to a variable that receives a value that specifies the data type of th
 
 
 
-#### - pcbSize [out]
+### -param pcbSize [out]
 
 A pointer to a variable that receives the size, in bytes, of the buffer that is pointed to by the <i>pbData</i> parameter.
 

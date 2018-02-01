@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9d7ffae-aa9e-44d6-b659-cb5a9068f1d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], PIO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO, _IO_SESSION_CONNECT_INFO, kernel.io_session_connect_info, IO_SESSION_CONNECT_INFO, wdm/IO_SESSION_CONNECT_INFO, wdm/PIO_SESSION_CONNECT_INFO, kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml
+ms.keywords: IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], wdm/IO_SESSION_CONNECT_INFO, kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml, wdm/PIO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO, kernel.io_session_connect_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _IO_SESSION_CONNECT_INFO {
 
 
 
-#### - SessionId
+### -field SessionId
 
 Session ID. This member contains the <a href="http://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of the user session for which the driver is receiving this notification.
 
 
-#### - LocalSession
+### -field LocalSession
 
 Indicates whether the user session is a local session or a remote session. If <b>TRUE</b>, the user is logged on locally. If <b>FALSE</b>, the user is logged on remotely. 
 

@@ -76,20 +76,20 @@ VOID ProtocolCmActivateVcComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 Specifies the final status, as indicated by the miniport driver, of the request by the call
      manager to activate a VC.
 
 
-#### - CallMgrVcContext [in]
+### -param CallMgrVcContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle from its 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - CallParameters [in]
+### -param CallParameters [in]
 
 Pointer to the call parameters as specified by the call manager in a call to 
      <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>.
@@ -171,9 +171,9 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-
 <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 

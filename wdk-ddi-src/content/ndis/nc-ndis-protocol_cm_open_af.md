@@ -76,7 +76,7 @@ NDIS_STATUS ProtocolCmOpenAf(
 
 
 
-#### - CallMgrBindingContext [in]
+### -param CallMgrBindingContext [in]
 
 For a non-integrated call manager, <i>CallMgrBindingContext</i> specifies the handle to a call manager-allocated context area in which the call managers maintains
      its per-binding state information. The call manager supplied this handle when it called 
@@ -85,21 +85,21 @@ For a non-integrated call manager, <i>CallMgrBindingContext</i> specifies the ha
 For an integrated call manager (MCM), <i>CallMgrBindingContext</i> specifies the handle to a miniport-allocated context area in which the miniport maintains its per-adapter state information.  The miniport supplied this handle in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff553623">NdisMSetAttributesEx</a> call (for 5.x drivers) or its <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a> call (for 6.x drivers).
 
 
-#### - AddressFamily [in]
+### -param AddressFamily [in]
 
 Specifies the address family that a client is opening. This address family was registered by the
      call manager when it called 
-     <mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-     NdisCmRegisterAddressFamilyEx</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+     NdisCmRegisterAddressFamilyEx</a>.
 
 
-#### - NdisAfHandle [in]
+### -param NdisAfHandle [in]
 
 Specifies a handle, supplied by NDIS, that uniquely identifies this address family instance. This
      handle is opaque to the call manager and reserved for system use.
 
 
-#### - CallMgrAfContext [out]
+### -param CallMgrAfContext [out]
 
 Specifies the handle to a call manager-supplied context area in which the call manager maintains
      state about this open of an address family it provides.
@@ -135,8 +135,8 @@ Indicates that the call manager has successfully allocated and initialized any r
 <td width="60%">
 Indicates that the requested operation is being handled asynchronously. The call manager must
        call 
-       <mshelp:link keywords="netvista.ndiscmopenaddressfamilycomplete" tabindex="0"><b>
-       NdisCmOpenAddressFamilyComplete</b></mshelp:link> when it has completed all its open-AF operations to indicate to
+       <a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+       NdisCmOpenAddressFamilyComplete</a> when it has completed all its open-AF operations to indicate to
        NDIS (and the client) that the operation(s) has been completed.
 
 </td>
@@ -240,15 +240,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscmopenaddressfamilycomplete" tabindex="0"><b>
-   NdisCmOpenAddressFamilyComplete</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-   NdisCmRegisterAddressFamilyEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+   NdisCmOpenAddressFamilyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+   NdisCmRegisterAddressFamilyEx</a>
 
  
 

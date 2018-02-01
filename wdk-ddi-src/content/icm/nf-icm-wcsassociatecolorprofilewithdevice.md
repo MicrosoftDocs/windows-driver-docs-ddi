@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WcsAssociateColorProfileWithDevice, colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, WcsAssociateColorProfileWithDevice function [Print Devices], icm/WcsAssociateColorProfileWithDevice, print.wcsassociatecolorprofilewithdevice
+ms.keywords: print.wcsassociatecolorprofilewithdevice, colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, WcsAssociateColorProfileWithDevice function [Print Devices], icm/WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ BOOL WcsAssociateColorProfileWithDevice(
 TBD
 
 
-#### - pProfileName [in]
+### -param pProfileName [in]
 
 A pointer to the file name of the profile to associate.
 
 
-#### - pDeviceName [in]
+### -param pDeviceName [in]
 
 A pointer to the name of the device with which the profile is to be associated.
 

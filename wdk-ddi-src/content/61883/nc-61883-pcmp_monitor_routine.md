@@ -72,7 +72,7 @@ typedef PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
 
 
 
-#### - MonitorInfo [in]
+### -param MonitorInfo [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
 

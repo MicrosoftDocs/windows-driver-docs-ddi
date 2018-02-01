@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1d63f36d-4c62-40e9-b3c0-f6d847340b07
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/ClosePort, ClosePort, spoolfnc_fdd98daa-d14c-4534-a8c6-0070ccbbc3fe.xml, ClosePort function [Print Devices], print.closeport
+ms.keywords: winsplp/ClosePort, print.closeport, ClosePort function [Print Devices], ClosePort, spoolfnc_fdd98daa-d14c-4534-a8c6-0070ccbbc3fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOL ClosePort(
 
 
 
-#### - hPort [in]
+### -param hPort [in]
 
 Caller-supplied pointer to a port handle.
 
@@ -94,11 +94,11 @@ The <b>ClosePort</b> function should close the port by making the received port 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
-
 <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
 
 <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
 
  
 

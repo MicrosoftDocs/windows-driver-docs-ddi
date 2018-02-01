@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, netvista.wskderegister, WskDeregister, wsk/WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista]
+ms.keywords: wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, netvista.wskderegister, WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], wsk/WskDeregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID WskDeregister(
 
 
 
-#### - WskRegistration [in]
+### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
      <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK
@@ -113,8 +113,8 @@ All sockets are closed.
 
 </li>
 </ul>For more information about attaching a WSK application to the WSK subsystem, see 
-    <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock Kernel
-    Application</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    Application</a>.
 
 
 

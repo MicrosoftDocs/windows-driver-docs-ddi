@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22c7ae24-c2dc-46d6-b3c2-b908ad6d181c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsendrestricteduicccmdparams, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS, ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS
+ms.keywords: RILSENDRESTRICTEDUICCCMDPARAMS, netvista.rilsendrestricteduicccmdparams, ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,30 +73,30 @@ typedef struct _RILSENDRESTRICTEDUICCCMDPARAMS {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwCommand
+### -field dwCommand
 
 
 
-#### - rscpParameters
+### -field rscpParameters
 
 
 
-#### - fHasLockVerification
+### -field fHasLockVerification
 
 
 
-#### - lockVerification
+### -field lockVerification
 
 
 
-#### - dwDataSize
+### -field dwDataSize
 
 
 
-#### - pbData
+### -field pbData
 
 

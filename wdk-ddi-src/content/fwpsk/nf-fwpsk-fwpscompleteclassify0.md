@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 995e86dc-fc26-4903-bc21-45475cb4e2bc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsCompleteClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteClassify0, FwpsCompleteClassify0, netvista.fwpscompleteclassify0, wfp_ref_2_funct_3_fwps_C_32709694-e6b8-41b8-90ea-4c8ef187ab6f.xml
+ms.keywords: fwpsk/FwpsCompleteClassify0, FwpsCompleteClassify0, netvista.fwpscompleteclassify0, FwpsCompleteClassify0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_32709694-e6b8-41b8-90ea-4c8ef187ab6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,22 +75,22 @@ void NTAPI FwpsCompleteClassify0(
 
 
 
-#### - classifyHandle [in]
+### -param classifyHandle [in]
 
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
-     <mshelp:link keywords="netvista.fwpsacquireclassifyhandle0" tabindex="0"><b>
-     FwpsAcquireClassifyHandle0</b></mshelp:link>.
+     <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">
+     FwpsAcquireClassifyHandle0</a>.
 
 
-#### - flags [in]
+### -param flags [in]
 
 
       This parameter is reserved for future use. Set to zero.
      
 
 
-#### - classifyOut [in, optional]
+### -param classifyOut [in, optional]
 
 A pointer to a deep copy of the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a> structure that was originally
@@ -126,15 +126,15 @@ After calling this function,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
  
 

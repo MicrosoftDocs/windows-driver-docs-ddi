@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ccbe77ee-2377-45d9-b8bf-714680c1920a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstream_pointer_offset, _KSSTREAM_POINTER_OFFSET, *PKSSTREAM_POINTER_OFFSET, ks/KSSTREAM_POINTER_OFFSET, ks/PKSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET structure [Streaming Media Devices], avstruct_e210364b-520e-4d21-98ea-e22f5468e911.xml, PKSSTREAM_POINTER_OFFSET structure pointer [Streaming Media Devices]
+ms.keywords: "_KSSTREAM_POINTER_OFFSET, avstruct_e210364b-520e-4d21-98ea-e22f5468e911.xml, *PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET structure [Streaming Media Devices], KSSTREAM_POINTER_OFFSET, stream.ksstream_pointer_offset, PKSSTREAM_POINTER_OFFSET structure pointer [Streaming Media Devices], ks/KSSTREAM_POINTER_OFFSET, ks/PKSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,6 +73,11 @@ typedef struct _KSSTREAM_POINTER_OFFSET {
 
 
 
+#### - Count
+
+If <b>Data</b> is specified above, <b>Count</b> contains the total number of bytes of data available in the <b>Data</b> buffer. If <b>Mappings</b> is specified above, <b>Count</b> contains the total number of mappings in the <b>Mappings</b> table. <b>Count</b> does not change unless the stream pointer moves to a different <i>Frame</i>.
+
+
 #### - Data
 
 A pointer to a buffer containing input data or a buffer to which data is to be output. Specify <b>Data</b> if the minidriver does not set the KSPIN_FLAG_GENERATE_MAPPINGS flag in the <b>Flags</b> member of <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>.
@@ -82,11 +87,6 @@ A pointer to a buffer containing input data or a buffer to which data is to be o
 
 A pointer to the first element in an array of <a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a> structures. Specify <b>Mappings</b> if the minidriver sets the KSPIN_FLAG_GENERATE_MAPPINGS flag in the <b>Flags</b> member of <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>. In this case, the <b>Mappings</b> array describes contiguous chunks of physical memory that the client can use to set up a scatter/gather DMA operation with hardware. 
 
-
-
-#### - Count
-
-If <b>Data</b> is specified above, <b>Count</b> contains the total number of bytes of data available in the <b>Data</b> buffer. If <b>Mappings</b> is specified above, <b>Count</b> contains the total number of mappings in the <b>Mappings</b> table. <b>Count</b> does not change unless the stream pointer moves to a different <i>Frame</i>.
 
 
 #### - Remaining
@@ -103,9 +103,9 @@ See also <a href="https://msdn.microsoft.com/ba1c525b-26b0-4778-b58b-f4169cfb972
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
-
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+
+<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
 
  
 

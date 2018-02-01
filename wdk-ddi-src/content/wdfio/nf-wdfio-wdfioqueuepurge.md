@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bd6e9583-774f-4ca2-9c23-4d32b233daff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUEPURGE, WdfIoQueuePurge, WdfIoQueuePurge method, kmdf.wdfioqueuepurge, DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge
+ms.keywords: kmdf.wdfioqueuepurge, WdfIoQueuePurge, PFN_WDFIOQUEUEPURGE, DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, WdfIoQueuePurge method, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ VOID WdfIoQueuePurge(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 
 
-#### - PurgeComplete [in, optional]
+### -param PurgeComplete [in, optional]
 
 A pointer to a driver-supplied <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
@@ -121,11 +121,11 @@ For more information about the <b>WdfIoQueuePurge</b> method, see <a href="https
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md">WdfIoQueuePurgeSynchronously</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md">WdfIoQueuePurgeSynchronously</a>
 
  
 

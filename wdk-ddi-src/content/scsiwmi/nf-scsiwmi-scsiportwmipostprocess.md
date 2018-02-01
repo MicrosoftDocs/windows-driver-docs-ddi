@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da1770bc-2233-47ef-afab-cfcb34edb4b9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiwmi/ScsiPortWmiPostProcess, ScsiPortWmiPostProcess routine [Storage Devices], ScsiPortWmiPostProcess, scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, storage.scsiportwmipostprocess
+ms.keywords: ScsiPortWmiPostProcess routine [Storage Devices], storage.scsiportwmipostprocess, scsiwmi/ScsiPortWmiPostProcess, ScsiPortWmiPostProcess, scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID ScsiPortWmiPostProcess(
 
 
 
-#### - RequestContext [in]
+### -param RequestContext [in]
 
 A pointer to the request context for this SRB.
 
 
-#### - SrbStatus [in]
+### -param SrbStatus [in]
 
 Specifies any valid SRB status. If the output buffer passed to the miniport driver was too small to contain all of the data from a request, the miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN.
 
 
-#### - BufferUsed [in]
+### -param BufferUsed [in]
 
 If <i>SrbStatus</i> indicates success, the miniport driver sets <i>BufferUsed</i> to the number of bytes of data written to the buffer. If <i>SrbStatus</i> is SRB_STATUS_DATA_OVERRUN, the miniport driver sets <i>BufferUsed</i> to the number of bytes required to complete the SRB successfully.
 
@@ -107,13 +107,13 @@ If a miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN and sets <
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
  
 

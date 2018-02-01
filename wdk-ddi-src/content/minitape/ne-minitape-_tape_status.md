@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 45e85ad1-5b75-410e-b9dd-061051bbaa74
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TAPE_STATUS_BEGINNING_OF_MEDIA, PTAPE_STATUS enumeration pointer [Storage Devices], minitape/TAPE_STATUS_SUCCESS, TAPE_STATUS_NO_DATA_DETECTED, TAPE_STATUS_FILEMARK_DETECTED, TAPE_STATUS_REQUIRES_CLEANING, TAPE_STATUS_DEVICE_DATA_ERROR, minitape/PTAPE_STATUS, TAPE_STATUS_IO_DEVICE_ERROR, minitape/TAPE_STATUS_DEVICE_NOT_READY, TAPE_STATUS_BUS_RESET, PTAPE_STATUS, minitape/TAPE_STATUS_FILEMARK_DETECTED, minitape/TAPE_STATUS_CHECK_TEST_UNIT_READY, TAPE_STATUS_IO_TIMEOUT, minitape/TAPE_STATUS_INVALID_PARAMETER, TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, TAPE_STATUS_DEVICE_BUSY, minitape/TAPE_STATUS_INVALID_DEVICE_REQUEST, TAPE_STATUS_SETMARK_DETECTED, _TAPE_STATUS, TAPE_STATUS_DEVICE_NOT_READY, TAPE_STATUS_INVALID_DEVICE_REQUEST, TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS_BUFFER_OVERFLOW, TAPE_STATUS_NO_MEDIA, minitape/TAPE_STATUS_MEDIA_CHANGED, minitape/TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS_NO_DATA_DETECTED, TAPE_STATUS_SEND_SRB_AND_CALLBACK, TAPE_STATUS_UNRECOGNIZED_MEDIA, TAPE_STATUS_CHECK_TEST_UNIT_READY, minitape/TAPE_STATUS_END_OF_MEDIA, minitape/TAPE_STATUS_BEGINNING_OF_MEDIA, TAPE_STATUS_INVALID_BLOCK_LENGTH, *PTAPE_STATUS, minitape/TAPE_STATUS_DEVICE_DATA_ERROR, minitape/TAPE_STATUS_DEVICE_BUSY, minitape/TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, TAPE_STATUS enumeration [Storage Devices], minitape/TAPE_STATUS_MEDIA_WRITE_PROTECTED, minitape/TAPE_STATUS_IO_TIMEOUT, minitape/TAPE_STATUS_SEND_SRB_AND_CALLBACK, TAPE_STATUS_MEDIA_CHANGED, TAPE_STATUS_NO_SUCH_DEVICE, minitape/TAPE_STATUS_INSUFFICIENT_RESOURCES, minitape/TAPE_STATUS_BUFFER_OVERFLOW, TAPE_STATUS_SUCCESS, TAPE_STATUS, TAPE_STATUS_DEVICE_NOT_CONNECTED, minitape/TAPE_STATUS_NO_MEDIA, minitape/TAPE_STATUS_INVALID_BLOCK_LENGTH, minitape/TAPE_STATUS, minitape/TAPE_STATUS_CALLBACK, TAPE_STATUS_DATA_OVERRUN, TAPE_STATUS_CALLBACK, minitape/TAPE_STATUS_BUS_RESET, minitape/TAPE_STATUS_REQUIRES_CLEANING, minitape/TAPE_STATUS_UNRECOGNIZED_MEDIA, TAPE_STATUS_MEDIA_WRITE_PROTECTED, structs-tape_c79a2dd4-8c91-4735-9440-de39b23aa982.xml, TAPE_STATUS_END_OF_MEDIA, minitape/TAPE_STATUS_NO_SUCH_DEVICE, minitape/TAPE_STATUS_SETMARK_DETECTED, TAPE_STATUS_EOM_OVERFLOW, minitape/TAPE_STATUS_IO_DEVICE_ERROR, minitape/TAPE_STATUS_DATA_OVERRUN, storage.tape_status, minitape/TAPE_STATUS_DEVICE_NOT_CONNECTED, TAPE_STATUS_INVALID_PARAMETER, TAPE_STATUS_INSUFFICIENT_RESOURCES
+ms.keywords: minitape/TAPE_STATUS_DEVICE_NOT_CONNECTED, storage.tape_status, minitape/TAPE_STATUS_INVALID_DEVICE_REQUEST, minitape/TAPE_STATUS_BUS_RESET, minitape/TAPE_STATUS_NO_SUCH_DEVICE, minitape/TAPE_STATUS_END_OF_MEDIA, minitape/TAPE_STATUS_INVALID_BLOCK_LENGTH, minitape/TAPE_STATUS_IO_TIMEOUT, TAPE_STATUS_INSUFFICIENT_RESOURCES, minitape/TAPE_STATUS_BEGINNING_OF_MEDIA, minitape/TAPE_STATUS_DEVICE_DATA_ERROR, minitape/TAPE_STATUS_DATA_OVERRUN, TAPE_STATUS_CHECK_TEST_UNIT_READY, TAPE_STATUS_INVALID_BLOCK_LENGTH, TAPE_STATUS_SETMARK_DETECTED, minitape/TAPE_STATUS_MEDIA_CHANGED, structs-tape_c79a2dd4-8c91-4735-9440-de39b23aa982.xml, minitape/TAPE_STATUS_FILEMARK_DETECTED, minitape/TAPE_STATUS_INVALID_PARAMETER, TAPE_STATUS_INVALID_PARAMETER, TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, TAPE_STATUS_CALLBACK, minitape/TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS_SEND_SRB_AND_CALLBACK, TAPE_STATUS_NO_MEDIA, TAPE_STATUS_MEDIA_WRITE_PROTECTED, minitape/TAPE_STATUS_MEDIA_WRITE_PROTECTED, TAPE_STATUS_IO_TIMEOUT, *PTAPE_STATUS, TAPE_STATUS_MEDIA_CHANGED, TAPE_STATUS_FILEMARK_DETECTED, TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS, minitape/TAPE_STATUS_NO_MEDIA, TAPE_STATUS enumeration [Storage Devices], minitape/TAPE_STATUS_SETMARK_DETECTED, minitape/TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS, TAPE_STATUS_DEVICE_BUSY, PTAPE_STATUS enumeration pointer [Storage Devices], minitape/TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, minitape/TAPE_STATUS_CHECK_TEST_UNIT_READY, TAPE_STATUS_BEGINNING_OF_MEDIA, TAPE_STATUS_IO_DEVICE_ERROR, minitape/TAPE_STATUS_SUCCESS, TAPE_STATUS_INVALID_DEVICE_REQUEST, minitape/TAPE_STATUS_IO_DEVICE_ERROR, TAPE_STATUS_DEVICE_DATA_ERROR, TAPE_STATUS_BUFFER_OVERFLOW, minitape/TAPE_STATUS_BUFFER_OVERFLOW, PTAPE_STATUS, TAPE_STATUS_BUS_RESET, TAPE_STATUS_NO_DATA_DETECTED, minitape/TAPE_STATUS_NO_DATA_DETECTED, TAPE_STATUS_DATA_OVERRUN, _TAPE_STATUS, minitape/TAPE_STATUS_SEND_SRB_AND_CALLBACK, TAPE_STATUS_DEVICE_NOT_READY, minitape/TAPE_STATUS_CALLBACK, TAPE_STATUS_SUCCESS, minitape/TAPE_STATUS_DEVICE_NOT_READY, TAPE_STATUS_END_OF_MEDIA, minitape/TAPE_STATUS_DEVICE_BUSY, TAPE_STATUS_NO_SUCH_DEVICE, minitape/PTAPE_STATUS, minitape/TAPE_STATUS_UNRECOGNIZED_MEDIA, TAPE_STATUS_REQUIRES_CLEANING, TAPE_STATUS_UNRECOGNIZED_MEDIA, minitape/TAPE_STATUS_REQUIRES_CLEANING, minitape/TAPE_STATUS_INSUFFICIENT_RESOURCES, TAPE_STATUS_DEVICE_NOT_CONNECTED, TAPE_STATUS_NOT_IMPLEMENTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -97,157 +97,157 @@ typedef enum _TAPE_STATUS {
 
 
 
-#### - TAPE_STATUS_SEND_SRB_AND_CALLBACK
+### -field TAPE_STATUS_SEND_SRB_AND_CALLBACK
 
 Directs the tape class driver to send the SRB to the device. A tape miniclass routine usually returns this status after filling in the SRB passed by the tape class driver. If the operation is successful, the class driver increments a counter called a "call number" and calls the miniclass routine again. If the SRB fails, the class driver might call the miniclass routine again. For more information about how and when tape miniclass drivers should report this status value, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>. 
 
 
-#### - TAPE_STATUS_CALLBACK
+### -field TAPE_STATUS_CALLBACK
 
 Directs the tape class driver to increment the call number counter without sending an SRB to the device. For more information about how tape miniclass drivers should make use of this status value, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>. 
 
 
-#### - TAPE_STATUS_CHECK_TEST_UNIT_READY
+### -field TAPE_STATUS_CHECK_TEST_UNIT_READY
 
 Directs the tape class driver to create an SRB for the TEST UNIT READY command and to send the SRB to the device. 
 
 
-#### - TAPE_STATUS_SUCCESS
+### -field TAPE_STATUS_SUCCESS
 
 Indicates that the operation was successful. 
 
 
-#### - TAPE_STATUS_INSUFFICIENT_RESOURCES
+### -field TAPE_STATUS_INSUFFICIENT_RESOURCES
 
 Indicates that there were not enough resources available to the miniclass driver for it to complete the operation. 
 
 
-#### - TAPE_STATUS_NOT_IMPLEMENTED
+### -field TAPE_STATUS_NOT_IMPLEMENTED
 
 Indicates that the requested operation is not supported. 
 
 
-#### - TAPE_STATUS_INVALID_DEVICE_REQUEST
+### -field TAPE_STATUS_INVALID_DEVICE_REQUEST
 
 Indicates that the requested operation is invalid. 
 
 
-#### - TAPE_STATUS_INVALID_PARAMETER
+### -field TAPE_STATUS_INVALID_PARAMETER
 
 Indicates that one or more of the parameter values provided with the request are invalid. 
 
 
-#### - TAPE_STATUS_MEDIA_CHANGED
+### -field TAPE_STATUS_MEDIA_CHANGED
 
 Indicates that the media in the drive might have changed. 
 
 
-#### - TAPE_STATUS_BUS_RESET
+### -field TAPE_STATUS_BUS_RESET
 
 Indicates that the bus has been reset. 
 
 
-#### - TAPE_STATUS_SETMARK_DETECTED
+### -field TAPE_STATUS_SETMARK_DETECTED
 
 Indicates that a setmark was encountered during a tape operation. 
 
 
-#### - TAPE_STATUS_FILEMARK_DETECTED
+### -field TAPE_STATUS_FILEMARK_DETECTED
 
 Indicates that a filemark was encountered during a tape operation. 
 
 
-#### - TAPE_STATUS_BEGINNING_OF_MEDIA
+### -field TAPE_STATUS_BEGINNING_OF_MEDIA
 
 Indicates that the beginning of the media was encountered during a tape operation. 
 
 
-#### - TAPE_STATUS_END_OF_MEDIA
+### -field TAPE_STATUS_END_OF_MEDIA
 
 Indicates that the end of the media was encountered during a tape operation. 
 
 
-#### - TAPE_STATUS_BUFFER_OVERFLOW
+### -field TAPE_STATUS_BUFFER_OVERFLOW
 
 Indicates that a buffer overflow occurred. 
 
 
-#### - TAPE_STATUS_NO_DATA_DETECTED
+### -field TAPE_STATUS_NO_DATA_DETECTED
 
 Indicates that no data was detected. 
 
 
-#### - TAPE_STATUS_EOM_OVERFLOW
+### -field TAPE_STATUS_EOM_OVERFLOW
 
 Indicates that an attempt was made to exceed the physical end of the media during a tape operation. 
 
 
-#### - TAPE_STATUS_NO_MEDIA
+### -field TAPE_STATUS_NO_MEDIA
 
 Indicates that the tape operation failed, because there is no media in the drive. 
 
 
-#### - TAPE_STATUS_IO_DEVICE_ERROR
+### -field TAPE_STATUS_IO_DEVICE_ERROR
 
 Indicates that an I/O error occurred during a tape operation. 
 
 
-#### - TAPE_STATUS_UNRECOGNIZED_MEDIA
+### -field TAPE_STATUS_UNRECOGNIZED_MEDIA
 
 Indicates that the type of the media is not supported. 
 
 
-#### - TAPE_STATUS_DEVICE_NOT_READY
+### -field TAPE_STATUS_DEVICE_NOT_READY
 
 Indicates that the device is not ready. 
 
 
-#### - TAPE_STATUS_MEDIA_WRITE_PROTECTED
+### -field TAPE_STATUS_MEDIA_WRITE_PROTECTED
 
 Indicates that the media is write protected. 
 
 
-#### - TAPE_STATUS_DEVICE_DATA_ERROR
+### -field TAPE_STATUS_DEVICE_DATA_ERROR
 
 Indicates that a cyclic redundancy check (CRC) error occurred. 
 
 
-#### - TAPE_STATUS_NO_SUCH_DEVICE
+### -field TAPE_STATUS_NO_SUCH_DEVICE
 
 Indicates that no such device exists. 
 
 
-#### - TAPE_STATUS_INVALID_BLOCK_LENGTH
+### -field TAPE_STATUS_INVALID_BLOCK_LENGTH
 
 Indicates that the block length is invalid. 
 
 
-#### - TAPE_STATUS_IO_TIMEOUT
+### -field TAPE_STATUS_IO_TIMEOUT
 
 Indicates that the I/O operation timed out. 
 
 
-#### - TAPE_STATUS_DEVICE_NOT_CONNECTED
+### -field TAPE_STATUS_DEVICE_NOT_CONNECTED
 
 Indicates that the device is disconnected. 
 
 
-#### - TAPE_STATUS_DATA_OVERRUN
+### -field TAPE_STATUS_DATA_OVERRUN
 
 Indicates that the tape operation could not be performed because of a data overrun. 
 
 
-#### - TAPE_STATUS_DEVICE_BUSY
+### -field TAPE_STATUS_DEVICE_BUSY
 
 Indicates that the tape operation could not be performed, because the device is busy. 
 
 
-#### - TAPE_STATUS_REQUIRES_CLEANING
+### -field TAPE_STATUS_REQUIRES_CLEANING
 
 Indicates that the tape operation could not be performed because the device requires cleaning. 
 
 
-#### - TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED
+### -field TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED
 
 Indicates that the media currently in the drive is a cleaner cartridge. 
 

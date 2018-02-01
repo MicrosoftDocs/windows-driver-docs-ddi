@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4990f3d7-e48c-49ee-9384-4bcad93c9281
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], ClfsReadNextLogRecord, wdm/ClfsReadNextLogRecord, Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml, kernel.clfsreadnextlogrecord
+ms.keywords: Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml, ClfsReadNextLogRecord, ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], wdm/ClfsReadNextLogRecord, kernel.clfsreadnextlogrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS ClfsReadNextLogRecord(
 
 
 
-#### - pvReadContext [in, out]
+### -param pvReadContext [in, out]
 
 A pointer to a read context that the caller previously obtained by calling <a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a> or <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>.
 
 
-#### - ppvBuffer [out]
+### -param ppvBuffer [out]
 
 A pointer to a variable that receives a pointer to a buffer that contains the record data.
 
 
-#### - pcbBuffer [out]
+### -param pcbBuffer [out]
 
 A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by *<i>ppvBuffer</i>. This is the length of the data buffer of the record read.
 
 
-#### - peRecordType [in, out]
+### -param peRecordType [in, out]
 
 A pointer to a variable of type CLFS_RECORD_TYPE. The caller must set this parameter to one of the following values.
 <table>
@@ -132,22 +132,22 @@ The next record that is either a data record or a restart record.
 </table> 
 
 
-#### - plsnUser [in, optional]
+### -param plsnUser [in, optional]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the LSN of the record to be read. The specified record is read instead of the record that would have been read according to the mode (<b>ClfsContextUndoNext</b>, <b>ClfsContextPrevious</b>, or <b>ClfsContextForward</b>) of the read context (<i>pvReadContext</i>). The LSN supplied in <i>plsnUser</i> must be less than the current LSN of the read context. This parameter can be <b>NULL</b>.
 
 
-#### - plsnUndoNext [out]
+### -param plsnUndoNext [out]
 
 A pointer to a <b>CLFS_LSN</b> structure that receives the undo-next LSN of the record that is read.
 
 
-#### - plsnPrevious [out]
+### -param plsnPrevious [out]
 
 A pointer to a <b>CLFS_LSN</b> structure that receives the previous LSN of the record that was read.
 
 
-#### - plsnRecord [out]
+### -param plsnRecord [out]
 
 A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the record that was read.
 
@@ -172,9 +172,9 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
-
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+
+<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
 
 <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 

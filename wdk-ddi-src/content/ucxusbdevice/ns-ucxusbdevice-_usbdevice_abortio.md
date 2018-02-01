@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 69720940-4D3E-43E6-B587-427ED2049FCC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._usbdevice_abortio, ucxusbdevice/_USBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses], ucxusbdevice/P_USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO, _USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses]
+ms.keywords: USBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses], P_USBDEVICE_ABORTIO structure pointer [Buses], _USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO, ucxusbdevice/P_USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO, buses._usbdevice_abortio, P_USBDEVICE_ABORTIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _USBDEVICE_ABORTIO {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA752989-B49B-4832-8821-8B45AB3304CD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS
+ms.keywords: "_NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_ndk_performance_counters, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,152 +96,152 @@ typedef struct _NDIS_NDK_PERFORMANCE_COUNTERS {
 
 
 
-#### - Connect
+### -field Connect
 
 The number of outbound connections established. In a bitmask of counters (for example, <b>MissingCounterMask</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a> structure), this is counter 0.
 
 
-#### - Accept
+### -field Accept
 
 The number of inbound <i>RDMA</i> connections established. In a bitmask of counters (for example, <b>MissingCounterMask</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a> structure), this is counter 1.
 
 
-#### - ConnectFailure
+### -field ConnectFailure
 
 The  number of inbound and outbound <i>RDMA</i> connect attempts that  failed. In a bitmask of counters, this is counter 2.
 
 
-#### - ConnectionError
+### -field ConnectionError
 
 The number of established connections with  an error before a consumer disconnected the connection. In a bitmask of counters, this is counter 3.
 
 
-#### - ActiveConnection
+### -field ActiveConnection
 
 The number of  active <i>RDMA</i> connections. In a bitmask of counters, this is counter 4.
 
 
-#### - Reserved01
+### -field Reserved01
 
 Reserved.
 
 
-#### - Reserved02
+### -field Reserved02
 
 Reserved.
 
 
-#### - Reserved03
+### -field Reserved03
 
 Reserved.
 
 
-#### - Reserved04
+### -field Reserved04
 
 Reserved.
 
 
-#### - Reserved05
+### -field Reserved05
 
 Reserved.
 
 
-#### - Reserved06
+### -field Reserved06
 
 Reserved.
 
 
-#### - Reserved07
+### -field Reserved07
 
 Reserved.
 
 
-#### - Reserved08
+### -field Reserved08
 
 Reserved.
 
 
-#### - Reserved09
+### -field Reserved09
 
 Reserved.
 
 
-#### - Reserved10
+### -field Reserved10
 
 Reserved.
 
 
-#### - Reserved11
+### -field Reserved11
 
 Reserved.
 
 
-#### - Reserved12
+### -field Reserved12
 
 Reserved.
 
 
-#### - Reserved13
+### -field Reserved13
 
 Reserved.
 
 
-#### - Reserved14
+### -field Reserved14
 
 Reserved.
 
 
-#### - Reserved15
+### -field Reserved15
 
 Reserved.
 
 
-#### - Reserved16
+### -field Reserved16
 
 Reserved.
 
 
-#### - Reserved17
+### -field Reserved17
 
 Reserved.
 
 
-#### - Reserved18
+### -field Reserved18
 
 Reserved.
 
 
-#### - Reserved19
+### -field Reserved19
 
 Reserved.
 
 
-#### - Reserved20
+### -field Reserved20
 
 Reserved.
 
 
-#### - CQError
+### -field CQError
 
 The number of <i>RDMA</i> completion queue (CQs) that went into an error state. In a bitmask of counters, this is counter 25.
 
 
-#### - RDMAInOctets
+### -field RDMAInOctets
 
 The number of bytes  for all incoming <i>RDMA</i> traffic. This should include additional layer two protocol overhead.  In a bitmask of counters, this is counter 26.
 
 
-#### - RDMAOutOctets
+### -field RDMAOutOctets
 
 The number of bytes  for all outgoing <i>RDMA</i> traffic.  This should include additional layer two protocol overhead.  In a bitmask of counters, this is counter 27.
 
 
-#### - RDMAInFrames
+### -field RDMAInFrames
 
 The number, in frames,  of layer two frames that carry incoming <i>RDMA</i> traffic. In a bitmask of counters, this is counter 28.
 
 
-#### - RDMAOutFrames
+### -field RDMAOutFrames
 
 The number, in frames,  of layer two frames that carry outgoing <i>RDMA</i> traffic. In a bitmask of counters, this is counter 29.
 

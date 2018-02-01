@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdffile_getdevice, umdf.iwdffile_getdevice, IWDFFile interface, GetDevice method, GetDevice method, IWDFFile interface, wudfddi/IWDFFile::GetDevice, IWDFFile, IWDFFile::GetDevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, GetDevice method, GetDevice
+ms.keywords: IWDFFile::GetDevice, IWDFFile interface, GetDevice method, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, wudfddi/IWDFFile::GetDevice, GetDevice method, IWDFFile, umdf.iwdffile_getdevice, GetDevice method, IWDFFile interface, wdf.iwdffile_getdevice, GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetDevice(
 
 
 
-#### - ppWdfDevice [out]
+### -param ppWdfDevice [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object that is associated with the file object.
 

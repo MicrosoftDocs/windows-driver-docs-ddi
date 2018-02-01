@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7ff5787f-f663-4ceb-be59-4f48ecea03a9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, ReadPhysicalWithFlags function [Windows Debugging], debugger.readphysicalwithflags, ReadPhysicalWithFlags, wdbgexts/ReadPhysicalWithFlags
+ms.keywords: ReadPhysicalWithFlags function [Windows Debugging], debugger.readphysicalwithflags, WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, ReadPhysicalWithFlags, wdbgexts/ReadPhysicalWithFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ __inline VOID ReadPhysicalWithFlags(
 
 
 
-#### - address
+### -param address
 
 Specifies the physical address to read.
 
 
-#### - buf
+### -param buf
 
 Specifies the address of an array of bytes to hold the data that is read.
 
 
-#### - size
+### -param size
 
 Specifies the number of bytes to read. 
 
 
-#### - flags
+### -param flags
 
 Specifies the properties of the physical memory to be read.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
 <table>
@@ -138,7 +138,7 @@ The physical memory is write-combined.
 </table> 
 
 
-#### - sizer
+### -param sizer
 
 Receives the number of bytes actually read.
 
@@ -160,9 +160,9 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
-
 <a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
+
+<a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
 
  
 

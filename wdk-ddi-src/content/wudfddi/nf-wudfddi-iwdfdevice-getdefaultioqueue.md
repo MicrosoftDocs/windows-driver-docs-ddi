@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice_getdefaultioqueue, IWDFDevice interface, GetDefaultIoQueue method, wudfddi/IWDFDevice::GetDefaultIoQueue, GetDefaultIoQueue method, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, GetDefaultIoQueue, IWDFDevice, IWDFDevice::GetDefaultIoQueue, umdf.iwdfdevice_getdefaultioqueue, GetDefaultIoQueue method, IWDFDevice interface
+ms.keywords: UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, IWDFDevice::GetDefaultIoQueue, GetDefaultIoQueue method, wdf.iwdfdevice_getdefaultioqueue, umdf.iwdfdevice_getdefaultioqueue, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice, GetDefaultIoQueue, wudfddi/IWDFDevice::GetDefaultIoQueue, GetDefaultIoQueue method, IWDFDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetDefaultIoQueue(
 
 
 
-#### - ppWdfIoQueue [out]
+### -param ppWdfIoQueue [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the default I/O queue object.
 

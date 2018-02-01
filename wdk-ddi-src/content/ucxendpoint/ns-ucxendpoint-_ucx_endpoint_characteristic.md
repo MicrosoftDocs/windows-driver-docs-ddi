@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_ENDPOINT_CHARACTERISTIC structure [Buses], buses.ucx_endpoint_characteristic, PUCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], _UCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC
+ms.keywords: UCX_ENDPOINT_CHARACTERISTIC structure [Buses], UCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, *PUCX_ENDPOINT_CHARACTERISTIC, _UCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], PUCX_ENDPOINT_CHARACTERISTIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,26 +72,26 @@ typedef struct _UCX_ENDPOINT_CHARACTERISTIC {
 
 
 
-#### - Priority
+### -field Priority
 
 A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>-typed value that indicates the priority of the endpoint.
 
 
-#### - Size
+### -field Size
 
 Size of this structure.
 
 
-#### - CharacteristicType
+### -field CharacteristicType
 
 A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_type.md">UCX_ENDPOINT_CHARACTERISTIC_TYPE</a>-type value that indicates the type of endpoint characteristic.
 
 
 ## -see-also
 
-<a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
-
 <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
+
+<a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
 
  
 

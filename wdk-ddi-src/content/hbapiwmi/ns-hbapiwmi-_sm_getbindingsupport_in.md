@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c89d86fe-fe8c-48d2-a5c2-7971ea96b7ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_GetBindingSupport_IN, _SM_GetBindingSupport_IN, storage.sm_getbindingsupport_in, PSM_GetBindingSupport_IN structure pointer [Storage Devices], PSM_GetBindingSupport_IN, SM_GetBindingSupport_IN structure [Storage Devices], *PSM_GetBindingSupport_IN, structs-Fibre_f13c3a99-7626-4dda-b0f2-8505b7aff3b5.xml, hbapiwmi/SM_GetBindingSupport_IN, hbapiwmi/PSM_GetBindingSupport_IN
+ms.keywords: PSM_GetBindingSupport_IN structure pointer [Storage Devices], SM_GetBindingSupport_IN, PSM_GetBindingSupport_IN, storage.sm_getbindingsupport_in, SM_GetBindingSupport_IN structure [Storage Devices], hbapiwmi/SM_GetBindingSupport_IN, _SM_GetBindingSupport_IN, hbapiwmi/PSM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN, structs-Fibre_f13c3a99-7626-4dda-b0f2-8505b7aff3b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SM_GetBindingSupport_IN {
 
 
 
-#### - HbaPortWWN
+### -field HbaPortWWN
 
 The worldwide name (WWN) of the local port whose events the WMI client will receive.
 
 
-#### - DomainPortWWN
+### -field DomainPortWWN
 
 A worldwide name (WWN) that specifies the SAS domain worldwide name of the local port.
 

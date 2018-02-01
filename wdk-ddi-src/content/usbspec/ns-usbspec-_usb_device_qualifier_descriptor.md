@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f96e4305-ec07-4df8-8fdf-f840598dd938
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_DEVICE_QUALIFIER_DESCRIPTOR structure pointer [Buses], usbstrct_af615085-b822-4342-b1dd-950a0ff61d99.xml, _USB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR, buses.usb_device_qualifier_descriptor, USB_DEVICE_QUALIFIER_DESCRIPTOR structure [Buses], usbspec/USB_DEVICE_QUALIFIER_DESCRIPTOR, usbspec/PUSB_DEVICE_QUALIFIER_DESCRIPTOR
+ms.keywords: USB_DEVICE_QUALIFIER_DESCRIPTOR, buses.usb_device_qualifier_descriptor, usbstrct_af615085-b822-4342-b1dd-950a0ff61d99.xml, PUSB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR, usbspec/PUSB_DEVICE_QUALIFIER_DESCRIPTOR, _USB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR structure pointer [Buses], USB_DEVICE_QUALIFIER_DESCRIPTOR structure [Buses], usbspec/USB_DEVICE_QUALIFIER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _USB_DEVICE_QUALIFIER_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-#### - bDescriptorType
+### -field bDescriptorType
 
 Specifies the descriptor type. Must be set to <b>USB_DEVICE_QUALIFIER_DESCRIPTOR_TYPE</b>.
 
 
-#### - bcdUSB
+### -field bcdUSB
 
 Identifies the version of the USB specification that this descriptor structure complies with. This value is a binary-coded decimal number.
 
 
-#### - bDeviceClass
+### -field bDeviceClass
 
 Specifies the class code of the device as assigned by the USB specification group.
 
 
-#### - bDeviceSubClass
+### -field bDeviceSubClass
 
 Specifies the subclass code of the device as assigned by the USB specification group.
 
 
-#### - bDeviceProtocol
+### -field bDeviceProtocol
 
 Specifies the protocol code of the device as assigned by the USB specification group.
 
 
-#### - bMaxPacketSize0
+### -field bMaxPacketSize0
 
 Specifies the maximum packet size, in bytes, for endpoint zero of the device. The value must be set to 8, 16, 32, or 64.
 
 
-#### - bNumConfigurations
+### -field bNumConfigurations
 
 Specifies the total number of possible configurations for the device.
 
 
-#### - bReserved
+### -field bReserved
 
 Reserved.
 
@@ -130,9 +130,9 @@ This structure is similar to <a href="..\usbspec\ns-usbspec-_usb_device_descript
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 

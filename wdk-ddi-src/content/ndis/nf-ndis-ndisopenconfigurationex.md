@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76539106-6d8d-4a80-9c74-a6a4ca37c40e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisOpenConfigurationEx, NdisOpenConfigurationEx function [Network Drivers Starting with Windows Vista], netvista.ndisopenconfigurationex, NdisOpenConfigurationEx, ndis_configuration_ref_c1d84b46-85f5-4a0a-9a5f-d553fea94027.xml
+ms.keywords: NdisOpenConfigurationEx function [Network Drivers Starting with Windows Vista], netvista.ndisopenconfigurationex, ndis_configuration_ref_c1d84b46-85f5-4a0a-9a5f-d553fea94027.xml, NdisOpenConfigurationEx, ndis/NdisOpenConfigurationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ NDIS_STATUS NdisOpenConfigurationEx(
 
 
 
-#### - ConfigObject [in]
+### -param ConfigObject [in]
 
 A pointer to a caller-supplied and initialized 
-     <mshelp:link keywords="netvista.ndis_configuration_object" tabindex="0"><b>
-     NDIS_CONFIGURATION_OBJECT</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ndis_configuration_object.md">
+     NDIS_CONFIGURATION_OBJECT</a> structure.
 
 
-#### - ConfigurationHandle [out]
+### -param ConfigurationHandle [out]
 
 A pointer to a caller-supplied variable in which 
      <b>NdisOpenConfigurationEx</b> returns a handle to a registry key. The registry key identifies the
@@ -153,33 +153,33 @@ To access the configuration information, use the configuration handle with the f
 
 
 
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
-       NdisOpenConfigurationKeyByName</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+       NdisOpenConfigurationKeyByName</a>
 
 
 
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-       NdisOpenConfigurationKeyByIndex</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+       NdisOpenConfigurationKeyByIndex</a>
 
 
 The type of registry data that is associated with the configuration handle depends on the type of
     handle that the caller passes to 
     <b>NdisOpenConfigurationEx</b> in the 
     <b>NdisHandle</b> member of the 
-    <mshelp:link keywords="netvista.ndis_configuration_object" tabindex="0"><b>
-    NDIS_CONFIGURATION_OBJECT</b></mshelp:link> structure that is referenced by the 
+    <a href="..\ndis\ns-ndis-_ndis_configuration_object.md">
+    NDIS_CONFIGURATION_OBJECT</a> structure that is referenced by the 
     <i>ConfigObject</i> parameter. The handle can identify parameters that are associated with the driver or
     with an instance of the driver.
 
 If the driver obtained the handle in 
     <b>NdisHandle</b> by calling the 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link> function, 
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where the miniport driver's
     configuration parameters are stored. The miniport driver can use the configuration handle until it calls
     the 
-    <mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
-    NdisMDeregisterMiniportDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+    NdisMDeregisterMiniportDriver</a> function.
 
 If the driver obtained the handle in 
     <b>NdisHandle</b> from the 
@@ -194,13 +194,13 @@ If the driver obtained the handle in
 
 If the driver obtained the handle in 
     <b>NdisHandle</b> by calling the 
-    <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-    NdisRegisterProtocolDriver</b></mshelp:link> function, 
+    <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+    NdisRegisterProtocolDriver</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where the protocol driver's
     configuration parameters are stored. The protocol driver can use the configuration handle until it calls
     the 
-    <mshelp:link keywords="netvista.ndisderegisterprotocoldriver" tabindex="0"><b>
-    NdisDeregisterProtocolDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">
+    NdisDeregisterProtocolDriver</a> function.
 
 If the handle in 
     <b>NdisHandle</b> is a pointer to an 
@@ -222,12 +222,12 @@ If the driver obtained the handle in
 
 If a filter driver obtained the handle in 
     <b>NdisHandle</b> by calling the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function, 
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where the filter driver's
     configuration parameters are stored. Filter drivers can use the configuration handle until they call the 
-    <mshelp:link keywords="netvista.ndisfderegisterfilterdriver" tabindex="0"><b>
-    NdisFDeregisterFilterDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">
+    NdisFDeregisterFilterDriver</a> function.
 
 If a filter driver obtained the handle in 
     <b>NdisHandle</b> from the 
@@ -239,8 +239,8 @@ If a filter driver obtained the handle in
     <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a> function returns. If a
     monitoring filter driver specifies the NDIS_CONFIG_FLAG_FILTER_INSTANCE_CONFIGURATION flag in the 
     <b>Flags</b> member of the 
-    <mshelp:link keywords="netvista.ndis_configuration_object" tabindex="0"><b>
-    NDIS_CONFIGURATION_OBJECT</b></mshelp:link> structure, the driver can access the filter module configuration for a
+    <a href="..\ndis\ns-ndis-_ndis_configuration_object.md">
+    NDIS_CONFIGURATION_OBJECT</a> structure, the driver can access the filter module configuration for a
     specific filter module when there are multiple filter modules configured over the same miniport adapter.
     Modifying filter drivers must not use this flag.
 
@@ -254,50 +254,50 @@ After a driver is done accessing the configuration information, the driver must 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
-
-<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
-
-<mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
-   NdisMDeregisterMiniportDriver</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
-<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
+<a href="..\ndis\ns-ndis-_ndis_configuration_object.md">NDIS_CONFIGURATION_OBJECT</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+   NdisOpenConfigurationKeyByIndex</a>
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+   NdisMDeregisterMiniportDriver</a>
 
 <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
-   NdisOpenConfigurationKeyByName</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_ndis_configuration_object.md">NDIS_CONFIGURATION_OBJECT</a>
-
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
 <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+   NdisOpenConfigurationKeyByName</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
  
 

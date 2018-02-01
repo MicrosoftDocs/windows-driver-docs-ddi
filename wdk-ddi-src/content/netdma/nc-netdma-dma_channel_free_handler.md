@@ -53,8 +53,8 @@ req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 
 in Windows 8 and later.</div><div> </div>The 
   <i>ProviderFreeDmaChannel</i> function frees a DMA channel that the 
-  <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-  ProviderAllocateDmaChannel</b></mshelp:link> function previously allocated.
+  <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+  ProviderAllocateDmaChannel</a> function previously allocated.
 
 
 ## -prototype
@@ -75,13 +75,13 @@ VOID ProviderFreeDmaChannel(
 
 
 
-#### - ProviderChannelContext [in]
+### -param ProviderChannelContext [in]
 
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ## -returns

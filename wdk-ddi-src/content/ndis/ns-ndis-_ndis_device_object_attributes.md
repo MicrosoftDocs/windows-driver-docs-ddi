@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 658e1597-eacf-4e9e-9f10-37f7646d38ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES, netvista.ndis_device_object_attributes, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PNDIS_DEVICE_OBJECT_ATTRIBUTES, _NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES
+ms.keywords: NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, _NDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES, netvista.ndis_device_object_attributes, PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, *PNDIS_DEVICE_OBJECT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,7 @@ typedef struct _NDIS_DEVICE_OBJECT_ATTRIBUTES {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -86,7 +86,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_DEVICE_OBJECT_ATTRIBUTES_REVISION_1.
 
 
-#### - DeviceName
+### -field DeviceName
 
 A pointer to a variable of type NDIS_STRING that contains a null-terminated Unicode string that
      names the device object. The string must be a full path name--for example, 
@@ -94,7 +94,7 @@ A pointer to a variable of type NDIS_STRING that contains a null-terminated Unic
      <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
 
 
-#### - SymbolicName
+### -field SymbolicName
 
 A pointer to a variable of type NDIS_STRING that contains a Unicode string that is the
      Win32-visible name of the device being registered. Typically, 
@@ -102,7 +102,7 @@ A pointer to a variable of type NDIS_STRING that contains a Unicode string that 
      \DosDevices\<i>SymbolicName</i>.
 
 
-#### - MajorFunctions
+### -field MajorFunctions
 
 A pointer to an array of one or more entry points for the device driver's dispatch routines. A
      driver must set the same number of separate dispatch entry points as the number of IRP_MJ_<i>XXX</i> codes that the driver handles for the device object. Each dispatch routine is declared as
@@ -140,13 +140,13 @@ The device object for the dispatch routine.
 The IRP for the dispatch routine.
 
 
-#### - ExtensionSize
+### -field ExtensionSize
 
 The driver-determined number of bytes to be allocated for the device extension of the device
      object. The internal structure of the device extension is driver-defined.
 
 
-#### - DefaultSDDLString
+### -field DefaultSDDLString
 
 A string representation for the default security settings of the device object. The security that
      is applied to the device object is derived from this string. 
@@ -157,7 +157,7 @@ The security setting is specified in a subset of Security Descriptor Definition 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563688">Securing Device Objects</a>.
 
 
-#### - DeviceClassGuid
+### -field DeviceClassGuid
 
 Reserved for NDIS. Set this member to <b>NULL</b>.
 

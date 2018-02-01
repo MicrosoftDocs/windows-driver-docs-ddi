@@ -81,7 +81,7 @@ VOID APIENTRY CsSetSamplers(
 
 
 
-#### - NumSamplers [in]
+### -param NumSamplers [in]
 
  The total number of samplers to set. 
 
@@ -93,14 +93,14 @@ VOID APIENTRY CsSetSamplers(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - Offset [in]
 
  The offset to the first sampler to set. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - phSamplers [in]

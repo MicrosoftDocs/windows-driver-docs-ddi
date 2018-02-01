@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06034776-4faf-4918-b9ec-bc095455cf14
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.cm_eisa_function_information, CM_EISA_FUNCTION_INFORMATION, wdm/CM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, *PCM_EISA_FUNCTION_INFORMATION, _CM_EISA_FUNCTION_INFORMATION, wdm/PCM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION
+ms.keywords: wdm/PCM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.cm_eisa_function_information, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], PCM_EISA_FUNCTION_INFORMATION, _CM_EISA_FUNCTION_INFORMATION, kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, wdm/CM_EISA_FUNCTION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,37 +80,37 @@ typedef struct _CM_EISA_FUNCTION_INFORMATION {
 
 
 
-#### - CompressedId
+### -field CompressedId
 
 The EISA compressed identification of the device at this slot. The value is identical to the <b>CompressedId</b> member of the <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a> structure.
 
 
-#### - IdSlotFlags1
+### -field IdSlotFlags1
 
 The EISA slot identification flags.
 
 
-#### - IdSlotFlags2
+### -field IdSlotFlags2
 
 The EISA slot identification flags.
 
 
-#### - MinorRevision
+### -field MinorRevision
 
 Information supplied by the manufacturer. 
 
 
-#### - MajorRevision
+### -field MajorRevision
 
 Information supplied by the manufacturer. 
 
 
-#### - Selections
+### -field Selections
 
 The EISA selections for the device.
 
 
-#### - FunctionFlags
+### -field FunctionFlags
 
 Indicates which of the members has available information. Callers can use the following system-defined masks to determine whether a particular type of configuration information can be or has been returned by <b>HalGetBusData</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>:
 
@@ -145,12 +145,12 @@ EISA_HAS_MEMORY_ENTRY
 EISA_HAS_TYPE_ENTRY
 
 
-#### - TypeString
+### -field TypeString
 
 Specifies the type of device.
 
 
-#### - EisaMemory
+### -field EisaMemory
 
 Describes the EISA device memory configuration information, defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -170,7 +170,7 @@ Describes the EISA device memory configuration information, defined as follows:
 </tr>
 </table></span></div>
 
-#### - EisaIrq
+### -field EisaIrq
 
 Describes the EISA interrupt configuration information, defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -187,7 +187,7 @@ Describes the EISA interrupt configuration information, defined as follows:
 </tr>
 </table></span></div>
 
-#### - EisaDma
+### -field EisaDma
 
 Describes the EISA DMA configuration information, defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -204,7 +204,7 @@ Describes the EISA DMA configuration information, defined as follows:
 </tr>
 </table></span></div>
 
-#### - EisaPort
+### -field EisaPort
 
 Describes the EISA device port configuration information, defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -221,7 +221,7 @@ Describes the EISA device port configuration information, defined as follows:
 </tr>
 </table></span></div>
 
-#### - InitializationData
+### -field InitializationData
 
 Vendor-supplied, device-specific initialization data, if any. 
 
@@ -235,11 +235,11 @@ The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b>
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
 <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
  
 

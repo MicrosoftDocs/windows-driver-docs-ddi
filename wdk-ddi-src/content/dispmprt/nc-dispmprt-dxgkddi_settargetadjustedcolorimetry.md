@@ -69,17 +69,17 @@ NTSTATUS APIENTRY DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 [in] Identifies the adapter.
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 [in] The identifier of a display adapter's video present target.
 
 
-#### - AdjustedColorimetry [in]
+### -param AdjustedColorimetry [in]
 
 [in] A DXGK_COLORIMETRY structure containing the colorimetry related fields for the monitor attached to this target after the OS has processed the display device descriptor, all overrides and any adjustments.
 

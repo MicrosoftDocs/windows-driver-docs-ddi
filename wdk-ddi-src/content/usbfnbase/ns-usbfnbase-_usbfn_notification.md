@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 84B66823-F357-44DD-A401-79E27FA6B324
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBFN_NOTIFICATION structure [Buses], USBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], buses.usbfn_notification, usbfnbase/PUSBFN_NOTIFICATION, *PUSBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION, _USBFN_NOTIFICATION, PUSBFN_NOTIFICATION
+ms.keywords: USBFN_NOTIFICATION structure [Buses], *PUSBFN_NOTIFICATION, _USBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], buses.usbfn_notification, PUSBFN_NOTIFICATION, USBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION, usbfnbase/PUSBFN_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,33 +77,8 @@ typedef struct _USBFN_NOTIFICATION {
 
 
 
-#### - u
+### -field u
 
-
-
-#### BusSpeed
-
-The operating bus speed indicated by <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flags.
-
-
-#### SetupPacket
-
-Describes a setup packet in a  <b>USB_DEFAULT_PIPE_SETUP_PACKET</b> structure for a control transfer to or from the default endpoint as indicated by a <b>USB_DEFAULT_PIPE_SETUP_PACKET</b>-typed flag.
-
-
-#### ConfigurationValue
-
-The <b>bConfigurationValue</b> field of a USB configuration descriptor.
-
-
-#### PortType
-
-Possible port types supported by a function controller indicated by a <a href="..\usbfnbase\ne-usbfnbase-_usbfn_port_type.md">USBFN_PORT_TYPE</a>-typed flag.
-
-
-#### AlternateInterface
-
-Alternate setting of the interface indicated by <a href="..\usbfnbase\ns-usbfnbase-_alternate_interface.md">ALTERNATE_INTERFACE</a>.
 
 
 ### -field u.BusSpeed
@@ -131,7 +106,7 @@ Possible port types supported by a function controller indicated by a <a href=".
 Alternate setting of the interface indicated by <a href="..\usbfnbase\ns-usbfnbase-_alternate_interface.md">ALTERNATE_INTERFACE</a>.
 
 
-#### - Event
+### -field Event
 
 Bus notification indicated by a <a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>-typed flag.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 31565c5f-a1f2-4a81-bb91-e30e13f45050
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_84aae1db-020b-440b-ab32-ade50a4b47bb.xml, RtlSelfRelativeToAbsoluteSD, ifsk.rtlselfrelativetoabsolutesd, RtlSelfRelativeToAbsoluteSD routine [Installable File System Drivers], ntifs/RtlSelfRelativeToAbsoluteSD
+ms.keywords: RtlSelfRelativeToAbsoluteSD routine [Installable File System Drivers], ntifs/RtlSelfRelativeToAbsoluteSD, ifsk.rtlselfrelativetoabsolutesd, RtlSelfRelativeToAbsoluteSD, rtlref_84aae1db-020b-440b-ab32-ade50a4b47bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,57 +77,57 @@ NTSTATUS RtlSelfRelativeToAbsoluteSD(
 
 
 
-#### - SelfRelativeSecurityDescriptor [in]
+### -param SelfRelativeSecurityDescriptor [in]
 
 Pointer to a caller-allocated buffer that contains a SECURITY_DESCRIPTOR structure in self-relative format. <b>RtlSelfRelativeToAbsoluteSD</b> creates a version of this security descriptor in absolute format without modifying the original. 
 
 
-#### - AbsoluteSecurityDescriptor [out]
+### -param AbsoluteSecurityDescriptor [out]
 
 Pointer to a caller-allocated buffer that receives the main body of an absolute-format security descriptor. This information is formatted as a SECURITY_DESCRIPTOR structure. 
 
 
-#### - AbsoluteSecurityDescriptorSize [in, out]
+### -param AbsoluteSecurityDescriptorSize [in, out]
 
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>AbsoluteSecurityDescriptor</i> parameter. If the buffer is not large enough to hold the security descriptor, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size. 
 
 
-#### - Dacl [out]
+### -param Dacl [out]
 
 Pointer to a caller-allocated buffer that receives the DACL of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer. 
 
 
-#### - DaclSize [in, out]
+### -param DaclSize [in, out]
 
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>Dacl</i> parameter. If the buffer is not large enough to hold the DACL, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size. 
 
 
-#### - Sacl [out]
+### -param Sacl [out]
 
 Pointer to a caller-allocated buffer that receives the SACL of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer. 
 
 
-#### - SaclSize [in, out]
+### -param SaclSize [in, out]
 
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>Sacl</i> parameter. If the buffer is not large enough to hold the SACL, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size. 
 
 
-#### - Owner [out]
+### -param Owner [out]
 
 Pointer to a caller-allocated buffer that receives the SID of the owner of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer. 
 
 
-#### - OwnerSize [in, out]
+### -param OwnerSize [in, out]
 
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>Owner</i> parameter. If the buffer is not large enough to hold the SID, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size. 
 
 
-#### - PrimaryGroup [out]
+### -param PrimaryGroup [out]
 
 Pointer to a caller-allocated buffer that receives the SID of the primary group of the absolute-format security descriptor. The main body of the absolute-format security descriptor references this pointer. 
 
 
-#### - PrimaryGroupSize [in, out]
+### -param PrimaryGroupSize [in, out]
 
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>PrimaryGroup</i> parameter. If the buffer is not large enough to hold the SID, <b>RtlSelfRelativeToAbsoluteSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size. 
 
@@ -182,19 +182,19 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
 
 <a href="..\ntifs\nf-ntifs-rtlabsolutetoselfrelativesd.md">RtlAbsoluteToSelfRelativeSD</a>
 
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
  
 

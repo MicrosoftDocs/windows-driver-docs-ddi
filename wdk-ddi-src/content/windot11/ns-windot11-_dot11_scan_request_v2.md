@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2, _DOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml
+ms.keywords: DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], *PDOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SCAN_REQUEST_V2, Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, _DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, DOT11_SCAN_REQUEST_V2, windot11/PDOT11_SCAN_REQUEST_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,20 +83,20 @@ typedef struct _DOT11_SCAN_REQUEST_V2 {
 
 
 
-#### - dot11BSSType
+### -field dot11BSSType
 
 The type of basic service set (BSS) networks for which the 802.11 station scans. The data type for
      this member is the 
      <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
 
 
-#### - dot11BSSID
+### -field dot11BSSID
 
 The BSS identifier (BSSID) of a BSS network for which the 802.11 station scans. If this member is
      set to the wildcard BSSID (0xFFFFFFFFFFFF), the station scans for all BSSIDs.
 
 
-#### - dot11ScanType
+### -field dot11ScanType
 
 The type of scan that the 802.11 station performs. The data type for this member is the
      DOT11_SCAN_TYPE enumeration, which declares the following values:
@@ -110,8 +110,8 @@ Regardless of the value of
      domain. Also, the 802.11 station must perform a scan type of 
      <b>dot11_scan_type_passive</b> if it does not have a default regulatory domain. For more information
      about regulatory domains, see 
-     <mshelp:link keywords="netvista.oid_dot11_current_reg_domain" tabindex="0">
-     OID_DOT11_CURRENT_REG_DOMAIN</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-reg-domain">
+     OID_DOT11_CURRENT_REG_DOMAIN</a>.
 
 If the 
      <b>dot11_scan_type_forced</b> bit is set in the 
@@ -132,19 +132,19 @@ The station transmits an 802.11 Probe Request frame on each channel that it scan
        also receives 802.11 Beacon frames sent on the channel.
 
 
-#### dot11_scan_type_passive
-
-The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
-       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
-
-
 #### dot11_scan_type_auto
 
 The station can perform active or passive scans, or it can use a combination of both scan
        types.
 
 
-#### - bRestrictedScan
+#### dot11_scan_type_passive
+
+The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
+       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
+
+
+### -field bRestrictedScan
 
 If this member is <b>TRUE</b>, the 802.11 station performs a scan restricted to the channel and PHY
      configuration used to connect to a BSS network.
@@ -162,7 +162,7 @@ The 802.11 station is not connected to a BSS network.
 </li>
 </ul>
 
-#### - udot11SSIDsOffset
+### -field udot11SSIDsOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the service set identifier (SSID) list begins. Each entry in the SSID list is
@@ -176,7 +176,7 @@ The 802.11 station scans for each SSID in the list. For example, if
      list while scanning on a channel.
 
 
-#### - uNumOfdot11SSIDs
+### -field uNumOfdot11SSIDs
 
 The number of entries in the SSID list.
      
@@ -186,7 +186,7 @@ If
      zero-length SSID.
 
 
-#### - bUseRequestIE
+### -field bUseRequestIE
 
 If this member is <b>TRUE</b>, the 802.11 station must include the list of request IDs (defined through
      the 
@@ -208,8 +208,8 @@ The 802.11
        <b>dot11MultiDomainCapabilityEnabled</b> management information base (MIB) object is <b>FALSE</b>. For more
        information about the 
        <b>dot11MultiDomainCapabilityEnabled</b> MIB object, see 
-       <mshelp:link keywords="netvista.oid_dot11_multi_domain_capability_enabled" tabindex="0">
-       OID_DOT11_MULTI_DOMAIN_CAPABILITY_ENABLED</mshelp:link>.
+       <a href="https://msdn.microsoft.com/en-us/library/ee486712.aspx">
+       OID_DOT11_MULTI_DOMAIN_CAPABILITY_ENABLED</a>.
 
 </li>
 <li>
@@ -220,19 +220,19 @@ The
 </li>
 </ul>
 
-#### - uRequestIDsOffset
+### -field uRequestIDsOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the Request IDs list begins. Each entry in the request IDs list is formatted
      as a UCHAR data type.
 
 
-#### - uNumOfRequestIDs
+### -field uNumOfRequestIDs
 
 The number of entries in the request IDs list.
 
 
-#### - uPhyTypeInfosOffset
+### -field uPhyTypeInfosOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the list of PHY types begins. Each entry in the list of PHY types is
@@ -248,7 +248,7 @@ The miniport driver must ignore this member (along with the
      <b>bRestrictedScan</b> is set to <b>TRUE</b>.
 
 
-#### - uNumOfPhyTypeInfos
+### -field uNumOfPhyTypeInfos
 
 The number of entries in the list of PHY types.
      
@@ -258,7 +258,7 @@ If
      PHYs.
 
 
-#### - uIEsOffset
+### -field uIEsOffset
 
 The offset in the 
      <b>ucBuffer</b> array where the list of variable-length information elements (IEs) begins. The 802.11
@@ -272,12 +272,12 @@ The miniport driver must ignore this member (along with the
      <b>dot11_scan_type_passive</b>.
 
 
-#### - uIEsLength
+### -field uIEsLength
 
 The length, in bytes, of the list of IEs.
 
 
-#### - ucBuffer
+### -field ucBuffer
 
 The buffer containing optional data as specified through other members of this structure.
 
@@ -291,12 +291,12 @@ The 802.11 station performs explicit scan operations following the OID set reque
     accompanies the set request.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see 
-    <mshelp:link keywords="netvista.native_802_11_scan_operations" tabindex="0">Native 802.11 Scan
-    Operations</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    Operations</a>.
 
 For more information about the ExtSTA operation mode, see 
-    <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-    Mode</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+    Mode</a>.
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0256B3F-C35C-45AB-A825-0A82189F08DC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelenable, vmbuskernelmodeclientlibapi/VmbChannelEnable, VmbChannelEnable function [Network Drivers Starting with Windows Vista], VmbChannelEnable
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelEnable, VmbChannelEnable function [Network Drivers Starting with Windows Vista], netvista.vmbchannelenable, VmbChannelEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 The handle of a channel to enable.
 

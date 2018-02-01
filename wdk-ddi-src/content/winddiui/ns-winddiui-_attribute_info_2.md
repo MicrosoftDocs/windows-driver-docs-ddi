@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c5bb9943-ee5b-4128-9e5f-438971119e3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ATTRIBUTE_INFO_2 structure [Print Devices], PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, *PATTRIBUTE_INFO_2, print.attribute_info_2, PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, winddiui/ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml
+ms.keywords: print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, PATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, winddiui/ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices], print.attribute_info_2, *PATTRIBUTE_INFO_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,17 +75,17 @@ typedef struct _ATTRIBUTE_INFO_2 {
 
 
 
-#### - dwJobNumberOfPagesPerSide
+### -field dwJobNumberOfPagesPerSide
 
 Number of document pages to be placed on one side of a physical page, as requested by the user. Allowable values are 1, 2, 4, 6, 9, or 16.
 
 
-#### - dwDrvNumberOfPagesPerSide
+### -field dwDrvNumberOfPagesPerSide
 
 Number of document pages that the printer and driver can place on one side of a physical page. This value must be 1 or the value specified for <b>dwJobNumberOfPagesPerSide</b>.
 
 
-#### - dwNupBorderFlags
+### -field dwNupBorderFlags
 
 One of the following bit flag values:
 <table>
@@ -116,7 +116,7 @@ The print processor should not draw a border around the page.
 </table> 
 
 
-#### - dwJobPageOrderFlags
+### -field dwJobPageOrderFlags
 
 One of the following bit flag values:
 <table>
@@ -157,22 +157,22 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 </table> 
 
 
-#### - dwDrvPageOrderFlags
+### -field dwDrvPageOrderFlags
 
 Bit flags indicating which page ordering options are supported by the printer and driver. Uses the same flags as <b>dwJobPageOrderFlags</b>.
 
 
-#### - dwJobNumberOfCopies
+### -field dwJobNumberOfCopies
 
 Number of copies of the print job, as requested by the user.
 
 
-#### - dwDrvNumberOfCopies
+### -field dwDrvNumberOfCopies
 
 Maximum number of copies the printer and driver can handle at once, taking into account such job attributes as collating and stapling.
 
 
-#### - dwColorOptimization
+### -field dwColorOptimization
 
 One of the following bit flag values:
 <table>
@@ -218,9 +218,9 @@ For more information about other structure members, see <a href="..\winddiui\ns-
 
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
 
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
-
 <a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
+
+<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 20d61d23-4151-4a23-8963-6e38a08f391e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: prefix/RxPrefixTableLookupName, RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml, ifsk.rxprefixtablelookupname
+ms.keywords: rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml, prefix/RxPrefixTableLookupName, RxPrefixTableLookupName, ifsk.rxprefixtablelookupname, RxPrefixTableLookupName function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ PVOID RxPrefixTableLookupName(
 
 
 
-#### - ThisTable [in]
+### -param ThisTable [in]
 
 A pointer to the RX_PREFIX_TABLE structure in which to look.
 
 
-#### - CanonicalName [in]
+### -param CanonicalName [in]
 
 A pointer to the Unicode string name to look up.
 
 
-#### - RemainingName [out]
+### -param RemainingName [out]
 
 A pointer to the Unicode string name of the portion of the name that was unmatched.
 

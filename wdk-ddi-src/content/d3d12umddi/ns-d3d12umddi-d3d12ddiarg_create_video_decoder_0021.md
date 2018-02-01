@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], display.d3d12ddiarg_create_video_decoder, D3D12DDIARG_CREATE_VIDEO_DECODER_0021, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021
+ms.keywords: d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], D3D12DDIARG_CREATE_VIDEO_DECODER_0021, display.d3d12ddiarg_create_video_decoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,32 +74,32 @@ typedef struct D3D12DDIARG_CREATE_VIDEO_DECODER_0021 {
 
 
 
-#### - NodeMask
+### -field NodeMask
 
 A node mask. For single GPU operation, set this value to zero (0). If there are multiple GPU nodes, set a bit to identify the physical adapter of the device to which the command queue applies. Each bit in the mask corresponds to a single node. Only one  bit may be set.
 
 
-#### - Configuration
+### -field Configuration
 
 The decode profile and bitstream encryption.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
 
 
-#### - DecodeWidth
+### -field DecodeWidth
 
 The decode width of the bitstream to be decoded.
 
 
-#### - DecodeHeight
+### -field DecodeHeight
 
 The decode height of the bitstream to be decoded.
 
 
-#### - MaxDecodePictureBufferCount
+### -field MaxDecodePictureBufferCount
 
 The maximum number of decode picture buffers this stream can have.
 
 
-#### - FrameRate
+### -field FrameRate
 
 The frame rate of the input video stream.  
 
@@ -109,7 +109,7 @@ The frame rate of the input video stream.
  
 
 
-#### - Usage
+### -field Usage
 
 A hint for the intended usage for the decoder stream. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a> enumeration.
 

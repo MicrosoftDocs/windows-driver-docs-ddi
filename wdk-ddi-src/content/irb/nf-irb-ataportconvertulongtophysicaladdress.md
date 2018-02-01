@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f791f25d-d28e-45d3-b43c-9b87fda82d37
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportconvertulongtophysicaladdress, AtaPortConvertUlongToPhysicalAddress, atartns_29b4ce0d-5dda-4203-a10b-66ccd7859d5d.xml, AtaPortConvertUlongToPhysicalAddress routine [Storage Devices], irb/AtaPortConvertUlongToPhysicalAddress
+ms.keywords: AtaPortConvertUlongToPhysicalAddress, AtaPortConvertUlongToPhysicalAddress routine [Storage Devices], irb/AtaPortConvertUlongToPhysicalAddress, atartns_29b4ce0d-5dda-4203-a10b-66ccd7859d5d.xml, storage.ataportconvertulongtophysicaladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ IDE_PHYSICAL_ADDRESS AtaPortConvertUlongToPhysicalAddress(
 
 
 
-#### - UlongAddress [in]
+### -param UlongAddress [in]
 
 Specifies a value of type ULONG.
 

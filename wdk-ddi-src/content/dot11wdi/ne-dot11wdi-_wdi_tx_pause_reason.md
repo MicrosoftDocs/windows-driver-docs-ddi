@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2585d243-e3b0-414d-a932-28d91b69f1f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, dot11wdi/WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON_PS, WDI_TX_PAUSE_REASON_PEER_CREATE, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, netvista.wdi_tx_pause_reason, WDI_TX_PAUSE_REASON_IHV_START, _WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, dot11wdi/WDI_TX_PAUSE_REASON_PS, WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON, netvista.wifi_tx_pause_reason, WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT
+ms.keywords: WDI_TX_PAUSE_REASON_IHV_START, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], _WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_PS, netvista.wdi_tx_pause_reason, dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_PS, dot11wdi/WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON_NULL, dot11wdi/WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON_IHV_END, netvista.wifi_tx_pause_reason, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT, WDI_TX_PAUSE_REASON_PEER_CREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,32 +72,32 @@ typedef enum _WDI_TX_PAUSE_REASON {
 
 
 
-#### - WDI_TX_PAUSE_REASON_NULL
+### -field WDI_TX_PAUSE_REASON_NULL
 
 Reserved.  This enum value does not represent a valid pause reason code.
 
 
-#### - WDI_TX_PAUSE_REASON_CREDIT
+### -field WDI_TX_PAUSE_REASON_CREDIT
 
 General reason to use for the exhaustion of some IHV resource.
 
 
-#### - WDI_TX_PAUSE_REASON_PEER_CREATE
+### -field WDI_TX_PAUSE_REASON_PEER_CREATE
 
 All TIDs on a newly created peer are paused with this reason.  The IHV uses this reason code to restart these TIDs.  This is only applicable when the <b>TargetPriorityQueueing</b> capability is set to false.
 
 
-#### - WDI_TX_PAUSE_REASON_PS
+### -field WDI_TX_PAUSE_REASON_PS
 
 The peer is in Power Save Mode. This is only applicable when the <b>TargetPriorityQueueing</b> capability is set to false.
 
 
-#### - WDI_TX_PAUSE_REASON_IHV_START
+### -field WDI_TX_PAUSE_REASON_IHV_START
 
 Inclusive beginning of range of valid pause reasons for IHV use.
 
 
-#### - WDI_TX_PAUSE_REASON_IHV_END
+### -field WDI_TX_PAUSE_REASON_IHV_END
 
 Inclusive end of range of valid pause reasons for IHV use.
 

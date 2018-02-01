@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95464DE1-221A-4053-B124-4CFD44557CD3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_extended_io_resource, PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
+ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE, kernel.pep_acpi_initialize_extended_io_resource, PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,80 +81,80 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE(
 
 
 
-#### - ResourceUsage [in]
+### -param ResourceUsage [in]
 
 This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
-#### - Decode [in]
+### -param Decode [in]
 
 When set, indicates that this bridge subtractively decodes the address. This applies to top level bridges only. 
 
 When not set, indicates that this bridge positively decodes this address.
 
 
-#### - IsMinFixed [in]
+### -param IsMinFixed [in]
 
 When set, indicates that the minimum address is fixed.
 
 
-#### - IsMaxFixed [in]
+### -param IsMaxFixed [in]
 
 When set, indicates that the maximum address is fixed. 
 
 
-#### - ISARanges [in]
+### -param ISARanges [in]
 
 This parameter is copied into the <b>TypeSpecificFlags</b> member of the initialized <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
-#### - AddressGranularity [in]
+### -param AddressGranularity [in]
 
 A bit mask indicating which bits have been decoded.
 
 
-#### - AddressMinimum [in]
+### -param AddressMinimum [in]
 
 For bridges that translate addresses, this indicates the minimum starting address on the secondary side of the bridge.
 
 
-#### - AddressMaximum [in]
+### -param AddressMaximum [in]
 
 For bridges that translate addresses, this indicates the maximum starting address on the secondary side of the bridge.
 
 
-#### - AddressTranslation [in]
+### -param AddressTranslation [in]
 
 For bridges that translate addresses across the bridge, this is the
 address on the primary side. 
 
 
-#### - RangeLength [in]
+### -param RangeLength [in]
 
 The length of the address range. 
 
 
-#### - TypeSpecificAttributes [in]
+### -param TypeSpecificAttributes [in]
 
 The type-specific attributes for this resource.
 
 
-#### - DescriptorName [in]
+### -param DescriptorName [in]
 
 The name of the resource descriptor.
 
 
-#### - TranslationTypeNonStatic [in]
+### -param TranslationTypeNonStatic [in]
 
 When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.
 
 
-#### - TanslationSparseDensity [in]
+### -param TanslationSparseDensity [in]
 
 When false, indicates that this is a dense translation. Otherwise, it is sparse. 
 
 
-#### - Resource [out]
+### -param Resource [out]
 
 This is cast to *<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>.
 

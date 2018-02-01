@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 254eb89f-c330-4fca-8c58-6dbe56861743
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::GetEventCallbacksWide, debugger.geteventcallbackswide, dbgeng/IDebugClient5::GetEventCallbacksWide, GetEventCallbacksWide, GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetEventCallbacksWide method
+ms.keywords: debugger.geteventcallbackswide, GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetEventCallbacksWide, GetEventCallbacksWide, GetEventCallbacksWide method [Windows Debugging], IDebugClient5::GetEventCallbacksWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetEventCallbacksWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetEventCallbacksWide(
 
 
 
-#### - Callbacks [out]
+### -param Callbacks [out]
 
 Receives an interface pointer to the event callbacks object registered with this client.
 

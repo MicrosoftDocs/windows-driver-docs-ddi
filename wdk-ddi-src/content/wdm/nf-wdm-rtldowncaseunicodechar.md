@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1377a069-5065-4305-a48c-7a84f0071fc3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtldowncaseunicodechar, RtlDowncaseUnicodeChar routine [Kernel-Mode Driver Architecture], wdm/RtlDowncaseUnicodeChar, RtlDowncaseUnicodeChar, k109_e9ba1cee-5de9-4f8f-b964-6668ddef36b7.xml
+ms.keywords: kernel.rtldowncaseunicodechar, k109_e9ba1cee-5de9-4f8f-b964-6668ddef36b7.xml, RtlDowncaseUnicodeChar, RtlDowncaseUnicodeChar routine [Kernel-Mode Driver Architecture], wdm/RtlDowncaseUnicodeChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ WCHAR RtlDowncaseUnicodeChar(
 
 
 
-#### - SourceCharacter [in]
+### -param SourceCharacter [in]
 
 Specifies the character to convert. 
 

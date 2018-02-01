@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WheaErrSrcTypeCMC, _WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeIPFCPE, PWHEA_ERROR_SOURCE_TYPE, ntddk/WHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeSCIGeneric, ntddk/WheaErrSrcTypeCPE, WheaErrSrcTypeGeneric, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeGeneric, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypePCIe, WheaErrSrcTypeMax, WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeCMC, WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeBOOT, WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypeMCE, whea.whea_error_source_type, WheaErrSrcTypeSCIGeneric, *PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeMax, WheaErrSrcTypeCPE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WheaErrSrcTypeMCE, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeINIT, WheaErrSrcTypeNMI
+ms.keywords: ntddk/WheaErrSrcTypeMCE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WheaErrSrcTypeSCIGeneric, WheaErrSrcTypePCIe, _WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeMax, WheaErrSrcTypeIPFCPE, WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeINIT, ntddk/WheaErrSrcTypeNMI, WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeCMC, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, WheaErrSrcTypeMCE, ntddk/WheaErrSrcTypeINIT, *PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeCPE, ntddk/WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeGeneric, ntddk/PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, whea.whea_error_source_type, PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeCPE, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeCMC, WheaErrSrcTypeNMI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -79,62 +79,62 @@ typedef enum _WHEA_ERROR_SOURCE_TYPE {
 
 
 
-#### - WheaErrSrcTypeMCE
+### -field WheaErrSrcTypeMCE
 
 A machine check exception (MCE).
 
 
-#### - WheaErrSrcTypeCMC
+### -field WheaErrSrcTypeCMC
 
 A corrected machine check (CMC).
 
 
-#### - WheaErrSrcTypeCPE
+### -field WheaErrSrcTypeCPE
 
 A corrected platform error (CPE).
 
 
-#### - WheaErrSrcTypeNMI
+### -field WheaErrSrcTypeNMI
 
 A nonmaskable interrupt (NMI).
 
 
-#### - WheaErrSrcTypePCIe
+### -field WheaErrSrcTypePCIe
 
 A PCI Express (PCIe) error.
 
 
-#### - WheaErrSrcTypeGeneric
+### -field WheaErrSrcTypeGeneric
 
 A type of error source that does not conform to any of the other WHEA_ERROR_SOURCE_TYPE enumeration values.
 
 
-#### - WheaErrSrcTypeINIT
+### -field WheaErrSrcTypeINIT
 
 An Itanium processor INIT error.
 
 
-#### - WheaErrSrcTypeBOOT
+### -field WheaErrSrcTypeBOOT
 
 A boot error source.
 
 
-#### - WheaErrSrcTypeSCIGeneric
+### -field WheaErrSrcTypeSCIGeneric
 
 A service control interrupt (SCI).
 
 
-#### - WheaErrSrcTypeIPFMCA
+### -field WheaErrSrcTypeIPFMCA
 
 An Itanium processor machine check abort (MCA).
 
 
-#### - WheaErrSrcTypeIPFCMC
+### -field WheaErrSrcTypeIPFCMC
 
 An Itanium processor corrected machine check (CMC).
 
 
-#### - WheaErrSrcTypeIPFCPE
+### -field WheaErrSrcTypeIPFCPE
 
 An Itanium processor corrected platform error (CPE).
 
@@ -147,7 +147,7 @@ An Itanium processor corrected platform error (CPE).
 
 
 
-#### - WheaErrSrcTypeMax
+### -field WheaErrSrcTypeMax
 
 The maximum number of error source types that can report hardware errors.
 
@@ -163,9 +163,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
  
 

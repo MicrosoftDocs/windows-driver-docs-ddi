@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 832ca4fe-1040-4f07-8c84-f576e5ce6423
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE, IDDCX_ADAPTER_FLAGS, iddcx/IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE, IDDCX_ADAPTER_FLAGS enumeration [Display Devices], display.iddcx_adapter_flags, IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, iddcx/IDDCX_ADAPTER_FLAGS, iddcx/IDDCX_ADAPTER_FLAGS_NONE, IDDCX_ADAPTER_FLAGS_NONE
+ms.keywords: IDDCX_ADAPTER_FLAGS_NONE, iddcx/IDDCX_ADAPTER_FLAGS_NONE, IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, IDDCX_ADAPTER_FLAGS, IDDCX_ADAPTER_FLAGS enumeration [Display Devices], IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE, display.iddcx_adapter_flags, iddcx/IDDCX_ADAPTER_FLAGS, iddcx/IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE, iddcx/IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,20 +71,20 @@ typedef enum _IDDCX_ADAPTER_FLAGS {
 
 
 
-#### - IDDCX_ADAPTER_FLAGS_NONE
+### -field IDDCX_ADAPTER_FLAGS_NONE
 
 
                         
                     Indicates that there are no flags set for the adapter.
 
 
-#### - IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE
+### -field IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE
 
 
                         Indicates to the OS that the smallest possible desktop surface size should be used when the desktop mode is changed. Typically a solution that has a large processing overhead or limited transmission bandwidth uses this flag to reduce the desktop image size in order to process as much as possible. 
 <div class="alert"><b>Note</b>  Setting this flag results in a mode change each time the desktop resolution is changed.</div><div> </div>
 
-#### - IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS
+### -field IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS
 
 
                         Indicates if the driver can utilize move regions provided by the OS in addition to dirty rects when encoding the image.  The driver should only set this to TRUE if it uses the move regions because  this costs additional resource for the OS to generate them. If driver sets this to FALSE, the OS converts all move regions to dirty rects.

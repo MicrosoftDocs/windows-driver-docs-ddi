@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2407204b-215c-481e-876d-740bc3d55ee3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SUPPORTED_DATA_RATES_VALUE_V1, windot11/DOT11_SUPPORTED_DATA_RATES_VALUE_V2, _DOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_DATA_RATES_VALUE_V1, Native_802.11_data_types_20f2b1ba-9639-4a8b-b5c1-f7441300bea5.xml, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, windot11/PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure [Network Drivers Starting with Windows Vista], netvista.dot11_supported_data_rates_value_v2
+ms.keywords: netvista.dot11_supported_data_rates_value_v2, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_DATA_RATES_VALUE_V1, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, _DOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V1, windot11/PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2, Native_802.11_data_types_20f2b1ba-9639-4a8b-b5c1-f7441300bea5.xml, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_DATA_RATES_VALUE_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,13 +70,13 @@ typedef struct _DOT11_SUPPORTED_DATA_RATES_VALUE_V2 {
 
 
 
-#### - ucSupportedTxDataRatesValue
+### -field ucSupportedTxDataRatesValue
 
 An array of the transmit data rates supported by the Physical Layer Convergence Procedure (PLCP)
      and Physical Media Dependent (PMD) sublayer of the PHY.
 
 
-#### - ucSupportedRxDataRatesValue
+### -field ucSupportedRxDataRatesValue
 
 An array of the receive data rates supported by the PLCP and PMD of the PHY.
 
@@ -88,11 +88,11 @@ Each entry in the
     <b>ucSupportedTxDataRatesValue</b> and 
     <b>ucSupportedRxDataRatesValue</b> arrays must have a data rate index value as defined for the 
     <b>ucDataRateIndex</b> member of the 
-    <mshelp:link keywords="netvista.dot11_data_rate_mapping_entry" tabindex="0"><b>
-    DOT11_DATA_RATE_MAPPING_ENTRY</b></mshelp:link> structure. Each entry in these arrays must match a 
+    <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
+    DOT11_DATA_RATE_MAPPING_ENTRY</a> structure. Each entry in these arrays must match a 
     <b>ucDataRateIndex</b> member from the table of data rates returned through a query of 
-    <mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-    OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>. The index value must be between 2 and 127.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>. The index value must be between 2 and 127.
 
 If the number of supported rates in either array is less than 255, the miniport driver must add an
     entry with a value of zero after the last data rate in the array. For example, if the 802.11 station
@@ -104,16 +104,16 @@ If the number of supported rates in either array is less than 255, the miniport 
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-data-rates-value">
+   OID_DOT11_SUPPORTED_DATA_RATES_VALUE</a>
+
 <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
-<mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-   OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+   OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_data_rates_value" tabindex="0">
-   OID_DOT11_SUPPORTED_DATA_RATES_VALUE</mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
  
 

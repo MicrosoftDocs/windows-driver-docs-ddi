@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9335B3FB-B46B-404C-BCF9-F4E2F7A4C216
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/TIME_READ_ONBOARD_CLOCK, TIME_READ_ONBOARD_CLOCK, TIME_FUNCTION enumeration [Streaming Media Devices], TIME_SET_ONBOARD_CLOCK, strmini/TIME_SET_ONBOARD_CLOCK, TIME_GET_STREAM_TIME, strmini/TIME_GET_STREAM_TIME, strmini/TIME_FUNCTION, TIME_FUNCTION, stream.time_function
+ms.keywords: stream.time_function, TIME_FUNCTION, TIME_GET_STREAM_TIME, TIME_FUNCTION enumeration [Streaming Media Devices], strmini/TIME_SET_ONBOARD_CLOCK, TIME_READ_ONBOARD_CLOCK, TIME_SET_ONBOARD_CLOCK, strmini/TIME_GET_STREAM_TIME, strmini/TIME_READ_ONBOARD_CLOCK, strmini/TIME_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,14 +70,14 @@ typedef enum  {
 
 
 
-#### - TIME_GET_STREAM_TIME
+### -field TIME_GET_STREAM_TIME
 
 
 
-#### - TIME_READ_ONBOARD_CLOCK
+### -field TIME_READ_ONBOARD_CLOCK
 
 
 
-#### - TIME_SET_ONBOARD_CLOCK
+### -field TIME_SET_ONBOARD_CLOCK
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69a18c4a-9e28-47fb-9d2e-206d660eea6c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlhashunicodestring, k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, RtlHashUnicodeString, wdm/RtlHashUnicodeString
+ms.keywords: RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, wdm/RtlHashUnicodeString, RtlHashUnicodeString, kernel.rtlhashunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ NTSTATUS RtlHashUnicodeString(
 
 
 
-#### - String [in]
+### -param String [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the Unicode string to be converted to a hash value.
 
 
-#### - CaseInSensitive [in]
+### -param CaseInSensitive [in]
 
 Specifies whether to treat the Unicode string as case sensitive when computing the hash value. If <i>CaseInSensitive</i> is <b>TRUE</b>, a lowercase and uppercase string hash to the same value. 
 
 
-#### - HashAlgorithm [in]
+### -param HashAlgorithm [in]
 
 The hash algorithm to use. If <i>HashAlgorithm</i> is HASH_STRING_ALGORITHM_X65599, <b>RtlHashUnicodeString</b> uses the x65599 hashing algorithm. If <i>HashAlgorithm</i> is HASH_STRING_ALGORITHM_DEFAULT, <b>RtlHashUnicodeString</b> uses the default algorithm. Currently, the default algorithm is the x65599 hashing algorithm.
 
 
-#### - HashValue [out]
+### -param HashValue [out]
 
 A pointer to a ULONG variable that receives the hash value.
 

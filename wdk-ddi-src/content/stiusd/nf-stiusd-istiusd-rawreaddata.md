@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawReadData method [Imaging Devices], IStiUSD::RawReadData, image.istiusd_rawreaddata, stiusd/IStiUSD::RawReadData, IStiUSD interface [Imaging Devices], RawReadData method, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, RawReadData method [Imaging Devices], IStiUSD interface, RawReadData, IStiUSD
+ms.keywords: IStiUSD, image.istiusd_rawreaddata, IStiUSD interface [Imaging Devices], RawReadData method, stiusd/IStiUSD::RawReadData, RawReadData, RawReadData method [Imaging Devices], stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, IStiUSD::RawReadData, RawReadData method [Imaging Devices], IStiUSD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT RawReadData(
 
 
 
-#### - lpBuffer
+### -param lpBuffer
 
 Caller-supplied pointer to a buffer to receive data read from the device.
 
 
-#### - lpdwNumberOfBytes
+### -param lpdwNumberOfBytes
 
 Caller-supplied pointer to a DWORD. The caller loads the DWORD with the number of bytes in the buffer pointed to by <i>lpBuffer</i>. The driver must replace this value with the number of bytes actually read.
 
 
-#### - lpOverlapped
+### -param lpOverlapped
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 

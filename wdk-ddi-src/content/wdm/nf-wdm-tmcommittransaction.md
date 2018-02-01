@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8d17de44-2fd9-4e20-8a9b-2647c9917709
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmCommitTransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, kernel.tmcommittransaction, TmCommitTransaction routine [Kernel-Mode Driver Architecture], wdm/TmCommitTransaction
+ms.keywords: kernel.tmcommittransaction, wdm/TmCommitTransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, TmCommitTransaction routine [Kernel-Mode Driver Architecture], TmCommitTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NTSTATUS TmCommitTransaction(
 
 
 
-#### - Transaction [in]
+### -param Transaction [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this pointer, your TPS component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a> provided.
 
 
-#### - Wait [in]
+### -param Wait [in]
 
 A Boolean value that the caller sets to <b>TRUE</b> for synchronous operation or <b>FALSE</b> for asynchronous operation. If this parameter is <b>TRUE</b>, the call returns after the commit operation is complete.
 
@@ -162,13 +162,13 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
-
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 <a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
  
 

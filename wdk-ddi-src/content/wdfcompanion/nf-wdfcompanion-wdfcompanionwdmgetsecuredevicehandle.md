@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8fc3dc6f-8a21-490b-adbf-5f735cb953de
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCompanionWdmGetSecureDeviceHandle method, wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle, wdf.wdfcompanionwdmgetsecuredevicehandle, WdfCompanionWdmGetSecureDeviceHandle
+ms.keywords: WdfCompanionWdmGetSecureDeviceHandle method, WdfCompanionWdmGetSecureDeviceHandle, wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle, wdf.wdfcompanionwdmgetsecuredevicehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,6 +69,6 @@ HANDLE WdfCompanionWdmGetSecureDeviceHandle(
 
 
 
-#### - Companion [in]
+### -param Companion [in]
 
 

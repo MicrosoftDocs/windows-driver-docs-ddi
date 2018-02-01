@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d882a13e-cc07-4e82-857e-499bc397517e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], display.dxvahdddi_stream_state_private_ivtc_data, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml
+ms.keywords: "_DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, display.dxvahdddi_stream_state_private_ivtc_data, DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA {
 
 
 
-#### - Enable
+### -field Enable
 
 [in/out] A Boolean value that indicates whether to capture the statistics is enabled. By enabling the capture of statistics, the driver resets all the statistics data to zero. The default value is <b>FALSE</b>, which indicates that capturing the statistics is disabled. 
 
 
-#### - ITelecineFlags
+### -field ITelecineFlags
 
 [out] One of the following DXVAHDDDI_ITELECINE_CAPS enumeration values that indicates the telecine type that the driver detected while reversing the telecined frames.
 <table>
@@ -186,12 +186,12 @@ The driver can perform reverse non-standard telecine.
 </table> 
 
 
-#### - Frames
+### -field Frames
 
 [out] The number of consecutive frames that the driver detects for the telecined frames. 
 
 
-#### - InputField
+### -field InputField
 
 [out] The last field number of the input stream that was processed (so far). The driver updates this member after the driver has processed the input field that is specified in the <b>InputFrameOrField</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a> structure. 
 

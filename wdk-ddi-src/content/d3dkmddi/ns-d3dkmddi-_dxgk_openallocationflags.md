@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_openallocationflags, _DXGK_OPENALLOCATIONFLAGS, DmStructs_3b5228f0-93fa-434a-b2ca-9007c372d9ed.xml, DXGK_OPENALLOCATIONFLAGS structure [Display Devices], DXGK_OPENALLOCATIONFLAGS, d3dkmddi/DXGK_OPENALLOCATIONFLAGS
+ms.keywords: "_DXGK_OPENALLOCATIONFLAGS, DXGK_OPENALLOCATIONFLAGS structure [Display Devices], display.dxgk_openallocationflags, DmStructs_3b5228f0-93fa-434a-b2ca-9007c372d9ed.xml, DXGK_OPENALLOCATIONFLAGS, d3dkmddi/DXGK_OPENALLOCATIONFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,14 +74,14 @@ typedef struct _DXGK_OPENALLOCATIONFLAGS {
 
 
 
-#### - Create
+### -field Create
 
 A UINT value that specifies whether allocations should be created. If this member is not set, the allocations are opened. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b>= member (0x00000001).
 
 
-#### - ReadOnly
+### -field ReadOnly
 
 A UINT value that specifies whether the allocation can only be read from. 
 
@@ -90,12 +90,12 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 Supported starting with Windows 8.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that DXGK_OPENALLOCATIONFLAGS contains that can hold a 32-bit value that identifies the operation to perform for allocations.
 

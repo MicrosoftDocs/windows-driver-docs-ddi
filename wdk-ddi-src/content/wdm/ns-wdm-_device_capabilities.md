@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PDEVICE_CAPABILITIES, kernel.device_capabilities, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], _DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], wdm/DEVICE_CAPABILITIES, DEVICE_CAPABILITIES
+ms.keywords: DEVICE_CAPABILITIES, kernel.device_capabilities, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], PDEVICE_CAPABILITIES, _DEVICE_CAPABILITIES, wdm/DEVICE_CAPABILITIES, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/PDEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,37 +97,37 @@ typedef struct _DEVICE_CAPABILITIES {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size of the structure, in bytes. This field is set by the component that sends the <b>IRP_MN_QUERY_CAPABILITIES</b> request.
 
 
-#### - Version
+### -field Version
 
 Specifies the version of the structure, currently version 1. This field is set by the component that sends the <b>IRP_MN_QUERY_CAPABILITIES</b> request.
 
 
-#### - DeviceD1
+### -field DeviceD1
 
 Specifies whether the device hardware supports the D1 power state. Drivers should not change this value.
 
 
-#### - DeviceD2
+### -field DeviceD2
 
 Specifies whether the device hardware supports the D2 power state. Drivers should not change this value.
 
 
-#### - LockSupported
+### -field LockSupported
 
 Specifies whether the device supports physical-device locking that prevents device ejection. This member pertains to ejecting the device from its slot, rather than ejecting a piece of removable media from the device.
 
 
-#### - EjectSupported
+### -field EjectSupported
 
 Specifies whether the device supports software-controlled device ejection while the system is in the <b>PowerSystemWorking</b> state. This member pertains to ejecting the device from its slot, rather than ejecting a piece of removable media from the device.
 
 
-#### - Removable
+### -field Removable
 
 Specifies whether the device can be dynamically removed from its immediate parent. If <b>Removable</b> is set to <b>TRUE</b>, the device does not belong to the same physical object as its parent.
 
@@ -138,54 +138,54 @@ In most cases the bus driver, not the function driver, should determine the valu
 If <b>Removable</b> is set to <b>TRUE</b>, the device is displayed in the <b>Unplug or Eject Hardware</b> program, unless <b>SurpriseRemovalOK</b> is also set to <b>TRUE</b>.
 
 
-#### - DockDevice
+### -field DockDevice
 
 Specifies whether the device is a docking peripheral.
 
 
-#### - UniqueID
+### -field UniqueID
 
 Specifies whether the device's instance ID is unique system-wide. This bit is clear if the instance ID is unique only within the scope of the bus. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 
-#### - SilentInstall
+### -field SilentInstall
 
 Specifies whether Device Manager should suppress all installation dialog boxes; except required dialog boxes such as "no compatible drivers found."
 
 
-#### - RawDeviceOK
+### -field RawDeviceOK
 
 Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">raw mode</a>.
 
 
-#### - SurpriseRemovalOK
+### -field SurpriseRemovalOK
 
 Specifies whether the function driver for the device can handle the case where the device is removed before Windows can send <b>IRP_MN_QUERY_REMOVE_DEVICE</b> to it. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
 
 For example, a standard USB mouse does not maintain any state in its hardware and thus can be safely removed at any time. However, an external hard disk whose driver caches writes in memory cannot be safely removed without first letting the driver flush its cache to the hardware.
 <div class="alert"><b>Note</b>  Drivers for USB devices that support surprise removal must set this to <b>TRUE</b> only when the IRP is being passed back up the driver stack.</div><div> </div>
 
-#### - WakeFromD0
+### -field WakeFromD0
 
 Specifies whether the device can respond to an external wake signal while in the D0 state. Drivers should not change this value.
 
 
-#### - WakeFromD1
+### -field WakeFromD1
 
 Specifies whether the device can respond to an external wake signal while in the D1 state. Drivers should not change this value.
 
 
-#### - WakeFromD2
+### -field WakeFromD2
 
 Specifies whether the device can respond to an external wake signal while in the D2 state. Drivers should not change this value.
 
 
-#### - WakeFromD3
+### -field WakeFromD3
 
 Specifies whether the device can respond to an external wake signal while in the D3 state. Drivers should not change this value.
 
 
-#### - HardwareDisabled
+### -field HardwareDisabled
 
 When set, this flag specifies that the device's hardware is disabled.
 
@@ -194,22 +194,22 @@ A device's parent bus driver or a bus filter driver sets this flag when such a d
 The PnP manager sends one <b>IRP_MN_QUERY_CAPABILITIES</b> IRP right after a device is enumerated and sends another after the device has been started. The PnP manager only checks this bit right after the device is enumerated. Once the device is started, this bit is ignored.
 
 
-#### - NonDynamic
+### -field NonDynamic
 
 Reserved for future use.
 
 
-#### - WarmEjectSupported
+### -field WarmEjectSupported
 
 Reserved for future use.
 
 
-#### - NoDisplayInUI
+### -field NoDisplayInUI
 
 Do not display the device in the user interface. If this bit is set, the device is <u>never</u> displayed in the user interface, even if the device is present but fails to start. Only bus drivers and associated bus filter drivers should set this bit. (Also see the <b>PNP_DEVICE_DONT_DISPLAY_IN_UI</b> flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a> structure.)
 
 
-#### - Reserved1
+### -field Reserved1
 
 
 
@@ -223,12 +223,12 @@ Do not display the device in the user interface. If this bit is set, the device 
  
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Address
+### -field Address
 
 Specifies an address indicating where the device is located on its underlying bus.
 
@@ -279,14 +279,14 @@ The target ID.
 The port number.
 
 
-#### - UINumber
+### -field UINumber
 
 Specifies a number associated with the device that can be displayed in the user interface.
 
 This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. For buses with no such convention, or when the <b>UINumber</b> is unknown, the bus driver leaves this member at its default value of 0xFFFFFFFF.
 
 
-#### - DeviceState
+### -field DeviceState
 
 An array of values indicating the most-powered device power state that the device can maintain for each system power state. The <b>DeviceState[PowerSystemWorking]</b> element of the array corresponds to the S0 system state. The entry for <b>PowerSystemUnspecified</b> is reserved for system use.
 
@@ -295,7 +295,7 @@ The entries in this array are based on the capabilities of the parent devnode. A
 If the bus driver is unable to determine the appropriate device power state for a root-enumerated device, it sets <b>DeviceState[PowerSystemWorking]</b> to <b>PowerDeviceD0</b> and all other entries to <b>PowerDeviceD3</b>.
 
 
-#### - SystemWake
+### -field SystemWake
 
 Specifies the least-powered system power state from which the device can signal a wake event. A value of <b>PowerSystemUnspecified</b> indicates that the device cannot wake the system.
 
@@ -304,22 +304,22 @@ A bus driver can get this information from its parent devnode.
 In general, a driver should not change this value. If necessary, however, a driver can raise the power state, for example, from <b>PowerSystemHibernate</b> to <b>PowerSystemS1</b>, to indicate that its device cannot wake the system from a hibernation state but can from a higher-powered sleep state.
 
 
-#### - DeviceWake
+### -field DeviceWake
 
 Specifies the least-powered device power state from which the device can signal a wake event. A value of <b>PowerDeviceUnspecified</b> indicates that the device cannot signal a wake event.
 
 
-#### - D1Latency
+### -field D1Latency
 
 Specifies the device's approximate worst-case latency, in 100-microsecond units, for returning the device to the <b>PowerDeviceD0</b> state from the <b>PowerDeviceD1</b> state. Set to zero if the device does not support the D1 state.
 
 
-#### - D2Latency
+### -field D2Latency
 
 Specifies the device's approximate worst-case latency, in 100-microsecond units, for returning the device to the <b>PowerDeviceD0</b> state from the <b>PowerDeviceD2</b> state. Set to zero if the device does not support the D2 state.
 
 
-#### - D3Latency
+### -field D3Latency
 
 Specifies the device's approximate worst-case latency, in 100-microsecond units, for returning the device to the <b>PowerDeviceD0</b> state from the <b>PowerDeviceD3</b> state. Set to zero if the device does not support the D3 state. 
 

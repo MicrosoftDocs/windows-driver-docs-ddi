@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], GNSS_FIXSESSION_PARAM, gnssdriver/GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], PGNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsesson_param, sensors.gnss_fixsession_param
+ms.keywords: sensors.gnss_fixsession_param, sensors.gnss_fixsesson_param, gnssdriver/GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], GNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], PGNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,22 +81,22 @@ typedef struct {
 
 
 
-#### - SingleShotParam
+### -field SingleShotParam
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_singleshot_param.md">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
 
 
-#### - DistanceParam
+### -field DistanceParam
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
 
 
-#### - ContinuousParam
+### -field ContinuousParam
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
 
 
-#### - LkgFixParam
+### -field LkgFixParam
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
 
@@ -106,17 +106,17 @@ The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM
  
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - FixSessionID
+### -field FixSessionID
 
 This is a unique identifier for a particular fix session.
 
@@ -125,19 +125,19 @@ This is a unique identifier for a particular fix session.
 The GNSS driver must associate all fix related data to the original fix session by using the FixSessionID field. If the GNSS driver does not support multiple fix sessions, it may use the session ID of the last fix session request.
 
 
-#### - SessionType
+### -field SessionType
 
 Identifies the type or recurrence type of this fix session.
 
 
-#### - HorizontalAccuracy
+### -field HorizontalAccuracy
 
 The horizontal accuracy of the fix requested is only advisory information for the GNSS driver that can be used in an implementation-specific manner for making appropriate tradeoffs internally to satisfy the request.
 
 A value of 0 indicates no particular accuracy is mandated by the GNSS adapter.
 
 
-#### - HorizontalConfidence
+### -field HorizontalConfidence
 
 The horizontal confidence is the circular confidence requested for this fix.
 
@@ -149,7 +149,7 @@ The platform expects fixes with a 95% confidence. The GNSS driver should honor t
  
 
 
-#### - FixLevelOfDetails
+### -field FixLevelOfDetails
 
 Indicates the level of detail needed when the GNSS driver returns the fix information.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1EBA2124-F5D3-4683-B967-8179CCCD3102
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_H264VIDEOINFO, stream.ks_h264videoinfo, *PKS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices], ksmedia/KS_H264VIDEOINFO, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], KS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, PKS_H264VIDEOINFO
+ms.keywords: ksmedia/KS_H264VIDEOINFO, PKS_H264VIDEOINFO, KS_H264VIDEOINFO, stream.ks_h264videoinfo, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], tagKS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, *PKS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,27 +100,27 @@ typedef struct _KS_H264VIDEOINFO {
 
 
 
-#### - wWidth
+### -field wWidth
 
 Specifies the width in pixels of pictures output from the decoding process. 
 <div class="alert"><b>Note</b>  The value for this member must be a multiple of 2, but it does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active Sequence Parameter Set (SPS).</div><div> </div>
 
-#### - wHeight
+### -field wHeight
 
 Specifies the height in pixels of pictures output from the decoding process.
 <div class="alert"><b>Note</b>   The value for this member must be a multiple of 2. When field coding or frame/field adaptive coding is used, it must be a multiple of 4. It does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active SPS.</div><div> </div>
 
-#### - wSARwidth
+### -field wSARwidth
 
 Specifies the sample aspect ratio width as defined in the H.264 Annex E. 
 <div class="alert"><b>Note</b>  It must  be relatively prime with respect to <b>wSARheight</b>.</div><div> </div>
 
-#### - wSARheight
+### -field wSARheight
 
 Specifies the sample aspect ratio height as defined in the H.264 Annex E. 
 <div class="alert"><b>Note</b>  It must be relatively prime with respect to <b>bSARwidth</b>.</div><div> </div>
 
-#### - wProfile
+### -field wProfile
 
 Specifies the first two bytes of the sequence parameter set as described by profile_idc and constraint flags in the H.264 specification. 
 <div class="alert"><b>Note</b>  This member indicates the profile and applicable constraints to be used. </div><div> </div>The following are examples of allowed values:
@@ -164,7 +164,7 @@ Specifies the first two bytes of the sequence parameter set as described by prof
 </table> 
 
 
-#### - bLevelIDC
+### -field bLevelIDC
 
 Specifies the level as described by the level_idc flag.
 <div class="alert"><b>Note</b>  This member indicates the minimum level that supports the resolution and the maximum bit rate for this frame descriptor.</div><div> </div>The following are examples of allowed values:
@@ -184,7 +184,7 @@ Specifies the level as described by the level_idc flag.
 </table> 
 
 
-#### - wConstrainedToolset
+### -field wConstrainedToolset
 
 Constrains the features allowed by <b>wProfile</b>.
 <table>
@@ -215,7 +215,7 @@ Constrains the features allowed by <b>wProfile</b>.
 </table> 
 
 
-#### - bmSupportedUsages
+### -field bmSupportedUsages
 
 Defines the bitmap that specifies the supported usages.
 <table>
@@ -282,7 +282,7 @@ Defines the bitmap that specifies the supported usages.
 </table> 
 
 
-#### - bmCapabilities
+### -field bmCapabilities
 
 Defines the bitmap that specifies the capabilities for this frame descriptor.
 <table>
@@ -321,7 +321,7 @@ Defines the bitmap that specifies the capabilities for this frame descriptor.
 </table> 
 
 
-#### - bmSVCCapabilities
+### -field bmSVCCapabilities
 
 Defines the bitmap that specifies the Scalable Video Coding (SVC) capabilities.
 <table>
@@ -360,7 +360,7 @@ Defines the bitmap that specifies the Scalable Video Coding (SVC) capabilities.
 </table> 
 
 
-#### - bmMVCCapabilities
+### -field bmMVCCapabilities
 
 Defines the bitmap that specifies the Multicast Video Coding (MVC) capabilities. 
 <table>
@@ -383,17 +383,17 @@ Defines the bitmap that specifies the Multicast Video Coding (MVC) capabilities.
 </table> 
 
 
-#### - dwFrameInterval
+### -field dwFrameInterval
 
 Specifies the supported frame interval.
 <div class="alert"><b>Note</b>  This is the shortest frame interval supported, at the highest frame rate, in 100-nanoseconds units. </div><div> </div>
 
-#### - bMaxCodecConfigDelay
+### -field bMaxCodecConfigDelay
 
 Specifies the maximum number of frames the encoder takes to respond to a command.
 
 
-#### - bmSupportedSliceModes
+### -field bmSupportedSliceModes
 
 Defines the bitmap that specifies the slice modes.
 <table>
@@ -416,7 +416,7 @@ Defines the bitmap that specifies the slice modes.
 </table> 
 
 
-#### - bmSupportedSyncFrameTypes
+### -field bmSupportedSyncFrameTypes
 
 
 
@@ -425,7 +425,7 @@ Defines the bitmap that specifies the slice modes.
  
 
 
-#### - bSimulcastSupport
+### -field bSimulcastSupport
 
 Specifies the number of H.264 video streaming endpoints and the number of streams this endpoint supports.
 <table>
@@ -444,7 +444,7 @@ Specifies the number of H.264 video streaming endpoints and the number of stream
 </table> 
 
 
-#### - bmSupportedRateControlModes
+### -field bmSupportedRateControlModes
 
 Defines the bitmap that specifies the rate control modes. 
 <table>
@@ -611,19 +611,9 @@ Defines the bitmap that specifies the synchronization frame types.
 </table> 
 
 
-#### - dwMaxMBperSecOneResolutionNoScalability
+#### - dwMaxMBperSecFourResolutionsFullScalability
 
-Specifies the maximum macroblock processing rate allowed for non-scalable Advanced Video Coding (AVC) streams, summing up across all layers when all layers have the same resolution.
-
-
-#### - dwMaxMBperSecTwoResolutionsNoScalability
-
-Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of two different resolutions.
-
-
-#### - dwMaxMBperSecThreeResolutionsNoScalability
-
-Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of three different resolutions.
+Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of four different resolutions.
 
 
 #### - dwMaxMBperSecFourResolutionsNoScalability
@@ -631,19 +621,9 @@ Specifies the maximum macroblock processing rate allowed for non-scalable AVC st
 Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of four different resolutions.
 
 
-#### - dwMaxMBperSecOneResolutionTemporalScalability
+#### - dwMaxMBperSecFourResolutionsTemporalQualityScalability
 
-Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers have the same resolution.
-
-
-#### - dwMaxMBperSecTwoResolutionsTemporalScalablility
-
-Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of two different resolutions.
-
-
-#### - dwMaxMBperSecThreeResolutionsTemporalScalability
-
-Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of three different resolutions.
+Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of four different resolutions.
 
 
 #### - dwMaxMBperSecFourResolutionsTemporalScalability
@@ -651,34 +631,24 @@ Specifies the maximum macroblock processing rate allowed for temporal scalable s
 Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of four different resolutions.
 
 
-#### - dwMaxMBperSecOneResolutionTemporalQualityScalability
-
-Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers have the same resolution.
-
-
-#### - dwMaxMBperSecTwoResolutionsTemporalQualityScalability
-
-Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of two different resolutions.
-
-
-#### - dwMaxMBperSecThreeResolutionsTemporalQualityScalablity
-
-Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of three different resolutions.
-
-
-#### - dwMaxMBperSecFourResolutionsTemporalQualityScalability
-
-Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of four different resolutions.
-
-
 #### - dwMaxMBperSecOneResolutionFullScalability
 
 Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers have the same resolution.
 
 
-#### - dwMaxMBperSecTwoResolutionsFullScalability
+#### - dwMaxMBperSecOneResolutionNoScalability
 
-Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of two different resolutions.
+Specifies the maximum macroblock processing rate allowed for non-scalable Advanced Video Coding (AVC) streams, summing up across all layers when all layers have the same resolution.
+
+
+#### - dwMaxMBperSecOneResolutionTemporalQualityScalability
+
+Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers have the same resolution.
+
+
+#### - dwMaxMBperSecOneResolutionTemporalScalability
+
+Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers have the same resolution.
 
 
 #### - dwMaxMBperSecThreeResolutionsFullScalability
@@ -686,9 +656,39 @@ Specifies the maximum macroblock processing rate allowed for fully scalable stre
 Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of three different resolutions.
 
 
-#### - dwMaxMBperSecFourResolutionsFullScalability
+#### - dwMaxMBperSecThreeResolutionsNoScalability
 
-Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of four different resolutions.
+Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of three different resolutions.
+
+
+#### - dwMaxMBperSecThreeResolutionsTemporalQualityScalablity
+
+Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of three different resolutions.
+
+
+#### - dwMaxMBperSecThreeResolutionsTemporalScalability
+
+Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of three different resolutions.
+
+
+#### - dwMaxMBperSecTwoResolutionsFullScalability
+
+Specifies the maximum macroblock processing rate allowed for fully scalable streams, summing up across all layers when all layers consist of two different resolutions.
+
+
+#### - dwMaxMBperSecTwoResolutionsNoScalability
+
+Specifies the maximum macroblock processing rate allowed for non-scalable AVC streams, summing up across all layers when all layers consist of two different resolutions.
+
+
+#### - dwMaxMBperSecTwoResolutionsTemporalQualityScalability
+
+Specifies the maximum macroblock processing rate allowed for temporal and quality scalable SVC streams, summing up across all layers when all layers consist of two different resolutions.
+
+
+#### - dwMaxMBperSecTwoResolutionsTemporalScalablility
+
+Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of two different resolutions.
 
 
 ## -remarks
@@ -700,9 +700,9 @@ The KS_H264VIDEOINFO structure contains the frame and the format descriptor info
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_datarange_h264_video.md">KS_DATARANGE_H264_VIDEO</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_h264videoinfo.md">KS_DATAFORMAT_H264VIDEOINFO</a>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_datarange_h264_video.md">KS_DATARANGE_H264_VIDEO</a>
 
  
 

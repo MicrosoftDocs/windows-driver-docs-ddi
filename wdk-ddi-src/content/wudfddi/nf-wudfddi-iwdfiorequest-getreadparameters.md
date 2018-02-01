@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, IWDFIoRequest interface, GetReadParameters method, GetReadParameters method, IWDFIoRequest, GetReadParameters method, IWDFIoRequest interface, IWDFIoRequest::GetReadParameters, GetReadParameters, umdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters, wdf.iwdfiorequest_getreadparameters
+ms.keywords: wudfddi/IWDFIoRequest::GetReadParameters, GetReadParameters, IWDFIoRequest interface, GetReadParameters method, IWDFIoRequest, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, GetReadParameters method, IWDFIoRequest interface, GetReadParameters method, wdf.iwdfiorequest_getreadparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,7 +72,7 @@ void  GetReadParameters(
 
 
 
-#### - pSizeInBytes [out]
+### -param pSizeInBytes [out]
 
 A pointer to a variable that receives the size, in bytes, to read. To retrieve the data for reading, the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a> method.
 
@@ -84,7 +84,7 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 
 
 
-#### - pulKey [out]
+### -param pulKey [out]
 
 A pointer to a variable that receives a key that the driver can use to sort the I/O request in a way that the driver determines.
 
@@ -120,9 +120,9 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pSizeI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex, ntddscsi/PSCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], _SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX
+ms.keywords: PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], _SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex, ntddscsi/PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,41 +82,37 @@ typedef struct _SCSI_PASS_THROUGH_EX {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure. Set to 0.
 
 
-#### - Length
+### -field Length
 
 The size of the this structure. Set to <b>sizeof</b>(SCSI_PASS_THROUGH_EX).
 
 
-#### - CdbLength
+### -field CdbLength
 
 Indicates the size in bytes of the SCSI command descriptor block in <b>Cdb</b>.
 
 
-#### - StorAddressLength
+### -field StorAddressLength
 
 The length of the storage device address structure at the offset of <b>StorAddressOffset</b> after this structure.
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 Reports the SCSI status that was returned by the HBA or the target device.
 
 
-#### - SenseInfoLength
+### -field SenseInfoLength
 
 Indicates the size in bytes of the request-sense buffer. This member is optional and can be set to 0.
 
 
-#### - DataDirection
-
-
-
-####  This field must have one of these values:
+### -field DataDirection
 
 
 
@@ -124,47 +120,51 @@ Indicates the size in bytes of the request-sense buffer. This member is optional
 
 
 
-#### - Reserved
+####  This field must have one of these values:
+
+
+
+### -field Reserved
 
 Reserved. Set to 0.
 
 
-#### - TimeOutValue
+### -field TimeOutValue
 
 Indicates the interval in seconds that the request can execute before the port driver considers it timed out.
 
 
-#### - StorAddressOffset
+### -field StorAddressOffset
 
 The location of the target storage device address structure, in bytes, from the beginning of this structure.
 
 
-#### - SenseInfoOffset
+### -field SenseInfoOffset
 
 Offset from the beginning of this structure to the request-sense buffer. Set to 0 if no request-sense buffer is present.
 
 
-#### - DataOutTransferLength
+### -field DataOutTransferLength
 
 Indicates the size in bytes of the output data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataOutTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred. If no output data buffer is present, this member is set to 0.
 
 
-#### - DataInTransferLength
+### -field DataInTransferLength
 
 Indicates the size in bytes of the input data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataInTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred. If no input data buffer is present, this member is set to 0.
 
 
-#### - DataOutBufferOffset
+### -field DataOutBufferOffset
 
 Contains an offset from the beginning of this structure to the output data buffer. The offset must respect the data alignment requirements of the device.
 
 
-#### - DataInBufferOffset
+### -field DataInBufferOffset
 
 Contains an offset from the beginning of this structure to the input data buffer. The offset must respect the data alignment requirements of the device.
 
 
-#### - Cdb
+### -field Cdb
 
 Specifies the SCSI command descriptor block to be sent to the target device.
 
@@ -178,11 +178,11 @@ The <b>SCSI_PASS_THROUGH_EX</b> structure is used with the  <a href="..\ntddscsi
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
 
  
 

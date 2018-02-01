@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bdf19090-5688-4496-8f9a-3a1c422ede60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchPortFeatureStatusTypeCustom, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchPortFeatureStatusTypeMaximum, ntddndis/NdisSwitchPortFeatureStatusTypeCustom, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortFeatureStatusTypeUndefined, ntddndis/NdisSwitchPortFeatureStatusTypeUndefined, _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, netvista.ndis_switch_port_feature_status_type, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NdisSwitchPortFeatureStatusTypeMaximum
+ms.keywords: ntddndis/NdisSwitchPortFeatureStatusTypeMaximum, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchPortFeatureStatusTypeCustom, *PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, netvista.ndis_switch_port_feature_status_type, NdisSwitchPortFeatureStatusTypeUndefined, ntddndis/NdisSwitchPortFeatureStatusTypeCustom, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortFeatureStatusTypeMaximum, _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchPortFeatureStatusTypeUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,19 +74,19 @@ typedef enum _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE {
 
 
 
-#### - NdisSwitchPortFeatureStatusTypeUndefined
+### -field NdisSwitchPortFeatureStatusTypeUndefined
 
 The port feature status information is not defined.
 
 
-#### - NdisSwitchPortFeatureStatusTypeCustom
+### -field NdisSwitchPortFeatureStatusTypeCustom
 
 The feature status information is for a custom extensible switch port feature that is provided by an ISV.
 
 
 
 
-#### - NdisSwitchPortFeatureStatusTypeMaximum
+### -field NdisSwitchPortFeatureStatusTypeMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 

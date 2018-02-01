@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildConnection function [Installable File System Drivers], RxCeBuildConnection, ifsk.rxcebuildconnection, rxce/RxCeBuildConnection, rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml
+ms.keywords: RxCeBuildConnection, rxce/RxCeBuildConnection, ifsk.rxcebuildconnection, rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml, RxCeBuildConnection function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,27 +78,27 @@ NTSTATUS RxCeBuildConnection(
 TBD
 
 
-#### - pConnectionInformation [in]
+### -param pConnectionInformation [in]
 
 A pointer to the connection information that specifies the remote address.
 
 
-#### - pHandler [in]
+### -param pHandler [in]
 
 A pointer to the event handler for processing receive indications.
 
 
-#### - pEventContext [in]
+### -param pEventContext [in]
 
 A pointer to the context parameter to be passed back to the event handler and used for indications.
 
 
-#### - pConnection [in, out]
+### -param pConnection [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RDBSS connection. On output when this call is successful, the connection is properly initialized.
 
 
-#### - pVc [in, out]
+### -param pVc [in, out]
 
 On input, this parameter contains a pointer to an uninitialized RDBSS virtual circuit. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit is properly initialized.
 

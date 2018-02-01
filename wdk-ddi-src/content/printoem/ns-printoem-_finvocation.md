@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 958d6f1f-e8e8-43e6-a4d4-73bae4b2be21
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, *PFINVOCATION, PFINVOCATION structure pointer [Print Devices], FINVOCATION structure [Print Devices], printoem/PFINVOCATION, printoem/FINVOCATION, _FINVOCATION, FINVOCATION, PFINVOCATION
+ms.keywords: print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/PFINVOCATION, PFINVOCATION structure pointer [Print Devices], FINVOCATION, print.finvocation, _FINVOCATION, PFINVOCATION, printoem/FINVOCATION, FINVOCATION structure [Print Devices], *PFINVOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _FINVOCATION {
 
 
 
-#### - dwCount
+### -field dwCount
 
 Specifies the Unidrv-supplied length, in bytes, of the command pointed to by <b>pubCommand</b>.
 
 
-#### - pubCommand
+### -field pubCommand
 
 Unidrv-supplied pointer to a string containing the printer's font selection command. The command is obtained from the font's .ufm (Unidrv Font Metrics) file.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dcfd5a42-cb76-4386-9f8f-98e0a217c49a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_HOTPLUG_INFO, ntddstor/STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure [Storage Devices], ntddstor/PSTORAGE_HOTPLUG_INFO, storage.storage_hotplug_info, _STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml
+ms.keywords: STORAGE_HOTPLUG_INFO structure [Storage Devices], *PSTORAGE_HOTPLUG_INFO, storage.storage_hotplug_info, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml, STORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], _STORAGE_HOTPLUG_INFO, ntddstor/PSTORAGE_HOTPLUG_INFO, ntddstor/STORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _STORAGE_HOTPLUG_INFO {
 
 
 
-#### - Size
+### -field Size
 
 Indicates the size, in bytes, of this structure.
 
 
-#### - MediaRemovable
+### -field MediaRemovable
 
 Specifies whether the media is removable. If set to a nonzero value, the device media is removable. If set to zero, the device media is not removable. 
 
 
-#### - MediaHotplug
+### -field MediaHotplug
 
 Specifies whether the media is lockable. If set to a nonzero value, the device media is not lockable. If set to zero, the device media is lockable.
 
 
-#### - DeviceHotplug
+### -field DeviceHotplug
 
 Specifies whether the device is a hotplug device. If set to a nonzero value, the device is a hotplug device. If set to zero, the device is not a hotplug device.
 
 
-#### - WriteCacheEnableOverride
+### -field WriteCacheEnableOverride
 
 Do not use; set the value to <b>NULL</b>.
 
@@ -109,9 +109,9 @@ In the case of the IOCTL_STORAGE_SET_HOTPLUG_INFO request, the <b>DeviceHotplug<
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
-
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_hotplug_info.md">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
 
  
 

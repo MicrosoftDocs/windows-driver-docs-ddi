@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C565288C-B014-4A92-9F50-1641EAA30D22
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprinterqueue2_getprinterqueueview, GetPrinterQueueView method [Print Devices], printerextension/IPrinterQueue2::GetPrinterQueueView, IPrinterQueue2::GetPrinterQueueView, IPrinterQueue2 interface [Print Devices], GetPrinterQueueView method, IPrinterQueue2, GetPrinterQueueView, GetPrinterQueueView method [Print Devices], IPrinterQueue2 interface
+ms.keywords: GetPrinterQueueView method [Print Devices], IPrinterQueue2 interface, GetPrinterQueueView method [Print Devices], IPrinterQueue2::GetPrinterQueueView, IPrinterQueue2, IPrinterQueue2 interface [Print Devices], GetPrinterQueueView method, GetPrinterQueueView, print.iprinterqueue2_getprinterqueueview, printerextension/IPrinterQueue2::GetPrinterQueueView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetPrinterQueueView(
 
 
 
-#### - ulViewOffset [in]
+### -param ulViewOffset [in]
 
 Indicates the start of the range of jobs to be monitored.
 
 
-#### - ulViewSize [in]
+### -param ulViewSize [in]
 
 Indicates the size or the range of jobs to be monitored.
 
 
-#### - ppJobView [out, retval]
+### -param ppJobView [out, retval]
 
 IPrinterQueueView object that shows the range of jobs to be monitored.
 

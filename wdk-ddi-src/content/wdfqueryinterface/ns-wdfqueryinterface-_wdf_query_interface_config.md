@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2f7112fc-7f3e-415d-9994-ffd93f456d97
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_QUERY_INTERFACE_CONFIG structure, PWDF_QUERY_INTERFACE_CONFIG structure pointer, _WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, wdf.wdf_query_interface_config, WDF_QUERY_INTERFACE_CONFIG, kmdf.wdf_query_interface_config, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG
+ms.keywords: wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG structure pointer, *PWDF_QUERY_INTERFACE_CONFIG, kmdf.wdf_query_interface_config, WDF_QUERY_INTERFACE_CONFIG, wdf.wdf_query_interface_config, WDF_QUERY_INTERFACE_CONFIG structure, _WDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,32 +75,32 @@ typedef struct _WDF_QUERY_INTERFACE_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - Interface
+### -field Interface
 
 A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that describes the driver-defined interface. 
 
 
-#### - InterfaceType
+### -field InterfaceType
 
 A pointer to the GUID that identifies the interface.
 
 
-#### - SendQueryToParentStack
+### -field SendQueryToParentStack
 
 If <b>TRUE</b>, and if your driver specifies a device object that represents a physical device object (PDO) when it calls <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>, the framework sends requests for the interface to the top of the parent device's driver stack. If this member is <b>FALSE</b>, or if the device object does not represent a PDO, the framework does not send requests to the parent device's stack. For more information, see the following Remarks section.
 
 
-#### - EvtDeviceProcessQueryInterfaceRequest
+### -field EvtDeviceProcessQueryInterfaceRequest
 
 A pointer to your driver's <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a> event callback function, which is called when another driver requests the interface.
 
 
-#### - ImportInterface
+### -field ImportInterface
 
 If <b>TRUE</b>, the interface supports two-way communication between your driver and drivers that request the interface. 
 
@@ -150,19 +150,19 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
-
 <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
 
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
 
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
 
  
 

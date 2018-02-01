@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4b2bf1a-f15d-409f-bd5f-84dbf8dadc09
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcloselog, miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, NdisMCloseLog function [Network Drivers Starting with Windows Vista], ndis/NdisMCloseLog, NdisMCloseLog
+ms.keywords: miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, ndis/NdisMCloseLog, netvista.ndismcloselog, NdisMCloseLog, NdisMCloseLog function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID NdisMCloseLog(
 
 
 
-#### - LogHandle [in]
+### -param LogHandle [in]
 
 Specifies the handle returned by 
      <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>.
@@ -94,11 +94,11 @@ None
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+
 <a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
-
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12525F3C-12D6-477E-8C7D-3DE9AAA044AE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetflags, vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags, VmbChannelInitSetFlags
+ms.keywords: netvista.vmbchannelinitsetflags, VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista], VmbChannelInitSetFlags, vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,13 +72,13 @@ NTSTATUS VmbChannelInitSetFlags(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for the channel.
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A collection of bit flags to set.
 

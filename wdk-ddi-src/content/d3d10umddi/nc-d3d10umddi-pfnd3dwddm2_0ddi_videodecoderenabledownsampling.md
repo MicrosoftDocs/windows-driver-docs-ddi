@@ -75,44 +75,37 @@ HRESULT APIENTRY* pfnVideoDecoderEnableDownsampling(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-#### - hDecoder [in]
+### -param hDecoder [in]
 
 A handle to the decoder object.
 
 
-#### - InputColorSpace [in]
+### -param InputColorSpace [in]
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the reference frame data.
 
 
-#### - *pOutputDesc [in]
+### -param *pOutputDesc [in]
 
 Indicates the resolution and the format of the output/display frames.  This is the destination resolution and format of the down-sample operation.
 
 
 <div class="alert"><b>Note</b>  The decode profile member (<b>Guid</b>) of <b>pOutputDesc</b> can be ignored.</div><div> </div>
 
-#### - OutputColorSpace [in]
+### -param OutputColorSpace [in]
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the output/display frames.
 
 
-#### - ReferenceFrameCount [in]
+### -param ReferenceFrameCount [in]
 
 Indicates the number of reference frame used.
 
-
-#### - pOutputDesc [in]
-
-Indicates the resolution and the format of the output/display frames.  This is the destination resolution and format of the down-sample operation.
-
-
-<div class="alert"><b>Note</b>  The decode profile member (<b>Guid</b>) of <b>pOutputDesc</b> can be ignored.</div><div> </div>
 
 ## -returns
 
@@ -131,11 +124,11 @@ This function can only be called once, prior to the first <a href="..\d3d10umddi
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
  
 

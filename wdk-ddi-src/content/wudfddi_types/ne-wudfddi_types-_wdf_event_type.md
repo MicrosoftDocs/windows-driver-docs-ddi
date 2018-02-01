@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_EVENT_TYPE enumeration, _WDF_EVENT_TYPE, wudfddi_types/WDF_EVENT_TYPE, WdfEventReserved, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, WdfEventBroadcast, wdfdevice/WdfEventBroadcast, wudfddi_types/WdfEventBroadcast, wudfddi_types/WdfEventMaximum, WdfEventMaximum, wudfddi_types/WdfEventReserved, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventReserved, WDF_EVENT_TYPE
+ms.keywords: wdfdevice/WdfEventReserved, wudfddi_types/WdfEventReserved, wdfdevice/WdfEventBroadcast, WdfEventReserved, wudfddi_types/WDF_EVENT_TYPE, wdfdevice/WdfEventMaximum, WDF_EVENT_TYPE, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WdfEventBroadcast, WDF_EVENT_TYPE enumeration, WdfEventMaximum, _WDF_EVENT_TYPE, wudfddi_types/WdfEventMaximum, WdfEventBroadcast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,17 +73,17 @@ typedef enum _WDF_EVENT_TYPE {
 
 
 
-#### - WdfEventReserved
+### -field WdfEventReserved
 
 Reserved for system use.
 
 
-#### - WdfEventBroadcast
+### -field WdfEventBroadcast
 
 In the current version of UMDF, the driver must specify <b>WdfEventBroadcast</b>. For more information, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>.
 
 
-#### - WdfEventMaximum
+### -field WdfEventMaximum
 
 Reserved for system use.
 

@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY DecodeExtensionExecute(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 

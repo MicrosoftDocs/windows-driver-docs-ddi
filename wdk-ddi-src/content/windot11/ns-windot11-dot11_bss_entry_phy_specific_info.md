@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85bcd355-633b-4d3f-a387-1e3b2ac3a013
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union pointer [Network Drivers Starting with Windows Vista], DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union [Network Drivers Starting with Windows Vista], windot11/DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, Native_802.11_data_types_bd52a4e6-211b-4bb7-9398-22545a3a70c3.xml, netvista.dot11_bss_entry_phy_specific_info, DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, windot11/PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, *PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+ms.keywords: Native_802.11_data_types_bd52a4e6-211b-4bb7-9398-22545a3a70c3.xml, *PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, netvista.dot11_bss_entry_phy_specific_info, DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union pointer [Network Drivers Starting with Windows Vista], DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union [Network Drivers Starting with Windows Vista], windot11/PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, windot11/DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,34 +74,10 @@ typedef union DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO {
 
 
 
-#### - FHSS
+### -field FHSS
 
 The FHSS parameters, as specified by the following members:
 
-
-#### uHopPattern
-
-The current hopping pattern used by the layer management entity (LME) of the PHY to determine the
-      hopping sequence. For more information about how the hopping sequence is determined, refer to Clause
-      14.9.2.20 of the IEEE 802.11-2012 standard.
-      
-<div class="alert"><b>Note</b>  This member is only valid for FHSS PHY types.</div><div> </div>
-
-#### uHopSet
-
-The current set of patterns used by the LME of the PHY to determine the hopping sequence. For
-      more information about the hopping pattern sets, refer to Clause 14.9.2.19 of the IEEE 802.11-2012
-      standard.
-      
-<div class="alert"><b>Note</b>  This member is only valid for FHSS PHY types.</div><div> </div>
-
-#### uDwellTime
-
-The maximum amount of time that the PHY can use when transmitting on a single channel. The value
-      of 
-      <b>uDwellTime</b> is in units of 802.11 time units (TU). One TU is 1024 microseconds.
-      
-<div class="alert"><b>Note</b>  This member is only valid for FHSS PHY types.</div><div> </div>
 
 ### -field FHSS.uHopPattern
 
@@ -127,7 +103,7 @@ The maximum amount of time that the PHY can use when transmitting on a single ch
       
 <div class="alert"><b>Note</b>  This member is only valid for FHSS PHY types.</div><div> </div>
 
-#### - uChCenterFrequency
+### -field uChCenterFrequency
 
 The channel center frequency of the band on which the 802.11 Probe-Response or Beacon frame was
      received. The value of 

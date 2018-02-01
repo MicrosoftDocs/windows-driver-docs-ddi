@@ -74,7 +74,7 @@ NDIS_STATUS FilterNetPnPEvent(
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
@@ -91,8 +91,8 @@ A handle to the context area for the filter module. The filter driver created an
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_pnp_event_notification" tabindex="0"><b>
-     NET_PNP_EVENT_NOTIFICATION</b></mshelp:link> structure, which describes the PnP event or Power Management event
+     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+     NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the PnP event or Power Management event
      being indicated to the filter driver.
 
 
@@ -141,8 +141,8 @@ The return value is significant only when the propagated event is a
 
 <i>FilterNetPnPEvent</i> is an optional function. If a filter driver does not handle
     network PnP events, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function.
 
 <i>FilterNetPnPEvent</i> is similar to a protocol driver's 
     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function. A
@@ -150,8 +150,8 @@ The return value is significant only when the propagated event is a
     forward them. To forward a notification, call the 
     <a href="..\ndis\nf-ndis-ndisfnetpnpevent.md">NdisFNetPnPEvent</a> function. Do not confuse
     this function with the 
-    <mshelp:link keywords="netvista.filterdevicepnpeventnotify" tabindex="0"><i>
-    FilterDevicePnPEventNotify</i></mshelp:link> function, which filters notifications that are directed down the stack
+    <a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">
+    FilterDevicePnPEventNotify</a> function, which filters notifications that are directed down the stack
     to underlying drivers.
 
 NDIS calls 
@@ -205,15 +205,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndisfnetpnpevent.md">NdisFNetPnPEvent</a>
-
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 <a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
+
+<a href="..\ndis\nf-ndis-ndisfnetpnpevent.md">NdisFNetPnPEvent</a>
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
  
 

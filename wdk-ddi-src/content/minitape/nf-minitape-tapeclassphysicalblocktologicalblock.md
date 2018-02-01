@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc95f5c8-2892-479d-ac25-32c07e9c7aab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml, minitape/TapeClassPhysicalBlockToLogicalBlock, storage.tapeclassphysicalblocktologicalblock, TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices]
+ms.keywords: TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], TapeClassPhysicalBlockToLogicalBlock, tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml, minitape/TapeClassPhysicalBlockToLogicalBlock, storage.tapeclassphysicalblocktologicalblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG TapeClassPhysicalBlockToLogicalBlock(
 
 
 
-#### - DensityCode [in]
+### -param DensityCode [in]
 
 Specifies the tape media density code. This routine supports tapes with the following density codes: QIC_24, QIC_120, QIC_150, QIC_525, QIC_1000, QIC_2GB, QIC_1350, and QIC_2100.
 
 
-#### - PhysicalBlockAddress [in]
+### -param PhysicalBlockAddress [in]
 
 Specifies the physical block address obtained by a SCSI READ POSITION command.
 
 
-#### - BlockLength [in]
+### -param BlockLength [in]
 
 Specifies the logical block size, in bytes.
 
 
-#### - FromBOT [in]
+### -param FromBOT [in]
 
 <b>TRUE</b> indicates that the logical block calculation should start at the beginning of the tape and account for the physical device header. <b>FALSE</b> indicates that the tape has two partitions, that the block address is on the directory partition, and therefore no physical device header needs to be factored into the calculation.
 

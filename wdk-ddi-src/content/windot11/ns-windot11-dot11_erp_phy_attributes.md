@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ce5f2833-7df6-449b-be68-ed58620fbb43
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_ERP_PHY_ATTRIBUTES, DOT11_ERP_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/DOT11_ERP_PHY_ATTRIBUTES, windot11/PDOT11_ERP_PHY_ATTRIBUTES, Native_802.11_data_types_ca561d35-8793-4e0f-8c56-81bd58365f08.xml, netvista.dot11_erp_phy_attributes, PDOT11_ERP_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ERP_PHY_ATTRIBUTES, DOT11_ERP_PHY_ATTRIBUTES"
+ms.keywords: DOT11_ERP_PHY_ATTRIBUTES, PDOT11_ERP_PHY_ATTRIBUTES, Native_802.11_data_types_ca561d35-8793-4e0f-8c56-81bd58365f08.xml, DOT11_ERP_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], netvista.dot11_erp_phy_attributes, windot11/DOT11_ERP_PHY_ATTRIBUTES, PDOT11_ERP_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ERP_PHY_ATTRIBUTES, windot11/PDOT11_ERP_PHY_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,16 +72,16 @@ typedef struct DOT11_ERP_PHY_ATTRIBUTES {
 
 
 
-#### - HRDSSSAttributes
+### -field HRDSSSAttributes
 
 Since the ERP PHY type is a superset of the high-rate direct-sequence spread spectrum (HRDSS) PHY
      type, the start of the DOT11_ERP_PHY_ATTRIBUTES structure is formatted as a 
-     <mshelp:link keywords="netvista.dot11_hrdsss_phy_attributes" tabindex="0"><b>
-     DOT11_HRDSSS_PHY_ATTRIBUTES</b></mshelp:link> structure in order to define the HRDSS-specific attributes of the
+     <a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">
+     DOT11_HRDSSS_PHY_ATTRIBUTES</a> structure in order to define the HRDSS-specific attributes of the
      PHY.
 
 
-#### - bERPPBCCOptionImplemented
+### -field bERPPBCCOptionImplemented
 
 A Boolean value that, if set to <b>TRUE</b>, specifies that the PHY supports enabled packet binary
      convolutional code (PBCC) modulation. 
@@ -92,7 +92,7 @@ For more information about PBCC modulation, refer to Clause 18.4.6.6 of the IEEE
      standard.
 
 
-#### - bDSSSOFDMOptionImplemented
+### -field bDSSSOFDMOptionImplemented
 
 A Boolean value that, if set to <b>TRUE</b>, specifies the PHY has enabled the use of the hybrid
      DSSS-OFDM modulation. If the 802.11 station supports this option, the PHY is capable of combining the
@@ -104,7 +104,7 @@ For more information about DSSS-OFDM modulation, refer to Clause 19.7 of the IEE
      standard.
 
 
-#### - bShortSlotTimeOptionImplemented
+### -field bShortSlotTimeOptionImplemented
 
 A Boolean value that, if set to <b>TRUE</b>, specifies the PHY supports the 802.11g short slot time
      option. For more information about the short slot time, refer to Clause 7.3.1.4 of the IEEE 802.11g-2003

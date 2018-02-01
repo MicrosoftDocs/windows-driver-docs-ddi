@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a4b55b1-977d-43fb-9968-7a734e04b21b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration structure pointer [Storage Devices], storage.msiscsi_bootconfiguration, iscsicfg/PMSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration structure [Storage Devices], structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml, iscsicfg/MSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration, _MSiSCSI_BootConfiguration
+ms.keywords: structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml, *PMSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration structure [Storage Devices], iscsicfg/MSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration, _MSiSCSI_BootConfiguration, iscsicfg/PMSiSCSI_BootConfiguration, storage.msiscsi_bootconfiguration, PMSiSCSI_BootConfiguration structure pointer [Storage Devices], PMSiSCSI_BootConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct _MSiSCSI_BootConfiguration {
 
 
 
-#### - LUN
+### -field LUN
 
 The logical unit number (LUN) that identifies the logical unit on the target that functions as a boot device.
 
 
-#### - SecurityFlags
+### -field SecurityFlags
 
 A bitwise OR of security flags that indicate the security requirements of the boot device. For a list of possible flags for this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>.
 
 
-#### - UsernameSize
+### -field UsernameSize
 
 The size, in bytes, of the string in <b>Username</b>.
 
 
-#### - PasswordSize
+### -field PasswordSize
 
 The size, in bytes, of the string in <b>Password</b>.
 
 
-#### - DiscoverBootDevice
+### -field DiscoverBootDevice
 
 A Boolean value that indicates whether the system should dynamically discover the boot device. If this member is <b>TRUE</b>, the system should dynamically discover the boot device. 
 
 
-#### - InitiatorNode
+### -field InitiatorNode
 
 The iSCSI name of the initiator node to use for connecting to the boot device. If this member is <b>NULL</b>, the HBA can choose any initiator node. The iSCSI name for the initiator uniquely identifies the initiator anywhere in the world. For more information about how to specify this name, see the <i>iSCSI </i>specification that is published by the Internet Engineering Task Force (IETF) of the IP storage working group. 
 
 
-#### - TargetName
+### -field TargetName
 
 The iSCSI name for the target that contains the boot device.
 
 
-#### - TargetPortal
+### -field TargetPortal
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a> structure that specifies the portal to use for the connection.
 
 
-#### - LoginOptions
+### -field LoginOptions
 
 A <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a> structure that specifies the characteristics of the logon session to establish with the boot device.
 
 
-#### - Username
+### -field Username
 
 A variable length array of characters that specifies the user name to use with the challenge handshake authentication protocol (CHAP). The user name is also known as the <i>CHAP name</i> (CHAP_N). The initiator uses the CHAP name to authenticate the target.
 
@@ -137,11 +137,11 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562979">MSiSCSI_BootConfiguration WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
  
 

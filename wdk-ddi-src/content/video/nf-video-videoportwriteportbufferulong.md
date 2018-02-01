@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b892bea-a21a-4bf3-863a-d56d919538aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWritePortBufferUlong, video/VideoPortWritePortBufferUlong, VideoPort_Functions_f8e5a168-7d9d-4478-b3e9-00053456506f.xml, display.videoportwriteportbufferulong, VideoPortWritePortBufferUlong function [Display Devices]
+ms.keywords: video/VideoPortWritePortBufferUlong, VideoPortWritePortBufferUlong, display.videoportwriteportbufferulong, VideoPortWritePortBufferUlong function [Display Devices], VideoPort_Functions_f8e5a168-7d9d-4478-b3e9-00053456506f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortWritePortBufferUlong(
 
 
 
-#### - Port
+### -param Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer containing the ULONG values to be written.
 
 
-#### - Count
+### -param Count
 
 Specifies the number of ULONG values to be transferred to the adapter.
 

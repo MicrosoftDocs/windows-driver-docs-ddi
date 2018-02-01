@@ -75,7 +75,7 @@ NDIS_STATUS ProtocolCoCreateVc(
 
 
 
-#### - ProtocolAfContext [in]
+### -param ProtocolAfContext [in]
 
 Specifies the handle to a protocol-allocated context area in which the call manager or client
      maintains its per-open state. The call manager supplied this handle from its 
@@ -86,7 +86,7 @@ Specifies the handle to a protocol-allocated context area in which the call mana
      <i>ProtocolCoAfRegisterNotify</i> function.
 
 
-#### - NdisVcHandle [in]
+### -param NdisVcHandle [in]
 
 Specifies a handle, supplied by NDIS, that uniquely identifies this virtual connection. This
      handle is opaque to the protocol driver and reserved for NDIS library use. However, the call manager and
@@ -94,7 +94,7 @@ Specifies a handle, supplied by NDIS, that uniquely identifies this virtual conn
      <b>NdisCo/Cl/Cm/MCm<i>Xxx</i></b> functions that concern this VC.
 
 
-#### - ProtocolVcContext [out]
+### -param ProtocolVcContext [out]
 
 Specifies the handle to a protocol-supplied context area in which the call manager or client
      maintains state about this virtual connection.
@@ -166,8 +166,8 @@ The
     the creation of a VC in the process of notifying its client that the CM received an incoming call offer
     from a remote node that is directed to a SAP already registered with the CM by that client before the CM
     calls 
-    <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
-    NdisCmDispatchIncomingCall</b></mshelp:link>.
+    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+    NdisCmDispatchIncomingCall</a>.
 
 <i>ProtocolCoCreateVc</i> performs any necessary allocations of dynamic resources and structures that the
     call manager or client requires to perform subsequent operations on a VC that will be activated. Such
@@ -261,19 +261,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
  
 

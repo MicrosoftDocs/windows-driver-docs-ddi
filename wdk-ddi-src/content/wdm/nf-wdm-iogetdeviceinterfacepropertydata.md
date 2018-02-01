@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDeviceInterfacePropertyData, wdm/IoGetDeviceInterfacePropertyData, kernel.iogetdeviceinterfacepropertydata, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacepropertydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ NTSTATUS IoGetDeviceInterfacePropertyData(
 
 
 
-#### - SymbolicLinkName [in]
+### -param SymbolicLinkName [in]
 
 A pointer to a string that identifies the device interface instance. This string was obtained from a previous call to the <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>, <a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>, or <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> routine.
 
 
-#### - PropertyKey [in]
+### -param PropertyKey [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that contains the device interface property key.
 
 
-#### - Lcid [in]
+### -param Lcid [in]
 
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
-#### - Flags
+### -param Flags
 
 Reserved for system use. Drivers should set this value to zero.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies the size, in bytes, of the buffer that <i>Data</i> points to.
 
 
-#### - Data [out]
+### -param Data [out]
 
 A pointer to a caller-allocated buffer into which the routine writes the device interface property data.
 
 
-#### - RequiredSize [out]
+### -param RequiredSize [out]
 
 A pointer to a ULONG variable into which <b>IoGetDeviceInterfacePropertyData</b> writes the required size of the property data.  If the routine succeeds, the required size value is the number of bytes that the routine writes to the output buffer that <i>Data</i> points to. If the routine returns STATUS_BUFFER_TOO_SMALL, the required size value is the size of the buffer that the caller should allocate for this property value.
 
 
-#### - Type [out]
+### -param Type [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a> variable. If <b>IoGetDeviceInterfacePropertyData</b> successfully retrieves the property data, the routine writes the property type value to this variable. This value indicates the type of property data that is in the <i>Data</i> buffer.
 
@@ -176,9 +176,9 @@ Callers of <b>IoGetDeviceInterfacePropertyData</b> must be running at IRQL = PAS
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
-
 <a href="..\wdm\nf-wdm-iosetdeviceinterfacepropertydata.md">IoSetDeviceInterfacePropertyData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
  
 

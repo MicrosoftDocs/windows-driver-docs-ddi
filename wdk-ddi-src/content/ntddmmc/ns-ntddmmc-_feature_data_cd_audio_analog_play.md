@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 01c34bb8-b164-425d-b81c-7eefc08296e2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, storage.feature_data_cd_audio_analog_play, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure [Storage Devices], structs-CD-ROM_87a067ea-0911-429b-808a-102f9600ecac.xml, ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, *PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure pointer [Storage Devices], PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY
+ms.keywords: PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure pointer [Storage Devices], FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure [Storage Devices], ntddmmc/PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, structs-CD-ROM_87a067ea-0911-429b-808a-102f9600ecac.xml, storage.feature_data_cd_audio_analog_play, _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, *PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY {
 
 
 
-#### - Header
+### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
-#### - SeperateVolume
+### -field SeperateVolume
 
 Indicates, when set to zero, that all audio channels have the same volume level. When set to 1, it indicates that the volume of each audio channel can be set separately. 
 
 
-#### - SeperateChannelMute
+### -field SeperateChannelMute
 
 Indicates, when set to zero, that all audio channels are muted simultaneously. When set to 1, it indicates that each audio channel can be muted independently. 
 
 
-#### - ScanSupported
+### -field ScanSupported
 
 Indicates, when set to 1, that the SCAN command is supported. See the <i>SCSI Multimedia 3 </i>(<i>MMC-3</i>) specification for a description of the SCAN command. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 
 
-#### - NumerOfVolumeLevels
+### -field NumerOfVolumeLevels
 
 
 

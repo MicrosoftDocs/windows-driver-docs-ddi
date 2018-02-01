@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fa4d523b-4af2-4a6e-aaa6-d84c829b567d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdmatransaction/WdfDmaTransactionGetDevice, WdfDmaTransactionGetDevice method, DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, PFN_WDFDMATRANSACTIONGETDEVICE, wdf.wdfdmatransactiongetdevice, WdfDmaTransactionGetDevice, kmdf.wdfdmatransactiongetdevice
+ms.keywords: WdfDmaTransactionGetDevice method, WdfDmaTransactionGetDevice, wdfdmatransaction/WdfDmaTransactionGetDevice, kmdf.wdfdmatransactiongetdevice, DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, wdf.wdfdmatransactiongetdevice, PFN_WDFDMATRANSACTIONGETDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDFDEVICE WdfDmaTransactionGetDevice(
 
 
 
-#### - DmaTransaction [in]
+### -param DmaTransaction [in]
 
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>. 
 

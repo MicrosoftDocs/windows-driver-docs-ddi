@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORPORT_TELEMETRY_EVENT structure [Storage Devices], PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], STORPORT_TELEMETRY_EVENT, storport/PSTORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT, _STORPORT_TELEMETRY_EVENT
+ms.keywords: PSTORPORT_TELEMETRY_EVENT, _STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], storport/STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, *PSTORPORT_TELEMETRY_EVENT, storport/PSTORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,117 +92,117 @@ typedef struct _STORPORT_TELEMETRY_EVENT {
 
 
 
-#### - DriverVersion
+### -field DriverVersion
 
 Miniport driver version.
 
 
-#### - EventId
+### -field EventId
 
 A miniport defined identifier for the telemetry event.
 
 
-#### - EventName
+### -field EventName
 
 A miniport defined name for the telemetry event, which has the maximum length of <b>EVENT_NAME_MAX_LENGTH</b>.
 
 
-#### - EventVersion
+### -field EventVersion
 
 A miniport defined version for the telemetry event.
 
 
-#### - Flags
+### -field Flags
 
 Reserved.
 
 
-#### - EventBufferLength
+### -field EventBufferLength
 
 The length of <b>EventBuffer</b>, which should be not larger than <b>EVENT_BUFFER_MAX_LENGTH</b> that is 4KB.
 
 
-#### - EventBuffer
+### -field EventBuffer
 
 A miniport defined telemetry payload, the length of which is <b>EventBufferLength</b>.
 
 
-#### - ParameterName0
+### -field ParameterName0
 
 A description of the of the meaning of ParameterValue0. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue0
+### -field ParameterValue0
 
 The value for parameter 0.
 
 
-#### - ParameterName1
+### -field ParameterName1
 
 A description of the of the meaning of ParameterValue1. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue1
+### -field ParameterValue1
 
 The value for parameter 1.
 
 
-#### - ParameterName2
+### -field ParameterName2
 
 A description of the of the meaning of ParameterValue2. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue2
+### -field ParameterValue2
 
 The value for parameter 2.
 
 
-#### - ParameterName3
+### -field ParameterName3
 
 A description of the of the meaning of ParameterValue3. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue3
+### -field ParameterValue3
 
 The value for parameter 3.
 
 
-#### - ParameterName4
+### -field ParameterName4
 
 A description of the of the meaning of ParameterValue4. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue4
+### -field ParameterValue4
 
 The value for parameter 4.
 
 
-#### - ParameterName5
+### -field ParameterName5
 
 A description of the of the meaning of ParameterValue5. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue5
+### -field ParameterValue5
 
 The value for parameter 5.
 
 
-#### - ParameterName6
+### -field ParameterName6
 
 A description of the of the meaning of ParameterValue6. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue6
+### -field ParameterValue6
 
 The value for parameter 6.
 
 
-#### - ParameterName7
+### -field ParameterName7
 
 A description of the of the meaning of ParameterValue7. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
 
 
-#### - ParameterValue7
+### -field ParameterValue7
 
 The value for parameter 7.
 

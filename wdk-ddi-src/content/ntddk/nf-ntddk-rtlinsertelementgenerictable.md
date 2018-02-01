@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2554a212-edc0-4641-98bb-2db36ff0266f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlinsertelementgenerictable, RtlInsertElementGenericTable, RtlInsertElementGenericTable routine [Installable File System Drivers], rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml, ntddk/RtlInsertElementGenericTable
+ms.keywords: ntddk/RtlInsertElementGenericTable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml, ifsk.rtlinsertelementgenerictable, RtlInsertElementGenericTable routine [Installable File System Drivers], RtlInsertElementGenericTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ PVOID RtlInsertElementGenericTable(
 
 
 
-#### - Table [in]
+### -param Table [in]
 
 Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a caller-allocated buffer containing data to be copied into the new element. For more information, see the description of <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>. 
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Number of bytes to be allocated for caller-supplied data when the new element is inserted. 
 
 
-#### - NewElement [out, optional]
+### -param NewElement [out, optional]
 
 Pointer to a variable that receives <b>TRUE</b> if a new element with the data at <i>Buffer</i> was inserted in the generic table; or <b>FALSE</b> if the new element was not inserted. 
 
@@ -131,9 +131,9 @@ The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pag
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
  
 

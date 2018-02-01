@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 32d36b6d-9887-43ac-9314-fc682705131e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::GetLogMask, dbgeng/IDebugControl2::GetLogMask, IDebugControl3 interface [Windows Debugging], GetLogMask method, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetLogMask method, IDebugControl3::GetLogMask, GetLogMask, IDebugControl interface [Windows Debugging], GetLogMask method, GetLogMask method [Windows Debugging], IDebugControl3 interface, GetLogMask method [Windows Debugging], IDebugControl interface, GetLogMask method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetLogMask, IDebugControl2::GetLogMask, debugger.getlogmask, GetLogMask method [Windows Debugging], dbgeng/IDebugControl3::GetLogMask
+ms.keywords: GetLogMask method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetLogMask, GetLogMask method [Windows Debugging], IDebugControl3 interface, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, GetLogMask method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetLogMask method, GetLogMask method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetLogMask, IDebugControl3, dbgeng/IDebugControl::GetLogMask, IDebugControl::GetLogMask, GetLogMask, debugger.getlogmask, IDebugControl2 interface [Windows Debugging], GetLogMask method, IDebugControl3::GetLogMask, IDebugControl interface [Windows Debugging], GetLogMask method, IDebugControl2::GetLogMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetLogMask(
 
 
 
-#### - Mask [out]
+### -param Mask [out]
 
 Receives the output mask for the log file.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for details about how to interpret this value.
 
@@ -107,15 +107,15 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
  
 

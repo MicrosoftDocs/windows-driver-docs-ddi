@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d4e6cc35-f6f1-4983-b4d6-2a524245fd15
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.pci_express_root_capabilities_register, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
+ms.keywords: ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI.pci_express_root_capabilities_register, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,27 +78,17 @@ typedef union _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.CRSSoftwareVisibility
 
- 
+A single bit that indicates that the root port is capable of returning configuration request retry status (CRS) completion status to software.
 
 
 ### -field DUMMYSTRUCTNAME.Rsvd
 
- 
+Reserved.
 
 
-#### - AsUSHORT
+### -field AsUSHORT
 
 A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure.
-
-
-#### - CRSSoftwareVisibility
-
-A single bit that indicates that the root port is capable of returning configuration request retry status (CRS) completion status to software.
-
-
-#### - Rsvd
-
-Reserved.
 
 
 ## -remarks

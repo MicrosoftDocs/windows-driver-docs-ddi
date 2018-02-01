@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 184f40ff-be43-482c-8620-382f11f95548
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.appendsymbolpathwide, IDebugSymbols3::AppendSymbolPathWide, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AppendSymbolPathWide, AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3
+ms.keywords: AppendSymbolPathWide method [Windows Debugging], debugger.appendsymbolpathwide, IDebugSymbols3::AppendSymbolPathWide, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, AppendSymbolPathWide, IDebugSymbols3, dbgeng/IDebugSymbols3::AppendSymbolPathWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT AppendSymbolPathWide(
 
 
 
-#### - Addition [in]
+### -param Addition [in]
 
 Specifies the directories to append to the symbol path.  This is a string that contains symbol path elements separated by semicolons (;).  Each symbol path element can specify either a directory or a symbol server.
 
@@ -106,11 +106,11 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
  
 

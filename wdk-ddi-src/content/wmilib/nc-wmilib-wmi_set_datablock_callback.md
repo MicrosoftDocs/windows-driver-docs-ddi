@@ -76,32 +76,32 @@ NTSTATUS DpWmiSetDataBlock(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the driver's WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the IRP.
 
 
-#### - GuidIndex [in]
+### -param GuidIndex [in]
 
 Specifies the data block by its zero-based index into the list of GUIDs provided by the driver in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure it passed to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>.
 
 
-#### - InstanceIndex [in]
+### -param InstanceIndex [in]
 
 If the block specified by <i>GuidIndex </i>has multiple instances, <i>InstanceIndex</i> specifies the instance.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer that contains new values for the instance.
 
@@ -156,9 +156,9 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
  
 

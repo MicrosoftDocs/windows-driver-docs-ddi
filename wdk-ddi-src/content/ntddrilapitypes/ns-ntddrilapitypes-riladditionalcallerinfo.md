@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dd622ebc-beba-4c96-a0e8-97ad614e3937
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista], *LPRILADDITIONALCALLERINFO, netvista.riladditionalcallerinfo, RILADDITIONALCALLERINFO, ntddrilapitypes/RILADDITIONALCALLERINFO
+ms.keywords: ntddrilapitypes/RILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO, netvista.riladditionalcallerinfo, *LPRILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,26 +72,26 @@ typedef struct _RILADDITIONALCALLERINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwCallId
+### -field dwCallId
 
 
 
-#### - dwCallerInfoLength
+### -field dwCallerInfoLength
 
 
 
-#### - wszCallerInfo
+### -field wszCallerInfo
 
 

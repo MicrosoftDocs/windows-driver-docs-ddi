@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6c04c3ae-bca4-4235-a76a-2cfd1fbe4db7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWriteRegisterBufferUchar, storage.scsiportwriteregisterbufferuchar, srb/ScsiPortWriteRegisterBufferUchar, ScsiPortWriteRegisterBufferUchar routine [Storage Devices], scsiprt_260290c1-818a-49dd-9705-ea79984fa0af.xml
+ms.keywords: scsiprt_260290c1-818a-49dd-9705-ea79984fa0af.xml, ScsiPortWriteRegisterBufferUchar routine [Storage Devices], ScsiPortWriteRegisterBufferUchar, srb/ScsiPortWriteRegisterBufferUchar, storage.scsiportwriteregisterbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ VOID ScsiPortWriteRegisterBufferUchar(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer containing the data to be written.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of bytes to be transferred to the HBA.
 

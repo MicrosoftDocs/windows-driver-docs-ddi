@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], netvista.ndismfreesharedmemory, ndis/NdisMFreeSharedMemory, NdisMFreeSharedMemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml
+ms.keywords: netvista.ndismfreesharedmemory, NdisMFreeSharedMemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -52,8 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisMFreeSharedMemory</b> frees memory that was previously allocated by 
   <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a> or 
-  <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-  NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> by the driver of a DMA NIC.
+  <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+  NdisMAllocateSharedMemoryAsyncEx</a> by the driver of a DMA NIC.
 
 
 ## -syntax
@@ -75,30 +75,30 @@ VOID NdisMFreeSharedMemory(
 
 
 
-#### - MiniportAdapterHandle [in]
+### -param MiniportAdapterHandle [in]
 
 Specifies the handle originally input to 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the number of bytes originally allocated.
 
 
-#### - Cached [in]
+### -param Cached [in]
 
 Specifies <b>TRUE</b> if the original allocation was cacheable.
 
 
-#### - VirtualAddress [in]
+### -param VirtualAddress [in]
 
 Specifies the base virtual address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
 
-#### - PhysicalAddress [in]
+### -param PhysicalAddress [in]
 
 Specifies the corresponding physical address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
@@ -117,8 +117,8 @@ None
 
 If it has already made a successful call to 
     <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a> or 
-    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>, the miniport driver of a DMA device calls 
+    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    NdisMAllocateSharedMemoryAsyncEx</a>, the miniport driver of a DMA device calls 
     <b>NdisMFreeSharedMemory</b> if any of the following occurs:
 <ul>
 <li>
@@ -161,19 +161,19 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
-
-<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
 
 <a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
 
  
 

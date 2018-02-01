@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a6abbdb8-8d19-4ae0-8272-8faa87b8e409
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AbandonCurrentProcess method [Windows Debugging], IDebugClient4 interface, debugger.abandoncurrentprocess, IDebugClient4 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient2::AbandonCurrentProcess, IDebugClient2 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient5::AbandonCurrentProcess, IDebugClient5, dbgeng/IDebugClient2::AbandonCurrentProcess, IDebugClient4::AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::AbandonCurrentProcess, AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], IDebugClient2 interface, AbandonCurrentProcess method [Windows Debugging], IDebugClient3 interface, IDebugClient5 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient3::AbandonCurrentProcess, dbgeng/IDebugClient5::AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], dbgeng/IDebugClient4::AbandonCurrentProcess, IDebugClient_2a3f34d6-591b-4cae-bc28-2da5f05a9548.xml, IDebugClient3 interface [Windows Debugging], AbandonCurrentProcess method
+ms.keywords: IDebugClient3::AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], IDebugClient2 interface, IDebugClient5 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient4 interface [Windows Debugging], AbandonCurrentProcess method, AbandonCurrentProcess method [Windows Debugging], IDebugClient4 interface, IDebugClient5::AbandonCurrentProcess, debugger.abandoncurrentprocess, dbgeng/IDebugClient3::AbandonCurrentProcess, dbgeng/IDebugClient2::AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], dbgeng/IDebugClient5::AbandonCurrentProcess, IDebugClient3 interface [Windows Debugging], AbandonCurrentProcess method, AbandonCurrentProcess method [Windows Debugging], IDebugClient3 interface, AbandonCurrentProcess, IDebugClient_2a3f34d6-591b-4cae-bc28-2da5f05a9548.xml, dbgeng/IDebugClient4::AbandonCurrentProcess, IDebugClient4::AbandonCurrentProcess, IDebugClient2 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient2::AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], IDebugClient5 interface, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,23 +104,23 @@ Windows will continue to consider this process as being debugged, and so the pro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561508">.abandon (Abandon Process)</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561508">.abandon (Abandon Process)</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

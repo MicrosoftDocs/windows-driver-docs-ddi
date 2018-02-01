@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlcopystring, k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], ntddk/RtlCopyString
+ms.keywords: RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], kernel.rtlcopystring, k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, ntddk/RtlCopyString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID RtlCopyString(
 
 
 
-#### - DestinationString [out]
+### -param DestinationString [out]
 
 A pointer to the destination string buffer. 
 
 
-#### - SourceString [in, optional]
+### -param SourceString [in, optional]
 
 A pointer to the source string buffer. 
 

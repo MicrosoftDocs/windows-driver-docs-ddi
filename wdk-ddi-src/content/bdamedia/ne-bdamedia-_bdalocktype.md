@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6119727a-05af-4a70-a321-5f0f2e439b93
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: Bda_LockType_None, BDA_LockType enumeration [Streaming Media Devices], bdamedia/BDA_LockType, BDA_LockType, stream.bda_locktype, _BdaLockType, Bda_LockType_PLL, Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_None, bdamedia/Bda_LockType_PLL, bdamedia/Bda_LockType_Complete, bdamedia/Bda_LockType_DecoderDemod, Bda_LockType_Complete, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml
+ms.keywords: bdamedia/BDA_LockType, Bda_LockType_PLL, bdamedia/Bda_LockType_None, BDA_LockType, bdamedia/Bda_LockType_Complete, stream.bda_locktype, Bda_LockType_None, _BdaLockType, BDA_LockType enumeration [Streaming Media Devices], bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, Bda_LockType_Complete, bdamedia/Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_PLL, Bda_LockType_DecoderDemod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _BdaLockType {
 
 
 
-#### - Bda_LockType_None
+### -field Bda_LockType_None
 
 The driver does not support any lock types. 
 
 
-#### - Bda_LockType_PLL
+### -field Bda_LockType_PLL
 
 The driver supports a phase-lock-loop (PLL) lock.
 
 
-#### - Bda_LockType_DecoderDemod
+### -field Bda_LockType_DecoderDemod
 
 The driver supports a decoder-demodulator lock.
 
 
-#### - Bda_LockType_Complete
+### -field Bda_LockType_Complete
 
 To be supplied.
 

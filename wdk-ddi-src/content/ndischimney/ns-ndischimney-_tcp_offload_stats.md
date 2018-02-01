@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, netvista.tcp_offload_stats, _TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml, TCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, netvista.tcp_offload_stats, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml, ndischimney/TCP_OFFLOAD_STATS, _TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ typedef struct _TCP_OFFLOAD_STATS {
 
 
 
-#### - InSegments
+### -field InSegments
 
 The total number of segments received on offloaded TCP connections, including those received in
      error (
@@ -86,41 +86,41 @@ The total number of segments received on offloaded TCP connections, including th
      <i>tcpInSegs</i> in RFC 1156.
 
 
-#### - OutSegments
+### -field OutSegments
 
 The total number of segments sent on offloaded TCP connections, including those on current
      connections but excluding those containing only retransmitted octets. See 
      <i>tcpOutSegs</i> in RFC 1156.
 
 
-#### - CurrentlyEstablished
+### -field CurrentlyEstablished
 
 The number of TCP connections for which the current state is either ESTABLISHED or CLOSE-WAIT. See
      
      <i>tcpCurrEstab</i> in RFC 1156.
 
 
-#### - ResetEstablished
+### -field ResetEstablished
 
 The number of times that offloaded TCP connections have made a direct transition to the CLOSED
      state from either the ESTABLISHED state or the CLOSE-WAIT state.
 
 
-#### - RetransmittedSegments
+### -field RetransmittedSegments
 
 The total number of segments retransmitted on offloaded TCP connections--that is, the number of
      TCP segments transmitted that contain one or more previously transmitted octets. See 
      <i>tcpRetransSegs</i> in RFC 1156.
 
 
-#### - InErrors
+### -field InErrors
 
 The number of packets received on offloaded TCP connections that contained one or more
      TCP-specific errors that prevented the offload target from delivering the packets. See 
      <i>ifInErrors</i> in RFC 1156.
 
 
-#### - OutResets
+### -field OutResets
 
 The number of segments transmitted on offloaded TCP connections with the RST bit set in the TCP
      header.
@@ -146,8 +146,8 @@ If an offload target's TCP chimney capabilities are enabled (see
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-      NdisMIndicateReceiveNetBufferLists</b></mshelp:link> function. In this case, the offload target must not increment
+      <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+      NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the 
       <b>InErrors</b> counter. This is the recommended approach.
 
@@ -179,9 +179,9 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
 
  
 

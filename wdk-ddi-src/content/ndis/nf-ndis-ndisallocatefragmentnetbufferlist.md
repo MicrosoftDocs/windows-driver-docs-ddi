@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40b6596b-7ab8-4336-8c38-21b9f32d8558
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatefragmentnetbufferlist, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, NdisAllocateFragmentNetBufferList, ndis/NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista], netvista.ndisallocatefragmentnetbufferlist, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, NdisAllocateFragmentNetBufferList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,7 +78,7 @@ PNET_BUFFER_LIST NdisAllocateFragmentNetBufferList(
 
 
 
-#### - OriginalNetBufferList [in]
+### -param OriginalNetBufferList [in]
 
 A pointer to an existing NET_BUFFER_LIST structure.
 
@@ -93,7 +93,7 @@ TBD
 TBD
 
 
-#### - StartOffset [in]
+### -param StartOffset [in]
 
 An additional byte offset from the start of the data in each 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. This offset is in addition
@@ -101,19 +101,19 @@ An additional byte offset from the start of the data in each
      <b>DataOffset</b> member specified in each NET_BUFFER structure.
 
 
-#### - MaximumLength [in]
+### -param MaximumLength [in]
 
 The maximum length, in bytes, for each fragment in the new NET_BUFFER_LIST structure. Each
      fragment is described by a NET_BUFFER structure.
 
 
-#### - DataOffsetDelta [in]
+### -param DataOffsetDelta [in]
 
 The additional amount of 
      <i>used data space</i> that NDIS should make available in the new NET_BUFFER structures.
 
 
-#### - DataBackFill [in]
+### -param DataBackFill [in]
 
 The amount of data space in addition to the value of the 
      <i>DataOffsetDelta</i> parameter to allocate if allocation is necessary. If NDIS must allocate memory to
@@ -122,7 +122,7 @@ The amount of data space in addition to the value of the
      <i>DataBackFill</i> specifies.
 
 
-#### - AllocateFragmentFlags [in]
+### -param AllocateFragmentFlags [in]
 
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
@@ -131,15 +131,15 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 #### - NetBufferListPoolHandle [in, optional]
 
 A handle that was obtained from a call to the 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-     NdisAllocateNetBufferListPool</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     NdisAllocateNetBufferListPool</a> function.
 
 
 #### - NetBufferPoolHandle [in, optional]
 
 A NET_BUFFER structure pool handle that was previously returned from a call to 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferpool" tabindex="0"><b>
-     NdisAllocateNetBufferPool</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">
+     NdisAllocateNetBufferPool</a>.
 
 
 ## -returns
@@ -206,12 +206,12 @@ If NDIS must allocate memory to supply the data space requested in
 </li>
 </ul>The new fragment NET_BUFFER_LIST structure that 
     <b>NdisAllocateFragmentNetBufferList</b> creates does not include an initial 
-    <mshelp:link keywords="netvista.net_buffer_list_context" tabindex="0"><b>
-    NET_BUFFER_LIST_CONTEXT</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
+    NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
-    <mshelp:link keywords="netvista.ndisfreefragmentnetbufferlist" tabindex="0"><b>
-    NdisFreeFragmentNetBufferList</b></mshelp:link> function to free a NET_BUFFER_LIST structure and all associated
+    <a href="..\ndis\nf-ndis-ndisfreefragmentnetbufferlist.md">
+    NdisFreeFragmentNetBufferList</a> function to free a NET_BUFFER_LIST structure and all associated
     NET_BUFFER structures and MDL chains that were previously allocated by calling 
     <b>NdisAllocateFragmentNetBufferList</b>.
 
@@ -221,17 +221,17 @@ Call the
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisfreefragmentnetbufferlist" tabindex="0"><b>
-   NdisFreeFragmentNetBufferList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfreefragmentnetbufferlist.md">
+   NdisFreeFragmentNetBufferList</a>
 
  
 

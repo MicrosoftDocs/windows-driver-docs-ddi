@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 989ecf50-18c4-4977-b845-b3fea0cade47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, netvista.ndis_tcp_ip_checksum_net_buffer_list_info, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, tcpip_offload_ref_2ce657f6-a894-420b-bcb0-310819237c5b.xml, *PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
+ms.keywords: PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], tcpip_offload_ref_2ce657f6-a894-420b-bcb0-310819237c5b.xml, PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_tcp_ip_checksum_net_buffer_list_info, *PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,51 +95,9 @@ typedef struct _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO {
 
 
 
-#### - Transmit
+### -field Transmit
 
 A structure that contains the following members:
-
-
-#### IsIPv4
-
-Set by the TCP/IP transport to indicate that the send packet contains IPv4 addresses.
-
-
-#### IsIPv6
-
-Set by the TCP/IP transport to indicate that the send packet contains IPv6 addresses.
-
-
-#### TcpChecksum
-
-Set by the TCP/IP transport to indicate that the NIC should calculate the packet's TCP
-       checksum.
-
-
-#### UdpChecksum
-
-Set by the TCP/IP transport to indicate that the NIC should calculate the packet's UDP
-       checksum.
-
-
-#### IpHeaderChecksum
-
-Set by the TCP/IP transport to indicate that the NIC should calculate the IP checksum for the
-       first IP header in the packet. If the packet contains both a tunnel IP header and a transport IP
-       header, the NIC should calculate the checksum for both IP headers.
-
-
-#### Reserved
-
-Reserved for NDIS.
-
-
-#### TcpHeaderOffset
-
-The offset, in bytes, of the TCP header from the beginning of the packet for TCP packets.
-       Miniport drivers can use 
-       <b>TcpHeaderOffset</b> to determine the location of the TCP header so that they do not need to parse
-       the MAC and IP header.
 
 
 ### -field Transmit.IsIPv4
@@ -184,68 +142,10 @@ The offset, in bytes, of the TCP header from the beginning of the packet for TCP
        the MAC and IP header.
 
 
-#### - Receive
+### -field Receive
 
 A structure that contains the following members:
 
-
-#### TcpChecksumFailed
-
-Set by the miniport driver to indicate that the TCP checksum calculated by the NIC did not match
-       the checksum in the receive packet's TCP header.
-
-
-#### UdpChecksumFailed
-
-Set by the miniport driver to indicate that the UDP checksum calculated by the NIC did not match
-       the checksum in the receive packet's UDP header.
-
-
-#### IpChecksumFailed
-
-Set by the miniport driver to indicate that the IP checksum calculated by the NIC did not match
-       the checksum in the receive packet's first IP header. If the receive packet contains both a tunnel IP
-       header and a transport IP header, the NIC validates the checksum for both IP headers.
-<div class="alert"><b>Note</b>  For encapsulated packets that have both a tunnel (outer) IPv4 header and a transport (inner) IPv4 header, the miniport driver should set this flag if either of the IP header checksum validations failed.</div><div> </div>
-
-#### TcpChecksumSucceeded
-
-Set by the miniport driver to indicate that the TCP checksum calculated by the NIC matched the
-       checksum in the receive packet's TCP header.
-
-
-#### UdpChecksumSucceeded
-
-Set by the miniport driver to indicate that the UDP checksum calculated by the NIC matched the
-       checksum in the receive packet's UDP header.
-
-
-#### IpChecksumSucceeded
-
-Set by the miniport driver to indicate that the IP checksum calculated by the NIC matched the
-       checksum in the receive packet's first IP header. If the receive packet contains both a tunnel IP
-       header and a transport IP header, the NIC validates the checksum for the both IP headers.
-<div class="alert"><b>Note</b>  For encapsulated packets that have both a tunnel (outer) IPv4 header and a transport (inner) IPv4 header, the miniport driver should set this flag only if both IP header checksum validations succeeded.</div><div> </div>
-
-#### Loopback
-
-NDIS uses this bit. The miniport driver must not examine or set this bit; the miniport driver
-       should just ignore this bit.
-
-
-#### TcpChecksumValueInvalid
-
-A miniport driver that supports <a href="https://msdn.microsoft.com/9CB2AB1C-924C-4A19-B1E7-70C8C5C05B46">Receive Segment Coalescing (RSC)</a> sets this flag to indicate that the TCP header checksum was validated by the NIC but the TCP header checksum value in the packet is not valid. For more information, see <a href="https://msdn.microsoft.com/79A37DAB-D9B3-4FA2-8258-05E10BD6E3CB">Indicating Coalesced Segments</a>.
-
-Miniport drivers that do  not support RSC should set this flag to zero.
-<div class="alert"><b>Note</b>  This flag is supported in NDIS 6.30 and later miniport drivers in Windows 8, Windows Server 2012, and later.</div><div> </div>
-
-#### IpChecksumValueInvalid
-
-A miniport driver that supports RSC sets this flag to indicate that for an IPv4 packet, the IP header checksum was validated by the NIC but the IP header checksum value in the packet is not valid. For a packet consisting of both a tunnel and a transport IP header, this bit is applicable only to the tunnel IP header. For more information, see <a href="https://msdn.microsoft.com/79A37DAB-D9B3-4FA2-8258-05E10BD6E3CB">Indicating Coalesced Segments</a>.
-
-Miniport drivers that do  not support RSC should set this flag to zero.
-<div class="alert"><b>Note</b>  This flag is supported in NDIS 6.30 and later miniport drivers in Windows 8, Windows Server 2012, and later.</div><div> </div>
 
 ### -field Receive.TcpChecksumFailed
 
@@ -305,7 +205,7 @@ A miniport driver that supports RSC sets this flag to indicate that for an IPv4 
 Miniport drivers that do  not support RSC should set this flag to zero.
 <div class="alert"><b>Note</b>  This flag is supported in NDIS 6.30 and later miniport drivers in Windows 8, Windows Server 2012, and later.</div><div> </div>
 
-#### - Value
+### -field Value
 
 A <b>PVOID</b> version of the checksum information. Miniport drivers can use this member to access the
       raw information instead of the specific fields.
@@ -349,11 +249,11 @@ Before indicating up a receive TCP/IP packet on which it performs checksum tasks
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/79A37DAB-D9B3-4FA2-8258-05E10BD6E3CB">Indicating Coalesced Segments</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/79A37DAB-D9B3-4FA2-8258-05E10BD6E3CB">Indicating Coalesced Segments</a>
 
  
 

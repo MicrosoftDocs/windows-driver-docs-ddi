@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c5d0dbd8-bcce-436b-8fa7-bcb2b5c4ba59
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksp_node_espid, KSP_NODE_ESPID structure [Streaming Media Devices], bdamedia/KSP_NODE_ESPID, PKSP_NODE_ESPID, bdaref_aef92a8d-df0e-4283-b06a-4ece33b91809.xml, bdamedia/PKSP_NODE_ESPID, KSP_NODE_ESPID, PKSP_NODE_ESPID structure pointer [Streaming Media Devices], *PKSP_NODE_ESPID
+ms.keywords: bdamedia/PKSP_NODE_ESPID, PKSP_NODE_ESPID structure pointer [Streaming Media Devices], bdaref_aef92a8d-df0e-4283-b06a-4ece33b91809.xml, KSP_NODE_ESPID, stream.ksp_node_espid, KSP_NODE_ESPID structure [Streaming Media Devices], PKSP_NODE_ESPID, *PKSP_NODE_ESPID, bdamedia/KSP_NODE_ESPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 KSP_NODE structure that describes a property and node type.
 
 
-#### - EsPid
+### -field EsPid
 
 Packet identifier (PID) that identifies packets in the elementary stream.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EE076D50-8E08-4D98-872F-DA6DBA27B9E5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WRITE_REGISTER_BUFFER_USHORT function, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_USHORT, WDF_WRITE_REGISTER_BUFFER_USHORT, wdf.wdf_write_register_buffer_ushort
+ms.keywords: WDF_WRITE_REGISTER_BUFFER_USHORT function, WDF_WRITE_REGISTER_BUFFER_USHORT, wdf.wdf_write_register_buffer_ushort, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WDF_WRITE_REGISTER_BUFFER_USHORT(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a buffer into which an array of USHORT values is to be written.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of USHORT values to write to the register.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 978193AE-55CD-4255-8722-A1E008E98F08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportaudioenginenode_getdevicechannelcount, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelCount method, IMiniportAudioEngineNode::GetDeviceChannelCount, IMiniportAudioEngineNode, GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelCount method, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount, audio.iminiportaudioenginenode_getdevicechannelcount, IMiniportAudioEngineNode::GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelCount, IMiniportAudioEngineNode, GetDeviceChannelCount method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS GetDeviceChannelCount(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID of the node that represents the audio device.
 
 
-#### - targetType [in]
+### -param targetType [in]
 
 An <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a> enumerated value that specifies the types of target nodes in the channels. For example, there could be Volume, Mute or PeakMeter nodes.
 
 
-#### - pulChannelCount [out]
+### -param pulChannelCount [out]
 
 The number of channels supported by the audio device.
 
@@ -95,9 +95,9 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
 <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
+
+<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
  
 

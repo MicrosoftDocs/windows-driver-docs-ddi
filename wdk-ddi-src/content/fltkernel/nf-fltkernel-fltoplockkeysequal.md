@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 660aa6f2-03d8-44aa-b263-29a74c912668
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOplockKeysEqual, FltOplockKeysEqual routine [Installable File System Drivers], ifsk.fltoplockkeysequal, fltkernel/FltOplockKeysEqual, FltApiRef_e_to_o_66634abf-9f0a-44b1-a4e4-85ef958b05f5.xml
+ms.keywords: FltApiRef_e_to_o_66634abf-9f0a-44b1-a4e4-85ef958b05f5.xml, FltOplockKeysEqual routine [Installable File System Drivers], fltkernel/FltOplockKeysEqual, ifsk.fltoplockkeysequal, FltOplockKeysEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ BOOLEAN FltOplockKeysEqual(
 
 
 
-#### - Fo1 [in, optional]
+### -param Fo1 [in, optional]
 
 A pointer to the first file object for the comparison. 
 
 
-#### - Fo2 [in, optional]
+### -param Fo2 [in, optional]
 
 A pointer to the second file object for the comparison. 
 

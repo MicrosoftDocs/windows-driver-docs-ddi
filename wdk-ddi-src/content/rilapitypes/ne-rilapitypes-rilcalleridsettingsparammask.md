@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 579165ca-94e7-433c-91c6-3112c4b75f64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcalleridsettingsparammask_2, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLERIDSETTINGSPARAMMASK, RIL_PARAM_CIDS_ALL, RIL_PARAM_CIDS_PROVISIONING, rilapitypes/RIL_PARAM_CIDS_PROVISIONING, rilapitypes/RIL_PARAM_CIDS_STATUS, rilapitypes/RIL_PARAM_CIDS_ALL, RILCALLERIDSETTINGSPARAMMASK, RIL_PARAM_CIDS_STATUS
+ms.keywords: RILCALLERIDSETTINGSPARAMMASK, RIL_PARAM_CIDS_STATUS, RIL_PARAM_CIDS_PROVISIONING, rilapitypes/RIL_PARAM_CIDS_STATUS, netvista.rilcalleridsettingsparammask_2, RIL_PARAM_CIDS_ALL, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CIDS_ALL, rilapitypes/RIL_PARAM_CIDS_PROVISIONING, rilapitypes/RILCALLERIDSETTINGSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,14 +74,14 @@ typedef enum _RILCALLERIDSETTINGSPARAMMASK {
 
 
 
-#### - RIL_PARAM_CIDS_PROVISIONING
+### -field RIL_PARAM_CIDS_PROVISIONING
 
 
 
-#### - RIL_PARAM_CIDS_STATUS
+### -field RIL_PARAM_CIDS_STATUS
 
 
 
-#### - RIL_PARAM_CIDS_ALL
+### -field RIL_PARAM_CIDS_ALL
 
 

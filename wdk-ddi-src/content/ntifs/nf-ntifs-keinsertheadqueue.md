@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 82e0bf14-b751-4919-b8d0-26fc7c5598a8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeInsertHeadQueue routine [Installable File System Drivers], keref_a3279265-434b-42d6-95d9-5a8a12f54c9b.xml, KeInsertHeadQueue, ntifs/KeInsertHeadQueue, ifsk.keinsertheadqueue
+ms.keywords: keref_a3279265-434b-42d6-95d9-5a8a12f54c9b.xml, ifsk.keinsertheadqueue, ntifs/KeInsertHeadQueue, KeInsertHeadQueue, KeInsertHeadQueue routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ LONG KeInsertHeadQueue(
 
 
 
-#### - Queue [in, out]
+### -param Queue [in, out]
 
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool. This structure is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -144,7 +144,7 @@ Pointer to the first entry in the thread list
 </table> 
 
 
-#### - Entry [in, out]
+### -param Entry [in, out]
 
 Pointer to the queue entry that is to be inserted. This pointer must be a resident system-space address. 
 
@@ -171,17 +171,17 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
-
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
-
 <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 <a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
+
+<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7ddef9cf-aa2f-4383-b37f-8c2f3e9c99d6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_CROSSBAR_PININFO_S, PKSPROPERTY_CROSSBAR_PININFO_S structure pointer [Streaming Media Devices], *PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S, ksmedia/KSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_CROSSBAR_PININFO_S, vidcapstruct_a8532e73-5b8e-4ed1-a27e-e151642fff2a.xml, stream.ksproperty_crossbar_pininfo_s
+ms.keywords: ksmedia/PKSPROPERTY_CROSSBAR_PININFO_S, stream.ksproperty_crossbar_pininfo_s, PKSPROPERTY_CROSSBAR_PININFO_S structure pointer [Streaming Media Devices], *PKSPROPERTY_CROSSBAR_PININFO_S, PKSPROPERTY_CROSSBAR_PININFO_S, vidcapstruct_a8532e73-5b8e-4ed1-a27e-e151642fff2a.xml, KSPROPERTY_CROSSBAR_PININFO_S structure [Streaming Media Devices], KSPROPERTY_CROSSBAR_PININFO_S, ksmedia/KSPROPERTY_CROSSBAR_PININFO_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
-#### - Direction
+### -field Direction
 
 Specifies the minidriver-provided direction of data flow for the pin specified in <b>Index</b>. This value can be either <b>KSPIN_DATAFLOW_IN</b> or KSPIN_DATAFLOW_OUT.
 
 
-#### - Index
+### -field Index
 
 Specifies the zero-based index of the pin for which crossbar information is being queried. Input pins are queried separately from output pins.
 
 
-#### - PinType
+### -field PinType
 
 Specifies the minidriver-provided type of physical connector. This member must be set to one of the KS_PhysicalConnectorType enumerated values defined in <i>ksmedia.h</i>:
 
@@ -140,12 +140,12 @@ KS_PhysConn_Audio_USB
 KS_PhysConn_Audio_AudioDecoder
 
 
-#### - RelatedPinIndex
+### -field RelatedPinIndex
 
 Specifies the optional pin index of a pin that is related to the pin specified in <b>Index</b>. For example, the minidriver can set the <b>RelatedPinIndex</b> to the pin index of the audio stream that goes with a video stream in <b>Index</b>. <b>RelatedPinIndex</b> applies only to pins of the same direction (input or output) as the pin being queried. If no other pins are related to the current pin, the minidriver should return (-1).
 
 
-#### - Medium
+### -field Medium
 
 Specifies a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structure that represents the hardware connection for the pin. This information is returned by the minidriver.
 
@@ -159,11 +159,11 @@ All index values are zero-based, and input pins are counted separately from outp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
 
  
 

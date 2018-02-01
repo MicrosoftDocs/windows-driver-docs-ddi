@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 31855688-9221-4128-89c5-dbc4f3e6f794
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_a7b6afa8-acb0-4847-9e86-136100c4dd48.xml, ks/KsPinHandshake, KsPinHandshake function [Streaming Media Devices], KsPinHandshake, stream.kspinhandshake
+ms.keywords: KsPinHandshake function [Streaming Media Devices], KsPinHandshake, ks/KsPinHandshake, avfunc_a7b6afa8-acb0-4847-9e86-136100c4dd48.xml, stream.kspinhandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS KsPinHandshake(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that is initiating the handshake. The handshake request is passed on to the pin connected to this object.
 
 
-#### - In [in]
+### -param In [in]
 
 A pointer to the <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure containing the handshake information to be passed to the connected pin.
 
 
-#### - Out [out]
+### -param Out [out]
 
 A pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure that is filled in with handshake information by the connected pin.
 

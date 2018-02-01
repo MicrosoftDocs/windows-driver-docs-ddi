@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3e28d66-1fe8-4cb0-ada0-4292387da19a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_HD_SPLIT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], header_data_split_ref_32bcb512-6620-48a5-8073-7b9ef0ef1f18.xml, NDIS_HD_SPLIT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PNDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES, netvista.ndis_hd_split_attributes, _NDIS_HD_SPLIT_ATTRIBUTES, ndis/NDIS_HD_SPLIT_ATTRIBUTES, ndis/PNDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES
+ms.keywords: netvista.ndis_hd_split_attributes, ndis/NDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES, _NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], header_data_split_ref_32bcb512-6620-48a5-8073-7b9ef0ef1f18.xml, PNDIS_HD_SPLIT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _NDIS_HD_SPLIT_ATTRIBUTES {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -84,7 +84,7 @@ The
      <b>Size</b> member to NDIS_SIZEOF_HD_SPLIT_ATTRIBUTES_REVISION_1.
 
 
-#### - HardwareCapabilities
+### -field HardwareCapabilities
 
 The header-data split hardware capabilities that the miniport adapter supports. These capabilities
      should include capabilities that are currently disabled by INF file settings or through the 
@@ -128,7 +128,7 @@ The miniport adapter can split TCP frames with other TCP options in addition to 
        provider must be able to split the frame.</div><div> </div><div class="alert"><b>Note</b>  If a TCP header contains an unsupported TCP option, the NIC must split the frame
        at the beginning of the TCP header or must not split the frame.</div><div> </div>
 
-#### - CurrentCapabilities
+### -field CurrentCapabilities
 
 The current header-data split capabilities that the miniport adapter supports. The miniport driver
      uses the same flags that are defined for the 
@@ -136,12 +136,12 @@ The current header-data split capabilities that the miniport adapter supports. T
      that depend on the current configuration settings.
 
 
-#### - HDSplitFlags
+### -field HDSplitFlags
 
 A set of flags that control the status of header-data split for a miniport adapter. The miniport
      driver should set this member to zero before calling the 
-     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-     NdisMSetMiniportAttributes</b></mshelp:link> function. After 
+     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     NdisMSetMiniportAttributes</a> function. After 
      <b>NdisMSetMiniportAttributes</b> successfully returns, the driver must check the flags and configure the
      hardware accordingly. NDIS sets this member with a bitwise OR of the following flags:
      
@@ -157,7 +157,7 @@ If this flag is set, the miniport driver should enable header-data split in the 
        <b>CurrentCapabilities</b> member, NDIS sets NDIS_HD_SPLIT_ENABLE_HEADER_DATA_SPLIT.
 
 
-#### - BackfillSize
+### -field BackfillSize
 
 The backfill size, in bytes, for the data portion of a split frame. The miniport driver should set
      
@@ -168,7 +168,7 @@ The backfill size, in bytes, for the data portion of a split frame. The miniport
      <b>BackfillSize</b> value that NDIS set to pre-allocate the data buffers.
 
 
-#### - MaxHeaderSize
+### -field MaxHeaderSize
 
 The maximum size, in bytes, for the header portion of a split frame. The miniport driver should
      set 
@@ -189,11 +189,11 @@ The maximum size, in bytes, for the header portion of a split frame. The minipor
 
 
 To support header-data split, a miniport driver passes a pointer to an 
-    <mshelp:link keywords="netvista.ndis_miniport_adapter_hardware_assist_attributes" tabindex="0"><b>
-    NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b></mshelp:link> structure in the 
+    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+    NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a> structure in the 
     <i>MiniportAttributes</i> parameter of the 
-    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link> function. The 
+    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a> function. The 
     <b>HDSplitAttributes</b> member of NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES contains a pointer to
     the NDIS_HD_SPLIT_ATTRIBUTES structure. A miniport driver calls 
     <b>NdisMSetMiniportAttributes</b> from its 
@@ -204,14 +204,14 @@ To support header-data split, a miniport driver passes a pointer to an
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_adapter_hardware_assist_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

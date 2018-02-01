@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PFILE_STANDARD_INFORMATION_EX, wdm/FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], wdm/PFILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, _FILE_STANDARD_INFORMATION_EX
+ms.keywords: kernel.file_standard_information_ex, wdm/FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], FILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], wdm/PFILE_STANDARD_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _FILE_STANDARD_INFORMATION_EX {
 
 
 
-#### - AllocationSize
+### -field AllocationSize
 
 The file allocation size in bytes. Usually, this value is a multiple of the sector or cluster size of the underlying physical device. 
 
 
-#### - EndOfFile
+### -field EndOfFile
 
 The end of file location as a byte offset.
 
 
-#### - NumberOfLinks
+### -field NumberOfLinks
 
 The number of hard links to the file.
 
 
-#### - DeletePending
+### -field DeletePending
 
 The delete pending status. <b>TRUE</b> indicates that a file deletion has been requested.
 
 
-#### - Directory
+### -field Directory
 
 The file directory status. <b>TRUE</b> indicates the file object represents a directory. 
 
 
-#### - AlternateStream
+### -field AlternateStream
 
 The alternate data stream status. <b>TRUE</b> indicates the file object represents an alternate data stream. 
 
 
-#### - MetadataAttribute
+### -field MetadataAttribute
 
 The metadata attribute status. <b>TRUE</b> indicates the file object represents a metadata attribute. 
 
@@ -120,9 +120,9 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
  
 

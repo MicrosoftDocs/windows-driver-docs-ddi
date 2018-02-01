@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPDDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT, LPDDPIXELFORMAT, ksmedia/DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], display.ddpixelformat, LPDDPIXELFORMAT structure pointer [Display Devices], DDPIXELFORMAT, _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml"
+ms.keywords: ksmedia/LPDDPIXELFORMAT, _DDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], display.ddpixelformat, LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], *LPDDPIXELFORMAT, ksmedia/DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,52 +107,52 @@ typedef struct _DDPIXELFORMAT {
 
 
 
-#### - dwRGBBitCount
+### -field dwRGBBitCount
 
 Specifies the number of RGB bits per pixel (4, 8, 16, 24, or 32). 
 
 
-#### - dwYUVBitCount
+### -field dwYUVBitCount
 
 Specifies the number of YUV bits per pixel. 
 
 
-#### - dwZBufferBitDepth
+### -field dwZBufferBitDepth
 
 Specifies the Z-buffer bit depth (8, 16, 24, or 32 bits). 
 
 
-#### - dwAlphaBitDepth
+### -field dwAlphaBitDepth
 
 Specifies the Alpha channel bit depth. 
 
 
-#### - dwRBitMask
+### -field dwRBitMask
 
 Specifies the mask for red bits. 
 
 
-#### - dwYBitMask
+### -field dwYBitMask
 
 Specifies the mask for Y bits. 
 
 
-#### - dwGBitMask
+### -field dwGBitMask
 
 Specifies the mask for green bits. 
 
 
-#### - dwUBitMask
+### -field dwUBitMask
 
 Specifies the mask for U bits. 
 
 
-#### - dwBBitMask
+### -field dwBBitMask
 
 Specifies the mask for blue bits. 
 
 
-#### - dwVBitMask
+### -field dwVBitMask
 
 Specifies the mask for V bits. 
 
@@ -177,14 +177,14 @@ Specifies the mask for V bits.
  
 
 
-#### - dwSize
+### -field dwSize
 
 Specifies the size in bytes of the DDPIXELFORMAT structure. The driver must initialize this member before the structure is used.
 
 <b>DirectX 9.0 and later versions only.</b> Specifies, on input, the version of the Microsoft DirectX runtime being used by the application. This member is set to DD_RUNTIME_VERSION, which is 0x00000900 for DirectX 9.0, in the <b>format</b> member of the <a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a> structure for a D3DGDI2_TYPE_GETFORMAT query.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Indicates a set of flags that specify optional control flags. This member is a bitwise OR of any of the following values:
 <table>
@@ -415,14 +415,24 @@ The surface is in RGBZ format.
 </table> 
 
 
-#### - dwFourCC
+### -field dwFourCC
 
 Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FOURCC</a> codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware. 
 
 
-#### - dwLuminanceBitCount
+#### - MultiSampleCaps
 
-Specifies the number of bits per pixel.
+<b>DirectX 8.0 and later versions only.</b> Structure that contains the following two members. It specifies 16-bitmasks for the number of samples per pixel for both flip (fullscreen) and blt (windowed) multisampling. It is used when specifying surfaces that can be used when performing multisample rendering (see the Remarks section). Each bit in these 16-bitmasks indicates support of multisampling with a specific number of samples. For example, bit 0 indicates the support of multisampling with only a single sample, bit 1 indicates the support of multisampling with two samples, bit 2 indicates the support of multisampling with three samples, and so on. The driver can indicate more than one supported level by combining the bits using a bitwise OR (see Remarks).
+
+
+#### wBltMSTypes
+
+<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for windowed multisampling.
+
+
+#### wFlipMSTypes
+
+<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for fullscreen multisampling.
 
 
 #### - dwBumpBitCount
@@ -430,24 +440,34 @@ Specifies the number of bits per pixel.
 Specifies the total number of bits per "bumpel" (bump-map texel).
 
 
-#### - dwPrivateFormatBitCount
+#### - dwBumpDuBitMask
 
-Specifies the bits per pixel of a pixel format private to the driver (that is, not one of the standard ones defined by Microsoft Direct3D).
+Specifies the mask for bump map U delta bits.
 
 
-#### - dwStencilBitDepth
+#### - dwBumpDvBitMask
 
-Specifies the bit depth of the stencil buffer. This member specifies how many bits are reserved within each pixel of the z-buffer for stencil information.
+Specifies the mask for bump map V delta bits.
+
+
+#### - dwBumpLuminanceBitMask
+
+Specifies the mask for luminance in a bump map.
+
+
+#### - dwLuminanceAlphaBitMask
+
+Specifies the mask for luminance in the alpha channel.
+
+
+#### - dwLuminanceBitCount
+
+Specifies the number of bits per pixel.
 
 
 #### - dwLuminanceBitMask
 
 Specifies the mask for luminance bits.
-
-
-#### - dwBumpDuBitMask
-
-Specifies the mask for bump map U delta bits.
 
 
 #### - dwOperations
@@ -744,39 +764,9 @@ D3DFORMAT_OP_VERTEXTEXTURE
 </table> 
 
 
-#### - dwZBitMask
+#### - dwPrivateFormatBitCount
 
-Specifies the mask for Z bits.
-
-
-#### - dwBumpDvBitMask
-
-Specifies the mask for bump map V delta bits.
-
-
-#### - MultiSampleCaps
-
-<b>DirectX 8.0 and later versions only.</b> Structure that contains the following two members. It specifies 16-bitmasks for the number of samples per pixel for both flip (fullscreen) and blt (windowed) multisampling. It is used when specifying surfaces that can be used when performing multisample rendering (see the Remarks section). Each bit in these 16-bitmasks indicates support of multisampling with a specific number of samples. For example, bit 0 indicates the support of multisampling with only a single sample, bit 1 indicates the support of multisampling with two samples, bit 2 indicates the support of multisampling with three samples, and so on. The driver can indicate more than one supported level by combining the bits using a bitwise OR (see Remarks).
-
-
-#### wFlipMSTypes
-
-<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for fullscreen multisampling.
-
-
-#### wBltMSTypes
-
-<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for windowed multisampling.
-
-
-#### - dwStencilBitMask
-
-Specifies the mask for stencil bits within each z-buffer pixel.
-
-
-#### - dwBumpLuminanceBitMask
-
-Specifies the mask for luminance in a bump map.
+Specifies the bits per pixel of a pixel format private to the driver (that is, not one of the standard ones defined by Microsoft Direct3D).
 
 
 #### - dwRGBAlphaBitMask, dwYUVAlphaBitMask
@@ -784,14 +774,24 @@ Specifies the mask for luminance in a bump map.
 Specify the masks for alpha channel. 
 
 
-#### - dwLuminanceAlphaBitMask
-
-Specifies the mask for luminance in the alpha channel.
-
-
 #### - dwRGBZBitMask, dwYUVZBitMask
 
 Specifies the masks for the z channel. 
+
+
+#### - dwStencilBitDepth
+
+Specifies the bit depth of the stencil buffer. This member specifies how many bits are reserved within each pixel of the z-buffer for stencil information.
+
+
+#### - dwStencilBitMask
+
+Specifies the mask for stencil bits within each z-buffer pixel.
+
+
+#### - dwZBitMask
+
+Specifies the mask for Z bits.
 
 
 ## -remarks

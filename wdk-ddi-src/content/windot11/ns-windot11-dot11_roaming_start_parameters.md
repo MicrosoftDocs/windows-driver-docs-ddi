@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 23a0eabc-9eac-4375-b2ca-66b70deaba82
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_ROAMING_START_PARAMETERS, PDOT11_ROAMING_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7635397d-74dc-44d0-af58-47048361367d.xml, *PDOT11_ROAMING_START_PARAMETERS, PDOT11_ROAMING_START_PARAMETERS, windot11/PDOT11_ROAMING_START_PARAMETERS, netvista.dot11_roaming_start_parameters
+ms.keywords: Native_802.11_data_types_7635397d-74dc-44d0-af58-47048361367d.xml, PDOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_roaming_start_parameters, windot11/DOT11_ROAMING_START_PARAMETERS, *PDOT11_ROAMING_START_PARAMETERS, PDOT11_ROAMING_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_START_PARAMETERS structure specifies the reason why the Native 802.11 miniport
   driver is performing a roaming operation. The driver includes a DOT11_ROAMING_START_PARAMETERS structure
   when the driver makes an 
-  <mshelp:link keywords="netvista.ndis_status_dot11_roaming_start" tabindex="0">
-  NDIS_STATUS_DOT11_ROAMING_START</mshelp:link> status indication.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">
+  NDIS_STATUS_DOT11_ROAMING_START</a> status indication.
 
 
 ## -syntax
@@ -75,7 +75,7 @@ typedef struct DOT11_ROAMING_START_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_ROAMING_START_PARAMETERS structure. This member is
      formatted as an 
@@ -91,11 +91,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_ROAMING_START_PARAMETERS_REVISION_1.
@@ -107,7 +102,12 @@ This member must be set to
        sizeof(DOT11_ROAMING_START_PARAMETERS).
 
 
-#### - AdhocBSSID
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field AdhocBSSID
 
 If the IEEE 802.11 
      <b>dot11DesiredBSSType</b> MIB object is set to 
@@ -123,7 +123,7 @@ For more information about the data type for this member, see
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>.
 
 
-#### - AdhocSSID
+### -field AdhocSSID
 
 If the 
      <b>dot11DesiredBSSType</b> MIB object is set to 
@@ -140,11 +140,11 @@ For more information about the data type for this member, see
 
 For more information about the IEEE 802.11 
      <b>dot11DesiredBSSType</b> MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_desired_bss_type" tabindex="0">
-     OID_DOT11_DESIRED_BSS_TYPE</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">
+     OID_DOT11_DESIRED_BSS_TYPE</a>.
 
 
-#### - uRoamingReason
+### -field uRoamingReason
 
 The reason that the 802.11 station is roaming, which is formatted as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> value.
@@ -162,15 +162,15 @@ For more information about the roaming operation, see
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567360">NDIS_STATUS_DOT11_ROAMING_START</a>
 
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
  
 

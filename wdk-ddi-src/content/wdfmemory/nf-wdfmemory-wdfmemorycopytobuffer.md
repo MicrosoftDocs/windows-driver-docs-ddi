@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb1fc590-3d3a-4b06-b467-28c3adb43706
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfmemorycopytobuffer, PFN_WDFMEMORYCOPYTOBUFFER, DFMemoryObjectRef_8668c3aa-f5f0-4a1a-9290-27cf78fbcd24.xml, wdf.wdfmemorycopytobuffer, WdfMemoryCopyToBuffer method, wdfmemory/WdfMemoryCopyToBuffer, WdfMemoryCopyToBuffer
+ms.keywords: WdfMemoryCopyToBuffer, PFN_WDFMEMORYCOPYTOBUFFER, kmdf.wdfmemorycopytobuffer, wdf.wdfmemorycopytobuffer, WdfMemoryCopyToBuffer method, wdfmemory/WdfMemoryCopyToBuffer, DFMemoryObjectRef_8668c3aa-f5f0-4a1a-9290-27cf78fbcd24.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfMemoryCopyToBuffer(
 
 
 
-#### - SourceMemory [in]
+### -param SourceMemory [in]
 
 A handle to a framework memory object that represents the source buffer.
 
 
-#### - SourceOffset [in]
+### -param SourceOffset [in]
 
 An offset, in bytes, from the beginning of the source buffer. The copy operation begins at the specified offset in the source buffer.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a destination buffer.
 
 
-#### - NumBytesToCopyTo [in]
+### -param NumBytesToCopyTo [in]
 
 The number of bytes to copy from the source buffer to the destination buffer. This value must not be greater than the size of the source buffer.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f56da2d0-4c4c-4302-a87b-c672dec25d9f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects2 interface [Windows Debugging], GetNumberThreads method, IDebugSystemObjects4 interface [Windows Debugging], GetNumberThreads method, GetNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects interface [Windows Debugging], GetNumberThreads method, IDebugSystemObjects::GetNumberThreads, IDebugSystemObjects_47d86764-4881-4178-97fa-d6c8732dbb1a.xml, GetNumberThreads method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetNumberThreads, GetNumberThreads method [Windows Debugging], IDebugSystemObjects4, IDebugSystemObjects2::GetNumberThreads, IDebugSystemObjects3 interface [Windows Debugging], GetNumberThreads method, IDebugSystemObjects4::GetNumberThreads, GetNumberThreads method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects3::GetNumberThreads, GetNumberThreads, debugger.getnumberthreads, dbgeng/IDebugSystemObjects2::GetNumberThreads, dbgeng/IDebugSystemObjects4::GetNumberThreads, dbgeng/IDebugSystemObjects::GetNumberThreads, GetNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface
+ms.keywords: GetNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging], GetNumberThreads method, IDebugSystemObjects4 interface [Windows Debugging], GetNumberThreads method, debugger.getnumberthreads, dbgeng/IDebugSystemObjects::GetNumberThreads, GetNumberThreads method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging], GetNumberThreads method, IDebugSystemObjects interface [Windows Debugging], GetNumberThreads method, dbgeng/IDebugSystemObjects4::GetNumberThreads, GetNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects3::GetNumberThreads, IDebugSystemObjects::GetNumberThreads, IDebugSystemObjects4, IDebugSystemObjects3::GetNumberThreads, GetNumberThreads, IDebugSystemObjects2::GetNumberThreads, IDebugSystemObjects4::GetNumberThreads, GetNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects_47d86764-4881-4178-97fa-d6c8732dbb1a.xml, GetNumberThreads method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects2::GetNumberThreads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT GetNumberThreads(
 
 
 
-#### - Number [out]
+### -param Number [out]
 
 Receives the number of threads in the current process.
 

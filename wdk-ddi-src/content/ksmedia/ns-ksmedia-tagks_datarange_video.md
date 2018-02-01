@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 682fe2b7-3166-4691-8959-ec7f34c414f7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], ksmedia/PKS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO structure [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO, tagKS_DATARANGE_VIDEO, stream.ks_datarange_video
+ms.keywords: ksmedia/KS_DATARANGE_VIDEO, tagKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], stream.ks_datarange_video, PKS_DATARANGE_VIDEO, vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml, KS_DATARANGE_VIDEO structure [Streaming Media Devices], KS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct tagKS_DATARANGE_VIDEO {
 
 
 
-#### - DataRange
+### -field DataRange
 
 Specifies the major identifier for the format.
 
 
-#### - bFixedSizeSamples
+### -field bFixedSizeSamples
 
 Specifies that all the samples are the same size if set to <b>TRUE</b>.
 
 
-#### - bTemporalCompression
+### -field bTemporalCompression
 
 Specifies whether each sample can stand independently on its own, without relying on previous or future samples.
 
 
-#### - StreamDescriptionFlags
+### -field StreamDescriptionFlags
 
 Unused and should be set to zero.
 
 
-#### - MemoryAllocationFlags
+### -field MemoryAllocationFlags
 
 Unused and should be set to zero.
 
 
-#### - ConfigCaps
+### -field ConfigCaps
 
 Specifies the configuration of the stream, including scaling, cropping, and frame and data rates.
 
 
-#### - VideoInfoHeader
+### -field VideoInfoHeader
 
 Specifies the details of the video stream.
 
@@ -127,9 +127,9 @@ When a particular format is selected by a user-mode client, the members (and the
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 

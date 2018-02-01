@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ea6f764-b884-4764-a2ff-19d0170f9b31
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenProcessTokenEx routine [Kernel-Mode Driver Architecture], k111_ab983257-9c27-4f73-af7c-d903de3a33d3.xml, ntifs/NtOpenProcessTokenEx, ZwOpenProcessTokenEx, NtOpenProcessTokenEx, kernel.zwopenprocesstokenex, ntifs/ZwOpenProcessTokenEx
+ms.keywords: ZwOpenProcessTokenEx, k111_ab983257-9c27-4f73-af7c-d903de3a33d3.xml, ZwOpenProcessTokenEx routine [Kernel-Mode Driver Architecture], ntifs/NtOpenProcessTokenEx, NtOpenProcessTokenEx, kernel.zwopenprocesstokenex, ntifs/ZwOpenProcessTokenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,23 +71,23 @@ NTSTATUS ZwOpenProcessTokenEx(
 
 
 
-#### - ProcessHandle [in]
+### -param ProcessHandle [in]
 
 Handle to the process whose access token is to be opened. The handle must have PROCESS_QUERY_INFORMATION access. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process. 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) to determine which accesses are granted or denied.
 
 
-#### - HandleAttributes [in]
+### -param HandleAttributes [in]
 
 Attributes for the access token handle. Only OBJ_KERNEL_HANDLE is currently supported. If the caller is not running in the system process context, it must specify OBJ_KERNEL_HANDLE for this parameter. 
 
 
-#### - TokenHandle [out]
+### -param TokenHandle [out]
 
 Pointer to a caller-allocated variable that receives a handle to the newly opened access token. 
 
@@ -209,17 +209,17 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\ntifs\nf-ntifs-zwopenthreadtokenex.md">ZwOpenThreadTokenEx</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="..\ntifs\nf-ntifs-zwopenthreadtokenex.md">ZwOpenThreadTokenEx</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

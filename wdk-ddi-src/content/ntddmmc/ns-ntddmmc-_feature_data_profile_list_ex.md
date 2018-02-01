@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c15f9be2-1f35-41cf-a1de-880e3662f2b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, _FEATURE_DATA_PROFILE_LIST_EX, structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices], storage.feature_data_profile_list_ex, *PFEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX
+ms.keywords: structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml, storage.feature_data_profile_list_ex, PFEATURE_DATA_PROFILE_LIST_EX, ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, _FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _FEATURE_DATA_PROFILE_LIST_EX {
 
 
 
-#### - ProfileNumber
+### -field ProfileNumber
 
 Contains the profile number. This number must be one of the values defined by the <a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a> enumeration. <b>ProfileNumber</b>[0] must contain the most significant byte of the profile number. <b>ProfileNumber</b>[1] must contain the least significant byte. 
 
 
-#### - Current
+### -field Current
 
 Indicates, when set to 1, that this feature is currently active and the feature data is valid. When set to zero, this bit indicates that the feature is not currently active and that the feature data might not be valid. 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. 
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. 
 
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_profile_list.md">FEATURE_DATA_PROFILE_LIST</a>
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_data_profile_list.md">FEATURE_DATA_PROFILE_LIST</a>
 
  
 

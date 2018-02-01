@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8e3b782a-fe8c-42e1-9786-5f89831b4c10
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_MAILSLOT_QUERY_INFORMATION, ntifs/PFILE_MAILSLOT_QUERY_INFORMATION, _FILE_MAILSLOT_QUERY_INFORMATION, PFILE_MAILSLOT_QUERY_INFORMATION, ifsk.file_mailslot_query_information, FILE_MAILSLOT_QUERY_INFORMATION, FILE_MAILSLOT_QUERY_INFORMATION structure [Installable File System Drivers], PFILE_MAILSLOT_QUERY_INFORMATION structure pointer [Installable File System Drivers], *PFILE_MAILSLOT_QUERY_INFORMATION
+ms.keywords: FILE_MAILSLOT_QUERY_INFORMATION, _FILE_MAILSLOT_QUERY_INFORMATION, FILE_MAILSLOT_QUERY_INFORMATION structure [Installable File System Drivers], PFILE_MAILSLOT_QUERY_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_MAILSLOT_QUERY_INFORMATION, *PFILE_MAILSLOT_QUERY_INFORMATION, PFILE_MAILSLOT_QUERY_INFORMATION, ifsk.file_mailslot_query_information, ntifs/FILE_MAILSLOT_QUERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _FILE_MAILSLOT_QUERY_INFORMATION {
 
 
 
-#### - MaximumMessageSize
+### -field MaximumMessageSize
 
 
 The maximum size, in bytes, of a single message that can be written to the mailslot, or 0 for a message of any size.
 
 
 
-#### - MailslotQuota
+### -field MailslotQuota
 
 
 The size, in bytes, of the in-memory pool that is reserved for writes to this mailslot. 
 
 
 
-#### - NextMessageSize
+### -field NextMessageSize
 
 The next message size, in bytes.
 
 
 
-#### - MessagesAvailable
+### -field MessagesAvailable
 
 
 
@@ -99,7 +99,7 @@ The total number of messages waiting to be read from the mailslot.
 
 
 
-#### - ReadTimeout
+### -field ReadTimeout
 
   
 The time, in milliseconds, that a read operation can wait for a message to be written to the mailslot before a time-out occurs. A value of –1 requests that the read wait forever for a message, without timing out. A value of 0 requests that the read not wait and return immediately whether a pending message is available to be read or not.

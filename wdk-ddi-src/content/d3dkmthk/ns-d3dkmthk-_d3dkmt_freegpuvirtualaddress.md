@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress, D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices]"
+ms.keywords: display.d3dkmt_freegpuvirtualaddress, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_FREEGPUVIRTUALADDRESS {
 
 
 
-#### - hAdapter
+### -field hAdapter
 
 Specifies the handle to the adapter.
 
 
-#### - BaseAddress
+### -field BaseAddress
 
 Specifies the base virtual address, in bytes, of the range to free. Must be aligned to 4 KB.
 
 
-#### - Size
+### -field Size
 
 Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 

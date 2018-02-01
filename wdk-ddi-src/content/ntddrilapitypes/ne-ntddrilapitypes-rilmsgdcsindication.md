@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 709980c8-e13f-48a7-9af7-26f0bb79e699
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_DCSINDICATION_FAX, ntddrilapitypes/RIL_DCSINDICATION_OTHER, ntddrilapitypes/RILMSGDCSINDICATION, ntddrilapitypes/RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_EMAIL, netvista.rilmsgdcsindication, ntddrilapitypes/RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_OTHER, RIL_DCSINDICATION_MAX, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RILMSGDCSINDICATION
+ms.keywords: ntddrilapitypes/RIL_DCSINDICATION_OTHER, netvista.rilmsgdcsindication, RIL_DCSINDICATION_MAX, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DCSINDICATION_FAX, ntddrilapitypes/RILMSGDCSINDICATION, RIL_DCSINDICATION_OTHER, RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_FAX, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_MAX, RILMSGDCSINDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,18 +74,18 @@ typedef enum _RILMSGDCSINDICATION {
 
 
 
-#### - RIL_DCSINDICATION_FAX
+### -field RIL_DCSINDICATION_FAX
 
 
 
-#### - RIL_DCSINDICATION_EMAIL
+### -field RIL_DCSINDICATION_EMAIL
 
 
 
-#### - RIL_DCSINDICATION_OTHER
+### -field RIL_DCSINDICATION_OTHER
 
 
 
-#### - RIL_DCSINDICATION_MAX
+### -field RIL_DCSINDICATION_MAX
 
 

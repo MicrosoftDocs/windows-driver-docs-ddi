@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 31f0239e-86d3-43e8-8627-7e16bd58df87
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PmiMeasurementUnitMilliWatt, PMI_MEASUREMENT_UNIT, pmi/PMI_MEASUREMENT_UNIT, pmi/PmiMeasurementUnitMax, powermeter.pmi_measurement_unit, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, PmiMeasurementUnitMax, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], pmi/PmiMeasurementUnitMilliWatt
+ms.keywords: PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], pmi/PmiMeasurementUnitMilliWatt, powermeter.pmi_measurement_unit, PMI_MEASUREMENT_UNIT, pmi/PMI_MEASUREMENT_UNIT, PmiMeasurementUnitMax, PmiMeasurementUnitMilliWatt, pmi/PmiMeasurementUnitMax, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum  {
 
 
 
-#### - PmiMeasurementUnitMilliWatt
+### -field PmiMeasurementUnitMilliWatt
 
 The PMI measurement data is in units of milliwatts (mW).
 
 
-#### - PmiMeasurementUnitMax
+### -field PmiMeasurementUnitMax
 
 The maximum types of PMI measurement units.
 

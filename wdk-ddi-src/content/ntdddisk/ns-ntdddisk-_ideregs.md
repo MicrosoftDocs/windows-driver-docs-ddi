@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ideregs, LPIDEREGS, ntdddisk/LPIDEREGS, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, ntdddisk/PIDEREGS, LPIDEREGS structure pointer [Storage Devices], *LPIDEREGS, *PIDEREGS, IDEREGS, PIDEREGS, ntdddisk/IDEREGS, PIDEREGS structure pointer [Storage Devices], IDEREGS structure [Storage Devices], _IDEREGS
+ms.keywords: storage.ideregs, IDEREGS, *LPIDEREGS, PIDEREGS, *PIDEREGS, IDEREGS structure [Storage Devices], LPIDEREGS, _IDEREGS, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, ntdddisk/IDEREGS, PIDEREGS structure pointer [Storage Devices], ntdddisk/PIDEREGS, LPIDEREGS structure pointer [Storage Devices], ntdddisk/LPIDEREGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _IDEREGS {
 
 
 
-#### - bFeaturesReg
+### -field bFeaturesReg
 
 Holds the contents of the Features register. This register is used to specify Self-Monitoring Analysis and Reporting Technology (SMART) commands. This member can hold any of the following values:
 <table>
@@ -195,46 +195,46 @@ Enables offline mode when set to 1. Disables offline mode when 0.
 </table> 
 
 
-#### - bSectorCountReg
+### -field bSectorCountReg
 
 Holds the contents of the sector count register. IDE sector count register.  
 
 
-#### - bSectorNumberReg
+### -field bSectorNumberReg
 
 Holds the contents of the sector number register. 
 
 
-#### - bCylLowReg
+### -field bCylLowReg
 
 Holds the contents of the IDE low-order cylinder register. 
 
 
-#### - bCylHighReg
+### -field bCylHighReg
 
 Holds the contents of the IDE high-order cylinder register. 
 
 
-#### - bDriveHeadReg
+### -field bDriveHeadReg
 
 Holds the contents of the IDE drive/head register. 
 
 
-#### - bCommandReg
+### -field bCommandReg
 
 Holds the contents of the IDE command register.
 
 
-#### - bReserved
+### -field bReserved
 
 Reserved for future use. Should always be zero. 
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
-
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a17a6dfa-c067-4a85-8787-ffb4fb6cb7ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_getfcppersistentbinding, hbaapi/HBA_GetFcpPersistentBinding, HBA_GetFcpPersistentBinding, HBA_GetFcpPersistentBinding routine [Storage Devices], fibreHBA_rtns_9ab54a28-f020-426e-9ea6-2aba3666884b.xml
+ms.keywords: HBA_GetFcpPersistentBinding, hbaapi/HBA_GetFcpPersistentBinding, fibreHBA_rtns_9ab54a28-f020-426e-9ea6-2aba3666884b.xml, storage.hba_getfcppersistentbinding, HBA_GetFcpPersistentBinding routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ HBA_STATUS HBA_API HBA_GetFcpPersistentBinding(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA to query for the bindings. The HBA returns bindings for the targets that it can enumerate. 
 
 
-#### - Binding [in, out]
+### -param Binding [in, out]
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbinding.md">HBA_FCPBinding</a> that holds an array of elements of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>, each of which holds a persistent binding between operating system and fibre channel protocol (FCP) identifiers for a logical unit. On input, the <b>NumberOfEntries</b> member of HBA_FCPBinding should contain the number of bindings that fit in the output buffer. On output, <b>NumberOfEntries</b> holds the number of entries actually returned, which is equal to the number specified on input, or the full set of available bindings, whichever is smaller. The value in <b>NumberOfEntries</b> will contain the number of persistent bindings returned even when an error occurred because of insufficient buffer space. 
 
@@ -144,11 +144,11 @@ The <b>HBA_GetFcpPersistentBinding</b> routine retrieves a set of bindings betwe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcpbinding.md">HBA_FCPBinding</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

@@ -76,14 +76,14 @@ VOID MiniportSendNetBufferLists(
 
 
 
-#### - MiniportAdapterContext [in]
+### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information about an adapter.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to the first 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure in a linked list
@@ -92,7 +92,7 @@ A pointer to the first
      in the list maps to a chain of MDLs. The MDLs contain the network data.
 
 
-#### - PortNumber [in]
+### -param PortNumber [in]
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
@@ -100,19 +100,13 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      value identifies the default port of a miniport adapter.
 
 
-#### - SendFlags [in]
+### -param SendFlags [in]
 
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
      
 
 
-
-
-#### NDIS_SEND_FLAGS_DISPATCH_LEVEL
-
-Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
-       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
 
 
 #### NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK
@@ -123,6 +117,12 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
        matches the receive criteria for the binding. NDIS indicates NET_BUFFER structures that match the
        criteria to the overlying driver. This flag has no affect on checking for loopback, or looping back,
        on other bindings.
+
+
+#### NDIS_SEND_FLAGS_DISPATCH_LEVEL
+
+Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
+       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
 
 
 ## -returns
@@ -182,8 +182,8 @@ Miniport drivers accept all send requests that NDIS makes by calling the
     protocol-allocated resources associated with the NET_BUFFER_LIST structures.
 
 The miniport driver must call the 
-    <mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-    NdisMSendNetBufferListsComplete</b></mshelp:link> function to complete the send requests for all NET_BUFFER_LIST
+    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+    NdisMSendNetBufferListsComplete</a> function to complete the send requests for all NET_BUFFER_LIST
     structures. To improve system performance, the driver can create a linked list that contains the
     NET_BUFFER_LIST structures from multiple send requests. The driver can then pass such a linked list in a
     single call to 
@@ -248,20 +248,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
 
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
 <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
 
  
 

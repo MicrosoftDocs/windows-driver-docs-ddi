@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e79b4294-5ba4-4fcc-97e2-69613b65f574
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportsetdevicequeuedepth, storport/StorPortSetDeviceQueueDepth, StorPortSetDeviceQueueDepth routine [Storage Devices], StorPortSetDeviceQueueDepth, storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml
+ms.keywords: StorPortSetDeviceQueueDepth routine [Storage Devices], storage.storportsetdevicequeuedepth, storport/StorPortSetDeviceQueueDepth, storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml, StorPortSetDeviceQueueDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ STORPORT_API BOOLEAN StorPortSetDeviceQueueDepth(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the miniport driver's per-HBA storage area. 
 
 
-#### - PathId [in]
+### -param PathId [in]
 
 Contains the path ID of the target device. 
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 Contains the device number of the target device. 
 
 
-#### - Lun [in]
+### -param Lun [in]
 
 Contains the logical unit number of the target device. 
 
 
-#### - Depth [in]
+### -param Depth [in]
 
 Supplies the depth to which the queue is to be set. This value is always &gt; 0.
 

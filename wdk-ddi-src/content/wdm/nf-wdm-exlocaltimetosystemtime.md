@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef4fcb57-2960-4cd3-9abc-f8c5bc46e1a3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExLocalTimeToSystemTime, k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, ExLocalTimeToSystemTime, kernel.exlocaltimetosystemtime, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture]
+ms.keywords: k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture], kernel.exlocaltimetosystemtime, wdm/ExLocalTimeToSystemTime, ExLocalTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID ExLocalTimeToSystemTime(
 
 
 
-#### - LocalTime [in]
+### -param LocalTime [in]
 
 A pointer to a variable set to the locale-specific time.
 
 
-#### - SystemTime [out]
+### -param SystemTime [out]
 
 A pointer to the returned value for GMT system time.
 

@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: c4410845-3c7b-445e-80ec-25694b122a0e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, biometric.winbio_set_indicator, winbio_ioctl/WINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], winbio_ioctl/PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR, _WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices]
+ms.keywords: biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices], winbio_ioctl/WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR, _WINBIO_SET_INDICATOR, biometric.winbio_set_indicator, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], winbio_ioctl/PWINBIO_SET_INDICATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _WINBIO_SET_INDICATOR {
 
 
 
-#### - PayloadSize
+### -field PayloadSize
 
 Specifies the total size of the payload, which includes the fixed length structure and any variable data at the end.
 
 
-#### - IndicatorStatus
+### -field IndicatorStatus
 
 Specifies a WINBIO_INDICATOR_STATUS that indicates whether the indicator light should be set on or off.
 
@@ -115,9 +115,9 @@ The sensor indicator light is off.  Sensors that do not have an indicator light 
 
 ## -see-also
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_get_indicator.md">WINBIO_GET_INDICATOR</a>
-
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_set_indicator.md">IOCTL_BIOMETRIC_SET_INDICATOR</a>
+
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_get_indicator.md">WINBIO_GET_INDICATOR</a>
 
  
 

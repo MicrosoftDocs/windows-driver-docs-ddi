@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f61e8c1b-5cc5-4d61-a4e2-39ca402cd710
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_FILTER_RESTART_PARAMETERS, PNDIS_FILTER_RESTART_PARAMETERS, _NDIS_FILTER_RESTART_PARAMETERS, netvista.ndis_filter_restart_parameters, filter_structures_ref_35344063-f39b-4a73-8069-4a47a61d9f2a.xml, PNDIS_FILTER_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_FILTER_RESTART_PARAMETERS, NDIS_FILTER_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_FILTER_RESTART_PARAMETERS, NDIS_FILTER_RESTART_PARAMETERS
+ms.keywords: netvista.ndis_filter_restart_parameters, PNDIS_FILTER_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_FILTER_RESTART_PARAMETERS, ndis/NDIS_FILTER_RESTART_PARAMETERS, ndis/PNDIS_FILTER_RESTART_PARAMETERS, filter_structures_ref_35344063-f39b-4a73-8069-4a47a61d9f2a.xml, _NDIS_FILTER_RESTART_PARAMETERS, NDIS_FILTER_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_RESTART_PARAMETERS, *PNDIS_FILTER_RESTART_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _NDIS_FILTER_RESTART_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure
@@ -85,7 +85,7 @@ The
      NDIS_SIZEOF__FILTER_RESTART_PARAMETERS_REVISION_1.
 
 
-#### - MiniportMediaType
+### -field MiniportMediaType
 
 The 
      NdisMedium
@@ -93,20 +93,20 @@ The
      <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>.
 
 
-#### - MiniportPhysicalMediaType
+### -field MiniportPhysicalMediaType
 
 The physical medium type for the base underlying miniport adapter. For more information, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>.
 
 
-#### - RestartAttributes
+### -field RestartAttributes
 
 
       A pointer to an NDIS_RESTART_ATTRIBUTES structure.
      
 
 
-#### - LowerIfIndex
+### -field LowerIfIndex
 
 The NDIS network interface index of the interface just below the current filter module. That is,
      if there are filter modules or NDIS 5.<i>x</i> filter intermediate drivers that are installed over a physical miniport adapter or the
@@ -118,7 +118,7 @@ The NDIS network interface index of the interface just below the current filter 
      miniport.
 
 
-#### - LowerIfNetLuid
+### -field LowerIfNetLuid
 
 The NDIS network interface 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value of the interface just below the
@@ -131,7 +131,7 @@ The NDIS network interface
      driver virtual miniport.
 
 
-#### - Flags
+### -field Flags
 
 Reserved for future use.
 
@@ -153,13 +153,13 @@ Filter drivers can modify the restart attributes that are specified by underlyin
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
 
 <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
  
 

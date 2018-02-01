@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aaf3d22d-da54-4478-9bf8-aad4b943788a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioresourcelistcreate, wdfresource/WdfIoResourceListCreate, PFN_WDFIORESOURCELISTCREATE, WdfIoResourceListCreate, WdfIoResourceListCreate method, DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, kmdf.wdfioresourcelistcreate
+ms.keywords: wdf.wdfioresourcelistcreate, WdfIoResourceListCreate, wdfresource/WdfIoResourceListCreate, kmdf.wdfioresourcelistcreate, DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, PFN_WDFIORESOURCELISTCREATE, WdfIoResourceListCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ NTSTATUS WdfIoResourceListCreate(
 
 
 
-#### - RequirementsList [in]
+### -param RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - ResourceList [out]
+### -param ResourceList [out]
 
 A handle to a framework resource-range-list object that represents the new logical configuration.
 

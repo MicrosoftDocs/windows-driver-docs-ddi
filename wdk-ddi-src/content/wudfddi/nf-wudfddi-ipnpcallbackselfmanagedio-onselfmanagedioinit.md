@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 41b12fef-dbc7-4b91-a2d3-9fb1aafff237
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoInit method, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, OnSelfManagedIoInit method, OnSelfManagedIoInit, OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_17a86796-71ff-4ca3-897b-da7780614f24.xml, wdf.ipnpcallbackselfmanagedio_onselfmanagedioinit
+ms.keywords: wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, OnSelfManagedIoInit method, OnSelfManagedIoInit, wdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, UMDFDeviceObjectRef_17a86796-71ff-4ca3-897b-da7780614f24.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo::OnSelfManagedIoInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT OnSelfManagedIoInit(
 
 
 
-#### - pWdfDevice [in]
+### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device for which the self-managed I/O operations are initialized.
 

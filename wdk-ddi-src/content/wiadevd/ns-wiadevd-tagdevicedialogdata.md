@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPDEVICEDIALOGDATA structure pointer [Imaging Devices], wiadevd/DEVICEDIALOGDATA, LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], wiadevd/LPDEVICEDIALOGDATA, UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, DEVICEDIALOGDATA structure [Imaging Devices], *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, PDEVICEDIALOGDATA, DEVICEDIALOGDATA, image.devicedialogdata
+ms.keywords: PDEVICEDIALOGDATA structure pointer [Imaging Devices], wiadevd/LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, DEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], image.devicedialogdata, *LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], *PDEVICEDIALOGDATA, LPDEVICEDIALOGDATA, UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, wiadevd/PDEVICEDIALOGDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct tagDEVICEDIALOGDATA {
 
 
 
-#### - cbSize
+### -field cbSize
 
 Specifies the size of this structure in bytes.
 
 
-#### - hwndParent
+### -field hwndParent
 
 Specifies the handle to the parent window of the dialog.
 
 
-#### - pIWiaItemRoot
+### -field pIWiaItemRoot
 
 Points to an <b>IWiaItem</b> interface that represents the valid root item in the application item tree. For more information about this interface, see the Windows SDK documentation.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Specifies the flags passed to <b>IWiaItem::DeviceDlg</b> and <b>IWiaDevMgr::GetImageDlg</b> by the calling program. These methods are described in the Windows SDK documentation. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in <i>Wiadef.h</i>).
 
 
-#### - lIntent
+### -field lIntent
 
 Specifies the intents passed to <b>IWiaItem::DeviceDlg</b> and <b>IWiaDevMgr::GetImageDlg</b> by the calling program (see the Windows SDK documentation).
 
 
-#### - lItemCount
+### -field lItemCount
 
 Specifies the number of items in the array to which <b>ppIWiaItems</b> points.
 
 
-#### - ppWiaItems
+### -field ppWiaItems
 
 Array of IWiaItem interface pointers. Array must
 

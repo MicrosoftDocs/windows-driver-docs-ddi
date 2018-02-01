@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
+ms.keywords: print.updateprintdeviceobject, UpdatePrintDeviceObject function [Print Devices], UpdatePrintDeviceObject, winsplp/UpdatePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ HRESULT WINAPI UpdatePrintDeviceObject(
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 The HANDLE to an open printer. This should be a handle that was returned by the <b>AddPrinter</b> or <b>OpenPrinter</b> spooler functions.
 
 
-#### - hDeviceObject [in]
+### -param hDeviceObject [in]
 
 The HANDLE to the device object to be updated. This should be a device object that was created with <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>.
 

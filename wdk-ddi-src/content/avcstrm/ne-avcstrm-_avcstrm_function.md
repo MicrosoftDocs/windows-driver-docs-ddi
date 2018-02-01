@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0dacc4b0-003f-4c73-8705-1c1e86ce357c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcstrm/AVCSTRM_ABORT_STREAMING, AVCSTRM_WRITE, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, AVCSTRM_OPEN, avcstrm/AVCSTRM_FUNCTION, avcstrm/AVCSTRM_OPEN, stream.avcstrm_function, AVCSTRM_FUNCTION, AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_SET_PROPERTY, AVCSTRM_GET_STATE, avcstrm/AVCSTRM_READ, AVCSTRM_READ, _AVCSTRM_FUNCTION, avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_CLOSE, avcstrm/AVCSTRM_WRITE, AVCSTRM_CLOSE, AVCSTRM_SET_STATE, AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_SET_STATE, AVCSTRM_ABORT_STREAMING
+ms.keywords: AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_OPEN, AVCSTRM_FUNCTION, stream.avcstrm_function, avcstrm/AVCSTRM_CLOSE, AVCSTRM_WRITE, AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_READ, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_SET_STATE, _AVCSTRM_FUNCTION, avcstrm/AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_GET_PROPERTY, AVCSTRM_CLOSE, AVCSTRM_SET_STATE, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], avcstrm/AVCSTRM_FUNCTION, avcstrm/AVCSTRM_WRITE, AVCSTRM_OPEN, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, AVCSTRM_READ, AVCSTRM_GET_STATE, AVCSTRM_GET_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,70 +75,70 @@ typedef enum _AVCSTRM_FUNCTION {
 
 
 
-#### - AVCSTRM_READ
+### -field AVCSTRM_READ
 
 Read data from a stream.
 
 
-#### - AVCSTRM_WRITE
+### -field AVCSTRM_WRITE
 
 Write data to a stream.
 
 
-#### - AVCSTRM_ABORT_STREAMING
+### -field AVCSTRM_ABORT_STREAMING
 
 Abort streaming. This cancels <i>all</i> streaming IRPs. To cancel an individual IRP, use <a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a>.
 
 
-#### - AVCSTRM_OPEN
+### -field AVCSTRM_OPEN
 
 Open a stream in a specific format.
 
 
-#### - AVCSTRM_CLOSE
+### -field AVCSTRM_CLOSE
 
 Close a stream and free any resources allocated for the stream.
 
 
-#### - AVCSTRM_GET_STATE
+### -field AVCSTRM_GET_STATE
 
 Obtain the stream state.
 
 
-#### - AVCSTRM_SET_STATE
+### -field AVCSTRM_SET_STATE
 
 Place the  stream into a new state.
 
 
-#### - AVCSTRM_GET_PROPERTY
+### -field AVCSTRM_GET_PROPERTY
 
 Get stream property. This function is not implemented.
 
 
-#### - AVCSTRM_SET_PROPERTY
+### -field AVCSTRM_SET_PROPERTY
 
 Set stream property. This function is not implemented.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
 
  
 

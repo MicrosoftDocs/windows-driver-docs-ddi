@@ -75,17 +75,17 @@ NTSTATUS EvtWmiInstanceSetInstance(
 
 
 
-#### - WmiInstance [in]
+### -param WmiInstance [in]
 
 A handle to a WMI instance object.
 
 
-#### - InBufferSize [in]
+### -param InBufferSize [in]
 
 The size, in bytes, of the input buffer that <i>InBuffer</i> points to.
 
 
-#### - InBuffer [in]
+### -param InBuffer [in]
 
 A pointer to the input buffer.
 
@@ -114,13 +114,13 @@ For more information about the <i>EvtWmiInstanceSetInstance</i> callback functio
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e4b86cf-308f-4d9b-be28-966312dc4e43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/IKsControl::KsEvent, IKsControl, KsEvent, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, KsEvent method [Streaming Media Devices], IKsControl interface, KsEvent method [Streaming Media Devices], stream.ikscontrol_ksevent2, IKsControl::KsEvent, IKsControl interface [Streaming Media Devices], KsEvent method
+ms.keywords: IKsControl interface [Streaming Media Devices], KsEvent method, ks/IKsControl::KsEvent, stream.ikscontrol_ksevent2, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, IKsControl::KsEvent, KsEvent method [Streaming Media Devices], IKsControl, KsEvent, KsEvent method [Streaming Media Devices], IKsControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ NTSTATUS KsEvent(
 
 
 
-#### - Event
+### -param Event
 
 Pointer to a <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
 
 
-#### - EventLength
+### -param EventLength
 
 Specifies size, in bytes, of the buffer at <i>Event</i> when the event is enabled and zero when the event is disabled. 
 
 
-#### - EventData
+### -param EventData
 
 Pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event. 
 
 
-#### - DataLength
+### -param DataLength
 
 Specifies size, in bytes, of the buffer at <i>EventData</i>. 
 
 
-#### - BytesReturned
+### -param BytesReturned
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsEvent</b> stores in the buffer at <i>EventData</i>. 
 
@@ -112,9 +112,9 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
-
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
  
 

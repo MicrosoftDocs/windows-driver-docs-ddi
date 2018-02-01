@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter, VerifyUserKeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, audio.ikeyworddetectoroemadapter_verifyuserkeyword, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
+ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter::VerifyUserKeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_verifyuserkeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT VerifyUserKeyword(
 
 
 
-#### - ModelData [in]
+### -param ModelData [in]
 
 A pointer to an <b>IStream</b> object bound to model data for a given stored model. On the initial call this will be empty.
 
 
-#### - KeywordId [in]
+### -param KeywordId [in]
 
 The <a href="..\keyworddetectoroemadapter\ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002.md">KEYWORDID</a> in the  <i>UserRecording</i> parameter.
 
 
-#### - LangId [in]
+### -param LangId [in]
 
 The <b>LANGID</b> of the spoken language in the <i>UserRecording</i> parameter. 
 
 
-#### - KeywordEndBytePos [in]
+### -param KeywordEndBytePos [in]
 
 Indicates the end of the keyword in the UserRecording.
 
 
-#### - UserRecording [in]
+### -param UserRecording [in]
 
 A pointer to the buffer containing the raw data in the appropriate <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> format.
 
@@ -205,9 +205,9 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 <a href="..\keyworddetectoroemadapter\ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002.md">KEYWORDID</a>
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-
 <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
  
 

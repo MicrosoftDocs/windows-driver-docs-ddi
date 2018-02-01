@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 31118f7f-fcc4-45f9-a248-a1d6f929f3a2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ReadIoSpace, debugger.readiospace, WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml, ReadIoSpace, ReadIoSpace function [Windows Debugging]
+ms.keywords: WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml, wdbgexts/ReadIoSpace, ReadIoSpace, ReadIoSpace function [Windows Debugging], debugger.readiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ __inline VOID ReadIoSpace(
 
 
 
-#### - address
+### -param address
 
 Specifies the I/O address to read from.
 
 
-#### - data
+### -param data
 
 Specifies the address of a variable to hold the data read. This must be at least the number of bytes contained in <i>size</i>.
 
 
-#### - size
+### -param size
 
 Specifies the address of a variable that contains the number of bytes to read (1, 2, or 4 only). After the data is read, <i>size</i> will contain the number of bytes actually read.
 

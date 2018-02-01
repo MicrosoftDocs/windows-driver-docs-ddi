@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2f46b268-2d8c-455a-81e3-a79f48e704c7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_MDL, DFMemoryObjectRef_f5eb00be-fd17-49bf-87dd-4fde1b06d65e.xml, kmdf.wdf_memory_descriptor_init_mdl, wdf.wdf_memory_descriptor_init_mdl, WDF_MEMORY_DESCRIPTOR_INIT_MDL function, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_MDL
+ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_MDL function, WDF_MEMORY_DESCRIPTOR_INIT_MDL, wdf.wdf_memory_descriptor_init_mdl, DFMemoryObjectRef_f5eb00be-fd17-49bf-87dd-4fde1b06d65e.xml, kmdf.wdf_memory_descriptor_init_mdl, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_MDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VOID WDF_MEMORY_DESCRIPTOR_INIT_MDL(
 
 
 
-#### - Descriptor [out]
+### -param Descriptor [out]
 
 A pointer to a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure.
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 A pointer to an MDL that describes a buffer.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 The size, in bytes, of the buffer that <i>Mdl</i> specifies.
 
@@ -103,6 +103,10 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function zeros the specified <a href="
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+
+<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
+
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
@@ -110,10 +114,6 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function zeros the specified <a href="
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>
 
 <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
-
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
-
-<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
 
  
 

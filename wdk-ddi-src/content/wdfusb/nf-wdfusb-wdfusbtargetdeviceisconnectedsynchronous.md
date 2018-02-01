@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1e598f83-01ad-4c3e-8044-a66041f6ad96
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEISCONNECTEDSYNCHRONOUS, WdfUsbTargetDeviceIsConnectedSynchronous method, DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, wdf.wdfusbtargetdeviceisconnectedsynchronous, WdfUsbTargetDeviceIsConnectedSynchronous, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous, kmdf.wdfusbtargetdeviceisconnectedsynchronous
+ms.keywords: WdfUsbTargetDeviceIsConnectedSynchronous method, WdfUsbTargetDeviceIsConnectedSynchronous, DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous, kmdf.wdfusbtargetdeviceisconnectedsynchronous, wdf.wdfusbtargetdeviceisconnectedsynchronous, PFN_WDFUSBTARGETDEVICEISCONNECTEDSYNCHRONOUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS WdfUsbTargetDeviceIsConnectedSynchronous(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 

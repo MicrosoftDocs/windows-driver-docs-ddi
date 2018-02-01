@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c3cdb5c9-b43d-443b-8d04-d30eb74f39da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgTrace, image.wiaudbgtrace, wiauDbgTrace function [Imaging Devices], wiautil/wiauDbgTrace, wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml
+ms.keywords: wiauDbgTrace function [Imaging Devices], wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiauDbgTrace, wiautil/wiauDbgTrace, image.wiaudbgtrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ inline void __stdcall wiauDbgTrace(
 
 
 
-#### - fname
+### -param fname
 
 Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgTrace</b> is inserted.
 
@@ -99,9 +99,9 @@ None
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
-
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 

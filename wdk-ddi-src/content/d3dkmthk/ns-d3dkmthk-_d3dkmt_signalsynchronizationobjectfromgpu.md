@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09190DCC-5F88-4C49-89B3-9063707E3F15
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_signalsynchronizationobjectfromgpu, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+ms.keywords: display.d3dkmt_signalsynchronizationobjectfromgpu, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,28 +73,28 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
 
 
 
-#### - MonitoredFenceValueArray
+### -field MonitoredFenceValueArray
 
 [in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 
 
 
-#### - hContext
+### -field hContext
 
 [in] A kernel-mode handle to the context stream.
 
 
-#### - ObjectCount
+### -field ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array and fence values in <b>MonitoredFenceValueArray</b> arrays.
 
 
-#### - ObjectHandleArray
+### -field ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 

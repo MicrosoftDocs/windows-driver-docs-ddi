@@ -73,12 +73,12 @@ typedef PBUS_RESET_ROUTINE BusResetRoutine;
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to the context supplied by the caller at the <b>Context</b> member of the input BUS_RESET_NOTIFY structure. 
 
 
-#### - BusResetInfo [in]
+### -param BusResetInfo [in]
 
 The bus reset information. 
 

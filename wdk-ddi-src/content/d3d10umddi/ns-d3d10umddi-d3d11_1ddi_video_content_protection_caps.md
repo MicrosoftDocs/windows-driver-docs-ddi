@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31ff5dfc-72b1-4ce1-af83-cad3816a785c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, display.d3d11_1ddi_video_content_protection_caps
+ms.keywords: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, d3d10umddi/D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, display.d3d11_1ddi_video_content_protection_caps, D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS {
 
 
 
-#### - Caps
+### -field Caps
 
 A bitwise <b>OR</b> of zero or more flags from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_content_protection_caps.md">D3D11_1DDI_CONTENT_PROTECTION_CAPS</a> enumeration.
 
 
-#### - KeyExchangeTypeCount
+### -field KeyExchangeTypeCount
 
 The number of cryptographic key-exchange types that are supported by the driver. To get the list of key-exchange types, call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcryptokeyexchangetype.md">GetCryptoKeyExchangeType</a> function.
 
 
-#### - BlockAlignmentSize
+### -field BlockAlignmentSize
 
 The encyrption block size, in bytes. The size of data to be encrypted must be a multiple of this value.
 
 
-#### - ProtectedMemorySize
+### -field ProtectedMemorySize
 
 The total amount of memory, in bytes, that can be used to hold protected surfaces.
 

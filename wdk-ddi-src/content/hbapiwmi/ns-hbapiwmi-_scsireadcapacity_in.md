@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d5aa608-9ee7-45a6-bd2f-13a5b8338437
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PScsiReadCapacity_IN structure pointer [Storage Devices], hbapiwmi/PScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], hbapiwmi/ScsiReadCapacity_IN, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml, ScsiReadCapacity_IN, *PScsiReadCapacity_IN, storage.scsireadcapacity_in2, PScsiReadCapacity_IN, _ScsiReadCapacity_IN
+ms.keywords: ScsiReadCapacity_IN structure [Storage Devices], ScsiReadCapacity_IN, _ScsiReadCapacity_IN, storage.scsireadcapacity_in2, hbapiwmi/ScsiReadCapacity_IN, hbapiwmi/PScsiReadCapacity_IN, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml, *PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], PScsiReadCapacity_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _ScsiReadCapacity_IN {
 
 
 
-#### - Cdb
+### -field Cdb
 
 Contains the command descriptor block that holds the SCSI read capacity command to be sent to the target device. 
 
 
-#### - HbaPortWWN
+### -field HbaPortWWN
 
 Contains a worldwise name for the HBA through which the target is accessed. 
 
 
-#### - DiscoveredPortWWN
+### -field DiscoveredPortWWN
 
 Contains a worldwide name for the port through which the target device is accessed. 
 
 
-#### - FcLun
+### -field FcLun
 
 Indicates the logical unit number of the logical unit that will receive the SCSI read capacity command.
 

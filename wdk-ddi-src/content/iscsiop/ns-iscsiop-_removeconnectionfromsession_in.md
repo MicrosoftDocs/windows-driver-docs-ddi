@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd5fd1f2-7040-40ee-bf9c-42e77c9738da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemoveConnectionFromSession_IN structure [Storage Devices], *PRemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN, iscsiop/RemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], storage.removeconnectionfromsession_in, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml, _RemoveConnectionFromSession_IN, iscsiop/PRemoveConnectionFromSession_IN
+ms.keywords: RemoveConnectionFromSession_IN, iscsiop/RemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN structure [Storage Devices], PRemoveConnectionFromSession_IN structure pointer [Storage Devices], _RemoveConnectionFromSession_IN, iscsiop/PRemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, PRemoveConnectionFromSession_IN, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _RemoveConnectionFromSession_IN {
 
 
 
-#### - UniqueSessionId
+### -field UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in their <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 
-#### - UniqueConnectionId
+### -field UniqueConnectionId
 
 A 64-bit integer that uniquely identifies the connection. Do not confuse this value with the connection ID (CID).
 
@@ -87,9 +87,9 @@ You must implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 

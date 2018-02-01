@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortBusChangeDetected, AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], storage.ataportbuschangedetected
+ms.keywords: AtaPortBusChangeDetected routine [Storage Devices], AtaPortBusChangeDetected, storage.ataportbuschangedetected, irb/AtaPortBusChangeDetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID AtaPortBusChangeDetected(
 
 
 
-#### - ChannelExtension
+### -param ChannelExtension
 
 A pointer to the channel extension. 
 

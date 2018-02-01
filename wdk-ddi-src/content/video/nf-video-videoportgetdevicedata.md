@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95df7ed6-ac9e-4620-bc3c-54e45a123fdc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportgetdevicedata, VideoPortGetDeviceData, VideoPort_Functions_01e88665-7ecb-470e-b25b-21a3c62f7485.xml, video/VideoPortGetDeviceData, VideoPortGetDeviceData function [Display Devices]
+ms.keywords: VideoPortGetDeviceData, display.videoportgetdevicedata, VideoPort_Functions_01e88665-7ecb-470e-b25b-21a3c62f7485.xml, video/VideoPortGetDeviceData, VideoPortGetDeviceData function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,24 +71,24 @@ VP_STATUS VideoPortGetDeviceData(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-#### - DeviceDataType
+### -param DeviceDataType
 
 Specifies the type of data being requested as a VIDEO_DEVICE_DATA_TYPE value, typically one of <b>VpBusData</b>, <b>VpControllerData</b>, or <b>VpMonitorData.</b>
 
 The <b>VpControllerData</b> and <b>VpMonitorData</b> values are relevant only on ARC-compliant platforms. Miniport drivers of x86-type video adapters generally specify <b>VpBusData</b>, particularly for adapters on EISA buses. The <b>VpMachineData</b> value is reserved for future use.
 
 
-#### - CallbackRoutine
+### -param CallbackRoutine
 
 Pointer to a driver-supplied <a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a> function to be called with the requested information.
 
 
-#### - Context
+### -param Context
 
 Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>. It typically points to the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> buffer.
 
@@ -111,13 +111,13 @@ The registry tree from which <b>VideoPortGetDeviceData</b> retrieves configurati
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
  
 

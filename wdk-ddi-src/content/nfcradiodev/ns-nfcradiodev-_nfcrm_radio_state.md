@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 414486ED-464D-4CAF-95C2-9AC59D608816
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: "_NFCRM_RADIO_STATE, NFCRM_RADIO_STATE structure [Near-Field Proximity Drivers], nfpdrivers._nfcrm_radio_state_, nfcradiodev/PNFCRM_RADIO_STATE, PNFCRM_RADIO_STATE, nfcradiodev/NFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE, PNFCRM_RADIO_STATE structure pointer [Near-Field Proximity Drivers], NFCRM_RADIO_STATE"
+ms.keywords: NFCRM_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/PNFCRM_RADIO_STATE, PNFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE, nfpdrivers._nfcrm_radio_state_, NFCRM_RADIO_STATE, PNFCRM_RADIO_STATE structure pointer [Near-Field Proximity Drivers], _NFCRM_RADIO_STATE, nfcradiodev/NFCRM_RADIO_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _NFCRM_RADIO_STATE  {
 
 
 
-#### - MediaRadioOn
+### -field MediaRadioOn
 
 This is a boolean flag that indicates whether the media radio is on.
 

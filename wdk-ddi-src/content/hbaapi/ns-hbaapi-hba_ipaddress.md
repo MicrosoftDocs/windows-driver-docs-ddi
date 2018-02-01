@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c3f79350-29e8-4e31-a31d-359c9781777d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ipaddress, PHBA_IPADDRESS, HBA_IPADDRESS, PHBA_IPADDRESS structure pointer [Storage Devices], storage.hba_ipaddress, HBA_IPADDRESS structure [Storage Devices], hbaapi/PHBA_IPADDRESS, structs-Fibre_8ac1972d-ec33-4642-8dfe-3d913913ca66.xml, HBA_ipaddress structure [Storage Devices], hbaapi/HBA_ipaddress, *PHBA_IPADDRESS
+ms.keywords: storage.hba_ipaddress, *PHBA_IPADDRESS, PHBA_IPADDRESS structure pointer [Storage Devices], structs-Fibre_8ac1972d-ec33-4642-8dfe-3d913913ca66.xml, hbaapi/HBA_ipaddress, HBA_IPADDRESS structure [Storage Devices], HBA_ipaddress structure [Storage Devices], PHBA_IPADDRESS, HBA_IPADDRESS, HBA_ipaddress, hbaapi/PHBA_IPADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,8 @@ typedef struct HBA_ipaddress {
 
 
 
-#### - ipaddress
+### -field ipaddress
 
-
-
-#### ipv4address
-
-Contains a dotted decimal IP4 address if version 4 of the IP protocol is in use. 
-
-
-#### ipv6address
-
-Contains a dotted decimal IP6 address if version 6 of the IP protocol is in use. 
 
 
 ### -field ipaddress.ipv4address
@@ -95,7 +85,7 @@ Contains a dotted decimal IP4 address if version 4 of the IP protocol is in use.
 Contains a dotted decimal IP6 address if version 6 of the IP protocol is in use. 
 
 
-#### - ipversion
+### -field ipversion
 
 Indicates the version of the IP protocol in use. 
 

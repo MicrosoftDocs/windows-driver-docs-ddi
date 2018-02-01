@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0e97474-4119-4359-a9f9-644c82df7fab
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _POWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/SystemPowerState, wdm/PPOWER_STATE_TYPE, kernel.power_state_type, POWER_STATE_TYPE, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, SystemPowerState, *PPOWER_STATE_TYPE, PPOWER_STATE_TYPE, wdm/DevicePowerState, DevicePowerState, wdm/POWER_STATE_TYPE
+ms.keywords: DevicePowerState, PPOWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/SystemPowerState, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, *PPOWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], _POWER_STATE_TYPE, wdm/DevicePowerState, wdm/POWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], POWER_STATE_TYPE, SystemPowerState, kernel.power_state_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _POWER_STATE_TYPE {
 
 
 
-#### - SystemPowerState
+### -field SystemPowerState
 
 Indicates a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> value.
 
 
-#### - DevicePowerState
+### -field DevicePowerState
 
 Indicates a <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> value.
 
@@ -88,13 +88,13 @@ The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value
 
 ## -see-also
 
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
-
 <a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
 
-<a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a>
-
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+
+<a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a>
 
  
 

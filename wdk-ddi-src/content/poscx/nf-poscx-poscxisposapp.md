@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxIsPosApp, PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp
+ms.keywords: PosCxIsPosApp function, poscx/PosCxIsPosApp, PosCxIsPosApp, pos.poscxisposapp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN PosCxIsPosApp(
 
 
 
-#### - device [in]
+### -param device [in]
 
 A handle to a framework device object that represents the device.
 
 
-#### - fileObject [in]
+### -param fileObject [in]
 
 A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>.
 

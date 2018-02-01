@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ba0f5820-08eb-40c7-9593-7434ee0e29c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_d2e14d20-1b34-49f5-a627-7b08ccc79ccf.xml, XcvOpenPort function [Print Devices], print.xcvopenport, XcvOpenPort, winsplp/XcvOpenPort
+ms.keywords: spoolfnc_d2e14d20-1b34-49f5-a627-7b08ccc79ccf.xml, XcvOpenPort, winsplp/XcvOpenPort, XcvOpenPort function [Print Devices], print.xcvopenport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ BOOL XcvOpenPort(
 
 
 
-#### - pszObject
+### -param pszObject
 
 Caller-supplied pointer to a string representing the name of the port. Can be <b>NULL</b>, and most monitors do not need this parameter.
 
 
-#### - GrantedAccess
+### -param GrantedAccess
 
 Caller-supplied ACCESS_MASK structure containing the access granted to the user during a print monitor UI DLL's call to the spooler's <b>OpenPrinter</b> function. See the following Remarks section.
 
 
-#### - phXcv
+### -param phXcv
 
 Caller-supplied pointer to a location to receive a function-supplied port handle.
 

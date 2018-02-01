@@ -76,26 +76,26 @@ ROUTER_NOTIFY_CALLBACK ROUTER_NOTIFY_CALLBACK;
 
 
 
-#### - dwCommand [in]
+### -param dwCommand [in]
 
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 
 
-#### - dwColor [in]
+### -param dwColor [in]
 
 
 
-#### - pNofityInfo [in]
+### -param pNofityInfo [in]
 
 
 
-#### - fdwFlags [in]
+### -param fdwFlags [in]
 
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 

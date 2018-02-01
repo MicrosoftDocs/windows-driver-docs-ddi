@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: c702d3aa-d586-4206-93be-30537c55edcf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TUPLE_REQUEST, ntddpcm/PTUPLE_REQUEST, TUPLE_REQUEST structure [Buses], *PTUPLE_REQUEST, ntddpcm/TUPLE_REQUEST, PCMCIA.tuple_request, PTUPLE_REQUEST structure pointer [Buses], _TUPLE_REQUEST, memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, PTUPLE_REQUEST
+ms.keywords: ntddpcm/TUPLE_REQUEST, _TUPLE_REQUEST, TUPLE_REQUEST, PCMCIA.tuple_request, PTUPLE_REQUEST structure pointer [Buses], memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, *PTUPLE_REQUEST, PTUPLE_REQUEST, ntddpcm/PTUPLE_REQUEST, TUPLE_REQUEST structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _TUPLE_REQUEST {
 
 
 
-#### - Socket
+### -field Socket
 
 Indicates the socket number. 
 

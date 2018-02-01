@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExSetTimer, kernel.exsettimer, ExSetTimer routine [Kernel-Mode Driver Architecture], wdm/ExSetTimer
+ms.keywords: ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer, ExSetTimer, wdm/ExSetTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,24 +72,24 @@ BOOLEAN ExSetTimer(
 
 
 
-#### - Timer [in]
+### -param Timer [in]
 
 A pointer to an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a> routine.
 
 
-#### - DueTime [in]
+### -param DueTime [in]
 
 The absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. An absolute time is expressed as the amount of time passed, in system time units, since the start of the year 1601.
 
 The <i>DueTime</i> parameter for a <a href="https://msdn.microsoft.com/B8F2B28C-A02B-4015-B392-3D30BC0229B8">high-resolution timer</a> must be a relative time (negative value), or the routine bug checks.
 
 
-#### - Period [in]
+### -param Period [in]
 
 An optional period for the timer in system time units (100-nanosecond intervals). Must be less than or equal to MAXLONG. For a timer that is one-shot instead of periodic, set <i>Period</i> to zero.
 
 
-#### - Parameters [in, optional]
+### -param Parameters [in, optional]
 
 A pointer to an <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a> structure. The calling driver previously called the <a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a> routine to initialize this structure.
 
@@ -128,19 +128,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
 
 <a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
+
 <a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
  
 

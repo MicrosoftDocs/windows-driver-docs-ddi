@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D058EF0A-014A-4A91-A8B5-6D4ACB1667E0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SPLCLIENT_INFO_2_LONGHORN structure [Print Devices], SPLCLIENT_INFO_2, _SPLCLIENT_INFO_2_V3, SPLCLIENT_INFO_2_LONGHORN, winsplp/SPLCLIENT_INFO_2_LONGHORN, print.splclient_info_2_longhorn, *PSPLCLIENT_INFO_2, *LPSPLCLIENT_INFO_2
+ms.keywords: print.splclient_info_2_longhorn, SPLCLIENT_INFO_2_LONGHORN, winsplp/SPLCLIENT_INFO_2_LONGHORN, *PSPLCLIENT_INFO_2, *LPSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_LONGHORN structure [Print Devices], _SPLCLIENT_INFO_2_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _SPLCLIENT_INFO_2_V3 {
 
 
 
-#### - hSplPrinter
+### -field hSplPrinter
 
 Specifies the server-side handle to be used for direct calls.
 

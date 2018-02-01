@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 22844EBB-9BE7-47C0-BE1F-075473430F11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4::SetScopeEx, SetScopeEx, IDebugSymbols4, SetScopeEx method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, dbgeng/IDebugSymbols4::SetScopeEx, debugger.idebugsymbols4_setscopeex, SetScopeEx method [Windows Debugging]
+ms.keywords: debugger.idebugsymbols4_setscopeex, SetScopeEx method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, SetScopeEx, dbgeng/IDebugSymbols4::SetScopeEx, IDebugSymbols4::SetScopeEx, SetScopeEx method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT SetScopeEx(
 
 
 
-#### - InstructionOffset [in]
+### -param InstructionOffset [in]
 
 The offset of the instruction for the scope. 
 
 
-#### - ScopeFrame [in, optional]
+### -param ScopeFrame [in, optional]
 
 The scope frame to set as a <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame_ex.md">DEBUG_STACK_FRAME_EX</a> structure. 
 
 
-#### - ScopeContext [in]
+### -param ScopeContext [in]
 
 A pointer to a scope context. 
 
 
-#### - ScopeContextSize [in]
+### -param ScopeContextSize [in]
 
 The size of the scope context.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIfRegisterProvider, NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], netvista.ndisifregisterprovider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml
+ms.keywords: netvista.ndisifregisterprovider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterProvider, NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,15 +71,15 @@ NDIS_STATUS NdisIfRegisterProvider(
 
 
 
-#### - ProviderCharacteristics [in]
+### -param ProviderCharacteristics [in]
 
 A pointer to a caller-provided 
-     <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-     NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure. This structure defines the characteristics of the
+     <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+     NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure. This structure defines the characteristics of the
      provider, including the entry points for its provider callback functions.
 
 
-#### - IfProviderContext [in]
+### -param IfProviderContext [in]
 
 A handle to a caller-provided context area for this network interface provider. Set this parameter
      to <b>NULL</b> if there is no context area.
@@ -137,8 +137,8 @@ The operation failed because of insufficient resources.
 </td>
 <td width="60%">
 <b>NdisIfRegisterProvider</b> failed to register the provider because the 
-       <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-       NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure at the 
+       <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+       NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
        <i>ProviderCharacteristics</i> parameter contained invalid member data.
 
 </td>
@@ -173,8 +173,8 @@ NDIS drivers call the
 
 To handle interface provider OID requests, interface providers provide entry points for callback
     functions in the 
-    <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-    NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure at the 
+    <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+    NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
     <i>ProviderCharacteristics</i> parameter of 
     <b>NdisIfRegisterProvider</b>.
 
@@ -198,14 +198,14 @@ A component that is no longer an interface provider can call the
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
-<mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-   NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+   NDIS_IF_PROVIDER_CHARACTERISTICS</a>
 
  
 

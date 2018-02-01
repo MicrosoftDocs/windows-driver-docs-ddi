@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9588ef16-baf7-4e2b-a624-864ae218c385
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetConnectedPinDeviceObject, avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], KsPinGetConnectedPinDeviceObject, stream.kspingetconnectedpindeviceobject
+ms.keywords: avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, stream.kspingetconnectedpindeviceobject, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], ks/KsPinGetConnectedPinDeviceObject, KsPinGetConnectedPinDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PDEVICE_OBJECT KsPinGetConnectedPinDeviceObject(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that is the source pin for which to obtain the connected sink pin's device object.
 

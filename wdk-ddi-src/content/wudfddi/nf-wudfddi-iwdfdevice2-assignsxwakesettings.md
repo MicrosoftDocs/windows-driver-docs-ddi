@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AssignSxWakeSettings, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, IWDFDevice2, umdf.iwdfdevice2_assignsxwakesettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings method, IWDFDevice2 interface, IWDFDevice2::AssignSxWakeSettings, wdf.iwdfdevice2_assignsxwakesettings, AssignSxWakeSettings method
+ms.keywords: IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings method, umdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings, wdf.iwdfdevice2_assignsxwakesettings, AssignSxWakeSettings method, IWDFDevice2 interface, wudfddi/IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT AssignSxWakeSettings(
 
 
 
-#### - DxState [in]
+### -param DxState [in]
 
 A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-typed enumerator that identifies the low <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> that the device will enter when the system power state drops to a wakeable low-power state. The value of <i>DxState</i> cannot be <b>PowerDeviceD0</b>. DEVICE_POWER_STATE values are defined in wdm.h.
 
 
-#### - UserControlOfWakeSettings [in]
+### -param UserControlOfWakeSettings [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
 
 
-#### - Enabled [in]
+### -param Enabled [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
 
@@ -214,9 +214,9 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
  
 

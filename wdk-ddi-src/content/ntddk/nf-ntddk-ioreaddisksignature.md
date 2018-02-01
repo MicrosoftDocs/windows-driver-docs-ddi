@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c56d767f-598c-46b8-bab1-ce4de0780076
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IoReadDiskSignature, storage.ioreaddisksignature, ntddk/IoReadDiskSignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, IoReadDiskSignature routine [Storage Devices]
+ms.keywords: IoReadDiskSignature routine [Storage Devices], ntddk/IoReadDiskSignature, storage.ioreaddisksignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, IoReadDiskSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoReadDiskSignature(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Specifies the device object for the disk to read.
 
 
-#### - BytesPerSector [in]
+### -param BytesPerSector [in]
 
 Specifies the number of bytes per sector of the disk.
 
 
-#### - Signature [out]
+### -param Signature [out]
 
 Pointer to a <a href="..\ntddk\ns-ntddk-_disk_signature.md">DISK_SIGNATURE</a> structure the routine uses to return the disk signature information.
 

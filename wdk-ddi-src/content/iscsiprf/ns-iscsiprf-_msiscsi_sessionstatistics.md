@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04ceffce-cd5f-4e62-98cb-450e8552a811
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, iscsiprf/MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics, iscsiprf/PMSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, *PMSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], _MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices]
+ms.keywords: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], PMSiSCSI_SessionStatistics structure pointer [Storage Devices], structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, iscsiprf/PMSiSCSI_SessionStatistics, iscsiprf/MSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, PMSiSCSI_SessionStatistics, _MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,52 +76,52 @@ typedef struct _MSiSCSI_SessionStatistics {
 
 
 
-#### - iSCSIName
+### -field iSCSIName
 
 A wide character string that contains the name of an iSCSI target.
 
 
-#### - USID
+### -field USID
 
 The iSCSI session identifier (ID) for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the session. Do not use this ID. Application software should use the session identifier that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods return in the <i>UniqueSessionId</i> parameter.
 
 
-#### - UniqueAdapterId
+### -field UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <i>UniqueAdapterId</i> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
 
 
-#### - BytesSent
+### -field BytesSent
 
 The number of bytes that are sent over this session. 
 
 
-#### - BytesReceived
+### -field BytesReceived
 
 The number of bytes that are received over this session. 
 
 
-#### - PDUCommandsSent
+### -field PDUCommandsSent
 
 The number of PDUs that are sent over this session. 
 
 
-#### - PDUResponsesReceived
+### -field PDUResponsesReceived
 
 The number of PDUs that are received over this session. 
 
 
-#### - DigestErrors
+### -field DigestErrors
 
 The number of digest errors that have occurred in this session.
 
 
-#### - ConnectionTimeoutErrors
+### -field ConnectionTimeoutErrors
 
 The number of connection time-out errors that have occurred in this session. 
 
 
-#### - FormatErrors
+### -field FormatErrors
 
 The number of format errors that have occurred in this session.
 
@@ -135,11 +135,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563139">MSiSCSI_SessionStatistics WMI Class</a>
 
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 84A1F957-FAAE-4C2D-9D49-486813A26950
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: PNFC_CX_LLCP_CONFIG structure pointer [Near-Field Proximity Drivers], nfccx/NFC_CX_LLCP_CONFIG, nfpdrivers.nfc_cx_llcp_config, NFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG structure [Near-Field Proximity Drivers], nfccx/PNFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG, _NFC_CX_LLCP_CONFIG, PNFC_CX_LLCP_CONFIG
+ms.keywords: nfccx/PNFC_CX_LLCP_CONFIG, PNFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG, _NFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_LLCP_CONFIG structure pointer [Near-Field Proximity Drivers], NFC_CX_LLCP_CONFIG, nfpdrivers.nfc_cx_llcp_config, nfccx/NFC_CX_LLCP_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,31 +71,31 @@ typedef struct _NFC_CX_LLCP_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
  Size of this structure in bytes.
 
 
-#### - Miu
+### -field Miu
 
 Max information unit in bytes. Default is 1024.
 
 
-#### - LinkTimeout
+### -field LinkTimeout
 
  LTO timeout in multiples of 10 milliseconds. Default is 100 (1 second).
 
 
-#### - RecvWindowSize
+### -field RecvWindowSize
 
 The receive window size per LLCP spec. Default value is 5.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

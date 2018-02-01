@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d9018a68-e72c-4149-a6a5-095654d0363c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxLowIoCompletion, lowio/RxLowIoCompletion, ifsk.rxlowiocompletion, rxref_9a8f198a-0177-42f5-9039-3f5d6a3fa14d.xml, RxLowIoCompletion routine [Installable File System Drivers]
+ms.keywords: lowio/RxLowIoCompletion, RxLowIoCompletion, rxref_9a8f198a-0177-42f5-9039-3f5d6a3fa14d.xml, RxLowIoCompletion routine [Installable File System Drivers], ifsk.rxlowiocompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS RxLowIoCompletion(
 
 
 
-#### - RxContext
+### -param RxContext
 
 A pointer to the RX_CONTEXT structure for this IRP.
 
@@ -86,13 +86,13 @@ If the <i>RxContext</i> parameter indicates this is asynchronous I/O, then <b>Rx
 
 ## -see-also
 
-<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
-
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
 
+<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
+
 <a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
+
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
  
 

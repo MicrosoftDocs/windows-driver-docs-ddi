@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4EDEE2EE-7B42-4CC9-8CFC-4690193C5D4D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PCMP_GET_PLUG_HANDLE, *PCMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], PCMP_GET_PLUG_HANDLE, _CMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE structure [Buses], IEEE.cmp_get_plug_handle, CMP_GET_PLUG_HANDLE, 61883/CMP_GET_PLUG_HANDLE
+ms.keywords: 61883/PCMP_GET_PLUG_HANDLE, IEEE.cmp_get_plug_handle, _CMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE, 61883/CMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], CMP_GET_PLUG_HANDLE structure [Buses], *PCMP_GET_PLUG_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _CMP_GET_PLUG_HANDLE {
 
 
 
-#### - PlugNum
+### -field PlugNum
 
 The number of the plug whose handle was returned by the Av61883_CreatePlug request that created the plug.
 
 
-#### - Type
+### -field Type
 
 The type of the plug. This can be CMP_PlugOut for an output plug, or CMP_PlugIn for an input plug.
 
 
-#### - hPlug
+### -field hPlug
 
 On output, a handle to the plug specified with PlugNum and Type.
 

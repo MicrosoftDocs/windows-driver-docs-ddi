@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02c0ea87-d25d-4363-85e3-e47c4c5d8a9b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject, netvista.ndisfreegenericobject, NdisFreeGenericObject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml
+ms.keywords: ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, netvista.ndisfreegenericobject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject, NdisFreeGenericObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -52,8 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeGenericObject</b> function to free a generic object that was created with the 
-  <mshelp:link keywords="netvista.ndisallocategenericobject" tabindex="0"><b>
-  NdisAllocateGenericObject</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">
+  NdisAllocateGenericObject</a> function.
 
 
 ## -syntax

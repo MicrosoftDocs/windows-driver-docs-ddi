@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnAcquireFirstDescriptorInfo(
 
 
 
-#### - hMonitorDescriptorSet [in]
+### -param hMonitorDescriptorSet [in]
 
 [in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset.md">pfnGetMonitorDescriptorSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
-#### - ppFirstMonitorDescriptorInfo [out]
+### -param ppFirstMonitorDescriptorInfo [out]
 
 [out] A pointer to a variable that receives a pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_descriptor.md">D3DKMDT_MONITOR_DESCRIPTOR</a> structure. The structure is the first descriptor in the set.
 

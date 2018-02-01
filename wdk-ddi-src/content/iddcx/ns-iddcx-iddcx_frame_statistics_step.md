@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a0d1f5b3-d527-417e-8d93-26d8277b7f12
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP, iddcx/IDDCX_FRAME_STATISTICS_STEP, display.iddcx_frame_statistics_step, IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices]
+ms.keywords: iddcx/IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], display.iddcx_frame_statistics_step, IDDCX_FRAME_STATISTICS_STEP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,28 +71,28 @@ typedef struct IDDCX_FRAME_STATISTICS_STE {
 
 
 
-#### - Size
+### -field Size
 
 
                      Total size of the structure
                  
 
 
-#### - Type
+### -field Type
 
 
                      The type of frame processing step
                  
 
 
-#### - QpcTime
+### -field QpcTime
 
 
                      Provides the system QPC time of the step
                  
 
 
-#### - Data
+### -field Data
 
 
                      When driver defined processing part is used, then the driver can store additional data here

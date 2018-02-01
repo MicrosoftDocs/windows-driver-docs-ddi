@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions, display.iddcxswapchaingetmoveregions, IddCxSwapChainGetMoveRegions method [Display Devices]
+ms.keywords: iddcx/IddCxSwapChainGetMoveRegions, display.iddcxswapchaingetmoveregions, IddCxSwapChainGetMoveRegions method [Display Devices], IddCxSwapChainGetMoveRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ HRESULT IddCxSwapChainGetMoveRegions(
 
 
 
-#### - SwapChainObject [in]
+### -param SwapChainObject [in]
 
 The swap-chain object whose current frame is being queried.
 
 
-#### - pInArgs [in]
+### -param pInArgs [in]
 
 Input arguments of the function
 
 
-#### - pOutArgs [out]
+### -param pOutArgs [out]
 
 Output arguments of the function
 

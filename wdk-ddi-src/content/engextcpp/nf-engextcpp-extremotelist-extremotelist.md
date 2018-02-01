@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d35d5186-a5ee-4a64-88e7-d3e95de32d07
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging], EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, debugger.extremotelist, engextcpp/ExtRemoteList, ExtRemoteList::ExtRemoteList, ExtRemoteList class [Windows Debugging], described
+ms.keywords: ExtRemoteList class [Windows Debugging], ExtRemoteList class [Windows Debugging], described, ExtRemoteList::ExtRemoteList, engextcpp/ExtRemoteList, EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, debugger.extremotelist, ExtRemoteList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -171,11 +171,11 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
 
 <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>
 
-<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
  
 

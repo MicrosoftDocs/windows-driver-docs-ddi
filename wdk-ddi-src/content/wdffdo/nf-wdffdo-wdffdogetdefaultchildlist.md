@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, wdffdo/WdfFdoGetDefaultChildList, kmdf.wdffdogetdefaultchildlist, PFN_WDFFDOGETDEFAULTCHILDLIST, WdfFdoGetDefaultChildList method, wdf.wdffdogetdefaultchildlist, WdfFdoGetDefaultChildList
+ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, wdf.wdffdogetdefaultchildlist, kmdf.wdffdogetdefaultchildlist, WdfFdoGetDefaultChildList, wdffdo/WdfFdoGetDefaultChildList, PFN_WDFFDOGETDEFAULTCHILDLIST, WdfFdoGetDefaultChildList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ WDFCHILDLIST WdfFdoGetDefaultChildList(
 
 
 
-#### - Fdo [in]
+### -param Fdo [in]
 
 A handle to a framework device object.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 74E78EC9-4D2B-4CA4-AC00-03EB7433617C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ufxendpointgettransferqueue, ufxclient/UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses], UfxEndpointGetTransferQueue
+ms.keywords: buses.ufxendpointgettransferqueue, UfxEndpointGetTransferQueue, ufxclient/UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ WDFQUEUE UfxEndpointGetTransferQueue(
 
 
 
-#### - UfxEndpoint [in]
+### -param UfxEndpoint [in]
 
 A handle to an endpoint object returned from a previous call to <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
 

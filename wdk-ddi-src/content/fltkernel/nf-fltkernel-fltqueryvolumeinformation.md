@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57b65e87-7f2d-44fc-84b9-e029c8075be3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FileFsAttributeInformation, FltApiRef_p_to_z_1b2db9a1-36d0-4503-bd97-7f24b68ad513.xml, fltkernel/FltQueryVolumeInformation, FileFsSectorSizeInformation, ifsk.fltqueryvolumeinformation, FileFsObjectIdInformation, FileFsSizeInformation, FileFsControlInformation, FileFsDriverPathInformation, FltQueryVolumeInformation, FileFsDeviceInformation, FltQueryVolumeInformation routine [Installable File System Drivers], FileFsFullSizeInformation, FileFsVolumeInformation
+ms.keywords: FileFsSizeInformation, fltkernel/FltQueryVolumeInformation, FltQueryVolumeInformation routine [Installable File System Drivers], FltApiRef_p_to_z_1b2db9a1-36d0-4503-bd97-7f24b68ad513.xml, FileFsSectorSizeInformation, FileFsDriverPathInformation, FltQueryVolumeInformation, FileFsVolumeInformation, ifsk.fltqueryvolumeinformation, FileFsAttributeInformation, FileFsDeviceInformation, FileFsControlInformation, FileFsObjectIdInformation, FileFsFullSizeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS FltQueryVolumeInformation(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 An opaque instance pointer for a minifilter driver instance that is attached to the volume. 
 
 
-#### - Iosb [out]
+### -param Iosb [out]
 
 A pointer to caller-allocated IO_STATUS_BLOCK structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the <i>FsInformation</i> buffer is returned in the structure's <b>Information</b> member. 
 
 
-#### - FsInformation [out]
+### -param FsInformation [out]
 
 A pointer to a caller-allocated buffer that receives the desired information about the volume. The structure of the information returned in the buffer is defined by the <i>FsInformationClass</i> parameter. 
 
 
-#### - Length [in]
+### -param Length [in]
 
 The size in bytes of the buffer that <i>FsInformation</i> points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof</b>(FILE_FS_CONTROL_INFORMATION). 
 
 
-#### - FsInformationClass [in]
+### -param FsInformationClass [in]
 
 The type of information requested. One of the following value. 
 <table>
@@ -258,31 +258,31 @@ To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fl
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
-
 <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
 
-<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>
 
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
+<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
+
 <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+
+<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+
+<a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
 
  
 

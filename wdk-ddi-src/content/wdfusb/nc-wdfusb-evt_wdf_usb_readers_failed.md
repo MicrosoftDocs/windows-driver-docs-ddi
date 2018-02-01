@@ -75,17 +75,17 @@ BOOLEAN EvtUsbTargetPipeReadersFailed(
 
 
 
-#### - Pipe [in]
+### -param Pipe [in]
 
 A handle to a framework pipe object.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS value</a> that the pipe's I/O target returned.
 
 
-#### - UsbdStatus [in]
+### -param UsbdStatus [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_STATUS</a>-typed status value that the pipe's I/O target returned.
 
@@ -118,9 +118,9 @@ For more information about the <i>EvtUsbTargetPipeReadersFailed</i> callback fun
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
-
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
 
  
 

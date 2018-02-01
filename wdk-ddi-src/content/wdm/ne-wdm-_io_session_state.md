@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, *PIO_SESSION_STATE, wdm/IO_SESSION_STATE, wdm/IoSessionStateDisconnected, _IO_SESSION_STATE, IoSessionStateMax, wdm/PIO_SESSION_STATE, IO_SESSION_STATE, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IoSessionStateConnected, wdm/IoSessionStateLoggedOff, wdm/IoSessionStateTerminated, IoSessionStateDisconnected, IoSessionStateLoggedOff, wdm/IoSessionStateLoggedOn, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateLoggedOn, IoSessionStateCreated, IoSessionStateTerminated, wdm/IoSessionStateConnected, wdm/IoSessionStateDisconnectedLoggedOn, PIO_SESSION_STATE, IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateMax, kernel.io_session_state, wdm/IoSessionStateCreated, IoSessionStateInitialized, wdm/IoSessionStateInitialized
+ms.keywords: wdm/IoSessionStateTerminated, IoSessionStateTerminated, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateCreated, wdm/IoSessionStateMax, IoSessionStateInitialized, wdm/IoSessionStateDisconnected, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateInitialized, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, IoSessionStateCreated, PIO_SESSION_STATE, IoSessionStateMax, *PIO_SESSION_STATE, IO_SESSION_STATE, kernel.io_session_state, wdm/IoSessionStateConnected, IoSessionStateConnected, _IO_SESSION_STATE, wdm/PIO_SESSION_STATE, wdm/IoSessionStateLoggedOn, wdm/IO_SESSION_STATE, wdm/IoSessionStateLoggedOff, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IoSessionStateLoggedOff, IoSessionStateDisconnected, IoSessionStateLoggedOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,47 +76,47 @@ typedef enum _IO_SESSION_STATE {
 
 
 
-#### - IoSessionStateCreated
+### -field IoSessionStateCreated
 
 The session has been created.
 
 
-#### - IoSessionStateInitialized
+### -field IoSessionStateInitialized
 
 The session has been initialized but has not yet been created.
 
 
-#### - IoSessionStateConnected
+### -field IoSessionStateConnected
 
 The session is connected but the user has not yet logged on.
 
 
-#### - IoSessionStateDisconnected
+### -field IoSessionStateDisconnected
 
 The session has been disconnected.
 
 
-#### - IoSessionStateDisconnectedLoggedOn
+### -field IoSessionStateDisconnectedLoggedOn
 
 The session was disconnected while the user was logged on.
 
 
-#### - IoSessionStateLoggedOn
+### -field IoSessionStateLoggedOn
 
 The user is logged on to the session.
 
 
-#### - IoSessionStateLoggedOff
+### -field IoSessionStateLoggedOff
 
 The user has logged off of the session. 
 
 
-#### - IoSessionStateTerminated
+### -field IoSessionStateTerminated
 
 The session has been terminated.
 
 
-#### - IoSessionStateMax
+### -field IoSessionStateMax
 
 Specifies the maximum value in this enumeration type. 
 
@@ -149,9 +149,9 @@ The event that causes the transition (a table entry in a white box)
 
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
-<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
-
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
+
+<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 
  
 

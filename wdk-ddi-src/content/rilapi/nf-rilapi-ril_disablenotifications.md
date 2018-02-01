@@ -73,19 +73,19 @@ HRESULT  RIL_DisableNotifications(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - usersContext
+### -param usersContext
 
 
 
-#### - lpdwNotifications
+### -param lpdwNotifications
 
 
 
-#### - dwNotificationCount
+### -param dwNotificationCount
 
 
 

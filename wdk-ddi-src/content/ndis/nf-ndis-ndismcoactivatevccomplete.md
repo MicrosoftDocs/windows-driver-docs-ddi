@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db5ff69f-dcae-4016-a078-c8edb2390c6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], netvista.ndismcoactivatevccomplete, ndis/NdisMCoActivateVcComplete, NdisMCoActivateVcComplete, condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml
+ms.keywords: NdisMCoActivateVcComplete, netvista.ndismcoactivatevccomplete, ndis/NdisMCoActivateVcComplete, NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID NdisMCoActivateVcComplete(
 
 
 
-#### - Status [in]
+### -param Status [in]
 
 
 
@@ -81,16 +81,16 @@ VOID NdisMCoActivateVcComplete(
 
 
 
-#### - NdisVcHandle [in]
+### -param NdisVcHandle [in]
 
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
-     <mshelp:link keywords="netvista.miniportcoactivatevc" tabindex="0"><i>
-     MiniportCoActivateVc</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">
+     MiniportCoActivateVc</a> function.
 
 
-#### - CallParameters [in]
+### -param CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>, supplied by the call
@@ -128,24 +128,24 @@ If the miniport driver finds the CM-supplied call parameters unacceptable, it fa
 
 A call to 
     <b>NdisMCoActivateVcComplete</b> causes NDIS to call the 
-    <mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
-    ProtocolCmActivateVcComplete</i></mshelp:link> function of the call manager that originally requested the VC
+    <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+    ProtocolCmActivateVcComplete</a> function of the call manager that originally requested the VC
     activation.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+   ProtocolCmActivateVcComplete</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
-<mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
-   ProtocolCmActivateVcComplete</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
  
 

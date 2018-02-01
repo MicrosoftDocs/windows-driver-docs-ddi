@@ -73,22 +73,22 @@ LONG_PTR CALLBACK ComPropSheet(
 
 
 
-#### - hComPropSheet [in]
+### -param hComPropSheet [in]
 
 Caller-supplied handle to a property sheet <a href="https://msdn.microsoft.com/b4c40c15-df16-4af0-81c8-9e70d26ba598">group parent</a>. For more information, see the following Remarks section.
 
 
-#### - Function [in]
+### -param Function [in]
 
 Caller-supplied, CPSFUNC_-prefixed <a href="https://msdn.microsoft.com/library/windows/hardware/ff546214">ComPropSheet function codes</a> specifying the operation to be performed by the <i>ComPropSheet</i> function.
 
 
-#### - lParam1 [in]
+### -param lParam1 [in]
 
 Caller-supplied value that depends on the <i>ComPropSheet</i> function code supplied for <i>Function</i>.
 
 
-#### - lParam2 [in]
+### -param lParam2 [in]
 
 Caller-supplied value that depends on the <i>ComPropSheet</i> function code supplied for <i>Function</i>.
 

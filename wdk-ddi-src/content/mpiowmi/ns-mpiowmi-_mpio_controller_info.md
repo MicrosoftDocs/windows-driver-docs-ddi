@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30600e86-dd35-4498-91a8-14a722b2e868
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PMPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO structure [Storage Devices], PMPIO_CONTROLLER_INFO structure pointer [Storage Devices], structs-scsibus_6b7edecb-9938-49fb-8367-5d176f83c0a5.xml, PMPIO_CONTROLLER_INFO, storage.mpio_controller_info, _MPIO_CONTROLLER_INFO, mpiowmi/MPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO, mpiowmi/PMPIO_CONTROLLER_INFO"
+ms.keywords: MPIO_CONTROLLER_INFO structure [Storage Devices], mpiowmi/MPIO_CONTROLLER_INFO, storage.mpio_controller_info, mpiowmi/PMPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO, *PMPIO_CONTROLLER_INFO, _MPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO structure pointer [Storage Devices], structs-scsibus_6b7edecb-9938-49fb-8367-5d176f83c0a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _MPIO_CONTROLLER_INFO {
 
 
 
-#### - IdentifierType
+### -field IdentifierType
 
 An unsigned 32-bitfield that represents the identifier type for the controller.
 
 
-#### - IdentifierLength
+### -field IdentifierLength
 
 An unsigned 32-bitfield that represents the length of the controller's identifier.
 
 
-#### - Identifier
+### -field Identifier
 
 A 32-byte array that contains the actual identifier (serial number) of the controller.
 
 
-#### - ControllerState
+### -field ControllerState
 
 An unsigned 32-bitfield that represents the controller state.
 
 
-#### - Pad
+### -field Pad
 
 Should be zero.
 
 
-#### - AssociatedDsm
+### -field AssociatedDsm
 
 A string field of maximum length 63 characters. This string field returns the friendly name of the DSM that controls the devices that are exposed by this controller.
 

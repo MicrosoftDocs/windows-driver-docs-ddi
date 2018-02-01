@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 586688EC-51B1-488E-BFC6-7796C37593BF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], ntddk/PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx, kernel.pssetcreatethreadnotifyroutineex
+ms.keywords: ntddk/PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, PsSetCreateThreadNotifyRoutineEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS PsSetCreateThreadNotifyRoutineEx(
 
 
 
-#### - NotifyType [in]
+### -param NotifyType [in]
 
 A <a href="..\ntddk\ne-ntddk-_pscreatethreadnotifytype.md">PSCREATETHREADNOTIFYTYPE</a> value that   indicates the type of thread notification. 
 
 
-#### - NotifyInformation [in]
+### -param NotifyInformation [in]
 
 Provides the address of the notification information
         for the specified type of thread notification. 
@@ -103,15 +103,15 @@ A driver must remove any callback function it registers before it unloads. You c
 
 <a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
-
 <a href="..\ntddk\nf-ntddk-psremovecreatethreadnotifyroutine.md">PsRemoveCreateThreadNotifyRoutine</a>
 
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
-
 <a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
 
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 

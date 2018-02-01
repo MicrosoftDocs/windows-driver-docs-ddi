@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 79997d8c-4641-4953-a1a2-e5bde88cbc3f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.inputwide, dbgeng/IDebugControl4::InputWide, IDebugControl4 interface [Windows Debugging], InputWide method, IDebugControl4::InputWide, InputWide, IDebugControl4, InputWide method [Windows Debugging], InputWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: debugger.inputwide, InputWide, IDebugControl4 interface [Windows Debugging], InputWide method, IDebugControl4::InputWide, IDebugControl4, InputWide method [Windows Debugging], InputWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::InputWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT InputWide(
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Receives the input string from the engine.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-#### - InputSize [out, optional]
+### -param InputSize [out, optional]
 
 Receives the number of characters returned in <i>Buffer</i>.  If <i>InputSize</i> is <b>NULL</b>, this information is not returned.
 

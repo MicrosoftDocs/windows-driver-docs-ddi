@@ -73,17 +73,17 @@ BOOLEAN HwVidResetHw(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-#### - Columns
+### -param Columns
 
 Specifies the number of columns of the mode to be set up.
 
 
-#### - Rows
+### -param Rows
 
 Specifies the number of rows of the mode to be set up.
 
@@ -116,9 +116,9 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
-
 <a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
+<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
 
 <a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>
 

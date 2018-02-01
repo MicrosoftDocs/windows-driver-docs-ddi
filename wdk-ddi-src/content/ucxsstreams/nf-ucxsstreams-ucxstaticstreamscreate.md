@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxsstreams/UcxStaticStreamsCreate, UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate
+ms.keywords: UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], ucxsstreams/UcxStaticStreamsCreate, buses._ucxstaticstreamscreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS UcxStaticStreamsCreate(
 
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to the endpoint object that supports static streams. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
 
@@ -81,7 +81,7 @@ A handle to the endpoint object that supports static streams. The client driver 
 TBD
 
 
-#### - Attributes [in, optional]
+### -param Attributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the stream object. 
 
@@ -92,16 +92,16 @@ TBD
 
 
 
+#### - SStreams [out]
+
+A pointer to a variable that receives a handle to the new stream object.
+
+
 #### - SStreamsInit [out]
 
 A pointer to a <b>UCXSSTREAMS_INIT</b> structure that describes various configuration
         operations for creating the stream object. The driver specifies function pointers to its callback functions in this structure.
     This structure is managed by UCX.
-
-
-#### - SStreams [out]
-
-A pointer to a variable that receives a handle to the new stream object.
 
 
 ## -returns

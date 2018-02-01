@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BBC8975A-E5B1-4137-83D8-891075A8F4D0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucm_pd_power_data_object_init_variable_non_battery, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses]
+ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses], ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, buses.ucm_pd_power_data_object_init_variable_non_battery, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY(
 
 
 
-#### - Pdo [out]
+### -param Pdo [out]
 
 A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>VariableSupplyNonBatteryPdo.VariableSupportNonBattery</b> member is set to <b>UcmPdPdoTypeVariableSupplyNonBattery</b>.
 

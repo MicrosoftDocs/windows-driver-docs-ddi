@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a202530-7146-472d-9560-580871cd56ec
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2::GetNumberSymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, GetNumberSymbols, IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup2, ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup::GetNumberSymbols, IDebugSymbolGroup::GetNumberSymbols, debugger.getnumbersymbols
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup::GetNumberSymbols, IDebugSymbolGroup2, IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, GetNumberSymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup::GetNumberSymbols, GetNumberSymbols method [Windows Debugging], debugger.getnumbersymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetNumberSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetNumberSymbols(
 
 
 
-#### - Number [out]
+### -param Number [out]
 
 The number of symbols that are contained in this symbol group.
 

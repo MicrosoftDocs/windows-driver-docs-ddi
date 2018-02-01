@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CD619018-7E6D-4B45-93C3-AD89FDFEB1E9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture], kernel.rtlnumberofsetbitsulongptr, RtlNumberOfSetBitsUlongPtr, wdm/RtlNumberOfSetBitsUlongPtr
+ms.keywords: RtlNumberOfSetBitsUlongPtr, wdm/RtlNumberOfSetBitsUlongPtr, kernel.rtlnumberofsetbitsulongptr, RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG RtlNumberOfSetBitsUlongPtr(
 
 
 
-#### - Target [in]
+### -param Target [in]
 
 A ULONG_PTR integer value.
 

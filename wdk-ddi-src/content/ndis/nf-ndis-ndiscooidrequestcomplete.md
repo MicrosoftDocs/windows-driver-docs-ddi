@@ -76,14 +76,14 @@ VOID NdisCoOidRequestComplete(
 
 
 
-#### - NdisAfHandle [in]
+### -param NdisAfHandle [in]
 
 An address family (AF) handle that NDIS passed to the client or stand-alone call manager's 
-     <mshelp:link keywords="netvista.protocolcooidrequest" tabindex="0"><i>
-     ProtocolCoOidRequest</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">
+     ProtocolCoOidRequest</a> function.
 
 
-#### - NdisVcHandle [in, optional]
+### -param NdisVcHandle [in, optional]
 
 A virtual connection (VC) handle that NDIS passed to the client or stand-alone call manager's 
      <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
@@ -93,7 +93,7 @@ A virtual connection (VC) handle that NDIS passed to the client or stand-alone c
      <b>NULL</b> VC handle.
 
 
-#### - NdisPartyHandle [in, optional]
+### -param NdisPartyHandle [in, optional]
 
 A party handle that NDIS passed to the client or stand-alone call manager's 
      <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
@@ -102,7 +102,7 @@ A party handle that NDIS passed to the client or stand-alone call manager's
      <b>NdisMCmOidRequest</b> function specified a <b>NULL</b> party handle.
 
 
-#### - OidRequest [in]
+### -param OidRequest [in]
 
 A pointer to a buffer that is formatted as an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The caller of
@@ -111,7 +111,7 @@ A pointer to a buffer that is formatted as an
      <b>NdisMCmOidRequest</b> function supplied this buffer.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The final status of the request operation, either NDIS_STATUS_SUCCESS, or any driver-determined
      NDIS_STATUS_<i>XXX</i> status value 
@@ -135,18 +135,18 @@ A CoNDIS protocol driver that returns NDIS_STATUS_PENDING from its
 
 After a driver calls 
     <b>NdisCoOidRequestComplete</b>, NDIS calls the 
-    <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-    ProtocolCoOidRequestComplete</i></mshelp:link> function of the driver that originally called the 
+    <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+    ProtocolCoOidRequestComplete</a> function of the driver that originally called the 
     <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> or 
     <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> function.
 
 Only clients and stand-alone call managers, which register themselves with NDIS as protocol drivers,
     can call 
     <b>NdisCoOidRequestComplete</b>. Miniport call managers (MCMs) call the 
-    <mshelp:link keywords="netvista.ndismcmoidrequestcomplete" tabindex="0"><b>
-    NdisMCmOidRequestComplete</b></mshelp:link> function or 
-    <mshelp:link keywords="netvista.ndismcooidrequestcomplete" tabindex="0"><b>
-    NdisMCoOidRequestComplete</b></mshelp:link> instead, depending on whether the MCM driver's 
+    <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
+    NdisMCmOidRequestComplete</a> function or 
+    <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">
+    NdisMCoOidRequestComplete</a> instead, depending on whether the MCM driver's 
     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a> or 
     <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a> function,
     respectively, handled the client's request.
@@ -155,22 +155,22 @@ Only clients and stand-alone call managers, which register themselves with NDIS 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
 
 <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
  
 

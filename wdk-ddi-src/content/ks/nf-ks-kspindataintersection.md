@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4bf090d-35ec-42fd-8b6e-ce51734adba5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, KsPinDataIntersection, stream.kspindataintersection, ks/KsPinDataIntersection, KsPinDataIntersection function [Streaming Media Devices]
+ms.keywords: stream.kspindataintersection, KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,32 +73,32 @@ NTSTATUS KsPinDataIntersection(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP that describes the property request.
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 Specifies the specific property that is being queried.
 
 
-#### - Data [out, optional]
+### -param Data [out, optional]
 
 Specifies the pin property-specific data.
 
 
-#### - DescriptorsCount [in]
+### -param DescriptorsCount [in]
 
 Specifies the number of descriptor structures.
 
 
-#### - Descriptor [in]
+### -param Descriptor [in]
 
 Specifies the pointer to the list of pin information structures.
 
 
-#### - IntersectHandler [in]
+### -param IntersectHandler [in]
 
 Specifies the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a> callback function to compare a data range.
 

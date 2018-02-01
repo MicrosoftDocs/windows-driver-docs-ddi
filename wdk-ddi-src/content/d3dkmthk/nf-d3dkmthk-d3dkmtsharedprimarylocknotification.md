@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4104b137-dd32-4566-a46a-f20ef6b602c6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTSharedPrimaryLockNotification, OpenGL_Functions_a6696797-0a53-4687-8a70-4878b550fa03.xml, D3DKMTSharedPrimaryLockNotification function [Display Devices], D3DKMTSharedPrimaryLockNotification, display.d3dkmtsharedprimarylocknotification
+ms.keywords: display.d3dkmtsharedprimarylocknotification, OpenGL_Functions_a6696797-0a53-4687-8a70-4878b550fa03.xml, D3DKMTSharedPrimaryLockNotification, D3DKMTSharedPrimaryLockNotification function [Display Devices], d3dkmthk/D3DKMTSharedPrimaryLockNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,9 +139,9 @@ The OpenGL ICD calls the <b>D3DKMTSharedPrimaryLockNotification</b> function to 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">D3DKMTLock</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a>
 
  
 

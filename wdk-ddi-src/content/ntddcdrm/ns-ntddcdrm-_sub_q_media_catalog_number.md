@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14b0aed7-1602-41a3-bc55-59da40650860
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sub_q_media_catalog_number, ntddcdrm/PSUB_Q_MEDIA_CATALOG_NUMBER, ntddcdrm/SUB_Q_MEDIA_CATALOG_NUMBER, structs-CD-ROM_d4acf54e-b837-4064-a654-4fa2ebbe7425.xml, PSUB_Q_MEDIA_CATALOG_NUMBER structure pointer [Storage Devices], _SUB_Q_MEDIA_CATALOG_NUMBER, SUB_Q_MEDIA_CATALOG_NUMBER, *PSUB_Q_MEDIA_CATALOG_NUMBER, PSUB_Q_MEDIA_CATALOG_NUMBER, SUB_Q_MEDIA_CATALOG_NUMBER structure [Storage Devices]
+ms.keywords: PSUB_Q_MEDIA_CATALOG_NUMBER structure pointer [Storage Devices], *PSUB_Q_MEDIA_CATALOG_NUMBER, ntddcdrm/PSUB_Q_MEDIA_CATALOG_NUMBER, SUB_Q_MEDIA_CATALOG_NUMBER, ntddcdrm/SUB_Q_MEDIA_CATALOG_NUMBER, _SUB_Q_MEDIA_CATALOG_NUMBER, PSUB_Q_MEDIA_CATALOG_NUMBER, storage.sub_q_media_catalog_number, structs-CD-ROM_d4acf54e-b837-4064-a654-4fa2ebbe7425.xml, SUB_Q_MEDIA_CATALOG_NUMBER structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,45 +72,45 @@ typedef struct _SUB_Q_MEDIA_CATALOG_NUMBER {
 
 
 
-#### - Header
+### -field Header
 
 Indicates, among other things, the length of the Q subchannel data that was retrieved. See <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a> for further details. 
 
 
-#### - FormatCode
+### -field FormatCode
 
 Should have a value of IOCTL_CDROM_MEDIA_CATALOG. 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 
 
-#### - Mcval
+### -field Mcval
 
 Indicates that the media catalog number (MCN) data is valid if set to 1; set to zero otherwise.
 
 
-#### - MediaCatalog
+### -field MediaCatalog
 
 Contains the catalog number if <b>Mcval</b> is set to 1. 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
 
  
 

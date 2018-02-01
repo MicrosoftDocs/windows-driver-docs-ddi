@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B01039CF-F4AC-4374-BBB8-ACB204BC40E2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_HOME_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER2, NDIS_WWAN_HOME_PROVIDER2, NDIS_WWAN_HOME_PROVIDER2 structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_HOME_PROVIDER2, netvista.ndis_wwan_home_provider2, ndiswwan/PNDIS_WWAN_HOME_PROVIDER2, _NDIS_WWAN_HOME_PROVIDER2, *PNDIS_WWAN_HOME_PROVIDER2
+ms.keywords: NDIS_WWAN_HOME_PROVIDER2, NDIS_WWAN_HOME_PROVIDER2 structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_HOME_PROVIDER2, ndiswwan/PNDIS_WWAN_HOME_PROVIDER2, _NDIS_WWAN_HOME_PROVIDER2, *PNDIS_WWAN_HOME_PROVIDER2, PNDIS_WWAN_HOME_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER2, netvista.ndis_wwan_home_provider2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_HOME_PROVIDER2 {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_HOME_PROVIDER2 structure. The MB
      Service sets the header with the values that are shown in the following table when it sends the data
@@ -118,12 +118,12 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of the home provider operation.
 
 
-#### - Provider
+### -field Provider
 
 A formatted <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a> object that describes the details of a home network provider.
 

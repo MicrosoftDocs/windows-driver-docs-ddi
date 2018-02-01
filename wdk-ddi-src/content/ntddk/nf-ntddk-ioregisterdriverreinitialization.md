@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], IoRegisterDriverReinitialization
+ms.keywords: ntddk/IoRegisterDriverReinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], kernel.ioregisterdriverreinitialization, IoRegisterDriverReinitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID IoRegisterDriverReinitialization(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 Pointer to the driver object that was input to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 
-#### - DriverReinitializationRoutine [in]
+### -param DriverReinitializationRoutine [in]
 
 Pointer to the driver's <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine. 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 Pointer to the context to be passed to the driver's <i>Reinitialize</i> routine.
 

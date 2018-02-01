@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface, GetConfiguredSettingIndex, GetConfiguredSettingIndex method, IWDFUsbInterface interface, GetConfiguredSettingIndex method, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex, IWDFUsbInterface::GetConfiguredSettingIndex, wdf.iwdfusbinterface_getconfiguredsettingindex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, IWDFUsbInterface interface, GetConfiguredSettingIndex method
+ms.keywords: IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface, GetConfiguredSettingIndex method, GetConfiguredSettingIndex, wdf.iwdfusbinterface_getconfiguredsettingindex, GetConfiguredSettingIndex method, IWDFUsbInterface interface, IWDFUsbInterface::GetConfiguredSettingIndex, umdf.iwdfusbinterface_getconfiguredsettingindex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 479ff048-f57f-42ca-8787-f87ed055fdbf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], FwpsvSwitchEventsSubscribe0
+ms.keywords: FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], FwpsvSwitchEventsSubscribe0, fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,34 +75,34 @@ NTSTATUS NTAPI FwpsvSwitchEventsSubscribe0(
 
 
 
-#### - providerGuid
+### -param providerGuid
 
 The provider GUID.
 
 
 
 
-#### - notifyContext
+### -param notifyContext
 
 An optional pointer to a callout driver–supplied context. Event notification functions  pass this parameter back to the driver.
 
 
-#### - flags
+### -param flags
 
 Reserved. Set to zero.
 
 
-#### - reserved
+### -param reserved
 
 Reserved. Set to zero.
 
 
-#### - eventDispatchTable
+### -param eventDispatchTable
 
 A pointer to an <a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE</a> structure that defines the callback entry points for virtual switch layer events.
 
 
-#### - subscriptionId
+### -param subscriptionId
 
 A pointer to a variable that contains a unique identifier that WFP assigns to the subscription. The caller must return the subscription identifier to WFP with the  <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventsunsubscribe0.md">FwpsvSwitchEventsUnsubscribe0</a> function.
 

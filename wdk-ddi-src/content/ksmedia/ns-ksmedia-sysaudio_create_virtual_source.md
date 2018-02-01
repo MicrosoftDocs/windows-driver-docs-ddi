@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c9024cf0-aa0c-4652-89c1-3f2e6f622b3d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, SYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], *PSYSAUDIO_CREATE_VIRTUAL_SOURCE, aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], audio.sysaudio_create_virtual_source
+ms.keywords: PSYSAUDIO_CREATE_VIRTUAL_SOURCE, audio.sysaudio_create_virtual_source, SYSAUDIO_CREATE_VIRTUAL_SOURCE, aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], *PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Property
+### -field Property
 
 Specifies the property. This parameter is a structure of type <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
 
 
-#### - PinCategory
+### -field PinCategory
 
 Specifies a category for the created pin. This parameter is a KSCATEGORY_<i>Xxx</i> GUID.
 
 
-#### - PinName
+### -field PinName
 
 Specifies a name for the created pin. If the <i>PinCategory</i> parameter uniquely identifies the pin to create, set <i>PinName</i> to the same GUID as <i>PinCategory</i>. Otherwise, set <i>PinName</i> to a pin-name GUID that uniquely distinguishes the target pin from other pins of type KSCATEGORY_<i>Xxx</i>.
 

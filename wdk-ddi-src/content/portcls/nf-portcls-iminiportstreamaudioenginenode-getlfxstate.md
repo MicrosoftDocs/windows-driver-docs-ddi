@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2810D8B3-DDB7-4B55-839B-B2D079BDC0FC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportStreamAudioEngineNode, GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::GetLfxState, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, IMiniportStreamAudioEngineNode::GetLfxState, GetLfxState, GetLfxState method [Audio Devices], audio.iminiportstreamaudioenginenode_getlfxstate
+ms.keywords: GetLfxState, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::GetLfxState, portcls/IMiniportStreamAudioEngineNode::GetLfxState, GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getlfxstate, GetLfxState method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS GetLfxState(
 
 
 
-#### - pbEnable [out]
+### -param pbEnable [out]
 
 The current state of the LFX node.
 

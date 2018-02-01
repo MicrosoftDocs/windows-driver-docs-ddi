@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnQueryStop method, IPnpCallback::OnQueryStop, OnQueryStop, OnQueryStop method, IPnpCallback interface, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, IPnpCallback, IPnpCallback interface, OnQueryStop method
+ms.keywords: umdf.ipnpcallback_onquerystop, OnQueryStop method, IPnpCallback interface, IPnpCallback, IPnpCallback::OnQueryStop, IPnpCallback interface, OnQueryStop method, wdf.ipnpcallback_onquerystop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, OnQueryStop, OnQueryStop method, wudfddi/IPnpCallback::OnQueryStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT OnQueryStop(
 
 
 
-#### - pWdfDevice [in]
+### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that will be stopped.
 

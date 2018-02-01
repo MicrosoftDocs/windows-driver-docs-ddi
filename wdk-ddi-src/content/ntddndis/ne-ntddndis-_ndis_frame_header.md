@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisFrameHeaderUndefined, NdisFrameHeaderArp, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], *PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv6, NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderUdp, ntddndis/NDIS_FRAME_HEADER, NdisFrameHeaderUndefined, NdisFrameHeaderUdp, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], NdisFrameHeaderIPv6, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml, netvista.ndis_frame_header, ntddndis/NdisFrameHeaderMac, PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderArp, NdisFrameHeaderIPv4, ntddndis/PNDIS_FRAME_HEADER, NdisFrameHeaderMaximum, _NDIS_FRAME_HEADER, NdisFrameHeaderMac
+ms.keywords: NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMaximum, *PNDIS_FRAME_HEADER, NdisFrameHeaderUndefined, NdisFrameHeaderIPv6, NdisFrameHeaderArp, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_frame_header, NdisFrameHeaderUdp, NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderArp, PNDIS_FRAME_HEADER, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml, ntddndis/NdisFrameHeaderUdp, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisFrameHeaderIPv6, NdisFrameHeaderIPv4, NdisFrameHeaderMac, ntddndis/NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderIPv4, ntddndis/PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderUndefined, _NDIS_FRAME_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,38 +73,38 @@ typedef enum _NDIS_FRAME_HEADER {
 
 
 
-#### - NdisFrameHeaderUndefined
+### -field NdisFrameHeaderUndefined
 
 An undefined frame header type.
 
 
-#### - NdisFrameHeaderMac
+### -field NdisFrameHeaderMac
 
 A media access control (MAC) header.
 
 
-#### - NdisFrameHeaderArp
+### -field NdisFrameHeaderArp
 
 An Address Resolution Protocol (ARP) header.
 
 
-#### - NdisFrameHeaderIPv4
+### -field NdisFrameHeaderIPv4
 
 An IP version 4 (IPv4) header.
 
 
-#### - NdisFrameHeaderIPv6
+### -field NdisFrameHeaderIPv6
 
 An IP version 6 (IPv6) header.
 
 
-#### - NdisFrameHeaderUdp
+### -field NdisFrameHeaderUdp
 
 A User Datagram Protocol
 (UDP) header.
 
 
-#### - NdisFrameHeaderMaximum
+### -field NdisFrameHeaderMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -114,15 +114,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_FRAME_HEADER enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
 
  
 

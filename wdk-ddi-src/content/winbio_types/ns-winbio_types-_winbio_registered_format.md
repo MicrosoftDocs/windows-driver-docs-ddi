@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 70591143-f429-4a6e-8f2a-cc1082f40f6e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric.winbio_registered_format, winbio_types/WINBIO_REGISTERED_FORMAT, winbio_types/PWINBIO_REGISTERED_FORMAT, *PWINBIO_REGISTERED_FORMAT, WINBIO_REGISTERED_FORMAT structure [Biometric Devices], WINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT structure pointer [Biometric Devices], biometric_ref_824bd2c9-98a7-4967-8416-82aadd8ec6ed.xml, PWINBIO_REGISTERED_FORMAT, _WINBIO_REGISTERED_FORMAT
+ms.keywords: winbio_types/WINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT, WINBIO_REGISTERED_FORMAT structure [Biometric Devices], biometric.winbio_registered_format, winbio_types/PWINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT structure pointer [Biometric Devices], biometric_ref_824bd2c9-98a7-4967-8416-82aadd8ec6ed.xml, *PWINBIO_REGISTERED_FORMAT, _WINBIO_REGISTERED_FORMAT, WINBIO_REGISTERED_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _WINBIO_REGISTERED_FORMAT {
 
 
 
-#### - Owner
+### -field Owner
 
 Specifies format owner.
 
 
-#### - Type
+### -field Type
 
 Specifies format type.
 

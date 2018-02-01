@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b15c0ccf-0863-4415-b31f-b4217f249feb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceRequirementsListGetIoResList, PFN_WDFIORESOURCEREQUIREMENTSLISTGETIORESLIST, DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, wdfresource/WdfIoResourceRequirementsListGetIoResList, kmdf.wdfioresourcerequirementslistgetioreslist, wdf.wdfioresourcerequirementslistgetioreslist, WdfIoResourceRequirementsListGetIoResList method
+ms.keywords: wdf.wdfioresourcerequirementslistgetioreslist, wdfresource/WdfIoResourceRequirementsListGetIoResList, DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, PFN_WDFIORESOURCEREQUIREMENTSLISTGETIORESLIST, WdfIoResourceRequirementsListGetIoResList method, WdfIoResourceRequirementsListGetIoResList, kmdf.wdfioresourcerequirementslistgetioreslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ WDFIORESLIST WdfIoResourceRequirementsListGetIoResList(
 
 
 
-#### - RequirementsList [in]
+### -param RequirementsList [in]
 
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based value that is used as an index into the resource requirements list that <i>RequirementsList</i> specifies. 
 
@@ -170,9 +170,9 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md">WdfIoResourceListGetDescriptor</a>
-
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md">WdfIoResourceListGetDescriptor</a>
 
  
 

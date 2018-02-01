@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4f7aff9b-32cf-42a0-ba3b-ddc87ecdb8c3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemDriverUni::DrvWriteAbortBuf, IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, print.iprintoemdriveruni_drvwriteabortbuf, print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface, DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni
+ms.keywords: DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface, DrvWriteAbortBuf method [Print Devices], DrvWriteAbortBuf, IPrintOemDriverUni::DrvWriteAbortBuf, print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, print.iprintoemdriveruni_drvwriteabortbuf, IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, IPrintOemDriverUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT DrvWriteAbortBuf(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - pBuffer
+### -param pBuffer
 
 Caller-supplied pointer to a buffer containing a code fragment to be sent to the printer.
 
 
-#### - cbSize
+### -param cbSize
 
 Caller-supplied number of bytes in the buffer pointed to by <i>pBuffer</i>.
 
 
-#### - dwWait
+### -param dwWait
 
 Caller-supplied length of time the printer must wait, in milliseconds, before it can start a new print job after the current job is aborted. 
 

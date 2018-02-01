@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 47490858-3fe0-4a94-adae-6589cad6a842
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml, PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], _HID_COLLECTION_INFORMATION, hidclass/PHID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION, hidclass/HID_COLLECTION_INFORMATION, *PHID_COLLECTION_INFORMATION, PHID_COLLECTION_INFORMATION, hid.hid_collection_information, HID_COLLECTION_INFORMATION structure [Human Input Devices]
+ms.keywords: PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], *PHID_COLLECTION_INFORMATION, PHID_COLLECTION_INFORMATION, hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml, HID_COLLECTION_INFORMATION, hid.hid_collection_information, _HID_COLLECTION_INFORMATION, hidclass/PHID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], hidclass/HID_COLLECTION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _HID_COLLECTION_INFORMATION {
 
 
 
-#### - DescriptorSize
+### -field DescriptorSize
 
 Specifies the size, in bytes, of a collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
-#### - Polled
+### -field Polled
 
 Indicates, if <b>TRUE</b>, that the HID class driver must poll the device to receive data. Otherwise, if <b>Polled</b> is <b>FALSE</b>, the device uses asynchronous interrupts to signal the host that the device has HID reports to send to the host.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for internal system use.
 
 
-#### - VendorID
+### -field VendorID
 
 Specifies a HID device's vendor ID.
 
 
-#### - ProductID
+### -field ProductID
 
 Specifies a HID device's product ID.
 
 
-#### - VersionNumber
+### -field VersionNumber
 
 Specifies the manufacturer's revision number for a HID device.
 

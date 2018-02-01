@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvPopulateFilterServices, filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices, DrvPopulateFilterServices function [Print Devices]
+ms.keywords: print.drvpopulatefilterservices, DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ HRESULT WINAPI DrvPopulateFilterServices(
 
 
 
-#### - pPropertyBag [in]
+### -param pPropertyBag [in]
 
 Pointer to a print pipeline property bag.
 

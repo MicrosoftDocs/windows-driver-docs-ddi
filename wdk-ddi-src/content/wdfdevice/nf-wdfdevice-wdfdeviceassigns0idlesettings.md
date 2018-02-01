@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78bb5b51-b5b2-4177-8965-e54c04881dd3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceAssignS0IdleSettings, DFDeviceObjectGeneralRef_e43c95d7-1261-45d0-b47c-460b65bc28c8.xml, wdf.wdfdeviceassigns0idlesettings, WdfDeviceAssignS0IdleSettings method, kmdf.wdfdeviceassigns0idlesettings, PFN_WDFDEVICEASSIGNS0IDLESETTINGS, WdfDeviceAssignS0IdleSettings
+ms.keywords: WdfDeviceAssignS0IdleSettings method, kmdf.wdfdeviceassigns0idlesettings, wdfdevice/WdfDeviceAssignS0IdleSettings, PFN_WDFDEVICEASSIGNS0IDLESETTINGS, DFDeviceObjectGeneralRef_e43c95d7-1261-45d0-b47c-460b65bc28c8.xml, wdf.wdfdeviceassigns0idlesettings, WdfDeviceAssignS0IdleSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfDeviceAssignS0IdleSettings(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Settings [in]
+### -param Settings [in]
 
 A pointer to a caller-supplied <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
 

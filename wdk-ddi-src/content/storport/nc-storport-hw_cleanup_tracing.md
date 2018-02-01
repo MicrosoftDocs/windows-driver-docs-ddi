@@ -71,7 +71,7 @@ VOID HwStorCleanupTracing(
 
 
 
-#### - Arg1
+### -param Arg1
 
 A pointer to the driver object.
 

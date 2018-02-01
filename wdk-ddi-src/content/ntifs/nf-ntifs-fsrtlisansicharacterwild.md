@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: badbc73a-44aa-4917-83a8-2ebd9f9ec576
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsAnsiCharacterWild function [Installable File System Drivers], ifsk.fsrtlisansicharacterwild, FsRtlIsAnsiCharacterWild, ntifs/FsRtlIsAnsiCharacterWild, fsrtlref_f5a31572-36b5-4bc3-8224-a4a7d8b74c65.xml
+ms.keywords: FsRtlIsAnsiCharacterWild, fsrtlref_f5a31572-36b5-4bc3-8224-a4a7d8b74c65.xml, ntifs/FsRtlIsAnsiCharacterWild, FsRtlIsAnsiCharacterWild function [Installable File System Drivers], ifsk.fsrtlisansicharacterwild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -88,9 +88,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisunicodecharacterwild.md">FsRtlIsUnicodeCharacterWild</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlisunicodecharacterwild.md">FsRtlIsUnicodeCharacterWild</a>
 
  
 

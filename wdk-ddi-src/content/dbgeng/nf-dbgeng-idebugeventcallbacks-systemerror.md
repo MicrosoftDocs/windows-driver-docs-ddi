@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 651f5207-36c8-4d46-8305-950efb2365bf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, IDebugEventCallbacks interface [Windows Debugging], SystemError method, dbgeng/IDebugEventCallbacks::SystemError, IDebugEventCallbacks, SystemError method [Windows Debugging], IDebugEventCallbacks interface, SystemError method [Windows Debugging], debugger.idebugeventcallbacks_systemerror, IDebugEventCallbacks::SystemError, SystemError
+ms.keywords: IDebugEventCallbacks interface [Windows Debugging], SystemError method, dbgeng/IDebugEventCallbacks::SystemError, IDebugEventCallbacks, SystemError method [Windows Debugging], IDebugEventCallbacks::SystemError, ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, SystemError method [Windows Debugging], IDebugEventCallbacks interface, SystemError, debugger.idebugeventcallbacks_systemerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT SystemError(
 
 
 
-#### - Error [in]
+### -param Error [in]
 
 Specifies the error that caused the event.
 
 
-#### - Level [in]
+### -param Level [in]
 
 Specifies the severity of the error.
 

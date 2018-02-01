@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a605e37d-56cd-4d72-a713-314e20c2f630
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, _VP_DEVICE_DESCRIPTION, display.vp_device_description, VP_DEVICE_DESCRIPTION structure [Display Devices], video/VP_DEVICE_DESCRIPTION, Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, *PVP_DEVICE_DESCRIPTION
+ms.keywords: VP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION, display.vp_device_description, *PVP_DEVICE_DESCRIPTION, Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, video/PVP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], _VP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _VP_DEVICE_DESCRIPTION {
 
 
 
-#### - ScatterGather
+### -field ScatterGather
 
 If <b>TRUE</b>, indicates that the device supports scatter/gather DMA. If <b>FALSE</b>, the device does not support scatter/gather DMA.
 
 
-#### - Dma32BitAddresses
+### -field Dma32BitAddresses
 
 If <b>TRUE</b>, specifies that 32-bit addresses are being used for DMA operations. 
 
 
-#### - Dma64BitAddresses
+### -field Dma64BitAddresses
 
 If <b>TRUE</b>, specifies that 64-bit addresses are being used for DMA operations.
 
 
-#### - MaximumLength
+### -field MaximumLength
 
 Specifies the maximum number of bytes the device can handle in each DMA operation.
 

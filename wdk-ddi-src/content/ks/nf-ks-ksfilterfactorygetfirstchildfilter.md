@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 72eb23aa-4f0e-4ef5-baee-c0735253684e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfilterfactorygetfirstchildfilter, avfunc_1e512072-d270-48d9-8289-feaf8d2bcf35.xml, KsFilterFactoryGetFirstChildFilter, KsFilterFactoryGetFirstChildFilter function [Streaming Media Devices], ks/KsFilterFactoryGetFirstChildFilter
+ms.keywords: avfunc_1e512072-d270-48d9-8289-feaf8d2bcf35.xml, KsFilterFactoryGetFirstChildFilter, stream.ksfilterfactorygetfirstchildfilter, KsFilterFactoryGetFirstChildFilter function [Streaming Media Devices], ks/KsFilterFactoryGetFirstChildFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PKSFILTER __inline KsFilterFactoryGetFirstChildFilter(
 
 
 
-#### - FilterFactory [in]
+### -param FilterFactory [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure for which to find the first instantiated child filter.
 
@@ -88,13 +88,13 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetfirstchild.md"
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
-
 <a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01fad141-d023-4a3a-80ae-cb07985db8d1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PVIDEO_MODE, ntddvdeo/VIDEO_MODE, Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, display.video_mode, PVIDEO_MODE, ntddvdeo/PVIDEO_MODE, VIDEO_MODE structure [Display Devices], VIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], _VIDEO_MODE"
+ms.keywords: VIDEO_MODE, PVIDEO_MODE, *PVIDEO_MODE, ntddvdeo/VIDEO_MODE, VIDEO_MODE structure [Display Devices], ntddvdeo/PVIDEO_MODE, Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, _VIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], display.video_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,19 +67,19 @@ typedef struct _VIDEO_MODE {
 
 
 
-#### - RequestedMode
+### -field RequestedMode
 
 Is the mode that the miniport driver should set if possible. In addition, the two high-order bits can be set to request special behavior from the miniport driver as follows:
 
 
 
 
-#### VIDEO_MODE_ZERO_MEMORY
-
-Indicates that the miniport driver should zero the video memory in conjunction with the mode set.
-
-
 #### VIDEO_MODE_MAP_MEM_LINEAR
 
 Indicates that the miniport driver should map the video memory in a linear fashion if the adapter supports such an operation.
+
+
+#### VIDEO_MODE_ZERO_MEMORY
+
+Indicates that the miniport driver should zero the video memory in conjunction with the mode set.
 

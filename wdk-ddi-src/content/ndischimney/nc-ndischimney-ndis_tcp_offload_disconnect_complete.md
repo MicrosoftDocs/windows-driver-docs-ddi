@@ -54,8 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 An offload target calls the 
   <b>NdisTcpOffloadDisconnectComplete</b> function to complete a disconnect request that was initiated by a
   previous call to the 
-  <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-  MiniportTcpOffloadDisconnect</i></mshelp:link> function of the offload target.
+  <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+  MiniportTcpOffloadDisconnect</a> function of the offload target.
 
 
 ## -prototype
@@ -74,20 +74,20 @@ VOID NdisTcpOffloadDisconnectComplete(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> function.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a single 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. The offload
      target obtained this pointer as an input parameter to its 
-     <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-     MiniportTcpOffloadDisconnect</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+     MiniportTcpOffloadDisconnect</a> function.
 
 
 ## -returns
@@ -110,8 +110,8 @@ If the offload target issued an abortive disconnect, it must do the following be
 Complete all outstanding send requests on the connection with a status value of
       NDIS_STATUS_REQUEST_ABORTED. The offload target writes this status value to the 
       <b>Status</b> member of each NET_BUFFER_LIST structure in the linked list that it passes to the 
-      <mshelp:link keywords="netvista.ndistcpoffloadsendcomplete" tabindex="0"><b>
-      NdisTcpOffloadSendComplete</b></mshelp:link> function.
+      <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">
+      NdisTcpOffloadSendComplete</a> function.
 
 </li>
 <li>
@@ -154,8 +154,8 @@ Specify the number of user data bytes that were sent and successfully acknowledg
 </li>
 <li>
 Call the 
-      <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-      NdisAdvanceNetBufferDataStart</b></mshelp:link> function. The 
+      <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+      NdisAdvanceNetBufferDataStart</a> function. The 
       <i>NetBufferList</i> parameter should point to the NET_BUFFER structure associated with the
       NET_BUFFER_LIST structure that the offload target passes to the 
       <b>NdisTcpOffloadDisconnectComplete</b> function. The 
@@ -168,32 +168,32 @@ Call the
 </ul>Note that the 
     <b>NdisTcpOffloadDisconnectComplete</b> function returns only the NET_BUFFER_LIST structure and associated
     structures that NDIS passed to the offload target's 
-    <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-    MiniportTcpOffloadDisconnect</i></mshelp:link> function. The 
+    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+    MiniportTcpOffloadDisconnect</a> function. The 
     <b>NdisTcpOffloadDisconnectComplete</b> function cannot return NET_BUFFER_LIST structures that NDIS passed
     in previous calls to the offload target's 
-    <mshelp:link keywords="netvista.miniporttcpoffloadsend" tabindex="0"><i>
-    MiniportTcpOffloadSend</i></mshelp:link> function.
+    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">
+    MiniportTcpOffloadSend</a> function.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-   MiniportTcpOffloadDisconnect</i></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+   MiniportTcpOffloadDisconnect</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

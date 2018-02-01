@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31634cee-0d8e-4eed-b127-906da6a7b8fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetSubscriberNumbers method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetSubscriberNumbers, netvista.ril_getsubscribernumbers, RIL_GetSubscriberNumbers
+ms.keywords: RIL_GetSubscriberNumbers, netvista.ril_getsubscribernumbers, rilapi/RIL_GetSubscriberNumbers, RIL_GetSubscriberNumbers method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,15 +72,15 @@ HRESULT  RIL_GetSubscriberNumbers(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 

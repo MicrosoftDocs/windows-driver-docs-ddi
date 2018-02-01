@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef1f3c9b-70e5-48bd-b9f4-60ec661dc880
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M, DXVADDI_VideoTransferMatrix_BT709, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, DXVADDI_VideoTransferMatrix_BT601, display.dxvaddi_videotransfermatrix, DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VideoTransferMatrix_Unknown, d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices], _DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, DXVADDI_VideoTransferMatrix_SMPTE240M, d3dumddi/DXVADDI_VideoTransferMatrixMask
+ms.keywords: DXVADDI_VideoTransferMatrix_BT709, d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, display.dxvaddi_videotransfermatrix, DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VideoTransferMatrixMask, DXVADDI_VideoTransferMatrix_Unknown, DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices], DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VideoTransferMatrix_SMPTE240M, d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, _DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VideoTransferMatrix_BT601, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _DXVADDI_VIDEOTRANSFERMATRIX {
 
 
 
-#### - DXVADDI_VideoTransferMatrixMask
+### -field DXVADDI_VideoTransferMatrixMask
 
 Specifies the video transfer matrix mask. The first 3 (0x07) bits of a DWORD can be used to specify video transfer matrix.
 
 
-#### - DXVADDI_VideoTransferMatrix_Unknown
+### -field DXVADDI_VideoTransferMatrix_Unknown
 
 Specifies that the video transfer matrix is not specified. The default value is BT601 for standard definition (SD) video and BT709 for high definition (HD) video.
 
 
-#### - DXVADDI_VideoTransferMatrix_BT709
+### -field DXVADDI_VideoTransferMatrix_BT709
 
 Specifies the BT709 transfer matrix.
 
 
-#### - DXVADDI_VideoTransferMatrix_BT601
+### -field DXVADDI_VideoTransferMatrix_BT601
 
 Specifies the BT601 transfer matrix.
 
 
-#### - DXVADDI_VideoTransferMatrix_SMPTE240M
+### -field DXVADDI_VideoTransferMatrix_SMPTE240M
 
 Specifies a HD video standard that is rarely used in Japan.
 

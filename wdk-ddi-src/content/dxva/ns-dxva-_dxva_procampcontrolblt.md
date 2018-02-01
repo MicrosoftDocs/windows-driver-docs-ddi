@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_ProcAmpControlBlt, dxva/DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, DXVA_ProcAmpControlBlt structure [Display Devices], _DXVA_ProcAmpControlBlt
+ms.keywords: DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, DXVA_ProcAmpControlBlt structure [Display Devices], _DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxva/DXVA_ProcAmpControlBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,51 +74,51 @@ typedef struct _DXVA_ProcAmpControlBlt {
 
 
 
-#### - Size
+### -field Size
 
 Specifies the size of this structure in bytes.
 
 
-#### - DstRect
+### -field DstRect
 
 Specifies the destination rectangle as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
 
 
-#### - SrcRect
+### -field SrcRect
 
 Specifies the source rectangle as a RECT structure. The source rectangle is required for subrectangle stretching.sub Support for stretching is optional and is reported by the DXVA_ProcAmpControlCaps structure. Support for subrectangles is also optional.
 
 
-#### - Alpha
+### -field Alpha
 
 Specifies the transparency of the output image as it is written to the destination surface. A value of 0.0F indicates transparent. A value of 1.0F indicates opaque.
 
 
-#### - Brightness
+### -field Brightness
 
 Specifies the brightness of the output image as it is written to the destination surface.
 
 
-#### - Contrast
+### -field Contrast
 
 Specifies the contrast of the output image as it is written to the destination surface.
 
 
-#### - Hue
+### -field Hue
 
 Specifies the hue of the output image as it is written to the destination surface.
 
 
-#### - Saturation
+### -field Saturation
 
 Specifies the saturation of the output image as it is written to the destination surface.
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
-
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+
+<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
 
  
 

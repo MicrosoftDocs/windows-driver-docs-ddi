@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f2a234f3-aec9-4fe5-b720-bed9747d5a7f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_ENUM_PIVOT, DXGK_ENUM_PIVOT, _DXGK_ENUM_PIVOT, display.dxgk_enum_pivot, DXGK_ENUM_PIVOT structure [Display Devices], DmStructs_7a6fa02d-2223-4052-9911-cf9be1ab931a.xml
+ms.keywords: DmStructs_7a6fa02d-2223-4052-9911-cf9be1ab931a.xml, DXGK_ENUM_PIVOT structure [Display Devices], _DXGK_ENUM_PIVOT, display.dxgk_enum_pivot, DXGK_ENUM_PIVOT, d3dkmddi/DXGK_ENUM_PIVOT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _DXGK_ENUM_PIVOT {
 
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 If the pivot of the enumeration is a video present source, this member is the identifier of that source.
 
 
-#### - VidPnTargetId
+### -field VidPnTargetId
 
 If the pivot of the enumeration is a video present target, this member is the identifier of that target.
 

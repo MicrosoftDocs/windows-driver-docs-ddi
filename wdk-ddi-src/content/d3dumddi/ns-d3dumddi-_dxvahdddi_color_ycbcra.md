@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2a624e9-599e-4325-820b-945b3e649323
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_COLOR_YCbCrA structure [Display Devices], DXVA2_Structs_28a4ec5c-f8e6-414b-ac91-846e3b0fdbf8.xml, _DXVAHDDDI_COLOR_YCbCrA, DXVAHDDDI_COLOR_YCbCrA, d3dumddi/DXVAHDDDI_COLOR_YCbCrA, display.dxvahdddi_color_ycbcra
+ms.keywords: DXVA2_Structs_28a4ec5c-f8e6-414b-ac91-846e3b0fdbf8.xml, DXVAHDDDI_COLOR_YCbCrA structure [Display Devices], _DXVAHDDDI_COLOR_YCbCrA, d3dumddi/DXVAHDDDI_COLOR_YCbCrA, display.dxvahdddi_color_ycbcra, DXVAHDDDI_COLOR_YCbCrA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXVAHDDDI_COLOR_YCbCrA {
 
 
 
-#### - Y
+### -field Y
 
 [in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the luma component of the YCbCr color. 
 
 
-#### - Cb
+### -field Cb
 
 [in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the blue chroma component of the YCbCr color. 
 
 
-#### - Cr
+### -field Cr
 
 [in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the red chroma component of the YCbCr color. 
 
 
-#### - A
+### -field A
 
 [in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the alpha component (that is, the transparency level) of the YCbCr color.
 

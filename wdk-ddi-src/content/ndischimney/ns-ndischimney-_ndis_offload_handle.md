@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc1d7ca2-273a-42ca-896c-aebee862a4cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_offload_handle, _NDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], ndischimney/NDIS_OFFLOAD_HANDLE, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_HANDLE, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml, NDIS_OFFLOAD_HANDLE, ndischimney/PNDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE
+ms.keywords: ndischimney/PNDIS_OFFLOAD_HANDLE, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OFFLOAD_HANDLE, _NDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_HANDLE, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml, ndischimney/NDIS_OFFLOAD_HANDLE, netvista.ndis_offload_handle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _NDIS_OFFLOAD_HANDLE {
 
 
 
-#### - NdisReserved
+### -field NdisReserved
 
 Reserved for use by NDIS.
 
 
-#### - MiniportOffloadContext
+### -field MiniportOffloadContext
 
 A pointer that references a host memory location into which the underlying driver writes a PVOID
      value when completing the initiate offload operation. This PVOID value references the underlying
@@ -95,8 +95,8 @@ The NDIS_OFFLOAD_HANDLE structure contains a
     references the underlying driver's or offload target's context for the offloaded state object.
 
 For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see 
-    <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-    Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+    Referencing Offloaded State Through an Intermediate Driver</a>.
 
 
 

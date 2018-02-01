@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1399922d-684c-44a4-8bc7-b9e45ba05086
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory interface, SetBuffer method, wdf.iwdfmemory_setbuffer, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, IWDFMemory, IWDFMemory::SetBuffer, umdf.iwdfmemory_setbuffer, SetBuffer method, IWDFMemory interface, SetBuffer, wudfddi/IWDFMemory::SetBuffer, SetBuffer method
+ms.keywords: wdf.iwdfmemory_setbuffer, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, IWDFMemory interface, SetBuffer method, SetBuffer method, IWDFMemory interface, SetBuffer method, IWDFMemory, IWDFMemory::SetBuffer, wudfddi/IWDFMemory::SetBuffer, SetBuffer, umdf.iwdfmemory_setbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ void SetBuffer(
 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to a driver-supplied buffer.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to. 
 
@@ -97,9 +97,9 @@ The <b>SetBuffer</b> method can assign a buffer to a memory object that <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
  
 

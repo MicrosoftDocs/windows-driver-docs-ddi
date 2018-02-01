@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4131f7eb-de96-42cd-87f0-15fd73836a2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemlineto, OEMLineTo, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, OEMLineTo function [Print Devices], printoem/OEMLineTo
+ms.keywords: printoem/OEMLineTo, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, print.oemlineto, OEMLineTo function [Print Devices], OEMLineTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,38 +76,38 @@ BOOL APIENTRY OEMLineTo(
 
 
 
-#### - pso
+### -param pso
 
 
 
-#### - pco
+### -param pco
 
 
 
-#### - pbo
+### -param pbo
 
 
 
-#### - x1
+### -param x1
 
 
 
-#### - y1
+### -param y1
 
 
 
-#### - x2
+### -param x2
 
 
 
-#### - y2
+### -param y2
 
 
 
-#### - prclBounds
+### -param prclBounds
 
 
 
-#### - mix
+### -param mix
 
 

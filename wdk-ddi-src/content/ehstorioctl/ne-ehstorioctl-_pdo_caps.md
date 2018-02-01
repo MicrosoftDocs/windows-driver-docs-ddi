@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 78b6f3c7-bb42-4e93-8128-28b6f8e11dda
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDO_CAPABILITY_INC512_SET, PDO_CAPS, _PDO_CAPS, ehstorioctl/PDO_CAPS, PDO_CAPS enumeration [Storage Devices], structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml, PDO_CAPABILITY_INC512_CLEAR, ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, ehstorioctl/PDO_CAPABILITY_UNDEFINED, ehstorioctl/PDO_CAPABILITY_INC512_SET, storage.pdo_caps, PDO_CAPABILITY_UNDEFINED
+ms.keywords: ehstorioctl/PDO_CAPABILITY_UNDEFINED, storage.pdo_caps, structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml, PDO_CAPABILITY_INC512_CLEAR, _PDO_CAPS, PDO_CAPABILITY_UNDEFINED, ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, PDO_CAPS, PDO_CAPS enumeration [Storage Devices], PDO_CAPABILITY_INC512_SET, ehstorioctl/PDO_CAPS, ehstorioctl/PDO_CAPABILITY_INC512_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _PDO_CAPS {
 
 
 
-#### - PDO_CAPABILITY_UNDEFINED
+### -field PDO_CAPABILITY_UNDEFINED
 
 Command data block size granularity is undefined.
 
 
-#### - PDO_CAPABILITY_INC512_SET
+### -field PDO_CAPABILITY_INC512_SET
 
 Command data block size granularity of 512 bytes is supported.
 
 
-#### - PDO_CAPABILITY_INC512_CLEAR
+### -field PDO_CAPABILITY_INC512_CLEAR
 
 Command data block size granularity of 1 byte is supported.
 

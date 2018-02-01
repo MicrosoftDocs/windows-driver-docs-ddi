@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 731abdaf-f84b-4d4b-a6e0-ee11899fba27
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISynthSinkDMus::Render, audio.isynthsinkdmus_render, Render method [Audio Devices], ISynthSinkDMus, Render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, dmusicks/ISynthSinkDMus::Render, Render method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus interface [Audio Devices], Render method
+ms.keywords: ISynthSinkDMus interface [Audio Devices], Render method, dmusicks/ISynthSinkDMus::Render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, ISynthSinkDMus::Render, Render method [Audio Devices], ISynthSinkDMus interface, Render method [Audio Devices], Render, audio.isynthsinkdmus_render, ISynthSinkDMus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,12 +74,12 @@ void Render(
 
 
 
-#### - dwLength [in]
+### -param dwLength [in]
 
 Specifies the length (in bytes) of the data to be rendered.
 
 
-#### - llPosition [in]
+### -param llPosition [in]
 
 Specifies the position (in bytes) in the PCM buffer at which to begin rendering. Rendering continues from this position for the number of bytes specified in <i>dwLength</i>.
 

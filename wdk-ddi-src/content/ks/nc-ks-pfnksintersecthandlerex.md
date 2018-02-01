@@ -77,42 +77,42 @@ NTSTATUS AVStrMiniIntersectHandlerEx(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Pointer to the <b>Context</b> member of the corresponding <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> containing the intersection request.
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 Pointer to a structure of type <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a> that was passed in the intersection property request.
 
 
-#### - DataRange [in]
+### -param DataRange [in]
 
 Pointer to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures.
 
 
-#### - MatchingDataRange [in]
+### -param MatchingDataRange [in]
 
 Pointer to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures to match to <i>DataRange</i>.
 
 
-#### - DataBufferSize [in]
+### -param DataBufferSize [in]
 
 Specifies a value of type ULONG that contains the size of the data buffer.
 
 
-#### - Data [out]
+### -param Data [out]
 
 Pointer to an optional data buffer in which the minidriver outputs the intersection.
 
 
-#### - DataSize [out]
+### -param DataSize [out]
 
 Pointer to a value of type ULONG specifying the size of the data buffer.
 
@@ -133,17 +133,17 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
-
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-
-<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
+
 <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+
+<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
  
 

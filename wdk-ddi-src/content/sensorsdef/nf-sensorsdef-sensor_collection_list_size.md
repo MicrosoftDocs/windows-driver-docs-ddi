@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 98191F02-E047-41BC-922F-867DED522E59
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices], sensors.sensor_collection_list_size, sensorsdef/SENSOR_COLLECTION_LIST_SIZE, SENSOR_COLLECTION_LIST_SIZE
+ms.keywords: sensorsdef/SENSOR_COLLECTION_LIST_SIZE, sensors.sensor_collection_list_size, SENSOR_COLLECTION_LIST_SIZE, SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ FORCEINLINE ULONG SENSOR_COLLECTION_LIST_SIZE(
 
 
 
-#### - Count [in]
+### -param Count [in]
 
 The number of <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a> elements in the <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
 

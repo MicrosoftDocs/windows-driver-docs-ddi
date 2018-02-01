@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 064d8335-3ebf-4bc2-901e-10ce46bf7732
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_receive_filter_test, ntddndis/NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestEqual, ntddndis/NDIS_RECEIVE_FILTER_TEST, *PNDIS_RECEIVE_FILTER_TEST, _NDIS_RECEIVE_FILTER_TEST, ntddndis/PNDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestNotEqual, NdisReceiveFilterTestEqual, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveFilterTestMaximum, ntddndis/NdisReceiveFilterTestUndefined, NdisReceiveFilterTestMaximum, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveFilterTestMaskEqual, PNDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestUndefined, NdisReceiveFilterTestMaskEqual, NDIS_RECEIVE_FILTER_TEST
+ms.keywords: ntddndis/NdisReceiveFilterTestNotEqual, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, ntddndis/PNDIS_RECEIVE_FILTER_TEST, _NDIS_RECEIVE_FILTER_TEST, ntddndis/NDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestEqual, PNDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestUndefined, ntddndis/NdisReceiveFilterTestEqual, netvista.ndis_receive_filter_test, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestUndefined, ntddndis/NdisReceiveFilterTestMaskEqual, NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestMaximum, *PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestMaximum, NdisReceiveFilterTestMaskEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,30 +72,30 @@ typedef enum _NDIS_RECEIVE_FILTER_TEST {
 
 
 
-#### - NdisReceiveFilterTestUndefined
+### -field NdisReceiveFilterTestUndefined
 
 The type of test is not specified.
 
 
-#### - NdisReceiveFilterTestEqual
+### -field NdisReceiveFilterTestEqual
 
 The network adapter tests the selected header field to determine whether it is equal to a specific
      value.
 
 
-#### - NdisReceiveFilterTestMaskEqual
+### -field NdisReceiveFilterTestMaskEqual
 
 The network adapter supports masking (that is, a bitwise AND) of the selected header field to
      determine whether the result is equal to a specific value.
 
 
-#### - NdisReceiveFilterTestNotEqual
+### -field NdisReceiveFilterTestNotEqual
 
 The network adapter tests the selected header field to determine whether it is not equal to a specific
      value.
 
 
-#### - NdisReceiveFilterTestMaximum
+### -field NdisReceiveFilterTestMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -105,15 +105,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_RECEIVE_FILTER_TEST enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
 
  
 

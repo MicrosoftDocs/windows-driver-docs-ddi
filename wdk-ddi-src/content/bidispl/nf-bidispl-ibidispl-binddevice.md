@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_ACCESS_USER, IBidiSpl interface [Print Devices], IBidiSpl::BindDevice method, IBidiSpl::BindDevice method [Print Devices], IBidiSpl interface, print.ibidispl_ibidispl__binddevice, _win32_IBidiSpl_BindDevice, gdi.ibidispl_ibidispl__binddevice, bidispl/IBidiSpl::IBidiSpl::BindDevice, IBidiSpl, IBidiSpl::BindDevice method [Print Devices], BIDI_ACCESS_ADMINISTRATOR, IBidiSpl::BindDevice, BindDevice, IBidiSpl::IBidiSpl::BindDevice
+ms.keywords: IBidiSpl interface [Print Devices], IBidiSpl::BindDevice method, IBidiSpl, IBidiSpl::BindDevice method [Print Devices], IBidiSpl::BindDevice, print.ibidispl_ibidispl__binddevice, gdi.ibidispl_ibidispl__binddevice, bidispl/IBidiSpl::IBidiSpl::BindDevice, _win32_IBidiSpl_BindDevice, BIDI_ACCESS_USER, BIDI_ACCESS_ADMINISTRATOR, IBidiSpl::BindDevice method [Print Devices], IBidiSpl interface, BindDevice, IBidiSpl::IBidiSpl::BindDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT IBidiSpl::BindDevice(
 
 
 
-#### - pszDeviceName [in]
+### -param pszDeviceName [in]
 
 A pointer to a null-terminated string that contains name of the printer or print server. If <b>NULL</b>, it indicates the local printer server.
 
 
-#### - dwAccess [in]
+### -param dwAccess [in]
 
 The access privileges for the printer. This parameter can be one of the following values.
 <table>
@@ -152,11 +152,11 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
+
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
 
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 

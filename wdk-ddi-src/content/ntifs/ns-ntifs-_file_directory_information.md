@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 012c3178-f3a0-449b-b4a2-91fff4af1a17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.file_directory_information, _FILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION, ntifs/PFILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml, *PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers], FILE_DIRECTORY_INFORMATION, ntifs/FILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers]
+ms.keywords: FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers], ifsk.file_directory_information, ntifs/FILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers], _FILE_DIRECTORY_INFORMATION, *PFILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml, FILE_DIRECTORY_INFORMATION, ntifs/PFILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,58 +77,58 @@ typedef struct _FILE_DIRECTORY_INFORMATION {
 
 
 
-#### - NextEntryOffset
+### -field NextEntryOffset
 
 Byte offset of the next FILE_DIRECTORY_INFORMATION entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one. 
 
 
-#### - FileIndex
+### -field FileIndex
 
 Byte offset of the file within the parent directory. This member is undefined for file systems, such as NTFS, in which the position of a file within the parent directory is not fixed and can be changed at any time to maintain sort order. 
 
 
-#### - CreationTime
+### -field CreationTime
 
 Time when the file was created. 
 
 
-#### - LastAccessTime
+### -field LastAccessTime
 
 Last time the file was accessed. 
 
 
-#### - LastWriteTime
+### -field LastWriteTime
 
 Last time information was written to the file. 
 
 
-#### - ChangeTime
+### -field ChangeTime
 
 Last time the file was changed. 
 
 
-#### - EndOfFile
+### -field EndOfFile
 
 Absolute new end-of-file position as a byte offset from the start of the file. <b>EndOfFile</b> specifies the byte offset to the end of the file. Because this value is zero-based, it actually refers to the first free byte in the file. In other words, <b>EndOfFile</b> is the offset to the byte immediately following the last valid byte in the file.
 
 
-#### - AllocationSize
+### -field AllocationSize
 
 File allocation size, in bytes. Usually, this value is a multiple of the sector or cluster size of the underlying physical device. 
 
 
-#### - FileAttributes
+### -field FileAttributes
 
 File attributes, which can be any valid combination of the following:
 	  	
 
 
-#### - FileNameLength
+### -field FileNameLength
 
 Specifies the length of the file name string. 
 
 
-#### - FileName
+### -field FileName
 
 Specifies the first character of the file name string. This is followed in memory by the remainder of the string. 
 
@@ -156,11 +156,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory~r9.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
  
 

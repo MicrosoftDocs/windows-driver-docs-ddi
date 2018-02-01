@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6eccc5e8-7bf6-40bd-abb9-94b6fe4418a0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SendRLS_OUT, hbapiwmi/SendRLS_OUT, PSendRLS_OUT structure pointer [Storage Devices], PSendRLS_OUT, SendRLS_OUT structure [Storage Devices], structs-Fibre_0d3c1fb1-9827-4962-8aec-97fa6bd84d76.xml, _SendRLS_OUT, *PSendRLS_OUT, storage.sendrls_out, hbapiwmi/PSendRLS_OUT
+ms.keywords: SendRLS_OUT structure [Storage Devices], PSendRLS_OUT, SendRLS_OUT, *PSendRLS_OUT, _SendRLS_OUT, storage.sendrls_out, hbapiwmi/SendRLS_OUT, structs-Fibre_0d3c1fb1-9827-4962-8aec-97fa6bd84d76.xml, PSendRLS_OUT structure pointer [Storage Devices], hbapiwmi/PSendRLS_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SendRLS_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
-#### - TotalRspBufferSize
+### -field TotalRspBufferSize
 
 Contains the size in bytes of the results of the RLS command. 
 
 
-#### - ActualRspBufferSize
+### -field ActualRspBufferSize
 
 Contains the size in bytes of the data that was actually retrieved. 
 
 
-#### - RspBuffer
+### -field RspBuffer
 
 Contains the results of the RLS command. 
 

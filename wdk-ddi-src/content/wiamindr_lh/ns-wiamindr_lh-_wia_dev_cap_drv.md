@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4024d455-2393-481f-8cb5-b33346ca85c7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml, WIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV, _WIA_DEV_CAP_DRV, image.wia_dev_cap_drv, WIA_DEV_CAP_DRV structure [Imaging Devices], PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], wiamindr_lh/PWIA_DEV_CAP_DRV, wiamindr_lh/WIA_DEV_CAP_DRV
+ms.keywords: wiamindr_lh/PWIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV, image.wia_dev_cap_drv, _WIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], wiamindr_lh/WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV structure [Imaging Devices], wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml, *PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,14 +72,14 @@ typedef struct _WIA_DEV_CAP_DRV {
 
 
 
-#### - guid
+### -field guid
 
 Points to a GUID that identifies the device capability. This member can be set to any of the values specified for WIA device commands (WIA_CMD_<i>XXX</i> commands) or WIA event identifiers (WIA_EVENT_<i>XXX</i> event identifiers). See the Microsoft Windows SDK documentation for more information.
 
 The driver can define its own capability GUID that it can send down to the device. An application would need to have specific knowledge about that capability in order for it to be able to respond to the new capability, however. An application normally recognizes only the standard WIA command and event GUIDs (WIA_CMD_XXX and WIA_EVENT_XXX).
 
 
-#### - ulFlags
+### -field ulFlags
 
 Specifies the type of event. This member can be set to one or both of the following: 
 <table>
@@ -110,17 +110,17 @@ Application can register for notification on the given event using the <b>IwiaDe
 </table> 
 
 
-#### - wszName
+### -field wszName
 
 Specifies a string that contains a short version of the capability name. 
 
 
-#### - wszDescription
+### -field wszDescription
 
 Specifies a string containing the version of the capability name that can be displayed to the user.
 
 
-#### - wszIcon
+### -field wszIcon
 
 Specifies a string containing the name of the icon for this capability. The icon can be displayed to the user .
 

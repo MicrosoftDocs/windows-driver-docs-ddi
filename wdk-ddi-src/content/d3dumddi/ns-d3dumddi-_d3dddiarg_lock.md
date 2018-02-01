@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 00f8b16c-3ec1-48ac-930b-17aca16cc04f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_LOCK, _D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock, UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml
+ms.keywords: D3DDDIARG_LOCK structure [Display Devices], _D3DDDIARG_LOCK, d3dumddi/D3DDDIARG_LOCK, D3DDDIARG_LOCK, UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, display.d3dddiarg_lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,47 +77,47 @@ typedef struct _D3DDDIARG_LOCK {
 
 
 
-#### - Range
+### -field Range
 
 [in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock.
 
 
-#### - Area
+### -field Area
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock.
 
 
-#### - Box
+### -field Box
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock.
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the resource to be locked. 
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] The zero-based index into the resource, which is specified by the handle that is specified by <b>hResource</b>. This index indicates the subresource or surface to be locked.
 
 
-#### - pSurfData
+### -field pSurfData
 
 [out] A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function returns this pointer to the Microsoft Direct3D runtime.
 
 
-#### - Pitch
+### -field Pitch
 
 [out] The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function returns this pitch value to the Direct3D runtime.
 
 
-#### - SlicePitch
+### -field SlicePitch
 
 [out] The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function returns this slice pitch value to the Direct3D runtime.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockflags.md">D3DDDI_LOCKFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
 
@@ -148,9 +148,9 @@ The <b>ReadOnly</b> bit-field flag must not be simultaneously set with the <b>Di
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockflags.md">D3DDDI_LOCKFLAGS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
 
  
 

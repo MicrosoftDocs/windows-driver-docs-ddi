@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 483e6144-9752-4d47-9ed4-7e73bc0a59cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: SRIOV_INVALIDATE_BLOCK, _SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], *PSRIOV_INVALIDATE_BLOCK, PCI.sriov_invalidate_block, pcivirt/SRIOV_INVALIDATE_BLOCK
+ms.keywords: PCI.sriov_invalidate_block, SRIOV_INVALIDATE_BLOCK structure [Buses], SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK, *PSRIOV_INVALIDATE_BLOCK, _SRIOV_INVALIDATE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SRIOV_INVALIDATE_BLOCK {
 
 
 
-#### - VfIndex
+### -field VfIndex
 
 Zero-based index of the virtual function (VF) from the first VF exposed by this physical function (PF).
 
 
-#### - BlockMask
+### -field BlockMask
 
 a block of configuration data.
 

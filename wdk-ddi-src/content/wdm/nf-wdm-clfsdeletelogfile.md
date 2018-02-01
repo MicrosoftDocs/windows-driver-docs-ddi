@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8c90199-e938-45bb-9356-48591e127eed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], kernel.clfsdeletelogfile, ClfsDeleteLogFile, Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, wdm/ClfsDeleteLogFile
+ms.keywords: ClfsDeleteLogFile, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], wdm/ClfsDeleteLogFile, kernel.clfsdeletelogfile, Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS ClfsDeleteLogFile(
 
 
 
-#### - puszLogFileName [in]
+### -param puszLogFileName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the name of the CLFS stream to be deleted. 
 
@@ -87,17 +87,17 @@ If the stream to be deleted is one of the streams of a multiplexed log, the name
 TBD
 
 
-#### - fLogOptionFlag [in]
+### -param fLogOptionFlag [in]
 
 A value that indicates the relationship between CLFS and the component that is deleting the log. For a list of possible values, see the description of the <i>fLogOptionFlag</i> parameter of the <b>ClfsCreateLogFile</b> routine.
 
 
-#### - pvContext [in, optional]
+### -param pvContext [in, optional]
 
 A pointer to a context. The way the context is interpreted depends on the value passed in <i>fLogOptionFlag</i>.
 
 
-#### - cbContext [in]
+### -param cbContext [in]
 
 The size, in bytes, of the context pointed to by <i>pvContex</i>t. If <i>pvContext</i> is not <b>NULL</b>, this parameter must be greater than zero.
 
@@ -129,13 +129,13 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
+
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 <a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
 
 <a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
-
-<a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
 
  
 

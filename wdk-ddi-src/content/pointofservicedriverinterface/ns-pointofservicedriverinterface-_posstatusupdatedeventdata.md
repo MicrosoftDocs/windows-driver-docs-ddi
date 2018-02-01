@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, pos.posstatusupdatedeventdata"
+ms.keywords: pos.posstatusupdatedeventdata, _PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, PosStatusUpdatedEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _PosStatusUpdatedEventData {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
 
 
-#### - Status
+### -field Status
 
 Indicates a device-specific enumeration value.
 
 
-#### - ExtendedStatus
+### -field ExtendedStatus
 
 Indicates a driver-specific value intended to be used by the vendor for diagnostic purposes.
 

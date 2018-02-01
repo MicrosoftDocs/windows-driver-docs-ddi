@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc27758a-a793-48a1-a6ab-bd193aa9c61a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateNetBufferPool function [Network Drivers Starting with Windows Vista], NdisAllocateNetBufferPool, ndis/NdisAllocateNetBufferPool, ndis_netbuf_functions_ref_f12d38a1-161d-4209-95ea-6e66fcbef255.xml, netvista.ndisallocatenetbufferpool
+ms.keywords: netvista.ndisallocatenetbufferpool, NdisAllocateNetBufferPool, ndis/NdisAllocateNetBufferPool, ndis_netbuf_functions_ref_f12d38a1-161d-4209-95ea-6e66fcbef255.xml, NdisAllocateNetBufferPool function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ NDIS_HANDLE NdisAllocateNetBufferPool(
 
 
 
-#### - NdisHandle [in, optional]
+### -param NdisHandle [in, optional]
 
 An NDIS handle that was obtained during caller initialization.
 
 
-#### - Parameters [in]
+### -param Parameters [in]
 
 A pointer to a NET_BUFFER_POOL_PARAMETERS structure that defines the parameters for the pool. The
      structure is defined as follows:
@@ -99,6 +99,16 @@ A pointer to a NET_BUFFER_POOL_PARAMETERS structure that defines the parameters 
 
 
 
+#### DataSize
+
+The default data size for data buffers associated with this pool. The caller must set this value
+       if it calls the 
+       <a href="..\ndis\nf-ndis-ndisallocatenetbuffermdlanddata.md">
+       NdisAllocateNetBufferMdlAndData</a> function. NDIS uses this value to set the size of the data
+       buffer that it allocates for the NET_BUFFER structure. If the caller does not use this feature, this
+       value should be set to zero.
+
+
 #### Header
 
 The 
@@ -117,16 +127,6 @@ A kernel pool tag that the caller uses when it allocates
        is a string, delimited by single quotation marks, with up to four characters, usually specified in
        reverse order. The kernel pool tag helps NDIS to identify the owner of the NET_BUFFER structures that
        are allocated from this pool.
-
-
-#### DataSize
-
-The default data size for data buffers associated with this pool. The caller must set this value
-       if it calls the 
-       <mshelp:link keywords="netvista.ndisallocatenetbuffermdlanddata" tabindex="0"><b>
-       NdisAllocateNetBufferMdlAndData</b></mshelp:link> function. NDIS uses this value to set the size of the data
-       buffer that it allocates for the NET_BUFFER structure. If the caller does not use this feature, this
-       value should be set to zero.
 
 
 ## -returns
@@ -150,8 +150,8 @@ Call the following functions to allocate
 
 
 
-<mshelp:link keywords="netvista.ndisallocatenetbuffermdlanddata" tabindex="0"><b>
-       NdisAllocateNetBufferMdlAndData</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffermdlanddata.md">
+       NdisAllocateNetBufferMdlAndData</a>
 
 <div class="alert"><b>Note</b>  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> and 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures must be allocated
@@ -176,16 +176,16 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffermdlanddata.md">
+   NdisAllocateNetBufferMdlAndData</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbuffermdlanddata" tabindex="0"><b>
-   NdisAllocateNetBufferMdlAndData</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
-<a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nf-ndis-ndisfreenetbufferpool.md">NdisFreeNetBufferPool</a>
 

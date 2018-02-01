@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11e8338d-4ca3-49a4-8cfe-ac9f15434b4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsdiscardclonedstreamdata0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml, FwpsDiscardClonedStreamData0, fwpsk/FwpsDiscardClonedStreamData0
+ms.keywords: fwpsk/FwpsDiscardClonedStreamData0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], netvista.fwpsdiscardclonedstreamdata0, FwpsDiscardClonedStreamData0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ void NTAPI FwpsDiscardClonedStreamData0(
 
 
 
-#### - netBufferListChain [in, out]
+### -param netBufferListChain [in, out]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure chain that is
@@ -86,7 +86,7 @@ A pointer to the
 TBD
 
 
-#### - dispatchLevel [in]
+### -param dispatchLevel [in]
 
 A value that indicates the current IRQL = DISPATCH_LEVEL. A callout driver should set this
      parameter to <b>TRUE</b> only if it is running at IRQL = DISPATCH_LEVEL. Otherwise, a callout driver should set

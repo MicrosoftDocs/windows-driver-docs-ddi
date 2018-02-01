@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58530a72-6e07-44f5-9d7d-04bc37ff1ec9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSPROPERTY_ITEM, stream.ksproperty_item, KSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, ks/KSPROPERTY_ITEM, PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], KSPROPERTY_ITEM structure [Streaming Media Devices], ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml"
+ms.keywords: ks/KSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, PKSPROPERTY_ITEM, KSPROPERTY_ITEM structure [Streaming Media Devices], stream.ksproperty_item, KSPROPERTY_ITEM, *PKSPROPERTY_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,62 +82,62 @@ typedef struct {
 
 
 
-#### - GetPropertyHandler
+### -field GetPropertyHandler
 
 Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567177">KStrGetPropertyHandler</a>. If <b>NULL</b>, the property cannot be read. This member is used only by drivers that use the AVStream or Stream class interfaces.
 
 
-#### - GetSupported
+### -field GetSupported
 
 Set to <b>TRUE</b> if this property supports get requests, <b>FALSE</b> if it does not. (The class driver fulfills the request through the SRB_GET_DEVICE_PROPERTY or SRB_GET_STREAM_PROPERTY requests.) This member is used only by minidrivers running under stream class. 
 
 
-#### - SetPropertyHandler
+### -field SetPropertyHandler
 
 Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrSetPropertyHandler</a>. If <b>NULL</b>, the property cannot be set. This member is used only by drivers that use the AVStream or Stream class interfaces.
 
 
-#### - SetSupported
+### -field SetSupported
 
 Set to <b>TRUE</b> if this property supports set requests, <b>FALSE</b> if it does not. (The class driver fulfills the request through the SRB_SET_DEVICE_PROPERTY or SRB_SET_STREAM_PROPERTY requests.)
 
 
-#### - PropertyId
+### -field PropertyId
 
 Specifies the ID of the property being described.
 
 
-#### - MinProperty
+### -field MinProperty
 
 Specifies the minimum buffer length to hold the property identifier. This must be at least <b>sizeof</b>(<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>).
 
 
-#### - MinData
+### -field MinData
 
 Specifies the minimum buffer length to hold the data read from or written to this property.
 
 
-#### - Values
+### -field Values
 
 Pointer to a structure of type <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>. Specifies the acceptable and/or default values for the property. These are the same as the values reported by a driver in response to an IOCTL_KS_PROPERTY request with the KSPROPERTY_TYPE_BASICSUPPORT and KSPROPERTY_TYPE_DEFAULTVALUES flags set.
 
 
-#### - RelationsCount
+### -field RelationsCount
 
 Specifies the number of entries in the array pointed to by the <b>Relations</b> member.
 
 
-#### - Relations
+### -field Relations
 
 Points to an array of <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structures representing properties related to this one. Two properties are considered related if changing one property may affect the value of the other property. The <b>Flags</b> member of each entry is unused.
 
 
-#### - SupportHandler
+### -field SupportHandler
 
 Provide this member only if implementing your own format for raw serialization or raw unserialization. Basic support queries, range queries, and relations queries are automatically handled by AVStream, which returns the relevant values from other members of this KSPROPERTY_ITEM structure.
 
 
-#### - SerializedSize
+### -field SerializedSize
 
 Specifies the size of the property when serialized in a KSPROPERTY_TYPE_SERIALIZESET request. This should be zero if the property cannot be serialized. See <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> for more information.
 
@@ -223,19 +223,19 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568207">SRB_SET_STREAM_PROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568204">SRB_SET_DEVICE_PROPERTY</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
-
 <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>
 
  
 

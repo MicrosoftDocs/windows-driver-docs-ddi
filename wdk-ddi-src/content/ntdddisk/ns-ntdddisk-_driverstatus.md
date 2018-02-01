@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*LPDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS structure [Storage Devices], structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, storage.driverstatus, _DRIVERSTATUS, DRIVERSTATUS, PDRIVERSTATUS, ntdddisk/DRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], *PDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, LPDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS"
+ms.keywords: DRIVERSTATUS, PDRIVERSTATUS, LPDRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS structure [Storage Devices], _DRIVERSTATUS, *LPDRIVERSTATUS, ntdddisk/DRIVERSTATUS, *PDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, storage.driverstatus, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, PDRIVERSTATUS structure pointer [Storage Devices], ntdddisk/LPDRIVERSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,31 +70,31 @@ typedef struct _DRIVERSTATUS {
 
 
 
-#### - bDriverError
+### -field bDriverError
 
 Error code from driver, or 0 if no error.
 
 
-#### - bIDEError
+### -field bIDEError
 
 Contents of IDE Error register.
 
 
-#### - bReserved
+### -field bReserved
 
 Reserved. 
 
 
-#### - dwReserved
+### -field dwReserved
 
 Reserved. 
 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
 
  
 

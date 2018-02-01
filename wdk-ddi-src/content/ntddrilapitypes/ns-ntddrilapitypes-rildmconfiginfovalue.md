@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dda43544-4609-4674-9616-8e09939f0c39
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rildmconfiginfovalue, RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILDMCONFIGINFOVALUE
+ms.keywords: netvista.rildmconfiginfovalue, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], *LPRILDMCONFIGINFOVALUE, ntddrilapitypes/RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILDMCONFIGINFOVALUE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwType
+### -field dwType
 
 
 
-#### - fValue
+### -field fValue
 
 
 
-#### - dwValue
+### -field dwValue
 
 
 
-#### - wszValue
+### -field wszValue
 
 

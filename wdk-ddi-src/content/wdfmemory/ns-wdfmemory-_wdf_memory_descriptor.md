@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0683cb81-4ae7-4296-b46a-ad2e8b25a781
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfmemory/PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, _WDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR structure, *PWDF_MEMORY_DESCRIPTOR, wdf.wdf_memory_descriptor, wdfmemory/WDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR, kmdf.wdf_memory_descriptor, PWDF_MEMORY_DESCRIPTOR structure pointer
+ms.keywords: WDF_MEMORY_DESCRIPTOR, wdfmemory/WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer, wdfmemory/PWDF_MEMORY_DESCRIPTOR, wdf.wdf_memory_descriptor, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, _WDF_MEMORY_DESCRIPTOR, kmdf.wdf_memory_descriptor, PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,39 +84,14 @@ typedef struct _WDF_MEMORY_DESCRIPTOR {
 
 
 
-#### - u
+### -field u
 
 A union of three structures, one of which describes a buffer.
-
-
-#### BufferType
-
-If the <b>Type</b> member is <b>WdfMemoryDescriptorTypeBuffer</b>, the members of the <b>BufferType</b> structure describe a buffer. This structure contains the following two members:
-
-
-#### MdlType
-
-If the <b>Type</b> member is <b>WdfMemoryDescriptorTypeMdl</b>, the members of the <b>MdlType</b> structure describe a buffer. This structure contains the following two members:
-
-
-#### HandleType
-
-If the <b>Type</b> member is <b>WdfMemoryDescriptorTypeHandle</b>, the members of the <b>HandleType</b> structure describe a buffer. This structure contains the following two members:
 
 
 ### -field u.BufferType
 
 If the <b>Type</b> member is <b>WdfMemoryDescriptorTypeBuffer</b>, the members of the <b>BufferType</b> structure describe a buffer. This structure contains the following two members:
-
-
-#### BufferType.Buffer
-
-A pointer to a buffer. 
-
-
-#### BufferType.Length
-
-The length, in bytes, of the buffer. 
 
 
 ### -field u.BufferType.Buffer
@@ -134,16 +109,6 @@ The length, in bytes, of the buffer.
 If the <b>Type</b> member is <b>WdfMemoryDescriptorTypeMdl</b>, the members of the <b>MdlType</b> structure describe a buffer. This structure contains the following two members:
 
 
-#### MdlType.Mdl
-
-A pointer to a memory descriptor list (MDL). 
-
-
-#### MdlType.BufferLength
-
-The length, in bytes, of the buffer.
-
-
 ### -field u.MdlType.Mdl
 
 A pointer to a memory descriptor list (MDL). 
@@ -159,16 +124,6 @@ The length, in bytes, of the buffer.
 If the <b>Type</b> member is <b>WdfMemoryDescriptorTypeHandle</b>, the members of the <b>HandleType</b> structure describe a buffer. This structure contains the following two members:
 
 
-#### HandleType.Memory
-
-A handle to a framework memory object. 
-
-
-#### HandleType.Offsets
-
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
-
-
 ### -field u.HandleType.Memory
 
 A handle to a framework memory object. 
@@ -179,7 +134,7 @@ A handle to a framework memory object.
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
 
 
-#### - Type
+### -field Type
 
 A <a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>-typed value that identifies the type of buffer description that this <b>WDF_MEMORY_DESCRIPTOR</b> structure contains.
 
@@ -195,9 +150,9 @@ To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call 
 
 ## -see-also
 
-<a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>
-
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+<a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>
 
  
 

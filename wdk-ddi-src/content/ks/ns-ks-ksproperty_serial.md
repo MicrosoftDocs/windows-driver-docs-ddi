@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 751bf70d-0602-487a-82c7-efca075b8968
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SERIAL, KSPROPERTY_SERIAL structure [Streaming Media Devices], PKSPROPERTY_SERIAL, ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, *PKSPROPERTY_SERIAL, ks/KSPROPERTY_SERIAL, stream.ksproperty_serial, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], ks/PKSPROPERTY_SERIAL
+ms.keywords: PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], KSPROPERTY_SERIAL, stream.ksproperty_serial, KSPROPERTY_SERIAL structure [Streaming Media Devices], *PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL, ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, ks/PKSPROPERTY_SERIAL, ks/KSPROPERTY_SERIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - PropTypeSet
+### -field PropTypeSet
 
 A structure of type <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a> that specifies the type of property data. This is the same information obtained from querying Basic Support.
 
 
-#### - Id
+### -field Id
 
 Specifies the identifier for this property.
 
 
-#### - PropertyLength
+### -field PropertyLength
 
 Specifies the length, in bytes, of the following property data. This does not include any alignment buffering that may be appended to the property data before the next property in the serialization.
 

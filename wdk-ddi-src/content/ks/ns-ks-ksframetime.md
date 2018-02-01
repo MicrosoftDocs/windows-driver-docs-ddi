@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSFRAMETIME, stream.ksframetime, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME structure pointer [Streaming Media Devices], ks/PKSFRAMETIME, KSFRAMETIME, ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, PKSFRAMETIME, ks/KSFRAMETIME"
+ms.keywords: ks/PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, stream.ksframetime, PKSFRAMETIME structure pointer [Streaming Media Devices], ks/KSFRAMETIME, *PKSFRAMETIME, ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Duration
+### -field Duration
 
 Specifies the duration in presentation time units.
 
 
-#### - FrameFlags
+### -field FrameFlags
 
 Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>.
 
 
-#### - Reserved
+### -field Reserved
 
 Set to zero.
 

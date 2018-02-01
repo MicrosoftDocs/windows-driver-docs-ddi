@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B085DBB-2AAA-4170-A2B1-EA4D2C207A24
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], UFS_DEVICE_HEALTH_DESCRIPTOR, *PUFS_DEVICE_HEALTH_DESCRIPTOR, storage.ufs_device_health_descriptor, PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], ufs/UFS_DEVICE_HEALTH_DESCRIPTOR, ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR
+ms.keywords: PUFS_DEVICE_HEALTH_DESCRIPTOR, ufs/UFS_DEVICE_HEALTH_DESCRIPTOR, ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], *PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_device_health_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _UFS_DEVICE_HEALTH_DESCRIPTOR {
 
 
 
-#### - bLength
+### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
 
-#### - bDescriptorIDN
+### -field bDescriptorIDN
 
 Specifies the descriptor's Identification value. <b>UFS_DEVICE_HEALTH_DESCRIPTOR </b>will have a value of <b>UFS_DESC_HEALTH_IDN</b>.
 
 
-#### - bPreEOLInfo
+### -field bPreEOLInfo
 
 Contains Pre-End of Life Information. This member supplies information about a device's life time as reflected by the average number of reserved blocks. Contains one of the following values:
 <table>
@@ -116,7 +116,7 @@ reserved blocks.</td>
 </table> 
 
 
-#### - bDeviceLifeTimeEstA
+### -field bDeviceLifeTimeEstA
 
 <b>bDeviceLifeTimeEstA</b> provides an estimation of how much of a device's estimated life time has been used based on the amount of performed program/erase cycles. This calculation is vendor-specific and is referred as method A. Contains one of the following values:
 <table>
@@ -179,7 +179,7 @@ reserved blocks.</td>
 </table> 
 
 
-#### - bDeviceLifeTimeEstB
+### -field bDeviceLifeTimeEstB
 
 <b>bDeviceLifeTimeEstB</b> provides an estimation of how much of a device's estimated life time has been used based on the amount of performed program/erase cycles. This calculation is vendor-specific and is referred as method B. Contains the same possible values as <b>bDeviceLifeTimeEstA</b>.
 

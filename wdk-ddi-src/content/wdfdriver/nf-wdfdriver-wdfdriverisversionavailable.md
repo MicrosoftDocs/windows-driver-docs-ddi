@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5635b99d-c58d-4a17-bb51-2dc38e51421a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdriverisversionavailable, WdfDriverIsVersionAvailable method, DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, PFN_WDFDRIVERISVERSIONAVAILABLE, wdf.wdfdriverisversionavailable, wdfdriver/WdfDriverIsVersionAvailable
+ms.keywords: WdfDriverIsVersionAvailable method, wdf.wdfdriverisversionavailable, DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, kmdf.wdfdriverisversionavailable, PFN_WDFDRIVERISVERSIONAVAILABLE, wdfdriver/WdfDriverIsVersionAvailable, WdfDriverIsVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ BOOLEAN WdfDriverIsVersionAvailable(
 
 
 
-#### - Driver [in]
+### -param Driver [in]
 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 
 
-#### - VersionAvailableParams [in]
+### -param VersionAvailableParams [in]
 
 A pointer to a <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure that identifies a version of the framework library.
 
@@ -106,13 +106,13 @@ For more information about library versions, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-<a href="..\wdfdriver\nf-wdfdriver-wdfdriverretrieveversionstring.md">WdfDriverRetrieveVersionString</a>
-
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdriverretrieveversionstring.md">WdfDriverRetrieveVersionString</a>
 
  
 

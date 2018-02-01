@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3BB31389-EB1B-4443-9FCF-70B420D71126
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl routine [Installable File System Drivers], ifsk.fsrtlissuedeviceiocontrol
+ms.keywords: ifsk.fsrtlissuedeviceiocontrol, ntifs/FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS FsRtlIssueDeviceIoControl(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 The target device object.
 
 
-#### - IoCtl [in]
+### -param IoCtl [in]
 
 The IOCTL control code to issue.
 
@@ -90,27 +90,27 @@ The IOCTL control code to issue.
 TBD
 
 
-#### - InputBuffer [in, optional]
+### -param InputBuffer [in, optional]
 
 An optional buffer containing the input data for the request.
 
 
-#### - InputBufferLength [in]
+### -param InputBufferLength [in]
 
 The length, in bytes, of the input data in <i>InputBuffer</i>.
 
 
-#### - OutputBuffer [out, optional]
+### -param OutputBuffer [out, optional]
 
 An optional caller-supplied output buffer for returned data.
 
 
-#### - OutputBufferLength [in]
+### -param OutputBufferLength [in]
 
 The length, in bytes, of the output data buffer at <i>OutputBuffer</i>.
 
 
-#### - IosbInformation [in]
+### -param IosbInformation [in]
 
 A pointer to a <b>ULONG</b> status value to receive the information field value set in the I/O status block at completion of the request.
 

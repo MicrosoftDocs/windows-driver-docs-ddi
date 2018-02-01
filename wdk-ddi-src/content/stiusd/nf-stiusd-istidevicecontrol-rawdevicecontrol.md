@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDeviceControl::RawDeviceControl, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, stiusd/IStiDeviceControl::RawDeviceControl, RawDeviceControl method [Imaging Devices], RawDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl, image.istidevicecontrol_rawdevicecontrol
+ms.keywords: stiusd/IStiDeviceControl::RawDeviceControl, image.istidevicecontrol_rawdevicecontrol, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, RawDeviceControl method [Imaging Devices], IStiDeviceControl::RawDeviceControl, IStiDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, RawDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT RawDeviceControl(
 
 
 
-#### - EscapeFunction
+### -param EscapeFunction
 
 Defines the <b>USD_CONTROL_CODE</b> parameter <i>EscapeFunction.</i>
 
 
-#### - lpInData
+### -param lpInData
 
 Defines the <b>LPVOID</b> parameter <i>lpInData.</i>
 
 
-#### - cbInDataSize
+### -param cbInDataSize
 
 Defines the <b>DWORD</b> parameter <i>cbInDataSize.</i>
 
 
-#### - pOutData
+### -param pOutData
 
 Defines the <b>LPVOID</b> parameter <i>pOutData.</i>
 
 
-#### - dwOutDataSize
+### -param dwOutDataSize
 
 Defines the <b>DWORD</b> parameter <i>dwOutDataSize.</i>
 
 
-#### - pdwActualData
+### -param pdwActualData
 
 Defines the <b>LPDWORD</b> parameter <i>pdwActualData.</i>
 

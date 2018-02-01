@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 951b42b6-4d6a-45af-a27f-6e8056676bb0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, RemoveSyntheticModule, RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, debugger.removesyntheticmodule, dbgeng/IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, IDebugSymbols3::RemoveSyntheticModule, RemoveSyntheticModule method [Windows Debugging]
+ms.keywords: dbgeng/IDebugSymbols3::RemoveSyntheticModule, RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, RemoveSyntheticModule, IDebugSymbols3::RemoveSyntheticModule, debugger.removesyntheticmodule, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT RemoveSyntheticModule(
 
 
 
-#### - Base [in]
+### -param Base [in]
 
 Specifies the location in the process's virtual address space of the base of the synthetic module.
 
@@ -119,9 +119,9 @@ For more information about synthetic modules, see Synthetic Modules.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

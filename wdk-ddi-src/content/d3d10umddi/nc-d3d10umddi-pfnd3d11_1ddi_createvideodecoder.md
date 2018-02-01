@@ -92,6 +92,11 @@ HRESULT APIENTRY* CreateVideoDecoder(
 
 
 
+#### - hDecoder [in]
+
+A handle to the driver's private data for the video decoder object. For more information, see the Remarks section.
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -99,19 +104,14 @@ A handle to the display device (graphics context).
 
 
 
-#### - pCreateData [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
-
-
-#### - hDecoder [in]
-
-A handle to the driver's private data for the video decoder object. For more information, see the Remarks section.
-
-
 #### - hRTDecode [in]
 
 A handle to the video decoder object that the driver should use when it calls back into the runtime.
+
+
+#### - pCreateData [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
 
 
 ## -returns
@@ -180,9 +180,9 @@ The driver must keep track of the handle to the display device that was used to 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideodecodersize.md">CalcPrivateVideoDecoderSize</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
 
  
 

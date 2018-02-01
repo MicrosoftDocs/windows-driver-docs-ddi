@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::Field, debugger.extremotetyped_field, Field, Field method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped interface [Windows Debugging], Field method, Field method [Windows Debugging], ExtRemoteTyped
+ms.keywords: ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], Field method, Field method [Windows Debugging], debugger.extremotetyped_field, Field, ExtRemoteTyped::Field, EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, Field method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ ExtRemoteTyped Field(
 
 
 
-#### - Field [in]
+### -param Field [in]
 
 The name of the member whose typed data is requested.  Sub-members can be specified using a dot-separated path (for example, <b>mymember.mysubmember</b>).  Pointers on this dot-separated path will automatically be dereferenced. However, a dot operator (<b>.</b>) should still be used here instead of the usual C pointer dereference operator (<b>-&gt;</b>).
 

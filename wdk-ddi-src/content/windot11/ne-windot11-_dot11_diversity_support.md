@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], *PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_fixedlist, windot11/PDOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, windot11/dot11_diversity_support_notsupported, dot11_diversity_support_notsupported, dot11_diversity_support_unknown, windot11/dot11_diversity_support_unknown, dot11_diversity_support_dynamic, PDOT11_DIVERSITY_SUPPORT, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_dynamic, DOT11_DIVERSITY_SUPPORT, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, _DOT11_DIVERSITY_SUPPORT, windot11/DOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_fixedlist
+ms.keywords: windot11/dot11_diversity_support_fixedlist, dot11_diversity_support_fixedlist, windot11/dot11_diversity_support_unknown, *PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_notsupported, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT, windot11/PDOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, windot11/dot11_diversity_support_dynamic, windot11/DOT11_DIVERSITY_SUPPORT, dot11_diversity_support_notsupported, DOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, _DOT11_DIVERSITY_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,26 +72,26 @@ typedef enum _DOT11_DIVERSITY_SUPPORT {
 
 
 
-#### - dot11_diversity_support_unknown
+### -field dot11_diversity_support_unknown
 
 An uninitialized or unknown diversity support type.
 
 
-#### - dot11_diversity_support_fixedlist
+### -field dot11_diversity_support_fixedlist
 
 The PHY supports antenna diversity that is performed over the fixed list of antennas defined in
      the 
      <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
-     OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+     OID_DOT11_DIVERSITY_SELECTION_RX</a>.
 
 
-#### - dot11_diversity_support_notsupported
+### -field dot11_diversity_support_notsupported
 
 The PHY does not support antenna diversity.
 
 
-#### - dot11_diversity_support_dynamic
+### -field dot11_diversity_support_dynamic
 
 The PHY supports antenna diversity and the dynamic control of diversity. The PHY layer management
      entity (LME) can dynamically modify the list of antennas specified by the 
@@ -100,8 +100,8 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
-   OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+   OID_DOT11_DIVERSITY_SELECTION_RX</a>
 
  
 

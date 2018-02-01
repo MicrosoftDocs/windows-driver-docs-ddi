@@ -71,12 +71,12 @@ NTSTATUS DxgkDdiAddDevice(
 
 
 
-#### - PhysicalDeviceObject [in]
+### -param PhysicalDeviceObject [in]
 
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
 
-#### - MiniportDeviceContext [out]
+### -param MiniportDeviceContext [out]
 
 A pointer to a variable that receives a handle, created by the display miniport driver, that will represent the display adapter identified by <i>PhysicalDeviceObject</i>. The display miniport driver can return <b>NULL</b> in this parameter to indicate that it will not support the display adapter identified by <i>PhysicalDeviceObject</i>. 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f6c28ad-d3dd-4be4-a637-10958a9cbd20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsProcessPinUpdate function [Streaming Media Devices], KsProcessPinUpdate, avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, stream.ksprocesspinupdate, ks/KsProcessPinUpdate
+ms.keywords: ks/KsProcessPinUpdate, stream.ksprocesspinupdate, avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN KsProcessPinUpdate(
 
 
 
-#### - ProcessPin [in]
+### -param ProcessPin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a> structure that represents the process pin to update.
 
@@ -89,9 +89,9 @@ For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
-
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
+
+<a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
 
  
 

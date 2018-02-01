@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PowerMonitorOff, PowerMonitorOn, wdm/PowerMonitorOff, _MONITOR_DISPLAY_STATE, wdm/PowerMonitorDim, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], wdm/PowerMonitorOn, *PMONITOR_DISPLAY_STATE, wdm/MONITOR_DISPLAY_STATE, kernel.monitor_display_state, MONITOR_DISPLAY_STATE, PowerMonitorDim
+ms.keywords: MONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], PowerMonitorDim, _MONITOR_DISPLAY_STATE, wdm/PowerMonitorDim, PowerMonitorOn, *PMONITOR_DISPLAY_STATE, wdm/MONITOR_DISPLAY_STATE, kernel.monitor_display_state, wdm/PowerMonitorOff, wdm/PowerMonitorOn, PowerMonitorOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _MONITOR_DISPLAY_STATE {
 
 
 
-#### - PowerMonitorOff
+### -field PowerMonitorOff
 
 This indicates that the monitor is off.
 
 
-#### - PowerMonitorOn
+### -field PowerMonitorOn
 
 This indicates that the monitor is on.
 
 
-#### - PowerMonitorDim
+### -field PowerMonitorDim
 
 This indicates that the monitor is dim.
 

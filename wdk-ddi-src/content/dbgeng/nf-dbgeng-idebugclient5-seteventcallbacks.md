@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c741777b-dfaf-42b0-9dd7-6678281b6359
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetEventCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], SetEventCallbacks method, dbgeng/IDebugClient5::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient2 interface, SetEventCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient5, SetEventCallbacks, IDebugClient_a234bf28-5dd1-4e92-ab72-aa8d9a3a282b.xml, dbgeng/IDebugClient2::SetEventCallbacks, dbgeng/IDebugClient4::SetEventCallbacks, IDebugClient3::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient5 interface [Windows Debugging], SetEventCallbacks method, IDebugClient2::SetEventCallbacks, dbgeng/IDebugClient3::SetEventCallbacks, IDebugClient::SetEventCallbacks, debugger.seteventcallbacks, IDebugClient4 interface [Windows Debugging], SetEventCallbacks method, SetEventCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient interface [Windows Debugging], SetEventCallbacks method, IDebugClient3 interface [Windows Debugging], SetEventCallbacks method, IDebugClient5::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient4::SetEventCallbacks, dbgeng/IDebugClient::SetEventCallbacks
+ms.keywords: dbgeng/IDebugClient::SetEventCallbacks, IDebugClient::SetEventCallbacks, IDebugClient5::SetEventCallbacks, dbgeng/IDebugClient3::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient2::SetEventCallbacks, dbgeng/IDebugClient5::SetEventCallbacks, IDebugClient_a234bf28-5dd1-4e92-ab72-aa8d9a3a282b.xml, IDebugClient4 interface [Windows Debugging], SetEventCallbacks method, IDebugClient5 interface [Windows Debugging], SetEventCallbacks method, SetEventCallbacks method [Windows Debugging], IDebugClient4 interface, SetEventCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], SetEventCallbacks method, SetEventCallbacks method [Windows Debugging], IDebugClient3 interface [Windows Debugging], SetEventCallbacks method, IDebugClient2::SetEventCallbacks, dbgeng/IDebugClient4::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], SetEventCallbacks method, IDebugClient3::SetEventCallbacks, IDebugClient4::SetEventCallbacks, SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient3 interface, debugger.seteventcallbacks, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,7 +71,7 @@ HRESULT SetEventCallbacks(
 
 
 
-#### - Callbacks [in, optional]
+### -param Callbacks [in, optional]
 
 Specifies the interface pointer to the event callbacks object to register with this client.
 
@@ -115,19 +115,19 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

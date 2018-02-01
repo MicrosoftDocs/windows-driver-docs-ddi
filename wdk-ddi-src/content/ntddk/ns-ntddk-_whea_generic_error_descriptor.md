@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: a3ab6522-8706-4166-974f-1744b352f3c2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PWHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR, _WHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whea.whea_generic_error_descriptor, whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml, PWHEA_GENERIC_ERROR_DESCRIPTOR"
+ms.keywords: "_WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications], PWHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR, whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml, WHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, whea.whea_generic_error_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,32 +77,32 @@ typedef struct _WHEA_GENERIC_ERROR_DESCRIPTOR {
 
 
 
-#### - Type
+### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_GENERIC.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Enabled
+### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
 
-#### - ErrStatusBlockLength
+### -field ErrStatusBlockLength
 
 The size, in bytes, of the block of error status registers that contain the error data for the error source.
 
 
-#### - RelatedErrorSourceId
+### -field RelatedErrorSourceId
 
 The identifier of the related error source. If the generic error source does not relate back to another error source, this member is not used.
 
 
-#### - ErrStatusAddressSpaceID
+### -field ErrStatusAddressSpaceID
 
 The address space of the address that is specified in the <b>ErrStatusAddress</b> member. Possible values are:
 
@@ -154,17 +154,17 @@ Reserved
 OEM defined address space
 
 
-#### - ErrStatusAddressBitWidth
+### -field ErrStatusAddressBitWidth
 
 The size, in bits, of the register at the address that is specified in the <b>ErrStatusAddress</b> member.
 
 
-#### - ErrStatusAddressBitOffset
+### -field ErrStatusAddressBitOffset
 
 The offset, in bits, of the register at the address that is specified in the <b>ErrStatusAddress</b> member.
 
 
-#### - ErrStatusAddressAccessSize
+### -field ErrStatusAddressAccessSize
 
 The access size for reading the register at the address that is specified in the <b>ErrStatusAddress</b> member. Possible values are:
 
@@ -196,12 +196,12 @@ Double word access
 Quad word access
 
 
-#### - ErrStatusAddress
+### -field ErrStatusAddress
 
 The 64-bit address of a register that contains the physical address of a block of memory that contains the error status data for the error source. This block of memory must reside in firmware reserved memory so that it is not reclaimed by the operating system's memory manager. The error status data contained in this block of memory is described by a <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure.
 
 
-#### - Notify
+### -field Notify
 
 A <a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
 
@@ -215,11 +215,11 @@ A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
  
 

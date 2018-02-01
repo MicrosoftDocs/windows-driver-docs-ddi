@@ -119,9 +119,9 @@ Performs a variety of different operations.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
  
 

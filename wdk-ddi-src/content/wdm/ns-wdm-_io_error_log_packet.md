@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4bf54017-d142-4534-8a5a-c7f267a1554b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET structure [Kernel-Mode Driver Architecture], kstruct_b_04c24dbc-a479-437c-adc2-b29294596564.xml, wdm/PIO_ERROR_LOG_PACKET, _IO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET structure pointer [Kernel-Mode Driver Architecture], *PIO_ERROR_LOG_PACKET, wdm/IO_ERROR_LOG_PACKET, kernel.io_error_log_packet
+ms.keywords: IO_ERROR_LOG_PACKET, wdm/IO_ERROR_LOG_PACKET, *PIO_ERROR_LOG_PACKET, kernel.io_error_log_packet, PIO_ERROR_LOG_PACKET, kstruct_b_04c24dbc-a479-437c-adc2-b29294596564.xml, IO_ERROR_LOG_PACKET structure [Kernel-Mode Driver Architecture], _IO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET structure pointer [Kernel-Mode Driver Architecture], wdm/PIO_ERROR_LOG_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,71 +80,71 @@ typedef struct _IO_ERROR_LOG_PACKET {
 
 
 
-#### - MajorFunctionCode
+### -field MajorFunctionCode
 
 Indicates the <b>IRP_MJ_<i>XXX</i></b> major function code of the IRP the driver was handling when the error occurred. Setting this value is optional.
 
 
-#### - RetryCount
+### -field RetryCount
 
 Indicates the number of times the driver has retried the operation and encountered this error. Use zero to indicate the driver attempted the operation once, or add one for each retry beyond the initial attempt.
 
 
-#### - DumpDataSize
+### -field DumpDataSize
 
 Indicates the size, in bytes, of the variable-length <b>DumpData</b> member of this structure. The specified value must be a multiple of <b>sizeof</b>(ULONG). 
 
 
-#### - NumberOfStrings
+### -field NumberOfStrings
 
 Indicates the number of insertion strings the driver will supply with this error log entry. Drivers set this value to zero for errors that need no insertion strings. The Event Viewer uses these strings to fill in the "%2" through "%<i>n</i>" entries in the string template for this error code.
 
 The null-terminated Unicode strings themselves follow the <b>IO_ERROR_LOG_PACKET</b> structure in memory.
 
 
-#### - StringOffset
+### -field StringOffset
 
 Indicates the offset, in bytes, from the beginning of the structure, at which any driver-supplied insertion string data begins. Normally this will be <b>sizeof</b>(<b>IO_ERROR_LOG_PACKET</b>) plus the value of the <b>DumpDataSize</b> member. If there are no driver-supplied insertion strings, <b>StringOffset</b> can be zero.
 
 
-#### - EventCategory
+### -field EventCategory
 
 Specifies the event category for the error. A driver specifies the event categories it supports and corresponding descriptive strings in its message catalog. The Event Viewer displays the descriptive string as the <b>Category</b> value for the error.
 
 
-#### - ErrorCode
+### -field ErrorCode
 
 Specifies the type of error. The Event Viewer uses the error code to determine which string to display as the Description value for the error. The Event Viewer takes the string template for the error supplied in the driver's message catalog, replaces "%1" in the template with the name of the driver's device object, and replaces "%2" through "%<i>n</i>" with the insertion strings supplied with the error log entry.
 
 <b>ErrorCode</b> is a system-defined or driver-defined constant; see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554312">Logging Errors</a> for more information. 
 
 
-#### - UniqueErrorValue
+### -field UniqueErrorValue
 
 A driver-specific value that indicates where the error was detected in the driver. Setting this value is optional.
 
 
-#### - FinalStatus
+### -field FinalStatus
 
 Specifies the NTSTATUS value to be returned for the operation that triggered the error. Setting this value is optional.
 
 
-#### - SequenceNumber
+### -field SequenceNumber
 
 Specifies a driver-assigned sequence number for the current IRP, which should be constant for the life of a given request. Setting this value is optional.
 
 
-#### - IoControlCode
+### -field IoControlCode
 
 For an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> IRP, this member specifies the I/O control code for the request that trigged the error. Otherwise, this value is zero. Setting this value is optional.
 
 
-#### - DeviceOffset
+### -field DeviceOffset
 
 Specifies the driver-specified offset into the device where the error occurred. Setting this value is optional.
 
 
-#### - DumpData
+### -field DumpData
 
 A variable-size array that can be used to store driver-specific binary data, such as register values or any other information useful in identifying the cause of the error. Drivers must specify the size, in bytes, of the array in the <b>DumpDataSize</b> member of this structure.
 
@@ -162,15 +162,15 @@ For more information about how to use this structure, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
  
 

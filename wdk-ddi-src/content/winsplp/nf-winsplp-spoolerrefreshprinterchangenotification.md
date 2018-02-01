@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SpoolerRefreshPrinterChangeNotification, print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices]
+ms.keywords: winsplp/SpoolerRefreshPrinterChangeNotification, print.spoolerrefreshprinterchangenotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], SpoolerRefreshPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,18 +71,18 @@ BOOL WINAPI SpoolerRefreshPrinterChangeNotification(
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 
 
-#### - dwColor [in]
+### -param dwColor [in]
 
 
 
-#### - pOptions [in]
+### -param pOptions [in]
 
 
 
-#### - ppInfo [in, out, optional]
+### -param ppInfo [in, out, optional]
 
 

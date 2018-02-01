@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C4021856-835D-4B4B-9795-4FEEEFAC06B8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSET_UNIT_DIRECTORY structure pointer [Buses], SET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY structure [Buses], 61883/SET_UNIT_DIRECTORY, _SET_UNIT_DIRECTORY, 61883/PSET_UNIT_DIRECTORY, IEEE.set_unit_directory, *PSET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY
+ms.keywords: PSET_UNIT_DIRECTORY structure pointer [Buses], SET_UNIT_DIRECTORY structure [Buses], _SET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY, 61883/PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY, 61883/SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY, IEEE.set_unit_directory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SET_UNIT_DIRECTORY {
 
 
 
-#### - Flags
+### -field Flags
 
 On input, specifies whether to add or remove a unit directory. Can be ADD_UNIT_DIRECTORY_ENTRY to add a unit directory, or REMOVE_UNIT_DIRECTORY_ENTRY to remove a unit directory. If ISSUE_BUS_RESET_AFTER_MODIFY is also set, a bus reset will be issued after the add or remove.
 
 
-#### - UnitSpecId
+### -field UnitSpecId
 
 On input, the UnitSpecId value to use within the unit directory, as defined in the <i>IEEE 1394-1995 Specification</i>. 
 
 
-#### - UnitSwVersion
+### -field UnitSwVersion
 
 On input, the UnitSwVersion value to use within the unit directory, as defined in the <i>IEEE 1394-1995 Specification</i>. 
 
 
-#### - hCromEntry
+### -field hCromEntry
 
 On input, a handle to the Configuration ROM entry. 
 

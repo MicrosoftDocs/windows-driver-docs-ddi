@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1F2C2B8E-6535-40F1-A5D3-46DAD43E923E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CMP_CONNECT_VER3, CMP_CONNECT_VER3 structure [Buses], _CMP_CONNECT_VER3, CMP_CONNECT_VER3, IEEE.cmp_connect_ver3, *PCMP_CONNECT, PCMP_CONNECT_VER3 structure pointer [Buses], *PCMP_CONNECT_VER3, CMP_CONNECT, PCMP_CONNECT_VER3, 61883/PCMP_CONNECT_VER3
+ms.keywords: CMP_CONNECT_VER3 structure [Buses], PCMP_CONNECT_VER3, CMP_CONNECT_VER3, _CMP_CONNECT_VER3, 61883/PCMP_CONNECT_VER3, *PCMP_CONNECT, CMP_CONNECT, PCMP_CONNECT_VER3 structure pointer [Buses], *PCMP_CONNECT_VER3, 61883/CMP_CONNECT_VER3, IEEE.cmp_connect_ver3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _CMP_CONNECT_VER3 {
 
 
 
-#### - hOutputPlug
+### -field hOutputPlug
 
 The handle of an output plug.
 
 
-#### - hInputPlug
+### -field hInputPlug
 
 The handle of an input plug.
 
 
-#### - Type
+### -field Type
 
 The type of the requested connection.
 
 
-#### - Format
+### -field Format
 
 The requested data format.
 
 
-#### - hConnect
+### -field hConnect
 
 The handle for the created connection.
 

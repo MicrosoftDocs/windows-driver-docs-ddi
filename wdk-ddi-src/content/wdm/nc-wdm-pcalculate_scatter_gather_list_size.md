@@ -76,27 +76,27 @@ NTSTATUS CalculateScatterGatherList(
 
 
 
-#### - DmaAdapter [in]
+### -param DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-#### - Mdl [in, optional]
+### -param Mdl [in, optional]
 
 Either <b>NULL</b> or a pointer to the MDL that contains the buffer. 
 
 
-#### - CurrentVa [in]
+### -param CurrentVa [in]
 
 Pointer to the virtual address of the beginning of the buffer. 
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the length of the buffer, in bytes. 
 
 
-#### - ScatterGatherListSize [out]
+### -param ScatterGatherListSize [out]
 
 Pointer to the variable the routine uses to return the size of the scatter/gather list, in bytes.
 
@@ -177,15 +177,15 @@ A driver uses <b>CalculateScatterGatherList</b> to allocate a scatter/gather lis
 
 <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfmemorycreatefromlookaside, WdfMemoryCreateFromLookaside method, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, wdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside, PFN_WDFMEMORYCREATEFROMLOOKASIDE, WdfMemoryCreateFromLookaside
+ms.keywords: wdf.wdfmemorycreatefromlookaside, PFN_WDFMEMORYCREATEFROMLOOKASIDE, WdfMemoryCreateFromLookaside, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, kmdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfMemoryCreateFromLookaside(
 
 
 
-#### - Lookaside [in]
+### -param Lookaside [in]
 
 A handle to a framework lookaside-list object that is obtained by calling <a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>.
 
 
-#### - Memory [out]
+### -param Memory [out]
 
 A pointer to a location that receives a handle to the new framework memory object.
 
@@ -140,11 +140,11 @@ If lookaside-list buffers are being allocated from the pageable memory pool, the
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>
 

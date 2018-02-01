@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7331b30f-f61c-445c-ac0f-07c887ae92d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WMIREGINFOW, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, wmistr/PWMIREGINFOW, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], kernel.wmireginfo, PWMIREGINFOW, *PWMIREGINFOW, WMIREGINFOW structure [Kernel-Mode Driver Architecture], wmistr/WMIREGINFOW, WMIREGINFO
+ms.keywords: WMIREGINFOW, PWMIREGINFOW, wmistr/WMIREGINFOW, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], *PWMIREGINFOW, WMIREGINFO, kernel.wmireginfo, wmistr/PWMIREGINFOW, WMIREGINFOW structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct {
 
 
 
-#### - BufferSize
+### -field BufferSize
 
 Indicates the total size of the WMI registration data associated with this <b>WMIREGINFO</b> structure, calculated as follows: (<b>sizeof</b>(<b>WMIREGINFO</b>) + (<b>GuidCount</b> * <b>sizeof</b>(<b>WMIREGGUID</b>) + <i>additionaldata</i>). Additional data might include items such as the MOF resource name, registry path, and static instance names for blocks.
 
 
-#### - NextWmiRegInfo
+### -field NextWmiRegInfo
 
 If a driver handles WMI requests on behalf of another driver, as a class driver might on behalf of a miniclass driver, <b>NextWmiRegInfo</b> indicates the offset in bytes from the beginning of this <b>WMIREGINFO</b> to the next <b>WMIREGINFO</b> structure that contains WMI registration information for the other driver. Otherwise, <b>NextWmiRegInfo</b> is zero.
 
 
-#### - RegistryPath
+### -field RegistryPath
 
 Indicates the offset in bytes from the beginning of this structure to a counted Unicode string that specifies the registry path passed to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. The string must be aligned on a USHORT boundary. This member should be set only in response to a WMI registration request (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath</b> set to WMIREGISTER).
 
 
-#### - MofResourceName
+### -field MofResourceName
 
 Indicates the offset in bytes from the beginning of this structure to a counted Unicode string that specifies the name of the MOF resource in the driver's image file. The string must be aligned on a USHORT boundary. This member should be set only in response to a WMI registration request (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath</b> set to WMIREGISTER).
 
 
-#### - GuidCount
+### -field GuidCount
 
 Indicates the number of <a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a> structures in the array at <b>WmiRegGuid</b>.
 
 
-#### - WmiRegGuid
+### -field WmiRegGuid
 
 Is an array of <b>GuidCount </b><a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a> structures.
 
@@ -116,9 +116,9 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
 
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 

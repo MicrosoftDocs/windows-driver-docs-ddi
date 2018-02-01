@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_LINKED_DEVICE, *PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], dispmprt/LINKED_DEVICE, dispmprt/PLINKED_DEVICE, LINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, display.linked_device, PLINKED_DEVICE, LINKED_DEVICE structure [Display Devices]"
+ms.keywords: display.linked_device, dispmprt/PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], LINKED_DEVICE, *PLINKED_DEVICE, _LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], dispmprt/LINKED_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _LINKED_DEVICE {
 
 
 
-#### - ChainUid
+### -field ChainUid
 
 A unique identifier for this chain of display adapters.
 
 
-#### - NumberOfLinksInChain
+### -field NumberOfLinksInChain
 
 The expected number of linked adapters that the operating system should enumerate.
 
 
-#### - LeadLink
+### -field LeadLink
 
 A value that indicates the leading link in the chain of linked adapters. The value is <b>TRUE</b> only for the adapter that will be allowed to enumerate child adapters. Otherwise, the value is <b>FALSE</b>.
 

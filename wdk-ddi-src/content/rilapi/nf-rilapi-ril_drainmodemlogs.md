@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a9f3bb8-3de5-439c-86a3-7fdc6b025b8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_drainmodemlogs, rilapi/RIL_DrainModemLogs, RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_drainmodemlogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], RIL_DrainModemLogs, rilapi/RIL_DrainModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,11 +71,11 @@ HRESULT  RIL_DrainModemLogs(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 

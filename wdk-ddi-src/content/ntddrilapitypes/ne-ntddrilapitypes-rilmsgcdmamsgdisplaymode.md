@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee75cf74-def7-4705-ae61-c2472bd4446e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMSGCDMAMSGDISPLAYMODE, ntddrilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT, RILMSGCDMAMSGDISPLAYMODE, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_USERDEFAULT, ntddrilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_MAX, netvista.rilmsgcdmamsgdisplaymode, RIL_MSGDISPLAYMODE_MOBILEDEFAULT
+ms.keywords: ntddrilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_MAX, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], RILMSGCDMAMSGDISPLAYMODE, RIL_MSGDISPLAYMODE_USERDEFAULT, ntddrilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT, RIL_MSGDISPLAYMODE_MOBILEDEFAULT, netvista.rilmsgcdmamsgdisplaymode, ntddrilapitypes/RILMSGCDMAMSGDISPLAYMODE, ntddrilapitypes/RIL_MSGDISPLAYMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILMSGCDMAMSGDISPLAYMODE {
 
 
 
-#### - RIL_MSGDISPLAYMODE_MOBILEDEFAULT
+### -field RIL_MSGDISPLAYMODE_MOBILEDEFAULT
 
 
 
-#### - RIL_MSGDISPLAYMODE_USERDEFAULT
+### -field RIL_MSGDISPLAYMODE_USERDEFAULT
 
 
 
-#### - RIL_MSGDISPLAYMODE_MAX
+### -field RIL_MSGDISPLAYMODE_MAX
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml, ntstrsafe/RtlStringCbPrintfA, RtlStringCbPrintfA, RtlStringCbPrintf, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfW
+ms.keywords: ntstrsafe/RtlStringCbPrintfA, RtlStringCbPrintfA, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml, kernel.rtlstringcbprintf, RtlStringCbPrintf, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbPrintfW, RtlStringCbPrintfW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS RtlStringCbPrintfW(
 
 
 
-#### - pszDest [out]
+### -param pszDest [out]
 
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list. 
 
 
-#### - cbDest [in]
+### -param cbDest [in]
 
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character. 
 
@@ -87,7 +87,7 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(W
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
 
 
-#### - pszFormat [in]
+### -param pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/en-us/library/56e442dc.aspx">formatting directives</a>.
 
@@ -227,11 +227,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
 
  
 

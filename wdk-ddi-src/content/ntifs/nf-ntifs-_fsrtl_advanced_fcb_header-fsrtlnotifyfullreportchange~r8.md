@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
+ms.keywords: ntifs/FsRtlNotifyFullReportChange, fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], ifsk.fsrtlnotifyfullreportchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ VOID FsRtlNotifyFullReportChange(
 
 
 
-#### - NotifySync [in]
+### -param NotifySync [in]
 
 A pointer to an opaque synchronization object for the current volume.
 
 
-#### - NotifyList [in]
+### -param NotifyList [in]
 
 A pointer to the head of a notify list. Each element in the list is an opaque notify structure.
 
 
-#### - FullTargetName [in]
+### -param FullTargetName [in]
 
 A pointer to an ANSI or Unicode string that contains the full pathname of the file.
 
 
-#### - TargetNameOffset [in]
+### -param TargetNameOffset [in]
 
 Offset within the <i>FullTargetName</i> string of the final component of the name.
 
 
-#### - StreamName [in, optional]
+### -param StreamName [in, optional]
 
 Optional pointer to an ANSI or Unicode string that contains a stream name to store with the file name.
 
 
-#### - NormalizedParentName [in, optional]
+### -param NormalizedParentName [in, optional]
 
 Optional pointer to an ANSI or Unicode string that contains the same path as in the <i>FullTargetName</i> string, but with all short names replaced by the corresponding long names.
 
 
-#### - FilterMatch [in]
+### -param FilterMatch [in]
 
-A bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory~r9.md">FsRtlNotifyFullChangeDirectory</a>.
+A bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>.
 
 
-#### - Action [in]
+### -param Action [in]
 
 Specifies the action code to store in the user's buffer if present. The action code can be one of the values described following.
 <table>
@@ -231,9 +231,9 @@ An object ID for a file could not be tunneled because the file already has an ob
 </table> 
 
 
-#### - TargetContext [in, optional]
+### -param TargetContext [in, optional]
 
-Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory~r9.md">FsRtlNotifyFullChangeDirectory</a>.
+Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>.
 
 
 ## -returns
@@ -254,7 +254,7 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory~r9.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
  
 

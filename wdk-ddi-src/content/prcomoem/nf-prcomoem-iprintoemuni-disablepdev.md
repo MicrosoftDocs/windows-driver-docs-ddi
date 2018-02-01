@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bdceeb23-5d4a-4a1c-98b2-014a4126ca5f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml, DisablePDEV method [Print Devices], IPrintOemUni interface, print.iprintoemuni_disablepdev, IPrintOemUni interface [Print Devices], DisablePDEV method, IPrintOemUni, DisablePDEV, prcomoem/IPrintOemUni::DisablePDEV, DisablePDEV method [Print Devices], IPrintOemUni::DisablePDEV
+ms.keywords: IPrintOemUni, DisablePDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], DisablePDEV method, print.iprintoemuni_disablepdev, prcomoem/IPrintOemUni::DisablePDEV, IPrintOemUni::DisablePDEV, print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml, DisablePDEV method [Print Devices], DisablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ STDMETHOD DisablePDEV(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77ab08ce-96c5-4330-aab2-1bf4ab23cfc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetLogFile2, dbgeng/IDebugControl4::GetLogFile2, debugger.getlogfile2, GetLogFile2 method [Windows Debugging], IDebugControl4 interface, IDebugControl4, GetLogFile2, GetLogFile2 method [Windows Debugging], IDebugControl_9822bd84-b8ee-4d36-a66f-e38567d23646.xml, IDebugControl4 interface [Windows Debugging], GetLogFile2 method
+ms.keywords: IDebugControl4 interface [Windows Debugging], GetLogFile2 method, GetLogFile2 method [Windows Debugging], IDebugControl4 interface, debugger.getlogfile2, GetLogFile2 method [Windows Debugging], IDebugControl_9822bd84-b8ee-4d36-a66f-e38567d23646.xml, IDebugControl4::GetLogFile2, GetLogFile2, IDebugControl4, dbgeng/IDebugControl4::GetLogFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ HRESULT GetLogFile2(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the name of the currently open log file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - FileSize [out, optional]
+### -param FileSize [out, optional]
 
 Receives the size, in characters, of the name of the log file.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Flags [out]
+### -param Flags [out]
 
 Receives the bit-flags that were used when opening the log file.  See the <i>Flags</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a> for a description of these flags.
 
@@ -149,11 +149,11 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
  
 

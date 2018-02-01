@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a2e74fa-ee02-46f9-a51e-b2ffcdf7617a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_device_usage, d3dumddi/DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, _DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE
+ms.keywords: d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, _DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, display.dxvahdddi_device_usage, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _DXVAHDDDI_DEVICE_USAGE {
 
 
 
-#### - DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL
+### -field DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL
 
 A value that specifies that the device plays video at normal speed. 
 
 
-#### - DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED
+### -field DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED
 
 A value that specifies that the device plays video at optimal speed. 
 
 
-#### - DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY
+### -field DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY
 
 A value that specifies that the device plays video at optimal quality. 
 

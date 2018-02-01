@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 240414c7-c035-462c-8319-d7ac192c712a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEMERGENCYMODECONTROLPARAMS, rilapitypes/RILEMERGENCYMODECONTROLPARAMS, netvista.rilemergencymodecontrolparams_2, *LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS, netvista.rilemergencymodecontrolparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILEMERGENCYMODECONTROLPARAMS {
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwEmergencyModeControl
+### -field dwEmergencyModeControl
 
 

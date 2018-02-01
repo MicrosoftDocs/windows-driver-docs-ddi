@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b86caa13-bdb3-4bc4-b2c1-3e51cbcf396f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, debugger.readmultibytestringvirtual, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, IDebugDataSpaces4::ReadMultiByteStringVirtual, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, IDebugDataSpaces4, ReadMultiByteStringVirtual, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtual method, ReadMultiByteStringVirtual method [Windows Debugging]
+ms.keywords: debugger.readmultibytestringvirtual, ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, ReadMultiByteStringVirtual, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtual method, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4::ReadMultiByteStringVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT ReadMultiByteStringVirtual(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location of the string in the process's virtual address space.
 
 
-#### - MaxBytes [in]
+### -param MaxBytes [in]
 
 Specifies the maximum number of bytes to read from the target.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 <div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div><div> </div>
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - StringBytes [out, optional]
+### -param StringBytes [out, optional]
 
 Receives the size, in bytes, of the string.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 

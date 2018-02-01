@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: afa27127-b427-4831-b5f5-3e293738c275
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], KeExpandKernelStackAndCallout, ntddk/KeExpandKernelStackAndCallout, kernel.keexpandkernelstackandcallout, k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml
+ms.keywords: k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], ntddk/KeExpandKernelStackAndCallout, kernel.keexpandkernelstackandcallout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS KeExpandKernelStackAndCallout(
 
 
 
-#### - Callout [in]
+### -param Callout [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a> routine.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies the number of bytes on the stack to provide to the <i>ExpandedStackCall</i> routine. This value must be large enough to accommodate the stack usage of the <i>ExpandedStackCall</i> routine and any call that this routine might make. This value must not exceed MAXIMUM_EXPANSION_SIZE.
 
 
-#### - Parameter [in, optional]
+### -param Parameter [in, optional]
 
 Specifies the parameter to pass to the <i>ExpandedStackCall</i> routine.
 
@@ -106,9 +106,9 @@ The calling thread must not call the <a href="..\wdm\nf-wdm-psterminatesystemthr
 
 <a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552036">KeExpandKernelStackAndCalloutEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a>
 
  
 

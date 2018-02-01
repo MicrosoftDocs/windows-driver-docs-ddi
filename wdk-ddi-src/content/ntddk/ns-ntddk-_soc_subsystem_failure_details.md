@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 416F9A0C-0A86-4FAA-9052-5D37D29C464D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.soc_subsystem_failure_details, PSOC_SUBSYSTEM_FAILURE_DETAILS structure pointer [WHEA Drivers and Applications], _SOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS, *PSOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS structure [WHEA Drivers and Applications], ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS
+ms.keywords: "*PSOC_SUBSYSTEM_FAILURE_DETAILS, _SOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS structure [WHEA Drivers and Applications], whea.soc_subsystem_failure_details, ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS structure pointer [WHEA Drivers and Applications], SOC_SUBSYSTEM_FAILURE_DETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,27 +81,27 @@ typedef struct _SOC_SUBSYSTEM_FAILURE_DETAILS {
 
 
 
-#### - SubsysType
+### -field SubsysType
 
 A value in the <a href="..\ntddk\ne-ntddk-_soc_subsystem_type.md">SOC_SYBSYSTEM_TYPE</a> enumeration or a vendor-defined subsystem type. Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors. 
 
 
-#### - FirmwareVersion
+### -field FirmwareVersion
 
 A vendor-defined SoC firmware version number.
 
 
-#### - HardwareVersion
+### -field HardwareVersion
 
 A  vendor-defined SoC hardware version number.
 
 
-#### - UnifiedFailureRegionSize
+### -field UnifiedFailureRegionSize
 
 The size, in bytes, of the <b>UnifiedFailureRegion</b> string including the <b>NULL</b> terminator.
 
 
-#### - UnifiedFailureRegion
+### -field UnifiedFailureRegion
 
 A null-terminated string, defined by the vendor, that  contains classification details about the error that occurred.
 

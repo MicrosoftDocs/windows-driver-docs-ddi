@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/DLGPAGE, DLGPAGE, PDLGPAGE structure pointer [Print Devices], PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, DLGPAGE structure [Print Devices], *PDLGPAGE, print.dlgpage, compstui/PDLGPAGE, _DLGPAGE
+ms.keywords: "_DLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, compstui/PDLGPAGE, *PDLGPAGE, print.dlgpage, DLGPAGE, PDLGPAGE, compstui/DLGPAGE, PDLGPAGE structure pointer [Print Devices], DLGPAGE structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,81 +82,6 @@ typedef struct _DLGPAGE {
 
 ### -field DUMMYUNIONNAME.DlgTemplateID
 
- 
-
-
-### -field DUMMYUNIONNAME.hDlgTemplate
-
- 
-
-
-#### - cbSize
-
-Caller-supplied size, in bytes, of the DLGPAGE structure.
-
-
-#### - Flags
-
-Caller-supplied bit flags, as described in the following table.
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-DPF_ICONID_AS_HICON
-
-</td>
-<td>
-If set, IconID contains an icon handle.
-
-If not set, IconID contains an icon resource identifier.
-
-</td>
-</tr>
-<tr>
-<td>
-DPF_USE_HDLGTEMPLATE
-
-</td>
-<td>
-If set, <b>hDlgTemplate</b> contains a template handle.
-
-If not set, <b>DlgTemplateID</b> contains a template resource identifier.
-
-</td>
-</tr>
-</table> 
-
-
-#### - DlgProc
-
-Optional, caller-supplied DLGPROC-typed pointer to a dialog box procedure, used to process messages sent by the system when user events occur. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) If <b>NULL</b>, CPSUI supplies a dialog box procedure. For more information, see the following Remarks section.
-
-
-#### - pTabName
-
-Caller-supplied pointer to a NULL-terminated string to be displayed on the page tab.
-
-
-#### - IconID
-
-Caller-supplied, can be one of the following:
-<ul>
-<li>
-An icon resource identifier. This can be application-defined, or it can be one of the CPSUI-supplied, IDI_CPSUI-prefixed icon resource identifiers.
-
-</li>
-<li>
-An icon handle. If a handle is specified, DPF_ICONID_AS_HICON must be set in the <b>Flags</b> member.
-
-</li>
-</ul>The specified icon is displayed on the page tab. If this value is zero, an icon is not displayed.
-
-
-#### - DlgTemplateID
-
 Caller-supplied resource identifier for a dialog box template. This can refer to an application-supplied DIALOG resource, or it can be one of the following CPSUI-supplied identifiers (defined in compstui.h):
 <table>
 <tr>
@@ -200,11 +125,76 @@ The CPSUI-supplied identifiers refer to templates that can display <a href="http
 This member is not used if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
 
-#### - hDlgTemplate
+### -field DUMMYUNIONNAME.hDlgTemplate
 
 Caller-supplied handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
 
 Used only if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
+
+
+### -field cbSize
+
+Caller-supplied size, in bytes, of the DLGPAGE structure.
+
+
+### -field Flags
+
+Caller-supplied bit flags, as described in the following table.
+<table>
+<tr>
+<th>Flag</th>
+<th>Definition</th>
+</tr>
+<tr>
+<td>
+DPF_ICONID_AS_HICON
+
+</td>
+<td>
+If set, IconID contains an icon handle.
+
+If not set, IconID contains an icon resource identifier.
+
+</td>
+</tr>
+<tr>
+<td>
+DPF_USE_HDLGTEMPLATE
+
+</td>
+<td>
+If set, <b>hDlgTemplate</b> contains a template handle.
+
+If not set, <b>DlgTemplateID</b> contains a template resource identifier.
+
+</td>
+</tr>
+</table> 
+
+
+### -field DlgProc
+
+Optional, caller-supplied DLGPROC-typed pointer to a dialog box procedure, used to process messages sent by the system when user events occur. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) If <b>NULL</b>, CPSUI supplies a dialog box procedure. For more information, see the following Remarks section.
+
+
+### -field pTabName
+
+Caller-supplied pointer to a NULL-terminated string to be displayed on the page tab.
+
+
+### -field IconID
+
+Caller-supplied, can be one of the following:
+<ul>
+<li>
+An icon resource identifier. This can be application-defined, or it can be one of the CPSUI-supplied, IDI_CPSUI-prefixed icon resource identifiers.
+
+</li>
+<li>
+An icon handle. If a handle is specified, DPF_ICONID_AS_HICON must be set in the <b>Flags</b> member.
+
+</li>
+</ul>The specified icon is displayed on the page tab. If this value is zero, an icon is not displayed.
 
 
 ## -remarks

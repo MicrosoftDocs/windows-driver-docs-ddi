@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3ed93cff-7974-4cf9-9b89-f4a8e52c4c3d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], *LPRILMSGCDMAOUTSUBMIT, netvista.rilmsgcdmaoutsubmit
+ms.keywords: "*LPRILMSGCDMAOUTSUBMIT, netvista.rilmsgcdmaoutsubmit, ntddrilapitypes/RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,94 +89,94 @@ typedef struct _RILMSGCDMAOUTSUBMIT {
 
 
 
-#### - raDestAddress
+### -field raDestAddress
 
 
 
-#### - rsaDestSubaddr
+### -field rsaDestSubaddr
 
 
 
-#### - bDigit
+### -field bDigit
 
 
 
-#### - stValidityPeriodAbs
+### -field stValidityPeriodAbs
 
 
 
-#### - stValidityPeriodRel
+### -field stValidityPeriodRel
 
 
 
-#### - stDeferredDelTimeAbs
+### -field stDeferredDelTimeAbs
 
 
 
-#### - stDeferredDelTimeRel
+### -field stDeferredDelTimeRel
 
 
 
-#### - bDeliveryAckRequest
+### -field bDeliveryAckRequest
 
 
 
-#### - bUserAckRequest
+### -field bUserAckRequest
 
 
 
-#### - bBearerReplyRequest
+### -field bBearerReplyRequest
 
 
 
-#### - dwReplySeqNumber
+### -field dwReplySeqNumber
 
 
 
-#### - dwMsgDisplayMode
+### -field dwMsgDisplayMode
 
 
 
-#### - raCallBackNumber
+### -field raCallBackNumber
 
 
 
-#### - dwMsgPriority
+### -field dwMsgPriority
 
 
 
-#### - dwMsgPrivacy
+### -field dwMsgPrivacy
 
 
 
-#### - dwTeleservice
+### -field dwTeleservice
 
 
 
-#### - dwMsgID
+### -field dwMsgID
 
 
 
-#### - dwMsgLang
+### -field dwMsgLang
 
 
 
-#### - dwMsgEncoding
+### -field dwMsgEncoding
 
 
 
-#### - cbHdrLength
+### -field cbHdrLength
 
 
 
-#### - cchMsgLength
+### -field cchMsgLength
 
 
 
-#### - rgbHdr
+### -field rgbHdr
 
 
 
-#### - rgbMsg
+### -field rgbMsg
 
 

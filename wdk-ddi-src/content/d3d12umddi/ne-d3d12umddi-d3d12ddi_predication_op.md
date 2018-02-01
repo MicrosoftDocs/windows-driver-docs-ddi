@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70676251-BCD7-4996-B5B7-96A8D9B107DB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_predication_op, D3D12DDI_PREDICATION_OP, d3d12umddi/D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_EQUAL_ZERO, D3D12DDI_PREDICATION_OP enumeration [Display Devices], d3d12umddi/D3D12DDI_PREDICATION_OP_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP
+ms.keywords: D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP enumeration [Display Devices], d3d12umddi/D3D12DDI_PREDICATION_OP_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, display.d3d12ddi_predication_op, d3d12umddi/D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum D3D12DDI_PREDICATION_OP {
 
 
 
-#### - D3D12DDI_PREDICATION_OP_EQUAL_ZERO
+### -field D3D12DDI_PREDICATION_OP_EQUAL_ZERO
 
 All the bits in a 64 bit buffer are zero (0).
 
 
-#### - D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO
+### -field D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO
 
 Not all of the bits in a 64 bit buffer are zero (0).
 

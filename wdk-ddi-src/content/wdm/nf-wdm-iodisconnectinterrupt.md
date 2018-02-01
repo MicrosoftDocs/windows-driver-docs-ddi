@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06130ec3-7031-4c40-932a-7342c26b7e15
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDisconnectInterrupt routine [Kernel-Mode Driver Architecture], IoDisconnectInterrupt, wdm/IoDisconnectInterrupt, k104_6ed94efc-9513-4ad3-87d0-cec41e912876.xml, kernel.iodisconnectinterrupt
+ms.keywords: IoDisconnectInterrupt routine [Kernel-Mode Driver Architecture], kernel.iodisconnectinterrupt, wdm/IoDisconnectInterrupt, IoDisconnectInterrupt, k104_6ed94efc-9513-4ad3-87d0-cec41e912876.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID IoDisconnectInterrupt(
 
 
 
-#### - InterruptObject [in]
+### -param InterruptObject [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure. The caller obtained this pointer from the <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a> call that previously connected the interrupt or interrupts.
 
@@ -91,13 +91,13 @@ If the driver stored the pointer to its interrupt object(s) in the device extens
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
 
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
  
 

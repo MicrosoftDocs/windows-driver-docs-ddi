@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D5DF9785-83E0-4137-8E5F-357F94721CAD
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_HW_FIRMWARE_SLOT_INFO structure [Storage Devices], ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO, STORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO, *PSTORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO structure pointer [Storage Devices], storage.storage_hw_firmware_slot_info, _STORAGE_HW_FIRMWARE_SLOT_INFO
+ms.keywords: ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO, STORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO structure pointer [Storage Devices], _STORAGE_HW_FIRMWARE_SLOT_INFO, STORAGE_HW_FIRMWARE_SLOT_INFO structure [Storage Devices], *PSTORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_SLOT_INFO, storage.storage_hw_firmware_slot_info, PSTORAGE_HW_FIRMWARE_SLOT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _STORAGE_HW_FIRMWARE_SLOT_INFO {
 
 
 
-#### - Version
+### -field Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_SLOT_INFO)
 
 
-#### - Size
+### -field Size
 
 The size of this structure.
 
 
-#### - SlotNumber
+### -field SlotNumber
 
 The slot number of this slot.
 
 
-#### - ReadOnly
+### -field ReadOnly
 
 Indicates whether this slot is read-only or not.
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved for future use.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for future use.
 
 
-#### - Revision
+### -field Revision
 
 The revision of the firmware on this slot.
 

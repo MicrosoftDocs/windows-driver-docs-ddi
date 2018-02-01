@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E3CDED41-FE83-4CBC-9FF8-4858125F7108
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_USBDEVICE_MGMT_HEADER structure pointer [Buses], USBDEVICE_MGMT_HEADER structure [Buses], P_USBDEVICE_MGMT_HEADER, _USBDEVICE_MGMT_HEADER, ucxusbdevice/P_USBDEVICE_MGMT_HEADER, USBDEVICE_MGMT_HEADER, *PUSBDEVICE_MGMT_HEADER, buses._usbdevice_mgmt_header, ucxusbdevice/_USBDEVICE_MGMT_HEADER
+ms.keywords: P_USBDEVICE_MGMT_HEADER, USBDEVICE_MGMT_HEADER, *PUSBDEVICE_MGMT_HEADER, buses._usbdevice_mgmt_header, USBDEVICE_MGMT_HEADER structure [Buses], P_USBDEVICE_MGMT_HEADER structure pointer [Buses], _USBDEVICE_MGMT_HEADER, ucxusbdevice/P_USBDEVICE_MGMT_HEADER, ucxusbdevice/_USBDEVICE_MGMT_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _USBDEVICE_MGMT_HEADER {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of this structure.
 
 
-#### - Hub
+### -field Hub
 
 The handle to the USB hub that is physically connected to the bus.
 
 
-#### - UsbDevice
+### -field UsbDevice
 
 The handle for the USB device that is physically connected to the bus.
 

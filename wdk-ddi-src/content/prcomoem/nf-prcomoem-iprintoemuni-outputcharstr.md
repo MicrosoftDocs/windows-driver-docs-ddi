@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml, print.iprintoemuni_outputcharstr, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], IPrintOemUni interface, OutputCharStr, IPrintOemUni, prcomoem/IPrintOemUni::OutputCharStr, IPrintOemUni interface [Print Devices], OutputCharStr method, OutputCharStr method [Print Devices]
+ms.keywords: OutputCharStr, print.iprintoemuni_outputcharstr, IPrintOemUni, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml, prcomoem/IPrintOemUni::OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], OutputCharStr method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT OutputCharStr(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - pUFObj
+### -param pUFObj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
 
 
-#### - dwType
+### -param dwType
 
 Caller-supplied value indicating the type of glyph specifier array pointed to by <i>pGlyph</i>. Valid values are as follows:
 <table>
@@ -113,12 +113,12 @@ The <i>pGlyph</i> array elements are glyph identifiers of type DWORD.
 </table> 
 
 
-#### - dwCount
+### -param dwCount
 
 Caller-supplied value representing the number of glyph specifiers in the array pointed to by <i>pGlyph</i>.
 
 
-#### - pGlyph
+### -param pGlyph
 
 Caller-supplied pointer to an array of glyph specifiers, where the array element type is indicated by <i>dwType</i>.
 

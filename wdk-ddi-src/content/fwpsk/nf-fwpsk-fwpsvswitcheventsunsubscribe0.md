@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f83c6834-0438-42b8-ad9f-a1d82fcf361c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsvSwitchEventsUnsubscribe0, FwpsvSwitchEventsUnsubscribe0, FwpsvSwitchEventsUnsubscribe0 function [Network Drivers Starting with Windows Vista], netvista.fwpsvswitcheventsunsubscribe0
+ms.keywords: FwpsvSwitchEventsUnsubscribe0 function [Network Drivers Starting with Windows Vista], netvista.fwpsvswitcheventsunsubscribe0, fwpsk/FwpsvSwitchEventsUnsubscribe0, FwpsvSwitchEventsUnsubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,19 +72,19 @@ void NTAPI FwpsvSwitchEventsUnsubscribe0(
 
 
 
-#### - subscriptionId
+### -param subscriptionId
 
 A unique event subscription identifier that the callout driver obtained by calling  the  <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a> function.
 
 
 
 
-#### - flags
+### -param flags
 
 Reserved. Set this parameter to zero.
 
 
-#### - reserved
+### -param reserved
 
 Reserved. Set this parameter to  zero.
 

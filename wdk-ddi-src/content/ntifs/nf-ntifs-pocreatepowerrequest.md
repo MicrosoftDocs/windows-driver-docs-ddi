@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], wdm/PoCreatePowerRequest, PoCreatePowerRequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, kernel.pocreatepowerrequest
+ms.keywords: PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], PoCreatePowerRequest, wdm/PoCreatePowerRequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, kernel.pocreatepowerrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS PoCreatePowerRequest(
 
 
 
-#### - PowerRequest [out]
+### -param PowerRequest [out]
 
 A pointer to a location into which the routine writes a pointer to the newly created power request object. If the call fails, the routine writes <b>NULL</b> to this location.
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the device object of the caller (a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure).
 
 
-#### - Context [in]
+### -param Context [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_counted_reason_context.md">COUNTED_REASON_CONTEXT</a> structure that describes why the caller is creating the power request object. This parameter is optional and can be set to <b>NULL</b>.
 
@@ -132,11 +132,11 @@ When the power request object is no longer needed, the caller must delete the ob
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
-
 <a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
 
 <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+
+<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
 
  
 

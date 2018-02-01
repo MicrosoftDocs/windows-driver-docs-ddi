@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject, FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers]
+ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, ifsk.fltquerysecurityobject, FltQuerySecurityObject function [Installable File System Drivers], fltkernel/FltQuerySecurityObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ NTSTATUS FltQuerySecurityObject(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 Opaque instance pointer for the caller. This parameter is required and cannot be 
       <b>NULL</b>.
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 File object pointer for the object whose security descriptor is being queried. This parameter is required 
       and cannot be <b>NULL</b>.
 
 
-#### - SecurityInformation [in]
+### -param SecurityInformation [in]
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value. This parameter is 
@@ -142,7 +142,7 @@ The system ACL (SACL) of the object is being queried. Requires
 </table> 
 
 
-#### - SecurityDescriptor [in, out]
+### -param SecurityDescriptor [in, out]
 
 Pointer to a caller-supplied output buffer that receives a copy of the security descriptor for the 
       specified object. The <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> 
@@ -150,12 +150,12 @@ Pointer to a caller-supplied output buffer that receives a copy of the security 
       <b>NULL</b>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Size, in bytes, of the <i>SecurityDescriptor</i> buffer.
 
 
-#### - LengthNeeded [out, optional]
+### -param LengthNeeded [out, optional]
 
 Pointer to a caller-allocated variable that receives the number of bytes required to store the copied 
       security descriptor returned in the buffer pointed to by the <i>SecurityDescriptor</i> 
@@ -221,11 +221,11 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a3255313-1d49-4286-a48a-6a1729ccf7fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisSwitchFeatureStatusTypeCustom, PNDIS_SWITCH_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeMaximum, NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchFeatureStatusTypeUndefined, netvista.ndis_switch_feature_status_type, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeUndefined, ntddndis/NdisSwitchFeatureStatusTypeMaximum, _NDIS_SWITCH_FEATURE_STATUS_TYPE, NdisSwitchFeatureStatusTypeCustom, PNDIS_SWITCH_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_FEATURE_STATUS_TYPE
+ms.keywords: NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchFeatureStatusTypeCustom, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_FEATURE_STATUS_TYPE, _NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchFeatureStatusTypeUndefined, NdisSwitchFeatureStatusTypeUndefined, NDIS_SWITCH_FEATURE_STATUS_TYPE, netvista.ndis_switch_feature_status_type, PNDIS_SWITCH_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeCustom, ntddndis/NdisSwitchFeatureStatusTypeMaximum, PNDIS_SWITCH_FEATURE_STATUS_TYPE, NdisSwitchFeatureStatusTypeMaximum, ntddndis/NDIS_SWITCH_FEATURE_STATUS_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,19 +74,19 @@ typedef enum _NDIS_SWITCH_FEATURE_STATUS_TYPE {
 
 
 
-#### - NdisSwitchFeatureStatusTypeUndefined
+### -field NdisSwitchFeatureStatusTypeUndefined
 
 The feature status information is not defined.
 
 
-#### - NdisSwitchFeatureStatusTypeCustom
+### -field NdisSwitchFeatureStatusTypeCustom
 
 The feature status information is for a custom extensible switch feature that is provided by an ISV.
 
 
 
 
-#### - NdisSwitchFeatureStatusTypeMaximum
+### -field NdisSwitchFeatureStatusTypeMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 

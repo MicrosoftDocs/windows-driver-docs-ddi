@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2f0147d0-9c1d-4f3e-890f-941568220605
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWavweCyclic interface [Audio Devices], Init method, IMiniportWaveCyclic::Init, audmp-routines_d18e9242-160d-4f55-9204-2e425b1f1669.xml, portcls/IMiniportWavweCyclic::Init, IMiniportWaveCyclic, audio.iminiportwavecyclic_init, Init method [Audio Devices], IMiniportWavweCyclic::Init, Init method [Audio Devices], IMiniportWavweCyclic interface, Init
+ms.keywords: IMiniportWavweCyclic::Init, IMiniportWavweCyclic interface [Audio Devices], Init method, Init method [Audio Devices], IMiniportWavweCyclic interface, IMiniportWaveCyclic, Init, IMiniportWaveCyclic::Init, audio.iminiportwavecyclic_init, Init method [Audio Devices], audmp-routines_d18e9242-160d-4f55-9204-2e425b1f1669.xml, portcls/IMiniportWavweCyclic::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS Init(
 
 
 
-#### - UnknownAdapter [in]
+### -param UnknownAdapter [in]
 
 Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. For more information, see the following Remarks section.
 
 
-#### - ResourceList [in]
+### -param ResourceList [in]
 
 Pointer to <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> interface of the resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
 
 
-#### - Port [in]
+### -param Port [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a> object that is bound to this miniport driver. The caller specifies a valid, non-NULL pointer for this parameter.
 
@@ -104,11 +104,11 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWavweCyclic</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWavweCyclic</a>
 
  
 

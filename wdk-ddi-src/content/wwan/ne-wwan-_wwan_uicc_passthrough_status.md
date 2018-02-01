@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93D35A64-8394-41C2-BFB8-C8DE93619E75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanUiccPassThroughEnabled, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughMaximum, WwanUiccPassThroughDisabled, *PWWAN_UICC_PASSTHROUGH_STATUS, _WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughDisabled, WwanUiccPassThroughMaximum, WWAN_UICC_PASSTHROUGH_STATUS, netvista.wwan_uicc_passthrough_status, wwan/WwanUiccPassThroughEnabled
+ms.keywords: wwan/WWAN_UICC_PASSTHROUGH_STATUS, WwanUiccPassThroughDisabled, WwanUiccPassThroughMaximum, WwanUiccPassThroughEnabled, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], wwan/WwanUiccPassThroughMaximum, netvista.wwan_uicc_passthrough_status, WWAN_UICC_PASSTHROUGH_STATUS, _WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughDisabled, *PWWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,12 +70,12 @@ typedef enum _WWAN_UICC_PASSTHROUGH_STATUS {
 
 
 
-#### - WwanUiccPassThroughDisabled
+### -field WwanUiccPassThroughDisabled
 
 Indicates that passthrough to the UICC is disabled. When UICC passthrough is disabled, the MB host treats the UICC as a regular Telecom UICC and expects a Telecom UICC file system to be present on the UICC.
 
 
-#### - WwanUiccPassThroughEnabled
+### -field WwanUiccPassThroughEnabled
 
 Indicates that passthrough to the UICC is enabled. When UICC passthrough is enabled, the modem miniport adapter treats the UICC as if it were in a passthrough mode that enables communication between the host and UICC, even if the UICC has no Telecom UICC file system. The miniport adapter does not send any APDUs to the card and does not interfere at any time with the communication between the host and the UICC.
 

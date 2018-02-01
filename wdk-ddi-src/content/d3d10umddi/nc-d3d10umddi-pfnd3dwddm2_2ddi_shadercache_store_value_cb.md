@@ -75,49 +75,34 @@ HRESULT APIENTRY CALLBACK * pfnShaderCacheStoreValue(
 
 
 
-#### - hCacheSession
+### -param hCacheSession
 
 The handle of the cache session for the driver to use when it calls back into the runtime.
 
 
-#### - *pPrecomputedHash [in]
+### -param *pPrecomputedHash [in]
 
 A hash value. 
 
 
-#### - *pKey [in]
+### -param *pKey [in]
 
 A pointer to a key.
 
 
-#### - KeyLen
+### -param KeyLen
 
 The length of the key.
 
 
-#### - *pValue [in]
+### -param *pValue [in]
 
 A pointer to an input value. 
 
 
-#### - ValueLen
+### -param ValueLen
 
 The length of the input value.
-
-
-#### - pPrecomputedHash [in]
-
-A hash value. 
-
-
-#### - pKey [in]
-
-A pointer to a key.
-
-
-#### - pValue [in]
-
-A pointer to an input value. 
 
 
 ## -returns

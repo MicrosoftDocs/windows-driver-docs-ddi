@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 77ba5ba3-11d3-4c28-86e6-91f3189b5403
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlCreateHeap, rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml, RtlCreateHeap, ifsk.rtlcreateheap, RtlCreateHeap routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlcreateheap, rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml, ntifs/RtlCreateHeap, RtlCreateHeap routine [Installable File System Drivers], RtlCreateHeap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ PVOID RtlCreateHeap(
 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Flags specifying optional attributes of the heap. These options affect subsequent access to the new heap through calls to the heap functions (<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> and <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>). 
 
@@ -99,7 +99,7 @@ Specifies that the heap is growable. Must be specified if <i>HeapBase</i> is <b>
 Specifies that mutual exclusion will not be used when the heap functions allocate and free memory from this heap. The default, when HEAP_NO_SERIALIZE is not specified, is to serialize access to the heap. Serialization of heap access allows two or more threads to simultaneously allocate and free memory from the same heap. 
 
 
-#### - HeapBase [in, optional]
+### -param HeapBase [in, optional]
 
 Specifies one of two actions:
 
@@ -108,7 +108,7 @@ If <i>HeapBase</i> is a non-<b>NULL</b> value, it specifies the base address for
 If <i>HeapBase</i> is <b>NULL</b>, <b>RtlCreateHeap</b> allocates system memory for the heap from the process's virtual address space. 
 
 
-#### - ReserveSize [in, optional]
+### -param ReserveSize [in, optional]
 
 If <i>ReserveSize</i> is a nonzero value, it specifies the initial amount of memory, in bytes, to reserve for the heap. <b>RtlCreateHeap</b> rounds <i>ReserveSize</i> up to the next page boundary, and then reserves a block of that size for the heap. 
 
@@ -161,19 +161,19 @@ If <i>CommitSize</i> is greater than <i>ReserveSize</i>, <b>RtlCreateHeap</b> re
 </table> 
 
 
-#### - CommitSize [in, optional]
+### -param CommitSize [in, optional]
 
 If <i>CommitSize</i> is a nonzero value, it specifies the initial amount of memory, in bytes, to commit for the heap. <b>RtlCreateHeap</b> rounds <i>CommitSize</i> up to the next page boundary, and then commits a block of that size in the process's virtual address space for the heap. 
 
 This parameter is optional and can be zero. 
 
 
-#### - Lock [in, optional]
+### -param Lock [in, optional]
 
 Pointer to an opaque ERESOURCE structure to be used as a resource lock. This parameter is optional and can be <b>NULL</b>. When provided by the caller, the structure must be allocated from nonpaged pool and initialized by calling <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a> or <a href="..\wdm\nf-wdm-exreinitializeresourcelite.md">ExReinitializeResourceLite</a>. If the HEAP_NO_SERIALIZE flag is set, this parameter must be <b>NULL</b>.
 
 
-#### - Parameters [in, optional]
+### -param Parameters [in, optional]
 
 Pointer to a RTL_HEAP_PARAMETERS structure that contains parameters to be applied when creating the heap. This parameter is optional and can be <b>NULL</b>. 
 <div class="code"><span codelanguage=""><table>
@@ -421,9 +421,9 @@ The process has multiple threads, and the application provides its own mechanism
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
-
 <a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
 
 <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 

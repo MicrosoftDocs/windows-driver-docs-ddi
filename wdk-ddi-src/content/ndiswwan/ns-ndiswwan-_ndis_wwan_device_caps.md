@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a0e1e46-8bb1-4292-bd33-17ed4cc33c60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_DEVICE_CAPS, ndiswwan/NDIS_WWAN_DEVICE_CAPS, netvista.ndis_wwan_device_caps, NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS, WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml
+ms.keywords: ndiswwan/NDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_device_caps, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, *PNDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS, _NDIS_WWAN_DEVICE_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_DEVICE_CAPS {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_DEVICE_CAPS structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -117,7 +117,7 @@ sizeof(NDIS_WWAN_DEVICE_CAPS)
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of the device capabilities query. The following table shows the possible values for
      this member.
@@ -162,7 +162,7 @@ The operation failed because the device is in the process of initializing. Retry
 </table> 
 
 
-#### - DeviceCaps
+### -field DeviceCaps
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a> object that represents

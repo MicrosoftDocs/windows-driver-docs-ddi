@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, SetWritePacket method [Audio Devices], SetWritePacket, IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream::SetWritePacket, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface
+ms.keywords: SetWritePacket, IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, SetWritePacket method [Audio Devices], portcls/IMiniportWaveRTOutputStream::SetWritePacket, IMiniportWaveRTOutputStream, audio.iminiportwavertoutputstream_setwritepacket, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,19 +69,19 @@ NTSTATUS SetWritePacket(
 
 
 
-#### - PacketNumber [in]
+### -param PacketNumber [in]
 
 The number of the packet written by the OS to the WaveRT buffer. 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Additional attributes related to the packet or stream.
 
 KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM - This flag indicates that this packet represents the end of the data stream.
 
 
-#### - EosPacketLength [in]
+### -param EosPacketLength [in]
 
 The length of the EOS packet if KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is specified in Flags. Zero is a valid value. If KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is not specified in Flags, this parameter is ignored.
 

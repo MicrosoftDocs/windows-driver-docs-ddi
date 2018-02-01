@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple function [Imaging Devices], wiasWriteMultiple, wiamdef/wiasWriteMultiple, image.wiaswritemultiple
+ms.keywords: wiamdef/wiasWriteMultiple, image.wiaswritemultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ HRESULT _stdcall wiasWriteMultiple(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - ulCount
+### -param ulCount
 
 Specifies the total number of properties to write.
 
 
-#### - ps [in]
+### -param ps [in]
 
 Pointer to the first element of an array of PROPSPEC structures that indicate the properties to write.
 
 
-#### - pv
+### -param pv
 
 Pointer to the first element of an array of PROPVARIANT structures that contain the values to write to the item.
 

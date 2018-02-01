@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33e92f7d-2a01-4be2-a6b3-d0bd63db1eeb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/LPDXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2, dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, dxva/DXVA_AYUVsample2, _DXVA_AYUVsample2, DXVA_AYUVsample2, LPDXVA_AYUVsample2 structure pointer [Display Devices], display.dxva_ayuvsample2, *LPDXVA_AYUVsample2
+ms.keywords: DXVA_AYUVsample2, dxva/DXVA_AYUVsample2, *LPDXVA_AYUVsample2, display.dxva_ayuvsample2, LPDXVA_AYUVsample2 structure pointer [Display Devices], dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, _DXVA_AYUVsample2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXVA_AYUVsample2 {
 
 
 
-#### - bCrValue
+### -field bCrValue
 
 Specifies a chrominance (Cr) sample value (scaled per ITU-R Rec. BT.601) as an unsigned value. Thus, the color black is nominally specified by Y=16, Cb=Cr=128, and the color white is nominally specified by Y=235, Cb=Cr=128.
 
 
-#### - bCbValue
+### -field bCbValue
 
 Specifies a chrominance (Cb) sample value (scaled per ITU-R Rec. BT.601) as an unsigned value. Thus, the color black is nominally specified by Y=16, Cb=Cr=128, and the color white is nominally specified by Y=235, Cb=Cr=128.
 
 
-#### - bY_Value
+### -field bY_Value
 
 Specifies a luminance (Y) sample value (scaled per ITU-R Rec. BT.601) as an unsigned value. Thus, the color black is nominally specified by Y=16, Cb=Cr=128, and the color white is nominally specified by Y=235, Cb=Cr=128.
 
 
-#### - bSampleAlpha8
+### -field bSampleAlpha8
 
 Specifies the opacity of the pixel when used as a source graphic for blending with another picture. For Windows Server 2003 SP1 and Windows XP SP2, the opacity level is not used and should be ignored by the driver.
 
@@ -108,9 +108,9 @@ The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AY
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
-
 <a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a>
+
+<a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
 
  
 

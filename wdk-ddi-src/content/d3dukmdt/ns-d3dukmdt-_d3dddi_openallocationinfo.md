@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cd50602a-c4aa-410b-9ed6-56d7237571cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_openallocationinfo, D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, d3dukmdt/D3DDDI_OPENALLOCATIONINFO, _D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO structure [Display Devices]
+ms.keywords: "_D3DDDI_OPENALLOCATIONINFO, d3dukmdt/D3DDDI_OPENALLOCATIONINFO, D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO structure [Display Devices], display.d3dddi_openallocationinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDI_OPENALLOCATIONINFO {
 
 
 
-#### - hAllocation
+### -field hAllocation
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation. The user-mode display driver should use this handle to reference the allocation in the command buffer.
 
 
-#### - pPrivateDriverData
+### -field pPrivateDriverData
 
 [in] A pointer to a block of private data, which was passed to the display miniport driver when the resource was created. 
 
 
-#### - PrivateDriverDataSize
+### -field PrivateDriverDataSize
 
 [in] The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
 

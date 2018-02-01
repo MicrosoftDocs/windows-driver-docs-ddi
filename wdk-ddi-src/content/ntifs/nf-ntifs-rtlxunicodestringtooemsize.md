@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d5d036b-01a9-4df2-a93c-eb66dba2c2e3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlxunicodestringtooemsize, rtlref_a16fd4e2-2724-4c6e-9c62-651aad6db051.xml, ntifs/RtlxUnicodeStringToOemSize, RtlxUnicodeStringToOemSize, RtlxUnicodeStringToOemSize function [Installable File System Drivers]
+ms.keywords: rtlref_a16fd4e2-2724-4c6e-9c62-651aad6db051.xml, ifsk.rtlxunicodestringtooemsize, RtlxUnicodeStringToOemSize, ntifs/RtlxUnicodeStringToOemSize, RtlxUnicodeStringToOemSize function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

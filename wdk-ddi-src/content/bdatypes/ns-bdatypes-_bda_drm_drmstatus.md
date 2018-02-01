@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: EC287CF0-9B39-4412-849E-9F86EEE69365
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bda_drm_drmstatus, bdatypes/BDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], *PBDA_DRM_DRMSTATUS, _BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], bdatypes/PBDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS
+ms.keywords: bdatypes/PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], PBDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], *PBDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, _BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,18 +70,18 @@ typedef struct _BDA_DRM_DRMSTATUS {
 
 
 
-#### - lResult
+### -field lResult
 
 
 
-#### - DRMuuid
+### -field DRMuuid
 
 
 
-#### - ulDrmUuidListStringSize
+### -field ulDrmUuidListStringSize
 
 
 
-#### - argbDrmUuidListString
+### -field argbDrmUuidListString
 
 

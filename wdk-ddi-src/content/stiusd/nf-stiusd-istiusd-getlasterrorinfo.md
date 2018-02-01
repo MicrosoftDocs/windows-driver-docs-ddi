@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0b393f55-6054-4c45-aa3d-7588139b34e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetLastErrorInfo method [Imaging Devices], IStiUSD interface, image.istiusd_getlasterrorinfo, stiusd/IStiUSD::GetLastErrorInfo, stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, GetLastErrorInfo, IStiUSD::GetLastErrorInfo, IStiUSD, IStiUSD interface [Imaging Devices], GetLastErrorInfo method, GetLastErrorInfo method [Imaging Devices]
+ms.keywords: IStiUSD, GetLastErrorInfo method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], GetLastErrorInfo method, stiusd/IStiUSD::GetLastErrorInfo, image.istiusd_getlasterrorinfo, stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, IStiUSD::GetLastErrorInfo, GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT GetLastErrorInfo(
 
 
 
-#### - pLastErrorInfo
+### -param pLastErrorInfo
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a> structure to receive error information.
 

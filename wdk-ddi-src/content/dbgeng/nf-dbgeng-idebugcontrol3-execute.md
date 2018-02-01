@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 595aa371-ff7e-48e2-b29a-a7aabc70ebd7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], Execute method, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, IDebugControl3, Execute method [Windows Debugging], IDebugControl interface, IDebugControl::Execute, IDebugControl2 interface [Windows Debugging], Execute method, IDebugControl2::Execute, IDebugControl interface [Windows Debugging], Execute method, IDebugControl3::Execute, Execute method [Windows Debugging], IDebugControl2 interface, Execute method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::Execute, Execute method [Windows Debugging], debugger.execute, Execute, dbgeng/IDebugControl3::Execute, dbgeng/IDebugControl::Execute
+ms.keywords: IDebugControl interface [Windows Debugging], Execute method, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, Execute method [Windows Debugging], Execute method [Windows Debugging], IDebugControl2 interface, Execute method [Windows Debugging], IDebugControl interface, IDebugControl::Execute, IDebugControl2 interface [Windows Debugging], Execute method, dbgeng/IDebugControl2::Execute, IDebugControl3 interface [Windows Debugging], Execute method, IDebugControl3, Execute, IDebugControl2::Execute, IDebugControl3::Execute, dbgeng/IDebugControl3::Execute, dbgeng/IDebugControl::Execute, debugger.execute, Execute method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT Execute(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies the output control to use while executing the command.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
-#### - Command [in]
+### -param Command [in]
 
 Specifies the command string to execute.  The command is interpreted like those typed into a debugger command window.  This command string can contain multiple commands for the engine to execute.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff540507">Debugger Commands</a> for the command reference.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bit field of execution options for the command.  The default options are to log the command but to not send it to the output.  The following table lists the bits that can be set.
 <table>
@@ -155,11 +155,11 @@ This method executes the given command string.  If the string has multiple comma
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

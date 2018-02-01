@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 60a04887-d696-42b2-95af-cce1c0bc102b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER, tagKS_DATAFORMAT_VIDEOINFOHEADER, vidcapstruct_756be7d3-2dca-4e93-a113-7ee3871f3107.xml, KS_DATAFORMAT_VIDEOINFOHEADER structure [Streaming Media Devices], stream.ks_dataformat_videoinfoheader, *PKS_DATAFORMAT_VIDEOINFOHEADER, ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER, PKS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER, PKS_DATAFORMAT_VIDEOINFOHEADER structure pointer [Streaming Media Devices]
+ms.keywords: "*PKS_DATAFORMAT_VIDEOINFOHEADER, PKS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER structure [Streaming Media Devices], stream.ks_dataformat_videoinfoheader, ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER, ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER, PKS_DATAFORMAT_VIDEOINFOHEADER structure pointer [Streaming Media Devices], vidcapstruct_756be7d3-2dca-4e93-a113-7ee3871f3107.xml, tagKS_DATAFORMAT_VIDEOINFOHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct tagKS_DATAFORMAT_VIDEOINFOHEADER {
 
 
 
-#### - DataFormat
+### -field DataFormat
 
 Specifies the data format.
 
 
-#### - VideoInfoHeader
+### -field VideoInfoHeader
 
 Specifies the details of the video stream.
 

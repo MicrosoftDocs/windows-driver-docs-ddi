@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: icm/WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize, WcsEnumColorProfilesSize function [Print Devices], colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, WcsEnumColorProfilesSize
+ms.keywords: WcsEnumColorProfilesSize function [Print Devices], WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize, colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, icm/WcsEnumColorProfilesSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ BOOL WcsEnumColorProfilesSize(
 TBD
 
 
-#### - pEnumRecord [in]
+### -param pEnumRecord [in]
 
 A pointer to a structure that specifies the enumeration criteria.
 
 
-#### - pdwSize [out]
+### -param pdwSize [out]
 
 A pointer to a variable that receives the size of the buffer that is required to receive all enumerated profile names. This value is used by the <i>dwSize</i> parameter of the <a href="..\icm\nf-icm-wcsenumcolorprofiles.md">WcsEnumColorProfiles</a> function.
 

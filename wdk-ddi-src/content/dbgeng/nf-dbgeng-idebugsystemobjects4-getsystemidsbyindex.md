@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7b2dcb75-f674-4a66-a483-8c3f644390c1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetSystemIdsByIndex method, dbgeng/IDebugSystemObjects3::GetSystemIdsByIndex, IDebugSystemObjects_d1d7e689-407b-4d84-b1ce-75736b761089.xml, IDebugSystemObjects4, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemIdsByIndex, IDebugSystemObjects4::GetSystemIdsByIndex, debugger.getsystemidsbyindex, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetSystemIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetSystemIdsByIndex method, IDebugSystemObjects3::GetSystemIdsByIndex
+ms.keywords: IDebugSystemObjects3 interface [Windows Debugging], GetSystemIdsByIndex method, IDebugSystemObjects3::GetSystemIdsByIndex, debugger.getsystemidsbyindex, IDebugSystemObjects4::GetSystemIdsByIndex, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects_d1d7e689-407b-4d84-b1ce-75736b761089.xml, GetSystemIdsByIndex, dbgeng/IDebugSystemObjects3::GetSystemIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging], GetSystemIdsByIndex method, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetSystemIdsByIndex, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,17 +70,17 @@ HRESULT GetSystemIdsByIndex(
 
 
 
-#### - Start [in]
+### -param Start [in]
 
 Specifies the index of the first target whose target ID is requested.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of processes whose IDs are requested.
 
 
-#### - Ids [out]
+### -param Ids [out]
 
 Receives the engine target IDs.  If <i>Ids</i> is <b>NULL</b>, this information is not returned; otherwise, <i>Ids</i> is treated as an array of <i>Count</i> ULONG values.
 
@@ -118,11 +118,11 @@ The index of the first target is zero.  The index of the last target is the numb
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

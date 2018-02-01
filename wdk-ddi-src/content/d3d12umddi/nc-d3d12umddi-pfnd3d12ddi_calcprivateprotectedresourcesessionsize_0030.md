@@ -68,17 +68,12 @@ SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-#### - *pArgs [in]
-
-The arguments used to open a protected resource session.
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to open a protected resource session.
 

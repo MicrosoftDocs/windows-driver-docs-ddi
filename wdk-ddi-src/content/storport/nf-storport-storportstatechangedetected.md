@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STATE_CHANGE_TARGET, storage.storportstatechangedetected, ATTRIBUTE_VM_PASSTHROUGH_LUN, StorPortStateChangeDetected, storport/StorPortStateChangeDetected, STATE_CHANGE_LUN, STATE_CHANGE_BUS, StorPortStateChangeDetected routine [Storage Devices]
+ms.keywords: STATE_CHANGE_BUS, StorPortStateChangeDetected, StorPortStateChangeDetected routine [Storage Devices], STATE_CHANGE_TARGET, STATE_CHANGE_LUN, storport/StorPortStateChangeDetected, ATTRIBUTE_VM_PASSTHROUGH_LUN, storage.storportstatechangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ ULONG StorPortStateChangeDetected(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
-#### - ChangedEntity [in]
+### -param ChangedEntity [in]
 
 Flags indicating the entities whose state has changed. This is a bitwise <b>OR</b> combination of these values:
 <table>
@@ -122,12 +122,12 @@ Target state has changed.
 </table> 
 
 
-#### - Address [in]
+### -param Address [in]
 
 The address of the entity with the state change. <i>Address</i> value cannot change until the callback at  <i>HwStateChange</i> is invoked. If <i>Address</i> is allocated in memory, the memory should be freed by the callback routine.
 
 
-#### - Attributes [in]
+### -param Attributes [in]
 
 Attributes associated with the entity. These are a bitwise <b>OR</b> combination of the following:
 <table>
@@ -148,12 +148,12 @@ LUNs are reserved for virtual machine use.
 </table> 
 
 
-#### - HwStateChange [in, optional]
+### -param HwStateChange [in, optional]
 
 A pointer to a callback routine supplied by the miniport. If present, the Storport driver will call this routine when the driver is finished processing this state change notification.
 
 
-#### - HwStateChangeContext [in, optional]
+### -param HwStateChangeContext [in, optional]
 
 A miniport-supplied context value that is included when the routine set in <i>HwStateChange</i> is called.
 

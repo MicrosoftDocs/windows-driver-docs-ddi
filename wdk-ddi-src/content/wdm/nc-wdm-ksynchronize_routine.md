@@ -71,7 +71,7 @@ BOOLEAN SynchCritSection(
 
 
 
-#### - SynchronizeContext [in]
+### -param SynchronizeContext [in]
 
 Caller-supplied context information, specified by the driver's call to <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>.
 

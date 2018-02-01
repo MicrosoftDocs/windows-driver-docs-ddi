@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 83113D6C-44A1-4022-8101-061DEA9868E1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/PDXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_, d3dkmddi/DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS structure [Display Devices], DXGK_COLORTRANSFORMCAPS, _DXGK_COLORTRANSFORMCAPS
+ms.keywords: d3dkmddi/PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_, DXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], _DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS structure [Display Devices], d3dkmddi/DXGK_COLORTRANSFORMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,39 +77,39 @@ typedef struct _DXGK_COLORTRANSFORMCAPS  {
 
 
 
-#### - Gamma_Rgb256x3x16
+### -field Gamma_Rgb256x3x16
 
 Indicates support for a GDI compatible gamma ramp.
 
 
-#### - Gamma_Dxgi1
+### -field Gamma_Dxgi1
 
 Indicates support for a DXGI1 gamma ramp.  These gamma ramps have been defined since WDDM 1.0 but were always required to be supported by any WDDM driver.
 Full WDDM drivers are still required to support DXGI1 gamma so should set this flag but drivers for display-only and indirect display will be able to indicate support through this flag.
 
 
 
-#### - Transform_3x4Matrix
+### -field Transform_3x4Matrix
 
 Indicates support for a 3 by 4 matrix color transform in the display pipeline hardware.
 
 
-#### - Transform_3x4Matrix_WideColor
+### -field Transform_3x4Matrix_WideColor
 
 Indicates support for a 3 by 4 matrix color transform in the display pipeline hardware when scanning out WideColor data.  Drivers which support this capability must also support Transform_3x4Matrix. The OS will NOT engage WideColorGamut mode unless both this bit and the WideColorSpace cap bits are set.
 
 
-#### - Transform_3x4Matrix_HighColor
+### -field Transform_3x4Matrix_HighColor
 
 Indicates support for a 3 by 4 matrix color transform in the display pipeline hardware when scanning out HighColor data.  Drivers which support this capability must also support Transform_3x4Matrix_WideColor.
 
 
-#### - Reserved
+### -field Reserved
 
 This value is reserved for system use.
 
 
-#### - Value
+### -field Value
 
 The combined UINT value.
 

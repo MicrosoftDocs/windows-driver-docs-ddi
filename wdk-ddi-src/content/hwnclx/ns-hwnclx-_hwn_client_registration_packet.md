@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: bf8ac72b-c3d6-4965-a1e9-2408d2fa2196
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, gpiobtn._hwn_client_registration_packet, hwnclx/HWN_CLIENT_REGISTRATION_PACKET, _HWN_CLIENT_REGISTRATION_PACKET, *PHWN_CLIENT_REGISTRATION_PACKET
+ms.keywords: "_HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET, hwnclx/HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, gpiobtn._hwn_client_registration_packet, *PHWN_CLIENT_REGISTRATION_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,66 +79,66 @@ typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
 
 
 
-#### - Version
+### -field Version
 
 Version of this structure.
 
 
-#### - Size
+### -field Size
 
 Size of this structure.
 
 
-#### - DeviceContextSize
+### -field DeviceContextSize
 
 Size of the driver-defined context structure.
 
 
-#### - Reserved
+### -field Reserved
 
 Reseved.
 
 
-#### - ClientInitializeDevice
+### -field ClientInitializeDevice
 
 A pointer to the client driver's implementation of the <a href="..\hwnclx\nc-hwnclx-hwn_client_initialize_device.md">HWN_CLIENT_INITIALIZE_DEVICE</a> callback function.
 
 
-#### - ClientUnInitializeDevice
+### -field ClientUnInitializeDevice
 
 A pointer to the client driver's implementation of the <a href="..\hwnclx\nc-hwnclx-hwn_client_uninitialize_device.md">HWN_CLIENT_UNINITIALIZE_DEVICE</a> callback function.
 
 
-#### - ClientQueryDeviceInformation
+### -field ClientQueryDeviceInformation
 
 A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hwnclx-hwn_client_query_device_information.md">HWN_CLIENT_QUERY_DEVICE_INFORMATION</a> callback function.
 
 
-#### - ClientStartDevice
+### -field ClientStartDevice
 
 A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hwnclx-hwn_client_start_device.md">HWN_CLIENT_START_DEVICE</a> callback function.
 
 
-#### - ClientStopDevice
+### -field ClientStopDevice
 
 A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hwnclx-hwn_client_stop_device.md">HWN_CLIENT_STOP_DEVICE</a> callback function.
 
 
-#### - ClientSetHwNState
+### -field ClientSetHwNState
 
 A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hwnclx-hwn_client_set_state.md">HWN_CLIENT_SET_STATE</a> callback function.
 
 
-#### - ClientGetHwNState
+### -field ClientGetHwNState
 
 A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hwnclx-hwn_client_get_state.md">HWN_CLIENT_GET_STATE</a> callback function.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
-
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
 
  
 

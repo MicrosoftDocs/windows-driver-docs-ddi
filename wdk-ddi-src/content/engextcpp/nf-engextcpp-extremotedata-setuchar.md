@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetLong, SetData, ExtRemoteData class [Windows Debugging], SetDouble, ExtRemoteData::SetChar, ExtRemoteData, SetLongPtr, ExtRemoteData::SetLong, ExtRemoteData::SetShort, ExtRemoteData::SetLongPtr, ExtRemoteData::SetData, SetUchar, ExtRemoteData::Clear, ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, engextcpp/ExtRemoteData, SetBoolean, ExtRemoteData::SetBoolean, ExtRemoteData::SetLong64, ExtRemoteData::SetDouble, SetLong64, SetStdBool, ExtRemoteData::SetStdBool, debugger.extremotedata, SetShort, SetChar, SetFloat, SetPtr, ExtRemoteData::SetFloat, ExtRemoteData::SetUchar, Clear, ExtRemoteData::SetPtr
+ms.keywords: Clear, SetShort, ExtRemoteData::SetDouble, debugger.extremotedata, SetLong64, ExtRemoteData::SetChar, engextcpp/ExtRemoteData, ExtRemoteData::SetPtr, SetData, ExtRemoteData::SetFloat, SetChar, ExtRemoteData::SetShort, ExtRemoteData::SetLong64, ExtRemoteData::SetUchar, ExtRemoteData, ExtRemoteData::SetData, ExtRemoteData::SetStdBool, ExtRemoteData::Clear, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, SetStdBool, SetLong, ExtRemoteData class [Windows Debugging], SetBoolean, ExtRemoteData::SetLongPtr, ExtRemoteData::SetBoolean, ExtRemoteData::SetLong, ExtRemoteData class [Windows Debugging], described, SetUchar, SetLongPtr, SetDouble, SetFloat, SetPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -265,15 +265,15 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554311">ReadPhysical2</a>
 
 <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a>
 
 <a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554311">ReadPhysical2</a>
 
  
 

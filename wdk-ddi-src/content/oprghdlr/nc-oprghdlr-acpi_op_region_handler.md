@@ -77,7 +77,7 @@ NTSTATUS EXPORT AcpiOpRegionHandler(
 
 
 
-#### - AccessType
+### -param AccessType
 
 Specifies one of the following access types.
 <table>
@@ -108,37 +108,37 @@ Read from the operation region memory buffer.
 </table> 
 
 
-#### - OperationRegionObject
+### -param OperationRegionObject
 
 Specifies the operation region object returned by <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a> for the operation region handler.
 
 
-#### - Address
+### -param Address
 
 Specifies a byte offset in the operation region memory buffer. Depending on the access type, data is transferred to or from this memory location. 
 
 
-#### - Size
+### -param Size
 
 Specifies the number of bytes to access.
 
 
-#### - Data
+### -param Data
 
 Pointer to the data buffer supplied by the ACPI driver that is associated with the access. For a read access, bytes are transferred from the operation region memory buffer to the data buffer. For a write access, bytes are transferred from the data buffer to the operation region memory buffer.
 
 
-#### - Context
+### -param Context
 
 Pointer to the same operation region context that the function driver specified when it registered the operation region handler.
 
 
-#### - CompletionHandler
+### -param CompletionHandler
 
 Reserved for internal use.
 
 
-#### - CompletionContext
+### -param CompletionContext
 
 Reserved for internal use.
 
@@ -204,9 +204,9 @@ For detailed information about constraints on operation regions, see the <a href
 
 ## -see-also
 
-<a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
-
 <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
+
+<a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
 
  
 

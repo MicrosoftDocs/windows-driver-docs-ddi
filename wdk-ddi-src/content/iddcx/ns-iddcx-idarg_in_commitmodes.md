@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 242b7573-409a-4fdc-8ebf-596b8e6d41c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_COMMITMODES structure [Display Devices], IDARG_IN_COMMITMODES, iddcx/IDARG_IN_COMMITMODES, display.idarg_in_commitmodes
+ms.keywords: IDARG_IN_COMMITMODES, iddcx/IDARG_IN_COMMITMODES, IDARG_IN_COMMITMODES structure [Display Devices], display.idarg_in_commitmodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct IDARG_IN_COMMITMODES {
 
 
 
-#### - PathCount
+### -field PathCount
 
 
                      [in] The number of paths in the <b>pPaths</b> array
                  
 
 
-#### - pPaths
+### -field pPaths
 
 
                      [in] A pointer to the array of paths that need to be committed.

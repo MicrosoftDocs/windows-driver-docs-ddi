@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winspool/DeleteJobNamedProperty, DeleteJobNamedProperty, print.deletejobnamedproperty, DeleteJobNamedProperty function [Print Devices]
+ms.keywords: print.deletejobnamedproperty, winspool/DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], DeleteJobNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,19 +72,19 @@ Deletes the named property for the specified print job on the specified printer.
 
 
 
-#### - hPrinter [in]
+### -param hPrinter [in]
 
 A handle to the printer object of interest. Use the <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>, <a href="https://msdn.microsoft.com/e2370ae4-4475-4ccc-a6f9-3d33d1370054">OpenPrinter2</a>, or the <a href="https://msdn.microsoft.com/ffc4fee8-46c6-47ad-803d-623bf8efdefd">AddPrinter</a> function to retrieve a printer handle. 
 
 
 
-#### - JobId [in]
+### -param JobId [in]
 
 Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://msdn.microsoft.com/cfafa874-6022-4bf4-bf3d-096213eb0c98">AddJob</a> function or the <a href="..\printoem\nf-printoem-oemstartdoc.md">StartDoc</a> function. 
 
 
 
-#### - pszName [in]
+### -param pszName [in]
 
 Name of the property that will be deleted. 
 

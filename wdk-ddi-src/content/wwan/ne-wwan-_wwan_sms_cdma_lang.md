@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5294ce07-a4eb-4c21-88f1-04889dfbc1a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangJapanese, WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangHebrew, WwanSmsCdmaLangKorean, *PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangMax, WwanSmsCdmaLangJapanese, PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangEnglish, WwanSmsCdmaLangUnknown, WwanSmsCdmaLangFrench, WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, netvista.wwan_sms_cdma_lang, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsCdmaLangSpanish, WwanSmsCdmaLangHebrew, WWAN_SMS_CDMA_LANG, _WWAN_SMS_CDMA_LANG, wwan/WWAN_SMS_CDMA_LANG, WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangUnknown, WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangFrench, WwanSmsCdmaLangEnglish, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.wwan_sms_cdma_lang, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangHebrew, WWAN_SMS_CDMA_LANG, WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangMax, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangEnglish, *PWWAN_SMS_CDMA_LANG, wwan/WWAN_SMS_CDMA_LANG, wwan/PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangFrench, WwanSmsCdmaLangFrench, WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangSpanish, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], _WWAN_SMS_CDMA_LANG, WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangUnknown, WwanSmsCdmaLangUnknown, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangKorean, WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,47 +77,47 @@ typedef enum _WWAN_SMS_CDMA_LANG {
 
 
 
-#### - WwanSmsCdmaLangUnknown
+### -field WwanSmsCdmaLangUnknown
 
 The message language is unknown.
 
 
-#### - WwanSmsCdmaLangEnglish
+### -field WwanSmsCdmaLangEnglish
 
 The message is in English.
 
 
-#### - WwanSmsCdmaLangFrench
+### -field WwanSmsCdmaLangFrench
 
 The message is in French.
 
 
-#### - WwanSmsCdmaLangSpanish
+### -field WwanSmsCdmaLangSpanish
 
 The message is in Spanish.
 
 
-#### - WwanSmsCdmaLangJapanese
+### -field WwanSmsCdmaLangJapanese
 
 The message is in Japanese.
 
 
-#### - WwanSmsCdmaLangKorean
+### -field WwanSmsCdmaLangKorean
 
 The message is in Korean.
 
 
-#### - WwanSmsCdmaLangChinese
+### -field WwanSmsCdmaLangChinese
 
 The message is in Chinese.
 
 
-#### - WwanSmsCdmaLangHebrew
+### -field WwanSmsCdmaLangHebrew
 
 The message is in Hebrew.
 
 
-#### - WwanSmsCdmaLangMax
+### -field WwanSmsCdmaLangMax
 
 The total number of supported SMS CDMA languages.
 

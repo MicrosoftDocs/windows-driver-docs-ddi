@@ -76,7 +76,7 @@ WSK_INSPECT_ACTION APIENTRY WskInspectEvent(
 
 
 
-#### - SocketContext [in, optional]
+### -param SocketContext [in, optional]
 
 A pointer to the socket context for the listening socket on which the incoming connection request
      was received. The WSK application provided this pointer to the WSK subsystem when it called the 
@@ -84,21 +84,21 @@ A pointer to the socket context for the listening socket on which the incoming c
      socket.
 
 
-#### - LocalAddress [in]
+### -param LocalAddress [in]
 
 A pointer to a buffer that contains the local transport address on which the incoming connection
      request arrived. The buffer contains the specific SOCKADDR structure type that corresponds to the
      address family that the WSK application specified when it created the listening socket.
 
 
-#### - RemoteAddress [in]
+### -param RemoteAddress [in]
 
 A pointer to a buffer that contains the remote transport address from which the incoming
      connection request originated. The buffer contains the specific SOCKADDR structure type that corresponds
      to the address family that the WSK application specified when it created the listening socket.
 
 
-#### - InspectID [in, optional]
+### -param InspectID [in, optional]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure. The contents of
@@ -165,8 +165,8 @@ The WSK subsystem calls a WSK application's
     enabled. A WSK application can enable conditional accept mode on a listening socket by enabling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <mshelp:link keywords="netvista.listening_for_and_accepting_incoming_connections" tabindex="0">Listening for and
-    Accepting Incoming Connections</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
+    Accepting Incoming Connections</a>.
 
 If a WSK application returns 
     <b>WskInspectAccept</b> from its 
@@ -221,8 +221,6 @@ A WSK application's <i>WskInspectEvent</i> event callback function must not wait
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
@@ -233,13 +231,15 @@ A WSK application's <i>WskInspectEvent</i> event callback function must not wait
 
 <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
  
 

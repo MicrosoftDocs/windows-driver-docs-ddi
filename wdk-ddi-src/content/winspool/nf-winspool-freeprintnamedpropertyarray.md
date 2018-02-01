@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FreePrintNamedPropertyArray function [Print Devices], print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray, FreePrintNamedPropertyArray
+ms.keywords: FreePrintNamedPropertyArray, winspool/FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices], print.freeprintnamedpropertyarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,11 +69,11 @@ void WINAPI FreePrintNamedPropertyArray(
 
 
 
-#### - cProperties [in]
+### -param cProperties [in]
 
 
 
-#### - ppProperties [in, out, optional]
+### -param ppProperties [in, out, optional]
 
 
 

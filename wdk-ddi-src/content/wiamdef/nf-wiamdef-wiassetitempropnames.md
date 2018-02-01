@@ -71,17 +71,17 @@ HRESULT _stdcall wiasSetItemPropNames(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - cItemProps
+### -param cItemProps
 
 Specifies the number of property names to write.
 
 
-#### - ppId [in, out]
+### -param ppId [in, out]
 
 Pointer to the first element of a caller-allocated array of property identifiers (PROPIDs).
 

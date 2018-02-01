@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmAllocateMdlForIoSpace, kernel.mmallocatemdlforiospace, MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS MmAllocateMdlForIoSpace(
 
 
 
-#### - PhysicalAddressList [in]
+### -param PhysicalAddressList [in]
 
 A pointer to an array of <a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
 
 
-#### - NumberOfEntries [in]
+### -param NumberOfEntries [in]
 
 The number of elements in the <b>MM_PHYSICAL_ADDRESS_LIST</b> array pointed to by <i>PhysicalAddressList</i>.
 
 
-#### - NewMdl [out]
+### -param NewMdl [out]
 
 A pointer to a location to which the routine writes a pointer to the newly allocated MDL.
 
@@ -145,15 +145,15 @@ In some processor architectures, such as the x86, devices can be either memory-m
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
 <a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: edefb7f5-f423-48cc-81c9-16153c228d45
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiowmi/MPIO_DISK_INFO, structs-scsibus_d58f08a1-1534-4f93-83d4-031ce1dee9bf.xml, MPIO_DISK_INFO, storage.mpio_disk_info, PMPIO_DISK_INFO structure pointer [Storage Devices], _MPIO_DISK_INFO, PMPIO_DISK_INFO, *PMPIO_DISK_INFO, mpiowmi/PMPIO_DISK_INFO, MPIO_DISK_INFO structure [Storage Devices]
+ms.keywords: structs-scsibus_d58f08a1-1534-4f93-83d4-031ce1dee9bf.xml, _MPIO_DISK_INFO, MPIO_DISK_INFO, mpiowmi/MPIO_DISK_INFO, MPIO_DISK_INFO structure [Storage Devices], PMPIO_DISK_INFO structure pointer [Storage Devices], PMPIO_DISK_INFO, storage.mpio_disk_info, *PMPIO_DISK_INFO, mpiowmi/PMPIO_DISK_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _MPIO_DISK_INFO {
 
 
 
-#### - NumberDrives
+### -field NumberDrives
 
 An unsigned 32-bitfield that represents the number of multi-path disks in the system.
 
 
-#### - DriveInfo
+### -field DriveInfo
 
 An array that returns the information representing each multi-path LUN (pseudo-LUN) in the system. The number of elements in the array is given by <i>NumberDrives</i> and each element represents an instance of an MPIO_DRIVE_INFO structure.
 

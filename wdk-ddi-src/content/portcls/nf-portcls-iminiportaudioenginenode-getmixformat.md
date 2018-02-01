@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: CB0DD6C8-DFB3-42E0-B38F-341677A72E29
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportaudioenginenode_getmixformat, GetMixFormat method [Audio Devices], IMiniportAudioEngineNode interface, GetMixFormat, GetMixFormat method [Audio Devices], IMiniportAudioEngineNode, portcls/IMiniportAudioEngineNode::GetMixFormat, IMiniportAudioEngineNode::GetMixFormat, IMiniportAudioEngineNode interface [Audio Devices], GetMixFormat method
+ms.keywords: IMiniportAudioEngineNode::GetMixFormat, GetMixFormat, audio.iminiportaudioenginenode_getmixformat, GetMixFormat method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetMixFormat, IMiniportAudioEngineNode interface [Audio Devices], GetMixFormat method, IMiniportAudioEngineNode, GetMixFormat method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS GetMixFormat(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID of the mixer node.
 
 
-#### - pFormat [out]
+### -param pFormat [out]
 
 A structure of type <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format.
 
 
-#### - ulBufferSize [in]
+### -param ulBufferSize [in]
 
 The data buffer size.
 

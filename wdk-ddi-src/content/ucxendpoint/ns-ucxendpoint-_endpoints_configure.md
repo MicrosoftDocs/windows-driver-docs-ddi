@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ENDPOINTS_CONFIGURE structure [Buses], ucxendpoint/P_ENDPOINTS_CONFIGURE, buses._endpoints_configure, ENDPOINTS_CONFIGURE, _ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], P_ENDPOINTS_CONFIGURE
+ms.keywords: ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, ucxendpoint/P_ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/_ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,62 +83,62 @@ typedef struct _ENDPOINTS_CONFIGURE {
 
 
 
-#### - Header
+### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
 
 
-#### - EndpointsToEnableCount
+### -field EndpointsToEnableCount
 
 The number of endpoints to configure.
 
 
-#### - EndpointsToEnable
+### -field EndpointsToEnable
 
 A pointer to the first endpoint handle in the array of endpoints to  enable.
 
 
-#### - EndpointsToDisableCount
+### -field EndpointsToDisableCount
 
 The number of endpoints to configure.
 
 
-#### - EndpointsToDisable
+### -field EndpointsToDisable
 
 A pointer to the first endpoint handle in the array of endpoints to  enable.
 
 
-#### - EndpointsEnabledAndUnchangedCount
+### -field EndpointsEnabledAndUnchangedCount
 
 The number of endpoints that were enabled and unchanged.
 
 
-#### - EndpointsEnabledAndUnchanged
+### -field EndpointsEnabledAndUnchanged
 
 A pointer to the first endpoint handle in the array of endpoints that have not been changed.
 
 
-#### - FailureFlags
+### -field FailureFlags
 
 The errors, if any, that might occur when attempting to configure endpoints for the USB device or hub.
 
 
-#### - ExitLatencyDelta
+### -field ExitLatencyDelta
 
 The Exit Latency Delta (ELD) value. For more information see section 4.6.6.1 of the eXtensible Host Controller Interface specification.
 
 
-#### - ConfigurationValue
+### -field ConfigurationValue
 
 The configuration number of the USB configuration that contains the endpoints. 
 
 
-#### - InterfaceNumber
+### -field InterfaceNumber
 
 The interface number of the USB interface that contains the endpoints. 
 
 
-#### - AlternateSetting
+### -field AlternateSetting
 
 The setting number of the alternate setting that contains the endpoints. 
 

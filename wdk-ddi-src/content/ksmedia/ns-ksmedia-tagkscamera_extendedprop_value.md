@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E595C2BF-C3C8-4FE8-90B0-CD53524F4852
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE structure [Streaming Media Devices], tagKSCAMERA_EXTENDEDPROP_VALUE, PKSCAMERA_EXTENDEDPROP_VALUE structure pointer [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_VALUE, ksmedia/PKSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE, stream.kscamera_extendedprop_value, PKSCAMERA_EXTENDEDPROP_VALUE
+ms.keywords: ksmedia/KSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE, ksmedia/PKSCAMERA_EXTENDEDPROP_VALUE, *PKSCAMERA_EXTENDEDPROP_VALUE, tagKSCAMERA_EXTENDEDPROP_VALUE, PKSCAMERA_EXTENDEDPROP_VALUE structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_VALUE structure [Streaming Media Devices], stream.kscamera_extendedprop_value, PKSCAMERA_EXTENDEDPROP_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,39 +74,9 @@ typedef struct _KSCAMERA_EXTENDEDPROP_VALUE {
 
 
 
-#### - Value
+### -field Value
 
 The extended property value. 
-
-
-#### dbl
-
-The extended property expressed as a <b>double</b> value.
-
-
-#### ull
-
-The extended property expressed as a <b>ULONGLONG</b> value.
-
-
-#### ul
-
-The extended property expressed as a <b>ULONG</b> value.
-
-
-#### ratio
-
-The extended property value expressed as a ratio.
-
-
-#### l
-
-The extended property expressed as a <b>LONG</b> value.
-
-
-#### ll
-
-The extended property expressed as a <b>LONGLONG</b> value.
 
 
 ### -field Value.dbl

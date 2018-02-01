@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 397d882d-c82a-4686-b9ca-58a2fade5256
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGSMNMR structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGSMNMR, netvista.rilgsmnmr, *LPRILGSMNMR, RILGSMNMR
+ms.keywords: RILGSMNMR, rilapitypes/RILGSMNMR, *LPRILGSMNMR, netvista.rilgsmnmr, RILGSMNMR structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,42 +75,42 @@ struct RILGSMNMR {
 
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilgsmmnmrparammask.md">RILGSMMNMRPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - dwMobileCountryCode
+### -field dwMobileCountryCode
 
 Mobile country code (0...999)
 
 
-#### - dwMobileNetworkCode
+### -field dwMobileNetworkCode
 
 Mobile network code (0...999).
 
 
-#### - dwLocationAreaCode
+### -field dwLocationAreaCode
 
 Location area code (0…65535)
 
 
-#### - dwCellID
+### -field dwCellID
 
 GSM Cell ID (0...65535)
 
 
-#### - dwARFCN
+### -field dwARFCN
 
 Absolute radio frequency channel number of serving cell (0...1023)
 
 
-#### - dwBaseStationID
+### -field dwBaseStationID
 
 Base station ID of serving cell (0..63)
 
 
-#### - dwRxLevel
+### -field dwRxLevel
 
 Received signal strength of serving cell (0...63) where:
 

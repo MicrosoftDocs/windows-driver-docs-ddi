@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F8FA91AC-9085-4C25-8798-CEB9ADB34320
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], GNSS_DEVICE_CAPABILITY, sensors.gnss_device_capability, *PGNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY, gnssdriver/GNSS_DEVICE_CAPABILITY
+ms.keywords: gnssdriver/PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], sensors.gnss_device_capability, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY, gnssdriver/GNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,17 +93,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - SupportMultipleFixSessions
+### -field SupportMultipleFixSessions
 
 Indicates whether the GNSS driver natively supports multiple sessions for the same type (For example, multiple simultaneous distance tracking sessions initiated by the HLOS). If FALSE, the GNSS adapter will multiplex  the fix session requests from multiple LBS apps to combine into one fix session request that satisfies all the client requests.
 
@@ -112,7 +112,7 @@ If this capability is not present, the driver must support at least one active s
 The driver must always support modification of session parameter for an active fix session type so that the GNSS adapter does not need to stop/start an ongoing fix session when a new fix request needs to be multiplexed. In Windows 10, the GNSS adapter does not support initiating in the GNSS driver multiple sessions of the same type.
 
 
-#### - SupportMultipleAppSessions
+### -field SupportMultipleAppSessions
 
 Indicates whether the GNSS driver natively supports and tracks requests coming from multiple HLOS applications. The GNSS driver must not restrict being called from more than one application at the same time.
 
@@ -126,7 +126,7 @@ A value of FALSE indicates that the driver does not differentiate different HLOS
  
 
 
-#### - AgnssFormatSupported
+### -field AgnssFormatSupported
 
 Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) that the driver can handle.
 <pre class="syntax" xml:space="preserve"><code>#define GNSS_AGNSSFORMAT_XTRA1      0x01
@@ -139,51 +139,51 @@ Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) 
 This list currently includes a few IHV proprietary formats. The list can be updated when IHVs or OEMs decide to obtain the GNSS assistance information, specifically extended ephemeris, via the location platform.
 
 
-#### - AgnssFormatPreferred
+### -field AgnssFormatPreferred
 
 Specifies the preferred AGNSS format using the same bitmask as AgnssFormatSupported. For example, if both XTRA1 and XTRA2 are supported but XTRA2 is the preferred format, the GNSS driver sets AgnssFormatSupported to 0x000C and AgnssFormatPreferred to 0x0004.
 
 
-#### - SupportDistanceTracking
+### -field SupportDistanceTracking
 
 Indicates whether the GNSS driver/engine natively supports low-power tracking of the device based on a session-specific threshold. A TRUE value implies that the driver can support this natively in a low-power mode, for example, by offloading the tracking to a low-power processor and not requiring the app processor to be up and poll for movement.
 
 If the GNSS driver supports distance tracking, it implicitly supports other types of parallel fix sessions at the same time. For example, if a distance tracking session is active, a parallel single-shot must also be allowed and both types of fix sessions must be honored.
 
 
-#### - SupportContinuousTracking
+### -field SupportContinuousTracking
 
 Indicates whether the GNSS Driver/Engine natively supports continuous low-power tracking of the device. A TRUE value implies that the driver can support this natively in a low-power mode, for example, by offloading the tracking to a low-power processor and not requiring the app processor to be up and poll continuously.
 
 If the GNSS Driver supports continuous tracking, it implicitly supports other types of parallel fix sessions at the same time. For example, single-shot and continuous tracking can happen in parallel.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for future use.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved for future use.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Reserved for future use.
 
 
-#### - Reserved4
+### -field Reserved4
 
 Reserved for future use.
 
 
-#### - Reserved5
+### -field Reserved5
 
 Reserved for future use.
 
 
-#### - GeofencingSupport
+### -field GeofencingSupport
 
 Version 1 GNSS drivers must indicate that this capability is not supported.
 
@@ -194,57 +194,57 @@ Version 2 GNSS drivers and later can indicate geofence support by setting the fo
 GNSS_GEOFENCESUPPORT_CIRCLE indicates that the GNSS engine supports circular geofences.
 
 
-#### - Reserved6
+### -field Reserved6
 
 Reserved for future use.
 
 
-#### - Reserved7
+### -field Reserved7
 
 Reserved for future use.
 
 
-#### - SupportCpLocation
+### -field SupportCpLocation
 
 Specifies whether CP location is supported.
 
 
-#### - SupportUplV2
+### -field SupportUplV2
 
 Specifies whether V2 user plane location for CDMA is supported.
 
 
-#### - SupportSuplV1
+### -field SupportSuplV1
 
 Specifies whether SUPL V1 is supported.
 
 
-#### - SupportSuplV2
+### -field SupportSuplV2
 
 Specifies whether SUPL V2 is supported.
 
 
-#### - SupportedSuplVersion
+### -field SupportedSuplVersion
 
 Specifies the latest SUPL version that is supported by the SUPL client. This version information is currently not used by the HLOS at for any validation purposes.
 
 
-#### - MaxGeofencesSupported
+### -field MaxGeofencesSupported
 
 Specifies the number of geofences the GNSS engine can track based on constraints set by the platform. This value will only be valid when the GeofencingSupport field is set.
 
 
-#### - SupportMultipleSuplRootCert
+### -field SupportMultipleSuplRootCert
 
 Specifies the SUPL parameter.
 
 
-#### - GnssBreadCrumbPayloadVersion
+### -field GnssBreadCrumbPayloadVersion
 
 Must be BREADCRUMBING_UNSUPPORTED or BREADCRUMBING_VERSION_<i>x</i>.
 
 
-#### - MaxGnssBreadCrumbFixes
+### -field MaxGnssBreadCrumbFixes
 
 Must greater than or equal to MIN_BREADCRUMBS_SUPPORTED.
 

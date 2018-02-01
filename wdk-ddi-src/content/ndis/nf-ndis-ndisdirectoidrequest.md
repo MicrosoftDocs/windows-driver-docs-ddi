@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 771e5761-beea-4a31-9ebe-d65e9157f1f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, ndis/NdisDirectOidRequest, netvista.ndisdirectoidrequest, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista], NdisDirectOidRequest
+ms.keywords: ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, ndis/NdisDirectOidRequest, NdisDirectOidRequest, netvista.ndisdirectoidrequest, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,14 +71,14 @@ NDIS_STATUS NdisDirectOidRequest(
 
 
 
-#### - NdisBindingHandle [in]
+### -param NdisBindingHandle [in]
 
 The handle that the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function returns that
      identifies the target miniport adapter on the binding.
 
 
-#### - OidRequest [in]
+### -param OidRequest [in]
 
 A pointer to an 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
@@ -114,8 +114,8 @@ The request operation completed successfully.
 </td>
 <td width="60%">
 The request is being handled asynchronously, and NDIS will call the caller's 
-       <mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-       ProtocolDirectOidRequestComplete</i></mshelp:link> function when the request is completed.
+       <a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+       ProtocolDirectOidRequestComplete</a> function when the request is completed.
 
 </td>
 </tr>
@@ -171,8 +171,8 @@ The data that was supplied at
 The underlying driver does not support the requested operation. For 
        <b>NdisDirectOidRequest</b>, NDIS can also return this status if the calling driver has not registered
        a 
-       <mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-       ProtocolDirectOidRequestComplete</i></mshelp:link> function.
+       <a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+       ProtocolDirectOidRequestComplete</a> function.
 
 </td>
 </tr>
@@ -257,18 +257,18 @@ The
     interface. For example, the following OIDs can be used:
 
 
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
-       OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+       OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
-       OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+       OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
 
 
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_update_sa" tabindex="0">
-       OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+       OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
 
 
 A protocol driver must allocate sufficient memory to hold the information buffer that is associated
@@ -284,8 +284,8 @@ A protocol driver must allocate sufficient memory to hold the information buffer
 
 A driver that calls 
     <b>NdisDirectOidRequest</b> must register the 
-    <mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-    ProtocolDirectOidRequestComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+    ProtocolDirectOidRequestComplete</a> function.
 
 The direct OID request interface is similar to the general OID request interface. For more information
     about issuing general requests, see 
@@ -295,25 +295,25 @@ The direct OID request interface is similar to the general OID request interface
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
-<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-   ProtocolDirectOidRequestComplete</i></mshelp:link>
-
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_update_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
+
+<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+   ProtocolDirectOidRequestComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
  
 

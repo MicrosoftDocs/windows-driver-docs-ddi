@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 70B74088-C537-4104-A535-F41A24BB72A5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._urb_get_isoch_pipe_transfer_path_delays, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
+ms.keywords: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, buses._urb_get_isoch_pipe_transfer_path_delays, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ struct _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS {
 
 
 
-#### - Hdr
+### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, and <b>Hdr.Length</b> must be set to <code>sizeofsizeof(_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS)</code>.
 
@@ -82,18 +82,18 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-#### - PipeHandle
+### -field PipeHandle
 
 Specifies an opaque handle to pipe associated with the endpoint. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.  
 
 
-#### - MaximumSendPathDelayInMilliSeconds
+### -field MaximumSendPathDelayInMilliSeconds
 
 Returns the maximum delay in milliseconds from the time the  client driver's isochronous transfer is received by the USB driver stack to the time the transfer is programmed in the host controller. The host controller could either be a local host (as in case of wired USB) or it could be a remote controller as in case of Media-Agnostic USB (MA-USB). In case of MA-USB, it includes the maximum delay associated with the network medium.  
   
 
 
-#### - MaximumCompletionPathDelayInMilliSeconds
+### -field MaximumCompletionPathDelayInMilliSeconds
 
 Returns the maximum delay in milliseconds from the time an isochronous transfer is completed by the (local or remote) host controller to the time the corresponding client driver's request is completed by the USB driver stack. For MA-USB, it includes the maximum delay associated with the network medium.
 

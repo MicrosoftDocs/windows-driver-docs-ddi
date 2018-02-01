@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3a463b1-fc6f-4834-87e5-1d694f2823f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_multiplane_overlay_ycbcr_flags, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,35 +75,35 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS {
 
 
 
-#### - NominalRange
+### -field NominalRange
 
 If set, YUV values range from 16 to 235, inclusive, instead of the default range of 0 to 255, inclusive.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
-#### - Bt709
+### -field Bt709
 
 If set, YUV values should be converted using the BT.709 standard, instead of the default BT.601 conversion.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
-#### - xvYCC
+### -field xvYCC
 
 If set, YUV values contain xvYCC data, instead of conventional YCbCr data.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that identifies the type of blend operation to perform.
 

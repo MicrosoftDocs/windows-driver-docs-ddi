@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d853643d-d3e8-40cc-a8a8-848f36f3bdae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: INTERFACE structure [Kernel-Mode Driver Architecture], _INTERFACE, INTERFACE, *PINTERFACE, wdm/PINTERFACE, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, PINTERFACE, kernel.interface, PINTERFACE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], INTERFACE, _INTERFACE, *PINTERFACE, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], kernel.interface, PINTERFACE, wdm/PINTERFACE, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,27 +72,27 @@ typedef struct _INTERFACE {
 
 
 
-#### - Size
+### -field Size
 
 Size, in bytes, of a structure defining a driver interface, including this structure and interface-specific members.
 
 
-#### - Version
+### -field Version
 
 Driver-defined interface version.
 
 
-#### - Context
+### -field Context
 
 Pointer to interface-specific context information.
 
 
-#### - InterfaceReference
+### -field InterfaceReference
 
 Pointer to a driver-supplied <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
-#### - InterfaceDereference
+### -field InterfaceDereference
 
 Pointer to a driver-supplied <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
@@ -110,11 +110,11 @@ Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTER
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
  
 

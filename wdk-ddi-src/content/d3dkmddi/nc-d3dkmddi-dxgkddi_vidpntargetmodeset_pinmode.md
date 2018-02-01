@@ -71,12 +71,12 @@ NTSTATUS APIENTRY pfnPinMode(
 
 
 
-#### - hVidPnTargetModeSet [in]
+### -param hVidPnTargetModeSet [in]
 
 [in] A handle to a VidPN target mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
 
 
-#### - VidPnTargetModeId [in]
+### -param VidPnTargetModeId [in]
 
 [in] An integer that identifies the mode to be pinned.
 

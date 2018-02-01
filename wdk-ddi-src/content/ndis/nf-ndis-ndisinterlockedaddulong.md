@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d2e31f3c-7152-4df9-8206-a15dee9b641f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisinterlockedaddulong, NdisInterlockedAddUlong, ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml
+ms.keywords: ndis/NdisInterlockedAddUlong, netvista.ndisinterlockedaddulong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -72,36 +72,19 @@ VOID NdisInterlockedAddUlong(
 
 
 
-### -param _Addend
-
-TBD
-
-
-### -param _Increment
-
-TBD
-
-
-### -param _SpinLock
-
-TBD
-
-
-
-
-#### - Addend [in]
+### -param _Addend [in]
 
 A pointer to the variable for which the value is to be adjusted by the given 
      <i>Increment</i> .
 
 
-#### - Increment [in]
+### -param _Increment [in]
 
 The value to be added to that at 
      <i>Addend</i> .
 
 
-#### - SpinLock [in]
+### -param _SpinLock [in]
 
 A pointer to a caller-initialized spin lock.
 
@@ -131,15 +114,15 @@ The
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+
 <a href="..\ndis\nf-ndis-ndisretrieveulong.md">NdisRetrieveUlong</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisstoreulong.md">NdisStoreUlong</a>
 
 <a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-<a href="..\ndis\nf-ndis-ndisstoreulong.md">NdisStoreUlong</a>
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
  
 

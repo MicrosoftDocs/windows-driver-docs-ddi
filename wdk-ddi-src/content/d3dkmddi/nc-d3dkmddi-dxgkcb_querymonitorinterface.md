@@ -72,17 +72,17 @@ NTSTATUS APIENTRY DxgkCbQueryMonitorInterface(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 [in] A handle that represents a display adapter. The VidPN manager provided this handle to the display miniport driver in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a>, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>, or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>.
 
 
-#### - MonitorInterfaceVersion [in]
+### -param MonitorInterfaceVersion [in]
 
 [in] A value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_monitor_interface_version.md">DXGK_MONITOR_INTERFACE_VERSION</a> enumeration that specifies the version of the monitor interface being requested.
 
 
-#### - ppMonitorInterface [out]
+### -param ppMonitorInterface [out]
 
 [out] A pointer to a variable that receives a pointer to the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface.md">DXGK_MONITOR_INTERFACE</a> structure.
 

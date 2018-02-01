@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9e112984-0a7e-4bb9-a10f-b50ab67ce4f3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/PIDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], irb/IDE_REQUEST_BLOCK, structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml, PIDE_REQUEST_BLOCK, storage.ide_request_block, IDE_REQUEST_BLOCK structure [Storage Devices], _IDE_REQUEST_BLOCK, *PIDE_REQUEST_BLOCK
+ms.keywords: irb/IDE_REQUEST_BLOCK, storage.ide_request_block, _IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml, *PIDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], PIDE_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,27 +92,27 @@ typedef struct _IDE_REQUEST_BLOCK {
 
 
 
-#### - IdeTaskFile
+### -field IdeTaskFile
 
 Contains a structure of type <a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
 
 
-#### - Cdb
+### -field Cdb
 
 Contains a command descriptor block (CDB). This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATAPI_COMMAND is nonzero.
 
 
-#### - PowerChange
+### -field PowerChange
 
 Indicates an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a> that defines a power state transition. This member is defined whenever <b>Function</b> is equal to IRB_FUNCTION_POWER_CHANGE.
 
 
-#### - AsUChar
+### -field AsUChar
 
 Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, and <b>Cdb</b> as unsigned character data.
 
 
-#### - Function
+### -field Function
 
 Specifies the category that the request belongs to. The table below describes the classification of the I/O requests.
 <table>
@@ -193,7 +193,7 @@ Indicates that the IRB is for the miniport. It is the responsibility of the mini
 </table> 
 
 
-#### - IrbStatus
+### -field IrbStatus
 
 The miniport must set this member to indicates the status of the specified operation. The table below describes the various <b>IrbStatus</b> values and their meaning.
 <table>
@@ -310,59 +310,59 @@ IRB_STATUS_RETURN_TASKFILE_VALID is a bitmask that indicates a valid return task
 </table> 
 
 
-#### - AtaStatus
+### -field AtaStatus
 
 Indicates the status returned by the device in its status register. The miniport driver should update this field when completing an IRB with <i>IRB_STATUS_DEVICE_ERROR</i>.
 
 
-#### - AtaError
+### -field AtaError
 
 Indicates the error value returned by the device in its error register. The miniport driver should update this field when completing an IRB with <i>IRB_STATUS_DEVICE_ERROR</i>.
 
 
-#### - Channel
+### -field Channel
 
 Specifies the channel number.
 
 
-#### - TargetId
+### -field TargetId
 
 Specifies the target ID of the device.
 
 
-#### - Lun
+### -field Lun
 
 Specifies the logical unit number of the device.
 
 
-#### - CdbLength
+### -field CdbLength
 
 Specifies the length in bytes of the buffer pointed to by <b>Cdb</b>.
 
 
-#### - SenseInfoBufferLength
+### -field SenseInfoBufferLength
 
 Specifies the length in bytes of the buffer pointed to by <b>SenseInfoBuffer</b>.
 
 
-#### - SenseInfoBufferType
+### -field SenseInfoBufferType
 
 Specifies the type of data structure returned in <b>SenseInfoBuffer</b>. Because ATA commands don't have a need for the request sense command, ATA_PASS_THROUGH commands use <b>SenseInfoBuffer</b> to return task file information. For ATA_PASS_THROUGH commands, as identified in the <b>IrbFlags</b> member, the appropriate return <b>TaskFile</b> size should be reported as either SENSE_INFO_BUFFER_RETURN_TYPE_28BIT_TASKFILE or
 
 SENSE_INFO_BUFFER_RETURN_TYPE_48BIT_TASKFILE.
 
 
-#### - QueueTag
+### -field QueueTag
 
 The queue tag for this IRB. The port driver sets this field to 0.
 
 
-#### - ReservedAsUlong
+### -field ReservedAsUlong
 
 Reserved for future use.
 
 
-#### - IrbFlags
+### -field IrbFlags
 
 Qualifies the request with ceratin actions that need to be performed. The table below describes them in detail.
 <table>
@@ -479,37 +479,37 @@ Indicates that this IRB is to be processed as soon as possible, before non-high-
 </table> 
 
 
-#### - TimeOutValue
+### -field TimeOutValue
 
 Indicates the time in seconds after which the request will time out.
 
 
-#### - DataTransferLength
+### -field DataTransferLength
 
 Contains the length in bytes of the data buffer that contains data to be transferred.
 
 
-#### - IrbExtension
+### -field IrbExtension
 
 Pointer to the per-request extension allocated by the port driver.
 
 
-#### - DataBuffer
+### -field DataBuffer
 
 Pointer to the buffer where the data resides.
 
 
-#### - SenseInfoBuffer
+### -field SenseInfoBuffer
 
 Pointer to the buffer which holds the sense data.
 
 
-#### - NextIrb
+### -field NextIrb
 
 Pointer to the next IRB to be processed. The port driver sets this to <b>NULL</b>. The miniport driver can use this field to link IRBs together.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 
@@ -523,13 +523,13 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a>
 
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
-
 <a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
 
  
 

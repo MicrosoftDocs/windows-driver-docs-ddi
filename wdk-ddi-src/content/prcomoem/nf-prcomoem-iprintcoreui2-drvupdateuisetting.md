@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::DrvUpdateUISetting, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml, IPrintCoreUI2, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, print.iprintcoreui2_drvupdateuisetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting
+ms.keywords: IPrintCoreUI2::DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, DrvUpdateUISetting, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, print.iprintcoreui2_drvupdateuisetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ STDMETHOD DrvUpdateUISetting(
 
 
 
-#### - pci
+### -param pci
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure. 
 
 
-#### - pOptItem
+### -param pOptItem
 
 Caller-supplied pointer to an <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure describing a user interface option item.
 
 
-#### - dwPreviousSelection
+### -param dwPreviousSelection
 
 Not used. 
 
 
-#### - dwMode
+### -param dwMode
 
 Caller-supplied integer constant indicating to which property sheet page the supplied option item belongs. The following constants are valid. 
 <table>
@@ -184,9 +184,9 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
  
 

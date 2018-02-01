@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d655aa2e-ec58-4f9b-a349-a19e7c78469a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_sendrtt, rilapi/RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], RIL_SendRTT
+ms.keywords: netvista.ril_sendrtt, RIL_SendRTT method [Network Drivers Starting with Windows Vista], RIL_SendRTT, rilapi/RIL_SendRTT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,23 +74,23 @@ HRESULT  RIL_SendRTT(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwID
+### -param dwID
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - lpwszRTTText
+### -param lpwszRTTText
 
 
 

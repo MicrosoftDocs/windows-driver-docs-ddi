@@ -70,7 +70,7 @@ D3DKMT_HANDLE APIENTRY DxgkCbGetHandleParent(
 
 
 
-#### - hAllocation [in]
+### -param hAllocation [in]
 
 [in] A handle to an allocation. This handle must be the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) assigned for the allocation.
 

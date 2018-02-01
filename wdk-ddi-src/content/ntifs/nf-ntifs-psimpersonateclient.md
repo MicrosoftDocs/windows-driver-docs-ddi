@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 69cc1253-07eb-43cf-abc7-5ad02ecb014d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsImpersonateClient routine [Installable File System Drivers], PsImpersonateClient, ntifs/PsImpersonateClient, ifsk.psimpersonateclient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml
+ms.keywords: PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml, PsImpersonateClient, ntifs/PsImpersonateClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS PsImpersonateClient(
 
 
 
-#### - Thread [in, out]
+### -param Thread [in, out]
 
 Pointer to the server thread that is to impersonate the client. 
 
 
-#### - Token [in]
+### -param Token [in]
 
 Pointer to the token to be assigned as the impersonation token. This token can be a primary token or an impersonation token. Set to <b>NULL</b> to end the impersonation. 
 
 
-#### - CopyOnOpen [in]
+### -param CopyOnOpen [in]
 
 Specifies whether the token can be opened directly. Set to <b>TRUE</b> to specify that the token cannot be opened directly. In this case, the token must be duplicated, and the duplicate token used instead. Set to <b>FALSE</b> to allow the token to be opened directly. 
 
 
-#### - EffectiveOnly [in]
+### -param EffectiveOnly [in]
 
 Set to <b>FALSE</b> to allow the server to enable groups and privileges that are currently disabled in the client security context, <b>TRUE</b> otherwise.
 
 
-#### - ImpersonationLevel [in]
+### -param ImpersonationLevel [in]
 
 A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level at which the server is to access the token. 
 
@@ -156,15 +156,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
 <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
 
 <a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
 
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
 <a href="..\ntifs\nf-ntifs-psreverttoself.md">PsRevertToSelf</a>
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
  
 

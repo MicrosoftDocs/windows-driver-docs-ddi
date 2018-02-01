@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2318d02-f52e-4b5b-86da-04df7b31b7d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], *LPDXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1, dxva/DXVA_MBctrl_I_HostResidDiff_1, display.dxva_mbctrl_i_hostresiddiff_1, _DXVA_MBctrl_I_HostResidDiff_1
+ms.keywords: "_DXVA_MBctrl_I_HostResidDiff_1, dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], display.dxva_mbctrl_i_hostresiddiff_1, *LPDXVA_MBctrl_I_HostResidDiff_1, dxva/DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _DXVA_MBctrl_I_HostResidDiff_1 {
 
 
 
-#### - wMBaddress
+### -field wMBaddress
 
 Specifies the macroblock address of the current macroblock in raster scan order. For examples of macroblock addresses, see <a href="https://msdn.microsoft.com/f04c5462-db7c-4917-b8ef-22a630c82994">macroblock addresses</a>.
 
 
-#### - wMBtype
+### -field wMBtype
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
 <table>
@@ -224,12 +224,12 @@ Must be 1.
 </table> 
 
 
-#### - dwMB_SNL
+### -field dwMB_SNL
 
 Specifies the number of skipped macroblocks to be generated following the current macroblock, and indicates the location of the residual difference data for the blocks of the current macroblock. This member contains two variables: <i>MBskipsFollowing</i> in the most significant 8 bits, and <i>MBdataLocation</i> in the least significant 24 bits. <i>MBskipsFollowing</i> indicates the number of skipped macroblocks to be generated following the current macroblock. <i>MBdataLocation</i> is an index into the residual difference block data buffer. This index indicates the location of the residual difference data for the blocks of the current macroblock, expressed as a multiple of 32 bits.
 
 
-#### - wPatternCode
+### -field wPatternCode
 
 Indicates whether residual difference data is sent for each block in the macroblock. In an intra picture, residual difference data is sent for every block in the macroblock. The bits in <b>wPatternCode</b> that refer to all blocks of the current macroblock must be 1 in this structure. 
 
@@ -238,12 +238,12 @@ Bit (11-<i>i</i>) of <b>wPatternCode</b> (where bit zero is the least significan
 If the <b>bConfigSpatialResidInterleaved</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1, host-based residual differences are sent in a chroma-interleaved form matching that of the YUV pixel format in use. In this case, each Cb and spatially corresponding Cr pair of blocks is treated as a single residual difference structure unit. This does not alter the value or meaning of <b>wPatternCode</b>, but it implies that both members of each pair of Cb and Cr data blocks are sent whenever either of these data blocks has the corresponding bit set in <b>wPatternCode</b>. If the bit in <b>wPatternCode</b> for a particular data block is zero, the corresponding residual difference data values must be sent as zero whenever this pairing necessitates sending a residual difference data block for a block with a <b>wPatternCode</b> bit equal to zero.
 
 
-#### - wPC_Overflow
+### -field wPC_Overflow
 
 Must be zero.
 
 
-#### - dwReservedBits2
+### -field dwReservedBits2
 
 Reserved bits used for packing and alignment. Must be zero.
 
@@ -259,11 +259,11 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
+<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
-
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
  
 

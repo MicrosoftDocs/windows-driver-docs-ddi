@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0D4528C0-AEE6-4AD2-A3E6-524A6EB8A0D9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure [Bluetooth Devices], *PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure pointer [Bluetooth Devices], bltooth.l2cap_retransmission_and_flow_control, PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL"
+ms.keywords: bltooth.l2cap_retransmission_and_flow_control, PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure pointer [Bluetooth Devices], L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure [Bluetooth Devices], *PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL {
 
 
 
-#### - Mode
+### -field Mode
 
 Requested mode for the enhanced L2CAP channel.
 
 
-#### - TxWindowSize
+### -field TxWindowSize
 
 Size of the transmission window for enhanced retransmission mode. The value of member is valid only when used with enhanced retransmission mode, and is ignored in streaming mode. Valid values range from 1 to 63.
 
 
-#### - MaxTransmit
+### -field MaxTransmit
 
 Number of times a single I/S frame will be re-transmitted in case of an error. The value of this member is valid only for enhanced retransmission mode and is ignored in streaming mode. The minimum value is 1.
 
 
-#### - RetransmissionTO
+### -field RetransmissionTO
 
 Retransmission timeout value. Profile drivers should set this value to 0.
 
 
-#### - MonitorTO
+### -field MonitorTO
 
 Monitor timeout. Profile drivers should set this value to 0.
 
 
-#### - MaxPDUSize
+### -field MaxPDUSize
 
 Maximum PDU Size.
 

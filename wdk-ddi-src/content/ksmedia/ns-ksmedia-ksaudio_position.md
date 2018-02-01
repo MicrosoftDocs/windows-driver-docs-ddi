@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 91658dfc-dad4-4fbb-8688-13971e7275e2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, audio.ksaudio_position, KSAUDIO_POSITION, ksmedia/KSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], ksmedia/PKSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], *PKSAUDIO_POSITION, PKSAUDIO_POSITION
+ms.keywords: ksmedia/KSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], KSAUDIO_POSITION structure [Audio Devices], *PKSAUDIO_POSITION, aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, PKSAUDIO_POSITION, audio.ksaudio_position, ksmedia/PKSAUDIO_POSITION, KSAUDIO_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,14 +70,14 @@ typedef struct {
 
 
 
-#### - PlayOffset
+### -field PlayOffset
 
 Specifies the current play position as a byte offset.
 
 Specifies the current play position as a byte offset.
 
 
-#### - WriteOffset
+### -field WriteOffset
 
 Specifies the current write position as a byte offset.
 
@@ -127,9 +127,9 @@ For more information, see <a href="https://msdn.microsoft.com/893fea84-9136-4107
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563384">KSINTERFACE_STANDARD_STREAMING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
 
  
 

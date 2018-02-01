@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a58e55f5-d657-43bf-afef-05af7c6c02cc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_PORT_UCHAR, kernel.read_port_uchar, wdm/READ_PORT_UCHAR, k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture]
+ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], kernel.read_port_uchar, k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, wdm/READ_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ UCHAR READ_PORT_UCHAR(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space. 
 

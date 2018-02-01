@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 63ca0e60-700b-459a-a88a-bc7bb6f5f6e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/ZwAllocateLocallyUniqueId, k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], ntddk/NtAllocateLocallyUniqueId, kernel.zwallocatelocallyuniqueid, NtAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId
+ms.keywords: ZwAllocateLocallyUniqueId, kernel.zwallocatelocallyuniqueid, NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId, ntddk/NtAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,9 +96,9 @@ The allocated <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> is unique to
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
  
 

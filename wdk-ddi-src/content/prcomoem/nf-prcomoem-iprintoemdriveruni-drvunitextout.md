@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f8c21813-9bfd-46a5-abb2-78ac2f2301af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemDriverUni::DrvUniTextOut, IPrintOemDriverUni interface [Print Devices], DrvUniTextOut method, DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni::DrvUniTextOut, print_unidrv-pscript_rendering_a67dafd9-26b4-43ad-82f9-e53caca33053.xml, print.iprintoemdriveruni_drvunitextout, IPrintOemDriverUni, DrvUniTextOut, DrvUniTextOut method [Print Devices]
+ms.keywords: IPrintOemDriverUni interface [Print Devices], DrvUniTextOut method, DrvUniTextOut method [Print Devices], print_unidrv-pscript_rendering_a67dafd9-26b4-43ad-82f9-e53caca33053.xml, IPrintOemDriverUni::DrvUniTextOut, DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface, DrvUniTextOut, prcomoem/IPrintOemDriverUni::DrvUniTextOut, print.iprintoemdriveruni_drvunitextout, IPrintOemDriverUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,52 +77,52 @@ HRESULT DrvUniTextOut(
 
 
 
-#### - pso
+### -param pso
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that describes the surface on which to write. 
 
 
-#### - pstro
+### -param pstro
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569738">STROBJ</a> structure that defines the glyphs to be rendered and the positions in which to place them. 
 
 
-#### - pfo
+### -param pfo
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure from which to retrieve information about the font and its glyphs. 
 
 
-#### - pco
+### -param pco
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a> structure that defines the clip region through which all rendering must be done. The driver cannot affect any pixels outside the clip region. 
 
 
-#### - prclExtra
+### -param prclExtra
 
 Pointer to a RECTL structure. GDI always sets this parameter to <b>NULL</b> in calls to this function. It should be ignored by the driver. 
 
 
-#### - prclOpaque
+### -param prclOpaque
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that represents a single opaque rectangle. This rectangle is bottom-right exclusive. Pixels within this rectangle (those that are not foreground and not clipped) are to be rendered with the opaque brush. This rectangle always bounds the text to be drawn. If this parameter is <b>NULL</b>, no opaque pixels are to be rendered. 
 
 
-#### - pboFore
+### -param pboFore
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538261">BRUSHOBJ</a> structure that represents the brush object to be used for the foreground pixels. This brush will always be a solid color brush.
 
 
-#### - pboOpaque
+### -param pboOpaque
 
 Pointer to a BRUSHOBJ structure that represents the opaque pixels. Both the foreground and background mix modes for this brush are assumed to be R2_COPYPEN. Unless the driver sets the GCAPS_ARBRUSHOPAQUE capabilities bit in the <b>flGraphicsCaps</b> member of the DEVINFO structure, it will always be called with a solid color brush. 
 
 
-#### - pptlBrushOrg
+### -param pptlBrushOrg
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569166">POINTL</a> structure that defines the brush origin for both brushes.
 
 
-#### - mix
+### -param mix
 
 The foreground and background raster operations (mix modes) for <i>pboFore</i>. 
 

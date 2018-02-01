@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c981e56f-e582-4c06-8d32-b070d58065d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices], video/VideoPortAllocatePool, display.videoportallocatepool, VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml
+ms.keywords: video/VideoPortAllocatePool, display.videoportallocatepool, VideoPortAllocatePool function [Display Devices], VideoPortAllocatePool, VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ PVOID VideoPortAllocatePool(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the type of memory pool to allocate. This parameter can be set to one of the following:
 <table>
@@ -127,12 +127,12 @@ The pool is from cache-aligned, paged memory.
 </table> 
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 Specifies the number of bytes of memory to allocate.
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Specifies a four-byte allocation tag, consisting of up to four ASCII characters, that uniquely identifies the driver that is allocating the memory. The tag string is delimited with single quotes.
 

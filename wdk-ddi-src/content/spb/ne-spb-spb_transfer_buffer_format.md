@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMdl, SPB.spb_transfer_buffer_format, SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMdl, SpbTransferBufferFormatMax, *PSPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatList, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], spb/SpbTransferBufferFormatMax, SpbTransferBufferFormatSimpleNonPaged, SPB_TRANSFER_BUFFER_FORMAT, spb/SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatSimple
+ms.keywords: SpbTransferBufferFormatMax, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatInvalid, SPB.spb_transfer_buffer_format, spb/SpbTransferBufferFormatSimple, SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatMax, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatList, SpbTransferBufferFormatList, SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatSimple, *PSPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum  {
 
 
 
-#### - SpbTransferBufferFormatInvalid
+### -field SpbTransferBufferFormatInvalid
 
 Reserved for use by the operating system.
 
 
-#### - SpbTransferBufferFormatSimple
+### -field SpbTransferBufferFormatSimple
 
 The transfer buffer is described by a simple user-mode or kernel-mode pointer and a length.
 
 
-#### - SpbTransferBufferFormatList
+### -field SpbTransferBufferFormatList
 
 The transfer buffer is described by a pointer to a list of buffers and a count of the number of buffers in the list.
 
 
-#### - SpbTransferBufferFormatSimpleNonPaged
+### -field SpbTransferBufferFormatSimpleNonPaged
 
 The transfer buffer is described by a simple user-mode or kernel-mode pointer and a length. The buffer resides in nonpaged memory. This format value is valid only if the client that originates the I/O request is a kernel-mode driver.
 
 
-#### - SpbTransferBufferFormatMdl
+### -field SpbTransferBufferFormatMdl
 
 The transfer buffer is described by a pointer to an MDL. This format value is valid only if the client that originates the I/O request is a kernel-mode driver.
 
 
-#### - SpbTransferBufferFormatMax
+### -field SpbTransferBufferFormatMax
 
 Reserved for use by the operating system.
 

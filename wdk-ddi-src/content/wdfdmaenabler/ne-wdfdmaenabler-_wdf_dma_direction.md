@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 813414fa-17b6-4b69-a3dd-f3a2e5190305
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaDirectionReadFromDevice, WdfDmaDirectionWriteToDevice, DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml, WDF_DMA_DIRECTION enumeration, kmdf.wdf_dma_direction, wdfdmaenabler/WDF_DMA_DIRECTION, wdfdmaenabler/WdfDmaDirectionReadFromDevice, wdf.wdf_dma_direction, wdfdmaenabler/WdfDmaDirectionWriteToDevice, WDF_DMA_DIRECTION, _WDF_DMA_DIRECTION
+ms.keywords: wdfdmaenabler/WdfDmaDirectionReadFromDevice, _WDF_DMA_DIRECTION, WDF_DMA_DIRECTION enumeration, wdfdmaenabler/WDF_DMA_DIRECTION, kmdf.wdf_dma_direction, WdfDmaDirectionWriteToDevice, wdfdmaenabler/WdfDmaDirectionWriteToDevice, wdf.wdf_dma_direction, WdfDmaDirectionReadFromDevice, WDF_DMA_DIRECTION, DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,12 +71,12 @@ typedef enum _WDF_DMA_DIRECTION {
 
 
 
-#### - WdfDmaDirectionReadFromDevice
+### -field WdfDmaDirectionReadFromDevice
 
 The DMA transfer direction is from the device (read).
 
 
-#### - WdfDmaDirectionWriteToDevice
+### -field WdfDmaDirectionWriteToDevice
 
 The DMA transfer direction is to the device (write).
 

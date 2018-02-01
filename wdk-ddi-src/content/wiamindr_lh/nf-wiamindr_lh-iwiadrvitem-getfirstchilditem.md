@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2e580a57-03cb-4ff4-b3c6-0b5ef17b4ccb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaDrvItem::GetFirstChildItem, DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, IWiaDrvItem::GetFirstChildItem, GetFirstChildItem, IWiaDrvItem interface [Imaging Devices], GetFirstChildItem method, GetFirstChildItem method [Imaging Devices], image.iwiadrvitem_getfirstchilditem, GetFirstChildItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem
+ms.keywords: IWiaDrvItem::GetFirstChildItem, image.iwiadrvitem_getfirstchilditem, DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, IWiaDrvItem interface [Imaging Devices], GetFirstChildItem method, GetFirstChildItem method [Imaging Devices], IWiaDrvItem interface, GetFirstChildItem, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetFirstChildItem, GetFirstChildItem method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

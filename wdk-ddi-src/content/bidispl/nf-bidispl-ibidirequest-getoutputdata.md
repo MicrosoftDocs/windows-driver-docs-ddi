@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IBidiRequest::GetOutputData, BIDI_BLOB, BIDI_INT, IBidiRequest::GetOutputData method [Print Devices], print.ibidirequest_ibidirequest__getoutputdata, bidispl/IBidiRequest::IBidiRequest::GetOutputData, GetOutputData, IBidiRequest interface [Print Devices], IBidiRequest::GetOutputData method, BIDI_FLOAT, IBidiRequest, BIDI_ENUM, IBidiRequest::IBidiRequest::GetOutputData, BIDI_BOOL, gdi.ibidirequest_ibidirequest__getoutputdata, BIDI_NULL, BIDI_STRING, BIDI_TEXT, _win32_IBidiRequest_GetOutputData, IBidiRequest::GetOutputData method [Print Devices], IBidiRequest interface
+ms.keywords: print.ibidirequest_ibidirequest__getoutputdata, BIDI_BOOL, bidispl/IBidiRequest::IBidiRequest::GetOutputData, BIDI_ENUM, BIDI_NULL, BIDI_FLOAT, gdi.ibidirequest_ibidirequest__getoutputdata, GetOutputData, IBidiRequest::GetOutputData, BIDI_INT, BIDI_BLOB, IBidiRequest, BIDI_STRING, IBidiRequest interface [Print Devices], IBidiRequest::GetOutputData method, _win32_IBidiRequest_GetOutputData, IBidiRequest::GetOutputData method [Print Devices], IBidiRequest::GetOutputData method [Print Devices], IBidiRequest interface, IBidiRequest::IBidiRequest::GetOutputData, BIDI_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT IBidiRequest::GetOutputData(
 
 
 
-#### - dwIndex [in]
+### -param dwIndex [in]
 
 A zero-based index of the output data that is requested. For more information, see Remarks.
 
 
-#### - ppszSchema [out]
+### -param ppszSchema [out]
 
 A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free this pointer.
 
 
-#### - pdwType [out]
+### -param pdwType [out]
 
 A pointer to a variable that receives the type of the output data. This parameter can be one of the following values.
 <table>
@@ -172,12 +172,12 @@ Binary data.
 </table> 
 
 
-#### - ppData [out]
+### -param ppData [out]
 
 A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> to free the buffer.
 
 
-#### - uSize [out]
+### -param uSize [out]
 
 A pointer to a variable that receives the size of the byte array specified by **ppData.
 
@@ -252,11 +252,11 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dd144974">IBidiRequest::GetEnumCount</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144974">IBidiRequest::GetEnumCount</a>
 
  
 

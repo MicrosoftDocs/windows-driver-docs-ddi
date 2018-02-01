@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TRANSACTION_INFORMATION_CLASS, kernel.transaction_information_class, TransactionPropertiesInformation, wdm/TransactionBasicInformation, TransactionSuperiorEnlistmentInformation, wdm/TransactionEnlistmentInformation, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, wdm/TransactionPropertiesInformation, TransactionEnlistmentInformation, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, wdm/TransactionSuperiorEnlistmentInformation, _TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS
+ms.keywords: TransactionPropertiesInformation, _TRANSACTION_INFORMATION_CLASS, TransactionSuperiorEnlistmentInformation, wdm/TransactionPropertiesInformation, TransactionEnlistmentInformation, wdm/TransactionEnlistmentInformation, wdm/TransactionBasicInformation, kernel.transaction_information_class, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, wdm/TransactionSuperiorEnlistmentInformation, wdm/TRANSACTION_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,31 +71,31 @@ typedef enum _TRANSACTION_INFORMATION_CLASS {
 
 
 
-#### - TransactionBasicInformation
+### -field TransactionBasicInformation
 
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a> structure.
 
 
-#### - TransactionPropertiesInformation
+### -field TransactionPropertiesInformation
 
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a> structure.
 
 
-#### - TransactionEnlistmentInformation
+### -field TransactionEnlistmentInformation
 
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
 
 
-#### - TransactionSuperiorEnlistmentInformation
+### -field TransactionSuperiorEnlistmentInformation
 
 Information about a transaction manager object is stored in a <b>TRANSACTION_SUPERIOR_ENLISTMENT_INFORMATION</b> structure.
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
-
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
  
 

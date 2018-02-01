@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 332f6921-1ad2-42ae-9728-001f243b8cff
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistrychannelsubkeywritedeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], AtaPortRegistryChannelSubkeyWriteDeferred, atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, irb/AtaPortRegistryChannelSubkeyWriteDeferred
+ms.keywords: AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], AtaPortRegistryChannelSubkeyWriteDeferred, irb/AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred, atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ BOOLEAN __inline AtaPortRegistryChannelSubkeyWriteDeferred(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-#### - ControllerNumber [in]
+### -param ControllerNumber [in]
 
 Contains the controller number. 
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 Contains the name of the registry value to write to. 
 
 
-#### - ValueType [in]
+### -param ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
 <table>
@@ -128,7 +128,7 @@ A null-terminated. Unicode string.
 </table> 
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to the source buffer that contains the data to be written to the registry. 
 

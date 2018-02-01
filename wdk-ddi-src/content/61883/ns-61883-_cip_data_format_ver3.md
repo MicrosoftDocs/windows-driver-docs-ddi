@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: A7EDC949-A2C6-43E9-9CA0-886FEE5282F5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CIP_DATA_FORMAT_VER3, IEEE.cip_data_format_ver3, _CIP_DATA_FORMAT_VER3, 61883/PCIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], *PCIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3 structure [Buses], CIP_DATA_FORMAT, CIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3
+ms.keywords: PCIP_DATA_FORMAT_VER3, 61883/CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3, _CIP_DATA_FORMAT_VER3, 61883/PCIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], CIP_DATA_FORMAT, *PCIP_DATA_FORMAT, *PCIP_DATA_FORMAT_VER3, IEEE.cip_data_format_ver3, CIP_DATA_FORMAT_VER3 structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,57 +77,57 @@ typedef struct _CIP_DATA_FORMAT_VER3 {
 
 
 
-#### - FMT
+### -field FMT
 
 This member is either known, or discovered by an AV/C command.
 
 
-#### - FDF_hi
+### -field FDF_hi
 
 This member is either known, or discovered by an AV/C command.
 
 
-#### - FDF_mid
+### -field FDF_mid
 
 This member is either known, or discovered by an AV/C command.
 
 
-#### - FDF_lo
+### -field FDF_lo
 
 This member is either known, or discovered by an AV/C command.
 
 
-#### - bHeader
+### -field bHeader
 
 This member is SPH as defined by IEC-61883.
 
 
-#### - Padding
+### -field Padding
 
 This member is QPC as defined by IEC-61883.
 
 
-#### - BlockSize
+### -field BlockSize
 
 This member is DBS as defined by IEC-61883.
 
 
-#### - Fraction
+### -field Fraction
 
 This member is FN as defined by IEC-61883.
 
 
-#### - BlockPeriod
+### -field BlockPeriod
 
 This member is the number of 1394 ticks to send a data block.
 
 
-#### - BlockPeriodRemainder
+### -field BlockPeriodRemainder
 
 This member is the remainder of 1394 ticks to send a data block.
 
 
-#### - BlocksPerPacket
+### -field BlocksPerPacket
 
 This member is the number of blocks per packet; used for blocking mode only
 

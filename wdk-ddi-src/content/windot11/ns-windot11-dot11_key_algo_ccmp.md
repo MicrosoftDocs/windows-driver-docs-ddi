@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf89ee80-d19d-4d97-b71f-8ebee4b96562
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_KEY_ALGO_CCMP, PDOT11_KEY_ALGO_CCMP, Native_802.11_data_types_37999ce3-5aae-4c91-80f0-f47a7182a963.xml, PDOT11_KEY_ALGO_CCMP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_ccmp, DOT11_KEY_ALGO_CCMP structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP
+ms.keywords: "*PDOT11_KEY_ALGO_CCMP, netvista.dot11_key_algo_ccmp, windot11/DOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP, Native_802.11_data_types_37999ce3-5aae-4c91-80f0-f47a7182a963.xml, windot11/PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP structure [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_CCMP structure pointer [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_CCMP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,21 +71,21 @@ typedef struct DOT11_KEY_ALGO_CCMP {
 
 
 
-#### - ucIV48Counter
+### -field ucIV48Counter
 
 The initial 48-bit value of the AES-CCMP Packet Number (PN), which is used for replay protection.
      For more information about the PN, see 
      <a href="https://msdn.microsoft.com/38270d9f-b927-4e4e-ac7f-319c60ae6224">AES-CCMP</a>.
 
 
-#### - ulCCMPKeyLength
+### -field ulCCMPKeyLength
 
 The length, in bytes, of the AES-CCMP key material in the 
      <b>ucCCMPKey</b> array. If the authentication and cipher key derivation is performed by the operating
      system, this member will always have a value of 16.
 
 
-#### - ucCCMPKey
+### -field ucCCMPKey
 
 The AES-CCMP key material.
 
@@ -110,13 +110,13 @@ Initialize the PN counter used for the send path to any value.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
-
 <a href="https://msdn.microsoft.com/38270d9f-b927-4e4e-ac7f-319c60ae6224">AES-CCMP</a>
 
-<mshelp:link keywords="netvista.dot11_cipher_default_key_value" tabindex="0"><b>
-   DOT11_CIPHER_DEFAULT_KEY_VALUE</b></mshelp:link>
+<a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+   DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
  
 

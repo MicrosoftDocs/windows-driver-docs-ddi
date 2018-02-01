@@ -68,12 +68,12 @@ typedef struct D3D10DDIARG_CREATEELEMENTLAYOUT {
 
 
 
-#### - pVertexElements
+### -field pVertexElements
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_input_element_desc.md">D3D10DDIARG_INPUT_ELEMENT_DESC</a> structures that describes each element in the element layout. 
 
 
-#### - NumElements
+### -field NumElements
 
 [in] The number of elements in that array that the <b>pVertexElements</b> member specifies. 
 

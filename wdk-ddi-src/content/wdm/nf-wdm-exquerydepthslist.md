@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fdf40535-4e0d-4db9-9e95-744029eb2bd5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExQueryDepthSList, ExQueryDepthSList, k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, kernel.exquerydepthslist, ExQueryDepthSList routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExQueryDepthSList routine [Kernel-Mode Driver Architecture], ExQueryDepthSList, k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, wdm/ExQueryDepthSList, kernel.exquerydepthslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ USHORT ExQueryDepthSList(
 
 
 
-#### - SListHead [in]
+### -param SListHead [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>SListHead</i> must have been initialized by calling <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>.
 
@@ -89,11 +89,11 @@ For more information about using this routine to implement a sequenced singly li
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
-
 <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
+
+<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
  
 

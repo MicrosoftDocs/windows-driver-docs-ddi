@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b752a764-1f7d-4768-9fa2-c8976560f840
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCheckRegistryKey, RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], wdm/RtlCheckRegistryKey, k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, kernel.rtlcheckregistrykey
+ms.keywords: k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], wdm/RtlCheckRegistryKey, RtlCheckRegistryKey, kernel.rtlcheckregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS RtlCheckRegistryKey(
 
 
 
-#### - RelativeTo [in]
+### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 <table>
@@ -150,7 +150,7 @@ This value should not be passed into this routine. Despite the redundancy of a c
 </table> 
 
 
-#### - Path [in]
+### -param Path [in]
 
 Specifies the registry path according to the <i>RelativeTo</i> value. If RTL_REGISTRY_HANDLE is set, <i>Path</i> is a handle to be used directly.
 

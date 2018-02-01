@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c60b1d7b-b82d-4f59-a076-2122da97a161
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, debugger.getexpressionsyntaxnames, GetExpressionSyntaxNames method [Windows Debugging], GetExpressionSyntaxNames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, dbgeng/IDebugControl3::GetExpressionSyntaxNames, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, IDebugControl3::GetExpressionSyntaxNames, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3::GetExpressionSyntaxNames, IDebugControl3, GetExpressionSyntaxNames, dbgeng/IDebugControl3::GetExpressionSyntaxNames, debugger.getexpressionsyntaxnames, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ HRESULT GetExpressionSyntaxNames(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the expression syntax.  <i>Index</i> should be between zero and the number of expression syntaxes returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a> minus one.
 
 
-#### - FullNameBuffer [out, optional]
+### -param FullNameBuffer [out, optional]
 
 Receives the full name of the expression syntax.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - FullNameBufferSize [in]
+### -param FullNameBufferSize [in]
 
 Specifies the size, in characters, of the buffer <i>FullNameBuffer</i>.
 
 
-#### - FullNameSize [out, optional]
+### -param FullNameSize [out, optional]
 
 Receives the size, in characters, of the full name of the expression syntax.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - AbbrevNameBuffer [out, optional]
+### -param AbbrevNameBuffer [out, optional]
 
 Receives the abbreviated name of the expression syntax.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - AbbrevNameBufferSize [in]
+### -param AbbrevNameBufferSize [in]
 
 Specifies the size, in characters, of the buffer <i>AbbrevNameBufferSize</i>.
 
 
-#### - AbbrevNameSize [out, optional]
+### -param AbbrevNameSize [out, optional]
 
 Receives the size, in characters, of the abbreviated name of the expression syntax.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -154,11 +154,11 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
  
 

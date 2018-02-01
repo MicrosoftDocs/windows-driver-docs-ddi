@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ca8814c-e91a-4f6a-b797-c440abf5cdd2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_MAC_INFO, *PDOT11_MAC_INFO, windot11/DOT11_MAC_INFO, DOT11_MAC_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_435a3e63-9d42-4b74-8280-d1a0456e3dbf.xml, windot11/PDOT11_MAC_INFO, netvista.dot11_mac_info, PDOT11_MAC_INFO, PDOT11_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_MAC_INFO, DOT11_MAC_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_435a3e63-9d42-4b74-8280-d1a0456e3dbf.xml, PDOT11_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_MAC_INFO, windot11/PDOT11_MAC_INFO, netvista.dot11_mac_info, PDOT11_MAC_INFO, *PDOT11_MAC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,21 +71,21 @@ typedef struct DOT11_MAC_INFO {
 
 
 
-#### - uReserved
+### -field uReserved
 
 Reserved for system use.
 
 
-#### - uNdisPortNumber
+### -field uNdisPortNumber
 
 A ULONG value that specifies the number of the NDIS port that the 802.11 miniport driver has
      allocated to reference a newly created 802.11 MAC entity. This value is equal to the 
      <b>PortNumber</b> member of the 
-     <mshelp:link keywords="netvista.ndis_port_characteristics" tabindex="0"><b>
-     NDIS_PORT_CHARACTERISTICS</b></mshelp:link> structure.
+     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     NDIS_PORT_CHARACTERISTICS</a> structure.
 
 
-#### - MacAddr
+### -field MacAddr
 
 The media access control (MAC) address of a newly created 802.11 MAC entity.
 
@@ -100,9 +100,9 @@ This structure is used with
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569124">OID_DOT11_CREATE_MAC</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
  
 

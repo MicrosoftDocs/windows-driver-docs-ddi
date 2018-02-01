@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08cd5b10-725e-4a36-b70d-42a831b79372
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER, DMA_ADAPTER, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], wdm/PDMA_ADAPTER, kernel.dma_adapter, *PDMA_ADAPTER, PDMA_ADAPTER, *PADAPTER_OBJECT, wdm/DMA_ADAPTER, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml
+ms.keywords: wdm/DMA_ADAPTER, PDMA_ADAPTER, kernel.dma_adapter, DMA_ADAPTER, *PADAPTER_OBJECT, PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], DMA_ADAPTER structure [Kernel-Mode Driver Architecture], wdm/PDMA_ADAPTER, *PDMA_ADAPTER, _DMA_ADAPTER, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,9 +71,9 @@ typedef struct _DMA_ADAPTER {
 
 
 
-#### - Version
+#### - DmaOperations
 
-Specifies the version of this structure. Version 3 of the <b>DMA_ADAPTER</b> structure is available starting with Windows 8. For versions 1 and 2 of this structure, this member is set to the value 1. For more information, see the following Remarks section.
+Pointer to a <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> structure that contains pointers to DMA adapter functions. The version of the <b>DMA_OPERATIONS</b> structure that this member points to is determined by the version of the <b>DMA_ADAPTER</b> structure. Thus, for version 1 of the <b>DMA_ADAPTER</b> structure, <i>DmaOperations</i> points to version 1 of the <b>DMA_OPERATIONS</b> structure, and so on. For more information about structure versions, see the following Remarks section.
 
 
 #### - Size
@@ -81,9 +81,9 @@ Specifies the version of this structure. Version 3 of the <b>DMA_ADAPTER</b> str
 Specifies the size, in bytes, of this structure.
 
 
-#### - DmaOperations
+#### - Version
 
-Pointer to a <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> structure that contains pointers to DMA adapter functions. The version of the <b>DMA_OPERATIONS</b> structure that this member points to is determined by the version of the <b>DMA_ADAPTER</b> structure. Thus, for version 1 of the <b>DMA_ADAPTER</b> structure, <i>DmaOperations</i> points to version 1 of the <b>DMA_OPERATIONS</b> structure, and so on. For more information about structure versions, see the following Remarks section.
+Specifies the version of this structure. Version 3 of the <b>DMA_ADAPTER</b> structure is available starting with Windows 8. For versions 1 and 2 of this structure, this member is set to the value 1. For more information, see the following Remarks section.
 
 
 ## -remarks
@@ -95,11 +95,11 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
  
 

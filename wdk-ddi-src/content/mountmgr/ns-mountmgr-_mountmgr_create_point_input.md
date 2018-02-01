@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b53d5163-612d-4bfb-89f4-21457629e365
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mountmgr/MOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT structure pointer [Storage Devices], mountmgr/PMOUNTMGR_CREATE_POINT_INPUT, structs-mntmgr_24dea6c0-cfff-4f87-a8d3-c019aa5b46c3.xml, _MOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT structure [Storage Devices], storage.mountmgr_create_point_input, PMOUNTMGR_CREATE_POINT_INPUT, *PMOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT
+ms.keywords: "_MOUNTMGR_CREATE_POINT_INPUT, *PMOUNTMGR_CREATE_POINT_INPUT, structs-mntmgr_24dea6c0-cfff-4f87-a8d3-c019aa5b46c3.xml, PMOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT structure pointer [Storage Devices], mountmgr/MOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT structure [Storage Devices], mountmgr/PMOUNTMGR_CREATE_POINT_INPUT, storage.mountmgr_create_point_input"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _MOUNTMGR_CREATE_POINT_INPUT {
 
 
 
-#### - SymbolicLinkNameOffset
+### -field SymbolicLinkNameOffset
 
 Contains an offset in bytes into the output buffer where the symbolic link name is located. 
 
 
-#### - SymbolicLinkNameLength
+### -field SymbolicLinkNameLength
 
 Contains the length in bytes of the symbolic link name stored in the output buffer. 
 
 
-#### - DeviceNameOffset
+### -field DeviceNameOffset
 
 Contains an offset in bytes into the output buffer where the nonpersistent (target) device name is located. 
 
 
-#### - DeviceNameLength
+### -field DeviceNameLength
 
 Contains the length in bytes of the nonpersistent (target) device name. 
 

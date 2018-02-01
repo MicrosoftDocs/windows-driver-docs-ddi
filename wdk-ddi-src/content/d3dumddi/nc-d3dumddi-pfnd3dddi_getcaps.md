@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY GetCaps(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
  A handle that identifies the graphics adapter. 
 
@@ -171,8 +171,6 @@ See the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAP
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_ddraw_caps.md">DDRAW_CAPS</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-d3dddicaps_simple_instancing_support.md">D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT</a>
@@ -180,6 +178,8 @@ See the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAP
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_ddraw_caps.md">DDRAW_CAPS</a>
 
  
 

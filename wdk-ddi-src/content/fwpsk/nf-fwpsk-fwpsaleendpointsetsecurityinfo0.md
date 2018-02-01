@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b7fed83-dcf8-466d-8bd7-42a5ed15cced
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsAleEndpointSetSecurityInfo0, netvista.fwpsaleendpointsetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_7999c73b-ee7d-4a54-b279-8a691a99d94d.xml, fwpsk/FwpsAleEndpointSetSecurityInfo0, FwpsAleEndpointSetSecurityInfo0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.fwpsaleendpointsetsecurityinfo0, fwpsk/FwpsAleEndpointSetSecurityInfo0, FwpsAleEndpointSetSecurityInfo0, wfp_ref_2_funct_3_fwps_A-B_7999c73b-ee7d-4a54-b279-8a691a99d94d.xml, FwpsAleEndpointSetSecurityInfo0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,36 +75,36 @@ NTSTATUS NTAPI FwpsAleEndpointSetSecurityInfo0(
 
 
 
-#### - engineHandle [in]
+### -param engineHandle [in]
 
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
 
 
-#### - securityInfo [in]
+### -param securityInfo [in]
 
 A set of security information flags. For more information, see the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> description in the
      Installable File Systems driver documentation.
 
 
-#### - sidOwner [in, optional]
+### -param sidOwner [in, optional]
 
 The security identifier of the security owner.
 
 
-#### - sidGroup [in, optional]
+### -param sidGroup [in, optional]
 
 The security identifier of the security group.
 
 
-#### - dacl [in, optional]
+### -param dacl [in, optional]
 
 The discretionary access control list.
 
 
-#### - sacl [in, optional]
+### -param sacl [in, optional]
 
 The system access control list.
 
@@ -147,10 +147,10 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+   FwpsAleEndpointGetSecurityInfo0</a>
 
-<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
 

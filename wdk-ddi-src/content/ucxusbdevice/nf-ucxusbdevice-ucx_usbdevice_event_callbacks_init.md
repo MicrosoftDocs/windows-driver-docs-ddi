@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 594583B0-6CCB-469F-82AB-604825D85E2E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_USBDEVICE_EVENT_CALLBACKS_INIT, buses._ucx_usbdevice_event_callbacks_init, ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS_INIT, UCX_USBDEVICE_EVENT_CALLBACKS_INIT function [Buses]
+ms.keywords: ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS_INIT, UCX_USBDEVICE_EVENT_CALLBACKS_INIT, UCX_USBDEVICE_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_usbdevice_event_callbacks_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,52 +78,52 @@ void UCX_USBDEVICE_EVENT_CALLBACKS_INIT(
 
 
 
-#### - Callbacks [out]
+### -param Callbacks [out]
 
     A pointer to a <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a> structure to initialize.
 
 
-#### - EvtUsbDeviceEndpointsConfigure [in]
+### -param EvtUsbDeviceEndpointsConfigure [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure.md">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a> event callback function.
 
 
-#### - EvtUsbDeviceEnable [in]
+### -param EvtUsbDeviceEnable [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_enable.md">EVT_UCX_USBDEVICE_ENABLE</a> event callback function.
 
 
-#### - EvtUsbDeviceDisable [in]
+### -param EvtUsbDeviceDisable [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_disable.md">EVT_UCX_USBDEVICE_DISABLE</a> event callback function.
 
 
-#### - EvtUsbDeviceReset [in]
+### -param EvtUsbDeviceReset [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_reset.md">EVT_UCX_USBDEVICE_RESET</a> event callback function.
 
 
-#### - EvtUsbDeviceAddress [in]
+### -param EvtUsbDeviceAddress [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_address.md">EVT_UCX_USBDEVICE_ADDRESS</a> event callback function.
 
 
-#### - EvtUsbDeviceUpdate [in]
+### -param EvtUsbDeviceUpdate [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_update.md">EVT_UCX_USBDEVICE_UPDATE</a> event callback function.
 
 
-#### - EvtUsbDeviceHubInfo [in]
+### -param EvtUsbDeviceHubInfo [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_hub_info.md">EVT_UCX_USBDEVICE_HUB_INFO</a> event callback function.
 
 
-#### - EvtUsbDeviceDefaultEndpointAdd [in]
+### -param EvtUsbDeviceDefaultEndpointAdd [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_default_endpoint_add.md">EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD</a> event callback function.
 
 
-#### - EvtUsbDeviceEndpointAdd [in]
+### -param EvtUsbDeviceEndpointAdd [in]
 
     A pointer to client driver's implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add.md">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a> event callback function.
 

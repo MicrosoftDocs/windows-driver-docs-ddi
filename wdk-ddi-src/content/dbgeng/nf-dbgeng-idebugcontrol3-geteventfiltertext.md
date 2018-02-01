@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d311a030-e24c-427c-8a52-0c67d4fac653
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::GetEventFilterText, IDebugControl interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], IDebugControl interface, IDebugControl3, GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, IDebugControl::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, debugger.geteventfiltertext, dbgeng/IDebugControl::GetEventFilterText, dbgeng/IDebugControl2::GetEventFilterText
+ms.keywords: IDebugControl3::GetEventFilterText, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, dbgeng/IDebugControl2::GetEventFilterText, IDebugControl::GetEventFilterText, dbgeng/IDebugControl::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, IDebugControl3, IDebugControl interface [Windows Debugging], GetEventFilterText method, GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl interface, debugger.geteventfiltertext, IDebugControl2::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetEventFilterText, GetEventFilterText method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT GetEventFilterText(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 Specifies the index of the event filter whose description will be returned.  Only the specific filters have a description attached to them; <i>Index</i> must refer to a specific filter.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the description of the specific filter.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-#### - TextSize [out, optional]
+### -param TextSize [out, optional]
 
 Receives the size of the event description.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -136,15 +136,15 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
  
 

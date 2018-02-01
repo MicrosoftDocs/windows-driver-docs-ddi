@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F5EC240C-6438-477C-A5D3-B018B52AC4F0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, windot11/DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_send_go_negotiation_response_parameters, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
+ms.keywords: "_DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_send_go_negotiation_response_parameters, *PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, windot11/DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,7 @@ typedef struct _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -104,12 +104,12 @@ The type, revision, and size of the <b>DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAME
 </table> 
 
 
-#### - PeerDeviceAddress
+### -field PeerDeviceAddress
 
 The Peer-to-Peer (P2P) address of the Wi-Fi Direct (WFD) device that originated the GO negotiation request.
 
 
-#### - DialogToken
+### -field DialogToken
 
 The dialog token received from the GO negotiation request packet. This dialog token must be included in  the GO negotiation response  packet.
 
@@ -119,52 +119,52 @@ The dialog token received from the GO negotiation request packet. This dialog to
  
 
 
-#### - uSendTimeout
+### -field uSendTimeout
 
 The maximum time, in milliseconds, allowed to send the GO negotiation response. If the time-out expires before the miniport has successfully transmitted the GO negotiation response, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439776">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE</a> with a failure status.
 
 
-#### - Status
+### -field Status
 
 The status information to include in the GO  negotiation response.
 
 
-#### - GroupOwnerIntent
+### -field GroupOwnerIntent
 
 The value for GO intent. This should be included in the Group Owner Intent attribute of the GO negotiation request.
 
 
-#### - MinimumConfigTimeout
+### -field MinimumConfigTimeout
 
 The configuration time-out required by the system  to change its mode of operation to a P2P Group Owner or a P2P Client. The miniport driver can set this with a larger value if necessary.
 
 
-#### - IntendedInterfaceAddress
+### -field IntendedInterfaceAddress
 
 The P2P interface address that is intended for the P2P group.
 
 
-#### - GroupCapability
+### -field GroupCapability
 
 The capability values that are included in the Group Capability bitmask of the P2P Capability Information Element (IE) in  the GO negotiation response.
 
 
-#### - GroupID
+### -field GroupID
 
 The group identifier to include in the Group ID attribute of the GO negotiation response.
 
 
-#### - bUseGroupID
+### -field bUseGroupID
 
 If TRUE, the value in <b>GroupID</b> should be included in the GO negotiation response.
 
 
-#### - uIEsOffset
+### -field uIEsOffset
 
 The offset, in bytes,  of the array of additional IEs that the Wi-Fi Direct (WFD) port must add to the GO negotiation response packet. This offset is from the start of the buffer that contains this structure.
 
 
-#### - uIEsLength
+### -field uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
@@ -176,9 +176,9 @@ Miniport context data included in the <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439789">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51148c26-c10d-4c57-9e3e-c7d82d6a1c79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], display.videoportmapdmamemory, VideoPortMapDmaMemory, VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml
+ms.keywords: video/VideoPortMapDmaMemory, VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, VideoPortMapDmaMemory function [Display Devices], VideoPortMapDmaMemory, display.videoportmapdmamemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ PDMA VideoPortMapDmaMemory(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - pVrp [in]
+### -param pVrp [in]
 
 Pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>.
 
 
-#### - BoardAddress [in]
+### -param BoardAddress [in]
 
 Specifies the adapter's beginning address.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the length, in bytes, of the range of memory.
 
 
-#### - InIoSpace [in]
+### -param InIoSpace [in]
 
 Indicates the location of the range. This parameter can be one of the following values:
 <table>
@@ -158,17 +158,17 @@ Memory pointer for application use.
 </table> 
 
 
-#### - MappedUserEvent [in]
+### -param MappedUserEvent [in]
 
 Is reserved for system use.
 
 
-#### - DisplayDriverEvent [in]
+### -param DisplayDriverEvent [in]
 
 Is reserved for system use.
 
 
-#### - VirtualAddress [in, out]
+### -param VirtualAddress [in, out]
 
 Is reserved for system use.
 

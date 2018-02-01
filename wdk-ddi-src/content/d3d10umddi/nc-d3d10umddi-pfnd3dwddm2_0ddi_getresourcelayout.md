@@ -84,7 +84,7 @@ VOID APIENTRY* pfnGetResourceLayout(
 
 
 
-#### - SubresourceCount
+### -param SubresourceCount
 
 The subresource count.
 
@@ -96,9 +96,24 @@ The subresource count.
 
 
 
-#### - *pMipLevelSwizzleTransition [out]
+### -param *pMipLevelSwizzleTransition [out]
 
 A pointer to a MIP level swizzle transition. 
+
+
+#### - Handle [out]
+
+A kernel handle.
+
+
+#### - SubresourceLayout [out, optional]
+
+A pointer to the subresource layout.
+
+
+#### - TextureLayout [out]
+
+A pointer to a texture layout.
 
 
 #### - hDevice
@@ -109,26 +124,6 @@ A device handle.
 #### - hResource
 
 A resource handle. 
-
-
-#### - Handle [out]
-
-A kernel handle.
-
-
-#### - TextureLayout [out]
-
-A pointer to a texture layout.
-
-
-#### - pMipLevelSwizzleTransition [out]
-
-A pointer to a MIP level swizzle transition. 
-
-
-#### - SubresourceLayout [out, optional]
-
-A pointer to the subresource layout.
 
 
 ## -returns

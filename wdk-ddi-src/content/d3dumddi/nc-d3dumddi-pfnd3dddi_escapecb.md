@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY CALLBACK pfnEscapeCb(
 
 
 
-#### - hAdapter [in]
+### -param hAdapter [in]
 
 A handle to the graphics adapter object.
 
@@ -164,11 +164,11 @@ A user-mode display driver calls <b>pfnEscapeCb</b> to share miscellaneous infor
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ESCAPE</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
  
 

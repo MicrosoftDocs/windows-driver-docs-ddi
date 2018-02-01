@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters
+ms.keywords: ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], ExInitializeDeleteTimerParameters, wdm/ExInitializeDeleteTimerParameters, kernel.exinitializedeletetimerparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID ExInitializeDeleteTimerParameters(
 
 
 
-#### - Parameters
+### -param Parameters
 
 A pointer to the <b>EXT_DELETE_PARAMETERS</b> structure that is to be initialized.
 

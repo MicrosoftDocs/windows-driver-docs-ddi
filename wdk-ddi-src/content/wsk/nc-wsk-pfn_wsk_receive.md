@@ -76,21 +76,21 @@ NTSTATUS WSKAPI * WskReceive(
 
 
 
-#### - Socket [in]
+### -param Socket [in]
 
 A pointer to a 
      <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
      object for the socket from which to receive the data.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 A pointer to an initialized 
      <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that describes the data buffer
      that receives the data from the socket.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
@@ -99,35 +99,6 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 The WSK_FLAG_WAITALL and WSK_FLAG_DRAIN flags are mutually exclusive. A WSK application should not
      specify both of these flags at the same time.
-
-
-#### WSK_FLAG_WAITALL
-
-Wait until the data buffer is completely filled. If this flag is specified, the IRP specified in
-       the 
-       <i>Irp</i> parameter will not be completed until one of the following events occurs:
-       
-<ul>
-<li>
-The data buffer that is described by the WSK_BUF structure that is pointed to by the 
-         <i>Buffer</i> parameter is completely filled.
-
-</li>
-<li>
-The connection is gracefully disconnected by the remote sender.
-
-</li>
-<li>
-The connection is abortively disconnected by either the WSK application or by the remote
-         sender.
-
-</li>
-<li>
-The specified IRP is canceled.
-
-</li>
-</ul>This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
-       by other transport protocols.
 
 
 #### WSK_FLAG_DRAIN
@@ -159,12 +130,41 @@ This flag is supported by the Microsoft TCP/IP transport protocol. This flag mig
        by other transport protocols.
 
 
-#### - Irp [in, out]
+#### WSK_FLAG_WAITALL
+
+Wait until the data buffer is completely filled. If this flag is specified, the IRP specified in
+       the 
+       <i>Irp</i> parameter will not be completed until one of the following events occurs:
+       
+<ul>
+<li>
+The data buffer that is described by the WSK_BUF structure that is pointed to by the 
+         <i>Buffer</i> parameter is completely filled.
+
+</li>
+<li>
+The connection is gracefully disconnected by the remote sender.
+
+</li>
+<li>
+The connection is abortively disconnected by either the WSK application or by the remote
+         sender.
+
+</li>
+<li>
+The specified IRP is canceled.
+
+</li>
+</ul>This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
+       by other transport protocols.
+
+
+### -param Irp [in, out]
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
 
 
 ## -returns
@@ -315,20 +315,20 @@ When specifying the WSK_FLAG_DRAIN flag to discard any additional data that is r
 
 ## -see-also
 
-<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
  
 

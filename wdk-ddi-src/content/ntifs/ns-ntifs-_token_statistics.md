@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a7f651c0-fcd5-4271-9452-b6ac41cd33cc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.token_statistics, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml, TOKEN_STATISTICS, *PTOKEN_STATISTICS, PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], ntifs/PTOKEN_STATISTICS, _TOKEN_STATISTICS
+ms.keywords: TOKEN_STATISTICS structure [Installable File System Drivers], _TOKEN_STATISTICS, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml, *PTOKEN_STATISTICS, PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, TOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,75 +76,75 @@ typedef struct _TOKEN_STATISTICS {
 
 
 
-#### - TokenId
+### -field TokenId
 
 Specifies a locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) that identifies this instance of the token object. 
 
 
-#### - AuthenticationId
+### -field AuthenticationId
 
 Specifies an LUID assigned to the session this token represents. There can be many tokens representing a single logon session. 
 
 
-#### - ExpirationTime
+### -field ExpirationTime
 
 Specifies the time at which this token expires. Expiration times for access tokens are not currently supported. 
 
 
-#### - TokenType
+### -field TokenType
 
 Specifies a <a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a> enumerated type indicating whether the token is a primary or impersonation token. 
 
 
-#### - ImpersonationLevel
+### -field ImpersonationLevel
 
 Specifies a <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a> enumerated type indicating the impersonation level of the token. This member is valid only if the <b>TokenType</b> is TokenImpersonation. 
 
 
-#### - DynamicCharged
+### -field DynamicCharged
 
 Specifies the amount, in bytes, of memory allocated for storing a default access-control list (DACL) and primary group identifier. 
 
 
-#### - DynamicAvailable
+### -field DynamicAvailable
 
 Specifies the portion of the memory allocated for storing a DACL and primary group identifier that is not already in use. This value is returned as a count of free bytes. 
 
 
-#### - GroupCount
+### -field GroupCount
 
 Specifies the number of supplemental group security identifiers (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) included in the token. 
 
 
-#### - PrivilegeCount
+### -field PrivilegeCount
 
 Specifies the number of privileges included in the token. 
 
 
-#### - ModifiedId
+### -field ModifiedId
 
 Specifies an LUID that changes each time the token is modified. An application can use this value as a test of whether a security context has changed since it was last used. 
 
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
  
 

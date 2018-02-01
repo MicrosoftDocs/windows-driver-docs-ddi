@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a681b704-80cc-406a-b60f-31ef5f953164
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMFlushLog, NdisMFlushLog function [Network Drivers Starting with Windows Vista], netvista.ndismflushlog, miniport_logging_ref_9de3f5b8-80d8-4f98-82ac-c4b490a3c8a4.xml, ndis/NdisMFlushLog
+ms.keywords: NdisMFlushLog, NdisMFlushLog function [Network Drivers Starting with Windows Vista], ndis/NdisMFlushLog, miniport_logging_ref_9de3f5b8-80d8-4f98-82ac-c4b490a3c8a4.xml, netvista.ndismflushlog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID NdisMFlushLog(
 
 
 
-#### - LogHandle [in]
+### -param LogHandle [in]
 
 Specifies the handle returned by 
      <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>.
@@ -93,13 +93,13 @@ The driver must release any spin lock it is holding before calling
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7df1f9e5-dac2-490b-9eed-28f8bc4e677a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.disassemblewide, dbgeng/IDebugControl4::DisassembleWide, DisassembleWide, IDebugControl4 interface [Windows Debugging], DisassembleWide method, DisassembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging]
+ms.keywords: DisassembleWide method [Windows Debugging], DisassembleWide method [Windows Debugging], IDebugControl4 interface, DisassembleWide, IDebugControl4::DisassembleWide, debugger.disassemblewide, dbgeng/IDebugControl4::DisassembleWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], DisassembleWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT DisassembleWide(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location in the target's memory of the instruction to disassemble.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies the bit-flags that affect the behavior of this method.  Currently the only flag that can be set is DEBUG_DISASM_EFFECTIVE_ADDRESS; when set, the engine will compute the effective address from the current register information and display it.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the disassembled instruction.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-#### - DisassemblySize [out, optional]
+### -param DisassemblySize [out, optional]
 
 Receives the size, in characters, of the disassembled instruction.  If <i>DisassemblySize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - EndOffset [out]
+### -param EndOffset [out]
 
 Receives the location in the target's memory of the instruction following the disassembled instruction.
 
@@ -152,11 +152,11 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
  
 

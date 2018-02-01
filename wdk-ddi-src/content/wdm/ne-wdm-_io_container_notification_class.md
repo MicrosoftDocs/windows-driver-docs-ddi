@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IO_CONTAINER_NOTIFICATION_CLASS, IoSessionStateNotification, kernel.io_container_notification_class, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateNotification, wdm/IoMaxContainerNotificationClass, _IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, IoMaxContainerNotificationClass
+ms.keywords: IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/IO_CONTAINER_NOTIFICATION_CLASS, _IO_CONTAINER_NOTIFICATION_CLASS, IoMaxContainerNotificationClass, wdm/IoMaxContainerNotificationClass, IoSessionStateNotification, wdm/IoSessionStateNotification, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, IO_CONTAINER_NOTIFICATION_CLASS, kernel.io_container_notification_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,12 +69,12 @@ typedef enum _IO_CONTAINER_NOTIFICATION_CLASS {
 
 
 
-#### - IoSessionStateNotification
+### -field IoSessionStateNotification
 
 Session state notifications. The driver uses this enumeration constant to request notifications about changes in the state of user sessions that the driver is interested in.
 
 
-#### - IoMaxContainerNotificationClass
+### -field IoMaxContainerNotificationClass
 
 Specifies the maximum value in this enumeration type. 
 

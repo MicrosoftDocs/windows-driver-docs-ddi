@@ -78,12 +78,12 @@ VOID APIENTRY* Discard(D3D11_1)(
 
 
 
-#### - HandleType
+### -param HandleType
 
 A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>, that identifies the context handle type.
 
 
-#### - *hResourceOrView
+### -param *hResourceOrView
 
 A pointer to a handle to the resource or to the view that is to be discarded.
 
@@ -92,7 +92,7 @@ A pointer to a handle to the resource or to the view that is to be discarded.
 
 
 
-#### - NumRects
+### -param NumRects
 
 The number of rectangles in the array that the  <i>pRects</i> parameter specifies.
 
@@ -100,11 +100,6 @@ The number of rectangles in the array that the  <i>pRects</i> parameter specifie
 #### - hDevice
 
 A handle to the display device (graphics context).
-
-
-#### - hResourceOrView
-
-A pointer to a handle to the resource or to the view that is to be discarded.
 
 
 #### - pRects [in, optional]

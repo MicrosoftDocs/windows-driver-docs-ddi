@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdriver/WDF_DRIVER_INIT_FLAGS, WdfDriverInitNonPnpDriver, _WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfVerifyOn, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, wdfdriver/WdfDriverInitNoDispatchOverride, WdfVerifierOn, WdfDriverInitNoDispatchOverride, WdfVerifyOn, wdfdriver/WdfVerifierOn, WDF_DRIVER_INIT_FLAGS enumeration, kmdf.wdf_driver_init_flags, wdfdriver/WdfDriverInitNonPnpDriver, WDF_DRIVER_INIT_FLAGS, wdf.wdf_driver_init_flags
+ms.keywords: wdfdriver/WdfDriverInitNonPnpDriver, wdfdriver/WdfVerifierOn, wdfdriver/WDF_DRIVER_INIT_FLAGS, WDF_DRIVER_INIT_FLAGS, WdfDriverInitNoDispatchOverride, WdfVerifyOn, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WdfVerifierOn, kmdf.wdf_driver_init_flags, _WDF_DRIVER_INIT_FLAGS, WdfDriverInitNonPnpDriver, WDF_DRIVER_INIT_FLAGS enumeration, wdf.wdf_driver_init_flags, wdfdriver/WdfVerifyOn, wdfdriver/WdfDriverInitNoDispatchOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_DRIVER_INIT_FLAGS {
 
 
 
-#### - WdfDriverInitNonPnpDriver
+### -field WdfDriverInitNonPnpDriver
 
 The driver does not support Plug and Play (PnP). If this value is set, the driver must not supply an <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function. For more information about non-PnP drivers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kernel-mode-driver-framework-with-non-pnp-drivers">Using Kernel-Mode Driver Framework with Non-PnP Drivers</a>.
 
 
-#### - WdfDriverInitNoDispatchOverride
+### -field WdfDriverInitNoDispatchOverride
 
 The driver is a miniport driver and, therefore, the framework must not provide dispatch routines for the driver. In other words, the framework must not intercept I/O request packets (IRPs) that the I/O manager has directed to the driver. In addition, the driver must call <a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a> when the port driver informs the miniport driver that it is about to be unloaded. For more information about this flag and how to write framework-based miniport drivers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-kmdf-miniport-drivers">Using Kernel-Mode Driver Framework with Miniport Drivers</a>.
 
 
-#### - WdfVerifyOn
+### -field WdfVerifyOn
 
 Reserved for system use. Drivers must not use this flag.
 
 
-#### - WdfVerifierOn
+### -field WdfVerifierOn
 
 Reserved for system use. Drivers must not use this flag.
 
@@ -107,9 +107,9 @@ The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>Dr
 
 ## -see-also
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
-
 <a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
+
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 

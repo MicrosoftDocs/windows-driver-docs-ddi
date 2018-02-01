@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PostEvent method, IWDFDevice interface, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent, IWDFDevice::PostEvent, umdf.iwdfdevice_postevent, IWDFDevice interface, PostEvent method, IWDFDevice, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, PostEvent method, PostEvent
+ms.keywords: IWDFDevice::PostEvent, wdf.iwdfdevice_postevent, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent, IWDFDevice, IWDFDevice interface, PostEvent method, PostEvent, PostEvent method, PostEvent method, IWDFDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,22 +73,22 @@ HRESULT PostEvent(
 
 
 
-#### - EventGuid [in]
+### -param EventGuid [in]
 
 The GUID for the event. The GUID is determined by the application and the driver and is opaque to the framework.
 
 
-#### - EventType [in]
+### -param EventType [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
-#### - pbData [in]
+### -param pbData [in]
 
 A pointer to a buffer that contains data that is associated with the event. <b>NULL</b> is a valid value. 
 
 
-#### - cbDataSize [in]
+### -param cbDataSize [in]
 
 The size, in bytes, of data that <i>pbData</i> points to. Zero is a valid size value if <i>pbData</i> is set to <b>NULL</b>. 
 
@@ -166,13 +166,13 @@ For information about creating device events, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
-
 <a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
 
  
 

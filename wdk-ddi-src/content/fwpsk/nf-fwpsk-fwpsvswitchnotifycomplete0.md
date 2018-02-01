@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5e40a31f-7730-48f0-899f-f59be654c991
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsvswitchnotifycomplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0
+ms.keywords: netvista.fwpsvswitchnotifycomplete0, FwpsvSwitchNotifyComplete0, fwpsk/FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void NTAPI FwpsvSwitchNotifyComplete0(
 
 
 
-#### - completionContext
+### -param completionContext
 
 The context data that was  passed to the callback driver from the virtual switch event notify function.
 
 
-#### - status
+### -param status
 
 Any NTSTATUS value that is a valid return code for the notification that was pending completion except for STATUS_PENDING.
 
 
-#### - flags
+### -param flags
 
 Reserved. Set this member to zero.
 
 
-#### - reserved
+### -param reserved
 
 Reserved. Set this member to zero.
 
@@ -111,11 +111,11 @@ None.
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
 <a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
  
 

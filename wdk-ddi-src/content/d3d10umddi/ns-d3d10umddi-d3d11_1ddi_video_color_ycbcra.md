@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d6d8147e-8cc8-4c35-8031-bce2fa3ccd67
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_video_color_ycbcra, d3d10umddi/D3D11_1DDI_VIDEO_COLOR_YCbCrA, D3D11_1DDI_VIDEO_COLOR_YCbCrA structure [Display Devices], D3D11_1DDI_VIDEO_COLOR_YCbCrA
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_COLOR_YCbCrA, display.d3d11_1ddi_video_color_ycbcra, D3D11_1DDI_VIDEO_COLOR_YCbCrA structure [Display Devices], D3D11_1DDI_VIDEO_COLOR_YCbCrA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct D3D11_1DDI_VIDEO_COLOR_YCbCrA {
 
 
 
-#### - Y
+### -field Y
 
 The Y (luma) value.
 
 
-#### - Cb
+### -field Cb
 
 The Cb chroma value.
 
 
-#### - Cr
+### -field Cr
 
 The Cr chroma value.
 
 
-#### - A
+### -field A
 
 The alpha value. Values range from 0 (transparent) to 1 (opaque).
 

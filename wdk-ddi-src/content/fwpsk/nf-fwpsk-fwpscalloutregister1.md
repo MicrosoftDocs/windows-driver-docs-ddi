@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 496e2206-56d1-47eb-a9e6-f5d4799e3dde
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_C_169881cd-1796-4774-8e62-481b00d877e3.xml, FwpsCalloutRegister1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister1, FwpsCalloutRegister1, netvista.fwpscalloutregister1
+ms.keywords: wfp_ref_2_funct_3_fwps_C_169881cd-1796-4774-8e62-481b00d877e3.xml, fwpsk/FwpsCalloutRegister1, netvista.fwpscalloutregister1, FwpsCalloutRegister1, FwpsCalloutRegister1 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,21 +71,21 @@ NTSTATUS NTAPI FwpsCalloutRegister1(
 
 
 
-#### - deviceObject [in, out]
+### -param deviceObject [in, out]
 
 A pointer to a device object that was previously created by the callout driver. For more
      information about how a callout driver creates a device object, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>.
 
 
-#### - callout [in]
+### -param callout [in]
 
 A pointer to a constant 
      <a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a> structure that contains the
      data that is required to register the callout with the filter engine.
 
 
-#### - calloutId [out, optional]
+### -param calloutId [out, optional]
 
 A pointer to a UINT32-typed variable that receives a run-time identifier that identifies the
      callout in the filter engine. The callout driver passes this identifier to the 
@@ -167,37 +167,37 @@ A callout and filters that specify the callout for the filter's action can be ad
     callout is registered with the filter engine.
 
 A callout driver unregisters a callout from the filter engine by calling either the 
-    <mshelp:link keywords="netvista.fwpscalloutunregisterbyid0" tabindex="0"><b>
-    FwpsCalloutUnregisterById0</b></mshelp:link> function or the 
-    <mshelp:link keywords="netvista.fwpscalloutunregisterbykey0" tabindex="0"><b>
-    FwpsCalloutUnregisterByKey0</b></mshelp:link> function. A callout driver cannot be unloaded until all of the callouts
+    <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">
+    FwpsCalloutUnregisterById0</a> function or the 
+    <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">
+    FwpsCalloutUnregisterByKey0</a> function. A callout driver cannot be unloaded until all of the callouts
     that were previously registered with the filter engine have been successfully unregistered.
 
 
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
+
 <a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
 
 <a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
 
  
 

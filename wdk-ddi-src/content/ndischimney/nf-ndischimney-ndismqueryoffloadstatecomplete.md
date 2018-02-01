@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml, ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMQueryOffloadStateComplete, ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -54,8 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 An offload target calls the 
   <b>NdisMQueryOffloadStateComplete</b> function to complete a query offload operation that was initiated by a
   previous call to the offload target's 
-  <mshelp:link keywords="netvista.miniportqueryoffload" tabindex="0"><i>
-  MiniportQueryOffload</i></mshelp:link> function.
+  <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">
+  MiniportQueryOffload</a> function.
 
 
 ## -syntax
@@ -74,21 +74,21 @@ VOID NdisMQueryOffloadStateComplete(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The handle that the offload driver obtained in a previous call to 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a>.
 
 
-#### - OffloadBlockList [in]
+### -param OffloadBlockList [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure. The offload target obtained this pointer as an input
+     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The offload target obtained this pointer as an input
      parameter to its 
-     <mshelp:link keywords="netvista.miniportqueryoffload" tabindex="0"><i>
-     MiniportQueryOffload</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">
+     MiniportQueryOffload</a> function.
 
 
 ## -returns
@@ -126,12 +126,12 @@ Write a status value of NDIS_STATUS_SUCCESS or NDIS_STATUS_FAILURE to the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
 <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
  
 

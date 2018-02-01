@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d798afe-dc75-4cd0-aad7-1f9824bdcf00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VideoTransFunc_240M, DXVADDI_VideoTransFunc_709, d3dumddi/DXVADDI_VideoTransFunc_22, d3dumddi/DXVADDI_VideoTransFunc_20, DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VideoTransFunc_10, DXVADDI_VideoTransFunc_18, d3dumddi/DXVADDI_VideoTransFunc_18, DXVADDI_VideoTransFunc_28, d3dumddi/DXVADDI_VideoTransFunc_709, DXVADDI_VideoTransFunc_240M, DXVADDI_VideoTransFunc_Unknown, DXVADDI_VIDEOTRANSFERFUNCTION, DXVA2_Structs_a6fcb795-da10-4824-99b3-5f75a50a17ce.xml, DXVADDI_VIDEOTRANSFERFUNCTION enumeration [Display Devices], DXVADDI_VideoTransFunc_sRGB, DXVADDI_VideoTransFunc_10, d3dumddi/DXVADDI_VideoTransFunc_sRGB, d3dumddi/DXVADDI_VideoTransFunc_Unknown, _DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VideoTransFunc_22, d3dumddi/DXVADDI_VIDEOTRANSFERFUNCTION, d3dumddi/DXVADDI_VideoTransFunc_28, display.dxvaddi_videotransferfunction, DXVADDI_VideoTransFunc_20
+ms.keywords: d3dumddi/DXVADDI_VideoTransFunc_20, DXVADDI_VideoTransFunc_20, d3dumddi/DXVADDI_VideoTransFunc_22, _DXVADDI_VIDEOTRANSFERFUNCTION, d3dumddi/DXVADDI_VideoTransFunc_10, DXVADDI_VideoTransFunc_28, DXVADDI_VideoTransFunc_sRGB, DXVADDI_VideoTransFunc_10, d3dumddi/DXVADDI_VideoTransFunc_sRGB, DXVADDI_VideoTransFunc_22, DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VideoTransFunc_18, DXVA2_Structs_a6fcb795-da10-4824-99b3-5f75a50a17ce.xml, d3dumddi/DXVADDI_VideoTransFunc_Unknown, DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VideoTransFunc_18, DXVADDI_VideoTransFunc_709, d3dumddi/DXVADDI_VideoTransFunc_709, d3dumddi/DXVADDI_VideoTransFunc_240M, d3dumddi/DXVADDI_VideoTransFunc_28, DXVADDI_VideoTransFunc_240M, DXVADDI_VideoTransFunc_Unknown, display.dxvaddi_videotransferfunction, d3dumddi/DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VIDEOTRANSFERFUNCTION enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,58 +76,58 @@ typedef enum _DXVADDI_VIDEOTRANSFERFUNCTION {
 
 
 
-#### - DXVADDI_VideoTransFuncMask
+### -field DXVADDI_VideoTransFuncMask
 
 Specifies the video transfer function mask. The first 5 (0x001F) bits of a DWORD can be used to specify the video transfer function.
 
 
-#### - DXVADDI_VideoTransFunc_Unknown
+### -field DXVADDI_VideoTransFunc_Unknown
 
 Specifies that the video transfer function is not specified. The default is 22_8bit_sRGB if required for a computation.
 
 
-#### - DXVADDI_VideoTransFunc_10
+### -field DXVADDI_VideoTransFunc_10
 
 Specifies linear RGB conversion (corresponds to gamma = 1.0).
 
 
-#### - DXVADDI_VideoTransFunc_18
+### -field DXVADDI_VideoTransFunc_18
 
 Specifies true 1.8 gamma--that is, L' = pow(L, 1/gamma) for L=0..1.
 
 
-#### - DXVADDI_VideoTransFunc_20
+### -field DXVADDI_VideoTransFunc_20
 
 Specifies true 2.0 gamma--that is, L' = pow(L, 1/gamma) for L=0..1.
 
 
-#### - DXVADDI_VideoTransFunc_22
+### -field DXVADDI_VideoTransFunc_22
 
 Specifies true 2.2 gamma--that is, L' = pow(L, 1/gamma) for L=0..1. 
 
 The BT470-2 SysM primaries (that is, the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videoprimaries.md">DXVADDI_VIDEOPRIMARIES</a> enumeration type) use gamma 2.2.
 
 
-#### - DXVADDI_VideoTransFunc_709
+### -field DXVADDI_VideoTransFunc_709
 
 Specifies gamma 2.2 curve with a linear range in the low range. 
 
 The BT709, SMPTE296M, SMPTE170M, BT470, and SMPTE274M primaries (that is, the DXVADDI_VIDEOPRIMARIES enumeration type) use this video transfer function. 
 
 
-#### - DXVADDI_VideoTransFunc_240M
+### -field DXVADDI_VideoTransFunc_240M
 
 Specifies gamma 2.2 curve with a linear range in the low range. 
 
 The SMPTE240M and interim 274M primaries (that is, the DXVADDI_VIDEOPRIMARIES enumeration type) use this video transfer function. 
 
 
-#### - DXVADDI_VideoTransFunc_sRGB
+### -field DXVADDI_VideoTransFunc_sRGB
 
 Specifies gamma 2.4 curve with a linear range in the low range, which makes it match an accurate 2.2 gamma 8-bit curve. 
 
 
-#### - DXVADDI_VideoTransFunc_28
+### -field DXVADDI_VideoTransFunc_28
 
 Specifies true 2.8 gamma--that is, L' = pow(L, 1/gamma) for L=0..1.
 
@@ -156,9 +156,9 @@ The following constants can also be used for gamma function:
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videoprimaries.md">DXVADDI_VIDEOPRIMARIES</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videoprimaries.md">DXVADDI_VIDEOPRIMARIES</a>
 
  
 

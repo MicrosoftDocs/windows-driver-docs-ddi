@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fff319e-0428-4185-a792-d3842ab9feb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoSetPowerState routine [Kernel-Mode Driver Architecture], kernel.posetpowerstate, PoSetPowerState, wdm/PoSetPowerState, portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml
+ms.keywords: portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, PoSetPowerState routine [Kernel-Mode Driver Architecture], kernel.posetpowerstate, wdm/PoSetPowerState, PoSetPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ POWER_STATE PoSetPowerState(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the target <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-#### - Type [in]
+### -param Type [in]
 
 Indicates a <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a> value. Drivers must specify <b>DevicePowerState</b>.
 
 
-#### - State [in]
+### -param State [in]
 
 Specifies the power state to be set. Drivers must specify a <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> value.
 

@@ -73,33 +73,28 @@ HRESULT APIENTRY* NegotiateCryptoSessionKeyExchange(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCryptoSession [in]
+### -param hCryptoSession [in]
 
 A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function. 
 
 
 
 
-#### - DataSize [in]
+### -param DataSize [in]
 
 The size, in bytes, of the data in the <i>pData</i> array.
 
 
 
 
-#### - *pData [in]
-
-A pointer to a byte array that contains the encrypted session key.
-
-
-#### - pData [in]
+### -param *pData [in]
 
 A pointer to a byte array that contains the encrypted session key.
 

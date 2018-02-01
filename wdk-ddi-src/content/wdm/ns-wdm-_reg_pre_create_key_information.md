@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b7240b5-429b-4bf2-aa7b-373b63bb79ae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PREG_PRE_OPEN_KEY_INFORMATION, REG_PRE_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/REG_PRE_OPEN_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_PRE_CREATE_KEY_INFORMATION, _REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION, wdm/REG_PRE_CREATE_KEY_INFORMATION, wdm/PREG_PRE_CREATE_KEY_INFORMATION, kernel.reg_pre_open_key_information, PREG_PRE_CREATE_KEY_INFORMATION, kstruct_d_dc0e8cf3-5084-4d54-8767-50b4ff043da8.xml, PREG_PRE_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: PREG_PRE_CREATE_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/REG_PRE_CREATE_KEY_INFORMATION, PREG_PRE_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_pre_open_key_information, *PREG_PRE_OPEN_KEY_INFORMATION, wdm/REG_PRE_OPEN_KEY_INFORMATION, *PREG_PRE_CREATE_KEY_INFORMATION, REG_PRE_CREATE_KEY_INFORMATION, _REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION, REG_PRE_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PREG_PRE_CREATE_KEY_INFORMATION, kstruct_d_dc0e8cf3-5084-4d54-8767-50b4ff043da8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _REG_PRE_CREATE_KEY_INFORMATION {
 
 
 
-#### - CompleteName
+### -field CompleteName
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the complete path of the registry key.
 
@@ -82,11 +82,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

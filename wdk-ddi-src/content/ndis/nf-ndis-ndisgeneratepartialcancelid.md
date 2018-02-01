@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml, netvista.ndisgeneratepartialcancelid, ndis/NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], NdisGeneratePartialCancelId
+ms.keywords: protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml, netvista.ndisgeneratepartialcancelid, NdisGeneratePartialCancelId, ndis/NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,8 +83,8 @@ UCHAR NdisGeneratePartialCancelId(void);
 Before marking send 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures with cancellation
     IDs by calling the 
-    <mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link> macro, a driver should call 
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro, a driver should call 
     <b>NdisGeneratePartialCancelId</b> one or more times. 
     <b>NdisGeneratePartialCancelId</b> returns a value that the calling driver can use as the high-order byte
     of a cancellation ID. Prefixing a cancellation ID with the value returned by 
@@ -96,8 +96,8 @@ Typically, an overlying driver calls
     returned value or values for later use. A protocol driver, for example, could call 
     <b>NdisGeneratePartialCancelId</b> once for each client (such as DHCP or ARC) that it supports. The
     protocol driver can call the 
-    <mshelp:link keywords="netvista.ndiscancelsendnetbufferlists" tabindex="0"><b>
-    NdisCancelSendNetBufferLists</b></mshelp:link> function later to cancel a send request. In this case, NDIS calls the
+    <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+    NdisCancelSendNetBufferLists</a> function later to cancel a send request. In this case, NDIS calls the
     cancel send function (for example, 
     <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>) of the
     underlying drivers.
@@ -110,10 +110,10 @@ Typically, an overlying driver calls
 
 <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
-<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

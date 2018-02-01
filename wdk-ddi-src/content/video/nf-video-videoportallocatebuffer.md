@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87289ea8-f727-428d-93a1-2d3b0ab44e8b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportallocatebuffer, VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, VideoPortAllocateBuffer, video/VideoPortAllocateBuffer, VideoPortAllocateBuffer function [Display Devices]
+ms.keywords: display.videoportallocatebuffer, VideoPortAllocateBuffer function [Display Devices], VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, VideoPortAllocateBuffer, video/VideoPortAllocateBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ VP_STATUS VideoPortAllocateBuffer(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - Size [in]
+### -param Size [in]
 
 Specifies the size of the buffer to allocate, in bytes.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Is the location in which the video port driver returns a pointer to a pointer to the allocated pool memory.
 

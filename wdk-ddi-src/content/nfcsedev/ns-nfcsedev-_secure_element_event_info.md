@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 72B31C26-89D3-49B2-A404-E6F096D0A334
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SECURE_ELEMENT_EVENT_INFO, nfpdrivers.secure_element_event_info, _SECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO structure [Near-Field Proximity Drivers], *PSECURE_ELEMENT_EVENT_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO structure pointer [Near-Field Proximity Drivers], nfcsedev/SECURE_ELEMENT_EVENT_INFO
+ms.keywords: PSECURE_ELEMENT_EVENT_INFO structure pointer [Near-Field Proximity Drivers], nfcsedev/SECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO structure [Near-Field Proximity Drivers], *PSECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO, nfpdrivers.secure_element_event_info, _SECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef struct _SECURE_ELEMENT_EVENT_INFO {
 
 
 
-#### - guidSecureElementId
+### -field guidSecureElementId
 
 This is a unique identifier for the secure element.
 
 
-#### - eEventType
+### -field eEventType
 
 This is an event type. For more information about the types, see the <a href="..\nfcsedev\ne-nfcsedev-_secure_element_event_type.md">SECURE_ELEMENT_EVENT_TYPE</a> enumeration topic.
 
 
-#### - cbEventData
+### -field cbEventData
 
 This is the amount of bytes for the pbEventData array.
 

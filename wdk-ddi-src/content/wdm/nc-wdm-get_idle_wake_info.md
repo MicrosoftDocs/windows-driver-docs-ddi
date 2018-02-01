@@ -73,12 +73,12 @@ NTSTATUS GetIdleWakeInfo(
 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
 
-#### - SystemPowerState [in]
+### -param SystemPowerState [in]
 
 System power state. Set this parameter to one of the following <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration values:
 <ul>
@@ -90,7 +90,7 @@ System power state. Set this parameter to one of the following <a href="..\wdm\n
 </ul>These values represent system power states S0 (system working state) through S4. For the <i>SystemPowerState</i> value supplied by the caller, the routine determines the deepest device power state from which the device can issue a wake signal.
 
 
-#### - DeepestWakeableDstate [out]
+### -param DeepestWakeableDstate [out]
 
 Deepest wakeable Dx state. This parameter is a pointer to a <a href="..\wdm\ne-wdm-_device_wake_depth.md">DEVICE_WAKE_DEPTH</a> variable. If the call is successful, the routine writes one of the following enumeration values to this variable:
 <ul>
@@ -144,17 +144,17 @@ An inline helper function, <b>MapWakeDepthToDstate</b>, is provided to convert t
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
-
-<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
-
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
-
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
-
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
 <a href="..\wdm\ne-wdm-_device_wake_depth.md">DEVICE_WAKE_DEPTH</a>
+
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+
+<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 836e2eb5-b8cf-4c12-a855-f63709622c74
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSMUSICFORMAT, KSMUSICFORMAT structure [Audio Devices], aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, audio.ksmusicformat, PKSMUSICFORMAT, PKSMUSICFORMAT structure pointer [Audio Devices], *PKSMUSICFORMAT, ksmedia/KSMUSICFORMAT, ksmedia/PKSMUSICFORMAT
+ms.keywords: KSMUSICFORMAT structure [Audio Devices], aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, PKSMUSICFORMAT, ksmedia/KSMUSICFORMAT, ksmedia/PKSMUSICFORMAT, PKSMUSICFORMAT structure pointer [Audio Devices], KSMUSICFORMAT, *PKSMUSICFORMAT, audio.ksmusicformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - TimeDeltaMs
+### -field TimeDeltaMs
 
 Indicates when this series of MIDI data bytes should be played. If this is the first KSMUSICFORMAT structure in the buffer, this field represents the delta (time change, in milliseconds) from the <b>PresentationTime</b> in the <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure. Otherwise, the field represents the delta offset (in milliseconds) from the previous message (KSMUSICFORMAT structure). If this time is in the past, then the message is played immediately.
 
 
-#### - ByteCount
+### -field ByteCount
 
 Specifies the number of bytes of data that follow this structure. Because the subsequent structure or properties should be DWORD aligned and might allow for extra blanks or used bytes, <b>ByteCount</b> should be the actual number of bytes present and not include any padding separating the data structures.
 

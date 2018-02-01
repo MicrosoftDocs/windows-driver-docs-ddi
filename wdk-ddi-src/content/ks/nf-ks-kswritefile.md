@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, KsWriteFile, stream.kswritefile, KsWriteFile function [Streaming Media Devices]
+ms.keywords: KsWriteFile function [Streaming Media Devices], ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, stream.kswritefile, KsWriteFile, ks/KsWriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,32 +75,32 @@ NTSTATUS KsWriteFile(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Specifies the file object to perform the read against.
 
 
-#### - Event [in, optional]
+### -param Event [in, optional]
 
 Optionally contains the event to use in the write. If no event is passed, the call is assumed to be on a synchronous file object or the caller is waiting for the file object's event. If the call is not on a synchronous file object, it can be asynchronously completed. If the file has been opened for synchronous I/O, this variable must be <b>NULL</b>. If this variable is used, it must be an event allocated by the object manager.
 
 
-#### - PortContext [in, optional]
+### -param PortContext [in, optional]
 
 Optionally contains context information for a completion port.
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 Indicates the location in which to return the status information. This is always assumed to be a valid address, regardless of the requester mode.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Specifies the buffer from which to write the data. If the buffer needs to be probed and locked, an exception handler is used, along with <i>RequesterMode</i>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the size of the buffer passed.
 
@@ -110,7 +110,7 @@ Specifies the size of the buffer passed.
 TBD
 
 
-#### - RequestorMode [in]
+### -param RequestorMode [in]
 
 Indicates the processor mode to place in the read IRP if one needs to be generated. Additionally, it is used if a buffer needs to be probed and locked. This variable also determines if a fast I/O call can be performed. If the requester mode is not KernelMode, but the previous mode was, then fast I/O cannot be used.
 

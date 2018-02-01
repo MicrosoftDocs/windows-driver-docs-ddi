@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTAcquireKeyedMutex2, d3dkmthk/D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 function [Display Devices], display.d3dkmtacquirekeyedmutex2, PFND3DKMT_ACQUIREKEYEDMUTEX2
+ms.keywords: D3DKMTAcquireKeyedMutex2 function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, d3dkmthk/D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,9 +145,9 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2.md">D3DKMT_ACQUIREKEYEDMUTEX2</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2.md">D3DKMT_ACQUIREKEYEDMUTEX2</a>
 
  
 

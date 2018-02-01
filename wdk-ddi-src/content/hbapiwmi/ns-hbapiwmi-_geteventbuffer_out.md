@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1ba41017-8c4b-49eb-b0ec-8e58c2673314
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetEventBuffer_OUT structure pointer [Storage Devices], hbapiwmi/GetEventBuffer_OUT, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, GetEventBuffer_OUT structure [Storage Devices], GetEventBuffer_OUT, storage.geteventbuffer_out, PGetEventBuffer_OUT, _GetEventBuffer_OUT, *PGetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT
+ms.keywords: hbapiwmi/PGetEventBuffer_OUT, hbapiwmi/GetEventBuffer_OUT, *PGetEventBuffer_OUT, PGetEventBuffer_OUT, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, _GetEventBuffer_OUT, storage.geteventbuffer_out, GetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], PGetEventBuffer_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _GetEventBuffer_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation. 
 
 
-#### - EventCount
+### -field EventCount
 
 Indicates the number of events in <b>Events</b> that were retrieved by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> WMI method.
 
 
-#### - Events
+### -field Events
 
 Contains an array of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_eventbuffer.md">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
 

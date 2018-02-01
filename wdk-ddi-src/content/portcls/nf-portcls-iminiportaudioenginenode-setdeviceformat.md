@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A6FFC14B-0736-425F-A923-DFF54494887C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetDeviceFormat method [Audio Devices], portcls/IMiniportAudioEngineNode::SetDeviceFormat, IMiniportAudioEngineNode, SetDeviceFormat, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, audio.iminiportaudioenginenode_setdeviceformat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::SetDeviceFormat
+ms.keywords: SetDeviceFormat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdeviceformat, IMiniportAudioEngineNode, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, IMiniportAudioEngineNode::SetDeviceFormat, portcls/IMiniportAudioEngineNode::SetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS SetDeviceFormat(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID of the node that represents the device.
 
 
-#### - pFormat [in]
+### -param pFormat [in]
 
 A structure of type <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format to be set for the device.
 
 
-#### - ulBufferSize [in]
+### -param ulBufferSize [in]
 
 The audio data buffer size.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OpenFileByName method, IWDFRemoteTarget interface, wdf.iwdfremotetarget_openfilebyname, IWDFRemoteTarget interface, OpenFileByName method, OpenFileByName method, umdf.iwdfremotetarget_openfilebyname, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, OpenFileByName, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget::OpenFileByName, IWDFRemoteTarget::OpenFileByName
+ms.keywords: wdf.iwdfremotetarget_openfilebyname, OpenFileByName method, IWDFRemoteTarget interface, OpenFileByName method, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, wudfddi/IWDFRemoteTarget::OpenFileByName, IWDFRemoteTarget, IWDFRemoteTarget::OpenFileByName, OpenFileByName, OpenFileByName method, IWDFRemoteTarget interface, umdf.iwdfremotetarget_openfilebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT OpenFileByName(
 
 
 
-#### - pszFileName [in]
+### -param pszFileName [in]
 
 A pointer to a caller-supplied, <b>null</b>-terminated string that represents the name of the file to open. For more information about this member, see the <i>FileName</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>dwDesiredAccess</i> parameter of <a href="http://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
-#### - pOpenParams [in, optional]
+### -param pOpenParams [in, optional]
 
 A pointer to a caller-allocated <a href="..\wudfddi\ns-wudfddi-_umdf_io_target_open_params.md">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
 
@@ -132,11 +132,11 @@ For more information about the <b>OpenFileByName</b> method and remote I/O targe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
  
 

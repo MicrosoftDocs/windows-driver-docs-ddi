@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: BdCbStatusPrepareForDependecyLoad, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, *PBDCB_STATUS_UPDATE_TYPE, ntddk/BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForUnload, kernel.bdcb_status_update_type, BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload
+ms.keywords: BdCbStatusPrepareForUnload, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, ntddk/BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDriverLoad, *PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForUnload, kernel.bdcb_status_update_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,12 +73,12 @@ typedef enum _BDCB_STATUS_UPDATE_TYPE {
 
 
 
-#### - BdCbStatusPrepareForDriverLoad
+### -field BdCbStatusPrepareForDriverLoad
 
 Windows has completed loading driver dependencies and will start loading boot-start drivers.
 
 
-#### - BdCbStatusPrepareForUnload
+### -field BdCbStatusPrepareForUnload
 
 Windows has completed the initialization of all boot-start drivers. After the completion of this callback, the Boot Driver Callback Facility will be torn down and no more callbacks will be received. During this callback, Early Launch AM drivers must clean up and prepare to be unloaded.
 
@@ -90,9 +90,9 @@ Windows will start loading driver dependencies next.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
-
 <a href="..\ntddk\ns-ntddk-_bdcb_status_update_context.md">BDCB_STATUS_UPDATE_CONTEXT</a>
+
+<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
 
  
 

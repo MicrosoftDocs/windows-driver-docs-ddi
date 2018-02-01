@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe8c55de-e542-4c0d-a96b-31ad39e11dff
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/PDVD_READ_STRUCTURE, ntddcdvd/DVD_READ_STRUCTURE, PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml, storage.dvd_read_structure
+ms.keywords: structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml, DVD_READ_STRUCTURE, ntddcdvd/DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE, storage.dvd_read_structure, DVD_READ_STRUCTURE structure [Storage Devices], ntddcdvd/PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct DVD_READ_STRUCTURE {
 
 
 
-#### - BlockByteOffset
+### -field BlockByteOffset
 
 Contains an offset to the logical block address of the descriptor to be retrieved. 
 
 
-#### - Format
+### -field Format
 
 Indicates the type of DVD descriptor to retrieve. See the <a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a> enumeration type for further information about the values that can be assigned to this member. 
 
 
-#### - SessionId
+### -field SessionId
 
 Contains the DVD session ID. 
 
 
-#### - LayerNumber
+### -field LayerNumber
 
 Contains the number of the layer where the descriptor is to be retrieved.
 
@@ -99,9 +99,9 @@ The DVD_READ_STRUCTURE structure contains data such as copyright information, or
 
 ## -see-also
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+
+<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
 
  
 

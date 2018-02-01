@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f624959f-e232-4918-8f0b-f232471c2c67
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, scsiwmi/ScsiPortWmiSetInstanceName
+ms.keywords: ScsiPortWmiSetInstanceName, scsiwmi/ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,22 +72,22 @@ PWCHAR ScsiPortWmiSetInstanceName(
 
 
 
-#### - RequestContext [in]
+### -param RequestContext [in]
 
 Pointer to a structure of type <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a> that contains the request context for a WMI SRB. 
 
 
-#### - InstanceIndex [in]
+### -param InstanceIndex [in]
 
 Contains an index that indicates the instance for which the position and length of the instance name are to be specified. 
 
 
-#### - InstanceNameLength [in]
+### -param InstanceNameLength [in]
 
 Specifies the size in bytes of the instance name.
 
 
-#### - BufferAvail [out]
+### -param BufferAvail [out]
 
 Must contain, on input, the number of bytes of buffer space in the <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a> structure that can be used for describing instance names and data. On return, this member contains the number of bytes of buffer space that remain. 
 
@@ -108,7 +108,7 @@ The miniport driver must call <b>ScsiPortWmiSetInstanceCount</b> first, but afte
 If there is not enough memory available to add an instance name of length <i>InstanceNameLength</i>, a zero will be returned in the <i>BufferAvail</i> member. 
 
 
-#### - SizeNeeded [in, out]
+### -param SizeNeeded [in, out]
 
 Indicates, on input, the number of bytes needed to describe the WNODE <i>before </i>adding the descriptive data for the instance specified by <i>InstanceIndex</i>. On return, this member will contain the size of the entire WNODE, including the data for the new instance. 
 

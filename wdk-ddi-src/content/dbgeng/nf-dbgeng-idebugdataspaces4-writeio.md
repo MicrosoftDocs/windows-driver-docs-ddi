@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3bc84b15-7c13-4ad9-b9a1-6abd5a7389eb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteIo method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces3::WriteIo, IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, IDebugDataSpaces3::WriteIo, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, dbgeng/IDebugDataSpaces::WriteIo, debugger.writeio, WriteIo method [Windows Debugging], WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteIo, dbgeng/IDebugDataSpaces4::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces::WriteIo, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method, IDebugDataSpaces interface [Windows Debugging], WriteIo method, IDebugDataSpaces4::WriteIo, WriteIo
+ms.keywords: WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces::WriteIo, dbgeng/IDebugDataSpaces2::WriteIo, IDebugDataSpaces4::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, IDebugDataSpaces3::WriteIo, dbgeng/IDebugDataSpaces4::WriteIo, WriteIo, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method, IDebugDataSpaces2::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, debugger.writeio, WriteIo method [Windows Debugging], dbgeng/IDebugDataSpaces3::WriteIo, IDebugDataSpaces::WriteIo, IDebugDataSpaces interface [Windows Debugging], WriteIo method, WriteIo method [Windows Debugging], IDebugDataSpaces interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,37 +76,37 @@ HRESULT WriteIo(
 
 
 
-#### - InterfaceType [in]
+### -param InterfaceType [in]
 
 Specifies the interface type of the I/O bus.  This parameter may take values in the INTERFACE_TYPE enumeration defined in wdm.h.
 
 
-#### - BusNumber [in]
+### -param BusNumber [in]
 
 Specifies the system-assigned number of the bus.  This is usually zero, unless the system has more than one bus of the same interface type.
 
 
-#### - AddressSpace [in]
+### -param AddressSpace [in]
 
 Set to one.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the location of the requested data.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Specifies the data to write to the I/O bus.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
 
-#### - BytesWritten [out, optional]
+### -param BytesWritten [out, optional]
 
 Receives the number of bytes written to I/O bus.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 

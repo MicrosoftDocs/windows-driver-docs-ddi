@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5c918f44-1ee7-4666-b83a-e13ce02e26db
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::AddExtensionWide, IDebugControl4 interface [Windows Debugging], AddExtensionWide method, AddExtensionWide method [Windows Debugging], IDebugControl4 interface, debugger.addextensionwide, IDebugControl4, IDebugControl4::AddExtensionWide, AddExtensionWide method [Windows Debugging], AddExtensionWide
+ms.keywords: IDebugControl4 interface [Windows Debugging], AddExtensionWide method, AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::AddExtensionWide, debugger.addextensionwide, IDebugControl4, dbgeng/IDebugControl4::AddExtensionWide, AddExtensionWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT AddExtensionWide(
 
 
 
-#### - Path [in]
+### -param Path [in]
 
 Specifies the fully qualified path and file name of the extension library to load.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Set to zero.
 
 
-#### - Handle [out]
+### -param Handle [out]
 
 Receives the handle of the loaded extension library.
 
@@ -122,11 +122,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
 
  
 

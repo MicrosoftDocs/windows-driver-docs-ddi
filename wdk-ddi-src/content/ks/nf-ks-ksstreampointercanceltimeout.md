@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreampointercanceltimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices], ks/KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout, avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml
+ms.keywords: stream.ksstreampointercanceltimeout, avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, ks/KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void KsStreamPointerCancelTimeout(
 
 
 
-#### - StreamPointer [in]
+### -param StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer for which to cancel a registered time-out callback.
 
@@ -91,9 +91,9 @@ The <b>KsStreamPointerCancelTimeout</b> function does not affect stream pointers
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerscheduletimeout.md">KsStreamPointerScheduleTimeout</a>
-
 <a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
+
+<a href="..\ks\nf-ks-ksstreampointerscheduletimeout.md">KsStreamPointerScheduleTimeout</a>
 
  
 

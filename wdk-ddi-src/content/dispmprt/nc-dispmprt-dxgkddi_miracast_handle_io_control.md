@@ -76,22 +76,22 @@ NTSTATUS* DxgkDdiMiracastIoControl(
 
 
 
-#### - DriverContext [in]
+### -param DriverContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-#### - MiracastContext [in]
+### -param MiracastContext [in]
 
 The Miracast device context, supplied by the operating system. This context was provided by the display miniport driver in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a> function.
 
 
-#### - InputBufferSize [in]
+### -param InputBufferSize [in]
 
 Supplied by the operating system as the size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
 
 
-#### - *pInputBuffer [in]
+### -param *pInputBuffer [in]
 
 Supplied by the operating system as a pointer to the input buffer. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
 
@@ -102,23 +102,16 @@ Supplied by the operating system as a pointer to the input buffer. This value or
 
 
 
-#### - *pOutputBuffer [out]
+### -param *pOutputBuffer [out]
 
 Supplied by the operating system as a pointer to the output buffer. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>pOutputBuffer</i> parameter.
 
 <i>OutBufferSize</i> specifies the size of the buffer.
 
 
-#### - *BytesReturned [out]
+### -param *BytesReturned [out]
 
 Supplied by the operating system as a pointer to a buffer that holds a <b>ULONG</b>-type value that is the number of bytes that the display miniport driver returned in the buffer pointed to by <i>pOutputBuffer</i>.
-
-
-#### - pInputBuffer [in]
-
-Supplied by the operating system as a pointer to the input buffer. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
-
-<i>InputBufferSize</i> specifies the size of the buffer.
 
 
 #### - OutBufferSize [in]
@@ -126,18 +119,6 @@ Supplied by the operating system as a pointer to the input buffer. This value or
 Supplied by the operating system as the size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
-
-
-#### - pOutputBuffer [out]
-
-Supplied by the operating system as a pointer to the output buffer. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>pOutputBuffer</i> parameter.
-
-<i>OutBufferSize</i> specifies the size of the buffer.
-
-
-#### - BytesReturned [out]
-
-Supplied by the operating system as a pointer to a buffer that holds a <b>ULONG</b>-type value that is the number of bytes that the display miniport driver returned in the buffer pointed to by <i>pOutputBuffer</i>.
 
 
 ## -returns
@@ -167,15 +148,15 @@ The threading and synchronization level for this function is set by how the user
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
+<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
 
-<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
  
 

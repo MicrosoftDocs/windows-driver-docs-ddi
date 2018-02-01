@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winddiui/DOCEVENT_ESCAPE, PDOCEVENT_ESCAPE, _DOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], print.docevent_escape, winddiui/PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, *PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices]
+ms.keywords: print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, DOCEVENT_ESCAPE structure [Print Devices], winddiui/DOCEVENT_ESCAPE, _DOCEVENT_ESCAPE, print.docevent_escape, *PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], winddiui/PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, PDOCEVENT_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _DOCEVENT_ESCAPE {
 
 
 
-#### - iEscape
+### -field iEscape
 
 Specifies the value of the <b>ExtEscape</b> function's <i>nEscape</i> parameter.
 
 
-#### - cjInput
+### -field cjInput
 
 Specifies the value of the <b>ExtEscape</b> function's <i>cbInput</i> parameter.
 
 
-#### - pvInData
+### -field pvInData
 
 Specifies the value of the <b>ExtEscape</b> function's <i>lpszInData</i> parameter.
 

@@ -77,7 +77,7 @@ DWORD APIENTRY Dot11ExtIhvQueryUIRequest(
 
 
 
-#### - hIhvExtAdapter [in, optional]
+### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the 
@@ -85,7 +85,7 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
      Handler function.
 
 
-#### - connectionPhase [in]
+### -param connectionPhase [in]
 
 The current connection phase. The data type for this member is the 
      <b>DOT11EXT_IHV_CONNECTION_PHASE</b> enumeration:
@@ -103,27 +103,19 @@ Specifies any connection phase.
 
 Specifies the connection phase before the IHV Extensions DLL initiates a pre-association
        operation. For more information about the pre-association operation, see 
-       <mshelp:link keywords="netvista.pre_association_operations" tabindex="0">Pre-Association
-       Operations</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association
+       Operations</a>.
 
 
 #### connection_phase_post_l3_connection
 
 Specifies the connection phase after the IHV Extensions DLL completes a post-association
        operation. For more information about the post-association operation, see 
-       <mshelp:link keywords="netvista.post_association_operations" tabindex="0">Post-Association
-       Operations</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/post-association-operations">Post-Association
+       Operations</a>.
 
 
-#### - *ppIhvUIRequest [out]
-
-The address of a pointer to a 
-     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.
-     The IHV Extensions DLL must allocate a buffer for the DOT11EXT_IHV_UI_REQUEST structure by calling 
-     <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>.
-
-
-#### - ppIhvUIRequest [out]
+### -param *ppIhvUIRequest [out]
 
 The address of a pointer to a 
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.
@@ -175,11 +167,11 @@ For example, if
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 

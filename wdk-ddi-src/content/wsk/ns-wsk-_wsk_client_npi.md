@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f50b228-5565-436f-8c68-8885b8916001
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wsk_client_npi, wsk/PWSK_CLIENT_NPI, WSK_CLIENT_NPI, wsk/WSK_CLIENT_NPI, wskref_e498e50c-695d-4f5c-a1db-0f87f4313d4a.xml, PWSK_CLIENT_NPI structure pointer [Network Drivers Starting with Windows Vista], _WSK_CLIENT_NPI, WSK_CLIENT_NPI structure [Network Drivers Starting with Windows Vista], PWSK_CLIENT_NPI, *PWSK_CLIENT_NPI
+ms.keywords: WSK_CLIENT_NPI, _WSK_CLIENT_NPI, wsk/WSK_CLIENT_NPI, PWSK_CLIENT_NPI structure pointer [Network Drivers Starting with Windows Vista], wskref_e498e50c-695d-4f5c-a1db-0f87f4313d4a.xml, *PWSK_CLIENT_NPI, PWSK_CLIENT_NPI, netvista.wsk_client_npi, WSK_CLIENT_NPI structure [Network Drivers Starting with Windows Vista], wsk/PWSK_CLIENT_NPI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -51,8 +51,8 @@ req.product: Windows 10 or later.
 
 
 The WSK_CLIENT_NPI structure identifies a 
-  <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
-  (NPI)</mshelp:link> implemented by a WSK client.
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  (NPI)</a> implemented by a WSK client.
 
 
 ## -syntax
@@ -71,12 +71,12 @@ typedef struct _WSK_CLIENT_NPI {
 
 
 
-#### - ClientContext
+### -field ClientContext
 
 A pointer to the context for the WSK application's binding to the WSK subsystem.
 
 
-#### - Dispatch
+### -field Dispatch
 
 A pointer to a constant 
      <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a> structure.
@@ -86,8 +86,8 @@ A pointer to a constant
 
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock Kernel
-    Application</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    Application</a>.
 
 
 

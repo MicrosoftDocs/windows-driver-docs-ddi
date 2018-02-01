@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d5870125-2c0f-4cb9-ad2a-dc4939745504
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], wlanihv/DOT11_MSONEX_FAILURE, netvista.dot11_msonex_result, PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, wlanihv/DOT11_MSONEX_RESULT, *PDOT11_MSONEX_RESULT, DOT11_MSONEX_FAILURE, wlanihv/DOT11_MSONEX_SUCCESS, wlanihv/PDOT11_MSONEX_RESULT, PDOT11_MSONEX_RESULT, _DOT11_MSONEX_RESULT, wlanihv/DOT11_MSONEX_IN_PROGRESS, DOT11_MSONEX_SUCCESS, DOT11_MSONEX_RESULT, DOT11_MSONEX_IN_PROGRESS
+ms.keywords: wlanihv/PDOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11_MSONEX_FAILURE, DOT11_MSONEX_SUCCESS, DOT11_MSONEX_FAILURE, wlanihv/DOT11_MSONEX_RESULT, netvista.dot11_msonex_result, wlanihv/DOT11_MSONEX_IN_PROGRESS, PDOT11_MSONEX_RESULT, DOT11_MSONEX_IN_PROGRESS, *PDOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT, Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, wlanihv/DOT11_MSONEX_SUCCESS, _DOT11_MSONEX_RESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,17 +72,17 @@ typedef enum _DOT11_MSONEX_RESULT {
 
 
 
-#### - DOT11_MSONEX_SUCCESS
+### -field DOT11_MSONEX_SUCCESS
 
 The 802.1X authentication operation succeeded.
 
 
-#### - DOT11_MSONEX_FAILURE
+### -field DOT11_MSONEX_FAILURE
 
 The 802.1X authentication operation failed.
 
 
-#### - DOT11_MSONEX_IN_PROGRESS
+### -field DOT11_MSONEX_IN_PROGRESS
 
 The 802.1X authentication operation is in progress.
 
@@ -92,8 +92,8 @@ The 802.1X authentication operation is in progress.
 
 After the IHV Extensions DLL initiates an 802.1X authentication operation, the operating system calls
     the 
-    <mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-    Dot11ExtIhvOneXIndicateResult</i></mshelp:link> IHV handler function to complete the operation. When it calls this
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+    Dot11ExtIhvOneXIndicateResult</a> IHV handler function to complete the operation. When it calls this
     function, the operating system passes a DOT11_MSONEX_RESULT value to the 
     <i>OneXResult</i> parameter to specify the result of the authentication operation.
 
@@ -101,8 +101,8 @@ After the IHV Extensions DLL initiates an 802.1X authentication operation, the o
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 

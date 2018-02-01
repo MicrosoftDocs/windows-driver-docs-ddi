@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8cd2d7ae-ebbe-41c6-8773-7a517bc6f714
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml, ObDereferenceObject routine [Kernel-Mode Driver Architecture], kernel.obdereferenceobject, wdm/ObDereferenceObject, ObDereferenceObject
+ms.keywords: ObDereferenceObject, kernel.obdereferenceobject, wdm/ObDereferenceObject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -111,15 +111,15 @@ Call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> with the handle obtained in 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdelete.md">ObDereferenceObjectDeferDelete</a>
 
 <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdelete.md">ObDereferenceObjectDeferDelete</a>
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
  
 

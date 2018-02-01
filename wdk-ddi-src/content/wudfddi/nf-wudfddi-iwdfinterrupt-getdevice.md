@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71C4E02F-B58A-46BA-A6A7-133D6CAF2A85
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt, IWDFInterrupt interface, GetDevice method, umdf.iwdfinterrupt_getdevice, IWDFInterrupt::GetDevice, wudfddi/IWDFInterrupt::GetDevice, GetDevice method, IWDFInterrupt interface, wdf.iwdfinterrupt_getdevice, GetDevice method, GetDevice
+ms.keywords: wdf.iwdfinterrupt_getdevice, GetDevice method, IWDFInterrupt, IWDFInterrupt interface, GetDevice method, umdf.iwdfinterrupt_getdevice, IWDFInterrupt::GetDevice, wudfddi/IWDFInterrupt::GetDevice, GetDevice method, IWDFInterrupt interface, GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

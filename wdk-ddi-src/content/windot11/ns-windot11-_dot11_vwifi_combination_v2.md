@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b30b868d-3012-4bdc-80f4-ffae2ebaa4d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_VWIFI_COMBINATION_V2, PDOT11_VWIFI_COMBINATION_V2, PDOT11_VWIFI_COMBINATION_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION_V2, Native_802.11_data_types_1210442c-19be-406c-bec5-12ad170fc90b.xml, *PDOT11_VWIFI_COMBINATION_V2, windot11/DOT11_VWIFI_COMBINATION_V2, DOT11_VWIFI_COMBINATION_V2, DOT11_VWIFI_COMBINATION_V2 structure [Network Drivers Starting with Windows Vista], netvista.dot11_vwifi_combination_v2
+ms.keywords: netvista.dot11_vwifi_combination_v2, windot11/DOT11_VWIFI_COMBINATION_V2, PDOT11_VWIFI_COMBINATION_V2, Native_802.11_data_types_1210442c-19be-406c-bec5-12ad170fc90b.xml, PDOT11_VWIFI_COMBINATION_V2 structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_COMBINATION_V2, windot11/PDOT11_VWIFI_COMBINATION_V2, DOT11_VWIFI_COMBINATION_V2 structure [Network Drivers Starting with Windows Vista], DOT11_VWIFI_COMBINATION_V2, _DOT11_VWIFI_COMBINATION_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DOT11_VWIFI_COMBINATION_V2 {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_VWIFI_COMBINATION_V2 structure. This member is formatted
      as an 
@@ -89,11 +89,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_VWIFI_COMBINATION_REVISION_2.
@@ -105,25 +100,30 @@ This member must be set to
        sizeof(DOT11_VWIFI_COMBINATION_V2).
 
 
-#### - uNumInfrastructure
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uNumInfrastructure
 
 The number of 802.11 infrastructure stations supported. For more information, see the following
      Remarks section.
 
 
-#### - uNumAdhoc
+### -field uNumAdhoc
 
 The number of Adhoc Stations supported. For more information, see the following Remarks
      section.
 
 
-#### - uNumSoftAP
+### -field uNumSoftAP
 
 The number of Soft AP Stations supported. For more information, see the following Remarks
      section.
 
 
-#### - uNumVirtualStation
+### -field uNumVirtualStation
 
 The number of Virtual Stations supported. For more information, see the following Remarks
      section.

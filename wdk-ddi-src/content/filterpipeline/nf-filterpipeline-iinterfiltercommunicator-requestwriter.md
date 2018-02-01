@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1f0684f0-e15e-491f-ba09-314f831d7ba9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IInterFilterCommunicator, print.iinterfiltercommunicator_requestwriter, IInterFilterCommunicator interface [Print Devices], RequestWriter method, RequestWriter method [Print Devices], IInterFilterCommunicator::RequestWriter, filterpipeline/IInterFilterCommunicator::RequestWriter, filterpipeline_b2f3eac2-d759-45b4-818b-4d828c5aeedc.xml, RequestWriter method [Print Devices], IInterFilterCommunicator interface, RequestWriter
+ms.keywords: RequestWriter method [Print Devices], print.iinterfiltercommunicator_requestwriter, IInterFilterCommunicator::RequestWriter, filterpipeline_b2f3eac2-d759-45b4-818b-4d828c5aeedc.xml, RequestWriter, IInterFilterCommunicator interface [Print Devices], RequestWriter method, filterpipeline/IInterFilterCommunicator::RequestWriter, IInterFilterCommunicator, RequestWriter method [Print Devices], IInterFilterCommunicator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT RequestWriter(
 
 
 
-#### - ppIWriter [out]
+### -param ppIWriter [out]
 
 A variable that receives the writer interface object that <b>RequestWriter</b> retrieves.
 

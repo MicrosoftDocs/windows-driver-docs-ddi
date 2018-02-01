@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c7debd93-0fcd-43c5-a950-8154b62175bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PPERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, ntddstor/PERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], _PERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND structure [Storage Devices], *PPERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND, structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml
+ms.keywords: "_PERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, PERSISTENT_RESERVE_COMMAND structure [Storage Devices], PPERSISTENT_RESERVE_COMMAND, *PPERSISTENT_RESERVE_COMMAND, ntddstor/PERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml, ntddstor/PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,69 +89,9 @@ typedef struct _PERSISTENT_RESERVE_COMMAND {
 
 ### -field DUMMYUNIONNAME.PR_IN
 
- 
 
 
 ### -field DUMMYUNIONNAME.PR_IN.ServiceAction
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_IN.Reserved1
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_IN.AllocationLength
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_OUT
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_OUT.ServiceAction
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_OUT.Reserved1
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_OUT.Type
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_OUT.Scope
-
- 
-
-
-### -field DUMMYUNIONNAME.PR_OUT.ParameterList
-
- 
-
-
-#### - Version
-
-The version of this structure.
-
-
-#### - Size
-
-The size of this structure.
-
-
-#### - PR_IN
-
-
-
-#### ServiceAction
 
 The service action code for this IOCTL_STORAGE_PERSISTENT_RESERVE_IN request. PR_IN.ServiceAction can be one of the following values:
 RESERVATION_ACTION_READ_KEYS
@@ -159,21 +99,21 @@ RESERVATION_ACTION_READ_RESERVATIONS
 
 
 
-#### Reserved1
+### -field DUMMYUNIONNAME.PR_IN.Reserved1
 
 Reserved. Must be zero.
 
 
-#### AllocationLength
+### -field DUMMYUNIONNAME.PR_IN.AllocationLength
 
 The number of bytes allocated for the returned parameter list.
 
 
-#### - PR_OUT
+### -field DUMMYUNIONNAME.PR_OUT
 
 
 
-#### ServiceAction
+### -field DUMMYUNIONNAME.PR_OUT.ServiceAction
 
 The service action code for this IOCTL_STORAGE_PERSISTENT_RESERVE_OUT request. PR_OUT.ServiceAction can be one of the following values:
 RESERVATION_ACTION_REGISTER
@@ -186,12 +126,12 @@ RESERVATION_ACTION_REGISTER_IGNORE_EXISTING
 
 
 
-#### Reserved1
+### -field DUMMYUNIONNAME.PR_OUT.Reserved1
 
 Reserved. Must be zero.
 
 
-#### Type
+### -field DUMMYUNIONNAME.PR_OUT.Type
 
 A value that specifies the characteristics of the persistent reservation. PR_OUT.Type can be one of the following values:
 RESERVATION_TYPE_WRITE_EXCLUSIVE
@@ -201,7 +141,7 @@ RESERVATION_TYPE_EXCLUSIVE_REGISTRANTS
 
 
 
-#### Scope
+### -field DUMMYUNIONNAME.PR_OUT.Scope
 
 A value that specifies whether the persistent reservation applies to the entire logical unit or a specific element of the logical unit. PR_OUT.Scope can be one of the following values:
 RESERVATION_SCOPE_LU
@@ -209,9 +149,19 @@ RESERVATION_SCOPE_ELEMENT
 
 
 
-#### ParameterList
+### -field DUMMYUNIONNAME.PR_OUT.ParameterList
 
 The space for additional SCSI Persistent Reserve Out command parameters.
+
+
+### -field Version
+
+The version of this structure.
+
+
+### -field Size
+
+The size of this structure.
 
 
 ## -remarks

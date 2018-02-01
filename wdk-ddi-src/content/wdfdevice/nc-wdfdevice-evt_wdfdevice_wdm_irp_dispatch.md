@@ -79,37 +79,37 @@ NTSTATUS EvtDeviceWdmIrpDispatch(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - MajorFunction [in]
+### -param MajorFunction [in]
 
 One of the IRP major function codes that are defined in wdm.h.
 
 
-#### - MinorFunction [in]
+### -param MinorFunction [in]
 
 One of the I/O IRP minor function codes that are defined in wdm.h for the <i>MajorFunction</i> code.
 
 
-#### - Code [in]
+### -param Code [in]
 
 Specifies an I/O control code value.  This parameter is valid only if <i>MajorFunction</i> is set to IRP_MJ_DEVICE_CONTROL.
 
 
-#### - DriverContext [in]
+### -param DriverContext [in]
 
 An untyped pointer to driver-defined context information that the driver provided when it called <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback.md">WdfDeviceConfigureWdmIrpDispatchCallback</a>.
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 A pointer to an IRP structure.
 
 
-#### - DispatchContext [in]
+### -param DispatchContext [in]
 
 An untyped pointer to the framework's dispatch  context information. The driver must provide this parameter when it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>.
 

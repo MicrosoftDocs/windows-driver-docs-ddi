@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9f3e8592-b966-45c4-8931-dd5be0d75740
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlTimeToSecondsSince1970 routine [Installable File System Drivers], rtlref_62b40f46-c3ee-480d-b671-0c107866f4e7.xml, ifsk.rtltimetosecondssince1970, RtlTimeToSecondsSince1970, ntifs/RtlTimeToSecondsSince1970
+ms.keywords: ifsk.rtltimetosecondssince1970, ntifs/RtlTimeToSecondsSince1970, rtlref_62b40f46-c3ee-480d-b671-0c107866f4e7.xml, RtlTimeToSecondsSince1970, RtlTimeToSecondsSince1970 routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSYSAPIBOOLEAN RtlTimeToSecondsSince1970(
 
 
 
-#### - Time [in]
+### -param Time [in]
 
 Pointer to a variable that specifies the system time value to be converted. The approximate valid range for this variable begins at 1970 and ends around 2105. 
 
 
-#### - ElapsedSeconds [out]
+### -param ElapsedSeconds [out]
 
 Pointer to a caller-allocated variable that receives the corresponding number of seconds since midnight, December 31, 1969. 
 
@@ -96,13 +96,13 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtltimetosecondssince1980.md">RtlTimeToSecondsSince1980</a>
-
-<a href="..\ntifs\nf-ntifs-rtlsecondssince1970totime.md">RtlSecondsSince1970ToTime</a>
-
 <a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
 
 <a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
+
+<a href="..\ntifs\nf-ntifs-rtlsecondssince1970totime.md">RtlSecondsSince1970ToTime</a>
+
+<a href="..\ntifs\nf-ntifs-rtltimetosecondssince1980.md">RtlTimeToSecondsSince1980</a>
 
  
 

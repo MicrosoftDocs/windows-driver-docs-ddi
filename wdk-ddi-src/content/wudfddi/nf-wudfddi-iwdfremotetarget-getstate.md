@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfremotetarget_getstate, umdf.iwdfremotetarget_getstate, GetState method, IWDFRemoteTarget interface, IWDFRemoteTarget, IWDFRemoteTarget::GetState, IWDFRemoteTarget interface, GetState method, GetState, wudfddi/IWDFRemoteTarget::GetState, GetState method, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml
+ms.keywords: umdf.iwdfremotetarget_getstate, GetState method, GetState method, IWDFRemoteTarget interface, IWDFRemoteTarget interface, GetState method, IWDFRemoteTarget::GetState, GetState, IWDFRemoteTarget, wdf.iwdfremotetarget_getstate, wudfddi/IWDFRemoteTarget::GetState, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6339a8bf-ab32-48bc-aae6-2cce2a6a648d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, QueryValueKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], QueryValueKey method, QueryValueKey, IRegistryKey, IRegistryKey::QueryValueKey, audio.iregistrykey_queryvaluekey, QueryValueKey method [Audio Devices], portcls/IRegistryKey::QueryValueKey
+ms.keywords: QueryValueKey method [Audio Devices], IRegistryKey interface [Audio Devices], QueryValueKey method, audio.iregistrykey_queryvaluekey, audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, QueryValueKey method [Audio Devices], IRegistryKey interface, IRegistryKey, IRegistryKey::QueryValueKey, portcls/IRegistryKey::QueryValueKey, QueryValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ NTSTATUS QueryValueKey(
 
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 Pointer to the manufacturer-supplied name of the value entry. The name string is specified by a structure of type <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>.
 
 
-#### - KeyValueInformationClass [in]
+### -param KeyValueInformationClass [in]
 
 Specifies the type of information to be returned in the buffer. Set this parameter to one of the following KEY_VALUE_INFORMATION_CLASS enumeration values:
 <ul>
@@ -94,17 +94,17 @@ Specifies the type of information to be returned in the buffer. Set this paramet
 </li>
 </ul>
 
-#### - KeyValueInformation [out]
+### -param KeyValueInformation [out]
 
 Pointer to a caller-allocated buffer into which the method writes the requested data. The buffer contains a structure of type <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>, <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>, or <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>, depending on the value of <i>KeyValueInformationClass</i>. The structure is followed by additional data whose size depends on the data type of the key value.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Size in bytes of the <i>KeyValueInformation</i> buffer, which the caller must set according to the given <i>KeyValueInformationClass</i>. To receive all the requested data, the buffer must be at least as large as the size of the requested data.
 
 
-#### - ResultLength [out]
+### -param ResultLength [out]
 
 Output pointer for the length of the resulting data. This parameter points to a caller-allocated ULONG variable into which the method writes a count specifying the number of bytes actually written into the <i>KeyValueInformation</i> buffer. If the specified buffer length is too small to contain the information, however, the method instead outputs the required buffer size and returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL. For more information, see the following Remarks section.
 
@@ -153,17 +153,17 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

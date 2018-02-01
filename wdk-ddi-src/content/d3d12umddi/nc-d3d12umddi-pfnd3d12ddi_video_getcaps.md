@@ -71,17 +71,12 @@ HRESULT APIENTRY* pfnGetCaps(
 
 
 
-#### - hDrvDevice
+### -param hDrvDevice
 
 The handle of a device.
 
 
-#### - *pArgs [in]
-
- Values used to get capabilities.
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
  Values used to get capabilities.
 

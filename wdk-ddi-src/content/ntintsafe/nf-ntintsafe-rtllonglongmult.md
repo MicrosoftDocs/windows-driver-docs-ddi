@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E5FE5EDB-D11D-4EF7-9CEA-CF059398A063
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtllonglongmult, ntintsafe/RtlLongLongMult, RtlLongLongMult function [Kernel-Mode Driver Architecture], RtlLongLongMult
+ms.keywords: RtlLongLongMult function [Kernel-Mode Driver Architecture], kernel.rtllonglongmult, ntintsafe/RtlLongLongMult, RtlLongLongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlLongLongMult(
 
 
 
-#### - llMultiplicand [in]
+### -param llMultiplicand [in]
 
 The value to be multiplied by <i>llMultiplier</i>.
 
 
-#### - llMultiplier [in]
+### -param llMultiplier [in]
 
 The value by which to multiply <i>llMultiplicand</i>.
 
 
-#### - pllResult [out]
+### -param pllResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

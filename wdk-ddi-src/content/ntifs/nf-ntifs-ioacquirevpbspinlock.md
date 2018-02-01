@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2a385a7a-e4c9-41ff-aaf2-7a4607fa2b2b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoAcquireVpbSpinLock, IoAcquireVpbSpinLock routine [Installable File System Drivers], ioref_b5833043-4673-46ff-850c-bd71da7defef.xml, ntifs/IoAcquireVpbSpinLock, ifsk.ioacquirevpbspinlock
+ms.keywords: ntifs/IoAcquireVpbSpinLock, IoAcquireVpbSpinLock, ifsk.ioacquirevpbspinlock, IoAcquireVpbSpinLock routine [Installable File System Drivers], ioref_b5833043-4673-46ff-850c-bd71da7defef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ VOID IoAcquireVpbSpinLock(
 
 
 
-#### - Irql [out]
+### -param Irql [out]
 
 Pointer to a caller-allocated variable in which to save the current IRQL for a subsequent call to <a href="..\ntifs\nf-ntifs-ioreleasevpbspinlock.md">IoReleaseVpbSpinLock</a>. Usually the <i>Irql</i> is saved on the stack as a local variable.
 

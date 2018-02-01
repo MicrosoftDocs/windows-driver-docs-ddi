@@ -77,36 +77,36 @@ _Check_return_ NTSTATUS* DxgkDdiSystemDisplayEnable(
 
 
 
-#### - MiniportDeviceContext [in]
+### -param MiniportDeviceContext [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 
 
-#### - TargetId [in]
+### -param TargetId [in]
 
 A D3DDDI_VIDEO_PRESENT_TARGET_ID value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPn) state during the previous call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>.
 
 For more details about the use of the <i>TargetId</i> parameter, see the following "Video present target initialization" section.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 A pointer to a value that contains a bitwise OR of flags. This member is reserved by the operating system.
 
 
-#### - Width [out]
+### -param Width [out]
 
 A UINT value that specifies the width of the display mode of the specified device in units of pixels.
 
 
-#### - Height [out]
+### -param Height [out]
 
 A UINT value that specifies the height of the display mode  of the specified device in units of pixels.
 
 
-#### - ColorFormat [out]
+### -param ColorFormat [out]
 
 A pointer to a <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> value that specifies the color format of the display device.
 
@@ -152,15 +152,15 @@ It is recommended that the driver use the CPU to write the image from the source
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_write.md">DxgkDdiSystemDisplayWrite</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
 <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_write.md">DxgkDdiSystemDisplayWrite</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_reset_device.md">DxgkDdiResetDevice</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
  
 

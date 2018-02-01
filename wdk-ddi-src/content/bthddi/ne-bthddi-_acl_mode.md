@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 90013f42-9393-4037-8d0d-13fe5d7caa0b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_HOLD, ACL_DISCONNECTED, bthddi/ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_ACTIVE, ACL_MODE_HOLD, bthddi/ACL_DISCONNECTED, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, ACL_MODE_ENTER_SNIFF, ACL_MODE_ENTER_PARK, ACL_MODE_SNIFF, bthddi/ACL_MODE_HOLD, ACL_MODE_PARK, ACL_MODE enumeration [Bluetooth Devices], ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_SNIFF, ACL_MODE, bthddi/ACL_MODE, bthddi/ACL_MODE_PARK, bthddi/ACL_MODE_ENTER_PARK, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE_SNIFF, _ACL_MODE, bltooth.acl_mode
+ms.keywords: ACL_MODE_ENTER_SNIFF, ACL_MODE_PARK, ACL_MODE_ENTER_ACTIVE, bthddi/ACL_MODE_PARK, ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE, ACL_MODE, bltooth.acl_mode, bthddi/ACL_MODE_ENTER_SNIFF, bthddi/ACL_DISCONNECTED, ACL_MODE_HOLD, ACL_DISCONNECTED, bthddi/ACL_MODE_HOLD, bthddi/ACL_MODE_ENTER_ACTIVE, _ACL_MODE, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE_ACTIVE, ACL_MODE_ACTIVE, bthddi/ACL_MODE_SNIFF, bthddi/ACL_MODE_ENTER_PARK, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, ACL_MODE_SNIFF, ACL_MODE_ENTER_PARK, ACL_MODE enumeration [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,47 +75,47 @@ typedef enum _ACL_MODE {
 
 
 
-#### - ACL_MODE_ACTIVE
+### -field ACL_MODE_ACTIVE
 
 This value indicates the ACL is in an active state.
 
 
-#### - ACL_MODE_HOLD
+### -field ACL_MODE_HOLD
 
 This value indicates the ACL is in a hold state.
 
 
-#### - ACL_MODE_SNIFF
+### -field ACL_MODE_SNIFF
 
 This value indicates the ACL is in a sniffed state.
 
 
-#### - ACL_MODE_PARK
+### -field ACL_MODE_PARK
 
 This value indicates the ACL is in a parked state.
 
 
-#### - ACL_MODE_ENTER_ACTIVE
+### -field ACL_MODE_ENTER_ACTIVE
 
 This value indicates the ACL is entering an active state.
 
 
-#### - ACL_MODE_ENTER_HOLD
+### -field ACL_MODE_ENTER_HOLD
 
 This value indicates the ACL is entering a hold state.
 
 
-#### - ACL_MODE_ENTER_SNIFF
+### -field ACL_MODE_ENTER_SNIFF
 
 This value indicates the ACL is entering a sniffed state.
 
 
-#### - ACL_MODE_ENTER_PARK
+### -field ACL_MODE_ENTER_PARK
 
 This value indicates the ACL is entering a parked state.
 
 
-#### - ACL_DISCONNECTED
+### -field ACL_DISCONNECTED
 
 This value indicates the ACL is disconnected.
 

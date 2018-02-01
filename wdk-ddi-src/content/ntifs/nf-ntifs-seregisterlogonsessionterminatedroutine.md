@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6cba6db5-b91f-46f0-939e-b02693c81438
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SeRegisterLogonSessionTerminatedRoutine, seref_7188551f-9c46-472f-8976-67ee53b994c5.xml, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], SeRegisterLogonSessionTerminatedRoutine, ifsk.seregisterlogonsessionterminatedroutine
+ms.keywords: ifsk.seregisterlogonsessionterminatedroutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], SeRegisterLogonSessionTerminatedRoutine, ntifs/SeRegisterLogonSessionTerminatedRoutine, seref_7188551f-9c46-472f-8976-67ee53b994c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS SeRegisterLogonSessionTerminatedRoutine(
 
 
 
-#### - CallbackRoutine [in]
+### -param CallbackRoutine [in]
 
 Address of routine to call when a logon session terminates.
 

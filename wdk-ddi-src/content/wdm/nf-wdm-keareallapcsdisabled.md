@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeAreAllApcsDisabled, k105_91675ec9-bef3-4ef8-9403-14999e018745.xml, kernel.keareallapcsdisabled, KeAreAllApcsDisabled, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_91675ec9-bef3-4ef8-9403-14999e018745.xml, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture], wdm/KeAreAllApcsDisabled, kernel.keareallapcsdisabled, KeAreAllApcsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,7 @@ A thread inside a guarded region or running at IRQL &gt;= APC_LEVEL has all APCs
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-keareapcsdisabled.md">KeAreApcsDisabled</a>
+<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
 
  
 

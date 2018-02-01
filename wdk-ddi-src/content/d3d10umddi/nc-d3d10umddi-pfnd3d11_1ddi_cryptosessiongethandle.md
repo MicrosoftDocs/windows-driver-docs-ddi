@@ -72,24 +72,19 @@ HRESULT APIENTRY* CryptoSessionGetHandle(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCryptoSession [in]
+### -param hCryptoSession [in]
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>.
 
 
-#### - *pHandle [out]
-
-A handle that is created by the driver for the cryptographic session.
-
-
-#### - pHandle [out]
+### -param *pHandle [out]
 
 A handle that is created by the driver for the cryptographic session.
 

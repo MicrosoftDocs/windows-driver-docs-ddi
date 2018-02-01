@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b5bae644-6c8d-4346-87bd-211efcf27748
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/SetThreadForOperation, WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, debugger.setthreadforoperation, SetThreadForOperation function [Windows Debugging], SetThreadForOperation
+ms.keywords: SetThreadForOperation, wdbgexts/SetThreadForOperation, WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, debugger.setthreadforoperation, SetThreadForOperation function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ __inline VOID SetThreadForOperation(
 
 
 
-#### - Thread
+### -param Thread
 
 Points to a thread object to be used for the next stack trace.
 

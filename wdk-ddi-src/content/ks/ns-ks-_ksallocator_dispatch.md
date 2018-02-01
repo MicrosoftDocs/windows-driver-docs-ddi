@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e6e6dde-3b41-44a7-b51d-1b1f06db0853
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSALLOCATOR_DISPATCH, stream.ksallocator_dispatch, _KSALLOCATOR_DISPATCH, ks/PKSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml, PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], PKSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH, ks/KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices]"
+ms.keywords: ks/KSALLOCATOR_DISPATCH, _KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices], stream.ksallocator_dispatch, *PKSALLOCATOR_DISPATCH, PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], KSALLOCATOR_DISPATCH, PKSALLOCATOR_DISPATCH, ks/PKSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,9 +71,9 @@ typedef struct _KSALLOCATOR_DISPATCH {
 
 
 
-#### - InitializeAllocator
+#### - Allocate
 
-A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a> callback routine.
+A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdefaultallocate.md">AVStrMiniAllocate</a> callback routine.
 
 
 #### - DeleteAllocator
@@ -81,14 +81,14 @@ A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspininitializealloca
 A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdeleteallocator.md">AVStrMiniDeleteAllocator</a> callback routine.
 
 
-#### - Allocate
-
-A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdefaultallocate.md">AVStrMiniAllocate</a> callback routine.
-
-
 #### - Free
 
 A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdefaultfree.md">AVStrMiniAllocatorFreeFrame</a> callback routine.
+
+
+#### - InitializeAllocator
+
+A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a> callback routine.
 
 
 ## -remarks

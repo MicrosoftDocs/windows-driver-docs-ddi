@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e1708017-a546-4770-8ad1-7052b3d4e264
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni::CommandCallback, prcomoem/IPrintOemUni::CommandCallback, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml, IPrintOemUni, IPrintOemUni interface [Print Devices], CommandCallback method, CommandCallback, print.iprintoemuni_commandcallback, CommandCallback method [Print Devices], CommandCallback method [Print Devices], IPrintOemUni interface
+ms.keywords: prcomoem/IPrintOemUni::CommandCallback, print.iprintoemuni_commandcallback, IPrintOemUni, IPrintOemUni::CommandCallback, CommandCallback method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], CommandCallback method, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml, CommandCallback method [Print Devices], CommandCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT CommandCallback(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - dwCallbackID
+### -param dwCallbackID
 
 Caller-supplied value representing the printer command's *<b>CallbackID</b> attribute in the printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file. (For more information, see the following Remarks section.)
 
 
-#### - dwCount
+### -param dwCount
 
 Caller-supplied value representing the number of elements in the array pointed to by <i>pdwParams</i>. Can be 0.
 
 
-#### - pdwParams
+### -param pdwParams
 
 Caller-supplied pointer to an array of DWORD-sized parameters containing values specified by the printer commands *<b>Params</b> attribute in the printer's GPD file. (For more information, see the following Remarks section.) Can be <b>NULL</b>.
 
 
-#### - piResult [out]
+### -param piResult [out]
 
 Receives a method-supplied result value. See the following Remarks section.
 

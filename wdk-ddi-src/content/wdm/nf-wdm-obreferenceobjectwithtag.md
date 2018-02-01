@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d2b95301-c018-4a2f-801d-a78b00c8d9ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObReferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_a35c78fa-edf5-4a93-908b-baf16718b095.xml, ObReferenceObjectWithTag, kernel.obreferenceobjectwithtag, wdm/ObReferenceObjectWithTag
+ms.keywords: ObReferenceObjectWithTag routine [Kernel-Mode Driver Architecture], ObReferenceObjectWithTag, kernel.obreferenceobjectwithtag, wdm/ObReferenceObjectWithTag, k107_a35c78fa-edf5-4a93-908b-baf16718b095.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,12 +69,12 @@ VOID ObReferenceObjectWithTag(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.
 
@@ -98,13 +98,13 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
-
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbypointerwithtag.md">ObReferenceObjectByPointerWithTag</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
 
  
 

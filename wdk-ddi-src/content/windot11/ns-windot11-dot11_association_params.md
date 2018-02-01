@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74382195-ee1d-4b01-b882-2f357d801a25
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_ASSOCIATION_PARAMS, DOT11_ASSOCIATION_PARAMS, PDOT11_ASSOCIATION_PARAMS, PDOT11_ASSOCIATION_PARAMS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_08a8e9e4-9b11-47f6-a3e0-baa25a63bd6f.xml, netvista.dot11_association_params, *PDOT11_ASSOCIATION_PARAMS, windot11/DOT11_ASSOCIATION_PARAMS, DOT11_ASSOCIATION_PARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_association_params, PDOT11_ASSOCIATION_PARAMS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ASSOCIATION_PARAMS, Native_802.11_data_types_08a8e9e4-9b11-47f6-a3e0-baa25a63bd6f.xml, DOT11_ASSOCIATION_PARAMS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_ASSOCIATION_PARAMS, DOT11_ASSOCIATION_PARAMS, *PDOT11_ASSOCIATION_PARAMS, windot11/DOT11_ASSOCIATION_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct DOT11_ASSOCIATION_PARAMS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_ASSOCIATION_PARAMS structure. This member is formatted
      as an 
@@ -89,11 +89,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_ASSOCIATION_PARAMS_REVISION_1.
@@ -105,7 +100,12 @@ This member must be set to
        <b>sizeof</b>(DOT11_ASSOCIATION_PARAMS).
 
 
-#### - BSSID
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field BSSID
 
 The basic service set (BSS) identifier (BSSID) of the infrastructure BSS network for which the
      association parameters are to be set.
@@ -119,14 +119,14 @@ If this member is set to the wildcard BSSID (0xFFFFFFFFFFFF), the miniport drive
      BSSIDs.
 
 
-#### - uAssocRequestIEsOffset
+### -field uAssocRequestIEsOffset
 
 The offset of the additional IEs, in bytes, that the operating system requests be added to the
      association response. This offset is relative to the start of the buffer that contains the
      DOT11_ASSOCIATION_PARAMS structure. The default value is 0.
 
 
-#### - uAssocRequestIEsLength
+### -field uAssocRequestIEsLength
 
 The length of the additional IEs, in bytes, that the operating system requests be added to the
      association response. The default value is 0.

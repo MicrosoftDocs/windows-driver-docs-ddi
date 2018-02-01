@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 22f5e525-bdf8-4047-9b77-6523cb59f090
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_d342ef48-ef62-4186-97ea-d974bc4bf596.xml, ifsk.rxsetdomainformailslotbroadcast, mrx/RxSetDomainForMailslotBroadcast, RxSetDomainForMailslotBroadcast function [Installable File System Drivers], RxSetDomainForMailslotBroadcast
+ms.keywords: mrx/RxSetDomainForMailslotBroadcast, RxSetDomainForMailslotBroadcast, rxref_d342ef48-ef62-4186-97ea-d974bc4bf596.xml, RxSetDomainForMailslotBroadcast function [Installable File System Drivers], ifsk.rxsetdomainformailslotbroadcast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ NTSTATUS RxSetDomainForMailslotBroadcast(
 
 
 
-#### - DomainName [in]
+### -param DomainName [in]
 
 A pointer to a buffer that contains a zero-terminated Unicode string that names the domain to use for mailslots. 
 
@@ -107,15 +107,15 @@ One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates w
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
-
 <a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
-
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
  
 

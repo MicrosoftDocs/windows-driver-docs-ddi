@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b4880af-d748-4a4e-92ec-8081138d4e27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, stream.kspingetfirstclonestreampointer, KsPinGetFirstCloneStreamPointer, ks/KsPinGetFirstCloneStreamPointer, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices]
+ms.keywords: KsPinGetFirstCloneStreamPointer, stream.kspingetfirstclonestreampointer, ks/KsPinGetFirstCloneStreamPointer, avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ PKSSTREAM_POINTER KsPinGetFirstCloneStreamPointer(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure on which to return the first clone stream pointer.
 
@@ -89,9 +89,9 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure on which to
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
-
 <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 <a href="..\ks\nf-ks-ksstreampointergetnextclone.md">KsStreamPointerGetNextClone</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15e2e1f4-6039-4588-a7ba-bd8aa6b78839
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMGetVirtualFunctionBusData, NdisMGetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], netvista.ndismgetvirtualfunctionbusdata, NdisMGetVirtualFunctionBusData
+ms.keywords: NdisMGetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionBusData, netvista.ndismgetvirtualfunctionbusdata, NdisMGetVirtualFunctionBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,31 +73,31 @@ ULONG NdisMGetVirtualFunctionBusData(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
-#### - VFId [in]
+### -param VFId [in]
 
 The identifier of the VF from which the data from the PCI configuration space is returned.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a buffer that receives the data that is read from the VF's PCI configuration space.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 The offset, in units of bytes, in the VF's PCI configuration space from which data is read.
 
 
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length, in units of bytes, of the data to be read.
 <div class="alert"><b>Note</b>  The size of the buffer referenced by <i>Buffer</i> must be at least as large as the value of the <i>Length</i> parameter.</div><div> </div>
@@ -126,13 +126,13 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 <a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a>
 

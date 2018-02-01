@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbcca01d-2dd6-405a-9ec2-709652e9dcd6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/OBJECT_INFORMATION_CLASS, ifsk.object_information_class, ntifs/ObjectBasicInformation, ntifs/ObjectTypeInformation, ObjectTypeInformation, ObjectBasicInformation, OBJECT_INFORMATION_CLASS enumeration [Installable File System Drivers], _OBJECT_INFORMATION_CLASS, objectstructures_60aa943f-6a91-429d-8c9d-1554f1bcf03e.xml, OBJECT_INFORMATION_CLASS
+ms.keywords: "_OBJECT_INFORMATION_CLASS, ifsk.object_information_class, ntifs/ObjectTypeInformation, OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS enumeration [Installable File System Drivers], objectstructures_60aa943f-6a91-429d-8c9d-1554f1bcf03e.xml, ObjectTypeInformation, ObjectBasicInformation, ntifs/OBJECT_INFORMATION_CLASS, ntifs/ObjectBasicInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,23 +68,23 @@ typedef enum _OBJECT_INFORMATION_CLASS {
 
 
 
-#### - ObjectBasicInformation
+### -field ObjectBasicInformation
 
 A <a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
 
 
-#### - ObjectTypeInformation
+### -field ObjectTypeInformation
 
 A <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
+<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
 
 <a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
 
  
 

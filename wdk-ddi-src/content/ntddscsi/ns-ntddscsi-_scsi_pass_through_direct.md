@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 306babe7-393f-4b4a-9d8a-4c973cb3eaa2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-scsibus_64c46eef-e5bc-4e81-a479-2bdbd93605e7.xml, *PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT structure pointer [Storage Devices], PSCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT structure [Storage Devices], SCSI_PASS_THROUGH_DIRECT, ntddscsi/SCSI_PASS_THROUGH_DIRECT, _SCSI_PASS_THROUGH_DIRECT, storage.scsi_pass_through_direct, ntddscsi/PSCSI_PASS_THROUGH_DIRECT
+ms.keywords: "_SCSI_PASS_THROUGH_DIRECT, structs-scsibus_64c46eef-e5bc-4e81-a479-2bdbd93605e7.xml, SCSI_PASS_THROUGH_DIRECT structure [Storage Devices], storage.scsi_pass_through_direct, PSCSI_PASS_THROUGH_DIRECT structure pointer [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT, ntddscsi/PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,46 +79,42 @@ typedef struct _SCSI_PASS_THROUGH_DIRECT {
 
 
 
-#### - Length
+### -field Length
 
 Contains the value of <b>sizeof</b>(SCSI_PASS_THROUGH_DIRECT).  
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 Reports the SCSI status that was returned by the HBA or the target device. 
 
 
-#### - PathId
+### -field PathId
 
 Indicates the SCSI port or bus for the request. 
 
 
-#### - TargetId
+### -field TargetId
 
 Indicates the target controller or device on the bus.  
 
 
-#### - Lun
+### -field Lun
 
 Indicates the logical unit number of the device. 
 
 
-#### - CdbLength
+### -field CdbLength
 
 Indicates the size in bytes of the SCSI command descriptor block. 
 
 
-#### - SenseInfoLength
+### -field SenseInfoLength
 
 Indicates the size in bytes of the request-sense buffer. 
 
 
-#### - DataIn
-
-
-
-####  This field must have one of three values:
+### -field DataIn
 
 
 
@@ -126,27 +122,31 @@ Indicates the size in bytes of the request-sense buffer.
 
 
 
-#### - DataTransferLength
+####  This field must have one of three values:
+
+
+
+### -field DataTransferLength
 
 Indicates the size in bytes of the data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
 
 
-#### - TimeOutValue
+### -field TimeOutValue
 
 Indicates the interval in seconds that the request can execute before the OS-specific port driver might consider it timed out.
 
 
-#### - DataBuffer
+### -field DataBuffer
 
 Pointer to the data buffer. 
 
 
-#### - SenseInfoOffset
+### -field SenseInfoOffset
 
 Contains an offset from the beginning of this structure to the request-sense buffer. 
 
 
-#### - Cdb
+### -field Cdb
 
 Specifies the SCSI command descriptor block to be sent to the target device. 
 
@@ -162,13 +162,13 @@ The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a <
 
 ## -see-also
 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
  
 

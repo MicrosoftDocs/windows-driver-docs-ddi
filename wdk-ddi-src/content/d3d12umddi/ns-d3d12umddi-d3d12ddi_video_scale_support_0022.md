@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70FFDE9E-2029-4C84-9DEE-C2E81FEE5590
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_scale_support, D3D12DDI_VIDEO_SCALE_SUPPORT_0022 structure [Display Devices], D3D12DDI_VIDEO_SCALE_SUPPORT_0022, d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022, display.d3d12ddi_video_scale_support, D3D12DDI_VIDEO_SCALE_SUPPORT_0022 structure [Display Devices], D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct D3D12DDI_VIDEO_SCALE_SUPPORT_0022 {
 
 
 
-#### - MaxOutputWidth
+### -field MaxOutputWidth
 
 The largest output width that can be scaled to.  The largest value allowed is <b>D3D12_REQ_TEXTURE2D_U_OR_V_DIMENSION</b>, which is 16384.
 
 
-#### - MaxOutputHeight
+### -field MaxOutputHeight
 
 The largest output height that can be scaled to.  The largest value allowed is <b>D3D12_REQ_TEXTURE2D_U_OR_V_DIMENSION</b>, which is 16384.
 
 
-#### - MinOutputWidth
+### -field MinOutputWidth
 
 The smallest output width that can be scaled to.  The smallest allowed value is 1.
 
 
-#### - MinOutputHeight
+### -field MinOutputHeight
 
 The smallest output height that can be scaled to.  The smallest allowed value is 1.
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d3ae6401-6d1b-428f-ae74-e262682bcb10
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxpostoneshottimerrequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, RxPostOneShotTimerRequest routine [Installable File System Drivers], rxtimer/RxPostOneShotTimerRequest, RxPostOneShotTimerRequest
+ms.keywords: RxPostOneShotTimerRequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, rxtimer/RxPostOneShotTimerRequest, ifsk.rxpostoneshottimerrequest, RxPostOneShotTimerRequest routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS RxPostOneShotTimerRequest(
 
 
 
-#### - pDeviceObject [in]
+### -param pDeviceObject [in]
 
 A pointer to the device object to be associated with this timer. 
 
 
-#### - pWorkItem [in]
+### -param pWorkItem [in]
 
 A pointer to the worker item.
 
 
-#### - Routine [in]
+### -param Routine [in]
 
 A pointer to the worker thread routine to call when this timer expires. 
 
 
-#### - pContext [in]
+### -param pContext [in]
 
 A pointer to the context parameter associated with this timer.
 
 
-#### - TimeInterval [in]
+### -param TimeInterval [in]
 
 The time interval, in 100-nanosecond ticks.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a71190ac-0368-40bd-a19d-82a27986a9b3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects3::GetCurrentProcessDataOffset, IDebugSystemObjects3::GetCurrentProcessDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessDataOffset method, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects interface, GetCurrentProcessDataOffset, IDebugSystemObjects_f3602018-7f0a-45eb-aadc-26e0f7349737.xml, GetCurrentProcessDataOffset method [Windows Debugging], dbgeng/IDebugSystemObjects2::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects4, IDebugSystemObjects4::GetCurrentProcessDataOffset, IDebugSystemObjects::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects::GetCurrentProcessDataOffset, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessDataOffset method, debugger.getcurrentprocessdataoffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessDataOffset method, dbgeng/IDebugSystemObjects4::GetCurrentProcessDataOffset, IDebugSystemObjects2::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface
+ms.keywords: IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessDataOffset method, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects_f3602018-7f0a-45eb-aadc-26e0f7349737.xml, IDebugSystemObjects::GetCurrentProcessDataOffset, IDebugSystemObjects2::GetCurrentProcessDataOffset, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessDataOffset method, dbgeng/IDebugSystemObjects3::GetCurrentProcessDataOffset, IDebugSystemObjects3::GetCurrentProcessDataOffset, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessDataOffset method, GetCurrentProcessDataOffset, debugger.getcurrentprocessdataoffset, dbgeng/IDebugSystemObjects2::GetCurrentProcessDataOffset, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessDataOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT GetCurrentProcessDataOffset(
 
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the location in the target's virtual address space of the system data structure describing the current process.
 

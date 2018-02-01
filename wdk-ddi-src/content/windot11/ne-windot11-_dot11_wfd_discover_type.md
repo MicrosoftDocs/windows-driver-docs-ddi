@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B50C7FD5-5AE4-4BF3-9FD7-F006F4B6BAAF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_forced, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_discover_type_scan_social_channels, dot11_wfd_discover_type_scan_only, dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_find_only, dot11_wfd_discover_type_auto, _DOT11_WFD_DISCOVER_TYPE, *PDOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_scan_social_channels, windot11/dot11_wfd_discover_type_scan_only, netvista.dot11_wfd_discover_type, DOT11_WFD_DISCOVER_TYPE, windot11/DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_auto
+ms.keywords: dot11_wfd_discover_type_find_only, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_discover_type_auto, dot11_wfd_discover_type_forced, dot11_wfd_discover_type_auto, _DOT11_WFD_DISCOVER_TYPE, windot11/DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_scan_only, DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_forced, dot11_wfd_discover_type_scan_social_channels, windot11/dot11_wfd_discover_type_scan_only, windot11/dot11_wfd_discover_type_scan_social_channels, *PDOT11_WFD_DISCOVER_TYPE, netvista.dot11_wfd_discover_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,27 +72,27 @@ typedef enum _DOT11_WFD_DISCOVER_TYPE {
 
 
 
-#### - dot11_wfd_discover_type_scan_only
+### -field dot11_wfd_discover_type_scan_only
 
 Device discovery occurs only during the scan phase. During the scan phase, Wi-Fi Direct devices should scan each social channel at least once every 250ms.
 
 
-#### - dot11_wfd_discover_type_find_only
+### -field dot11_wfd_discover_type_find_only
 
 Device discovery occurs only during the find phase.
 
 
-#### - dot11_wfd_discover_type_auto
+### -field dot11_wfd_discover_type_auto
 
 Discovery mode is determined by the driver.
 
 
-#### - dot11_wfd_discover_type_scan_social_channels
+### -field dot11_wfd_discover_type_scan_social_channels
 
 The WFD device must perform device discovery by scanning only P2P social channels. In this setting, the device should scan each social channel at least once every 250ms.
 
 
-#### - dot11_wfd_discover_type_forced
+### -field dot11_wfd_discover_type_forced
 
 A flag indicating that a complete device discovery is required. If this flag is not set, a partial discovery can be performed.
 

@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: bcb0eb53-e3b3-4cec-9912-6306e8faef21
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities, PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices], PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, pmi/PPMI_REPORTED_CAPABILITIES, PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], *PPMI_REPORTED_CAPABILITIES, _PMI_REPORTED_CAPABILITIES
+ms.keywords: PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PPMI_REPORTED_CAPABILITIES, PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, pmi/PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices], PMI_REPORTED_CAPABILITIES, *PPMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities, _PMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,21 @@ typedef struct _PMI_REPORTED_CAPABILITIES {
 
 
 
-#### - Flags
+### -field Flags
 
 A bitmask that specifies the supported capabilities of the power meter. The following flags define the range of values for this member:
 
 
+
+
+#### PMI_CAPABILITIES_DISCHARGE_ONLY
+
+This bit is set if the power meter reports data only when the power supply is discharging. This is typically the case on mobile battery systems or some uninterruptible power supplies (UPSs).
+
+
+#### PMI_CAPABILITIES_SUPPORT_BUDGETING
+
+This bit is set if the power meter supports power budgeting.
 
 
 #### PMI_CAPABILITIES_SUPPORT_MEASUREMENT
@@ -97,77 +107,67 @@ This bit is set if the power meter supports power measurement.
 This bit is set if the power meter supports power thresholds.
 
 
-#### PMI_CAPABILITIES_SUPPORT_BUDGETING
-
-This bit is set if the power meter supports power budgeting.
-
-
-#### PMI_CAPABILITIES_DISCHARGE_ONLY
-
-This bit is set if the power meter reports data only when the power supply is discharging. This is typically the case on mobile battery systems or some uninterruptible power supplies (UPSs).
-
-
-#### - MeasurementUnit
+### -field MeasurementUnit
 
 A <a href="..\pmi\ne-pmi-pmi_measurement_unit.md">PMI_MEASUREMENT_UNIT</a> enumeration value that specifies the measurement unit. 
 <div class="alert"><b>Note</b>  Beginning with Windows 7, Windows Server 2008 R2, only measurement units of milliwatts (mW) are supported.</div><div> </div>
 
-#### - MeasurementType
+### -field MeasurementType
 
 A <a href="..\pmi\ne-pmi-pmi_measurement_type.md">PMI_MEASUREMENT_TYPE</a> enumeration value that specifies the measurement type, such as whether input or output power is measured.
 
 
-#### - Accuracy
+### -field Accuracy
 
 A value, in units of thousandths of a percent, that specifies the reported accuracy of the power meter. For example, a value of 1,000 corresponds to a one percent accuracy rating.
 
 
-#### - SamplingPeriod
+### -field SamplingPeriod
 
 A value, in units of milliseconds, that specifies the current averaging period.
 
 
-#### - MinimumAverageInterval
+### -field MinimumAverageInterval
 
 A value, in units of milliseconds, that specifies the minimum averaging interval.
 
 
-#### - MaximumAverageInterval
+### -field MaximumAverageInterval
 
 A value, in units of milliseconds, that specifies the maximum averaging interval.
 
 
-#### - Hysteresis
+### -field Hysteresis
 
 A value, in units of milliseconds, that specifies the hysteresis value. This value indicates the margin that is built around the threshold and budget events. This value prevents the trigger of unnecessary events when the reading fluctuates very close to one of the thresholds.
 
 
-#### - Writeable
+### -field Writeable
 
 A Boolean value that indicates whether the budgeting information is read/write (TRUE) or read-only (FALSE).
 
 
-#### - MinBudget
+### -field MinBudget
 
 A value, in units of watts, that specifies the minimum supported power budget.
 
 
-#### - MaxBudget
+### -field MaxBudget
 
 A value, in units of watts, that specifies the maximum supported power budget.
 
 
-#### - ModelNumber
+### -field ModelNumber
 
 A null-terminated, Unicode string that contains the model number of the power meter.
 
 
-#### - SerialNumber
+### -field SerialNumber
 
 A null-terminated, Unicode string that contains the serial number of the power meter.
 
 
-#### - OEMInformation
+### -field OEMInformation
 
 A null-terminated, Unicode string that contains descriptive information about the power meter. This information is specific to the implementation by the original OEM.
 
@@ -197,11 +197,11 @@ If the query request completes successfully, the request returns a <a href="..\p
 
 ## -see-also
 
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
 <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
 <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
  
 

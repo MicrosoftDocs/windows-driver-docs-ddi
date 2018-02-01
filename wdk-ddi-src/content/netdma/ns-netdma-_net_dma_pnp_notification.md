@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a505077-dec6-47cc-8730-d68e19309d3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma/NET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION, _NET_DMA_PNP_NOTIFICATION, netvista.net_dma_pnp_notification, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, NET_DMA_PNP_NOTIFICATION
+ms.keywords: PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], NET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, netvista.net_dma_pnp_notification, _NET_DMA_PNP_NOTIFICATION, netdma/NET_DMA_PNP_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,13 +72,13 @@ typedef struct _NET_DMA_PNP_NOTIFICATION {
 
 
 
-#### - StructureRevision
+### -field StructureRevision
 
 The revision for this structure. The NetDMA provider driver must set this member to
      NET_DMA_PNP_NOTIFICATION_REVISION_1.
 
 
-#### - StructureSize
+### -field StructureSize
 
 The size, in bytes, of the notification structure. This size does not include the size of the
      notification specific data at 
@@ -86,14 +86,14 @@ The size, in bytes, of the notification structure. This size does not include th
      sizeof(NET_DMA_PNP_NOTIFICATION).
 
 
-#### - NotificationCode
+### -field NotificationCode
 
 A value that identifies the DMA provider event. This value must be one of the values from the 
-     <mshelp:link keywords="netvista.net_dma_pnp_notification_code" tabindex="0"><b>
-     NET_DMA_PNP_NOTIFICATION_CODE</b></mshelp:link> enumeration.
+     <a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">
+     NET_DMA_PNP_NOTIFICATION_CODE</a> enumeration.
 
 
-#### - Buffer
+### -field Buffer
 
 A pointer to notification-specific data, if any. NetDMA provider drivers set this member to <b>NULL</b>
      for 
@@ -101,7 +101,7 @@ A pointer to notification-specific data, if any. NetDMA provider drivers set thi
      <b>NetDmaNotificationProviderPowerUp</b> notifications.
 
 
-#### - BufferLength
+### -field BufferLength
 
 The length, in bytes, of the notification-specific data at the 
      <b>Buffer</b> member. NetDMA provider drivers set this member to zero for 

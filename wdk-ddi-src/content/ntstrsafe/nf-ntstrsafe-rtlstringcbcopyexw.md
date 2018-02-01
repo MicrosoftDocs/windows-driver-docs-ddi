@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 92a22ad9-f450-4156-a5e9-c765f94c2dbf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_NULL_ON_FAILURE, RtlStringCbCopyEx, RtlStringCbCopyExA, kernel.rtlstringcbcopyex, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, ntstrsafe/RtlStringCbCopyExW, ntstrsafe/RtlStringCbCopyExA, RtlStringCbCopyExW, STRSAFE_NO_TRUNCATION, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml
+ms.keywords: STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyEx, RtlStringCbCopyExA, kernel.rtlstringcbcopyex, STRSAFE_IGNORE_NULLS, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_NULL_ON_FAILURE, RtlStringCbCopyExW, ntstrsafe/RtlStringCbCopyExW, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCopyExA, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS RtlStringCbCopyExW(
 
 
 
-#### - pszDest [out, optional]
+### -param pszDest [out, optional]
 
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>. 
 
 
-#### - cbDest [in]
+### -param cbDest [in]
 
 The size, in bytes, of the destination buffer. The buffer must be large enough for the string and the terminating null character.
 
@@ -91,22 +91,22 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
 
-#### - pszSrc [in, optional]
+### -param pszSrc [in, optional]
 
 A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>. 
 
 
-#### - ppszDestEnd [out, optional]
+### -param ppszDestEnd [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, then after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting <b>NULL</b> string terminator. 
 
 
-#### - pcbRemaining [out, optional]
+### -param pcbRemaining [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including bytes used for the terminating null character.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 <table>

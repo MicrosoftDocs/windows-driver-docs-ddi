@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b5b9410-1243-4fd4-b02a-fc262abf18c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], NtOpenSymbolicLinkObject, kernel.zwopensymboliclinkobject, wdm/ZwOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject, wdm/NtOpenSymbolicLinkObject, k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml
+ms.keywords: kernel.zwopensymboliclinkobject, wdm/ZwOpenSymbolicLinkObject, NtOpenSymbolicLinkObject, wdm/NtOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml, ZwOpenSymbolicLinkObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,17 +71,17 @@ NTSTATUS ZwOpenSymbolicLinkObject(
 
 
 
-#### - LinkHandle [out]
+### -param LinkHandle [out]
 
 Pointer to a HANDLE variable that receives a handle to the symbolic link object.
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. The caller usually specified GENERIC_READ, so that the handle can be passed to <a href="..\wdm\nf-wdm-zwquerysymboliclinkobject.md">ZwQuerySymbolicLinkObject</a>. 
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
@@ -107,13 +107,13 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-zwquerysymboliclinkobject.md">ZwQuerySymbolicLinkObject</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwquerysymboliclinkobject.md">ZwQuerySymbolicLinkObject</a>
 
  
 

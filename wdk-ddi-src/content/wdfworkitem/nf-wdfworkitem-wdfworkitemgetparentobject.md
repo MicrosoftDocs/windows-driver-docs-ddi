@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6ebb1955-1ffc-4869-84c8-69d672ac782e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfworkitemgetparentobject, WdfWorkItemGetParentObject method, DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, PFN_WDFWORKITEMGETPARENTOBJECT, wdfworkitem/WdfWorkItemGetParentObject, kmdf.wdfworkitemgetparentobject, WdfWorkItemGetParentObject
+ms.keywords: WdfWorkItemGetParentObject method, wdf.wdfworkitemgetparentobject, DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, WdfWorkItemGetParentObject, kmdf.wdfworkitemgetparentobject, PFN_WDFWORKITEMGETPARENTOBJECT, wdfworkitem/WdfWorkItemGetParentObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFOBJECT WdfWorkItemGetParentObject(
 
 
 
-#### - WorkItem [in]
+### -param WorkItem [in]
 
 A handle to a framework work-item object that is obtained from a previous call to <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
 
@@ -98,9 +98,9 @@ For more information about work items, see <a href="https://docs.microsoft.com/e
 
 ## -see-also
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
  
 

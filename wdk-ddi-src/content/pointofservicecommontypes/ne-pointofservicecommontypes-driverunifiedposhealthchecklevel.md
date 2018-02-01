@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 101a74c8-a0c2-4820-b9a1-41e39ee4cf11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/Interactive, pointofservicecommontypes/UnknownHealthCheckLevel, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/POSInternal, External, pointofservicecommontypes/External, Interactive, DriverUnifiedPosHealthCheckLevel enumeration, pos.unifiedposhealthchecklevel, DriverUnifiedPosHealthCheckLevel, UnknownHealthCheckLevel, POSInternal
+ms.keywords: UnknownHealthCheckLevel, POSInternal, DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/UnknownHealthCheckLevel, pos.unifiedposhealthchecklevel, pointofservicecommontypes/Interactive, DriverUnifiedPosHealthCheckLevel enumeration, Interactive, pointofservicecommontypes/External, pointofservicecommontypes/POSInternal, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel, External
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _DriverUnifiedPosHealthCheckLevel {
 
 
 
-#### - UnknownHealthCheckLevel
+### -field UnknownHealthCheckLevel
 
 The type of health check is not known.
 
 
-#### - POSInternal
+### -field POSInternal
 
 Performs a health check without altering the device. The device is tested by internal tests as far as possible.
 
 
-#### - External
+### -field External
 
 Performs a more thorough test which may affect the device. For example, a printer may produce some output.
 
 
-#### - Interactive
+### -field Interactive
 
 May display a dialog box that displays test options and results so that you can test the device interactively. 
 

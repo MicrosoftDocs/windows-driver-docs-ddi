@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68be1034-62f0-4444-b4c9-097277a7561f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration, WDF_REQUEST_SEND_OPTION_TIMEOUT, WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, wdfrequest/WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, DFRequestObjectRef_0344916f-2437-4c32-9e05-c8204ac4f925.xml, WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, wdfrequest/WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, wdfrequest/WDF_REQUEST_SEND_OPTION_TIMEOUT, wdfrequest/WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, kmdf.wdf_request_send_options_flags, wdfrequest/WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, wdf.wdf_request_send_options_flags, WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, wdfrequest/WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, _WDF_REQUEST_SEND_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, WDF_REQUEST_SEND_OPTIONS_FLAGS
+ms.keywords: WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration, wdf.wdf_request_send_options_flags, WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, DFRequestObjectRef_0344916f-2437-4c32-9e05-c8204ac4f925.xml, kmdf.wdf_request_send_options_flags, wdfrequest/WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, wdfrequest/WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, wdfrequest/WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, wdfrequest/WDF_REQUEST_SEND_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, _WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTION_TIMEOUT, wdfrequest/WDF_REQUEST_SEND_OPTION_TIMEOUT, wdfrequest/WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,32 +75,32 @@ typedef enum _WDF_REQUEST_SEND_OPTIONS_FLAGS {
 
 
 
-#### - WDF_REQUEST_SEND_OPTION_TIMEOUT
+### -field WDF_REQUEST_SEND_OPTION_TIMEOUT
 
 If the driver sets this flag, the <b>Timeout</b> member of the WDF_REQUEST_SEND_OPTIONS structure is valid.
 
 
-#### - WDF_REQUEST_SEND_OPTION_SYNCHRONOUS
+### -field WDF_REQUEST_SEND_OPTION_SYNCHRONOUS
 
 If the driver sets this flag, the framework handles the associated I/O request synchronously. (The driver does not have to set this flag if it is calling an object method whose name ends with "Synchronously", such as <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md">WdfIoTargetSendReadSynchronously</a>.)
 
 
-#### - WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE
+### -field WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE
 
 If the driver sets this flag, the framework sends the I/O request to the I/O target, regardless of the I/O target's state. If not set, the framework queues the request if the target is stopped. Setting this flag allows a driver to send a request, such as a request to reset a USB pipe, to a device after the driver has called <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>.
 
 
-#### - WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
+### -field WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
 
 If the driver sets this flag, the driver is sending the request asynchronously and does not need to be notified when the request is completed or canceled. The framework sends the I/O request to the I/O target, regardless of the I/O target's state. The driver does not set a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function or call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> for the request. If the driver sets this flag, it cannot set any other flags. For more information about this flag, see the following Remarks section.
 
 
-#### - WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT
+### -field WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT
 
 This flag applies to UMDF only. If set, and if the I/O request type is <b>WdfRequestTypeCreate</b>, the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> method attempts to pass the client's impersonation level to the driver's I/O target. The <b>WdfRequestSend</b> method returns an error code if the impersonation attempt fails, unless the driver also sets the <b>WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE</b> flag.
 
 
-#### - WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE
+### -field WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE
 
 This flag applies to UMDF only. If set, the framework still sends the request even if impersonation fails.  You can use this value only with <b>WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT</b>.
 
@@ -134,9 +134,9 @@ The request type is <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
-
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
 
  
 

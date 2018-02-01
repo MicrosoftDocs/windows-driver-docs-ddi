@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C7D7935C-0536-43E6-8924-1DC13B258007
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBFN_INTERFACE_ATTACH structure [Buses], PUSBFN_INTERFACE_ATTACH structure pointer [Buses], _USBFN_INTERFACE_ATTACH, usbfnattach/PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach, PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH
+ms.keywords: buses.usbfn_interface_attach, usbfnattach/USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], PUSBFN_INTERFACE_ATTACH structure pointer [Buses], _USBFN_INTERFACE_ATTACH, usbfnattach/PUSBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _USBFN_INTERFACE_ATTACH {
 
 
 
-#### - InterfaceHeader
+### -field InterfaceHeader
 
 The interface version number.
 
 
-#### - GetAttachAction
+### -field GetAttachAction
 
 A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a> callback function.
 
 
-#### - GetAttachActionAbortOperation
+### -field GetAttachActionAbortOperation
 
 A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action_abort.md">USBFN_GET_ATTACH_ACTION_ABORT</a> callback function.
 
 
-#### - SetDeviceState
+### -field SetDeviceState
 
 A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfnattach-usbfn_set_device_state.md">USBFN_SET_DEVICE_STATE</a> callback function.
 

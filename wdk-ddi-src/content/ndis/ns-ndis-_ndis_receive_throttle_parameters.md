@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad51cc5c-7385-405b-8b65-20b079a3265c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_receive_throttle_parameters, ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS, _NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS
+ms.keywords: NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_THROTTLE_PARAMETERS, _NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS, netvista.ndis_receive_throttle_parameters, ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_RECEIVE_THROTTLE_PARAMETERS {
 
 
 
-#### - MaxNblsToIndicate
+### -field MaxNblsToIndicate
 
 The maximum number of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that a miniport
@@ -78,7 +78,7 @@ The maximum number of
      indicate all of the NET_BUFFER_LIST structures that it has.
 
 
-#### - MoreNblsPending
+### -field MoreNblsPending
 
 A value that, when <b>TRUE</b>, specifies that the miniport driver has NET_BUFFER_LIST structures pending
      after it processed the maxim number or structures that NDIS requested in the 
@@ -94,11 +94,11 @@ A value that, when <b>TRUE</b>, specifies that the miniport driver has NET_BUFFE
 The 
     <i>ReceiveThrottleParameters</i> parameters of the 
     <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> and the 
-    <mshelp:link keywords="netvista.miniportmessageinterruptdpc" tabindex="0"><i>
-    MiniportMessageInterruptDPC</i></mshelp:link> DPC handler functions point to an NDIS_RECEIVE_THROTTLE_PARAMETERS
+    <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">
+    MiniportMessageInterruptDPC</a> DPC handler functions point to an NDIS_RECEIVE_THROTTLE_PARAMETERS
     structure. This structure specifies the parameters of 
-    <mshelp:link keywords="netvista.receive_side_throttle_in_ndis_6_20" tabindex="0">Receive Side Throttle
-    (RST)</mshelp:link> in NDIS 6.20 and later.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567241">Receive Side Throttle
+    (RST)</a> in NDIS 6.20 and later.
 
 On entry to the DPC handler, the 
     <b>MaxNblsToIndicate</b> member of the NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum
@@ -144,8 +144,8 @@ The miniport driver should set
     interrupt-processing for all of the interrupt sources that it has. If there are packets in the receive
     queue, it should indicate at most 
     <b>MaxNblsToIndicate</b> NET_BUFFER_LIST structures to NDIS with the 
-    <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-    NdisMIndicateReceiveNetBufferLists</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    NdisMIndicateReceiveNetBufferLists</a> function.
 
 If the miniport driver is using multiple MSI messages to differentiate different interrupt sources, it
     should ignore the 
@@ -160,12 +160,12 @@ If the miniport driver is using multiple MSI messages to differentiate different
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
 <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

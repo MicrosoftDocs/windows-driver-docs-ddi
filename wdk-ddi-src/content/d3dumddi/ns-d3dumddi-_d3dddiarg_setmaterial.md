@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66c35c60-9f6c-44d7-b6d5-9d50a3e33c2e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETMATERIAL structure [Display Devices], UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, _D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial, d3dumddi/D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL
+ms.keywords: "_D3DDDIARG_SETMATERIAL, d3dumddi/D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial, UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, D3DDDIARG_SETMATERIAL structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _D3DDDIARG_SETMATERIAL {
 
 
 
-#### - Diffuse
+### -field Diffuse
 
 [in] A D3DCOLORVALUE structure that indicates the diffuse color of the material. For more information about D3DCOLORVALUE, see the Microsoft Windows SDK documentation.
 
 
-#### - Ambient
+### -field Ambient
 
 [in] A D3DCOLORVALUE structure that indicates the ambient color of the material.
 
 
-#### - Specular
+### -field Specular
 
 [in] A D3DCOLORVALUE structure that indicates the specular color of the material.
 
 
-#### - Emissive
+### -field Emissive
 
 [in] A D3DCOLORVALUE structure that indicates the emissive color of the material.
 
 
-#### - Power
+### -field Power
 
 [in] A FLOAT value that indicates the sharpness of specular highlights. To turn off specular highlights for a material, set <b>Power</b> to 0 (setting <b>Specular</b> to 0 is not enough).
 

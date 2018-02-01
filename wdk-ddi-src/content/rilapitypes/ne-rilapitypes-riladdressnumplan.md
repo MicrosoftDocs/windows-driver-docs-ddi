@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fa25ce95-3eed-41f3-a0eb-5c290fa032e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_NUMPLAN_TELEX, netvista.riladdressnumplan, RILADDRESSNUMPLAN, rilapitypes/RIL_NUMPLAN_TELEX, rilapitypes/RILADDRESSNUMPLAN, RIL_NUMPLAN_PRIVATE, RIL_NUMPLAN_NATIONAL, RILADDRESSNUMPLAN enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_NUMPLAN_TELEPHONE, rilapitypes/RIL_NUMPLAN_DATA, RIL_NUMPLAN_ERMES, rilapitypes/RIL_NUMPLAN_NATIONAL, rilapitypes/RIL_NUMPLAN_PRIVATE, RIL_NUMPLAN_TELEPHONE, rilapitypes/RIL_NUMPLAN_ERMES, RIL_NUMPLAN_UNKNOWN, rilapitypes/RIL_NUMPLAN_UNKNOWN, RIL_NUMPLAN_DATA
+ms.keywords: RIL_NUMPLAN_TELEX, RIL_NUMPLAN_TELEPHONE, RIL_NUMPLAN_DATA, rilapitypes/RIL_NUMPLAN_DATA, rilapitypes/RIL_NUMPLAN_NATIONAL, rilapitypes/RIL_NUMPLAN_PRIVATE, rilapitypes/RIL_NUMPLAN_ERMES, netvista.riladdressnumplan, rilapitypes/RIL_NUMPLAN_UNKNOWN, rilapitypes/RILADDRESSNUMPLAN, rilapitypes/RIL_NUMPLAN_TELEX, RIL_NUMPLAN_PRIVATE, RIL_NUMPLAN_UNKNOWN, RIL_NUMPLAN_NATIONAL, RIL_NUMPLAN_ERMES, RILADDRESSNUMPLAN, RILADDRESSNUMPLAN enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_NUMPLAN_TELEPHONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,31 +77,31 @@ enum RILADDRESSNUMPLAN {
 
 
 
-#### - RIL_NUMPLAN_UNKNOWN
+### -field RIL_NUMPLAN_UNKNOWN
 
 
 
-#### - RIL_NUMPLAN_TELEPHONE
+### -field RIL_NUMPLAN_TELEPHONE
 
 
 
-#### - RIL_NUMPLAN_DATA
+### -field RIL_NUMPLAN_DATA
 
 
 
-#### - RIL_NUMPLAN_TELEX
+### -field RIL_NUMPLAN_TELEX
 
 
 
-#### - RIL_NUMPLAN_NATIONAL
+### -field RIL_NUMPLAN_NATIONAL
 
 
 
-#### - RIL_NUMPLAN_PRIVATE
+### -field RIL_NUMPLAN_PRIVATE
 
 
 
-#### - RIL_NUMPLAN_ERMES
+### -field RIL_NUMPLAN_ERMES
 
 
 

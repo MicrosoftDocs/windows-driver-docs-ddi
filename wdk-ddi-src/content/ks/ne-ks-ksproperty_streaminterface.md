@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_STREAMINTERFACE_HEADERSIZE, KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], stream.ksproperty_streaminterface, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, ks/KSPROPERTY_STREAMINTERFACE
+ms.keywords: stream.ksproperty_streaminterface, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, KSPROPERTY_STREAMINTERFACE, ks/KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE_HEADERSIZE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum  {
 
 
 
-#### - KSPROPERTY_STREAMINTERFACE_HEADERSIZE
+### -field KSPROPERTY_STREAMINTERFACE_HEADERSIZE
 
 Specify to query a pin for the size of the stream header that this pin uses.
 

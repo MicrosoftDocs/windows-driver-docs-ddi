@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ea97cc22-6057-427d-90c1-4f23ced932aa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winppi/GdiResetDCEMF, print.gdiresetdcemf, gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, GdiResetDCEMF, GdiResetDCEMF function [Print Devices]
+ms.keywords: winppi/GdiResetDCEMF, GdiResetDCEMF function [Print Devices], gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf, GdiResetDCEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ BOOL GdiResetDCEMF(
 
 
 
-#### - SpoolFileHandle
+### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
 
 
-#### - pCurrDM
+### -param pCurrDM
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetdevmodeforpage.md">GdiGetDevmodeForPage</a>.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aa383bc9-935d-4883-929d-4ea58a1bf2c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGVP_ABSOLUTE, rilapitypes/RIL_MSGVP_ENHANCED, netvista.rilmsgoutsubmitvpformat_2, RIL_MSGVP_ABSOLUTE, rilapitypes/RIL_MSGVP_MAX, rilapitypes/RIL_MSGVP_RELATIVE, RIL_MSGVP_MAX, rilapitypes/RILMSGOUTSUBMITVPFORMAT, RIL_MSGVP_RELATIVE, RILMSGOUTSUBMITVPFORMAT, RIL_MSGVP_ENHANCED
+ms.keywords: RILMSGOUTSUBMITVPFORMAT, RIL_MSGVP_RELATIVE, RIL_MSGVP_MAX, rilapitypes/RIL_MSGVP_MAX, netvista.rilmsgoutsubmitvpformat_2, rilapitypes/RILMSGOUTSUBMITVPFORMAT, rilapitypes/RIL_MSGVP_ABSOLUTE, RIL_MSGVP_ABSOLUTE, rilapitypes/RIL_MSGVP_ENHANCED, rilapitypes/RIL_MSGVP_RELATIVE, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_MSGVP_ENHANCED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,18 +75,18 @@ typedef enum _RILMSGOUTSUBMITVPFORMAT {
 
 
 
-#### - RIL_MSGVP_RELATIVE
+### -field RIL_MSGVP_RELATIVE
 
 
 
-#### - RIL_MSGVP_ENHANCED
+### -field RIL_MSGVP_ENHANCED
 
 
 
-#### - RIL_MSGVP_ABSOLUTE
+### -field RIL_MSGVP_ABSOLUTE
 
 
 
-#### - RIL_MSGVP_MAX
+### -field RIL_MSGVP_MAX
 
 

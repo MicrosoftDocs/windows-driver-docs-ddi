@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpAddAttributeToTree, bltooth.sdpaddattributetotree, sdplib/SdpAddAttributeToTree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, SdpAddAttributeToTree function [Bluetooth Devices]
+ms.keywords: SdpAddAttributeToTree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, bltooth.sdpaddattributetotree, sdplib/SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,7 +78,7 @@ NTSTATUS SdpAddAttributeToTree(
 TBD
 
 
-#### - AttribId [in]
+### -param AttribId [in]
 
 The identifier of the attribute to attach.
 
@@ -88,7 +88,7 @@ The identifier of the attribute to attach.
 TBD
 
 
-#### - tag [in]
+### -param tag [in]
 
 Specifies a 4-byte 
      <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
@@ -96,15 +96,15 @@ Specifies a 4-byte
      <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
+#### - AttribValueNode [in]
+
+Pointer to the SDP node to be added as an attribute.
+
+
 #### - Root [in]
 
 The top level of the SDP record to which the 
      <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.
-
-
-#### - AttribValueNode [in]
-
-Pointer to the SDP node to be added as an attribute.
 
 
 ## -returns
@@ -121,8 +121,8 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 For more information about the tree structure, see 
-    <mshelp:link keywords="bltooth.converting_sdp_records_to_a_tree_structure" tabindex="0">Converting SDP Records to a
-    Tree Structure</mshelp:link>.
+    <a href="https://msdn.microsoft.com/762cf68b-0082-4b9e-8f24-ff19ecf6f8bd">Converting SDP Records to a
+    Tree Structure</a>.
 
 
 

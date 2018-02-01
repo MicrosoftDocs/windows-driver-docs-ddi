@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2168a4d8-a33d-4534-b4e8-126a41e528f5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: netdispumdddi/MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], *PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS, _MIRACAST_CALLBACKS, display.miracast_callbacks
+ms.keywords: PMIRACAST_CALLBACKS structure pointer [Display Devices], display.miracast_callbacks, PMIRACAST_CALLBACKS, netdispumdddi/MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS, _MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], MIRACAST_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _MIRACAST_CALLBACKS {
 
 
 
-#### - ReportSessionStatus
+### -field ReportSessionStatus
 
 A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_report_session_status.md">ReportSessionStatus</a>   function.
 
 
-#### - MiracastIoControl
+### -field MiracastIoControl
 
 A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>   function.
 
 
-#### - ReportStatistic
+### -field ReportStatistic
 
 A pointer to the    <a href="..\netdispumdddi\nc-netdispumdddi-pfn_report_statistic.md">ReportStatistic</a> function.
 
 
-#### - GetNextChunkData
+### -field GetNextChunkData
 
 A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>    function.
 
 
-#### - RegisterForDataRateNotifications
+### -field RegisterForDataRateNotifications
 
 A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a>    function.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9F267427-8D70-45D5-A8E6-67A1C6B73CDB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, buses.ucx_controller_transport_characteristics, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure [Buses], _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure pointer [Buses]
+ms.keywords: "_UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure [Buses], ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, buses.ucx_controller_transport_characteristics, ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure pointer [Buses], PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS {
 
 
 
-#### - TransportCharacteristicsFlags
+### -field TransportCharacteristicsFlags
 
 A bitmask that indicates to the client driver the transport characteristics that are available and are returned in this structure. 
 
@@ -89,7 +89,7 @@ If USB_TRANSPORT_CHARACTERISTICS_BANDWIDTH_AVAILABLE
 is set, <b>MaxPotentialBandwidth</b> contains valid information. Otherwise, it must not be used by the client driver.  
 
 
-#### - CurrentRoundtripLatencyInMilliSeconds
+### -field CurrentRoundtripLatencyInMilliSeconds
 
 Contains the current round-trip delay in milliseconds from the time a non-isochronous transfer is received by the USB driver stack to the time that the transfer is completed.  
 
@@ -97,7 +97,7 @@ For MA-USB, the underlying network could be WiFi, WiGig, Ethernet etc. The delay
 
 
 
-#### - MaxPotentialBandwidth
+### -field MaxPotentialBandwidth
 
 Contains the total bandwidth of the host controller’s shared transport. 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, wdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, GetNameAt, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt method, umdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore::GetNameAt
+ms.keywords: wudfddi/IWDFNamedPropertyStore::GetNameAt, GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, IWDFNamedPropertyStore, umdf.iwdfnamedpropertystore_getnameat, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt method, IWDFNamedPropertyStore::GetNameAt, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, wdf.iwdfnamedpropertystore_getnameat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT GetNameAt(
 
 
 
-#### - iProp [in]
+### -param iProp [in]
 
 The zero-based index of the property that <b>GetNameAt</b> retrieves the name from.
 
 
-#### - ppwszName [out]
+### -param ppwszName [out]
 
 A pointer to a variable that receives a pointer to a <b>NULL</b>-terminated string that contains the name of the property. 
 

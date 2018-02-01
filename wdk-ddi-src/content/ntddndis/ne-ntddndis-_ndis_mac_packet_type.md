@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cfa8fa4-fab0-4f94-abc1-5c7900af208b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisMacPacketTypeUnicast, *PNDIS_MAC_PACKET_TYPE, ntddndis/NDIS_MAC_PACKET_TYPE, NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeMaximum, NdisMacPacketTypeUnicast, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisMacPacketTypeMulticast, ntddndis/NdisMacPacketTypeBroadcast, NdisMacPacketTypeMaximum, PNDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeUndefined, _NDIS_MAC_PACKET_TYPE, NdisMacPacketTypeUndefined, ntddndis/PNDIS_MAC_PACKET_TYPE, netvista.ndis_mac_packet_type, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisMacPacketTypeMulticast
+ms.keywords: NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisMacPacketTypeUndefined, *PNDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeMaximum, NdisMacPacketTypeMulticast, PNDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeMulticast, NdisMacPacketTypeBroadcast, netvista.ndis_mac_packet_type, NdisMacPacketTypeUnicast, NdisMacPacketTypeMaximum, _NDIS_MAC_PACKET_TYPE, ntddndis/PNDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeUnicast, ntddndis/NDIS_MAC_PACKET_TYPE, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisMacPacketTypeUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,27 +71,27 @@ typedef enum _NDIS_MAC_PACKET_TYPE {
 
 
 
-#### - NdisMacPacketTypeUndefined
+### -field NdisMacPacketTypeUndefined
 
 An undefined MAC packet type.
 
 
-#### - NdisMacPacketTypeUnicast
+### -field NdisMacPacketTypeUnicast
 
 A unicast MAC packet type.
 
 
-#### - NdisMacPacketTypeMulticast
+### -field NdisMacPacketTypeMulticast
 
 A multicast MAC packet type.
 
 
-#### - NdisMacPacketTypeBroadcast
+### -field NdisMacPacketTypeBroadcast
 
 A broadcast MAC packet type.
 
 
-#### - NdisMacPacketTypeMaximum
+### -field NdisMacPacketTypeMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -101,15 +101,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The <b>NDIS_MAC_PACKET_TYPE</b> enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
 
  
 

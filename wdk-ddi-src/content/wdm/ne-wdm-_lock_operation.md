@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: wdm/LOCK_OPERATION, IoWriteAccess, IoReadAccess, ifsk.lock_operation, IoModifyAccess, wdm/IoReadAccess, LOCK_OPERATION, wdm/IoModifyAccess, _LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], wdm/IoWriteAccess
+ms.keywords: wdm/IoReadAccess, IoModifyAccess, LOCK_OPERATION, wdm/IoModifyAccess, IoWriteAccess, _LOCK_OPERATION, wdm/IoWriteAccess, IoReadAccess, LOCK_OPERATION enumeration [Installable File System Drivers], ifsk.lock_operation, wdm/LOCK_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,26 +70,26 @@ typedef enum  {
 
 
 
-#### - IoReadAccess
+### -field IoReadAccess
 
 This value indicates that a driver  can examine the contents of a buffer but cannot change the contents.
 
 
-#### - IoWriteAccess
+### -field IoWriteAccess
 
 This value indicates that a driver can examine and change the contents of a buffer. 
 
 
-#### - IoModifyAccess
+### -field IoModifyAccess
 
 This value indicates that a driver can examine and change the contents of a buffer.
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
-
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
 
  
 

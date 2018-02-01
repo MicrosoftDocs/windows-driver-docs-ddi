@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, winsplp/GetPrintProcessorCapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml
+ms.keywords: print.getprintprocessorcapabilities, winsplp/GetPrintProcessorCapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,29 +72,29 @@ DWORD GetPrintProcessorCapabilities(
 
 
 
-#### - pValueName [in]
+### -param pValueName [in]
 
 Caller-supplied pointer to a string that represents a data type that is supported by the print processor. The string pointer must be of type LPWSTR.
 
 
-#### - dwAttributes [in]
+### -param dwAttributes [in]
 
 Caller-supplied attributes flags. Refer to the <b>Attributes</b> member of PRINTER_INFO_<i>x</i> structures (described in the Microsoft Windows SDK documentation).
 
 
-#### - pData [out]
+### -param pData [out]
 
 Caller-supplied pointer to a PRINTPROCESSOR_CAPS_1 or PRINTPROCESSOR_CAPS_2 structure (described in the Windows SDK documentation).
 
 
-#### - nSize [in]
+### -param nSize [in]
 
 Caller-supplied value that represents the size of the buffer pointed to by <i>pData</i>.
 
 If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), this function should supply a value that is equal to sizeof(PRINTPROCESSOR_CAPS_1) or sizeof(PRINTPROCESSOR_CAPS_2), depending on which structure is supported by the print processor.
 <div class="alert"><b>Note</b>    If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), the winprint print processor will supply a value of sizeof(PRINTPROCESSOR_CAPS_2) for Windows Vista operating systems, or sizeof(PRINTPROCESSOR_CAPS_1) for earlier operating system versions.</div><div> </div>
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 Caller-supplied pointer to a location to receive the minimum required size for the buffer pointed to by <i>pData</i>.
 

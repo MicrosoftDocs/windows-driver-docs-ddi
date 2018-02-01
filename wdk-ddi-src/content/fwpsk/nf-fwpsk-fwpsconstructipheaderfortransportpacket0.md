@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: badb7e91-1d5f-42c3-973b-c7d756d24a01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsConstructIpHeaderForTransportPacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml
+ms.keywords: fwpsk/FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], FwpsConstructIpHeaderForTransportPacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml, netvista.fwpsconstructipheaderfortransportpacket0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,7 @@ NTSTATUS NTAPI FwpsConstructIpHeaderForTransportPacket0(
 
 
 
-#### - netBufferList [in, out]
+### -param netBufferList [in, out]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
@@ -97,7 +97,7 @@ A pointer to a
 TBD
 
 
-#### - addressFamily [in]
+### -param addressFamily [in]
 
 One of the following address families:
      
@@ -115,14 +115,14 @@ The IPv4 address family.
 The IPv6 address family.
 
 
-#### - sourceAddress [in]
+### -param sourceAddress [in]
 
 A pointer to the source IP address that will be part of the IP header to be constructed. For IPv4,
      the address is 4 bytes. For IPv6, the address is 16 bytes. The source address bytes are always in
      network byte order.
 
 
-#### - remoteAddress [in]
+### -param remoteAddress [in]
 
 A pointer to a buffer that specifies the remote IP address that will be part of the IP header to
      be constructed.
@@ -133,7 +133,7 @@ The buffer can contain an IPv4 address (4 bytes) or an IPv6 address (16 bytes), 
      <i>addressFamily</i> parameter.
 
 
-#### - nextProtocol [in]
+### -param nextProtocol [in]
 
 Specifies the IPPROTO protocol type of the new IP header to be constructed. For more information
      on the IPPROTO enumeration, see 
@@ -141,17 +141,17 @@ Specifies the IPPROTO protocol type of the new IP header to be constructed. For 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>.
 
 
-#### - endpointHandle [in, optional]
+### -param endpointHandle [in, optional]
 
 An optional handle that indicates the stack transport endpoint in the send data path into which
      the packet is to be injected. This endpoint handle is provided to a callout through the 
      <b>transportEndpointHandle</b> member of the 
-     <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-     FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link> structure that is passed to the callout driver's 
+     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+     FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
 
 
-#### - controlData [in, optional]
+### -param controlData [in, optional]
 
 An optional pointer to a buffer that contains socket control data specified by the 
      <b>WSASendMsg</b> function, which is described in the Microsoft Windows SDK documentation. For
@@ -161,8 +161,8 @@ An optional pointer to a buffer that contains socket control data specified by t
 
 If present, socket control data is provided to a callout with the 
      <b>controlData</b> member of the 
-     <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-     FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link> structure that is passed to the callout driver's 
+     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+     FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
 
 If socket control data is not <b>NULL</b>, it must be deep-copied in the callout driver's implementation of
@@ -172,28 +172,28 @@ If socket control data is not <b>NULL</b>, it must be deep-copied in the callout
      called.
 
 
-#### - controlDataLength [in]
+### -param controlDataLength [in]
 
 The length, in bytes, of the 
      <i>controlData</i> parameter.
 
 
-#### - flags [in]
+### -param flags [in]
 
 Reserved. Callout drivers must set this parameter to zero.
 
 
-#### - reserved
+### -param reserved
 
 Reserved. Callout drivers must set this parameter to <b>NULL</b>.
 
 
-#### - interfaceIndex [in, optional]
+### -param interfaceIndex [in, optional]
 
 The index of the interface on which the original packet data was received. A callout driver should use the value of the interface index that is passed as one of the incoming data values to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for this parameter. This parameter is optional and can be zero.
 
 
-#### - subInterfaceIndex [in, optional]
+### -param subInterfaceIndex [in, optional]
 
 The index of the subinterface on which the original packet data was received. A callout driver
      should use the value of the subinterface index that is passed as one of the incoming data values to its 
@@ -210,8 +210,8 @@ If the NET_BUFFER_LIST structure pointed to by
      <i>NetBufferList</i> does not contain an IP header, 
      <i>headerIncludeHeaderSize</i> is zero. Otherwise, the value of this parameter is equal to the 
      <b>ipHeaderSize</b> member of the 
-     <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-     FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link> structure that is passed to the callout driver's 
+     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+     FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function. Note that
      extension headers for an existing IPv6 header will be removed when this function is called, although
      IPv4 options will be preserved. For more information, see Remarks.
@@ -295,8 +295,8 @@ For a header-include session; for example, to filter Generic Routing Encapsulati
 <ol>
 <li>
 Clone the net buffer list by calling the 
-      <mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
-      FwpsAllocateCloneNetBufferList0</b></mshelp:link> function.
+      <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+      FwpsAllocateCloneNetBufferList0</a> function.
 
 </li>
 <li>
@@ -331,21 +331,21 @@ Call
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportreceiveasync0.md">
+   FwpsInjectTransportReceiveAsync0</a>
 
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.fwpsinjecttransportreceiveasync0" tabindex="0"><b>
-   FwpsInjectTransportReceiveAsync0</b></mshelp:link>
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a>
 
  
 

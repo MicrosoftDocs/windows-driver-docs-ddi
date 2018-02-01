@@ -72,17 +72,17 @@ _Check_return_ HRESULT APIENTRY* LogMarkerStringTableEntry(
 
 
 
-#### - hLog
+### -param hLog
 
 A handle to the ETW log that is to be written to. Must be the same <i>hLog</i> handle passed to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_logstringtable.md">LogMarkerStringTable</a> function.
 
 
-#### - StringIndex
+### -param StringIndex
 
 The offset, in bytes, of the string table entry pointed to by <b>Info</b>. Can be negative if the string is passed along with the marker event.
 
 
-#### - Info
+### -param Info
 
 A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 

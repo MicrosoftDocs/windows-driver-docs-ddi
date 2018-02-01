@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64bb049a-6b8a-470f-8269-8a168761e388
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetPoolFromNetBuffer, netvista.ndisgetpoolfromnetbuffer, NdisGetPoolFromNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBuffer, ndis_netbuf_functions_ref_ae9f36c7-ab1c-4ea4-9721-2fd15aabc667.xml
+ms.keywords: ndis_netbuf_functions_ref_ae9f36c7-ab1c-4ea4-9721-2fd15aabc667.xml, NdisGetPoolFromNetBuffer, NdisGetPoolFromNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBuffer, netvista.ndisgetpoolfromnetbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NDIS_HANDLE NdisGetPoolFromNetBuffer(
 
 
 
-#### - NetBuffer [in]
+### -param NetBuffer [in]
 
 A pointer to a previously allocated 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.

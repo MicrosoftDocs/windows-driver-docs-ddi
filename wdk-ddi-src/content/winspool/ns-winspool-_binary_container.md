@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winspool/PBINARY_CONTAINER, winspool/BINARY_CONTAINER, PBINARY_CONTAINER, PBINARY_CONTAINER structure pointer [Print Devices], spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, *PBINARY_CONTAINER, BINARY_CONTAINER, _BINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], print.binary_container
+ms.keywords: winspool/BINARY_CONTAINER, _BINARY_CONTAINER, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, winspool/PBINARY_CONTAINER, print.binary_container, PBINARY_CONTAINER structure pointer [Print Devices], PBINARY_CONTAINER, *PBINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], BINARY_CONTAINER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _BINARY_CONTAINER {
 
 
 
-#### - cbBuf
+### -field cbBuf
 
 Specifies the number of bytes of binary data in the <b>pData</b> member.
 
 
-#### - pData
+### -field pData
 
 Pointer to a buffer that contains the binary data.
 

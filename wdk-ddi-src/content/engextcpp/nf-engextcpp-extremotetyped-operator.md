@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: operator* method [Windows Debugging], ExtRemoteTyped interface, operator* method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], operator* method, EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, ExtRemoteTyped::operator*, debugger.extremotetyped_operator_, operator*, ExtRemoteTyped
+ms.keywords: ExtRemoteTyped::operator*, ExtRemoteTyped, operator* method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, operator* method [Windows Debugging], debugger.extremotetyped_operator_, ExtRemoteTyped interface [Windows Debugging], operator* method, operator*
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

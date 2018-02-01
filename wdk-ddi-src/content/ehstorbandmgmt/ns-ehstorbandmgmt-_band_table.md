@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.band_table, *PBAND_TABLE, ehstorbandmgmt/PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], BAND_TABLE structure [Storage Devices], PBAND_TABLE, _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, BAND_TABLE
+ms.keywords: ehstorbandmgmt/PBAND_TABLE, _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, BAND_TABLE, PBAND_TABLE, storage.band_table, *PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], BAND_TABLE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _BAND_TABLE {
 
 
 
-#### - StructSize
+### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(BAND_TABLE).
 
 
-#### - BandTableOffset
+### -field BandTableOffset
 
 The offset, in bytes, to the start of an array of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a> structures.
 
 
-#### - BandTableEntryCount
+### -field BandTableEntryCount
 
 The number of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a> returned in the array at <b>BandTableOffset</b>.
 
 
-#### - BandTableEntrySize
+### -field BandTableEntrySize
 
 The size of each entry, in bytes, in the array at <b>BandTableOffset</b>. Instead of using the value of <b>sizeof</b>(BAND_TABLE_ENTRY), callers must use <b>BandTableEntrySize</b> when advancing to the next element in the band table array.
 

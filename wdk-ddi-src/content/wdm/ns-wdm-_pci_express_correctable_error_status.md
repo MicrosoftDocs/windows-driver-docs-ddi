@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 24d10f3a-5188-4dda-8e4e-1dc7ae2ddc88
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], PPCI_CORRECTABLE_ERROR_STATUS, *PPCI_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PCI.pci_express_correctable_error_status
+ms.keywords: PPCI_CORRECTABLE_ERROR_STATUS, _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PCI.pci_express_correctable_error_status, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, *PPCI_CORRECTABLE_ERROR_STATUS, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, wdm/PPCI_CORRECTABLE_ERROR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,42 +86,42 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
 
 ### -field DUMMYSTRUCTNAME.ReceiverError
 
- 
+A single bit that indicates that a receiver error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved1
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.BadTLP
 
- 
+A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.BadDLLP
 
- 
+A single bit that indicates that a bad data link layer packet (DLLP) error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.ReplayNumRollover
 
- 
+A single bit that indicates that the counter that counts the number of times the retry buffer has been re-transmitted has rolled over.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved2
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.ReplayTimerTimeout
 
- 
+A single bit that indicates that the replay timer has timed out.
 
 
 ### -field DUMMYSTRUCTNAME.AdvisoryNonFatalError
 
- 
+A single bit that indicates that an advisory non-fatal error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.CorrectedInternalError
@@ -136,57 +136,12 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
 
 ### -field DUMMYSTRUCTNAME.Reserved3
 
- 
+Reserved.
 
 
-#### - AsULONG
+### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure.
-
-
-#### - ReceiverError
-
-A single bit that indicates that a receiver error has occurred.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - BadTLP
-
-A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
-
-
-#### - BadDLLP
-
-A single bit that indicates that a bad data link layer packet (DLLP) error has occurred.
-
-
-#### - ReplayNumRollover
-
-A single bit that indicates that the counter that counts the number of times the retry buffer has been re-transmitted has rolled over.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - ReplayTimerTimeout
-
-A single bit that indicates that the replay timer has timed out.
-
-
-#### - AdvisoryNonFatalError
-
-A single bit that indicates that an advisory non-fatal error has occurred.
-
-
-#### - Reserved3
-
-Reserved.
 
 
 ## -remarks
@@ -202,9 +157,9 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="ht
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
  
 

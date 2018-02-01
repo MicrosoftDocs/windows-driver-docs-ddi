@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportfreeworker, StorPortFreeWorker routine [Storage Devices], storport/StorPortFreeWorker, StorPortFreeWorker
+ms.keywords: storport/StorPortFreeWorker, StorPortFreeWorker, storage.storportfreeworker, StorPortFreeWorker routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ ULONG StorPortFreeWorker(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
@@ -162,9 +162,9 @@ Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longe
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
-
 <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
+<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
  
 

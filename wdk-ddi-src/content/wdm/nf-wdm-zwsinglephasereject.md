@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a653a980-8ad6-46e7-ad9d-f060ab333731
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtSinglePhaseReject, ZwSinglePhaseReject routine [Kernel-Mode Driver Architecture], wdm/ZwSinglePhaseReject, kernel.zwsinglephasereject, ZwSinglePhaseReject, NtSinglePhaseReject, ktm_ref_9bc69cd9-19ee-4f3e-b5c8-fea8ddb05e17.xml
+ms.keywords: wdm/NtSinglePhaseReject, ZwSinglePhaseReject, kernel.zwsinglephasereject, wdm/ZwSinglePhaseReject, ZwSinglePhaseReject routine [Kernel-Mode Driver Architecture], NtSinglePhaseReject, ktm_ref_9bc69cd9-19ee-4f3e-b5c8-fea8ddb05e17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS ZwSinglePhaseReject(
 
 
 
-#### - EnlistmentHandle [in]
+### -param EnlistmentHandle [in]
 
 A handle to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SUBORDINATE_RIGHTS access to the object.
 
 
-#### - TmVirtualClock [in, optional]
+### -param TmVirtualClock [in, optional]
 
 A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
@@ -156,9 +156,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 <a href="..\wdm\nf-wdm-tmsinglephasereject.md">TmSinglePhaseReject</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 

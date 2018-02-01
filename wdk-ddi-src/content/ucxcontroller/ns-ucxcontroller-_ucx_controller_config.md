@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9A4249B6-BFC2-42B4-BBA6-094BD78C98DE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_CONTROLLER_CONFIG structure [Buses], P_UCX_CONTROLLER_CONFIG, ucxcontroller/_UCX_CONTROLLER_CONFIG, *PUCX_CONTROLLER_CONFIG, _UCX_CONTROLLER_CONFIG, buses._ucx_controller_config, ucxcontroller/P_UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG structure pointer [Buses]
+ms.keywords: ucxcontroller/_UCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG structure pointer [Buses], *PUCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG structure [Buses], UCX_CONTROLLER_CONFIG, _UCX_CONTROLLER_CONFIG, ucxcontroller/P_UCX_CONTROLLER_CONFIG, buses._ucx_controller_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,112 +89,112 @@ typedef struct _UCX_CONTROLLER_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size in bytes of this structure.
 
 
-#### - NumberOfPresentedDeviceMgmtEvtCallbacks
+### -field NumberOfPresentedDeviceMgmtEvtCallbacks
 
 The number of device event callback functions provided by this structure.
 
 
-#### - EvtControllerQueryUsbCapability
+### -field EvtControllerQueryUsbCapability
 
 A pointer to an <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_query_usb_capability.md">EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY</a> callback function.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Do not use.
 
 
-#### - EvtControllerGetCurrentFrameNumber
+### -field EvtControllerGetCurrentFrameNumber
 
 A pointer to an <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_current_framenumber.md">EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER</a> call back function.
 
 
-#### - EvtControllerUsbDeviceAdd
+### -field EvtControllerUsbDeviceAdd
 
 A pointer to an <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a> callback function.
 
 
-#### - EvtControllerReset
+### -field EvtControllerReset
 
 A pointer to an <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_reset.md">EVT_UCX_CONTROLLER_RESET</a> callback function.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Do not use.
 
 
-#### - Reserved3
+### -field Reserved3
 
 Do not use.
 
 
-#### - Reserved4
+### -field Reserved4
 
 Do not use.
 
 
-#### - ParentBusType
+### -field ParentBusType
 
 The parent bus type of the USB controller.
 
 
-#### - PciDeviceInfo
+### -field PciDeviceInfo
 
 Information about the PCI USB controller (if present).
 
 
-#### - AcpiDeviceInfo
+### -field AcpiDeviceInfo
 
 Information about the advanced configuration and power interface (ACPI) USB controller (if present).
 
 
-#### - DeviceDescription
+### -field DeviceDescription
 
 A description for the device.
 
 
-#### - ManufacturerNameString
+### -field ManufacturerNameString
 
 String containing the manufacturer name.
 
 
-#### - ModelNameString
+### -field ModelNameString
 
 String containing the model name of the controller hardware.
 
 
-#### - ModelNumberString
+### -field ModelNumberString
 
 String containing the model number of the controller hardware.
 
 
-#### - EvtControllerGetTransportCharacteristics
+### -field EvtControllerGetTransportCharacteristics
 
 A pointer to an <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics.md">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
 
 
-#### - EvtControllerSetTransportCharacteristicsChangeNotification
+### -field EvtControllerSetTransportCharacteristicsChangeNotification
 
 A pointer to an <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_set_transport_characteristics_change_notification.md">EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a> callback function.
 
 
-#### - Reserved5
+### -field Reserved5
 
 Do not use.
 
 
-#### - Reserved6
+### -field Reserved6
 
 Do not use.
 
 
-#### - Reserved7
+### -field Reserved7
 
 Do not use.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21b1c6ef-b8f3-4230-bc3f-7ac19c6cb2d1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILMSGSERVICEINFO, ntddrilapitypes/RILMSGSERVICEINFO, netvista.rilmsgserviceinfo, RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: netvista.rilmsgserviceinfo, *LPRILMSGSERVICEINFO, RILMSGSERVICEINFO, ntddrilapitypes/RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _RILMSGSERVICEINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwMsgSupport
+### -field dwMsgSupport
 
 
 
-#### - dwStoreUsed
+### -field dwStoreUsed
 
 
 
-#### - dwStoreTotal
+### -field dwStoreTotal
 
 

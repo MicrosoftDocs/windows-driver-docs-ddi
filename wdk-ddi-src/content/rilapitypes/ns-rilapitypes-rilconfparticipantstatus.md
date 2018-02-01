@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3beafad2-7157-434a-a073-2b47026c8fc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilconfparticipantstatus_2, RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCONFPARTICIPANTSTATUS, *LPRILCONFPARTICIPANTSTATUS
+ms.keywords: "*LPRILCONFPARTICIPANTSTATUS, rilapitypes/RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS, netvista.rilconfparticipantstatus_2, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,34 +75,34 @@ typedef struct _RILCONFPARTICIPANTSTATUS {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - dwID
+### -field dwID
 
 
 
-#### - bCallTransfer
+### -field bCallTransfer
 
 
 
-#### - raAddress
+### -field raAddress
 
 
 
-#### - dwParticipantOp
+### -field dwParticipantOp
 
 
 
-#### - dwSIPStatus
+### -field dwSIPStatus
 
 

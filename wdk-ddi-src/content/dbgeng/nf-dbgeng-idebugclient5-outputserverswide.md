@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], OutputServersWide method, IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], dbgeng/IDebugClient5::OutputServersWide, IDebugClient5, OutputServersWide method [Windows Debugging], IDebugClient5 interface, OutputServersWide, debugger.outputserverswide
+ms.keywords: OutputServersWide, IDebugClient5::OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], debugger.outputserverswide, IDebugClient5 interface [Windows Debugging], OutputServersWide method, IDebugClient5, OutputServersWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,19 +69,19 @@ HRESULT OutputServersWide(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies the output control to use while outputting the servers. For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-#### - Machine [in]
+### -param Machine [in]
 
 Specifies the name of the computer whose servers will be listed.  <i>Machine</i> has the following form:
 
 \\<i>computername</i>
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bit-set that determines which servers to output.  The possible bit flags are:
 <table>
@@ -147,11 +147,11 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
 <a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 

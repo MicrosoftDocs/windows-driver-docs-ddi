@@ -69,17 +69,17 @@ VOID *PDXGK_POWER_NOTIFICATION(
 
 
 
-#### - GraphicsDeviceHandle
+### -param GraphicsDeviceHandle
 
 A handle to the graphics device.
 
 
-#### - NewGrfxPowerState
+### -param NewGrfxPowerState
 
 Indicates the new graphics power state.
 
 
-#### - PreNotification
+### -param PreNotification
 
 Indicates that a notification should be provided.
 

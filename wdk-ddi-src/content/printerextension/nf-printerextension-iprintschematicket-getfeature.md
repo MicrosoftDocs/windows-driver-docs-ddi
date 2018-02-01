@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2E65BDF2-9539-402B-AF19-8CBC84F9C018
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFeature method [Print Devices], IPrintSchemaTicket interface [Print Devices], GetFeature method, GetFeature method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket::GetFeature, GetFeature, printerextension/IPrintSchemaTicket::GetFeature, print.iprintschematicket_getfeature, IPrintSchemaTicket
+ms.keywords: GetFeature, IPrintSchemaTicket interface [Print Devices], GetFeature method, GetFeature method [Print Devices], printerextension/IPrintSchemaTicket::GetFeature, print.iprintschematicket_getfeature, IPrintSchemaTicket, IPrintSchemaTicket::GetFeature, GetFeature method [Print Devices], IPrintSchemaTicket interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,20 +70,20 @@ HRESULT GetFeature(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The base name of the <b>name</b> attribute value of the feature element.
 For example, for the Print Schema feature &lt;psf:Feature name="psk:JobOutputBin"&gt;, the base name of the feature is "JobOutputBin".
 
 
-#### - bstrNamespaceUri [in]
+### -param bstrNamespaceUri [in]
 
 The namespace URI of the <b>name</b> attribute value of the feature element.
 For example, the namespace URI of the public Print Schema feature "JobOutputBin" is "http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace defining the feature.
 
 
-#### - ppFeature [out, retval]
+### -param ppFeature [out, retval]
 
 The returned feature.
 
@@ -106,15 +106,15 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
+<a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
-<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
-<a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a>
+<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B7508B3B-DCE7-42F4-9257-E1E140625DA9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlsizetsub, RtlSizeTSub, ntintsafe/RtlSizeTSub, RtlSizeTSub function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlSizeTSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlSizeTSub, kernel.rtlsizetsub, RtlSizeTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlSizeTSub(
 
 
 
-#### - Minuend [in]
+### -param Minuend [in]
 
 The value from which <i>Subtrahend</i> is subtracted.
 
 
-#### - Subtrahend [in]
+### -param Subtrahend [in]
 
 The value to subtract from <i>Minuend</i>.
 
 
-#### - pResult [out]
+### -param pResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

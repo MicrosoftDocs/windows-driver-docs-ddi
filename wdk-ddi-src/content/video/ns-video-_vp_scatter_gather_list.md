@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 485a0e20-0fed-4055-985c-1ff6d5d1c3e9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST, _VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST structure pointer [Display Devices], VP_SCATTER_GATHER_LIST structure [Display Devices], video/PVP_SCATTER_GATHER_LIST, display.vp_scatter_gather_list, Video_Structs_0b59cadd-bf97-44c9-b987-d4dfc5eaaf15.xml
+ms.keywords: video/VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST structure pointer [Display Devices], *PVP_SCATTER_GATHER_LIST, display.vp_scatter_gather_list, VP_SCATTER_GATHER_LIST structure [Display Devices], video/PVP_SCATTER_GATHER_LIST, _VP_SCATTER_GATHER_LIST, Video_Structs_0b59cadd-bf97-44c9-b987-d4dfc5eaaf15.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _VP_SCATTER_GATHER_LIST {
 
 
 
-#### - NumberOfElements
+### -field NumberOfElements
 
 Specifies the number of scatter/gather elements in the <b>Elements</b> array member.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Elements
+### -field Elements
 
 Specifies the number of scatter/gather elements in the <b>Elements</b> array member.
 
@@ -96,9 +96,9 @@ The video port driver aggregates scatter/gather information in a VP_SCATTER_GATH
 
 ## -see-also
 
-<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
-
 <a href="..\video\ns-video-_vp_scatter_gather_element.md">VP_SCATTER_GATHER_ELEMENT</a>
+
+<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
 
  
 

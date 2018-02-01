@@ -77,42 +77,42 @@ BOOLEAN MouseIsr(
 
 
 
-#### - IsrContext [in]
+### -param IsrContext [in]
 
 Pointer to the filter device object of the driver that supplies this callback.
 
 
-#### - CurrentInput [in]
+### -param CurrentInput [in]
 
 Pointer to the input <a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a> structure being constructed by the ISR.
 
 
-#### - CurrentOutput [in]
+### -param CurrentOutput [in]
 
 Pointer to an <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a> structure, which specifies an array of bytes being written to the hardware device.
 
 
-#### - StatusByte [in]
+### -param StatusByte [in]
 
 Specifies a status byte that is read from I/O port 60 when the interrupt occurs.
 
 
-#### - Byte [in]
+### -param Byte [in]
 
 Specifies a data byte that is read from I/O port 64 when the interrupt occurs.
 
 
-#### - ContinueProcessing [in, out]
+### -param ContinueProcessing [in, out]
 
 Specifies, if <b>TRUE</b>, that processing in the I8042prt mouse ISR will continue after this callback completes. Otherwise, processing does not continue.
 
 
-#### - MouseState [in]
+### -param MouseState [in]
 
 Pointer to a <a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a> enumeration value, which identifies the state of mouse input.
 
 
-#### - ResetSubState [in]
+### -param ResetSubState [in]
 
 Pointer to MOUSE_RESET_SUBSTATE enumeration value, which identifies the mouse reset substate. See the Remarks section.
 
@@ -139,11 +139,11 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
-
 <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
 
 <a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
+
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
 

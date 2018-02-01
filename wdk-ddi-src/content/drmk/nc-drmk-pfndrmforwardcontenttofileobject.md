@@ -73,12 +73,12 @@ typedef PFNDRMFORWARDCONTENTTOFILEOBJECT DRMForwardContentToFileObject;
 
 
 
-#### - ContentId [in]
+### -param ContentId [in]
 
 This parameter is reserved for system use.
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 This parameter is reserved for system use.
 

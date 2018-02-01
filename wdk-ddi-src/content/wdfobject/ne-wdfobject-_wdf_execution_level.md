@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82b1fe8e-054c-4710-9a32-d620a62a070e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfobject/WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelInheritFromParent, kmdf.wdf_execution_level, DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, _WDF_EXECUTION_LEVEL, wdfobject/WDF_EXECUTION_LEVEL, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelPassive, WdfExecutionLevelDispatch, WDF_EXECUTION_LEVEL, wdf.wdf_execution_level, WDF_EXECUTION_LEVEL enumeration, WdfExecutionLevelPassive
+ms.keywords: kmdf.wdf_execution_level, WDF_EXECUTION_LEVEL, WdfExecutionLevelInheritFromParent, _WDF_EXECUTION_LEVEL, wdfobject/WDF_EXECUTION_LEVEL, wdfobject/WdfExecutionLevelPassive, DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, wdfobject/WdfExecutionLevelInvalid, WdfExecutionLevelPassive, WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, wdf.wdf_execution_level, WDF_EXECUTION_LEVEL enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_EXECUTION_LEVEL {
 
 
 
-#### - WdfExecutionLevelInvalid
+### -field WdfExecutionLevelInvalid
 
 Reserved for system use.
 
 
-#### - WdfExecutionLevelInheritFromParent
+### -field WdfExecutionLevelInheritFromParent
 
 The framework uses the maximum IRQL value of the object's parent, unless the object is one that requires IRQL = DISPATCH_LEVEL (such as a DPC object). This value is the default if a driver does not specify a WDF_EXECUTION_LEVEL-typed value.
 
 
-#### - WdfExecutionLevelPassive
+### -field WdfExecutionLevelPassive
 
 The framework always calls the object's callback functions at IRQL = PASSIVE_LEVEL.
 
 
-#### - WdfExecutionLevelDispatch
+### -field WdfExecutionLevelDispatch
 
 The framework calls the object's callback functions at IRQL &lt;= DISPATCH_LEVEL. Not available in UMDF.
 

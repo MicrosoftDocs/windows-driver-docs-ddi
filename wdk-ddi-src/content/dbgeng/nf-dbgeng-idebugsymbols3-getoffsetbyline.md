@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 347e0d45-8be1-4e4e-8a6a-44d5c914bf0f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getoffsetbyline, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine, dbgeng/IDebugSymbols2::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetOffsetByLine, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3::GetOffsetByLine, dbgeng/IDebugSymbols3::GetOffsetByLine
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols3::GetOffsetByLine, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols3, GetOffsetByLine method [Windows Debugging], GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::GetOffsetByLine, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, dbgeng/IDebugSymbols3::GetOffsetByLine, dbgeng/IDebugSymbols::GetOffsetByLine, debugger.getoffsetbyline, IDebugSymbols2::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetOffsetByLine, GetOffsetByLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetOffsetByLine(
 
 
 
-#### - Line [in]
+### -param Line [in]
 
 Specifies the line number in the source file.
 
 
-#### - File [in]
+### -param File [in]
 
 Specifies the file name of the source file.
 
 
-#### - Offset [out]
+### -param Offset [out]
 
 Receives the location in the target's virtual address space of an instruction for the specified line.
 
@@ -123,9 +123,9 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

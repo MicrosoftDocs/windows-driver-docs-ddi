@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bf36e54-5caa-4dc6-b659-ea0c1ac450f0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, kernel.wmiguidreginfo, PWMIGUIDREGINFO, WMIGUIDREGINFO, *PWMIGUIDREGINFO, wmilib/PWMIGUIDREGINFO, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], wmilib/WMIGUIDREGINFO, _WMIGUIDREGINFO
+ms.keywords: WMIGUIDREGINFO, *PWMIGUIDREGINFO, kernel.wmiguidreginfo, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], wmilib/PWMIGUIDREGINFO, wmilib/WMIGUIDREGINFO, PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, PWMIGUIDREGINFO, _WMIGUIDREGINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WMIGUIDREGINFO {
 
 
 
-#### - Guid
+### -field Guid
 
 Pointer to the GUID that identifies the block. The memory that contains the GUID can be paged unless it is also used to call <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>.
 
 
-#### - InstanceCount
+### -field InstanceCount
 
 Specifies the number of instances defined for the block.
 
 
-#### - Flags
+### -field Flags
 
 Flag bits that indicate characteristics of the block. These flag bits are defined in the Wmistr.h header file. WMI ORs the <b>Flags</b> parameter value with the flag bits set by the driver in the <i>RegFlags</i> parameter of its <a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a> routine, which apply to all of the data blocks and event blocks registered by the driver. <b>Flags</b> therefore supplements the driver's default settings for a given block.
 
@@ -93,11 +93,6 @@ A driver might also set one or more of the following flag bits:
 
 
 
-#### WMIREG_FLAG_INSTANCE_PDO
-
-Requests WMI to generate static instance names from the device instance ID for the PDO. If this flag is set, the <i>Pdo</i> parameter of the driver's <i>DpWmiQueryReginfo</i> routine points to the PDO passed to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine. WMI generates instance names from the device instance path of the PDO. Using the device instance path as a base for static instance names is efficient because such names are guaranteed to be unique. WMI automatically supplies a "friendly" name for the instance as an item in a data block that can be queried by data consumers.
-
-
 #### WMIREG_FLAG_EVENT_ONLY_GUID
 
 The block can be enabled or disabled as an event only, and cannot be queried or set. If this flag is clear, the block can also be queried or set.
@@ -106,6 +101,11 @@ The block can be enabled or disabled as an event only, and cannot be queried or 
 #### WMIREG_FLAG_EXPENSIVE
 
 Requests WMI to send an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a> request the first time a data consumer opens the data block and an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a> request when the last data consumer closes the data block. This is recommended if collecting such data affects performance, because a driver need not collect the data until a data consumer explicitly requests it by opening the block.
+
+
+#### WMIREG_FLAG_INSTANCE_PDO
+
+Requests WMI to generate static instance names from the device instance ID for the PDO. If this flag is set, the <i>Pdo</i> parameter of the driver's <i>DpWmiQueryReginfo</i> routine points to the PDO passed to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine. WMI generates instance names from the device instance path of the PDO. Using the device instance path as a base for static instance names is efficient because such names are guaranteed to be unique. WMI automatically supplies a "friendly" name for the instance as an item in a data block that can be queried by data consumers.
 
 
 #### WMIREG_FLAG_REMOVE_GUID
@@ -124,8 +124,6 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
-
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
@@ -133,6 +131,8 @@ Memory for this structure can be allocated from paged pool.
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a>
 

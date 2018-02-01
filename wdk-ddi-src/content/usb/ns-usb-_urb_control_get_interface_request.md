@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 64f843ba-8462-48d4-ba3a-a028bb921880
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses], usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml, usb/_URB_CONTROL_GET_INTERFACE_REQUEST, buses._urb_control_get_interface_request, _URB_CONTROL_GET_INTERFACE_REQUEST"
+ms.keywords: usb/_URB_CONTROL_GET_INTERFACE_REQUEST, _URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses], _URB_CONTROL_GET_INTERFACE_REQUEST, usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml, buses._urb_control_get_interface_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ struct _URB_CONTROL_GET_INTERFACE_REQUEST {
 
 
 
-#### - Hdr
+### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_INTERFACE, and <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_GET_INTERFACE_REQUEST)</code>.
 
@@ -93,12 +93,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-#### - UrbLink
+### -field UrbLink
 
 Reserved. Do not use.
 
 
-#### - hca
+### -field hca
 
 Reserved. Do not use.
 
@@ -108,42 +108,42 @@ Reserved. Do not use.
  
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Do not use.
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved. Do not use.
 
 
-#### - TransferBufferLength
+### -field TransferBufferLength
 
 Must be 1. This member specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes sent to or read from the pipe in this member.
 
 
-#### - TransferBuffer
+### -field TransferBuffer
 
 Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>. The bus driver returns a single byte specifying the index of the current alternate setting for the interface.
 
 
-#### - TransferBufferMDL
+### -field TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The bus driver returns a single byte specifying the index of the current alternate setting for the interface. This MDL must be allocated from nonpaged pool.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. Do not use.
 
 
-#### - Interface
+### -field Interface
 
 Specifies the device-defined index of the interface descriptor being retrieved.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. Do not use.
 
@@ -157,9 +157,9 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 

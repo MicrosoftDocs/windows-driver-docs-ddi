@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6c301643-1e1b-4b0c-8827-8eae988b1e9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2volumeblt, LPD3DHAL_DP2VOLUMEBLT structure pointer [Display Devices], _D3DHAL_DP2VOLUMEBLT, d3dhal/LPD3DHAL_DP2VOLUMEBLT, d3dstrct_44b31cb6-2a36-4d2d-91a3-c59b07d8815b.xml, D3DHAL_DP2VOLUMEBLT structure [Display Devices], LPD3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT, *LPD3DHAL_DP2VOLUMEBLT, d3dhal/D3DHAL_DP2VOLUMEBLT
+ms.keywords: d3dstrct_44b31cb6-2a36-4d2d-91a3-c59b07d8815b.xml, display.d3dhal_dp2volumeblt, *LPD3DHAL_DP2VOLUMEBLT, LPD3DHAL_DP2VOLUMEBLT structure pointer [Display Devices], LPD3DHAL_DP2VOLUMEBLT, d3dhal/LPD3DHAL_DP2VOLUMEBLT, _D3DHAL_DP2VOLUMEBLT, d3dhal/D3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,37 +77,37 @@ typedef struct _D3DHAL_DP2VOLUMEBLT {
 
 
 
-#### - dwDDDestSurface
+### -field dwDDDestSurface
 
 Specifies the handle to the destination volume texture.
 
 
-#### - dwDDSrcSurface
+### -field dwDDSrcSurface
 
 Specifies the handle to the source volume texture.
 
 
-#### - dwDestX
+### -field dwDestX
 
 Specify the location in the destination volume texture to copy the defined source subvolume. These members (<b>dwDestX</b>, <b>dwDestY</b>, and <b>dwDestZ</b>) are specified in screen coordinates.
 
 
-#### - dwDestY
+### -field dwDestY
 
 See <b>dwDestX</b> above.
 
 
-#### - dwDestZ
+### -field dwDestZ
 
 See <b>dwDestX</b> above.
 
 
-#### - srcBox
+### -field srcBox
 
 Specifies a subvolume of the source volume texture to copy to the destination.
 
 
-#### - dwFlags
+### -field dwFlags
 
 Reserved for system use.
 
@@ -123,11 +123,11 @@ See Remarks for <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEX
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEXBLT</a>
 
 D3DDP2OP_VOLUMEBLT
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEXBLT</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 

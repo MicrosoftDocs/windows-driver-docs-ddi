@@ -75,34 +75,34 @@ VOID APIENTRY* pfnVideoProcessorSetStreamMirror(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-#### - hVideoProcessor [in]
+### -param hVideoProcessor [in]
 
 Handle to the video processor object.
 
 
-#### - StreamIndex [in]
+### -param StreamIndex [in]
 
 Indicates the input stream.
 
 
-#### - Enable [in]
+### -param Enable [in]
 
 Indicates whether mirroring support is enabled or disabled.
 
 
-#### - FlipHorizontal [in]
+### -param FlipHorizontal [in]
 
 Indicates whether the input stream should be flipped horizontally.
 
 
 <div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div><div> </div>
 
-#### - FlipVertical [in]
+### -param FlipVertical [in]
 
 Indicates whether the input stream should be flipped vertically.
 

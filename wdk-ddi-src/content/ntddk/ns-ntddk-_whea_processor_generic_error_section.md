@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d1ac2ca0-ad08-4149-b489-53807f308fc0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_PROCESSOR_GENERIC_ERROR_SECTION structure pointer [WHEA Drivers and Applications], *PWHEA_GENERIC_PROCESSOR_ERROR, GENPROC_PROCISA_IPF, ntddk/WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_OP_GENERIC, GENPROC_PROCERRTYPE_UNKNOWN, GENPROC_PROCERRTYPE_TLB, GENPROC_PROCISA_X86, whea.whea_processor_generic_error_section, _WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCERRTYPE_MAE, ntddk/PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_FLAGS_CORRECTED, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCERRTYPE_BUS, GENPROC_PROCTYPE_XPF, WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure [WHEA Drivers and Applications], GENPROC_FLAGS_PRECISEIP, GENPROC_PROCERRTYPE_CACHE, GENPROC_PROCTYPE_IPF, GENPROC_OP_DATAWRITE, GENPROC_FLAGS_OVERFLOW, GENPROC_OP_INSTRUCTIONEXE, WHEA_PROCESSOR_GENERIC_ERROR_SECTION, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_FLAGS_RESTARTABLE, GENPROC_PROCISA_X64, WHEA_GENERIC_PROCESSOR_ERROR, GENPROC_OP_DATAREAD, whearef_589ac6c8-3889-4033-8776-0d8f402d1f69.xml
+ms.keywords: GENPROC_PROCISA_X86, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION structure pointer [WHEA Drivers and Applications], GENPROC_OP_GENERIC, whearef_589ac6c8-3889-4033-8776-0d8f402d1f69.xml, GENPROC_PROCISA_IPF, GENPROC_PROCERRTYPE_BUS, whea.whea_processor_generic_error_section, GENPROC_FLAGS_RESTARTABLE, GENPROC_PROCISA_X64, GENPROC_PROCERRTYPE_MAE, GENPROC_FLAGS_PRECISEIP, GENPROC_PROCERRTYPE_TLB, GENPROC_OP_DATAREAD, WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure [WHEA Drivers and Applications], GENPROC_FLAGS_OVERFLOW, WHEA_PROCESSOR_GENERIC_ERROR_SECTION, WHEA_GENERIC_PROCESSOR_ERROR, GENPROC_FLAGS_CORRECTED, ntddk/PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_OP_DATAWRITE, _WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCTYPE_XPF, GENPROC_PROCERRTYPE_UNKNOWN, ntddk/WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCERRTYPE_CACHE, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_OP_INSTRUCTIONEXE, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCTYPE_IPF, *PWHEA_GENERIC_PROCESSOR_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,14 +83,14 @@ typedef struct _WHEA_PROCESSOR_GENERIC_ERROR_SECTION {
 
 
 
-#### - ValidBits
+### -field ValidBits
 
 A 
       <a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section_validbits.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a> 
       union that specifies which members of this structure contain valid data.
 
 
-#### - ProcessorType
+### -field ProcessorType
 
 The processor architecture of the processor.
 
@@ -124,7 +124,7 @@ Intel Itanium processor family
 </table> 
 
 
-#### - InstructionSet
+### -field InstructionSet
 
 The instruction set that was executing when the error occurred.
 
@@ -168,7 +168,7 @@ x64
 </table> 
 
 
-#### - ErrorType
+### -field ErrorType
 
 The type of error that occurred.
 
@@ -232,7 +232,7 @@ Microarchitecture error
 </table> 
 
 
-#### - Operation
+### -field Operation
 
 The type of operation that was executing when the error occurred.
 
@@ -286,7 +286,7 @@ Instruction execution
 </table> 
 
 
-#### - Flags
+### -field Flags
 
 A bit-wise OR'ed combination of flags that provides additional information about the error.
 
@@ -342,7 +342,7 @@ The error was corrected by the hardware or the firmware.
 </table> 
 
 
-#### - Level
+### -field Level
 
 The level of the structure where the error occurred, with zero being the lowest level of cache.
 
@@ -350,12 +350,12 @@ This member contains valid data only if the <b>Level</b> bit of the
        <b>ValidBits</b> member is set.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - CPUVersion
+### -field CPUVersion
 
 The CPU version, which includes the family, model, and stepping information.
 <ul>
@@ -366,7 +366,7 @@ The CPU version, which includes the family, model, and stepping information.
        <b>ValidBits</b> member is set.
 
 
-#### - CPUBrandString
+### -field CPUBrandString
 
 The CPU brand string.
 <ul>
@@ -380,7 +380,7 @@ The CPU brand string.
        <b>ValidBits</b> member is set.
 
 
-#### - ProcessorId
+### -field ProcessorId
 
 An identifier that uniquely identifies the logical processor in the system.
 <ul>
@@ -391,7 +391,7 @@ An identifier that uniquely identifies the logical processor in the system.
        <b>ValidBits</b> member is set.
 
 
-#### - TargetAddress
+### -field TargetAddress
 
 The target address associated with the error.
 
@@ -399,7 +399,7 @@ This member contains valid data only if the <b>TargetAddress</b> bit of the
        <b>ValidBits</b> member is set.
 
 
-#### - RequesterId
+### -field RequesterId
 
 An identifier that uniquely identifies the requester associated with the error.
 
@@ -407,7 +407,7 @@ This member contains valid data only if the <b>RequesterId</b> bit of the
        <b>ValidBits</b> member is set.
 
 
-#### - ResponderId
+### -field ResponderId
 
 An identifier that uniquely identifies the responder associated with the error.
 
@@ -415,7 +415,7 @@ This member contains valid data only if the <b>ResponderId</b> bit of the
        <b>ValidBits</b> member is set.
 
 
-#### - InstructionPointer
+### -field InstructionPointer
 
 The instruction pointer at the time that the error occurred.
 
@@ -439,13 +439,13 @@ The
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section_validbits.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_processor_family_info.md">WHEA_PROCESSOR_FAMILY_INFO</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section_validbits.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
  
 

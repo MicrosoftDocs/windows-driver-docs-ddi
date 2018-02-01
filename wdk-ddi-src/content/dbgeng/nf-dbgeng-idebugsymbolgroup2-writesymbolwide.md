@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ed77fddf-c23c-4522-a2c4-875f07d249fb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::WriteSymbolWide, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbolWide method, debugger.writesymbolwide, WriteSymbolWide, IDebugSymbolGroup2, WriteSymbolWide method [Windows Debugging], dbgeng/IDebugSymbolGroup2::WriteSymbolWide
+ms.keywords: IDebugSymbolGroup2, debugger.writesymbolwide, WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbolWide method, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, IDebugSymbolGroup2::WriteSymbolWide, WriteSymbolWide, WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT WriteSymbolWide(
 
 
 
-#### - Index [in]
+### -param Index [in]
 
 The index of the symbol whose value will be changed. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-#### - Value [in]
+### -param Value [in]
 
 A C++ expression that is evaluated to give the symbol's new value.
 
@@ -114,11 +114,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

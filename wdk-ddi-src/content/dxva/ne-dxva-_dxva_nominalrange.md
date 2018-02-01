@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e319f9d-4c24-4dd3-b5a1-b244714c06dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_nominalrange, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_48_208, DXVA_NominalRangeMask, DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_Wide, DXVA_NominalRange_Normal, DXVA_NominalRange, dxva/DXVA_NominalRangeMask, dxva/DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_16_235, DXVA_NominalRange_Wide, dxva/DXVA_NominalRange_Unknown, DXVA_NominalRange_16_235, _DXVA_NominalRange, DXVA_NominalRange_Unknown, DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRange_48_208, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml, dxva/DXVA_NominalRange_Normal, DXVA_NominalRangeShift, dxva/DXVA_NominalRange
+ms.keywords: DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRange_48_208, DXVA_NominalRange_0_255, DXVA_NominalRange_Normal, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_16_235, DXVA_NominalRangeMask, _DXVA_NominalRange, DXVA_NominalRangeShift, DXVA_NominalRange, dxva/DXVA_NominalRange_Wide, DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange_Normal, dxva/DXVA_NominalRangeMask, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange_48_208, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml, DXVA_NominalRange_Wide, display.dxva_nominalrange, dxva/DXVA_NominalRange, DXVA_NominalRange_16_235
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,42 +74,42 @@ typedef enum _DXVA_NominalRange {
 
 
 
-#### - DXVA_NominalRangeShift
+### -field DXVA_NominalRangeShift
 
 Specifies to shift bits by 12 positions (DXVA_ExtColorData_ShiftBase + 4, or 8 + 4).
 
 
-#### - DXVA_NominalRangeMask
+### -field DXVA_NominalRangeMask
 
 Specifies the nominal range mask. 3 (0x00007000) bits of a DWORD can be used to specify nominal range.
 
 
-#### - DXVA_NominalRange_Unknown
+### -field DXVA_NominalRange_Unknown
 
 Specifies that the nominal range is not specified.
 
 
-#### - DXVA_NominalRange_Normal
+### -field DXVA_NominalRange_Normal
 
 Specifies that normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
 
 
-#### - DXVA_NominalRange_Wide
+### -field DXVA_NominalRange_Wide
 
 Specifies that normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
 
 
-#### - DXVA_NominalRange_0_255
+### -field DXVA_NominalRange_0_255
 
 Specifies that normalized chroma [0..1] maps to [0..255] (8bit) or [0..1023] (10 bit).
 
 
-#### - DXVA_NominalRange_16_235
+### -field DXVA_NominalRange_16_235
 
 Specifies that normalized chroma [0..1] maps to [16..235] (8bit) or [64..940] (10 bit).
 
 
-#### - DXVA_NominalRange_48_208
+### -field DXVA_NominalRange_48_208
 
 Specifies that normalized chroma [0..1] maps to [48..208] (8bit) or [192..832] (10 bit).
 

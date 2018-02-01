@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a56152e-fb38-4470-8834-a0cbdd7b70ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILOSGEOLOCATIONINFO, *LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, netvista.rilosgeolocationinfo
+ms.keywords: RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], *LPRILOSGEOLOCATIONINFO, netvista.rilosgeolocationinfo, ntddrilapitypes/RILOSGEOLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,70 +83,70 @@ typedef struct _RILOSGEOLOCATIONINFO {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwLatitude
+### -field dwLatitude
 
 
 
-#### - dwLongitude
+### -field dwLongitude
 
 
 
-#### - dwAltitude
+### -field dwAltitude
 
 
 
-#### - dwAccuracy
+### -field dwAccuracy
 
 
 
-#### - dwLocationInformationMask
+### -field dwLocationInformationMask
 
 
 
-#### - stTimeStamp
+### -field stTimeStamp
 
 
 
-#### - wszAddressLine1
+### -field wszAddressLine1
 
 
 
-#### - wszAddressLine2
+### -field wszAddressLine2
 
 
 
-#### - wszCity
+### -field wszCity
 
 
 
-#### - wszState
+### -field wszState
 
 
 
-#### - wszCountry
+### -field wszCountry
 
 
 
-#### - wszPostalCode
+### -field wszPostalCode
 
 
 
-#### - wszFormattedAddress
+### -field wszFormattedAddress
 
 
 
-#### - wszCountryCode
+### -field wszCountryCode
 
 
 
-#### - wszRegionCode
+### -field wszRegionCode
 
 

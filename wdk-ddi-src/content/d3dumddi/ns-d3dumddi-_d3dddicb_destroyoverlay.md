@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7b57177-17d2-42d7-ac4a-3cbd74803d50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml, D3DDDICB_DESTROYOVERLAY structure [Display Devices], D3DDDICB_DESTROYOVERLAY, _D3DDDICB_DESTROYOVERLAY, d3dumddi/D3DDDICB_DESTROYOVERLAY, display.d3dddicb_destroyoverlay
+ms.keywords: d3dumddi/D3DDDICB_DESTROYOVERLAY, D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml, display.d3dddicb_destroyoverlay, D3DDDICB_DESTROYOVERLAY structure [Display Devices], _D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DDDICB_DESTROYOVERLAY {
 
 
 
-#### - hKernelOverlay
+### -field hKernelOverlay
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to destroy. 
 

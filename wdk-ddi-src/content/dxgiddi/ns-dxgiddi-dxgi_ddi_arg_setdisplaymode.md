@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb2b7470-cd23-4e0c-a887-42c47b881607
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_SETDISPLAYMODE structure [Display Devices], DXGI_DDI_ARG_SETDISPLAYMODE, UMDisplayDriver_Dx10param_Structs_b8b2ebc4-123c-42bd-abd5-3bf1bff47ee0.xml, dxgiddi/DXGI_DDI_ARG_SETDISPLAYMODE, display.dxgi_ddi_arg_setdisplaymode
+ms.keywords: dxgiddi/DXGI_DDI_ARG_SETDISPLAYMODE, DXGI_DDI_ARG_SETDISPLAYMODE, display.dxgi_ddi_arg_setdisplaymode, DXGI_DDI_ARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_b8b2ebc4-123c-42bd-abd5-3bf1bff47ee0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct DXGI_DDI_ARG_SETDISPLAYMODE {
 
 
 
-#### - hDevice
+### -field hDevice
 
 [in] A handle to the display device (graphics context) on which the driver sets the display mode. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the resource that contains the display surface.
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] The zero-based index into the resource, which the handle in the <b>hResource</b> member specifies. The <b>SubResourceIndex</b> index indicates the display surface.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: df9180d8-37aa-4b75-a8c6-a786901bd8a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/REG_RESTORE_KEY_INFORMATION, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, wdm/PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _REG_RESTORE_KEY_INFORMATION
+ms.keywords: wdm/REG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION, wdm/PREG_RESTORE_KEY_INFORMATION, _REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_restore_key_information, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _REG_RESTORE_KEY_INFORMATION {
 
 
 
-#### - Object
+### -field Object
 
 A pointer to a registry key object for the key whose name is about to be changed.
 
 
-#### - FileHandle
+### -field FileHandle
 
 A handle to the file from which the hive will be restored.
 
 
-#### - Flags
+### -field Flags
 
 <b>REG_FORCE_RESTORE</b>
 
@@ -104,17 +104,17 @@ If specified, a new, volatile (memory-only) set of registry information, or <i>h
 If set, the location of the subtree that the <i>hKey</i> parameter points to is restored to its state immediately following the last flush. The subtree must not be lazy flushed (by calling <b>RegRestoreKey</b> with REG_NO_LAZY_FLUSH specified as the value of this parameter); the caller must have the trusted computing base (TCB) privilege; and the handle to which the <i>hKey</i> parameter refers must point to the root of the subtree.
 
 
-#### - CallContext
+### -field CallContext
 
 Optional driver-defined context information that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
-#### - ObjectContext
+### -field ObjectContext
 
 A pointer to driver-defined context information, which the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved for future use. This member is defined for Windows Vista and later versions of the Windows operating system.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEASSIGNINTERFACEPROPERTY, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, WdfDeviceAssignInterfaceProperty, wdfdevice/WdfDeviceAssignInterfaceProperty
+ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, PFN_WDFDEVICEASSIGNINTERFACEPROPERTY, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,27 +74,27 @@ NTSTATUS WdfDeviceAssignInterfaceProperty(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - PropertyData [in]
+### -param PropertyData [in]
 
 A pointer to <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
 
-#### - Type [in]
+### -param Type [in]
 
 A <b>DEVPROPTYPE</b>-typed value that specifies the type of the data that is provided in <i>PropertyBuffer</i>.
 
 
-#### - BufferLength [in]
+### -param BufferLength [in]
 
 Specifies the length, in bytes, of the buffer that <i>PropertyBuffer</i> points to.
 
 
-#### - PropertyBuffer [in, optional]
+### -param PropertyBuffer [in, optional]
 
 A pointer to the device interface property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
@@ -134,9 +134,9 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
 

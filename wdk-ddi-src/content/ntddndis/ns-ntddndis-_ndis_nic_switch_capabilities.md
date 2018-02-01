@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml, NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities, PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES, _NDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES, _NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,7 @@ typedef struct _NDIS_NIC_SWITCH_CAPABILITIES {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -112,13 +112,11 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
-#### NDIS_NIC_SWITCH_CAPABILITIES_REVISION_3
+#### NDIS_NIC_SWITCH_CAPABILITIES_REVISION_1
 
-Added the RSS interface members for NDIS 6.60.<div class="alert"><b>Note</b>  Revision 3 of this structure is  supported only on Windows Server 2016  and later versions of Windows Server.</div>
-<div> </div>
+Original version for NDIS 6.20.
 
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_CAPABILITIES_REVISION_3.
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_CAPABILITIES_REVISION_1.
 
 
 #### NDIS_NIC_SWITCH_CAPABILITIES_REVISION_2
@@ -130,63 +128,55 @@ Added the single root I/O virtualization (SR-IOV) interface members for NDIS 6.3
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_CAPABILITIES_REVISION_2.
 
 
-#### NDIS_NIC_SWITCH_CAPABILITIES_REVISION_1
+#### NDIS_NIC_SWITCH_CAPABILITIES_REVISION_3
 
-Original version for NDIS 6.20.
+Added the RSS interface members for NDIS 6.60.<div class="alert"><b>Note</b>  Revision 3 of this structure is  supported only on Windows Server 2016  and later versions of Windows Server.</div>
+<div> </div>
 
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_CAPABILITIES_REVISION_1.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_CAPABILITIES_REVISION_3.
 
 
-#### - Flags
+### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
 
 
-#### - NdisReserved1
+### -field NdisReserved1
 
 Reserved for NDIS.
 
 
-#### - NumTotalMacAddresses
+### -field NumTotalMacAddresses
 
 A ULONG value that contains the total number of media access control (MAC) addresses that the network adapter supports.
 <div class="alert"><b>Note</b>  Drivers must set this member to zero for revision 2 and later revisions of this structure.</div><div> </div>
 
-#### - NumMacAddressesPerPort
+### -field NumMacAddressesPerPort
 
 A ULONG value that contains the number of MAC addresses that are supported for each port.
 <div class="alert"><b>Note</b>  Drivers must set this member to zero for revision 2 and later revisions of this structure.</div><div> </div>
 
-#### - NumVlansPerPort
+### -field NumVlansPerPort
 
 A ULONG value that contains the number of VLANs that are supported for each port.
 <div class="alert"><b>Note</b>  Drivers must set this member to zero for revision 2 and later revisions of this structure.</div><div> </div>
 
-#### - NdisReserved2
+### -field NdisReserved2
 
 Reserved for NDIS.
 
 
-#### - NdisReserved3
+### -field NdisReserved3
 
 Reserved for NDIS.
 
 
-#### - NicSwitchCapabilities
+### -field NicSwitchCapabilities
 
 A ULONG value that contains a bitwise OR of the following flags that specify the capabilities of the NIC switch: 
 
 
-
-
-#### NDIS_NIC_SWITCH_CAPS_VLAN_SUPPORTED
-
-This flag specifies that the NIC switch supports hardware packet filtering based on the virtual local area network (VLAN) identifier (ID). 
-<div class="alert"><b>Note</b>  This flag should be set only if the NIC switch supports VLAN ID filtering on individual SR-IOV virtual ports (VPorts).</div><div> </div>
-
-#### NDIS_NIC_SWITCH_CAPS_PER_VPORT_INTERRUPT_MODERATION_SUPPORTED
-
-This flag specifies that the NIC switch can support interrupt moderation configuration on individual VPorts. 
 
 
 #### NDIS_NIC_SWITCH_CAPS_ASYMMETRIC_QUEUE_PAIRS_FOR_NONDEFAULT_VPORT_SUPPORTED
@@ -203,12 +193,10 @@ One or more queue pairs are configured on a nondefault VPort through an OID meth
 
 
 
-#### NDIS_NIC_SWITCH_CAPS_VF_RSS_SUPPORTED
+#### NDIS_NIC_SWITCH_CAPS_PER_VPORT_INTERRUPT_MODERATION_SUPPORTED
 
-This flag specifies that queue pairs from nondefault VPorts that are attached to a PCI Express (PCIe) Virtual Function (VF) can be used for receive side scaling (RSS). The VF miniport driver runs in the guest operating system of a Hyper-V child partition. 
+This flag specifies that the NIC switch can support interrupt moderation configuration on individual VPorts. 
 
-If this flag is set, the miniport driver supports RSS on a VF and can use  one or more of the queue pairs from the nondefault VPort for RSS.
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, only one nondefault VPort can be attached to a VF.</div><div> </div>
 
 #### NDIS_NIC_SWITCH_CAPS_SINGLE_VPORT_POOL
 
@@ -222,126 +210,138 @@ For more information about VPorts, see <a href="https://msdn.microsoft.com/BF3DF
 
 
 
-#### - MaxNumSwitches
+#### NDIS_NIC_SWITCH_CAPS_VF_RSS_SUPPORTED
+
+This flag specifies that queue pairs from nondefault VPorts that are attached to a PCI Express (PCIe) Virtual Function (VF) can be used for receive side scaling (RSS). The VF miniport driver runs in the guest operating system of a Hyper-V child partition. 
+
+If this flag is set, the miniport driver supports RSS on a VF and can use  one or more of the queue pairs from the nondefault VPort for RSS.
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, only one nondefault VPort can be attached to a VF.</div><div> </div>
+
+#### NDIS_NIC_SWITCH_CAPS_VLAN_SUPPORTED
+
+This flag specifies that the NIC switch supports hardware packet filtering based on the virtual local area network (VLAN) identifier (ID). 
+<div class="alert"><b>Note</b>  This flag should be set only if the NIC switch supports VLAN ID filtering on individual SR-IOV virtual ports (VPorts).</div><div> </div>
+
+### -field MaxNumSwitches
 
 A ULONG value that specifies the maximum number of switches that can be created on the network adapter's PCI Express (PCIe) Physical Function (PF).
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, Windows only supports the default NIC switch on the network adapter. Therefore, this member must always be set to one. 
 </div><div> </div>
 
-#### - MaxNumVPorts
+### -field MaxNumVPorts
 
 A ULONG value that specifies the maximum number of VPorts that can be created on a network adapter. This includes the default VPort that is always attached to the PF. 
 <div class="alert"><b>Note</b>  The NIC switch must support at least (<b>MaxNumVFs</b> + 1) VPorts.</div><div> </div>
 
-#### - NdisReserved4
+### -field NdisReserved4
 
 Reserved for NDIS.
 
 
-#### - MaxNumVFs
+### -field MaxNumVFs
 
 A ULONG value that specifies the maximum number of VFs that can be created on the NIC switch. 
 <div class="alert"><b>Note</b>  Depending on the available hardware resources on the network adapter, the miniport driver can set the <b>MaxNumVFs</b> member to a value that is less than its <b>*NumVFs</b>
 keyword. For more information about this keyword, see <a href="https://msdn.microsoft.com/5CA33B4F-E43A-4EB6-BCAB-365CA1FD3EF2">Standardized INF Keywords for SR-IOV</a>.</div><div> </div>
 
-#### - MaxNumQueuePairs
+### -field MaxNumQueuePairs
 
 A ULONG value that specifies the maximum number of queue pairs that can be assigned to all VPorts. This includes the default VPort that is attached to the PF.
 <div class="alert"><b>Note</b>  This value must be greater than or equal to the value of <b>MaxNumVPorts</b>.</div><div> </div>
 
-#### - NdisReserved5
+### -field NdisReserved5
 
 Reserved for NDIS.
 
 
-#### - NdisReserved6
+### -field NdisReserved6
 
 Reserved for NDIS.
 
 
-#### - NdisReserved7
+### -field NdisReserved7
 
 Reserved for NDIS.
 
 
-#### - MaxNumQueuePairsPerNonDefaultVPort
+### -field MaxNumQueuePairsPerNonDefaultVPort
 
 A ULONG value that specifies the maximum number of queue pairs that can be assigned to a nondefault VPort. 
 
 This value is specified in powers of 2, and provides for asymmetric configuration and assignment of queue pairs to VPorts. For more information, see <a href="https://msdn.microsoft.com/B4BA1567-D536-4E7D-924C-7476FB82DAEB">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
 
 
-#### - NdisReserved8
+### -field NdisReserved8
 
 Reserved for NDIS.
 
 
-#### - NdisReserved9
+### -field NdisReserved9
 
 Reserved for NDIS.
 
 
-#### - NdisReserved10
+### -field NdisReserved10
 
 Reserved for NDIS.
 
 
-#### - NdisReserved11
+### -field NdisReserved11
 
 Reserved for NDIS.
 
 
-#### - NdisReserved12
+### -field NdisReserved12
 
 Reserved for NDIS.
 
 
-#### - MaxNumMacAddresses
+### -field MaxNumMacAddresses
 
 A ULONG value that specifies the maximum number of unicast MAC address filters that are available on the NIC switch.  
 <div class="alert"><b>Note</b>  This value must be greater than or equal to the value of <b>MaxNumVPorts</b>. This enables each VPort (including the default VPort) to be configured to have at least one unicast MAC address filter.</div><div> </div>
 
-#### - NdisReserved13
+### -field NdisReserved13
 
 Reserved for NDIS.
 
 
-#### - NdisReserved14
+### -field NdisReserved14
 
 Reserved for NDIS.
 
 
-#### - NdisReserved15
+### -field NdisReserved15
 
 Reserved for NDIS.
 
 
-#### - NdisReserved16
+### -field NdisReserved16
 
 Reserved for NDIS.
 
 
-#### - NdisReserved17
+### -field NdisReserved17
 
 Reserved for NDIS.
 
 
-#### - MaxNumRssCapableNonDefaultPFVPorts
+### -field MaxNumRssCapableNonDefaultPFVPorts
 
 A ULONG value that specifies the maximum number of RSS-capable non-default PFVPorts. 
 
 
-#### - NumberOfIndirectionTableEntriesForDefaultVPort
+### -field NumberOfIndirectionTableEntriesForDefaultVPort
 
 A ULONG value that specifies the number of indirection table entries for the default VPort.
 
 
-#### - NumberOfIndirectionTableEntriesPerNonDefaultPFVPort
+### -field NumberOfIndirectionTableEntriesPerNonDefaultPFVPort
 
 A ULONG value that specifies the number of indirection table entries for each non-default PFVPort.
 
 
-#### - MaxNumQueuePairsForDefaultVPort
+### -field MaxNumQueuePairsForDefaultVPort
 
 A ULONG value that specifies the maximum number of queue pairs that can be assigned to the default VPort. 
 
@@ -358,40 +358,40 @@ This value is specified in powers of 2, and provides for asymmetric configuratio
 <li>
 The <b>HardwareNicSwitchCapabilities</b> and 
     <b>CurrentNicSwitchCapabilities</b> members of the 
-    <mshelp:link keywords="netvista.ndis_miniport_adapter_hardware_assist_attributes" tabindex="0"><b>
-    NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+    NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a> structure.
 
 </li>
 <li>
 The 
     <b>NicSwitchCapabilities</b> member of the 
-    <mshelp:link keywords="netvista.ndis_filter_attach_parameters" tabindex="0"><b>
-    NDIS_FILTER_ATTACH_PARAMETERS</b></mshelp:link> and 
+    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    NDIS_FILTER_ATTACH_PARAMETERS</a> and 
     <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structures. 
 
 </li>
-</ul>OID query requests of <mshelp:link keywords="netvista.oid_nic_switch_current_capabilities" tabindex="0">
-    OID_NIC_SWITCH_CURRENT_CAPABILITIES</mshelp:link> and 
-    <mshelp:link keywords="netvista.oid_nic_switch_hardware_capabilities" tabindex="0">
-    OID_NIC_SWITCH_HARDWARE_CAPABILITIES</mshelp:link> return an <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure.
+</ul>OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">
+    OID_NIC_SWITCH_CURRENT_CAPABILITIES</a> and 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">
+    OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a> return an <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure.
 
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
 
 <b></b>
 

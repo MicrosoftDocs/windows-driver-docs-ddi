@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FE5EF59E-3B37-4947-A7E8-5CBE6137D07D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_TRIM_MEMORY, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS, display.d3dddi_flush_flags, D3DDDI_FLUSH_FLAGS
+ms.keywords: D3DDDI_TRIM_MEMORY, display.d3dddi_flush_flags, d3dumddi/D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_TRIM_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum _D3DDDI_FLUSH_FLAGS {
 
 
 
-#### - D3DDDI_TRIM_MEMORY
+### -field D3DDDI_TRIM_MEMORY
 
 The driver should free as much memory as it can. However, it should not free any memory that the driver requires to continue operating. Using this constant value therefore should not introduce new opportunities to run out of memory.
 

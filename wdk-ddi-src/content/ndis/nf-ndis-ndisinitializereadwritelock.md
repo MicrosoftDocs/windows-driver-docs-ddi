@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 458d8a08-7212-4888-9bb3-07a470541c8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisInitializeReadWriteLock, NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], netvista.ndisinitializereadwritelock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml
+ms.keywords: ndis/NdisInitializeReadWriteLock, NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml, netvista.ndisinitializereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID NdisInitializeReadWriteLock(
 
 
 
-#### - Lock [out]
+### -param Lock [out]
 
 A pointer to an opaque 
      <b>NDIS_RW_LOCK</b> variable that represents a lock. The caller can use this lock to gain write or read
@@ -116,8 +116,8 @@ Initialize and use this type of lock for resources that are frequently accessed 
     infrequently accessed for writing.
 
 Once resource access is complete, the driver calls the 
-    <mshelp:link keywords="netvista.ndisreleasereadwritelock" tabindex="0"><b>
-    NdisReleaseReadWriteLock</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">
+    NdisReleaseReadWriteLock</a> function.
 
 Each lock that a driver initializes does one of the following:
 <ul>

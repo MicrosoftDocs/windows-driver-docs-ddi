@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8584c60-57ba-4b9c-949f-041bb37dfb13
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUpcaseUnicodeChar, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, wdm/RtlUpcaseUnicodeChar, kernel.rtlupcaseunicodechar
+ms.keywords: k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], RtlUpcaseUnicodeChar, kernel.rtlupcaseunicodechar, wdm/RtlUpcaseUnicodeChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ WCHAR RtlUpcaseUnicodeChar(
 
 
 
-#### - SourceCharacter [in]
+### -param SourceCharacter [in]
 
 Specifies the character to convert.
 
@@ -83,9 +83,9 @@ Specifies the character to convert.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlupcaseunicodestring.md">RtlUpcaseUnicodeString</a>
-
 <a href="..\ntddk\nf-ntddk-rtlupperchar.md">RtlUpperChar</a>
+
+<a href="..\ntddk\nf-ntddk-rtlupcaseunicodestring.md">RtlUpcaseUnicodeString</a>
 
  
 

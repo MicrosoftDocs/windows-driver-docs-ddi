@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 742ee83c-3db4-4d77-a79d-28bcc405746d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcDestroyContent function [Audio Devices], portcls/PcDestroyContent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, PcDestroyContent, audio.pcdestroycontent
+ms.keywords: PcDestroyContent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, PcDestroyContent function [Audio Devices], audio.pcdestroycontent, portcls/PcDestroyContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,9 +88,9 @@ For more information, see the comments in <a href="..\drmk\nf-drmk-drmdestroycon
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
 <a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
+
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
 
  
 

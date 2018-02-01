@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 960710f7-15b1-4815-a33a-0e903d0a4193
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, wudfddi_types/WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, _WDFMEMORY_OFFSET, wdf.wdfmemory_offset_umdf, *PWDFMEMORY_OFFSET, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, umdf.wdfmemory_offset, PWDFMEMORY_OFFSET
+ms.keywords: "_WDFMEMORY_OFFSET, umdf.wdfmemory_offset, *PWDFMEMORY_OFFSET, wudfddi_types/WDFMEMORY_OFFSET, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, wudfddi_types/PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, WDFMEMORY_OFFSET, wdf.wdfmemory_offset_umdf"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _WDFMEMORY_OFFSET {
 
 
 
-#### - BufferOffset
+### -field BufferOffset
 
 The offset, in bytes, into the memory block where information is first accessed. 
 
 
-#### - BufferLength
+### -field BufferLength
 
 The size, in bytes, of the information that is accessed in the memory block. 
 

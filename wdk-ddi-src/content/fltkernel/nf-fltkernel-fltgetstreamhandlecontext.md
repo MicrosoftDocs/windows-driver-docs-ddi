@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c6e7c0d8-8005-4a40-a13b-ee58feeabbf0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetStreamHandleContext routine [Installable File System Drivers], FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, fltkernel/FltGetStreamHandleContext, FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
+ms.keywords: FltGetStreamHandleContext routine [Installable File System Drivers], FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, ifsk.fltgetstreamhandlecontext, FltGetStreamHandleContext, fltkernel/FltGetStreamHandleContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS FltGetStreamHandleContext(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 Opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the stream handle. 
 
 
-#### - Context [out]
+### -param Context [out]
 
 Pointer to a caller-allocated variable that receives the address of the context. 
 
@@ -136,15 +136,15 @@ To delete a stream handle context, call <a href="..\fltkernel\nf-fltkernel-fltde
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PLBA_FILTER_TABLE, PLBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], storage.lba_filter_table"
+ms.keywords: ehstorioctl/LBA_FILTER_TABLE, _LBA_FILTER_TABLE, storage.lba_filter_table, LBA_FILTER_TABLE structure [Storage Devices], LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], *PLBA_FILTER_TABLE, PLBA_FILTER_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _LBA_FILTER_TABLE {
 
 
 
-#### - StructSize
+### -field StructSize
 
 The size of this structure. This is set to <b>sizeof</b>(LBA_FILTER_TABLE).
 
 
-#### - GlobalReadLock
+### -field GlobalReadLock
 
 If TRUE, LBAs not included in the filter table are not readable. Otherwise unfiltered LBAs are readable if FALSE.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved.
 
 
-#### - GlobalWriteLock
+### -field GlobalWriteLock
 
 If TRUE, LBAs not included in the filter table are not writeable. Otherwise unfiltered LBAs are writeable if FALSE.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved.
 
 
-#### - LbaFilterCount
+### -field LbaFilterCount
 
 The number of filter entries in the filter table.
 
 
-#### - LbaFilterSize
+### -field LbaFilterSize
 
 The size in bytes of a filter table entry. This must be set to <b>sizeof</b>(LBA_FILTER_TABLE_ENTRY).
 

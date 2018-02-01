@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bab79fb6-1bb0-48ec-9d60-fcb6e679b758
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OpenPrintProcessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, OpenPrintProcessor function [Print Devices], winsplp/OpenPrintProcessor, print.openprintprocessor
+ms.keywords: spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, OpenPrintProcessor function [Print Devices], winsplp/OpenPrintProcessor, OpenPrintProcessor, print.openprintprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ HANDLE OpenPrintProcessor(
 
 
 
-#### - pPrinterName [in]
+### -param pPrinterName [in]
 
 Caller-supplied pointer to the name of the printer for which the print processor is being opened.
 
 
-#### - pPrintProcessorOpenData [in]
+### -param pPrintProcessorOpenData [in]
 
 Caller-supplied pointer to a <a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a> structure.
 

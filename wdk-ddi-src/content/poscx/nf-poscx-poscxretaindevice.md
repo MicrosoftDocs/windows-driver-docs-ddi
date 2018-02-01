@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 0DF5E1DA-35BA-406A-A708-461534373F12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxRetainDevice, PosCxRetainDevice, pos.poscxretaindevice, PosCxRetainDevice function
+ms.keywords: pos.poscxretaindevice, PosCxRetainDevice function, poscx/PosCxRetainDevice, PosCxRetainDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ NTSTATUS PosCxRetainDevice(
 
 
 
-#### - device [in]
+### -param device [in]
 
 A handle to a framework device object that represents the device.
 
 
-#### - request [in]
+### -param request [in]
 
 A handle to a framework request object that represents the request. This request must come from a WDF IO queue. The caller must always complete the request.
 

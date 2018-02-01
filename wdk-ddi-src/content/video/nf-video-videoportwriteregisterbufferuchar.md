@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43ceb589-e90f-4090-88ed-ada813ac6a6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWriteRegisterBufferUchar, video/VideoPortWriteRegisterBufferUchar, VideoPortWriteRegisterBufferUchar function [Display Devices], display.videoportwriteregisterbufferuchar, VideoPort_Functions_5a9ee1e8-744e-4141-993d-1a1710599431.xml
+ms.keywords: video/VideoPortWriteRegisterBufferUchar, VideoPortWriteRegisterBufferUchar function [Display Devices], VideoPortWriteRegisterBufferUchar, display.videoportwriteregisterbufferuchar, VideoPort_Functions_5a9ee1e8-744e-4141-993d-1a1710599431.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VOID VideoPortWriteRegisterBufferUchar(
 
 
 
-#### - Register
+### -param Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer containing the bytes to be written.
 
 
-#### - Count
+### -param Count
 
 Specifies the number of bytes to be transferred to the adapter.
 

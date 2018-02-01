@@ -72,12 +72,12 @@ VOID HwStorProcessServiceRequest(
 
 
 
-#### - DeviceExtension
+### -param DeviceExtension
 
 A pointer to the virtual miniport driver's per-adapter storage area.
 
 
-#### - Irp
+### -param Irp
 
 A pointer to the I/O request.
 
@@ -113,9 +113,9 @@ HW_PROCESS_SERVICE_REQUEST (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
+
+<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
 
  
 

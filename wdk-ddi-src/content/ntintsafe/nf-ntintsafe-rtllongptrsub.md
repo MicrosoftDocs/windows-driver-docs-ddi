@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3F95CA04-3CE1-4298-B3B6-5D111AB4F3D3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrSub, kernel.rtllongptrsub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongPtrSub
+ms.keywords: ntintsafe/RtlLongPtrSub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtllongptrsub, RtlLongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS RtlLongPtrSub(
 
 
 
-#### - lMinuend [in]
+### -param lMinuend [in]
 
 The value from which <i>lSubtrahend</i> is subtracted.
 
 
-#### - lSubtrahend [in]
+### -param lSubtrahend [in]
 
 The value to subtract from <i>lMinuend</i>.
 
 
-#### - plResult [out]
+### -param plResult [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

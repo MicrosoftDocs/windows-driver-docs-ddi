@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8abf967f-776e-4438-b20a-d7c278793633
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendClassify0, netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml
+ms.keywords: fwpsk/FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml, netvista.fwpspendclassify0, FwpsPendClassify0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,15 +75,15 @@ NTSTATUS NTAPI FwpsPendClassify0(
 
 
 
-#### - classifyHandle [in]
+### -param classifyHandle [in]
 
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
-     <mshelp:link keywords="netvista.fwpsacquireclassifyhandle0" tabindex="0"><b>
-     FwpsAcquireClassifyHandle0</b></mshelp:link>.
+     <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">
+     FwpsAcquireClassifyHandle0</a>.
 
 
-#### - filterId [in]
+### -param filterId [in]
 
 The value of the 
      <b>FilterId</b> member of the 
@@ -93,12 +93,12 @@ The value of the
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>.
 
 
-#### - flags [in]
+### -param flags [in]
 
 Reserved for future use. Set to zero.
 
 
-#### - classifyOut [in, out]
+### -param classifyOut [in, out]
 
 Set to the 
      <i>classifyOut</i> parameter of the callout driver's 
@@ -174,25 +174,25 @@ An error occurred.
 
 FwpsPendClassify0 increments the reference count for the classification handle passed in the 
     <i>classifyHandle</i> parameter. After the callout driver calls this function, it can call 
-    <mshelp:link keywords="netvista.fwpsreleaseclassifyhandle0" tabindex="0"><b>
-    FwpsReleaseClassifyHandle0</b></mshelp:link> to release the local instance. When <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a> is called, the
+    <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">
+    FwpsReleaseClassifyHandle0</a> to release the local instance. When <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a> is called, the
     reference to the handle will be decremented automatically.
 
 
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
  
 

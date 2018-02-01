@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b380597-09dc-414f-b2c6-f541d35540da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportputscattergatherlist, StorPortPutScatterGatherList routine [Storage Devices], StorPortPutScatterGatherList, storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml, storport/StorPortPutScatterGatherList
+ms.keywords: StorPortPutScatterGatherList routine [Storage Devices], storage.storportputscattergatherlist, StorPortPutScatterGatherList, storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml, storport/StorPortPutScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG StorPortPutScatterGatherList(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - ScatterGatherList [in]
+### -param ScatterGatherList [in]
 
 A pointer to a buffer that contains a scatter/gather list that was previously created by a call to the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> routine.
 
 
-#### - WriteToDevice [in]
+### -param WriteToDevice [in]
 
 A value that indicates the direction of the DMA transfer that has completed. A value of <b>TRUE</b> indicates a transfer from the data buffer to the device, and <b>FALSE</b> indicates a transfer from the device to the data buffer.
 

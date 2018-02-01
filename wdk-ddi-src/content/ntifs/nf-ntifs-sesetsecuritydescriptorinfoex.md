@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 90526705-069d-432f-87b1-1efc247aee05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.sesetsecuritydescriptorinfoex, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], seref_d3965072-a36e-478c-9c57-5614920d69c8.xml, SeSetSecurityDescriptorInfoEx, ntifs/SeSetSecurityDescriptorInfoEx
+ms.keywords: seref_d3965072-a36e-478c-9c57-5614920d69c8.xml, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], SeSetSecurityDescriptorInfoEx, ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,12 +73,12 @@ NTSTATUS SeSetSecurityDescriptorInfoEx(
 
 
 
-#### - Object [in, optional]
+### -param Object [in, optional]
 
 Pointer to the object whose security descriptor is to be modified. This is used to update security quota information.
 
 
-#### - SecurityInformation [in]
+### -param SecurityInformation [in]
 
 Pointer to a value specifying which security information is to be set. Can be a combination of one or more of the following. 
 <table>
@@ -134,12 +134,12 @@ Indicates the system ACL (SACL) of the object is being set. Requires ACCESS_SYST
 TBD
 
 
-#### - ObjectsSecurityDescriptor [in, out]
+### -param ObjectsSecurityDescriptor [in, out]
 
 Pointer to a pointer to the object's security descriptor. The security descriptor must be in self-relative format. This structure must be deallocated by the caller.
 
 
-#### - AutoInheritFlags [in]
+### -param AutoInheritFlags [in]
 
 Bitmask that controls automatic inheritance of ACEs. Set to the logical OR of one or more of the following bit flags: 
 <table>
@@ -170,7 +170,7 @@ If this flag is set, the SACL is treated as an auto-inherit SACL and is processe
 </table> 
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the pool type to use when allocating a new security descriptor, which can be one of the following: 
 <ul>
@@ -183,7 +183,7 @@ Specifies the pool type to use when allocating a new security descriptor, which 
 <b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
 
 
-#### - GenericMapping [in]
+### -param GenericMapping [in]
 
 Pointer to a GENERIC_MAPPING structure that specifies the mapping of generic to specific and standard access types for the object being accessed. This mapping structure is expected to be safe to access (that is, captured if necessary) prior to be passed to this routine.
 
@@ -267,29 +267,29 @@ For more information about access control and ACE inheritance, see the Security 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequerysecuritydescriptorinfo.md">SeQuerySecurityDescriptorInfo</a>
+<a href="..\ntifs\nf-ntifs-sesetsecuritydescriptorinfo.md">SeSetSecurityDescriptorInfo</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
 
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
-<a href="..\ntifs\nf-ntifs-sesetsecuritydescriptorinfo.md">SeSetSecurityDescriptorInfo</a>
-
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\nf-ntifs-sequerysecuritydescriptorinfo.md">SeQuerySecurityDescriptorInfo</a>
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 

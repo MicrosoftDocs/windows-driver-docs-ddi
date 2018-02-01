@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1D47C803-693B-4205-9D25-82489BFEC82C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE, kernel.pep_prepare_device, _PEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture]
+ms.keywords: PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_prepare_device, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE, pepfx/PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, _PEP_PREPARE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _PEP_PREPARE_DEVICE {
 
 
 
-#### - DeviceId
+### -field DeviceId
 
 [in] A string that uniquely identifies the device. This member is a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
-#### - DeviceAccepted
+### -field DeviceAccepted
 
 [out] Whether the PEP claims ownership of the device. The PEP sets this member to TRUE to claim ownership of the device, or to FALSE to indicate that it does not own the device. The PEP that claims ownership is responsible for handling <a href="https://msdn.microsoft.com/library/windows/hardware/mt186631">device power management (DPM) notifications</a> for the device.
 

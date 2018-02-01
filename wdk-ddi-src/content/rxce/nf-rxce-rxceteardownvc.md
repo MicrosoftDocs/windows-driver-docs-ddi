@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4b3af4d-8bb2-42a4-a8d9-baa643a90418
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxceteardownvc, rxce/RxCeTearDownVC, RxCeTearDownVC, RxCeTearDownVC function [Installable File System Drivers], rxref_12c4b02d-b629-4543-bf74-aeaa14f6f05d.xml
+ms.keywords: RxCeTearDownVC function [Installable File System Drivers], RxCeTearDownVC, ifsk.rxceteardownvc, rxref_12c4b02d-b629-4543-bf74-aeaa14f6f05d.xml, rxce/RxCeTearDownVC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS RxCeTearDownVC(
 
 
 
-#### - pVc [in]
+### -param pVc [in]
 
 A pointer to a handle for an virtual circuit structure to be torn down. 
 

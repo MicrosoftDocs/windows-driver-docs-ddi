@@ -72,12 +72,12 @@ NTSTATUS EvtSerCxApplyConfig(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-#### - ConnectionParameters [in]
+### -param ConnectionParameters [in]
 
 A pointer to the connection parameters structure.  This function must cast this parameter to the appropriate pointer type, parse the data structure to obtain the configuration settings, and apply these settings to the serial controller hardware. The connection parameters structure is defined by the hardware platform vendor and is opaque to both the serial framework extension (SerCx) and the operating system.
 
@@ -106,9 +106,9 @@ To register an <i>EvtSerCxApplyConfig</i> callback function, the driver must cal
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxgetconnectionparameters.md">SerCxGetConnectionParameters</a>
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
+
+<a href="..\sercx\nf-sercx-sercxgetconnectionparameters.md">SerCxGetConnectionParameters</a>
 
 <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9987ed83-7aa1-4e07-a85b-26607000ecba
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2POINTS structure [Display Devices], display.d3dhal_dp2points, d3dhal/LPD3DHAL_DP2POINTS, d3dstrct_ab7299b5-74b9-43bb-8784-6c1249e23f2f.xml, D3DHAL_DP2POINTS, _D3DHAL_DP2POINTS, LPD3DHAL_DP2POINTS structure pointer [Display Devices], *LPD3DHAL_DP2POINTS, LPD3DHAL_DP2POINTS, d3dhal/D3DHAL_DP2POINTS
+ms.keywords: D3DHAL_DP2POINTS structure [Display Devices], d3dstrct_ab7299b5-74b9-43bb-8784-6c1249e23f2f.xml, d3dhal/LPD3DHAL_DP2POINTS, LPD3DHAL_DP2POINTS, D3DHAL_DP2POINTS, *LPD3DHAL_DP2POINTS, LPD3DHAL_DP2POINTS structure pointer [Display Devices], d3dhal/D3DHAL_DP2POINTS, display.d3dhal_dp2points, _D3DHAL_DP2POINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DHAL_DP2POINTS {
 
 
 
-#### - wCount
+### -field wCount
 
 Specifies the number of points to render.
 
 
-#### - wVStart
+### -field wVStart
 
 Specifies the index into the vertex buffer containing coordinate data for the initial point.
 
@@ -94,9 +94,9 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-D3DDP2OP_POINTS
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+D3DDP2OP_POINTS
 
  
 

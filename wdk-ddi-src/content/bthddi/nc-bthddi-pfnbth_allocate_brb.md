@@ -72,14 +72,14 @@ PBRB BthAllocateBrb(
 
 
 
-#### - brbType [in]
+### -param brbType [in]
 
 Specifies a value from the 
      <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
-#### - tag [in]
+### -param tag [in]
 
 Specifies a 4-byte 
      pool tag that uniquely identifies the driver that does the memory
@@ -101,8 +101,8 @@ Specifies a 4-byte
 Profile drivers obtain a pointer to the 
     <i>BthAllocateBrb</i> function when they query the Bluetooth driver stack for an instance of the
     BTHDDI_PROFILE_DRIVER_INTERFACE driver interface. See 
-    <mshelp:link keywords="bltooth.querying_for_bluetooth_interfaces" tabindex="0">Querying for Bluetooth
-    Interfaces</mshelp:link> for more information about querying the Bluetooth driver stack.
+    <a href="https://msdn.microsoft.com/56db29cd-26ab-4262-9b9f-40d46372ffe9">Querying for Bluetooth
+    Interfaces</a> for more information about querying the Bluetooth driver stack.
 
 
 
@@ -110,9 +110,9 @@ Profile drivers obtain a pointer to the
 
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
 pool tag
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
  
 

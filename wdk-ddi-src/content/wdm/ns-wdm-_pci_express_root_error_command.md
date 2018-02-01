@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 659c0612-5623-4615-b9c5-6d2656097b89
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_PCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND union pointer [Buses], PCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND union [Buses], pci_struct_f7834746-d8b5-4765-8434-8f7837a47871.xml, wdm/PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI.pci_express_root_error_command, *PPCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND"
+ms.keywords: pci_struct_f7834746-d8b5-4765-8434-8f7837a47871.xml, PCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PPCI_EXPRESS_ROOT_ERROR_COMMAND, _PCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND union pointer [Buses], PCI.pci_express_root_error_command, PPCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND union [Buses], *PPCI_EXPRESS_ROOT_ERROR_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,47 +81,27 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_COMMAND {
 
 ### -field DUMMYSTRUCTNAME.CorrectableErrorReportingEnable
 
- 
+A single bit that indicates that interrupts are enabled for when a correctable error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
 ### -field DUMMYSTRUCTNAME.NonFatalErrorReportingEnable
 
- 
+A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
 ### -field DUMMYSTRUCTNAME.FatalErrorReportingEnable
 
- 
+A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved.
 
 
-#### - AsULONG
+### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_COMMAND structure.
-
-
-#### - CorrectableErrorReportingEnable
-
-A single bit that indicates that interrupts are enabled for when a correctable error is reported by any of the devices in the hierarchy that are associated with this root port.
-
-
-#### - NonFatalErrorReportingEnable
-
-A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
-
-
-#### - FatalErrorReportingEnable
-
-A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
-
-
-#### - Reserved
-
-Reserved.
 
 
 ## -remarks

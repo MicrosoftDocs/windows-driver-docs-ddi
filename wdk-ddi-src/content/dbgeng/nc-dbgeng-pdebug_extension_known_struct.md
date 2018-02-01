@@ -90,7 +90,7 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 <b>When getting a list of names:</b>  Receives a list of the names of the structures that the extension can format for printing.  One null character must appear between each pair of names.  The list must be terminated with two null characters. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
 
@@ -104,6 +104,24 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 
 
 
+
+
+#### - Address [in]
+
+<b>When getting a list of names:</b> Unused.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
+
+
+#### - BufferSize [in, out]
+
+<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
 
 
 #### - Flag [in]
@@ -147,15 +165,6 @@ Get  a single-line representation of a structure.
 </table> 
 
 
-#### - Address [in]
-
-<b>When getting a list of names:</b> Unused.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
-
-
 #### - StructName [in]
 
 <b>When getting a list of names:</b>  Unused.
@@ -163,15 +172,6 @@ Get  a single-line representation of a structure.
 <b>When asking whether a name should be printed:</b> Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
 
 <b>When getting a single-line representation:</b>  Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
-
-
-#### - BufferSize [in, out]
-
-<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
 
 
 ## -returns

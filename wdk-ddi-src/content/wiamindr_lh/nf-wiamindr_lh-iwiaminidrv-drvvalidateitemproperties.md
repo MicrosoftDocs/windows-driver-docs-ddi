@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 12052128-9ea7-41cd-bb75-be7175e26c12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties, IWiaMiniDrv::drvValidateItemProperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties, drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, image.iwiaminidrv_drvvalidateitemproperties
+ms.keywords: IWiaMiniDrv, drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvValidateItemProperties method [Imaging Devices], image.iwiaminidrv_drvvalidateitemproperties, IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,11 +98,6 @@ HRESULT drvValidateItemProperties(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is reserved. Set to zero. 
@@ -116,6 +111,11 @@ Indicates the number of items n the <i>pPropSpec</i> array.
 #### - pPropSpec [in]
 
 Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
@@ -136,9 +136,9 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 <a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetitemtype.md">wiasGetItemType</a>
 

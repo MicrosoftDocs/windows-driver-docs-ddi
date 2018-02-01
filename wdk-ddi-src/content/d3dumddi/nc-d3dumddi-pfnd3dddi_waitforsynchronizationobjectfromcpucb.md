@@ -71,7 +71,7 @@ HRESULT APIENTRY CALLBACK* pfnWaitForSynchronizationObjectFromCpuCb(
 
 
 
-#### - hDevice
+### -param hDevice
 
 A handle to the display device.
 

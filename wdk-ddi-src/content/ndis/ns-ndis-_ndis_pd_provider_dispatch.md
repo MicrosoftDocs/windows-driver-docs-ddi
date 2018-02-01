@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E93B8A07-7C06-470B-9B26-8D59C2685D2C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_provider_dispatch, NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], NDIS_PD_PROVIDER_DISPATCH, ndis/NDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH, _NDIS_PD_PROVIDER_DISPATCH
+ms.keywords: netvista.ndis_pd_provider_dispatch, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_PROVIDER_DISPATCH, ndis/PNDIS_PD_PROVIDER_DISPATCH, _NDIS_PD_PROVIDER_DISPATCH, NDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH, NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ typedef struct _NDIS_PD_PROVIDER_DISPATCH {
 
 
 
-#### - Header
+### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_PROVIDER_DISPATCH</b> structure. Set the members of this structure as follows:
 <ul>
@@ -86,17 +86,17 @@ The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER<
 <li><b>Size</b> = <b>NDIS_SIZEOF_PD_PROVIDER_DISPATCH_REVISION_1</b></li>
 </ul>
 
-#### - Flags
+### -field Flags
 
 This member is reserved and must be set to 0 by the provider.
 
 
-#### - NdisPDAllocateQueue
+### -field NdisPDAllocateQueue
 
 See <a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>.
 
 
-#### - NdisPDFreeQueue
+### -field NdisPDFreeQueue
 
 See <a href="..\ndis\nc-ndis-ndis_pd_free_queue.md">NdisPDFreeQueue</a>.
 
@@ -111,27 +111,27 @@ See <a href="..\ndis\nc-ndis-ndis_pd_free_queue.md">NdisPDFreeQueue</a>.
  
 
 
-#### - NdisPDAllocateCounter
+### -field NdisPDAllocateCounter
 
 See <a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a>.
 
 
-#### - NdisPDFreeCounter
+### -field NdisPDFreeCounter
 
 See <a href="..\ndis\nc-ndis-ndis_pd_free_counter.md">NdisPDFreeCounter</a>.
 
 
-#### - NdisPDQueryCounter
+### -field NdisPDQueryCounter
 
 See <a href="..\ndis\nc-ndis-ndis_pd_query_counter.md">NdisPDQueryCounter</a>.
 
 
-#### - NdisPDSetReceiveFilter
+### -field NdisPDSetReceiveFilter
 
 See <a href="..\ndis\nc-ndis-ndis_pd_set_receive_filter.md">NdisPDSetReceiveFilter</a>.
 
 
-#### - NdisPDClearReceiveFilter
+### -field NdisPDClearReceiveFilter
 
 See <a href="..\ndis\nc-ndis-ndis_pd_clear_receive_filter.md">NdisPDClearReceiveFilter</a>.
 
@@ -152,14 +152,14 @@ See <a href="..\ndis\nc-ndis-ndis_pd_clear_receive_filter.md">NdisPDClearReceive
 
 
 
-#### - NdisPDOnRssReceiveQueues
-
-See <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
-
-
 #### - NdisPDOffRssReceiveQueues
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931860(d=robot)">NdisPDOffRssReceiveQueues</a>.
+
+
+#### - NdisPDOnRssReceiveQueues
+
+See <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
 
 
 ## -see-also

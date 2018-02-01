@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERIAL_HANDFLOW structure [Serial Ports], ntddser/SERIAL_HANDFLOW, PSERIAL_HANDFLOW, SERIAL_HANDFLOW, _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, serports.serial_handflow, PSERIAL_HANDFLOW structure pointer [Serial Ports], *PSERIAL_HANDFLOW
+ms.keywords: serports.serial_handflow, ntddser/PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], ntddser/SERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], _SERIAL_HANDFLOW, SERIAL_HANDFLOW, *PSERIAL_HANDFLOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _SERIAL_HANDFLOW {
 
 
 
-#### - ControlHandShake
+### -field ControlHandShake
 
 A bitmask that specifies the control lines that the serial port uses for flow control. This member is set to zero or to the bitwise-OR or one or more of the following flags.
 <table>
@@ -111,7 +111,7 @@ A bitmask that specifies the control lines that the serial port uses for flow co
 SerCx2 supports the SERIAL_CTS_HANDSHAKE flag, and may or may not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the first four flags in the preceding table. Serial.sys supports all of the flags in the preceding table.
 
 
-#### - FlowReplace
+### -field FlowReplace
 
 A bitmask that specifies flow control behavior. This member is set to zero or to the bitwise-OR or one or more of the following flags.
 <table>
@@ -160,12 +160,12 @@ A bitmask that specifies flow control behavior. This member is set to zero or to
 SerCx2 supports the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags, but typically does not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags. Serial.sys supports all of the flags in the preceding table.
 
 
-#### - XonLimit
+### -field XonLimit
 
 XON limit. When the number of characters in the internal receive buffer falls below the XON limit, the serial controller driver uses the flow control signals to tell the sender to resume sending characters.
 
 
-#### - XoffLimit
+### -field XoffLimit
 
 XOFF limit. When the number of characters in the internal receive buffer reaches the XOFF limit, the serial controller driver uses the flow control signals to tell the sender to stop sending characters.
 

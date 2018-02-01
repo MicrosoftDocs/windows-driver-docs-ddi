@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 921e6e44-adc2-4257-b11e-941121f5bfd7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_NICPerformance, iscsiprf/MSiSCSI_NICPerformance, *PMSiSCSI_NICPerformance, _MSiSCSI_NICPerformance, storage.msiscsi_nicperformance, MSiSCSI_NICPerformance structure [Storage Devices], iscsiprf/PMSiSCSI_NICPerformance, PMSiSCSI_NICPerformance, structs-iSCSI_a4d4dddd-24f6-4aa5-9b2c-61c0f1604fdb.xml, PMSiSCSI_NICPerformance structure pointer [Storage Devices]
+ms.keywords: "*PMSiSCSI_NICPerformance, PMSiSCSI_NICPerformance, _MSiSCSI_NICPerformance, MSiSCSI_NICPerformance, storage.msiscsi_nicperformance, PMSiSCSI_NICPerformance structure pointer [Storage Devices], iscsiprf/MSiSCSI_NICPerformance, iscsiprf/PMSiSCSI_NICPerformance, structs-iSCSI_a4d4dddd-24f6-4aa5-9b2c-61c0f1604fdb.xml, MSiSCSI_NICPerformance structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _MSiSCSI_NICPerformance {
 
 
 
-#### - BytesTransmitted
+### -field BytesTransmitted
 
 The number of bytes that are transmitted through the Ethernet port.
 
 
-#### - BytesReceived
+### -field BytesReceived
 
 The number of bytes that are received through the Ethernet port.
 
 
-#### - PDUTransmitted
+### -field PDUTransmitted
 
 The number of PDUs that are transmitted through the Ethernet port.
 
 
-#### - PDUReceived
+### -field PDUReceived
 
 The number of PDUs that are received through the Ethernet port.
 

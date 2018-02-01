@@ -72,12 +72,12 @@ NTSTATUS GetBusDriverD3ColdSupport(
 
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
 
-#### - D3ColdSupported [out]
+### -param D3ColdSupported [out]
 
 A pointer to a BOOLEAN variable to which the routine writes a value to indicate whether the bus driver supports the D3cold. If this value is <b>TRUE</b>, the bus driver supports D3cold. If <b>FALSE</b>, the bus driver does not support D3cold. If the call fails, the routine returns an error status code and does not write anything to this variable.
 
@@ -111,13 +111,13 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
-
 <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
 
 <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh967714">GUID_D3COLD_SUPPORT_INTERFACE</a>
+
+<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
 
  
 

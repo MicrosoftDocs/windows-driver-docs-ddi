@@ -73,12 +73,12 @@ NDIS_STATUS ProtocolCmDeregisterSap(
 
 
 
-#### - CallMgrSapContext [in]
+### -param CallMgrSapContext [in]
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-SAP state information. The call manager supplied this handle to NDIS from its 
-     <mshelp:link keywords="netvista.protocolcmregistersap" tabindex="0"><i>
-     ProtocolCmRegisterSap</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
+     ProtocolCmRegisterSap</a> function.
 
 
 ## -returns
@@ -111,8 +111,8 @@ Indicates that the call manager successfully removed the SAP registration and fr
 <td width="60%">
 Indicates that the call manager will complete the request to deregister the SAP asynchronously.
        The call manager must call 
-       <mshelp:link keywords="netvista.ndiscmderegistersapcomplete" tabindex="0"><b>
-       NdisCmDeregisterSapComplete</b></mshelp:link> to signal NDIS when the operation is complete.
+       <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">
+       NdisCmDeregisterSapComplete</a> to signal NDIS when the operation is complete.
 
 </td>
 </tr>
@@ -188,9 +188,9 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
 <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 

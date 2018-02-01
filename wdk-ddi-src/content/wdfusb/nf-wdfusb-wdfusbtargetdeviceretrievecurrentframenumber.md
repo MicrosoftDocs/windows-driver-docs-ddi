@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f73339f-adac-4569-92e7-1b166f93db92
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceRetrieveCurrentFrameNumber method, WdfUsbTargetDeviceRetrieveCurrentFrameNumber, DFUsbRef_9dd2f1ce-06f7-43a2-8e65-931c03f69c6e.xml, wdf.wdfusbtargetdeviceretrievecurrentframenumber, kmdf.wdfusbtargetdeviceretrievecurrentframenumber, wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber, PFN_WDFUSBTARGETDEVICERETRIEVECURRENTFRAMENUMBER
+ms.keywords: WdfUsbTargetDeviceRetrieveCurrentFrameNumber method, kmdf.wdfusbtargetdeviceretrievecurrentframenumber, DFUsbRef_9dd2f1ce-06f7-43a2-8e65-931c03f69c6e.xml, WdfUsbTargetDeviceRetrieveCurrentFrameNumber, wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber, PFN_WDFUSBTARGETDEVICERETRIEVECURRENTFRAMENUMBER, wdf.wdfusbtargetdeviceretrievecurrentframenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfUsbTargetDeviceRetrieveCurrentFrameNumber(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-#### - CurrentFrameNumber [out]
+### -param CurrentFrameNumber [out]
 
 A pointer to a location that receives the current 32-bit USB frame number.
 

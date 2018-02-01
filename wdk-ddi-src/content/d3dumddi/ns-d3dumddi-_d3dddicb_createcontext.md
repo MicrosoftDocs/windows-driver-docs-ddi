@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6bee57b5-f4b3-424c-aeb5-3bf65ab16392
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_CREATECONTEXT structure [Display Devices], d3dumddi/D3DDDICB_CREATECONTEXT, D3D_param_Structs_9ad6c5e1-c3aa-4546-b3c9-c07c8350093b.xml, D3DDDICB_CREATECONTEXT, _D3DDDICB_CREATECONTEXT, display.d3dddicb_createcontext
+ms.keywords: "_D3DDDICB_CREATECONTEXT, D3DDDICB_CREATECONTEXT, d3dumddi/D3DDDICB_CREATECONTEXT, display.d3dddicb_createcontext, D3DDDICB_CREATECONTEXT structure [Display Devices], D3D_param_Structs_9ad6c5e1-c3aa-4546-b3c9-c07c8350093b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,67 +81,67 @@ typedef struct _D3DDDICB_CREATECONTEXT {
 
 
 
-#### - NodeOrdinal
+### -field NodeOrdinal
 
 [in] The zero-based index for the node that the context is scheduled on.
 
 
-#### - EngineAffinity
+### -field EngineAffinity
 
 [in] The zero-based index for the engine, within the node that <b>NodeOrdinal</b> specifies, that the context can run in.
 
 
-#### - Flags
+### -field Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
 
 
-#### - pPrivateDriverData
+### -field pPrivateDriverData
 
 [in] A pointer to private data that is passed to a display miniport driver. 
 
 
-#### - PrivateDriverDataSize
+### -field PrivateDriverDataSize
 
 [in] The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
 
 
-#### - hContext
+### -field hContext
 
 [out] A handle to the context that the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function creates. 
 
 
-#### - pCommandBuffer
+### -field pCommandBuffer
 
 [out] A pointer to the first command buffer for the created context.
 
 
-#### - CommandBufferSize
+### -field CommandBufferSize
 
 [out] The size, in bytes, of the first command buffer for the created context, which <b>pCommandBuffer</b> points to. 
 
 
-#### - pAllocationList
+### -field pAllocationList
 
 [out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a> structures for the first allocation list for the created context.
 
 
-#### - AllocationListSize
+### -field AllocationListSize
 
 [out] The number of elements in the allocation-list array that <b>pAllocationList</b> specifies.
 
 
-#### - pPatchLocationList
+### -field pPatchLocationList
 
 [out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures for the first patch-location list for the created context.
 
 
-#### - PatchLocationListSize
+### -field PatchLocationListSize
 
 [out] The number of elements in the patch-location-list array that <b>pPatchLocationList</b> specifies.
 
 
-#### - CommandBuffer
+### -field CommandBuffer
 
 This member is reserved and should be set to zero.
 
@@ -150,11 +150,11 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 

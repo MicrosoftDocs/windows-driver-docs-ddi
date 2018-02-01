@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix, IDebugClient5, IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface
+ms.keywords: debugger.idebugclient5_popoutputlineprefix, dbgeng/IDebugClient5::PopOutputLinePrefix, IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], IDebugClient5, PopOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT PopOutputLinePrefix(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 The handle of a previously pushed prefix.
 

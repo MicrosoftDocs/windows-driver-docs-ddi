@@ -73,7 +73,7 @@ VOID EvtDeviceDisarmWakeFromS0(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
@@ -104,9 +104,9 @@ The <i>EvtDeviceDisarmWakeFromS0</i> callback function is called at IRQL = PASSI
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md">EvtDeviceArmWakeFromS0</a>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_disarm_wake_from_sx.md">EvtDeviceDisarmWakeFromSx</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md">EvtDeviceArmWakeFromS0</a>
 
  
 

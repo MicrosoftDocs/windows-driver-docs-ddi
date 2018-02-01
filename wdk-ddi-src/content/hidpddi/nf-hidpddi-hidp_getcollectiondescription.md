@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpddi/HidP_GetCollectionDescription, hid.hidp_getcollectiondescription, HidP_GetCollectionDescription function [Human Input Devices], HidP_GetCollectionDescription
+ms.keywords: hidpddi/HidP_GetCollectionDescription, HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,22 +74,22 @@ BOOLEAN __stdcall HidP_GetCollectionDescription(
 
 
 
-#### - ReportDesc [in]
+### -param ReportDesc [in]
 
 A pointer to a UCHAR array that contains the raw report descriptor.
 
 
-#### - DescLength [in]
+### -param DescLength [in]
 
 The length of the report descriptor array.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> array element of <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_DESC</a>, each <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="..\hidpddi\ns-hidpddi-_hidp_report_ids.md">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
 
 
-#### - DeviceDescription [out]
+### -param DeviceDescription [out]
 
 A pointer to a <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_DESC</a> structure that is populated with device description block filled in
                          collection descriptors as linked lists. This is a caller-allocated structure. However, its <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> array elements and <a href="..\hidpddi\ns-hidpddi-_hidp_report_ids.md">HIDP_REPORT_IDS</a> array elements are allocated by this function.

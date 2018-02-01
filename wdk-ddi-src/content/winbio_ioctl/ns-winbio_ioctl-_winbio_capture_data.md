@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_CAPTURE_DATA, winbio_ioctl/PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA, biometric.winbio_capture_data, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA structure [Biometric Devices], _WINBIO_CAPTURE_DATA, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml
+ms.keywords: biometric.winbio_capture_data, winbio_ioctl/WINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, _WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA, winbio_ioctl/PWINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _WINBIO_CAPTURE_DATA {
 
 
 
-#### - PayloadSize
+### -field PayloadSize
 
  The total size of the payload.  This includes the fixed length structure and any variable data at the end.
 
 
-#### - WinBioHresult
+### -field WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values for this member.
 <table>
@@ -178,7 +178,7 @@ The capture purpose specified is not supported by the driver.
 </table> 
 
 
-#### - SensorStatus
+### -field SensorStatus
 
 The WINBIO_SENSOR_STATUS status of the sensor after the capture has occurred. It specifies the operating status of the sensor.
 
@@ -259,7 +259,7 @@ The sensor device failed.
 </table> 
 
 
-#### - RejectDetail
+### -field RejectDetail
 
 If the sensor status was WINBIO_SENSOR_REJECT, this member contains a WINBIO_REJECT_DETAIL value. WINBIO_SENSOR_REJECT specifies the reason a biometric sampling operation failed.
 <div class="alert"><b>Important</b>    Values defined for Windows 7 are for fingerprint reject details only.</div><div> </div>Failure detail values for WINBIO_TYPE_FINGERPRINT include:
@@ -283,7 +283,7 @@ If the sensor status was WINBIO_SENSOR_REJECT, this member contains a WINBIO_REJ
 </tr>
 </table></span></div>
 
-#### - CaptureData
+### -field CaptureData
 
 A structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a> that contains data captured by the device, of the format specified. The <b>Data</b> array member of the WINBIO_DATA structure should contain a <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a> structure.
 

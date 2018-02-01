@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: EEAC4D16-D0B8-4147-AD2D-7EE60853EBDD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_CONTROLLER_CONFIG structure [Sensor Devices], SENSOR_CONTROLLER_CONFIG, sensors.sensor_controller_config, PSENSOR_CONTROLLER_CONFIG structure pointer [Sensor Devices], _SENSOR_CONTROLLER_CONFIG, sensorscx/PSENSOR_CONTROLLER_CONFIG, sensorscx/SENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG, *PSENSOR_CONTROLLER_CONFIG
+ms.keywords: PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG structure pointer [Sensor Devices], sensorscx/PSENSOR_CONTROLLER_CONFIG, SENSOR_CONTROLLER_CONFIG, SENSOR_CONTROLLER_CONFIG structure [Sensor Devices], sensorscx/SENSOR_CONTROLLER_CONFIG, *PSENSOR_CONTROLLER_CONFIG, sensors.sensor_controller_config, _SENSOR_CONTROLLER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,17 +118,17 @@ typedef struct _SENSOR_CONTROLLER_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The allocated size of this structure (in bytes).
 
 
-#### - DriverIsPowerPolicyOwner
+### -field DriverIsPowerPolicyOwner
 
 Indicates whether or not driver owns the power policy. This value must be either WdfFalse, WdfUseDefault, or WdfTrue. For partners to take advantage of pep-based power management, they must set this flag to WdfFalse or WdfUseDefault and remove any _PSx method in their ACPI tables.
 
 
-#### - EvtSensorStart
+### -field EvtSensorStart
 
 This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension.
 
@@ -143,7 +143,7 @@ This callback function starts the sensor based on the default properties specifi
 A reference to a sensor object.
 
 
-#### - EvtSensorStop
+### -field EvtSensorStop
 
 This callback function stops the sensor.
 
@@ -158,7 +158,7 @@ This callback function stops the sensor.
 A reference to a sensor object.
 
 
-#### - EvtSensorGetSupportedDataFields
+### -field EvtSensorGetSupportedDataFields
 
 This callback function returns a list of data fields supported by the specified sensor.
 
@@ -185,7 +185,7 @@ A list of data fields that are supported by the given sensor.
 The size of pFields.
 
 
-#### - EvtSensorGetDataFieldProperties
+### -field EvtSensorGetDataFieldProperties
 
 This callback function returns the properties of a given data field associated with a sensor.
 
@@ -220,7 +220,7 @@ A list of properties associated with the pDataField.
 The size of pDataField.
 
 
-#### - EvtSensorGetDataInterval
+### -field EvtSensorGetDataInterval
 
 This callback function returns the data interval for a specified sensor.
 
@@ -243,7 +243,7 @@ A reference to a sensor object.
 The data interval for the specified sensor.
 
 
-#### - EvtSensorSetDataInterval
+### -field EvtSensorSetDataInterval
 
 This callback function sets the data interval for a specified sensor.
 
@@ -254,6 +254,11 @@ This callback function sets the data interval for a specified sensor.
 
 
 
+#### DataRateMs
+
+The data interval for to set for the sensor.
+
+
 #### Sensor
 
 A reference to a sensor object.
@@ -261,12 +266,7 @@ A reference to a sensor object.
 
 
 
-#### DataRateMs
-
-The data interval for to set for the sensor.
-
-
-#### - EvtSensorGetDataThresholds
+### -field EvtSensorGetDataThresholds
 
 This callback function returns the thresholds that are associated with a sensor.
 
@@ -285,17 +285,17 @@ A reference to a sensor object.
 
 
 
-#### pThresholds
-
-A list of threshold properties and their values associated with the sensor.
-
-
 #### pSize
 
 The size of pThresholds.
 
 
-#### - EvtSensorSetDataThresholds
+#### pThresholds
+
+A list of threshold properties and their values associated with the sensor.
+
+
+### -field EvtSensorSetDataThresholds
 
 This callback function stops the sensor.
 
@@ -318,7 +318,7 @@ A reference to a sensor object.
 A list of threshold properties and their values associated with the sensor.
 
 
-#### - EvtSensorGetProperties
+### -field EvtSensorGetProperties
 
 This callback function returns the properties for a given sensor.
 
@@ -347,7 +347,7 @@ A list of properties and their values for the specified sensor.
 The size of pProperties.
 
 
-#### - EvtSensorDeviceIoControl
+### -field EvtSensorDeviceIoControl
 
 This callback function handles IOCTLs outside of the class extension.<div class="alert"><b>Note</b>  If the driver needs to queue the IRP, it must copy the IRP to an IoQueue that the driver owns. This will prevent all IRPs for the driver to be stalled until completion.</div>
 <div> </div>
@@ -363,25 +363,6 @@ This callback function handles IOCTLs outside of the class extension.<div class=
 
 
 
-#### Sensor
-
-A reference to a sensor object.
-
-
-
-
-#### Request
-
-A handle to a framework request object that represents the I/O request.
-
-
-#### OutputBufferLength
-
-The length of the output buffer (in bytes).
-
-
-
-
 #### InputBufferLength
 
 The length of the input buffer (in bytes).
@@ -392,6 +373,25 @@ The length of the input buffer (in bytes).
 #### IoControlCode
 
 The code that indicates which device I/O control function is to be executed.
+
+
+
+
+#### OutputBufferLength
+
+The length of the output buffer (in bytes).
+
+
+
+
+#### Request
+
+A handle to a framework request object that represents the I/O request.
+
+
+#### Sensor
+
+A reference to a sensor object.
 
 
 
@@ -421,7 +421,7 @@ The code that indicates which device I/O control function is to be executed.
  
 
 
-#### - EvtSensorSetBatchLatency
+### -field EvtSensorSetBatchLatency
 
 This callback function sets the batch latency for a specified sensor.<pre class="syntax">typedef _Function_class_(EVT_SENSOR_DRIVER_SET_BATCH_LATENCY)
 _IRQL_requires_same_
@@ -434,14 +434,14 @@ typedef EVT_SENSOR_DRIVER_SET_BATCH_LATENCY *PFN_SENSOR_DRIVER_SET_BATCH_LATENCY
 
 
 
-#### Sensor
-
-A reference to a sensor object.
-
-
 #### BatchLatencyMs
 
 The batch latency, expressed in milliseconds.
+
+
+#### Sensor
+
+A reference to a sensor object.
 
 
 ### -field EvtSensorStartStateChangeNotification

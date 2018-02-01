@@ -81,7 +81,7 @@ VOID APIENTRY CsSetConstantBuffers(
 
 
 
-#### - NumBuffers [in]
+### -param NumBuffers [in]
 
  The total number of buffers to set. 
 
@@ -93,14 +93,14 @@ VOID APIENTRY CsSetConstantBuffers(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - StartBuffer [in]
 
  The starting constant buffer to set. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - phBuffers [in]

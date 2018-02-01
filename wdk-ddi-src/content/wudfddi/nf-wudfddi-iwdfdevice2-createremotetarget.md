@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b11d913-f488-4237-85e3-4469eefc0b91
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2::CreateRemoteTarget, IWDFDevice2, CreateRemoteTarget, wudfddi/IWDFDevice2::CreateRemoteTarget, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, IWDFDevice2 interface, CreateRemoteTarget method, umdf.iwdfdevice2_createremotetarget, CreateRemoteTarget method, IWDFDevice2 interface, CreateRemoteTarget method, wdf.iwdfdevice2_createremotetarget
+ms.keywords: CreateRemoteTarget, CreateRemoteTarget method, CreateRemoteTarget method, IWDFDevice2 interface, wdf.iwdfdevice2_createremotetarget, wudfddi/IWDFDevice2::CreateRemoteTarget, IWDFDevice2 interface, CreateRemoteTarget method, IWDFDevice2::CreateRemoteTarget, umdf.iwdfdevice2_createremotetarget, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT CreateRemoteTarget(
 
 
 
-#### - pCallbackInterface [in, optional]
+### -param pCallbackInterface [in, optional]
 
 A pointer to an optional, driver-supplied callback interface. The <b>IUnknown::QueryInterface</b> method of this interface must return a pointer to the driver's <a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a> interface, if the driver supports that interface. This parameter is optional and can be <b>NULL</b>.
 
 
-#### - pParentObject [in, optional]
+### -param pParentObject [in, optional]
 
 A pointer to a framework object. If the driver provides this optional pointer, the specified object becomes the parent of the new remote target object. If this parameter is <b>NULL</b>, the device object that provides the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface becomes the parent. The framework will delete the remote target object when it deletes the parent object. 
 
 
-#### - ppRemoteTarget [out]
+### -param ppRemoteTarget [out]
 
 A pointer to a location that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a> interface of the new remote target object.
 
@@ -137,11 +137,11 @@ For more information about remote I/O targets, see <a href="https://docs.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
 
  
 

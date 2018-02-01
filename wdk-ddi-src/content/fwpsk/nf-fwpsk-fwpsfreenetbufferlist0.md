@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e337d7a-a408-4574-8da3-ea333fdbde8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsFreeNetBufferList0, fwpsk/FwpsFreeNetBufferList0, netvista.fwpsfreenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_2104bcba-b5f2-4476-9b9e-9783269618f0.xml, FwpsFreeNetBufferList0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: fwpsk/FwpsFreeNetBufferList0, wfp_ref_2_funct_3_fwps_D-H_2104bcba-b5f2-4476-9b9e-9783269618f0.xml, netvista.fwpsfreenetbufferlist0, FwpsFreeNetBufferList0, FwpsFreeNetBufferList0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ void NTAPI FwpsFreeNetBufferList0(
 
 
 
-#### - netBufferList [in, out]
+### -param netBufferList [in, out]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is being
@@ -99,8 +99,8 @@ A callout driver calls the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
-   FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d4ca1276-c0f6-46c6-bf86-3cd2a0c5f194
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_VIDEO_NUM_MODES, Video_Structs_9e999162-309a-4902-8854-172c672bf1ea.xml, VIDEO_NUM_MODES, ntddvdeo/VIDEO_NUM_MODES, ntddvdeo/PVIDEO_NUM_MODES, PVIDEO_NUM_MODES structure pointer [Display Devices], display.video_num_modes, PVIDEO_NUM_MODES, VIDEO_NUM_MODES structure [Display Devices], *PVIDEO_NUM_MODES"
+ms.keywords: PVIDEO_NUM_MODES, ntddvdeo/VIDEO_NUM_MODES, *PVIDEO_NUM_MODES, Video_Structs_9e999162-309a-4902-8854-172c672bf1ea.xml, display.video_num_modes, VIDEO_NUM_MODES, _VIDEO_NUM_MODES, ntddvdeo/PVIDEO_NUM_MODES, PVIDEO_NUM_MODES structure pointer [Display Devices], VIDEO_NUM_MODES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _VIDEO_NUM_MODES {
 
 
 
-#### - NumModes
+### -field NumModes
 
 Specifies the number of modes supported by the device.
 
 
-#### - ModeInformationLength
+### -field ModeInformationLength
 
 Is the length, in bytes, of the <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a> structure that describes each of the modes supported by the device.
 
@@ -87,9 +87,9 @@ The miniport driver returns a VIDEO_NUM_MODES structure in response to an <a hre
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_num_avail_modes.md">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a>
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_num_avail_modes.md">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a>
 
  
 

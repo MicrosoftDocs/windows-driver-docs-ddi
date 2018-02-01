@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::ReadBugCheckData, IDebugControl3, ReadBugCheckData method [Windows Debugging], IDebugControl interface, ReadBugCheckData, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl interface [Windows Debugging], ReadBugCheckData method, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl3::ReadBugCheckData, IDebugControl::ReadBugCheckData, dbgeng/IDebugControl3::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, debugger.readbugcheckdata, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl2::ReadBugCheckData, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface [Windows Debugging], ReadBugCheckData method
+ms.keywords: ReadBugCheckData method [Windows Debugging], IDebugControl interface, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::ReadBugCheckData, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3::ReadBugCheckData, IDebugControl3, ReadBugCheckData, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl2::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], debugger.readbugcheckdata, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl2::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,27 +73,27 @@ HRESULT ReadBugCheckData(
 
 
 
-#### - Code [out]
+### -param Code [out]
 
 Receives the bug check code.
 
 
-#### - Arg1 [out]
+### -param Arg1 [out]
 
 Receives the first parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
 
-#### - Arg2 [out]
+### -param Arg2 [out]
 
 Receives the second parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
 
-#### - Arg3 [out]
+### -param Arg3 [out]
 
 Receives the third parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 
 
-#### - Arg4 [out]
+### -param Arg4 [out]
 
 Receives the fourth parameter associated with the bug check.  The interpretation of this parameter depends on the bug check code.
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: D4A9B507-E199-42EA-BC29-6F477BEC8D20
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_SET_UNIT_INFO, SET_UNIT_INFO structure [Buses], SET_UNIT_INFO, PSET_UNIT_INFO structure pointer [Buses], *PSET_UNIT_INFO, 61883/PSET_UNIT_INFO, PSET_UNIT_INFO, 61883/SET_UNIT_INFO, IEEE.set_unit_info"
+ms.keywords: "_SET_UNIT_INFO, 61883/SET_UNIT_INFO, SET_UNIT_INFO, SET_UNIT_INFO structure [Buses], *PSET_UNIT_INFO, IEEE.set_unit_info, 61883/PSET_UNIT_INFO, PSET_UNIT_INFO, PSET_UNIT_INFO structure pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _SET_UNIT_INFO {
 
 
 
-#### - nLevel
+### -field nLevel
 
 On input, the level of information to retrieve. Can be one of the following:
 
@@ -81,7 +81,7 @@ SET_UNIT_INFO_ISOCH_PARAMS
 SET_CMP_ADDRESS_RANGE_TYPE
 
 
-#### - Information
+### -field Information
 
 On input, if <b>nLevel</b> is SET_UNIT_INFO_DIAG_LEVEL, this member is a pointer to a caller-allocated and initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff538914">UNIT_DIAG_LEVEL</a> structure.
 

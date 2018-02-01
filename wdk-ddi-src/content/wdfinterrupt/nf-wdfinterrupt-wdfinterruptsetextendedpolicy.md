@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 043c15dc-ebd7-4d91-8f65-d89d6064cc7c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptSetExtendedPolicy, PFN_WDFINTERRUPTSETEXTENDEDPOLICY, DFInterruptObjectRef_ed600fb0-0e09-4c00-a132-cd4947dd2b04.xml, kmdf.wdfinterruptsetextendedpolicy, WdfInterruptSetExtendedPolicy method, wdf.wdfinterruptsetextendedpolicy, WdfInterruptSetExtendedPolicy
+ms.keywords: DFInterruptObjectRef_ed600fb0-0e09-4c00-a132-cd4947dd2b04.xml, wdf.wdfinterruptsetextendedpolicy, PFN_WDFINTERRUPTSETEXTENDEDPOLICY, kmdf.wdfinterruptsetextendedpolicy, WdfInterruptSetExtendedPolicy, wdfinterrupt/WdfInterruptSetExtendedPolicy, WdfInterruptSetExtendedPolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ VOID WdfInterruptSetExtendedPolicy(
 
 
 
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
-#### - PolicyAndGroup [in]
+### -param PolicyAndGroup [in]
 
 A pointer to a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure that the caller allocates and initializes.
 

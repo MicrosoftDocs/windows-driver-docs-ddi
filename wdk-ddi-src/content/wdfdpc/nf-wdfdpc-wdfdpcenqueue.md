@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08bc78de-ba04-4845-9d22-c06cd5684f7f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDPCENQUEUE, wdf.wdfdpcenqueue, WdfDpcEnqueue method, kmdf.wdfdpcenqueue, WdfDpcEnqueue, wdfdpc/WdfDpcEnqueue, DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml
+ms.keywords: kmdf.wdfdpcenqueue, wdfdpc/WdfDpcEnqueue, wdf.wdfdpcenqueue, DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, WdfDpcEnqueue method, PFN_WDFDPCENQUEUE, WdfDpcEnqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ BOOLEAN WdfDpcEnqueue(
 
 
 
-#### - Dpc [in]
+### -param Dpc [in]
 
 A handle to a framework DPC object.
 

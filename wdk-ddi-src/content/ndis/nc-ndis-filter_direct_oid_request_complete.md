@@ -75,23 +75,23 @@ VOID FilterDirectOidRequestComplete(
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
 
 
-#### - OidRequest [in]
+### -param OidRequest [in]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that the filter
      driver previously passed to the 
-     <mshelp:link keywords="netvista.ndisfdirectoidrequest" tabindex="0"><b>
-     NdisFDirectOidRequest</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">
+     NdisFDirectOidRequest</a> function.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The final status of the request that an underlying driver or NDIS set. This parameter determines
      what 
@@ -112,8 +112,8 @@ None
 
 <i>FilterDirectOidRequestComplete</i> is an optional function. If a filter driver does not use direct OID
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-    NdisFRegisterFilterDriver</b></mshelp:link> function. If a filter driver defines a 
+    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    NdisFRegisterFilterDriver</a> function. If a filter driver defines a 
     <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a> function,
     it must provide the 
     <i>FilterDirectOidRequestComplete</i> function.
@@ -128,8 +128,8 @@ If a filter driver forwarded a request that it received in the
     
     <i>FilterDirectOidRequestComplete</i> should pass the completion status up the driver stack by calling the
     
-    <mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-    NdisFDirectOidRequestComplete</b></mshelp:link> function. In this case, the filter driver must call 
+    <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+    NdisFDirectOidRequestComplete</a> function. In this case, the filter driver must call 
     <a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>, to free
     the 
     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure, before it calls
@@ -179,20 +179,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+   NdisFDirectOidRequestComplete</a>
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
-
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
-<mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-   NdisFDirectOidRequestComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+
+<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
 
  
 

@@ -75,42 +75,42 @@ BOOLEAN HwScsiWmiQueryDataBlock(
 
 
 
-#### - Context [in]
+### -param Context [in]
 
 Points to the miniport driver-defined context value passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-#### - DispatchContext [in]
+### -param DispatchContext [in]
 
 Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-#### - GuidIndex [in]
+### -param GuidIndex [in]
 
 Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
 
 
-#### - InstanceIndex [in]
+### -param InstanceIndex [in]
 
 If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_SINGLE_INSTANCE request, <i>InstanceIndex</i> specifies the instance to be queried. If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_ALL_DATA REQUEST, <i>InstanceIndex</i> is zero.
 
 
-#### - InstanceCount [in]
+### -param InstanceCount [in]
 
 If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_SINGLE_INSTANCE request, <i>InstanceCount</i> is 1. If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_ALL_DATA REQUEST, <i>InstanceCount</i> is the number of instances to be returned.
 
 
-#### - InstanceLengthArray [in, out]
+### -param InstanceLengthArray [in, out]
 
 Points to an array of ULONGs that indicate the length of each instance of the data block to be returned. This array has <i>InstanceCount</i> elements. This value may be <b>NULL</b> when there is not enough space in the output buffer to fulfill the request. 
 
 
-#### - BufferAvail [in]
+### -param BufferAvail [in]
 
 Specifies the maximum number of bytes available to receive data in the buffer at <i>Buffer</i>.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Points to the buffer to receive instance data. If the buffer is large enough to receive all of the data, the miniport driver writes instance data to the buffer with each instance aligned on an 8-byte boundary. If the buffer is too small to receive all of the data, the miniport driver calls <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a> with a status of SRB_STATUS_DATA_OVERRUN and sets <i>BufferUsed</i>  to the size of the output buffer needed to fulfill the request.
 
@@ -133,11 +133,11 @@ The miniport driver writes instance data to the buffer. For requests that do not
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
  
 

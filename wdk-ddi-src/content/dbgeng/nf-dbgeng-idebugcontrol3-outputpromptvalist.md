@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 08140a38-19dd-4fce-8659-ab5eb3257f2f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.outputpromptvalist, IDebugControl3, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl2::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], OutputPromptVaList method, OutputPromptVaList, IDebugControl interface [Windows Debugging], OutputPromptVaList method, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface [Windows Debugging], OutputPromptVaList method, dbgeng/IDebugControl::OutputPromptVaList, IDebugControl3::OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::OutputPromptVaList
+ms.keywords: debugger.outputpromptvalist, IDebugControl2::OutputPromptVaList, OutputPromptVaList method [Windows Debugging], dbgeng/IDebugControl3::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl2 interface, OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, IDebugControl3, IDebugControl::OutputPromptVaList, dbgeng/IDebugControl2::OutputPromptVaList, IDebugControl3 interface [Windows Debugging], OutputPromptVaList method, IDebugControl2 interface [Windows Debugging], OutputPromptVaList method, IDebugControl3::OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], OutputPromptVaList method, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ HRESULT OutputPromptVaList(
 
 
 
-#### - OutputControl [in]
+### -param OutputControl [in]
 
 Specifies an output control that determines which of the client's output callbacks will receive the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
 
 
-#### - Format [in, optional]
+### -param Format [in, optional]
 
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -255,7 +255,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the output callbacks.
 
 
-#### - Args [in]
+### -param Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>. This method does not call <b>va_end</b>.
 
@@ -299,17 +299,17 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

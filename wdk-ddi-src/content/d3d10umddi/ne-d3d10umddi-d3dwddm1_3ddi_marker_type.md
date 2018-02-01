@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E57CA17F-FB96-4E9B-A38D-67A4F925D3B4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_NONE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, display.d3dwddm1_3ddi_marker_type, D3DWDDM1_3DDI_MARKER_TYPE, D3DWDDM1_3DDI_MARKER_TYPE enumeration [Display Devices], D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE, D3DWDDM1_3DDI_MARKER_TYPE_NONE
+ms.keywords: D3DWDDM1_3DDI_MARKER_TYPE_NONE, D3DWDDM1_3DDI_MARKER_TYPE enumeration [Display Devices], d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_NONE, D3DWDDM1_3DDI_MARKER_TYPE, display.d3dwddm1_3ddi_marker_type, D3DWDDM1_3DDI_MARKER_TYPE_PROFILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum D3DWDDM1_3DDI_MARKER_TYPE {
 
 
 
-#### - D3DWDDM1_3DDI_MARKER_TYPE_NONE
+### -field D3DWDDM1_3DDI_MARKER_TYPE_NONE
 
 No marker type is supported.
 
 
-#### - D3DWDDM1_3DDI_MARKER_TYPE_PROFILE
+### -field D3DWDDM1_3DDI_MARKER_TYPE_PROFILE
 
 The context submits GPU work for single-threaded user-mode DDIs. In this case, each time stamp denotes the end of GPU work.
 

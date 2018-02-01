@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03f1559c-83a7-478c-a616-ebe6002cb724
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, ndis/NdisGetCurrentProcessorCpuUsage, netvista.ndisgetcurrentprocessorcpuusage, NdisGetCurrentProcessorCpuUsage
+ms.keywords: ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCpuUsage, NdisGetCurrentProcessorCpuUsage, netvista.ndisgetcurrentprocessorcpuusage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID NdisGetCurrentProcessorCpuUsage(
 
 
 
-#### - pCpuUsage [out]
+### -param pCpuUsage [out]
 
 A pointer to a caller-supplied variable that receives the average usage of the current processor since boot, expressed as a percentage.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 252dc455-e2d9-40db-83ea-a53e5ff8eda0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsaddlogcontainerset, Clfs_f112becb-a913-4d1a-8e58-d7365468be18.xml, wdm/ClfsAddLogContainerSet, ClfsAddLogContainerSet routine [Kernel-Mode Driver Architecture], ClfsAddLogContainerSet
+ms.keywords: ClfsAddLogContainerSet, wdm/ClfsAddLogContainerSet, ClfsAddLogContainerSet routine [Kernel-Mode Driver Architecture], kernel.clfsaddlogcontainerset, Clfs_f112becb-a913-4d1a-8e58-d7365468be18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ NTSTATUS ClfsAddLogContainerSet(
 
 
 
-#### - plfoLog [in]
+### -param plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the log to which the containers will be added. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
-#### - cContainers [in]
+### -param cContainers [in]
 
 The number of containers in the set. This is the number of elements in the <i>rguszContainerPath</i> array.
 
 
-#### - pcbContainer [in, optional]
+### -param pcbContainer [in, optional]
 
 A pointer to a ULONGLONG-typed variable. The role of this parameter depends on whether the log currently has at least one container.
 <ul>
@@ -100,7 +100,7 @@ If the log currently has at least one container and this parameter is a valid po
 </li>
 </ul>
 
-#### - rguszContainerPath [in]
+### -param rguszContainerPath [in]
 
 A pointer to an array of <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structures. Each string supplies the path name for one of the new containers. The number of elements in the array is given by <i>cContainers</i>. A given path can be absolute or relative to the location of the base log file. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\").
 

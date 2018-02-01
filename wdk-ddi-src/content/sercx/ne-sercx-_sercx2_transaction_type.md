@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9F50CA34-DDEA-49E4-8149-B92D00476720
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2TransactionTypeSystemDma, SerCx2TransactionTypePio, SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], SerCx2TransactionTypeSystemDma, SerCx2TransactionTypeCustom, 2/SerCx2TransactionTypePio, 2/SerCx2TransactionTypeDefault, _SERCX2_TRANSACTION_TYPE, 2/SERCX2_TRANSACTION_TYPE, SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeCustom, SerCx2TransactionTypeDefault, serports.sercx2_transaction_type
+ms.keywords: SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], SerCx2TransactionTypeSystemDma, SerCx2TransactionTypeDefault, 2/SerCx2TransactionTypePio, _SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeCustom, 2/SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeDefault, SerCx2TransactionTypePio, 2/SerCx2TransactionTypeSystemDma, serports.sercx2_transaction_type, SerCx2TransactionTypeCustom, SERCX2_TRANSACTION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,22 +71,22 @@ typedef enum _SERCX2_TRANSACTION_TYPE {
 
 
 
-#### - SerCx2TransactionTypeDefault
+### -field SerCx2TransactionTypeDefault
 
 Let SerCx2 decide what type of data transfer to use for the I/O transaction.
 
 
-#### - SerCx2TransactionTypePio
+### -field SerCx2TransactionTypePio
 
 Use programmed I/O (PIO) to perform the I/O transaction.
 
 
-#### - SerCx2TransactionTypeSystemDma
+### -field SerCx2TransactionTypeSystemDma
 
 Use system DMA to perform the I/O transaction.
 
 
-#### - SerCx2TransactionTypeCustom
+### -field SerCx2TransactionTypeCustom
 
 Use the custom data-transfer mechanism to perform the I/O transaction.
 

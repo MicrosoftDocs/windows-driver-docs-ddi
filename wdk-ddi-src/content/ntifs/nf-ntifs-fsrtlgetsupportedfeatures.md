@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlGetSupportedFeatures routine [Installable File System Drivers], ntifs/FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures, SUPPORTED_FS_FEATURES_OFFLOAD_READ, ifsk.fsrtlgetsupportedfeatures, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE
+ms.keywords: ntifs/FsRtlGetSupportedFeatures, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, SUPPORTED_FS_FEATURES_OFFLOAD_READ, FsRtlGetSupportedFeatures routine [Installable File System Drivers], FsRtlGetSupportedFeatures, ifsk.fsrtlgetsupportedfeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FsRtlGetSupportedFeatures(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 The target device object attached to a volume.
 
 
-#### - SupportedFeatures [out]
+### -param SupportedFeatures [out]
 
 A pointer to a caller supplied <b>ULONG</b> value. On return, this value contains the supported feature flags for the attached volume.
 

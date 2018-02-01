@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44a5b4dd-c654-4af1-afd6-6e59d2cd1ff8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC function, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC, wdf.wdf_timer_config_init_periodic, WDF_TIMER_CONFIG_INIT_PERIODIC, kmdf.wdf_timer_config_init_periodic
+ms.keywords: wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC, WDF_TIMER_CONFIG_INIT_PERIODIC function, kmdf.wdf_timer_config_init_periodic, DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC, wdf.wdf_timer_config_init_periodic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,17 +73,17 @@ VOID WDF_TIMER_CONFIG_INIT_PERIODIC(
 
 
 
-#### - Config [in]
+### -param Config [in]
 
 A pointer to a <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure.
 
 
-#### - EvtTimerFunc [in]
+### -param EvtTimerFunc [in]
 
 A pointer to a driver-supplied <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function.
 
 
-#### - Period [in]
+### -param Period [in]
 
 A time value. For more information about specifying this value, see <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>.
 
@@ -106,9 +106,9 @@ The <b>WDF_TIMER_CONFIG_INIT_PERIODIC</b> function zeros the specified <a href="
 
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
-<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
-
 <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+
+<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
 
  
 

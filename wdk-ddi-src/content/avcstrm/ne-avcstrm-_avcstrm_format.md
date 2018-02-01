@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4481ec67-55b6-479e-b0b6-5f8ed56a5290
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcstrm/AVCSTRM_FORMAT_HDDV_NTSC, AVCSTRM_FORMAT enumeration [Streaming Media Devices], avcstrm/AVCSTRM_FORMAT_SDDV_NTSC, avcstrm/AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT_SDLDV_PAL, avcsref_489c2bf8-1e1f-4feb-91fb-0ba3666ba399.xml, AVCSTRM_FORMAT_SDDV_PAL, avcstrm/AVCSTRM_FORMAT_SDLDV_NTSC, AVCSTRM_FORMAT_HDDV_PAL, stream.avcstrm_format, avcstrm/AVCSTRM_FORMAT_SDDV_PAL, AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_MPEG2TS, AVCSTRM_FORMAT_HDDV_NTSC, AVCSTRM_FORMAT_SDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDLDV_PAL, AVCSTRM_FORMAT_SDLDV_NTSC, _AVCSTRM_FORMAT, AVCSTRM_FORMAT_MPEG2TS
+ms.keywords: stream.avcstrm_format, avcstrm/AVCSTRM_FORMAT_MPEG2TS, avcstrm/AVCSTRM_FORMAT_SDLDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDLDV_PAL, avcstrm/AVCSTRM_FORMAT_HDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDDV_NTSC, AVCSTRM_FORMAT_SDLDV_NTSC, avcstrm/AVCSTRM_FORMAT, AVCSTRM_FORMAT_SDDV_PAL, AVCSTRM_FORMAT_SDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDDV_PAL, _AVCSTRM_FORMAT, AVCSTRM_FORMAT_HDDV_NTSC, AVCSTRM_FORMAT_SDLDV_PAL, AVCSTRM_FORMAT enumeration [Streaming Media Devices], avcsref_489c2bf8-1e1f-4feb-91fb-0ba3666ba399.xml, AVCSTRM_FORMAT, AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT_MPEG2TS, avcstrm/AVCSTRM_FORMAT_HDDV_PAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,37 +73,37 @@ typedef enum _AVCSTRM_FORMAT {
 
 
 
-#### - AVCSTRM_FORMAT_SDDV_NTSC
+### -field AVCSTRM_FORMAT_SDDV_NTSC
 
 Specifies the 61883-2 specification for SD-DVCR data transmission, Standard Definition NTSC.
 
 
-#### - AVCSTRM_FORMAT_SDDV_PAL
+### -field AVCSTRM_FORMAT_SDDV_PAL
 
 Specifies the 61883-2 specification for SD-DVCR data transmission, Standard Definition PAL.
 
 
-#### - AVCSTRM_FORMAT_MPEG2TS
+### -field AVCSTRM_FORMAT_MPEG2TS
 
 Specifies the 61883-4 specification for MPEG2-TS data transmission.
 
 
-#### - AVCSTRM_FORMAT_HDDV_NTSC
+### -field AVCSTRM_FORMAT_HDDV_NTSC
 
 Specifies the 61883-3 specification for HD-DVCR data transmission, High Definition NTSC. This format is not supported.
 
 
-#### - AVCSTRM_FORMAT_HDDV_PAL
+### -field AVCSTRM_FORMAT_HDDV_PAL
 
 Specifies the 61883-3 specification for HD-DVCR data transmission, High Definition PAL. This format is not supported.
 
 
-#### - AVCSTRM_FORMAT_SDLDV_NTSC
+### -field AVCSTRM_FORMAT_SDLDV_NTSC
 
 Specifies the 61883-5 specification for SDL-DVCR data transmission. NTSC. This format is not supported.
 
 
-#### - AVCSTRM_FORMAT_SDLDV_PAL
+### -field AVCSTRM_FORMAT_SDLDV_PAL
 
 Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This format is not supported.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a0e819e-6da7-4006-a276-9bfd324800d8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KEY_VALUE_ENTRY, PKEY_VALUE_ENTRY, *PKEY_VALUE_ENTRY, PKEY_VALUE_ENTRY structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_ENTRY, wdm/KEY_VALUE_ENTRY, KEY_VALUE_ENTRY structure [Kernel-Mode Driver Architecture], wdm/PKEY_VALUE_ENTRY, kernel.key_value_entry, kstruct_c_750eac86-0e41-4623-8404-8c198c1ee96c.xml
+ms.keywords: PKEY_VALUE_ENTRY, kstruct_c_750eac86-0e41-4623-8404-8c198c1ee96c.xml, kernel.key_value_entry, _KEY_VALUE_ENTRY, wdm/KEY_VALUE_ENTRY, KEY_VALUE_ENTRY structure [Kernel-Mode Driver Architecture], PKEY_VALUE_ENTRY structure pointer [Kernel-Mode Driver Architecture], *PKEY_VALUE_ENTRY, wdm/PKEY_VALUE_ENTRY, KEY_VALUE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _KEY_VALUE_ENTRY {
 
 
 
-#### - ValueName
+### -field ValueName
 
 Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the value entry.
 
 
-#### - DataLength
+### -field DataLength
 
 Specifies the size, in bytes, of the data for the value entry.
 
 
-#### - DataOffset
+### -field DataOffset
 
 Specifies the offset, in bytes, of the value entry's data within the buffer that is pointed to by the <b>ValueBuffer</b> member of <a href="..\wdm\ns-wdm-_reg_query_multiple_value_key_information.md">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>.
 
 
-#### - Type
+### -field Type
 
 Specifies the type of the value entry's data. For a description of the possible values for <b>Type</b>, see the <i>Type</i> parameter of <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>.
 
@@ -100,9 +100,9 @@ The <b>ValueEntries</b> member of <a href="..\wdm\ns-wdm-_reg_query_multiple_val
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
 <a href="..\wdm\ns-wdm-_reg_query_multiple_value_key_information.md">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
  
 

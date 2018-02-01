@@ -75,17 +75,17 @@ VOID EvtDeviceUsageNotification(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - NotificationType [in]
+### -param NotificationType [in]
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md">WDF_SPECIAL_FILE_TYPE</a>-typed value that identifies the type of special file that the system is storing on the specified device.
 
 
-#### - IsInNotificationPath [in]
+### -param IsInNotificationPath [in]
 
 A Boolean value which, if <b>TRUE</b>, indicates that the system has starting using the special file and, if <b>FALSE</b>, indicate that the system as finished using the special file.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15984217-e789-457c-b20f-c3d51741f5d3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, CreateSymbolicLink, CreateSymbolicLink method, wdf.iwdfdevice_createsymboliclink, IWDFDevice interface, CreateSymbolicLink method, IWDFDevice, wudfddi/IWDFDevice::CreateSymbolicLink, CreateSymbolicLink method, IWDFDevice interface, umdf.iwdfdevice_createsymboliclink
+ms.keywords: CreateSymbolicLink method, IWDFDevice interface, CreateSymbolicLink method, IWDFDevice interface, CreateSymbolicLink method, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, IWDFDevice::CreateSymbolicLink, umdf.iwdfdevice_createsymboliclink, IWDFDevice, wdf.iwdfdevice_createsymboliclink, wudfddi/IWDFDevice::CreateSymbolicLink, CreateSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT CreateSymbolicLink(
 
 
 
-#### - pSymbolicLink [in]
+### -param pSymbolicLink [in]
 
 A pointer to a <b>NULL</b>-terminated string that contains the name of the symbolic link for the device. The symbolic link name must be in the global <b>DosDevices</b> namespace.
 
@@ -94,9 +94,9 @@ For an example usage of this method, see the <a href="http://go.microsoft.com/fw
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556932">IWDFDevice2::CreateSymbolicLinkWithReferenceString</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

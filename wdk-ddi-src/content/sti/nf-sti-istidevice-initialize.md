@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3cd6ece6-2c8e-4072-8ac5-d1e90c9392db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::Initialize, Initialize method [Imaging Devices], IStiDevice interface, Initialize method [Imaging Devices], Initialize, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml, image.istidevice_initialize, sti/IStiDevice::Initialize, IStiDevice interface [Imaging Devices], Initialize method, IStiDevice
+ms.keywords: Initialize method [Imaging Devices], stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml, IStiDevice::Initialize, IStiDevice, sti/IStiDevice::Initialize, IStiDevice interface [Imaging Devices], Initialize method, Initialize, image.istidevice_initialize, Initialize method [Imaging Devices], IStiDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT Initialize(
 
 
 
-#### - hinst [in]
+### -param hinst [in]
 
 Caller-supplied instance handle of the calling process. This handle is obtained by calling <b>GetModuleName</b>(NULL).
 
 
-#### - pwszDeviceName [in]
+### -param pwszDeviceName [in]
 
 Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543790">IStillImage::GetSTILaunchInformation</a>.
 
 
-#### - dwVersion
+### -param dwVersion
 
 Caller-supplied STI version number. This value must be STI_VERSION, defined in <i>Sti.h</i>.
 
 
-#### - dwMode
+### -param dwMode
 
 Caller-supplied constant value indicating the <a href="https://msdn.microsoft.com/79af0d8f-dd04-4ff4-a047-f415562a16a5">Transfer Modes</a> in which the device is to be used. The following values are valid.
 <table>

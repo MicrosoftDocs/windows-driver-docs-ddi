@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::Initialize, Initialize method [Imaging Devices], IStiUSD interface, Initialize method [Imaging Devices], image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize, Initialize, IStiUSD interface [Imaging Devices], Initialize method, IStiUSD
+ms.keywords: Initialize method [Imaging Devices], image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, IStiUSD, Initialize method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], Initialize method, stiusd/IStiUSD::Initialize, Initialize, IStiUSD::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,12 +75,12 @@ HRESULT Initialize(
 
 
 
-#### - dwStiVersion
+### -param dwStiVersion
 
 Caller-supplied STI version number. This value is defined by STI_VERSION in <i>Sti.h</i>.
 
 
-#### - hParametersKey
+### -param hParametersKey
 
 Caller-supplied handle to the registry key under which device-specific information is to be stored.
 

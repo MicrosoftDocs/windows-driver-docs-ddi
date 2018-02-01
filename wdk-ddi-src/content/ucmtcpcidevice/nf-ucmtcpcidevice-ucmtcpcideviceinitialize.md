@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f89dd322-520b-41b0-bbe2-6eab0f8a6b70
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmtcpcideviceinitialize, UcmTcpciDeviceInitialize, ucmtcpcidevice/UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses]
+ms.keywords: ucmtcpcidevice/UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize, buses.ucmtcpcideviceinitialize, UcmTcpciDeviceInitialize method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS UcmTcpciDeviceInitialize(
 
 
 
-#### - WdfDevice
+### -param WdfDevice
 
 A handle to a framework device object that the client driver received in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. 
 
 
-#### - Config
+### -param Config
 
 A pointer to a caller-supplied <a href="..\ucmtcpcidevice\ns-ucmtcpcidevice-_ucmtcpci_device_config.md">UCMTCPCI_DEVICE_CONFIG</a> structure that is initialized by calling <a href="..\ucmtcpcidevice\nf-ucmtcpcidevice-ucmtcpci_device_config_init.md">UCMTCPCI_DEVICE_CONFIG_INIT</a>. This value cannot be NULL.
 

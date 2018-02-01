@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2735aabf-b8b0-4eb1-89a2-4733d0b346ed
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, debugger.readimagentheaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, ReadImageNtHeaders, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces4, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method
+ms.keywords: ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, debugger.readimagentheaders, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces4, ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT ReadImageNtHeaders(
 
 
 
-#### - ImageBase [in]
+### -param ImageBase [in]
 
 Specifies the location in the target's virtual address space of the image whose NT headers are being requested.
 
 
-#### - Headers [out]
+### -param Headers [out]
 
 Receives the NT headers for the specified image.
 

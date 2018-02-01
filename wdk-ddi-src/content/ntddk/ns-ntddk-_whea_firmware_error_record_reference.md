@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 950a9b93-ef69-4075-9231-eb481a53c617
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_b43d8c6f-f768-47a1-9494-4a4bfac7d586.xml, *PWHEA_FIRMWARE_RECORD, ntddk/PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, whea.whea_firmware_error_record_reference, ntddk/WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure [WHEA Drivers and Applications], _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, *PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_RECORD, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure pointer [WHEA Drivers and Applications]
+ms.keywords: whearef_b43d8c6f-f768-47a1-9494-4a4bfac7d586.xml, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, whea.whea_firmware_error_record_reference, ntddk/PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure [WHEA Drivers and Applications], ntddk/WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure pointer [WHEA Drivers and Applications], WHEA_FIRMWARE_RECORD, *PWHEA_FIRMWARE_RECORD, *PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE {
 
 
 
-#### - Type
+### -field Type
 
 The type of firmware error record. This member is always set to WHEA_FIRMWARE_RECORD_TYPE_IPFSAL.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - FirmwareRecordId
+### -field FirmwareRecordId
 
 The identifier of the firmware error record.
 

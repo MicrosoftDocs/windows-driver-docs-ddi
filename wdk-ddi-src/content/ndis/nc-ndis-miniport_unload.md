@@ -73,7 +73,7 @@ VOID MiniportDriverUnload(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 A pointer to a 
      <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure that is the driver's
@@ -92,8 +92,8 @@ None
 
 A driver specifies the 
     <i>MiniportDriverUnload</i> entry point when it calls the 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a> function.
 
 The driver object that is associated with an NDIS miniport driver specifies an 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine. The operating system calls the 
@@ -109,14 +109,14 @@ The functionality of the
     <b>DriverEntry</b> routine.
 
 A miniport driver calls the 
-    <mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
-    NdisMDeregisterMiniportDriver</b></mshelp:link> function from 
+    <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+    NdisMDeregisterMiniportDriver</a> function from 
     <i>MiniportDriverUnload</i>.
 
 In addition to 
     <b>NdisMDeregisterMiniportDriver</b>, an intermediate driver also calls the 
-    <mshelp:link keywords="netvista.ndisderegisterprotocoldriver" tabindex="0"><b>
-    NdisDeregisterProtocolDriver</b></mshelp:link> function to deregister the protocol interface of the driver. 
+    <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">
+    NdisDeregisterProtocolDriver</a> function to deregister the protocol interface of the driver. 
     <i>MiniportDriverUnload</i> should also perform any necessary cleanup operations, such as deallocating any
     protocol driver interface resources.
 
@@ -163,18 +163,18 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
-
-<mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
-   NdisMDeregisterMiniportDriver</b></mshelp:link>
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+   NdisMDeregisterMiniportDriver</a>
 
  
 

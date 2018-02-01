@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60eb0494-fcc6-4546-a13a-b6d1dcf165e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_MSG_STATUS, wwan/WwanMsgStatusDraft, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_MSG_STATUS, wwan/WwanMsgStatusMax, WwanMsgStatusSent, WWAN_MSG_STATUS, WwanMsgStatusMax, WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, wwan/WWAN_MSG_STATUS, WwanMsgStatusNew, wwan/WwanMsgStatusSent, netvista.wwan_msg_status, wwan/WwanMsgStatusNew, WwanMsgStatusOld, wwan/PWWAN_MSG_STATUS, wwan/WwanMsgStatusOld, WwanMsgStatusDraft, _WWAN_MSG_STATUS, WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_MSG_STATUS, wwan/WWAN_MSG_STATUS, WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanMsgStatusSent, netvista.wwan_msg_status, wwan/WwanMsgStatusDraft, _WWAN_MSG_STATUS, wwan/WwanMsgStatusMax, WwanMsgStatusNew, *PWWAN_MSG_STATUS, wwan/WwanMsgStatusOld, WwanMsgStatusMax, wwan/WwanMsgStatusSent, WwanMsgStatusOld, WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, WWAN_MSG_STATUS, WwanMsgStatusDraft, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanMsgStatusNew, wwan/PWWAN_MSG_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,36 +72,36 @@ typedef enum _WWAN_MSG_STATUS {
 
 
 
-#### - WwanMsgStatusNew
+### -field WwanMsgStatusNew
 
 The message is new or unread.
 
 
-#### - WwanMsgStatusOld
+### -field WwanMsgStatusOld
 
 The message is old and is read.
 
 
-#### - WwanMsgStatusDraft
+### -field WwanMsgStatusDraft
 
 The message is unsent and stored in the device.
 
 
-#### - WwanMsgStatusSent
+### -field WwanMsgStatusSent
 
 The message has already been sent.
 
 
-#### - WwanMsgStatusMax
+### -field WwanMsgStatusMax
 
 The total number of supported SMS message statuses.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
-
 <a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
+
+<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
  
 

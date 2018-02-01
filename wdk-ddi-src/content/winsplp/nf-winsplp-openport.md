@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 32e47d3a-83ad-4d3f-a6ce-c03712021844
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pfnOpenPort function [Print Devices], pfnOpenPort, spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, winsplp/pfnOpenPort, print.openport, OpenPort
+ms.keywords: pfnOpenPort function [Print Devices], spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, winsplp/pfnOpenPort, pfnOpenPort, OpenPort, print.openport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ BOOL WINAPI pfnOpenPort(
 
 
 
-#### - pName
+### -param pName
 
 Caller-supplied pointer to a string containing the name of the port to be opened.
 
 
-#### - pHandle
+### -param pHandle
 
 Caller-supplied pointer to a location to receive a port handle.
 
@@ -113,21 +113,21 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
-
-<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
-
-<a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
+<a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
-<a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a>
+<a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
+
+<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
 
  
 

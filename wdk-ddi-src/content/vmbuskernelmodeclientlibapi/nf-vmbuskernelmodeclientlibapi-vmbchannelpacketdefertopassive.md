@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 796F849F-7281-4AE9-BE0D-350D24A39C61
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], VmbChannelPacketDeferToPassive, netvista.vmbchannelpacketdefertopassive
+ms.keywords: VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], VmbChannelPacketDeferToPassive, netvista.vmbchannelpacketdefertopassive, vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID VmbChannelPacketDeferToPassive(
 
 
 
-#### - PacketCompletionContext [in]
+### -param PacketCompletionContext [in]
 
 A  handle that identifies the incoming packet and is used to refer to the packet
 once processing is finished.  

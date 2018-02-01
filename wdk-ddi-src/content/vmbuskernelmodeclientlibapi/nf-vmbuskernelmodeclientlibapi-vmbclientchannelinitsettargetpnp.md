@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5525FD48-BE65-48CA-B3D5-C96AFD4ECF56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbClientChannelInitSetTargetPnp function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbClientChannelInitSetTargetPnp, VmbClientChannelInitSetTargetPnp, netvista.vmbclientchannelinitsettargetpnp
+ms.keywords: VmbClientChannelInitSetTargetPnp, netvista.vmbclientchannelinitsettargetpnp, VmbClientChannelInitSetTargetPnp function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbClientChannelInitSetTargetPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,20 +76,20 @@ NTSTATUS VmbClientChannelInitSetTargetPnp(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A pointer to a channel.
 
 
 
-#### - InterfaceType [in]
+### -param InterfaceType [in]
 
 A pointer to the interface type GUID.
 This GUID identifies the 
 type of channel and the protocol that is used with the channel.  
 
 
-#### - InterfaceInstance [in, optional]
+### -param InterfaceInstance [in, optional]
 
 A pointer to the instance type GUID. This is a 
 specific instance of the service. If not
@@ -97,7 +97,7 @@ provided, any instance with the provided type is accepted.
 
 
 
-#### - PnpFailureCallback [in, optional]
+### -param PnpFailureCallback [in, optional]
 
 A pointer to an event callback to call if the
 device asynchronously fails to connect even though the PnP device was

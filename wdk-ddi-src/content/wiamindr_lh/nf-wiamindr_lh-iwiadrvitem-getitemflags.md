@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 47358d69-ef45-4cac-8187-72c354912c4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetItemFlags method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], wiamindr_lh/IWiaDrvItem::GetItemFlags, GetItemFlags, IWiaDrvItem interface [Imaging Devices], GetItemFlags method, image.iwiadrvitem_getitemflags, IWiaDrvItem, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml
+ms.keywords: DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, image.iwiadrvitem_getitemflags, wiamindr_lh/IWiaDrvItem::GetItemFlags, IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], GetItemFlags method, IWiaDrvItem, GetItemFlags, GetItemFlags method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

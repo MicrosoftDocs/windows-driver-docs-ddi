@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 16f79360-c8fd-4be9-9c94-7fa2a1d8c6b5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, _BRB_L2CA_OPEN_CHANNEL, bthddi/_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_channel
+ms.keywords: bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL, bltooth._brb_l2ca_open_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,111 +104,13 @@ struct _BRB_L2CA_OPEN_CHANNEL {
 
 
 
-#### - ConfigOut
+### -field ConfigOut
 
 The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_CHANNEL</b> BRB sent to a remote
      device.
 
 
-#### Flags
-
-Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
-      the following table:
-      
-<table>
-<tr>
-<td>
-<b>Flag</b>
-
-</td>
-<td>
-<b>Description</b>
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_AUTHENTICATED
-
-</td>
-<td>
-The link must be authenticated.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_ENCRYPTED
-
-</td>
-<td>
-The link must be encrypted. Setting this flag also sets the CF_LINK_AUTHENTICATED flag.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_SUPPRESS_PIN
-
-</td>
-<td>
-The profile driver indicates its preference that users not be prompted for a PIN.
-
-</td>
-</tr>
-</table> 
-
-
-#### Mtu
-
-The range of message transfer units (MTUs) that is used to negotiate the size of the outbound
-      half of channel.
-
-
-#### FlushTO
-
-The range of possible values to be used for the flush timeout for the outbound half of the
-      channel.
-
-
-#### Flow
-
-Reserved for future use. Do not use.
-
-
-#### LinkTO
-
-The Link Manager link timeout.
-
-
-#### NumExtraOptions
-
-The number of array items that are contained in the 
-      <b>ExtraOptions</b> member. This value should be zero for most clients.
-
-
-#### ExtraOptions
-
-The number of array items that are contained in the 
-      <b>ExtraOptions</b> member. This value should be zero for most clients.
-
-
-#### LocalQos
-
-Reserved for future use. Do not use.
-
-
 ### -field ConfigOut.LocalQos
-
-Reserved for future use. Do not use.
-
-
-#### LocalQos.ServiceType
-
-Reserved for future use. Do not use.
-
-
-#### LocalQos.Latency
 
 Reserved for future use. Do not use.
 
@@ -306,71 +208,10 @@ The number of array items that are contained in the
       <b>ExtraOptions</b> member. This value should be zero for most clients.
 
 
-#### - ConfigIn
+### -field ConfigIn
 
 The substructure that contains parameter settings to validate incoming
      <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> BRBs that are sent from a remote device.
-
-
-#### Flags
-
-Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
-      the following table:
-      
-<table>
-<tr>
-<td>
-<b>Flag</b>
-
-</td>
-<td>
-<b>Description</b>
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_AUTHENTICATED
-
-</td>
-<td>
-The link must be authenticated.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_ENCRYPTED
-
-</td>
-<td>
-The link must be encrypted. Setting this flag also sets the CF_LINK_AUTHENTICATED flag.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_SUPPRESS_PIN
-
-</td>
-<td>
-The profile driver indicates its preference that users not be prompted for a PIN.
-
-</td>
-</tr>
-</table> 
-
-
-#### Mtu
-
-The range of message transfer units (MTUs) that is used to negotiate the size of the outbound
-      half of channel.
-
-
-#### FlushTO
-
-The range of possible values to be used for the flush timeout for the outbound half of the
-      channel.
 
 
 ### -field ConfigIn.Flags
@@ -444,21 +285,21 @@ The range of possible values to be used for the flush timeout for the outbound h
  
 
 
-#### - Psm
+### -field Psm
 
 The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
       When used with a <b>BRB_L2CA_OPEN_CHANNEL</b> request, this member is set as an input field. When used with a
       <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request, this member is used as an output field.
 
 
-#### - Hdr
+### -field Hdr
 
 A 
      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
-#### - ChannelHandle
+### -field ChannelHandle
 
 
 
@@ -470,7 +311,7 @@ A
 
 
 
-#### - ChannelFlags
+### -field ChannelFlags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
      the following table:
@@ -519,12 +360,12 @@ The profile driver indicates its preference that users not be prompted for a PIN
 </table> 
 
 
-#### - BtAddress
+### -field BtAddress
 
 The Bluetooth address of the device for which the connection is intended.
 
 
-#### - CallbackFlags
+### -field CallbackFlags
 
 A flag that specifies which events should generate a callback routine to notify the profile driver
      that the event has occurred. Valid flag values are contained in the following table.
@@ -596,21 +437,21 @@ If set, the callback routine will be called when the profile driver receives an 
 </table> 
 
 
-#### - Callback
+### -field Callback
 
 The 
-     <mshelp:link keywords="bltooth.l2cap_callback_function" tabindex="0"><i>L2CAP Callback
-     Function</i></mshelp:link> implemented by the profile driver, that the Bluetooth driver stack should call to notify
+     <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback
+     Function</a> implemented by the profile driver, that the Bluetooth driver stack should call to notify
      the profile driver about any changes to the L2CAP connection.
 
 
-#### - CallbackContext
+### -field CallbackContext
 
 The context to pass to the callback function specified in the 
      <b>Callback</b> member. The profile driver defines this value.
 
 
-#### - ReferenceObject
+### -field ReferenceObject
 
 A pointer to an object to pass to 
      <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
@@ -618,20 +459,20 @@ A pointer to an object to pass to
      maintain a reference count of.
 
 
-#### - OutResults
+### -field OutResults
 
 A 
      <a href="..\bthddi\ns-bthddi-_channel_config_results.md">CHANNEL_CONFIG_RESULTS</a> structure that
      contains configuration parameters for the outbound request.
 
 
-#### - InResults
+### -field InResults
 
 A CHANNEL_CONFIG_RESULTS structure that contains configuration parameters for the inbound
      request.
 
 
-#### - IncomingQueueDepth
+### -field IncomingQueueDepth
 
 Specifies the incoming queue length in message transfer units (MTUs).
 
@@ -763,12 +604,6 @@ The remote device accepted the connection.
 
 
 
-#### If during a call to the BRB_L2CA_OPEN_CHANNEL_RESPONSE BRB the 
-       Response member is set to CONNECT_RSP_RESULT_PENDING, this member is valid and contains one of
-       the following values:
-
-
-
 #### CONNECT_RSP_STATUS_AUTHENTICATION_PENDING
 
 
@@ -778,6 +613,12 @@ The remote device accepted the connection.
 
 
 #### CONNECT_RSP_STATUS_NO_INFORMATION
+
+
+
+#### If during a call to the BRB_L2CA_OPEN_CHANNEL_RESPONSE BRB the 
+       Response member is set to CONNECT_RSP_RESULT_PENDING, this member is valid and contains one of
+       the following values:
 
 
 
@@ -820,8 +661,8 @@ The
 To accept or reject an incoming L2CAP connection request initiated by a remote device, profile drivers
     should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-    BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 A profile driver should build and send a <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request when the Bluetooth
     driver stack calls the profile driver's 
@@ -857,28 +698,28 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
-
-<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
-
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
-
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
 <a href="..\bthddi\ns-bthddi-_channel_config_results.md">CHANNEL_CONFIG_RESULTS</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
 <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
-<mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link>
+<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
+
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
  
 

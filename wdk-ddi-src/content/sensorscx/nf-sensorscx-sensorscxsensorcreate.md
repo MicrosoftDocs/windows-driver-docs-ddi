@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SensorsCxSensorCreate function [Sensor Devices], SensorsCxSensorCreate, sensorscx/SensorsCxSensorCreate, sensors.sensorscxsensorcreate
+ms.keywords: sensorscx/SensorsCxSensorCreate, SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ FORCEINLINE NTSTATUS SensorsCxSensorCreate(
 
 
 
-#### - FxDevice [in]
+### -param FxDevice [in]
 
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
 
-#### - pSensorAttributes [in]
+### -param pSensorAttributes [in]
 
 A reference to <a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>.
 
 
-#### - pSensor [out]
+### -param pSensor [out]
 
 A reference to a sensor object that is used within the class extension.
 
@@ -121,9 +121,9 @@ The sensors class extension writes a set of properties for each sensor when Sens
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A493EF45-AA62-43FE-8E19-613B66FA0D83
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], _ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], *PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_ENUM_ALL_BANDS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS, ENUMBANDS_REPORT_CRYPTO_ALGO, storage.enumerate_bands_parameters
+ms.keywords: ENUMBANDS_REPORT_CRYPTO_ALGO, ENUMBANDS_ENUM_ALL_BANDS, *PENUMERATE_BANDS_PARAMETERS, storage.enumerate_bands_parameters, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], PENUMERATE_BANDS_PARAMETERS, _ENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _ENUMERATE_BANDS_PARAMETERS {
 
 
 
-#### - StructSize
+### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(ENUMERATE_BANDS_PARAMETERS).
 
 
-#### - Flags
+### -field Flags
 
 Band enumeration flags. This value is a bitwise OR combination of the following.
 <table>
@@ -108,22 +108,22 @@ Include media encryption algorithm information in the <b>SecurityInfo</b> member
 </table> 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved.
 
 
-#### - BandId
+### -field BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
 
-#### - BandStart
+### -field BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
 
-#### - BandSize
+### -field BandSize
 
 An optional band size match value in bytes. If <b>BandSize</b> == 0 and <b>BandId</b> == –1, then <b>BandStart</b> is the only match value for selecting a band. Otherwise, a band at or after <b>BandStart</b> and matching  <b>BandSize</b> exactly is selected.
 
@@ -143,13 +143,13 @@ If <b>BandID</b> == 0 or no bands are configured and <b>Flags</b> is not set to 
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table.md">BAND_TABLE</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table.md">BAND_TABLE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFRemoteTarget::Stop, Stop, Stop method, wudfddi/IWDFRemoteTarget::Stop, umdf.iwdfremotetarget_stop, wdf.iwdfremotetarget_stop, IWDFRemoteTarget interface, Stop method, IWDFRemoteTarget, Stop method, IWDFRemoteTarget interface, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml
+ms.keywords: wudfddi/IWDFRemoteTarget::Stop, IWDFRemoteTarget interface, Stop method, Stop method, Stop method, IWDFRemoteTarget interface, IWDFRemoteTarget::Stop, wdf.iwdfremotetarget_stop, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, IWDFRemoteTarget, Stop, umdf.iwdfremotetarget_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT Stop(
 
 
 
-#### - Action [in]
+### -param Action [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the remote I/O target, if the target has not completed the requests.
 
@@ -93,9 +93,9 @@ For more information about <b>Stop</b>, and how to use remote I/O targets in UMD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560280">IWDFRemoteTarget::Start</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560280">IWDFRemoteTarget::Start</a>
 
  
 

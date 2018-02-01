@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 27BE493F-8F70-4FBF-AA58-D6ACB27BFC2D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP structure [Display Devices], d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP, display.d3dddiarg_updatesubresourceup
+ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP, display.d3dddiarg_updatesubresourceup, d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,48 +73,48 @@ typedef struct D3DDDIARG_UPDATESUBRESOURCEUP {
 
 
 
-#### - hResource
+### -field hResource
 
 A handle to the destination resource to copy to.
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 The index of the destination subresource to which data is to be copied.
 
 
-#### - DstBox
+### -field DstBox
 
 A destination region, of type  <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>, of the subresource to which data is to be copied. If <b>Flags</b>-&gt;<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">BoxValid</a> is not set, the entire subresource must be updated.
 
 
-#### - pSysMemUP
+### -field pSysMemUP
 
 A pointer to the beginning address of the source data that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a> function copies to update the destination subresouce.
 
 
-#### - RowPitch
+### -field RowPitch
 
 The offset, in bytes, to move to the next row of source data.
 
 
-#### - DepthPitch
+### -field DepthPitch
 
 The offset, in bytes, to move to the next depth slice of source data.
 
 
-#### - Flags
+### -field Flags
 
 A <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</a> structure that specifies additional characteristics of the subresource update operation.
 
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 12c4462a-886b-4446-ace4-128af0af5dc0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiowmi/PClearPathHealthCounters_IN, ClearPathHealthCounters_IN, PClearPathHealthCounters_IN, _ClearPathHealthCounters_IN, storage.clearpathhealthcounters_in, mpiowmi/ClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices], structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml, *PClearPathHealthCounters_IN, PClearPathHealthCounters_IN structure pointer [Storage Devices]
+ms.keywords: PClearPathHealthCounters_IN structure pointer [Storage Devices], structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml, *PClearPathHealthCounters_IN, mpiowmi/ClearPathHealthCounters_IN, PClearPathHealthCounters_IN, storage.clearpathhealthcounters_in, mpiowmi/PClearPathHealthCounters_IN, ClearPathHealthCounters_IN, _ClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _ClearPathHealthCounters_IN {
 
 
 
-#### - PathID
+### -field PathID
 
 A 64-bitfield that specifies the path that is associated with the device.
 

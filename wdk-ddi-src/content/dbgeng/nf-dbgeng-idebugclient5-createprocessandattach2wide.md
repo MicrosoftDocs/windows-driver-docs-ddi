@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a1a1170b-9ecc-4432-badd-50847c974469
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::CreateProcessAndAttach2Wide, IDebugClient5::CreateProcessAndAttach2Wide, debugger.createprocessandattach2wide, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach2Wide method, CreateProcessAndAttach2Wide method [Windows Debugging], CreateProcessAndAttach2Wide method [Windows Debugging], IDebugClient5 interface, CreateProcessAndAttach2Wide
+ms.keywords: dbgeng/IDebugClient5::CreateProcessAndAttach2Wide, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach2Wide method, IDebugClient5::CreateProcessAndAttach2Wide, CreateProcessAndAttach2Wide method [Windows Debugging], IDebugClient5 interface, CreateProcessAndAttach2Wide, CreateProcessAndAttach2Wide method [Windows Debugging], debugger.createprocessandattach2wide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,32 +74,32 @@ HRESULT CreateProcessAndAttach2Wide(
 
 
 
-#### - Server [in]
+### -param Server [in]
 
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to the local process without using a process server.
 
 
-#### - CommandLine [in, optional]
+### -param CommandLine [in, optional]
 
 Specifies the command line to execute to create the new process.  If <i>CommandLine</i> is <b>NULL</b>, no process is created and these methods will use <i>ProcessId</i> to attach to an existing process.
 
 
-#### - OptionsBuffer [in]
+### -param OptionsBuffer [in]
 
 Specifies the process creation options.  <i>OptionsBuffer</i> is a pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_create_process_options.md">DEBUG_CREATE_PROCESS_OPTIONS</a> structure.
 
 
-#### - OptionsBufferSize [in]
+### -param OptionsBufferSize [in]
 
 Specifies the size of the buffer <i>OptionsBuffer</i>.  This should be set to <b>sizeof(DEBUG_CREATE_PROCESS_OPTIONS)</b>.
 
 
-#### - InitialDirectory [in, optional]
+### -param InitialDirectory [in, optional]
 
 Specifies the starting directory for the process.  This parameter is used only if <i>CommandLine</i> is not <b>NULL</b>.  If <i>InitialDirectory</i> is <b>NULL</b>, the current directory for the process server is used.
 
 
-#### - Environment [in, optional]
+### -param Environment [in, optional]
 
 Specifies an environment block for the new process.  An environment block consists of a null-terminated block of null-terminated strings.  Each string is of the form:
 <div class="code"><span codelanguage=""><table>
@@ -116,12 +116,12 @@ Specifies an environment block for the new process.  An environment block consis
 If <i>Environment</i> is set to <b>NULL</b>, the new process inherits the environment block of the process server.  If the DEBUG_CREATE_PROCESS_THROUGH_RTL flag is set in <i>OptionsBuffer</i>, then <i>Environment</i> must be <b>NULL</b>.
 
 
-#### - ProcessId [in]
+### -param ProcessId [in]
 
 Specifies the process ID of the target process to which the debugger will attach.  If <i>ProcessID</i> is zero, the debugger will attach to the process it created from <i>CommandLine</i>.
 
 
-#### - AttachFlags [in]
+### -param AttachFlags [in]
 
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541454">DEBUG_ATTACH_XXX</a>.
 
@@ -173,27 +173,27 @@ If <i>CommandLine</i> is not <b>NULL</b> and <i>ProcessId</i> is not zero, then 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a79a5d3b-ed1c-42fa-b491-0ad0b3dfc921
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlupcaseunicodetomultibyten, RtlUpcaseUnicodeToMultiByteN, rtlref_a6ac52da-a3c7-4c16-8b8c-3086868fe4e2.xml, RtlUpcaseUnicodeToMultiByteN routine [Installable File System Drivers], ntifs/RtlUpcaseUnicodeToMultiByteN
+ms.keywords: RtlUpcaseUnicodeToMultiByteN routine [Installable File System Drivers], ntifs/RtlUpcaseUnicodeToMultiByteN, RtlUpcaseUnicodeToMultiByteN, rtlref_a6ac52da-a3c7-4c16-8b8c-3086868fe4e2.xml, ifsk.rtlupcaseunicodetomultibyten
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,27 +71,27 @@ NTSTATUS RtlUpcaseUnicodeToMultiByteN(
 
 
 
-#### - MultiByteString [out]
+### -param MultiByteString [out]
 
 Pointer to a caller-allocated buffer to receive the translated string. 
 
 
-#### - MaxBytesInMultiByteString [in]
+### -param MaxBytesInMultiByteString [in]
 
 Maximum number of bytes to be written at <i>MultiByteString</i>. If this value causes the translated string to be truncated, <b>RtlUpcaseUnicodeToMultiByteN</b> does not return an error status. 
 
 
-#### - BytesInMultiByteString [out, optional]
+### -param BytesInMultiByteString [out, optional]
 
 Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter can be <b>NULL</b>. 
 
 
-#### - UnicodeString [in]
+### -param UnicodeString [in]
 
 Pointer to the Unicode source string to be translated. 
 
 
-#### - BytesInUnicodeString [in]
+### -param BytesInUnicodeString [in]
 
 Size, in bytes, of the string at <i>UnicodeString</i>. 
 
@@ -116,11 +116,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlunicodetomultibyten.md">RtlUnicodeToMultiByteN</a>
+
 <a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
 
 <a href="..\ntifs\nf-ntifs-rtlunicodetomultibytesize.md">RtlUnicodeToMultiByteSize</a>
-
-<a href="..\ntifs\nf-ntifs-rtlunicodetomultibyten.md">RtlUnicodeToMultiByteN</a>
 
  
 

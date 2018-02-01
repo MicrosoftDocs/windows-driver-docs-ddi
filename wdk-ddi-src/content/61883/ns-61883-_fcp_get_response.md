@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1CE962A4-7F99-4F81-8B85-265A4225B88A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.fcp_get_response, FCP_GET_RESPONSE structure [Buses], *PFCP_RESPONSE, _FCP_GET_RESPONSE, 61883/FCP_GET_RESPONSE, *PFCP_GET_RESPONSE, FCP_RESPONSE, FCP_GET_RESPONSE, PFCP_GET_RESPONSE structure pointer [Buses], 61883/PFCP_GET_RESPONSE, PFCP_GET_RESPONSE
+ms.keywords: PFCP_GET_RESPONSE structure pointer [Buses], _FCP_GET_RESPONSE, *PFCP_GET_RESPONSE, 61883/FCP_GET_RESPONSE, FCP_RESPONSE, 61883/PFCP_GET_RESPONSE, IEEE.fcp_get_response, PFCP_GET_RESPONSE, FCP_GET_RESPONSE, FCP_GET_RESPONSE structure [Buses], *PFCP_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,19 +69,19 @@ typedef struct _FCP_GET_RESPONSE {
 
 
 
-#### - NodeAddress
+### -field NodeAddress
 
 On output, if the protocol driver is being used to control a virtual device, the protocol driver supplies the node address of the device that sent the response obtained with this <b>Av61883_GetFcpResponse</b> IRP. If the protocol driver is being used to control a physical device, <b>NodeAddress</b> is not used.
 
 
-#### - Length
+### -field Length
 
 On input, the maximum available length, in bytes, of the frame payload, including FCP header. 
 
 On completion, this field will contain the actual length of the response in bytes.
 
 
-#### - Frame
+### -field Frame
 
 On input a pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff537113">FCP_FRAME</a> structure to receive the FCP response.
 

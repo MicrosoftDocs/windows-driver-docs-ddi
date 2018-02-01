@@ -91,12 +91,12 @@ void MyAVStrMiniDeviceIRP(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> that dispatched the IRP.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 The IRP issued by <i>Device</i>.
 

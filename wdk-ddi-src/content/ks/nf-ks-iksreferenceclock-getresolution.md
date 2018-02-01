@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7fb70431-db09-470b-b795-826aba3a8b77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock interface [Streaming Media Devices], GetResolution method, IKsReferenceClock::GetResolution, GetResolution method [Streaming Media Devices], stream.iksreferenceclock_getresolution, GetResolution method [Streaming Media Devices], IKsReferenceClock interface, GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, ks/IKsReferenceClock::GetResolution, IKsReferenceClock
+ms.keywords: IKsReferenceClock::GetResolution, GetResolution method [Streaming Media Devices], IKsReferenceClock interface, stream.iksreferenceclock_getresolution, GetResolution method [Streaming Media Devices], ks/IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetResolution method, GetResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS GetResolution(
 
 
 
-#### - Resolution [out]
+### -param Resolution [out]
 
 Specifies granularity and notification error of the clock in a <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a> structure.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1f893474-c132-4843-985a-5ef1d0d8f32d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2linestrip, d3dstrct_d49daf52-1228-463a-8db5-3802da2fc787.xml, *LPD3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP structure [Display Devices], LPD3DHAL_DP2LINESTRIP structure pointer [Display Devices], _D3DHAL_DP2LINESTRIP, LPD3DHAL_DP2LINESTRIP, d3dhal/D3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP, d3dhal/LPD3DHAL_DP2LINESTRIP
+ms.keywords: LPD3DHAL_DP2LINESTRIP structure pointer [Display Devices], LPD3DHAL_DP2LINESTRIP, d3dhal/D3DHAL_DP2LINESTRIP, d3dstrct_d49daf52-1228-463a-8db5-3802da2fc787.xml, _D3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP structure [Display Devices], d3dhal/LPD3DHAL_DP2LINESTRIP, *LPD3DHAL_DP2LINESTRIP, display.d3dhal_dp2linestrip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _D3DHAL_DP2LINESTRIP {
 
 
 
-#### - wVStart
+### -field wVStart
 
 Specifies the index into the vertex buffer containing coordinate data for the initial vertex of the line strip.
 
@@ -86,11 +86,11 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 D3DDP2OP_LINESTRIP
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
  
 

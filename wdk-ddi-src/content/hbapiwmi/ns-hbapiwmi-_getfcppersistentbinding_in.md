@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b08354c8-ef4e-4330-8a3b-dcfe3a722a5d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/GetFcpPersistentBinding_IN, storage.getfcppersistentbinding_in, GetFcpPersistentBinding_IN structure [Storage Devices], *PGetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN, structs-Fibre_34b0e554-331b-4f99-ae8e-5c2e9855b641.xml, PGetFcpPersistentBinding_IN, _GetFcpPersistentBinding_IN, hbapiwmi/PGetFcpPersistentBinding_IN, PGetFcpPersistentBinding_IN structure pointer [Storage Devices]
+ms.keywords: GetFcpPersistentBinding_IN structure [Storage Devices], PGetFcpPersistentBinding_IN structure pointer [Storage Devices], GetFcpPersistentBinding_IN, storage.getfcppersistentbinding_in, _GetFcpPersistentBinding_IN, hbapiwmi/PGetFcpPersistentBinding_IN, *PGetFcpPersistentBinding_IN, hbapiwmi/GetFcpPersistentBinding_IN, PGetFcpPersistentBinding_IN, structs-Fibre_34b0e554-331b-4f99-ae8e-5c2e9855b641.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _GetFcpPersistentBinding_IN {
 
 
 
-#### - InEntryCount
+### -field InEntryCount
 
 Indicates the number of binding entries that will fit in the buffer that the WMI client provides when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a> WMI method.
 
@@ -81,9 +81,9 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN str
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, SecMakeSPN, ntifs/SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ifsk.secmakespn
+ms.keywords: SecMakeSPN, ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, SecMakeSPN function [Installable File System Drivers], ntifs/SecMakeSPN, ifsk.secmakespn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ NTSTATUS SecMakeSPN(
 
 
 
-#### - ServiceClass [in]
+### -param ServiceClass [in]
 
 A pointer to a Unicode string specifying the service class for the security service provider. 
 
 
-#### - ServiceName [in]
+### -param ServiceName [in]
 
 A pointer to a Unicode string specifying the service name for the security service provider. 
 
@@ -90,12 +90,12 @@ A pointer to a Unicode string specifying the service name for the security servi
 TBD
 
 
-#### - Spn [in, out]
+### -param Spn [in, out]
 
 A pointer to a Unicode string for storing the security service provider name string created by this function.
 
 
-#### - Allocate [in]
+### -param Allocate [in]
 
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
@@ -110,14 +110,14 @@ A pointer to an optional Unicode string specifying the instance name for connect
 An optional variable specifying the instance port for connecting with the security service provider. 
 
 
-#### - Referrer [in]
-
-A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
-
-
 #### - Length [out]
 
 A pointer to an optional variable for storing the length of the security service provider name string created by this function.
+
+
+#### - Referrer [in]
+
+A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
 
 
 ## -returns

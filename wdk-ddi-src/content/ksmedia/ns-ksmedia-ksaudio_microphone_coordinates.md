@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 443fb3c0-0e75-4abc-b44f-047752b3cab7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, audio.ksaudio_microphone_coordinates, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], ksmedia/PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], PKSAUDIO_MICROPHONE_COORDINATES
+ms.keywords: PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], ksmedia/PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], audio.ksaudio_microphone_coordinates, PKSAUDIO_MICROPHONE_COORDINATES, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, *PKSAUDIO_MICROPHONE_COORDINATES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct {
 
 
 
-#### - usType
+### -field usType
 
 Specifies the type of microphone in use at this coordinate location. The value of this member is one of the <b>KSMICARRAY_MICTYPE</b> enumeration values shown in the following table.
 <table>
@@ -161,27 +161,27 @@ KSMICARRAY_MICTYPE_VENDORDEFINED
 If the microphone is of type KSMICARRAY_MICTYPE_VENDORDEFINED, the value must be set to 0x0F. Additionally, the most significant bits will further define the type of microphone.
 
 
-#### - wXCoord
+### -field wXCoord
 
 Specifies the signed X-coordinate of the microphone, in millimeters. Acceptable values range from -32768 to 32767, inclusive.
 
 
-#### - wYCoord
+### -field wYCoord
 
 Specifies the signed Y-coordinate of the microphone, in millimeters. Acceptable values range from -32768 to 32767, inclusive.
 
 
-#### - wZCoord
+### -field wZCoord
 
 Specifies the signed Z-coordinate of the microphone, in millimeters. Acceptable values range from -32768 to 32767, inclusive.
 
 
-#### - wVerticalAngle
+### -field wVerticalAngle
 
 Specifies a value between -15708 and +15708.  When divided by 10,000, it gives a radian angle measurement.
 
 
-#### - wHorizontalAngle
+### -field wHorizontalAngle
 
 Specifies a value between -31416 and +31416.  When divided by 10,000, it gives a radian angle measurement.
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorClassExtension, sensors.isensorclassextension_postevent, PostEvent method [Sensor Devices], ISensorClassExtension::PostEvent, PostEvent
+ms.keywords: ISensorClassExtension::PostEvent, PostEvent method [Sensor Devices], ISensorClassExtension, PostEvent, sensors.isensorclassextension_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT PostEvent(
 
 
 
-#### - pwszSensorID
+### -param pwszSensorID
 
 LPWSTR that contains the ID for the sensor for which the driver is raising the event.
 
 
-#### - pEventCollection
+### -param pEventCollection
 
 Pointer to an IPortableDeviceValuesCollection interface that contains the list of events being posted and their associated data.
 

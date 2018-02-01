@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, IQueueCallbackDefaultIoHandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, OnDefaultIoHandler, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface
+ms.keywords: wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, IQueueCallbackDefaultIoHandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, OnDefaultIoHandler, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, OnDefaultIoHandler method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,12 +71,12 @@ void OnDefaultIoHandler(
 
 
 
-#### - pWdfQueue [in]
+### -param pWdfQueue [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the default I/O request arrives from. 
 
 
-#### - pWdfRequest [in]
+### -param pWdfRequest [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object. 
 
@@ -97,9 +97,9 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohan
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 

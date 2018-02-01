@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f37c9431-8b60-4caa-863c-81de45ffd457
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_StartDTMF method [Network Drivers Starting with Windows Vista], RIL_StartDTMF, rilapi/RIL_StartDTMF, netvista.ril_startdtmf
+ms.keywords: RIL_StartDTMF method [Network Drivers Starting with Windows Vista], rilapi/RIL_StartDTMF, RIL_StartDTMF, netvista.ril_startdtmf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_StartDTMF(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - dwExecutor
+### -param dwExecutor
 
 
 
-#### - ch
+### -param ch
 
 
 

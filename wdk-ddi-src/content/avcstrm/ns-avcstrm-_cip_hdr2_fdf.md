@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10f01d72-25cc-4a5a-b6e3-8475f09b12e4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcstrm/CIP_HDR2_FDF, PCIP_HDR2_FDF, stream.cip_hdr2_fdf, *PCIP_HDR2_FDF, avcsref_47436092-ff0a-4bd4-97f2-a241da9f328a.xml, CIP_HDR2_FDF, CIP_HDR2_FDF structure [Streaming Media Devices], _CIP_HDR2_FDF, avcstrm/PCIP_HDR2_FDF, PCIP_HDR2_FDF structure pointer [Streaming Media Devices]
+ms.keywords: CIP_HDR2_FDF, avcsref_47436092-ff0a-4bd4-97f2-a241da9f328a.xml, avcstrm/PCIP_HDR2_FDF, CIP_HDR2_FDF structure [Streaming Media Devices], *PCIP_HDR2_FDF, stream.cip_hdr2_fdf, PCIP_HDR2_FDF, _CIP_HDR2_FDF, PCIP_HDR2_FDF structure pointer [Streaming Media Devices], avcstrm/CIP_HDR2_FDF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _CIP_HDR2_FDF {
 
 
 
-#### - FDF
+### -field FDF
 
 Format dependent field. This is not used for opening a stream. These must be set to 0.
 
 
-#### - FMT
+### -field FMT
 
 CIP format. For example, 000000 = DV and 100000 = MPEG2TS.
 
 
-#### - Bit10
+### -field Bit10
 
 Must be set to 1:0
 

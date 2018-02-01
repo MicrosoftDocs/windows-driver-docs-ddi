@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48F3CB86-5181-4E1E-9E7F-88FB2CD3640A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.miracast_session_info, netdispumdddi/MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], MIRACAST_SESSION_INFO
+ms.keywords: MIRACAST_SESSION_INFO union [Display Devices], display.miracast_session_info, MIRACAST_SESSION_INFO, netdispumdddi/MIRACAST_SESSION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef union {
 
 
 
-#### - MonitorConnected
+### -field MonitorConnected
 
 If set, the monitor (the source) is connected to a Miracast sink.
 
 
-#### - ReducedModeListDueToBandwidth
+### -field ReducedModeListDueToBandwidth
 
 If set, the user-mode driver has reduced the modes exposed to the operating system based on the current suggested encode rate.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 Holds a 32-bit value that identifies the Miracast connected session.
 

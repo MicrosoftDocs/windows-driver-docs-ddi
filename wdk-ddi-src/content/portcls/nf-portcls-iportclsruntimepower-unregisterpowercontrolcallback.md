@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower, audio.iportclsruntimepower_unregisterpowercontrolcallback, UnregisterPowerControlCallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, IPortClsRuntimePower::UnregisterPowerControlCallback
+ms.keywords: UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, audio.iportclsruntimepower_unregisterpowercontrolcallback, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower::UnregisterPowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,13 +67,7 @@ NTSTATUS UnregisterPowerControlCallback(
 
 
 
-### -param _DeviceObject
-
-
-
-
-
-#### - DeviceObject [in]
+### -param _DeviceObject [in]
 
 The device object.
 

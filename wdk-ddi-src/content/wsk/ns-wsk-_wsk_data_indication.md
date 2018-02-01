@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10af500f-bb3b-427f-86b1-ee075ffc7ac6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/WSK_DATA_INDICATION, WSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], netvista.wsk_data_indication, _WSK_DATA_INDICATION, *PWSK_DATA_INDICATION, wsk/PWSK_DATA_INDICATION, PWSK_DATA_INDICATION
+ms.keywords: PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _WSK_DATA_INDICATION, wsk/PWSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], wsk/WSK_DATA_INDICATION, netvista.wsk_data_indication, PWSK_DATA_INDICATION, WSK_DATA_INDICATION, *PWSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,14 +75,14 @@ typedef struct _WSK_DATA_INDICATION {
  
 
 
-#### - Next
+### -field Next
 
 A pointer to the next WSK_DATA_INDICATION structure in a linked list of WSK_DATA_INDICATION
      structures. If this member is <b>NULL</b>, this structure is the last WSK_DATA_INDICATION structure in the
      linked list.
 
 
-#### - Buffer
+### -field Buffer
 
 A WSK_BUF structure that describes the data that has been received on the socket.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bdca275c-c728-4be4-bb57-cfa61cddff61
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLLIST_V1, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista], *LPRILCALLLIST_V1, rilapitypes/RILCALLLIST_V1, netvista.rilcalllist_v1_2
+ms.keywords: RILCALLLIST_V1, netvista.rilcalllist_v1_2, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLLIST_V1, *LPRILCALLLIST_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILCALLLIST_V1 {
 
 
 
-#### - dwNumberOfCalls
+### -field dwNumberOfCalls
 
 
 
-#### - rciCallInfo
+### -field rciCallInfo
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa897435-443b-4145-b6ca-7bafdb36b9c1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_POINTER_ATTRIBUTES, VIDEO_MODE_ASYNC_POINTER, _VIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices], ntddvdeo/VIDEO_POINTER_ATTRIBUTES, display.video_pointer_attributes, ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], VIDEO_MODE_ANIMATE_UPDATE, VIDEO_MODE_ANIMATE_START, PVIDEO_POINTER_ATTRIBUTES, Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml, VIDEO_MODE_COLOR_POINTER, VIDEO_MODE_MONO_POINTER
+ms.keywords: VIDEO_MODE_ANIMATE_UPDATE, VIDEO_POINTER_ATTRIBUTES, display.video_pointer_attributes, _VIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices], VIDEO_MODE_ASYNC_POINTER, *PVIDEO_POINTER_ATTRIBUTES, ntddvdeo/VIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], PVIDEO_POINTER_ATTRIBUTES, Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml, ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, VIDEO_MODE_ANIMATE_START, VIDEO_MODE_COLOR_POINTER, VIDEO_MODE_MONO_POINTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _VIDEO_POINTER_ATTRIBUTES {
 
 
 
-#### - Flags
+### -field Flags
 
 A set of flags that specify certain attributes of the pointer. <b>Flags</b> can be a combination of the following values:
 <table>
@@ -135,37 +135,37 @@ The current pointer has the same hotspot as the previous pointer.
 </table> 
 
 
-#### - Width
+### -field Width
 
 Specifies the width of the pointer in pixels.
 
 
-#### - Height
+### -field Height
 
 Specifies the height of the pointer in pixels.
 
 
-#### - WidthInBytes
+### -field WidthInBytes
 
 Specifies the width of the pointer in bytes.
 
 
-#### - Enable
+### -field Enable
 
 Specifies whether the pointer is visible. A nonzero value specifies that the pointer is visible. A value of zero specifies that the pointer is not visible.
 
 
-#### - Column
+### -field Column
 
 Horizontal coordinate of the pointer's hot spot.
 
 
-#### - Row
+### -field Row
 
 Vertical coordinate of the pointer's hot spot.
 
 
-#### - Pixels
+### -field Pixels
 
 The pointer data, in device-compatible DIB format. Mask data is always in 1-bpp DIB format.
 

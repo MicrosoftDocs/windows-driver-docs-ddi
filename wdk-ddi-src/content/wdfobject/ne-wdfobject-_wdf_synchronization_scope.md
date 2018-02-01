@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a251bf5c-c09b-4097-a9ed-82f2312ac408
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfobject/WdfSynchronizationScopeQueue, wdfobject/WDF_SYNCHRONIZATION_SCOPE, WdfSynchronizationScopeQueue, wdfobject/WdfSynchronizationScopeInheritFromParent, kmdf.wdf_synchronization_scope, WdfSynchronizationScopeInvalid, wdfobject/WdfSynchronizationScopeDevice, WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeNone, WDF_SYNCHRONIZATION_SCOPE enumeration, wdfobject/WdfSynchronizationScopeNone, _WDF_SYNCHRONIZATION_SCOPE, wdf.wdf_synchronization_scope, WdfSynchronizationScopeDevice, WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeInvalid, DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml
+ms.keywords: wdfobject/WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeInvalid, WDF_SYNCHRONIZATION_SCOPE enumeration, wdfobject/WdfSynchronizationScopeQueue, wdfobject/WdfSynchronizationScopeInvalid, WdfSynchronizationScopeDevice, WDF_SYNCHRONIZATION_SCOPE, DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, kmdf.wdf_synchronization_scope, wdf.wdf_synchronization_scope, wdfobject/WdfSynchronizationScopeNone, WdfSynchronizationScopeQueue, WdfSynchronizationScopeNone, WdfSynchronizationScopeInheritFromParent, _WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,17 +74,17 @@ typedef enum _WDF_SYNCHRONIZATION_SCOPE {
 
 
 
-#### - WdfSynchronizationScopeInvalid
+### -field WdfSynchronizationScopeInvalid
 
 Reserved for system use.
 
 
-#### - WdfSynchronizationScopeInheritFromParent
+### -field WdfSynchronizationScopeInheritFromParent
 
 The framework uses the synchronization scope value that was specified for the object's parent object. This value is the default if a driver does not specify a WDF_SYNCHRONIZATION_SCOPE-typed value.
 
 
-#### - WdfSynchronizationScopeDevice
+### -field WdfSynchronizationScopeDevice
 
 The framework synchronizes execution of the event callback functions of all queue and file objects that are underneath a device object in the driver's object hierarchy. 
 
@@ -93,7 +93,7 @@ Additionally, if the driver sets the <b>AutomaticSerialization</b> member to <b>
 The framework obtains the device object's synchronization lock before calling a callback function. Therefore, these callback functions run one at a time. However, if the driver creates multiple objects of the same type, but under different device objects, their event callback functions might run concurrently on a multiprocessor system.
 
 
-#### - WdfSynchronizationScopeQueue
+### -field WdfSynchronizationScopeQueue
 
 This value affects queue objects only. The framework synchronizes the event callback functions of the queue object so that only one executes at a time. 
 
@@ -106,7 +106,7 @@ If the driver creates multiple queue objects, their event callback functions mig
 For framework versions 1.9 and later, a driver should set <b>WdfSynchronizationScopeQueue</b> for individual queue objects. To use this scope with earlier versions of the framework, the driver must set <b>WdfSynchronizationScopeQueue</b> for the parent device object and <b>WdfSynchronizationScopeInheritFromParent</b> for the queue object.
 
 
-#### - WdfSynchronizationScopeNone
+### -field WdfSynchronizationScopeNone
 
 The framework does not synchronize the object's event callback functions, so the callback functions might run concurrently on a multiprocessor system.
 

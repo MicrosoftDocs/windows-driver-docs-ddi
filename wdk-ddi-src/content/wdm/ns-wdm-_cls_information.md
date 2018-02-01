@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PCLFS_INFORMATION, wdm/CLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PPCLFS_INFORMATION, _CLS_INFORMATION, wdm/PPCLS_INFORMATION, wdm/PCLS_INFORMATION, CLS_INFORMATION, *PCLS_INFORMATION, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, PPCLFS_INFORMATION, wdm/PCLFS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION, kernel.clfs_information, CLFS_INFORMATION, *PPCLS_INFORMATION"
+ms.keywords: CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PCLS_INFORMATION, wdm/PPCLFS_INFORMATION, _CLS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, kernel.clfs_information, wdm/CLFS_INFORMATION, PPCLFS_INFORMATION, wdm/PPCLS_INFORMATION, PCLFS_INFORMATION, PPCLS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PCLFS_INFORMATION, wdm/CLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLS_INFORMATION, CLFS_INFORMATION, PCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PCLS_INFORMATION, *PPCLS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,87 +84,87 @@ typedef struct _CLS_INFORMATION {
 
 
 
-#### - TotalAvailable
+### -field TotalAvailable
 
 The total available space allocated to the log. This is calculated as the sum of the sizes of all containers in the log. 
 
 
-#### - CurrentAvailable
+### -field CurrentAvailable
 
 The amount of space available in the log for new records and reservation allocations. This space is the total available space minus the undo commitment space and space used for storing owner pages in a multiplexed log.
 
 
-#### - TotalReservation
+### -field TotalReservation
 
 The amount of space reserved in the stream (or physical log) for undo operations.
 
 
-#### - BaseFileSize
+### -field BaseFileSize
 
 The size, in bytes, of the base log file.
 
 
-#### - ContainerSize
+### -field ContainerSize
 
 The size, in bytes, of an individual container in the log. Note that all containers in the log are the same size.
 
 
-#### - TotalContainers
+### -field TotalContainers
 
 The number of containers in the log.
 
 
-#### - FreeContainers
+### -field FreeContainers
 
 The number of containers in the log that are not active. 
 
 
-#### - TotalClients
+### -field TotalClients
 
 The number of streams that share the log. 
 
 
-#### - Attributes
+### -field Attributes
 
 A set of flags that specify stream (or physical log) attributes. See the <i>fFlagsAndAttributes</i> parameter of the <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> function.
 
 
-#### - FlushThreshold
+### -field FlushThreshold
 
 The number of bytes of data (including headers) that are allowed to remain pending on the internal flush queue before CLFS automatically schedules a thread to write the flush queue to stable storage. 
 
 
-#### - SectorSize
+### -field SectorSize
 
 The sector size, in bytes, of the underlying disk geometry. The sector size is assumed to be a multiple of 512 and consistent across containers.
 
 
-#### - MinArchiveTailLsn
+### -field MinArchiveTailLsn
 
 The LSN of the oldest record in the log for which archiving has not taken place. The minimum of this and the base LSN determines the last container that can be reused when containers are recycled.
 
 
-#### - BaseLsn
+### -field BaseLsn
 
 The LSN of the oldest record in the stream (or physical log) that is still needed by the stream (or log) clients.
 
 
-#### - LastFlushedLsn
+### -field LastFlushedLsn
 
 The LSN of the last record that was flushed to stable storage.
 
 
-#### - LastLsn
+### -field LastLsn
 
 The LSN of the youngest record in the stream (or physical log) that is still needed by the stream (or log) clients. 
 
 
-#### - RestartLsn
+### -field RestartLsn
 
 The LSN of the last restart record written to the stream (or physical log). If there are no restart records, this member is equal to CLFS_LSN_INVALID.
 
 
-#### - Identity
+### -field Identity
 
 A GUID that serves as a unique identifier for the log.
 
@@ -205,9 +205,9 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
-<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
-
 <a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
+
+<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
 
  
 

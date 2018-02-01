@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 0af1a3f2-b933-4232-865c-cccca53fd32e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetScaledUsageValue routine [Human Input Devices], HidP_GetScaledUsageValue, hidpi/HidP_GetScaledUsageValue, hidfunc_7fa22086-ab66-4c6b-a7de-65adce226b10.xml, hid.hidp_getscaledusagevalue
+ms.keywords: HidP_GetScaledUsageValue, hid.hidp_getscaledusagevalue, HidP_GetScaledUsageValue routine [Human Input Devices], hidfunc_7fa22086-ab66-4c6b-a7de-65adce226b10.xml, hidpi/HidP_GetScaledUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,42 +75,42 @@ NTSTATUS __stdcall HidP_GetScaledUsageValue(
 
 
 
-#### - ReportType [in]
+### -param ReportType [in]
 
 Specifies a <b>HIDP_REPORT_TYPE</b> enumerator value that identifies the type of HID report that contains the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usage</a> value.
 
 
-#### - UsagePage [in]
+### -param UsagePage [in]
 
 Specifies the usage page of the value to extract.
 
 
-#### - LinkCollection [in]
+### -param LinkCollection [in]
 
 Specifies the link collection identifier of the value to extract. A LinkCollection value of zero identifies the top-level collection.
 
 
-#### - Usage [in]
+### -param Usage [in]
 
 Specifies the usage of the value to extract.
 
 
-#### - UsageValue [out]
+### -param UsageValue [out]
 
 Pointer to the buffer in which the routine returns the signed and scaled value.
 
 
-#### - PreparsedData [in]
+### -param PreparsedData [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a> of the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> that generated the report located at <i>Report</i>.
 
 
-#### - Report [in]
+### -param Report [in]
 
 Pointer to the report that contains the usage.
 
 
-#### - ReportLength [in]
+### -param ReportLength [in]
 
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
@@ -231,11 +231,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
 
  
 

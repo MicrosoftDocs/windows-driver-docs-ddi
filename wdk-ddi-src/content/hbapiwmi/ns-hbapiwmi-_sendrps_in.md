@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7ab8986d-1e28-4d25-888f-cd10e310d623
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sendrps_in, hbapiwmi/PSendRPS_IN, PSendRPS_IN structure pointer [Storage Devices], SendRPS_IN structure [Storage Devices], _SendRPS_IN, structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml, *PSendRPS_IN, SendRPS_IN, PSendRPS_IN, hbapiwmi/SendRPS_IN
+ms.keywords: hbapiwmi/PSendRPS_IN, storage.sendrps_in, hbapiwmi/SendRPS_IN, PSendRPS_IN structure pointer [Storage Devices], structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml, _SendRPS_IN, SendRPS_IN structure [Storage Devices], SendRPS_IN, PSendRPS_IN, *PSendRPS_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _SendRPS_IN {
 
 
 
-#### - PortWWN
+### -field PortWWN
 
 Contains a worldwide name for the local port through which the RPS command is sent. 
 
 
-#### - AgentWWN
+### -field AgentWWN
 
 Contains a worldwide name for the port that is to be queried for the status of the port indicated by <b>ObjectWWN</b>. 
 
 
-#### - ObjectWWN
+### -field ObjectWWN
 
 Contains the worldwide name of the port for which port status is to be returned. 
 
 
-#### - AgentDomain
+### -field AgentDomain
 
 Contains the domain number of the domain controller to be queried for the status of the port indicated by <b>ObjectWWN</b>. 
 
 
-#### - ObjectPortNumber
+### -field ObjectPortNumber
 
 Contains the worldwide name of the port for which port status is to be returned. 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/CUSTOMSIZEPARAM, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, _CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], CUSTOMSIZEPARAM structure [Print Devices], CUSTOMSIZEPARAM, print.customsizeparam, printoem/PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM
+ms.keywords: CUSTOMSIZEPARAM structure [Print Devices], CUSTOMSIZEPARAM, printoem/PCUSTOMSIZEPARAM, printoem/CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, _CUSTOMSIZEPARAM, print.customsizeparam, PCUSTOMSIZEPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _CUSTOMSIZEPARAM {
 
 
 
-#### - dwOrder
+### -field dwOrder
 
 Specifies the order in which a custom page size parameter is placed on the PostScript interpreter's operand stack. For example, a parameter for which <b>dwOrder</b> is set to 1 is placed on the stack first. A parameter for which <b>dwOrder</b> is set to 2 is placed on the stack second, and so on.
 
 
-#### - lMinVal
+### -field lMinVal
 
 Specifies the minimum value of the custom page size parameter.
 
 
-#### - lMaxVal
+### -field lMaxVal
 
 Specifies the maximum value of the custom page size parameter.
 

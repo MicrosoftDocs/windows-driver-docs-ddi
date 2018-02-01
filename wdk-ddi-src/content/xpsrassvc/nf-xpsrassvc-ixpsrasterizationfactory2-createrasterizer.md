@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CreateRasterizer method [Print Devices], IXpsRasterizationFactory2, CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, IXpsRasterizationFactory2::CreateRasterizer
+ms.keywords: CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, CreateRasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2::CreateRasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,7 +91,7 @@ HRESULT CreateRasterizer(
 
 
 
-#### - nonTextRenderingMode [in]
+### -param nonTextRenderingMode [in]
 
 Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a> enumeration values:
 <ul>
@@ -105,7 +105,7 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-#### - textRenderingMode [in]
+### -param textRenderingMode [in]
 
 Rendering mode for text in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following XPSRAS_RENDERING_MODE enumeration values:
 <ul>
@@ -119,7 +119,7 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-#### - pixelFormat [in]
+### -param pixelFormat [in]
 
 Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001.md">XPSRAS_PIXEL_FORMAT</a> enumeration values:
 <ul>
@@ -137,7 +137,7 @@ XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB
 </li>
 </ul>
 
-#### - backgroundColor [in]
+### -param backgroundColor [in]
 
 Allows a caller to select background color. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001.md">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
 <ul>
@@ -158,6 +158,12 @@ XPSRAS_BACKGROUND_COLOR_OPAQUE
 
 
 
+#### - **ppIXpsRasterizer [out, optional]
+
+This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+
+
+
 #### - *xpsPage [in, optional]
 
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. 
@@ -171,12 +177,6 @@ Dots per inch which is applied to x dimension of the rasterized output bitmap. T
 #### - dpiY [in]
 
 Dots per inch which is applied to y dimension of the rasterized output bitmap.
-
-
-#### - **ppIXpsRasterizer [out, optional]
-
-This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
-
 
 
 ## -returns

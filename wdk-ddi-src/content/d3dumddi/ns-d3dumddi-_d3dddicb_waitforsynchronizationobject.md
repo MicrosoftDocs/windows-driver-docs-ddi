@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f235fc4-924b-4cc4-858d-5009e69fae47
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_170af521-644c-4790-94dc-6836d880d620.xml, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, display.d3dddicb_waitforsynchronizationobject
+ms.keywords: d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3D_param_Structs_170af521-644c-4790-94dc-6836d880d620.xml, _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dddicb_waitforsynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT {
 
 
 
-#### - hContext
+### -field hContext
 
 [in] A handle to a context that waits for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies to occur.
 
 
-#### - ObjectCount
+### -field ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array. 
 
 
-#### - ObjectHandleArray
+### -field ObjectHandleArray
 
 [in] An array of handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for. The <b>D3DDDI_MAX_OBJECT_WAITED_ON</b> constant, which is defined as 32, indicates the maximum number of synchronization events that the context can wait for.
 

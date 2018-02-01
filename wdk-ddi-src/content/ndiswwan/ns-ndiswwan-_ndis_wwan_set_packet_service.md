@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bded1e89-3bb5-4241-ab44-875012bfad3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_set_packet_service, NDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], WwanRef_b98b2778-6d41-426f-85c3-99add8477050.xml, _NDIS_WWAN_SET_PACKET_SERVICE, PNDIS_WWAN_SET_PACKET_SERVICE, *PNDIS_WWAN_SET_PACKET_SERVICE, PNDIS_WWAN_SET_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/NDIS_WWAN_SET_PACKET_SERVICE
+ms.keywords: PNDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/PNDIS_WWAN_SET_PACKET_SERVICE, _NDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_packet_service, PNDIS_WWAN_SET_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_PACKET_SERVICE, WwanRef_b98b2778-6d41-426f-85c3-99add8477050.xml, NDIS_WWAN_SET_PACKET_SERVICE, *PNDIS_WWAN_SET_PACKET_SERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SET_PACKET_SERVICE {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_PACKET_SERVICE
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,11 +118,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - PacketServiceAction
+### -field PacketServiceAction
 
 A value from the 
-     <mshelp:link keywords="netvista.wwan_packet_service_action" tabindex="0"><b>
-     WWAN_PACKET_SERVICE_ACTION</b></mshelp:link> enumeration that represents the packet service action to take.
+     <a href="..\wwan\ne-wwan-_wwan_packet_service_action.md">
+     WWAN_PACKET_SERVICE_ACTION</a> enumeration that represents the packet service action to take.
 
 
 ## -see-also

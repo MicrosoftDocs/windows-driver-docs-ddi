@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b3f4af4e-dbba-4f14-8935-f894865cbe7d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumberprocessors, dbgeng/IDebugControl::GetNumberProcessors, IDebugControl3, IDebugControl interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, GetNumberProcessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, GetNumberProcessors method [Windows Debugging], dbgeng/IDebugControl2::GetNumberProcessors, IDebugControl3::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, IDebugControl2::GetNumberProcessors, dbgeng/IDebugControl3::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl interface, IDebugControl::GetNumberProcessors
+ms.keywords: IDebugControl::GetNumberProcessors, IDebugControl2::GetNumberProcessors, dbgeng/IDebugControl::GetNumberProcessors, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, debugger.getnumberprocessors, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, dbgeng/IDebugControl3::GetNumberProcessors, GetNumberProcessors, GetNumberProcessors method [Windows Debugging], GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetNumberProcessors, IDebugControl interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, IDebugControl3::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ HRESULT GetNumberProcessors(
 
 
 
-#### - Number [out]
+### -param Number [out]
 
 Receives the number of processors.
 

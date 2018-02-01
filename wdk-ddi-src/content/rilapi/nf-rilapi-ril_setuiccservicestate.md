@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 96b17a3f-1e69-47f5-aa09-59abfb5c1505
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_setuiccservicestate, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], RIL_SetUiccServiceState, rilapi/RIL_SetUiccServiceState
+ms.keywords: rilapi/RIL_SetUiccServiceState, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], RIL_SetUiccServiceState, netvista.ril_setuiccservicestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,27 +75,27 @@ HRESULT  RIL_SetUiccServiceState(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 
-#### - dwService
+### -param dwService
 
 
 
-#### - lpLockCredential
+### -param lpLockCredential
 
 
 
-#### - fEnable
+### -param fEnable
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f9121be-786d-4a1c-bb01-7bf3c1d3b6cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl, KsMethod method [Streaming Media Devices], KsMethod, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl::KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, ksproxy/IKsControl::KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, stream.ikscontrol_ksmethod
+ms.keywords: KsMethod method [Streaming Media Devices], KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl::KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl, stream.ikscontrol_ksmethod, ksproxy/IKsControl::KsMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ HRESULT KsMethod(
 
 
 
-#### - Method [in]
+### -param Method [in]
 
 Pointer to a <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a> structure that describes a method and the request type of the method request. 
 
 
-#### - MethodLength [in]
+### -param MethodLength [in]
 
 Size, in bytes, of the buffer at <i>Method</i>. 
 
 
-#### - MethodData [in, out]
+### -param MethodData [in, out]
 
 Pointer to a buffer that contains data and buffer space for a KSMETHOD_TYPE_SEND operation, or buffer space that receives data for all other operations. 
 
 
-#### - DataLength [in]
+### -param DataLength [in]
 
 Size, in bytes, of the buffer at <i>MethodData</i>. 
 
 
-#### - BytesReturned [in, out]
+### -param BytesReturned [in, out]
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsMethod</b> stores in the buffer at <i>MethodData</i>. 
 

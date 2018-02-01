@@ -71,7 +71,7 @@ void EvtUsbEndpointPurge(
 
 
 
-#### - UdecxUsbEndpoint [in]
+### -param UdecxUsbEndpoint [in]
 
 A handle to a UDE endpoint object that represents the endpoint for which I/O requests must be canceled. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>.
 

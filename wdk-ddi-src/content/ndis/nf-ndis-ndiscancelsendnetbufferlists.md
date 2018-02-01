@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b61db73-ddd4-4d46-b378-9a82fdf041ea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCancelSendNetBufferLists, netvista.ndiscancelsendnetbufferlists, NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml
+ms.keywords: netvista.ndiscancelsendnetbufferlists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, NdisCancelSendNetBufferLists, ndis/NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,14 +70,14 @@ VOID NdisCancelSendNetBufferLists(
 
 
 
-#### - NdisBindingHandle [in]
+### -param NdisBindingHandle [in]
 
 The handle returned by the 
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function that
      identifies the miniport driver or virtual miniport to which the cancellation applies.
 
 
-#### - CancelId [in]
+### -param CancelId [in]
 
 The cancellation identifier. This identifier specifies the network data for which transmission is
      being canceled.
@@ -102,8 +102,8 @@ A protocol driver maps IRPs that it receives from higher-level software to NDIS 
     network data.
 
 Call the 
-    <mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link> macro for each NET_BUFFER_LIST structure that is passed to
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro for each NET_BUFFER_LIST structure that is passed to
     lower-level drivers for transmission. The NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro marks the specified
     packet with a cancellation identifier.
 
@@ -134,8 +134,8 @@ There is no guarantee that calling
 
 In all cases, NDIS returns network data that was submitted for transmission to the originating
     protocol driver's 
-    <mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
-    ProtocolSendNetBufferListsComplete</i></mshelp:link> function. NDIS returns canceled send data with a completion
+    <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+    ProtocolSendNetBufferListsComplete</a> function. NDIS returns canceled send data with a completion
     status of NDIS_STATUS_SEND_ABORTED. The delay between calling 
     <b>NdisCancelSendNetBufferLists</b> and the return of the canceled NET_BUFFER_LIST structures can vary and
     therefore cannot be exactly specified.
@@ -144,19 +144,19 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
-   ProtocolSendNetBufferListsComplete</i></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+   ProtocolSendNetBufferListsComplete</a>
 
 <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
  
 

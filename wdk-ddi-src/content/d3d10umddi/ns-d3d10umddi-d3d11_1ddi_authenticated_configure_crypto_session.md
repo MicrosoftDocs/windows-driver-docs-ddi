@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 667429cb-0db8-4139-af5a-c3275b68a507
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure [Display Devices], D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, display.d3d11_1ddi_authenticated_configure_crypto_session
+ms.keywords: display.d3d11_1ddi_authenticated_configure_crypto_session, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,24 +70,24 @@ typedef struct D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION {
 
 
 
-#### - Parameters
+### -field Parameters
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a> structure that contains the command GUID and other data. 
 
 
-#### - DecodeHandle
+### -field DecodeHandle
 
 A handle to the decoder device.
 
 
 
 
-#### - CryptoSessionHandle
+### -field CryptoSessionHandle
 
 A handle to the cryptographic session.
 
 
-#### - DeviceHandle
+### -field DeviceHandle
 
 A handle to the Direct3D device.
 

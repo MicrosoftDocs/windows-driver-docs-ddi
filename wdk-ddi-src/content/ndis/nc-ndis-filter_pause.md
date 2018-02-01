@@ -73,7 +73,7 @@ NDIS_STATUS FilterPause(
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module that the filter driver should pause. The filter
      driver created and initialized this context area in the 
@@ -90,8 +90,8 @@ A handle to the context area for the filter module that the filter driver should
 #### - FilterPauseParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_filter_pause_parameters" tabindex="0"><b>
-     NDIS_FILTER_PAUSE_PARAMETERS</b></mshelp:link> structure that defines the pause parameters for the filter
+     <a href="..\ndis\ns-ndis-_ndis_filter_pause_parameters.md">
+     NDIS_FILTER_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the filter
      module.
 
 
@@ -147,28 +147,28 @@ A filter driver performs the following operations when NDIS calls
 <ul>
 <li>
 Must call the 
-      <mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
-      NdisFSendNetBufferListsComplete</b></mshelp:link> function for any queued send buffers that an overlying driver
+      <a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
+      NdisFSendNetBufferListsComplete</a> function for any queued send buffers that an overlying driver
       created.
 
 </li>
 <li>
 Must call the 
-      <mshelp:link keywords="netvista.ndisfreturnnetbufferlists" tabindex="0"><b>
-      NdisFReturnNetBufferLists</b></mshelp:link> function for any queued receive buffers that an underlying driver
+      <a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">
+      NdisFReturnNetBufferLists</a> function for any queued receive buffers that an underlying driver
       created.
 
 </li>
 <li>
 Must wait for NDIS to return all outstanding send requests that the driver originated to the 
-      <mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-      FilterSendNetBufferListsComplete</i></mshelp:link> function.
+      <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+      FilterSendNetBufferListsComplete</a> function.
 
 </li>
 <li>
 Must wait for NDIS to return all outstanding receive indications that the driver originated to the 
-      <mshelp:link keywords="netvista.filterreturnnetbufferlists" tabindex="0"><i>
-      FilterReturnNetBufferLists</i></mshelp:link> function.
+      <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">
+      FilterReturnNetBufferLists</a> function.
 
 </li>
 </ul>After the filter driver returns NDIS_STATUS_SUCCESS from 
@@ -181,10 +181,10 @@ In the
     <i>Pausing</i> or 
     <i>Paused</i> states, a filter driver should continue to handle OID requests or status indications. The
     driver should reject calls to its 
-    <mshelp:link keywords="netvista.filtersendnetbufferlists" tabindex="0"><i>
-    FilterSendNetBufferLists</i></mshelp:link> function. The driver can pass on calls to its 
-    <mshelp:link keywords="netvista.filterreceivenetbufferlists" tabindex="0"><i>
-    FilterReceiveNetBufferLists</i></mshelp:link> function. However, the driver cannot pass any buffers that it created.
+    <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">
+    FilterSendNetBufferLists</a> function. The driver can pass on calls to its 
+    <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
+    FilterReceiveNetBufferLists</a> function. However, the driver cannot pass any buffers that it created.
     The driver must not originate any receive indications or send requests.
 
 In the 
@@ -233,31 +233,31 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndisfpausecomplete.md">NdisFPauseComplete</a>
-
-<mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisFSendNetBufferListsComplete</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
-<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-   FilterSendNetBufferListsComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
 <a href="..\ndis\ns-ndis-_ndis_filter_pause_parameters.md">NDIS_FILTER_PAUSE_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
+   NdisFSendNetBufferListsComplete</a>
+
+<a href="..\ndis\nf-ndis-ndisfpausecomplete.md">NdisFPauseComplete</a>
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+   FilterSendNetBufferListsComplete</a>
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
 
  
 

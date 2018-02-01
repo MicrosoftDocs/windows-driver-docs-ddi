@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3e7c79f-2a0d-4011-887d-0f01537cd6e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_130c736e-6408-4484-b306-91ba275eaac0.xml, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], kernel.ioforwardirpsynchronously, IoForwardIrpSynchronously, wdm/IoForwardIrpSynchronously
+ms.keywords: kernel.ioforwardirpsynchronously, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], IoForwardIrpSynchronously, k104_130c736e-6408-4484-b306-91ba275eaac0.xml, wdm/IoForwardIrpSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ BOOLEAN IoForwardIrpSynchronously(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Specifies the device object of the driver to which the IRP is sent. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP to send. 
 
@@ -97,11 +97,11 @@ The <b>IoForwardIrpSynchronously</b> routine copies the current stack location t
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
 <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
  
 

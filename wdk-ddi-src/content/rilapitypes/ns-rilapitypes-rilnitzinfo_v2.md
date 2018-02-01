@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 508d89d5-1f79-4346-81f5-fabfeb405bd4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILNITZINFO, RILNITZINFO_V2 structure [Network Drivers Starting with Windows Vista], RILNITZINFO_V2, netvista.rilnitzinfo_v2_2, rilapitypes/RILNITZINFO_V2, *LPRILNITZINFO, *LPRILNITZINFO_V2
+ms.keywords: "*LPRILNITZINFO, RILNITZINFO_V2, rilapitypes/RILNITZINFO_V2, RILNITZINFO, *LPRILNITZINFO_V2, RILNITZINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v2_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,30 +74,30 @@ typedef struct _RILNITZINFO_V2 {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - TimeZoneOffsetMinutes
+### -field TimeZoneOffsetMinutes
 
 
 
-#### - DaylightSavingOffsetMinutes
+### -field DaylightSavingOffsetMinutes
 
 
 
-#### - SysTime
+### -field SysTime
 
 
 
-#### - dwSystemTypes
+### -field dwSystemTypes
 
 

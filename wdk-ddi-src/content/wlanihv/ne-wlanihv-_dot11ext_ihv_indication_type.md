@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4cba30d-f0ba-424b-aa05-2717fa8fcc4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11EXT_IHV_INDICATION_TYPE, netvista.dot11ext_ihv_indication_type, wlanihv/IndicationTypeTkipMicFailure, IndicationTypePmkidCandidateList, IndicationTypeLinkQuality, wlanihv/DOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE enumeration [Network Drivers Starting with Windows Vista], IndicationTypePhyStateChange, wlanihv/IndicationTypeLinkQuality, _DOT11EXT_IHV_INDICATION_TYPE, *PDOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypePhyStateChange, IndicationTypeTkipMicFailure, PDOT11EXT_IHV_INDICATION_TYPE, Native_802.11_data_types_57d8dd95-82d4-41e6-8ba3-b1ec5254b4b8.xml, wlanihv/IndicationTypePmkidCandidateList, wlanihv/IndicationTypeNicSpecificNotification, IndicationTypeNicSpecificNotification, PDOT11EXT_IHV_INDICATION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wlanihv/PDOT11EXT_IHV_INDICATION_TYPE
+ms.keywords: IndicationTypeTkipMicFailure, IndicationTypePhyStateChange, IndicationTypePmkidCandidateList, PDOT11EXT_IHV_INDICATION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wlanihv/IndicationTypePmkidCandidateList, wlanihv/IndicationTypeTkipMicFailure, PDOT11EXT_IHV_INDICATION_TYPE, *PDOT11EXT_IHV_INDICATION_TYPE, Native_802.11_data_types_57d8dd95-82d4-41e6-8ba3-b1ec5254b4b8.xml, wlanihv/IndicationTypePhyStateChange, wlanihv/PDOT11EXT_IHV_INDICATION_TYPE, IndicationTypeLinkQuality, IndicationTypeNicSpecificNotification, wlanihv/DOT11EXT_IHV_INDICATION_TYPE, _DOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypeNicSpecificNotification, DOT11EXT_IHV_INDICATION_TYPE enumeration [Network Drivers Starting with Windows Vista], wlanihv/IndicationTypeLinkQuality, netvista.dot11ext_ihv_indication_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,27 +73,27 @@ typedef enum _DOT11EXT_IHV_INDICATION_TYPE {
 
 
 
-#### - IndicationTypeNicSpecificNotification
+### -field IndicationTypeNicSpecificNotification
 
 Indicates a NIC-specific notification.
 
 
-#### - IndicationTypePmkidCandidateList
+### -field IndicationTypePmkidCandidateList
 
 Indicates a PMKID candidate list.
 
 
-#### - IndicationTypeTkipMicFailure
+### -field IndicationTypeTkipMicFailure
 
 Indicates a TKIP MIC failure.
 
 
-#### - IndicationTypePhyStateChange
+### -field IndicationTypePhyStateChange
 
 Indicates a PHY state change.
 
 
-#### - IndicationTypeLinkQuality
+### -field IndicationTypeLinkQuality
 
 Indicates link quality.
 

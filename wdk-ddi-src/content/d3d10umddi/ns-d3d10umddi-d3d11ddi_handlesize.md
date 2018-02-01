@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9b785bee-289f-4f91-8183-c1dc2fa1fa6d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx11param_Structs_4eedfbd5-b87d-42bb-9ec9-2efc75ad3464.xml, D3D11DDI_HANDLESIZE structure [Display Devices], D3D11DDI_HANDLESIZE, d3d10umddi/D3D11DDI_HANDLESIZE, display.d3d11ddi_handlesize
+ms.keywords: UMDisplayDriver_Dx11param_Structs_4eedfbd5-b87d-42bb-9ec9-2efc75ad3464.xml, D3D11DDI_HANDLESIZE structure [Display Devices], display.d3d11ddi_handlesize, D3D11DDI_HANDLESIZE, d3d10umddi/D3D11DDI_HANDLESIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct D3D11DDI_HANDLESIZE {
 
 
 
-#### - HandleType
+### -field HandleType
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>-typed value that identifies the handle type. 
 
 
-#### - DriverPrivateSize
+### -field DriverPrivateSize
 
 [in] The size, in bytes, of the driver-private memory space that holds the handle data. 
 

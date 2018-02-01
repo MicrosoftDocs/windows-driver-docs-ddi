@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 358C060B-23A0-4F02-A5D3-07ADC3435849
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, display.dxgk_multiplane_overlay_plane_with_source, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure [Display Devices], display.dxgk_multiplane_overlay_plane_with_source, _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,22 +73,22 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE {
 
 
 
-#### - hAllocation
+### -field hAllocation
 
 A handle to the allocation.
 
 
-#### - VidPnSourceId
+### -field VidPnSourceId
 
 The zero-based video present network source identification number of the input for which the support levels are queried.
 
 
-#### - LayerIndex
+### -field LayerIndex
 
 The index of the layer being queried.
 
 
-#### - PlaneAttributes
+### -field PlaneAttributes
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> structure that specifies overlay plane attributes.
 

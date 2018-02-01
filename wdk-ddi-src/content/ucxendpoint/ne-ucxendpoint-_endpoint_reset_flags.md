@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3775836D-DC1E-47B4-8186-2AC329825FCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FlagEndpointResetPreserveTransferState, ENDPOINT_RESET_FLAGS enumeration [Buses], ucxendpoint/FlagEndpointResetPreserveTransferState, buses.endpoint_reset_flags, ENDPOINT_RESET_FLAGS, _ENDPOINT_RESET_FLAGS, ucxendpoint/ENDPOINT_RESET_FLAGS
+ms.keywords: FlagEndpointResetPreserveTransferState, ENDPOINT_RESET_FLAGS, ucxendpoint/ENDPOINT_RESET_FLAGS, _ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState, buses.endpoint_reset_flags, ENDPOINT_RESET_FLAGS enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,7 +68,7 @@ typedef enum _ENDPOINT_RESET_FLAGS {
 
 
 
-#### - FlagEndpointResetPreserveTransferState
+### -field FlagEndpointResetPreserveTransferState
 
 The transfer state must be preserved after the endpoint reset operation is complete.
 

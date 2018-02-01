@@ -52,10 +52,10 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolCmNotifyCloseAfComplete</i> function indicates that a client has completed the closing of an
   address family (AF) that a stand-alone call manager or miniport call manager (MCM) started by calling the 
-  <mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
-  NdisCmNotifyCloseAddressFamily</b></mshelp:link> or 
-  <mshelp:link keywords="netvista.ndismcmnotifycloseaddressfamily" tabindex="0"><b>
-  NdisMCmNotifyCloseAddressFamily</b></mshelp:link> function, respectively.
+  <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+  NdisCmNotifyCloseAddressFamily</a> or 
+  <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+  NdisMCmNotifyCloseAddressFamily</a> function, respectively.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
@@ -78,13 +78,13 @@ VOID ProtocolCmNotifyCloseAfComplete(
 
 
 
-#### - CallMgrAfContext [in]
+### -param CallMgrAfContext [in]
 
 A handle to the call manager's AF context area that the call manager supplied to NDIS in the 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
 
 
-#### - Status [in]
+### -param Status [in]
 
 The clients final status for the AF close notification. 
      <i>Status</i> can be one of the following:
@@ -118,11 +118,11 @@ The
 
 If a stand-alone call manager will unbind from an underlying miniport adapter, the call manager must
     call the 
-    <mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
-    NdisCmNotifyCloseAddressFamily</b></mshelp:link> function before unbinding. When a miniport call manager (MCM) halts
+    <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+    NdisCmNotifyCloseAddressFamily</a> function before unbinding. When a miniport call manager (MCM) halts
     a miniport adapter, the MCM must call the 
-    <mshelp:link keywords="netvista.ndismcmnotifycloseaddressfamily" tabindex="0"><b>
-    NdisMCmNotifyCloseAddressFamily</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+    NdisMCmNotifyCloseAddressFamily</a> function.
 
 If 
     <b>NdisCmNotifyCloseAddressFamily</b> or 
@@ -167,13 +167,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismcmnotifycloseaddressfamily" tabindex="0"><b>
-   NdisMCmNotifyCloseAddressFamily</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+   NdisCmNotifyCloseAddressFamily</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
-<mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
-   NdisCmNotifyCloseAddressFamily</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+   NdisMCmNotifyCloseAddressFamily</a>
 
  
 

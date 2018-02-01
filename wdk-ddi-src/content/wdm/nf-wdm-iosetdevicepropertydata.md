@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSetDevicePropertyData, IoSetDevicePropertyData, kernel.iosetdevicepropertydata, k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], IoSetDevicePropertyData, kernel.iosetdevicepropertydata, wdm/IoSetDevicePropertyData, k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,17 +74,17 @@ NTSTATUS IoSetDevicePropertyData(
 
 
 
-#### - Pdo [in]
+### -param Pdo [in]
 
 A pointer to the physical device object (PDO) for the device that is being queried.
 
 
-#### - PropertyKey [in]
+### -param PropertyKey [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a> structure that specifies the device property key.
 
 
-#### - Lcid [in]
+### -param Lcid [in]
 
 A locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>.
 
@@ -95,24 +95,24 @@ Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFA
 For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Set this parameter to <b>PLUGPLAY_PROPERTY_PERSISTENT</b> if the property value set by this routine should persist across computer restarts. Otherwise, set <i>Flags</i> to zero.
 
 Windows 8 and Windows Server 2012 and later operating systems treat <b>Flags</b> as if <b>PLUGPLAY_PROPERTY_PERSISTENT</b>  is always passed.
 
 
-#### - Type [in]
+### -param Type [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a> value that specifies the type of the data that is provided in the <i>Data</i> buffer.
 
 
-#### - Size [in]
+### -param Size [in]
 
 The size, in bytes, of the buffer that <i>Data</i> points to.
 
 
-#### - Data [in, optional]
+### -param Data [in, optional]
 
 A pointer to the device property data. Set this parameter to <b>NULL</b> to delete the specified property. If <i>Data</i> is non-<b>NULL</b>, the routine stores an internal copy of the property value. The buffer pointed to by <i>Data</i> does not need to remain valid after the call returns.
 
@@ -147,11 +147,11 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
-
-<a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a>
 
  
 

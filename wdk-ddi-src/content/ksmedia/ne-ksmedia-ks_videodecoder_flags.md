@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 120d7714-8c32-4b83-adc2-c9a933e541e5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], stream.ks_videodecoder_flags, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml, KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT
+ms.keywords: KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, stream.ks_videodecoder_flags, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml, ksmedia/KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT
+### -field KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT
 
 The decoder can translate its output lines. Video decoders that use a video port use this flag.
 
 
-#### - KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING
+### -field KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING
 
 The video decoder can alter its phase locked loop (PLL) timings to lock on to noisy signals. This flag typically is used when the video source is a VCR that introduces variability in the vertical and horizontal sync timing.
 
 
-#### - KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED
+### -field KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED
 
 The video decoder can distinguish whether it has locked to an incoming analog video signal.
 

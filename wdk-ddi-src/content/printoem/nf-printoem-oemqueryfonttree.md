@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2e30707-dffd-4990-a552-b67a7d9e2ca4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMQueryFontTree function [Print Devices], print_unidrv-pscript_rendering_f069b851-3104-4cca-8902-d844350a719e.xml, printoem/OEMQueryFontTree, print.oemqueryfonttree, OEMQueryFontTree
+ms.keywords: print_unidrv-pscript_rendering_f069b851-3104-4cca-8902-d844350a719e.xml, OEMQueryFontTree function [Print Devices], printoem/OEMQueryFontTree, print.oemqueryfonttree, OEMQueryFontTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,22 +81,22 @@ PVOID APIENTRY OEMQueryFontTree(
 
 
 
-#### - dhpdev
+### -param dhpdev
 
 
 
-#### - iFile
+### -param iFile
 
 
 
-#### - iFace
+### -param iFace
 
 
 
-#### - iMode
+### -param iMode
 
 
 
-#### - pid
+### -param pid
 
 

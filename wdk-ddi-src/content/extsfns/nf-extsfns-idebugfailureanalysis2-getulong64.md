@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C00C983A-92BA-4E4A-A5AB-918121D14B64
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2::GetUlong64, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, debugger.idebugfailureanalysis2_getulong64, GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, GetUlong method [Windows Debugging], extsfns/IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2::GetUlong, GetUlong64
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, IDebugFailureAnalysis2, debugger.idebugfailureanalysis2_getulong64, GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::GetUlong, GetUlong method [Windows Debugging], GetUlong64, extsfns/IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2::GetUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ PFA_ENTRY GetUlong(
 
 
 
-#### - Tag
+### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-#### - Value [out]
+### -param Value [out]
 
 A pointer to a <b>ULONG64</b> that receives the value from the entry's data block.
 
@@ -100,11 +100,11 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983410">AddUlong64</a>
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983410">AddUlong64</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 

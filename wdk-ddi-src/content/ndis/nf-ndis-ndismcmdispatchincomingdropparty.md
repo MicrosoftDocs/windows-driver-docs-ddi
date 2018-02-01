@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCmDispatchIncomingDropParty, condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMCmDispatchIncomingDropParty, condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -93,6 +93,13 @@ TBD
 
 
 
+#### - Buffer [in, optional]
+
+Pointer to a caller-allocated resident buffer containing additional protocol-specific data
+     received from the remote party, if any. Depending on the underlying medium, this pointer can be
+     <b>NULL</b>.
+
+
 #### - DropStatus [in]
 
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
@@ -105,13 +112,6 @@ Specifies the handle that identifies the party to be dropped from the multipoint
      have other parties that are still connected. The MCM driver originally obtained this handle as an input
      parameter to its 
      <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
-
-
-#### - Buffer [in, optional]
-
-Pointer to a caller-allocated resident buffer containing additional protocol-specific data
-     received from the remote party, if any. Depending on the underlying medium, this pointer can be
-     <b>NULL</b>.
 
 
 #### - Size [in]
@@ -137,13 +137,13 @@ However, an MCM driver also can call
 
 A call to 
     <b>NdisMCmDispatchIncomingDropParty</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
-    ProtocolClIncomingDropParty</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+    ProtocolClIncomingDropParty</a> function.
 
 If the 
     <i>NdisPartyHandle</i> identifies the last remaining party on the given VC, the MCM driver calls 
-    <mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
-    NdisMCmDispatchIncomingCloseCall</b></mshelp:link>, rather than 
+    <a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
+    NdisMCmDispatchIncomingCloseCall</a>, rather than 
     <b>NdisMCmDispatchIncomingDropParty</b>.
 
 Only connection-oriented miniport drivers that provide integrated call-management support can call 
@@ -155,17 +155,17 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscmdispatchincomingdropparty" tabindex="0"><b>
-   NdisCmDispatchIncomingDropParty</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
-   NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
+   NdisMCmDispatchIncomingCloseCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
+   NdisCmDispatchIncomingDropParty</a>
+
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
  
 

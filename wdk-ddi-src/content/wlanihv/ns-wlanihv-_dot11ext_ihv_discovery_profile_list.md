@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8fa104bd-b594-4909-bb49-0c9d013b1696
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST, Native_802.11_data_types_824a6794-5502-459a-9a47-409d51a6871a.xml, _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, *PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST, DOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_discovery_profile_list, PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, wlanihv/PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST
+ms.keywords: PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST, DOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, wlanihv/DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, *PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST, netvista.dot11ext_ihv_discovery_profile_list, Native_802.11_data_types_824a6794-5502-459a-9a47-409d51a6871a.xml, wlanihv/PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,18 +69,18 @@ typedef struct _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST {
 
 
 
-#### - dwCount
+### -field dwCount
 
 The number of 
-     <mshelp:link keywords="netvista.dot11ext_ihv_discovery_profile" tabindex="0"><b>
-     DOT11EXT_IHV_DISCOVERY_PROFILE</b></mshelp:link> IHV discovery profiles.
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile.md">
+     DOT11EXT_IHV_DISCOVERY_PROFILE</a> IHV discovery profiles.
 
 
-#### - pIhvDiscoveryProfiles
+### -field pIhvDiscoveryProfiles
 
 A pointer to an array of 
-     <mshelp:link keywords="netvista.dot11ext_ihv_discovery_profile" tabindex="0"><b>
-     DOT11EXT_IHV_DISCOVERY_PROFILE</b></mshelp:link> IHV discovery profiles.
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile.md">
+     DOT11EXT_IHV_DISCOVERY_PROFILE</a> IHV discovery profiles.
 
 
 ### -field pIhvDiscoveryProfiles.size_is
@@ -96,8 +96,8 @@ A pointer to an array of
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11ext_ihv_discovery_profile" tabindex="0"><b>
-   DOT11EXT_IHV_DISCOVERY_PROFILE</b></mshelp:link>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile.md">
+   DOT11EXT_IHV_DISCOVERY_PROFILE</a>
 
  
 

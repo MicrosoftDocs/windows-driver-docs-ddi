@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 47991f08-b67d-45f9-ad39-567b6c23c545
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, acpi.acpi_eval_input_buffer_simple_string_ex, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, acpi-meth-eval-ref_f58bbb60-e173-408c-a95f-a486eec6d32a.xml, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure pointer [ACPI Devices]
+ms.keywords: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure pointer [ACPI Devices], acpi-meth-eval-ref_f58bbb60-e173-408c-a95f-a486eec6d32a.xml, acpi.acpi_eval_input_buffer_simple_string_ex, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX {
 
 
 
-#### - Signature
+### -field Signature
 
 The signature of an extended string input buffer that must be set to ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_SIGNATURE_EX. 
 
 
-#### - MethodName
+### -field MethodName
 
 A NULL-terminated ASCII string that contains the path and name of a control method in an ACPI namespace. The maximum number of characters that the string can contain, including a NULL terminator, is 256. For more information about how to supply the path and name of a control method, see the Remarks section later in this topic.
 
 
-#### - StringLength
+### -field StringLength
 
 The number of ASCII characters in the array of characters that is supplied by <b>String</b>.
 
 
-#### - String
+### -field String
 
 An ASCII character array that contains the number of characters that is specified by <b>StringLength</b>. The character array does not include a NULL terminator. 
 
@@ -121,9 +121,9 @@ Set <b>String</b> to the input string.
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
 
  
 

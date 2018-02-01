@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b40dff76-4330-4527-b1f6-69f625732604
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvSplAbort, print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, winddiui/DrvSplAbort, DrvSplAbort function [Print Devices]
+ms.keywords: print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, DrvSplAbort, DrvSplAbort function [Print Devices], winddiui/DrvSplAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID WINAPI DrvSplAbort(
 
 
 
-#### - hDriver
+### -param hDriver
 
 
 

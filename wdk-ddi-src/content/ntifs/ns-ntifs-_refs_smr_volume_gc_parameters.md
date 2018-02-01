@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 78C8FFFE-8A80-4C92-B822-5C6675E2BC18
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS, ntifs/REFS_SMR_VOLUME_GC_PARAMETERS, ifsk.refs_smr_volume_gc_parameters, PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], *PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], _REFS_SMR_VOLUME_GC_PARAMETERS
+ms.keywords: ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS, ifsk.refs_smr_volume_gc_parameters, *PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], ntifs/REFS_SMR_VOLUME_GC_PARAMETERS, _REFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _REFS_SMR_VOLUME_GC_PARAMETERS {
 
 
 
-#### - Version
+### -field Version
 
 Specifies the current version of <b>REFS_SMR_VOLUME_GC_PARAMETERS</b>. Version is currently ignored but should be set to <b>REFS_SMR_VOLUME_GC_PARAMETERS_VERSION_V1</b>.
 
 
-#### - Flags
+### -field Flags
 
 Specifies the flags. Flags is currently ignored.
 
 
-#### - Action
+### -field Action
 
 Specifies the garbage collection action.
 
 
-#### - Method
+### -field Method
 
 Specifies the garbage collection method or strategy. Currently only <b>MsSmrGcMethodCompaction</b> is allowed.
 
 
-#### - IoGranularity
+### -field IoGranularity
 
 Specifies the volume's granularity. <b>IoGranularity</b> is a multiple of the cluster size up to the Shingled Magnetic Recording (SMR) band size (256 MB).  Zero or non-multiple of cluster size will result in a <b>STATUS_INVALID_PARAMETERS</b> status.
 
 
-#### - CompressionFormat
+### -field CompressionFormat
 
 Reserved for future use.
 
 
-#### - Unused
+### -field Unused
 
 Reserved for future use.
 

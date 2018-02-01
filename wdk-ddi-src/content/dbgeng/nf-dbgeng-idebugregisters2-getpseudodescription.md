@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc1c7b8a-1233-4f22-8c5f-273f370a1e06
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method, GetPseudoDescription, dbgeng/IDebugRegisters2::GetPseudoDescription, GetPseudoDescription method [Windows Debugging], IDebugRegisters2::GetPseudoDescription, GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, debugger.getpseudodescription
+ms.keywords: IDebugRegisters2::GetPseudoDescription, dbgeng/IDebugRegisters2::GetPseudoDescription, GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, debugger.getpseudodescription, GetPseudoDescription method [Windows Debugging], IDebugRegisters2, GetPseudoDescription, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,32 +72,32 @@ HRESULT GetPseudoDescription(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Specifies the index of the pseudo-register whose description is requested.  The index is always between zero and the number of pseudo-registers (returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>) minus one.
 
 
-#### - NameBuffer [out, optional]
+### -param NameBuffer [out, optional]
 
 Receives the name of the pseudo-register.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - NameBufferSize [in]
+### -param NameBufferSize [in]
 
 Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 Receives the size in characters of the name of the pseudo-register.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - TypeModule [out, optional]
+### -param TypeModule [out, optional]
 
 Receives the base address of the module to which the register's type belongs.  If the type of the register is not known, zero is returned.  If <i>TypeModule</i> is <b>NULL</b>, no information is returned.
 
 
-#### - TypeId [out, optional]
+### -param TypeId [out, optional]
 
 Receives the type ID of the type within the module returned in <i>TypeModule</i>.  If the type ID is not known, zero is returned.  If <i>TypeId</i> is <b>NULL</b>, no information is returned.
 
@@ -150,9 +150,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>
 
  
 

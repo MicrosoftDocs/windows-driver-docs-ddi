@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: df008ee8-352f-4655-b4c0-750eeb281e6a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfiotarget_cancelsentrequestsforfile, IWDFIoTarget, CancelSentRequestsForFile method, IWDFIoTarget::CancelSentRequestsForFile, wdf.iwdfiotarget_cancelsentrequestsforfile, wudfddi/IWDFIoTarget::CancelSentRequestsForFile, IWDFIoTarget interface, CancelSentRequestsForFile method, CancelSentRequestsForFile, CancelSentRequestsForFile method, IWDFIoTarget interface, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml
+ms.keywords: wdf.iwdfiotarget_cancelsentrequestsforfile, IWDFIoTarget, CancelSentRequestsForFile method, IWDFIoTarget interface, IWDFIoTarget::CancelSentRequestsForFile, CancelSentRequestsForFile method, CancelSentRequestsForFile, IWDFIoTarget interface, CancelSentRequestsForFile method, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml, wudfddi/IWDFIoTarget::CancelSentRequestsForFile, umdf.iwdfiotarget_cancelsentrequestsforfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void CancelSentRequestsForFile(
 
 
 
-#### - pFile [in]
+### -param pFile [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object to cancel all I/O requests for. 
 

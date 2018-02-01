@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9cc766c4-a2c0-4b84-a4d8-b005cddd9eea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_REMOTEPARTYINFO_WITHHELD, RIL_REMOTEPARTYINFO_MAX, RIL_REMOTEPARTYINFO_UNAVAILABLE, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista], RILREMOTEPARTYINFOVALUE, ntddrilapitypes/RIL_REMOTEPARTYINFO_MAX, ntddrilapitypes/RIL_REMOTEPARTYINFO_WITHHELD, ntddrilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, ntddrilapitypes/RILREMOTEPARTYINFOVALUE, netvista.rilremotepartyinfovalue
+ms.keywords: RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista], RIL_REMOTEPARTYINFO_WITHHELD, ntddrilapitypes/RIL_REMOTEPARTYINFO_MAX, netvista.rilremotepartyinfovalue, ntddrilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_UNAVAILABLE, ntddrilapitypes/RILREMOTEPARTYINFOVALUE, RIL_REMOTEPARTYINFO_MAX, RILREMOTEPARTYINFOVALUE, ntddrilapitypes/RIL_REMOTEPARTYINFO_WITHHELD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,14 +73,14 @@ typedef enum _RILREMOTEPARTYINFOVALUE {
 
 
 
-#### - RIL_REMOTEPARTYINFO_WITHHELD
+### -field RIL_REMOTEPARTYINFO_WITHHELD
 
 
 
-#### - RIL_REMOTEPARTYINFO_UNAVAILABLE
+### -field RIL_REMOTEPARTYINFO_UNAVAILABLE
 
 
 
-#### - RIL_REMOTEPARTYINFO_MAX
+### -field RIL_REMOTEPARTYINFO_MAX
 
 

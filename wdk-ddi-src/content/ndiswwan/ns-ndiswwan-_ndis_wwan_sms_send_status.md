@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2664fed3-c1fb-4f84-b265-d1b0d8a0ca04
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_SMS_SEND_STATUS, NDIS_WWAN_SMS_SEND_STATUS, *PNDIS_WWAN_SMS_SEND_STATUS, NDIS_WWAN_SMS_SEND_STATUS structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_sms_send_status, PNDIS_WWAN_SMS_SEND_STATUS, _NDIS_WWAN_SMS_SEND_STATUS, ndiswwan/PNDIS_WWAN_SMS_SEND_STATUS, WwanRef_5ca36240-d372-4887-887f-8b2b209a5c8a.xml, PNDIS_WWAN_SMS_SEND_STATUS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ndiswwan/NDIS_WWAN_SMS_SEND_STATUS, NDIS_WWAN_SMS_SEND_STATUS, PNDIS_WWAN_SMS_SEND_STATUS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_SEND_STATUS, netvista.ndis_wwan_sms_send_status, ndiswwan/PNDIS_WWAN_SMS_SEND_STATUS, WwanRef_5ca36240-d372-4887-887f-8b2b209a5c8a.xml, _NDIS_WWAN_SMS_SEND_STATUS, *PNDIS_WWAN_SMS_SEND_STATUS, NDIS_WWAN_SMS_SEND_STATUS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SMS_SEND_STATUS {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SMS_SEND_STATUS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,12 +118,12 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of the SMS send operation.
 
 
-#### - MessageReference
+### -field MessageReference
 
 A reference number that is returned upon successful delivery of the SMS text message. This member
      is populated by the device only if 

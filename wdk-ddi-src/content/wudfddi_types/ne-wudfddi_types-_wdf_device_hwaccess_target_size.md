@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C675431E-6213-4FA8-86DB-65FE6EE90853
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceHwAccessTargetSizeInvalid, WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration, *PWDF_DEVICE_HWACCESS_TARGET_SIZE, wdf.wdf_device_hwaccess_target_size, WDF_DEVICE_HWACCESS_TARGET_SIZE, WdfDeviceHwAccessTargetSizeUlong, WdfDeviceHwAccessTargetSizeUchar, wdfdevice/WdfDeviceHwAccessTargetSizeUlong, wudfddi_types/WdfDeviceHwAccessTargetSizeUlong, wudfddi_types/WdfDeviceHwAccessTargetSizeUlong64, WdfDeviceHwAccessTargetSizeMaximum, wudfddi_types/PWDF_DEVICE_HWACCESS_TARGET_TYPE, WdfDeviceHwAccessTargetSizeUlong64, WDF_DEVICE_HWACCESS_TARGET_TYPE, umdf.wdf_device_hwaccess_target_size, wudfddi_types/WdfDeviceHwAccessTargetSizeUchar, wdfdevice/PWDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetSizeMaximum, wdfdevice/WdfDeviceHwAccessTargetSizeMaximum, wdfdevice/WdfDeviceHwAccessTargetSizeUlong64, WdfDeviceHwAccessTargetSizeUshort, PWDF_DEVICE_HWACCESS_TARGET_TYPE enumeration pointer, wdfdevice/WdfDeviceHwAccessTargetSizeInvalid, wdfdevice/WDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetSizeUshort, _WDF_DEVICE_HWACCESS_TARGET_SIZE, wdfdevice/WdfDeviceHwAccessTargetSizeUshort, PWDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetSizeInvalid, wudfddi_types/WDF_DEVICE_HWACCESS_TARGET_TYPE, wdfdevice/WdfDeviceHwAccessTargetSizeUchar
+ms.keywords: WdfDeviceHwAccessTargetSizeMaximum, wudfddi_types/PWDF_DEVICE_HWACCESS_TARGET_TYPE, WdfDeviceHwAccessTargetSizeUchar, wdfdevice/PWDF_DEVICE_HWACCESS_TARGET_TYPE, WdfDeviceHwAccessTargetSizeUlong, PWDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetSizeMaximum, WDF_DEVICE_HWACCESS_TARGET_TYPE enumeration, wdfdevice/WDF_DEVICE_HWACCESS_TARGET_TYPE, wdfdevice/WdfDeviceHwAccessTargetSizeUlong, WDF_DEVICE_HWACCESS_TARGET_TYPE, umdf.wdf_device_hwaccess_target_size, wdfdevice/WdfDeviceHwAccessTargetSizeUlong64, wudfddi_types/WdfDeviceHwAccessTargetSizeUshort, *PWDF_DEVICE_HWACCESS_TARGET_SIZE, wudfddi_types/WdfDeviceHwAccessTargetSizeUlong64, wudfddi_types/WDF_DEVICE_HWACCESS_TARGET_TYPE, wudfddi_types/WdfDeviceHwAccessTargetSizeInvalid, wdfdevice/WdfDeviceHwAccessTargetSizeUchar, WdfDeviceHwAccessTargetSizeInvalid, PWDF_DEVICE_HWACCESS_TARGET_TYPE enumeration pointer, WDF_DEVICE_HWACCESS_TARGET_SIZE, wdf.wdf_device_hwaccess_target_size, _WDF_DEVICE_HWACCESS_TARGET_SIZE, wudfddi_types/WdfDeviceHwAccessTargetSizeUlong, wdfdevice/WdfDeviceHwAccessTargetSizeInvalid, wudfddi_types/WdfDeviceHwAccessTargetSizeUchar, WdfDeviceHwAccessTargetSizeUlong64, wdfdevice/WdfDeviceHwAccessTargetSizeMaximum, wdfdevice/WdfDeviceHwAccessTargetSizeUshort, WdfDeviceHwAccessTargetSizeUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,27 +76,27 @@ typedef enum __WDF_IO_TARGET_STATE {
 
 
 
-#### - WdfDeviceHwAccessTargetSizeInvalid
+### -field WdfDeviceHwAccessTargetSizeInvalid
 
 
 
-#### - WdfDeviceHwAccessTargetSizeUchar
+### -field WdfDeviceHwAccessTargetSizeUchar
 
 
 
-#### - WdfDeviceHwAccessTargetSizeUshort
+### -field WdfDeviceHwAccessTargetSizeUshort
 
 
 
-#### - WdfDeviceHwAccessTargetSizeUlong
+### -field WdfDeviceHwAccessTargetSizeUlong
 
 
 
-#### - WdfDeviceHwAccessTargetSizeUlong64
+### -field WdfDeviceHwAccessTargetSizeUlong64
 
 
 
-#### - WdfDeviceHwAccessTargetSizeMaximum
+### -field WdfDeviceHwAccessTargetSizeMaximum
 
 
 

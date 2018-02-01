@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2196971-47ad-4ac4-a3e9-c8f7f6b05321
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerError function [Storage Devices], storage.changererror, chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml, mcd/ChangerError, ChangerError
+ms.keywords: storage.changererror, ChangerError function [Storage Devices], mcd/ChangerError, chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml, ChangerError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID ChangerError(
 
 
 
-#### - DeviceObject
+### -param DeviceObject
 
 Pointer to the device object that represents the changer. 
 
 
-#### - Srb
+### -param Srb
 
 Pointer to the SCSI request block for the operation that failed.
 
 
-#### - Status
+### -param Status
 
 Specifies the address of the STATUS_<i>XXX</i> code set by the system. The changer miniclass driver can change the status or leave it as is.
 
 
-#### - Retry
+### -param Retry
 
 Pointer to a flag that indicates whether to retry the request. The changer miniclass driver can set this flag or leave it as is.
 

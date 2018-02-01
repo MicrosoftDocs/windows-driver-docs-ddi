@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 42e0a96b-2b0b-4d22-8c91-14457d02e9c7
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidsdi/HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], HidD_GetInputReport, hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml
+ms.keywords: HidD_GetInputReport routine [Human Input Devices], hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport, HidD_GetInputReport, hid.hidd_getinputreport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,19 +69,19 @@ BOOLEAN __stdcall HidD_GetInputReport(
 
 
 
-#### - HidDeviceObject [in]
+### -param HidDeviceObject [in]
 
 Specifies an open handle to a top-level collection.
 
 
-#### - ReportBuffer [out]
+### -param ReportBuffer [out]
 
 Pointer to a caller-allocated input report buffer that the caller uses to specify a HID report ID and <b>HidD_GetInputReport</b> uses to return the specified input report. 
 
 For more information about this parameter, see the Remarks section.
 
 
-#### - ReportBufferLength [in]
+### -param ReportBufferLength [in]
 
 Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the input report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
 
@@ -156,19 +156,19 @@ Only user-mode applications can call <b>HidD_GetInputReport</b>. Kernel-mode dri
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
 <a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+
+<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
 
  
 

@@ -71,12 +71,12 @@ VOID SdBusCallbackRoutine(
 
 
 
-#### - CallbackRoutineContext [in]
+### -param CallbackRoutineContext [in]
 
 Pointer to the context information that the bus driver passes to the callback routine. The device driver supplies the bus driver with this information when it initializes the SD bus interface.
 
 
-#### - InterruptType [in]
+### -param InterruptType [in]
 
 Must be set to SDBUS_INTTYPE_DEVICE.
 

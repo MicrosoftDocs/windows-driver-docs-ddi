@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 509f4fa5-37c8-4098-aade-767aad5d6d6a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_QUERY_INTERFACE_CONFIG_INIT function, wdf.wdf_query_interface_config_init, DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, kmdf.wdf_query_interface_config_init, WDF_QUERY_INTERFACE_CONFIG_INIT, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
+ms.keywords: kmdf.wdf_query_interface_config_init, WDF_QUERY_INTERFACE_CONFIG_INIT function, WDF_QUERY_INTERFACE_CONFIG_INIT, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT, wdf.wdf_query_interface_config_init, DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ VOID WDF_QUERY_INTERFACE_CONFIG_INIT(
 
 
 
-#### - InterfaceConfig [out]
+### -param InterfaceConfig [out]
 
 A pointer to the driver's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure.
 
 
-#### - Interface [in]
+### -param Interface [in]
 
 A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
-#### - InterfaceType [in]
+### -param InterfaceType [in]
 
 A pointer to the GUID that identifies the interface.
 
 
-#### - EvtDeviceProcessQueryInterfaceRequest [in, optional]
+### -param EvtDeviceProcessQueryInterfaceRequest [in, optional]
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a> event callback function, which is called when another driver requests the interface.
 
@@ -109,11 +109,11 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
 
 <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
  
 

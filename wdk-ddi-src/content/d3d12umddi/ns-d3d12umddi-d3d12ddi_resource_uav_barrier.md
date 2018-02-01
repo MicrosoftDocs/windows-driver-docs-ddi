@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8473EB26-54C5-49D0-A854-422086CE8CCC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_resource_uav_barrier, d3d12umddi/D3D12DDI_RESOURCE_UAV_BARRIER, D3D12DDI_RESOURCE_UAV_BARRIER, D3D12DDI_RESOURCE_UAV_BARRIER structure [Display Devices]
+ms.keywords: display.d3d12ddi_resource_uav_barrier, D3D12DDI_RESOURCE_UAV_BARRIER structure [Display Devices], D3D12DDI_RESOURCE_UAV_BARRIER, d3d12umddi/D3D12DDI_RESOURCE_UAV_BARRIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct D3D12DDI_RESOURCE_UAV_BARRIER {
 
 
 
-#### - hResource
+### -field hResource
 
 The handle of resource.
 

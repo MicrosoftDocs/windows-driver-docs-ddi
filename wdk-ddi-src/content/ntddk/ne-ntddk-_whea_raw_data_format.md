@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 809f2d72-e769-48c1-9ecf-6fa9020f6cdb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WheaRawDataFormatAMD64MCA, WheaRawDataFormatPCIExpress, ntddk/WheaRawDataFormatNMIPort, ntddk/WheaRawDataFormatMax, ntddk/WheaRawDataFormatPCIExpress, ntddk/WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatMemory, ntddk/WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIA32MCA, WheaRawDataFormatMemory, whea.whea_raw_data_format, *PWHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatIntel64MCA, WheaRawDataFormatPCIXDevice, ntddk/WheaRawDataFormatPCIXBus, WheaRawDataFormatGeneric, WheaRawDataFormatIPFSalRecord, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], ntddk/WheaRawDataFormatAMD64MCA, ntddk/PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT, _WHEA_RAW_DATA_FORMAT, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml, WheaRawDataFormatMax, ntddk/WheaRawDataFormatIPFSalRecord, WheaRawDataFormatNMIPort, WheaRawDataFormatIA32MCA, WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatPCIXDevice, WheaRawDataFormatIntel64MCA, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications]
+ms.keywords: ntddk/WheaRawDataFormatMax, *PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatIPFSalRecord, WheaRawDataFormatNMIPort, ntddk/WheaRawDataFormatPCIXDevice, WheaRawDataFormatMemory, ntddk/WheaRawDataFormatGeneric, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], ntddk/WheaRawDataFormatIA32MCA, WheaRawDataFormatIntel64MCA, whea.whea_raw_data_format, WheaRawDataFormatAMD64MCA, ntddk/WHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], ntddk/WheaRawDataFormatNMIPort, WheaRawDataFormatIA32MCA, ntddk/WheaRawDataFormatPCIExpress, WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatIntel64MCA, _WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatPCIXBus, ntddk/PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIPFSalRecord, ntddk/WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatMemory, WheaRawDataFormatMax, WheaRawDataFormatPCIXBus, WheaRawDataFormatPCIExpress, WheaRawDataFormatPCIXDevice, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,57 +77,57 @@ typedef enum _WHEA_RAW_DATA_FORMAT {
 
 
 
-#### - WheaRawDataFormatIPFSalRecord
+### -field WheaRawDataFormatIPFSalRecord
 
 The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
 
 
-#### - WheaRawDataFormatIA32MCA
+### -field WheaRawDataFormatIA32MCA
 
 The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>.
 
 
-#### - WheaRawDataFormatIntel64MCA
+### -field WheaRawDataFormatIntel64MCA
 
 The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>.
 
 
-#### - WheaRawDataFormatAMD64MCA
+### -field WheaRawDataFormatAMD64MCA
 
 The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>.
 
 
-#### - WheaRawDataFormatMemory
+### -field WheaRawDataFormatMemory
 
 The raw data in the hardware error packet contains memory error data. The format of this error data is memory architecture-dependent.
 
 
-#### - WheaRawDataFormatPCIExpress
+### -field WheaRawDataFormatPCIExpress
 
 The raw data in the hardware error packet contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a> structure.
 
 
-#### - WheaRawDataFormatNMIPort
+### -field WheaRawDataFormatNMIPort
 
 The raw data in the hardware error packet contains the data that was read from the nonmaskable interrupt (NMI) I/O ports by the NMI low-level hardware error handler (LLHEH).
 
 
-#### - WheaRawDataFormatPCIXBus
+### -field WheaRawDataFormatPCIXBus
 
 The raw data in the hardware error packet contains PCI/PCI-X bus error data. The format of this error data is specific to the implementation.
 
 
-#### - WheaRawDataFormatPCIXDevice
+### -field WheaRawDataFormatPCIXDevice
 
 The raw data in the hardware error packet contains a PCI/PCI-X device error data. The format of this error data is specific to the implementation.
 
 
-#### - WheaRawDataFormatGeneric
+### -field WheaRawDataFormatGeneric
 
 The raw data in the hardware error packet contains a <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure.
 
 
-#### - WheaRawDataFormatMax
+### -field WheaRawDataFormatMax
 
 The maximum number of formats of raw hardware error data.
 
@@ -141,13 +141,13 @@ The <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
 
  
 

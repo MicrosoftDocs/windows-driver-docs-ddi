@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83eb72a8-d35b-445d-a207-c14a3bedd308
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS, ntddndis/NDIS_QOS_PARAMETERS, netvista.ndis_qos_parameters, ntddndis/PNDIS_QOS_PARAMETERS"
+ms.keywords: NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_qos_parameters, ntddndis/NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS, _NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,7 @@ typedef struct _NDIS_QOS_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>NDIS_QOS_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
@@ -95,42 +95,37 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_QOS_PARAMETERS_REVISION_1.
 
 
-#### - Flags
+### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the status of the NDIS QoS parameters for the network adapter. For more information about this member, see <a href="https://docs.microsoft.com/">Overview of the Flags Member</a>.
 
 
-#### - NumTrafficClasses
+### -field NumTrafficClasses
 
 A <b>ULONG</b> value that specifies the number of NDIS QoS traffic classes that are enabled on the network adapter.  Each traffic class is referenced through an identifier in the range from zero to (<b>NumTrafficClasses</b>–1).
 <div class="alert"><b>Note</b>  The value of the <b>NumTrafficClasses</b> member must be less than or equal to <b>min</b>(<b>NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES</b>, <i>MaxNumTrafficClasses</i>), where <i>MaxNumTrafficClasses</i> is the value of the <b>MaxNumTrafficClasses</b> member that was specified  in the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a> structure.</div><div> </div>
 
-#### - PriorityAssignmentTable
+### -field PriorityAssignmentTable
 
 An array of <b>UCHAR</b> elements that specifies an IEEE 802.1p priority level for each traffic class. The <b>PriorityAssignmentTable</b> array is indexed  by the  802.1p priority level (0–7). 
 
 Each element contains the traffic class identifier. This identifier is the index of the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure for the traffic class within the classification array.
 <div class="alert"><b>Note</b>  Each element in the <b>PriorityAssignmentTable</b> array must be assigned a valid traffic class identifier. A traffic class identifier can be assigned to more than one element in the <b>PriorityAssignmentTable</b> array.</div><div> </div>
 
-#### - TcBandwidthAssignmentTable
+### -field TcBandwidthAssignmentTable
 
 An array of <b>UCHAR</b> elements that specifies the percentage of the bandwidth allocation assigned to each traffic class. The <b>TcBandwidthAssignmentTable</b> array is indexed by the   traffic class identifier. 
 
 Each element of the <b>TcBandwidthAssignmentTable</b> array specifies the bandwidth allocation for the traffic classes. The total value of all bandwidth allocation assignments  in the <b>TcBandwidthAssignmentTable</b> array must equal 100.
 <div class="alert"><b>Note</b>  Bandwidth allocation is supported only for the Enhanced Transmission Selection (ETS) TSA. If the element for the traffic class in the <b>TsaAssignmentTable</b> array is not set to NDIS_QOS_TSA_ETS, the element for the traffic class in the <b>TcBandwidthAssignmentTable</b> array must be set to zero.</div><div> </div>
 
-#### - TsaAssignmentTable
+### -field TsaAssignmentTable
 
 An array of <b>UCHAR</b> elements that specifies the TSA assigned to each traffic class. The <b>TsaAssignmentTable</b> array is indexed by the   traffic class identifier. 
 
 Each element of the <b>TsaAssignmentTable</b> array contains one of the following values:
 
 
-
-
-#### NDIS_QOS_TSA_STRICT
-
-The strict priority algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://msdn.microsoft.com/7C7A34CA-673C-4EFC-970D-08458AA83EAD">Strict Priority Algorithm</a>.
 
 
 #### NDIS_QOS_TSA_CBS
@@ -143,7 +138,12 @@ The IEEE 802.1Qav credit-based shaper (CBS) algorithm must be used as the TSA fo
 The IEEE 802.1Qaz Enhanced Transmission Selection (ETS) algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://msdn.microsoft.com/952ECB1E-96AD-4717-8E49-68558E7E9AD4">Enhanced Transmission Selection (ETS) Algorithm</a>.
 
 
-#### - PfcEnable
+#### NDIS_QOS_TSA_STRICT
+
+The strict priority algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://msdn.microsoft.com/7C7A34CA-673C-4EFC-970D-08458AA83EAD">Strict Priority Algorithm</a>.
+
+
+### -field PfcEnable
 
 A bitmap of 32 bits. The most-significant 24 bits are reserved for future use. The least-significant 8 bits are used to specify whether PFC
 is enabled on the IEEE 802.1p priority level. If the bit is set to one, PFC is enabled for the priority level.
@@ -192,17 +192,17 @@ is enabled on the IEEE 802.1p priority level. If the bit is set to one, PFC is e
 <div class="alert"><b>Note</b>  The total number of 802.1p priority levels that have PFC enabled must be less than or equal to the value of the <b>MaxNumPfcEnabledTrafficClasses</b> member in the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a> structure.</div><div> </div>For more information about priority levels, see <a href="https://msdn.microsoft.com/C7EB3D85-544E-4898-A456-843621F6488D">IEEE 802.1p Priority Levels</a>.
 
 
-#### - NumClassificationElements
+### -field NumClassificationElements
 
 A <b>ULONG</b> value that specifies the number of elements in the traffic classification array. The offset to the first element in this array is specified  by the <b>FirstClassificationElementOffset</b> member.
 <div class="alert"><b>Note</b>  Each element in the array is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.</div><div> </div>
 
-#### - ClassificationElementSize
+### -field ClassificationElementSize
 
 A <b>ULONG</b> value that specifies the size, in bytes, of each element in the traffic classification array.
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, this member must be set  to <code>sizeof(NDIS_QOS_CLASSIFICATION_ELEMENT</code>).</div><div> </div>
 
-#### - FirstClassificationElementOffset
+### -field FirstClassificationElementOffset
 
 A <b>ULONG</b> value that specifies the offset, in bytes, to the first element in an array of traffic classification elements that follow this structure. The offset is measured from the start of the <b>NDIS_QOS_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.
 
@@ -266,24 +266,24 @@ For more information on the DCB component, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
 
-<mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
 
 <b></b>
 

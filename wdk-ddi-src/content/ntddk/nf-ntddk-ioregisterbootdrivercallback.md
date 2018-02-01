@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 28BA4B54-F493-4D79-89DF-D890EBCF1E9C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioregisterbootdrivercallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], ntddk/IoRegisterBootDriverCallback, IoRegisterBootDriverCallback
+ms.keywords: ntddk/IoRegisterBootDriverCallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], kernel.ioregisterbootdrivercallback, IoRegisterBootDriverCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ PVOID IoRegisterBootDriverCallback(
 
 
 
-#### - CallbackFunction [in]
+### -param CallbackFunction [in]
 
 A pointer to the <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine to be called when initializing a boot-start driver or DLL.
 
 
-#### - CallbackContext [in, optional]
+### -param CallbackContext [in, optional]
 
 A driver-defined context to be passed to the <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine pointed to by <i>CallbackFunction</i>.
 
@@ -125,11 +125,11 @@ To be notified of boot-start driver initialization operations, an <i>early launc
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
+<a href="..\ntddk\ne-ntddk-_bdcb_callback_type.md">BDCB_CALLBACK_TYPE</a>
 
 <a href="..\ntddk\nf-ntddk-iounregisterbootdrivercallback.md">IoUnRegisterBootDriverCallback</a>
 
-<a href="..\ntddk\ne-ntddk-_bdcb_callback_type.md">BDCB_CALLBACK_TYPE</a>
+<a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
 
  
 

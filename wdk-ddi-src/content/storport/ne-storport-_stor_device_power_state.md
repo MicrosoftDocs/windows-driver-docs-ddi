@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 563ece3e-1359-4e3c-9ae7-61b94bf90ad0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], storport/STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD1, StorPowerDeviceD2, StorPowerDeviceD1, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], storport/StorPowerDeviceD0, STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD2, StorPowerDeviceUnspecified, StorPowerDeviceMaximum, StorPowerDeviceD0, StorPowerDeviceD3, storport/StorPowerDeviceD3, storport/StorPowerDeviceMaximum, storport/StorPowerDeviceUnspecified, PSTOR_DEVICE_POWER_STATE, _STOR_DEVICE_POWER_STATE, storport/PSTOR_DEVICE_POWER_STATE, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml, *PSTOR_DEVICE_POWER_STATE, storage.stor_device_power_state
+ms.keywords: storport/PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD0, STOR_DEVICE_POWER_STATE, StorPowerDeviceD2, StorPowerDeviceD3, _STOR_DEVICE_POWER_STATE, StorPowerDeviceD0, StorPowerDeviceD1, storage.stor_device_power_state, storport/StorPowerDeviceD1, storport/StorPowerDeviceD2, StorPowerDeviceUnspecified, StorPowerDeviceMaximum, PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceMaximum, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], storport/StorPowerDeviceD3, storport/STOR_DEVICE_POWER_STATE, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml, *PSTOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], storport/StorPowerDeviceUnspecified
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,32 +73,32 @@ typedef enum _STOR_DEVICE_POWER_STATE {
 
 
 
-#### - StorPowerDeviceUnspecified
+### -field StorPowerDeviceUnspecified
 
 Device power state unspecified.
 
 
-#### - StorPowerDeviceD0
+### -field StorPowerDeviceD0
 
 The D0 device power state.
 
 
-#### - StorPowerDeviceD1
+### -field StorPowerDeviceD1
 
 The D1 device power state.
 
 
-#### - StorPowerDeviceD2
+### -field StorPowerDeviceD2
 
 The D2 device power state.
 
 
-#### - StorPowerDeviceD3
+### -field StorPowerDeviceD3
 
 The D3 device power state.
 
 
-#### - StorPowerDeviceMaximum
+### -field StorPowerDeviceMaximum
 
 The upper delimiting value on device power states.
 

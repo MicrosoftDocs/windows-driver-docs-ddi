@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbd3ad3a-cf16-490b-83fe-107a0d802406
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_setsmsc, rilapi/RIL_SetSMSC, RIL_SetSMSC
+ms.keywords: RIL_SetSMSC, rilapi/RIL_SetSMSC, RIL_SetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_setsmsc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,19 +73,19 @@ HRESULT  RIL_SetSMSC(
 
 
 
-#### - hRil
+### -param hRil
 
 
 
-#### - lpContext
+### -param lpContext
 
 
 
-#### - hUiccApp
+### -param hUiccApp
 
 
 
-#### - lpraSvcCtrAddress
+### -param lpraSvcCtrAddress
 
 
 

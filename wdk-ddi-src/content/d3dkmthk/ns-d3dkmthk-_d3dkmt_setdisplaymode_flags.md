@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 245586cb-d277-4cef-aeb9-b576a4ae6d43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SETDISPLAYMODE_FLAGS structure [Display Devices], display.d3dkmt_setdisplaymode_flags, D3DKMT_SETDISPLAYMODE_FLAGS, _D3DKMT_SETDISPLAYMODE_FLAGS, d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS, OpenGL_Structs_28412793-06ae-4e0d-9461-8e7cbcea8779.xml
+ms.keywords: D3DKMT_SETDISPLAYMODE_FLAGS, _D3DKMT_SETDISPLAYMODE_FLAGS, display.d3dkmt_setdisplaymode_flags, d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS, D3DKMT_SETDISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_28412793-06ae-4e0d-9461-8e7cbcea8779.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_SETDISPLAYMODE_FLAGS {
 
 
 
-#### - PreserveVidPn
+### -field PreserveVidPn
 
 [in] A Boolean value that specifies whether the video present network (VidPN) for a monitor is preserved. 
 
 
-#### - Reserved
+### -field Reserved
 
 [in] This member is reserved and should be set to zero. 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9659d669-ccf3-423a-9c81-12232a978d07
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, image.wiasgetitemtype, wiamdef/wiasGetItemType, wiasGetItemType function [Imaging Devices], wiasGetItemType
+ms.keywords: image.wiasgetitemtype, wiamdef/wiasGetItemType, wiasGetItemType function [Imaging Devices], wiasGetItemType, wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ HRESULT _stdcall wiasGetItemType(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea968316-a53d-4ab1-966a-5c699ffb8f2a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentprocessexecutablename, IDebugSystemObjects4::GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetCurrentProcessExecutableName, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableName method, GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects::GetCurrentProcessExecutableName, IDebugSystemObjects4, IDebugSystemObjects2::GetCurrentProcessExecutableName, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessExecutableName method, GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects_2659a668-4ecb-44de-b287-b4adc830f8c4.xml, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableName, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessExecutableName method, GetCurrentProcessExecutableName, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessExecutableName method, IDebugSystemObjects::GetCurrentProcessExecutableName, IDebugSystemObjects3::GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects2::GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects interface
+ms.keywords: IDebugSystemObjects::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects2::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects3::GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects2::GetCurrentProcessExecutableName, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableName method, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessExecutableName method, IDebugSystemObjects_2659a668-4ecb-44de-b287-b4adc830f8c4.xml, IDebugSystemObjects4, GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getcurrentprocessexecutablename, GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects::GetCurrentProcessExecutableName, IDebugSystemObjects4::GetCurrentProcessExecutableName, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessExecutableName method, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessExecutableName method, GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::GetCurrentProcessExecutableName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT GetCurrentProcessExecutableName(
 
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the name of the executable file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-#### - ExeSize [out, optional]
+### -param ExeSize [out, optional]
 
 Receives the size in characters of the name of the executable file.  If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeSameLengthSame, ZonesAttributeTypeMayDifferentLengthSame, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, _STORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], ZonesAttributeTypeAndLengthMayDifferent, ZonesAttributeTypeSameLengthSame, ZonesAttributeTypeSameLastZoneLengthDifferent, storage.storage_zones_attributes, *PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES
+ms.keywords: ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, PSTORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, storage.storage_zones_attributes, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, _STORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeMayDifferentLengthSame, ntddstor/STORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], ZonesAttributeTypeSameLastZoneLengthDifferent, ZonesAttributeTypeSameLengthSame, *PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _STORAGE_ZONES_ATTRIBUTES {
 
 
 
-#### - ZonesAttributeTypeAndLengthMayDifferent
+### -field ZonesAttributeTypeAndLengthMayDifferent
 
 N/A
 
 
-#### - ZonesAttributeTypeSameLengthSame
+### -field ZonesAttributeTypeSameLengthSame
 
 N/A
 
 
-#### - ZonesAttributeTypeSameLastZoneLengthDifferent
+### -field ZonesAttributeTypeSameLastZoneLengthDifferent
 
 N/A
 
 
-#### - ZonesAttributeTypeMayDifferentLengthSame
+### -field ZonesAttributeTypeMayDifferentLengthSame
 
 N/A
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e35544ed-d113-476e-85a8-6b3f613c1dc2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmallocatecontiguousmemoryspecifycache, k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, MmAllocateContiguousMemorySpecifyCache, MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], wdm/MmAllocateContiguousMemorySpecifyCache
+ms.keywords: kernel.mmallocatecontiguousmemoryspecifycache, MmAllocateContiguousMemorySpecifyCache, k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, wdm/MmAllocateContiguousMemorySpecifyCache, MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ PVOID MmAllocateContiguousMemorySpecifyCache(
 
 
 
-#### - NumberOfBytes [in]
+### -param NumberOfBytes [in]
 
 The size, in bytes, of the block of contiguous memory to allocate. For more information, see Remarks.
 
 
-#### - LowestAcceptableAddress [in]
+### -param LowestAcceptableAddress [in]
 
 The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device  should set <i>LowestAcceptableAddress</i> to 0x0000000000800000.
 
 
-#### - HighestAcceptableAddress [in]
+### -param HighestAcceptableAddress [in]
 
 The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set <i>HighestAcceptableAddress</i> to 0x0000000000FFFFFF.
 
 
-#### - BoundaryAddressMultiple [in, optional]
+### -param BoundaryAddressMultiple [in, optional]
 
 The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions. For more information, see Remarks.
 
 
-#### - CacheType [in]
+### -param CacheType [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching allowed for the requested memory.
 
@@ -121,9 +121,9 @@ If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter,
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
-
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
 
  
 

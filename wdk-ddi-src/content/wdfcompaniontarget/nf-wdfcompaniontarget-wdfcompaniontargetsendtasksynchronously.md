@@ -75,30 +75,30 @@ NTSTATUS WdfCompanionTargetSendTaskSynchronously(
 
 
 
-#### - CompanionTarget [in]
+### -param CompanionTarget [in]
 
 
 
-#### - TaskQueueIdentifier [in]
+### -param TaskQueueIdentifier [in]
 
 
 
-#### - TaskOperationCode [in]
+### -param TaskOperationCode [in]
 
 
 
-#### - InputBuffer [in, optional]
+### -param InputBuffer [in, optional]
 
 
 
-#### - OutputBuffer [in, optional]
+### -param OutputBuffer [in, optional]
 
 
 
-#### - TaskOptions [in, optional]
+### -param TaskOptions [in, optional]
 
 
 
-#### - BytesReturned [out]
+### -param BytesReturned [out]
 
 

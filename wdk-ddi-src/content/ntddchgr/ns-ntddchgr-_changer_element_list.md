@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6e85eaa7-d622-4b05-9efd-c1b6b7789c03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer [Storage Devices], CHANGER_ELEMENT_LIST, structs-changer_e1782d96-458d-49a5-9885-c853d835ba0a.xml, storage.changer_element_list, ntddchgr/CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure [Storage Devices], _CHANGER_ELEMENT_LIST, ntddchgr/PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST"
+ms.keywords: "*PCHANGER_ELEMENT_LIST, _CHANGER_ELEMENT_LIST, ntddchgr/CHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST, structs-changer_e1782d96-458d-49a5-9885-c853d835ba0a.xml, ntddchgr/PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer [Storage Devices], CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure [Storage Devices], storage.changer_element_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _CHANGER_ELEMENT_LIST {
 
 
 
-#### - Element
+### -field Element
 
 Describes the first element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a> in a range <b>NumberOfElements</b> long.
 
 
-#### - NumberOfElements
+### -field NumberOfElements
 
 Specifies the number of elements in the range.
 

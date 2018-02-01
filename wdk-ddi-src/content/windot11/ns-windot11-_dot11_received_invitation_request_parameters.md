@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B0937809-1C8D-45E0-AA33-5997563E894C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_received_invitation_request_parameters, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS"
+ms.keywords: DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, netvista.dot11_received_invitation_request_parameters, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the <b>DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
 <table>
@@ -97,41 +97,41 @@ The type, revision, and size of the <b>DOT11_RECEIVED_INVITATION_REQUEST_PARAMET
 </table> 
 
 
-#### - TransmitterDeviceAddress
+### -field TransmitterDeviceAddress
 
 The address of the device that transmitted the invitation request packet.
 
 
-#### - BSSID
+### -field BSSID
 
 The BSSID in the received invitation request packet.
 
 
-#### - DialogToken
+### -field DialogToken
 
 The dialog token received in the invitation request packet.
 
 
-#### - RequestContext
+### -field RequestContext
 
 The context data from the miniport driver. The system sends this context with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a> request.
 
 
-#### - uIEsOffset
+### -field uIEsOffset
 
 The offset, in bytes,  of the array of additional information elements (IEs) received in the invitation request packet. This offset is from the start of the buffer that contains this structure.
 
 
-#### - uIEsLength
+### -field uIEsLength
 
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439793">NDIS_STATUS_DOT11_WFD_RECEIVED_INVITATION_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
 
  
 

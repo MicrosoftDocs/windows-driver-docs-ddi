@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e66b721f-4cc0-4d35-9e24-6d7dd4029ea4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PCIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], CIP_HDR2_SYT, PCIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, stream.cip_hdr2_syt, avcstrm/CIP_HDR2_SYT, _CIP_HDR2_SYT, PCIP_HDR2_SYT structure pointer [Streaming Media Devices], avcstrm/PCIP_HDR2_SYT"
+ms.keywords: CIP_HDR2_SYT, avcstrm/CIP_HDR2_SYT, _CIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, *PCIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], PCIP_HDR2_SYT, stream.cip_hdr2_syt, PCIP_HDR2_SYT structure pointer [Streaming Media Devices], avcstrm/PCIP_HDR2_SYT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _CIP_HDR2_SYT {
 
 
 
-#### - SYT
+### -field SYT
 
 Lower 16 bits of CYCLE_TIME. This is not used for opening a stream.
 
 
-#### - RSV
+### -field RSV
 
 Must be set to 0:0.
 
 
-#### - STYPE
+### -field STYPE
 
 Specifies the video signal type, which is used for transmitting real time data.
 
 
-#### - F5060_OR_TSF
+### -field F5060_OR_TSF
 
 Specifies field encoding or time-shift flag depending on the value of FMT. This flag may be either 0 for NTSC or 1 for PAL, or 1 for TimeShiftFlag. This flag has multiple meanings (like a union) depending on the FMT member. If the FMT member indicates DV format, then this is either 50/60 flag (NTSC or PAL); if it is it MPEG-TS, then this is a time-shifting flag.
 
 
-#### - FMT
+### -field FMT
 
 CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 (no data), then DBS, FN, SPH and DBC (in the first quadlet of the CIP header, <a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>) are ignored.
 
 
-#### - Bit10
+### -field Bit10
 
 Must be set to 1:0.
 

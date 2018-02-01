@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73a18050-fc89-41df-82ce-0f29c5716496
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanContextTypeInternet, WwanContextTypeVpn, WwanContextTypePurchase, wwan/PWWAN_CONTEXT_TYPE, netvista.wwan_context_type, WwanContextTypeNone, WwanContextTypeMax, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, wwan/WwanContextTypeMax, WwanContextTypeCustom, WwanContextTypeVideoShare, WwanContextTypeInternet, wwan/WWAN_CONTEXT_TYPE, wwan/WwanContextTypeCustom, *PWWAN_CONTEXT_TYPE, wwan/WwanContextTypePurchase, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanContextTypeNone, PWWAN_CONTEXT_TYPE, wwan/WwanContextTypeVpn, WWAN_CONTEXT_TYPE, wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeVoice, WwanContextTypeVoice, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], _WWAN_CONTEXT_TYPE
+ms.keywords: wwan/WwanContextTypeVoice, WwanContextTypeCustom, wwan/WwanContextTypeCustom, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, WwanContextTypePurchase, *PWWAN_CONTEXT_TYPE, WwanContextTypeVoice, wwan/WWAN_CONTEXT_TYPE, WwanContextTypeInternet, netvista.wwan_context_type, wwan/WwanContextTypePurchase, wwan/WwanContextTypeMax, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WwanContextTypeMax, WwanContextTypeVpn, wwan/WwanContextTypeInternet, WwanContextTypeVideoShare, wwan/WwanContextTypeVpn, wwan/PWWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE, wwan/WwanContextTypeVideoShare, _WWAN_CONTEXT_TYPE, wwan/WwanContextTypeNone, PWWAN_CONTEXT_TYPE, WwanContextTypeNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,38 +76,38 @@ typedef enum _WWAN_CONTEXT_TYPE {
 
 
 
-#### - WwanContextTypeNone
+### -field WwanContextTypeNone
 
 The context is not yet provisioned.
 
 
-#### - WwanContextTypeInternet
+### -field WwanContextTypeInternet
 
 The context represents a connection to the Internet.
 
 
-#### - WwanContextTypeVpn
+### -field WwanContextTypeVpn
 
 The context represents a connection to virtual private network (VPN to a corporate
      network).
 
 
-#### - WwanContextTypeVoice
+### -field WwanContextTypeVoice
 
 The context represents a connection to a Voice-over-IP (VOIP) service.
 
 
-#### - WwanContextTypeVideoShare
+### -field WwanContextTypeVideoShare
 
 The context represents a connection to a video sharing service.
 
 
-#### - WwanContextTypeCustom
+### -field WwanContextTypeCustom
 
 The context represents a connection to a custom service.
 
 
-#### - WwanContextTypePurchase
+### -field WwanContextTypePurchase
 
 Purchase a connection. For example, a walled garden, hot-lining or captive portal.
 
@@ -144,7 +144,7 @@ Purchase a connection. For example, a walled garden, hot-lining or captive porta
 
 
 
-#### - WwanContextTypeMax
+### -field WwanContextTypeMax
 
 The total number of supported context types.
 

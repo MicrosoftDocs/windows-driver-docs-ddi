@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 154EAF9B-4B30-4124-B31D-6C7D09B52674
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializePoFxPower routine [Storage Devices], StorPortInitializePoFxPower, storport/StorPortInitializePoFxPower, storage.storportinitializepofxpower
+ms.keywords: storage.storportinitializepofxpower, StorPortInitializePoFxPower routine [Storage Devices], storport/StorPortInitializePoFxPower, StorPortInitializePoFxPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ ULONG StorPortInitializePoFxPower(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - Address [in, optional]
+### -param Address [in, optional]
 
 The address of a storage device unit. This parameter is <b>NULL</b> when registering for a storage adapter.
 
 
-#### - Device [in]
+### -param Device [in]
 
 A pointer to a <b>STOR_POFX_DEVICE_V2</b> structure cast to a pointer to <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>. This structure contains a component list with F-states for a storage device.
 
 
-#### - D3ColdEnabled [in, out]
+### -param D3ColdEnabled [in, out]
 
 A pointer to a <b>BOOLEAN</b> value which the Storport driver will set to indicate whether the D3 Cold state is enabled for the storage device.
 

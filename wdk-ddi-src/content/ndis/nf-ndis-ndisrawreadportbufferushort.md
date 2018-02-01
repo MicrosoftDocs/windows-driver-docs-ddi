@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c100aad1-2fb9-49e0-b68e-20b165a69701
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRawReadPortBufferUshort macro [Network Drivers Starting with Windows Vista], NdisRawReadPortBufferUshort, miniport_port_raw_ref_fc8d7120-4fbc-46e3-9946-c269f2992f56.xml, ndis/NdisRawReadPortBufferUshort, netvista.ndisrawreadportbufferushort
+ms.keywords: netvista.ndisrawreadportbufferushort, ndis/NdisRawReadPortBufferUshort, miniport_port_raw_ref_fc8d7120-4fbc-46e3-9946-c269f2992f56.xml, NdisRawReadPortBufferUshort, NdisRawReadPortBufferUshort macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,14 +69,14 @@ VOID NdisRawReadPortBufferUshort(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
-     <mshelp:link keywords="netvista.ndismregisterioportrange" tabindex="0"><b>
-     NdisMRegisterIoPortRange</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">
+     NdisMRegisterIoPortRange</a>.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 Pointer to a caller-allocated buffer, in resident memory, into which the USHORTs will be
      transferred from the NIC. The caller must allocate a buffer at least (<b>sizeof</b>(USHORT)
@@ -84,7 +84,7 @@ Pointer to a caller-allocated buffer, in resident memory, into which the USHORTs
      <i>Length</i> ).
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies how many USHORTs to transfer from the NIC.
 
@@ -99,15 +99,15 @@ Specifies how many USHORTs to transfer from the NIC.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
-
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
 
 <a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
 

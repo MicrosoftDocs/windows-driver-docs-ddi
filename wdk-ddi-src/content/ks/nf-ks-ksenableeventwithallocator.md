@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ec017e5c-1c26-426d-935f-7a554d3db915
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsEnableEventWithAllocator, ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, stream.ksenableeventwithallocator, KsEnableEventWithAllocator function [Streaming Media Devices], KsEnableEventWithAllocator
+ms.keywords: ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, ks/KsEnableEventWithAllocator, KsEnableEventWithAllocator, KsEnableEventWithAllocator function [Streaming Media Devices], stream.ksenableeventwithallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,22 +77,22 @@ NTSTATUS KsEnableEventWithAllocator(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Specifies the IRP with the enable request being handled. The file object associated with the IRP is stored with the event for later comparison when disabling the event.
 
 
-#### - EventSetsCount [in]
+### -param EventSetsCount [in]
 
 Indicates the number of event set structures being passed.
 
 
-#### - EventSet [in]
+### -param EventSet [in]
 
 Specifies a pointer to the list of event set information.
 
 
-#### - EventsList [in, out]
+### -param EventsList [in, out]
 
 If the enabling event's KSEVENT_SET.AddHandler for the event set is <b>NULL</b>, it must point to the head of the list of KSEVENT_ENTRY items on which the event is to be added. This function assumes a single list for at least a subset of events.
 
@@ -102,17 +102,17 @@ If the enabling event's KSEVENT_SET.AddHandler for the event set is <b>NULL</b>,
 TBD
 
 
-#### - EventsLock [in, optional]
+### -param EventsLock [in, optional]
 
 If the KSEVENT_SET.AddHandler for the event set containing the event being enabled is <b>NULL</b>, then this is used to synchronize access to the list. This value can be <b>NULL</b> if no flag is set in <i>EventsFlags</i>.
 
 
-#### - Allocator [in, optional]
+### -param Allocator [in, optional]
 
 Optionally points to an allocation function that will be used to allocate memory to store the event parameters.
 
 
-#### - EventItemSize [in, optional]
+### -param EventItemSize [in, optional]
 
 Optionally contains the size of each KSEVENT_ITEM structure in each list of events. The event item may be extended in order to store private information. If this parameter is zero, the structure size is assumed to be normal. If it is greater than or equal to an event item structure, the KSEVENT_ITEM_IRP_STORAGE macro can be used to return a pointer to the event item so the custom data can be retrieved. On 64-bit platforms, this parameter must be a multiple of 8.
 

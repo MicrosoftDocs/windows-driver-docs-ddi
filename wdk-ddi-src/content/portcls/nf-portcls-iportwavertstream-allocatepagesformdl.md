@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44839b9e-f206-49e6-a9f6-14e79d1e0ae2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AllocatePagesForMdl method [Audio Devices], AllocatePagesForMdl method [Audio Devices], IPortWaveRTStream interface, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, AllocatePagesForMdl, IPortWaveRTStream interface [Audio Devices], AllocatePagesForMdl method, IPortWaveRTStream::AllocatePagesForMdl, portcls/IPortWaveRTStream::AllocatePagesForMdl, IPortWaveRTStream, audio.iportwavertstream_allocatepagesformdl
+ms.keywords: IPortWaveRTStream, IPortWaveRTStream::AllocatePagesForMdl, IPortWaveRTStream interface [Audio Devices], AllocatePagesForMdl method, audio.iportwavertstream_allocatepagesformdl, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, AllocatePagesForMdl method [Audio Devices], IPortWaveRTStream interface, AllocatePagesForMdl method [Audio Devices], AllocatePagesForMdl, portcls/IPortWaveRTStream::AllocatePagesForMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ PMDL AllocatePagesForMdl(
 
 
 
-#### - HighAddress [in]
+### -param HighAddress [in]
 
 Specifies the high end of the address range from which the storage for the MDL can be allocated. The low end of the address range is implicitly zero.
 
 
-#### - TotalBytes [in]
+### -param TotalBytes [in]
 
 Specifies the total number of bytes to allocate for the MDL. This method always allocates an integral number of memory pages.
 

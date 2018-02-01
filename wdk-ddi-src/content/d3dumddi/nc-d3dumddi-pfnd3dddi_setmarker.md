@@ -70,7 +70,7 @@ _Check_return_ HRESULT APIENTRY* pfnSetMarker(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
@@ -105,9 +105,9 @@ If the marker event type from the  <i>Type</i> parameter of the <a href="..\d3du
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarker.md">SetMarker</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a>
 
  
 

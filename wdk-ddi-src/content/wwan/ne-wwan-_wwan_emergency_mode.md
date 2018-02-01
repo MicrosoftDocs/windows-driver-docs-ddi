@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d901e763-5e1c-443d-ba9c-9d1e4413bd47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, netvista.wwan_emergency_mode, _WWAN_EMERGENCY_MODE, wwan/PWWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE, WwanEmergencyModeMax, *PWWAN_EMERGENCY_MODE, wwan/WWAN_EMERGENCY_MODE, WwanEmergencyModeOff, WwanEmergencyModeOn, PWWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeMax, PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanEmergencyModeOn, wwan/WwanEmergencyModeOff, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: WwanEmergencyModeOff, WwanEmergencyModeOn, wwan/WwanEmergencyModeOff, PWWAN_EMERGENCY_MODE, WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, *PWWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeOn, WwanEmergencyModeMax, WWAN_EMERGENCY_MODE, wwan/WWAN_EMERGENCY_MODE, netvista.wwan_emergency_mode, _WWAN_EMERGENCY_MODE, wwan/PWWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeMax, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,17 +71,17 @@ typedef enum _WWAN_EMERGENCY_MODE {
 
 
 
-#### - WwanEmergencyModeOff
+### -field WwanEmergencyModeOff
 
 The device is in normal mode.
 
 
-#### - WwanEmergencyModeOn
+### -field WwanEmergencyModeOn
 
 The device is in emergency mode. An example of an emergency mode function is a call to 911.
 
 
-#### - WwanEmergencyModeMax
+### -field WwanEmergencyModeMax
 
 The total number of supported emergency modes.
 

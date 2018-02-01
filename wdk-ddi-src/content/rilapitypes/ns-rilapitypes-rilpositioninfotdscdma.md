@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b7b2592-8a67-4eb0-8e87-354fd5f215c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPOSITIONINFOTDSCDMA, netvista.rilpositioninfotdscdma, *LPRILPOSITIONINFOTDSCDMA, rilapitypes/RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFOTDSCDMA, netvista.rilpositioninfotdscdma, rilapitypes/RILPOSITIONINFOTDSCDMA, *LPRILPOSITIONINFOTDSCDMA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,52 +77,52 @@ struct RILPOSITIONINFOTDSCDMA {
 
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfotdscdmaparammask.md">RILPOSITIONINFOTDSCDMAPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set
 
 
-#### - dwMobileCountryCode
+### -field dwMobileCountryCode
 
 Mobile country code (0...999).
 
 
-#### - dwMobileNetworkCode
+### -field dwMobileNetworkCode
 
 Mobile Network Code (0...999).
 
 
-#### - dwLocationAreaCode
+### -field dwLocationAreaCode
 
 Location Area Code (0...65535).
 
 
-#### - dwCellID
+### -field dwCellID
 
 Cell ID (0...268435455)).
 
 
-#### - dwUARFCN
+### -field dwUARFCN
 
 Channel number for serving cell (0...16383).
 
 
-#### - dwCellParameterID
+### -field dwCellParameterID
 
 Cell parameter ID (0...127).
 
 
-#### - dwTimingAdvance
+### -field dwTimingAdvance
 
 Timing Advance (0...1023), same value for all timeslots.
 
 
-#### - dwRSCP
+### -field dwRSCP
 
 Received signal code power of serving cell. Range (−128...−25) in units of 1dBm in Q8 L3 filtered.
 
 
-#### - dwPathLoss
+### -field dwPathLoss
 
 Path loss of serving cell (46...158).
 

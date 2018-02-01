@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C66E50F-3BD7-4038-9FDF-2F2B712D9B5E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psattachsilotocurrentthread, PsAttachSiloToCurrentThread
+ms.keywords: ntddk/PsAttachSiloToCurrentThread, kernel.psattachsilotocurrentthread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], PsAttachSiloToCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ PESILO PsAttachSiloToCurrentThread(
 
 
 
-#### - Silo [in]
+### -param Silo [in]
 
 The silo that the thread is to impersonate. The caller must hold a  reference to the silo throughout the duration of the impersonation.
 

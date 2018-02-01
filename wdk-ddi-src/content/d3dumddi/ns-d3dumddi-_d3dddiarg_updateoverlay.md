@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e49f48fd-f2e8-4ccc-813f-f624e06ab365
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, d3dumddi/D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices], D3DDDIARG_UPDATEOVERLAY, display.d3dddiarg_updateoverlay, _D3DDDIARG_UPDATEOVERLAY
+ms.keywords: UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, _D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices], display.d3dddiarg_updateoverlay, D3DDDIARG_UPDATEOVERLAY, d3dumddi/D3DDDIARG_UPDATEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,21 +68,21 @@ typedef struct _D3DDDIARG_UPDATEOVERLAY {
 
 
 
-#### - hOverlay
+### -field hOverlay
 
 [in] A handle to the overlay to modify.
 
 
-#### - OverlayInfo
+### -field OverlayInfo
 
 [in] A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a> structure that describes the modification for the overlay. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d54fbc-e865-4a59-bb1c-75adfb49c355
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortQueryServices, VideoPortQueryServices function [Display Devices], display.videoportqueryservices, VideoPortQueryServices, VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml
+ms.keywords: VideoPortQueryServices function [Display Devices], video/VideoPortQueryServices, VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, display.videoportqueryservices, VideoPortQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ VP_STATUS VideoPortQueryServices(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - ServicesType [in]
+### -param ServicesType [in]
 
 A value from the <a href="..\video\ne-video-video_port_services.md">VIDEO_PORT_SERVICES</a> enumerated type that specifies which interface is being requested.
 
 
-#### - Interface [in, out]
+### -param Interface [in, out]
 
 Pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure, which contains basic information about the requested interface. See the following <b>Remarks</b> section for more information.
 
@@ -111,21 +111,21 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProte
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
+<a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
 
 <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
+
+<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
 
 <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
 
 <a href="..\video\ns-video-_video_port_debug_report_interface.md">VIDEO_PORT_DEBUG_REPORT_INTERFACE</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
 <a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a>
 
-<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
-<a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
+<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
 
  
 

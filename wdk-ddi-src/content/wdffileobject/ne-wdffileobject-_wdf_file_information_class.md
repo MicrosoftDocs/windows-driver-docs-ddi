@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9d6ce1b-8bc1-4ba7-8ee5-3172a780d52c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_FILE_INFORMATION_CLASS, wudfddi_types/WdfFileInformationBothDirectory, wudfddi_types/WdfFileInformationStandard, wudfddi_types/WdfFileInformationReparsePoint, wudfddi_types/WdfFileInformationNetworkPhysicalName, wudfddi_types/WdfFileInformationBasic, WdfFileInformationMaximum, wdffileobject/WdfFileInformationNetworkPhysicalName, wdffileobject/WdfFileInformationMoveCluster, WdfFileInformationAlignment, wdffileobject/WdfFileInformationMailslotQuery, wudfddi_types/PWDF_FILE_INFORMATION_CLASS, wudfddi_types/WdfFileInformationSfioReserve, wudfddi_types/WdfFileInformationIsRemoteDevice, wdffileobject/WDF_FILE_INFORMATION_CLASS, wdffileobject/WdfFileInformationBasic, wudfddi_types/WdfFileInformationNormalizedName, wdffileobject/WdfFileInformationPipeLocal, wdffileobject/WdfFileInformationSfioVolume, WdfFileInformationQuota, wdffileobject/WdfFileInformationPipeRemote, wudfddi_types/WdfFileInformationStream, WdfFileInformationAll, WDF_FILE_INFORMATION_CLASS enumeration, WdfFileInformationIdGlobalTxDirectory, WdfFileInformationLink, WdfFileInformationAccess, wudfddi_types/WdfFileInformationHardLink, WdfFileInformationSfioReserve, wdffileobject/WdfFileInformationAttributeCache, WdfFileInformationMailslotQuery, wudfddi_types/WdfFileInformationNetworkOpen, wudfddi_types/WdfFileInformationSfioVolume, wdffileobject/WdfFileInformationMode, WdfFileInformationProcessIdsUsingFile, PWDF_FILE_INFORMATION_CLASS, wudfddi_types/WdfFileInformationLink, wudfddi_types/WdfFileInformationProcessIdsUsingFile, wudfddi_types/WdfFileInformationAttributeTag, PWDF_FILE_INFORMATION_CLASS enumeration pointer, wudfddi_types/WdfFileInformationCompletion, WdfFileInformationHardLink, wudfddi_types/WdfFileInformationIoPriorityHint, wdffileobject/WdfFileInformationPosition, wudfddi_types/WdfFileInformationQuota, WdfFileInformationAttributeCache, wdffileobject/WdfFileInformationCompression, wudfddi_types/WdfFileInformationIdFullDirectory, WdfFileInformationAttributeTag, WdfFileInformationShortName, wudfddi_types/WdfFileInformationIdBothDirectory, WdfFileInformationPosition, wudfddi_types/WDF_FILE_INFORMATION_CLASS, wdffileobject/WdfFileInformationNames, wudfddi_types/WdfFileInformationFullDirectory, wdffileobject/WdfFileInformationIdGlobalTxDirectory, wdffileobject/WdfFileInformationNormalizedName, wudfddi_types/WdfFileInformationAll, WdfFileInformationFullEa, wudfddi_types/WdfFileInformationAlignment, wdffileobject/WdfFileInformationCompletion, wudfddi_types/WdfFileInformationRename, wdffileobject/WdfFileInformationEa, WdfFileInformationValidDataLength, wudfddi_types/WdfFileInformationCompression, *PWDF_FILE_INFORMATION_CLASS, WdfFileInformationNetworkOpen, WdfFileInformationDirectory, wudfddi_types/WdfFileInformationName, wdffileobject/PWDF_FILE_INFORMATION_CLASS, wudfddi_types/WdfFileInformationTracking, wdffileobject/WdfFileInformationPipe, wdffileobject/WdfFileInformationAll, wdffileobject/WdfFileInformationRename, WdfFileInformationSfioVolume, wdffileobject/WdfFileInformationIdBothDirectory, wdffileobject/WdfFileInformationStream, wudfddi_types/WdfFileInformationMaximum, WdfFileInformationIdFullDirectory, wdffileobject/WdfFileInformationReparsePoint, WdfFileInformationAllocation, wdffileobject/WdfFileInformationIdFullDirectory, umdf.wdf_file_information_class, wdffileobject/WdfFileInformationFullEa, wudfddi_types/WdfFileInformationDirectory, wudfddi_types/WdfFileInformationPosition, WdfFileInformationStream, WdfFileInformationObjectId, wdffileobject/WdfFileInformationIoCompletionNotification, WdfFileInformationPipe, wdffileobject/WdfFileInformationValidDataLength, WdfFileInformationIoStatusBlockRange, wdffileobject/WdfFileInformationAlignment, wdffileobject/WdfFileInformationInternal, WdfFileInformationMode, wdffileobject/WdfFileInformationStandard, wudfddi_types/WdfFileInformationPipeRemote, wudfddi_types/WdfFileInformationValidDataLength, wudfddi_types/WdfFileInformationShortName, wdffileobject/WdfFileInformationLink, WdfFileInformationDisposition, wudfddi_types/WdfFileInformationIoStatusBlockRange, WdfFileInformationEndOfFile, wdffileobject/WdfFileInformationSfioReserve, WdfFileInformationNormalizedName, wudfddi_types/WdfFileInformationAllocation, wudfddi_types/WdfFileInformationIdGlobalTxDirectory, WdfFileInformationTracking, WdfFileInformationBasic, wdffileobject/WdfFileInformationIoStatusBlockRange, wdffileobject/WdfFileInformationShortName, wudfddi_types/WdfFileInformationDisposition, wudfddi_types/WdfFileInformationMailslotQuery, wudfddi_types/WdfFileInformationMode, wudfddi_types/WdfFileInformationMailslotSet, wdf.wdf_file_information_class, WDF_FILE_INFORMATION_CLASS, WdfFileInformationName, wudfddi_types/WdfFileInformationFullEa, wudfddi_types/WdfFileInformationNames, wdffileobject/WdfFileInformationTracking, wudfddi_types/WdfFileInformationPipe, wudfddi_types/WdfFileInformationPipeLocal, WdfFileInformationNetworkPhysicalName, wudfddi_types/WdfFileInformationAlternateName, wudfddi_types/WdfFileInformationObjectId, WdfFileInformationEa, wudfddi_types/WdfFileInformationEa, wdffileobject/WdfFileInformationEndOfFile, wdffileobject/WdfFileInformationIoPriorityHint, WdfFileInformationPipeRemote, wdffileobject/WdfFileInformationDirectory, wdffileobject/WdfFileInformationAlternateName, wdffileobject/WdfFileInformationMailslotSet, wdffileobject/WdfFileInformationDisposition, WdfFileInformationStandard, wdffileobject/WdfFileInformationIsRemoteDevice, wdffileobject/WdfFileInformationQuota, wudfddi_types/WdfFileInformationInternal, wdffileobject/WdfFileInformationAttributeTag, wdffileobject/WdfFileInformationBothDirectory, wudfddi_types/WdfFileInformationEndOfFile, WdfFileInformationInternal, wdffileobject/WdfFileInformationMaximum, wudfddi_types/WdfFileInformationAttributeCache, wudfddi_types/WdfFileInformationIoCompletionNotification, wdffileobject/WdfFileInformationFullDirectory, wdffileobject/WdfFileInformationName, WdfFileInformationCompression, wdffileobject/WdfFileInformationNetworkOpen, WdfFileInformationFullDirectory, WdfFileInformationRename, WdfFileInformationNames, WdfFileInformationCompletion, wdffileobject/WdfFileInformationAccess, wdffileobject/WdfFileInformationObjectId, WdfFileInformationIoPriorityHint, wdffileobject/WdfFileInformationProcessIdsUsingFile, WdfFileInformationPipeLocal, WdfFileInformationIdBothDirectory, WdfFileInformationReparsePoint, WdfFileInformationMoveCluster, WdfFileInformationBothDirectory, wudfddi_types/WdfFileInformationAccess, WdfFileInformationAlternateName, wudfddi_types/WdfFileInformationMoveCluster, umdfstructs_ffc1a1df-4784-4dd7-8bc7-f134554834bc.xml, WdfFileInformationMailslotSet, wdffileobject/WdfFileInformationHardLink, wdffileobject/WdfFileInformationAllocation, WdfFileInformationIsRemoteDevice, WdfFileInformationIoCompletionNotification"
+ms.keywords: WdfFileInformationDisposition, wudfddi_types/WdfFileInformationAll, wudfddi_types/WdfFileInformationNetworkOpen, wdffileobject/WdfFileInformationRename, wudfddi_types/WdfFileInformationEndOfFile, WdfFileInformationAttributeCache, wudfddi_types/WdfFileInformationIdGlobalTxDirectory, wdffileobject/WdfFileInformationAlignment, wudfddi_types/WdfFileInformationCompression, wdffileobject/WdfFileInformationQuota, wdffileobject/WdfFileInformationDirectory, WdfFileInformationNormalizedName, wudfddi_types/WdfFileInformationMoveCluster, WdfFileInformationHardLink, WdfFileInformationPipeRemote, wdffileobject/WdfFileInformationIdFullDirectory, wudfddi_types/WdfFileInformationMailslotSet, wudfddi_types/WDF_FILE_INFORMATION_CLASS, WdfFileInformationIsRemoteDevice, WdfFileInformationNames, WdfFileInformationStream, wdffileobject/WdfFileInformationIsRemoteDevice, wudfddi_types/WdfFileInformationRename, WdfFileInformationAlternateName, wdffileobject/WdfFileInformationDisposition, wdffileobject/WdfFileInformationTracking, wdffileobject/WdfFileInformationAllocation, WdfFileInformationStandard, wdffileobject/WdfFileInformationStandard, wudfddi_types/WdfFileInformationFullEa, WdfFileInformationSfioReserve, wdffileobject/WdfFileInformationSfioReserve, wdffileobject/WdfFileInformationInternal, wudfddi_types/WdfFileInformationBothDirectory, wudfddi_types/WdfFileInformationName, wudfddi_types/WdfFileInformationSfioReserve, wdffileobject/WdfFileInformationNames, wudfddi_types/WdfFileInformationAccess, WdfFileInformationBasic, WdfFileInformationCompletion, wdffileobject/WdfFileInformationCompletion, WdfFileInformationReparsePoint, wudfddi_types/WdfFileInformationMaximum, wudfddi_types/WdfFileInformationIdFullDirectory, wdffileobject/WdfFileInformationIoPriorityHint, WdfFileInformationRename, WdfFileInformationIdGlobalTxDirectory, WdfFileInformationPosition, WdfFileInformationMoveCluster, wudfddi_types/WdfFileInformationAlignment, wdffileobject/WdfFileInformationEndOfFile, wdffileobject/WdfFileInformationProcessIdsUsingFile, WdfFileInformationTracking, wdffileobject/WdfFileInformationName, WdfFileInformationValidDataLength, wudfddi_types/WdfFileInformationNetworkPhysicalName, wdffileobject/WdfFileInformationNormalizedName, wdffileobject/WdfFileInformationPipeRemote, wudfddi_types/WdfFileInformationAlternateName, wdffileobject/WdfFileInformationValidDataLength, wdffileobject/WdfFileInformationAccess, WdfFileInformationMailslotQuery, wdffileobject/WdfFileInformationNetworkOpen, WdfFileInformationIdFullDirectory, WdfFileInformationEndOfFile, wudfddi_types/WdfFileInformationStream, wdffileobject/WdfFileInformationMode, wdffileobject/WdfFileInformationNetworkPhysicalName, wdffileobject/WdfFileInformationMaximum, wdffileobject/WdfFileInformationAlternateName, WdfFileInformationInternal, wudfddi_types/WdfFileInformationSfioVolume, wdffileobject/WDF_FILE_INFORMATION_CLASS, WdfFileInformationAlignment, WdfFileInformationPipe, wdffileobject/WdfFileInformationIoCompletionNotification, wudfddi_types/WdfFileInformationMailslotQuery, wudfddi_types/WdfFileInformationPipeRemote, wudfddi_types/WdfFileInformationValidDataLength, wdffileobject/WdfFileInformationIoStatusBlockRange, wdf.wdf_file_information_class, WdfFileInformationIoCompletionNotification, wdffileobject/WdfFileInformationAll, wdffileobject/PWDF_FILE_INFORMATION_CLASS, wudfddi_types/WdfFileInformationFullDirectory, wdffileobject/WdfFileInformationAttributeTag, wudfddi_types/WdfFileInformationIsRemoteDevice, wudfddi_types/WdfFileInformationLink, WdfFileInformationShortName, wdffileobject/WdfFileInformationCompression, WdfFileInformationFullEa, wudfddi_types/WdfFileInformationStandard, WdfFileInformationEa, WdfFileInformationAll, WdfFileInformationAllocation, wudfddi_types/WdfFileInformationNormalizedName, wudfddi_types/WdfFileInformationDisposition, wudfddi_types/WdfFileInformationMode, wudfddi_types/WdfFileInformationTracking, wudfddi_types/WdfFileInformationObjectId, wdffileobject/WdfFileInformationMailslotSet, wdffileobject/WdfFileInformationBasic, WdfFileInformationLink, WdfFileInformationQuota, wdffileobject/WdfFileInformationMoveCluster, wudfddi_types/WdfFileInformationPipeLocal, WdfFileInformationAttributeTag, wdffileobject/WdfFileInformationIdBothDirectory, wdffileobject/WdfFileInformationSfioVolume, wudfddi_types/WdfFileInformationAttributeTag, wudfddi_types/WdfFileInformationDirectory, WdfFileInformationProcessIdsUsingFile, wdffileobject/WdfFileInformationEa, wudfddi_types/WdfFileInformationReparsePoint, WdfFileInformationBothDirectory, wudfddi_types/WdfFileInformationQuota, wudfddi_types/WdfFileInformationBasic, wudfddi_types/WdfFileInformationEa, wudfddi_types/WdfFileInformationAllocation, WdfFileInformationPipeLocal, wudfddi_types/WdfFileInformationIoCompletionNotification, wdffileobject/WdfFileInformationLink, WdfFileInformationDirectory, wdffileobject/WdfFileInformationReparsePoint, WdfFileInformationMaximum, WdfFileInformationObjectId, wudfddi_types/WdfFileInformationIoPriorityHint, wudfddi_types/WdfFileInformationInternal, WdfFileInformationMode, wdffileobject/WdfFileInformationStream, WdfFileInformationCompression, WdfFileInformationSfioVolume, wudfddi_types/PWDF_FILE_INFORMATION_CLASS, WdfFileInformationIdBothDirectory, wdffileobject/WdfFileInformationHardLink, wdffileobject/WdfFileInformationObjectId, wdffileobject/WdfFileInformationShortName, WdfFileInformationFullDirectory, wdffileobject/WdfFileInformationFullEa, wudfddi_types/WdfFileInformationCompletion, umdfstructs_ffc1a1df-4784-4dd7-8bc7-f134554834bc.xml, wudfddi_types/WdfFileInformationHardLink, wudfddi_types/WdfFileInformationAttributeCache, PWDF_FILE_INFORMATION_CLASS, wdffileobject/WdfFileInformationBothDirectory, wdffileobject/WdfFileInformationPosition, WDF_FILE_INFORMATION_CLASS enumeration, wudfddi_types/WdfFileInformationPosition, wudfddi_types/WdfFileInformationIoStatusBlockRange, *PWDF_FILE_INFORMATION_CLASS, WdfFileInformationNetworkOpen, wdffileobject/WdfFileInformationPipe, wdffileobject/WdfFileInformationMailslotQuery, PWDF_FILE_INFORMATION_CLASS enumeration pointer, wudfddi_types/WdfFileInformationShortName, wudfddi_types/WdfFileInformationProcessIdsUsingFile, umdf.wdf_file_information_class, WdfFileInformationNetworkPhysicalName, wdffileobject/WdfFileInformationAttributeCache, WdfFileInformationIoPriorityHint, wdffileobject/WdfFileInformationFullDirectory, wdffileobject/WdfFileInformationIdGlobalTxDirectory, WdfFileInformationName, wudfddi_types/WdfFileInformationNames, wudfddi_types/WdfFileInformationPipe, _WDF_FILE_INFORMATION_CLASS, wdffileobject/WdfFileInformationPipeLocal, wudfddi_types/WdfFileInformationIdBothDirectory, WdfFileInformationMailslotSet, WDF_FILE_INFORMATION_CLASS, WdfFileInformationIoStatusBlockRange, WdfFileInformationAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -123,215 +123,215 @@ typedef enum _WDF_FILE_INFORMATION_CLASS {
 
 
 
-#### - WdfFileInformationDirectory
+### -field WdfFileInformationDirectory
 
 
 
-#### - WdfFileInformationFullDirectory
+### -field WdfFileInformationFullDirectory
 
 
 
-#### - WdfFileInformationBothDirectory
+### -field WdfFileInformationBothDirectory
 
 
 
-#### - WdfFileInformationBasic
+### -field WdfFileInformationBasic
 
 
 
-#### - WdfFileInformationStandard
+### -field WdfFileInformationStandard
 
 
 
-#### - WdfFileInformationInternal
+### -field WdfFileInformationInternal
 
 
 
-#### - WdfFileInformationEa
+### -field WdfFileInformationEa
 
 
 
-#### - WdfFileInformationAccess
+### -field WdfFileInformationAccess
 
 
 
-#### - WdfFileInformationName
+### -field WdfFileInformationName
 
 
 
-#### - WdfFileInformationRename
+### -field WdfFileInformationRename
 
 
 
-#### - WdfFileInformationLink
+### -field WdfFileInformationLink
 
 
 
-#### - WdfFileInformationNames
+### -field WdfFileInformationNames
 
 
 
-#### - WdfFileInformationDisposition
+### -field WdfFileInformationDisposition
 
 
 
-#### - WdfFileInformationPosition
+### -field WdfFileInformationPosition
 
 
 
-#### - WdfFileInformationFullEa
+### -field WdfFileInformationFullEa
 
 
 
-#### - WdfFileInformationMode
+### -field WdfFileInformationMode
 
 
 
-#### - WdfFileInformationAlignment
+### -field WdfFileInformationAlignment
 
 
 
-#### - WdfFileInformationAll
+### -field WdfFileInformationAll
 
 
 
-#### - WdfFileInformationAllocation
+### -field WdfFileInformationAllocation
 
 
 
-#### - WdfFileInformationEndOfFile
+### -field WdfFileInformationEndOfFile
 
 
 
-#### - WdfFileInformationAlternateName
+### -field WdfFileInformationAlternateName
 
 
 
-#### - WdfFileInformationStream
+### -field WdfFileInformationStream
 
 
 
-#### - WdfFileInformationPipe
+### -field WdfFileInformationPipe
 
 
 
-#### - WdfFileInformationPipeLocal
+### -field WdfFileInformationPipeLocal
 
 
 
-#### - WdfFileInformationPipeRemote
+### -field WdfFileInformationPipeRemote
 
 
 
-#### - WdfFileInformationMailslotQuery
+### -field WdfFileInformationMailslotQuery
 
 
 
-#### - WdfFileInformationMailslotSet
+### -field WdfFileInformationMailslotSet
 
 
 
-#### - WdfFileInformationCompression
+### -field WdfFileInformationCompression
 
 
 
-#### - WdfFileInformationObjectId
+### -field WdfFileInformationObjectId
 
 
 
-#### - WdfFileInformationCompletion
+### -field WdfFileInformationCompletion
 
 
 
-#### - WdfFileInformationMoveCluster
+### -field WdfFileInformationMoveCluster
 
 
 
-#### - WdfFileInformationQuota
+### -field WdfFileInformationQuota
 
 
 
-#### - WdfFileInformationReparsePoint
+### -field WdfFileInformationReparsePoint
 
 
 
-#### - WdfFileInformationNetworkOpen
+### -field WdfFileInformationNetworkOpen
 
 
 
-#### - WdfFileInformationAttributeTag
+### -field WdfFileInformationAttributeTag
 
 
 
-#### - WdfFileInformationTracking
+### -field WdfFileInformationTracking
 
 
 
-#### - WdfFileInformationIdBothDirectory
+### -field WdfFileInformationIdBothDirectory
 
 
 
-#### - WdfFileInformationIdFullDirectory
+### -field WdfFileInformationIdFullDirectory
 
 
 
-#### - WdfFileInformationValidDataLength
+### -field WdfFileInformationValidDataLength
 
 
 
-#### - WdfFileInformationShortName
+### -field WdfFileInformationShortName
 
 
 
-#### - WdfFileInformationIoCompletionNotification
+### -field WdfFileInformationIoCompletionNotification
 
 
 
-#### - WdfFileInformationIoStatusBlockRange
+### -field WdfFileInformationIoStatusBlockRange
 
 
 
-#### - WdfFileInformationIoPriorityHint
+### -field WdfFileInformationIoPriorityHint
 
 
 
-#### - WdfFileInformationSfioReserve
+### -field WdfFileInformationSfioReserve
 
 
 
-#### - WdfFileInformationSfioVolume
+### -field WdfFileInformationSfioVolume
 
 
 
-#### - WdfFileInformationHardLink
+### -field WdfFileInformationHardLink
 
 
 
-#### - WdfFileInformationProcessIdsUsingFile
+### -field WdfFileInformationProcessIdsUsingFile
 
 
 
-#### - WdfFileInformationNormalizedName
+### -field WdfFileInformationNormalizedName
 
 
 
-#### - WdfFileInformationNetworkPhysicalName
+### -field WdfFileInformationNetworkPhysicalName
 
 
 
-#### - WdfFileInformationIdGlobalTxDirectory
+### -field WdfFileInformationIdGlobalTxDirectory
 
 
 
-#### - WdfFileInformationIsRemoteDevice
+### -field WdfFileInformationIsRemoteDevice
 
 
 
-#### - WdfFileInformationAttributeCache
+### -field WdfFileInformationAttributeCache
 
 
 
-#### - WdfFileInformationMaximum
+### -field WdfFileInformationMaximum
 
 
 
@@ -348,9 +348,9 @@ For more information about the enumeration value and associated structures, see 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558997">IWDFIoRequest2::GetQueryInformationParameters</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558997">IWDFIoRequest2::GetQueryInformationParameters</a>
 
  
 

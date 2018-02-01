@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetDeviceIdleTimeout, kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID PoFxSetDeviceIdleTimeout(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
 
 
-#### - IdleTimeout [in]
+### -param IdleTimeout [in]
 
 The idle time-out interval in 100-nanosecond units. For more information, see Remarks.
 
@@ -101,9 +101,9 @@ The device driver can call <b>PoFxSetDeviceIdleTimeout</b> each time a change in
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D4A7F80C-C223-4F92-AD08-C37F0668B292
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR, WDF_READ_REGISTER_BUFFER_UCHAR function, WDF_READ_REGISTER_BUFFER_UCHAR, wdf.wdf_read_register_buffer_uchar
+ms.keywords: WDF_READ_REGISTER_BUFFER_UCHAR function, WDF_READ_REGISTER_BUFFER_UCHAR, wdf.wdf_read_register_buffer_uchar, wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,22 +73,22 @@ void WDF_READ_REGISTER_BUFFER_UCHAR(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a buffer into which an array of UCHAR values is read.
 
 
-#### - Count [in]
+### -param Count [in]
 
 Specifies the number of bytes to be read into the buffer.
 

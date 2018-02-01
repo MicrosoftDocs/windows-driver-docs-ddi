@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfc75a17-a0de-436e-aebf-902fd841871a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlClearBit, k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml, RtlClearBit routine [Kernel-Mode Driver Architecture], kernel.rtlclearbit, RtlClearBit
+ms.keywords: wdm/RtlClearBit, RtlClearBit, k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml, kernel.rtlclearbit, RtlClearBit routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID RtlClearBit(
 
 
 
-#### - BitMapHeader [in]
+### -param BitMapHeader [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine. 
 
 
-#### - BitNumber [in]
+### -param BitNumber [in]
 
 Specifies the zero-based index of the bit within the bitmap. The routine sets this bit to zero. 
 

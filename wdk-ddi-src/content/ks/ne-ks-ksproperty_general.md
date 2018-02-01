@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, KSPROPERTY_GENERAL, stream.ksproperty_general
+ms.keywords: KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, stream.ksproperty_general, ks/KSPROPERTY_GENERAL_COMPONENTID, KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -67,7 +67,7 @@ typedef enum  {
 
 
 
-#### - KSPROPERTY_GENERAL_COMPONENTID
+### -field KSPROPERTY_GENERAL_COMPONENTID
 
 Specify to access general component information stored in the <b>KSCOMPONENTID</b> structure.
 

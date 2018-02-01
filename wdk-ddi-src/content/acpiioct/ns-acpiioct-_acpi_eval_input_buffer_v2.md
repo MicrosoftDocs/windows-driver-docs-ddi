@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: EDB4862E-FAD4-4AB2-BF0C-CF4C6342F0E4
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpiioct/PACPI_EVAL_INPUT_BUFFER_V2, PACPI_EVAL_INPUT_BUFFER_V2, PACPI_EVAL_INPUT_BUFFER_V2 structure pointer [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_V2, acpi.acpi_eval_input_buffer_v2, ACPI_EVAL_INPUT_BUFFER_V2 structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_V2, _ACPI_EVAL_INPUT_BUFFER_V2, ACPI_EVAL_INPUT_BUFFER_V2
+ms.keywords: PACPI_EVAL_INPUT_BUFFER_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_V2, PACPI_EVAL_INPUT_BUFFER_V2 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V2, acpi.acpi_eval_input_buffer_v2, *PACPI_EVAL_INPUT_BUFFER_V2, ACPI_EVAL_INPUT_BUFFER_V2, acpiioct/ACPI_EVAL_INPUT_BUFFER_V2, ACPI_EVAL_INPUT_BUFFER_V2 structure [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_V2 {
 
 
 
-#### - DUMMYUNIONNAME
+### -field DUMMYUNIONNAME
 
 Defines the method name member of <b>DUMMYUNIONNAME</b>.
 
@@ -86,7 +86,7 @@ Defines the method name member of <b>DUMMYUNIONNAME</b>.
  
 
 
-#### - Signature
+### -field Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 

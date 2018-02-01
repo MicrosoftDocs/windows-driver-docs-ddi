@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdeviceinitialize_setlockingconstraint, SetLockingConstraint method, IWDFDeviceInitialize interface, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint, SetLockingConstraint method, wdf.iwdfdeviceinitialize_setlockingconstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, IWDFDeviceInitialize, IWDFDeviceInitialize::SetLockingConstraint, IWDFDeviceInitialize interface, SetLockingConstraint method
+ms.keywords: IWDFDeviceInitialize, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, SetLockingConstraint method, IWDFDeviceInitialize interface, umdf.iwdfdeviceinitialize_setlockingconstraint, IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint method, wdf.iwdfdeviceinitialize_setlockingconstraint, SetLockingConstraint, IWDFDeviceInitialize interface, SetLockingConstraint method, wudfddi/IWDFDeviceInitialize::SetLockingConstraint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void SetLockingConstraint(
 
 
 
-#### - LockType [in]
+### -param LockType [in]
 
 A value of type <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_callback_constraint.md">WDF_CALLBACK_CONSTRAINT</a> that identifies the locking model.
 

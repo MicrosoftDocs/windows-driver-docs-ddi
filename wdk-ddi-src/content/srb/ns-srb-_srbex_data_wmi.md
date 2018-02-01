@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FFBF258-50C3-4D2D-AFC8-184D2FF85EE4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSRBEX_DATA_WMI, storport/SRBEX_DATA_WMI, storport/PSRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], PSRBEX_DATA_WMI, storage.srbex_data_wmi, SRBEX_DATA_WMI structure [Storage Devices], SRBEX_DATA_WMI, _SRBEX_DATA_WMI"
+ms.keywords: storage.srbex_data_wmi, storport/PSRBEX_DATA_WMI, SRBEX_DATA_WMI structure [Storage Devices], SRBEX_DATA_WMI, _SRBEX_DATA_WMI, storport/SRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], PSRBEX_DATA_WMI, *PSRBEX_DATA_WMI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,37 +74,37 @@ typedef struct _SRBEX_DATA_WMI {
 
 
 
-#### - Type
+### -field Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypeWmi</b>.
 
 
-#### - Length
+### -field Length
 
 Length of the data in this structure starting with the <b>WMISubFunction</b> member. Set to SRBEX_DATA_WMI_LENGTH.
 
 
-#### - WMISubFunction
+### -field WMISubFunction
 
 Indicates the WMI action to be performed. The subfunction value corresponds to the WMI minor IRP number that identifies the WMI operation. 
 
 
-#### - WMIFlags
+### -field WMIFlags
 
 Indicates that the WMI request is for the adapter if SRB_WMI_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>WMIFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved. Contains zeros.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved. Set to 0.
 
 
-#### - DataPath
+### -field DataPath
 
 Specifies the WMI data path for this request.
 

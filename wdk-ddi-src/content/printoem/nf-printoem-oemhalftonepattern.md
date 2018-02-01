@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c574d997-736e-4883-a2c3-447985fcee55
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMHalftonePattern function [Print Devices], printoem/OEMHalftonePattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, OEMHalftonePattern, print.oemhalftonepattern
+ms.keywords: OEMHalftonePattern, print.oemhalftonepattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, printoem/OEMHalftonePattern, OEMHalftonePattern function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,34 +74,34 @@ BOOL APIENTRY OEMHalftonePattern(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 
 
-#### - pHTPattern
+### -param pHTPattern
 
 
 
-#### - dwHTPatternX
+### -param dwHTPatternX
 
 
 
-#### - dwHTPatternY
+### -param dwHTPatternY
 
 
 
-#### - dwHTNumPatterns
+### -param dwHTNumPatterns
 
 
 
-#### - dwCallbackID
+### -param dwCallbackID
 
 
 
-#### - pResource [in]
+### -param pResource [in]
 
 
 
-#### - dwResourceSize
+### -param dwResourceSize
 
 

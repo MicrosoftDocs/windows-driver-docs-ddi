@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5aa96fed-83ca-417e-876d-a734be6f27dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor, PFN_WDFCMRESOURCELISTGETDESCRIPTOR, WdfCmResourceListGetDescriptor method, WdfCmResourceListGetDescriptor, kmdf.wdfcmresourcelistgetdescriptor, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml
+ms.keywords: wdfresource/WdfCmResourceListGetDescriptor, kmdf.wdfcmresourcelistgetdescriptor, wdf.wdfcmresourcelistgetdescriptor, WdfCmResourceListGetDescriptor method, PFN_WDFCMRESOURCELISTGETDESCRIPTOR, WdfCmResourceListGetDescriptor, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ PCM_PARTIAL_RESOURCE_DESCRIPTOR WdfCmResourceListGetDescriptor(
 
 
 
-#### - List [in]
+### -param List [in]
 
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-#### - Index [in]
+### -param Index [in]
 
 A zero-based value that is used as an index into the logical configuration that <i>List</i> specifies.
 

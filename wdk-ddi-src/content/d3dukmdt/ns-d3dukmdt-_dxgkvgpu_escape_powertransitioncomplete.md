@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39800C47-95EB-4867-8FEE-E94EA3F6F68C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], display.dxgkvgpu_escape_powertransitioncomplete, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+ms.keywords: "_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete, d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,12 +70,12 @@ typedef struct _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE {
 
 
 
-#### - Header
+### -field Header
 
 The header that is being operated over.
 
 
-#### - PowerState
+### -field PowerState
 
 Indicates the power state to transition to.
 

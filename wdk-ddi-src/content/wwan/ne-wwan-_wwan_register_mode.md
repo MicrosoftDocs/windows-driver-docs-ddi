@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608d041c-1034-49cf-b8da-cb3f7769ac55
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRegisterModeUnknown, PWWAN_REGISTER_MODE, WwanRegisterModeMax, wwan/WWAN_REGISTER_MODE, wwan/WwanRegisterModeUnknown, _WWAN_REGISTER_MODE, wwan/WwanRegisterModeManual, *PWWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], WWAN_REGISTER_MODE, WwanRegisterModeManual, WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, netvista.wwan_register_mode, WwanRegisterModeAutomatic, wwan/WwanRegisterModeAutomatic, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_REGISTER_MODE, wwan/WwanRegisterModeMax
+ms.keywords: netvista.wwan_register_mode, wwan/WwanRegisterModeManual, wwan/WwanRegisterModeMax, wwan/WwanRegisterModeAutomatic, WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, _WWAN_REGISTER_MODE, *PWWAN_REGISTER_MODE, WwanRegisterModeAutomatic, WwanRegisterModeManual, WwanRegisterModeMax, wwan/WWAN_REGISTER_MODE, PWWAN_REGISTER_MODE, wwan/WwanRegisterModeUnknown, WWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterModeUnknown, wwan/PWWAN_REGISTER_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,22 +72,22 @@ typedef enum _WWAN_REGISTER_MODE {
 
 
 
-#### - WwanRegisterModeUnknown
+### -field WwanRegisterModeUnknown
 
 It is not specified how the device registers with network providers.
 
 
-#### - WwanRegisterModeAutomatic
+### -field WwanRegisterModeAutomatic
 
 Device automatically selects a network on which it should register.
 
 
-#### - WwanRegisterModeManual
+### -field WwanRegisterModeManual
 
 Device registers to a pre-selected (manually selected) network.
 
 
-#### - WwanRegisterModeMax
+### -field WwanRegisterModeMax
 
 The total number of supported registration modes.
 

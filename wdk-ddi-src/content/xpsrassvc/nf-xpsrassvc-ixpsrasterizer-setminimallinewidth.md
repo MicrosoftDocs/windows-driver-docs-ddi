@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: daf84d1a-d499-4a6e-be87-39fd16f3d87d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, print.ixpsrasterizer_setminimallinewidth, IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, IXpsRasterizer, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], IXpsRasterizer::SetMinimalLineWidth
+ms.keywords: print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, IXpsRasterizer, SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, print.ixpsrasterizer_setminimallinewidth, IXpsRasterizer::SetMinimalLineWidth, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT STDMETHODCALLTYPE SetMinimalLineWidth(
 
 
 
-#### - width [in]
+### -param width [in]
 
 The minimum thickness (in pixels) of the lines the device is capable of rendering. The value should be greater than 1.
 
@@ -89,13 +89,13 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
-
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
 
+<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
  
 

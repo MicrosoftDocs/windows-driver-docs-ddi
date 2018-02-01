@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prdrvcom/PTSHIM_NOSNAPSHOT, print.shimopts, prdrvcom/SHIMOPTS, SHIMOPTS enumeration [Print Devices], prdrvcom/PSHIMOPTS, SHIMOPTS, PSHIMOPTS, PTSHIM_NOSNAPSHOT, *PSHIMOPTS, prdrvcom/PTSHIM_DEFAULT, PTSHIM_DEFAULT, PSHIMOPTS enumeration pointer [Print Devices], tagSHIMOPTS
+ms.keywords: PSHIMOPTS, *PSHIMOPTS, PSHIMOPTS enumeration pointer [Print Devices], SHIMOPTS, prdrvcom/SHIMOPTS, print.shimopts, PTSHIM_DEFAULT, prdrvcom/PTSHIM_DEFAULT, prdrvcom/PTSHIM_NOSNAPSHOT, tagSHIMOPTS, SHIMOPTS enumeration [Print Devices], PTSHIM_NOSNAPSHOT, prdrvcom/PSHIMOPTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,10 +69,10 @@ typedef enum tagSHIMOPTS {
 
 
 
-#### - PTSHIM_DEFAULT
+### -field PTSHIM_DEFAULT
 
 
 
-#### - PTSHIM_NOSNAPSHOT
+### -field PTSHIM_NOSNAPSHOT
 
 

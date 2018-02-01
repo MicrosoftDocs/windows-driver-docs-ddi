@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AC65F790-981F-4B50-BB9E-84F79D8F6C4F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_contextinfo_caps, d3dkmddi/DXGK_CONTEXTINFO_CAPS, DXGK_CONTEXTINFO_CAPS structure [Display Devices], DXGK_CONTEXTINFO_CAPS, _DXGK_CONTEXTINFO_CAPS
+ms.keywords: DXGK_CONTEXTINFO_CAPS, display.dxgk_contextinfo_caps, d3dkmddi/DXGK_CONTEXTINFO_CAPS, DXGK_CONTEXTINFO_CAPS structure [Display Devices], _DXGK_CONTEXTINFO_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,27 +75,27 @@ typedef struct _DXGK_CONTEXTINFO_CAPS {
 
 
 
-#### - NoPatchingRequired
+### -field NoPatchingRequired
 
 Indicates that no memory patching is required.
 
 
-#### - DriverManagesResidency
+### -field DriverManagesResidency
 
 Indicates that the driver manages memory residency.
 
 
-#### - UseIoMmu
+### -field UseIoMmu
 
 Indicates that the driver supports IoMmu. 
 
 
-#### - Reserved
+### -field Reserved
 
 This field is reserved and should not be used.
 
 
-#### - Value
+### -field Value
 
 The consolidated value of the structure.
 

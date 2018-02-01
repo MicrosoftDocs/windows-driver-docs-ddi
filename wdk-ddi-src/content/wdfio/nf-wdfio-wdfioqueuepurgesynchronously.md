@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 705faf80-79c4-4f2a-a399-d9a26bde54cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, PFN_WDFIOQUEUEPURGESYNCHRONOUSLY, WdfIoQueuePurgeSynchronously, wdf.wdfioqueuepurgesynchronously, kmdf.wdfioqueuepurgesynchronously, WdfIoQueuePurgeSynchronously method, wdfio/WdfIoQueuePurgeSynchronously
+ms.keywords: PFN_WDFIOQUEUEPURGESYNCHRONOUSLY, kmdf.wdfioqueuepurgesynchronously, wdfio/WdfIoQueuePurgeSynchronously, wdf.wdfioqueuepurgesynchronously, DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, WdfIoQueuePurgeSynchronously method, WdfIoQueuePurgeSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ VOID WdfIoQueuePurgeSynchronously(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 

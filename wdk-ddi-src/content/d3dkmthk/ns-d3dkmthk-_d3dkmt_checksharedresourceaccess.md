@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1749127f-c5fc-4e69-a2dd-00540e1c4c9a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, display.d3dkmt_checksharedresourceaccess, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml, D3DKMT_CHECKSHAREDRESOURCEACCESS, _D3DKMT_CHECKSHAREDRESOURCEACCESS
+ms.keywords: D3DKMT_CHECKSHAREDRESOURCEACCESS, d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, _D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml, display.d3dkmt_checksharedresourceaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
 
 
 
-#### - hResource
+### -field hResource
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the shared resource to check. 
 
 
-#### - ClientPid
+### -field ClientPid
 
 [in] A UINT value that represents the process identifier (PID) for the client process that requires access to the shared resource that the <b>hProcess</b> member specifies. 
 

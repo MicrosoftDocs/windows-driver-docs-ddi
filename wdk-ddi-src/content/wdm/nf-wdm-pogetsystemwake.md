@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f2e6bcd6-ed6b-4c88-af96-768284bddb24
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoGetSystemWake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, PoGetSystemWake routine [Kernel-Mode Driver Architecture], PoGetSystemWake, kernel.pogetsystemwake
+ms.keywords: PoGetSystemWake, PoGetSystemWake routine [Kernel-Mode Driver Architecture], wdm/PoGetSystemWake, kernel.pogetsystemwake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOLEAN PoGetSystemWake(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 A pointer to an IRP.
 

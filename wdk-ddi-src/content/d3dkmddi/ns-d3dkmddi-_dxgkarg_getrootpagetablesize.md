@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31CB33F9-87E8-419D-AF35-E7F731661DD5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices], DXGKARG_GETROOTPAGETABLESIZE, display.dxgkarg_getrootpagetablesize, d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE, _DXGKARG_GETROOTPAGETABLESIZE, *INOUT_PDXGKARG_GETROOTPAGETABLESIZE
+ms.keywords: DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices], DXGKARG_GETROOTPAGETABLESIZE, d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE, display.dxgkarg_getrootpagetablesize, _DXGKARG_GETROOTPAGETABLESIZE, *INOUT_PDXGKARG_GETROOTPAGETABLESIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,14 +68,14 @@ typedef struct _DXGKARG_GETROOTPAGETABLESIZE {
 
 
 
-#### - NumberOfPte
+### -field NumberOfPte
 
 [in] A pointer to the number of page table entries which are required to be in the root page table.
 
 [out] The actual number of page table entries in the page table with the returned size.
 
 
-#### - PhysicalAdapterIndex
+### -field PhysicalAdapterIndex
 
 Physical adapter index (zero for non-linked display adapter configurations).
 

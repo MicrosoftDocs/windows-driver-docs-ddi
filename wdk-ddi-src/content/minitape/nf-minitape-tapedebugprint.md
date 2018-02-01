@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d06e4308-f1a9-4acd-bc25-b3fd53129064
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml, storage.tapedebugprint, TapeDebugPrint, minitape/TapeDebugPrint, TapeDebugPrint routine [Storage Devices]
+ms.keywords: minitape/TapeDebugPrint, TapeDebugPrint routine [Storage Devices], tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml, TapeDebugPrint, storage.tapedebugprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID TapeDebugPrint(
 
 
 
-#### - DebugPrintLevel
+### -param DebugPrintLevel
 
 Determines whether the string is printed or not. If this parameter has a value less than or equal to the tape class global variable <b>TapeClassDebug</b>, <b>TapeDebugPrint</b> prints the message, otherwise nothing is printed. If this parameter has a value of zero, <b>TapeClassDebug</b> always prints the message. 
 
 
-#### - DebugMessage
+### -param DebugMessage
 
 Pointer to the string to be printed.
 

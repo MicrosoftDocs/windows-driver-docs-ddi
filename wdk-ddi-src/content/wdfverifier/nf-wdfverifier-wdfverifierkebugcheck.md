@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3fa8ea3d-cca0-402d-a3a8-1281ad4231d4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfverifierkebugcheck, kmdf.wdfverifierkebugcheck, WdfVerifierKeBugCheck function, DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, wdfverifier/WdfVerifierKeBugCheck
+ms.keywords: wdfverifier/WdfVerifierKeBugCheck, kmdf.wdfverifierkebugcheck, WdfVerifierKeBugCheck function, DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, wdf.wdfverifierkebugcheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,27 @@ VOID WdfVerifierKeBugCheck(
 
 
 
-#### - BugCheckCode [in]
+### -param BugCheckCode [in]
 
 One of the <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check codes</a> that are defined in <i>Bugcodes.h</i>.
 
 
-#### - BugCheckParameter1 [in]
+### -param BugCheckParameter1 [in]
 
 For information about this parameter, see the specified bug check code's description.
 
 
-#### - BugCheckParameter2 [in]
+### -param BugCheckParameter2 [in]
 
 For information about this parameter, see the specified bug check code's description.
 
 
-#### - BugCheckParameter3 [in]
+### -param BugCheckParameter3 [in]
 
 For information about this parameter, see the specified bug check code's description.
 
 
-#### - BugCheckParameter4 [in]
+### -param BugCheckParameter4 [in]
 
 For information about this parameter, see the specified bug check code's description.
 

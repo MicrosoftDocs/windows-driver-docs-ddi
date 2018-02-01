@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiaerrorhandler_reportstatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus method [Imaging Devices], ReportStatus, wia_lh/IWiaErrorHandler::ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler, ReportStatus method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler interface [Imaging Devices], ReportStatus method
+ms.keywords: IWiaErrorHandler, image.iwiaerrorhandler_reportstatus, ReportStatus method [Imaging Devices], IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, IWiaErrorHandler::ReportStatus, ReportStatus, ReportStatus method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, wia_lh/IWiaErrorHandler::ReportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT ReportStatus(
 
 
 
-#### - lFlags [in]
+### -param lFlags [in]
 
 Currently unused. Should be set to zero. 
 
 
-#### - hwndParent [in]
+### -param hwndParent [in]
 
 Caller supplied handle of the window that should be used as the parent window for any dialog boxes. If this is set to <b>NULL</b>, no dialog boxes should be displayed.
 
 
-#### - pWiaItem2 [in]
+### -param pWiaItem2 [in]
 
 Pointer to the <b>IWiaItem2</b> item being transferred. <b>IWiaItem2</b> is described in the Microsoft Windows SDK documentation.
 
 
-#### - hrStatus [in]
+### -param hrStatus [in]
 
 HRESULT variable that contains the status code received by the WIA transfer method, for example the <b>IWiaDataCallback::BandedDataCallback</b> method (described in the Windows SDK documentation).
 
 
-#### - lPercentComplete [in]
+### -param lPercentComplete [in]
 
 Size of the data, in bytes, the <i>pbData</i> pointer refers to.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.emulator_access_entry, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], miniport/EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY, miniport/PEMULATOR_ACCESS_ENTRY, Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, EMULATOR_ACCESS_ENTRY structure [Display Devices], EMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY, _EMULATOR_ACCESS_ENTRY
+ms.keywords: PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], miniport/EMULATOR_ACCESS_ENTRY, miniport/PEMULATOR_ACCESS_ENTRY, _EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, *PEMULATOR_ACCESS_ENTRY, Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct _EMULATOR_ACCESS_ENTRY {
 
 
 
-#### - BasePort
+### -field BasePort
 
 Specifies the bus-relative physical address of the I/O port or ports to be hooked out by the V86 emulator. This value and the range of ports must fall within an access range of I/O ports already claimed in the registry by <b>VideoPortGetAccessRanges</b> or <b>VideoPortVerifyAccessRanges</b>.
 
 
-#### - NumConsecutivePorts
+### -field NumConsecutivePorts
 
 Specifies the number of consecutive ports to be hooked by the V86 emulator, starting at <b>BasePort</b>. This value is determined by the width of each hooked I/O port. For example, if port addresses 0x3C0 and 0x3C1 are hooked as a single USHORT-addressable port, this value should be 1.
 
 
-#### - AccessType
+### -field AccessType
 
 Specifies the size of the data transferred through the given I/O port as one of <b>Uchar</b>, <b>Ulong</b>, or <b>Ushort</b>.
 
 
-#### - AccessMode
+### -field AccessMode
 
 Specifies how the given I/O port can be accessed as one or a combination (ORed) of the following values:
 
@@ -101,12 +101,12 @@ Specifies how the given I/O port can be accessed as one or a combination (ORed) 
 The I/O port range must be accessible in at least one of the preceding modes.
 
 
-#### - StringSupport
+### -field StringSupport
 
 Indicates whether the driver-supplied <i>SvgaHwIoPortXxx</i> function supports string accesses in cases where many values of the given <b>AccessType</b> are "pumped" through an I/O port consecutively. If this member is set to <b>TRUE</b>, the <b>Routine</b> member must specify the entry point of a miniport driver-supplied<i> SvgaHwIoPortXxxString</i> function.
 
 
-#### - Routine
+### -field Routine
 
 Pointer to the miniport driver's <i>SvgaHwIoPortXxx</i> that handles accesses to the port or ports described in this structure.
 
@@ -122,15 +122,15 @@ Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O p
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
  
 

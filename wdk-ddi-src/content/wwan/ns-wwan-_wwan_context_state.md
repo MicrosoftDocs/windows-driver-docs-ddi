@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_context_state, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, _WWAN_CONTEXT_STATE, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE
+ms.keywords: netvista.wwan_context_state, *PWWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE, WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, PWWAN_CONTEXT_STATE, wwan/PWWAN_CONTEXT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _WWAN_CONTEXT_STATE {
 
 
 
-#### - uNwError
+### -field uNwError
 
 A network-specific error. The following table shows the connection failure values as documented in
      the 
@@ -167,24 +167,24 @@ No APN or unknown APN is provided in the activation request.
 </table> 
 
 
-#### - ConnectionId
+### -field ConnectionId
 
 The MB Service specifies a value for this member at the time of the connect request by using
      OID_WWAN_CONNECT. Miniport drivers must copy this value and use it when they notify the MB Service on
      subsequent connection state changes.
 
 
-#### - ActivationState
+### -field ActivationState
 
 The current activation state of the device.
 
 
-#### - VoiceCallState
+### -field VoiceCallState
 
 The current voice call state of the device.
 
 
-#### - IPType
+### -field IPType
 
 A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
@@ -236,9 +236,9 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
-
 <a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
+
+<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71D4008C-1F04-408B-93DF-DDE6FD352701
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, storage.cdrom_streaming_control, PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], ntddcdrm/PCDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL structure [Storage Devices], ntddcdrm/CDROM_STREAMING_CONTROL, _CDROM_STREAMING_CONTROL"
+ms.keywords: PCDROM_STREAMING_CONTROL, *PCDROM_STREAMING_CONTROL, _CDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, ntddcdrm/PCDROM_STREAMING_CONTROL, ntddcdrm/CDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL structure [Storage Devices], PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], storage.cdrom_streaming_control
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _CDROM_STREAMING_CONTROL {
 
 
 
-#### - RequestType
+### -field RequestType
 
 The <a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
 

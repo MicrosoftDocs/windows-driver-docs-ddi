@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7f254389-58cf-43da-8611-a1598cc2eb66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices], storage.mpio_devinstance_health_info, *PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO, _MPIO_DEVINSTANCE_HEALTH_INFO, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml
+ms.keywords: PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices], mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, _MPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], *PMPIO_DEVINSTANCE_HEALTH_INFO, storage.mpio_devinstance_health_info, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml, MPIO_DEVINSTANCE_HEALTH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _MPIO_DEVINSTANCE_HEALTH_INFO {
 
 
 
-#### - NumberDevInstancePackets
+### -field NumberDevInstancePackets
 
 An unsigned 32-bitfield that returns the number of health packets that are available and that correspond to the number of available path instances associated with all multi-path disks.
 
 
-#### - Reserved
+### -field Reserved
 
 Should be zero.
 
 
-#### - DevInstanceHealthPackets
+### -field DevInstanceHealthPackets
 
 A field that returns an array with health information about all the available instances of multi-path disks. The number of elements of the array is given by <i>NbrDevInfoPkts</i> and each element of the array is an instance of the MPIO_DEVINSTANCE_HEALTH_CLASS structure.
 

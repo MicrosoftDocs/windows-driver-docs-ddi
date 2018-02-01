@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b93f999e-471a-4f02-a6f2-e21386b9e289
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSM_RemoveTarget_OUT, structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml, PSM_RemoveTarget_OUT, storage.sm_removetarget_out, SM_RemoveTarget_OUT, hbapiwmi/PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices], hbapiwmi/SM_RemoveTarget_OUT, SM_RemoveTarget_OUT structure [Storage Devices], _SM_RemoveTarget_OUT"
+ms.keywords: SM_RemoveTarget_OUT, hbapiwmi/PSM_RemoveTarget_OUT, hbapiwmi/SM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT, structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml, _SM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices], storage.sm_removetarget_out, PSM_RemoveTarget_OUT, SM_RemoveTarget_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SM_RemoveTarget_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 

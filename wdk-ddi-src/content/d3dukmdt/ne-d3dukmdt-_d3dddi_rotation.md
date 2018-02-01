@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c167b958-bd09-441e-9680-f193da5ad77f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION_90, D3DDDI_ROTATION, D3DDDI_ROTATION_180, D3DDDI_ROTATION_90, D3DDDI_ROTATION_IDENTITY, d3dukmdt/D3DDDI_ROTATION, D3DDDI_ROTATION_270, d3dukmdt/D3DDDI_ROTATION_IDENTITY, d3dukmdt/D3DDDI_ROTATION_180, d3dukmdt/D3DDDI_ROTATION_270, D3DDDI_ROTATION enumeration [Display Devices], D3D_other_Structs_0f55b4dd-2156-4590-a2c7-1daebcc16ba3.xml, display.d3dddi_rotation"
+ms.keywords: "_D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION_270, D3DDDI_ROTATION enumeration [Display Devices], D3DDDI_ROTATION_180, D3D_other_Structs_0f55b4dd-2156-4590-a2c7-1daebcc16ba3.xml, d3dukmdt/D3DDDI_ROTATION_180, D3DDDI_ROTATION_270, d3dukmdt/D3DDDI_ROTATION_90, d3dukmdt/D3DDDI_ROTATION_IDENTITY, display.d3dddi_rotation, D3DDDI_ROTATION_90, D3DDDI_ROTATION_IDENTITY, D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _D3DDDI_ROTATION {
 
 
 
-#### - D3DDDI_ROTATION_IDENTITY
+### -field D3DDDI_ROTATION_IDENTITY
 
 Indicates that the resource is not rotated. 
 
 
-#### - D3DDDI_ROTATION_90
+### -field D3DDDI_ROTATION_90
 
 Indicates that the resource is rotated 90 degrees. 
 
 
-#### - D3DDDI_ROTATION_180
+### -field D3DDDI_ROTATION_180
 
 Indicates that the resource is rotated 180 degrees. 
 
 
-#### - D3DDDI_ROTATION_270
+### -field D3DDDI_ROTATION_270
 
 Indicates that the resource is rotated 270 degrees. 
 

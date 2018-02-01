@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetDeviceAttributeSteppings method [Audio Devices], portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, IMiniportAudioEngineNode, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceAttributeSteppings, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode::GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings, GetDeviceAttributeSteppings, IMiniportAudioEngineNode, audio.iminiportaudioenginenode_getdeviceattributesteppings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,22 +70,22 @@ NTSTATUS GetDeviceAttributeSteppings(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-#### - targetType [in]
+### -param targetType [in]
 
 An  <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a> enumerated value that specifies the type of target node. For example, a Volume or a Mute node.
 
 
-#### - pKsPropStepLong [out]
+### -param pKsPropStepLong [out]
 
 A structure of type <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the device attribute.
 
 
-#### - ui32DataSize [in]
+### -param ui32DataSize [in]
 
 The allowed stepping value.
 
@@ -103,9 +103,9 @@ returns an appropriate error code.
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
 <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
+
+<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
  
 

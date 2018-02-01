@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8191418A-7139-4BF4-9869-F21AA54EA8B3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TELEPHONY_CALLSTATE_HOLD, ksmedia/TELEPHONY_CALLSTATE_DISABLED, TELEPHONY_CALLSTATE_ENABLED, TELEPHONY_CALLSTATE_PROVIDERTRANSITION, TELEPHONY_CALLSTATE, ksmedia/TELEPHONY_CALLSTATE_ENABLED, ksmedia/TELEPHONY_CALLSTATE_PROVIDERTRANSITION, ksmedia/TELEPHONY_CALLSTATE_HOLD, ksmedia/TELEPHONY_CALLSTATE, TELEPHONY_CALLSTATE enumeration [Audio Devices], audio.telephony_callstate, TELEPHONY_CALLSTATE_DISABLED
+ms.keywords: ksmedia/TELEPHONY_CALLSTATE_PROVIDERTRANSITION, TELEPHONY_CALLSTATE_PROVIDERTRANSITION, TELEPHONY_CALLSTATE enumeration [Audio Devices], TELEPHONY_CALLSTATE, audio.telephony_callstate, ksmedia/TELEPHONY_CALLSTATE_HOLD, TELEPHONY_CALLSTATE_DISABLED, ksmedia/TELEPHONY_CALLSTATE_DISABLED, ksmedia/TELEPHONY_CALLSTATE, TELEPHONY_CALLSTATE_ENABLED, ksmedia/TELEPHONY_CALLSTATE_ENABLED, TELEPHONY_CALLSTATE_HOLD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum  {
 
 
 
-#### - TELEPHONY_CALLSTATE_DISABLED
+### -field TELEPHONY_CALLSTATE_DISABLED
 
 Specifies that the phone call is disabled.
 
 
-#### - TELEPHONY_CALLSTATE_ENABLED
+### -field TELEPHONY_CALLSTATE_ENABLED
 
 Specifies that the phone call is enabled. This constant is set in a number of situations. For example, it will be set by the audio driver when the provider change operation is <b>TELEPHONY_PROVIDERCHANGEOP_END</b> and when <b>TELEPHONY_CALLCONTROLOP_ENABLE</b> is received.
 
 
-#### - TELEPHONY_CALLSTATE_HOLD
+### -field TELEPHONY_CALLSTATE_HOLD
 
 Specifies that the phone call is on hold.
 
 
-#### - TELEPHONY_CALLSTATE_PROVIDERTRANSITION
+### -field TELEPHONY_CALLSTATE_PROVIDERTRANSITION
 
 Specifies that the phone call is disabled. This constant is set by the audio driver when the provider change operation is <b>TELEPHONY_PROVIDERCHANGEOP_BEGIN</b>.
 

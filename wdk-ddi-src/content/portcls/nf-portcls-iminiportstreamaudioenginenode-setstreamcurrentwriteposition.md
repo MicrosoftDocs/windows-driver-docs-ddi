@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A277FC29-AB92-4D67-9E53-F8E8B36053F9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition
+ms.keywords: SetStreamCurrentWritePosition, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ NTSTATUS SetStreamCurrentWritePosition(
 
 
 
-#### - ulCurrentWritePosition [in]
+### -param ulCurrentWritePosition [in]
 
 The current cursor position in the audio data stream.
 

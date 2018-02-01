@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ac5994a7-411c-47f2-ba1d-2d49c727de8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_3acc4a2d-78ef-418a-ab15-a9e306110baf.xml, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_packet_list_inbound_ipsec_information0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0
+ms.keywords: netvista.fwps_packet_list_inbound_ipsec_information0, wfp_ref_3_struct_3_fwps_P-Z_3acc4a2d-78ef-418a-ab15-a9e306110baf.xml, fwpsk/FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_ {
 
 
 
-#### - isSecure
+### -field isSecure
 
 A value that indicates whether IPsec tunnel mode or IPsec transport mode processing has been performed
      on the packet list.
 
 
-#### - isTransportMode
+### -field isTransportMode
 
 A value that indicates whether IPsec has applied a transport mode security association to the packet
      list.
 
 
-#### - isTunnelMode
+### -field isTunnelMode
 
 A value that indicates whether IPsec has applied a tunnel mode security association to the packet
      list.
 
 
-#### - isTransportModeVerified
+### -field isTransportModeVerified
 
 A value that indicates whether the packet list has been verified against the IPsec transport mode
      filter in the inbound transport layer.
 
 
-#### - isTunnelModeVerified
+### -field isTunnelModeVerified
 
 A value that indicates whether the packet list has been verified against the IPsec tunnel mode filter
      in the inbound transport layer.
 
 
-#### - isDeTunneled
+### -field isDeTunneled
 
 A value that indicates whether the packet list has been detunneled by IPsec.
 
@@ -112,15 +112,15 @@ A value that indicates whether the packet list has been detunneled by IPsec.
 
 
 An FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure is included as a member of the 
-    <mshelp:link keywords="netvista.fwps_packet_list_ipsec_information0" tabindex="0"><b>
-    FWPS_PACKET_LIST_IPSEC_INFORMATION0</b></mshelp:link> structure.
+    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwps_packet_list_ipsec_information0" tabindex="0"><b>
-   FWPS_PACKET_LIST_IPSEC_INFORMATION0</b></mshelp:link>
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+   FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
 
  
 

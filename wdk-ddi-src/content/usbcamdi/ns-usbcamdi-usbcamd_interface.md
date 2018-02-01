@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 864dbe8d-2771-4532-8a50-ed1bf5286658
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.usbcamd_interface, USBCAMD_INTERFACE structure [Streaming Media Devices], PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE structure pointer [Streaming Media Devices], usbcmdpr_113d60d6-c353-468a-9c3d-801c76caf7be.xml, USBCAMD_INTERFACE, usbcamdi/PUSBCAMD_INTERFACE, *PUSBCAMD_INTERFACE, usbcamdi/USBCAMD_INTERFACE
+ms.keywords: usbcamdi/USBCAMD_INTERFACE, PUSBCAMD_INTERFACE, stream.usbcamd_interface, USBCAMD_INTERFACE structure [Streaming Media Devices], USBCAMD_INTERFACE, usbcmdpr_113d60d6-c353-468a-9c3d-801c76caf7be.xml, usbcamdi/PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE structure pointer [Streaming Media Devices], *PUSBCAMD_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,32 +73,32 @@ typedef struct {
 
 
 
-#### - Interface
+### -field Interface
 
 Describes the interface that USBCAMD exports for use by other drivers.
 
 
-#### - USBCAMD_WaitOnDeviceEvent
+### -field USBCAMD_WaitOnDeviceEvent
 
 Pointer to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a> service.
 
 
-#### - USBCAMD_BulkReadWrite
+### -field USBCAMD_BulkReadWrite
 
 Pointer to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a> service.
 
 
-#### - USBCAMD_SetVideoFormat
+### -field USBCAMD_SetVideoFormat
 
 Pointer to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a> service.
 
 
-#### - USBCAMD_SetIsoPipeState
+### -field USBCAMD_SetIsoPipeState
 
 Pointer to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a> service.
 
 
-#### - USBCAMD_CancelBulkReadWrite
+### -field USBCAMD_CancelBulkReadWrite
 
 Pointer to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a> service.
 
@@ -115,21 +115,21 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568182">SRB_INITIALIZATION_COMPLETE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
  
 

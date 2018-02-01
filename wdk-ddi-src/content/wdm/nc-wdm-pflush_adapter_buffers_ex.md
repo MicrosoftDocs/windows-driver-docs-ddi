@@ -76,32 +76,32 @@ NTSTATUS FlushAdapterBuffersEx(
 
 
 
-#### - DmaAdapter [in]
+### -param DmaAdapter [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel or bus-master device. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine.
 
 
-#### - Mdl [in]
+### -param Mdl [in]
 
 A pointer to the MDL chain that describes the pages of memory that are to be flushed.  Set this parameter to point to the MDL chain that was used for the DMA transfer. For more information, see the description of the <i>Mdl</i> parameter in <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>, <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>, or <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>.
 
 
-#### - MapRegisterBase [in]
+### -param MapRegisterBase [in]
 
 A handle to the map registers that were previously allocated for the adapter object.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 The starting offset relative to the start of the MDL chain to use for the flush operation. Set this parameter to the value that was used as the starting offset for the DMA transfer. For more information, see the description of the <i>Offset</i> parameter in <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>, <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>, or <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes of data to flush. Set this parameter to the value that was used as the transfer length for the DMA transfer. For more information, see the description of the <i>Length</i> parameter in <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>, <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>, or <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>.
 
 
-#### - WriteToDevice [in]
+### -param WriteToDevice [in]
 
 The direction of the DMA transfer. Set this parameter to the value that was used as the transfer direction for the DMA transfer. For more information, see the description of the <i>WriteToDevice</i> parameter in <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>, <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>, or <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>.
 
@@ -151,15 +151,15 @@ If <b>FlushAdapterBuffersEx</b> is called before the DMA transfer operation fini
 
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
 <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
 
 <a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 

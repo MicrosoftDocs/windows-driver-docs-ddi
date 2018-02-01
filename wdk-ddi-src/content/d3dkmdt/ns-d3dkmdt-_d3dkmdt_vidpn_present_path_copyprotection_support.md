@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b0c7428-bc88-461c-ab72-daccf02606da
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, DmStructs_01eb8f42-1ba1-46e3-9b56-99952e5fedbe.xml, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure [Display Devices], display.d3dkmdt_vidpn_present_path_copyprotection_support, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure [Display Devices], d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, display.d3dkmdt_vidpn_present_path_copyprotection_support, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, DmStructs_01eb8f42-1ba1-46e3-9b56-99952e5fedbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT {
 
 
 
-#### - NoProtection
+### -field NoProtection
 
 The path is not capable of providing any copy protection.
 
 
-#### - MacroVisionApsTrigger
+### -field MacroVisionApsTrigger
 
 The path is capable of providing Rovi (formerly Macrovision) analog protection support (APS). 
 
 
-#### - MacroVisionFull
+### -field MacroVisionFull
 
 The path is capable of providing full Rovi (formerly Macrovision) copy protection.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 

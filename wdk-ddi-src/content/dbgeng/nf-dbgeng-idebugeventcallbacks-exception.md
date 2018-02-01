@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93f915ab-1f9e-453c-b76e-8260eecd7298
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, debugger.idebugeventcallbacks_exception, Exception method [Windows Debugging], dbgeng/IDebugEventCallbacks::Exception, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], Exception method, IDebugEventCallbacks::Exception, Exception method [Windows Debugging], IDebugEventCallbacks interface, Exception
+ms.keywords: debugger.idebugeventcallbacks_exception, Exception method [Windows Debugging], IDebugEventCallbacks interface, Exception method [Windows Debugging], IDebugEventCallbacks, IDebugEventCallbacks::Exception, IDebugEventCallbacks interface [Windows Debugging], Exception method, ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, dbgeng/IDebugEventCallbacks::Exception, Exception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT Exception(
 
 
 
-#### - Exception [in]
+### -param Exception [in]
 
 Specifies the nature of the exception.  EXCEPTION_RECORD64 is defined in winnt.h.
 
 
-#### - FirstChance [in]
+### -param FirstChance [in]
 
 Specifies whether this exception has been previously encountered.  A nonzero value means that this is the first time the exception has been encountered ("first chance").  A zero value means that the exception has already been offered to all possible handlers, and each one declined to handle it ("second chance").
 

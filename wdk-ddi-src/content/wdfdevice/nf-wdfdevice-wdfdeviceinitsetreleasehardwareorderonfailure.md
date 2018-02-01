@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5DC3C7C8-E7D1-4874-AF8D-8E6FD48DF046
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure, PFN_WDFDEVICEINITSETRELEASEHARDWAREORDERONFAILURE, WdfDeviceInitSetReleaseHardwareOrderOnFailure method, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure, wdf.wdfdeviceinitsetreleasehardwareorderonfailure
+ms.keywords: kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, PFN_WDFDEVICEINITSETRELEASEHARDWAREORDERONFAILURE, WdfDeviceInitSetReleaseHardwareOrderOnFailure, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,12 @@ void WdfDeviceInitSetReleaseHardwareOrderOnFailure(
 
 
 
-#### - DeviceInit [in]
+### -param DeviceInit [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
 
 
-#### - ReleaseHardwareOrderOnFailure [in]
+### -param ReleaseHardwareOrderOnFailure [in]
 
 A <a href="..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md">WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE</a>-typed enumerator that specifies when the framework calls the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> callback function.
 
@@ -109,11 +109,11 @@ If a driver calls <b>WdfDeviceInitSetReleaseHardwareOrderOnFailure</b>, it must 
 
 ## -see-also
 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md">WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
 
  
 

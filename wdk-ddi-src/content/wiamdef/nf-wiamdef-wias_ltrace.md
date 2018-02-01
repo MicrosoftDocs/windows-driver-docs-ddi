@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, WIAS_LTRACE, IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml
+ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE macro [Imaging Devices], wiamdef/WIAS_LTRACE, image.wias_ltrace, WIAS_LTRACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,16 +95,6 @@ TBD
 
 
 
-#### - pIWiaLog
-
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
-
-
-#### - ResourceID
-
-Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
-
-
 #### - DetailLevel
 
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
@@ -166,9 +156,19 @@ User-defined log levels.
 </table> 
 
 
+#### - ResourceID
+
+Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
+
+
 #### - format_string
 
 Specifies a variable argument list, which starts with an ANSI format string describing the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+
+
+#### - pIWiaLog
+
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 ## -remarks
@@ -193,11 +193,11 @@ The following is an example of how the macro can be used:
 
 <a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
+
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
 
 <a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
-
-<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
  
 

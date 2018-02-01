@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6186dac4-4797-48f2-bb32-40a0d501bac7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_COPY_NO_OVERWRITE, D3DDDI_COPY_FLAGS enumeration [Display Devices], D3DDDI_COPY_DISCARD, display.d3dddi_copy_flags, d3dumddi/D3DDDI_COPY_FLAGS, d3dumddi/D3DDDI_COPY_NO_OVERWRITE, d3dumddi/D3DDDI_COPY_DISCARD, D3DDDI_COPY_FLAGS
+ms.keywords: d3dumddi/D3DDDI_COPY_DISCARD, D3DDDI_COPY_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_COPY_NO_OVERWRITE, D3DDDI_COPY_DISCARD, D3DDDI_COPY_NO_OVERWRITE, D3DDDI_COPY_FLAGS, d3dumddi/D3DDDI_COPY_FLAGS, display.d3dddi_copy_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum D3DDDI_COPY_FLAGS {
 
 
 
-#### - D3DDDI_COPY_NO_OVERWRITE
+### -field D3DDDI_COPY_NO_OVERWRITE
 
 The caller guarantees that the portion of the surface that is being written to with new data is not currently being referenced or accessed by any previous render operation. The driver can take advantage of this capability to optimize performance and memory usage.
 
 
-#### - D3DDDI_COPY_DISCARD
+### -field D3DDDI_COPY_DISCARD
 
 The user-mode display driver can discard previous contents of the entire resource. The driver can take advantage of this capability to optimize performance and memory usage.
 

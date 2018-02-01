@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8f5df76b-57c9-4c5a-9ca2-f02c8d903a8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetOptions, IPrintCorePS2, print.iprintcoreps2_getoptions, IPrintCorePS2 interface [Print Devices], GetOptions method, GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_5efb04dd-f01b-4da4-9ac3-34a3e62a1ec3.xml, prcomoem/IPrintCorePS2::GetOptions, IPrintCorePS2::GetOptions
+ms.keywords: print.iprintcoreps2_getoptions, IPrintCorePS2::GetOptions, IPrintCorePS2, GetOptions method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_5efb04dd-f01b-4da4-9ac3-34a3e62a1ec3.xml, prcomoem/IPrintCorePS2::GetOptions, GetOptions, GetOptions method [Print Devices], IPrintCorePS2 interface [Print Devices], GetOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,37 +74,37 @@ HRESULT GetOptions(
 
 
 
-#### - pdevobj [in]
+### -param pdevobj [in]
 
 Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - dwFlags [in]
+### -param dwFlags [in]
 
 Is reserved and must be set to zero.
 
 
-#### - pmszFeaturesRequested [in]
+### -param pmszFeaturesRequested [in]
 
 Pointer to caller-supplied buffer containing a list of feature keywords (in MULTI_SZ format) whose settings are requested. Set this parameter to <b>NULL</b> to obtain settings for all features.
 
 
-#### - cbIn [in]
+### -param cbIn [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeaturesRequested</i>. The size includes the last MULTI_SZ null character.
 
 
-#### - pmszFeatureOptionBuf [out]
+### -param pmszFeatureOptionBuf [out]
 
 Pointer to a caller-supplied buffer that receives a list of feature/option keyword pairs (in MULTI_SZ format) obtained from the driver settings. Each feature/option keyword pair contains the feature keyword name, a null character, the option keyword name, and another null character. The list is terminated by two NULL characters.
 
 
-#### - cbSize [in]
+### -param cbSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureOptionBuf</i>.
 
 
-#### - pcbNeeded [out]
+### -param pcbNeeded [out]
 
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
@@ -198,13 +198,13 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2736b955-1b25-4ded-a75a-19a1c47f61ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, display.dxgiddi_multiplane_overlay_allocation_info, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices]
+ms.keywords: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices], display.dxgiddi_multiplane_overlay_allocation_info, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO {
 
 
 
-#### - PresentAllocation
+### -field PresentAllocation
 
 [in] A handle to the multiplane overlay allocation.
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] The zero-based index into the resource which the handle in the <b>PresentAllocation</b> member specifies. This index indicates the display surface.
 

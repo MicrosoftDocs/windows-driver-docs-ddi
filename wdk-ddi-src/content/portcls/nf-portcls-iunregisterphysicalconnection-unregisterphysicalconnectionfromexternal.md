@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 82d71ee0-13e1-4f7f-ad81-9e1b6e484052
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionFromExternal method, UnregisterPhysicalConnectionFromExternal method [Audio Devices], IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnectionfromexternal, IUnregisterPhysicalConnection, UnregisterPhysicalConnectionFromExternal method [Audio Devices], audmp-routines_24091cfd-dee9-400a-8cb6-f3a4a44ed9c5.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal, UnregisterPhysicalConnectionFromExternal
+ms.keywords: IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionFromExternal method, UnregisterPhysicalConnectionFromExternal, audio.iunregisterphysicalconnection_unregisterphysicalconnectionfromexternal, UnregisterPhysicalConnectionFromExternal method [Audio Devices], IUnregisterPhysicalConnection interface, UnregisterPhysicalConnectionFromExternal method [Audio Devices], IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal, audmp-routines_24091cfd-dee9-400a-8cb6-f3a4a44ed9c5.xml, IUnregisterPhysicalConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,27 +71,27 @@ NTSTATUS UnregisterPhysicalConnectionFromExternal(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-#### - FromString [in]
+### -param FromString [in]
 
 Pointer to a null-terminated Unicode string that contains the name of the external filter that supplies the connection's data source pin.
 
 
-#### - FromPin [in]
+### -param FromPin [in]
 
 Specifies a pin ID. This parameter identifies the data source (output) pin on the external filter that is named by the <i>FromString</i> parameter.
 
 
-#### - ToUnknown [in]
+### -param ToUnknown [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of a port driver object. The port driver object that is associated with <i>ToUnknown</i> is bound to the subdevice that supplies the connection's data sink pin.
 
 
-#### - ToPin [in]
+### -param ToPin [in]
 
 Specifies a pin ID. This parameter identifies the data sink (input) pin on the filter that is associated with the <i>ToUnknown</i> interface.
 
@@ -114,11 +114,11 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 <a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
 
+<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
 
  
 

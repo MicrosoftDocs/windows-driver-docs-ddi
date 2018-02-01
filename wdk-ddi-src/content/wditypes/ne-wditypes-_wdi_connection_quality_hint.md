@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D83AE2BE-1273-48A1-A42C-C2EADA07D9C0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_CONNECTION_QUALITY_HINT enumeration [Device and Driver Installation], netvista.wdi_connection_quality_hint, WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, wditypes/WDI_CONNECTION_QUALITY_LOW_LATENCY, _WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, wditypes/WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, WDI_CONNECTION_QUALITY_LOW_LATENCY, devinst.wfi_connection_quality_hint, wditypes/WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, wditypes/WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, wditypes/WDI_CONNECTION_QUALITY_HINT
+ms.keywords: WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, _WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, WDI_CONNECTION_QUALITY_HINT enumeration [Device and Driver Installation], devinst.wfi_connection_quality_hint, wditypes/WDI_CONNECTION_QUALITY_LOW_LATENCY, WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, wditypes/WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, WDI_CONNECTION_QUALITY_HINT, wditypes/WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, netvista.wdi_connection_quality_hint, wditypes/WDI_CONNECTION_QUALITY_HINT, wditypes/WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, WDI_CONNECTION_QUALITY_LOW_LATENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,12 +71,12 @@ typedef enum _WDI_CONNECTION_QUALITY_HINT {
 
 
 
-#### - WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE
+### -field WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE
 
 This hint indicates that the host has no specific preference for the usage of this port. The port should use power saving mechanisms when possible, as well as when other ports require a larger share of bandwidth/radio time. It can be enabled simultaneously on more than one port. This is the default Connection Quality setting for a port.
 
 
-#### - WDI_CONNECTION_QUALITY_LOW_LATENCY
+### -field WDI_CONNECTION_QUALITY_LOW_LATENCY
 
 This hint indicates that the host wants to use this port for low latency operations. The adapter should provide service to this port at a regular interval.
 The WLAN schedule should be so that one way latency is no more than 30ms and packet loss &lt;=0.5% and no more than 3 consecutive packets are lost.
@@ -84,7 +84,7 @@ This can be set simultaneously on two ports. If the ports are on different chann
 When in this mode, the port can (optionally) use power saving as long as it can meet the above latency requirements.
 
 
-#### - WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT
+### -field WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT
 
 Reserved.
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0088f5f6-eb68-4081-8cca-3d34fd10593a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemenablepdev, print_obsoletefunctions_f6d0b164-0458-442f-ac6a-791592883196.xml, OEMEnablePDEV, OEMEnablePDEV function [Print Devices], printoem/OEMEnablePDEV
+ms.keywords: print.oemenablepdev, OEMEnablePDEV, printoem/OEMEnablePDEV, print_obsoletefunctions_f6d0b164-0458-442f-ac6a-791592883196.xml, OEMEnablePDEV function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,38 +75,38 @@ PDEVOEM APIENTRY OEMEnablePDEV(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 
 
-#### - pPrinterName [in]
+### -param pPrinterName [in]
 
 
 
-#### - cPatterns
+### -param cPatterns
 
 
 
-#### - phsurfPatterns [in]
+### -param phsurfPatterns [in]
 
 
 
-#### - cjGdiInfo
+### -param cjGdiInfo
 
 
 
-#### - pGdiInfo [in, out]
+### -param pGdiInfo [in, out]
 
 
 
-#### - cjDevInfo
+### -param cjDevInfo
 
 
 
-#### - pDevInfo [in, out]
+### -param pDevInfo [in, out]
 
 
 
-#### - pded [in]
+### -param pded [in]
 
 

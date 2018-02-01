@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c841d8fb-fa42-4ce5-aedb-c7c13bcc2ba7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], wdm/ClfsCreateMarshallingArea, Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, kernel.clfscreatemarshallingarea
+ms.keywords: ClfsCreateMarshallingArea, wdm/ClfsCreateMarshallingArea, kernel.clfscreatemarshallingarea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,17 +76,17 @@ NTSTATUS ClfsCreateMarshallingArea(
 
 
 
-#### - plfoLog [in]
+### -param plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
-#### - ePoolType [in]
+### -param ePoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> value that specifies the type of memory (paged, non-paged, for example) that the new marshalling area will use for its log I/O blocks.
 
 
-#### - pfnAllocBuffer [in, optional]
+### -param pfnAllocBuffer [in, optional]
 
 Either <b>NULL</b> or a pointer to a caller-supplied function that allocates a log I/O block for the marshalling area. The allocation function has the following prototype:
 <div class="code"><span codelanguage=""><table>
@@ -106,7 +106,7 @@ Either <b>NULL</b> or a pointer to a caller-supplied function that allocates a l
 </table></span></div>The return value of the allocation function is a pointer to the newly allocated log I/O block.
 
 
-#### - pfnFreeBuffer [in, optional]
+### -param pfnFreeBuffer [in, optional]
 
 Either <b>NULL</b> or a pointer to a caller-supplied function that frees a log I/O block that was previously allocated by <i>pfnAllocBuffer</i>. The function has the following prototype:
 <div class="code"><span codelanguage=""><table>
@@ -123,22 +123,22 @@ Either <b>NULL</b> or a pointer to a caller-supplied function that frees a log I
 </tr>
 </table></span></div>
 
-#### - cbMarshallingBuffer [in]
+### -param cbMarshallingBuffer [in]
 
 The size, in bytes, of the individual log I/O blocks that the new marshalling area uses. This must be a multiple of the sector size on the stable storage medium. The sector size is the <i>lpBytesPerSector</i> value returned from <b>GetDiskFreeSpace</b>.
 
 
-#### - cMaxWriteBuffers [in]
+### -param cMaxWriteBuffers [in]
 
 The maximum number of I/O blocks that can be allocated at one time for write operations. This parameter affects the frequency of data flushes. If you do not need to control the frequency of data flushes, set this parameter to INFINITE.
 
 
-#### - cMaxReadBuffers [in]
+### -param cMaxReadBuffers [in]
 
 The maximum number of log I/O blocks that can be allocated at one time for read operations.
 
 
-#### - ppvMarshalContext [out]
+### -param ppvMarshalContext [out]
 
 A pointer to a variable that receives a pointer to an opaque context that represents the new marshalling area.
 
@@ -163,17 +163,17 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
 <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-clfsdeletemarshallingarea.md">ClfsDeleteMarshallingArea</a>
 
-<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
+
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
 
  
 

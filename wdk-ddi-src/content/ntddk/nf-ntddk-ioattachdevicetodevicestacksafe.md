@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bc403fc7-7862-4c4c-8a82-bd5c740b270e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ioattachdevicetodevicestacksafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ntddk/IoAttachDeviceToDeviceStackSafe
+ms.keywords: ntddk/IoAttachDeviceToDeviceStackSafe, ifsk.ioattachdevicetodevicestacksafe, IoAttachDeviceToDeviceStackSafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ NTSTATUS IoAttachDeviceToDeviceStackSafe(
 
 
 
-#### - SourceDevice [in]
+### -param SourceDevice [in]
 
 Pointer to a caller-created device object. 
 
 
-#### - TargetDevice [in]
+### -param TargetDevice [in]
 
 Pointer to the device object in the stack to which the <i>SourceDevice</i> object is to be attached. 
 
 
-#### - AttachedToDeviceObject [out]
+### -param AttachedToDeviceObject [out]
 
 On input, this parameter specifies the address of <i>SourceDevice-&gt;DeviceExtension-&gt;AttachedToDeviceObject</i>, which must contain a <b>NULL</b> pointer. On output, this parameter receives a pointer to the device object to which the <i>SourceDevice</i> was attached. 
 

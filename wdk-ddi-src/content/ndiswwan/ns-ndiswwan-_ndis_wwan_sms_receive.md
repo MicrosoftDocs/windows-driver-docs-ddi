@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2ff53520-5ba0-47dc-816d-6245924356ee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive, PNDIS_WWAN_SMS_RECEIVE, WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SMS_RECEIVE, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE
+ms.keywords: PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_RECEIVE, WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SMS_RECEIVE, *PNDIS_WWAN_SMS_RECEIVE, _NDIS_WWAN_SMS_RECEIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_SMS_RECEIVE {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SMS_RECEIVE structure.
      The MB Service sets the header with the values that are shown in the following table when it sends the
@@ -119,12 +119,12 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of the SMS receive operation.
 
 
-#### - SmsListHeader
+### -field SmsListHeader
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents a
@@ -133,9 +133,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
  
 

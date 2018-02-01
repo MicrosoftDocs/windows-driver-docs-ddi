@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c1be07b7-ebce-422f-83f2-890adc71655b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MPIO_REGISTERED_DSM structure [Storage Devices], mpiowmi/PMPIO_REGISTERED_DSM, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml, _MPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM structure pointer [Storage Devices], mpiowmi/MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM, storage.mpio_registered_dsm
+ms.keywords: mpiowmi/PMPIO_REGISTERED_DSM, mpiowmi/MPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml, PMPIO_REGISTERED_DSM structure pointer [Storage Devices], storage.mpio_registered_dsm, _MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _MPIO_REGISTERED_DSM {
 
 
 
-#### - NumberDSMs
+### -field NumberDSMs
 
 An unsigned 32-bitfield that specifies the number of DSMs that are registered in the system.
 
 
-#### - DsmParameters
+### -field DsmParameters
 
 An array that returns information about each of the registered DSMs. The number of elements in the array is given by <i>NumberDSMs</i> and each element is an instance of the DSM_PARAMETERS structure.
 

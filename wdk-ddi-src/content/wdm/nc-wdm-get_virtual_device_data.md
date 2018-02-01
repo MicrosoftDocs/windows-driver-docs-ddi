@@ -75,27 +75,27 @@ ULONG GetVirtualFunctionData(
 
 
 
-#### - Context [in, out]
+### -param Context [in, out]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-#### - VirtualFunction [in]
+### -param VirtualFunction [in]
 
 A zero-based value that specifies the VF on the device from which data is to be read.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to the buffer that contains the configuration information read from the PCIe configuration space of the VF.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 The offset into the PCIe configuration space data of the VF. This member specifies where this read operation begins.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length, in bytes, of the data to be read. 
 
@@ -119,13 +119,13 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
+<a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
-<a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
 
 <b></b>
 

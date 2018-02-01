@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeFormatRequestForUrb method, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB, kmdf.wdfusbtargetpipeformatrequestforurb, WdfUsbTargetPipeFormatRequestForUrb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, wdf.wdfusbtargetpipeformatrequestforurb
+ms.keywords: WdfUsbTargetPipeFormatRequestForUrb, kmdf.wdfusbtargetpipeformatrequestforurb, WdfUsbTargetPipeFormatRequestForUrb method, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, wdf.wdfusbtargetpipeformatrequestforurb, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,19 +79,19 @@ NTSTATUS WdfUsbTargetPipeFormatRequestForUrb(
 TBD
 
 
-#### - Request [in]
+### -param Request [in]
 
 A handle to a framework request object. For more information, see the following Remarks section.
 
 
-#### - UrbMemory [in]
+### -param UrbMemory [in]
 
 A handle to a framework memory object that contains a <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
 If the driver previously called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a> to create <i>UsbDevice</i>, the driver must use <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a> or <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateisochurb.md">WdfUsbTargetDeviceCreateIsochUrb</a> to create the URB contained in this memory object. 
 
 
-#### - UrbMemoryOffset [in, optional]
+### -param UrbMemoryOffset [in, optional]
 
 A pointer to a caller-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address of the URB within the memory that <i>UrbMemory</i> specifies. If this pointer is <b>NULL</b>, the URB is located at the beginning of the <i>UrbMemory</i> memory. 
 
@@ -189,19 +189,19 @@ For more information about the <b>WdfUsbTargetPipeFormatRequestForUrb</b> method
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
  
 

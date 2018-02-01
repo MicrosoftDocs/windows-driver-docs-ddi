@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: a911fab9-516f-4ac5-ae33-1b6e218f9349
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpiioct/ACPI_EVAL_INPUT_BUFFER_V1, PACPI_EVAL_INPUT_BUFFER_V1 structure pointer [ACPI Devices], acpi-meth-eval-ref_fda162bd-f908-46bf-a5a9-66daeb6b6aaf.xml, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1, _ACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER, *PACPI_EVAL_INPUT_BUFFER, acpi.acpi_eval_input_buffer, ACPI_EVAL_INPUT_BUFFER_V1 structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER_V1, PACPI_EVAL_INPUT_BUFFER_V1
+ms.keywords: acpiioct/ACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1, acpi.acpi_eval_input_buffer, acpi-meth-eval-ref_fda162bd-f908-46bf-a5a9-66daeb6b6aaf.xml, *PACPI_EVAL_INPUT_BUFFER_V1, PACPI_EVAL_INPUT_BUFFER_V1, *PACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1 structure [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1, PACPI_EVAL_INPUT_BUFFER_V1 structure pointer [ACPI Devices], acpiioct/PACPI_EVAL_INPUT_BUFFER_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,18 +71,8 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_V1 {
 
 
 
-#### - DUMMYUNIONNAME
+### -field DUMMYUNIONNAME
 
-
-
-#### MethodName
-
-A four-element ASCII character array that contains the name of a control method, for example, 'ABCD.' 
-
-
-#### MethodNameAsUlong
-
-A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.' 
 
 
 ### -field DUMMYUNIONNAME.MethodName
@@ -95,7 +85,7 @@ A four-element ASCII character array that contains the name of a control method,
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.' 
 
 
-#### - Signature
+### -field Signature
 
 The signature of an input buffer that does not include an argument, which must be set to ACPI_EVAL_INPUT_BUFFER_SIGNATURE.
 
@@ -119,9 +109,9 @@ Set <b>MethodName</b> to 'ABCD' or <b>MethodNameAsUlong</b> to (ULONG)('DCBA').
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
 
  
 

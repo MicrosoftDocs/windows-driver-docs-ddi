@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, IDebugSymbols interface [Windows Debugging], GetNumberModules method, dbgeng/IDebugSymbols::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetNumberModules, debugger.getnumbermodules, GetNumberModules method [Windows Debugging], GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, IDebugSymbols3, GetNumberModules, IDebugSymbols2::GetNumberModules
+ms.keywords: IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::GetNumberModules, IDebugSymbols interface [Windows Debugging], GetNumberModules method, debugger.getnumbermodules, IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], dbgeng/IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, GetNumberModules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT GetNumberModules(
 
 
 
-#### - Loaded [out]
+### -param Loaded [out]
 
 Receives the number of loaded modules in the current process's module list.
 
 
-#### - Unloaded [out]
+### -param Unloaded [out]
 
 Receives the number of unloaded modules in the current process's module list. This number will be zero if the version of Microsoft Windows running on the target computer does not track unloaded modules.
 

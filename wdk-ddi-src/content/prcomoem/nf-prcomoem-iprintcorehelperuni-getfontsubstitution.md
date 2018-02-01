@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f11b3b85-d01b-4133-9279-bff0001e04f9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFontSubstitution, print.iprintcorehelperuni_getfontsubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml, GetFontSubstitution method [Print Devices], prcomoem/IPrintCoreHelperUni::GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni, IPrintCoreHelperUni::GetFontSubstitution, IPrintCoreHelperUni interface [Print Devices], GetFontSubstitution method
+ms.keywords: IPrintCoreHelperUni::GetFontSubstitution, prcomoem/IPrintCoreHelperUni::GetFontSubstitution, GetFontSubstitution method [Print Devices], print.iprintcorehelperuni_getfontsubstitution, IPrintCoreHelperUni interface [Print Devices], GetFontSubstitution method, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml, GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ STDMETHOD GetFontSubstitution(
 
 
 
-#### - pszTrueTypeFontName [in]
+### -param pszTrueTypeFontName [in]
 
 A pointer to a null-terminated Unicode string that contains the name of a TrueType font. 
 
 
-#### - ppszDevFontName [out]
+### -param ppszDevFontName [out]
 
 A pointer to a variable that receives the address of a null-terminated Unicode string. This string contains the name of the device font that will be used in place of the TrueType font specified in the <i>pszFontName</i> parameter. If there is no device font that can serve as a substitute for the specified TrueType font, this parameter will be set to <b>NULL</b>.
 

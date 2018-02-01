@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0ffd4759-cabe-4efe-a725-5b8ff26fda77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMTransparentBlt, print.oemtransparentblt, printoem/OEMTransparentBlt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, OEMTransparentBlt function [Print Devices]
+ms.keywords: printoem/OEMTransparentBlt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, OEMTransparentBlt function [Print Devices], print.oemtransparentblt, OEMTransparentBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,34 +75,34 @@ BOOL APIENTRY OEMTransparentBlt(
 
 
 
-#### - psoDst
+### -param psoDst
 
 
 
-#### - psoSrc
+### -param psoSrc
 
 
 
-#### - pco
+### -param pco
 
 
 
-#### - pxlo
+### -param pxlo
 
 
 
-#### - prclDst
+### -param prclDst
 
 
 
-#### - prclSrc
+### -param prclSrc
 
 
 
-#### - iTransColor
+### -param iTransColor
 
 
 
-#### - ulReserved
+### -param ulReserved
 
 

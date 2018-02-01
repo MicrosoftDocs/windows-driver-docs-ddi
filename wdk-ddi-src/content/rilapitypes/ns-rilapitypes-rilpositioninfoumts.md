@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts, RILPOSITIONINFOUMTS, rilapitypes/RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
+ms.keywords: netvista.rilpositioninfoumts, *LPRILPOSITIONINFOUMTS, rilapitypes/RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFOUMTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,67 +80,67 @@ struct RILPOSITIONINFOUMTS {
 
 
 
-#### - dwParams
+### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfoumtsparammask.md">RILPOSITIONINFOUMTSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
-#### - dwMobileCountryCode
+### -field dwMobileCountryCode
 
 Mobile country code (0...999).
 
 
-#### - dwMobileNetworkCode
+### -field dwMobileNetworkCode
 
 Mobile Network Code (0...999).
 
 
-#### - dwLocationAreaCode
+### -field dwLocationAreaCode
 
 Location Area Code (0...65535).
 
 
-#### - dwCellID
+### -field dwCellID
 
 Cell ID (0...268435455)).
 
 
-#### - dwFrequencyInfoUL
+### -field dwFrequencyInfoUL
 
 Channel number for serving cell (0...16383).
 
 
-#### - dwFrequencyInfoDL
+### -field dwFrequencyInfoDL
 
 Frequency Info Downlink (0...16383)
 
 
-#### - dwFrequencyInfoNT
+### -field dwFrequencyInfoNT
 
 Frequency Info for TDD (0...16383)
 
 
-#### - dwUARFCN
+### -field dwUARFCN
 
 UTRA Absolute Radio Frequency Channel Number for serving cell (0...16383)
 
 
-#### - dwPrimaryScramblingCode
+### -field dwPrimaryScramblingCode
 
 Primary scrambling code of serving cell (0...511)
 
 
-#### - dwRSCP
+### -field dwRSCP
 
 Received signal code power of serving cell. Range (-1200 ... -250) in units of .1dBm, i.e., -250 represents -25dBm.
 
 
-#### - dwECNO
+### -field dwECNO
 
 Signal to noise ratio of serving cell; the ratio of the received energy per PN chip for the CPICH to the total received power spectral density at the antenna. Range (-500…0) in units of 0.1dBm.
 
 
-#### - dwPathLoss
+### -field dwPathLoss
 
 Path loss of serving cell (46...173)
 

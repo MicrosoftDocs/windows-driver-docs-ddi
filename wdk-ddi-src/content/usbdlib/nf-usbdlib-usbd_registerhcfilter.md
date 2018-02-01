@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2cc24024-75ec-45ba-867c-efc8e7da7587
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml, buses.usbd_registerhcfilter, USBD_RegisterHcFilter routine [Buses], usbdlib/USBD_RegisterHcFilter, USBD_RegisterHcFilter
+ms.keywords: usbdlib/USBD_RegisterHcFilter, USBD_RegisterHcFilter routine [Buses], usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml, buses.usbd_registerhcfilter, USBD_RegisterHcFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ VOID USBD_RegisterHcFilter(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the device object that is the current top of the stack as reported by <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>.
 
 
-#### - FilterDeviceObject [in]
+### -param FilterDeviceObject [in]
 
 Pointer to the filter device object created by the filter driver for its operations.
 
@@ -98,9 +98,9 @@ USB bus filter drivers must call this routine after attaching their device objec
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
  
 

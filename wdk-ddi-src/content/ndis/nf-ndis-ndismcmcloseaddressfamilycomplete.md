@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: be551557-06db-4fc9-bdcb-030e621e205a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, ndis/NdisMCmCloseAddressFamilyComplete, netvista.ndismcmcloseaddressfamilycomplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], NdisMCmCloseAddressFamilyComplete
+ms.keywords: ndis/NdisMCmCloseAddressFamilyComplete, condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], netvista.ndismcmcloseaddressfamilycomplete, NdisMCmCloseAddressFamilyComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -81,16 +81,16 @@ TBD
 
 
 
-#### - Status [in]
-
-The caller sets this to NDIS_STATUS_SUCCESS.
-
-
 #### - NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle passed to the MCM driver's 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function when this
      client originally opened the address family.
+
+
+#### - Status [in]
+
+The caller sets this to NDIS_STATUS_SUCCESS.
 
 
 ## -remarks
@@ -107,8 +107,8 @@ An MCM driver must call
 
 A call to 
     <b>NdisMCmCloseAddressFamilyComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclcloseafcomplete" tabindex="0"><i>
-    ProtocolClCloseAfComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">
+    ProtocolClCloseAfComplete</a> function.
 
 The MCM driver cannot subsequently use the 
     <i>NdisAfHandle</i>, which is invalid for the MCM driver when 
@@ -123,16 +123,16 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscmcloseaddressfamilycomplete" tabindex="0"><b>
-   NdisCmCloseAddressFamilyComplete</b></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+   NdisCmCloseAddressFamilyComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31db285c-a7e7-4ba5-ba07-a60cfcfa9af9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisMacHeaderFieldVlanId, NDIS_MAC_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisMacHeaderFieldSourceAddress, virtual_machine_queue_ref_e521f802-ada1-444a-bf43-63405f40e45a.xml, NdisMacHeaderFieldUndefined, ntddndis/PNDIS_MAC_HEADER_FIELD, netvista.ndis_mac_header_field, NdisMacHeaderFieldPriority, ntddndis/NdisMacHeaderFieldDestinationAddress, ntddndis/NdisMacHeaderFieldPriority, ntddndis/NdisMacHeaderFieldProtocol, ntddndis/NdisMacHeaderFieldSourceAddress, NdisMacHeaderFieldPacketType, ntddndis/NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldMaximum, _NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldUndefined, NdisMacHeaderFieldVlanId, *PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldDestinationAddress, NdisMacHeaderFieldProtocol, PNDIS_MAC_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisMacHeaderFieldPacketType, PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldMaximum, NDIS_MAC_HEADER_FIELD
+ms.keywords: NdisMacHeaderFieldProtocol, NdisMacHeaderFieldUndefined, NdisMacHeaderFieldSourceAddress, ntddndis/NdisMacHeaderFieldProtocol, ntddndis/NdisMacHeaderFieldPriority, *PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldPriority, ntddndis/NdisMacHeaderFieldDestinationAddress, _NDIS_MAC_HEADER_FIELD, PNDIS_MAC_HEADER_FIELD, PNDIS_MAC_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldMaximum, ntddndis/NdisMacHeaderFieldSourceAddress, virtual_machine_queue_ref_e521f802-ada1-444a-bf43-63405f40e45a.xml, ntddndis/PNDIS_MAC_HEADER_FIELD, NDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldVlanId, NdisMacHeaderFieldVlanId, ntddndis/NdisMacHeaderFieldPacketType, NdisMacHeaderFieldDestinationAddress, NdisMacHeaderFieldMaximum, ntddndis/NdisMacHeaderFieldUndefined, NdisMacHeaderFieldPacketType, netvista.ndis_mac_header_field, NDIS_MAC_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,46 +74,46 @@ typedef enum _NDIS_MAC_HEADER_FIELD {
 
 
 
-#### - NdisMacHeaderFieldUndefined
+### -field NdisMacHeaderFieldUndefined
 
 An undefined MAC header field.
 
 
-#### - NdisMacHeaderFieldDestinationAddress
+### -field NdisMacHeaderFieldDestinationAddress
 
 A destination address field.
 
 
-#### - NdisMacHeaderFieldSourceAddress
+### -field NdisMacHeaderFieldSourceAddress
 
 A source address field.
 
 
-#### - NdisMacHeaderFieldProtocol
+### -field NdisMacHeaderFieldProtocol
 
 A protocol field in the DEC/Intel/Xerox (DIX) Ethernet
 
 MAC header.
 
 
-#### - NdisMacHeaderFieldVlanId
+### -field NdisMacHeaderFieldVlanId
 
 A virtual local area network (VLAN) identifier field.
 
 
-#### - NdisMacHeaderFieldPriority
+### -field NdisMacHeaderFieldPriority
 
 A VLAN priority field.
 
 
-#### - NdisMacHeaderFieldPacketType
+### -field NdisMacHeaderFieldPacketType
 
 A packet type field in the IEEE 802.2 subnetwork access protocol (SNAP) header of an 802.3
 
 MAC header.
 
 
-#### - NdisMacHeaderFieldMaximum
+### -field NdisMacHeaderFieldMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
@@ -123,15 +123,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_MAC_HEADER_FIELD enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18812c18-ec5e-4e8e-9ecf-c3c2a58ca8a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReadRegisterUlong, miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, netvista.ndisreadregisterulong, ndis/NdisReadRegisterUlong, NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista], NdisReadRegisterUlong, miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, netvista.ndisreadregisterulong, ndis/NdisReadRegisterUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -69,14 +69,14 @@ VOID NdisReadRegisterUlong(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
      an initialization-time call to 
      <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>.
 
 
-#### - Data [out]
+### -param Data [out]
 
 Pointer to the caller-supplied variable in which this function returns the ULONG read from 
      <i>Register</i> .
@@ -92,15 +92,15 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
 
 <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
-<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
+<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
+
+<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
 
  
 

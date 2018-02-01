@@ -76,16 +76,16 @@ DWORD APIENTRY Dot11ExtIhvInitService(
 
 
 
-#### - dwVerNumUsed [in]
+### -param dwVerNumUsed [in]
 
 The interface version used by the operating system. The value of this parameter must be between
      the ranges of version numbers returned in the 
      <i>pDot11IHVVersionInfo</i> parameter of the 
-     <mshelp:link keywords="netvista.dot11extihvgetversioninfo" tabindex="0"><i>
-     Dot11ExtIhvGetVersionInfo</i></mshelp:link> IHV Handler function.
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">
+     Dot11ExtIhvGetVersionInfo</a> IHV Handler function.
 
 
-#### - pDot11ExtAPI [in]
+### -param pDot11ExtAPI [in]
 
 A pointer to a 
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a> structure, which contains the
@@ -94,12 +94,12 @@ A pointer to a
      <i>Dot11ExtIhvInitService</i> function.
 
 
-#### - pvReserved
+### -param pvReserved
 
 This parameter is reserved for use by the operating system.
 
 
-#### - pDot11IHVHandlers [out]
+### -param pDot11IHVHandlers [out]
 
 A pointer to a 
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a> structure,
@@ -122,8 +122,8 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 The operating system calls the 
     <i>Dot11ExtIhvInitService</i> function immediately after the call to the 
-    <mshelp:link keywords="netvista.dot11extihvgetversioninfo" tabindex="0"><i>
-    Dot11ExtIhvGetVersionInfo</i></mshelp:link> function. When called, 
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">
+    Dot11ExtIhvGetVersionInfo</a> function. When called, 
     <i>Dot11ExtIhvInitService</i> must initialize the IHV Extensions DLL as necessary. When the function
     returns, the DLL must be prepared to accept additional calls to the IHV Handler function.
 
@@ -155,9 +155,9 @@ The
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a>
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
 
  
 

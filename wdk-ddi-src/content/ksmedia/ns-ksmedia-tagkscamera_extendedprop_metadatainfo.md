@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6AE59150-8A10-43B6-B910-AEBEDC2FD272
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO, tagKSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, stream.kscamera_extendedprop_metadatainfo, KSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_METADATAINFO
+ms.keywords: ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, tagKSCAMERA_EXTENDEDPROP_METADATAINFO, *PKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], stream.kscamera_extendedprop_metadatainfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_METADATAINFO {
 
 
 
-#### - BufferAlignment
+### -field BufferAlignment
 
 The required alignment for the metadata buffer.
 
@@ -116,7 +116,7 @@ KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192
 </li>
 </ul>
 
-#### - MaxMetadataBufferSize
+### -field MaxMetadataBufferSize
 
 The size of the metadata buffer.
 

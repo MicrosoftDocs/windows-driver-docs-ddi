@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYSEGMENTOUT structure [Display Devices], display.dxgk_querysegmentout, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT, DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml
+ms.keywords: DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT structure [Display Devices], display.dxgk_querysegmentout, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct _DXGK_QUERYSEGMENTOUT {
 
 
 
-#### - NbSegment
+### -field NbSegment
 
 [out] The number of memory segments that the driver supports.
 
 
-#### - pSegmentDescriptor
+### -field pSegmentDescriptor
 
 [out] An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a> structures that the driver populates with information about the segments it supports. The size of the array is the value that <b>NbSegment</b> specifies.
 
 
-#### - PagingBufferSegmentId
+### -field PagingBufferSegmentId
 
 [out] The identifier of the segment that the video memory manager should allocate the paging buffer from. This segment must be an aperture segment.
 
 
-#### - PagingBufferSize
+### -field PagingBufferSize
 
 [out] The size, in bytes, that the video memory manager should allocate for the paging buffer.
 
 
-#### - PagingBufferPrivateDataSize
+### -field PagingBufferPrivateDataSize
 
 [out] The size, in bytes, of the driver-resident private data structure that is associated with each paging buffer. Memory for this private data structure is allocated from nonpaged pool. If the driver specifies zero for <b>PagingBufferPrivateDataSize</b>, no memory is allocated for the private data structure.
 

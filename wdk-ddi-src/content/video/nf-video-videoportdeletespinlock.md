@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74845e4d-0fa1-4625-96a7-2fddec8b901d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDeleteSpinLock, VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, VideoPortDeleteSpinLock function [Display Devices], display.videoportdeletespinlock, video/VideoPortDeleteSpinLock
+ms.keywords: video/VideoPortDeleteSpinLock, VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, VideoPortDeleteSpinLock function [Display Devices], display.videoportdeletespinlock, VideoPortDeleteSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VP_STATUS VideoPortDeleteSpinLock(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
 
 
-#### - SpinLock [in]
+### -param SpinLock [in]
 
 Pointer to the spin lock to delete.
 

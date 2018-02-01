@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 57c94f04-82e2-4790-b198-d415e494d70b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml, whea.wheafinderrorrecordsection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], WheaFindErrorRecordSection, ntddk/WheaFindErrorRecordSection
+ms.keywords: whea.wheafinderrorrecordsection, whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml, WheaFindErrorRecordSection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindErrorRecordSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,24 +70,24 @@ NTSTATUS WheaFindErrorRecordSection(
 
 
 
-#### - Record [in]
+### -param Record [in]
 
 A pointer to a WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a> that is formatted as a <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure.
 
 
-#### - SectionType [in]
+### -param SectionType [in]
 
 A GUID that specifies the <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure to be located within the specified WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>.
 
 
-#### - SectionDescriptor [out]
+### -param SectionDescriptor [out]
 
 The address of a <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> pointer. 
 
 If the <b>WheaFindErrorRecordSection</b> function locates the specified WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure, the function sets the <i>SectionDescriptor </i>parameter to the address of that structure within the specified WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>.
 
 
-#### - SectionData [out, optional]
+### -param SectionData [out, optional]
 
 The address of a PVOID pointer.
 
@@ -153,11 +153,11 @@ The format of the hardware error data is dependent upon the <b>SectionType </b>m
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
  
 

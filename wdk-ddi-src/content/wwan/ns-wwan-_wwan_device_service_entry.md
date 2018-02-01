@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26B26715-0C1E-4FF1-B3FA-B6952BF70572
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_DEVICE_SERVICE_ENTRY, PWWAN_DEVICE_SERVICE_ENTRY, netvista.wwan_device_service_entry, wwan/PWWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_ENTRY, *PWWAN_DEVICE_SERVICE_ENTRY, PWWAN_DEVICE_SERVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_DEVICE_SERVICE_ENTRY structure [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_ENTRY, wwan/PWWAN_DEVICE_SERVICE_ENTRY, _WWAN_DEVICE_SERVICE_ENTRY, *PWWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY, netvista.wwan_device_service_entry, PWWAN_DEVICE_SERVICE_ENTRY, PWWAN_DEVICE_SERVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _WWAN_DEVICE_SERVICE_ENTRY {
 
 
 
-#### - DeviceServiceGuid
+### -field DeviceServiceGuid
 
 The GUID of the device service. This GUID is used to identify the device service in any of the other device OIDs/indications.
 
 
-#### - SessionCapability
+### -field SessionCapability
 
 Flags indicating the capabilities of a device service session.
 
 
-#### - uMaxSessionInstances
+### -field uMaxSessionInstances
 
 The maximum number of sessions supported by the device service.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 47d0330e-5413-4729-b103-c1a4d6c648e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_5498c651-0ef6-4114-9821-de193980f879.xml, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, display.d3dkmt_waitforsynchronizationobject, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT"
+ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dkmt_waitforsynchronizationobject, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, OpenGL_Structs_5498c651-0ef6-4114-9821-de193980f879.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT {
 
 
 
-#### - hContext
+### -field hContext
 
 [in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
 
 
-#### - ObjectCount
+### -field ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array. 
 
 
-#### - ObjectHandleArray
+### -field ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for. The D3DDDI_MAX_OBJECT_WAITED_ON constant, which is defined as 32, indicates the maximum number of synchronization events that the context can wait for.
 

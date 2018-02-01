@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 199a3003-a7dd-48a3-aa76-550332be26f3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PPREFETCH_OPEN_ECP_CONTEXT, ECP_Structures_bd946e05-ef42-4fcc-93f8-bf96b6440817.xml, PREFETCH_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ifsk.prefetch_open_ecp_context, PREFETCH_OPEN_ECP_CONTEXT, _PREFETCH_OPEN_ECP_CONTEXT, PPREFETCH_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ntifs/PPREFETCH_OPEN_ECP_CONTEXT, ntifs/PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT
+ms.keywords: ntifs/PPREFETCH_OPEN_ECP_CONTEXT, ntifs/PREFETCH_OPEN_ECP_CONTEXT, PPREFETCH_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _PREFETCH_OPEN_ECP_CONTEXT, ifsk.prefetch_open_ecp_context, ECP_Structures_bd946e05-ef42-4fcc-93f8-bf96b6440817.xml, PREFETCH_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PPREFETCH_OPEN_ECP_CONTEXT, PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _PREFETCH_OPEN_ECP_CONTEXT {
 
 
 
-#### - Context
+### -field Context
 
 A pointer to an opaque context that is associated with the open request. 
 

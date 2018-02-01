@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a29f2ff6-1c15-4313-b3a5-73fb8d40d2d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCFILES structure [Network Drivers Starting with Windows Vista], RILUICCFILES, ntddrilapitypes/RILUICCFILES, *LPRILUICCFILES, netvista.riluiccfiles
+ms.keywords: ntddrilapitypes/RILUICCFILES, *LPRILUICCFILES, RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], netvista.riluiccfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,14 +69,14 @@ typedef struct _RILUICCFILES {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwNumFiles
+### -field dwNumFiles
 
 
 
-#### - filePath
+### -field filePath
 
 

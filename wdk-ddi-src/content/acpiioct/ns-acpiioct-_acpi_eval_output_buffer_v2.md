@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 355A600E-F207-4A3F-80AE-EA2DAE810DA3
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, *PACPI_EVAL_OUTPUT_BUFFER_V2, _ACPI_EVAL_OUTPUT_BUFFER_V2, acpi.acpi_eval_output_buffer_v2
+ms.keywords: ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], acpi.acpi_eval_output_buffer_v2, ACPI_EVAL_OUTPUT_BUFFER_V2, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2, _ACPI_EVAL_OUTPUT_BUFFER_V2, *PACPI_EVAL_OUTPUT_BUFFER_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,17 +70,17 @@ typedef struct _ACPI_EVAL_OUTPUT_BUFFER_V2 {
 
 
 
-#### - Signature
+### -field Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 
 
-#### - Length
+### -field Length
 
 Defines the <b>ULONG</b> member <b>Length</b>.
 
 
-#### - Count
+### -field Count
 
 Defines the <b>ULONG</b> member <b>Count</b>.
 

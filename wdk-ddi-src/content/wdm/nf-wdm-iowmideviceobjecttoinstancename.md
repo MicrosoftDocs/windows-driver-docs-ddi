@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 18692c0d-8b74-495d-b66a-2873837ff797
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, IoWMIDeviceObjectToInstanceName, wdm/IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], kernel.iowmideviceobjecttoinstancename
+ms.keywords: wdm/IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName, kernel.iowmideviceobjecttoinstancename, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], k104_9341dc2b-c948-44bd-891d-a530a8676259.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ NTSTATUS IoWMIDeviceObjectToInstanceName(
 
 
 
-#### - DataBlockObject [in]
+### -param DataBlockObject [in]
 
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>.
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Specifies a device object. The routine returns the instance name for the driver corresponding to the device object.
 
 
-#### - InstanceName [out]
+### -param InstanceName [out]
 
 Pointer to the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the routine uses to return the instance name. The caller frees the returned buffer within <b>UNICODE_STRING</b>.
 
@@ -122,11 +122,11 @@ The driver does not implement any instances of the WMI class specified by <i>Dat
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-iowmihandletoinstancename.md">IoWMIHandleToInstanceName</a>
+
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
  
 

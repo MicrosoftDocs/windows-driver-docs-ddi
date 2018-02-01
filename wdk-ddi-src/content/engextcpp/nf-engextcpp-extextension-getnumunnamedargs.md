@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc3ea1ba-136b-4257-9aa2-ca9649555869
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs, ExtExtension::GetNumUnnamedArgs, ExtExtension class [Windows Debugging], GetNumUnnamedArgs method, EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, debugger.getnumunnamedargs, GetNumUnnamedArgs method [Windows Debugging], ExtExtension class
+ms.keywords: debugger.getnumunnamedargs, GetNumUnnamedArgs method [Windows Debugging], ExtExtension class, ExtExtension, ExtExtension::GetNumUnnamedArgs, EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, ExtExtension class [Windows Debugging], GetNumUnnamedArgs method, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

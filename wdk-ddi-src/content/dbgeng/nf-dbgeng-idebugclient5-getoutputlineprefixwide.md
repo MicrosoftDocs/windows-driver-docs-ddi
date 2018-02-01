@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 145A478E-826B-4E82-B358-6140D3A4063F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient5_getoutputlineprefixwide, dbgeng/IDebugClient5::GetOutputLinePrefixWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetOutputLinePrefixWide method, IDebugClient5::GetOutputLinePrefixWide, GetOutputLinePrefixWide method [Windows Debugging], GetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, GetOutputLinePrefixWide
+ms.keywords: IDebugClient5::GetOutputLinePrefixWide, debugger.idebugclient5_getoutputlineprefixwide, GetOutputLinePrefixWide method [Windows Debugging], GetOutputLinePrefixWide, dbgeng/IDebugClient5::GetOutputLinePrefixWide, IDebugClient5 interface [Windows Debugging], GetOutputLinePrefixWide method, GetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetOutputLinePrefixWide(
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 The pointer to the buffer of the prefix.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The length of the buffer.
 
 
-#### - PrefixSize [out, optional]
+### -param PrefixSize [out, optional]
 
 A pointer to the length of the prefix.
 

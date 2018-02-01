@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d81bdeeb-07de-483d-9803-3577f1076e28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEGETNUMINTERFACES, DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml, wdf.wdfusbtargetdevicegetnuminterfaces, WdfUsbTargetDeviceGetNumInterfaces, kmdf.wdfusbtargetdevicegetnuminterfaces, WdfUsbTargetDeviceGetNumInterfaces method, wdfusb/WdfUsbTargetDeviceGetNumInterfaces
+ms.keywords: DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml, kmdf.wdfusbtargetdevicegetnuminterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, WdfUsbTargetDeviceGetNumInterfaces method, wdfusb/WdfUsbTargetDeviceGetNumInterfaces, PFN_WDFUSBTARGETDEVICEGETNUMINTERFACES, WdfUsbTargetDeviceGetNumInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ UCHAR WdfUsbTargetDeviceGetNumInterfaces(
 
 
 
-#### - UsbDevice [in]
+### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 

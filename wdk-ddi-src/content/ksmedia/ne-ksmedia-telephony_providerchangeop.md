@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A229E8D5-2776-453B-B0F9-BC48E9D29A2F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TELEPHONY_PROVIDERCHANGEOP, ksmedia/TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_END, ksmedia/TELEPHONY_PROVIDERCHANGEOP_CANCEL, TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP enumeration [Audio Devices], TELEPHONY_PROVIDERCHANGEOP_CANCEL, audio.telephony_providerchangeop, ksmedia/TELEPHONY_PROVIDERCHANGEOP_END, ksmedia/TELEPHONY_PROVIDERCHANGEOP
+ms.keywords: ksmedia/TELEPHONY_PROVIDERCHANGEOP_CANCEL, TELEPHONY_PROVIDERCHANGEOP_END, audio.telephony_providerchangeop, ksmedia/TELEPHONY_PROVIDERCHANGEOP, TELEPHONY_PROVIDERCHANGEOP enumeration [Audio Devices], TELEPHONY_PROVIDERCHANGEOP_CANCEL, ksmedia/TELEPHONY_PROVIDERCHANGEOP_END, TELEPHONY_PROVIDERCHANGEOP, TELEPHONY_PROVIDERCHANGEOP_BEGIN, ksmedia/TELEPHONY_PROVIDERCHANGEOP_BEGIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,26 +69,26 @@ typedef enum  {
 
 
 
-#### - TELEPHONY_PROVIDERCHANGEOP_END
+### -field TELEPHONY_PROVIDERCHANGEOP_END
 
 Specifies that the provider change operation has ended. The audio driver will update the call state to <b>TELEPHONY_CALLSTATE_ENABLED</b> in response to this value.
 
 
-#### - TELEPHONY_PROVIDERCHANGEOP_BEGIN
+### -field TELEPHONY_PROVIDERCHANGEOP_BEGIN
 
 Specifies that the provider change operation has begun. The audio driver will update the call state to <b>TELEPHONY_CALLSTATE_PROVIDERTRANSITION</b> in response to this value.
 
 
-#### - TELEPHONY_PROVIDERCHANGEOP_CANCEL
+### -field TELEPHONY_PROVIDERCHANGEOP_CANCEL
 
 Specifies that single-radio voice call continuity (SRVCC) is being canceled, and that the audio driver should revert back to the pre-SRVCC state. The audio driver will update the provider call state to TELEPHONY_CALLSTATE_ENABLED in response to this value.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt169876">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
-
 <a href="..\ksmedia\ne-ksmedia-telephony_callstate.md">TELEPHONY_CALLSTATE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt169876">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
 
  
 

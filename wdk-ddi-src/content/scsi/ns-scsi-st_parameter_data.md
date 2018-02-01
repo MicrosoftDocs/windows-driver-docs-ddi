@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, scsi/PST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], PST_PARAMETER_DATA structure pointer [Storage Devices], scsi/ST_PARAMETER_DATA, storage.st_parameter_data, ST_PARAMETER_DATA"
+ms.keywords: ST_PARAMETER_DATA structure [Storage Devices], PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], scsi/PST_PARAMETER_DATA, storage.st_parameter_data, ST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, *PST_PARAMETER_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,25 +72,25 @@ typedef struct _ST_PARAMETER_DATA {
 
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for future use.
 
 
-#### - Timestamp
+### -field Timestamp
 
 Specifies the value to which a device clock shall be initialized. The timestamp
 should be the number of milliseconds that have elapsed since midnight, 1 January 1970 UT.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved for future use.
 
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-rt_parameter_data.md">RT_PARAMETER_DATA</a>
+<a href="..\storport\ns-storport-rt_parameter_data.md">RT_PARAMETER_DATA</a>
 
  
 

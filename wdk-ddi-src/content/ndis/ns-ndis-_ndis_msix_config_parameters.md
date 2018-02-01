@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 52c3238f-4d3a-4241-95bf-630e57e8a6e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_MSIX_CONFIG_PARAMETERS, ndis_msix_ref_01a237b1-bb32-4aad-8552-b36b66141061.xml, ndis/NDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MSIX_CONFIG_PARAMETERS, *PNDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS, netvista.ndis_msix_config_parameters, _NDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_msix_ref_01a237b1-bb32-4aad-8552-b36b66141061.xml, _NDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_MSIX_CONFIG_PARAMETERS, *PNDIS_MSIX_CONFIG_PARAMETERS, ndis/PNDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS, ndis/NDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_msix_config_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _NDIS_MSIX_CONFIG_PARAMETERS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -82,20 +82,20 @@ The
      <b>Size</b> member to NDIS_SIZEOF_MSIX_CONFIG_PARAMETERS_REVISION_1.
 
 
-#### - ConfigOperation
+### -field ConfigOperation
 
 The requested configuration operation for a MSI-X table entry. This operation is specified as one
      of the values from the 
-     <mshelp:link keywords="netvista.ndis_msix_table_operation" tabindex="0"><b>
-     NDIS_MSIX_TABLE_OPERATION</b></mshelp:link> enumeration.
+     <a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">
+     NDIS_MSIX_TABLE_OPERATION</a> enumeration.
 
 
-#### - TableEntry
+### -field TableEntry
 
 The MSI-X table entry index.
 
 
-#### - MessageNumber
+### -field MessageNumber
 
 The MSI-X message number that is assigned to the device. This value is required for the 
      <b>NdisMSIXTableConfigSetTableEntry</b> operation. This parameter is not used for the 
@@ -108,19 +108,19 @@ The MSI-X message number that is assigned to the device. This value is required 
 
 To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX_CONFIG_PARAMETERS
     structure to the 
-    <mshelp:link keywords="netvista.ndismconfigmsixtableentry" tabindex="0"><b>
-    NdisMConfigMSIXTableEntry</b></mshelp:link> function. NDIS_MSIX_CONFIG_PARAMETERS defines a requested configuration
+    <a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">
+    NdisMConfigMSIXTableEntry</a> function. NDIS_MSIX_CONFIG_PARAMETERS defines a requested configuration
     operation and specifies the parameters that are required for that operation.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">NDIS_MSIX_TABLE_OPERATION</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
 
  
 

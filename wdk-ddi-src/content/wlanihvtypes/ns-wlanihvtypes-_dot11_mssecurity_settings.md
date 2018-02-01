@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b80a06f0-7774-4bf1-9101-a466999246d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista], netvista.dot11_mssecurity_settings, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_MSSECURITY_SETTINGS, _DOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS, wlanihvtypes/DOT11_MSSECURITY_SETTINGS
+ms.keywords: PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], wlanihvtypes/DOT11_MSSECURITY_SETTINGS, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS, _DOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS, *PDOT11_MSSECURITY_SETTINGS, Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, netvista.dot11_mssecurity_settings, DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,39 +74,39 @@ typedef struct _DOT11_MSSECURITY_SETTINGS {
 
 
 
-#### - dot11AuthAlgorithm
+### -field dot11AuthAlgorithm
 
 A 
      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a> type that specifies
      the authentication algorithm.
 
 
-#### - dot11CipherAlgorithm
+### -field dot11CipherAlgorithm
 
 A 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> type that
      specifies the cipher algorithm for data encryption and decryption.
 
 
-#### - fOneXEnabled
+### -field fOneXEnabled
 
 A Boolean value that indicates whether the Microsoft 802.1X implementation is enabled. If <b>TRUE</b>,
      Microsoft 802.1X is enabled; otherwise, Microsoft 802.1X is disabled.
 
 
-#### - eapMethodType
+### -field eapMethodType
 
 An EAP_METHOD_TYPE type that specifies the extensible authentication protocol (EAP) method. For
      information about EAP_METHOD_TYPE, see the Microsoft Windows SDK.
 
 
-#### - dwEapConnectionDataLen
+### -field dwEapConnectionDataLen
 
 The size, in bytes, of the EAP connection data buffer pointed to by the 
      <b>pEapConnectionData</b> member.
 
 
-#### - pEapConnectionData
+### -field pEapConnectionData
 
 A pointer to the EAP connection data buffer.
 
@@ -124,9 +124,9 @@ A pointer to the EAP connection data buffer.
 
 ## -see-also
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
  
 

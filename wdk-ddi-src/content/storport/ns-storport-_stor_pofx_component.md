@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D44FF0C7-D82C-4CDD-A5F9-BBD8257C6771
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT, _STOR_POFX_COMPONENT, storage.stor_pofx_component, STOR_POFX_COMPONENT structure [Storage Devices], *PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], storport/STOR_POFX_COMPONENT, storport/PSTOR_POFX_COMPONENT
+ms.keywords: "*PSTOR_POFX_COMPONENT, storage.stor_pofx_component, storport/STOR_POFX_COMPONENT, storport/PSTOR_POFX_COMPONENT, _STOR_POFX_COMPONENT, STOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], STOR_POFX_COMPONENT structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,17 +73,17 @@ typedef struct _PO_FX_COMPONENT {
 
 
 
-#### - Version
+### -field Version
 
 The version number of this structure. Set this member to <b>STOR_POFX_DEVICE_VERSION_V1</b>.
 
 
-#### - Size
+### -field Size
 
 The size of this structure. Set this value to <b>STOR_POFX_COMPONENT_SIZE</b>.
 
 
-#### - FStateCount
+### -field FStateCount
 
 The number of elements in the array that is pointed to by the <b>FStates</b> member. Additionally, this member specifies the number of functional power states (F-state) that the component supports. A component must support at least one F-state (F0).
 
@@ -93,12 +93,12 @@ The number of elements in the array that is pointed to by the <b>FStates</b> mem
  
 
 
-#### - Id
+### -field Id
 
 A component ID that uniquely identifies this component with respect to the other components in the device. The driver should specify a nonzero value for this member if the power management framework (PoFx) requires a component ID to distinguish this component from other, similar components in the same device. The component IDs supported by Storport are STORPORT_POFX_ADAPTER_GUID and STORPORT_POFX_LUN_GUID.
 
 
-#### - FStates
+### -field FStates
 
 A array of  <a href="..\storport\ns-storport-_stor_pofx_component_idle_state.md">STOR_POFX_COMPONENT_IDLE_STATE</a> structures. The length of this array is specified by the <b>FStateCount</b> member. Each array element specifies the attributes of an F-state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on. When more than one idle state structure is required, the additional structures are allocated at the end of the <b>STOR_ POFX_COMPONENT</b> structure and the <b>FStateCount</b> is set to 1, the value of ANYSIZE_ARRAY, plus the count of the additional structures.
 
@@ -125,11 +125,11 @@ For a unit device component, if an additional F-state is included in the <b>FSta
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
-
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
 <a href="..\storport\ns-storport-_stor_pofx_component_idle_state.md">STOR_POFX_COMPONENT_IDLE_STATE</a>
+
+<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
  
 

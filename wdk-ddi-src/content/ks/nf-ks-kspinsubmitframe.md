@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3fdb83b2-85b7-4f86-9a59-a42138000214
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinSubmitFrame, stream.kspinsubmitframe, avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices]
+ms.keywords: stream.kspinsubmitframe, avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, KsPinSubmitFrame function [Streaming Media Devices], KsPinSubmitFrame, ks/KsPinSubmitFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS KsPinSubmitFrame(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure on which to submit a frame.
 
 
-#### - Data [in, optional]
+### -param Data [in, optional]
 
 A pointer to a frame buffer. This should be <b>NULL</b> if and only if <i>Size</i> is equal to 0. Optional.
 
@@ -87,12 +87,12 @@ A pointer to a frame buffer. This should be <b>NULL</b> if and only if <i>Size</
 TBD
 
 
-#### - StreamHeader [in, optional]
+### -param StreamHeader [in, optional]
 
 A pointer to a <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure. The stream header is copied if this parameter is supplied. Optional.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 A pointer to a caller-allocated buffer. AVStream provides this pointer to the frame return callback registered through a call to <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>. Optional.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 846f3a1c-ee0a-42d2-bdf1-7bf09406c955
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], PPARTITION_INFORMATION_MBR structure pointer [Storage Devices], ntdddisk/PPARTITION_INFORMATION_MBR, ntdddisk/PARTITION_INFORMATION_MBR, _PARTITION_INFORMATION_MBR, structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml, storage.partition_information_mbr"
+ms.keywords: PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Storage Devices], ntdddisk/PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], *PPARTITION_INFORMATION_MBR, _PARTITION_INFORMATION_MBR, storage.partition_information_mbr, ntdddisk/PARTITION_INFORMATION_MBR, structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _PARTITION_INFORMATION_MBR {
 
 
 
-#### - PartitionType
+### -field PartitionType
 
 Specifies the partition type. See <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a> for a list of system-defined partition types.
 
 
-#### - BootIndicator
+### -field BootIndicator
 
 Indicates, when <b>TRUE</b>, that the partition is bootable. When <b>FALSE</b>, the partition is not bootable.
 
 
-#### - RecognizedPartition
+### -field RecognizedPartition
 
 Indicates, when <b>TRUE</b>, that this is a partition with a recognized partition type. When <b>FALSE</b> this is a not a partition with a recognized partition.
 
 
-#### - HiddenSectors
+### -field HiddenSectors
 
 Contains the number of hidden sectors in the partition.
 
@@ -100,9 +100,9 @@ Contains the number of hidden sectors in the partition.
 
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
  
 

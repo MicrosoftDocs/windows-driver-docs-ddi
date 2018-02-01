@@ -73,7 +73,7 @@ typedef NPI_CLIENT_DETACH_PROVIDER_FN * PNPI_CLIENT_DETACH_PROVIDER_FN;
 
 
 
-#### - ClientBindingContext [in]
+### -param ClientBindingContext [in]
 
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it is detaching. The client module passes this pointer to the NMR when it
@@ -144,8 +144,8 @@ If there are in-progress calls to one or more of the provider module's
     <i>ClientDetachProvider</i> callback function is called, then the client module's 
     <i>ClientDetachProvider</i> callback function returns STATUS_PENDING. In this situation, the client module
     must call the 
-    <mshelp:link keywords="netvista.nmrclientdetachprovidercomplete" tabindex="0"><b>
-    NmrClientDetachProviderComplete</b></mshelp:link> function after all in-progress calls to the provider module's 
+    <a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+    NmrClientDetachProviderComplete</a> function after all in-progress calls to the provider module's 
     NPI functions have completed. The
     call to the 
     <b>
@@ -153,10 +153,10 @@ If there are in-progress calls to one or more of the provider module's
     is complete.
 
 The NMR calls the client module's 
-    <mshelp:link keywords="netvista.clientcleanupbindingcontext" tabindex="0"><i>
-    ClientCleanupBindingContext</i></mshelp:link> callback function and the provider module's 
-    <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-    ProviderCleanupBindingContext</i></mshelp:link> callback function after both the client module and the provider
+    <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">
+    ClientCleanupBindingContext</a> callback function and the provider module's 
+    <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+    ProviderCleanupBindingContext</a> callback function after both the client module and the provider
     module have completed detachment from each other.
 
 The NMR calls a client module's 
@@ -166,17 +166,17 @@ The NMR calls a client module's
 
 ## -see-also
 
-<mshelp:link keywords="netvista.nmrclientdetachprovidercomplete" tabindex="0"><b>
-   NmrClientDetachProviderComplete</b></mshelp:link>
-
-<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-   ProviderCleanupBindingContext</i></mshelp:link>
+<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+   ProviderCleanupBindingContext</a>
 
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
-
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+<a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+   NmrClientDetachProviderComplete</a>
+
+<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 

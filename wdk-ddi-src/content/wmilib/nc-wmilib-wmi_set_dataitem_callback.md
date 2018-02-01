@@ -77,37 +77,37 @@ NTSTATUS DpWmiSetDataItem(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Pointer to the driver's WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to the IRP.
 
 
-#### - GuidIndex [in]
+### -param GuidIndex [in]
 
 Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure it passed to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. 
 
 
-#### - InstanceIndex [in]
+### -param InstanceIndex [in]
 
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> is a zero-based value that specifies the instance.
 
 
-#### - DataItemId [in]
+### -param DataItemId [in]
 
 Specifies the ID of the data item to set.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
 
-#### - Buffer [in]
+### -param Buffer [in]
 
 Pointer to a buffer that contains the new value for the data item.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUEASSIGNFORWARDPROGRESSPOLICY, wdfio/WdfIoQueueAssignForwardProgressPolicy, kmdf.wdfioqueueassignforwardprogresspolicy, wdf.wdfioqueueassignforwardprogresspolicy, DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy method, WdfIoQueueAssignForwardProgressPolicy
+ms.keywords: wdf.wdfioqueueassignforwardprogresspolicy, DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy method, wdfio/WdfIoQueueAssignForwardProgressPolicy, kmdf.wdfioqueueassignforwardprogresspolicy, PFN_WDFIOQUEUEASSIGNFORWARDPROGRESSPOLICY, WdfIoQueueAssignForwardProgressPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfIoQueueAssignForwardProgressPolicy(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 
 
-#### - ForwardProgressPolicy [in]
+### -param ForwardProgressPolicy [in]
 
 A pointer to a driver-allocated <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
 
@@ -169,9 +169,9 @@ For more information about the <b>WdfIoQueueAssignForwardProgressPolicy</b> meth
 
 <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a>
-
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a>
 
  
 

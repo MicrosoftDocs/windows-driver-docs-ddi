@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c1525604-3aee-464d-a7f5-a6a4739a2aa4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMdlReadComplete routine [Installable File System Drivers], ntifs/CcMdlReadComplete, CcMdlReadComplete, ifsk.ccmdlreadcomplete, ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml
+ms.keywords: CcMdlReadComplete, ifsk.ccmdlreadcomplete, ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, ntifs/CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID CcMdlReadComplete(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 File object pointer that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>.
 
 
-#### - MdlChain [in]
+### -param MdlChain [in]
 
 Address of the MDL chain returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>.
 

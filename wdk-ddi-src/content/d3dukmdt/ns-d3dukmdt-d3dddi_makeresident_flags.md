@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1EC4F8EE-1284-4752-8941-F1C31415BF29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_makeresident_flags, D3DDDI_MAKERESIDENT_FLAGS, d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices]
+ms.keywords: display.d3dddi_makeresident_flags, d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,22 +74,22 @@ typedef struct D3DDDI_MAKERESIDENT_FLAGS {
 
 
 
-#### - CantTrimFurther
+### -field CantTrimFurther
 
 This flag should be used after the user mode driver has trimmed all other possible resources in the device and require the current resource to be made resident in order to make forward progress on a particular single atomic operation.
 
 
-#### - MustSucceed
+### -field MustSucceed
 
 This flag may only be set if <b>CantTrimFurther</b> is also set. It indicates that the resource being made resident is critical to the device forward progress. If the video memory manager can’t satisfy the request the device will be put in error.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 The consolidated value of the structure.
 

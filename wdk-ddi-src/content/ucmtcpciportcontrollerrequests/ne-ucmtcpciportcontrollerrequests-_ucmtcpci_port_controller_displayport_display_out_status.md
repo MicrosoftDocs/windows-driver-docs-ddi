@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c57da7f2-d484-479c-9d8a-626789d8b23e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOn, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOff, UcmTcpciPortControllerDisplayOutStatusOff, buses._ucmtcpci_port_controller_displayport_display_out_status, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UcmTcpciPortControllerDisplayOutStatusOn, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration [Buses]
+ms.keywords: UcmTcpciPortControllerDisplayOutStatusOff, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UcmTcpciPortControllerDisplayOutStatusOn, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, buses._ucmtcpci_port_controller_displayport_display_out_status, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOn, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration [Buses], ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,21 +69,21 @@ typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS {
 
 
 
-#### - UcmTcpciPortControllerDisplayOutStatusOff
+### -field UcmTcpciPortControllerDisplayOutStatusOff
 
 Display out status is enabled.
 
 
-#### - UcmTcpciPortControllerDisplayOutStatusOn
+### -field UcmTcpciPortControllerDisplayOutStatusOn
 
 Display out status is enabled.
 
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_displayport_display_out_status_changed_in_params.md">UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED_IN_PARAMS</a>
-
 <a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_displayport_display_out_status_changed.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED</a>
+
+<a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_displayport_display_out_status_changed_in_params.md">UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED_IN_PARAMS</a>
 
  
 

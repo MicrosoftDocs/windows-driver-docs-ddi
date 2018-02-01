@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1d61e35a-64c6-42e0-b20d-969ded8b9750
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfregistryqueryvalue, WdfRegistryQueryValue, DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, kmdf.wdfregistryqueryvalue, WdfRegistryQueryValue method, PFN_WDFREGISTRYQUERYVALUE, wdfregistry/WdfRegistryQueryValue
+ms.keywords: wdfregistry/WdfRegistryQueryValue, wdf.wdfregistryqueryvalue, PFN_WDFREGISTRYQUERYVALUE, WdfRegistryQueryValue, kmdf.wdfregistryqueryvalue, WdfRegistryQueryValue method, DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,32 +78,32 @@ NTSTATUS WdfRegistryQueryValue(
 
 
 
-#### - Key [in]
+### -param Key [in]
 
 A handle to a registry-key object that represents an opened registry key.
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a value name. 
 
 
-#### - ValueLength [in]
+### -param ValueLength [in]
 
 The length, in bytes, of the buffer that <i>Value</i> points to.
 
 
-#### - Value [out, optional]
+### -param Value [out, optional]
 
 A pointer to a driver-allocated buffer that receives the registry value's data. If this pointer is <b>NULL</b>, <b>WdfRegistryQueryValue</b> retrieves the data length but not the data.
 
 
-#### - ValueLengthQueried [out, optional]
+### -param ValueLengthQueried [out, optional]
 
 A pointer to a location that receives the registry value's data length. This pointer is optional and can be <b>NULL</b>.
 
 
-#### - ValueType [out, optional]
+### -param ValueType [out, optional]
 
 A pointer to a location that receives the registry value's data type. For a list of data type values, see the <b>Type</b> member of <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>. This pointer is optional and can be <b>NULL</b>.
 
@@ -203,19 +203,19 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
-
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 

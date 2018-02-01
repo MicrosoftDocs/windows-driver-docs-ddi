@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86B1D8BB-7213-403C-8EAB-D681A5DBF49E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: Pipe_Allocator_MiddlePin, Pipe_Allocator_FirstPin, Pipe_Allocator_None, ksproxy/Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_None, Pipe_Allocator_LastPin, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], *PPIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE, ksproxy/PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_MiddlePin, stream.pipe_allocator_place, ksproxy/Pipe_Allocator_FirstPin
+ms.keywords: ksproxy/Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_FirstPin, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_MiddlePin, stream.pipe_allocator_place, Pipe_Allocator_None, ksproxy/PIPE_ALLOCATOR_PLACE, Pipe_Allocator_FirstPin, *PPIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_None, Pipe_Allocator_MiddlePin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,18 +70,18 @@ typedef enum  {
 
 
 
-#### - Pipe_Allocator_None
+### -field Pipe_Allocator_None
 
 
 
-#### - Pipe_Allocator_FirstPin
+### -field Pipe_Allocator_FirstPin
 
 
 
-#### - Pipe_Allocator_LastPin
+### -field Pipe_Allocator_LastPin
 
 
 
-#### - Pipe_Allocator_MiddlePin
+### -field Pipe_Allocator_MiddlePin
 
 

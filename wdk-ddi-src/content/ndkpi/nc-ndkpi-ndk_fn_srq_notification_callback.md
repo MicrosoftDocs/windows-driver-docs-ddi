@@ -71,12 +71,12 @@ VOID NdkSrqNotificationCallback(
 
 
 
-#### - SrqNotificationContext [in, optional]
+### -param SrqNotificationContext [in, optional]
 
 A context area that was specified in the <i>SrqNotificationContext</i> parameter of the <i>NdkCreateSrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>) function when the SRQ  object was created.
 
 
-#### - SrqStatus [in]
+### -param SrqStatus [in]
 
 Indicates if a fatal SRQ error occurred. The following status codes are defined:
 

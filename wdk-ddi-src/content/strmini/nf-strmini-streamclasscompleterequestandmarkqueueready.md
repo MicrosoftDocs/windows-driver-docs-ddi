@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10d08fe7-13ab-4bdb-ab91-bac3822de8ee
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], StreamClassCompleteRequestAndMarkQueueReady, strmini/StreamClassCompleteRequestAndMarkQueueReady, stream.streamclasscompleterequestandmarkqueueready
+ms.keywords: StreamClassCompleteRequestAndMarkQueueReady, strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], stream.streamclasscompleterequestandmarkqueueready, strmini/StreamClassCompleteRequestAndMarkQueueReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ VOID StreamClassCompleteRequestAndMarkQueueReady(
 
 
 
-#### - Srb [in]
+### -param Srb [in]
 
 Pointer to the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> that the minidriver has completed processing.
 
@@ -92,9 +92,9 @@ This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</
 
 <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>
 
-<a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
-
 <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
+
+<a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
 
  
 

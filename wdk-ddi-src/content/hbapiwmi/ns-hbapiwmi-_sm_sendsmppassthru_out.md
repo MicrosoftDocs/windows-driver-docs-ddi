@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb173171-3990-405e-b740-8c1a0c915165
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_sendsmppassthru_out, SM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], SM_SendSMPPassThru_OUT structure [Storage Devices], PSM_SendSMPPassThru_OUT, hbapiwmi/PSM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT, _SM_SendSMPPassThru_OUT, hbapiwmi/SM_SendSMPPassThru_OUT, structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml
+ms.keywords: storage.sm_sendsmppassthru_out, hbapiwmi/SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT structure [Storage Devices], hbapiwmi/PSM_SendSMPPassThru_OUT, _SM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _SM_SendSMPPassThru_OUT {
 
 
 
-#### - HBAStatus
+### -field HBAStatus
 
 The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-#### - TotalRespBufferSize
+### -field TotalRespBufferSize
 
 The size, in bytes, of the results common transport (CT) command.
 
 
-#### - OutRespBufferSize
+### -field OutRespBufferSize
 
 The size, in bytes, of the data that was actually retrieved.
 
 
-#### - RespBuffer
+### -field RespBuffer
 
 The results of the common transport command.
 

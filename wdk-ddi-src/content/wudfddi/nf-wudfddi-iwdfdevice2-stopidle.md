@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2 interface, StopIdle method, StopIdle method, IWDFDevice2 interface, wdf.iwdfdevice2_stopidle, IWDFDevice2::StopIdle, IWDFDevice2, StopIdle method, StopIdle, umdf.iwdfdevice2_stopidle, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, wudfddi/IWDFDevice2::StopIdle
+ms.keywords: wdf.iwdfdevice2_stopidle, IWDFDevice2::StopIdle, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, StopIdle method, umdf.iwdfdevice2_stopidle, StopIdle method, IWDFDevice2 interface, IWDFDevice2 interface, StopIdle method, wudfddi/IWDFDevice2::StopIdle, IWDFDevice2, StopIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ HRESULT StopIdle(
 
 
 
-#### - WaitForD0 [in]
+### -param WaitForD0 [in]
 
 A Boolean value that indicates when <b>StopIdle</b> will return. If <b>TRUE</b>, it returns only after the specified device enters the D0 device power state. If <b>FALSE</b>, the method returns immediately.
 
@@ -148,9 +148,9 @@ For more information about <b>StopIdle</b> and <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
 
  
 

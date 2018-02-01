@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3::ReadTagged, dbgeng/IDebugDataSpaces3::ReadTagged, ReadTagged method [Windows Debugging], ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, debugger.readtagged, IDebugDataSpaces4, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, dbgeng/IDebugDataSpaces4::ReadTagged, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface
+ms.keywords: IDebugDataSpaces3::ReadTagged, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, ReadTagged method [Windows Debugging], dbgeng/IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4::ReadTagged, ReadTagged, dbgeng/IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, debugger.readtagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT ReadTagged(
 
 
 
-#### - Tag [in]
+### -param Tag [in]
 
 Specifies the GUID identifying the data requested.
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies the offset within the data to read.
 
 
-#### - Buffer [out, optional]
+### -param Buffer [out, optional]
 
 Receives the data.  If <i>Buffer</i> is <b>NULL</b>, the data is not returned.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be returned.
 
 
-#### - TotalSize [out, optional]
+### -param TotalSize [out, optional]
 
 Receives the total size in bytes of the data specified by <i>Tag</i>.
 
@@ -144,11 +144,11 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547874">GetNextTagged</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547874">GetNextTagged</a>
 
  
 

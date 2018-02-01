@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac1b7daf-803d-48a0-89de-4a438f3837f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2setindices, LPD3DHAL_DP2SETINDICES structure pointer [Display Devices], D3DHAL_DP2SETINDICES, d3dstrct_fd1eb5e4-28c8-45f9-90ba-b57970888717.xml, _D3DHAL_DP2SETINDICES, *LPD3DHAL_DP2SETINDICES, d3dhal/LPD3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES structure [Display Devices], LPD3DHAL_DP2SETINDICES, d3dhal/D3DHAL_DP2SETINDICES
+ms.keywords: LPD3DHAL_DP2SETINDICES structure pointer [Display Devices], *LPD3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES, d3dstrct_fd1eb5e4-28c8-45f9-90ba-b57970888717.xml, _D3DHAL_DP2SETINDICES, display.d3dhal_dp2setindices, D3DHAL_DP2SETINDICES structure [Display Devices], LPD3DHAL_DP2SETINDICES, d3dhal/LPD3DHAL_DP2SETINDICES, d3dhal/D3DHAL_DP2SETINDICES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _D3DHAL_DP2SETINDICES {
 
 
 
-#### - dwVBHandle
+### -field dwVBHandle
 
 Specifies the surface handle associated with this surface through a call to <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>.
 
 
-#### - dwStride
+### -field dwStride
 
 Specifies the size of the indices contained in the index buffer and has the value 2 if the indices are 16-bit, or 4 if the indices are 32-bit quantities.
 

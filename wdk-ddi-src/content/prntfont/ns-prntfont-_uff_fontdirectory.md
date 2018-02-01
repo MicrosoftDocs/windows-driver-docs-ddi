@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prntfont/UFF_FONTDIRECTORY, print.uff_fontdirectory, PUFF_FONTDIRECTORY structure pointer [Print Devices], UFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, _UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, UFF_FONTDIRECTORY structure [Print Devices]
+ms.keywords: "*PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY structure pointer [Print Devices], prntfont/UFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, UFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], PUFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, print.uff_fontdirectory, _UFF_FONTDIRECTORY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,27 +78,27 @@ typedef struct _UFF_FONTDIRECTORY {
 
 
 
-#### - dwSignature
+### -field dwSignature
 
 Specifies the font metrics record signature. This value must be FONT_REC_SIG.
 
 
-#### - wSize
+### -field wSize
 
 Specifies the size, in bytes, of the UFF_FONTDIRECTORY structure.
 
 
-#### - wFontID
+### -field wFontID
 
 Specifies the font identifier. This value must match the <b>wDataID</b> member of a <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure that specifies font metrics information within the .uff file.
 
 
-#### - sGlyphID
+### -field sGlyphID
 
 Specifies the glyph set identifier. This value specifies the glyph set that is to be associated with the font. See the following Remarks section.
 
 
-#### - wFlags
+### -field wFlags
 
 Is a set of bit flags. One or more of the following flags can be specified.
 <table>
@@ -179,32 +179,32 @@ Font metrics are specified in Windows 2000 and later <a href="https://msdn.micro
 </table> 
 
 
-#### - dwInstallerSig
+### -field dwInstallerSig
 
 Specifies the signature value of the font installer that installed the font.
 
 
-#### - offFontName
+### -field offFontName
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned, NULL-terminated, Unicode string representing the name of the font.
 
 
-#### - offCartridgeName
+### -field offCartridgeName
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned, NULL-terminated, Unicode string representing the name of the font cartridge containing the font. If the font is not contained in a cartridge, this value should be zero.
 
 
-#### - offFontData
+### -field offFontData
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure specifying a font metrics section.
 
 
-#### - offGlyphData
+### -field offGlyphData
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned DATA_HEADER structure specifying a glyph set section. If <b>sGlyphID</b> is zero or negative, <b>offGlyphData</b> should be zero.
 
 
-#### - offVarData
+### -field offVarData
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in <b>wFlags</b>, <b>offVarData</b> must be zero.
 

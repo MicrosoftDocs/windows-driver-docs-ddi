@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister
+ms.keywords: umdprovider/UMDEtwRegister, display.umdetwregister, UMDEtwRegister, UMDEtwRegister function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ void UMDEtwRegister(
 
 
 
-#### - CbRundown
+### -param CbRundown
 
 A pointer to a callback function that returns information about the current state of the user-mode driver.
 

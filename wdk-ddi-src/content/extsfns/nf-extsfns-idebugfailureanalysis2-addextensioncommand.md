@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 370A4EBA-80BF-46B2-8F52-9F04A4EC98D7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2::AddString, IDebugFailureAnalysis2, IDebugFailureAnalysis2::AddExtensionCommand, debugger.idebugfailureanalysis2_addextensioncommand, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, extsfns/IDebugFailureAnalysis2::AddString, AddExtensionCommand, AddString method [Windows Debugging]
+ms.keywords: IDebugFailureAnalysis2, AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, extsfns/IDebugFailureAnalysis2::AddString, AddString method [Windows Debugging], IDebugFailureAnalysis2::AddExtensionCommand, IDebugFailureAnalysis2::AddString, debugger.idebugfailureanalysis2_addextensioncommand, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, AddExtensionCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ HRESULT AddString(
 
 
 
-#### - Tag
+### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_EXTENSION_CMD</b> or <b>DEBUG_FA_ENTRY_ANSI_STRING</b>.
 
@@ -132,11 +132,11 @@ Question: When does the data type of a tag get fixed? Is it when the first FA en
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983424">SetExtensionCommand</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 

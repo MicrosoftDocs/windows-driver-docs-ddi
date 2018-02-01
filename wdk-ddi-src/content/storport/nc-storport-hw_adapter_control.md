@@ -73,12 +73,12 @@ SCSI_ADAPTER_CONTROL_STATUS HwStorAdapterControl(
 
 
 
-#### - DeviceExtension [in]
+### -param DeviceExtension [in]
 
 A pointer to the miniport driver's per-HBA storage area. 
 
 
-#### - ControlType [in]
+### -param ControlType [in]
 
 Specifies  an adapter-control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings. Also  listed, are the current IRQL and the spinlock acquired when the control type issued.
 <table>
@@ -367,7 +367,7 @@ None
 </table> 
 
 
-#### - Parameters [in]
+### -param Parameters [in]
 
 Contains information related to the <i>ControlType</i>.  
 <table>
@@ -955,9 +955,9 @@ HW_ADAPTER_CONTROL (
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
 <a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 <a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, PSCSI_PNP_REQUEST_BLOCK, StorStopDevice, StorQueryResourceRequirements, _SCSI_PNP_REQUEST_BLOCK, StorRemoveDevice, storport/PSCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, StorQueryCapabilities, StorFilterResourceRequirements, StorSupriseRemoval, StorStartDevice
+ms.keywords: storport/PSCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK, StorStartDevice, storport/SCSI_PNP_REQUEST_BLOCK, StorStopDevice, storage.scsi_pnp_request_block, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorQueryCapabilities, _SCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, StorRemoveDevice, StorFilterResourceRequirements, StorSupriseRemoval, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, StorQueryResourceRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,47 +93,47 @@ typedef struct _SCSI_PNP_REQUEST_BLOCK {
  
 
 
-#### - NextSrb
+### -field NextSrb
 
 Miniport driver should ignore this member. 
 
 
-#### - Length
+### -field Length
 
 The size, in bytes, of the <b>SCSI_PNP_REQUEST_BLOCK</b> structure. 
 
 
-#### - Function
+### -field Function
 
 The operation to perform. For the <b>SCSI_PNP_REQUEST_BLOCK</b> structure, this member is always set to SRB_FUNCTION_PNP. 
 
 
-#### - SrbStatus
+### -field SrbStatus
 
 The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> routine with a notification type of <b>RequestComplete</b>. For a list of possible status values, see <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>.  
 
 
-#### - PnPSubFunction
+### -field PnPSubFunction
 
 This member is not currently used. Miniport drivers ignore this member. 
 
 
-#### - PathId
+### -field PathId
 
 The SCSI port or bus identifier for the request. This value is zero based. 
 
 
-#### - TargetId
+### -field TargetId
 
 The target controller or device identifier on the bus. 
 
 
-#### - Lun
+### -field Lun
 
 The logical unit number (LUN) of the device. 
 
 
-#### - PnPAction
+### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
 <table>
@@ -221,52 +221,52 @@ Surprise Removal of the device. This value was added in Windows 7.
 </table> 
 
 
-#### - SrbFlags
+### -field SrbFlags
 
 Miniport driver should ignore this member. 
 
 
-#### - DataTransferLength
+### -field DataTransferLength
 
 Miniport driver should ignore this member. 
 
 
-#### - TimeOutValue
+### -field TimeOutValue
 
 The interval, in seconds, that the request can execute before the Storport driver determines that the request has timed out. 
 
 
-#### - DataBuffer
+### -field DataBuffer
 
 Miniport driver should ignore this member. 
 
 
-#### - SenseInfoBuffer
+### -field SenseInfoBuffer
 
 Miniport driver should ignore this member. 
 
 
-#### - OriginalRequest
+### -field OriginalRequest
 
 Miniport driver should ignore this member. 
 
 
-#### - SrbExtension
+### -field SrbExtension
 
 A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> routine. 
 
 
-#### - SrbPnPFlags
+### -field SrbPnPFlags
 
 The PNP flags. Currently, the only flag allowed is SRB_PNP_FLAGS_ADAPTER_REQUEST, which indicates that the PNP request is for the adapter, and not for one of the devices on the adapter. If this flag is set, the miniport driver should ignore the values in the <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Reserved4
+### -field Reserved4
 
 Reserved for system use.
 
@@ -282,11 +282,11 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
  
 

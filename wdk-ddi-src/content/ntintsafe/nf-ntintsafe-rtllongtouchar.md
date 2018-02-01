@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 22440E1D-8DF5-4391-90F4-6080AAAC65D1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongToUChar, kernel.rtllongtouchar, RtlLongToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToUChar
+ms.keywords: kernel.rtllongtouchar, RtlLongToUChar, RtlLongToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS RtlLongToUChar(
 
 
 
-#### - lOperand [in]
+### -param lOperand [in]
 
 The value to be converted.
 
 
-#### - pch [out]
+### -param pch [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

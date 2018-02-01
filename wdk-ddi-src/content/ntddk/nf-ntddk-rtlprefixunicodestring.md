@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b26f4ed-6621-4dc5-8b60-9e4d3bf8d898
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, ntddk/RtlPrefixUnicodeString, RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlprefixunicodestring, RtlPrefixUnicodeString
+ms.keywords: k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, kernel.rtlprefixunicodestring, RtlPrefixUnicodeString, ntddk/RtlPrefixUnicodeString, RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ BOOLEAN RtlPrefixUnicodeString(
 
 
 
-#### - String1 [in]
+### -param String1 [in]
 
 Pointer to the first string, which might be a prefix of the buffered Unicode string at <i>String2</i>.
 
 
-#### - String2 [in]
+### -param String2 [in]
 
 Pointer to the second string.
 
 
-#### - CaseInSensitive [in]
+### -param CaseInSensitive [in]
 
 If <b>TRUE</b>, case should be ignored when doing the comparison. 
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: CE92249C-99B5-411E-B0D7-C1FF4824949E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpioclx/PCLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION structure [Parallel Ports], PCLIENT_CONTROLLER_BASIC_INFORMATION structure pointer [Parallel Ports], PCLIENT_CONTROLLER_BASIC_INFORMATION, *PCLIENT_CONTROLLER_BASIC_INFORMATION, _CLIENT_CONTROLLER_BASIC_INFORMATION, GPIO.client_controller_basic_information, CLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_CONTROLLER_BASIC_INFORMATION
+ms.keywords: "*PCLIENT_CONTROLLER_BASIC_INFORMATION, PCLIENT_CONTROLLER_BASIC_INFORMATION, GPIO.client_controller_basic_information, PCLIENT_CONTROLLER_BASIC_INFORMATION structure pointer [Parallel Ports], CLIENT_CONTROLLER_BASIC_INFORMATION structure [Parallel Ports], gpioclx/PCLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_CONTROLLER_BASIC_INFORMATION, _CLIENT_CONTROLLER_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _CLIENT_CONTROLLER_BASIC_INFORMATION {
 
 
 
-#### - Version
+### -field Version
 
 The version number of this structure. Set this member to <b>GPIO_CONTROLLER_BASIC_INFORMATION_VERSION</b>, which is defined in the Gpioclx.h header file.
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure. Set this member to <b>sizeof</b>(<b>CLIENT_CONTROLLER_BASIC_INFORMATION</b>).
 
 
-#### - TotalPins
+### -field TotalPins
 
 The number of pins on the GPIO controller. If the pins are partitioned into multiple banks, this member specifies the total pin count across all of the banks in the GPIO controller.
 
 
-#### - NumberOfPinsPerBank
+### -field NumberOfPinsPerBank
 
 The number of GPIO pins for each bank. The maximum number of pins for each bank is 64. The pins on the GPIO controller are partitioned into one or more banks. Each bank contains the number of pins specified by this parameter, with the possible exception of the last bank. For more information, see Remarks.
 
 
-#### - DeviceIdleTimeout
+### -field DeviceIdleTimeout
 
 The idle time-out interval, in milliseconds, if the GPIO controller supports the D3 power state. The time-out interval is the minimum amount of time that a GPIO controller stays in the D0 state after the controller becomes idle. After the time-out interval expires, the power manager might request that the controller switch to the D3 state.
 
 
-#### - Flags
+### -field Flags
 
 A set of flags that specify the hardware attributes of the GPIO controller. This member can be set to all zeros or to any bitwise-OR combination of the following flag bits:
 <ul>

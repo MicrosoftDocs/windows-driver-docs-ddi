@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7e27f53f-350e-4315-9de6-60835bddcbfb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/MSFC_TM, MSFC_TM structure [Storage Devices], storage.msfc_tm, PMSFC_TM structure pointer [Storage Devices], MSFC_TM, PMSFC_TM, hbapiwmi/PMSFC_TM, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml, _MSFC_TM, *PMSFC_TM
+ms.keywords: hbapiwmi/PMSFC_TM, storage.msfc_tm, hbapiwmi/MSFC_TM, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml, *PMSFC_TM, _MSFC_TM, PMSFC_TM structure pointer [Storage Devices], MSFC_TM structure [Storage Devices], MSFC_TM, PMSFC_TM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,47 +75,47 @@ typedef struct _MSFC_TM {
 
 
 
-#### - tm_sec
+### -field tm_sec
 
 Indicates the number of seconds past the minute. This member must have a value between 0 and 59. 
 
 
-#### - tm_min
+### -field tm_min
 
 Indicates the number of minutes after the hour. This member must have a value between 0 and 59.
 
 
-#### - tm_hour
+### -field tm_hour
 
 Indicates the number of hours since midnight. This member must have a value between 0 and 23.
 
 
-#### - tm_mday
+### -field tm_mday
 
 Indicates the day of the month. This member must have a value between 1 and 31.
 
 
-#### - tm_mon
+### -field tm_mon
 
 Indicates the number of months since January. This member must have a value between 0 and 11.
 
 
-#### - tm_year
+### -field tm_year
 
 Indicates the number of years since 1900. 
 
 
-#### - tm_wday
+### -field tm_wday
 
 Indicates the number of days since Sunday. This member must have a value between 0 and 6.
 
 
-#### - tm_yday
+### -field tm_yday
 
 Indicates the number of days since January 1. This member must have a value between 0 and 365.
 
 
-#### - tm_isdst
+### -field tm_isdst
 
 Indicates when <b>TRUE</b> that the time stamp complies with daylight savings time. When <b>FALSE</b>, indicates that the timestamp does not comply with daylight savings time. 
 

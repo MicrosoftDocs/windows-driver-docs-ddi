@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/PowerActionNone, umdf.power_action, PPOWER_ACTION enumeration pointer, PowerActionNone, PowerActionShutdownReset, wudfddi/PowerActionShutdownReset, wdf.power_action, wudfddi/PowerActionReserved, PowerActionReserved, PowerActionSleep, wudfddi/PowerActionSleep, PPOWER_ACTION, wudfddi/POWER_ACTION, wudfddi/PowerActionShutdown, POWER_ACTION enumeration, PowerActionWarmEject, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, wudfddi/PowerActionHibernate, PowerActionShutdown, PowerActionHibernate, POWER_ACTION, PowerActionShutdownOff, wudfddi/PowerActionShutdownOff, *PPOWER_ACTION, wudfddi/PowerActionWarmEject, wudfddi/PPOWER_ACTION
+ms.keywords: PPOWER_ACTION enumeration pointer, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, *PPOWER_ACTION, PowerActionShutdownOff, wudfddi/PowerActionReserved, PPOWER_ACTION, wudfddi/PowerActionShutdown, PowerActionWarmEject, wudfddi/PowerActionShutdownOff, wdf.power_action, PowerActionHibernate, POWER_ACTION, wudfddi/PowerActionSleep, wudfddi/PPOWER_ACTION, PowerActionShutdown, PowerActionNone, wudfddi/PowerActionWarmEject, wudfddi/POWER_ACTION, POWER_ACTION enumeration, PowerActionShutdownReset, wudfddi/PowerActionNone, PowerActionReserved, PowerActionSleep, wudfddi/PowerActionHibernate, umdf.power_action, wudfddi/PowerActionShutdownReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,42 +76,42 @@ typedef enum  {
 
 
 
-#### - PowerActionNone
+### -field PowerActionNone
 
 No power action is taking place.
 
 
-#### - PowerActionReserved
+### -field PowerActionReserved
 
 Reserved for system use.
 
 
-#### - PowerActionSleep
+### -field PowerActionSleep
 
 The computer is entering a <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">system sleeping (S1, S2, or S3) state</a>.
 
 
-#### - PowerActionHibernate
+### -field PowerActionHibernate
 
 The computer is entering its <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">hibernation (S4) state</a>.
 
 
-#### - PowerActionShutdown
+### -field PowerActionShutdown
 
 The computer is entering its <a href="https://msdn.microsoft.com/c08d688d-c31a-4d57-a343-406edfa35e8f">shutdown (S5) state</a>. After all devices have entered their <a href="https://msdn.microsoft.com/f594a63f-10ce-439d-abe3-d342555d98f0">off (D3) state</a>, the computer remains powered on until an administrator presses the power button.
 
 
-#### - PowerActionShutdownReset
+### -field PowerActionShutdownReset
 
 The computer is entering its shutdown (S5) state. After all devices have entered their off (D3) state, the computer automatically powers off and then immediately restarts and returns to its working (S0) state.
 
 
-#### - PowerActionShutdownOff
+### -field PowerActionShutdownOff
 
 The computer is entering its shutdown (S5) state. After all devices have entered their off (D3) state, the computer automatically powers off.
 
 
-#### - PowerActionWarmEject
+### -field PowerActionWarmEject
 
 The computer is being ejected from an ACPI-compatible dock device. Typically, the computer's power state does not change.
 

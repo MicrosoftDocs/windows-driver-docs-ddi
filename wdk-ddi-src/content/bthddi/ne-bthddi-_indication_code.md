@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 7fc374e3-ca5b-476d-bc44-afb28ecf9920
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/IndicationRemoteConnect, bthddi/IndicationUnpersonalizeDevice, bthddi/IndicationRemoteConnectLE, IndicationReleaseReference, bthddi/IndicationFreeExtraOptions, IndicationRemoteDisconnect, IndicationRecvPacket, IndicationRemoteConnect, IndicationRemoteConfigRequest, bthddi/PINDICATION_CODE, IndicationUnpairDevice, IndicationUnpersonalizeDevice, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, bthddi/IndicationRemoteConfigResponse, IndicationPairDevice, bltooth.indication_code, IndicationRemoteConnectLE, bthddi/IndicationRemoteConfigRequest, *PINDICATION_CODE, bthddi/IndicationRemoteDisconnect, bthddi/IndicationRecvPacket, bthddi/INDICATION_CODE, IndicationRemoteConfigResponse, bthddi/IndicationAddReference, bthddi/IndicationUnpairDevice, PINDICATION_CODE, INDICATION_CODE, IndicationFreeExtraOptions, IndicationAddReference, _INDICATION_CODE, bthddi/IndicationPairDevice, bthddi/IndicationReleaseReference, PINDICATION_CODE enumeration pointer [Bluetooth Devices], INDICATION_CODE enumeration [Bluetooth Devices]
+ms.keywords: bthddi/PINDICATION_CODE, IndicationRecvPacket, IndicationRemoteConnectLE, INDICATION_CODE enumeration [Bluetooth Devices], IndicationPairDevice, bthddi/INDICATION_CODE, bthddi/IndicationAddReference, IndicationAddReference, bthddi/IndicationRemoteConnect, IndicationRemoteConnect, bthddi/IndicationRemoteConfigRequest, PINDICATION_CODE enumeration pointer [Bluetooth Devices], bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, IndicationUnpersonalizeDevice, IndicationRemoteDisconnect, bthddi/IndicationUnpairDevice, PINDICATION_CODE, bthddi/IndicationPairDevice, bthddi/IndicationRecvPacket, IndicationFreeExtraOptions, bthddi/IndicationReleaseReference, bthddi/IndicationRemoteConnectLE, IndicationRemoteConfigRequest, bthddi/IndicationRemoteDisconnect, bltooth.indication_code, bthddi/IndicationUnpersonalizeDevice, IndicationUnpairDevice, IndicationRemoteConfigResponse, bthddi/IndicationRemoteConfigResponse, *PINDICATION_CODE, IndicationReleaseReference, INDICATION_CODE, _INDICATION_CODE, bthddi/IndicationFreeExtraOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -79,32 +79,32 @@ typedef enum _INDICATION_CODE {
 
 
 
-#### - IndicationAddReference
+### -field IndicationAddReference
 
 Indicates to a profile driver to add a reference to its device object because it may be called at
      any time.
 
 
-#### - IndicationReleaseReference
+### -field IndicationReleaseReference
 
 Indicates to a profile driver to release a reference to its device object and that it will no
      longer be called.
 
 
-#### - IndicationRemoteConnect
+### -field IndicationRemoteConnect
 
 Indicates to a server profile driver that a remote device is connecting to the PSM that the
      profile driver registered earlier. Profile drivers accept or reject this request by 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-     BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request. When this indication code is passed, the profile driver
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+     BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. When this indication code is passed, the profile driver
      should use the parameters that are passed to it in the 
      <b>Connect</b> member of the 
-     <mshelp:link keywords="bltooth.indication_parameters" tabindex="0"><b>
-     INDICATION_PARAMETERS</b></mshelp:link> structure.
+     <a href="..\bthddi\ns-bthddi-_indication_parameters.md">
+     INDICATION_PARAMETERS</a> structure.
 
 
-#### - IndicationRemoteDisconnect
+### -field IndicationRemoteDisconnect
 
 Indicates to a registered profile driver that a remote device disconnecting from the local radio.
      When this indication code is passed, the profile driver should use the parameters that are passed to it
@@ -112,7 +112,7 @@ Indicates to a registered profile driver that a remote device disconnecting from
      <b>Disconnect</b> member of the INDICATION_PARAMETERS structure.
 
 
-#### - IndicationRemoteConfigRequest
+### -field IndicationRemoteConfigRequest
 
 Indicates to a client profile driver that a remote device is performing a configuration request.
      When this indication code is passed, the profile driver should use the parameters that are passed to it
@@ -120,7 +120,7 @@ Indicates to a client profile driver that a remote device is performing a config
      <b>ConfigRequest</b> member of the INDICATION_PARAMETERS structure.
 
 
-#### - IndicationRemoteConfigResponse
+### -field IndicationRemoteConfigResponse
 
 Indicates to a client profile driver that a remote device is responding to a configuration
      request. When this indication code is passed, the profile driver should use the parameters that are
@@ -128,12 +128,12 @@ Indicates to a client profile driver that a remote device is responding to a con
      <b>ConfigResponse</b> member of the INDICATION_PARAMETERS structure.
 
 
-#### - IndicationFreeExtraOptions
+### -field IndicationFreeExtraOptions
 
 Reserved for future use. Do not use.
 
 
-#### - IndicationRecvPacket
+### -field IndicationRecvPacket
 
 Indicates to a registered profile driver that a packet has been received on the specified PSM. The
      profile driver can use this event to determine when it is necessary to issue a read
@@ -141,39 +141,39 @@ Indicates to a registered profile driver that a packet has been received on the 
      this notification and keep a read BRB pending at all times. When this indication code is passed, the
      profile driver should use the parameters that are passed to it in the 
      <b>RecvPacket</b> member of the 
-     <mshelp:link keywords="bltooth.indication_parameters" tabindex="0"><b>
-     INDICATION_PARAMETERS</b></mshelp:link> structure.
+     <a href="..\bthddi\ns-bthddi-_indication_parameters.md">
+     INDICATION_PARAMETERS</a> structure.
 
 
-#### - IndicationPairDevice
+### -field IndicationPairDevice
 
 Indicates to a registered driver that the local radio has bonded to a specific remote
      radio.
 
 
-#### - IndicationUnpairDevice
+### -field IndicationUnpairDevice
 
 Indicates to a registered driver that the local radio is no longer bonded to a specific remote
      radio.
 
 
-#### - IndicationUnpersonalizeDevice
+### -field IndicationUnpersonalizeDevice
 
 Indicates to a registered driver that the specified remote radio has been removed from the list of
      personal devices.
 
 
-#### - IndicationRemoteConnectLE
+### -field IndicationRemoteConnectLE
 
 Indicates to a server profile driver that a low energy (LE) remote device is connecting to the PSM that the
      profile driver registered earlier. Profile drivers accept or reject this request by 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-     BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request. When this indication code is passed, the profile driver
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+     BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. When this indication code is passed, the profile driver
      should use the parameters that are passed to it in the 
      <b>Connect</b> member of the 
-     <mshelp:link keywords="bltooth.indication_parameters" tabindex="0"><b>
-     INDICATION_PARAMETERS</b></mshelp:link> structure. This value is present in Windows 8 and later versions of Windows.
+     <a href="..\bthddi\ns-bthddi-_indication_parameters.md">
+     INDICATION_PARAMETERS</a> structure. This value is present in Windows 8 and later versions of Windows.
 
 
 ## -remarks
@@ -187,13 +187,13 @@ A value from this enumeration is passed to a profile driver's
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
  
 

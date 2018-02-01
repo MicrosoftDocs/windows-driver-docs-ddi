@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8BE53883-2FD0-4CAB-928E-532587DA80C3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], storage.srbex_data_scsi_cdb32, storport/PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], storport/SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32"
+ms.keywords: SRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], storport/PSRBEX_DATA_SCSI_CDB32, storport/SRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], *PSRBEX_DATA_SCSI_CDB32, storage.srbex_data_scsi_cdb32, PSRBEX_DATA_SCSI_CDB32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,47 +76,47 @@ typedef struct _SRBEX_DATA_SCSI_CDB32 {
 
 
 
-#### - Type
+### -field Type
 
 Data type indicator for the bidirectional extended SRB data structure. Set to <b>SrbExDataTypeScsiCdb32</b>.
 
 
-#### - Length
+### -field Length
 
 Length of the data in this structure starting with the <b>ScsiStatus</b> member. Set to SRBEX_DATA_SCSI_CDB32_LENGTH.
 
 
-#### - ScsiStatus
+### -field ScsiStatus
 
 The SCSI status code returned for the submitted SRB.
 
 
-#### - SenseInfoBufferLength
+### -field SenseInfoBufferLength
 
 The length of the sense information returned in the buffer pointed to by <b>SenseInfoBuffer</b>.
 
 
-#### - CdbLength
+### -field CdbLength
 
 The length of the CDB data, in bytes, of the <b>Cdb</b> array.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved. Set to 0.
 
 
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved. Set to 0.
 
 
-#### - SenseInfoBuffer
+### -field SenseInfoBuffer
 
 A pointer to a buffer containing any returned sense information.
 
 
-#### - Cdb
+### -field Cdb
 
 The 32-byte CDB buffer.
 

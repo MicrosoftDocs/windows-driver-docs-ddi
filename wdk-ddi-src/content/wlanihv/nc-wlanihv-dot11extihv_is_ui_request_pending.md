@@ -74,7 +74,7 @@ DWORD APIENTRY Dot11ExtIhvIsUIRequestPending(
 
 
 
-#### - guidUIRequest [in]
+### -param guidUIRequest [in]
 
 The GUID that identifies the request. This GUID value was created by the IHV Extensions DLL and
      passed through the 
@@ -82,7 +82,7 @@ The GUID that identifies the request. This GUID value was created by the IHV Ext
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>.
 
 
-#### - pbIsRequestPending [out]
+### -param pbIsRequestPending [out]
 
 A pointer to a Boolean value. If the UI request, identified by the 
      <i>guidUIRequest</i> parameter, is pending, the IHV Extensions DLL must set *
@@ -105,8 +105,8 @@ The IHV Extensions DLL can issue requests to the IHV UI Extensions DLL to intera
     Examples of such requests are thedisplay of notifications during the pre-association operation or the
     input of credentials for the post-association operation. For more information about the IHV UI Extensions
     DLL, see 
-    <mshelp:link keywords="netvista.native_802_11_ihv_ui_extensions_dll" tabindex="0">Native 802.11 IHV UI Extensions
-    DLL</mshelp:link>.
+    <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
+    DLL</a>.
 
 The IHV Extensions DLL initiates these requests for user interaction through calls to the 
     <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a> function. For
@@ -129,9 +129,9 @@ The operating system can periodically call the
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
 
  
 

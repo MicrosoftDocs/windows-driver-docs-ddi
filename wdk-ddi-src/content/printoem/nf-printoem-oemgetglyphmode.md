@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMGetGlyphMode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, print.oemgetglyphmode, OEMGetGlyphMode function [Print Devices], printoem/OEMGetGlyphMode
+ms.keywords: printoem/OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], print.oemgetglyphmode, OEMGetGlyphMode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,10 +69,10 @@ ULONG APIENTRY OEMGetGlyphMode(
 
 
 
-#### - dhpdev
+### -param dhpdev
 
 
 
-#### - pfo
+### -param pfo
 
 

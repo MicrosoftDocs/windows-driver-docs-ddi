@@ -95,19 +95,24 @@ VOID APIENTRY CheckCounter(
 
 
 
-#### - *pNameLength [in, out]
+### -param *pNameLength [in, out]
 
 A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pName</i> parameter specifies.  
 
 
-#### - *pUnitsLength [in, out]
+### -param *pUnitsLength [in, out]
 
  A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies. 
 
 
-#### - *pDescriptionLength [in, out]
+### -param *pDescriptionLength [in, out]
 
  A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
+
+
+#### - Query [in]
+
+ A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
 
 
 #### - hDevice [in]
@@ -115,9 +120,9 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
  A handle to the display device (graphics context).
 
 
-#### - Query [in]
+#### - pActiveCounters [out]
 
- A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
 
 
 #### - pCounterType [out]
@@ -171,9 +176,9 @@ D3D10DDI_COUNTER_TYPE_UINT64
 </table> 
 
 
-#### - pActiveCounters [out]
+#### - pDescription [out]
 
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
+A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
 
 
 #### - pName [out]
@@ -181,29 +186,9 @@ A pointer to a variable that receives the number of simultaneously active counte
 A pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier. 
 
 
-#### - pNameLength [in, out]
-
-A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pName</i> parameter specifies.  
-
-
 #### - pUnits [out]
 
 A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
-
-
-#### - pUnitsLength [in, out]
-
- A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies. 
-
-
-#### - pDescription [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
-
-
-#### - pDescriptionLength [in, out]
-
- A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
 
 
 ## -returns
@@ -230,9 +215,9 @@ The driver's <b>CheckCounter</b> function cannot call the <a href="..\d3d10umddi
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

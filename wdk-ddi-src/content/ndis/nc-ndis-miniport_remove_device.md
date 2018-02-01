@@ -74,7 +74,7 @@ VOID MiniportRemoveDevice(
 
 
 
-#### - MiniportAddDeviceContext [in]
+### -param MiniportAddDeviceContext [in]
 
 A handle for a driver-allocated context area that the miniport driver registered with NDIS in the 
      <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function.
@@ -93,8 +93,8 @@ None
 The 
     <i>MiniportRemoveDevice</i> function is an optional function. Miniport drivers that
     support MSI-X should specify an entry point for this function in the 
-    <mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-    NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+    NDIS_MINIPORT_PNP_CHARACTERISTICS</a> structure.
 
 When NDIS receives a request from the Plug and Play (PnP) manager to remove a device, NDIS calls the 
     <i>MiniportRemoveDevice</i> function. 
@@ -145,12 +145,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
  
 

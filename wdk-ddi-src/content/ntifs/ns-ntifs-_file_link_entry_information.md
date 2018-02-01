@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b42edb45-3f4f-4f65-aede-8f51149dda78
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], ifsk.file_link_entry_information, *PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION, ntifs/PFILE_LINK_ENTRY_INFORMATION
+ms.keywords: ifsk.file_link_entry_information, ntifs/PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], _FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION, ntifs/FILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _FILE_LINK_ENTRY_INFORMATION {
 
 
 
-#### - NextEntryOffset
+### -field NextEntryOffset
 
 The offset, in bytes, to the next <b>FILE_LINK_ENTRY_INFORMATION</b> structure, or 0 if the current structure is the last  <b>FILE_LINK_ENTRY_INFORMATION</b> structure.
 
 
-#### - ParentFileId
+### -field ParentFileId
 
 The ID of the parent directory of the link.
 
 
-#### - FileNameLength
+### -field FileNameLength
 
 The length, in characters, of the <b>FileName</b> for the link.
 
 
-#### - FileName
+### -field FileName
 
 The name of the link.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueGetDevice, kmdf.wdfioqueuegetdevice, PFN_WDFIOQUEUEGETDEVICE, wdf.wdfioqueuegetdevice, WdfIoQueueGetDevice, WdfIoQueueGetDevice method, DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml
+ms.keywords: DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, wdf.wdfioqueuegetdevice, PFN_WDFIOQUEUEGETDEVICE, WdfIoQueueGetDevice method, kmdf.wdfioqueuegetdevice, WdfIoQueueGetDevice, wdfio/WdfIoQueueGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ WDFDEVICE WdfIoQueueGetDevice(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 

@@ -82,7 +82,7 @@ VOID APIENTRY CsSetUnorderedAccessViews(
 
 
 
-#### - NumViews [in]
+### -param NumViews [in]
 
  The total number of views to set. 
 
@@ -94,24 +94,24 @@ VOID APIENTRY CsSetUnorderedAccessViews(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - Offset [in]
 
  The offset to the first view to set. 
 
 
-#### - phUnorderedAccessView [in]
+#### - hDevice [in]
 
- An array of handles to the driver's private data for unordered access view objects to set. Note that some handle values can be <b>NULL</b>. 
+ A handle to the display device (graphics context).
 
 
 #### - pUAVInitialCounts [in]
 
 An array of append and consume buffer offsets. A value of -1 indicates that the current offset should be kept. Any other values set the hidden counter for that appendable and consumable UAV. <i>pUAVInitialCounts</i> is only relevant for UAVs  of the <i>phUnorderedAccessView</i> array that were created with either <b>D3D11_DDI_BUFFER_UAV_FLAG_APPEND</b>  or <b>D3D11_DDI_BUFFER_UAV_FLAG_COUNTER</b> specified in the <b>Flags</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a> structure when the UAV was created; otherwise, the argument is ignored.
+
+
+#### - phUnorderedAccessView [in]
+
+ An array of handles to the driver's private data for unordered access view objects to set. Note that some handle values can be <b>NULL</b>. 
 
 
 ## -returns
@@ -134,9 +134,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
  
 

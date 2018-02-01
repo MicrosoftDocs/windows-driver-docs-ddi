@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 562EA523-A74D-4D46-8C01-12C745106F86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_query_perf_capabilities, pepfx/PPEP_PPM_QUERY_PERF_CAPABILITIES, _PEP_PPM_QUERY_PERF_CAPABILITIES, PPEP_PPM_QUERY_PERF_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_QUERY_PERF_CAPABILITIES, PEP_PPM_QUERY_PERF_CAPABILITIES, *PPEP_PPM_QUERY_PERF_CAPABILITIES, PEP_PPM_QUERY_PERF_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PERF_CAPABILITIES
+ms.keywords: PEP_PPM_QUERY_PERF_CAPABILITIES, PPEP_PPM_QUERY_PERF_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_PERF_CAPABILITIES, *PPEP_PPM_QUERY_PERF_CAPABILITIES, _PEP_PPM_QUERY_PERF_CAPABILITIES, kernel.pep_ppm_query_perf_capabilities, PEP_PPM_QUERY_PERF_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PERF_CAPABILITIES, pepfx/PEP_PPM_QUERY_PERF_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,32 +72,32 @@ typedef struct _PEP_PPM_QUERY_PERF_CAPABILITIES {
 
 
 
-#### - HighestPerformance
+### -field HighestPerformance
 
 [out] The highest performance level in platform-specific units. For more information, see Remarks.
 
 
-#### - NominalPerformance
+### -field NominalPerformance
 
 [out] The nominal performance level in platform-specific units. For more information, see Remarks.
 
 
-#### - LowestNonlinearPerformance
+### -field LowestNonlinearPerformance
 
 [out] The lowest nonlinear performance level in platform-specific units. For more information, see Remarks.
 
 
-#### - LowestPerformance
+### -field LowestPerformance
 
 [out] The lowest performance level in platform-specific units. For more information, see Remarks.
 
 
-#### - DomainId
+### -field DomainId
 
 [out] The domain ID of the processor performance domain.
 
 
-#### - DomainMembers
+### -field DomainMembers
 
 [out] The number of processors in this performance domain.
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f3b5d06d-0557-49a8-9c0d-be964203108a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], stream.bda_template_connection, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], *PBDA_TEMPLATE_CONNECTION, bdatypes/BDA_TEMPLATE_CONNECTION, bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION, _BDA_TEMPLATE_CONNECTION
+ms.keywords: BDA_TEMPLATE_CONNECTION, bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, stream.bda_template_connection, *PBDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION, bdatypes/BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], _BDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], bdatypes/PBDA_TEMPLATE_CONNECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,39 +70,39 @@ typedef struct _BDA_TEMPLATE_CONNECTION {
 
 
 
-#### - FromNodeType
+### -field FromNodeType
 
 Index of the element in the zero-based array of internal node types (KSNODE_DESCRIPTOR array) that indicates the node type where the connection begins or −1 to indicate that the connection begins at an upstream filter. 
 
 
-#### - FromNodePinType
+### -field FromNodePinType
 
 Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX array) that indicates the pin type where the connection begins. The array of pin types is the list of pin types that are available in the filter's template topology. 
 
 
-#### - ToNodeType
+### -field ToNodeType
 
 Index of the element in the zero-based array of internal node types (KSNODE_DESCRIPTOR array) that indicates the node type where the connection ends or −1 to indicate that the connection ends at a downstream filter. 
 
 
-#### - ToNodePinType
+### -field ToNodePinType
 
 Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX array) that indicates the pin type where the connection ends. The array of pin types is the list of pin types that are available in the filter's template topology. 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 <a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
 
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
 <a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
 
  
 

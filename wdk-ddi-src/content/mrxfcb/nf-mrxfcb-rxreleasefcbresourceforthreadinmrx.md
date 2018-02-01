@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 86b6f18b-4088-4fa3-ace3-f083f61ef0d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxReleaseFcbResourceForThreadInMRx, ifsk.rxreleasefcbresourceforthreadinmrx, rxref_bed9a8b0-1761-413e-b816-599b51a7f305.xml, RxReleaseFcbResourceForThreadInMRx function [Installable File System Drivers], mrxfcb/RxReleaseFcbResourceForThreadInMRx
+ms.keywords: mrxfcb/RxReleaseFcbResourceForThreadInMRx, RxReleaseFcbResourceForThreadInMRx function [Installable File System Drivers], RxReleaseFcbResourceForThreadInMRx, ifsk.rxreleasefcbresourceforthreadinmrx, rxref_bed9a8b0-1761-413e-b816-599b51a7f305.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ VOID RxReleaseFcbResourceForThreadInMRx(
 
 
 
-#### - pRxContext [in]
+### -param pRxContext [in]
 
 A pointer to the RX_CONTEXT structure.
 
 
-#### - MrxFcb [in, out]
+### -param MrxFcb [in, out]
 
 A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - ResourceThreadId [in]
+### -param ResourceThreadId [in]
 
 The thread ID that originally acquired the resource.
 
@@ -102,13 +102,13 @@ The <b>RxReleaseFcbResourceForThreadInMRx</b> routine will release an FCB resour
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
-
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
-
 <a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrx.md">RxAcquireSharedFcbResourceInMRx</a>
 
 <a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
+
+<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
+
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
 
  
 

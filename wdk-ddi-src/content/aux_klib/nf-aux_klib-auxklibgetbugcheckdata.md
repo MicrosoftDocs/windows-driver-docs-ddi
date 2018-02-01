@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d41d0eba-14e3-48ff-874d-e52589cf716c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.auxklibgetbugcheckdata, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture], aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, aux_klib/AuxKlibGetBugCheckData, AuxKlibGetBugCheckData
+ms.keywords: aux_klib/AuxKlibGetBugCheckData, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture], aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, kernel.auxklibgetbugcheckdata, AuxKlibGetBugCheckData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS AuxKlibGetBugCheckData(
 
 
 
-#### - BugCheckData [out]
+### -param BugCheckData [out]
 
 A pointer to a <a href="..\aux_klib\ns-aux_klib-_kbugcheck_data.md">KBUGCHECK_DATA</a> structure that contains information about the bug check. The <i>BugCheckData</i> size of this structure should be set equal to the size, in bytes, of the <b>KBUGCHECK_DATA</b> structure.
 
@@ -93,9 +93,9 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 <a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-
 <a href="..\aux_klib\ns-aux_klib-_kbugcheck_data.md">KBUGCHECK_DATA</a>
+
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
  
 

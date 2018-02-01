@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassRegisterFilterWithNoKSPins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], StreamClassRegisterFilterWithNoKSPins, stream.streamclassregisterfilterwithnokspins
+ms.keywords: stream.streamclassregisterfilterwithnokspins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strmini/StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,32 +74,32 @@ NTSTATUS StreamClassRegisterFilterWithNoKSPins(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 Points to the driver's device object.
 
 
-#### - InterfaceClassGUID [in]
+### -param InterfaceClassGUID [in]
 
 Specifies the interface class GUID to register.
 
 
-#### - PinCount [in]
+### -param PinCount [in]
 
 Specifies the number of pins on the filter.
 
 
-#### - PinDirection [in]
+### -param PinDirection [in]
 
 Specifies a <i>PinCount</i>-sized array of Boolean values, one for each pin on the filter. The values indicate the pin direction for each pin. If <b>TRUE</b>, this pin is an output pin. If <b>FALSE</b>, the pin is an input pin.
 
 
-#### - MediumList [in]
+### -param MediumList [in]
 
 Specifies a <i>PinCount</i>-sized array of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structures, one for each pin on the filter.
 
 
-#### - CategoryList [in, optional]
+### -param CategoryList [in, optional]
 
 If non-NULL, specifies an array of pin category GUIDs, one for each pin on the filter.
 

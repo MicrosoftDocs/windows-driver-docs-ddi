@@ -54,8 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol or intermediate driver's 
   <i>ProtocolTcpOffloadForwardComplete</i> function to complete a forward operation that the driver previously
   initiated by calling the 
-  <mshelp:link keywords="netvista.ndisoffloadtcpdisconnect" tabindex="0"><b>
-  NdisOffloadTcpForward</b></mshelp:link> function.
+  <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">
+  NdisOffloadTcpForward</a> function.
 
 
 ## -prototype
@@ -77,7 +77,7 @@ VOID ProtocolTcpOffloadForwardComplete(
 
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
@@ -85,7 +85,7 @@ A handle to a context area allocated by the protocol driver. The driver maintain
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-#### - NetBufferList [in]
+### -param NetBufferList [in]
 
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
@@ -135,14 +135,14 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-   NdisTcpOffloadForwardComplete</b></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+   NdisTcpOffloadForwardComplete</a>
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
 
  
 

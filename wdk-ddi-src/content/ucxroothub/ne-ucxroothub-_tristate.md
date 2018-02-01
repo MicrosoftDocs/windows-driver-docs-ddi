@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TriStateUnknown, TriStateFalse, TriStateTrue, ucxroothub/TRISTATE, TRISTATE enumeration [Buses], ucxroothub/TriStateFalse, _TRISTATE, TRISTATE, ucxroothub/TriStateUnknown, ucxroothub/TriStateTrue, buses.tristate
+ms.keywords: ucxroothub/TriStateFalse, _TRISTATE, TriStateTrue, ucxroothub/TRISTATE, TriStateFalse, TRISTATE enumeration [Buses], ucxroothub/TriStateTrue, buses.tristate, ucxroothub/TriStateUnknown, TRISTATE, TriStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,17 +70,17 @@ typedef enum _TRISTATE {
 
 
 
-#### - TriStateUnknown
+### -field TriStateUnknown
 
 State is unknown.
 
 
-#### - TriStateFalse
+### -field TriStateFalse
 
 State is a false boolean value.
 
 
-#### - TriStateTrue
+### -field TriStateTrue
 
 State is a true boolean value.
 

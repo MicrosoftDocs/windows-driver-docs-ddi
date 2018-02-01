@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f727d9b7-d7ea-4551-bc5a-7829f9807e02
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest2_retrieveinputbuffer, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, RetrieveInputBuffer, IWDFIoRequest2 interface, RetrieveInputBuffer method, RetrieveInputBuffer method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_retrieveinputbuffer, IWDFIoRequest2, RetrieveInputBuffer method, wudfddi/IWDFIoRequest2::RetrieveInputBuffer, IWDFIoRequest2::RetrieveInputBuffer
+ms.keywords: UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, umdf.iwdfiorequest2_retrieveinputbuffer, IWDFIoRequest2::RetrieveInputBuffer, IWDFIoRequest2, RetrieveInputBuffer method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer, wdf.iwdfiorequest2_retrieveinputbuffer, RetrieveInputBuffer method, IWDFIoRequest2 interface, RetrieveInputBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,17 +72,17 @@ HRESULT RetrieveInputBuffer(
 
 
 
-#### - MinimumRequiredCb [in]
+### -param MinimumRequiredCb [in]
 
 The minimum buffer size, in bytes, that the driver needs to process the I/O request. This value can be zero if there is no minimum buffer size.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a location that receives the buffer's address.
 
 
-#### - BufferCb [out, optional]
+### -param BufferCb [out, optional]
 
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
@@ -148,17 +148,17 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
  
 

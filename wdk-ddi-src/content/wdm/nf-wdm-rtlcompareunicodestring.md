@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCompareUnicodeString, wdm/RtlCompareUnicodeString, k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlcompareunicodestring
+ms.keywords: RtlCompareUnicodeString, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString, k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ LONG RtlCompareUnicodeString(
 
 
 
-#### - String1 [in]
+### -param String1 [in]
 
 Pointer to the first string.
 
 
-#### - String2 [in]
+### -param String2 [in]
 
 Pointer to the second string.
 
 
-#### - CaseInSensitive [in]
+### -param CaseInSensitive [in]
 
 If <b>TRUE</b>, case should be ignored when doing the comparison. 
 
@@ -133,9 +133,9 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
-
 <a href="..\ntddk\nf-ntddk-rtlcomparestring.md">RtlCompareString</a>
+
+<a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
 
  
 

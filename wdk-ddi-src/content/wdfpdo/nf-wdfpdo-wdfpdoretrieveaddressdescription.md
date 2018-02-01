@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b19e6492-af8d-48dc-8d17-81c2d8c25a6a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, kmdf.wdfpdoretrieveaddressdescription, WdfPdoRetrieveAddressDescription, PFN_WDFPDORETRIEVEADDRESSDESCRIPTION, wdf.wdfpdoretrieveaddressdescription, wdfpdo/WdfPdoRetrieveAddressDescription, WdfPdoRetrieveAddressDescription method
+ms.keywords: WdfPdoRetrieveAddressDescription method, wdf.wdfpdoretrieveaddressdescription, kmdf.wdfpdoretrieveaddressdescription, PFN_WDFPDORETRIEVEADDRESSDESCRIPTION, WdfPdoRetrieveAddressDescription, wdfpdo/WdfPdoRetrieveAddressDescription, DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,12 +72,12 @@ NTSTATUS WdfPdoRetrieveAddressDescription(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object that represents the device's physical device object (PDO).
 
 
-#### - AddressDescription [in, out]
+### -param AddressDescription [in, out]
 
 A pointer to a caller-allocated buffer that will receive the address description. The address description must contain a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 

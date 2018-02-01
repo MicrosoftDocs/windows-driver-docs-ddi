@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B460BE83-7050-469A-9AD6-68A47F03EB4B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltQueryQuotaInformationFile function [Installable File System Drivers], FltQueryQuotaInformationFile, fltkernel/FltQueryQuotaInformationFile, ifsk.fltqueryquotainformationfile
+ms.keywords: fltkernel/FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], ifsk.fltqueryquotainformationfile, FltQueryQuotaInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,57 +77,57 @@ NTSTATUS FltQueryQuotaInformationFile(
 
 
 
-#### - Instance [in]
+### -param Instance [in]
 
 An opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A file object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 A caller-supplied <b>IO_STATUS_BLOCK</b> to receive the result of the call to <b>FltQueryQuotaInformationFile</b>. If the call  fails because of an invalid <b>SID</b> list, the <b>Information</b> field will contain the location in <i>SidList</i> where the error occurred.
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to a caller-supplied <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md"> FILE_GET_QUOTA_INFORMATION</a>-structured input buffer where the quota information values are to be returned. 
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
 
 
-#### - ReturnSingleEntry [in]
+### -param ReturnSingleEntry [in]
 
 Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should return only the first entry that is found. 
 
 
-#### - SidList [in, optional]
+### -param SidList [in, optional]
 
 A pointer to a caller-supplied <a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that specifies the quota information to be queried. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - SidListLength [in]
+### -param SidListLength [in]
 
 The length, in bytes, of the buffer that the <i>SidList</i> parameter points to. 
 
 
-#### - StartSid [in, optional]
+### -param StartSid [in, optional]
 
 The index of the entry at which to begin scanning the file's quota information list. This parameter is ignored if the <i>SidList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - RestartScan [in]
+### -param RestartScan [in]
 
 Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should begin the scan at the first entry in the file's quota information list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryQuotaInformationFile</b>. 
 
 
-#### - LengthReturned [out, optional]
+### -param LengthReturned [out, optional]
 
 A pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in <i>Buffer</i>. This parameter is optional and can be <b>NULL</b>. 
 
@@ -160,9 +160,9 @@ The instance or volume is being torn down. This is an error code.
 
 <a href="..\ntifs\nf-ntifs-zwqueryquotainformationfile.md">ZwQueryQuotaInformationFile</a>
 
-<a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltsetquotainformationfile.md">FltSetQuotaInformationFile</a>
+
+<a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c325c16-6bc6-4eae-a58c-234d11616780
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_SECURITY_IMPERSONATION_LEVEL, wdf.security_impersonation_level, SECURITY_IMPERSONATION_LEVEL enumeration, wudfddi/SecurityAnonymous, SecurityIdentification, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityDelegation, SecurityImpersonation, wudfddi/SecurityIdentification, SecurityAnonymous, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, umdf.security_impersonation_level, SecurityDelegation, wudfddi/SecurityImpersonation, SECURITY_IMPERSONATION_LEVEL"
+ms.keywords: wudfddi/SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL, _SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityDelegation, SecurityDelegation, wdf.security_impersonation_level, wudfddi/SecurityImpersonation, SecurityIdentification, SECURITY_IMPERSONATION_LEVEL enumeration, SecurityAnonymous, wudfddi/SecurityAnonymous, wudfddi/SecurityIdentification, SecurityImpersonation, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, umdf.security_impersonation_level
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _SECURITY_IMPERSONATION_LEVEL {
 
 
 
-#### - SecurityAnonymous
+### -field SecurityAnonymous
 
 The driver cannot impersonate or identify the client.
 
 
-#### - SecurityIdentification
+### -field SecurityIdentification
 
 The driver can obtain the identity and privileges of the client but cannot impersonate the client.
 
 
-#### - SecurityImpersonation
+### -field SecurityImpersonation
 
 The driver can impersonate the client's security context on the local system.
 
 
-#### - SecurityDelegation
+### -field SecurityDelegation
 
 The driver can impersonate the client's security context on remote systems.
 

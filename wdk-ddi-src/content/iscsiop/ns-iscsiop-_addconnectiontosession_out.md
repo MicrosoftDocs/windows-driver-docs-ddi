@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c7df21b-c7cd-4492-b457-6c2e82286961
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAddConnectionToSession_OUT, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml, PAddConnectionToSession_OUT structure pointer [Storage Devices], *PAddConnectionToSession_OUT, _AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], iscsiop/PAddConnectionToSession_OUT, storage.addconnectiontosession_out, AddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT
+ms.keywords: "*PAddConnectionToSession_OUT, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml, iscsiop/AddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices], AddConnectionToSession_OUT, PAddConnectionToSession_OUT, iscsiop/PAddConnectionToSession_OUT, _AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], storage.addconnectiontosession_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _AddConnectionToSession_OUT {
 
 
 
-#### - Status
+### -field Status
 
 The status of the <b>AddConnectionToSession </b>operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.  
 
 
-#### - UniqueConnectionId
+### -field UniqueConnectionId
 
 A 64-bit integer that uniquely identifies the connection across the entire network.
 
@@ -87,11 +87,11 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 <a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_in.md">AddConnectionToSession_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 

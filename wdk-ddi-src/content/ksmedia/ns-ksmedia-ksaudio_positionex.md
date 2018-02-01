@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 63cd938c-1ccd-4f67-a4eb-2898002ae762
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksaudio_positionex, PKSAUDIO_POSITIONEX structure pointer [Audio Devices], PKSAUDIO_POSITIONEX, aud-prop_9a418d76-9a4f-4626-b6db-64ed4fcedb18.xml, ksmedia/PKSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX structure [Audio Devices], *PKSAUDIO_POSITIONEX, ksmedia/KSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX
+ms.keywords: "*PKSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX structure [Audio Devices], ksmedia/PKSAUDIO_POSITIONEX, ksmedia/KSAUDIO_POSITIONEX, PKSAUDIO_POSITIONEX structure pointer [Audio Devices], audio.ksaudio_positionex, aud-prop_9a418d76-9a4f-4626-b6db-64ed4fcedb18.xml, KSAUDIO_POSITIONEX, PKSAUDIO_POSITIONEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct {
 
 
 
-#### - TimerFrequency
+### -field TimerFrequency
 
 Specifies the number of ticks per second for the timer that produces the timestamps.
 
 
-#### - TimeStamp1
+### -field TimeStamp1
 
 Specifies the timestamp that is taken immediately prior to the acquisition of the position information.
 
 
-#### - Position
+### -field Position
 
 Specifies the position of the read cursor and the write cursor in the audio buffer of an audio stream.
 
 
-#### - TimeStamp2
+### -field TimeStamp2
 
 Specifies the timestamp that is taken immediately after the acquisition of the position information.
 

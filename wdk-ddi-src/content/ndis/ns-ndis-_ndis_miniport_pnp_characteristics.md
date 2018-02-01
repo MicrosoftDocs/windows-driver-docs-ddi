@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97820a22-aa20-4d47-a4c2-0c0d50540823
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_MINIPORT_PNP_CHARACTERISTICS, NDIS_MINIPORT_PNP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_PNP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis_msix_ref_0f6182d0-b82c-4420-828e-e59d98fc82da.xml, *PNDIS_MINIPORT_PNP_CHARACTERISTICS, NDIS_MINIPORT_PNP_CHARACTERISTICS, _NDIS_MINIPORT_PNP_CHARACTERISTICS, PNDIS_MINIPORT_PNP_CHARACTERISTICS, ndis/PNDIS_MINIPORT_PNP_CHARACTERISTICS, netvista.ndis_miniport_pnp_characteristics
+ms.keywords: "*PNDIS_MINIPORT_PNP_CHARACTERISTICS, ndis/PNDIS_MINIPORT_PNP_CHARACTERISTICS, NDIS_MINIPORT_PNP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis_msix_ref_0f6182d0-b82c-4420-828e-e59d98fc82da.xml, NDIS_MINIPORT_PNP_CHARACTERISTICS, ndis/NDIS_MINIPORT_PNP_CHARACTERISTICS, netvista.ndis_miniport_pnp_characteristics, _NDIS_MINIPORT_PNP_CHARACTERISTICS, PNDIS_MINIPORT_PNP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_PNP_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _NDIS_MINIPORT_PNP_CHARACTERISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -84,34 +84,34 @@ The
      <b>Size</b> member to NDIS_SIZEOF_MINIPORT_PNP_CHARACTERISTICS_REVISION_1.
 
 
-#### - MiniportAddDeviceHandler
+### -field MiniportAddDeviceHandler
 
 The entry point of the caller's 
      <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function.
 
 
-#### - MiniportRemoveDeviceHandler
+### -field MiniportRemoveDeviceHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.miniportremovedevice" tabindex="0"><i>
-     MiniportRemoveDevice</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_remove_device.md">
+     MiniportRemoveDevice</a> function.
 
 
-#### - MiniportFilterResourceRequirementsHandler
+### -field MiniportFilterResourceRequirementsHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-     MiniportFilterResourceRequirements</i></mshelp:link> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+     MiniportFilterResourceRequirements</a> function.
 
 
-#### - MiniportStartDeviceHandler
+### -field MiniportStartDeviceHandler
 
 The entry point of the caller's 
      <a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a> function, if
      any. If this function is not required, set this member to <b>NULL</b>.
 
 
-#### - Flags
+### -field Flags
 
 Reserved.
 
@@ -133,20 +133,20 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
 
 <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-   MiniportFilterResourceRequirements</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 <a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 2305ffbd-22c8-4f63-bbe4-fd297bf98e39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PPCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml, _PCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], PCI_EXPRESS_PME_REQUESTOR_ID union [Buses]"
+ms.keywords: pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml, *PPCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], PCI.pci_express_pme_requestor_id, PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], PCI_EXPRESS_PME_REQUESTOR_ID, _PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,37 +79,22 @@ typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
 
 ### -field DUMMYSTRUCTNAME.FunctionNumber
 
- 
+The function number of the requester.
 
 
 ### -field DUMMYSTRUCTNAME.DeviceNumber
 
- 
+The device number of the requester.
 
 
 ### -field DUMMYSTRUCTNAME.BusNumber
 
- 
+The bus number of the requester.
 
 
-#### - AsUSHORT
+### -field AsUSHORT
 
 A USHORT representation of the contents of the PCI_EXPRESS_PME_REQUESTOR_ID structure.
-
-
-#### - FunctionNumber
-
-The function number of the requester.
-
-
-#### - DeviceNumber
-
-The device number of the requester.
-
-
-#### - BusNumber
-
-The bus number of the requester.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3fb9abdd-f2c0-41b4-8df9-2f7f5065f90c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetFieldName, IDebugSymbols3, GetFieldName method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetFieldName method, IDebugSymbols2 interface [Windows Debugging], GetFieldName method, debugger.getfieldname, IDebugSymbols3::GetFieldName, dbgeng/IDebugSymbols3::GetFieldName, dbgeng/IDebugSymbols2::GetFieldName, GetFieldName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml, GetFieldName method [Windows Debugging], IDebugSymbols3 interface, GetFieldName
+ms.keywords: GetFieldName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldName method, IDebugSymbols2::GetFieldName, IDebugSymbols2 interface [Windows Debugging], GetFieldName method, GetFieldName method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetFieldName, IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml, GetFieldName method [Windows Debugging], GetFieldName, debugger.getfieldname, dbgeng/IDebugSymbols2::GetFieldName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ HRESULT GetFieldName(
 
 
 
-#### - Module [in]
+### -param Module [in]
 
 Specifies the base address of the module in which the structure was defined.
 
 
-#### - TypeId [in]
+### -param TypeId [in]
 
 Specifies the type ID of the structure.
 
 
-#### - FieldIndex [in]
+### -param FieldIndex [in]
 
 Specifies the index of the desired field within the structure. 
 
 
-#### - NameBuffer [out, optional]
+### -param NameBuffer [out, optional]
 
 Receives the field's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - NameBufferSize [in]
+### -param NameBufferSize [in]
 
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-#### - NameSize [out, optional]
+### -param NameSize [out, optional]
 
 Receives the size in characters of the field's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient::GetOutputLinePrefix, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], IDebugClient, IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
+ms.keywords: debugger.idebugclient_getoutputlineprefix, GetOutputLinePrefix, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, IDebugClient, GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient::GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], IDebugClient::GetOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ HRESULT GetOutputLinePrefix(
 
 
 
-#### - Buffer [out]
+### -param Buffer [out]
 
 A pointer to the buffer to get the prefix.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The size of the buffer.
 
 
-#### - PrefixSize [out, optional]
+### -param PrefixSize [out, optional]
 
 A pointer to the size of the buffer.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5ef6491d-90bb-472c-821a-b296bef17463
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFTimerObjectRef_cacde276-7a83-4a7f-87e1-de043aee4725.xml, WDF_TIMER_CONFIG, _WDF_TIMER_CONFIG, PWDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG, wdf.wdf_timer_config, wdftimer/PWDF_TIMER_CONFIG, wdftimer/WDF_TIMER_CONFIG, kmdf.wdf_timer_config, PWDF_TIMER_CONFIG structure pointer, WDF_TIMER_CONFIG structure
+ms.keywords: wdf.wdf_timer_config, WDF_TIMER_CONFIG, _WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG, WDF_TIMER_CONFIG structure, kmdf.wdf_timer_config, wdftimer/WDF_TIMER_CONFIG, PWDF_TIMER_CONFIG structure pointer, PWDF_TIMER_CONFIG, wdftimer/PWDF_TIMER_CONFIG, DFTimerObjectRef_cacde276-7a83-4a7f-87e1-de043aee4725.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,27 +75,27 @@ typedef struct _WDF_TIMER_CONFIG {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - EvtTimerFunc
+### -field EvtTimerFunc
 
 A pointer to a driver-supplied <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function, or <b>NULL</b>.
 
 
-#### - Period
+### -field Period
 
 A time period, in milliseconds. The framework calls the driver's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function repeatedly, whenever the specified number of milliseconds elapses. If this value is zero, the framework does not call the driver's <i>EvtTimerFunc</i> callback function repeatedly. Instead, it calls the callback function once, after the <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a> method's <i>DueTime</i> has elapsed. (The time period must be zero if <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a> sets the execution level to <a href="..\wdfobject\ne-wdfobject-_wdf_execution_level.md">WdfExecutionLevelPassive</a>.) The time period cannot be a negative value.
 
 
-#### - AutomaticSerialization
+### -field AutomaticSerialization
 
 A Boolean value that, if <b>TRUE</b>, indicates that the framework will synchronize execution of the timer object's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function with callback functions from other objects that are underneath the timer's parent device object. For more information, see the following Remarks section. If <b>FALSE</b>, the framework does not synchronize execution of the <i>EvtTimerFunc</i> callback function.
 
 
-#### - TolerableDelay
+### -field TolerableDelay
 
 Specifies a tolerance, in milliseconds, for the timer period that <i>Period</i> specifies and for the initial time interval that the <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a> method's <i>DueTime</i> specifies. For a periodic timer, the time interval between two successive timer expirations will be in the range from (<i>Period</i> - <i>TolerableDelay</i>) to (<i>Period</i> + <i>TolerableDelay</i>). The initial expiration time will be in the range from <i>DueTime</i> to (<i>DueTime</i> + <i>TolerableDelay</i>). The <i>TolerableDelay</i> value cannot be negative.
 
@@ -108,7 +108,7 @@ If  <b>UseHighResolutionTimer</b> is <b>WdfTrue</b>, you must set <b>TolerableDe
 For more information about this member, see the following Remarks section.
 
 
-#### - UseHighResolutionTimer
+### -field UseHighResolutionTimer
 
 <b>KMDF only</b>
 
@@ -144,13 +144,13 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
+<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
 
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
+<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
 

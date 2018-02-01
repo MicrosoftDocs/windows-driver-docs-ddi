@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 2C7071A4-B978-408C-9C98-67BC63F2BBCA
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_CE_NFC_A, NFC_CX_CE_NFC_A, nfpdrivers.nfc_cx_ce_mode_config, NFC_CX_CE_NFC_B, nfccx/NFC_CX_CE_NFC_B, nfccx/NFC_CX_CE_DEFAULT, NFC_CX_CE_NFC_F, nfccx/NFC_CX_CE_NFC_F, NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_DEFAULT, NFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], _NFC_CX_CE_MODE_CONFIG
+ms.keywords: nfccx/NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_CE_DEFAULT, nfccx/NFC_CX_CE_NFC_A, NFC_CX_CE_NFC_B, nfccx/NFC_CX_CE_DEFAULT, nfccx/NFC_CX_CE_NFC_B, NFC_CX_CE_NFC_F, *PNFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_NFC_F, _NFC_CX_CE_MODE_CONFIG, nfpdrivers.nfc_cx_ce_mode_config, NFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG, NFC_CX_CE_NFC_A
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,31 +70,31 @@ typedef enum _NFC_CX_CE_MODE_CONFIG {
 
 
 
-#### - NFC_CX_CE_NFC_A
+### -field NFC_CX_CE_NFC_A
 
 Specifies NFC-A listening mode.
 
 
-#### - NFC_CX_CE_NFC_B
+### -field NFC_CX_CE_NFC_B
 
 Specifies NFC-B listening mode.
 
 
-#### - NFC_CX_CE_NFC_F
+### -field NFC_CX_CE_NFC_F
 
 Specifies NFC-F listening mode.
 
 
-#### - NFC_CX_CE_DEFAULT
+### -field NFC_CX_CE_DEFAULT
 
 Specifies NFC-A, NFC-B, and NFC-F listening mode.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

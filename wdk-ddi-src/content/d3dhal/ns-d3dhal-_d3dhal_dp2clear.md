@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8cd81cae-8d6b-48d8-afdc-87e3a81653f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2clear, D3DHAL_DP2CLEAR structure [Display Devices], d3dhal/D3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, _D3DHAL_DP2CLEAR, *LPD3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR, d3dhal/LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices]
+ms.keywords: "*LPD3DHAL_DP2CLEAR, d3dhal/LPD3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR structure [Display Devices], d3dhal/D3DHAL_DP2CLEAR, _D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], display.d3dhal_dp2clear"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _D3DHAL_DP2CLEAR {
 
 
 
-#### - dwFlags
+### -field dwFlags
 
 Specifies what buffers the driver should clear. This member can be a bitwise OR of the following values:
 <table>
@@ -124,22 +124,22 @@ If this flag is set, the specified rectangles should be clipped against the curr
 </table> 
 
 
-#### - dwFillColor
+### -field dwFillColor
 
 Specifies the color that the driver should clear the context's render target to.
 
 
-#### - dvFillDepth
+### -field dvFillDepth
 
 Specifies the value that the driver should use to set the depth in the context's depth buffer. This member can be a value in the interval 0.0 to 1.0. The driver should convert this value to an integer using the <b>dwZBitMask</b> member of the depth buffer's <a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a> structure.
 
 
-#### - dwFillStencil
+### -field dwFillStencil
 
 Specifies the value that the driver should clear the context's stencil buffer to. This member can be an integer in the interval 0 to 2ⁿ-1, where <i>n</i> is the number of bits in the stencil buffer.
 
 
-#### - Rects
+### -field Rects
 
 Specifies the rectangular areas of the buffer that the driver should clear. The rectangles are specified in screen coordinates. This member of the structure contains the first rectangle area to be blitted. The <b>wStateCount</b> member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> contains the total number of rectangle areas to be blitted. The other (<b>wStateCount</b>-1) RECT structures required follow the D3DHAL_DP2CLEAR structure without any padding.
 
@@ -159,9 +159,9 @@ Display drivers must convert input color values for the ARGB and YUV classes of 
 
 <a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
 
-D3DDP2OP_CLEAR
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+D3DDP2OP_CLEAR
 
  
 

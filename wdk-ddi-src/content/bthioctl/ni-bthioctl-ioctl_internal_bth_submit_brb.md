@@ -108,8 +108,8 @@ BRB_L2CA_UNREGISTER_SERVER
 </td>
 <td>
 
-<mshelp:link keywords="bltooth._brb_l2ca_unregister_server" tabindex="0"><b>
-          _BRB_L2CA_UNREGISTER_SERVER</b></mshelp:link>
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_unregister_server.md">
+          _BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 </td>
@@ -349,8 +349,8 @@ BRB_GET_DEVICE_INTERFACE_STRING
 </td>
 <td>
 
-<mshelp:link keywords="bltooth._brb_get_device_interface_string" tabindex="0"><b>
-          _BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>
+<a href="..\bthddi\ns-bthddi-_brb_get_device_interface_string.md">
+          _BRB_GET_DEVICE_INTERFACE_STRING</a>
 
 
 </td>
@@ -502,11 +502,11 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

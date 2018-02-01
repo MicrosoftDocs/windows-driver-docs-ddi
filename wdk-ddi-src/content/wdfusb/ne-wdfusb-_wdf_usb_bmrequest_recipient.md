@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0749d03d-8174-4f6e-816e-4689594c0c84
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_bmrequest_recipient, wdfusb/BmRequestToEndpoint, DFUsbRef_646fa8bb-2b05-4247-b3e8-01daad8b204e.xml, kmdf.wdf_usb_bmrequest_recipient, BmRequestToDevice, BmRequestToInterface, WDF_USB_BMREQUEST_RECIPIENT enumeration, _WDF_USB_BMREQUEST_RECIPIENT, WDF_USB_BMREQUEST_RECIPIENT, BmRequestToEndpoint, wdfusb/BmRequestToOther, wdfusb/BmRequestToDevice, wdfusb/BmRequestToInterface, BmRequestToOther, wdfusb/WDF_USB_BMREQUEST_RECIPIENT
+ms.keywords: BmRequestToDevice, BmRequestToEndpoint, _WDF_USB_BMREQUEST_RECIPIENT, wdfusb/BmRequestToOther, BmRequestToInterface, kmdf.wdf_usb_bmrequest_recipient, DFUsbRef_646fa8bb-2b05-4247-b3e8-01daad8b204e.xml, wdfusb/WDF_USB_BMREQUEST_RECIPIENT, WDF_USB_BMREQUEST_RECIPIENT, wdfusb/BmRequestToInterface, wdfusb/BmRequestToEndpoint, BmRequestToOther, wdf.wdf_usb_bmrequest_recipient, WDF_USB_BMREQUEST_RECIPIENT enumeration, wdfusb/BmRequestToDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,22 +73,22 @@ typedef enum _WDF_USB_BMREQUEST_RECIPIENT {
 
 
 
-#### - BmRequestToDevice
+### -field BmRequestToDevice
 
 The data transfer recipient is a device.
 
 
-#### - BmRequestToInterface
+### -field BmRequestToInterface
 
 The data transfer recipient is a device interface.
 
 
-#### - BmRequestToEndpoint
+### -field BmRequestToEndpoint
 
 The data transfer recipient is a pipe endpoint.
 
 
-#### - BmRequestToOther
+### -field BmRequestToOther
 
 The data transfer recipient is not a device, interface, or endpoint.
 

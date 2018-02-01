@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd602dd6-c216-413a-a4da-292739774937
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, *PNDIS_PORT_CHARACTERISTICS, ntddndis/NDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NDIS_PORT_CHARACTERISTICS, ntddndis/PNDIS_PORT_CHARACTERISTICS, netvista.ndis_port_characteristics
+ms.keywords: NDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_CHARACTERISTICS, _NDIS_PORT_CHARACTERISTICS, *PNDIS_PORT_CHARACTERISTICS, ntddndis/PNDIS_PORT_CHARACTERISTICS, netvista.ndis_port_characteristics, ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, ntddndis/NDIS_PORT_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ typedef struct _NDIS_PORT_CHARACTERISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -89,14 +89,14 @@ The
      <b>Size</b> member to NDIS_SIZEOF_PORT_CHARACTERISTICS_REVISION_1.
 
 
-#### - PortNumber
+### -field PortNumber
 
 The number of the NDIS port that is associated with this <b>NDIS_PORT_CHARACTERISTICS</b> structure. The 
      <b>PortNumber</b> value is an NDIS_PORT_NUMBER value, which has a ULONG data type and is valid from zero
      through 0xffffff, where zero is reserved for the default port.
 
 
-#### - Flags
+### -field Flags
 
 A bitwise OR combination of the port characteristics flags, or zero if no flags are set. There is
      currently one flag.
@@ -110,7 +110,7 @@ If the NDIS_PORT_CHAR_USE_DEFAULT_AUTH_SETTINGS flag is set, NDIS ignores authen
      with the default authentication state settings.
 
 
-#### - Type
+### -field Type
 
 The type of NDIS port. For more information, see <a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>. This type can be one of the following values:
      
@@ -118,9 +118,9 @@ The type of NDIS port. For more information, see <a href="https://msdn.microsoft
 
 
 
-#### NdisPortTypeUndefined
+#### NdisPortType8021xSupplicant
 
-The default port type.
+A remote wireless station that is associated with an access point on this host computer.
 
 
 #### NdisPortTypeBridge
@@ -128,59 +128,54 @@ The default port type.
 Reserved for system use.
 
 
-#### NdisPortTypeRasConnection
-
-A Remote Access Service (RAS) connection.
-
-
-#### NdisPortType8021xSupplicant
-
-A remote wireless station that is associated with an access point on this host computer.
-
-
 #### NdisPortTypeNdisImPlatform
 
 Reserved for system use.
 <div class="alert"><b>Note</b>  This value is supported only in NDIS 6.30 and later.</div><div> </div>
 
-#### - MediaConnectState
+#### NdisPortTypeRasConnection
+
+A Remote Access Service (RAS) connection.
+
+
+#### NdisPortTypeUndefined
+
+The default port type.
+
+
+### -field MediaConnectState
 
 The media connection state of the port. This state is the same information that the 
-     <mshelp:link keywords="netvista.oid_gen_media_connect_status_ex" tabindex="0">
-     OID_GEN_MEDIA_CONNECT_STATUS_EX</mshelp:link> OID returns.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+     OID_GEN_MEDIA_CONNECT_STATUS_EX</a> OID returns.
 
 
-#### - XmitLinkSpeed
+### -field XmitLinkSpeed
 
 The transmit link speed of the port in bits per second. A value of -1 in this member indicates
      that the transmit link speed is unknown.
 
 
-#### - RcvLinkSpeed
+### -field RcvLinkSpeed
 
 The receive link speed of the port, in bits per second. A value of -1 in this member indicates
      that the receive link speed is unknown.
 
 
-#### - Direction
+### -field Direction
 
 A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
-#### - SendControlState
+### -field SendControlState
 
 The control state of the port for send operations. This member must contain one of the following
      values:
      
 
 
-
-
-#### NdisPortControlStateUnknown
-
-The port's control state for send operations is unknown.
 
 
 #### NdisPortControlStateControlled
@@ -195,18 +190,18 @@ The port is in an uncontrolled state for send operations. That is, the port does
        authorization.
 
 
-#### - RcvControlState
+#### NdisPortControlStateUnknown
+
+The port's control state for send operations is unknown.
+
+
+### -field RcvControlState
 
 The control state of the port for receive operations. This member must contain one of the
      following values:
      
 
 
-
-
-#### NdisPortControlStateUnknown
-
-The port's control state for receive operations is unknown.
 
 
 #### NdisPortControlStateControlled
@@ -222,7 +217,12 @@ The port is in an uncontrolled state for receive operations. Therefore, authenti
        apply to this port.
 
 
-#### - SendAuthorizationState
+#### NdisPortControlStateUnknown
+
+The port's control state for receive operations is unknown.
+
+
+### -field SendAuthorizationState
 
 The authorization state of the port for send operations. Ignore this member if the 
      <b>SendControlState</b> member is set to 
@@ -244,17 +244,17 @@ The port's authorization state for send operations is unknown.
 The port is authorized for send operations.
 
 
-#### NdisPortUnauthorized
-
-The port is not authorized for send operations.
-
-
 #### NdisPortReauthorizing
 
 The port is re-authorizing for send operations.
 
 
-#### - RcvAuthorizationState
+#### NdisPortUnauthorized
+
+The port is not authorized for send operations.
+
+
+### -field RcvAuthorizationState
 
 The authorization state of the port for receive operations. Ignore this member if the 
      <b>RcvControlState</b> member is set to 
@@ -276,14 +276,14 @@ The port's authorization state for receive operations is unknown.
 The port is authorized for receive operations.
 
 
-#### NdisPortUnauthorized
-
-The port is not authorized for receive operations.
-
-
 #### NdisPortReauthorizing
 
 The port is re-authorizing for receive operations.
+
+
+#### NdisPortUnauthorized
+
+The port is not authorized for receive operations.
 
 
 ## -remarks
@@ -312,17 +312,17 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_port_array.md">NDIS_PORT_ARRAY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 <a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 <a href="https://msdn.microsoft.com/e65f4af5-c527-4d6d-a38c-56da006b1ef7">NDIS Ports</a>
 

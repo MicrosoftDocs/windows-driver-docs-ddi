@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 697709D4-DBB7-4CB4-83A1-89E8BAFD68DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeDeregisterBoundCallback, wdm/KeDeregisterBoundCallback, kernel.kederegisterboundcallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture], wdm/KeDeregisterBoundCallback, KeDeregisterBoundCallback, kernel.kederegisterboundcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ NTSTATUS KeDeregisterBoundCallback(
 
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 Specifies the value returned by <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a> when the callback was registered. 
 

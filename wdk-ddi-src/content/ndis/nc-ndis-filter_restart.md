@@ -73,7 +73,7 @@ NDIS_STATUS FilterRestart(
 
 
 
-#### - FilterModuleContext [in]
+### -param FilterModuleContext [in]
 
 A handle to the context area for the filter module that the filter driver should restart. The
      filter driver created and initialized this context area in the 
@@ -90,8 +90,8 @@ A handle to the context area for the filter module that the filter driver should
 #### - FilterRestartParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_filter_restart_parameters" tabindex="0"><b>
-     NDIS_FILTER_RESTART_PARAMETERS</b></mshelp:link> structure that defines the restart parameters for the filter
+     <a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
+     NDIS_FILTER_RESTART_PARAMETERS</a> structure that defines the restart parameters for the filter
      module.
 
 
@@ -183,8 +183,8 @@ Optionally reallocates buffer pools.
 <li>
 Optionally modifies the restart attributes that are specified in the 
       <b>RestartAttributes</b> member of the 
-      <mshelp:link keywords="netvista.ndis_filter_restart_parameters" tabindex="0"><b>
-      NDIS_FILTER_RESTART_PARAMETERS</b></mshelp:link> structure. If the pointer in 
+      <a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
+      NDIS_FILTER_RESTART_PARAMETERS</a> structure. If the pointer in 
       <b>RestartAttributes</b> is <b>NULL</b>, the filter driver should not modify or add to the restart attributes
       list. If the pointer in 
       <b>RestartAttributes</b> is non-<b>NULL</b>, it points to the first 
@@ -208,15 +208,15 @@ Returns NDIS_STATUS_SUCCESS or a failure status.
 <li>
 Should not modify any media-specific attributes if it does not recognize the OID in the 
       <b>Oid</b> member of the 
-      <mshelp:link keywords="netvista.ndis_restart_attributes" tabindex="0"><b>
-      NDIS_RESTART_ATTRIBUTES</b></mshelp:link> structure.
+      <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">
+      NDIS_RESTART_ATTRIBUTES</a> structure.
 
 </li>
 <li>
 Can add new media-specific attributes to the list of restart attributes. In this situation, the
       filter driver must allocate a new NDIS_RESTART_ATTRIBUTES structure--for example, with the 
-      <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-      NdisAllocateMemoryWithTagPriority</b></mshelp:link> function--and provide memory space for the new attributes.
+      <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+      NdisAllocateMemoryWithTagPriority</a> function--and provide memory space for the new attributes.
       After propagating the restart attributes to overlying drivers, NDIS frees the attributes memory for
       filter drivers.
 
@@ -234,10 +234,10 @@ Can modify the media-specific attributes in the list of restart attributes. If t
 <li>
 Should, if the 
       <b>Oid</b> member in the NDIS_RESTART_ATTRIBUTES structure is 
-      <mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
-      OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link>, make sure that the 
-      <mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
-      NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link> structure contains the information that the filter driver
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+      OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>, make sure that the 
+      <a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+      NDIS_RESTART_GENERAL_ATTRIBUTES</a> structure contains the information that the filter driver
       requires. To make sure that the NDIS_RESTART_GENERAL_ATTRIBUTES structure contains the required
       information, you should check the 
       <b>Revision</b> member in the 
@@ -306,37 +306,37 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
 <a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
 
-<mshelp:link keywords="netvista.ndis_filter_restart_parameters" tabindex="0"><b>
-   NDIS_FILTER_RESTART_PARAMETERS</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
+   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
 
-<mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
-   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
+   NDIS_FILTER_RESTART_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
+<a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
 
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
 <a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
-
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
-   NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
  
 

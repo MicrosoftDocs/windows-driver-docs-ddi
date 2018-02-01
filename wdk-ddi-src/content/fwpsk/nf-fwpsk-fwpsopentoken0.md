@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B6C61023-F840-4517-83C1-BC9CBDFC27B0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsopentoken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], FwpsOpenToken0, fwpsk/FwpsOpenToken0
+ms.keywords: FwpsOpenToken0, fwpsk/FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], netvista.fwpsopentoken0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,25 +72,25 @@ NTSTATUS NTAPI NTAPI FwpsOpenToken0(
 
 
 
-#### - engineHandle [in]
+### -param engineHandle [in]
 
 A handle for an open session to the filter engine. A callout driver calls the 
      <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
 
-#### - modifiedId [in]
+### -param modifiedId [in]
 
 Specifies an <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> that changes each time the token is modified. An application can use this value as a test of whether a security context has changed since it was last used.
 
 
-#### - desiredAccess [in]
+### -param desiredAccess [in]
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<b>DACL</b>) to determine which accesses are granted or denied.
 
 
-#### - accessToken [out]
+### -param accessToken [out]
 
 Pointer to a caller-allocated variable that receives a handle to the newly opened access token.
 

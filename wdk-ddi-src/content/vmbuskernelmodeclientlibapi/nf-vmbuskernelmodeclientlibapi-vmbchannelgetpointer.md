@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelGetPointer, VmbChannelGetPointer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelGetPointer, netvista.vmbchannelgetpointer
+ms.keywords: netvista.vmbchannelgetpointer, VmbChannelGetPointer, vmbuskernelmodeclientlibapi/VmbChannelGetPointer, VmbChannelGetPointer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PVOID VmbChannelGetPointer(
 
 
 
-#### - Channel [in]
+### -param Channel [in]
 
 A handle for a channel.  
 

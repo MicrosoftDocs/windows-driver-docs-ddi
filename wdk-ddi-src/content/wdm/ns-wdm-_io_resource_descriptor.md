@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03e3a656-c691-4aff-bcc8-4e0bc8390fd7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CM_RESOURCE_INTERRUPT_LATCHED, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, PIO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], IO_RESOURCE_DEFAULT, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, IO_RESOURCE_PREFERRED, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, wdm/PIO_RESOURCE_DESCRIPTOR, *PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_GPIO, wdm/IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, CM_RESOURCE_INTERRUPT_MESSAGE, IO_RESOURCE_ALTERNATIVE, kernel.io_resource_descriptor, _IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, IO_RESOURCE_DESCRIPTOR, 0, CM_RESOURCE_INTERRUPT_WAKE_HINT
+ms.keywords: 0, wdm/PIO_RESOURCE_DESCRIPTOR, PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_INTERRUPT_LATCHED, CM_RESOURCE_CONNECTION_CLASS_SERIAL, *PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, _IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, CM_RESOURCE_INTERRUPT_MESSAGE, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml, CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, wdm/IO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], IO_RESOURCE_PREFERRED, kernel.io_resource_descriptor, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CM_RESOURCE_INTERRUPT_WAKE_HINT, IO_RESOURCE_ALTERNATIVE, IO_RESOURCE_DEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -155,7 +155,7 @@ typedef struct _IO_RESOURCE_DESCRIPTOR {
 
 
 
-#### - u
+### -field u
 
 
 
@@ -166,19 +166,14 @@ Specifies a range of I/O port addresses, using the following members.
 Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
 
 
-#### Length
-
-The length, in bytes, of the range of assignable I/O port addresses.
-
-
 #### Alignment
 
 The alignment, in bytes, that the assigned starting address must adhere to. The assigned starting address must be an integer multiple of <i>Alignment</i>. 
 
 
-#### MinimumAddress
+#### Length
 
-The minimum bus-relative I/O port address that can be assigned to the device.
+The length, in bytes, of the range of assignable I/O port addresses.
 
 
 #### MaximumAddress
@@ -186,78 +181,9 @@ The minimum bus-relative I/O port address that can be assigned to the device.
 The maximum bus-relative I/O port address that can be assigned to the device.
 
 
-#### Memory
+#### MinimumAddress
 
-Specifies a range of memory addresses, using the following members:
-
-Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-#### Interrupt
-
-Specifies an interrupt vector range, using the following members:
-
-
-#### Dma
-
-Specifies a DMA setting, using one of the following members:
-
-
-#### DmaV3
-
-Specifies the DMA settings for a driver that uses version 3 of the <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> structure.
-
-The <b>u.DmaV3</b> member is available starting with Windows 8.
-
-
-#### Generic
-
-Not used.
-
-
-#### DevicePrivate
-
-Reserved for system use. 
-
-
-#### BusNumber
-
-Specifies bus numbers, using the following members:
-
-
-#### ConfigData
-
-Reserved for system use. 
-
-
-#### Memory40
-
-Specifies a range of memory addresses, using the following members.
-
-The <b>u.Memory40</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-#### Memory48
-
-Specifies a range of memory addresses, using the following members.
-
-The <b>u.Memory48</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-#### Memory64
-
-Specifies a range of memory addresses, using the following members.
-
-The <b>u.Memory64</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-#### Connection
-
-Specifies a connection to a <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">serial bus</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/">serial port</a>, or to a set of one or more <a href="https://msdn.microsoft.com/450E7F80-D9AC-4F52-8062-2DA5343C8D0F">general-purpose I/O</a> (GPIO) pins. 
-
-The <b>u.Connection</b> member is available starting with Windows 8.
-
-The following members describe this connection.
+The minimum bus-relative I/O port address that can be assigned to the device.
 
 
 ### -field u.Port
@@ -292,26 +218,6 @@ Specifies a range of memory addresses, using the following members:
 Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
 
 
-#### Memory.Length
-
-The length, in bytes, of the range of assignable memory addresses.
-
-
-#### Memory.Alignment
-
-The alignment, in bytes, that the assigned starting address must adhere to. The assigned starting address must be an integer multiple of <i>Alignment</i>.
-
-
-#### Memory.MinimumAddress
-
-The minimum bus-relative memory address that can be assigned to the device.
-
-
-#### Memory.MaximumAddress
-
-The maximum bus-relative memory address that can be assigned to the device.
-
-
 ### -field u.Memory.Length
 
 The length, in bytes, of the range of assignable memory addresses.
@@ -335,43 +241,6 @@ The maximum bus-relative memory address that can be assigned to the device.
 ### -field u.Interrupt
 
 Specifies an interrupt vector range, using the following members:
-
-
-#### Interrupt.MinimumVector
-
-The minimum bus-relative vector that can be assigned to the device.
-
-
-#### Interrupt.MaximumVector
-
-The maximum bus-relative vector that can be assigned to the device.
-
-If the <b>CM_RESOURCE_INTERRUPT_MESSAGE</b> flag bit is set, the values of the <b>MinimumVector</b> and <b>MaximumVector</b> members have special meanings. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565394">Using Interrupt Resource Descriptors</a>.
-
-
-The system supplies the following additional members on Windows Vista and later versions of the Windows operating system:
-
-
-#### Interrupt.AffinityPolicy
-
-Specifies an <a href="..\wdm\ne-wdm-_irq_device_policy.md">IRQ_DEVICE_POLICY</a> value that indicates how the system should distribute a device's interrupts between processors.
-
-Specifies an <a href="..\wdm\ne-wdm-_irq_device_policy.md">IRQ_DEVICE_POLICY</a> value that indicates how the system should distribute a device's interrupts between processors.
-
-
-#### Interrupt.Group
-
-Specifies a processor group number. <b>Group</b> is a valid (but optional) member of <b>u.Interrupt</b> only in Windows 7 and later versions of Windows. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. If the <b>Group</b> member exists, the <b>Group</b> and <b>TargetedProcessors</b> members together specify a group affinity that identifies the set of processors that should handle the device's interrupts. To specify an affinity for a particular group, set <b>AffinityPolicy</b> to <b>IrqPolicySpecifiedProcessors</b> and set <b>Group</b> to the appropriate group number. In addition, <b>TargetedProcessors</b> must specify the target processors in the group. If you set <b>AffinityPolicy</b> to a value other than <b>IrqPolicySpecifiedProcessors</b>, set <b>Group</b> to ALL_PROCESSOR_GROUPS to indicate that the driver is group-aware (that is, designed to handle information about processor groups). A driver cannot specify target processors if <b>Group</b> equals ALL_PROCESSOR_GROUPS; such target specifications are ignored.
-
-
-#### Interrupt.PriorityPolicy
-
-Specifies an <a href="..\wdm\ne-wdm-_irq_priority.md">IRQ_PRIORITY</a> value that indicates the priority with which the system should dispatch the device's interrupts.
-
-
-#### Interrupt.TargetedProcessors
-
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value that indicates which processors should handle the device's interrupts. This value is used only if <b>AffinityPolicy</b> is <b>IrqPolicySpecifiedProcessors.</b>
 
 
 ### -field u.Interrupt.MinimumVector
@@ -416,16 +285,6 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55183
 Specifies a DMA setting, using one of the following members:
 
 
-#### Dma.MinimumChannel
-
-The minimum bus-relative DMA channel that can be assigned to the device.
-
-
-#### Dma.MaximumChannel
-
-The maximum bus-relative DMA channel that can be assigned to the device.
-
-
 ### -field u.Dma.MinimumChannel
 
 The minimum bus-relative DMA channel that can be assigned to the device.
@@ -441,26 +300,6 @@ The maximum bus-relative DMA channel that can be assigned to the device.
 Specifies the DMA settings for a driver that uses version 3 of the <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> structure.
 
 The <b>u.DmaV3</b> member is available starting with Windows 8.
-
-
-#### DmaV3.RequestLine
-
-The number of the request line on the system DMA controller that is allocated to the device.
-
-
-#### DmaV3.Reserved
-
-Not used.
-
-
-#### DmaV3.Channel
-
-The number of the DMA channel on the system DMA controller that is allocated to the device.
-
-
-#### DmaV3.TransferWidth
-
-Specifies the width, in bits, of the data bus that the system DMA controller that is allocated to the device uses to transfer data to or from the device.
 
 
 ### -field u.DmaV3.RequestLine
@@ -523,26 +362,6 @@ Reserved for system use.
 Specifies bus numbers, using the following members:
 
 
-#### BusNumber.Length
-
-The number of bus numbers required.
-
-
-#### BusNumber.MinBusNumber
-
-The minimum bus-relative bus number that can be assigned to the device.
-
-
-#### BusNumber.MaxBusNumber
-
-The maximum bus-relative bus number that can be assigned to the device.
-
-
-#### BusNumber.Reserved
-
-Not used.
-
-
 ### -field u.BusNumber.Length
 
 The number of bus numbers required.
@@ -590,26 +409,6 @@ Specifies a range of memory addresses, using the following members.
 The <b>u.Memory40</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
 
 
-#### Memory40.Length40
-
-The high 32 bits of the 40-bit length, in bytes, of the range of assignable memory addresses. The lower 8 bits are treated as zero.
-
-
-#### Memory40.Alignment40
-
-The high 32 bits of the 40-bit alignment, in bytes, that the assigned starting address must adhere to. The lower 8 bits are treated as zero. The assigned starting address will be a multiple of the alignment.
-
-
-#### Memory40.MinimumAddress
-
-The minimum bus-relative memory address that can be assigned to the device.
-
-
-#### Memory40.MaximumAddress
-
-The maximum bus-relative memory address that can be assigned to the device.
-
-
 ### -field u.Memory40.Length40
 
 The high 32 bits of the 40-bit length, in bytes, of the range of assignable memory addresses. The lower 8 bits are treated as zero.
@@ -635,26 +434,6 @@ The maximum bus-relative memory address that can be assigned to the device.
 Specifies a range of memory addresses, using the following members.
 
 The <b>u.Memory48</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-#### Memory48.Length48
-
-The high 32 bits of the 48-bit length, in bytes, of the range of assignable memory addresses. The lower 16 bits are treated as zero.
-
-
-#### Memory48.Alignment48
-
-The high 32 bits of the 48-bit alignment, in bytes, that the assigned starting address must adhere to. The lower 16 bits are treated as zero. The assigned starting address will be a multiple of the alignment.
-
-
-#### Memory48.MinimumAddress
-
-The minimum bus-relative memory address that can be assigned to the device.
-
-
-#### Memory48.MaximumAddress
-
-The maximum bus-relative memory address that can be assigned to the device.
 
 
 ### -field u.Memory48.Length48
@@ -684,26 +463,6 @@ Specifies a range of memory addresses, using the following members.
 The <b>u.Memory64</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
 
 
-#### Memory64.Length64
-
-The high 32 bits of the 64-bit length, in bytes, of the range of assignable memory addresses. The lower 32 bits are treated as zero.
-
-
-#### Memory64.Alignment64
-
-The high 32 bits of the 64-bit alignment, in bytes, that the assigned starting address must adhere to. The lower 32 bits are treated as zero. The assigned starting address will be a multiple of the alignment.
-
-
-#### Memory64.MinimumAddress
-
-The minimum bus-relative memory address that can be assigned to the device.
-
-
-#### Memory64.MaximumAddress
-
-The maximum bus-relative memory address that can be assigned to the device.
-
-
 ### -field u.Memory64.Length64
 
 The high 32 bits of the 64-bit length, in bytes, of the range of assignable memory addresses. The lower 32 bits are treated as zero.
@@ -731,115 +490,6 @@ Specifies a connection to a <a href="https://msdn.microsoft.com/2c660e14-5b27-46
 The <b>u.Connection</b> member is available starting with Windows 8.
 
 The following members describe this connection.
-
-
-#### Connection.Class
-
-The connection class. This member is set to one of the following values.
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_CLASS_GPIO"></a><a id="cm_resource_connection_class_gpio"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_CLASS_GPIO</b></dt>
-</dl>
-</td>
-<td width="60%">
-Access the device through one or more pins on a GPIO controller.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_CLASS_SERIAL"></a><a id="cm_resource_connection_class_serial"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_CLASS_SERIAL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Access the device through a serial bus or serial port.
-
-</td>
-</tr>
-</table> 
-
-
-#### Connection.Type
-
-The connection type. If <i>Class</i> = CM_RESOURCE_CONNECTION_CLASS_GPIO, <i>Type</i> is set to the following value:
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_GPIO_IO"></a><a id="cm_resource_connection_type_gpio_io"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_GPIO_IO</b></dt>
-</dl>
-</td>
-<td width="60%">
-Access the device through GPIO pins that are configured for I/O.
-
-</td>
-</tr>
-</table> 
-<div class="alert"><b>Note</b>  A GPIO pin that is configured as an interrupt request input is accessed as an ordinary interrupt resource (<b>CmResourceTypeInterrupt</b>).</div><div> </div>If <b>Class</b> = CM_RESOURCE_CONNECTION_CLASS_SERIAL, <b>Type</b> is set to one of the following values:
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C"></a><a id="cm_resource_connection_type_serial_i2c"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device is connected to an I²C bus.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI"></a><a id="cm_resource_connection_type_serial_spi"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device is connected to an SPI bus.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART"></a><a id="cm_resource_connection_type_serial_uart"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device is connected to a serial port.
-
-</td>
-</tr>
-</table> 
-
-
-#### Connection.Reserved1
-
-Not used. 
-
-
-#### Connection.Reserved2
-
-Not used. 
-
-
-#### Connection.IdLowPart
-
-The lower 32 bits of the 64-bit connection ID.
-
-
-#### Connection.IdHighPart
-
-The upper 32 bits of the 64-bit connection ID.
 
 
 ### -field u.Connection.Class
@@ -951,7 +601,7 @@ The lower 32 bits of the 64-bit connection ID.
 The upper 32 bits of the 64-bit connection ID.
 
 
-#### - Option
+### -field Option
 
 Specifies whether this resource description is required, preferred, or alternative. One of the following values must be used:
 <table>
@@ -1002,21 +652,21 @@ Not used.
 </table> 
 
 
-#### - Type
+### -field Type
 
 Identifies the resource type. For a list of valid values, see the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. 
 
 
-#### - ShareDisposition
+### -field ShareDisposition
 
 Indicates whether the described resource can be shared. For a list of valid values, see the <b>ShareDisposition</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. 
 
 
-#### - Spare1
+### -field Spare1
 
 
 
-#### - Flags
+### -field Flags
 
 Contains bit flags that are specific to the resource type. The following table shows the flags that are valid if <b>Type</b> = <b>CmResourceTypeInterrupt.</b>
 <table>
@@ -1089,19 +739,19 @@ The interrupt is capable of waking the operating system from a low-power idle st
 For a list of valid flags for other resource types, see the description of the <b>Flags</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
-#### - Spare2
+### -field Spare2
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
-
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
 <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
 
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
+
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
  
 

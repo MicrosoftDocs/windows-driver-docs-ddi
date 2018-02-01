@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewPort, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, PcNewPort function [Audio Devices], portcls/PcNewPort, audio.pcnewport
+ms.keywords: audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, PcNewPort, PcNewPort function [Audio Devices], portcls/PcNewPort, audio.pcnewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ NTSTATUS PcNewPort(
 
 
 
-#### - OutPort [out]
+### -param OutPort [out]
 
 Output pointer for the port-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the newly created <a href="..\portcls\nn-portcls-iport.md">IPort</a> object. This object has the port interface that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
@@ -187,17 +187,17 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
-
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
-
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
-
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 <a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 <a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 

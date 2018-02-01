@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74bfe9fb-f751-46a6-a95b-f715ebedd2ec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmIsDriverVerifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], kernel.mmisdriververifying, k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, wdm/MmIsDriverVerifying
+ms.keywords: MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], wdm/MmIsDriverVerifying, MmIsDriverVerifying, kernel.mmisdriververifying, k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ LOGICAL MmIsDriverVerifying(
 
 
 
-#### - DriverObject [in]
+### -param DriverObject [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure that represents a driver object. The driver receives this pointer as an input parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
 
@@ -95,9 +95,9 @@ For example, if driver A has an import table through which it calls one or more 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 

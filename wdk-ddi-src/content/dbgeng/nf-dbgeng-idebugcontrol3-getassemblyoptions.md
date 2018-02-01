@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8a3e82e0-4ff3-43ab-954e-a7473de51e5a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, dbgeng/IDebugControl3::GetAssemblyOptions, debugger.getassemblyoptions, GetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, GetAssemblyOptions method [Windows Debugging], IDebugControl_600ee4dc-0a79-42a9-a394-2ff053874f00.xml, IDebugControl3 interface [Windows Debugging], GetAssemblyOptions method, IDebugControl3::GetAssemblyOptions, GetAssemblyOptions
+ms.keywords: GetAssemblyOptions method [Windows Debugging], IDebugControl3, debugger.getassemblyoptions, IDebugControl3::GetAssemblyOptions, IDebugControl3 interface [Windows Debugging], GetAssemblyOptions method, IDebugControl_600ee4dc-0a79-42a9-a394-2ff053874f00.xml, GetAssemblyOptions, GetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetAssemblyOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,7 +67,7 @@ HRESULT GetAssemblyOptions(
 
 
 
-#### - Options [out]
+### -param Options [out]
 
 Receives a bit-set that contains the assembly and disassembly options.  For a description of these options, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>.
 
@@ -105,21 +105,21 @@ For more information about using assembly with the debugger engine API, see <a h
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
 
  
 

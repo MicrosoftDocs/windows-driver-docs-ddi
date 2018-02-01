@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FA14B81D-0B51-4C07-96BC-38CAABED735A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetString method, printerextension/IPrinterScriptablePropertyBag::GetString, GetString, GetString method [Print Devices], IPrinterScriptablePropertyBag::GetString, GetString method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getstring
+ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices], GetString method, IPrinterScriptablePropertyBag::GetString, IPrinterScriptablePropertyBag, GetString method [Print Devices], IPrinterScriptablePropertyBag interface, printerextension/IPrinterScriptablePropertyBag::GetString, GetString method [Print Devices], print.iprinterscriptablepropertybag_getstring, GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,12 +69,12 @@ HRESULT GetString(
 
 
 
-#### - bstrName [in]
+### -param bstrName [in]
 
 The property to read.
 
 
-#### - pbstrValue [out, retval]
+### -param pbstrValue [out, retval]
 
         The value read.
 

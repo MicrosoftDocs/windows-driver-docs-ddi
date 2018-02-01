@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 689BF221-22CA-43B4-A5EB-ECE0B78F520B
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers._nfccxunregistersequencehandler, nfccx/NfcCxUnregisterSequenceHandler, NfcCxUnregisterSequenceHandler method [Near-Field Proximity Drivers], NfcCxUnregisterSequenceHandler
+ms.keywords: NfcCxUnregisterSequenceHandler, nfpdrivers._nfccxunregistersequencehandler, nfccx/NfcCxUnregisterSequenceHandler, NfcCxUnregisterSequenceHandler method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS NfcCxUnregisterSequenceHandler(
 
 
 
-#### - Device
+### -param Device
 
 A handle to a framework device object.
 
 
-#### - Sequence
+### -param Sequence
 
 An <a href="..\nfccx\ne-nfccx-_nfc_cx_sequence.md">NFC_CX_SEQUENCE</a>-typed enumerator.
 
@@ -89,9 +89,9 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

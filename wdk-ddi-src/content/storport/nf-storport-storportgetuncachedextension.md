@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml, storage.storportgetuncachedextension, storport/StorPortGetUncachedExtension
+ms.keywords: storage.storportgetuncachedextension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml, StorPortGetUncachedExtension routine [Storage Devices], storport/StorPortGetUncachedExtension, StorPortGetUncachedExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ PVOID StorPortGetUncachedExtension(
 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-#### - ConfigInfo
+### -param ConfigInfo
 
 Specifies information about the HBA's DMA capabilities. The following members must be filled in: <b>DmaChannel</b> or <b>DmaPort</b>, <b>DmaWidth</b>, <b>DmaSpeed</b>, <b>MaximumTransferLength</b>, <b>ScatterGather</b>, <b>Master</b> set to <b>TRUE</b>, <b>NumberOfPhysicalBreaks</b>, <b>AdapterInterfaceType</b>, <b>Dma32BitAddresses</b>, <b>Dma64BitAddresses</b>, <b>SystemIoBusNumber</b>, <b>AutoRequestSense</b>, and <b>SrbExtensionSize</b>.
 
 Members that are not pertinent to the HBA, such as <b>DmaChannel</b> for an EISA bus-master adapter, must be left as is.
 
 
-#### - NumberOfBytes
+### -param NumberOfBytes
 
 The size required, in bytes, of the uncached extension to allocate.
 

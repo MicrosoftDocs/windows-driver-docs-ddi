@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c888fd84-2828-4f2d-921d-ba92a5ce9c84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistryallocatebuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], irb/AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer, atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml
+ms.keywords: AtaPortRegistryAllocateBuffer, irb/AtaPortRegistryAllocateBuffer, storage.ataportregistryallocatebuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PVOID AtaPortRegistryAllocateBuffer(
 
 
 
-#### - ChannelExtension [in]
+### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 

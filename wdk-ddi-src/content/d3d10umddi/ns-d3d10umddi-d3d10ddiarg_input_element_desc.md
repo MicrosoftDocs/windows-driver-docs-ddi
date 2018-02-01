@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, display.d3d10ddiarg_input_element_desc, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC
+ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], display.d3d10ddiarg_input_element_desc, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC, UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,22 +72,22 @@ typedef struct D3D10DDIARG_INPUT_ELEMENT_DESC {
 
 
 
-#### - InputSlot
+### -field InputSlot
 
 [in] The number of the input slot for the element. 
 
 
-#### - AlignedByteOffset
+### -field AlignedByteOffset
 
 [in] The aligned offset, in bytes, for the element. 
 
 
-#### - Format
+### -field Format
 
 [in] A DXGI_FORMAT-typed value that indicates the format of the element.
 
 
-#### - InputSlotClass
+### -field InputSlotClass
 
 [in] A value that specifies the type of element. This member must be set to one of the following values from the D3D10_DDI_INPUT_CLASSIFICATION enumeration.
 <table>
@@ -118,12 +118,12 @@ D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)
 </table> 
 
 
-#### - InstanceDataStepRate
+### -field InstanceDataStepRate
 
 [in] The number of instances to render before incrementing to the next data element, if the <b>InputSlotClass</b> member is set to D3D10_DDI_INPUT_PER_INSTANCE_DATA. <b>InstanceDataStepRate</b> is set to zero if <b>InputSlotClass</b> is set to D3D10_DDI_INPUT_PER_VERTEX_DATA. 
 
 
-#### - InputRegister
+### -field InputRegister
 
 [in] The number of the input register for the element.
 

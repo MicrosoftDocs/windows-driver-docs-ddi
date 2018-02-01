@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS"
+ms.keywords: d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS, _D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags, D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _D3DKMT_VIDPNSOURCEOWNER_FLAGS {
 
 
 
-#### - AllowOutputDuplication
+### -field AllowOutputDuplication
 
 If a value of one, the video present network (VidPN) explicitly allows output duplication. Otherwise output duplication is not allowed.
 
@@ -88,12 +88,12 @@ If a value of one, the video present network (VidPN) explicitly allows output du
  
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for system use.
 
 
-#### - Value
+### -field Value
 
 Specifies the number of output duplication paths on the VidPN.
 

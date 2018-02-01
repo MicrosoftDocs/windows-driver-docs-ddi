@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: DE57E69E-6589-4336-BB3E-50715D6D5332
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscamera_extendedprop_roi_exposure, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, *PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
+ms.keywords: stream.kscamera_extendedprop_roi_exposure, PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure pointer [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE {
 
 
 
-#### - ROIInfo
+### -field ROIInfo
 
 See the <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_roi_info.md">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved for future use.
 

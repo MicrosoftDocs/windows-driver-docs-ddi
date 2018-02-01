@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a0ffa493-4490-440b-9f67-426a7b5d4442
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWaitLockCreate method, PFN_WDFWAITLOCKCREATE, kmdf.wdfwaitlockcreate, wdf.wdfwaitlockcreate, DFSynchroRef_19d02cf5-4fa3-449c-8913-4a5ff80bd578.xml, wdfsync/WdfWaitLockCreate, WdfWaitLockCreate
+ms.keywords: WdfWaitLockCreate, DFSynchroRef_19d02cf5-4fa3-449c-8913-4a5ff80bd578.xml, WdfWaitLockCreate method, wdfsync/WdfWaitLockCreate, wdf.wdfwaitlockcreate, PFN_WDFWAITLOCKCREATE, kmdf.wdfwaitlockcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,12 @@ NTSTATUS WdfWaitLockCreate(
 
 
 
-#### - LockAttributes [in, optional]
+### -param LockAttributes [in, optional]
 
 A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the wait-lock object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - Lock [out]
+### -param Lock [out]
 
 A pointer to a location that receives a handle to a new framework wait-lock object.
 
@@ -108,13 +108,13 @@ For more information about wait locks, see <a href="https://docs.microsoft.com/e
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="..\wdfsync\nf-wdfsync-wdfwaitlockacquire.md">WdfWaitLockAcquire</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
 
-<a href="..\wdfsync\nf-wdfsync-wdfwaitlockacquire.md">WdfWaitLockAcquire</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
  
 

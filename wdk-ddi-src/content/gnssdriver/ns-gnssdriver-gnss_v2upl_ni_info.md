@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 884C8141-2A15-4BAE-8A5C-73355BD84D53
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PGNSS_V2UPL_NI_INFO, PGNSS_V2UPL_NI_INFO, gnssdriver/PGNSS_V2UPL_NI_INFO, sensors.gnss_v2upl_ni_info, GNSS_V2UPL_NI_INFO structure [Sensor Devices], gnssdriver/GNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO, PGNSS_V2UPL_NI_INFO structure pointer [Sensor Devices]"
+ms.keywords: sensors.gnss_v2upl_ni_info, gnssdriver/PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO structure [Sensor Devices], *PGNSS_V2UPL_NI_INFO, gnssdriver/GNSS_V2UPL_NI_INFO, PGNSS_V2UPL_NI_INFO structure pointer [Sensor Devices], GNSS_V2UPL_NI_INFO, PGNSS_V2UPL_NI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 

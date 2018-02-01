@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5AA3DD53-26A0-460F-9F6D-3515F9C334FA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/WRITE_PORT_UCHAR, wdf.write_port_uchar, WRITE_PORT_UCHAR function, umdf.write_port_uchar, WRITE_PORT_UCHAR
+ms.keywords: wdf.write_port_uchar, WRITE_PORT_UCHAR function, wudfddi_hwaccess/WRITE_PORT_UCHAR, umdf.write_port_uchar, WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,18 +73,18 @@ void WRITE_PORT_UCHAR(
 
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-#### - Port [in]
+### -param Port [in]
 
 A pointer to the port, which must be a mapped memory range in I/O space.
 
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a byte to be written to the port.
 

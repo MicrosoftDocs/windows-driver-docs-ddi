@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83e7d4be-df76-4dc8-a8e2-91d279127ef1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, wdm/MmSizeOfMdl, kernel.mmsizeofmdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], MmSizeOfMdl
+ms.keywords: wdm/MmSizeOfMdl, MmSizeOfMdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], kernel.mmsizeofmdl, k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ SIZE_T MmSizeOfMdl(
 
 
 
-#### - Base [in]
+### -param Base [in]
 
 Pointer to the base virtual address for the range. 
 
 
-#### - Length [in]
+### -param Length [in]
 
 Supplies the size, in bytes, of the range. 
 

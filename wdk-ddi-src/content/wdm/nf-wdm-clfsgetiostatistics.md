@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68c04751-761c-4e32-927d-aad61813cd38
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsGetIoStatistics, Clfs_af9b22c3-0845-4687-9a76-b6872d2b138d.xml, ClfsGetIoStatistics routine [Kernel-Mode Driver Architecture], kernel.clfsgetiostatistics, wdm/ClfsGetIoStatistics
+ms.keywords: Clfs_af9b22c3-0845-4687-9a76-b6872d2b138d.xml, ClfsGetIoStatistics routine [Kernel-Mode Driver Architecture], kernel.clfsgetiostatistics, wdm/ClfsGetIoStatistics, ClfsGetIoStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,27 +73,27 @@ NTSTATUS ClfsGetIoStatistics(
 
 
 
-#### - plfoLog [in]
+### -param plfoLog [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The I/O statistics will be collected for the stream's underlying log on stable storage. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
-#### - pvStatsBuffer [in, out]
+### -param pvStatsBuffer [in, out]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_io_statistics.md">CLFS_IO_STATISTICS</a> structure that receives the I/O statistics data.
 
 
-#### - cbStatsBuffer [in]
+### -param cbStatsBuffer [in]
 
 The size, in bytes, of the buffer pointed to by <i>pvStatsBuffer</i>. This parameter must be at least <b>sizeof</b>(<a href="..\wdm\ns-wdm-_cls_io_statistics_header.md">CLFS_IO_STATISTICS_HEADER</a>). If this parameter is less than <b>sizeof</b>(<b>CLFS_IO_STATISTICS</b>), <i>pvStatsBuffer</i> will receive only a portion of the available I/O statistics.
 
 
-#### - eStatsClass [in]
+### -param eStatsClass [in]
 
 This parameter is reserved for future use.
 
 
-#### - pcbStatsWritten [out, optional]
+### -param pcbStatsWritten [out, optional]
 
 A pointer to a ULONG-typed variable that receives the number of bytes actually written to <i>pvStatsBuffer</i>. This parameter can be <b>NULL</b>.
 

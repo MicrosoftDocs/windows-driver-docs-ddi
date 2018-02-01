@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e3c33fe-eb28-4985-98f3-cafa85543d68
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject, ks/KsDeviceRegisterAdapterObject, avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, KsDeviceRegisterAdapterObject function [Streaming Media Devices]
+ms.keywords: KsDeviceRegisterAdapterObject, avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, KsDeviceRegisterAdapterObject function [Streaming Media Devices], ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ void KsDeviceRegisterAdapterObject(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the AVStream device for which to register an adapter object.
 
 
-#### - AdapterObject [in]
+### -param AdapterObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the DMA controller..
 
@@ -86,7 +86,7 @@ A pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structu
 TBD
 
 
-#### - MappingTableStride [in]
+### -param MappingTableStride [in]
 
 This parameter specifies how many bytes each entry in the mapping table requires. This must be at least <b>sizeof</b> (<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>) and can be as large as necessary.
 
@@ -120,13 +120,13 @@ Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
 
  
 

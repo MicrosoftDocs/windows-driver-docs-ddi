@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbb6e5ed-8d24-4b50-826b-f05f44de676a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, display.d3d10_ddi_blend_desc, d3d10umddi/D3D10_DDI_BLEND_DESC
+ms.keywords: D3D10_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, D3D10_DDI_BLEND_DESC, d3d10umddi/D3D10_DDI_BLEND_DESC, display.d3d10_ddi_blend_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,49 +75,49 @@ typedef struct D3D10_DDI_BLEND_DESC {
 
 
 
-#### - AlphaToCoverageEnable
+### -field AlphaToCoverageEnable
 
 [in] A Boolean value that specifies whether transparency coverage is enabled. <b>TRUE</b> indicates transparency coverage is enabled; <b>FALSE</b> indicates transparency coverage is disabled. This member is relevant for multiple-sample antialiasing only.
 
 
-#### - BlendEnable
+### -field BlendEnable
 
 [in] An array of Boolean values that specify whether blending is enabled for each associated render target. <b>TRUE</b> indicates blending is enabled; <b>FALSE</b> indicates blending is disabled. 
 
 
-#### - SrcBlend
+### -field SrcBlend
 
 
       [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the source for all enabled render targets.
      
 
 
-#### - DestBlend
+### -field DestBlend
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the destination for all enabled render targets.
 
 
-#### - BlendOp
+### -field BlendOp
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>-typed value that indicates the blending operation for all enabled render targets.
 
 
-#### - SrcBlendAlpha
+### -field SrcBlendAlpha
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the source for all enabled render targets.
 
 
-#### - DestBlendAlpha
+### -field DestBlendAlpha
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the destination for all enabled render targets.
 
 
-#### - BlendOpAlpha
+### -field BlendOpAlpha
 
 [in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>-typed value that indicates the transparency blending operation for all enabled render targets.
 
 
-#### - RenderTargetWriteMask
+### -field RenderTargetWriteMask
 
 [in] An array of 8-bit bitwise values that indicate the write properties for each associated render target. Each bit of each element must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
 <table>

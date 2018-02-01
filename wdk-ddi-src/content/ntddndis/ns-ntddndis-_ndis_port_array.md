@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f77469d3-ce48-4e17-9fff-1af56296f61f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_PORT_ARRAY, _NDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_port_array, NDIS_PORT_ARRAY, PNDIS_PORT_ARRAY, ntddndis/NDIS_PORT_ARRAY
+ms.keywords: PNDIS_PORT_ARRAY, ntddndis/PNDIS_PORT_ARRAY, _NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PORT_ARRAY, netvista.ndis_port_array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_PORT_ARRAY {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,33 +83,33 @@ The
      <b>Size</b> member to NDIS_SIZEOF_PORT_ARRAY_REVISION_1.
 
 
-#### - NumberOfPorts
+### -field NumberOfPorts
 
 The number of NDIS ports that have characteristics that are listed in the 
      <b>Ports</b> member.
 
 
-#### - OffsetFirstPort
+### -field OffsetFirstPort
 
 The offset, in bytes, from the beginning of the NDIS_PORT_ARRAY structure to the start of the
      first port characteristics data.
 
 
-#### - ElementSize
+### -field ElementSize
 
 The size, in bytes, of each element in the array that the 
      <b>Ports</b> member specifies.
 
 
-#### - Ports
+### -field Ports
 
 An array that contains the port characteristics for each active NDIS port on a miniport adapter.
      The 
      <b>ElementSize</b> member specifies the size of each element in the array. The 
      <b>NumberOfPorts</b> member specifies the number of elements in the array. Each
      element in the array is an 
-     <mshelp:link keywords="netvista.ndis_port_characteristics" tabindex="0"><b>
-     NDIS_PORT_CHARACTERISTICS</b></mshelp:link> structure.
+     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     NDIS_PORT_CHARACTERISTICS</a> structure.
 
 
 ## -remarks
@@ -123,11 +123,11 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
  
 

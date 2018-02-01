@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 62ED07DF-2DDC-42FD-80C3-75AB3DE839AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses]
+ms.keywords: UcmConnectorDataDirectionChanged, buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,19 +71,19 @@ NTSTATUS UcmConnectorDataDirectionChanged(
 
 
 
-#### - Connector [in]
+### -param Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 
 
-#### - Success [in]
+### -param Success [in]
 
 Used to indicate failure of a data-role swap that was initiated by UcmCx using <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_data_role.md">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a>. 
 
 If TRUE, the operation was successful. FALSE, otherwise.
 
 
-#### - CurrentDataRole [in]
+### -param CurrentDataRole [in]
 
 A <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_partner.md">UCM_TYPEC_PARTNER</a> value that indicates the new data role. 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d9703786-c46e-4466-a229-9ed0348cb45e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, KsInstallBusEnumInterface function [Streaming Media Devices], KsInstallBusEnumInterface, stream.ksinstallbusenuminterface, swenum/KsInstallBusEnumInterface
+ms.keywords: swenum/KsInstallBusEnumInterface, ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, KsInstallBusEnumInterface, stream.ksinstallbusenuminterface, KsInstallBusEnumInterface function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS KsInstallBusEnumInterface(
 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Pointer to an IRP that contains a SWENUM_INSTALL_INTERFACE structure that specifies the demand-load bus enumerator object interface to install. For information about this structure, see the Remarks section below.
 

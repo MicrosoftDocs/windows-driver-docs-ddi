@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25999016-95a8-4d78-a4a3-111fc4e910ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisNicSwitchVPortStateActivated, NdisNicSwitchVPortStateActivated, ntddndis/NdisNicSwitchVPortStateMaximum, *PNDIS_NIC_SWITCH_VPORT_STATE, _NDIS_NIC_SWITCH_VPORT_STATE, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_vport_state, NdisNicSwitchVPortStateUndefined, ntddndis/NdisNicSwitchVPortStateUndefined, NdisNicSwitchVPortStateDeactivated, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateMaximum, ntddndis/NdisNicSwitchVPortStateDeactivated, NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_VPORT_STATE, PNDIS_NIC_SWITCH_VPORT_STATE
+ms.keywords: ntddndis/NdisNicSwitchVPortStateDeactivated, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateMaximum, _NDIS_NIC_SWITCH_VPORT_STATE, *PNDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateDeactivated, ntddndis/NdisNicSwitchVPortStateActivated, NdisNicSwitchVPortStateMaximum, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, netvista.ndis_nic_switch_vport_state, ntddndis/NdisNicSwitchVPortStateUndefined, NdisNicSwitchVPortStateUndefined, NdisNicSwitchVPortStateActivated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _NDIS_NIC_SWITCH_VPORT_STATE {
 
 
 
-#### - NdisNicSwitchVPortStateUndefined
+### -field NdisNicSwitchVPortStateUndefined
 
 The VPort state is not defined.
 
 
-#### - NdisNicSwitchVPortStateActivated
+### -field NdisNicSwitchVPortStateActivated
 
 The VPort is allocated and in an activated state.
 <div class="alert"><b>Note</b>  The default VPort attached to the PCI Express (PCIe) Physical Function (PF) and nondefault VPorts attached to PCIe Virtual Functions (VFs) are created in an activated state. Once created, these VPorts cannot be deactivated.</div><div> </div>
 
-#### - NdisNicSwitchVPortStateDeactivated
+### -field NdisNicSwitchVPortStateDeactivated
 
 The VPort is allocated and in a deactivated state.
 <div class="alert"><b>Note</b>  Nondefault VPorts attached to the PF are created in a deactivated state. These VPorts can be activated by using OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. However, once activated, these VPorts cannot be deactivated.</div><div> </div>
 
-#### - NdisNicSwitchVPortStateMaximum
+### -field NdisNicSwitchVPortStateMaximum
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 

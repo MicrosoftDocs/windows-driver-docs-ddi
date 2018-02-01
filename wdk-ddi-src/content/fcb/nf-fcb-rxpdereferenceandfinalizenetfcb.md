@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 954a4811-4515-4ed4-a4f1-df598d08fc77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fcb/RxpDereferenceAndFinalizeNetFcb, ifsk.rxpdereferenceandfinalizenetfcb, RxpDereferenceAndFinalizeNetFcb, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], rxref_474f30d3-858e-4179-8236-3068a2325818.xml
+ms.keywords: ifsk.rxpdereferenceandfinalizenetfcb, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], rxref_474f30d3-858e-4179-8236-3068a2325818.xml, RxpDereferenceAndFinalizeNetFcb, fcb/RxpDereferenceAndFinalizeNetFcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ BOOLEAN RxpDereferenceAndFinalizeNetFcb(
 TBD
 
 
-#### - RxContext [in]
+### -param RxContext [in]
 
 A pointer to the RX_CONTEXT structure associated with the <i>Fcb</i> parameter.
 
 
-#### - RecursiveFinalize [in]
+### -param RecursiveFinalize [in]
 
 A parameter that indicates if this should be a recursive finalize operation.
 
 
-#### - ForceFinalize [in]
+### -param ForceFinalize [in]
 
 A parameter that indicates if this routine should force the <i>Fcb</i> parameter to be finalized.
 
@@ -113,11 +113,11 @@ On checked builds, <b>RxpDereferenceAndFinalizeNetFcb</b> causes the system to A
 
 ## -see-also
 
+<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+
 <a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
 <a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
-
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
 
  
 

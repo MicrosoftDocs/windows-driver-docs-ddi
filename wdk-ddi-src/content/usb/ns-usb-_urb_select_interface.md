@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 48f80c80-49af-4cda-961b-8967e8d4897a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/_URB_SELECT_INTERFACE, _URB_SELECT_INTERFACE structure [Buses], usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml, buses._urb_select_interface, _URB_SELECT_INTERFACE
+ms.keywords: "_URB_SELECT_INTERFACE, _URB_SELECT_INTERFACE structure [Buses], buses._urb_select_interface, usb/_URB_SELECT_INTERFACE, usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ struct _URB_SELECT_INTERFACE {
 
 
 
-#### - Hdr
+### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_SELECT_INTERFACE, and <b>Hdr.Length</b> must be the size of the entire URB.
 
@@ -80,12 +80,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-#### - ConfigurationHandle
+### -field ConfigurationHandle
 
 Specifies the handle to the configuration that this interface belongs to. The host controller driver returns this handle when the client selects the configuration with an URB_FUNCTION_SELECT_CONFIGURATION request.
 
 
-#### - Interface
+### -field Interface
 
 A variable-length <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure that specifies the interface and the new alternate setting for that interface, and if required, the new maximum packet sizes for the corresponding pipes. For more information, see Remarks.
 
@@ -103,15 +103,15 @@ The <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORM
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-<a href="https://msdn.microsoft.com/710b4f96-eeee-4313-b068-b2f2e718f8d2">Configuring USB Devices</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/710b4f96-eeee-4313-b068-b2f2e718f8d2">Configuring USB Devices</a>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
  
 

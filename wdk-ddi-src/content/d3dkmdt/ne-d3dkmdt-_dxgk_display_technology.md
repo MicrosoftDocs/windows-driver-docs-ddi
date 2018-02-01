@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4612213A-E79F-4C3B-95B4-8C83C0B5FB32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_DISPLAY_TECHNOLOGY, *PDXGK_DISPLAY_TECHNOLOGY, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], d3dkmdt/DXGK_DT_OTHER, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], d3dkmdt/DXGK_DT_LCD, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, DXGK_DT_INVALID, DXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology, DXGK_DT_OTHER, DXGK_DT_LCD, _DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_OLED, d3dkmdt/DXGK_DT_INVALID, DXGK_DT_OLED
+ms.keywords: "*PDXGK_DISPLAY_TECHNOLOGY, _DXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology, DXGK_DT_OTHER, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_OTHER, DXGK_DT_OLED, PDXGK_DISPLAY_TECHNOLOGY, DXGK_DT_INVALID, DXGK_DT_LCD, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_INVALID, d3dkmdt/DXGK_DT_LCD, d3dkmdt/DXGK_DT_OLED, DXGK_DISPLAY_TECHNOLOGY, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,22 +70,22 @@ typedef enum _DXGK_DISPLAY_TECHNOLOGY {
 
 
 
-#### - DXGK_DT_INVALID
+### -field DXGK_DT_INVALID
 
 Invalid type.
 
 
-#### - DXGK_DT_OTHER
+### -field DXGK_DT_OTHER
 
 A display technology which does not match one of the defined, valid types.
 
 
-#### - DXGK_DT_LCD
+### -field DXGK_DT_LCD
 
 A display using an LCD panel.
 
 
-#### - DXGK_DT_OLED
+### -field DXGK_DT_OLED
 
 A display using an OLED panel.
 

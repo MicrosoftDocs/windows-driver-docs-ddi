@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 669ef35f-0e59-4ec3-b6cc-5cb2156b51a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_service_activation_status, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ms.keywords: PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, netvista.ndis_wwan_service_activation_status, _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_SERVICE_ACTIVATION_STATUS {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SERVICE_ACTIVATION_STATUS
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 The status of the service activation operation. The following table shows the possible values for
      this member.
@@ -234,20 +234,20 @@ The operation failed because the device is in the process of initializing. Retry
 </table> 
 
 
-#### - ServiceActivationStatus
+### -field ServiceActivationStatus
 
 A formatted 
-     <mshelp:link keywords="netvista.wwan_service_activation_status" tabindex="0"><b>
-     WWAN_SERVICE_ACTIVATION_STATUS</b></mshelp:link> object that represents the status of service activation on the
+     <a href="..\wwan\ns-wwan-_wwan_service_activation_status.md">
+     WWAN_SERVICE_ACTIVATION_STATUS</a> object that represents the status of service activation on the
      device.
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.wwan_service_activation_status" tabindex="0"><b>
-   WWAN_SERVICE_ACTIVATION_STATUS</b></mshelp:link>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_service_activation_status.md">
+   WWAN_SERVICE_ACTIVATION_STATUS</a>
 
  
 

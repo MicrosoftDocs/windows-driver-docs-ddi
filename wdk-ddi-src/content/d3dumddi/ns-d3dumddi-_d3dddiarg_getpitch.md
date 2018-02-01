@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59661cfe-4a1f-4805-9421-7f694e82f8d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_GETPITCH, _D3DDDIARG_GETPITCH, D3DDDIARG_GETPITCH structure [Display Devices], UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, display.d3dddiarg_getpitch, D3DDDIARG_GETPITCH
+ms.keywords: D3DDDIARG_GETPITCH, display.d3dddiarg_getpitch, _D3DDDIARG_GETPITCH, UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, D3DDDIARG_GETPITCH structure [Display Devices], d3dumddi/D3DDDIARG_GETPITCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3DDDIARG_GETPITCH {
 
 
 
-#### - hCryptoSession
+### -field hCryptoSession
 
 [in] A handle to the encryption session. 
 
 
-#### - hResource
+### -field hResource
 
 [in] A handle to the resource. 
 
 
-#### - SubResourceIndex
+### -field SubResourceIndex
 
 [in] The zero-based index into the resource, which the <b>hResource</b> handle specifies. This index indicates the encrypted surface.
 
 
-#### - Pitch
+### -field Pitch
 
 [out] The pitch, in bytes, of the encrypted surface. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getpitch.md">GetPitch</a> function returns this pitch value to the Direct3D runtime. 
 

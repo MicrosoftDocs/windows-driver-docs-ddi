@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 25b49781-2676-4b5e-b17b-dcb1bf98b297
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsProbeStreamIrp function [Streaming Media Devices], stream.ksprobestreamirp, ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, KsProbeStreamIrp
+ms.keywords: KsProbeStreamIrp function [Streaming Media Devices], KsProbeStreamIrp, ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, stream.ksprobestreamirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,12 +70,12 @@ NTSTATUS KsProbeStreamIrp(
 
 
 
-#### - Irp [in, out]
+### -param Irp [in, out]
 
 Specifies the IRP whose input and output buffers are to be mapped. The requester mode of the IRP is used when probing the buffers.
 
 
-#### - ProbeFlags [in]
+### -param ProbeFlags [in]
 
 Specifies flags specifying how to probe the streaming IRP; the flags are listed in the following table.
 

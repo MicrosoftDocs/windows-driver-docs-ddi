@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1ba8d745-96bf-4d9d-8784-e6594360c632
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSETCALLWAITINGSTATUSPARAMS, netvista.rilsetcallwaitingstatusparams, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETCALLWAITINGSTATUSPARAMS, ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS
+ms.keywords: "*LPRILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallwaitingstatusparams, ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,18 +70,18 @@ typedef struct _RILSETCALLWAITINGSTATUSPARAMS {
 
 
 
-#### - dwExecutor
+### -field dwExecutor
 
 
 
-#### - fAllClasses
+### -field fAllClasses
 
 
 
-#### - dwInfoClasses
+### -field dwInfoClasses
 
 
 
-#### - dwStatus
+### -field dwStatus
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5854BB6A-EB5F-493A-96E4-0DF298EC0332
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::GetManagedStatusWide, IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, debugger.idebugcontrol4_getmanagedstatuswide, GetManagedStatusWide, IDebugControl4, GetManagedStatusWide method [Windows Debugging], IDebugControl4::GetManagedStatusWide
+ms.keywords: GetManagedStatusWide method [Windows Debugging], GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, GetManagedStatusWide, debugger.idebugcontrol4_getmanagedstatuswide, dbgeng/IDebugControl4::GetManagedStatusWide, IDebugControl4::GetManagedStatusWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,27 +72,27 @@ HRESULT GetManagedStatusWide(
 
 
 
-#### - Flags [out, optional]
+### -param Flags [out, optional]
 
 A pointer to flags from the debugging APIs.
 
 
-#### - WhichString [in]
+### -param WhichString [in]
 
 A value that controls which string to use.
 
 
-#### - String [out]
+### -param String [out]
 
 A pointer to a Unicode character string from the debugging APIs.
 
 
-#### - StringSize [in]
+### -param StringSize [in]
 
 The size of the string.
 
 
-#### - StringNeeded [out, optional]
+### -param StringNeeded [out, optional]
 
 A pointer to an output string.
 

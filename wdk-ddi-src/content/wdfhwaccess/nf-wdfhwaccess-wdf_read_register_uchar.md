@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8633689-0900-42BB-9D0D-6F95CBA13A37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_UCHAR, wdfhwaccess/WDF_READ_REGISTER_UCHAR, wdf.wdf_read_register_uchar, WDF_READ_REGISTER_UCHAR function
+ms.keywords: wdf.wdf_read_register_uchar, WDF_READ_REGISTER_UCHAR, wdfhwaccess/WDF_READ_REGISTER_UCHAR, WDF_READ_REGISTER_UCHAR function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ UCHAR WDF_READ_REGISTER_UCHAR(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - Register [in]
+### -param Register [in]
 
 A pointer to the register address, which must be a mapped range in memory space.
 

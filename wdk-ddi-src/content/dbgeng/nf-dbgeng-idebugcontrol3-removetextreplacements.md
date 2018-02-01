@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f753542a-c9e6-423f-80e4-c7e2e0f36a04
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::RemoveTextReplacements, RemoveTextReplacements, RemoveTextReplacements method [Windows Debugging], IDebugControl3 interface, IDebugControl3, dbgeng/IDebugControl2::RemoveTextReplacements, RemoveTextReplacements method [Windows Debugging], IDebugControl3::RemoveTextReplacements, IDebugControl2::RemoveTextReplacements, RemoveTextReplacements method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], RemoveTextReplacements method, IDebugControl_ba950bc7-3ed5-4e2e-913d-c743e1190482.xml, debugger.removetextreplacements, IDebugControl3 interface [Windows Debugging], RemoveTextReplacements method
+ms.keywords: IDebugControl_ba950bc7-3ed5-4e2e-913d-c743e1190482.xml, debugger.removetextreplacements, IDebugControl3::RemoveTextReplacements, IDebugControl3, IDebugControl2 interface [Windows Debugging], RemoveTextReplacements method, RemoveTextReplacements, dbgeng/IDebugControl3::RemoveTextReplacements, RemoveTextReplacements method [Windows Debugging], RemoveTextReplacements method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], RemoveTextReplacements method, IDebugControl2::RemoveTextReplacements, RemoveTextReplacements method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::RemoveTextReplacements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,17 +101,17 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
 
  
 

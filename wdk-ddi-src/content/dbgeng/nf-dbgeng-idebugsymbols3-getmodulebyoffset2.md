@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2bb23245-9d5c-4b9d-8f4a-ce5fe552efc2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_0eead97d-6ca0-4682-bc06-71df2cf04c69.xml, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset2 method, debugger.getmodulebyoffset2, GetModuleByOffset2 method [Windows Debugging], IDebugSymbols3 interface, GetModuleByOffset2 method [Windows Debugging], IDebugSymbols3, GetModuleByOffset2, dbgeng/IDebugSymbols3::GetModuleByOffset2, IDebugSymbols3::GetModuleByOffset2
+ms.keywords: dbgeng/IDebugSymbols3::GetModuleByOffset2, IDebugSymbols_0eead97d-6ca0-4682-bc06-71df2cf04c69.xml, GetModuleByOffset2 method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset2 method, GetModuleByOffset2, GetModuleByOffset2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleByOffset2, IDebugSymbols3, debugger.getmodulebyoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT GetModuleByOffset2(
 
 
 
-#### - Offset [in]
+### -param Offset [in]
 
 Specifies a location in the target's virtual address space which is inside the desired module's memory allocation -- for example, the address of a symbol belonging to the module.
 
 
-#### - StartIndex [in]
+### -param StartIndex [in]
 
 Specifies the index to start searching from.
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies a bit-set containing options used when searching for the module with the specified location.  <i>Flags</i> may contain the following bit-flags:
 <table>
@@ -112,12 +112,12 @@ Do not search the unloaded modules.
 </table> 
 
 
-#### - Index [out, optional]
+### -param Index [out, optional]
 
 Receives the index of the module.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - Base [out, optional]
+### -param Base [out, optional]
 
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 
@@ -157,11 +157,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547132">GetModuleByOffset</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547132">GetModuleByOffset</a>
 
  
 

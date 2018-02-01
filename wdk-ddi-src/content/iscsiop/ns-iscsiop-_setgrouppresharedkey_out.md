@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4ea5e428-783c-4a28-bec5-42106425ee1f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetGroupPresharedKey_OUT structure [Storage Devices], iscsiop/PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT structure pointer [Storage Devices], iscsiop/SetGroupPresharedKey_OUT, storage.setgrouppresharedkey_out, *PSetGroupPresharedKey_OUT, _SetGroupPresharedKey_OUT, structs-iSCSI_81186f6a-bf08-42eb-a3d8-ae195cdd8135.xml, PSetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT
+ms.keywords: storage.setgrouppresharedkey_out, _SetGroupPresharedKey_OUT, structs-iSCSI_81186f6a-bf08-42eb-a3d8-ae195cdd8135.xml, SetGroupPresharedKey_OUT, iscsiop/SetGroupPresharedKey_OUT, *PSetGroupPresharedKey_OUT, iscsiop/PSetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT structure [Storage Devices], PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetGroupPresharedKey_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output, the status of the <b>SetGroupPresharedKey</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 
@@ -81,9 +81,9 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
 

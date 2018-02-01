@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoIsFileObjectIgnoringSharing, ifsk.ioisfileobjectignoringsharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ntddk/IoIsFileObjectIgnoringSharing
+ms.keywords: ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,7 +67,7 @@ BOOLEAN IoIsFileObjectIgnoringSharing(
 
 
 
-#### - FileObject
+### -param FileObject
 
 Pointer to a file object for the file.
 

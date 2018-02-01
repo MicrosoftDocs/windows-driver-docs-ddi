@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3, WriteToHardware, WriteToHardware method, umdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware, wdf.iwdfdevice3_writetohardware, WriteToHardware method, IWDFDevice3 interface, IWDFDevice3 interface, WriteToHardware method, IWDFDevice3::WriteToHardware
+ms.keywords: IWDFDevice3::WriteToHardware, WriteToHardware method, wdf.iwdfdevice3_writetohardware, WriteToHardware method, IWDFDevice3 interface, wudfddi/IWDFDevice3::WriteToHardware, umdf.iwdfdevice3_writetohardware, WriteToHardware, IWDFDevice3, IWDFDevice3 interface, WriteToHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,27 +75,27 @@ void WriteToHardware(
 
 
 
-#### - Type [in]
+### -param Type [in]
 
 
 
-#### - Size [in]
+### -param Size [in]
 
 
 
-#### - Address [in]
+### -param Address [in]
 
 
 
-#### - Value [in]
+### -param Value [in]
 
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 
 
-#### - Count [in, optional]
+### -param Count [in, optional]
 
 
 

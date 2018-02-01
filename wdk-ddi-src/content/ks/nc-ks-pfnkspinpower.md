@@ -71,12 +71,12 @@ void AVStrMiniPinPower(
 
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 Points to a pin-centric <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to register the callback.
 
 
-#### - State [in]
+### -param State [in]
 
 Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
 
@@ -97,9 +97,9 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
-
 <a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
+
+<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
 
  
 

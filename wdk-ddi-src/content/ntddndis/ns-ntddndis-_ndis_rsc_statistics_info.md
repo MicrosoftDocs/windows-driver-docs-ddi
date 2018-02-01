@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14911610-f2d6-4ad4-884f-3137eab143be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], NDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, _NDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
+ms.keywords: NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _NDIS_RSC_STATISTICS_INFO {
 
 
 
-#### - Header
+### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the NDIS_RSC_STATISTICS_INFO structure. Set the <b>Type</b> member of the structure that <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
 
@@ -87,22 +87,22 @@ Original version for NDIS 6.30 and later.
 Set the <b>Size</b> member to NDIS_SIZEOF_RSC_STATISTICS_REVISION_1.
 
 
-#### - CoalescedPkts
+### -field CoalescedPkts
 
 The total  number of packets that were coalesced.
 
 
-#### - CoalescedOctets
+### -field CoalescedOctets
 
 The total number of bytes that were coalesced.
 
 
-#### - CoalesceEvents
+### -field CoalesceEvents
 
 The total number of coalescing events. That is, the total number of packets that were formed from coalescing packets.
 
 
-#### - Aborts
+### -field Aborts
 
 The total number of RSC abort events. That is, the number of exceptions other than the IP datagram length being exceeded. This count should include the cases where a packet is not coalesced because of insufficient hardware  resources.
  

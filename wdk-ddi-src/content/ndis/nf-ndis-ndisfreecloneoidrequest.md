@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f610fdf7-5c0e-41e0-994b-6da575541fca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis_request_ref_450d80e2-3414-4c02-aca1-848c75f824a6.xml, ndis/NdisFreeCloneOidRequest, netvista.ndisfreecloneoidrequest, NdisFreeCloneOidRequest
+ms.keywords: ndis_request_ref_450d80e2-3414-4c02-aca1-848c75f824a6.xml, NdisFreeCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFreeCloneOidRequest, netvista.ndisfreecloneoidrequest, NdisFreeCloneOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,13 +71,13 @@ VOID NdisFreeCloneOidRequest(
 
 
 
-#### - SourceHandle [in]
+### -param SourceHandle [in]
 
 An NDIS handle that identifies a filter module or an intermediate driver's protocol
      binding.
 
 
-#### - Request [in]
+### -param Request [in]
 
 A pointer to the 
      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that is to be
@@ -96,16 +96,16 @@ None
 
 An NDIS intermediate driver or filter driver calls 
     <b>NdisFreeCloneOidRequest</b> to free an NDIS_OID_REQUEST structure that was allocated by calling the 
-    <mshelp:link keywords="netvista.ndisallocatecloneoidrequest" tabindex="0"><b>
-    NdisAllocateCloneOidRequest</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">
+    NdisAllocateCloneOidRequest</a> function.
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
 
  
 

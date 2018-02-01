@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 0CD692E2-B2D6-4786-8C0B-C0DCAFCF6259
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spbrequestgetcontroller, SpbRequestGetController method [Buses], SpbRequestGetController, spbcx/SpbRequestGetController
+ms.keywords: SPB.spbrequestgetcontroller, SpbRequestGetController, spbcx/SpbRequestGetController, SpbRequestGetController method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ WDFDEVICE SpbRequestGetController(
 
 
 
-#### - SpbRequest [in]
+### -param SpbRequest [in]
 
 The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request from which to retrieve the WDFDEVICE handle. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/1DA1FF41-FB01-45CC-B0C1-EAF2C81D0CDA">event callback functions</a>.
 

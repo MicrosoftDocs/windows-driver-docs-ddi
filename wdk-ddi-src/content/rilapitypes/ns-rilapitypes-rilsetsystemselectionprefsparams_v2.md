@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6284633-1f56-412c-a97a-b6c740129cce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], RILSETSYSTEMSELECTIONPREFSPARAMS, netvista.rilsetsystemselectionprefsparams_v2_2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS
+ms.keywords: RILSETSYSTEMSELECTIONPREFSPARAMS, netvista.rilsetsystemselectionprefsparams_v2_2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], *LPRILSETSYSTEMSELECTIONPREFSPARAMS, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,10 +69,10 @@ typedef struct _RILSETSYSTEMSELECTIONPREFSPARAMS_V2 {
 
 
 
-#### - dwFlags
+### -field dwFlags
 
 
 
-#### - rilSystemSelectionPrefs
+### -field rilSystemSelectionPrefs
 
 

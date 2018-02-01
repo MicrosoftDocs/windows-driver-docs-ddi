@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22AA35D4-D287-443B-A49D-87C20BD436AA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitsignalsyncobjectstohwqueue, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitsignalsyncobjectstohwqueue, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,34 +72,34 @@ typedef struct _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE {
 
 
 
-#### - Flags
+### -field Flags
 
 Specifies signal behavior.
 
 
-#### - BroadcastHwQueueCount
+### -field BroadcastHwQueueCount
 
 Specifies the number of hardware queues to broadcast this signal to.
 
 
-#### - BroadcastHwQueueArray
+### -field BroadcastHwQueueArray
 
 Specifies hardware queue handles to broadcast to.
 
 
 
-#### - ObjectCount
+### -field ObjectCount
 
 Number of objects to signal.
 
 
 
-#### - ObjectHandleArray
+### -field ObjectHandleArray
 
 Handles to monitored fence synchronization objects to signal.
 
 
-#### - FenceValueArray
+### -field FenceValueArray
 
 monitored fence values to signal.
 

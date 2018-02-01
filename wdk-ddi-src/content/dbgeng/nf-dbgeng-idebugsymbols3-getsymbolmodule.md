@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols2::GetSymbolModule, debugger.getsymbolmodule, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolModule, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols interface [Windows Debugging], GetSymbolModule method, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetSymbolModule, GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, IDebugSymbols::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModule method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, debugger.getsymbolmodule, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, dbgeng/IDebugSymbols2::GetSymbolModule, IDebugSymbols interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3, GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,12 +70,12 @@ HRESULT GetSymbolModule(
 
 
 
-#### - Symbol [in]
+### -param Symbol [in]
 
 Specifies the name of the symbol to look up.  See the Remarks section for details of the syntax of this name.
 
 
-#### - Base [out]
+### -param Base [out]
 
 Receives the location in the target's memory address space of the base of the module.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
 

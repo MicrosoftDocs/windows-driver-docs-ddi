@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OnGetProperties, ISensorDriver, ISensorDriver::OnGetProperties, sensors.isensordriver_ongetproperties, OnGetProperties method [Sensor Devices]
+ms.keywords: OnGetProperties, ISensorDriver, OnGetProperties method [Sensor Devices], ISensorDriver::OnGetProperties, sensors.isensordriver_ongetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,22 +72,22 @@ HRESULT OnGetProperties(
 
 
 
-#### - pClientFile
+### -param pClientFile
 
  Pointer to an IWDFFile interface that represents the file object for the application requesting property values.
 
 
-#### - pwszSensorID
+### -param pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting property values.
 
 
-#### - pProperties
+### -param pProperties
 
  Pointer to an IPortableDeviceKeyCollection that contains the list of PROPERTYKEY values that represent the properties being requested. 
 
 
-#### - ppPropertyValues
+### -param ppPropertyValues
 
 Address of an IPortableDeviceValues pointer that receives the requested property values.
 

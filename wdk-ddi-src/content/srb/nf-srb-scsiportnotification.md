@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortNotification, storage.scsiportnotification, srb/ScsiPortNotification, ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml
+ms.keywords: srb/ScsiPortNotification, ScsiPortNotification routine [Storage Devices], storage.scsiportnotification, scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, ScsiPortNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID ScsiPortNotification(
 
 
 
-#### - NotificationType
+### -param NotificationType
 
 Specifies the type of notification, which can be one of the following.
 <table>
@@ -352,7 +352,7 @@ Syntax for PathId = 0xFF
 </table> 
 
 
-#### - HwDeviceExtension
+### -param HwDeviceExtension
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
@@ -432,13 +432,13 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 <a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
-
 <a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfLookasideListCreate method, wdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, kmdf.wdflookasidelistcreate, WdfLookasideListCreate
+ms.keywords: wdf.wdflookasidelistcreate, kmdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate, WdfLookasideListCreate method, WdfLookasideListCreate, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,27 +76,27 @@ NTSTATUS WdfLookasideListCreate(
 
 
 
-#### - LookasideAttributes [in, optional]
+### -param LookasideAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new lookaside-list object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - BufferSize [in]
+### -param BufferSize [in]
 
 The nonzero size, in bytes, of the buffer that the framework will allocate for each memory object. 
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
 
 
-#### - MemoryAttributes [in, optional]
+### -param MemoryAttributes [in, optional]
 
 A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for each memory object that the driver obtains from the lookaside list. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-#### - PoolTag [in, optional]
+### -param PoolTag [in, optional]
 
 A driver-defined pool tag for each memory object's buffer. Debuggers display this tag. Drivers typically specify a character string of up to four characters, delimited by single quotation marks, in reverse order (for example, 'dcba'). The ASCII value of each character in the tag must be between 0 and 127. Debugging your driver is easier if each pool tag is unique. 
 
@@ -105,7 +105,7 @@ If <i>PoolTag</i> is zero, the framework provides a default pool tag that uses t
 For KMDF versions 1.5 and later, your driver can use the <b>DriverPoolTag</b> member of the <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a> structure to specify a default pool tag.
 
 
-#### - Lookaside [out]
+### -param Lookaside [out]
 
 A pointer to a location that receives a handle to the new lookaside-list object.
 
@@ -168,11 +168,11 @@ If your driver specifies <b>PagedPool</b> for the <i>PoolType</i> parameter, the
 
 ## -see-also
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
  
 

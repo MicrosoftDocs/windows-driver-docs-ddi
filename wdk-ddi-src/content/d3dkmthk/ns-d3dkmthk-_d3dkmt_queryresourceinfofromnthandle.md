@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle, _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
+ms.keywords: "_D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,39 +73,39 @@ typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
 
 
 
-#### - hDevice
+### -field hDevice
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device.
 
 
-#### - hNtHandle
+### -field hNtHandle
 
 [in] A global NT handle to the resource that is to be queried.
 
 
-#### - pPrivateRuntimeData
+### -field pPrivateRuntimeData
 
 [in] A pointer to a caller-supplied buffer where the runtime private data associated with the resource will be copied to.
 
 
-#### - PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize
 
 [in] The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
 
 [out] If <b>pPrivateRuntimeData</b> is <b>NULL</b>, this member is the size, in bytes, of the buffer required to receive the runtime private data. Otherwise, this member is the size, in bytes, of runtime private data copied into the buffer.
 
 
-#### - TotalPrivateDriverDataSize
+### -field TotalPrivateDriverDataSize
 
 [out] The size, in bytes, of the buffer that is required to hold all the driver private data for all allocations associated with the resource.
 
 
-#### - ResourcePrivateDriverDataSize
+### -field ResourcePrivateDriverDataSize
 
 [out] The size, in bytes, of the driver's resource private data.
 
 
-#### - NumAllocations
+### -field NumAllocations
 
 [out] The number of allocations associated with the resource.
 

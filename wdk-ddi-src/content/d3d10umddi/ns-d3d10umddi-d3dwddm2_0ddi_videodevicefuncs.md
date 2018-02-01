@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59D06B73-413B-4595-841E-7E0A696A3AC2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM2_0DDI_VIDEODEVICEFUNCS, display.d3dwddm2_0ddi_videodevicefuncs, D3DWDDM2_0DDI_VIDEODEVICEFUNCS, D3DWDDM2_0DDI_VIDEODEVICEFUNCS structure [Display Devices]
+ms.keywords: D3DWDDM2_0DDI_VIDEODEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEODEVICEFUNCS, display.d3dwddm2_0ddi_videodevicefuncs, D3DWDDM2_0DDI_VIDEODEVICEFUNCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -160,472 +160,472 @@ typedef struct D3DWDDM2_0DDI_VIDEODEVICEFUNCS {
 
 
 
-#### - pfnGetVideoDecoderProfileCount
+### -field pfnGetVideoDecoderProfileCount
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">VideoDecoderProfileCount</a> function.
 
 
-#### - pfnGetVideoDecoderProfile
+### -field pfnGetVideoDecoderProfile
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile.md">VideoDecoderProfile</a> function.
 
 
-#### - pfnCheckVideoDecoderFormat
+### -field pfnCheckVideoDecoderFormat
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_checkvideodecoderformat.md">CheckVideoDecoderFormat</a> function.
 
 
-#### - pfnGetVideoDecoderConfigCount
+### -field pfnGetVideoDecoderConfigCount
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderconfigcount.md">GetVideoDecoderConfig</a> function.
 
 
-#### - pfnGetVideoDecoderConfig
+### -field pfnGetVideoDecoderConfig
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderconfig.md">GetVideoDecoderConfig</a> function.
 
 
-#### - pfnGetVideoDecoderBufferTypeCount
+### -field pfnGetVideoDecoderBufferTypeCount
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderbuffertypecount.md">GetVideoDecoderBufferTypeCount</a> function.
 
 
-#### - pfnGetVideoDecoderBufferInfo
+### -field pfnGetVideoDecoderBufferInfo
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderbufferinfo.md">GetVideoDecoderBufferInfo</a> function.
 
 
-#### - pfnCalcPrivateVideoDecoderSize
+### -field pfnCalcPrivateVideoDecoderSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideodecodersize.md">CalcPrivateVideoDecoderSize</a> function.
 
 
-#### - pfnCreateVideoDecoder
+### -field pfnCreateVideoDecoder
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a> function.
 
 
-#### - pfnDestroyVideoDecoder
+### -field pfnDestroyVideoDecoder
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroyvideodecoder.md">DestroyVideoDecoder</a> function.
 
 
-#### - pfnVideoDecoderExtension
+### -field pfnVideoDecoderExtension
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a> function.
 
 
-#### - pfnVideoDecoderBeginFrame
+### -field pfnVideoDecoderBeginFrame
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a> function.
 
 
-#### - pfnVideoDecoderEndFrame
+### -field pfnVideoDecoderEndFrame
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderendframe.md">VideoDecoderEndFrame</a> function.
 
 
-#### - pfnVideoDecoderSubmitBuffers
+### -field pfnVideoDecoderSubmitBuffers
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecodersubmitbuffers.md">VideoDecoderSubmitBuffers</a> function.
 
 
-#### - pfnCalcPrivateVideoProcessorEnumSize
+### -field pfnCalcPrivateVideoProcessorEnumSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorenumsize.md">CalcPrivateVideoProcessorEnumSize</a> function.
 
 
-#### - pfnCreateVideoProcessorEnum
+### -field pfnCreateVideoProcessorEnum
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function.
 
 
-#### - pfnDestroyVideoProcessorEnum
+### -field pfnDestroyVideoProcessorEnum
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroyvideoprocessorenum.md">DestroyVideoProcessorEnum</a> function.
 
 
-#### - pfnCheckVideoProcessorFormat
+### -field pfnCheckVideoProcessorFormat
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_checkvideoprocessorformat.md">CheckVideoProcessorFormat</a> function.
 
 
-#### - pfnGetVideoProcessorCaps
+### -field pfnGetVideoProcessorCaps
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a> function.
 
 
-#### - pfnGetVideoProcessorRateConversionCaps
+### -field pfnGetVideoProcessorRateConversionCaps
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps.md">GetVideoProcessorRateConversionCaps</a> function.
 
 
-#### - pfnGetVideoProcessorCustomRate
+### -field pfnGetVideoProcessorCustomRate
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md">GetVideoProcessorCustomRate</a> function.
 
 
-#### - pfnGetVideoProcessorFilterRange
+### -field pfnGetVideoProcessorFilterRange
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorfilterrange.md">GetVideoProcessorFilterRange</a> function.
 
 
-#### - pfnCalcPrivateVideoProcessorSize
+### -field pfnCalcPrivateVideoProcessorSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorSize</a> function.
 
 
-#### - pfnCreateVideoProcessor
+### -field pfnCreateVideoProcessor
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function.
 
 
-#### - pfnDestroyVideoProcessor
+### -field pfnDestroyVideoProcessor
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroyvideoprocessor.md">DestroyVideoProcessor</a> function.
 
 
-#### - pfnVideoProcessorSetOutputTargetRect
+### -field pfnVideoProcessorSetOutputTargetRect
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputtargetrect.md">VideoProcessorSetOutputTargetRect</a> function.
 
 
-#### - pfnVideoProcessorSetOutputBackgroundColor
+### -field pfnVideoProcessorSetOutputBackgroundColor
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputbackgroundcolor.md">VideoProcessorSetOutputBackgroundColor</a> function.
 
 
-#### - pfnVideoProcessorSetOutputColorSpace
+### -field pfnVideoProcessorSetOutputColorSpace
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputcolorspace.md">VideoProcessorSetOutputColorSpace</a> function.
 
 
-#### - pfnVideoProcessorSetOutputAlphaFillMode
+### -field pfnVideoProcessorSetOutputAlphaFillMode
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode.md">VideoProcessorSetOutputAlphaFillMode</a> function.
 
 
-#### - pfnVideoProcessorSetOutputConstriction
+### -field pfnVideoProcessorSetOutputConstriction
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputconstriction.md">VideoProcessorSetOutputConstriction</a> function.
 
 
-#### - pfnVideoProcessorSetOutputStereoMode
+### -field pfnVideoProcessorSetOutputStereoMode
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputstereomode.md">VideoProcessorSetOutputStereoMode</a> function.
 
 
-#### - pfnVideoProcessorSetOutputExtension
+### -field pfnVideoProcessorSetOutputExtension
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputextension.md">VideoProcessorSetOutputExtension</a> function.
 
 
-#### - pfnVideoProcessorGetOutputExtension
+### -field pfnVideoProcessorGetOutputExtension
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorgetoutputextension.md">VideoProcessorGetOutputExtension</a> function.
 
 
-#### - pfnVideoProcessorSetStreamFrameFormat
+### -field pfnVideoProcessorSetStreamFrameFormat
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamframeformat.md">VideoProcessorSetStreamFrameFormat</a> function.
 
 
-#### - pfnVideoProcessorSetStreamColorSpace
+### -field pfnVideoProcessorSetStreamColorSpace
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamcolorspace.md">VideoProcessorSetStreamColorSpace</a> function.
 
 
-#### - pfnVideoProcessorSetStreamOutputRate
+### -field pfnVideoProcessorSetStreamOutputRate
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamoutputrate.md">VideoProcessorSetStreamOutputRate</a> function.
 
 
-#### - pfnVideoProcessorSetStreamSourceRect
+### -field pfnVideoProcessorSetStreamSourceRect
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamsourcerect.md">VideoProcessorSetStreamSourceRect</a> function.
 
 
-#### - pfnVideoProcessorSetStreamDestRect
+### -field pfnVideoProcessorSetStreamDestRect
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamdestrect.md">VideoProcessorSetStreamDestRect</a> function.
 
 
-#### - pfnVideoProcessorSetStreamAlpha
+### -field pfnVideoProcessorSetStreamAlpha
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamalpha.md">VideoProcessorSetStreamAlpha</a> function.
 
 
-#### - pfnVideoProcessorSetStreamPalette
+### -field pfnVideoProcessorSetStreamPalette
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreampalette.md">VideoProcessorSetStreamPalette</a> function.
 
 
-#### - pfnVideoProcessorSetStreamPixelAspectRatio
+### -field pfnVideoProcessorSetStreamPixelAspectRatio
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreampixelaspectratio.md">VideoProcessorSetStreamPixelAspectRatio</a> function.
 
 
-#### - pfnVideoProcessorSetStreamLumaKey
+### -field pfnVideoProcessorSetStreamLumaKey
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamlumakey.md">VideoProcessorSetStreamLumaKey</a> function.
 
 
-#### - pfnVideoProcessorSetStreamStereoFormat
+### -field pfnVideoProcessorSetStreamStereoFormat
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a> function.
 
 
-#### - pfnVideoProcessorSetStreamAutoProcessingMode
+### -field pfnVideoProcessorSetStreamAutoProcessingMode
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamautoprocessingmode.md">VideoProcessorSetStreamAutoProcessingMode</a> function.
 
 
-#### - pfnVideoProcessorSetStreamFilter
+### -field pfnVideoProcessorSetStreamFilter
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamfilter.md">VideoProcessorSetStreamFilter</a> function.
 
 
-#### - pfnVideoProcessorSetStreamExtension
+### -field pfnVideoProcessorSetStreamExtension
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamextension.md">VideoProcessorSetStreamExtension</a> function.
 
 
-#### - pfnVideoProcessorGetStreamExtension
+### -field pfnVideoProcessorGetStreamExtension
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorgetstreamextension.md">VideoProcessorGetStreamExtension</a> function.
 
 
-#### - pfnVideoProcessorBlt
+### -field pfnVideoProcessorBlt
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a> function.
 
 
-#### - pfnCalcPrivateVideoDecoderOutputViewSize
+### -field pfnCalcPrivateVideoDecoderOutputViewSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideodecoderoutputviewsize.md">CalcPrivateVideoDecoderOutputViewSize</a> function.
 
 
-#### - pfnCreateVideoDecoderOutputView
+### -field pfnCreateVideoDecoderOutputView
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a> function.
 
 
-#### - pfnDestroyVideoDecoderOutputView
+### -field pfnDestroyVideoDecoderOutputView
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroyvideodecoderoutputview.md">DestroyVideoDecoderOutputView</a> function.
 
 
-#### - pfnCalcPrivateVideoProcessorInputViewSize
+### -field pfnCalcPrivateVideoProcessorInputViewSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorinputviewsize.md">CalcPrivateVideoProcessorInputViewSize</a> function.
 
 
-#### - pfnCreateVideoProcessorInputView
+### -field pfnCreateVideoProcessorInputView
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a> function.
 
 
-#### - pfnDestroyVideoProcessorInputView
+### -field pfnDestroyVideoProcessorInputView
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroyvideoprocessorinputview.md">DestroyVideoProcessorInputView</a> function.
 
 
-#### - pfnCalcPrivateVideoProcessorOutputViewSize
+### -field pfnCalcPrivateVideoProcessorOutputViewSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a> function.
 
 
-#### - pfnCreateVideoProcessorOutputView
+### -field pfnCreateVideoProcessorOutputView
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessoroutputview.md">CreateVideoProcessorOutputView</a> function.
 
 
-#### - pfnDestroyVideoProcessorOutputView
+### -field pfnDestroyVideoProcessorOutputView
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroyvideoprocessoroutputview.md">DestroyVideoProcessorOutputView</a> function.
 
 
-#### - pfnVideoProcessorInputViewReadAfterWriteHazard
+### -field pfnVideoProcessorInputViewReadAfterWriteHazard
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorinputviewreadafterwritehazard.md">VideoProcessorInputViewReadAfterWriteHazard</a> function.
 
 
-#### - pfnGetContentProtectionCaps
+### -field pfnGetContentProtectionCaps
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps.md">GetContentProtectionCaps</a> function.
 
 
-#### - pfnGetCryptoKeyExchangeType
+### -field pfnGetCryptoKeyExchangeType
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcryptokeyexchangetype.md">GetCryptoKeyExchangeType</a> function.
 
 
-#### - pfnCalcPrivateCryptoSessionSize
+### -field pfnCalcPrivateCryptoSessionSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatecryptosessionsize.md">CalcPrivateCryptoSessionSize</a> function.
 
 
-#### - pfnCreateCryptoSession
+### -field pfnCreateCryptoSession
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
-#### - pfnDestroyCryptoSession
+### -field pfnDestroyCryptoSession
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroycryptosession.md">DestroyCryptoSession</a> function.
 
 
-#### - pfnGetCertificateSize
+### -field pfnGetCertificateSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a> function.
 
 
-#### - pfnGetCertificate
+### -field pfnGetCertificate
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a> function.
 
 
-#### - pfnNegotiateCryptoSessionKeyExchange
+### -field pfnNegotiateCryptoSessionKeyExchange
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a> function.
 
 
-#### - pfnEncryptionBlt
+### -field pfnEncryptionBlt
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt.md">EncryptionBlt(D3D11_1)</a> function.
 
 
-#### - pfnDecryptionBlt
+### -field pfnDecryptionBlt
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt.md">DecryptionBlt(D3D11_1)</a> function.
 
 
-#### - pfnStartSessionKeyRefresh
+### -field pfnStartSessionKeyRefresh
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a> function.
 
 
-#### - pfnFinishSessionKeyRefresh
+### -field pfnFinishSessionKeyRefresh
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a> function.
 
 
-#### - pfnGetEncryptionBltKey
+### -field pfnGetEncryptionBltKey
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getencryptionbltkey.md">GetEncryptionBltKey</a> function.
 
 
-#### - pfnCalcPrivateAuthenticatedChannelSize
+### -field pfnCalcPrivateAuthenticatedChannelSize
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateauthenticatedchannelsize.md">CalcPrivateAuthenticatedChannelSize</a> function.
 
 
-#### - pfnCreateAuthenticatedChannel
+### -field pfnCreateAuthenticatedChannel
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
 
-#### - pfnDestroyAuthenticatedChannel
+### -field pfnDestroyAuthenticatedChannel
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_destroyauthenticatedchannel.md">DestroyAuthenticatedChannel</a> function.
 
 
-#### - pfnNegotiateAuthenticatedChannelKeyExchange
+### -field pfnNegotiateAuthenticatedChannelKeyExchange
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiateauthenticatedchannelkeyexchange.md">NegotiateAuthenticatedChannelKeyExchange</a> function.
 
 
-#### - pfnQueryAuthenticatedChannel
+### -field pfnQueryAuthenticatedChannel
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a> function.
 
 
-#### - pfnConfigureAuthenticatedChannel
+### -field pfnConfigureAuthenticatedChannel
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel.md">ConfigureAuthenticatedChannel(D3D11_1)</a> function.
 
 
-#### - pfnVideoDecoderGetHandle
+### -field pfnVideoDecoderGetHandle
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecodergethandle.md">VideoDecoderGetHandle</a> function.
 
 
-#### - pfnCryptoSessionGetHandle
+### -field pfnCryptoSessionGetHandle
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_cryptosessiongethandle.md">CryptoSessionGetHandle</a> function.
 
 
-#### - pfnVideoProcessorSetStreamRotation
+### -field pfnVideoProcessorSetStreamRotation
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamrotation.md">VideoProcessorSetStreamRotation</a> function.
 
 
-#### - pfnGetCaptureHandle
+### -field pfnGetCaptureHandle
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md">GetCaptureHandle</a> function.
 
 
-#### - pfnGetDataForNewHardwareKey
+### -field pfnGetDataForNewHardwareKey
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_getdatafornewhardwarekey.md">GetDataForNewHardwareKey</a> function.
 
 
-#### - pfnCheckCryptoSessionStatus
+### -field pfnCheckCryptoSessionStatus
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_checkcryptosessionstatus.md">CheckCryptoSessionStatus</a> function.
 
 
-#### - pfnVideoDecoderSubmitBuffers1
+### -field pfnVideoDecoderSubmitBuffers1
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videodecodersubmitbuffers1.md">VideoDecoderSubmitBuffers1</a> function.
 
 
-#### - pfnQueryVideoCapabilities
+### -field pfnQueryVideoCapabilities
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_queryvideocapabilities.md">QueryVideoCapabilities</a> function.
 
 
-#### - pfnCheckVideoProcessorFormatConversion
+### -field pfnCheckVideoProcessorFormatConversion
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_checkvideoprocessorformatconversion.md">CheckVideoProcessorFormatConversion</a> function.
 
 
-#### - pfnVideoDecoderEnableDownsampling
+### -field pfnVideoDecoderEnableDownsampling
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videodecoderenabledownsampling.md">VideoDecoderEnableDownsampling</a> function.
 
 
-#### - pfnVideoDecoderUpdateDownsampling
+### -field pfnVideoDecoderUpdateDownsampling
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videodecoderupdatedownsampling.md">VideoDecoderUpdateDownsampling</a> function.
 
 
-#### - pfnVideoProcessorSetStreamMirror
+### -field pfnVideoProcessorSetStreamMirror
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetstreammirror.md">VideoProcessorSetStreamMirror</a> function.
 
 
-#### - pfnVideoProcessorSetOutputColorSpace1
+### -field pfnVideoProcessorSetOutputColorSpace1
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetoutputcolorspace1.md">VideoProcessorSetOutputColorSpace1</a> function.
 
 
-#### - pfnVideoProcessorSetStreamColorSpace1
+### -field pfnVideoProcessorSetStreamColorSpace1
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetstreamcolorspace1.md">VideoProcessorSetStreamColorSpace1</a> function.
 
 
-#### - pfnVideoProcessorSetOutputShaderUsage
+### -field pfnVideoProcessorSetOutputShaderUsage
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetoutputshaderusage.md">VideoProcessorSetOutputShaderUsage</a> function.
 
 
-#### - pfnVideoProcessorGetBehaviorHints
+### -field pfnVideoProcessorGetBehaviorHints
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorgetbehaviorhints.md">VideoProcessorGetBehaviorHints</a> function.
 
 
-#### - pfnGetCryptoSessionPrivateDataSize
+### -field pfnGetCryptoSessionPrivateDataSize
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_getcryptosessionprivatedatasize.md">GetCryptoSessionPrivateDataSize</a> function.
 

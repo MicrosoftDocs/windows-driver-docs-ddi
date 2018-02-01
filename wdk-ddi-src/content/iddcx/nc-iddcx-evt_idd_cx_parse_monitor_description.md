@@ -73,14 +73,14 @@ typedef EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION PFN_IDD_CX_PARSE_MONITOR_DESCRIPTIO
 
 
 
-#### - pInArgs [in]
+### -param pInArgs [in]
 
 
                     
                 Input arguments used by <b>EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION</b>.
 
 
-#### - pOutArgs [out]
+### -param pOutArgs [out]
 
 
                     

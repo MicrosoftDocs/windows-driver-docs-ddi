@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 475b7774-51ce-410d-aba8-a2317f44ce03
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/PHDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT, aud-prop2_80d1ef47-903a-4f6e-95c7-e30f07b105fe.xml, _HDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT structure [Audio Devices], PHDAUDIO_STREAM_FORMAT structure pointer [Audio Devices], audio.hdaudio_stream_format, hdaudio/HDAUDIO_STREAM_FORMAT, PHDAUDIO_STREAM_FORMAT
+ms.keywords: "*PHDAUDIO_STREAM_FORMAT, hdaudio/HDAUDIO_STREAM_FORMAT, PHDAUDIO_STREAM_FORMAT structure pointer [Audio Devices], aud-prop2_80d1ef47-903a-4f6e-95c7-e30f07b105fe.xml, _HDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT structure [Audio Devices], hdaudio/PHDAUDIO_STREAM_FORMAT, audio.hdaudio_stream_format, PHDAUDIO_STREAM_FORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _HDAUDIO_STREAM_FORMAT {
 
 
 
-#### - SampleRate
+### -field SampleRate
 
 Specifies the sample rate in samples per second. This member indicates the rate at which each channel should be played or recorded.
 
 
-#### - ValidBitsPerSample
+### -field ValidBitsPerSample
 
 Specifies the number of valid bits per sample. The valid bits are left justified within the container. Any unused bits to the right of the valid bits must be set to zero.
 
 
-#### - ContainerSize
+### -field ContainerSize
 
 Specifies the size in bits of a sample container. Valid values for this member are 8, 16, 24, and 32.
 
 
-#### - NumberOfChannels
+### -field NumberOfChannels
 
 Specifies the number of channels of audio data. For monophonic audio, set this member to 1. For stereo, set this member to 2.
 
@@ -101,9 +101,9 @@ This structure is similar to the <a href="..\ksmedia\ns-ksmedia-waveformatextens
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a>
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 <a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
 

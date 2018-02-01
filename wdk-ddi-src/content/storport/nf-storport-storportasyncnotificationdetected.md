@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 558F652C-6D1A-4BAF-9C2C-3F4FE24651D2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortAsyncNotificationDetected, RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, storage.storportasyncnotificationdetected, StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS
+ms.keywords: RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, storage.storportasyncnotificationdetected, RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, storport/StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], StorPortAsyncNotificationDetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,17 +72,17 @@ ULONG StorPortAsyncNotificationDetected(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
-#### - Address
+### -param Address
 
 The address of the storage device with a status change event.
 
 
-#### - Flags
+### -param Flags
 
 The status notifications to indicate to Storport.
 

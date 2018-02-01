@@ -73,7 +73,7 @@ __checkReturn HRESULT APIENTRY DrawRectPatch(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 

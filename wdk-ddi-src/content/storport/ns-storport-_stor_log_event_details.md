@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2370e730-6c35-45e6-a370-62adc10df53b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], storport/STOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS, storport/PSTOR_LOG_EVENT_DETAILS, structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml, _STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS structure [Storage Devices], storage.stor_log_event_details"
+ms.keywords: STOR_LOG_EVENT_DETAILS structure [Storage Devices], structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml, storport/STOR_LOG_EVENT_DETAILS, _STOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS, storport/PSTOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], storage.stor_log_event_details
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,72 +81,72 @@ typedef struct _STOR_LOG_EVENT_DETAILS {
 
 
 
-#### - InterfaceRevision
+### -field InterfaceRevision
 
 The revision number of this interface. Set to STOR_CURRENT_LOG_INTERFACE_REVISION to use the version of the interface that matches this structure. Both the constant and the data structure are defined in the same header file. This member is set to 0x00000100 for the first revision.
 
 
-#### - Size
+### -field Size
 
 The size of this structure. Set before calling <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>.
 
 
-#### - Flags
+### -field Flags
 
 Not currently used. Must be zero.
 
 
-#### - EventAssociation
+### -field EventAssociation
 
 Specifies whether the event should be associated with the adapter, the target, or the LUN. For adapter- and target-associated events, the event is logged against the adapter's device object. For LUN-associated events, the event is logged against the LUN's device object if it exists; otherwise, it is logged against the adapter's device object.
 
 
-#### - PathId
+### -field PathId
 
 The SCSI path/bus corresponding to this event.
 
 
-#### - TargetId
+### -field TargetId
 
 The SCSI target controller or device on the bus corresponding to this event.
 
 
-#### - LunId
+### -field LunId
 
 The SCSI logical unit number of the target device corresponding to this event.
 
 
-#### - StorportSpecificErrorCode
+### -field StorportSpecificErrorCode
 
 If the <b>ErrorCode</b> value is specific to Storport and should be translated for use with IOLOGMSG.DLL, this value is set to <b>TRUE</b>. If the <b>ErrorCode</b> value is not specific to Storport and should be passed directly to the system event logging facility, this value is set to <b>FALSE</b>.
 
 
-#### - ErrorCode
+### -field ErrorCode
 
 The event error code to log.
 
 
-#### - UniqueId
+### -field UniqueId
 
 Specifies a unique identifier associated with the ErrorCode. Often this is used as a location code, referencing the location in the miniport that triggered the event. This value is passed directly to the event logging facility.
 
 
-#### - DumpDataSize
+### -field DumpDataSize
 
 The size of the miniport-specific data block that is to be appended to the log entry. If no data block is to be written, this should be set to 0.
 
 
-#### - DumpData
+### -field DumpData
 
 Pointer to the miniport-specific data block that is to be appended to the log entry. If no data block is to be written, DumpDataSize should be set to 0, and this field is ignored.
 
 
-#### - StringCount
+### -field StringCount
 
 The count of null-terminated Unicode strings contained in the StringList member. If no strings are to be written, this should be set to 0.
 
 
-#### - StringList
+### -field StringList
 
 The list of null-terminated Unicode strings to be appended to the log entry for use in string substitution. These strings are substituted for the place holders "%2" through "%n" in the log message text when the log entry is being displayed. This list consists of an array of pointers to the null-terminated Unicode strings. StringCount contains the count of string pointers in this array, so no list termination entry is needed. If no strings are to be written, StringCount should be set to 0, and this field is ignored.
 
@@ -160,9 +160,9 @@ Although <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError<
 
 ## -see-also
 
-<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
-
 <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
+
+<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97bcd205-ffc0-4645-87d4-659651ed579a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlwriteregistryvalue, k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], wdm/RtlWriteRegistryValue, RtlWriteRegistryValue
+ms.keywords: k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], kernel.rtlwriteregistryvalue, wdm/RtlWriteRegistryValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ NTSTATUS RtlWriteRegistryValue(
 
 
 
-#### - RelativeTo [in]
+### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined path as one of the following.
 <table>
@@ -164,27 +164,27 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
 </table> 
 
 
-#### - Path [in]
+### -param Path [in]
 
 Pointer to either an absolute registry path or a path relative to the known location specified by the <i>RelativeTo</i> parameter. If the RTL_REGISTRY_HANDLE flag is specified, this parameter is a registry handle for an already opened key to be used directly.
 
 
-#### - ValueName [in]
+### -param ValueName [in]
 
 Pointer to the name of a subkey or value entry to be written into the registry.
 
 
-#### - ValueType [in]
+### -param ValueType [in]
 
 Specifies a REG_<i>XXX</i> value that determines the type of the <i>ValueName</i> parameter. For a list of the possible values, see the <i>Type</i> parameter of <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>.
 
 
-#### - ValueData [in, optional]
+### -param ValueData [in, optional]
 
 Pointer to the name of a subkey or values for its value entries (or both) to be written into the registry.
 
 
-#### - ValueLength [in]
+### -param ValueLength [in]
 
 Specifies the number of bytes of <i>ValueData</i> to be written into the registry.
 
@@ -205,19 +205,19 @@ If the specified key does not exist, the routine attempts to create the key. For
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
-
-<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
 
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
 
  
 

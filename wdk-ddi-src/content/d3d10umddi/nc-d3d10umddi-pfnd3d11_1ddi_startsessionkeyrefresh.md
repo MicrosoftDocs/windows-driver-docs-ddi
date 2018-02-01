@@ -75,33 +75,27 @@ VOID APIENTRY* pfnStartSessionKeyRefresh(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCryptoSession [in]
+### -param hCryptoSession [in]
 
 A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
 
 
-#### - RandomNumberSize [in, out]
+### -param RandomNumberSize [in, out]
 
 The size, in bytes, of the number in the buffer that is referenced by the <i>pRandomNumber</i> parameter.
 
 
 
-#### - *pRandomNumber [in]
-
-A pointer to a buffer that contains the status sequence number for the random start.
-
-
-
-#### - pRandomNumber [in]
+### -param *pRandomNumber [in]
 
 A pointer to a buffer that contains the status sequence number for the random start.
 
@@ -131,9 +125,9 @@ When the runtime subsequently calls the driver's <a href="..\d3d10umddi\nc-d3d10
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05cba67b-c9da-4345-bc6f-09de12a617c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WDF_USB_PIPE_INFORMATION, PWDF_USB_PIPE_INFORMATION, *PWDF_USB_PIPE_INFORMATION, WDF_USB_PIPE_INFORMATION structure, PWDF_USB_PIPE_INFORMATION structure pointer, wdf.wdf_usb_pipe_information, kmdf.wdf_usb_pipe_information, _WDF_USB_PIPE_INFORMATION, wdfusb/PWDF_USB_PIPE_INFORMATION, DFUsbRef_80f26f29-adf0-4017-b261-36637da41c0d.xml, WDF_USB_PIPE_INFORMATION
+ms.keywords: WDF_USB_PIPE_INFORMATION, wdfusb/WDF_USB_PIPE_INFORMATION, PWDF_USB_PIPE_INFORMATION structure pointer, WDF_USB_PIPE_INFORMATION structure, DFUsbRef_80f26f29-adf0-4017-b261-36637da41c0d.xml, PWDF_USB_PIPE_INFORMATION, wdfusb/PWDF_USB_PIPE_INFORMATION, kmdf.wdf_usb_pipe_information, wdf.wdf_usb_pipe_information, *PWDF_USB_PIPE_INFORMATION, _WDF_USB_PIPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,39 +76,39 @@ typedef struct _WDF_USB_PIPE_INFORMATION {
 
 
 
-#### - Size
+### -field Size
 
 The size, in bytes, of this structure.
 
 
-#### - MaximumPacketSize
+### -field MaximumPacketSize
 
 The maximum packet size, in bytes, that the pipe's endpoint is capable of sending or receiving.
 
 For high-speed isochronous endpoints, the received <b>MaximumPacketSize</b> value includes the number of bytes that can be transferred in additional transactions, if the endpoint supports them.
 
 
-#### - EndpointAddress
+### -field EndpointAddress
 
 The address of the endpoint on the USB device. For more information about endpoint addresses, see the USB specification.
 
 
-#### - Interval
+### -field Interval
 
 The endpoint's polling interval, if the <b>PipeType</b> member is set to <b>WdfUsbPipeTypeInterrupt</b>. For more information about polling intervals, see the USB specification.
 
 
-#### - SettingIndex
+### -field SettingIndex
 
 An index value that identifies the alternate setting, within an interface, that the pipe belongs to. For more information about alternate settings, see the USB specification.
 
 
-#### - PipeType
+### -field PipeType
 
 A <a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>-typed value that specifies the type of pipe.
 
 
-#### - MaximumTransferSize
+### -field MaximumTransferSize
 
 This member is not used.  
 
@@ -128,15 +128,15 @@ For information on how to transfer data to and from supported isochronous endpoi
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md">WDF_USB_PIPE_INFORMATION_INIT</a>
+
 <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
-
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipegetinformation.md">WdfUsbTargetPipeGetInformation</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md">WDF_USB_PIPE_INFORMATION_INIT</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetendpointinformation.md">WdfUsbInterfaceGetEndpointInformation</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d0a26e2-60d4-437e-b5cc-3ca7afee8f5a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SeDeleteObjectAuditAlarm, seref_eb1715b3-9c8b-4848-8cc8-3809d0d35d9e.xml, ifsk.sedeleteobjectauditalarm, SeDeleteObjectAuditAlarm routine [Installable File System Drivers], SeDeleteObjectAuditAlarm
+ms.keywords: ifsk.sedeleteobjectauditalarm, SeDeleteObjectAuditAlarm routine [Installable File System Drivers], ntifs/SeDeleteObjectAuditAlarm, SeDeleteObjectAuditAlarm, seref_eb1715b3-9c8b-4848-8cc8-3809d0d35d9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID SeDeleteObjectAuditAlarm(
 
 
 
-#### - Object [in]
+### -param Object [in]
 
 Address of the object.
 
 
-#### - Handle [in]
+### -param Handle [in]
 
 A unique 32-bit value representing the client's handle to the object. 
 

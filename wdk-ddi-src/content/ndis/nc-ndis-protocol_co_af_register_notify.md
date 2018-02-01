@@ -76,7 +76,7 @@ VOID ProtocolCoAfRegisterNotify(
 
 
 
-#### - ProtocolBindingContext [in]
+### -param ProtocolBindingContext [in]
 
 Specifies the handle to the client-allocated context area in which the client protocol maintains
      per-binding run-time state. The client's 
@@ -85,14 +85,14 @@ Specifies the handle to the client-allocated context area in which the client pr
      <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>.
 
 
-#### - AddressFamily [in]
+### -param AddressFamily [in]
 
 Pointer to a buffer describing the signaling-protocol support provided by a call manager that just
      registered these services with NDIS by calling 
-     <mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-     NdisCmRegisterAddressFamilyEx</b></mshelp:link> or 
-     <mshelp:link keywords="netvista.ndismcmregisteraddressfamilyex" tabindex="0"><b>
-     NdisMCmRegisterAddressFamilyEx</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+     NdisCmRegisterAddressFamilyEx</a> or 
+     <a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
+     NdisMCmRegisterAddressFamilyEx</a>.
 
 
 ## -returns
@@ -129,14 +129,14 @@ If the client finds the offered call-management services unacceptable,
 For example, 
     <i>ProtocolCoAfRegisterNotify</i> or 
     <i>ProtocolClOpenAfCompleteEx</i> might call 
-    <mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
-    NdisInitializeNPagedLookasideList</b></mshelp:link> one or more times in preparation for dynamic allocations and
+    <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+    NdisInitializeNPagedLookasideList</a> one or more times in preparation for dynamic allocations and
     releases of per-SAP, per-VC, and/or per-party context areas that the client will need subsequently.
 
 If it accepts incoming calls, a client's 
     <i>ProtocolCoAfRegisterNotify</i> or 
-    <mshelp:link keywords="netvista.protocolclopenafcompleteex" tabindex="0"><i>
-    ProtocolClOpenAfCompleteEx</i></mshelp:link> function usually registers one or more SAPs with the call manager. After
+    <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+    ProtocolClOpenAfCompleteEx</a> function usually registers one or more SAPs with the call manager. After
     opening that call manager's AF, the client might proceed to allocate a per-SAP state area and call 
     <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a> one or more times with
     the 
@@ -181,28 +181,28 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+   NdisCmRegisterAddressFamilyEx</a>
+
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
-<mshelp:link keywords="netvista.ndismcmregisteraddressfamilyex" tabindex="0"><b>
-   NdisMCmRegisterAddressFamilyEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+   NdisInitializeNPagedLookasideList</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
+   NdisMCmRegisterAddressFamilyEx</a>
 
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
-   NdisInitializeNPagedLookasideList</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-   NdisCmRegisterAddressFamilyEx</b></mshelp:link>
 
  
 

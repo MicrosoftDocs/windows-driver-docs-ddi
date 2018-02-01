@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 431575b7-1173-448c-98a9-790bc2721da0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.ddiauthenticatedchanneltype, d3dumddi/DDIAUTHENTICATEDCHANNELTYPE, _DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, D3D_other_Structs_ac5c5f50-3e64-483f-86d1-a0cd99f0578b.xml, DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, DDIAUTHENTICATEDCHANNELTYPE enumeration [Display Devices], d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, DDIAUTHENTICATEDCHANNELTYPE
+ms.keywords: DDIAUTHENTICATEDCHANNELTYPE enumeration [Display Devices], d3dumddi/DDIAUTHENTICATEDCHANNELTYPE, display.ddiauthenticatedchanneltype, DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, D3D_other_Structs_ac5c5f50-3e64-483f-86d1-a0cd99f0578b.xml, _DDIAUTHENTICATEDCHANNELTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -68,12 +68,12 @@ typedef enum _DDIAUTHENTICATEDCHANNELTYPE {
 
 
 
-#### - DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE
+### -field DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE
 
 The value specifies that the authenticated-channel type is software. 
 
 
-#### - DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE
+### -field DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE
 
 The value specifies that the authenticated-channel type is hardware.
 
@@ -89,15 +89,15 @@ The Microsoft Direct3D runtime specifies a DDIAUTHENTICATEDCHANNELTYPE-typed val
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createauthenicatedchannel.md">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createauthenicatedchannel.md">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
+<a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
 
  
 

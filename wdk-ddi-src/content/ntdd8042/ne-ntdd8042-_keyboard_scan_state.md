@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: fd6cba1d-e32c-4ee8-b827-826e5065ca8b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.keyboard_scan_state, KEYBOARD_SCAN_STATE enumeration [Human Input Devices], ntdd8042/GotE0, GotE1, ntdd8042/Normal, ntdd8042/PKEYBOARD_SCAN_STATE, Normal, GotE0, *PKEYBOARD_SCAN_STATE, ntdd8042/KEYBOARD_SCAN_STATE, i8042ref_c83b037a-9874-4ae3-b951-9d37a1df03be.xml, PKEYBOARD_SCAN_STATE enumeration pointer [Human Input Devices], ntdd8042/GotE1, _KEYBOARD_SCAN_STATE, KEYBOARD_SCAN_STATE, PKEYBOARD_SCAN_STATE
+ms.keywords: ntdd8042/Normal, KEYBOARD_SCAN_STATE, ntdd8042/GotE0, i8042ref_c83b037a-9874-4ae3-b951-9d37a1df03be.xml, ntdd8042/KEYBOARD_SCAN_STATE, _KEYBOARD_SCAN_STATE, KEYBOARD_SCAN_STATE enumeration [Human Input Devices], *PKEYBOARD_SCAN_STATE, GotE1, ntdd8042/PKEYBOARD_SCAN_STATE, GotE0, Normal, PKEYBOARD_SCAN_STATE enumeration pointer [Human Input Devices], PKEYBOARD_SCAN_STATE, hid.keyboard_scan_state, ntdd8042/GotE1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum _KEYBOARD_SCAN_STATE {
 
 
 
-#### - Normal
+### -field Normal
 
 Indicates that the current byte is a <b>Normal</b> scan code (a nonextended code).
 
 
-#### - GotE0
+### -field GotE0
 
 Indicates that the current byte is an E0 extended scan code.
 
 
-#### - GotE1
+### -field GotE1
 
 Indicates that the current byte is an E1 extended scan code.
 
@@ -93,9 +93,9 @@ This enumeration type is used as input to an optional <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+
+<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c7a13b-511a-4e9d-a0e6-9fb27126b1d2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], ISCSI_ENCRYPT_NONE, iscsicfg/PISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_NONE, ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPT_AES_CTR, PISCSI_ENCRYPTION_TYPES, structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml, iscsicfg/ISCSI_ENCRYPTION_TYPES, *PISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_AES_CTR, ISCSI_ENCRYPTION_TYPES, storage.iscsi_encryption_types, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1
+ms.keywords: ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], ISCSI_ENCRYPT_NONE, iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], iscsicfg/ISCSI_ENCRYPT_AES_CTR, *PISCSI_ENCRYPTION_TYPES, structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml, ISCSI_ENCRYPTION_TYPES, storage.iscsi_encryption_types, ISCSI_ENCRYPT_AES_CTR, PISCSI_ENCRYPTION_TYPES, iscsicfg/PISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_NONE, iscsicfg/ISCSI_ENCRYPTION_TYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum  {
 
 
 
-#### - ISCSI_ENCRYPT_NONE
+### -field ISCSI_ENCRYPT_NONE
 
 No type of encryption is supported. 
 
 
-#### - ISCSI_ENCRYPT_3DES_HMAC_SHA1
+### -field ISCSI_ENCRYPT_3DES_HMAC_SHA1
 
 The initiator or target supports triple data encryption standard (DES), hashed message authentication code (HMAC), and the secure hash algorithm, version 1. 
 
 
-#### - ISCSI_ENCRYPT_AES_CTR
+### -field ISCSI_ENCRYPT_AES_CTR
 
 The initiator or target supports advanced encryption standard (AES) counter mode (CTR). 
 
@@ -93,9 +93,9 @@ The ISCSI_ENCRYPTION_TYPES enumeration is used with the <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
-
 <a href="..\iscsicfg\ns-iscsicfg-_msiscsi_securitycapabilities.md">MSiSCSI_SecurityCapabilities</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
 
  
 

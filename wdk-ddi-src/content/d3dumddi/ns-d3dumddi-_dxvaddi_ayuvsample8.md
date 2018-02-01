@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0fce82e9-0932-4838-b247-af0b2b8642d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvaddi_ayuvsample8, DXVADDI_AYUVSAMPLE8, d3dumddi/DXVADDI_AYUVSAMPLE8, _DXVADDI_AYUVSAMPLE8, DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8 structure [Display Devices]
+ms.keywords: DXVADDI_AYUVSAMPLE8, d3dumddi/DXVADDI_AYUVSAMPLE8, display.dxvaddi_ayuvsample8, _DXVADDI_AYUVSAMPLE8, DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXVADDI_AYUVSAMPLE8 {
 
 
 
-#### - Cr
+### -field Cr
 
 [in] An 8-bit chrominance (V) sample value.
 
 
-#### - Cb
+### -field Cb
 
 [in] An 8-bit chrominance (U) sample value.
 
 
-#### - Y
+### -field Y
 
 [in] An 8-bit luminance (Y) sample value.
 
 
-#### - Alpha
+### -field Alpha
 
 [in] The 8-bit opacity of the pixel when it is used as a source graphic for blending with another picture. 
 
@@ -114,9 +114,9 @@ The color value is scaled according to ITU-R Rec. BT.601, which you can learn ab
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
 
  
 

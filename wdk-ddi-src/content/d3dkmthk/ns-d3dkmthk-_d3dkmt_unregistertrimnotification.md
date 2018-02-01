@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 336C5C6A-619B-4D28-9F06-A09CABF78073
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_UNREGISTERTRIMNOTIFICATION, _D3DKMT_UNREGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION, display.d3dkmt_unregistertrimnotification, D3DKMT_UNREGISTERTRIMNOTIFICATION structure [Display Devices]
+ms.keywords: D3DKMT_UNREGISTERTRIMNOTIFICATION structure [Display Devices], d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION, D3DKMT_UNREGISTERTRIMNOTIFICATION, _D3DKMT_UNREGISTERTRIMNOTIFICATION, display.d3dkmt_unregistertrimnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _D3DKMT_UNREGISTERTRIMNOTIFICATION {
 
 
 
-#### - Handle
+### -field Handle
 
 [out] The callback notification handle received from the call to <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a>.
 

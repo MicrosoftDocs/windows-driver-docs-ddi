@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, iscsiop/SetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, _SetPresharedKeyForId_OUT, structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, SetPresharedKeyForId_OUT structure [Storage Devices], PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices]"
+ms.keywords: structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, PSetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, iscsiop/SetPresharedKeyForId_OUT, _SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], *PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, SetPresharedKeyForId_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -67,7 +67,7 @@ typedef struct _SetPresharedKeyForId_OUT {
 
 
 
-#### - Status
+### -field Status
 
 On output, the status of the <b>SetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 

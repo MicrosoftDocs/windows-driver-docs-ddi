@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 77fb2942-5836-44cb-9a5e-e45f6a022264
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.iscsi_discoveredtarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, iscsifnd/ISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2, *PISCSI_DiscoveredTarget2, _ISCSI_DiscoveredTarget2, iscsifnd/PISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2 structure [Storage Devices], ISCSI_DiscoveredTarget2
+ms.keywords: ISCSI_DiscoveredTarget2 structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], PISCSI_DiscoveredTarget2, storage.iscsi_discoveredtarget2, ISCSI_DiscoveredTarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, _ISCSI_DiscoveredTarget2, *PISCSI_DiscoveredTarget2, iscsifnd/ISCSI_DiscoveredTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _ISCSI_DiscoveredTarget2 {
 
 
 
-#### - TargetPortalGroupCount
+### -field TargetPortalGroupCount
 
 The number of portal groups that are associated with the target.
 
 
-#### - TargetName
+### -field TargetName
 
 A name for the target that uniquely identifies the target anywhere in the world. For more information about how to specify this name, see the <i>iSCSI </i>specification that is published by the Internet Engineering Task Force (IETF) of the IP storage working group. 
 
 
-#### - TargetAlias
+### -field TargetAlias
 
 The human-readable name or description that is assigned to the target device by its host operating system. You can use this name in user interfaces, but it is not unique, so you should not use it in authentication decisions. 
 
 
-#### - TargetDiscoveredPortalGroups
+### -field TargetDiscoveredPortalGroups
 
 A variable-length array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup2.md">ISCSI_DiscoveredTargetPortalGroup2</a> structures that contains information about the portal groups that the initiator can use to connect to the target.
 
@@ -101,11 +101,11 @@ The only difference between the ISCSI_DiscoveredTarget2 structure and the <a hre
 
 ## -see-also
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561505">ISCSI_DiscoveredTarget2 WMI Class</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
+
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
 
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
 

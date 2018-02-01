@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: c9e18ed0-bc34-49ed-a31e-20c82d43860f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posbarcodescannererroroccurredeventdata, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData
+ms.keywords: pos.posbarcodescannererroroccurredeventdata, PosBarcodeScannerErrorOccurredEventData, _PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,42 +74,42 @@ typedef struct _PosBarcodeScannerErrorOccurredEventData {
 
 
 
-#### - Header
+### -field Header
 
 The <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure that describes the amount of memory, in bytes, of the <b>PosBarcodeScannerErrorOccurredEventData</b> structure and trailing error message and scan data.
 
 
-#### - IsRetriable
+### -field IsRetriable
 
 Indicates whether <a href="http://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> can be called again to read this event
 
 
-#### - Severity
+### -field Severity
 
 Contains a value in the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedposerrorseverity.md">UnifiedPosErrorSeverity</a> enumeration indicating the severity of the error. 
 
 
-#### - VendorErrorCode
+### -field VendorErrorCode
 
 Contains a vendor-specific error code.
 
 
-#### - Reason
+### -field Reason
 
 Contains a value in the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedposerrorreason.md">UnifiedPosErrorReason</a> enumeration indicating the reason for the error.
 
 
-#### - ExtendedReason
+### -field ExtendedReason
 
 Contains additional data about the reason for the error.
 
 
-#### - MessageLength
+### -field MessageLength
 
 Indicates the length, in bytes, of the error message.
 
 
-#### - PartialData
+### -field PartialData
 
 If a scanning error occurs, and some scan data was obtained, the partial scan data will be available in this parameter.
 

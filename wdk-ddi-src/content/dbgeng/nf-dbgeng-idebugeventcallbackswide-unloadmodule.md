@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 05f3fa93-389e-4ecc-b7c0-71f43691232f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide::UnloadModule, debugger.idebugeventcallbackswide_unloadmodule, IDebugEventCallbacksWide, UnloadModule, IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::UnloadModule, UnloadModule method [Windows Debugging]
+ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide::UnloadModule, debugger.idebugeventcallbackswide_unloadmodule, IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, dbgeng/IDebugEventCallbacksWide::UnloadModule, UnloadModule, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, UnloadModule method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,12 +68,12 @@ HRESULT UnloadModule(
 
 
 
-#### - ImageBaseName [in, optional]
+### -param ImageBaseName [in, optional]
 
 Specifies the name of the module's image file, which can include the path.  If this information is not available, <i>ImageBaseName</i> will be <b>NULL</b>.
 
 
-#### - BaseOffset [in]
+### -param BaseOffset [in]
 
 Specifies the base address of the module in the target's memory address space.    If this information is not available, <i>BaseOffset</i> will be <b>NULL</b>.
 

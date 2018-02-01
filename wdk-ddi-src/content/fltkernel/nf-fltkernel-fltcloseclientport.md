@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7a23b8f6-688f-4aa4-9bf3-f8bda0458566
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, FltCloseClientPort function [Installable File System Drivers], fltkernel/FltCloseClientPort, ifsk.fltcloseclientport, FltCloseClientPort
+ms.keywords: FltCloseClientPort function [Installable File System Drivers], FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, ifsk.fltcloseclientport, FltCloseClientPort, fltkernel/FltCloseClientPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ VOID FltCloseClientPort(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - ClientPort [out]
+### -param ClientPort [out]
 
 Pointer to a variable that contains the opaque port handle for the client port to be closed. On return, the variable receives <b>NULL</b>. This parameter is required and cannot be <b>NULL</b> on input. 
 
@@ -100,13 +100,13 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
 
  
 

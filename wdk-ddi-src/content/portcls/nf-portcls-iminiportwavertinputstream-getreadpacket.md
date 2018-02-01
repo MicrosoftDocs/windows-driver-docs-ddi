@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavertinputstream_getreadpacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream, GetReadPacket method [Audio Devices], portcls/IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket, IMiniportWaveRTInputStream::GetReadPacket
+ms.keywords: audio.iminiportwavertinputstream_getreadpacket, GetReadPacket, portcls/IMiniportWaveRTInputStream::GetReadPacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, IMiniportWaveRTInputStream, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,12 +73,12 @@ NTSTATUS GetReadPacket(
 
 
 
-#### - PacketNumber [out]
+### -param PacketNumber [out]
 
 Returns the packet number relative to the start of capture.  
 
 
-#### - Flags [out]
+### -param Flags [out]
 
 Reserved for future use. Must be set to 0.
 
@@ -88,7 +88,7 @@ Reserved for future use. Must be set to 0.
 
 
 
-#### - MoreData [out]
+### -param MoreData [out]
 
  Returns <b>TRUE</b> if there is more data ready immediately. The OS may optionally immediately call this routine again after processing the packet to get the next packet information. If the driver returns <b>FALSE</b>, then capture is operating at real time. 
 

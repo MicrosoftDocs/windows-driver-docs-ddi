@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMdlReadDev, ifsk.fltfastiomdlread, FltFastIoMdlRead, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev
+ms.keywords: FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], ifsk.fltfastiomdlread, fltkernel/FsRtlMdlReadDev, FltFastIoMdlRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,37 +73,37 @@ BOOLEAN FsRtlMdlReadDev(
 
 
 
-#### - InitiatingInstance
+### -param InitiatingInstance
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for the cached file.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 A pointer to a variable that specifies the starting byte offset within the cached file that holds the data.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The length in bytes of the data to read from the cache.
 
 
-#### - LockKey [in]
+### -param LockKey [in]
 
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked non-exclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-#### - MdlChain [out]
+### -param MdlChain [out]
 
 On output, a pointer to a linked list of memory descriptor lists (MDLs).
 
 
-#### - IoStatus [out]
+### -param IoStatus [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
@@ -126,9 +126,9 @@ The routine is similar to <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltfastiomdlreadcomplete.md">FltFastIoMdlReadComplete</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
 

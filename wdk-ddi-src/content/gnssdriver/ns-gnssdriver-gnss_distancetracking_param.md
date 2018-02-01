@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: B37B3C59-225C-40BC-BCA4-9ABF2500AFC0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PGNSS_DISTANCETRACKING_PARAM, gnssdriver/PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices], sensors.gnss_distancetracking_param, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM"
+ms.keywords: gnssdriver/GNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices], sensors.gnss_distancetracking_param, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], *PGNSS_DISTANCETRACKING_PARAM, gnssdriver/PGNSS_DISTANCETRACKING_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct {
 
 
 
-#### - Size
+### -field Size
 
 Structure size.
 
 
-#### - Version
+### -field Version
 
 Version number.
 
 
-#### - MovementThreshold
+### -field MovementThreshold
 
 If the device moves beyond this threshold, a fix will be generated/recorded. A value of zero indicates that a fix should be reported whenever the device moves. This value is specified in meters.
 

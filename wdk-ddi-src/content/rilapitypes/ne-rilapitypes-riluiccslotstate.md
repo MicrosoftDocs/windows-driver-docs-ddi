@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e88c6e79-c1a0-4ff9-ac00-f8f367aaa7c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RIL_UICCSLOT_OFF, RIL_UICCSLOT_OFF, RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_ERROR, rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_OFF_EMPTY, RIL_UICCSLOT_NOT_READY, rilapitypes/RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_OFF_EMPTY, netvista.riluiccslotstate, rilapitypes/RIL_UICCSLOT_ACTIVE, rilapitypes/RIL_UICCSLOT_NOT_READY, RILUICCSLOTSTATE, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_UICCSLOT_ERROR, netvista.riluiccslotstate, rilapitypes/RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_OFF_EMPTY, RIL_UICCSLOT_OFF_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RIL_UICCSLOT_OFF, RILUICCSLOTSTATE, RIL_UICCSLOT_OFF, RIL_UICCSLOT_NOT_READY, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_NOT_READY, rilapitypes/RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_ACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,27 +74,27 @@ enum RILUICCSLOTSTATE {
 
 
 
-#### - RIL_UICCSLOT_OFF_EMPTY
+### -field RIL_UICCSLOT_OFF_EMPTY
 
 
 
-#### - RIL_UICCSLOT_OFF
+### -field RIL_UICCSLOT_OFF
 
 
 
-#### - RIL_UICCSLOT_EMPTY
+### -field RIL_UICCSLOT_EMPTY
 
 
 
-#### - RIL_UICCSLOT_NOT_READY
+### -field RIL_UICCSLOT_NOT_READY
 
 
 
-#### - RIL_UICCSLOT_ACTIVE
+### -field RIL_UICCSLOT_ACTIVE
 
 
 
-#### - RIL_UICCSLOT_ERROR
+### -field RIL_UICCSLOT_ERROR
 
 
 

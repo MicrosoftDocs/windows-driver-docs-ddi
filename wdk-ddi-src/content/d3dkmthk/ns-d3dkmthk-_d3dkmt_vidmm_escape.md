@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9fb9960-9e6a-4c41-9c40-8ad307f83f0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_VIDMM_ESCAPE, d3dkmthk/D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], display.d3dkmt_vidmm_escape, D3DKMT_VIDMM_ESCAPE, OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml"
+ms.keywords: OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml, d3dkmthk/D3DKMT_VIDMM_ESCAPE, _D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], display.d3dkmt_vidmm_escape, D3DKMT_VIDMM_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,15 +105,7 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 
-#### - SetFault
-
-
-
-#### ProbeAndLock
-
-
-
-#### SplitPoin
+### -field SetFault
 
 
 
@@ -121,59 +113,7 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 
-#### SwizzlingAperture
-
-
-
-#### PagingPathLockSubRange
-
-
-
-#### PagingPathLockMinRange
-
-
-
-#### ComplexLock
-
-
-
-#### FailVARotation
-
-
-
-#### NoWriteCombined
-
-
-
-#### NoPrePatching
-
-
-
-#### AlwaysRepatch
-
-
-
-#### ExpectPreparationFailure
-
-
-
-#### FailUserModeVAMapping
-
-
-
-#### NeverDiscardOfferedAllocation
-
-
-
-#### AlwaysDiscardOfferedAllocation
-
-
-
-#### Reserved
-
-
-
-#### Value
+#### SplitPoin
 
 
 
@@ -247,7 +187,7 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 
-#### - Evict
+### -field Evict
 
 
 
@@ -266,7 +206,7 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
  
 
 
-#### - EvictByNtHandle
+### -field EvictByNtHandle
 
 
 
@@ -445,15 +385,15 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
  
 
 
-#### - Type
+### -field Type
 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
 
  
 

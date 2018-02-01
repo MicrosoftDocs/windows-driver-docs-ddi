@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfe37343-18a6-46f2-b23f-52fc0ca2f800
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MODE_SCALING_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED, dxgiddi/DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING enumeration [Display Devices], dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED, DXGI_DDI_MODE_SCALING_STRETCHED, DXGI_DDI_MODE_SCALING_CENTERED, display.dxgi_ddi_mode_scaling, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml
+ms.keywords: DXGI_DDI_MODE_SCALING_UNSPECIFIED, DXGI_DDI_MODE_SCALING_STRETCHED, dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, display.dxgi_ddi_mode_scaling, DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED, DXGI_DDI_MODE_SCALING enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -69,17 +69,17 @@ typedef enum DXGI_DDI_MODE_SCALING {
 
 
 
-#### - DXGI_DDI_MODE_SCALING_UNSPECIFIED
+### -field DXGI_DDI_MODE_SCALING_UNSPECIFIED
 
 A DXGI_DDI_MODE_SCALING-typed variable has not yet been assigned a meaningful value.
 
 
-#### - DXGI_DDI_MODE_SCALING_STRETCHED
+### -field DXGI_DDI_MODE_SCALING_STRETCHED
 
 Stretched content can be displayed. 
 
 
-#### - DXGI_DDI_MODE_SCALING_CENTERED
+### -field DXGI_DDI_MODE_SCALING_CENTERED
 
 Centered content can be displayed. 
 

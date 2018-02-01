@@ -126,14 +126,14 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 The count value specified for the XOFF counter request is less than zero.
 
 
-#### -STATUS_SERIAL_MORE_WRITES
-
-A write request was received.
-
-
 #### -STATUS_SERIAL_COUNTER_TIMEOUT
 
 The request timed out.
+
+
+#### -STATUS_SERIAL_MORE_WRITES
+
+A write request was received.
 
 
 ## -see-also

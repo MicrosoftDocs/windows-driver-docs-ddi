@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: Adaptive Setting, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], StorPortSetPowerSettingNotificationGuids, HIPM/DIPM Setting, storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
+ms.keywords: storport/StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, StorPortSetPowerSettingNotificationGuids, HIPM/DIPM Setting, Adaptive Setting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,21 +70,44 @@ ULONG StorPortSetPowerSettingNotificationGuids(
 
 
 
-#### - HwDeviceExtension [in]
+### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-#### - GuidCount [in]
+### -param GuidCount [in]
 
 The number of GUIDs in the <i>Guid</i> array.
 
 
-#### - Guid [in]
+### -param Guid [in]
 
 An array of power setting GUIDs to register for notification. A typical use for registering these GUIDs is for SATA miniports to receive notifications for AHCI Link Power Management setting changes. The  AHCI Link Power Management settings defined by the Microsoft AHCI StorPort miniport driver are the following.
 
 Other miniports may define and register their own power setting GUIDs.
+
+
+#### Adaptive Setting (dab60367-53fe-4fbc-825e-521d069d2456)
+
+The period of AHCI link idle time before the link is put into a slumber state when HIPM or DIPM is enabled.
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>0</td>
+<td>Minimum value in milliseconds (only use Partial state).</td>
+</tr>
+<tr>
+<td>...</td>
+<td>Any intermediate value.</td>
+</tr>
+<tr>
+<td>300000</td>
+<td>Maximum value in milliseconds (5 minutes).</td>
+</tr>
+</table> 
 
 
 #### HIPM/DIPM Setting (0b2d69d7-a2a1-449c-9680-f91c70521c60)
@@ -110,29 +133,6 @@ Configures the link power management mode for disk and storage devices that are 
 <td>2</td>
 <td>HIPM and DIPM</td>
 <td>HIPM and Device-Initiated Power Management (DIPM) are used.</td>
-</tr>
-</table> 
-
-
-#### Adaptive Setting (dab60367-53fe-4fbc-825e-521d069d2456)
-
-The period of AHCI link idle time before the link is put into a slumber state when HIPM or DIPM is enabled.
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>0</td>
-<td>Minimum value in milliseconds (only use Partial state).</td>
-</tr>
-<tr>
-<td>...</td>
-<td>Any intermediate value.</td>
-</tr>
-<tr>
-<td>300000</td>
-<td>Maximum value in milliseconds (5 minutes).</td>
 </tr>
 </table> 
 

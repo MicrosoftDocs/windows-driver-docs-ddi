@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8dfeb2d5-e75e-4e5b-b209-cb23133136f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.xcvcloseport, XcvClosePort function [Print Devices], winsplp/XcvClosePort, XcvClosePort, spoolfnc_5d0750d1-1f50-4e09-8c91-1362b2037265.xml
+ms.keywords: winsplp/XcvClosePort, XcvClosePort, XcvClosePort function [Print Devices], print.xcvcloseport, spoolfnc_5d0750d1-1f50-4e09-8c91-1362b2037265.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ BOOL XcvClosePort(
 
 
 
-#### - hXcv [in]
+### -param hXcv [in]
 
 Caller-supplied printer handle obtained by calling <b>OpenPrinter</b> (described in the Microsoft Windows SDK documentation). This handle is created and returned by <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>.
 

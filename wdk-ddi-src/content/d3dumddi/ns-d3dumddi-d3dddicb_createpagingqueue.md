@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9E36B02F-2292-416C-AA09-1968EECE5A3D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue, D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,27 +71,27 @@ typedef struct D3DDDICB_CREATEPAGINGQUEUE {
 
 
 
-#### - Priority
+### -field Priority
 
 [in] Scheduling priority relative to other paging queues on this device. Paging queues with higher priority values will be processed ahead of paging queues with lower priority values.
 
 
-#### - hPagingQueue
+### -field hPagingQueue
 
 [out] A paging queue handle that will be used to synchronize paging operations.
 
 
-#### - hSyncObject
+### -field hSyncObject
 
 [out] Handle to the monitored fence object used to synchronize paging operations for this paging queue. Destroying the paging queue (either implicitly or explicitly) will automatically destroy this sync object.
 
 
-#### - FenceValueCPUVirtualAddress
+### -field FenceValueCPUVirtualAddress
 
 [out] A read-only mapping of the paging fence object value for the CPU. This is a user mode address readable from the process that created the monitored fence object.
 
 
-#### - PhysicalAdapterIndex
+### -field PhysicalAdapterIndex
 
 [in] Physical adapter index (engine ordinal) for the queue.
 

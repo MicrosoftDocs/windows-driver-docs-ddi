@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b945476-c1cf-4bf8-8273-bb3d05b90277
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, display.d3d12ddiarg-create-video-processor-0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure [Display Devices]
+ms.keywords: display.d3d12ddiarg-create-video-processor-0032, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure [Display Devices], D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 {
 
 
 
-#### - NodeMask
+### -field NodeMask
 
 Represents the set of nodes.
 
 
-#### - OutputStream
+### -field OutputStream
 
 The output stream.
 
 
-#### - pInputStreams
+### -field pInputStreams
 
 The input stream.
 
 
-#### - NumInputStreams
+### -field NumInputStreams
 
 The number of input streams.
 

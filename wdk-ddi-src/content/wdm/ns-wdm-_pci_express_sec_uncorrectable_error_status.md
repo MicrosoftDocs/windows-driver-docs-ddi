@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 8f6b1764-e2c0-4c9e-a2ec-56cc19520d2e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union [Buses], PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, pci_struct_cb52bea2-b001-47a7-bad9-9816787133d3.xml, PCI.pci_express_sec_uncorrectable_error_status
+ms.keywords: wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, pci_struct_cb52bea2-b001-47a7-bad9-9816787133d3.xml, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], PCI.pci_express_sec_uncorrectable_error_status, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union [Buses], _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,157 +92,82 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS {
 
 ### -field DUMMYSTRUCTNAME.TargetAbortOnSplitCompletion
 
- 
+A single bit that indicates that a target abort on split completion has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.MasterAbortOnSplitCompletion
 
- 
+A single bit that indicates that a master abort on split completion has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.ReceivedTargetAbort
 
- 
+A single bit that indicates that a target abort has been received.
 
 
 ### -field DUMMYSTRUCTNAME.ReceivedMasterAbort
 
- 
+A single bit that indicates that a master abort has been received.
 
 
 ### -field DUMMYSTRUCTNAME.RsvdZ
 
- 
+Reserved for system use.
 
 
 ### -field DUMMYSTRUCTNAME.UnexpectedSplitCompletionError
 
- 
+A single bit that indicates that an unexpected split completion error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableSplitCompletion
 
- 
+A single bit that indicates that an uncorrectable split completion message data error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableDataError
 
- 
+A single bit that indicates that an uncorrectable data error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableAttributeError
 
- 
+A single bit that indicates that an uncorrectable attribute error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableAddressError
 
- 
+A single bit that indicates that an uncorrectable address error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.DelayedTransactionDiscardTimerExpired
 
- 
+A single bit that indicates that the delayed transaction discard timer has expired.
 
 
 ### -field DUMMYSTRUCTNAME.PERRAsserted
 
- 
+A single bit that indicates that a PERR# assertion was detected.
 
 
 ### -field DUMMYSTRUCTNAME.SERRAsserted
 
- 
+A single bit that indicates that a SERR# assertion was detected.
 
 
 ### -field DUMMYSTRUCTNAME.InternalBridgeError
 
- 
+A single bit that indicates that an internal bridge error has occurred.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved for system use.
 
 
-#### - AsULONG
+### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
-
-
-#### - TargetAbortOnSplitCompletion
-
-A single bit that indicates that a target abort on split completion has occurred.
-
-
-#### - MasterAbortOnSplitCompletion
-
-A single bit that indicates that a master abort on split completion has occurred.
-
-
-#### - ReceivedTargetAbort
-
-A single bit that indicates that a target abort has been received.
-
-
-#### - ReceivedMasterAbort
-
-A single bit that indicates that a master abort has been received.
-
-
-#### - RsvdZ
-
-Reserved for system use.
-
-
-#### - UnexpectedSplitCompletionError
-
-A single bit that indicates that an unexpected split completion error has occurred.
-
-
-#### - UncorrectableSplitCompletion
-
-A single bit that indicates that an uncorrectable split completion message data error has occurred.
-
-
-#### - UncorrectableDataError
-
-A single bit that indicates that an uncorrectable data error has occurred.
-
-
-#### - UncorrectableAttributeError
-
-A single bit that indicates that an uncorrectable attribute error has occurred.
-
-
-#### - UncorrectableAddressError
-
-A single bit that indicates that an uncorrectable address error has occurred.
-
-
-#### - DelayedTransactionDiscardTimerExpired
-
-A single bit that indicates that the delayed transaction discard timer has expired.
-
-
-#### - PERRAsserted
-
-A single bit that indicates that a PERR# assertion was detected.
-
-
-#### - SERRAsserted
-
-A single bit that indicates that a SERR# assertion was detected.
-
-
-#### - InternalBridgeError
-
-A single bit that indicates that an internal bridge error has occurred.
-
-
-#### - Reserved
-
-Reserved for system use.
 
 
 ## -remarks

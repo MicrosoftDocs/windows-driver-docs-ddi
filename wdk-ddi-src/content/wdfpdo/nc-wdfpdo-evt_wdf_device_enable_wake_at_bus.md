@@ -74,12 +74,12 @@ NTSTATUS EvtDeviceEnableWakeAtBus(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - PowerState [in]
+### -param PowerState [in]
 
 A SYSTEM_POWER_STATE-typed enumerator that identifies the system power state that the system or device will wake from.
 

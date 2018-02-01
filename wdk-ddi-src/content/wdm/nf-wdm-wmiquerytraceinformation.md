@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/WmiQueryTraceInformation, k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, WmiQueryTraceInformation, kernel.wmiquerytraceinformation, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/WmiQueryTraceInformation, kernel.wmiquerytraceinformation, WmiQueryTraceInformation, k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ NTSTATUS WmiQueryTraceInformation(
 
 
 
-#### - TraceInformationClass [in]
+### -param TraceInformationClass [in]
 
 Specifies a <a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a> enumerator that indicates the type of information to return about an event trace.
 
 
-#### - TraceInformation [out]
+### -param TraceInformation [out]
 
 A pointer to a caller-allocated output buffer where the routine returns the event trace information specified by <i>TraceInformationClass</i>.
 
 
-#### - TraceInformationLength [in]
+### -param TraceInformationLength [in]
 
 Specifies the size, in bytes, of the <i>TraceInformation</i> buffer.
 
 
-#### - RequiredLength [out, optional]
+### -param RequiredLength [out, optional]
 
 A pointer to the value returned by the routine that specifies the required size, in bytes, of the <i>TraceInformation</i> buffer. The caller should set <i>RequiredLength</i> to <b>NULL</b> if it does not use the required length information.
 
 
-#### - Buffer [in, optional]
+### -param Buffer [in, optional]
 
 A pointer to the query-specific input information that a caller supplies. If caller-supplied information is not required, the caller should set <i>Buffer</i> to <b>NULL</b>. 
 
@@ -364,13 +364,13 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
-
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
 
 <a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+
+<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
 
  
 

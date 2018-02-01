@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 60CEBF40-25D3-49F0-A4BF-40440E1A3EE6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetDeviceChannelMute, GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelMute, audio.iminiportaudioenginenode_getdevicechannelmute, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelMute method
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelMute method, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute, audio.iminiportaudioenginenode_getdevicechannelmute, GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelMute, IMiniportAudioEngineNode::GetDeviceChannelMute, IMiniportAudioEngineNode, GetDeviceChannelMute method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,17 @@ NTSTATUS GetDeviceChannelMute(
 
 
 
-#### - ulNodeId [in]
+### -param ulNodeId [in]
 
 The ID for the node that represents the audio device.
 
 
-#### - ulChannel [in]
+### -param ulChannel [in]
 
 The audio device channel.
 
 
-#### - pbMute [out]
+### -param pbMute [out]
 
 The current state of the Mute node for the audio device channel.
 

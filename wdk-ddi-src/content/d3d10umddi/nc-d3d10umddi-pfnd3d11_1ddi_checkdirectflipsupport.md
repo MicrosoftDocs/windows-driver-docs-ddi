@@ -82,12 +82,12 @@ VOID APIENTRY* CheckDirectFlipSupport(D3D11_1)(
 
 
 
-#### - CheckDirectFlipFlags
+### -param CheckDirectFlipFlags
 
 If this parameter has a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>, seamless flipping should occur immediately and does not have to be synchronized with a VSync interrupt.
 
 
-#### - *pSupported [out]
+### -param *pSupported [out]
 
 Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
 
@@ -105,11 +105,6 @@ A resource in the application's swapchain.
 #### - hResource2
 
 A resource in the DWM's swapchain.
-
-
-#### - pSupported [out]
-
-Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
 
 
 ## -returns
@@ -141,9 +136,9 @@ The user-mode driver should ensure that the managed primary allocations of the a
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_check_direct_flip_flags.md">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
 
  
 

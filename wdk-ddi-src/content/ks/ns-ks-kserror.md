@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c475810c-505e-446a-9b98-d512e745b6ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_86211cee-a711-4a84-b8ea-6de2d9ef81f6.xml, stream.kserror, PKSERROR structure pointer [Streaming Media Devices], KSERROR, PKSERROR, ks/KSERROR, *PKSERROR, ks/PKSERROR, KSERROR structure [Streaming Media Devices]
+ms.keywords: ks/PKSERROR, KSERROR, stream.kserror, *PKSERROR, ks/KSERROR, PKSERROR, PKSERROR structure pointer [Streaming Media Devices], ks-struct_86211cee-a711-4a84-b8ea-6de2d9ef81f6.xml, KSERROR structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct {
 
 
 
-#### - Context
+### -field Context
 
 Specifies a context parameter that was originally passed to the connection.
 
 
-#### - Status
+### -field Status
 
 Specifies the NTSTATUS error.
 
@@ -87,11 +87,11 @@ Streaming error notifications can be generated against the Quality Management si
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565211">KSPROPERTY_QUALITY_ERROR</a>
+<a href="..\ks\ne-ks-ksdegrade_standard.md">KSDEGRADE_STANDARD</a>
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSDEGRADE</a>
 
-<a href="..\ks\ne-ks-ksdegrade_standard.md">KSDEGRADE_STANDARD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565211">KSPROPERTY_QUALITY_ERROR</a>
 
  
 

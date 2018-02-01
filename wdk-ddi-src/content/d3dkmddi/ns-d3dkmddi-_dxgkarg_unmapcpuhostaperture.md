@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture
+ms.keywords: "_DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,22 +70,22 @@ typedef struct _DXGKARG_UNMAPCPUHOSTAPERTURE {
 
 
 
-#### - NumberOfPages
+### -field NumberOfPages
 
 Specifies the number of pages being unmapped.
 
 
-#### - pCpuHostAperturePages
+### -field pCpuHostAperturePages
 
 Array of CPU host aperture pages to unmap. This is an array of page indices from the start of the CPU host aperture physical address.
 
 
-#### - SegmentId
+### -field SegmentId
 
 The driver segment identifier (starting from 1) of the segment for which the CPU host aperture is unmapped.
 
 
-#### - PhysicalAdapterIndex
+### -field PhysicalAdapterIndex
 
 The zero-based physical adapter index in a linked display adapter link.
 <div class="alert"><b>Note</b>  The page size is equal to the segment page size.</div><div> </div>

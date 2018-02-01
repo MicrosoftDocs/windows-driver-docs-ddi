@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3A9CF1BD-77F1-4F4C-AEB5-0E77B67C45D3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStopAndPurge method, wdf.wdfioqueuestopandpurge, PFN_WDFIOQUEUESTOPANDPURGE, kmdf.wdfioqueuestopandpurge, WdfIoQueueStopAndPurge, wdfio/WdfIoQueueStopAndPurge
+ms.keywords: WdfIoQueueStopAndPurge, kmdf.wdfioqueuestopandpurge, WdfIoQueueStopAndPurge method, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge, PFN_WDFIOQUEUESTOPANDPURGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,17 +76,17 @@ void WdfIoQueueStopAndPurge(
 
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 A handle to a framework queue object.
 
 
-#### - StopAndPurgeComplete [in, optional]
+### -param StopAndPurgeComplete [in, optional]
 
 A pointer to a driver-supplied <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function. This parameter is optional and can be NULL.
 
 
-#### - Context [in, optional]
+### -param Context [in, optional]
 
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function. This parameter is optional and can be NULL.
 
@@ -123,13 +123,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurgesynchronously.md">WdfIoQueueStopAndPurgeSynchronously</a>
-
-<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
-
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
+<a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurgesynchronously.md">WdfIoQueueStopAndPurgeSynchronously</a>
+
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md">EvtIoCanceledOnQueue</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
 
  
 

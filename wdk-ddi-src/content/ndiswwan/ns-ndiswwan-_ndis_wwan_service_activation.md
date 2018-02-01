@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0dbfa56f-a755-402d-b403-a04fc183c031
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SERVICE_ACTIVATION, _NDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION, netvista.ndis_wwan_service_activation, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION, PNDIS_WWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_78a89315-d2f0-460f-9c8b-b6bf92d3b267.xml
+ms.keywords: PNDIS_WWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION, _NDIS_WWAN_SERVICE_ACTIVATION, netvista.ndis_wwan_service_activation, WwanRef_78a89315-d2f0-460f-9c8b-b6bf92d3b267.xml, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _NDIS_WWAN_SERVICE_ACTIVATION {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SERVICE_ACTIVATION
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -118,7 +118,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - ServiceActivation
+### -field ServiceActivation
 
 A 
      <a href="..\wwan\ns-wwan-_wwan_service_activation.md">WWAN_SERVICE_ACTIVATION</a> structure

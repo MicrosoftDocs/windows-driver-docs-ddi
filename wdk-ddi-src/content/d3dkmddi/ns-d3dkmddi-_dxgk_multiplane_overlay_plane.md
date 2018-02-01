@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ea1abc7-b861-4217-a3ab-cf60026d9608
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE, _DXGK_MULTIPLANE_OVERLAY_PLANE, display.dxgk_multiplane_overlay_plane, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE, DXGK_MULTIPLANE_OVERLAY_PLANE structure [Display Devices]
+ms.keywords: display.dxgk_multiplane_overlay_plane, DXGK_MULTIPLANE_OVERLAY_PLANE structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE, _DXGK_MULTIPLANE_OVERLAY_PLANE, DXGK_MULTIPLANE_OVERLAY_PLANE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,12 +72,12 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE {
 
 
 
-#### - LayerIndex
+### -field LayerIndex
 
 The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
 
 
-#### - Enabled
+### -field Enabled
 
 Indicates whether the overlay plane specified by <b>LayerIndex</b> is enabled for display.
 
@@ -86,35 +86,35 @@ If <b>FALSE</b>, the display miniport driver should disable the specified overla
 If a plane was enabled during a previous call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>, the driver should continue to display the plane without flipping it.
 
 
-#### - AllocationSegment
+### -field AllocationSegment
 
 [in] The identifier of a segment that data is read from.
 
 
-#### - AllocationAddress
+### -field AllocationAddress
 
 [in] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>AllocationSegment</b> specifies, where the data is read.
 
 
-#### - hAllocation
+### -field hAllocation
 
 A handle to the allocation to be displayed on the overlay plane.
 
 
-#### - PlaneAttributes
+### -field PlaneAttributes
 
 A structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], ifsk.fltgetactivityidcallbackdata
+ms.keywords: ifsk.fltgetactivityidcallbackdata, FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,12 +68,12 @@ NTSTATUS FltGetActivityIdCallbackData(
 
 
 
-#### - CallbackData [in]
+### -param CallbackData [in]
 
 A pointer to the callback data containing the request with an associated activity ID.
 
 
-#### - Guid [out]
+### -param Guid [out]
 
 A pointer to the GUID structure receiving the activity ID.
 

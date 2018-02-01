@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3fc01bc5-05eb-482f-b625-67061d26915a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, wdm/MmMapLockedPagesWithReservedMapping, MmMapLockedPagesWithReservedMapping, kernel.mmmaplockedpageswithreservedmapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture]
+ms.keywords: MmMapLockedPagesWithReservedMapping, k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, kernel.mmmaplockedpageswithreservedmapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], wdm/MmMapLockedPagesWithReservedMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ PVOID MmMapLockedPagesWithReservedMapping(
 
 
 
-#### - MappingAddress [in]
+### -param MappingAddress [in]
 
 Pointer to the beginning of the reserved virtual memory range. This must be an address previously returned by <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>.
 
 
-#### - PoolTag [in]
+### -param PoolTag [in]
 
 Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a> that reserved the buffer. 
 
 
-#### - MemoryDescriptorList [in]
+### -param MemoryDescriptorList [in]
 
 A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a> or <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a> routine. 
 
 
-#### - CacheType [in]
+### -param CacheType [in]
 
 Specifies the <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
 
@@ -125,19 +125,19 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
-
 <a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-<a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
-
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
+<a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
 
 <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
 

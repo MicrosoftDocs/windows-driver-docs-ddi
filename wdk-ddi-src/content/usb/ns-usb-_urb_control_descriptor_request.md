@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 770659f4-701f-47dc-b20f-e51c85cdee4b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_URB_CONTROL_DESCRIPTOR_REQUEST, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], buses._urb_control_descriptor_request"
+ms.keywords: usb/_URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml, _URB_CONTROL_DESCRIPTOR_REQUEST, buses._urb_control_descriptor_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ struct _URB_CONTROL_DESCRIPTOR_REQUEST {
 
 
 
-#### - Hdr
+### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of the following:
 
@@ -97,12 +97,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-#### - UrbLink
+### -field UrbLink
 
 Reserved. Do not use.
 
 
-#### - hca
+### -field hca
 
 Reserved. Do not use.
 
@@ -112,52 +112,52 @@ Reserved. Do not use.
  
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. Do not use.
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved. Do not use.
 
 
-#### - TransferBufferLength
+### -field TransferBufferLength
 
 Specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes sent to or read from the pipe in this member.
 
 
-#### - TransferBuffer
+### -field TransferBuffer
 
 Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>.
 
 
-#### - TransferBufferMDL
+### -field TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. This MDL must be allocated from nonpaged pool.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved. Do not use.
 
 
-#### - Index
+### -field Index
 
 Specifies the device-defined index of the descriptor that is being retrieved or set.
 
 
-#### - DescriptorType
+### -field DescriptorType
 
 Indicates what type of descriptor is being retrieved or set. One of the following values must be specified:
 
 
-#### - LanguageId
+### -field LanguageId
 
 Specifies the language ID of the descriptor to be retrieved when USB_STRING_DESCRIPTOR_TYPE is set in <b>DescriptorType</b>. This member must be set to zero for any other value in <b>DescriptorType</b>.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved. Do not use.
 
@@ -179,21 +179,21 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
 
  
 

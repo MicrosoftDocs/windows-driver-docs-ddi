@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], NdisIMDeInitializeDeviceInstance, intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml
+ms.keywords: intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], netvista.ndisimdeinitializedeviceinstance, ndis/NdisIMDeInitializeDeviceInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,11 +71,11 @@ NDIS_STATUS NdisIMDeInitializeDeviceInstance(
 
 
 
-#### - NdisMiniportHandle [in]
+### -param NdisMiniportHandle [in]
 
 The handle that NDIS supplied to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ## -returns
@@ -92,11 +92,11 @@ The handle that NDIS supplied to the
 
 For NDIS intermediate drivers, 
     <b>NdisIMDeInitializeDeviceInstance</b> is the reciprocal of the 
-    <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-    NdisIMInitializeDeviceInstanceEx</b></mshelp:link> function. Such a driver usually calls 
+    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+    NdisIMInitializeDeviceInstanceEx</a> function. Such a driver usually calls 
     <b>NdisIMDeInitializeDeviceInstance</b> from its 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> function, when the underlying miniport adapter to which it was bound is
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> function, when the underlying miniport adapter to which it was bound is
     being removed from the system, possibly because it is being reconfigured.
 
 The call to 
@@ -111,8 +111,8 @@ The call to
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 

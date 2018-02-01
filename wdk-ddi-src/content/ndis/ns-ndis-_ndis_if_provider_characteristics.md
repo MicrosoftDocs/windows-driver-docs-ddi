@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f295bea2-20d8-4c71-b78b-77d43840be2a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_if_provider_characteristics, PNDIS_IF_PROVIDER_CHARACTERISTICS, ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, NDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, _NDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS
+ms.keywords: ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_IF_PROVIDER_CHARACTERISTICS, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, netvista.ndis_if_provider_characteristics, _NDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_IF_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _NDIS_IF_PROVIDER_CHARACTERISTICS {
 
 
 
-#### - Header
+### -field Header
 
 The 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -83,25 +83,25 @@ The
      <b>Size</b> member to NDIS_SIZEOF_IF_PROVIDER_CHARACTERISTICS_REVISION_1.
 
 
-#### - QueryObjectHandler
+### -field QueryObjectHandler
 
 The entry point for the 
-     <mshelp:link keywords="netvista.providerqueryobject" tabindex="0"><i>
-     ProviderQueryObject</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-if_query_object.md">
+     ProviderQueryObject</a> function.
 
 
-#### - SetObjectHandler
+### -field SetObjectHandler
 
 The entry point for the 
      <a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a> function.
 
 
-#### - Reserved1
+### -field Reserved1
 
 Reserved for NDIS.
 
 
-#### - Reserved2
+### -field Reserved2
 
 Reserved for NDIS.
 
@@ -115,8 +115,8 @@ All NDIS network driver types can register as network interface providers. An ND
 
 To register as an interface provider, the driver passes a pointer to the initialized
     NDIS_IF_PROVIDER_CHARACTERISTICS structure to the 
-    <mshelp:link keywords="netvista.ndisifregisterprovider" tabindex="0"><b>
-    NdisIfRegisterProvider</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
+    NdisIfRegisterProvider</a> function.
 
 
 

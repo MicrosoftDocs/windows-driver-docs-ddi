@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a1a2c3e-a120-4b5e-bd25-02cb3ab11e9c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030 structure [Display Devices], display.d3d12ddi-video-crypto-session-support-data-0030
+ms.keywords: D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-support-data-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,37 +73,37 @@ typedef struct _D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030 {
 
 
 
-#### - NodeIndex
+### -field NodeIndex
 
 Node index.
 
 
-#### - DecodeProfile
+### -field DecodeProfile
 
 Decode profile.
 
 
-#### - ContentProtectionSystem
+### -field ContentProtectionSystem
 
 Content protection system.
 
 
-#### - Flags
+### -field Flags
 
 Flags.
 
 
-#### - BitstreamEncryption
+### -field BitstreamEncryption
 
 Bitstream encryption.
 
 
-#### - KeyBaseDataSize
+### -field KeyBaseDataSize
 
 Key base data size.
 
 
-#### - Support
+### -field Support
 
 Support.
 

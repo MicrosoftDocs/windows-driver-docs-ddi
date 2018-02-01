@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_ENUMADAPTERS structure [Display Devices], d3dkmthk/D3DKMT_ENUMADAPTERS, display.d3dkmt_enumadapters, _D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS
+ms.keywords: d3dkmthk/D3DKMT_ENUMADAPTERS, _D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS, display.d3dkmt_enumadapters, D3DKMT_ENUMADAPTERS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _D3DKMT_ENUMADAPTERS {
 
 
 
-#### - NumAdapters
+### -field NumAdapters
 
 [in] The number of graphics adapters.
 
 
-#### - Adapters
+### -field Adapters
 
 An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterinfo.md">D3DKMT_ADAPTERINFO</a> structures that supply configuration information for each adapter. The maximum number of adapters that can be enumerated is 16.
 

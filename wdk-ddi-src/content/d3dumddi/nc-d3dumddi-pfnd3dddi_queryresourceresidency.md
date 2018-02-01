@@ -71,7 +71,7 @@ __checkReturn HRESULT APIENTRY QueryResourceResidency(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
@@ -173,9 +173,9 @@ For each resource that the runtime queries through a call to <i>QueryResourceRes
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_queryresidency.md">D3DDDICB_QUERYRESIDENCY</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresidencycb.md">pfnQueryResidencyCb</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_queryresourceresidency.md">D3DDDIARG_QUERYRESOURCERESIDENCY</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresidencycb.md">pfnQueryResidencyCb</a>
 
  
 

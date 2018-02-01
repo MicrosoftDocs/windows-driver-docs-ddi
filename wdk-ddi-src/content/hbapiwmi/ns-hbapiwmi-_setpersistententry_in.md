@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f088a623-e6e8-4810-a7ab-90348f669dac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SetPersistentEntry_IN, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, storage.setpersistententry_in, SetPersistentEntry_IN, hbapiwmi/PSetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices], *PSetPersistentEntry_IN, _SetPersistentEntry_IN, PSetPersistentEntry_IN, SetPersistentEntry_IN structure [Storage Devices]
+ms.keywords: hbapiwmi/PSetPersistentEntry_IN, PSetPersistentEntry_IN, _SetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices], SetPersistentEntry_IN structure [Storage Devices], structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, storage.setpersistententry_in, SetPersistentEntry_IN, *PSetPersistentEntry_IN, hbapiwmi/SetPersistentEntry_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,12 +68,12 @@ typedef struct _SetPersistentEntry_IN {
 
 
 
-#### - PortWWN
+### -field PortWWN
 
 Contains a worldwide name that indicates the port whose persistent bindings will be changed. 
 
 
-#### - Binding
+### -field Binding
 
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
 

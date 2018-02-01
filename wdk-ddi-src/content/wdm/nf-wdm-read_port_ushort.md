@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55f759dc-8fc7-4d47-9b3d-55d8902ed805
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_PORT_USHORT, READ_PORT_USHORT routine [Kernel-Mode Driver Architecture], kernel.read_port_ushort, wdm/READ_PORT_USHORT, k103_b7b22427-572f-43d7-b6bd-dcf2dd7ac104.xml
+ms.keywords: kernel.read_port_ushort, wdm/READ_PORT_USHORT, READ_PORT_USHORT, k103_b7b22427-572f-43d7-b6bd-dcf2dd7ac104.xml, READ_PORT_USHORT routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,7 +69,7 @@ USHORT READ_PORT_USHORT(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the port address, which must be a mapped range in I/O space. 
 

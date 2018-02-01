@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bbef5f6-f859-4528-b044-baf8f99c2c2f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, stream.kspriority, PKSPRIORITY structure pointer [Streaming Media Devices], ks/KSPRIORITY, *PKSPRIORITY, ks/PKSPRIORITY, PKSPRIORITY, KSPRIORITY, KSPRIORITY structure [Streaming Media Devices]
+ms.keywords: "*PKSPRIORITY, KSPRIORITY structure [Streaming Media Devices], PKSPRIORITY structure pointer [Streaming Media Devices], ks/KSPRIORITY, KSPRIORITY, ks/PKSPRIORITY, stream.kspriority, ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, PKSPRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct {
 
 
 
-#### - PriorityClass
+### -field PriorityClass
 
 Specifies a number ranging from 1 to 0xFFFFFFFF, where 1 is least priority and 0xFFFFFFFF is the highest priority. Zero is reserved for future use. When setting a class value, 0xFFFFFFFF is used to indicate exclusive access to the resources consumed by the pin. Possible values are listed in the following table.
 <table>
@@ -119,7 +119,7 @@ Specifies the highest priority, which implies exclusive access to resources.
 </table> 
 
 
-#### - PrioritySubClass
+### -field PrioritySubClass
 
 Specifies a number ranging from 1 to 0xFFFFFFFF, where 1 is the least priority within the class and 0xFFFFFFFF is the most priority. Zero is reserved for future use.
 

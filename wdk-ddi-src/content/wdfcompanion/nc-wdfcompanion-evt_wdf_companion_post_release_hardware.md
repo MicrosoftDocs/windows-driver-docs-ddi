@@ -73,10 +73,10 @@ NTSTATUS EVT_WDF_COMPANION_POST_RELEASE_HARDWARE(
 
 
 
-#### - Companion [in]
+### -param Companion [in]
 
 
 
-#### - ResourcesTranslated [in]
+### -param ResourcesTranslated [in]
 
 

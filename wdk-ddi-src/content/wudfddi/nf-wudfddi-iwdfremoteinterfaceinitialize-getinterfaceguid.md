@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, IWDFRemoteInterfaceInitialize::GetInterfaceGuid
+ms.keywords: wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, GetInterfaceGuid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ void GetInterfaceGuid(
 
 
 
-#### - pDeviceInterfaceGuid [out]
+### -param pDeviceInterfaceGuid [out]
 
 A pointer to a driver-allocated GUID structure that receives the device interface GUID.
 
@@ -91,9 +91,9 @@ For more information about the <b>GetInterfaceGuid</b> method, see <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
 
  
 

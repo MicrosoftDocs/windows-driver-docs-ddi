@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, NdisFreeScatterGatherList, ndis/NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], netvista.ndisfreescattergatherlist
+ms.keywords: ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], NdisFreeScatterGatherList, ndis/NdisFreeScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,15 +71,15 @@ VOID NdisFreeScatterGatherList(
 
 
 
-#### - NdisHandle [in]
+### -param NdisHandle [in]
 
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that was passed to the 
-     <mshelp:link keywords="netvista.ndisbuildscattergatherlist" tabindex="0"><b>
-     NdisBuildScatterGatherList</b></mshelp:link> function when the scatter/gather list was created.
+     <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">
+     NdisBuildScatterGatherList</a> function when the scatter/gather list was created.
 
 
-#### - ScatterGatherListBuffer [in]
+### -param ScatterGatherListBuffer [in]
 
 A pointer to a caller-provided 
      <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure to free.
@@ -87,7 +87,7 @@ A pointer to a caller-provided
      <b>NdisBuildScatterGatherList</b> function when the scatter/gather list was allocated.
 
 
-#### - WriteToDevice [in]
+### -param WriteToDevice [in]
 
 A BOOLEAN value that is set to <b>TRUE</b> if the scatter/gather list was used for writing to the device.
      Otherwise, it is <b>FALSE</b>.
@@ -105,8 +105,8 @@ None
 
 NDIS drivers call the 
     <b>NdisFreeScatterGatherList</b> function to free a scatter/gather list that was created with the 
-    <mshelp:link keywords="netvista.ndisbuildscattergatherlist" tabindex="0"><b>
-    NdisBuildScatterGatherList</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">
+    NdisBuildScatterGatherList</a> function.
 
 
 

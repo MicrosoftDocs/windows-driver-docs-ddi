@@ -137,9 +137,9 @@ If the request fails, the <b>Status</b> field might be set to one of the followi
 
 
 
-#### -STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)
+#### -STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)
 
-The input buffer was too small. 
+The device is already locked for exclusive access. 
 
 
 #### -STATUS_BUFFER_TOO_SMALL (Windows error code: ERROR_INSUFFICIENT_BUFFER)
@@ -147,19 +147,10 @@ The input buffer was too small.
 The output buffer was too small for a <b>ExclusiveAccessQueryState</b> request. 
 
 
-#### -STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)
+#### -STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)
 
-The CD-ROM class driver returns this status code when one of the following two errors occurs:
-<ul>
-<li>
-The <b>RequestType</b> that was specified is not a valid member of <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>.  
+The input buffer was too small. 
 
-</li>
-<li>
-The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a> violates the naming convention. <b>CallerName</b> must be a <b>NULL</b>-terminated string that contains the following characters: alphanumerics (A - Z, a - z, 0 - 9), spaces, periods, commas, colons (:), semi-colons (;), hyphens (-), and underscores (_). The length of the string must be less than CDROM_EXCLUSIVE_CALLER_LENGTH bytes, including the <b>NULL</b> at the end of the string. 
-
-</li>
-</ul>
 
 #### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
 
@@ -175,6 +166,11 @@ The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevi
 </li>
 </ul>
 
+#### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
+
+The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
+
+
 #### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
@@ -189,27 +185,31 @@ The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevi
 </li>
 </ul>
 
-#### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
+#### -STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)
 
-The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
+The CD-ROM class driver returns this status code when one of the following two errors occurs:
+<ul>
+<li>
+The <b>RequestType</b> that was specified is not a valid member of <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>.  
 
+</li>
+<li>
+The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a> violates the naming convention. <b>CallerName</b> must be a <b>NULL</b>-terminated string that contains the following characters: alphanumerics (A - Z, a - z, 0 - 9), spaces, periods, commas, colons (:), semi-colons (;), hyphens (-), and underscores (_). The length of the string must be less than CDROM_EXCLUSIVE_CALLER_LENGTH bytes, including the <b>NULL</b> at the end of the string. 
 
-#### -STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)
-
-The device is already locked for exclusive access. 
-
+</li>
+</ul>
 
 ## -see-also
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
-
-<a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
+
+<a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
 
  
 

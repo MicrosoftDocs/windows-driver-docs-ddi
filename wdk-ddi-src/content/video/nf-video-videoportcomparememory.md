@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89528b31-4d81-4612-92d7-5f64bdca8108
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_87b1236e-d77b-4930-897f-d5b33b1130aa.xml, video/VideoPortCompareMemory, VideoPortCompareMemory function [Display Devices], display.videoportcomparememory, VideoPortCompareMemory
+ms.keywords: VideoPort_Functions_87b1236e-d77b-4930-897f-d5b33b1130aa.xml, VideoPortCompareMemory function [Display Devices], video/VideoPortCompareMemory, VideoPortCompareMemory, display.videoportcomparememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,17 +70,17 @@ ULONG VideoPortCompareMemory(
 
 
 
-#### - Source1
+### -param Source1
 
 Pointer to the first block of memory to compare.
 
 
-#### - Source2
+### -param Source2
 
 Pointer to the second block of memory to compare.
 
 
-#### - Length
+### -param Length
 
 Specifies the number of bytes to be compared.
 
@@ -107,9 +107,9 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 <a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
 <a href="..\video\nf-video-videoportscanrom.md">VideoPortScanRom</a>
+
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 

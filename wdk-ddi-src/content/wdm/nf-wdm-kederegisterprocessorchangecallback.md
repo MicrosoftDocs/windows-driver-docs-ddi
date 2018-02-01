@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b0f360-dfe5-4e1f-bdcb-0f908ed129a7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, kernel.kederegisterprocessorchangecallback, wdm/KeDeregisterProcessorChangeCallback, KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], KeDeregisterProcessorChangeCallback
+ms.keywords: wdm/KeDeregisterProcessorChangeCallback, kernel.kederegisterprocessorchangecallback, KeDeregisterProcessorChangeCallback, k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ VOID KeDeregisterProcessorChangeCallback(
 
 
 
-#### - CallbackHandle [in]
+### -param CallbackHandle [in]
 
 The callback registration handle that was returned by the <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a> routine when the callback function was registered with the operating system. 
 

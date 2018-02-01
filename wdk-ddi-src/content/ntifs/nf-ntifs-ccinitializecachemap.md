@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccinitializecachemap, ntifs/CcInitializeCacheMap, ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers]
+ms.keywords: ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap routine [Installable File System Drivers], ntifs/CcInitializeCacheMap, ifsk.ccinitializecachemap, CcInitializeCacheMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,12 @@ VOID CcInitializeCacheMap(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the file.
 
 
-#### - FileSizes [in]
+### -param FileSizes [in]
 
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b>, and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -130,12 +130,12 @@ New valid data length for the file.
 </table> 
 
 
-#### - PinAccess [in]
+### -param PinAccess [in]
 
 Set to <b>TRUE</b> if <b>CcPin</b><i>Xxx</i> routines will be used on the file.
 
 
-#### - Callbacks [in]
+### -param Callbacks [in]
 
 Pointer to a structure allocated from nonpaged pool, containing entry points of caller-supplied read-ahead and write-behind callback routines.This structure and its members are defined as follows:
 <div class="code"><span codelanguage=""><table>
@@ -172,7 +172,7 @@ VOID (*PRELEASE_FROM_READ_AHEAD) (
 </tr>
 </table></span></div>
 
-#### - LazyWriteContext [in]
+### -param LazyWriteContext [in]
 
 Pointer to context information to be passed to the callback routines specified in <i>Callbacks</i>.
 
@@ -224,9 +224,9 @@ Returns <b>TRUE</b> if the file is cached, <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
-
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionMsHvChild, netvista.ndis_hypervisor_partition_type, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/NdisHypervisorPartitionTypeMax, *PNDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeUnknown, _NDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeUnknown, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml, PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeMsHvParent
+ms.keywords: ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionTypeUnknown, _NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeUnknown, PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeMsHvParent, netvista.ndis_hypervisor_partition_type, NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionMsHvChild, NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeMax, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,24 +75,24 @@ typedef enum _NDIS_HYPERVISOR_PARTITION_TYPE {
 
 
 
-#### - NdisHypervisorPartitionTypeUnknown
+### -field NdisHypervisorPartitionTypeUnknown
 
 The partition type that is running on the hypervisor is not known.
 <div class="alert"><b>Note</b>  This enumeration value is used to identify a partition type for a third-party hypervisor.</div><div> </div>
 
-#### - NdisHypervisorPartitionTypeMsHvParent
+### -field NdisHypervisorPartitionTypeMsHvParent
 
 The parent partition (also known as the root partition) is running
      on the Microsoft hypervisor.
 
 
-#### - NdisHypervisorPartitionMsHvChild
+### -field NdisHypervisorPartitionMsHvChild
 
 The child partition is running on
      the Microsoft hypervisor.
 
 
-#### - NdisHypervisorPartitionTypeMax
+### -field NdisHypervisorPartitionTypeMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 501ff6f1-c5f1-4ad7-be96-a95ba3e34622
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2::DrvGetDriverSetting, prcomoem/IPrintCoreUI2::DrvGetDriverSetting, DrvGetDriverSetting, IPrintCoreUI2, DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml, print.iprintcoreui2_drvgetdriversetting, IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting method [Print Devices]
+ms.keywords: print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::DrvGetDriverSetting, DrvGetDriverSetting, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, prcomoem/IPrintCoreUI2::DrvGetDriverSetting, print.iprintcoreui2_drvgetdriversetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,32 +73,32 @@ STDMETHOD DrvGetDriverSetting(
 
 
 
-#### - pci
+### -param pci
 
 Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure. 
 
 
-#### - Feature
+### -param Feature
 
 Caller-supplied value identifying the printer feature for which option settings are returned. This can be either a string pointer or a constant, as described in the following Remarks section.
 
 
-#### - pOutput
+### -param pOutput
 
 Caller-supplied pointer to a buffer to receive the specified information. 
 
 
-#### - cbSize
+### -param cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutput</i>.
 
 
-#### - pcbNeeded
+### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the minimum buffer size required to contain the requested information. 
 
 
-#### - pdwOptionsReturned
+### -param pdwOptionsReturned
 
 Caller-supplied pointer to a location to receive the number of option strings placed in <i>pOutput</i>.
 
@@ -158,11 +158,11 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553114">IPrintOemDriverUI::DrvGetDriverSetting</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
  
 

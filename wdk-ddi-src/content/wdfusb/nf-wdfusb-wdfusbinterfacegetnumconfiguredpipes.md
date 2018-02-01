@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbc929a9-696b-42e1-9888-9e8c0b1e01c9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBINTERFACEGETNUMCONFIGUREDPIPES, WdfUsbInterfaceGetNumConfiguredPipes, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes method, DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, kmdf.wdfusbinterfacegetnumconfiguredpipes, wdf.wdfusbinterfacegetnumconfiguredpipes
+ms.keywords: PFN_WDFUSBINTERFACEGETNUMCONFIGUREDPIPES, WdfUsbInterfaceGetNumConfiguredPipes method, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes, DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, kmdf.wdfusbinterfacegetnumconfiguredpipes, wdf.wdfusbinterfacegetnumconfiguredpipes, WdfUsbInterfaceGetNumConfiguredPipes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,7 +73,7 @@ BYTE WdfUsbInterfaceGetNumConfiguredPipes(
 
 
 
-#### - UsbInterface [in]
+### -param UsbInterface [in]
 
 A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
 

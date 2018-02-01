@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 96c85e4d-d31d-4e89-9822-2c9068533b9a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_set_pin, ndiswwan/PNDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PIN, WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml, PNDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN, ndiswwan/NDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PIN
+ms.keywords: PNDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_PIN, WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml, ndiswwan/PNDIS_WWAN_SET_PIN, netvista.ndis_wwan_set_pin, *PNDIS_WWAN_SET_PIN, _NDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,7 +68,7 @@ typedef struct _NDIS_WWAN_SET_PIN {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_SET_PIN structure. The MB
      Service sets the header with the values that are shown in the following table when it sends the data
@@ -117,7 +117,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - PinAction
+### -field PinAction
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a> object that represents an
@@ -126,9 +126,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
 
  
 

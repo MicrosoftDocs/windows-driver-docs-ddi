@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa8cce5b-d582-4c5b-99e2-fad1f0e80128
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, display.dxgk_power_component_flags, DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], _DXGK_POWER_COMPONENT_FLAGS
+ms.keywords: "_DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS, display.dxgk_power_component_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,19 +75,19 @@ typedef struct _DXGK_POWER_COMPONENT_FLAGS {
 
 
 
-#### - Reserved0
+### -field Reserved0
 
 Reserved for system use and should be set to zero.
 
 
-#### - DriverCompletesFStateTransition
+### -field DriverCompletesFStateTransition
 
 If set, indicates that the display miniport driver will call the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_completefstatetransition.md">DxgkCbCompleteFStateTransition</a> function for a registered power component when the component completes an F-state transition.
 
 For more information, see Remarks section of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_completefstatetransition.md">DxgkCbCompleteFStateTransition</a> function.
 
 
-#### - TransitionTo_F0_OnDx
+### -field TransitionTo_F0_OnDx
 
 If set, indicates that the Windows power management framework will place a registered power component into the F0 power state during device power state (Dx) transitions.
 
@@ -104,12 +104,12 @@ If set, during a Dx transition the power manager places the component into the F
  
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that <b>DXGK_POWER_COMPONENT_FLAGS</b> contains that can hold a 32-bit value that identifies information about the power component.
 

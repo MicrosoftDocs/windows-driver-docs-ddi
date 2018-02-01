@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0d0d793f-c2c1-48ff-9e7f-ef2697255bfa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetInitialStack, wdm/IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture], k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack
+ms.keywords: wdm/IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture], IoGetInitialStack, k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,9 +83,9 @@ Highest-level drivers can call this routine, particularly file systems attemptin
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
  
 

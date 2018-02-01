@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidi::NewStream, IMiniportMidi, portcls/IMiniportMidi::NewStream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, NewStream, audio.iminiportmidi_newstream, IMiniportMidi interface [Audio Devices], NewStream method, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportMidi interface
+ms.keywords: IMiniportMidi interface [Audio Devices], NewStream method, NewStream method [Audio Devices], IMiniportMidi interface, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream, IMiniportMidi::NewStream, audio.iminiportmidi_newstream, NewStream method [Audio Devices], IMiniportMidi, NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,37 +73,37 @@ NTSTATUS NewStream(
 
 
 
-#### - Stream [out]
+### -param Stream [out]
 
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a> interface.
 
 
-#### - OuterUnknown [in, optional]
+### -param OuterUnknown [in, optional]
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
 
 
-#### - PoolType [in]
+### -param PoolType [in]
 
 Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration values.
 
 
-#### - Pin [in]
+### -param Pin [in]
 
 Specifies the pin ID. This parameter identifies the pin that is to be opened. If the MIDI miniport object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 
 
-#### - Capture [in]
+### -param Capture [in]
 
 Specifies whether the channel is to be used for capture or for playback. If <b>TRUE</b>, it is a capture (input) channel. If <b>FALSE</b>, it is a playback (output) channel.
 
 
-#### - DataFormat [in]
+### -param DataFormat [in]
 
 Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the data format to use for this stream instance.
 
 
-#### - ServiceGroup [out]
+### -param ServiceGroup [out]
 
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification.
 
@@ -126,17 +126,17 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
  
 

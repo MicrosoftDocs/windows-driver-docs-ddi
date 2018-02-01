@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F066CE0E-3247-4C42-9EF6-8A6EB0C0BC71
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, buses.usb_node_connection_information_ex_v2_flags, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union [Buses]
+ms.keywords: PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union [Buses], PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union pointer [Buses], usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, buses.usb_node_connection_information_ex_v2_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,12 +77,12 @@ typedef union _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS {
 
 
 
-#### - DeviceIsOperatingAtSuperSpeedOrHigher
+### -field DeviceIsOperatingAtSuperSpeedOrHigher
 
 If <b>TRUE</b>, the attached device is currently operating at SuperSpeed or a higher speed that is defined by the official USB specification. 
 
 
-#### - DeviceIsSuperSpeedCapableOrHigher
+### -field DeviceIsSuperSpeedCapableOrHigher
 
 If <b>TRUE</b>, the attached device is a USB 3.0 device and is capable of operating at SuperSpeed or a higher speed that is defined by the official USB specification.
 
@@ -97,12 +97,12 @@ If <b>TRUE</b>, the attached device is a USB 3.0 device and is capable of operat
  
 
 
-#### - ReservedMBZ
+### -field ReservedMBZ
 
 Reserved. Do not use.
 
 
-#### - ul
+### -field ul
 
 A bitmask that indicates the USB speed of the device that is attached to the port.
 

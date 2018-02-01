@@ -74,44 +74,29 @@ HRESULT APIENTRY* GetCryptoKeyExchangeType(
 
 
 
-#### - hDevice [in]
+### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - *pCryptoType [in]
+### -param *pCryptoType [in]
 
 A pointer to a GUID that specifies the type of encryption algorithm to query.
 
 
-#### - *pDecodeProfile [in]
+### -param *pDecodeProfile [in]
 
 A pointer to a GUID that specifies the decoder profile to query.
 
 
-#### - Index [in]
+### -param Index [in]
 
 The zero-based index of the key exchange type.
 
 
-#### - *pKeyExchangeType [out]
-
-A pointer to a GUID that specifies the supported key exchange type for the specified index.
-
-
-#### - pCryptoType [in]
-
-A pointer to a GUID that specifies the type of encryption algorithm to query.
-
-
-#### - pDecodeProfile [in]
-
-A pointer to a GUID that specifies the decoder profile to query.
-
-
-#### - pKeyExchangeType [out]
+### -param *pKeyExchangeType [out]
 
 A pointer to a GUID that specifies the supported key exchange type for the specified index.
 
@@ -177,9 +162,9 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps.md">GetContentProtectionCaps</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps.md">GetContentProtectionCaps</a>
 
  
 

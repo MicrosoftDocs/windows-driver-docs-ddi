@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21558cd6-f200-4867-920f-8aaadc9839f8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLHANDOVERSTATE, rilapitypes/RILCALLHANDOVERSTATE, netvista.rilcallhandoverstate_2, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLHANDOVERSTATE
+ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], RILCALLHANDOVERSTATE, netvista.rilcallhandoverstate_2, rilapitypes/RILCALLHANDOVERSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,26 +73,26 @@ typedef struct _RILCALLHANDOVERSTATE {
 
 
 
-#### - cbSize
+### -field cbSize
 
 
 
-#### - dwParams
+### -field dwParams
 
 
 
-#### - dwPhase
+### -field dwPhase
 
 
 
-#### - dwOldType
+### -field dwOldType
 
 
 
-#### - dwNewType
+### -field dwNewType
 
 
 
-#### - dw3gppCause
+### -field dw3gppCause
 
 

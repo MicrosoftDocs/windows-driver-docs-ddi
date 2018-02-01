@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 83b672dd-26fc-4c22-815d-72143159983d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltcreatefileex, FltApiRef_a_to_d_3bc45f49-48cd-4c08-8906-09074f48e712.xml, FltCreateFileEx routine [Installable File System Drivers], fltkernel/FltCreateFileEx, FltCreateFileEx
+ms.keywords: FltCreateFileEx routine [Installable File System Drivers], FltApiRef_a_to_d_3bc45f49-48cd-4c08-8906-09074f48e712.xml, fltkernel/FltCreateFileEx, FltCreateFileEx, ifsk.fltcreatefileex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,27 +82,27 @@ NTSTATUS FltCreateFileEx(
 
 
 
-#### - Filter [in]
+### -param Filter [in]
 
 An opaque filter pointer for the caller. 
 
 
-#### - Instance [in, optional]
+### -param Instance [in, optional]
 
 An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume where the file or directory resides. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-<b>NULL</b>, the request is sent only to minifilter driver instances that are attached below the specified instance. 
 
 
-#### - FileHandle [out]
+### -param FileHandle [out]
 
 A pointer to a caller-allocated variable that receives the file handle if the call to <b>FltCreateFileEx</b> is successful. 
 
 
-#### - FileObject [out]
+### -param FileObject [out]
 
 A pointer to a caller-allocated variable that receives the file object pointer if the call to <b>FltCreateFileEx</b> is successful. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - DesiredAccess [in]
+### -param DesiredAccess [in]
 
 A bitmask of flags specifying the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects. 
 
@@ -311,7 +311,7 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 </table> 
 
 
-#### - ObjectAttributes [in]
+### -param ObjectAttributes [in]
 
 A pointer to a structure already initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object include the following. 
 <table>
@@ -372,7 +372,7 @@ Is a set of flags that controls the file object attributes. If the caller is run
 </table> 
 
 
-#### - IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateFileEx</b>, the <b>Information</b> member contains one of the following values.
 
@@ -389,12 +389,12 @@ FILE_EXISTS
 FILE_DOES_NOT_EXIST
 
 
-#### - AllocationSize [in, optional]
+### -param AllocationSize [in, optional]
 
 Optionally specifies the initial allocation size, in bytes, for the file stream. A nonzero value has no effect unless the file is being created, overwritten, or superseded. 
 
 
-#### - FileAttributes [in]
+### -param FileAttributes [in]
 
 Specifies one or more of the following FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you are creating, superseding, or overwriting a file. Normally, you specify FILE_ATTRIBUTE_NORMAL, which sets the default attributes. 
 <table>
@@ -465,7 +465,7 @@ A temporary file should be created.
 </table> 
 
 
-#### - ShareAccess [in]
+### -param ShareAccess [in]
 
 Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the following flags. If the IO_IGNORE_SHARE_ACCESS_CHECK flag is specified in the <i>Flags</i> parameter, the I/O manager ignores this parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for this parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. For the greatest chance of avoiding sharing violation errors, specify all of the following share access flags. 
 <table>
@@ -506,7 +506,7 @@ The file can be opened for delete access by other threads' calls to <b>FltCreate
 </table> 
 
 
-#### - CreateDisposition [in]
+### -param CreateDisposition [in]
 
 Specifies a value that determines the action to be taken, depending on whether the file already exists. The value can be any of those described following. 
 <table>
@@ -577,7 +577,7 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </table> 
 
 
-#### - CreateOptions [in]
+### -param CreateOptions [in]
 
 Specifies the options to be applied when creating or opening the file, as a compatible combination of the following flags. 
 <table>
@@ -760,17 +760,17 @@ This flag allows an application to request a Filter opportunistic lock (oplock) 
 </table> 
 
 
-#### - EaBuffer [in, optional]
+### -param EaBuffer [in, optional]
 
 A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file. 
 
 
-#### - EaLength [in]
+### -param EaLength [in]
 
 Length, in bytes, of <i>EaBuffer</i>. 
 
 
-#### - Flags [in]
+### -param Flags [in]
 
 Specifies options to be used during the creation of the create request. The following table lists the available options. 
 <table>
@@ -1019,47 +1019,47 @@ SYNCHRONIZE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
  
 

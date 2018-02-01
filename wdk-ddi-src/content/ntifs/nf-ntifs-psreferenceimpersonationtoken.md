@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c72f48a8-ba51-423f-9105-7d78521dcae2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml, ntifs/PsReferenceImpersonationToken, PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers], ifsk.psreferenceimpersonationtoken
+ms.keywords: PsReferenceImpersonationToken routine [Installable File System Drivers], psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml, PsReferenceImpersonationToken, ifsk.psreferenceimpersonationtoken, ntifs/PsReferenceImpersonationToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ PACCESS_TOKEN PsReferenceImpersonationToken(
 
 
 
-#### - Thread [in, out]
+### -param Thread [in, out]
 
 Address of the thread whose impersonation token's reference count is to be incremented.
 
 
-#### - CopyOnOpen [out]
+### -param CopyOnOpen [out]
 
 Pointer to a caller-allocated Boolean variable. On return, this parameter receives <b>TRUE</b> if the token cannot be opened directly. In this case, the token must be duplicated, and the duplicate token must be used instead. If the token can be opened directly, this parameter receives <b>FALSE</b>. 
 
 
-#### - EffectiveOnly [out]
+### -param EffectiveOnly [out]
 
 Pointer to a caller-allocated Boolean variable. On return, this parameter receives <b>FALSE</b> if the thread is allowed to enable groups and privileges that are currently disabled in the client security context, <b>TRUE</b> otherwise.
 
 
-#### - ImpersonationLevel [out]
+### -param ImpersonationLevel [out]
 
 Pointer to a caller-allocated SECURITY_IMPERSONATION_LEVEL variable. On return, this parameter receives a value that specifies the impersonation level at which the thread is allowed to access the token. 
 
@@ -118,13 +118,13 @@ If the thread is currently impersonating a client, <b>PsReferenceImpersonationTo
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
-
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
-
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+
+<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
  
 

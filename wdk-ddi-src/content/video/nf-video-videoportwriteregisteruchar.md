@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 259d01a5-d975-48f9-b0cf-4596d12046bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, VideoPortWriteRegisterUchar, display.videoportwriteregisteruchar, VideoPortWriteRegisterUchar function [Display Devices], video/VideoPortWriteRegisterUchar
+ms.keywords: VideoPortWriteRegisterUchar function [Display Devices], VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, VideoPortWriteRegisterUchar, display.videoportwriteregisteruchar, video/VideoPortWriteRegisterUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,12 +69,12 @@ VOID VideoPortWriteRegisterUchar(
 
 
 
-#### - Register
+### -param Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-#### - Value
+### -param Value
 
 Specifies a byte to be transferred to the adapter.
 

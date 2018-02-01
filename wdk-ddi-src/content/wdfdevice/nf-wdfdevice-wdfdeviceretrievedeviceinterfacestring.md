@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 97c67410-851c-4352-8ace-5738ab4332d2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceretrievedeviceinterfacestring, WdfDeviceRetrieveDeviceInterfaceString method, wdf.wdfdeviceretrievedeviceinterfacestring, PFN_WDFDEVICERETRIEVEDEVICEINTERFACESTRING, WdfDeviceRetrieveDeviceInterfaceString, DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString
+ms.keywords: DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, PFN_WDFDEVICERETRIEVEDEVICEINTERFACESTRING, WdfDeviceRetrieveDeviceInterfaceString, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString, wdf.wdfdeviceretrievedeviceinterfacestring, WdfDeviceRetrieveDeviceInterfaceString method, kmdf.wdfdeviceretrievedeviceinterfacestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ NTSTATUS WdfDeviceRetrieveDeviceInterfaceString(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - InterfaceClassGUID [in]
+### -param InterfaceClassGUID [in]
 
 A pointer to a GUID that identifies the device interface class.
 
 
-#### - ReferenceString [in, optional]
+### -param ReferenceString [in, optional]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>. 
 
 
-#### - String [in]
+### -param String [in]
 
 A handle to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-string-objects">framework string object</a>. The framework will assign the symbolic link name's Unicode string to the string object.
 
@@ -180,9 +180,9 @@ For more information about device interfaces, see <a href="https://docs.microsof
 
 <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 

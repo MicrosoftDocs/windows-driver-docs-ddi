@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2ec9222b-d9e7-4386-ac66-30c5436f549d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: FreeBufferWithNotification method [Audio Devices], portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification, audio.iminiportwavertstreamnotification_freebufferwithnotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, FreeBufferWithNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification
+ms.keywords: IMiniportWaveRTStreamNotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, audio.iminiportwavertstreamnotification_freebufferwithnotification, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,7 @@ VOID FreeBufferWithNotification(
 
 
 
-#### - AudioBufferMdl [in]
+### -param AudioBufferMdl [in]
 
 Specifies a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) previously allocated with a call to <b>IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</b>.
 
@@ -100,9 +100,9 @@ The port driver calls this method to free an audio buffer that was allocated wit
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536740">IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</a>
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536740">IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</a>
 
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 

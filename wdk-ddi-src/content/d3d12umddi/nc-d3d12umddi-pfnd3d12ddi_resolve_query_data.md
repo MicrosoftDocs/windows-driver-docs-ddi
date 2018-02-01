@@ -88,24 +88,29 @@ VOID APIENTRY* pfnResolveQueryData(
 
 
 
-#### - StartElement
+### -param StartElement
 
 The value of the start element.
 
 
-#### - ElementCount
+### -param ElementCount
 
 The element count.
 
 
-#### - hDrvDestinationBuffer
+### -param hDrvDestinationBuffer
 
 The handle of a destination buffer.
 
 
-#### - DestinationOffset
+### -param DestinationOffset
 
 The destination offset.
+
+
+#### - QueryType
+
+A query type.
 
 
 #### - hCommandList
@@ -116,11 +121,6 @@ The handle of a command list.
 #### - hQueryHeap
 
 The handle of a query heap.
-
-
-#### - QueryType
-
-A query type.
 
 
 ## -returns

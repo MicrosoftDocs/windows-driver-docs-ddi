@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueDispatchRequests, WdfIoQueueNoRequests, WdfIoQueueAcceptRequests, WdfIoQueuePnpHeld, WdfIoQueueDriverNoRequests, WdfIoQueueDispatchRequests, kmdf.wdf_io_queue_state, wdfio/WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueuePnpHeld, WDF_IO_QUEUE_STATE, _WDF_IO_QUEUE_STATE, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDriverNoRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueAcceptRequests
+ms.keywords: wdf.wdf_io_queue_state, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueAcceptRequests, kmdf.wdf_io_queue_state, _WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueNoRequests, WdfIoQueuePnpHeld, WdfIoQueueDispatchRequests, wdfio/WdfIoQueuePnpHeld, WDF_IO_QUEUE_STATE, WdfIoQueueNoRequests, WdfIoQueueAcceptRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,29 +74,29 @@ typedef enum _WDF_IO_QUEUE_STATE {
 
 
 
-#### - WdfIoQueueAcceptRequests
+### -field WdfIoQueueAcceptRequests
 
 If set, the I/O queue can accept new I/O requests from the I/O manager and requests that are forwarded by the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a> and <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a> (or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>) methods. 
 
 If not set, the framework cancels requests from the I/O manager and <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a> and fails requests from <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a> (or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>) with STATUS_WDF_BUSY.
 
 
-#### - WdfIoQueueDispatchRequests
+### -field WdfIoQueueDispatchRequests
 
 If set, the framework delivers the queue's requests to the driver (unless the <b>WdfIoQueuePnpHeld</b> bit is also set). If not set, the driver cannot obtain requests from the queue. 
 
 
-#### - WdfIoQueueNoRequests
+### -field WdfIoQueueNoRequests
 
 If set, the I/O queue is empty.
 
 
-#### - WdfIoQueueDriverNoRequests
+### -field WdfIoQueueDriverNoRequests
 
 If set, all requests that have been delivered to the driver have been completed. 
 
 
-#### - WdfIoQueuePnpHeld
+### -field WdfIoQueuePnpHeld
 
 If set, the framework has stopped delivering requests to the driver because the underlying device is not in its working (D0) state.
 

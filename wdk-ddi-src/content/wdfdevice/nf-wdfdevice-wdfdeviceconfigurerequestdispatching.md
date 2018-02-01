@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba4cccd-267d-48cc-a6ff-be19802adfdc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceConfigureRequestDispatching method, DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, PFN_WDFDEVICECONFIGUREREQUESTDISPATCHING, wdfdevice/WdfDeviceConfigureRequestDispatching, kmdf.wdfdeviceconfigurerequestdispatching, WdfDeviceConfigureRequestDispatching, wdf.wdfdeviceconfigurerequestdispatching
+ms.keywords: DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, WdfDeviceConfigureRequestDispatching method, WdfDeviceConfigureRequestDispatching, wdfdevice/WdfDeviceConfigureRequestDispatching, PFN_WDFDEVICECONFIGUREREQUESTDISPATCHING, kmdf.wdfdeviceconfigurerequestdispatching, wdf.wdfdeviceconfigurerequestdispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,17 +75,17 @@ NTSTATUS WdfDeviceConfigureRequestDispatching(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 Supplies a handle to a framework device object.
 
 
-#### - Queue [in]
+### -param Queue [in]
 
 Supplies a handle to a framework queue object.
 
 
-#### - RequestType [in]
+### -param RequestType [in]
 
 Supplies a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed enumerator that identifies the type of request to be queued. The only valid enumerators are: 
 
@@ -162,9 +162,9 @@ For more information about <b>WdfDeviceConfigureRequestDispatching</b>, see <a h
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
  
 

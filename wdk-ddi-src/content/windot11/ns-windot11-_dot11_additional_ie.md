@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db034863-f5fa-42bb-81c8-23d4784e0abe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, windot11/PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, _DOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_additional_ie, *PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], PDOT11_ADDITIONAL_IE, _DOT11_ADDITIONAL_IE, windot11/PDOT11_ADDITIONAL_IE, Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, windot11/DOT11_ADDITIONAL_IE, netvista.dot11_additional_ie, DOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct _DOT11_ADDITIONAL_IE {
 
 
 
-#### - Header
+### -field Header
 
 The type, revision, and size of the DOT11_ADDITIONAL_IE structure. This member is formatted as an 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -88,11 +88,6 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 #### Revision
 
 This member must be set to DOT11_ADDITIONAL_IE_REVISION_1.
@@ -104,27 +99,32 @@ This member must be set to
        <b>sizeof</b>(DOT11_ADDITIONAL_IE).
 
 
-#### - uBeaconIEsOffset
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+### -field uBeaconIEsOffset
 
 The offset of the additional IEs, in bytes, in the beacon frame sent by the NIC. This offset is
      relative to the start of the buffer that contains the DOT11_ADDITIONAL_IE structure. The default value
      is 0.
 
 
-#### - uBeaconIEsLength
+### -field uBeaconIEsLength
 
 The length of the additional IEs, in bytes, in the beacon frame sent by the NIC. The default value
      is 0.
 
 
-#### - uResponseIEsOffset
+### -field uResponseIEsOffset
 
 The offset of the additional IEs, in bytes, in the probe response frame sent by the NIC. This
      offset is relative to the start of the buffer that contains the DOT11_ADDITIONAL_IE structure. The
      default value is 0.
 
 
-#### - uResponseIEsLength
+### -field uResponseIEsLength
 
 The length of the additional IEs, in bytes, in the probe response frame sent by the NIC. The
      default value is 0.

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82F36729-57E0-49AB-8C2D-BCBA6EED33EE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_FCP_SEND_REQUEST, *PFCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], PFCP_SEND_REQUEST, IEEE.fcp_send_request, *PFCP_REQUEST, FCP_SEND_REQUEST, FCP_REQUEST, 61883/PFCP_SEND_REQUEST, 61883/FCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses]"
+ms.keywords: 61883/FCP_SEND_REQUEST, IEEE.fcp_send_request, PFCP_SEND_REQUEST structure pointer [Buses], FCP_SEND_REQUEST, _FCP_SEND_REQUEST, *PFCP_REQUEST, FCP_REQUEST, *PFCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], PFCP_SEND_REQUEST, 61883/PFCP_SEND_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,17 +69,17 @@ typedef struct _FCP_SEND_REQUEST {
 
 
 
-#### - NodeAddress
+### -field NodeAddress
 
 On input, if the protocol driver is being used to control a virtual device, <b>NodeAddress</b> must contain the node address of the device to which this request is being sent so the protocol driver can route the request to the correct device. If the protocol driver is being used to control a physical device, <b>NodeAddress</b> is not used.
 
 
-#### - Length
+### -field Length
 
 On input, the length of the Frame payload in bytes, including the FCP header.
 
 
-#### - Frame
+### -field Frame
 
 On input, a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537113">FCP_FRAME</a> structure that contains the FCP request to send to the device.
 

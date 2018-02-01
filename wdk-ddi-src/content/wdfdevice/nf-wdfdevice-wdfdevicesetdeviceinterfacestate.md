@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 345003fc-fdc3-4529-bb15-c9e380e77bba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicesetdeviceinterfacestate, kmdf.wdfdevicesetdeviceinterfacestate, WdfDeviceSetDeviceInterfaceState method, wdfdevice/WdfDeviceSetDeviceInterfaceState, DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, PFN_WDFDEVICESETDEVICEINTERFACESTATE, WdfDeviceSetDeviceInterfaceState
+ms.keywords: kmdf.wdfdevicesetdeviceinterfacestate, WdfDeviceSetDeviceInterfaceState, DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, PFN_WDFDEVICESETDEVICEINTERFACESTATE, wdfdevice/WdfDeviceSetDeviceInterfaceState, wdf.wdfdevicesetdeviceinterfacestate, WdfDeviceSetDeviceInterfaceState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,22 @@ VOID WdfDeviceSetDeviceInterfaceState(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - InterfaceClassGUID [in]
+### -param InterfaceClassGUID [in]
 
 A pointer to a GUID that identifies the device interface class.
 
 
-#### - ReferenceString [in, optional]
+### -param ReferenceString [in, optional]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - IsInterfaceEnabled [in]
+### -param IsInterfaceEnabled [in]
 
 A Boolean value that, if <b>TRUE</b>, enables the specified device interface instance or, if <b>FALSE</b>, disables it.
 
@@ -114,9 +114,9 @@ For more information about device interfaces and the <b>WdfDeviceSetDeviceInterf
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

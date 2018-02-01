@@ -70,7 +70,7 @@ void CleanupCallback(
 
 
 
-#### - SiloContext [in]
+### -param SiloContext [in]
 
 A pointer provided by the user with the call to <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a>.
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcGetTimeInterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, audio.pcgettimeinterval, PcGetTimeInterval, PcGetTimeInterval function [Audio Devices]
+ms.keywords: PcGetTimeInterval, portcls/PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, audio.pcgettimeinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONGLONG PcGetTimeInterval(
 
 
 
-#### - Since [in]
+### -param Since [in]
 
 Specifies the time from which to measure the interval. Typically, this function is called once with a "since" of zero to get the current time, and is called subsequently with a "since" of the recorded current time to get time intervals from that time.
 

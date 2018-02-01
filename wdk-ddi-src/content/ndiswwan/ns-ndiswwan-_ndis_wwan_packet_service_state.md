@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63dbd674-32b3-4843-8349-706c3c0380e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_packet_service_state, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, NDIS_WWAN_PACKET_SERVICE_STATE
+ms.keywords: WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, _NDIS_WWAN_PACKET_SERVICE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,7 +70,7 @@ typedef struct _NDIS_WWAN_PACKET_SERVICE_STATE {
 
 
 
-#### - Header
+### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_PACKET_SERVICE_STATE
      structure. The MB Service sets the header with the values that are shown in the following table when it
@@ -119,7 +119,7 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-#### - uStatus
+### -field uStatus
 
 A miniport driver must set this to WWAN_STATUS_SUCCESS for unsolicited events
      (NDIS_STATUS_INDICATION::RequestId = 0).
@@ -287,7 +287,7 @@ A bad SIM card is detected.
 </table> 
 
 
-#### - PacketService
+### -field PacketService
 
 A formatted 
      <a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a> object that

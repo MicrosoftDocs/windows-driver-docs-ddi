@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cb8b757a-cff5-41cf-8155-2c45a8a35f00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxLogEventWithAnnotation function [Installable File System Drivers], ifsk.rxlogeventwithannotation, rxprocs/RxLogEventWithAnnotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml, RxLogEventWithAnnotation
+ms.keywords: RxLogEventWithAnnotation, ifsk.rxlogeventwithannotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml, rxprocs/RxLogEventWithAnnotation, RxLogEventWithAnnotation function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ VOID RxLogEventWithAnnotation(
 
 
 
-#### - DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to the RDBSS device object.
 
@@ -104,9 +104,14 @@ TBD
 TBD
 
 
-#### - AnnotationCount [in]
+### -param AnnotationCount [in]
 
 The count of the number of annotation strings to add to the I/O error log structure.
+
+
+#### - Annotations [in]
+
+A pointer to any annotation strings to add to the I/O error log structure.
 
 
 #### - Id [in]
@@ -129,11 +134,6 @@ A pointer to a raw data buffer to be added to the I/O error log structure.
 The length of the raw data buffer to be added to the I/O error log structure.
 
 
-#### - Annotations [in]
-
-A pointer to any annotation strings to add to the I/O error log structure.
-
-
 ## -returns
 
 
@@ -154,9 +154,9 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
-
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
 

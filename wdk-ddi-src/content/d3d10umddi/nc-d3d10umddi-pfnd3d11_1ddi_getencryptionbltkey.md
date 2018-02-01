@@ -73,29 +73,24 @@ VOID pfnGetEncryptionBltKey(
 
 
 
-#### - hDevice
+### -param hDevice
 
 A handle to the display device (graphics context).
 
 
 
 
-#### - hCryptoSession
+### -param hCryptoSession
 
 A handle to the cryptographic session that was created in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function. 
 
 
-#### - KeySize
+### -param KeySize
 
 The size, in bytes, of the encryption key that the <i>pReadBackKey</i> parameter points to.
 
 
-#### - *pReadbackKey
-
-A pointer to a buffer that contains the encryption key.
-
-
-#### - pReadbackKey
+### -param *pReadbackKey
 
 A pointer to a buffer that contains the encryption key.
 

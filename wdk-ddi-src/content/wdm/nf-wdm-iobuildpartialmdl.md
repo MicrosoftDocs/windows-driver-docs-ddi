@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 26d88928-798f-46ee-9805-3b7da2056e2e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoBuildPartialMdl, k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, IoBuildPartialMdl, kernel.iobuildpartialmdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.iobuildpartialmdl, k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], IoBuildPartialMdl, wdm/IoBuildPartialMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,22 +71,22 @@ VOID IoBuildPartialMdl(
 
 
 
-#### - SourceMdl [in]
+### -param SourceMdl [in]
 
 A pointer to an MDL that describes the original buffer, of which a subrange is to be mapped. 
 
 
-#### - TargetMdl [in, out]
+### -param TargetMdl [in, out]
 
 A pointer to a caller-allocated MDL. This MDL must be large enough to describe the pages in the subrange that are specified by <i>VirtualAddress</i> and <i>Length</i>. 
 
 
-#### - VirtualAddress [in]
+### -param VirtualAddress [in]
 
 A pointer to the base virtual address for the subrange to be described by the <i>TargetMdl</i>.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Specifies the length, in bytes, to be mapped by the <i>TargetMdl</i>. This value, in combination with <i>VirtualAddress</i>, must specify a buffer that is a proper subrange of the buffer that is described by <i>SourceMdl</i>. If <i>Length</i> is zero, the subrange to be mapped starts at <i>VirtualAddress</i> and includes the remaining range described by the <i>SourceMdl</i>. 
 
@@ -113,17 +113,17 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
 
 <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
 

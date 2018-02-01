@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06A41593-A052-43A7-B3A7-02185B557FA3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PO_FX_PERF_STATE, wdm/PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE, PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE, *PPO_FX_PERF_STATE, kernel.po_fx_perf_state"
+ms.keywords: PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE, _PO_FX_PERF_STATE, *PPO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], kernel.po_fx_perf_state, PPO_FX_PERF_STATE, wdm/PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _PO_FX_PERF_STATE {
 
 
 
-#### - Value
+### -field Value
 
 The value of this performance state. The units are specified by the <b>Unit</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> that contains this performance state. For example, if <b>Value</b> is 100000000 and the <b>Unit</b> member of the  <b>PO_FX_COMPONENT_PERF_SET</b> is <b>PoFxPerfStateUnitFrequency</b>, this performance state represents 100 MHz.
 
 
-#### - Context
+### -field Context
 
 A pointer to additional context for the performance state that cannot be presented by the <b>Value</b> member. This data can be shared between the driver and the platform extension plug-in (PEP).
 <div class="alert"><b>Note</b>  Using the <b>Context</b> member can hinder the visualization of performance states in Windows Performance Analyzer.</div><div> </div>
@@ -88,13 +88,13 @@ The <b>States</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
-
 <a href="..\wdm\ne-wdm-_po_fx_perf_state_unit.md">PO_FX_PERF_STATE_UNIT</a>
 
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
  
 

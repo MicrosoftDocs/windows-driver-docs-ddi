@@ -76,12 +76,12 @@ NTSTATUS EvtDeviceWdmPostPoFxRegisterDevice(
 
 
 
-#### - Device [in]
+### -param Device [in]
 
 A handle to a framework device object.
 
 
-#### - PoHandle [in]
+### -param PoHandle [in]
 
 A handle that represents the device’s registration with the power framework.
 

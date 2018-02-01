@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_POWER_ROLE enumeration [Buses], ucmtypes/UcmPowerRoleSink, ucmtypes/UCM_POWER_ROLE, UCM_POWER_ROLE, UcmPowerRoleSource, ucmtypes/UcmPowerRoleSource, UcmPowerRoleInvalid, UcmPowerRoleSink, _UCM_POWER_ROLE, buses.ucm_power_role, ucmtypes/UcmPowerRoleInvalid
+ms.keywords: buses.ucm_power_role, _UCM_POWER_ROLE, ucmtypes/UcmPowerRoleSink, UcmPowerRoleSink, ucmtypes/UCM_POWER_ROLE, UcmPowerRoleSource, ucmtypes/UcmPowerRoleSource, ucmtypes/UcmPowerRoleInvalid, UCM_POWER_ROLE enumeration [Buses], UCM_POWER_ROLE, UcmPowerRoleInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,28 +70,28 @@ typedef enum _UCM_POWER_ROLE {
 
 
 
-#### - UcmPowerRoleInvalid
+### -field UcmPowerRoleInvalid
 
 Indicates the power role state is invalid.
 
 
-#### - UcmPowerRoleSink
+### -field UcmPowerRoleSink
 
 Indicates the power role is set to sink power.
 
 
-#### - UcmPowerRoleSource
+### -field UcmPowerRoleSource
 
 Indicates the power role is set to source power. 
 
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a>
 
 <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a>
 
  
 

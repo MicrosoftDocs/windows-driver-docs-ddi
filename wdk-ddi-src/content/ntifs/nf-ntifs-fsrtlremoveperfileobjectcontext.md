@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlremoveperfileobjectcontext, FsRtlRemovePerFileObjectContext, fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ntifs/FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers]
+ms.keywords: fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], ntifs/FsRtlRemovePerFileObjectContext, ifsk.fsrtlremoveperfileobjectcontext, FsRtlRemovePerFileObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,17 +69,17 @@ PFSRTL_PER_FILEOBJECT_CONTEXT FsRtlRemovePerFileObjectContext(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to a file object for which to remove context information.
 
 
-#### - OwnerId [in, optional]
+### -param OwnerId [in, optional]
 
 A pointer to a caller-allocated variable that uniquely identifies the owning filter of the per-file-object context structure. The format of this variable is filter-driver-specific.
 
 
-#### - InstanceId [in, optional]
+### -param InstanceId [in, optional]
 
 A pointer to a caller-allocated variable that can be used to distinguish among per-file-object context structures created by the same filter driver. The format of this variable is filter-driver-specific. This parameter is optional and can be <b>NULL</b>.
 
@@ -108,9 +108,9 @@ To retrieve a per-file-object context structure that is associated with a file o
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
 
 <a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 

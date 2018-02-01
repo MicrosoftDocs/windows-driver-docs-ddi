@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0da022d5-7294-4780-bab8-119ff6385abf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, netvista.ndisgetrssprocessorinformation, ndis/NdisGetRssProcessorInformation, NdisGetRssProcessorInformation, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], netvista.ndisgetrssprocessorinformation, NdisGetRssProcessorInformation, ndis/NdisGetRssProcessorInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ NDIS_STATUS NdisGetRssProcessorInformation(
 
 
 
-#### - NdisHandle [in]
+### -param NdisHandle [in]
 
 An NDIS instance handle that was obtained during caller initialization. NDIS drivers can use the
      handles from the following functions:
@@ -87,7 +87,7 @@ An NDIS instance handle that was obtained during caller initialization. NDIS dri
 
 
 
-#### - RssProcessorInfo [out, optional]
+### -param RssProcessorInfo [out, optional]
 
 A pointer to a caller-allocated buffer where NDIS puts the 
      <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a> structure
@@ -97,7 +97,7 @@ A pointer to a caller-allocated buffer where NDIS puts the
      <i>Size</i> parameter.
 
 
-#### - Size [in, out]
+### -param Size [in, out]
 
 A pointer to a value that is the size, in bytes, of the buffer that the caller provided. When the
      function returns, this member contains either the amount of data that NDIS put in the buffer or the
@@ -150,8 +150,8 @@ NDIS drivers call the
 
 RSS-capable miniport drivers that support MSI-X call 
     <b>NdisGetRssProcessorInformation</b> in their 
-    <mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><b>
-    MiniportFilterResourceRequirements</b></mshelp:link> function. Miniport drivers set the interrupt affinity of the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+    MiniportFilterResourceRequirements</a> function. Miniport drivers set the interrupt affinity of the
     allocated MSI-X messages to the RSS processors that are specified in the 
     <b>RssProcessors</b> member of the 
     <i>RssProcessorInfo</i> parameter.
@@ -162,8 +162,8 @@ RSS-capable miniport drivers that support MSI-X call
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><b>
-   MiniportFilterResourceRequirements</b></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a>
 

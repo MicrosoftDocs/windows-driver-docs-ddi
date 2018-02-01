@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d1c246bd-314d-475f-9df8-f1bf90355a5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kbugcheck_dump_io, PKBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], *PKBUGCHECK_DUMP_IO, wdm/KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, _KBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PKBUGCHECK_DUMP_IO, kernel.kbugcheck_dump_io, _KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], wdm/KBUGCHECK_DUMP_IO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,22 +71,22 @@ typedef struct _KBUGCHECK_DUMP_IO {
 
 
 
-#### - Offset
+### -field Offset
 
 Specifies the current offset in the crash dump file, or -1 if the crash dump file is being written sequentially.
 
 
-#### - Buffer
+### -field Buffer
 
 Pointer to a buffer that contains the current data to be written to the dump file.
 
 
-#### - BufferLength
+### -field BufferLength
 
 Specifies the length of the buffer, in bytes, that is specified by the <b>Buffer</b> member.
 
 
-#### - Type
+### -field Type
 
 Specifies the <a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a> value that signifies the type of data to be written to the dump file.
 
@@ -100,9 +100,9 @@ For information about how this structure is used, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+
+<a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a>
 
  
 

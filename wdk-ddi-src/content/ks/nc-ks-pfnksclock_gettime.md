@@ -70,7 +70,7 @@ LONGLONG FASTCALL KStrClockGetTime(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 

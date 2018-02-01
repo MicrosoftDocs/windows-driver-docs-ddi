@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, CcScheduleReadAheadEx
+ms.keywords: CcScheduleReadAheadEx, ntifs/CcScheduleReadAheadEx, ifsk.ccschedulereadaheadex, CcScheduleReadAheadEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,22 +70,22 @@ VOID CcScheduleReadAheadEx(
 
 
 
-#### - FileObject [in]
+### -param FileObject [in]
 
 Pointer to a file object for the file on which read-ahead is to be performed.
 
 
-#### - FileOffset [in]
+### -param FileOffset [in]
 
 Pointer to a variable that specifies the starting byte offset within the cached file where the last read occurred.
 
 
-#### - Length [in]
+### -param Length [in]
 
 Length in bytes of the range that was last read.
 
 
-#### - IoIssuerThread [in]
+### -param IoIssuerThread [in]
 
 The thread issuing the read ahead request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 
@@ -110,17 +110,17 @@ None
 
 <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
 
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
 
 <b>CcCopyReadEx</b>
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
  
 

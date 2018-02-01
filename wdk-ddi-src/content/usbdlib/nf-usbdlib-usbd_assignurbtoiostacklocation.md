@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 66A66050-B2BF-47FA-A4E2-BF8816390B16
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], USBD_AssignUrbToIoStackLocation, buses.usbd_assignurbtostacklocation
+ms.keywords: usbdlib/USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], buses.usbd_assignurbtostacklocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ void USBD_AssignUrbToIoStackLocation(
 
 
 
-#### - USBDHandle [in]
+### -param USBDHandle [in]
 
 A USBD handle that is retrieved in a previous call to the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
@@ -81,7 +81,7 @@ A USBD handle that is retrieved in a previous call to the <a href="..\usbdlib\nf
 TBD
 
 
-#### - Urb [in]
+### -param Urb [in]
 
 Pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure that is allocated by <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>, <a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>, <a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>, or 
     <a href="..\usbdlib\nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md">USBD_SelectInterfaceUrbAllocateAndBuild</a>.
@@ -116,15 +116,15 @@ For a code example, see <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450899">How to Submit an URB</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+
+<a href="..\usbdlib\nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md">USBD_SelectInterfaceUrbAllocateAndBuild</a>
 
 <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
 
 <a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
-
-<a href="..\usbdlib\nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md">USBD_SelectInterfaceUrbAllocateAndBuild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450899">How to Submit an URB</a>
 
  
 

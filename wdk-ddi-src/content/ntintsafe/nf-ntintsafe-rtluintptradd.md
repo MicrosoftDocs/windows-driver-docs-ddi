@@ -69,17 +69,17 @@ NTSTATUS RtlUIntPtrAdd(
 
 
 
-#### - uAugend [in]
+### -param uAugend [in]
 
 The first value in the equation.
 
 
-#### - uAddend [in]
+### -param uAddend [in]
 
 The value to add to <i>uAugend</i>.
 
 
-#### - puResult [out]
+### -param puResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 

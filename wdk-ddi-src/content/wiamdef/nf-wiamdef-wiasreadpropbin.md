@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f62b63e3-011b-43ef-b7f5-769aa00ff3ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasReadPropBin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, image.wiasreadpropbin, wiasReadPropBin, wiasReadPropBin function [Imaging Devices]
+ms.keywords: wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, wiasReadPropBin function [Imaging Devices], wiamdef/wiasReadPropBin, wiasReadPropBin, image.wiasreadpropbin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,27 +72,27 @@ HRESULT _stdcall wiasReadPropBin(
 
 
 
-#### - pWiasContext [in]
+### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - propid
+### -param propid
 
 Specifies the property identifier.
 
 
-#### - ppbVal [out]
+### -param ppbVal [out]
 
 Pointer to a memory location that receives the address of a buffer allocated by this function. Upon return, the buffer contains the property's binary data.
 
 
-#### - ppbValOld [out, optional]
+### -param ppbValOld [out, optional]
 
 Pointer to a memory location that receives the address of a buffer allocated by the minidriver. Upon return, the buffer contains the previous value of the property's binary data. If this information is not needed, this parameter can be set to <b>NULL</b>.
 
 
-#### - bMustExist
+### -param bMustExist
 
 Indicates whether the property must exist. If set to <b>TRUE</b>, the property must exist; if set to <b>FALSE</b>, the property does not have to exist.
 
@@ -113,15 +113,15 @@ This function allocates a buffer and stores its address in the <i>ppbVal</i> par
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
 
  
 

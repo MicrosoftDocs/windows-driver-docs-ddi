@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20c4ec7e-6dc1-4a4f-99d1-bb53213771a5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, GetNodeOffset method [Windows Debugging], EngExtCpp_Ref_efff4521-d480-48a4-8466-f7db3c052aa1.xml, ExtRemoteList class [Windows Debugging], GetNodeOffset method, GetNodeOffset method [Windows Debugging], ExtRemoteList class, debugger.extremotelist_getnodeoffset, ExtRemoteList::GetNodeOffset, GetNodeOffset
+ms.keywords: debugger.extremotelist_getnodeoffset, GetNodeOffset method [Windows Debugging], GetNodeOffset, ExtRemoteList::GetNodeOffset, GetNodeOffset method [Windows Debugging], ExtRemoteList class, ExtRemoteList, ExtRemoteList class [Windows Debugging], GetNodeOffset method, EngExtCpp_Ref_efff4521-d480-48a4-8466-f7db3c052aa1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

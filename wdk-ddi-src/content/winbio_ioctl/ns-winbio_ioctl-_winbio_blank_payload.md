@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, biometric.winbio_blank_payload, PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], _WINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD structure [Biometric Devices], *PWINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD
+ms.keywords: WINBIO_BLANK_PAYLOAD structure [Biometric Devices], WINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD, _WINBIO_BLANK_PAYLOAD, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, biometric.winbio_blank_payload, *PWINBIO_BLANK_PAYLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,12 +69,12 @@ typedef struct _WINBIO_BLANK_PAYLOAD {
 
 
 
-#### - PayloadSize
+### -field PayloadSize
 
  The total size of the payload.  This includes the fixed length structure and any variable data at the end.
 
 
-#### - WinBioHresult
+### -field WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values.
 <table>

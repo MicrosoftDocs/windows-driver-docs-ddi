@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 43a75def-0288-4615-ac85-b5e340aa11e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisgetcurrentprocessorcounts, NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, ndis/NdisGetCurrentProcessorCounts, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisGetCurrentProcessorCounts, netvista.ndisgetcurrentprocessorcounts, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, ndis/NdisGetCurrentProcessorCounts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,19 +72,19 @@ VOID NdisGetCurrentProcessorCounts(
 
 
 
-#### - pIdleCount [out]
+### -param pIdleCount [out]
 
 A pointer to a caller-supplied variable in which this function returns the cumulative idle time
      for the processor since the system was booted.
 
 
-#### - pKernelAndUser [out]
+### -param pKernelAndUser [out]
 
 A pointer to a caller-supplied variable in which this function returns the cumulative processing
      time (kernel-mode time plus user-mode time) for the processor since the system was booted.
 
 
-#### - pIndex [out]
+### -param pIndex [out]
 
 A pointer to a caller-supplied variable in which this function returns a zero-based index that
      identifies the processor within the computer.

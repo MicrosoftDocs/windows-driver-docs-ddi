@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e019b88a-bffe-44d2-8031-de37b6a1cf1c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemDriverUni::DrvWriteSpoolBuf, print.iprintoemdriveruni_drvwritespoolbuf, print_unidrv-pscript_rendering_ba569121-3277-447a-a53b-3de6e06fd182.xml, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices], DrvWriteSpoolBuf method, prcomoem/IPrintOemDriverUni::DrvWriteSpoolBuf, DrvWriteSpoolBuf, IPrintOemDriverUni
+ms.keywords: IPrintOemDriverUni interface [Print Devices], DrvWriteSpoolBuf method, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverUni interface, print_unidrv-pscript_rendering_ba569121-3277-447a-a53b-3de6e06fd182.xml, prcomoem/IPrintOemDriverUni::DrvWriteSpoolBuf, print.iprintoemdriveruni_drvwritespoolbuf, DrvWriteSpoolBuf, IPrintOemDriverUni::DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,22 +71,22 @@ HRESULT DrvWriteSpoolBuf(
 
 
 
-#### - pdevobj
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-#### - pBuffer
+### -param pBuffer
 
 Caller-supplied pointer to a buffer containing data to be sent to the print spooler.
 
 
-#### - cbSize
+### -param cbSize
 
 Caller-supplied value representing the size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
 
-#### - pdwResult [out]
+### -param pdwResult [out]
 
 Receives a method-supplied value representing the number of bytes sent to the spooler.
 
